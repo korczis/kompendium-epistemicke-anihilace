@@ -62,18 +62,16 @@ Zasažený člověk referuje, že „si to už nepamatuje přesně“, a svou ne
 | **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
 | **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
 
-## Indikace a kontraindikace
+## Okolnosti, které expozici vylučují
 
-### Legitimní indikace (vzácné, výhradně supervidovaný kontext)
-- Profesní příprava operativních složek pro extrémně náročné prostředí pod doložitelnou jurisdikcí.
-- Klinická intervence u striktně vymezených diagnóz, kde benefit prokazatelně převažuje riziko.
-- Forenzní rekonstrukce s explicitním soudním mandátem a etickým dohledem.
+Tato stránka nevypočítává případy, v nichž by zásah do záznamu o průběhu byl přípustný; o přípustnosti čehokoli takového nerozhoduje popis vzorce, nýbrž [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md). Následující přehled uvádí pouze okolnosti vylučující a důvod vyloučení.
 
-### Absolutní kontraindikace
-- Akutní psychiatrická krize, suicidální ideace, dekompenzovaná komorbidita.
-- Nedostatečná podpůrná síť subjektu nebo závislé sociální postavení.
-- Subjekt v mocenské asymetrii vůči operátorovi (zaměstnanec, podřízený, klient v privátní praxi bez druhého supervizora).
-- Komerční, kompetitivní nebo politické cíle protokolu.
+| Vylučující okolnost | Proč vylučuje |
+|---------------------|---------------|
+| Akutní psychiatrická krize, suicidální ideace nebo dekompenzovaná komorbidita | Přednost má krizová péče; žádná úroveň auditovatelnosti záznamu ji nemůže zastoupit ani odložit |
+| Nedostatečná podpůrná síť nebo závislé sociální postavení subjektu | Bez vlastního okolí nemá subjekt komu doložit rozpor v záznamu a zůstává odkázán na výklad jedné strany |
+| Operátor je zároveň nadřízeným, zadavatelem nebo jediným supervizorem subjektu | Kdo vede záznam a má nad subjektem moc, kontroluje i jeho pozdější výklad; souhlas tam nelze považovat za svobodný |
+| Komerční, kompetitivní nebo politický cíl | Takový cíl mění dokumentaci v nástroj vlastní obhajoby zadavatele, nikoli v ochranu subjektu |
 
 ## Klinické markery (neúmyslná manifestace)
 

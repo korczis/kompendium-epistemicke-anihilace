@@ -62,18 +62,16 @@ Zasažený člověk referuje, že „všechno dává smysl“, a současně nedo
 | **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
 | **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
 
-## Indikace a kontraindikace
+## Okolnosti, které expozici vylučují
 
-### Legitimní indikace (vzácné, výhradně supervidovaný kontext)
-- Profesní příprava operativních složek pro extrémně náročné prostředí pod doložitelnou jurisdikcí.
-- Klinická intervence u striktně vymezených diagnóz, kde benefit prokazatelně převažuje riziko.
-- Forenzní rekonstrukce s explicitním soudním mandátem a etickým dohledem.
+Přípustné použití paradigmatické fluidizace kompendium neuvádí a uvádět nemá; výčet prostředí, v nichž by uvolnění rámců bylo v pořádku, je sám povolením k zásahu. O tom, zda je takový zásah vůbec obhajitelný, rozhoduje [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md). Následuje jen to, co expozici vylučuje, s uvedeným důvodem.
 
-### Absolutní kontraindikace
-- Akutní psychiatrická krize, suicidální ideace, dekompenzovaná komorbidita.
-- Nedostatečná podpůrná síť subjektu nebo závislé sociální postavení.
-- Subjekt v mocenské asymetrii vůči operátorovi (zaměstnanec, podřízený, klient v privátní praxi bez druhého supervizora).
-- Komerční, kompetitivní nebo politické cíle protokolu.
+| Vylučující okolnost | Důvod vyloučení |
+|---------------------|---------------|
+| Dekompenzovaná komorbidita, akutní psychiatrická krize, suicidální ideace | Schopnost volit mezi rámci je již narušená a souběžná konfrontace ji dále ruší |
+| Chybějící podpůrné okolí subjektu nebo jeho závislé postavení | Nerozhodnost nemá kde skončit jinak než převzetím rámce přítomné autority |
+| Mocenská asymetrie vůči operátorovi (nadřízenost, pracovní vztah, privátní praxe bez druhého supervizora) | Jedno z nabízených paradigmat drží ten, kdo o subjektu rozhoduje, takže volba není volbou |
+| Komerční, soutěžní nebo politické zadání protokolu | Zadavatel má předem zvolený rámec, k němuž má fluidizace vést; to je přesvědčování, ne poznání |
 
 ## Klinické markery (neúmyslná manifestace)
 

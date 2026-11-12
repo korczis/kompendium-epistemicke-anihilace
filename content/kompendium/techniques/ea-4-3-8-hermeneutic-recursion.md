@@ -62,18 +62,16 @@ Zasažený člověk referuje vyčerpání bez výkonu: dny strávené přemýšl
 | **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
 | **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
 
-## Indikace a kontraindikace
+## Co expozici vylučuje
 
-### Legitimní indikace (vzácné, výhradně supervidovaný kontext)
-- Profesní příprava operativních složek pro extrémně náročné prostředí pod doložitelnou jurisdikcí.
-- Klinická intervence u striktně vymezených diagnóz, kde benefit prokazatelně převažuje riziko.
-- Forenzní rekonstrukce s explicitním soudním mandátem a etickým dohledem.
+Stránka neuvádí žádný kontext, v němž by indukovaná spirála sebevýkladu byla oprávněná; kompendium takové výčty nevede a otázku přípustnosti ponechává [etickým aspektům](@/kompendium/01-predmluva/eticke-aspekty.md). Zbytek sekce říká, co expozici vylučuje a z jakého důvodu.
 
-### Absolutní kontraindikace
-- Akutní psychiatrická krize, suicidální ideace, dekompenzovaná komorbidita.
-- Nedostatečná podpůrná síť subjektu nebo závislé sociální postavení.
-- Subjekt v mocenské asymetrii vůči operátorovi (zaměstnanec, podřízený, klient v privátní praxi bez druhého supervizora).
-- Komerční, kompetitivní nebo politické cíle protokolu.
+| Vylučující okolnost | Proč vylučuje |
+|---------------------|---------------|
+| Akutní psychiatrická krize, suicidální ideace nebo dekompenzovaná komorbidita | Výklad se v tomto stavu nemá o co zastavit a rekurze prohlubuje dezorganizaci |
+| Nedostatečná podpůrná síť subjektu nebo závislé sociální postavení | Nikdo zvenčí nemůže výklad vrátit k předmětu, o nějž jde |
+| Mocenská asymetrie vůči operátorovi (zaměstnanec nebo klient bez druhého supervizora) | Požadavek reflexe vyššího řádu nelze odmítnout, aniž by odmítnutí bylo vyloženo jako nedostatečná reflexe |
+| Komerční, kompetitivní nebo politický cíl protokolu | Odklad jednání a vyčerpání bez výkonu jsou pak žádoucím výsledkem, ne nežádoucím účinkem |
 
 ## Klinické markery (neúmyslná manifestace)
 

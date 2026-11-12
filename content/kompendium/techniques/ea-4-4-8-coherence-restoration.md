@@ -62,18 +62,16 @@ Zasažený člověk referuje úlevu a současně nedokáže uvést jedinou věc,
 | **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
 | **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
 
-## Indikace a kontraindikace
+## Vylučující okolnosti rekonstrukční fáze
 
-### Legitimní indikace (vzácné, výhradně supervidovaný kontext)
-- Profesní příprava operativních složek pro extrémně náročné prostředí pod doložitelnou jurisdikcí.
-- Klinická intervence u striktně vymezených diagnóz, kde benefit prokazatelně převažuje riziko.
-- Forenzní rekonstrukce s explicitním soudním mandátem a etickým dohledem.
+Kdy je obnova koherence legitimním cílem, se zde neurčuje: kompendium takový výčet neposkytuje a posouzení odkazuje na [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md). Tato část proto uvádí jen okolnosti, za nichž je rekonstrukční expozice vyloučena.
 
-### Absolutní kontraindikace
-- Akutní psychiatrická krize, suicidální ideace, dekompenzovaná komorbidita.
-- Nedostatečná podpůrná síť subjektu nebo závislé sociální postavení.
-- Subjekt v mocenské asymetrii vůči operátorovi (zaměstnanec, podřízený, klient v privátní praxi bez druhého supervizora).
-- Komerční, kompetitivní nebo politické cíle protokolu.
+| Vylučující okolnost | Proč vylučuje |
+|---------------------|---------------|
+| Akutní psychiatrická dekompenzace nebo suicidální ideace | Tlak na uzavřený a bezrozporný celek zastírá v krizi to, co je třeba ošetřit; namístě je akutní péče |
+| Subjekt bez nezávislé podpůrné sítě | Kontinuitu sociálních rolí nelze ověřit zvenčí, takže obnovená koherence se opírá o jediný zdroj |
+| Mezi subjektem a operátorem trvá asymetrie moci bez externího supervizora | Hotový celek dodaný nadřízenou stranou se stává jediným přijatelným sebepopisem a námitku proti němu nelze vznést |
+| Komerční, kompetitivní nebo politické zadání | Kde je žádoucím výsledkem rychlé a bezrozporné vyprávění, je obnova koherence znakem převzetí, ne uzdravení |
 
 ## Klinické markery (neúmyslná manifestace)
 

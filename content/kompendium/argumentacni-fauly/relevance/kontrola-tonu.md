@@ -35,7 +35,7 @@ catalog_broader = ""
 catalog_narrower = []
 catalog_depth = 0
 catalog_ancestors = []
-catalog_related = ["klam-klamu", "odvolani-na-emoce", "odvolani-na-silu", "cerveny-sled", "irelevantni-zaver", "predstirana-starost", "odvedeni-k-procedure", "personalizace-sporu", "pravidlo-svobody", "vyzva-k-relevanci"]
+catalog_related = ["klam-klamu", "odvolani-na-emoce", "odvolani-na-silu", "cerveny-sled", "irelevantni-zaver", "predstirana-starost", "odvedeni-k-procedure", "personalizace-sporu", "pravidlo-svobody", "obsah-a-vztah", "vyzva-k-relevanci"]
 catalog_related_declared = ["odvolani-na-emoce", "cerveny-sled", "irelevantni-zaver", "pravidlo-svobody", "personalizace-sporu", "vyzva-k-relevanci"]
 catalog_kompendium = ["kompendium/techniques/ea-7-2-1-fricker-epistemic-injustice.md", "kompendium/techniques/ea-5-5-7-afektivni-tonalni-redukce.md", "kompendium/techniques/ea-7-1-4-habermas-communicative-action.md"]
 catalog_canonical = ""
@@ -43,7 +43,7 @@ catalog_links_prose = ["kompendium/argumentacni-fauly/relevance/ad-hominem.md", 
 catalog_prev = "dve-kriva-jedno-pravo"
 catalog_next = "irelevantni-zaver"
 catalog_position = 27
-catalog_family_size = 28
+catalog_family_size = 29
 catalog_sources = ["govier-2010", "grice-1975", "herman-1992", "kunda-1990", "petty-cacioppo-1986", "vrij-2008", "walton-1995", "watzlawick-1967", "eemeren-grootendorst-2004"]
 catalog_sources_primary = ["govier-2010", "walton-1995", "eemeren-grootendorst-2004"]
 catalog_sources_roots = ["grice-1975", "watzlawick-1967"]
@@ -226,6 +226,7 @@ námitku nesmí být podmíněno ničím, co nesouvisí s jejím obsahem (van Ee
 - [Útěk k proceduře](@/kompendium/argumentacni-fauly/dialekticke-taktiky/odvedeni-k-procedure.md) – příbuzné heslo (Rétorické a dialogické taktiky, Procedural diversion)
 - [Personalizace sporu](@/kompendium/argumentacni-fauly/dialekticke-taktiky/personalizace-sporu.md) – příbuzné heslo (Rétorické a dialogické taktiky, Personalising the dispute)
 - [Pravidlo svobody](@/kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-svobody.md) – příbuzné heslo (Principy kritické diskuse a teorie argumentace, Freedom rule)
+- [Obsahová a vztahová rovina sdělení](@/kompendium/nlp-vzorce/zakladni-pojmy/obsah-a-vztah.md) – příbuzné heslo (NLP vzorce: Základní pojmy NLP, Content and relationship aspects)
 - [Výzva k relevanci](@/kompendium/nlp-vzorce/reframing/vyzva-k-relevanci.md) – příbuzné heslo (NLP vzorce: Reframing a rámce, Relevancy challenge)
 
 **V kompendiu**

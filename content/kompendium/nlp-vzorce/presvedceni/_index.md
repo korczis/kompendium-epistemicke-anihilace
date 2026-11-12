@@ -20,8 +20,8 @@ catalog_export = "data/nlp-katalog.json"
 catalog_family = "presvedceni"
 catalog_code = "16"
 catalog_en = "Belief patterns"
-catalog_size = 14
-catalog_members = ["cyklus-zmeny-presvedceni", "muzeum-starych-presvedceni", "audit-presvedceni", "limitujici-presvedceni", "presvedceni-o-pricine", "presvedceni-o-vyznamu", "presvedceni-o-identite", "beznadej-bezmoc-nehodnost", "retezeni-presvedceni", "kartezske-otazky", "myslenkovy-virus", "presvedceni-a-zdravi", "presvedceni-jako-mapa", "imprint"]
+catalog_size = 15
+catalog_members = ["cyklus-zmeny-presvedceni", "muzeum-starych-presvedceni", "audit-presvedceni", "limitujici-presvedceni", "presvedceni-o-pricine", "presvedceni-o-vyznamu", "presvedceni-o-identite", "beznadej-bezmoc-nehodnost", "retezeni-presvedceni", "kartezske-otazky", "myslenkovy-virus", "presvedceni-a-zdravi", "presvedceni-jako-mapa", "imprint", "zmena-hodnot"]
 catalog_types = ["concept", "pattern", "principle"]
 catalog_sources = ["bandler-1985", "bandler-grinder-1975", "bateson-1972", "beck-1976", "dilts-1990", "dilts-1999", "dilts-hallbom-smith-1990", "ellis-1962", "festinger-1957", "hassan-1988", "herman-1992", "lifton-1961", "mcguire-1964", "norcross-2006", "passmore-rowson-2019", "petty-cacioppo-1986", "popper-1959", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "witkowski-2010", "van-der-linden-2023"]
 +++
@@ -185,6 +185,7 @@ s pojetím přesvědčení jako sítě heslo o
 | `NLP-16.12` | [Přesvědčení a zdraví v NLP](@/kompendium/nlp-vzorce/presvedceni/presvedceni-a-zdravi.md) | Beliefs and health in NLP | pojem | terapeutické i vlivové | vysoké |
 | `NLP-16.13` | [Přesvědčení jako součást mapy](@/kompendium/nlp-vzorce/presvedceni/presvedceni-jako-mapa.md) | Beliefs as part of the map | princip | terapeutické i vlivové | střední |
 | `NLP-16.14` | [Imprint](@/kompendium/nlp-vzorce/presvedceni/imprint.md) | Imprint | pojem | terapeutické i vlivové | vysoké |
+| `NLP-16.15` | [Změna hodnot](@/kompendium/nlp-vzorce/presvedceni/zmena-hodnot.md) | Changing values | vzorec | terapeutické i vlivové | vysoké |
 
 ## Mapa rodiny
 
@@ -208,6 +209,7 @@ flowchart LR
   n12["Přesvědčení a zdraví v NLP"]
   n13["Přesvědčení jako součást mapy"]
   n14["Imprint"]
+  n15["Změna hodnot"]
   F --> n1
   n1 --> n2
   F --> n3
@@ -222,6 +224,7 @@ flowchart LR
   F --> n12
   F --> n13
   F --> n14
+  F --> n15
   click n1 "@/kompendium/nlp-vzorce/presvedceni/cyklus-zmeny-presvedceni.md"
   click n2 "@/kompendium/nlp-vzorce/presvedceni/muzeum-starych-presvedceni.md"
   click n3 "@/kompendium/nlp-vzorce/presvedceni/audit-presvedceni.md"
@@ -236,6 +239,7 @@ flowchart LR
   click n12 "@/kompendium/nlp-vzorce/presvedceni/presvedceni-a-zdravi.md"
   click n13 "@/kompendium/nlp-vzorce/presvedceni/presvedceni-jako-mapa.md"
   click n14 "@/kompendium/nlp-vzorce/presvedceni/imprint.md"
+  click n15 "@/kompendium/nlp-vzorce/presvedceni/zmena-hodnot.md"
 ```
 
 <!-- kompendium:katalog-vazby:end -->

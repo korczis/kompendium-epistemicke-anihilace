@@ -35,7 +35,7 @@ catalog_broader = ""
 catalog_narrower = []
 catalog_depth = 0
 catalog_ancestors = []
-catalog_related = ["odvolani-na-tradici", "falesne-dilema", "posouvani-branek", "predstirana-starost"]
+catalog_related = ["odvolani-na-tradici", "falesna-utecha", "falesne-dilema", "posouvani-branek", "predstirana-starost"]
 catalog_related_declared = ["falesne-dilema", "posouvani-branek", "odvolani-na-tradici", "predstirana-starost"]
 catalog_kompendium = ["kompendium/03-zakladni-kategorie/scenar-h.md", "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md"]
 catalog_canonical = ""
@@ -43,7 +43,7 @@ catalog_links_prose = ["kompendium/03-zakladni-kategorie/scenar-h.md", "kompendi
 catalog_prev = "presun-dukazniho-bremene"
 catalog_next = "argument-z-neuveritelnosti"
 catalog_position = 16
-catalog_family_size = 20
+catalog_family_size = 23
 catalog_sources = ["bentham-1824", "gigerenzer-2002", "kahneman-2011", "tversky-kahneman-1981", "walton-reed-macagno-2008"]
 catalog_sources_primary = ["walton-reed-macagno-2008"]
 catalog_sources_roots = ["bentham-1824"]
@@ -209,6 +209,7 @@ stavu.
 **Příbuzná hesla**
 
 - [Odvolání na tradici](@/kompendium/argumentacni-fauly/relevance/odvolani-na-tradici.md) – příbuzné heslo (Klamy relevance, Appeal to tradition)
+- [Falešná útěcha (relativní nedostatek)](@/kompendium/argumentacni-fauly/relevance/falesna-utecha.md) – příbuzné heslo (Klamy relevance, False consolation (relative privation))
 - [Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – příbuzné heslo (Klamy předpokladu, False dilemma)
 - [Posouvání branek](@/kompendium/argumentacni-fauly/predpoklady-argumentu/posouvani-branek.md) – příbuzné heslo (Klamy předpokladu, Moving the goalposts)
 - [Předstíraná starost](@/kompendium/argumentacni-fauly/dialekticke-taktiky/predstirana-starost.md) – příbuzné heslo (Rétorické a dialogické taktiky, Concern trolling)

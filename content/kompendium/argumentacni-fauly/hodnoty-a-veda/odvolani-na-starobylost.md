@@ -35,7 +35,7 @@ catalog_broader = ""
 catalog_narrower = []
 catalog_depth = 0
 catalog_ancestors = []
-catalog_related = ["ad-populum", "odvolani-na-tradici", "odvolani-na-novost", "odvolani-na-prirozenost", "chronologicky-snobismus", "etymologicky-klam"]
+catalog_related = ["ad-populum", "odvolani-na-tradici", "odvolani-na-novost", "odvolani-na-prirozenost", "chronologicky-snobismus", "odvolani-na-precedent", "etymologicky-klam"]
 catalog_related_declared = ["odvolani-na-tradici", "odvolani-na-novost", "chronologicky-snobismus", "odvolani-na-prirozenost", "ad-populum"]
 catalog_kompendium = ["kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/07-teoreticke-reflexe/politicka-ea.md"]
 catalog_canonical = ""
@@ -221,6 +221,7 @@ otázku, co je pro člověka kulturně důležité, od otázky, co je prokazatel
 - [Odvolání na novost](@/kompendium/argumentacni-fauly/relevance/odvolani-na-novost.md) – příbuzné heslo (Klamy relevance, Appeal to novelty)
 - [Odvolání na přirozenost](@/kompendium/argumentacni-fauly/relevance/odvolani-na-prirozenost.md) – příbuzné heslo (Klamy relevance, Appeal to nature)
 - [Chronologický snobismus](@/kompendium/argumentacni-fauly/relevance/chronologicky-snobismus.md) – příbuzné heslo (Klamy relevance, Chronological snobbery)
+- [Klamné odvolání na precedent](@/kompendium/argumentacni-fauly/predpoklady-argumentu/odvolani-na-precedent.md) – příbuzné heslo (Klamy předpokladu, Fallacious appeal to precedent)
 - [Etymologický klam](@/kompendium/argumentacni-fauly/jazykove-klamy/etymologicky-klam.md) – příbuzné heslo (Klamy jazyka a dvojznačnosti, Etymological fallacy)
 
 **V kompendiu**

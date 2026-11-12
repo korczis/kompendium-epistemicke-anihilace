@@ -35,7 +35,7 @@ catalog_broader = "pragma-dialektika"
 catalog_narrower = []
 catalog_depth = 1
 catalog_ancestors = ["pragma-dialektika"]
-catalog_related = ["ad-populum", "odvolani-na-emoce", "cerveny-sled", "whataboutism", "irelevantni-zaver", "odvedeni-k-procedure"]
+catalog_related = ["ad-populum", "odvolani-na-emoce", "cerveny-sled", "whataboutism", "irelevantni-zaver", "falesna-utecha", "odvedeni-k-procedure"]
 catalog_related_declared = ["irelevantni-zaver", "cerveny-sled", "odvolani-na-emoce", "ad-populum", "whataboutism"]
 catalog_kompendium = ["kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
 catalog_canonical = ""
@@ -220,6 +220,7 @@ dříve než se vůbec začne zkoumat, zda jsou jeho premisy pravdivé (Damer 20
 - [Červený sleď](@/kompendium/argumentacni-fauly/relevance/cerveny-sled.md) – příbuzné heslo (Klamy relevance, Red herring)
 - [Whataboutism](@/kompendium/argumentacni-fauly/relevance/whataboutism.md) – příbuzné heslo (Klamy relevance, Whataboutism)
 - [Irelevantní závěr](@/kompendium/argumentacni-fauly/relevance/irelevantni-zaver.md) – příbuzné heslo (Klamy relevance, Ignoratio elenchi)
+- [Falešná útěcha (relativní nedostatek)](@/kompendium/argumentacni-fauly/relevance/falesna-utecha.md) – příbuzné heslo (Klamy relevance, False consolation (relative privation))
 - [Útěk k proceduře](@/kompendium/argumentacni-fauly/dialekticke-taktiky/odvedeni-k-procedure.md) – příbuzné heslo (Rétorické a dialogické taktiky, Procedural diversion)
 
 **V kompendiu**

@@ -35,7 +35,7 @@ catalog_broader = "raport"
 catalog_narrower = []
 catalog_depth = 1
 catalog_ancestors = ["raport"]
-catalog_related = ["respekt-k-modelu-sveta", "som-hierarchie-kriterii", "uroven-presvedceni-a-hodnot", "kriteria", "hodnoty-pri-koupi", "raport-jako-nastroj-vlivu", "pseudoempatie", "slovni-baliky", "falesne-zrcadleni-v-podvodech"]
+catalog_related = ["respekt-k-modelu-sveta", "som-hierarchie-kriterii", "uroven-presvedceni-a-hodnot", "zmena-hodnot", "kriteria", "hodnoty-pri-koupi", "raport-jako-nastroj-vlivu", "pseudoempatie", "slovni-baliky", "falesne-zrcadleni-v-podvodech"]
 catalog_related_declared = ["kriteria", "som-hierarchie-kriterii", "hodnoty-pri-koupi", "slovni-baliky", "uroven-presvedceni-a-hodnot", "raport-jako-nastroj-vlivu"]
 catalog_kompendium = ["kompendium/techniques/ea-5-3-11-axiologicka-inverze.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
 catalog_canonical = ""
@@ -217,6 +217,7 @@ tomu, že hodnoty patří člověku a ne skupině, která je spravuje (Lifton 19
 - [Respekt k modelu světa druhého](@/kompendium/nlp-vzorce/predpoklady/respekt-k-modelu-sveta.md) – příbuzné heslo (Předpoklady NLP, Respect for the other person's model of the world)
 - [Hierarchie kritérií](@/kompendium/nlp-vzorce/sleight-of-mouth/som-hierarchie-kriterii.md) – příbuzné heslo (Sleight of Mouth, Hierarchy of criteria)
 - [Úroveň přesvědčení a hodnot](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-presvedceni-a-hodnot.md) – příbuzné heslo (Logické úrovně a percepční pozice, Beliefs and values level)
+- [Změna hodnot](@/kompendium/nlp-vzorce/presvedceni/zmena-hodnot.md) – příbuzné heslo (Přesvědčení, Changing values)
 - [Kritéria](@/kompendium/nlp-vzorce/metaprogramy/kriteria.md) – příbuzné heslo (Metaprogramy, Criteria)
 - [Hodnoty při koupi](@/kompendium/nlp-vzorce/metaprogramy/hodnoty-pri-koupi.md) – příbuzné heslo (Metaprogramy, Value buying)
 - [Raport jako nástroj vlivu](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md) – příbuzné heslo (Raport a kalibrace, Rapport as an influence tool)

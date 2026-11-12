@@ -55,7 +55,7 @@
       },
       {
         "code": "EA-1.3.2",
-        "in": 105,
+        "in": 106,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
         "tier": 6,
@@ -75,7 +75,7 @@
       },
       {
         "code": "EA-1.3.3",
-        "in": 69,
+        "in": 70,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-1-3-3-tematicka-diverze.md",
         "tier": 6,
@@ -85,7 +85,7 @@
       },
       {
         "code": "EA-1.4.1",
-        "in": 61,
+        "in": 62,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md",
         "tier": 6,
@@ -115,7 +115,7 @@
       },
       {
         "code": "EA-7.3.2",
-        "in": 43,
+        "in": 44,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-7-3-2-tversky-heuristics.md",
         "tier": 6,

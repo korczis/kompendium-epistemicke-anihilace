@@ -35,7 +35,7 @@ catalog_broader = ""
 catalog_narrower = []
 catalog_depth = 0
 catalog_ancestors = []
-catalog_related = ["tu-quoque", "odvolani-na-dusledky", "whataboutism", "zvlastni-vyjimka", "falesna-ekvivalence"]
+catalog_related = ["tu-quoque", "odvolani-na-dusledky", "whataboutism", "falesna-utecha", "zvlastni-vyjimka", "falesna-ekvivalence", "odvolani-na-precedent", "interpunkce-komunikace"]
 catalog_related_declared = ["tu-quoque", "whataboutism", "odvolani-na-dusledky", "falesna-ekvivalence", "zvlastni-vyjimka"]
 catalog_kompendium = ["kompendium/01-predmluva/eticke-aspekty.md", "kompendium/techniques/ea-7-1-5-arendt-banality-evil.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
 catalog_canonical = ""
@@ -43,7 +43,7 @@ catalog_links_prose = ["kompendium/01-predmluva/eticke-aspekty.md", "kompendium/
 catalog_prev = "chronologicky-snobismus"
 catalog_next = "kontrola-tonu"
 catalog_position = 26
-catalog_family_size = 28
+catalog_family_size = 29
 catalog_sources = ["damer-2009", "festinger-1957", "govier-2010", "herman-1992", "johnson-blair-1977", "kunda-1990", "mercier-sperber-2011", "walton-2008", "watzlawick-1967", "eemeren-grootendorst-2004"]
 catalog_sources_primary = ["damer-2009", "govier-2010", "johnson-blair-1977", "walton-2008", "eemeren-grootendorst-2004"]
 catalog_sources_roots = ["watzlawick-1967"]
@@ -219,8 +219,11 @@ odstraňuje potřebu ospravedlňovat se navzájem.
 - [Ty taky](@/kompendium/argumentacni-fauly/relevance/tu-quoque.md) – příbuzné heslo (Klamy relevance, Tu quoque)
 - [Odvolání na důsledky](@/kompendium/argumentacni-fauly/relevance/odvolani-na-dusledky.md) – příbuzné heslo (Klamy relevance, Appeal to consequences)
 - [Whataboutism](@/kompendium/argumentacni-fauly/relevance/whataboutism.md) – příbuzné heslo (Klamy relevance, Whataboutism)
+- [Falešná útěcha (relativní nedostatek)](@/kompendium/argumentacni-fauly/relevance/falesna-utecha.md) – příbuzné heslo (Klamy relevance, False consolation (relative privation))
 - [Zvláštní výjimka](@/kompendium/argumentacni-fauly/predpoklady-argumentu/zvlastni-vyjimka.md) – příbuzné heslo (Klamy předpokladu, Special pleading)
 - [Falešná ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md) – příbuzné heslo (Klamy předpokladu, False equivalence)
+- [Klamné odvolání na precedent](@/kompendium/argumentacni-fauly/predpoklady-argumentu/odvolani-na-precedent.md) – příbuzné heslo (Klamy předpokladu, Fallacious appeal to precedent)
+- [Interpunkce komunikačního sledu](@/kompendium/nlp-vzorce/zakladni-pojmy/interpunkce-komunikace.md) – příbuzné heslo (NLP vzorce: Základní pojmy NLP, Punctuation of the communicational sequence)
 
 **V kompendiu**
 

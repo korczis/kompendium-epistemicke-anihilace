@@ -35,15 +35,15 @@ catalog_broader = ""
 catalog_narrower = ["pacing-a-leading"]
 catalog_depth = 0
 catalog_ancestors = []
-catalog_related = ["predikaty", "raport", "pacing-aktualni-zkusenosti", "zrcadleni", "pacing-a-leading", "vedeni-v-raportu", "raport-jako-nastroj-vlivu"]
+catalog_related = ["predikaty", "raport", "symetricka-a-komplementarni-interakce", "pacing-aktualni-zkusenosti", "zrcadleni", "pacing-a-leading", "vedeni-v-raportu", "raport-jako-nastroj-vlivu"]
 catalog_related_declared = ["pacing-a-leading", "raport", "zrcadleni", "pacing-aktualni-zkusenosti", "vedeni-v-raportu", "raport-jako-nastroj-vlivu"]
 catalog_kompendium = ["kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md", "kompendium/case-studies/61-corporate-leadership-cult.md"]
 catalog_canonical = ""
 catalog_links_prose = ["kompendium/nlp-vzorce/milton-model/ano-sada.md", "kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md", "kompendium/nlp-vzorce/zakladni-pojmy/raport.md", "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md"]
 catalog_prev = "transderivacni-hledani"
-catalog_next = ""
+catalog_next = "obsah-a-vztah"
 catalog_position = 42
-catalog_family_size = 42
+catalog_family_size = 45
 catalog_sources = ["bandler-grinder-1975b", "bandler-grinder-1979", "chartrand-bargh-1999", "cialdini-2009", "freedman-fraser-1966", "grinder-bandler-1981", "haley-1973", "herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "sharpley-1984", "sharpley-1987", "singer-lalich-1995"]
 catalog_sources_primary = ["bandler-grinder-1975b", "bandler-grinder-1979", "grinder-bandler-1981"]
 catalog_sources_roots = ["haley-1973"]
@@ -234,6 +234,7 @@ porozumění terapeuta nikdy nepřecházelo v nenápadné vedení.
 
 - [Predikáty](@/kompendium/nlp-vzorce/zakladni-pojmy/predikaty.md) – příbuzné heslo (Základní pojmy NLP, Predicates)
 - [Raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md) – příbuzné heslo (Základní pojmy NLP, Rapport)
+- [Symetrická a komplementární interakce](@/kompendium/nlp-vzorce/zakladni-pojmy/symetricka-a-komplementarni-interakce.md) – příbuzné heslo (Základní pojmy NLP, Symmetrical and complementary interaction)
 - [Pacing aktuální zkušenosti](@/kompendium/nlp-vzorce/milton-model/pacing-aktualni-zkusenosti.md) – příbuzné heslo (Milton-model, Pacing current experience)
 - [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) – příbuzné heslo (Raport a kalibrace, Mirroring)
 - [Pacing a leading](@/kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md) – příbuzné heslo (Raport a kalibrace, Pacing and leading)
@@ -249,5 +250,6 @@ porozumění terapeuta nikdy nepřecházelo v nenápadné vedení.
 **V katalogu**
 
 - [Transderivační hledání](@/kompendium/nlp-vzorce/zakladni-pojmy/transderivacni-hledani.md) – předchozí heslo rodiny
+- [Obsahová a vztahová rovina sdělení](@/kompendium/nlp-vzorce/zakladni-pojmy/obsah-a-vztah.md) – další heslo rodiny
 
 <!-- kompendium:katalog-vazby:end -->

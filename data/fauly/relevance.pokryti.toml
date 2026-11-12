@@ -1,0 +1,35 @@
+# Rodina AF-02: Klamy relevance, část pokryti (AF-02.29; pravidlo project.content-catalogs;
+# schéma v scripts/catalogs.py). Pořadí záznamů je pořadí identifikátorů; identifikátor se po
+# zveřejnění nemění.
+
+[[pattern]]
+id = "AF-02.29"
+slug = "falesna-utecha"
+type = "informal"
+cs = "Falešná útěcha (relativní nedostatek)"
+en = "False consolation (relative privation)"
+aliases = ["falešná útěcha", "relativní nedostatek", "jiní jsou na tom hůř", "apel na horší problémy"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["whataboutism", "dve-kriva-jedno-pravo", "cerveny-sled", "irelevantni-zaver", "nirvana-klam", "pravidlo-relevance"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-3-tematicka-diverze.md",
+  "kompendium/organizational-defense/36-trauma-aware-management.md",
+  "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Stěžujete si, že vám v nájemním bytě půl roku teče do koupelny? Lidé v jiných zemích nemají ani střechu nad hlavou, takže byste měli být vděční, že vůbec máte kde bydlet."
+context = "Správce domu odpovídá na stížnost nájemníků na opakovanou neopravenou závadu."
+benign = false
+marker = "Otázka, zda má správce závadu opravit, se nahrazuje srovnáním s horším stavem jinde; z toho, že existuje větší bída, nic neplyne pro povinnost opravit byt."
+response = "Připustit, že jinde může být hůř, a vrátit se k věci: kdo má podle smlouvy závadu opravit, proč se tak půl roku nestalo a kdy se to stane."
+
+[[pattern.trainer]]
+utterance = "Rozpočet letos pokryje jen jednu opravu. Navrhuji nejdřív most, který statik označil za havarijní, a chodník u školy zařadit na první místo příštího roku."
+context = "Starostka předkládá zastupitelstvu pořadí investic při omezeném rozpočtu."
+benign = true
+marker = "Srovnání závažnosti slouží k rozhodnutí o pořadí při skutečně omezených prostředcích; menší problém se neprohlašuje za nedůležitý a dostává termín řešení."
+response = "Legitimní stanovení priorit: důvod srovnání je uveden, kritérium (havarijní stav) je ověřitelné a druhý problém zůstává na pořadu."

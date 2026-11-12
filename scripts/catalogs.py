@@ -298,6 +298,16 @@ def load_catalogue(cat: Catalog, errors: list, partial: bool, seen: dict) -> Non
                     seen[key].add(e[key])
                 fam["entries"].append(e)
                 cat.entries.append(e)
+    cov = cat.data / "_coverage.toml"
+    cat.coverage = []
+    if cov.exists():
+        try:
+            cat.coverage = load_toml(cov).get("term", [])
+        except tomllib.TOMLDecodeError as exc:
+            fail(errors, f"{cat.dir}/_coverage.toml", f"TOML: {exc}")
+    elif not partial:
+        fail(errors, f"{cat.dir}/_coverage.toml", "missing: every catalogue maps the names its "
+             "standard references list to an entry or a reasoned exclusion")
         if not fam["entries"] and not partial:
             fail(errors, f"{cat.dir}/{fam['slug']}.toml", "no [[pattern]] entries")
         fam["entries"].sort(key=lambda x: x["id"])
@@ -418,6 +428,8 @@ def toml_value(value) -> str:
         return str(value)
     if isinstance(value, list):
         return "[" + ", ".join(toml_value(v) for v in value) + "]"
+    if isinstance(value, dict):
+        return "{ " + ", ".join(f"{k} = {toml_value(v)}" for k, v in value.items()) + " }"
     return json.dumps(str(value), ensure_ascii=False)
 
 
@@ -661,7 +673,16 @@ def section_page(ctx: dict, cat: Catalog, prose: str, description: str, title: s
                     ("section_icon", cat.icon), ("toc", True), ("lang", "cs"),
                     ("schema_type", "DefinedTermSet"), ("catalog", cat.slug),
                     ("catalog_schema", SCHEMA), ("catalog_export", cat.export.split("static/", 1)[1]),
-                    ("catalog_size", len(cat.entries)), ("catalog_sources", keys)])])
+                    ("catalog_size", len(cat.entries)),
+                    ("catalog_families", sum(1 for f in cat.families if f["entries"])),
+                    ("catalog_type_counts", {t: n for t in cat.types
+                                             if (n := sum(1 for e in cat.entries
+                                                          if e["type"] == t))}),
+                    ("catalog_coverage", {
+                        "terms": len(cat.coverage),
+                        "entries": sum(1 for x in cat.coverage if x.get("entry")),
+                        "excluded": sum(1 for x in cat.coverage if x.get("excluded"))}),
+                    ("catalog_sources", keys)])])
     by_type = collections.Counter(cat.types[e["type"]] for e in cat.entries)
     own = sum(1 for e in cat.entries if e["own"])
     lines = [BEGIN, "", "## Rodiny katalogu", "",
@@ -675,6 +696,7 @@ def section_page(ctx: dict, cat: Catalog, prose: str, description: str, title: s
               + (f" {len(cat.entries) - own} z nich má v knize jinou kanonickou stránku a "
                  "katalog na ni odkazuje." if own < len(cat.entries) else "")
               + " Čísla odvozuje scripts/catalogs.py z katalogu při každém sestavení.", ""]
+    lines += coverage_table(ctx, cat)
     lines += [END, ""] + literature(keys, sources) + [BEGIN, "", "## Související", ""]
     for other in ctx["catalogs"]:
         if other is not cat:
@@ -684,6 +706,29 @@ def section_page(ctx: dict, cat: Catalog, prose: str, description: str, title: s
                  "katalog patří")
     lines += ["", END]
     return (front + "\n" + f"# {title}\n\n" + prose.strip() + "\n\n" + "\n".join(lines) + "\n")
+
+
+def coverage_table(ctx: dict, cat: Catalog) -> list:
+    """The derived table of <dir>/_coverage.toml: every name the standard references list and
+    the entry that covers it, or why the catalogue has none."""
+    if not cat.coverage:
+        return []
+    sources, by_slug = ctx["sources"], ctx["by_slug"]
+    out = ["## Pokrytí standardních přehledů", "",
+           f"Katalog porovnává svá hesla s názvy, které uvádějí standardní přehledy oboru: "
+           f"{len(cat.coverage)} názvů, z nich "
+           f"{sum(1 for x in cat.coverage if x.get('entry'))} má heslo a "
+           f"{sum(1 for x in cat.coverage if x.get('excluded'))} je odůvodněně mimo katalog. "
+           "Tabulku odvozuje scripts/catalogs.py ze souboru pokrytí a brána odmítne název, "
+           "který nemá heslo ani důvod.", "",
+           "| Název v přehledu | Přehled | Heslo katalogu |", "|---|---|---|"]
+    for term in sorted(cat.coverage, key=lambda x: x["name"].casefold()):
+        refs = "; ".join(sources[k]["cite"] for k in term.get("sources", []) if k in sources)
+        e = by_slug.get(term.get("entry") or "")
+        where = (f"[{e['cs']}]({link(e['path'])})" if e
+                 else f"mimo katalog: {term.get('excluded', '')}")
+        out.append(f"| {term['name']} | {refs} | {where} |")
+    return out + [""]
 
 
 def url(e: dict) -> str:
@@ -724,7 +769,10 @@ def catalogue_data(ctx: dict, cat: Catalog) -> str:
             "note": "Derived, never edited by hand; the front matter of every page carries the "
                     "same fields under [extra] catalog_*.",
             "vocab": {"types": cat.types, "uses": cat.uses, "risks": cat.risks},
-            "families": families, "entries": entries, "edges": edges, "sources": works}
+            "families": families, "entries": entries, "edges": edges, "sources": works,
+            "coverage": [{"name": x["name"], "sources": x.get("sources", []),
+                          "entry": x.get("entry", ""), "excluded": x.get("excluded", "")}
+                         for x in cat.coverage]}
     return json.dumps(data, ensure_ascii=False, indent=1, sort_keys=True) + "\n"
 
 
@@ -797,6 +845,42 @@ def write_atomic(path: pathlib.Path, text: str) -> None:
     os.replace(tmp, path)
 
 
+COVERAGE_KEYS = {"name", "sources", "entry", "excluded"}
+
+
+def validate_coverage(cats: list, by_slug: dict, sources: dict, errors: list) -> None:
+    """Each [[term]] of <dir>/_coverage.toml is a name a standard reference lists: it maps to one
+    entry of any catalogue (own or canonical) or to `excluded`, a reason it has no entry."""
+    for cat in cats:
+        where = f"{cat.dir}/_coverage.toml"
+        names = set()
+        for i, term in enumerate(cat.coverage):
+            label = f"{where}: term {term.get('name') or i + 1}"
+            for key in sorted(set(term) - COVERAGE_KEYS):
+                fail(errors, label, f"unknown field '{key}'")
+            name = term.get("name")
+            if not isinstance(name, str) or not name.strip():
+                fail(errors, label, "needs a `name`")
+                continue
+            if name.casefold() in names:
+                fail(errors, label, "duplicate name")
+            names.add(name.casefold())
+            refs = term.get("sources")
+            if not isinstance(refs, list) or not refs:
+                fail(errors, label, "needs `sources`: the references that list this name")
+            else:
+                for key in refs:
+                    if key not in sources:
+                        fail(errors, label, f"source '{key}' is not in data/sources.toml")
+            entry, excluded = term.get("entry"), term.get("excluded")
+            if bool(entry) == bool(excluded):
+                fail(errors, label, "needs exactly one of `entry` (a slug) or `excluded` (a reason)")
+            elif entry and entry not in by_slug:
+                fail(errors, label, f"unknown entry '{entry}'")
+            elif excluded and (not isinstance(excluded, str) or len(excluded) < 40):
+                fail(errors, label, "`excluded` must say why in at least 40 characters")
+
+
 def build_context(errors: list, warnings: list, partial: bool) -> dict:
     decl, cats = load_declaration(errors)
     seen = {"id": set(), "slug": set(), "family": set()}
@@ -814,12 +898,15 @@ def build_context(errors: list, warnings: list, partial: bool) -> dict:
         if e["broader"] in by_slug:
             narrower[e["broader"]].append(e)
     titles = {p: page_title(p) for e in entries for p in e["kompendium"] if (CONTENT / p).exists()}
+    sources = load_sources()
+    if not partial:
+        validate_coverage(cats, by_slug, sources, errors)
     return {
         "catalogs": cats, "by_slug": by_slug,
         "related": {k: sorted((by_slug[s] for s in v), key=lambda x: x["id"])
                     for k, v in related.items()},
         "narrower": {k: sorted(v, key=lambda x: x["id"]) for k, v in narrower.items()},
-        "titles": titles, "sources": load_sources(),
+        "titles": titles, "sources": sources,
         "prose": {}, "desc": {},
     }
 

@@ -35,7 +35,7 @@ catalog_broader = ""
 catalog_narrower = []
 catalog_depth = 0
 catalog_ancestors = []
-catalog_related = ["vyznam-komunikace-je-reakce", "komunikace-vedoma-a-nevedoma", "odpovednost-za-komunikaci", "kalibrace", "cteni-myslenek", "cteni-reci-tela"]
+catalog_related = ["vyznam-komunikace-je-reakce", "komunikace-vedoma-a-nevedoma", "odpovednost-za-komunikaci", "kalibrace", "obsah-a-vztah", "interpunkce-komunikace", "cteni-myslenek", "cteni-reci-tela"]
 catalog_related_declared = ["komunikace-vedoma-a-nevedoma", "cteni-myslenek", "kalibrace", "cteni-reci-tela", "vyznam-komunikace-je-reakce"]
 catalog_kompendium = ["kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md", "kompendium/techniques/ea-7-1-4-habermas-communicative-action.md"]
 catalog_canonical = ""
@@ -227,6 +227,8 @@ zásada pokory: kalibrace neverbálního projevu je hypotéza, nikoli vhled do c
 - [Komunikace probíhá vědomě i nevědomě](@/kompendium/nlp-vzorce/predpoklady/komunikace-vedoma-a-nevedoma.md) – příbuzné heslo (Předpoklady NLP, Communication is both conscious and unconscious)
 - [Za výsledek komunikace odpovídá komunikátor](@/kompendium/nlp-vzorce/predpoklady/odpovednost-za-komunikaci.md) – příbuzné heslo (Předpoklady NLP, The communicator is responsible for the communication)
 - [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzné heslo (Základní pojmy NLP, Calibration)
+- [Obsahová a vztahová rovina sdělení](@/kompendium/nlp-vzorce/zakladni-pojmy/obsah-a-vztah.md) – příbuzné heslo (Základní pojmy NLP, Content and relationship aspects)
+- [Interpunkce komunikačního sledu](@/kompendium/nlp-vzorce/zakladni-pojmy/interpunkce-komunikace.md) – příbuzné heslo (Základní pojmy NLP, Punctuation of the communicational sequence)
 - [Čtení myšlenek](@/kompendium/nlp-vzorce/meta-model/cteni-myslenek.md) – příbuzné heslo (Meta-model, Mind reading)
 - [Čtení řeči těla v NLP](@/kompendium/nlp-vzorce/raport-a-kalibrace/cteni-reci-tela.md) – příbuzné heslo (Raport a kalibrace, Body-language reading in NLP)
 

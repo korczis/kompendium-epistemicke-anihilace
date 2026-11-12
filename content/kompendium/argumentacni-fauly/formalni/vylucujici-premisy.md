@@ -35,7 +35,7 @@ catalog_broader = "formalni-klam"
 catalog_narrower = []
 catalog_depth = 1
 catalog_ancestors = ["formalni-klam"]
-catalog_related = ["nerozlozeny-stredni-termin", "nedovoleny-vetsi-termin", "ctyri-terminy", "existencni-klam", "odvolani-na-nevedomost"]
+catalog_related = ["nerozlozeny-stredni-termin", "nedovoleny-vetsi-termin", "ctyri-terminy", "existencni-klam", "kladny-zaver-ze-zaporne-premisy", "odvolani-na-nevedomost"]
 catalog_related_declared = ["nerozlozeny-stredni-termin", "nedovoleny-vetsi-termin", "existencni-klam", "ctyri-terminy", "odvolani-na-nevedomost"]
 catalog_kompendium = ["kompendium/forensic-legal/_index.md", "kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md", "kompendium/03-zakladni-kategorie/kapitola-1.md"]
 catalog_canonical = ""
@@ -43,7 +43,7 @@ catalog_links_prose = ["kompendium/argumentacni-fauly/relevance/odvolani-na-neve
 catalog_prev = "potvrzeni-disjunktu"
 catalog_next = "zamena-kvantifikatoru"
 catalog_position = 10
-catalog_family_size = 14
+catalog_family_size = 16
 catalog_sources = ["copi-cohen-mcmahon-2014", "johnson-blair-1977", "kahneman-2011", "mercier-sperber-2011", "stanovich-west-2000", "toulmin-1958", "whately-1826", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
 catalog_sources_primary = ["copi-cohen-mcmahon-2014", "johnson-blair-1977", "toulmin-1958", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
 catalog_sources_roots = ["whately-1826"]
@@ -226,6 +226,7 @@ sebe do kladné podoby a zeptat se, co z nich skutečně víme.
 - [Nedovolený větší termín](@/kompendium/argumentacni-fauly/formalni/nedovoleny-vetsi-termin.md) – příbuzné heslo (Formální klamy, Illicit major)
 - [Čtyři termíny](@/kompendium/argumentacni-fauly/formalni/ctyri-terminy.md) – příbuzné heslo (Formální klamy, Four terms)
 - [Existenční klam](@/kompendium/argumentacni-fauly/formalni/existencni-klam.md) – příbuzné heslo (Formální klamy, Existential fallacy)
+- [Kladný závěr ze záporné premisy](@/kompendium/argumentacni-fauly/formalni/kladny-zaver-ze-zaporne-premisy.md) – příbuzné heslo (Formální klamy, Affirmative conclusion from a negative premise)
 - [Odvolání na nevědomost](@/kompendium/argumentacni-fauly/relevance/odvolani-na-nevedomost.md) – příbuzné heslo (Klamy relevance, Appeal to ignorance)
 
 **V kompendiu**

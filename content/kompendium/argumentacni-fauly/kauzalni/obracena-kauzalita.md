@@ -35,7 +35,7 @@ catalog_broader = "korelace-a-kauzalita"
 catalog_narrower = []
 catalog_depth = 1
 catalog_ancestors = ["korelace-a-kauzalita"]
-catalog_related = ["post-hoc", "korelace-a-kauzalita", "jedina-pricina", "prehlizena-spolecna-pricina", "pricina-a-nasledek"]
+catalog_related = ["post-hoc", "korelace-a-kauzalita", "jedina-pricina", "prehlizena-spolecna-pricina", "interpunkce-komunikace", "pricina-a-nasledek"]
 catalog_related_declared = ["prehlizena-spolecna-pricina", "post-hoc", "pricina-a-nasledek", "jedina-pricina"]
 catalog_kompendium = ["kompendium/techniques/ea-5-1-12-kauzalni-inverze.md", "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md", "kompendium/population-health/_index.md"]
 catalog_canonical = ""
@@ -226,6 +226,7 @@ dvou rovnocenných stran (Stark 2007).
 - [Záměna korelace a kauzality](@/kompendium/argumentacni-fauly/kauzalni/korelace-a-kauzalita.md) – příbuzné heslo (Kauzální klamy, Cum hoc ergo propter hoc)
 - [Jediná příčina](@/kompendium/argumentacni-fauly/kauzalni/jedina-pricina.md) – příbuzné heslo (Kauzální klamy, Fallacy of the single cause)
 - [Přehlížená společná příčina](@/kompendium/argumentacni-fauly/kauzalni/prehlizena-spolecna-pricina.md) – příbuzné heslo (Kauzální klamy, Ignoring a common cause)
+- [Interpunkce komunikačního sledu](@/kompendium/nlp-vzorce/zakladni-pojmy/interpunkce-komunikace.md) – příbuzné heslo (NLP vzorce: Základní pojmy NLP, Punctuation of the communicational sequence)
 - [Příčina a následek](@/kompendium/nlp-vzorce/meta-model/pricina-a-nasledek.md) – příbuzné heslo (NLP vzorce: Meta-model, Cause and effect)
 
 **V kompendiu**

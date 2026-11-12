@@ -41,9 +41,9 @@ catalog_kompendium = ["kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "ko
 catalog_canonical = ""
 catalog_links_prose = ["kompendium/06-obrana/_index.md", "kompendium/07-teoreticke-reflexe/socialni-epistemologie.md", "kompendium/argumentacni-fauly/formalni/popreni-predchudce.md", "kompendium/argumentacni-fauly/predpoklady-argumentu/ukvapene-zobecneni.md", "kompendium/argumentacni-fauly/relevance/ad-hominem.md", "kompendium/argumentacni-fauly/relevance/kontrola-tonu.md", "kompendium/argumentacni-fauly/teorie-argumentace/ocelovy-panak.md", "kompendium/techniques/ea-1-3-3-tematicka-diverze.md"]
 catalog_prev = "klam-maskovaneho-muze"
-catalog_next = ""
+catalog_next = "kladny-zaver-ze-zaporne-premisy"
 catalog_position = 14
-catalog_family_size = 14
+catalog_family_size = 16
 catalog_sources = ["cook-lewandowsky-ecker-2017", "copi-cohen-mcmahon-2014", "damer-2009", "hahn-oaksford-2007", "hamblin-1970", "kunda-1990", "mercier-sperber-2011", "nickerson-1998", "roozenbeek-2022", "walton-1995", "eemeren-grootendorst-2004"]
 catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "hamblin-1970", "walton-1995", "eemeren-grootendorst-2004"]
 catalog_sources_roots = []
@@ -246,5 +246,6 @@ přesunům diskuse od věci k terminologii se kniha zabývá v části o
 **V katalogu**
 
 - [Klam maskovaného muže](@/kompendium/argumentacni-fauly/formalni/klam-maskovaneho-muze.md) – předchozí heslo rodiny
+- [Kladný závěr ze záporné premisy](@/kompendium/argumentacni-fauly/formalni/kladny-zaver-ze-zaporne-premisy.md) – další heslo rodiny
 
 <!-- kompendium:katalog-vazby:end -->

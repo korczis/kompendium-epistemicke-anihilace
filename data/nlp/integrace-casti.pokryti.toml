@@ -1,0 +1,37 @@
+# Rodina NLP-15: Práce s částmi, část pokryti (NLP-15.10).
+# Pravidlo project.content-catalogs; schéma v scripts/catalogs.py. Pořadí záznamů je pořadí
+# identifikátorů; identifikátor se po zveřejnění nemění.
+
+[[pattern]]
+id = "NLP-15.10"
+slug = "vytvoreni-nove-casti"
+type = "pattern"
+cs = "Vytvoření nové části"
+en = "Creating a new part"
+aliases = ["vytvoření části", "creating a part", "nová část"]
+use = "dvoji"
+risk = "stredni"
+broader = "integrace-casti"
+related = ["sestikrokovy-reframing", "elicitace-pozitivniho-zameru", "generator-noveho-chovani", "vyjednavani-casti", "ekologicka-kontrola", "stepeni-ja-v-manipulaci"]
+kompendium = [
+  "kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md",
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+  "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md",
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ta tvoje stará, ustrašená část tu už nemá co dělat. Dnes v tobě vznikla nová část, část vítěze, a ta ví, že se mnou máš podepsat smlouvu na další rok."
+context = "Vedoucí prodejního semináře osobního rozvoje mluví s účastníkem po skupinovém cvičení."
+benign = false
+marker = "„Nová část“ se ohlašuje zvenku jako hotová věc, dostává obsah, který vyhovuje mluvčímu, a stará váhavost se odepisuje jako přežitek."
+response = "Trvat na tom, že o vlastní povaze rozhoduje člověk sám, oddělit dojem ze cvičení od finančního rozhodnutí a smlouvu posoudit s odstupem a mimo skupinu."
+
+[[pattern.trainer]]
+utterance = "Říkáte, že vám chybí schopnost v klidu odmítnout kolegu. Můžeme spolu zkusit popsat, jak by vypadalo, kdybyste to uměla, a zda by vám to vůbec vyhovovalo."
+context = "Koučka v individuálním sezení s klientkou, která se domluvila na cíli asertivity."
+benign = true
+marker = "Nová dovednost se popisuje jako možnost, kterou klientka sama zvažuje a smí odmítnout; nikdo jí nevkládá hotovou identitu."
+response = "Jde o neškodné užití: obraz nové stránky slouží jako pomůcka k nácviku chování, cíl si určila klientka a rozhodnutí zůstává u ní."

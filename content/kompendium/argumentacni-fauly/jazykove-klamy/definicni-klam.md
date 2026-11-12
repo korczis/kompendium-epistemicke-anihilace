@@ -41,9 +41,9 @@ catalog_kompendium = ["kompendium/techniques/ea-5-4-16-kruhove-definice-implanta
 catalog_canonical = ""
 catalog_links_prose = ["kompendium/argumentacni-fauly/hodnoty-a-veda/naturalisticky-klam.md", "kompendium/argumentacni-fauly/jazykove-klamy/ekvivokace.md", "kompendium/argumentacni-fauly/jazykove-klamy/presvedcovaci-definice.md", "kompendium/argumentacni-fauly/teorie-argumentace/pragma-dialektika.md", "kompendium/detection-signatures/2-linguistic-circular-definitions.md", "kompendium/techniques/ea-5-4-16-kruhove-definice-implantace.md"]
 catalog_prev = "vytrzeni-z-kontextu"
-catalog_next = ""
+catalog_next = "vagnost"
 catalog_position = 13
-catalog_family_size = 13
+catalog_family_size = 15
 catalog_sources = ["copi-cohen-mcmahon-2014", "kunda-1990", "lakoff-johnson-1980", "moore-1903", "toulmin-1958", "walton-reed-macagno-2008", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
 catalog_sources_primary = ["copi-cohen-mcmahon-2014", "toulmin-1958", "walton-reed-macagno-2008", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
 catalog_sources_roots = ["moore-1903"]
@@ -231,5 +231,6 @@ prohlásil za vyřešenou.
 **V katalogu**
 
 - [Vytržení z kontextu](@/kompendium/argumentacni-fauly/jazykove-klamy/vytrzeni-z-kontextu.md) – předchozí heslo rodiny
+- [Zneužití vágnosti](@/kompendium/argumentacni-fauly/jazykove-klamy/vagnost.md) – další heslo rodiny
 
 <!-- kompendium:katalog-vazby:end -->

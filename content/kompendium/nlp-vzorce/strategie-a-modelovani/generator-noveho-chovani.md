@@ -35,7 +35,7 @@ catalog_broader = "strategie-pojem"
 catalog_narrower = []
 catalog_depth = 1
 catalog_ancestors = ["strategie-pojem"]
-catalog_related = ["tote-model", "asociace", "disociace", "budouci-prehravani", "uroven-chovani", "instalace-strategie"]
+catalog_related = ["tote-model", "asociace", "disociace", "budouci-prehravani", "uroven-chovani", "instalace-strategie", "vytvoreni-nove-casti"]
 catalog_related_declared = ["budouci-prehravani", "disociace", "asociace", "tote-model", "instalace-strategie"]
 catalog_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md"]
 catalog_canonical = ""
@@ -132,6 +132,7 @@ Protože riziko samotného vzorce je nízké, obrana spočívá hlavně v udrže
 - [Budoucí přehrávání](@/kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md) – příbuzné heslo (Časová osa, Future pacing)
 - [Úroveň chování](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-chovani.md) – příbuzné heslo (Logické úrovně a percepční pozice, Behaviour level)
 - [Instalace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/instalace-strategie.md) – příbuzné heslo (Strategie a modelování, Strategy installation)
+- [Vytvoření nové části](@/kompendium/nlp-vzorce/integrace-casti/vytvoreni-nove-casti.md) – příbuzné heslo (Práce s částmi, Creating a new part)
 
 **V kompendiu**
 

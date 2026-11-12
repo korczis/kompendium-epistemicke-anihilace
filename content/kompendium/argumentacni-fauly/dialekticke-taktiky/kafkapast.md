@@ -35,7 +35,7 @@ catalog_broader = "nefalzifikovatelnost"
 catalog_narrower = []
 catalog_depth = 1
 catalog_ancestors = ["nefalzifikovatelnost"]
-catalog_related = ["otraveni-studny", "nefalzifikovatelnost", "presun-dukazniho-bremene", "myslenkove-ukoncujici-klise", "bulverismus", "pravidlo-svobody", "som-meta-ramec"]
+catalog_related = ["otraveni-studny", "nefalzifikovatelnost", "presun-dukazniho-bremene", "nekonzistence", "myslenkove-ukoncujici-klise", "bulverismus", "pravidlo-svobody", "som-meta-ramec"]
 catalog_related_declared = ["bulverismus", "presun-dukazniho-bremene", "pravidlo-svobody", "som-meta-ramec", "myslenkove-ukoncujici-klise"]
 catalog_kompendium = ["kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
 catalog_canonical = ""
@@ -232,6 +232,7 @@ která podle Hermanové probíhá ve vztahu, kde je výpověď brána vážně (
 - [Otrávení studny](@/kompendium/argumentacni-fauly/relevance/otraveni-studny.md) – příbuzné heslo (Klamy relevance, Poisoning the well)
 - [Nefalzifikovatelné tvrzení](@/kompendium/argumentacni-fauly/predpoklady-argumentu/nefalzifikovatelnost.md) – příbuzné heslo (Klamy předpokladu, Unfalsifiability)
 - [Přesun důkazního břemene](@/kompendium/argumentacni-fauly/predpoklady-argumentu/presun-dukazniho-bremene.md) – příbuzné heslo (Klamy předpokladu, Shifting the burden of proof)
+- [Nekonzistence](@/kompendium/argumentacni-fauly/predpoklady-argumentu/nekonzistence.md) – příbuzné heslo (Klamy předpokladu, Inconsistency)
 - [Myšlenkově ukončující klišé](@/kompendium/argumentacni-fauly/dialekticke-taktiky/myslenkove-ukoncujici-klise.md) – příbuzné heslo (Rétorické a dialogické taktiky, Thought-terminating cliché)
 - [Bulverismus](@/kompendium/argumentacni-fauly/dialekticke-taktiky/bulverismus.md) – příbuzné heslo (Rétorické a dialogické taktiky, Bulverism)
 - [Pravidlo svobody](@/kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-svobody.md) – příbuzné heslo (Principy kritické diskuse a teorie argumentace, Freedom rule)

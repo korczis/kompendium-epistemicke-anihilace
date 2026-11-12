@@ -35,15 +35,15 @@ catalog_broader = ""
 catalog_narrower = []
 catalog_depth = 0
 catalog_ancestors = []
-catalog_related = ["vekova-regrese", "reimprinting", "trauma-a-falesne-vzpominky", "limitujici-rozhodnuti", "korenova-pricina", "presvedceni-o-identite", "myslenkovy-virus"]
+catalog_related = ["vekova-regrese", "reimprinting", "trauma-a-falesne-vzpominky", "limitujici-rozhodnuti", "korenova-pricina", "presvedceni-o-identite", "myslenkovy-virus", "zmena-hodnot"]
 catalog_related_declared = ["reimprinting", "trauma-a-falesne-vzpominky", "korenova-pricina", "vekova-regrese", "presvedceni-o-identite", "myslenkovy-virus"]
 catalog_kompendium = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/techniques/ea-8-3-8-trauma-recovery-literature.md", "kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md"]
 catalog_canonical = ""
 catalog_links_prose = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/casova-osa/korenova-pricina.md", "kompendium/nlp-vzorce/disociace-a-trauma/reimprinting.md", "kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/vekova-regrese.md", "kompendium/nlp-vzorce/jazykove-vzorce/otazky-misto-tvrzeni.md", "kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md", "kompendium/techniques/ea-8-3-8-trauma-recovery-literature.md"]
 catalog_prev = "presvedceni-jako-mapa"
-catalog_next = ""
+catalog_next = "zmena-hodnot"
 catalog_position = 14
-catalog_family_size = 14
+catalog_family_size = 15
 catalog_sources = ["beck-1976", "dilts-1990", "dilts-hallbom-smith-1990", "herman-1992", "james-woodsmall-1988", "lilienfeld-2015", "loftus-palmer-1974", "witkowski-2010"]
 catalog_sources_primary = ["dilts-1990", "dilts-hallbom-smith-1990", "james-woodsmall-1988"]
 catalog_sources_roots = []
@@ -219,6 +219,7 @@ vzpomínkami (Herman 1992).
 - [Hledání kořenové příčiny](@/kompendium/nlp-vzorce/casova-osa/korenova-pricina.md) – příbuzné heslo (Časová osa, Root cause)
 - [Přesvědčení o identitě](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-identite.md) – příbuzné heslo (Přesvědčení, Beliefs about identity)
 - [Myšlenkový virus](@/kompendium/nlp-vzorce/presvedceni/myslenkovy-virus.md) – příbuzné heslo (Přesvědčení, Thought virus)
+- [Změna hodnot](@/kompendium/nlp-vzorce/presvedceni/zmena-hodnot.md) – příbuzné heslo (Přesvědčení, Changing values)
 
 **V kompendiu**
 
@@ -229,5 +230,6 @@ vzpomínkami (Herman 1992).
 **V katalogu**
 
 - [Přesvědčení jako součást mapy](@/kompendium/nlp-vzorce/presvedceni/presvedceni-jako-mapa.md) – předchozí heslo rodiny
+- [Změna hodnot](@/kompendium/nlp-vzorce/presvedceni/zmena-hodnot.md) – další heslo rodiny
 
 <!-- kompendium:katalog-vazby:end -->

@@ -35,7 +35,7 @@ catalog_broader = ""
 catalog_narrower = ["preruseni-raportu", "raport-se-skupinou", "sladeni-hodnot", "raport-jako-nastroj-vlivu"]
 catalog_depth = 0
 catalog_ancestors = []
-catalog_related = ["respekt-k-modelu-sveta", "odpor-jako-nedostatek-raportu", "predikaty", "kalibrace", "kongruence", "pacing-a-leading-pojem", "hierarchie-otazek-meta-modelu", "pacing-aktualni-zkusenosti", "ramec-souhlasu", "ramec-zpetneho-shrnuti", "ja-a-druzi", "lide-a-veci", "zrcadleni", "vedeni-v-raportu", "preruseni-raportu", "raport-se-skupinou", "raport-jako-nastroj-vlivu", "pseudoempatie", "kategorie-satirove"]
+catalog_related = ["respekt-k-modelu-sveta", "odpor-jako-nedostatek-raportu", "predikaty", "kalibrace", "kongruence", "pacing-a-leading-pojem", "symetricka-a-komplementarni-interakce", "hierarchie-otazek-meta-modelu", "pacing-aktualni-zkusenosti", "ramec-souhlasu", "ramec-zpetneho-shrnuti", "ja-a-druzi", "lide-a-veci", "zrcadleni", "vedeni-v-raportu", "preruseni-raportu", "raport-se-skupinou", "raport-jako-nastroj-vlivu", "pseudoempatie", "kategorie-satirove"]
 catalog_related_declared = ["zrcadleni", "pacing-a-leading-pojem", "raport-jako-nastroj-vlivu", "pseudoempatie", "odpor-jako-nedostatek-raportu", "kalibrace"]
 catalog_kompendium = ["kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md", "kompendium/case-studies/63-investor-cult.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md"]
 catalog_canonical = ""
@@ -43,7 +43,7 @@ catalog_links_prose = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md
 catalog_prev = "smyslova-ostrost"
 catalog_next = "stav"
 catalog_position = 15
-catalog_family_size = 42
+catalog_family_size = 45
 catalog_sources = ["bandler-grinder-1979", "chartrand-bargh-1999", "cialdini-2009", "haley-1973", "hassan-1988", "herman-1992", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "rogers-1951", "satir-1972", "sharpley-1984", "singer-lalich-1995", "witkowski-2010"]
 catalog_sources_primary = ["bandler-grinder-1979", "oconnor-seymour-1990"]
 catalog_sources_roots = ["haley-1973", "satir-1972"]
@@ -140,6 +140,7 @@ Základní obranou je oddělit pocit blízkosti od rozhodnutí. Pokud se k pocit
 - [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzné heslo (Základní pojmy NLP, Calibration)
 - [Kongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/kongruence.md) – příbuzné heslo (Základní pojmy NLP, Congruence)
 - [Pacing a leading](@/kompendium/nlp-vzorce/zakladni-pojmy/pacing-a-leading-pojem.md) – příbuzné heslo (Základní pojmy NLP, Pacing and leading (concept))
+- [Symetrická a komplementární interakce](@/kompendium/nlp-vzorce/zakladni-pojmy/symetricka-a-komplementarni-interakce.md) – příbuzné heslo (Základní pojmy NLP, Symmetrical and complementary interaction)
 - [Pořadí otázek meta-modelu](@/kompendium/nlp-vzorce/meta-model/hierarchie-otazek-meta-modelu.md) – příbuzné heslo (Meta-model, Order of Meta Model challenges)
 - [Pacing aktuální zkušenosti](@/kompendium/nlp-vzorce/milton-model/pacing-aktualni-zkusenosti.md) – příbuzné heslo (Milton-model, Pacing current experience)
 - [Rámec souhlasu](@/kompendium/nlp-vzorce/reframing/ramec-souhlasu.md) – příbuzné heslo (Reframing a rámce, Agreement frame)

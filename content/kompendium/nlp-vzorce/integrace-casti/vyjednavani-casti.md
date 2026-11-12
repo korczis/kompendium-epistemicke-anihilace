@@ -35,7 +35,7 @@ catalog_broader = "integrace-casti"
 catalog_narrower = []
 catalog_depth = 1
 catalog_ancestors = ["integrace-casti"]
-catalog_related = ["ekologicka-kontrola", "sestikrokovy-reframing", "integrace-casti", "vizualni-squash", "sekvencni-inkongruence", "elicitace-pozitivniho-zameru"]
+catalog_related = ["ekologicka-kontrola", "sestikrokovy-reframing", "integrace-casti", "vizualni-squash", "sekvencni-inkongruence", "elicitace-pozitivniho-zameru", "vytvoreni-nove-casti"]
 catalog_related_declared = ["sestikrokovy-reframing", "sekvencni-inkongruence", "ekologicka-kontrola", "elicitace-pozitivniho-zameru"]
 catalog_kompendium = ["kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md"]
 catalog_canonical = ""
@@ -43,7 +43,7 @@ catalog_links_prose = ["kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/
 catalog_prev = "jadrova-transformace"
 catalog_next = "sekvencni-inkongruence"
 catalog_position = 4
-catalog_family_size = 9
+catalog_family_size = 10
 catalog_sources = ["bandler-grinder-1982", "grinder-bandler-1976", "heap-1988", "herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "satir-1972", "stark-2007", "watzlawick-1974", "witkowski-2010"]
 catalog_sources_primary = ["bandler-grinder-1982", "grinder-bandler-1976"]
 catalog_sources_roots = ["satir-1972", "watzlawick-1974"]
@@ -132,6 +132,7 @@ Základní obranou je položit si otázku, mezi kým spor ve skutečnosti probí
 - [Vizuální squash](@/kompendium/nlp-vzorce/integrace-casti/vizualni-squash.md) – příbuzné heslo (Práce s částmi, Visual squash)
 - [Sekvenční inkongruence](@/kompendium/nlp-vzorce/integrace-casti/sekvencni-inkongruence.md) – příbuzné heslo (Práce s částmi, Sequential incongruence)
 - [Hledání pozitivního záměru části](@/kompendium/nlp-vzorce/integrace-casti/elicitace-pozitivniho-zameru.md) – příbuzné heslo (Práce s částmi, Eliciting a part's positive intention)
+- [Vytvoření nové části](@/kompendium/nlp-vzorce/integrace-casti/vytvoreni-nove-casti.md) – příbuzné heslo (Práce s částmi, Creating a new part)
 
 **V kompendiu**
 

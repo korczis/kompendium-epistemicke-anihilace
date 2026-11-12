@@ -35,7 +35,7 @@ catalog_broader = ""
 catalog_narrower = []
 catalog_depth = 0
 catalog_ancestors = []
-catalog_related = ["rozjety-vlak", "odvolani-na-strach", "dokaz-tvrzenim", "gish-gallop", "jen-se-ptam", "argument-opakovanim", "falesna-vyvazenost", "inokulace-proti-klamum"]
+catalog_related = ["rozjety-vlak", "odvolani-na-strach", "dokaz-tvrzenim", "nekonzistence", "gish-gallop", "jen-se-ptam", "argument-opakovanim", "falesna-vyvazenost", "inokulace-proti-klamum"]
 catalog_related_declared = ["argument-opakovanim", "gish-gallop", "dokaz-tvrzenim", "jen-se-ptam", "falesna-vyvazenost"]
 catalog_kompendium = ["kompendium/historical-cases/21-soviet-active-measures.md", "kompendium/techniques/ea-1-1-2-informacni-pretizeni.md", "kompendium/techniques/ea-9-4-5-troll-farm-EA.md", "kompendium/07-teoreticke-reflexe/politicka-ea.md"]
 catalog_canonical = ""
@@ -225,6 +225,7 @@ pouze jednotlivých nepravd.
 - [Rozjetý vlak](@/kompendium/argumentacni-fauly/relevance/rozjety-vlak.md) – příbuzné heslo (Klamy relevance, Bandwagon)
 - [Odvolání na strach](@/kompendium/argumentacni-fauly/relevance/odvolani-na-strach.md) – příbuzné heslo (Klamy relevance, Appeal to fear)
 - [Důkaz tvrzením](@/kompendium/argumentacni-fauly/predpoklady-argumentu/dokaz-tvrzenim.md) – příbuzné heslo (Klamy předpokladu, Proof by assertion)
+- [Nekonzistence](@/kompendium/argumentacni-fauly/predpoklady-argumentu/nekonzistence.md) – příbuzné heslo (Klamy předpokladu, Inconsistency)
 - [Gish gallop](@/glossary/gish-gallop.md) – příbuzné heslo (Rétorické a dialogické taktiky, Gish gallop)
 - [„Jen se ptám“](@/kompendium/argumentacni-fauly/dialekticke-taktiky/jen-se-ptam.md) – příbuzné heslo (Rétorické a dialogické taktiky, Just asking questions)
 - [Argument opakováním](@/kompendium/argumentacni-fauly/dialekticke-taktiky/argument-opakovanim.md) – příbuzné heslo (Rétorické a dialogické taktiky, Argument from repetition)

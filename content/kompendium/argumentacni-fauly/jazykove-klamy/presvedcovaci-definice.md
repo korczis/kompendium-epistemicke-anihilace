@@ -35,7 +35,7 @@ catalog_broader = ""
 catalog_narrower = []
 catalog_depth = 0
 catalog_ancestors = []
-catalog_related = ["ctyri-terminy", "kruhovy-argument", "zadny-pravy-skot", "ekvivokace", "etymologicky-klam", "nabity-jazyk", "eufemismus-a-dysfemismus", "definicni-klam", "motte-and-bailey", "naturalisticky-klam", "pravidlo-uzivani-jazyka", "komplexni-ekvivalence", "som-redefinice"]
+catalog_related = ["ctyri-terminy", "kruhovy-argument", "zadny-pravy-skot", "ekvivokace", "etymologicky-klam", "nabity-jazyk", "eufemismus-a-dysfemismus", "definicni-klam", "rozliseni-bez-rozdilu", "motte-and-bailey", "naturalisticky-klam", "pravidlo-uzivani-jazyka", "komplexni-ekvivalence", "som-redefinice"]
 catalog_related_declared = ["definicni-klam", "nabity-jazyk", "ekvivokace", "zadny-pravy-skot", "som-redefinice", "komplexni-ekvivalence"]
 catalog_kompendium = ["kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/techniques/ea-4-3-3-semantic-stability-disruption.md", "kompendium/detection-signatures/2-linguistic-circular-definitions.md"]
 catalog_canonical = ""
@@ -43,7 +43,7 @@ catalog_links_prose = ["kompendium/argumentacni-fauly/jazykove-klamy/definicni-k
 catalog_prev = "etymologicky-klam"
 catalog_next = "nabity-jazyk"
 catalog_position = 8
-catalog_family_size = 13
+catalog_family_size = 15
 catalog_sources = ["bentham-1824", "copi-cohen-mcmahon-2014", "govier-2010", "hahn-oaksford-2007", "hamblin-1970", "lakoff-johnson-1980", "lifton-1961", "loftus-palmer-1974", "roozenbeek-2022", "tversky-kahneman-1981", "walton-reed-macagno-2008", "eemeren-grootendorst-2004"]
 catalog_sources_primary = ["copi-cohen-mcmahon-2014", "govier-2010", "hamblin-1970", "walton-reed-macagno-2008", "eemeren-grootendorst-2004"]
 catalog_sources_roots = ["bentham-1824"]
@@ -233,6 +233,7 @@ rozebírá kompendium u
 - [Nabitý jazyk](@/kompendium/argumentacni-fauly/jazykove-klamy/nabity-jazyk.md) – příbuzné heslo (Klamy jazyka a dvojznačnosti, Loaded language)
 - [Eufemismus a dysfemismus](@/kompendium/argumentacni-fauly/jazykove-klamy/eufemismus-a-dysfemismus.md) – příbuzné heslo (Klamy jazyka a dvojznačnosti, Euphemism and dysphemism)
 - [Definiční klam](@/kompendium/argumentacni-fauly/jazykove-klamy/definicni-klam.md) – příbuzné heslo (Klamy jazyka a dvojznačnosti, Definist fallacy)
+- [Rozlišení bez rozdílu](@/kompendium/argumentacni-fauly/jazykove-klamy/rozliseni-bez-rozdilu.md) – příbuzné heslo (Klamy jazyka a dvojznačnosti, Distinction without a difference)
 - [Motte-and-bailey](@/glossary/motte-and-bailey.md) – příbuzné heslo (Rétorické a dialogické taktiky, Motte-and-bailey)
 - [Naturalistický klam](@/kompendium/argumentacni-fauly/hodnoty-a-veda/naturalisticky-klam.md) – příbuzné heslo (Klamy hodnot, přírody a vědy, Naturalistic fallacy)
 - [Pravidlo užívání jazyka](@/kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-uzivani-jazyka.md) – příbuzné heslo (Principy kritické diskuse a teorie argumentace, Usage rule)

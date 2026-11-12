@@ -35,7 +35,7 @@ catalog_broader = "casova-osa-pojem"
 catalog_narrower = ["uvolneni-negativnich-emoci", "limitujici-rozhodnuti", "vlozeni-budouciho-cile", "korenova-pricina"]
 catalog_depth = 1
 catalog_ancestors = ["casova-osa-pojem"]
-catalog_related = ["casova-osa-pojem", "zmena-osobni-historie", "trauma-a-falesne-vzpominky", "uvolneni-negativnich-emoci", "limitujici-rozhodnuti", "korenova-pricina", "stav-dukazu-nlp"]
+catalog_related = ["casova-osa-pojem", "zmena-osobni-historie", "trauma-a-falesne-vzpominky", "uvolneni-negativnich-emoci", "limitujici-rozhodnuti", "korenova-pricina", "zmena-hodnot", "zmena-metaprogramu", "stav-dukazu-nlp"]
 catalog_related_declared = ["korenova-pricina", "uvolneni-negativnich-emoci", "limitujici-rozhodnuti", "zmena-osobni-historie", "trauma-a-falesne-vzpominky", "stav-dukazu-nlp"]
 catalog_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md", "kompendium/07-teoreticke-reflexe/epistemicke-trauma.md"]
 catalog_canonical = ""
@@ -141,6 +141,8 @@ Pro člověka, který o terapii časové osy uvažuje, je první obranou zeptat 
 - [Uvolnění negativních emocí na časové ose](@/kompendium/nlp-vzorce/casova-osa/uvolneni-negativnich-emoci.md) – příbuzné heslo (Časová osa, Releasing negative emotions on the timeline)
 - [Limitující rozhodnutí](@/kompendium/nlp-vzorce/casova-osa/limitujici-rozhodnuti.md) – příbuzné heslo (Časová osa, Limiting decisions)
 - [Hledání kořenové příčiny](@/kompendium/nlp-vzorce/casova-osa/korenova-pricina.md) – příbuzné heslo (Časová osa, Root cause)
+- [Změna hodnot](@/kompendium/nlp-vzorce/presvedceni/zmena-hodnot.md) – příbuzné heslo (Přesvědčení, Changing values)
+- [Změna metaprogramů](@/kompendium/nlp-vzorce/metaprogramy/zmena-metaprogramu.md) – příbuzné heslo (Metaprogramy, Changing meta-programs)
 - [Stav důkazů o NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md) – příbuzné heslo (Kritické hodnocení NLP, State of the evidence on NLP)
 
 **V kompendiu**

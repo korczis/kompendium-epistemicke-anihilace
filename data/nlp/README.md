@@ -9,6 +9,7 @@ katalogu: [`nlp-catalogue-provenance`](../../.ai/repo/knowledge/curated/nlp-cata
 
 | soubor | obsah |
 |---|---|
+| `_coverage.toml` | názvy ze standardních přehledů (Meta-model, Miltonův model, Satir) a heslo, které je pokrývá, nebo důvod, proč heslo nemá; brána odmítne název bez obojího |
 | `_families.toml` | rodiny v pořadí katalogu, neměnný dvoumístný kód, český a anglický název |
 | `<rodina>.toml`, `<rodina>.<část>.toml` | hesla `[[pattern]]` rodiny; části umožňují psát rodinu paralelně (`--part`) |
 

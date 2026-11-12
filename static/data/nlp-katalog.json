@@ -1,5 +1,1591 @@
 {
  "catalog": "nlp",
+ "coverage": [
+  {
+   "entry": "prosta-delece",
+   "excluded": "",
+   "name": "Prosté vypuštění (simple deletion)",
+   "sources": [
+    "bandler-grinder-1975"
+   ]
+  },
+  {
+   "entry": "srovnavaci-delece",
+   "excluded": "",
+   "name": "Srovnávací vypuštění (comparative deletion)",
+   "sources": [
+    "bandler-grinder-1975"
+   ]
+  },
+  {
+   "entry": "nespecifikovany-referencni-index",
+   "excluded": "",
+   "name": "Chybějící referenční index (lack of referential index)",
+   "sources": [
+    "bandler-grinder-1975",
+    "bandler-grinder-1975b"
+   ]
+  },
+  {
+   "entry": "nespecifikovane-sloveso",
+   "excluded": "",
+   "name": "Nespecifikované sloveso (unspecified verb)",
+   "sources": [
+    "bandler-grinder-1975"
+   ]
+  },
+  {
+   "entry": "nominalizace",
+   "excluded": "",
+   "name": "Nominalizace (nominalization)",
+   "sources": [
+    "bandler-grinder-1975",
+    "bandler-grinder-1975b"
+   ]
+  },
+  {
+   "entry": "univerzalni-kvantifikator",
+   "excluded": "",
+   "name": "Univerzální kvantifikátor (universal quantifier)",
+   "sources": [
+    "bandler-grinder-1975"
+   ]
+  },
+  {
+   "entry": "modalni-operator-nutnosti",
+   "excluded": "",
+   "name": "Modální operátor nutnosti (modal operator of necessity)",
+   "sources": [
+    "bandler-grinder-1975"
+   ]
+  },
+  {
+   "entry": "modalni-operator-moznosti",
+   "excluded": "",
+   "name": "Modální operátor možnosti (modal operator of possibility)",
+   "sources": [
+    "bandler-grinder-1975"
+   ]
+  },
+  {
+   "entry": "presupozice-v-meta-modelu",
+   "excluded": "",
+   "name": "Presupozice (presupposition)",
+   "sources": [
+    "bandler-grinder-1975",
+    "bandler-grinder-1975b"
+   ]
+  },
+  {
+   "entry": "cteni-myslenek",
+   "excluded": "",
+   "name": "Čtení myšlenek (mind reading)",
+   "sources": [
+    "bandler-grinder-1975"
+   ]
+  },
+  {
+   "entry": "pricina-a-nasledek",
+   "excluded": "",
+   "name": "Příčina a následek (cause and effect)",
+   "sources": [
+    "bandler-grinder-1975"
+   ]
+  },
+  {
+   "entry": "ztraceny-performativ",
+   "excluded": "",
+   "name": "Ztracený performativ (lost performative)",
+   "sources": [
+    "bandler-grinder-1975"
+   ]
+  },
+  {
+   "entry": "fonologicka-dvojznacnost",
+   "excluded": "",
+   "name": "Fonologická dvojznačnost (phonological ambiguity)",
+   "sources": [
+    "bandler-grinder-1975b"
+   ]
+  },
+  {
+   "entry": "syntakticka-dvojznacnost",
+   "excluded": "",
+   "name": "Syntaktická dvojznačnost (syntactic ambiguity)",
+   "sources": [
+    "bandler-grinder-1975b"
+   ]
+  },
+  {
+   "entry": "rozsahova-dvojznacnost",
+   "excluded": "",
+   "name": "Rozsahová dvojznačnost (scope ambiguity)",
+   "sources": [
+    "bandler-grinder-1975b"
+   ]
+  },
+  {
+   "entry": "interpunkcni-dvojznacnost",
+   "excluded": "",
+   "name": "Interpunkční dvojznačnost (punctuation ambiguity)",
+   "sources": [
+    "bandler-grinder-1975b"
+   ]
+  },
+  {
+   "entry": "vlozene-prikazy",
+   "excluded": "",
+   "name": "Vložené příkazy (embedded commands)",
+   "sources": [
+    "bandler-grinder-1975b"
+   ]
+  },
+  {
+   "entry": "analogove-znaceni",
+   "excluded": "",
+   "name": "Analogové značení (analogue marking)",
+   "sources": [
+    "bandler-grinder-1975b"
+   ]
+  },
+  {
+   "entry": "konverzacni-postulaty",
+   "excluded": "",
+   "name": "Konverzační postuláty (conversational postulates)",
+   "sources": [
+    "bandler-grinder-1975b"
+   ]
+  },
+  {
+   "entry": "poruseni-selekcnich-omezeni",
+   "excluded": "",
+   "name": "Porušení selekčních omezení (selectional restriction violation)",
+   "sources": [
+    "bandler-grinder-1975b"
+   ]
+  },
+  {
+   "entry": "smirovatel",
+   "excluded": "",
+   "name": "Smiřovatel (placater)",
+   "sources": [
+    "satir-1972"
+   ]
+  },
+  {
+   "entry": "obvinovatel",
+   "excluded": "",
+   "name": "Obviňovatel (blamer)",
+   "sources": [
+    "satir-1972"
+   ]
+  },
+  {
+   "entry": "pocitac",
+   "excluded": "",
+   "name": "Počítač (computer, super-reasonable)",
+   "sources": [
+    "satir-1972"
+   ]
+  },
+  {
+   "entry": "rozptylovac",
+   "excluded": "",
+   "name": "Rozptylovač (distracter)",
+   "sources": [
+    "satir-1972"
+   ]
+  },
+  {
+   "entry": "vyrovnany",
+   "excluded": "",
+   "name": "Vyrovnaný (leveler)",
+   "sources": [
+    "satir-1972"
+   ]
+  },
+  {
+   "entry": "proaktivni-a-reaktivni",
+   "excluded": "",
+   "name": "Level: Proactive / Reactive",
+   "sources": [
+    "charvet-1997"
+   ]
+  },
+  {
+   "entry": "kriteria",
+   "excluded": "",
+   "name": "Criteria",
+   "sources": [
+    "charvet-1997",
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "k-cili-a-od-problemu",
+   "excluded": "",
+   "name": "Direction: Toward / Away From",
+   "sources": [
+    "charvet-1997"
+   ]
+  },
+  {
+   "entry": "vnitrni-a-vnejsi-reference",
+   "excluded": "",
+   "name": "Source: Internal / External",
+   "sources": [
+    "charvet-1997"
+   ]
+  },
+  {
+   "entry": "moznosti-a-postupy",
+   "excluded": "",
+   "name": "Reason: Options / Procedures",
+   "sources": [
+    "charvet-1997"
+   ]
+  },
+  {
+   "entry": "shoda-a-rozdil",
+   "excluded": "",
+   "name": "Decision Factors: Sameness / Sameness with Exception / Difference / Sameness with Exception and Difference",
+   "sources": [
+    "charvet-1997"
+   ]
+  },
+  {
+   "entry": "obecne-a-specificke",
+   "excluded": "",
+   "name": "Scope: Specific / General",
+   "sources": [
+    "charvet-1997"
+   ]
+  },
+  {
+   "entry": "ja-a-druzi",
+   "excluded": "",
+   "name": "Attention Direction: Self / Other",
+   "sources": [
+    "charvet-1997"
+   ]
+  },
+  {
+   "entry": "reakce-na-stres",
+   "excluded": "",
+   "name": "Stress Response: Feelings / Choice / Thinking",
+   "sources": [
+    "charvet-1997"
+   ]
+  },
+  {
+   "entry": "pracovni-styl",
+   "excluded": "",
+   "name": "Style: Independent / Proximity / Co-operative",
+   "sources": [
+    "charvet-1997"
+   ]
+  },
+  {
+   "entry": "lide-a-veci",
+   "excluded": "",
+   "name": "Organization: Person / Thing",
+   "sources": [
+    "charvet-1997"
+   ]
+  },
+  {
+   "entry": "struktura-pravidel",
+   "excluded": "",
+   "name": "Rule Structure: My/My, My/., No/My, My/Your",
+   "sources": [
+    "charvet-1997"
+   ]
+  },
+  {
+   "entry": "kanal-presvedceni",
+   "excluded": "",
+   "name": "Convincer Channel: See / Hear / Read / Do",
+   "sources": [
+    "charvet-1997"
+   ]
+  },
+  {
+   "entry": "rezim-presvedceni",
+   "excluded": "",
+   "name": "Convincer Mode: Number of Examples / Automatic / Consistent / Period of Time",
+   "sources": [
+    "charvet-1997"
+   ]
+  },
+  {
+   "entry": "meta-model",
+   "excluded": "",
+   "name": "The Meta-Model",
+   "sources": [
+    "bandler-grinder-1975"
+   ]
+  },
+  {
+   "entry": "hluboka-a-povrchova-struktura",
+   "excluded": "",
+   "name": "Deep Structure / Surface Structure",
+   "sources": [
+    "bandler-grinder-1975"
+   ]
+  },
+  {
+   "entry": "vypousteni",
+   "excluded": "",
+   "name": "Deletion",
+   "sources": [
+    "bandler-grinder-1975",
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "zkreslovani",
+   "excluded": "",
+   "name": "Distortion",
+   "sources": [
+    "bandler-grinder-1975",
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "zobecnovani",
+   "excluded": "",
+   "name": "Generalization",
+   "sources": [
+    "bandler-grinder-1975",
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "Souhrnný pojem Meta-modelu pro sémantické poruchy; jeho jednotlivé kategorie (čtení myšlenek, příčina a následek, ztracený performativ) mají vlastní hesla",
+   "name": "Semantic Well-Formedness",
+   "sources": [
+    "bandler-grinder-1975"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "Terapeutická technika přehrání scény z knihy o Meta-modelu, ne jazykový vzorec; katalog ji samostatně nevede, souvisí s hesly o percepčních pozicích",
+   "name": "Enactment",
+   "sources": [
+    "bandler-grinder-1975"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "Terapeutická technika vedené fantazie z knihy o Meta-modelu, ne jazykový vzorec; katalog ji samostatně nevede, souvisí s hesly o vizualizaci",
+   "name": "Guided Fantasy",
+   "sources": [
+    "bandler-grinder-1975"
+   ]
+  },
+  {
+   "entry": "reprezentacni-systemy",
+   "excluded": "",
+   "name": "Representational System: The R-Operator",
+   "sources": [
+    "grinder-delozier-bandler-1977"
+   ]
+  },
+  {
+   "entry": "vedouci-system",
+   "excluded": "",
+   "name": "Lead System: The L-Operator",
+   "sources": [
+    "grinder-delozier-bandler-1977"
+   ]
+  },
+  {
+   "entry": "transderivacni-hledani",
+   "excluded": "",
+   "name": "Transderivational Search: Generalized Referential Index",
+   "sources": [
+    "grinder-delozier-bandler-1977"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "Kapitoly o sledování reprezentačních systémů klienta; obsah pokrývají hesla o reprezentačních systémech a kalibraci, samostatné heslo katalog nevede",
+   "name": "Tracking Models I–III",
+   "sources": [
+    "grinder-delozier-bandler-1977"
+   ]
+  },
+  {
+   "entry": "obsahovy-reframing",
+   "excluded": "",
+   "name": "Content reframing: meaning",
+   "sources": [
+    "bandler-grinder-1982"
+   ]
+  },
+  {
+   "entry": "kontextovy-reframing",
+   "excluded": "",
+   "name": "Content reframing: context",
+   "sources": [
+    "bandler-grinder-1982"
+   ]
+  },
+  {
+   "entry": "vyjednavani-casti",
+   "excluded": "",
+   "name": "Negotiating between parts",
+   "sources": [
+    "bandler-grinder-1982"
+   ]
+  },
+  {
+   "entry": "vytvoreni-nove-casti",
+   "excluded": "",
+   "name": "Creating a new part",
+   "sources": [
+    "bandler-grinder-1982"
+   ]
+  },
+  {
+   "entry": "sestikrokovy-reframing",
+   "excluded": "",
+   "name": "Advanced six-step reframing",
+   "sources": [
+    "bandler-grinder-1982"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "Kapitola o použití reframingu v párech, rodinách a organizacích, ne samostatný vzorec; techniku pokrývají hesla rodiny Reframing a rámce",
+   "name": "Reframing systems: couples, families, organizations",
+   "sources": [
+    "bandler-grinder-1982"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "Kapitola o použití reframingu u závislostí, ne samostatný vzorec; katalog techniku pokrývá v rodině Reframing a rámce a varuje před nahrazením léčby",
+   "name": "Reframing dissociated states: alcoholism, drug abuse",
+   "sources": [
+    "bandler-grinder-1982"
+   ]
+  },
+  {
+   "entry": "submodality-pojem",
+   "excluded": "",
+   "name": "Submodalities",
+   "sources": [
+    "bandler-1985",
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "swish",
+   "excluded": "",
+   "name": "The Swish",
+   "sources": [
+    "bandler-1985"
+   ]
+  },
+  {
+   "entry": "casova-osa-pojem",
+   "excluded": "",
+   "name": "1. Timelines",
+   "sources": [
+    "andreas-andreas-1987"
+   ]
+  },
+  {
+   "entry": "swish",
+   "excluded": "",
+   "name": "3. The Swish Pattern",
+   "sources": [
+    "andreas-andreas-1987"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "Submodalitní varianta práce s kritérii; samostatné heslo katalog nevede, téma pokrývají hesla Kritéria a Hierarchie kritérií",
+   "name": "4. Shifting the Importance of Criteria",
+   "sources": [
+    "andreas-andreas-1987"
+   ]
+  },
+  {
+   "entry": "vyhozeni-kompulze",
+   "excluded": "",
+   "name": "5. Eliminating Compulsions",
+   "sources": [
+    "andreas-andreas-1987"
+   ]
+  },
+  {
+   "entry": "prahovy-vzorec",
+   "excluded": "",
+   "name": "6. \"The Last Straw\" Threshold Pattern",
+   "sources": [
+    "andreas-andreas-1987"
+   ]
+  },
+  {
+   "entry": "vnitrni-a-vnejsi-reference",
+   "excluded": "",
+   "name": "7. Internal/External Reference",
+   "sources": [
+    "andreas-andreas-1987"
+   ]
+  },
+  {
+   "entry": "reakce-na-kritiku",
+   "excluded": "",
+   "name": "8. A Strategy for Responding to Criticism",
+   "sources": [
+    "andreas-andreas-1987"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "Kapitola o vyvolání tělesných stavů, ne samostatný vzorec; téma pokrývají hesla o kinestetických submodalitách a kotvení",
+   "name": "9. Accessing Kinesthetic States",
+   "sources": [
+    "andreas-andreas-1987"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "Souhrnná kapitola dalších submodalitních zásahů bez vlastního názvu vzorce; jednotlivé zásahy pokrývají hesla rodiny Submodality",
+   "name": "10. Other Submodality Interventions",
+   "sources": [
+    "andreas-andreas-1987"
+   ]
+  },
+  {
+   "entry": "casova-osa-pojem",
+   "excluded": "",
+   "name": "Ch. 1 Introduction to Time Line",
+   "sources": [
+    "james-woodsmall-1988"
+   ]
+  },
+  {
+   "entry": "v-case-a-mimo-cas",
+   "excluded": "",
+   "name": "Ch. 2 Through Time and In Time: The Two Types",
+   "sources": [
+    "james-woodsmall-1988"
+   ]
+  },
+  {
+   "entry": "elicitace-casove-osy",
+   "excluded": "",
+   "name": "Ch. 3 Discovering the Time Line",
+   "sources": [
+    "james-woodsmall-1988"
+   ]
+  },
+  {
+   "entry": "terapie-casove-osy",
+   "excluded": "",
+   "name": "Ch. 9/11 Time Line Therapy (demonstration, outline)",
+   "sources": [
+    "james-woodsmall-1988"
+   ]
+  },
+  {
+   "entry": "vlozeni-budouciho-cile",
+   "excluded": "",
+   "name": "Ch. 10 Programming Your Future With Time Line",
+   "sources": [
+    "james-woodsmall-1988"
+   ]
+  },
+  {
+   "entry": "metaprogramy-pojem",
+   "excluded": "",
+   "name": "Ch. 12–14 Meta Programs",
+   "sources": [
+    "james-woodsmall-1988"
+   ]
+  },
+  {
+   "entry": "hierarchie-idei",
+   "excluded": "",
+   "name": "Ch. 20 The Hierarchy of Ideas",
+   "sources": [
+    "james-woodsmall-1988"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "Kapitola o práci s traumatem v terapii časové osy; katalog ji jako samostatný vzorec nevede a téma pokrývá rodina Disociace, fobie a trauma",
+   "name": "Ch. 7 Handling Trauma",
+   "sources": [
+    "james-woodsmall-1988"
+   ]
+  },
+  {
+   "entry": "zmena-metaprogramu",
+   "excluded": "",
+   "name": "Ch. 15 Changing Meta Programs",
+   "sources": [
+    "james-woodsmall-1988"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "Kapitola o řešení konfliktu přesvědčení a hodnot; samostatné heslo katalog nevede, téma pokrývají hesla Změna hodnot a rodina Přesvědčení",
+   "name": "Ch. 19 Resolving Beliefs and Values Conflicts",
+   "sources": [
+    "james-woodsmall-1988"
+   ]
+  },
+  {
+   "entry": "zmena-hodnot",
+   "excluded": "",
+   "name": "Ch. 21–22 Changing Values / Utilizing and Changing Values",
+   "sources": [
+    "james-woodsmall-1988"
+   ]
+  },
+  {
+   "entry": "zakon-pozadovane-variety",
+   "excluded": "",
+   "name": "Law of Requisite Variety",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "reprezentacni-systemy",
+   "excluded": "",
+   "name": "Representational Systems",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "vedouci-system",
+   "excluded": "",
+   "name": "Lead System",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "predikaty",
+   "excluded": "",
+   "name": "Predicates",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "synestezie",
+   "excluded": "",
+   "name": "Synesthesia",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "ocni-pristupove-signaly",
+   "excluded": "",
+   "name": "Eye-Accessing Cues; Accessing Cues; Eye Movements",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "kalibrace",
+   "excluded": "",
+   "name": "Calibration",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "smyslova-ostrost",
+   "excluded": "",
+   "name": "Sensory Acuity",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "raport",
+   "excluded": "",
+   "name": "Rapport",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "logicke-urovne-pojem",
+   "excluded": "",
+   "name": "Logical Levels / Neuro-Logical Levels",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "uroven-prostredi",
+   "excluded": "",
+   "name": "Environment",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "uroven-chovani",
+   "excluded": "",
+   "name": "Behavior",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "uroven-schopnosti",
+   "excluded": "",
+   "name": "Capability",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "uroven-presvedceni-a-hodnot",
+   "excluded": "",
+   "name": "Beliefs, Values",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "uroven-identity",
+   "excluded": "",
+   "name": "Identity",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "uroven-poslani",
+   "excluded": "",
+   "name": "Spiritual (+ \"... Level\")",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "zarovnani-logickych-urovni",
+   "excluded": "",
+   "name": "Level Alignment Process; Logical Level Alignment",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "zamena-logickych-urovni",
+   "excluded": "",
+   "name": "Confusion of Logical Level",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "percepcni-pozice-pojem",
+   "excluded": "",
+   "name": "Perceptual Positions",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "prvni-pozice",
+   "excluded": "",
+   "name": "First",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "druha-pozice",
+   "excluded": "",
+   "name": "Second",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "treti-pozice",
+   "excluded": "",
+   "name": "Third",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "ctvrta-pozice",
+   "excluded": "",
+   "name": "Fourth Position",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "meta-pozice",
+   "excluded": "",
+   "name": "Meta Position",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "meta-zrcadlo",
+   "excluded": "",
+   "name": "Meta Mirror Format",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "troji-popis",
+   "excluded": "",
+   "name": "Triple Description",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "model-score",
+   "excluded": "",
+   "name": "S.C.O.R.E. Integration Format / Multi-Level S.C.O.R.E.",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "disneyova-strategie",
+   "excluded": "",
+   "name": "Disney Strategy / Disney Creativity Strategy",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "tote-model",
+   "excluded": "",
+   "name": "T.O.T.E. (index)",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "disociace",
+   "excluded": "",
+   "name": "Dissociation",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "kongruence",
+   "excluded": "",
+   "name": "Congruence",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "inkongruence",
+   "excluded": "",
+   "name": "Incongruence",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "ekologicka-kontrola",
+   "excluded": "",
+   "name": "Ecology Check",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "chunking",
+   "excluded": "",
+   "name": "Chunking",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "chunking-nahoru",
+   "excluded": "",
+   "name": "Chunking Up",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "chunking-dolu",
+   "excluded": "",
+   "name": "Down",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "lateralni-chunking",
+   "excluded": "",
+   "name": "Laterally",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "metaprogramy-pojem",
+   "excluded": "",
+   "name": "Meta Programs",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "modelovani-pojem",
+   "excluded": "",
+   "name": "Modeling",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "vnitrni-dialog",
+   "excluded": "",
+   "name": "Internal Dialogue",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "uptime-a-downtime",
+   "excluded": "",
+   "name": "Uptime / Downtime",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "trans-pojem",
+   "excluded": "",
+   "name": "Trance",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "transderivacni-hledani",
+   "excluded": "",
+   "name": "Transderivational Search",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "meta-model",
+   "excluded": "",
+   "name": "Meta Model",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "milton-model",
+   "excluded": "",
+   "name": "Milton Model",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "citace",
+   "excluded": "",
+   "name": "Quotes",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "utilizace",
+   "excluded": "",
+   "name": "Utilization",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "konfuzni-technika",
+   "excluded": "",
+   "name": "Confusion Technique",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "vnorene-smycky",
+   "excluded": "",
+   "name": "Nested Loops",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "pseudoorientace-v-case",
+   "excluded": "",
+   "name": "Pseudo-Orientation In Time",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "muj-pritel-john",
+   "excluded": "",
+   "name": "My Friend John Technique",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "terapeuticka-dvojna-vazba",
+   "excluded": "",
+   "name": "Double Bind",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "preruseni-vzorce",
+   "excluded": "",
+   "name": "Pattern Interruption",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "sleight-of-mouth",
+   "excluded": "",
+   "name": "Sleight of Mouth Patterns",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "reframing",
+   "excluded": "",
+   "name": "Reframing",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "obsahovy-reframing",
+   "excluded": "",
+   "name": "Content",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "kontextovy-reframing",
+   "excluded": "",
+   "name": "Context",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "sestikrokovy-reframing",
+   "excluded": "",
+   "name": "Six-Step Reframing",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "ramec-jako-by",
+   "excluded": "",
+   "name": "'As If' Frame",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "ramec-vysledku",
+   "excluded": "",
+   "name": "Outcome Frame",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "od-problemu-k-vysledku",
+   "excluded": "",
+   "name": "Problem Frame",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "ramec-zpetneho-shrnuti",
+   "excluded": "",
+   "name": "Backtracking Frame",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "zpetne-shrnuti",
+   "excluded": "",
+   "name": "Backtracking",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "selhani-jako-zpetna-vazba-vzorec",
+   "excluded": "",
+   "name": "Feedback Versus Failure Frame; Failure Into Feedback Strategy",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "ramec-pojem",
+   "excluded": "",
+   "name": "Frames",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "dobre-formulovany-vysledek",
+   "excluded": "",
+   "name": "Well-Formed Outcome / Outcome Well-Formedness Conditions",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "kotveni",
+   "excluded": "",
+   "name": "Anchoring",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "kolaps-kotev",
+   "excluded": "",
+   "name": "Collapsing Anchors",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "retezeni-kotev",
+   "excluded": "",
+   "name": "Chaining Anchors",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "posuvna-kotva",
+   "excluded": "",
+   "name": "Sliding Anchors",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "prostorove-kotveni",
+   "excluded": "",
+   "name": "Spatial Anchoring",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "kinesteticke-kotvy",
+   "excluded": "",
+   "name": "Kinesthetic Anchoring",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "kruh-excelence",
+   "excluded": "",
+   "name": "Circle of Excellence",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "kontrastni-analyza",
+   "excluded": "",
+   "name": "Contrastive Analysis",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "mapovani-napric",
+   "excluded": "",
+   "name": "Mapping Across",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "swish",
+   "excluded": "",
+   "name": "Swish Pattern",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "vyhozeni-kompulze",
+   "excluded": "",
+   "name": "Compulsion Blow-Out",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "prahovy-vzorec",
+   "excluded": "",
+   "name": "Threshold",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "rychla-lecba-fobie",
+   "excluded": "",
+   "name": "Phobia; V-K Dissociation Process",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "zmena-osobni-historie",
+   "excluded": "",
+   "name": "Change Personal History",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "alergicky-vzorec",
+   "excluded": "",
+   "name": "Allergy Process",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "budouci-prehravani",
+   "excluded": "",
+   "name": "Future Pacing",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "strategie-pojem",
+   "excluded": "",
+   "name": "Strategies",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "elicitace-strategie",
+   "excluded": "",
+   "name": "Strategy Elicitation",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "pravopisna-strategie",
+   "excluded": "",
+   "name": "Spelling",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "strategie-uceni",
+   "excluded": "",
+   "name": "Learning",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "rozhodovaci-strategie",
+   "excluded": "",
+   "name": "Decision",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "motivacni-strategie",
+   "excluded": "",
+   "name": "Motivation",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "presvedcovaci-strategie",
+   "excluded": "",
+   "name": "Convincer",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "strategie-reality",
+   "excluded": "",
+   "name": "Reality Strategy",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "strategie-geniality",
+   "excluded": "",
+   "name": "Strategies of Genius",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "novy-kod",
+   "excluded": "",
+   "name": "New Code",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "periferni-videni",
+   "excluded": "",
+   "name": "Peripheral Vision",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "generator-noveho-chovani",
+   "excluded": "",
+   "name": "New Behavior Generator",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "vizualni-squash",
+   "excluded": "",
+   "name": "Visual Squash",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "integrace-polarit",
+   "excluded": "",
+   "name": "Polarities",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "jadrova-transformace",
+   "excluded": "",
+   "name": "Core Transformation",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "cyklus-zmeny-presvedceni",
+   "excluded": "",
+   "name": "Belief Change Cycle",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "audit-presvedceni",
+   "excluded": "",
+   "name": "Belief Audit",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "retezeni-presvedceni",
+   "excluded": "",
+   "name": "Belief Chaining",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "limitujici-presvedceni",
+   "excluded": "",
+   "name": "Limiting Beliefs",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "myslenkovy-virus",
+   "excluded": "",
+   "name": "Thought Viruses",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "duvera",
+   "excluded": "",
+   "name": "Trust",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "zrcadleni",
+   "excluded": "",
+   "name": "Mirroring",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "zrcadleni",
+   "excluded": "",
+   "name": "Matching",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "preruseni-raportu",
+   "excluded": "",
+   "name": "Mismatching",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "vedeni-v-raportu",
+   "excluded": "",
+   "name": "Leading",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "terapeuticka-metafora",
+   "excluded": "",
+   "name": "Therapeutic Metaphor",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "izomorfni-metafora",
+   "excluded": "",
+   "name": "Isomorphism",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "kategorie-satirove",
+   "excluded": "",
+   "name": "Satir Categories",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "detekce-lzi-v-nlp",
+   "excluded": "",
+   "name": "Lie Detection",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "MISSING (exclude: Dilts' own extensions)",
+   "name": "Meta Model II; Meta Model III; Precision Model",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "skryte-kotveni",
+   "excluded": "",
+   "name": "Covert Anchoring; Covert Outcomes",
+   "sources": [
+    "dilts-delozier-2000"
+   ]
+  },
+  {
+   "entry": "nelze-nekomunikovat",
+   "excluded": "",
+   "name": "1. One cannot not communicate",
+   "sources": [
+    "watzlawick-1967"
+   ]
+  },
+  {
+   "entry": "obsah-a-vztah",
+   "excluded": "",
+   "name": "2. Content and relationship aspects",
+   "sources": [
+    "watzlawick-1967"
+   ]
+  },
+  {
+   "entry": "interpunkce-komunikace",
+   "excluded": "",
+   "name": "3. Punctuation of the communicational sequence",
+   "sources": [
+    "watzlawick-1967"
+   ]
+  },
+  {
+   "entry": "symetricka-a-komplementarni-interakce",
+   "excluded": "",
+   "name": "5. Symmetrical or complementary interchanges",
+   "sources": [
+    "watzlawick-1967"
+   ]
+  }
+ ],
  "edges": [
   {
    "from": "mapa-neni-uzemi",
@@ -4324,6 +5910,261 @@
   {
    "from": "pacing-a-leading-pojem",
    "to": "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md",
+   "type": "prose"
+  },
+  {
+   "from": "obsah-a-vztah",
+   "to": "nelze-nekomunikovat",
+   "type": "related"
+  },
+  {
+   "from": "obsah-a-vztah",
+   "to": "inkongruence",
+   "type": "related"
+  },
+  {
+   "from": "obsah-a-vztah",
+   "to": "kategorie-satirove",
+   "type": "related"
+  },
+  {
+   "from": "obsah-a-vztah",
+   "to": "kontrola-tonu",
+   "type": "related"
+  },
+  {
+   "from": "obsah-a-vztah",
+   "to": "personalizace-sporu",
+   "type": "related"
+  },
+  {
+   "from": "obsah-a-vztah",
+   "to": "kompendium/techniques/ea-3-2-4-metacommunication-skill.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "obsah-a-vztah",
+   "to": "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "obsah-a-vztah",
+   "to": "kompendium/techniques/ea-7-1-4-habermas-communicative-action.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "obsah-a-vztah",
+   "to": "kompendium/argumentacni-fauly/dialekticke-taktiky/personalizace-sporu.md",
+   "type": "prose"
+  },
+  {
+   "from": "obsah-a-vztah",
+   "to": "kompendium/argumentacni-fauly/relevance/ad-hominem.md",
+   "type": "prose"
+  },
+  {
+   "from": "obsah-a-vztah",
+   "to": "kompendium/argumentacni-fauly/relevance/kontrola-tonu.md",
+   "type": "prose"
+  },
+  {
+   "from": "obsah-a-vztah",
+   "to": "kompendium/nlp-vzorce/jazykove-vzorce/kategorie-satirove.md",
+   "type": "prose"
+  },
+  {
+   "from": "obsah-a-vztah",
+   "to": "kompendium/nlp-vzorce/predpoklady/nelze-nekomunikovat.md",
+   "type": "prose"
+  },
+  {
+   "from": "obsah-a-vztah",
+   "to": "kompendium/nlp-vzorce/zakladni-pojmy/inkongruence.md",
+   "type": "prose"
+  },
+  {
+   "from": "obsah-a-vztah",
+   "to": "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md",
+   "type": "prose"
+  },
+  {
+   "from": "obsah-a-vztah",
+   "to": "kompendium/techniques/ea-3-2-4-metacommunication-skill.md",
+   "type": "prose"
+  },
+  {
+   "from": "obsah-a-vztah",
+   "to": "kompendium/techniques/ea-7-1-4-habermas-communicative-action.md",
+   "type": "prose"
+  },
+  {
+   "from": "interpunkce-komunikace",
+   "to": "interpunkcni-dvojznacnost",
+   "type": "related"
+  },
+  {
+   "from": "interpunkce-komunikace",
+   "to": "nelze-nekomunikovat",
+   "type": "related"
+  },
+  {
+   "from": "interpunkce-komunikace",
+   "to": "obsah-a-vztah",
+   "type": "related"
+  },
+  {
+   "from": "interpunkce-komunikace",
+   "to": "obracena-kauzalita",
+   "type": "related"
+  },
+  {
+   "from": "interpunkce-komunikace",
+   "to": "tu-quoque",
+   "type": "related"
+  },
+  {
+   "from": "interpunkce-komunikace",
+   "to": "dve-kriva-jedno-pravo",
+   "type": "related"
+  },
+  {
+   "from": "interpunkce-komunikace",
+   "to": "kompendium/critical-perspectives/21-systems-theory-alternative.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "interpunkce-komunikace",
+   "to": "kompendium/educational-scenarios/20-darvo-recognition.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "interpunkce-komunikace",
+   "to": "kompendium/research-methodology/conversation-analysis-EA.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "interpunkce-komunikace",
+   "to": "glossary/coercive-control.md",
+   "type": "prose"
+  },
+  {
+   "from": "interpunkce-komunikace",
+   "to": "kompendium/argumentacni-fauly/kauzalni/obracena-kauzalita.md",
+   "type": "prose"
+  },
+  {
+   "from": "interpunkce-komunikace",
+   "to": "kompendium/argumentacni-fauly/relevance/dve-kriva-jedno-pravo.md",
+   "type": "prose"
+  },
+  {
+   "from": "interpunkce-komunikace",
+   "to": "kompendium/argumentacni-fauly/relevance/tu-quoque.md",
+   "type": "prose"
+  },
+  {
+   "from": "interpunkce-komunikace",
+   "to": "kompendium/critical-perspectives/21-systems-theory-alternative.md",
+   "type": "prose"
+  },
+  {
+   "from": "interpunkce-komunikace",
+   "to": "kompendium/educational-scenarios/20-darvo-recognition.md",
+   "type": "prose"
+  },
+  {
+   "from": "interpunkce-komunikace",
+   "to": "kompendium/nlp-vzorce/milton-model/interpunkcni-dvojznacnost.md",
+   "type": "prose"
+  },
+  {
+   "from": "interpunkce-komunikace",
+   "to": "kompendium/research-methodology/conversation-analysis-EA.md",
+   "type": "prose"
+  },
+  {
+   "from": "interpunkce-komunikace",
+   "to": "kompendium/self-defense-guides/29-conflict-resolution.md",
+   "type": "prose"
+  },
+  {
+   "from": "symetricka-a-komplementarni-interakce",
+   "to": "obsah-a-vztah",
+   "type": "related"
+  },
+  {
+   "from": "symetricka-a-komplementarni-interakce",
+   "to": "interpunkce-komunikace",
+   "type": "related"
+  },
+  {
+   "from": "symetricka-a-komplementarni-interakce",
+   "to": "raport",
+   "type": "related"
+  },
+  {
+   "from": "symetricka-a-komplementarni-interakce",
+   "to": "pacing-a-leading-pojem",
+   "type": "related"
+  },
+  {
+   "from": "symetricka-a-komplementarni-interakce",
+   "to": "odvolani-na-autoritu",
+   "type": "related"
+  },
+  {
+   "from": "symetricka-a-komplementarni-interakce",
+   "to": "odvolani-na-silu",
+   "type": "related"
+  },
+  {
+   "from": "symetricka-a-komplementarni-interakce",
+   "to": "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "symetricka-a-komplementarni-interakce",
+   "to": "kompendium/critical-perspectives/14-power-asymmetry-EA.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "symetricka-a-komplementarni-interakce",
+   "to": "kompendium/prevention-resilience/14-de-escalation-prevention.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "symetricka-a-komplementarni-interakce",
+   "to": "kompendium/argumentacni-fauly/relevance/odvolani-na-autoritu.md",
+   "type": "prose"
+  },
+  {
+   "from": "symetricka-a-komplementarni-interakce",
+   "to": "kompendium/argumentacni-fauly/relevance/odvolani-na-silu.md",
+   "type": "prose"
+  },
+  {
+   "from": "symetricka-a-komplementarni-interakce",
+   "to": "kompendium/critical-perspectives/14-power-asymmetry-EA.md",
+   "type": "prose"
+  },
+  {
+   "from": "symetricka-a-komplementarni-interakce",
+   "to": "kompendium/nlp-vzorce/zakladni-pojmy/pacing-a-leading-pojem.md",
+   "type": "prose"
+  },
+  {
+   "from": "symetricka-a-komplementarni-interakce",
+   "to": "kompendium/nlp-vzorce/zakladni-pojmy/raport.md",
+   "type": "prose"
+  },
+  {
+   "from": "symetricka-a-komplementarni-interakce",
+   "to": "kompendium/prevention-resilience/14-de-escalation-prevention.md",
+   "type": "prose"
+  },
+  {
+   "from": "symetricka-a-komplementarni-interakce",
+   "to": "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
    "type": "prose"
   },
   {
@@ -14482,6 +16323,106 @@
    "type": "prose"
   },
   {
+   "from": "skryte-kotveni",
+   "to": "kotveni",
+   "type": "broader"
+  },
+  {
+   "from": "skryte-kotveni",
+   "to": "kotveni-v-kontrolujicich-vztazich",
+   "type": "related"
+  },
+  {
+   "from": "skryte-kotveni",
+   "to": "nechtene-kotvy",
+   "type": "related"
+  },
+  {
+   "from": "skryte-kotveni",
+   "to": "kotvy-v-reklame",
+   "type": "related"
+  },
+  {
+   "from": "skryte-kotveni",
+   "to": "kotveni-ve-skupine",
+   "type": "related"
+  },
+  {
+   "from": "skryte-kotveni",
+   "to": "raport-jako-nastroj-vlivu",
+   "type": "related"
+  },
+  {
+   "from": "skryte-kotveni",
+   "to": "konverzacni-hypnoza",
+   "type": "related"
+  },
+  {
+   "from": "skryte-kotveni",
+   "to": "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "skryte-kotveni",
+   "to": "kompendium/techniques/ea-4-2-6-consent-withdrawal.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "skryte-kotveni",
+   "to": "kompendium/techniques/ea-8-2-5-stark-coercive-control.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "skryte-kotveni",
+   "to": "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "skryte-kotveni",
+   "to": "kompendium/08-prilohy/eticky-kodex.md",
+   "type": "prose"
+  },
+  {
+   "from": "skryte-kotveni",
+   "to": "kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md",
+   "type": "prose"
+  },
+  {
+   "from": "skryte-kotveni",
+   "to": "kompendium/nlp-vzorce/kotveni/kotveni.md",
+   "type": "prose"
+  },
+  {
+   "from": "skryte-kotveni",
+   "to": "kompendium/nlp-vzorce/kriticke-hodnoceni/hodnoceni-narodni-rady-pro-vyzkum.md",
+   "type": "prose"
+  },
+  {
+   "from": "skryte-kotveni",
+   "to": "kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md",
+   "type": "prose"
+  },
+  {
+   "from": "skryte-kotveni",
+   "to": "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+   "type": "prose"
+  },
+  {
+   "from": "skryte-kotveni",
+   "to": "kompendium/techniques/ea-4-2-6-consent-withdrawal.md",
+   "type": "prose"
+  },
+  {
+   "from": "skryte-kotveni",
+   "to": "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md",
+   "type": "prose"
+  },
+  {
+   "from": "skryte-kotveni",
+   "to": "kompendium/techniques/ea-8-2-5-stark-coercive-control.md",
+   "type": "prose"
+  },
+  {
    "from": "elicitace-submodalit",
    "to": "submodality-pojem",
    "type": "broader"
@@ -21437,6 +23378,116 @@
    "type": "prose"
   },
   {
+   "from": "vytvoreni-nove-casti",
+   "to": "integrace-casti",
+   "type": "broader"
+  },
+  {
+   "from": "vytvoreni-nove-casti",
+   "to": "sestikrokovy-reframing",
+   "type": "related"
+  },
+  {
+   "from": "vytvoreni-nove-casti",
+   "to": "elicitace-pozitivniho-zameru",
+   "type": "related"
+  },
+  {
+   "from": "vytvoreni-nove-casti",
+   "to": "generator-noveho-chovani",
+   "type": "related"
+  },
+  {
+   "from": "vytvoreni-nove-casti",
+   "to": "vyjednavani-casti",
+   "type": "related"
+  },
+  {
+   "from": "vytvoreni-nove-casti",
+   "to": "ekologicka-kontrola",
+   "type": "related"
+  },
+  {
+   "from": "vytvoreni-nove-casti",
+   "to": "stepeni-ja-v-manipulaci",
+   "type": "related"
+  },
+  {
+   "from": "vytvoreni-nove-casti",
+   "to": "kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "vytvoreni-nove-casti",
+   "to": "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "vytvoreni-nove-casti",
+   "to": "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "vytvoreni-nove-casti",
+   "to": "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "vytvoreni-nove-casti",
+   "to": "kompendium/01-predmluva/eticke-aspekty.md",
+   "type": "prose"
+  },
+  {
+   "from": "vytvoreni-nove-casti",
+   "to": "kompendium/nlp-vzorce/integrace-casti/integrace-casti.md",
+   "type": "prose"
+  },
+  {
+   "from": "vytvoreni-nove-casti",
+   "to": "kompendium/nlp-vzorce/integrace-casti/stepeni-ja-v-manipulaci.md",
+   "type": "prose"
+  },
+  {
+   "from": "vytvoreni-nove-casti",
+   "to": "kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md",
+   "type": "prose"
+  },
+  {
+   "from": "vytvoreni-nove-casti",
+   "to": "kompendium/nlp-vzorce/reframing/reframing.md",
+   "type": "prose"
+  },
+  {
+   "from": "vytvoreni-nove-casti",
+   "to": "kompendium/nlp-vzorce/reframing/sestikrokovy-reframing.md",
+   "type": "prose"
+  },
+  {
+   "from": "vytvoreni-nove-casti",
+   "to": "kompendium/nlp-vzorce/strategie-a-modelovani/generator-noveho-chovani.md",
+   "type": "prose"
+  },
+  {
+   "from": "vytvoreni-nove-casti",
+   "to": "kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md",
+   "type": "prose"
+  },
+  {
+   "from": "vytvoreni-nove-casti",
+   "to": "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+   "type": "prose"
+  },
+  {
+   "from": "vytvoreni-nove-casti",
+   "to": "kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md",
+   "type": "prose"
+  },
+  {
+   "from": "vytvoreni-nove-casti",
+   "to": "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md",
+   "type": "prose"
+  },
+  {
    "from": "cyklus-zmeny-presvedceni",
    "to": "muzeum-starych-presvedceni",
    "type": "related"
@@ -22414,6 +24465,96 @@
   {
    "from": "imprint",
    "to": "kompendium/techniques/ea-8-3-8-trauma-recovery-literature.md",
+   "type": "prose"
+  },
+  {
+   "from": "zmena-hodnot",
+   "to": "uroven-presvedceni-a-hodnot",
+   "type": "related"
+  },
+  {
+   "from": "zmena-hodnot",
+   "to": "kriteria",
+   "type": "related"
+  },
+  {
+   "from": "zmena-hodnot",
+   "to": "sladeni-hodnot",
+   "type": "related"
+  },
+  {
+   "from": "zmena-hodnot",
+   "to": "terapie-casove-osy",
+   "type": "related"
+  },
+  {
+   "from": "zmena-hodnot",
+   "to": "imprint",
+   "type": "related"
+  },
+  {
+   "from": "zmena-hodnot",
+   "to": "som-hierarchie-kriterii",
+   "type": "related"
+  },
+  {
+   "from": "zmena-hodnot",
+   "to": "kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "zmena-hodnot",
+   "to": "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "zmena-hodnot",
+   "to": "kompendium/techniques/ea-5-3-1-identitarni-substituce.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "zmena-hodnot",
+   "to": "kompendium/case-studies/61-corporate-leadership-cult.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "zmena-hodnot",
+   "to": "kompendium/case-studies/61-corporate-leadership-cult.md",
+   "type": "prose"
+  },
+  {
+   "from": "zmena-hodnot",
+   "to": "kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md",
+   "type": "prose"
+  },
+  {
+   "from": "zmena-hodnot",
+   "to": "kompendium/nlp-vzorce/metaprogramy/kriteria.md",
+   "type": "prose"
+  },
+  {
+   "from": "zmena-hodnot",
+   "to": "kompendium/nlp-vzorce/presvedceni/imprint.md",
+   "type": "prose"
+  },
+  {
+   "from": "zmena-hodnot",
+   "to": "kompendium/nlp-vzorce/urovne-a-pozice/uroven-presvedceni-a-hodnot.md",
+   "type": "prose"
+  },
+  {
+   "from": "zmena-hodnot",
+   "to": "kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md",
+   "type": "prose"
+  },
+  {
+   "from": "zmena-hodnot",
+   "to": "kompendium/techniques/ea-5-3-1-identitarni-substituce.md",
+   "type": "prose"
+  },
+  {
+   "from": "zmena-hodnot",
+   "to": "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md",
    "type": "prose"
   },
   {
@@ -23954,6 +26095,106 @@
   {
    "from": "metaprogramy-v-marketingu",
    "to": "kompendium/techniques/ea-9-5-3-emotional-meme-engineering.md",
+   "type": "prose"
+  },
+  {
+   "from": "zmena-metaprogramu",
+   "to": "metaprogramy-pojem",
+   "type": "broader"
+  },
+  {
+   "from": "zmena-metaprogramu",
+   "to": "k-cili-a-od-problemu",
+   "type": "related"
+  },
+  {
+   "from": "zmena-metaprogramu",
+   "to": "vnitrni-a-vnejsi-reference",
+   "type": "related"
+  },
+  {
+   "from": "zmena-metaprogramu",
+   "to": "metaprogramy-v-naboru",
+   "type": "related"
+  },
+  {
+   "from": "zmena-metaprogramu",
+   "to": "terapie-casove-osy",
+   "type": "related"
+  },
+  {
+   "from": "zmena-metaprogramu",
+   "to": "metaprogramy-v-marketingu",
+   "type": "related"
+  },
+  {
+   "from": "zmena-metaprogramu",
+   "to": "nlp-v-koucinku",
+   "type": "related"
+  },
+  {
+   "from": "zmena-metaprogramu",
+   "to": "kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "zmena-metaprogramu",
+   "to": "kompendium/techniques/ea-2-5-9-identity-uncertainty-cult.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "zmena-metaprogramu",
+   "to": "kompendium/organizational-defense/_index.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "zmena-metaprogramu",
+   "to": "kompendium/03-zakladni-kategorie/biasy/_index.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "zmena-metaprogramu",
+   "to": "kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md",
+   "type": "prose"
+  },
+  {
+   "from": "zmena-metaprogramu",
+   "to": "kompendium/nlp-vzorce/metaprogramy/k-cili-a-od-problemu.md",
+   "type": "prose"
+  },
+  {
+   "from": "zmena-metaprogramu",
+   "to": "kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu.md",
+   "type": "prose"
+  },
+  {
+   "from": "zmena-metaprogramu",
+   "to": "kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru.md",
+   "type": "prose"
+  },
+  {
+   "from": "zmena-metaprogramu",
+   "to": "kompendium/nlp-vzorce/metaprogramy/vnitrni-a-vnejsi-reference.md",
+   "type": "prose"
+  },
+  {
+   "from": "zmena-metaprogramu",
+   "to": "kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md",
+   "type": "prose"
+  },
+  {
+   "from": "zmena-metaprogramu",
+   "to": "kompendium/organizational-defense/_index.md",
+   "type": "prose"
+  },
+  {
+   "from": "zmena-metaprogramu",
+   "to": "kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md",
+   "type": "prose"
+  },
+  {
+   "from": "zmena-metaprogramu",
+   "to": "kompendium/techniques/ea-2-5-9-identity-uncertainty-cult.md",
    "type": "prose"
   },
   {
@@ -31360,6 +33601,8 @@
     "komunikace-vedoma-a-nevedoma",
     "odpovednost-za-komunikaci",
     "kalibrace",
+    "obsah-a-vztah",
+    "interpunkce-komunikace",
     "cteni-myslenek",
     "cteni-reci-tela"
    ],
@@ -32252,7 +34495,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.01",
    "keywords": [
@@ -32399,7 +34642,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.02",
    "keywords": [
@@ -32526,7 +34769,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.03",
    "keywords": [
@@ -32652,7 +34895,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.04",
    "keywords": [
@@ -32785,7 +35028,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.05",
    "keywords": [
@@ -32901,7 +35144,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.06",
    "keywords": [
@@ -33020,7 +35263,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.07",
    "keywords": [
@@ -33137,7 +35380,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.08",
    "keywords": [
@@ -33257,7 +35500,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.09",
    "keywords": [
@@ -33383,7 +35626,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.10",
    "keywords": [
@@ -33508,7 +35751,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.11",
    "keywords": [
@@ -33623,7 +35866,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.12",
    "keywords": [
@@ -33763,7 +36006,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.13",
    "keywords": [
@@ -33909,7 +36152,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.14",
    "keywords": [
@@ -34029,7 +36272,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.15",
    "keywords": [
@@ -34080,6 +36323,7 @@
     "kalibrace",
     "kongruence",
     "pacing-a-leading-pojem",
+    "symetricka-a-komplementarni-interakce",
     "hierarchie-otazek-meta-modelu",
     "pacing-aktualni-zkusenosti",
     "ramec-souhlasu",
@@ -34177,7 +36421,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.16",
    "keywords": [
@@ -34316,7 +36560,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.17",
    "keywords": [
@@ -34439,7 +36683,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.18",
    "keywords": [
@@ -34576,7 +36820,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.19",
    "keywords": [
@@ -34698,7 +36942,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.20",
    "keywords": [
@@ -34825,7 +37069,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.21",
    "keywords": [
@@ -34958,7 +37202,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.22",
    "keywords": [
@@ -35076,7 +37320,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.23",
    "keywords": [
@@ -35190,7 +37434,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.24",
    "keywords": [
@@ -35283,7 +37527,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.25",
    "keywords": [
@@ -35404,7 +37648,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.26",
    "keywords": [
@@ -35442,6 +37686,7 @@
    "reading_minutes": 6,
    "related": [
     "kongruence",
+    "obsah-a-vztah",
     "integrace-casti",
     "sekvencni-inkongruence",
     "simultanni-inkongruence",
@@ -35525,7 +37770,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.27",
    "keywords": [
@@ -35568,6 +37813,7 @@
     "novy-kod",
     "integrace-casti",
     "vyjednavani-casti",
+    "vytvoreni-nove-casti",
     "kartezske-otazky",
     "dobre-formulovany-vysledek",
     "ekologie-cile"
@@ -35646,7 +37892,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.28",
    "keywords": [
@@ -35786,7 +38032,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.29",
    "keywords": [
@@ -35904,7 +38150,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.30",
    "keywords": [
@@ -36032,7 +38278,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.31",
    "keywords": [
@@ -36079,7 +38325,8 @@
     "filozoficky-smer",
     "adaptace",
     "metaprogramy-v-naboru",
-    "metaprogramy-v-marketingu"
+    "metaprogramy-v-marketingu",
+    "zmena-metaprogramu"
    ],
    "next": "kotva-pojem",
    "own": true,
@@ -36165,7 +38412,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.32",
    "keywords": [
@@ -36293,7 +38540,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.33",
    "keywords": [
@@ -36416,7 +38663,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.34",
    "keywords": [
@@ -36536,7 +38783,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.35",
    "keywords": [
@@ -36655,7 +38902,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.36",
    "keywords": [
@@ -36766,7 +39013,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.37",
    "keywords": [
@@ -36887,7 +39134,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.38",
    "keywords": [
@@ -37002,7 +39249,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.39",
    "keywords": [
@@ -37118,7 +39365,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.40",
    "keywords": [
@@ -37243,7 +39490,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.41",
    "keywords": [
@@ -37359,7 +39606,7 @@
    "family": "zakladni-pojmy",
    "family_code": "02",
    "family_en": "Core NLP concepts",
-   "family_size": 42,
+   "family_size": 45,
    "family_title": "Základní pojmy NLP",
    "id": "NLP-02.42",
    "keywords": [
@@ -37384,7 +39631,7 @@
    "narrower": [
     "pacing-a-leading"
    ],
-   "next": "",
+   "next": "obsah-a-vztah",
    "own": true,
    "part": "zakladni-pojmy.d",
    "path": "content/kompendium/nlp-vzorce/zakladni-pojmy/pacing-a-leading-pojem.md",
@@ -37395,6 +39642,7 @@
    "related": [
     "predikaty",
     "raport",
+    "symetricka-a-komplementarni-interakce",
     "pacing-aktualni-zkusenosti",
     "zrcadleni",
     "pacing-a-leading",
@@ -37466,6 +39714,409 @@
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
    "words": 1337
+  },
+  {
+   "aliases": [
+    "druhý axiom komunikace",
+    "obsahový a vztahový aspekt",
+    "obsah a vztah"
+   ],
+   "ancestors": [],
+   "broader": "",
+   "canonical": "",
+   "citations": 38,
+   "cs": "Obsahová a vztahová rovina sdělení",
+   "data": "data/nlp/zakladni-pojmy.pokryti.toml",
+   "depth": 0,
+   "description": "Druhý axiom teorie komunikace převzatý do NLP: každé sdělení nese obsah i vymezení vztahu. Jak se toho zneužívá a jak obě roviny oddělit.",
+   "en": "Content and relationship aspects",
+   "family": "zakladni-pojmy",
+   "family_code": "02",
+   "family_en": "Core NLP concepts",
+   "family_size": 45,
+   "family_title": "Základní pojmy NLP",
+   "id": "NLP-02.43",
+   "keywords": [
+    "Obsahová a vztahová rovina sdělení",
+    "Content and relationship aspects",
+    "druhý axiom komunikace",
+    "obsahový a vztahový aspekt",
+    "obsah a vztah",
+    "Základní pojmy NLP",
+    "NLP vzorce"
+   ],
+   "kompendium": [
+    "kompendium/techniques/ea-3-2-4-metacommunication-skill.md",
+    "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md",
+    "kompendium/techniques/ea-7-1-4-habermas-communicative-action.md"
+   ],
+   "links_prose": [
+    "kompendium/argumentacni-fauly/dialekticke-taktiky/personalizace-sporu.md",
+    "kompendium/argumentacni-fauly/relevance/ad-hominem.md",
+    "kompendium/argumentacni-fauly/relevance/kontrola-tonu.md",
+    "kompendium/nlp-vzorce/jazykove-vzorce/kategorie-satirove.md",
+    "kompendium/nlp-vzorce/predpoklady/nelze-nekomunikovat.md",
+    "kompendium/nlp-vzorce/zakladni-pojmy/inkongruence.md",
+    "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md",
+    "kompendium/techniques/ea-3-2-4-metacommunication-skill.md",
+    "kompendium/techniques/ea-7-1-4-habermas-communicative-action.md"
+   ],
+   "narrower": [],
+   "next": "interpunkce-komunikace",
+   "own": true,
+   "part": "zakladni-pojmy.pokryti",
+   "path": "content/kompendium/nlp-vzorce/zakladni-pojmy/obsah-a-vztah.md",
+   "position": 43,
+   "prev": "pacing-a-leading-pojem",
+   "provenance": "inferred",
+   "reading_minutes": 8,
+   "related": [
+    "kontrola-tonu",
+    "personalizace-sporu",
+    "nelze-nekomunikovat",
+    "inkongruence",
+    "interpunkce-komunikace",
+    "symetricka-a-komplementarni-interakce",
+    "kategorie-satirove"
+   ],
+   "related_declared": [
+    "nelze-nekomunikovat",
+    "inkongruence",
+    "kategorie-satirove",
+    "kontrola-tonu",
+    "personalizace-sporu"
+   ],
+   "review": "agent",
+   "risk": "stredni",
+   "risk_cs": "střední",
+   "schema": 1,
+   "sections": [
+    "Definice",
+    "Původ a souvislosti",
+    "Struktura vzorce",
+    "Detekční znaky",
+    "Legitimní a manipulativní užití",
+    "Stav důkazů",
+    "Obrana a zotavení"
+   ],
+   "slug": "obsah-a-vztah",
+   "sources": [
+    "bandler-grinder-1979",
+    "bateson-1972",
+    "cialdini-2009",
+    "grice-1975",
+    "herman-1992",
+    "levinson-1983",
+    "lifton-1961",
+    "oconnor-seymour-1990",
+    "rogers-1951",
+    "satir-1972",
+    "singer-lalich-1995",
+    "stark-2007",
+    "sturt-2012",
+    "tosey-mathison-2009",
+    "vrij-2008",
+    "walton-2008",
+    "watzlawick-1967",
+    "witkowski-2010"
+   ],
+   "sources_critical": [
+    "cialdini-2009",
+    "herman-1992",
+    "lifton-1961",
+    "rogers-1951",
+    "singer-lalich-1995",
+    "stark-2007",
+    "sturt-2012",
+    "tosey-mathison-2009",
+    "vrij-2008",
+    "witkowski-2010"
+   ],
+   "sources_primary": [
+    "bandler-grinder-1979",
+    "oconnor-seymour-1990",
+    "walton-2008"
+   ],
+   "sources_roots": [
+    "bateson-1972",
+    "grice-1975",
+    "levinson-1983",
+    "satir-1972",
+    "watzlawick-1967"
+   ],
+   "type": "concept",
+   "type_cs": "pojem",
+   "url": "kompendium/nlp-vzorce/zakladni-pojmy/obsah-a-vztah/",
+   "use": "dvoji",
+   "use_cs": "terapeutické i vlivové",
+   "words": 1654
+  },
+  {
+   "aliases": [
+    "třetí axiom komunikace",
+    "členění komunikačního sledu",
+    "kdo to začal"
+   ],
+   "ancestors": [],
+   "broader": "",
+   "canonical": "",
+   "citations": 31,
+   "cs": "Interpunkce komunikačního sledu",
+   "data": "data/nlp/zakladni-pojmy.pokryti.toml",
+   "depth": 0,
+   "description": "Třetí axiom teorie komunikace převzatý do NLP: spor o to, kdo začal, plyne z různého členění téhož sledu. Kdy to vysvětluje konflikt a kdy zakrývá vinu.",
+   "en": "Punctuation of the communicational sequence",
+   "family": "zakladni-pojmy",
+   "family_code": "02",
+   "family_en": "Core NLP concepts",
+   "family_size": 45,
+   "family_title": "Základní pojmy NLP",
+   "id": "NLP-02.44",
+   "keywords": [
+    "Interpunkce komunikačního sledu",
+    "Punctuation of the communicational sequence",
+    "třetí axiom komunikace",
+    "členění komunikačního sledu",
+    "kdo to začal",
+    "Základní pojmy NLP",
+    "NLP vzorce"
+   ],
+   "kompendium": [
+    "kompendium/critical-perspectives/21-systems-theory-alternative.md",
+    "kompendium/educational-scenarios/20-darvo-recognition.md",
+    "kompendium/research-methodology/conversation-analysis-EA.md"
+   ],
+   "links_prose": [
+    "glossary/coercive-control.md",
+    "kompendium/argumentacni-fauly/kauzalni/obracena-kauzalita.md",
+    "kompendium/argumentacni-fauly/relevance/dve-kriva-jedno-pravo.md",
+    "kompendium/argumentacni-fauly/relevance/tu-quoque.md",
+    "kompendium/critical-perspectives/21-systems-theory-alternative.md",
+    "kompendium/educational-scenarios/20-darvo-recognition.md",
+    "kompendium/nlp-vzorce/milton-model/interpunkcni-dvojznacnost.md",
+    "kompendium/research-methodology/conversation-analysis-EA.md",
+    "kompendium/self-defense-guides/29-conflict-resolution.md"
+   ],
+   "narrower": [],
+   "next": "symetricka-a-komplementarni-interakce",
+   "own": true,
+   "part": "zakladni-pojmy.pokryti",
+   "path": "content/kompendium/nlp-vzorce/zakladni-pojmy/interpunkce-komunikace.md",
+   "position": 44,
+   "prev": "obsah-a-vztah",
+   "provenance": "inferred",
+   "reading_minutes": 7,
+   "related": [
+    "tu-quoque",
+    "dve-kriva-jedno-pravo",
+    "obracena-kauzalita",
+    "nelze-nekomunikovat",
+    "obsah-a-vztah",
+    "symetricka-a-komplementarni-interakce",
+    "interpunkcni-dvojznacnost"
+   ],
+   "related_declared": [
+    "interpunkcni-dvojznacnost",
+    "nelze-nekomunikovat",
+    "obsah-a-vztah",
+    "obracena-kauzalita",
+    "tu-quoque",
+    "dve-kriva-jedno-pravo"
+   ],
+   "review": "agent",
+   "risk": "stredni",
+   "risk_cs": "střední",
+   "schema": 1,
+   "sections": [
+    "Definice",
+    "Původ a souvislosti",
+    "Struktura vzorce",
+    "Detekční znaky",
+    "Legitimní a manipulativní užití",
+    "Stav důkazů",
+    "Obrana a zotavení"
+   ],
+   "slug": "interpunkce-komunikace",
+   "sources": [
+    "bandler-grinder-1975b",
+    "bateson-1972",
+    "herman-1992",
+    "kunda-1990",
+    "levinson-1983",
+    "mercier-sperber-2011",
+    "miller-rollnick-2013",
+    "nickerson-1998",
+    "oconnor-seymour-1990",
+    "passmore-rowson-2019",
+    "stark-2007",
+    "walton-2008",
+    "watzlawick-1967",
+    "watzlawick-1974",
+    "witkowski-2010"
+   ],
+   "sources_critical": [
+    "herman-1992",
+    "kunda-1990",
+    "mercier-sperber-2011",
+    "miller-rollnick-2013",
+    "nickerson-1998",
+    "passmore-rowson-2019",
+    "stark-2007",
+    "witkowski-2010"
+   ],
+   "sources_primary": [
+    "bandler-grinder-1975b",
+    "oconnor-seymour-1990",
+    "walton-2008"
+   ],
+   "sources_roots": [
+    "bateson-1972",
+    "levinson-1983",
+    "watzlawick-1967",
+    "watzlawick-1974"
+   ],
+   "type": "concept",
+   "type_cs": "pojem",
+   "url": "kompendium/nlp-vzorce/zakladni-pojmy/interpunkce-komunikace/",
+   "use": "dvoji",
+   "use_cs": "terapeutické i vlivové",
+   "words": 1483
+  },
+  {
+   "aliases": [
+    "pátý axiom komunikace",
+    "symetrická eskalace",
+    "rigidní komplementarita",
+    "schismogeneze"
+   ],
+   "ancestors": [],
+   "broader": "",
+   "canonical": "",
+   "citations": 37,
+   "cs": "Symetrická a komplementární interakce",
+   "data": "data/nlp/zakladni-pojmy.pokryti.toml",
+   "depth": 0,
+   "description": "Pátý axiom teorie komunikace převzatý do NLP: výměny stavějí na rovnosti, nebo na rozdílu. Jak vypadá eskalace a rigidní nadřazenost a jak se jim bránit.",
+   "en": "Symmetrical and complementary interaction",
+   "family": "zakladni-pojmy",
+   "family_code": "02",
+   "family_en": "Core NLP concepts",
+   "family_size": 45,
+   "family_title": "Základní pojmy NLP",
+   "id": "NLP-02.45",
+   "keywords": [
+    "Symetrická a komplementární interakce",
+    "Symmetrical and complementary interaction",
+    "pátý axiom komunikace",
+    "symetrická eskalace",
+    "rigidní komplementarita",
+    "schismogeneze",
+    "Základní pojmy NLP",
+    "NLP vzorce"
+   ],
+   "kompendium": [
+    "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+    "kompendium/critical-perspectives/14-power-asymmetry-EA.md",
+    "kompendium/prevention-resilience/14-de-escalation-prevention.md"
+   ],
+   "links_prose": [
+    "kompendium/argumentacni-fauly/relevance/odvolani-na-autoritu.md",
+    "kompendium/argumentacni-fauly/relevance/odvolani-na-silu.md",
+    "kompendium/critical-perspectives/14-power-asymmetry-EA.md",
+    "kompendium/nlp-vzorce/zakladni-pojmy/pacing-a-leading-pojem.md",
+    "kompendium/nlp-vzorce/zakladni-pojmy/raport.md",
+    "kompendium/prevention-resilience/14-de-escalation-prevention.md",
+    "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"
+   ],
+   "narrower": [],
+   "next": "",
+   "own": true,
+   "part": "zakladni-pojmy.pokryti",
+   "path": "content/kompendium/nlp-vzorce/zakladni-pojmy/symetricka-a-komplementarni-interakce.md",
+   "position": 45,
+   "prev": "interpunkce-komunikace",
+   "provenance": "inferred",
+   "reading_minutes": 8,
+   "related": [
+    "odvolani-na-autoritu",
+    "odvolani-na-silu",
+    "raport",
+    "pacing-a-leading-pojem",
+    "obsah-a-vztah",
+    "interpunkce-komunikace"
+   ],
+   "related_declared": [
+    "obsah-a-vztah",
+    "interpunkce-komunikace",
+    "raport",
+    "pacing-a-leading-pojem",
+    "odvolani-na-autoritu",
+    "odvolani-na-silu"
+   ],
+   "review": "agent",
+   "risk": "vysoke",
+   "risk_cs": "vysoké",
+   "schema": 1,
+   "sections": [
+    "Definice",
+    "Původ a souvislosti",
+    "Struktura vzorce",
+    "Detekční znaky",
+    "Legitimní a manipulativní užití",
+    "Stav důkazů",
+    "Obrana a zotavení"
+   ],
+   "slug": "symetricka-a-komplementarni-interakce",
+   "sources": [
+    "bateson-1972",
+    "chartrand-bargh-1999",
+    "cialdini-2009",
+    "hassan-1988",
+    "herman-1992",
+    "kunda-1990",
+    "lifton-1961",
+    "miller-rollnick-2013",
+    "oconnor-seymour-1990",
+    "rogers-1951",
+    "singer-lalich-1995",
+    "stark-2007",
+    "sturt-2012",
+    "tosey-mathison-2009",
+    "walton-2008",
+    "watzlawick-1967",
+    "watzlawick-1974",
+    "witkowski-2010"
+   ],
+   "sources_critical": [
+    "chartrand-bargh-1999",
+    "cialdini-2009",
+    "hassan-1988",
+    "herman-1992",
+    "kunda-1990",
+    "lifton-1961",
+    "miller-rollnick-2013",
+    "rogers-1951",
+    "singer-lalich-1995",
+    "stark-2007",
+    "sturt-2012",
+    "tosey-mathison-2009",
+    "witkowski-2010"
+   ],
+   "sources_primary": [
+    "oconnor-seymour-1990",
+    "walton-2008"
+   ],
+   "sources_roots": [
+    "bateson-1972",
+    "watzlawick-1967",
+    "watzlawick-1974"
+   ],
+   "type": "concept",
+   "type_cs": "pojem",
+   "url": "kompendium/nlp-vzorce/zakladni-pojmy/symetricka-a-komplementarni-interakce/",
+   "use": "dvoji",
+   "use_cs": "terapeutické i vlivové",
+   "words": 1521
   },
   {
    "aliases": [
@@ -41325,6 +43976,7 @@
    "reading_minutes": 6,
    "related": [
     "amfibolie",
+    "interpunkce-komunikace",
     "vlozene-prikazy",
     "analogove-znaceni",
     "fonologicka-dvojznacnost",
@@ -41449,6 +44101,7 @@
    "reading_minutes": 6,
    "related": [
     "vyhybava-slova",
+    "vagnost",
     "chunking",
     "transderivacni-hledani",
     "meta-model",
@@ -49960,6 +52613,7 @@
    "provenance": "inferred",
    "reading_minutes": 7,
    "related": [
+    "falesna-analogie",
     "som-redefinice",
     "som-protipriklad",
     "obsahovy-reframing",
@@ -50421,6 +53075,7 @@
     "som-jiny-vysledek",
     "uroven-presvedceni-a-hodnot",
     "retezeni-presvedceni",
+    "zmena-hodnot",
     "kriteria",
     "sladeni-hodnot"
    ],
@@ -51289,7 +53944,8 @@
     "integrace-casti",
     "jadrova-transformace",
     "vyjednavani-casti",
-    "elicitace-pozitivniho-zameru"
+    "elicitace-pozitivniho-zameru",
+    "vytvoreni-nove-casti"
    ],
    "related_declared": [
     "pozitivni-zamer-chovani",
@@ -52960,7 +55616,7 @@
    "family": "kotveni",
    "family_code": "09",
    "family_en": "Anchoring",
-   "family_size": 19,
+   "family_size": 20,
    "family_title": "Kotvení",
    "id": "NLP-09.01",
    "keywords": [
@@ -53001,7 +55657,8 @@
     "kotveni-ve-skupine",
     "kotvy-v-reklame",
     "nechtene-kotvy",
-    "kotveni-v-kontrolujicich-vztazich"
+    "kotveni-v-kontrolujicich-vztazich",
+    "skryte-kotveni"
    ],
    "next": "samokotveni",
    "own": true,
@@ -53105,7 +55762,7 @@
    "family": "kotveni",
    "family_code": "09",
    "family_en": "Anchoring",
-   "family_size": 19,
+   "family_size": 20,
    "family_title": "Kotvení",
    "id": "NLP-09.02",
    "keywords": [
@@ -53214,7 +55871,7 @@
    "family": "kotveni",
    "family_code": "09",
    "family_en": "Anchoring",
-   "family_size": 19,
+   "family_size": 20,
    "family_title": "Kotvení",
    "id": "NLP-09.03",
    "keywords": [
@@ -53335,7 +55992,7 @@
    "family": "kotveni",
    "family_code": "09",
    "family_en": "Anchoring",
-   "family_size": 19,
+   "family_size": 20,
    "family_title": "Kotvení",
    "id": "NLP-09.04",
    "keywords": [
@@ -53455,7 +56112,7 @@
    "family": "kotveni",
    "family_code": "09",
    "family_en": "Anchoring",
-   "family_size": 19,
+   "family_size": 20,
    "family_title": "Kotvení",
    "id": "NLP-09.05",
    "keywords": [
@@ -53565,7 +56222,7 @@
    "family": "kotveni",
    "family_code": "09",
    "family_en": "Anchoring",
-   "family_size": 19,
+   "family_size": 20,
    "family_title": "Kotvení",
    "id": "NLP-09.06",
    "keywords": [
@@ -53682,7 +56339,7 @@
    "family": "kotveni",
    "family_code": "09",
    "family_en": "Anchoring",
-   "family_size": 19,
+   "family_size": 20,
    "family_title": "Kotvení",
    "id": "NLP-09.07",
    "keywords": [
@@ -53795,7 +56452,7 @@
    "family": "kotveni",
    "family_code": "09",
    "family_en": "Anchoring",
-   "family_size": 19,
+   "family_size": 20,
    "family_title": "Kotvení",
    "id": "NLP-09.08",
    "keywords": [
@@ -53907,7 +56564,7 @@
    "family": "kotveni",
    "family_code": "09",
    "family_en": "Anchoring",
-   "family_size": 19,
+   "family_size": 20,
    "family_title": "Kotvení",
    "id": "NLP-09.09",
    "keywords": [
@@ -54032,7 +56689,7 @@
    "family": "kotveni",
    "family_code": "09",
    "family_en": "Anchoring",
-   "family_size": 19,
+   "family_size": 20,
    "family_title": "Kotvení",
    "id": "NLP-09.10",
    "keywords": [
@@ -54147,7 +56804,7 @@
    "family": "kotveni",
    "family_code": "09",
    "family_en": "Anchoring",
-   "family_size": 19,
+   "family_size": 20,
    "family_title": "Kotvení",
    "id": "NLP-09.11",
    "keywords": [
@@ -54270,7 +56927,7 @@
    "family": "kotveni",
    "family_code": "09",
    "family_en": "Anchoring",
-   "family_size": 19,
+   "family_size": 20,
    "family_title": "Kotvení",
    "id": "NLP-09.12",
    "keywords": [
@@ -54386,7 +57043,7 @@
    "family": "kotveni",
    "family_code": "09",
    "family_en": "Anchoring",
-   "family_size": 19,
+   "family_size": 20,
    "family_title": "Kotvení",
    "id": "NLP-09.13",
    "keywords": [
@@ -54510,7 +57167,7 @@
    "family": "kotveni",
    "family_code": "09",
    "family_en": "Anchoring",
-   "family_size": 19,
+   "family_size": 20,
    "family_title": "Kotvení",
    "id": "NLP-09.14",
    "keywords": [
@@ -54631,7 +57288,7 @@
    "family": "kotveni",
    "family_code": "09",
    "family_en": "Anchoring",
-   "family_size": 19,
+   "family_size": 20,
    "family_title": "Kotvení",
    "id": "NLP-09.15",
    "keywords": [
@@ -54668,6 +57325,7 @@
     "stohovani-kotev",
     "auditivni-kotvy",
     "kotvy-v-prezentaci",
+    "skryte-kotveni",
     "raport-se-skupinou",
     "nlp-v-sektach",
     "guru-efekt",
@@ -54752,7 +57410,7 @@
    "family": "kotveni",
    "family_code": "09",
    "family_en": "Anchoring",
-   "family_size": 19,
+   "family_size": 20,
    "family_title": "Kotvení",
    "id": "NLP-09.16",
    "keywords": [
@@ -54789,6 +57447,7 @@
     "presupozice-v-reklame",
     "auditivni-kotvy",
     "vizualni-kotvy",
+    "skryte-kotveni",
     "vzorec-godiva",
     "submodality-v-reklame",
     "metaprogramy-v-marketingu",
@@ -54871,7 +57530,7 @@
    "family": "kotveni",
    "family_code": "09",
    "family_en": "Anchoring",
-   "family_size": 19,
+   "family_size": 20,
    "family_title": "Kotvení",
    "id": "NLP-09.17",
    "keywords": [
@@ -54912,6 +57571,7 @@
     "kolaps-kotev",
     "auditivni-kotvy",
     "kotveni-v-kontrolujicich-vztazich",
+    "skryte-kotveni",
     "rychla-lecba-fobie",
     "trauma-a-falesne-vzpominky"
    ],
@@ -54991,7 +57651,7 @@
    "family": "kotveni",
    "family_code": "09",
    "family_en": "Anchoring",
-   "family_size": 19,
+   "family_size": 20,
    "family_title": "Kotvení",
    "id": "NLP-09.18",
    "keywords": [
@@ -55034,6 +57694,7 @@
     "auditivni-kotvy",
     "kinesteticke-kotvy",
     "nechtene-kotvy",
+    "skryte-kotveni",
     "od-libosti-k-nechuti",
     "prahovy-vzorec",
     "strategie-lasky",
@@ -55105,7 +57766,7 @@
    "family": "kotveni",
    "family_code": "09",
    "family_en": "Anchoring",
-   "family_size": 19,
+   "family_size": 20,
    "family_title": "Kotvení",
    "id": "NLP-09.19",
    "keywords": [
@@ -55130,7 +57791,7 @@
     "kompendium/techniques/ea-7-3-2-tversky-heuristics.md"
    ],
    "narrower": [],
-   "next": "",
+   "next": "skryte-kotveni",
    "own": true,
    "part": "kotveni.b",
    "path": "content/kompendium/nlp-vzorce/kotveni/kotveni-versus-ukotveni-odhadu.md",
@@ -55202,6 +57863,137 @@
    "use": "zadne",
    "use_cs": "výkladový pojem",
    "words": 1239
+  },
+  {
+   "aliases": [
+    "covert anchoring",
+    "nepozorované kotvení",
+    "kotvení bez vědomí"
+   ],
+   "ancestors": [
+    "kotveni"
+   ],
+   "broader": "kotveni",
+   "canonical": "",
+   "citations": 25,
+   "cs": "Skryté kotvení",
+   "data": "data/nlp/kotveni.pokryti.toml",
+   "depth": 1,
+   "description": "Kotvení, o kterém člověk neví: co NLP tvrdí o skrytých kotvách, jak poznat, že se signál spojuje s vaším stavem bez souhlasu, a co říká výzkum.",
+   "en": "Covert anchoring",
+   "family": "kotveni",
+   "family_code": "09",
+   "family_en": "Anchoring",
+   "family_size": 20,
+   "family_title": "Kotvení",
+   "id": "NLP-09.20",
+   "keywords": [
+    "Skryté kotvení",
+    "Covert anchoring",
+    "covert anchoring",
+    "nepozorované kotvení",
+    "kotvení bez vědomí",
+    "Kotvení",
+    "NLP vzorce"
+   ],
+   "kompendium": [
+    "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+    "kompendium/techniques/ea-4-2-6-consent-withdrawal.md",
+    "kompendium/techniques/ea-8-2-5-stark-coercive-control.md",
+    "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md"
+   ],
+   "links_prose": [
+    "kompendium/08-prilohy/eticky-kodex.md",
+    "kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md",
+    "kompendium/nlp-vzorce/kotveni/kotveni.md",
+    "kompendium/nlp-vzorce/kriticke-hodnoceni/hodnoceni-narodni-rady-pro-vyzkum.md",
+    "kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md",
+    "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+    "kompendium/techniques/ea-4-2-6-consent-withdrawal.md",
+    "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md",
+    "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"
+   ],
+   "narrower": [],
+   "next": "",
+   "own": true,
+   "part": "kotveni.pokryti",
+   "path": "content/kompendium/nlp-vzorce/kotveni/skryte-kotveni.md",
+   "position": 20,
+   "prev": "kotveni-versus-ukotveni-odhadu",
+   "provenance": "inferred",
+   "reading_minutes": 6,
+   "related": [
+    "kotveni-ve-skupine",
+    "kotvy-v-reklame",
+    "nechtene-kotvy",
+    "kotveni-v-kontrolujicich-vztazich",
+    "raport-jako-nastroj-vlivu",
+    "konverzacni-hypnoza"
+   ],
+   "related_declared": [
+    "kotveni-v-kontrolujicich-vztazich",
+    "nechtene-kotvy",
+    "kotvy-v-reklame",
+    "kotveni-ve-skupine",
+    "raport-jako-nastroj-vlivu",
+    "konverzacni-hypnoza"
+   ],
+   "review": "agent",
+   "risk": "vysoke",
+   "risk_cs": "vysoké",
+   "schema": 1,
+   "sections": [
+    "Definice",
+    "Původ a souvislosti",
+    "Struktura vzorce",
+    "Detekční znaky",
+    "Legitimní a manipulativní užití",
+    "Stav důkazů",
+    "Obrana a zotavení"
+   ],
+   "slug": "skryte-kotveni",
+   "sources": [
+    "bandler-grinder-1979",
+    "chartrand-bargh-1999",
+    "cialdini-2009",
+    "dilts-delozier-2000",
+    "druckman-swets-1988",
+    "grinder-bandler-1981",
+    "hassan-1988",
+    "herman-1992",
+    "pavlov-1927",
+    "petty-cacioppo-1986",
+    "rogers-1951",
+    "sharpley-1987",
+    "stark-2007",
+    "witkowski-2010"
+   ],
+   "sources_critical": [
+    "chartrand-bargh-1999",
+    "cialdini-2009",
+    "druckman-swets-1988",
+    "hassan-1988",
+    "herman-1992",
+    "petty-cacioppo-1986",
+    "rogers-1951",
+    "sharpley-1987",
+    "stark-2007",
+    "witkowski-2010"
+   ],
+   "sources_primary": [
+    "bandler-grinder-1979",
+    "dilts-delozier-2000",
+    "grinder-bandler-1981"
+   ],
+   "sources_roots": [
+    "pavlov-1927"
+   ],
+   "type": "pattern",
+   "type_cs": "vzorec",
+   "url": "kompendium/nlp-vzorce/kotveni/skryte-kotveni/",
+   "use": "vliv",
+   "use_cs": "převážně vlivové",
+   "words": 1292
   },
   {
    "aliases": [
@@ -59262,6 +62054,8 @@
     "uvolneni-negativnich-emoci",
     "limitujici-rozhodnuti",
     "korenova-pricina",
+    "zmena-hodnot",
+    "zmena-metaprogramu",
     "stav-dukazu-nlp"
    ],
    "related_declared": [
@@ -60932,6 +63726,7 @@
     "limitujici-presvedceni",
     "beznadej-bezmoc-nehodnost",
     "presvedceni-jako-mapa",
+    "zmena-hodnot",
     "kriteria",
     "sladeni-hodnot"
    ],
@@ -64507,7 +67302,8 @@
     "disociace",
     "budouci-prehravani",
     "uroven-chovani",
-    "instalace-strategie"
+    "instalace-strategie",
+    "vytvoreni-nove-casti"
    ],
    "related_declared": [
     "budouci-prehravani",
@@ -64813,7 +67609,7 @@
    "family": "integrace-casti",
    "family_code": "15",
    "family_en": "Parts work",
-   "family_size": 9,
+   "family_size": 10,
    "family_title": "Práce s částmi",
    "id": "NLP-15.01",
    "keywords": [
@@ -64845,7 +67641,8 @@
     "vizualni-squash",
     "jadrova-transformace",
     "vyjednavani-casti",
-    "integrace-polarit"
+    "integrace-polarit",
+    "vytvoreni-nove-casti"
    ],
    "next": "vizualni-squash",
    "own": true,
@@ -64951,7 +67748,7 @@
    "family": "integrace-casti",
    "family_code": "15",
    "family_en": "Parts work",
-   "family_size": 9,
+   "family_size": 10,
    "family_title": "Práce s částmi",
    "id": "NLP-15.02",
    "keywords": [
@@ -65068,7 +67865,7 @@
    "family": "integrace-casti",
    "family_code": "15",
    "family_en": "Parts work",
-   "family_size": 9,
+   "family_size": 10,
    "family_title": "Práce s částmi",
    "id": "NLP-15.03",
    "keywords": [
@@ -65180,7 +67977,7 @@
    "family": "integrace-casti",
    "family_code": "15",
    "family_en": "Parts work",
-   "family_size": 9,
+   "family_size": 10,
    "family_title": "Práce s částmi",
    "id": "NLP-15.04",
    "keywords": [
@@ -65219,7 +68016,8 @@
     "integrace-casti",
     "vizualni-squash",
     "sekvencni-inkongruence",
-    "elicitace-pozitivniho-zameru"
+    "elicitace-pozitivniho-zameru",
+    "vytvoreni-nove-casti"
    ],
    "related_declared": [
     "sestikrokovy-reframing",
@@ -65295,7 +68093,7 @@
    "family": "integrace-casti",
    "family_code": "15",
    "family_en": "Parts work",
-   "family_size": 9,
+   "family_size": 10,
    "family_title": "Práce s částmi",
    "id": "NLP-15.05",
    "keywords": [
@@ -65410,7 +68208,7 @@
    "family": "integrace-casti",
    "family_code": "15",
    "family_en": "Parts work",
-   "family_size": 9,
+   "family_size": 10,
    "family_title": "Práce s částmi",
    "id": "NLP-15.06",
    "keywords": [
@@ -65531,7 +68329,7 @@
    "family": "integrace-casti",
    "family_code": "15",
    "family_en": "Parts work",
-   "family_size": 9,
+   "family_size": 10,
    "family_title": "Práce s částmi",
    "id": "NLP-15.07",
    "keywords": [
@@ -65571,6 +68369,7 @@
     "integrace-casti",
     "jadrova-transformace",
     "vyjednavani-casti",
+    "vytvoreni-nove-casti",
     "manipulativni-reframing-ve-vztazich"
    ],
    "related_declared": [
@@ -65650,7 +68449,7 @@
    "family": "integrace-casti",
    "family_code": "15",
    "family_en": "Parts work",
-   "family_size": 9,
+   "family_size": 10,
    "family_title": "Práce s částmi",
    "id": "NLP-15.08",
    "keywords": [
@@ -65767,7 +68566,7 @@
    "family": "integrace-casti",
    "family_code": "15",
    "family_en": "Parts work",
-   "family_size": 9,
+   "family_size": 10,
    "family_title": "Práce s částmi",
    "id": "NLP-15.09",
    "keywords": [
@@ -65795,7 +68594,7 @@
     "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md"
    ],
    "narrower": [],
-   "next": "",
+   "next": "vytvoreni-nove-casti",
    "own": true,
    "part": "integrace-casti",
    "path": "content/kompendium/nlp-vzorce/integrace-casti/stepeni-ja-v-manipulaci.md",
@@ -65807,6 +68606,7 @@
     "inkongruence",
     "integrace-casti",
     "sekvencni-inkongruence",
+    "vytvoreni-nove-casti",
     "muzeum-starych-presvedceni",
     "presvedceni-o-identite",
     "nlp-v-sektach",
@@ -65858,6 +68658,139 @@
   },
   {
    "aliases": [
+    "vytvoření části",
+    "creating a part",
+    "nová část"
+   ],
+   "ancestors": [
+    "integrace-casti"
+   ],
+   "broader": "integrace-casti",
+   "canonical": "",
+   "citations": 21,
+   "cs": "Vytvoření nové části",
+   "data": "data/nlp/integrace-casti.pokryti.toml",
+   "depth": 1,
+   "description": "Vzorec NLP, podle něhož si člověk může „vytvořit“ novou vnitřní část pro chybějící chování: tvrzení, znaky zneužití, chybějící důkazy a obrana autonomie.",
+   "en": "Creating a new part",
+   "family": "integrace-casti",
+   "family_code": "15",
+   "family_en": "Parts work",
+   "family_size": 10,
+   "family_title": "Práce s částmi",
+   "id": "NLP-15.10",
+   "keywords": [
+    "Vytvoření nové části",
+    "Creating a new part",
+    "vytvoření části",
+    "creating a part",
+    "nová část",
+    "Práce s částmi",
+    "NLP vzorce"
+   ],
+   "kompendium": [
+    "kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md",
+    "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+    "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md",
+    "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"
+   ],
+   "links_prose": [
+    "kompendium/01-predmluva/eticke-aspekty.md",
+    "kompendium/nlp-vzorce/integrace-casti/integrace-casti.md",
+    "kompendium/nlp-vzorce/integrace-casti/stepeni-ja-v-manipulaci.md",
+    "kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md",
+    "kompendium/nlp-vzorce/reframing/reframing.md",
+    "kompendium/nlp-vzorce/reframing/sestikrokovy-reframing.md",
+    "kompendium/nlp-vzorce/strategie-a-modelovani/generator-noveho-chovani.md",
+    "kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md",
+    "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+    "kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md",
+    "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md"
+   ],
+   "narrower": [],
+   "next": "",
+   "own": true,
+   "part": "integrace-casti.pokryti",
+   "path": "content/kompendium/nlp-vzorce/integrace-casti/vytvoreni-nove-casti.md",
+   "position": 10,
+   "prev": "stepeni-ja-v-manipulaci",
+   "provenance": "inferred",
+   "reading_minutes": 6,
+   "related": [
+    "ekologicka-kontrola",
+    "sestikrokovy-reframing",
+    "generator-noveho-chovani",
+    "vyjednavani-casti",
+    "elicitace-pozitivniho-zameru",
+    "stepeni-ja-v-manipulaci"
+   ],
+   "related_declared": [
+    "sestikrokovy-reframing",
+    "elicitace-pozitivniho-zameru",
+    "generator-noveho-chovani",
+    "vyjednavani-casti",
+    "ekologicka-kontrola",
+    "stepeni-ja-v-manipulaci"
+   ],
+   "review": "agent",
+   "risk": "stredni",
+   "risk_cs": "střední",
+   "schema": 1,
+   "sections": [
+    "Definice",
+    "Původ a souvislosti",
+    "Struktura vzorce",
+    "Detekční znaky",
+    "Legitimní a manipulativní užití",
+    "Stav důkazů",
+    "Obrana a zotavení"
+   ],
+   "slug": "vytvoreni-nove-casti",
+   "sources": [
+    "bandler-grinder-1979",
+    "bandler-grinder-1982",
+    "cialdini-2009",
+    "grinder-bandler-1976",
+    "hassan-1988",
+    "heap-1988",
+    "lifton-1961",
+    "miller-rollnick-2013",
+    "passmore-rowson-2019",
+    "perls-1969",
+    "rogers-1951",
+    "singer-lalich-1995",
+    "sturt-2012",
+    "witkowski-2010"
+   ],
+   "sources_critical": [
+    "cialdini-2009",
+    "hassan-1988",
+    "heap-1988",
+    "lifton-1961",
+    "miller-rollnick-2013",
+    "passmore-rowson-2019",
+    "rogers-1951",
+    "singer-lalich-1995",
+    "sturt-2012",
+    "witkowski-2010"
+   ],
+   "sources_primary": [
+    "bandler-grinder-1979",
+    "bandler-grinder-1982",
+    "grinder-bandler-1976"
+   ],
+   "sources_roots": [
+    "perls-1969"
+   ],
+   "type": "pattern",
+   "type_cs": "vzorec",
+   "url": "kompendium/nlp-vzorce/integrace-casti/vytvoreni-nove-casti/",
+   "use": "dvoji",
+   "use_cs": "terapeutické i vlivové",
+   "words": 1279
+  },
+  {
+   "aliases": [
     "přirozený cyklus změny přesvědčení"
    ],
    "ancestors": [],
@@ -65872,7 +68805,7 @@
    "family": "presvedceni",
    "family_code": "16",
    "family_en": "Belief patterns",
-   "family_size": 14,
+   "family_size": 15,
    "family_title": "Přesvědčení",
    "id": "NLP-16.01",
    "keywords": [
@@ -65998,7 +68931,7 @@
    "family": "presvedceni",
    "family_code": "16",
    "family_en": "Belief patterns",
-   "family_size": 14,
+   "family_size": 15,
    "family_title": "Přesvědčení",
    "id": "NLP-16.02",
    "keywords": [
@@ -66115,7 +69048,7 @@
    "family": "presvedceni",
    "family_code": "16",
    "family_en": "Belief patterns",
-   "family_size": 14,
+   "family_size": 15,
    "family_title": "Přesvědčení",
    "id": "NLP-16.03",
    "keywords": [
@@ -66229,7 +69162,7 @@
    "family": "presvedceni",
    "family_code": "16",
    "family_en": "Belief patterns",
-   "family_size": 14,
+   "family_size": 15,
    "family_title": "Přesvědčení",
    "id": "NLP-16.04",
    "keywords": [
@@ -66367,7 +69300,7 @@
    "family": "presvedceni",
    "family_code": "16",
    "family_en": "Belief patterns",
-   "family_size": 14,
+   "family_size": 15,
    "family_title": "Přesvědčení",
    "id": "NLP-16.05",
    "keywords": [
@@ -66487,7 +69420,7 @@
    "family": "presvedceni",
    "family_code": "16",
    "family_en": "Belief patterns",
-   "family_size": 14,
+   "family_size": 15,
    "family_title": "Přesvědčení",
    "id": "NLP-16.06",
    "keywords": [
@@ -66611,7 +69544,7 @@
    "family": "presvedceni",
    "family_code": "16",
    "family_en": "Belief patterns",
-   "family_size": 14,
+   "family_size": 15,
    "family_title": "Přesvědčení",
    "id": "NLP-16.07",
    "keywords": [
@@ -66741,7 +69674,7 @@
    "family": "presvedceni",
    "family_code": "16",
    "family_en": "Belief patterns",
-   "family_size": 14,
+   "family_size": 15,
    "family_title": "Přesvědčení",
    "id": "NLP-16.08",
    "keywords": [
@@ -66858,7 +69791,7 @@
    "family": "presvedceni",
    "family_code": "16",
    "family_en": "Belief patterns",
-   "family_size": 14,
+   "family_size": 15,
    "family_title": "Přesvědčení",
    "id": "NLP-16.09",
    "keywords": [
@@ -66978,7 +69911,7 @@
    "family": "presvedceni",
    "family_code": "16",
    "family_en": "Belief patterns",
-   "family_size": 14,
+   "family_size": 15,
    "family_title": "Přesvědčení",
    "id": "NLP-16.10",
    "keywords": [
@@ -67090,7 +70023,7 @@
    "family": "presvedceni",
    "family_code": "16",
    "family_en": "Belief patterns",
-   "family_size": 14,
+   "family_size": 15,
    "family_title": "Přesvědčení",
    "id": "NLP-16.11",
    "keywords": [
@@ -67204,7 +70137,7 @@
    "family": "presvedceni",
    "family_code": "16",
    "family_en": "Belief patterns",
-   "family_size": 14,
+   "family_size": 15,
    "family_title": "Přesvědčení",
    "id": "NLP-16.12",
    "keywords": [
@@ -67319,7 +70252,7 @@
    "family": "presvedceni",
    "family_code": "16",
    "family_en": "Belief patterns",
-   "family_size": 14,
+   "family_size": 15,
    "family_title": "Přesvědčení",
    "id": "NLP-16.13",
    "keywords": [
@@ -67435,7 +70368,7 @@
    "family": "presvedceni",
    "family_code": "16",
    "family_en": "Belief patterns",
-   "family_size": 14,
+   "family_size": 15,
    "family_title": "Přesvědčení",
    "id": "NLP-16.14",
    "keywords": [
@@ -67461,7 +70394,7 @@
     "kompendium/techniques/ea-8-3-8-trauma-recovery-literature.md"
    ],
    "narrower": [],
-   "next": "",
+   "next": "zmena-hodnot",
    "own": true,
    "part": "presvedceni.b",
    "path": "content/kompendium/nlp-vzorce/presvedceni/imprint.md",
@@ -67476,7 +70409,8 @@
     "limitujici-rozhodnuti",
     "korenova-pricina",
     "presvedceni-o-identite",
-    "myslenkovy-virus"
+    "myslenkovy-virus",
+    "zmena-hodnot"
    ],
    "related_declared": [
     "reimprinting",
@@ -67532,6 +70466,139 @@
   },
   {
    "aliases": [
+    "přeuspořádání hodnot",
+    "změna hierarchie hodnot",
+    "values change"
+   ],
+   "ancestors": [],
+   "broader": "",
+   "canonical": "",
+   "citations": 24,
+   "cs": "Změna hodnot",
+   "data": "data/nlp/presvedceni.pokryti.toml",
+   "depth": 0,
+   "description": "Vzorec NLP, podle něhož lze přeuspořádat nebo vyměnit hodnoty člověka: co tvrdí, jak poznat, že někdo přepisuje vaše hodnoty ve svůj prospěch, a co říká výzkum.",
+   "en": "Changing values",
+   "family": "presvedceni",
+   "family_code": "16",
+   "family_en": "Belief patterns",
+   "family_size": 15,
+   "family_title": "Přesvědčení",
+   "id": "NLP-16.15",
+   "keywords": [
+    "Změna hodnot",
+    "Changing values",
+    "přeuspořádání hodnot",
+    "změna hierarchie hodnot",
+    "values change",
+    "Přesvědčení",
+    "NLP vzorce"
+   ],
+   "kompendium": [
+    "kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md",
+    "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md",
+    "kompendium/techniques/ea-5-3-1-identitarni-substituce.md",
+    "kompendium/case-studies/61-corporate-leadership-cult.md"
+   ],
+   "links_prose": [
+    "kompendium/case-studies/61-corporate-leadership-cult.md",
+    "kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md",
+    "kompendium/nlp-vzorce/metaprogramy/kriteria.md",
+    "kompendium/nlp-vzorce/presvedceni/imprint.md",
+    "kompendium/nlp-vzorce/urovne-a-pozice/uroven-presvedceni-a-hodnot.md",
+    "kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md",
+    "kompendium/techniques/ea-5-3-1-identitarni-substituce.md",
+    "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md"
+   ],
+   "narrower": [],
+   "next": "",
+   "own": true,
+   "part": "presvedceni.pokryti",
+   "path": "content/kompendium/nlp-vzorce/presvedceni/zmena-hodnot.md",
+   "position": 15,
+   "prev": "imprint",
+   "provenance": "inferred",
+   "reading_minutes": 6,
+   "related": [
+    "som-hierarchie-kriterii",
+    "terapie-casove-osy",
+    "uroven-presvedceni-a-hodnot",
+    "imprint",
+    "kriteria",
+    "sladeni-hodnot"
+   ],
+   "related_declared": [
+    "uroven-presvedceni-a-hodnot",
+    "kriteria",
+    "sladeni-hodnot",
+    "terapie-casove-osy",
+    "imprint",
+    "som-hierarchie-kriterii"
+   ],
+   "review": "agent",
+   "risk": "vysoke",
+   "risk_cs": "vysoké",
+   "schema": 1,
+   "sections": [
+    "Definice",
+    "Původ a souvislosti",
+    "Struktura vzorce",
+    "Detekční znaky",
+    "Legitimní a manipulativní užití",
+    "Stav důkazů",
+    "Obrana a zotavení"
+   ],
+   "slug": "zmena-hodnot",
+   "sources": [
+    "bandler-1985",
+    "charvet-1997",
+    "cialdini-2009",
+    "dilts-1990",
+    "dilts-hallbom-smith-1990",
+    "druckman-swets-1988",
+    "festinger-1957",
+    "freedman-fraser-1966",
+    "hassan-1988",
+    "herman-1992",
+    "james-woodsmall-1988",
+    "lifton-1961",
+    "miller-rollnick-2013",
+    "norcross-2006",
+    "rogers-1951",
+    "singer-lalich-1995",
+    "witkowski-2010"
+   ],
+   "sources_critical": [
+    "cialdini-2009",
+    "druckman-swets-1988",
+    "festinger-1957",
+    "freedman-fraser-1966",
+    "hassan-1988",
+    "herman-1992",
+    "lifton-1961",
+    "miller-rollnick-2013",
+    "norcross-2006",
+    "rogers-1951",
+    "singer-lalich-1995",
+    "witkowski-2010"
+   ],
+   "sources_primary": [
+    "bandler-1985",
+    "charvet-1997",
+    "dilts-1990",
+    "dilts-hallbom-smith-1990",
+    "james-woodsmall-1988"
+   ],
+   "sources_roots": [],
+   "type": "pattern",
+   "type_cs": "vzorec",
+   "url": "kompendium/nlp-vzorce/presvedceni/zmena-hodnot/",
+   "use": "dvoji",
+   "use_cs": "terapeutické i vlivové",
+   "words": 1263
+  },
+  {
+   "aliases": [
     "směr motivace",
     "k a od"
    ],
@@ -67549,7 +70616,7 @@
    "family": "metaprogramy",
    "family_code": "17",
    "family_en": "Meta-programs",
-   "family_size": 23,
+   "family_size": 24,
    "family_title": "Metaprogramy",
    "id": "NLP-17.01",
    "keywords": [
@@ -67588,6 +70655,7 @@
     "casova-orientace",
     "filozoficky-smer",
     "metaprogramy-v-marketingu",
+    "zmena-metaprogramu",
     "pozitivni-formulace-cile",
     "od-problemu-k-vysledku"
    ],
@@ -67674,7 +70742,7 @@
    "family": "metaprogramy",
    "family_code": "17",
    "family_en": "Meta-programs",
-   "family_size": 23,
+   "family_size": 24,
    "family_title": "Metaprogramy",
    "id": "NLP-17.02",
    "keywords": [
@@ -67713,6 +70781,7 @@
     "ja-a-druzi",
     "struktura-pravidel",
     "metaprogramy-v-naboru",
+    "zmena-metaprogramu",
     "nlp-v-sektach",
     "guru-efekt"
    ],
@@ -67793,7 +70862,7 @@
    "family": "metaprogramy",
    "family_code": "17",
    "family_en": "Meta-programs",
-   "family_size": 23,
+   "family_size": 24,
    "family_title": "Metaprogramy",
    "id": "NLP-17.03",
    "keywords": [
@@ -67910,7 +70979,7 @@
    "family": "metaprogramy",
    "family_code": "17",
    "family_en": "Meta-programs",
-   "family_size": 23,
+   "family_size": 24,
    "family_title": "Metaprogramy",
    "id": "NLP-17.04",
    "keywords": [
@@ -68028,7 +71097,7 @@
    "family": "metaprogramy",
    "family_code": "17",
    "family_en": "Meta-programs",
-   "family_size": 23,
+   "family_size": 24,
    "family_title": "Metaprogramy",
    "id": "NLP-17.05",
    "keywords": [
@@ -68147,7 +71216,7 @@
    "family": "metaprogramy",
    "family_code": "17",
    "family_en": "Meta-programs",
-   "family_size": 23,
+   "family_size": 24,
    "family_title": "Metaprogramy",
    "id": "NLP-17.06",
    "keywords": [
@@ -68258,7 +71327,7 @@
    "family": "metaprogramy",
    "family_code": "17",
    "family_en": "Meta-programs",
-   "family_size": 23,
+   "family_size": 24,
    "family_title": "Metaprogramy",
    "id": "NLP-17.07",
    "keywords": [
@@ -68292,6 +71361,7 @@
    "related": [
     "som-hierarchie-kriterii",
     "uroven-presvedceni-a-hodnot",
+    "zmena-hodnot",
     "vnitrni-a-vnejsi-reference",
     "struktura-pravidel",
     "hodnoty-pri-koupi",
@@ -68376,7 +71446,7 @@
    "family": "metaprogramy",
    "family_code": "17",
    "family_en": "Meta-programs",
-   "family_size": 23,
+   "family_size": 24,
    "family_title": "Metaprogramy",
    "id": "NLP-17.08",
    "keywords": [
@@ -68498,7 +71568,7 @@
    "family": "metaprogramy",
    "family_code": "17",
    "family_en": "Meta-programs",
-   "family_size": 23,
+   "family_size": 24,
    "family_title": "Metaprogramy",
    "id": "NLP-17.09",
    "keywords": [
@@ -68612,7 +71682,7 @@
    "family": "metaprogramy",
    "family_code": "17",
    "family_en": "Meta-programs",
-   "family_size": 23,
+   "family_size": 24,
    "family_title": "Metaprogramy",
    "id": "NLP-17.10",
    "keywords": [
@@ -68725,7 +71795,7 @@
    "family": "metaprogramy",
    "family_code": "17",
    "family_en": "Meta-programs",
-   "family_size": 23,
+   "family_size": 24,
    "family_title": "Metaprogramy",
    "id": "NLP-17.11",
    "keywords": [
@@ -68837,7 +71907,7 @@
    "family": "metaprogramy",
    "family_code": "17",
    "family_en": "Meta-programs",
-   "family_size": 23,
+   "family_size": 24,
    "family_title": "Metaprogramy",
    "id": "NLP-17.12",
    "keywords": [
@@ -68947,7 +72017,7 @@
    "family": "metaprogramy",
    "family_code": "17",
    "family_en": "Meta-programs",
-   "family_size": 23,
+   "family_size": 24,
    "family_title": "Metaprogramy",
    "id": "NLP-17.13",
    "keywords": [
@@ -69060,7 +72130,7 @@
    "family": "metaprogramy",
    "family_code": "17",
    "family_en": "Meta-programs",
-   "family_size": 23,
+   "family_size": 24,
    "family_title": "Metaprogramy",
    "id": "NLP-17.14",
    "keywords": [
@@ -69170,7 +72240,7 @@
    "family": "metaprogramy",
    "family_code": "17",
    "family_en": "Meta-programs",
-   "family_size": 23,
+   "family_size": 24,
    "family_title": "Metaprogramy",
    "id": "NLP-17.15",
    "keywords": [
@@ -69280,7 +72350,7 @@
    "family": "metaprogramy",
    "family_code": "17",
    "family_en": "Meta-programs",
-   "family_size": 23,
+   "family_size": 24,
    "family_title": "Metaprogramy",
    "id": "NLP-17.16",
    "keywords": [
@@ -69390,7 +72460,7 @@
    "family": "metaprogramy",
    "family_code": "17",
    "family_en": "Meta-programs",
-   "family_size": 23,
+   "family_size": 24,
    "family_title": "Metaprogramy",
    "id": "NLP-17.17",
    "keywords": [
@@ -69501,7 +72571,7 @@
    "family": "metaprogramy",
    "family_code": "17",
    "family_en": "Meta-programs",
-   "family_size": 23,
+   "family_size": 24,
    "family_title": "Metaprogramy",
    "id": "NLP-17.18",
    "keywords": [
@@ -69614,7 +72684,7 @@
    "family": "metaprogramy",
    "family_code": "17",
    "family_en": "Meta-programs",
-   "family_size": 23,
+   "family_size": 24,
    "family_title": "Metaprogramy",
    "id": "NLP-17.19",
    "keywords": [
@@ -69724,7 +72794,7 @@
    "family": "metaprogramy",
    "family_code": "17",
    "family_en": "Meta-programs",
-   "family_size": 23,
+   "family_size": 24,
    "family_title": "Metaprogramy",
    "id": "NLP-17.20",
    "keywords": [
@@ -69831,7 +72901,7 @@
    "family": "metaprogramy",
    "family_code": "17",
    "family_en": "Meta-programs",
-   "family_size": 23,
+   "family_size": 24,
    "family_title": "Metaprogramy",
    "id": "NLP-17.21",
    "keywords": [
@@ -69940,7 +73010,7 @@
    "family": "metaprogramy",
    "family_code": "17",
    "family_en": "Meta-programs",
-   "family_size": 23,
+   "family_size": 24,
    "family_title": "Metaprogramy",
    "id": "NLP-17.22",
    "keywords": [
@@ -69978,6 +73048,7 @@
     "proaktivni-a-reaktivni",
     "pracovni-styl",
     "lide-a-veci",
+    "zmena-metaprogramu",
     "nlp-v-koucinku"
    ],
    "related_declared": [
@@ -70051,7 +73122,7 @@
    "family": "metaprogramy",
    "family_code": "17",
    "family_en": "Meta-programs",
-   "family_size": 23,
+   "family_size": 24,
    "family_title": "Metaprogramy",
    "id": "NLP-17.23",
    "keywords": [
@@ -70076,7 +73147,7 @@
     "kompendium/techniques/ea-9-5-3-emotional-meme-engineering.md"
    ],
    "narrower": [],
-   "next": "",
+   "next": "zmena-metaprogramu",
    "own": true,
    "part": "metaprogramy.b",
    "path": "content/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu.md",
@@ -70093,6 +73164,7 @@
     "k-cili-a-od-problemu",
     "shoda-a-rozdil",
     "hodnoty-pri-koupi",
+    "zmena-metaprogramu",
     "shoda-predikatu",
     "nlp-v-prodeji",
     "nlp-v-reklame"
@@ -70152,6 +73224,130 @@
    "use": "vliv",
    "use_cs": "převážně vlivové",
    "words": 1279
+  },
+  {
+   "aliases": [
+    "přeprogramování metaprogramů",
+    "změna třídicích vzorců",
+    "meta-program change"
+   ],
+   "ancestors": [
+    "metaprogramy-pojem"
+   ],
+   "broader": "metaprogramy-pojem",
+   "canonical": "",
+   "citations": 19,
+   "cs": "Změna metaprogramů",
+   "data": "data/nlp/metaprogramy.pokryti.toml",
+   "depth": 1,
+   "description": "Tvrzení NLP, že metaprogramy člověka lze záměrně přenastavit: odkud pochází, jak poznat nátlak skrytý za „přeprogramováním“ a proč chybí důkazy.",
+   "en": "Changing meta-programs",
+   "family": "metaprogramy",
+   "family_code": "17",
+   "family_en": "Meta-programs",
+   "family_size": 24,
+   "family_title": "Metaprogramy",
+   "id": "NLP-17.24",
+   "keywords": [
+    "Změna metaprogramů",
+    "Changing meta-programs",
+    "přeprogramování metaprogramů",
+    "změna třídicích vzorců",
+    "meta-program change",
+    "Metaprogramy",
+    "NLP vzorce"
+   ],
+   "kompendium": [
+    "kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md",
+    "kompendium/techniques/ea-2-5-9-identity-uncertainty-cult.md",
+    "kompendium/organizational-defense/_index.md",
+    "kompendium/03-zakladni-kategorie/biasy/_index.md"
+   ],
+   "links_prose": [
+    "kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md",
+    "kompendium/nlp-vzorce/metaprogramy/k-cili-a-od-problemu.md",
+    "kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu.md",
+    "kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru.md",
+    "kompendium/nlp-vzorce/metaprogramy/vnitrni-a-vnejsi-reference.md",
+    "kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md",
+    "kompendium/organizational-defense/_index.md",
+    "kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md",
+    "kompendium/techniques/ea-2-5-9-identity-uncertainty-cult.md"
+   ],
+   "narrower": [],
+   "next": "",
+   "own": true,
+   "part": "metaprogramy.pokryti",
+   "path": "content/kompendium/nlp-vzorce/metaprogramy/zmena-metaprogramu.md",
+   "position": 24,
+   "prev": "metaprogramy-v-marketingu",
+   "provenance": "inferred",
+   "reading_minutes": 6,
+   "related": [
+    "terapie-casove-osy",
+    "k-cili-a-od-problemu",
+    "vnitrni-a-vnejsi-reference",
+    "metaprogramy-v-naboru",
+    "metaprogramy-v-marketingu",
+    "nlp-v-koucinku"
+   ],
+   "related_declared": [
+    "k-cili-a-od-problemu",
+    "vnitrni-a-vnejsi-reference",
+    "metaprogramy-v-naboru",
+    "terapie-casove-osy",
+    "metaprogramy-v-marketingu",
+    "nlp-v-koucinku"
+   ],
+   "review": "agent",
+   "risk": "stredni",
+   "risk_cs": "střední",
+   "schema": 1,
+   "sections": [
+    "Definice",
+    "Původ a souvislosti",
+    "Struktura vzorce",
+    "Detekční znaky",
+    "Legitimní a manipulativní užití",
+    "Stav důkazů",
+    "Obrana a zotavení"
+   ],
+   "slug": "zmena-metaprogramu",
+   "sources": [
+    "beck-1976",
+    "charvet-1997",
+    "gilovich-1991",
+    "hall-bodenhamer-1997",
+    "hassan-1988",
+    "herman-1992",
+    "james-woodsmall-1988",
+    "nickerson-1998",
+    "passmore-rowson-2019",
+    "tosey-mathison-2009",
+    "witkowski-2010"
+   ],
+   "sources_critical": [
+    "beck-1976",
+    "gilovich-1991",
+    "hassan-1988",
+    "herman-1992",
+    "nickerson-1998",
+    "passmore-rowson-2019",
+    "tosey-mathison-2009",
+    "witkowski-2010"
+   ],
+   "sources_primary": [
+    "charvet-1997",
+    "hall-bodenhamer-1997",
+    "james-woodsmall-1988"
+   ],
+   "sources_roots": [],
+   "type": "pattern",
+   "type_cs": "vzorec",
+   "url": "kompendium/nlp-vzorce/metaprogramy/zmena-metaprogramu/",
+   "use": "dvoji",
+   "use_cs": "terapeutické i vlivové",
+   "words": 1210
   },
   {
    "aliases": [
@@ -71570,6 +74766,7 @@
     "respekt-k-modelu-sveta",
     "som-hierarchie-kriterii",
     "uroven-presvedceni-a-hodnot",
+    "zmena-hodnot",
     "kriteria",
     "hodnoty-pri-koupi",
     "raport-jako-nastroj-vlivu",
@@ -71693,6 +74890,7 @@
     "pacing-a-leading-pojem",
     "utilizace",
     "kotveni-v-kontrolujicich-vztazich",
+    "skryte-kotveni",
     "druha-pozice",
     "duvera",
     "zrcadleni",
@@ -73973,6 +77171,7 @@
     "percepcni-pozice-pojem",
     "kongruence",
     "inkongruence",
+    "obsah-a-vztah",
     "koreny-nlp"
    ],
    "related_declared": [
@@ -74796,6 +77995,7 @@
    "provenance": "inferred",
    "reading_minutes": 6,
    "related": [
+    "falesna-analogie",
     "utilizace",
     "vnorene-smycky",
     "vrstveni-realit",
@@ -75807,6 +79007,7 @@
     "utilizace",
     "indukce-podanim-ruky",
     "technika-prolozeni",
+    "skryte-kotveni",
     "krizove-zrcadleni",
     "sladeni-dechu",
     "sladeni-hlasu-a-tempa",
@@ -77021,6 +80222,7 @@
     "zarovnani-logickych-urovni",
     "motivacni-strategie",
     "metaprogramy-v-naboru",
+    "zmena-metaprogramu",
     "dobre-formulovany-vysledek",
     "trh-certifikaci-nlp",
     "guru-efekt",
@@ -80030,7 +83232,10 @@
     "uptime-a-downtime",
     "trans-pojem",
     "transderivacni-hledani",
-    "pacing-a-leading-pojem"
+    "pacing-a-leading-pojem",
+    "obsah-a-vztah",
+    "interpunkce-komunikace",
+    "symetricka-a-komplementarni-interakce"
    ],
    "slug": "zakladni-pojmy",
    "title": "Základní pojmy NLP",
@@ -80239,7 +83444,8 @@
     "kotvy-v-reklame",
     "nechtene-kotvy",
     "kotveni-v-kontrolujicich-vztazich",
-    "kotveni-versus-ukotveni-odhadu"
+    "kotveni-versus-ukotveni-odhadu",
+    "skryte-kotveni"
    ],
    "slug": "kotveni",
    "title": "Kotvení",
@@ -80381,7 +83587,8 @@
     "simultanni-inkongruence",
     "elicitace-pozitivniho-zameru",
     "integrace-polarit",
-    "stepeni-ja-v-manipulaci"
+    "stepeni-ja-v-manipulaci",
+    "vytvoreni-nove-casti"
    ],
    "slug": "integrace-casti",
    "title": "Práce s částmi",
@@ -80404,7 +83611,8 @@
     "myslenkovy-virus",
     "presvedceni-a-zdravi",
     "presvedceni-jako-mapa",
-    "imprint"
+    "imprint",
+    "zmena-hodnot"
    ],
    "slug": "presvedceni",
    "title": "Přesvědčení",
@@ -80436,7 +83644,8 @@
     "filozoficky-smer",
     "adaptace",
     "metaprogramy-v-naboru",
-    "metaprogramy-v-marketingu"
+    "metaprogramy-v-marketingu",
+    "zmena-metaprogramu"
    ],
    "slug": "metaprogramy",
    "title": "Metaprogramy",
@@ -80871,6 +84080,11 @@
   "mcguire-1964": {
    "cite": "McGuire 1964",
    "entry": "McGuire, W. J. (1964). Inducing resistance to persuasion: Some contemporary approaches. In L. Berkowitz (Ed.), *Advances in Experimental Social Psychology* (Vol. 1, pp. 191–229). New York: Academic Press.",
+   "group": "critical"
+  },
+  "mercier-sperber-2011": {
+   "cite": "Mercier a Sperber 2011",
+   "entry": "Mercier, H., & Sperber, D. (2011). Why do humans reason? Arguments for an argumentative theory. *Behavioral and Brain Sciences*, 34(2), 57–74.",
    "group": "critical"
   },
   "miller-1956": {

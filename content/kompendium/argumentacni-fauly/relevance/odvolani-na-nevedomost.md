@@ -35,7 +35,7 @@ catalog_broader = ""
 catalog_narrower = ["argument-z-mlceni"]
 catalog_depth = 0
 catalog_ancestors = []
-catalog_related = ["popreni-predchudce", "vylucujici-premisy", "klam-maskovaneho-muze", "klam-klamu", "nefalzifikovatelnost", "presun-dukazniho-bremene", "argument-z-neuveritelnosti", "argument-z-mlceni", "pravidlo-dukazniho-bremene", "pravidlo-uzavreni", "bayesovske-pojeti-klamu", "falzifikovatelnost-nlp"]
+catalog_related = ["popreni-predchudce", "vylucujici-premisy", "klam-maskovaneho-muze", "klam-klamu", "kladny-zaver-ze-zaporne-premisy", "nefalzifikovatelnost", "presun-dukazniho-bremene", "argument-z-neuveritelnosti", "argument-z-mlceni", "pravidlo-dukazniho-bremene", "pravidlo-uzavreni", "bayesovske-pojeti-klamu", "falzifikovatelnost-nlp"]
 catalog_related_declared = ["presun-dukazniho-bremene", "nefalzifikovatelnost", "argument-z-mlceni", "pravidlo-dukazniho-bremene", "falzifikovatelnost-nlp"]
 catalog_kompendium = ["kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-7-2-3-popper-falsification.md", "kompendium/forensic-legal/_index.md"]
 catalog_canonical = ""
@@ -43,7 +43,7 @@ catalog_links_prose = ["kompendium/argumentacni-fauly/dialekticke-taktiky/argume
 catalog_prev = "whataboutism"
 catalog_next = "lichotka"
 catalog_position = 22
-catalog_family_size = 28
+catalog_family_size = 29
 catalog_sources = ["copi-cohen-mcmahon-2014", "hahn-oaksford-2007", "hamblin-1970", "lilienfeld-2015", "nickerson-1998", "popper-1959", "walton-1995", "walton-2008", "walton-reed-macagno-2008", "woods-walton-1989", "eemeren-grootendorst-2004"]
 catalog_sources_primary = ["copi-cohen-mcmahon-2014", "hamblin-1970", "walton-1995", "walton-2008", "walton-reed-macagno-2008", "woods-walton-1989", "eemeren-grootendorst-2004"]
 catalog_sources_roots = ["popper-1959"]
@@ -229,6 +229,7 @@ z nich ptáme, jak byl získán a co přesně dovoluje tvrdit.
 - [Vylučující premisy](@/kompendium/argumentacni-fauly/formalni/vylucujici-premisy.md) – příbuzné heslo (Formální klamy, Exclusive premises)
 - [Klam maskovaného muže](@/kompendium/argumentacni-fauly/formalni/klam-maskovaneho-muze.md) – příbuzné heslo (Formální klamy, Masked-man fallacy)
 - [Klam klamu](@/kompendium/argumentacni-fauly/formalni/klam-klamu.md) – příbuzné heslo (Formální klamy, Argument from fallacy)
+- [Kladný závěr ze záporné premisy](@/kompendium/argumentacni-fauly/formalni/kladny-zaver-ze-zaporne-premisy.md) – příbuzné heslo (Formální klamy, Affirmative conclusion from a negative premise)
 - [Nefalzifikovatelné tvrzení](@/kompendium/argumentacni-fauly/predpoklady-argumentu/nefalzifikovatelnost.md) – příbuzné heslo (Klamy předpokladu, Unfalsifiability)
 - [Přesun důkazního břemene](@/kompendium/argumentacni-fauly/predpoklady-argumentu/presun-dukazniho-bremene.md) – příbuzné heslo (Klamy předpokladu, Shifting the burden of proof)
 - [Argument z neuvěřitelnosti](@/kompendium/argumentacni-fauly/predpoklady-argumentu/argument-z-neuveritelnosti.md) – příbuzné heslo (Klamy předpokladu, Argument from incredulity)

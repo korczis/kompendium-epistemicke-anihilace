@@ -20,8 +20,8 @@ catalog_export = "data/nlp-katalog.json"
 catalog_family = "metaprogramy"
 catalog_code = "17"
 catalog_en = "Meta-programs"
-catalog_size = 23
-catalog_members = ["k-cili-a-od-problemu", "vnitrni-a-vnejsi-reference", "moznosti-a-postupy", "obecne-a-specificke", "shoda-a-rozdil", "proaktivni-a-reaktivni", "kriteria", "kanal-presvedceni", "rezim-presvedceni", "ja-a-druzi", "reakce-na-stres", "pracovni-styl", "lide-a-veci", "struktura-pravidel", "casova-orientace", "emocni-zvladani", "hodnoty-pri-koupi", "odpovednost", "duvera", "filozoficky-smer", "adaptace", "metaprogramy-v-naboru", "metaprogramy-v-marketingu"]
+catalog_size = 24
+catalog_members = ["k-cili-a-od-problemu", "vnitrni-a-vnejsi-reference", "moznosti-a-postupy", "obecne-a-specificke", "shoda-a-rozdil", "proaktivni-a-reaktivni", "kriteria", "kanal-presvedceni", "rezim-presvedceni", "ja-a-druzi", "reakce-na-stres", "pracovni-styl", "lide-a-veci", "struktura-pravidel", "casova-orientace", "emocni-zvladani", "hodnoty-pri-koupi", "odpovednost", "duvera", "filozoficky-smer", "adaptace", "metaprogramy-v-naboru", "metaprogramy-v-marketingu", "zmena-metaprogramu"]
 catalog_types = ["concept", "pattern"]
 catalog_sources = ["charvet-1997", "cialdini-2009", "freedman-fraser-1966", "gilovich-1991", "hall-bodenhamer-1997", "herman-1992", "james-woodsmall-1988", "mcguire-1964", "oconnor-seymour-1990", "passmore-rowson-2019", "petty-cacioppo-1986", "rogers-1951", "sharpley-1987", "tosey-mathison-2009", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
 +++
@@ -185,6 +185,7 @@ obraně](@/kompendium/organizational-defense/_index.md) a obecné principy obran
 | `NLP-17.21` | [Usuzování a vnímání](@/kompendium/nlp-vzorce/metaprogramy/adaptace.md) | Adaptation (judging and perceiving) | pojem | terapeutické i vlivové | nízké |
 | `NLP-17.22` | [Metaprogramy v náboru a řízení](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru.md) | Meta-programs in recruitment and management | vzorec | převážně vlivové | vysoké |
 | `NLP-17.23` | [Metaprogramy v marketingu](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu.md) | Meta-programs in marketing | vzorec | převážně vlivové | vysoké |
+| `NLP-17.24` | [Změna metaprogramů](@/kompendium/nlp-vzorce/metaprogramy/zmena-metaprogramu.md) | Changing meta-programs | vzorec | terapeutické i vlivové | střední |
 
 ## Mapa rodiny
 
@@ -217,6 +218,7 @@ flowchart LR
   n21["Usuzování a vnímání"]
   n22["Metaprogramy v náboru a řízení"]
   n23["Metaprogramy v marketingu"]
+  n24["Změna metaprogramů"]
   F --> n1
   F --> n2
   F --> n3
@@ -240,6 +242,7 @@ flowchart LR
   F --> n21
   F --> n22
   F --> n23
+  F --> n24
   click n1 "@/kompendium/nlp-vzorce/metaprogramy/k-cili-a-od-problemu.md"
   click n2 "@/kompendium/nlp-vzorce/metaprogramy/vnitrni-a-vnejsi-reference.md"
   click n3 "@/kompendium/nlp-vzorce/metaprogramy/moznosti-a-postupy.md"
@@ -263,6 +266,7 @@ flowchart LR
   click n21 "@/kompendium/nlp-vzorce/metaprogramy/adaptace.md"
   click n22 "@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru.md"
   click n23 "@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu.md"
+  click n24 "@/kompendium/nlp-vzorce/metaprogramy/zmena-metaprogramu.md"
 ```
 
 <!-- kompendium:katalog-vazby:end -->

@@ -35,7 +35,7 @@ catalog_broader = "kotveni"
 catalog_narrower = []
 catalog_depth = 1
 catalog_ancestors = ["kotveni"]
-catalog_related = ["presupozice-v-reklame", "auditivni-kotvy", "vizualni-kotvy", "vzorec-godiva", "submodality-v-reklame", "metaprogramy-v-marketingu", "budouci-prehravani-v-prodeji", "nlp-v-reklame"]
+catalog_related = ["presupozice-v-reklame", "auditivni-kotvy", "vizualni-kotvy", "skryte-kotveni", "vzorec-godiva", "submodality-v-reklame", "metaprogramy-v-marketingu", "budouci-prehravani-v-prodeji", "nlp-v-reklame"]
 catalog_related_declared = ["nlp-v-reklame", "presupozice-v-reklame", "submodality-v-reklame", "vizualni-kotvy", "auditivni-kotvy", "metaprogramy-v-marketingu"]
 catalog_kompendium = ["kompendium/techniques/ea-9-5-3-emotional-meme-engineering.md", "kompendium/07-teoreticke-reflexe/digitalni-vek.md", "kompendium/techniques/ea-7-3-1-kahneman-system12.md"]
 catalog_canonical = ""
@@ -43,7 +43,7 @@ catalog_links_prose = ["kompendium/07-teoreticke-reflexe/digitalni-vek.md", "kom
 catalog_prev = "kotveni-ve-skupine"
 catalog_next = "nechtene-kotvy"
 catalog_position = 16
-catalog_family_size = 19
+catalog_family_size = 20
 catalog_sources = ["bandler-grinder-1979", "cialdini-2009", "kahneman-2011", "mcguire-1964", "oconnor-seymour-1990", "pavlov-1927", "petty-cacioppo-1986", "sharpley-1987", "witkowski-2010", "van-der-linden-2023"]
 catalog_sources_primary = ["bandler-grinder-1979", "oconnor-seymour-1990"]
 catalog_sources_roots = ["pavlov-1927"]
@@ -225,6 +225,7 @@ odborná pomoc, ne pouhá vůle.
 - [Presupozice v reklamě](@/kompendium/nlp-vzorce/presupozice/presupozice-v-reklame.md) – příbuzné heslo (Jazykové presupozice, Presuppositions in advertising)
 - [Auditivní a tonální kotvy](@/kompendium/nlp-vzorce/kotveni/auditivni-kotvy.md) – příbuzné heslo (Kotvení, Auditory and tonal anchors)
 - [Vizuální kotvy](@/kompendium/nlp-vzorce/kotveni/vizualni-kotvy.md) – příbuzné heslo (Kotvení, Visual anchors)
+- [Skryté kotvení](@/kompendium/nlp-vzorce/kotveni/skryte-kotveni.md) – příbuzné heslo (Kotvení, Covert anchoring)
 - [Vzorec Godiva](@/kompendium/nlp-vzorce/submodality/vzorec-godiva.md) – příbuzné heslo (Submodality, Godiva chocolate pattern)
 - [Submodality v reklamě a médiích](@/kompendium/nlp-vzorce/submodality/submodality-v-reklame.md) – příbuzné heslo (Submodality, Submodalities in advertising and media)
 - [Metaprogramy v marketingu](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu.md) – příbuzné heslo (Metaprogramy, Meta-programs in marketing)

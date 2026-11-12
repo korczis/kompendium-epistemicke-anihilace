@@ -35,7 +35,7 @@ catalog_broader = "terapeuticka-metafora"
 catalog_narrower = []
 catalog_depth = 1
 catalog_ancestors = ["terapeuticka-metafora"]
-catalog_related = ["utilizace", "vnorene-smycky", "vrstveni-realit", "som-analogie", "lateralni-chunking", "terapeuticka-metafora"]
+catalog_related = ["falesna-analogie", "utilizace", "vnorene-smycky", "vrstveni-realit", "som-analogie", "lateralni-chunking", "terapeuticka-metafora"]
 catalog_related_declared = ["terapeuticka-metafora", "vnorene-smycky", "utilizace", "som-analogie"]
 catalog_kompendium = ["kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md"]
 catalog_canonical = ""
@@ -225,6 +225,7 @@ prostředí, kde se výklad předával příběhy, jejichž smysl směl znát je
 
 **Příbuzná hesla**
 
+- [Falešná analogie](@/kompendium/argumentacni-fauly/predpoklady-argumentu/falesna-analogie.md) – příbuzné heslo (Argumentační fauly: Klamy předpokladu, False analogy)
 - [Utilizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md) – příbuzné heslo (Ericksonovská hypnóza, Utilisation)
 - [Vnořené smyčky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vnorene-smycky.md) – příbuzné heslo (Ericksonovská hypnóza, Nested loops)
 - [Vrstvení realit](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vrstveni-realit.md) – příbuzné heslo (Ericksonovská hypnóza, Stacking realities)

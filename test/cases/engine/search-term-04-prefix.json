@@ -5,7 +5,7 @@
     "hits": [
       {
         "code": null,
-        "in": 274,
+        "in": 275,
         "kind": "Pojem",
         "path": "glossary/disociace.md",
         "tier": 4,
@@ -65,7 +65,7 @@
       },
       {
         "code": null,
-        "in": 8,
+        "in": 9,
         "kind": "Kapitola",
         "path": "kompendium/nlp-vzorce/urovne-a-pozice/disneyova-strategie.md",
         "tier": 4,

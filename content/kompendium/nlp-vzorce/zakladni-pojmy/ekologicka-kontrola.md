@@ -35,7 +35,7 @@ catalog_broader = ""
 catalog_narrower = []
 catalog_depth = 0
 catalog_ancestors = []
-catalog_related = ["ekologie-zmeny", "sestikrokovy-reframing", "ramec-ekologie", "testovani-kotvy", "novy-kod", "integrace-casti", "vyjednavani-casti", "kartezske-otazky", "dobre-formulovany-vysledek", "ekologie-cile"]
+catalog_related = ["ekologie-zmeny", "sestikrokovy-reframing", "ramec-ekologie", "testovani-kotvy", "novy-kod", "integrace-casti", "vyjednavani-casti", "vytvoreni-nove-casti", "kartezske-otazky", "dobre-formulovany-vysledek", "ekologie-cile"]
 catalog_related_declared = ["ekologie-zmeny", "ramec-ekologie", "ekologie-cile", "sestikrokovy-reframing", "integrace-casti"]
 catalog_kompendium = ["kompendium/08-prilohy/eticky-kodex.md", "kompendium/01-predmluva/eticke-aspekty.md", "kompendium/techniques/ea-4-2-6-consent-withdrawal.md"]
 catalog_canonical = ""
@@ -43,7 +43,7 @@ catalog_links_prose = ["glossary/informed-consent.md", "kompendium/08-prilohy/et
 catalog_prev = "inkongruence"
 catalog_next = "ramec-pojem"
 catalog_position = 27
-catalog_family_size = 42
+catalog_family_size = 45
 catalog_sources = ["bandler-grinder-1982", "bateson-1972", "cialdini-2009", "lifton-1961", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
 catalog_sources_primary = ["bandler-grinder-1982", "oconnor-seymour-1990"]
 catalog_sources_roots = ["bateson-1972"]
@@ -135,6 +135,7 @@ Základní obranou je nepovažovat žádnou proběhlou proceduru za závaznou. S
 - [Nový kód NLP](@/kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md) – příbuzné heslo (Strategie a modelování, NLP New Code)
 - [Integrace částí](@/kompendium/nlp-vzorce/integrace-casti/integrace-casti.md) – příbuzné heslo (Práce s částmi, Parts integration)
 - [Vyjednávání mezi částmi](@/kompendium/nlp-vzorce/integrace-casti/vyjednavani-casti.md) – příbuzné heslo (Práce s částmi, Parts negotiation)
+- [Vytvoření nové části](@/kompendium/nlp-vzorce/integrace-casti/vytvoreni-nove-casti.md) – příbuzné heslo (Práce s částmi, Creating a new part)
 - [Kartézské otázky](@/kompendium/nlp-vzorce/presvedceni/kartezske-otazky.md) – příbuzné heslo (Přesvědčení, Cartesian questions)
 - [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) – příbuzné heslo (Cíle a výsledky, Well-formed outcome)
 - [Ekologie cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/ekologie-cile.md) – příbuzné heslo (Cíle a výsledky, Ecology of the outcome)

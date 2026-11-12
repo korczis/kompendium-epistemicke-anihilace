@@ -188,3 +188,36 @@ What follows for later work:
 - zamlceni-dukazu: Grice 1975 applied
 - sugestivni-otazka: Copi complex question; vytrzeni-z-kontextu: Copi accent
 - posouvani-branek, ocelovy-panak: van Eemeren a Grootendorst 2004 applied
+
+## Coverage entries of 2026-11-11 (owner review)
+
+Fourteen entries were written to close the gaps the coverage gate found against the standard
+references (data/<catalogue>/_coverage.toml); each cites only data/sources.toml and passes the
+gate, but these attributions were reported as uncertain by their writers:
+
+- Coverage sources: Damer 2009 and Govier 2010 lists could not be verified from a legitimate
+  copy (only unofficial full texts exist online), so no coverage row rests on them; pages that
+  cite them do so for general claims only. Hamblin 1970 rows rest on its chapter titles
+  (library record of the 1993 reprint). Dilts 1999 is not a coverage source until the owner
+  accepts verification through Dilts a DeLozier 2000.
+- nedovolena-konverze: Hamblin 1970 (Aristotle's consequent), Whately 1826, Mill 1843
+  (conversion among fallacies of ratiocination), Kahneman 2011 (example is a syllogism, not a
+  conversion), Stanovich a West 2000 (general individual differences only).
+- falesna-analogie, odvolani-na-precedent, nekonzistence: Govier 2010 (three uses), Damer 2009,
+  Dilts 1999, Bentham 1824 (no-precedent and ancestors' wisdom), Walton, Reed a Macagno 2008
+  (precedent and exceptions), Walton 2008 (pragmatic inconsistency), Hamblin 1970 (commitment
+  stores), Paul a Matthews 2016, Bateson a kol. 1956.
+- vagnost, rozliseni-bez-rozdilu, falesna-utecha: Tindale 2007 on vagueness (chapter verified,
+  content paraphrased), Damer 2009 (misuse of a vague expression; distinction without a
+  difference, from memory), Bentham 1824 (sham distinctions example; false consolation among
+  fallacies of delay; vague generalities paraphrased), Herman 1992 and Festinger 1957 applied.
+- vytvoreni-nove-casti, zmena-hodnot, zmena-metaprogramu, skryte-kotveni: Bandler a Grinder 1982
+  (the new-part variant), James a Woodsmall 1988 (Massey periods, significant emotional events,
+  meta-programs changing), Hall a Bodenhamer 1997, Charvet 1997, Dilts a DeLozier 2000 (covert
+  anchoring headword), Hassan 1988, Bandler a Grinder 1979, Singer a Lalich 1995. An uncited
+  origin clause (Cameron-Bandler) was removed from zmena-metaprogramu.
+- obsah-a-vztah, interpunkce-komunikace, symetricka-a-komplementarni-interakce: Bateson 1972
+  (deutero-learning and punctuation), Watzlawick, Beavin a Jackson 1967 (metacomplementarity,
+  pseudosymmetry), Tosey a Mathison 2009 paraphrases, Walton 2008 cited for ad baculum and "two
+  wrongs" (probably too broad), Satir 1972 wording, Stark 2007, Hassan 1988, O'Connor a Seymour
+  1990 used as links drawn by the catalogue.

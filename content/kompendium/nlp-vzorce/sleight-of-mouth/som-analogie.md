@@ -35,7 +35,7 @@ catalog_broader = "sleight-of-mouth"
 catalog_narrower = []
 catalog_depth = 1
 catalog_ancestors = ["sleight-of-mouth"]
-catalog_related = ["som-redefinice", "som-protipriklad", "obsahovy-reframing", "lateralni-chunking", "terapeuticka-metafora", "izomorfni-metafora"]
+catalog_related = ["falesna-analogie", "som-redefinice", "som-protipriklad", "obsahovy-reframing", "lateralni-chunking", "terapeuticka-metafora", "izomorfni-metafora"]
 catalog_related_declared = ["izomorfni-metafora", "terapeuticka-metafora", "som-protipriklad", "som-redefinice", "obsahovy-reframing"]
 catalog_kompendium = ["kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
 catalog_canonical = ""
@@ -131,6 +131,7 @@ Základní obranou je oddělit přirovnání od tvrzení. Užitečnou otázkou j
 
 **Příbuzná hesla**
 
+- [Falešná analogie](@/kompendium/argumentacni-fauly/predpoklady-argumentu/falesna-analogie.md) – příbuzné heslo (Argumentační fauly: Klamy předpokladu, False analogy)
 - [Redefinice](@/kompendium/nlp-vzorce/sleight-of-mouth/som-redefinice.md) – příbuzné heslo (Sleight of Mouth, Redefine)
 - [Protipříklad](@/kompendium/nlp-vzorce/sleight-of-mouth/som-protipriklad.md) – příbuzné heslo (Sleight of Mouth, Counter-example)
 - [Významový reframing](@/kompendium/nlp-vzorce/reframing/obsahovy-reframing.md) – příbuzné heslo (Reframing a rámce, Content (meaning) reframing)

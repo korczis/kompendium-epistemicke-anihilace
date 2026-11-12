@@ -35,15 +35,15 @@ catalog_broader = ""
 catalog_narrower = ["cerveny-sled"]
 catalog_depth = 0
 catalog_ancestors = []
-catalog_related = ["cerveny-sled", "slameny-panak", "whataboutism", "kontrola-tonu", "slozena-otazka", "klam-obhajce", "myslenkove-ukoncujici-klise", "odvedeni-k-procedure", "pravidlo-relevance", "vyzva-k-relevanci"]
+catalog_related = ["cerveny-sled", "slameny-panak", "whataboutism", "kontrola-tonu", "falesna-utecha", "slozena-otazka", "klam-obhajce", "myslenkove-ukoncujici-klise", "odvedeni-k-procedure", "pravidlo-relevance", "vyzva-k-relevanci"]
 catalog_related_declared = ["cerveny-sled", "slameny-panak", "pravidlo-relevance", "whataboutism", "vyzva-k-relevanci"]
 catalog_kompendium = ["kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md", "kompendium/forensic-legal/_index.md"]
 catalog_canonical = ""
 catalog_links_prose = ["kompendium/argumentacni-fauly/relevance/cerveny-sled.md", "kompendium/argumentacni-fauly/relevance/slameny-panak.md", "kompendium/argumentacni-fauly/relevance/whataboutism.md", "kompendium/argumentacni-fauly/teorie-argumentace/pragma-dialektika.md", "kompendium/argumentacni-fauly/teorie-argumentace/toulminuv-model.md", "kompendium/forensic-legal/_index.md", "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md", "kompendium/techniques/ea-1-3-3-tematicka-diverze.md"]
 catalog_prev = "kontrola-tonu"
-catalog_next = ""
+catalog_next = "falesna-utecha"
 catalog_position = 28
-catalog_family_size = 28
+catalog_family_size = 29
 catalog_sources = ["copi-cohen-mcmahon-2014", "grice-1975", "hamblin-1970", "kahneman-2011", "lifton-1961", "stanovich-west-2000", "toulmin-1958", "walton-1995", "walton-2008", "whately-1826", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
 catalog_sources_primary = ["copi-cohen-mcmahon-2014", "hamblin-1970", "toulmin-1958", "walton-1995", "walton-2008", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
 catalog_sources_roots = ["grice-1975", "whately-1826"]
@@ -232,6 +232,7 @@ samostatné (van Eemeren a Grootendorst 2004).
 - [Slaměný panák](@/kompendium/argumentacni-fauly/relevance/slameny-panak.md) – příbuzné heslo (Klamy relevance, Straw man)
 - [Whataboutism](@/kompendium/argumentacni-fauly/relevance/whataboutism.md) – příbuzné heslo (Klamy relevance, Whataboutism)
 - [Kontrola tónu](@/kompendium/argumentacni-fauly/relevance/kontrola-tonu.md) – příbuzné heslo (Klamy relevance, Tone policing)
+- [Falešná útěcha (relativní nedostatek)](@/kompendium/argumentacni-fauly/relevance/falesna-utecha.md) – příbuzné heslo (Klamy relevance, False consolation (relative privation))
 - [Složená otázka](@/kompendium/argumentacni-fauly/predpoklady-argumentu/slozena-otazka.md) – příbuzné heslo (Klamy předpokladu, Complex question)
 - [Klam obhájce](@/kompendium/argumentacni-fauly/statisticke/klam-obhajce.md) – příbuzné heslo (Statistické a pravděpodobnostní klamy, Defence attorney's fallacy)
 - [Myšlenkově ukončující klišé](@/kompendium/argumentacni-fauly/dialekticke-taktiky/myslenkove-ukoncujici-klise.md) – příbuzné heslo (Rétorické a dialogické taktiky, Thought-terminating cliché)
@@ -248,5 +249,6 @@ samostatné (van Eemeren a Grootendorst 2004).
 **V katalogu**
 
 - [Kontrola tónu](@/kompendium/argumentacni-fauly/relevance/kontrola-tonu.md) – předchozí heslo rodiny
+- [Falešná útěcha (relativní nedostatek)](@/kompendium/argumentacni-fauly/relevance/falesna-utecha.md) – další heslo rodiny
 
 <!-- kompendium:katalog-vazby:end -->

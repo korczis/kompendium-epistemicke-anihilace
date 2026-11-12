@@ -35,7 +35,7 @@ catalog_broader = "irelevantni-zaver"
 catalog_narrower = ["odvedeni-k-procedure"]
 catalog_depth = 1
 catalog_ancestors = ["irelevantni-zaver"]
-catalog_related = ["slameny-panak", "whataboutism", "kontrola-tonu", "irelevantni-zaver", "odvedeni-k-procedure", "pravidlo-relevance", "vyzva-k-relevanci", "rozptylovac"]
+catalog_related = ["slameny-panak", "whataboutism", "kontrola-tonu", "irelevantni-zaver", "falesna-utecha", "odvedeni-k-procedure", "pravidlo-relevance", "vyzva-k-relevanci", "rozptylovac"]
 catalog_related_declared = ["whataboutism", "slameny-panak", "pravidlo-relevance", "odvedeni-k-procedure", "rozptylovac", "vyzva-k-relevanci"]
 catalog_kompendium = ["kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "kompendium/techniques/ea-1-1-2-informacni-pretizeni.md"]
 catalog_canonical = ""
@@ -43,7 +43,7 @@ catalog_links_prose = ["kompendium/argumentacni-fauly/dialekticke-taktiky/odvede
 catalog_prev = "odvolani-na-dusledky"
 catalog_next = "slameny-panak"
 catalog_position = 19
-catalog_family_size = 28
+catalog_family_size = 29
 catalog_sources = ["copi-cohen-mcmahon-2014", "damer-2009", "grice-1975", "johnson-blair-1977", "kahneman-2011", "mercier-sperber-2011", "petty-cacioppo-1986", "satir-1972", "walton-1995", "walton-2008", "watzlawick-1967", "whately-1826", "eemeren-grootendorst-1992"]
 catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "johnson-blair-1977", "walton-1995", "walton-2008", "eemeren-grootendorst-1992"]
 catalog_sources_roots = ["grice-1975", "satir-1972", "watzlawick-1967", "whately-1826"]
@@ -236,6 +236,7 @@ důvěry, že jejich otázky byly oprávněné a že nezodpovězená otázka nen
 - [Whataboutism](@/kompendium/argumentacni-fauly/relevance/whataboutism.md) – příbuzné heslo (Klamy relevance, Whataboutism)
 - [Kontrola tónu](@/kompendium/argumentacni-fauly/relevance/kontrola-tonu.md) – příbuzné heslo (Klamy relevance, Tone policing)
 - [Irelevantní závěr](@/kompendium/argumentacni-fauly/relevance/irelevantni-zaver.md) – příbuzné heslo (Klamy relevance, Ignoratio elenchi)
+- [Falešná útěcha (relativní nedostatek)](@/kompendium/argumentacni-fauly/relevance/falesna-utecha.md) – příbuzné heslo (Klamy relevance, False consolation (relative privation))
 - [Útěk k proceduře](@/kompendium/argumentacni-fauly/dialekticke-taktiky/odvedeni-k-procedure.md) – příbuzné heslo (Rétorické a dialogické taktiky, Procedural diversion)
 - [Pravidlo relevance](@/kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-relevance.md) – příbuzné heslo (Principy kritické diskuse a teorie argumentace, Relevance rule)
 - [Výzva k relevanci](@/kompendium/nlp-vzorce/reframing/vyzva-k-relevanci.md) – příbuzné heslo (NLP vzorce: Reframing a rámce, Relevancy challenge)

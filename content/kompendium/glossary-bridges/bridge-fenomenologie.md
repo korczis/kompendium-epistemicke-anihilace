@@ -24,7 +24,7 @@ toc = false
 
 [Fenomenologie](@/glossary/fenomenologie.md) je filozofická tradice a metoda, která zkoumá
 strukturu zkušenosti tak, jak se dává z první osoby – vnímání, paměť, prožívání času, těla a
-druhých lidí. Založil ji Edmund Husserl (1913) a rozvinuli ji mimo jiné Heidegger a
+druhých lidí. Založil ji Edmund Husserl (1913) a rozvinuli ji mimo jiné Heidegger (1927) a
 Merleau-Ponty (1945); dnešní podobu, propojenou s kognitivní vědou, shrnují Gallagher a Zahavi
 (2008).
 
@@ -151,6 +151,7 @@ srozumitelný zasaženým i odborníkům; řada termínů nemá ustálený česk
 ## Literatura
 
 - Gallagher, S., & Zahavi, D. (2008). *The Phenomenological Mind*. Routledge.
+- Heidegger, M. (1927). *Sein und Zeit*. Niemeyer.
 - Husserl, E. (1913). *Ideen zu einer reinen Phänomenologie und phänomenologischen Philosophie I*. Niemeyer.
 - Merleau-Ponty, M. (1945). *Phénoménologie de la perception*. Gallimard.
 - Smith, J. A., Flowers, P., & Larkin, M. (2009). *Interpretative Phenomenological Analysis: Theory, Method and Research*. Sage.

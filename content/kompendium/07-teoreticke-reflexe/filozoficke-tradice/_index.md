@@ -148,6 +148,11 @@ pro posvátné; její deformace je [apofatické zacyklení](@/kompendium/techniq
 **Postmoderní kritika.** Kritika velkých vyprávění se dá zneužít k tvrzení, že žádné
 vyprávění není lepší než jiné; viz [7.4 EA a postmodernismus](@/kompendium/07-teoreticke-reflexe/postmodernismus.md).
 
+## Literatura
+
+- Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University
+  Press.
+
 ## Související
 
 **Sekce a přehledy**

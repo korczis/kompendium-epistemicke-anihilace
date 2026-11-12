@@ -121,6 +121,7 @@ Pro obhájce je užitečné připravit si standardní námitky proti neprůhledn
 
 - Angwin, J., Larson, J., Mattu, S., & Kirchner, L. (2016). Machine bias. *ProPublica*, 23. 5. 2016.
 - Chouldechova, A. (2017). Fair prediction with disparate impact: A study of bias in recidivism prediction instruments. *Big Data*.
+- Eubanks, V. (2018). *Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor*. St. Martin's Press.
 - Kleinberg, J., Mullainathan, S., & Raghavan, M. (2017). Inherent trade-offs in the fair determination of risk scores. *Proceedings of ITCS 2017*.
 - O'Neil, C. (2016). *Weapons of Math Destruction*. Crown.
 

@@ -86,7 +86,7 @@ Stanleyho analýza je relevantní pro pochopení EA v současných demokratický
 
 ### Strukturní populismus
 
-Populismus (definovaný např. Mudde, *Populism: A Very Short Introduction*, 2017) má specifickou epistemickou strukturu:
+Populismus (definovaný např. Muddem a Rovirou Kaltwasserem, *Populism: A Very Short Introduction*, 2017) má specifickou epistemickou strukturu:
 
 - **People vs. elite dichotomie** — Strukturní polarizace na „pravý lid“ a „korumpovanou elitu“. Tato dichotomie je **epistemicky uzavřená**: jakákoli kritika populistického vůdce je interpretována jako manifestace elitistické zaujatosti.
 - **Anti-pluralism** — Populismus aspiruje reprezentovat **jedinou pravou vůli lidu**, čímž delegitimizuje pluralistickou demokracii jako fragmentární a kompromisní.
@@ -96,7 +96,7 @@ Z epistemické perspektivy je populismus **systematickou delegitimizací epistem
 
 ### Post-pravda
 
-Termín „post-pravda“ (Word of the Year 2016, Oxford Dictionaries) označuje stav, v němž **emocionální apel a osobní přesvědčení** převažují nad faktuální evidencí. Klíčové vlastnosti:
+Termín „post-pravda“ (slovo roku 2016 podle Oxford Dictionaries) označuje stav, v němž **emocionální apel a osobní přesvědčení** převažují nad faktuální evidencí. Klíčové vlastnosti:
 
 - **Truth-relativismus** — „Moje pravda“ jako legitimní epistemická pozice; objektivní pravda jako mocenská konstrukce.
 - **Kognitivní strategie** — Cherry-picking, [konfirmační bias](@/glossary/konfirmacni-bias.md), motivated reasoning jsou normalizovány a institucionálně racionalizovány.
@@ -167,6 +167,17 @@ Politická EA je doménou, kde [dual-use](@/glossary/dual-use-poznani.md) povaha
 - **Represívně** — instrumentalizace „boje proti dezinformacím“ k potlačení legitimní opozice.
 
 Hranice mezi těmito aplikacemi není daná samotnou taxonomií; vyžaduje **explicitní institucionální a etickou nadstavbu**. Kompendium poskytuje analytický rámec; rozhodnutí o jeho aplikaci je nevyhnutelně politickým aktem, jenž vyžaduje demokratickou legitimitu a [hermeneutickou](@/glossary/hermeneutika.md) reflexi historického kontextu.
+
+## Literatura
+
+- Arendt, H. (1951). *The Origins of Totalitarianism*. Harcourt, Brace & Co.
+- Arendt, H. (1958). *The Human Condition*. University of Chicago Press.
+- Ellul, J. (1962). *Propagandes*. Armand Colin.
+- Frankfurt, H. G. (2005). *On Bullshit*. Princeton University Press.
+- Havel, V. (1978). *Moc bezmocných*. Samizdat.
+- Mudde, C., & Rovira Kaltwasser, C. (2017). *Populism: A Very Short Introduction*. Oxford
+  University Press.
+- Stanley, J. (2015). *How Propaganda Works*. Princeton University Press.
 
 ## Související
 

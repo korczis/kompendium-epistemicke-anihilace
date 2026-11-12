@@ -61,7 +61,7 @@ Popis je záměrně omezen na strukturu, kterou pozorovatel pozná:
 
 Doloženou extrémní podobou je praxe tzv. *collateral* v organizaci NXIVM, kde členové
 odevzdávali kompromitující materiál jako „záruku“; tento prvek byl součástí trestního
-řízení v USA (2019).
+řízení, které v USA proběhlo v roce 2019.
 
 ## Průběh
 

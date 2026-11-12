@@ -1,6 +1,6 @@
 +++
 title = "Kapitola 10: Transkonceptuální mechanismy"
-description = "Kapitola 10 sekce 05 — narativní expozice transkonceptuálních mechanismů, pátého a finálního ultramárního režimu (EA-5.5.1 až 5.5.30)."
+description = "Kapitola 10 sekce 05 — narativní expozice transkonceptuálních mechanismů, pátého a finálního ultramárního režimu (EA-5.5.*)."
 weight = 10
 insert_anchor_links = "right"
 
@@ -17,7 +17,7 @@ access_level = "L3-L4"
 
 # Kapitola 10 — Transkonceptuální mechanismy
 
-> 🚨 **Přístupová úroveň L3–L4**. Kapitola popisuje **30 ultramárních technik** ([EA-5.5.1](@/kompendium/techniques/ea-5-5-1-pre-predikativni-blokace.md) až 5.5.30) operujících **pod prahem konceptuálního zachycení** — na úrovni, která předchází formování pojmů, na nichž operuje veškerá explicitní reflexe, identita, evaluace a paradoxalita. Materiály vyžadují IRB autorizaci a etickou supervizi. Veřejně dostupné jsou výhradně **kompaktní taxonomické popisy** s 60–100 slovními deskripcemi. Operační detaily a rekonstruktivní protokoly zůstávají v restriktivních L4 přílohách. Plné per-technique články pro EA-5.5.* jsou v přípravné fázi.
+> 🚨 **Přístupová úroveň L3–L4**. Kapitola popisuje **30 ultramárních technik** ([EA-5.5.1](@/kompendium/techniques/ea-5-5-1-pre-predikativni-blokace.md) a další) operujících **pod prahem konceptuálního zachycení** — na úrovni, která předchází formování pojmů, na nichž operuje veškerá explicitní reflexe, identita, evaluace a paradoxalita. Materiály vyžadují IRB autorizaci a etickou supervizi. Veřejně dostupné jsou výhradně **kompaktní taxonomické popisy** s 60–100 slovními deskripcemi. Operační detaily a rekonstruktivní protokoly zůstávají v restriktivních L4 přílohách. Plné per-technique články pro EA-5.5.* jsou v přípravné fázi.
 
 ## Pozice kapitoly
 

@@ -39,7 +39,7 @@ by o věci pochybovali.
 
 Kód EA-2.4 tu označuje souhrnný vzorec subkategorie **institucionálního zachycení**.
 Jednotlivé techniky subkategorie – ovládnutí rad, recenzního řízení, časopisů, konferencí
-a kurikul ([EA-2.4.1](@/kompendium/techniques/ea-2-4-1-board-capture.md) až 2.4.10) – jsou prostředky; falešný konsensus je jejich společný
+a kurikul ([EA-2.4.1](@/kompendium/techniques/ea-2-4-1-board-capture.md) a další) – jsou prostředky; falešný konsensus je jejich společný
 výsledek: instituce, které mají shodu **zjišťovat**, ji začnou **vyrábět**.
 
 Pojem je třeba odlišit od *false consensus effect* sociální psychologie (Ross, Greene

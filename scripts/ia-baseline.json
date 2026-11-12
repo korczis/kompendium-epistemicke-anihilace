@@ -892,13 +892,11 @@
   "weak-link"
  ],
  "content/about.md": [
-  "related",
   "detail",
   "weak-link",
   "citations"
  ],
  "content/galerie.md": [
-  "related",
   "detail",
   "weak-link",
   "citations"
@@ -1461,8 +1459,7 @@
   "detail",
   "weak-link",
   "bullets",
-  "citations",
-  "citation-unresolved"
+  "citations"
  ],
  "content/glossary/narativni-topologie.md": [
   "detail",
@@ -1554,8 +1551,7 @@
   "detail",
   "weak-link",
   "bullets",
-  "citations",
-  "citation-unresolved"
+  "citations"
  ],
  "content/glossary/predictive-processing.md": [
   "detail",
@@ -1609,8 +1605,7 @@
   "detail",
   "weak-link",
   "bullets",
-  "citations",
-  "citation-unresolved"
+  "citations"
  ],
  "content/glossary/sanctions-screening.md": [
   "bullets",
@@ -1638,8 +1633,7 @@
   "detail",
   "weak-link",
   "bullets",
-  "citations",
-  "citation-unresolved"
+  "citations"
  ],
  "content/glossary/simulacra.md": [
   "detail",
@@ -1688,8 +1682,7 @@
   "detail",
   "weak-link",
   "bullets",
-  "citations",
-  "bibliography"
+  "citations"
  ],
  "content/glossary/verejna-sfera.md": [
   "detail",
@@ -1832,9 +1825,7 @@
  ],
  "content/kompendium/04-operacni-principy/_index.md": [
   "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
+  "citations"
  ],
  "content/kompendium/04-pokrocile-fenomeny/_index.md": [
   "bullets",
@@ -1893,9 +1884,7 @@
  ],
  "content/kompendium/05-pokrocile-operace/kapitola-6/_index.md": [
   "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
+  "citations"
  ],
  "content/kompendium/05-pokrocile-techniky/kapitola-6/_index.md": [
   "bullets",
@@ -1907,9 +1896,7 @@
  ],
  "content/kompendium/05-pre-konceptualni-rozklad/ea-5-5-konvergentni/_index.md": [
   "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
+  "citations"
  ],
  "content/kompendium/05-ultramari-techniky/_index.md": [
   "bullets",
@@ -2019,8 +2006,6 @@
  "content/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md": [
   "bullets",
   "citations",
-  "bibliography",
-  "citation-unresolved",
   "bold-term"
  ],
  "content/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md": [
@@ -2029,9 +2014,7 @@
   "bold-term"
  ],
  "content/kompendium/07-teoreticke-reflexe/filozoficke-tradice/_index.md": [
-  "citations",
-  "bibliography",
-  "citation-unresolved"
+  "citations"
  ],
  "content/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md": [
   "bullets",
@@ -2043,9 +2026,7 @@
  ],
  "content/kompendium/07-teoreticke-reflexe/politicka-ea.md": [
   "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
+  "citations"
  ],
  "content/kompendium/07-teoreticke-reflexe/postmodernismus.md": [
   "bullets",
@@ -2073,8 +2054,6 @@
  "content/kompendium/08-prilohy/diagnosticke-nastroje.md": [
   "bullets",
   "citations",
-  "bibliography",
-  "citation-unresolved",
   "bold-term"
  ],
  "content/kompendium/08-prilohy/eticky-kodex.md": [
@@ -2290,8 +2269,7 @@
  ],
  "content/kompendium/detection-signatures/27-phenomenological-emotional-numbing.md": [
   "bullets",
-  "citations",
-  "citation-unresolved"
+  "citations"
  ],
  "content/kompendium/detection-signatures/28-phenomenological-reality-uncertainty.md": [
   "bullets",
@@ -2439,8 +2417,7 @@
   "citations"
  ],
  "content/kompendium/glossary-bridges/bridge-epistemic-bubble.md": [
-  "citations",
-  "citation-unresolved"
+  "citations"
  ],
  "content/kompendium/glossary-bridges/bridge-epistemic-security.md": [
   "citations"
@@ -2475,8 +2452,7 @@
   "citations"
  ],
  "content/kompendium/glossary-bridges/bridge-fenomenologie.md": [
-  "citations",
-  "citation-unresolved"
+  "citations"
  ],
  "content/kompendium/glossary-bridges/bridge-firehose-of-falsehood.md": [
   "citations"
@@ -2495,8 +2471,7 @@
   "citations"
  ],
  "content/kompendium/glossary-bridges/bridge-hermeneutika.md": [
-  "citations",
-  "citation-unresolved"
+  "citations"
  ],
  "content/kompendium/glossary-bridges/bridge-hyperreality.md": [
   "citations"
@@ -2614,9 +2589,6 @@
  "content/kompendium/glossary-bridges/bridge-weaponized-incompetence.md": [
   "citations"
  ],
- "content/kompendium/historical-cases/34-stapel-fraud.md": [
-  "citation-unresolved"
- ],
  "content/kompendium/historical-cases/_index.md": [
   "bullets",
   "citations"
@@ -2698,9 +2670,7 @@
  ],
  "content/kompendium/population-health/_index.md": [
   "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
+  "citations"
  ],
  "content/kompendium/prevention-resilience/1-childhood-resilience-foundation.md": [
   "bullets",
@@ -2940,9 +2910,7 @@
  ],
  "content/kompendium/quick-reference/qr-ea-2-3-2.md": [
   "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
+  "citations"
  ],
  "content/kompendium/quick-reference/qr-ea-2-3-3.md": [
   "bullets",
@@ -2962,9 +2930,7 @@
  ],
  "content/kompendium/quick-reference/qr-ea-2-3-7.md": [
   "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
+  "citations"
  ],
  "content/kompendium/quick-reference/qr-ea-2-3-8.md": [
   "bullets",
@@ -3000,9 +2966,7 @@
  ],
  "content/kompendium/quick-reference/qr-ea-2-4-6.md": [
   "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
+  "citations"
  ],
  "content/kompendium/quick-reference/qr-ea-2-4-7.md": [
   "bullets",
@@ -3026,9 +2990,7 @@
  ],
  "content/kompendium/quick-reference/qr-ea-2-5-2.md": [
   "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
+  "citations"
  ],
  "content/kompendium/quick-reference/qr-ea-2-5-3.md": [
   "bullets",
@@ -3040,9 +3002,7 @@
  ],
  "content/kompendium/quick-reference/qr-ea-2-5-5.md": [
   "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
+  "citations"
  ],
  "content/kompendium/quick-reference/qr-ea-2-5-6.md": [
   "bullets",
@@ -4021,8 +3981,7 @@
  ],
  "content/kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md": [
   "bullets",
-  "citations",
-  "citation-unresolved"
+  "citations"
  ],
  "content/kompendium/techniques/ea-2-2-2-mentee-isolation.md": [
   "bullets",
@@ -4090,8 +4049,7 @@
  ],
  "content/kompendium/techniques/ea-2-3-8-doxxing-epistemicky.md": [
   "bullets",
-  "citations",
-  "citation-unresolved"
+  "citations"
  ],
  "content/kompendium/techniques/ea-2-3-9-sealioning-medialni.md": [
   "bullets",
@@ -5670,8 +5628,7 @@
   "citations"
  ],
  "content/kompendium/techniques/ea-7-1-8-derrida-deconstruction.md": [
-  "citations",
-  "citation-unresolved"
+  "citations"
  ],
  "content/kompendium/techniques/ea-7-1-9-heidegger-dasein.md": [
   "citations"
@@ -5739,8 +5696,7 @@
  ],
  "content/kompendium/techniques/ea-7-3-5-metzinger-ego-tunnel.md": [
   "bullets",
-  "citations",
-  "citation-unresolved"
+  "citations"
  ],
  "content/kompendium/techniques/ea-7-3-6-thompson-mind-life.md": [
   "bullets",
@@ -5858,9 +5814,7 @@
   "detail",
   "weak-link",
   "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
+  "citations"
  ],
  "content/kompendium/techniques/ea-8-3-4-empirical-research-base.md": [
   "bullets",
@@ -5879,9 +5833,7 @@
   "detail",
   "weak-link",
   "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
+  "citations"
  ],
  "content/kompendium/techniques/ea-8-3-8-trauma-recovery-literature.md": [
   "bullets",
@@ -6041,8 +5993,7 @@
  ],
  "content/kompendium/techniques/ea-9-4-7-cross-platform-bot-cascade.md": [
   "bullets",
-  "citations",
-  "citation-unresolved"
+  "citations"
  ],
  "content/kompendium/techniques/ea-9-4-8-real-time-bot-response.md": [
   "bullets",
@@ -6126,8 +6077,7 @@
  ],
  "content/kompendium/techniques/ea-9-6-8-AI-legal-decision-EA.md": [
   "bullets",
-  "citations",
-  "citation-unresolved"
+  "citations"
  ],
  "content/kompendium/techniques/ea-9-6-9-AI-immigration-decision.md": [
   "bullets",

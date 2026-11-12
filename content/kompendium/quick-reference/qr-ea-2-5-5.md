@@ -51,6 +51,11 @@ Eskalujte, když falešná vyváženost brání rozhodnutí o zdraví nebo bezpe
 
 **Zdroj:** karta shrnuje plnou stránku [EA-2.5.5 Internalizace falešné vyváženosti](@/kompendium/techniques/ea-2-5-5-bothsidesizm-internalizace.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
 
+## Literatura
+
+- Boykoff, M. T., & Boykoff, J. M. (2004). Balance as bias: Global warming and the US prestige
+  press. *Global Environmental Change*, 14(2), 125–136.
+
 ## Související
 
 - **Technika a kapitola:** [plná stránka EA-2.5.5](@/kompendium/techniques/ea-2-5-5-bothsidesizm-internalizace.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).

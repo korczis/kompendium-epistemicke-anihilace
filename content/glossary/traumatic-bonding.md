@@ -72,6 +72,15 @@ Práce s traumatickou vazbou vyžaduje souběh několika intervencí — samotn�
 
 Doba úplného „odpoutání" se v klinické literatuře uvádí v rozmezí **18 až 36 měsíců** od ukončení kontaktu, s individuální variabilitou podle délky vztahu, intenzity zneužívání a dostupnosti podpůrné sítě.
 
+## Literatura
+
+- Dutton, D. G., & Painter, S. L. (1981). *Traumatic Bonding: The Development of Emotional Attachments in Battered Women and Other Relationships of Intermittent Abuse*. Victimology, 6.
+- Walker, L. E. (1979). *The Battered Woman*. Harper & Row.
+- Herman, J. L. (1992). *Trauma and Recovery: The Aftermath of Violence — From Domestic Abuse to Political Terror*. Basic Books.
+- Carnes, P. (1997). *The Betrayal Bond: Breaking Free of Exploitive Relationships*. Health Communications.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
+- Levine, P. (1997). *Waking the Tiger: Healing Trauma*. North Atlantic Books.
+
 ## Související pojmy
 
 - **Stockholm Syndrome** — akutní vazba rukojmí na únosce; krátké trvání, ale podobný neurochemický základ.
@@ -80,12 +89,3 @@ Doba úplného „odpoutání" se v klinické literatuře uvádí v rozmezí **1
 - **Cognitive dissonance** — psychický diskomfort z držení neslučitelných postojů („miluji ho" vs. „ubližuje mi"), kterou oběť řeší racionalizací ve prospěch agresora.
 
 Pro doktrinální kontext platformy viz [Glossary index](@/glossary/_index.md).
-
-## Reference
-
-- Dutton, D. G., & Painter, S. L. (1981). *Traumatic Bonding: The Development of Emotional Attachments in Battered Women and Other Relationships of Intermittent Abuse*. Victimology, 6.
-- Walker, L. E. (1979). *The Battered Woman*. Harper & Row.
-- Herman, J. L. (1992). *Trauma and Recovery: The Aftermath of Violence — From Domestic Abuse to Political Terror*. Basic Books.
-- Carnes, P. (1997). *The Betrayal Bond: Breaking Free of Exploitive Relationships*. Health Communications.
-- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
-- Levine, P. (1997). *Waking the Tiger: Healing Trauma*. North Atlantic Books.

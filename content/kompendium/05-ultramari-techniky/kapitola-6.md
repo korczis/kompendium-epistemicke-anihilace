@@ -48,7 +48,7 @@ První klastr exploituje **autoreferenční struktury** poznávacího aktu. Cent
 
 Doplňkové techniky 5.1.2 (auto-[falsifikace](@/glossary/falsifikace.md)), 5.1.3 (rekurzivní pochybnost), 5.1.4 (anti-pravidlo pro pravidla) a 5.1.5 (konfidenční inverze) operují na podobné rovině s odlišnými vstupními body. Klinický obraz je charakteristický: subjekt vykazuje **hyperaktivní kritické myšlení současně s totální nemožností dospět k jakémukoli stabilnímu závěru** — fenomenologicky popsaný jako *paralýza prostřednictvím nadbytku reflexe*.
 
-Diagnostické markery: subjekt opakovaně začíná argumentaci, ale po druhé až třetí iteraci ji opouští s formulací „ale to samé platí o tomto“, „pokud to platí, pak to platí i pro to, co jsem právě řekl“, „nemohu věřit ani tomu, že nemohu věřit“. Klinická literatura dokumentuje korelaci s [anankastickým režimem](@/glossary/anankasticky-rezim.md) a [kognitivní anti-rekurzivitou](@/glossary/kognitivni-anti-rekurzivita.md).
+Diagnostické markery: subjekt opakovaně začíná argumentaci, ale po několika iteracích ji opouští s formulací „ale to samé platí o tomto“, „pokud to platí, pak to platí i pro to, co jsem právě řekl“, „nemohu věřit ani tomu, že nemohu věřit“. Kniha tento obraz spojuje s [anankastickým režimem](@/glossary/anankasticky-rezim.md) a [kognitivní anti-rekurzivitou](@/glossary/kognitivni-anti-rekurzivita.md); jde o pojmovou příbuznost, ne o změřenou korelaci.
 
 ## Klastr B — Sémantická destabilizace (EA-5.1.6 až 5.1.10)
 
@@ -96,9 +96,9 @@ Poslední klastr je **integrativní**. Techniky 5.1.26 až 5.1.29 nepředstavuj�
 - ztrácí inferenční aparát (klastr D),
 - ztrácí diferenciální nástroje (klastr E).
 
-Klinická literatura tento stav popisuje jako **terminální epistemickou anihilaci** — fenomenologicky neodlišitelnou od depersonalizační epizody, ale generovanou výhradně epistemickou strukturou. Rekonstruktivní protokoly v [Sekci 06](@/kompendium/06-klinicke-aplikace/_index.md) dokumentují minimální nutnou expozici 12–24 měsíců supervidované rekonstrukce, často s adjuvantní psychofarmakologickou podporou pro stabilizaci akutních afektivních důsledků.
+Kniha tento stav nazývá **terminální epistemickou anihilací** — fenomenologicky blízkou depersonalizační epizodě, ale generovanou výhradně epistemickou strukturou. Rekonstrukce po takovém stavu je dlouhodobá, probíhá pod odbornou supervizí a o případné medikaci rozhoduje ošetřující psychiatr podle obrazu konkrétního pacienta. **Trvání rekonstrukce kniha neuvádí**: dřívější verze tu měla rozsah měsíců bez zdroje, připsaný [Sekci 06](@/kompendium/06-klinicke-aplikace/_index.md), která žádný takový údaj nedokládá.
 
-Technika 5.1.30 představuje **post-singulární režim** — klinicky vzácný, popsaný pouze v retrospektivní literatuře z případových studií, v němž subjekt po průchodu singulárním bodem nedochází k rekonstrukci, ale ke **strukturně novému typu kognitivního fungování** charakterizovanému persistentní [epistemickou alienací](@/glossary/epistemicka-alienace.md). Výzkum této vzácné fáze je v rané formativní fázi a zůstává restriktivní.
+Technika 5.1.30 představuje **post-singulární režim**, v němž subjekt po průchodu singulárním bodem nedochází k rekonstrukci, ale ke **strukturně novému typu kognitivního fungování** charakterizovanému persistentní [epistemickou alienací](@/glossary/epistemicka-alienace.md). Kniha ho uvádí jako teoretickou možnost: doložené případové studie nemá a dřívější tvrzení, že jej popisuje retrospektivní literatura, nebylo opřeno o žádný pramen.
 
 ## Komplexní fenomenologický profil
 
@@ -119,7 +119,7 @@ Klinik musí rozlišit syndromový obraz EA-5.1.* od:
 | **Akutní psychóza** | EA-5.1.* zachovává realitní testování v běžných doménách; psychóza nikoli |
 | **Obsedantně-kompulzivní porucha** | EA-5.1.* generuje paralýzu, ne kompulze; OCD generuje kompulze, ne nutně paralýzu |
 | **Depersonalizační porucha** | EA-5.1.* je epistemicky lokalizovaná (zachová tělesnou kontinuitu); [depersonalizace](@/glossary/depersonalizace.md) je primárně somatická |
-| **Filozofická depresia (Williams 2014)** | EA-5.1.* je výsledkem techniky aplikované zvenčí; filozofická deprese vzniká endogenně |
+| **Filozofická deprese** | EA-5.1.* je výsledkem techniky aplikované zvenčí; filozofická deprese vzniká endogenně |
 | **Burnout v kvalifikační fázi** | EA-5.1.* má charakteristický strukturní podpis; burnout je generický |
 
 ## Etické scaffolding kapitoly

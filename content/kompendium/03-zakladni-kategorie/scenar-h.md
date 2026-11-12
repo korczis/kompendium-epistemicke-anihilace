@@ -89,7 +89,7 @@ Typickým výsledkem je **ochromující sebepochybnost** kombinovaná se **silno
 
 ### Fáze 1: Etablování epistemické autority a důvěry
 
-**Trvání**: 2–6 měsíců
+**Trvání kniha neuvádí**: dřívější verze tu u každé z pěti fází měla rozsahy měsíců bez zdroje a žádná data o délce fází tohoto scénáře kniha nemá. Fáze se zpravidla počítají na měsíce a jejich délka se liší vztah od vztahu.
 
 **Popis**: Kultivace vztahu založeném na signifikantní epistemické asymetrii a důvěře, pozicionující kritika jako benevolentní autoritu genuinně investovanou do subjektova rozvoje.
 
@@ -112,7 +112,7 @@ Typickým výsledkem je **ochromující sebepochybnost** kombinovaná se **silno
 
 ### Fáze 2: Etablování nestabilních standardů
 
-**Trvání**: 3–9 měsíců
+**Trvání**: měsíce; přechod z idealizace bývá pozvolný a subjekt ho nezaznamená.
 
 **Popis**: Systematická implementace měnících se, ambivalentních nebo nemožných standardů hodnocení, efektivně zajišťující, že cíl nikdy nemůže plně splnit očekávání.
 
@@ -137,7 +137,7 @@ Typickým výsledkem je **ochromující sebepochybnost** kombinovaná se **silno
 
 ### Fáze 3: Strategická invalidace
 
-**Trvání**: 4–12 měsíců
+**Trvání**: měsíce, případ od případu různě.
 
 **Popis**: Systematické podkopávání epistemických produktů a procesů subjektu prostřednictvím cílené invalidace **maskované jako konstruktivní zpětná vazba**.
 
@@ -162,7 +162,7 @@ Typickým výsledkem je **ochromující sebepochybnost** kombinovaná se **silno
 
 ### Fáze 4: Intermitentní posilování
 
-**Trvání**: 6–18 měsíců (kontinuálně)
+**Trvání**: měsíce, často souběžně s předchozí fází.
 
 **Popis**: Poskytování příležitostné, **nepředvídatelné** pozitivní zpětné vazby a validace, strategicky načasované k prevenci kompletního odpoutání a udržení závislosti na vztahu.
 
@@ -186,7 +186,7 @@ Typickým výsledkem je **ochromující sebepochybnost** kombinovaná se **silno
 
 ### Fáze 5: Identitní rekonfigurace
 
-**Trvání**: 12+ měsíců
+**Trvání**: dlouhodobě; fáze nemá zřetelný konec, dokud vztah trvá.
 
 **Popis**: Graduální přetváření epistemické identity subjektu k takové, která je charakterizována fundamentální sebepochybností, závislostí na externí validaci a omezenou autonomií.
 
@@ -275,10 +275,12 @@ Typickým výsledkem je **ochromující sebepochybnost** kombinovaná se **silno
 
 EA-3.2.H má **nízkou až střední reverzibilitu**:
 
-- 6–12 měsíců po extrakci pro počáteční stabilizaci
-- 12–24 měsíců pro restoraci epistemické sebedůvěry
-- 24+ měsíců pro plnou rekonstrukci profesní identity
+- Počáteční stabilizace po odchodu ze vztahu
+- Postupná obnova epistemické sebedůvěry
+- Dlouhodobá rekonstrukce profesní identity
 - Reziduální zranitelnost typicky přetrvává
+
+**Trvání kniha neuvádí**: dřívější verze tu ke každému kroku měla rozsahy měsíců bez zdroje. Zotavení se počítá spíš na měsíce až roky než na týdny a jeho délka závisí na tom, jak úplná je separace od původní dynamiky a jakou alternativní podporu subjekt má.
 
 Reverzibilita je obvykle **vyšší než EA-3.2.G** (kognitivní dekonstrukce), protože subjekt zachovává kategorické a kauzální struktury — pouze ztratil důvěru ve vlastní úsudek. Tato distinkce je klinicky relevantní pro prognózu.
 
@@ -292,25 +294,25 @@ Reverzibilita je obvykle **vyšší než EA-3.2.G** (kognitivní dekonstrukce), 
 >
 > **Fáze 3 (měsíce 11–18)**: Profesor začal selektivně zaměřovat kritiku na periferní aspekty (formátování tabulek, výběr referencí), ignoroval substantivní vědecké kontribuce. Při lab meetingech veřejně zdůrazňoval P. nedostatky, které v privátní zpětné vazbě nezmínil. P. začal anticipovat kritiku — autocenzura preventivně eliminovala originální nápady.
 >
-> **Fáze 4 (měsíce 19–24, kontinuálně)**: Profesor občas — typicky po obzvláště devastujících kritických sezeních — vyjádřil intenzivní chválu specifického aspektu P. práce. „Tohle je opravdu inovativní.“ P. prožíval nesmírnou úlevu, oddanost se zintenzivnila. Časový vzorec analýza ex post: každé 6–10 týdnů přesně jedna pozitivní epizoda — frekvence kalibrovaná pro maximální efekt intermittent reinforcement.
+> **Fáze 4 (měsíce 19–24, kontinuálně)**: Profesor občas — typicky po obzvláště devastujících kritických sezeních — vyjádřil intenzivní chválu specifického aspektu P. práce. „Tohle je opravdu inovativní.“ P. prožíval nesmírnou úlevu, oddanost se zintenzivnila. Analýza ex post ukázala, že pozitivní epizody přicházely nepravidelně a vzácně, ale vždy dřív, než P. stačil vztah opustit — vzorec typický pro přerušované posilování (intermittent reinforcement), který vazbu upevňuje právě svou nepředvídatelností.
 >
 > **Fáze 5 (měsíce 25+)**: V třetím ročníku P. vykazoval persistentní úzkost ohledně své práce, neschopnost psát bez konstantní validace, vyvinul zvyk **diskvalifikovat své myšlenky před plnou artikulací**. P. vyjádřil přesvědčení, že „bez Prof. S. jsem intelektuálně ztracen“ navzdory důkazům o silném nezávislém myšlení v jiných kontextech (P. nadále excelloval v outside collaborations, kde Prof. S. nebyl přítomen).
 >
 > **Externí pozorování**: Klíčový diagnostický marker — P. **bránil Prof. S.** před externími pozorovateli, kteří identifikovali manipulativní vzorec. „Vy ho neznáte. Jen mi chce pomoci.“
 >
-> **Intervence (rok 4)**: Vynucená rotace supervizora v důsledku institucionální politiky. Nový supervizor (Prof. T.) okamžitě poskytl jasná kritéria, dokumentoval všechny zpětné vazby písemně, povzbuzoval P. autonomii. Po 6 měsících P. začal obnovovat sebedůvěru. Po 18 měsících publikoval první prvořadou publikaci (skutečně inovativní) — vyžadovalo to **kompletní separaci** od původní lab dynamiky.
+> **Intervence (rok 4)**: Vynucená rotace supervizora v důsledku institucionální politiky. Nový supervizor (Prof. T.) okamžitě poskytl jasná kritéria, dokumentoval všechny zpětné vazby písemně, povzbuzoval P. autonomii. Během následujících měsíců P. začal obnovovat sebedůvěru. S delším odstupem publikoval první prvořadou publikaci (skutečně inovativní) — vyžadovalo to **kompletní separaci** od původní lab dynamiky.
 >
 > **Long-term trajectory (rok 5–7)**: P. plně dokončil PhD pod Prof. T. Při zpětném pohledu identifikoval traumatickou vazbu k Prof. S. Zachovává reziduální zranitelnost — opakované epizody anticipatorní úzkosti při přechodu do nových profesních prostředí, vyžadující kontinuální self-monitoring. Stalo se z něj advocate pro institucionální reformu mentorského systému.
 
 ## Trajektorie zotavení
 
-1. **Akutní separace** (1–3 měsíce) — extrakce z toxické dynamiky, akutní úzkost
-2. **Stabilizace** (3–6 měsíců) — etablování bezpečné alternativní validace
-3. **Rekonstrukce sebedůvěry** (6–18 měsíců) — gradual restoration autonomního úsudku
-4. **Profesní reintegrace** (12–24 měsíců) — návrat k autonomní práci
-5. **Resilience building** (24+ měsíců) — robustní obrany vůči podobným vzorcům
+1. **Akutní separace** — extrakce z toxické dynamiky, akutní úzkost
+2. **Stabilizace** — etablování bezpečné alternativní validace
+3. **Rekonstrukce sebedůvěry** — postupná obnova autonomního úsudku
+4. **Profesní reintegrace** — návrat k autonomní práci
+5. **Resilience building** — robustní obrany vůči podobným vzorcům
 
-Část případů dosahuje plné funkční rekonstrukce, část zůstává v různé míře zranitelná a část vykazuje chronické trauma vyžadující dlouhodobou podporu. **Podíly kniha neuvádí**: dřívější verze tu měla procenta bez zdroje a žádná taková data pro tento scénář nemá.
+Fáze na sebe navazují v tomto pořadí, ale překrývají se a jejich délku kniha neuvádí; dřívější verze tu měla rozsahy měsíců bez zdroje. Část případů dosahuje plné funkční rekonstrukce, část zůstává v různé míře zranitelná a část vykazuje chronické trauma vyžadující dlouhodobou podporu. **Podíly kniha neuvádí**: dřívější verze tu měla procenta bez zdroje a žádná taková data pro tento scénář nemá.
 
 ## Související
 

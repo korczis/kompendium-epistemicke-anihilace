@@ -171,6 +171,11 @@
       {
         "from": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md",
         "kind": "link",
+        "to": "glossary/disociace.md"
+      },
+      {
+        "from": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md",
+        "kind": "link",
         "to": "glossary/epistemicka-anihilace.md"
       },
       {
@@ -219,6 +224,13 @@
         "title": "Epistemická anihilace"
       },
       {
+        "class": "kompendium/01-predmluva",
+        "distance": 1,
+        "in": 357,
+        "path": "kompendium/01-predmluva/eticke-aspekty.md",
+        "title": "1.3 Etické aspekty a upozornění"
+      },
+      {
         "class": "kompendium/06-klinicke-aplikace",
         "distance": 1,
         "in": 328,
@@ -240,13 +252,6 @@
         "title": "Taxonomie EA"
       },
       {
-        "class": "kompendium/01-predmluva",
-        "distance": 1,
-        "in": 312,
-        "path": "kompendium/01-predmluva/eticke-aspekty.md",
-        "title": "1.3 Etické aspekty a upozornění"
-      },
-      {
         "class": "kompendium/06-klinicke-aplikace",
         "distance": 1,
         "in": 300,
@@ -263,14 +268,14 @@
       {
         "class": "glossary",
         "distance": 1,
-        "in": 275,
+        "in": 276,
         "path": "glossary/disociace.md",
         "title": "Disociace"
       },
       {
         "class": "kompendium/06-klinicke-aplikace",
         "distance": 1,
-        "in": 271,
+        "in": 272,
         "path": "kompendium/06-klinicke-aplikace/supervizni-ramce.md",
         "title": "6.6 Supervizní rámce v klinické praxi EA"
       },

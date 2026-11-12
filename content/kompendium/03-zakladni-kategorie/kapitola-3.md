@@ -122,7 +122,9 @@ K těmto adaptacím přidáváme **distinktní příspěvky**: simulační labor
 
 Následující protokol představuje systematický rámec pro implementaci poznatků v edukativním kontextu. Protokol je organizován do tří distinktivních, sekvenčně uspořádaných fází, každá s jasně definovanými cíli, metodami a evaluačními kritérii.
 
-### Fáze 1: Fundamentální epistemická stabilizace (4–6 týdnů)
+**Trvání fází kniha neuvádí**: dřívější verze tu u každé fáze měla rozsah týdnů bez zdroje. Program v této podobě nikdo neprovedl ani nezměřil, a délku fází proto nelze uvést. Platí jen pořadí fází a podmínka, že další fáze začíná až po zvládnutí předchozí, bez ohledu na kalendář.
+
+### Fáze 1: Fundamentální epistemická stabilizace
 
 **Cíle**: Etablování robustních epistemických základů, kultivace metakognitivních kapacit, vytvoření bezpečného učebního prostředí.
 
@@ -135,7 +137,7 @@ Následující protokol představuje systematický rámec pro implementaci pozna
 
 **Evaluace Fáze 1**: Baseline assessment epistemického profilu, měření vulnerability/resilience, baseline relevatních profesních kompetencí, kvalitativní exploration zkušeností.
 
-### Fáze 2: Strukturovaná expozice technikám (6–8 týdnů)
+### Fáze 2: Strukturovaná expozice technikám
 
 **Cíle**: Detailní porozumění základním technikám, rozvoj detekčních kompetencí, neutralizační strategie. Tato fáze vyžaduje robustní bezpečnostní mechanismy etablované ve Fázi 1.
 
@@ -146,11 +148,11 @@ Následující protokol představuje systematický rámec pro implementaci pozna
 | **2.3** Neutralizační strategie | Individuální i institucionální obranné techniky, integrace do profesní praxe | Strukturovaná cvičení, peer feedback, simulace neutralizace |
 | **2.4** Kompoziční a scénářová analýza | Rozklad komplexních scénářů A–I z [Kapitoly 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) na základní jednotky, synergické interakce | Architectural diagrams, scenario decomposition, kaskádová analýza |
 
-> ⚠️ **Bezpečnostní protokol Fáze 2**: Každý modul ukončen **debriefingem** + **integration session** s kvalifikovaným supervisorem. Mezi moduly minimálně **48hodinová pauza** pro integraci. Pravidelné anonymní zpětnovazební kanály. Graduované intervenční protokoly pro různé úrovně epistemického distresu.
+> ⚠️ **Bezpečnostní protokol Fáze 2**: Každý modul ukončen **debriefingem** + **integration session** s kvalifikovaným supervisorem. Mezi moduly je **pauza** pro integraci; její délku kniha neurčuje a řídí se stavem účastníků. Pravidelné anonymní zpětnovazební kanály. Graduované intervenční protokoly pro různé úrovně epistemického distresu.
 
 **Evaluace Fáze 2**: Formativní mikro-assessments, přesnost taxonomické klasifikace, fenomenologická slovník enrichment, supervizorské evaluace.
 
-### Fáze 3: Pokročilá aplikace a integrace (8–12 týdnů)
+### Fáze 3: Pokročilá aplikace a integrace
 
 **Cíle**: Aplikace v reálných kontextech, rozvoj diagnostických kompetencí, integrace do profesní identity, kultivace intervenčních kapacit.
 
@@ -225,8 +227,8 @@ Edukace v této doméně vyžaduje vysoce specializované kompetence ze strany e
 
 | Kompetence | Obsah | Evaluační markery |
 |------------|-------|---------------------|
-| **Advanced metacognitive literacy** | Hluboké porozumění kognitivním procesům a vulnerabilitám | Schopnost identifikovat 5+ kognitivních biasů v reálném čase v supervizní interakci |
-| **Multiparadigmatic fluency** | Navigace multiple teoretických rámců | Demonstrace 3+ paradigmatických perspektiv na stejný případ |
+| **Advanced metacognitive literacy** | Hluboké porozumění kognitivním procesům a vulnerabilitám | Schopnost identifikovat kognitivní biasy v reálném čase v supervizní interakci |
+| **Multiparadigmatic fluency** | Navigace multiple teoretických rámců | Demonstrace více paradigmatických perspektiv na stejný případ |
 | **Ethical sophistication** | Nuancované porozumění etickým dimenzím | Schopnost artikulovat etická dilemata v stupních složitosti |
 | **Emotional regulation expertise** | Monitorování a modulace emocionální dynamiky | Schopnost detekce + intervence při supervizní eskalaci |
 | **Metacommunication skills** | Komunikace o komunikačních procesech | Plynulé použití metakomunikativních frází + reflektivní cykly |
@@ -238,12 +240,14 @@ Pro autorizaci k vedení tréninkových programů jsou požadovány:
 | Požadavek | Specifikace |
 |-----------|--------------|
 | **Doctoral level qualification** | PhD nebo ekvivalent v relevantní disciplíně (psychologie, filozofie, sociologie, klinické obory) |
-| **Klinická/výzkumná/pedagogická praxe** | Minimálně 5 let post-doctoral praxe |
-| **Specialized training** | Min. 200 hodin specializovaného tréninku v [epistemic security](@/glossary/epistemic-security.md) |
-| **Personal psychotherapy** | Doložené minimálně 100 hodin osobní psychoterapie |
+| **Klinická/výzkumná/pedagogická praxe** | Dlouholetá post-doktorální praxe |
+| **Specialized training** | Specializovaný trénink v [epistemic security](@/glossary/epistemic-security.md) |
+| **Personal psychotherapy** | Doložená vlastní psychoterapeutická zkušenost |
 | **Ethics committee approval** | Schválení institucionální etickou komisí pro vedení programů |
-| **Continuing education** | 40 hodin CE ročně v relevantních oblastech |
-| **Supervision of supervision** | Pravidelná meta-supervize od senior facilitátora (min. 1× měsíčně) |
+| **Continuing education** | Průběžné další vzdělávání v relevantních oblastech |
+| **Supervision of supervision** | Pravidelná meta-supervize od senior facilitátora |
+
+**Počty hodin a let kniha neuvádí**: dřívější verze tu měla minima let praxe, hodin tréninku a osobní psychoterapie i frekvenci meta-supervize bez zdroje. Certifikace popsaná v této kapitole je návrh knihy, ne existující kvalifikace; konkrétní požadavky by stanovil až orgán, který by program skutečně zaštítil.
 
 ### Kontraindikační rámec pro supervizory
 
@@ -286,7 +290,7 @@ Následuje sedm cvičení strukturovaných od jednodušších k komplexnějším
 
 **Cíl**: Rychlá a přesná identifikace specifických technik v autentickém materiálu.
 
-**Struktura**: teoretická příprava → iniciální expozice (krátké 30–60s exempláře) → rychlá klasifikace → kolaborativní analýza → iterativní progrese k subtilnějším exemplářům.
+**Struktura**: teoretická příprava → iniciální expozice (krátké exempláře) → rychlá klasifikace → kolaborativní analýza → iterativní progrese k subtilnějším exemplářům.
 
 **Implementační pokyny**: jednoznačné výchozí exempláře, postupné zvyšování komplexity, okamžitá zpětná vazba, diverse modality, variabilní časová omezení.
 
@@ -334,23 +338,25 @@ Následuje sedm cvičení strukturovaných od jednodušších k komplexnějším
 
 Fáze 2 představuje epistemicky nejsenzitivnější část programu. Detailní specifikace každého modulu zajišťuje, že expozice technikám probíhá v kontrolovaném, strukturovaném prostředí s adekvátní bezpečnostní infrastrukturou.
 
-### Modul 2.1 — Akademické techniky 1.1–1.5 (16–20 hodin)
+**Hodinovou dotaci modulů kniha neuvádí**: dřívější verze tu u každého modulu měla rozsah hodin bez zdroje. Moduly jsou proto rozděleny do bloků, které určují pořadí obsahu, ne jeho délku.
 
-**Týden 1**: EA-1.1.* (akviziční techniky). Teoretická prezentace, analýza historických případů, low-intensity role-play, debriefing.
+### Modul 2.1 — Akademické techniky 1.1–1.5
 
-**Týden 2**: EA-1.2.* (evaluační techniky). Strukturální analýza, video case studies, klasifikační cvičení, peer feedback.
+**Blok 1**: EA-1.1.* (akviziční techniky). Teoretická prezentace, analýza historických případů, low-intensity role-play, debriefing.
 
-**Týden 3**: EA-1.3.* (revizní techniky). Hloubková analýza falsifikační dynamiky, simulační cvičení s explicitními safe-words, integrační reflexe.
+**Blok 2**: EA-1.2.* (evaluační techniky). Strukturální analýza, video case studies, klasifikační cvičení, peer feedback.
 
-**Týden 4**: EA-1.4.* a EA-1.5.* (paralingvistika a proxemika). Mikroanalýza videozáznamů, fenomenologická senzitizace, kinestetická cvičení s opatrným bezpečnostním rámcem.
+**Blok 3**: EA-1.3.* (revizní techniky). Hloubková analýza falsifikační dynamiky, simulační cvičení s explicitními safe-words, integrační reflexe.
 
-**Bezpečnostní mechanismy modulu**: každé sezení končí strukturovaným debriefingem (15–30 minut), pravidelná self-monitoring cvičení, anonymní zpětnovazební formuláře, 48hodinová pauza mezi týdny.
+**Blok 4**: EA-1.4.* a EA-1.5.* (paralingvistika a proxemika). Mikroanalýza videozáznamů, fenomenologická senzitizace, kinestetická cvičení s opatrným bezpečnostním rámcem.
 
-### Modul 2.2 — Detekční trénink (12–16 hodin)
+**Bezpečnostní mechanismy modulu**: každé setkání končí strukturovaným debriefingem, pravidelná self-monitoring cvičení, anonymní zpětnovazební formuláře, pauza na integraci mezi bloky.
+
+### Modul 2.2 — Detekční trénink
 
 **Cíl**: Posun od konceptuálního porozumění k automatizovanému rozpoznávání.
 
-**Komponenta A — Mikrotrénink rychlé klasifikace**: 30–60 sekundové exempláře, požadavek na klasifikaci v 5 sekundách, postupné zvyšování složitosti.
+**Komponenta A — Mikrotrénink rychlé klasifikace**: krátké exempláře, postupné zrychlování klasifikace a zvyšování složitosti.
 
 **Komponenta B — Fenomenologická senzitizace**: kultivace pozornosti k subtilním markerům (somatické, emocionální, kognitivní), pravidelné mindfulness cvičení.
 
@@ -358,7 +364,7 @@ Fáze 2 představuje epistemicky nejsenzitivnější část programu. Detailní 
 
 **Komponenta D — False positive kalibrace**: explicitní cvičení v rozpoznávání legitimní kritiky vs. manipulace, kalibrace senzitivity vs. specificity.
 
-### Modul 2.3 — Neutralizační strategie (12–16 hodin)
+### Modul 2.3 — Neutralizační strategie
 
 **Komponenta A — Individuální obrana**: techniky in-the-moment, jako kognitivní pause, parafráze, request for clarification, temporální distancování.
 
@@ -368,15 +374,15 @@ Fáze 2 představuje epistemicky nejsenzitivnější část programu. Detailní 
 
 **Komponenta D — Long-term resilience**: strategie pro dlouhodobou ochranu vlastní epistemické integrity v neutrálních i nepřátelských kontextech.
 
-### Modul 2.4 — Kompoziční a scénářová analýza (16–20 hodin)
+### Modul 2.4 — Kompoziční a scénářová analýza
 
-**Týden 1**: Kompoziční vzorce — Guru/adept, Trojan, Salami. Strukturální analýza, historické případy, role-play s explicitními bezpečnostními mechanismy.
+**Blok 1**: Kompoziční vzorce — Guru/adept, Trojan, Salami. Strukturální analýza, historické případy, role-play s explicitními bezpečnostními mechanismy.
 
-**Týden 2**: Scénáře A, B, E (individuální). Detailní analýza, identifikace technik, intervenční strategie.
+**Blok 2**: Scénáře A, B, E (individuální). Detailní analýza, identifikace technik, intervenční strategie.
 
-**Týden 3**: Scénáře C, F (komunální). Komparativní analýza, mapování dynamik, kolektivní intervenční design.
+**Blok 3**: Scénáře C, F (komunální). Komparativní analýza, mapování dynamik, kolektivní intervenční design.
 
-**Týden 4**: Scénáře D, I (institucionální/algoritmické). Strukturální analýza, regulační implikace, dlouhodobá obrana.
+**Blok 4**: Scénáře D, I (institucionální/algoritmické). Strukturální analýza, regulační implikace, dlouhodobá obrana.
 
 ## Operacionalizace supervizorských kompetencí
 
@@ -386,7 +392,7 @@ Pro plnou operacionalizaci supervizorských kompetencí specifikujeme pro každo
 
 | Milník | Specifikace | Evaluační marker |
 |--------|--------------|---------------------|
-| **Basic** | Identifikace 3+ kognitivních biasů ve vlastní praxi | Self-reflection journal s identifikovanými biasy |
+| **Basic** | Identifikace kognitivních biasů ve vlastní praxi | Self-reflection journal s identifikovanými biasy |
 | **Intermediate** | Identifikace biasů v supervizní interakci | Real-time supervisor feedback |
 | **Advanced** | Strukturální analýza biasových konstelací | Case formulation se zaměřením na biasy |
 | **Master** | Schopnost edukovat ostatní v metakognitivních dovednostech | Demonstrovaná pedagogická efektivita |
@@ -395,8 +401,8 @@ Pro plnou operacionalizaci supervizorských kompetencí specifikujeme pro každo
 
 | Milník | Specifikace | Evaluační marker |
 |--------|--------------|---------------------|
-| **Basic** | Identifikace 2 paradigmatů relevantních pro vlastní disciplínu | Disciplinární mapping |
-| **Intermediate** | Aplikace 3+ paradigmat na stejný případ | Case formulation z multiple perspektiv |
+| **Basic** | Identifikace paradigmat relevantních pro vlastní disciplínu | Disciplinární mapping |
+| **Intermediate** | Aplikace několika paradigmat na stejný případ | Case formulation z multiple perspektiv |
 | **Advanced** | Konstruktivní integrace paradigmaticky kontradiktorních pozic | Dialektický syntetický esej |
 | **Master** | Vývoj nových integrativních rámců | Publikovaný teoretický příspěvek |
 
@@ -547,18 +553,20 @@ Při implementaci s potenciálně vulnerabilními populacemi by měly být aplik
 | **1. Baseline** | před programem | Výchozí hodnoty kompetencí | Komprehenzivní profil, měření vulnerability/resilience, baseline kompetence, kvalitativní exploration |
 | **2. Formativní** | v průběhu | Monitoring progrese | Mikro-assessments, reflektivní cvičení, peer-evaluace, supervizorská zpětná vazba |
 | **3. Summativní** | na konci | Komprehenzivní assessment | Integrativní assessment, komplexní simulace, 360-degree feedback, comparison s baseline |
-| **4. Follow-up** | 6m, 1r, 2r po | Retence, transfer, aplikace | Strukturované interview, case study submissions, profesní dopad, kontinuální learning |
+| **4. Follow-up** | opakovaně po skončení | Retence, transfer, aplikace | Strukturované interview, case study submissions, profesní dopad, kontinuální learning |
 
 ### Klíčové KPI
 
 | KPI | Měření | Cílová hodnota |
 |------|--------|------------------|
-| **Detekční přesnost** | Test pre/post — schopnost identifikovat techniky | ≥ 85% post |
-| **Detekční rychlost** | Median time-to-detection ve scénářích | ≤ 15s pro EA-1.* |
-| **Behaviorální transfer** | Aplikace v praxi (3-, 6-, 12-měsíční follow-up) | ≥ 70% reportujících aplikaci |
+| **Detekční přesnost** | Test pre/post — schopnost identifikovat techniky | Zlepšení oproti baseline |
+| **Detekční rychlost** | Median time-to-detection ve scénářích | Zkrácení oproti baseline |
+| **Behaviorální transfer** | Aplikace v praxi (opakovaný follow-up) | Doložená aplikace v praxi |
 | **Epistemic resilience** | Standardizované [self-report](@/glossary/self-report.md) instrumenty | Statisticky signifikantní zlepšení |
-| **Profesní integrace** | Reportování případů detekce | ≥ 5 dokumentovaných případů/rok |
-| **Etická compliance** | Adherence k bezpečnostním protokolům | 100% (zero tolerance) |
+| **Profesní integrace** | Reportování případů detekce | Dokumentované případy detekce |
+| **Etická compliance** | Adherence k bezpečnostním protokolům | Úplná adherence (zero tolerance) |
+
+**Cílové hodnoty kniha neuvádí**: dřívější verze tu měla procenta, sekundy a roční počty případů bez zdroje. Program nebyl proveden ani změřen, takže žádná cílová hodnota nemá oporu; tabulka říká jen, co by se mělo měřit a jakým směrem by se měl výsledek pohnout.
 
 ## Specializovaná integrační cvičení pro klinické vzdělávání
 
@@ -604,11 +612,11 @@ Pokročilá edukativní implementace musí být systematicky validována nikoli 
 - Epistemická resilience (standardizovaná škála)
 - Etická compliance (adherence k bezpečnostním protokolům)
 
-**Pilotní výsledky** (synteticky reprezentující očekávané trendy z analogických tréninků): zlepšení detekční přesnosti z baseline 35–45% na post-test 78–88%, redukce detekčního času průměrně o 60–70%, statisticky signifikantní zvýšení rezilience škál.
+**Pilotní výsledky kniha nemá**: dřívější verze tu uváděla procenta zlepšení detekční přesnosti a zkrácení detekčního času, sama je označovala za „syntetické“ a neopírala je o žádné měření. Program pilotně proveden nebyl; teprve studie s tímto designem by ukázala, zda a jak se kompetence účastníků mění.
 
 ### Longitudinální follow-up
 
-**Design**: opakované měření v 3-, 6-, 12- a 24-měsíčních intervalech po dokončení programu pro evaluaci **retence a transferu**.
+**Design**: opakované měření v několika odstupech po dokončení programu pro evaluaci **retence a transferu**.
 
 **Klíčové výstupy**:
 
@@ -656,13 +664,12 @@ Pro situování pokročilé edukativní implementace v širším poli pedagogick
 
 | Dimenze | EA-1 protokol | CBT supervize | DBT trénink | Bioetické vzdělávání |
 |---------|---------------|----------------|--------------|------------------------|
-| **Trvání** | 18–26 týdnů | 2 roky | 1 rok | 6–12 měsíců |
-| **Kontaktní hodiny** | 80–120 | 800+ | 400 | 60–120 |
 | **Personal therapy** | doporučená pro supervizory | povinná | povinná | volitelná |
 | **Simulační laboratoř** | povinná | volitelná | strukturované role-play | textové případy |
 | **Etická supervize** | povinná | doporučená | povinná | povinná |
-| **Longitudinální follow-up** | 24 měsíců | 5+ let | 2 roky | typicky absent |
-| **Cílová efektivita** | 78–88% detekční přesnost | klinická efektivita měřena outcomes | dropout reduction | etické rozhodování |
+| **Cílová efektivita** | detekční přesnost (nezměřená) | klinická efektivita měřena outcomes | dropout reduction | etické rozhodování |
+
+**Trvání, hodiny a délku follow-upu kniha neuvádí**: dřívější verze tabulky měla tyto řádky pro všechny čtyři programy bez zdroje. Vypuštěny jsou i údaje o referenčních programech, protože je kniha nedokládá, a cílová přesnost protokolu, protože nebyla nikdy změřena.
 
 ### Distinktní rysy EA-1 protokolu
 
@@ -673,46 +680,48 @@ Pro situování pokročilé edukativní implementace v širším poli pedagogick
 
 ### Limitace EA-1 protokolu
 
-1. **Nedostatek dlouhodobých outcome dat** — protokol je relativně nový
+1. **Žádná outcome data** — protokol je návrh knihy a nebyl proveden
 2. **Vysoké nároky na supervizory** — limit škálovatelnosti
-3. **Kulturní specificita** — primárně validovaný v Westernizovaných akademických kontextech
+3. **Kulturní specificita** — navržený z perspektivy západních akademických kontextů a nikde nevalidovaný
 4. **Omezená evidence base** — opírá se o analogické programy spíše než o vlastní RCT
 
 ## Operacionalizace certifikace
 
 Pro plnou operacionalizaci certifikačního procesu specifikujeme následující strukturu.
 
+**Prahy, lhůty a hodinové požadavky kniha neuvádí**: dřívější verze tu měla procentní práh assessmentu, roky praxe, počty hodin dalšího vzdělávání a intervaly recertifikace bez zdroje. Úrovně níže popisují, co se na každé z nich má umět a doložit; kolik a jak často, by stanovil až orgán, který by certifikaci skutečně vydával.
+
 ### Certifikační level 1: Practitioner
 
-**Předpoklad**: Dokončení třífázového protokolu s celkovým assessmentem ≥ 80%.
+**Předpoklad**: Dokončení třífázového protokolu s úspěšným celkovým assessmentem.
 
 **Kompetence**: Schopnost detekce technik EA-1.* v reálném materiálu, aplikace neutralizačních strategií ve vlastní praxi, edukace kolegů na úrovni úvodních seminářů.
 
-**Recertifikace**: Každé 3 roky, 20 hodin CE.
+**Recertifikace**: Periodicky, s doloženým dalším vzděláváním.
 
 ### Certifikační level 2: Senior Practitioner
 
-**Předpoklad**: Level 1 + minimálně 3 roky aktivní praxe + dokumentovaná case work + ≥ 100 hodin pokročilého CE.
+**Předpoklad**: Level 1 + doložená aktivní praxe + dokumentovaná case work + pokročilé další vzdělávání.
 
 **Kompetence**: Schopnost diagnostiky komplexních scénářů, intervenční kapacita v probíhajících případech, supervize Level 1 practitioners, edukace na úrovni pokročilých kurzů.
 
-**Recertifikace**: Každé 3 roky, 40 hodin CE.
+**Recertifikace**: Periodicky, s rozšířeným dalším vzděláváním.
 
 ### Certifikační level 3: Supervisor
 
-**Předpoklad**: Level 2 + doctoral level qualification + 5 let post-doctoral praxe + 200 hodin specializovaného tréninku + personal psychotherapy + ethics committee approval.
+**Předpoklad**: Level 2 + doctoral level qualification + dlouholetá post-doktorální praxe + specializovaný trénink + personal psychotherapy + ethics committee approval.
 
 **Kompetence**: Vedení tréninkových programů, supervize Level 2 practitioners, výzkumná aktivita, kontribuce k vývoji taxonomie.
 
-**Recertifikace**: Každé 5 let, 80 hodin CE + meta-supervize.
+**Recertifikace**: Periodicky, s dalším vzděláváním a meta-supervizí.
 
 ### Certifikační level 4: Master Trainer
 
-**Předpoklad**: Level 3 + dokumentovaná publication track record + 10 let praxe + train-the-trainer kompetence + institucionální vedení tréninkových programů.
+**Předpoklad**: Level 3 + dokumentovaná publication track record + dlouholetá praxe + train-the-trainer kompetence + institucionální vedení tréninkových programů.
 
 **Kompetence**: Vývoj curricula, certifikace nových supervizorů, vedení institucionálních programů, validační výzkum.
 
-**Recertifikace**: Každých 7 let, kontinuální peer review.
+**Recertifikace**: Periodicky, s kontinuálním peer review.
 
 ## Pedagogická přípravná infrastruktura
 
@@ -722,7 +731,7 @@ Pro úspěšnou implementaci pokročilého programu je nezbytná robustní pedag
 
 **Fyzický prostor**:
 
-- Skupinová místnost umožňující kruhové uspořádání pro 8–12 účastníků
+- Skupinová místnost umožňující kruhové uspořádání pro malou skupinu účastníků
 - Individuální konzultační místnosti pro osobní supervizi
 - Simulační laboratoř s audiovizuálním záznamem
 - Bezpečnostní místnost pro debriefing a stabilizaci
@@ -746,7 +755,7 @@ Pro úspěšnou implementaci pokročilého programu je nezbytná robustní pedag
 **Core team**:
 
 - Lead supervisor (Level 4 Master Trainer)
-- Co-supervisors (Level 3, minimum 2)
+- Co-supervisors (Level 3)
 - Trained role-players pro simulace
 - Ethics committee liaison
 - Administrativní podpora s training v safeguarding
@@ -760,14 +769,15 @@ Pro úspěšnou implementaci pokročilého programu je nezbytná robustní pedag
 
 ### Časové zabezpečení
 
-| Komponenta | Časové nároky |
+| Komponenta | Obsah |
 |-------------|----------------|
-| **Direct teaching** | 80–120 kontaktních hodin |
-| **Supervised practice** | 40–60 hodin |
-| **Self-directed study** | 100–150 hodin |
-| **Peer consultation** | 20–30 hodin |
-| **Personal therapy/reflexe** | 20–40 hodin |
-| **Total program time** | 260–400 hodin přes 18–26 týdnů |
+| **Direct teaching** | Kontaktní výuka s lektorem a supervizorem |
+| **Supervised practice** | Praxe pod přímou supervizí |
+| **Self-directed study** | Samostudium mezi setkáními |
+| **Peer consultation** | Konzultace ve skupině kolegů |
+| **Personal therapy/reflexe** | Vlastní terapie nebo strukturovaná reflexe |
+
+**Hodinovou dotaci kniha neuvádí**: dřívější verze tu u každé komponenty i v součtu měla rozsahy hodin a týdnů bez zdroje. Poměr komponent se má řídit tím, co účastníci potřebují k integraci, a ne předem daným rozvrhem.
 
 ## Adaptace pro různé profesní populace
 
@@ -807,16 +817,18 @@ Pokročilá edukativní implementace musí být adaptována pro specifika různ�
 
 Simulační laboratoř (Cvičení 6) je epistemicky nejintensivnější komponentou programu a vyžaduje detailně specifikované bezpečnostní protokoly přesahující obecné principy etické implementace.
 
+**Lhůty a délky jednotlivých kroků kniha neuvádí**: dřívější verze tu měla minuty, hodiny a odstupy bez zdroje. Časování přípravy i debriefingu se řídí stavem účastníků, ne pevným rozvrhem.
+
 ### Pre-simulation preparation
 
-**Individuální assessment**: každý participant prochází individuálním pohovorem 48–72 hodin před simulací zaměřeným na:
+**Individuální assessment**: každý participant prochází s předstihem před simulací individuálním pohovorem zaměřeným na:
 
 - Aktuální psychický stav a stresové faktory
 - Adekvátnost integrace předchozích modulů
 - Personalizovaný safety plan pro případ akutní distress
 - Confirmation of opt-out možnosti bez stigmatu
 
-**Skupinová příprava**: 60–90 minutový skupinový briefing zahrnující:
+**Skupinová příprava**: skupinový briefing zahrnující:
 
 - Detailní artikulaci cílů simulace
 - Explicitní safe-words a exit mechanisms
@@ -845,13 +857,13 @@ Během simulace probíhá kontinuální multi-modální monitoring:
 
 Strukturovaný debriefing v multiple fázích:
 
-**Immediate (15 minut)**: somatické grounding, neutrální environmental shift, hydration, basic check-in.
+**Immediate (bezprostředně po simulaci)**: somatické grounding, neutrální environmental shift, hydration, basic check-in.
 
-**Short-term (45–60 minut)**: strukturovaná reflexe zkušenosti, identifikace klíčových momentů, validace emocionálních reakcí, přechod k analytické perspektivě.
+**Short-term (navazující část debriefingu)**: strukturovaná reflexe zkušenosti, identifikace klíčových momentů, validace emocionálních reakcí, přechod k analytické perspektivě.
 
-**Medium-term (24–48 hodin)**: individuální follow-up s lead supervisorem, integration session, případná individuální supervize.
+**Medium-term (v následujících dnech)**: individuální follow-up s lead supervisorem, integration session, případná individuální supervize.
 
-**Long-term (1 měsíc)**: integration check-in, identifikace dlouhodobých efektů, případná dodatečná podpora.
+**Long-term (s delším odstupem)**: integration check-in, identifikace dlouhodobých efektů, případná dodatečná podpora.
 
 ### Krizové intervenční protokoly
 
@@ -868,7 +880,7 @@ V případě akutní krize během simulace:
 
 Trained role-players jsou kritickou součástí simulační infrastruktury. Jejich příprava zahrnuje:
 
-- 40+ hodin specifického tréninku
+- Specifický trénink pro roli v simulaci
 - Personal therapy experience
 - Supervized praxe v low-intensity scenarios před high-intensity simulacemi
 - Pravidelná peer supervision a debriefing
@@ -914,18 +926,20 @@ Po dokončení formálního programu pokračuje rozvoj kompetencí v rámci kont
 
 ### CE požadavky podle úrovně certifikace
 
-| Level | Roční CE | Komponenty |
-|-------|---------|--------------|
-| **Practitioner** | 7 hodin | Conferences, workshops, supervised case work |
-| **Senior Practitioner** | 13 hodin | + advanced workshops, peer consultation, publications |
-| **Supervisor** | 16 hodin | + train-the-trainer activities, research, meta-supervision |
-| **Master Trainer** | 16+ hodin | + curricular development, validation research, mentoring |
+| Level | Komponenty |
+|-------|--------------|
+| **Practitioner** | Conferences, workshops, supervised case work |
+| **Senior Practitioner** | + advanced workshops, peer consultation, publications |
+| **Supervisor** | + train-the-trainer activities, research, meta-supervision |
+| **Master Trainer** | + curricular development, validation research, mentoring |
+
+**Rozsah dalšího vzdělávání kniha neuvádí**: dřívější verze tu měla roční počty hodin pro každou úroveň bez zdroje.
 
 ### Komunita praxe
 
 Absolventi participují v aktivní komunitě praxe zahrnující:
 
-- Pravidelné peer consultation skupiny (měsíční)
+- Pravidelné peer consultation skupiny
 - Annual case conferences s anonymizovanými případy
 - Online platforma pro asynchronní diskusi a peer support
 - Mentoring relationships across certification levels
@@ -936,15 +950,19 @@ Absolventi participují v aktivní komunitě praxe zahrnující:
 
 V případě, že absolvent přeruší aktivní praxi (např. parental leave, jiná zaměstnání), reaktivace certifikace vyžaduje:
 
-- 6–12 měsíční přerušení: refresher workshop + assessment
-- 1–3 leté přerušení: extended refresher + supervised case work
-- 3+ leté přerušení: re-take assessment komponent
+- kratší přerušení: refresher workshop + assessment
+- delší přerušení: extended refresher + supervised case work
+- dlouhodobé přerušení: re-take assessment komponent
+
+Hranice mezi kratším a delším přerušením kniha neurčuje; dřívější verze tu měla lhůty v měsících a letech bez zdroje.
 
 ## Implementační roadmap pro nové programy
 
 Pro instituce zvažující implementaci pokročilého programu poskytujeme strukturovaný roadmap.
 
-### Fáze 0: Pre-implementační audit (3–6 měsíců)
+**Délky fází kniha neuvádí**: dřívější verze tu měla rozsahy měsíců, počty kohort a účastníků bez zdroje. Skutečné tempo závisí na instituci, na etickém schválení a hlavně na tom, kolik kvalifikovaných supervizorů má k dispozici.
+
+### Fáze 0: Pre-implementační audit
 
 **Cíle**: Posouzení institucionální připravenosti a etablování fundamentálních předpokladů.
 
@@ -954,28 +972,28 @@ Pro instituce zvažující implementaci pokročilého programu poskytujeme struk
 - Identifikace a recruitment lead supervisor (Level 4)
 - Etablování ethics committee s externí majoritou
 - Zajištění materiální infrastruktury
-- Pilotní budgeting pro prvních 3 cohorts
+- Pilotní budgeting pro první cohorty
 - Strategická aliance s validačními partnery
 
 **Klíčový output**: Institucionální commitment letter + ethics approval + lead supervisor confirmation.
 
-### Fáze 1: Pilotní implementace (12 měsíců)
+### Fáze 1: Pilotní implementace
 
 **Cíle**: Spuštění prvního cohortu se silnou supervizní podporou.
 
 **Klíčové aktivity**:
 
-- Recruitment 6–8 účastníků z kompatibilních disciplín
-- Implementace třífázového protokolu s lead supervisor + 1–2 co-supervisors
+- Recruitment malé skupiny účastníků z kompatibilních disciplín
+- Implementace třífázového protokolu s lead supervisorem a co-supervisory
 - Kontinuální dokumentace pro learning and improvement
 - Mid-program meta-evaluace s ethics committee
 - Post-program comprehensive evaluation
 
 **Klíčový output**: První cohort absolventů + dokumentovaný learning od pilotu.
 
-### Fáze 2: Konsolidace (12–24 měsíců)
+### Fáze 2: Konsolidace
 
-**Cíle**: Stabilizace programu s 2–3 cohorts za rok.
+**Cíle**: Stabilizace programu s pravidelným během kohort.
 
 **Klíčové aktivity**:
 
@@ -987,21 +1005,21 @@ Pro instituce zvažující implementaci pokročilého programu poskytujeme struk
 
 **Klíčový output**: Stabilizovaný program + emergentní komunita praxe + iniciální outcome data.
 
-### Fáze 3: Škálování (24–48 měsíců)
+### Fáze 3: Škálování
 
 **Cíle**: Expanze programu s zachováním kvality.
 
 **Klíčové aktivity**:
 
 - Etablování train-the-trainer programu
-- Recruit 2–4 dalších Level 3 supervizorů
+- Recruit dalších Level 3 supervizorů
 - Diversifikace cohorts napříč disciplínami
 - Publikace methodological a outcome paperů
 - Adaptace pro různé profesní populace
 
 **Klíčový output**: Mature program + publikovaná evidence base + první sekundární implementations.
 
-### Fáze 4: Institutionalizace (48+ měsíců)
+### Fáze 4: Institutionalizace
 
 **Cíle**: Trvalá institucionální integrace.
 
@@ -1051,7 +1069,7 @@ Program může být obtížně validován v tradičních akademických kategori�
 
 ## Závěr
 
-Pokročilá edukativní implementace poznatků o epistemické anihilaci představuje komplexní multidimenzionální proces. **Třífázový strukturovaný protokol** (stabilizace → strukturovaná expozice → pokročilá aplikace) poskytuje robustní rámec, **specifické aplikační modality** zajišťují adekvátní facilitaci, **specializovaná integrační cvičení** přemosťují teorii a praxi, **detailní etické instrukce** adresují specifické výzvy klinického vzdělávání, **multi-dimenzionální evaluační rámec** poskytuje nástroje pro kontinuální zdokonalování, **operacionalizovaná certifikační struktura** zajišťuje progresivní rozvoj kompetencí, **integrace s platformovou infrastrukturou** umožňuje praktickou aplikaci a **adaptace pro různé profesní populace** zajišťují relevanci napříč obory.
+Pokročilá edukativní implementace poznatků o epistemické anihilaci představuje komplexní multidimenzionální proces. **Třífázový strukturovaný protokol** (stabilizace → strukturovaná expozice → pokročilá aplikace) poskytuje robustní rámec, **specifické aplikační modality** zajišťují adekvátní facilitaci, **specializovaná integrační cvičení** přemosťují teorii a praxi, **detailní etické instrukce** adresují specifické výzvy klinického vzdělávání, **multi-dimenzionální evaluační rámec** poskytuje nástroje pro kontinuální zdokonalování a **adaptace pro různé profesní populace** zajišťují relevanci napříč obory.
 
 Komparativní analýza s **CBT supervizí**, **DBT tréninkem** a **bioetickým vzděláváním** ukazuje, že protokol integruje osvědčené pedagogické praktiky a doplňuje je o **distinktní inovace** specifické pro epistemic security: simulační laboratoř s explicitními bezpečnostními protokoly, fenomenologickou senzitizaci, kontraindikační screening a anti-instrumentalizační safeguardy.
 

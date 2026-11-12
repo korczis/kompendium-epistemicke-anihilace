@@ -25,15 +25,15 @@ Cíl protokolu: **systematická obnova poznávací autonomie** — schopnosti kl
 
 ## Struktura pětistupňového protokolu
 
-| Stupeň | Název | Cíl | Trvání (orientační) |
-|--------|-------|-----|---------------------|
-| **S1** | Validace a mapování | Validace zkušenosti, mapa epistemických zranění | 4–8 sezení |
-| **S2** | Externalizace introjektů | Identifikace a oddělení vnucených narrativ | 6–12 sezení |
-| **S3** | Rekonstrukce metakognice | Obnova schopnosti reflektovat vlastní poznávání | 8–16 sezení |
-| **S4** | Hermeneutická obnova | Obnova interpretační kapacity | 6–12 sezení |
-| **S5** | Konsolidace a transfer | Integrace, dlouhodobá resilience | 4–8 sezení |
+| Stupeň | Název | Cíl |
+|--------|-------|-----|
+| **S1** | Validace a mapování | Validace zkušenosti, mapa epistemických zranění |
+| **S2** | Externalizace introjektů | Identifikace a oddělení vnucených narrativ |
+| **S3** | Rekonstrukce metakognice | Obnova schopnosti reflektovat vlastní poznávání |
+| **S4** | Hermeneutická obnova | Obnova interpretační kapacity |
+| **S5** | Konsolidace a transfer | Integrace, dlouhodobá resilience |
 
-Trvání je **orientační** — komplexní případy (post-kult, dlouhodobá EA s [ontologickou anihilací](@/glossary/ontologicka-anihilace.md)) mohou vyžadovat 2–4 leté terapeutické trajektorie.
+**Počet sezení kniha neuvádí**: dřívější verze tu měla u každého stupně rozsah sezení a pro komplexní případy rozsah let, vše bez zdroje. Protokol jako celek nebyl nikdy klinicky zkoušen, takže žádná data o délce jeho stupňů neexistují. Délku určuje průběh: stupeň trvá, dokud se neobjeví jeho markery dokončení, a komplexní případy (post-kult, dlouhodobá EA s [ontologickou anihilací](@/glossary/ontologicka-anihilace.md)) bývají podstatně delší než jednodušší. Pevný počet sezení by navíc u tohoto typu klientů nesl zvláštní riziko: člověk, kterého někdo dlouho vedl podle cizího harmonogramu, snadno čte termín jako další vnější normu, kterou musí splnit.
 
 Protokol není **lineární** — stupně se navzájem prolínají, klient se může vracet k předchozím fázím. Posloupnost však popisuje **těžiště práce** v daném období.
 
@@ -286,7 +286,7 @@ Strukturovaná příprava:
 
 #### Postupné prodlužování intervalů
 
-- Z týdenních sezení → 14denní → měsíční → kvartální follow-up;
+- Sezení se postupně rozvolňují, jakmile klient zvládá období mezi nimi sám; tempo rozvolnění se domlouvá s klientem a lze ho vrátit zpět;
 - Klient si zachovává **přístup** k terapeutovi pro krizové momenty;
 - Postupné **uvolňování** terapeutické vazby do podpůrné, ne řídicí pozice.
 
@@ -321,12 +321,14 @@ Detailněji v [6.5](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md).
 
 ## Outcomes a follow-up
 
-Doporučený **dlouhodobý follow-up** (1, 3, 5 let) zahrnuje:
+Dlouhodobý **follow-up** v odstupech, které se domlouvají s klientem, zahrnuje:
 
 - Posouzení stability získaných změn;
 - Identifikaci nových výzev;
 - „Booster“ sezení v krizích;
 - Příspěvek k vědecké evidenci (anonymizované case studies).
+
+**Intervaly ani míry výsledků kniha neuvádí**: dřívější verze tu měla pevné roky kontrol bez zdroje. Pro protokol neexistují data o tom, jak často se zlepšení udrží ani kdy hrozí návrat potíží, a kniha je nenahrazuje odhadem. Stabilitu změn proto hodnotí klinik na konkrétních markerech dokončení jednotlivých stupňů, ne podle kalendáře.
 
 ## Související
 

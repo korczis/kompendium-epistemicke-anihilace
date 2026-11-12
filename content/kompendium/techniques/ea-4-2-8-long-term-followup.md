@@ -38,7 +38,7 @@ parent_chapter = "/kompendium/04-terminalni-protokoly/"
 
 Tento článek **nemá operační charakter**: jeho účelem je výhradně **defenzivní rozpoznání**, **detekce neúmyslné manifestace** a **supervidovaná intervence**. Jakékoliv ofenzivní použití techniky je v rozporu s [doktrinou platformy](@/kompendium/02-doktrinalni-ramec/_index.md) a její aplikace bez doložitelného etického rámce je explicitně zakázána.
 
-Mechanismus, kterým technika operuje uvnitř supervidovaného rámce, spočívá v: definovaný kalendář kontrolních setkání po dobu nejméně 24 měsíců s validovanými diagnostickými nástroji a transparentní cestou pro mimořádné kontakty. Tento popis slouží jako **referenční rámec pro detekci**, nikoliv jako návod k provedení.
+Mechanismus, kterým technika operuje uvnitř supervidovaného rámce, spočívá v: definovaný kalendář kontrolních setkání po delší dobu s validovanými diagnostickými nástroji (**délku sledování kniha neuvádí**: dřívější verze tu měla počet měsíců bez zdroje) a transparentní cestou pro mimořádné kontakty. Tento popis slouží jako **referenční rámec pro detekci**, nikoliv jako návod k provedení.
 
 ## Struktura vzorce
 

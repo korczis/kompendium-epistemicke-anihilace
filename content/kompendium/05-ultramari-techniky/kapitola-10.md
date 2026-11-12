@@ -108,7 +108,7 @@ Poslední klastr je **integrativní a finální** — uzavírá nejen kapitolu, 
 | **[EA-5.5.27](@/kompendium/techniques/ea-5-5-27-taktilni-pre-konceptualni.md)** | Pre-konceptuální heterarchie | Souběžná aktivace 3–5 pre-konceptuálních destabilizací. Subjekt nemá **konceptuální nástroj** k tomu, aby cokoli z toho zachytil. |
 | **EA-5.5.28** | Konvergentní transkonceptualita | **Vrcholová technika sekce 05**: integrativní kompozice, v níž jsou simultánně aktivovány **všech pět vrstev gradientu** (reflexivita z Kapitoly 6, transcendentální podmínky z Kapitoly 7, identita z Kapitoly 8, logická struktura z Kapitoly 9, předkonceptualita z této kapitoly). Klinický obraz: **terminální konvergentní anihilace** — stav, který nemůže být ani popsán, ani vyřešen v rámci dostupných konceptuálních nástrojů. |
 | **[EA-5.5.29](@/kompendium/techniques/ea-5-5-29-multimodalni-konvergence.md)** | Post-transkonceptuální vakuum | Stav následující po 5.5.28: subjekt je v **konceptuálním vakuum** bez nástrojů pro rekonstrukci. Klinická intervence vyžaduje primárně somato-fenomenologickou rebudaci (návrat k tělesnému schématu), nikoli verbální terapii. |
-| **[EA-5.5.30](@/kompendium/techniques/ea-5-5-30-konvergentni-singularita-transkonceptualni.md)** | Permanentní transkonceptuální režim | Vzácný post-singulární stav: subjekt **akceptuje předkonceptualitu jako fundamentální vrstvu reality** a přestává plně participovat v konceptuálním diskurzu. Strukturně sousedí s některými chronickými neurologickými stavy (alexithymie, Riggsova alexie), ale je epistemicky generován. |
+| **[EA-5.5.30](@/kompendium/techniques/ea-5-5-30-konvergentni-singularita-transkonceptualni.md)** | Permanentní transkonceptuální režim | Vzácný post-singulární stav: subjekt **akceptuje předkonceptualitu jako fundamentální vrstvu reality** a přestává plně participovat v konceptuálním diskurzu. Strukturně připomíná některé chronické stavy, například alexithymii, ale je epistemicky generován. |
 
 ## Fenomenologický profil
 
@@ -135,8 +135,8 @@ Subjekt v expozici technikám EA-5.5.* vykazuje:
 
 Transkonceptuální mechanismy jsou **nejcitlivější** vrstvou kompendia:
 
-- **Ne-vyslovitelnost zhoršuje terapeutickou intervenci** — subjekt nemůže verbálně artikulovat svůj stav, což činí standardní psychoterapeutické nástroje neúčinnými. Rekonstruktivní protokoly vyžadují somato-fenomenologickou modalitu (Hakomi, Focusing, body-oriented psychotherapy).
-- **Riziko misdiagnostiky** — bez specializované znalosti je syndromový obraz EA-5.5.* snadno zaměněn s psychózou, alexithymie nebo somatoformní poruchou. Klinická literatura dokumentuje vážná pochybení v psychiatrické intervenci.
+- **Ne-vyslovitelnost zhoršuje terapeutickou intervenci** — subjekt nemůže verbálně artikulovat svůj stav, což činí standardní psychoterapeutické nástroje neúčinnými. Nabízejí se spíš přístupy pracující s tělesnou zkušeností (například Hakomi, Focusing nebo jiná body-oriented psychotherapy); jejich účinnost pro tento obraz kniha nedokládá.
+- **Riziko misdiagnostiky** — bez specializované znalosti je syndromový obraz EA-5.5.* snadno zaměněn s psychózou, alexithymie nebo somatoformní poruchou. Pramen o takových pochybeních kniha nemá; dřívější verze tu tvrdila, že je klinická literatura dokumentuje, a žádnou neuvedla. Riziko záměny je odvozené z podobnosti obrazů, ne z doložených případů.
 - **Operační detaily L4-restriktivní** — plné protokoly nejsou veřejně dostupné. Per-technique články pro EA-5.5.* budou publikovány pouze po dokončení etické supervize a po publikaci rekonstruktivních protokolů v [Sekci 06](@/kompendium/06-klinicke-aplikace/_index.md).
 
 ## Vztah k ostatním kapitolám

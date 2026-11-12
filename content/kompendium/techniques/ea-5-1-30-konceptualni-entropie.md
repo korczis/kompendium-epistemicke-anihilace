@@ -137,7 +137,7 @@ Skupina doktorandů v interdisciplinárním programu po 4 letech vykazovala nesc
 
 ### Případ 2 — Komunitní jazykový rejstřík
 
-Online wellness komunita po 2 letech vyvinula vnitřní rejstřík („energie“, „frequence“, „alignment“), v němž 60 % účastníků nedokázalo rozlišit mezi prožívaným strachem a prožívanou úzkostí, mezi reflexí a ruminací, mezi empatií a splynutím. Detekce: terapeutický audit členů odhalil systematickou konceptuální entropii. Intervence: postupné opouštění interního rejstříku, re-etablování klinických distinkcí.
+Online wellness komunita po 2 letech vyvinula vnitřní rejstřík („energie“, „frequence“, „alignment“), v němž značná část členů nedokázala rozlišit mezi prožívaným strachem a prožívanou úzkostí, mezi reflexí a ruminací, mezi empatií a splynutím. Detekce: terapeutický audit členů odhalil systematickou konceptuální entropii. Intervence: postupné opouštění interního rejstříku, re-etablování klinických distinkcí. **Podíl kniha neuvádí**: dřívější verze tu měla procento členů bez zdroje.
 
 ### Případ 3 — Korporátní jazykový kolaps
 

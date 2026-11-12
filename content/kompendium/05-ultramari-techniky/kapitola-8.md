@@ -141,7 +141,7 @@ Jelikož techniky této kapitoly mohou indukovat klinické stavy připomínajíc
 
 - **Operační detaily L4-restriktivní** — plné protokoly nejsou veřejně dostupné a budou publikovány až po dokončení etické supervize.
 - **IRB povinné** — žádný výzkum této domény nesmí probíhat mimo institucionálně-supervidovaný kontext.
-- **Klinický backup povinný** — každý experimentální protokol vyžaduje povinnou klinickou supervizi s 24/7 dostupností.
+- **Klinický backup povinný** — každý výzkum v této doméně vyžaduje klinickou supervizi a dostupnou krizovou podporu. Rozsah a dostupnost této podpory kniha neurčuje; dřívější verze tu měla pevný požadavek bez zdroje a o skutečných podmínkách rozhoduje etická komise pracoviště.
 - **Per-technique články v přípravě** — plné hloubkové články pro EA-5.3.* budou publikovány postupně po klinické verifikaci rekonstruktivních protokolů.
 
 ## Vztah k ostatním kapitolám

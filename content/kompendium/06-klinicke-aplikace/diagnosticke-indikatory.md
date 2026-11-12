@@ -34,7 +34,7 @@ Diagnostické markery se rozdělují do dvou hlavních skupin podle taxonomické
 
 ## Screeningové markery
 
-Následující markery jsou **screeningové indikátory** — žádný z nich není sám o sobě diagnostický, ale **klastr 4+ markerů** v klinickém setkání by měl vést k systematické epistemické anamnéze.
+Následující markery jsou **screeningové indikátory** — žádný z nich není sám o sobě diagnostický. Váhu má teprve **shluk** markerů, zvláště když se objevují v několika klastrech zároveň a když je klinik dokáže časově spojit se změnou vztahů nebo informačního prostředí; takový shluk je důvodem k systematické epistemické anamnéze. **Počet markerů kniha neuvádí**: dřívější verze tu měla pevný počet bez zdroje a žádná data o citlivosti nebo specificitě takového počtu nemá, protože markery nikdo nevalidoval.
 
 ### Klastr A: Metakognitivní destrukce
 
@@ -93,9 +93,12 @@ Standardní psychiatrický rozhovor se rozšiřuje o následující strukturovan
 ### 1. Mapování informačního prostředí
 
 - Jaké zdroje informací pacient používá (média, lidé, organizace)?
-- Existuje **dominantní zdroj** (>70% relevantních informací z jednoho zdroje)?
+- Existuje **dominantní zdroj**, ze kterého pochází převážná část informací o tématech, na nichž pacientovi záleží?
 - Má pacient **přístup k oponujícím informacím**? Pokud ne, proč?
-- Změnilo se informační prostředí pacienta v posledních 1–5 letech?
+
+**Práh kniha neuvádí**: dřívější verze tu měla procentní podíl jediného zdroje bez pramene. Rozhodující není podíl, ale to, zda pacient může dominantní zdroj ověřit, zpochybnit a opustit bez ztráty vztahu, bydlení nebo příjmu. Člověk, který čte převážně jeden odborný časopis, není v témže postavení jako člověk, kterému skupina určuje, co smí číst.
+
+- Změnilo se informační prostředí pacienta v posledních letech, a pokud ano, souvisí změna s novým vztahem, skupinou nebo autoritou?
 
 ### 2. Mocenské vztahy
 
@@ -111,7 +114,7 @@ Standardní psychiatrický rozhovor se rozšiřuje o následující strukturovan
 
 ### 4. Změny self-narrativa
 
-- Jak by pacient popsal sám sebe před 1, 5, 10 lety?
+- Jak by pacient popsal sám sebe v různých obdobích života — před vstupem do vztahu nebo skupiny, během něj a dnes?
 - Existuje **diskontinuita**, kterou si nedovede vysvětlit?
 - Cítí se **vzdálen** vlastním minulým rozhodnutím?
 
@@ -121,16 +124,16 @@ V současné klinické praxi neexistuje **přímo validizovaný** instrument pro
 
 | Instrument | Co měří | EA-relevantní subskóre |
 |-----------|---------|------------------------|
-| **GES (Group Experience Survey)** | Skupinová manipulace | Total score >60: vysoké riziko EA-5.x.x |
-| **PEAS (Psychological Abuse in Relationships Scale)** | Psychické týrání | "Reality denial" subskóre |
 | **WHODAS 2.0** | Funkční dopad | Domain "Cognition" subskóre |
 | **MoCA / RBANS** | Kognitivní funkce | Vyloučení organické etiologie |
 | **DES-II (Dissociative Experiences Scale)** | Disociativní fenomény | Diferenciální vůči disociativním poruchám |
 | **PCL-5** | PTSD | Diferenciální vůči klasickému PTSD |
 
-Pro **specifické subpopulace** (post-kult, oběti [coercive control](@/glossary/coercive-control.md)) existují dedikované instrumenty (např. **GPA Survey** pro post-kult, **CCB Scale** pro coercive control), které poskytují vyšší diagnostickou specificitu.
+Žádný z těchto nástrojů neměří EA; každý zachycuje jen sousední jev a jeho výsledek se čte jako kontext, ne jako skóre EA. **Prahy kniha neuvádí**: dřívější verze tu měla dva nástroje, které se nepodařilo dohledat, a prahové skóre, které k nim přiřazovalo riziko EA, bez jakéhokoli zdroje. Obojí je odstraněno. Prahy publikované k ostatním nástrojům platí pro konstrukty, pro které byly validovány ([disociace](@/glossary/disociace.md), PTSD), a nelze je přenášet na EA.
 
-> **Otevřená výzkumná otázka**: Vývoj **dedikovaného EA Screening Toolu (EAST)** je předmětem aktuálního výzkumu. Cílem je nástroj, který kombinuje markery klastrů A–D s evidencí o informačním prostředí pacienta.
+Pro **specifické subpopulace** (post-kult, oběti [coercive control](@/glossary/coercive-control.md)) existují dotazníky zaměřené na prožitek skupinového nebo partnerského nátlaku, například **Group Psychological Abuse Scale (GPA)** pro bývalé členy skupin a **Checklist of Controlling Behaviors (CCB)** pro kontrolující chování v partnerství. I ty popisují vystavení nátlaku, ne poškození poznávacího aparátu.
+
+> **Otevřená výzkumná otázka**: Dedikovaný screeningový nástroj pro EA neexistuje a kniha nezná výzkum, který by ho vyvíjel. Takový nástroj by musel prokázat, že markery klastrů A–D odliší EA od deprese, cPTSD a legitimní hluboké víry, a musel by se ověřit na populacích, u nichž je vystavení manipulaci doložené nezávisle na výpovědi pacienta. Dokud taková validace neproběhne, každý číselný práh pro EA je vymyšlený.
 
 ## Klinická rozhodovací pravidla
 
@@ -142,11 +145,11 @@ Následující pravidla představují **doporučené (nikoliv mandatorní) klini
 
 ### Pravidlo R2: Eskalace
 
-**Pokud** klastr A ≥3 markery **A** klastr B ≥2 markery **A** klastr C ≥2 markery, **pak** uvažovat o **strukturální EA** a indikovat hloubkovou epistemickou anamnézu.
+**Pokud** se markery opakovaně objevují ve více klastrech zároveň — zejména metakognitivní (A) spolu s hermeneutickými (B) a sociálně-epistemickými (C) — a nevysvětluje je lépe jiná diagnóza, **pak** uvažovat o **strukturální EA** a indikovat hloubkovou epistemickou anamnézu. **Počty markerů kniha neuvádí**: dřívější verze tu měla pevné minimální počty pro každý klastr bez zdroje. Pravidlo popisuje směr úvahy, ne hranici, za kterou diagnóza platí.
 
 ### Pravidlo R3: Akutní intervence
 
-**Pokud** klastr D ≥1 marker, **pak** indikováno: (a) vyloučení organické etiologie, (b) psychiatrické konzilium, (c) zvážení hospitalizace při D5.
+**Pokud** je přítomen kterýkoli marker klastru D, **pak** indikováno: (a) vyloučení organické etiologie, (b) psychiatrické konzilium, (c) zvážení hospitalizace při D5.
 
 ### Pravidlo R4: Diferenciální vyloučení
 

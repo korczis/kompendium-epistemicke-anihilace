@@ -108,7 +108,7 @@ Strukturovaná rekapitulace **konkrétních incidentů** s důvěryhodným exter
 
 #### 2. Vzorový test
 
-Subjekt vytvoří **explicitní seznam vzorců** *(„když dělám X, partner reaguje Y“)* a po určenou dobu **zaznamenává** instance. Statistická signifikance (typicky vyžadováno alespoň 5-7 instancí) demonstruje vzorec **mimo dosah** reinterpretace.
+Subjekt vytvoří **explicitní seznam vzorců** *(„když dělám X, partner reaguje Y“)* a po určenou dobu **zaznamenává** instance. Když se týž sled opakuje v řadě zaznamenaných instancí, stává se vzorec viditelným **mimo dosah** reinterpretace: písemný záznam nelze zpětně přepsat tak snadno jako vzpomínku. **Počet záznamů kniha neuvádí**: dřívější verze tu měla minimální počet instancí bez zdroje, vydávaný za statistickou signifikanci.
 
 #### 3. Prediktivní cvičení
 
@@ -135,7 +135,7 @@ V konfliktních situacích zapojení **třetí strany**, jejímž úkolem je zaz
 
 ### Případ 1 — Dlouhodobý partnerský vztah
 
-Klientka po 9 letech vztahu prezentovala kompletně invertovanou atribuční mapu: každý partnerův výbuch hněvu byl v jejím podání **vyprovokován** něčím, co udělala (nebo *neudělala* — což je strukturálně významný marker, protože necitelná atribuce do nedostatku ukazuje pokročilou inverzi). Strukturovaný atribuční audit s terapeutem rekonstruoval **původní chronologii** desítek incidentů; v 87 % případů byl iniciátorem partner. Klientka popsala následnou rekonstrukci jako „jako bych se znovu naučila gravitaci“.
+Klientka po 9 letech vztahu prezentovala kompletně invertovanou atribuční mapu: každý partnerův výbuch hněvu byl v jejím podání **vyprovokován** něčím, co udělala (nebo *neudělala* — což je strukturálně významný marker, protože necitelná atribuce do nedostatku ukazuje pokročilou inverzi). Strukturovaný atribuční audit s terapeutem rekonstruoval **původní chronologii** desítek incidentů; ve velké většině z nich byl iniciátorem partner, nikoli klientka. **Podíl kniha neuvádí**: dřívější verze tu měla procento bez zdroje. Klientka popsala následnou rekonstrukci jako „jako bych se znovu naučila gravitaci“.
 
 ### Případ 2 — Korporátní kontext
 

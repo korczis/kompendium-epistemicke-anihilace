@@ -58,13 +58,13 @@ Identifikace kontraindikací je integrální součástí každého iniciálního
 
 Standardní implementace techniky probíhá v následujících strukturovaných krocích:
 
-(1) Komprehensivní diferenciálně-diagnostické vyšetření. (2) SCID-D + SCID-5 PD. (3) Toxicology screen. (4) Neurologická konzultace pokud indikováno. (5) Akutní stabilizace — antipsychotika dle indikace. (6) Trauma-aware approach k psychotickým experiences. (7) Long-term plan.
+(1) Komprehensivní diferenciálně-diagnostické vyšetření. (2) SCID-D + SCID-5 PD. (3) Toxicology screen. (4) Neurologická konzultace pokud indikováno. (5) Akutní stabilizace v psychiatrické péči dle indikace. (6) Trauma-aware approach k psychotickým experiences. (7) Long-term plan.
 
 Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
 
 ## Trvání a frekvence
 
-**Typická délka:** Variabilní; akutní stabilizace 2-6 týdnů.
+**Typická délka:** variabilní; délku akutní stabilizace určuje klinický obraz a psychiatrická péče, nikoli norma stanovená touto knihou.
 
 Frekvence sezení a celková délka intervence jsou závislé na komplexitě klinického obrazu, komorbiditách a individuální responsivitě. V populacích s komplexním C-PTSD je třeba počítat s prolongovaným průběhem, zatímco u single-incident traumat lze očekávat rychlejší progression.
 
@@ -74,7 +74,7 @@ Klinická efektivita techniky je posuzována podle následujících outcome metr
 
 PANSS, dissociation scales, reality testing markers.
 
-Pre-post administrace standardizovaných nástrojů poskytuje kvantitativní podklad pro klinické rozhodování o pokračování, modifikaci nebo ukončení intervence. Klinicky významná změna je definována jako Cohenovo d ≥ 0.5 nebo redukce primárního skóru o ≥ 30%.
+Pre-post administrace standardizovaných nástrojů poskytuje kvantitativní podklad pro klinické rozhodování o pokračování, modifikaci nebo ukončení intervence.
 
 ## Adaptace pro specifické EA kategorie
 
@@ -98,8 +98,6 @@ Technika **EA-6.5.3** se historicky vyvinula z konvergence několika klinických
 
 **Klinické zacílení**: akutní a vysokointenzivní klinické setting (ER, akutní krize, inpatient, partial hospitalization, day program, residential) pro pacienty s aktivní EA-symptomatologií vyžadující stabilizaci. Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
 
-**DSM-5-TR / ICD-11 mapování**: technika je primárně indikována pro diagnózy odpovídající F43.0 Acute stress reaction (ICD-11 6B42), F43.1 PTSD, F23 Acute psychotic disorders (ICD-11 6A23), F44 Dissociative disorders, F32.3 Severe depressive episode with psychotic symptoms. V rámci ICD-11 6B41 Complex PTSD (CPTSD) představuje technika klíčovou intervenční komponentu pro tři jádrové domény CPTSD: dysregulace afektu, negativní sebepojetí a relační poruchy. Diferenciální diagnostika musí explicitně vyloučit primární psychotické spektra (F20-F29 / 6A2X), bipolární poruchy (F31 / 6A6X) a organické afektivní poruchy (F06.3X / 6E62).
-
 **Trauma spektrum kontext**: aplikace techniky vyžaduje explicitní stratifikaci subjektu na škále jednoduchého akutního traumatu (Type I trauma per Terr) versus komplexního opakovaného relačního traumatu (Type II trauma). U Type II profilů s dlouhodobou expozicí v dětství je nutná modifikace standardního protokolu — zkrácení sezení, posílení titrace expozičních prvků, zvýšení frekvence stabilizačních intervalů. Ignorance této stratifikace je dokumentovanou cestou k iatrogennímu zhoršení.
 
 **Klinická tradice ukotvení**: česká psychiatrická a psychologická tradice (Vondráček, Mečíř, Kratochvíl, Höschl, Praško) poskytuje specifický rámec pro adaptaci globálních [evidence-based](@/glossary/evidence-based.md) přístupů na středoevropské sociokulturní specifika — postkomunistická intergenerační traumata, religijně-sektářská specifika regionu, vzorce institucionálního násilí v rámci totalitního dědictví.
@@ -108,47 +106,41 @@ Technika **EA-6.5.3** se historicky vyvinula z konvergence několika klinických
 
 Aplikace techniky **EA-6.5.3** vyžaduje specifickou modifikaci v následujících podpopulacích, kde standardní protokol nese zvýšené iatrogenní riziko:
 
-**Děti a adolescenti (< 18 let)**: vývojově citlivá adaptace s explicitním zapojením pečující osoby (TF-CBT model), zkrácená sezení (30-45 min vs. 60-90 min standard), vyšší frekvence stabilizačních prvků, hra a kreativní expresivní techniky jako preferovaný kanál. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). Doporučené nástroje: UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
+**Děti a adolescenti (< 18 let)**: vývojově citlivá adaptace s explicitním zapojením pečující osoby (TF-CBT model), kratší sezení, vyšší frekvence stabilizačních prvků, hra a kreativní expresivní techniky jako preferovaný kanál. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). Doporučené nástroje: UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
 
 **Geriatrická populace (> 65 let)**: kognitivní akomodace (delší pauzy, opakování klíčových konceptů, písemné podpůrné materiály), screening pro early-stage demenci (MoCA), zohlednění kohortně specifické historie (postkomunistická intergenerační traumata), častá komorbidita s chronickými somatickými onemocněními.
 
-**Komorbidní psychotické spektrum**: technika vyžaduje předchozí farmakologickou stabilizaci (atypická antipsychotika), úzká spolupráce s psychiatrem, redukce konfrontačních elementů, posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
+**Komorbidní psychotické spektrum**: technika vyžaduje předchozí farmakologickou stabilizaci vedenou psychiatrem, úzkou spolupráci s ním, redukci konfrontačních elementů a posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
 
-**Komorbidní substance use disorders**: doporučená sekvence — primární SUD léčba do funkční remise (≥ 90 dní), poté trauma-fokusovaná intervence. Paralelní integrované přístupy (Seeking Safety) jsou alternativou pro pacienty neschopné dosáhnout primární abstinence.
+**Komorbidní substance use disorders**: doporučená sekvence — primární SUD léčba do funkční remise, poté trauma-fokusovaná intervence. Paralelní integrované přístupy (Seeking Safety) jsou alternativou pro pacienty neschopné dosáhnout primární abstinence.
 
-**Komorbidní borderline personality disorder**: rozšířená stabilizační fáze (DBT skill training 12-24 týdnů) předchází trauma expozičním komponentám. Riziko regresivní idealizace/devalvace v terapeutickém vztahu vyžaduje peer-supervizi.
+**Komorbidní borderline personality disorder**: rozšířená stabilizační fáze (DBT skill training) předchází trauma expozičním komponentám. Riziko regresivní idealizace/devalvace v terapeutickém vztahu vyžaduje peer-supervizi.
 
-**Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; preferovány sensorimotor a stabilizační intervence do 6 měsíců post-partum.
+**Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; preferovány sensorimotor a stabilizační intervence.
 
-## Outcome měření
+## Kdy je rámec legitimní
 
-Validace efektivity techniky vyžaduje multidimenzionální outcome battery aplikovanou v klinicky validovaných intervalech:
+Rozlišení mezi psychotickou poruchou, disociativním obrazem a přesvědčením přijatým pod tlakem skupiny je úkonem akutní klinické péče. Klasifikační systémy dávají kritéria, ne oprávnění: diagnózu stanoví kvalifikovaný klinik ve supervidovaném rámci a tato stránka k ní nedává podklad ani postup (WHO, 2019).
 
-**Primární outcome instrumenty** (administrace baseline / mid-treatment / termination / 3-month FU / 12-month FU):
+Legitimní rámec je poznatelný podle toho, že drží dvě věci pohromadě: trauma v anamnéze nevylučuje psychózu a psychóza nevylučuje trauma. Souvislost mezi nepříznivou zkušeností v dětství a pozdějšími psychotickými příznaky je dobře popsaná, a volba mezi oběma vysvětleními je proto falešná (Read a kol., 2005; Varese a kol., 2012).
 
-| Instrument | Doména | Klinicky významná změna |
-|------------|--------|--------------------------|
-| **PCL-5** | PTSD symptomy (DSM-5) | ≥ 10-bodová redukce, sub-threshold < 33 |
-| **ITQ** | ICD-11 PTSD/CPTSD | DSO klinicky pod prahem, redukce ≥ 30% |
-| **CAPS-5** | Klinicián-administrovaná PTSD | ≥ 30% redukce celkového skóru |
-| **DERS** | Emoční regulace | g ≥ 0.5 pre-post |
-| **WHODAS 2.0** | Funkční disabilita | ≥ 5-bodová redukce |
+Druhým znakem je zacházení s obsahem zkušenosti. Péče, která je legitimní, nedělá z přijetí svého výkladu podmínku pomoci a dokumentaci nechává dostupnou tomu, koho se týká; měřítko stanoví [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) (Herman, 1992).
 
-**Sekundární outcome**:
+## Odlišení
 
-- **PHQ-9** (depresivní symptomatologie, target < 10)
-- **GAD-7** (úzkostná symptomatologie, target < 10)
-- **DES-II** (disociativní symptomatologie, target < 30)
-- **WAI-SR** (terapeutická aliance, target ≥ 25. percentil)
-- **CGI-S** (klinické globální zhodnocení)
-- **PSQI** (kvalita spánku)
+Od nemoci se odlišuje přesvědčení, které člověk přijal v prostředí, jež ho systematicky odměňovalo a trestalo. Není bludem v klinickém smyslu, protože je sdílené, srozumitelné v rámci skupiny a obvykle ustupuje s odstupem od ní (Lifton, 1961).
 
-**Benchmarks pro úspěch intervence**:
+Od sousední techniky — [EA-6.5.4 disociativní akutní protokol](@/kompendium/techniques/ea-6-5-4-disociativni-akutni-protokol.md) — se tento rámec liší otázkou, kterou si klade: tam jde o přerušenou kontinuitu vědomí a paměti, zde o vztah k realitě a o původ obsahu přesvědčení. Diferenciální rozvahu mezi oběma obrazy proto klasifikace vyžaduje výslovně (APA, 2022).
 
-- **Reliable Change Index (RCI)** > 1.96 na PCL-5 (Jacobson & Truax, 1991)
-- **Clinical Significance**: post-treatment skór v rámci 1 SD nontraumatizované normy
-- **Functional Recovery**: WHODAS 2.0 skór ≤ percentil 75 srovnatelné populace
-- **Sustained Remission**: udržení nad RCI prahem v 12měsíčním FU
+Od běžné religiozity a od kulturně sdílené zkušenosti se vzorec odlišuje tím, zda je možné nesouhlasit. Mimořádná nebo náboženská zkušenost sama o sobě příznakem není a klasifikace s kulturním kontextem výslovně počítá (WHO, 2019).
+
+## Rizikové kontexty
+
+Nejčastěji je tento rámec zneužit jako nástroj diskvalifikace. Prohlásit nepohodlné svědectví za příznak je starší než psychiatrie a v uzavřených prostředích se to opakuje pravidelně: kdo popíše, co se dělo, je označen za nemocného a tím zbaven možnosti být slyšen (Herman, 1992).
+
+Druhým kontextem je prostředí, které vlastní úsudek předem prohlásí za nespolehlivý a nabídne svůj výklad jako jedinou zdravou možnost. Hranice mezi léčbou a tímto vzorcem není v obsahu výkladu, ale v tom, zda jej lze odmítnout bez sankce (Lifton, 1961).
+
+Třetím kontextem je tlak na rychlé zařazení v prostředí bez dokumentace a bez supervize. Nejde o riziko teoretické: zařazení určuje, jaká péče se člověku nabídne a jaká se mu po roky nabízet nebude (Read a kol., 2005).
 
 ## Vztah k jiným technikám
 
@@ -157,7 +149,11 @@ Kompatibilní s [EA-6.1.8 disociativním spektrum](@/kompendium/techniques/ea-6-
 ## Literatura
 
 - American Psychiatric Association (2022). *Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition, Text Revision (DSM-5-TR)*. APA.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. Norton.
 - National Institute for Health and Care Excellence (2018). *Post-traumatic stress disorder* (NICE guideline NG116).
+- Read, J., van Os, J., Morrison, A. P., & Ross, C. A. (2005). Childhood trauma, psychosis and schizophrenia. *Acta Psychiatrica Scandinavica*.
+- Varese, F. et al. (2012). Childhood adversities increase the risk of psychosis. *Schizophrenia Bulletin*.
 - World Health Organization (2019). *International Classification of Diseases, 11th Revision (ICD-11)*. WHO.
 
 ## Související

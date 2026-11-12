@@ -142,15 +142,17 @@ Doktorand/ka v kontinentální filozofii pracuje pod supervizí, která systemat
 
 Detekce: Externí komise zjistila, že kandidát/ka vykazuje pojmovou plynulost, ale nemá **žádný produktivní výstup**. Při rozhovoru s nezávislým filozofem v jiné tradici kandidát/ka prožila intenzivní úlevu při setkání s **operativní pojmovou prací**.
 
-Intervence: Změna supervize, povinný kurz analytické metodologie, terapeutická intervence pro rekonstrukci operativní pojmové kapacity (24 měsíců).
+Intervence: Změna supervize, povinný kurz analytické metodologie, dlouhodobá terapeutická podpora při obnově operativní pojmové kapacity.
 
 ### Případ 2 — High-control komunita
 
 Komunita se duchovní orientací systematicky problematizuje pojmy *láska*, *rodina*, *přátelství* mimo komunitní kontext. Členové prožívají externí vztahy jako „iluzorní“ a interní jako „jediné autentické“.
 
-Detekce: Bývalí členové po výstupu reportovali, že jim **trvalo 12–18 měsíců** než byli schopni používat pojem *přítel* o lidech mimo komunitu bez vnitřního pochybování o „skutečnosti“ tohoto vztahu.
+Detekce: Bývalí členové po výstupu popisovali, že jim **trvalo dlouho**, než byli schopni používat pojem *přítel* o lidech mimo komunitu bez vnitřního pochybování o „skutečnosti“ tohoto vztahu. Návrat pojmu nepřichází definicí, ale opakovanou zkušeností vztahu, který se nezhroutí, když ho komunita prohlásí za iluzorní.
 
 Intervence: Podpůrná síť pro bývalé členy s explicitní pojmovou rehabilitací; veřejná deklarace komunity jako struktury produkující konceptuální nihilaci.
+
+**Trvání kniha neuvádí**: dřívější verze tu u obou případů měla počty měsíců bez zdroje. Oba případy jsou ilustrativní a doba obnovy pojmové kapacity se mezi lidmi liší tak, že by ji žádné jedno číslo poctivě nepopsalo.
 
 ## Vztah k jiným technikám
 

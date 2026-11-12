@@ -148,8 +148,7 @@ klienty velkou oblibu, ale slabší doklady.
 
 - [Partnerský gaslighting](@/kompendium/case-studies/08-gaslighting-partnersky.md) –
   kognitivní zpracování převzaté viny.
-- [Cult recovery po 12 letech](@/kompendium/case-studies/06-cult-recovery-12-let.md) –
-  dlouhodobá kombinace postupů.
+- [Cult recovery po 12 letech](@/kompendium/case-studies/06-cult-recovery-12-let.md) – dlouhodobá kombinace postupů.
 - [Rezidualní totalitní trauma](@/kompendium/case-studies/09-rezidualni-totalitarni-trauma.md)
   – trauma bez jedné události.
 

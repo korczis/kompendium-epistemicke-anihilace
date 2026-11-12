@@ -134,8 +134,8 @@ Subjekt v expozici technikám EA-5.4.* vykazuje:
 Sebevztažné paradoxy jsou zvláště citlivé:
 
 - **Vysoká fascinanční hodnota** — subjekty mohou být přitahováni k expozici dobrovolně, považujíc ji za „intelektuální výzvu“. Operační detaily jsou proto restriktivní.
-- **Klinická náročnost rekonstrukce** — paradoxalní destrukce vyžaduje strukturní intervenci na rovině typové hierarchie subjektova evaluačního aparátu, často s adjuvantní logickou terapií.
-- **Riziko v akademickém prostředí** — studenti filozofie a logiky jsou disproporcionálně exponováni klasickým paradoxům jako legitimní pedagogické materii. Klinická literatura dokumentuje vzácné, ale dobře popsané případy patologické reakce na pedagogickou expozici.
+- **Klinická náročnost rekonstrukce** — paradoxalní destrukce zasahuje typovou hierarchii subjektova evaluačního aparátu, a obnova proto míří na schopnost rozlišovat úrovně evaluace. Doloženou terapeutickou metodu specifickou pro tento obraz kniha nezná; dřívější verze tu bez zdroje doporučovala „adjuvantní logickou terapii“.
+- **Riziko v akademickém prostředí** — studenti filozofie a logiky jsou disproporcionálně exponováni klasickým paradoxům jako legitimní pedagogické materii. Pramen o patologických reakcích na pedagogickou expozici kniha nemá; dřívější verze tu tvrdila, že je klinická literatura dokumentuje, a žádnou neuvedla. Riziko tu proto stojí jako hypotéza k pozornosti vyučujících, ne jako doložený výskyt.
 
 ## Vztah k ostatním kapitolám
 

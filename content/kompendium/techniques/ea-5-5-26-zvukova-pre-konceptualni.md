@@ -105,7 +105,7 @@ Damasio v *The Feeling of What Happens* (1999) konceptualizuje **core consciousn
 
 ## Neurobiologické koreláty
 
-Pre-konceptuální zvuk (před lingvistickým označením) je zpracováván v primárním auditorním kortexu (A1) a STS. Cílí na pravostrannou hemisférickou dominanci pro prozodii a hudební afekt. Limbický systém (amygdala, hippocampus) reaguje na sub-kortikální úrovni dříve než kortex. Tone-deafness studies ukazují, že 4% populace má abnormální levou STG funkci.
+Pre-konceptuální zvuk (před lingvistickým označením) je zpracováván v primárním auditorním kortexu (A1) a STS. Cílí na pravostrannou hemisférickou dominanci pro prozodii a hudební afekt. Limbický systém (amygdala, hippocampus) reaguje na sub-kortikální úrovni dříve než kortex. **Podíl kniha neuvádí**: dřívější verze tu měla podíl populace s odchylkou sluchového zpracování a jeho lokalizaci bez zdroje. Lidé se v citlivosti na zvuk a hudbu přirozeně liší, a samotná neobvyklá reakce na zvuk proto o působení techniky nic nevypovídá.
 
 ## Diferenciální diagnostika
 
@@ -113,11 +113,13 @@ Klinická [diferenciace](@/glossary/diferenciace.md) techniky **zvuková pre-kon
 
 **vs. Psychotické spektrum** (F20–F29 dle MKN-10): Psychotická epizoda zahrnuje *strukturální* narušení [reality testing](@/glossary/reality-testing.md) s halucinacemi a bludy, zatímco EA-5.5.26 produkuje *fenomenologické* narušení pre-predikativní vrstvy bez ztráty reality testing. Klíčová diference: u psychózy subjekt *věří* iluzornímu obsahu jako realitě (delusional conviction); u EA-5.5.26 subjekt *prožívá* narušení, ale meta-kognitivně rozpoznává, že jde o anomální stav. Schneiderovy first-rank symptoms (vkládání myšlenek, ozvučení myšlení) jsou v EA-5.5.26 absentní.
 
-**vs. Disociativní poruchy** (F44): [Disociace](@/glossary/disociace.md) zahrnuje narušení integrace vědomí, paměti a identity (DSM-5 dissociation subscale >10). EA-5.5.26 produkuje narušení *pre-reflexivní* vrstvy, zatímco disociace operuje na úrovni autobiografické paměti a identity. Diagnostický marker: Dissociative Experiences Scale (DES-II) skore >30 indikuje disociační poruchu, ne EA stav.
+**vs. Disociativní poruchy** (F44): [Disociace](@/glossary/disociace.md) zahrnuje narušení integrace vědomí, paměti a identity. EA-5.5.26 produkuje narušení *pre-reflexivní* vrstvy, zatímco disociace operuje na úrovni autobiografické paměti a identity. Ke screeningu disociativních obtíží slouží standardizované škály, například Dissociative Experiences Scale (DES-II); jejich výsledek posuzuje klinik v kontextu celého vyšetření a sám diagnózu nestanoví.
 
-**vs. Mystická zkušenost** (Stace 1960; Hood Mysticism Scale): Mystické zážitky obsahují pozitivní afekt, sense of unity a ineffability. EA-5.5.26 produkuje *negativní* fenomenologii — rozpadnutí, ne sjednocení. Hood M-Scale skore <40 v kombinaci s anxietou diferencuje EA od mystické zkušenosti. James (*Varieties of Religious Experience*, 1902) by EA-5.5.26 klasifikoval jako „anti-mystical“ stav.
+**vs. Mystická zkušenost** (Stace 1960): Mystické zážitky obsahují pozitivní afekt, sense of unity a ineffability. EA-5.5.26 produkuje *negativní* fenomenologii — rozpadnutí, ne sjednocení. Převaha úzkosti a rozpadu nad prožitkem jednoty je hlavním vodítkem odlišení. James (*Varieties of Religious Experience*, 1902) by EA-5.5.26 klasifikoval jako „anti-mystical“ stav.
 
-**vs. [Depersonalizace](@/glossary/depersonalizace.md)/derealizace** (F48.1): DPDR je trvalý nebo recurrent stav odcizení od self/světa. EA-5.5.26 je akutní *induced* stav s definovaným počátkem a koncem. Cambridge Depersonalisation Scale (CDS) skore >70 v posledních 6 měsících indikuje DPDR; akutní EA-5.5.26 se obvykle resolvuje do 24–72h.
+**vs. [Depersonalizace](@/glossary/depersonalizace.md)/derealizace** (F48.1): DPDR je trvalý nebo opakující se stav odcizení od sebe a světa. EA-5.5.26 je akutní *indukovaný* stav s rozpoznatelným počátkem, vázaný na zvukové prostředí. Rozhodující je průběh v čase a vazba na kontext, ne jednorázový výsledek škály.
+
+**Prahy kniha neuvádí**: dřívější verze tu u odlišení od disociace, mystické zkušenosti a depersonalizace měla číselné prahy škál, neexistující „disociační subškálu DSM-5“ a dobu odeznění akutního stavu bez zdroje. Diferenciální rozvaha patří klinikovi, který vychází z celého vyšetření a z platných diagnostických kritérií.
 
 ## Literatura
 

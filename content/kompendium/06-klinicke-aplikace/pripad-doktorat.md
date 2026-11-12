@@ -28,12 +28,12 @@ M. (28 let, muž, doktorand v technicky orientovaném oboru — výpočetní lin
 | **Povaha případu** | kompozit, nikoli záznam o jednom klientovi |
 | **Doména** | Doktorský program, technický obor |
 | **Trvání expozice** | 4 roky (1.→4. ročník PhD) |
-| **Trvání terapie** | 14 měsíců |
-| **Frekvence** | Týdně 50 min |
 | **Manifestované techniky** | EA-1.1.2, EA-1.2.1, EA-1.2.3, EA-1.3.2, EA-1.3.3, EA-1.4.1 + kompoziční vzorce Salami + Trojan |
 | **Komorbidity** | Major depresivní epizoda, suicidální ideace |
-| **Kritická intervence** | Krizová psychiatrická koordinace, hospitalizace v měsíci 2 |
+| **Kritická intervence** | Krizová psychiatrická koordinace, hospitalizace |
 | **Výsledek** | Symptomatická remise, akademický exit, profesní reorientace |
+
+**Rozsah kniha neuvádí**: dřívější verze tu měla délku terapie, četnost sezení a měsíc hospitalizace bez zdroje. Kazuistika popisuje průběh a jeho znaky, ne dávkování léčby.
 
 ## Anamnéza a kontext expozice
 
@@ -91,23 +91,13 @@ Centrální klinický fenomén distinktní od [případu K.](@/kompendium/06-kli
 
 ## Krizová intervence
 
-V měsíci 2 terapie M. eskaloval suicidální ideaci. Aktivace [supervizního prahu 4](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md):
+Brzy po zahájení terapie M. eskaloval suicidální ideaci. Situace přesáhla terapii i supervizi a odpovídala [krizové indikaci klienta](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md): následoval krizový psychiatrický kontakt, dobrovolná hospitalizace, zahájení medikace v rukou psychiatra a koordinovaný návrat do ambulantní terapie. **Lhůty, délku hospitalizace ani léčbu kniha neuvádí**: dřívější verze tu měla časy, počet dní a skupinu léků bez zdroje. O krizové péči rozhoduje ošetřující lékař podle platných postupů, ne kazuistika.
 
-1. Krizový psychiatrický kontakt do 4 hodin
-2. Dobrovolná hospitalizace 14 dní
-3. Antidepresivní medikace (SSRI) zahájena
-4. Koordinovaný přesun na ambulantní terapii s posílenou frekvencí
-
-Po stabilizaci (měsíc 3) byla terapie restrukturována s **explicitní biopsychosociální kotvou** — terapeut, psychiatr, sociální podpora, právní poradenství.
+Po stabilizaci byla terapie restrukturována s **explicitní biopsychosociální kotvou** — terapeut, psychiatr, sociální podpora, právní poradenství.
 
 ## Terapeutická trajektorie
 
-Terapie probíhala 14 měsíců:
-
-- **Měsíce 1-3**: Krizová stabilizace, hospitalizace, medikace
-- **Měsíce 4-7**: Psychoedukace, mapování technik, somatická stabilizace
-- **Měsíce 8-11**: Akademická a právní reorientace, postupný exit
-- **Měsíce 12-14**: Profesní reorientace, konsolidace
+Terapie prošla čtyřmi obdobími. Po krizové stabilizaci s hospitalizací a medikací přišla psychoedukace, mapování technik a somatická stabilizace. Následovala akademická a právní reorientace s postupným odchodem z programu a nakonec profesní reorientace a konsolidace. **Délku období kniha neuvádí**: dřívější verze tu měla rozpis po měsících bez zdroje. Přechod mezi obdobími se v kazuistice řídí stavem klienta, ne kalendářem.
 
 ### Klíčové terapeutické intervence
 
@@ -129,7 +119,7 @@ Terapie probíhala 14 měsíců:
 
 ## Klíčové supervizní rozhodnutí
 
-V měsíci 8 — bod **akademického exitu**: M. zvažoval (1) dokončit disertaci pod prof. R., (2) změnit školitele, (3) opustit doktorát. Supervizní rámec byl explicitně **non-direktivní** — terapeut nedoporučoval žádnou variantu, **strukturoval** rozhodovací rámec s explicitními kritérii, riziky a hodnotami. M. samostatně volil variantu (3) — opuštění doktorátu — po 6 týdnech strukturovaného zvažování.
+V pozdější fázi terapie nastal bod **akademického exitu**: M. zvažoval (1) dokončit disertaci pod prof. R., (2) změnit školitele, (3) opustit doktorát. Supervizní rámec byl explicitně **non-direktivní** — terapeut nedoporučoval žádnou variantu, **strukturoval** rozhodovací rámec s explicitními kritérii, riziky a hodnotami. M. samostatně volil variantu (3) — opuštění doktorátu — po několika týdnech strukturovaného zvažování.
 
 Toto rozhodnutí představovalo **etickou výzvu** klinického rámce: M. opustil 4leté studium, což společensky a profesně mohlo být interpretováno jako „selhání“. Klinické zhodnocení však bylo, že **kontinuace pod prof. R.** by představovala kontinuální re-traumatizaci, a změna školitele uvnitř instituce nebyla strukturálně realistická (dokumentovaná tolerance vzorce).
 
@@ -145,16 +135,16 @@ Po klinické stabilizaci byla aktivována **právní konzultace** ohledně autor
 
 ## Výsledky
 
-Po 14 měsících:
+Na konci terapie:
 
-- **Symptomatická remise** depresivní symptomatiky (PHQ-9 v normě, suicidální ideace neaktivní 9 měsíců)
+- **Symptomatická remise** depresivní symptomatiky (suicidální ideace dlouhodobě neaktivní)
 - **Funkční reintegrace** — M. nastoupil do technické pozice v průmyslu (NLP inženýr, dobré ohodnocení)
 - **Profesní reorientace** — využití technické kompetence mimo akademický rámec
 - **Re-etablování partnerského vztahu**
-- **Kontinuální medikace** v redukované dávce (plánovaný gradual taper)
-- **Konsolidace metakognitivních kotev** — 6-bodový systém (3 osobní, 3 profesní)
+- **Pokračující medikace** pod vedením psychiatra, s plánovaným postupným vysazováním
+- **Konsolidace metakognitivních kotev** — systém osobních i profesních referencí
 
-V follow-up 12 a 24 měsíců po ukončení: stabilní remise, profesní úspěch, **rozhodnutí nepublikovat** o případu (klientova volba).
+Při pozdějších kontrolních kontaktech: stabilní remise, profesní úspěch, **rozhodnutí nepublikovat** o případu (klientova volba). **Hodnoty škál ani termíny kontrol kniha neuvádí**: dřívější verze tu měla výsledek sebeposuzovací škály, délku bez suicidální ideace a rozpis kontrol bez zdroje.
 
 ## Etická a strukturální reflexe
 

@@ -119,11 +119,13 @@ Vulnerabilní klient je často také **svědek** — proti agresorům, proti ins
 
 Klient typicky prochází fázemi:
 
-1. **Akutní zmatek** (často první týdny–měsíce po výstupu);
+1. **Akutní zmatek** bezprostředně po výstupu;
 2. **Hněv vůči skupině**;
 3. **Hluboký smutek** za ztracenou komunitou (může být překvapivě silný);
 4. **Postupná rekonstrukce** non-kultovní identity;
 5. **Integrace** — žít s touto kapitolou, ne ji popírat.
+
+**Trvání fází kniha neuvádí**: dřívější verze tu u první fáze měla časový rozsah bez zdroje. Fáze se překrývají, vracejí a u různých lidí trvají velmi různě dlouho; záleží na délce členství, na tom, zda člověk odešel sám nebo byl vyloučen, a na tom, kolik vztahů mimo skupinu mu zůstalo. Pro klinika je důležitější poznat, ve které fázi klient právě je, než odhadovat, kdy skončí.
 
 #### Specifické intervence
 
@@ -214,7 +216,7 @@ Klient typicky prochází fázemi:
 
 - **Bezpečnostní plán** je **podmínkou** terapie;
 - **Spolupráce s intervenčními centry**, právní podporou;
-- **Dlouhodobá perspektiva** — terapie po závažné EA trvá roky;
+- **Dlouhodobá perspektiva** — terapie po závažné EA bývá dlouhá; konkrétní trvání kniha neuvádí, protože data o něm nejsou;
 - **Skupinová terapie** s jinými přeživšími;
 - **Sebeobhajoba** — klient se učí pojmenovat své zkušenosti, právně i sociálně.
 

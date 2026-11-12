@@ -98,7 +98,7 @@ způsobem, který by mu sděloval jeho skóre nebo ho označoval („vyšel jste
 
 - dvě paralelní studie bez integrace, jen sešité do jednoho článku;
 - kvalitativní složka jako „citáty na dokreslení“ bez vlastní analýzy;
-- kvantifikace kvalitativních dat bez reflexe („70 % účastníků zmínilo…“ u vzorku dvanácti lidí);
+- kvantifikace kvalitativních dat bez reflexe, například procentní podíl účastníků, kteří něco zmínili, vykázaný u vzorku dvanácti lidí;
 - zamlčení rozporů, protože „ruší“ příběh studie.
 
 ## Ilustrativní příklad

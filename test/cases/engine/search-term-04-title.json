@@ -5,7 +5,7 @@
     "hits": [
       {
         "code": null,
-        "in": 275,
+        "in": 276,
         "kind": "Pojem",
         "path": "glossary/disociace.md",
         "tier": 2,
@@ -115,7 +115,7 @@
       },
       {
         "code": "EA-6.5.3",
-        "in": 4,
+        "in": 5,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-6-5-3-psychotic-spektrum-protokol.md",
         "tier": 6,

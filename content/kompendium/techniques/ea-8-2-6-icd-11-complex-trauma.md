@@ -171,8 +171,7 @@ nevyžadují samostatný rámec, který by diagnóza doplňovala.
 
 - [Rezidualní totalitní trauma](@/kompendium/case-studies/09-rezidualni-totalitarni-trauma.md)
   – následky dlouhodobého útlaku.
-- [Cult recovery po 12 letech](@/kompendium/case-studies/06-cult-recovery-12-let.md) –
-  poruchy sebeorganizace po odchodu.
+- [Cult recovery po 12 letech](@/kompendium/case-studies/06-cult-recovery-12-let.md) – poruchy sebeorganizace po odchodu.
 - [Rudí Khmerové](@/kompendium/historical-cases/3-khmer-rouge.md) – historický kontext
   hromadného traumatu bez možnosti úniku.
 

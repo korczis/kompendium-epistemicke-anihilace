@@ -50,7 +50,7 @@ Od vyrovnanosti se vzorec liší tím, že chybí odstíny a že se stav bez sku
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|

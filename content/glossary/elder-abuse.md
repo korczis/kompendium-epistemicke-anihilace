@@ -70,7 +70,7 @@ prezentuje se jako jediný, kdo se o seniora opravdu stará (Lachs a Pillemer, 2
 ## Mechanismus
 
 Strukturně se opakují čtyři vzorce, které Kompendium popisuje i jinde, ale které zde působí
-na člověka se zvýšenou zranitelností. **Izolace** postupně odstraní ty, kdo by si změny
+na člověka se zvýšenou zranitelností. Izolace postupně odstraní ty, kdo by si změny
 všimli, a zvyšuje závislost na jedné osobě; sociální izolace je u zneužívání seniorů
 opakovaně doloženým rizikovým faktorem (Pillemer et al., 2016). Souvislosti popisuje heslo
 [sociální izolace](@/glossary/socialni-izolace.md).

@@ -147,7 +147,7 @@ výkladu je stejná, ať je obsah nevinný, nebo nebezpečný.
 
 ## Indikátory úspěchu
 
-Validované normy kritického myšlení ve vztahu k EA **neexistují**. Programy mohou použít ověřené
+Validované normy kritického myšlení ve vztahu k EA neexistují. Programy mohou použít ověřené
 testy kritického myšlení (například California Critical Thinking Skills Test) s vědomím jejich
 omezení a stanovit si cíle podle výchozího stavu. Smysl má sledovat:
 

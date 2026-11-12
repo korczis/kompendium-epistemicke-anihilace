@@ -17,7 +17,7 @@ access_level = "L3-L4"
 
 # Kapitola 8 — Hypertransformativní protokoly
 
-> 🚨 **Přístupová úroveň L3–L4**. Kapitola popisuje **30 ultramárních technik** ([EA-5.3.1](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md) až 5.3.30) operujících na rovině [identity poznávajícího subjektu](@/glossary/epistemicka-alienace.md). Materiály vyžadují IRB autorizaci a etickou supervizi. Veřejně dostupné jsou výhradně **kompaktní taxonomické popisy** s 60–100 slovními deskripcemi — operační detaily, plné fenomenologické profily a rekonstruktivní protokoly jsou v restriktivních L4 přílohách. Plné per-technique články pro EA-5.3.* jsou v přípravné fázi a publikovány budou až po dokončení etické supervize.
+> 🚨 **Přístupová úroveň L3–L4**. Kapitola popisuje 30 ultramárních technik ([EA-5.3.1](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md) až 5.3.30) operujících na rovině [identity poznávajícího subjektu](@/glossary/epistemicka-alienace.md). Materiály vyžadují IRB autorizaci a etickou supervizi. Veřejně dostupné jsou výhradně kompaktní taxonomické popisy s 60–100 slovními deskripcemi — operační detaily, plné fenomenologické profily a rekonstruktivní protokoly jsou v restriktivních L4 přílohách. Plné per-technique články pro EA-5.3.* jsou v přípravné fázi a publikovány budou až po dokončení etické supervize.
 
 ## Pozice kapitoly
 
@@ -102,7 +102,7 @@ Klastr cílí na **ontogenetickou kontinuitu** — zkušenost vlastního vývoje
 
 ## Klastr F — Rekurzivní hypertransformace (EA-5.3.26 až 5.3.30)
 
-Poslední klastr je **integrativní**. Techniky 5.3.26 až 5.3.29 kombinují předchozí klastry do koherentních sekvencí; technika 5.3.28 představuje **vrcholovou kompozici**.
+Poslední klastr je integrativní. Techniky 5.3.26 až 5.3.29 kombinují předchozí klastry do koherentních sekvencí; technika 5.3.28 představuje **vrcholovou kompozici**.
 
 | Kód | Název | Kompaktní deskripce |
 |-----|-------|---------------------|
@@ -179,8 +179,8 @@ V následující [Kapitole 9](@/kompendium/05-ultramari-techniky/kapitola-9.md) 
 **Ultramární techniky jsou L3 (omezený přístup)**: nejsou určeny k
 obecnému studiu. Před četbou potvrď, že:
 
-- Máš **kvalifikovanou supervizní vazbu** (klinickou nebo doktrinální)
-- Máš **dokumentovaný důvod** ke studiu konkrétní techniky (forenzní analýza,
+- Máš kvalifikovanou supervizní vazbu (klinickou nebo doktrinální)
+- Máš dokumentovaný důvod ke studiu konkrétní techniky (forenzní analýza,
   klinická intervence, doktrinální výzkum)
 - Sleduješ [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   vlastního stavu (sebepozorovací rámec)

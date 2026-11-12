@@ -36,7 +36,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 **Logická diskontinuita** je indukovaná neschopnost subjektu **udržet logické řetězce** přes více inferenciálních kroků. Každý dílčí krok působí v izolaci **validně**, avšak řetězec jako celek **nekomponuje** — z premis A → B → C → D, kde každý šíp je akceptován, subjekt **nedospívá** k závěru „A → D“ a ani k jeho negaci. Inference se „rozpadá“ mezi kroky.
 
-Klíčový distinktivní znak — logická diskontinuita není pouhá iracionalita. Subjekt v každý jednotlivý okamžik **provádí** logické úvahy. Problém je strukturální: **kompoziční** krok, který spojuje dílčí inference do uceleného argumentu, je systematicky narušený. Subjekt **vidí** krok 1, **vidí** krok 2, ale **nedrží** současně oba dostatečně dlouho na to, aby je **složil**.
+Klíčový distinktivní znak — logická diskontinuita není pouhá iracionalita. Subjekt v každý jednotlivý okamžik **provádí** logické úvahy. Problém je strukturální: **kompoziční** krok, který spojuje dílčí inference do uceleného argumentu, je systematicky narušený. Subjekt vidí krok 1, vidí krok 2, ale **nedrží** současně oba dostatečně dlouho na to, aby je **složil**.
 
 Technika exploituje pracovní paměť a sekvenční kapacity vědomí: dlouhodobá expozice fragmentaci, distrakci, nárazovým „insight“ zážitkům a paradoxním afirmacím destabilizuje schopnost mentálně **udržet** komplexní řetězec dostatečně dlouho na jeho **vyhodnocení**.
 
@@ -54,10 +54,10 @@ Detekční markery zachycené na této stránce odpovídají téže struktuře: 
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** logické diskontinuity:
+Co prožívá subjekt uvnitř logické diskontinuity:
 
 - **Mentální únava** při pokusu o dlouhý argument — „zamotám se, ztratím se“
-- **Insight bez retence** — dojem, že právě „pochopil“, ale následně nedokáže rekonstruovat **co**
+- **Insight bez retence** — dojem, že právě „pochopil“, ale následně nedokáže rekonstruovat co
 - **Lokální komfort, globální nejistota** — každý jednotlivý krok je akceptovatelný, celek je ale **nějak špatně**, aniž by uměl identifikovat kde
 - **Aversie vůči formálním systémům** — logika, matematika, formální argumentace prožívána jako „tlačivé“, „redukující“
 - **Pseudo-mystická legitimace** — pocit, že rozpor je projev „vyšší pravdy“, nikoli vady úvahy
@@ -80,11 +80,11 @@ Co prožívá subjekt **uvnitř** logické diskontinuity:
 
 Logická diskontinuita je odlišitelná od:
 
-- **Limitované formální vzdělání** — subjekt chybuje v inferenci, ale **uznává** chybu při explikaci. Diskontinuovaný subjekt **odmítá** nebo **reinterpretuje** rozpor.
+- **Limitované formální vzdělání** — subjekt chybuje v inferenci, ale **uznává** chybu při explikaci. Diskontinuovaný subjekt odmítá nebo **reinterpretuje** rozpor.
 - **Dyslexie či ADHD** — neurologické pozadí; obtíž je v **udržení pozornosti**, ne v devaluaci inference. Subjekt obvykle **pracuje proti** vlastnímu deficitu, nikoli s ním.
-- **[EA-1.3.2 Pseudo-empirická validace](@/kompendium/techniques/ea-1-3-2-pseudo-empiricka-validace.md)** — chyba je v **evidenci**, nikoli v inferenci; subjekt **udržuje** schopnost komponovat řetězce, jen je krmen falešnými premisami.
+- **[EA-1.3.2 Pseudo-empirická validace](@/kompendium/techniques/ea-1-3-2-pseudo-empiricka-validace.md)** — chyba je v **evidenci**, nikoli v inferenci; subjekt udržuje schopnost komponovat řetězce, jen je krmen falešnými premisami.
 - **[EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md)** — vnější přerušování, ne strukturální destrukce kapacity.
-- **Filosofická skepse vůči klasické logice** (parakonzistentní logiky, kvantová logika) — explicitní, formální, **udržuje** schopnost rozlišovat. Diskontinuovaný subjekt naopak operuje v deficitu.
+- **Filosofická skepse vůči klasické logice** (parakonzistentní logiky, kvantová logika) — explicitní, formální, udržuje schopnost rozlišovat. Diskontinuovaný subjekt naopak operuje v deficitu.
 
 ## Rizikové kontexty
 
@@ -134,7 +134,7 @@ Pracovní paměť je biologicky závislá na spánku. Strukturální diskontinui
 
 ### Případ 1 — Pokročilý retreat kontext
 
-Účastník 30denního programu s minimálním spánkem reportoval po skončení, že „konečně pochopil“. Po měsíci nedokázal rekonstruovat **co**. Při explicitní konfrontaci přijímal vzájemně rozporné metafyzické pozice („vědomí je pouze konstruktem ega“ **a** „vědomí je primárně danost“). Detekce: terapeut formálního zázemí identifikoval logickou diskontinuitu po požadavku na strukturovaný argument. Reverzace: 6 měsíců strukturovaného **psaní** argumentů ve formálním rámci.
+Účastník 30denního programu s minimálním spánkem reportoval po skončení, že „konečně pochopil“. Po měsíci nedokázal rekonstruovat co. Při explicitní konfrontaci přijímal vzájemně rozporné metafyzické pozice („vědomí je pouze konstruktem ega“ **a** „vědomí je primárně danost“). Detekce: terapeut formálního zázemí identifikoval logickou diskontinuitu po požadavku na strukturovaný argument. Reverzace: 6 měsíců strukturovaného **psaní** argumentů ve formálním rámci.
 
 ### Případ 2 — Akademický kontext
 
@@ -155,12 +155,12 @@ Klient po 18 měsících intenzivního programu spontánně přijímal výroky t
 
 ### Eskaluje do
 
-- **Terminální protokoly** ([Kapitola 4](@/kompendium/04-terminalni-protokoly/_index.md)) — pokročilá diskontinuita je jednou z podmínek pro **strukturální** epistemický kolaps.
+- **Terminální protokoly** ([Kapitola 4](@/kompendium/04-terminalni-protokoly/_index.md)) — pokročilá diskontinuita je jednou z podmínek pro strukturální epistemický kolaps.
 - **[Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)** — subjekt ztrácí schopnost reflektovat vlastní inferenciální procesy.
 
 ### Distinktivní vůči
 
-- **Parakonzistentní logiky** — formální, vědomé akceptace lokálních rozporů s **explicitními** strukturami pro jejich kontrolu. Logická diskontinuita je naopak **strukturální deficit** bez kontrolních mechanismů.
+- **Parakonzistentní logiky** — formální, vědomé akceptace lokálních rozporů s **explicitními** strukturami pro jejich kontrolu. Logická diskontinuita je naopak strukturální deficit bez kontrolních mechanismů.
 
 ## Související
 

@@ -20,7 +20,7 @@ Tato kapitola poskytuje **fundamentální konceptuální vymezení** fenoménů 
 
 ## Epistemická anihilace: konceptuální vymezení
 
-> **Epistemická anihilace** je systematický, cílený a graduální proces destrukce epistemických struktur jedince nebo skupiny, vedoucí k fundamentálnímu narušení schopnosti **poznávat**, **evaluovat**, **integrovat** a **využívat informace** způsobem umožňujícím konstrukci koherentního a adekvátního obrazu reality.
+> **Epistemická anihilace** je systematický, cílený a graduální proces destrukce epistemických struktur jedince nebo skupiny, vedoucí k fundamentálnímu narušení schopnosti **poznávat**, **evaluovat**, integrovat a **využívat informace** způsobem umožňujícím konstrukci koherentního a adekvátního obrazu reality.
 
 Na rozdíl od běžných epistemických distorzí (dílčích zkreslení v jinak funkčním poznávacím aparátu) zasahuje epistemická anihilace **samotné fundamentální struktury**, které poznávání umožňují. Jde o **meta-epistemické poškození** — destrukci mechanismů formování, revize a justifikace přesvědčení jako takových. Subjekt postižený běžnou distorzí stále disponuje funkčním aparátem, jen nese specifické chyby v jeho výstupech; subjekt postižený epistemickou anihilací nemá funkční aparát, kterým by chyby identifikoval či opravil.
 
@@ -110,7 +110,7 @@ V reálných případech se tyto fenomény typicky kombinují — totalitní ind
 | **3. Avansovaná (strukturální) fáze** | Pervasivní narušení většiny epistemických a kognitivních funkcí; závažně kompromitované metakognitivní povědomí; absence funkčních kompenzačních mechanismů; etablovaná autoamplifikační dynamika | Persistentní dysfunkce; etablovaný epistemický [solipsismus](@/glossary/solipsismus.md) nebo radikální doxastická rigidita; prominentní epistemická disociace a kognitivní fragmentace; závažné narušení sociálního a pracovního fungování |
 | **4. Terminální fáze** | Komplexní kolaps epistemických a kognitivních struktur; absence metakognitivního povědomí; aktivní autoamplifikace anihilačních procesů; ireverzibilní strukturální poškození; potřeba externí epistemické rekonstrukce | Totální epistemická dezintegrace; kognitivní pandémonium; fundamentální narušení kapacity konstituovat koherentní obraz reality; komplexní kolaps adaptivního fungování ve všech doménách |
 
-Graduální klasifikace **není** ekvivalentní časové ose — některé subjekty zůstávají stabilně v incipiální fázi po desetiletí, jiné akcelerují přes všechny stupně během měsíců (zvláště v intenzivně manipulativních prostředích). Klíčovým prediktorem progrese není čas, ale **přítomnost autoamplifikačních mechanismů** a **dostupnost protektivních epistemických zdrojů**. Tato klasifikace tak není pouze deskriptivním nástrojem, ale má významné implikace pro diagnostický proces, terapeutickou strategii a prognostické úvahy v klinické praxi.
+Graduální klasifikace není ekvivalentní časové ose — některé subjekty zůstávají stabilně v incipiální fázi po desetiletí, jiné akcelerují přes všechny stupně během měsíců (zvláště v intenzivně manipulativních prostředích). Klíčovým prediktorem progrese není čas, ale **přítomnost autoamplifikačních mechanismů** a **dostupnost protektivních epistemických zdrojů**. Tato klasifikace tak není pouze deskriptivním nástrojem, ale má významné implikace pro diagnostický proces, terapeutickou strategii a prognostické úvahy v klinické praxi.
 
 ## Diferenciální diagnostika
 

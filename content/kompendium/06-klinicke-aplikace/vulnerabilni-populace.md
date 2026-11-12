@@ -32,13 +32,13 @@ Před specifickými skupinami formulujeme **společné zásady**:
 
 ### Princip 1: Nepatologizovat reziduální adaptaci
 
-Klient přicházející z EA-prostředí typicky vykazuje **adaptivní strategie**, které byly v původním kontextu **funkční** (ostražitost, disociativní mechanismy, externí kotvení reality). Klinik nesmí tyto strategie **patologizovat** — musí je rozpoznat jako **inteligentní odpovědi na nemožné podmínky** a **postupně** je nahrazovat.
+Klient přicházející z EA-prostředí typicky vykazuje **adaptivní strategie**, které byly v původním kontextu funkční (ostražitost, disociativní mechanismy, externí kotvení reality). Klinik nesmí tyto strategie **patologizovat** — musí je rozpoznat jako **inteligentní odpovědi na nemožné podmínky** a **postupně** je nahrazovat.
 
 ### Princip 2: Explicitní mocenská transparence
 
-V populacích s historií systematického zneužití moci je **každá** mocenská asymetrie potenciálně reinscenací útoku. Klinik:
+V populacích s historií systematického zneužití moci je každá mocenská asymetrie potenciálně reinscenací útoku. Klinik:
 
-- **Explicitně** tematizuje vlastní pozici;
+- Explicitně tematizuje vlastní pozici;
 - Sděluje **limity** vlastní role;
 - Pravidelně **zve** klientovu kritiku terapeutického vztahu;
 - Vyhýbá se **dvojím rolím** (např. terapeut + soudní znalec).
@@ -57,7 +57,7 @@ Klinická práce s vulnerabilní populací **vyžaduje** koordinaci se sociáln�
 
 ### Princip 5: Etika svědectví
 
-Vulnerabilní klient je často také **svědek** — proti agresorům, proti institucím, proti systémům. Diagnóza EA **nesmí** delegitimizovat svědectví. Klinik musí být schopen separovat **klinickou diagnózu** a **forenzní validitu** klientovy výpovědi.
+Vulnerabilní klient je často také **svědek** — proti agresorům, proti institucím, proti systémům. Diagnóza EA nesmí delegitimizovat svědectví. Klinik musí být schopen separovat **klinickou diagnózu** a **forenzní validitu** klientovy výpovědi.
 
 ## Skupina 1: Děti a adolescenti
 
@@ -100,7 +100,7 @@ Vulnerabilní klient je často také **svědek** — proti agresorům, proti ins
 
 - **Souhlas a důvěrnost** — kdo je „klientem“? Dítě? Rodič? Soud?
 - **Ochrana před rodičem-agresorem** — koordinace s OSPOD, sociálními službami;
-- **Soudní rozvodová řízení** — terapie nesmí být **používána** jako důkaz proti druhému rodiči **bez** odborné soudní expertízy;
+- **Soudní rozvodová řízení** — terapie nesmí být **používána** jako důkaz proti druhému rodiči bez odborné soudní expertízy;
 - **Dlouhodobá podpora** — děti potřebují **kontinuální** sledování, nikoli jednorázovou intervenci.
 
 ## Skupina 2: Post-kult klienti
@@ -139,13 +139,13 @@ Klient typicky prochází fázemi:
 
 - **Fáze S1** — důraz na validaci ambivalence, pomalá psychoedukace;
 - **Fáze S2** — typicky **dlouhá** — mnoho introjektů z kultovní teologie/ideologie;
-- **Fáze S3** — postupná obnova kritického myšlení **bez** ataku na celou skupinovou narrativu naráz;
-- **Fáze S4** — obnova hermeneutické flexibility — schopnosti vidět **různé** interpretace;
+- **Fáze S3** — postupná obnova kritického myšlení bez ataku na celou skupinovou narrativu naráz;
+- **Fáze S4** — obnova hermeneutické flexibility — schopnosti vidět různé interpretace;
 - **Fáze S5** — re-integrace do širší společnosti, profesní rekonstrukce.
 
 ### Etika
 
-- **Ne-deprogramming** — terapeut **není** „decoder“ či „rescuer“;
+- **Ne-deprogramming** — terapeut není „decoder“ či „rescuer“;
 - **Respekt k zbytkovým hodnotám** — některé hodnoty z kultu mohou být legitimní;
 - **Klient určuje tempo** — ne terapeut, ne rodina, ne média;
 - **Nezveřejňování** — opatrnost s kontaktem médií, dokumentaristů.
@@ -245,7 +245,7 @@ Klinik pracující ve **vulnerabilní populaci** musí být ostražitý vůči:
 
 Práce s touto populací nese **vysoké riziko vicarious trauma a EA-přenosu** na klinika samotného. Doporučení:
 
-- **Pravidelná supervize** s kolegou specializovaným na trauma;
+- Pravidelná supervize s kolegou specializovaným na trauma;
 - **Peer-konzultace** — pravidelné případové konzultace;
 - **Vlastní psychoterapie**;
 - **Limitace zátěže** — počet „vysoce komplexních“ případů paralelně;

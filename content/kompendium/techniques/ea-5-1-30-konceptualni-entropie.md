@@ -52,7 +52,7 @@ Detekční markery zachycené na této stránce odpovídají téže struktuře: 
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** konceptuální entropie:
+Co prožívá subjekt uvnitř konceptuální entropie:
 
 - **Difúzní pocit hlubokého porozumění** — subjekt prožívá rozmazání jako „překonání umělých hranic“
 - **Kognitivní únava při pokusu o klasifikaci** — třídění, definice, srovnávání působí *namáhavě*
@@ -106,7 +106,7 @@ Subjekt periodicky provede inventarizaci **klíčových distinkcí**: u každéh
 
 #### 2. **Strukturní jazyková disciplína**
 
-Volba **přesných termínů** namísto mlhavých syntagmat. Cvičení: vyhýbat se *„jakoby“*, *„v jistém smyslu“*, *„nějak“* a místo nich artikulovat **konkrétní** distinkci.
+Volba **přesných termínů** namísto mlhavých syntagmat. Cvičení: vyhýbat se *„jakoby“*, *„v jistém smyslu“*, *„nějak“* a místo nich artikulovat konkrétní distinkci.
 
 #### 3. **Externí konceptuální triangulace**
 

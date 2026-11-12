@@ -36,7 +36,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-6/"
 
 **Meta-epistemická redukce** je technika **sloučení všech epistemických standardů** subjektu (logické konzistence, empirické verifikace, koherence se zkušeností, intersubjektivní validace, fenomenologické evidence atd.) do **jediného nadřazeného meta-standardu** dodaného manipulátorem — typicky autorita-závislého standardu typu *„pravdivé je, co potvrzuje vůdce / posvátný text / hnutí“*. Subjekt po proběhlé redukci **nedokáže oddělit** otázku *„je to pravda?“* od otázky *„potvrzuje to autorita?“* — obě otázky se stávají **fenomenologicky identické**.
 
-Klíčový rozdíl proti běžné autoritativní deference spočívá ve **strukturálním kolapsu**: zatímco normální vztah k autoritě udržuje **paralelně** vlastní epistemické standardy (mohu věřit autoritě a zároveň mít kritérium, jímž ji eventuálně přehodnotím), meta-epistemická redukce **eliminuje** existenci paralelních standardů. Mimo meta-standard **neexistuje** epistemický prostor.
+Klíčový rozdíl proti běžné autoritativní deference spočívá ve **strukturálním kolapsu**: zatímco normální vztah k autoritě udržuje **paralelně** vlastní epistemické standardy (mohu věřit autoritě a zároveň mít kritérium, jímž ji eventuálně přehodnotím), meta-epistemická redukce **eliminuje** existenci paralelních standardů. Mimo meta-standard neexistuje epistemický prostor.
 
 Meta-epistemická redukce je **terminálním stavem** epistemické singularity — kombinace všech předchozích technik kapitoly konverguje k tomuto bodu.
 
@@ -52,7 +52,7 @@ Detekční markery zachycené na této stránce odpovídají téže struktuře: 
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** meta-epistemické redukce:
+Co prožívá subjekt uvnitř meta-epistemické redukce:
 
 - **Fenomenologická transparentnost** otázek pravdy — *„jestli je to pravda, vím okamžitě“*
 - **Eliminace epistemické úzkosti** — chronické nejistoty mizí, výměnou za absolutní jistotu vůči zdroji
@@ -101,7 +101,7 @@ Diagnostický test: požádej subjekt o popis **hypotetické situace**, kdy by s
 
 #### 1. Pluralizace epistemické gramatiky
 
-Cíleně udržovat **více** epistemických standardů a pravidelně se ptát na každý zvlášť: *„Je to logicky konzistentní?“*, *„Je to empiricky podložené?“*, *„Souhlasí s mojí přímou zkušeností?“*, *„Co by řekl odpůrce?“*. Cíl: udržet **strukturální** pluralitu.
+Cíleně udržovat více epistemických standardů a pravidelně se ptát na každý zvlášť: *„Je to logicky konzistentní?“*, *„Je to empiricky podložené?“*, *„Souhlasí s mojí přímou zkušeností?“*, *„Co by řekl odpůrce?“*. Cíl: udržet strukturální pluralitu.
 
 #### 2. Hypotetický falsifikační test
 
@@ -109,7 +109,7 @@ Pravidelně si vůči **každému** přesvědčení (zejména vůči těm, kter�
 
 #### 3. Externí autoritativní triangulace
 
-Vystavovat klíčová přesvědčení **více** autoritám z **různých** epistemických rodin. Ne shoda mezi nimi (ta je často znakem sdíleného filtru), ale **diversita produktivního nesouhlasu**.
+Vystavovat klíčová přesvědčení více autoritám z **různých** epistemických rodin. Ne shoda mezi nimi (ta je často znakem sdíleného filtru), ale **diversita produktivního nesouhlasu**.
 
 #### 4. Inhibice „konečných“ rámců
 

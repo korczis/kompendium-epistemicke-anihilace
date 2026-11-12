@@ -24,7 +24,7 @@ Když o jednom člověku nebo instituci během dvou dnů napíše desítka médi
 o tři různé věci: o skutečně významnou zprávu převzatou od agentury, o „smečkovou“ novinařinu,
 kdy redakce jen přebírají rámec nejrychlejšího, nebo o
 [koordinovanou kampaň](@/kompendium/techniques/ea-2-3-4-mob-coordination.md). Zvenčí vypadají
-všechny tři podobně, protože rozhodující není obsah zpráv, nýbrž shodný **rámec** – soubor výběrů,
+všechny tři podobně, protože rozhodující není obsah zpráv, nýbrž shodný rámec – soubor výběrů,
 který určuje, co je na události podstatné, kdo je viník a jaké hodnocení se nabízí jako
 samozřejmé (Entman, 1993). Scénář učí tyto tři možnosti odlišit podle časové osy, původu a
 rámování a ukazuje, proč na rozlišení záleží pro obranu i pro poctivost analytika.

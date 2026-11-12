@@ -29,7 +29,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-6/"
 | **Subkategorie** | 5.1 [Epistemická singularita](@/glossary/epistemicka-singularita.md) |
 | **Přístupová úroveň** | L4 (ultramarinní — vyžaduje supervizi) |
 | **Riziková úroveň** | Ultramarinní — vede k úplné izolaci subjektu od reality |
-| **Reverzibilita** | Mimořádně nízká — solipsisticky uzavřený subjekt **odmítá** externí referenty jako "iluzorní" |
+| **Reverzibilita** | Mimořádně nízká — solipsisticky uzavřený subjekt odmítá externí referenty jako "iluzorní" |
 | **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md) |
 
 ## Definice
@@ -52,7 +52,7 @@ Detekční markery zachycené na této stránce odpovídají téže struktuře: 
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** solipsistické dekompozice:
+Co prožívá subjekt uvnitř solipsistické dekompozice:
 
 - **Pocit „filozofické hloubky“** — subjekt si myslí, že rozumí podstatě reality
 - **Emocionální plochost** — události vnějšího světa přestávají vyvolávat reakci

@@ -50,7 +50,7 @@ hodnotou, jak Sen ukazuje zejména na aktérství žen (Sen, 1999).
 
 ## Pět instrumentálních svobod
 
-Svoboda má v *Development as Freedom* dvojí roli. **Konstitutivní** roli hraje jako cíl
+Svoboda má v *Development as Freedom* dvojí roli. Konstitutivní roli hraje jako cíl
 rozvoje, **instrumentální** roli jako prostředek, který k dalším svobodám vede (Sen, 1999).
 Sen jmenuje pět instrumentálních svobod, které se navzájem podporují: politické svobody
 včetně svobody projevu a svobodných voleb, ekonomické příležitosti, sociální příležitosti

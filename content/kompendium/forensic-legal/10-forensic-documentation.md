@@ -24,8 +24,8 @@ kdo jej vyslovil.
 
 ## Právní a forenzní kontext
 
-Forenzní dokumentace je soubor záznamů, z nichž lze zpětně rekonstruovat, **co** bylo
-zjištěno, **jak** a **od koho**. Zahrnuje zadání, seznam podkladů, záznamy rozhovorů a
+Forenzní dokumentace je soubor záznamů, z nichž lze zpětně rekonstruovat, co bylo
+zjištěno, jak a **od koho**. Zahrnuje zadání, seznam podkladů, záznamy rozhovorů a
 vyšetření, výsledky testů, korespondenci se zadavatelem a výsledný posudek. Zákon
 č. 254/2019 Sb., o znalcích, ukládá znalci vést evidenci posudků a uchovávat podklady;
 posudek musí obsahovat popis zkoumaného materiálu, použité metody a odůvodnění závěrů a

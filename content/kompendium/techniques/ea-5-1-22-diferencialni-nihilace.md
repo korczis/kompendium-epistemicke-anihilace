@@ -52,7 +52,7 @@ Detekční markery zachycené na této stránce odpovídají téže struktuře: 
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** diferenciální nihilace:
+Co prožívá subjekt uvnitř diferenciální nihilace:
 
 - **Pocit zjednodušení** — „věci jsou jasnější, než jsem si myslel“
 - **Snížená reflexivní zátěž** — méně rozhodování, méně pochybností
@@ -60,7 +60,7 @@ Co prožívá subjekt **uvnitř** diferenciální nihilace:
 - **Postupná indiference** vůči případům, jež dříve volaly po pečlivém rozboru
 - **Lingvistické zhrubnutí** — ubývání **terminologické přesnosti** ve vlastním projevu
 - **Diskomfort** při konfrontaci s textem, který distinkce **stále drží** — text je prožíván jako „zbytečně komplikovaný“
-- V pokročilém stadiu **inkapacita** rekonstruovat distinkce, i když je o ně subjekt explicitně požádán
+- V pokročilém stadiu inkapacita rekonstruovat distinkce, i když je o ně subjekt explicitně požádán
 
 V kombinaci s [EA-1.4.2 latentní emocionální modulací](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) může subjektivní úleva eskalovat do **aktivní averze** vůči jemně členěnému diskurzu.
 
@@ -80,7 +80,7 @@ V kombinaci s [EA-1.4.2 latentní emocionální modulací](@/kompendium/techniqu
 
 Diferenciální nihilace je odlišitelná od **legitimní teoretické integrace**:
 
-- **Legitimní integrace** vede k **bohatším** kategoriím, jež dovedou **více** rozlišovat (sjednocení, které **dělí jemněji**).
+- **Legitimní integrace** vede k **bohatším** kategoriím, jež dovedou více rozlišovat (sjednocení, které **dělí jemněji**).
 - **Diferenciální nihilace** vede k **chudším** kategoriím, jež dovedou **méně** rozlišovat (sjednocení, které **přestává dělit**).
 
 ## Rizikové kontexty
@@ -104,11 +104,11 @@ Periodicky srovnávej **současný** slovník s **dřívějším**. Ubývají te
 
 #### 2. **Cvičení v hraniční artikulaci**
 
-Pravidelně se vyjadřuj k případům, kde A je velmi blízko B, a přesně artikuluj, **proč** je to A, nikoli B. Cvičení rekonstruuje rozlišovací aparát i tam, kde se jeho aktivace již zdá zbytečná.
+Pravidelně se vyjadřuj k případům, kde A je velmi blízko B, a přesně artikuluj, proč je to A, nikoli B. Cvičení rekonstruuje rozlišovací aparát i tam, kde se jeho aktivace již zdá zbytečná.
 
 #### 3. **Diversifikace zdrojů**
 
-Texty z **různých disciplín** drží **různé** distinkce. Filosofická tradice rozlišuje jinak než sociologie, ta jinak než právní věda. Cizí distinkce odhalují absenci vlastních.
+Texty z **různých disciplín** drží různé distinkce. Filosofická tradice rozlišuje jinak než sociologie, ta jinak než právní věda. Cizí distinkce odhalují absenci vlastních.
 
 #### 4. **Strategická pedanterie**
 

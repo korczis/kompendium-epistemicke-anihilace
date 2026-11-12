@@ -26,8 +26,8 @@ toc = false
 Imre Lakatos (1970) navrhl jako prostřední cestu mezi Popperovým falzifikacionismem a Kuhnovým
 pojetím paradigmat. Vědu podle něj netvoří izolované teorie, ale programy s **tvrdým jádrem**
 základních předpokladů, které se nezpochybňují, a **ochranným pásem** pomocných hypotéz, které se
-upravují, když pozorování nesouhlasí. Program je **progresivní**, pokud úpravy vedou k novým
-předpovědím, které se potvrdí; **degenerující**, pokud jen dodatečně vysvětlují selhání.
+upravují, když pozorování nesouhlasí. Program je progresivní, pokud úpravy vedou k novým
+předpovědím, které se potvrdí; degenerující, pokud jen dodatečně vysvětlují selhání.
 
 Pro knihu je rozlišení progresivních a degenerujících programů praktickým nástrojem. Umožňuje
 posoudit systémy přesvědčení – ideologie, skupinové doktríny, terapeutické školy, konspirační

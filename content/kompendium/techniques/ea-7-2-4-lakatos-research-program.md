@@ -42,8 +42,8 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/"
 jednotka hodnocení vědy: nikoli jednotlivá hypotéza, ale posloupnost teorií spojených
 **tvrdým jádrem** (základní předpoklady, které program nevystavuje vyvrácení) a **ochranným
 pásem** pomocných hypotéz, které se upravují, když teorie narazí na protipříklad. Program je
-**progresivní**, když úpravy vedou k novým, později potvrzeným předpovědím; je
-**degenerující**, když jen dodatečně vysvětluje to, co se už stalo.
+progresivní, když úpravy vedou k novým, později potvrzeným předpovědím; je
+degenerující, když jen dodatečně vysvětluje to, co se už stalo.
 
 Kompendium rozlišení používá k odlišení legitimních tradic (věda, terapeutické školy,
 náboženství s otevřenou reflexí) od doktrín, jejichž ochranný pás slouží jen k tomu, aby

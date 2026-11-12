@@ -50,7 +50,7 @@ Od rizikové, ale skutečně zvolené praxe se vzorec liší tím, že riziko ne
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|

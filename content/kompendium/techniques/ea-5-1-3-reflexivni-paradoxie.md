@@ -56,7 +56,7 @@ Detekční markery zachycené na této stránce odpovídají téže struktuře: 
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** reflexivní paradoxie:
+Co prožívá subjekt uvnitř reflexivní paradoxie:
 
 | Znak | Popis |
 |------|-------|
@@ -68,7 +68,7 @@ Co prožívá subjekt **uvnitř** reflexivní paradoxie:
 | **Strach z vlastního přesvědčení** | Subjekt se učí **neformulovat** přesvědčení, protože každé je následováno meta-otázkou |
 | **Estetizace nerozhodnutelnosti** | V raných stadiích subjekt prožívá paradoxnost jako sofistikaci — "konečně myslím dostatečně hluboko" |
 
-V pokročilých stadiích kombinace s [konceptuální nihilací](@/kompendium/techniques/ea-5-1-2-konceptualni-nihilace.md) způsobuje, že subjekt **nedokáže** ani formulovat otázku, jestli má manipulátorovi věřit — pojem *věřit* je destabilizován a metakognitivní operace, která by ho aplikovala, je paralyzována.
+V pokročilých stadiích kombinace s [konceptuální nihilací](@/kompendium/techniques/ea-5-1-2-konceptualni-nihilace.md) způsobuje, že subjekt nedokáže ani formulovat otázku, jestli má manipulátorovi věřit — pojem *věřit* je destabilizován a metakognitivní operace, která by ho aplikovala, je paralyzována.
 
 ## Detekční markery (pohled pozorovatele)
 
@@ -122,7 +122,7 @@ Při akutním kognitivním zamrznutí přechází subjekt na **pre-reflexivní**
 
 #### 4. **Externí dialogický partner mimo manipulační rámec**
 
-Subjekt vede pravidelný dialog s důvěryhodným partnerem **mimo** manipulační rámec, který demonstruje **operativní úsudek bez paradoxního zhroucení**. Tento partner slouží jako kalibrační referent legitimní metakognice.
+Subjekt vede pravidelný dialog s důvěryhodným partnerem mimo manipulační rámec, který demonstruje **operativní úsudek bez paradoxního zhroucení**. Tento partner slouží jako kalibrační referent legitimní metakognice.
 
 #### 5. **Časově ohraničená reflexe**
 

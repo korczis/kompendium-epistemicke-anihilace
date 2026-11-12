@@ -18,8 +18,8 @@ keywords = ["PTSD", "posttraumatická stresová porucha", "DSM-5", "MKN-11", "IC
 
 Podle **DSM-5** (Americká psychiatrická asociace, 2013) jde o čtyři skupiny příznaků trvající déle než jeden měsíc:
 
-1. **intruze** – nechtěné vtíravé vzpomínky, noční můry, flashbacky, silné reakce na připomínky;
-2. **vyhýbání** – vyhýbání se vzpomínkám, myšlenkám, místům a lidem spojeným s událostí;
+1. intruze – nechtěné vtíravé vzpomínky, noční můry, flashbacky, silné reakce na připomínky;
+2. vyhýbání – vyhýbání se vzpomínkám, myšlenkám, místům a lidem spojeným s událostí;
 3. **negativní změny myšlení a nálady** – přesvědčení o sobě a světě („nikomu nelze věřit“), sebeobviňování, trvalé negativní emoce, odcizení, neschopnost prožívat pozitivní emoce;
 4. **změny vzrušivosti a reaktivity** – podrážděnost, riskantní chování, hypervigilance, lekavost, potíže se soustředěním a spánkem.
 

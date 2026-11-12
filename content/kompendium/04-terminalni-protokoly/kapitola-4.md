@@ -94,7 +94,7 @@ Strukturální analýza extrémních výcvikových protokolů — jak legitimní
 
 **Metody.** Strukturovaná narrativa zkušenosti (storytelling, journaling, peer-to-peer integration); kognitivní zpracování stresových reakcí; somatické techniky regulace; rebuilding sociálních vazeb destabilizovaných v stupni 2.
 
-**Klíčový diferenciační moment**: V legitimním protokolu je integrace **autentická** — subjekt si zachovává epistemickou autonomii a vytváří **vlastní** narrativu zkušenosti. V destruktivním protokolu je integrace **direkcionalizovaná** — subjekt je veden k osvojení **specifické pre-formulované narrativy**, která slouží institucionálním cílům na úkor jeho autonomie.
+**Klíčový diferenciační moment**: V legitimním protokolu je integrace **autentická** — subjekt si zachovává epistemickou autonomii a vytváří vlastní narrativu zkušenosti. V destruktivním protokolu je integrace **direkcionalizovaná** — subjekt je veden k osvojení **specifické pre-formulované narrativy**, která slouží institucionálním cílům na úkor jeho autonomie.
 
 **Supervize.** Klinický nebo psychologický supervizor; pravidelná individuální sezení; monitorování koherence narrativní integrace.
 

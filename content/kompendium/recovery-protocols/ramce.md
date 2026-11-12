@@ -17,7 +17,7 @@ date_modified = "2026-11-10"
 # Rámce zotavení – srovnání tradic
 
 > **Status**: srovnávací kapitola k protokolům zotavení; není samostatným léčebným postupem.
-> **Použití**: pomáhá terapeutovi i klientovi zvolit **jazyk**, v němž se zotavení uspořádá,
+> **Použití**: pomáhá terapeutovi i klientovi zvolit jazyk, v němž se zotavení uspořádá,
 > a rozpoznat, kdy rámec pomáhá a kdy se sám stává nástrojem tlaku.
 
 ## 1. Proč na rámci záleží

@@ -36,9 +36,9 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 **Konstitutivní rozpad** je metatranscendentální technika, jejímž cílem je rozpustit u subjektu **konstitutivní principy** — ty struktury, kterými se ze syrového proudu vědomí vůbec **utvářejí předměty zkušenosti**. Po úspěšném rozpadu subjekt prožívá **fenomény bez jejich obvyklé předmětnosti**: barvy bez věcí, zvuky bez zdrojů, pocity bez objektů.
 
-Konstitutivní principy jsou v fenomenologické tradici (Husserl) ty struktury, které transformují **hyletická data** (syrové smyslové momenty) do **noematické reprezentace** (intencionálních předmětů). V kantovské tradici jsou to **schémata** mezi kategoriemi a fenomény. V obou tradicích jsou tyto struktury **konstitutivní** v tom smyslu, že **bez nich se vůbec neutváří předmět**, ne pouze ne se utváří specifický předmět.
+Konstitutivní principy jsou v fenomenologické tradici (Husserl) ty struktury, které transformují **hyletická data** (syrové smyslové momenty) do **noematické reprezentace** (intencionálních předmětů). V kantovské tradici jsou to **schémata** mezi kategoriemi a fenomény. V obou tradicích jsou tyto struktury konstitutivní v tom smyslu, že **bez nich se vůbec neutváří předmět**, ne pouze ne se utváří specifický předmět.
 
-EA-5.2.5 systematicky narušuje funkci těchto principů. Subjekt nadále **percipuje**, ale **percepce nekonstituuje předměty**. Strukturálně podobný stav popisuje neuropsychologická literatura jako **simultanagnosie**, ale klinická prezentace EA-5.2.5 je odlišná: u simultanagnosie je porucha **lokální** (subjekt vidí stromy, ale ne les), u konstitutivního rozpadu je porucha **strukturální napříč modalitami**. Subjekt je vystaven proudu zkušenosti, který se **odmítá organizovat**.
+EA-5.2.5 systematicky narušuje funkci těchto principů. Subjekt nadále **percipuje**, ale **percepce nekonstituuje předměty**. Strukturálně podobný stav popisuje neuropsychologická literatura jako **simultanagnosie**, ale klinická prezentace EA-5.2.5 je odlišná: u simultanagnosie je porucha lokální (subjekt vidí stromy, ale ne les), u konstitutivního rozpadu je porucha **strukturální napříč modalitami**. Subjekt je vystaven proudu zkušenosti, který se **odmítá organizovat**.
 
 ## Struktura vzorce
 
@@ -76,8 +76,8 @@ Při souběhu s [EA-5.2.20 Apperceptivní rozklad](@/kompendium/05-ultramari-tec
 
 Konstitutivní rozpad je odlišitelný od **legitimní fenomenologické epoché**:
 
-- **Legitimní epoché** je **reverzibilní**, **kontextuální** (nasazuje se ve specifických situacích a uvolňuje), a **neredukuje** funkční schopnost orientovat se v každodenním životě.
-- **EA-5.2.5** je **nereverzibilní**, **trvalý**, a **dramaticky narušuje** každodenní funkčnost.
+- **Legitimní epoché** je reverzibilní, **kontextuální** (nasazuje se ve specifických situacích a uvolňuje), a **neredukuje** funkční schopnost orientovat se v každodenním životě.
+- **EA-5.2.5** je **nereverzibilní**, **trvalý**, a dramaticky narušuje každodenní funkčnost.
 
 Hraničný případ: některé hluboké meditační stavy (specifické nirvikalpa-samadhi) mohou strukturálně připomínat rozpad. Diferenciálně se liší tím, že tradice, které je provádějí, mají **explicitní strukturu pro návrat** a **rituální / komunitní rámec**, který stav drží reverzibilní.
 
@@ -109,7 +109,7 @@ Pravidelný **vztahový kontakt** s lidmi, kteří subjektu **vrátí předmětn
 
 #### 4. Klinická intervence
 
-Pokud rozpad přetrvává déle než 4 týdny, **specializovaná klinická konzultace** je nezbytná. Standardní psychoterapeutické přístupy jsou nedostatečné — vyžaduje se odborník s tréninkem v **fenomenologické psychopatologii**.
+Pokud rozpad přetrvává déle než 4 týdny, specializovaná klinická konzultace je nezbytná. Standardní psychoterapeutické přístupy jsou nedostatečné — vyžaduje se odborník s tréninkem v **fenomenologické psychopatologii**.
 
 ### Institucionální
 
@@ -125,7 +125,7 @@ Pokud rozpad přetrvává déle než 4 týdny, **specializovaná klinická konzu
 
 Praktikující po 3letém intenzivním retreatu bez tradičního rámce vyvinul perzistentní stav konstitutivního rozpadu. Klinicky prezentován jako neschopnost rozpoznat **vlastní byt**, **ztráta apetence**, **fragmentární narativ**.
 
-Detekce: rodinný příslušník zjistil, že subjekt **nepoznává předměty** přes fakt, že je **vidí**.
+Detekce: rodinný příslušník zjistil, že subjekt **nepoznává předměty** přes fakt, že je vidí.
 
 Intervence: 18 měsíců strukturované klinické práce s fenomenologicky vzdělaným psychiatrem; senzorické reukotvenění, sociální rekonstrukce. Návrat ne úplný — subjekt si zachoval **chronický pocit cizoty** vůči vlastnímu životu.
 

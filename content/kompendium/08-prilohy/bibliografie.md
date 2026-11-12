@@ -24,7 +24,7 @@ status = "complete"
 
 ## Metodická poznámka
 
-Bibliografie není exhaustivní — je **funkční**. Obsahuje pouze prameny, které jsou skutečně využity v hlavním textu kompendia nebo v per-technique článcích. Citace ve formátu **autor–datum**; plné publikační údaje pro nejčastěji citované klasiky jsou uvedeny u prvního výskytu v daném tematickém bloku. Bibliografie sleduje konvenci [APA 7. vydání](https://apastyle.apa.org/) s odchylkami pro filozofickou primární literaturu (preferujeme původní rok prvního vydání; dvojice let jako 1934/1959 značí první vydání a citované vydání).
+Bibliografie není exhaustivní — je funkční. Obsahuje pouze prameny, které jsou skutečně využity v hlavním textu kompendia nebo v per-technique článcích. Citace ve formátu **autor–datum**; plné publikační údaje pro nejčastěji citované klasiky jsou uvedeny u prvního výskytu v daném tematickém bloku. Bibliografie sleduje konvenci [APA 7. vydání](https://apastyle.apa.org/) s odchylkami pro filozofickou primární literaturu (preferujeme původní rok prvního vydání; dvojice let jako 1934/1959 značí první vydání a citované vydání).
 
 Každý záznam má dvě části: bibliografický údaj, který se ponechává ve znění originálu (názvy děl se nepřekládají), a za pomlčkou stručnou poznámku, k čemu kniha dílo používá. Poznámka není shrnutím díla; jen ukazuje, který pojem nebo argument se z něj do Kompendia přenáší. Podrobnější anotované výběry pro jednotlivé oblasti jsou v oddílu EA-8.3, například [EA-8.3.3 Filozofický kánon](@/kompendium/techniques/ea-8-3-3-philosophical-canon.md), [EA-8.3.7 Interdisciplinární antologie](@/kompendium/techniques/ea-8-3-7-interdisciplinary-anthology.md) a [EA-8.3.10 Literatura informační války](@/kompendium/techniques/ea-8-3-10-information-warfare-literature.md).
 
@@ -32,7 +32,7 @@ Každý záznam má dvě části: bibliografický údaj, který se ponechává v
 
 ## I. Epistemologie a filozofie vědy
 
-Tato vrstva poskytuje teoretický rámec pro pojmy **[falsifikovatelnost](@/glossary/falsifikovatelnost.md)**, **paradigma**, **vědecká revoluce** a **[demarkační problém](@/glossary/demarkacni-problem.md)** — kritické pro analýzu technik [imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) a [strategické reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md). Kniha z nich přebírá hlavně měřítko: přesvědčení, které nelze ničím vyvrátit a které každý protiargument jen dál potvrzuje, je varovným znakem, ne známkou síly.
+Tato vrstva poskytuje teoretický rámec pro pojmy **[falsifikovatelnost](@/glossary/falsifikovatelnost.md)**, paradigma, **vědecká revoluce** a **[demarkační problém](@/glossary/demarkacni-problem.md)** — kritické pro analýzu technik [imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) a [strategické reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md). Kniha z nich přebírá hlavně měřítko: přesvědčení, které nelze ničím vyvrátit a které každý protiargument jen dál potvrzuje, je varovným znakem, ne známkou síly.
 
 - **Popper, K. R.** (1934/1959). *The Logic of Scientific Discovery* [*Logik der Forschung*]. London: Hutchinson. — [Falsifikace](@/glossary/falsifikace.md), demarkační kritérium.
 - **Popper, K. R.** (1945). *The Open Society and Its Enemies*. London: Routledge. — Otevřená společnost, kritika historicismu, intelektuální poctivost.
@@ -161,12 +161,12 @@ Digitální zdroje s aktivními odkazy (přístup ověřen 2026-04-25). Slouží
 **Tato příloha je referenční nástroj** – není k četbě od začátku do konce.
 Místo lineární četby:
 
-1. Identifikuj **konkrétní termín / techniku / nástroj**, který právě potřebuješ.
+1. Identifikuj konkrétní termín / techniku / nástroj, který právě potřebuješ.
 2. Použij vyhledávání (Cmd+F / Ctrl+F) v této stránce.
 3. Pokud nenajdeš, zkontroluj [glosář](@/glossary/_index.md) a [rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md).
 
 > **Mandatorní akce**: použití přílohy bez konkrétní otázky je obvykle
-> formou prokrastinace. Definuj si nejprve, **co hledáš**, teprve pak
+> formou prokrastinace. Definuj si nejprve, co hledáš, teprve pak
 > otevři přílohu.
 
 ## Související

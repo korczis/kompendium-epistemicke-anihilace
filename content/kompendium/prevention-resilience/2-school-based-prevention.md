@@ -33,7 +33,7 @@ prostředím, které je buď posiluje, nebo podkopává.
 Školní prevence se tradičně dělí na tři úrovně, převzaté z veřejného zdravotnictví (Gordon 1983):
 
 - **univerzální** – pro všechny žáky (výuka, klima třídy, pravidla školy),
-- **selektivní** – pro skupiny se zvýšeným rizikem (žáci izolovaní, v pěstounské péči,
+- selektivní – pro skupiny se zvýšeným rizikem (žáci izolovaní, v pěstounské péči,
   po ztrátě, ze sociálně vyloučených lokalit),
 - **indikovaná** – pro žáky, u nichž se již objevují projevy obtíží.
 
@@ -133,7 +133,7 @@ všimnout si, jak skupina zachází s nesouhlasem.
 
 ## Indikátory úspěchu
 
-Validované normy pro školní prevenci EA **neexistují**; škola si cíle stanoví podle vlastních
+Validované normy pro školní prevenci EA neexistují; škola si cíle stanoví podle vlastních
 výchozích dat a porovnává se sama se sebou v čase. Smysl má sledovat:
 
 - výskyt šikany a [sociální izolace](@/glossary/socialni-izolace.md) v anonymních šetřeních,

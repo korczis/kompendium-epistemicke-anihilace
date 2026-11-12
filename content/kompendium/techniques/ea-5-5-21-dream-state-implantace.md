@@ -50,7 +50,7 @@ Od běžné práce se sny se vzorec liší asymetrií: výklad patří jedné os
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|

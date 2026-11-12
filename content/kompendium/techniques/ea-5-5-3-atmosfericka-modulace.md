@@ -50,7 +50,7 @@ Od citlivosti na prostředí se vzorec liší tím, že mimo ně člověk nefung
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|

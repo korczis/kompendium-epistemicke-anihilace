@@ -48,7 +48,7 @@ Sekundárně může být zvažována jako adjunktivní intervence v rámci kompl
 
 ## Kontraindikace
 
-Aplikace techniky je **kontraindikována** v následujících situacích:
+Aplikace techniky je kontraindikována v následujících situacích:
 
 Aktivní bezpečnostní riziko ze strany blízkých (DV), informant je sám manipulátorem, klient nedal [informovaný souhlas](@/glossary/informed-consent.md) s kontaktováním třetích stran, zákonné překážky (mlčenlivost).
 

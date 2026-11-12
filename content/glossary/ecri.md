@@ -30,7 +30,7 @@ Kdo potřebuje validovaný nástroj pro tuto oblast, může sáhnout po metodác
 - **kognice** – kritické myšlení, rozhodování, paměť, „mlha“ a obtíže soustředění;
 - **sociální oblast** – vztahy s rodinou a přáteli, navazování nových vztahů, izolace;
 - **emoce** – úzkost, deprese, výbuchy hněvu, otupělost, stud a vina;
-- **tělo** – spánek, jídlo, somatické obtíže;
+- tělo – spánek, jídlo, somatické obtíže;
 - **spiritualita a smysl** – vztah k víře, k transcendentnu a k životnímu smyslu po rozpadu systému přesvědčení.
 
 ## Kdo ji používá

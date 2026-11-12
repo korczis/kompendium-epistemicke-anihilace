@@ -130,7 +130,7 @@ Při zahlcení aktivně **dokumentuj** klíčové premisy a inferenční kroky *
 
 #### 5. **Strukturální časový buffer**
 
-Pro klíčová rozhodnutí (akademická, klinická, právní, finanční) **vždy** požaduj alespoň **72 hodin** mezi prezentací a rozhodnutím. Tlak na okamžitou odpověď je **silný indikátor manipulace**.
+Pro klíčová rozhodnutí (akademická, klinická, právní, finanční) vždy požaduj alespoň **72 hodin** mezi prezentací a rozhodnutím. Tlak na okamžitou odpověď je **silný indikátor manipulace**.
 
 ### Institucionální
 

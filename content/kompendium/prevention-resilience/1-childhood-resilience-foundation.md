@@ -131,7 +131,7 @@ o nepříjemném pocitu doma mluvit lze.
 
 ## Indikátory úspěchu
 
-Validované normy, které by měřily odolnost dětí přímo vůči EA, **neexistují**. Program může
+Validované normy, které by měřily odolnost dětí přímo vůči EA, neexistují. Program může
 sledovat ukazatele, které s ochrannými faktory souvisejí, a cíle si stanovit podle vlastních
 výchozích dat:
 

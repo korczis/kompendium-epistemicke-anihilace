@@ -153,7 +153,7 @@ Tyto zranitelnosti **nejsou alternativou** k tradiční taxonomii, ale **infrast
 
 ## Limitace optimismu
 
-Žádná z výše zmíněných obran neřeší **infrastrukturní asymetrii** digitálního věku: defenzivní opatření operují v individuální nebo institucionální časové škále (měsíce až roky); ofenzivní kapacity operují v **algoritmické** škále (milisekundy). Tato asymetrie je **strukturní**, nikoli kontingentní; nelze ji uzavřít čistě technologickými prostředky.
+Žádná z výše zmíněných obran neřeší **infrastrukturní asymetrii** digitálního věku: defenzivní opatření operují v individuální nebo institucionální časové škále (měsíce až roky); ofenzivní kapacity operují v **algoritmické** škále (milisekundy). Tato asymetrie je strukturní, nikoli kontingentní; nelze ji uzavřít čistě technologickými prostředky.
 
 Realistická pozice tedy vyžaduje **akceptaci permanentní zranitelnosti** kombinovanou s adaptivní defenzivní disciplínou — ne ve smyslu rezignace, ale ve smyslu kalibrované epistemické skromnosti. [Dual-use](@/glossary/dual-use-poznani.md) povaha digitální infrastruktury je strukturní; každý defensivní inovace generuje korespondující ofenzivní inovaci. Epistemická obrana digitálního věku je proto kontinuální proces, nikoli stav.
 
@@ -195,8 +195,8 @@ Realistická pozice tedy vyžaduje **akceptaci permanentní zranitelnosti** komb
 
 **Teoretické reflexe ne jsou závěry — jsou pozvánkami k myšlení.** Po četbě:
 
-1. Identifikuj **alespoň jeden bod**, kde nesouhlasíš s autorovou formulací
-2. Formuluj svou **vlastní alternativní pozici** v 3–5 větách
+1. Identifikuj alespoň jeden bod, kde nesouhlasíš s autorovou formulací
+2. Formuluj svou vlastní alternativní pozici v 3–5 větách
 3. Najdi v [bibliografii](@/kompendium/08-prilohy/bibliografie.md) primární
    zdroj, který tvou alternativu podporuje (alespoň 1)
 

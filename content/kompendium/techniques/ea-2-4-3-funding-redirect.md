@@ -39,7 +39,7 @@ Přesměrování financí je vzorec, v němž se **vnitřní rozpočet instituce
 výzkumné organizace, nemocnice, redakce, nadace – postupně přesouvá od jednotek, programů
 a lidí, kteří jsou kritičtí, nezávislí nebo nepohodlní, k jednotkám, které jsou loajální
 nebo neutralizované. Na rozdíl od [EA-2.1.6 Útoku na financování](@/kompendium/techniques/ea-2-1-6-funding-attack.md),
-který míří na konkrétního člověka nebo tým, mění přesměrování **strukturu** celé
+který míří na konkrétního člověka nebo tým, mění přesměrování strukturu celé
 instituce: co v ní bude moci existovat.
 
 Epistemicky je účinek tichý, ale hluboký. Instituce nezakáže žádné téma ani metodu;

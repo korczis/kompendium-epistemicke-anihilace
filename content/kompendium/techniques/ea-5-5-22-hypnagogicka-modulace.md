@@ -50,7 +50,7 @@ Od zájmu o přechodové stavy se vzorec liší tím, že je zážitek ceněn v�
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|

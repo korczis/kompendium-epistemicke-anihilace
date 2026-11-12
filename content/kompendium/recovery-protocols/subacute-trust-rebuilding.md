@@ -26,7 +26,7 @@ phase = "subacute"
 Protokol je určen lidem, kteří prošli akutní stabilizací podle [Akutního stabilizačního protokolu](@/kompendium/recovery-protocols/acute-stabilization-protocol.md),
 jsou v bezpečí a mají základní denní rytmus, ale jejich vztah k důvěře zůstává poškozený.
 Po [epistemické anihilaci](@/glossary/epistemicka-anihilace.md) (EA) nejde jen o to, zda
-člověk někomu věří citově. Jde o to, zda je schopen přijmout od druhého **informaci** – radu
+člověk někomu věří citově. Jde o to, zda je schopen přijmout od druhého informaci – radu
 lékaře, výklad advokáta, názor přítele – a zvážit ji, aniž by ji automaticky odmítl jako
 manipulaci nebo bez prověření přijal jako pravdu.
 

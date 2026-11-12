@@ -50,7 +50,7 @@ Od obliby vůní se vzorec liší výlučností vazby a tím, že běžné pachy
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|

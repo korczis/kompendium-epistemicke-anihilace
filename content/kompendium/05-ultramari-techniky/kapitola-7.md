@@ -48,7 +48,7 @@ Singulární techniky (EA-5.1.*) a metatranscendentální techniky (EA-5.2.*) sd
 | **Klinická prezentace** | Epistemická bezmocnost, ztráta autorství | [Depersonalizace](@/glossary/depersonalizace.md), aperspektivismus, dekategoriální stavy |
 | **Filozofická afinita** | Pyrrhonský [skepticismus](@/glossary/skepticismus.md), konstruktivistická psychóza | Kantovská kritika převrácená proti samotné možnosti syntetické apercepce |
 
-Klíčový diagnostický rozdíl: subjekt po EA-5.1.* je schopen **popsat své poškození** — má slova, používá kategorie, dokáže říct *„nevěřím ničemu“*, *„nemám vlastní myšlenky“*. Subjekt po EA-5.2.* nedokáže své poškození artikulovat **strukturálně**, protože samotné struktury, které by artikulaci umožnily, jsou narušené. Klinici hlásí výpovědi typu *„není to, že bych něco neviděl, ale chybí mi něco, co by mi umožnilo říct, co chybí“*.
+Klíčový diagnostický rozdíl: subjekt po EA-5.1.* je schopen **popsat své poškození** — má slova, používá kategorie, dokáže říct *„nevěřím ničemu“*, *„nemám vlastní myšlenky“*. Subjekt po EA-5.2.* nedokáže své poškození artikulovat strukturálně, protože samotné struktury, které by artikulaci umožnily, jsou narušené. Klinici hlásí výpovědi typu *„není to, že bych něco neviděl, ale chybí mi něco, co by mi umožnilo říct, co chybí“*.
 
 ## Třicet technik metatranscendentální anihilace
 
@@ -177,8 +177,8 @@ Veškerá analýza technik EA-5.2.* podléhá [Etickým aspektům](@/kompendium/
 **Ultramární techniky jsou L3 (omezený přístup)**: nejsou určeny k
 obecnému studiu. Před četbou potvrď, že:
 
-- Máš **kvalifikovanou supervizní vazbu** (klinickou nebo doktrinální)
-- Máš **dokumentovaný důvod** ke studiu konkrétní techniky (forenzní analýza,
+- Máš kvalifikovanou supervizní vazbu (klinickou nebo doktrinální)
+- Máš dokumentovaný důvod ke studiu konkrétní techniky (forenzní analýza,
   klinická intervence, doktrinální výzkum)
 - Sleduješ [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   vlastního stavu (sebepozorovací rámec)

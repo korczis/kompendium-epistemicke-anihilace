@@ -48,7 +48,7 @@ Sekundárně může být zvažována jako adjunktivní intervence v rámci kompl
 
 ## Kontraindikace
 
-Aplikace techniky je **kontraindikována** v následujících situacích:
+Aplikace techniky je kontraindikována v následujících situacích:
 
 Akutní bolestivé somatické onemocnění, klient odmítá tělesnou práci, kulturní kontext zakazující intimní tělesnou komunikaci, terapeut bez kvalifikace v tělesných přístupech.
 

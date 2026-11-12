@@ -50,7 +50,7 @@ Od naučeného držení těla se vzorec liší tím, že spontánní pohyb je pr
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|

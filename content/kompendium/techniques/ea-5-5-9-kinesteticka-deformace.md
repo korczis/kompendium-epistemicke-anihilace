@@ -50,7 +50,7 @@ Od zkušenosti s plynulým jednáním se vzorec liší tím, že se autorství z
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|

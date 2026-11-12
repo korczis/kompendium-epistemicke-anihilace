@@ -75,7 +75,7 @@ Zpětně se znaky skládají takto: nejprve ostré oddělení mysli a těla v ř
 
 Merleau-Pontyovská deformace je odlišitelná od:
 
-- **Autentické fenomenologické práce**, jež **integruje** vhledy do tělesné intencionality zpět do žitého těla.
+- **Autentické fenomenologické práce**, jež integruje vhledy do tělesné intencionality zpět do žitého těla.
 - **Klinické depersonalizační poruchy**, jež má odlišnou etiologii (trauma, anxieta) a chybí pseudo-spirituální racionalizace.
 - **Pokročilé jógové praxe** (např. Iyengar tradice), jež **prohlubuje** tělesnou intencionalitu, nikoli ji nedestruuje.
 

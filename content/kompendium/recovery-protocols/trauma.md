@@ -18,7 +18,7 @@ date_modified = "2026-11-10"
 
 > **Status**: tematický rekonstruktivní protokol k pojmu [epistemické trauma](@/glossary/epistemicke-trauma.md).
 > **Fáze**: subakutní až středně-dobá, po stabilizaci a obnově žitého světa.
-> **Zásada**: obnova **struktury** poznávání předchází práci s **obsahem** konkrétních přesvědčení.
+> **Zásada**: obnova struktury poznávání předchází práci s **obsahem** konkrétních přesvědčení.
 
 ## 1. Co je epistemické trauma
 

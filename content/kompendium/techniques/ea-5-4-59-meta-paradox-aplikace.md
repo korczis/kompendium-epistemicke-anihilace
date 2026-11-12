@@ -34,11 +34,11 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 ## Definice
 
-**Aplikace meta-paradoxu** je paradoxální metaanihilační protokol, jehož operační jádro tvoří paradox o paradoxech: každý pokus o klasifikaci paradoxu je sám paradoxní. Technika patří do subkategorie **5.4 Paradoxální metaanihilační protokoly** — třídy ultramárních postupů, které využívají **strukturální paradoxy v subjektově sebehodnotícím aparátu** k destabilizaci samotného procesu, jímž subjekt rozlišuje, co je správné, pravdivé, vlastní a smysluplné.
+**Aplikace meta-paradoxu** je paradoxální metaanihilační protokol, jehož operační jádro tvoří paradox o paradoxech: každý pokus o klasifikaci paradoxu je sám paradoxní. Technika patří do subkategorie **5.4 Paradoxální metaanihilační protokoly** — třídy ultramárních postupů, které využívají strukturální paradoxy v subjektově sebehodnotícím aparátu k destabilizaci samotného procesu, jímž subjekt rozlišuje, co je správné, pravdivé, vlastní a smysluplné.
 
-Na rozdíl od technik **epistemické singularity** ([5.1](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md)), které pohlcují obsahy poznání, a technik **transcendentální iluze** ([5.2](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md)), které manipulují s podmínkami možnosti poznání, paradoxální protokoly zasahují **formální infrastrukturu** posuzování. Subjekt nedokáže paradoxnost obejít vyšší úrovní reflexe, protože každá vyšší úroveň je sama postižena strukturálně analogickou paradoxií. Vzniká **kognitivní past s rekurzivně reprodukovaným zámkem**: čím více se subjekt snaží uniknout, tím pevněji je v pasti uvězněn.
+Na rozdíl od technik **epistemické singularity** ([5.1](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md)), které pohlcují obsahy poznání, a technik **transcendentální iluze** ([5.2](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md)), které manipulují s podmínkami možnosti poznání, paradoxální protokoly zasahují formální infrastrukturu posuzování. Subjekt nedokáže paradoxnost obejít vyšší úrovní reflexe, protože každá vyšší úroveň je sama postižena strukturálně analogickou paradoxií. Vzniká **kognitivní past s rekurzivně reprodukovaným zámkem**: čím více se subjekt snaží uniknout, tím pevněji je v pasti uvězněn.
 
-Technika je strukturálně blízká [kognitivní anti-rekurzivitě](@/glossary/kognitivni-anti-rekurzivita.md), ale operuje **uvnitř** klasické formální logiky — využívá nikoli antitetické, nýbrž *ortodoxní* paradoxy klasické tradice (Russell, 1908; Tarski, 1944; Gödel, 1931; Wittgenstein, 1953) a aplikuje je na fenomenologickou rovinu sebezakoušení. Klíčový rys: paradox není argumentován, je *zažíván*.
+Technika je strukturálně blízká [kognitivní anti-rekurzivitě](@/glossary/kognitivni-anti-rekurzivita.md), ale operuje uvnitř klasické formální logiky — využívá nikoli antitetické, nýbrž *ortodoxní* paradoxy klasické tradice (Russell, 1908; Tarski, 1944; Gödel, 1931; Wittgenstein, 1953) a aplikuje je na fenomenologickou rovinu sebezakoušení. Klíčový rys: paradox není argumentován, je *zažíván*.
 
 ## Struktura vzorce
 
@@ -54,7 +54,7 @@ V konsolidované podobě je vzorec rozpoznatelný podle znaků uvedených mezi d
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** paradoxálního metaanihilačního protokolu:
+Co prožívá subjekt uvnitř paradoxálního metaanihilačního protokolu:
 
 | Znak | Popis |
 |------|-------|
@@ -121,7 +121,7 @@ Třetí linií je vnější epistemický audit, tedy kolega s metalogickou výba
 ### Alternativy / podobné, ale **distinktivní**
 
 - **Legitimní filozofická paradoxologie** — zachovává distancí mezi zkoumajícím a zkoumaným, vede k pojmové jemnosti.
-- **Sokratovská elenchos** — destabilizuje **specifická** přesvědčení s cílem rekonstrukce, nikoli evaluativního aparátu jako takového.
+- **Sokratovská elenchos** — destabilizuje specifická přesvědčení s cílem rekonstrukce, nikoli evaluativního aparátu jako takového.
 
 Klíčové pojmové kotvy techniky: **paradox of paradoxes, meta-paradox, stratifikace**.
 

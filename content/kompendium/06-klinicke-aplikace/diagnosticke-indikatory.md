@@ -104,18 +104,18 @@ Standardní psychiatrický rozhovor se rozšiřuje o následující strukturovan
 
 - Existují vztahy s **významnou asymetrií** (ekonomická, informační, citová závislost)?
 - Existuje osoba/skupina s definujícím vlivem na pacientovu sebepercepci?
-- Byly některé vztahy v poslední době ukončeny **bez** vědomého rozhodnutí pacienta?
+- Byly některé vztahy v poslední době ukončeny bez vědomého rozhodnutí pacienta?
 
 ### 3. Reflexivní kapacita
 
 - Dokáže pacient popsat, **jak došel** ke svým hlavním přesvědčením?
-- Identifikuje pacient sám u sebe **nejistoty** a **mezery** v poznání?
-- Existují témata, o nichž **odmítá** přemýšlet (a ví o tom)?
+- Identifikuje pacient sám u sebe **nejistoty** a mezery v poznání?
+- Existují témata, o nichž odmítá přemýšlet (a ví o tom)?
 
 ### 4. Změny self-narrativa
 
 - Jak by pacient popsal sám sebe v různých obdobích života — před vstupem do vztahu nebo skupiny, během něj a dnes?
-- Existuje **diskontinuita**, kterou si nedovede vysvětlit?
+- Existuje diskontinuita, kterou si nedovede vysvětlit?
 - Cítí se **vzdálen** vlastním minulým rozhodnutím?
 
 ## Standardizované screeningové instrumenty
@@ -153,7 +153,7 @@ Následující pravidla představují **doporučené (nikoliv mandatorní) klini
 
 ### Pravidlo R4: Diferenciální vyloučení
 
-**Před** diagnózou EA musí být systematicky **vyloučeny**:
+Před diagnózou EA musí být systematicky **vyloučeny**:
 
 - Organické příčiny (delirium, demence, intoxikace);
 - Psychotické poruchy (zejména první epizoda schizofrenie);

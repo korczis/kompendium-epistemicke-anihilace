@@ -117,7 +117,7 @@ Detailní popis notace viz [Klasifikační schéma](@/kompendium/08-prilohy/klas
 
 ## Kapitola 4 — Terminální protokoly
 
-> **Komplexní destrukční sekvence kombinující techniky z předchozích kapitol.** Riziko: **vysoké–extrémní**, reverzibilita: **nízká**. Vyžaduje úroveň přístupu **L2+**. Plný popis v [Sekci 04](@/kompendium/04-terminalni-protokoly/_index.md).
+> **Komplexní destrukční sekvence kombinující techniky z předchozích kapitol.** Riziko: **vysoké–extrémní**, reverzibilita: nízká. Vyžaduje úroveň přístupu **L2+**. Plný popis v [Sekci 04](@/kompendium/04-terminalni-protokoly/_index.md).
 
 | Kód | Název | Jednořádkový popis |
 |-----|-------|--------------------|

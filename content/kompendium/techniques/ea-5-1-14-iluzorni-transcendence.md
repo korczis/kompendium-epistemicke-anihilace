@@ -29,7 +29,7 @@ parent_chapter = "/kompendium/05-pokrocile-operace/kapitola-6/"
 | **Subkategorie** | 5.1 [Epistemická singularita](@/glossary/epistemicka-singularita.md) |
 | **Přístupová úroveň** | L4 (kritická — riziko trvalého poškození) |
 | **Riziková úroveň** | Kritická — extrémně rezistentní vůči externí korekci kvůli vnitřní jistotě subjektu |
-| **Reverzibilita** | Velmi nízká — subjekt aktivně **odmítá** redukci své transcendentní zkušenosti |
+| **Reverzibilita** | Velmi nízká — subjekt aktivně odmítá redukci své transcendentní zkušenosti |
 | **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-pokrocile-operace/kapitola-6/_index.md) |
 
 ## Definice
@@ -52,7 +52,7 @@ Detekční markery zachycené na této stránce odpovídají téže struktuře: 
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** iluzorní transcendence:
+Co prožívá subjekt uvnitř iluzorní transcendence:
 
 - **Pocit kosmického vhledu** — „vše do sebe zapadá“
 - **Pocit konce hledání** — „už není co dál hledat, jen integrovat“
@@ -82,7 +82,7 @@ Co může vidět vnější pozorovatel:
 
 ### Diferenciální detekce
 
-Iluzorní transcendenci je třeba **odlišit** od:
+Iluzorní transcendenci je třeba odlišit od:
 
 - **Autentické kontemplativní zkušenosti** — která **nepoškozuje** schopnost diferenciace; subjekt po zkušenosti vykazuje **zlepšenou**, ne **zhoršenou** kognitivní funkci.
 - **Tvořivého vhledu** — který je **specifický** (řeší konkrétní problém), **falsifikovatelný** a **propojitelný** s předchozí kognicí.
@@ -119,7 +119,7 @@ Konzultovat zkušenost s reprezentantem **autentické tradice**, která má hist
 
 #### 4. Operační test
 
-Po několika měsících zkontrolovat: Zlepšila se **konkrétní** schopnost (vztahy, práce, etické rozhodování)? Nebo se **zhoršily**, zatímco **subjektivní jistota** roste? Druhý scénář je signál iluze.
+Po několika měsících zkontrolovat: Zlepšila se konkrétní schopnost (vztahy, práce, etické rozhodování)? Nebo se **zhoršily**, zatímco **subjektivní jistota** roste? Druhý scénář je signál iluze.
 
 #### 5. Návrat k tělesnému a obyčejnému
 

@@ -55,7 +55,7 @@ v gestalt terapii poznávají podle formulací „musím“, „člověk má“,
 
 ## Mechanismus
 
-Introjekce probíhá nejsnáze tam, kde jsou splněny tři podmínky: **závislost** (na autoritě
+Introjekce probíhá nejsnáze tam, kde jsou splněny tři podmínky: závislost (na autoritě
 záleží bezpečí, uznání nebo příslušnost), **opakování** (stejné hodnocení přichází mnohokrát
 a z více stran) a **absence alternativy** (chybí jiné hlasy, se kterými by šlo porovnávat).
 Proto jsou introjekty silné v dětství, v uzavřených skupinách a ve vztazích s vysokou mírou

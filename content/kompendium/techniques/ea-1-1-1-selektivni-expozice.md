@@ -53,7 +53,7 @@ Detekční markery zachycené níže odpovídají téže struktuře: stále stej
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** selektivní expozice:
+Co prožívá subjekt uvnitř selektivní expozice:
 
 - **Pocit informovanosti** disproporční vůči rozsahu skutečně exponovaných materiálů
 - **Epistemická saturace** — „už jsem to studoval, nemusím dál hledat“
@@ -82,7 +82,7 @@ Co může vidět vnější pozorovatel:
 
 Selektivní expozice je odlišitelná od **legitimního kurátorství**:
 
-- **Legitimní kurátor** uvádí, **proč** jsou materiály vybrané (s odůvodněním přístupu k vyloučenému) a **explicitně** odkazuje na alternativy.
+- **Legitimní kurátor** uvádí, proč jsou materiály vybrané (s odůvodněním přístupu k vyloučenému) a explicitně odkazuje na alternativy.
 - **Manipulativní kurátor** prezentuje výběr jako **objektivní**, **neutrální**, **kompletní**, a alternativy explicitně **delegitimizuje**.
 
 Hraniční případ: **dobře míněný učitel** může selektivní expozici provádět **neintencionálně** — z vlastní filtrované expozice. To je strukturálně významné, protože **většina case-of-EA-1.1.1 v akademii je neintencionální**, vzniká přenosem vlastní filtrace na další generaci.
@@ -118,8 +118,8 @@ Při studiu jakéhokoli oboru explicitně:
 
 Při čtení review článku, kurikula, sylabu se ptej:
 
-- **Proč** jsou tyto zdroje vybrané?
-- **Co** je vyloučené a **proč**?
+- Proč jsou tyto zdroje vybrané?
+- Co je vyloučené a proč?
 - Je vyloučení argumentačně podložené, nebo je to **strukturální filtrace bez explikace**?
 
 #### 3. **Identifikace potenciálně absentujících perspektiv**
@@ -152,7 +152,7 @@ Pravidelně vystavuj **kontradiktornímu** materiálu — i pokud je nesouhlasn�
 
 ### Případ 1 — Anonymizovaný akademický kontext
 
-PhD program v sociálních vědách. **Mentor** dlouhodobě směřuje kandidáty výhradně k literatuře z **jednoho** specifického teoretického proudu. Kandidáti opouštějí program s pocitem, že tento proud **je** stav oboru.
+PhD program v sociálních vědách. **Mentor** dlouhodobě směřuje kandidáty výhradně k literatuře z **jednoho** specifického teoretického proudu. Kandidáti opouštějí program s pocitem, že tento proud je stav oboru.
 
 Detekce: Externí evaluátor **nezávislé komise** zjistil, že žádný z kandidátů za posledních 7 let necitoval autora z **konkurenčního** proudu, navzdory aktivní debatě v mezinárodní literatuře.
 
@@ -172,7 +172,7 @@ Intervence: Externí audit, redesign training programu s explicitním **counter-
 
 Detekce: Self-audit feedu odhalil, že 84 % zobrazených článků pocházelo z 11 zdrojů (z původně diverzního feedu se stal homogenní).
 
-Intervence: Manuální **deduplikace** zdrojů, přihlášení k **antagonistickým** publikacím, periodické vyhledávání **mimo** algoritmický feed.
+Intervence: Manuální **deduplikace** zdrojů, přihlášení k **antagonistickým** publikacím, periodické vyhledávání mimo algoritmický feed.
 
 ## Vztah k jiným technikám
 

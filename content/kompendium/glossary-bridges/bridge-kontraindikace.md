@@ -17,7 +17,7 @@ date_modified = "2026-11-10"
 # Bridge: Kontraindikace
 
 > **Most** spojuje klinický pojem kontraindikace s místy knihy, kde jsou stanoveny podmínky, za nichž
-> se určitý postup **nesmí** použít. Přehled mostů je v rejstříku
+> se určitý postup nesmí použít. Přehled mostů je v rejstříku
 > [Glossary Bridges](@/kompendium/glossary-bridges/_index.md).
 
 ## Pojem

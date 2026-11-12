@@ -52,7 +52,7 @@ Detekční markery zachycené na této stránce odpovídají téže struktuře: 
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** narativního kolapsu:
+Co prožívá subjekt uvnitř narativního kolapsu:
 
 - **Pocit konečné koherence** — *„teď konečně všechno dává smysl“*
 - **Retrospektivní teleologie** — minulé události se jeví jako kroky vedoucí k aktuální pozici

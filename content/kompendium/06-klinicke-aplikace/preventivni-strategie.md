@@ -19,7 +19,7 @@ access_level = "L1"
 
 Klinická intervence po manifestaci [epistemické anihilace](@/glossary/epistemicka-anihilace.md) je nezbytná, ale **strukturálně sekundární**. Primární odpovědí systému musí být **prevence** — etablování takové epistemické infrastruktury, ve které jsou techniky [taxonomie EA](@/kompendium/03-zakladni-kategorie/kapitola-1.md) **detekovatelné dříve**, **strukturálně méně účinné** a **kolektivně neutralizovány** dříve, než produkují klinické konsekvence (viz [případové studie K.](@/kompendium/06-klinicke-aplikace/pripad-akademie.md) a [M.](@/kompendium/06-klinicke-aplikace/pripad-doktorat.md)).
 
-Tato kapitola formuluje preventivní strategie na **třech úrovních** — personální, institucionální a kulturní. Žádná z úrovní není v izolaci dostatečná. Robustní prevence vyžaduje **integraci** všech tří.
+Tato kapitola formuluje preventivní strategie na **třech úrovních** — personální, institucionální a kulturní. Žádná z úrovní není v izolaci dostatečná. Robustní prevence vyžaduje integraci všech tří.
 
 ## I. Personální úroveň
 
@@ -34,7 +34,7 @@ Strukturovaná, pravidelně praktikovaná disciplína [metakognitivní](@/glossa
 | **Reference-audit** | Revize několika osobních epistemických kotev (hodnoty, kompetence, paměťové reference) |
 | **Source-audit** | Revize zdrojů, na něž se subjekt v poslední době opíral — jak různorodé byly a kdo je vybral |
 | **Affect-audit** | Revize epizod silných epistemických afektů (jistota, averze, fascinace) — analýza spouštěčů |
-| **Position-shift audit** | Revize pozic, na kterých subjekt **změnil** názor — explicitní artikulace **proč** a **kdo** k tomu přispěl |
+| **Position-shift audit** | Revize pozic, na kterých subjekt **změnil** názor — explicitní artikulace proč a kdo k tomu přispěl |
 | **[Falsifikace](@/glossary/falsifikace.md)-audit** | Revize centrálních přesvědčení — explicitní artikulace, **co by je vyvrátilo** |
 
 **Frekvenci kniha neuvádí**: dřívější verze tu měla u každé komponenty pevný rytmus a počet kotev bez zdroje. Žádný výzkum neukázal, jak často má člověk takovou reflexi dělat, aby chránila; rozumné je navázat ji na změny v životě (nový vztah, nová skupina, nové pracoviště), kdy je vliv druhých nejsilnější a nejhůř viditelný.
@@ -80,7 +80,7 @@ Tradiční peer review je strukturálně vulnerabilní vůči [imunizaci proti f
 
 - **Adversarial collaboration** — povinná koautorská spolupráce s **oponentní pozicí** pro prestižní publikační formáty
 - **Open peer review** — transparentní recenzní proces s atribucí
-- **Pre-registration** — předregistrace hypotéz, metodologie a falsifikačních kritérií **před** sběrem dat
+- **Pre-registration** — předregistrace hypotéz, metodologie a falsifikačních kritérií před sběrem dat
 - **Replication tracks** — institucionalizovaný a finančně podporovaný replikační výzkum
 - **Negative results journals** — institucionalizovaná publikace negativních a null výsledků
 
@@ -180,7 +180,7 @@ Klíčový kulturní mechanismus prevence — kompetence rozpoznat techniky mus�
 - **Mentorování jako kulturní hodnota** — explicitní hodnota etického mentorování, ne pouze produkční výkonnosti
 - **Příběhy přežití** — kulturní normalizace narativů přeživších EA-trauma jako kompetenční zdroje, ne pouze klinické případy
 - **Akademie historie manipulace** — kulturní paměť historických případů (vědecké podvody, kultické vzorce, manipulativní mentory), kontinuita poznání
-- **Anti-fragmentace** — kulturní rezistence vůči mezigenerační epistemické fragmentaci, kde každá generace začíná **bez** kompetencí získaných předchozí
+- **Anti-fragmentace** — kulturní rezistence vůči mezigenerační epistemické fragmentaci, kde každá generace začíná bez kompetencí získaných předchozí
 
 ## Integrovaný preventivní stack
 

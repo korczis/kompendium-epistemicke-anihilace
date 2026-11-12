@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 | **Subkategorie** | 1.1 Narušení procesů akvizice poznání |
 | **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Vysoká — pervazivní v akademii a expertních doménách, často strukturálně neintencionální |
-| **Reverzibilita** | Vysoká pro jednorázové incidenty, **nízká** při dlouhodobé internalizaci |
+| **Reverzibilita** | Vysoká pro jednorázové incidenty, nízká při dlouhodobé internalizaci |
 | **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md) |
 
 ## Definice
@@ -107,15 +107,15 @@ Legitimní technická terminologie vs. mystifikace:
 
 #### 1. **Request pro definice a vyjasnění**
 
-> Pokaždé, když narazíš na termín, který **plně nechápeš**, **explicitně** požadej:
+> Pokaždé, když narazíš na termín, který **plně nechápeš**, explicitně požadej:
 >
-> *„Mohli byste prosím definovat **X** v kontextu, ve kterém ho používáte?“*
+> *„Mohli byste prosím definovat X v kontextu, ve kterém ho používáte?“*
 
-Sociální cena této otázky je **strukturálně přeceňovaná**. Většina kvalifikovaných expertů ochotně vysvětlí. **Resistence** vůči vysvětlení je **silný indikátor** mystifikace.
+Sociální cena této otázky je **strukturálně přeceňovaná**. Většina kvalifikovaných expertů ochotně vysvětlí. **Resistence** vůči vysvětlení je silný indikátor mystifikace.
 
 #### 2. **Demystifikační parafráze**
 
-Po prezentaci komplexního výroku **přeformuluj** ho v prostém jazyce a **explicitně** ověř s mluvčím:
+Po prezentaci komplexního výroku **přeformuluj** ho v prostém jazyce a explicitně ověř s mluvčím:
 
 > *„Pokud správně rozumím, říkáte, že [parafráze]. Je to přesné?“*
 
@@ -123,24 +123,24 @@ Pokud parafráze odhalí trivialitu, byla terminologie inflovaná. Pokud parafr�
 
 #### 3. **Identifikace zbytečně komplexních formulací**
 
-Sleduj **pattern**: pokud více osob v komunitě formuluje **prosté myšlenky** komplexně, je to **strukturální** mystifikace, ne individuální choice.
+Sleduj **pattern**: pokud více osob v komunitě formuluje **prosté myšlenky** komplexně, je to strukturální mystifikace, ne individuální choice.
 
 #### 4. **Evaluace substantivního obsahu**
 
-Zaměř se **výhradně** na propoziční obsah, **ignoruj** terminologickou fasádu. Otázka: *„Co toto tvrzení skutečně tvrdí?“* Odpověď často odhalí, že tvrzení je **buď** triviální, **nebo** falešné, **nebo** prázdné.
+Zaměř se výhradně na propoziční obsah, **ignoruj** terminologickou fasádu. Otázka: *„Co toto tvrzení skutečně tvrdí?“* Odpověď často odhalí, že tvrzení je **buď** triviální, **nebo** falešné, **nebo** prázdné.
 
 #### 5. **Cizojazyčný test**
 
-Zkus termín přeložit do jiného jazyka. Pokud **neexistuje** překlad a termín nemá **etymologii** v latině/řečtině/angličtině, je pravděpodobně **lokální jargon** se sníženou preciznost.
+Zkus termín přeložit do jiného jazyka. Pokud neexistuje překlad a termín nemá **etymologii** v latině/řečtině/angličtině, je pravděpodobně **lokální jargon** se sníženou preciznost.
 
 ### Institucionální
 
 | Strategie | Implementace |
 |-----------|--------------|
 | **Plain-language summary requirement** | Klíčové dokumenty musí mít sekci v prostém jazyce |
-| **Cross-disciplinary review** | Reviewer mimo specializovaný okruh je **strukturálně** odolnější vůči mystifikaci |
-| **Glossary mandates** | Specializované termíny **musí** být definovány v glosáři |
-| **Plain-language pedagogy** | Studenti učeni **strukturálně** parafrázovat technické tvrzení |
+| **Cross-disciplinary review** | Reviewer mimo specializovaný okruh je strukturálně odolnější vůči mystifikaci |
+| **Glossary mandates** | Specializované termíny musí být definovány v glosáři |
+| **Plain-language pedagogy** | Studenti učeni strukturálně parafrázovat technické tvrzení |
 | **Public-facing communication** | Politická / regulační dokumentace musí mít **layman summary** |
 
 ## Případové studie
@@ -163,7 +163,7 @@ Intervence: Strategická restrukturalizace vztahu s konzultantskou firmou; mand�
 
 ### Případ 3 — Filozofická škola
 
-Akademická tradice po dvě generace používala specifickou idiosynkratickou terminologii **bez** explicitních definic, předpokládajíc „**internalizovaný** smysl“. Externí filozof přeložil klíčové teze do standardního filozofického jazyka — a ukázal, že 60 % tezí buď bylo **trivální**, **chybné**, nebo **identicky řečeno** v jiných tradicích.
+Akademická tradice po dvě generace používala specifickou idiosynkratickou terminologii bez explicitních definic, předpokládajíc „**internalizovaný** smysl“. Externí filozof přeložil klíčové teze do standardního filozofického jazyka — a ukázal, že 60 % tezí buď bylo **trivální**, **chybné**, nebo **identicky řečeno** v jiných tradicích.
 
 Detekce: Externí kritická monografie.
 
@@ -186,7 +186,7 @@ Intervence: Část tradice provedla autocritique a sebepředefinovala. Druhá č
 ### Hraniční / podobné
 
 - **Legitimní technický jazyk** — obsahem identický, **odlišný** v ochotě vysvětlit a v existence parafráze.
-- **[EA-1.2.3](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) Iluzorní komplexita** — sourozenecká technika, ale strukturálně odlišná: mystifikace inflouje **jazyk**, iluzorní komplexita inflouje **konceptuální strukturu**.
+- **[EA-1.2.3](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) Iluzorní komplexita** — sourozenecká technika, ale strukturálně odlišná: mystifikace inflouje jazyk, iluzorní komplexita inflouje **konceptuální strukturu**.
 
 ## Literatura
 

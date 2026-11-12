@@ -93,7 +93,7 @@ testu pro víceúrovňové designy je proto nutná ([analýza síly testu](@/kom
 Na začátku se s účastníkem probírá, kdo má k jeho telefonu přístup a zda je účast bezpečná.
 Aplikace obsahuje trvale dostupný kontakt na pomoc. Je třeba předem stanovit, co se stane,
 když odpovědi naznačí akutní riziko (sebepoškození, násilí): ESM data se zpravidla nesledují
-v reálném čase, a proto účastník musí vědět, že aplikace **není** krizová služba. Pokud studie
+v reálném čase, a proto účastník musí vědět, že aplikace není krizová služba. Pokud studie
 monitorování v reálném čase slibuje, musí mít kapacitu na něj reagovat (viz
 [akutní suicidální riziko](@/kompendium/emergency-protocols/2-suicide-risk-EA.md)).
 

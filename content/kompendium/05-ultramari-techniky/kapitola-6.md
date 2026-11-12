@@ -17,7 +17,7 @@ access_level = "L3-L4"
 
 # Kapitola 6 — Epistemická singularita
 
-> 🚨 **Přístupová úroveň L3–L4**. Kapitola popisuje **30 ultramárních technik** (EA-5.1.1 až 5.1.30) operujících na rovině [metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md). Materiály vyžadují IRB autorizaci a etickou supervizi. Veřejně dostupné jsou výhradně metaúrovňové popisy fenomenologie a klinického obrazu — operační detaily jsou redigovány nebo přesunuty do restriktivních L4 příloh.
+> 🚨 **Přístupová úroveň L3–L4**. Kapitola popisuje 30 ultramárních technik (EA-5.1.1 až 5.1.30) operujících na rovině [metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md). Materiály vyžadují IRB autorizaci a etickou supervizi. Veřejně dostupné jsou výhradně metaúrovňové popisy fenomenologie a klinického obrazu — operační detaily jsou redigovány nebo přesunuty do restriktivních L4 příloh.
 
 ## Pozice kapitoly
 
@@ -86,7 +86,7 @@ Doplňkové techniky 5.1.21 (kontrastní vyhasínání), 5.1.23 (taxonomická de
 
 ## Klastr F — Konvergence k singularitě (EA-5.1.26 až 5.1.30)
 
-Poslední klastr je **integrativní**. Techniky 5.1.26 až 5.1.29 nepředstavují nové fundamentální mechanismy — jsou to **kompoziční vzorce**, které kombinují předchozí klastry do koherentních sekvencí směřujících k terminálnímu stavu.
+Poslední klastr je integrativní. Techniky 5.1.26 až 5.1.29 nepředstavují nové fundamentální mechanismy — jsou to **kompoziční vzorce**, které kombinují předchozí klastry do koherentních sekvencí směřujících k terminálnímu stavu.
 
 [EA-5.1.28 — Konvergentní singularita](@/kompendium/techniques/ea-5-1-28-konvergentni-singularita.md) je vrcholovou technikou kapitoly. Konstruuje sekvenci, v níž **všechny předchozí klastry simultánně konvergují** k singulárnímu bodu, v němž subjekt současně:
 
@@ -167,8 +167,8 @@ V následující [Kapitole 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) 
 **Ultramární techniky jsou L3 (omezený přístup)**: nejsou určeny k
 obecnému studiu. Před četbou potvrď, že:
 
-- Máš **kvalifikovanou supervizní vazbu** (klinickou nebo doktrinální)
-- Máš **dokumentovaný důvod** ke studiu konkrétní techniky (forenzní analýza,
+- Máš kvalifikovanou supervizní vazbu (klinickou nebo doktrinální)
+- Máš dokumentovaný důvod ke studiu konkrétní techniky (forenzní analýza,
   klinická intervence, doktrinální výzkum)
 - Sleduješ [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   vlastního stavu (sebepozorovací rámec)

@@ -28,8 +28,8 @@ Dotazník používají **kliničtí psychologové, psychiatři, psychotraumatolo
 
 Tři subškály odpovídají třem skupinám posttraumatických příznaků:
 
-- **intruze** (8 položek) – nechtěné vzpomínky, sny, náhlé vlny pocitů, znovuprožívání při připomenutí;
-- **vyhýbání** (8 položek) – snaha nemyslet na událost, vyhýbat se připomínkám, emoční otupělost;
+- intruze (8 položek) – nechtěné vzpomínky, sny, náhlé vlny pocitů, znovuprožívání při připomenutí;
+- vyhýbání (8 položek) – snaha nemyslet na událost, vyhýbat se připomínkám, emoční otupělost;
 - **hyperarousal** (6 položek) – podrážděnost, potíže se soustředěním a spánkem, lekavost, ostražitost.
 
 Subškály se obvykle vyjadřují jako průměr položek, celkové skóre jako součet (0–88).

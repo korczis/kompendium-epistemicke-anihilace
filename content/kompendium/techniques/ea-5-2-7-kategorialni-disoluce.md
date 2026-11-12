@@ -38,9 +38,9 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 Strukturálně je disoluce **terminálním cílem** několika postupů: může být dosaženo skrze [EA-5.2.6 transcendentální rekurzivitu](@/kompendium/techniques/ea-5-2-6-transcendentalni-rekursivita.md), kde rekurzivní aplikace kategorií je destabilizuje, nebo skrze [EA-5.2.5 konstitutivní rozpad](@/kompendium/techniques/ea-5-2-5-konstitutivni-rozpad.md), kde rozpad konstitutivních principů odebírá funkci kategorialní organizace, nebo skrze [EA-5.2.4 apriorní saturaci](@/kompendium/techniques/ea-5-2-4-apriorni-saturace.md), kde saturace falešnými apriori činí kategorie funkčně nepoužitelné.
 
-Klíčový diagnostický rys: subjekt v disoluci **nedokáže** odpovědět na základní kategoriální otázky. *„Kolik je tam lidí?“* — nedokáže rozhodnout, protože **kvantita** přestala fungovat. *„Jaké je to barvy?“* — nedokáže přiřadit kvalitu. *„Co s čím souvisí?“* — relace nelze identifikovat. *„Je to možné nebo nutné?“* — modalita kolabuje.
+Klíčový diagnostický rys: subjekt v disoluci nedokáže odpovědět na základní kategoriální otázky. *„Kolik je tam lidí?“* — nedokáže rozhodnout, protože **kvantita** přestala fungovat. *„Jaké je to barvy?“* — nedokáže přiřadit kvalitu. *„Co s čím souvisí?“* — relace nelze identifikovat. *„Je to možné nebo nutné?“* — modalita kolabuje.
 
-V kontrastu s běžnou afázií nebo agnozií, které jsou neurologickými poruchami specifických funkcí, kategoriální disoluce je **strukturální** porucha napříč kategoriemi a vyplývá z **rekonstruovatelné** epistemické historie — ne z neurologické patologie.
+V kontrastu s běžnou afázií nebo agnozií, které jsou neurologickými poruchami specifických funkcí, kategoriální disoluce je strukturální porucha napříč kategoriemi a vyplývá z **rekonstruovatelné** epistemické historie — ne z neurologické patologie.
 
 ## Struktura vzorce
 
@@ -78,12 +78,12 @@ Kategoriální disoluce patří k dílčím poškozením, která se podle [EA-5.
 
 Kategoriální disoluce je odlišitelná od **legitimní mystické zkušenosti** v rigorózních kontemplativních tradicích:
 
-- **Legitimní mystická zkušenost** je **reverzibilní** — subjekt se vrací do běžného kategoriálního fungování po sezení.
+- **Legitimní mystická zkušenost** je reverzibilní — subjekt se vrací do běžného kategoriálního fungování po sezení.
 - **Legitimní zkušenost** je **rituálně omezena** — má začátek, vrchol, konec.
 - **Legitimní zkušenost neredukuje** funkční schopnost.
-- **EA-5.2.7** je **chronická**, **nereverzibilní bez intervence**, a **dramaticky narušuje** každodenní funkčnost.
+- **EA-5.2.7** je **chronická**, **nereverzibilní bez intervence**, a dramaticky narušuje každodenní funkčnost.
 
-Hraniční případ: některé pokročilé kontemplativní stavy (specifické nirvikalpa) mohou vykazovat strukturální podobnost. Tradice, které je provádějí, **explicitně** instalují **rituál návratu** a **komunitní rámec**, který stav drží reverzibilní.
+Hraniční případ: některé pokročilé kontemplativní stavy (specifické nirvikalpa) mohou vykazovat strukturální podobnost. Tradice, které je provádějí, explicitně instalují **rituál návratu** a **komunitní rámec**, který stav drží reverzibilní.
 
 ## Rizikové kontexty
 

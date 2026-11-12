@@ -50,7 +50,7 @@ Od náročné, ale skutečně zvolené praxe se vzorec liší tím, že se kolem
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|

@@ -37,7 +37,7 @@ Na rozdíl od jiných typů poznání s dvojím užitím (biologické zbraně, j
 - Jsou škálovatelné bez výrazných marginálních nákladů
 - Mohou být automatizovány skrze generativní modely
 
-Tato charakteristika **fundamentálně mění kalkulus rizika**. Tradiční modely dual-use předpokládají strukturální překážky bránící nekontrolovanému šíření; v případě epistemických technik tyto překážky **neexistují** mimo institucionální a etický rámec.
+Tato charakteristika **fundamentálně mění kalkulus rizika**. Tradiční modely dual-use předpokládají strukturální překážky bránící nekontrolovanému šíření; v případě epistemických technik tyto překážky neexistují mimo institucionální a etický rámec.
 
 ### Neviditelnost poškození
 

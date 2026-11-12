@@ -101,7 +101,7 @@ Falešná ekvivalence vs. **legitimní balance**:
 
 #### 1. **Explicitní artikulace relevantních asymetrií**
 
-Při prezentaci dvou pozic **explicitně** zformuluj relevantní asymetrie:
+Při prezentaci dvou pozic explicitně zformuluj relevantní asymetrie:
 
 - „Kolik expertů v poli zastává každou pozici?“
 - „Jaká je metodologická kvalita každé strany?“
@@ -122,7 +122,7 @@ V kontextech evidentně asymetrických nepřebírej „neutrální“ pozici. **
 
 #### 4. **Kontextualizace distribuce**
 
-Při referenci k „debatě“ **explicitně** zmiň distribuci:
+Při referenci k „debatě“ explicitně zmiň distribuci:
 
 - „Mezi 97 % klimatologů panuje konsensus o…“
 - „Většina meta-analýz ukazuje…“
@@ -130,7 +130,7 @@ Při referenci k „debatě“ **explicitně** zmiň distribuci:
 
 #### 5. **Active asymmetric framing**
 
-Přijetí asymetrického framing **není** porušením nestrannosti — je to její **realistická** aplikace. Norma „dát slovo všem“ se nevztahuje na **plagiátorskou** aplikaci na nesrovnatelné entity.
+Přijetí asymetrického framing není porušením nestrannosti — je to její **realistická** aplikace. Norma „dát slovo všem“ se nevztahuje na **plagiátorskou** aplikaci na nesrovnatelné entity.
 
 ### Institucionální
 
@@ -156,7 +156,7 @@ Intervence: Editorial guidelines požadující explicitní kontextualizaci („*
 
 Reviewer odmítl manuskript s tvrzením, že pozice představovaná v manuskriptu je **jednou z dvou kompetitivních pozic** v poli, a manuskript „**nedostatečně reprezentuje** alternativní pozici“.
 
-Detekce: Editor zjistil, že reviewer **konzistentně** používal toto framing pro jednu specifickou metodologickou školu, **bez** přiznání, že tato škola má **5 %** publikační podpory v poli.
+Detekce: Editor zjistil, že reviewer **konzistentně** používal toto framing pro jednu specifickou metodologickou školu, bez přiznání, že tato škola má **5 %** publikační podpory v poli.
 
 Intervence: Strukturální requirement pro reviewers — explicitní disclosure školního zázemí a kvantitativní reprezentace pozic v relevantní literatuře.
 

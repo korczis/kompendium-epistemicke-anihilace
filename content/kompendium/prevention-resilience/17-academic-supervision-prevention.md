@@ -45,14 +45,14 @@ Typické akademické vzorce EA:
   doporučeních a budoucí kariéře; student nemá nezávislý pohled na kvalitu své práce.
 - **Přepisování podílu** – výsledky studenta se připisují jinému, nebo se zpětně tvrdí, že
   myšlenka nebyla jeho.
-- **Izolace** – student je odrazován od spolupráce s jinými pracovišti, konferencí nebo
+- Izolace – student je odrazován od spolupráce s jinými pracovišti, konferencí nebo
   konzultací mimo laboratoř.
 - **Totalizace času** – očekávání práce bez hranic, kdy odpočinek je chápán jako nedostatek
   oddanosti; srov. [Výzkumná laboratoř jako kult](@/kompendium/case-studies/35-research-lab-cult.md).
 - **Zpochybňování kompetence** – opakované a nekonkrétní výroky „na vědu nemáte“, které se
   nedají vyvrátit, protože se netýkají žádného konkrétního výstupu.
 
-Odlišit EA od náročného, ale poctivého vedení pomáhá několik otázek. Je kritika **konkrétní**
+Odlišit EA od náročného, ale poctivého vedení pomáhá několik otázek. Je kritika konkrétní
 – týká se určité kapitoly, metody, výpočtu –, nebo **globální** – týká se osoby a jejích
 schopností? Lze s ní **nesouhlasit** a obhájit vlastní postup, nebo je nesouhlas trestán? Je
 školitel ochoten, aby student slyšel **druhý názor**, nebo ho od něj odrazuje? A mění se
@@ -139,7 +139,7 @@ Záchyt přišel od člověka mimo vztah moci, který věděl, jaké pojistky in
 
 ## Indikátory úspěchu
 
-Validované normy pro akademický dohled ve vztahu k EA **neexistují**. Instituce si cíle
+Validované normy pro akademický dohled ve vztahu k EA neexistují. Instituce si cíle
 stanoví podle vlastních dat a sledují:
 
 - dobu od prvních změn k nabídce podpory,

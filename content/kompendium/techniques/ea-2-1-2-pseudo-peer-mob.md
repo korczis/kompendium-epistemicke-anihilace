@@ -96,7 +96,7 @@ Co prožívá oběť pseudo-peer mob:
 
 | Strategie | Implementace |
 |-----------|--------------|
-| **Coordination policy** | Profesní etika **explicitně** zakazuje koordinované peer útoky bez disclosure |
+| **Coordination policy** | Profesní etika explicitně zakazuje koordinované peer útoky bez disclosure |
 | **Open letter standards** | Open letters musí **jmenovat** organizátora a proces signing |
 | **Forensic capability** | Instituce mají kapacitu pro **network forensics** v případech harassmentu |
 | **Sanction precedent** | Účast v koordinovaném útoku **má profesní následky** |

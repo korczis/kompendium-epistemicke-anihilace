@@ -82,7 +82,7 @@ odborné péče a jednání v nejlepším zájmu klienta v řadě finančních r
 
 U ověření totožnosti pomáhá **vícezdrojové ověření** (nejen doklad a obličej, ale i nezávislý
 registr nebo spolehlivá elektronická identita), **detekce anomálií** při videoověření,
-**lidské posouzení** u sporných případů a **sdílení informací** o zjištěných podvodných
+lidské posouzení u sporných případů a **sdílení informací** o zjištěných podvodných
 identitách v rámci zákonných mezí. U příběhu klienta pomáhá **porozumění místo kontrolního
 seznamu**: ptát se otevřeně a nechat klienta vysvětlit vlastními slovy. U klientů pod
 vlivem pomáhá **rozhovor bez přítomnosti třetí osoby**, **nabídka odkladu**, **možnost

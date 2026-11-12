@@ -136,7 +136,7 @@ udržela otevřené vztahy, po nichž se dalo vrátit.
 
 ## Indikátory úspěchu
 
-Validované normy komunitní odolnosti vůči EA **neexistují**. Komunita může sledovat proměnné
+Validované normy komunitní odolnosti vůči EA neexistují. Komunita může sledovat proměnné
 spojené se sociálním kapitálem a kolektivní účinností a porovnávat je se svým výchozím stavem:
 
 - účast na komunitních akcích a její složení (věk, skupiny),

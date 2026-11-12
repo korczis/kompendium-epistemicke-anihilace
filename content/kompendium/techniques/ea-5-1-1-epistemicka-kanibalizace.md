@@ -52,7 +52,7 @@ Zasažený člověk referuje vděčnost rostoucí s mírou pohlcení a paniku p�
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** epistemické kanibalizace:
+Co prožívá subjekt uvnitř epistemické kanibalizace:
 
 | Znak | Popis |
 |------|-------|
@@ -114,7 +114,7 @@ I rané, nehotové vhledy by měly být zveřejněny v **kontrolovatelných** ka
 
 #### 3. **Triangulace mimo vztah**
 
-Subjekt sdílí klíčové ideje **také** s nezávislými třetími stranami **mimo** kanibalizační vztah. Tyto třetí strany slouží jako **autorští svědci**.
+Subjekt sdílí klíčové ideje **také** s nezávislými třetími stranami mimo kanibalizační vztah. Tyto třetí strany slouží jako **autorští svědci**.
 
 #### 4. **Dočasná epistemická separace**
 
@@ -169,7 +169,7 @@ Intervence: Veřejné svědectví, deklarace komunity jako kanibalizační struk
 ### Alternativy / podobné, ale **distinktivní**
 
 - **Legitimní mentorská kontribuce** — mentor přidává kontextualizaci, metodologickou rigorozitu a explicitně připisuje subjektovi autorství raných idejí.
-- **Plagiát v úzkém slova smyslu** — krádež bez dlouhodobého vztahu; kanibalizace operuje **uvnitř** vztahu a **mění** subjektovu autorskou paměť.
+- **Plagiát v úzkém slova smyslu** — krádež bez dlouhodobého vztahu; kanibalizace operuje uvnitř vztahu a **mění** subjektovu autorskou paměť.
 
 ## Literatura
 

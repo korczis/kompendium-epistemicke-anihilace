@@ -50,7 +50,7 @@ Od běžného tělesného kontaktu se vzorec liší asymetrií: pravidla kontakt
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|

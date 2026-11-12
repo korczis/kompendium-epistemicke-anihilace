@@ -52,7 +52,7 @@ Detekční markery zachycené na této stránce odpovídají téže struktuře: 
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** konvergentní singularity:
+Co prožívá subjekt uvnitř konvergentní singularity:
 
 - **Pocit hluboké jasnosti** — „konečně všemu rozumím“, „všechno do sebe zapadá“
 - **Subjektivní svoboda** — subjekt prožívá své uvažování jako svobodné, navzdory deterministickému výstupu
@@ -134,7 +134,7 @@ Klient po 4 letech intenzivní práce s jedním terapeutickým rámcem začal vy
 
 ### Případ 2 — Korporátní strategická monokultura
 
-Vrcholový tým velké organizace po dlouhodobé spolupráci s jediným strategickým konzultantem začal interpretovat **veškeré** výzvy (regulatorní, technologické, lidskoresursní) skrze jediný framework. Detekce: externí audit odhalil, že **žádný** člen týmu nedokázal generovat strategickou alternativu, která by neredukovala na centrální framework. Intervence: rotace konzultantů, povinná cross-disciplinary review.
+Vrcholový tým velké organizace po dlouhodobé spolupráci s jediným strategickým konzultantem začal interpretovat **veškeré** výzvy (regulatorní, technologické, lidskoresursní) skrze jediný framework. Detekce: externí audit odhalil, že žádný člen týmu nedokázal generovat strategickou alternativu, která by neredukovala na centrální framework. Intervence: rotace konzultantů, povinná cross-disciplinary review.
 
 ### Případ 3 — Komunitní ideologická konvergence
 

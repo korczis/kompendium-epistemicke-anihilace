@@ -15,7 +15,7 @@ insert_anchor_links = "right"
 
 # 01. Předmluva
 
-Úvodní sekce kompendia vysvětluje, **proč** taxonomie vznikla, **pro koho** je určena, **jaké etické rámce** ji vážou a **jak s ní pracovat**. Doporučujeme začít právě zde – bez porozumění etickému kontextu by četba zbylých sekcí mohla být zavádějící.
+Úvodní sekce kompendia vysvětluje, proč taxonomie vznikla, **pro koho** je určena, **jaké etické rámce** ji vážou a **jak s ní pracovat**. Doporučujeme začít právě zde – bez porozumění etickému kontextu by četba zbylých sekcí mohla být zavádějící.
 
 ## Proč kniha začíná etikou
 

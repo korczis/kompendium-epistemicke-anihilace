@@ -29,7 +29,7 @@ rozpoznána včas a aby se po zotavení neopakovala.
 Caplan (1964) rozdělil prevenci v psychiatrii na **primární** (předejít vzniku poruchy),
 **sekundární** (zkrátit její trvání včasným záchytem) a **terciární** (omezit trvalé následky
 a předejít relapsu). Gordon (1983) navrhl jiné, doplňující členění podle toho, komu je
-opatření určeno: **univerzální** prevence pro celou populaci, **selektivní** pro skupiny se
+opatření určeno: **univerzální** prevence pro celou populaci, selektivní pro skupiny se
 zvýšeným rizikem a **indikovaná** pro jednotlivce s prvními projevy. Zpráva amerického
 Institute of Medicine (Mrazek a Haggerty 1994) toto členění převzala pro prevenci duševních
 poruch. Sekce používá Caplanovo třídění jako osnovu a Gordonovo tam, kde jde o volbu cílové

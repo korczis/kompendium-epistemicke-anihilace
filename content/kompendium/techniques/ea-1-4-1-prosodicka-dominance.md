@@ -54,7 +54,7 @@ Detekční markery zachycené níže odpovídají téže struktuře: posluchač 
 |------|---------------------|
 | **Sociální tlak na akceptaci** | "Asi je to správné, prezentátor zní jistě" |
 | **Inhibice otázek** | Diskomfort při zpochybnění autoritativně prezentovaného tvrzení |
-| **Surface persuasion** | Pocit přesvědčení **bez** schopnosti reformulovat argument |
+| **Surface persuasion** | Pocit přesvědčení bez schopnosti reformulovat argument |
 | **Status threat** | Strach, že kritická otázka odhalí "naive" pozici |
 | **Hesitation to disagree** | Nevyslovený dotaz |
 | **Akceptace bez evaluace** | "Asi to bude pravda, jinak by to neříkal/a tak důrazně" |
@@ -111,7 +111,7 @@ Tato disciplinovaná evaluace dramaticky snižuje vliv prosodie.
 
 #### 2. **Meta-komunikativní poznámky**
 
-Při detekci prosodické dominance **explicitně** ji jmenuj:
+Při detekci prosodické dominance explicitně ji jmenuj:
 
 > *„Vaše prezentace je velmi přesvědčivá, ale chci se zaměřit na substantivní claim. Můžete prosím explicitně formulovat svůj argument?“*
 
@@ -123,7 +123,7 @@ Vyžaduj **písemnou** verzi klíčových argumentů:
 
 > *„Mohli byste prosím poslat tento argument písemně?“*
 
-Písemný formát **strukturálně** odolává prosodické dominanci. Pokud písemná verze je **slabší** než verbal, je to **diagnostický** indikátor.
+Písemný formát strukturálně odolává prosodické dominanci. Pokud písemná verze je **slabší** než verbal, je to **diagnostický** indikátor.
 
 #### 4. **Audio analysis ex-post**
 
@@ -138,7 +138,7 @@ Triangulate informaci přes **multiple modality**:
 - Quantitative (resistance)
 - Independent expert opinion
 
-Pokud informace silně závisí na **specifickém řečníkovi**, je to **silný indikátor** prosodické závislosti.
+Pokud informace silně závisí na **specifickém řečníkovi**, je to silný indikátor prosodické závislosti.
 
 ### Institucionální
 
@@ -159,11 +159,11 @@ Highly-rated TED talk získal milióny views. Substance byl **později** kritizo
 Detekce: Externí akademický review identifikoval, že:
 
 - Speaker prezentoval s **excellent prosodie**
-- Substantivně tvrzení byla **selektivní** a **kvantitativně nepodložená**
+- Substantivně tvrzení byla selektivní a **kvantitativně nepodložená**
 - Žádné peer review backing
 - Speaker měl background v public speaking, ne v field
 
-Intervence: TED guidelines požadují **academic verification** klíčových factual claims; speaker training **integruje** substantive accuracy.
+Intervence: TED guidelines požadují **academic verification** klíčových factual claims; speaker training integruje substantive accuracy.
 
 ### Případ 2 — Korporátní pitch
 
@@ -179,7 +179,7 @@ Intervence: VC firma redesigned due diligence — required **detailed written do
 
 ### Případ 3 — Klinická konzultace
 
-Pacient s vážnou diagnózou dostal **authoritative recommendation** pro specifický léčebný plán. **Acceptace** byla rapid, **bez** explicit [informed consent](@/glossary/informed-consent.md) process.
+Pacient s vážnou diagnózou dostal **authoritative recommendation** pro specifický léčebný plán. **Acceptace** byla rapid, bez explicit [informed consent](@/glossary/informed-consent.md) process.
 
 Detekce: Patient advocate identifikoval vzorec — pacienti accepted recommendations bez exploration alternative.
 
@@ -196,7 +196,7 @@ Intervence: Klinické protokoly — **mandatorní** written treatment options, *
 
 ### Eskaluje do
 
-- **[EA-1.6.1](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) Vzorec „Guru a adept“** — guru typically má vysoce trained prosodii; **klíčový** mechanism establishment autority.
+- **[EA-1.6.1](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) Vzorec „Guru a adept“** — guru typically má vysoce trained prosodii; klíčový mechanism establishment autority.
 - **Kolektivní prosodická norma** — strukturální dominance v institucionálním měřítku (např. **executive culture**).
 
 ### Hraniční / podobné

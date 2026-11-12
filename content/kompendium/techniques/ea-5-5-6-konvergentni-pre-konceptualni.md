@@ -50,7 +50,7 @@ Od jednotlivé disrupce se vzorec liší tím, že se vrstvy drží navzájem a 
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|

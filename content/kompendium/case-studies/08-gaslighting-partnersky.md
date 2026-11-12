@@ -52,7 +52,7 @@ kroků byl formulován jako starost o ni. Stark (2007) zdůrazňuje, že izolace
 
 Fáze **idealizace** (měsíce 1–8) přinesla rychlé sblížení, společné bydlení a pocit jedinečného
 porozumění. Fáze **prvního popření** (měsíce 8–18) zahrnovala drobné neshody o tom, co bylo
-řečeno, a zpochybňování přátel. Ve fázi **izolace** (roky 2–3) následovalo omezení kontaktů,
+řečeno, a zpochybňování přátel. Ve fázi izolace (roky 2–3) následovalo omezení kontaktů,
 kontrola telefonu „z lásky“ a společné finance pod jeho správou. Johnson (2008) odlišuje
 „intimní terorismus“, tedy násilí zakotvené v obecném vzorci kontroly, od situačního párového
 konfliktu; kontrola financí, kontaktů a komunikace je pro první typ charakteristická.

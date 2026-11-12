@@ -60,7 +60,7 @@ vrstvou je epistemologie: Miranda Fricker (2007) pojmenovala epistemickou nespra
 ## Mechanismus (strukturní popis)
 
 Kánon je uspořádán tak, aby každá vrstva vysvětlovala jinou úroveň téhož jevu. Lifton
-(1961) a Schein a kol. (1961) popisují **prostředí**, které přetváří myšlení. Festinger
+(1961) a Schein a kol. (1961) popisují prostředí, které přetváří myšlení. Festinger
 a kol. (1956) a Milgram (1974) vysvětlují **psychologické mechanismy**, díky nimž prostředí
 působí i na lidi bez zvláštní zranitelnosti. Arendtová (1951) ukazuje **politickou
 a společenskou rovinu**. Hermanová (1992) a Stark (2007) přenášejí pozornost na **vztahy

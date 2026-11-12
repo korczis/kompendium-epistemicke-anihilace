@@ -85,7 +85,7 @@ další povinnosti, včetně lidského dohledu. Pro údaje o trestních věcech 
 ## Ochranná opatření
 
 Pro organizace: **postup pro sporné údaje** (kdo ověřuje, v jaké lhůtě, s jakým výsledkem),
-**propagace opravy** k příjemcům údajů, **vysvětlitelnost** rozhodnutí, **lidské posouzení**
+**propagace opravy** k příjemcům údajů, **vysvětlitelnost** rozhodnutí, lidské posouzení
 u rozhodnutí s významným dopadem, **pravidelné ověřování přesnosti** u údajů, které se
 přebírají z externích zdrojů, a **minimalizace** – co se neshromáždí, nemůže se stát
 chybným příběhem. Pro jednotlivce: **žádost o přístup** k údajům u institucí, kde má

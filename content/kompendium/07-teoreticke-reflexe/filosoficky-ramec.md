@@ -76,7 +76,7 @@ Pro EA to má důsledek v **cherry-pickingu jako falešné identitě**: manipula
 Adornova analýza *Kulturindustrie* (1944) anticipuje současnou kritiku platformové ekonomiky: standardizace kulturní produkce vede k **standardizaci subjektů**, kteří ji konzumují. Pro EA to znamená:
 
 - **Algoritmická amplifikace** sociálních sítí představuje současný analog adornovské kulturní industrializace.
-- Útoky na epistemické kapacity nejsou primárně intencionální — jsou **strukturálně** vepsány do logiky pozornostní ekonomie.
+- Útoky na epistemické kapacity nejsou primárně intencionální — jsou strukturálně vepsány do logiky pozornostní ekonomie.
 - Kompendium tuto perspektivu absorbuje v kategoriích **strukturálních** EA technik (multidimenzionální osa intencionality, [2.3](@/kompendium/02-uvod/teoreticke-zaklady.md)).
 
 ### 2.4 Studia autoritářské osobnosti
@@ -190,11 +190,11 @@ Habermasovo rozlišení **[lebenswelt](@/glossary/lebenswelt.md)** (světa živo
 - **Sloterdijk** → sférická perspektiva epistemické rezilience, vrstvené imunologie
 - **Habermas** → normativní kritérium odlišení manipulace od legitimní argumentace
 
-Tato integrace **není** synkretickým eklekticismem — je výsledkem **systematické komparace** silných a slabých stránek každého rámce vůči empirickému předmětu (taxonomicky popsaným technikám EA).
+Tato integrace není synkretickým eklekticismem — je výsledkem **systematické komparace** silných a slabých stránek každého rámce vůči empirickému předmětu (taxonomicky popsaným technikám EA).
 
 ## 7. Otevřené body
 
-Filosofický rámec kompendia **není** uzavřený. Otevřené teoretické body, na něž navazují další kapitoly sekce 07 a budoucí výzkum:
+Filosofický rámec kompendia není uzavřený. Otevřené teoretické body, na něž navazují další kapitoly sekce 07 a budoucí výzkum:
 
 - **Vztah k empirické psychotraumatologii** — viz [7.2 Vztah k epistemickému traumatu](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md)
 - **Sociálně-epistemologická operacionalizace** — viz [7.3 Sociální epistemologie EA](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md)
@@ -229,8 +229,8 @@ Filosofický rámec kompendia **není** uzavřený. Otevřené teoretické body,
 
 **Teoretické reflexe ne jsou závěry — jsou pozvánkami k myšlení.** Po četbě:
 
-1. Identifikuj **alespoň jeden bod**, kde nesouhlasíš s autorovou formulací
-2. Formuluj svou **vlastní alternativní pozici** v 3–5 větách
+1. Identifikuj alespoň jeden bod, kde nesouhlasíš s autorovou formulací
+2. Formuluj svou vlastní alternativní pozici v 3–5 větách
 3. Najdi v [bibliografii](@/kompendium/08-prilohy/bibliografie.md) primární
    zdroj, který tvou alternativu podporuje (alespoň 1)
 

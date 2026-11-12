@@ -29,7 +29,7 @@ Injustice: Power and the Ethics of Knowing*, 2007) rozlišuje dvě formy:
 předsudku o jeho identitě, a **hermeneutickou nespravedlnost**, kdy člověku chybějí sdílené
 pojmy, jimiž by svou zkušenost mohl pochopit a sdělit.
 
-Pro knihu je pojem dvojí. Popisuje **prostředí**, v němž se epistemické anihilaci daří:
+Pro knihu je pojem dvojí. Popisuje prostředí, v němž se epistemické anihilaci daří:
 komu se nevěří, ten se snáz stane obětí a hůř se brání. A popisuje **chybu**, které se může
 dopustit i ten, kdo pomáhá – klinik, soudce nebo vyšetřovatel, který výpovědi oběti
 nepřikládá váhu, protože „takoví lidé přehánějí“.

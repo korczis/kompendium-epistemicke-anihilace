@@ -156,7 +156,7 @@ Use somatic awareness as early warning system.
 
 ### Případ 1 — Akademická supervize
 
-PhD student prožíval **discomfort** během supervisor meetings, **bez** specifické artikulace. Externí coach analyzoval setup:
+PhD student prožíval **discomfort** během supervisor meetings, bez specifické artikulace. Externí coach analyzoval setup:
 
 - Supervisor sat **behind** large desk
 - Student sat in **lower chair**

@@ -50,7 +50,7 @@ Od zájmu o světelné prostředí se vzorec liší tím, že zdravotní událos
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|

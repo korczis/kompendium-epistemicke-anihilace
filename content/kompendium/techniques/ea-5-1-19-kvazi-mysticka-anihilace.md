@@ -52,7 +52,7 @@ Detekční markery zachycené na této stránce odpovídají téže struktuře: 
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** kvazi-mystické anihilace:
+Co prožívá subjekt uvnitř kvazi-mystické anihilace:
 
 - **Jednota** s manipulátorem nebo komunitou prožívaná jako kosmická pravda
 - **Transcendence racionality** — pocit, že racionální myšlení je „nižší modus“ překonaný

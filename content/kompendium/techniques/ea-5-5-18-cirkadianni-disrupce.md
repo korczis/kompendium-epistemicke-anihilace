@@ -50,7 +50,7 @@ Od dobrovolné změny režimu se vzorec liší tím, že člověk nemá přístu
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|

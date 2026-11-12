@@ -135,7 +135,7 @@ Umělá komplexita:
 
 #### 4. **Hierarchizace faktorů**
 
-Pro **každý** komplexní problém aktivně vytvoř **hierarchii faktorů**:
+Pro každý komplexní problém aktivně vytvoř **hierarchii faktorů**:
 
 - **Primary** — fundamentálně rozhodující
 - **Secondary** — relevantní, ale ne rozhodující
@@ -146,7 +146,7 @@ Iluzorní komplexita strukturálně **vylučuje** tuto hierarchizaci.
 
 #### 5. **Active assertion of stable conclusions**
 
-Tam, kde stabilní závěr existuje, **explicitně** ho artikuluj:
+Tam, kde stabilní závěr existuje, explicitně ho artikuluj:
 
 > *„V této oblasti existuje vědecký konsensus, že [závěr]. Vaše introdukce faktorů X, Y, Z je technicky validní, ale **nemění** centrální závěr.“*
 

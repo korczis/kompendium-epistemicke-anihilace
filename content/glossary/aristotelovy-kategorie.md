@@ -24,8 +24,8 @@ spisů zvaného *Organon*) uvádí deset kategorií:
 2. **kolikost** (kvantita) – „dva lokty dlouhý“;
 3. **jakost** (kvalita) – „bílý“, „gramotný“;
 4. **vztah** – „dvojnásobný“, „větší“;
-5. **kde** (místo) – „v Lykeiu“;
-6. **kdy** (čas) – „včera“;
+5. kde (místo) – „v Lykeiu“;
+6. kdy (čas) – „včera“;
 7. **poloha** – „leží“, „sedí“;
 8. **mít** (stav) – „obutý“, „ozbrojený“;
 9. **činnost** – „řeže“;

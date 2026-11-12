@@ -19,7 +19,7 @@ type = "historical-case"
 > **Místo**: USA, Turecko a další země
 
 Narativ o „hlubokém státu“ (*deep state*) se liší od ostatních případů této sekce: nejde o jedno
-vyvratitelné tvrzení, ale o **interpretační rámec**, který může mít oprávněné jádro i
+vyvratitelné tvrzení, ale o interpretační rámec, který může mít oprávněné jádro i
 nevyvratitelnou podobu (Skowronek, Dearborn a King, 2021). V Kompendiu slouží k tomu, aby čtenář
 dokázal rozlišit mezi legitimní kritikou nekontrolované moci institucí a vzorcem, v němž se každá
 institucionální překážka stává důkazem spiknutí. Stránka nehodnotí politické aktéry; popisuje

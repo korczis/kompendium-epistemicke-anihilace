@@ -22,7 +22,7 @@ slévají do hrubších, a nakonec do jediné kategorie. Mezi kritikou a útokem
 a kontrolou, mezi omylem a lží přestává vidět rozdíl – nebo ho vidí, ale nedokáže ho
 pojmenovat a použít.
 
-Zploštění se netýká inteligence ani množství znalostí. Postihuje **strukturu** pojmového
+Zploštění se netýká inteligence ani množství znalostí. Postihuje strukturu pojmového
 prostoru: místo členité mapy zůstává několik velkých, neurčitých oblastí. Je cílovým stavem
 techniky [EA-5.1.22 Diferenciální nihilace](@/kompendium/techniques/ea-5-1-22-diferencialni-nihilace.md).
 

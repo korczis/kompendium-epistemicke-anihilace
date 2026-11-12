@@ -132,7 +132,7 @@ nesměla dělat.“
 
 ## Indikátory úspěchu
 
-Validované normy obnovy dovedností po EA **neexistují**. Program sleduje změnu oproti
+Validované normy obnovy dovedností po EA neexistují. Program sleduje změnu oproti
 výchozímu stavu člověka: rozsah činností, které zvládá samostatně, vnímanou vlastní účinnost
 v konkrétních oblastech, výsledky opakovaného kognitivního vyšetření tam, kde bylo indikováno,
 a míru, v níž klient sám rozhoduje o dalších krocích programu.

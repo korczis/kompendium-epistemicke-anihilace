@@ -54,7 +54,7 @@ Detekční markery zachycené na této stránce odpovídají téže struktuře: 
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** konceptuální nihilace:
+Co prožívá subjekt uvnitř konceptuální nihilace:
 
 | Znak | Popis |
 |------|-------|
@@ -111,7 +111,7 @@ Subjekt si pravidelně píše **operativní definice** klíčových pojmů — v
 
 #### 2. **Distinkce filozofie vs. orientace**
 
-Filozofická analýza patří **do filozofického prostoru** s vyhrazeným časem a strukturou. **Mimo** tento prostor se používají pracovní pojmy bez meta-revize. Subjekt si chrání **dvojkolejnost**: kontemplace zvlášť, jednání zvlášť.
+Filozofická analýza patří **do filozofického prostoru** s vyhrazeným časem a strukturou. Mimo tento prostor se používají pracovní pojmy bez meta-revize. Subjekt si chrání **dvojkolejnost**: kontemplace zvlášť, jednání zvlášť.
 
 #### 3. **Externí pojmový anchor**
 

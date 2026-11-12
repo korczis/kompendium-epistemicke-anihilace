@@ -38,7 +38,7 @@ Kompendium tuto tradici zpracovává v referenční kartě [EA-7.3.2 Tversky & K
 
 ## Mechanismus
 
-Heuristiky jsou **adaptivní**: šetří čas a pozornost, a bez nich by běžný život nebyl možný. Jejich slabinou je předvídatelnost. Kdo ví, jak lidé zkracují úsudek, dokáže prostředí uspořádat tak, aby zkratka vedla tam, kam chce – a to je strukturní jádro řady manipulačních technik. Kompendium tento vztah popisuje jako zneužití, nikoli jako návod: pro obranu stačí vědět, **kde** zkratka selhává, aby bylo možné ji v rizikové situaci vědomě zpomalit.
+Heuristiky jsou **adaptivní**: šetří čas a pozornost, a bez nich by běžný život nebyl možný. Jejich slabinou je předvídatelnost. Kdo ví, jak lidé zkracují úsudek, dokáže prostředí uspořádat tak, aby zkratka vedla tam, kam chce – a to je strukturní jádro řady manipulačních technik. Kompendium tento vztah popisuje jako zneužití, nikoli jako návod: pro obranu stačí vědět, kde zkratka selhává, aby bylo možné ji v rizikové situaci vědomě zpomalit.
 
 Zvlášť zranitelný je úsudek pod časovým tlakem, při únavě, ve stresu a při informačním přetížení (srov. [informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md)), tedy v podmínkách, které systémy s vysokou mírou kontroly často vytvářejí.
 

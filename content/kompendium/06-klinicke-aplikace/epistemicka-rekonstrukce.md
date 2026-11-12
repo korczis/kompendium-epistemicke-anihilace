@@ -74,7 +74,7 @@ Klient typicky pochybuje o své vlastní zkušenosti („možná to bylo jen v m
 
 - **Validuje** pochybnost jako **legitimní následek** EA;
 - **Nepřesvědčuje** klienta o faktickém průběhu;
-- Nabízí **rámec** („ať už proběhlo cokoli, vaše utrpení je reálné“);
+- Nabízí rámec („ať už proběhlo cokoli, vaše utrpení je reálné“);
 - Postupně buduje klientovu schopnost **udržet více možných interpretací** vedle sebe.
 
 ### Markery dokončení S1
@@ -174,7 +174,7 @@ Klient se učí **identifikovat** a **revidovat** tato přesvědčení.
 
 MBCT a MBSR rozvíjejí **observační metakognici** — schopnost pozorovat vlastní myšlenky, aniž by s nimi člověk byl identifikován.
 
-> **Adaptace pro EA**: Standardní mindfulness instrukce („nesuď své myšlenky“) může klientovi po EA imitovat manipulátorovo „neptej se a přijmi“. Klinik proto explicitně **legitimizuje hodnotící myšlení** jako součást zdravé metakognice — cílem **není** suspendovat hodnocení, ale **obnovit** schopnost ho strukturovaně provádět.
+> **Adaptace pro EA**: Standardní mindfulness instrukce („nesuď své myšlenky“) může klientovi po EA imitovat manipulátorovo „neptej se a přijmi“. Klinik proto explicitně **legitimizuje hodnotící myšlení** jako součást zdravé metakognice — cílem není suspendovat hodnocení, ale **obnovit** schopnost ho strukturovaně provádět.
 
 #### Trénink hodnocení důkazů
 
@@ -198,7 +198,7 @@ Specifická intervence pro klienty s narušenou paměťovou důvěrou:
 - Klient dokáže **reflektovat** vlastní myšlenkové procesy;
 - Klient dokáže **revidovat** přesvědčení po nových důkazech;
 - Klient dokáže **udržet nejistotu** bez akutní distresu;
-- Snížena **závislost** na externí validaci.
+- Snížena závislost na externí validaci.
 
 ## Stupeň S4: Hermeneutická obnova
 
@@ -254,7 +254,7 @@ Strukturované cvičení rozpoznání:
 
 ### Cíle stupně S5
 
-- **Integrovat** získané dovednosti do běžného života;
+- Integrovat získané dovednosti do běžného života;
 - Vybudovat **dlouhodobou resilienci**;
 - Připravit **plán pro relaps**;
 - Konsolidovat **podpůrnou síť**.

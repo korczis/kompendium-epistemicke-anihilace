@@ -111,7 +111,7 @@ Pojem banality zla vyvolal ostrou polemiku. Kritici namítali, že Arendtová Ei
 podcenila; historička Bettina Stangnethová (2011) na základě dokumentů z jeho
 argentinského exilu ukázala, že byl ideologicky přesvědčeným nacistou a před soudem
 hrál roli bezvýznamného úředníka. Kompendium proto pojem nepoužívá jako popis Eichmanna,
-ale jako popis **struktury**, v níž může zlo probíhat i bez démonických úmyslů. Pojem
+ale jako popis struktury, v níž může zlo probíhat i bez démonických úmyslů. Pojem
 také nesmí sloužit k omluvě: bezmyšlenkovitost není nevina. Arendtová sama trvala na
 tom, že Eichmann byl odpovědný a byl právem odsouzen.
 

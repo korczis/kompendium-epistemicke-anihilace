@@ -43,7 +43,7 @@ tvrdí, že rozhodující není jen míra ohrožení života, ale **míra zrady*
 na pachateli závislá (dítě na rodiči, pacient na lékaři, člen na skupině), je pro ni
 adaptivní zradu „nevidět“, aby udržela vztah, na němž závisí. Freydová tento jev nazývá
 **slepota ke zradě** (*betrayal blindness*). Nástroje měření proto třídí traumatické
-události podle toho, **kdo** je způsobil a v jakém vztahu k oběti.
+události podle toho, kdo je způsobil a v jakém vztahu k oběti.
 
 ## Původ a kontext
 

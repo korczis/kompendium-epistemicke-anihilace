@@ -36,7 +36,7 @@ Navazující autoři rozvinuli příbuzné pojmy: Kristie Dotsonová *contributo
 
 Strukturně jde o **nerovnost na úrovni pojmů**, nikoli jednotlivých rozhovorů. Kdo má sociální moc, má i větší podíl na tom, co se ve společnosti pojmenuje a jak; jeho zkušenosti jsou v kolektivním zdroji dobře zastoupeny. Kdo moc nemá, ten se v něm hledá marně. Výsledkem je, že nevýhoda se **reprodukuje sama**: bez pojmu nelze zkušenost sdílet, bez sdílení nevznikne pojem.
 
-Pro epistemickou anihilaci je hermeneutická marginalizace zvlášť důležitá. Uzavřené skupiny i manipulativní vztahy mohou vytvořit **lokální** hermeneutickou marginalizaci: člověk uvnitř nemá slova pro to, co se mu děje, protože slovník skupiny nebo partnera je takové pojmy vyloučil nebo převrátil (srov. [loading the language](@/glossary/loading-the-language.md), [gaslighting](@/glossary/gaslighting.md)).
+Pro epistemickou anihilaci je hermeneutická marginalizace zvlášť důležitá. Uzavřené skupiny i manipulativní vztahy mohou vytvořit lokální hermeneutickou marginalizaci: člověk uvnitř nemá slova pro to, co se mu děje, protože slovník skupiny nebo partnera je takové pojmy vyloučil nebo převrátil (srov. [loading the language](@/glossary/loading-the-language.md), [gaslighting](@/glossary/gaslighting.md)).
 
 ## Odlišení
 

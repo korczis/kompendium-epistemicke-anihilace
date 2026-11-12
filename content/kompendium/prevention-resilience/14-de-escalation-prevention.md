@@ -140,7 +140,7 @@ připomínat to, čeho se žena bála.
 
 ## Indikátory úspěchu
 
-Validované normy deeskalace u EA **neexistují**. Zařízení si cíle stanoví podle vlastních
+Validované normy deeskalace u EA neexistují. Zařízení si cíle stanoví podle vlastních
 výchozích dat a sledují:
 
 - počet vyhrocených incidentů a podíl, který se podařilo zvládnout bez restriktivních opatření,

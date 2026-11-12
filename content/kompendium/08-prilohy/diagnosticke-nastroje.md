@@ -24,7 +24,7 @@ status = "complete"
 
 ## Etická preambule
 
-Diagnostické nástroje uvedené v této příloze jsou určeny **výhradně** pro:
+Diagnostické nástroje uvedené v této příloze jsou určeny výhradně pro:
 
 - **Kvalifikované klinické psychology** s licencí k psychodiagnostice.
 - **Psychiatry** v rámci klinické nebo výzkumné praxe.
@@ -128,7 +128,7 @@ to byl nedoložený údaj, a nikoli ho hledat marně.
 
 ### Účel
 
-**IES-R** (Weiss & Marmar, 1997) je 22-položkový dotazník měřící **subjektivní distres** v reakci na specifický stresor během posledních 7 dní. Měří tři klastery PTSD-symptomatologie: **intruze**, **vyhýbání**, **hyperarousal**.
+**IES-R** (Weiss & Marmar, 1997) je 22-položkový dotazník měřící **subjektivní distres** v reakci na specifický stresor během posledních 7 dní. Měří tři klastery PTSD-symptomatologie: intruze, vyhýbání, **hyperarousal**.
 
 ### Struktura
 
@@ -243,12 +243,12 @@ populaci validované.
 **Tato příloha je referenční nástroj** — není k četbě od začátku do konce.
 Místo lineární četby:
 
-1. Identifikuj **konkrétní termín / techniku / nástroj**, který právě potřebuješ
+1. Identifikuj konkrétní termín / techniku / nástroj, který právě potřebuješ
 2. Použij vyhledávání (Cmd+F / Ctrl+F) v této stránce
 3. Pokud nenajdeš, zkontroluj [glosář](@/glossary/_index.md) a [rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md)
 
 > **Mandatorní akce**: použití přílohy bez konkrétní otázky je obvykle
-> formou prokrastinace. Definuj si nejprve, **co hledáš**, teprve pak
+> formou prokrastinace. Definuj si nejprve, co hledáš, teprve pak
 > otevři přílohu.
 
 ## Související

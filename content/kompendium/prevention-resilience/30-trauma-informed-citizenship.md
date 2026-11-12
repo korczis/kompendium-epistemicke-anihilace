@@ -124,7 +124,7 @@ cítila, že to, co jsem zažila, je znalost.“
 
 ## Indikátory úspěchu
 
-Validované normy trauma-informovaného občanství **neexistují**. Organizace sledují podíl služeb,
+Validované normy trauma-informovaného občanství neexistují. Organizace sledují podíl služeb,
 které zapojují lidi s žitou zkušeností, rozsah a kvalitu přípravy a supervize vrstevnických
 pracovníků, změny metodik a politik, na nichž se přeživší podíleli, a pohodu samotných
 angažovaných přeživších (vyčerpání, odchody, spokojenost s rolí). Nástroje posttraumatického

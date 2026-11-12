@@ -52,13 +52,13 @@ Nepříznivý průběh se pozná podle toho, že skupina ztvrdne: neshoda z ní 
 
 Kohorty 6–12 trainees; absolvované programy formující alumni komunity.
 
-Edukativní cíl není **změna chování** v behaviorálním smyslu, ale **kultivace kompetencí** umožňujících autonomní navigaci v epistemicky náročných kontextech. Cílová populace je primárně dospělí profesionálové s baseline metakognitivní stabilitou — technika není určena pro klinické intervence u aktivně dekompenzovaných jedinců.
+Edukativní cíl není změna chování v behaviorálním smyslu, ale kultivace kompetencí umožňujících autonomní navigaci v epistemicky náročných kontextech. Cílová populace je primárně dospělí profesionálové s baseline metakognitivní stabilitou — technika není určena pro klinické intervence u aktivně dekompenzovaných jedinců.
 
 ## Předpoklady
 
 Stabilní baseline metakognice (EA-3.1.3); [informovaný souhlas](@/glossary/informed-consent.md) se sdílením reflektivního materiálu uvnitř komunity; norma vzájemné konfidencionality.
 
-Bez splnění předpokladů technika produkuje suboptimální výsledky a může generovat iatrogenní efekty. Předpoklady nejsou byrokratické formality, ale **strukturální podmínky** efektivity intervence.
+Bez splnění předpokladů technika produkuje suboptimální výsledky a může generovat iatrogenní efekty. Předpoklady nejsou byrokratické formality, ale strukturální podmínky efektivity intervence.
 
 ## Implementační protokol
 
@@ -70,7 +70,7 @@ Konkrétní implementace vyžaduje:
 4. **Quality assurance** — peer review nebo external observation alespoň 10 % sessions.
 5. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
 
-Implementace je **iterativní** — každý cyklus generuje data informující úpravy v dalších cyklech.
+Implementace je iterativní — každý cyklus generuje data informující úpravy v dalších cyklech.
 
 ## Hodnotící kritéria
 
@@ -81,7 +81,7 @@ Implementace je **iterativní** — každý cyklus generuje data informující �
 | Triangulation accuracy | Komunita správně identifikuje manipulace v test-cases |
 | Longevity | >50 % vazeb přetrvává >2 roky
 
-Evaluace integruje **kvantitativní** (validované instrumenty) i **kvalitativní** (reflektivní eseje, ethnographic observation) datové zdroje. Žádná samostatná metrika není dostatečná — multidimenzionální evaluace je nezbytná.
+Evaluace integruje kvantitativní (validované instrumenty) i kvalitativní (reflektivní eseje, ethnographic observation) datové zdroje. Žádná samostatná metrika není dostatečná — multidimenzionální evaluace je nezbytná.
 
 ## Rizika a kontraindikace
 
@@ -115,7 +115,7 @@ Technika je integrální součástí subkategorie 3.1 a je navržena pro synergi
 
 ### Vztah k EA-1 a EA-2
 
-Tato edukativní technika **operacionalizuje** poznatky z taxonomie:
+Tato edukativní technika operacionalizuje poznatky z taxonomie:
 
 - **[EA-1 Techniky epistemické anihilace](@/kompendium/03-zakladni-kategorie/kapitola-1.md)** — obsahový materiál pro výuku.
 - **[EA-2 Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)** — komplexní real-world cases pro analýzu.

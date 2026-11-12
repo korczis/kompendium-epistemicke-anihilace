@@ -83,7 +83,7 @@ Sebe-referenční paradox jako manipulativní technika je odlišitelný od **aut
 - **Autentický logik** uznává, že paradoxy mají **technická řešení** (typová teorie, hierarchie metajazyků, parakonzistentní logika) a používá je jako **diagnostické nástroje** pro odhalení problémů formálního systému.
 - **Manipulativní rámec** prezentuje paradoxy jako **terminální** a „transcendentní“, odmítá technická řešení.
 
-Hraniční případ: **autentická buddhistická tradice** používá kóany (např. *Mu* kóan) jako **strukturované meditační nástroje** s explicitním kontextem a tradicí. Toto **není** sebe-referenční paradox v manipulativním smyslu — je to **disciplinovaná praxe** s vlastními diagnostickými rámci.
+Hraniční případ: **autentická buddhistická tradice** používá kóany (např. *Mu* kóan) jako **strukturované meditační nástroje** s explicitním kontextem a tradicí. Toto není sebe-referenční paradox v manipulativním smyslu — je to **disciplinovaná praxe** s vlastními diagnostickými rámci.
 
 ## Rizikové kontexty
 
@@ -110,7 +110,7 @@ U každého paradoxu se ptej: *Jaké typové úrovně se zde mísí? Jaké mlč�
 
 #### 3. **Diagnostika double-bindu**
 
-Bateson identifikoval **double-bind** jako paradoxní komunikační vzorec. Pokud zjistíš, že **každá** odpověď v nějaké interakci je „špatně“, **nejde o tvoji chybu** — jde o strukturální past, kterou je třeba **opustit jako celek**, nikoli „vyřešit“.
+Bateson identifikoval **double-bind** jako paradoxní komunikační vzorec. Pokud zjistíš, že každá odpověď v nějaké interakci je „špatně“, **nejde o tvoji chybu** — jde o strukturální past, kterou je třeba **opustit jako celek**, nikoli „vyřešit“.
 
 #### 4. **Časový odstup od paradoxu**
 

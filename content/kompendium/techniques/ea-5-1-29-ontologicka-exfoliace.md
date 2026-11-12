@@ -52,7 +52,7 @@ Detekční markery zachycené na této stránce odpovídají téže struktuře: 
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** ontologické exfoliace:
+Co prožívá subjekt uvnitř ontologické exfoliace:
 
 - **Iniciálně: pocit osvobození** — odlupování první vrstvy je provázeno euforií „konečně vidím skrz iluze“
 - **Postupně: difúzní úzkost** — orientační body se rozplývají, ale subjekt je interpretuje jako „intenzitu nového vnímání“

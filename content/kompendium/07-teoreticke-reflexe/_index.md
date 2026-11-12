@@ -28,7 +28,7 @@ date_modified = "2026-04-25"
 
 Sekce 07 představuje **teoretické zázemí** taxonomie epistemické a kognitivní anihilace (EA) — místo, kde se klasifikační aparát sekcí 02–05 setkává s velkými tradicemi kontinentální filozofie, sociální epistemologie, kritické teorie, postmodernismu a empirické psychotraumatologie. Cílem sekce je **lokalizovat** kompendium v intelektuální krajině 20. a 21. století, **identifikovat** jeho dluhy, **vyznačit** body originality a **otevřít** prostor pro reflexivní kritiku vlastního aparátu.
 
-Zatímco sekce [02 — Úvod](@/kompendium/02-uvod/_index.md) buduje konceptuální rámec a [03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md) klasifikuje techniky, sekce 07 se ptá: **odkud** tyto kategorie přicházejí? **Která** předporozumění jsou v nich zabudována? **Jak** rezonují s existujícími tradicemi a **kde** od nich odbočují?
+Zatímco sekce [02 — Úvod](@/kompendium/02-uvod/_index.md) buduje konceptuální rámec a [03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md) klasifikuje techniky, sekce 07 se ptá: **odkud** tyto kategorie přicházejí? **Která** předporozumění jsou v nich zabudována? Jak rezonují s existujícími tradicemi a kde od nich odbočují?
 
 ## Architektura sekce
 
@@ -41,7 +41,7 @@ Zatímco sekce [02 — Úvod](@/kompendium/02-uvod/_index.md) buduje konceptuál
 
 ## Proč separátní teoretická sekce
 
-Kompendium **není** atemporální klasifikační schéma — je to **historicky a teoreticky situovaný** výzkumný program ve smyslu Imre Lakatose ([viz glosář](@/glossary/lakatos-vyzkumny-program.md)). Tento program má své **tvrdé jádro** (strukturální realismus o epistemických procesech, multidimenzionální klasifikace, princip kompoziční analýzy — viz [2.3 Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md)) a **ochrannou vrstvu** revizibilních hypotéz. Sekce 07 zviditelňuje **jak jádro tak vrstvu** — explicitně vyznačuje, které předpoklady jsou pro kompendium konstitutivní a které jsou empiricky či konceptuálně otevřené revizi.
+Kompendium není atemporální klasifikační schéma — je to **historicky a teoreticky situovaný** výzkumný program ve smyslu Imre Lakatose ([viz glosář](@/glossary/lakatos-vyzkumny-program.md)). Tento program má své **tvrdé jádro** (strukturální realismus o epistemických procesech, multidimenzionální klasifikace, princip kompoziční analýzy — viz [2.3 Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md)) a **ochrannou vrstvu** revizibilních hypotéz. Sekce 07 zviditelňuje **jak jádro tak vrstvu** — explicitně vyznačuje, které předpoklady jsou pro kompendium konstitutivní a které jsou empiricky či konceptuálně otevřené revizi.
 
 Bez tohoto sebereflexivního momentu by kompendium reprodukovalo to, co samo kritizuje: **imunizaci proti falsifikaci** (technika [EA-1.3.1](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)) — situaci, v níž teoretický rámec implicitně pohlcuje veškerou kontradiktorní evidenci a stává se neporazitelným. Sekce 07 záměrně podkopává tuto možnost otevřením kompendia kritickému dialogu se čtyřmi velkými tradicemi.
 
@@ -70,7 +70,7 @@ Empirická literatura epistemického traumatu (kapitola 7.2) tvoří **most** k 
 
 ## Metateoretická pozice
 
-Sekce 07 zaujímá **post-fundacionalistickou** pozici: odmítá jak naivní pozitivismus (existuje jeden privilegovaný teoretický pohled), tak radikální relativismus (všechny teoretické pohledy jsou stejně legitimní). Místo toho aplikuje **princip explanační plurality** — různé teoretické rámce osvětlují **různé** aspekty epistemické anihilace:
+Sekce 07 zaujímá **post-fundacionalistickou** pozici: odmítá jak naivní pozitivismus (existuje jeden privilegovaný teoretický pohled), tak radikální relativismus (všechny teoretické pohledy jsou stejně legitimní). Místo toho aplikuje **princip explanační plurality** — různé teoretické rámce osvětlují různé aspekty epistemické anihilace:
 
 | Rámec | Co osvětluje | Co zatemňuje |
 |-------|--------------|---------------|
@@ -118,8 +118,8 @@ Sekce 07 explicitně **rozpoznává** dvě teoretická rizika:
 
 **Teoretické reflexe ne jsou závěry — jsou pozvánkami k myšlení.** Po četbě:
 
-1. Identifikuj **alespoň jeden bod**, kde nesouhlasíš s autorovou formulací
-2. Formuluj svou **vlastní alternativní pozici** v 3–5 větách
+1. Identifikuj alespoň jeden bod, kde nesouhlasíš s autorovou formulací
+2. Formuluj svou vlastní alternativní pozici v 3–5 větách
 3. Najdi v [bibliografii](@/kompendium/08-prilohy/bibliografie.md) primární
    zdroj, který tvou alternativu podporuje (alespoň 1)
 

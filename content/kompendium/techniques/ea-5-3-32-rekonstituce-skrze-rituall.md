@@ -35,7 +35,7 @@ date_modified = "2026-11-10"
 **Rekonstituce skrze rituál** je vzorec, v němž se identita člověka přetváří
 prostřednictvím **povinných, opakovaných a veřejných úkonů** – vyznání, sebekritiky,
 svědectví, slibů, zpěvů, projevů vděčnosti vůči autoritě. Rozhodující je pořadí: úkon
-**předchází** přesvědčení. Člověk nejprve opakovaně říká a dělá, co se od něj čeká,
+předchází přesvědčení. Člověk nejprve opakovaně říká a dělá, co se od něj čeká,
 a teprve potom – aby jeho jednání dávalo smysl – začne věřit tomu, co vyjadřuje.
 
 Rituál tu nefunguje jako výraz sdílené víry, ale jako **nástroj přestavby já**: každé

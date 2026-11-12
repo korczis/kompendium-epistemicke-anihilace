@@ -48,7 +48,7 @@ Klinicky je podstatné, že obsah snů ani ranních myšlenek sám o sobě nic n
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|

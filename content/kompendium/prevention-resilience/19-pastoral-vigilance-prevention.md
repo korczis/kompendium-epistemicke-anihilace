@@ -36,7 +36,7 @@ rozpoznat, kdy se zdrojem EA stává náboženské prostředí samo – a nezakr
 
 Náboženství a spiritualita jsou pro mnoho lidí zdrojem odolnosti: smysl, společenství,
 rituál, naděje. Výzkum náboženského zvládání zátěže (Pargament 1997) rozlišuje
-**pozitivní** formy (hledání opory v Bohu, ve společenství, v odpuštění) a **negativní**
+pozitivní formy (hledání opory v Bohu, ve společenství, v odpuštění) a **negativní**
 formy (pocit trestu, opuštěnosti Bohem, démonizace vlastních pochybností). Negativní formy
 souvisejí s horším duševním zdravím a jsou častou stopou EA v náboženském kontextu.
 
@@ -142,7 +142,7 @@ smí slyšet i od duchovní.
 
 ## Indikátory úspěchu
 
-Validované normy pastorální vigilance ve vztahu k EA **neexistují**. Ke sledování
+Validované normy pastorální vigilance ve vztahu k EA neexistují. Ke sledování
 náboženského zvládání existují výzkumné nástroje (například Brief RCOPE), které měří
 pozitivní a negativní formy; nejsou normou pro EA. Sledovat lze:
 

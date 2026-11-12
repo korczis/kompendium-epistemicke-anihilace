@@ -24,7 +24,7 @@ Pojem vyvolal dlouhou a dodnes živou kontroverzi. Kritici namítali, že Arendt
 
 ## Jak se projevuje
 
-Pojem se v Kompendiu používá jako **interpretační rámec**, ne jako diagnóza osoby. Znaky prostředí, ve kterém banalita zla vzniká:
+Pojem se v Kompendiu používá jako interpretační rámec, ne jako diagnóza osoby. Znaky prostředí, ve kterém banalita zla vzniká:
 
 - jazyk organizace je plný eufemismů a technických termínů, které zakrývají, co se reálně děje lidem (viz [LTI](@/glossary/lti-lingua-tertii-imperii.md));
 - odpovědnost je rozdělena na tak malé úseky, že nikdo necítí, že by za výsledek odpovídal;

@@ -153,7 +153,7 @@ kdy ho doprovázela reakce, která udržela vztah.
 
 ## Indikátory úspěchu
 
-Validované normy pro rozpoznávání signálů EA **neexistují**. Programy mohou sledovat:
+Validované normy pro rozpoznávání signálů EA neexistují. Programy mohou sledovat:
 
 - počet proškolených laiků a profesí prvního kontaktu v regionu,
 - schopnost účastníků správně rozpoznat signály v modelových situacích a navrhnout reakci,

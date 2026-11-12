@@ -109,11 +109,11 @@ Před vstupem do diskuse, **explicitně zaznamenej** centrální otázku:
 - S explicitními kritérii adekvátní odpovědi
 - S deadlinem pro klozuru
 
-Toto referenční prohlášení **strukturálně** odolává diverzi.
+Toto referenční prohlášení strukturálně odolává diverzi.
 
 #### 2. **Rekurzivní návrat k centrální otázce**
 
-Při detekci diverze **explicitně** navrať diskusi:
+Při detekci diverze explicitně navrať diskusi:
 
 > *„Vraťme se k mé původní otázce: [explicit formulation]. Můžete na ni odpovědět?“*
 
@@ -129,7 +129,7 @@ Meta-úroveň přerušuje strukturální vzorec — manipulátor není připrave
 
 #### 4. **Time-boxed agendas**
 
-Pro důležité diskuse **explicitně** alokuj čas pro každý bod:
+Pro důležité diskuse explicitně alokuj čas pro každý bod:
 
 - Bod 1: 15 minut
 - Bod 2: 10 minut
@@ -149,8 +149,8 @@ Písemný formát strukturálně **stabilizuje** otázku.
 | Strategie | Implementace |
 |-----------|--------------|
 | **Required agendas** | Explicitní seznam bodů s časovou alokací |
-| **Documentation requirements** | Každý bod **musí** mít explicitní outcome |
-| **Follow-up protocols** | Unaddressed bodů **musí** být formálně eskalovány |
+| **Documentation requirements** | Každý bod musí mít explicitní outcome |
+| **Follow-up protocols** | Unaddressed bodů musí být formálně eskalovány |
 | **Devil's advocate role** | Formální role pro **trvání** na centrální otázce |
 | **Meta-facilitation** | Facilitátor s explicitním mandátem proti diverzi |
 
@@ -158,7 +158,7 @@ Písemný formát strukturálně **stabilizuje** otázku.
 
 ### Případ 1 — Akademická obhajoba
 
-Student na obhajobě dostal **konkrétní** kritickou otázku ohledně metodologie. Místo přímé odpovědi posunul diskusi na **obecné** filozofické otázky vědecké metody.
+Student na obhajobě dostal konkrétní kritickou otázku ohledně metodologie. Místo přímé odpovědi posunul diskusi na **obecné** filozofické otázky vědecké metody.
 
 Detekce: Předseda komise explicitně přerušil: „Vrátíme se k vaší metodologii konkrétně. Můžete odpovědět na otázku o sample size justification?“
 
@@ -196,7 +196,7 @@ Intervence: Klinické protokoly — strukturální ujištění, že každý paci
 
 ### Hraniční / podobné
 
-- **Legitimní rozšíření kontextu** — strukturálně podobné, ale **explicitně** acknowledged a s plánovaným návratem.
+- **Legitimní rozšíření kontextu** — strukturálně podobné, ale explicitně acknowledged a s plánovaným návratem.
 - **Conversational drift** — neintencionální posun, distinkce na úrovni intencionality.
 
 ## Literatura

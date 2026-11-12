@@ -50,7 +50,7 @@ Od dobrovolné ritualizace dne se vzorec liší tím, že bez opory nastupuje ú
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|

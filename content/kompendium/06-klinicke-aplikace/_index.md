@@ -17,9 +17,9 @@ status = "in-progress"
 
 # 06. Klinické aplikace a diagnostika
 
-Tato sekce přechází z **deskriptivního** do **aplikačního** režimu. Zatímco sekce [03 (Základní kategorie)](@/kompendium/03-zakladni-kategorie/_index.md) a [04 (Terminální protokoly)](@/kompendium/04-terminalni-protokoly/_index.md) popisují **co** se děje v procesech epistemické a kognitivní anihilace, sekce 06 odpovídá na otázku **jak rozpoznat, jak intervenovat a jak rekonstruovat** poškozené epistemické struktury u pacientů, klientů a celých vulnerabilních populací.
+Tato sekce přechází z **deskriptivního** do **aplikačního** režimu. Zatímco sekce [03 (Základní kategorie)](@/kompendium/03-zakladni-kategorie/_index.md) a [04 (Terminální protokoly)](@/kompendium/04-terminalni-protokoly/_index.md) popisují co se děje v procesech epistemické a kognitivní anihilace, sekce 06 odpovídá na otázku **jak rozpoznat, jak intervenovat a jak rekonstruovat** poškozené epistemické struktury u pacientů, klientů a celých vulnerabilních populací.
 
-> **Poznámka k epistemickému statusu**: Klinická aplikace taxonomie [epistemické anihilace](@/glossary/epistemicka-anihilace.md) je **mladá disciplína** v procesu konsolidace. Většina protokolů popsaných v této sekci představuje **integraci** existujících [evidence-based](@/glossary/evidence-based.md) postupů (trauma-focused CBT, EMDR, narrativní terapie, rekonstrukce kognitivní mapy) s **novou diagnostickou optikou** zaměřenou na metakognitivní, hermeneutické a ontologické komponenty utrpení. Tam, kde je dostupná empirická evidence, je explicitně citována. Tam, kde jde o klinicky odůvodněné rozšíření, je tento status uveden.
+> **Poznámka k epistemickému statusu**: Klinická aplikace taxonomie [epistemické anihilace](@/glossary/epistemicka-anihilace.md) je **mladá disciplína** v procesu konsolidace. Většina protokolů popsaných v této sekci představuje integraci existujících [evidence-based](@/glossary/evidence-based.md) postupů (trauma-focused CBT, EMDR, narrativní terapie, rekonstrukce kognitivní mapy) s **novou diagnostickou optikou** zaměřenou na metakognitivní, hermeneutické a ontologické komponenty utrpení. Tam, kde je dostupná empirická evidence, je explicitně citována. Tam, kde jde o klinicky odůvodněné rozšíření, je tento status uveden.
 
 ## Účel sekce
 

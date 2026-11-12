@@ -156,7 +156,7 @@ Intervence: jen po finanční katastrofě, kdy externí likvidátor **přinutil*
 
 Žurnalista postupně přijal pozici, že *„objektivita neexistuje, vše je narativ“*. Jeho reportáže přestaly **rozlišovat zdroje podle reliability** a začaly prezentovat všechny perspektivy jako stejně platné.
 
-Detekce: redakční audit ukázal **dramatický pokles** evidenční podpory v jeho článcích a **rostoucí závislost** na narativně silných, ale fakticky nepodložených zdrojích.
+Detekce: redakční audit ukázal dramatický pokles evidenční podpory v jeho článcích a **rostoucí závislost** na narativně silných, ale fakticky nepodložených zdrojích.
 
 Intervence: redakční intervence, povinný kurz **investigativní metodologie**.
 

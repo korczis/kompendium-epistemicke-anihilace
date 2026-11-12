@@ -47,7 +47,7 @@ Rokeachovým (1960) rozlišením otevřené a uzavřené mysli a výzkumem potř
 uzavření, která v podmínkách tlaku vede k rychlému „uchopení“ odpovědi a jejímu „zamrznutí“
 (Kruglanski a Webster 1996).
 
-Kompendium přenáší důraz z dispozice jedince na **prostředí**. Nejbližší oporou je Lifton (1961),
+Kompendium přenáší důraz z dispozice jedince na prostředí. Nejbližší oporou je Lifton (1961),
 který u myšlenkové reformy popsal kontrolu prostředí, „nadřazenost doktríny nad člověkem“ a
 myšlenku ukončující klišé; anankastický režim je stav, v němž si člověk tyto mechanismy
 osvojil natolik, že je udržuje sám i bez vnější kontroly.

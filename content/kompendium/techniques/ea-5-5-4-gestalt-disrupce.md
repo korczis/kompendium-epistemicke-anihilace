@@ -50,7 +50,7 @@ Od běžné nejistoty v nepřehledné situaci se vzorec liší tím, že člově
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|

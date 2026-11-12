@@ -27,7 +27,7 @@ Regrese neznamená ztrátu inteligence ani vědomostí. Člověk může dál vyk
 mluvit odborně a argumentovat. Mění se **struktura** poznávání: co se počítá jako důvod, jak
 se zachází s rozporem, kdo má právo rozhodnout.
 
-Kompendium odlišuje regresi od příbuzných stavů tak, že regrese je **návrat**, nikoli
+Kompendium odlišuje regresi od příbuzných stavů tak, že regrese je návrat, nikoli
 zastavení ([stáze](@/glossary/epistemicka-staze.md), [stagnace](@/glossary/kognitivni-stagnace.md))
 ani ztráta orientace v celku ([asymptotický kolaps](@/glossary/asymptoticky-kolaps.md)).
 

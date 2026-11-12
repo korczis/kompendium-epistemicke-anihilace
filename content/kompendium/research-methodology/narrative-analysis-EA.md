@@ -25,7 +25,7 @@ Narativní analýza je skupina přístupů, které berou jako jednotku analýzy 
 Kohler Riessmanová (2008) rozlišuje čtyři hlavní typy:
 
 - **tematická** – co se v příbězích vypráví (obsah);
-- **strukturní** – jak je příběh uspořádán; klasickým modelem je struktura Labova
+- strukturní – jak je příběh uspořádán; klasickým modelem je struktura Labova
   a Waletzkého (1967): orientace, komplikace, hodnocení, vyústění, kóda;
 - **dialogická / performativní** – komu, kdy a proč je příběh vyprávěn a jak se v něm
   vypravěč staví vůči posluchači;

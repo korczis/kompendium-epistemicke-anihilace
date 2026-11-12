@@ -48,7 +48,7 @@ Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Ne
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|

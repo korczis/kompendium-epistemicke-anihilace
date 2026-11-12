@@ -17,7 +17,7 @@ access_level = "L3-L4"
 
 # Kapitola 9 — Paradoxální metaanihilační protokoly
 
-> 🚨 **Přístupová úroveň L3–L4**. Kapitola popisuje **30 ultramárních technik** ([EA-5.4.1](@/kompendium/techniques/ea-5-4-1-lhar-paradox-aplikace.md) až 5.4.30) exploitujících **sebevztažné paradoxy** k destabilizaci rámců, v nichž subjekt evaluuje pravdivost, validitu a koherenci. Materiály vyžadují IRB autorizaci a etickou supervizi. Veřejně dostupné jsou výhradně **kompaktní taxonomické popisy** s 60–100 slovními deskripcemi. Operační detaily a rekonstruktivní protokoly zůstávají v restriktivních L4 přílohách. Plné per-technique články pro EA-5.4.* jsou v přípravné fázi.
+> 🚨 **Přístupová úroveň L3–L4**. Kapitola popisuje 30 ultramárních technik ([EA-5.4.1](@/kompendium/techniques/ea-5-4-1-lhar-paradox-aplikace.md) až 5.4.30) exploitujících **sebevztažné paradoxy** k destabilizaci rámců, v nichž subjekt evaluuje pravdivost, validitu a koherenci. Materiály vyžadují IRB autorizaci a etickou supervizi. Veřejně dostupné jsou výhradně kompaktní taxonomické popisy s 60–100 slovními deskripcemi. Operační detaily a rekonstruktivní protokoly zůstávají v restriktivních L4 přílohách. Plné per-technique články pro EA-5.4.* jsou v přípravné fázi.
 
 ## Pozice kapitoly
 
@@ -100,7 +100,7 @@ Klastr exploituje **Kripkovský Wittgenstein** — paradox následování pravid
 
 ## Klastr F — Konvergentní paradox (EA-5.4.26 až 5.4.30)
 
-Poslední klastr je **integrativní**.
+Poslední klastr je integrativní.
 
 | Kód | Název | Kompaktní deskripce |
 |-----|-------|---------------------|
@@ -172,8 +172,8 @@ V následující [Kapitole 10](@/kompendium/05-ultramari-techniky/kapitola-10.md
 **Ultramární techniky jsou L3 (omezený přístup)**: nejsou určeny k
 obecnému studiu. Před četbou potvrď, že:
 
-- Máš **kvalifikovanou supervizní vazbu** (klinickou nebo doktrinální)
-- Máš **dokumentovaný důvod** ke studiu konkrétní techniky (forenzní analýza,
+- Máš kvalifikovanou supervizní vazbu (klinickou nebo doktrinální)
+- Máš dokumentovaný důvod ke studiu konkrétní techniky (forenzní analýza,
   klinická intervence, doktrinální výzkum)
 - Sleduješ [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   vlastního stavu (sebepozorovací rámec)

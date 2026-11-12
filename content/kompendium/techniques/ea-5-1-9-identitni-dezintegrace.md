@@ -59,7 +59,7 @@ Detekční markery zachycené na této stránce odpovídají téže struktuře: 
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** identitní dezintegrace:
+Co prožívá subjekt uvnitř identitní dezintegrace:
 
 - **Sebefragmentace** — *„v různých situacích jsem úplně jiný člověk"*
 - **[Depersonalizace](@/glossary/depersonalizace.md)** — *„dívám se na sebe zvenčí"*, *„nejsem to úplně já, kdo jedná"*
@@ -113,7 +113,7 @@ Hraniční případ: **přechody po závažném traumatu** (těžká nemoc, ztr�
 
 #### 1. **Externí narativní kotva**
 
-Vyhledej **dlouhodobé blízké osoby**, které tě znají *před* začátkem manipulace. Veď s nimi rozhovory o tom, **jak** tě vnímaly. Zaznamenávej kontinuity, které **oni** vidí mezi tehdejším a současným *tebou*.
+Vyhledej **dlouhodobé blízké osoby**, které tě znají *před* začátkem manipulace. Veď s nimi rozhovory o tom, jak tě vnímaly. Zaznamenávej kontinuity, které **oni** vidí mezi tehdejším a současným *tebou*.
 
 #### 2. **Auto-archeologie**
 

@@ -20,7 +20,7 @@ date_modified = "2026-11-10"
 
 1. **tvrzení** (*claim*) – závěr, k němuž má argument vést;
 2. **data** či **důvody** (*grounds, data*) – fakta, o která se tvrzení opírá;
-3. **oprávnění** (*warrant*) – obecné pravidlo nebo předpoklad, který dovoluje přejít od dat k tvrzení;
+3. oprávnění (*warrant*) – obecné pravidlo nebo předpoklad, který dovoluje přejít od dat k tvrzení;
 4. **podpora** (*backing*) – to, co dokládá samotné oprávnění;
 5. **kvalifikátor** (*qualifier*) – míra jistoty („pravděpodobně“, „ve většině případů“);
 6. **výjimka** či **vyvrácení** (*rebuttal*) – okolnosti, za nichž tvrzení neplatí.

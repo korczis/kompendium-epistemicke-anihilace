@@ -147,7 +147,7 @@ ale tím, že se obnovil společný základ podkladů a pravidla debaty.
 
 ## Indikátory úspěchu
 
-Validované normy kvality veřejného diskurzu ve vztahu k EA **neexistují**. Existují výzkumné
+Validované normy kvality veřejného diskurzu ve vztahu k EA neexistují. Existují výzkumné
 nástroje pro hodnocení kvality deliberace (například Discourse Quality Index vyvinutý pro
 parlamentní debaty; Steenbergen a kol. 2003), ale nejsou normou pro celou společnost. Smysl má sledovat:
 

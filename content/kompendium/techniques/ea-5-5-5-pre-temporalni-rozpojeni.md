@@ -50,7 +50,7 @@ Od přechodné dezorientace se vzorec liší trvalostí a tím, že je doktriná
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|

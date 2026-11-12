@@ -22,7 +22,7 @@ toc = true
 
 Vybavit děti i dospělé dovednostmi, díky nimž mediální obsah – zpravodajství, sociální sítě,
 videa, reklama, podcasty – přestává být jednosměrným proudem, který člověk jen přijímá.
-Mediálně gramotný člověk se ptá, **kdo** obsah vytvořil, **proč**, **z čeho** vychází a **co
+Mediálně gramotný člověk se ptá, kdo obsah vytvořil, proč, **z čeho** vychází a **co
 v něm chybí**. Tyto otázky nezaručí, že se nikdy nemýlí, ale brání tomu, aby se jeho obraz
 světa postupně a nepozorovaně přestavěl podle cizího záměru.
 
@@ -137,7 +137,7 @@ ověřit lze i to, co působí přesvědčivě, a že vzhled zdroje o jeho spole
 
 ## Indikátory úspěchu
 
-Validované normy mediální gramotnosti ve vztahu k EA **neexistují**. Programy si cíle stanoví
+Validované normy mediální gramotnosti ve vztahu k EA neexistují. Programy si cíle stanoví
 podle výchozího stavu a sledují:
 
 - výsledky praktických úloh ověřování (správné postupy, ne jen správné odpovědi),

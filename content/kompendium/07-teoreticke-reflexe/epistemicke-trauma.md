@@ -18,7 +18,7 @@ toc = true
 
 Tato kapitola představuje **empirický most** mezi filozofickým rámcem kompendia ([7.1](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)) a klinickou aplikací ([sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)). Kategorie **epistemického traumatu** — systematického narušení schopnosti důvěřovat vlastní kognitivní zkušenosti, integrovat narativní zkušenost a udržovat koherentní model světa — není filozofickou spekulací. Je **empiricky doloženým** klinickým fenoménem s konkrétními neurobiologickými, psychofyziologickými a behaviorálními koreláty.
 
-Cílem této kapitoly je systematicky představit nejdůležitější empirickou literaturu, jež **legitimizuje** kategorii epistemického traumatu jako klinicky validní entitu, **operacionalizuje** ji pro výzkumné účely, a **propojuje** ji s taxonomií EA technik popsanou v sekcích 03–05.
+Cílem této kapitoly je systematicky představit nejdůležitější empirickou literaturu, jež **legitimizuje** kategorii epistemického traumatu jako klinicky validní entitu, operacionalizuje ji pro výzkumné účely, a **propojuje** ji s taxonomií EA technik popsanou v sekcích 03–05.
 
 ## 1. Komplexní trauma a narativní integrace (Herman)
 
@@ -43,7 +43,7 @@ Herman argumentuje, že **uzdravení** z komplexního traumatu vyžaduje **narat
 
 - Subjekt musí získat zpět **právo na vlastní interpretaci** zkušenosti
 - Musí být schopen **rozlišit** vlastní paměť od pachatelovy reinterpretace
-- Musí **rekonstruovat** vlastní hodnotící schopnost (epistemická autonomie)
+- Musí rekonstruovat vlastní hodnotící schopnost (epistemická autonomie)
 
 Pro kompendium to znamená: **epistemické trauma je centrální dimenzí** — nikoli sekundárním efektem — komplexního traumatu. Klinická intervence cílící pouze na afektivní regulaci nebo somatické symptomy bez rekonstrukce epistemických kapacit je **strukturálně nedostatečná**.
 
@@ -68,7 +68,7 @@ Freydova **[betrayal trauma](@/glossary/betrayal-trauma.md) theory** (BTT, *Betr
 Mechanismus betrayal blindness:
 
 - **Vědomí** zrady by ohrozilo **vazebnou** strukturu, na níž oběť závisí
-- **Adaptivní** odpovědí je **systematické nevidění** zrady — [disociace](@/glossary/disociace.md), amnézie, racionalizace
+- Adaptivní odpovědí je **systematické nevidění** zrady — [disociace](@/glossary/disociace.md), amnézie, racionalizace
 - Tento mechanismus má **vývojové** kořeny v dětské zranitelnosti, ale operuje i v dospělých závislostních vztazích
 
 ### 2.2 Empirická validace BTT
@@ -81,7 +81,7 @@ BTT byla v posledních dvou dekádách systematicky empiricky testována:
 
 ### 2.3 Vztah k EA technikám
 
-BTT poskytuje empirický rámec pro pochopení, **proč** některé EA techniky fungují **paradoxně účinněji** ve **bližších** vztazích:
+BTT poskytuje empirický rámec pro pochopení, proč některé EA techniky fungují **paradoxně účinněji** ve **bližších** vztazích:
 
 | EA technika | Mechanismus posílení skrze betrayal blindness |
 |-------------|-------------------------------------------------|
@@ -122,7 +122,7 @@ Z PP perspektivy **psychické trauma** představuje:
 - Stav, v němž realita generuje **prediction errors**, jež nelze adaptivně asimilovat
 - **Maladaptivní** reorganizaci modelu (overgenerální zobecnění, hypervigilance, ztráta pozitivních prediktivních očekávání)
 
-Pro EA je tato perspektiva klíčová: **techniky EA cílí přímo na generativní model světa** — nikoli na izolované přesvědčení, ale na **strukturu**, jež generuje budoucí předikce. Důsledkem je, že subjekt po úspěšné EA intervenci:
+Pro EA je tato perspektiva klíčová: **techniky EA cílí přímo na generativní model světa** — nikoli na izolované přesvědčení, ale na strukturu, jež generuje budoucí předikce. Důsledkem je, že subjekt po úspěšné EA intervenci:
 
 - Nedokáže **anticipovat** běžné situace
 - Žije v chronické **prediktivní nejistotě**
@@ -193,7 +193,7 @@ Chris Brewin (Brewin, Dalgleish, Joseph, 1996; Brewin, 2014) formuloval **teorii
 - **VAM** (Verbally Accessible Memory) — narativně integrovaná paměť, lokalizovaná v hipokampu
 - **SAM** (Situationally Accessible Memory) — neintegrovaná, somatosenzorická paměť, nezávislá na hipokampálním kontextu
 
-Traumatická paměť je dominantně **SAM** — tj. neintegrovaná do narativní struktury. **Klinický cíl** spočívá v **integraci** SAM do VAM.
+Traumatická paměť je dominantně **SAM** — tj. neintegrovaná do narativní struktury. **Klinický cíl** spočívá v integraci SAM do VAM.
 
 Pro EA: **epistemické trauma** vykazuje analogickou strukturu — fragmentované epistemické „vzpomínky“ (somatosenzorické, afektivní, intuitivní), jež nejsou narativně integrovány do koherentního autobiografického příběhu.
 
@@ -220,7 +220,7 @@ Empiricky validované rekonstrukční přístupy:
 - **Narrative Exposure Therapy** — Schauer, Neuner, Elbert
 - **Mindfulness-based interventions** — Kabat-Zinn, Williams, Segal
 
-Všechny tyto přístupy **explicitně integrují** epistemickou dimenzi: rekonstrukce schopnosti **důvěřovat** vlastní zkušenosti, **integrovat** narativ, **udržovat** koherentní model světa.
+Všechny tyto přístupy **explicitně integrují** epistemickou dimenzi: rekonstrukce schopnosti **důvěřovat** vlastní zkušenosti, integrovat narativ, **udržovat** koherentní model světa.
 
 ## 6. Diagnostické nástroje pro epistemické trauma
 
@@ -297,8 +297,8 @@ Empirická literatura epistemického traumatu **přímo informuje** taxonomické
 
 **Teoretické reflexe ne jsou závěry — jsou pozvánkami k myšlení.** Po četbě:
 
-1. Identifikuj **alespoň jeden bod**, kde nesouhlasíš s autorovou formulací
-2. Formuluj svou **vlastní alternativní pozici** v 3–5 větách
+1. Identifikuj alespoň jeden bod, kde nesouhlasíš s autorovou formulací
+2. Formuluj svou vlastní alternativní pozici v 3–5 větách
 3. Najdi v [bibliografii](@/kompendium/08-prilohy/bibliografie.md) primární
    zdroj, který tvou alternativu podporuje (alespoň 1)
 

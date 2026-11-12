@@ -17,7 +17,7 @@ date_modified = "2026-11-10"
 ## Definice
 
 **Kuhnova revoluce** (vědecká revoluce v Kuhnově smyslu) je nekumulativní změna, při níž
-vědecké společenství opustí dosavadní **paradigma** – soubor sdílených teorií, metod, vzorových
+vědecké společenství opustí dosavadní paradigma – soubor sdílených teorií, metod, vzorových
 řešení a představ o tom, které otázky jsou smysluplné – a přijme nové. Mezi revolucemi
 probíhá „[normální věda](@/glossary/normalni-veda.md)“, která paradigma nezpochybňuje, ale rozvíjí a řeší v jeho rámci
 hádanky. Revoluce nastává, když se nahromadí anomálie, které staré paradigma nedokáže vstřebat,

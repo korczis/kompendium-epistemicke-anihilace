@@ -103,7 +103,7 @@ Falešné dilema vs. **legitimní volba mezi dvěma alternativami**:
 
 #### 1. **Explicitní identifikace binárního rámce**
 
-Při prvních signálech „buď A, nebo B“ **explicitně** zformuluj:
+Při prvních signálech „buď A, nebo B“ explicitně zformuluj:
 
 > *„To, co prezentujete, je binární volba. Existují i jiné pozice?“*
 
@@ -135,7 +135,7 @@ Při time pressure **odmítni** rozhodnout v rámci binárního rámce. Klíčov
 
 > *„Potřebuji čas zvážit, zda jsou A a B opravdu vyčerpávající. Vrátím se s odpovědí v X čase.“*
 
-Time pressure samotný je **silný indikátor** falešného dilematu.
+Time pressure samotný je silný indikátor falešného dilematu.
 
 #### 5. **Pre-articulated alternative position**
 
@@ -187,7 +187,7 @@ Intervence: Mandatorní **multi-disciplinary tumor board** review pro všechny k
 
 ### Eskaluje do
 
-- **Kolektivní polarizace** — kolektivní falešné dilema indukuje **strukturální** polarizaci komunity.
+- **Kolektivní polarizace** — kolektivní falešné dilema indukuje strukturální polarizaci komunity.
 - **[EA-1.6.1](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) Vzorec „Guru a adept“** — guru často rámec etabluje *jako* binární mezi „naším“ a „ostatními“.
 
 ### Hraniční / podobné

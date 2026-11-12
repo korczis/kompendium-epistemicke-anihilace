@@ -16,7 +16,7 @@ toc = true
 
 # 2.3 Teoretické základy a konceptuální rámec
 
-Tato kapitola představuje **teoretická východiska** taxonomie. Bez explicitního konceptuálního rámce by jakákoli klasifikace zůstala povrchní a nereprodukovatelná. Teoretická báze není pouhým akademickým ornamentem — informuje **každé** klasifikační rozhodnutí, **každé** diferenciálně-diagnostické kritérium a **každý** intervenční protokol odvozený z taxonomie.
+Tato kapitola představuje **teoretická východiska** taxonomie. Bez explicitního konceptuálního rámce by jakákoli klasifikace zůstala povrchní a nereprodukovatelná. Teoretická báze není pouhým akademickým ornamentem — informuje **každé** klasifikační rozhodnutí, **každé** diferenciálně-diagnostické kritérium a každý intervenční protokol odvozený z taxonomie.
 
 Tato kapitola poskytuje systematický výklad teoretických východisek, která tvoří konceptuální základ taxonomie epistemické a [kognitivní anihilace](@/glossary/kognitivni-anihilace.md). Prezentuje klíčové teoretické perspektivy, fundamentální principy a integrativní rámec, z nichž taxonomie vychází a které umožňují porozumět jejím strukturálním charakteristikám a explanačním ambicím. Pro přesnou [definici anihilace](@/kompendium/02-uvod/definice.md) a [historický kontext](@/kompendium/02-uvod/historicky-kontext.md) odkazujeme na předchozí kapitoly, jejichž závěry jsou v této sekci dále teoreticky prohloubeny.
 
@@ -30,7 +30,7 @@ Kompendium předpokládá, že **epistemické procesy mají strukturální vlast
 - Klasifikovat podle invariantních charakteristik
 - Predikovat ve smyslu zranitelností a obranných možností
 
-Strukturální realismus odmítá dva extrémy: na jedné straně **naivní realismus** předpokládající, že epistemické procesy jsou objektivně dané přirozené druhy nezávislé na pozorovateli; na druhé straně **konstruktivistický [skepticismus](@/glossary/skepticismus.md)** popírající jakoukoli strukturní invariantní realitu epistemických procesů. Taxonomie zaujímá střední pozici: epistemické procesy mají **strukturní vlastnosti**, jež jsou intersubjektivně verifikovatelné a predikčně produktivní, ačkoli naše konceptualizace těchto vlastností je revizibilní.
+Strukturální realismus odmítá dva extrémy: na jedné straně **naivní realismus** předpokládající, že epistemické procesy jsou objektivně dané přirozené druhy nezávislé na pozorovateli; na druhé straně **konstruktivistický [skepticismus](@/glossary/skepticismus.md)** popírající jakoukoli strukturní invariantní realitu epistemických procesů. Taxonomie zaujímá střední pozici: epistemické procesy mají strukturní vlastnosti, jež jsou intersubjektivně verifikovatelné a predikčně produktivní, ačkoli naše konceptualizace těchto vlastností je revizibilní.
 
 ### 2. Multidimenzionální klasifikace
 
@@ -49,7 +49,7 @@ Multidimenzionalita umožňuje precizní lokalizaci a diferenciaci fenoménů, j
 
 ### 3. Princip kompoziční analýzy
 
-Komplexní techniky lze **dekomponovat** na základní jednotky, které lze samostatně analyzovat. Naopak — z porozumění základním jednotkám lze **rekonstruovat** komplexní techniky. Tento princip umožňuje **strukturní redukci** zdánlivě bezpočetné variabilita reálných manipulativních konfigurací na konečný katalog základních jednotek.
+Komplexní techniky lze **dekomponovat** na základní jednotky, které lze samostatně analyzovat. Naopak — z porozumění základním jednotkám lze rekonstruovat komplexní techniky. Tento princip umožňuje **strukturní redukci** zdánlivě bezpočetné variabilita reálných manipulativních konfigurací na konečný katalog základních jednotek.
 
 ### 4. Princip patofyziologické paralely
 
@@ -57,7 +57,7 @@ Taxonomie čerpá z medicínské tradice **patofyziologie** — popisu mechanism
 
 - Na které **normální** epistemické proces parazituje?
 - Jakým **konkrétním mechanismem** ho transformuje?
-- Jak se manifestuje **strukturálně** vs. **fenomenologicky**?
+- Jak se manifestuje strukturálně vs. **fenomenologicky**?
 
 Patofyziologická paralela je metodologicky klíčová: epistemické patologie nejsou vetřelci do jinak zdravého systému, ale **deformace** mechanismů, jež jsou v normálním stavu adaptivní. Kritické myšlení je obrácenou stranou téže mince jako paranoidní přemýšlení; epistemická skromnost je obrácenou stranou epistemické paralýzy.
 
@@ -447,7 +447,7 @@ V následujících kapitolách budou prezentovány konkrétní taxonomické kate
 
 ## Mez teoretického rámce
 
-Žádný teoretický rámec **nemůže** být kompletní. Tato taxonomie:
+Žádný teoretický rámec nemůže být kompletní. Tato taxonomie:
 
 - **Pokrývá** systematicky kategorie 1–5 v hlavním textu
 - **Aspirativně** rozšiřuje ke kategoriím 6–8 (klinika, teorie, přílohy)

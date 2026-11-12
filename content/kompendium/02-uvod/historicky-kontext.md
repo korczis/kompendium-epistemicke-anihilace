@@ -66,7 +66,7 @@ Baconova teorie **idolů** (*Novum Organum*, 1620) — čtyři kategorie systema
 Hume demonstruje, že **mnoho epistemických jistot** je založeno na zvyku, nikoli racionální justifikaci. Otevírá prostor pro pochopení **manipulace skrze exploataci kognitivních heuristik** — vhled empiricky validovaný až o dvě století později programem Kahnemana a Tverskyho.
 
 ### Kantova transcendentální kritika
-**Kantova analýza transcendentálních iluzí** (*Kritika čistého rozumu*, 1781) artikuluje systematické epistemické distorze vyplývající ze samotné struktury poznávacího aparátu. Kant identifikuje **nutné předpoklady** poznání (kategorie, formy nazírání); jejich destabilizace = transcendentální epistemická anihilace. Strukturálně klíčové: distinkce mezi **obsahovou** úrovní (jednotlivá přesvědčení) a **strukturální** úrovní (předpoklady, jež poznávání umožňují) — paralelní modernímu rozlišení doxastické a epistemické anihilace.
+**Kantova analýza transcendentálních iluzí** (*Kritika čistého rozumu*, 1781) artikuluje systematické epistemické distorze vyplývající ze samotné struktury poznávacího aparátu. Kant identifikuje **nutné předpoklady** poznání (kategorie, formy nazírání); jejich destabilizace = transcendentální epistemická anihilace. Strukturálně klíčové: distinkce mezi **obsahovou** úrovní (jednotlivá přesvědčení) a strukturální úrovní (předpoklady, jež poznávání umožňují) — paralelní modernímu rozlišení doxastické a epistemické anihilace.
 
 ## 19. století: formativní konceptualizace
 
@@ -140,7 +140,7 @@ Tyto experimenty demonstrovaly **strukturální zranitelnost** epistemické auto
 
 #### Kognitivně-psychologické studium epistemické distorze
 
-- **Festingerova teorie kognitivní disonance** (1957) — fundamentální mechanismus: tendence eliminovat vnitřní rozpory reinterpretací nebo selektivním vnímáním. Manipulativní systémy vyvolají disonanci a nabídnou své **vlastní** řešení jako jediný způsob redukce.
+- **Festingerova teorie kognitivní disonance** (1957) — fundamentální mechanismus: tendence eliminovat vnitřní rozpory reinterpretací nebo selektivním vnímáním. Manipulativní systémy vyvolají disonanci a nabídnou své vlastní řešení jako jediný způsob redukce.
 - **Kelleyho atribuční teorie** (1967) — systematické distorze v kauzálním uvažování při interpretaci sociálních jevů.
 - **Tverskyho a Kahnemanův výzkum heuristik a zkreslení** (1974) odhalil systematické neracionality zakořeněné v kognitivní architektuře.
 
@@ -179,7 +179,7 @@ Toto období přineslo konsolidaci studia epistemických traumat a integraci poz
 V průběhu 80. a 90. let probíhal vedle konceptuální konsolidace **paralelní kognitivní obrat**, jenž nakonec konvergoval s ostatními proudy do moderní taxonomie.
 
 #### Kahneman a Tversky
-Programy **heuristik a biasů** (od 1974) systematizují **predikovatelná epistemická selhání**. Dvojsystémová teorie (*[System 1 / System 2](@/glossary/system-1-system-2.md)*) poskytuje mechanistický rámec pro pochopení, **proč** určité manipulativní techniky fungují — exploitují systematické vlastnosti rychlého, asociativního zpracování (System 1), jež jsou evolucí optimalizovány pro rychlost, nikoli pro epistemickou robustnost.
+Programy **heuristik a biasů** (od 1974) systematizují **predikovatelná epistemická selhání**. Dvojsystémová teorie (*[System 1 / System 2](@/glossary/system-1-system-2.md)*) poskytuje mechanistický rámec pro pochopení, proč určité manipulativní techniky fungují — exploitují systematické vlastnosti rychlého, asociativního zpracování (System 1), jež jsou evolucí optimalizovány pro rychlost, nikoli pro epistemickou robustnost.
 
 #### Sociální epistemologie
 Práce **Alvina Goldmana** (*Knowledge in a Social World*, 1999), **Mirandy Frickerové** (epistemické nespravedlnosti, 2007) a **Jennifer Nagelové** zavádějí epistemologii jako sociálně situovanou disciplínu. Frickerová poskytuje koncepty **testimonial injustice** (snížení důvěryhodnosti svědectví na základě identitních předsudků) a **hermeneutical injustice** (chybějící konceptuální zdroje pro artikulaci vlastní zkušenosti) jako forem **strukturální epistemické anihilace**.

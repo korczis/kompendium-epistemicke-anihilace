@@ -328,8 +328,8 @@ Každý specifický fenomén v taxonomii je identifikován prostřednictvím pri
 Kde:
 
 - **EA** — označuje „epistemická anihilace“ (pro fenomény kognitivní anihilace se používá „KA“)
-- **X** — numerický identifikátor primární kategorie (1-5, odpovídající pěti hlavním částem)
-- **Y** — numerický identifikátor subkategorie v rámci dané kategorie
+- X — numerický identifikátor primární kategorie (1-5, odpovídající pěti hlavním částem)
+- Y — numerický identifikátor subkategorie v rámci dané kategorie
 - **Z** — numerický identifikátor specifického fenoménu v rámci subkategorie
 - **α** — alfabetický sufix indikující variantu fenoménu (pokud existuje)
 
@@ -472,7 +472,7 @@ Aktuální verze: **v0.1.0** (počáteční publikace, taxonomie v aktivní expa
 
 ## Otevřená otázka
 
-Taxonomie **není** dokončený artefakt — je **živý systém**. Klíčové otevřené otázky:
+Taxonomie není dokončený artefakt — je **živý systém**. Klíčové otevřené otázky:
 
 - **AI-mediated manipulace** — jak transformuje stávající techniky algoritmická amplifikace?
 - **Kolektivní subjekty** — lze taxonomii aplikovat na skupinové subjekty (instituce, společnosti)?

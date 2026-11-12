@@ -87,7 +87,7 @@ Obvinění z gaslightingu může být samo nástrojem manipulace: kritiku lze zp
 
 ## Validační test
 
-Test **není** určen zasažené osobě. Konfrontace zdroje s důkazy v násilném vztahu může zvýšit riziko eskalace. Validace je úkolem profesionála:
+Test není určen zasažené osobě. Konfrontace zdroje s důkazy v násilném vztahu může zvýšit riziko eskalace. Validace je úkolem profesionála:
 
 - **Test konzistence dokladů**: srovnat konkrétní popřené výroky nebo události s nezávislými doklady (zprávy, e-maily, kalendáře, výpovědi třetích osob, viz [třetiosobní potvrzení](@/kompendium/forensic-legal/37-third-party-corroboration.md)).
 - **Test vzorce**: z deníku zasažené osoby nebo spisu sestavit přehled situací, kdy byla její paměť zpochybněna, a posoudit, kolik z nich lze ověřit a kolik se potvrdilo.

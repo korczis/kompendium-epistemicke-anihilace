@@ -127,7 +127,7 @@ v nalezení práce, ale v tom, že si v práci uhájil hranice.
 
 ## Indikátory úspěchu
 
-Validované normy pracovní rehabilitace po EA **neexistují** a výsledky studií IPS u jiných
+Validované normy pracovní rehabilitace po EA neexistují a výsledky studií IPS u jiných
 populací nelze přenášet jako cílové hodnoty. Program sleduje podíl klientů, kteří získali
 zaměstnání, délku setrvání v něm, příjem ve vztahu k životním nákladům, subjektivní pocit
 autonomie v práci a výskyt situací, kdy se v novém prostředí opakovaly znaky kontroly.

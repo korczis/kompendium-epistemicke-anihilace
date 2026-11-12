@@ -45,8 +45,8 @@ jednotlivých incidentů (kolik úderů, kolik zranění) na sledování **vzorc
 rozlišuje čtyři složky:
 
 - **násilí** – často opakované, ale „nízké intenzity“, které samo nemusí vypadat závažně;
-- **zastrašování** – výhrůžky, sledování, demonstrace moci, ponižování;
-- **izolace** – odříznutí od rodiny, přátel, práce a pomoci;
+- zastrašování – výhrůžky, sledování, demonstrace moci, ponižování;
+- izolace – odříznutí od rodiny, přátel, práce a pomoci;
 - **kontrola** – regulace každodennosti (jídlo, oblékání, peníze, čas, sexualita) a
   odebírání zdrojů.
 
@@ -71,7 +71,7 @@ vrstvu**:
 
 1. **Mikroregulace** zbavuje člověka drobných rozhodnutí, a tím i zkušenosti vlastního
    úsudku.
-2. **Izolace** odstraňuje svědky a druhé názory, s nimiž by mohl ověřit, co se děje.
+2. Izolace odstraňuje svědky a druhé názory, s nimiž by mohl ověřit, co se děje.
 3. **Popírání a přepisování** událostí ([gaslighting](@/glossary/gaslighting.md),
    [DARVO](@/glossary/darvo.md)) podkopává důvěru ve vlastní paměť a vnímání.
 4. **Vina a závazek** ([EA-2.2.7 Kultivace emočního dluhu](@/kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md))

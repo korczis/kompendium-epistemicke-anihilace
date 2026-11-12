@@ -38,10 +38,10 @@ stačí dva lidé a uzavřený prostor.
 
 1. **Násilí a hrozba** nejsou v knize hlavním tématem, ale tvoří pozadí: i vzácná fyzická
    epizoda dává váhu každé pozdější „jen“ slovní výhrůžce.
-2. **Zastrašování** – sledování, ponižování, výhrůžky blízkým – vytváří stálou ostražitost,
+2. Zastrašování – sledování, ponižování, výhrůžky blízkým – vytváří stálou ostražitost,
    která spotřebovává pozornost potřebnou k přemýšlení. Odpovídá tomu kapitola o
    [kognitivní zátěži](@/kompendium/self-defense-guides/10-cognitive-load-management.md).
-3. **Izolace** odstraňuje lidi, s nimiž by šlo vlastní vnímání porovnat. Epistemicky je to
+3. Izolace odstraňuje lidi, s nimiž by šlo vlastní vnímání porovnat. Epistemicky je to
    nejzávažnější vektor: bez druhých hlasů se ztrácí [konsenzuální realita](@/glossary/konsenzualni-realita.md).
 4. **Mikroregulace** – co nosit, jíst, říkat, jak utrácet – učí člověka, že jeho vlastní úsudek
    o banálních věcech je chybný. Z drobných korekcí se stává obecná nedůvěra k sobě.

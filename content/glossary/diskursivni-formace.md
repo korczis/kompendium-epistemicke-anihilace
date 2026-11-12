@@ -43,7 +43,7 @@ Pro epistemickou anihilaci je klíčové, že uzavřené skupiny a instituce moh
 ## Odlišení
 
 - **Ideologie** v marxistickém pojetí je falešný obraz skutečnosti; diskursivní formace se otázce pravdy a lži vyhýbá a zkoumá podmínky vzniku výpovědí.
-- **Paradigma** (Kuhn, viz [paradigm shift](@/glossary/paradigm-shift.md)) se týká vědeckého společenství a jeho vzorových řešení; diskursivní formace je širší a zahrnuje i nevědecké praktiky.
+- Paradigma (Kuhn, viz [paradigm shift](@/glossary/paradigm-shift.md)) se týká vědeckého společenství a jeho vzorových řešení; diskursivní formace je širší a zahrnuje i nevědecké praktiky.
 - **[Jazyková hra](@/glossary/jazykova-hra.md)** (Wittgenstein) zdůrazňuje pravidla užití slov v praxi; Foucault se ptá po historickém a institucionálním vzniku pravidel a po jejich vztahu k moci.
 - **[Hermeneutická marginalizace](@/glossary/hermeneuticka-marginalizace.md)** (Fricker) popisuje důsledek pro skupiny, které se na tvorbě sdílených pojmů nepodílejí.
 

@@ -62,7 +62,7 @@ struktury tento obraz:
 
 ## Mechanismus
 
-Metafora pomáhá zachytit **strukturální** povahu stavu. Pojmy fungují díky rozdílům:
+Metafora pomáhá zachytit strukturální povahu stavu. Pojmy fungují díky rozdílům:
 význam slova je z velké části dán tím, od čeho se odlišuje. Pokud se rozdíly postupně
 stírají – hraniční případy se zobecňují, slova se používají mimo své hranice, taxonomické
 vztahy se směšují –, pojmový systém ztrácí „potenciál“ pro myšlení podobně, jako

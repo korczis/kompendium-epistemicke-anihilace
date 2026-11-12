@@ -22,7 +22,7 @@ změnit.
 
 ## Vymezení
 
-Informovaný souhlas má podle Belmontské zprávy tři složky: **informaci** (účastník ví, co
+Informovaný souhlas má podle Belmontské zprávy tři složky: informaci (účastník ví, co
 studie obnáší), **porozumění** (informaci skutečně chápe) a **dobrovolnost** (rozhoduje bez
 nátlaku a nepřiměřených pobídek). K nim patří **způsobilost** k rozhodnutí a **právo
 odstoupit**. Obecné vymezení podává heslo [informed consent](@/glossary/informed-consent.md).

@@ -61,7 +61,7 @@ Tyto techniky jsou **strukturně izomorfní** s individuálními manifestacemi E
 
 ### Ellul a propagandistická totalita
 
-Jacques Ellul (*Propagandes*, 1962) formuluje radikální tezi: [propaganda](@/glossary/propaganda.md) v moderním smyslu **není redukovatelná** na klamavé vzkazy nebo manipulativní rétoriku. Je **strukturní vlastností** moderních masových společností a nelze před ní uniknout — lze pouze rozumět její povaze.
+Jacques Ellul (*Propagandes*, 1962) formuluje radikální tezi: [propaganda](@/glossary/propaganda.md) v moderním smyslu **není redukovatelná** na klamavé vzkazy nebo manipulativní rétoriku. Je strukturní vlastností moderních masových společností a nelze před ní uniknout — lze pouze rozumět její povaze.
 
 Ellulova klíčová rozlišení:
 
@@ -206,8 +206,8 @@ Hranice mezi těmito aplikacemi není daná samotnou taxonomií; vyžaduje **exp
 
 **Teoretické reflexe ne jsou závěry — jsou pozvánkami k myšlení.** Po četbě:
 
-1. Identifikuj **alespoň jeden bod**, kde nesouhlasíš s autorovou formulací
-2. Formuluj svou **vlastní alternativní pozici** v 3–5 větách
+1. Identifikuj alespoň jeden bod, kde nesouhlasíš s autorovou formulací
+2. Formuluj svou vlastní alternativní pozici v 3–5 větách
 3. Najdi v [bibliografii](@/kompendium/08-prilohy/bibliografie.md) primární
    zdroj, který tvou alternativu podporuje (alespoň 1)
 

@@ -69,7 +69,7 @@ pracuje s pozorovatelnými vzorci kontroly, ne s nálepkami.
 
 V oblasti **chování** se kontrola projevuje regulací času, spánku, stravy, oblékání,
 sexuality a financí, povinnými hlášeními, omezením kontaktů s nečleny a vysokou zátěží, která
-nenechává prostor k přemýšlení (Hassan, 2015). V oblasti **informací** jde o kontrolu
+nenechává prostor k přemýšlení (Hassan, 2015). V oblasti informací jde o kontrolu
 zdrojů, diskvalifikaci kritiky jako „propagandy“, odstupňované „pravdy“ podle úrovně
 zasvěcení a podporu udávání; tyto znaky jsou zpravidla nejsnáze doložitelné zvenčí (Hassan,
 2015).

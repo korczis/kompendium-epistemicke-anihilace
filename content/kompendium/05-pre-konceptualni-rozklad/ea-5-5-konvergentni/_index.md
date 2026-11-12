@@ -100,6 +100,11 @@ prostředí, ne jen nejnápadnější prvek. Pořadatelé intenzivních program�
 zdravotní dozor, garantované minimum spánku a jasné právo odejít; regulace takových
 programů je předmětem úvah v sekci [Populační zdraví a prevence](@/kompendium/population-health/_index.md).
 
+## Literatura
+
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of „Brainwashing“
+  in China*. W. W. Norton.
+
 ## Související
 
 **Nadřazené stránky**

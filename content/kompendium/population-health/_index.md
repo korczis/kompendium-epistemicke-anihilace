@@ -94,6 +94,12 @@ Při bezprostředním ohrožení života volejte **112** nebo **155**. V Česku 
 první psychické pomoci (**116 123**) a pro děti a dospívající Linka bezpečí (**116 111**).
 Postupy pro odborníky popisuje sekce [akutní intervenční protokoly](@/kompendium/emergency-protocols/_index.md).
 
+## Literatura
+
+- Caplan, G. (1964). *Principles of Preventive Psychiatry*. Basic Books.
+- Mrazek, P. J., & Haggerty, R. J. (Eds.). (1994). *Reducing Risks for Mental Disorders: Frontiers
+  for Preventive Intervention Research*. National Academy Press.
+
 ## Související
 
 **Navazující sekce**

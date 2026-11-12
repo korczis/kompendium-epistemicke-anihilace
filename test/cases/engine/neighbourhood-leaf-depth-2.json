@@ -173,14 +173,14 @@
       {
         "class": "root",
         "distance": 1,
-        "in": 6,
+        "in": 8,
         "path": "mapa.md",
         "title": "Mapa knihy"
       },
       {
         "class": "root",
         "distance": 1,
-        "in": 4,
+        "in": 5,
         "path": "stav.md",
         "title": "Stav knihy"
       },

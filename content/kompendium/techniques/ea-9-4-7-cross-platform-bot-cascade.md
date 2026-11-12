@@ -129,6 +129,7 @@ Pro výzkumníky je klíčový přístup k datům více platforem a spolupráce 
 - Ferrara, E., Varol, O., Davis, C., Menczer, F., & Flammini, A. (2016). The rise of social bots. *Communications of the ACM*.
 - Goldman, A. I. (2001). Experts: Which ones should you trust? *Philosophy and Phenomenological Research*.
 - Starbird, K., Arif, A., & Wilson, T. (2019). Disinformation as collaborative work. *Proceedings of the ACM on Human-Computer Interaction (CSCW)*.
+- Wardle, C., & Derakhshan, H. (2017). *Information Disorder: Toward an Interdisciplinary Framework for Research and Policy Making*. Council of Europe.
 
 ## Související
 

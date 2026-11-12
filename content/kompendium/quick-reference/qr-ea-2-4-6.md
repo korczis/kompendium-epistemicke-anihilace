@@ -51,6 +51,11 @@ Eskalujte při doložitelném vzorci, fiktivních recenzentech nebo zneužití d
 
 **Zdroj:** karta shrnuje plnou stránku [EA-2.4.6 Zachycení recenzního řízení](@/kompendium/techniques/ea-2-4-6-peer-review-capture.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
 
+## Literatura
+
+- Peters, D. P., & Ceci, S. J. (1982). Peer-review practices of psychological journals: The fate of
+  published articles, submitted again. *Behavioral and Brain Sciences*, 5(2), 187–195.
+
 ## Související
 
 - **Technika a kapitola:** [plná stránka EA-2.4.6](@/kompendium/techniques/ea-2-4-6-peer-review-capture.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).

@@ -115,6 +115,12 @@ Depression*). Dlouhodobou cestu popisuje
 potkává s mocenskou závislostí, potřebují nezávislou supervizi a možnost změnit
 školitele; srov. [akademický dohled](@/kompendium/prevention-resilience/17-academic-supervision-prevention.md).
 
+## Literatura
+
+- Sass, L. A. (1992). *Madness and Modernism: Insanity in the Light of Modern Art, Literature, and
+  Thought*. Basic Books.
+- Wells, A. (2009). *Metacognitive Therapy for Anxiety and Depression*. Guilford Press.
+
 ## Související
 
 **Kapitola a sourozenci**

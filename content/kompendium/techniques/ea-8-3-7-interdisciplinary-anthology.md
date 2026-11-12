@@ -49,12 +49,12 @@ Pět svazků z různých oborů, které na jevy popisované knihou hledí každ�
 - **Taylor (2004) Brainwashing (neuroscience).** Neurovědní výklad toho, jak se přesvědčení
   utvářejí a jak je lze pod tlakem měnit; pojem vymývání mozků zasazuje do jeho historie
   a zároveň jej převádí do řeči mozkových mechanismů.
-- **Ofshe & Watters (1994) Therapy's Delusions (clinical critique).** Kritika terapeutických
+- **Ofshe & Watters (1994) Making Monsters (clinical critique).** Kritika terapeutických
   postupů, které sugescí vytvářejí nepravdivé vzpomínky a nepravdivá vysvětlení obtíží (srov.
   [spor o znovuobjevené vzpomínky](@/kompendium/historical-cases/37-recovered-memory.md)).
-  *Bibliografická poznámka:* v roce 1994 vydali Ofshe a Watters knihu *Making Monsters*;
-  *Therapy's Delusions* (Watters & Ofshe) vyšla v roce 1999. Záznam je ponechán ve znění
-  původní bibliografie; před citací je třeba ověřit, které dílo je míněno.
+  *Bibliografická poznámka:* původní bibliografie uváděla pod rokem 1994 titul *Therapy's
+  Delusions*; ten však vydali Watters a Ofshe až v roce 1999 a míří na psychodynamické
+  terapie obecně. Popsanému tématu odpovídá kniha *Making Monsters* z roku 1994.
 - **Hardin (1968) Tragedy of the Commons (rational choice).** Esej o tom, jak racionální
   jednání jednotlivců vede k vyčerpání sdíleného zdroje; v knize slouží jako model kolektivních
   rozhodnutí, která každý jednotlivec považuje za rozumná a která přesto poškozují celek.
@@ -111,6 +111,16 @@ Doplňuje **[EA-8.3.1](@/kompendium/techniques/ea-8-3-1-foundational-readings.md
 četbu** a **[EA-8.3.3](@/kompendium/techniques/ea-8-3-3-philosophical-canon.md) Filozofický
 kánon**. Souzní s **EA-7.x teoretickými reflexemi** a se specializovanou literaturou
 [EA-8.3.9](@/kompendium/techniques/ea-8-3-9-cult-studies-literature.md).
+
+## Literatura
+
+- Barker, E. (1984). *The Making of a Moonie: Choice or Brainwashing?* Basil Blackwell.
+- Hardin, G. (1968). The tragedy of the commons. *Science*, 162(3859), 1243–1248.
+- Ofshe, R., & Watters, E. (1994). *Making Monsters: False Memories, Psychotherapy, and Sexual
+  Hysteria*. Scribner.
+- Taylor, K. (2004). *Brainwashing: The Science of Thought Control*. Oxford University Press.
+- Zablocki, B., & Robbins, T. (Eds.). (2001). *Misunderstanding Cults: Searching for Objectivity
+  in a Controversial Field*. University of Toronto Press.
 
 ---
 

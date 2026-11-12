@@ -60,3 +60,10 @@ Souvisí s kapitolami [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_in
 
 Interaktivní grafy, 3D modely a simulace k jednotlivým kapitolám jsou v sekci
 [Vizualizace](@/kompendium/visualizations/_index.md).
+
+## Související
+
+- [Vizualizace](@/kompendium/visualizations/_index.md) – interaktivní grafy, 3D modely a simulace ke kapitolám
+- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) – kapitola, ke které se vztahuje vizualizace rekonstituce
+- [Protokoly zotavení](@/kompendium/recovery-protocols/_index.md) – cesta zpět, kterou galerie ilustruje
+- [Mapa knihy](@/mapa.md) – kde v knize jednotlivé ilustrace stojí

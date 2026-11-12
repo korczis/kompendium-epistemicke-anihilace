@@ -21,7 +21,7 @@ date_modified = "2026-11-10"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-4.1` (souhrnné zpracování; nezaměňovat s výcvikovou sekvencí [EA-4.1.1–4.1.10](@/kompendium/04-terminalni-protokoly/kapitola-4.md)) |
+| **EA kód** | `EA-4.1` (souhrnné zpracování; nezaměňovat s výcvikovou sekvencí [EA-4.1.*](@/kompendium/04-terminalni-protokoly/kapitola-4.md)) |
 | **Kategorie** | 4. Terminální protokoly |
 | **Riziková úroveň** | Vysoká; při dlouhém trvání velmi vysoká |
 | **Reverzibilita** | Střední; důvěra ve vlastní vnímání se obnovuje měsíce až roky |
@@ -42,7 +42,7 @@ samostatnosti**: člověk už nepochybuje o konkrétní věci, ale o sobě jako 
 poznání. Abramson (2014) tento rys pojmenovala filosoficky: gaslighting není omyl ve sporu,
 nýbrž pokus odebrat druhé straně postavení toho, kdo může něco vědět a s kým se tedy dá
 nesouhlasit. Kód EA-4.1 je přitom samostatné souhrnné zpracování; podkapitola 4.1 téže
-kategorie ([EA-4.1.1](@/kompendium/techniques/ea-4-1-1-foundation-stage.md) až 4.1.10) popisuje jiné téma, výcvikovou sekvenci.
+kategorie ([EA-4.1.1](@/kompendium/techniques/ea-4-1-1-foundation-stage.md) a další) popisuje jiné téma, výcvikovou sekvenci.
 
 ## Strukturní prvky
 

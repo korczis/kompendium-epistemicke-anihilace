@@ -96,6 +96,9 @@ V kazuistikách knihy se tematika objevuje v [zotavení ze spirituálního kultu
 - William James: *The Varieties of Religious Experience* (Longmans, Green, 1902).
 - W. T. Stace: *Mysticism and Philosophy* (Macmillan, 1960).
 - W. N. Pahnke: *Drugs and Mysticism* (disertace, Harvard, 1963).
+- Ralph W. Hood Jr.: „The construction and preliminary validation of a measure of reported mystical experience“, *Journal for the Scientific Study of Religion* (1975).
+- Steven T. Katz: „Language, Epistemology, and Mysticism“, in S. T. Katz (ed.): *Mysticism and Philosophical Analysis* (Oxford University Press, 1978).
+- Rick Doblin: „Pahnke's ‚Good Friday Experiment‘: A long-term follow-up and methodological critique“, *Journal of Transpersonal Psychology* (1991).
 - R. R. Griffiths a kol.: „Psilocybin produces substantial and sustained decreases in depression and anxiety in patients with life-threatening cancer“, *Journal of Psychopharmacology* (2016).
 - F. S. Barrett a kol.: „Validation of the revised Mystical Experience Questionnaire“, *Journal of Psychopharmacology* (2015).
 

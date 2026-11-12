@@ -175,7 +175,7 @@ Celkem **40/40 článků v Kapitole 4**.
 | **EA-5.2.9** | [Konceptuální aporie](@/kompendium/techniques/ea-5-2-9-konceptualni-aporie.md) | ✓ |
 | **EA-5.2.10** | [Meta-kognitivní singularita](@/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md) | ✓ |
 
-> **Pozn.** [EA-5.2.11](@/kompendium/techniques/ea-5-2-11-kategorialni-anihilace.md) — 5.2.30 jsou popsány v kompaktní taxonomické formě uvnitř narativní [Kapitoly 7](@/kompendium/05-ultramari-techniky/kapitola-7.md). Plné per-technique články jsou v etické supervizi (Wave 4).
+> **Pozn.** [EA-5.2.11](@/kompendium/techniques/ea-5-2-11-kategorialni-anihilace.md) a další techniky subkategorie 5.2 jsou popsány v kompaktní taxonomické formě uvnitř narativní [Kapitoly 7](@/kompendium/05-ultramari-techniky/kapitola-7.md). Plné per-technique články jsou v etické supervizi (Wave 4).
 
 #### 5.3 Hypertransformativní protokoly (Kapitola 8)
 

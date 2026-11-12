@@ -84,6 +84,13 @@ Principy jsou zobecněním z kazuistik a z literatury o kontrolujících vztazí
 a jejich váha se mezi prostředími liší. Slouží k orientaci, ne jako kontrolní seznam, jehož
 splnění by samo o sobě něco prokazovalo.
 
+## Literatura
+
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of „Brainwashing“
+  in China*. W. W. Norton.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University
+  Press.
+
 ## Související
 
 **Kapitoly**

@@ -65,6 +65,7 @@ Russellův paradox je klíčem k celé skupině technik paradoxální metaanihil
 - Russell, B. (1903). *The Principles of Mathematics*.
 - Russell, B. (1908). Mathematical logic as based on the theory of types. *American Journal of Mathematics*, 30.
 - Whitehead, A. N., Russell, B. (1910–1913). *Principia Mathematica*.
+- Zermelo, E. (1908). Untersuchungen über die Grundlagen der Mengenlehre I. *Mathematische Annalen*, 65.
 - Bateson, G., Jackson, D. D., Haley, J., Weakland, J. (1956). Toward a theory of schizophrenia. *Behavioral Science*, 1.
 
 ## Související

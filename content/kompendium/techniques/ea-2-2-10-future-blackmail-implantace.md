@@ -61,7 +61,7 @@ Popis je záměrně omezen na strukturu, kterou pozorovatel pozná:
 
 Doloženou extrémní podobou je praxe tzv. *collateral* v organizaci NXIVM, kde členové
 odevzdávali kompromitující materiál jako „záruku“; tento prvek byl součástí trestního
-řízení v USA (2019).
+řízení, které v USA proběhlo v roce 2019 (Edmondson a Gasbarre, 2019).
 
 ## Průběh
 
@@ -190,6 +190,7 @@ a [kult think-tanku](@/kompendium/case-studies/68-think-tank-cult.md).
 
 ## Literatura
 
+- Edmondson, S., & Gasbarre, K. (2019). *Scarred: The True Story of How I Escaped NXIVM, the Cult That Bound My Life*. Chronicle Prism.
 - Stark, E. (2007). *Coercive Control*.
 - Herman, J. L. (1992). *Trauma and Recovery*.
 - Lalich, J. (2004). *[Bounded Choice](@/glossary/bounded-choice.md): True Believers and Charismatic Cults*.

@@ -251,6 +251,22 @@ Místo lineární četby:
 > formou prokrastinace. Definuj si nejprve, **co hledáš**, teprve pak
 > otevři přílohu.
 
+## Literatura
+
+- Carlson, E. B., & Putnam, F. W. (1993). An update on the Dissociative Experiences Scale.
+  *Dissociation*, 6(1), 16–27.
+- Chambers, W. V., Langone, M. D., Dole, A. A., & Grice, J. W. (1994). The Group Psychological
+  Abuse Scale: A measure of the varieties of cultic abuse. *Cultic Studies Journal*, 11(1),
+  88–117.
+- Hassan, S. (1988). *Combating Cult Mind Control*. Park Street Press.
+- Hassan, S. (2015). *Combating Cult Mind Control* (25th anniversary ed.). Freedom of Mind Press.
+- Langone, M. D. (Ed.). (1993). *Recovery from Cults: Help for Victims of Psychological and
+  Spiritual Abuse*. W. W. Norton.
+- Soto, C. J., & John, O. P. (2017). The next Big Five Inventory (BFI-2). *Journal of Personality
+  and Social Psychology*, 113(1), 117–143.
+- Weiss, D. S., & Marmar, C. R. (1997). The Impact of Event Scale – Revised. In J. P. Wilson &
+  T. M. Keane (Eds.), *Assessing Psychological Trauma and PTSD* (pp. 399–411). Guilford Press.
+
 ## Související
 
 **Přílohy knihy**

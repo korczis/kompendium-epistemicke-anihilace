@@ -53,7 +53,7 @@ která ho zasazuje do širší diskuse o tom, jak skupiny poznávají a komu dů
 
 Bubliny vznikají z obyčejných sociálních procesů. Lidé se přirozeně sdružují s podobnými lidmi;
 sociologie tento jev popisuje jako *homofilii* a ukazuje, že prostupuje přátelství, pracovní
-vztahy i sousedství (McPherson, Smith-Loviová a Cook 2001). Uvnitř názorově jednolité skupiny
+vztahy i sousedství (McPherson, Smith-Lovinová a Cook 2001). Uvnitř názorově jednolité skupiny
 pak diskuse vede k posunu postojů k extrémnějšímu pólu, protože členové slyší převážně argumenty
 jedním směrem a soutěží o souhlas ostatních (Sunstein 2002). Algoritmy doporučování tyto procesy
 zesilují, ale nevytvářejí. Manipulace začíná tam, kde někdo tyto přirozené tendence cíleně

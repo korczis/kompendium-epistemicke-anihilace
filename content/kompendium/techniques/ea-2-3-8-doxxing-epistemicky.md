@@ -69,8 +69,8 @@ Doxxing obvykle navazuje na kampaň ([EA-2.3.4](@/kompendium/techniques/ea-2-3-4
 v jejím vrcholu se objeví příspěvek s osobními údaji. Během hodin se šíří a cíl začne
 dostávat zprávy na soukromé kanály. Někdy následují offline incidenty. Cíl se stáhne,
 přestěhuje nebo změní práci; jeho hlas z debaty zmizí. Doloženým příkladem rozsáhlého
-doxxingu a obtěžování byla kampaň známá jako Gamergate (2014), zaměřená zejména na ženy
-v herním průmyslu a novinářky.
+doxxingu a obtěžování byla kampaň známá jako Gamergate z roku 2014, zaměřená zejména na ženy
+v herním průmyslu a novinářky (Marwick a Lewis, 2017).
 
 ## Teoretický rámec: ochlazující účinek a ztráta pseudonymity
 

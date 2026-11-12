@@ -1,6 +1,6 @@
 +++
 title = "Kapitola 9: Paradoxální metaanihilační protokoly"
-description = "Kapitola 9 sekce 05 — narativní expozice paradoxálních metaanihilačních protokolů, čtvrtého ultramárního režimu (EA-5.4.1 až 5.4.30)."
+description = "Kapitola 9 sekce 05 — narativní expozice paradoxálních metaanihilačních protokolů, čtvrtého ultramárního režimu (EA-5.4.*)."
 weight = 9
 insert_anchor_links = "right"
 
@@ -17,7 +17,7 @@ access_level = "L3-L4"
 
 # Kapitola 9 — Paradoxální metaanihilační protokoly
 
-> 🚨 **Přístupová úroveň L3–L4**. Kapitola popisuje **30 ultramárních technik** ([EA-5.4.1](@/kompendium/techniques/ea-5-4-1-lhar-paradox-aplikace.md) až 5.4.30) exploitujících **sebevztažné paradoxy** k destabilizaci rámců, v nichž subjekt evaluuje pravdivost, validitu a koherenci. Materiály vyžadují IRB autorizaci a etickou supervizi. Veřejně dostupné jsou výhradně **kompaktní taxonomické popisy** s 60–100 slovními deskripcemi. Operační detaily a rekonstruktivní protokoly zůstávají v restriktivních L4 přílohách. Plné per-technique články pro EA-5.4.* jsou v přípravné fázi.
+> 🚨 **Přístupová úroveň L3–L4**. Kapitola popisuje **30 ultramárních technik** ([EA-5.4.1](@/kompendium/techniques/ea-5-4-1-lhar-paradox-aplikace.md) a další) exploitujících **sebevztažné paradoxy** k destabilizaci rámců, v nichž subjekt evaluuje pravdivost, validitu a koherenci. Materiály vyžadují IRB autorizaci a etickou supervizi. Veřejně dostupné jsou výhradně **kompaktní taxonomické popisy** s 60–100 slovními deskripcemi. Operační detaily a rekonstruktivní protokoly zůstávají v restriktivních L4 přílohách. Plné per-technique články pro EA-5.4.* jsou v přípravné fázi.
 
 ## Pozice kapitoly
 

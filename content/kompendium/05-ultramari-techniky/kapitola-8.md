@@ -1,6 +1,6 @@
 +++
 title = "Kapitola 8: Hypertransformativní protokoly"
-description = "Kapitola 8 sekce 05 — narativní expozice hypertransformativních protokolů, třetího ultramárního režimu (EA-5.3.1 až 5.3.30)."
+description = "Kapitola 8 sekce 05 — narativní expozice hypertransformativních protokolů, třetího ultramárního režimu (EA-5.3.*)."
 weight = 8
 insert_anchor_links = "right"
 
@@ -17,7 +17,7 @@ access_level = "L3-L4"
 
 # Kapitola 8 — Hypertransformativní protokoly
 
-> 🚨 **Přístupová úroveň L3–L4**. Kapitola popisuje **30 ultramárních technik** ([EA-5.3.1](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md) až 5.3.30) operujících na rovině [identity poznávajícího subjektu](@/glossary/epistemicka-alienace.md). Materiály vyžadují IRB autorizaci a etickou supervizi. Veřejně dostupné jsou výhradně **kompaktní taxonomické popisy** s 60–100 slovními deskripcemi — operační detaily, plné fenomenologické profily a rekonstruktivní protokoly jsou v restriktivních L4 přílohách. Plné per-technique články pro EA-5.3.* jsou v přípravné fázi a publikovány budou až po dokončení etické supervize.
+> 🚨 **Přístupová úroveň L3–L4**. Kapitola popisuje **30 ultramárních technik** ([EA-5.3.1](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md) a další) operujících na rovině [identity poznávajícího subjektu](@/glossary/epistemicka-alienace.md). Materiály vyžadují IRB autorizaci a etickou supervizi. Veřejně dostupné jsou výhradně **kompaktní taxonomické popisy** s 60–100 slovními deskripcemi — operační detaily, plné fenomenologické profily a rekonstruktivní protokoly jsou v restriktivních L4 přílohách. Plné per-technique články pro EA-5.3.* jsou v přípravné fázi a publikovány budou až po dokončení etické supervize.
 
 ## Pozice kapitoly
 

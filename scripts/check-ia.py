@@ -86,6 +86,11 @@ Requirements (id: what is checked):
                    application (ADR 0013). Matched by shape, so a reworded heading still fails; an
                    EXCLUSION heading ("Vylučující okolnosti") is not matched. Remedy: replace with a
                    contraindication / excluding-circumstances section. NEVER baselined
+  code-range       no hand-written range of EA codes ("EA-5.4.1 — 5.4.30", "EA-4.1.1–4.1.10") in
+                   prose or tables: the set of codes is derived from the technique pages, and a range
+                   typed by hand goes stale the first time a technique is added (2026-11-12: the
+                   EA-5 index stated 5.3.1–5.3.30 and 5.4.1–5.4.30 for 36 and 60 pages). Link the
+                   first technique or the techniques index instead. NEVER baselined
   howto            no operational playbook: a page carries no "Operační modus/postup/sekvence"
                    section (steps or phases for performing a technique on a person); the
                    defensive frame describes recognition and defence, not execution. NEVER
@@ -206,6 +211,7 @@ def stamp(path: str, name: str, now_counts: dict) -> str:
 NEVER_BASELINED = {"placeholder", "technique-page", "howto", "drug-dose", "template-figure",
                    "bold-term",
                    "clinical-figure", "fabricated-citation", "legitimate-indication",
+                   "code-range",
                    "platform-section", "relative-link", "platform-label", "platform-frontmatter",
                    "philosophy-frame"}
 # When a never-baselined requirement was introduced, these pages already failed it (listed by
@@ -213,6 +219,7 @@ NEVER_BASELINED = {"placeholder", "technique-page", "howto", "drug-dose", "templ
 # the count grows. The number may only go down, and the entry goes when it reaches 0.
 PENDING_ZERO = {"placeholder": 0, "technique-page": 0, "howto": 0, "drug-dose": 0,
                 "bold-term": 0,
+                "code-range": 7,
                 "clinical-figure": 0,
                 "template-figure": 0, "platform-section": 0, "relative-link": 0,
                 "platform-label": 0, "platform-frontmatter": 0, "philosophy-frame": 0,
@@ -275,6 +282,8 @@ def violations(page: dict) -> list:
         found.append("fabricated-citation")
     if page.get("legitimate_indication"):
         found.append("legitimate-indication")
+    if page.get("code_ranges"):
+        found.append("code-range")
     if page.get("misnamed_techniques"):
         found.append("technique-name")
     if page["bold_unlinked"]:
@@ -305,6 +314,7 @@ def explain(page: dict) -> dict:
         "clinical-figure": "; ".join(page.get("clinical_figures", [])[:3]),
         "legitimate-indication": "; ".join(page.get("legitimate_indication", [])[:2]),
         "fabricated-citation": "; ".join(page.get("fabricated_citations", [])[:2]),
+        "code-range": "; ".join(page.get("code_ranges", [])[:3]),
         "technique-page": ", ".join("EA-" + c for c in page["missing_techniques"]),
         "technique-name": "; ".join(f"EA-{c} \"{h}\" is \"{t}\" in the catalogue"
                                     for c, h, t in page.get("misnamed_techniques", [])),
@@ -388,6 +398,7 @@ AUTHOR_YEAR = re.compile(
 # numbered differently on two pages still compares byte-identical.
 LIST_MARKER = re.compile(r"^(?:[-*+]\s+|\d+[.)]\s+|\(\d+\)\s+)")
 FABRICATED_CITATION_PAGES = 3  # a citation+stat unit identical on this many pages is a pasted study
+CODE_RANGE = re.compile(r"EA-\d+\.\d+\.\d+`?\]?(?:\([^)\s]*\))?\s*(?:[—–-]{1,2}|až)\s*`?(?:EA-)?\d+\.\d+\.\d+")
 BIBLIO_HEADING = re.compile(r"^#{1,3}\s+(?:Literatura|Bibliografie|Reference|Zdroje|Prameny)\b", re.I)
 # A "Vztah k/ke <Prismatic component>" heading ties the book to the Prismatic platform. ADR 0007
 # (owner, 2026-11-11: do not import; strip) removed every such section and the pages that were
@@ -579,6 +590,7 @@ def analyse(pages: list) -> dict:
                    | {m.group(0) for m in LEGIT_PERMISSION.finditer(prose)}) if technique else [])
         page["drug_dose"] = has_drug_dose(prose)
         page["clinical_figures"] = clinical_figures(prose) if page["path"].startswith("kompendium/") else []
+        page["code_ranges"] = [m.group(0) for m in CODE_RANGE.finditer(prose)]
         page["platform_section"] = (
             [m.group(0).strip() for m in PLATFORM_HEADING.finditer(prose)]
             + sorted({m.group(0) for m in PLATFORM_MARKER.finditer(body)}))

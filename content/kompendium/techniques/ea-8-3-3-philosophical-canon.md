@@ -117,6 +117,17 @@ antologii** a **[EA-8.3.10](@/kompendium/techniques/ea-8-3-10-information-warfar
 Literaturu informační války**; empirickou protiváhu tvoří
 [EA-8.3.4](@/kompendium/techniques/ea-8-3-4-empirical-research-base.md).
 
+## Literatura
+
+- Arendt, H. (1951). *The Origins of Totalitarianism*. Harcourt, Brace & Co.
+- Foucault, M. (1975). *Surveiller et punir: Naissance de la prison*. Gallimard (česky *Dohlížet
+  a trestat*).
+- Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University
+  Press.
+- Habermas, J. (1981). *Theorie des kommunikativen Handelns*. Suhrkamp.
+- Korsgaard, C. M. (1996). *The Sources of Normativity*. Cambridge University Press.
+- Mill, J. S. (1859). *On Liberty*. John W. Parker and Son.
+
 ---
 
 ## Kontakt a příspěvky

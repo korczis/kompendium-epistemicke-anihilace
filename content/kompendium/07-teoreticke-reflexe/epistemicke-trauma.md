@@ -147,11 +147,7 @@ EA techniky **systematicky atakují** všechny tři předpoklady:
 
 ### 3.4 Empirická validace PP-trauma rámce
 
-V posledním desetiletí byl PP-trauma rámec empiricky testován zejména:
-
-- **fMRI studie** ukazují, že traumatizovaní jedinci vykazují deficity v Bayesovské integraci (Linson, Friston, 2019)
-- **Computational psychiatry** modely PTSD na PP základech (Liu et al., 2021)
-- **Predictive coding deficits** v PTSD (Sjolund et al., 2022)
+PP-trauma rámec se v posledním desetiletí rozvíjí především teoreticky. Linson a Friston (2019) navrhli přerámovat PTSD pro výpočetní psychiatrii v rámci active inference. Čtení traumatu jako modelu světa, jehož předpovědi se po události přestaly opravovat podle nové zkušenosti, je výkladem knihy, který z tohoto návrhu vychází. Empirické ověření, které by tento rámec potvrdilo specificky pro epistemické trauma, kompendium nedokládá; spojení PP s EA je proto interpretací knihy, nikoli výsledkem studií.
 
 ## 4. Neurobiologie epistemického traumatu
 
@@ -201,7 +197,7 @@ Pro EA: **[epistemické trauma](@/glossary/epistemicke-trauma.md)** vykazuje ana
 
 ### 5.1 Substrát rekonstrukce
 
-Empirická literatura posledních dvou dekád ([Doidge, 2007], [Davidson, 2012], [Schwartz, 2016]) systematicky dokumentuje **neuroplasticitu** dospělého mozku — schopnost neuronálních sítí **rekonstruovat se** v odpovědi na zkušenost a praxi.
+Empirická literatura posledních dvou dekád (populárně shrnutá např. v Doidge, 2007, a Davidson a Begley, 2012) systematicky dokumentuje **neuroplasticitu** dospělého mozku — schopnost neuronálních sítí **rekonstruovat se** v odpovědi na zkušenost a praxi.
 
 Pro EA to má **fundamentální** klinickou implikaci:
 
@@ -268,6 +264,30 @@ Empirická literatura epistemického traumatu **přímo informuje** taxonomické
 | **[Edukativní implementace](@/glossary/edukativni-implementace.md)** ([3.6](@/kompendium/03-zakladni-kategorie/_index.md)) | Vývojové vzorce, Freyd betrayal |
 | **Terminální protokoly** ([sekce 04](@/kompendium/04-terminalni-protokoly/_index.md)) | Strukturální disociace (TSDP) |
 | **Ultramární techniky** ([sekce 05](@/kompendium/05-ultramari-techniky/_index.md)) | Dual representation, neurobiologické extrémy |
+
+## Literatura
+
+- Brewin, C. R. (2014). Episodic memory, perceptual memory, and their interaction: Foundations for
+  a theory of posttraumatic stress disorder. *Psychological Bulletin*, 140(1), 69–97.
+- Brewin, C. R., Dalgleish, T., & Joseph, S. (1996). A dual representation theory of
+  posttraumatic stress disorder. *Psychological Review*, 103(4), 670–686.
+- Davidson, R. J., & Begley, S. (2012). *The Emotional Life of Your Brain*. Hudson Street Press.
+- Doidge, N. (2007). *The Brain That Changes Itself*. Viking.
+- Freyd, J. J. (1996). *Betrayal Trauma: The Logic of Forgetting Childhood Abuse*. Harvard
+  University Press.
+- Freyd, J. J., DePrince, A. P., & Zurbriggen, E. L. (2001). Self-reported memory for abuse
+  depends upon victim-perpetrator relationship. *Journal of Trauma & Dissociation*, 2(3), 5–15.
+- Freyd, J. J., DePrince, A. P., & Gleaves, D. H. (2007). The state of betrayal trauma theory:
+  Reply to McNally — conceptual issues and future directions. *Memory*, 15(3), 295–311.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Janoff-Bulman, R. (1992). *Shattered Assumptions: Towards a New Psychology of Trauma*. Free
+  Press.
+- Linson, A., & Friston, K. (2019). Reframing PTSD for computational psychiatry with the active
+  inference framework. *Cognitive Neuropsychiatry*, 24(5), 347–368.
+- van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self: Structural
+  Dissociation and the Treatment of Chronic Traumatization*. W. W. Norton.
+- van der Kolk, B. A. (2014). *The Body Keeps the Score: Brain, Mind, and Body in the Healing of
+  Trauma*. Viking.
 
 ## Související
 

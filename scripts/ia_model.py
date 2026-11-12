@@ -40,6 +40,12 @@ HOWTO = re.compile(
 )
 RELATED_HEADING = re.compile(r"^##\s+(Související|Cross-linky|Související stránky)\b", re.M | re.I)
 
+# Precompiled: front-matter lines of every page and technique paths (2026-11-12 profile).
+FM_KEY = re.compile(r"^(\w+):\s*(.*)$")
+FM_NESTED_KEY = re.compile(r"^\s+(\w+):\s*(.*)$")
+TECHNIQUE_PATH = re.compile(r"kompendium/techniques/ea-(\d+)-(\d+)-(\d+)")
+
+
 
 def parse_yaml_subset(text: str) -> dict:
     """Top-level scalars and the `tags` list of the few pages with YAML front matter."""
@@ -47,13 +53,13 @@ def parse_yaml_subset(text: str) -> dict:
     for line in text.split("\n"):
         if not line.strip() or line.lstrip().startswith("#"):
             continue
-        m = re.match(r"^(\w+):\s*(.*)$", line)
+        m = FM_KEY.match(line)
         if m:
             key, value = m.groups()
             section = key if value == "" else None
             data[key] = value.strip().strip('"') if value else {}
             continue
-        m = re.match(r"^\s+(\w+):\s*(.*)$", line)
+        m = FM_NESTED_KEY.match(line)
         if m and section:
             data[section][m.group(1)] = m.group(2).strip().strip('"')
     return data
@@ -237,7 +243,7 @@ def load_terms(pages: list) -> list:
             glossary.setdefault(stem, path)
             if page["title"]:
                 glossary.setdefault(slugify(page["title"]), path)
-        m = re.match(r"kompendium/techniques/ea-(\d+)-(\d+)-(\d+)", path)
+        m = TECHNIQUE_PATH.match(path)
         if m:
             techniques["EA-" + ".".join(m.groups())] = path
     terms = []
@@ -576,7 +582,7 @@ def technique_codes(pages: list) -> set:
     """Codes X.Y.Z that have a technique page (file name ea-X-Y-Z… or extra.ea_code)."""
     codes = set()
     for page in pages:
-        m = re.match(r"kompendium/techniques/ea-(\d+)-(\d+)-(\d+)", page["path"])
+        m = TECHNIQUE_PATH.match(page["path"])
         if m:
             codes.add(".".join(m.groups()))
         extra = page.get("extra") or {}

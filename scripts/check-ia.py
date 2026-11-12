@@ -521,7 +521,7 @@ TITLE_CODE = re.compile(r"^\s*EA-\d+\.\d+\.\d+\s*[—–:.-]?\s*")
 def name_key(text: str) -> str:
     """A comparable form of a technique name: link text kept, markup, case, diacritics and
     punctuation dropped."""
-    text = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text)
+    text = LINK_MARKUP.sub(r"\1", text)
     return " ".join(slugify(text).split("-"))
 
 
@@ -529,7 +529,7 @@ def catalogue_titles(pages: list) -> dict:
     """Code X.Y.Z -> the names its technique pages give it (title without the code)."""
     names = collections.defaultdict(set)
     for page in pages:
-        m = re.match(r"kompendium/techniques/ea-(\d+)-(\d+)-(\d+)", page["path"])
+        m = TECHNIQUE_PATH.match(page["path"])
         if m and not page["is_index"]:
             names[".".join(m.groups())].add(name_key(TITLE_CODE.sub("", page["title"])))
     return names
@@ -540,7 +540,7 @@ def misnamed_headings(body: str, catalogue: dict) -> list:
     catalogue's name nor contains it nor is contained in it."""
     found, in_code = [], False
     for line in body.split("\n"):
-        if re.match(r"^\s*(```|~~~)", line):
+        if FENCE_LINE.match(line):
             in_code = not in_code
             continue
         m = None if in_code else CODED_HEADING.match(line)
@@ -555,12 +555,27 @@ def misnamed_headings(body: str, catalogue: dict) -> list:
     return found
 
 
+# Precompiled line patterns: they run per line of every page in several gates, and inline
+# re.match with a string pattern paid a cache lookup each call (2026-11-12 profile, f3).
+HEADING_PREFIX = re.compile(r"^#{1,6}\s")
+FENCE_LINE = re.compile(r"^\s*(```|~~~)")
+ITEM_PREFIX = re.compile(r"^(?:[-*+]|\d+[.)])\s")
+TECHNIQUE_PATH = re.compile(r"kompendium/techniques/ea-(\d+)-(\d+)-(\d+)")
+SPACE_RUN = re.compile(r"\s+")
+LINK_MARKUP = re.compile(r"\[([^\]]*)\]\([^)]*\)")
+
+
+_HAS_DIGIT = re.compile(r"\d")
+
+
 def clinical_figures(prose: str) -> list:
     """Paragraphs, list items and table rows outside bibliographies that state a clinical
     specific without an author-year citation or statute (CLINICAL_FIGURE)."""
     out, block, in_biblio = [], [], False
 
     def judge(text):
+        if not _HAS_DIGIT.search(text):
+            return  # every CLINICAL_FIGURE alternative needs a digit; skip the costly search
         m = CLINICAL_FIGURE.search(text)
         if not m:
             return
@@ -575,7 +590,7 @@ def clinical_figures(prose: str) -> list:
 
     for line in prose.split("\n"):
         s = line.strip()
-        if re.match(r"^#{1,6}\s", s):
+        if HEADING_PREFIX.match(s):
             flush()
             in_biblio = bool(BIBLIO_HEADING.match(s))
             continue
@@ -583,7 +598,7 @@ def clinical_figures(prose: str) -> list:
             continue
         if not s:
             flush()
-        elif s.startswith("|") or re.match(r"^(?:[-*+]|\d+[.)])\s", s):
+        elif s.startswith("|") or ITEM_PREFIX.match(s):
             flush()
             judge(s)  # a row or an item is judged on its own
         else:
@@ -618,7 +633,7 @@ def citation_stat_units(prose: str) -> set:
 
     for line in prose.split("\n"):
         s = line.strip()
-        if re.match(r"^#{1,6}\s", s):
+        if HEADING_PREFIX.match(s):
             flush()
             in_biblio = bool(BIBLIO_HEADING.match(s))
             continue
@@ -639,7 +654,7 @@ def has_drug_dose(prose: str) -> bool:
     """A dose/range in prose outside bibliography sections (a work's title is not a dosing claim)."""
     in_biblio = False
     for line in prose.split("\n"):
-        if re.match(r"^#{1,6}\s", line):
+        if HEADING_PREFIX.match(line):
             in_biblio = bool(BIBLIO_HEADING.match(line))
         if not in_biblio and DRUG_DOSE.search(line):
             return True
@@ -670,7 +685,7 @@ def passage_blocks(prose: str) -> set:
     def flush():
         if not cur:
             return
-        nb = re.sub(r"\s+", " ", " ".join(cur)).strip()
+        nb = SPACE_RUN.sub(" ", " ".join(cur)).strip()
         cur.clear()
         if (len(DUP_WORD.findall(nb)) >= DUP_MIN_WORDS and nb[:1] not in "#|>"
                 and nb[:2] not in ("- ", "* ") and "@/kompendium" not in nb[:40]
@@ -689,14 +704,15 @@ def passage_blocks(prose: str) -> set:
 def drug_names(prose: str) -> list:
     """The distinct named drugs/classes in prose outside bibliography sections (a work's title is
     not a naming claim). content/references.md is excluded by the caller via EXEMPT."""
-    found = set()
-    in_biblio = False
+    kept, in_biblio = [], False
     for line in prose.split("\n"):
-        if re.match(r"^#{1,6}\s", line):
+        if line.startswith("#") and HEADING_PREFIX.match(line):
             in_biblio = bool(BIBLIO_HEADING.match(line))
         if not in_biblio:
-            found.update(m.group(0).lower() for m in DRUG_NAME.finditer(line))
-    return sorted(found)
+            kept.append(line)
+    # One search over the kept lines, not one per line: the pattern never spans a newline, so the
+    # result is the same, and the per-line calls were most of check-ia's runtime (2026-11-12).
+    return sorted({m.group(0).lower() for m in DRUG_NAME.finditer("\n".join(kept))})
 
 
 def analyse(pages: list) -> dict:

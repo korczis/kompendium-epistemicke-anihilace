@@ -280,7 +280,7 @@ Empirická psychologie dodává:
 
 Klíčové koncepty:
 
-- **Intencionalita** — aboutness mentálních stavů
+- **[Intencionalita](@/glossary/intentionalita.md)** — aboutness mentálních stavů
 - **Reprezentace** — vnitřní obraz vnějšího světa
 - **Sebevědomí** — reflexivní access k vlastním stavům
 - **Narativní self** — kontinuální identitní struktura
@@ -311,14 +311,14 @@ Klíčové koncepty:
 - **Prefrontální kortex** — exekutivní funkce, kognitivní kontrola
 - **Amygdala** — emocionální zpracování, hyperaktivace pod stresem narušuje racionální evaluaci
 - **Hipokampus** — episodická paměť, kontextuální učení
-- **Default mode network** — introspekce, autobiografická konstrukce
+- **[Default mode network](@/glossary/default-mode-network.md)** — introspekce, autobiografická konstrukce
 - **Neuroplasticita** — substrát rekonstrukce po epistemickém traumatu
 
 ### Klinická traumatologie
 
 - **[Komplexní trauma](@/glossary/complex-trauma.md)** (Herman) — narušení integrace traumatické zkušenosti do narativu
 - **Disociativní spektrum** (van der Hart, Nijenhuis) — strukturální disociace osobnosti
-- **Prediktivní zpracování** — narušení modelu světa jako patogenetický mechanismus
+- **[Prediktivní zpracování](@/glossary/predictive-processing.md)** — narušení modelu světa jako patogenetický mechanismus
 
 ## Integrativní konceptuální syntéza
 

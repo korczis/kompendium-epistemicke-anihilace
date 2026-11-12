@@ -149,8 +149,8 @@ Uživatel internetové subkultury „od-iluze-osvobozený“ reportoval po 18 m�
 
 ### Eskaluje do
 
-- **Ontologická anihilace** ([viz ontologická anihilace](@/glossary/ontologicka-anihilace.md)) — terminální stav, v němž subjekt nemá funkční rozdíl mezi skutečným a neskutečným.
-- **Metakognitivní destrukce** ([viz metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)) — subjekt ztrácí schopnost reflektovat vlastní stav, čímž se exfoliace stává sebeudržující.
+- **[Ontologická anihilace](@/glossary/ontologicka-anihilace.md)** ([viz ontologická anihilace](@/glossary/ontologicka-anihilace.md)) — terminální stav, v němž subjekt nemá funkční rozdíl mezi skutečným a neskutečným.
+- **[Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)** ([viz metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)) — subjekt ztrácí schopnost reflektovat vlastní stav, čímž se exfoliace stává sebeudržující.
 
 ### Alternativy / podobné, ale **distinktivní**
 

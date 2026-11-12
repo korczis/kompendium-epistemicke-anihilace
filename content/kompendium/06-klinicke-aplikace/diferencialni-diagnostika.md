@@ -19,7 +19,7 @@ toc = true
 
 Klinická manifestace [epistemické anihilace](@/glossary/epistemicka-anihilace.md) (EA) **významně překrývá** s několika etablovanými diagnostickými kategoriemi. Specificky:
 
-- **PTSD** (post-traumatická stresová porucha)
+- **[PTSD](@/glossary/ptsd.md)** (post-traumatická stresová porucha)
 - **cPTSD** (komplexní PTSD, ICD-11)
 - **Disociativní poruchy** (DID, dissociativní amnézie, depersonalizační/derealizační porucha)
 - **Psychotické poruchy** s kognitivními a paranoidními rysy

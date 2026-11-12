@@ -11,7 +11,7 @@ toc = true
 
 # Epistemická singularita
 
-**Epistemická singularita** je v Kompendiu označení pro krajní stav, k němuž mohou
+**[Epistemická singularita](@/glossary/epistemicka-singularita.md)** je v Kompendiu označení pro krajní stav, k němuž mohou
 vyústit nejhlubší formy [epistemické anihilace](@/glossary/epistemicka-anihilace.md):
 poznávání člověka se zhroutí do **jediného výkladového rámce**, který vysvětluje vše,
 nepřipouští alternativu ani jako hypotézu a každý protidůkaz pohltí jako potvrzení.

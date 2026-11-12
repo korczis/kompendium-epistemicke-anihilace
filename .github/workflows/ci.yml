@@ -89,7 +89,7 @@ jobs:
       - name: Markdown is polished
         run: python3 scripts/polish-markdown.py --check
       - name: Terms are linked
-        run: python3 scripts/link-terms.py --check
+        run: python3 scripts/link-terms.py --bold --check
       - name: Information architecture does not regress
         run: python3 scripts/check-ia.py
       - name: Catalogues, their pages, exports and trainer agree

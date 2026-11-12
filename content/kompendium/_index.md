@@ -39,7 +39,7 @@ date_modified = "2026-04-26"
 >
 > Akademické kompendium / klinický referenční materiál / edukativní rámec
 
-Toto kompendium představuje strukturovaný taxonomický systém fenoménů **epistemické** a **kognitivní anihilace** — systematické destrukce schopnosti poznávat, vyhodnocovat informace a konstruovat koherentní obraz reality. Cílem je poskytnout kvalifikovaným odborníkům referenční rámec pro **identifikaci**, **prevenci** a **intervenci** v případech systematické destrukce kognitivních struktur a epistemických základů jedince či skupiny.
+Toto kompendium představuje strukturovaný taxonomický systém fenoménů **epistemické** a **[kognitivní anihilace](@/glossary/kognitivni-anihilace.md)** — systematické destrukce schopnosti poznávat, vyhodnocovat informace a konstruovat koherentní obraz reality. Cílem je poskytnout kvalifikovaným odborníkům referenční rámec pro **identifikaci**, **prevenci** a **intervenci** v případech systematické destrukce kognitivních struktur a epistemických základů jedince či skupiny.
 
 ## Cílová skupina
 

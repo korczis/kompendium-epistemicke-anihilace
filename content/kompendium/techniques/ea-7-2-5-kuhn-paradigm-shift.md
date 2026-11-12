@@ -105,7 +105,7 @@ akademické školy s vlastním jazykem, startupová kultura „disrupce“, kons
 
 - **Skutečná změna rámce.** Lidé legitimně mění světonázor – při studiu, terapii, konverzi.
   Rozhoduje, zda změna zůstává otevřená zpětnému posouzení a zda člověk smí nový rámec opustit.
-- **Transformativní zkušenost** ([glosář](@/glossary/transformative-experience.md)) je
+- **[Transformativní zkušenost](@/glossary/transformative-experience.md)** ([glosář](@/glossary/transformative-experience.md)) je
   zkušenost, která mění hodnoty; manipulace spočívá v jejím vyvolání pod tlakem a v zákazu
   reflexe.
 - **Lakatos** ([EA-7.2.4](@/kompendium/techniques/ea-7-2-4-lakatos-research-program.md))

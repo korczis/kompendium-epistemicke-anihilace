@@ -23,7 +23,7 @@ image_alt = "Komplexní trauma – glosář"
 
 **Komplexní trauma** (angl. *complex trauma*) – klinicky uznané díky knize Judith
 Hermanové *Trauma and Recovery* (1992) a formalizované v MKN-11 (přijaté 2019) jako
-**komplexní posttraumatická stresová porucha** (viz [C-PTSD](@/glossary/c-ptsd.md)) –
+**[komplexní posttraumatická stresová porucha](@/glossary/c-ptsd.md)** (viz [C-PTSD](@/glossary/c-ptsd.md)) –
 označuje trauma, které vzniká z **dlouhodobého, opakovaného vystavení mezilidskému násilí
 v situaci fyzické nebo psychické nemožnosti úniku**. Rozhodující rozdíl oproti klasické
 PTSD spočívá v trvání a kontextu: klasická PTSD je modelována na jednorázové události (boj,
@@ -76,7 +76,7 @@ závisí.
 
 ## Odlišení
 
-- **PTSD** – chybí poruchy sebeorganizace; vazba na jednorázovou událost.
+- **[PTSD](@/glossary/ptsd.md)** – chybí poruchy sebeorganizace; vazba na jednorázovou událost.
 - **Hraniční porucha osobnosti** – značný překryv; u komplexního traumatu je sebepojetí
   stabilně negativní a obtíže jsou zřetelně spojeny s traumatickou historií.
 - **Vývojové poruchy a deprese** – mohou se vyskytovat současně; rozhoduje anamnéza

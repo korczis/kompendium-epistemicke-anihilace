@@ -41,7 +41,7 @@ V epistemické rovině to vede k plíživé **devalvaci pravdy**: rozdíl mezi p
 ## Odlišení
 
 - **Klasické falešné vědomí** (Marxova tradice) předpokládá nevědomost; cynický rozum vědění předpokládá.
-- **Skepticismus** je metodická pochybnost, která hledá důvody; cynismus pochybnost ukončuje dřív, než by k něčemu zavazovala (viz [skepticismus](@/glossary/skepticismus.md)).
+- **[Skepticismus](@/glossary/skepticismus.md)** je metodická pochybnost, která hledá důvody; cynismus pochybnost ukončuje dřív, než by k něčemu zavazovala (viz [skepticismus](@/glossary/skepticismus.md)).
 - **Zdravá ironie a humor** chrání odstup a mohou být formou odporu – tím je Sloterdijkův kynismus; cynismus naopak slouží přizpůsobení.
 - **[Banalita zla](@/glossary/banalita-zla.md)** popisuje absenci úsudku; cynický rozum úsudek má, ale nevyvozuje z něj nic.
 

@@ -38,7 +38,7 @@ parent_chapter = "/kompendium/08-prilohy/"
 
 ## Definice
 
-**Komplexní posttraumatická stresová porucha** ([C-PTSD](@/glossary/c-ptsd.md)) je
+**[Komplexní posttraumatická stresová porucha](@/glossary/c-ptsd.md)** ([C-PTSD](@/glossary/c-ptsd.md)) je
 v 11. revizi Mezinárodní klasifikace nemocí (MKN-11) samostatná diagnóza vedle
 posttraumatické stresové poruchy (6B40). Vzniká po vystavení události nebo sérii událostí
 extrémně ohrožující nebo hrozivé povahy, nejčastěji **dlouhodobé nebo opakované**

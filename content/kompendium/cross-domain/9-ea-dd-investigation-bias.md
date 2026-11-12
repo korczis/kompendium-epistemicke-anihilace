@@ -80,7 +80,7 @@ postupu: odpovědnost za rozhodnutí se v případě sporu posuzuje podle toho, 
 Prvním opatřením je **zápis výchozích hypotéz** před zahájením prověrky – co si vyšetřovatel
 myslí a proč. Na konci se se zápisem srovná a zpráva uvede, co se změnilo. Druhým je
 **oddělení sběru a hodnocení**: kdo shromažďuje informace, nemusí být tím, kdo o nich
-rozhoduje. Třetím je **red team** – kolega, který má za úkol hledat nejsilnější argumenty
+rozhoduje. Třetím je **[red team](@/glossary/red-team.md)** – kolega, který má za úkol hledat nejsilnější argumenty
 proti závěru (viz [Red Team](@/glossary/red-team.md)). Čtvrtým je **předběžná pitva**
 (*pre-mortem*): představit si, že rozhodnutí dopadlo špatně, a hledat proč (Klein 2007).
 Pátým je **nezávislost odměny na výsledku** a výslovné ujištění zadavatele, že negativní

@@ -135,7 +135,7 @@ Tento princip je silnější než klasický předběžný princip (*precautionar
 ### Výzkumný kontext
 
 - **Minimalizace rizika** — design protokolů s eliminací rizika poškození
-- **Informovaný souhlas+** — rozšířený standard zahrnující edukaci o specifických rizicích
+- **[Informovaný souhlas+](@/glossary/informed-consent.md)** — rozšířený standard zahrnující edukaci o specifických rizicích
 - **Segmentace poznatků** — strategická fragmentace publikovaných výsledků
 - **Post-výzkumná péče** — dlouhodobé sledování integrity participantů
 - **Transparentní limitace** — explicitní artikulace metodologických a etických omezení

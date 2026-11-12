@@ -44,7 +44,7 @@ Strukturně LTI ukazuje, že ideologie se nejúčinněji šíří **pod úrovní
 
 - **[Propaganda](@/glossary/propaganda.md)** je záměrné šíření sdělení; LTI zahrnuje i nezáměrné přejímání jazyka v každodenní řeči.
 - **[Newspeak](@/glossary/newspeak.md)** je literární konstrukce plánovaného jazyka; LTI je dokumentovaný historický jazyk, který se vyvíjel živelně i řízeně.
-- **Loading the language** je obecné kritérium; LTI je konkrétní případová studie.
+- **[Loading the language](@/glossary/loading-the-language.md)** je obecné kritérium; LTI je konkrétní případová studie.
 - **Politický žargon** obecně nemusí být totalitní; rozhodující je, zda vylučuje alternativní popisy a zakrývá násilí.
 
 ## Význam pro Kompendium

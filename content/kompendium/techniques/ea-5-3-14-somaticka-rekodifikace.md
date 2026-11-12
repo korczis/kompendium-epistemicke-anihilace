@@ -117,7 +117,7 @@ Co může vidět vnější pozorovatel:
 
 ## Teoretické zázemí
 
-Merleau-Pontyho **schéma corporel** (*Phénoménologie de la perception*) — prelingvistická tělová mapa — je systematicky přepisována. **Habit body** je rekonfigurováno — staré gesta jsou nahrazena novými. Husserlovy **kinestetické systémy** (*Ideen II*) ztrácejí integrovanost. Damasiův **proto-self** — nejhlubší tělová mapa — je atakována na úrovni, kde si toho subjekt sám není vědom. Bourdieuho **habitus** (*Le sens pratique*) jako vtělená historie je přepsán. Levinasova **sensibilité** je instrumentalizována k vepsání cizích somatických vzorů. Foucault: tělo jako objekt **biopowerové** discipliny. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
+Merleau-Pontyho **schéma corporel** (*Phénoménologie de la perception*) — prelingvistická tělová mapa — je systematicky přepisována. **Habit body** je rekonfigurováno — staré gesta jsou nahrazena novými. Husserlovy **kinestetické systémy** (*Ideen II*) ztrácejí integrovanost. Damasiův **proto-self** — nejhlubší tělová mapa — je atakována na úrovni, kde si toho subjekt sám není vědom. Bourdieuho **[habitus](@/glossary/habitus.md)** (*Le sens pratique*) jako vtělená historie je přepsán. Levinasova **sensibilité** je instrumentalizována k vepsání cizích somatických vzorů. Foucault: tělo jako objekt **biopowerové** discipliny. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
 
 ## Empirická literatura
 

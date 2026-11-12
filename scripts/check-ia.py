@@ -106,7 +106,8 @@ Requirements (id: what is checked):
                    parenthesis, the alias in it, extra.aliases, slug) is a link: it charges a
                    MISSING link only, never a link to a thin page (labels, table header rows and
                    first cells, Související, Literatura, key sentences over 6 words and the
-                   entry's own page exempt); `link-terms.py --bold` fixes it
+                   entry's own page exempt); `link-terms.py --bold` fixes it and every gate
+                   runs it (verify-content --fix, pre-push, CI), so it is NEVER baselined
   bold-candidate   a worklist keyed bold:<slug>: a bold phrase of up to 6 words on 3+ pages that
                    is not a term, a label or a link needs its own glossary page; when the page
                    exists, the phrase leaves the list and bold-term enforces it
@@ -203,6 +204,7 @@ def stamp(path: str, name: str, now_counts: dict) -> str:
 # An unfinished page or a technique without a page is never an accepted state: these
 # requirements cannot be introduced into, extended in or hand-written into the baseline.
 NEVER_BASELINED = {"placeholder", "technique-page", "howto", "drug-dose", "template-figure",
+                   "bold-term",
                    "clinical-figure", "fabricated-citation", "legitimate-indication",
                    "platform-section", "relative-link", "platform-label", "platform-frontmatter",
                    "philosophy-frame"}
@@ -210,6 +212,7 @@ NEVER_BASELINED = {"placeholder", "technique-page", "howto", "drug-dose", "templ
 # `--list <rule>`); they are fixed in content, not accepted. Until then the gate fails only when
 # the count grows. The number may only go down, and the entry goes when it reaches 0.
 PENDING_ZERO = {"placeholder": 0, "technique-page": 0, "howto": 0, "drug-dose": 0,
+                "bold-term": 0,
                 "clinical-figure": 0,
                 "template-figure": 0, "platform-section": 0, "relative-link": 0,
                 "platform-label": 0, "platform-frontmatter": 0, "philosophy-frame": 0,

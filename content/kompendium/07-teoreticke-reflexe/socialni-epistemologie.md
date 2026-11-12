@@ -96,7 +96,7 @@ Fricková nabízí kompendiu **fundamentální** rámec:
 
 | EA dimenze | Frickerová kategorie |
 |------------|------------------------|
-| [Delegitimizace ekvivalencí](@/kompendium/03-zakladni-kategorie/_index.md) (3.5) | **Testimoniální nespravedlnost** — předsudkem motivovaná diskontace mluvčího |
+| [Delegitimizace ekvivalencí](@/kompendium/03-zakladni-kategorie/_index.md) (3.5) | **[Testimoniální nespravedlnost](@/glossary/testimonialni-nespravedlnost.md)** — předsudkem motivovaná diskontace mluvčího |
 | Akademická manipulace | **Testimoniální** — váhování argumentu podle akademické hierarchie, nikoli kvality |
 | Marginalizace whistleblowerů | **Testimoniální** — institucionalizovaná diskontace |
 | Absence konceptu pro EA samotnou | **Hermeneutická** — kompendium ji explicitně řeší (!) |

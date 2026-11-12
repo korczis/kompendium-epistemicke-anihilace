@@ -23,7 +23,7 @@ existuje představitelné pozorování nebo výsledek, který by s ní byl v roz
 nemůže odporovat.
 
 Výraz *falsifikabilita* je přímý přepis anglického *falsifiability*; v české odborné
-literatuře se častěji používá **falsifikovatelnost**, kterou podrobně rozebírá heslo
+literatuře se častěji používá **[falsifikovatelnost](@/glossary/falsifikovatelnost.md)**, kterou podrobně rozebírá heslo
 [Falsifikovatelnost](@/glossary/falsifikovatelnost.md). Úkon samotného vyvrácení popisuje
 heslo [Falsifikace](@/glossary/falsifikace.md). Toto heslo se soustředí na praktické
 použití kritéria při rozpoznávání manipulace.

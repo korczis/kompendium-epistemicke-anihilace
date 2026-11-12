@@ -34,7 +34,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 
 ## Definice
 
-**Husserlovská redukce — perverze** je metatranscendentální technika, jíž je legitimní fenomenologická operace **epoché** (uzávorkování přirozeného postoje) zneužita ke generaci **trvalé derealizace** subjektu. Husserlova *epoché* je metodologickým nástrojem k odhalení **intencionálních struktur**; perverze tuto operaci redukuje na **fenomenologickou paralýzu**, kde uzávorkování se stává trvalým modem zkušenosti, nikoli reflexivním nástrojem.
+**Husserlovská redukce — perverze** je metatranscendentální technika, jíž je legitimní fenomenologická operace **[epoché](@/glossary/epoche.md)** (uzávorkování přirozeného postoje) zneužita ke generaci **trvalé derealizace** subjektu. Husserlova *epoché* je metodologickým nástrojem k odhalení **intencionálních struktur**; perverze tuto operaci redukuje na **fenomenologickou paralýzu**, kde uzávorkování se stává trvalým modem zkušenosti, nikoli reflexivním nástrojem.
 
 Husserl explicitně rozlišoval:
 

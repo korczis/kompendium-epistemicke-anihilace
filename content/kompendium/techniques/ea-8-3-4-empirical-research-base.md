@@ -96,7 +96,7 @@ policejní výslech a terapii.
 
 ## Odlišení
 
-Empirickou bázi je třeba číst s vědomím **replikační krize**. Rozsáhlý pokus Open Science
+Empirickou bázi je třeba číst s vědomím **[replikační krize](@/glossary/replication-crisis.md)**. Rozsáhlý pokus Open Science
 Collaboration (2015) zopakoval desítky psychologických studií a zjistil, že řada efektů
 byla slabší, než se uvádělo ([replication crisis](@/glossary/replication-crisis.md)). Klasické
 studie konformity a poslušnosti byly v různých podobách opakovány, ale jsou předmětem

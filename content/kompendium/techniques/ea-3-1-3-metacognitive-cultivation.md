@@ -185,25 +185,6 @@ Tato edukativní technika **operacionalizuje** poznatky z taxonomie:
 - **Filozofie**:
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## Co ověřit před čtením
-
-Před prací s touto stránkou si čtenář ověří:
-
-- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
-  (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální rámec)
-- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  odpovídající úrovni této stránky
-- Zavedení takového výcviku v instituci je předmětem schválení
-  [institucionální etické rady](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md),
-  nikoli rozhodnutí jednotlivého čtenáře
-
-> **Rámec čtení**: stránka popisuje, co edukativní praxi tohoto typu charakterizuje
-> a podle čeho se pozná, že je vedena dobře; není to implementační návod. Etický rámec
-> stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
-> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
-
----
-
 ## Connect & Contribute
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

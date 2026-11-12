@@ -28,7 +28,7 @@ M. (28 let, muž, doktorand v technicky orientovaném oboru — výpočetní lin
 | **Povaha případu** | kompozit, nikoli záznam o jednom klientovi |
 | **Doména** | Doktorský program, technický obor |
 | **Trvání expozice** | 4 roky (1.→4. ročník PhD) |
-| **Manifestované techniky** | EA-1.1.2, EA-1.2.1, EA-1.2.3, EA-1.3.2, EA-1.3.3, EA-1.4.1 + kompoziční vzorce Salami + Trojan |
+| **Manifestované techniky** | EA-1.1.2, [EA-1.2.1](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md), EA-1.2.3, EA-1.3.2, EA-1.3.3, EA-1.4.1 + kompoziční vzorce Salami + Trojan |
 | **Komorbidity** | Major depresivní epizoda, suicidální ideace |
 | **Kritická intervence** | Krizová psychiatrická koordinace, hospitalizace |
 | **Výsledek** | Symptomatická remise, akademický exit, profesní reorientace |

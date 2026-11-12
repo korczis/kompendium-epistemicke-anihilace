@@ -100,6 +100,8 @@ Rizikovým kontextem je skupina složená z lidí se stejným výcvikem, stejný
 
 Druhým rizikovým kontextem je nejasná mlčenlivost. Nemá-li skupina dohodnuto, co se smí vynést a komu se hlásí vážný nález, přestane se v ní mluvit o tom podstatném (Bernard a Goodyear, 2019).
 
+Zevnitř je úpadek skupiny obtížně postřehnutelný, protože setkání jsou stále příjemná a účastníci z nich odcházejí s pocitem podpory. Chybí jen jedno: nikdo si už nevybaví, kdy naposledy změnil názor na vlastní případ. Counselman a Weber (2004) proto spojují životnost peer skupiny s pravidelným přezkumem toho, jak skupina sama pracuje.
+
 ## Vztah k jiným technikám
 
 | Stránka | Vztah |
@@ -139,22 +141,6 @@ Druhým rizikovým kontextem je nejasná mlčenlivost. Nemá-li skupina dohodnut
 - **Klinické aplikace**: [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - **Filozofie**:
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
-## Co ověřit před čtením
-
-Před prací s touto stránkou si čtenář ověří:
-
-- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
-  (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální rámec).
-- Má k dispozici [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  odpovídající úrovni této stránky.
-- Stránka není nástroj sebediagnostiky; podezření na sebe nebo na blízkou osobu patří
-  k [diagnostickým indikátorům](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a ke konzultaci se supervizí.
-
-> **Rámec čtení**: stránka popisuje rozpoznatelný vzorec, nikoli nástroj.
-
----
 
 ## Connect & Contribute
 

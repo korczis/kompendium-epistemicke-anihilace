@@ -93,6 +93,12 @@ Od neškodných jevů se vzorec odlišuje tím, co po něm zůstává. Náročn�
 
 Druhým rozlišovacím hlediskem je dohledatelnost. Legitimní rámec po sobě nechává zápis: kdo posoudil poměr přínosu a rizika, co bylo sporné a za jakých podmínek se mělo zastavit. Kde takový zápis chybí, nelze o supervidovaném protokolu mluvit bez ohledu na to, jak se prostředí samo popisuje (Belmont Report, 1979).
 
+## Jak se vzorec pozná zevnitř
+
+Člověk, jehož odchod je vázán na souhlas prostředí, to zpravidla nevnímá jako zákaz. Zažívá spíš to, že by odchod byl zradou, že by ho nikdo nepochopil nebo že venku nemá kam jít; možnost odejít formálně trvá, ale prakticky zanikla. Stark (2007) popisuje právě takto postupně zúžený prostor jako podstatu donucující kontroly, kterou zasažený člověk vidí až zpětně.
+
+Pro okolí je rozlišovacím znakem to, co následuje po přerušení: zda člověk dostane informace, čas a možnost rozhodnout se sám, nebo zda je jedna závislost nahrazena jinou. Obnovu pocitu vlastní zdatnosti řadí mezi základní prvky akutní pomoci Hobfoll a kol. (2007).
+
 ## Rizikové kontexty
 
 Rizikovým kontextem je prostředí bez cílového bezpečného místa. Přerušení, které vede zpět do téhož prostředí, mění jen formu zátěže (Hobfoll a kol., 2007).
@@ -142,17 +148,3 @@ Druhým rizikovým kontextem je přerušení vedené proti vůli dospělého čl
 
 - [Coerce léčba a EA framework](@/kompendium/critical-perspectives/16-treatment-coercion-risk.md) – kdy se extrakce mění v nátlak.
 - [Informovaný souhlas](@/glossary/informed-consent.md) – předem dohodnutá pravidla přerušení.
-
-## Co ověřit před čtením
-
-Před prací s touto stránkou si čtenář ověří:
-
-- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
-  (L2 = doložená kvalifikace a supervize).
-- Má k dispozici [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  odpovídající rizikovému profilu stránky.
-- Stránka není nástroj sebediagnostiky; podezření na sebe nebo na blízkou osobu patří
-  k [diagnostickým indikátorům](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a ke konzultaci se supervizí.
-
-> **Rámec čtení**: stránka popisuje rozpoznatelný vzorec, nikoli nástroj.

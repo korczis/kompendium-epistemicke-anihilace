@@ -80,6 +80,8 @@ Holografická redukce je odlišitelná od **legitimních systemic-thinking pří
 - **Legitimní rámec** uznává **doménové hranice** a **scope-conditions** — fraktály v komplexních systémech mají specifické matematické definice a aplikace.
 - **Manipulativní rámec** je **neomezeně aplikovatelný**, čímž ztrácí informační obsah (claim, který nelze popřít, neříká nic specifického).
 
+Zevnitř se redukce nepozná podle obsahu, ale podle ztráty překvapení: nic nového už člověka nezaskočí, protože vše předem zapadá. Kniha tento úbytek údivu čte jako varovný znak, nikoli jako moudrost, ve smyslu svých [metodologických poznámek](@/kompendium/02-uvod/metodologicke-poznamky.md).
+
 ## Rizikové kontexty
 
 | Kontext | Manifestace |
@@ -164,26 +166,6 @@ Online komunita sdílí „synchronicity“ události — ekonomické zprávy, g
 - **Filozofie**:
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
-## Co ověřit před čtením
-
-Před prací s touto stránkou si čtenář ověří:
-
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
-  (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
-  rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a konzultuj výsledek se supervizí
-
-> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
-> čtenáře, nikoli nástroj. Etický rámec stanoví
-> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
-> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
-
----
 
 ## Connect & Contribute
 

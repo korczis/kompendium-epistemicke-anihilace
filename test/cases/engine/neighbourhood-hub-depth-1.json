@@ -31,6 +31,11 @@
       {
         "from": "glossary/_index.md",
         "kind": "link",
+        "to": "glossary/metakognitivni-destrukce.md"
+      },
+      {
+        "from": "glossary/_index.md",
+        "kind": "link",
         "to": "glossary/taxonomie-ea.md"
       },
       {
@@ -79,6 +84,11 @@
         "to": "glossary/epistemicka-anihilace.md"
       },
       {
+        "from": "glossary/disociace.md",
+        "kind": "link",
+        "to": "glossary/metakognitivni-destrukce.md"
+      },
+      {
         "from": "glossary/epistemicka-anihilace.md",
         "kind": "link",
         "to": "glossary/coercive-control.md"
@@ -92,6 +102,11 @@
         "from": "glossary/epistemicka-anihilace.md",
         "kind": "link",
         "to": "glossary/gaslighting.md"
+      },
+      {
+        "from": "glossary/epistemicka-anihilace.md",
+        "kind": "link",
+        "to": "glossary/metakognitivni-destrukce.md"
       },
       {
         "from": "glossary/epistemicka-anihilace.md",
@@ -121,7 +136,17 @@
       {
         "from": "glossary/gaslighting.md",
         "kind": "link",
+        "to": "glossary/metakognitivni-destrukce.md"
+      },
+      {
+        "from": "glossary/gaslighting.md",
+        "kind": "link",
         "to": "kompendium/01-predmluva/eticke-aspekty.md"
+      },
+      {
+        "from": "glossary/metakognitivni-destrukce.md",
+        "kind": "link",
+        "to": "glossary/epistemicka-anihilace.md"
       },
       {
         "from": "glossary/taxonomie-ea.md",
@@ -144,74 +169,44 @@
         "to": "kompendium/06-klinicke-aplikace/_index.md"
       },
       {
-        "from": "kompendium/06-klinicke-aplikace/_index.md",
-        "kind": "link",
-        "to": "glossary/delegitimizace.md"
-      },
-      {
-        "from": "kompendium/06-klinicke-aplikace/_index.md",
+        "from": "kompendium/05-ultramari-techniky/_index.md",
         "kind": "link",
         "to": "glossary/epistemicka-anihilace.md"
       },
       {
-        "from": "kompendium/06-klinicke-aplikace/_index.md",
+        "from": "kompendium/05-ultramari-techniky/_index.md",
         "kind": "link",
-        "to": "glossary/gaslighting.md"
+        "to": "glossary/metakognitivni-destrukce.md"
       },
       {
-        "from": "kompendium/06-klinicke-aplikace/_index.md",
-        "kind": "link",
-        "to": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md"
-      },
-      {
-        "from": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md",
-        "kind": "link",
-        "to": "glossary/coercive-control.md"
-      },
-      {
-        "from": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md",
-        "kind": "link",
-        "to": "glossary/disociace.md"
-      },
-      {
-        "from": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md",
-        "kind": "link",
-        "to": "glossary/epistemicka-anihilace.md"
-      },
-      {
-        "from": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md",
-        "kind": "link",
-        "to": "glossary/gaslighting.md"
-      },
-      {
-        "from": "kompendium/06-klinicke-aplikace/supervizni-ramce.md",
-        "kind": "link",
-        "to": "glossary/delegitimizace.md"
-      },
-      {
-        "from": "kompendium/06-klinicke-aplikace/supervizni-ramce.md",
-        "kind": "link",
-        "to": "glossary/epistemicka-anihilace.md"
-      },
-      {
-        "from": "kompendium/06-klinicke-aplikace/supervizni-ramce.md",
-        "kind": "link",
-        "to": "glossary/gaslighting.md"
-      },
-      {
-        "from": "kompendium/06-klinicke-aplikace/supervizni-ramce.md",
+        "from": "kompendium/05-ultramari-techniky/_index.md",
         "kind": "link",
         "to": "glossary/taxonomie-ea.md"
       },
       {
-        "from": "kompendium/06-klinicke-aplikace/supervizni-ramce.md",
+        "from": "kompendium/05-ultramari-techniky/_index.md",
+        "kind": "link",
+        "to": "kompendium/01-predmluva/eticke-aspekty.md"
+      },
+      {
+        "from": "kompendium/05-ultramari-techniky/_index.md",
         "kind": "link",
         "to": "kompendium/06-klinicke-aplikace/_index.md"
       },
       {
-        "from": "kompendium/06-klinicke-aplikace/supervizni-ramce.md",
+        "from": "kompendium/06-klinicke-aplikace/_index.md",
         "kind": "link",
-        "to": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md"
+        "to": "glossary/delegitimizace.md"
+      },
+      {
+        "from": "kompendium/06-klinicke-aplikace/_index.md",
+        "kind": "link",
+        "to": "glossary/epistemicka-anihilace.md"
+      },
+      {
+        "from": "kompendium/06-klinicke-aplikace/_index.md",
+        "kind": "link",
+        "to": "glossary/gaslighting.md"
       }
     ],
     "limit": 10,
@@ -222,13 +217,6 @@
         "in": 603,
         "path": "glossary/epistemicka-anihilace.md",
         "title": "Epistemická anihilace"
-      },
-      {
-        "class": "kompendium/01-predmluva",
-        "distance": 1,
-        "in": 357,
-        "path": "kompendium/01-predmluva/eticke-aspekty.md",
-        "title": "1.3 Etické aspekty a upozornění"
       },
       {
         "class": "kompendium/06-klinicke-aplikace",
@@ -252,13 +240,6 @@
         "title": "Taxonomie EA"
       },
       {
-        "class": "kompendium/06-klinicke-aplikace",
-        "distance": 1,
-        "in": 300,
-        "path": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md",
-        "title": "6.1 Diagnostické indikátory a markery EA"
-      },
-      {
         "class": "glossary",
         "distance": 1,
         "in": 299,
@@ -273,13 +254,6 @@
         "title": "Disociace"
       },
       {
-        "class": "kompendium/06-klinicke-aplikace",
-        "distance": 1,
-        "in": 272,
-        "path": "kompendium/06-klinicke-aplikace/supervizni-ramce.md",
-        "title": "6.6 Supervizní rámce v klinické praxi EA"
-      },
-      {
         "class": "glossary",
         "distance": 1,
         "in": 269,
@@ -292,6 +266,27 @@
         "in": 265,
         "path": "glossary/delegitimizace.md",
         "title": "Delegitimizace"
+      },
+      {
+        "class": "glossary",
+        "distance": 1,
+        "in": 246,
+        "path": "glossary/metakognitivni-destrukce.md",
+        "title": "Metakognitivní destrukce"
+      },
+      {
+        "class": "kompendium/01-predmluva",
+        "distance": 1,
+        "in": 244,
+        "path": "kompendium/01-predmluva/eticke-aspekty.md",
+        "title": "1.3 Etické aspekty a upozornění"
+      },
+      {
+        "class": "kompendium/05-ultramari-techniky",
+        "distance": 1,
+        "in": 218,
+        "path": "kompendium/05-ultramari-techniky/_index.md",
+        "title": "05. Ultramární techniky fundamentální dekonstrukce"
       }
     ],
     "ok": true,

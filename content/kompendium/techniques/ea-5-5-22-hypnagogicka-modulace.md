@@ -46,6 +46,8 @@ Klinicky je podstatné odlišení od hypnagogických halucinací u narkolepsie a
 
 Od zájmu o přechodové stavy se vzorec liší tím, že je zážitek ceněn výš než denní život a že jeho obsah mimo skupinu nepřichází. Singer (1995) popisuje toto převrácení priorit jako znak vznikající závislosti.
 
+Zevnitř se vzorec obtížně rozpoznává, protože obrazy z přechodu do spánku přicházejí bez zjevného autora a působí jako to nejosobnější, co člověk má. Že jejich výklad dodala skupina, si nevybaví, pamatuje si jen pocit zjevení. Mavromatis (1987) zdůrazňuje mnohoznačnost a prchavost hypnagogických obrazů; obranou je proto nechat jim tuto mnohoznačnost a nepouštět k jejich výkladu nikoho, kdo z něj má prospěch.
+
 *Interpretace knihy*: rozhodující je, kdo zážitku z přechodu dává význam.
 
 ## Fenomenologické znaky
@@ -113,11 +115,11 @@ Klinická [diferenciace](@/glossary/diferenciace.md) techniky **hypnagogická mo
 
 **vs. Psychotické spektrum** (F20–F29 dle MKN-10): Psychotická epizoda zahrnuje *strukturální* narušení [reality testing](@/glossary/reality-testing.md) s halucinacemi a bludy, zatímco EA-5.5.22 produkuje *fenomenologické* narušení pre-predikativní vrstvy bez ztráty reality testing. Klíčová diference: u psychózy subjekt *věří* iluzornímu obsahu jako realitě (delusional conviction); u EA-5.5.22 subjekt *prožívá* narušení, ale meta-kognitivně rozpoznává, že jde o anomální stav. Schneiderovy first-rank symptoms (vkládání myšlenek, ozvučení myšlení) jsou v EA-5.5.22 absentní.
 
-**vs. Disociativní poruchy** (F44): [Disociace](@/glossary/disociace.md) zahrnuje narušení integrace vědomí, paměti a identity (DSM-5 dissociation subscale >10). EA-5.5.22 produkuje narušení *pre-reflexivní* vrstvy, zatímco disociace operuje na úrovni autobiografické paměti a identity. Diagnostický marker: Dissociative Experiences Scale (DES-II) skore >30 indikuje disociační poruchu, ne EA stav.
+**vs. Disociativní poruchy** (F44): [Disociace](@/glossary/disociace.md) zahrnuje narušení integrace vědomí, paměti a identity. EA-5.5.22 produkuje narušení *pre-reflexivní* vrstvy, zatímco disociace operuje na úrovni autobiografické paměti a identity. Rozlišení patří klinickému vyšetření; práh skóre kniha neuvádí.
 
 **vs. Mystická zkušenost** (Stace 1960; Hood Mysticism Scale): Mystické zážitky obsahují pozitivní afekt, sense of unity a ineffability. EA-5.5.22 produkuje *negativní* fenomenologii — rozpadnutí, ne sjednocení. Hood M-Scale skore <40 v kombinaci s anxietou diferencuje EA od mystické zkušenosti. James (*Varieties of Religious Experience*, 1902) by EA-5.5.22 klasifikoval jako „anti-mystical“ stav.
 
-**vs. [Depersonalizace](@/glossary/depersonalizace.md)/derealizace** (F48.1): DPDR je trvalý nebo recurrent stav odcizení od self/světa. EA-5.5.22 je akutní *induced* stav s definovaným počátkem a koncem. Cambridge Depersonalisation Scale (CDS) skore >70 v posledních 6 měsících indikuje DPDR; akutní EA-5.5.22 se obvykle resolvuje do 24–72h.
+**vs. [Depersonalizace](@/glossary/depersonalizace.md)/derealizace** (F48.1): DPDR je trvalý nebo recurrent stav odcizení od self/světa. EA-5.5.22 je akutní *induced* stav s definovaným počátkem a koncem. Rozlišení i délku průběhu posoudí klinik; kniha k nim čísla neuvádí.
 
 ## Literatura
 
@@ -170,18 +172,6 @@ Klinická [diferenciace](@/glossary/diferenciace.md) techniky **hypnagogická mo
   - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
   - [Embodied cognition](@/glossary/embodied-cognition.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
-
-## Co ověřit před čtením
-
-Před prací s touto stránkou si čtenář ověří:
-
-- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň tohoto materiálu
-- Sebediagnostika z této stránky neplatí: [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se vyhodnocují se supervizí
-
-> **Rámec čtení**: stránka je popis vzorce pro kvalifikovaného čtenáře, nikoli nástroj — viz [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
-
----
 
 ## Connect & Contribute
 

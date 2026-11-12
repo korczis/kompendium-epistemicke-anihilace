@@ -68,6 +68,10 @@ Co může vidět vnější pozorovatel:
 | Frequence dechově-induced epizod (závratě, parestezie) roste | Strukturální dysfunkce |
 | Subjekt vyhledává intenzivní dechové praktiky | Závislost |
 
+## Jak se vzorec pozná zevnitř
+
+Zevnitř se rozklad dechu neohlašuje jako ztráta, ale jako pokrok. Člověk si všimne, že bez skupiny dýchá „špatně“, a tuto nejistotu čte jako důkaz, že se teprve učí správnému dechu, takže ji přináší zpět do téhož prostředí, které ji vyvolalo. Od neškodného dechového cvičení se vzorec liší směrem: cvičení po sobě nechává větší volnost dýchat i bez něj, kdežto zde vlastní dech zůstává podezřelý. Lindahl et al. (2017) ukázali, že účastníci obtíže intenzivní praxe často nehlásili, protože je okolí vykládalo jako žádoucí; obranou je proto blízký člověk mimo skupinu, který závrať či úzkost bere jako tělesný signál, nikoli jako stupeň cesty.
+
 ## Neutralizační strategie
 
 ### Individuální
@@ -111,11 +115,11 @@ Klinická [diferenciace](@/glossary/diferenciace.md) techniky **dechový rytmus 
 
 **vs. Psychotické spektrum** (F20–F29 dle MKN-10): Psychotická epizoda zahrnuje *strukturální* narušení [reality testing](@/glossary/reality-testing.md) s halucinacemi a bludy, zatímco EA-5.5.16 produkuje *fenomenologické* narušení pre-predikativní vrstvy bez ztráty reality testing. Klíčová diference: u psychózy subjekt *věří* iluzornímu obsahu jako realitě (delusional conviction); u EA-5.5.16 subjekt *prožívá* narušení, ale meta-kognitivně rozpoznává, že jde o anomální stav. Schneiderovy first-rank symptoms (vkládání myšlenek, ozvučení myšlení) jsou v EA-5.5.16 absentní.
 
-**vs. Disociativní poruchy** (F44): [Disociace](@/glossary/disociace.md) zahrnuje narušení integrace vědomí, paměti a identity (DSM-5 dissociation subscale >10). EA-5.5.16 produkuje narušení *pre-reflexivní* vrstvy, zatímco disociace operuje na úrovni autobiografické paměti a identity. Diagnostický marker: Dissociative Experiences Scale (DES-II) skore >30 indikuje disociační poruchu, ne EA stav.
+**vs. Disociativní poruchy** (F44): [Disociace](@/glossary/disociace.md) zahrnuje narušení integrace vědomí, paměti a identity. EA-5.5.16 produkuje narušení *pre-reflexivní* vrstvy, zatímco disociace operuje na úrovni autobiografické paměti a identity. Rozlišení patří klinickému vyšetření; práh skóre kniha neuvádí.
 
 **vs. Mystická zkušenost** (Stace 1960; Hood Mysticism Scale): Mystické zážitky obsahují pozitivní afekt, sense of unity a ineffability. EA-5.5.16 produkuje *negativní* fenomenologii — rozpadnutí, ne sjednocení. Hood M-Scale skore <40 v kombinaci s anxietou diferencuje EA od mystické zkušenosti. James (*Varieties of Religious Experience*, 1902) by EA-5.5.16 klasifikoval jako „anti-mystical“ stav.
 
-**vs. [Depersonalizace](@/glossary/depersonalizace.md)/derealizace** (F48.1): DPDR je trvalý nebo recurrent stav odcizení od self/světa. EA-5.5.16 je akutní *induced* stav s definovaným počátkem a koncem. Cambridge Depersonalisation Scale (CDS) skore >70 v posledních 6 měsících indikuje DPDR; akutní EA-5.5.16 se obvykle resolvuje do 24–72h.
+**vs. [Depersonalizace](@/glossary/depersonalizace.md)/derealizace** (F48.1): DPDR je trvalý nebo recurrent stav odcizení od self/světa. EA-5.5.16 je akutní *induced* stav s definovaným počátkem a koncem. Rozlišení i délku průběhu posoudí klinik; kniha k nim čísla neuvádí.
 
 ## Literatura
 
@@ -166,18 +170,6 @@ Klinická [diferenciace](@/glossary/diferenciace.md) techniky **dechový rytmus 
   - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
   - [Embodied cognition](@/glossary/embodied-cognition.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
-
-## Co ověřit před čtením
-
-Před prací s touto stránkou si čtenář ověří:
-
-- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň tohoto materiálu
-- Sebediagnostika z této stránky neplatí: [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se vyhodnocují se supervizí
-
-> **Rámec čtení**: stránka je popis vzorce pro kvalifikovaného čtenáře, nikoli nástroj — viz [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
-
----
 
 ## Connect & Contribute
 

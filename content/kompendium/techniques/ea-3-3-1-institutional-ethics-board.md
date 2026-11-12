@@ -154,20 +154,6 @@ Druhým rizikovým kontextem je prostředí pod vnějším tlakem — bezpečnos
 - **Filozofie**:
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## Co ověřit před čtením
-
-Před prací s touto stránkou si čtenář ověří tři věci.
-
-| Co si čtenář ověří | Proč to u institucionálního dohledu záleží |
-|---|---|
-| Jeho přístupová úroveň odpovídá poli `access_level` v záhlaví článku | Stránka je vedena jako volně přístupná, ale předpokládá etickou governance; vyšší úrovně žádají doloženou kvalifikaci, případně omezený doktrinální rámec |
-| Má k dispozici [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) odpovídající úrovni této stránky | Posouzení vlastní instituce je úsudek o kolezích a nadřízených a patří do supervize, ne do interního sporu |
-| Stránku nepovažuje za nástroj sebediagnostiky | Podezření na sebe nebo na blízkou osobu patří k [diagnostickým indikátorům](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a ke konzultaci se supervizí |
-
-> **Rámec čtení**: stránka popisuje rozpoznatelný vzorec, nikoli nástroj.
-
----
-
 ## Connect & Contribute
 
 Stránku vytvořil [Tomáš Korcak (korczis)](https://github.com/korczis).

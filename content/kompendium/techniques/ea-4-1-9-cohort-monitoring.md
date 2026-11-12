@@ -93,6 +93,12 @@ Od neškodných jevů se vzorec odlišuje tím, co po něm zůstává. Náročn�
 
 Druhým rozlišovacím hlediskem je dohledatelnost. Legitimní rámec po sobě nechává zápis: kdo posoudil poměr přínosu a rizika, co bylo sporné a za jakých podmínek se mělo zastavit. Kde takový zápis chybí, nelze o supervidovaném protokolu mluvit bez ohledu na to, jak se prostředí samo popisuje (Belmont Report, 1979).
 
+## Jak se vzorec pozná zevnitř
+
+Člověk uvnitř kohorty nemá s čím srovnávat. Vidí, že ostatní mlčí, a vykládá to jako souhlas, ačkoli každý z nich může mlčet ze stejného důvodu jako on sám. Vzájemně udržovaná mylná představa o tom, co si skupina myslí, je jádrem jevu, který Janis (1972) popsal jako iluzi jednomyslnosti.
+
+Zvenčí se vzorec pozná podle nesouladu dvou záznamů: souhrnné zprávy o kohortě hlásí stabilitu, zatímco odchody, soukromé stížnosti a výpovědi bývalých účastníků vyprávějí jiný příběh. Kniha čte takový rozpor jako nález sám o sobě, protože poškození jednotlivce se v průměru skupiny ztrácí (Lieberman, Yalom a Miles, 1973).
+
 ## Rizikové kontexty
 
 Rizikovým kontextem je uzavřená skupina bez vnějšího kontaktu. Čím méně má nezávislých referenčních bodů, tím snáze se skupinová norma stane jediným měřítkem skutečnosti (Asch, 1956).
@@ -143,17 +149,3 @@ Druhým rizikovým kontextem je sběr dat, který sám mění, co měří. Pokud
 - [Intra-simulační monitoring](@/kompendium/04-terminalni-protokoly/intra-simulacni-monitoring.md) – kapitola 4 o sledování během simulace.
 - [IRB review](@/glossary/irb-review.md) – etický přezkum, bez něhož protokol nesmí běžet.
 - [Psychologické bezpečí](@/kompendium/organizational-defense/16-psychological-safety.md) – podmínka, aby členové kohorty mluvili otevřeně.
-
-## Co ověřit před čtením
-
-Před prací s touto stránkou si čtenář ověří:
-
-- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
-  (L2 = doložená kvalifikace a supervize).
-- Má k dispozici [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  odpovídající rizikovému profilu stránky.
-- Stránka není nástroj sebediagnostiky; podezření na sebe nebo na blízkou osobu patří
-  k [diagnostickým indikátorům](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a ke konzultaci se supervizí.
-
-> **Rámec čtení**: stránka popisuje rozpoznatelný vzorec, nikoli nástroj.

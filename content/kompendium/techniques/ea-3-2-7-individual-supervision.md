@@ -81,6 +81,8 @@ Od neškodných jevů se vzorec odlišuje tím, co zůstává možné. Náročn�
 
 Druhým rozlišovacím hlediskem je čas. Jednorázový konflikt nebo období přetížení mají konec a pracoviště se po nich vrací k dřívějšímu způsobu práce; vzorec popsaný na této stránce se naopak usazuje jako nová norma, které si zúčastnění přestanou všímat (Bernard a Goodyear, 2019).
 
+Zevnitř vztahu se poškozující supervize pozná nejhůř, protože supervidovaný si vlastní přizpůsobení vykládá jako profesní růst: přinášet jen hotové a úspěšné případy mu připadá jako známka zralosti. Vodítkem je otázka, zda by obtížný případ dokázal vynést bez obavy o své hodnocení (Kadushin a Harkness, 2014).
+
 ## Hodnotící kritéria
 
 Hodnotící kritéria nejsou cílem práce, ale jejím ukazatelem. Jakmile se měřítko stane cílem, přestává měřit to, kvůli čemu vzniklo — tento efekt popsal Campbell (1979) jako pravidlo, že čím více se kvantitativní ukazatel používá k rozhodování, tím více podléhá zkreslení.
@@ -138,22 +140,6 @@ Druhým rizikovým kontextem je nezpracovaný materiál na straně supervizora. 
 - **Klinické aplikace**: [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - **Filozofie**:
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
-## Co ověřit před čtením
-
-Před prací s touto stránkou si čtenář ověří:
-
-- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
-  (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální rámec).
-- Má k dispozici [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  odpovídající úrovni této stránky.
-- Stránka není nástroj sebediagnostiky; podezření na sebe nebo na blízkou osobu patří
-  k [diagnostickým indikátorům](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a ke konzultaci se supervizí.
-
-> **Rámec čtení**: stránka popisuje rozpoznatelný vzorec, nikoli nástroj.
-
----
 
 ## Connect & Contribute
 

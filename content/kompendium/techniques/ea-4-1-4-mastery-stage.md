@@ -99,6 +99,8 @@ Rizikovým kontextem je prostředí, kde uznání způsobilosti uděluje tentý�
 
 Druhým rizikovým kontextem je role s vysokým postavením. Čím více se postavení odvozuje od zvládnutí, tím dražší je přiznat, že zvládnutí není úplné (Herman, 1992).
 
+Zevnitř se falešné mistrovství prožívá jako klid a jistota, nikoli jako slepota. Člověk si nevšimne, že přestal hledat zpětnou vazbu, protože ji už nepovažuje za potřebnou; skutečná odbornost se přitom podle Ericssona, Krampeho a Tesch-Römerové (1993) udržuje právě trvalým vyhledáváním vlastních chyb.
+
 ## Vztah k jiným technikám
 
 | Stránka | Vztah |
@@ -148,22 +150,6 @@ Druhým rizikovým kontextem je role s vysokým postavením. Čím více se post
 - **Forward-references**:
   - [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-
-## Co ověřit před čtením
-
-Před prací s touto stránkou si čtenář ověří:
-
-- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
-  (L2 = doložená kvalifikace a supervize).
-- Má k dispozici [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  odpovídající rizikovému profilu stránky.
-- Stránka není nástroj sebediagnostiky; podezření na sebe nebo na blízkou osobu patří
-  k [diagnostickým indikátorům](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a ke konzultaci se supervizí.
-
-> **Rámec čtení**: stránka popisuje rozpoznatelný vzorec, nikoli nástroj.
-
----
 
 ## Connect & Contribute
 

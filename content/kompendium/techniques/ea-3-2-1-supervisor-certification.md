@@ -99,6 +99,8 @@ Specificky:
 
 Certifikát dokládá, že určitý orgán v určité době uznal předložené podklady za dostatečné. Nedokládá způsobilost v přítomnosti: rozhodnutí je datované, zatímco praxe, které se týká, pokračuje. Nedokládá ani bezpečí supervidovaného — Ellis a kolegové (2014) zjišťovali nedostatečnou a v části případů škodlivou supervizi mezi supervizory, kteří příslušné doklady měli. Nevypovídá o tom, zda kritéria komise měří to, na čem záleží; komise může zkoušet jen to, co dokáže pozorovat, a tím zvýhodňuje uchazeče, kteří si vedou dobře právě před komisí. A nedokládá, že uchazeč zná vlastní hranice: schopnost rozpoznat vlastní nedostatečnost je sama dovednost, o niž se sebeposouzení opírá a kterou právě v pásmu nízké způsobilosti nemá o co opřít (Kruger a Dunning, 1999).
 
+Zevnitř supervize je rozdíl mezi formální a skutečnou certifikací špatně vidět, protože supervidovaný zná jen svého supervizora a nemá ho s kým srovnat. Vodítkem mu je, zda se o průběhu supervize může poradit s někým mimo tento vztah a zda by jeho stížnost měla na certifikát nějaký dopad; kde neplatí ani jedno, svědčí doklad spíš o příslušnosti než o způsobilosti (Ellis a kol., 2014).
+
 ## Odlišení od blízkých technik
 
 Od [certifikační pipeline](@/kompendium/techniques/ea-3-3-5-certification-pipeline.md) se certifikace liší svým předmětem: pipeline je vlastnost instituce — zda je schopna uchazeče přivést, provést a udržet — zdejší technika je rozhodnutí o jednom člověku. Od [multiparadigmatické fluence](@/kompendium/techniques/ea-3-2-2-multi-paradigm-fluency.md) a ostatních sourozeneckých technik ji odlišuje to, že sama žádnou kompetenci nerozvíjí; je rámcem, v němž se ostatní ověřují, a bez nich nemá co posuzovat. Od obvyklé akademické kvalifikace se odlišuje odvolatelností a tím, čeho se chybné rozhodnutí dotkne: diplom se neodnímá a jeho neoprávněný držitel poškozuje hlavně sebe, zde drží držitel roli nad někým, kdo do ní vstupuje zranitelný (Falender a Shafranske, 2004).
@@ -156,25 +158,6 @@ Tato edukativní technika **operacionalizuje** poznatky z taxonomie:
 - **Klinické aplikace**: [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - **Filozofie**:
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
-## Co ověřit před čtením
-
-Před prací s touto stránkou si čtenář ověří:
-
-- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
-  (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální rámec)
-- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  odpovídající úrovni této stránky
-- Zavedení takového výcviku v instituci je předmětem schválení
-  [institucionální etické rady](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md),
-  nikoli rozhodnutí jednotlivého čtenáře
-
-> **Rámec čtení**: stránka popisuje, co edukativní praxi tohoto typu charakterizuje
-> a podle čeho se pozná, že je vedena dobře; není to implementační návod. Etický rámec
-> stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
-> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
-
----
 
 ## Connect & Contribute
 

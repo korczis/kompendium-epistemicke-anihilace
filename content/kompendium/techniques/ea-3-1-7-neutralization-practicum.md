@@ -44,7 +44,7 @@ Neutralizační praktikum je pozorovatelné na rozdílu mezi tím, co člověk o
 
 Retrospektivně se v dobře vedené praxi dá rozlišit sled, v němž se znaky objevují. Nejprve se mění schopnost rozpoznat, co se v situaci děje, zatímco se to děje. Pak se objevuje odpověď, která drží věcnou linii a nepřechází v protiútok. Dále roste snesitelnost nejistoty: účastník vydrží nerozhodnutý bod, místo aby jej uzavřel. Nakonec zůstávají tyto schopnosti dostupné i mimo nacvičené prostředí. Van der Linden a kol. (2017) doložili, že předchozí seznámení se stavbou klamného argumentu zeslabuje jeho pozdější účinek. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-Nepříznivý průběh se pozná podle toho, že nácvik přechází ve výcvik útoku nebo že se účastník učí jen pohotovější odpovědi. Ericsson, Krampe a Tesch-Römer (1993) připomínají, že bez pravdivé zpětné vazby upevní opakování rutinu, nikoli dovednost.
+Nepříznivý průběh se pozná podle toho, že nácvik přechází ve výcvik útoku nebo že se účastník učí jen pohotovější odpovědi. Ericsson, Krampe a Tesch-Römer (1993) připomínají, že bez pravdivé zpětné vazby upevní opakování rutinu, nikoli dovednost. Zvenčí se tento sklon pozná tak, že účastník po cvičení vypráví, jak protihráče přelstil, a nikoli to, co v situaci rozpoznal.
 
 *Interpretace knihy*: tato kniha je obranná taxonomie; nácvik, v němž by se někdo cvičil vzorec provádět, by ji obrátil proti lidem, které má chránit. Rozlišujícím znakem je proto role účastníka — brání se, nebo zkouší, co na druhého platí (McGuire, 1964).
 
@@ -156,25 +156,6 @@ Tato edukativní technika **operacionalizuje** poznatky z taxonomie:
 - **Klinické aplikace**: [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - **Filozofie**:
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
-## Co ověřit před čtením
-
-Před prací s touto stránkou si čtenář ověří:
-
-- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
-  (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální rámec)
-- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  odpovídající úrovni této stránky
-- Zavedení takového výcviku v instituci je předmětem schválení
-  [institucionální etické rady](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md),
-  nikoli rozhodnutí jednotlivého čtenáře
-
-> **Rámec čtení**: stránka popisuje, co edukativní praxi tohoto typu charakterizuje
-> a podle čeho se pozná, že je vedena dobře; není to implementační návod. Etický rámec
-> stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
-> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
-
----
 
 ## Connect & Contribute
 

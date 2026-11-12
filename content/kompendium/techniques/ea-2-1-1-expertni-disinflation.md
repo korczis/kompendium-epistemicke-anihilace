@@ -61,6 +61,12 @@ Co prožívá zasažený odborník:
 | Postupná internalizace | Pochybnost, zda kritici v něčem nemají pravdu, dřív než je co vyvracet |
 | Hypervigilance v profesním prostředí | Očekávání dalšího útoku a čtení běžných jednání jako jeho předzvěsti |
 
+## Proč se škoda zevnitř špatně pozná
+
+Zasažený odborník zpravidla vidí jednotlivé výtky, nikoli jejich součet. Každá z nich je sama o sobě obhajitelná a mnohé jsou fakticky přesné, takže reakce okolí působí přiměřeně a podezření na soustavné poškozování se zdá být přecitlivělostí. Proctor a Schiebinger (2008) upozorňují, že vyráběná nevědomost se nepozná podle nepravdivých tvrzení, ale podle toho, jak je pochybnost rozložena a udržována v čase.
+
+Pro instituci, která má odborníka hájit, je tatáž obtíž vidět z opačné strany: pověst se zvenčí měří tím, kolik se o osobě mluví, a ne tím, zda kritika obstojí. Oreskes a Conway (2010) ukazují, že samotná existence sporu bývá předváděna jako doklad slabosti zjištění. Rozlišovacím testem knihy proto je, zda lze z celé kritiky vyjmout alespoň jedno ověřitelné tvrzení o věcné chybě v práci; pokud se žádné nenajde, nejde o odbornou polemiku, ale o přepisování pozadí.
+
 ## Detekční markery
 
 | Marker | Indikuje |
@@ -145,23 +151,6 @@ Následující opatření jsou doporučením kompendia, nikoli postupem s dolož
   - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
 - **Filozofie**:
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
-## Co ověřit před čtením
-
-Stránka je vedena na úrovni L2; před prací s ní si čtenář ověří:
-
-| Podmínka čtení této stránky | Kde ji ověří |
-|---|---|
-| Vlastní přístupová úroveň odpovídá hodnotě `access_level` v záhlaví, tedy doložené odborné kvalifikaci | Záhlaví tohoto článku |
-| K dispozici je supervizní rámec na úrovni, na níž je stránka vedena | [Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) |
-| Rozpoznání vzorce u sebe nebo u kolegy se nebere za diagnózu a výsledek jde do supervize | [Diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) |
-
-> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
-> čtenáře, nikoli nástroj. Etický rámec stanoví
-> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
-> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
-
----
 
 ## Connect & Contribute
 

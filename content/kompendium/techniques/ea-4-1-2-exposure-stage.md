@@ -93,6 +93,12 @@ Od neškodných jevů se vzorec odlišuje tím, co po něm zůstává. Náročn�
 
 Druhým rozlišovacím hlediskem je dohledatelnost. Legitimní rámec po sobě nechává zápis: kdo posoudil poměr přínosu a rizika, co bylo sporné a za jakých podmínek se mělo zastavit. Kde takový zápis chybí, nelze o supervidovaném protokolu mluvit bez ohledu na to, jak se prostředí samo popisuje (Belmont Report, 1979).
 
+## Proč se škoda zevnitř špatně pozná
+
+Zevnitř se poškozující expozice nepozná podle intenzity zátěže, ale podle toho, kdo o ní smí mluvit. Zasažený člověk si ji vysvětluje jako osobní selhání, protože prostředí mu nenabídlo jiný výklad, a tělesné reakce, které by mohly sloužit jako varování, přičítá vlastní slabosti. Porges (2011) popisuje obrannou aktivaci nervového systému jako děj, který běží pod úrovní vědomého hodnocení, a člověk ji proto sám jen obtížně rozpozná jako odpověď na prostředí.
+
+Blízcí a kliničtí pracovníci mají lepší výhled: všímají si, že člověk o prožité zátěži mluví převzatými slovy a každé zpochybnění vnímá jako útok na sebe. Lifton (1961) tento jev spojuje s jazykem, který myšlení předem uzavírá.
+
 ## Rizikové kontexty
 
 Rizikovým kontextem je prostředí bez nezávislého pozorovatele. Tam, kde o pokračování rozhoduje tentýž, kdo zátěž zadává, chybí jakákoli korekce a rozhodnutí se opírá o cíl, nikoli o stav člověka (Emanuel, Wendler a Grady, 2000).
@@ -148,22 +154,6 @@ Druhým rizikovým kontextem je skupinová expozice. Doklady ze skupinových vý
 - **Forward-references**:
   - [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-
-## Co ověřit před čtením
-
-Před prací s touto stránkou si čtenář ověří:
-
-- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
-  (L2 = doložená kvalifikace a supervize).
-- Má k dispozici [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  odpovídající rizikovému profilu stránky.
-- Stránka není nástroj sebediagnostiky; podezření na sebe nebo na blízkou osobu patří
-  k [diagnostickým indikátorům](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a ke konzultaci se supervizí.
-
-> **Rámec čtení**: stránka popisuje rozpoznatelný vzorec, nikoli nástroj.
-
----
 
 ## Connect & Contribute
 

@@ -93,6 +93,10 @@ Od neškodných jevů se vzorec odlišuje tím, co po něm zůstává. Náročn�
 
 Druhým rozlišovacím hlediskem je dohledatelnost. Legitimní rámec po sobě nechává zápis: kdo posoudil poměr přínosu a rizika, co bylo sporné a za jakých podmínek se mělo zastavit. Kde takový zápis chybí, nelze o supervidovaném protokolu mluvit bez ohledu na to, jak se prostředí samo popisuje (Belmont Report, 1979).
 
+## Proč se škoda zevnitř špatně pozná
+
+Vstupní fáze se zevnitř prožívá jako výběr, nikoli jako zásah. Kdo byl přijat, má pocit, že obstál, a s tím pocitem přebírá i měřítka toho, kdo ho přijal; pozdější pochybnost by zpochybnila vlastní úspěch, a proto se jí člověk brání. Lifton (1961) popisuje, jak prostředí s totálním výkladem činí z příslušnosti zásluhu a z odstupu vinu. Pro blízké je zřetelnějším znakem proměna slovníku a zúžení okruhu lidí, s nimiž člověk o svém vstupu ještě mluví.
+
 ## Rizikové kontexty
 
 Rizikovým kontextem je prostředí, které vstupní posouzení provádí samo a zároveň rozhoduje o přijetí. Ochrana uchazeče tím splývá s náborem a vylučující nález se stává nákladem; nezávislost posouzení je proto podmínkou, nikoli doplňkem (Emanuel, Wendler a Grady, 2000).
@@ -146,22 +150,6 @@ Druhým rizikovým kontextem je závislé postavení uchazeče. Kde vstup rozhod
 - **Forward-references**:
   - [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-
-## Co ověřit před čtením
-
-Před prací s touto stránkou si čtenář ověří:
-
-- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
-  (L2 = doložená kvalifikace a supervize).
-- Má k dispozici [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  odpovídající rizikovému profilu stránky.
-- Stránka není nástroj sebediagnostiky; podezření na sebe nebo na blízkou osobu patří
-  k [diagnostickým indikátorům](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a ke konzultaci se supervizí.
-
-> **Rámec čtení**: stránka popisuje rozpoznatelný vzorec, nikoli nástroj.
-
----
 
 ## Connect & Contribute
 

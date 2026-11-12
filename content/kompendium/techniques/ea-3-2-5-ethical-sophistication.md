@@ -90,7 +90,7 @@ Hodnotící kritéria nejsou cílem práce, ale jejím ukazatelem. Jakmile se m�
 | Framework fluency | Schopnost artikulovat case z >=4 rámců |
 | Decision documentation | Strukturované záznamy etického uvažování |
 | Peer review outcome | Soustavná konvergence s peer ethics panel |
-| Student trust | Studenti reportují ethical safety v anonymních surveys
+| Student trust | Studenti reportují ethical safety v anonymních surveys |
 
 ## Rizikové kontexty
 
@@ -143,15 +143,15 @@ Druhým rizikovým kontextem je přenos případů mezi kulturními prostředím
 
 ## Co ověřit před čtením
 
-Před prací s touto stránkou si čtenář ověří:
-
-- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
-  (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální rámec).
-- Má k dispozici [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  odpovídající úrovni této stránky.
-- Stránka není nástroj sebediagnostiky; podezření na sebe nebo na blízkou osobu patří
-  k [diagnostickým indikátorům](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a ke konzultaci se supervizí.
+Stránka počítá s tím, že čtenář před prací s ní ověří tři věci: že jeho přístupová
+úroveň odpovídá hodnotě `access_level` v záhlaví článku (L1 volný přístup, L2 doložená
+kvalifikace, L3 omezený doktrinální rámec), že má k dispozici
+[supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) odpovídající
+úrovni této stránky, a že ji nepoužije jako nástroj sebediagnostiky — podezření na sebe
+nebo na blízkou osobu patří k
+[diagnostickým indikátorům](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
+a ke konzultaci se supervizí. Smysl těchto podmínek vykládá kapitola
+[jak kompendium používat](@/kompendium/01-predmluva/jak-pouzivat.md).
 
 > **Rámec čtení**: stránka popisuje rozpoznatelný vzorec, nikoli nástroj.
 

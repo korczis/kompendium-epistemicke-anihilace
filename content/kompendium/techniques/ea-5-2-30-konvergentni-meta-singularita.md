@@ -36,15 +36,17 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 
 **Konvergentní meta-singularita** je **terminální technika** subkategorie 5.2 — finální stav, do něhož všechny předchozí dílčí destrukce ([EA-5.2.1](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md) až [EA-5.2.29](@/kompendium/techniques/ea-5-2-29-meta-fenomenalni-redukce.md)) **konvergují**, pokud nebyly zastaveny terapeutickou intervencí. Subjekt prožívá **simultánní kolaps** všech transcendentálních struktur do **jediného singulárního bodu metatranscendentální paralýzy**.
 
-Konvergentní meta-singularita zahrnuje:
+Složky, jejichž souběh terminální stav tvoří, popisuje kompendium na samostatných stránkách:
 
-- **Kategoriální vakuum** ([EA-5.2.11](@/kompendium/techniques/ea-5-2-11-kategorialni-anihilace.md) + [EA-5.2.25](@/kompendium/techniques/ea-5-2-25-kategorialni-mlha.md) v plné expansi).
-- **Fragmentovanou prostoročasovost** ([EA-5.2.13](@/kompendium/techniques/ea-5-2-13-apriorni-fragmentace.md) + [EA-5.2.27](@/kompendium/techniques/ea-5-2-27-apriorni-deformace.md)).
-- **Konstitutivní zhroucení** ([EA-5.2.14](@/kompendium/techniques/ea-5-2-14-konstitutivni-zhrouceni.md)).
-- **Transcendentální imploze + vakuace** ([EA-5.2.15](@/kompendium/techniques/ea-5-2-15-transcendentalni-implosion.md) + [EA-5.2.28](@/kompendium/techniques/ea-5-2-28-transcendentalni-vakuace.md)).
-- **Apperceptivní rozklad** ([EA-5.2.20](@/kompendium/techniques/ea-5-2-20-apperceptivni-rozklad.md)).
-- **Subjekt-objekt fúzia + intencionální rozpojení** ([EA-5.2.21](@/kompendium/techniques/ea-5-2-21-subjekt-objekt-fuzia.md) + [EA-5.2.22](@/kompendium/techniques/ea-5-2-22-intentionalni-rozpojeni.md)).
-- **Meta-fenomenální redukce** ([EA-5.2.29](@/kompendium/techniques/ea-5-2-29-meta-fenomenalni-redukce.md)).
+| Složka terminálního stavu | Dílčí poškození, jejichž plný rozvoj ji tvoří |
+|---|---|
+| Kategoriální vakuum | [EA-5.2.11 Kategoriální anihilace](@/kompendium/techniques/ea-5-2-11-kategorialni-anihilace.md) a [EA-5.2.25 Kategoriální mlha](@/kompendium/techniques/ea-5-2-25-kategorialni-mlha.md) v plném rozvoji |
+| Rozpadlá prostoročasovost prožívání | [EA-5.2.13 Apriorní fragmentace](@/kompendium/techniques/ea-5-2-13-apriorni-fragmentace.md) a [EA-5.2.27 Apriorní deformace](@/kompendium/techniques/ea-5-2-27-apriorni-deformace.md) |
+| Konstitutivní zhroucení | [EA-5.2.14 Konstitutivní zhroucení](@/kompendium/techniques/ea-5-2-14-konstitutivni-zhrouceni.md) |
+| Transcendentální imploze a vyprázdnění | [EA-5.2.15 Transcendentální imploze](@/kompendium/techniques/ea-5-2-15-transcendentalni-implosion.md) a [EA-5.2.28 Transcendentální vakuace](@/kompendium/techniques/ea-5-2-28-transcendentalni-vakuace.md) |
+| Apercepční rozklad | [EA-5.2.20 Apperceptivní rozklad](@/kompendium/techniques/ea-5-2-20-apperceptivni-rozklad.md) |
+| Splynutí subjektu s předmětem a rozpojená intencionalita | [EA-5.2.21 Subjekt-objekt fúze](@/kompendium/techniques/ea-5-2-21-subjekt-objekt-fuzia.md) a [EA-5.2.22 Intencionální rozpojení](@/kompendium/techniques/ea-5-2-22-intentionalni-rozpojeni.md) |
+| Meta-fenomenální redukce | [EA-5.2.29 Meta-fenomenální redukce](@/kompendium/techniques/ea-5-2-29-meta-fenomenalni-redukce.md) |
 
 V klasické filozofické terminologii: **simultánní kolaps Kantovy transcendentální subjektivity, Husserlovy transcendentální fenomenologie, Heideggerova Da-sein, Merleau-Pontyho corps propre**. Subjekt zachovává minimální biologické a behaviorální fungování, ale **transcendentální struktura zkušenosti je systémově anihilována**.
 
@@ -62,13 +64,15 @@ Zpětně se znaky skládají takto: dlouhé období dílčích poškození, pak 
 
 ## Fenomenologické znaky
 
-- **Totální transcendentální vakuum** — žádná struktura zkušenosti nefunguje normálně.
-- **Pseudo-mystická euforie** prokládaná akutní úzkostnou paralýzou.
-- **Strukturní afázie** napříč všemi modálnostmi.
-- **Identitární totální absorpce** v „Jednom“.
-- **Praktická bezmocnost** i v základních úkolech.
-- **Lingvistická regrese** k pseudo-mystickým formulím.
-- **Kombinace katatonie, depersonalizace, derealizace** s pseudo-spirituální racionalizací.
+| Znak terminálního stavu | Jak se u zasaženého člověka jeví |
+|---|---|
+| Vyprázdněná struktura zkušenosti | Žádná ze struktur, jimiž člověk běžně rozumí svému světu, nepracuje obvyklým způsobem |
+| Euforie střídaná tísní | Pseudo-mystické povznesení prokládané úzkostnou nehybností |
+| Strukturní afázie | Řeč je omezena napříč všemi způsoby vyjadřování, nejen slovem |
+| Totální identitární absorpce | Sebeporozumění je nahrazeno příslušností k „Jednomu“ |
+| Praktická bezmocnost | Nezvládnuté jsou i úkony běžného dne |
+| Jazyková regrese | Mluva se omezí na několik ustálených pseudo-mystických formulí |
+| Klinický obraz nehybnosti a odcizení | Souběh katatonie, depersonalizace a derealizace s pseudo-spirituálním výkladem |
 
 ## Detekční markery
 
@@ -82,13 +86,33 @@ Zpětně se znaky skládají takto: dlouhé období dílčích poškození, pak 
 
 ## Diferenciální detekce
 
-Konvergentní meta-singularita je odlišitelná od:
+Konvergentní meta-singularita je odlišitelná od tří stavů, s nimiž se zaměňuje:
 
-- **Autentických mystických zážitků** v zavedených tradicích, jež jsou **integrované zpět** do diferencovaného fungování s plnou kompetencí.
-- **Akutní psychotické dezorganizace**, jež má odlišnou etiologii a typicky chybí dlouhodobá pseudo-filozofická akumulace.
-- **Katatonické deprese**, jež má odlišnou etiologii.
+| Stav, s nímž se vzorec zaměňuje | Čím se od terminálního stavu liší |
+|---|---|
+| Autentický mystický zážitek v zavedené tradici | Je zpětně začleněn do rozlišeného fungování, které zůstává plně kompetentní |
+| Akutní psychotická dezorganizace | Má odlišný původ a chybí u ní dlouhé období pseudo-filozofického hromadění |
+| Katatonická deprese | Má odlišný původ a vlastní afektivní obraz |
 
 Klíčový diferenciál: **autentický mystik se vrací**; subjekt v konvergentní meta-singularitě **nemůže se vrátit** bez intenzivní externí intervence.
+
+Nejčastější záměnou přitom není psychiatrická diagnóza, nýbrž obvyklý a neškodný případ:
+intenzivní kontemplativní praxe vyvolává neobvyklé zážitky poměrně běžně a většina z nich
+odezní, aniž by po nich zůstalo narušené fungování. Lindahl et al. (2017) zaznamenali
+v rozhovorech s praktikujícími širokou škálu takových zkušeností včetně obtížných a ukázali,
+že jejich průběh i to, jak jim praktikující rozumí, závisí na kontextu praxe a na podpoře,
+kterou má k dispozici. Neobvyklý zážitek sám o sobě tedy o tomto vzorci nevypovídá nic;
+rozhoduje jeho trvání a funkční dopad, a tam, kde praxe pokračuje v prostředí, které si
+nárokuje výklad veškeré zkušenosti svých členů, je vážnost dopadu nutno posuzovat zvlášť
+(Lifton, 1961).
+
+*Interpretace knihy*: rozpoznání tohoto vzorce nezakládá tvrzení o záměru kohokoli v okolí
+zasaženého člověka, nezakládá diagnózu a nevypovídá o jeho povaze ani o hodnotě nauky, jíž
+svůj stav vykládá. Zakládá jedno jediné: že funkční rozpad dosáhl míry, v níž stav patří do
+psychiatrické péče, a že výsledek rozpoznání nese pozorovatel do supervize, nikoli
+k zasaženému člověku jako sdělení o něm. Rámec tohoto čtení stanoví
+[etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+[etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ## Rizikové kontexty
 
@@ -104,10 +128,14 @@ Klíčový diferenciál: **autentický mystik se vrací**; subjekt v konvergentn
 
 ### Krizová intervence
 
-1. **Hospitalizace** — typicky nutná v akutní fázi.
-2. **Psychofarmakologická stabilizace** — antipsychotika, anxiolytika podle profilu.
-3. **Postupná strukturální rekonstrukce** — drobné praktické úkoly s diferenciační prací.
-4. **Korektní hermeneutická obnova** — výklad autentických mystických tradic s důrazem na integraci.
+O podobě péče rozhoduje ošetřující lékař; kompendium ji nepředepisuje a složky níže jen pojmenovává:
+
+| Složka péče | Čeho se týká |
+|---|---|
+| Hospitalizace | V akutní fázi bývá nezbytná vzhledem k praktické bezmocnosti zasaženého člověka |
+| Farmakologická stabilizace | Volba přípravku i dávkování jsou výhradně v kompetenci psychiatra; kompendium je neuvádí |
+| Obnova rozlišení | Drobné praktické úkony, jimiž se vrací schopnost rozlišovat sebe a okolí |
+| Hermeneutická oprava výkladu | Práce s autentickými mystickými tradicemi, v nichž je zkušenost začleňována, ne vykládána jako cíl |
 
 ### Institucionální
 
@@ -121,17 +149,28 @@ Klíčový diferenciál: **autentický mystik se vrací**; subjekt v konvergentn
 
 ### Sourozenecké (5.2)
 
-Konvergentní meta-singularita **kumuluje a sjednocuje** všechny předchozí techniky 5.2. Klíčové předchůdci:
+Konvergentní meta-singularita **kumuluje a sjednocuje** všechny předchozí techniky 5.2. Nejblíže jí stojí tyto:
 
-- **[EA-5.2.10 Meta-kognitivní singularita](@/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md)** — paralelní kognitivní singularizace.
-- **[EA-5.2.15 Transcendentální imploze](@/kompendium/techniques/ea-5-2-15-transcendentalni-implosion.md)** — předchozí stadium.
-- **[EA-5.2.28 Transcendentální vakuace](@/kompendium/techniques/ea-5-2-28-transcendentalni-vakuace.md)** — komplementární stav.
-- **[EA-5.2.29 Meta-fenomenální redukce](@/kompendium/techniques/ea-5-2-29-meta-fenomenalni-redukce.md)** — předchozí stadium.
+| Sourozenecký vzorec | Vztah k terminálnímu stavu |
+|---|---|
+| [EA-5.2.10 Meta-kognitivní singularita](@/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md) | Souběžná singularizace na úrovni myšlení o myšlení |
+| [EA-5.2.15 Transcendentální imploze](@/kompendium/techniques/ea-5-2-15-transcendentalni-implosion.md) | Předchozí stadium, které se do terminálního stavu vlévá |
+| [EA-5.2.28 Transcendentální vakuace](@/kompendium/techniques/ea-5-2-28-transcendentalni-vakuace.md) | Doplňující stav vyprázdnění téže struktury |
+| [EA-5.2.29 Meta-fenomenální redukce](@/kompendium/techniques/ea-5-2-29-meta-fenomenalni-redukce.md) | Předchozí stadium, jímž bývá konvergence uzavřena |
+
+Od této nejbližší sousedky se terminální stav neliší povahou poškození, nýbrž jeho
+rozsahem: u redukce je zasažena jedna struktura prožívání a ostatní nesou její výpadek,
+zde nenese výpadek žádná. Proto u redukce zůstává část schopnosti rozlišovat zachována,
+takže na stav umí ukázat i zasažený člověk sám, zatímco zde tato schopnost chybí a stav
+popisují výhradně lidé v okolí. Jde o rozlišení knihy, jehož mez vymezují
+[metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 ### Cross-kategoriální
 
-- **[EA-5.3.* Existenciální anihilace](@/kompendium/05-ultramari-techniky/kapitola-8.md)** — primární doména eskalace pro biologickou rovinu.
-- **[EA-5.1.* Ontologické rozpouštění](@/kompendium/05-ultramari-techniky/kapitola-6.md)** — paralelní ontologická destrukce.
+| Oblast mimo subkategorii 5.2 | Povaha vazby |
+|---|---|
+| [Existenciální anihilace (EA-5.3)](@/kompendium/05-ultramari-techniky/kapitola-8.md) | Hlavní směr další eskalace, zasahující biologickou rovinu |
+| [Ontologické rozpouštění (EA-5.1)](@/kompendium/05-ultramari-techniky/kapitola-6.md) | Souběžná destrukce na ontologické úrovni |
 
 ## Literatura
 
@@ -153,11 +192,13 @@ Konvergentní meta-singularita **kumuluje a sjednocuje** všechny předchozí te
 
 ## Co ověřit před čtením
 
-Před prací s touto stránkou si čtenář ověří:
+Stránka je vedena na úrovni L4 jako výhradně doktrinální analýza; čtenář si před prací s ní ověří:
 
-- Jeho **přístupová úroveň** odpovídá hodnotě `access_level` v záhlaví článku (L4 — kosmická, výhradně doktrinální analýza).
-- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro materiál této úrovně.
-- Rozpoznání vzorce u sebe sama není diagnózou — [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se čtou se supervizí.
+| Podmínka čtení této stránky | Kde ji ověří |
+|---|---|
+| Vlastní přístupová úroveň odpovídá hodnotě `access_level` v záhlaví článku | Záhlaví tohoto článku |
+| K materiálu této úrovně je k dispozici supervizní rámec | [Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) |
+| Rozpoznání vzorce u sebe sama se nebere za diagnózu a čte se se supervizí | [Diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) |
 
 > **Rámec čtení**: stránka je popisná taxonomie sloužící k rozpoznání vzorce, nikoli nástroj; závazně pro ni platí [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
@@ -167,4 +208,4 @@ Před prací s touto stránkou si čtenář ověří:
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)
+Rozcestníky: [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

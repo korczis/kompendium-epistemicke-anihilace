@@ -50,17 +50,20 @@ podkategorie 2.5, protože konečnou práci delegitimizace odvede sám člověk.
 
 ## Mechanismus (strukturní popis)
 
-1. **Vnitřní předpoklad.** Člověk má sklon připisovat úspěch vnějším okolnostem
-   a neúspěch sobě; často s perfekcionistickými nároky (srov. [perfekcionismus](@/glossary/perfekcionismus.md)).
-2. **Potvrzující signály.** Okolí opakovaně naznačuje, že úspěch „není jeho“: zásluhy se
-   přisuzují jiným ([EA-2.2.8](@/kompendium/techniques/ea-2-2-8-intellectual-paternity-claim.md)),
-   kvalifikace se zpochybňuje ([EA-2.1.3](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md)).
-3. **Asymetrie zpětné vazby.** Chyby se komentují veřejně, úspěchy se nekomentují.
-4. **Srovnání s nedosažitelným.** Měřítkem jsou výjimeční jednotlivci, ne průměr.
-5. **Skrývání.** Člověk o pochybnostech nemluví, aby nebyl „odhalen“, a nezíská tak
-   zprávu, že je ostatní sdílejí.
-6. **Kompenzace.** Přepracovanost a nadměrná příprava vedou k úspěchu, který si člověk
-   připíše úsilí, ne schopnostem – a cyklus se uzavírá.
+Vnitřní složku vzorce popsaly už Clanceová a Imesová (1978) jako uzavřený kruh: člověk
+připisuje úspěch vnějším okolnostem a neúspěch sobě, často s perfekcionistickými nároky
+(srov. [perfekcionismus](@/glossary/perfekcionismus.md)); o pochybnostech nemluví, aby
+nebyl „odhalen“, a nedozví se tak, že je ostatní sdílejí; nadměrnou přípravou dosáhne
+úspěchu, který si pak připíše úsilí, ne schopnostem. Kruh se tím uzavírá a každý další
+úspěch jej potvrzuje.
+
+Vnější složkou jsou signály prostředí, které vnitřní pochybnost potvrzují:
+
+| Vnější zesilovač | Jak se v prostředí projevuje |
+|---|---|
+| Potvrzující signál o původu úspěchu | Zásluhy se připisují jiným ([EA-2.2.8](@/kompendium/techniques/ea-2-2-8-intellectual-paternity-claim.md)), kvalifikace se zpochybňuje ([EA-2.1.3](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md)) |
+| Asymetrie zpětné vazby | Chyby se komentují veřejně, úspěchy zůstávají bez komentáře |
+| Srovnání s nedosažitelným | Měřítkem jsou výjimeční jednotlivci oboru, ne jeho běžná úroveň |
 
 ## Průběh
 
@@ -112,16 +115,13 @@ nikdo o pochybnostech nemluví.
 
 ## Odlišení
 
-- **Realistická sebereflexe.** Vědomí skutečných mezer v kompetenci je zdravé; fenomén
-  podvodníka se týká přesvědčení, které odporuje důkazům.
-- **Sociální úzkostná porucha.** Strach z hodnocení v sociálních situacích obecně;
-  fenomén podvodníka se týká kompetence a úspěchu.
-- **Deprese.** Globální negativní sebehodnocení s dalšími příznaky; fenomén podvodníka
-  může existovat bez deprese, ale deprese ho zesiluje.
-- **[EA-2.5.1 Internalizace pseudopokory](@/kompendium/techniques/ea-2-5-1-pseudo-pokora-internalizace.md).**
-  Pseudopokora se prožívá jako ctnost, fenomén podvodníka jako ohrožení.
-- **[Gaslighting](@/glossary/gaslighting.md).** Zpochybňuje vnímání reality obecně;
-  zesilování fenoménu podvodníka se týká vlastní kompetence.
+| Jev, s nímž se vzorec plete | Čím se od fenoménu podvodníka liší |
+|---|---|
+| Realistická sebereflexe | Vědomí skutečných mezer v kompetenci je zdravé; fenomén podvodníka se týká přesvědčení, které odporuje důkazům |
+| Sociální úzkostná porucha | Strach z hodnocení v sociálních situacích obecně; fenomén podvodníka se týká kompetence a úspěchu |
+| Deprese | Globální negativní sebehodnocení s dalšími příznaky; fenomén podvodníka může existovat bez deprese, ale deprese jej zesiluje |
+| [EA-2.5.1 Internalizace pseudopokory](@/kompendium/techniques/ea-2-5-1-pseudo-pokora-internalizace.md) | Pseudopokora se prožívá jako ctnost, fenomén podvodníka jako ohrožení |
+| [Gaslighting](@/glossary/gaslighting.md) | Zpochybňuje vnímání skutečnosti obecně; zesilování fenoménu podvodníka se týká vlastní kompetence |
 
 ## Klinický a právní rámec
 
@@ -166,10 +166,12 @@ popíše vlastní zkušenost a projde s ní její výsledky, začne vzorec rozvo
 
 ## Otázky pro rozhovor
 
-- Čemu připisujete své dosavadní úspěchy? A čemu neúspěchy?
-- Jakou zpětnou vazbu dostáváte k úspěchům a jakou k chybám?
-- Mluvíte s někým o svých pochybnostech? Jak reaguje?
-- Odmítl/a jste v poslední době příležitost, protože jste si nevěřil/a?
+| Otázka | Co se jí zjišťuje |
+|---|---|
+| „Čemu připisujete své dosavadní úspěchy? A čemu neúspěchy?“ | Způsob vysvětlování úspěchu a neúspěchu, tedy vnitřní složku vzorce |
+| „Jakou zpětnou vazbu dostáváte k úspěchům a jakou k chybám?“ | Asymetrii zpětné vazby v prostředí, tedy jeden z vnějších zesilovačů |
+| „Mluvíte s někým o svých pochybnostech? Jak reaguje?“ | Zda je pochybnost skrývána a zda prostředí sdílení umožňuje |
+| „Odmítl nebo odmítla jste v poslední době příležitost, protože jste si nevěřil či nevěřila?“ | Dopad na jednání, podle něhož se pozná upevněné přesvědčení |
 
 ## Meze a otevřené otázky
 

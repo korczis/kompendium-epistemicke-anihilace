@@ -111,38 +111,34 @@ Při kaskádě faktorů aktivně **se vrátíš** k **centrálnímu** problému:
 
 #### 2. **Identifikace irelevantních komplikujících faktorů**
 
-Pro každý zaváděný faktor explicitně testuj **kausální relevanci**:
+U každého zaváděného faktoru se zkouší jeho **kausální relevance**:
 
-- Mění tento faktor centrální závěr?
-- Pokud ano — kvantitativně, **jak moc**?
-- Pokud ne — proč je zaváděn?
+| Otázka k zaváděnému faktoru | Co odpověď uzavírá |
+|---|---|
+| Mění tento faktor centrální závěr? | Nemění-li jej, je faktor doplňkem, nikoli důvodem k odkladu |
+| Mění-li jej, jak velká ta změna je? | Rozhoduje váha vlivu, ne jeho pouhá existence |
+| Nemění-li jej, proč je přesto zaváděn? | Otázka míří k účelu vstupu, nikoli k jeho pravdivosti |
 
-Většina manipulačních faktorů kolaboru pod touto evaluací.
+Většina manipulativně zaváděných faktorů se při tomto zkoušení rozpadne.
 
 #### 3. **Rozlišení mezi legitimními nuancemi a uměle vytvořenou komplexitou**
 
-Legitimní nuance:
-
-- Mají **kausální relevanci** k centrální otázce
-- Jsou **kvantitativně významné**
-- Jsou **acknowledged** v expertním konsensu
-
-Umělá komplexita:
-
-- Je **marginal** v relevanci
-- Je **kvantitativně malá** v dopadu
-- Není **acknowledged** jako rozhodující v expertním konsensu
+| Vlastnost faktoru | Legitimní nuance | Umělá komplexita |
+|---|---|---|
+| Vztah k centrální otázce | Kausálně relevantní | Okrajový |
+| Váha dopadu | Kvantitativně významná | Kvantitativně malá |
+| Postavení v expertním konsensu | Uznána jako rozhodující | Jako rozhodující neuznána |
 
 #### 4. **Hierarchizace faktorů**
 
-Pro **každý** komplexní problém aktivně vytvoř **hierarchii faktorů**:
+Hierarchii faktorů iluzorní komplexita strukturálně **vylučuje**; její absence je znakem vzorce.
 
-- **Primary** — fundamentálně rozhodující
-- **Secondary** — relevantní, ale ne rozhodující
-- **Marginal** — existující, ale s minimálním dopadem
-- **Irrelevant** — neexistující kausální vazba
-
-Iluzorní komplexita strukturálně **vylučuje** tuto hierarchizaci.
+| Stupeň | Co do něj patří |
+|---|---|
+| Rozhodující (*primary*) | Faktory, bez nichž centrální závěr neplatí |
+| Relevantní (*secondary*) | Faktory, které závěr zpřesňují, ale nepřevracejí |
+| Okrajový (*marginal*) | Faktory s doložitelně malým dopadem |
+| Bez kausální vazby (*irrelevant*) | Faktory, u nichž vazba k závěru chybí |
 
 #### 5. **Active assertion of stable conclusions**
 
@@ -190,20 +186,26 @@ Intervence: Strukturovaná psychoeducation o **rozlišení** legitimní nuance v
 
 ### Často se kombinuje s
 
-- **[EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md)** — kaskáda faktorů = informační přetížení s artificiálními sloughy.
-- **[EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)** — komplexní terminologie + iluzorní komplexita = bezpečí proti detekci.
-- **[EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)** — iluzorní komplexita poskytuje **infinite ad hoc modifikace**.
+| Technika | Čím se s iluzorní komplexitou doplňuje |
+|---|---|
+| [EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) | Kaskáda faktorů zahlcuje pozornost, než se dostane k jádru otázky |
+| [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) | Nesrozumitelná terminologie činí inflovanou náročnost nepřezkoumatelnou |
+| [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) | Nekonečná zásoba dodatečných faktorů slouží jako dodatečná vysvětlení |
 
 ### Eskaluje do
 
-- **[EA-1.6.2 Vzorec „Epistemický trojský kůň“](@/kompendium/techniques/ea-1-6-2-vzorec-epistemicky-trojsky-kun.md)** — iluzorní komplexita poskytuje fasádu sofistikace pro vpašování problematických prvků.
-- **Strukturální [delegitimizace](@/glossary/delegitimizace.md) pole** ([Scénář F](@/kompendium/03-zakladni-kategorie/kapitola-2.md)) — kolektivní iluzorní komplexita odbourává epistemickou autoritu konsensuálních závěrů.
+| Eskalace | Co se v ní mění |
+|---|---|
+| [EA-1.6.2 Vzorec „Epistemický trojský kůň“](@/kompendium/techniques/ea-1-6-2-vzorec-epistemicky-trojsky-kun.md) | Inflovaná náročnost tvoří fasádu sofistikace, za níž projdou problematické prvky |
+| Strukturální [delegitimizace](@/glossary/delegitimizace.md) pole ([Scénář F](@/kompendium/03-zakladni-kategorie/kapitola-2.md)) | Kolektivní podoba vzorce odbourává autoritu konsensuálních závěrů celého oboru |
 
 ### Hraniční / podobné
 
-- **Skutečná komplexita** — některé problémy **opravdu jsou** vysoce komplexní. Kritérium: kausální distribuce relevance faktorů.
-- **EA-1.2.1 Falešné dilema** — strukturálně **inverzní** (FD redukuje skutečně komplexní problém; IK inflouje skutečně jednoduchý).
-- **EA-1.2.2 Falešná ekvivalence** — sourozenecká: FE inflouje **paritu pozic**, IK inflouje **náročnost problému**.
+| Hraniční jev | Čím se od iluzorní komplexity liší |
+|---|---|
+| Skutečná komplexita | Náročnost odpovídá kausální distribuci relevance faktorů; osy sporu lze pojmenovat |
+| EA-1.2.1 Falešné dilema | Strukturálně inverzní: redukuje skutečně komplexní problém, místo aby jednoduchý nafukovalo |
+| EA-1.2.2 Falešná ekvivalence | Sourozenecká: inflouje paritu pozic, nikoli náročnost problému |
 
 ## Literatura
 
@@ -223,16 +225,13 @@ Intervence: Strukturovaná psychoeducation o **rozlišení** legitimní nuance v
 
 ## Co ověřit před čtením
 
-Před prací s touto stránkou si čtenář ověří:
+Před prací s touto stránkou si čtenář ověří tři věci:
 
-- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
-  (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
-  rámec)
-- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  odpovídající úrovni této stránky
-- Rozpoznání vzorce u sebe sama není diagnóza: slouží k tomu
-  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a výsledek patří do supervize
+| Co ověřit | V jaké podobě |
+|---|---|
+| Přístupová úroveň čtenáře odpovídá `access_level` v záhlaví článku | L1 volný přístup, L2 doložená kvalifikace, L3 omezený doktrinální rámec |
+| Čtenář má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) odpovídající úrovni této stránky | Supervize sjednaná předem, nikoli vyhledaná až po nálezu |
+| Rozpoznání vzorce u sebe sama není diagnóza | K té slouží [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a výsledek patří do supervize |
 
 > **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
 > čtenáře, nikoli nástroj. Etický rámec stanoví
@@ -245,4 +244,4 @@ Před prací s touto stránkou si čtenář ověří:
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)
+[Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

@@ -62,7 +62,7 @@ Strukturální analýza extrémních výcvikových protokolů — jak legitimní
 
 **Předpoklady.** Komplexní pre-engagement screening (viz [Kapitola 5](@/kompendium/04-terminalni-protokoly/kapitola-5.md)), psychiatrická a somatická anamnéza, výchozí měření kognitivních kapacit, baseline sociometrie.
 
-**Metody.** Strukturovaný teoretický výcvik, dovednostní akvizice v nízko-stresovém prostředí, etablování rapportu s instruktory, instalace explicitních pravidel a institucionálních norem.
+**Co je v této fázi pozorovatelné.** Strukturovaný teoretický výcvik, nácvik dovedností v prostředí bez zátěže, budování vztahu k instruktorům a výslovné ustavení pravidel a institucionálních norem. Rozpoznávacím znakem je zde písemná podoba těch pravidel: prostředí, které je v této fázi nevysloví, je nevysloví ani později, kdy by jejich vyslovení bylo pro účastníka podstatně cennější.
 
 **Supervize.** Plná zodpovědnost programového ředitele; standardní pedagogické safeguards; dostupnost individuální konzultace.
 
@@ -76,7 +76,7 @@ Strukturální analýza extrémních výcvikových protokolů — jak legitimní
 
 **Předpoklady.** Úspěšné dokončení stupně 1; potvrzená psychiatrická a somatická stabilita; explicitní informovaný souhlas pro úroveň expozice stupně 2.
 
-**Metody.** Simulované scénáře s graduálně narůstající intenzitou stresorů (kognitivní, emocionální, somatické, sociální); kontrolovaná deprivace (spánek, jídlo, sociální kontakt) v striktně limitovaném rozsahu; strukturovaná zpětná vazba po každé expozici.
+**Co je v této fázi pozorovatelné.** Simulované scénáře s narůstající zátěží v několika dimenzích současně, omezení spánku, jídla nebo sociálního kontaktu a — v odpovědném prostředí — strukturovaná zpětná vazba po každé expozici. Kompendium neuvádí, v jakém rozsahu je takové omezení ještě přijatelné; rozpoznatelné je, zda byl rozsah někde předem písemně vymezen, nebo zda byl stanovován průběžně tím, kdo scénář vedl.
 
 **Klíčové diferenciační kritérium**: V legitimním protokolu je každá expozice následována strukturovanou debriefing fází zaměřenou na **integraci zkušenosti**. V destruktivním protokolu je integrace systematicky bránena, čímž se kumulují nezpracované destabilizace.
 
@@ -92,7 +92,7 @@ Strukturální analýza extrémních výcvikových protokolů — jak legitimní
 
 **Předpoklady.** Úspěšné dokončení stupně 2; absence neresolovaného traumatu z předchozí fáze; psychiatrické zhodnocení stability.
 
-**Metody.** Strukturovaná narrativa zkušenosti (storytelling, journaling, peer-to-peer integration); kognitivní zpracování stresových reakcí; somatické techniky regulace; rebuilding sociálních vazeb destabilizovaných v stupni 2.
+**Co je v této fázi pozorovatelné.** Práce s vyprávěním o zkušenosti, kognitivní zpracování stresových reakcí, somatická regulace a obnova sociálních vazeb narušených ve stupni 2. Rozpoznávacím znakem je autorství výsledného vyprávění, a nikoli rozsah práce, která mu byla věnována.
 
 **Klíčový diferenciační moment**: V legitimním protokolu je integrace **autentická** — subjekt si zachovává epistemickou autonomii a vytváří **vlastní** narrativu zkušenosti. V destruktivním protokolu je integrace **direkcionalizovaná** — subjekt je veden k osvojení **specifické pre-formulované narrativy**, která slouží institucionálním cílům na úkor jeho autonomie.
 
@@ -106,7 +106,7 @@ Strukturální analýza extrémních výcvikových protokolů — jak legitimní
 
 **Předpoklady.** Úspěšné dokončení stupně 3; potvrzená integrace zkušeností; explicitní informovaný souhlas pro extrémní expozici.
 
-**Metody.** Komplexní integrované scénáře blízce simulující reálné podmínky cílového nasazení; multi-modální stresory působící simultánně; testování v podmínkách s redukovanou možností úniku (avšak stále s aktivním abort kanálem).
+**Co je v této fázi pozorovatelné.** Souborné scénáře blízké reálným podmínkám cílového nasazení, souběh zátěže ve více dimenzích a prostředí, v němž je odchod ztížen. Právě zde je nejzřetelnější znak celé sekvence: zda kanál pro ukončení zůstává funkční i v okamžiku, kdy je odchod ztížen vším ostatním.
 
 **Supervize.** Real-time monitoring na nejvyšší úrovni; aktivní psychiatrický stand-by; přítomnost senior medical officer; striktní time-limit pro každou expozici.
 
@@ -120,7 +120,7 @@ Strukturální analýza extrémních výcvikových protokolů — jak legitimní
 
 **Předpoklady.** Úspěšné dokončení stupně 4; finální klinické zhodnocení; absence symptomů vyžadujících intenzivnější intervenci.
 
-**Metody.** Postupná deeskalace stresorů; strukturované re-entry plánování; individuální a skupinová terapie podle potřeby; etablování peer support sítí; long-term follow-up plán (typicky 2–5 let).
+**Co je v této fázi pozorovatelné.** Postupné snižování zátěže, plánovaný návrat do běžného života, individuální i skupinová péče podle potřeby, ustavení vzájemné podpory mezi účastníky a dlouhodobé sledování. Kompendium neuvádí, jak dlouhé takové sledování má být; rozpoznatelné je, zda bylo rozpočtováno a kdo je hradí.
 
 **Klíčový diferenciační moment**: Legitimní protokol investuje **významné zdroje do stupně 5**, často srovnatelné s investicí do stupňů 2–4. Destruktivní protokol stupeň 5 **systematicky redukuje nebo eliminuje**, čímž subjekty zůstávají v dezintegrovaném nebo direkcionalizovaném stavu.
 
@@ -136,7 +136,7 @@ Pro pochopení diferenciace mezi legitimním extrémním výcvikem a destruktivn
 
 **Kontext.** Výcvik vojenského personálu vystaveného riziku zajetí (piloti, speciální operátoři); původně vyvinut po Korejské válce.
 
-**Strukturální charakteristiky.** Plně dodržuje pětistupňovou sekvenci; má extrémně robustní stupeň 5 (reintegrační podpora); explicitní informovaný souhlas; aktivní abort signál; přítomnost psychiatrického a medického personálu.
+**Strukturální charakteristiky.** Plně dodržuje pětistupňovou sekvenci; má extrémně robustní stupeň 5 (reintegrační podpora); explicitní informovaný souhlas; aktivní abort signál; přítomnost psychiatrického a medického personálu. Morgan a kol. (2001) dokumentovali u účastníků tohoto výcviku disociativní příznaky v míře, která odpovídá klinickým souborům, a právě tento nález je důvodem, proč se u SERE o reintegrační fázi vůbec mluví.
 
 **Klíčový element.** **Resistance training** simuluje koercitivní výslechové techniky, ale s explicitním cílem **inokulace** — naučit subjekt, jak rozpoznat a odolat manipulaci. Cílový stav je **zvýšená epistemická autonomie**, ne snížená.
 
@@ -154,7 +154,7 @@ Pro pochopení diferenciace mezi legitimním extrémním výcvikem a destruktivn
 
 ### Franklova logoterapie a resilience-building
 
-**Kontext.** Terapeutický a edukativní rámec vyvinutý Viktorem Franklem na základě jeho zkušenosti z koncentračních táborů; zaměřený na budování významu (meaning) jako primárního zdroje rezilience.
+**Kontext.** Terapeutický a edukativní rámec, který Frankl (1946) vyvinul na základě vlastní zkušenosti z koncentračních táborů; zaměřený na budování významu jako primárního zdroje rezilience.
 
 **Strukturální charakteristiky.** Logoterapie není primárně extrémním výcvikem, ale poskytuje paradigmatický framework pro **legitimní integraci** zkušenosti extrémního stresu. Frankl explicitně diferencoval mezi **destruktivní redukcí** člověka (kterou prožil v koncentračních táborech) a **konstruktivní integrací** významu i traumatické zkušenosti.
 
@@ -164,7 +164,7 @@ Pro pochopení diferenciace mezi legitimním extrémním výcvikem a destruktivn
 
 ### DBT distress tolerance moduly
 
-**Kontext.** Dialekticko-behaviorální terapie (DBT) Marshy Linehan vyvinutá pro pacienty s borderline personality disorder; obsahuje „distress tolerance“ moduly, které vyučují přežívání akutního emocionálního stresu bez maladaptivního chování.
+**Kontext.** Dialekticko-behaviorální terapie, kterou Linehan (1993) vyvinula pro pacienty s hraniční poruchou osobnosti; obsahuje moduly „distress tolerance“, jež učí přežít akutní emoční stres bez maladaptivního chování.
 
 **Strukturální charakteristiky.** Mikroverze pětistupňové sekvence aplikovaná v terapeutickém kontextu; explicitní edukace o mechanismech distress tolerance; kontinuální informovaný souhlas; aktivní reintegrační fáze v každé sezení.
 
@@ -182,7 +182,7 @@ Pro pochopení diferenciace mezi legitimním extrémním výcvikem a destruktivn
 | **Informovaný souhlas** | Kontinuální, granulární | Iniciální, generalizovaný |
 | **Abort signál** | Aktivně dostupný a respektovaný | Formálně dostupný, prakticky penalizovaný |
 | **Vlastnictví narrativy** | Subjekt | Instituce |
-| **Long-term follow-up** | 2–5 let strukturované podpory | Absentní nebo formální |
+| **Long-term follow-up** | Dlouhodobá strukturovaná podpora, rozpočtovaná a doložitelná | Absentní nebo formální |
 | **Reverzibilita** | Plně reverzibilní | Záměrně ireverzibilní |
 | **Externí supervize** | IRB, etická komise | Vlastní instituce |
 
@@ -229,23 +229,23 @@ Extrémní výcvikové sekvence — i když dokonale legitimní — nesou inhere
 
 ### Failure modes a kritéria předčasného ukončení
 
-Protokol musí specifikovat **explicitní kritéria** pro předčasné ukončení účasti subjektu:
+V odpovědném prostředí jsou kritéria předčasného ukončení vymezena předem a písemně, a jejich stopa je proto dohledatelná i mnoho let po programu. Jsou dvojího druhu:
 
-**Hard abort criteria** (okamžité ukončení):
+Stavy, při nichž odpovědné prostředí sekvenci ukončuje okamžitě:
 
 - Suicidální ideace s plánem
 - Psychotická symptomatologie
 - Život ohrožující somatická komplikace
 - Disociativní stav přetrvávající po ukončení akutní expozice
 
-**Soft abort criteria** (doporučené ukončení po klinickém zhodnocení):
+Stavy, které v odpovědném prostředí vedou k ukončení po klinickém zhodnocení:
 
 - Eskalující depresivní symptomatologie
 - Disociativní symptomatologie reagující na intervenci
 - Somatické komplikace s reverzibilním průběhem
 - Sociometrický kolaps (subjekt zůstává trvale izolován)
 
-**Subjekt-iniciované abort criteria**:
+Ukončení vyžádané samotným účastníkem:
 
 - Explicitní žádost o ukončení **musí být respektována bez negativních konsekvencí**; jakékoli penalizace abort signálu transformují program z legitimního výcviku do koercitivního protokolu.
 
@@ -267,13 +267,30 @@ Extrémní výcvikové sekvence představují kategorii terminálních protokol�
 
 Pro výzkumníky, klinickou praxi a institucionální governance z toho vyplývá několik praktických závěrů:
 
-1. **Žádný extrémní výcvikový program nemůže být designován bez explicitní artikulace pětistupňové sekvence** s adekvátní investicí do každého stupně.
+1. **Program, který pětistupňovou sekvenci nikde výslovně nepojmenoval, nelze proti ní poměřovat** — a to je samo pozorováním, nikoli pouhým nedostatkem dokumentace.
 2. **Jakýkoli protokol, který redukuje stupeň 5 (reintegraci), je třeba klasifikovat jako podezřelý** bez ohledu na kvalitu předchozích stupňů.
 3. **Transparentnost technik vůči subjektu je primárním diferenciátorem** mezi legitimním a destruktivním protokolem.
 4. **Kontinuální, granulární informovaný souhlas** a **respektovaný abort signál** jsou nezbytnými podmínkami legitimity.
-5. **Long-term follow-up** (typicky 2–5 let) je integrální součástí, nikoli volitelným doplňkem.
+5. **Long-term follow-up** je integrální součástí, nikoli volitelným doplňkem; kompendium neuvádí jeho délku, protože rozpoznatelná je jeho existence a jeho financování, a ne číslo v programovém dokumentu.
 
 [Kapitola 5](@/kompendium/04-terminalni-protokoly/kapitola-5.md) navazuje detailní analýzou specializovaných bezpečnostních protokolů, které musí být implementovány na úrovni instituce, výzkumného týmu a individuálního klinika pro zajištění etické a bezpečné práce v této oblasti.
+
+## Výcvikový rámec jako to, co se rozpoznává nejobtížněji
+
+Z celé sekce 04 je tato kapitola nejobtížnější právě proto, že popisuje uspořádání, které vypadá jako vzdělávání. Prostředí, v němž je materiál tohoto druhu studován, a prostředí, v němž je vykonáván, používají týž slovník, tutéž pětistupňovou terminologii a často tytéž odborné zdroje. Rozdíl je jinde: studující prostředí vystavuje stejné otázce i sám sebe a drží se závazku popsaného v [etickém kodexu](@/kompendium/08-prilohy/eticky-kodex.md), zatímco vykonávající prostředí užívá téhož popisu jako dokladu vlastní legitimity.
+
+Tři znaky tento rozdíl zvenčí odhalují, a žádný z nich nevyžaduje přístup k průběhu výcviku. Prvním je, zda účastníci znají jména mechanismů, jimž jsou vystaveni; legitimní program je vyučuje, protože rozpoznání je jeho cílem. Druhým je, zda existuje doložený případ, kdy program někoho nepřijal nebo účast ukončil. Třetím je, kdo platí reintegraci a dlouhodobé sledování: externalizace těchto nákladů na účastníka je rozpoznávacím znakem, nikoli rozpočtovým opatřením.
+
+Morgan a kol. (2001) ukazují, proč tyto znaky nelze nahradit úsudkem o intenzitě. Účastníci jejich souboru procházeli programem, který je obecně považován za legitimní, a přesto u nich byly zjištěny disociativní příznaky srovnatelné s klinickými populacemi. Intenzita tedy sama o sobě nerozlišuje nic; rozlišuje to, co prostředí s takovým nálezem udělá.
+
+Pro čtenáře, který takovým programem prošel, z toho vyplývá poslední pozorování. Skutečnost, že program byl institucionální, akreditovaný a prestižní, nevylučuje nic z toho, co je popsáno výše; Milgram (1974) ukázal, že instituce, která uspořádání zaštítí, zvyšuje ochotu v něm pokračovat, a to i u těch, kdo je vedou. *Interpretace knihy:* proto tato kapitola nehodnotí programy podle jejich rámce, nýbrž podle stop, které po sobě nechávají.
+
+## Literatura
+
+- Frankl, V. E. (1946). *Ein Psycholog erlebt das Konzentrationslager*. Verlag für Jugend und Volk.
+- Linehan, M. M. (1993). *Cognitive-Behavioral Treatment of Borderline Personality Disorder*. Guilford Press.
+- Milgram, S. (1974). *Obedience to Authority: An Experimental View*. Harper & Row.
+- Morgan, C. A., Hazlett, G., Wang, S., Richardson, E. G., Schnurr, P., & Southwick, S. M. (2001). „Symptoms of Dissociation in Humans Experiencing Acute, Uncontrollable Stress: A Prospective Investigation.“ *American Journal of Psychiatry*, 158(8), 1239–1247.
 
 ## Související
 
@@ -291,19 +308,4 @@ Pro výzkumníky, klinickou praxi a institucionální governance z toho vyplýv�
 - [Glosář: Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
 - [Filozofie: Intelektuální suverenita](@/philosophy/intellectual-sovereignty.md)
 - [Filozofie: Epistemická integrita](@/philosophy/epistemic-integrity.md)
-
-## Kritický krok
-
-**Tato sekce není použitelná bez supervize.** Před aplikací jakéhokoli
-terminálního protokolu (i v rámci sebe-monitoringu) ověř:
-
-1. Existující písemný [eticky-kodex](@/kompendium/08-prilohy/eticky-kodex.md)
-   schválený tvou institucí
-2. Aktivní [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-   s minimálně měsíčním kontaktem
-3. [Pred-simulační screening](@/kompendium/04-terminalni-protokoly/pred-simulacni-screening.md)
-   uplynulých 7 dní
-
-> **Mandatorní akce**: aplikace bez splnění všech tří bodů je porušením
-> doktríny tohoto kompendia. Bez nich vrať tento materiál na úroveň
-> [03 Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md).
+- [Etický kodex kompendia](@/kompendium/08-prilohy/eticky-kodex.md) · [Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) · [Před-simulační screening](@/kompendium/04-terminalni-protokoly/pred-simulacni-screening.md) · [Kontrolovaná rekonstituce](@/kompendium/04-terminalni-protokoly/kontrolovana-rekonstituce.md)

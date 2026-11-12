@@ -49,7 +49,7 @@ Bezprostředně po ukončení expozice vstupuje subjekt do fáze, ve které je p
 
 Klíčový princip R1: **žádná interpretativní práce**. Subjekt není v této fázi zván k reflexi nad zkušeností expozice. Verbalizace, pokud probíhá, je deskriptivní (události), nikoli interpretativní (význam).
 
-Doba: typicky 24–96 hodin, závislost na intenzitě expozice. Indikátor přechodu do R2: subjekt sám iniciuje sukcesivní rozhovor o zkušenosti.
+Trvání: tato fáze je z celé sekvence nejkratší a její délka se řídí intenzitou expozice. Kompendium pro ni neuvádí žádný časový údaj; publikovatelná hodnota by zastírala právě tu variabilitu, která je zde podstatná, a stala by se lhůtou, po jejímž uplynutí se pokračuje. Rozpoznatelným znakem přechodu do R2 je to, že subjekt sám začne o zkušenosti mluvit.
 
 ### Fáze R2 — narativní rekonstrukce zkušenosti
 
@@ -62,7 +62,7 @@ V druhé fázi je subjekt veden k **rekonstrukci vlastního narativu** o expozic
 
 Mechanismus R2 koresponduje s klinickým konceptem *narrative consolidation* — proces, kterým je dezintegrovaná zkušenost integrována do koherentní biografie. Bez R2 zůstává expozice jako *isolovaný traumatický fragment*, který nadále působí mimo integrovanou biografii.
 
-Doba: typicky 1–4 týdny, sezení o frekvenci 2–3 týdně.
+Trvání: řádově delší než R1 a pravidelně delší, než instituce očekává. Kompendium neuvádí ani délku této fáze, ani frekvenci sezení. Rozpoznatelné je něco jiného: zda narativní práce skončila tím, že subjekt dospěl ke koherentnímu vyprávění, nebo tím, že vypršel čas vyhrazený programem.
 
 ### Fáze R3 — kontextualizace a komparace
 
@@ -74,7 +74,7 @@ Ve třetí fázi je rekonstruovaný narativ **kontextualizován**:
 
 Klíčové: kontextualizace je *přidávána* k subjektivnímu narativu, nikoli *substituována* za něj. Subjekt si zachovává narativní autorství; externí rámce jsou nabízeny jako možnosti, nikoli jako autoritativní pravdy.
 
-Doba: typicky 4–8 týdnů, sezení o frekvenci týdenní.
+Trvání: kompendium neuvádí. Pozorovatelným znakem je pořadí, a ne délka — zda kontextualizace následovala po narativní rekonstrukci, nebo ji předběhla. Předběhnutá rekonstrukce je totiž přesně tím, co bylo výše popsáno jako předložení hotového rámce.
 
 ### Fáze R4 — re-instalace pojmového aparátu
 
@@ -87,7 +87,7 @@ Ve čtvrté fázi je systematicky obnovován pojmový aparát, který byl v expo
 
 Tento krok přímo odpovídá invertované struktuře [konceptuální dekonstrukce](@/kompendium/04-terminalni-protokoly/konceptualni-dekonstrukce.md). Tam, kde destruktivní protokol rozpouští kotvy a instaluje alternativní matrici, etická rekonstituce **rekonstruuje vlastní matrici subjektu** s explicitní reflexí změn.
 
-Doba: typicky 2–4 měsíce, sezení o frekvenci týdenní až dvoutýdenní.
+Trvání: kompendium neuvádí. Rozpoznatelným znakem je autorství výsledné pojmové matrice, nikoli doba, po kterou se na ní pracovalo.
 
 ### Fáze R5 — re-integrace role-setu a sociálních vazeb
 
@@ -100,13 +100,13 @@ V páté fázi je obnovován **synchronní role-set** a sociální vazby. Mechan
 
 Tato fáze přímo invertuje strukturu [identitní dekonstrukce](@/kompendium/04-terminalni-protokoly/identitni-dekonstrukce.md) — místo fragmentace role-setu probíhá jeho reintegrace; místo separace od identifikačních kotev probíhá jejich znovuobjetí.
 
-Doba: typicky 3–6 měsíců, integrovaná do běžného života subjektu s pravidelnými klinickými kontrolami.
+Trvání: tato fáze je vždy integrována do běžného života subjektu a kompendium pro ni neuvádí žádný časový rámec. Rozpoznatelné je, zda se subjekt vrací do rolí, které si sám zvolil, nebo do rolí, které mu program přidělil.
 
 ### Fáze R6 — longitudinální follow-up
 
-Šestá fáze je **dlouhodobé follow-up**, které pokračuje řád let, často po celý profesionální život subjektu. Komponenty:
+Šestá fáze je **dlouhodobé follow-up**, které pokračuje v řádu let, často po celý profesionální život subjektu. Komponenty:
 
-- pravidelné klinické kontroly v intervalech půl roku až rok,
+- pravidelné klinické kontroly v dlouhých, předem dohodnutých intervalech, jejichž délku kompendium neuvádí,
 - monitoring spuštěčů (situace, které mohou re-aktivovat fragmenty expozice),
 - systematická dokumentace dlouhodobých efektů (pozitivních i negativních) pro institucionální evidenci,
 - dostupnost intervence v případě pozdní symptomatologie.
@@ -169,13 +169,29 @@ Subjekt si zachovává právo *odmítnout integrující rámec*, který mu insti
 
 ## Vazby na klinickou intervenci
 
-Sekce [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) rozvádí specifické intervenční techniky pro subjekty po neúplné nebo selhané rekonstituci. Klíčové intervenční modely:
+Sekce [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) rozvádí specifické intervenční techniky pro subjekty po neúplné nebo selhané rekonstituci. Fázovaný model, na nějž následující výčet odkazuje, je v klinické literatuře o disociativních následcích dobře zavedený; Steele a kol. (2017) jej popisují jako postup, v němž je stabilizace podmínkou zpracování, a nikoli jeho první polovinou. Klíčové intervenční modely:
 
 - *Trauma-fokusovaná narativní expozice*,
 - *Phase-oriented treatment* pro disociativní následky,
 - *Schema-fokusovaná terapie* pro instalaci alternativních identit,
 - *Body-oriented intervence* pro somatické fixace,
 - *Skupinová intervence* s peer-skupinou ze stejné expozice.
+
+## Rekonstituce, která proběhla, a rekonstituce, o níž se mluví
+
+Celá tato stránka je popisem toho, co v odpovědném prostředí následuje po intenzivní expozici. Z hlediska rozpoznávání má ale jiný smysl než ten, pro který byla patrně původně napsána: nejlépe doložitelným znakem destruktivní sekvence není nic z toho, co se v ní děje, nýbrž to, že po ní nenásleduje nic z toho, co je popsáno výše. Tento závěr je formulován v [etickém kodexu](@/kompendium/08-prilohy/eticky-kodex.md) kompendia a platí nezávisle na tom, jak byla expozice rámcována.
+
+Prostředí, které rekonstituci skutečně provádí, po ní zanechává stopu, protože rekonstituce stojí čas, peníze a odbornou kapacitu. Prostředí, které o ní pouze mluví, nahrazuje tuto stopu pojmy — „integrací“, „zpracováním“, „debriefingem“ — jejichž rozsah není nikde vymezen. Herman (1992) popisuje zotavení jako postup, v němž bezpečí předchází vzpomínání a vzpomínání předchází opětovné spojení se světem, a upozorňuje, že přeskočení první fáze vede k opakovanému zhroucení v druhé; tato posloupnost je v záznamech dohledatelná a její porušení se projevuje dříve, než se projeví samo trauma.
+
+Pro čtenáře, který intenzivní expozicí prošel a žádnou rekonstituci nedostal, má popsaná struktura důsledek, který je třeba říci přímo. To, co prožívá po ní, není měřítkem jeho odolnosti ani dokladem toho, že expozice byla příliš silná pro něj osobně; je očekávaným stavem po sekvenci, která nebyla uzavřena. Janoff-Bulman (1992) popisuje, že rozpad základních předpokladů o světě po extrémní zkušenosti je pravidlem, a nikoli výjimkou, a že jejich znovuvybudování je práce, kterou nelze vykonat uvnitř téhož prostředí, které je rozložilo.
+
+*Interpretace knihy:* proto tato stránka neuvádí u žádné fáze časový údaj. Údaj by se stal lhůtou, a lhůta by se v prostředí, které rekonstituci nechce platit, stala důkazem, že rekonstituce proběhla.
+
+## Literatura
+
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Janoff-Bulman, R. (1992). *Shattered Assumptions: Towards a New Psychology of Trauma*. Free Press.
+- Steele, K., Boon, S., & Van der Hart, O. (2017). *Treating Trauma-Related Dissociation: A Practical, Integrative Approach*. W. W. Norton.
 
 ## Související materiály
 
@@ -190,19 +206,4 @@ Sekce [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) rozvád�
 - [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) — terapeutické modely pro post-expozici
 - Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) · [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) · [Ontologická anihilace](@/glossary/ontologicka-anihilace.md) · [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) · [Anankastický režim](@/glossary/anankasticky-rezim.md) · [Epistemická alienace](@/glossary/epistemicka-alienace.md) · [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) · [Taxonomie EA](@/glossary/taxonomie-ea.md) · [Dual-use poznání](@/glossary/dual-use-poznani.md) · [Epistemické trauma](@/glossary/epistemicke-trauma.md) · [Gaslighting](@/glossary/gaslighting.md) · [Delegitimizace](@/glossary/delegitimizace.md)
 - Filozofie: [Intelektuální suverenita](@/philosophy/intellectual-sovereignty.md) · [Epistemická integrita](@/philosophy/epistemic-integrity.md) · [Boundary ethics](@/philosophy/boundary-ethics.md)
-
-## Kritický krok
-
-**Tato sekce není použitelná bez supervize.** Před aplikací jakéhokoli
-terminálního protokolu (i v rámci sebe-monitoringu) ověř:
-
-1. Existující písemný [eticky-kodex](@/kompendium/08-prilohy/eticky-kodex.md)
-   schválený tvou institucí
-2. Aktivní [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-   s minimálně měsíčním kontaktem
-3. [Pred-simulační screening](@/kompendium/04-terminalni-protokoly/pred-simulacni-screening.md)
-   uplynulých 7 dní
-
-> **Mandatorní akce**: aplikace bez splnění všech tří bodů je porušením
-> doktríny tohoto kompendia. Bez nich vrať tento materiál na úroveň
-> [03 Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md).
+- [Etický kodex kompendia](@/kompendium/08-prilohy/eticky-kodex.md) · [Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) · [Před-simulační screening](@/kompendium/04-terminalni-protokoly/pred-simulacni-screening.md)

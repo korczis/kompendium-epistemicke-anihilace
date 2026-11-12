@@ -44,11 +44,11 @@ Mechanismy:
 - **Personální kontaminace** — selhání jednotlivých členů jsou generalizována na celou instituci.
 - **Kontrafaktuální narativy** — alternativní instituce nebo procedury jsou předkládány jako „to, co by bylo, kdyby [destruktivní cíl]“.
 
-Bod oblákovitě analytický: legitimní kritika instituce je nezbytnou součástí epistemicky zdravé společnosti. Strukturálně destruktivní delegitimizace se odlišuje **asymetrií** (kritika bez konstruktivní alternativy), **mírou** (cílem je rozpuštění, nikoli reforma) a **intencí** (instrumentální zájem operátora, nikoli zájem o lepší fungování instituce).
+Analyticky klíčový bod: legitimní kritika instituce je nezbytnou součástí epistemicky zdravé společnosti. Strukturálně destruktivní delegitimizace se odlišuje **asymetrií** (kritika bez konstruktivní alternativy), **mírou** (cílem je rozpuštění, nikoli reforma) a **intencí** (instrumentální zájem operátora, nikoli zájem o lepší fungování instituce).
 
 ### Mechanismus 2: infiltrace a kapture
 
-Druhý mechanismus operuje skrze umisťování **kontrolovaných aktérů** do interních struktur instituce. Cíle:
+Druhý mechanismus operuje skrze umisťování **kontrolovaných aktérů** do interních struktur instituce. Co je tím v instituci změněno, a tedy co je v ní pozorovatelné:
 
 - získání přístupu k procedurálnímu rozhodování,
 - ovlivnění personálních rozhodnutí (najímání, propagace),
@@ -151,6 +151,22 @@ Z perspektivy ochrany institucí jsou relevantní následující implikace:
 - **Princip respektu k legitimní kritice** — výzkum institucionální anihilace nesmí být instrumentalizován pro delegitimizaci legitimní institucionální kritiky.
 - **Princip kolektivní odpovědnosti** — výzkum cílí na ochranu kolektivní epistemické infrastruktury jako sdíleného statku.
 
+## Studium institucionální anihilace a její výkon
+
+Rozdíl mezi prostředím, které tento materiál studuje, a prostředím, které jej vykonává, je na kolektivní úrovni snadněji doložitelný než na individuální, protože institucionální dění zanechává písemnou stopu. Studující prostředí popisuje mechanismy a současně připouští, že je samo jejich možným předmětem; vykonávající prostředí popisuje tytéž mechanismy výhradně u svých protivníků. [Etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) kompendia žádá první z obou postojů a činí jej prověřitelným, protože obousměrnost kritiky je v dokumentech instituce dohledatelná.
+
+Druhým rozlišujícím znakem je vztah ke kritice vlastních selhání. Merton (1942) popisuje organizovaný skepticismus jako normu, bez níž vědecká instituce nemůže plnit svou funkci; tato norma je obousměrná a instituce, která snese jen kritiku směřující navenek, ztratila kapacitu opravit vlastní chybu i tam, kde na ni žádná vnější síla nepůsobí. Takový stav je zvenčí patrný dříve než většina znaků uvedených v signálním profilu.
+
+Pro čtenáře, který pracuje uvnitř instituce měnící se tímto způsobem, je nejobtížnějším pozorováním to, že žádný jednotlivý krok nevypadá jako útok. Levitsky a Ziblatt (2018) popisují u politických institucí stejnou strukturu: každý krok je obhajitelný stávajícími pravidly a teprve jejich řada vede k výsledku, který by nikdo nenavrhl přímo. Z toho plyne, že rozpoznání institucionální anihilace je vždy rozpoznáním vzorce, a nikdy rozpoznáním jediného skutku — a že kdo žádá doklad v podobě jednoho skutku, žádá doklad, který nemůže existovat.
+
+Arendt (1951) popisuje atomizaci jako podmínku, a nikoli následek totální vlády: odstraněním prostoru mezi lidmi je odstraněn i orgán, jímž by se kolektiv o svém vlastním stavu dozvěděl. *Interpretace knihy:* odtud plyne, že instituce, která přestala mít horizontální komunikaci, zpravidla nedokáže zaznamenat ani to, že se jí to stalo, a vnější pozorovatel to zaznamená dříve než ona sama. Právě proto je tato stránka napsána pro pozorovatele, a ne pro toho, kdo by takový stav chtěl vyvolat.
+
+## Literatura
+
+- Arendt, H. (1951). *The Origins of Totalitarianism*. Harcourt, Brace & Co.
+- Levitsky, S., & Ziblatt, D. (2018). *How Democracies Die*. Crown.
+- Merton, R. K. (1942). „A Note on Science and Democracy.“ *Journal of Legal and Political Sociology*, 1, 115–126.
+
 ## Související materiály
 
 - [Kapitola 4: Extrémní výcviková sekvence](@/kompendium/04-terminalni-protokoly/kapitola-4.md)
@@ -164,19 +180,4 @@ Z perspektivy ochrany institucí jsou relevantní následující implikace:
 - [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) · [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) · [Ontologická anihilace](@/glossary/ontologicka-anihilace.md) · [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) · [Anankastický režim](@/glossary/anankasticky-rezim.md) · [Epistemická alienace](@/glossary/epistemicka-alienace.md) · [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) · [Taxonomie EA](@/glossary/taxonomie-ea.md) · [Dual-use poznání](@/glossary/dual-use-poznani.md) · [Epistemické trauma](@/glossary/epistemicke-trauma.md) · [Gaslighting](@/glossary/gaslighting.md) · [Delegitimizace](@/glossary/delegitimizace.md)
 - Filozofie: [Intelektuální suverenita](@/philosophy/intellectual-sovereignty.md) · [Epistemická integrita](@/philosophy/epistemic-integrity.md) · [Boundary ethics](@/philosophy/boundary-ethics.md)
-
-## Kritický krok
-
-**Tato sekce není použitelná bez supervize.** Před aplikací jakéhokoli
-terminálního protokolu (i v rámci sebe-monitoringu) ověř:
-
-1. Existující písemný [eticky-kodex](@/kompendium/08-prilohy/eticky-kodex.md)
-   schválený tvou institucí
-2. Aktivní [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-   s minimálně měsíčním kontaktem
-3. [Pred-simulační screening](@/kompendium/04-terminalni-protokoly/pred-simulacni-screening.md)
-   uplynulých 7 dní
-
-> **Mandatorní akce**: aplikace bez splnění všech tří bodů je porušením
-> doktríny tohoto kompendia. Bez nich vrať tento materiál na úroveň
-> [03 Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md).
+- [Etický kodex kompendia](@/kompendium/08-prilohy/eticky-kodex.md) · [Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) · [Před-simulační screening](@/kompendium/04-terminalni-protokoly/pred-simulacni-screening.md)

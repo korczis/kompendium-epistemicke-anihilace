@@ -90,13 +90,13 @@ Detekce vyžaduje **diferenciální diagnózu** vůči primárním psychiatrick�
 
 ## Klinické pozadí
 
-Technika **EA-4.3.8** se historicky vyvinula z konvergence několika klinických tradic: psychoanalytické práce s traumatickým přenosem (Ferenczi, Sándor), kognitivně-behaviorální tradice expoziční terapie (Foa, Edna B.), neurobiologického modelu [polyvagální teorie](@/glossary/polyvagalni-teorie.md) (Porges, Stephen W.) a specifického korpusu post-cult psychologické literatury (Singer, Margaret T.; Hassan, Steven). V kontextu kompendia EA představuje kategoriálně-konceptuální dezintegrace s vysokým iatrogenním rizikem.
+V kompendiu EA je tento protokol veden jako případ, kdy se poškození netýká jednotlivého přesvědčení, ale samotného výkonu výkladu: subjekt vykládá své vlastní výklady a každá další úroveň mu ubírá oporu, od níž by se mohl odrazit.
 
 **Klinické zacílení**: akutní destabilizace pojmového systému subjektu pod tlakem cíleně dezorganizujících výcvikových intervencí (deep cover identity work, ideologická dekonstrukce v deprogramming kontextech). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
 
-**Trauma spektrum kontext**: aplikace techniky vyžaduje explicitní stratifikaci subjektu na škále jednoduchého akutního traumatu (Type I trauma per Terr) versus komplexního opakovaného relačního traumatu (Type II trauma). U Type II profilů s dlouhodobou expozicí v dětství je nutná modifikace standardního protokolu — zkrácení sezení, posílení titrace expozičních prvků, zvýšení frekvence stabilizačních intervalů. Ignorance této stratifikace je dokumentovanou cestou k iatrogennímu zhoršení.
+**Trauma spektrum kontext**: dělení dvou typů traumatizace, které zavedla Terr (1991), je zde dobré pro rozpoznání, nikoli pro odstupňování. U ohraničené události se rekurzivní pochybování drží jedné vzpomínky; po opakované relační expozici se stává obvyklým způsobem, jímž člověk o sobě uvažuje, a poznat je lze spíš na tom, co nedokáže ukončit, než na obsahu, o němž pochybuje. Závěr pro jednotlivý případ knize nepatří.
 
-**Klinická tradice ukotvení**: česká psychiatrická a psychologická tradice (Vondráček, Mečíř, Kratochvíl, Höschl, Praško) poskytuje specifický rámec pro adaptaci globálních [evidence-based](@/glossary/evidence-based.md) přístupů na středoevropské sociokulturní specifika — postkomunistická intergenerační traumata, religijně-sektářská specifika regionu, vzorce institucionálního násilí v rámci totalitního dědictví.
+**Klinická tradice ukotvení**: kniha čte místní psychiatrickou a psychologickou tradici jako rámec, který rozhoduje, zda je ustavičný výklad sebe sama brán jako příznak, nebo jako kulturně vážená intelektuální ctnost; vedle přejatých [evidence-based](@/glossary/evidence-based.md) popisů je to *interpretace knihy* a [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md) její váhu omezují.
 
 ## Vulnerabilní podpopulace
 
@@ -106,7 +106,7 @@ Aplikace techniky **EA-4.3.8** vyžaduje specifickou modifikaci v následující
 
 **Geriatrická populace (> 65 let)**: kognitivní akomodace (delší pauzy, opakování klíčových konceptů, písemné podpůrné materiály), screening pro early-stage demenci (MoCA), zohlednění kohortně specifické historie (postkomunistická intergenerační traumata), častá komorbidita s chronickými somatickými onemocněními.
 
-**Komorbidní psychotické spektrum**: technika vyžaduje předchozí farmakologickou stabilizaci (atypická antipsychotika), úzká spolupráce s psychiatrem, redukce konfrontačních elementů, posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
+**Komorbidní psychotické spektrum**: technika vyžaduje předchozí psychiatrickou stabilizaci, úzká spolupráce s psychiatrem, redukce konfrontačních elementů, posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
 
 **Komorbidní substance use disorders**: doporučená sekvence — primární léčba závislosti do funkční remise, poté trauma-fokusovaná intervence. Paralelní integrované přístupy (Seeking Safety) jsou alternativou pro pacienty neschopné dosáhnout primární abstinence.
 
@@ -153,6 +153,7 @@ Klinický kontext **EA-4.3.8** připouští následující dokumentované adapta
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Sass, L. A., & Parnas, J. (2003). Schizophrenia, consciousness, and the self. *Schizophrenia Bulletin*, 29(3), 427–444.
+- Terr, L. C. (1991). Childhood traumas: An outline and overview. *American Journal of Psychiatry*, 148(1), 10–20.
 
 ## Související
 

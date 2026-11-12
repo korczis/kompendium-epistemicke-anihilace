@@ -94,13 +94,13 @@ Předcházení iatrogenním poškozením je integrální součástí klinické e
 
 ## Klinické pozadí
 
-Technika **EA-6.1.2** se historicky vyvinula z konvergence několika klinických tradic: psychoanalytické práce s traumatickým přenosem (Ferenczi, Sándor), kognitivně-behaviorální tradice expoziční terapie (Foa, Edna B.), neurobiologického modelu [polyvagální teorie](@/glossary/polyvagalni-teorie.md) (Porges, Stephen W.) a specifického korpusu post-cult psychologické literatury (Singer, Margaret T.; Hassan, Steven). V kontextu kompendia EA představuje diagnostická detekce EA-trauma s diferenciací proti primárním afektivním a úzkostným poruchám.
+Kniha vede techniku **EA-6.1.2** jako nástroj sebeposouzení, jehož výstupem je údaj o tom, co člověk o svém stavu uvádí. Diagnostická detekce EA-traumatu s odlišením od primárních afektivních a úzkostných poruch je úkolem klinika; dotazník k němu dodává podklad, nikoli závěr.
 
 **Klinické zacílení**: klinický assessment epistemicko-afektivního traumatu po manipulativní expozici (kult, abusivní vztah, koercivní pracoviště, post-divorce DARVO dynamics). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
 
-**Trauma spektrum kontext**: aplikace techniky vyžaduje explicitní stratifikaci subjektu na škále jednoduchého akutního traumatu (Type I trauma per Terr) versus komplexního opakovaného relačního traumatu (Type II trauma). U Type II profilů s dlouhodobou expozicí v dětství je nutná modifikace standardního protokolu — zkrácení sezení, posílení titrace expozičních prvků, zvýšení frekvence stabilizačních intervalů. Ignorance této stratifikace je dokumentovanou cestou k iatrogennímu zhoršení.
+**Trauma spektrum kontext**: Terr (1991) rozlišila trauma po jediné události a trauma z opakované expozice ve vztahu. Pro sebeposuzovací nástroj je to podstatné, protože položky formulované pro jednu ohraničenou událost nemají u opakované expozice k čemu odkazovat — chybí děj s začátkem a koncem. Prahy a výklad skóru stanoví manuál nástroje, nikoli tato stránka (Herman, 1992).
 
-**Klinická tradice ukotvení**: česká psychiatrická a psychologická tradice (Vondráček, Mečíř, Kratochvíl, Höschl, Praško) poskytuje specifický rámec pro adaptaci globálních [evidence-based](@/glossary/evidence-based.md) přístupů na středoevropské sociokulturní specifika — postkomunistická intergenerační traumata, religijně-sektářská specifika regionu, vzorce institucionálního násilí v rámci totalitního dědictví.
+**Klinická tradice ukotvení**: *interpretace knihy* — sebeposouzení je vždy vedeno v nějakém jazyce a v nějaké představě o tom, co se smí přiznat. Kniha proto čte převzetí [evidence-based](@/glossary/evidence-based.md) nástroje do středoevropského prostředí jako otázku překladu i normy: co zde člověk o nátlaku v rodině nebo na pracovišti pokládá za hodné zápisu, se od předpokladů původní validizace může lišit.
 
 ## Vulnerabilní podpopulace
 
@@ -170,6 +170,7 @@ Komplementární k [EA-6.1.1 strukturálnímu rozhovoru](@/kompendium/techniques
 - Lilienfeld, S. O. (2007). Psychological treatments that cause harm. *Perspectives on Psychological Science*.
 - Nisbett, R. E., & Wilson, T. D. (1977). Telling more than we can know: Verbal reports on mental processes. *Psychological Review*.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
+- Terr, L. C. (1991). Childhood traumas: An outline and overview. *American Journal of Psychiatry*, 148(1), 10–20.
 - World Health Organization (2019). *International Classification of Diseases, 11th Revision (ICD-11)*. WHO.
 
 ## Související

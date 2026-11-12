@@ -90,13 +90,13 @@ Detekce vyžaduje **diferenciální diagnózu** vůči primárním psychiatrick�
 
 ## Klinické pozadí
 
-Technika **EA-4.2.8** se historicky vyvinula z konvergence několika klinických tradic: psychoanalytické práce s traumatickým přenosem (Ferenczi, Sándor), kognitivně-behaviorální tradice expoziční terapie (Foa, Edna B.), neurobiologického modelu [polyvagální teorie](@/glossary/polyvagalni-teorie.md) (Porges, Stephen W.) a specifického korpusu post-cult psychologické literatury (Singer, Margaret T.; Hassan, Steven). V kontextu kompendia EA představuje etická governance vysokorizikové výzkumné nebo intervenční expozice.
+V kompendiu EA je tato technika vedena jako otázka odpovědnosti, která nekončí poslední návštěvou: co se o stavu účastníka dá zjistit až s odstupem a co už nelze doplnit zpětně, pokud mezitím zanikla cesta, kterou by se ozval sám.
 
 **Klinické zacílení**: etické rámce pre/inter/post-engagement supervize ve studiích s extrémní expozicí (forenzní psychiatry, vojenský výzkum, kult-deconstruction protokoly). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
 
-**Trauma spektrum kontext**: aplikace techniky vyžaduje explicitní stratifikaci subjektu na škále jednoduchého akutního traumatu (Type I trauma per Terr) versus komplexního opakovaného relačního traumatu (Type II trauma). U Type II profilů s dlouhodobou expozicí v dětství je nutná modifikace standardního protokolu — zkrácení sezení, posílení titrace expozičních prvků, zvýšení frekvence stabilizačních intervalů. Ignorance této stratifikace je dokumentovanou cestou k iatrogennímu zhoršení.
+**Trauma spektrum kontext**: pro sledování s odstupem je rozhodující, zda šlo o jednorázovou ohraničenou traumatizaci, nebo o opakovanou relační expozici z dětství (Terr, 1991). U prvního profilu se opožděné zhoršení váže k jedné rozpoznatelné události; u druhého se ohlašuje jako pozvolná změna vztahu k sobě, kterou účastník sám s protokolem nespojí, a zpráva o tom, že je vše v pořádku, pak nic nevylučuje. Co z toho v jednotlivém případě vyplývá, neurčuje tato stránka, ale klinik, který sledování vede.
 
-**Klinická tradice ukotvení**: česká psychiatrická a psychologická tradice (Vondráček, Mečíř, Kratochvíl, Höschl, Praško) poskytuje specifický rámec pro adaptaci globálních [evidence-based](@/glossary/evidence-based.md) přístupů na středoevropské sociokulturní specifika — postkomunistická intergenerační traumata, religijně-sektářská specifika regionu, vzorce institucionálního násilí v rámci totalitního dědictví.
+**Klinická tradice ukotvení**: že se místní klinická tradice promítá do toho, jak je přejatý [evidence-based](@/glossary/evidence-based.md) rámec sledování adaptován — koho účastník považuje za důvěryhodného adresáta stížnosti a jak čte nabídku mimořádného kontaktu — je *interpretace knihy*, nikoli doložené tvrzení; její status upřesňují [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 ## Vulnerabilní podpopulace
 
@@ -106,7 +106,7 @@ Aplikace techniky **EA-4.2.8** vyžaduje specifickou modifikaci v následující
 
 **Geriatrická populace (> 65 let)**: kognitivní akomodace (delší pauzy, opakování klíčových konceptů, písemné podpůrné materiály), screening pro early-stage demenci (MoCA), zohlednění kohortně specifické historie (postkomunistická intergenerační traumata), častá komorbidita s chronickými somatickými onemocněními.
 
-**Komorbidní psychotické spektrum**: technika vyžaduje předchozí farmakologickou stabilizaci (atypická antipsychotika), úzká spolupráce s psychiatrem, redukce konfrontačních elementů, posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
+**Komorbidní psychotické spektrum**: technika vyžaduje předchozí psychiatrickou stabilizaci, úzká spolupráce s psychiatrem, redukce konfrontačních elementů, posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
 
 **Komorbidní substance use disorders**: doporučená sekvence — primární léčba závislosti do funkční remise, poté trauma-fokusovaná intervence. Paralelní integrované přístupy (Seeking Safety) jsou alternativou pro pacienty neschopné dosáhnout primární abstinence.
 

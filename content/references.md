@@ -9459,7 +9459,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Terr, L. C. (1991). Childhood traumas: an outline and overview. *American Journal of Psychiatry*.  
   <small>Citováno: [EA-6.2.1 Trauma-focused CBT protokol](@/kompendium/techniques/ea-6-2-1-trauma-focused-cbt-protokol.md), [EA-6.2.10 Farmakoterapie jako adjuvant](@/kompendium/techniques/ea-6-2-10-pharmacotherapy-adjuvant.md), [EA-6.2.2 EMDR protokol](@/kompendium/techniques/ea-6-2-2-emdr-protokol.md) a 8 dalších</small>
 - Terr, L. C. (1991). Childhood traumas: An outline and overview. *American Journal of Psychiatry*, 148(1), 10–20.  
-  <small>Citováno: [EA-4.2.8 Long-term followup](@/kompendium/techniques/ea-4-2-8-long-term-followup.md), [EA-4.4.5 Temporal self-disruption](@/kompendium/techniques/ea-4-4-5-temporal-self-disruption.md)</small>
+  <small>Citováno: [EA-4.2.5 Whistleblower protection](@/kompendium/techniques/ea-4-2-5-whistleblower-protection.md), [EA-4.2.7 Documentation chain of custody](@/kompendium/techniques/ea-4-2-7-documentation-chain-custody.md), [EA-4.2.8 Long-term followup](@/kompendium/techniques/ea-4-2-8-long-term-followup.md) a 45 dalších</small>
 - Terranova, T. (2000). Free labor: Producing culture for the digital economy. *Social Text*.  
   <small>Citováno: [Případ 73: Kult digitální platformy](@/kompendium/case-studies/73-platform-cult.md)</small>
 - Tervalon, M., & Murray-García, J. (1998). Cultural humility versus cultural competence: A critical distinction in defining physician training outcomes in multicultural education. *Journal of Health Care for the Poor and Underserved*, 9(2).  

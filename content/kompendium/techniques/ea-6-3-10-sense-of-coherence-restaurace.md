@@ -92,13 +92,13 @@ Předcházení iatrogenním poškozením je integrální součástí klinické e
 
 ## Klinické pozadí
 
-Technika **EA-6.3.10** se historicky vyvinula z konvergence několika klinických tradic: psychoanalytické práce s traumatickým přenosem (Ferenczi, Sándor), kognitivně-behaviorální tradice expoziční terapie (Foa, Edna B.), neurobiologického modelu [polyvagální teorie](@/glossary/polyvagalni-teorie.md) (Porges, Stephen W.) a specifického korpusu post-cult psychologické literatury (Singer, Margaret T.; Hassan, Steven). V kontextu kompendia EA představuje fázová rekonstrukce s explicitními inkluzivními a exkluzivními kritérii pro každou fázi.
+EA-6.3.10 je v kompendiu vedena jako cílový stav rekonstrukce, nikoli jako samostatné sezení.
 
 **Klinické zacílení**: fázový rekonstrukční rámec pro post-EA-trauma populaci s důrazem na bezpečí, externalizaci, integraci a konsolidaci nového epistemicko-afektivního architektury klienta. Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
 
-**Trauma spektrum kontext**: aplikace techniky vyžaduje explicitní stratifikaci subjektu na škále jednoduchého akutního traumatu (Type I trauma per Terr) versus komplexního opakovaného relačního traumatu (Type II trauma). U Type II profilů s dlouhodobou expozicí v dětství je nutná modifikace standardního protokolu — zkrácení sezení, posílení titrace expozičních prvků, zvýšení frekvence stabilizačních intervalů. Ignorance této stratifikace je dokumentovanou cestou k iatrogennímu zhoršení.
+**Trauma spektrum kontext**: po jedné ohraničené události zůstává srozumitelnost světa zasažena zpravidla bodově, zatímco po opakované expozici trvající roky chybí sám předpoklad, že svět je srozumitelný a zvládnutelný. Rozdíl mezi jednorázovou a opakovanou traumatizací popsala Terr (1991); Antonovsky (1987) pojímá smysl pro soudržnost jako dispozici utvářenou dlouhodobě, a ne jednou příhodou. Kam na této škále člověk patří, rozhoduje o tom, co se zde vlastně obnovuje.
 
-**Klinická tradice ukotvení**: česká psychiatrická a psychologická tradice (Vondráček, Mečíř, Kratochvíl, Höschl, Praško) poskytuje specifický rámec pro adaptaci globálních [evidence-based](@/glossary/evidence-based.md) přístupů na středoevropské sociokulturní specifika — postkomunistická intergenerační traumata, religijně-sektářská specifika regionu, vzorce institucionálního násilí v rámci totalitního dědictví.
+**Klinická tradice ukotvení**: *interpretace knihy* — zdroje, z nichž člověk soudržnost čerpá — jazyk, náboženská nebo občanská příslušnost, důvěra v instituce — jsou místní a nelze je dodat z manuálu. Antonovsky (1987) váže smysl pro soudržnost na opakovanou životní zkušenost se zvládnutelným prostředím; kompendium z toho čte, že přejatý [evidence-based](@/glossary/evidence-based.md) postup zde obnovuje to, co v daném prostředí soudržnost vůbec umožňuje, ne obecné měřítko.
 
 ## Vulnerabilní podpopulace
 
@@ -108,7 +108,7 @@ Aplikace techniky **EA-6.3.10** vyžaduje specifickou modifikaci v následujíc�
 
 **Geriatrická populace (> 65 let)**: kognitivní akomodace (delší pauzy, opakování klíčových konceptů, písemné podpůrné materiály), screening pro early-stage demenci (MoCA), zohlednění kohortně specifické historie (postkomunistická intergenerační traumata), častá komorbidita s chronickými somatickými onemocněními.
 
-**Komorbidní psychotické spektrum**: technika vyžaduje předchozí farmakologickou stabilizaci (atypická antipsychotika), úzká spolupráce s psychiatrem, redukce konfrontačních elementů, posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
+**Komorbidní psychotické spektrum**: technika vyžaduje předchozí psychiatrickou stabilizaci, úzká spolupráce s psychiatrem, redukce konfrontačních elementů, posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
 
 **Komorbidní substance use disorders**: doporučená sekvence — primární SUD léčba do funkční remise, poté trauma-fokusovaná intervence. Paralelní integrované přístupy (Seeking Safety) jsou alternativou pro pacienty neschopné dosáhnout primární abstinence.
 
@@ -187,6 +187,7 @@ Integruje [EA-6.3.6 narativní](@/kompendium/techniques/ea-6-3-6-narrativni-reko
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Jacobson, N. S., & Truax, P. (1991). Clinical significance: a statistical approach to defining meaningful change in psychotherapy research. *Journal of Consulting and Clinical Psychology*.
 - Lilienfeld, S. O. (2007). Psychological treatments that cause harm. *Perspectives on Psychological Science*.
+- Terr, L. C. (1991). Childhood traumas: An outline and overview. *American Journal of Psychiatry*, 148(1), 10–20.
 - van der Kolk, B. A. (2014). *The Body Keeps the Score*. Viking.
 
 ## Související

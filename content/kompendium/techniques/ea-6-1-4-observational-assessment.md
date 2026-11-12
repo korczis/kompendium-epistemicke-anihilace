@@ -94,13 +94,13 @@ Předcházení iatrogenním poškozením je integrální součástí klinické e
 
 ## Klinické pozadí
 
-Technika **EA-6.1.4** se historicky vyvinula z konvergence několika klinických tradic: psychoanalytické práce s traumatickým přenosem (Ferenczi, Sándor), kognitivně-behaviorální tradice expoziční terapie (Foa, Edna B.), neurobiologického modelu [polyvagální teorie](@/glossary/polyvagalni-teorie.md) (Porges, Stephen W.) a specifického korpusu post-cult psychologické literatury (Singer, Margaret T.; Hassan, Steven). V kontextu kompendia EA představuje diagnostická detekce EA-trauma s diferenciací proti primárním afektivním a úzkostným poruchám.
+Klinický kontext pozorování neurčují dějiny škol, ale dvě doložená omezení pozorovatele samotného: očekávání utváří to, co je viděno (Rosenthal a Jacobson, 1968), a hledání potvrzení již přijatého výkladu je pravidlem, ne výjimkou (Nickerson, 1998). Technika proto stojí a padá s tím, zda je výklad pozorovatele vystaven přezkumu.
 
 **Klinické zacílení**: klinický assessment epistemicko-afektivního traumatu po manipulativní expozici (kult, abusivní vztah, koercivní pracoviště, post-divorce DARVO dynamics). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
 
-**Trauma spektrum kontext**: aplikace techniky vyžaduje explicitní stratifikaci subjektu na škále jednoduchého akutního traumatu (Type I trauma per Terr) versus komplexního opakovaného relačního traumatu (Type II trauma). U Type II profilů s dlouhodobou expozicí v dětství je nutná modifikace standardního protokolu — zkrácení sezení, posílení titrace expozičních prvků, zvýšení frekvence stabilizačních intervalů. Ignorance této stratifikace je dokumentovanou cestou k iatrogennímu zhoršení.
+**Trauma spektrum kontext**: pozorování samo nerozliší, zda za obrazem stojí jedna událost nebo roky opakované expozice; rozlišení obou typů zavedla Terr (1991) a pro assessment z něj plyne jediné — chybějící anamnézu nelze doplnit z chování v ordinaci. Diagnostická rozvaha se opírá o kritéria platné klasifikace a o opakované pozorování, ne o dojem z jednoho sezení (Herman, 1992).
 
-**Klinická tradice ukotvení**: česká psychiatrická a psychologická tradice (Vondráček, Mečíř, Kratochvíl, Höschl, Praško) poskytuje specifický rámec pro adaptaci globálních [evidence-based](@/glossary/evidence-based.md) přístupů na středoevropské sociokulturní specifika — postkomunistická intergenerační traumata, religijně-sektářská specifika regionu, vzorce institucionálního násilí v rámci totalitního dědictví.
+**Klinická tradice ukotvení**: *interpretace knihy* — co je v ordinaci pozorovatelné, závisí na tom, co dotčený člověk považuje za sdělitelné, a to se v místních poměrech liší. Goffman (1961) popisuje, jak prostředí samo vyrábí chování, které je pak připsáno člověku; platí to i o ordinaci v systému, kde je kontakt s péčí krátký a opakované pozorování vzácné. Na českou síť péče to kniha vztahuje jako vlastní čtení a [evidence-based](@/glossary/evidence-based.md) nástroj tuto vrstvu neměří.
 
 ## Vulnerabilní podpopulace
 
@@ -168,6 +168,7 @@ Komplementární k [EA-6.1.1 strukturálnímu rozhovoru](@/kompendium/techniques
 - Lilienfeld, S. O. (2007). Psychological treatments that cause harm. *Perspectives on Psychological Science*.
 - Nickerson, R. S. (1998). Confirmation bias: A ubiquitous phenomenon in many guises. *Review of General Psychology*.
 - Rosenthal, R., & Jacobson, L. (1968). *Pygmalion in the Classroom*. Holt, Rinehart & Winston.
+- Terr, L. C. (1991). Childhood traumas: An outline and overview. *American Journal of Psychiatry*, 148(1), 10–20.
 - van der Kolk, B. A. (2014). *The Body Keeps the Score*. Viking.
 
 ## Související

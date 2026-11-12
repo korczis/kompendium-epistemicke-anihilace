@@ -61,13 +61,16 @@ Requirements (id: what is checked):
                    SSRI, sertralin, lithium …) in prose on any content page, bibliographies and
                    references.md excluded. Owner ADR 0013/0014: the book names no drugs; the content
                    lane rewrites the drug generically. NEVER baselined
-  authority-without-source  no name-dropped authority: a parenthetical group of 2+ surnames with no
-                   year on the line, pasted byte-identical on 3+ pages ("(Vondráček, Mečíř, …)").
-                   A real citation carries a year and resolves in Literatura; this does neither and
-                   every citation gate misses it (ADR 0014). A name the book GENUINELY DISCUSSES
-                   (used lowercased in prose, e.g. Russell, Wittgenstein) is exempt — a pasted
-                   paragraph about it is duplicate-passage's domain — so a 0 here means no fabricated
-                   name-drop, not no cited thinker. NEVER baselined
+  authority-without-source  no name-dropped authority: a parenthetical citation of 2+ names with no
+                   year on the line, pasted byte-identical on 3+ pages. The names may be a list of
+                   surnames ("(Vondráček, Mečíř, …)") or one author surname-forename ("(Ferenczi,
+                   Sándor)"); only the parenthetical group triggers, so a bare name in prose never
+                   does. A real citation carries a year and resolves in Literatura; this does neither
+                   and every citation gate misses it (ADR 0014). Remedy: cite the author(s) properly
+                   in Literatura or remove the claim. A name the book GENUINELY DISCUSSES (used
+                   lowercased in prose, e.g. Russell, Wittgenstein) is exempt — a pasted paragraph
+                   about it is duplicate-passage's domain — so a 0 here means no fabricated name-drop,
+                   not no cited thinker. NEVER baselined
   clinical-figure  no unsourced clinical specific: a duration range in hours, days, weeks, months
                    or sessions, a share of sessions/patients/clients, a success/relapse rate, a
                    numeric threshold on a clinical score (HRV, HR, DES, PCL, BDI, PHQ, GAD …), a
@@ -258,7 +261,7 @@ def explain(page: dict) -> dict:
         "citation-unresolved": ", ".join(page["unresolved"]),
         "clinical-figure": "; ".join(page.get("clinical_figures", [])[:3]),
         "drug-name": ", ".join(page.get("drug_name", [])),
-        "authority-without-source": "; ".join(page.get("pasted_authorities", [])),
+        "authority-without-source": "; ".join(f"({g})" for g in page.get("pasted_authorities", [])),
         "fabricated-citation": "; ".join(page.get("fabricated_citations", [])[:2]),
         "technique-page": ", ".join("EA-" + c for c in page["missing_techniques"]),
         "technique-name": "; ".join(f"EA-{c} \"{h}\" is \"{t}\" in the catalogue"

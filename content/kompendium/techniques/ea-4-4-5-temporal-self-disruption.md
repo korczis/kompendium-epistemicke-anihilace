@@ -90,13 +90,13 @@ Detekce vyžaduje **diferenciální diagnózu** vůči primárním psychiatrick�
 
 ## Klinické pozadí
 
-Technika **EA-4.4.5** se historicky vyvinula z konvergence několika klinických tradic: psychoanalytické práce s traumatickým přenosem (Ferenczi, Sándor), kognitivně-behaviorální tradice expoziční terapie (Foa, Edna B.), neurobiologického modelu [polyvagální teorie](@/glossary/polyvagalni-teorie.md) (Porges, Stephen W.) a specifického korpusu post-cult psychologické literatury (Singer, Margaret T.; Hassan, Steven). V kontextu kompendia EA představuje biografická a identitní rekonstrukce po totalizující expozici.
+V kompendiu je technika **EA-4.4.5** vedena jako narušení časového sebevztahu, jehož zpětná synchronizace patří do rekonstrukční fáze a není samozřejmým důsledkem ukončené expozice.
 
 **Klinické zacílení**: narativní a identitní rekonstrukce v post-engagement fázi po totalizující expozici (post-cult trauma, deep cover decompression, reentry trauma). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
 
-**Trauma spektrum kontext**: aplikace techniky vyžaduje explicitní stratifikaci subjektu na škále jednoduchého akutního traumatu (Type I trauma per Terr) versus komplexního opakovaného relačního traumatu (Type II trauma). U Type II profilů s dlouhodobou expozicí v dětství je nutná modifikace standardního protokolu — zkrácení sezení, posílení titrace expozičních prvků, zvýšení frekvence stabilizačních intervalů. Ignorance této stratifikace je dokumentovanou cestou k iatrogennímu zhoršení.
+**Trauma spektrum kontext**: u jednorázové akutní traumatizace a u opakované relační expozice v dětství se očekávaná trajektorie liší (Terr, 1991), a právě proto má na této stránce význam časová osa: jedna událost má datum, dlouhá expozice žádnou hranici, kterou by šlo odložit do minulosti. Zkrácenou variantu lze proto zvažovat jen u prvního z obou profilů.
 
-**Klinická tradice ukotvení**: česká psychiatrická a psychologická tradice (Vondráček, Mečíř, Kratochvíl, Höschl, Praško) poskytuje specifický rámec pro adaptaci globálních [evidence-based](@/glossary/evidence-based.md) přístupů na středoevropské sociokulturní specifika — postkomunistická intergenerační traumata, religijně-sektářská specifika regionu, vzorce institucionálního násilí v rámci totalitního dědictví.
+**Klinická tradice ukotvení**: *interpretace knihy* — vztah k vlastní minulosti se v tomto regionu utváří mezi dvěma výklady dějin, soukromým a veřejným, které si odporují. Tam, kde člověk od dětství slyšel, že co se říká doma, se venku neříká, není rozpojený čas vlastního života jen následkem expozice; převzatý [evidence-based](@/glossary/evidence-based.md) postup s touto vrstvou nepočítá.
 
 ## Vulnerabilní podpopulace
 
@@ -106,7 +106,7 @@ Aplikace techniky **EA-4.4.5** vyžaduje specifickou modifikaci v následující
 
 **Geriatrická populace (> 65 let)**: kognitivní akomodace (delší pauzy, opakování klíčových konceptů, písemné podpůrné materiály), screening pro early-stage demenci (MoCA), zohlednění kohortně specifické historie (postkomunistická intergenerační traumata), častá komorbidita s chronickými somatickými onemocněními.
 
-**Komorbidní psychotické spektrum**: technika vyžaduje předchozí farmakologickou stabilizaci (atypická antipsychotika), úzká spolupráce s psychiatrem, redukce konfrontačních elementů, posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
+**Komorbidní psychotické spektrum**: technika vyžaduje předchozí psychiatrickou stabilizaci, úzká spolupráce s psychiatrem, redukce konfrontačních elementů, posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
 
 **Komorbidní substance use disorders**: doporučená sekvence — primární léčba závislosti do funkční remise, poté trauma-fokusovaná intervence. Paralelní integrované přístupy (Seeking Safety) jsou alternativou pro pacienty neschopné dosáhnout primární abstinence.
 

@@ -93,13 +93,13 @@ Předcházení iatrogenním poškozením je integrální součástí klinické e
 
 ## Klinické pozadí
 
-Technika **EA-6.3.3** se historicky vyvinula z konvergence několika klinických tradic: psychoanalytické práce s traumatickým přenosem (Ferenczi, Sándor), kognitivně-behaviorální tradice expoziční terapie (Foa, Edna B.), neurobiologického modelu [polyvagální teorie](@/glossary/polyvagalni-teorie.md) (Porges, Stephen W.) a specifického korpusu post-cult psychologické literatury (Singer, Margaret T.; Hassan, Steven). V kontextu kompendia EA představuje fázová rekonstrukce s explicitními inkluzivními a exkluzivními kritérii pro každou fázi.
+V kompendiu EA je tato technika vedena jako obnova schopnosti sledovat a kalibrovat vlastní úsudek — tedy té funkce, jejíž poškození po dlouhodobé manipulativní expozici zůstává nejdéle patrné.
 
 **Klinické zacílení**: fázový rekonstrukční rámec pro post-EA-trauma populaci s důrazem na bezpečí, externalizaci, integraci a konsolidaci nového epistemicko-afektivního architektury klienta. Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
 
-**Trauma spektrum kontext**: aplikace techniky vyžaduje explicitní stratifikaci subjektu na škále jednoduchého akutního traumatu (Type I trauma per Terr) versus komplexního opakovaného relačního traumatu (Type II trauma). U Type II profilů s dlouhodobou expozicí v dětství je nutná modifikace standardního protokolu — zkrácení sezení, posílení titrace expozičních prvků, zvýšení frekvence stabilizačních intervalů. Ignorance této stratifikace je dokumentovanou cestou k iatrogennímu zhoršení.
+**Trauma spektrum kontext**: pro metakognitivní práci není lhostejné, zda subjekt prošel jednou ohraničenou událostí, nebo opakovanou relační expozicí od dětství (Terr, 1991). V prvním případě má s čím srovnávat, protože si pamatuje, jak o sobě soudil dříve; v druhém žádné dřívější měřítko jistoty nemá a kalibrace tedy nemůže být návratem k němu. Který z obou případů má před sebou, určí klinik, ne tato stránka.
 
-**Klinická tradice ukotvení**: česká psychiatrická a psychologická tradice (Vondráček, Mečíř, Kratochvíl, Höschl, Praško) poskytuje specifický rámec pro adaptaci globálních [evidence-based](@/glossary/evidence-based.md) přístupů na středoevropské sociokulturní specifika — postkomunistická intergenerační traumata, religijně-sektářská specifika regionu, vzorce institucionálního násilí v rámci totalitního dědictví.
+**Klinická tradice ukotvení**: kniha čte místní tradici jako zdroj toho, co se pokládá za přiměřenou míru jistoty ve vlastním úsudku, a tedy i za cíl přejaté [evidence-based](@/glossary/evidence-based.md) rehabilitace; takové čtení je *interpretace knihy* a jeho mez popisují [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 ## Vulnerabilní podpopulace
 
@@ -109,7 +109,7 @@ Aplikace techniky **EA-6.3.3** vyžaduje specifickou modifikaci v následující
 
 **Geriatrická populace (> 65 let)**: kognitivní akomodace (delší pauzy, opakování klíčových konceptů, písemné podpůrné materiály), screening pro early-stage demenci (MoCA), zohlednění kohortně specifické historie (postkomunistická intergenerační traumata), častá komorbidita s chronickými somatickými onemocněními.
 
-**Komorbidní psychotické spektrum**: technika vyžaduje předchozí farmakologickou stabilizaci (atypická antipsychotika), úzká spolupráce s psychiatrem, redukce konfrontačních elementů, posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
+**Komorbidní psychotické spektrum**: technika vyžaduje předchozí psychiatrickou stabilizaci, úzká spolupráce s psychiatrem, redukce konfrontačních elementů, posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
 
 **Komorbidní substance use disorders**: doporučená sekvence — primární SUD léčba do funkční remise, poté trauma-fokusovaná intervence. Paralelní integrované přístupy (Seeking Safety) jsou alternativou pro pacienty neschopné dosáhnout primární abstinence.
 
@@ -159,6 +159,7 @@ Následuje po [EA-6.2.4 metacognitive therapy](@/kompendium/techniques/ea-6-2-4-
 - Fricker, M. (2007). *Epistemic Injustice*. Oxford University Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Jacobson, N. S., & Truax, P. (1991). Clinical significance: a statistical approach to defining meaningful change in psychotherapy research. *Journal of Consulting and Clinical Psychology*.
+- Terr, L. C. (1991). Childhood traumas: An outline and overview. *American Journal of Psychiatry*, 148(1), 10–20.
 - Wells, A. (2009). *Metacognitive Therapy for Anxiety and Depression*. Guilford Press.
 
 ## Související

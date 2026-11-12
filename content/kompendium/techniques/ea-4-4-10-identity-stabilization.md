@@ -90,13 +90,13 @@ Detekce vyžaduje **diferenciální diagnózu** vůči primárním psychiatrick�
 
 ## Klinické pozadí
 
-Technika **EA-4.4.10** se historicky vyvinula z konvergence několika klinických tradic: psychoanalytické práce s traumatickým přenosem (Ferenczi, Sándor), kognitivně-behaviorální tradice expoziční terapie (Foa, Edna B.), neurobiologického modelu [polyvagální teorie](@/glossary/polyvagalni-teorie.md) (Porges, Stephen W.) a specifického korpusu post-cult psychologické literatury (Singer, Margaret T.; Hassan, Steven). V kontextu kompendia EA představuje biografická a identitní rekonstrukce po totalizující expozici.
+EA-4.4.10 je v kompendiu popsána jako poprotokolová fáze, v níž se sleduje stabilita sebepojetí, ne jeho obsah.
 
 **Klinické zacílení**: narativní a identitní rekonstrukce v post-engagement fázi po totalizující expozici (post-cult trauma, deep cover decompression, reentry trauma). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
 
-**Trauma spektrum kontext**: aplikace techniky vyžaduje explicitní stratifikaci subjektu na škále jednoduchého akutního traumatu (Type I trauma per Terr) versus komplexního opakovaného relačního traumatu (Type II trauma). U Type II profilů s dlouhodobou expozicí v dětství je nutná modifikace standardního protokolu — zkrácení sezení, posílení titrace expozičních prvků, zvýšení frekvence stabilizačních intervalů. Ignorance této stratifikace je dokumentovanou cestou k iatrogennímu zhoršení.
+**Trauma spektrum kontext**: zda šlo o jednu ohraničenou událost, nebo o opakovanou expozici trvající roky, mění, co vlastně má být stabilizováno — u prvního typu zpravidla paměť a výklad jedné epizody, u druhého sebepojetí vybudované uvnitř vztahu. Oba typy traumatizace odlišila Terr (1991), fázovanou povahu zotavení u druhého z nich popisuje Herman (1992). Co z toho plyne v jednotlivém případě, neurčuje tato stránka.
 
-**Klinická tradice ukotvení**: česká psychiatrická a psychologická tradice (Vondráček, Mečíř, Kratochvíl, Höschl, Praško) poskytuje specifický rámec pro adaptaci globálních [evidence-based](@/glossary/evidence-based.md) přístupů na středoevropské sociokulturní specifika — postkomunistická intergenerační traumata, religijně-sektářská specifika regionu, vzorce institucionálního násilí v rámci totalitního dědictví.
+**Klinická tradice ukotvení**: *interpretace knihy* — sebepojetí, jehož stabilita se zde sleduje, má složku danou vztahy a prostředím, a ta se po přesunu do jiného prostředí mění bez ohledu na protokol. Neisser (1988) rozlišuje několik druhů sebepoznání a jedním z nich je jeho interpersonální složka; kompendium z toho čte, že přejaté [evidence-based](@/glossary/evidence-based.md) postupy sledování se zde vztahují k sebepojetí utvářenému místními vztahy, ne k obecnému.
 
 ## Vulnerabilní podpopulace
 
@@ -106,7 +106,7 @@ Aplikace techniky **EA-4.4.10** vyžaduje specifickou modifikaci v následujíc�
 
 **Geriatrická populace (> 65 let)**: kognitivní akomodace (delší pauzy, opakování klíčových konceptů, písemné podpůrné materiály), screening pro early-stage demenci (MoCA), zohlednění kohortně specifické historie (postkomunistická intergenerační traumata), častá komorbidita s chronickými somatickými onemocněními.
 
-**Komorbidní psychotické spektrum**: technika vyžaduje předchozí farmakologickou stabilizaci (atypická antipsychotika), úzká spolupráce s psychiatrem, redukce konfrontačních elementů, posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
+**Komorbidní psychotické spektrum**: technika vyžaduje předchozí psychiatrickou stabilizaci, úzká spolupráce s psychiatrem, redukce konfrontačních elementů, posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
 
 **Komorbidní substance use disorders**: doporučená sekvence — primární léčba závislosti do funkční remise, poté trauma-fokusovaná intervence. Paralelní integrované přístupy (Seeking Safety) jsou alternativou pro pacienty neschopné dosáhnout primární abstinence.
 
@@ -137,6 +137,7 @@ Aplikace techniky **EA-4.4.10** vyžaduje specifickou modifikaci v následujíc�
 - Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
 - McAdams, D. P. (2001). The psychology of life stories. *Review of General Psychology*.
 - Neisser, U. (1988). Five kinds of self-knowledge. *Philosophical Psychology*, 1(1), 35–59.
+- Terr, L. C. (1991). Childhood traumas: An outline and overview. *American Journal of Psychiatry*, 148(1), 10–20.
 
 ## Související
 

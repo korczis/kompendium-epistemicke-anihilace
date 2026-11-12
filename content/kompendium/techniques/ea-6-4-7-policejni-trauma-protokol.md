@@ -94,13 +94,13 @@ Předcházení iatrogenním poškozením je integrální součástí klinické e
 
 ## Klinické pozadí
 
-Technika **EA-6.4.7** se historicky vyvinula z konvergence několika klinických tradic: psychoanalytické práce s traumatickým přenosem (Ferenczi, Sándor), kognitivně-behaviorální tradice expoziční terapie (Foa, Edna B.), neurobiologického modelu [polyvagální teorie](@/glossary/polyvagalni-teorie.md) (Porges, Stephen W.) a specifického korpusu post-cult psychologické literatury (Singer, Margaret T.; Hassan, Steven). V kontextu kompendia EA představuje populačně specifická adaptace EA-intervence.
+Kniha zaznamenává techniku **EA-6.4.7** jako adaptaci pro příslušníky bezpečnostních složek, u nichž expozice patří k výkonu služby. Vlastní literatura oblasti popisuje zvláštní rizikový profil takové opakované zátěže (Figley, 1995); co z toho pro konkrétního člověka vyplývá, posuzuje klinik, nikoli tato stránka.
 
 **Klinické zacílení**: specializované populace s unikátním rizikovým profilem — pediatrická, geriatrická, post-cult, refugee, LGBTQI+, veteráni, oběti DV, policejní, zdravotnictví, novináři, aktivisté. Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
 
-**Trauma spektrum kontext**: aplikace techniky vyžaduje explicitní stratifikaci subjektu na škále jednoduchého akutního traumatu (Type I trauma per Terr) versus komplexního opakovaného relačního traumatu (Type II trauma). U Type II profilů s dlouhodobou expozicí v dětství je nutná modifikace standardního protokolu — zkrácení sezení, posílení titrace expozičních prvků, zvýšení frekvence stabilizačních intervalů. Ignorance této stratifikace je dokumentovanou cestou k iatrogennímu zhoršení.
+**Trauma spektrum kontext**: Terr (1991) odlišila trauma po jediné události od traumatu z opakované expozice. Ve službě je obvyklá druhá podoba: zátěž se sčítá po letech a jednotlivou událost z ní nelze vyjmout jako příčinu. Morální poranění je u této populace popsáno samostatně (Litz a kol., 2009) a jeho klinické vedení zůstává rozhodnutím indikujícího klinika.
 
-**Klinická tradice ukotvení**: česká psychiatrická a psychologická tradice (Vondráček, Mečíř, Kratochvíl, Höschl, Praško) poskytuje specifický rámec pro adaptaci globálních evidence-based přístupů na středoevropské sociokulturní specifika — postkomunistická intergenerační traumata, religijně-sektářská specifika regionu, vzorce institucionálního násilí v rámci totalitního dědictví.
+**Klinická tradice ukotvení**: *interpretace knihy* — zdejší policejní prostředí má vlastní historii vztahu k psychologické péči, v níž její vyhledání dlouho znamenalo riziko pro služební postavení. Kniha proto čte uplatnění evidence-based postupů v tomto prostředí jako otázku důvěrnosti záznamu a nezávislosti posuzujícího, nikoli jen volby metody.
 
 ## Vulnerabilní podpopulace
 
@@ -110,7 +110,7 @@ Aplikace techniky **EA-6.4.7** vyžaduje specifickou modifikaci v následující
 
 **Geriatrická populace (> 65 let)**: kognitivní akomodace (delší pauzy, opakování klíčových konceptů, písemné podpůrné materiály), screening pro early-stage demenci (MoCA), zohlednění kohortně specifické historie (postkomunistická intergenerační traumata), častá komorbidita s chronickými somatickými onemocněními.
 
-**Komorbidní psychotické spektrum**: technika vyžaduje předchozí farmakologickou stabilizaci v péči psychiatra, úzká spolupráce s psychiatrem, redukce konfrontačních elementů, posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
+**Komorbidní psychotické spektrum**: technika vyžaduje předchozí psychiatrickou stabilizaci v péči psychiatra, úzká spolupráce s psychiatrem, redukce konfrontačních elementů, posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
 
 **Komorbidní substance use disorders**: doporučená sekvence — primární SUD léčba do funkční remise, poté trauma-fokusovaná intervence. Paralelní integrované přístupy (Seeking Safety) jsou alternativou pro pacienty neschopné dosáhnout primární abstinence.
 
@@ -156,6 +156,7 @@ Adaptace [EA-6.2.1 TF-CBT](@/kompendium/techniques/ea-6-2-1-trauma-focused-cbt-p
 - Jacobson, N. S., & Truax, P. (1991). Clinical significance: a statistical approach to defining meaningful change in psychotherapy research. *Journal of Consulting and Clinical Psychology*.
 - Litz, B. T. et al. (2009). Moral injury and moral repair in war veterans. *Clinical Psychology Review*.
 - National Institute for Health and Care Excellence (2018). *Post-traumatic stress disorder* (NICE guideline NG116).
+- Terr, L. C. (1991). Childhood traumas: An outline and overview. *American Journal of Psychiatry*, 148(1), 10–20.
 
 ## Související
 

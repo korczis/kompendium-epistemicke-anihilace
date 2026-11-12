@@ -94,13 +94,13 @@ Předcházení iatrogenním poškozením je integrální součástí klinické e
 
 ## Klinické pozadí
 
-Technika **EA-6.1.10** se historicky vyvinula z konvergence několika klinických tradic: psychoanalytické práce s traumatickým přenosem (Ferenczi, Sándor), kognitivně-behaviorální tradice expoziční terapie (Foa, Edna B.), neurobiologického modelu [polyvagální teorie](@/glossary/polyvagalni-teorie.md) (Porges, Stephen W.) a specifického korpusu post-cult psychologické literatury (Singer, Margaret T.; Hassan, Steven). V kontextu kompendia EA představuje diagnostická detekce EA-trauma s diferenciací proti primárním afektivním a úzkostným poruchám.
+EA-6.1.10 v kompendiu hodnotí kapacitu epistemické důvěry, nikoli pravdivost toho, co klient tvrdí.
 
 **Klinické zacílení**: klinický assessment epistemicko-afektivního traumatu po manipulativní expozici (kult, abusivní vztah, koercivní pracoviště, post-divorce DARVO dynamics). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
 
-**Trauma spektrum kontext**: aplikace techniky vyžaduje explicitní stratifikaci subjektu na škále jednoduchého akutního traumatu (Type I trauma per Terr) versus komplexního opakovaného relačního traumatu (Type II trauma). U Type II profilů s dlouhodobou expozicí v dětství je nutná modifikace standardního protokolu — zkrácení sezení, posílení titrace expozičních prvků, zvýšení frekvence stabilizačních intervalů. Ignorance této stratifikace je dokumentovanou cestou k iatrogennímu zhoršení.
+**Trauma spektrum kontext**: u jednorázové ohraničené události bývá epistemická důvěra zasažena vůči jedné situaci, u opakované relační expozice vůči samotnému poměru sdělování — tedy vůči tomu, komu a za jakých okolností lze věřit. Typologii obou podob zavedla Terr (1991); že zrada blízkou osobou mění samo zacházení s vědomím o ní, popisuje Freyd (1996). Assessment proto zjišťuje, který z obou profilů má před sebou, dřív než svůj výsledek jakkoli vyloží.
 
-**Klinická tradice ukotvení**: česká psychiatrická a psychologická tradice (Vondráček, Mečíř, Kratochvíl, Höschl, Praško) poskytuje specifický rámec pro adaptaci globálních [evidence-based](@/glossary/evidence-based.md) přístupů na středoevropské sociokulturní specifika — postkomunistická intergenerační traumata, religijně-sektářská specifika regionu, vzorce institucionálního násilí v rámci totalitního dědictví.
+**Klinická tradice ukotvení**: *interpretace knihy* — komu se v dané zemi věří a kdo musí svou důvěryhodnost dokazovat, není dáno nástrojem, ale poměry, v nichž se nástroj používá. Fricker (2007) popisuje nerovné rozdělení epistemické důvěryhodnosti jako věc sociální struktury; kompendium z toho vyvozuje, že nízký výsledek přejatého [evidence-based](@/glossary/evidence-based.md) nástroje může odrážet prostředí, které klientovu svědectví nevěřilo, a nikoli jen jeho poškození.
 
 ## Vulnerabilní podpopulace
 
@@ -168,6 +168,7 @@ Validizuje [EA-6.1.9 metakognitivní assessment](@/kompendium/techniques/ea-6-1-
 - Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Lilienfeld, S. O. (2007). Psychological treatments that cause harm. *Perspectives on Psychological Science*.
 - Sperber, D., Clément, F., Heintz, C., Mascaro, O., Mercier, H., Origgi, G., & Wilson, D. (2010). Epistemic vigilance. *Mind & Language*.
+- Terr, L. C. (1991). Childhood traumas: An outline and overview. *American Journal of Psychiatry*, 148(1), 10–20.
 
 ## Související
 

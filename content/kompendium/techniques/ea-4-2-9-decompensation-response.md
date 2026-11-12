@@ -90,13 +90,13 @@ Detekce vyžaduje **diferenciální diagnózu** vůči primárním psychiatrick�
 
 ## Klinické pozadí
 
-Technika **EA-4.2.9** se historicky vyvinula z konvergence několika klinických tradic: psychoanalytické práce s traumatickým přenosem (Ferenczi, Sándor), kognitivně-behaviorální tradice expoziční terapie (Foa, Edna B.), neurobiologického modelu [polyvagální teorie](@/glossary/polyvagalni-teorie.md) (Porges, Stephen W.) a specifického korpusu post-cult psychologické literatury (Singer, Margaret T.; Hassan, Steven). V kontextu kompendia EA představuje etická governance vysokorizikové výzkumné nebo intervenční expozice.
+Klinický kontext této stránky netvoří dějiny jednotlivých škol, nýbrž otázka, kdo krizi zachytí a čím je k tomu zavázán. Herman (1992) ukazuje, že prostředí, v němž dekompenzace vznikla, bývá posledním místem, kde je rozpoznána; Belmontova zpráva proto váže přípustnost rizikové expozice na nezávislý přezkum, odvolatelný souhlas a doložitelnou odpovědnost za následky. Tato stránka popisuje rozpoznatelný vzorec krize, nikoli její vyvolání nebo vedení.
 
 **Klinické zacílení**: etické rámce pre/inter/post-engagement supervize ve studiích s extrémní expozicí (forenzní psychiatry, vojenský výzkum, kult-deconstruction protokoly). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
 
-**Trauma spektrum kontext**: aplikace techniky vyžaduje explicitní stratifikaci subjektu na škále jednoduchého akutního traumatu (Type I trauma per Terr) versus komplexního opakovaného relačního traumatu (Type II trauma). U Type II profilů s dlouhodobou expozicí v dětství je nutná modifikace standardního protokolu — zkrácení sezení, posílení titrace expozičních prvků, zvýšení frekvence stabilizačních intervalů. Ignorance této stratifikace je dokumentovanou cestou k iatrogennímu zhoršení.
+**Trauma spektrum kontext**: o tom, jak dlouho expozice trvala a kolikrát se opakovala, tato stránka nerozhoduje; jde o anamnestický údaj, který patří do záznamu konkrétního případu a do supervize, ne do popisu vzorce. Pro rozpoznání krize je podstatné jen to, že akutní zhroucení samo o sobě o délce předchozí expozice nevypovídá — Singer a Lalich (1995) popisují případy, kdy se stav zlomí teprve po odchodu z prostředí, tedy s odstupem, který svádí k výkladu krize jako nesouvisející epizody.
 
-**Klinická tradice ukotvení**: česká psychiatrická a psychologická tradice (Vondráček, Mečíř, Kratochvíl, Höschl, Praško) poskytuje specifický rámec pro adaptaci globálních [evidence-based](@/glossary/evidence-based.md) přístupů na středoevropské sociokulturní specifika — postkomunistická intergenerační traumata, religijně-sektářská specifika regionu, vzorce institucionálního násilí v rámci totalitního dědictví.
+**Klinická tradice ukotvení**: *interpretace knihy* — výklad krize jako slabosti není jen věcí jednoho prostředí, ale i zavedeného způsobu, jak se o zhroucení mluví; v českém kontextu k němu patří ostrá hranice mezi psychiatrickou péčí a vším ostatním. Dokud tato hranice drží, zůstane [evidence-based](@/glossary/evidence-based.md) eskalační rámec na papíře, protože přechod přes ni je pro dotčeného člověka nákladný. Kniha to vede jako vlastní čtení, nikoli jako zjištění.
 
 ## Vulnerabilní podpopulace
 
@@ -106,7 +106,7 @@ Aplikace techniky **EA-4.2.9** vyžaduje specifickou modifikaci v následující
 
 **Geriatrická populace (> 65 let)**: kognitivní akomodace (delší pauzy, opakování klíčových konceptů, písemné podpůrné materiály), screening pro early-stage demenci (MoCA), zohlednění kohortně specifické historie (postkomunistická intergenerační traumata), častá komorbidita s chronickými somatickými onemocněními.
 
-**Komorbidní psychotické spektrum**: technika vyžaduje předchozí farmakologickou stabilizaci (atypická antipsychotika), úzká spolupráce s psychiatrem, redukce konfrontačních elementů, posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
+**Komorbidní psychotické spektrum**: technika vyžaduje předchozí psychiatrickou stabilizaci, úzká spolupráce s psychiatrem, redukce konfrontačních elementů, posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
 
 **Komorbidní substance use disorders**: doporučená sekvence — primární léčba závislosti do funkční remise, poté trauma-fokusovaná intervence. Paralelní integrované přístupy (Seeking Safety) jsou alternativou pro pacienty neschopné dosáhnout primární abstinence.
 

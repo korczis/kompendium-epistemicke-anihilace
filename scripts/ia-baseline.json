@@ -850,5127 +850,5127 @@
   "weak-link"
  ],
  "content/about.md": [
-  "related",
+  "citations:5",
   "detail",
   "weak-link",
-  "citations"
+  "related"
  ],
  "content/galerie.md": [
-  "related",
+  "citations:4",
   "detail",
   "weak-link",
-  "citations"
+  "related"
  ],
  "content/glossary/_index.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:18",
+  "bullets:16"
  ],
  "content/glossary/agent.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:15"
  ],
  "content/glossary/akademicka-technika.md": [
+  "citations:9",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:10"
  ],
  "content/glossary/akutni-naruseni.md": [
+  "citations:10",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:10"
  ],
  "content/glossary/anihilacni-fenomeny.md": [
+  "citations:6",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:20"
  ],
  "content/glossary/apofaticky-modus.md": [
+  "citations:10",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:19"
  ],
  "content/glossary/apofatika.md": [
+  "citations:11",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:13"
  ],
  "content/glossary/apriori.md": [
+  "citations:9",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:13"
  ],
  "content/glossary/aristotelovy-kategorie.md": [
+  "citations:9",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:24"
  ],
  "content/glossary/asymptoticky-kolaps.md": [
+  "citations:9",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:19"
  ],
  "content/glossary/banalita-zla.md": [
+  "citations:9",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:8"
  ],
  "content/glossary/blame-shifting.md": [
+  "citations:10",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:24"
  ],
  "content/glossary/blue-team.md": [
-  "bullets",
-  "citations"
+  "citations:20",
+  "bullets:26"
  ],
  "content/glossary/category-mistake.md": [
+  "citations:9",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:15"
  ],
  "content/glossary/charisma.md": [
+  "citations:6",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:22"
  ],
  "content/glossary/child-grooming.md": [
+  "citations:6",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:26"
  ],
  "content/glossary/cirkularni-argumentace.md": [
+  "citations:11",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:17"
  ],
  "content/glossary/communicative-rationality.md": [
+  "citations:7",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:16"
  ],
  "content/glossary/complex-trauma.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:8",
+  "bullets:17"
  ],
  "content/glossary/cynicky-rozum.md": [
+  "citations:9",
   "detail",
+  "bullets:9",
   "weak-link",
-  "bullets",
-  "citations",
   "bold-term"
  ],
  "content/glossary/demarkacni-problem.md": [
+  "citations:10",
   "detail",
+  "bullets:9",
   "weak-link",
-  "bullets",
-  "citations",
   "bold-term"
  ],
  "content/glossary/deplatforming.md": [
+  "citations:8",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:10"
  ],
  "content/glossary/des-ii.md": [
+  "citations:8",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:9"
  ],
  "content/glossary/differance.md": [
+  "citations:5",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:17"
  ],
  "content/glossary/ding-an-sich.md": [
+  "citations:9",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:12"
  ],
  "content/glossary/discard.md": [
+  "citations:8",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:18"
  ],
  "content/glossary/diskursivni-formace.md": [
+  "citations:9",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:9"
  ],
  "content/glossary/dissociativni-amnezie.md": [
+  "citations:7",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:20"
  ],
  "content/glossary/doubling.md": [
+  "citations:11",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:9"
  ],
  "content/glossary/due-diligence.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:16"
  ],
  "content/glossary/ecri.md": [
+  "citations:6",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:11"
  ],
  "content/glossary/emocionalni-terorismus.md": [
+  "citations:6",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:25"
  ],
  "content/glossary/entity-resolution.md": [
-  "citations"
+  "citations:7"
  ],
  "content/glossary/epistemicka-agentnost.md": [
+  "citations:9",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:18"
  ],
  "content/glossary/epistemicka-bezdomovost.md": [
+  "citations:8",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:19"
  ],
  "content/glossary/epistemicka-komunita.md": [
+  "citations:8",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:18"
  ],
  "content/glossary/epistemicka-regrese.md": [
+  "citations:7",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:20"
  ],
  "content/glossary/epistemicka-reintegrace.md": [
+  "citations:8",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:18"
  ],
  "content/glossary/epistemicka-slepota.md": [
+  "citations:6",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:18"
  ],
  "content/glossary/epistemicka-staze.md": [
+  "citations:7",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:18"
  ],
  "content/glossary/epistemicke-zakladny.md": [
+  "citations:7",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:23"
  ],
  "content/glossary/epistemicky-monismus.md": [
+  "citations:8",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:17"
  ],
  "content/glossary/expert-witness.md": [
+  "citations:10",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:12"
  ],
  "content/glossary/falsifikabilita.md": [
+  "citations:11",
   "detail",
+  "bullets:17",
   "weak-link",
-  "bullets",
-  "citations",
   "bold-term"
  ],
  "content/glossary/fenomen.md": [
+  "citations:8",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:14"
  ],
  "content/glossary/forensic-interview.md": [
+  "citations:10",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:13"
  ],
  "content/glossary/four-noble-truths.md": [
+  "citations:7",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:11"
  ],
  "content/glossary/fuze-horizontu.md": [
+  "citations:10",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:8"
  ],
  "content/glossary/gestalt-shift.md": [
+  "citations:9",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:18"
  ],
  "content/glossary/godeluv-teorem.md": [
+  "citations:9",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:17"
  ],
  "content/glossary/graph-theory.md": [
-  "bullets",
-  "citations"
+  "citations:23",
+  "bullets:9"
  ],
  "content/glossary/habitus.md": [
+  "citations:11",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:8"
  ],
  "content/glossary/heat-death.md": [
+  "citations:9",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:13"
  ],
  "content/glossary/hermeneuticka-eroze.md": [
+  "citations:6",
   "detail",
+  "bullets:17",
   "weak-link",
-  "bullets",
-  "citations",
   "bold-term"
  ],
  "content/glossary/hermeneuticka-marginalizace.md": [
+  "citations:10",
   "detail",
+  "bullets:9",
   "weak-link",
-  "bullets",
-  "citations",
   "bold-term"
  ],
  "content/glossary/hermeneuticky-kruh.md": [
+  "citations:5",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:22"
  ],
  "content/glossary/hermeneuticky-outsourcing.md": [
+  "citations:7",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:18"
  ],
  "content/glossary/heuristika.md": [
+  "citations:9",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:12"
  ],
  "content/glossary/hodnotova-destrukce.md": [
+  "citations:5",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:24"
  ],
  "content/glossary/holismus.md": [
+  "citations:9",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:15"
  ],
  "content/glossary/hranicni-koncept.md": [
+  "citations:8",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:17"
  ],
  "content/glossary/husserl-retence.md": [
+  "citations:10",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:17"
  ],
  "content/glossary/hyperreality.md": [
+  "citations:5",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:17"
  ],
  "content/glossary/ideal-speech-situation.md": [
+  "citations:6",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:11"
  ],
  "content/glossary/identity-destruction.md": [
+  "citations:7",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:15"
  ],
  "content/glossary/ies-r.md": [
+  "citations:6",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:9"
  ],
  "content/glossary/inference.md": [
-  "bullets",
-  "citations"
+  "citations:8",
+  "bullets:9"
  ],
  "content/glossary/infinitni-regress.md": [
+  "citations:9",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:13"
  ],
  "content/glossary/instrumental-reason.md": [
+  "citations:8",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:13"
  ],
  "content/glossary/integrative-collapse.md": [
+  "citations:5",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:17"
  ],
  "content/glossary/intelligence-fusion.md": [
-  "bullets",
-  "citations"
+  "citations:10",
+  "bullets:10"
  ],
  "content/glossary/introjekce.md": [
+  "citations:8",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:13"
  ],
  "content/glossary/ipseita.md": [
+  "citations:6",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:13"
  ],
  "content/glossary/jazykova-hra.md": [
+  "citations:10",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:9"
  ],
  "content/glossary/kantovy-kategorie.md": [
+  "citations:7",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:12"
  ],
  "content/glossary/kataphasis.md": [
+  "citations:7",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:16"
  ],
  "content/glossary/kognitivni-bias.md": [
+  "citations:6",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:7"
  ],
  "content/glossary/kognitivni-stagnace.md": [
+  "citations:6",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:20"
  ],
  "content/glossary/kognitivni-zplosteni.md": [
+  "citations:4",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:24"
  ],
  "content/glossary/konceptualni-anihilace.md": [
+  "citations:6",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:18"
  ],
  "content/glossary/konfabulace.md": [
+  "citations:7",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:12"
  ],
  "content/glossary/konsenzualni-realita.md": [
+  "citations:8",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:15"
  ],
  "content/glossary/konstitutivni-akt.md": [
+  "citations:6",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:17"
  ],
  "content/glossary/kuhnova-revoluce.md": [
+  "citations:7",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:17"
  ],
  "content/glossary/kult-osobnosti.md": [
+  "citations:7",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:16"
  ],
  "content/glossary/liaruv-paradox.md": [
+  "citations:6",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:14"
  ],
  "content/glossary/logic-prolog.md": [
+  "citations:6",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:14"
  ],
  "content/glossary/logicka-koherence.md": [
+  "citations:8",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:16"
  ],
  "content/glossary/lti-lingua-tertii-imperii.md": [
+  "citations:7",
   "detail",
+  "bullets:11",
   "weak-link",
-  "bullets",
-  "citations",
   "bold-term"
  ],
  "content/glossary/mereologicka-rekonstrukce.md": [
+  "citations:9",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:11"
  ],
  "content/glossary/meta-epistemologie.md": [
+  "citations:8",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:15"
  ],
  "content/glossary/metakognitivni-deficit.md": [
+  "citations:6",
   "detail",
+  "bullets:15",
   "weak-link",
-  "bullets",
-  "citations",
   "bold-term"
  ],
  "content/glossary/metanarrative-collapse.md": [
+  "citations:8",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:12"
  ],
  "content/glossary/modalni-logika.md": [
+  "citations:7",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:15"
  ],
  "content/glossary/mysticky-prozitek.md": [
+  "citation-unresolved",
+  "citations:6",
   "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "citation-unresolved"
+  "bullets:23",
+  "weak-link"
  ],
  "content/glossary/narativni-topologie.md": [
+  "citations:8",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:17"
  ],
  "content/glossary/narrative-trauma.md": [
+  "citations:8",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:19"
  ],
  "content/glossary/normalni-veda.md": [
+  "citations:8",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:9"
  ],
  "content/glossary/noumenum.md": [
+  "citations:6",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:16"
  ],
  "content/glossary/operativni-artikulace.md": [
+  "citations:6",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:23"
  ],
  "content/glossary/osint.md": [
-  "bullets",
-  "citations"
+  "citations:19",
+  "bullets:2"
  ],
  "content/glossary/paradigm-shift.md": [
-  "bullets",
-  "citations"
+  "citations:33",
+  "bullets:2"
  ],
  "content/glossary/paradigmaticka-bezdomovina.md": [
+  "citations:6",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:18"
  ],
  "content/glossary/parental-alienation.md": [
+  "citations:8",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:15"
  ],
  "content/glossary/pattern-evidence.md": [
+  "citations:9",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:13"
  ],
  "content/glossary/perfekcionismus.md": [
+  "citations:7",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:18"
  ],
  "content/glossary/performativni-akt.md": [
+  "citations:9",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:12"
  ],
  "content/glossary/pluralismus.md": [
+  "citations:6",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:18"
  ],
  "content/glossary/popperianismus.md": [
+  "citations:7",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:17"
  ],
  "content/glossary/power-knowledge.md": [
+  "citations:6",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:18"
  ],
  "content/glossary/pragmaticka-kompetence.md": [
+  "citation-unresolved",
+  "citations:5",
   "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "citation-unresolved"
+  "bullets:15",
+  "weak-link"
  ],
  "content/glossary/predictive-processing.md": [
+  "citations:5",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:15"
  ],
  "content/glossary/predreflexivni-vedomi.md": [
+  "citations:8",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:14"
  ],
  "content/glossary/privatni-jazyk.md": [
+  "citations:6",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:14"
  ],
  "content/glossary/pseudoempaticka-vazba.md": [
+  "citations:6",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:20"
  ],
  "content/glossary/ptsd.md": [
+  "citations:9",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:10"
  ],
  "content/glossary/purple-team.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:10"
  ],
  "content/glossary/pyrrhonismus.md": [
+  "citations:7",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:14"
  ],
  "content/glossary/red-team.md": [
-  "bullets",
-  "citations"
+  "citations:20",
+  "bullets:16"
  ],
  "content/glossary/risk-score.md": [
-  "bullets",
-  "citations"
+  "citations:16",
+  "bullets:24"
  ],
  "content/glossary/russell-paradox.md": [
+  "citation-unresolved",
+  "citations:5",
   "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "citation-unresolved"
+  "bullets:13",
+  "weak-link"
  ],
  "content/glossary/sanctions-screening.md": [
-  "bullets",
-  "citations"
+  "citations:9",
+  "bullets:14"
  ],
  "content/glossary/scam-compliance.md": [
+  "citations:4",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:22"
  ],
  "content/glossary/secure-attachment.md": [
+  "citations:8",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:15"
  ],
  "content/glossary/self-reference.md": [
+  "citations:5",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:14"
  ],
  "content/glossary/semanticka-afazie.md": [
+  "citation-unresolved",
+  "citations:6",
   "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "citation-unresolved"
+  "bullets:15",
+  "weak-link"
  ],
  "content/glossary/simulacra.md": [
+  "citations:5",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:22"
  ],
  "content/glossary/solipsismus.md": [
+  "citations:7",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:18"
  ],
  "content/glossary/strukturalni-trauma.md": [
+  "citations:7",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:23"
  ],
  "content/glossary/synteticke-analyticke.md": [
+  "citations:7",
   "detail",
+  "bullets:13",
   "weak-link",
-  "bullets",
-  "citations",
   "bold-term"
  ],
  "content/glossary/system-1-system-2.md": [
+  "citations:9",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:8"
  ],
  "content/glossary/tautologie.md": [
+  "citations:6",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:17"
  ],
  "content/glossary/toulmin-model.md": [
+  "citations:6",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:22"
  ],
  "content/glossary/traumatic-bonding.md": [
+  "citations:7",
   "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography"
+  "bibliography",
+  "bullets:20",
+  "weak-link"
  ],
  "content/glossary/verejna-sfera.md": [
+  "citations:9",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:9"
  ],
  "content/glossary/via-negativa.md": [
+  "citations:7",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:16"
  ],
  "content/glossary/vnitrni-casovost.md": [
+  "citations:6",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:21"
  ],
  "content/glossary/weaponized-incompetence.md": [
+  "citations:8",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:14"
  ],
  "content/glossary/zenon-paradox.md": [
+  "citations:8",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:18"
  ],
  "content/kompendium/01-predmluva/_index.md": [
-  "citations"
+  "citations:4"
  ],
  "content/kompendium/01-predmluva/eticke-aspekty.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:8",
+  "bullets:50"
  ],
  "content/kompendium/01-predmluva/jak-pouzivat.md": [
-  "bullets",
-  "citations"
+  "citations:20",
+  "bullets:139"
  ],
  "content/kompendium/01-predmluva/pro-koho-je-urceno.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:46"
  ],
  "content/kompendium/01-predmluva/vztah-k-platforme.md": [
-  "citations"
+  "citations:12"
  ],
  "content/kompendium/01-zaklady-manipulace/_index.md": [
+  "citations:5",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:10"
  ],
  "content/kompendium/02-doktrinalni-ramec/_index.md": [
-  "bullets",
-  "citations"
+  "citations:9",
+  "bullets:5"
  ],
  "content/kompendium/02-uvod/_index.md": [
-  "citations"
+  "citations:4"
  ],
  "content/kompendium/02-uvod/definice.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:27",
+  "bullets:29"
  ],
  "content/kompendium/02-uvod/filosoficky-ramec.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:19",
+  "bullets:31"
  ],
  "content/kompendium/02-uvod/historicky-kontext.md": [
-  "bullets",
-  "citations"
+  "citations:39",
+  "bullets:70"
  ],
  "content/kompendium/02-uvod/metodologicke-poznamky.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:28",
+  "bullets:142"
  ],
  "content/kompendium/02-uvod/teoreticke-zaklady.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:41",
+  "bullets:130"
  ],
  "content/kompendium/03-manipulacni-vzorce/_index.md": [
+  "citations:1",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:16"
  ],
  "content/kompendium/03-zakladni-kategorie/_index.md": [
-  "citations"
+  "citations:5"
  ],
  "content/kompendium/03-zakladni-kategorie/biasy/_index.md": [
-  "citations"
+  "citations:3"
  ],
  "content/kompendium/03-zakladni-kategorie/kapitola-1.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:44",
+  "bullets:75"
  ],
  "content/kompendium/03-zakladni-kategorie/kapitola-2.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:70",
+  "bullets:167"
  ],
  "content/kompendium/03-zakladni-kategorie/kapitola-3.md": [
-  "bullets",
-  "citations"
+  "citations:51",
+  "bullets:158"
  ],
  "content/kompendium/03-zakladni-kategorie/scenar-f.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:97"
  ],
  "content/kompendium/03-zakladni-kategorie/scenar-g.md": [
-  "bullets",
-  "citations"
+  "citations:17",
+  "bullets:91"
  ],
  "content/kompendium/03-zakladni-kategorie/scenar-h.md": [
-  "bullets",
-  "citations"
+  "citations:18",
+  "bullets:100"
  ],
  "content/kompendium/03-zakladni-kategorie/scenar-k/_index.md": [
-  "bullets",
-  "citations"
+  "citations:8",
+  "bullets:11"
  ],
  "content/kompendium/03-zakladni-kategorie/scenar-l/_index.md": [
-  "bullets",
-  "citations"
+  "citations:8",
+  "bullets:12"
  ],
  "content/kompendium/03-zakladni-kategorie/visualizations.md": [
-  "citations"
+  "citations:9"
  ],
  "content/kompendium/04-klinika/_index.md": [
-  "bullets",
-  "citations"
+  "citations:7",
+  "bullets:13"
  ],
  "content/kompendium/04-operacni-principy/_index.md": [
-  "bullets",
-  "citations",
+  "citation-unresolved",
   "bibliography",
-  "citation-unresolved"
+  "citations:6",
+  "bullets:7"
  ],
  "content/kompendium/04-pokrocile-fenomeny/_index.md": [
-  "bullets",
-  "citations"
+  "citations:3",
+  "bullets:15"
  ],
  "content/kompendium/04-terminalni-protokoly/_index.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:38"
  ],
  "content/kompendium/04-terminalni-protokoly/identitni-dekonstrukce.md": [
-  "bullets",
-  "citations"
+  "citations:17",
+  "bullets:25"
  ],
  "content/kompendium/04-terminalni-protokoly/institucionalni-anihilace.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:33"
  ],
  "content/kompendium/04-terminalni-protokoly/intra-simulacni-monitoring.md": [
-  "bullets",
-  "citations"
+  "citations:7",
+  "bullets:79"
  ],
  "content/kompendium/04-terminalni-protokoly/kapitola-4.md": [
-  "bullets",
-  "citations"
+  "citations:38",
+  "bullets:41"
  ],
  "content/kompendium/04-terminalni-protokoly/kapitola-5.md": [
-  "bullets",
-  "citations"
+  "citations:10",
+  "bullets:151"
  ],
  "content/kompendium/04-terminalni-protokoly/konceptualni-dekonstrukce.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:24"
  ],
  "content/kompendium/04-terminalni-protokoly/kontrolovana-rekonstituce.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:37"
  ],
  "content/kompendium/04-terminalni-protokoly/pred-simulacni-screening.md": [
-  "bullets",
-  "citations"
+  "citations:7",
+  "bullets:59"
  ],
  "content/kompendium/04-terminalni-protokoly/ultimatni-scenar.md": [
-  "bullets",
-  "citations"
+  "citations:21",
+  "bullets:18"
  ],
  "content/kompendium/04-terminalni-protokoly/visualizations.md": [
-  "citations"
+  "citations:8"
  ],
  "content/kompendium/05-diagnostika/_index.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:8"
  ],
  "content/kompendium/05-kolektivni-rozmer/_index.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:5"
  ],
  "content/kompendium/05-pokrocile-operace/kapitola-6/_index.md": [
-  "bullets",
-  "citations",
+  "citation-unresolved",
   "bibliography",
-  "citation-unresolved"
+  "citations:7",
+  "bullets:11"
  ],
  "content/kompendium/05-pokrocile-techniky/kapitola-6/_index.md": [
-  "bullets",
-  "citations"
+  "citations:10",
+  "bullets:5"
  ],
  "content/kompendium/05-pre-konceptualni-rozklad/_index.md": [
-  "bullets",
-  "citations"
+  "citations:7",
+  "bullets:8"
  ],
  "content/kompendium/05-pre-konceptualni-rozklad/ea-5-5-konvergentni/_index.md": [
-  "bullets",
-  "citations",
+  "citation-unresolved",
   "bibliography",
-  "citation-unresolved"
+  "citations:8",
+  "bullets:8"
  ],
  "content/kompendium/05-ultramari-techniky/_index.md": [
-  "bullets",
-  "citations"
+  "citations:16",
+  "bullets:22"
  ],
  "content/kompendium/05-ultramari-techniky/kapitola-10.md": [
-  "bullets",
-  "citations"
+  "citations:8",
+  "bullets:12"
  ],
  "content/kompendium/05-ultramari-techniky/kapitola-6.md": [
-  "bullets",
-  "citations"
+  "citations:23",
+  "bullets:16"
  ],
  "content/kompendium/05-ultramari-techniky/kapitola-7.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:16"
  ],
  "content/kompendium/05-ultramari-techniky/kapitola-8.md": [
-  "bullets",
-  "citations"
+  "citations:7",
+  "bullets:13"
  ],
  "content/kompendium/05-ultramari-techniky/kapitola-9.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:11"
  ],
  "content/kompendium/06-epistemicka-singularita/_index.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:10",
+  "bullets:7"
  ],
  "content/kompendium/06-klinicke-aplikace/_index.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:18"
  ],
  "content/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:9"
  ],
  "content/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:23"
  ],
  "content/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:5",
+  "bullets:33"
  ],
  "content/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:116"
  ],
  "content/kompendium/06-klinicke-aplikace/kolektivni-intervence.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:80"
  ],
  "content/kompendium/06-klinicke-aplikace/preventivni-strategie.md": [
-  "bullets",
-  "citations"
+  "citations:10",
+  "bullets:65"
  ],
  "content/kompendium/06-klinicke-aplikace/pripad-akademie.md": [
-  "bullets",
-  "citations"
+  "citations:17",
+  "bullets:26"
  ],
  "content/kompendium/06-klinicke-aplikace/pripad-doktorat.md": [
-  "bullets",
-  "citations"
+  "citations:23",
+  "bullets:24"
  ],
  "content/kompendium/06-klinicke-aplikace/supervizni-ramce.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:19",
+  "bullets:26"
  ],
  "content/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md": [
-  "bullets",
-  "citations"
+  "citations:10",
+  "bullets:58"
  ],
  "content/kompendium/06-klinicke-aplikace/visualizations.md": [
-  "bullets",
-  "citations"
+  "citations:8",
+  "bullets:5"
  ],
  "content/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:100"
  ],
  "content/kompendium/06-obrana/_index.md": [
-  "bullets",
-  "citations"
+  "citations:9",
+  "bullets:5"
  ],
  "content/kompendium/07-populacni/_index.md": [
-  "citations"
+  "citations:4"
  ],
  "content/kompendium/07-teoreticke-reflexe/_index.md": [
-  "bullets",
-  "citations"
+  "citations:8",
+  "bullets:12"
  ],
  "content/kompendium/07-teoreticke-reflexe/boyd-disinformation-age.md": [
-  "citations"
+  "citations:5"
  ],
  "content/kompendium/07-teoreticke-reflexe/computational-epistemology.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:15"
  ],
  "content/kompendium/07-teoreticke-reflexe/digitalni-vek.md": [
-  "bullets",
-  "citations"
+  "citations:20",
+  "bullets:31"
  ],
  "content/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md": [
-  "bullets",
-  "citations",
-  "bibliography",
   "citation-unresolved",
+  "citations:14",
+  "bibliography",
+  "bullets:57",
   "bold-term"
  ],
  "content/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:15",
+  "bullets:47"
  ],
  "content/kompendium/07-teoreticke-reflexe/filozoficke-tradice/_index.md": [
-  "citations",
+  "citation-unresolved",
   "bibliography",
-  "citation-unresolved"
+  "citations:13"
  ],
  "content/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:31"
  ],
  "content/kompendium/07-teoreticke-reflexe/otevrene-otazky.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:62"
  ],
  "content/kompendium/07-teoreticke-reflexe/politicka-ea.md": [
-  "bullets",
-  "citations",
+  "citation-unresolved",
   "bibliography",
-  "citation-unresolved"
+  "citations:16",
+  "bullets:33"
  ],
  "content/kompendium/07-teoreticke-reflexe/postmodernismus.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:19",
+  "bullets:50"
  ],
  "content/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:18",
+  "bullets:32"
  ],
  "content/kompendium/07-teoreticke-reflexe/visualizations.md": [
-  "citations"
+  "citations:8"
  ],
  "content/kompendium/08-prilohy/_index.md": [
+  "citations:2",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:13"
  ],
  "content/kompendium/08-prilohy/bibliografie.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:69"
  ],
  "content/kompendium/08-prilohy/diagnosticke-nastroje.md": [
-  "bullets",
-  "citations",
-  "bibliography",
   "citation-unresolved",
+  "citations:6",
+  "bibliography",
+  "bullets:22",
   "bold-term"
  ],
  "content/kompendium/08-prilohy/eticky-kodex.md": [
-  "bullets"
+  "bullets:52"
  ],
  "content/kompendium/08-prilohy/index-pojmu.md": [
-  "bullets",
-  "citations"
+  "citations:1",
+  "bullets:18"
  ],
  "content/kompendium/08-prilohy/klasifikace.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:25"
  ],
  "content/kompendium/08-prilohy/rejstrik-technik.md": [
-  "bullets",
-  "citations"
+  "citations:3",
+  "bullets:7"
  ],
  "content/kompendium/08-prilohy/zkratky.md": [
-  "bullets",
-  "citations"
+  "citations:2",
+  "bullets:17"
  ],
  "content/kompendium/_index.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:2",
+  "bullets:38"
  ],
  "content/kompendium/case-studies/79-discord-server-cult.md": [
-  "citations"
+  "citations:2"
  ],
  "content/kompendium/case-studies/_index.md": [
+  "citations:2",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:21"
  ],
  "content/kompendium/critical-perspectives/_index.md": [
-  "bullets",
-  "citations"
+  "citations:2",
+  "bullets:36"
  ],
  "content/kompendium/cross-domain/1-ea-osint-source-credibility.md": [
-  "citations"
+  "citations:10"
  ],
  "content/kompendium/cross-domain/10-ea-dd-source-weighting.md": [
-  "citations"
+  "citations:8"
  ],
  "content/kompendium/cross-domain/11-ea-dd-decision-engine-calibration.md": [
-  "citations"
+  "citations:9"
  ],
  "content/kompendium/cross-domain/12-ea-dd-counterparty-manipulation.md": [
-  "citations"
+  "citations:10"
  ],
  "content/kompendium/cross-domain/13-ea-dd-beneficial-ownership-disinformation.md": [
-  "citations"
+  "citations:11"
  ],
  "content/kompendium/cross-domain/14-ea-dd-narrative-warfare.md": [
-  "citations"
+  "citations:11"
  ],
  "content/kompendium/cross-domain/15-ea-dd-evidence-quality-assessment.md": [
-  "citations"
+  "citations:12"
  ],
  "content/kompendium/cross-domain/16-ea-dd-confirmation-bias-prevention.md": [
-  "citations",
+  "citations:9",
   "bold-term"
  ],
  "content/kompendium/cross-domain/17-ea-security-social-engineering.md": [
-  "citations"
+  "citations:12"
  ],
  "content/kompendium/cross-domain/18-ea-security-spear-phishing.md": [
-  "citations"
+  "citations:12"
  ],
  "content/kompendium/cross-domain/19-ea-security-disinformation-defense.md": [
-  "citations"
+  "citations:11"
  ],
  "content/kompendium/cross-domain/2-ea-osint-czech-ares-validation.md": [
-  "citations"
+  "citations:8"
  ],
  "content/kompendium/cross-domain/20-ea-security-insider-threat.md": [
-  "citations"
+  "citations:12"
  ],
  "content/kompendium/cross-domain/21-ea-security-supply-chain-narrative.md": [
-  "citations"
+  "citations:15"
  ],
  "content/kompendium/cross-domain/22-ea-security-incident-response-narrative.md": [
-  "citations"
+  "citations:10"
  ],
  "content/kompendium/cross-domain/23-ea-security-attribution-bias.md": [
-  "citations"
+  "citations:9"
  ],
  "content/kompendium/cross-domain/24-ea-security-threat-intelligence-validation.md": [
-  "citations"
+  "citations:11"
  ],
  "content/kompendium/cross-domain/25-ea-compliance-nis2-integrity.md": [
-  "citations"
+  "citations:8"
  ],
  "content/kompendium/cross-domain/26-ea-compliance-zkb-epistemic-integrity.md": [
-  "citations"
+  "citations:12"
  ],
  "content/kompendium/cross-domain/27-ea-compliance-gdpr-narrative-protection.md": [
-  "citations"
+  "citations:10"
  ],
  "content/kompendium/cross-domain/28-ea-compliance-aml-pattern-recognition.md": [
-  "citations"
+  "citations:9"
  ],
  "content/kompendium/cross-domain/29-ea-compliance-kyc-narrative-validation.md": [
-  "citations",
+  "citations:7",
   "bold-term"
  ],
  "content/kompendium/cross-domain/3-ea-osint-justice-cz-screening.md": [
-  "citations"
+  "citations:9"
  ],
  "content/kompendium/cross-domain/30-ea-compliance-regulatory-capture-detection.md": [
-  "citations"
+  "citations:8"
  ],
  "content/kompendium/cross-domain/4-ea-osint-sanctions-list-bias.md": [
-  "citations"
+  "citations:9"
  ],
  "content/kompendium/cross-domain/5-ea-osint-social-media-manipulation.md": [
-  "citations"
+  "citations:6"
  ],
  "content/kompendium/cross-domain/6-ea-osint-bot-detection.md": [
-  "citations"
+  "citations:8"
  ],
  "content/kompendium/cross-domain/7-ea-osint-narrative-injection.md": [
-  "citations"
+  "citations:6"
  ],
  "content/kompendium/cross-domain/8-ea-osint-cross-source-triangulation.md": [
-  "citations"
+  "citations:9"
  ],
  "content/kompendium/cross-domain/9-ea-dd-investigation-bias.md": [
-  "citations",
+  "citations:9",
   "bold-term"
  ],
  "content/kompendium/cross-domain/_index.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:30"
  ],
  "content/kompendium/detection-signatures/1-linguistic-jargon-density.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:30"
  ],
  "content/kompendium/detection-signatures/10-behavioral-resistance-to-clarification.md": [
-  "bullets",
-  "citations"
+  "citations:16",
+  "bullets:13"
  ],
  "content/kompendium/detection-signatures/11-behavioral-topic-evasion.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:18"
  ],
  "content/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md": [
-  "bullets",
-  "citations"
+  "citations:9",
+  "bullets:29"
  ],
  "content/kompendium/detection-signatures/13-behavioral-isolation-acceleration.md": [
-  "bullets",
-  "citations"
+  "citations:16",
+  "bullets:14"
  ],
  "content/kompendium/detection-signatures/14-behavioral-time-pressure-creation.md": [
-  "bullets",
-  "citations"
+  "citations:17",
+  "bullets:15"
  ],
  "content/kompendium/detection-signatures/15-behavioral-asymmetric-disclosure.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:14"
  ],
  "content/kompendium/detection-signatures/16-behavioral-emotional-modulation.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:13"
  ],
  "content/kompendium/detection-signatures/17-network-source-monoculture.md": [
-  "bullets",
-  "citations"
+  "citations:16",
+  "bullets:12"
  ],
  "content/kompendium/detection-signatures/18-network-citation-circularity.md": [
-  "bullets",
-  "citations"
+  "citations:18",
+  "bullets:12"
  ],
  "content/kompendium/detection-signatures/19-network-amplification-asymmetry.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:12"
  ],
  "content/kompendium/detection-signatures/2-linguistic-circular-definitions.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:15",
+  "bullets:17"
  ],
  "content/kompendium/detection-signatures/20-network-bot-coordination.md": [
-  "bullets",
-  "citations"
+  "citations:18",
+  "bullets:13"
  ],
  "content/kompendium/detection-signatures/21-network-platform-coordination.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:13"
  ],
  "content/kompendium/detection-signatures/22-network-narrative-injection.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:13"
  ],
  "content/kompendium/detection-signatures/23-network-reputation-laundering.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:13"
  ],
  "content/kompendium/detection-signatures/24-network-deplatforming-cascade.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:13"
  ],
  "content/kompendium/detection-signatures/25-phenomenological-cognitive-fog.md": [
-  "bullets",
-  "citations"
+  "citations:17",
+  "bullets:14"
  ],
  "content/kompendium/detection-signatures/26-phenomenological-self-doubt-spike.md": [
-  "bullets",
-  "citations"
+  "citations:16",
+  "bullets:15"
  ],
  "content/kompendium/detection-signatures/27-phenomenological-emotional-numbing.md": [
-  "bullets",
-  "citations",
-  "citation-unresolved"
+  "citation-unresolved",
+  "citations:14",
+  "bullets:15"
  ],
  "content/kompendium/detection-signatures/28-phenomenological-reality-uncertainty.md": [
-  "bullets",
-  "citations"
+  "citations:16",
+  "bullets:14"
  ],
  "content/kompendium/detection-signatures/29-phenomenological-temporal-disorientation.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:14"
  ],
  "content/kompendium/detection-signatures/3-linguistic-unfalsifiable-claims.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:20"
  ],
  "content/kompendium/detection-signatures/30-phenomenological-identity-fragmentation.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:13",
+  "bullets:14"
  ],
  "content/kompendium/detection-signatures/4-linguistic-framing-shift.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:14"
  ],
  "content/kompendium/detection-signatures/5-linguistic-pronoun-inversion.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:13"
  ],
  "content/kompendium/detection-signatures/6-linguistic-narrative-fragmentation.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:14",
+  "bullets:17"
  ],
  "content/kompendium/detection-signatures/7-linguistic-scope-creep.md": [
-  "bullets",
-  "citations"
+  "citations:16",
+  "bullets:14"
  ],
  "content/kompendium/detection-signatures/8-linguistic-semantic-erosion.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:13"
  ],
  "content/kompendium/detection-signatures/9-behavioral-disproportionate-confidence.md": [
-  "bullets",
-  "citations"
+  "citations:16",
+  "bullets:12"
  ],
  "content/kompendium/detection-signatures/_index.md": [
-  "bullets",
-  "citations"
+  "citations:3",
+  "bullets:41"
  ],
  "content/kompendium/detection-signatures/epistemicka-kalibrace.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:15"
  ],
  "content/kompendium/detection-signatures/motte-bailey.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:12"
  ],
  "content/kompendium/detection-signatures/tom-kalibrace.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:17"
  ],
  "content/kompendium/educational-scenarios/_index.md": [
-  "bullets",
-  "citations"
+  "citations:2",
+  "bullets:42"
  ],
  "content/kompendium/emergency-protocols/_index.md": [
-  "bullets",
-  "citations"
+  "citations:3",
+  "bullets:40"
  ],
  "content/kompendium/forensic-legal/32-evidence-preservation.md": [
-  "citations"
+  "citations:1"
  ],
  "content/kompendium/forensic-legal/45-disability-law-EA.md": [
-  "citations"
+  "citations:1"
  ],
  "content/kompendium/forensic-legal/47-child-protection-EA.md": [
-  "citations"
+  "citations:1"
  ],
  "content/kompendium/forensic-legal/7-evidence-chain-of-custody.md": [
-  "citations"
+  "citations:2"
  ],
  "content/kompendium/forensic-legal/_index.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:59"
  ],
  "content/kompendium/glossary-bridges/_index.md": [
-  "citations"
+  "citations:13"
  ],
  "content/kompendium/glossary-bridges/bridge-agent.md": [
-  "citations"
+  "citations:11"
  ],
  "content/kompendium/glossary-bridges/bridge-anankasticky-rezim.md": [
-  "citations"
+  "citations:8"
  ],
  "content/kompendium/glossary-bridges/bridge-betrayal-trauma.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:17"
  ],
  "content/kompendium/glossary-bridges/bridge-bite-model.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:18"
  ],
  "content/kompendium/glossary-bridges/bridge-blue-team.md": [
-  "citations"
+  "citations:5"
  ],
  "content/kompendium/glossary-bridges/bridge-c-ptsd.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:17"
  ],
  "content/kompendium/glossary-bridges/bridge-coercive-control.md": [
-  "bullets",
-  "citations"
+  "citations:9",
+  "bullets:21"
  ],
  "content/kompendium/glossary-bridges/bridge-communicative-rationality.md": [
-  "citations"
+  "citations:15"
  ],
  "content/kompendium/glossary-bridges/bridge-companion.md": [
-  "citations"
+  "citations:9"
  ],
  "content/kompendium/glossary-bridges/bridge-darvo.md": [
-  "bullets",
-  "citations"
+  "citations:8",
+  "bullets:17"
  ],
  "content/kompendium/glossary-bridges/bridge-deepfake.md": [
-  "citations"
+  "citations:16"
  ],
  "content/kompendium/glossary-bridges/bridge-delegitimizace.md": [
-  "citations"
+  "citations:14"
  ],
  "content/kompendium/glossary-bridges/bridge-deplatforming.md": [
-  "citations"
+  "citations:15"
  ],
  "content/kompendium/glossary-bridges/bridge-differance.md": [
-  "citations"
+  "citations:15"
  ],
  "content/kompendium/glossary-bridges/bridge-disociace.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:17"
  ],
  "content/kompendium/glossary-bridges/bridge-dual-use-poznani.md": [
-  "citations"
+  "citations:10"
  ],
  "content/kompendium/glossary-bridges/bridge-embodied-cognition.md": [
-  "citations"
+  "citations:7"
  ],
  "content/kompendium/glossary-bridges/bridge-entity-resolution.md": [
-  "citations"
+  "citations:8"
  ],
  "content/kompendium/glossary-bridges/bridge-epistemic-bubble.md": [
-  "citations",
-  "citation-unresolved"
+  "citation-unresolved",
+  "citations:8"
  ],
  "content/kompendium/glossary-bridges/bridge-epistemic-security.md": [
-  "citations"
+  "citations:9"
  ],
  "content/kompendium/glossary-bridges/bridge-epistemicka-alienace.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:19"
  ],
  "content/kompendium/glossary-bridges/bridge-epistemicka-anihilace.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:20"
  ],
  "content/kompendium/glossary-bridges/bridge-epistemicka-injustice.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:16"
  ],
  "content/kompendium/glossary-bridges/bridge-epistemicka-pokora.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:18"
  ],
  "content/kompendium/glossary-bridges/bridge-epistemicke-trauma.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:19"
  ],
  "content/kompendium/glossary-bridges/bridge-epoche.md": [
-  "citations"
+  "citations:16"
  ],
  "content/kompendium/glossary-bridges/bridge-exit.md": [
-  "citations"
+  "citations:9"
  ],
  "content/kompendium/glossary-bridges/bridge-falsifikace.md": [
-  "citations"
+  "citations:14"
  ],
  "content/kompendium/glossary-bridges/bridge-fenomenologie.md": [
-  "citations",
-  "citation-unresolved"
+  "citation-unresolved",
+  "citations:12"
  ],
  "content/kompendium/glossary-bridges/bridge-firehose-of-falsehood.md": [
-  "citations"
+  "citations:13"
  ],
  "content/kompendium/glossary-bridges/bridge-four-noble-truths.md": [
-  "citations"
+  "citations:9"
  ],
  "content/kompendium/glossary-bridges/bridge-gaslighting.md": [
-  "bullets",
-  "citations"
+  "citations:8",
+  "bullets:18"
  ],
  "content/kompendium/glossary-bridges/bridge-gestalt-shift.md": [
-  "citations"
+  "citations:13"
  ],
  "content/kompendium/glossary-bridges/bridge-gish-gallop.md": [
-  "citations"
+  "citations:15"
  ],
  "content/kompendium/glossary-bridges/bridge-hermeneutika.md": [
-  "citations",
-  "citation-unresolved"
+  "citation-unresolved",
+  "citations:14"
  ],
  "content/kompendium/glossary-bridges/bridge-hyperreality.md": [
-  "citations"
+  "citations:14"
  ],
  "content/kompendium/glossary-bridges/bridge-iatrogenic-harm.md": [
-  "citations"
+  "citations:14"
  ],
  "content/kompendium/glossary-bridges/bridge-ideal-speech-situation.md": [
-  "citations"
+  "citations:16"
  ],
  "content/kompendium/glossary-bridges/bridge-info-ops.md": [
-  "citations"
+  "citations:16"
  ],
  "content/kompendium/glossary-bridges/bridge-instrumental-reason.md": [
-  "citations"
+  "citations:13"
  ],
  "content/kompendium/glossary-bridges/bridge-intelligence-fusion.md": [
-  "citations"
+  "citations:10"
  ],
  "content/kompendium/glossary-bridges/bridge-intentionalita.md": [
-  "citations"
+  "citations:15"
  ],
  "content/kompendium/glossary-bridges/bridge-kognitivni-anihilace.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:17"
  ],
  "content/kompendium/glossary-bridges/bridge-kognitivni-anti-rekurzivita.md": [
-  "citations"
+  "citations:14"
  ],
  "content/kompendium/glossary-bridges/bridge-kompendium-ea.md": [
-  "citations"
+  "citations:8"
  ],
  "content/kompendium/glossary-bridges/bridge-kontraindikace.md": [
-  "citations"
+  "citations:6"
  ],
  "content/kompendium/glossary-bridges/bridge-lakatos-vyzkumny-program.md": [
-  "citations"
+  "citations:14"
  ],
  "content/kompendium/glossary-bridges/bridge-lebenswelt.md": [
-  "citations"
+  "citations:14"
  ],
  "content/kompendium/glossary-bridges/bridge-mereologicka-rekonstrukce.md": [
-  "citations"
+  "citations:11"
  ],
  "content/kompendium/glossary-bridges/bridge-metakognice.md": [
-  "citations"
+  "citations:12"
  ],
  "content/kompendium/glossary-bridges/bridge-metakognitivni-destrukce.md": [
-  "citations"
+  "citations:10"
  ],
  "content/kompendium/glossary-bridges/bridge-metanarrative-collapse.md": [
-  "citations"
+  "citations:13"
  ],
  "content/kompendium/glossary-bridges/bridge-motte-and-bailey.md": [
-  "citations"
+  "citations:16"
  ],
  "content/kompendium/glossary-bridges/bridge-narrative-identity.md": [
-  "citations"
+  "citations:12"
  ],
  "content/kompendium/glossary-bridges/bridge-narrative-trauma.md": [
-  "citations"
+  "citations:16"
  ],
  "content/kompendium/glossary-bridges/bridge-ontologicka-anihilace.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:17"
  ],
  "content/kompendium/glossary-bridges/bridge-osint.md": [
-  "citations"
+  "citations:8"
  ],
  "content/kompendium/glossary-bridges/bridge-panopticism.md": [
-  "citations"
+  "citations:16"
  ],
  "content/kompendium/glossary-bridges/bridge-power-knowledge.md": [
-  "citations"
+  "citations:13"
  ],
  "content/kompendium/glossary-bridges/bridge-predictive-processing.md": [
-  "citations"
+  "citations:11"
  ],
  "content/kompendium/glossary-bridges/bridge-propaganda.md": [
-  "citations"
+  "citations:12"
  ],
  "content/kompendium/glossary-bridges/bridge-purple-team.md": [
-  "citations"
+  "citations:9"
  ],
  "content/kompendium/glossary-bridges/bridge-readiness.md": [
-  "citations"
+  "citations:8"
  ],
  "content/kompendium/glossary-bridges/bridge-red-team.md": [
-  "citations"
+  "citations:12"
  ],
  "content/kompendium/glossary-bridges/bridge-replication-crisis.md": [
-  "citations"
+  "citations:15"
  ],
  "content/kompendium/glossary-bridges/bridge-risk-score.md": [
-  "citations"
+  "citations:9"
  ],
  "content/kompendium/glossary-bridges/bridge-sanctions-screening.md": [
-  "citations"
+  "citations:9"
  ],
  "content/kompendium/glossary-bridges/bridge-sealioning.md": [
-  "citations"
+  "citations:18"
  ],
  "content/kompendium/glossary-bridges/bridge-simulacra.md": [
-  "citations"
+  "citations:16"
  ],
  "content/kompendium/glossary-bridges/bridge-taxonomie-ea.md": [
-  "citations"
+  "citations:9"
  ],
  "content/kompendium/glossary-bridges/bridge-theory-of-mind.md": [
-  "citations"
+  "citations:14"
  ],
  "content/kompendium/glossary-bridges/bridge-threshold.md": [
-  "citations"
+  "citations:8"
  ],
  "content/kompendium/glossary-bridges/bridge-weaponized-incompetence.md": [
-  "citations"
+  "citations:16"
  ],
  "content/kompendium/historical-cases/34-stapel-fraud.md": [
   "citation-unresolved"
  ],
  "content/kompendium/historical-cases/_index.md": [
-  "bullets",
-  "citations"
+  "citations:3",
+  "bullets:53"
  ],
  "content/kompendium/international/10-italian-EA/index.md": [
-  "citations"
+  "citations:2"
  ],
  "content/kompendium/konceptualni-mapa/_index.md": [
+  "citations:2",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:10"
  ],
  "content/kompendium/organizational-defense/27-information-classification.md": [
-  "citations"
+  "citations:3"
  ],
  "content/kompendium/organizational-defense/_index.md": [
-  "bullets",
-  "citations"
+  "citations:3",
+  "bullets:57"
  ],
  "content/kompendium/population-health/16-digital-citizenship-program.md": [
-  "bullets",
-  "citations"
+  "citations:3",
+  "bullets:5"
  ],
  "content/kompendium/population-health/17-vulnerable-population-outreach.md": [
-  "bullets",
-  "citations"
+  "citations:2",
+  "bullets:5"
  ],
  "content/kompendium/population-health/18-public-awareness-campaign.md": [
-  "bullets",
-  "citations"
+  "citations:2",
+  "bullets:5"
  ],
  "content/kompendium/population-health/19-bystander-intervention-training.md": [
-  "bullets",
-  "citations"
+  "citations:1",
+  "bullets:5"
  ],
  "content/kompendium/population-health/20-helpline-population-impact.md": [
-  "bullets",
-  "citations"
+  "citations:3",
+  "bullets:5"
  ],
  "content/kompendium/population-health/21-EA-public-policy-framework.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:5"
  ],
  "content/kompendium/population-health/22-regulatory-approach-EA.md": [
-  "bullets",
-  "citations"
+  "citations:3",
+  "bullets:5"
  ],
  "content/kompendium/population-health/23-EU-policy-EA.md": [
-  "bullets",
-  "citations"
+  "citations:2",
+  "bullets:5"
  ],
  "content/kompendium/population-health/24-WHO-EA-framework.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:5"
  ],
  "content/kompendium/population-health/25-platform-regulation-EA.md": [
-  "bullets"
+  "bullets:5"
  ],
  "content/kompendium/population-health/26-educational-policy-EA.md": [
-  "bullets",
-  "citations"
+  "citations:1",
+  "bullets:5"
  ],
  "content/kompendium/population-health/27-mental-health-policy-EA.md": [
-  "bullets",
-  "citations"
+  "citations:3",
+  "bullets:5"
  ],
  "content/kompendium/population-health/28-international-cooperation-EA.md": [
-  "bullets",
-  "citations"
+  "citations:1",
+  "bullets:5"
  ],
  "content/kompendium/population-health/29-research-funding-EA.md": [
-  "bullets",
-  "citations"
+  "citations:2",
+  "bullets:5"
  ],
  "content/kompendium/population-health/30-ethics-policy-research-EA.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:5"
  ],
  "content/kompendium/population-health/_index.md": [
-  "bullets",
-  "citations",
+  "citation-unresolved",
   "bibliography",
-  "citation-unresolved"
+  "citations:2",
+  "bullets:33"
  ],
  "content/kompendium/prevention-resilience/1-childhood-resilience-foundation.md": [
-  "bullets",
-  "citations"
+  "citations:8",
+  "bullets:26"
  ],
  "content/kompendium/prevention-resilience/10-public-discourse-quality.md": [
-  "bullets",
-  "citations"
+  "citations:6",
+  "bullets:31"
  ],
  "content/kompendium/prevention-resilience/12-warning-sign-recognition.md": [
-  "bullets",
-  "citations"
+  "citations:7",
+  "bullets:41"
  ],
  "content/kompendium/prevention-resilience/14-de-escalation-prevention.md": [
-  "bullets",
-  "citations"
+  "citations:6",
+  "bullets:28"
  ],
  "content/kompendium/prevention-resilience/15-relationship-monitoring.md": [
-  "bullets",
-  "citations"
+  "citations:9",
+  "bullets:28"
  ],
  "content/kompendium/prevention-resilience/16-employer-vigilance.md": [
-  "bullets",
-  "citations"
+  "citations:7",
+  "bullets:30"
  ],
  "content/kompendium/prevention-resilience/17-academic-supervision-prevention.md": [
-  "bullets",
-  "citations"
+  "citations:7",
+  "bullets:32"
  ],
  "content/kompendium/prevention-resilience/18-clinical-vigilance-prevention.md": [
-  "bullets",
-  "citations"
+  "citations:8",
+  "bullets:30"
  ],
  "content/kompendium/prevention-resilience/19-pastoral-vigilance-prevention.md": [
-  "bullets",
-  "citations"
+  "citations:6",
+  "bullets:20"
  ],
  "content/kompendium/prevention-resilience/2-school-based-prevention.md": [
-  "bullets",
-  "citations"
+  "citations:8",
+  "bullets:30"
  ],
  "content/kompendium/prevention-resilience/21-relapse-prevention-EA.md": [
-  "bullets",
-  "citations"
+  "citations:7",
+  "bullets:8"
  ],
  "content/kompendium/prevention-resilience/23-skills-rebuilding-program.md": [
-  "bullets",
-  "citations"
+  "citations:6",
+  "bullets:7"
  ],
  "content/kompendium/prevention-resilience/25-vocational-rehabilitation-prevention.md": [
-  "bullets",
-  "citations"
+  "citations:7",
+  "bullets:8"
  ],
  "content/kompendium/prevention-resilience/26-family-reintegration-prevention.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:8"
  ],
  "content/kompendium/prevention-resilience/3-family-resilience-EA.md": [
-  "bullets",
-  "citations"
+  "citations:6",
+  "bullets:29"
  ],
  "content/kompendium/prevention-resilience/30-trauma-informed-citizenship.md": [
-  "bullets",
-  "citations"
+  "citations:6",
+  "bullets:7"
  ],
  "content/kompendium/prevention-resilience/4-community-resilience-EA.md": [
-  "bullets",
-  "citations"
+  "citations:7",
+  "bullets:26"
  ],
  "content/kompendium/prevention-resilience/5-workplace-prevention-EA.md": [
-  "bullets",
-  "citations"
+  "citations:6",
+  "bullets:30"
  ],
  "content/kompendium/prevention-resilience/6-media-literacy-prevention.md": [
-  "bullets",
-  "citations"
+  "citations:7",
+  "bullets:27"
  ],
  "content/kompendium/prevention-resilience/7-digital-hygiene-prevention.md": [
-  "bullets",
-  "citations"
+  "citations:6",
+  "bullets:29"
  ],
  "content/kompendium/prevention-resilience/8-critical-thinking-curriculum.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:7",
+  "bullets:33"
  ],
  "content/kompendium/prevention-resilience/9-civic-education-prevention.md": [
-  "bullets",
-  "citations"
+  "citations:6",
+  "bullets:31"
  ],
  "content/kompendium/prevention-resilience/_index.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:30"
  ],
  "content/kompendium/quick-reference/_index.md": [
-  "citations"
+  "citations:13"
  ],
  "content/kompendium/quick-reference/qr-ea-1-1-1.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-1-1-2.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-1-1-3.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-1-2-1.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-1-2-2.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-1-2-3.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-1-3-1.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-1-3-2.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-1-3-3.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-1-4-1.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-1-4-2.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-1-5-1.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-1-5-2.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-1-1.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-1-10.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-1-2.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-1-3.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-1-4.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-1-5.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-1-6.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-1-7.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-1-8.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-1-9.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-2-1.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-2-10.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-2-2.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-2-3.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-2-4.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-2-5.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-2-6.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-2-7.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-2-8.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-2-9.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-3-1.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-3-10.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-3-2.md": [
-  "bullets",
-  "citations",
+  "citation-unresolved",
   "bibliography",
-  "citation-unresolved"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-3-3.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-3-4.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-3-5.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-3-6.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-3-7.md": [
-  "bullets",
-  "citations",
+  "citation-unresolved",
   "bibliography",
-  "citation-unresolved"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-3-8.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-3-9.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-4-1.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-4-10.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-4-2.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-4-3.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-4-4.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-4-5.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-4-6.md": [
-  "bullets",
-  "citations",
+  "citation-unresolved",
   "bibliography",
-  "citation-unresolved"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-4-7.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-4-8.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-4-9.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-5-1.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-5-10.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-5-2.md": [
-  "bullets",
-  "citations",
+  "citation-unresolved",
   "bibliography",
-  "citation-unresolved"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-5-3.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-5-4.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-5-5.md": [
-  "bullets",
-  "citations",
+  "citation-unresolved",
   "bibliography",
-  "citation-unresolved"
+  "citations:3",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-5-6.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-5-7.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-5-8.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-2-5-9.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-1-1.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-1-10.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-1-11.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-1-12.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-1-13.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-1-14.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-1-15.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-1-16.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-1-17.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-1-18.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-1-19.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-1-2.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-1-20.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-1-21.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-1-22.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-1-23.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-1-24.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-1-25.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-1-26.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-1-27.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-1-28.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-1-29.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-1-3.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-1-30.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-1-4.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-1-5.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-1-6.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-1-7.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-1-8.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-1-9.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-1.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-10.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-11.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-12.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-13.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-14.md": [
-  "bullets",
-  "citations"
+  "citations:3",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-15.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-16.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-17.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-18.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-19.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-2.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-20.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-21.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-22.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-23.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-24.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-25.md": [
-  "bullets",
-  "citations"
+  "citations:3",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-26.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-27.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-28.md": [
-  "bullets",
-  "citations"
+  "citations:3",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-29.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-3.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-30.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-4.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-5.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-6.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-7.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-8.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-9.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:10"
  ],
  "content/kompendium/recovery-protocols/_index.md": [
-  "bullets",
-  "citations"
+  "citations:2",
+  "bullets:40"
  ],
  "content/kompendium/recovery-protocols/acute-cognitive-anchoring.md": [
-  "bullets",
-  "citations"
+  "citations:8",
+  "bullets:7"
  ],
  "content/kompendium/recovery-protocols/acute-information-curation.md": [
-  "bullets",
-  "citations"
+  "citations:7",
+  "bullets:8"
  ],
  "content/kompendium/recovery-protocols/acute-safety-establishment.md": [
-  "bullets",
-  "citations"
+  "citations:7",
+  "bullets:8"
  ],
  "content/kompendium/recovery-protocols/acute-social-reconnection.md": [
-  "bullets",
-  "citations"
+  "citations:8",
+  "bullets:7"
  ],
  "content/kompendium/recovery-protocols/acute-somatic-regulation.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:8"
  ],
  "content/kompendium/recovery-protocols/acute-stabilization-protocol.md": [
-  "bullets",
-  "citations"
+  "citations:7",
+  "bullets:8"
  ],
  "content/kompendium/recovery-protocols/longterm-altruistic-channeling.md": [
-  "bullets",
-  "citations"
+  "citations:6",
+  "bullets:8"
  ],
  "content/kompendium/recovery-protocols/longterm-community-rebuilding.md": [
-  "bullets",
-  "citations"
+  "citations:6",
+  "bullets:7"
  ],
  "content/kompendium/recovery-protocols/longterm-meaning-deepening.md": [
-  "bullets",
-  "citations"
+  "citations:6",
+  "bullets:7"
  ],
  "content/kompendium/recovery-protocols/longterm-post-traumatic-growth.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:6",
+  "bullets:7"
  ],
  "content/kompendium/recovery-protocols/longterm-relapse-prevention.md": [
-  "bullets",
-  "citations"
+  "citations:7",
+  "bullets:8"
  ],
  "content/kompendium/recovery-protocols/longterm-resilience-cultivation.md": [
-  "bullets",
-  "citations"
+  "citations:8",
+  "bullets:7"
  ],
  "content/kompendium/recovery-protocols/midterm-educational-reintegration.md": [
-  "bullets",
-  "citations"
+  "citations:6",
+  "bullets:8"
  ],
  "content/kompendium/recovery-protocols/midterm-hermeneutic-reset.md": [
-  "bullets",
-  "citations"
+  "citations:7",
+  "bullets:7"
  ],
  "content/kompendium/recovery-protocols/midterm-identity-reconstruction.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:6",
+  "bullets:8"
  ],
  "content/kompendium/recovery-protocols/midterm-metacognitive-rehab.md": [
-  "bullets",
-  "citations"
+  "citations:6",
+  "bullets:7"
  ],
  "content/kompendium/recovery-protocols/midterm-skill-rebuilding.md": [
-  "bullets",
-  "citations"
+  "citations:9",
+  "bullets:8"
  ],
  "content/kompendium/recovery-protocols/midterm-vocational-integration.md": [
-  "bullets",
-  "citations"
+  "citations:7",
+  "bullets:8"
  ],
  "content/kompendium/recovery-protocols/recovery-adolescent-protocol.md": [
-  "bullets",
-  "citations"
+  "citations:6",
+  "bullets:8"
  ],
  "content/kompendium/recovery-protocols/recovery-children-protocol.md": [
-  "bullets",
-  "citations"
+  "citations:8",
+  "bullets:8"
  ],
  "content/kompendium/recovery-protocols/recovery-cult-extraction-protocol.md": [
-  "bullets",
-  "citations"
+  "citations:6",
+  "bullets:8"
  ],
  "content/kompendium/recovery-protocols/recovery-elder-protocol.md": [
-  "bullets",
-  "citations"
+  "citations:7",
+  "bullets:8"
  ],
  "content/kompendium/recovery-protocols/recovery-political-prisoner-protocol.md": [
-  "bullets",
-  "citations"
+  "citations:7",
+  "bullets:8"
  ],
  "content/kompendium/recovery-protocols/recovery-trafficking-survivor-protocol.md": [
-  "bullets",
-  "citations"
+  "citations:6",
+  "bullets:8"
  ],
  "content/kompendium/recovery-protocols/subacute-axiological-restoration.md": [
-  "bullets",
-  "citations"
+  "citations:7",
+  "bullets:7"
  ],
  "content/kompendium/recovery-protocols/subacute-detection-training.md": [
-  "bullets",
-  "citations"
+  "citations:9",
+  "bullets:7"
  ],
  "content/kompendium/recovery-protocols/subacute-meaning-reconstruction.md": [
-  "bullets",
-  "citations"
+  "citations:7",
+  "bullets:7"
  ],
  "content/kompendium/recovery-protocols/subacute-narrative-externalization.md": [
-  "bullets",
-  "citations"
+  "citations:7",
+  "bullets:7"
  ],
  "content/kompendium/recovery-protocols/subacute-relational-restructuring.md": [
-  "bullets",
-  "citations"
+  "citations:7",
+  "bullets:7"
  ],
  "content/kompendium/recovery-protocols/subacute-trust-rebuilding.md": [
-  "bullets",
-  "citations"
+  "citations:9",
+  "bullets:8"
  ],
  "content/kompendium/research-methodology/IPA-EA.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:21"
  ],
  "content/kompendium/research-methodology/IRB-protocol-design-EA.md": [
-  "bullets",
-  "citations"
+  "citations:9",
+  "bullets:28"
  ],
  "content/kompendium/research-methodology/RCT-EA-considerations.md": [
-  "bullets",
-  "citations"
+  "citations:10",
+  "bullets:23"
  ],
  "content/kompendium/research-methodology/_index.md": [
-  "bullets",
-  "citations"
+  "citations:1",
+  "bullets:30"
  ],
  "content/kompendium/research-methodology/anonymization-EA-research.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:23"
  ],
  "content/kompendium/research-methodology/case-study-design-EA.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:20"
  ],
  "content/kompendium/research-methodology/causal-inference-EA.md": [
-  "bullets",
-  "citations"
+  "citations:10",
+  "bullets:25"
  ],
  "content/kompendium/research-methodology/conflict-of-interest-research.md": [
-  "bullets",
-  "citations"
+  "citations:9",
+  "bullets:5"
  ],
  "content/kompendium/research-methodology/conversation-analysis-EA.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:25"
  ],
  "content/kompendium/research-methodology/data-security-EA-research.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:24"
  ],
  "content/kompendium/research-methodology/debriefing-protocol-research.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:23"
  ],
  "content/kompendium/research-methodology/discourse-analysis-EA.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:22"
  ],
  "content/kompendium/research-methodology/document-analysis-EA.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:24"
  ],
  "content/kompendium/research-methodology/effect-size-EA.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:22"
  ],
  "content/kompendium/research-methodology/ethnography-EA.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:25"
  ],
  "content/kompendium/research-methodology/grounded-theory-EA.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:24"
  ],
  "content/kompendium/research-methodology/informed-consent-EA-research.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:22"
  ],
  "content/kompendium/research-methodology/longitudinal-study-EA.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:20"
  ],
  "content/kompendium/research-methodology/meta-analysis-EA.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:24"
  ],
  "content/kompendium/research-methodology/mixed-methods-EA.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:23"
  ],
  "content/kompendium/research-methodology/narrative-analysis-EA.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:13",
+  "bullets:23"
  ],
  "content/kompendium/research-methodology/network-analysis-EA.md": [
-  "bullets",
-  "citations"
+  "citations:9",
+  "bullets:24"
  ],
  "content/kompendium/research-methodology/phenomenological-interview-EA.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:22"
  ],
  "content/kompendium/research-methodology/power-analysis-EA.md": [
-  "bullets",
-  "citations"
+  "citations:10",
+  "bullets:18"
  ],
  "content/kompendium/research-methodology/pre-registration-EA-research.md": [
-  "bullets",
-  "citations"
+  "citations:9",
+  "bullets:4"
  ],
  "content/kompendium/research-methodology/publication-ethics-EA.md": [
-  "bullets",
-  "citations"
+  "citations:9",
+  "bullets:8"
  ],
  "content/kompendium/research-methodology/replication-EA-research.md": [
-  "bullets",
-  "citations"
+  "citations:10",
+  "bullets:7"
  ],
  "content/kompendium/research-methodology/survey-design-EA.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:22"
  ],
  "content/kompendium/research-methodology/thematic-analysis-EA.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:22"
  ],
  "content/kompendium/research-methodology/time-series-EA.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:20"
  ],
  "content/kompendium/research-methodology/vulnerable-population-research.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:24"
  ],
  "content/kompendium/section-bridges/_index.md": [
+  "citations:3",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:10"
  ],
  "content/kompendium/section-bridges/bridge-01-to-02-predmluva-uvod.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:16"
  ],
  "content/kompendium/section-bridges/bridge-01-to-04-eticky-ramec-protokoly.md": [
-  "bullets",
-  "citations"
+  "citations:18",
+  "bullets:4"
  ],
  "content/kompendium/section-bridges/bridge-01-to-05-eticky-ramec-ultramari.md": [
-  "bullets",
-  "citations"
+  "citations:9",
+  "bullets:14"
  ],
  "content/kompendium/section-bridges/bridge-02-to-03-uvod-zakladni-kategorie.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:7"
  ],
  "content/kompendium/section-bridges/bridge-02-to-07-uvod-teoreticke.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:8"
  ],
  "content/kompendium/section-bridges/bridge-03-to-04-zakladni-terminalni.md": [
-  "bullets",
-  "citations"
+  "citations:16",
+  "bullets:4"
  ],
  "content/kompendium/section-bridges/bridge-03-to-05-zakladni-ultramari.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:9"
  ],
  "content/kompendium/section-bridges/bridge-03-to-06-techniky-klinika.md": [
-  "bullets",
-  "citations"
+  "citations:16",
+  "bullets:5"
  ],
  "content/kompendium/section-bridges/bridge-03-to-07-techniky-teorie.md": [
-  "bullets",
-  "citations"
+  "citations:17",
+  "bullets:8"
  ],
  "content/kompendium/section-bridges/bridge-04-to-05-terminalni-ultramari.md": [
-  "bullets",
-  "citations"
+  "citations:19",
+  "bullets:4"
  ],
  "content/kompendium/section-bridges/bridge-04-to-06-terminalni-klinika.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:8"
  ],
  "content/kompendium/section-bridges/bridge-04-to-07-terminalni-teorie.md": [
-  "bullets",
-  "citations"
+  "citations:17",
+  "bullets:4"
  ],
  "content/kompendium/section-bridges/bridge-05-to-06-ultramari-klinika.md": [
-  "bullets",
-  "citations"
+  "citations:16",
+  "bullets:5"
  ],
  "content/kompendium/section-bridges/bridge-05-to-07-ultramari-teorie.md": [
-  "citations"
+  "citations:11"
  ],
  "content/kompendium/section-bridges/bridge-05-to-08-ultramari-prilohy.md": [
-  "citations"
+  "citations:10"
  ],
  "content/kompendium/section-bridges/bridge-06-to-07-klinika-teorie.md": [
-  "citations"
+  "citations:11"
  ],
  "content/kompendium/section-bridges/bridge-06-to-08-klinika-prilohy.md": [
-  "citations"
+  "citations:9"
  ],
  "content/kompendium/section-bridges/bridge-07-to-08-teorie-prilohy.md": [
-  "citations"
+  "citations:10"
  ],
  "content/kompendium/section-bridges/bridge-case-studies-to-clinical.md": [
-  "citations"
+  "citations:12"
  ],
  "content/kompendium/section-bridges/bridge-case-studies-to-glossary-bridges.md": [
-  "citations"
+  "citations:12"
  ],
  "content/kompendium/section-bridges/bridge-glossary-bridges-to-philosophy.md": [
-  "citations"
+  "citations:10"
  ],
  "content/kompendium/section-bridges/bridge-quick-reference-to-glossary.md": [
-  "citations"
+  "citations:13"
  ],
  "content/kompendium/section-bridges/bridge-techniques-to-case-studies.md": [
-  "citations"
+  "citations:11"
  ],
  "content/kompendium/section-bridges/bridge-techniques-to-glossary.md": [
-  "citations"
+  "citations:12"
  ],
  "content/kompendium/section-bridges/bridge-techniques-to-quick-reference.md": [
-  "citations"
+  "citations:12"
  ],
  "content/kompendium/section-bridges/bridge-techniques-to-visualizations.md": [
-  "citations"
+  "citations:12"
  ],
  "content/kompendium/section-bridges/bridge-visualizations-to-clinical.md": [
-  "citations"
+  "citations:13"
  ],
  "content/kompendium/section-bridges/bridge-visualizations-to-techniques.md": [
-  "citations"
+  "citations:12"
  ],
  "content/kompendium/self-defense-guides/1-metacognitive-monitoring.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:4"
  ],
  "content/kompendium/self-defense-guides/10-cognitive-load-management.md": [
-  "bullets",
-  "citations"
+  "citations:17",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/11-emotional-regulation.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:4"
  ],
  "content/kompendium/self-defense-guides/12-trigger-recognition.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/13-somatic-awareness.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/14-grounding-techniques.md": [
-  "bullets",
-  "citations"
+  "citations:16",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/15-emotional-distancing.md": [
-  "bullets",
-  "citations"
+  "citations:16",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/16-self-compassion.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/17-anger-management.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/18-shame-resilience.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/19-fear-processing.md": [
-  "bullets",
-  "citations"
+  "citations:17",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/2-evidence-evaluation.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/20-emotional-debt-recognition.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/21-boundary-setting.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/22-relationship-audit.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/23-trust-calibration.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/24-communication-assertiveness.md": [
-  "bullets",
-  "citations"
+  "citations:16",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/25-network-diversification.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/26-isolation-prevention.md": [
-  "bullets",
-  "citations"
+  "citations:17",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/27-mentor-evaluation.md": [
-  "bullets",
-  "citations"
+  "citations:16",
+  "bullets:4"
  ],
  "content/kompendium/self-defense-guides/28-community-engagement.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/29-conflict-resolution.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/3-source-triangulation.md": [
-  "bullets",
-  "citations"
+  "citations:17",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/30-support-mobilization.md": [
-  "bullets",
-  "citations"
+  "citations:16",
+  "bullets:7"
  ],
  "content/kompendium/self-defense-guides/31-source-curation.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/32-feed-detoxification.md": [
-  "bullets",
-  "citations"
+  "citations:16",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/33-information-diet.md": [
-  "bullets",
-  "citations"
+  "citations:16",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/34-attention-budget.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/35-deep-reading-practice.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/36-cross-source-routine.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/37-time-locked-evaluation.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/38-bias-audit-personal.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:2"
  ],
  "content/kompendium/self-defense-guides/39-information-fasting.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:2"
  ],
  "content/kompendium/self-defense-guides/4-claim-verification.md": [
-  "bullets",
-  "citations"
+  "citations:16",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/40-ai-content-detection.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/41-narrative-stewardship.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/42-relational-anchors.md": [
-  "bullets",
-  "citations"
+  "citations:16",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/43-memory-archive.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/44-axiology-clarification.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/45-life-story-integration.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:2"
  ],
  "content/kompendium/self-defense-guides/46-multiple-self-management.md": [
-  "bullets",
-  "citations"
+  "citations:17",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/47-identity-resilience-training.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/48-existential-meaning-protection.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/49-temporal-self-stitching.md": [
-  "bullets",
-  "citations"
+  "citations:16",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/5-falsification-thinking.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:2"
  ],
  "content/kompendium/self-defense-guides/50-personal-mythology-defense.md": [
-  "bullets",
-  "citations"
+  "citations:16",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/6-paradigm-pluralism.md": [
-  "bullets",
-  "citations"
+  "citations:16",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/7-belief-revision.md": [
-  "bullets",
-  "citations"
+  "citations:16",
+  "bullets:2"
  ],
  "content/kompendium/self-defense-guides/8-cognitive-flexibility.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/9-attention-management.md": [
-  "bullets",
-  "citations"
+  "citations:16",
+  "bullets:3"
  ],
  "content/kompendium/self-defense-guides/_index.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:55"
  ],
  "content/kompendium/techniques/_index.md": [
-  "bullets",
-  "citations"
+  "citations:1",
+  "bullets:4"
  ],
  "content/kompendium/techniques/ea-1-1-1-selektivni-expozice.md": [
-  "bullets",
-  "citations"
+  "citations:10",
+  "bullets:26"
  ],
  "content/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md": [
-  "bullets",
-  "citations"
+  "citations:8",
+  "bullets:19"
  ],
  "content/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md": [
-  "bullets",
-  "citations"
+  "citations:7",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:21"
  ],
  "content/kompendium/techniques/ea-1-2-1-falesne-dilema.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:19"
  ],
  "content/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md": [
-  "bullets",
-  "citations"
+  "citations:10",
+  "bullets:18"
  ],
  "content/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce.md": [
+  "citations:10",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:11"
  ],
  "content/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md": [
-  "bullets",
-  "citations"
+  "citations:8",
+  "bullets:25"
  ],
  "content/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:31"
  ],
  "content/kompendium/techniques/ea-1-3-2-pseudo-empiricka-validace.md": [
+  "citations:10",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:11"
  ],
  "content/kompendium/techniques/ea-1-3-2-sokratovska-past.md": [
+  "citations:8",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:19"
  ],
  "content/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md": [
-  "bullets",
-  "citations"
+  "citations:3",
+  "bullets:29"
  ],
  "content/kompendium/techniques/ea-1-3-3-tematicka-diverze.md": [
-  "bullets",
-  "citations"
+  "citations:6",
+  "bullets:17"
  ],
  "content/kompendium/techniques/ea-1-3-4-indukovana-pochybnost.md": [
+  "citations:7",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:17"
  ],
  "content/kompendium/techniques/ea-1-4-1-latentni-podbarveni.md": [
+  "citations:9",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:16"
  ],
  "content/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:26"
  ],
  "content/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md": [
-  "bullets",
-  "citations"
+  "citations:8",
+  "bullets:21"
  ],
  "content/kompendium/techniques/ea-1-5-1-emocni-podbarveni.md": [
+  "citations:9",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:14"
  ],
  "content/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:3",
+  "bullets:38"
  ],
  "content/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md": [
-  "bullets",
-  "citations"
+  "citations:7",
+  "bullets:30"
  ],
  "content/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:13"
  ],
  "content/kompendium/techniques/ea-1-6-5.md": [
+  "citations:10",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:11"
  ],
  "content/kompendium/techniques/ea-1-6-falesny-paradigmaticky-narok.md": [
+  "citations:7",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-2-1-1-expertni-disinflation.md": [
+  "citations:2",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:20"
  ],
  "content/kompendium/techniques/ea-2-1-10-credentials-rekonfigurace.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:9"
  ],
  "content/kompendium/techniques/ea-2-1-2-pseudo-peer-mob.md": [
+  "citations:2",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:17"
  ],
  "content/kompendium/techniques/ea-2-1-3-credentialing-attack.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:10"
  ],
  "content/kompendium/techniques/ea-2-1-4-publikacni-blokace.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:10"
  ],
  "content/kompendium/techniques/ea-2-1-5-citation-suppression.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:9"
  ],
  "content/kompendium/techniques/ea-2-1-6-funding-attack.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:9"
  ],
  "content/kompendium/techniques/ea-2-1-7-institucionalni-vyloucenni.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:9"
  ],
  "content/kompendium/techniques/ea-2-1-8-reputation-laundering-inverze.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:9"
  ],
  "content/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:9"
  ],
  "content/kompendium/techniques/ea-2-2-1-mentor-self-totalizace.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:9"
  ],
  "content/kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md": [
-  "bullets",
-  "citations",
-  "citation-unresolved"
+  "citation-unresolved",
+  "citations:11",
+  "bullets:9"
  ],
  "content/kompendium/techniques/ea-2-2-2-mentee-isolation.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:9"
  ],
  "content/kompendium/techniques/ea-2-2-3-thesis-direction-capture.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:9"
  ],
  "content/kompendium/techniques/ea-2-2-4-collaboration-monopolizace.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:8"
  ],
  "content/kompendium/techniques/ea-2-2-5-recommendation-coercion.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:9"
  ],
  "content/kompendium/techniques/ea-2-2-6-time-control-academic.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:9"
  ],
  "content/kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:9"
  ],
  "content/kompendium/techniques/ea-2-2-8-intellectual-paternity-claim.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:9"
  ],
  "content/kompendium/techniques/ea-2-2-9-disciplinary-boundary-coercion.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:9"
  ],
  "content/kompendium/techniques/ea-2-3-1-clip-takeout.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:9"
  ],
  "content/kompendium/techniques/ea-2-3-10-viralni-misrepresentation.md": [
-  "bullets",
-  "citations"
+  "citations:9",
+  "bullets:9"
  ],
  "content/kompendium/techniques/ea-2-3-2-context-collapse.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:9"
  ],
  "content/kompendium/techniques/ea-2-3-3-quote-mining.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:9"
  ],
  "content/kompendium/techniques/ea-2-3-4-mob-coordination.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:9"
  ],
  "content/kompendium/techniques/ea-2-3-5-pseudo-kontroverze-amplifikace.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:9"
  ],
  "content/kompendium/techniques/ea-2-3-6-platform-coordinated-attack.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:8"
  ],
  "content/kompendium/techniques/ea-2-3-7-deepfake-personalni.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:9"
  ],
  "content/kompendium/techniques/ea-2-3-8-doxxing-epistemicky.md": [
-  "bullets",
-  "citations",
-  "citation-unresolved"
+  "citation-unresolved",
+  "citations:12",
+  "bullets:8"
  ],
  "content/kompendium/techniques/ea-2-3-9-sealioning-medialni.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:9"
  ],
  "content/kompendium/techniques/ea-2-4-1-board-capture.md": [
-  "bullets",
-  "citations"
+  "citations:10",
+  "bullets:14"
  ],
  "content/kompendium/techniques/ea-2-4-10-disciplinary-society-capture.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:14"
  ],
  "content/kompendium/techniques/ea-2-4-2-policy-rewriting-skryta.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:14"
  ],
  "content/kompendium/techniques/ea-2-4-3-funding-redirect.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:14"
  ],
  "content/kompendium/techniques/ea-2-4-4-leadership-capture.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:14"
  ],
  "content/kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:16"
  ],
  "content/kompendium/techniques/ea-2-4-6-peer-review-capture.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:14"
  ],
  "content/kompendium/techniques/ea-2-4-7-conference-capture.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:14"
  ],
  "content/kompendium/techniques/ea-2-4-8-journal-capture.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:14"
  ],
  "content/kompendium/techniques/ea-2-4-9-curriculum-capture.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:14"
  ],
  "content/kompendium/techniques/ea-2-4-falesny-konsensus.md": [
+  "citations:11",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:10"
  ],
  "content/kompendium/techniques/ea-2-5-1-pseudo-pokora-internalizace.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:14"
  ],
  "content/kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md": [
-  "citations"
+  "citations:11"
  ],
  "content/kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md": [
-  "bullets",
-  "citations"
+  "citations:9",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:14"
  ],
  "content/kompendium/techniques/ea-2-5-5-bothsidesizm-internalizace.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:14"
  ],
  "content/kompendium/techniques/ea-2-5-6-platonic-cave-self.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:14"
  ],
  "content/kompendium/techniques/ea-2-5-7-self-cancelation.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:13"
  ],
  "content/kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md": [
-  "citations"
+  "citations:11"
  ],
  "content/kompendium/techniques/ea-2-5-9-identity-uncertainty-cult.md": [
-  "citations"
+  "citations:10"
  ],
  "content/kompendium/techniques/ea-3-1-1-graduated-exposure-design.md": [
+  "citations:5",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:24"
  ],
  "content/kompendium/techniques/ea-3-1-10-reflective-journaling.md": [
+  "citations:5",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:24"
  ],
  "content/kompendium/techniques/ea-3-1-2-experiential-scaffolding.md": [
+  "citations:4",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:24"
  ],
  "content/kompendium/techniques/ea-3-1-3-metacognitive-cultivation.md": [
+  "citations:5",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:24"
  ],
  "content/kompendium/techniques/ea-3-1-4-epistemic-community-formation.md": [
+  "citations:5",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:24"
  ],
  "content/kompendium/techniques/ea-3-1-5-stabilization-anchoring.md": [
+  "citations:5",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:24"
  ],
  "content/kompendium/techniques/ea-3-1-6-recognition-training.md": [
+  "citations:5",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:24"
  ],
  "content/kompendium/techniques/ea-3-1-7-neutralization-practicum.md": [
+  "citations:5",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:24"
  ],
  "content/kompendium/techniques/ea-3-1-8-compositional-analysis-drill.md": [
+  "citations:4",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:24"
  ],
  "content/kompendium/techniques/ea-3-1-9-debriefing-protocol.md": [
+  "citations:5",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:24"
  ],
  "content/kompendium/techniques/ea-3-2-1-supervisor-certification.md": [
+  "citations:4",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:24"
  ],
  "content/kompendium/techniques/ea-3-2-10-supervisor-self-care.md": [
+  "citations:5",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:24"
  ],
  "content/kompendium/techniques/ea-3-2-2-multi-paradigm-fluency.md": [
+  "citations:4",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:24"
  ],
  "content/kompendium/techniques/ea-3-2-3-emotional-regulation-mastery.md": [
+  "citations:4",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:24"
  ],
  "content/kompendium/techniques/ea-3-2-4-metacommunication-skill.md": [
+  "citations:4",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:24"
  ],
  "content/kompendium/techniques/ea-3-2-5-ethical-sophistication.md": [
-  "bullets"
+  "bullets:3"
  ],
  "content/kompendium/techniques/ea-3-2-6-cohort-monitoring.md": [
-  "bullets"
+  "bullets:3"
  ],
  "content/kompendium/techniques/ea-3-2-7-individual-supervision.md": [
-  "bullets"
+  "bullets:3"
  ],
  "content/kompendium/techniques/ea-3-2-8-peer-consultation.md": [
-  "bullets"
+  "bullets:3"
  ],
  "content/kompendium/techniques/ea-3-2-9-iatrogenic-risk-assessment.md": [
-  "bullets",
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md": [
-  "bullets",
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/techniques/ea-3-3-10-funding-model-ethics.md": [
-  "bullets",
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/techniques/ea-3-3-2-irb-protocol-design.md": [
-  "bullets",
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/techniques/ea-3-3-3-curriculum-architecture.md": [
-  "bullets",
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/techniques/ea-3-3-4-evaluation-metrics.md": [
-  "bullets",
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/techniques/ea-3-3-5-certification-pipeline.md": [
-  "bullets",
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/techniques/ea-3-3-6-relapse-prevention-program.md": [
-  "bullets",
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/techniques/ea-3-3-7-alumni-network.md": [
-  "bullets",
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/techniques/ea-3-3-8-research-translation-pipeline.md": [
-  "bullets",
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/techniques/ea-3-3-9-cross-institutional-collaboration.md": [
-  "bullets",
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/techniques/ea-4-1-1-foundation-stage.md": [
-  "bullets"
- ],
- "content/kompendium/techniques/ea-4-1-10-debriefing-cascade.md": [
-  "bullets"
- ],
- "content/kompendium/techniques/ea-4-1-2-exposure-stage.md": [
-  "bullets"
- ],
- "content/kompendium/techniques/ea-4-1-3-integration-stage.md": [
-  "bullets"
- ],
- "content/kompendium/techniques/ea-4-1-4-mastery-stage.md": [
-  "bullets"
- ],
- "content/kompendium/techniques/ea-4-1-5-reintegration-stage.md": [
-  "bullets"
- ],
- "content/kompendium/techniques/ea-4-1-6-failure-mode-detection.md": [
-  "bullets"
- ],
- "content/kompendium/techniques/ea-4-1-7-termination-criteria.md": [
-  "bullets",
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/techniques/ea-4-1-8-supervisor-rotation.md": [
-  "bullets"
- ],
- "content/kompendium/techniques/ea-4-1-9-cohort-monitoring.md": [
-  "bullets"
- ],
- "content/kompendium/techniques/ea-4-1-gaslighting.md": [
   "detail",
   "weak-link",
-  "bullets",
-  "citations",
+  "bullets:3"
+ ],
+ "content/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md": [
+  "detail",
+  "weak-link",
+  "bullets:3"
+ ],
+ "content/kompendium/techniques/ea-3-3-10-funding-model-ethics.md": [
+  "detail",
+  "weak-link",
+  "bullets:3"
+ ],
+ "content/kompendium/techniques/ea-3-3-2-irb-protocol-design.md": [
+  "detail",
+  "weak-link",
+  "bullets:3"
+ ],
+ "content/kompendium/techniques/ea-3-3-3-curriculum-architecture.md": [
+  "detail",
+  "weak-link",
+  "bullets:3"
+ ],
+ "content/kompendium/techniques/ea-3-3-4-evaluation-metrics.md": [
+  "detail",
+  "weak-link",
+  "bullets:3"
+ ],
+ "content/kompendium/techniques/ea-3-3-5-certification-pipeline.md": [
+  "detail",
+  "weak-link",
+  "bullets:3"
+ ],
+ "content/kompendium/techniques/ea-3-3-6-relapse-prevention-program.md": [
+  "detail",
+  "weak-link",
+  "bullets:3"
+ ],
+ "content/kompendium/techniques/ea-3-3-7-alumni-network.md": [
+  "detail",
+  "weak-link",
+  "bullets:3"
+ ],
+ "content/kompendium/techniques/ea-3-3-8-research-translation-pipeline.md": [
+  "detail",
+  "weak-link",
+  "bullets:3"
+ ],
+ "content/kompendium/techniques/ea-3-3-9-cross-institutional-collaboration.md": [
+  "detail",
+  "weak-link",
+  "bullets:3"
+ ],
+ "content/kompendium/techniques/ea-4-1-1-foundation-stage.md": [
+  "bullets:3"
+ ],
+ "content/kompendium/techniques/ea-4-1-10-debriefing-cascade.md": [
+  "bullets:3"
+ ],
+ "content/kompendium/techniques/ea-4-1-2-exposure-stage.md": [
+  "bullets:3"
+ ],
+ "content/kompendium/techniques/ea-4-1-3-integration-stage.md": [
+  "bullets:3"
+ ],
+ "content/kompendium/techniques/ea-4-1-4-mastery-stage.md": [
+  "bullets:3"
+ ],
+ "content/kompendium/techniques/ea-4-1-5-reintegration-stage.md": [
+  "bullets:3"
+ ],
+ "content/kompendium/techniques/ea-4-1-6-failure-mode-detection.md": [
+  "bullets:3"
+ ],
+ "content/kompendium/techniques/ea-4-1-7-termination-criteria.md": [
+  "detail",
+  "weak-link",
+  "bullets:3"
+ ],
+ "content/kompendium/techniques/ea-4-1-8-supervisor-rotation.md": [
+  "bullets:3"
+ ],
+ "content/kompendium/techniques/ea-4-1-9-cohort-monitoring.md": [
+  "bullets:3"
+ ],
+ "content/kompendium/techniques/ea-4-1-gaslighting.md": [
+  "citations:6",
+  "detail",
+  "bullets:18",
+  "weak-link",
   "bold-term"
  ],
  "content/kompendium/techniques/ea-4-2-1-pre-engagement-screening.md": [
-  "bullets",
   "detail",
-  "weak-link"
+  "weak-link",
+  "bullets:3"
  ],
  "content/kompendium/techniques/ea-4-2-10-emergency-extraction.md": [
-  "bullets"
+  "bullets:3"
  ],
  "content/kompendium/techniques/ea-4-2-2-real-time-monitoring.md": [
-  "bullets"
+  "bullets:3"
  ],
  "content/kompendium/techniques/ea-4-2-3-post-engagement-reintegration.md": [
-  "bullets"
+  "bullets:3"
  ],
  "content/kompendium/techniques/ea-4-2-4-irb-review-multi-tier.md": [
-  "bullets"
+  "bullets:3"
  ],
  "content/kompendium/techniques/ea-4-2-5-whistleblower-protection.md": [
-  "bullets",
-  "citations"
+  "citations:20",
+  "bullets:20"
  ],
  "content/kompendium/techniques/ea-4-2-6-consent-withdrawal.md": [
-  "bullets",
-  "citations"
+  "citations:20",
+  "bullets:20"
  ],
  "content/kompendium/techniques/ea-4-2-7-documentation-chain-custody.md": [
-  "bullets",
-  "citations"
+  "citations:20",
+  "bullets:20"
  ],
  "content/kompendium/techniques/ea-4-2-8-long-term-followup.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:19"
  ],
  "content/kompendium/techniques/ea-4-2-9-decompensation-response.md": [
-  "bullets",
-  "citations"
+  "citations:20",
+  "bullets:20"
  ],
  "content/kompendium/techniques/ea-4-3-1-systematic-conceptual-disassembly.md": [
-  "bullets",
-  "citations"
+  "citations:21",
+  "bullets:20"
  ],
  "content/kompendium/techniques/ea-4-3-10-conceptual-rebuild-protocol.md": [
-  "bullets",
-  "citations"
+  "citations:20",
+  "bullets:20"
  ],
  "content/kompendium/techniques/ea-4-3-2-categorical-boundary-erosion.md": [
-  "bullets",
-  "citations"
+  "citations:21",
+  "bullets:20"
  ],
  "content/kompendium/techniques/ea-4-3-3-semantic-stability-disruption.md": [
-  "bullets",
-  "citations"
+  "citations:20",
+  "bullets:20"
  ],
  "content/kompendium/techniques/ea-4-3-4-inferential-chain-breakage.md": [
-  "bullets",
-  "citations"
+  "citations:20",
+  "bullets:20"
  ],
  "content/kompendium/techniques/ea-4-3-5-evidential-criteria-modification.md": [
-  "bullets",
-  "citations"
+  "citations:20",
+  "bullets:20"
  ],
  "content/kompendium/techniques/ea-4-3-6-meta-conceptual-reset.md": [
-  "bullets",
-  "citations"
+  "citations:20",
+  "bullets:20"
  ],
  "content/kompendium/techniques/ea-4-3-7-paradigmatic-fluidization.md": [
-  "bullets",
-  "citations"
+  "citations:21",
+  "bullets:20"
  ],
  "content/kompendium/techniques/ea-4-3-8-hermeneutic-recursion.md": [
-  "bullets",
-  "citations"
+  "citations:20",
+  "bullets:20"
  ],
  "content/kompendium/techniques/ea-4-3-9-axiological-suspension.md": [
-  "bullets",
-  "citations"
+  "citations:20",
+  "bullets:20"
  ],
  "content/kompendium/techniques/ea-4-4-1-narrative-disassembly.md": [
-  "bullets",
-  "citations"
+  "citations:20",
+  "bullets:20"
  ],
  "content/kompendium/techniques/ea-4-4-10-identity-stabilization.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:19"
  ],
  "content/kompendium/techniques/ea-4-4-2-role-fragmentation.md": [
-  "bullets",
-  "citations"
+  "citations:20",
+  "bullets:20"
  ],
  "content/kompendium/techniques/ea-4-4-3-relational-restructure.md": [
-  "bullets",
-  "citations"
+  "citations:21",
+  "bullets:20"
  ],
  "content/kompendium/techniques/ea-4-4-4-biographical-recontextualization.md": [
-  "bullets",
-  "citations"
+  "citations:20",
+  "bullets:20"
  ],
  "content/kompendium/techniques/ea-4-4-5-temporal-self-disruption.md": [
-  "bullets",
-  "citations"
+  "citations:20",
+  "bullets:20"
  ],
  "content/kompendium/techniques/ea-4-4-6-axiological-self-reset.md": [
-  "bullets",
-  "citations"
+  "citations:20",
+  "bullets:20"
  ],
  "content/kompendium/techniques/ea-4-4-7-moral-self-suspension.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:19"
  ],
  "content/kompendium/techniques/ea-4-4-8-coherence-restoration.md": [
-  "bullets",
-  "citations"
+  "citations:21",
+  "bullets:20"
  ],
  "content/kompendium/techniques/ea-4-4-9-narrative-reconstruction.md": [
-  "bullets",
-  "citations"
+  "citations:20",
+  "bullets:20"
  ],
  "content/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:14"
  ],
  "content/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:14"
  ],
  "content/kompendium/techniques/ea-5-1-11-modalni-dezorientace.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:14"
  ],
  "content/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:14"
  ],
  "content/kompendium/techniques/ea-5-1-13-hyperreflexivita.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:22"
  ],
  "content/kompendium/techniques/ea-5-1-14-iluzorni-transcendence.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:23"
  ],
  "content/kompendium/techniques/ea-5-1-15-apofaticke-zacykleni.md": [
-  "bullets",
-  "citations"
+  "citations:17",
+  "bullets:27"
  ],
  "content/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:19"
  ],
  "content/kompendium/techniques/ea-5-1-17-tautologicka-imploze.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:20"
  ],
  "content/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice.md": [
-  "bullets",
-  "citations"
+  "citations:16",
+  "bullets:25"
  ],
  "content/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:22"
  ],
  "content/kompendium/techniques/ea-5-1-2-konceptualni-nihilace.md": [
-  "bullets",
-  "citations"
+  "citations:18",
+  "bullets:14"
  ],
  "content/kompendium/techniques/ea-5-1-20-holograficka-redukce.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:21"
  ],
  "content/kompendium/techniques/ea-5-1-21-sebe-referencni-paradox.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:15",
+  "bullets:23"
  ],
  "content/kompendium/techniques/ea-5-1-22-diferencialni-nihilace.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:13",
+  "bullets:19"
  ],
  "content/kompendium/techniques/ea-5-1-23-asymptoticka-dezintegrace.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:18"
  ],
  "content/kompendium/techniques/ea-5-1-24-epistemicka-vakuace.md": [
-  "bullets",
-  "citations"
+  "citations:16",
+  "bullets:19"
  ],
  "content/kompendium/techniques/ea-5-1-25-singularni-narativni-kolaps.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:20"
  ],
  "content/kompendium/techniques/ea-5-1-26-trans-paradigmaticka-migrace.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:21"
  ],
  "content/kompendium/techniques/ea-5-1-27-meta-epistemicka-redukce.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:23"
  ],
  "content/kompendium/techniques/ea-5-1-28-konvergentni-singularita.md": [
-  "bullets",
-  "citations"
+  "citations:10",
+  "bullets:23"
  ],
  "content/kompendium/techniques/ea-5-1-29-ontologicka-exfoliace.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:13",
+  "bullets:23"
  ],
  "content/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie.md": [
-  "bullets",
-  "citations"
+  "citations:18",
+  "bullets:17"
  ],
  "content/kompendium/techniques/ea-5-1-30-konceptualni-entropie.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:13",
+  "bullets:25"
  ],
  "content/kompendium/techniques/ea-5-1-4-semanticka-imploze.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:22"
  ],
  "content/kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:23"
  ],
  "content/kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:35"
  ],
  "content/kompendium/techniques/ea-5-1-7-referencni-rekurze.md": [
-  "bullets",
-  "citations"
+  "citations:17",
+  "bullets:21"
  ],
  "content/kompendium/techniques/ea-5-1-8-konceptualni-fragmentace.md": [
-  "bullets",
-  "citations"
+  "citations:17",
+  "bullets:21"
  ],
  "content/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md": [
-  "bullets",
-  "citations"
+  "citations:18",
+  "bullets:27"
  ],
  "content/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:18"
  ],
  "content/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:18"
  ],
  "content/kompendium/techniques/ea-5-2-11-kategorialni-anihilace.md": [
+  "citations:6",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:22"
  ],
  "content/kompendium/techniques/ea-5-2-12-noumenalni-paralyza.md": [
+  "citations:7",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:21"
  ],
  "content/kompendium/techniques/ea-5-2-13-apriorni-fragmentace.md": [
+  "citations:6",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:22"
  ],
  "content/kompendium/techniques/ea-5-2-14-konstitutivni-zhrouceni.md": [
+  "citations:3",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:22"
  ],
  "content/kompendium/techniques/ea-5-2-15-transcendentalni-implosion.md": [
+  "citations:3",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:22"
  ],
  "content/kompendium/techniques/ea-5-2-16-kantovska-paradoxie.md": [
+  "citations:3",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:21"
  ],
  "content/kompendium/techniques/ea-5-2-17-husserlovska-redukce-perverze.md": [
+  "citations:3",
   "detail",
+  "bullets:24",
   "weak-link",
-  "bullets",
-  "citations",
   "bold-term"
  ],
  "content/kompendium/techniques/ea-5-2-18-heideggerovska-rozklady.md": [
+  "citations:3",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:26"
  ],
  "content/kompendium/techniques/ea-5-2-19-merleau-pontyovska-deformace.md": [
+  "citations:3",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:22"
  ],
  "content/kompendium/techniques/ea-5-2-2-transcendentalni-iluze.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:17"
  ],
  "content/kompendium/techniques/ea-5-2-20-apperceptivni-rozklad.md": [
+  "citations:4",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:22"
  ],
  "content/kompendium/techniques/ea-5-2-21-subjekt-objekt-fuzia.md": [
+  "citations:4",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:22"
  ],
  "content/kompendium/techniques/ea-5-2-22-intentionalni-rozpojeni.md": [
+  "citations:4",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:22"
  ],
  "content/kompendium/techniques/ea-5-2-23-synteticka-paralyza.md": [
+  "citations:2",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:23"
  ],
  "content/kompendium/techniques/ea-5-2-24-analyticka-anihilace.md": [
+  "citations:4",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:22"
  ],
  "content/kompendium/techniques/ea-5-2-25-kategorialni-mlha.md": [
+  "citations:4",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:22"
  ],
  "content/kompendium/techniques/ea-5-2-26-schemata-rozpad.md": [
+  "citations:3",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:22"
  ],
  "content/kompendium/techniques/ea-5-2-27-apriorni-deformace.md": [
+  "citations:3",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:22"
  ],
  "content/kompendium/techniques/ea-5-2-28-transcendentalni-vakuace.md": [
+  "citations:3",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:22"
  ],
  "content/kompendium/techniques/ea-5-2-29-meta-fenomenalni-redukce.md": [
+  "citations:4",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:22"
  ],
  "content/kompendium/techniques/ea-5-2-3-noumenalni-redukce.md": [
-  "bullets",
-  "citations"
+  "citations:10",
+  "bullets:23"
  ],
  "content/kompendium/techniques/ea-5-2-30-konvergentni-meta-singularita.md": [
+  "citations:3",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:31"
  ],
  "content/kompendium/techniques/ea-5-2-4-apriorni-saturace.md": [
-  "bullets",
-  "citations"
+  "citations:10",
+  "bullets:19"
  ],
  "content/kompendium/techniques/ea-5-2-5-konstitutivni-rozpad.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:17"
  ],
  "content/kompendium/techniques/ea-5-2-6-transcendentalni-rekursivita.md": [
-  "bullets",
-  "citations"
+  "citations:9",
+  "bullets:17"
  ],
  "content/kompendium/techniques/ea-5-2-7-kategorialni-disoluce.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:19"
  ],
  "content/kompendium/techniques/ea-5-2-8-perspektivisticky-kolaps.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-5-2-9-konceptualni-aporie.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:18"
  ],
  "content/kompendium/techniques/ea-5-3-1-identitarni-substituce.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:23"
  ],
  "content/kompendium/techniques/ea-5-3-10-perspektivni-substituce.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:23"
  ],
  "content/kompendium/techniques/ea-5-3-11-axiologicka-inverze.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:23"
  ],
  "content/kompendium/techniques/ea-5-3-12-relacni-restrukturalizace.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:23"
  ],
  "content/kompendium/techniques/ea-5-3-13-genealogicka-rekonstrukce.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:23"
  ],
  "content/kompendium/techniques/ea-5-3-14-somaticka-rekodifikace.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:4",
+  "bullets:23"
  ],
  "content/kompendium/techniques/ea-5-3-15-mentalizacni-disrupce.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:23"
  ],
  "content/kompendium/techniques/ea-5-3-16-fenomenologicka-rekonstituce.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:23"
  ],
  "content/kompendium/techniques/ea-5-3-17-existencialni-rekonfigurace.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:23"
  ],
  "content/kompendium/techniques/ea-5-3-18-esencialisticka-redukce.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:23"
  ],
  "content/kompendium/techniques/ea-5-3-19-autobiograficka-amnestizace.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:23"
  ],
  "content/kompendium/techniques/ea-5-3-2-autobiograficka-dekonstrukce.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:23"
  ],
  "content/kompendium/techniques/ea-5-3-20-self-vector-rotation.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:23"
  ],
  "content/kompendium/techniques/ea-5-3-21-character-transposition.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:4",
+  "bullets:23"
  ],
  "content/kompendium/techniques/ea-5-3-22-moralni-osy-inverze.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:23"
  ],
  "content/kompendium/techniques/ea-5-3-23-konstitutivni-mytologizace.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:23"
  ],
  "content/kompendium/techniques/ea-5-3-24-proto-self-rozklad.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:23"
  ],
  "content/kompendium/techniques/ea-5-3-25-minimal-self-deformace.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:23"
  ],
  "content/kompendium/techniques/ea-5-3-26-core-self-fraktura.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:23"
  ],
  "content/kompendium/techniques/ea-5-3-27-autobiografi-self-fragmentace.md": [
+  "citations:8",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:10"
  ],
  "content/kompendium/techniques/ea-5-3-27-ego-skeletalni-redukce.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:23"
  ],
  "content/kompendium/techniques/ea-5-3-28-pseudo-self-implantace.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:23"
  ],
  "content/kompendium/techniques/ea-5-3-29-simulakralni-self-substituce.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:23"
  ],
  "content/kompendium/techniques/ea-5-3-3-rolova-fragmentace.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:23"
  ],
  "content/kompendium/techniques/ea-5-3-30-konvergentni-hypertransformace.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:23"
  ],
  "content/kompendium/techniques/ea-5-3-32-rekonstituce-skrze-rituall.md": [
+  "citations:8",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:10"
  ],
  "content/kompendium/techniques/ea-5-3-34-konvergentni-identitarni-tlak.md": [
+  "citations:9",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:11"
  ],
  "content/kompendium/techniques/ea-5-3-36-identitarni-singularita.md": [
+  "citations:9",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:10"
  ],
  "content/kompendium/techniques/ea-5-3-39-anti-individuacni-pust.md": [
+  "citations:9",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:11"
  ],
  "content/kompendium/techniques/ea-5-3-4-telesna-disociace.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:23"
  ],
  "content/kompendium/techniques/ea-5-3-41-trans-individualizace.md": [
+  "citations:8",
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
+  "bullets:12"
  ],
  "content/kompendium/techniques/ea-5-3-42-self-objektifikace-totalni.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:13"
  ],
  "content/kompendium/techniques/ea-5-3-5-temporalne-vyvojova-inverze.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:23"
  ],
  "content/kompendium/techniques/ea-5-3-6-rekurzivni-hypertransformace.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:23"
  ],
  "content/kompendium/techniques/ea-5-3-7-self-narrative-replacement.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:23"
  ],
  "content/kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:23"
  ],
  "content/kompendium/techniques/ea-5-3-9-afektivni-prepolovani.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:23"
  ],
  "content/kompendium/techniques/ea-5-4-1-lhar-paradox-aplikace.md": [
-  "bullets",
-  "citations"
+  "citations:3",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-5-4-10-berry-paradox-implantace.md": [
-  "bullets",
-  "citations"
+  "citations:3",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-5-4-11-richardova-paradox-zneuziti.md": [
-  "bullets",
-  "citations",
+  "weak-link",
   "detail",
-  "weak-link"
+  "citations:3",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-5-4-12-grellingova-paradox-aplikace.md": [
-  "bullets",
-  "citations",
+  "weak-link",
   "detail",
-  "weak-link"
+  "citations:3",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-5-4-13-heterolog-self-aplikace.md": [
-  "bullets",
-  "citations"
+  "citations:3",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-5-4-14-iliada-paradox.md": [
-  "bullets",
-  "citations"
+  "citations:3",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-5-4-15-holisticka-self-reference-zhrouceni.md": [
-  "bullets",
-  "citations"
+  "citations:3",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-5-4-16-kruhove-definice-implantace.md": [
-  "bullets",
-  "citations"
+  "citations:3",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-5-4-17-infinit-regres-implantace.md": [
-  "bullets",
-  "citations"
+  "citations:3",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-5-4-18-circular-justification-trap.md": [
-  "bullets",
-  "citations",
+  "weak-link",
   "detail",
-  "weak-link"
+  "citations:4",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-5-4-19-self-undermining-claim.md": [
-  "bullets",
-  "citations",
+  "weak-link",
   "detail",
-  "weak-link"
+  "citations:3",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-5-4-2-russell-typ-violace.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-5-4-20-performative-contradiction-induction.md": [
-  "bullets",
-  "citations",
+  "weak-link",
   "detail",
-  "weak-link"
+  "citations:4",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-5-4-21-semanticka-vzpoury.md": [
-  "bullets",
-  "citations",
+  "weak-link",
   "detail",
-  "weak-link"
+  "citations:3",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-5-4-22-logicka-paradox-eskalace.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-5-4-23-modalni-paradox-aplikace.md": [
-  "bullets",
-  "citations",
+  "weak-link",
   "detail",
-  "weak-link"
+  "citations:4",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md": [
-  "bullets",
-  "citations",
+  "weak-link",
   "detail",
-  "weak-link"
+  "citations:4",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-5-4-25-soritska-paradox-zneuziti.md": [
-  "bullets",
-  "citations",
+  "weak-link",
   "detail",
-  "weak-link"
+  "citations:3",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-5-4-26-heap-paradox-eskalace.md": [
-  "bullets",
-  "citations",
+  "weak-link",
   "detail",
-  "weak-link"
+  "citations:3",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-5-4-27-ship-of-theseus-aplikace.md": [
-  "bullets",
-  "citations",
+  "weak-link",
   "detail",
-  "weak-link"
+  "citations:3",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-5-4-28-trolley-paradox-iterace.md": [
-  "bullets",
-  "citations"
+  "citations:3",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-5-4-29-newcomb-paradox-implantace.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-5-4-3-tarsky-diagonalizace.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-5-4-30-paradox-volby-totalni.md": [
-  "bullets",
-  "citations",
+  "weak-link",
   "detail",
-  "weak-link"
+  "citations:4",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-5-4-31-paradox-vsemocnosti.md": [
-  "bullets",
-  "citations",
+  "weak-link",
   "detail",
-  "weak-link"
+  "citations:4",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-5-4-32-paradox-tolerance.md": [
-  "bullets",
-  "citations",
+  "weak-link",
   "detail",
-  "weak-link"
+  "citations:3",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-5-4-33-paradox-svobody.md": [
-  "bullets",
-  "citations",
+  "weak-link",
   "detail",
-  "weak-link"
+  "citations:4",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-5-4-34-paradox-pravdy-prizemni.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-5-4-35-surprize-test-paradox.md": [
-  "bullets",
-  "citations",
+  "weak-link",
   "detail",
-  "weak-link"
+  "citations:4",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-5-4-36-unexpected-hanging.md": [
-  "bullets",
-  "citations",
+  "weak-link",
   "detail",
-  "weak-link"
+  "citations:3",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-5-4-37-paradox-prediktivni.md": [
-  "bullets",
-  "citations",
+  "weak-link",
   "detail",
-  "weak-link"
+  "citations:4",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-5-4-38-self-defeating-prediction.md": [
-  "bullets",
-  "citations",
+  "weak-link",
   "detail",
-  "weak-link"
+  "citations:4",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-5-4-39-tachyon-anti-causality.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-5-4-4-godel-reflexivita.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:16"
  ],
  "content/kompendium/techniques/ea-5-4-40-retrokauzalita-trap.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-5-4-41-bootstrap-paradox-implantace.md": [
-  "bullets",
-  "citations"
+  "citations:2",
+  "bullets:8"
  ],
  "content/kompendium/techniques/ea-5-4-42-grandfather-paradox-aplikace.md": [
-  "bullets",
-  "citations"
+  "citations:2",
+  "bullets:8"
  ],
  "content/kompendium/techniques/ea-5-4-43-predestiny-paradox.md": [
-  "bullets",
-  "citations"
+  "citations:2",
+  "bullets:8"
  ],
  "content/kompendium/techniques/ea-5-4-44-simulation-regress-trap.md": [
-  "bullets",
-  "citations"
+  "citations:2",
+  "bullets:8"
  ],
  "content/kompendium/techniques/ea-5-4-45-cogito-paradox-zhrouceni.md": [
-  "bullets",
-  "citations"
+  "citations:2",
+  "bullets:8"
  ],
  "content/kompendium/techniques/ea-5-4-46-evil-demon-paradox.md": [
-  "bullets",
-  "citations"
+  "citations:2",
+  "bullets:8"
  ],
  "content/kompendium/techniques/ea-5-4-47-matrix-paradox-implantace.md": [
-  "bullets",
-  "citations"
+  "citations:2",
+  "bullets:8"
  ],
  "content/kompendium/techniques/ea-5-4-48-boltzmannska-paradox-self.md": [
-  "bullets",
-  "citations"
+  "citations:2",
+  "bullets:8"
  ],
  "content/kompendium/techniques/ea-5-4-49-mary-paradox-knowledge.md": [
-  "bullets",
-  "citations"
+  "citations:2",
+  "bullets:8"
  ],
  "content/kompendium/techniques/ea-5-4-5-wittgenstein-pravidlo-rozklad.md": [
-  "bullets",
-  "citations"
+  "citations:2",
+  "bullets:8"
  ],
  "content/kompendium/techniques/ea-5-4-50-zombie-paradox-self.md": [
-  "bullets",
-  "citations"
+  "citations:2",
+  "bullets:8"
  ],
  "content/kompendium/techniques/ea-5-4-51-inverted-spectrum-paradox.md": [
-  "bullets",
-  "citations"
+  "citations:2",
+  "bullets:8"
  ],
  "content/kompendium/techniques/ea-5-4-52-ship-of-self-paradox.md": [
-  "bullets",
-  "citations"
+  "citations:2",
+  "bullets:8"
  ],
  "content/kompendium/techniques/ea-5-4-53-teleporter-paradox.md": [
-  "bullets",
-  "citations"
+  "citations:2",
+  "bullets:8"
  ],
  "content/kompendium/techniques/ea-5-4-54-fission-paradox-self.md": [
-  "bullets",
-  "citations"
+  "citations:2",
+  "bullets:8"
  ],
  "content/kompendium/techniques/ea-5-4-55-fusion-paradox-self.md": [
-  "bullets",
-  "citations"
+  "citations:2",
+  "bullets:8"
  ],
  "content/kompendium/techniques/ea-5-4-56-duplicate-paradox-self.md": [
-  "bullets",
-  "citations"
+  "citations:2",
+  "bullets:8"
  ],
  "content/kompendium/techniques/ea-5-4-57-branch-paradox-self.md": [
-  "bullets",
-  "citations"
+  "citations:2",
+  "bullets:8"
  ],
  "content/kompendium/techniques/ea-5-4-58-trans-temporal-self-paradox.md": [
-  "bullets",
-  "citations"
+  "citations:2",
+  "bullets:8"
  ],
  "content/kompendium/techniques/ea-5-4-59-meta-paradox-aplikace.md": [
-  "bullets",
-  "citations"
+  "citations:2",
+  "bullets:8"
  ],
  "content/kompendium/techniques/ea-5-4-6-konvergentni-paradox.md": [
-  "bullets",
-  "citations"
+  "citations:2",
+  "bullets:8"
  ],
  "content/kompendium/techniques/ea-5-4-60-konvergentni-meta-paradox.md": [
-  "bullets",
-  "citations"
+  "citations:2",
+  "bullets:8"
  ],
  "content/kompendium/techniques/ea-5-4-7-epimenidovska-implantace.md": [
-  "bullets",
-  "citations"
+  "citations:2",
+  "bullets:8"
  ],
  "content/kompendium/techniques/ea-5-4-8-quineho-paradox-vlnoviny.md": [
-  "bullets",
-  "citations"
+  "citations:2",
+  "bullets:8"
  ],
  "content/kompendium/techniques/ea-5-4-9-cantorova-diagonalizace-aplikace.md": [
-  "bullets",
-  "citations"
+  "citations:2",
+  "bullets:8"
  ],
  "content/kompendium/techniques/ea-5-5-1-pre-predikativni-blokace.md": [
-  "bullets",
-  "citations"
+  "citations:1",
+  "bullets:7"
  ],
  "content/kompendium/techniques/ea-5-5-10-proprioceptivni-confusion.md": [
-  "bullets",
-  "citations"
+  "citations:1",
+  "bullets:7"
  ],
  "content/kompendium/techniques/ea-5-5-11-vestibularni-disrupce.md": [
-  "bullets",
-  "citations"
+  "citations:1",
+  "bullets:7"
  ],
  "content/kompendium/techniques/ea-5-5-12-interoceptivni-rozpojeni.md": [
-  "bullets",
-  "citations"
+  "citations:1",
+  "bullets:7"
  ],
  "content/kompendium/techniques/ea-5-5-13-exteroceptivni-deformace.md": [
-  "bullets",
-  "citations"
+  "citations:1",
+  "bullets:7"
  ],
  "content/kompendium/techniques/ea-5-5-14-pretemporalni-rytm-disrupce.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:8",
+  "bullets:12"
  ],
  "content/kompendium/techniques/ea-5-5-15-pulzace-disrupce.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:8",
+  "bullets:12"
  ],
  "content/kompendium/techniques/ea-5-5-16-dech-rytm-rozklad.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:8",
+  "bullets:12"
  ],
  "content/kompendium/techniques/ea-5-5-17-srdcni-rytm-disonance.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:8",
+  "bullets:12"
  ],
  "content/kompendium/techniques/ea-5-5-18-cirkadianni-disrupce.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:8",
+  "bullets:12"
  ],
  "content/kompendium/techniques/ea-5-5-19-ultradian-rozklad.md": [
-  "bullets",
-  "citations",
-  "bold-term",
+  "citations:8",
   "detail",
-  "weak-link"
+  "bullets:12",
+  "weak-link",
+  "bold-term"
  ],
  "content/kompendium/techniques/ea-5-5-2-somato-fenomenologicka-disrupce.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:7",
+  "bullets:12"
  ],
  "content/kompendium/techniques/ea-5-5-20-pre-spaclni-restrukturalizace.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:8",
+  "bullets:12"
  ],
  "content/kompendium/techniques/ea-5-5-21-dream-state-implantace.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:7",
+  "bullets:12"
  ],
  "content/kompendium/techniques/ea-5-5-22-hypnagogicka-modulace.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:7",
+  "bullets:12"
  ],
  "content/kompendium/techniques/ea-5-5-23-liminalni-prostor-rozklad.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:8",
+  "bullets:12"
  ],
  "content/kompendium/techniques/ea-5-5-24-atmospheric-pressure-modulace.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:8",
+  "bullets:12"
  ],
  "content/kompendium/techniques/ea-5-5-25-svetelna-frekvence-modulace.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:7",
+  "bullets:12"
  ],
  "content/kompendium/techniques/ea-5-5-26-zvukova-pre-konceptualni.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:9",
+  "bullets:12"
  ],
  "content/kompendium/techniques/ea-5-5-27-taktilni-pre-konceptualni.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:7",
+  "bullets:12"
  ],
  "content/kompendium/techniques/ea-5-5-28-olfacticka-modulace.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:8",
+  "bullets:12"
  ],
  "content/kompendium/techniques/ea-5-5-29-multimodalni-konvergence.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:8",
+  "bullets:12"
  ],
  "content/kompendium/techniques/ea-5-5-3-atmosfericka-modulace.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:8",
+  "bullets:12"
  ],
  "content/kompendium/techniques/ea-5-5-30-konvergentni-singularita-transkonceptualni.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:7",
+  "bullets:12"
  ],
  "content/kompendium/techniques/ea-5-5-4-gestalt-disrupce.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:8",
+  "bullets:12"
  ],
  "content/kompendium/techniques/ea-5-5-5-pre-temporalni-rozpojeni.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:8",
+  "bullets:12"
  ],
  "content/kompendium/techniques/ea-5-5-6-konvergentni-pre-konceptualni.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:8",
+  "bullets:12"
  ],
  "content/kompendium/techniques/ea-5-5-7-afektivni-tonalni-redukce.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:8",
+  "bullets:12"
  ],
  "content/kompendium/techniques/ea-5-5-8-korporealni-schema-rozklad.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:8",
+  "bullets:12"
  ],
  "content/kompendium/techniques/ea-5-5-9-kinesteticka-deformace.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:8",
+  "bullets:12"
  ],
  "content/kompendium/techniques/ea-6-1-1-screening-strukturalni-rozhovor.md": [
-  "citations"
+  "citations:20"
  ],
  "content/kompendium/techniques/ea-6-1-10-epistemicka-trust-assessment.md": [
-  "citations"
+  "citations:19"
  ],
  "content/kompendium/techniques/ea-6-1-2-self-report-instrument.md": [
-  "citations"
+  "citations:20"
  ],
  "content/kompendium/techniques/ea-6-1-3-collateral-interview.md": [
-  "citations"
+  "citations:21"
  ],
  "content/kompendium/techniques/ea-6-1-4-observational-assessment.md": [
-  "citations"
+  "citations:19"
  ],
  "content/kompendium/techniques/ea-6-1-5-neuropsychologicke-vysetreni.md": [
-  "citations"
+  "citations:20"
  ],
  "content/kompendium/techniques/ea-6-1-6-fyziologicke-monitoring.md": [
-  "citations"
+  "citations:19"
  ],
  "content/kompendium/techniques/ea-6-1-7-trauma-history-protokol.md": [
-  "citations"
+  "citations:20"
  ],
  "content/kompendium/techniques/ea-6-1-8-disociativni-spektrum-assessment.md": [
-  "citations"
+  "citations:20"
  ],
  "content/kompendium/techniques/ea-6-1-9-metakognitivni-functional-assessment.md": [
-  "citations"
+  "citations:18"
  ],
  "content/kompendium/techniques/ea-6-2-1-trauma-focused-cbt-protokol.md": [
-  "citations"
+  "citations:15"
  ],
  "content/kompendium/techniques/ea-6-2-10-pharmacotherapy-adjuvant.md": [
-  "citations"
+  "citations:14"
  ],
  "content/kompendium/techniques/ea-6-2-2-emdr-protokol.md": [
-  "citations"
+  "citations:15"
  ],
  "content/kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md": [
-  "citations"
+  "citations:17"
  ],
  "content/kompendium/techniques/ea-6-2-4-metacognitive-therapy-protokol.md": [
-  "citations"
+  "citations:15"
  ],
  "content/kompendium/techniques/ea-6-2-5-narrative-therapy-protokol.md": [
-  "citations"
+  "citations:15"
  ],
  "content/kompendium/techniques/ea-6-2-6-dbt-distress-tolerance.md": [
-  "citations"
+  "citations:13"
  ],
  "content/kompendium/techniques/ea-6-2-7-mindfulness-based-trauma.md": [
-  "citations"
+  "citations:16"
  ],
  "content/kompendium/techniques/ea-6-2-8-somatic-experiencing-protokol.md": [
-  "citations"
+  "citations:15"
  ],
  "content/kompendium/techniques/ea-6-2-9-body-oriented-therapy-protokol.md": [
-  "citations"
+  "citations:16"
  ],
  "content/kompendium/techniques/ea-6-3-1-stabilizacni-faze-protokol.md": [
-  "citations"
+  "citations:18"
  ],
  "content/kompendium/techniques/ea-6-3-10-sense-of-coherence-restaurace.md": [
-  "citations"
+  "citations:16"
  ],
  "content/kompendium/techniques/ea-6-3-2-externalizacni-faze.md": [
-  "citations"
+  "citations:17"
  ],
  "content/kompendium/techniques/ea-6-3-3-metakognitivni-rehabilitace.md": [
-  "citations"
+  "citations:17"
  ],
  "content/kompendium/techniques/ea-6-3-4-hermeneuticka-rekonstrukce.md": [
-  "citations"
+  "citations:19"
  ],
  "content/kompendium/techniques/ea-6-3-5-konsolidace-protokol.md": [
-  "citations"
+  "citations:16"
  ],
  "content/kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md": [
-  "citations"
+  "citations:16"
  ],
  "content/kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md": [
-  "citations"
+  "citations:18"
  ],
  "content/kompendium/techniques/ea-6-3-8-relacni-restaurace.md": [
-  "citations"
+  "citations:16"
  ],
  "content/kompendium/techniques/ea-6-3-9-axiologicka-restaurace.md": [
-  "citations"
+  "citations:17"
  ],
  "content/kompendium/techniques/ea-6-4-1-deti-protokol.md": [
-  "citations"
+  "citations:23"
  ],
  "content/kompendium/techniques/ea-6-4-10-aktivisti-protokol.md": [
-  "citations"
+  "citations:17"
  ],
  "content/kompendium/techniques/ea-6-4-2-post-cult-protokol.md": [
-  "citations"
+  "citations:17"
  ],
  "content/kompendium/techniques/ea-6-4-3-uprchlik-protokol.md": [
-  "citations"
+  "citations:18"
  ],
  "content/kompendium/techniques/ea-6-4-4-LGBTQI-EA-protokol.md": [
-  "citations"
+  "citations:17"
  ],
  "content/kompendium/techniques/ea-6-4-5-vetersko-protokol.md": [
-  "citations"
+  "citations:17"
  ],
  "content/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md": [
-  "citations"
+  "citations:17"
  ],
  "content/kompendium/techniques/ea-6-4-7-policejni-trauma-protokol.md": [
-  "citations"
+  "citations:17"
  ],
  "content/kompendium/techniques/ea-6-4-8-zdravotnici-burnout-protokol.md": [
-  "citations"
+  "citations:23"
  ],
  "content/kompendium/techniques/ea-6-4-9-novinari-protokol.md": [
-  "citations"
+  "citations:17"
  ],
  "content/kompendium/techniques/ea-6-5-1-akutni-krize-protokol.md": [
-  "citations"
+  "citations:18"
  ],
  "content/kompendium/techniques/ea-6-5-10-outpatient-EA-protokol.md": [
-  "citations"
+  "citations:17"
  ],
  "content/kompendium/techniques/ea-6-5-2-suicidalni-EA-protokol.md": [
-  "citations"
+  "citations:18"
  ],
  "content/kompendium/techniques/ea-6-5-3-psychotic-spektrum-protokol.md": [
-  "citations"
+  "citations:17"
  ],
  "content/kompendium/techniques/ea-6-5-4-disociativni-akutni-protokol.md": [
-  "citations"
+  "citations:17"
  ],
  "content/kompendium/techniques/ea-6-5-5-er-screening-EA.md": [
-  "citations"
+  "citations:17"
  ],
  "content/kompendium/techniques/ea-6-5-6-inpatient-stabilizace.md": [
-  "citations"
+  "citations:16"
  ],
  "content/kompendium/techniques/ea-6-5-7-partialni-hospitalizace.md": [
-  "citations"
+  "citations:16"
  ],
  "content/kompendium/techniques/ea-6-5-8-day-program-EA.md": [
-  "citations"
+  "citations:16"
  ],
  "content/kompendium/techniques/ea-6-5-9-residential-program-EA.md": [
-  "citations"
+  "citations:17"
  ],
  "content/kompendium/techniques/ea-7-1-1-foucault-power-knowledge.md": [
-  "citations"
+  "citations:11"
  ],
  "content/kompendium/techniques/ea-7-1-10-merleau-ponty-embodiment.md": [
-  "citations"
+  "citations:9"
  ],
  "content/kompendium/techniques/ea-7-1-2-foucault-discipline.md": [
-  "citations"
+  "citations:9"
  ],
  "content/kompendium/techniques/ea-7-1-3-adorno-instrumental-reason.md": [
-  "citations"
+  "citations:9"
  ],
  "content/kompendium/techniques/ea-7-1-4-habermas-communicative-action.md": [
-  "citations"
+  "citations:14"
  ],
  "content/kompendium/techniques/ea-7-1-5-arendt-banality-evil.md": [
-  "citations"
+  "citations:9"
  ],
  "content/kompendium/techniques/ea-7-1-6-sloterdijk-spheres.md": [
-  "citations"
+  "citations:12"
  ],
  "content/kompendium/techniques/ea-7-1-7-deleuze-rhizome.md": [
-  "citations"
+  "citations:11"
  ],
  "content/kompendium/techniques/ea-7-1-8-derrida-deconstruction.md": [
-  "citations",
-  "citation-unresolved"
+  "citation-unresolved",
+  "citations:11"
  ],
  "content/kompendium/techniques/ea-7-1-9-heidegger-dasein.md": [
-  "citations"
+  "citations:12"
  ],
  "content/kompendium/techniques/ea-7-2-1-fricker-epistemic-injustice.md": [
-  "bullets",
-  "citations"
+  "citations:8",
+  "bullets:17"
  ],
  "content/kompendium/techniques/ea-7-2-10-nagel-view-from-nowhere.md": [
-  "bullets",
-  "citations"
+  "citations:10",
+  "bullets:11"
  ],
  "content/kompendium/techniques/ea-7-2-2-goldman-veritism.md": [
-  "bullets",
-  "citations"
+  "citations:8",
+  "bullets:12"
  ],
  "content/kompendium/techniques/ea-7-2-3-popper-falsification.md": [
-  "bullets",
-  "citations"
+  "citations:10",
+  "bullets:12"
  ],
  "content/kompendium/techniques/ea-7-2-4-lakatos-research-program.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:12"
  ],
  "content/kompendium/techniques/ea-7-2-5-kuhn-paradigm-shift.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:11",
+  "bullets:12"
  ],
  "content/kompendium/techniques/ea-7-2-6-feyerabend-anti-method.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:11"
  ],
  "content/kompendium/techniques/ea-7-2-7-quine-web-belief.md": [
-  "bullets",
-  "citations"
+  "citations:10",
+  "bullets:12"
  ],
  "content/kompendium/techniques/ea-7-2-8-davidson-charity.md": [
-  "bullets",
-  "citations"
+  "citations:10",
+  "bullets:12"
  ],
  "content/kompendium/techniques/ea-7-2-9-williams-truthfulness.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:12"
  ],
  "content/kompendium/techniques/ea-7-3-1-kahneman-system12.md": [
-  "bullets",
-  "citations"
+  "citations:10",
+  "bullets:13"
  ],
  "content/kompendium/techniques/ea-7-3-10-tononi-iit.md": [
-  "bullets",
-  "citations"
+  "citations:9",
+  "bullets:10"
  ],
  "content/kompendium/techniques/ea-7-3-2-tversky-heuristics.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:10"
  ],
  "content/kompendium/techniques/ea-7-3-3-friston-active-inference.md": [
-  "bullets",
-  "citations"
+  "citations:10",
+  "bullets:10"
  ],
  "content/kompendium/techniques/ea-7-3-4-clark-extended-mind.md": [
-  "bullets",
-  "citations"
+  "citations:9",
+  "bullets:12"
  ],
  "content/kompendium/techniques/ea-7-3-5-metzinger-ego-tunnel.md": [
-  "bullets",
-  "citations",
-  "citation-unresolved"
+  "citation-unresolved",
+  "citations:9",
+  "bullets:10"
  ],
  "content/kompendium/techniques/ea-7-3-6-thompson-mind-life.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:11"
  ],
  "content/kompendium/techniques/ea-7-3-7-dennett-intentional-stance.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:12"
  ],
  "content/kompendium/techniques/ea-7-3-8-chalmers-hard-problem.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:10"
  ],
  "content/kompendium/techniques/ea-7-3-9-dehaene-consciousness.md": [
-  "bullets",
-  "citations"
+  "citations:10",
+  "bullets:11"
  ],
  "content/kompendium/techniques/ea-8-1-1-bite-model-detail.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:8"
  ],
  "content/kompendium/techniques/ea-8-1-10-decision-making-capacity-scale.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:9",
+  "bullets:11"
  ],
  "content/kompendium/techniques/ea-8-1-2-cult-leaving-questionnaire.md": [
-  "bullets",
-  "citations"
+  "citations:9",
+  "bullets:7"
  ],
  "content/kompendium/techniques/ea-8-1-3-stalking-behavior-checklist.md": [
-  "bullets",
-  "citations"
+  "citations:9",
+  "bullets:7"
  ],
  "content/kompendium/techniques/ea-8-1-4-coercive-control-scale.md": [
-  "bullets",
-  "citations"
+  "citations:9",
+  "bullets:7"
  ],
  "content/kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md": [
-  "bullets",
-  "citations"
+  "citations:9",
+  "bullets:13"
  ],
  "content/kompendium/techniques/ea-8-1-6-betrayal-trauma-inventory.md": [
-  "bullets",
-  "citations"
+  "citations:8",
+  "bullets:11"
  ],
  "content/kompendium/techniques/ea-8-1-7-disociativni-experiences-scale.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:9",
+  "bullets:14"
  ],
  "content/kompendium/techniques/ea-8-1-8-traumatic-stress-screen.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:10",
+  "bullets:10"
  ],
  "content/kompendium/techniques/ea-8-1-9-metakognitivni-questionnaire.md": [
-  "bullets",
-  "citations"
+  "citations:9",
+  "bullets:12"
  ],
  "content/kompendium/techniques/ea-8-2-1-bite-framework.md": [
-  "bullets",
-  "citations"
+  "citations:8",
+  "bullets:10"
  ],
  "content/kompendium/techniques/ea-8-2-10-herman-recovery-stages.md": [
-  "bullets",
-  "citations"
+  "citations:3",
+  "bullets:3"
  ],
  "content/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-8-2-3-singer-six-conditions.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:18"
  ],
  "content/kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:14"
  ],
  "content/kompendium/techniques/ea-8-2-5-stark-coercive-control.md": [
-  "bullets",
-  "citations"
+  "citations:9",
+  "bullets:16"
  ],
  "content/kompendium/techniques/ea-8-2-6-icd-11-complex-trauma.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:10",
+  "bullets:13"
  ],
  "content/kompendium/techniques/ea-8-2-7-dsm-5-tr-trauma.md": [
-  "bullets",
-  "citations"
+  "citations:9",
+  "bullets:13"
  ],
  "content/kompendium/techniques/ea-8-2-8-aprw-attachment-trauma.md": [
-  "bullets",
-  "citations"
+  "citations:1",
+  "bullets:3"
  ],
  "content/kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md": [
-  "bullets",
-  "citations"
+  "citations:2",
+  "bullets:3"
  ],
  "content/kompendium/techniques/ea-8-3-1-foundational-readings.md": [
-  "bullets",
-  "citations"
+  "citations:2",
+  "bullets:3"
  ],
  "content/kompendium/techniques/ea-8-3-10-information-warfare-literature.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:4"
  ],
  "content/kompendium/techniques/ea-8-3-2-clinical-handbook.md": [
-  "bullets",
-  "citations"
+  "citations:3",
+  "bullets:3"
  ],
  "content/kompendium/techniques/ea-8-3-3-philosophical-canon.md": [
+  "citation-unresolved",
+  "citations:2",
   "detail",
-  "weak-link",
-  "bullets",
-  "citations",
   "bibliography",
-  "citation-unresolved"
+  "bullets:15",
+  "weak-link"
  ],
  "content/kompendium/techniques/ea-8-3-4-empirical-research-base.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "bold-term",
+  "citations:3",
+  "bullets:3"
  ],
  "content/kompendium/techniques/ea-8-3-5-historical-cases.md": [
-  "bullets",
-  "citations"
+  "citations:4",
+  "bullets:7"
  ],
  "content/kompendium/techniques/ea-8-3-6-contemporary-cases.md": [
-  "bullets",
-  "citations"
+  "citations:3",
+  "bullets:4"
  ],
  "content/kompendium/techniques/ea-8-3-7-interdisciplinary-anthology.md": [
+  "citation-unresolved",
+  "citations:1",
   "detail",
-  "weak-link",
-  "bullets",
-  "citations",
   "bibliography",
-  "citation-unresolved"
+  "bullets:14",
+  "weak-link"
  ],
  "content/kompendium/techniques/ea-8-3-8-trauma-recovery-literature.md": [
-  "bullets",
-  "citations"
+  "citations:5",
+  "bullets:3"
  ],
  "content/kompendium/techniques/ea-8-3-9-cult-studies-literature.md": [
-  "bullets",
-  "citations"
+  "citations:3",
+  "bullets:3"
  ],
  "content/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md": [
-  "bullets",
-  "citations"
+  "citations:9",
+  "bullets:5"
  ],
  "content/kompendium/techniques/ea-9-1-10-llm-recursion-loop.md": [
-  "bullets",
-  "citations"
+  "citations:10",
+  "bullets:10"
  ],
  "content/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md": [
-  "bullets",
-  "citations"
+  "citations:10",
+  "bullets:10"
  ],
  "content/kompendium/techniques/ea-9-1-3-jailbreak-cascade.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:10"
  ],
  "content/kompendium/techniques/ea-9-1-4-rag-context-poisoning.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:10"
  ],
  "content/kompendium/techniques/ea-9-1-5-llm-narrative-injection.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:10"
  ],
  "content/kompendium/techniques/ea-9-1-6-llm-source-attribution-bypass.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:10"
  ],
  "content/kompendium/techniques/ea-9-1-7-synthetic-expertise-claim.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:10"
  ],
  "content/kompendium/techniques/ea-9-1-8-llm-confabulation-amplification.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:10"
  ],
  "content/kompendium/techniques/ea-9-1-9-multi-turn-narrative-shift.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:10"
  ],
  "content/kompendium/techniques/ea-9-2-1-deepfake-personality.md": [
-  "bullets",
-  "citations"
+  "citations:10",
+  "bullets:10"
  ],
  "content/kompendium/techniques/ea-9-2-10-AI-personhood-claim.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:10"
  ],
  "content/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:10"
  ],
  "content/kompendium/techniques/ea-9-2-3-synthetic-text-narrative.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:10"
  ],
  "content/kompendium/techniques/ea-9-2-4-image-manipulation-EA.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:10"
  ],
  "content/kompendium/techniques/ea-9-2-5-video-manipulation-EA.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:10"
  ],
  "content/kompendium/techniques/ea-9-2-6-AI-news-cascade.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:10"
  ],
  "content/kompendium/techniques/ea-9-2-7-synthetic-witness-testimony.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:10"
  ],
  "content/kompendium/techniques/ea-9-2-8-AI-eyewitness-fabrication.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:10"
  ],
  "content/kompendium/techniques/ea-9-2-9-AI-document-forgery.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:10"
  ],
  "content/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:14"
  ],
  "content/kompendium/techniques/ea-9-3-10-trend-manipulation-EA.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:14"
  ],
  "content/kompendium/techniques/ea-9-3-3-feed-personalization-bias.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:14"
  ],
  "content/kompendium/techniques/ea-9-3-4-recommendation-radicalization.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:14"
  ],
  "content/kompendium/techniques/ea-9-3-5-shadowban-coordination.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-9-3-6-content-moderation-bias.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-9-3-7-platform-coordinated-attack.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-9-3-8-mass-reporting-coordination.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-9-3-9-tag-hijacking-EA.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-9-4-10-bot-detection-evasion.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-9-4-3-sock-puppet-network.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-9-4-4-AI-bot-personhood.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-9-4-5-troll-farm-EA.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-9-4-6-mass-comment-coordination.md": [
-  "bullets",
-  "citations"
+  "citations:16",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-9-4-7-cross-platform-bot-cascade.md": [
-  "bullets",
-  "citations",
-  "citation-unresolved"
+  "citation-unresolved",
+  "citations:14",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-9-4-8-real-time-bot-response.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-9-4-9-bot-narrative-injection.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-9-5-10-meme-attribution-laundering.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md": [
-  "bullets",
-  "citations"
+  "citations:12",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-9-5-3-emotional-meme-engineering.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-9-5-4-meme-network-amplification.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-9-5-5-counter-meme-suppression.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-9-5-6-frame-war-coordination.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-9-5-7-narrative-meme-fusion.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-9-5-8-meme-context-collapse.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-9-5-9-meme-radicalization-pipeline.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-9-6-1-algorithmic-decision-bias.md": [
-  "bullets",
-  "citations"
+  "citations:11",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-9-6-10-AI-welfare-decision-EA.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-9-6-2-AI-judgment-laundering.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-9-6-3-automated-content-takedown.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-9-6-4-AI-deplatforming-cascade.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-9-6-5-AI-credit-scoring-bias.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-9-6-6-AI-hiring-narrative.md": [
-  "bullets",
-  "citations"
+  "citations:14",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-9-6-7-AI-medical-decision-EA.md": [
-  "bullets",
-  "citations"
+  "citations:13",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-9-6-8-AI-legal-decision-EA.md": [
-  "bullets",
-  "citations",
-  "citation-unresolved"
+  "citation-unresolved",
+  "citations:12",
+  "bullets:15"
  ],
  "content/kompendium/techniques/ea-9-6-9-AI-immigration-decision.md": [
-  "bullets",
-  "citations"
+  "citations:15",
+  "bullets:15"
  ],
  "content/kompendium/visualizations/_index.md": [
-  "citations"
+  "citations:19"
  ],
  "content/mapa.md": [
-  "citations"
+  "citations:1"
  ],
  "content/matice.md": [
-  "citations"
+  "citations:1"
  ],
  "content/stav.md": [
-  "citations"
+  "citations:1"
  ]
 }

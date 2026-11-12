@@ -15,8 +15,8 @@ toc = true
 
 # Akutní protokol: Kaskáda flashbacků po epistemické anihilaci
 
-> **Akutní intervenční protokol č. 5** · skupina Akutní krize · okno: probíhající epizoda a 24 hodin
-> po ní
+> **Akutní intervenční protokol č. 5** · skupina Akutní krize · okno: probíhající epizoda a doba
+> bezprostředně po ní
 >
 > **Bolest na hrudi, dušnost nebo kolaps nejsou automaticky „jen flashback“.** Při somatických
 > varovných příznacích se volá 155; protokol záchrannou službu nenahrazuje. Tělesné bezpečí má
@@ -116,7 +116,9 @@ liší vazbou obsahu na prožitou událost a tím, že po návratu člověk obvy
 | Sebevražedné myšlenky nebo sebepoškozování | [protokol č. 2](@/kompendium/emergency-protocols/2-suicide-risk-EA.md) / [č. 10](@/kompendium/emergency-protocols/10-acute-self-harm-EA.md) |
 | Spouštěčem je aktuální výhrůžka nebo kontakt pachatele | bezpečnostní plán, Policie ČR (158) při ohrožení |
 | Kaskáda spuštěná terapií | zpomalení léčby, návrat do stabilizační fáze, supervize |
-| Návrat okna tolerance, bezpečný doprovod | domů s plánem, kontakt do 24–48 hodin |
+| Návrat okna tolerance, bezpečný doprovod | domů s plánem a domluveným následným kontaktem |
+
+**Lhůtu kniha neuvádí**: dřívější verze tu měla lhůtu následného kontaktu v hodinách bez zdroje.
 
 Kaskáda spuštěná terapií není selháním pacienta, ale informací o tempu léčby. Konsenzus odborníků na
 komplexní trauma, který shrnují Cloitre a kol. (2011), doporučuje fázový postup, v němž se
@@ -204,9 +206,9 @@ ji pak obvykle přijme s úlevou, protože konečně rozumí tomu, co se s ním 
 ## Modelová situace
 
 Žena po letech partnerského [coercive control](@/glossary/coercive-control.md) dostane od bývalého
-partnera zprávu s větou, kterou kdysi opakoval. Během hodiny se jí vrací vlna za vlnou jeho hlasu a
+partnera zprávu s větou, kterou kdysi opakoval. Během krátké doby se jí vrací vlna za vlnou jeho hlasu a
 scén ponížení. Krizová interventka ji orientuje, projde se s ní po chodbě a odloží telefon do jiné
-místnosti. Po dvou hodinách se vlny zkracují; domluví nocleh u sestry, zablokování čísla a kontakt s
+místnosti. Postupně se vlny zkracují; domluví nocleh u sestry, zablokování čísla a kontakt s
 intervenčním centrem. Spouštěčem byla aktuální zpráva, tedy podle Stark (2007) pokračující
 kontrolující jednání, a proto plán řeší i bezpečí, nejen regulaci.
 

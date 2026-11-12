@@ -34,6 +34,12 @@ P
 page "$d" case24-threshold <<'P'
 Intervence se přeruší, když skóre DES > 30 nebo když HRV klesne pod výchozí hodnotu.
 P
+page "$d" case24-dose <<'P'
+Supervize na supervizi vyžaduje minimum 100h, než supervizor převezme vlastní skupinu.
+P
+page "$d" case24-techniques <<'P'
+Většina reálných epizod je kombinací 3–7 elementárních technik, které se navzájem posilují.
+P
 page "$d" case24-cited <<'P'
 Zotavení po odchodu ze skupiny trvá podle studie měsíce až roky, typicky 12–36 měsíců (Lalich, 2004).
 
@@ -50,6 +56,8 @@ has case24-duration
 has case24-share
 has case24-count
 has case24-threshold
+has case24-dose
+has case24-techniques
 hasnt case24-cited
 hasnt case24-glossary
 echo "case 24: unsourced clinical figures are refused, cited ones and bibliographies are not"

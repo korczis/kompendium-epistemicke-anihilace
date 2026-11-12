@@ -142,8 +142,7 @@ pomáhají znovu propojit ostrůvky.
   přesměrovaná revize v čisté podobě.
 - [Narcistická rodina](@/kompendium/case-studies/07-narcisticka-rodina.md) – jeden vypravěč
   rodinné historie.
-- [Cult recovery po 12 letech](@/kompendium/case-studies/06-cult-recovery-12-let.md) –
-  pomalá obnova středu sítě.
+- [Cult recovery po 12 letech](@/kompendium/case-studies/06-cult-recovery-12-let.md) – pomalá obnova středu sítě.
 - [Hnutí znovuobjevené paměti](@/kompendium/historical-cases/37-recovered-memory.md) –
   přepis biografie v terapeutickém rámci.
 

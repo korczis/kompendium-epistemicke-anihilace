@@ -23,30 +23,32 @@ Kolektivní intervence aktivuje, když bylo detekováno, že **jedna instituce p
 
 ## Kdy aktivovat kolektivní intervenci
 
-Aktivační prahy pro kolektivní intervenci:
+Signály, které vedou k úvaze o kolektivní intervenci:
 
-| Práh | Indikátor | Aktér detekce |
+| Signál | Indikátor | Aktér detekce |
 |------|-----------|---------------|
-| **Klinický klastr** | 3+ klinických případů ze stejné výzkumné skupiny / oddělení / katedry v 24 měsících | Klinik / supervizor / centrální klinické pracoviště |
-| **Anonymní stížnostní klastr** | 5+ anonymních stížností strukturálně podobných za 24 měsíců | Etická komise / institucionální anonymní kanál |
+| **Klinický klastr** | Opakované klinické případy téže struktury ze stejné výzkumné skupiny / oddělení / katedry | Klinik / supervizor / centrální klinické pracoviště |
+| **Anonymní stížnostní klastr** | Opakované anonymní stížnosti, které popisují strukturálně podobný vzorec | Etická komise / institucionální anonymní kanál |
 | **Akademický exit klastr** | Měřitelně nadprůměrný drop-out doktorandů / postdoků z dané jednotky | Akademická administrativa / fakultní senát |
 | **Manifestní etické porušení** | Detekce konkrétního porušení s indikátory strukturálního vzorce | Standardní etické komise + audit EA-kompetence |
 | **Whistleblower** | Vnitřní whistleblower s dokumentovanou trajektorií | Whistleblower kanál + právní podpora |
 
 Kolektivní intervence **není reakce na jednu stížnost** — je strukturální odpovědí na **vzorec**.
 
+**Práh kniha neuvádí**: dřívější verze tu měla pevné počty případů a stížností za určité období, vše bez zdroje. Žádná data o tom, kolik případů z jedné jednotky už odlišuje vzorec od náhody, neexistují a záleží na velikosti jednotky, na tom, jak snadno se lidé odváží ozvat, i na tom, zda případy přicházejí nezávisle na sobě. O vzorci svědčí spíš shoda struktury — stejný typ asymetrie, stejné techniky, stejný průběh — než samotný počet.
+
 ## Fáze kolektivní intervence
 
-### Fáze 1 — Aktivace a triáž (týden 1-2)
+### Fáze 1 — Aktivace a triáž
 
-Po dosažení aktivačního prahu:
+Když se signály shodují:
 
 1. **Etický audit kompetence** — verifikace, že detekovaný vzorec není artefaktem jiné dynamiky (organizační konflikt, generační napětí, finanční tlak)
-2. **Konzultace s EA-kompetentním supervizorem** — externí konzultant s certifikací v doméně EA
-3. **Předběžné mapování** — strukturované interview s 3-5 referovanými případy s anonymizovaným kontextovým vyhodnocením
+2. **Konzultace s EA-kompetentním supervizorem** — externí konzultant se zkušeností s nátlakovými a manipulativními prostředími (certifikace v doméně EA neexistuje)
+3. **Předběžné mapování** — strukturované interview s několika referovanými případy s anonymizovaným kontextovým vyhodnocením
 4. **Rozhodnutí o eskalaci** — formální rozhodnutí, zda aktivovat plnou intervenci, nebo monitorovací režim
 
-### Fáze 2 — Strukturální audit (měsíc 1-3)
+### Fáze 2 — Strukturální audit
 
 Pokud aktivace pokračuje:
 
@@ -69,7 +71,7 @@ Souběžně s auditem:
 - **Skupinová podpora přeživších** — facilitované skupinové sezení s validní psychoterapeutickou kompetencí
 - **Personální ochrana whistleblowerů** — institucionální i právní ochrana před retaliací
 
-### Fáze 4 — Strukturální intervence (měsíc 3-9)
+### Fáze 4 — Strukturální intervence
 
 Na základě strukturálního auditu:
 
@@ -88,9 +90,9 @@ Na základě strukturálního auditu:
 #### 4c — Kulturní opatření
 - **Strukturovaný dialog** — facilitované setkání jednotky s explicitní artikulací vzorců a závazků
 - **Edukativní program** — povinný edukativní cyklus k taxonomii EA pro všechny členy jednotky
-- **Kontinuální monitoring** — pravidelné (kvartální) reportování po dobu minimálně 3 let
+- **Kontinuální monitoring** — pravidelné reportování tak dlouho, dokud nezávislé hodnocení nedoloží, že se vzorec nevrací
 
-### Fáze 5 — Restorativní proces (měsíc 6-18)
+### Fáze 5 — Restorativní proces
 
 Pro případy, kde to je etiicky a klinicky vhodné, aktivace **restorativního procesu**:
 
@@ -109,6 +111,8 @@ Restorativní proces je **klinicky kontraindikován** v následujících situac�
 V těchto případech je **právní cesta** primární a restorativní proces je odložen.
 
 ### Fáze 6 — Dokumentace a archivace (kontinuální)
+
+**Trvání fází kniha neuvádí**: dřívější verze tu měla u každé fáze rozsah týdnů nebo měsíců bez zdroje. Délka závisí na velikosti instituce, na souběžných právních řízeních a na tom, zda instituce spolupracuje; pevný harmonogram by navíc sloužil jako záminka intervenci uzavřít, jakmile kalendář uplyne.
 
 Kolektivní intervence **musí** produkovat formalizovanou dokumentaci:
 
@@ -171,14 +175,16 @@ Specifické intervenční nástroje:
 
 Kolektivní intervence není úspěšná pouhou aktivací procesů — vyžaduje **měřitelné výsledky**:
 
-| Indikátor | Měření | Časový horizont |
-|-----------|--------|-----------------|
-| **Snížení klinické incidence** | Počet referovaných případů z dané jednotky | 12-24 měsíců |
-| **Snížení drop-out rate** | Doktorandská a postdoktorandská retence | 24-36 měsíců |
-| **Anonymní zpětná vazba** | Skóre validovaných instrumentů (klima, supervize) | 12-24 měsíců |
-| **Publikační autorství** | Distribuce autorství, citační vzorce | 12-36 měsíců |
-| **Etické indikátory** | Stížnostní klastry, retaliační epizody | Kontinuálně |
-| **Reintegrace přeživších** | Pozice, kontinuita kariéry, klinický stav | 24-60 měsíců |
+| Indikátor | Měření |
+|-----------|--------|
+| **Snížení klinické incidence** | Počet referovaných případů z dané jednotky |
+| **Snížení drop-out rate** | Doktorandská a postdoktorandská retence |
+| **Anonymní zpětná vazba** | Skóre validovaných instrumentů (klima, supervize) |
+| **Publikační autorství** | Distribuce autorství, citační vzorce |
+| **Etické indikátory** | Stížnostní klastry, retaliační epizody |
+| **Reintegrace přeživších** | Pozice, kontinuita kariéry, klinický stav |
+
+**Časový horizont kniha neuvádí**: dřívější verze tu měla u každého indikátoru rozsah měsíců bez zdroje a žádná data o tom, za jak dlouho se který indikátor po intervenci mění, nemá. Při čtení indikátorů je třeba počítat s tím, že pokles hlášených případů může znamenat zlepšení i to, že lidé přestali věřit kanálům, kterými by se ozvali; proto se počty vždy čtou spolu s anonymní zpětnou vazbou a s osudem těch, kdo se už ozvali.
 
 ## Indikátory selhání kolektivní intervence
 
@@ -188,7 +194,7 @@ Strukturální indikátory, že kolektivní intervence **selhává**:
 - **Token reformy** — formální procesy bez reálné autority
 - **Sekundární retaliace** — přeživší nebo whistlebloweři jsou marginalizováni
 - **Dokumentační bagatelizace** — výsledný report popisuje vzorec jako „jednotlivé interpersonální nedorozumění“
-- **Kulturní obnovení vzorce** — po 12-18 měsících dochází k obnově původní dynamiky pod jinými aktéry
+- **Kulturní obnovení vzorce** — po odeznění pozornosti se původní dynamika obnovuje pod jinými aktéry
 
 Detekce selhání iniciuje **eskalaci na vyšší autoritu** — nadinstitucionální etická komise, profesní komora, regulační orgán.
 

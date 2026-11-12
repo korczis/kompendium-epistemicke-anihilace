@@ -28,15 +28,16 @@ K. (32 let, žena, postgraduální výzkumnice v oboru sociálních věd) byla r
 | **Povaha případu** | kompozit, nikoli záznam o jednom klientovi |
 | **Doména** | Akademický kontext, postgraduální výzkum |
 | **Trvání expozice** | 4 roky (3. ročník PhD → druhý rok post-PhD) |
-| **Trvání terapie** | 18 měsíců |
-| **Frekvence** | Týdně 50 min, kombinovaná modalita |
+| **Modalita terapie** | kombinovaná |
 | **Manifestované techniky** | EA-1.1.1, EA-1.1.3, EA-1.3.1, EA-1.4.2, EA-1.5.2 + kompoziční vzorec Guru/adept |
 | **Komorbidity** | Generalizovaná úzkostná porucha, dystymie |
 | **Výsledek** | Funkční remise, akademická reorientace |
 
+**Rozsah kniha neuvádí**: dřívější verze tu měla délku terapie a četnost sezení bez zdroje. Kazuistika popisuje průběh a jeho znaky, ne dávkování léčby.
+
 ## Anamnéza a kontext expozice
 
-K. zahájila doktorský program s výjimečným profilem (cum laude magistr, dvě peer-reviewed publikace již z Mgr. studia) v institucionálně prestižním programu, kde byla po prvním roce přiřazena k vedoucímu výzkumné skupiny — profesoru P., uznávanému metodologovi se substantivním mezinárodním renomé. Iniciální fáze vztahu byla charakterizována intenzivní intelektuální stimulací, prodlouženými mentorskými setkáními (často 3-4 hodiny týdně), a postupnou adopcí slovníku, metodologického aparátu a teoretických preferencí prof. P.
+K. zahájila doktorský program s výjimečným profilem (cum laude magistr, dvě peer-reviewed publikace již z Mgr. studia) v institucionálně prestižním programu, kde byla po prvním roce přiřazena k vedoucímu výzkumné skupiny — profesoru P., uznávanému metodologovi se substantivním mezinárodním renomé. Iniciální fáze vztahu byla charakterizována intenzivní intelektuální stimulací, prodlouženými mentorskými setkáními (často i několik hodin týdně), a postupnou adopcí slovníku, metodologického aparátu a teoretických preferencí prof. P.
 
 Po 18 měsících začala K. zaznamenávat **subtilní diskomfort** při čtení autorů, které prof. P. **bagatelizoval** — diskomfort, který tehdy interpretovala jako vlastní intelektuální nezralost. Současně zaznamenávala rostoucí závislost na **validačních interakcích** s prof. P. — pocity uvolnění po setkáních a difúzní úzkost v jejich nepřítomnosti.
 
@@ -88,25 +89,20 @@ Při iniciální klinické konzultaci K. manifestovala:
 - **Dystymickou epizodu** trvající ~10 měsíců
 - **Akademickou paralýzu** — neschopnost dokončit revizi disertace 14 měsíců po obhajobě
 - **Sociální izolaci** — postupná ztráta kontaktů mimo výzkumnou skupinu
-- **Derealizační epizody** — typicky po setkáních s prof. P., trvání 30-90 min
+- **Derealizační epizody** — typicky po setkáních s prof. P.
 - **Epistemickou dezorientaci** — neschopnost rozhodnout, zda vlastní kritické úsudky jsou validní, nebo „důsledek únavy“
 
-Centrální klinický fenomén: K. **netušila, že byla vystavena manipulativním technikám**. Interpretovala vlastní symptomy jako **vlastní selhání** — interpretace strukturálně udržovaná residuálním vlivem prof. P.
+Centrální klinický fenomén: K. **netušila, že byla vystavena manipulativním technikám**. Interpretovala vlastní symptomy jako **vlastní selhání** — interpretace strukturálně udržovaná residuálním vlivem prof. P. **Trvání epizod kniha neuvádí**: dřívější verze tu měla rozsah minut bez zdroje.
 
 ## Terapeutická trajektorie
 
-Terapie probíhala 18 měsíců v kombinované modalitě:
-
-- **Měsíce 1-3**: Stabilizace, etablování metakognitivních kotev, psychoedukace o EA technikách
-- **Měsíce 4-9**: Systematické mapování technik s explicitním kódováním, emocionální zpracování
-- **Měsíce 10-15**: Rekonstrukce intelektuální autonomie, postupné re-čtení odmítnutých autorů
-- **Měsíce 16-18**: Konsolidace, akademická reorientace, příprava na ukončení
+Terapie probíhala v kombinované modalitě a prošla čtyřmi obdobími, která se zčásti překrývala. Nejprve šlo o stabilizaci, ustavení metakognitivních kotev a psychoedukaci o EA technikách. Potom následovalo systematické mapování technik s explicitním kódováním a emocionální zpracování, dále rekonstrukce intelektuální autonomie s postupným znovučtením odmítnutých autorů a nakonec konsolidace, akademická reorientace a příprava na ukončení. **Délku období kniha neuvádí**: dřívější verze tu měla rozpis po měsících bez zdroje. Přechod mezi obdobími se v kazuistice řídí stavem klientky, ne kalendářem.
 
 ### Klíčové terapeutické intervence
 
 | Fáze | Intervence | Cíl | EA reference |
 |------|-----------|-----|--------------|
-| Stabilizace | 3-bodové metakognitivní kotvy | Etablování nezávislých referencí | obecná prevence |
+| Stabilizace | Metakognitivní kotvy | Etablování nezávislých referencí | obecná prevence |
 | Stabilizace | Strukturovaný spánek + somatika | Redukce úzkostné baseline | nespecifická |
 | Mapování | Psychoedukace s taxonomií EA | Externalizace techniky | EA-1.* |
 | Mapování | Dvojí čtení (text + Pův kritika) | Detekce filtrace | EA-1.1.1 |
@@ -120,23 +116,23 @@ Terapie probíhala 18 měsíců v kombinované modalitě:
 
 ## Supervizní rozhodnutí
 
-Případ K. představoval **supervizní výzvu na prahu 2 a 3** ([viz supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)):
+Případ K. představoval **supervizní výzvu** na pomezí sekundární destabilizace klinika a etického konfliktu ([viz supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)):
 
 - **Měsíc 5**: Klinik signalizoval **fascinaci** sofistikovaností vzorce — supervizor aktivoval rozšířenou supervizi a odhalil počínající **identifikaci s materiálem**. Korigováno: dočasné zvýšení frekvence supervize, vlastní reflexivní práce klinika.
 - **Měsíc 11**: Etický audit — K. spontánně formulovala záměr **veřejně publikovat** o prof. P. Supervize aktivovala **etický rámec** (riziko sekundární viktimizace, právní rizika, riziko terapeutické regrese). Společné rozhodnutí: odložit publikační záměr až po terapeutickém uzavření, dokumentovat institucionálně.
-- **Měsíc 14**: Krizová epizoda po dotazu prof. P. (po 2 letech ticha) — K. manifestovala akutní destabilizaci. Krizová supervize do 24 hod, stabilizace v 3 sezeních, integrace události jako **detekčního cvičení**.
+- **Měsíc 14**: Krizová epizoda po dotazu prof. P. (po 2 letech ticha) — K. manifestovala akutní destabilizaci. Následovala krizová supervize, stabilizace a integrace události jako **detekčního cvičení**. **Lhůtu ani počet sezení kniha neuvádí**: dřívější verze tu měla obojí bez zdroje.
 
 ## Výsledky
 
-Po 18 měsících:
+Na konci terapie:
 
-- **Symptomatická remise** úzkostné a dystymické symptomatiky (PHQ-9, GAD-7 v normě)
+- **Symptomatická remise** úzkostné a dystymické symptomatiky
 - **Funkční remise** — K. dokončila a obhájila revidovanou disertaci pod jiným formálním vedením
 - **Akademická reorientace** — K. ukončila práci ve výzkumné skupině prof. P., přestoupila do jiné instituce
 - **Re-etablování epistemické autonomie** — K. samostatně formulovala publikaci kritizující rámec prof. P. (po terapeutickém ukončení), s explicitními falsifikačními kritérii
-- **Konsolidace metakognitivních kotev** — K. udržuje 5-bodový systém nezávislých referencí
+- **Konsolidace metakognitivních kotev** — K. udržuje vlastní systém nezávislých referencí
 
-V dvouletém follow-up (12 a 24 měsíců po ukončení): stabilní remise, žádná akademická paralýza, funkční nezávislé fungování v nové instituci.
+Při pozdějších kontrolních kontaktech: stabilní remise, žádná akademická paralýza, nezávislé fungování v nové instituci. **Hodnoty škál ani termíny kontrol kniha neuvádí**: dřívější verze tu měla výsledky sebeposuzovacích škál a rozpis kontrol bez zdroje.
 
 ## Etická reflexe
 

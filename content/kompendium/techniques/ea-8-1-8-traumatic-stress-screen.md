@@ -44,9 +44,9 @@ podrobné klinické vyšetření. Kompendium doporučuje znát tři nástroje a 
 
 - **PCL-5** (*PTSD Checklist for DSM-5*) – 20 položek odpovídajících příznakům
   [PTSD](@/glossary/ptsd.md) podle DSM-5 (vtíravé vzpomínky, vyhýbání, negativní změny
-  myšlení a nálady, zvýšená dráždivost), hodnocených za poslední měsíc;
+  myšlení a nálady, zvýšená dráždivost), hodnocených za poslední měsíc (Weathers a kol., 2013);
 - **IES-R** (*Impact of Event Scale – Revised*) – 22 položek o vtíravých myšlenkách,
-  vyhýbání a zvýšeném vzrušení ve vztahu ke konkrétní události ([glosář: IES-R](@/glossary/ies-r.md));
+  vyhýbání a zvýšeném vzrušení ve vztahu ke konkrétní události (Weiss a Marmar, 1997; [glosář: IES-R](@/glossary/ies-r.md));
 - **ITQ** (*International Trauma Questionnaire*) – krátký dotazník pro PTSD a
   [komplexní PTSD](@/glossary/c-ptsd.md) podle MKN-11, včetně poruch sebeorganizace.
 
@@ -170,8 +170,7 @@ přetvořen skupinou.
 
 - [Partnerský gaslighting](@/kompendium/case-studies/08-gaslighting-partnersky.md) –
   trauma bez jedné „velké“ události.
-- [Cult recovery po 12 letech](@/kompendium/case-studies/06-cult-recovery-12-let.md) –
-  dlouhodobé sledování příznaků.
+- [Cult recovery po 12 letech](@/kompendium/case-studies/06-cult-recovery-12-let.md) – dlouhodobé sledování příznaků.
 - [Bývalý politický vězeň v EA-emergency](@/kompendium/emergency-protocols/29-political-prisoner-EA.md)
   – krizová situace s traumatem v anamnéze.
 

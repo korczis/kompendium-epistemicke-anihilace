@@ -145,8 +145,7 @@ a [dlouhodobá rekonstrukce komunity](@/kompendium/recovery-protocols/longterm-c
 
 ## Případy, které jev ukazují
 
-- [Cult recovery po 12 letech](@/kompendium/case-studies/06-cult-recovery-12-let.md) –
-  dlouhodobé sledování po odchodu.
+- [Cult recovery po 12 letech](@/kompendium/case-studies/06-cult-recovery-12-let.md) – dlouhodobé sledování po odchodu.
 - [Sektářské vycházení](@/kompendium/case-studies/10-sektarske-vychazeni.md) – floating
   a spouštěče.
 - [Religiózní fanatismus – exit](@/kompendium/case-studies/26-religiozni-fanatismus-exit.md)

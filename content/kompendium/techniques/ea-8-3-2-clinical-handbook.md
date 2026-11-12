@@ -155,8 +155,7 @@ narozeným do skupin, kteří nemají „předskupinovou“ identitu, na kterou 
 
 ## Případy, které jev ukazují
 
-- [Cult recovery po 12 letech](@/kompendium/case-studies/06-cult-recovery-12-let.md) –
-  dlouhodobá klinická péče.
+- [Cult recovery po 12 letech](@/kompendium/case-studies/06-cult-recovery-12-let.md) – dlouhodobá klinická péče.
 - [Sektářské vycházení](@/kompendium/case-studies/10-sektarske-vychazeni.md) – floating
   a stabilizace.
 - [Psychoterapeut totalizace](@/kompendium/case-studies/16-psychoterapeut-totalizace.md) –

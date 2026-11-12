@@ -171,6 +171,11 @@
       {
         "from": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md",
         "kind": "link",
+        "to": "glossary/disociace.md"
+      },
+      {
+        "from": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md",
+        "kind": "link",
         "to": "glossary/epistemicka-anihilace.md"
       },
       {
@@ -263,14 +268,14 @@
       {
         "class": "glossary",
         "distance": 1,
-        "in": 274,
+        "in": 275,
         "path": "glossary/disociace.md",
         "title": "Disociace"
       },
       {
         "class": "kompendium/06-klinicke-aplikace",
         "distance": 1,
-        "in": 271,
+        "in": 272,
         "path": "kompendium/06-klinicke-aplikace/supervizni-ramce.md",
         "title": "6.6 Supervizní rámce v klinické praxi EA"
       },

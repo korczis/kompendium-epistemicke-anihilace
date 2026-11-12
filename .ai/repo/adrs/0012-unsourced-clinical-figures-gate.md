@@ -41,8 +41,11 @@ Z toho plyne:
 2. Prevence: požadavek `clinical-figure` v `scripts/check-ia.py`. Odstavec, položka seznamu
    nebo řádek tabulky s klinickým údajem (rozsah trvání ve dnech, týdnech, měsících nebo
    sezeních, podíl sezení, pacientů či klientů, míra úspěšnosti nebo relapsu, číselný práh
-   klinického skóre, počet sezení) musí nést citaci autor–rok nebo předpis. Nikdy se
-   nezapisuje do baseline; `PENDING_ZERO` začíná na změřených 118 stránkách a smí jen klesat.
+   klinického skóre, počet sezení, minimální dávka hodin či sezení, rozsah počtu technik nebo
+   účastníků) musí nést citaci autor–rok nebo předpis. Číselná kritéria v tabulkách (κ > 0,7,
+   ≥ 85 %, „do 30 min“) brána zatím neměří: vlákno obsahu jich na svých stránkách napočítalo 260
+   řádků a jsou samostatnou vlnou. Nikdy se
+   nezapisuje do baseline; `PENDING_ZERO` začíná na změřených 123 stránkách a smí jen klesat.
 
 ## Consequences
 

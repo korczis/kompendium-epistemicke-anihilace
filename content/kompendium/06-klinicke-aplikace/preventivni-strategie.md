@@ -27,15 +27,17 @@ Personální prevence operuje skrze **individuální kompetenci** subjektu — k
 
 ### Metakognitivní hygiena
 
-Strukturovaná, denně praktikovaná disciplína [metakognitivní](@/glossary/metakognice.md) reflexe:
+Strukturovaná, pravidelně praktikovaná disciplína [metakognitivní](@/glossary/metakognice.md) reflexe:
 
-| Komponenta | Operace | Frekvence |
-|-----------|---------|-----------|
-| **Reference-audit** | Revize 3-5 osobních epistemických kotev (hodnoty, kompetence, paměťové reference) | Týdně |
-| **Source-audit** | Revize zdrojů, na něž se subjekt opíral v posledním týdnu — explicitní kvantifikace diverzity | Týdně |
-| **Affect-audit** | Revize epizod silných epistemických afektů (jistota, averze, fascinace) — analýza spouštěčů | Denně |
-| **Position-shift audit** | Revize pozic, na kterých subjekt **změnil** názor — explicitní artikulace **proč** a **kdo** k tomu přispěl | Měsíčně |
-| **[Falsifikace](@/glossary/falsifikace.md)-audit** | Revize centrálních přesvědčení — explicitní artikulace, **co by je vyvrátilo** | Měsíčně |
+| Komponenta | Operace |
+|-----------|---------|
+| **Reference-audit** | Revize několika osobních epistemických kotev (hodnoty, kompetence, paměťové reference) |
+| **Source-audit** | Revize zdrojů, na něž se subjekt v poslední době opíral — jak různorodé byly a kdo je vybral |
+| **Affect-audit** | Revize epizod silných epistemických afektů (jistota, averze, fascinace) — analýza spouštěčů |
+| **Position-shift audit** | Revize pozic, na kterých subjekt **změnil** názor — explicitní artikulace **proč** a **kdo** k tomu přispěl |
+| **[Falsifikace](@/glossary/falsifikace.md)-audit** | Revize centrálních přesvědčení — explicitní artikulace, **co by je vyvrátilo** |
+
+**Frekvenci kniha neuvádí**: dřívější verze tu měla u každé komponenty pevný rytmus a počet kotev bez zdroje. Žádný výzkum neukázal, jak často má člověk takovou reflexi dělat, aby chránila; rozumné je navázat ji na změny v životě (nový vztah, nová skupina, nové pracoviště), kdy je vliv druhých nejsilnější a nejhůř viditelný.
 
 Personální praxe **nesmí degenerovat** v hyperreflexivitu, paranoidní epistemologii nebo neproduktivní obsesi. Cíl je **detekce odchylek**, nikoli kontinuální podezírání.
 
@@ -43,10 +45,12 @@ Personální praxe **nesmí degenerovat** v hyperreflexivitu, paranoidní episte
 
 Strukturální prevence [selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) skrze **systematické udržování multiple nezávislých zdrojů**:
 
-- **Pravidlo tří mentorů** — žádný subjekt nemá pouze jednoho mentora pro **klíčové oblasti** (akademická, profesní, etická). Tři je strukturální minimum.
-- **Pravidlo deseti čtenářů** — pro každý publikační projekt mít minimálně 10 nezávislých čtenářů z různých kontextů před finalizací.
-- **Pravidlo cizích autorů** — periodicky (1× za měsíc) přečíst text **autora, kterého subjekt nezná** v doméně, ke které má silné přesvědčení.
-- **Pravidlo opačného slovníku** — kvartální cvičení: rekonstruovat **kritiku vlastní pozice** v slovníku oponentní pozice, ne ze své perspektivy.
+- **Pravidlo více mentorů** — žádný subjekt nemá pouze jednoho mentora pro **klíčové oblasti** (akademická, profesní, etická); mentoři by neměli být na sobě závislí ani patřit do téhož okruhu.
+- **Pravidlo nezávislých čtenářů** — publikační projekt čtou před finalizací lidé z různých kontextů, kteří nejsou podřízeni autorovi ani jeho vedoucímu.
+- **Pravidlo cizích autorů** — periodicky přečíst text **autora, kterého subjekt nezná** v doméně, ke které má silné přesvědčení.
+- **Pravidlo opačného slovníku** — opakované cvičení: rekonstruovat **kritiku vlastní pozice** v slovníku oponentní pozice, ne ze své perspektivy.
+
+**Počty kniha neuvádí**: dřívější verze tu měla pevné počty mentorů a čtenářů a pevné intervaly bez zdroje. Ochranu nedává počet, ale nezávislost: dva mentoři, kteří spolu nesdílejí kariérní zájem, chrání víc než tři z téže skupiny.
 
 ### Somatické kotvy
 
@@ -54,7 +58,7 @@ Tělo je **strukturálně robustnější** vůči manipulaci než kognitivní sy
 
 - **Pravidelné fyzické cvičení** mimo akademické a profesní prostředí (rituál [diferenciace](@/glossary/diferenciace.md) prostorů)
 - **Kontaktní spánek** — pravidelný režim spánku, detekce odchylek jako signál stresové akumulace
-- **Tělesná percepce** — krátká denní praxe (2-5 min) pozornosti k tělesným signálům
+- **Tělesná percepce** — krátká pravidelná praxe pozornosti k tělesným signálům
 - **Distinktní prostorové koule** — domov, práce, sociální prostor jsou jasně odděleny; symbolické přechody (převlékání, rituály otevření/zavření)
 
 ### Dokumentační praxe
@@ -85,9 +89,9 @@ Tradiční peer review je strukturálně vulnerabilní vůči [imunizaci proti f
 Doktorské a postdoktorální vzdělávání je vysoce vulnerabilním kontextem ([viz případy K. a M.](@/kompendium/06-klinicke-aplikace/_index.md)). Reformy:
 
 - **Pravidlo dvou školitelů** — žádná disertace nemá pouze jednoho školitele; druhý školitel z **jiné instituce** s formální autoritou
-- **Roční externí evaluace** — povinná externí evaluace progresu doktorského studia, nezávislá na primárním školiteli
+- **Pravidelná externí evaluace** — povinná externí evaluace progresu doktorského studia, nezávislá na primárním školiteli
 - **Anonymní zpětnovazební kanál** — strukturovaný anonymní kanál, kde studenti mohou referovat problémy bez represe
-- **Rotační mentorské granty** — finanční podpora pro doktorandy navštěvující jiné instituce po dobu 6-12 měsíců
+- **Rotační mentorské granty** — finanční podpora pro doktorandy, kteří stráví delší pobyt na jiné instituci
 - **Strukturovaná exit-podpora** — institucionální podpora pro doktorandy uvažující o ukončení, bez stigmatizace
 
 ### Etické komise s kompetencí v EA
@@ -97,14 +101,17 @@ Tradiční etické komise jsou kompetentní v běžných etických problémech (
 - **Specializovaná podkomise** s kompetencí v taxonomii EA
 - **Anonymní indikační kanál** s odbornou triáží
 - **Strukturovaný protokol pro Salami stížnosti** — speciální protokol pro distribuované vzorce, kde žádný jednotlivý krok není porušení
-- **Pravidelný institucionální audit** — kvartální přehled stížnostních vzorců s detekcí klastrů
+- **Pravidelný institucionální audit** — opakovaný přehled stížnostních vzorců s detekcí klastrů
 
 ### Anti-Salami protokoly
 
 Salami vzorec ([viz kapitola 1](@/kompendium/03-zakladni-kategorie/kapitola-1.md) a [případ M.](@/kompendium/06-klinicke-aplikace/pripad-doktorat.md)) je institucionálně **těžko adresovatelný**, protože každý krok je individuálně **subliminální**. Strukturální protokol:
 
-- **Trajektorové revize** — periodické (kvartální) revize dlouhodobých vývojů, kde aktuální pozice je explicitně **porovnávána s výchozí**
-- **Drift threshold alerts** — formalizované prahy, jejichž překročení iniciuje povinnou multilaterální revizi (např. 30% změna disertačního zaměření)
+- **Trajektorové revize** — periodické revize dlouhodobých vývojů, kde aktuální pozice je explicitně **porovnávána s výchozí**
+- **Revize driftu** — podstatná změna disertačního zaměření nebo projektu oproti původnímu závazku spouští povinnou multilaterální revizi; co je „podstatné“, posuzují lidé mimo vztah školitele a studenta
+
+**Práh kniha neuvádí**: dřívější verze tu měla procentní míru změny zaměření bez zdroje. Změnu tématu nelze smysluplně měřit v procentech, a Salami vzorec je nebezpečný právě tím, že každý jednotlivý krok zůstává pod jakýmkoli prahem — proto se porovnává s výchozím stavem, ne s předchozím krokem.
+
 - **Original commitment dokumenty** — povinná dokumentace iniciálního zaměření s formálním závazkem revidovat změny
 - **Externí ko-podpis** — pro významné modifikace dlouhodobých projektů (disertace, grant) povinný ko-podpis externí autority
 
@@ -121,7 +128,7 @@ Salami vzorec ([viz kapitola 1](@/kompendium/03-zakladni-kategorie/kapitola-1.md
 
 Strukturální prevence [Guru/adept vzorce](@/kompendium/03-zakladni-kategorie/kapitola-1.md):
 
-- **Anti-monopoly normy** — žádný mentor nemá více než N (typicky 4-6) souběžných mentees v dané instituci
+- **Anti-monopoly normy** — instituce omezuje počet souběžných mentees jednoho mentora tak, aby žádný mentor nemohl ovládnout celou generaci studentů jednoho oboru; **konkrétní počet kniha neuvádí**, dřívější verze tu měla rozsah bez zdroje
 - **Cross-institutional rotace** — povinné rotace mezi mentory pro doktorandy a postdoktorandy
 - **Mentor-mentee evaluace** — vzájemná strukturovaná evaluace s formální autoritou pro odvolání
 - **Metaboloicky odlišné mentorské profily** — instituce aktivně udržují diverzitu mentorských stylů, ne homogenní „school“
@@ -196,7 +203,7 @@ Selhání kterékoli úrovně **kompromituje** ostatní:
 Preventivní strategie nesmí zůstat na úrovni rétoriky — musí být **měřitelná a auditovatelná**:
 
 - **Personální**: Dokumentační záznamy, periodické self-audity, supervizní zpětná vazba
-- **Institucionální**: Kvartální etické audity, výroční transparenční reporty, anonymní zpětnovazební indikátory
+- **Institucionální**: Pravidelné etické audity, transparenční reporty, anonymní zpětnovazební indikátory
 - **Kulturní**: Longitudinální studie incidence EA-trauma, vzdělávací výsledky, profesní indikátory
 
 Auditovatelnost je strukturální kondicí **integrity prevence** — bez ní se preventivní rétorika může sama stát [imunizační](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) strategií.

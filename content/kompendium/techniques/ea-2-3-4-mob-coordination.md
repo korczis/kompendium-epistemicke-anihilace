@@ -62,7 +62,7 @@ pobouření; dav se cítí jako strážce norem, nikoli jako útočník.
 
 ## Průběh
 
-Vlna obvykle vrcholí během 24–72 hodin. Cíl je zahlcen, často se stáhne z platforem
+Vlna obvykle vrcholí rychle a cíl nemá čas se zorientovat. **Délku kniha neuvádí**: dřívější verze tu měla rozsah hodin bez zdroje. Cíl je zahlcen, často se stáhne z platforem
 a jeho instituce dostane desítky až stovky stížností. Pokud instituce zareaguje
 sankcí, dav to vnímá jako potvrzení a útok se může přenést na další cíl. Po odeznění
 zůstávají výsledky ve vyhledávání a v paměti publika. U části případů vlna přechází

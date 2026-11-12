@@ -493,7 +493,7 @@ Po identifikaci jednoho ze scénářů vyžaduje efektivní intervence strukturo
 5. **Triangulace podpory** — mobilizace nezávislých zdrojů validace
 6. **Postupná rekonstrukce** — fázovaný plán epistemic recovery
 
-**Časový rámec**: akutní fáze 1–4 týdny, dlouhodobá rekonstrukce 6–24 měsíců.
+**Časový rámec**: akutní fáze trvá spíše týdny, dlouhodobá rekonstrukce měsíce až roky a obojí se liší případ od případu. **Trvání kniha neuvádí**: dřívější verze tu měla rozsahy týdnů a měsíců bez zdroje a žádná data o délce zotavení u tohoto scénáře kniha nemá.
 
 ### Protokol I-2: Komunální intervence
 

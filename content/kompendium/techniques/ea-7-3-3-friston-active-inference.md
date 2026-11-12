@@ -147,8 +147,7 @@ lze předpovídat a spoléhat se – a že překvapení nemusí znamenat hrozbu.
 
 ## Případy, které jev ukazují
 
-- [Cult recovery po 12 letech](@/kompendium/case-studies/06-cult-recovery-12-let.md) –
-  dlouhé přeučování očekávání.
+- [Cult recovery po 12 letech](@/kompendium/case-studies/06-cult-recovery-12-let.md) – dlouhé přeučování očekávání.
 - [Sektářské vycházení](@/kompendium/case-studies/10-sektarske-vychazeni.md) – otřes
   z predikční chyby po odchodu.
 - [QAnon recovery](@/kompendium/case-studies/55-qanon-recovery.md) – model, který vše

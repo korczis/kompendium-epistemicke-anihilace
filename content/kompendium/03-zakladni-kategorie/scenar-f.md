@@ -96,7 +96,7 @@ Typickým výsledkem je **fragmentace** původně koherentní komunity na více 
 
 ### Fáze 1: Strategické mapování epistemické komunity
 
-**Trvání**: 6–18 měsíců
+**Trvání kniha neuvádí**: dřívější verze tu u každé z pěti fází měla rozsahy měsíců bez zdroje a žádná data o délce fází tohoto scénáře kniha nemá. Fáze se počítají spíš na měsíce než na týdny a jejich délka se liší komunita od komunity.
 
 **Popis**: Detailní identifikace struktury cílové komunity, včetně formálních a neformálních autorit, klíčových epistemických standardů, interních napětí a potenciálních zranitelností.
 
@@ -119,7 +119,7 @@ Typickým výsledkem je **fragmentace** původně koherentní komunity na více 
 
 ### Fáze 2: Narušení hranic a legitimizace externích agentů
 
-**Trvání**: 3–12 měsíců
+**Trvání**: měsíce; hranice s předchozí fází bývá neostrá.
 
 **Popis**: Systematické oslabování mechanismů udržování hranic komunity a etablování externích agentů jako „legitimních participantů“ v epistemickém diskurzu.
 
@@ -142,7 +142,7 @@ Typickým výsledkem je **fragmentace** původně koherentní komunity na více 
 
 ### Fáze 3: Epistemická fragmentace a polarizace
 
-**Trvání**: 6–24 měsíců
+**Trvání**: měsíce, případ od případu různě.
 
 **Popis**: Systematická introdukce rozdělujících epistemických otázek, které polarizují komunitu a narušují sdílené standardy.
 
@@ -167,7 +167,7 @@ Typickým výsledkem je **fragmentace** původně koherentní komunity na více 
 
 ### Fáze 4: Delegitimizace centrálních autorit
 
-**Trvání**: 6–18 měsíců
+**Trvání**: měsíce; fáze se může překrývat s polarizací z předchozí fáze.
 
 **Popis**: Systematické podkopávání kredibility a autority klíčových epistemických postav komunity prostřednictvím koordinovaných delegitimizačních kampaní.
 
@@ -192,7 +192,7 @@ Typickým výsledkem je **fragmentace** původně koherentní komunity na více 
 
 ### Fáze 5: Rekonstrukce alternativní epistemické hierarchie
 
-**Trvání**: 12–48 měsíců
+**Trvání**: měsíce až roky; fáze nemusí mít zřetelný konec.
 
 **Popis**: Etablování nové epistemické hierarchie a standardů, které nahrazují původní struktury, často privilegující dříve marginální perspektivy.
 
@@ -313,10 +313,12 @@ Realistickou strategií po Fázi 4 je často **paralelní budování alternativn
 
 Zotavení postižené komunity prochází typicky následujícími fázemi:
 
-1. **Akutní fragmentace** (1–3 roky) — komunita ztrácí koherenci, dochází k odchodům
-2. **Stabilizace fragmentů** (3–7 let) — vznikají paralelní komunity s vlastními standardy
-3. **Delimitace** (5–10 let) — fragmenty si vzájemně vymezují identitu
-4. **Možná rekonstrukce** (10+ let) — někdy možná, někdy ne, vyžaduje generační vzdálenost
+1. **Akutní fragmentace** — komunita ztrácí koherenci, dochází k odchodům
+2. **Stabilizace fragmentů** — vznikají paralelní komunity s vlastními standardy
+3. **Delimitace** — fragmenty si vzájemně vymezují identitu
+4. **Možná rekonstrukce** — někdy možná, někdy ne, vyžaduje generační vzdálenost
+
+**Trvání fází zotavení kniha neuvádí**: dřívější verze tu měla rozsahy let bez zdroje. Jisté je jen pořadí a to, že se fáze počítají spíš na roky než na měsíce, protože rekonstrukce sdílených standardů obvykle čeká na generační výměnu.
 
 Plné zotavení do předútočného stavu **není typicky možné**. Realistický cíl je etablování zdravé paralelní komunity, která zachová klíčové epistemické standardy.
 

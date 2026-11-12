@@ -23,9 +23,6 @@
  "bold:9-6-algoritmicka-governance": [
   "bold-candidate"
  ],
- "bold:a": [
-  "bold-candidate"
- ],
  "bold:adaptivni": [
   "bold-candidate"
  ],
@@ -4238,14 +4235,10 @@
   "bullets"
  ],
  "content/kompendium/techniques/ea-3-2-7-individual-supervision.md": [
-  "bullets",
-  "detail",
-  "weak-link"
+  "bullets"
  ],
  "content/kompendium/techniques/ea-3-2-8-peer-consultation.md": [
-  "bullets",
-  "detail",
-  "weak-link"
+  "bullets"
  ],
  "content/kompendium/techniques/ea-3-2-9-iatrogenic-risk-assessment.md": [
   "bullets",

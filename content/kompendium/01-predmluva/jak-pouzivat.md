@@ -315,7 +315,7 @@ Tato část kompendia je relevantní pro všechny uživatele, ale zvláště cen
 
 **Doporučená opatření**:
 
-- **Periodické pauzy** mezi pokročilými sekcemi (minimálně 24h mezi studiem Sekcí 04 a 05)
+- **Periodické pauzy** mezi pokročilými sekcemi, zvlášť mezi Sekcemi 04 a 05; délku pauzy kniha nepředepisuje, řídí se tím, jak čtenář text zpracovává
 - **Externí epistemická triangulace** — diskuse s důvěryhodným kolegou
 - **Profesionální konzultace** v případě silných emočních reakcí
 - **Dokumentace vlastních reakcí** pro pozdější reflexi

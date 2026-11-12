@@ -114,7 +114,7 @@ Diskutuj zkušenost s **alespoň třemi** zdroji, kteří **nesdílejí** stejn�
 
 #### 4. **Časová distance**
 
-Po intenzivní zkušenosti vyčkej **alespoň 3 měsíce** před přijetím závazných rozhodnutí (finančních, vztahových, životně-orientačních). Alterovaný stav vyžaduje integraci, nikoli okamžitou aplikaci.
+Po intenzivní zkušenosti je rozumné **s odstupem vyčkat** před přijetím závazných rozhodnutí (finančních, vztahových, životně-orientačních). Alterovaný stav vyžaduje integraci, nikoli okamžitou aplikaci. **Délku odstupu kniha neuvádí**: dřívější verze tu měla počet měsíců bez zdroje.
 
 ### Institucionální
 

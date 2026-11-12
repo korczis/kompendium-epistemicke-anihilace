@@ -164,8 +164,7 @@ zahrnout spravedlnost tam, kde pachatel ani instituce odpovědnost nepřijmou.
 
 ## Případy, které jev ukazují
 
-- [Cult recovery po 12 letech](@/kompendium/case-studies/06-cult-recovery-12-let.md) –
-  dlouhá cesta všemi stadii.
+- [Cult recovery po 12 letech](@/kompendium/case-studies/06-cult-recovery-12-let.md) – dlouhá cesta všemi stadii.
 - [Rezidualní totalitní trauma](@/kompendium/case-studies/09-rezidualni-totalitarni-trauma.md)
   – kolektivní rozměr a otázka spravedlnosti.
 - [Zotavení ze spirituálního kultu](@/kompendium/case-studies/50-spiritual-cult-recovery.md)

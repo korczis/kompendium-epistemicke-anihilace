@@ -70,11 +70,13 @@ Adaptovaný TF-CBT pro klienty po EA zahrnuje:
 
 ### EMDR (Eye Movement Desensitization and Reprocessing)
 
-EMDR je u klientů po EA **vysoce účinný** pro zpracování:
+EMDR může být u klientů po EA užitečný pro zpracování:
 
 - Specifických traumatických událostí v rámci dlouhodobé expozice;
 - Diskrétních epizod gaslightingu nebo manipulativních útoků;
 - Disociativních fragmentů, které se vynořují během rekonstrukce.
+
+**Míru účinnosti kniha neuvádí**: dřívější verze tu tvrdila vysokou účinnost bez zdroje. EMDR je doložená metoda pro PTSD, ale u EA jako takové nikdo jeho účinek neměřil; přenos z PTSD je předpoklad, ne zjištění.
 
 **Adaptace pro EA**: Targetování zahrnuje nejen klasické trauma-momenty, ale i **epistemické zlomy** — okamžiky, kdy klient ztratil důvěru ve vlastní vnímání.
 
@@ -159,7 +161,7 @@ Klíčová a etiky náročná intervence — **postupná konfrontace** klienta s
 
 ## Skupinová terapie
 
-Pro klienty po EA jsou **specializované skupiny** mimořádně účinné — peer-validace má odlišnou kvalitu než individuální dialogická validace. Indikace:
+Pro klienty po EA mohou být **specializované skupiny** cenné — peer-validace má odlišnou kvalitu než individuální dialogická validace, protože ji poskytují lidé, kteří mají s terapeutem i s klientem stejně málo moci. Míru účinnosti kniha neuvádí; zkušenost svépomocných skupin bývalých členů nátlakových skupin a přeživších partnerského násilí je popisná, ne změřená. Indikace:
 
 - **Post-kult skupiny** — klienti po výstupu z koercivních skupin;
 - **Survivor skupiny** — oběti dlouhodobého gaslightingu, intimního partnerského násilí;
@@ -169,7 +171,7 @@ Pro klienty po EA jsou **specializované skupiny** mimořádně účinné — pe
 
 ## Farmakoterapie
 
-Farmakoterapie u EA je **adjuvantní**, nikoli kauzální. Indikace:
+Farmakoterapie u EA je **adjuvantní**, nikoli kauzální. Pro samotnou EA žádná farmakoterapie neexistuje; indikaci, volbu a dávkování určují komorbidní diagnózy podle platných doporučených postupů a předepisující lékař, ne tato kniha. Přehled níže jen ukazuje, s jakými komorbiditami se klinik u této populace setká:
 
 - **SSRI/SNRI** — komorbidní depresivní porucha, GAD;
 - **Prazosin** — noční můry u PTSD složky;

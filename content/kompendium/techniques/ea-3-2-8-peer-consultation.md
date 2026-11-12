@@ -55,9 +55,9 @@ Měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.m
 | Pole | Hodnota |
 |---|---|
 | **Pro koho je stránka psána** | Všichni certifikovaní supervizoři; intenzivnější forma pro supervizory pracující se závažnými cases |
-| **Předpokládaný rámec** | Supervizorská certifikace; minimum 3 peers v dosahu (geograficky nebo virtuálně); confidentiality agreement |
+| **Předpokládaný rámec** | Supervizorská kvalifikace; několik kolegů v dosahu (geograficky nebo virtuálně); dohoda o mlčenlivosti |
 
-Předpoklady nejsou formalita. Tam, kde chybí doložená kvalifikace, dohodnutý rámec a chráněný čas, nemá technika oporu a supervize se mění v administrativní kontrolu nebo v nestrukturovanou podporu; obojí patří mezi doložené podoby nedostatečné supervize (Ellis a kol., 2014).
+Předpoklady nejsou formalita. Tam, kde chybí doložená kvalifikace, dohodnutý rámec a chráněný čas, nemá technika oporu a supervize se mění v administrativní kontrolu nebo v nestrukturovanou podporu; obojí patří mezi doložené podoby nedostatečné supervize (Ellis a kol., 2014). **Počet kniha neuvádí**: dřívější verze tu měla minimální počet kolegů bez zdroje; podstatné je, aby skupina byla dost různorodá na to, aby v ní mohla zaznít námitka.
 
 ## Detekční markery (pohled pozorovatele)
 
@@ -85,12 +85,14 @@ Druhým rozlišovacím hlediskem je čas. Jednorázový konflikt nebo období p�
 
 Hodnotící kritéria nejsou cílem práce, ale jejím ukazatelem. Jakmile se měřítko stane cílem, přestává měřit to, kvůli čemu vzniklo — tento efekt popsal Campbell (1979) jako pravidlo, že čím více se kvantitativní ukazatel používá k rozhodování, tím více podléhá zkreslení.
 
-| Kritérium | Měřítko |
-|-----------|---------|
-| Attendance | >=80 % sessions |
-| Disclosure depth | Supervizoři předkládají skutečně obtížné cases (ne demonstrational) |
-| Insight generation | Konkrétní změny v praxi založené na peer feedback |
-| Group health | Annual group climate assessment
+| Kritérium | Co se posuzuje |
+|-----------|----------------|
+| Účast | Zda členové chodí pravidelně a jak skupina mluví o opakované nepřítomnosti |
+| Hloubka sdílení | Supervizoři předkládají skutečně obtížné případy, ne předváděcí |
+| Vznik vhledu | Konkrétní změny v praxi založené na zpětné vazbě kolegů |
+| Zdraví skupiny | Pravidelné společné zhodnocení klimatu skupiny, k němuž lze přizvat někoho zvenčí |
+
+**Podíl kniha neuvádí**: dřívější verze tu měla minimální podíl navštívených sezení a roční hodnocení klimatu bez zdroje. Kritéria se čtou společně. Skupina s plnou účastí, v níž se předkládají jen případy, které dopadly dobře, splňuje formu a míjí účel; naopak skupina, která o vlastním poklesu účasti otevřeně mluví, ukazuje, že přezkumná funkce v ní stále žije. Účast povýšená na cíl by přestala ukazovat to, kvůli čemu se sleduje, jak upozorňuje Campbell (1979).
 
 ## Rizikové kontexty
 

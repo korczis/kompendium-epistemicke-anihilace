@@ -184,7 +184,9 @@ V praxi se setkáváme s několika typickými klastry:
 
 ### Vinětta A: Diferenciace EA vs. PTSD
 
-> Pacientka, 34 let, po opuštění partnera s dlouhodobým gaslightingem. Prezentuje s úzkostí, depresivními symptomy, „kognitivními obtížemi“. V rozhovoru: opakovaně kontroluje, zda si „události opravdu pamatuje“. Žádné flashbacky, žádná hyperarousal odpověď na specifické podněty. Klastr A: 4 markery, klastr C: 3 markery. **Dg.: EA strukturální + cPTSD; primární intervence: epistemická rekonstrukce s trauma-informovaným rámcem.**
+> Pacientka, 34 let, po opuštění partnera s dlouhodobým gaslightingem. Prezentuje s úzkostí, depresivními symptomy, „kognitivními obtížemi“. V rozhovoru: opakovaně kontroluje, zda si „události opravdu pamatuje“. Žádné flashbacky, žádná hyperarousal odpověď na specifické podněty. Markery se shlukují v klastru A (nedůvěra ve vlastní paměť, externí kotvení reality) a v klastru C (izolace od dřívějších přátel, obrana bývalého partnera). **Dg.: EA strukturální + cPTSD; primární intervence: epistemická rekonstrukce s trauma-informovaným rámcem.**
+
+Vinětta záměrně neuvádí počty markerů: kniha žádný počet, od kterého by diagnóza platila, nemá (viz [6.1](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)). Rozhoduje kvalita shluku — paměťová nejistota bez intruzí, závislost na cizím výkladu a zúžení vztahů, které časově navazují na vztah s manipulátorem.
 
 ### Vinětta B: Diferenciace EA vs. psychóza
 

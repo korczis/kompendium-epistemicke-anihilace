@@ -125,7 +125,7 @@ Diskutuj nově nabízený rámec s lidmi, kteří **nesdílejí** zdroj rámce. 
 | Strategie | Implementace |
 |-----------|--------------|
 | **Sekvenční audit kurzů** | V coaching/training ekosystémech regulátor sleduje sekvenční eskalaci |
-| **Cooling-off period** | Mezi paradigmaticky zásadními kurzy minimálně 6 měsíců |
+| **Cooling-off period** | Mezi paradigmaticky zásadními kurzy dostatečný odstup; jeho délku kniha neuvádí (dřívější verze tu měla počet měsíců bez zdroje) |
 | **Paradigmatická pluralita ve vzdělávání** | Povinná expozice více **plnohodnotně rozvinutým** alternativám |
 
 ## Případové studie

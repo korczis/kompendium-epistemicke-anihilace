@@ -36,7 +36,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-3/"
 
 ## Definice
 
-**Individuální supervize** je centrální supervizorská technika **1:1 vztahu** mezi supervizorem a trainees. Frekvence (minimum 1x týdně po dobu programu), forma (process-focused), obsah (case + parallel process) a dokumentace (chráněné záznamy s informovaným souhlasem) jsou specifikovány protokolem. Supervize se v této tradici popisuje jako vztah s dvojí povinností — rozvíjet pracovníka a chránit toho, s kým pracuje — a obě povinnosti si mohou odporovat (Falender a Shafranske, 2004).
+**Individuální supervize** je centrální supervizorská technika **1:1 vztahu** mezi supervizorem a trainees. Frekvence, forma (process-focused), obsah (case + parallel process) a dokumentace (chráněné záznamy s informovaným souhlasem) se dohodnou v supervizní smlouvě. **Frekvenci kniha neuvádí**: dřívější verze tu měla minimální četnost setkání bez zdroje. Supervize se v této tradici popisuje jako vztah s dvojí povinností — rozvíjet pracovníka a chránit toho, s kým pracuje — a obě povinnosti si mohou odporovat (Falender a Shafranske, 2004).
 
 ## Struktura vzorce
 
@@ -85,12 +85,14 @@ Druhým rozlišovacím hlediskem je čas. Jednorázový konflikt nebo období p�
 
 Hodnotící kritéria nejsou cílem práce, ale jejím ukazatelem. Jakmile se měřítko stane cílem, přestává měřit to, kvůli čemu vzniklo — tento efekt popsal Campbell (1979) jako pravidlo, že čím více se kvantitativní ukazatel používá k rozhodování, tím více podléhá zkreslení.
 
-| Kritérium | Měřítko |
-|-----------|---------|
-| Frequency adherence | >=90 % naplánovaných sessions |
-| Working alliance | Working Alliance Inventory >=4/5 |
-| Goal attainment | Strukturovaný GAS rating |
-| Long-term outcome | 1-year follow-up s graduates
+| Kritérium | Co se posuzuje |
+|-----------|----------------|
+| Pravidelnost | Zda se setkání konají tak, jak byla dohodnuta, a co se děje s vynechanými |
+| Pracovní aliance | Jak supervidovaný popisuje bezpečí a spolupráci ve vztahu, včetně možnosti nesouhlasit |
+| Dosahování cílů | Zda se cíle dohodnuté na začátku supervize naplňují, nebo se vědomě mění |
+| Dlouhodobý výsledek | Jak supervidovaný pracuje po skončení programu, bez opory supervizora |
+
+**Prahy kniha neuvádí**: dřívější verze tu měla podíl uskutečněných sezení, číselný práh hodnocení aliance a lhůtu follow-upu bez zdroje. Kritéria se čtou společně, ne jednotlivě. Vysoká pravidelnost při slábnoucí alianci neznamená, že supervize funguje, ale spíš že se z ní stala povinnost; naopak vynechané setkání, o kterém se otevřeně mluví, může svědčit o zdravém vztahu. Rozhodující je, zda kritéria slouží k rozhovoru o supervizi, nebo k jejímu vykazování navenek: ukazatel, podle kterého se rozhoduje, podléhá tlaku na zkreslení, jak upozorňuje Campbell (1979).
 
 ## Rizikové kontexty
 

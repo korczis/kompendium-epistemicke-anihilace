@@ -87,7 +87,7 @@ Hluboká **epistemická dezorientace** spojená se zvýšenou sugestibilitou a z
 
 ### Fáze 1: Epistemická desenzitizace
 
-**Trvání**: 1–4 měsíce
+**Trvání kniha neuvádí**: dřívější verze tu u každé z pěti fází měla rozsahy měsíců bez zdroje a žádná data o délce fází tohoto scénáře kniha nemá. Fáze se zpravidla počítají na měsíce a jejich délka se liší případ od případu.
 
 **Popis**: Graduální desenzitizace subjektu vůči epistemickým kontradikcím a inkoherencím prostřednictvím systematické expozice pečlivě kalibrovaným paradoxům.
 
@@ -109,7 +109,7 @@ Hluboká **epistemická dezorientace** spojená se zvýšenou sugestibilitou a z
 
 ### Fáze 2: Destabilizace kognitivních kategorií
 
-**Trvání**: 2–8 měsíců
+**Trvání**: měsíce; hranice s předchozí fází bývá neostrá.
 
 **Popis**: Systematická dekonstrukce základních kognitivních kategorií skrze strategické rozmazávání konceptuálních hranic.
 
@@ -133,7 +133,7 @@ Hluboká **epistemická dezorientace** spojená se zvýšenou sugestibilitou a z
 
 ### Fáze 3: Disrupce kauzálních schémat
 
-**Trvání**: 3–9 měsíců
+**Trvání**: měsíce, případ od případu různě.
 
 **Popis**: Systematická disrupce implicitních kauzálních modelů organizujících porozumění vztahům mezi událostmi.
 
@@ -157,7 +157,7 @@ Hluboká **epistemická dezorientace** spojená se zvýšenou sugestibilitou a z
 
 ### Fáze 4: Kolaps epistemické sebe-účinnosti
 
-**Trvání**: 2–6 měsíců
+**Trvání**: měsíce; fáze se může překrývat s předchozí.
 
 **Popis**: Systematická eroze subjektovy důvěry ve vlastní epistemické kapacity, vedoucí k fundamentální závislosti na externí epistemické autoritě.
 
@@ -181,7 +181,7 @@ Hluboká **epistemická dezorientace** spojená se zvýšenou sugestibilitou a z
 
 ### Fáze 5: Epistemická restrukturalizace
 
-**Trvání**: 6–24 měsíců
+**Trvání**: dlouhodobě; restrukturalizace nemá zřetelný konec, dokud subjekt zůstává v kontextu rámce.
 
 **Popis**: Introdukce nového, externě poskytnutého interpretačního rámce, který poskytuje **iluzorní koherenci** po předchozích destabilizačních fázích.
 
@@ -265,10 +265,12 @@ Hluboká **epistemická dezorientace** spojená se zvýšenou sugestibilitou a z
 
 EA-3.2.G má **velmi nízkou reverzibilitu** — typicky vyžaduje:
 
-- 12–36 měsíců strukturované rekonstrukční práce
+- Dlouhodobou strukturovanou rekonstrukční práci
 - Komplexní separaci od zdrojového kontextu
 - Kombinaci individuální a skupinové terapie
 - Postupný návrat k autonomnímu úsudku
+
+**Trvání rekonstrukce kniha neuvádí**: dřívější verze tu měla rozsah měsíců bez zdroje. Počítá se spíš na roky než na měsíce a délka se liší podle toho, jak dlouho a jak hluboko dekonstrukce probíhala.
 
 V některých případech je úplná restaurace nemožná — realistickým cílem je **funkční kompromis** umožňující praktické fungování při zachování zranitelnosti vůči podobným útokům.
 
@@ -288,16 +290,16 @@ V některých případech je úplná restaurace nemožná — realistickým cíl
 >
 > **Externí pozorování (rok 3)**: Externí supervizor charakterizoval M. zkušenost jako „moje schopnost jasně myslet byla systematicky rozmontována“. M. zachoval pouze v domácím kontextu (mimo obor) schopnost autonomního úsudku, kterou před PhD vykazoval univerzálně.
 >
-> **Intervence (rok 4–6)**: Po obnovení kontaktu s předchozím mentorem zahájena strukturovaná rekonstrukce. Pomalu se obnovovala kapacita formovat jasné teze (12 měsíců). Návrat schopnosti detekovat logické chyby (18 měsíců). Plnou epistemickou autonomii v původním oboru se podařilo obnovit pouze částečně — M. zůstává **chronicky zranitelný** vůči podobným manipulativním vzorcům a je v dlouhodobé supervizi.
+> **Intervence (rok 4–6)**: Po obnovení kontaktu s předchozím mentorem zahájena strukturovaná rekonstrukce. Pomalu se obnovovala kapacita formovat jasné teze; schopnost detekovat logické chyby se vracela ještě později. Plnou epistemickou autonomii v původním oboru se podařilo obnovit pouze částečně — M. zůstává **chronicky zranitelný** vůči podobným manipulativním vzorcům a je v dlouhodobé supervizi.
 
 ## Trajektorie zotavení
 
-1. **Akutní destabilizace** (1–3 měsíce) — extrakce z toxického prostředí, počáteční dezorientace bez „rámce“
-2. **Strukturální rekonstrukce** (6–12 měsíců) — systematické rebuildování kategorií
-3. **Epistemická konsolidace** (12–24 měsíců) — návrat k autonomnímu úsudku
-4. **Resilience building** (24+ měsíců) — robustní obrany vůči budoucím útokům
+1. **Akutní destabilizace** — extrakce z toxického prostředí, počáteční dezorientace bez „rámce“
+2. **Strukturální rekonstrukce** — systematické znovuvybudování kategorií
+3. **Epistemická konsolidace** — návrat k autonomnímu úsudku
+4. **Resilience building** — robustní obrany vůči budoucím útokům
 
-Část případů dosahuje plné funkční rekonstrukce a část zůstává v různé míře kompromitována, často s reziduální úzkostí v doménách bývalé dekonstrukce. **Podíl kniha neuvádí**: dřívější verze tu měla procenta bez zdroje a žádná taková data pro tento scénář nemá.
+Fáze na sebe navazují v tomto pořadí, ale překrývají se a jejich délku kniha neuvádí; dřívější verze tu měla rozsahy měsíců bez zdroje. Část případů dosahuje plné funkční rekonstrukce a část zůstává v různé míře kompromitována, často s reziduální úzkostí v doménách bývalé dekonstrukce. **Podíl kniha neuvádí**: dřívější verze tu měla procenta bez zdroje a žádná taková data pro tento scénář nemá.
 
 ## Související
 

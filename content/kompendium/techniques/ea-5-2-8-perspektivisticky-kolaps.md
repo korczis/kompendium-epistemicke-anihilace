@@ -40,7 +40,7 @@ Perspektiva v transcendentálním smyslu (Husserl, Merleau-Ponty) není pouze **
 
 EA-5.2.8 je odlišná od **změny perspektivy** (přijetí jiného pohledu) a od **multi-perspektivismu** (uznání mnoha pohledů). V obou těchto případech **schopnost** zaujímat perspektivu zůstává intaktní. EA-5.2.8 destruuje samotnou schopnost.
 
-Perspektivistický kolaps neoperuje skrze přesycení – stav, v němž by subjekt přijímal všechny perspektivy současně –, ale skrze **vyčerpání** perspektivní funkce. Subjekt nemá žádnou perspektivu, ne mnoho. Pro přesycení perspektivami katalog technik samostatnou položku nevede; sousední techniky podtřídy shrnuje [kompaktní taxonomie kapitoly 7](@/kompendium/05-ultramari-techniky/kapitola-7.md#kompaktni-taxonomie-ea-5-2-11-az-5-2-30).
+Perspektivistický kolaps neoperuje skrze přesycení – stav, v němž by subjekt přijímal všechny perspektivy současně –, ale skrze **vyčerpání** perspektivní funkce. Subjekt nemá žádnou perspektivu, ne mnoho. Pro přesycení perspektivami katalog technik samostatnou položku nevede; sousední techniky podtřídy shrnuje [kompaktní taxonomie kapitoly 7](@/kompendium/05-ultramari-techniky/kapitola-7.md#kompaktni-taxonomie).
 
 ## Struktura vzorce
 
@@ -179,18 +179,6 @@ Intervence: změna pracovního zařazení, terapeutická rekonstrukce; návrat k
   - [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
   - [Fenomenologie](@/glossary/fenomenologie.md)
   - [Hermeneutika](@/glossary/hermeneutika.md)
-
-## Co ověřit před čtením
-
-Před prací s touto stránkou si čtenář ověří:
-
-- Jeho **přístupová úroveň** odpovídá hodnotě `access_level` v záhlaví článku (L3 — omezený doktrinální rámec).
-- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro materiál této úrovně.
-- Rozpoznání vzorce u sebe sama není diagnózou — [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se čtou se supervizí.
-
-> **Rámec čtení**: stránka je popisná taxonomie sloužící k rozpoznání vzorce, nikoli nástroj; závazně pro ni platí [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
-
----
 
 ## Connect & Contribute
 

@@ -206,23 +206,6 @@ První sloupec uvádí stránku nebo jev, druhý povahu vazby k filtraci, třet�
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## Co ověřit před čtením
-
-Před prací s touto stránkou si čtenář ověří tři věci.
-
-| Co si čtenář ověří | Proč to u filtrace vlastního vzdělání záleží |
-|---|---|
-| Jeho přístupová úroveň odpovídá poli `access_level` v záhlaví článku | Stránka je vedena jako volně přístupná; vyšší úrovně žádají doloženou kvalifikaci, případně omezený doktrinální rámec |
-| Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) odpovídající úrovni této stránky | Rozpoznání vlastní filtrované expozice vede k závěrům o vlastním vzdělání, které patří do supervize |
-| Rozpoznání vzorce u sebe sama nepovažuje za diagnózu | K té slouží [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a jejich výsledek patří do supervize |
-
-> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
-> čtenáře, nikoli nástroj. Etický rámec stanoví
-> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
-> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
-
----
-
 ## Connect & Contribute
 
 Stránku vytvořil [Tomáš Korcak (korczis)](https://github.com/korczis).

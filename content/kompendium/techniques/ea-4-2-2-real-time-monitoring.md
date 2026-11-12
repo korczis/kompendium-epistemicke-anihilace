@@ -99,6 +99,12 @@ Rizikovým kontextem je sledování bez pravomoci zastavit. Údaj, který nikoho
 
 Druhým rizikovým kontextem je souběh sledování a hodnocení. Kde týž údaj slouží ochraně i posouzení člověka, přestane být údaj spolehlivý (Reason, 1997).
 
+## Jak se prázdné sledování pozná zevnitř
+
+Pro sledovaného je prázdné sledování obtížně rozpoznatelné, protože vypadá stejně jako ochrana: měří se, zapisuje se a někdo se pravidelně ptá. Rozdíl se ukáže teprve ve chvíli, kdy člověk ohlásí potíž a nic se nezmění, nebo kdy se jeho údaj vrátí jako výtka. Postupné přivykání odchylce, které popsal Vaughan (1996), se zevnitř nejeví jako rozhodnutí, ale jako běžný provoz, a proto ho neodhalí ten, kdo v něm pracuje, nýbrž až nezávislý pohled zvenčí.
+
+Obranou instituce je oddělit toho, kdo údaje sbírá, od toho, kdo o člověku rozhoduje, a dát sledujícímu skutečnou pravomoc zastavit. Kde tato pravomoc chybí, je sběr údajů v lepším případě archivem, v horším nástrojem kontroly (Weick a Sutcliffe, 2007).
+
 ## Vztah k jiným technikám
 
 | Stránka | Vztah |
@@ -150,22 +156,6 @@ Druhým rizikovým kontextem je souběh sledování a hodnocení. Kde týž úda
 - **Forward-references**:
   - [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-
-## Co ověřit před čtením
-
-Před prací s touto stránkou si čtenář ověří:
-
-- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
-  (L2 = doložená kvalifikace a supervize).
-- Má k dispozici [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  odpovídající rizikovému profilu stránky.
-- Stránka není nástroj sebediagnostiky; podezření na sebe nebo na blízkou osobu patří
-  k [diagnostickým indikátorům](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a ke konzultaci se supervizí.
-
-> **Rámec čtení**: stránka popisuje rozpoznatelný vzorec, nikoli nástroj.
-
----
 
 ## Connect & Contribute
 

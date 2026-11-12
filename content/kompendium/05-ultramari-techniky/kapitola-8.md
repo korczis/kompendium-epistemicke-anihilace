@@ -40,8 +40,7 @@ Třicet technik je organizováno do **šesti klastrů**, z nichž každý zasahu
 | **Temporálně-vývojová inverze** | 5.3.21 — 5.3.25 | Ontogenetická kontinuita | [EA-5.3.22](@/kompendium/techniques/ea-5-3-22-moralni-osy-inverze.md) |
 | **Rekurzivní hypertransformace** | 5.3.26 — 5.3.30 | Integrativní finální fáze | [EA-5.3.28](@/kompendium/techniques/ea-5-3-28-pseudo-self-implantace.md) |
 
-## Klastr A — Identitární substituce (EA-5.3.1 až 5.3.5)
-
+## Klastr A — Identitární substituce
 Klastr destabilizuje **centrální self-koncept** — odpověď subjektu na otázku „kdo jsem“. Techniky vedou subjekt k postupnému přijímání alternativních identitárních konfigurací jako „pravdivějších“ než původní.
 
 | Kód | Název | Kompaktní deskripce |
@@ -52,8 +51,7 @@ Klastr destabilizuje **centrální self-koncept** — odpověď subjektu na otá
 | **[EA-5.3.4](@/kompendium/techniques/ea-5-3-4-telesna-disociace.md)** | Autoimunitní self-rejekce | Subjekt je veden k rozpoznání, že "já minulé verze" bylo "falešné", a aplikace stejné struktury rejekce na současnou verzi v rekurzivní smyčce. Generuje persistentní self-rejekci bez stabilního referenta. |
 | **[EA-5.3.5](@/kompendium/techniques/ea-5-3-5-temporalne-vyvojova-inverze.md)** | Substituční inkorporace | Subjekt postupně inkorporuje jako vlastní hodnoty, paměti a preference, které byly externě prezentovány jako "vždy již vlastní". Po dostatečné expozici subjekt nedokáže rozlišit původní identitární obsahy od inkorporovaných. |
 
-## Klastr B — Autobiografická dekonstrukce (EA-5.3.6 až 5.3.10)
-
+## Klastr B — Autobiografická dekonstrukce
 Klastr cílí na **narativní paměť** — sekvenci vzpomínek, kterou subjekt užívá k organizaci své identitární kontinuity. Mechanismem je systematická destabilizace autobiografického vyprávění.
 
 | Kód | Název | Kompaktní deskripce |
@@ -64,8 +62,7 @@ Klastr cílí na **narativní paměť** — sekvenci vzpomínek, kterou subjekt 
 | **[EA-5.3.9](@/kompendium/techniques/ea-5-3-9-afektivni-prepolovani.md)** | Kausální historiografická inverze | Subjekt je veden k rekonstrukci kausálních vztahů ve své biografii v opačném smyslu, než jak je předtím rozuměl. Po expozici: "to, co jsem považoval za příčinu, bylo důsledkem; to, co jsem považoval za výsledek, bylo motivem". |
 | **[EA-5.3.10](@/kompendium/techniques/ea-5-3-10-perspektivni-substituce.md)** | Polyhistorická konfuzia | Subjekt je veden k akceptaci multiplicitních vzájemně inkompatibilních autobiografií jako "různých legitimních interpretací téhož". Eliminuje samotnou možnost autobiografické pravdy. |
 
-## Klastr C — Rolová fragmentace (EA-5.3.11 až 5.3.15)
-
+## Klastr C — Rolová fragmentace
 Klastr operuje na **sociální pozicionalitě** — souboru rolí a vztahů, prostřednictvím kterých subjekt funguje v sociálním poli.
 
 | Kód | Název | Kompaktní deskripce |
@@ -76,8 +73,7 @@ Klastr operuje na **sociální pozicionalitě** — souboru rolí a vztahů, pro
 | **[EA-5.3.14](@/kompendium/techniques/ea-5-3-14-somaticka-rekodifikace.md)** | Statusová inverze | Manipulace s vnímáním vlastního sociálního statusu prostřednictvím systematické feedbackové dezorientace. Subjekt ztrácí schopnost posoudit, zda je v specifickém kontextu výše/níže/rovnocenně postaven. |
 | **[EA-5.3.15](@/kompendium/techniques/ea-5-3-15-mentalizacni-disrupce.md)** | Identitární kontextová singularizace | Subjekt je veden k akceptaci, že jeho "skutečná identita" je manifestována pouze v jednom specifickém kontextu (typicky kontextu manipulátora), a všechny ostatní kontexty jsou "deformující". |
 
-## Klastr D — Tělesná identitární disociace (EA-5.3.16 až 5.3.20)
-
+## Klastr D — Tělesná identitární disociace
 Klastr zasahuje **embodiment** — tělesnou kontinuitu, která je fenomenologicky fundamentem identitární kontinuity (Merleau-Ponty).
 
 | Kód | Název | Kompaktní deskripce |
@@ -88,8 +84,7 @@ Klastr zasahuje **embodiment** — tělesnou kontinuitu, která je fenomenologic
 | **[EA-5.3.19](@/kompendium/techniques/ea-5-3-19-autobiograficka-amnestizace.md)** | Tělesná hyperreflexivní fragmentace | Indukce stavu, v němž je subjekt současně přítomen v multiplicitních tělesných perspektivách (první osoba, třetí osoba, pohled "shora"). Generuje kompletní embodimentovou dezorientaci. |
 | **[EA-5.3.20](@/kompendium/techniques/ea-5-3-20-self-vector-rotation.md)** | Sensori-motorická inverze | Manipulace s vazbou mezi senzorickou aferencí a motorickou eferencí prostřednictvím inkonzistentních ujištění a fenomenologické sugesce. Klinicky vzácné, dokumentováno pouze v laboratorních kontextech. |
 
-## Klastr E — Temporálně-vývojová inverze (EA-5.3.21 až 5.3.25)
-
+## Klastr E — Temporálně-vývojová inverze
 Klastr cílí na **ontogenetickou kontinuitu** — zkušenost vlastního vývoje od dětství po současnost.
 
 | Kód | Název | Kompaktní deskripce |
@@ -100,8 +95,7 @@ Klastr cílí na **ontogenetickou kontinuitu** — zkušenost vlastního vývoje
 | **[EA-5.3.24](@/kompendium/techniques/ea-5-3-24-proto-self-rozklad.md)** | Genealogická dezorientace | Manipulace s vnímáním vlastní genealogické pozice (rodič/dítě/sourozenec) prostřednictvím systematické rolové substituce v rodinných interakcích. |
 | **[EA-5.3.25](@/kompendium/techniques/ea-5-3-25-minimal-self-deformace.md)** | Mortalitní temporální kolaps | Indukce zkušenosti, že subjekt je "již zemřel" nebo "nikdy neexistoval", při zachování formální realitní validace. Jeden z nejintenzivnějších stavů katalogizovaných v kapitole. |
 
-## Klastr F — Rekurzivní hypertransformace (EA-5.3.26 až 5.3.30)
-
+## Klastr F — Rekurzivní hypertransformace
 Poslední klastr je **integrativní**. Techniky 5.3.26 až 5.3.29 kombinují předchozí klastry do koherentních sekvencí; technika 5.3.28 představuje **vrcholovou kompozici**.
 
 | Kód | Název | Kompaktní deskripce |

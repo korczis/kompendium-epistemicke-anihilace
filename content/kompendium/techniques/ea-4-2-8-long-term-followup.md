@@ -156,16 +156,3 @@ Aplikace techniky **EA-4.2.8** vyžaduje specifickou modifikaci v následující
 
 - [Informovaný souhlas](@/glossary/informed-consent.md) – souhlas se sledováním a jeho meze.
 - [Iatrogenní poškození](@/glossary/iatrogenic-harm.md) – opožděné škody protokolu.
-
-## Co ověřit před čtením
-
-Před prací s touto stránkou si čtenář ověří:
-
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L2 = doložená kvalifikace + supervize).
-- Máš funkční [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) na úrovni odpovídající rizikovému profilu techniky.
-- Pokud diagnostikuješ na sobě nebo na blízkém kontaktu, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí.
-
-> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
-> čtenáře, nikoli nástroj. Etický rámec stanoví
-> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
-> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).

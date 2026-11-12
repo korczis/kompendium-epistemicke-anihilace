@@ -52,7 +52,7 @@ Všechny technique-články dodržují stejnou strukturu:
 
 | EA | Technika | Stav |
 |----|----------|------|
-| **EA-1.2.1** | [Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) | ✓ |
+| **[EA-1.2.1](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md)** | [Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) | ✓ |
 | **EA-1.2.2** | [Falešná ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md) | ✓ |
 | **EA-1.2.3** | [Iluzorní komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) | ✓ |
 

@@ -246,23 +246,6 @@ Intervence: Strukturální požadavek na pre-registered outcome criteria; advers
   - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
 
-## Co ověřit před čtením
-
-Před prací s touto stránkou si čtenář ověří tři věci:
-
-| Co si čtenář ověří u této stránky | Kde to zjistí |
-|---|---|
-| Že jeho přístupová úroveň odpovídá hodnotě `access_level` v záhlaví článku; úroveň L1 znamená volný přístup, L2 doloženou kvalifikaci, L3 omezený doktrinální rámec | Záhlaví tohoto článku |
-| Že má supervizní rámec odpovídající úrovni této stránky | [Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) |
-| Že rozpoznání vzorce u sebe sama nebere jako diagnózu a výsledek nese do supervize | [Diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) |
-
-> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
-> čtenáře, nikoli nástroj. Etický rámec stanoví
-> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
-> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
-
----
-
 ## Connect & Contribute
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

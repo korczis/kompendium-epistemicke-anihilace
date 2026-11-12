@@ -75,6 +75,8 @@ Následující znaky jsou to, co supervizor, kolega nebo vyšetřující pozoruj
 
 Rozlišení od neškodných jevů je nutné: tichá kohorta může být unavená, shoda může být oprávněná a administrativní zátěž může přijít zvenčí. Rozhodující je, zda zůstává dostupná cesta, jak nesouhlas vyslovit a doložit (Edmondson, 1999).
 
+Zevnitř kohorty je posun téměř neviditelný, protože každý člen vidí jen ostatní, kteří souhlasí, a vlastní pochybnost si vykládá jako osobní výjimku. Člověk tak mlčí právě proto, že se domnívá, že mlčí sám, ačkoli totéž si myslí i další. Iluzi jednomyslnosti a autocenzuru jednotlivých členů popsal Janis (1972) jako jádro skupinového myšlení. Ochranou je vnější bod, k němuž se dá obrátit mimo skupinu, a kohortní data, která ukazují rozptyl názorů, nikoli jen jejich průměr (Lieberman, Yalom a Miles, 1973).
+
 ## Odlišení od neškodných jevů
 
 Od neškodných jevů se vzorec odlišuje tím, co zůstává možné. Náročná supervize, nepříjemná zpětná vazba i vysoké nároky jsou legitimní a samy o sobě nic neznamenají; poznávacím znakem je, že supervidovaný už nemá, komu obtíž vynést, a že se neshoda přestala objevovat i tam, kde by věcně patřila (Ellis a kol., 2014).
@@ -141,22 +143,6 @@ Druhým rizikovým kontextem je sběr dat, který sám mění, co se měří. An
 - [Kapitola 3 – Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md) – rodičovská kapitola.
 - [6.6 Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) – supervize v klinické praxi.
 - [Anonymizace ve výzkumu EA](@/kompendium/research-methodology/anonymization-EA-research.md) – ochrana dat kohorty.
-
-## Co ověřit před čtením
-
-Před prací s touto stránkou si čtenář ověří:
-
-- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
-  (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální rámec).
-- Má k dispozici [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  odpovídající úrovni této stránky.
-- Stránka není nástroj sebediagnostiky; podezření na sebe nebo na blízkou osobu patří
-  k [diagnostickým indikátorům](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a ke konzultaci se supervizí.
-
-> **Rámec čtení**: stránka popisuje rozpoznatelný vzorec, nikoli nástroj.
-
----
 
 ## Connect & Contribute
 

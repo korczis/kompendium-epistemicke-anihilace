@@ -193,23 +193,6 @@ Klinický kontext **EA-4.2.5** připouští následující dokumentované adapta
   - [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 
-## Co ověřit před čtením
-
-Stránka je vedena na úrovni L2 a týká se terminálního protokolu; čtenář si před prací s ní ověří:
-
-| Podmínka čtení této stránky | Kde ji ověří |
-|---|---|
-| Vlastní přístupová úroveň odpovídá hodnotě `access_level` v záhlaví, tedy doložené kvalifikaci se supervizí | Záhlaví tohoto článku |
-| Supervizní rámec odpovídá rizikovému profilu, s nímž je stránka vedena | [Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) |
-| Rozpoznání vzorce u sebe nebo u blízkého kontaktu se nese do supervize, nikoli do vlastního závěru | [Diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) |
-
-> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
-> čtenáře, nikoli nástroj. Etický rámec stanoví
-> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
-> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
-
----
-
 ## Connect & Contribute
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

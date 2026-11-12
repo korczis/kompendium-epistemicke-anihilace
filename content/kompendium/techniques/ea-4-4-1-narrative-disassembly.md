@@ -180,23 +180,6 @@ Levý sloupec uvádí stránku, prostřední její místo v taxonomii, pravý po
   - [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 
-## Co ověřit před čtením
-
-Před prací s touto stránkou si čtenář ověří tři věci.
-
-| Co si čtenář ověří | Proč to u terminálního protokolu záleží |
-|---|---|
-| Jeho přístupová úroveň odpovídá poli `access_level` v záhlaví článku | Stránka je vedena jako omezená: žádá doloženou kvalifikaci spolu se supervizí, nikoli jednu z nich |
-| Má funkční [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) odpovídající rizikovému profilu techniky | Rozpoznání vzorce vede k závěrům o vztahu, v němž subjekt právě je, a ty nelze nést samostatně |
-| Rozpoznání vzorce u sebe nebo u blízké osoby nepovažuje za diagnózu | K té slouží [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a jejich výsledek patří do supervize |
-
-> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
-> čtenáře, nikoli nástroj. Etický rámec stanoví
-> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
-> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
-
----
-
 ## Connect & Contribute
 
 Stránku vytvořil [Tomáš Korcak (korczis)](https://github.com/korczis).

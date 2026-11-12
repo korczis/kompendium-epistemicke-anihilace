@@ -46,6 +46,8 @@ Retrospektivně se v dobře vedené praxi dá rozlišit sled, v němž se znaky 
 
 Nepříznivý průběh se pozná podle toho, že zápisky píšou pro čtenáře, který je bude hodnotit. Schön (1983) upozorňuje, že reflexe vázaná na posouzení ztrácí svou funkci: zaznamenává se to, co se čeká, nikoli to, co se dělo.
 
+Od ruminace se reflektivní zápis odliší tím, zda se text vyvíjí: ruminativní zápisky se vracejí k téže tísni stejnými slovy a nic z nich neplyne, reflektivní k ní přidávají souvislost nebo rozhodnutí. Pisatel sám tento rozdíl často nevidí, protože obojí prožívá jako práci na sobě (Nolen-Hoeksema, 1991).
+
 *Interpretace knihy*: rozlišujícím znakem je, kdo zápisky vlastní. Kde o jejich sdílení rozhoduje pisatel a kde zůstává právo nesdílet nic, slouží žurnál integraci; kde je sdílení podmínkou, stává se z něj hodnotící nástroj (Boud, Keogh a Walker, 1985).
 
 ## Cílová populace
@@ -156,25 +158,6 @@ Tato edukativní technika **operacionalizuje** poznatky z taxonomie:
 - **Klinické aplikace**: [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - **Filozofie**:
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
-## Co ověřit před čtením
-
-Před prací s touto stránkou si čtenář ověří:
-
-- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
-  (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální rámec)
-- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  odpovídající úrovni této stránky
-- Zavedení takového výcviku v instituci je předmětem schválení
-  [institucionální etické rady](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md),
-  nikoli rozhodnutí jednotlivého čtenáře
-
-> **Rámec čtení**: stránka popisuje, co edukativní praxi tohoto typu charakterizuje
-> a podle čeho se pozná, že je vedena dobře; není to implementační návod. Etický rámec
-> stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
-> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
-
----
 
 ## Connect & Contribute
 

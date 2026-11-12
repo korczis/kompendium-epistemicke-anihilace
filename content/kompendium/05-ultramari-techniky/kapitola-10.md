@@ -38,8 +38,7 @@ Tato vrstva je **strukturálně rezistentní vůči konceptualizaci** — pokus 
 | **Pre-temporální destabilizace** | 5.5.21 — 5.5.25 | Pasivní synthesis času | [EA-5.5.22](@/kompendium/techniques/ea-5-5-22-hypnagogicka-modulace.md) |
 | **Konvergentní transkonceptualita** | 5.5.26 — 5.5.30 | Integrativní finální fáze | [EA-5.5.28](@/kompendium/techniques/ea-5-5-28-olfacticka-modulace.md) |
 
-## Klastr A — Pre-predikativní destabilizace (EA-5.5.1 až 5.5.5)
-
+## Klastr A — Pre-predikativní destabilizace
 Klastr cílí na **pole zkušenosti před aktem predikace** — vrstvu, na níž je něco „dáno“ před tím, než je o tom cokoli řečeno.
 
 | Kód | Název | Kompaktní deskripce |
@@ -50,8 +49,7 @@ Klastr cílí na **pole zkušenosti před aktem predikace** — vrstvu, na níž
 | **[EA-5.5.4](@/kompendium/techniques/ea-5-5-4-gestalt-disrupce.md)** | Pre-objektová mlhavost | Indukce stavu, v němž **vůbec nelze formovat objekty** zkušenosti. Pole je přítomno, ale bez rozlišených entit, které by se v něm vyjevovaly. |
 | **[EA-5.5.5](@/kompendium/techniques/ea-5-5-5-pre-temporalni-rozpojeni.md)** | Hyletická dekoherence | Manipulace s hyletickou vrstvou (smyslový "materiál" zkušenosti) prostřednictvím inkonzistentních ujištění o její struktuře. Klinicky se manifestuje fragmentací smyslové integrace. |
 
-## Klastr B — Somato-fenomenologická inverze (EA-5.5.6 až 5.5.10)
-
+## Klastr B — Somato-fenomenologická inverze
 Klastr zasahuje **chair-tělo** Merleau-Pontyho — tělesnou zkušenost před jejím rozčleněním na „moje tělo“ a „věci“.
 
 | Kód | Název | Kompaktní deskripce |
@@ -62,8 +60,7 @@ Klastr zasahuje **chair-tělo** Merleau-Pontyho — tělesnou zkušenost před j
 | **[EA-5.5.9](@/kompendium/techniques/ea-5-5-9-kinesteticka-deformace.md)** | Synaestetická konfuze | Manipulace s implicitními cross-modálními vazbami zkušenosti (zvuk-barva, dotek-prostor). Generuje persistentní synaestetickou dezorientaci, distinktní od běžné synestézie. |
 | **[EA-5.5.10](@/kompendium/techniques/ea-5-5-10-proprioceptivni-confusion.md)** | [Tělesné schéma](@/glossary/body-schema.md) evakuace | Dekompozice "tělesného schématu" (corporal schema, Schilder) bez nahrazujícího rámce. Klinicky velmi vzácné, dokumentováno pouze v laboratorních kontextech. |
 
-## Klastr C — Atmosférická anihilace (EA-5.5.11 až 5.5.15)
-
+## Klastr C — Atmosférická anihilace
 Klastr cílí na **Stimmung-atmosféru** — předkonceptuální emoční tonalitu, která zabarvuje pole zkušenosti, aniž by byla zaměřena na konkrétní objekt.
 
 | Kód | Název | Kompaktní deskripce |
@@ -74,8 +71,7 @@ Klastr cílí na **Stimmung-atmosféru** — předkonceptuální emoční tonali
 | **[EA-5.5.14](@/kompendium/techniques/ea-5-5-14-pretemporalni-rytm-disrupce.md)** | Atmosférická heterogenizace | Současná přítomnost vzájemně inkompatibilních atmosfér v jednom poli. Subjekt nedokáže lokalizovat atmosférický centrum a prožívá *atmosférickou roztříštěnost*. |
 | **[EA-5.5.15](@/kompendium/techniques/ea-5-5-15-pulzace-disrupce.md)** | Pre-emoční subverze | Manipulace s pre-emoční vrstvou (tím, co předchází identifikovatelnou emoci) prostřednictvím systematické afektivní disorientace v ne-emočních kontextech. |
 
-## Klastr D — Gestalt-rozplývání (EA-5.5.16 až 5.5.20)
-
+## Klastr D — Gestalt-rozplývání
 Klastr cílí na **figura-pozadí strukturu** — fundamentální organizační princip gestalt-psychologie, na němž stojí veškerá perceptuální koherence.
 
 | Kód | Název | Kompaktní deskripce |
@@ -86,8 +82,7 @@ Klastr cílí na **figura-pozadí strukturu** — fundamentální organizační 
 | **[EA-5.5.19](@/kompendium/techniques/ea-5-5-19-ultradian-rozklad.md)** | Pre-prägnanz subverze | Subverze principu prägnanz (tendence k "dobrým" gestaltům) prostřednictvím expozice strukturně-anti-prägnatním konfiguracím. |
 | **[EA-5.5.20](@/kompendium/techniques/ea-5-5-20-pre-spaclni-restrukturalizace.md)** | Aspect-shift kaskáda | Sekvenční vynucené aspect-shifts (wittgensteinovské "vidění-jako") bez stabilizační pauzy. Subjekt ztrácí kapacitu setrvat v jednom aspektu. |
 
-## Klastr E — Pre-temporální destabilizace (EA-5.5.21 až 5.5.25)
-
+## Klastr E — Pre-temporální destabilizace
 Klastr zasahuje **pasivní synthesis času** v Husserlově smyslu — předkonceptuální strukturování zkušenosti do retence-přítomnosti-protentence.
 
 | Kód | Název | Kompaktní deskripce |
@@ -98,8 +93,7 @@ Klastr zasahuje **pasivní synthesis času** v Husserlově smyslu — předkonce
 | **[EA-5.5.24](@/kompendium/techniques/ea-5-5-24-atmospheric-pressure-modulace.md)** | Tempo-fenomenologická heterogenizace | Souběžná přítomnost inkompatibilních časových rytmů v zkušenostním poli. Klinický obraz připomíná akutní temporální distorze v přicházejících migrenózních aurách, ale je epistemicky generován. |
 | **[EA-5.5.25](@/kompendium/techniques/ea-5-5-25-svetelna-frekvence-modulace.md)** | Pre-temporální klid | Vzácný stav, v němž zkušenostní pole nemá **ani časovou ani ne-časovou strukturu**. Strukturálně sousedí s některými mystickými stavy popsanými v kontemplativní literatuře, ale generováno destruktivně. |
 
-## Klastr F — Konvergentní transkonceptualita (EA-5.5.26 až 5.5.30)
-
+## Klastr F — Konvergentní transkonceptualita
 Poslední klastr je **integrativní a finální** — uzavírá nejen kapitolu, ale celou sekci 05.
 
 | Kód | Název | Kompaktní deskripce |

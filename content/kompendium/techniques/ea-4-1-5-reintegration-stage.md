@@ -93,6 +93,12 @@ Od neškodných jevů se vzorec odlišuje tím, co po něm zůstává. Náročn�
 
 Druhým rozlišovacím hlediskem je dohledatelnost. Legitimní rámec po sobě nechává zápis: kdo posoudil poměr přínosu a rizika, co bylo sporné a za jakých podmínek se mělo zastavit. Kde takový zápis chybí, nelze o supervidovaném protokolu mluvit bez ohledu na to, jak se prostředí samo popisuje (Belmont Report, 1979).
 
+## Jak se obtížný návrat pozná zevnitř
+
+Zevnitř se obtížný návrat nejčastěji neprojevuje jako trápení, ale jako stud. Člověk má pocit, že by měl být „hotový“, a každou potíž s běžným životem si vykládá jako vlastní nedostatek, takže o ní mlčí i před těmi, kdo by pomoci mohli. Popisy lidí odcházejících z uzavřených skupin ukazují, že právě tento soukromý výklad selhání udržuje vazbu na původní prostředí déle než jakýkoli vnější tlak (Hassan, 2000).
+
+Ochranou je proto prostředí, které návrat nehodnotí a dovolí o původní zkušenosti mluvit bez povinnosti ji odsoudit i obhájit. Takový rozhovor obnovuje schopnost vyprávět vlastní příběh více způsoby, což je v této tradici znak, že zotavení skutečně probíhá (Herman, 1992).
+
 ## Rizikové kontexty
 
 Rizikovým kontextem je návrat bez ekonomického a sociálního zázemí. Tam, kde je obživa i bydlení vázáno na původní prostředí, je odchod formálně možný a prakticky nedostupný (Hassan, 2000).
@@ -148,22 +154,6 @@ Druhým rizikovým kontextem je prostředí, které návrat hodnotí. Je-li pot�
 - **Forward-references**:
   - [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-
-## Co ověřit před čtením
-
-Před prací s touto stránkou si čtenář ověří:
-
-- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
-  (L2 = doložená kvalifikace a supervize).
-- Má k dispozici [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  odpovídající rizikovému profilu stránky.
-- Stránka není nástroj sebediagnostiky; podezření na sebe nebo na blízkou osobu patří
-  k [diagnostickým indikátorům](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a ke konzultaci se supervizí.
-
-> **Rámec čtení**: stránka popisuje rozpoznatelný vzorec, nikoli nástroj.
-
----
 
 ## Connect & Contribute
 

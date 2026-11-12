@@ -99,6 +99,10 @@ Rizikovým kontextem je dlouhodobá dvojice bez vnějšího kontaktu. Nedostate�
 
 Druhým rizikovým kontextem je přetížený tým bez náhrady. Rotace, kterou není kým naplnit, se změní ve formální záznam, zatímco faktická závislost trvá (Figley, 1995).
 
+## Jak se závislost pozná zevnitř
+
+Zevnitř se závislost na jednom supervizorovi nejeví jako závislost, ale jako výjimečná blízkost. Supervidovaný se před příchodem jiného supervizora cítí ohrožen, nového člověka vnímá jako vetřelce a ztrátu důvěrného vztahu prožívá jako trest, nikoli jako pojistku. Právě tato reakce na výměnu je čitelným znakem: tam, kde vztah stojí na odbornosti, výměna přináší nepohodlí, kdežto tam, kde nahradil vlastní úsudek, přináší pocit ztráty opory. Popisy poškozující supervize ukazují, že takový vztah se zvenčí obvykle jeví jako vzorně fungující (Ellis a kol., 2014).
+
 ## Vztah k jiným technikám
 
 | Stránka | Vztah |
@@ -150,22 +154,6 @@ Druhým rizikovým kontextem je přetížený tým bez náhrady. Rotace, kterou 
 - **Forward-references**:
   - [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-
-## Co ověřit před čtením
-
-Před prací s touto stránkou si čtenář ověří:
-
-- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
-  (L2 = doložená kvalifikace a supervize).
-- Má k dispozici [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  odpovídající rizikovému profilu stránky.
-- Stránka není nástroj sebediagnostiky; podezření na sebe nebo na blízkou osobu patří
-  k [diagnostickým indikátorům](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a ke konzultaci se supervizí.
-
-> **Rámec čtení**: stránka popisuje rozpoznatelný vzorec, nikoli nástroj.
-
----
 
 ## Connect & Contribute
 

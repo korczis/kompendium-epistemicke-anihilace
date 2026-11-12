@@ -204,7 +204,7 @@ Intervence: Strukturovaná psychoeducation o **rozlišení** legitimní nuance v
 | Hraniční jev | Čím se od iluzorní komplexity liší |
 |---|---|
 | Skutečná komplexita | Náročnost odpovídá kausální distribuci relevance faktorů; osy sporu lze pojmenovat |
-| EA-1.2.1 Falešné dilema | Strukturálně inverzní: redukuje skutečně komplexní problém, místo aby jednoduchý nafukovalo |
+| [EA-1.2.1](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md) Falešné dilema | Strukturálně inverzní: redukuje skutečně komplexní problém, místo aby jednoduchý nafukovalo |
 | EA-1.2.2 Falešná ekvivalence | Sourozenecká: inflouje paritu pozic, nikoli náročnost problému |
 
 ## Literatura
@@ -222,23 +222,6 @@ Intervence: Strukturovaná psychoeducation o **rozlišení** legitimní nuance v
 - **Glossary**:
   - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
-
-## Co ověřit před čtením
-
-Před prací s touto stránkou si čtenář ověří tři věci:
-
-| Co ověřit | V jaké podobě |
-|---|---|
-| Přístupová úroveň čtenáře odpovídá `access_level` v záhlaví článku | L1 volný přístup, L2 doložená kvalifikace, L3 omezený doktrinální rámec |
-| Čtenář má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) odpovídající úrovni této stránky | Supervize sjednaná předem, nikoli vyhledaná až po nálezu |
-| Rozpoznání vzorce u sebe sama není diagnóza | K té slouží [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a výsledek patří do supervize |
-
-> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
-> čtenáře, nikoli nástroj. Etický rámec stanoví
-> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
-> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
-
----
 
 ## Connect & Contribute
 

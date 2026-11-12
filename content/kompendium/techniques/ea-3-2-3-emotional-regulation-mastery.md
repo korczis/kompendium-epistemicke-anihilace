@@ -99,6 +99,8 @@ Specificky:
 
 Nepřítomnost reakce nedokládá regulaci. Podle Grossova rozlišení může být právě ta nejnákladnější z možností — potlačení už vzniklého projevu — zvenčí nejméně patrná, a přesto ji okolí zpravidla zaznamená jako odstup, nikoli jako jistotu (Gross, 1998). Zvládnutý průběh jednoho setkání nedokládá ani to, že je supervizor v pořádku: ubývání kapacity zasáhnout včas se na vyrovnanosti neprojeví, protože vyrovnanost je přesně tím, co lze předvést (Figley, 1995). Nedokládá se jím ani prožitek druhé strany — zda bylo setkání nosné, může říci jen supervidovaný, a jeho mlčení není souhlas, zvlášť je-li na supervizorovi závislý. A nevypovídá o přenosu: klid nad materiálem, který se supervizora osobně netýká, nic neříká o materiálu, v němž se potká s vlastní zkušeností.
 
+Zevnitř se fasáda klidu nepozná snadno ani samotnému supervizorovi, protože potlačení se po čase přestane prožívat jako úsilí a začne se jevit jako profesní vyzrálost. Prvním znakem bývá spíš únava po setkáních a ubývání zvědavosti než jakýkoli viditelný výkyv (Figley, 1995).
+
 ## Odlišení od blízkých technik
 
 Od [supervizorské sebepéče](@/kompendium/techniques/ea-3-2-10-supervisor-self-care.md) se tato kompetence liší místem i časem: sebepéče se děje mimo setkání a týká se udržitelnosti supervizora, zdejší kompetence se uplatňuje v setkání a je nástrojem, na němž závisí zpracování druhého. Od [stabilizačního kotvení](@/kompendium/techniques/ea-3-1-5-stabilization-anchoring.md) ji odlišuje adresát — tam se stabilita buduje u účastníka, zde ji přináší ten, kdo vede. Od obvyklé pedagogické vyrovnanosti se odlišuje tím, čím vyrovnanost je: u přednášejícího jde o zdvořilost, jejíž selhání je nepříjemné, zde jde o pracovní nástroj, jehož selhání poškodí pracovní spojenectví, a tedy i to, co je supervidovaný ochoten přinést (Bordin, 1983).
@@ -156,25 +158,6 @@ Tato edukativní technika **operacionalizuje** poznatky z taxonomie:
 - **Klinické aplikace**: [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - **Filozofie**:
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
-## Co ověřit před čtením
-
-Před prací s touto stránkou si čtenář ověří:
-
-- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
-  (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální rámec)
-- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  odpovídající úrovni této stránky
-- Zavedení takového výcviku v instituci je předmětem schválení
-  [institucionální etické rady](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md),
-  nikoli rozhodnutí jednotlivého čtenáře
-
-> **Rámec čtení**: stránka popisuje, co edukativní praxi tohoto typu charakterizuje
-> a podle čeho se pozná, že je vedena dobře; není to implementační návod. Etický rámec
-> stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
-> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
-
----
 
 ## Connect & Contribute
 

@@ -160,22 +160,6 @@ Druhým rizikovým kontextem je skupina, v níž je odchylka jednotlivce čtena 
   - [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 
-## Co ověřit před čtením
-
-Před prací s touto stránkou si čtenář ověří:
-
-- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
-  (L2 = doložená kvalifikace a supervize).
-- Má k dispozici [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  odpovídající rizikovému profilu stránky.
-- Stránka není nástroj sebediagnostiky; podezření na sebe nebo na blízkou osobu patří
-  k [diagnostickým indikátorům](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a ke konzultaci se supervizí.
-
-> **Rámec čtení**: stránka popisuje rozpoznatelný vzorec, nikoli nástroj.
-
----
-
 ## Connect & Contribute
 
 Stránku vytvořil [Tomáš Korcak (korczis)](https://github.com/korczis).

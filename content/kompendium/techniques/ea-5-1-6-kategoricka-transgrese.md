@@ -221,23 +221,6 @@ vede popisně a nikoli hodnotícím soudem o tradicích, vykládají
   - [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 
-## Co ověřit před čtením
-
-Před prací s touto stránkou si čtenář ověří tři věci:
-
-| Co ověřit | V jaké podobě |
-|---|---|
-| Přístupová úroveň čtenáře odpovídá `access_level` v záhlaví článku | L1 volný přístup, L2 doložená kvalifikace, L3 omezený doktrinální rámec |
-| Čtenář má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky | Supervize sjednaná předem, nikoli vyhledaná až po nálezu |
-| Rozpoznání vzorce u sebe sama není diagnóza | K té slouží [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a výsledek patří do supervize |
-
-> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
-> čtenáře, nikoli nástroj. Etický rámec stanoví
-> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
-> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
-
----
-
 ## Connect & Contribute
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

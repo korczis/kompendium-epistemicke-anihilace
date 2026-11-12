@@ -190,20 +190,6 @@ popisují výhradně lidé v okolí. Jde o rozlišení knihy, jehož mez vymezuj
 - **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](@/glossary/intentionalita.md), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## Co ověřit před čtením
-
-Stránka je vedena na úrovni L4 jako výhradně doktrinální analýza; čtenář si před prací s ní ověří:
-
-| Podmínka čtení této stránky | Kde ji ověří |
-|---|---|
-| Vlastní přístupová úroveň odpovídá hodnotě `access_level` v záhlaví článku | Záhlaví tohoto článku |
-| K materiálu této úrovně je k dispozici supervizní rámec | [Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) |
-| Rozpoznání vzorce u sebe sama se nebere za diagnózu a čte se se supervizí | [Diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) |
-
-> **Rámec čtení**: stránka je popisná taxonomie sloužící k rozpoznání vzorce, nikoli nástroj; závazně pro ni platí [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
-
----
-
 ## Connect & Contribute
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

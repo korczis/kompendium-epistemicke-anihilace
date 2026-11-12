@@ -82,7 +82,7 @@ Konvergentní singularitu je nutné odlišit od:
 
 - **Hluboké odbornosti** — odborník má rovněž pevné jádro, ale **dokáže explicitně artikulovat alternativy** a popsat, *proč* je odmítl. Subjekt v singularitě alternativy *neumí* artikulovat.
 - **Náboženské víry** — autentická víra připouští paradox a tajemství; singularita vyžaduje *uzavřenost*.
-- **EA-1.2.1 Falešné dilema** — falešné dilema vynucuje volbu mezi **dvěma** body; konvergentní singularita redukuje na **jeden**.
+- **[EA-1.2.1](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md) Falešné dilema** — falešné dilema vynucuje volbu mezi **dvěma** body; konvergentní singularita redukuje na **jeden**.
 - **EA-5.1.29 Ontologická exfoliace](@/kompendium/techniques/ea-5-1-29-ontologicka-exfoliace.md)** — exfoliace **odstraňuje** ontologické závazky; singularita je *koncentruje* do jednoho.
 
 ## Rizikové kontexty
@@ -182,26 +182,6 @@ Online komunita po 2 letech intenzivní interakce vykazovala lingvistickou signa
   - [Epistemické trauma](@/glossary/epistemicke-trauma.md)
   - [Hermeneutika](@/glossary/hermeneutika.md)
   - [Fenomenologie](@/glossary/fenomenologie.md)
-
-## Co ověřit před čtením
-
-Před prací s touto stránkou si čtenář ověří:
-
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
-  (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
-  rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a konzultuj výsledek se supervizí
-
-> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
-> čtenáře, nikoli nástroj. Etický rámec stanoví
-> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
-> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
-
----
 
 ## Connect & Contribute
 

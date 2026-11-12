@@ -48,6 +48,8 @@ Nepříznivý průběh se pozná podle toho, že skupina ztvrdne: neshoda z ní 
 
 *Interpretace knihy*: rozlišujícím znakem je osud menšinového hlasu. Skupina, která snese trvalou neshodu, poskytuje oporu k rozpoznávání; skupina, která ji vstřebá, poskytuje jen pocit jistoty (Edmondson, 1999).
 
+Zevnitř se ztvrdnutí skupiny prožívá jako vzájemné porozumění: členové se chápou napůl slova a právě tato snadnost jim brání všimnout si, že nováček s odlišným pohledem už nepřichází (Janis, 1972).
+
 ## Cílová populace
 
 Kohorty natolik malé, aby se účastníci navzájem znali jménem i prací; absolvované programy formující alumni komunity.
@@ -156,25 +158,6 @@ Tato edukativní technika **operacionalizuje** poznatky z taxonomie:
 - **Klinické aplikace**: [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - **Filozofie**:
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
-## Co ověřit před čtením
-
-Před prací s touto stránkou si čtenář ověří:
-
-- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
-  (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální rámec)
-- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  odpovídající úrovni této stránky
-- Zavedení takového výcviku v instituci je předmětem schválení
-  [institucionální etické rady](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md),
-  nikoli rozhodnutí jednotlivého čtenáře
-
-> **Rámec čtení**: stránka popisuje, co edukativní praxi tohoto typu charakterizuje
-> a podle čeho se pozná, že je vedena dobře; není to implementační návod. Etický rámec
-> stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
-> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
-
----
 
 ## Connect & Contribute
 

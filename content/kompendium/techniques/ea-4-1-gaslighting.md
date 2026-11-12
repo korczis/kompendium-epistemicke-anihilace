@@ -39,7 +39,9 @@ objevuje, jak ho odlišit a jak na něj reagovat.
 Kompendium řadí gaslighting mezi terminální protokoly, protože v dlouhodobé podobě
 nevede jen ke zkreslení jednotlivých přesvědčení, ale k **rozpadu epistemické
 samostatnosti**: člověk už nepochybuje o konkrétní věci, ale o sobě jako o zdroji
-poznání. Kód EA-4.1 je přitom samostatné souhrnné zpracování; podkapitola 4.1 téže
+poznání. Abramson (2014) tento rys pojmenovala filosoficky: gaslighting není omyl ve sporu,
+nýbrž pokus odebrat druhé straně postavení toho, kdo může něco vědět a s kým se tedy dá
+nesouhlasit. Kód EA-4.1 je přitom samostatné souhrnné zpracování; podkapitola 4.1 téže
 kategorie ([EA-4.1.1](@/kompendium/techniques/ea-4-1-1-foundation-stage.md) až 4.1.10) popisuje jiné téma, výcvikovou sekvenci.
 
 ## Strukturní prvky
@@ -64,13 +66,11 @@ nevyplácí vracet se ke sporným událostem.
 Robin Sternová (2007, *The Gaslight Effect*) popsala tři fáze, které Kompendium
 přejímá jako orientační, nikoli jako pevná stadia:
 
-1. **Nedůvěra.** Dotčený si všimne, že druhá strana popírá zjevné věci, a považuje to za
-   výjimku nebo nedorozumění. Hádá se o fakta.
-2. **Obrana.** Spory se množí, dotčený se snaží dokázat svou verzi, zapisuje si,
-   vyhledává potvrzení – a přitom začíná pochybovat. Spory se vedou čím dál víc o jeho
-   spolehlivost, méně o fakta.
-3. **Rezignace.** Dotčený přijímá výklad druhé strany, aby měl klid, nebo protože už
-   nevěří sám sobě. Objevuje se bezradnost, depresivní ladění a ztráta radosti.
+| Fáze | Čím se vyznačuje |
+|---|---|
+| Nedůvěra | Dotčený si všimne, že druhá strana popírá zjevné věci, a považuje to za výjimku nebo nedorozumění; hádá se o fakta |
+| Obrana | Spory se množí, dotčený dokazuje svou verzi, zapisuje si a vyhledává potvrzení – a přitom začíná pochybovat; spor se vede čím dál víc o jeho spolehlivost, méně o fakta |
+| Rezignace | Dotčený přijímá výklad druhé strany, aby měl klid, nebo protože už nevěří sám sobě; objevuje se bezradnost, depresivní ladění a ztráta radosti |
 
 Ve vztazích s [coercive control](@/glossary/coercive-control.md) (Stark, 2007) je
 gaslighting jednou ze složek širšího systému kontroly: vedle omezování financí,
@@ -78,17 +78,19 @@ kontaktů a pohybu.
 
 ## Kontexty
 
-- **Partnerské vztahy** – nejčastější a nejlépe popsaný kontext ([kazuistika](@/kompendium/case-studies/08-gaslighting-partnersky.md)).
-- **Rodina** – popírání zážitků dětí, rodinné „kánony“ minulosti ([narcistická rodina](@/kompendium/case-studies/07-narcisticka-rodina.md)).
-- **Škola a akademie** – učitel nebo školitel popírá dohody a zpochybňuje paměť studenta
-  ([pedagogický gaslighting](@/kompendium/case-studies/03-pedagogicke-gaslighting.md)).
-- **Pracoviště** – změny zadání, které „nikdy nebyly“, zpochybňování výkonu bez dokladů.
-- **Zdravotní péče** – soustavné odbývání příznaků jako „psychických“ bez vyšetření;
-  odlišit od běžné diagnostické nejistoty.
-- **Stát a instituce** – Paige Sweetová (2019) ukázala sociologickou podobu, v níž se
-  gaslighting opírá o nerovnost moci a stereotypy. Krajní státní podobu představuje
-  [východoněmecká Zersetzung](@/kompendium/historical-cases/5-east-german-zersetzung.md),
-  v níž tajná policie cíleně narušovala důvěru lidí ve vlastní vnímání.
+| Prostředí | Podoba, v níž se vzorec objevuje |
+|---|---|
+| Partnerské vztahy | Nejčastější a nejlépe popsaný kontext ([kazuistika](@/kompendium/case-studies/08-gaslighting-partnersky.md)) |
+| Rodina | Popírání zážitků dětí, rodinné „kánony“ minulosti ([narcistická rodina](@/kompendium/case-studies/07-narcisticka-rodina.md)) |
+| Škola a akademie | Učitel nebo školitel popírá dohody a zpochybňuje paměť studenta ([pedagogický gaslighting](@/kompendium/case-studies/03-pedagogicke-gaslighting.md)) |
+| Pracoviště | Změny zadání, které „nikdy nebyly“, a zpochybňování výkonu bez dokladů |
+| Zdravotní péče | Soustavné odbývání příznaků jako „psychických“ bez vyšetření; odlišuje se od běžné diagnostické nejistoty |
+| Stát a instituce | Krajní státní podobu představuje [východoněmecká Zersetzung](@/kompendium/historical-cases/5-east-german-zersetzung.md), v níž tajná policie cíleně narušovala důvěru lidí ve vlastní vnímání |
+
+Sociologickou podobu vzorce popsala Sweetová (2019): gaslighting se v ní neopírá
+o osobní zručnost, nýbrž o nerovnost moci a o stereotypy, které předem určují, čí
+výpovědi se věří. Kompendium z toho vyvozuje, že institucionální podoba se zpochybňuje
+obtížněji, protože stereotyp tam zastupuje důkaz.
 
 ## Detekční markery (pohled pozorovatele)
 
@@ -106,17 +108,13 @@ Pro praxi jsou nejdůležitější:
 
 ## Odlišení
 
-- **Poctivý rozdíl ve vzpomínkách.** Obě strany připouštějí omyl a rozdíly nejsou
-  jednosměrné.
-- **Konflikt ve vztahu.** Spor o hodnoty nebo potřeby není spor o realitu.
-- **Psychotická porucha a kognitivní úpadek.** Pokud dotčený skutečně nevnímá realitu
-  přesně, může být jeho okolí nespravedlivě podezíráno z gaslightingu; a naopak lze
-  gaslighting mylně vyložit jako psychózu. Rozhoduje podrobné posouzení s kolaterální
-  anamnézou ([diferenciální diagnostika EA a psychózy](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md)).
-- **[DARVO](@/glossary/darvo.md).** Popření, útok a obrácení rolí oběti a pachatele
-  v reakci na konfrontaci; s gaslightingem se často spojuje.
-- **Sebeobviňování u deprese.** Pochybnost o sobě může mít vnitřní původ; vodítkem je
-  vztah, v němž pochybnost vzniká a roste.
+| Jev | Čím se od gaslightingu liší |
+|---|---|
+| Poctivý rozdíl ve vzpomínkách | Obě strany připouštějí omyl a rozdíly nevycházejí jednosměrně |
+| Konflikt ve vztahu | Spor o hodnoty nebo potřeby není sporem o realitu |
+| Psychotická porucha a kognitivní úpadek | Nevnímá-li dotčený realitu přesně, může být okolí nespravedlivě podezíráno; a naopak lze gaslighting mylně vyložit jako psychózu. Rozhoduje podrobné posouzení s kolaterální anamnézou ([diferenciální diagnostika EA a psychózy](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md)) |
+| [DARVO](@/glossary/darvo.md) | Popření, útok a obrácení rolí oběti a pachatele v reakci na konfrontaci; s gaslightingem se často spojuje |
+| Sebeobviňování u deprese | Pochybnost o sobě má vnitřní původ; vodítkem je vztah, v němž pochybnost vzniká a roste |
 
 ## Klinický a právní rámec
 
@@ -137,14 +135,12 @@ a pečlivá [klinická dokumentace](@/kompendium/forensic-legal/31-clinical-docu
 
 ## Obrana a neutralizace
 
-**Pro dotčeného.**
-
-- Zapisovat události brzy, s datem, a uchovávat záznamy na bezpečném místě
-  ([paměťový archiv](@/kompendium/self-defense-guides/43-memory-archive.md)).
-- Udržovat a obnovovat vztahy mimo vztah s druhou stranou ([vztahové kotvy](@/kompendium/self-defense-guides/42-relational-anchors.md)).
-- Nediskutovat o realitě s člověkem, který ji soustavně popírá; stačí říct „pamatuju si
-  to jinak“ a ukončit spor.
-- Všímat si vlastního těla a emocí jako legitimního signálu.
+**Pro dotčeného.** Sternová (2007) staví obranu na poznatku, že spor o realitu s člověkem,
+který ji soustavně popírá, vyhrát nelze: místo dokazování stačí vyslovit vlastní verzi
+(„pamatuju si to jinak“) a spor ukončit. Oporou jsou zápisy událostí vedené brzy a s datem
+a uchovávané na bezpečném místě ([paměťový archiv](@/kompendium/self-defense-guides/43-memory-archive.md)),
+udržované a obnovované vztahy mimo vztah s druhou stranou ([vztahové kotvy](@/kompendium/self-defense-guides/42-relational-anchors.md))
+a pozornost k vlastnímu tělu a emocím jako legitimnímu signálu.
 
 **Pro profesionály a instituce.** Brát vážně výpověď, která je nejistá – nejistota je
 u gaslightingu očekávaná, ne známka nevěrohodnosti. V organizacích chránit písemné

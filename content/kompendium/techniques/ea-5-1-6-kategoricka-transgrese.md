@@ -36,13 +36,15 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 **Kategorická transgrese** je systematické porušování kategoriálních hranic, dokud subjekt **neztratí schopnost takové základní distinkce udržet**. Cílovými hranicemi jsou typicky:
 
-- **Živé / neživé** — antropomorfizace neživých entit a/nebo de-animace živých
-- **Reálné / fiktivní** — narativy, symboly a metafory zaměňované za faktické skutečnosti
-- **Já / druhý** — rozpouštění hranice mezi vlastním a cizím vědomím, pamětí, vůlí
-- **Fakt / hodnota** — empirické tvrzení a normativní hodnocení splývají
-- **Subjekt / objekt** — instrumentalizace nebo deinstrumentalizace narušuje agentní status
-- **Minulost / přítomnost / budoucnost** — temporální struktura zkušenosti se rozpouští
-- **Konkrétní / abstraktní** — pojmové a vjemové roviny ztrácejí distinkci
+| Zasažená hranice | Podoba, v níž se porušení ukazuje |
+|---|---|
+| Živé / neživé | Antropomorfizace neživých entit, případně de-animace živých |
+| Reálné / fiktivní | Narativy, symboly a metafory jsou zaměňovány za faktické skutečnosti |
+| Já / druhý | Rozpouští se hranice mezi vlastním a cizím vědomím, pamětí a vůlí |
+| Fakt / hodnota | Empirické tvrzení a normativní hodnocení splývají |
+| Subjekt / objekt | Instrumentalizace či deinstrumentalizace narušuje agentní status |
+| Minulost / přítomnost / budoucnost | Temporální struktura zkušenosti se rozpouští |
+| Konkrétní / abstraktní | Pojmová a vjemová rovina ztrácejí vzájemnou distinkci |
 
 Klíčový distinktivní znak — kategorická transgrese není pouhý přesun mezi kategoriemi (metafora, analogie), ani filosofická kritika kategoriálního systému. Subjekt **ztrácí schopnost** rozlišovat. Nikoliv „rozlišuje, ale rozhodl se nepřisuzovat váhu rozdílu“, ale **kapacitně** nedokáže udržet hranici.
 
@@ -64,14 +66,16 @@ Detekční markery zachycené na této stránce odpovídají téže struktuře: 
 
 Co prožívá subjekt **uvnitř** kategorické transgrese:
 
-- **Dezorientace v základních rozlišeních** — „co je vlastně reálné?“, „kdo je vlastně 'já'?“
-- **Ontologická úzkost** — pocit, že „základ se rozpadá“, bez schopnosti lokalizovat **co**
-- **Pseudo-mystická jednota** — eufórický pocit, že „vše je jedno“, interpretovaný jako spirituální průlom
-- **Memory blending** — konfuze, zda určitá vzpomínka je vlastní zkušenost, převzatý narativ nebo představa
-- **Dereifikace agentnosti** — pocit, že „věci se dějí mně“, bez jasné lokalizace činitele
-- **Re-traumatizace bez kontextu** — emocionální stavy minulých událostí prožívané jako přítomné
-- **Antropomorfizace + de-animace** — neživé prostředí „promlouvá“, živí „jsou hra“
-- **Pasivní akceptace narativu** — fiktivní výroky o realitě nepoznávány jako fiktivní
+| Znak | Jak jej subjekt popisuje |
+|---|---|
+| Dezorientace v základních rozlišeních | „Co je vlastně reálné?“, „kdo je vlastně já?“ |
+| Ontologická úzkost | Pocit, že „základ se rozpadá“, bez schopnosti určit, co se rozpadlo |
+| Pseudomystická jednota | Euforický pocit, že „vše je jedno“, vykládaný jako spirituální průlom |
+| Mísení vzpomínek (*memory blending*) | Nejistota, zda je vzpomínka vlastní zkušenost, převzaté vyprávění nebo představa |
+| Ztráta lokalizace činitele | Pocit, že „věci se dějí mně“, bez jasného určení toho, kdo jedná |
+| Re-traumatizace bez kontextu | Emocionální stavy minulých událostí jsou prožívány jako přítomné |
+| Antropomorfizace a de-animace zároveň | Neživé prostředí „promlouvá“, o živých se mluví jako o „hře“ |
+| Pasivní přijetí vyprávění | Fiktivní výroky o skutečnosti nejsou rozpoznávány jako fiktivní |
 
 ## Detekční markery (pohled pozorovatele)
 
@@ -90,11 +94,13 @@ Co prožívá subjekt **uvnitř** kategorické transgrese:
 
 Kategorická transgrese je odlišitelná od:
 
-- **Filosofická kritika kategoriálních systémů** (kontinentální filosofie, kritická teorie) — explicitní, reflexivní, **udržuje** schopnost rozlišovat. Transgresivní subjekt operuje v **deficitu** klasifikační schopnosti.
-- **Terapeutická imerze** (psychodrama, vizualizace, Internal Family Systems) — prováděná v **rámci** s explicitními začátky a konci; pacient ví, co je rámec a co skutečnost. Transgrese rozpouští samotný rámec.
-- **[Mystický prožitek](@/glossary/mysticky-prozitek.md)** (autentický) — typicky **lokalizovaný** v čase a prostoru, **neporušuje** schopnost vrátit se k běžné kategorialní struktuře. Transgrese produkuje **strukturální** deficit.
-- **Psychotická epizoda** — překryv značný, ale psychóza je obvykle **endogenní** a má klinický průběh. Kategorická transgrese je **inducibilní** a vyžaduje **manipulátora**.
-- **[EA-5.1.4 Sémantická imploze](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md)** — destrukce **jazyka**, nikoli ontologické struktury. Imploudovaný termín může v zachovaných kategoriích selhávat; transgresivní subjekt ztrácí kategorie samotné.
+| Jev | Čím se od kategorické transgrese liší |
+|---|---|
+| Filosofická kritika kategoriálních systémů (kontinentální filosofie, kritická teorie) | Je výslovná a reflexivní a udržuje schopnost rozlišovat; transgrese se pozná deficitem této schopnosti |
+| Terapeutická imerze (psychodrama, vizualizace, *Internal Family Systems*) | Probíhá v rámci s výslovným začátkem a koncem a pacient ví, co je rámec a co skutečnost; transgrese rozpouští samotný rámec |
+| [Mystický prožitek](@/glossary/mysticky-prozitek.md) v autentické podobě | Bývá lokalizován v čase a prostoru a neruší schopnost vrátit se k běžné kategoriální struktuře |
+| Psychotická epizoda | Překryv je značný, psychóza však bývá endogenní a má klinický průběh; transgrese je indukovatelná a vyžaduje druhou stranu |
+| [EA-5.1.4 Sémantická imploze](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md) | Ničí jazyk, nikoli ontologickou strukturu: vyprázdněný pojem selhává v kategoriích, které zůstávají zachovány |
 
 ## Rizikové kontexty
 
@@ -114,13 +120,16 @@ Kategorická transgrese je odlišitelná od:
 
 #### 1. **Kategoriální audit**
 
-Pravidelně si pokládej **explicitní** otázky:
+Obnova se opírá o výslovně kladené otázky:
 
-- Toto je vzpomínka, představa, nebo aktuální vjem?
-- Toto je metafora, nebo doslovný popis?
-- Toto je můj zážitek, nebo příběh, který jsem slyšel?
-- Toto je fakt, nebo hodnocení?
-Pokud nedokážeš v okamžiku odpovědět, je to **alarm**.
+| Otázka | Kterou hranici obnovuje |
+|---|---|
+| Je toto vzpomínka, představa, nebo aktuální vjem? | Minulost / přítomnost |
+| Je toto metafora, nebo doslovný popis? | Konkrétní / abstraktní |
+| Je toto můj zážitek, nebo vyprávění, které jsem slyšel? | Já / druhý |
+| Je toto fakt, nebo hodnocení? | Fakt / hodnota |
+
+Nelze-li na kteroukoli z nich v daném okamžiku odpovědět, je to **výstraha**.
 
 #### 2. **Externí ontologická kotva**
 
@@ -165,19 +174,27 @@ Aktivista po 3 letech v intenzivním rámci reportoval, že nedokáže rozlišit
 
 ### Často kombinováno s
 
-- **[EA-5.1.4 Sémantická imploze](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md)** — kolaps kategorií zrcadlí kolaps sémantiky pojmů, jež kategorie značily; spolu eliminují klasifikační kapacitu.
-- **[EA-5.1.5 Logická diskontinuita](@/kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md)** — kolaps kategorií předpokládá, že subjekt nedrží řetězec, který by ho z transgrese vyvedl („víš co je vzpomínka, sleduj řetězec — proč by **toto** byla vzpomínka?“).
-- **[EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)** — emocionální saturace transgresivních zážitků blokuje racionální revizi kategoriálního stavu.
-- **[EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md)** — diverze brání subjektu vystopovat strukturální vady kategoriálního systému, který přijímá.
+| Technika | Čím se s kategorickou transgresí doplňuje |
+|---|---|
+| [EA-5.1.4 Sémantická imploze](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md) | Kolaps kategorií zrcadlí kolaps významu pojmů, jež kategorie značily; spolu odnímají klasifikační schopnost |
+| [EA-5.1.5 Logická diskontinuita](@/kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md) | Bez držení úsudkového řetězce chybí cesta, po níž by se subjekt z transgrese vyvedl sám |
+| [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) | Emocionální nasycení zážitků blokuje revizi kategoriálního stavu |
+| [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) | Odvádění tématu brání vystopovat strukturální vady přijímaného kategoriálního systému |
 
 ### Eskaluje do
 
-- **Terminální protokoly** ([Kapitola 4](@/kompendium/04-terminalni-protokoly/_index.md)) — pokročilá kategorická transgrese je jednou z hlavních cest do **strukturálního** ontologického kolapsu.
-- **[Ontologická anihilace](@/glossary/ontologicka-anihilace.md)** — kolaps schopnosti udržet existenciální distinkce.
+| Eskalace | Co se v ní mění |
+|---|---|
+| Terminální protokoly ([Kapitola 4](@/kompendium/04-terminalni-protokoly/_index.md)) | Pokročilá transgrese je jednou z hlavních cest do strukturálního ontologického kolapsu |
+| [Ontologická anihilace](@/glossary/ontologicka-anihilace.md) | Hroutí se schopnost udržet existenciální rozlišení |
 
 ### Distinktivní vůči
 
-- **Buddhistická šúnjatá / non-dualismus** — strukturovaná, formálně artikulovaná negace **substanciální** kategorie, která **udržuje** funkční rozlišení v praxi. Kategorická transgrese je naopak **strukturální deficit** bez funkční obnovy.
+*Interpretace knihy*: buddhistická šúnjatá a nedualistické tradice negují substanciální
+kategorii formálně a strukturovaně, a přitom v praxi udržují funkční rozlišení; kategorická
+transgrese je naopak strukturální deficit bez funkční obnovy. Proč kniha takové rozlišení
+vede popisně a nikoli hodnotícím soudem o tradicích, vykládají
+[metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 ## Související
 
@@ -206,16 +223,13 @@ Aktivista po 3 letech v intenzivním rámci reportoval, že nedokáže rozlišit
 
 ## Co ověřit před čtením
 
-Před prací s touto stránkou si čtenář ověří:
+Před prací s touto stránkou si čtenář ověří tři věci:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
-  (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
-  rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a konzultuj výsledek se supervizí
+| Co ověřit | V jaké podobě |
+|---|---|
+| Přístupová úroveň čtenáře odpovídá `access_level` v záhlaví článku | L1 volný přístup, L2 doložená kvalifikace, L3 omezený doktrinální rámec |
+| Čtenář má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky | Supervize sjednaná předem, nikoli vyhledaná až po nálezu |
+| Rozpoznání vzorce u sebe sama není diagnóza | K té slouží [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a výsledek patří do supervize |
 
 > **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
 > čtenáře, nikoli nástroj. Etický rámec stanoví
@@ -228,4 +242,4 @@ Před prací s touto stránkou si čtenář ověří:
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)
+[Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

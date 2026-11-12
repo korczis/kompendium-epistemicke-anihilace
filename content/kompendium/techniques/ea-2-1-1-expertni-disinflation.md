@@ -50,14 +50,16 @@ Detekční markery zachycené níže odpovídají téže struktuře: žádné z 
 
 ## Fenomenologické znaky
 
-Co prožívá oběť expertní disinflace:
+Co prožívá zasažený odborník:
 
-- **Kafkovský pocit**, že odpovídání na konkrétní tvrzení nikam nevede — narativ se posouvá
-- **Disonance** mezi vlastním obrazem (kompetentní odborník) a cizím obrazem (problematická postava)
-- **[Sociální izolace](@/glossary/socialni-izolace.md)** — kolegové, kteří se obávají reputačního přenosu
-- **Energetické vyčerpání** z neustálého obhajování pozadí, ke kterému neměli přímý vztah
-- **Postupná internalizace** — pochybnosti, zda kritici nemají v některých bodech pravdu
-- **Hypervigilance** vůči novým útokům, paranoidní orientace v profesním prostředí
+| Znak prožívání | Jak jej zasažený odborník popisuje |
+|---|---|
+| Marnost věcné odpovědi | Odpověď na konkrétní tvrzení nikam nevede, protože se téma kritiky posune |
+| Rozpor dvou obrazů téže osoby | Vlastní obraz kompetentního odborníka vedle cizího obrazu problematické postavy |
+| [Sociální izolace](@/glossary/socialni-izolace.md) | Kolegové se stahují z obavy, že se na ně pověst přenese |
+| Vyčerpání z obhajoby zázemí | Neustálé vysvětlování školy, časopisů a financování, k jejichž volbě měl odborník jen malý vztah |
+| Postupná internalizace | Pochybnost, zda kritici v něčem nemají pravdu, dřív než je co vyvracet |
+| Hypervigilance v profesním prostředí | Očekávání dalšího útoku a čtení běžných jednání jako jeho předzvěsti |
 
 ## Detekční markery
 
@@ -86,11 +88,17 @@ Co prožívá oběť expertní disinflace:
 
 ### Individuální
 
-1. **Dokumentační redundance** — udržuj veřejně dostupné CV s ověřitelnými odkazy na původní zdroje legitimity (PhD diplom, peer-reviewed publikace, citační statistiky).
-2. **Kontextová reaktivace** — když se objeví dekontextualizovaný výňatek, **publikuj plný kontext** s odkazem na primární zdroj.
-3. **Aliance** — udržuj vztahy s **jinými experty**, kteří mohou autentizovat tvou pozici nezávisle na delegitimizační síti.
-4. **Záznam komunikace** — uchovávej e-maily, recenzní posudky, formální korespondenci — v krizi slouží jako důkaz pozadí.
-5. **Refuse the frame** — neodpovídej obhajobou *„jsem legitimní expert“*; odpovídej **substancí**: „k bodu X mám tato data; pokud máte jinou evidenci, předložte ji“.
+Následující opatření jsou doporučením kompendia, nikoli postupem s doloženou účinností:
+
+| Opatření na straně odborníka | V čem spočívá |
+|---|---|
+| Doložitelnost vlastního zázemí | Veřejně dostupný životopis s ověřitelnými odkazy na doklady kvalifikace a na recenzované publikace |
+| Obnovení kontextu u výňatku | Zveřejnění plného znění tam, odkud byl výňatek vzat, spolu s odkazem na primární zdroj |
+| Nezávislé odborné vazby | Vztahy s odborníky, kteří pozici posoudí mimo síť, v níž disinflace probíhá |
+| Uchovaný záznam komunikace | Korespondence a recenzní posudky, které v konfliktu dokládají skutečnou podobu zázemí |
+| Odmítnutí nabídnutého rámce | Odpověď věcná („k tomuto tvrzení mám tato data; předložte jiná“), nikoli obhajoba vlastní legitimity |
+
+*Interpretace knihy*: žádné z uvedených opatření nevrací poškozenou pověst a kompendium je tak nepředkládá. Vyplývají z popsaného vzorce v jediném ohledu: zachovat doložitelnost zázemí a nepřistoupit na spor o legitimitu místo sporu o tvrzení, protože právě tento přesun je rozpoznávacím znakem disinflace. Rozdíl mezi popisem vzorce a doporučením knihy stanoví [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 ### Institucionální
 
@@ -105,14 +113,18 @@ Co prožívá oběť expertní disinflace:
 
 ### Často se kombinuje s
 
-- **[EA-2.1.2 Pseudo-peer mob](@/kompendium/techniques/ea-2-1-2-pseudo-peer-mob.md)** — disinflace eskaluje v koordinovaný útok skupiny.
-- **[EA-2.1.3 Credentialing attack](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md)** — útok na konkrétní kvalifikace.
-- **[EA-2.3.3 Quote mining](@/kompendium/techniques/ea-2-3-3-quote-mining.md)** — výběr citátů jako munice pro disinflaci.
+| Technika, s níž se disinflace pojí | Čím k ní přispívá |
+|---|---|
+| [EA-2.1.2 Pseudo-peer mob](@/kompendium/techniques/ea-2-1-2-pseudo-peer-mob.md) | Z jednotlivé kritiky činí souběžný útok skupiny, která se vydává za odbornou obec |
+| [EA-2.1.3 Útok na kvalifikaci](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md) | Míří na konkrétní doklad kvalifikace místo na celé zázemí |
+| [EA-2.3.3 Quote mining](@/kompendium/techniques/ea-2-3-3-quote-mining.md) | Dodává výňatky z prací zasaženého odborníka, jimiž se disinflace opírá o jeho vlastní texty |
 
 ### Eskaluje do
 
-- **[EA-2.1.7 Institucionální vyloučení](@/kompendium/techniques/ea-2-1-7-institucionalni-vyloucenni.md)** — disinflace dosáhne kritického masu a vyvolá institucionální distancování.
-- **[EA-2.5.2 Imposter syndrome amplifikace](@/kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md)** — internalizovaná verze.
+| Pokračování vzorce | Co se jím mění |
+|---|---|
+| [EA-2.1.7 Institucionální vyloučení](@/kompendium/techniques/ea-2-1-7-institucionalni-vyloucenni.md) | Pověst je natolik poškozena, že se instituce sama distancuje a odborník ztrácí zázemí |
+| [EA-2.5.2 Zesilování syndromu podvodníka](@/kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md) | Vnější disinflaci převezme zasažený člověk za svou a pokračuje v ní sám |
 
 ## Literatura
 
@@ -136,16 +148,13 @@ Co prožívá oběť expertní disinflace:
 
 ## Co ověřit před čtením
 
-Před prací s touto stránkou si čtenář ověří:
+Stránka je vedena na úrovni L2; před prací s ní si čtenář ověří:
 
-- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
-  (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
-  rámec)
-- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  odpovídající úrovni této stránky
-- Rozpoznání vzorce u sebe sama není diagnóza: slouží k tomu
-  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a výsledek patří do supervize
+| Podmínka čtení této stránky | Kde ji ověří |
+|---|---|
+| Vlastní přístupová úroveň odpovídá hodnotě `access_level` v záhlaví, tedy doložené odborné kvalifikaci | Záhlaví tohoto článku |
+| K dispozici je supervizní rámec na úrovni, na níž je stránka vedena | [Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) |
+| Rozpoznání vzorce u sebe nebo u kolegy se nebere za diagnózu a výsledek jde do supervize | [Diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) |
 
 > **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
 > čtenáře, nikoli nástroj. Etický rámec stanoví
@@ -158,4 +167,4 @@ Před prací s touto stránkou si čtenář ověří:
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)
+Rozcestníky: [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

@@ -64,16 +64,19 @@ Zasažený člověk referuje, že „neví, kde začít“, když má o sobě ml
 
 ## Indikace a kontraindikace
 
-### Legitimní indikace (vzácné, výhradně supervidovaný kontext)
-- Profesní příprava operativních složek pro extrémně náročné prostředí pod doložitelnou jurisdikcí.
-- Klinická intervence u striktně vymezených diagnóz, kde benefit prokazatelně převažuje riziko.
-- Forenzní rekonstrukce s explicitním soudním mandátem a etickým dohledem.
+Stránka neuvádí podmínky, za nichž technika „funguje“, nýbrž co musí být doložitelné a co rámec vylučuje.
 
-### Absolutní kontraindikace
-- Akutní psychiatrická krize, suicidální ideace, dekompenzovaná komorbidita.
-- Nedostatečná podpůrná síť subjektu nebo závislé sociální postavení.
-- Subjekt v mocenské asymetrii vůči operátorovi (zaměstnanec, podřízený, klient v privátní praxi bez druhého supervizora).
-- Komerční, kompetitivní nebo politické cíle protokolu.
+| Okolnost | Jak ji kompendium čte | Role v závěru |
+|---|---|---|
+| Profesní příprava operativních složek pro extrémně náročné prostředí pod doložitelnou jurisdikcí | Vzácná legitimní indikace | Přípustná jen tehdy, je-li zároveň doložen celý bezpečnostní rámec výše |
+| Klinická intervence u striktně vymezených diagnóz, kde přínos prokazatelně převažuje riziko | Vzácná legitimní indikace | Přípustná jen se stejným doložením a s kompetencí ověřitelnou mimo instituci |
+| Forenzní rekonstrukce s výslovným soudním mandátem a etickým dohledem | Vzácná legitimní indikace | Přípustná jen v rozsahu, který mandát vymezuje |
+| Akutní psychiatrická krize, suicidální ideace, dekompenzovaná komorbidita | Absolutní kontraindikace | Vylučuje, i kdyby byly všechny ostatní podmínky splněny |
+| Nedostatečná podpůrná síť subjektu nebo závislé sociální postavení | Absolutní kontraindikace | Vylučuje samostatně, bez ohledu na doloženost rámce |
+| Mocenská asymetrie mezi subjektem a operátorem (zaměstnanec, podřízený, klient privátní praxe bez druhého supervizora) | Absolutní kontraindikace | Vylučuje samostatně; souhlas zde nelze oddělit od postavení |
+| Komerční, soutěžní nebo politický cíl protokolu | Absolutní kontraindikace | Vylučuje samostatně a ruší i platnost ostatních indikací |
+
+Vylučující okolnosti nepůsobí ve součtu: jedna postačí a rámec přestává být legitimní. Mocenská asymetrie je mezi nimi proto, že v závislém postavení nelze souhlas oddělit od tlaku prostředí — a právě tato nemožnost činí tak obtížným i odchod z totalizující skupiny (Singer a Lalich, 1995).
 
 ## Klinické markery (neúmyslná manifestace)
 
@@ -134,20 +137,19 @@ Klinický kontext **EA-4.4.1** připouští následující dokumentované adapta
 
 ## Vztah k jiným technikám
 
-### V rámci subkategorie 4.4 Identitní dekonstrukce
-  - [EA-4.4.2 Role fragmentation](@/kompendium/techniques/ea-4-4-2-role-fragmentation.md)
-  - [EA-4.4.3 Relational restructure](@/kompendium/techniques/ea-4-4-3-relational-restructure.md)
-  - [EA-4.4.4 Biographical recontextualization](@/kompendium/techniques/ea-4-4-4-biographical-recontextualization.md)
-  - [EA-4.4.5 Temporal self-disruption](@/kompendium/techniques/ea-4-4-5-temporal-self-disruption.md)
-  - [EA-4.4.6 Axiological self-reset](@/kompendium/techniques/ea-4-4-6-axiological-self-reset.md)
+Levý sloupec uvádí stránku, prostřední její místo v taxonomii, pravý povahu vazby k rozebrání narativu.
 
-### Provázanost mezi subkategoriemi 4
-  - [EA-4.1.1 Foundation stage](@/kompendium/techniques/ea-4-1-1-foundation-stage.md)
-
-### Cross-kategoriální vazby
-- **[EA 1 1 1 SELEKTIVNI EXPOZICE](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)** — akademická vrstva, jejíž eskalace může vést k terminální fázi.
-- **[EA 1 3 1 IMUNIZACE PROTI FALSIFIKACI](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)** — související vstupní mechanismus.
-- **[EA 5 1 1 EPISTEMICKA KANIBALIZACE](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md)** — ultramární technika strukturálně příbuzná, vyžadující ostřejší distinktivní detekci.
+| Stránka | Místo v taxonomii | Povaha vazby |
+|---|---|---|
+| [EA-4.4.2 Role fragmentation](@/kompendium/techniques/ea-4-4-2-role-fragmentation.md) | Táž subkategorie identitní dekonstrukce | Rozpad role, nikoli vyprávěcí linie |
+| [EA-4.4.3 Relational restructure](@/kompendium/techniques/ea-4-4-3-relational-restructure.md) | Táž subkategorie identitní dekonstrukce | Zasahuje vztahovou síť, z níž se příběh o sobě odvozuje |
+| [EA-4.4.4 Biographical recontextualization](@/kompendium/techniques/ea-4-4-4-biographical-recontextualization.md) | Táž subkategorie identitní dekonstrukce | Epizody zůstávají, mění se jejich výklad |
+| [EA-4.4.5 Temporal self-disruption](@/kompendium/techniques/ea-4-4-5-temporal-self-disruption.md) | Táž subkategorie identitní dekonstrukce | Zasahuje časové uspořádání životního příběhu |
+| [EA-4.4.6 Axiological self-reset](@/kompendium/techniques/ea-4-4-6-axiological-self-reset.md) | Táž subkategorie identitní dekonstrukce | Zasahuje hodnotové ukotvení, z něhož příběh čerpá smysl |
+| [EA-4.1.1 Foundation stage](@/kompendium/techniques/ea-4-1-1-foundation-stage.md) | Jiná subkategorie terminálních protokolů | Vstupní fáze, na niž rozebrání narativu navazuje |
+| [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) | Akademická vrstva | Vrstva, jejíž eskalace může vést až k terminální fázi |
+| [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) | Akademická vrstva | Vstupní mechanismus, který znemožňuje korekci příběhu zvenčí |
+| [EA-5.1.1 Epistemická kanibalizace](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md) | Ultramární vrstva | Strukturálně příbuzná; vyžaduje ostřejší rozlišení při detekci |
 
 ## Literatura
 
@@ -183,11 +185,13 @@ Klinický kontext **EA-4.4.1** připouští následující dokumentované adapta
 
 ## Co ověřit před čtením
 
-Před prací s touto stránkou si čtenář ověří:
+Před prací s touto stránkou si čtenář ověří tři věci.
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L2 = doložená kvalifikace + supervize).
-- Máš funkční [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) na úrovni odpovídající rizikovému profilu techniky.
-- Pokud diagnostikuješ na sobě nebo na blízkém kontaktu, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí.
+| Co si čtenář ověří | Proč to u terminálního protokolu záleží |
+|---|---|
+| Jeho přístupová úroveň odpovídá poli `access_level` v záhlaví článku | Stránka je vedena jako omezená: žádá doloženou kvalifikaci spolu se supervizí, nikoli jednu z nich |
+| Má funkční [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) odpovídající rizikovému profilu techniky | Rozpoznání vzorce vede k závěrům o vztahu, v němž subjekt právě je, a ty nelze nést samostatně |
+| Rozpoznání vzorce u sebe nebo u blízké osoby nepovažuje za diagnózu | K té slouží [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a jejich výsledek patří do supervize |
 
 > **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
 > čtenáře, nikoli nástroj. Etický rámec stanoví
@@ -198,6 +202,7 @@ Před prací s touto stránkou si čtenář ověří:
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+Stránku vytvořil [Tomáš Korcak (korczis)](https://github.com/korczis).
+Licence obsahu: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md).
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)
+Další rozcestníky: [Glossary](@/glossary/_index.md) a [Philosophy](@/philosophy/_index.md).

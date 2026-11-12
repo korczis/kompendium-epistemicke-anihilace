@@ -221,9 +221,6 @@
  "bold:integrovat": [
   "bold-candidate"
  ],
- "bold:integruje": [
-  "bold-candidate"
- ],
  "bold:intelektualizace": [
   "bold-candidate"
  ],
@@ -263,9 +260,6 @@
  "bold:kazda": [
   "bold-candidate"
  ],
- "bold:kazdy": [
-  "bold-candidate"
- ],
  "bold:kde": [
   "bold-candidate"
  ],
@@ -273,9 +267,6 @@
   "bold-candidate"
  ],
  "bold:kdy": [
-  "bold-candidate"
- ],
- "bold:klicovy": [
   "bold-candidate"
  ],
  "bold:klinicke-nerozhodnosti": [
@@ -638,16 +629,10 @@
  "bold:s5-konsolidace-a-transfer": [
   "bold-candidate"
  ],
- "bold:selektivni": [
-  "bold-candidate"
- ],
  "bold:self": [
   "bold-candidate"
  ],
  "bold:sensibilite": [
-  "bold-candidate"
- ],
- "bold:silny-indikator": [
   "bold-candidate"
  ],
  "bold:simulace": [
@@ -690,9 +675,6 @@
   "bold-candidate"
  ],
  "bold:strukturalni": [
-  "bold-candidate"
- ],
- "bold:strukturalni-deficit": [
   "bold-candidate"
  ],
  "bold:strukturalni-dimenze": [
@@ -753,9 +735,6 @@
   "bold-candidate"
  ],
  "bold:triangulace": [
-  "bold-candidate"
- ],
- "bold:udrzuje": [
   "bold-candidate"
  ],
  "bold:uplna-epistemicka-singularita": [
@@ -3821,7 +3800,6 @@
   "citations"
  ],
  "content/kompendium/techniques/ea-1-1-1-selektivni-expozice.md": [
-  "bullets",
   "citations"
  ],
  "content/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md": [
@@ -3851,11 +3829,9 @@
   "citations"
  ],
  "content/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md": [
-  "bullets",
   "citations"
  ],
  "content/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md": [
-  "bullets",
   "citations"
  ],
  "content/kompendium/techniques/ea-1-3-2-pseudo-empiricka-validace.md": [
@@ -3891,7 +3867,6 @@
   "citations"
  ],
  "content/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md": [
-  "bullets",
   "citations"
  ],
  "content/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md": [
@@ -3905,9 +3880,7 @@
   "citations"
  ],
  "content/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md": [
-  "bullets",
-  "citations",
-  "bold-term"
+  "citations"
  ],
  "content/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md": [
   "bullets",
@@ -3924,15 +3897,9 @@
   "citations"
  ],
  "content/kompendium/techniques/ea-1-6-falesny-paradigmaticky-narok.md": [
-  "detail",
-  "weak-link",
-  "bullets",
   "citations"
  ],
  "content/kompendium/techniques/ea-2-1-1-expertni-disinflation.md": [
-  "detail",
-  "weak-link",
-  "bullets",
   "citations"
  ],
  "content/kompendium/techniques/ea-2-1-10-credentials-rekonfigurace.md": [
@@ -3974,7 +3941,6 @@
   "citations"
  ],
  "content/kompendium/techniques/ea-2-2-1-mentor-self-totalizace.md": [
-  "bullets",
   "citations"
  ],
  "content/kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md": [
@@ -4015,7 +3981,6 @@
   "citations"
  ],
  "content/kompendium/techniques/ea-2-3-1-clip-takeout.md": [
-  "bullets",
   "citations"
  ],
  "content/kompendium/techniques/ea-2-3-10-viralni-misrepresentation.md": [
@@ -4076,7 +4041,6 @@
   "citations"
  ],
  "content/kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md": [
-  "bullets",
   "citations"
  ],
  "content/kompendium/techniques/ea-2-4-6-peer-review-capture.md": [
@@ -4109,7 +4073,6 @@
   "citations"
  ],
  "content/kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md": [
-  "bullets",
   "citations"
  ],
  "content/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md": [
@@ -4228,9 +4191,6 @@
   "bullets",
   "citations"
  ],
- "content/kompendium/techniques/ea-3-2-5-ethical-sophistication.md": [
-  "bullets"
- ],
  "content/kompendium/techniques/ea-3-2-6-cohort-monitoring.md": [
   "bullets"
  ],
@@ -4241,11 +4201,6 @@
   "bullets"
  ],
  "content/kompendium/techniques/ea-3-2-9-iatrogenic-risk-assessment.md": [
-  "bullets",
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md": [
   "bullets",
   "detail",
   "weak-link"
@@ -4328,9 +4283,6 @@
   "bullets"
  ],
  "content/kompendium/techniques/ea-4-1-gaslighting.md": [
-  "detail",
-  "weak-link",
-  "bullets",
   "citations",
   "bold-term"
  ],
@@ -4352,7 +4304,6 @@
   "bullets"
  ],
  "content/kompendium/techniques/ea-4-2-5-whistleblower-protection.md": [
-  "bullets",
   "citations"
  ],
  "content/kompendium/techniques/ea-4-2-6-consent-withdrawal.md": [
@@ -4372,7 +4323,6 @@
   "citations"
  ],
  "content/kompendium/techniques/ea-4-3-1-systematic-conceptual-disassembly.md": [
-  "bullets",
   "citations"
  ],
  "content/kompendium/techniques/ea-4-3-10-conceptual-rebuild-protocol.md": [
@@ -4412,7 +4362,6 @@
   "citations"
  ],
  "content/kompendium/techniques/ea-4-4-1-narrative-disassembly.md": [
-  "bullets",
   "citations"
  ],
  "content/kompendium/techniques/ea-4-4-10-identity-stabilization.md": [
@@ -4560,7 +4509,6 @@
   "citations"
  ],
  "content/kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md": [
-  "bullets",
   "citations"
  ],
  "content/kompendium/techniques/ea-5-1-7-referencni-rekurze.md": [
@@ -4707,9 +4655,6 @@
   "citations"
  ],
  "content/kompendium/techniques/ea-5-2-30-konvergentni-meta-singularita.md": [
-  "detail",
-  "weak-link",
-  "bullets",
   "citations"
  ],
  "content/kompendium/techniques/ea-5-2-4-apriorni-saturace.md": [
@@ -4875,7 +4820,6 @@
   "citations"
  ],
  "content/kompendium/techniques/ea-5-3-42-self-objektifikace-totalni.md": [
-  "bullets",
   "citations"
  ],
  "content/kompendium/techniques/ea-5-3-5-temporalne-vyvojova-inverze.md": [

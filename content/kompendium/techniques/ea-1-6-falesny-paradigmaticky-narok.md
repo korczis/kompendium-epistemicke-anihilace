@@ -55,21 +55,27 @@ by nový rámec nemusel nic vysvětlovat starými prostředky. Imre Lakatos (197
 měřítko, které tuto mezeru zavírá: výzkumný program je **progresivní**, když předpovídá
 nové a ověřitelné skutečnosti, a **degenerující**, když jen dodatečně vysvětluje,
 co mu odporuje ([Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md)).
+Rozdíl je přitom časový: progresivní program předpovídá nové skutečnosti dříve, než jsou
+známy, degenerující je dovysvětluje teprve tehdy, když je zná. Falešný paradigmatický
+nárok se celý nachází na druhé straně této hranice.
 
 ## Mechanismus (strukturní popis)
 
-1. **Vyhlášení krize.** Dosavadní poznání je prohlášeno za vyčerpané, mrtvé, zkorumpované
-   – bez doložení konkrétních anomálií, které by nový rámec řešil.
-2. **Nový slovník.** Rámec přichází s vlastní terminologií, jež činí srovnání se starým
-   obtížným ([terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)).
-3. **Zneužitá nesouměřitelnost.** Námitky vycházející z dosavadních měřítek jsou
-   prohlášeny za irelevantní: „hodnotíš nové starými kritérii“.
-4. **Historická analogie.** Odvolání na Galilea, Semmelweise nebo Einsteina: kdo byl
-   zpochybňován, měl pravdu. Úvaha je převrácená – ne každý zpochybňovaný má pravdu.
-5. **Imunizace.** Kritika se stává potvrzením („odpor starého systému dokazuje, jak jsme
-   nebezpeční“); srov. [imunizaci proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md).
-6. **Konverze místo přesvědčení.** Přijetí rámce je popisováno jako probuzení či prozření,
-   ne jako přesvědčení důkazy. S konverzí se mění identita i okruh lidí, jimž člověk věří.
+Vzorec se skládá ze šesti prvků. Popsané pořadí je pozorovaný sled, nikoli postup.
+
+| Prvek nároku | Čím se ukazuje |
+|---|---|
+| Vyhlášení krize | Dosavadní poznání je prohlášeno za vyčerpané či zkorumpované, bez doložení anomálií, které by nový rámec řešil |
+| Nový slovník | Rámec přichází s vlastní terminologií, jež činí srovnání se starým obtížným ([terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)) |
+| Zneužitá nesouměřitelnost | Námitky z dosavadních měřítek jsou prohlášeny za irelevantní: „hodnotíš nové starými kritérii“ |
+| Historická analogie | Odvolání na Galilea, Semmelweise nebo Einsteina; úvaha je převrácená, neboť ne každý zpochybňovaný měl pravdu |
+| Imunizace | Kritika se stává potvrzením („odpor starého systému dokazuje, jak jsme nebezpeční“); srov. [imunizaci proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) |
+| Konverze místo přesvědčení | Přijetí rámce je popisováno jako probuzení, ne jako přesvědčení důkazy; mění se identita i okruh lidí, jimž člověk věří |
+
+Charismatická autorita, o niž se nárok opírá, je zvláštní typ panství: neodvozuje se ani
+z tradice, ani z úřadu, nýbrž z mimořádnosti připisované osobě a z uznání, které jí dávají
+následovníci (Weber, 1922). Proto je kritika rámce vždy zároveň kritikou osoby a její
+odmítnutí stojí následovníka více než změna názoru.
 
 ## Fenomenologické znaky (pohled zevnitř)
 
@@ -102,17 +108,13 @@ hroutí svět celý.
 
 ## Odlišení
 
-- **Skutečná vědecká revoluce.** Řeší doložené anomálie, předpovídá nové skutečnosti
-  a nakonec přesvědčí odbornou komunitu důkazy, i když postupně a se sporem.
-- **Legitimní heterodoxie.** Menšinový názor, který přijímá společná měřítka a snaží se
-  jim vyhovět; jeho zastánci uvádějí, co by je vyvrátilo.
-- **Inovace a vize.** Podnikatelská nebo umělecká vize může mluvit o „změně paradigmatu“
-  obrazně; vzorcem se stává, když slouží k umlčení kritiky.
-- **[EA-5.1.26 Trans-paradigmatická migrace](@/kompendium/techniques/ea-5-1-26-trans-paradigmaticka-migrace.md).**
-  Krajní stav, v němž člověk ztrácí jakýkoli stálý rámec; falešný paradigmatický nárok
-  naopak rámec jeden nabízí a uzavírá.
-- **Psychotická zkušenost.** Prožitek, že „všechno se mění a já to vidím“, může být
-  projevem psychózy; vyžaduje klinické posouzení ([diferenciální diagnostika EA a psychózy](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md)).
+| Jev | Čím se od falešného nároku liší |
+|---|---|
+| Skutečná vědecká revoluce | Řeší doložené anomálie, předpovídá nové skutečnosti a nakonec přesvědčí odbornou komunitu důkazy, i když postupně a se sporem |
+| Legitimní heterodoxie | Menšinový názor přijímá společná měřítka a jeho zastánci sami uvádějí, co by je vyvrátilo |
+| Inovace a vize | Podnikatelská či umělecká vize mluví o „změně paradigmatu“ obrazně; vzorcem se stává teprve tam, kde umlčuje kritiku |
+| [EA-5.1.26 Trans-paradigmatická migrace](@/kompendium/techniques/ea-5-1-26-trans-paradigmaticka-migrace.md) | Krajní stav bez jakéhokoli stálého rámce; falešný nárok naopak jeden rámec nabízí a uzavírá |
+| Psychotická zkušenost | Prožitek „všechno se mění a já to vidím“ může být projevem psychózy a vyžaduje klinické posouzení ([diferenciální diagnostika EA a psychózy](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md)) |
 
 ## Klinický a právní rámec
 
@@ -126,13 +128,13 @@ odmítnutí léčby u dětí, [nepřípustný vliv](@/kompendium/forensic-legal/
 
 ## Obrana a neutralizace
 
-**Pro jednotlivce.**
-
-- Ptát se, co nový rámec **předpovídá** a kdy se to dá ověřit.
-- Ptát se, jaké konkrétní problémy dosavadního poznání řeší.
-- Vyžádat si, co by rámec vyvrátilo; pokud nic, nejde o poznání.
-- Udržovat [pluralitu paradigmat](@/kompendium/self-defense-guides/6-paradigm-pluralism.md):
-  znát více rámců a umět je srovnávat.
+**Pro jednotlivce.** Obranou je soustava otázek, v níž se uplatní měřítko, jež zavedl
+Lakatos (1970): co nový rámec předpovídá a kdy se to dá ověřit, jaké konkrétní problémy
+dosavadního poznání řeší a co by jej vyvrátilo. Rámec, který na poslední otázku
+neodpovídá, nenabízí poznání, nýbrž příslušnost. Oporou vedle otázek je udržovaná
+[pluralita paradigmat](@/kompendium/self-defense-guides/6-paradigm-pluralism.md): znát
+více rámců a umět je srovnávat, protože srovnání je přesně to, co nárok na nesouměřitelnost
+předem vylučuje.
 
 **Pro instituce a vzdělávání.** Učit rozdíl mezi progresivním a degenerujícím programem
 na skutečných dějinách vědy; chránit legitimní heterodoxii, aby nebyl každý nesouhlas

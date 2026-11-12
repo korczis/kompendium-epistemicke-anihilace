@@ -51,16 +51,16 @@ instituce.
 
 ## Mechanismus (strukturní popis)
 
-1. **Výběr ukazatele.** Nové kritérium odpovídá profilu frakce (typ časopisu, typ
-   projektu, druh spolupráce, metodologie).
-2. **Váhy.** Kritéria, v nichž vynikají jiní (výuka, praxe, monografie, společenský
-   dopad), dostanou nízkou váhu nebo zmizí.
-3. **Kvantifikace bez obsahu.** Hodnocení se redukuje na počty a indexy; obsahové
-   posouzení se nahradí metrikou.
-4. **Vazba na zdroje.** Výsledek hodnocení určuje rozpočet a úvazky (srov.
-   [EA-2.4.3](@/kompendium/techniques/ea-2-4-3-funding-redirect.md)).
-5. **Zpětné uplatnění.** Nová kritéria se použijí na období, kdy platila jiná.
-6. **Samozřejmost.** Kritika kritérií je vykládána jako odpor ke kvalitě.
+Vzorec má šest prvků; jejich pořadí je pozorovaný sled, nikoli postup.
+
+| Prvek přepisu | Čím se ukazuje |
+|---|---|
+| Výběr ukazatele | Nové kritérium odpovídá profilu jedné frakce: typu časopisu, typu projektu, druhu spolupráce či metodologii |
+| Váhy | Kritéria, v nichž vynikají jiní (výuka, praxe, monografie, společenský dopad), dostanou nízkou váhu nebo zmizí |
+| Kvantifikace bez obsahu | Hodnocení se redukuje na počty a indexy, obsahové posouzení se nahradí metrikou |
+| Vazba na zdroje | Výsledek hodnocení určuje rozpočet a úvazky (srov. [EA-2.4.3](@/kompendium/techniques/ea-2-4-3-funding-redirect.md)) |
+| Zpětné uplatnění | Nová kritéria se použijí na období, v němž platila jiná |
+| Samozřejmost | Kritika kritérií je vykládána jako odpor ke kvalitě |
 
 ## Průběh
 
@@ -69,7 +69,9 @@ se jako sladění s mezinárodní praxí. Po schválení dopadne první hodnotic
 jednotky s jiným profilem; ty přijdou o prostředky nebo o pozice. V dalších letech se
 lidé přizpůsobují: mění témata, metody a typ publikací. Po několika cyklech instituce
 vypadá homogenně – ne proto, že jeden přístup zvítězil v debatě, ale proto, že jiný
-přestal být odměňován.
+přestal být odměňován. Smaldino a McElreath (2016) popsali tento výběr obecněji: sledují-li
+odměny počet výstupů, šíří se takové postupy, které výstupy produkují snadno, i když jsou
+méně spolehlivé.
 
 ## Fenomenologické znaky (pohled zevnitř)
 
@@ -100,16 +102,12 @@ kritéria zavádějí najednou a bez pilotáže.
 
 ## Odlišení
 
-- **Legitimní reforma hodnocení.** Kritéria se mají vyvíjet. Legitimní reforma je
-  připravena pluralitně, pilotována, vyhodnocena a má přechodná období. Iniciativy jako
-  Sanfranciská deklarace o hodnocení výzkumu (DORA, 2012) upozorňují na rizika
-  redukce hodnocení na impakt časopisu.
-- **Sladění s praxí oboru.** Přizpůsobení kritérií zvyklostem oboru může být oprávněné;
-  vzorec nastává, když se jeden obor nebo metoda vnutí ostatním.
-- **[EA-2.1.10](@/kompendium/techniques/ea-2-1-10-credentials-rekonfigurace.md).** Individuální
-  obdoba.
-- **[EA-2.4.2 Skrytý přepis pravidel](@/kompendium/techniques/ea-2-4-2-policy-rewriting-skryta.md).**
-  Obecný případ.
+| Jev | Čím se od přepisu kritérií liší |
+|---|---|
+| Legitimní reforma hodnocení | Kritéria se mají vyvíjet; reforma je připravena pluralitně, pilotována, vyhodnocena a má přechodná období. Sanfranciská deklarace o hodnocení výzkumu (DORA, 2012) upozorňuje na rizika redukce hodnocení na impakt časopisu |
+| Sladění s praxí oboru | Přizpůsobení kritérií zvyklostem oboru může být oprávněné; vzorcem se stává, když se jeden obor nebo metoda vnutí ostatním |
+| [EA-2.1.10](@/kompendium/techniques/ea-2-1-10-credentials-rekonfigurace.md) | Individuální obdoba: mění kvalifikační podmínky pro člověka, ne hodnocení instituce |
+| [EA-2.4.2 Skrytý přepis pravidel](@/kompendium/techniques/ea-2-4-2-policy-rewriting-skryta.md) | Obecný případ, v němž přepisovaným pravidlem nemusí být hodnocení |
 
 ## Klinický a právní rámec
 
@@ -160,12 +158,14 @@ tam projdou; domácí témata zmizí.
 
 ## Otázky pro analýzu
 
-- Kdo připravil nová kritéria a jaké obory a typy práce byly v pracovní skupině zastoupeny?
-- Proběhlo pilotní kolo a byla zveřejněna analýza dopadu na jednotlivé jednotky?
-- Které složky poslání instituce (výuka, služba, klinická péče) nová kritéria nezachycují?
-- Byla kritéria uplatněna na období, kdy lidé pracovali podle jiných pravidel?
-- Jak se po zavedení kritérií změnilo chování: témata, typy výstupů, odchody?
-- Existuje mechanismus, jímž může jednotka požádat o obsahové posouzení místo metriky?
+| Otázka posuzovatele | Prvek vzorce, k němuž odpověď míří |
+|---|---|
+| Kdo připravil nová kritéria a jaké obory a typy práce byly v pracovní skupině zastoupeny? | Výběr ukazatele |
+| Proběhlo pilotní kolo a byla zveřejněna analýza dopadu na jednotlivé jednotky? | Odlišení od legitimní reformy |
+| Které složky poslání instituce (výuka, služba, klinická péče) nová kritéria nezachycují? | Váhy |
+| Byla kritéria uplatněna na období, kdy lidé pracovali podle jiných pravidel? | Zpětné uplatnění |
+| Jak se po zavedení kritérií změnilo chování: témata, typy výstupů, odchody? | Normativní síla ukazatele |
+| Existuje mechanismus, jímž může jednotka požádat o obsahové posouzení místo metriky? | Kvantifikace bez obsahu |
 
 Odpovědi na tyto otázky obvykle rozliší nedokonalou, ale poctivou reformu od přepisu,
 který slouží jedné frakci. Poctivá reforma má zveřejněné podklady, připouští korekci

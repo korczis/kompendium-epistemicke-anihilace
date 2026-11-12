@@ -48,18 +48,23 @@ podkategorie 2.2.
 
 ## Mechanismus (strukturní popis)
 
-1. **Oprávněný začátek.** Mentor je skutečně odborníkem a svěřenec ho oprávněně obdivuje.
-2. **Monopol na výklad.** Mentor určuje nejen co je dobrá práce, ale co je správná
-   literatura, správná metoda, správný názor na kolegy a na obor.
-3. **Rozšíření do soukromí.** Vyjadřuje se k vztahům, volnému času, zdraví a životním
-   rozhodnutím svěřence a jeho slovo má stejnou váhu jako v oboru.
-4. **Vazba hodnocení na loajalitu.** Kritika mentora se trestá chladem, horším hodnocením
-   nebo odnětím příležitostí; souhlas se odměňuje.
-5. **Uzavřená smyčka.** Svěřenec nemá jiné místo, kde by si ověřil, zda je hodnocení
-   férové; další techniky podkategorie ([izolace](@/kompendium/techniques/ea-2-2-2-mentee-isolation.md),
-   [časová kontrola](@/kompendium/techniques/ea-2-2-6-time-control-academic.md),
-   [citový dluh](@/kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md)) smyčku
-   upevňují.
+Vzorec se neohlašuje jako deformace, protože začíná oprávněně. Pozorovatel ho rozpozná
+podle toho, co se postupně stává předmětem mentorova výkladu a jakou cenu má nesouhlas;
+tutéž dvojici – totální výklad a trest za jeho zpochybnění – popsal Lifton (1961)
+v podmínkách myšlenkové reformy. Vzorec zakládá souběh monopolu na výklad, rozšíření do
+soukromí a vazby hodnocení na loajalitu; uzavřená smyčka jej udržuje a další techniky
+podkategorie ji upevňují – [izolace](@/kompendium/techniques/ea-2-2-2-mentee-isolation.md),
+[časová kontrola](@/kompendium/techniques/ea-2-2-6-time-control-academic.md) a
+[citový dluh](@/kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md). Popsané
+pořadí je pozorovaný sled znaků, nikoli postup.
+
+| Znak | Co je vidět | Role v závěru |
+|---|---|---|
+| Oprávněný začátek | Mentor je skutečně odborníkem a svěřencův obdiv má věcný základ. | Popisuje, proč vzorec nebudí podezření; sám o sobě nic neznamená. |
+| Monopol na výklad | Mentor určuje nejen, co je dobrá práce, ale i to, co je správná literatura, správná metoda a správný názor na kolegy a na obor. | Nutný znak; bez něj jde o náročné vedení. |
+| Rozšíření do soukromí | Vyjadřuje se k vztahům, volnému času, zdraví a životním rozhodnutím svěřence a jeho slovo má stejnou váhu jako v oboru. | Nutný znak totalizace; odlišuje ji od úzce oborové dominance. |
+| Vazba hodnocení na loajalitu | Kritika mentora se trestá chladem, horším hodnocením nebo odnětím příležitostí; souhlas se odměňuje. | Nutný znak; dává vzorci vynutitelnost. |
+| Uzavřená smyčka | Svěřenec nemá jiné místo, kde by si ověřil, zda je hodnocení férové. | Potvrzující znak; popisuje setrvalost vzorce a jeho odolnost vůči radě „prostě odejdi“. |
 
 ## Průběh
 
@@ -125,14 +130,17 @@ závislí na vízu, studenti financovaní z mentorova grantu a lidé v životní
 
 ## Odlišení
 
-- **Náročné vedení.** Přísný školitel s vysokými nároky, který zdůvodňuje hodnocení,
-  snese nesouhlas a podporuje i jiné odborné vztahy, není totalizující.
-- **Raná fáze učení.** Na začátku je přirozené, že svěřenec přebírá rámec mentora.
-  Varovné je, když se závislost s časem nezmenšuje, ale prohlubuje.
-- **Přenos.** Idealizace autority je běžný psychologický jev; rozhoduje, zda ji mentor
-  využívá.
-- **Závislá porucha osobnosti.** Celoživotní vzorec napříč vztahy, na rozdíl od vzorce
-  vázaného na konkrétního mentora.
+Osobní autorita mentora má rysy toho, co Weber (1922) popsal jako charismatické panství:
+legitimita se opírá o mimořádnost osoby, nikoli o pravidlo nebo úřad. Taková autorita
+sama není deformací a odlišení od neškodných jevů stojí na tom, co ve vztahu zůstává
+možné.
+
+| Jev | Čím se od vzorce odlišuje |
+|---|---|
+| Náročné vedení | Přísný školitel s vysokými nároky zdůvodňuje hodnocení, snese nesouhlas a podporuje i jiné odborné vztahy. |
+| Raná fáze učení | Přebírání mentorova rámce je na začátku přirozené; varovné je, když se závislost s časem nezmenšuje, ale prohlubuje. |
+| Přenos | Idealizace autority je běžný psychologický jev; rozhoduje, zda ji mentor využívá. |
+| Závislá porucha osobnosti | Celoživotní vzorec napříč vztahy, na rozdíl od vzorce vázaného na konkrétního mentora. |
 
 ## Klinický a právní rámec
 

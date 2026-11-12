@@ -80,7 +80,10 @@ Requirements (id: what is checked):
                    filler: effect sizes, n, NNT, instrument cut-offs, session counts, detection
                    thresholds and recovery horizons were all pasted across unrelated techniques
                    (ADR 0006). A figure a page edits for itself leaves the group and passes.
-                   NEVER baselined; the worklist is keyed figure:<n>
+                   NEVER baselined. Not a worklist: `--list template-figure` names the pages
+                   that carry an identical line (a line to delete, not a page to write). A
+                   figure inside a cross-reference link does not count — only one in the row's
+                   own prose.
   platform-section no "Vztah k/ke <Prismatic component>" heading (Prismatic, Decision Engine,
                    NABLA/Nabla, ∇∞): the owner decided the book does not import from the Prismatic
                    platform (ADR 0007, 2026-11-11), so these integration sections — and the two
@@ -128,7 +131,7 @@ NEVER_BASELINED = {"placeholder", "technique-page", "howto", "drug-dose", "templ
 # `--list <rule>`); they are fixed in content, not accepted. Until then the gate fails only when
 # the count grows. The number may only go down, and the entry goes when it reaches 0.
 PENDING_ZERO = {"placeholder": 0, "technique-page": 0, "howto": 0, "drug-dose": 0,
-                "template-figure": 103, "platform-section": 0, "relative-link": 0,
+                "template-figure": 95, "platform-section": 0, "relative-link": 0,
                 "platform-label": 0, "platform-frontmatter": 0, "philosophy-frame": 0}  # 0 → never baselined
 BOLD_CANDIDATE_PAGES = 3  # a bold phrase on this many pages is a term and needs its own page
 

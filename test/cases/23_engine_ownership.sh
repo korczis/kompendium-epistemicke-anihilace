@@ -12,7 +12,7 @@ set -euo pipefail
 root=$(cd "$(dirname "$0")/../.." && pwd)
 work=$(mktemp -d "${TMPDIR:-/tmp}/kea-case23.XXXXXX")
 trap 'rm -rf "$work"' EXIT
-git -C "$root" archive "$(git -C "$root" write-tree)" | tar -x -C "$work"
+git -C "$root" archive "${KEA_TEST_TREE:-$(git -C "$root" write-tree)}" | tar -x -C "$work"
 cd "$work"
 
 python3 scripts/check-viz-layer.py > /dev/null || { echo "committed tree refused"; exit 1; }

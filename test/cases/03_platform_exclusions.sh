@@ -13,7 +13,7 @@ set -euo pipefail
 root=$(cd "$(dirname "$0")/../.." && pwd)
 work=$(mktemp -d "${TMPDIR:-/tmp}/kea-case03.XXXXXX")
 trap 'rm -rf "$work"' EXIT
-git -C "$root" archive "$(git -C "$root" write-tree)" | tar -x -C "$work"
+git -C "$root" archive "${KEA_TEST_TREE:-$(git -C "$root" write-tree)}" | tar -x -C "$work"
 cd "$work"
 
 if [ ! -f data/catalogs.toml ]; then echo "no catalogue declaration in this tree; nothing to test"; exit 0; fi
@@ -23,7 +23,7 @@ python3 scripts/catalogs.py --check >/dev/null
 # Restoring re-extracts the tree the first --check above proved clean, so it is not re-checked
 # (each --check costs ~15 s in CI; the case once ran it 13 times).
 restore() {
-  git -C "$root" archive "$(git -C "$root" write-tree)" -- data content | tar -x -C "$work"
+  git -C "$root" archive "${KEA_TEST_TREE:-$(git -C "$root" write-tree)}" -- data content | tar -x -C "$work"
 }
 expect_fail() {
   local what=$1 want=$2 out

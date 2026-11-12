@@ -14,7 +14,7 @@ set -euo pipefail
 root=$(cd "$(dirname "$0")/../.." && pwd)
 work=$(mktemp -d "${TMPDIR:-/tmp}/kea-case02.XXXXXX")
 trap 'rm -rf "$work"' EXIT
-git -C "$root" archive "$(git -C "$root" write-tree)" | tar -x -C "$work"
+git -C "$root" archive "${KEA_TEST_TREE:-$(git -C "$root" write-tree)}" | tar -x -C "$work"
 cd "$work"
 
 if [ ! -f data/catalogs.toml ]; then echo "no catalogue declaration in this tree; nothing to test"; exit 0; fi
@@ -28,7 +28,7 @@ page=content/kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md
 expect_fail() {
   local what=$1
   if python3 scripts/catalogs.py --check >/dev/null 2>&1; then echo "gate passed despite: $what"; exit 1; fi
-  git -C "$root" archive "$(git -C "$root" write-tree)" -- "$page" data | tar -x -C "$work"
+  git -C "$root" archive "${KEA_TEST_TREE:-$(git -C "$root" write-tree)}" -- "$page" data | tar -x -C "$work"
   rm -f content/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md
   rm -f content/kompendium/nlp-vzorce/predpoklady/seeded.md
 }
@@ -92,11 +92,11 @@ fi
 
 # Coverage of the standard references: a name with neither an entry nor a reason is refused,
 # and so is a reason too short to say why (data/<dir>/_coverage.toml).
-git -C "$root" archive "$(git -C "$root" write-tree)" -- data | tar -x -C "$work"
+git -C "$root" archive "${KEA_TEST_TREE:-$(git -C "$root" write-tree)}" -- data | tar -x -C "$work"
 printf '\n[[term]]\nname = "Vymyšlený klam bez hesla"\nsources = ["hamblin-1970"]\n' >> data/fauly/_coverage.toml
 if out=$(python3 scripts/catalogs.py --check 2>&1); then echo "gate passed despite an unmapped name"; exit 1; fi
 grep -q "Vymyšlený klam bez hesla: needs exactly one of" <<<"$out" || { echo "unmapped name not reported"; echo "$out" | tail -3; exit 1; }
-git -C "$root" archive "$(git -C "$root" write-tree)" -- data | tar -x -C "$work"
+git -C "$root" archive "${KEA_TEST_TREE:-$(git -C "$root" write-tree)}" -- data | tar -x -C "$work"
 printf '\n[[term]]\nname = "Krátký důvod"\nsources = ["hamblin-1970"]\nexcluded = "nehodí se"\n' >> data/nlp/_coverage.toml
 if out=$(python3 scripts/catalogs.py --check 2>&1); then echo "gate passed despite a reason too short"; exit 1; fi
 grep -q "at least 40 characters" <<<"$out" || { echo "short reason not reported"; echo "$out" | tail -3; exit 1; }

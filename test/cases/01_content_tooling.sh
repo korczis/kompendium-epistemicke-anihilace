@@ -14,7 +14,7 @@ set -euo pipefail
 root=$(cd "$(dirname "$0")/../.." && pwd)
 work=$(mktemp -d "${TMPDIR:-/tmp}/kea-case01.XXXXXX")
 trap 'rm -rf "$work"' EXIT
-git -C "$root" archive "$(git -C "$root" write-tree)" | tar -x -C "$work"  # the index: what is about to be committed
+git -C "$root" archive "${KEA_TEST_TREE:-$(git -C "$root" write-tree)}" | tar -x -C "$work"  # the index: what is about to be committed
 cd "$work"
 
 # An unknown option is refused and changes nothing; --help only prints.
@@ -171,7 +171,7 @@ rm -r content/kompendium/case-01-fixture
 printf '| **Fixturový pojem** | Fixture term [=] | `X` | Jen pro test. |\n' \
   >> content/kompendium/08-prilohy/index-pojmu.md
 python3 scripts/check-ia.py --list term-page | grep -x 'term:fixturovy-pojem' >/dev/null
-git -C "$root" show "$(git -C "$root" write-tree):content/kompendium/08-prilohy/index-pojmu.md" \
+git -C "$root" show "${KEA_TEST_TREE:-$(git -C "$root" write-tree)}:content/kompendium/08-prilohy/index-pojmu.md" \
   > content/kompendium/08-prilohy/index-pojmu.md
 
 # The autolinker links the first mention of a term that has a page, and only once.

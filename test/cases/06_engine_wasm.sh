@@ -22,7 +22,7 @@ root=$(cd "$(dirname "$0")/../.." && pwd)
 module="$root/static/wasm/kompendium_engine.wasm"
 work=$(mktemp -d "${TMPDIR:-/tmp}/kea-case06.XXXXXX")
 trap 'rm -rf "$work"' EXIT
-git -C "$root" archive "$(git -C "$root" write-tree)" | tar -x -C "$work"
+git -C "$root" archive "${KEA_TEST_TREE:-$(git -C "$root" write-tree)}" | tar -x -C "$work"
 cd "$work"
 export PYTHONDONTWRITEBYTECODE=1
 

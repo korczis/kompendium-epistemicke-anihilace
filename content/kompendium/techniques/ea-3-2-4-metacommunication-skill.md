@@ -48,6 +48,8 @@ Nepříznivý průběh se pozná podle mlčení. Ladany, Hill, Corbett a Nutt (1
 
 *Interpretace knihy*: rozlišujícím znakem je vyvratitelnost pojmenování. Kde smí supervidovaný říci „takhle to nebylo“ a kde to něco změní, slouží metakomunikace vztahu; kde ne, stává se z ní výklad, proti němuž není odvolání (Watzlawick, Beavin a Jackson, 1967).
 
+Zdroje této stránky je užitečné rozlišit podle toho, co vlastně tvrdí. Že každé sdělení nese vedle obsahu i určení vztahu, formulovali Watzlawick, Beavin a Jackson (1967) jako obecný rys lidské komunikace; že sdělení o sdělení náleží k jiné logické rovině, ukázal Bateson (1972) v souvislosti s teorií učení a paradoxu; že supervidovaní zamlčují podstatné části svého prožívání i pochybnosti o supervizi samé, zjistili Ladany, Hill, Corbett a Nutt (1996) na výpovědích psychoterapeutických trainees. Z první dvojice nelze vyvodit, že by vztahová rovina byla čitelná — tvrdí se její přítomnost, nikoli její přístupnost. Krok od přítomnosti k čitelnosti, na němž metakomunikace jako dovednost stojí, je proto *interpretace knihy*, a právě proto je zde kritériem vyvratitelnost: pojmenování se nepovažuje za nález, nýbrž za návrh, který může být odmítnut.
+
 ## Cílová populace
 
 Certifikovaní supervizoři; klinici v terapeutickém tréninku.
@@ -67,7 +69,7 @@ Konkrétní implementace vyžaduje:
 1. **Pre-implementation assessment** — verifikace předpokladů u individuálních účastníků a kohorty jako celku.
 2. **Resource provisioning** — institucionální alokace času, prostoru, personálu, technologií.
 3. **Documentation infrastructure** — systém zaznamenávání průběhu, výsledků, incidentů.
-4. **Quality assurance** — peer review nebo external observation alespoň 10 % sessions.
+4. Posouzení se neopírá jen o dojem toho, kdo pojmenovává — supervizní vztah vidí i někdo mimo něj, protože nesouhlas s pojmenováním se v něm samém vysloví nejtíž.
 5. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
 
 Implementace je **iterativní** — každý cyklus generuje data informující úpravy v dalších cyklech.
@@ -83,6 +85,8 @@ Implementace je **iterativní** — každý cyklus generuje data informující �
 
 Evaluace integruje **kvantitativní** (validované instrumenty) i **kvalitativní** (reflektivní eseje, ethnographic observation) datové zdroje. Žádná samostatná metrika není dostatečná — multidimenzionální evaluace je nezbytná.
 
+Přesvědčivé pojmenování procesu nedokládá, že popisovaný proces nastal. Souhlas supervidovaného je u této techniky nejslabším z možných potvrzení, protože souhlas je v nerovném vztahu očekávanou odpovědí; Ladany, Hill, Corbett a Nutt (1996) zdokumentovali, že se právě pochybnosti o supervizi vyslovují nejméně, takže přijaté pojmenování nerozlišuje mezi tím, že bylo přesné, a tím, že nebylo bezpečné je odmítnout. Nedokládá se tím ani prospěšnost: to, že se hovor po pojmenování rozběhl, může znamenat porozumění, i že supervidovaný přešel na téma, které je od něj žádáno. Vyvozovat z metakomunikační zdatnosti terapeutickou kompetenci rovněž nelze — supervizní vztah je vztahem, v němž jedna strana druhou hodnotí, a tato asymetrie v případu, o němž se mluví, obdobu nemá, takže se dovednost nacvičuje v jiných podmínkách, než v jakých má působit. A protože podle Batesona (1972) náleží sdělení o sdělení k jiné logické rovině, nelze proti němu namítat v rovině obsahu; mlčení supervidovaného proto není potvrzením, nýbrž především znakem toho, že odvolání není kam podat.
+
 ## Rizika a kontraindikace
 
 **Kdy techniku NEPOUŽÍVAT nebo modifikovat:**
@@ -97,6 +101,8 @@ Specificky:
 - **Power asymmetry** — implementace v kontextu [coercive control](@/glossary/coercive-control.md) (nedobrovolná účast) je eticky problematická.
 
 ## Vztah k jiným technikám
+
+Od [EA-3.2.2 Multiparadigmatická fluence](@/kompendium/techniques/ea-3-2-2-multi-paradigm-fluency.md) se metakomunikace liší tím, s čím zachází: fluence mění pojmový rámec, v němž se o případu mluví, kdežto zde se rámec obsahu nemění a posouvá se rovina — předmětem se stává hovor sám. Od [EA-3.2.5 Etická sofistikovanost](@/kompendium/techniques/ea-3-2-5-ethical-sophistication.md) ji odděluje druh otázky: etické uvažování se táže, co je přípustné, metakomunikace nejprve jen popisuje, co se právě děje, a normativní soud nechává až na to, co popis odhalí. Proti běžné výukové zpětné vazbě je rozdíl v tom, čeho se týká: obvyklá zpětná vazba míří na to, co supervidovaný o případu řekl, zatímco zde je předmětem to, co se mezi oběma právě odehrává — a supervidovaný tedy nemá neutrální půdu, z níž by mohl odpovídat.
 
 ### Sourozenecké techniky (3.2 Supervizorské techniky)
 

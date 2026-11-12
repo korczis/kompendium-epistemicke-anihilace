@@ -24,7 +24,7 @@ Restrikce přístupu vychází ze tří základních úvah:
 
 1. **Princip minimální nezbytné expozice** — kvalifikovaný uživatel by měl mít přístup pouze k těm částem kompendia, které jsou pro jeho profesní úkol skutečně nezbytné. Pokročilé útočné protokoly nejsou potřebné pro většinu klinických aplikací.
 2. **Princip institucionálního ukotvení** — přístup je primárně poskytován skrze instituci (nikoli individuálně), čímž se distribuuje odpovědnost a vytvářejí se strukturální záruky.
-3. **Princip kontinuálního etického dohledu** — přístup není jednorázovou událostí, ale **trvalým vztahem** s povinností periodické rekvalifikace a etické revize.
+3. **Princip kontinuálního etického dohledu** — čtení tohoto druhu není jednorázovou událostí, ale **trvalým vztahem**, v němž se porozumění i jeho hranice pravidelně revidují.
 
 Detailní operační rámec těchto principů je uveden v dokumentu [Bezpečnostní klasifikace přístupu](@/kompendium/01-predmluva/bezpecnostni-klasifikace.md), který definuje čtyři přístupové úrovně L1–L4.
 
@@ -39,7 +39,7 @@ Odborníci s **dokončeným specializačním vzděláním** v oblasti psychiatri
 - Minimálně pět let klinické praxe po atestaci
 - Specializační školení v oblasti diagnostiky a terapie komplexních psychických stavů (komplexní PTSD, disociativní poruchy, indukované psychotické stavy)
 - Absolvování orientačního kurzu o etických aspektech práce s kompendiem
-- Aktivní účast v profesní supervizi minimálně 1× měsíčně
+- Aktivní účast v pravidelné profesní supervizi
 
 **Typické indikace pro využití**:
 
@@ -68,7 +68,9 @@ Specialisté se specifickým výcvikem v oblasti obnovy kognitivních funkcí a 
 - Klinický psycholog nebo psychiatr s dodatečnou specializací v oblasti komplexního traumatu
 - Absolvent specializovaného certifikačního programu v oblasti epistemické rekonstrukce
 - Praxe v rehabilitačních zařízeních nebo specializovaných ambulancích
-- Schopnost dlouhodobé strukturované terapeutické práce (typicky 12–36 měsíců)
+- Schopnost dlouhodobé strukturované terapeutické práce
+
+Poslední požadavek je záměrně vysloven bez časové míry. Kompendium nikde neuvádí, jak dlouho epistemická reintegrace trvá, protože pro takový údaj nemá doložitelný zdroj; odborník z této skupiny však má počítat s tím, že tempo práce neurčuje on, nýbrž postupně se obnovující kapacita postiženého, a že nátlak na rychlejší postup sám patří k poškozujícím faktorům.
 
 ### 4. Kvalifikovaní pedagogové v psychiatrickém a psychologickém vzdělávání
 
@@ -119,32 +121,17 @@ Vyloučení pacientů a klientů zasluhuje samostatné odůvodnění. Mohlo by s
 
 Pacienti by měli s relevantními koncepty **pracovat skrze terapeuta**, který selektivně zprostředkuje pouze ty části, které jsou konkrétně relevantní pro jejich rekonstrukční trajektorii.
 
-## Formální požadavky na přístup
+## Co kniha u svého čtenáře předpokládá
 
-Pro získání přístupu musí potenciální uživatel:
+Dřívější verze této kapitoly tu měla seznam formálních požadavků pro „získání přístupu“: doložení kvalifikace, podpis právně závazného prohlášení o důvěrnosti, orientační školení v délce odstupňované podle přístupové úrovně, souhlas s pravidelnými kontrolami využití materiálu. Žádná taková procedura neexistuje, kniha ji neprovozuje a nikdo ji nevymáhá; čísla hodin neměla zdroj a odstupňování podle úrovní bylo autorovým návrhem vydávaným za standard. Celý ten aparát je proto odsud odstraněn, stejně jako z [bezpečnostní klasifikace](@/kompendium/01-predmluva/bezpecnostni-klasifikace.md), kde stejné rozhodnutí nese ADR 0009.
 
-1. **Doložit profesní kvalifikaci** a institucionální afiliaci
-2. **Podepsat právně závazné prohlášení** o zachování důvěrnosti
-3. **Absolvovat orientační školení** ohledně etických aspektů (typicky 8 hodin pro L1, 16 hodin pro L2, 40 hodin pro L3, 80+ hodin pro L4)
-4. **Explicitně se zavázat** k dodržování [etických směrnic](@/kompendium/01-predmluva/eticke-aspekty.md)
-5. **Souhlasit s pravidelnými kontrolami** využití materiálu
-6. **Doložit aktivní supervizi** odpovídající úrovni přístupu
-
-Detailní procedurální rámec viz [Bezpečnostní klasifikace přístupu](@/kompendium/01-predmluva/bezpecnostni-klasifikace.md).
+Co zůstává, je formulovaný předpoklad, nikoli podmínka: autor píše pro čtenáře, který má v relevantním oboru doloženou odbornou kvalifikaci, pracuje v pravidelné supervizi, má za sebou vzdělání v profesní či výzkumné etice a drží se [etických směrnic](@/kompendium/01-predmluva/eticke-aspekty.md) této knihy. Rozdíl mezi předpokladem a podmínkou je podstatný: text je veřejný a čtenář, který ty předpoklady nesplňuje, neporušuje žádné pravidlo — čte jen bez rámce, který kniha považuje za podmínku odpovědného užití. Nejsilnější zárukou tak není evidence uživatelů, ale to, co kniha o sobě neříká: nepopisuje postupy, jimiž by bylo možné někoho poškodit.
 
 ## Institucionální odpovědnost
 
-Instituce, které získají přístup, přebírají **plnou odpovědnost** za:
+Instituce, která tento materiál dále předává — zařazuje jej do výuky, do supervizního curricula nebo do interní knihovny — nese odpovědnost za to, jak v ní koluje. Patří k tomu úvaha, komu je text v daném kontextu k něčemu, tedy princip **need-to-know** uplatněný spíš jako pedagogická než bezpečnostní otázka, a dostupnost odborného etického dohledu pro ty, kdo s ním pracují.
 
-- Uchovávání materiálu v zabezpečených podmínkách s omezeným přístupem
-- Princip **need-to-know** při poskytování přístupu
-- Implementaci bezpečnostních protokolů proti neoprávněnému šíření
-- Transparentní systém dokumentace a auditu
-- Specializovaný etický dohled
-- **Notifikaci** v případě podezření na zneužití
-- **Periodickou rekvalifikaci** uživatelů (typicky 1× ročně)
-
-Instituce, která tyto závazky systematicky neplní, ztrácí přístup pro celou organizaci, nikoli pouze pro konkrétního uživatele. Toto kolektivní riziko vytváří strukturální motivaci pro vnitřní compliance.
+I zde dřívější verze popisovala aparát, který nikdo neprovozuje: systém dokumentace a auditu, notifikační povinnost při podezření na zneužití, periodickou rekvalifikaci uživatelů v roční periodě a odebrání přístupu celé organizaci. *Interpretace knihy* je, že takový popis působí proti svému účelu — čtenáři nabízí falešnou jistotu, že nad šířením textu bdí někdo další, a instituci zbavuje jediné odpovědnosti, kterou skutečně má: rozhodnout se, zda pro práci s tímto materiálem dokáže vytvořit odborný a supervizní rámec, a pokud ne, nezařazovat jej.
 
 ## Etická motivace omezení
 
@@ -154,7 +141,7 @@ V souladu s fundamentálním principem **primum non nocere** je nezbytné zajist
 
 ## Meze tohoto vymezení
 
-Tato kapitola popisuje, komu je text určen, nikoli komu je technicky dostupný. Formulovaná kritéria jsou normativním návrhem autora, nikoli standardem přijatým profesními komorami nebo etickými komisemi, a žádná z uvedených kvalifikací se při čtení neprověřuje; *interpretace knihy* je, že vymezení adresáta má především funkci rámce čtení – říká, s jakou odpovědností a v jaké supervizi text obstojí. Z vyjmenovaných skupin tedy neplyne ani oprávnění, ani jeho nedostatek: čtenář mimo okruh adresátů neporušuje žádné pravidlo, zůstává však bez rámce, který kapitola považuje za podmínku odpovědného užití. Uvedené délky školení a periodicita rekvalifikace jsou příklady obvyklé institucionální praxe, ne závazná norma.
+Tato kapitola popisuje, komu je text určen, nikoli komu je technicky dostupný. Formulovaná kritéria jsou normativním návrhem autora, nikoli standardem přijatým profesními komorami nebo etickými komisemi, a žádná z uvedených kvalifikací se při čtení neprověřuje; *interpretace knihy* je, že vymezení adresáta má především funkci rámce čtení – říká, s jakou odpovědností a v jaké supervizi text obstojí. Z vyjmenovaných skupin tedy neplyne ani oprávnění, ani jeho nedostatek: čtenář mimo okruh adresátů neporušuje žádné pravidlo, zůstává však bez rámce, který kapitola považuje za podmínku odpovědného užití. Dřívější verze tu uváděla délky školení a periodicitu rekvalifikace jako příklady obvyklé institucionální praxe; byly to čísla bez zdroje a kniha je neuvádí.
 
 ## Související
 

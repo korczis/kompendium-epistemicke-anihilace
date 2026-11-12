@@ -67,8 +67,7 @@ Konkrétní implementace vyžaduje:
 1. **Pre-implementation assessment** — verifikace předpokladů u individuálních účastníků a kohorty jako celku.
 2. **Resource provisioning** — institucionální alokace času, prostoru, personálu, technologií.
 3. **Documentation infrastructure** — systém zaznamenávání průběhu, výsledků, incidentů.
-4. **Quality assurance** — peer review nebo external observation alespoň 10 % sessions.
-5. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
+4. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
 
 Implementace je **iterativní** — každý cyklus generuje data informující úpravy v dalších cyklech.
 
@@ -95,6 +94,18 @@ Specificky:
 - **Nedostatek institucionální infrastruktury** — bez adekvátní podpory technika selhává a může poškozovat.
 - **Kulturně necitlivá implementace** — technika musí být adaptována pro local context, nikoli mechanicky importována.
 - **Power asymmetry** — implementace v kontextu [coercive control](@/glossary/coercive-control.md) (nedobrovolná účast) je eticky problematická.
+
+## Co vedení žurnálu nedokládá
+
+Vedený žurnál dokládá, že si pisatel psal — nic víc. Neříká, že rozpoznal vzorec v době, kdy se ho týkal: záznam vzniká po události a jeho jasnost je zpětná. Nedokládá ani hloubku reflexe, nýbrž písemnou vybavenost pisatele; text působí propracovaně i tam, kde je propracovaná jen formulace. O účastníkovi sám nevypovídá: strohý zápis může patřit člověku, který věci zpracovává v rozhovoru, a obsažný zápis člověku, který se zabydlel v popisování sebe sama. A protože výňatky vybírá pisatel, nedokládá žurnál ani to, co v něm není — mlčení o určité zkušenosti je neodlišitelné od její nepřítomnosti. Kde se ze žurnálu stane hlavní podklad hodnocení, přestává vypovídat o pisateli a začíná vypovídat o tom, co pisatel o hodnocení předpokládá (Schön, 1983).
+
+## Odlišení od blízkých technik
+
+Od [metakognitivní kultivace](@/kompendium/techniques/ea-3-1-3-metacognitive-cultivation.md) se žurnálování liší časem, v němž pracuje: kultivace míří na pozornost v průběhu dění, žurnál na zacházení s jeho záznamem. Od [debriefingového protokolu](@/kompendium/techniques/ea-3-1-9-debriefing-protocol.md) je odlišuje účast druhého a uzavřenost — debriefing je dialogický, vázaný na jednu událost a za jeho uzavření odpovídá někdo jiný než zasažený, zatímco žurnál je samostatný a nemá konec. Od obvyklého reflektivního portfolia v profesním vzdělávání se odlišuje tím, že se neklasifikuje; klasifikované portfolio měří, zda pisatel odhadl kritérium, a právě tato záměna je zde popsána jako selhání (Boud, Keogh a Walker, 1985).
+
+## Odkud tvrzení pocházejí
+
+Že písemné zpracování vlastní zkušenosti má doložitelný účinek a že souvisí s rostoucí uspořádaností textu, pochází z Pennebakerovy experimentální linie (Pennebaker, 1997). Formulace, že se ze zkušenosti stává poznatek až jejím zpětným čtením, je Boudova, Keoghova a Walkerova (1985); rozlišení reflexe v průběhu jednání od reflexe o něm je Schönovo (1983). Varování před přechodem zápisků v ruminaci (rumination) má vlastní oporu: Nolen-Hoeksema popsala opakované návracení k téže tísni jako faktor, který její trvání prodlužuje (Nolen-Hoeksema, 1991). *Interpretace knihy* je až spojení těchto zdrojů s epistemickou situací — žádný z nich nezkoumal psaní o zkušenosti s cílenou manipulací vlastního úsudku. Ze stejného důvodu se tato praxe nevede bez vnějšího pohledu: supervizor žurnál nečte, ale ví, že je veden, a je adresátem toho, co se pisatel rozhodne sdílet.
 
 ## Vztah k jiným technikám
 
@@ -124,6 +135,7 @@ Tato edukativní technika **operacionalizuje** poznatky z taxonomie:
 ## Literatura
 
 - Boud, D., Keogh, R., & Walker, D. (Eds.) (1985). *Reflection: Turning Experience into Learning*. Kogan Page.
+- Nolen-Hoeksema, S. (1991). Responses to depression and their effects on the duration of depressive episodes. *Journal of Abnormal Psychology*, 100(4).
 - Pennebaker, J. W. (1997). Writing about emotional experiences as a therapeutic process. *Psychological Science*, 8(3).
 - Schön, D. A. (1983). *The Reflective Practitioner: How Professionals Think in Action*. Basic Books.
 

@@ -155,9 +155,10 @@ Intervence u subjektů s touto technikou v anamnéze vyžaduje trauma-informed f
 - **Bezpečí jako primární cíl** (Herman, 1992; SAMHSA, 2014): před jakoukoliv konfrontační intervencí musí být obnoveno fyzické a vztahové bezpečí. Předčasná konfrontace s manipulátorem nebo s implantovaným narativem retraumatizuje.
 - **Tělová stabilizace před narativní rekonstrukcí** (van der Kolk, 2014; Levine, *Somatic Experiencing*): bottom-up přístupy (somatické intervence, polyvagal-informed práce) předcházejí top-down narativní práci. Pokus rekonstruovat narativ bez tělové báze vede k retraumatizaci a/nebo dissociaci.
 - **Externí archivace** kontinuity self: deníky, fotografie, korespondence, výpovědi nezávislých svědků pre-manipulační fáze fungují jako odolný záznam, ke kterému se subjekt může vracet.
-- **Pomalá temporalita**: rekonstrukční terapeutický rámec u této kategorie technik typicky vyžaduje 12–36 měsíců strukturované práce; akcelerace zhoršuje prognózu.
 - **Supervize terapeuta**: sekundární traumatizace terapeuta a riziko parallel process (terapeut nevědomě reprodukuje manipulační dynamiku) vyžadují pravidelnou supervizní podporu.
 - **Zákaz konfrontačních a regresních technik** v rané fázi: pre-konsolidační self je příliš zranitelný pro hypnoidní, regresní nebo psychedelicky-asistované intervence.
+
+U rekonstituce prožívání je pomalost dána tím, že nástrojem i předmětem opravy je totéž: subjektova výpověď o vlastní zkušenosti. Důvěra ve vlastní 'cítím' se vrací jen drobnými, nepříznakovými zkušenostmi, v nichž se ukáže, že popis prožitku patřil subjektu a nikomu jinému. Požadavek, aby subjekt rychleji vykázal autentickou zkušenost, jej staví do role toho, kdo má vyprodukovat správný prožitek pro druhého — což je přesně struktura popisované techniky.
 
 ## Cross-linky expandované
 

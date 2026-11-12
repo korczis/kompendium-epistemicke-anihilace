@@ -72,7 +72,7 @@ Co může vidět vnější pozorovatel:
 
 ### Individuální
 
-1. Charakterová retrospektiva s 10+ letým horizontem
+1. Charakterová retrospektiva sahající do doby, z níž existují nezávislá svědectví o dřívějších dispozicích
 2. Triangulace s dlouholetými svědky pro identifikaci charakterové diskontinuity
 3. Terapeutická práce na rekonsolidaci historické charakterové struktury
 
@@ -155,9 +155,10 @@ Intervence u subjektů s touto technikou v anamnéze vyžaduje trauma-informed f
 - **Bezpečí jako primární cíl** (Herman, 1992; SAMHSA, 2014): před jakoukoliv konfrontační intervencí musí být obnoveno fyzické a vztahové bezpečí. Předčasná konfrontace s manipulátorem nebo s implantovaným narativem retraumatizuje.
 - **Tělová stabilizace před narativní rekonstrukcí** (van der Kolk, 2014; Levine, *Somatic Experiencing*): bottom-up přístupy (somatické intervence, polyvagal-informed práce) předcházejí top-down narativní práci. Pokus rekonstruovat narativ bez tělové báze vede k retraumatizaci a/nebo dissociaci.
 - **Externí archivace** kontinuity self: deníky, fotografie, korespondence, výpovědi nezávislých svědků pre-manipulační fáze fungují jako odolný záznam, ke kterému se subjekt může vracet.
-- **Pomalá temporalita**: rekonstrukční terapeutický rámec u této kategorie technik typicky vyžaduje 12–36 měsíců strukturované práce; akcelerace zhoršuje prognózu.
 - **Supervize terapeuta**: sekundární traumatizace terapeuta a riziko parallel process (terapeut nevědomě reprodukuje manipulační dynamiku) vyžadují pravidelnou supervizní podporu.
 - **Zákaz konfrontačních a regresních technik** v rané fázi: pre-konsolidační self je příliš zranitelný pro hypnoidní, regresní nebo psychedelicky-asistované intervence.
+
+Transpozice se obnovuje pomalu proto, že povrchové rysy zůstaly nedotčené a ztrátu je vidět teprve na dlouhé řadě obyčejných situací — na tom, jak subjekt reaguje, když se nikdo nedívá a nic se po něm nechce. Charakterové dispozice se nedají znovu zvolit, jen znovu potkat. Výzva, aby subjekt 'byl zase sám sebou', vede k další nasazené konfiguraci, tentokrát sestavené pro pomáhajícího.
 
 ## Cross-linky expandované
 

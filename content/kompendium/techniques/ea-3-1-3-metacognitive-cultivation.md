@@ -67,10 +67,13 @@ Konkrétní implementace vyžaduje:
 1. **Pre-implementation assessment** — verifikace předpokladů u individuálních účastníků a kohorty jako celku.
 2. **Resource provisioning** — institucionální alokace času, prostoru, personálu, technologií.
 3. **Documentation infrastructure** — systém zaznamenávání průběhu, výsledků, incidentů.
-4. **Quality assurance** — peer review nebo external observation alespoň 10 % sessions.
-5. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
+4. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
 
 Implementace je **iterativní** — každý cyklus generuje data informující úpravy v dalších cyklech.
+Praxi nelze vést bez druhého pozorovatele, a to z důvodu, který leží v předmětu techniky samé:
+o tom, zda si účastník vlastních obratů skutečně všímá, nebo si jen osvojil slovník sebepozorování,
+nelze rozhodnout z jeho vlastního záznamu. Chybějící vnější pohled zde tedy neoslabuje jen
+kontrolu kvality, nýbrž ruší samotné měřítko.
 
 ## Hodnotící kritéria
 
@@ -95,6 +98,41 @@ Specificky:
 - **Nedostatek institucionální infrastruktury** — bez adekvátní podpory technika selhává a může poškozovat.
 - **Kulturně necitlivá implementace** — technika musí být adaptována pro local context, nikoli mechanicky importována.
 - **Power asymmetry** — implementace v kontextu [coercive control](@/glossary/coercive-control.md) (nedobrovolná účast) je eticky problematická.
+
+## Co metakognitivní kultivace nezakládá
+
+Plynulý popis vlastního myšlení nezakládá schopnost, o níž popis vypovídá. Slovník sebepozorování
+je naučitelný odděleně od všímání — rychleji než ono, protože je odposlouchatelný z toho, co o
+sobě říkají ostatní. Nástroje typu inventáře, který sestavili Schraw a Dennison (1994), proto
+nedokládají metakognici, nýbrž sebeposouzení metakognice; jejich autoři to sami uvádějí, a je to
+rozdíl, který se při výkladu výsledků snadno ztrácí.
+
+Výpověď o vlastním postupu nezakládá přístup k němu. Nisbett a Wilson (1977) shromáždili doklady,
+že lidé o příčinách svých úsudků podávají výklady vytvořené dodatečně, a že tyto výklady bývají
+věrohodné i tam, kde se prokazatelně míjejí se skutečným vlivem. Pro techniku, jejímž médiem je
+právě [sebevýpověď](@/glossary/self-report.md), z toho plyne, že kultivovat lze ostražitost vůči vlastnímu obratu, ne však
+jeho vysvětlení. *Interpretace knihy*: zdařilá kultivace se proto pozná spíš podle přibývajících
+„nevím, co mě k tomu vedlo“ než podle přibývajících vysvětlení.
+
+Nezakládá ani to, že je přibývající sebesledování ku prospěchu. Nolen-Hoeksema (1991) popsala
+ruminativní způsob odpovědi na vlastní stav, v němž opakované obracení se k sobě stav
+prodlužuje, nikoli zkracuje; cvičená pozornost k vlastnímu myšlení může tedy vyústit v tutéž
+smyčku, kterou má otevřít. Na stránce je to uvedeno mezi kontraindikacemi; zde jde o to, že
+rozlišení adaptivní reflexe od smyčky nelze odečíst z množství reflexe.
+
+## Odlišení od příbuzných technik
+
+Od [reflektivního žurnálování](@/kompendium/techniques/ea-3-1-10-reflective-journaling.md) se
+tato technika liší tím, kde se odehrává. Žurnálování je zpětný zápis, tedy stopa; kultivace míří
+na všímnutí v průběhu jednání, jak na ně klade důraz Schön (1983), a stopa je pro ni teprve
+druhotná. Z téhož důvodu je žurnálování hodnotitelné a kultivace nikoli: zápis lze předložit,
+všimnutí ne.
+
+Od běžného výukového případu se odlišuje předmětem sledování. V obvyklém kurzu se metakognice
+vyučuje jako studijní dovednost — sledování porozumění látce, aby bylo učení účinnější; předmětem
+sledování je tedy text. Zde je předmětem sledování vlastní destabilizace, čímž se sledování samo
+stává učivem. Flavell (1979) vymezil oblast tak, že obojí pokrývá; že se druhý případ liší svými
+riziky, a ne pouze obsahem, je *interpretace knihy*.
 
 ## Vztah k jiným technikám
 
@@ -124,6 +162,8 @@ Tato edukativní technika **operacionalizuje** poznatky z taxonomie:
 ## Literatura
 
 - Flavell, J. H. (1979). Metacognition and cognitive monitoring: A new area of cognitive-developmental inquiry. *American Psychologist*, 34(10).
+- Nisbett, R. E., & Wilson, T. D. (1977). Telling more than we can know: Verbal reports on mental processes. *Psychological Review*, 84(3).
+- Nolen-Hoeksema, S. (1991). Responses to depression and their effects on the duration of depressive episodes. *Journal of Abnormal Psychology*, 100(4).
 - Schraw, G., & Dennison, R. S. (1994). Assessing metacognitive awareness. *Contemporary Educational Psychology*, 19(4).
 - Schön, D. A. (1983). *The Reflective Practitioner: How Professionals Think in Action*. Basic Books.
 

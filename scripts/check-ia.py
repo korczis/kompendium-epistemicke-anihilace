@@ -245,7 +245,7 @@ NEVER_BASELINED = {"placeholder", "technique-page", "howto", "drug-dose", "templ
 # the count grows. The number may only go down, and the entry goes when it reaches 0.
 PENDING_ZERO = {"placeholder": 0, "technique-page": 0, "howto": 0, "drug-dose": 0,
                 "bold-term": 0,
-                "code-range": 7,
+                "code-range": 0,
                 "clinical-figure": 0,
                 "template-figure": 0, "platform-section": 0, "relative-link": 0,
                 "platform-label": 0, "platform-frontmatter": 0, "philosophy-frame": 0,
@@ -435,14 +435,15 @@ DRUG_NAME = re.compile(
     r"|\bSSRI\b|\bSNRI\b|\bIMAO\b|\bMAOI\b", re.I)
 # A clinical specific a reader could act on (ADR 0010). Judged per paragraph, list item and
 # table row: one without an author-year citation or statute is a finding.
-_UNIT = r"(?:dn[ůíyeu]\w*|týd\w*|tydn\w*|měsíc\w*|mesic\w*|hodin\w*|sezen\w*|session\w*|weeks?|months?|days?)"
-_SCORE = r"(?:HRV|HR|DES(?:-II|-T|-B)?|PCL(?:-5)?|BDI(?:-II)?|PHQ-9|GAD-7|CAPS(?:-5)?|SCL-90|IES-R|BAI|MMSE|K10)"
+_UNIT = r"(?:h\b|hod\b|dn[ůíyeu]\w*|týd\w*|tydn\w*|měsíc\w*|mesic\w*|hodin\w*|sezen\w*|session\w*|weeks?|months?|days?)"
+_SCORE = r"(?:HRV|HR|DES(?:-II|-T|-B)?|CDS|PCL(?:-5)?|BDI(?:-II)?|PHQ-9|GAD-7|CAPS(?:-5)?|SCL-90|IES-R|BAI|MMSE|K10)"
 CLINICAL_FIGURE = re.compile(
     r"\b\d+(?:[,.]\d+)?\s*(?:[–-]|až|to)\s*\d+(?:[,.]\d+)?\s*" + _UNIT
     + r"|\b\d+(?:[,.]\d+)?\s*%\s*(?:\S+\s+){0,3}?(?:sessions?|sezení|pacient\w*|klient\w*|případ\w*"
     r"|účastník\w*|respondent\w*|populace|obětí|přeživších)"
     r"|(?:úspěšnost\w*|remis\w*|relaps\w*|recidiv\w*|zlepšení|drop-?out)\D{0,30}\d+(?:[,.]\d+)?\s*%"
-    r"|\b" + _SCORE + r"\s*(?:skóre\s*)?(?:[<>≥≤]=?|nad|pod|>\s*=)\s*\d+"
+    r"|\b" + _SCORE + r"\)?\s*(?:sk[óo]re\s*|score\s*)?(?:[<>≥≤]=?|nad|pod|>\s*=)\s*\d+"
+    r"|\b(?:sk[óo]re|score|subscale|subškála)\s*(?:[<>≥≤]=?)\s*\d+"
     r"|\b\d+\s*(?:[–-]\s*\d+\s*)?(?:sezení|sessions)\b"
     r"|(?:minim(?:um|álně)|alespoň|nejméně|min\.)\s*\d+(?:[,.]\d+)?\s*(?:h\b|hod\w*|sezen\w*|session\w*|týd\w*|měsíc\w*|dn[ůíy]\w*)"
     r"|\b\d+\s*[–-]\s*\d+\s*(?:elementárních\s+|různých\s+)?(?:technik\w*|trainee\w*|účastník\w*|klient\w*|pacient\w*)", re.I)

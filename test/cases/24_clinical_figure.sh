@@ -47,6 +47,15 @@ Zotavení po odchodu ze skupiny trvá podle studie měsíce až roky, typicky 12
 
 - Lalich, J. (2004). Bounded Choice. University of California Press. 12–36 měsíců.
 P
+page "$d" case24-cds <<'P'
+Rozlišení podporuje Cambridge Depersonalization Scale (CDS) skore >70 v kombinaci s anamnézou.
+P
+page "$d" case24-subscale <<'P'
+Patognomické je skóre dissociation subscale >10 při současném zachování testování reality.
+P
+page "$d" case24-hours <<'P'
+Akutní derealizace typicky resolvuje do 24–72h po odeznění spouštěče.
+P
 page content/glossary case24-glossary <<'P'
 Zotavení typicky vyžaduje 12–36 měsíců strukturované práce.
 P
@@ -58,6 +67,9 @@ has case24-count
 has case24-threshold
 has case24-dose
 has case24-techniques
+has case24-cds
+has case24-subscale
+has case24-hours
 hasnt case24-cited
 hasnt case24-glossary
 echo "case 24: unsourced clinical figures are refused, cited ones and bibliographies are not"

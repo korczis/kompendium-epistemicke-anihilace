@@ -57,9 +57,10 @@ na 28 (25 ve vlně, 3 mimo ni: `02-uvod/definice.md`, `quick-reference/qr-ea-5-2
 `emergency-protocols/18-emergency-pharmacotherapy.md`). Poslední je stránka o 2355 slovech, jejímž
 celým předmětem je akutní farmakoterapie; jmenuje skupiny léků obecně a mluví o dávkování.
 
-Integrace odpověď vlastníka uplatnila takto (nejde o nové rozhodnutí vlastníka; může ho zvrátit):
-podle zvolené možnosti („the book says medication belongs to the treating physician and names
-nothing“) stránka jako samostatný protokol zaniká. Její poctivý zbytek — rozhodnutí o medikaci v
-tomto stavu patří ošetřujícímu psychiatrovi, při akutní dekompenzaci má ta cesta zůstat otevřená a
-kniha o lécích neuvažuje — přejde jako odstavec do nejbližší krizové stránky v
-`emergency-protocols/`; stará adresa vede přes `aliases` na novou, příchozí odkazy se přepíší.
+Integrace nejdřív navrhla stránku jako samostatný protokol zrušit a její poctivý zbytek přesunout
+do krizové stránky s přesměrováním. Vlákno obsahu se na to vlastníka zeptalo a **vlastník otázku
+odmítl**; existence celé stránky je jiný akt než odstranění slova (vlastník to tak rozlišil už u
+aiad-integration a u filozofie). Stránka proto **zůstává beze změny, dokud vlastník nerozhodne**.
+Ostatní z ADR 0013 provádí vlna 1 vlákna obsahu: po ní na žádné jiné stránce se nejmenuje lék, léková skupina ani
+pokyn k medikaci; „atypická antipsychotika“ i „farmakologická stabilizace“ vrací nula stránek
+(vlákno obsahu, 52 stránek sjednocených na „předchozí psychiatrickou stabilizaci“).

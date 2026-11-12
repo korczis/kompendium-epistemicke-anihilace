@@ -173,14 +173,14 @@
       {
         "class": "root",
         "distance": 1,
-        "in": 6,
+        "in": 8,
         "path": "mapa.md",
         "title": "Mapa knihy"
       },
       {
         "class": "root",
         "distance": 1,
-        "in": 4,
+        "in": 5,
         "path": "stav.md",
         "title": "Stav knihy"
       },
@@ -201,7 +201,7 @@
       {
         "class": "kompendium/nlp-vzorce",
         "distance": 2,
-        "in": 438,
+        "in": 445,
         "path": "kompendium/nlp-vzorce/_index.md",
         "title": "NLP vzorce"
       },

@@ -67,10 +67,12 @@ Konkrétní implementace vyžaduje:
 1. **Pre-implementation assessment** — verifikace předpokladů u individuálních účastníků a kohorty jako celku.
 2. **Resource provisioning** — institucionální alokace času, prostoru, personálu, technologií.
 3. **Documentation infrastructure** — systém zaznamenávání průběhu, výsledků, incidentů.
-4. **Quality assurance** — peer review nebo external observation alespoň 10 % sessions.
-5. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
+4. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
 
 Implementace je iterativní — každý cyklus generuje data informující úpravy v dalších cyklech.
+Žádný z cyklů se nevede bez vnějšího pohledu. To, co se zde posuzuje, je právě odhad náročnosti
+látky vůči stavu kohorty, a ten nemůže platně posoudit tentýž člověk, který posloupnost navrhl;
+vyučující je ve vztahu k vlastnímu stupňování stranou, nikoli pozorovatelem.
 
 ## Hodnotící kritéria
 
@@ -95,6 +97,41 @@ Specificky:
 - **Nedostatek institucionální infrastruktury** — bez adekvátní podpory technika selhává a může poškozovat.
 - **Kulturně necitlivá implementace** — technika musí být adaptována pro local context, nikoli mechanicky importována.
 - **Power asymmetry** — implementace v kontextu [coercive control](@/glossary/coercive-control.md) (nedobrovolná účast) je eticky problematická.
+
+## Co graduální expozice nezakládá
+
+Kohorta, která prošla stupňovanou sekvencí bez incidentu, tím nedokládá, že kalibrace látky byla
+správná. Dokládá jen, že se o její nesnesitelnosti nikdo nepřihlásil — a u oboru, jehož předmětem
+je mařené svědectví, je mlčení tím nejméně průkazným údajem, jaký lze mít. Stejně tak nedokládá
+nepřítomnost stížností, že ti, kdo kurz opustili dřív, odešli z důvodů ležících mimo výuku.
+
+Zvládnutý simulovaný scénář nezakládá schopnost rozpoznat týž vzorec mimo seminární místnost.
+Materiál je ve výuce předem označen jako manipulativní a účastník ví, že je zde proto, aby jej
+zkoumal; právě toto označení a tato role jsou v reálné situaci to, co chybí. Craske a kol. (2008)
+ukázali, že oslabení naučené reakce získané v jednom prostředí se do jiného nepřenáší samozřejmě
+a že reakce se s proměnou kontextu vrací — a kontext je zde celý rozdíl mezi rozborem případu a
+jednáním, v němž má člověk co ztratit. *Interpretace knihy*: stupňovaná expozice proto nevyučuje
+odolnost, nýbrž zkušenost s vlastní reakcí; tvrzení o odolnosti je přenesením terapeutického
+nálezu na edukativní látku a tento přenos je naše čtení, ne nález citovaných prací.
+
+Nezakládá ani kompetenci toho, kdo kurz vede. Dovednost sestavit posloupnost látky není totožná
+s dovedností rozpoznat, že se někomu vede špatně; Lindahl a kol. (2017) právě proto považují
+spokojené sebehlášení za nedostatečné vodítko o průběhu.
+
+## Odlišení od příbuzných technik
+
+Od [experienciálního scaffoldingu](@/kompendium/techniques/ea-3-1-2-experiential-scaffolding.md)
+se tato technika liší tím, co se v ní obměňuje. Scaffolding mění oporu při zachované náročnosti
+látky, graduální expozice mění náročnost samu a oporu drží. Obě se opírají o Vygotského (1978)
+rozlišení mezi zvládnutým a dosažitelným, ale míří na jeho opačné strany, a proto se také jinak
+kazí: scaffolding selhává nedostatkem opory, stupňování jejím předběhnutím.
+
+Od běžného výukového případu se odlišuje řídicím kritériem posloupnosti. Obvyklý kurz řadí látku
+podle pojmové výstavby oboru, od jednodušších pojmů ke složitějším. Zde je řídicím kritériem to,
+co látka s čtoucím dělá, takže výsledné pořadí může pojmovému pořádku odporovat: nejnáročnější
+bývá materiál pojmově prostý a osobně blízký, zatímco rozsáhlá taxonomická pasáž je nezávadná.
+Foa a Kozak (1986) popsali, proč se setkání s náročným obsahem nedá obejít úplně; že se jeho
+náročnost u epistemické látky nedá odměřit složitostí pojmů, je *interpretace knihy*.
 
 ## Vztah k jiným technikám
 
@@ -124,6 +161,7 @@ Tato edukativní technika operacionalizuje poznatky z taxonomie:
 ## Literatura
 
 - Bandura, A. (1977). Self-efficacy: Toward a unifying theory of behavioral change. *Psychological Review*, 84(2).
+- Craske, M. G., Kircanski, K., Zelikowsky, M., Mystkowski, J., Chowdhury, N., & Baker, A. (2008). Optimizing inhibitory learning during exposure therapy. *Behaviour Research and Therapy*, 46(1).
 - Foa, E. B., & Kozak, M. J. (1986). Emotional processing of fear: Exposure to corrective information. *Psychological Bulletin*, 99(1).
 - Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K., & Britton, W. B. (2017). The varieties of contemplative experience: A mixed-methods study of meditation-related challenges in Western Buddhists. *PLOS ONE*, 12(5).
 - Vygotsky, L. S. (1978). *Mind in Society: The Development of Higher Psychological Processes*. Harvard University Press.

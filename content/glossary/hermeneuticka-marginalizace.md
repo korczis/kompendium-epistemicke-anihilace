@@ -40,7 +40,7 @@ Pro epistemickou anihilaci je hermeneutická marginalizace zvlášť důležitá
 
 ## Odlišení
 
-- **Testimoniální nespravedlnost** vzniká z předsudku posluchače vůči mluvčímu; hermeneutická marginalizace je strukturní a nemusí za ní stát nikdo konkrétní.
+- **[Testimoniální nespravedlnost](@/glossary/testimonialni-nespravedlnost.md)** vzniká z předsudku posluchače vůči mluvčímu; hermeneutická marginalizace je strukturní a nemusí za ní stát nikdo konkrétní.
 - **[Sémantická afázie](@/glossary/semanticka-afazie.md)** v Kompendiu popisuje ztrátu schopnosti vyjádřit význam u jednotlivce; marginalizace se týká skupiny a jejího místa ve společnosti.
 - **[Diskursivní formace](@/glossary/diskursivni-formace.md)** (Foucault) je obecnější rámec pravidel výpovědí; Frickerová se ptá konkrétně po etice a spravedlnosti.
 - **Neznalost odborného termínu** je individuální a snadno napravitelná; marginalizace znamená, že pojem v kolektivním zdroji vůbec chybí.

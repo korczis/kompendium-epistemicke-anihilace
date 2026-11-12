@@ -47,17 +47,21 @@ a [virální zkreslení](@/kompendium/techniques/ea-2-3-10-viralni-misrepresenta
 
 ## Mechanismus (strukturní popis)
 
-1. **Výběr okamžiku.** Vybírá se pasáž, která sama o sobě působí jinak než v celku:
-   citace oponenta, ironie, hypotetická úvaha, nedokončená věta, otázka řečená jako
-   oznámení.
-2. **Odstranění rámce.** Chybí úvod („jak tvrdí kritici…“) nebo závěr („…a proto je to
-   nesmysl“).
-3. **Nový titulek.** Klip doprovází popisek, který určuje výklad dřív, než ho divák
-   uvidí.
-4. **Ztráta zdroje.** Klip se šíří jako samostatný soubor bez odkazu na původní záznam;
-   ověření vyžaduje úsilí, které většina diváků nevynaloží.
-5. **Nesouměrnost oprav.** Vyvrácení vyžaduje delší vysvětlení než klip; tento rozdíl
-   v nákladech je strukturní výhodou zkreslení.
+Na hotovém klipu je rozpoznatelné především to, co z celku zmizelo. Výřez pochází
+z místa, které samo o sobě vyznívá jinak než v souvislosti — citace oponenta, ironie,
+hypotetická úvaha, nedokončená věta, otázka pronesená jako oznámení — a chybí mu
+ohraničení, které takovému místu dává smysl: úvodní „jak tvrdí kritici…“ nebo závěrečné
+„…a proto je to nesmysl“. Wardleová a Derakhshan (2017) řadí vytržení pravdivého záznamu
+mezi zavádějící obsah právě proto, že jednotlivé prvky zůstávají pravdivé, a klip tak
+nelze vyvrátit poukazem na nepravdu.
+
+Druhá skupina znaků se týká toho, co klip provází. Výklad bývá určen popiskem dřív, než
+divák záznam uvidí, a klip se šíří jako samostatný soubor bez odkazu na celý záznam,
+takže ověření stojí úsilí, které většina diváků nevynaloží. Marwicková a Lewis (2017)
+popisují tento druh materiálu jako obsah utvářený pro sítě, které jej přeberou bez
+ověření. Výsledkem je nesouměrnost nákladů, která je strukturní výhodou zkreslení:
+vyvrácení potřebuje delší vysvětlení než klip a jeho vliv na úsudek nemizí ani po opravě
+(Lewandowsky a kolegové, 2012).
 
 ## Průběh
 
@@ -121,15 +125,14 @@ mylné názory, aby je vyvrátili, a lidé, kteří mluví ironicky.
 
 ## Odlišení
 
-- **Legitimní citace výňatku.** Novinář smí vybrat podstatný úsek; rozhoduje, zda výňatek
-  věrně odráží smysl celku a zda je k dispozici odkaz na zdroj.
-- **[EA-2.3.3 Těžba citátů](@/kompendium/techniques/ea-2-3-3-quote-mining.md).** Textová
-  obdoba; klip pracuje s obrazem a hlasem, a proto působí silněji.
-- **Úprava záznamu (cheapfake).** Zpomalení, sestřih nebo změna pořadí slov je už manipulace
-  záznamu; doloženým příkladem je zpomalené video americké politické představitelky
-  z roku 2019. Viz [EA-9.2.5](@/kompendium/techniques/ea-9-2-5-video-manipulation-EA.md).
-- **[Deepfake](@/glossary/deepfake.md).** Syntetický záznam slov, která nebyla řečena;
-  popisuje ho [EA-2.3.7](@/kompendium/techniques/ea-2-3-7-deepfake-personalni.md).
+Levý sloupec uvádí jev, pravý to, čím se od vytrženého klipu liší.
+
+| Jev | Čím se od vytrženého klipu liší |
+|---|---|
+| Legitimní citace výňatku | Novinář smí vybrat podstatný úsek; rozhoduje, zda výňatek věrně odráží smysl celku a zda je k dispozici odkaz na zdroj. |
+| [EA-2.3.3 Těžba citátů](@/kompendium/techniques/ea-2-3-3-quote-mining.md) | Textová obdoba téhož vzorce; klip pracuje s obrazem a hlasem, a proto působí silněji. |
+| Úprava záznamu (cheapfake), viz [EA-9.2.5](@/kompendium/techniques/ea-9-2-5-video-manipulation-EA.md) | Zpomalení, sestřih nebo změna pořadí slov je už manipulace se záznamem, nikoli jen s jeho rámcem; doloženým příkladem je zpomalené video americké politické představitelky. |
+| [Deepfake](@/glossary/deepfake.md), viz [EA-2.3.7](@/kompendium/techniques/ea-2-3-7-deepfake-personalni.md) | Syntetický záznam slov, která nebyla řečena; u vytrženého klipu jsou slova i obraz pravé. |
 
 ## Klinický a právní rámec
 

@@ -53,14 +53,16 @@ Detekční markery zachycené níže odpovídají téže struktuře: stále stej
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt uvnitř selektivní expozice:
+Co prožívá subjekt uvnitř selektivní expozice. Levý sloupec pojmenovává prožitek, pravý jeho obvyklý vlastní výklad.
 
-- **Pocit informovanosti** disproporční vůči rozsahu skutečně exponovaných materiálů
-- **Epistemická saturace** — „už jsem to studoval, nemusím dál hledat“
-- **Důvěrnost** s konkrétními autoritami / referencemi citovanými opakovaně
-- **Cizota** vůči alternativním autoritám (jejich jména jsou nová a neznámá)
-- **Implicitní mapa pole** strukturovaná jako „etablované jádro“ (= filtrovaný výběr) versus „okrajové, problematické, non-rigorózní“ (= vše ostatní)
-- **Subtilní diskomfort** při konfrontaci s materiálem mimo výběr — diskomfort interpretovaný jako „kvalitativní problém zdroje“, nikoli jako vlastní limit
+| Prožitek uvnitř filtrovaného pole | Jak si jej subjekt sám vysvětluje |
+|---|---|
+| Pocit informovanosti neúměrný rozsahu skutečně exponovaných materiálů | „O tom už mám přečteno dost.“ |
+| Epistemická saturace, po níž člověk přestává hledat | „Už jsem to studoval, nemusím dál.“ |
+| Důvěrnost vůči autoritám, které kurátor cituje opakovaně | „To jsou jména, která v oboru platí.“ |
+| Cizota vůči autoritám alternativní pozice, jejichž jména jsou nová | „O tom jsem nikdy neslyšel, nebude to podstatné.“ |
+| Mapa pole rozdělená na etablované jádro a problematický okraj | „Jádro oboru znám; zbytek je nerigorózní.“ |
+| Diskomfort při konfrontaci s materiálem mimo výběr | „Ten zdroj je kvalitativně slabý.“ |
 
 V pokročilejších stadiích kombinace s [EA-1.4.2 latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) může produkovat **aktivní averzi** vůči externím zdrojům.
 
@@ -80,12 +82,15 @@ Co může vidět vnější pozorovatel:
 
 ### Diferenciální detekce
 
-Selektivní expozice je odlišitelná od **legitimního kurátorství**:
+Selektivní expozice je odlišitelná od legitimního kurátorství podle toho, co o sobě výběr prohlašuje.
 
-- **Legitimní kurátor** uvádí, proč jsou materiály vybrané (s odůvodněním přístupu k vyloučenému) a explicitně odkazuje na alternativy.
-- **Manipulativní kurátor** prezentuje výběr jako **objektivní**, **neutrální**, **kompletní**, a alternativy explicitně **delegitimizuje**.
+| Co se posuzuje | Legitimní kurátorství | Vzorec této stránky | Role v závěru |
+|---|---|---|---|
+| Zdůvodnění výběru | Uvedeno, včetně cesty k vyloučenému materiálu | Chybí, nebo je zaměněno za nárok na úplnost | Nutná podmínka |
+| Zacházení s alternativami | Jmenovány a dostupné | Delegitimizovány bez věcného rozboru | Nutná podmínka |
+| Nárok, který výběr vznáší | Prohlašuje se za výběr | Prohlašuje se za objektivní a kompletní obraz pole | Potvrzující znak |
 
-Hraniční případ: **dobře míněný učitel** může selektivní expozici provádět **neintencionálně** — z vlastní filtrované expozice. To je strukturálně významné, protože **většina case-of-EA-1.1.1 v akademii je neintencionální**, vzniká přenosem vlastní filtrace na další generaci.
+Za pozorovaný vzorec čte kompendium situaci, v níž chybí obě nutné podmínky zároveň; samotný nárok na úplnost bez nich svědčí spíš o nepřesné formulaci než o filtraci. Hraniční případ je dobře míněný učitel, který selektivní expozici přenáší neintencionálně z vlastní filtrované expozice — a protože filtraci, kterou člověk sám nerozpoznal, nelze doplnit spontánně, je tato cesta v akademickém prostředí tou nejčastější (Nickerson, 1998).
 
 ## Rizikové kontexty
 
@@ -106,23 +111,15 @@ Místa, kde se technika vyskytuje typicky:
 
 ### Individuální
 
-#### 1. Aktivní vyhledávání **diversních zdrojů**
+#### 1. Aktivní vyhledávání různorodých zdrojů
 
-Při studiu jakéhokoli oboru explicitně:
+Prvním opatřením je čtení proti vlastnímu kurátorovi: dohledat autority, které v předloženém výběru nejsou, a to ve třech vrstvách zároveň — autory, kteří se k primárnímu zdroji staví kriticky, metaperspektivy oboru (historiografie, sociologie vědy, kritické přehledy paradigmatu) a literaturu jiného jazykového původu, protože anglosaská, kontinentální a nezápadní tradice nečtou tytéž texty. Různorodost jazykového zázemí není totožná s různorodostí epistemickou, ale je jejím dostupným ukazatelem. Právě vystavení názorům, které si člověk sám nevybral, je podmínkou, bez níž se pole uzavírá (Sunstein, 2001); u personalizovaného doporučování se totéž uzavření děje bez něčího rozhodnutí (Pariser, 2011).
 
-- **Hledej autority, které kurátor necituje.** Pokud je primární zdroj X, hledej Y a Z, kteří píšou kriticky vůči X.
-- **Hledej meta-perspektivy** — historiografie, sociologie vědy, kritické přehledy paradigmatu.
-- **Hledej zahraniční literaturu** — anglosaská tradice ≠ kontinentální tradice ≠ ne-západní tradice. Diverzita jazykového původu je přibližným proxy pro diverzitu epistemickou.
+#### 2. Kritická analýza selekčních kritérií
 
-#### 2. **Kritická analýza selekčních kritérií**
+Druhé opatření míří na výběr samotný. U přehledového článku, kurikula nebo sylabu je čitelné, zda text říká, proč byly zdroje zařazeny, co bylo vynecháno a z jakého důvodu — a zda je vynechání doloženo argumentem, nebo zůstává nevyslovenou filtrací. Dotaz má smysl právě proto, že ověřování se přirozeně drží materiálu, který je po ruce, a chybějící položku člověk sám nedoplní (Nickerson, 1998).
 
-Při čtení review článku, kurikula, sylabu se ptej:
-
-- Proč jsou tyto zdroje vybrané?
-- Co je vyloučené a proč?
-- Je vyloučení argumentačně podložené, nebo je to **strukturální filtrace bez explikace**?
-
-#### 3. **Identifikace potenciálně absentujících perspektiv**
+#### 3. Identifikace potenciálně absentujících perspektiv
 
 Pravidelně si pokládej otázku:
 
@@ -176,22 +173,18 @@ Intervence: Manuální **deduplikace** zdrojů, přihlášení k **antagonistick
 
 ## Vztah k jiným technikám
 
-### Často se kombinuje s
+První sloupec uvádí stránku nebo jev, druhý povahu vazby k filtraci, třetí to, co z vazby plyne pro pozorovatele.
 
-- **[EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)** — filtrovaný výběr používá **specifický slovník**, který činí externí materiál „nepochopitelným“ pro filtrovaného subjekta.
-- **[EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)** — filtrace evidence zajišťuje, že subjekt **nikdy neuvidí** falsifikační evidenci, takže teorii nelze efektivně zpochybnit.
-- **[EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md)** — když selhává filtrace a externí evidence se prosadí, diverze přesměrovává diskusi pryč od ní.
-- **[EA-1.6.1](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) Vzorec „Guru a adept“** — filtrace ze strany gurua je strukturálním předpokladem etablování epistemické závislosti.
-
-### Eskaluje do
-
-- **[EA-1.6.2 Vzorec „Epistemický trojský kůň“](@/kompendium/techniques/ea-1-6-2-vzorec-epistemicky-trojsky-kun.md)** — z filtrovaného korpusu lze vybrat validní materiál jako **vehikulum** pro vpašování problematických prvků.
-- **Kolektivní epistemická [delegitimizace](@/glossary/delegitimizace.md)** ([Scénář F v Kapitole 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md)) — selektivní expozice na úrovni komunity vytváří **strukturální zranitelnost** pro další manipulaci.
-
-### Alternativy / podobné, ale **distinktivní**
-
-- **Legitimní kurátorství** — strukturálně podobné, ale **explicitně transparentní** o vyloučení a alternativách.
-- **EA-1.1.2 Informační přetížení** — opačná strategie: ne filtrace, ale **excesivní množství** materiálu inhibující kritické zpracování. Někdy se kombinují (informačně přetížený, ale tematicky filtrovaný materiál).
+| Stránka nebo jev | Povaha vazby | Co z toho plyne |
+|---|---|---|
+| [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) | Častý souběh | Slovník filtrovaného výběru činí vnější materiál pro subjekt nečitelným. |
+| [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) | Častý souběh | Co subjekt nevidí, nemůže teorii zpochybnit; filtrace je zde předkladem. |
+| [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) | Častý souběh | Nastupuje tam, kde filtrace selhala a vnější evidence se prosadila. |
+| [EA-1.6.1 Vzorec „Guru a adept“](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) | Častý souběh | Filtrace na straně gurua je předpokladem epistemické závislosti. |
+| [EA-1.6.2 Vzorec „Epistemický trojský kůň“](@/kompendium/techniques/ea-1-6-2-vzorec-epistemicky-trojsky-kun.md) | Eskalace | Z filtrovaného korpusu lze vybrat platný materiál jako nosič problematických prvků. |
+| Kolektivní epistemická [delegitimizace](@/glossary/delegitimizace.md), [Scénář F v Kapitole 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) | Eskalace | Filtrace na úrovni celé komunity zakládá strukturální zranitelnost. |
+| Legitimní kurátorství | Podobné, ale odlišné | Strukturálně shodné, ale vykazuje vyloučené i alternativy. |
+| [EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) | Podobné, ale odlišné | Obrácený postup: nikoli ubrání materiálu, nýbrž jeho množství. Oba se kombinují. |
 
 ## Literatura
 
@@ -215,16 +208,13 @@ Intervence: Manuální **deduplikace** zdrojů, přihlášení k **antagonistick
 
 ## Co ověřit před čtením
 
-Před prací s touto stránkou si čtenář ověří:
+Před prací s touto stránkou si čtenář ověří tři věci.
 
-- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
-  (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
-  rámec)
-- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  odpovídající úrovni této stránky
-- Rozpoznání vzorce u sebe sama není diagnóza: slouží k tomu
-  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a výsledek patří do supervize
+| Co si čtenář ověří | Proč to u filtrace vlastního vzdělání záleží |
+|---|---|
+| Jeho přístupová úroveň odpovídá poli `access_level` v záhlaví článku | Stránka je vedena jako volně přístupná; vyšší úrovně žádají doloženou kvalifikaci, případně omezený doktrinální rámec |
+| Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) odpovídající úrovni této stránky | Rozpoznání vlastní filtrované expozice vede k závěrům o vlastním vzdělání, které patří do supervize |
+| Rozpoznání vzorce u sebe sama nepovažuje za diagnózu | K té slouží [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a jejich výsledek patří do supervize |
 
 > **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
 > čtenáře, nikoli nástroj. Etický rámec stanoví
@@ -235,6 +225,7 @@ Před prací s touto stránkou si čtenář ověří:
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+Stránku vytvořil [Tomáš Korcak (korczis)](https://github.com/korczis).
+Licence obsahu: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md).
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)
+Další rozcestníky: [Glossary](@/glossary/_index.md) a [Philosophy](@/philosophy/_index.md).

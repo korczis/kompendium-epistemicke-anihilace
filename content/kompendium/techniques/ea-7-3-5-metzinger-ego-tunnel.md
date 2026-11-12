@@ -177,6 +177,8 @@ s intenzivními praktikami.
 - Metzinger, T. (2003). *Being No One: The Self-Model Theory of Subjectivity*. MIT Press.
 - Metzinger, T. (2009). *The Ego Tunnel*. Basic Books.
 - Botvinick, M., & Cohen, J. (1998). Rubber Hands „Feel“ Touch That Eyes See. *Nature*.
+- Lenggenhager, B., Tadi, T., Metzinger, T., & Blanke, O. (2007). Video Ergo Sum: Manipulating
+  Bodily Self-Consciousness. *Science*.
 - Blanke, O., & Metzinger, T. (2009). Full-Body Illusions and Minimal Phenomenal Selfhood.
   *Trends in Cognitive Sciences*.
 

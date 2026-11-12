@@ -62,18 +62,16 @@ Zasažený člověk referuje, že se „kamarádi sami odstřihli“, a souvislo
 | **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
 | **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
 
-## Indikace a kontraindikace
+## Okolnosti vylučující expozici
 
-### Legitimní indikace (vzácné, výhradně supervidovaný kontext)
-- Profesní příprava operativních složek pro extrémně náročné prostředí pod doložitelnou jurisdikcí.
-- Klinická intervence u striktně vymezených diagnóz, kde benefit prokazatelně převažuje riziko.
-- Forenzní rekonstrukce s explicitním soudním mandátem a etickým dohledem.
+Pro zásah do vztahové sítě kniha neuvádí žádné prostředí, v němž by byl oprávněný, a výčet takových prostředí odmítá sestavit; mez stanovují [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md). Zde uvedené okolnosti zásah vylučují.
 
-### Absolutní kontraindikace
-- Akutní psychiatrická krize, suicidální ideace, dekompenzovaná komorbidita.
-- Nedostatečná podpůrná síť subjektu nebo závislé sociální postavení.
-- Subjekt v mocenské asymetrii vůči operátorovi (zaměstnanec, podřízený, klient v privátní praxi bez druhého supervizora).
-- Komerční, kompetitivní nebo politické cíle protokolu.
+| Okolnost | Proč vylučuje |
+|----------|---------------|
+| Akutní psychiatrická krize, suicidální ideace, dekompenzovaná komorbidita | Vztahy jsou v krizi tím, co člověka drží; jejich oslabení odnímá oporu právě ve chvíli největší potřeby |
+| Nedostatečná podpůrná síť subjektu nebo závislé sociální postavení | Tam, kde je vazeb málo, znamená i dočasná deeskalace úplnou izolaci bez cesty zpět |
+| Mocenská asymetrie vůči operátorovi (podřízený, zaměstnanec, klient privátní praxe bez druhé supervize) | Operátor, který se stane jediným zdrojem podpory, zaujme místo sítě, kterou sám oslabil |
+| Komerční, kompetitivní nebo politické cíle protokolu | Prostředí profitující z toho, že subjekt nemá kam odejít, nemá zájem vazby znovu navázat |
 
 ## Klinické markery (neúmyslná manifestace)
 

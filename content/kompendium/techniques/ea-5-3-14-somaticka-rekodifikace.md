@@ -117,7 +117,7 @@ Co může vidět vnější pozorovatel:
 
 ## Teoretické zázemí
 
-Merleau-Pontyho **schéma corporel** (*Phénoménologie de la perception*) — prelingvistická tělová mapa — je systematicky přepisována. **Habit body** je rekonfigurováno — staré gesta jsou nahrazena novými. Husserlovy **kinestetické systémy** (*Ideen II*) ztrácejí integrovanost. Damasiův **proto-self** — nejhlubší tělová mapa — je atakována na úrovni, kde si toho subjekt sám není vědom. Bourdieuho **habitus** (*Le sens pratique*) jako vtělená historie je přepsán. Levinasova **sensibilité** je instrumentalizována k vepsání cizích somatických vzorů. Foucault: tělo jako objekt **biopowerové** discipliny. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
+Merleau-Pontyho **schéma corporel** (*Phénoménologie de la perception*) — prelingvistická tělová mapa — je systematicky přepisována. **Habit body** je rekonfigurováno — staré gesta jsou nahrazena novými. Husserlovy **kinestetické systémy** (*Ideen II*) ztrácejí integrovanost. Damasiův **proto-self** — nejhlubší tělová mapa — je atakována na úrovni, kde si toho subjekt sám není vědom. Bourdieuho **[habitus](@/glossary/habitus.md)** (*Le sens pratique*) jako vtělená historie je přepsán. Levinasova **sensibilité** je instrumentalizována k vepsání cizích somatických vzorů. Foucault: tělo jako objekt **biopowerové** discipliny. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
 
 ## Empirická literatura
 
@@ -155,17 +155,18 @@ Intervence u subjektů s touto technikou v anamnéze vyžaduje trauma-informed f
 - **Bezpečí jako primární cíl** (Herman, 1992; SAMHSA, 2014): před jakoukoliv konfrontační intervencí musí být obnoveno fyzické a vztahové bezpečí. Předčasná konfrontace s manipulátorem nebo s implantovaným narativem retraumatizuje.
 - **Tělová stabilizace před narativní rekonstrukcí** (van der Kolk, 2014; Levine, *Somatic Experiencing*): bottom-up přístupy (somatické intervence, polyvagal-informed práce) předcházejí top-down narativní práci. Pokus rekonstruovat narativ bez tělové báze vede k retraumatizaci a/nebo dissociaci.
 - **Externí archivace** kontinuity self: deníky, fotografie, korespondence, výpovědi nezávislých svědků pre-manipulační fáze fungují jako odolný záznam, ke kterému se subjekt může vracet.
-- **Pomalá temporalita**: rekonstrukční terapeutický rámec u této kategorie technik typicky vyžaduje 12–36 měsíců strukturované práce; akcelerace zhoršuje prognózu.
 - **Supervize terapeuta**: sekundární traumatizace terapeuta a riziko parallel process (terapeut nevědomě reprodukuje manipulační dynamiku) vyžadují pravidelnou supervizní podporu.
 - **Zákaz konfrontačních a regresních technik** v rané fázi: pre-konsolidační self je příliš zranitelný pro hypnoidní, regresní nebo psychedelicky-asistované intervence.
+
+Obnova spočívá v tom, že postižený znovu nabývá vlastní slovník pro tělesné signály, a toto přeučování se řídí tolerancí těla, nikoli rychlostí porozumění. Urychlování znamená opět po těle žádat, aby stavy vydalo na vyžádání a přijalo pro ně výklad zvenčí, tedy právě to uspořádání, jímž škoda vznikla; somatickou stabilizaci proto nelze zkrátit rozhodnutím terapeuta ani subjektu (van der Kolk, 2014).
 
 ## Cross-linky expandované
 
 - [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
 - [Subkategorie 5.3 Hypertransformativní protokoly](@/kompendium/05-ultramari-techniky/_index.md#subkategorie-ea-5-3)
 - [EA-5.1 Epistemická singularita](@/kompendium/05-ultramari-techniky/_index.md#subkategorie-5-1)
-- [EA-5.2 Onto-singulární mechanismy](@/kompendium/05-ultramari-techniky/_index.md#subkategorie-5-2)
-- [EA-5.4 Konvergenční techniky](@/kompendium/05-ultramari-techniky/_index.md#subkategorie-5-4)
+- [EA-5.2 Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/_index.md#subkategorie-5-2)
+- [EA-5.4 Paradoxální metaanihilační protokoly](@/kompendium/05-ultramari-techniky/_index.md#subkategorie-5-4)
 - [EA-5.5 Transkonceptuální mechanismy](@/kompendium/05-ultramari-techniky/_index.md#subkategorie-5-5)
 - [EA-1.6 Charizmatické vedení](https://prismatic-reality-com.github.io/prismatic-promo/kompendium/01-zakladni-techniky/#subkategorie-1-6)
 - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)

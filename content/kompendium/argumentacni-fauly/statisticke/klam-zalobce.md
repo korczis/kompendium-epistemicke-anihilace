@@ -35,7 +35,7 @@ catalog_broader = ""
 catalog_narrower = []
 catalog_depth = 0
 catalog_ancestors = []
-catalog_related = ["potvrzeni-dusledku", "zanedbani-zakladni-miry", "klam-konjunkce", "klam-obhajce", "hledani-jinde", "relativni-a-absolutni-riziko"]
+catalog_related = ["potvrzeni-dusledku", "nedovolena-konverze", "zanedbani-zakladni-miry", "klam-konjunkce", "klam-obhajce", "hledani-jinde", "relativni-a-absolutni-riziko"]
 catalog_related_declared = ["klam-obhajce", "zanedbani-zakladni-miry", "klam-konjunkce", "relativni-a-absolutni-riziko", "hledani-jinde"]
 catalog_kompendium = ["kompendium/forensic-legal/_index.md", "kompendium/techniques/ea-7-3-2-tversky-heuristics.md", "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md"]
 catalog_canonical = ""
@@ -221,6 +221,7 @@ téhož selhání (Thompson a Schumann 1987).
 **Příbuzná hesla**
 
 - [Potvrzení důsledku](@/kompendium/argumentacni-fauly/formalni/potvrzeni-dusledku.md) – příbuzné heslo (Formální klamy, Affirming the consequent)
+- [Nedovolená konverze](@/kompendium/argumentacni-fauly/formalni/nedovolena-konverze.md) – příbuzné heslo (Formální klamy, Illicit conversion)
 - [Zanedbání základní míry](@/kompendium/argumentacni-fauly/statisticke/zanedbani-zakladni-miry.md) – příbuzné heslo (Statistické a pravděpodobnostní klamy, Base-rate neglect)
 - [Klam konjunkce](@/kompendium/argumentacni-fauly/statisticke/klam-konjunkce.md) – příbuzné heslo (Statistické a pravděpodobnostní klamy, Conjunction fallacy)
 - [Klam obhájce](@/kompendium/argumentacni-fauly/statisticke/klam-obhajce.md) – příbuzné heslo (Statistické a pravděpodobnostní klamy, Defence attorney's fallacy)

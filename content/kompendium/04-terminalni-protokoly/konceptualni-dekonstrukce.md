@@ -128,6 +128,22 @@ Studium konceptuální dekonstrukce je metodologicky obtížnější než studiu
 - **Dual-use vědomí** — viz [glosář dual-use poznání](@/glossary/dual-use-poznani.md); každý publikovaný markér musí být balancován ekvivalentní detekční heuristikou.
 - **Klinická odpovědnost** — pokud výzkumník v korpusu rozpozná aktivní destruktivní protokol cílící na identifikovatelnou populaci, etická povinnost notifikace převažuje výzkumný interes.
 
+## Studijní prostředí a prostředí výkonu
+
+V akademickém i terapeutickém prostředí jsou pojmy problematizovány běžně a legitimně; samo zpochybnění pojmové hranice není znakem terminálního protokolu. Rozdíl, podle něhož lze obě prostředí odlišit, neleží v technice, ale v tom, zda je přítomna metakomunikační vrstva — tedy zda se o probíhající problematizaci dá mluvit uvnitř ní samé — a zda má rekonstituce srovnatelný rozsah jako destabilizace. Tento požadavek formuluje [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) kompendia jako podmínku, nikoli jako doporučení.
+
+Prostředí, v němž protokol běží, se pozná podle toho, že metakomunikace je v něm nedostupná: otázka po povaze probíhajícího rozhovoru je přijata jako další materiál k problematizaci, nikoli jako otázka. Bateson a kol. (1956) popsali tuto strukturu jako dvojnou vazbu — situaci, v níž je komentování vazby samo zakázáno — a právě nemožnost vystoupit na metaúroveň je v jejich popisu tím, co situaci činí patogenní, nezávisle na obsahu, o kterém se mluví.
+
+Druhým rozpoznatelným znakem je asymetrie v čase a pozornosti. Legitimní pedagogická problematizace věnuje rekonstrukci alespoň tolik prostoru jako rozpadu a autorství nové pojmové matrice ponechává subjektu; varianta, která pojmový aparát rozkládá, rekonstrukci zkracuje a autorství přebírá. Lifton (1961) popisuje tento přechod jako okamžik, kdy novou jistotu nabízí tentýž, kdo předtím odstranil starou, a uvádí jej mezi rysy, podle nichž je totální prostředí rozpoznatelné zvenčí.
+
+Pro čtenáře, který takovou zkušenost má za sebou, má popsaná struktura ještě jeden důsledek: pochybnost o vlastní schopnosti posuzovat, kterou po takové sekvenci typicky nese, je jejím očekávaným následkem, a ne jejím potvrzením. Herman (1992) řadí obnovu důvěry ve vlastní úsudek mezi cíle zotavení, nikoli mezi jeho předpoklady. *Interpretace knihy:* tato stránka proto neuvádí žádnou konkrétní pojmovou substituci ani sekvenci hraničních případů — takový výčet by byl použitelný jen k vedení, a k rozpoznání potřebný není.
+
+## Literatura
+
+- Bateson, G., Jackson, D. D., Haley, J., & Weakland, J. (1956). „Toward a Theory of Schizophrenia.“ *Behavioral Science*, 1(4), 251–264.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+
 ## Související materiály
 
 - [Kapitola 4: Extrémní výcviková sekvence](@/kompendium/04-terminalni-protokoly/kapitola-4.md)
@@ -141,19 +157,4 @@ Studium konceptuální dekonstrukce je metodologicky obtížnější než studiu
 - [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) · [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) · [Ontologická anihilace](@/glossary/ontologicka-anihilace.md) · [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) · [Anankastický režim](@/glossary/anankasticky-rezim.md) · [Epistemická alienace](@/glossary/epistemicka-alienace.md) · [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) · [Taxonomie EA](@/glossary/taxonomie-ea.md) · [Dual-use poznání](@/glossary/dual-use-poznani.md) · [Epistemické trauma](@/glossary/epistemicke-trauma.md) · [Gaslighting](@/glossary/gaslighting.md) · [Delegitimizace](@/glossary/delegitimizace.md)
 - Filozofie: [Intelektuální suverenita](@/philosophy/intellectual-sovereignty.md) · [Epistemická integrita](@/philosophy/epistemic-integrity.md) · [Boundary ethics](@/philosophy/boundary-ethics.md)
-
-## Kritický krok
-
-**Tato sekce není použitelná bez supervize.** Před aplikací jakéhokoli
-terminálního protokolu (i v rámci sebe-monitoringu) ověř:
-
-1. Existující písemný [eticky-kodex](@/kompendium/08-prilohy/eticky-kodex.md)
-   schválený tvou institucí
-2. Aktivní [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-   s minimálně měsíčním kontaktem
-3. [Pred-simulační screening](@/kompendium/04-terminalni-protokoly/pred-simulacni-screening.md)
-   uplynulých 7 dní
-
-> **Mandatorní akce**: aplikace bez splnění všech tří bodů je porušením
-> doktríny tohoto kompendia. Bez nich vrať tento materiál na úroveň
-> [03 Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md).
+- [Etický kodex kompendia](@/kompendium/08-prilohy/eticky-kodex.md) · [Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) · [Pred-simulační screening](@/kompendium/04-terminalni-protokoly/pred-simulacni-screening.md)

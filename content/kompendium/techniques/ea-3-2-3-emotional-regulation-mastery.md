@@ -67,8 +67,7 @@ Konkrétní implementace vyžaduje:
 1. **Pre-implementation assessment** — verifikace předpokladů u individuálních účastníků a kohorty jako celku.
 2. **Resource provisioning** — institucionální alokace času, prostoru, personálu, technologií.
 3. **Documentation infrastructure** — systém zaznamenávání průběhu, výsledků, incidentů.
-4. **Quality assurance** — peer review nebo external observation alespoň 10 % sessions.
-5. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
+4. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
 
 Implementace je iterativní — každý cyklus generuje data informující úpravy v dalších cyklech.
 
@@ -95,6 +94,18 @@ Specificky:
 - **Nedostatek institucionální infrastruktury** — bez adekvátní podpory technika selhává a může poškozovat.
 - **Kulturně necitlivá implementace** — technika musí být adaptována pro local context, nikoli mechanicky importována.
 - **Power asymmetry** — implementace v kontextu [coercive control](@/glossary/coercive-control.md) (nedobrovolná účast) je eticky problematická.
+
+## Co vnější klid nedokládá
+
+Nepřítomnost reakce nedokládá regulaci. Podle Grossova rozlišení může být právě ta nejnákladnější z možností — potlačení už vzniklého projevu — zvenčí nejméně patrná, a přesto ji okolí zpravidla zaznamená jako odstup, nikoli jako jistotu (Gross, 1998). Zvládnutý průběh jednoho setkání nedokládá ani to, že je supervizor v pořádku: ubývání kapacity zasáhnout včas se na vyrovnanosti neprojeví, protože vyrovnanost je přesně tím, co lze předvést (Figley, 1995). Nedokládá se jím ani prožitek druhé strany — zda bylo setkání nosné, může říci jen supervidovaný, a jeho mlčení není souhlas, zvlášť je-li na supervizorovi závislý. A nevypovídá o přenosu: klid nad materiálem, který se supervizora osobně netýká, nic neříká o materiálu, v němž se potká s vlastní zkušeností.
+
+## Odlišení od blízkých technik
+
+Od [supervizorské sebepéče](@/kompendium/techniques/ea-3-2-10-supervisor-self-care.md) se tato kompetence liší místem i časem: sebepéče se děje mimo setkání a týká se udržitelnosti supervizora, zdejší kompetence se uplatňuje v setkání a je nástrojem, na němž závisí zpracování druhého. Od [stabilizačního kotvení](@/kompendium/techniques/ea-3-1-5-stabilization-anchoring.md) ji odlišuje adresát — tam se stabilita buduje u účastníka, zde ji přináší ten, kdo vede. Od obvyklé pedagogické vyrovnanosti se odlišuje tím, čím vyrovnanost je: u přednášejícího jde o zdvořilost, jejíž selhání je nepříjemné, zde jde o pracovní nástroj, jehož selhání poškodí pracovní spojenectví, a tedy i to, co je supervidovaný ochoten přinést (Bordin, 1983).
+
+## Odkud tvrzení pocházejí
+
+Rozlišení zásahu provedeného dříve, než stav naplno vznikne, od potlačení už vzniklého projevu, včetně jeho vyšší ceny a vnější rozpoznatelnosti, je Grossovo (Gross, 1998). Pojetí supervizního vztahu jako pracovního spojenectví založeného na shodě o úkolech a cílech pochází od Bordina (1983); požadavek, aby se vlastní stav dal pojmenovat a aby za jeho zvládání odpovídal supervizor, je součástí kompetenčního rámce Falenderové a Shafranskeho (2004). Pojem vyčerpání ze soucitu (compassion fatigue) a jeho skrytý průběh zavedl Figley (1995). *Interpretace knihy* je teprve znak opravitelnosti namísto vyrovnanosti; protože jej supervizor sám na sobě posoudit nemůže, nevede se tato praxe bez pohledu někoho dalšího.
 
 ## Vztah k jiným technikám
 
@@ -125,6 +136,7 @@ Tato edukativní technika operacionalizuje poznatky z taxonomie:
 
 - Bordin, E. S. (1983). A working alliance based model of supervision. *The Counseling Psychologist*, 11(1).
 - Falender, C. A., & Shafranske, E. P. (2004). *Clinical Supervision: A Competency-Based Approach*. American Psychological Association.
+- Figley, C. R. (Ed.) (1995). *Compassion Fatigue: Coping with Secondary Traumatic Stress Disorder in Those Who Treat the Traumatized*. Brunner/Mazel.
 - Gross, J. J. (1998). The emerging field of emotion regulation: An integrative review. *Review of General Psychology*, 2(3).
 
 ## Související

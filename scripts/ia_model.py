@@ -40,6 +40,12 @@ HOWTO = re.compile(
 )
 RELATED_HEADING = re.compile(r"^##\s+(Související|Cross-linky|Související stránky)\b", re.M | re.I)
 
+# Precompiled: front-matter lines of every page and technique paths (2026-11-12 profile).
+FM_KEY = re.compile(r"^(\w+):\s*(.*)$")
+FM_NESTED_KEY = re.compile(r"^\s+(\w+):\s*(.*)$")
+TECHNIQUE_PATH = re.compile(r"kompendium/techniques/ea-(\d+)-(\d+)-(\d+)")
+
+
 
 def parse_yaml_subset(text: str) -> dict:
     """Top-level scalars and the `tags` list of the few pages with YAML front matter."""
@@ -47,13 +53,13 @@ def parse_yaml_subset(text: str) -> dict:
     for line in text.split("\n"):
         if not line.strip() or line.lstrip().startswith("#"):
             continue
-        m = re.match(r"^(\w+):\s*(.*)$", line)
+        m = FM_KEY.match(line)
         if m:
             key, value = m.groups()
             section = key if value == "" else None
             data[key] = value.strip().strip('"') if value else {}
             continue
-        m = re.match(r"^\s+(\w+):\s*(.*)$", line)
+        m = FM_NESTED_KEY.match(line)
         if m and section:
             data[section][m.group(1)] = m.group(2).strip().strip('"')
     return data
@@ -237,7 +243,7 @@ def load_terms(pages: list) -> list:
             glossary.setdefault(stem, path)
             if page["title"]:
                 glossary.setdefault(slugify(page["title"]), path)
-        m = re.match(r"kompendium/techniques/ea-(\d+)-(\d+)-(\d+)", path)
+        m = TECHNIQUE_PATH.match(path)
         if m:
             techniques["EA-" + ".".join(m.groups())] = path
     terms = []
@@ -576,7 +582,7 @@ def technique_codes(pages: list) -> set:
     """Codes X.Y.Z that have a technique page (file name ea-X-Y-Z… or extra.ea_code)."""
     codes = set()
     for page in pages:
-        m = re.match(r"kompendium/techniques/ea-(\d+)-(\d+)-(\d+)", page["path"])
+        m = TECHNIQUE_PATH.match(page["path"])
         if m:
             codes.add(".".join(m.groups()))
         extra = page.get("extra") or {}
@@ -644,11 +650,17 @@ def figure_lines(prose: str) -> set:
     Real per-technique data is never byte-identical across pages; a line that is tells the
     caller it is template filler, whatever its wording. Compared verbatim apart from the
     surrounding whitespace, so a page that edits its own numbers drops out of the group.
+    A figure inside a cross-reference link — a case-study title such as "... po 12 letech" —
+    is a reference, not an asserted statistic, so link constructs are removed before the test;
+    a number stated in the row's own prose outside any link still counts.
     """
     found = set()
     for line in prose.splitlines():
         text = line.strip()
-        if len(text) < 12 or not FIGURE_ROW.match(text) or TABLE_SEP.match(text):
+        if not FIGURE_ROW.match(text) or TABLE_SEP.match(text):
+            continue
+        text = LINK_TEXT.sub("", text).strip()
+        if len(text) < 12:
             continue
         if FIGURE.search(PARAGRAPH_SIGN.sub(" ", text) if "§" in text else text):
             found.add(text)

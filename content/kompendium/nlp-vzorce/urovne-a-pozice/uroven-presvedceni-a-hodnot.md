@@ -35,7 +35,7 @@ catalog_broader = "logicke-urovne-pojem"
 catalog_narrower = []
 catalog_depth = 1
 catalog_ancestors = ["logicke-urovne-pojem"]
-catalog_related = ["som-hierarchie-kriterii", "uroven-schopnosti", "uroven-identity", "cyklus-zmeny-presvedceni", "limitujici-presvedceni", "beznadej-bezmoc-nehodnost", "presvedceni-jako-mapa", "kriteria", "sladeni-hodnot"]
+catalog_related = ["som-hierarchie-kriterii", "uroven-schopnosti", "uroven-identity", "cyklus-zmeny-presvedceni", "limitujici-presvedceni", "beznadej-bezmoc-nehodnost", "presvedceni-jako-mapa", "zmena-hodnot", "kriteria", "sladeni-hodnot"]
 catalog_related_declared = ["uroven-schopnosti", "uroven-identity", "limitujici-presvedceni", "kriteria", "som-hierarchie-kriterii", "cyklus-zmeny-presvedceni"]
 catalog_kompendium = ["kompendium/techniques/ea-4-4-6-axiological-self-reset.md", "kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md", "kompendium/techniques/ea-4-4-7-moral-self-suspension.md"]
 catalog_canonical = ""
@@ -228,6 +228,7 @@ Navazující úroveň popisuje heslo [úroveň identity](@/kompendium/nlp-vzorce
 - [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) – příbuzné heslo (Přesvědčení, Limiting beliefs)
 - [Beznaděj, bezmoc a pocit bezcennosti](@/kompendium/nlp-vzorce/presvedceni/beznadej-bezmoc-nehodnost.md) – příbuzné heslo (Přesvědčení, Hopelessness, helplessness, worthlessness)
 - [Přesvědčení jako součást mapy](@/kompendium/nlp-vzorce/presvedceni/presvedceni-jako-mapa.md) – příbuzné heslo (Přesvědčení, Beliefs as part of the map)
+- [Změna hodnot](@/kompendium/nlp-vzorce/presvedceni/zmena-hodnot.md) – příbuzné heslo (Přesvědčení, Changing values)
 - [Kritéria](@/kompendium/nlp-vzorce/metaprogramy/kriteria.md) – příbuzné heslo (Metaprogramy, Criteria)
 - [Sladění hodnot](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hodnot.md) – příbuzné heslo (Raport a kalibrace, Value matching)
 

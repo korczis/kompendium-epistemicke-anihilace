@@ -35,7 +35,7 @@ catalog_broader = "metaprogramy-pojem"
 catalog_narrower = []
 catalog_depth = 1
 catalog_ancestors = ["metaprogramy-pojem"]
-catalog_related = ["metaprogramy-pojem", "vnitrni-a-vnejsi-reference", "proaktivni-a-reaktivni", "pracovni-styl", "lide-a-veci", "nlp-v-koucinku"]
+catalog_related = ["metaprogramy-pojem", "vnitrni-a-vnejsi-reference", "proaktivni-a-reaktivni", "pracovni-styl", "lide-a-veci", "zmena-metaprogramu", "nlp-v-koucinku"]
 catalog_related_declared = ["lide-a-veci", "pracovni-styl", "vnitrni-a-vnejsi-reference", "proaktivni-a-reaktivni", "nlp-v-koucinku"]
 catalog_kompendium = ["kompendium/techniques/ea-9-6-6-AI-hiring-narrative.md", "kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md", "kompendium/case-studies/61-corporate-leadership-cult.md", "kompendium/organizational-defense/_index.md"]
 catalog_canonical = ""
@@ -43,7 +43,7 @@ catalog_links_prose = ["kompendium/case-studies/61-corporate-leadership-cult.md"
 catalog_prev = "adaptace"
 catalog_next = "metaprogramy-v-marketingu"
 catalog_position = 22
-catalog_family_size = 23
+catalog_family_size = 24
 catalog_sources = ["charvet-1997", "druckman-swets-1988", "gilovich-1991", "hall-bodenhamer-1997", "passmore-rowson-2019", "rogers-1951", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010"]
 catalog_sources_primary = ["charvet-1997", "hall-bodenhamer-1997"]
 catalog_sources_roots = []
@@ -231,6 +231,7 @@ vypovídá spíš o pozorovateli než o tom, koho popisuje.
 - [Proaktivní a reaktivní](@/kompendium/nlp-vzorce/metaprogramy/proaktivni-a-reaktivni.md) – příbuzné heslo (Metaprogramy, Proactive and reactive)
 - [Pracovní styl](@/kompendium/nlp-vzorce/metaprogramy/pracovni-styl.md) – příbuzné heslo (Metaprogramy, Working style)
 - [Lidé a věci](@/kompendium/nlp-vzorce/metaprogramy/lide-a-veci.md) – příbuzné heslo (Metaprogramy, Person and thing)
+- [Změna metaprogramů](@/kompendium/nlp-vzorce/metaprogramy/zmena-metaprogramu.md) – příbuzné heslo (Metaprogramy, Changing meta-programs)
 - [NLP v koučinku a rozvoji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-koucinku.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in coaching)
 
 **V kompendiu**

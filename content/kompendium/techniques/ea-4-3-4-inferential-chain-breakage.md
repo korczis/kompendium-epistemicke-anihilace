@@ -62,18 +62,16 @@ Zasažený člověk referuje, že „ví, jak to je, ale nedokáže to dokončit
 | **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
 | **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
 
-## Indikace a kontraindikace
+## Okolnosti, za nichž je expozice vyloučena
 
-### Legitimní indikace (vzácné, výhradně supervidovaný kontext)
-- Profesní příprava operativních složek pro extrémně náročné prostředí pod doložitelnou jurisdikcí.
-- Klinická intervence u striktně vymezených diagnóz, kde benefit prokazatelně převažuje riziko.
-- Forenzní rekonstrukce s explicitním soudním mandátem a etickým dohledem.
+Výčet oprávněných důvodů k přerušení cizího úsudku zde čtenář nenajde: kompendium jej nevede a tato stránka o přípustnosti nerozhoduje. Zda je něco takového vůbec přípustné, řeší [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md). Následující tabulka uvádí okolnosti, které expozici vylučují, a důvod vyloučení.
 
-### Absolutní kontraindikace
-- Akutní psychiatrická krize, suicidální ideace, dekompenzovaná komorbidita.
-- Nedostatečná podpůrná síť subjektu nebo závislé sociální postavení.
-- Subjekt v mocenské asymetrii vůči operátorovi (zaměstnanec, podřízený, klient v privátní praxi bez druhého supervizora).
-- Komerční, kompetitivní nebo politické cíle protokolu.
+| Okolnost | Důvod vyloučení |
+|----------|-----------------|
+| Akutní psychiatrická krize, suicidální ideace nebo dekompenzovaná komorbidita | Vyvozování je už narušeno zdola a přerušení řetězce by nebylo odlišitelné od probíhajícího onemocnění |
+| Nedostatečná podpůrná síť subjektu nebo závislé sociální postavení | Zablokovaný úsudek nemá kde být opraven a hotový závěr přichází odjinud |
+| Mocenská asymetrie vůči operátorovi (podřízený nebo klient v privátní praxi bez druhého supervizora) | Kdo dodává premisy, drží i závěr; nesouhlas s ním je pro subjekt nákladný |
+| Komerční, kompetitivní nebo politický cíl protokolu | Oslabená schopnost dojít k vlastnímu závěru je přesně tím, co takovému cíli slouží |
 
 ## Klinické markery (neúmyslná manifestace)
 

@@ -122,6 +122,7 @@ signaturou [Hustota žargonu](@/kompendium/detection-signatures/1-linguistic-jar
 
 ## Literatura
 
+- Charles W. Morris: *Foundations of the Theory of Signs* (University of Chicago Press, 1938).
 - H. P. Grice: „Logic and Conversation“, in P. Cole, J. Morgan (eds.): *Syntax and Semantics
   3: Speech Acts* (Academic Press, 1975).
 - John R. Searle: *Speech Acts: An Essay in the Philosophy of Language* (Cambridge University

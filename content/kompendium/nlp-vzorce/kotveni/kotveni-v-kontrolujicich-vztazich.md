@@ -35,7 +35,7 @@ catalog_broader = "kotveni"
 catalog_narrower = []
 catalog_depth = 1
 catalog_ancestors = ["kotveni"]
-catalog_related = ["kotva-pojem", "opakovaci-slova", "kotveni", "kolaps-kotev", "auditivni-kotvy", "kinesteticke-kotvy", "nechtene-kotvy", "od-libosti-k-nechuti", "prahovy-vzorec", "strategie-lasky", "preruseni-raportu", "raport-jako-nastroj-vlivu", "nlp-v-komunite-svadeni", "manipulativni-reframing-ve-vztazich"]
+catalog_related = ["kotva-pojem", "opakovaci-slova", "kotveni", "kolaps-kotev", "auditivni-kotvy", "kinesteticke-kotvy", "nechtene-kotvy", "skryte-kotveni", "od-libosti-k-nechuti", "prahovy-vzorec", "strategie-lasky", "preruseni-raportu", "raport-jako-nastroj-vlivu", "nlp-v-komunite-svadeni", "manipulativni-reframing-ve-vztazich"]
 catalog_related_declared = ["nechtene-kotvy", "kotveni", "manipulativni-reframing-ve-vztazich", "kinesteticke-kotvy", "auditivni-kotvy", "raport-jako-nastroj-vlivu"]
 catalog_kompendium = ["kompendium/techniques/ea-8-2-5-stark-coercive-control.md", "kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md", "kompendium/techniques/ea-8-1-4-coercive-control-scale.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md"]
 catalog_canonical = ""
@@ -43,7 +43,7 @@ catalog_links_prose = ["glossary/coercive-control.md", "kompendium/detection-sig
 catalog_prev = "nechtene-kotvy"
 catalog_next = "kotveni-versus-ukotveni-odhadu"
 catalog_position = 18
-catalog_family_size = 19
+catalog_family_size = 20
 catalog_sources = ["herman-1992", "lifton-1961", "pavlov-1927", "stark-2007", "witkowski-2010"]
 catalog_sources_primary = []
 catalog_sources_roots = ["pavlov-1927"]
@@ -226,6 +226,7 @@ součástí zotavení jako léčba psychických následků (Stark 2007).
 - [Auditivní a tonální kotvy](@/kompendium/nlp-vzorce/kotveni/auditivni-kotvy.md) – příbuzné heslo (Kotvení, Auditory and tonal anchors)
 - [Kinestetické kotvy](@/kompendium/nlp-vzorce/kotveni/kinesteticke-kotvy.md) – příbuzné heslo (Kotvení, Kinaesthetic anchors)
 - [Nechtěné kotvy a spouštěče](@/kompendium/nlp-vzorce/kotveni/nechtene-kotvy.md) – příbuzné heslo (Kotvení, Unintended anchors and triggers)
+- [Skryté kotvení](@/kompendium/nlp-vzorce/kotveni/skryte-kotveni.md) – příbuzné heslo (Kotvení, Covert anchoring)
 - [Od libosti k nechuti](@/kompendium/nlp-vzorce/submodality/od-libosti-k-nechuti.md) – příbuzné heslo (Submodality, Like-to-dislike pattern)
 - [Prahový vzorec](@/kompendium/nlp-vzorce/submodality/prahovy-vzorec.md) – příbuzné heslo (Submodality, Threshold pattern)
 - [Strategie lásky](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-lasky.md) – příbuzné heslo (Strategie a modelování, Love strategy)

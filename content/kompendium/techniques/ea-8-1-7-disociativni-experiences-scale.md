@@ -41,13 +41,13 @@ parent_chapter = "/kompendium/08-prilohy/"
 **Škála disociativních zážitků** (*Dissociative Experiences Scale*, DES) je sebehodnoticí
 dotazník o 28 položkách, který zjišťuje, jak často člověk prožívá zážitky
 [disociace](@/glossary/disociace.md) v běžném životě – mimo vliv alkoholu a drog. Ve verzi
-**DES-II** člověk u každé položky označí podíl času (od 0 do 100 %), kdy se mu daný zážitek
+**[DES-II](@/glossary/des-ii.md)** člověk u každé položky označí podíl času (od 0 do 100 %), kdy se mu daný zážitek
 stává. Výsledkem je průměr. Analýzy obvykle rozlišují tři skupiny zážitků:
 
 - **amnézie** – mezery v paměti pro běžné činnosti, nalezené věci, které si člověk nepamatuje;
 - **pohlcení a imaginativní zaujetí** – ponoření do činnosti nebo fantazie až do ztráty
   vnímání okolí;
-- **depersonalizace a derealizace** – pocit odcizení od sebe nebo od světa.
+- **[depersonalizace a derealizace](@/glossary/depersonalizace.md)** – pocit odcizení od sebe nebo od světa.
 
 ## Původ a kontext
 

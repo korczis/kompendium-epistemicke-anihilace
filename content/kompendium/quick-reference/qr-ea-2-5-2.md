@@ -51,6 +51,11 @@ Eskalujte, když signály tvoří vzorec diskriminace či šikany nebo vedou k v
 
 **Zdroj:** karta shrnuje plnou stránku [EA-2.5.2 Zesilování syndromu podvodníka](@/kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
 
+## Literatura
+
+- Clance, P. R., & Imes, S. A. (1978). The imposter phenomenon in high achieving women: Dynamics
+  and therapeutic intervention. *Psychotherapy: Theory, Research & Practice*, 15(3), 241–247.
+
 ## Související
 
 - **Technika a kapitola:** [plná stránka EA-2.5.2](@/kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).

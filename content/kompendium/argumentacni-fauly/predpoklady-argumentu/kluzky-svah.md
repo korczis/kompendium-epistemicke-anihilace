@@ -35,7 +35,7 @@ catalog_broader = ""
 catalog_narrower = []
 catalog_depth = 0
 catalog_ancestors = []
-catalog_related = ["odvolani-na-strach", "odvolani-na-dusledky", "falesne-dilema", "zjednodusena-kauzalita", "klam-konjunkce", "pravidlo-argumentacniho-schematu", "argumentacni-schemata", "bayesovske-pojeti-klamu", "som-dusledek"]
+catalog_related = ["odvolani-na-strach", "odvolani-na-dusledky", "falesne-dilema", "falesna-analogie", "odvolani-na-precedent", "zjednodusena-kauzalita", "klam-konjunkce", "pravidlo-argumentacniho-schematu", "argumentacni-schemata", "bayesovske-pojeti-klamu", "som-dusledek"]
 catalog_related_declared = ["odvolani-na-strach", "odvolani-na-dusledky", "falesne-dilema", "klam-konjunkce", "som-dusledek"]
 catalog_kompendium = ["kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/07-teoreticke-reflexe/politicka-ea.md", "kompendium/techniques/ea-5-4-26-heap-paradox-eskalace.md"]
 catalog_canonical = ""
@@ -43,7 +43,7 @@ catalog_links_prose = ["kompendium/07-teoreticke-reflexe/politicka-ea.md", "komp
 catalog_prev = "argument-z-neuveritelnosti"
 catalog_next = "klam-utopenych-nakladu"
 catalog_position = 18
-catalog_family_size = 20
+catalog_family_size = 23
 catalog_sources = ["bentham-1824", "freedman-fraser-1966", "govier-2010", "hahn-oaksford-2007", "tversky-kahneman-1983", "walton-reed-macagno-2008"]
 catalog_sources_primary = ["govier-2010", "walton-reed-macagno-2008"]
 catalog_sources_roots = ["bentham-1824"]
@@ -215,6 +215,8 @@ stojí, a obrana proti nim začíná právě rozpoznáním prvního kroku.
 - [Odvolání na strach](@/kompendium/argumentacni-fauly/relevance/odvolani-na-strach.md) – příbuzné heslo (Klamy relevance, Appeal to fear)
 - [Odvolání na důsledky](@/kompendium/argumentacni-fauly/relevance/odvolani-na-dusledky.md) – příbuzné heslo (Klamy relevance, Appeal to consequences)
 - [Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – příbuzné heslo (Klamy předpokladu, False dilemma)
+- [Falešná analogie](@/kompendium/argumentacni-fauly/predpoklady-argumentu/falesna-analogie.md) – příbuzné heslo (Klamy předpokladu, False analogy)
+- [Klamné odvolání na precedent](@/kompendium/argumentacni-fauly/predpoklady-argumentu/odvolani-na-precedent.md) – příbuzné heslo (Klamy předpokladu, Fallacious appeal to precedent)
 - [Zjednodušená kauzalita](@/kompendium/argumentacni-fauly/kauzalni/zjednodusena-kauzalita.md) – příbuzné heslo (Kauzální klamy, Causal oversimplification)
 - [Klam konjunkce](@/kompendium/argumentacni-fauly/statisticke/klam-konjunkce.md) – příbuzné heslo (Statistické a pravděpodobnostní klamy, Conjunction fallacy)
 - [Pravidlo argumentačního schématu](@/kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-argumentacniho-schematu.md) – příbuzné heslo (Principy kritické diskuse a teorie argumentace, Argument-scheme rule)

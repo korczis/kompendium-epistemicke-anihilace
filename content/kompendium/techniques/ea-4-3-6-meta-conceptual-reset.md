@@ -62,18 +62,16 @@ Zasažený člověk referuje náhlé vyjasnění a zároveň neschopnost vysvět
 | **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
 | **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
 
-## Indikace a kontraindikace
+## Okolnosti vylučující jakoukoli expozici
 
-### Legitimní indikace (vzácné, výhradně supervidovaný kontext)
-- Profesní příprava operativních složek pro extrémně náročné prostředí pod doložitelnou jurisdikcí.
-- Klinická intervence u striktně vymezených diagnóz, kde benefit prokazatelně převažuje riziko.
-- Forenzní rekonstrukce s explicitním soudním mandátem a etickým dohledem.
+Podmínky, za nichž by byl reset metakonceptuální vrstvy obhajitelný, kompendium neformuluje; posouzení přípustnosti nepatří popisu vzorce, nýbrž [etickému kodexu](@/kompendium/08-prilohy/eticky-kodex.md). Zbývá proto pouze soupis okolností, za nichž je expozice vyloučena, s uvedením důvodu.
 
-### Absolutní kontraindikace
-- Akutní psychiatrická krize, suicidální ideace, dekompenzovaná komorbidita.
-- Nedostatečná podpůrná síť subjektu nebo závislé sociální postavení.
-- Subjekt v mocenské asymetrii vůči operátorovi (zaměstnanec, podřízený, klient v privátní praxi bez druhého supervizora).
-- Komerční, kompetitivní nebo politické cíle protokolu.
+| Vylučující okolnost | Proč vylučuje |
+|---------------------|---------------|
+| Dekompenzovaná komorbidita, akutní krize nebo suicidální ideace | Zásah do pravidel pojmotvorby odnímá subjektu i to, čím by svůj stav popsal; přednost má akutní intervence |
+| Subjekt bez vlastní podpůrné sítě nebo v závislém postavení | Bez okolí, které drží dřívější rámec, nemá subjekt s čím rámec nový porovnat |
+| Vztah subjektu a operátora je vztahem podřízenosti bez druhého supervizora | Rámec nabídnutý nadřízenou stranou nelze odmítnout bez nákladů, takže jeho přijetí není rozhodnutím subjektu |
+| Kompetitivní nebo komerční zadání | Zadání předurčuje, který rámec má být instalován, a vylučuje možnost vrátit se k rámci předchozímu |
 
 ## Klinické markery (neúmyslná manifestace)
 

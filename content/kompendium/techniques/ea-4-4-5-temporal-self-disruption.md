@@ -62,18 +62,16 @@ Zasažený člověk referuje, že „o tom člověku tehdy mluví jako o někom 
 | **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
 | **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
 
-## Indikace a kontraindikace
+## Okolnosti, které vylučují expozici
 
-### Legitimní indikace (vzácné, výhradně supervidovaný kontext)
-- Profesní příprava operativních složek pro extrémně náročné prostředí pod doložitelnou jurisdikcí.
-- Klinická intervence u striktně vymezených diagnóz, kde benefit prokazatelně převažuje riziko.
-- Forenzní rekonstrukce s explicitním soudním mandátem a etickým dohledem.
+Narušení časového sebevztahu nemá v této knize vyjmenovaný legitimní kontext: popsat podmínky, za nichž je přípustné, znamená dát čtenáři oprávnění je vyvolat. Přípustnost posuzují [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a tam uvedené meze, ne tato stránka. Níže stojí okolnosti vylučující expozici, u každé s uvedeným důvodem.
 
-### Absolutní kontraindikace
-- Akutní psychiatrická krize, suicidální ideace, dekompenzovaná komorbidita.
-- Nedostatečná podpůrná síť subjektu nebo závislé sociální postavení.
-- Subjekt v mocenské asymetrii vůči operátorovi (zaměstnanec, podřízený, klient v privátní praxi bez druhého supervizora).
-- Komerční, kompetitivní nebo politické cíle protokolu.
+| Vylučující okolnost | Důvod, proč vylučuje |
+|---------------------|---------------|
+| Suicidální ideace nebo akutní psychiatrická krize s dekompenzovanou komorbiditou | Přítomné okno je již zúžené; zpětná synchronizace se o co opřít nemá |
+| Subjekt bez podpůrné sítě nebo sociálně závislý na druhých | Vztah k vlastní minulosti nemá kdo zvenčí doložit, když ji subjekt prožívá jako cizí |
+| Asymetrie moci mezi subjektem a operátorem (podřízenost, závislost na privátní praxi) | Rozhodnutí přijímaná bez dlouhodobého horizontu padají ve prospěch silnější strany |
+| Komerční, kompetitivní nebo politický účel celé expozice | Oslabení plánů a předvídavosti je pro takové zadání výhodou, a proto nebude napraveno |
 
 ## Klinické markery (neúmyslná manifestace)
 

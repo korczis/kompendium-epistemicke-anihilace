@@ -51,6 +51,11 @@ Eskalujte, když přenos vedl ke kampani, výhrůžkám nebo k pracovní sankci:
 
 **Zdroj:** karta shrnuje plnou stránku [EA-2.3.2 Kolaps kontextu](@/kompendium/techniques/ea-2-3-2-context-collapse.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
 
+## Literatura
+
+- Marwick, A. E., & boyd, d. (2011). I tweet honestly, I tweet passionately: Twitter users, context
+  collapse, and the imagined audience. *New Media & Society*, 13(1), 114–133.
+
 ## Související
 
 - **Technika a kapitola:** [plná stránka EA-2.3.2](@/kompendium/techniques/ea-2-3-2-context-collapse.md) – původ pojmu, mechanismus a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře delegitimizace.

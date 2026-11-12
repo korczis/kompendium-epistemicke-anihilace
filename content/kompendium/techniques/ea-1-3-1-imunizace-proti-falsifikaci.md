@@ -110,21 +110,25 @@ Při setkání s teorií explicitně požaduj:
 
 > *„Jaká specifická evidence by tuto teorii falsifikovala?“*
 
-Pokud manipulátor:
+Sama odpověď na tuto otázku je pozorováním, které lze zaznamenat:
 
-- Nemůže specifikovat → silný indikátor netestovatelnosti
-- **Specifikuje příliš obecně** („kdyby vše bylo jinak“) → indikátor obrany
-- **Specifikuje precizně** → legitimní testovatelná teorie
+| Odpověď na otázku po falsifikátoru | Co z odpovědi vyplývá |
+|---|---|
+| Falsifikátor nelze uvést vůbec | Silný znak netestovatelnosti tvrzení |
+| Falsifikátor uveden jen v nejobecnější podobě („kdyby vše bylo jinak“) | Znak obrany: podmínka nevylučuje žádný myslitelný nález |
+| Falsifikátor uveden přesně a pozorovatelně | Tvrzení je testovatelné a spor se vede o evidenci |
 
 #### 2. **Identifikace ad hoc modifikací**
 
-Při každé modifikaci teorie testuj:
+U každé jednotlivé modifikace teorie se posuzují tři otázky a každá z nich nese v závěru jinou roli:
 
-- **Byla** modifikace zavedena před nebo **po** kontradikci?
-- Generuje nové **nezávislé predikce**?
-- Byla **podpořena externí evidencí** mimo originál case?
+| Otázka k jednotlivé modifikaci | Role v závěru |
+|---|---|
+| Byla modifikace vyslovena před nesouhlasným nálezem, nebo až po něm? | Nutná podmínka: pozdější vyslovení je předpokladem čtení jako ad hoc |
+| Předpovídá modifikace něco nového a nezávisle ověřitelného? | Nutná podmínka: nová předpověď úpravu z ad hoc povahy vyvazuje |
+| Opírá se modifikace o evidenci mimo původní případ? | Potvrzující znak: vnější opora čtení jako ad hoc oslabuje |
 
-Pokud jsou všechny tři odpovědi **ne** → ad hoc modifikace.
+Úprava se čte jako ad hoc jen tehdy, vyjdou-li pro ni nepříznivě všechny tři otázky současně.
 
 #### 3. **Evaluace z perspektivy Occamovy břitvy**
 
@@ -132,12 +136,14 @@ Po **n** modifikacích, je teorie **explanačně parsimonickou**, nebo se stáv�
 
 #### 4. **Lakatosovský test**
 
-Aplikuj formální test:
+Lakatosův test rozlišuje dvě podoby posunu výzkumného programu podle toho, co modifikace přináší:
 
-- **Progressive shift**: modifikace generuje **nové** predikce + některé jsou **empiricky potvrzeny**
-- **Degenerative shift**: modifikace **pouze** absorbuje kontradikce, bez nových predikcí
+| Posun programu | Co modifikace přináší |
+|---|---|
+| Progresivní posun (*progressive problem shift*) | Nové předpovědi, z nichž část je empiricky potvrzena |
+| Degenerativní posun (*degenerative problem shift*) | Pouhé pohlcení kontradikce, bez jakékoli nové předpovědi |
 
-Degenerativní programy by měly být **opouštěny**, nikoli posilovány.
+Degenerativní program má být podle tohoto měřítka opuštěn, nikoli posilován (Lakatos, 1970).
 
 #### 5. **Active falsification attempt**
 
@@ -157,22 +163,28 @@ Aktivně **hledej** evidenci, která by teorii falsifikovala. Pokud subjekt odm�
 
 ### Případ 1 — Astrologie
 
-Klasický Popperovský příklad. Astrologické predikce:
+Klasický Popperovský příklad. Astrologická předpověď má postupně tyto podoby:
 
-- Konkrétní → „Stane se X“
-- Po non-occurrence → „Stalo by se X, kdyby nebylo Y“
-- Po cumulative non-occurrence → „X je interpretováno spirituálně, ne literálně“
-- Po philosophical critique → „Astrologie odhaluje archetypální vzorce, ne konkrétní události“
+| Stav sporu | Podoba předpovědi |
+|---|---|
+| Výchozí formulace | „Stane se X“ |
+| Po nenastání předpovězeného | „Stalo by se X, kdyby nebylo Y“ |
+| Po opakovaném nenastání | „X je míněno duchovně, nikoli doslova“ |
+| Po filozofické kritice | „Astrologie odhaluje archetypální vzorce, ne konkrétní události“ |
 
-Strukturální imunizace přes generace.
+Výsledkem je imunizace udržovaná po generace: tvrzení zůstává, zasažitelné je čím dál méně (Popper, 1963).
 
 ### Případ 2 — Ekonomická teorie
 
-Macroekonomická teorie predikuje X. Empirická realita ukáže non-X.
+Makroekonomická teorie předpovídá X. Empirická skutečnost ukáže ne-X.
 
-- Verze 1: „X by se stalo, kdyby central bank reagovala správně“
-- Verze 2: „X by se stalo, kdyby nebyly external shocks“
-- Verze 3: „X by se stalo v dlouhém horizontu“ (kde „dlouhý“ je nedefinován)
+Následující výklady na sebe navazují a žádný z nich teorii neopravuje:
+
+| Pořadí výkladu | Doplněná podmínka |
+|---|---|
+| První výklad | „X by nastalo, kdyby centrální banka reagovala správně“ |
+| Druhý výklad | „X by nastalo, kdyby nepůsobily vnější šoky“ |
+| Třetí výklad | „X nastane v dlouhém horizontu“, přičemž „dlouhý“ zůstává nedefinován |
 
 Detekce: Externí kritická revue ekonomické literatury identifikuje vzorec degenerativních shiftů.
 
@@ -180,12 +192,14 @@ Intervence: Pre-registered macroekonomické modely s explicitními kvantitativn�
 
 ### Případ 3 — Klinická psychiatrie
 
-Specifický terapeutický přístup tvrdí „**efektivnost** pro většinu pacientů“. V případě failure přístup tvrdí:
+Specifický terapeutický přístup tvrdí „**efektivnost** pro většinu pacientů“. Neúspěch u jednotlivého pacienta je vykládán takto:
 
-- „Pacient nedodržel“
-- „Pacient nebyl ready“
-- „Pacient byl special case“
-- „Failure je ve skutečnosti součást healing process“
+| Výklad neúspěchu | Komu je neúspěch přičten |
+|---|---|
+| „Pacient nedodržel doporučení“ | Pacientovi, nikoli přístupu |
+| „Pacient nebyl připraven“ | Pacientovi, nikoli přístupu |
+| „Pacient byl zvláštní případ“ | Mimo dosah tvrzení o účinnosti |
+| „Neúspěch je ve skutečnosti součástí uzdravování“ | Nikomu: nepříznivý nález je převyprávěn jako příznivý |
 
 Detekce: Externí klinický audit identifikuje, že **každé** failure je vysvětleno auxiliárním hypotézou.
 
@@ -195,20 +209,26 @@ Intervence: Strukturální požadavek na pre-registered outcome criteria; advers
 
 ### Často se kombinuje s
 
-- **[EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md)** — sourozenecká: imunizace přidává auxiliární hypotézy; strategická reinterpretace přeinterpretovává existující evidenci.
-- **[EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md)** — diverze přesměrovává od kontradiktorních evidencí k irelevantním aspektům.
-- **[EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)** — filtrace evidence zajišťuje, že subjekt **nikdy neuvidí** falsifikační evidenci.
-- **[EA-1.2.3 Iluzorní komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md)** — iluzorní komplexita poskytuje **infinite ad hoc modifikace**.
+| Technika, s níž se vzorec pojí | Čím k imunizaci přispívá |
+|---|---|
+| [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) | Sourozenecký vzorec: imunizace přidává pomocné předpoklady, reinterpretace přepisuje výklad už existující evidence |
+| [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) | Odvádí pozornost od nesouhlasného nálezu k okrajovým stránkám sporu |
+| [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) | Filtrací zdrojů zajišťuje, že se zasažený člověk s falsifikující evidencí nepotká |
+| [EA-1.2.3 Iluzorní komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) | Dodává zásobu pomocných rozlišení, z nichž lze čerpat další a další výjimky |
 
 ### Eskaluje do
 
-- **[EA-1.6.1](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) Vzorec „Guru a adept“** — guru vede teorii v dlouhodobé imunizační dynamice.
-- **Strukturální [delegitimizace](@/glossary/delegitimizace.md) pole** ([Scénář F](@/kompendium/03-zakladni-kategorie/kapitola-2.md)) — kolektivní imunizace odbourává epistemickou zdravost komunity.
+| Pokračování vzorce | Co se jím mění |
+|---|---|
+| [EA-1.6.1 Vzorec „Guru a adept“](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) | Výklad teorie i jejích výjimek drží jediná osoba a imunizace se stává trvalou |
+| Strukturální [delegitimizace](@/glossary/delegitimizace.md) pole ([Scénář F](@/kompendium/03-zakladni-kategorie/kapitola-2.md)) | Imunizace se z jedné teorie přenese na celé prostředí a poškodí jeho schopnost korekce |
 
 ### Hraniční / podobné
 
-- **Lakatosian protective belt** — strukturálně podobné, ale **progressive** (generuje nové predikce). Distinkce na úrovni Lakatosova testu.
-- **Skutečná teoretická revize** — odpovídá kontradiktorní evidence **explicitními modifikacemi** core thesis, **ne** ad hoc auxiliáriemi.
+| Útvar, který vzorci připomíná | Čím se od imunizace liší |
+|---|---|
+| Lakatosův ochranný pás (*protective belt*) | Je strukturně podobný, ale progresivní: generuje nové předpovědi, a obstojí proto v Lakatosově testu |
+| Skutečná teoretická revize | Na nesouhlasný nález odpovídá vyslovenou úpravou jádra tvrzení, nikoli pomocnými předpoklady |
 
 ## Literatura
 
@@ -228,16 +248,13 @@ Intervence: Strukturální požadavek na pre-registered outcome criteria; advers
 
 ## Co ověřit před čtením
 
-Před prací s touto stránkou si čtenář ověří:
+Před prací s touto stránkou si čtenář ověří tři věci:
 
-- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
-  (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
-  rámec)
-- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  odpovídající úrovni této stránky
-- Rozpoznání vzorce u sebe sama není diagnóza: slouží k tomu
-  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a výsledek patří do supervize
+| Co si čtenář ověří u této stránky | Kde to zjistí |
+|---|---|
+| Že jeho přístupová úroveň odpovídá hodnotě `access_level` v záhlaví článku; úroveň L1 znamená volný přístup, L2 doloženou kvalifikaci, L3 omezený doktrinální rámec | Záhlaví tohoto článku |
+| Že má supervizní rámec odpovídající úrovni této stránky | [Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) |
+| Že rozpoznání vzorce u sebe sama nebere jako diagnózu a výsledek nese do supervize | [Diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) |
 
 > **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
 > čtenáře, nikoli nástroj. Etický rámec stanoví
@@ -250,4 +267,4 @@ Před prací s touto stránkou si čtenář ověří:
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)
+Rozcestníky: [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

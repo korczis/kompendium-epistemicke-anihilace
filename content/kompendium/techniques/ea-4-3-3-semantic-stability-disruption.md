@@ -66,18 +66,16 @@ Zasažený člověk referuje stav, který popisuje jako ztrátu půdy pod nohama
 | **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
 | **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
 
-## Indikace a kontraindikace
+## Vylučující okolnosti
 
-### Legitimní indikace (vzácné, výhradně supervidovaný kontext)
-- Profesní příprava operativních složek pro extrémně náročné prostředí pod doložitelnou jurisdikcí.
-- Klinická intervence u striktně vymezených diagnóz, kde benefit prokazatelně převažuje riziko.
-- Forenzní rekonstrukce s explicitním soudním mandátem a etickým dohledem.
+Žádné legitimní užití narušení sémantické stability tato kniha nevyjmenovává: seznam přípustných kontextů by čtenáři dodal ospravedlnění zásahu do pojmového ukotvení druhého člověka. Otázku přípustnosti řeší [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md), ne tato stránka. Co zde stojí, jsou okolnosti vylučující expozici spolu s důvodem, proč vylučují.
 
-### Absolutní kontraindikace
-- Akutní psychiatrická krize, suicidální ideace, dekompenzovaná komorbidita.
-- Nedostatečná podpůrná síť subjektu nebo závislé sociální postavení.
-- Subjekt v mocenské asymetrii vůči operátorovi (zaměstnanec, podřízený, klient v privátní praxi bez druhého supervizora).
-- Komerční, kompetitivní nebo politické cíle protokolu.
+| Okolnost | Proč expozici vylučuje |
+|---------------------|---------------|
+| Akutní psychiatrická krize nebo dekompenzovaná komorbidita se suicidální ideací | Referenční ukotvení pojmů je již oslabené; další posun v užití slov prohloubí dezorientaci |
+| Subjekt bez podpůrné sítě nebo v závislém sociálním postavení | Chybí druhý mluvčí, s nímž by subjekt mohl vlastní vymezení pojmů ověřit |
+| Subjekt v mocenské asymetrii vůči operátorovi (podřízený, zaměstnanec, klient bez druhého supervizora) | Slovník silnější strany se stává jediným dostupným a nesouhlas s ním je nákladný |
+| Protokol vedený komerčním, kompetitivním nebo politickým cílem | Taková zadání mají zájem na tom, aby klíčové pojmy znamenaly, co se jim hodí |
 
 ## Klinické markery (neúmyslná manifestace)
 

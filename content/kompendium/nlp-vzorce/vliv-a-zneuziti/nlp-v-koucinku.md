@@ -35,7 +35,7 @@ catalog_broader = ""
 catalog_narrower = []
 catalog_depth = 0
 catalog_ancestors = []
-catalog_related = ["lide-maji-potrebne-zdroje", "modelovatelnost-excelence", "zarovnani-logickych-urovni", "motivacni-strategie", "metaprogramy-v-naboru", "dobre-formulovany-vysledek", "trh-certifikaci-nlp", "guru-efekt", "nlp-v-koucinku-vyzkum"]
+catalog_related = ["lide-maji-potrebne-zdroje", "modelovatelnost-excelence", "zarovnani-logickych-urovni", "motivacni-strategie", "metaprogramy-v-naboru", "zmena-metaprogramu", "dobre-formulovany-vysledek", "trh-certifikaci-nlp", "guru-efekt", "nlp-v-koucinku-vyzkum"]
 catalog_related_declared = ["nlp-v-koucinku-vyzkum", "trh-certifikaci-nlp", "dobre-formulovany-vysledek", "guru-efekt", "modelovatelnost-excelence"]
 catalog_kompendium = ["kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/06-klinicke-aplikace/supervizni-ramce.md", "kompendium/case-studies/61-corporate-leadership-cult.md"]
 catalog_canonical = ""
@@ -233,6 +233,7 @@ zná motivační rozhovor (Miller a Rollnick 2013).
 - [Zarovnání logických úrovní](@/kompendium/nlp-vzorce/urovne-a-pozice/zarovnani-logickych-urovni.md) – příbuzné heslo (Logické úrovně a percepční pozice, Logical level alignment)
 - [Motivační strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/motivacni-strategie.md) – příbuzné heslo (Strategie a modelování, Motivation strategy)
 - [Metaprogramy v náboru a řízení](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru.md) – příbuzné heslo (Metaprogramy, Meta-programs in recruitment and management)
+- [Změna metaprogramů](@/kompendium/nlp-vzorce/metaprogramy/zmena-metaprogramu.md) – příbuzné heslo (Metaprogramy, Changing meta-programs)
 - [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) – příbuzné heslo (Cíle a výsledky, Well-formed outcome)
 - [Trh certifikací NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/trh-certifikaci-nlp.md) – příbuzné heslo (Vliv a zneužití NLP, The NLP certification market)
 - [Efekt guru na seminářích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md) – příbuzné heslo (Vliv a zneužití NLP, Guru effect in seminars)

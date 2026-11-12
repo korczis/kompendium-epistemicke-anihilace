@@ -161,6 +161,7 @@ s číslováním oddílů kapitoly 7; Derridu v souvislosti s postmodernismem po
 - Derrida, J. (1988). *Limited Inc*.
 - Derrida, J. (1994). *Force de loi*.
 - Gadamer, H.-G. (1960). *Wahrheit und Methode*.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*.
 - White, M., & Epston, D. (1990). *Narrative Means to Therapeutic Ends*.
 
 ## Související

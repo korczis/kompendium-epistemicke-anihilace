@@ -51,6 +51,11 @@ Eskalujte vždy: deepfake intimní povahy, vydírání nebo podvodný hlasový p
 
 **Zdroj:** karta shrnuje plnou stránku [EA-2.3.7 Personální deepfake](@/kompendium/techniques/ea-2-3-7-deepfake-personalni.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
 
+## Literatura
+
+- Chesney, R., & Citron, D. K. (2019). Deep fakes: A looming challenge for privacy, democracy, and
+  national security. *California Law Review*, 107(6), 1753–1820.
+
 ## Související
 
 - **Technika a kapitola:** [plná stránka EA-2.3.7](@/kompendium/techniques/ea-2-3-7-deepfake-personalni.md) – mechanismus, ověření, právní rámec a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře delegitimizace.

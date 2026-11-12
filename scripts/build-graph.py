@@ -213,6 +213,7 @@ def ia_report(pages: list) -> dict:
 
 
 CATEGORIES = ROOT / "data" / "categories.toml"
+CATALOGS = ROOT / "data" / "catalogs.toml"
 SUBFAMILY_HEADING = re.compile(r"^###\s+(\d+)\.(\d+)\s+(.+?)\s*$", re.M)
 SUBFAMILY_ROW = re.compile(r"^\|\s*`EA-(\d+)\.(\d+)`\s*\|\s*([^|]+?)\s*\|", re.M)
 CODED = re.compile(r"(?:kompendium/techniques/ea|kompendium/quick-reference/qr-ea)-(\d+)-(\d+)")
@@ -235,6 +236,22 @@ def categorise(pages: list, nodes: list, fams: dict) -> dict:
     """Give every node its page type and domains (data/categories.toml) and every EA-coded
     node its family and subfamily; return the index the category hubs read."""
     spec = tomllib.loads(CATEGORIES.read_text(encoding="utf-8"))
+    # Derived-validated against the catalogue declaration (owner directive 2026-11-11: wire the
+    # NLP and fallacy catalogues into /osy/, Pokračovat and the hubs): every catalogs.toml
+    # [[catalog]] section must have a `catalog = true` [[typ]] row here, and vice versa — a
+    # catalogue cannot land without its publikum/pilíř axes, and a stale axis row cannot outlive
+    # its catalogue. catalogs.toml is absent until catalogs-fauly lands, so the check is skipped.
+    if CATALOGS.exists():
+        cat_sections = {c["section"] for c in
+                        tomllib.loads(CATALOGS.read_text(encoding="utf-8")).get("catalog", [])}
+        typ_cat_sections = {s for row in spec["typ"] if row.get("catalog") for s in row["sections"]}
+        if cat_sections != typ_cat_sections:
+            raise SystemExit(
+                "build-graph: catalogue axes drift between data/catalogs.toml and "
+                "data/categories.toml (catalog = true typ rows).\n  catalogue with no typ row: "
+                + str(sorted(cat_sections - typ_cat_sections) or "none")
+                + "\n  typ row with no catalogue: "
+                + str(sorted(typ_cat_sections - cat_sections) or "none"))
 
     def matches(section: str, prefixes: list) -> int:
         best = -1

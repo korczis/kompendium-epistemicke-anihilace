@@ -35,7 +35,7 @@ catalog_broader = ""
 catalog_narrower = []
 catalog_depth = 0
 catalog_ancestors = []
-catalog_related = ["odvolani-na-emoce", "klam-duraznu", "presvedcovaci-definice", "nabity-jazyk", "nominalizace"]
+catalog_related = ["odvolani-na-emoce", "klam-duraznu", "presvedcovaci-definice", "nabity-jazyk", "rozliseni-bez-rozdilu", "nominalizace"]
 catalog_related_declared = ["nabity-jazyk", "presvedcovaci-definice", "klam-duraznu", "nominalizace", "odvolani-na-emoce"]
 catalog_kompendium = ["kompendium/07-teoreticke-reflexe/politicka-ea.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md"]
 catalog_canonical = ""
@@ -43,7 +43,7 @@ catalog_links_prose = ["kompendium/07-teoreticke-reflexe/politicka-ea.md", "komp
 catalog_prev = "vyhybava-slova"
 catalog_next = "vytrzeni-z-kontextu"
 catalog_position = 11
-catalog_family_size = 13
+catalog_family_size = 15
 catalog_sources = ["bentham-1824", "damer-2009", "herman-1992", "kahneman-2011", "lakoff-johnson-1980", "lifton-1961", "loftus-palmer-1974", "stark-2007", "tversky-kahneman-1981", "walton-reed-macagno-2008", "eemeren-grootendorst-2004"]
 catalog_sources_primary = ["damer-2009", "walton-reed-macagno-2008", "eemeren-grootendorst-2004"]
 catalog_sources_roots = ["bentham-1824"]
@@ -225,6 +225,7 @@ rozebírá kompendium v kapitole o
 - [Klam důrazu](@/kompendium/argumentacni-fauly/jazykove-klamy/klam-duraznu.md) – příbuzné heslo (Klamy jazyka a dvojznačnosti, Fallacy of accent)
 - [Přesvědčovací definice](@/kompendium/argumentacni-fauly/jazykove-klamy/presvedcovaci-definice.md) – příbuzné heslo (Klamy jazyka a dvojznačnosti, Persuasive definition)
 - [Nabitý jazyk](@/kompendium/argumentacni-fauly/jazykove-klamy/nabity-jazyk.md) – příbuzné heslo (Klamy jazyka a dvojznačnosti, Loaded language)
+- [Rozlišení bez rozdílu](@/kompendium/argumentacni-fauly/jazykove-klamy/rozliseni-bez-rozdilu.md) – příbuzné heslo (Klamy jazyka a dvojznačnosti, Distinction without a difference)
 - [Nominalizace](@/kompendium/nlp-vzorce/meta-model/nominalizace.md) – příbuzné heslo (NLP vzorce: Meta-model, Nominalisation)
 
 **V kompendiu**

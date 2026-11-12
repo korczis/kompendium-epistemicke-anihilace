@@ -35,7 +35,7 @@ catalog_broader = "formalni-klam"
 catalog_narrower = []
 catalog_depth = 1
 catalog_ancestors = ["formalni-klam"]
-catalog_related = ["formalni-klam", "potvrzeni-dusledku", "nedovoleny-vetsi-termin", "nedovoleny-mensi-termin", "ctyri-terminy", "vylucujici-premisy", "vina-asociaci", "komplexni-ekvivalence"]
+catalog_related = ["formalni-klam", "potvrzeni-dusledku", "nedovoleny-vetsi-termin", "nedovoleny-mensi-termin", "ctyri-terminy", "vylucujici-premisy", "kladny-zaver-ze-zaporne-premisy", "vina-asociaci", "komplexni-ekvivalence"]
 catalog_related_declared = ["vina-asociaci", "nedovoleny-vetsi-termin", "nedovoleny-mensi-termin", "potvrzeni-dusledku", "komplexni-ekvivalence"]
 catalog_kompendium = ["kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md", "kompendium/07-teoreticke-reflexe/politicka-ea.md", "kompendium/03-zakladni-kategorie/biasy/_index.md"]
 catalog_canonical = ""
@@ -43,7 +43,7 @@ catalog_links_prose = ["glossary/heuristika.md", "kompendium/03-zakladni-kategor
 catalog_prev = "popreni-predchudce"
 catalog_next = "nedovoleny-vetsi-termin"
 catalog_position = 4
-catalog_family_size = 14
+catalog_family_size = 16
 catalog_sources = ["copi-cohen-mcmahon-2014", "damer-2009", "govier-2010", "hamblin-1970", "kahneman-2011", "mercier-sperber-2011", "mill-1843", "roozenbeek-2022", "stanovich-west-2000", "tversky-kahneman-1974", "walton-1995", "walton-reed-macagno-2008", "whately-1826", "eemeren-grootendorst-2004"]
 catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "govier-2010", "hamblin-1970", "walton-1995", "walton-reed-macagno-2008", "eemeren-grootendorst-2004"]
 catalog_sources_roots = ["mill-1843", "whately-1826"]
@@ -220,6 +220,7 @@ které porušují rozložení krajních termínů.
 - [Nedovolený menší termín](@/kompendium/argumentacni-fauly/formalni/nedovoleny-mensi-termin.md) – příbuzné heslo (Formální klamy, Illicit minor)
 - [Čtyři termíny](@/kompendium/argumentacni-fauly/formalni/ctyri-terminy.md) – příbuzné heslo (Formální klamy, Four terms)
 - [Vylučující premisy](@/kompendium/argumentacni-fauly/formalni/vylucujici-premisy.md) – příbuzné heslo (Formální klamy, Exclusive premises)
+- [Kladný závěr ze záporné premisy](@/kompendium/argumentacni-fauly/formalni/kladny-zaver-ze-zaporne-premisy.md) – příbuzné heslo (Formální klamy, Affirmative conclusion from a negative premise)
 - [Vina asociací](@/kompendium/argumentacni-fauly/relevance/vina-asociaci.md) – příbuzné heslo (Klamy relevance, Guilt by association)
 - [Komplexní ekvivalence](@/kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md) – příbuzné heslo (NLP vzorce: Meta-model, Complex equivalence)
 

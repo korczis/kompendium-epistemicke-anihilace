@@ -62,18 +62,16 @@ Zasažený člověk referuje úlevu z toho, že „nemusí soudit“, a současn
 | **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
 | **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
 
-## Indikace a kontraindikace
+## Co expozici vylučuje
 
-### Legitimní indikace (vzácné, výhradně supervidovaný kontext)
-- Profesní příprava operativních složek pro extrémně náročné prostředí pod doložitelnou jurisdikcí.
-- Klinická intervence u striktně vymezených diagnóz, kde benefit prokazatelně převažuje riziko.
-- Forenzní rekonstrukce s explicitním soudním mandátem a etickým dohledem.
+Suspenzi hodnotového soudu kompendium nepopisuje jako něco, co by bylo za určitých podmínek oprávněné; posouzení přípustnosti patří [etickému kodexu](@/kompendium/08-prilohy/eticky-kodex.md), nikoli stránce o technice. Dále jmenované okolnosti ji vylučují.
 
-### Absolutní kontraindikace
-- Akutní psychiatrická krize, suicidální ideace, dekompenzovaná komorbidita.
-- Nedostatečná podpůrná síť subjektu nebo závislé sociální postavení.
-- Subjekt v mocenské asymetrii vůči operátorovi (zaměstnanec, podřízený, klient v privátní praxi bez druhého supervizora).
-- Komerční, kompetitivní nebo politické cíle protokolu.
+| Okolnost | Proč vylučuje |
+|----------|---------------|
+| Akutní psychiatrická krize, suicidální ideace, dekompenzovaná komorbidita | Odložený hodnotový soud se v dekompenzaci sám neobnoví a jeho ztráta se stává trvalou |
+| Nedostatečná podpůrná síť subjektu nebo závislé sociální postavení | Návrat soudu potřebuje okolí, které jej nabízí zpět; bez něj prázdné místo obsadí cizí hodnocení |
+| Operátor v nadřízeném postavení (zaměstnavatel, vedoucí, privátní praxe bez druhého supervizora) | Hodnotový soud přenesený na nadřízeného už není suspendovaný, nýbrž převzatý |
+| Komerční, kompetitivní nebo politické cíle protokolu | Prostředí, které má na chybějícím soudu zájem, nemá důvod jej obnovovat |
 
 ## Klinické markery (neúmyslná manifestace)
 

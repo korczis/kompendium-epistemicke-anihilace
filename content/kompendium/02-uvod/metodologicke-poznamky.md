@@ -122,7 +122,7 @@ Vzhledem k subjektivní povaze epistemických zážitků byla taxonomie významn
 
 - **Eidetickou redukci** — proces identifikace esenciálních struktur epistemických zkušeností
 - **Fenomenologickou deskripci** — detailní popis kvalitativních aspektů epistemické zkušenosti
-- **Epoché** — pozastavení předpokladů a teoretických prekoncepcí pro přímý přístup k fenoménům
+- **[Epoché](@/glossary/epoche.md)** — pozastavení předpokladů a teoretických prekoncepcí pro přímý přístup k fenoménům
 - **Intersubjektivní validaci** — ověření fenomenologických popisů prostřednictvím konsenzu multiple pozorovatelů
 
 Tato metodologie umožňuje zachytit kvalitativní a subjektivní aspekty epistemických fenoménů, které by mohly být reduktivními přístupy přehlédnuty.

@@ -1,6 +1,6 @@
 +++
 title = "Kapitola 6: Epistemická singularita"
-description = "Kapitola 6 sekce 05 — narativní expozice epistemické singularity, prvního ultramárního režimu (EA-5.1.1 až 5.1.30)."
+description = "Kapitola 6 sekce 05 — narativní expozice epistemické singularity, prvního ultramárního režimu (EA-5.1.*)."
 weight = 6
 insert_anchor_links = "right"
 
@@ -17,7 +17,7 @@ access_level = "L3-L4"
 
 # Kapitola 6 — Epistemická singularita
 
-> 🚨 **Přístupová úroveň L3–L4**. Kapitola popisuje 30 ultramárních technik (EA-5.1.1 až 5.1.30) operujících na rovině [metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md). Materiály vyžadují IRB autorizaci a etickou supervizi. Veřejně dostupné jsou výhradně metaúrovňové popisy fenomenologie a klinického obrazu — operační detaily jsou redigovány nebo přesunuty do restriktivních L4 příloh.
+> 🚨 **Přístupová úroveň L3–L4**. Kapitola popisuje 30 ultramárních technik (EA-5.1.*) operujících na rovině [metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md). Materiály vyžadují IRB autorizaci a etickou supervizi. Veřejně dostupné jsou výhradně metaúrovňové popisy fenomenologie a klinického obrazu — operační detaily jsou redigovány nebo přesunuty do restriktivních L4 příloh.
 
 ## Pozice kapitoly
 

@@ -62,18 +62,16 @@ Zasažený člověk referuje, že „si už nemůže věřit“, a vlastní pozo
 | **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
 | **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
 
-## Indikace a kontraindikace
+## Okolnosti, za nichž je expozice vyloučena
 
-### Legitimní indikace (vzácné, výhradně supervidovaný kontext)
-- Profesní příprava operativních složek pro extrémně náročné prostředí pod doložitelnou jurisdikcí.
-- Klinická intervence u striktně vymezených diagnóz, kde benefit prokazatelně převažuje riziko.
-- Forenzní rekonstrukce s explicitním soudním mandátem a etickým dohledem.
+Posun evidenčních kritérií kniha nepředkládá jako nástroj, který by někde směl být použit, a žádný přípustný kontext neuvádí; co je zde eticky myslitelné, vymezují [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md). Uvedené okolnosti expozici vylučují.
 
-### Absolutní kontraindikace
-- Akutní psychiatrická krize, suicidální ideace, dekompenzovaná komorbidita.
-- Nedostatečná podpůrná síť subjektu nebo závislé sociální postavení.
-- Subjekt v mocenské asymetrii vůči operátorovi (zaměstnanec, podřízený, klient v privátní praxi bez druhého supervizora).
-- Komerční, kompetitivní nebo politické cíle protokolu.
+| Okolnost | Proč vylučuje |
+|----------|---------------|
+| Akutní psychiatrická krize, suicidální ideace, dekompenzovaná komorbidita | Schopnost vážit důkazy je v krizi sama zasažena, takže posun kritérií nelze od stavu odlišit |
+| Nedostatečná podpůrná síť subjektu nebo závislé sociální postavení | Chybí druhý zdroj, proti němuž by subjekt mohl vlastní měřítko poměřit |
+| Subjekt závislý na operátorovi (zaměstnanec, podřízený nebo klient privátní praxe bez druhé supervize) | Kdo rozhoduje o postavení subjektu, určuje i to, čí svědectví platí; symetrie měřítka je tím zrušena předem |
+| Komerční, kompetitivní nebo politické cíle protokolu | Zájem na konkrétním výsledku je přesně ten tlak, který měřítko ohýbá vybraně ve prospěch jedné strany |
 
 ## Klinické markery (neúmyslná manifestace)
 

@@ -35,7 +35,7 @@ catalog_broader = ""
 catalog_narrower = []
 catalog_depth = 0
 catalog_ancestors = []
-catalog_related = ["tu-quoque", "dve-kriva-jedno-pravo", "zadny-pravy-skot", "prilis-siroke-zobecneni", "vyber-tresnicek", "nefalzifikovatelnost", "posouvani-branek", "motivovane-uvazovani"]
+catalog_related = ["tu-quoque", "dve-kriva-jedno-pravo", "zadny-pravy-skot", "prilis-siroke-zobecneni", "vyber-tresnicek", "nefalzifikovatelnost", "posouvani-branek", "odvolani-na-precedent", "nekonzistence", "rozliseni-bez-rozdilu", "motivovane-uvazovani"]
 catalog_related_declared = ["zadny-pravy-skot", "nefalzifikovatelnost", "posouvani-branek", "tu-quoque", "motivovane-uvazovani", "vyber-tresnicek"]
 catalog_kompendium = ["kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/03-zakladni-kategorie/biasy/_index.md"]
 catalog_canonical = ""
@@ -43,7 +43,7 @@ catalog_links_prose = ["kompendium/03-zakladni-kategorie/biasy/_index.md", "komp
 catalog_prev = "zadny-pravy-skot"
 catalog_next = "ukvapene-zobecneni"
 catalog_position = 6
-catalog_family_size = 20
+catalog_family_size = 23
 catalog_sources = ["damer-2009", "kunda-1990", "mercier-sperber-2011", "nickerson-1998", "popper-1959", "stanovich-west-2000", "stark-2007", "toulmin-1958", "eemeren-grootendorst-2004"]
 catalog_sources_primary = ["damer-2009", "toulmin-1958", "eemeren-grootendorst-2004"]
 catalog_sources_roots = ["popper-1959"]
@@ -216,6 +216,9 @@ přehled [kognitivních biasů](@/kompendium/03-zakladni-kategorie/biasy/_index.
 - [Výběr třešniček](@/kompendium/argumentacni-fauly/predpoklady-argumentu/vyber-tresnicek.md) – příbuzné heslo (Klamy předpokladu, Cherry picking)
 - [Nefalzifikovatelné tvrzení](@/kompendium/argumentacni-fauly/predpoklady-argumentu/nefalzifikovatelnost.md) – příbuzné heslo (Klamy předpokladu, Unfalsifiability)
 - [Posouvání branek](@/kompendium/argumentacni-fauly/predpoklady-argumentu/posouvani-branek.md) – příbuzné heslo (Klamy předpokladu, Moving the goalposts)
+- [Klamné odvolání na precedent](@/kompendium/argumentacni-fauly/predpoklady-argumentu/odvolani-na-precedent.md) – příbuzné heslo (Klamy předpokladu, Fallacious appeal to precedent)
+- [Nekonzistence](@/kompendium/argumentacni-fauly/predpoklady-argumentu/nekonzistence.md) – příbuzné heslo (Klamy předpokladu, Inconsistency)
+- [Rozlišení bez rozdílu](@/kompendium/argumentacni-fauly/jazykove-klamy/rozliseni-bez-rozdilu.md) – příbuzné heslo (Klamy jazyka a dvojznačnosti, Distinction without a difference)
 - [Motivované uvažování](@/kompendium/argumentacni-fauly/teorie-argumentace/motivovane-uvazovani.md) – příbuzné heslo (Principy kritické diskuse a teorie argumentace, Motivated reasoning)
 
 **V kompendiu**

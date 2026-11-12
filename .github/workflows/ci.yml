@@ -89,13 +89,39 @@ jobs:
       - name: Markdown is polished
         run: python3 scripts/polish-markdown.py --check
       - name: Terms are linked
-        run: python3 scripts/link-terms.py --check
+        run: python3 scripts/link-terms.py --bold --check
       - name: Information architecture does not regress
         run: python3 scripts/check-ia.py
       - name: Catalogues, their pages, exports and trainer agree
         run: python3 scripts/catalogs.py --check
       - name: Content tooling tests
         run: bash test/run.sh
+      # The wasm engine (crates/kompendium-engine, contract kompendium-engine/v1). Built after
+      # test/run.sh (whose 06 skips without the module), so 06 runs once, and before zola build,
+      # so the module is in the site artefact. static/wasm/ is gitignored: the module is never
+      # committed and is made only here.
+      - name: Rust toolchain (wasm32-unknown-unknown)
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: wasm32-unknown-unknown
+      - name: Cache the engine crate's build
+        uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: crates/kompendium-engine -> target
+          key: ${{ hashFiles('crates/kompendium-engine/Cargo.lock') }}
+      - name: Engine wasm module builds and goes into static/wasm/
+        run: |
+          cargo build --release --locked --target wasm32-unknown-unknown \
+            --manifest-path crates/kompendium-engine/Cargo.toml
+          mkdir -p static/wasm
+          cp crates/kompendium-engine/target/wasm32-unknown-unknown/release/kompendium_engine.wasm static/wasm/
+      - name: Engine wasm module is at most 300 KB
+        run: |
+          size=$(wc -c < static/wasm/kompendium_engine.wasm)
+          echo "kompendium_engine.wasm: $size bytes (limit 307200)"
+          test "$size" -le 307200
+      - name: Wasm engine keeps kompendium-engine/v1 (fixtures, sweep byte for byte, normalise)
+        run: bash test/cases/06_engine_wasm.sh
       - name: Build (internal links are errors)
         run: npm run build
       # Belongs with build-ui-data, but reads the built site (views of the pages, derived()

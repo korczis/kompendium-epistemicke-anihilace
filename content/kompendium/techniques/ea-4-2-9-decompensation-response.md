@@ -62,18 +62,16 @@ Zasažený člověk referuje, že „se zhroutil“, a událost popisuje jako sv
 | **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
 | **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
 
-## Indikace a kontraindikace
+## Okolnosti, které krizovou odpověď vylučují
 
-### Legitimní indikace (vzácné, výhradně supervidovaný kontext)
-- Profesní příprava operativních složek pro extrémně náročné prostředí pod doložitelnou jurisdikcí.
-- Klinická intervence u striktně vymezených diagnóz, kde benefit prokazatelně převažuje riziko.
-- Forenzní rekonstrukce s explicitním soudním mandátem a etickým dohledem.
+Kompendium nevypisuje, kdy je zásah do člověka v akutní dekompenzaci oprávněný, a tato stránka takový výčet nenabízí; o přípustnosti čehokoli podobného rozhodují [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md), nikoli popis vzorce na této stránce. Níže stojí okolnosti, za nichž je expozice vyloučena, a důvod, proč každá z nich vylučuje.
 
-### Absolutní kontraindikace
-- Akutní psychiatrická krize, suicidální ideace, dekompenzovaná komorbidita.
-- Nedostatečná podpůrná síť subjektu nebo závislé sociální postavení.
-- Subjekt v mocenské asymetrii vůči operátorovi (zaměstnanec, podřízený, klient v privátní praxi bez druhého supervizora).
-- Komerční, kompetitivní nebo politické cíle protokolu.
+| Vylučující okolnost | Proč vylučuje |
+|---------------------|---------------|
+| Akutní psychiatrická krize, suicidální ideace nebo dekompenzovaná komorbidita | Stav, na který by odpověď teprve měla reagovat, už nastal; jakákoli další expozice jej prohloubí, místo aby jej zachytila |
+| Nedostatečná podpůrná síť subjektu nebo závislé sociální postavení | Po dekompenzaci není kam přejít a krize zůstává uvnitř struktury, která ji vyvolala |
+| Mocenská asymetrie mezi subjektem a operátorem (zaměstnanec, podřízený, klient v privátní praxi bez druhého supervizora) | Zasažený člověk nemůže odstoupit ani krizi ohlásit nikomu jinému než tomu, kdo ji způsobil |
+| Komerční, kompetitivní nebo politický cíl protokolu | Zájem na pokračování přebíjí důvod krizi zachytit a vede k výkladu krize jako slabosti subjektu |
 
 ## Klinické markery (neúmyslná manifestace)
 

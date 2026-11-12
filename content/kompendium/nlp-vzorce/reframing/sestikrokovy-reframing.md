@@ -35,7 +35,7 @@ catalog_broader = "reframing"
 catalog_narrower = []
 catalog_depth = 1
 catalog_ancestors = ["reframing"]
-catalog_related = ["pozitivni-zamer-chovani", "ekologicka-kontrola", "ideomotoricka-signalizace", "ramec-ekologie", "integrace-casti", "jadrova-transformace", "vyjednavani-casti", "elicitace-pozitivniho-zameru"]
+catalog_related = ["pozitivni-zamer-chovani", "ekologicka-kontrola", "ideomotoricka-signalizace", "ramec-ekologie", "integrace-casti", "jadrova-transformace", "vyjednavani-casti", "elicitace-pozitivniho-zameru", "vytvoreni-nove-casti"]
 catalog_related_declared = ["pozitivni-zamer-chovani", "elicitace-pozitivniho-zameru", "integrace-casti", "ekologicka-kontrola", "jadrova-transformace", "vyjednavani-casti"]
 catalog_kompendium = ["kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
 catalog_canonical = ""
@@ -227,6 +227,7 @@ nikdy neomlouval jednání třetích osob, které klientovi ubližují.
 - [Jádrová transformace](@/kompendium/nlp-vzorce/integrace-casti/jadrova-transformace.md) – příbuzné heslo (Práce s částmi, Core transformation)
 - [Vyjednávání mezi částmi](@/kompendium/nlp-vzorce/integrace-casti/vyjednavani-casti.md) – příbuzné heslo (Práce s částmi, Parts negotiation)
 - [Hledání pozitivního záměru části](@/kompendium/nlp-vzorce/integrace-casti/elicitace-pozitivniho-zameru.md) – příbuzné heslo (Práce s částmi, Eliciting a part's positive intention)
+- [Vytvoření nové části](@/kompendium/nlp-vzorce/integrace-casti/vytvoreni-nove-casti.md) – příbuzné heslo (Práce s částmi, Creating a new part)
 
 **V kompendiu**
 

@@ -69,6 +69,13 @@ autora Tomáše Korčáka. Kanonické znění je v repozitáři
 Knihovny třetích stran si ponechávají vlastní licence
 ([NOTICE.md](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/NOTICE.md)).
 
+## Související
+
+- [Předmluva](@/kompendium/01-predmluva/_index.md) – proč kniha vznikla, pro koho je a jak s ní pracovat
+- [Etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) – obranný rámec, ze kterého kniha píše
+- [Mapa knihy](@/mapa.md) – všechny stránky a jejich vazby na jednom místě
+- [Stav knihy](@/stav.md) – co je hotové a co kniha ještě dluží, odvozeně z obsahu
+
 ## Opravy a podněty
 
 [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues).

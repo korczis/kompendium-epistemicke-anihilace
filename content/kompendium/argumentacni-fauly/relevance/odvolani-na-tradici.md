@@ -35,7 +35,7 @@ catalog_broader = ""
 catalog_narrower = []
 catalog_depth = 0
 catalog_ancestors = []
-catalog_related = ["genetic-klam", "ad-populum", "odvolani-na-novost", "odvolani-na-prirozenost", "chronologicky-snobismus", "nirvana-klam", "klam-utopenych-nakladu", "je-a-ma-byt", "odvolani-na-starobylost"]
+catalog_related = ["genetic-klam", "ad-populum", "odvolani-na-novost", "odvolani-na-prirozenost", "chronologicky-snobismus", "nirvana-klam", "klam-utopenych-nakladu", "odvolani-na-precedent", "je-a-ma-byt", "odvolani-na-starobylost"]
 catalog_related_declared = ["odvolani-na-novost", "odvolani-na-starobylost", "ad-populum", "chronologicky-snobismus", "genetic-klam", "odvolani-na-prirozenost"]
 catalog_kompendium = ["kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md", "kompendium/07-teoreticke-reflexe/politicka-ea.md"]
 catalog_canonical = ""
@@ -43,7 +43,7 @@ catalog_links_prose = ["glossary/propaganda.md", "kompendium/07-teoreticke-refle
 catalog_prev = "rozjety-vlak"
 catalog_next = "odvolani-na-novost"
 catalog_position = 11
-catalog_family_size = 28
+catalog_family_size = 29
 catalog_sources = ["bentham-1824", "damer-2009", "govier-2010", "hahn-oaksford-2007", "hamblin-1970", "hasher-1977", "kahneman-2011", "lifton-1961", "petty-cacioppo-1986", "toulmin-1958", "walton-reed-macagno-2008", "eemeren-grootendorst-1992"]
 catalog_sources_primary = ["damer-2009", "govier-2010", "hamblin-1970", "toulmin-1958", "walton-reed-macagno-2008", "eemeren-grootendorst-1992"]
 catalog_sources_roots = ["bentham-1824"]
@@ -224,6 +224,7 @@ zkušenost s jejími selháními se do tradice nezapsala.
 - [Chronologický snobismus](@/kompendium/argumentacni-fauly/relevance/chronologicky-snobismus.md) – příbuzné heslo (Klamy relevance, Chronological snobbery)
 - [Klam nirvány](@/kompendium/argumentacni-fauly/predpoklady-argumentu/nirvana-klam.md) – příbuzné heslo (Klamy předpokladu, Nirvana fallacy)
 - [Klam utopených nákladů](@/kompendium/argumentacni-fauly/predpoklady-argumentu/klam-utopenych-nakladu.md) – příbuzné heslo (Klamy předpokladu, Sunk cost fallacy)
+- [Klamné odvolání na precedent](@/kompendium/argumentacni-fauly/predpoklady-argumentu/odvolani-na-precedent.md) – příbuzné heslo (Klamy předpokladu, Fallacious appeal to precedent)
 - [Problém „je“ a „má být“](@/kompendium/argumentacni-fauly/hodnoty-a-veda/je-a-ma-byt.md) – příbuzné heslo (Klamy hodnot, přírody a vědy, Is–ought problem)
 - [Odvolání na starobylost](@/kompendium/argumentacni-fauly/hodnoty-a-veda/odvolani-na-starobylost.md) – příbuzné heslo (Klamy hodnot, přírody a vědy, Appeal to antiquity)
 

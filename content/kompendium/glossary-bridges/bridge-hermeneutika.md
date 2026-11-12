@@ -24,7 +24,7 @@ toc = false
 
 [Hermeneutika](@/glossary/hermeneutika.md) je teorie a praxe výkladu – zkoumá, jak rozumíme
 textům, jednání, událostem i vlastnímu životu. Od Schleiermachera přes Diltheye vede k
-Heideggerovi a Gadamerovi (1960), pro něž porozumění není technikou, ale základním způsobem
+Heideggerovi (1927) a Gadamerovi (1960), pro něž porozumění není technikou, ale základním způsobem
 lidského bytí; Ricoeur (1983–1985) pak ukázal, že rozumíme sobě skrze vyprávění.
 
 Pro knihu je hermeneutika klíčová proto, že mnoho technik epistemické anihilace nepracuje s
@@ -152,6 +152,7 @@ okolí považuje za převzaté; kniha zde dává přednost autonomii před korek
 
 - Davidson, D. (1984). *Inquiries into Truth and Interpretation*. Oxford University Press.
 - Gadamer, H.-G. (1960). *Wahrheit und Methode*. Mohr Siebeck.
+- Heidegger, M. (1927). *Sein und Zeit*. Niemeyer.
 - Ricoeur, P. (1965). *De l'interprétation: Essai sur Freud*. Seuil.
 - Ricoeur, P. (1983–1985). *Temps et récit* I–III. Seuil.
 

@@ -35,6 +35,7 @@ rozšiřitelné, bez duplicit a bez ruční údržby, s jedním centrálním eng
 | bez plochy „rozpoznat“ | ADR 0008 (vlastník 2026-11-11): veřejný web nemá žádnou plochu, do které čtenář vkládá text a která vrací shodná hesla nebo klasifikaci – žádný trenér, žádný export výroků, žádný odkaz na takovou plochu; hledání podle názvu, kódu a aliasu zůstává. Každé heslo má v datech aspoň dva příkladové výroky (`trainer`: aspoň jeden manipulativní nebo chybný a jeden neškodný kontrast); engine je ověřuje, ale nikde nezveřejňuje |
 | průzkumník | jedna šablona `partials/explorer-katalog.html` a skript `static/js/viz/katalog.js` pro každou sekci a rodinu katalogu; data čte z odvozeného `extra.catalog_export` |
 | ilustrace | jedna p5 komponenta `static/js/viz/katalog-ilustrace.js` přes vrstvu (project.viz-component-layer): v průzkumníku celý katalog nebo rodina, na stránce každého hesla (`partials/katalog-heslo.html` v `page.html`, podmínka `extra.catalog`) totéž souhvězdí se zvýrazněným heslem a jeho obecnějšími, užšími a příbuznými hesly; export čte z `extra.catalog_export` rodiny, heslo z `extra.catalog_slug` |
+| pokrytí | každý katalog má `<adresář>/_coverage.toml`: každý název, který uvádí standardní přehled oboru (dílo z `data/sources.toml`, jen názvy, které dílo prokazatelně obsahuje), vede na heslo (`entry`) nebo nese důvod, proč heslo nemá (`excluded`, aspoň 40 znaků); engine z něj odvozuje tabulku „Pokrytí standardních přehledů“ na rozcestníku, pole `catalog_coverage` a `coverage` v exportu; chybějící heslo se doplní, ne vyloučí |
 | odkazy | `scripts/link-terms.py` odkazuje hesla katalogů podle jejich názvů a aliasů (v celé knize jen výrazné názvy, uvnitř sekcí katalogů i víceslovné) |
 | recenze | `review = "agent"` je text agenta čekající na odbornou recenzi; na `owner` ho mění jen autor |
 
@@ -51,5 +52,6 @@ katalogů zároveň podléhají bráně informační architektury (`scripts/chec
 python3 scripts/catalogs.py --check   # exit 0; všechny katalogy, stránky a exporty souhlasí
 python3 scripts/check-ia.py           # exit 0; katalogy nepřidaly žádné porušení
 bash test/run.sh                      # případ catalogs odhalí cizí citaci, ruční zásah, návod,
-                                      # stránku bez hesla, příklady bez kontrastu a duplikát kanonického hesla
+                                      # stránku bez hesla, příklady bez kontrastu, duplikát kanonického hesla,
+                                      # odstraněnou stránku knihy a název přehledu bez hesla či důvodu
 ```

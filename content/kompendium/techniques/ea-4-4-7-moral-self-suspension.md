@@ -62,18 +62,16 @@ Zasažený člověk referuje, že „tehdy to nebyl on“, a o období mluví s 
 | **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
 | **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
 
-## Indikace a kontraindikace
+## Důvody, pro které je expozice vyloučena
 
-### Legitimní indikace (vzácné, výhradně supervidovaný kontext)
-- Profesní příprava operativních složek pro extrémně náročné prostředí pod doložitelnou jurisdikcí.
-- Klinická intervence u striktně vymezených diagnóz, kde benefit prokazatelně převažuje riziko.
-- Forenzní rekonstrukce s explicitním soudním mandátem a etickým dohledem.
+Výčet situací, v nichž by odpojení morálního sebehodnocení bylo přípustné, tato kniha vědomě neuvádí; hranici popisuje [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) a zdejší text slouží jen rozpoznání. Za níže jmenovaných okolností je vyloučena bez výhrady.
 
-### Absolutní kontraindikace
-- Akutní psychiatrická krize, suicidální ideace, dekompenzovaná komorbidita.
-- Nedostatečná podpůrná síť subjektu nebo závislé sociální postavení.
-- Subjekt v mocenské asymetrii vůči operátorovi (zaměstnanec, podřízený, klient v privátní praxi bez druhého supervizora).
-- Komerční, kompetitivní nebo politické cíle protokolu.
+| Okolnost | Proč vylučuje |
+|----------|---------------|
+| Akutní psychiatrická krize, suicidální ideace, dekompenzovaná komorbidita | Bez vlastního mravního soudu chybí poslední brzda jednání proti sobě samému |
+| Nedostatečná podpůrná síť subjektu nebo závislé sociální postavení | Obnovení soudu se opírá o lidi, kteří člověku jeho jednání vrátí k posouzení; bez nich zůstává odstup trvalý |
+| Subjekt podřízený operátorovi (zaměstnanec nebo klient privátní praxe bez druhého supervizora) | Odpovědnost přesunutá na nadřízeného se subjektu nevrátí, protože ji nemá kdo vrátit |
+| Komerční, kompetitivní nebo politické cíle protokolu | Jednání, k němuž je chybějící sebehodnocení potřeba, je právě to, které nemá být vykonáno |
 
 ## Klinické markery (neúmyslná manifestace)
 

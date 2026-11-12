@@ -67,8 +67,7 @@ Konkrétní implementace vyžaduje:
 1. **Pre-implementation assessment** — verifikace předpokladů u individuálních účastníků a kohorty jako celku.
 2. **Resource provisioning** — institucionální alokace času, prostoru, personálu, technologií.
 3. **Documentation infrastructure** — systém zaznamenávání průběhu, výsledků, incidentů.
-4. **Quality assurance** — peer review nebo external observation alespoň 10 % sessions.
-5. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
+4. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
 
 Implementace je iterativní — každý cyklus generuje data informující úpravy v dalších cyklech.
 
@@ -95,6 +94,18 @@ Specificky:
 - **Nedostatek institucionální infrastruktury** — bez adekvátní podpory technika selhává a může poškozovat.
 - **Kulturně necitlivá implementace** — technika musí být adaptována pro local context, nikoli mechanicky importována.
 - **Power asymmetry** — implementace v kontextu [coercive control](@/glossary/coercive-control.md) (nedobrovolná účast) je eticky problematická.
+
+## Co certifikát nedokládá
+
+Certifikát dokládá, že určitý orgán v určité době uznal předložené podklady za dostatečné. Nedokládá způsobilost v přítomnosti: rozhodnutí je datované, zatímco praxe, které se týká, pokračuje. Nedokládá ani bezpečí supervidovaného — Ellis a kolegové (2014) zjišťovali nedostatečnou a v části případů škodlivou supervizi mezi supervizory, kteří příslušné doklady měli. Nevypovídá o tom, zda kritéria komise měří to, na čem záleží; komise může zkoušet jen to, co dokáže pozorovat, a tím zvýhodňuje uchazeče, kteří si vedou dobře právě před komisí. A nedokládá, že uchazeč zná vlastní hranice: schopnost rozpoznat vlastní nedostatečnost je sama dovednost, o niž se sebeposouzení opírá a kterou právě v pásmu nízké způsobilosti nemá o co opřít (Kruger a Dunning, 1999).
+
+## Odlišení od blízkých technik
+
+Od [certifikační pipeline](@/kompendium/techniques/ea-3-3-5-certification-pipeline.md) se certifikace liší svým předmětem: pipeline je vlastnost instituce — zda je schopna uchazeče přivést, provést a udržet — zdejší technika je rozhodnutí o jednom člověku. Od [multiparadigmatické fluence](@/kompendium/techniques/ea-3-2-2-multi-paradigm-fluency.md) a ostatních sourozeneckých technik ji odlišuje to, že sama žádnou kompetenci nerozvíjí; je rámcem, v němž se ostatní ověřují, a bez nich nemá co posuzovat. Od obvyklé akademické kvalifikace se odlišuje odvolatelností a tím, čeho se chybné rozhodnutí dotkne: diplom se neodnímá a jeho neoprávněný držitel poškozuje hlavně sebe, zde drží držitel roli nad někým, kdo do ní vstupuje zranitelný (Falender a Shafranske, 2004).
+
+## Odkud tvrzení pocházejí
+
+Kompetenční pojetí supervize — tedy přechod od odsloužených let k pojmenovaným a pozorovatelným dovednostem — je Falenderové a Shafranskeho (2004). Že z ověřovacích složek má největší vypovídací hodnotu přímé pozorování, shrnuje Milne (2009); výskyt nedostatečné supervize a to, že ji supervidovaní zpravidla nenahlásí, doložili Ellis a kolegové (2014). Nespolehlivost sebeposouzení v pásmu nízké způsobilosti popsali Kruger a Dunning (1999). *Interpretace knihy* je důsledek, který z nich zde plyne: dostupnost stížnosti mimo vlastního supervizora je součástí certifikace, nikoli jejím doplňkem. Z téhož důvodu certifikací nekončí dohled — certifikovaný supervizor zůstává sám supervidovaný, protože jinak by si právě u něj nedostatečné supervize neměl kdo všimnout.
 
 ## Vztah k jiným technikám
 
@@ -125,6 +136,7 @@ Tato edukativní technika operacionalizuje poznatky z taxonomie:
 
 - Ellis, M. V., Berger, L., Hanus, A. E., Ayala, E. E., Swords, B. A., & Siembor, M. (2014). Inadequate and harmful clinical supervision: Testing a revised framework and assessing occurrence. *The Counseling Psychologist*, 42(4).
 - Falender, C. A., & Shafranske, E. P. (2004). *Clinical Supervision: A Competency-Based Approach*. American Psychological Association.
+- Kruger, J., & Dunning, D. (1999). Unskilled and unaware of it: How difficulties in recognizing one's own incompetence lead to inflated self-assessments. *Journal of Personality and Social Psychology*, 77(6).
 - Milne, D. (2009). *Evidence-Based Clinical Supervision: Principles and Practice*. BPS Blackwell.
 
 ## Související

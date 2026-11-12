@@ -1,5 +1,789 @@
 {
  "catalog": "fauly",
+ "coverage": [
+  {
+   "entry": "ekvivokace",
+   "excluded": "",
+   "name": "Ekvivokace (equivocation)",
+   "sources": [
+    "hamblin-1970",
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "amfibolie",
+   "excluded": "",
+   "name": "Amfibolie (amphiboly)",
+   "sources": [
+    "hamblin-1970",
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "klam-skladani",
+   "excluded": "",
+   "name": "Spojení a složení (combination, composition)",
+   "sources": [
+    "hamblin-1970",
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "klam-deleni",
+   "excluded": "",
+   "name": "Rozdělení (division)",
+   "sources": [
+    "hamblin-1970",
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "klam-duraznu",
+   "excluded": "",
+   "name": "Přízvuk (accent)",
+   "sources": [
+    "hamblin-1970",
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "Aristotelův klam stojí na řecké tvarosloví (rod, slovní druh, kategorie podle koncovky); mimo řečtinu nemá samostatný protějšek a jeho moderní příbuzné pokrývají hesla ekvivokace a reifikace.",
+   "name": "Tvar výrazu (form of expression, figura dictionis)",
+   "sources": [
+    "hamblin-1970"
+   ]
+  },
+  {
+   "entry": "prilis-siroke-zobecneni",
+   "excluded": "",
+   "name": "Nahodilost (accident)",
+   "sources": [
+    "hamblin-1970",
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "ukvapene-zobecneni",
+   "excluded": "",
+   "name": "Secundum quid (ukvapené zobecnění, hasty generalization)",
+   "sources": [
+    "hamblin-1970",
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "irelevantni-zaver",
+   "excluded": "",
+   "name": "Ignoratio elenchi (minutí se tématem, missing the point)",
+   "sources": [
+    "hamblin-1970",
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "kruhovy-argument",
+   "excluded": "",
+   "name": "Petitio principii (begging the question)",
+   "sources": [
+    "hamblin-1970",
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "potvrzeni-dusledku",
+   "excluded": "",
+   "name": "Důsledek (consequent, affirming the consequent)",
+   "sources": [
+    "hamblin-1970",
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "U Aristotela jde o úzký případ: v důkazu sporem se za příčinu absurdity vydá premisa, která ji nezpůsobila. Moderní rodinu chybného přisouzení příčiny pokrývají hesla post hoc, cum hoc a klam jediné příčiny.",
+   "name": "Non causa pro causa (Aristotelovo pojetí)",
+   "sources": [
+    "hamblin-1970"
+   ]
+  },
+  {
+   "entry": "slozena-otazka",
+   "excluded": "",
+   "name": "Mnoho otázek (many questions, complex question)",
+   "sources": [
+    "hamblin-1970",
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "odvolani-na-autoritu",
+   "excluded": "",
+   "name": "Argumentum ad verecundiam (nepatřičná autorita)",
+   "sources": [
+    "hamblin-1970",
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "odvolani-na-nevedomost",
+   "excluded": "",
+   "name": "Argumentum ad ignorantiam (argument z nevědomosti)",
+   "sources": [
+    "hamblin-1970",
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "ad-hominem",
+   "excluded": "",
+   "name": "Argumentum ad hominem (útok na osobu)",
+   "sources": [
+    "hamblin-1970",
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "Locke jím označuje řádný argument z důkazu, který staví proti třem klamným argumentům „ad“; sám klamem není, a proto v katalogu klamů nemá heslo.",
+   "name": "Argumentum ad judicium",
+   "sources": [
+    "hamblin-1970"
+   ]
+  },
+  {
+   "entry": "ad-populum",
+   "excluded": "",
+   "name": "Odvolání na dav (appeal to the populace, ad populum)",
+   "sources": [
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "odvolani-na-emoce",
+   "excluded": "",
+   "name": "Odvolání na emoce (appeal to emotion)",
+   "sources": [
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "cerveny-sled",
+   "excluded": "",
+   "name": "Falešná stopa (red herring)",
+   "sources": [
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "slameny-panak",
+   "excluded": "",
+   "name": "Slaměný panák (straw man)",
+   "sources": [
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "odvolani-na-silu",
+   "excluded": "",
+   "name": "Odvolání na sílu (appeal to force, ad baculum)",
+   "sources": [
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "post-hoc",
+   "excluded": "",
+   "name": "Falešná příčina (false cause, post hoc)",
+   "sources": [
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "popreni-predchudce",
+   "excluded": "",
+   "name": "Popření předchůdce (denying the antecedent)",
+   "sources": [
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "ctyri-terminy",
+   "excluded": "",
+   "name": "Klam čtyř termínů (four terms)",
+   "sources": [
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "nerozlozeny-stredni-termin",
+   "excluded": "",
+   "name": "Nerozložený střední termín (undistributed middle)",
+   "sources": [
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "nedovoleny-vetsi-termin",
+   "excluded": "",
+   "name": "Nedovolený větší termín (illicit major)",
+   "sources": [
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "nedovoleny-mensi-termin",
+   "excluded": "",
+   "name": "Nedovolený menší termín (illicit minor)",
+   "sources": [
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "vylucujici-premisy",
+   "excluded": "",
+   "name": "Záporné premisy (exclusive premises)",
+   "sources": [
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "kladny-zaver-ze-zaporne-premisy",
+   "excluded": "",
+   "name": "Kladný závěr ze záporné premisy (affirmative conclusion from a negative premise)",
+   "sources": [
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "existencni-klam",
+   "excluded": "",
+   "name": "Existenční klam (existential fallacy)",
+   "sources": [
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "irelevantni-zaver",
+   "excluded": "",
+   "name": "Irrelevant Conclusion (2.6)",
+   "sources": [
+    "tindale-2007"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "Umbrella heading over the syllogism rules already covered (undistributed middle, illicit major and minor)",
+   "name": "Fallacies of Distribution (3.2)",
+   "sources": [
+    "tindale-2007"
+   ]
+  },
+  {
+   "entry": "vagnost",
+   "excluded": "",
+   "name": "Vagueness (4.4)",
+   "sources": [
+    "tindale-2007"
+   ]
+  },
+  {
+   "entry": "odvolani-na-soucit",
+   "excluded": "",
+   "name": "Argumentum Ad Misericordiam (6.4)",
+   "sources": [
+    "tindale-2007"
+   ]
+  },
+  {
+   "entry": "ukvapene-zobecneni",
+   "excluded": "",
+   "name": "Fallacy of Insufficient Statistics (8.5)",
+   "sources": [
+    "tindale-2007"
+   ]
+  },
+  {
+   "entry": "zkresleny-vyber",
+   "excluded": "",
+   "name": "Fallacy of Biased Statistics (8.6)",
+   "sources": [
+    "tindale-2007"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "Methodological error in data, not a pattern of argument",
+   "name": "Measurement Errors (8.7)",
+   "sources": [
+    "tindale-2007"
+   ]
+  },
+  {
+   "entry": "odvolani-na-dusledky",
+   "excluded": "",
+   "name": "The Argument from Consequences (9.4)",
+   "sources": [
+    "tindale-2007"
+   ]
+  },
+  {
+   "entry": "kluzky-svah",
+   "excluded": "",
+   "name": "The Fallacy of the Slippery Slope (9.5)",
+   "sources": [
+    "tindale-2007"
+   ]
+  },
+  {
+   "entry": "falesna-analogie",
+   "excluded": "",
+   "name": "False Analogy (10.2)",
+   "sources": [
+    "tindale-2007"
+   ]
+  },
+  {
+   "entry": "odvolani-na-precedent",
+   "excluded": "",
+   "name": "Fallacious Appeal to Precedent (10.3)",
+   "sources": [
+    "tindale-2007"
+   ]
+  },
+  {
+   "entry": "dve-kriva-jedno-pravo",
+   "excluded": "",
+   "name": "Two Wrongs by Analogy (10.4)",
+   "sources": [
+    "tindale-2007"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "Millovo souhrnné záhlaví třídy klamů a priori, nikoli jednotlivý klam; jeho jednotlivé případy pokrývají jiná hesla katalogu",
+   "name": "Fallacies of Simple Inspection, or a priori Fallacies (III)",
+   "sources": [
+    "mill-1843"
+   ]
+  },
+  {
+   "entry": "argument-z-neuveritelnosti",
+   "excluded": "",
+   "name": "\"what is inconceivable must be false\" (III §3)",
+   "sources": [
+    "mill-1843"
+   ]
+  },
+  {
+   "entry": "reifikace",
+   "excluded": "",
+   "name": "Ascribing objective existence to abstractions (III §4)",
+   "sources": [
+    "mill-1843"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "Metaphysical a priori reasoning, not a pattern of everyday argument",
+   "name": "Fallacy of the Sufficient Reason (III §5)",
+   "sources": [
+    "mill-1843"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "A prejudice about classification; nearest reifikace",
+   "name": "Differences in nature correspond to distinctions in language (III §6)",
+   "sources": [
+    "mill-1843"
+   ]
+  },
+  {
+   "entry": "jedina-pricina",
+   "excluded": "",
+   "name": "A phenomenon cannot have more than one cause (III §7)",
+   "sources": [
+    "mill-1843"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "Chyba vnímání a pozorování, nikoli chyba úsudku z premis; katalog klamů argumentace ji proto nevede jako heslo",
+   "name": "Mal-observation (IV §5)",
+   "sources": [
+    "mill-1843"
+   ]
+  },
+  {
+   "entry": "korelace-a-kauzalita",
+   "excluded": "",
+   "name": "Fallacy of mistaking empirical for causal laws (V §4)",
+   "sources": [
+    "mill-1843"
+   ]
+  },
+  {
+   "entry": "falesna-analogie",
+   "excluded": "",
+   "name": "Fallacy of False Analogies (V §6)",
+   "sources": [
+    "mill-1843"
+   ]
+  },
+  {
+   "entry": "nedovolena-konverze",
+   "excluded": "",
+   "name": "Fallacies in the conversion … of propositions (VI §2)",
+   "sources": [
+    "mill-1843"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "Mill's term for shifting premises mid-argument; nearest posouvani-branek",
+   "name": "Fallacy of changing the premisses (VI §4)",
+   "sources": [
+    "mill-1843"
+   ]
+  },
+  {
+   "entry": "ekvivokace",
+   "excluded": "",
+   "name": "Fallacy of Ambiguous Terms (VII §1)",
+   "sources": [
+    "mill-1843"
+   ]
+  },
+  {
+   "entry": "odvolani-na-starobylost",
+   "excluded": "",
+   "name": "The Wisdom of our Ancestors, or Chinese Argument, ad verecundiam (I.2)",
+   "sources": [
+    "bentham-1824"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "A political-procedural argument about legislation",
+   "name": "Fallacy of irrevocable Laws (I.3.1)",
+   "sources": [
+    "bentham-1824"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "Benthamův klam parlamentní a politické debaty (odklad, obstrukce, obhajoba privilegií), vázaný na politickou proceduru; katalog obecných klamů argumentace ho jako samostatné heslo nevede",
+   "name": "Fallacy of Vows or promissory Oaths (I.3.2)",
+   "sources": [
+    "bentham-1824"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "A politician's self-praise; no general counterpart",
+   "name": "The Self-trumpeter's Fallacy (I.5.2)",
+   "sources": [
+    "bentham-1824"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "An inverted ad hominem; too narrow for an entry",
+   "name": "Laudatory Personalities, ad amicitiam (I.6)",
+   "sources": [
+    "bentham-1824"
+   ]
+  },
+  {
+   "entry": "ad-hominem",
+   "excluded": "",
+   "name": "Vituperative Personalities, ad odium (II.1)",
+   "sources": [
+    "bentham-1824"
+   ]
+  },
+  {
+   "entry": "vina-asociaci",
+   "excluded": "",
+   "name": "Imputation of suspicious connections, noscitur ex sociis (II.1.5)",
+   "sources": [
+    "bentham-1824"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "Political shielding by identification with the state",
+   "name": "Official Malefactor's Screen, \"Attack us, you attack Government\" (II.4)",
+   "sources": [
+    "bentham-1824"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "Deterring accusations by threatening the accuser with infamy",
+   "name": "Accusation-scarer's Device (II.5)",
+   "sources": [
+    "bentham-1824"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "Benthamův klam parlamentní a politické debaty (odklad, obstrukce, obhajoba privilegií), vázaný na politickou proceduru; katalog obecných klamů argumentace ho jako samostatné heslo nevede",
+   "name": "The Quietist, or \"No Complaint\" (III.1)",
+   "sources": [
+    "bentham-1824"
+   ]
+  },
+  {
+   "entry": "falesna-utecha",
+   "excluded": "",
+   "name": "Fallacy of False-consolation (III.2)",
+   "sources": [
+    "bentham-1824"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "Benthamův klam parlamentní a politické debaty (odklad, obstrukce, obhajoba privilegií), vázaný na politickou proceduru; katalog obecných klamů argumentace ho jako samostatné heslo nevede",
+   "name": "Procrastinator's Argument (III.3)",
+   "sources": [
+    "bentham-1824"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "Benthamův klam parlamentní a politické debaty (odklad, obstrukce, obhajoba privilegií), vázaný na politickou proceduru; katalog obecných klamů argumentace ho jako samostatné heslo nevede",
+   "name": "Snail's-pace Argument (III.4)",
+   "sources": [
+    "bentham-1824"
+   ]
+  },
+  {
+   "entry": "cerveny-sled",
+   "excluded": "",
+   "name": "Fallacy of artful Diversion (III.5)",
+   "sources": [
+    "bentham-1824"
+   ]
+  },
+  {
+   "entry": "nabity-jazyk",
+   "excluded": "",
+   "name": "Question-begging Appellatives (IV.1)",
+   "sources": [
+    "bentham-1824"
+   ]
+  },
+  {
+   "entry": "vagnost",
+   "excluded": "",
+   "name": "Vague Generalities (IV.3)",
+   "sources": [
+    "bentham-1824"
+   ]
+  },
+  {
+   "entry": "rozliseni-bez-rozdilu",
+   "excluded": "",
+   "name": "Sham Distinctions (IV.6)",
+   "sources": [
+    "bentham-1824"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "Benthamův klam parlamentní a politické debaty (odklad, obstrukce, obhajoba privilegií), vázaný na politickou proceduru; katalog obecných klamů argumentace ho jako samostatné heslo nevede",
+   "name": "Popular Corruption, ad superbiam (IV.7)",
+   "sources": [
+    "bentham-1824"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "Political; the closest general pattern is not in the catalogue",
+   "name": "Anti-rational Fallacies, incl. \"Good in theory, bad in practice\" (IV.9)",
+   "sources": [
+    "bentham-1824"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "Benthamův klam parlamentní a politické debaty (odklad, obstrukce, obhajoba privilegií), vázaný na politickou proceduru; katalog obecných klamů argumentace ho jako samostatné heslo nevede",
+   "name": "Paradoxical Assertion (IV.10)",
+   "sources": [
+    "bentham-1824"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "A narrow case of false cause, like Aristotle's non causa (already excluded)",
+   "name": "Non-causa pro causâ: Cause and Obstacle confounded (IV.11)",
+   "sources": [
+    "bentham-1824"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "Benthamův klam parlamentní a politické debaty (odklad, obstrukce, obhajoba privilegií), vázaný na politickou proceduru; katalog obecných klamů argumentace ho jako samostatné heslo nevede",
+   "name": "Partiality-preacher's Argument, \"From the abuse argue not against the use\" (IV.12)",
+   "sources": [
+    "bentham-1824"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "An ethical maxim, not an argument pattern",
+   "name": "The End justifies the Means (IV.13)",
+   "sources": [
+    "bentham-1824"
+   ]
+  },
+  {
+   "entry": "odvolani-na-emoce",
+   "excluded": "",
+   "name": "4 Appeals to emotion",
+   "sources": [
+    "walton-2008"
+   ]
+  },
+  {
+   "entry": "ad-hominem",
+   "excluded": "",
+   "name": "6 Personal attack in argumentation",
+   "sources": [
+    "walton-2008"
+   ]
+  },
+  {
+   "entry": "odvolani-na-autoritu",
+   "excluded": "",
+   "name": "7 Appeals to authority",
+   "sources": [
+    "walton-2008"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "Souhrnná kapitola o induktivních chybách; jednotlivé klamy, které obsahuje, pokrývají hesla ukvapené zobecnění, zkreslený výběr a další",
+   "name": "8 Inductive errors, bias, and fallacies",
+   "sources": [
+    "walton-2008"
+   ]
+  },
+  {
+   "entry": "naturalisticky-klam",
+   "excluded": "",
+   "name": "Naturalistic fallacy",
+   "sources": [
+    "moore-1903"
+   ]
+  },
+  {
+   "entry": "klam-konjunkce",
+   "excluded": "",
+   "name": "Conjunction fallacy",
+   "sources": [
+    "tversky-kahneman-1983"
+   ]
+  },
+  {
+   "entry": "zakon-malych-cisel",
+   "excluded": "",
+   "name": "Law of small numbers",
+   "sources": [
+    "tversky-kahneman-1971"
+   ]
+  },
+  {
+   "entry": "horka-ruka",
+   "excluded": "",
+   "name": "Hot hand (misperception of random sequences)",
+   "sources": [
+    "gilovich-vallone-tversky-1985"
+   ]
+  },
+  {
+   "entry": "klam-utopenych-nakladu",
+   "excluded": "",
+   "name": "Sunk cost",
+   "sources": [
+    "arkes-blumer-1985"
+   ]
+  },
+  {
+   "entry": "klam-zalobce",
+   "excluded": "",
+   "name": "The prosecutor's fallacy",
+   "sources": [
+    "thompson-schumann-1987"
+   ]
+  },
+  {
+   "entry": "klam-obhajce",
+   "excluded": "",
+   "name": "The defense attorney's fallacy",
+   "sources": [
+    "thompson-schumann-1987"
+   ]
+  },
+  {
+   "entry": "nekonzistence",
+   "excluded": "",
+   "name": "Incoherence",
+   "sources": [
+    "roozenbeek-2022"
+   ]
+  },
+  {
+   "entry": "falesne-dilema",
+   "excluded": "",
+   "name": "False dichotomies",
+   "sources": [
+    "roozenbeek-2022"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "Propagandistická technika hledání obětního beránka, nikoli forma chybného úsudku z premis; katalog klamů argumentace ji proto nevede jako heslo",
+   "name": "Scapegoating",
+   "sources": [
+    "roozenbeek-2022"
+   ]
+  },
+  {
+   "entry": "ad-hominem",
+   "excluded": "",
+   "name": "Ad hominem attacks",
+   "sources": [
+    "roozenbeek-2022"
+   ]
+  },
+  {
+   "entry": "falesna-vyvazenost",
+   "excluded": "",
+   "name": "False balance",
+   "sources": [
+    "cook-lewandowsky-ecker-2017"
+   ]
+  },
+  {
+   "entry": "falesna-vyvazenost",
+   "excluded": "",
+   "name": "Balance as bias",
+   "sources": [
+    "boykoff-boykoff-2004"
+   ]
+  },
+  {
+   "entry": "palba-nepravd",
+   "excluded": "",
+   "name": "Firehose of Falsehood",
+   "sources": [
+    "paul-matthews-2016"
+   ]
+  }
+ ],
  "edges": [
   {
    "from": "formalni-klam",
@@ -1004,6 +1788,161 @@
   {
    "from": "klam-klamu",
    "to": "kompendium/techniques/ea-1-3-3-tematicka-diverze.md",
+   "type": "prose"
+  },
+  {
+   "from": "kladny-zaver-ze-zaporne-premisy",
+   "to": "formalni-klam",
+   "type": "broader"
+  },
+  {
+   "from": "kladny-zaver-ze-zaporne-premisy",
+   "to": "vylucujici-premisy",
+   "type": "related"
+  },
+  {
+   "from": "kladny-zaver-ze-zaporne-premisy",
+   "to": "existencni-klam",
+   "type": "related"
+  },
+  {
+   "from": "kladny-zaver-ze-zaporne-premisy",
+   "to": "nerozlozeny-stredni-termin",
+   "type": "related"
+  },
+  {
+   "from": "kladny-zaver-ze-zaporne-premisy",
+   "to": "nedovoleny-vetsi-termin",
+   "type": "related"
+  },
+  {
+   "from": "kladny-zaver-ze-zaporne-premisy",
+   "to": "odvolani-na-nevedomost",
+   "type": "related"
+  },
+  {
+   "from": "kladny-zaver-ze-zaporne-premisy",
+   "to": "kompendium/forensic-legal/_index.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "kladny-zaver-ze-zaporne-premisy",
+   "to": "kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "kladny-zaver-ze-zaporne-premisy",
+   "to": "kompendium/03-zakladni-kategorie/kapitola-1.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "kladny-zaver-ze-zaporne-premisy",
+   "to": "kompendium/01-predmluva/jak-pouzivat.md",
+   "type": "prose"
+  },
+  {
+   "from": "kladny-zaver-ze-zaporne-premisy",
+   "to": "kompendium/argumentacni-fauly/formalni/vylucujici-premisy.md",
+   "type": "prose"
+  },
+  {
+   "from": "kladny-zaver-ze-zaporne-premisy",
+   "to": "kompendium/argumentacni-fauly/relevance/odvolani-na-nevedomost.md",
+   "type": "prose"
+  },
+  {
+   "from": "kladny-zaver-ze-zaporne-premisy",
+   "to": "kompendium/argumentacni-fauly/teorie-argumentace/pragma-dialektika.md",
+   "type": "prose"
+  },
+  {
+   "from": "kladny-zaver-ze-zaporne-premisy",
+   "to": "kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md",
+   "type": "prose"
+  },
+  {
+   "from": "nedovolena-konverze",
+   "to": "formalni-klam",
+   "type": "broader"
+  },
+  {
+   "from": "nedovolena-konverze",
+   "to": "potvrzeni-dusledku",
+   "type": "related"
+  },
+  {
+   "from": "nedovolena-konverze",
+   "to": "existencni-klam",
+   "type": "related"
+  },
+  {
+   "from": "nedovolena-konverze",
+   "to": "nedovoleny-vetsi-termin",
+   "type": "related"
+  },
+  {
+   "from": "nedovolena-konverze",
+   "to": "klam-zalobce",
+   "type": "related"
+  },
+  {
+   "from": "nedovolena-konverze",
+   "to": "zanedbani-zakladni-miry",
+   "type": "related"
+  },
+  {
+   "from": "nedovolena-konverze",
+   "to": "kompendium/forensic-legal/_index.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "nedovolena-konverze",
+   "to": "kompendium/techniques/ea-7-3-2-tversky-heuristics.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "nedovolena-konverze",
+   "to": "kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "nedovolena-konverze",
+   "to": "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "nedovolena-konverze",
+   "to": "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+   "type": "prose"
+  },
+  {
+   "from": "nedovolena-konverze",
+   "to": "kompendium/argumentacni-fauly/formalni/existencni-klam.md",
+   "type": "prose"
+  },
+  {
+   "from": "nedovolena-konverze",
+   "to": "kompendium/argumentacni-fauly/formalni/nedovoleny-mensi-termin.md",
+   "type": "prose"
+  },
+  {
+   "from": "nedovolena-konverze",
+   "to": "kompendium/argumentacni-fauly/formalni/nedovoleny-vetsi-termin.md",
+   "type": "prose"
+  },
+  {
+   "from": "nedovolena-konverze",
+   "to": "kompendium/argumentacni-fauly/formalni/potvrzeni-dusledku.md",
+   "type": "prose"
+  },
+  {
+   "from": "nedovolena-konverze",
+   "to": "kompendium/argumentacni-fauly/statisticke/klam-zalobce.md",
+   "type": "prose"
+  },
+  {
+   "from": "nedovolena-konverze",
+   "to": "kompendium/argumentacni-fauly/statisticke/zanedbani-zakladni-miry.md",
    "type": "prose"
   },
   {
@@ -3127,6 +4066,91 @@
    "type": "prose"
   },
   {
+   "from": "falesna-utecha",
+   "to": "whataboutism",
+   "type": "related"
+  },
+  {
+   "from": "falesna-utecha",
+   "to": "dve-kriva-jedno-pravo",
+   "type": "related"
+  },
+  {
+   "from": "falesna-utecha",
+   "to": "cerveny-sled",
+   "type": "related"
+  },
+  {
+   "from": "falesna-utecha",
+   "to": "irelevantni-zaver",
+   "type": "related"
+  },
+  {
+   "from": "falesna-utecha",
+   "to": "nirvana-klam",
+   "type": "related"
+  },
+  {
+   "from": "falesna-utecha",
+   "to": "pravidlo-relevance",
+   "type": "related"
+  },
+  {
+   "from": "falesna-utecha",
+   "to": "kompendium/techniques/ea-1-3-3-tematicka-diverze.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "falesna-utecha",
+   "to": "kompendium/organizational-defense/36-trauma-aware-management.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "falesna-utecha",
+   "to": "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "falesna-utecha",
+   "to": "kompendium/argumentacni-fauly/predpoklady-argumentu/nirvana-klam.md",
+   "type": "prose"
+  },
+  {
+   "from": "falesna-utecha",
+   "to": "kompendium/argumentacni-fauly/relevance/cerveny-sled.md",
+   "type": "prose"
+  },
+  {
+   "from": "falesna-utecha",
+   "to": "kompendium/argumentacni-fauly/relevance/dve-kriva-jedno-pravo.md",
+   "type": "prose"
+  },
+  {
+   "from": "falesna-utecha",
+   "to": "kompendium/argumentacni-fauly/relevance/irelevantni-zaver.md",
+   "type": "prose"
+  },
+  {
+   "from": "falesna-utecha",
+   "to": "kompendium/argumentacni-fauly/relevance/whataboutism.md",
+   "type": "prose"
+  },
+  {
+   "from": "falesna-utecha",
+   "to": "kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-relevance.md",
+   "type": "prose"
+  },
+  {
+   "from": "falesna-utecha",
+   "to": "kompendium/organizational-defense/36-trauma-aware-management.md",
+   "type": "prose"
+  },
+  {
+   "from": "falesna-utecha",
+   "to": "kompendium/techniques/ea-1-3-3-tematicka-diverze.md",
+   "type": "prose"
+  },
+  {
    "from": "kruhovy-argument",
    "to": "dokaz-tvrzenim",
    "type": "related"
@@ -4379,6 +5403,241 @@
   {
    "from": "dokaz-tvrzenim",
    "to": "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md",
+   "type": "prose"
+  },
+  {
+   "from": "falesna-analogie",
+   "to": "falesna-ekvivalence",
+   "type": "related"
+  },
+  {
+   "from": "falesna-analogie",
+   "to": "ukvapene-zobecneni",
+   "type": "related"
+  },
+  {
+   "from": "falesna-analogie",
+   "to": "som-analogie",
+   "type": "related"
+  },
+  {
+   "from": "falesna-analogie",
+   "to": "izomorfni-metafora",
+   "type": "related"
+  },
+  {
+   "from": "falesna-analogie",
+   "to": "kluzky-svah",
+   "type": "related"
+  },
+  {
+   "from": "falesna-analogie",
+   "to": "kompendium/07-teoreticke-reflexe/lakoff-conceptual-metaphor.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "falesna-analogie",
+   "to": "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "falesna-analogie",
+   "to": "kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "falesna-analogie",
+   "to": "kompendium/07-teoreticke-reflexe/lakoff-conceptual-metaphor.md",
+   "type": "prose"
+  },
+  {
+   "from": "falesna-analogie",
+   "to": "kompendium/argumentacni-fauly/predpoklady-argumentu/ukvapene-zobecneni.md",
+   "type": "prose"
+  },
+  {
+   "from": "falesna-analogie",
+   "to": "kompendium/argumentacni-fauly/teorie-argumentace/argumentacni-schemata.md",
+   "type": "prose"
+  },
+  {
+   "from": "falesna-analogie",
+   "to": "kompendium/argumentacni-fauly/teorie-argumentace/argumentacni-teorie-uvazovani.md",
+   "type": "prose"
+  },
+  {
+   "from": "falesna-analogie",
+   "to": "kompendium/argumentacni-fauly/teorie-argumentace/pragma-dialektika.md",
+   "type": "prose"
+  },
+  {
+   "from": "falesna-analogie",
+   "to": "kompendium/nlp-vzorce/sleight-of-mouth/som-analogie.md",
+   "type": "prose"
+  },
+  {
+   "from": "falesna-analogie",
+   "to": "kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md",
+   "type": "prose"
+  },
+  {
+   "from": "odvolani-na-precedent",
+   "to": "falesna-analogie",
+   "type": "broader"
+  },
+  {
+   "from": "odvolani-na-precedent",
+   "to": "odvolani-na-tradici",
+   "type": "related"
+  },
+  {
+   "from": "odvolani-na-precedent",
+   "to": "dve-kriva-jedno-pravo",
+   "type": "related"
+  },
+  {
+   "from": "odvolani-na-precedent",
+   "to": "zvlastni-vyjimka",
+   "type": "related"
+  },
+  {
+   "from": "odvolani-na-precedent",
+   "to": "kluzky-svah",
+   "type": "related"
+  },
+  {
+   "from": "odvolani-na-precedent",
+   "to": "odvolani-na-starobylost",
+   "type": "related"
+  },
+  {
+   "from": "odvolani-na-precedent",
+   "to": "kompendium/forensic-legal/_index.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "odvolani-na-precedent",
+   "to": "kompendium/forensic-legal/29-judicial-education.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "odvolani-na-precedent",
+   "to": "kompendium/organizational-defense/_index.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "odvolani-na-precedent",
+   "to": "kompendium/argumentacni-fauly/predpoklady-argumentu/falesna-analogie.md",
+   "type": "prose"
+  },
+  {
+   "from": "odvolani-na-precedent",
+   "to": "kompendium/argumentacni-fauly/predpoklady-argumentu/kluzky-svah.md",
+   "type": "prose"
+  },
+  {
+   "from": "odvolani-na-precedent",
+   "to": "kompendium/argumentacni-fauly/relevance/dve-kriva-jedno-pravo.md",
+   "type": "prose"
+  },
+  {
+   "from": "odvolani-na-precedent",
+   "to": "kompendium/argumentacni-fauly/relevance/odvolani-na-tradici.md",
+   "type": "prose"
+  },
+  {
+   "from": "odvolani-na-precedent",
+   "to": "kompendium/argumentacni-fauly/teorie-argumentace/pragma-dialektika.md",
+   "type": "prose"
+  },
+  {
+   "from": "nekonzistence",
+   "to": "tu-quoque",
+   "type": "related"
+  },
+  {
+   "from": "nekonzistence",
+   "to": "kruhovy-argument",
+   "type": "related"
+  },
+  {
+   "from": "nekonzistence",
+   "to": "zvlastni-vyjimka",
+   "type": "related"
+  },
+  {
+   "from": "nekonzistence",
+   "to": "posouvani-branek",
+   "type": "related"
+  },
+  {
+   "from": "nekonzistence",
+   "to": "palba-nepravd",
+   "type": "related"
+  },
+  {
+   "from": "nekonzistence",
+   "to": "kafkapast",
+   "type": "related"
+  },
+  {
+   "from": "nekonzistence",
+   "to": "kompendium/techniques/ea-4-1-gaslighting.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "nekonzistence",
+   "to": "kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "nekonzistence",
+   "to": "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "nekonzistence",
+   "to": "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "nekonzistence",
+   "to": "glossary/double-bind.md",
+   "type": "prose"
+  },
+  {
+   "from": "nekonzistence",
+   "to": "kompendium/argumentacni-fauly/dialekticke-taktiky/kafkapast.md",
+   "type": "prose"
+  },
+  {
+   "from": "nekonzistence",
+   "to": "kompendium/argumentacni-fauly/dialekticke-taktiky/palba-nepravd.md",
+   "type": "prose"
+  },
+  {
+   "from": "nekonzistence",
+   "to": "kompendium/argumentacni-fauly/predpoklady-argumentu/zvlastni-vyjimka.md",
+   "type": "prose"
+  },
+  {
+   "from": "nekonzistence",
+   "to": "kompendium/argumentacni-fauly/relevance/tu-quoque.md",
+   "type": "prose"
+  },
+  {
+   "from": "nekonzistence",
+   "to": "kompendium/argumentacni-fauly/teorie-argumentace/pragma-dialektika.md",
+   "type": "prose"
+  },
+  {
+   "from": "nekonzistence",
+   "to": "kompendium/argumentacni-fauly/teorie-argumentace/princip-shovivavosti.md",
+   "type": "prose"
+  },
+  {
+   "from": "nekonzistence",
+   "to": "kompendium/techniques/ea-4-1-gaslighting.md",
    "type": "prose"
   },
   {
@@ -6867,6 +8126,166 @@
    "type": "prose"
   },
   {
+   "from": "vagnost",
+   "to": "ekvivokace",
+   "type": "related"
+  },
+  {
+   "from": "vagnost",
+   "to": "vyhybava-slova",
+   "type": "related"
+  },
+  {
+   "from": "vagnost",
+   "to": "umyslna-vagnost",
+   "type": "related"
+  },
+  {
+   "from": "vagnost",
+   "to": "pravidlo-uzivani-jazyka",
+   "type": "related"
+  },
+  {
+   "from": "vagnost",
+   "to": "nefalzifikovatelnost",
+   "type": "related"
+  },
+  {
+   "from": "vagnost",
+   "to": "rozliseni-bez-rozdilu",
+   "type": "related"
+  },
+  {
+   "from": "vagnost",
+   "to": "kompendium/detection-signatures/10-behavioral-resistance-to-clarification.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "vagnost",
+   "to": "kompendium/detection-signatures/8-linguistic-semantic-erosion.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "vagnost",
+   "to": "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "vagnost",
+   "to": "kompendium/argumentacni-fauly/jazykove-klamy/ekvivokace.md",
+   "type": "prose"
+  },
+  {
+   "from": "vagnost",
+   "to": "kompendium/argumentacni-fauly/jazykove-klamy/vyhybava-slova.md",
+   "type": "prose"
+  },
+  {
+   "from": "vagnost",
+   "to": "kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-uzivani-jazyka.md",
+   "type": "prose"
+  },
+  {
+   "from": "vagnost",
+   "to": "kompendium/detection-signatures/10-behavioral-resistance-to-clarification.md",
+   "type": "prose"
+  },
+  {
+   "from": "vagnost",
+   "to": "kompendium/detection-signatures/8-linguistic-semantic-erosion.md",
+   "type": "prose"
+  },
+  {
+   "from": "vagnost",
+   "to": "kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md",
+   "type": "prose"
+  },
+  {
+   "from": "vagnost",
+   "to": "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md",
+   "type": "prose"
+  },
+  {
+   "from": "rozliseni-bez-rozdilu",
+   "to": "vagnost",
+   "type": "related"
+  },
+  {
+   "from": "rozliseni-bez-rozdilu",
+   "to": "eufemismus-a-dysfemismus",
+   "type": "related"
+  },
+  {
+   "from": "rozliseni-bez-rozdilu",
+   "to": "presvedcovaci-definice",
+   "type": "related"
+  },
+  {
+   "from": "rozliseni-bez-rozdilu",
+   "to": "zvlastni-vyjimka",
+   "type": "related"
+  },
+  {
+   "from": "rozliseni-bez-rozdilu",
+   "to": "ekvivokace",
+   "type": "related"
+  },
+  {
+   "from": "rozliseni-bez-rozdilu",
+   "to": "pravidlo-uzivani-jazyka",
+   "type": "related"
+  },
+  {
+   "from": "rozliseni-bez-rozdilu",
+   "to": "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "rozliseni-bez-rozdilu",
+   "to": "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "rozliseni-bez-rozdilu",
+   "to": "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "rozliseni-bez-rozdilu",
+   "to": "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+   "type": "prose"
+  },
+  {
+   "from": "rozliseni-bez-rozdilu",
+   "to": "kompendium/argumentacni-fauly/jazykove-klamy/eufemismus-a-dysfemismus.md",
+   "type": "prose"
+  },
+  {
+   "from": "rozliseni-bez-rozdilu",
+   "to": "kompendium/argumentacni-fauly/jazykove-klamy/vagnost.md",
+   "type": "prose"
+  },
+  {
+   "from": "rozliseni-bez-rozdilu",
+   "to": "kompendium/argumentacni-fauly/predpoklady-argumentu/zvlastni-vyjimka.md",
+   "type": "prose"
+  },
+  {
+   "from": "rozliseni-bez-rozdilu",
+   "to": "kompendium/argumentacni-fauly/teorie-argumentace/argumentacni-teorie-uvazovani.md",
+   "type": "prose"
+  },
+  {
+   "from": "rozliseni-bez-rozdilu",
+   "to": "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
+   "type": "prose"
+  },
+  {
+   "from": "rozliseni-bez-rozdilu",
+   "to": "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
+   "type": "prose"
+  },
+  {
    "from": "gish-gallop",
    "to": "palba-nepravd",
    "type": "related"
@@ -9168,6 +10587,11 @@
   },
   {
    "from": "pravidlo-argumentacniho-schematu",
+   "to": "kompendium/argumentacni-fauly/predpoklady-argumentu/falesna-analogie.md",
+   "type": "prose"
+  },
+  {
+   "from": "pravidlo-argumentacniho-schematu",
    "to": "kompendium/argumentacni-fauly/predpoklady-argumentu/kluzky-svah.md",
    "type": "prose"
   },
@@ -10187,7 +11611,7 @@
    "family": "formalni",
    "family_code": "01",
    "family_en": "Formal fallacies",
-   "family_size": 14,
+   "family_size": 16,
    "family_title": "Formální klamy",
    "id": "AF-01.01",
    "keywords": [
@@ -10226,7 +11650,9 @@
     "zamena-kvantifikatoru",
     "klam-modalniho-rozsahu",
     "klam-maskovaneho-muze",
-    "klam-klamu"
+    "klam-klamu",
+    "kladny-zaver-ze-zaporne-premisy",
+    "nedovolena-konverze"
    ],
    "next": "potvrzeni-dusledku",
    "own": true,
@@ -10340,7 +11766,7 @@
    "family": "formalni",
    "family_code": "01",
    "family_en": "Formal fallacies",
-   "family_size": 14,
+   "family_size": 16,
    "family_title": "Formální klamy",
    "id": "AF-01.02",
    "keywords": [
@@ -10374,6 +11800,7 @@
     "formalni-klam",
     "popreni-predchudce",
     "nerozlozeny-stredni-termin",
+    "nedovolena-konverze",
     "post-hoc",
     "zanedbani-zakladni-miry",
     "klam-zalobce",
@@ -10466,7 +11893,7 @@
    "family": "formalni",
    "family_code": "01",
    "family_en": "Formal fallacies",
-   "family_size": 14,
+   "family_size": 16,
    "family_title": "Formální klamy",
    "id": "AF-01.03",
    "keywords": [
@@ -10590,7 +12017,7 @@
    "family": "formalni",
    "family_code": "01",
    "family_en": "Formal fallacies",
-   "family_size": 14,
+   "family_size": 16,
    "family_title": "Formální klamy",
    "id": "AF-01.04",
    "keywords": [
@@ -10630,6 +12057,7 @@
     "nedovoleny-mensi-termin",
     "ctyri-terminy",
     "vylucujici-premisy",
+    "kladny-zaver-ze-zaporne-premisy",
     "vina-asociaci",
     "komplexni-ekvivalence"
    ],
@@ -10716,7 +12144,7 @@
    "family": "formalni",
    "family_code": "01",
    "family_en": "Formal fallacies",
-   "family_size": 14,
+   "family_size": 16,
    "family_title": "Formální klamy",
    "id": "AF-01.05",
    "keywords": [
@@ -10750,7 +12178,9 @@
     "popreni-predchudce",
     "nerozlozeny-stredni-termin",
     "nedovoleny-mensi-termin",
-    "vylucujici-premisy"
+    "vylucujici-premisy",
+    "kladny-zaver-ze-zaporne-premisy",
+    "nedovolena-konverze"
    ],
    "related_declared": [
     "nedovoleny-mensi-termin",
@@ -10832,7 +12262,7 @@
    "family": "formalni",
    "family_code": "01",
    "family_en": "Formal fallacies",
-   "family_size": 14,
+   "family_size": 16,
    "family_title": "Formální klamy",
    "id": "AF-01.06",
    "keywords": [
@@ -10957,7 +12387,7 @@
    "family": "formalni",
    "family_code": "01",
    "family_en": "Formal fallacies",
-   "family_size": 14,
+   "family_size": 16,
    "family_title": "Formální klamy",
    "id": "AF-01.07",
    "keywords": [
@@ -11077,7 +12507,7 @@
    "family": "formalni",
    "family_code": "01",
    "family_en": "Formal fallacies",
-   "family_size": 14,
+   "family_size": 16,
    "family_title": "Formální klamy",
    "id": "AF-01.08",
    "keywords": [
@@ -11111,6 +12541,8 @@
     "ctyri-terminy",
     "vylucujici-premisy",
     "zamena-kvantifikatoru",
+    "kladny-zaver-ze-zaporne-premisy",
+    "nedovolena-konverze",
     "existencni-presupozice"
    ],
    "related_declared": [
@@ -11188,7 +12620,7 @@
    "family": "formalni",
    "family_code": "01",
    "family_en": "Formal fallacies",
-   "family_size": 14,
+   "family_size": 16,
    "family_title": "Formální klamy",
    "id": "AF-01.09",
    "keywords": [
@@ -11299,7 +12731,7 @@
    "family": "formalni",
    "family_code": "01",
    "family_en": "Formal fallacies",
-   "family_size": 14,
+   "family_size": 16,
    "family_title": "Formální klamy",
    "id": "AF-01.10",
    "keywords": [
@@ -11333,6 +12765,7 @@
     "nedovoleny-vetsi-termin",
     "ctyri-terminy",
     "existencni-klam",
+    "kladny-zaver-ze-zaporne-premisy",
     "odvolani-na-nevedomost"
    ],
    "related_declared": [
@@ -11408,7 +12841,7 @@
    "family": "formalni",
    "family_code": "01",
    "family_en": "Formal fallacies",
-   "family_size": 14,
+   "family_size": 16,
    "family_title": "Formální klamy",
    "id": "AF-01.11",
    "keywords": [
@@ -11525,7 +12958,7 @@
    "family": "formalni",
    "family_code": "01",
    "family_en": "Formal fallacies",
-   "family_size": 14,
+   "family_size": 16,
    "family_title": "Formální klamy",
    "id": "AF-01.12",
    "keywords": [
@@ -11636,7 +13069,7 @@
    "family": "formalni",
    "family_code": "01",
    "family_en": "Formal fallacies",
-   "family_size": 14,
+   "family_size": 16,
    "family_title": "Formální klamy",
    "id": "AF-01.13",
    "keywords": [
@@ -11748,7 +13181,7 @@
    "family": "formalni",
    "family_code": "01",
    "family_en": "Formal fallacies",
-   "family_size": 14,
+   "family_size": 16,
    "family_title": "Formální klamy",
    "id": "AF-01.14",
    "keywords": [
@@ -11775,7 +13208,7 @@
     "kompendium/techniques/ea-1-3-3-tematicka-diverze.md"
    ],
    "narrower": [],
-   "next": "",
+   "next": "kladny-zaver-ze-zaporne-premisy",
    "own": true,
    "part": "formalni.b",
    "path": "content/kompendium/argumentacni-fauly/formalni/klam-klamu.md",
@@ -11851,6 +13284,239 @@
   },
   {
    "aliases": [
+    "klam kladného závěru",
+    "kladný závěr ze záporu"
+   ],
+   "ancestors": [
+    "formalni-klam"
+   ],
+   "broader": "formalni-klam",
+   "canonical": "",
+   "citations": 17,
+   "cs": "Kladný závěr ze záporné premisy",
+   "data": "data/fauly/formalni.b.toml",
+   "depth": 1,
+   "description": "Formální klam sylogismu, který ze záporné premisy vyvozuje kladný závěr: proč záporné zjištění nic nepřisuzuje, kde se chyba skrývá v protokolech a jak ji poznat.",
+   "en": "Affirmative conclusion from a negative premise",
+   "family": "formalni",
+   "family_code": "01",
+   "family_en": "Formal fallacies",
+   "family_size": 16,
+   "family_title": "Formální klamy",
+   "id": "AF-01.15",
+   "keywords": [
+    "Kladný závěr ze záporné premisy",
+    "Affirmative conclusion from a negative premise",
+    "klam kladného závěru",
+    "kladný závěr ze záporu",
+    "Formální klamy",
+    "Argumentační fauly"
+   ],
+   "kompendium": [
+    "kompendium/forensic-legal/_index.md",
+    "kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md",
+    "kompendium/03-zakladni-kategorie/kapitola-1.md"
+   ],
+   "links_prose": [
+    "kompendium/01-predmluva/jak-pouzivat.md",
+    "kompendium/argumentacni-fauly/formalni/vylucujici-premisy.md",
+    "kompendium/argumentacni-fauly/relevance/odvolani-na-nevedomost.md",
+    "kompendium/argumentacni-fauly/teorie-argumentace/pragma-dialektika.md",
+    "kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md"
+   ],
+   "narrower": [],
+   "next": "nedovolena-konverze",
+   "own": true,
+   "part": "formalni.b",
+   "path": "content/kompendium/argumentacni-fauly/formalni/kladny-zaver-ze-zaporne-premisy.md",
+   "position": 15,
+   "prev": "klam-klamu",
+   "reading_minutes": 6,
+   "related": [
+    "nerozlozeny-stredni-termin",
+    "nedovoleny-vetsi-termin",
+    "existencni-klam",
+    "vylucujici-premisy",
+    "odvolani-na-nevedomost"
+   ],
+   "related_declared": [
+    "vylucujici-premisy",
+    "existencni-klam",
+    "nerozlozeny-stredni-termin",
+    "nedovoleny-vetsi-termin",
+    "odvolani-na-nevedomost"
+   ],
+   "review": "agent",
+   "risk": "nizke",
+   "risk_cs": "nízké",
+   "schema": 1,
+   "sections": [
+    "Definice",
+    "Původ a souvislosti",
+    "Struktura argumentu",
+    "Detekční znaky",
+    "Odlišení od platné argumentace",
+    "Stav poznání",
+    "Obrana a odpověď"
+   ],
+   "slug": "kladny-zaver-ze-zaporne-premisy",
+   "sources": [
+    "copi-cohen-mcmahon-2014",
+    "hamblin-1970",
+    "johnson-blair-1977",
+    "kahneman-2011",
+    "mercier-sperber-2011",
+    "stanovich-west-2000",
+    "toulmin-1958",
+    "whately-1826",
+    "eemeren-grootendorst-1992",
+    "eemeren-grootendorst-2004"
+   ],
+   "sources_critical": [
+    "kahneman-2011",
+    "mercier-sperber-2011",
+    "stanovich-west-2000"
+   ],
+   "sources_primary": [
+    "copi-cohen-mcmahon-2014",
+    "hamblin-1970",
+    "johnson-blair-1977",
+    "toulmin-1958",
+    "eemeren-grootendorst-1992",
+    "eemeren-grootendorst-2004"
+   ],
+   "sources_roots": [
+    "whately-1826"
+   ],
+   "type": "formal",
+   "type_cs": "formální klam",
+   "url": "kompendium/argumentacni-fauly/formalni/kladny-zaver-ze-zaporne-premisy/",
+   "use": "chyba",
+   "use_cs": "převážně chyba uvažování",
+   "words": 1184
+  },
+  {
+   "aliases": [
+    "chybná konverze",
+    "neplatné obrácení soudu"
+   ],
+   "ancestors": [
+    "formalni-klam"
+   ],
+   "broader": "formalni-klam",
+   "canonical": "",
+   "citations": 24,
+   "cs": "Nedovolená konverze",
+   "data": "data/fauly/formalni.pokryti.toml",
+   "depth": 1,
+   "description": "Formální klam, který z „všechna A jsou B“ vyvozuje „všechna B jsou A“: které soudy lze obrátit, jak se chyba přenáší na podmínky a pravděpodobnosti a jak ji poznat.",
+   "en": "Illicit conversion",
+   "family": "formalni",
+   "family_code": "01",
+   "family_en": "Formal fallacies",
+   "family_size": 16,
+   "family_title": "Formální klamy",
+   "id": "AF-01.16",
+   "keywords": [
+    "Nedovolená konverze",
+    "Illicit conversion",
+    "chybná konverze",
+    "neplatné obrácení soudu",
+    "Formální klamy",
+    "Argumentační fauly"
+   ],
+   "kompendium": [
+    "kompendium/forensic-legal/_index.md",
+    "kompendium/techniques/ea-7-3-2-tversky-heuristics.md",
+    "kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md",
+    "kompendium/07-teoreticke-reflexe/politicka-ea.md"
+   ],
+   "links_prose": [
+    "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+    "kompendium/argumentacni-fauly/formalni/existencni-klam.md",
+    "kompendium/argumentacni-fauly/formalni/nedovoleny-mensi-termin.md",
+    "kompendium/argumentacni-fauly/formalni/nedovoleny-vetsi-termin.md",
+    "kompendium/argumentacni-fauly/formalni/potvrzeni-dusledku.md",
+    "kompendium/argumentacni-fauly/statisticke/klam-zalobce.md",
+    "kompendium/argumentacni-fauly/statisticke/zanedbani-zakladni-miry.md"
+   ],
+   "narrower": [],
+   "next": "",
+   "own": true,
+   "part": "formalni.pokryti",
+   "path": "content/kompendium/argumentacni-fauly/formalni/nedovolena-konverze.md",
+   "position": 16,
+   "prev": "kladny-zaver-ze-zaporne-premisy",
+   "reading_minutes": 7,
+   "related": [
+    "potvrzeni-dusledku",
+    "nedovoleny-vetsi-termin",
+    "existencni-klam",
+    "zanedbani-zakladni-miry",
+    "klam-zalobce"
+   ],
+   "related_declared": [
+    "potvrzeni-dusledku",
+    "existencni-klam",
+    "nedovoleny-vetsi-termin",
+    "klam-zalobce",
+    "zanedbani-zakladni-miry"
+   ],
+   "review": "agent",
+   "risk": "stredni",
+   "risk_cs": "střední",
+   "schema": 1,
+   "sections": [
+    "Definice",
+    "Původ a souvislosti",
+    "Struktura argumentu",
+    "Detekční znaky",
+    "Odlišení od platné argumentace",
+    "Stav poznání",
+    "Obrana a odpověď"
+   ],
+   "slug": "nedovolena-konverze",
+   "sources": [
+    "cook-lewandowsky-ecker-2017",
+    "copi-cohen-mcmahon-2014",
+    "gigerenzer-2002",
+    "hahn-oaksford-2007",
+    "hamblin-1970",
+    "kahneman-2011",
+    "mill-1843",
+    "stanovich-west-2000",
+    "thompson-schumann-1987",
+    "tversky-kahneman-1974",
+    "whately-1826",
+    "eemeren-grootendorst-1992"
+   ],
+   "sources_critical": [
+    "cook-lewandowsky-ecker-2017",
+    "gigerenzer-2002",
+    "hahn-oaksford-2007",
+    "kahneman-2011",
+    "stanovich-west-2000",
+    "thompson-schumann-1987",
+    "tversky-kahneman-1974"
+   ],
+   "sources_primary": [
+    "copi-cohen-mcmahon-2014",
+    "hamblin-1970",
+    "eemeren-grootendorst-1992"
+   ],
+   "sources_roots": [
+    "mill-1843",
+    "whately-1826"
+   ],
+   "type": "formal",
+   "type_cs": "formální klam",
+   "url": "kompendium/argumentacni-fauly/formalni/nedovolena-konverze/",
+   "use": "dvoji",
+   "use_cs": "chyba i taktika",
+   "words": 1427
+  },
+  {
+   "aliases": [
     "argumentum ad hominem",
     "útok na člověka",
     "urážlivý útok na osobu"
@@ -11867,7 +13533,7 @@
    "family": "relevance",
    "family_code": "02",
    "family_en": "Fallacies of relevance",
-   "family_size": 28,
+   "family_size": 29,
    "family_title": "Klamy relevance",
    "id": "AF-02.01",
    "keywords": [
@@ -12006,7 +13672,7 @@
    "family": "relevance",
    "family_code": "02",
    "family_en": "Fallacies of relevance",
-   "family_size": 28,
+   "family_size": 29,
    "family_title": "Klamy relevance",
    "id": "AF-02.02",
    "keywords": [
@@ -12138,7 +13804,7 @@
    "family": "relevance",
    "family_code": "02",
    "family_en": "Fallacies of relevance",
-   "family_size": 28,
+   "family_size": 29,
    "family_title": "Klamy relevance",
    "id": "AF-02.03",
    "keywords": [
@@ -12180,8 +13846,10 @@
     "whataboutism",
     "dve-kriva-jedno-pravo",
     "zvlastni-vyjimka",
+    "nekonzistence",
     "personalizace-sporu",
     "pravidlo-svobody",
+    "interpunkce-komunikace",
     "som-aplikace-na-sebe"
    ],
    "related_declared": [
@@ -12268,7 +13936,7 @@
    "family": "relevance",
    "family_code": "02",
    "family_en": "Fallacies of relevance",
-   "family_size": 28,
+   "family_size": 29,
    "family_title": "Klamy relevance",
    "id": "AF-02.04",
    "keywords": [
@@ -12387,7 +14055,7 @@
    "family": "relevance",
    "family_code": "02",
    "family_en": "Fallacies of relevance",
-   "family_size": 28,
+   "family_size": 29,
    "family_title": "Klamy relevance",
    "id": "AF-02.05",
    "keywords": [
@@ -12513,7 +14181,7 @@
    "family": "relevance",
    "family_code": "02",
    "family_en": "Fallacies of relevance",
-   "family_size": 28,
+   "family_size": 29,
    "family_title": "Klamy relevance",
    "id": "AF-02.06",
    "keywords": [
@@ -12639,7 +14307,7 @@
    "family": "relevance",
    "family_code": "02",
    "family_en": "Fallacies of relevance",
-   "family_size": 28,
+   "family_size": 29,
    "family_title": "Klamy relevance",
    "id": "AF-02.07",
    "keywords": [
@@ -12688,6 +14356,7 @@
     "argumentacni-schemata",
     "bayesovske-pojeti-klamu",
     "inokulace-proti-klamum",
+    "symetricka-a-komplementarni-interakce",
     "guru-efekt",
     "neuro-zargon"
    ],
@@ -12775,7 +14444,7 @@
    "family": "relevance",
    "family_code": "02",
    "family_en": "Fallacies of relevance",
-   "family_size": 28,
+   "family_size": 29,
    "family_title": "Klamy relevance",
    "id": "AF-02.08",
    "keywords": [
@@ -12896,7 +14565,7 @@
    "family": "relevance",
    "family_code": "02",
    "family_en": "Fallacies of relevance",
-   "family_size": 28,
+   "family_size": 29,
    "family_title": "Klamy relevance",
    "id": "AF-02.09",
    "keywords": [
@@ -13022,7 +14691,7 @@
    "family": "relevance",
    "family_code": "02",
    "family_en": "Fallacies of relevance",
-   "family_size": 28,
+   "family_size": 29,
    "family_title": "Klamy relevance",
    "id": "AF-02.10",
    "keywords": [
@@ -13139,7 +14808,7 @@
    "family": "relevance",
    "family_code": "02",
    "family_en": "Fallacies of relevance",
-   "family_size": 28,
+   "family_size": 29,
    "family_title": "Klamy relevance",
    "id": "AF-02.11",
    "keywords": [
@@ -13178,6 +14847,7 @@
     "chronologicky-snobismus",
     "nirvana-klam",
     "klam-utopenych-nakladu",
+    "odvolani-na-precedent",
     "je-a-ma-byt",
     "odvolani-na-starobylost"
    ],
@@ -13259,7 +14929,7 @@
    "family": "relevance",
    "family_code": "02",
    "family_en": "Fallacies of relevance",
-   "family_size": 28,
+   "family_size": 29,
    "family_title": "Klamy relevance",
    "id": "AF-02.12",
    "keywords": [
@@ -13378,7 +15048,7 @@
    "family": "relevance",
    "family_code": "02",
    "family_en": "Fallacies of relevance",
-   "family_size": 28,
+   "family_size": 29,
    "family_title": "Klamy relevance",
    "id": "AF-02.13",
    "keywords": [
@@ -13508,7 +15178,7 @@
    "family": "relevance",
    "family_code": "02",
    "family_en": "Fallacies of relevance",
-   "family_size": 28,
+   "family_size": 29,
    "family_title": "Klamy relevance",
    "id": "AF-02.14",
    "keywords": [
@@ -13631,7 +15301,7 @@
    "family": "relevance",
    "family_code": "02",
    "family_en": "Fallacies of relevance",
-   "family_size": 28,
+   "family_size": 29,
    "family_title": "Klamy relevance",
    "id": "AF-02.15",
    "keywords": [
@@ -13746,7 +15416,7 @@
    "family": "relevance",
    "family_code": "02",
    "family_en": "Fallacies of relevance",
-   "family_size": 28,
+   "family_size": 29,
    "family_title": "Klamy relevance",
    "id": "AF-02.16",
    "keywords": [
@@ -13782,7 +15452,8 @@
     "odvolani-na-dusledky",
     "kontrola-tonu",
     "personalizace-sporu",
-    "pravidlo-svobody"
+    "pravidlo-svobody",
+    "symetricka-a-komplementarni-interakce"
    ],
    "related_declared": [
     "odvolani-na-strach",
@@ -13864,7 +15535,7 @@
    "family": "relevance",
    "family_code": "02",
    "family_en": "Fallacies of relevance",
-   "family_size": 28,
+   "family_size": 29,
    "family_title": "Klamy relevance",
    "id": "AF-02.17",
    "keywords": [
@@ -13971,7 +15642,7 @@
    "family": "relevance",
    "family_code": "02",
    "family_en": "Fallacies of relevance",
-   "family_size": 28,
+   "family_size": 29,
    "family_title": "Klamy relevance",
    "id": "AF-02.18",
    "keywords": [
@@ -14093,7 +15764,7 @@
    "family": "relevance",
    "family_code": "02",
    "family_en": "Fallacies of relevance",
-   "family_size": 28,
+   "family_size": 29,
    "family_title": "Klamy relevance",
    "id": "AF-02.19",
    "keywords": [
@@ -14132,6 +15803,7 @@
     "whataboutism",
     "kontrola-tonu",
     "irelevantni-zaver",
+    "falesna-utecha",
     "odvedeni-k-procedure",
     "pravidlo-relevance",
     "vyzva-k-relevanci",
@@ -14218,7 +15890,7 @@
    "family": "relevance",
    "family_code": "02",
    "family_en": "Fallacies of relevance",
-   "family_size": 28,
+   "family_size": 29,
    "family_title": "Klamy relevance",
    "id": "AF-02.20",
    "keywords": [
@@ -14347,7 +16019,7 @@
    "family": "relevance",
    "family_code": "02",
    "family_en": "Fallacies of relevance",
-   "family_size": 28,
+   "family_size": 29,
    "family_title": "Klamy relevance",
    "id": "AF-02.21",
    "keywords": [
@@ -14383,6 +16055,7 @@
     "cerveny-sled",
     "dve-kriva-jedno-pravo",
     "irelevantni-zaver",
+    "falesna-utecha",
     "falesna-ekvivalence",
     "pravidlo-relevance",
     "som-aplikace-na-sebe"
@@ -14460,7 +16133,7 @@
    "family": "relevance",
    "family_code": "02",
    "family_en": "Fallacies of relevance",
-   "family_size": 28,
+   "family_size": 29,
    "family_title": "Klamy relevance",
    "id": "AF-02.22",
    "keywords": [
@@ -14500,6 +16173,7 @@
     "vylucujici-premisy",
     "klam-maskovaneho-muze",
     "klam-klamu",
+    "kladny-zaver-ze-zaporne-premisy",
     "nefalzifikovatelnost",
     "presun-dukazniho-bremene",
     "argument-z-neuveritelnosti",
@@ -14587,7 +16261,7 @@
    "family": "relevance",
    "family_code": "02",
    "family_en": "Fallacies of relevance",
-   "family_size": 28,
+   "family_size": 29,
    "family_title": "Klamy relevance",
    "id": "AF-02.23",
    "keywords": [
@@ -14701,7 +16375,7 @@
    "family": "relevance",
    "family_code": "02",
    "family_en": "Fallacies of relevance",
-   "family_size": 28,
+   "family_size": 29,
    "family_title": "Klamy relevance",
    "id": "AF-02.24",
    "keywords": [
@@ -14815,7 +16489,7 @@
    "family": "relevance",
    "family_code": "02",
    "family_en": "Fallacies of relevance",
-   "family_size": 28,
+   "family_size": 29,
    "family_title": "Klamy relevance",
    "id": "AF-02.25",
    "keywords": [
@@ -14922,7 +16596,7 @@
    "family": "relevance",
    "family_code": "02",
    "family_en": "Fallacies of relevance",
-   "family_size": 28,
+   "family_size": 29,
    "family_title": "Klamy relevance",
    "id": "AF-02.26",
    "keywords": [
@@ -14958,8 +16632,11 @@
     "tu-quoque",
     "odvolani-na-dusledky",
     "whataboutism",
+    "falesna-utecha",
     "zvlastni-vyjimka",
-    "falesna-ekvivalence"
+    "falesna-ekvivalence",
+    "odvolani-na-precedent",
+    "interpunkce-komunikace"
    ],
    "related_declared": [
     "tu-quoque",
@@ -15035,7 +16712,7 @@
    "family": "relevance",
    "family_code": "02",
    "family_en": "Fallacies of relevance",
-   "family_size": 28,
+   "family_size": 29,
    "family_title": "Klamy relevance",
    "id": "AF-02.27",
    "keywords": [
@@ -15076,6 +16753,7 @@
     "odvedeni-k-procedure",
     "personalizace-sporu",
     "pravidlo-svobody",
+    "obsah-a-vztah",
     "vyzva-k-relevanci"
    ],
    "related_declared": [
@@ -15151,7 +16829,7 @@
    "family": "relevance",
    "family_code": "02",
    "family_en": "Fallacies of relevance",
-   "family_size": 28,
+   "family_size": 29,
    "family_title": "Klamy relevance",
    "id": "AF-02.28",
    "keywords": [
@@ -15181,7 +16859,7 @@
    "narrower": [
     "cerveny-sled"
    ],
-   "next": "",
+   "next": "falesna-utecha",
    "own": true,
    "part": "relevance.c",
    "path": "content/kompendium/argumentacni-fauly/relevance/irelevantni-zaver.md",
@@ -15193,6 +16871,7 @@
     "slameny-panak",
     "whataboutism",
     "kontrola-tonu",
+    "falesna-utecha",
     "slozena-otazka",
     "klam-obhajce",
     "myslenkove-ukoncujici-klise",
@@ -15263,6 +16942,126 @@
   },
   {
    "aliases": [
+    "falešná útěcha",
+    "relativní nedostatek",
+    "jiní jsou na tom hůř",
+    "apel na horší problémy"
+   ],
+   "ancestors": [],
+   "broader": "",
+   "canonical": "",
+   "citations": 25,
+   "cs": "Falešná útěcha (relativní nedostatek)",
+   "data": "data/fauly/relevance.pokryti.toml",
+   "depth": 0,
+   "description": "Stížnost nebo kritika se odmítá poukazem, že jinde je hůř. Jak falešnou útěchu (relativní nedostatek) poznat, kdy je srovnání legitimní a jak odpovědět.",
+   "en": "False consolation (relative privation)",
+   "family": "relevance",
+   "family_code": "02",
+   "family_en": "Fallacies of relevance",
+   "family_size": 29,
+   "family_title": "Klamy relevance",
+   "id": "AF-02.29",
+   "keywords": [
+    "Falešná útěcha (relativní nedostatek)",
+    "False consolation (relative privation)",
+    "falešná útěcha",
+    "relativní nedostatek",
+    "jiní jsou na tom hůř",
+    "apel na horší problémy",
+    "Klamy relevance",
+    "Argumentační fauly"
+   ],
+   "kompendium": [
+    "kompendium/techniques/ea-1-3-3-tematicka-diverze.md",
+    "kompendium/organizational-defense/36-trauma-aware-management.md",
+    "kompendium/07-teoreticke-reflexe/politicka-ea.md"
+   ],
+   "links_prose": [
+    "kompendium/argumentacni-fauly/predpoklady-argumentu/nirvana-klam.md",
+    "kompendium/argumentacni-fauly/relevance/cerveny-sled.md",
+    "kompendium/argumentacni-fauly/relevance/dve-kriva-jedno-pravo.md",
+    "kompendium/argumentacni-fauly/relevance/irelevantni-zaver.md",
+    "kompendium/argumentacni-fauly/relevance/whataboutism.md",
+    "kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-relevance.md",
+    "kompendium/organizational-defense/36-trauma-aware-management.md",
+    "kompendium/techniques/ea-1-3-3-tematicka-diverze.md"
+   ],
+   "narrower": [],
+   "next": "",
+   "own": true,
+   "part": "relevance.pokryti",
+   "path": "content/kompendium/argumentacni-fauly/relevance/falesna-utecha.md",
+   "position": 29,
+   "prev": "irelevantni-zaver",
+   "reading_minutes": 7,
+   "related": [
+    "cerveny-sled",
+    "whataboutism",
+    "dve-kriva-jedno-pravo",
+    "irelevantni-zaver",
+    "nirvana-klam",
+    "pravidlo-relevance"
+   ],
+   "related_declared": [
+    "whataboutism",
+    "dve-kriva-jedno-pravo",
+    "cerveny-sled",
+    "irelevantni-zaver",
+    "nirvana-klam",
+    "pravidlo-relevance"
+   ],
+   "review": "agent",
+   "risk": "stredni",
+   "risk_cs": "střední",
+   "schema": 1,
+   "sections": [
+    "Definice",
+    "Původ a souvislosti",
+    "Struktura argumentu",
+    "Detekční znaky",
+    "Odlišení od platné argumentace",
+    "Stav poznání",
+    "Obrana a odpověď"
+   ],
+   "slug": "falesna-utecha",
+   "sources": [
+    "bentham-1824",
+    "cook-lewandowsky-ecker-2017",
+    "copi-cohen-mcmahon-2014",
+    "festinger-1957",
+    "herman-1992",
+    "kahneman-2011",
+    "tversky-kahneman-1981",
+    "walton-1995",
+    "eemeren-grootendorst-1992",
+    "eemeren-grootendorst-2004"
+   ],
+   "sources_critical": [
+    "cook-lewandowsky-ecker-2017",
+    "festinger-1957",
+    "herman-1992",
+    "kahneman-2011",
+    "tversky-kahneman-1981"
+   ],
+   "sources_primary": [
+    "copi-cohen-mcmahon-2014",
+    "walton-1995",
+    "eemeren-grootendorst-1992",
+    "eemeren-grootendorst-2004"
+   ],
+   "sources_roots": [
+    "bentham-1824"
+   ],
+   "type": "informal",
+   "type_cs": "neformální klam",
+   "url": "kompendium/argumentacni-fauly/relevance/falesna-utecha/",
+   "use": "dvoji",
+   "use_cs": "chyba i taktika",
+   "words": 1362
+  },
+  {
+   "aliases": [
     "petitio principii",
     "kruh v dokazování",
     "cirkulární argument"
@@ -15279,7 +17078,7 @@
    "family": "predpoklady-argumentu",
    "family_code": "03",
    "family_en": "Fallacies of presumption",
-   "family_size": 20,
+   "family_size": 23,
    "family_title": "Klamy předpokladu",
    "id": "AF-03.01",
    "keywords": [
@@ -15306,6 +17105,7 @@
     "zadny-pravy-skot",
     "nefalzifikovatelnost",
     "dokaz-tvrzenim",
+    "nekonzistence",
     "presvedcovaci-definice",
     "definicni-klam",
     "pravidlo-vychodiska",
@@ -15353,7 +17153,7 @@
    "family": "predpoklady-argumentu",
    "family_code": "03",
    "family_en": "Fallacies of presumption",
-   "family_size": 20,
+   "family_size": 23,
    "family_title": "Klamy předpokladu",
    "id": "AF-03.02",
    "keywords": [
@@ -15475,7 +17275,7 @@
    "family": "predpoklady-argumentu",
    "family_code": "03",
    "family_en": "Fallacies of presumption",
-   "family_size": 20,
+   "family_size": 23,
    "family_title": "Klamy předpokladu",
    "id": "AF-03.03",
    "keywords": [
@@ -15555,7 +17355,7 @@
    "family": "predpoklady-argumentu",
    "family_code": "03",
    "family_en": "Fallacies of presumption",
-   "family_size": 20,
+   "family_size": 23,
    "family_title": "Klamy předpokladu",
    "id": "AF-03.04",
    "keywords": [
@@ -15665,7 +17465,7 @@
    "family": "predpoklady-argumentu",
    "family_code": "03",
    "family_en": "Fallacies of presumption",
-   "family_size": 20,
+   "family_size": 23,
    "family_title": "Klamy předpokladu",
    "id": "AF-03.05",
    "keywords": [
@@ -15779,7 +17579,7 @@
    "family": "predpoklady-argumentu",
    "family_code": "03",
    "family_en": "Fallacies of presumption",
-   "family_size": 20,
+   "family_size": 23,
    "family_title": "Klamy předpokladu",
    "id": "AF-03.06",
    "keywords": [
@@ -15821,6 +17621,9 @@
     "vyber-tresnicek",
     "nefalzifikovatelnost",
     "posouvani-branek",
+    "odvolani-na-precedent",
+    "nekonzistence",
+    "rozliseni-bez-rozdilu",
     "motivovane-uvazovani"
    ],
    "related_declared": [
@@ -15896,7 +17699,7 @@
    "family": "predpoklady-argumentu",
    "family_code": "03",
    "family_en": "Fallacies of presumption",
-   "family_size": 20,
+   "family_size": 23,
    "family_title": "Klamy předpokladu",
    "id": "AF-03.07",
    "keywords": [
@@ -15937,6 +17740,7 @@
     "vina-asociaci",
     "prilis-siroke-zobecneni",
     "vyber-tresnicek",
+    "falesna-analogie",
     "zkresleni-preziti",
     "zkresleny-vyber",
     "zakon-malych-cisel",
@@ -16030,7 +17834,7 @@
    "family": "predpoklady-argumentu",
    "family_code": "03",
    "family_en": "Fallacies of presumption",
-   "family_size": 20,
+   "family_size": 23,
    "family_title": "Klamy předpokladu",
    "id": "AF-03.08",
    "keywords": [
@@ -16144,7 +17948,7 @@
    "family": "predpoklady-argumentu",
    "family_code": "03",
    "family_en": "Fallacies of presumption",
-   "family_size": 20,
+   "family_size": 23,
    "family_title": "Klamy předpokladu",
    "id": "AF-03.09",
    "keywords": [
@@ -16273,7 +18077,7 @@
    "family": "predpoklady-argumentu",
    "family_code": "03",
    "family_en": "Fallacies of presumption",
-   "family_size": 20,
+   "family_size": 23,
    "family_title": "Klamy předpokladu",
    "id": "AF-03.10",
    "keywords": [
@@ -16301,6 +18105,7 @@
     "dve-kriva-jedno-pravo",
     "vyber-tresnicek",
     "falesny-kompromis",
+    "falesna-analogie",
     "falesna-vyvazenost",
     "klam-rovnovahy-dukazu",
     "pravidlo-argumentacniho-schematu"
@@ -16347,7 +18152,7 @@
    "family": "predpoklady-argumentu",
    "family_code": "03",
    "family_en": "Fallacies of presumption",
-   "family_size": 20,
+   "family_size": 23,
    "family_title": "Klamy předpokladu",
    "id": "AF-03.11",
    "keywords": [
@@ -16466,7 +18271,7 @@
    "family": "predpoklady-argumentu",
    "family_code": "03",
    "family_en": "Fallacies of presumption",
-   "family_size": 20,
+   "family_size": 23,
    "family_title": "Klamy předpokladu",
    "id": "AF-03.12",
    "keywords": [
@@ -16568,7 +18373,7 @@
    "family": "predpoklady-argumentu",
    "family_code": "03",
    "family_en": "Fallacies of presumption",
-   "family_size": 20,
+   "family_size": 23,
    "family_title": "Klamy předpokladu",
    "id": "AF-03.13",
    "keywords": [
@@ -16611,6 +18416,7 @@
     "posouvani-branek",
     "magicke-mysleni",
     "vyhybava-slova",
+    "vagnost",
     "kafkapast",
     "argument-z-mlceni",
     "galileuv-gambit",
@@ -16692,7 +18498,7 @@
    "family": "predpoklady-argumentu",
    "family_code": "03",
    "family_en": "Fallacies of presumption",
-   "family_size": 20,
+   "family_size": 23,
    "family_title": "Klamy předpokladu",
    "id": "AF-03.14",
    "keywords": [
@@ -16732,6 +18538,7 @@
     "nefalzifikovatelnost",
     "presun-dukazniho-bremene",
     "nirvana-klam",
+    "nekonzistence",
     "mcnamaruv-klam",
     "motte-and-bailey",
     "sealioning",
@@ -16809,7 +18616,7 @@
    "family": "predpoklady-argumentu",
    "family_code": "03",
    "family_en": "Fallacies of presumption",
-   "family_size": 20,
+   "family_size": 23,
    "family_title": "Klamy předpokladu",
    "id": "AF-03.15",
    "keywords": [
@@ -16922,7 +18729,7 @@
    "family": "predpoklady-argumentu",
    "family_code": "03",
    "family_en": "Fallacies of presumption",
-   "family_size": 20,
+   "family_size": 23,
    "family_title": "Klamy předpokladu",
    "id": "AF-03.16",
    "keywords": [
@@ -16957,6 +18764,7 @@
    "reading_minutes": 6,
    "related": [
     "odvolani-na-tradici",
+    "falesna-utecha",
     "falesne-dilema",
     "posouvani-branek",
     "predstirana-starost"
@@ -17024,7 +18832,7 @@
    "family": "predpoklady-argumentu",
    "family_code": "03",
    "family_en": "Fallacies of presumption",
-   "family_size": 20,
+   "family_size": 23,
    "family_title": "Klamy předpokladu",
    "id": "AF-03.17",
    "keywords": [
@@ -17127,7 +18935,7 @@
    "family": "predpoklady-argumentu",
    "family_code": "03",
    "family_en": "Fallacies of presumption",
-   "family_size": 20,
+   "family_size": 23,
    "family_title": "Klamy předpokladu",
    "id": "AF-03.18",
    "keywords": [
@@ -17161,6 +18969,8 @@
     "odvolani-na-strach",
     "odvolani-na-dusledky",
     "falesne-dilema",
+    "falesna-analogie",
+    "odvolani-na-precedent",
     "zjednodusena-kauzalita",
     "klam-konjunkce",
     "pravidlo-argumentacniho-schematu",
@@ -17235,7 +19045,7 @@
    "family": "predpoklady-argumentu",
    "family_code": "03",
    "family_en": "Fallacies of presumption",
-   "family_size": 20,
+   "family_size": 23,
    "family_title": "Klamy předpokladu",
    "id": "AF-03.19",
    "keywords": [
@@ -17338,7 +19148,7 @@
    "family": "predpoklady-argumentu",
    "family_code": "03",
    "family_en": "Fallacies of presumption",
-   "family_size": 20,
+   "family_size": 23,
    "family_title": "Klamy předpokladu",
    "id": "AF-03.20",
    "keywords": [
@@ -17363,7 +19173,7 @@
     "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md"
    ],
    "narrower": [],
-   "next": "",
+   "next": "falesna-analogie",
    "own": true,
    "part": "predpoklady-argumentu.b",
    "path": "content/kompendium/argumentacni-fauly/predpoklady-argumentu/dokaz-tvrzenim.md",
@@ -17434,6 +19244,369 @@
    "use": "vliv",
    "use_cs": "převážně záměrná taktika",
    "words": 1199
+  },
+  {
+   "aliases": [
+    "chybná analogie",
+    "vadná analogie",
+    "nepřípadná analogie"
+   ],
+   "ancestors": [],
+   "broader": "",
+   "canonical": "",
+   "citations": 26,
+   "cs": "Falešná analogie",
+   "data": "data/fauly/predpoklady-argumentu.pokryti.toml",
+   "depth": 0,
+   "description": "Klam, který ze shody dvou věcí v několika rysech vyvozuje shodu v rysu, na němž závěr stojí: jak se analogie posuzuje, kdy nese váhu a kdy jen zdobí.",
+   "en": "False analogy",
+   "family": "predpoklady-argumentu",
+   "family_code": "03",
+   "family_en": "Fallacies of presumption",
+   "family_size": 23,
+   "family_title": "Klamy předpokladu",
+   "id": "AF-03.21",
+   "keywords": [
+    "Falešná analogie",
+    "False analogy",
+    "chybná analogie",
+    "vadná analogie",
+    "nepřípadná analogie",
+    "Klamy předpokladu",
+    "Argumentační fauly"
+   ],
+   "kompendium": [
+    "kompendium/07-teoreticke-reflexe/lakoff-conceptual-metaphor.md",
+    "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+    "kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md"
+   ],
+   "links_prose": [
+    "kompendium/07-teoreticke-reflexe/lakoff-conceptual-metaphor.md",
+    "kompendium/argumentacni-fauly/predpoklady-argumentu/ukvapene-zobecneni.md",
+    "kompendium/argumentacni-fauly/teorie-argumentace/argumentacni-schemata.md",
+    "kompendium/argumentacni-fauly/teorie-argumentace/argumentacni-teorie-uvazovani.md",
+    "kompendium/argumentacni-fauly/teorie-argumentace/pragma-dialektika.md",
+    "kompendium/nlp-vzorce/sleight-of-mouth/som-analogie.md",
+    "kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md"
+   ],
+   "narrower": [
+    "odvolani-na-precedent"
+   ],
+   "next": "odvolani-na-precedent",
+   "own": true,
+   "part": "predpoklady-argumentu.pokryti",
+   "path": "content/kompendium/argumentacni-fauly/predpoklady-argumentu/falesna-analogie.md",
+   "position": 21,
+   "prev": "dokaz-tvrzenim",
+   "reading_minutes": 7,
+   "related": [
+    "ukvapene-zobecneni",
+    "falesna-ekvivalence",
+    "kluzky-svah",
+    "som-analogie",
+    "izomorfni-metafora"
+   ],
+   "related_declared": [
+    "falesna-ekvivalence",
+    "ukvapene-zobecneni",
+    "som-analogie",
+    "izomorfni-metafora",
+    "kluzky-svah"
+   ],
+   "review": "agent",
+   "risk": "stredni",
+   "risk_cs": "střední",
+   "schema": 1,
+   "sections": [
+    "Definice",
+    "Původ a souvislosti",
+    "Struktura argumentu",
+    "Detekční znaky",
+    "Odlišení od platné argumentace",
+    "Stav poznání",
+    "Obrana a odpověď"
+   ],
+   "slug": "falesna-analogie",
+   "sources": [
+    "copi-cohen-mcmahon-2014",
+    "damer-2009",
+    "dilts-1999",
+    "govier-2010",
+    "hahn-oaksford-2007",
+    "kahneman-2011",
+    "lakoff-johnson-1980",
+    "mercier-sperber-2011",
+    "mill-1843",
+    "tindale-2007",
+    "tversky-kahneman-1974",
+    "walton-1995",
+    "walton-reed-macagno-2008",
+    "eemeren-grootendorst-1992",
+    "van-der-linden-2023"
+   ],
+   "sources_critical": [
+    "hahn-oaksford-2007",
+    "kahneman-2011",
+    "lakoff-johnson-1980",
+    "mercier-sperber-2011",
+    "tversky-kahneman-1974",
+    "van-der-linden-2023"
+   ],
+   "sources_primary": [
+    "copi-cohen-mcmahon-2014",
+    "damer-2009",
+    "dilts-1999",
+    "govier-2010",
+    "tindale-2007",
+    "walton-1995",
+    "walton-reed-macagno-2008",
+    "eemeren-grootendorst-1992"
+   ],
+   "sources_roots": [
+    "mill-1843"
+   ],
+   "type": "informal",
+   "type_cs": "neformální klam",
+   "url": "kompendium/argumentacni-fauly/predpoklady-argumentu/falesna-analogie/",
+   "use": "dvoji",
+   "use_cs": "chyba i taktika",
+   "words": 1371
+  },
+  {
+   "aliases": [
+    "klamný precedens",
+    "chybný argument precedentem"
+   ],
+   "ancestors": [
+    "falesna-analogie"
+   ],
+   "broader": "falesna-analogie",
+   "canonical": "",
+   "citations": 19,
+   "cs": "Klamné odvolání na precedent",
+   "data": "data/fauly/predpoklady-argumentu.pokryti.toml",
+   "depth": 1,
+   "description": "Klam, který z toho, že se něco jednou stalo nebo bylo dovoleno, vyvozuje nárok na totéž bez ověření shody případů: precedens, výjimka a tlak na důslednost.",
+   "en": "Fallacious appeal to precedent",
+   "family": "predpoklady-argumentu",
+   "family_code": "03",
+   "family_en": "Fallacies of presumption",
+   "family_size": 23,
+   "family_title": "Klamy předpokladu",
+   "id": "AF-03.22",
+   "keywords": [
+    "Klamné odvolání na precedent",
+    "Fallacious appeal to precedent",
+    "klamný precedens",
+    "chybný argument precedentem",
+    "Klamy předpokladu",
+    "Argumentační fauly"
+   ],
+   "kompendium": [
+    "kompendium/forensic-legal/_index.md",
+    "kompendium/forensic-legal/29-judicial-education.md",
+    "kompendium/organizational-defense/_index.md"
+   ],
+   "links_prose": [
+    "kompendium/argumentacni-fauly/predpoklady-argumentu/falesna-analogie.md",
+    "kompendium/argumentacni-fauly/predpoklady-argumentu/kluzky-svah.md",
+    "kompendium/argumentacni-fauly/relevance/dve-kriva-jedno-pravo.md",
+    "kompendium/argumentacni-fauly/relevance/odvolani-na-tradici.md",
+    "kompendium/argumentacni-fauly/teorie-argumentace/pragma-dialektika.md"
+   ],
+   "narrower": [],
+   "next": "nekonzistence",
+   "own": true,
+   "part": "predpoklady-argumentu.pokryti",
+   "path": "content/kompendium/argumentacni-fauly/predpoklady-argumentu/odvolani-na-precedent.md",
+   "position": 22,
+   "prev": "falesna-analogie",
+   "reading_minutes": 6,
+   "related": [
+    "odvolani-na-tradici",
+    "dve-kriva-jedno-pravo",
+    "zvlastni-vyjimka",
+    "kluzky-svah",
+    "odvolani-na-starobylost"
+   ],
+   "related_declared": [
+    "odvolani-na-tradici",
+    "dve-kriva-jedno-pravo",
+    "zvlastni-vyjimka",
+    "kluzky-svah",
+    "odvolani-na-starobylost"
+   ],
+   "review": "agent",
+   "risk": "stredni",
+   "risk_cs": "střední",
+   "schema": 1,
+   "sections": [
+    "Definice",
+    "Původ a souvislosti",
+    "Struktura argumentu",
+    "Detekční znaky",
+    "Odlišení od platné argumentace",
+    "Stav poznání",
+    "Obrana a odpověď"
+   ],
+   "slug": "odvolani-na-precedent",
+   "sources": [
+    "bentham-1824",
+    "cialdini-2009",
+    "freedman-fraser-1966",
+    "govier-2010",
+    "hahn-oaksford-2007",
+    "tindale-2007",
+    "toulmin-1958",
+    "tversky-kahneman-1974",
+    "walton-reed-macagno-2008",
+    "eemeren-grootendorst-1992"
+   ],
+   "sources_critical": [
+    "cialdini-2009",
+    "freedman-fraser-1966",
+    "hahn-oaksford-2007",
+    "tversky-kahneman-1974"
+   ],
+   "sources_primary": [
+    "govier-2010",
+    "tindale-2007",
+    "toulmin-1958",
+    "walton-reed-macagno-2008",
+    "eemeren-grootendorst-1992"
+   ],
+   "sources_roots": [
+    "bentham-1824"
+   ],
+   "type": "informal",
+   "type_cs": "neformální klam",
+   "url": "kompendium/argumentacni-fauly/predpoklady-argumentu/odvolani-na-precedent/",
+   "use": "dvoji",
+   "use_cs": "chyba i taktika",
+   "words": 1276
+  },
+  {
+   "aliases": [
+    "nekonzistentní premisy",
+    "nesoudržnost argumentu",
+    "nekoherence"
+   ],
+   "ancestors": [],
+   "broader": "",
+   "canonical": "",
+   "citations": 26,
+   "cs": "Nekonzistence",
+   "data": "data/fauly/predpoklady-argumentu.pokryti.toml",
+   "depth": 0,
+   "description": "Klam, v němž si premisy navzájem odporují nebo popírají závěr: proč z rozporu neplyne nic určitého, jak se rozptýlená nesoudržnost užívá k manipulaci a jak ji poznat.",
+   "en": "Inconsistency",
+   "family": "predpoklady-argumentu",
+   "family_code": "03",
+   "family_en": "Fallacies of presumption",
+   "family_size": 23,
+   "family_title": "Klamy předpokladu",
+   "id": "AF-03.23",
+   "keywords": [
+    "Nekonzistence",
+    "Inconsistency",
+    "nekonzistentní premisy",
+    "nesoudržnost argumentu",
+    "nekoherence",
+    "Klamy předpokladu",
+    "Argumentační fauly"
+   ],
+   "kompendium": [
+    "kompendium/techniques/ea-4-1-gaslighting.md",
+    "kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md",
+    "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md",
+    "kompendium/07-teoreticke-reflexe/politicka-ea.md"
+   ],
+   "links_prose": [
+    "glossary/double-bind.md",
+    "kompendium/argumentacni-fauly/dialekticke-taktiky/kafkapast.md",
+    "kompendium/argumentacni-fauly/dialekticke-taktiky/palba-nepravd.md",
+    "kompendium/argumentacni-fauly/predpoklady-argumentu/zvlastni-vyjimka.md",
+    "kompendium/argumentacni-fauly/relevance/tu-quoque.md",
+    "kompendium/argumentacni-fauly/teorie-argumentace/pragma-dialektika.md",
+    "kompendium/argumentacni-fauly/teorie-argumentace/princip-shovivavosti.md",
+    "kompendium/techniques/ea-4-1-gaslighting.md"
+   ],
+   "narrower": [],
+   "next": "",
+   "own": true,
+   "part": "predpoklady-argumentu.pokryti",
+   "path": "content/kompendium/argumentacni-fauly/predpoklady-argumentu/nekonzistence.md",
+   "position": 23,
+   "prev": "odvolani-na-precedent",
+   "reading_minutes": 6,
+   "related": [
+    "tu-quoque",
+    "kruhovy-argument",
+    "zvlastni-vyjimka",
+    "posouvani-branek",
+    "kafkapast",
+    "palba-nepravd"
+   ],
+   "related_declared": [
+    "tu-quoque",
+    "kruhovy-argument",
+    "zvlastni-vyjimka",
+    "posouvani-branek",
+    "palba-nepravd",
+    "kafkapast"
+   ],
+   "review": "agent",
+   "risk": "stredni",
+   "risk_cs": "střední",
+   "schema": 1,
+   "sections": [
+    "Definice",
+    "Původ a souvislosti",
+    "Struktura argumentu",
+    "Detekční znaky",
+    "Odlišení od platné argumentace",
+    "Stav poznání",
+    "Obrana a odpověď"
+   ],
+   "slug": "nekonzistence",
+   "sources": [
+    "bateson-1956",
+    "copi-cohen-mcmahon-2014",
+    "festinger-1957",
+    "govier-2010",
+    "hamblin-1970",
+    "kahneman-2011",
+    "lifton-1961",
+    "paul-matthews-2016",
+    "roozenbeek-2022",
+    "walton-2008",
+    "eemeren-grootendorst-1992",
+    "van-der-linden-2023"
+   ],
+   "sources_critical": [
+    "festinger-1957",
+    "kahneman-2011",
+    "lifton-1961",
+    "paul-matthews-2016",
+    "roozenbeek-2022",
+    "van-der-linden-2023"
+   ],
+   "sources_primary": [
+    "copi-cohen-mcmahon-2014",
+    "govier-2010",
+    "hamblin-1970",
+    "walton-2008",
+    "eemeren-grootendorst-1992"
+   ],
+   "sources_roots": [
+    "bateson-1956"
+   ],
+   "type": "informal",
+   "type_cs": "neformální klam",
+   "url": "kompendium/argumentacni-fauly/predpoklady-argumentu/nekonzistence/",
+   "use": "dvoji",
+   "use_cs": "chyba i taktika",
+   "words": 1257
   },
   {
    "aliases": [
@@ -17858,6 +20031,7 @@
     "korelace-a-kauzalita",
     "jedina-pricina",
     "prehlizena-spolecna-pricina",
+    "interpunkce-komunikace",
     "pricina-a-nasledek"
    ],
    "related_declared": [
@@ -18530,6 +20704,7 @@
    "reading_minutes": 7,
    "related": [
     "potvrzeni-dusledku",
+    "nedovolena-konverze",
     "klam-konjunkce",
     "klam-zalobce",
     "klam-obhajce",
@@ -19246,6 +21421,7 @@
    "reading_minutes": 6,
    "related": [
     "potvrzeni-dusledku",
+    "nedovolena-konverze",
     "zanedbani-zakladni-miry",
     "klam-konjunkce",
     "klam-obhajce",
@@ -20121,7 +22297,7 @@
    "family": "jazykove-klamy",
    "family_code": "06",
    "family_en": "Fallacies of language and ambiguity",
-   "family_size": 13,
+   "family_size": 15,
    "family_title": "Klamy jazyka a dvojznačnosti",
    "id": "AF-06.01",
    "keywords": [
@@ -20159,6 +22335,8 @@
     "etymologicky-klam",
     "presvedcovaci-definice",
     "definicni-klam",
+    "vagnost",
+    "rozliseni-bez-rozdilu",
     "motte-and-bailey",
     "pravidlo-uzivani-jazyka",
     "fonologicka-dvojznacnost"
@@ -20238,7 +22416,7 @@
    "family": "jazykove-klamy",
    "family_code": "06",
    "family_en": "Fallacies of language and ambiguity",
-   "family_size": 13,
+   "family_size": 15,
    "family_title": "Klamy jazyka a dvojznačnosti",
    "id": "AF-06.02",
    "keywords": [
@@ -20352,7 +22530,7 @@
    "family": "jazykove-klamy",
    "family_code": "06",
    "family_en": "Fallacies of language and ambiguity",
-   "family_size": 13,
+   "family_size": 15,
    "family_title": "Klamy jazyka a dvojznačnosti",
    "id": "AF-06.03",
    "keywords": [
@@ -20472,7 +22650,7 @@
    "family": "jazykove-klamy",
    "family_code": "06",
    "family_en": "Fallacies of language and ambiguity",
-   "family_size": 13,
+   "family_size": 15,
    "family_title": "Klamy jazyka a dvojznačnosti",
    "id": "AF-06.04",
    "keywords": [
@@ -20580,7 +22758,7 @@
    "family": "jazykove-klamy",
    "family_code": "06",
    "family_en": "Fallacies of language and ambiguity",
-   "family_size": 13,
+   "family_size": 15,
    "family_title": "Klamy jazyka a dvojznačnosti",
    "id": "AF-06.05",
    "keywords": [
@@ -20691,7 +22869,7 @@
    "family": "jazykove-klamy",
    "family_code": "06",
    "family_en": "Fallacies of language and ambiguity",
-   "family_size": 13,
+   "family_size": 15,
    "family_title": "Klamy jazyka a dvojznačnosti",
    "id": "AF-06.06",
    "keywords": [
@@ -20797,7 +22975,7 @@
    "family": "jazykove-klamy",
    "family_code": "06",
    "family_en": "Fallacies of language and ambiguity",
-   "family_size": 13,
+   "family_size": 15,
    "family_title": "Klamy jazyka a dvojznačnosti",
    "id": "AF-06.07",
    "keywords": [
@@ -20905,7 +23083,7 @@
    "family": "jazykove-klamy",
    "family_code": "06",
    "family_en": "Fallacies of language and ambiguity",
-   "family_size": 13,
+   "family_size": 15,
    "family_title": "Klamy jazyka a dvojznačnosti",
    "id": "AF-06.08",
    "keywords": [
@@ -20947,6 +23125,7 @@
     "nabity-jazyk",
     "eufemismus-a-dysfemismus",
     "definicni-klam",
+    "rozliseni-bez-rozdilu",
     "motte-and-bailey",
     "naturalisticky-klam",
     "pravidlo-uzivani-jazyka",
@@ -21033,7 +23212,7 @@
    "family": "jazykove-klamy",
    "family_code": "06",
    "family_en": "Fallacies of language and ambiguity",
-   "family_size": 13,
+   "family_size": 15,
    "family_title": "Klamy jazyka a dvojznačnosti",
    "id": "AF-06.09",
    "keywords": [
@@ -21160,7 +23339,7 @@
    "family": "jazykove-klamy",
    "family_code": "06",
    "family_en": "Fallacies of language and ambiguity",
-   "family_size": 13,
+   "family_size": 15,
    "family_title": "Klamy jazyka a dvojznačnosti",
    "id": "AF-06.10",
    "keywords": [
@@ -21194,6 +23373,7 @@
    "related": [
     "anonymni-autorita",
     "nefalzifikovatelnost",
+    "vagnost",
     "jen-se-ptam",
     "pravidlo-nevyslovene-premisy",
     "pravidlo-uzivani-jazyka",
@@ -21277,7 +23457,7 @@
    "family": "jazykove-klamy",
    "family_code": "06",
    "family_en": "Fallacies of language and ambiguity",
-   "family_size": 13,
+   "family_size": 15,
    "family_title": "Klamy jazyka a dvojznačnosti",
    "id": "AF-06.11",
    "keywords": [
@@ -21315,6 +23495,7 @@
     "klam-duraznu",
     "presvedcovaci-definice",
     "nabity-jazyk",
+    "rozliseni-bez-rozdilu",
     "nominalizace"
    ],
    "related_declared": [
@@ -21396,7 +23577,7 @@
    "family": "jazykove-klamy",
    "family_code": "06",
    "family_en": "Fallacies of language and ambiguity",
-   "family_size": 13,
+   "family_size": 15,
    "family_title": "Klamy jazyka a dvojznačnosti",
    "id": "AF-06.12",
    "keywords": [
@@ -21518,7 +23699,7 @@
    "family": "jazykove-klamy",
    "family_code": "06",
    "family_en": "Fallacies of language and ambiguity",
-   "family_size": 13,
+   "family_size": 15,
    "family_title": "Klamy jazyka a dvojznačnosti",
    "id": "AF-06.13",
    "keywords": [
@@ -21542,7 +23723,7 @@
     "kompendium/techniques/ea-5-4-16-kruhove-definice-implantace.md"
    ],
    "narrower": [],
-   "next": "",
+   "next": "vagnost",
    "own": true,
    "part": "jazykove-klamy.b",
    "path": "content/kompendium/argumentacni-fauly/jazykove-klamy/definicni-klam.md",
@@ -21609,6 +23790,246 @@
    "use": "dvoji",
    "use_cs": "chyba i taktika",
    "words": 1268
+  },
+  {
+   "aliases": [
+    "zneužití vágního výrazu",
+    "vágní obecnosti",
+    "klam neurčitosti"
+   ],
+   "ancestors": [],
+   "broader": "",
+   "canonical": "",
+   "citations": 36,
+   "cs": "Zneužití vágnosti",
+   "data": "data/fauly/jazykove-klamy.pokryti.toml",
+   "depth": 0,
+   "description": "Vágní výraz bez hranic podepře tvrzení, které nelze ověřit, nebo se mu dodatečně vnutí přesnost, kterou neměl. Jak klam poznat a jak na něj odpovědět.",
+   "en": "Vagueness (misuse of a vague expression)",
+   "family": "jazykove-klamy",
+   "family_code": "06",
+   "family_en": "Fallacies of language and ambiguity",
+   "family_size": 15,
+   "family_title": "Klamy jazyka a dvojznačnosti",
+   "id": "AF-06.14",
+   "keywords": [
+    "Zneužití vágnosti",
+    "Vagueness (misuse of a vague expression)",
+    "zneužití vágního výrazu",
+    "vágní obecnosti",
+    "klam neurčitosti",
+    "Klamy jazyka a dvojznačnosti",
+    "Argumentační fauly"
+   ],
+   "kompendium": [
+    "kompendium/detection-signatures/10-behavioral-resistance-to-clarification.md",
+    "kompendium/detection-signatures/8-linguistic-semantic-erosion.md",
+    "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md"
+   ],
+   "links_prose": [
+    "kompendium/argumentacni-fauly/jazykove-klamy/ekvivokace.md",
+    "kompendium/argumentacni-fauly/jazykove-klamy/vyhybava-slova.md",
+    "kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-uzivani-jazyka.md",
+    "kompendium/detection-signatures/10-behavioral-resistance-to-clarification.md",
+    "kompendium/detection-signatures/8-linguistic-semantic-erosion.md",
+    "kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md",
+    "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md"
+   ],
+   "narrower": [],
+   "next": "rozliseni-bez-rozdilu",
+   "own": true,
+   "part": "jazykove-klamy.pokryti",
+   "path": "content/kompendium/argumentacni-fauly/jazykove-klamy/vagnost.md",
+   "position": 14,
+   "prev": "definicni-klam",
+   "reading_minutes": 8,
+   "related": [
+    "nefalzifikovatelnost",
+    "ekvivokace",
+    "vyhybava-slova",
+    "rozliseni-bez-rozdilu",
+    "pravidlo-uzivani-jazyka",
+    "umyslna-vagnost"
+   ],
+   "related_declared": [
+    "ekvivokace",
+    "vyhybava-slova",
+    "umyslna-vagnost",
+    "pravidlo-uzivani-jazyka",
+    "nefalzifikovatelnost",
+    "rozliseni-bez-rozdilu"
+   ],
+   "review": "agent",
+   "risk": "stredni",
+   "risk_cs": "střední",
+   "schema": 1,
+   "sections": [
+    "Definice",
+    "Původ a souvislosti",
+    "Struktura argumentu",
+    "Detekční znaky",
+    "Odlišení od platné argumentace",
+    "Stav poznání",
+    "Obrana a odpověď"
+   ],
+   "slug": "vagnost",
+   "sources": [
+    "bandler-grinder-1975b",
+    "bentham-1824",
+    "cook-lewandowsky-ecker-2017",
+    "copi-cohen-mcmahon-2014",
+    "damer-2009",
+    "gigerenzer-2002",
+    "grice-1975",
+    "hahn-oaksford-2007",
+    "petty-cacioppo-1986",
+    "popper-1959",
+    "tindale-2007",
+    "walton-1995",
+    "eemeren-grootendorst-1992",
+    "eemeren-grootendorst-2004"
+   ],
+   "sources_critical": [
+    "cook-lewandowsky-ecker-2017",
+    "gigerenzer-2002",
+    "hahn-oaksford-2007",
+    "petty-cacioppo-1986"
+   ],
+   "sources_primary": [
+    "bandler-grinder-1975b",
+    "copi-cohen-mcmahon-2014",
+    "damer-2009",
+    "tindale-2007",
+    "walton-1995",
+    "eemeren-grootendorst-1992",
+    "eemeren-grootendorst-2004"
+   ],
+   "sources_roots": [
+    "bentham-1824",
+    "grice-1975",
+    "popper-1959"
+   ],
+   "type": "informal",
+   "type_cs": "neformální klam",
+   "url": "kompendium/argumentacni-fauly/jazykove-klamy/vagnost/",
+   "use": "dvoji",
+   "use_cs": "chyba i taktika",
+   "words": 1560
+  },
+  {
+   "aliases": [
+    "zdánlivé rozlišení",
+    "falešné rozlišení",
+    "slovní rozlišení"
+   ],
+   "ancestors": [],
+   "broader": "",
+   "canonical": "",
+   "citations": 28,
+   "cs": "Rozlišení bez rozdílu",
+   "data": "data/fauly/jazykove-klamy.pokryti.toml",
+   "depth": 0,
+   "description": "Obhajoba, která tvrdí, že jednání je něco jiného než to, co mu vytýkáme, ale rozdíl leží jen ve slovech. Jak rozlišení bez rozdílu poznat a jak odpovědět.",
+   "en": "Distinction without a difference",
+   "family": "jazykove-klamy",
+   "family_code": "06",
+   "family_en": "Fallacies of language and ambiguity",
+   "family_size": 15,
+   "family_title": "Klamy jazyka a dvojznačnosti",
+   "id": "AF-06.15",
+   "keywords": [
+    "Rozlišení bez rozdílu",
+    "Distinction without a difference",
+    "zdánlivé rozlišení",
+    "falešné rozlišení",
+    "slovní rozlišení",
+    "Klamy jazyka a dvojznačnosti",
+    "Argumentační fauly"
+   ],
+   "kompendium": [
+    "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
+    "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
+    "kompendium/07-teoreticke-reflexe/politicka-ea.md"
+   ],
+   "links_prose": [
+    "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+    "kompendium/argumentacni-fauly/jazykove-klamy/eufemismus-a-dysfemismus.md",
+    "kompendium/argumentacni-fauly/jazykove-klamy/vagnost.md",
+    "kompendium/argumentacni-fauly/predpoklady-argumentu/zvlastni-vyjimka.md",
+    "kompendium/argumentacni-fauly/teorie-argumentace/argumentacni-teorie-uvazovani.md",
+    "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
+    "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"
+   ],
+   "narrower": [],
+   "next": "",
+   "own": true,
+   "part": "jazykove-klamy.pokryti",
+   "path": "content/kompendium/argumentacni-fauly/jazykove-klamy/rozliseni-bez-rozdilu.md",
+   "position": 15,
+   "prev": "vagnost",
+   "reading_minutes": 7,
+   "related": [
+    "zvlastni-vyjimka",
+    "ekvivokace",
+    "presvedcovaci-definice",
+    "eufemismus-a-dysfemismus",
+    "vagnost",
+    "pravidlo-uzivani-jazyka"
+   ],
+   "related_declared": [
+    "vagnost",
+    "eufemismus-a-dysfemismus",
+    "presvedcovaci-definice",
+    "zvlastni-vyjimka",
+    "ekvivokace",
+    "pravidlo-uzivani-jazyka"
+   ],
+   "review": "agent",
+   "risk": "stredni",
+   "risk_cs": "střední",
+   "schema": 1,
+   "sections": [
+    "Definice",
+    "Původ a souvislosti",
+    "Struktura argumentu",
+    "Detekční znaky",
+    "Odlišení od platné argumentace",
+    "Stav poznání",
+    "Obrana a odpověď"
+   ],
+   "slug": "rozliseni-bez-rozdilu",
+   "sources": [
+    "bentham-1824",
+    "copi-cohen-mcmahon-2014",
+    "damer-2009",
+    "festinger-1957",
+    "kunda-1990",
+    "mercier-sperber-2011",
+    "tversky-kahneman-1981",
+    "walton-1995",
+    "eemeren-grootendorst-2004"
+   ],
+   "sources_critical": [
+    "festinger-1957",
+    "kunda-1990",
+    "mercier-sperber-2011",
+    "tversky-kahneman-1981"
+   ],
+   "sources_primary": [
+    "copi-cohen-mcmahon-2014",
+    "damer-2009",
+    "walton-1995",
+    "eemeren-grootendorst-2004"
+   ],
+   "sources_roots": [
+    "bentham-1824"
+   ],
+   "type": "informal",
+   "type_cs": "neformální klam",
+   "url": "kompendium/argumentacni-fauly/jazykove-klamy/rozliseni-bez-rozdilu/",
+   "use": "vliv",
+   "use_cs": "převážně záměrná taktika",
+   "words": 1387
   },
   {
    "aliases": [
@@ -22213,6 +24634,7 @@
     "otraveni-studny",
     "nefalzifikovatelnost",
     "presun-dukazniho-bremene",
+    "nekonzistence",
     "myslenkove-ukoncujici-klise",
     "bulverismus",
     "pravidlo-svobody",
@@ -22977,6 +25399,7 @@
     "rozjety-vlak",
     "odvolani-na-strach",
     "dokaz-tvrzenim",
+    "nekonzistence",
     "gish-gallop",
     "jen-se-ptam",
     "argument-opakovanim",
@@ -23201,7 +25624,8 @@
     "kontrola-tonu",
     "bulverismus",
     "pravidlo-svobody",
-    "dialektika-a-eristika"
+    "dialektika-a-eristika",
+    "obsah-a-vztah"
    ],
    "related_declared": [
     "ad-hominem",
@@ -23645,6 +26069,7 @@
     "odvolani-na-novost",
     "odvolani-na-prirozenost",
     "chronologicky-snobismus",
+    "odvolani-na-precedent",
     "etymologicky-klam"
    ],
    "related_declared": [
@@ -24684,6 +27109,7 @@
     "cerveny-sled",
     "whataboutism",
     "irelevantni-zaver",
+    "falesna-utecha",
     "odvedeni-k-procedure"
    ],
    "related_declared": [
@@ -25005,6 +27431,7 @@
    ],
    "links_prose": [
     "kompendium/argumentacni-fauly/kauzalni/post-hoc.md",
+    "kompendium/argumentacni-fauly/predpoklady-argumentu/falesna-analogie.md",
     "kompendium/argumentacni-fauly/predpoklady-argumentu/kluzky-svah.md",
     "kompendium/argumentacni-fauly/predpoklady-argumentu/ukvapene-zobecneni.md",
     "kompendium/argumentacni-fauly/relevance/ad-populum.md",
@@ -25374,6 +27801,8 @@
     "amfibolie",
     "presvedcovaci-definice",
     "vyhybava-slova",
+    "vagnost",
+    "rozliseni-bez-rozdilu",
     "nominalizace",
     "neuro-zargon"
    ],
@@ -26567,7 +28996,9 @@
     "zamena-kvantifikatoru",
     "klam-modalniho-rozsahu",
     "klam-maskovaneho-muze",
-    "klam-klamu"
+    "klam-klamu",
+    "kladny-zaver-ze-zaporne-premisy",
+    "nedovolena-konverze"
    ],
    "slug": "formalni",
    "title": "Formální klamy",
@@ -26604,7 +29035,8 @@
     "chronologicky-snobismus",
     "dve-kriva-jedno-pravo",
     "kontrola-tonu",
-    "irelevantni-zaver"
+    "irelevantni-zaver",
+    "falesna-utecha"
    ],
    "slug": "relevance",
    "title": "Klamy relevance",
@@ -26633,7 +29065,10 @@
     "argument-z-neuveritelnosti",
     "kluzky-svah",
     "klam-utopenych-nakladu",
-    "dokaz-tvrzenim"
+    "dokaz-tvrzenim",
+    "falesna-analogie",
+    "odvolani-na-precedent",
+    "nekonzistence"
    ],
    "slug": "predpoklady-argumentu",
    "title": "Klamy předpokladu",
@@ -26698,7 +29133,9 @@
     "vyhybava-slova",
     "eufemismus-a-dysfemismus",
     "vytrzeni-z-kontextu",
-    "definicni-klam"
+    "definicni-klam",
+    "vagnost",
+    "rozliseni-bez-rozdilu"
    ],
    "slug": "jazykove-klamy",
    "title": "Klamy jazyka a dvojznačnosti",
@@ -26797,6 +29234,11 @@
    "entry": "Bandler, R., & Grinder, J. (1975b). *Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1*. Cupertino: Meta Publications.",
    "group": "primary"
   },
+  "bateson-1956": {
+   "cite": "Bateson a kol. 1956",
+   "entry": "Bateson, G., Jackson, D. D., Haley, J., & Weakland, J. (1956). Toward a theory of schizophrenia. *Behavioral Science*, 1(4), 251–264.",
+   "group": "roots"
+  },
   "bateson-1972": {
    "cite": "Bateson 1972",
    "entry": "Bateson, G. (1972). *Steps to an Ecology of Mind*. San Francisco: Chandler.",
@@ -26840,6 +29282,11 @@
   "damer-2009": {
    "cite": "Damer 2009",
    "entry": "Damer, T. E. (2009). *Attacking Faulty Reasoning: A Practical Guide to Fallacy-Free Arguments* (6. vyd.). Belmont: Wadsworth.",
+   "group": "primary"
+  },
+  "dilts-1999": {
+   "cite": "Dilts 1999",
+   "entry": "Dilts, R. (1999). *Sleight of Mouth: The Magic of Conversational Belief Change*. Capitola: Meta Publications.",
    "group": "primary"
   },
   "eemeren-grootendorst-1992": {

@@ -35,7 +35,7 @@ catalog_broader = ""
 catalog_narrower = ["kafkapast"]
 catalog_depth = 0
 catalog_ancestors = []
-catalog_related = ["odvolani-na-nevedomost", "kruhovy-argument", "zadny-pravy-skot", "zvlastni-vyjimka", "posouvani-branek", "magicke-mysleni", "vyhybava-slova", "kafkapast", "argument-z-mlceni", "galileuv-gambit", "vedecky-zargon", "klam-placebo", "pravidlo-dukazniho-bremene", "pravidlo-uzavreni", "neni-selhani-jen-zpetna-vazba", "falzifikovatelnost-nlp"]
+catalog_related = ["odvolani-na-nevedomost", "kruhovy-argument", "zadny-pravy-skot", "zvlastni-vyjimka", "posouvani-branek", "magicke-mysleni", "vyhybava-slova", "vagnost", "kafkapast", "argument-z-mlceni", "galileuv-gambit", "vedecky-zargon", "klam-placebo", "pravidlo-dukazniho-bremene", "pravidlo-uzavreni", "neni-selhani-jen-zpetna-vazba", "falzifikovatelnost-nlp"]
 catalog_related_declared = ["posouvani-branek", "kafkapast", "zadny-pravy-skot", "falzifikovatelnost-nlp", "neni-selhani-jen-zpetna-vazba"]
 catalog_kompendium = ["kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-7-2-3-popper-falsification.md", "kompendium/techniques/ea-7-2-4-lakatos-research-program.md"]
 catalog_canonical = ""
@@ -43,7 +43,7 @@ catalog_links_prose = ["kompendium/argumentacni-fauly/predpoklady-argumentu/poso
 catalog_prev = "falesny-kompromis"
 catalog_next = "posouvani-branek"
 catalog_position = 13
-catalog_family_size = 20
+catalog_family_size = 23
 catalog_sources = ["kunda-1990", "lifton-1961", "lilienfeld-2015", "nickerson-1998", "popper-1959", "sharpley-1987", "eemeren-grootendorst-2004", "van-der-linden-2023"]
 catalog_sources_primary = ["eemeren-grootendorst-2004"]
 catalog_sources_roots = ["popper-1959"]
@@ -235,6 +235,7 @@ vyhrává (Lifton 1961).
 - [Posouvání branek](@/kompendium/argumentacni-fauly/predpoklady-argumentu/posouvani-branek.md) – příbuzné heslo (Klamy předpokladu, Moving the goalposts)
 - [Magické myšlení](@/kompendium/argumentacni-fauly/kauzalni/magicke-mysleni.md) – příbuzné heslo (Kauzální klamy, Magical thinking)
 - [Vyhýbavá slova](@/kompendium/argumentacni-fauly/jazykove-klamy/vyhybava-slova.md) – příbuzné heslo (Klamy jazyka a dvojznačnosti, Weasel words)
+- [Zneužití vágnosti](@/kompendium/argumentacni-fauly/jazykove-klamy/vagnost.md) – příbuzné heslo (Klamy jazyka a dvojznačnosti, Vagueness (misuse of a vague expression))
 - [Kafkovská past](@/kompendium/argumentacni-fauly/dialekticke-taktiky/kafkapast.md) – příbuzné heslo (Rétorické a dialogické taktiky, Kafkatrapping)
 - [Argument z mlčení](@/kompendium/argumentacni-fauly/dialekticke-taktiky/argument-z-mlceni.md) – příbuzné heslo (Rétorické a dialogické taktiky, Argument from silence)
 - [Galileův gambit](@/kompendium/argumentacni-fauly/dialekticke-taktiky/galileuv-gambit.md) – příbuzné heslo (Rétorické a dialogické taktiky, Galileo gambit)

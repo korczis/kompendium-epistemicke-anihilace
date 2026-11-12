@@ -20,8 +20,8 @@ catalog_export = "data/nlp-katalog.json"
 catalog_family = "integrace-casti"
 catalog_code = "15"
 catalog_en = "Parts work"
-catalog_size = 9
-catalog_members = ["integrace-casti", "vizualni-squash", "jadrova-transformace", "vyjednavani-casti", "sekvencni-inkongruence", "simultanni-inkongruence", "elicitace-pozitivniho-zameru", "integrace-polarit", "stepeni-ja-v-manipulaci"]
+catalog_size = 10
+catalog_members = ["integrace-casti", "vizualni-squash", "jadrova-transformace", "vyjednavani-casti", "sekvencni-inkongruence", "simultanni-inkongruence", "elicitace-pozitivniho-zameru", "integrace-polarit", "stepeni-ja-v-manipulaci", "vytvoreni-nove-casti"]
 catalog_types = ["concept", "pattern"]
 catalog_sources = ["andreas-andreas-1994", "bandler-grinder-1982", "dilts-delozier-2000", "festinger-1957", "grinder-bandler-1976", "hassan-1988", "herman-1992", "lifton-1961", "lilienfeld-2015", "miller-rollnick-2013", "passmore-rowson-2019", "perls-1969", "satir-1972", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
 +++
@@ -75,6 +75,7 @@ V klinické péči je u lidí, na které byla metafora částí uplatňována ma
 | `NLP-15.07` | [Hledání pozitivního záměru části](@/kompendium/nlp-vzorce/integrace-casti/elicitace-pozitivniho-zameru.md) | Eliciting a part's positive intention | vzorec | terapeutické i vlivové | vysoké |
 | `NLP-15.08` | [Integrace polarit](@/kompendium/nlp-vzorce/integrace-casti/integrace-polarit.md) | Polarity integration | vzorec | převážně terapeutické | střední |
 | `NLP-15.09` | [Štěpení já v manipulativních skupinách](@/kompendium/nlp-vzorce/integrace-casti/stepeni-ja-v-manipulaci.md) | Splitting of the self in manipulative groups | pojem | výkladový pojem | vysoké |
+| `NLP-15.10` | [Vytvoření nové části](@/kompendium/nlp-vzorce/integrace-casti/vytvoreni-nove-casti.md) | Creating a new part | vzorec | terapeutické i vlivové | střední |
 
 ## Mapa rodiny
 
@@ -93,6 +94,7 @@ flowchart LR
   n7["Hledání pozitivního záměru části"]
   n8["Integrace polarit"]
   n9["Štěpení já v manipulativních skupinách"]
+  n10["Vytvoření nové části"]
   F --> n1
   n1 --> n2
   n1 --> n3
@@ -102,6 +104,7 @@ flowchart LR
   F --> n7
   n1 --> n8
   F --> n9
+  n1 --> n10
   click n1 "@/kompendium/nlp-vzorce/integrace-casti/integrace-casti.md"
   click n2 "@/kompendium/nlp-vzorce/integrace-casti/vizualni-squash.md"
   click n3 "@/kompendium/nlp-vzorce/integrace-casti/jadrova-transformace.md"
@@ -111,6 +114,7 @@ flowchart LR
   click n7 "@/kompendium/nlp-vzorce/integrace-casti/elicitace-pozitivniho-zameru.md"
   click n8 "@/kompendium/nlp-vzorce/integrace-casti/integrace-polarit.md"
   click n9 "@/kompendium/nlp-vzorce/integrace-casti/stepeni-ja-v-manipulaci.md"
+  click n10 "@/kompendium/nlp-vzorce/integrace-casti/vytvoreni-nove-casti.md"
 ```
 
 <!-- kompendium:katalog-vazby:end -->

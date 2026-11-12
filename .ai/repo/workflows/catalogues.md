@@ -21,7 +21,9 @@ majordomus start "Katalog: <co>" --scope .
    pořadí, slovníky `types`/`uses`/`risks`, povinné oddíly `required`, oddíl důkazů
    `evidence`, exporty). Žádný nový skript, šablona ani brána: engine i šablony čtou
    deklaraci.
-2. `<adresář>/_families.toml` s rodinami a neměnnými kódy.
+2. `<adresář>/_families.toml` s rodinami a neměnnými kódy a `<adresář>/_coverage.toml` s
+   názvy, které uvádějí standardní přehledy oboru, každý s heslem nebo s důvodem, proč heslo
+   nemá; přidat se smí jen název, který dílo prokazatelně uvádí.
 3. Díla, která katalog potřebuje, do `data/sources.toml` – jen ta, o nichž je jisté, že
    existují a říkají, co jim text připisuje.
 4. Rozcestník sekce `content/<sekce>/_index.md` (jen `description` a próza) a odkaz na sekci

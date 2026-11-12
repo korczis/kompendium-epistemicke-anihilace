@@ -42,7 +42,8 @@ sémantickou demencí, jak ji popisovala původní verze.
 ## Původ a kontext pojmu
 
 Pojem *sémantická demence* zavedla Julie Snowdenová se spolupracovníky (1989). Syndrom
-systematicky popsali John Hodges a Karalyn Pattersonová se spolupracovníky v Cambridgi (1992)
+systematicky popsali John Hodges a Karalyn Pattersonová se spolupracovníky v Cambridgi
+(Hodges a kol., 1992)
 a odlišili ho od Alzheimerovy demence – pacienti se sémantickou variantou ztráceli význam,
 zatímco epizodická paměť zůstávala dlouho nedotčená. Klasifikace svPPA je dnes součástí
 mezinárodního konsenzu pro primární progresivní afázii (Gorno-Tempini a kol., 2011) jako jedna
@@ -130,6 +131,8 @@ otázky (konkrétní, s vizuální oporou) a zapojit odborníka.
 
 - Julie S. Snowden a kol.: „Semantic dementia: a form of circumscribed cerebral atrophy“,
   *Behavioural Neurology* (1989).
+- John R. Hodges, Karalyn Patterson, Susan Oxbury, Elaine Funnell: „Semantic dementia:
+  progressive fluent aphasia with temporal lobe atrophy“, *Brain* (1992).
 - John R. Hodges, Karalyn Patterson: „Semantic dementia: a unique clinicopathological
   syndrome“, *Lancet Neurology* (2007).
 - Maria Luisa Gorno-Tempini a kol.: „Classification of primary progressive aphasia and its

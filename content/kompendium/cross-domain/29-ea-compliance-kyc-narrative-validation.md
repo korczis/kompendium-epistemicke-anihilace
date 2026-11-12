@@ -31,7 +31,7 @@ zjišťování původu prostředků u rizikových klientů a politicky exponovan
 Digitalizace přesunula ověřování na dálku: klient pořídí fotografii dokladu a video
 nebo snímek obličeje a systém ověří shodu a „živost“. Tento proces je terčem útoků
 s pomocí **syntetických identit** (kombinace skutečných a vymyšlených údajů) a technologií
-**deepfake**, které umožňují vytvořit věrohodný obličej nebo video (viz [Deepfake](@/glossary/deepfake.md)).
+**[deepfake](@/glossary/deepfake.md)**, které umožňují vytvořit věrohodný obličej nebo video (viz [Deepfake](@/glossary/deepfake.md)).
 Unijní rámec digitální identity, posílený nařízením (EU) 2024/1183 (eIDAS 2) a zaváděním
 evropské peněženky digitální identity, má ověřování zpevnit spolehlivou elektronickou
 identifikací.

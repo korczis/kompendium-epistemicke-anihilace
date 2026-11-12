@@ -154,6 +154,22 @@ Informace obsažené v následujících kapitolách patří mezi nejcitlivějš�
 
 Přístup k této části kompendia implicitně znamená souhlas s etickými principy a bezpečnostními protokoly specifikovanými v předchozích kapitolách, stejně jako závazek k jejich rigoróznímu dodržování v jakékoli práci s těmito poznatky. Porušení těchto etických a bezpečnostních principů může mít závažné konsekvence nejen pro dotčené jednotlivce, ale potenciálně i pro širší epistemické komunity a společnost jako celek.
 
+## Rozlišení studijního a výkonového rámce
+
+Materiál této sekce je napsán pro čtenáře, který potřebuje rozpoznat probíhající terminální protokol — pro klinika, výzkumníka, vyšetřovatele nebo pro člověka, který takovou sekvencí prošel. Není napsán pro toho, kdo by ji vedl, a neobsahuje údaje, které by k vedení byly potřeba; tento závazek je formulován v [etickém kodexu](@/kompendium/08-prilohy/eticky-kodex.md) kompendia a platí pro všechny jeho kapitoly bez výjimky.
+
+Rozdíl mezi prostředím, v němž je tento materiál studován, a prostředím, v němž je vykonáván, se projevuje v několika pozorovatelných znacích. Ve studijním prostředí vykonává dohled někdo, kdo není součástí popisované sekvence, a je dohledatelný mimo ni; souhlas je opakovaně revidován, nikoli získán jednou provždy; ukončení účasti je dostupné bez ztráty postavení, vztahů nebo přístupu k péči. Tyto znaky nejsou formalitami — Beauchamp a Childress (2019) je formulují jako podmínky, bez nichž souhlas přestává být souhlasem, protože průběžnost, informovanost a odvolatelnost bez sankce nejsou doplňky souhlasu, nýbrž jeho obsah.
+
+Prostředí, v němž je sekvence vykonávána, tyto znaky buď nemá, nebo je napodobuje. Dohled v něm vykonává tentýž subjekt, který sekvenci vede; souhlas je získán jednou a poté považován za trvale platný; odchod je formálně dostupný, ale spojený se ztrátou postavení, vztahů nebo přístupu. Lifton (1961) uvádí právě tuto konfiguraci mezi definičními rysy totálního prostředí: odchod zůstává technicky možný a současně prakticky nemyslitelný, a tato kombinace je rozpoznatelná dříve než kterýkoli jednotlivý obsah sekvence.
+
+Pro čtenáře, který se uvnitř takového prostředí nachází, je nejspolehlivějším vodítkem dostupnost někoho, kdo není součástí sekvence. Herman (1992) klade ustavení bezpečí před jakoukoli rekonstrukci příběhu a popisuje je jako podmínku, bez níž další fáze zotavení nezačínají; dostupnost takového bezpečí je proto sama rozpoznávacím znakem, nikoli až jeho důsledkem. *Interpretace knihy:* kde v okolí není nikdo mimo sekvenci, nejde o studium, jakkoli je celé uspořádání rámcováno.
+
+## Literatura
+
+- Beauchamp, T. L., & Childress, J. F. (2019). *Principles of Biomedical Ethics*. 8. vydání. Oxford University Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+
 ## Související
 
 - [Hub kompendia](@/kompendium/_index.md) — návrat na hlavní rozcestník
@@ -169,19 +185,8 @@ Přístup k této části kompendia implicitně znamená souhlas s etickými pri
 - [Glosář: Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
 - [Filozofie: Intelektuální suverenita](@/philosophy/intellectual-sovereignty.md)
 - [Filozofie: Epistemická integrita](@/philosophy/epistemic-integrity.md)
-
-## Kritický krok
-
-**Tato sekce není použitelná bez supervize.** Před aplikací jakéhokoli
-terminálního protokolu (i v rámci sebe-monitoringu) ověř:
-
-1. Existující písemný [eticky-kodex](@/kompendium/08-prilohy/eticky-kodex.md)
-   schválený tvou institucí
-2. Aktivní [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-   s minimálně měsíčním kontaktem
-3. [Pred-simulační screening](@/kompendium/04-terminalni-protokoly/pred-simulacni-screening.md)
-   uplynulých 7 dní
-
-> **Mandatorní akce**: aplikace bez splnění všech tří bodů je porušením
-> doktríny tohoto kompendia. Bez nich vrať tento materiál na úroveň
-> [03 Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md).
+- [Etický kodex kompendia](@/kompendium/08-prilohy/eticky-kodex.md)
+- [Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
+- [Pred-simulační screening](@/kompendium/04-terminalni-protokoly/pred-simulacni-screening.md)
+- [Intra-simulační monitoring](@/kompendium/04-terminalni-protokoly/intra-simulacni-monitoring.md)
+- [Kontrolovaná rekonstituce](@/kompendium/04-terminalni-protokoly/kontrolovana-rekonstituce.md)

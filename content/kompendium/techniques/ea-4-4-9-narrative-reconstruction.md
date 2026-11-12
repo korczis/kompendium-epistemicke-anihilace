@@ -62,18 +62,16 @@ Zasažený člověk referuje, že dřívější verze svého života „už nero
 | **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
 | **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
 
-## Indikace a kontraindikace
+## Vylučující okolnosti rekonstrukční fáze
 
-### Legitimní indikace (vzácné, výhradně supervidovaný kontext)
-- Profesní příprava operativních složek pro extrémně náročné prostředí pod doložitelnou jurisdikcí.
-- Klinická intervence u striktně vymezených diagnóz, kde benefit prokazatelně převažuje riziko.
-- Forenzní rekonstrukce s explicitním soudním mandátem a etickým dohledem.
+Kompendium nevyjmenovává prostředí, v nichž by rekonstrukce životního příběhu druhého člověka byla přípustná; takový výčet by zastíral, že autorství příběhu patří jeho nositeli. Otázku přípustnosti posuzuje [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md), nikoli tento přehled. Následují okolnosti, za nichž je rekonstrukční fáze vyloučena, a proč vylučují.
 
-### Absolutní kontraindikace
-- Akutní psychiatrická krize, suicidální ideace, dekompenzovaná komorbidita.
-- Nedostatečná podpůrná síť subjektu nebo závislé sociální postavení.
-- Subjekt v mocenské asymetrii vůči operátorovi (zaměstnanec, podřízený, klient v privátní praxi bez druhého supervizora).
-- Komerční, kompetitivní nebo politické cíle protokolu.
+| Okolnost | Proč rekonstrukci vylučuje |
+|---------------------|---------------|
+| Akutní psychiatrická krize se suicidální ideací, dekompenzovaná komorbidita | Nový narativ by se instaloval do stavu, v němž subjekt nemůže žádnou jeho verzi zpochybnit |
+| Chybějící okruh blízkých osob nebo závislé postavení subjektu | Nejsou nezávislí svědci, u nichž by se ukotvení v doložitelné biografii dalo ověřit |
+| Operátor v nadřazeném postavení (zaměstnavatel, nadřízený, privátní praxe bez druhého supervizora) | Autorem příběhu se stává ten, kdo má nad subjektem moc, a revize se tím uzavírá |
+| Komerčně, soutěžně nebo politicky motivované zadání | Výsledný příběh slouží zadavateli; subjekt v něm zbývá jako jeho postava, ne vypravěč |
 
 ## Klinické markery (neúmyslná manifestace)
 

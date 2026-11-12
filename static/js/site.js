@@ -46,7 +46,9 @@
   // {engine, describe(url), docs}; docs (url, title, normalised title) serve the diagram links.
   function loadIndex() {
     if (!indexPromise) {
-      indexPromise = Promise.all([fetchJson(indexUrl), fetchJson(graphUrl)]).then(function (r) {
+      // J.ready(): the wasm engine, when its module loads, answers from the first query on.
+      indexPromise = Promise.all([fetchJson(indexUrl), fetchJson(graphUrl), J.ready()])
+        .then(function (r) {
         var data = r[0];
         var f = {};
         data.fields.forEach(function (name, i) { f[name] = i; });

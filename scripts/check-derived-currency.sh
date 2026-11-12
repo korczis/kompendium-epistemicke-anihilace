@@ -57,6 +57,6 @@ fi
 step "migrate-content --check"      python3 scripts/migrate-content.py --check
 step "normalize-front-matter --check" python3 scripts/normalize-front-matter.py --check
 step "polish-markdown --check"      python3 scripts/polish-markdown.py --check
-step "link-terms --check"           python3 scripts/link-terms.py --check
+step "link-terms --check"           python3 scripts/link-terms.py --bold --check
 step "check-ia"                     python3 scripts/check-ia.py
 fin

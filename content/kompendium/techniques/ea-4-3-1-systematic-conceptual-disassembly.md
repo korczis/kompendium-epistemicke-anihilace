@@ -62,18 +62,16 @@ Zasažený člověk referuje, že „přestal rozumět slovům, která celý ži
 | **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
 | **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
 
-## Indikace a kontraindikace
+## Vylučující okolnosti
 
-### Legitimní indikace (vzácné, výhradně supervidovaný kontext)
-- Profesní příprava operativních složek pro extrémně náročné prostředí pod doložitelnou jurisdikcí.
-- Klinická intervence u striktně vymezených diagnóz, kde benefit prokazatelně převažuje riziko.
-- Forenzní rekonstrukce s explicitním soudním mandátem a etickým dohledem.
+Výčet legitimních použití terminálního protokolu kompendium neuvádí; stránka je defenzivní taxonomie a měřítko přípustnosti stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md). Zaznamenány jsou proto jen okolnosti, za nichž je vzorec nepřípustný i tam, kde se na supervizi odvolává.
 
-### Absolutní kontraindikace
-- Akutní psychiatrická krize, suicidální ideace, dekompenzovaná komorbidita.
-- Nedostatečná podpůrná síť subjektu nebo závislé sociální postavení.
-- Subjekt v mocenské asymetrii vůči operátorovi (zaměstnanec, podřízený, klient v privátní praxi bez druhého supervizora).
-- Komerční, kompetitivní nebo politické cíle protokolu.
+| Okolnost | Role v závěru |
+|---|---|
+| Akutní psychiatrická krize, suicidální ideace nebo dekompenzovaná komorbidita | Vylučuje sama o sobě. |
+| Nedostatečná podpůrná síť člověka nebo jeho závislé sociální postavení | Vylučuje sama o sobě. |
+| Mocenská asymetrie vůči tomu, kdo vzorec uplatňuje (zaměstnanec, podřízený, klient v privátní praxi bez druhého supervizora) | Vylučuje sama o sobě; souhlas v takovém postavení nelze mít za svobodný. |
+| Komerční, kompetitivní nebo politický cíl | Vylučuje sama o sobě; odvolání na klinický či výzkumný rámec je v takovém případě jen formální. |
 
 ## Klinické markery (neúmyslná manifestace)
 
@@ -134,20 +132,17 @@ Klinický kontext **EA-4.3.1** připouští následující dokumentované adapta
 
 ## Vztah k jiným technikám
 
-### V rámci subkategorie 4.3 Konceptuální dekonstrukce
-  - [EA-4.3.2 Categorical boundary erosion](@/kompendium/techniques/ea-4-3-2-categorical-boundary-erosion.md)
-  - [EA-4.3.3 Semantic stability disruption](@/kompendium/techniques/ea-4-3-3-semantic-stability-disruption.md)
-  - [EA-4.3.4 Inferential chain breakage](@/kompendium/techniques/ea-4-3-4-inferential-chain-breakage.md)
-  - [EA-4.3.5 Evidential criteria modification](@/kompendium/techniques/ea-4-3-5-evidential-criteria-modification.md)
-  - [EA-4.3.6 Meta-conceptual reset](@/kompendium/techniques/ea-4-3-6-meta-conceptual-reset.md)
-
-### Provázanost mezi subkategoriemi 4
-  - [EA-4.4.1 Narrative disassembly](@/kompendium/techniques/ea-4-4-1-narrative-disassembly.md)
-
-### Cross-kategoriální vazby
-- **[EA 1 1 1 SELEKTIVNI EXPOZICE](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)** — akademická vrstva, jejíž eskalace může vést k terminální fázi.
-- **[EA 1 3 1 IMUNIZACE PROTI FALSIFIKACI](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)** — související vstupní mechanismus.
-- **[EA 5 1 3 REFLEXIVNI PARADOXIE](@/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie.md)** — ultramární technika strukturálně příbuzná, vyžadující ostřejší distinktivní detekci.
+| Stránka | Typ vztahu | Čím se k této stránce váže |
+|---|---|---|
+| [EA-4.3.2 Categorical boundary erosion](@/kompendium/techniques/ea-4-3-2-categorical-boundary-erosion.md) | Táž subkategorie 4.3 | Rozpad hranic kategorií jako dílčí podoba téhož rozebrání. |
+| [EA-4.3.3 Semantic stability disruption](@/kompendium/techniques/ea-4-3-3-semantic-stability-disruption.md) | Táž subkategorie 4.3 | Narušení stálosti významu u jednotlivých slov. |
+| [EA-4.3.4 Inferential chain breakage](@/kompendium/techniques/ea-4-3-4-inferential-chain-breakage.md) | Táž subkategorie 4.3 | Přerušení odvozovacích řetězců, na nichž závisí soudržnost argumentace. |
+| [EA-4.3.5 Evidential criteria modification](@/kompendium/techniques/ea-4-3-5-evidential-criteria-modification.md) | Táž subkategorie 4.3 | Posun kritérií, podle nichž člověk přijímá nebo odmítá výroky. |
+| [EA-4.3.6 Meta-conceptual reset](@/kompendium/techniques/ea-4-3-6-meta-conceptual-reset.md) | Táž subkategorie 4.3 | Zásah do vrstvy, která řídí zacházení se samotnými pojmy. |
+| [EA-4.4.1 Narrative disassembly](@/kompendium/techniques/ea-4-4-1-narrative-disassembly.md) | Jiná subkategorie kapitoly 4 | Totéž rozebrání vedené na životním vyprávění, ne na pojmech. |
+| [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) | Akademická vrstva | Vrstva, jejíž eskalace může k terminální fázi vést. |
+| [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) | Akademická vrstva | Vstupní mechanismus, který drží pojmový systém mimo kontrolu. |
+| [EA-5.1.3 Reflexivní paradoxie](@/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie.md) | Ultramární technika | Strukturálně příbuzná; vyžaduje ostřejší rozlišení při detekci. |
 
 ## Literatura
 
@@ -183,11 +178,7 @@ Klinický kontext **EA-4.3.1** připouští následující dokumentované adapta
 
 ## Co ověřit před čtením
 
-Před prací s touto stránkou si čtenář ověří:
-
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L2 = doložená kvalifikace + supervize).
-- Máš funkční [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) na úrovni odpovídající rizikovému profilu techniky.
-- Pokud diagnostikuješ na sobě nebo na blízkém kontaktu, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí.
+Stránka počítá s tím, že čtenář před prací s ní ověří tři věci: že jeho přístupová úroveň odpovídá hodnotě `access_level` v záhlaví článku (L2 znamená doloženou kvalifikaci a supervizi), že má funkční [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) na úrovni odpovídající rizikovému profilu techniky, a že pozorování na sobě nebo na blízké osobě nepoužije jako diagnózu — k tomu slouží [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a výsledek patří do supervize. Smysl těchto podmínek vykládá kapitola [jak kompendium používat](@/kompendium/01-predmluva/jak-pouzivat.md).
 
 > **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
 > čtenáře, nikoli nástroj. Etický rámec stanoví
@@ -198,6 +189,7 @@ Před prací s touto stránkou si čtenář ověří:
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+Stránku vytvořil [Tomáš Korcak (korczis)](https://github.com/korczis).
+Licence obsahu: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md).
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)
+Další rozcestníky: [Glossary](@/glossary/_index.md), [Philosophy](@/philosophy/_index.md).

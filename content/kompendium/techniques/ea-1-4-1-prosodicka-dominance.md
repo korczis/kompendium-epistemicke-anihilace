@@ -36,7 +36,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 
 **Prosodická dominance** je systematické využívání **prosodických vzorců** — **intonace**, **hlasitosti**, **tempa**, **pauz**, **rytmu**, **hlasové barvy** — k **ustanovení epistemické dominance** a **inhibici kritického zkoumání**. Klíčová charakteristika: **operuje pod prahem vědomé detekce**. Subjekt prožívá prezentaci jako **přesvědčivou**, **autoritativní**, **kompetentní** — bez vědomí, že tento dojem je generován **paralingvisticky**, ne **substantivně**.
 
-Strukturálně exploituje **automatické sociální interpretace** prosodických signálů jako indikátorů epistemického statusu a jistoty. Tyto interpretace jsou **evolučně formované** a jen **omezeně** modulovatelné explicitní deliberací.
+Strukturálně využívá automatických sociálních interpretací prosodických signálů jako ukazatelů epistemického postavení a jistoty. Tyto interpretace probíhají rychle a bez úmyslu a explicitní rozvahou je lze ovlivnit jen omezeně (Scherer, 2003).
 
 ## Struktura vzorce
 
@@ -99,46 +99,18 @@ Prosodická dominance vs. **legitimní pedagogická prosodie**:
 
 ### Individuální
 
-#### 1. **Vědomá neutralizace prosodických vlivů**
+První obranou je rozdělení pozornosti. Posuzovatel oddělí propoziční obsah od podání a drží se tří otázek: co přesně bylo tvrzeno, jaké odůvodnění k tomu bylo předloženo a zda by stejně rozhodný přednes provázel i tvrzení opačné. Právě takové oddělení obsahu od způsobu sdělení doporučují Knapp a Hall (2010), protože vliv hlasových signálů se v průběhu poslechu neohlašuje a dá se zachytit jen dodatečnou kontrolou.
 
-**Aktivně** se zaměř na **propoziční obsah**, ignoruj prosodii:
+Druhou obranou je metakomunikační poznámka, tedy vyslovení pozorovaného rozporu nahlas. Žádost o výslovnou formulaci tvrzení — „prezentace je velmi přesvědčivá, rád bych se ale držel samotného tvrzení; můžete je formulovat explicitně?“ — přesouvá rozhovor z úrovně podání na úroveň tvrzení, kde prosodie nemá co nabídnout. Scherer (2003) ukazuje, proč je tento přesun nutný: hlasové ukazatele nesou vlastní, na obsahu nezávislou informaci, kterou posluchač zpracovává bez úmyslu.
 
-- Co konkrétně říká?
-- Jaké je odůvodnění?
-- Co by řekl/a stejnou prosodií, kdyby tvrzení bylo opačné?
+Třetí obranou je písemný záznam. Písmo nenese intonaci, tempo ani kadenci, takže v něm musí obstát odůvodnění; je-li písemná verze zřetelně slabší než ústní, je rozdíl sám diagnostickým údajem. Totéž platí pro dodatečné přehrání záznamu, při němž pozornost zůstává u obsahu — dojem jistoty, který vznikl paralingvisticky, se při druhém poslechu udrží podstatně méně (Knapp a Hall, 2010). Čtvrtou obranou je pak srovnání kanálů, v nichž totéž tvrzení obstojí nebo neobstojí: závisí-li přesvědčivost na jediném řečníkovi, je to známka prosodické závislosti, ne doloženosti.
 
-Tato disciplinovaná evaluace dramaticky snižuje vliv prosodie.
-
-#### 2. **Meta-komunikativní poznámky**
-
-Při detekci prosodické dominance explicitně ji jmenuj:
-
-> *„Vaše prezentace je velmi přesvědčivá, ale chci se zaměřit na substantivní claim. Můžete prosím explicitně formulovat svůj argument?“*
-
-Meta-úroveň přerušuje strukturální vzorec.
-
-#### 3. **Písemné zachycení**
-
-Vyžaduj **písemnou** verzi klíčových argumentů:
-
-> *„Mohli byste prosím poslat tento argument písemně?“*
-
-Písemný formát strukturálně odolává prosodické dominanci. Pokud písemná verze je **slabší** než verbal, je to **diagnostický** indikátor.
-
-#### 4. **Audio analysis ex-post**
-
-Ve klíčových kontextech — **přehrání** záznamu se zaměřením na **substantivu**, ignorujíc prosodii. Často odhalí, že substantivní obsah je **mnohem slabší**, než byl real-time dojem.
-
-#### 5. **Cross-modal validation**
-
-Triangulate informaci přes **multiple modality**:
-
-- Verbal (vulnerable to prosodie)
-- Written (resistance)
-- Quantitative (resistance)
-- Independent expert opinion
-
-Pokud informace silně závisí na **specifickém řečníkovi**, je to silný indikátor prosodické závislosti.
+| Kanál sdělení | Nakolik v něm rozhoduje podání |
+|---|---|
+| Ústní vystoupení | Plná expozice: na hodnocení se podílí intonace, tempo i uzavírající kadence. |
+| Písemná verze téhož argumentu | Podání se neuchová; obstát musí odůvodnění. |
+| Kvantitativní podklad | Údaj a jeho zdroj lze zkontrolovat bez ohledu na přednes. |
+| Nezávislé odborné posouzení | Hodnocení vzniká mimo dosah původního řečníka. |
 
 ### Institucionální
 
@@ -152,57 +124,28 @@ Pokud informace silně závisí na **specifickém řečníkovi**, je to silný i
 
 ## Případové studie
 
-### Případ 1 — TED-style prezentace
+Tři anonymizované kompozity ukazují tentýž rozpor v různém prostředí: přednes obstál, podklad nikoli. Hall, Coats a Smith LeBeau (2005) tento výsledek vysvětlují tím, že hlasové a pohybové znaky publikum čte jako znaky postavení — a postavení se na rozdíl od tvrzení nekontroluje.
 
-Highly-rated TED talk získal milióny views. Substance byl **později** kritizován academic community jako **fundamentálně chybný**.
+| Prostředí | Co rozhodlo v reálném čase | Co ukázal pozdější přezkum | Co prostředí poté změnilo |
+|---|---|---|---|
+| Veřejná přednáška pro široké publikum | Vysoce ceněný přednes a široce sdílený záznam | Tvrzení vybraná selektivně a bez opory v recenzovaném písemnictví; řečníkova příprava byla rétorická, nikoli oborová | Ověřování věcných tvrzení před uvedením a zahrnutí věcné správnosti do přípravy řečníků |
+| Investorská prezentace | Rozhodnost zakladatele a trénovaná „executive presence“ | Písemný plán byl v klíčových místech vágní a [due diligence](@/glossary/due-diligence.md) zůstalo povrchní | Požadavek podrobné písemné dokumentace a nezávislého odborného posouzení před investicí |
+| Klinická konzultace | Autoritativní doporučení jediného léčebného postupu | Souhlas padl rychle a [informovaný souhlas](@/glossary/informed-consent.md) neproběhl jako proces; alternativy nebyly probrány | Písemný přehled možností, odklad rozhodnutí a nabídka druhého názoru |
 
-Detekce: Externí akademický review identifikoval, že:
-
-- Speaker prezentoval s **excellent prosodie**
-- Substantivně tvrzení byla selektivní a **kvantitativně nepodložená**
-- Žádné peer review backing
-- Speaker měl background v public speaking, ne v field
-
-Intervence: TED guidelines požadují **academic verification** klíčových factual claims; speaker training integruje substantive accuracy.
-
-### Případ 2 — Korporátní pitch
-
-Startup CEO získal $50M funding na základě **highly persuasive** pitch. 18 měsíců později investors recognized, že underlying business model was **structurally invalid**.
-
-Detekce: Post-mortem identifikoval, že:
-
-- CEO byl trained in „executive presence“ — prosodie optimalizovaná
-- [Due diligence](@/glossary/due-diligence.md) bylo **superficial** — investors **defaulted** na prosodic confidence
-- Written business plan byl **vague** v klíčových aspektech
-
-Intervence: VC firma redesigned due diligence — required **detailed written documentation** + **independent technical review** before investment.
-
-### Případ 3 — Klinická konzultace
-
-Pacient s vážnou diagnózou dostal **authoritative recommendation** pro specifický léčebný plán. **Acceptace** byla rapid, bez explicit [informed consent](@/glossary/informed-consent.md) process.
-
-Detekce: Patient advocate identifikoval vzorec — pacienti accepted recommendations bez exploration alternative.
-
-Intervence: Klinické protokoly — **mandatorní** written treatment options, **48-hour cooldown**, second opinion option.
+Údaje o objemu investice ani o délce odstupu kompendium neuvádí: kompozit je ilustrací vzorce, nikoli případovou evidencí.
 
 ## Vztah k jiným technikám
 
-### Často se kombinuje s
-
-- **[EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)** — sourozenecká paralingvistická; prosodie + emocionální modulace synergují.
-- **[EA-1.5.2 Dominantní tělesné hieroglyfy](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md)** — neverbální + paralingvistická = total domination signaling.
-- **[EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)** — komplexní jazyk + prosodická autorita = „**unfraktovatelná**“ prezentace.
-- **[EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md)** — rychlé tempo s autoritativní prosodií.
-
-### Eskaluje do
-
-- **[EA-1.6.1](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) Vzorec „Guru a adept“** — guru typically má vysoce trained prosodii; klíčový mechanism establishment autority.
-- **Kolektivní prosodická norma** — strukturální dominance v institucionálním měřítku (např. **executive culture**).
-
-### Hraniční / podobné
-
-- **Legitimní pedagogická prosodie** — strukturálně podobná, ale **modulovaná** vůči epistemické robustnosti.
-- **Charismatic teaching** — kvalifikovaná prosodie kombinovaná se substantivním obsahem.
+| Technika nebo jev | Typ vztahu | Co k prosodické dominanci přidává |
+|---|---|---|
+| [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) | Časté spojení | Sourozenecká paralingvistická technika; emoční podbarvení působí týmž kanálem jako přednes. |
+| [EA-1.5.2 Dominantní tělesné hieroglyfy](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md) | Časté spojení | Pohybová složka, která hlasové znaky postavení doplňuje. |
+| [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) | Časté spojení | Jazyk, který nelze rychle přeložit, odebírá publiku oporu pro dotaz. |
+| [EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) | Časté spojení | Vysoké tempo, jemuž rozhodný přednes dodává zdání zvládnutí. |
+| [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) | Eskalace | Autorita osoby, na jejímž ustavení má způsob přednesu podstatný podíl. |
+| Kolektivní prosodická norma | Eskalace | Tentýž vzorec na úrovni instituce, kde rozhodný přednes platí za znak kompetence. |
+| Legitimní pedagogická prosodie | Hraniční jev | Strukturálně podobná, ale modulovaná podle doloženosti tvrzení. |
+| Charismatické vyučování | Hraniční jev | Zvládnutý přednes doprovázející obsah, který obstojí i v přepisu. |
 
 ## Literatura
 
@@ -228,16 +171,15 @@ Intervence: Klinické protokoly — **mandatorní** written treatment options, *
 
 ## Co ověřit před čtením
 
-Před prací s touto stránkou si čtenář ověří:
-
-- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
-  (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
-  rámec)
-- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  odpovídající úrovni této stránky
-- Rozpoznání vzorce u sebe sama není diagnóza: slouží k tomu
-  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a výsledek patří do supervize
+Stránka počítá s tím, že čtenář před prací s ní ověří tři věci: že jeho přístupová
+úroveň odpovídá hodnotě `access_level` v záhlaví článku (L1 volný přístup, L2 doložená
+kvalifikace, L3 omezený doktrinální rámec), že má k dispozici
+[supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) odpovídající
+úrovni této stránky, a že rozpoznání vzorce u sebe sama nepoužije jako diagnózu —
+k tomu slouží
+[diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
+a výsledek patří do supervize. Smysl těchto podmínek vykládá kapitola
+[jak kompendium používat](@/kompendium/01-predmluva/jak-pouzivat.md).
 
 > **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
 > čtenáře, nikoli nástroj. Etický rámec stanoví
@@ -248,6 +190,7 @@ Před prací s touto stránkou si čtenář ověří:
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+Stránku vytvořil [Tomáš Korcak (korczis)](https://github.com/korczis).
+Licence obsahu: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md).
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)
+Další rozcestníky: [Glossary](@/glossary/_index.md), [Philosophy](@/philosophy/_index.md).

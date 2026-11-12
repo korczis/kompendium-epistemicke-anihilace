@@ -35,7 +35,7 @@ catalog_broader = "kotveni"
 catalog_narrower = []
 catalog_depth = 1
 catalog_ancestors = ["kotveni"]
-catalog_related = ["kotva-pojem", "kotveni", "kolaps-kotev", "auditivni-kotvy", "kotveni-v-kontrolujicich-vztazich", "rychla-lecba-fobie", "trauma-a-falesne-vzpominky"]
+catalog_related = ["kotva-pojem", "kotveni", "kolaps-kotev", "auditivni-kotvy", "kotveni-v-kontrolujicich-vztazich", "skryte-kotveni", "rychla-lecba-fobie", "trauma-a-falesne-vzpominky"]
 catalog_related_declared = ["kotva-pojem", "kotveni", "kolaps-kotev", "rychla-lecba-fobie", "kotveni-v-kontrolujicich-vztazich", "trauma-a-falesne-vzpominky"]
 catalog_kompendium = ["glossary/complex-trauma.md", "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md", "kompendium/techniques/ea-8-1-8-traumatic-stress-screen.md", "kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md"]
 catalog_canonical = ""
@@ -43,7 +43,7 @@ catalog_links_prose = ["glossary/complex-trauma.md", "kompendium/06-klinicke-apl
 catalog_prev = "kotvy-v-reklame"
 catalog_next = "kotveni-v-kontrolujicich-vztazich"
 catalog_position = 17
-catalog_family_size = 19
+catalog_family_size = 20
 catalog_sources = ["bandler-grinder-1979", "beck-1976", "herman-1992", "lilienfeld-2015", "norcross-2006", "oconnor-seymour-1990", "pavlov-1927", "singer-lalich-1995", "sturt-2012", "wolpe-1958"]
 catalog_sources_primary = ["bandler-grinder-1979", "oconnor-seymour-1990"]
 catalog_sources_roots = ["pavlov-1927"]
@@ -231,6 +231,7 @@ reakce vrátí.
 - [Kolaps kotev](@/kompendium/nlp-vzorce/kotveni/kolaps-kotev.md) – příbuzné heslo (Kotvení, Collapsing anchors)
 - [Auditivní a tonální kotvy](@/kompendium/nlp-vzorce/kotveni/auditivni-kotvy.md) – příbuzné heslo (Kotvení, Auditory and tonal anchors)
 - [Kotvení v kontrolujících vztazích](@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md) – příbuzné heslo (Kotvení, Anchoring in controlling relationships)
+- [Skryté kotvení](@/kompendium/nlp-vzorce/kotveni/skryte-kotveni.md) – příbuzné heslo (Kotvení, Covert anchoring)
 - [Rychlá léčba fobie](@/kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md) – příbuzné heslo (Disociace, fobie a trauma, Fast phobia cure (V-K dissociation))
 - [Práce s traumatem a riziko nepravých vzpomínek](@/kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md) – příbuzné heslo (Disociace, fobie a trauma, Trauma work and the risk of false memories)
 

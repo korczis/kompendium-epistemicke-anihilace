@@ -56,7 +56,7 @@ Edukativní cíl není změna chování v behaviorálním smyslu, ale kultivace 
 
 ## Předpoklady
 
-Trénovaný debriefer (EA-3.2.7); 90min časový blok; soukromé prostředí.
+Trénovaný debriefer (EA-3.2.7); časový blok, který neskončí dřív než účastníci; soukromé prostředí.
 
 Bez splnění předpokladů technika produkuje suboptimální výsledky a může generovat iatrogenní efekty. Předpoklady nejsou byrokratické formality, ale strukturální podmínky efektivity intervence.
 
@@ -67,10 +67,13 @@ Konkrétní implementace vyžaduje:
 1. **Pre-implementation assessment** — verifikace předpokladů u individuálních účastníků a kohorty jako celku.
 2. **Resource provisioning** — institucionální alokace času, prostoru, personálu, technologií.
 3. **Documentation infrastructure** — systém zaznamenávání průběhu, výsledků, incidentů.
-4. **Quality assurance** — peer review nebo external observation alespoň 10 % sessions.
-5. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
+4. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
 
 Implementace je iterativní — každý cyklus generuje data informující úpravy v dalších cyklech.
+Rozbor se nevede bez druhého, a to z důvodu vlastního této technice: vedoucí rozboru byl sám
+účastníkem téže události a nese z ní vlastní odezvu, takže to, co přeslechl nebo nechtěl slyšet,
+se z jeho zápisu nedá zjistit. Dohled zde tedy nestojí nad kvalitou výkonu, nýbrž nad tím, co
+v rozboru nezaznělo.
 
 ## Hodnotící kritéria
 
@@ -95,6 +98,43 @@ Specificky:
 - **Nedostatek institucionální infrastruktury** — bez adekvátní podpory technika selhává a může poškozovat.
 - **Kulturně necitlivá implementace** — technika musí být adaptována pro local context, nikoli mechanicky importována.
 - **Power asymmetry** — implementace v kontextu [coercive control](@/glossary/coercive-control.md) (nedobrovolná účast) je eticky problematická.
+
+## Co debriefing nezakládá
+
+Proběhlý rozbor nezakládá, že byla zkušenost zpracována. Rose, Bisson, Churchill a Wessely (2002)
+nenašli oporu pro to, že by jednorázový rozbor po vážné události předcházel pozdějším obtížím,
+a McNally, Bryant a Ehlers (2003) ve svém přehledu uzavírají, že rané psychologické intervence
+tohoto typu nelze doporučit jako cestu k zotavení a že některé mohou přirozený průběh spíš
+narušit. To, co proběhlý rozbor doloží, je tedy jeho vlastní proběhnutí — nic víc.
+
+Příznivé hodnocení od účastníků nezakládá prospěch. Člověk, jemuž byla nepříjemná událost
+ukončena a byl mu přitom věnován čas, oceňuje obvykle obojí, a oceňuje je bez ohledu na to, jak
+se mu povede později. *Interpretace knihy*: ve světle výše citovaného přehledu je proto vděčnost
+na konci rozboru údajem o průběhu rozboru, ne o jeho účinku, a kurz, který se jí nechá uspokojit,
+si zaměňuje zdvořilost za evidenci.
+
+Nezakládá ani to, že byla samotná expoziční část kurzu bezpečná. Zde je riziko převrácené:
+existence rozboru se dá použít jako důvod, proč smí být předchozí látka náročnější, a tím se
+z opatření stává povolení. Herman (1992) váže zpracování zkušenosti na vrácenou kontrolu nad
+vyprávěním; rozbor, jehož účast je povinná nebo jehož dokončení se vykazuje, kontrolu nevrací,
+nýbrž odebírá podruhé.
+
+## Odlišení od příbuzných technik
+
+Od [stabilizačního kotvení](@/kompendium/techniques/ea-3-1-5-stabilization-anchoring.md) se tato
+technika liší umístěním i médiem. Kotvení působí během zátěže a obejde se bez vyprávění; rozbor
+nastává po ní a jeho médiem je právě převedení zkušenosti do souvislého popisu, jak jej zkoumal
+Pennebaker (1997). Obě se proto nedají zaměnit ani zastoupit: kotvení nic neuspořádává, rozbor
+nic netiší.
+
+Od [individuální supervize](@/kompendium/techniques/ea-3-2-7-individual-supervision.md) se
+odlišuje tím, čí věc je předmětem. Supervize je průběžná a jejím předmětem je práce odborníka;
+rozbor je vázán na jednu událost a jeho předmětem je stav účastníka.
+
+Od běžného závěrečného semináře se odlišuje tímtéž posunem předmětu. Obvyklá závěrečná rozprava
+hodnotí látku a to, co z ní plyne pro obor; zde je předmětem to, co látka udělala s přítomnými.
+Proto také místo vedoucího rozboru není samozřejmě místem vyučujícího — ten je v hodnotícím
+vztahu k témuž člověku, který má říci, že se mu vede špatně.
 
 ## Vztah k jiným technikám
 
@@ -124,6 +164,7 @@ Tato edukativní technika operacionalizuje poznatky z taxonomie:
 ## Literatura
 
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- McNally, R. J., Bryant, R. A., & Ehlers, A. (2003). Does early psychological intervention promote recovery from posttraumatic stress? *Psychological Science in the Public Interest*, 4(2).
 - Pennebaker, J. W. (1997). Writing about emotional experiences as a therapeutic process. *Psychological Science*, 8(3).
 - Rose, S., Bisson, J., Churchill, R., & Wessely, S. (2002). Psychological debriefing for preventing post traumatic stress disorder (PTSD). *Cochrane Database of Systematic Reviews*, (2).
 

@@ -79,6 +79,14 @@ Rozlišení od neškodných jevů je nutné: hladký přezkum může odpovídat 
 
 Od neškodných jevů se vzorec odlišuje tím, co zůstává doložitelné. Rychlý přezkum, stabilní financování i jednotné standardy mohou být v pořádku; poznávacím znakem je, že zdůvodnění rozhodnutí přestalo být zapsáno a že zájmový vztah není vykázán (Thompson, 1993).
 
+Od nejbližší stránky téže rodiny se tato liší předmětem, nikoli mírou. [EA-3.3.2 IRB
+protokol design](@/kompendium/techniques/ea-3-3-2-irb-protocol-design.md) popisuje, co má
+obsahovat jedno podání; zde jde o trvalou funkci, která podání posuzuje a za svůj posudek
+odpovídá. Nezávislý přezkum je přitom požadavkem na uspořádání, které posuzuje, nikoli na
+podobu posuzovaného dokumentu (Belmont, 1979). Rozpoznání vzorce na této stránce proto
+nezakládá závěr o správnosti jednotlivého rozhodnutí rady: ukazuje jen, zda vůbec zůstala
+cesta, jak takové rozhodnutí zpochybnit.
+
 Druhým rozlišovacím hlediskem je, kdo nese následek. Dobře vedená instituce umí říci, co se stane účastníkovi, který odstoupí, a tento popis odpovídá praxi; tam, kde se následek přesouvá na nejzranitelnější stranu, jde o vzorec, nikoli o provozní detail (Emanuel, Wendler a Grady, 2000).
 
 ## Hodnotící kritéria
@@ -91,6 +99,13 @@ Hodnotící kritéria nejsou cílem práce, ale jejím ukazatelem. Jakmile se m�
 | Decision quality | Peer review rozhodnutí externími etiky |
 | Response time | Acute issues do 48h, standard reviews <30 dní |
 | Public trust | Stakeholder surveys ratings
+
+Měřítka v přehledu nestojí samostatně. Každé z nich vypovídá o jiné z hodnot, které má
+rozhodnutí rady vyvážit, a žádná z nich nemá předem přednost před ostatními; právě proto
+se etické posouzení neredukuje na splnění ukazatele. Principy, o něž se opírá, se
+v konkrétním případě vzájemně omezují a jejich poměr je třeba v rozhodnutí zdůvodnit
+(Beauchamp a Childress, 2019). Pozorovatel proto nehledá dobrou hodnotu ukazatele, nýbrž
+zapsané zdůvodnění, proč v daném případě převážila jedna hodnota nad druhou.
 
 ## Rizikové kontexty
 
@@ -141,15 +156,13 @@ Druhým rizikovým kontextem je prostředí pod vnějším tlakem — bezpečnos
 
 ## Co ověřit před čtením
 
-Před prací s touto stránkou si čtenář ověří:
+Před prací s touto stránkou si čtenář ověří tři věci.
 
-- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
-  (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální rámec).
-- Má k dispozici [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  odpovídající úrovni této stránky.
-- Stránka není nástroj sebediagnostiky; podezření na sebe nebo na blízkou osobu patří
-  k [diagnostickým indikátorům](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a ke konzultaci se supervizí.
+| Co si čtenář ověří | Proč to u institucionálního dohledu záleží |
+|---|---|
+| Jeho přístupová úroveň odpovídá poli `access_level` v záhlaví článku | Stránka je vedena jako volně přístupná, ale předpokládá etickou governance; vyšší úrovně žádají doloženou kvalifikaci, případně omezený doktrinální rámec |
+| Má k dispozici [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) odpovídající úrovni této stránky | Posouzení vlastní instituce je úsudek o kolezích a nadřízených a patří do supervize, ne do interního sporu |
+| Stránku nepovažuje za nástroj sebediagnostiky | Podezření na sebe nebo na blízkou osobu patří k [diagnostickým indikátorům](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a ke konzultaci se supervizí |
 
 > **Rámec čtení**: stránka popisuje rozpoznatelný vzorec, nikoli nástroj.
 

@@ -128,7 +128,7 @@ to byl nedoložený údaj, a nikoli ho hledat marně.
 
 ### Účel
 
-**IES-R** (Weiss & Marmar, 1997) je 22-položkový dotazník měřící **subjektivní distres** v reakci na specifický stresor během posledních 7 dní. Měří tři klastery PTSD-symptomatologie: intruze, vyhýbání, **hyperarousal**.
+**[IES-R](@/glossary/ies-r.md)** (Weiss & Marmar, 1997) je 22-položkový dotazník měřící **subjektivní distres** v reakci na specifický stresor během posledních 7 dní. Měří tři klastery PTSD-symptomatologie: intruze, vyhýbání, **hyperarousal**.
 
 ### Struktura
 
@@ -162,7 +162,7 @@ Weiss, D. S., & Marmar, C. R. (1997). The Impact of Event Scale—Revised. In: W
 
 ### Účel
 
-**DES-II** (Carlson & Putnam, 1993) je 28-položkový [self-report](@/glossary/self-report.md) instrument pro screening **disociativních zkušeností**. V EA výzkumu slouží k detekci disociativních reakcí na akutní nebo chronickou expozici a k diferenciální diagnostice mezi disociací jako adaptivní reakcí a disociativní poruchou.
+**[DES-II](@/glossary/des-ii.md)** (Carlson & Putnam, 1993) je 28-položkový [self-report](@/glossary/self-report.md) instrument pro screening **disociativních zkušeností**. V EA výzkumu slouží k detekci disociativních reakcí na akutní nebo chronickou expozici a k diferenciální diagnostice mezi disociací jako adaptivní reakcí a disociativní poruchou.
 
 ### Struktura
 
@@ -209,8 +209,8 @@ Pro standardizované klinické nebo výzkumné posouzení doporučujeme následu
 
 ### Fáze 1 — Screening (60 min)
 
-1. **DES-II** — disociativní screening.
-2. **IES-R** — PTSD screening v kontextu specifické expozice.
+1. **[DES-II](@/glossary/des-ii.md)** — disociativní screening.
+2. **[IES-R](@/glossary/ies-r.md)** — PTSD screening v kontextu specifické expozice.
 
 ### Fáze 2 — Strukturní hodnocení (90–120 min)
 
@@ -250,6 +250,22 @@ Místo lineární četby:
 > **Mandatorní akce**: použití přílohy bez konkrétní otázky je obvykle
 > formou prokrastinace. Definuj si nejprve, co hledáš, teprve pak
 > otevři přílohu.
+
+## Literatura
+
+- Carlson, E. B., & Putnam, F. W. (1993). An update on the Dissociative Experiences Scale.
+  *Dissociation*, 6(1), 16–27.
+- Chambers, W. V., Langone, M. D., Dole, A. A., & Grice, J. W. (1994). The Group Psychological
+  Abuse Scale: A measure of the varieties of cultic abuse. *Cultic Studies Journal*, 11(1),
+  88–117.
+- Hassan, S. (1988). *Combating Cult Mind Control*. Park Street Press.
+- Hassan, S. (2015). *Combating Cult Mind Control* (25th anniversary ed.). Freedom of Mind Press.
+- Langone, M. D. (Ed.). (1993). *Recovery from Cults: Help for Victims of Psychological and
+  Spiritual Abuse*. W. W. Norton.
+- Soto, C. J., & John, O. P. (2017). The next Big Five Inventory (BFI-2). *Journal of Personality
+  and Social Psychology*, 113(1), 117–143.
+- Weiss, D. S., & Marmar, C. R. (1997). The Impact of Event Scale – Revised. In J. P. Wilson &
+  T. M. Keane (Eds.), *Assessing Psychological Trauma and PTSD* (pp. 399–411). Guilford Press.
 
 ## Související
 

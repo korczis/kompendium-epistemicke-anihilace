@@ -62,18 +62,16 @@ Zasažený člověk referuje, že se „v práci a doma neumí potkat“, a popi
 | **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
 | **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
 
-## Indikace a kontraindikace
+## Vylučující okolnosti
 
-### Legitimní indikace (vzácné, výhradně supervidovaný kontext)
-- Profesní příprava operativních složek pro extrémně náročné prostředí pod doložitelnou jurisdikcí.
-- Klinická intervence u striktně vymezených diagnóz, kde benefit prokazatelně převažuje riziko.
-- Forenzní rekonstrukce s explicitním soudním mandátem a etickým dohledem.
+Oddělování rolí jednoho člověka není na této stránce opatřeno žádným oprávněným použitím: kompendium takové výčty nevede a o přípustnosti rozhoduje [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md). Dále jsou pojmenovány okolnosti, které expozici vylučují, a důvod, proč vylučují.
 
-### Absolutní kontraindikace
-- Akutní psychiatrická krize, suicidální ideace, dekompenzovaná komorbidita.
-- Nedostatečná podpůrná síť subjektu nebo závislé sociální postavení.
-- Subjekt v mocenské asymetrii vůči operátorovi (zaměstnanec, podřízený, klient v privátní praxi bez druhého supervizora).
-- Komerční, kompetitivní nebo politické cíle protokolu.
+| Vylučující okolnost | Čím vylučuje |
+|---------------------|--------------|
+| Akutní psychiatrická krize, suicidální ideace nebo dekompenzovaná komorbidita | Nadřazené sebepojetí, které jednotlivé role drží pohromadě, je už oslabeno a jejich oddělení se stává nevratným |
+| Nedostatečná podpůrná síť subjektu nebo závislé sociální postavení | Mimo zasaženou strukturu nezbývá role, v níž by člověk zůstal týž |
+| Mocenská asymetrie mezi subjektem a operátorem (podřízený, zaměstnanec, klient v privátní praxi) | Profesní role je současně nástrojem nátlaku, takže přechod mezi rolemi není volný |
+| Komerční, kompetitivní nebo politický cíl protokolu | Povýšení jedné role nad ostatní je pak cílem a znehodnocení zbývajících rolí jeho cenou |
 
 ## Klinické markery (neúmyslná manifestace)
 

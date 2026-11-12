@@ -63,7 +63,7 @@ Pozitivní při splnění všech bodů. Bod 2 odlišuje signaturu od svobodné p
 
 **Životní přechody**, jako je rozvod, odchod do důchodu, emigrace nebo vážná nemoc, vedou k přechodné nejistotě o sobě, kterou člověk vysvětlí okolnostmi a postupně překoná. **Svobodná konverze**, ať náboženská, nebo životní, může přinést hlubokou změnu; člověk ji však prožívá jako vlastní, dokáže ji vyprávět včetně toho, čím byl předtím, a nemusí kvůli ní přerušit vztahy s lidmi, kteří ji nesdílejí.
 
-Konečně **transformativní zkušenost** mění perspektivu, z níž člověk hodnotí svůj život. Paul (2014) ukázala, že některé zkušenosti – rodičovství, vážná nemoc, změna povolání – mění samotné preference, podle nichž bychom je mohli předem posoudit (srov. [transformative experience](@/glossary/transformative-experience.md)). Ani taková změna však nevymazává dřívější já; integruje ho do nového příběhu.
+Konečně **[transformativní zkušenost](@/glossary/transformative-experience.md)** mění perspektivu, z níž člověk hodnotí svůj život. Paul (2014) ukázala, že některé zkušenosti – rodičovství, vážná nemoc, změna povolání – mění samotné preference, podle nichž bychom je mohli předem posoudit (srov. [transformative experience](@/glossary/transformative-experience.md)). Ani taková změna však nevymazává dřívější já; integruje ho do nového příběhu.
 
 ## Klinická diferenciální diagnostika
 
@@ -71,7 +71,7 @@ Konečně **transformativní zkušenost** mění perspektivu, z níž člověk h
 
 **Disociativní porucha identity a jiné disociativní poruchy** se projevují přítomností odlišných stavů identity a amnézií a vyžadují specializované vyšetření ([disociativní spektrum](@/kompendium/techniques/ea-6-1-8-disociativni-spektrum-assessment.md)); Van der Hart, Nijenhuis a Steele (2006) je vykládají jako strukturální disociaci osobnosti po traumatu. DSM-5 uvádí mezi příklady jiné specifikované disociativní poruchy i narušení identity v důsledku dlouhodobého a intenzivního donucujícího přesvědčování, například v totalitních skupinách (American Psychiatric Association, 2013); diagnostiku je třeba přenechat specialistovi.
 
-Dále přichází v úvahu **komplexní PTSD** s narušeným sebeobrazem a pocitem méněcennosti, **[depersonalizace](@/glossary/depersonalizace.md)**, při níž jde o odcizení od sebe bez ztráty znalosti, kdo člověk je, **psychotické poruchy** s bizarními přesvědčeními o identitě („jsem někdo jiný“) a ztrátou vhledu a **neurologické stavy**, jako jsou změny osobnosti po poranění mozku nebo při frontotemporální degeneraci. Diagnostický závěr náleží kvalifikovanému klinikovi.
+Dále přichází v úvahu **[komplexní PTSD](@/glossary/c-ptsd.md)** s narušeným sebeobrazem a pocitem méněcennosti, **[depersonalizace](@/glossary/depersonalizace.md)**, při níž jde o odcizení od sebe bez ztráty znalosti, kdo člověk je, **psychotické poruchy** s bizarními přesvědčeními o identitě („jsem někdo jiný“) a ztrátou vhledu a **neurologické stavy**, jako jsou změny osobnosti po poranění mozku nebo při frontotemporální degeneraci. Diagnostický závěr náleží kvalifikovanému klinikovi.
 
 ## Riziko falešné pozitivity
 

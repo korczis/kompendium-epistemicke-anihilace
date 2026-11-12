@@ -48,6 +48,8 @@ Nepříznivý průběh nelze podle těchto autorů řešit jen na straně jednot
 
 *Interpretace knihy*: rozlišujícím znakem je, kdo nese náklad. Sebepéče pojatá jako soukromá povinnost zakrývá institucionální selhání; teprve tam, kde instituce nese svou část, chrání supervidované (Falender a Shafranske, 2004).
 
+Je třeba rozlišit, co je zde doloženo a co je čtením knihy. Trojsložkový popis vyhoření i jeho vazbu na uspořádání práce předkládají Maslach a Leiter (2016); zvláštní podobu opotřebení u těch, kdo pracují s cizím utrpením, popsal Figley (1995); pojetí supervize jako kompetence, která se prokazuje na supervidované práci, pochází od Falender a Shafranske (2004). Ani jeden z těchto zdrojů se nevyslovuje o supervizi výcviku v rozpoznávání epistemické anihilace. Teze, že právě povaha tohoto materiálu činí ze sebepéče ochranu supervidovaných, a nikoli pohodlí supervizora, je proto *interpretace knihy*: skládá Figleyho poznatek o povaze materiálu s Maslachovým poznatkem o podmínkách práce a dovozuje z nich závěr, který ani jeden z nich neformuluje.
+
 ## Cílová populace
 
 Všichni certifikovaní supervizoři; institucionální leadership zodpovědný za supervizorskou kapacitu.
@@ -67,7 +69,7 @@ Konkrétní implementace vyžaduje:
 1. **Pre-implementation assessment** — verifikace předpokladů u individuálních účastníků a kohorty jako celku.
 2. **Resource provisioning** — institucionální alokace času, prostoru, personálu, technologií.
 3. **Documentation infrastructure** — systém zaznamenávání průběhu, výsledků, incidentů.
-4. **Quality assurance** — peer review nebo external observation alespoň 10 % sessions.
+4. Ani supervizor nezůstává bez supervize — jeho vlastní práce je předmětem pohledu dalšího člověka, protože opotřebení bývá nejméně viditelné právě tomu, kdo se jím má zabývat.
 5. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
 
 Implementace je iterativní — každý cyklus generuje data informující úpravy v dalších cyklech.
@@ -83,6 +85,8 @@ Implementace je iterativní — každý cyklus generuje data informující úpra
 
 Evaluace integruje kvantitativní (validované instrumenty) i kvalitativní (reflektivní eseje, ethnographic observation) datové zdroje. Žádná samostatná metrika není dostatečná — multidimenzionální evaluace je nezbytná.
 
+Dodržovaný plán sebepéče nedokládá, že je supervizor způsobilý supervidovat. Maslach a Leiter (2016) vztahují vyhoření k uspořádání práce — jejímu množství, míře vlastního rozhodování a spravedlnosti prostředí —, takže osobní praxe nedokládá nic o tom, zda se tyto podmínky změnily; může naopak znamenat, že jednotlivec nese náklad, který nese instituce jen podle názvu. Nepřítomnost vyčerpání dále nedokládá nepřítomnost odstupu: složky vyhoření nejsou u týchž autorů zaměnitelné a v supervizi se ta druhá projevuje dřív, takže supervizor může být odpočatý a přesto už nezvídavý. Vlastní dobrý stav nedokládá ani nic o supervidovaných; Falender a Shafranske (2004) kladou průkaz supervizní kompetence do práce, která z supervize vychází, nikoli do stavů toho, kdo ji vede. A konečně, sdělení o vlastním stavu je u této techniky zatíženo postavením mluvčího: supervizor je zároveň tím, kdo je hodnocen z hlediska kapacity, takže jeho ujištění o dobré formě je výpovědí pořízenou v nerovném vztahu, nikoli měřením.
+
 ## Rizika a kontraindikace
 
 **Kdy techniku NEPOUŽÍVAT nebo modifikovat:**
@@ -97,6 +101,8 @@ Specificky:
 - **Power asymmetry** — implementace v kontextu [coercive control](@/glossary/coercive-control.md) (nedobrovolná účast) je eticky problematická.
 
 ## Vztah k jiným technikám
+
+Od [EA-3.2.3 Mistrovství emoční regulace](@/kompendium/techniques/ea-3-2-3-emotional-regulation-mastery.md) se sebepéče liší časovým rozměrem i adresátem: regulace se týká toho, co supervizor dělá uvnitř setkání, kdežto zde jde o kumulovanou zátěž mezi setkáními, a ta je převážně otázkou instituce, nikoli dovednosti. Od [EA-3.2.9 Hodnocení iatrogenního rizika](@/kompendium/techniques/ea-3-2-9-iatrogenic-risk-assessment.md) ji odděluje směr pohledu — hodnocení rizika se obrací k programu a jeho účastníkům, sebepéče k tomu, kdo program vede a jehož opotřebení se do rizika započítává jako jeho zdroj. Proti běžnému pojetí profesní hygieny je rozdíl v tom, komu je přisouzena odpovědnost: obvykle je udržování vlastní výkonnosti soukromou věcí pracovníka, zatímco tato stránka počítá podíl instituce k technice samé, takže jeho absence je nálezem o programu, a ne o povaze člověka.
 
 ### Sourozenecké techniky (3.2 Supervizorské techniky)
 

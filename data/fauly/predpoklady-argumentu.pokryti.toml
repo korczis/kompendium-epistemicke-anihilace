@@ -1,0 +1,121 @@
+# Rodina AF-03: Klamy předpokladu, část pokrytí (hesla AF-03.21 až AF-03.23) – názvy ze
+# standardních přehledů oboru, které katalog dosud neměl. Pravidlo project.content-catalogs;
+# schéma v scripts/catalogs.py. Identifikátor se po zveřejnění nemění.
+
+[[pattern]]
+id = "AF-03.21"
+slug = "falesna-analogie"
+type = "informal"
+cs = "Falešná analogie"
+en = "False analogy"
+aliases = ["chybná analogie", "vadná analogie", "nepřípadná analogie"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["falesna-ekvivalence", "ukvapene-zobecneni", "som-analogie", "izomorfni-metafora", "kluzky-svah"]
+kompendium = [
+  "kompendium/07-teoreticke-reflexe/lakoff-conceptual-metaphor.md",
+  "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+  "kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Stát je jako domácnost: když rodina utratí víc, než vydělá, zkrachuje. Proto si stát nesmí půjčovat ani na stavbu nemocnice."
+context = "Politik v televizní debatě o rozpočtu."
+benign = false
+marker = "Shoda v jednom rysu (příjmy a výdaje) se vydává za shodu v rysu, na němž závěr stojí; přehlížejí se rozdíly, jako je délka trvání, vlastní měna nebo návratnost investice."
+response = "Ptát se, zda stát a domácnost sdílejí právě ty vlastnosti, na nichž závěr o zákazu půjček závisí, a které rozdíly by závěr změnily."
+
+[[pattern.trainer]]
+utterance = "Lidský mozek je jako sval. Sval roste, když ho přetěžujete, takže děti by se měly učit i v noci, aby jim mozek rostl rychleji."
+context = "Rodič přesvědčuje jiné rodiče na schůzce o domácí přípravě."
+benign = false
+marker = "Metafora, která má jen ilustrovat, se bere jako důkaz a z vlastnosti zdrojového případu (přetížení svalu) se vyvozuje vlastnost cílového, aniž by se ověřilo, že ji sdílí."
+response = "Oddělit obraz od tvrzení: o tom, jak spánek a učení působí na mozek, rozhoduje výzkum mozku, ne vlastnosti svalů."
+
+[[pattern.trainer]]
+utterance = "Ten nový lék zkoušeli na myších a potkanech, jejichž metabolismus této látky se podle studií podobá lidskému. Výsledky jsou nadějné, ale bez klinické studie na lidech nic neslibujeme."
+context = "Farmakoložka vysvětluje novinářům stav výzkumu."
+benign = true
+marker = "Analogie stojí na doložené podobnosti v rysu, na kterém závěr závisí, a její závěr je výslovně opatrný a čeká na přímé ověření."
+response = "Legitimní argument analogií: podobnost je relevantní a doložená a závěr nepřekračuje to, co analogie unese."
+
+[[pattern]]
+id = "AF-03.22"
+slug = "odvolani-na-precedent"
+type = "informal"
+cs = "Klamné odvolání na precedent"
+en = "Fallacious appeal to precedent"
+aliases = ["klamný precedens", "chybný argument precedentem"]
+use = "dvoji"
+risk = "stredni"
+broader = "falesna-analogie"
+related = ["odvolani-na-tradici", "dve-kriva-jedno-pravo", "zvlastni-vyjimka", "kluzky-svah", "odvolani-na-starobylost"]
+kompendium = [
+  "kompendium/forensic-legal/_index.md",
+  "kompendium/forensic-legal/29-judicial-education.md",
+  "kompendium/organizational-defense/_index.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Loni jsme kolegovi z vedení prominuli překročení rozpočtu o třetinu, protože mu zemřel otec. Já jsem rozpočet překročil taky, takže by mi to mělo být prominuto stejně."
+context = "Vedoucí oddělení na jednání o čerpání rozpočtu."
+benign = false
+marker = "Dovolává se rozhodnutí, které bylo výjimkou z důvodu, jenž v novém případě chybí; shoda ve výsledku (překročení) se vydává za shodu v okolnostech, na nichž výjimka stála."
+response = "Ptát se, proč byl původní případ rozhodnut právě tak, a zda nový případ sdílí tento důvod; bez něj precedens nový případ nepokrývá."
+
+[[pattern.trainer]]
+utterance = "Minulý měsíc jsi mi půjčila deset tisíc a nic se nestalo. Tak teď mi půjčíš padesát, přece si nebudeš odporovat."
+context = "Partner žádá druhou osobu o další peníze, přestože první půjčku nevrátil."
+benign = false
+marker = "Dřívější vstřícnost se vydává za závazek k větší, zcela jiné vstřícnosti; tlak na důslednost nahrazuje posouzení nového požadavku."
+response = "Dřívější rozhodnutí nezavazuje k dalšímu: nový požadavek se posuzuje podle nových okolností, včetně toho, že první půjčka vrácena nebyla."
+
+[[pattern.trainer]]
+utterance = "Ve shodné věci se stejným typem smlouvy a stejnou vadou zboží soud loni rozhodl ve prospěch kupujícího. Navrhujeme proto rozhodnout stejně, protože žádný rozdíl mezi případy nevidíme."
+context = "Advokátka v závěrečné řeči ve sporu o reklamaci."
+benign = true
+marker = "Precedens se uvádí s výčtem rysů, v nichž se případy shodují a na nichž původní rozhodnutí stálo, a protistrana může rozdíly namítat."
+response = "Legitimní argument precedentem: shoda v relevantních okolnostech je pojmenovaná a otevřená námitce, že se případy liší."
+
+[[pattern]]
+id = "AF-03.23"
+slug = "nekonzistence"
+type = "informal"
+cs = "Nekonzistence"
+en = "Inconsistency"
+aliases = ["nekonzistentní premisy", "nesoudržnost argumentu", "nekoherence"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["tu-quoque", "kruhovy-argument", "zvlastni-vyjimka", "posouvani-branek", "palba-nepravd", "kafkapast"]
+kompendium = [
+  "kompendium/techniques/ea-4-1-gaslighting.md",
+  "kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md",
+  "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md",
+  "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ta nemoc vůbec neexistuje, je to celé vymyšlené. A mimochodem ji do země zatáhli schválně ti, kdo na ní teď vydělávají."
+context = "Komentář pod článkem o epidemii."
+benign = false
+marker = "Dvě tvrzení si navzájem odporují: nemoc, která neexistuje, nemohl nikdo zavléct. Text nabízí obě, aby každý čtenář přijal tu, která mu vyhovuje."
+response = "Postavit obě tvrzení vedle sebe a ptát se, které z nich mluvčí hájí; dokud volí podle situace, nehájí žádné."
+
+[[pattern.trainer]]
+utterance = "Nikdy jsem ti nic takového neřekl. A i kdybych to řekl, tak jsi to stejně pochopila špatně, jako vždycky."
+context = "Partner reaguje na připomenutí výroku, který druhou osobu zranil."
+benign = false
+marker = "Popření a zároveň obrana pro případ, že popření neplatí; jedno vylučuje druhé a výsledkem je, že se o samotném výroku nemluví."
+response = "Zapsat si, co bylo řečeno a kdy; rozpor mezi „neřekl“ a „pochopila špatně“ ukazuje, že odpověď nepopisuje události, ale odvádí od nich."
+
+[[pattern.trainer]]
+utterance = "Před rokem jsem tvrdil, že ten projekt se vyplatí. Nová data ukazují opak, takže svůj dřívější názor opouštím a vysvětlím proč."
+context = "Ekonom na konferenci reviduje svou dřívější prognózu."
+benign = true
+marker = "Změna názoru v čase s vysvětlením, proč k ní došlo, není nekonzistence: mluvčí netvrdí obojí zároveň a dřívější tvrzení výslovně opouští."
+response = "Legitimní revize: mluvčí jmenuje důvod změny a nové tvrzení lze posoudit podle nových dat."

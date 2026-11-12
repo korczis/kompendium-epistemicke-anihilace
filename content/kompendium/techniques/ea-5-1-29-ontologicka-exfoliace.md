@@ -56,7 +56,7 @@ Co prožívá subjekt uvnitř ontologické exfoliace:
 
 - **Iniciálně: pocit osvobození** — odlupování první vrstvy je provázeno euforií „konečně vidím skrz iluze“
 - **Postupně: difúzní úzkost** — orientační body se rozplývají, ale subjekt je interpretuje jako „intenzitu nového vnímání“
-- **Derealizace** — okolní svět začíná působit *vzdáleně*, *plochcky*, *jako film*
+- **[Derealizace](@/glossary/depersonalizace.md)** — okolní svět začíná působit *vzdáleně*, *plochcky*, *jako film*
 - **[Depersonalizace](@/glossary/depersonalizace.md)** — vlastní zkušenost působí *cizí*, *zvenku pozorovaná*
 - **Estetická fascinace prázdnotou** — exfoliace je často podávána v jazyce hluboké duchovnosti, takže subjekt prožívá ztrátu jako *probuzení*
 - **Ztráta operativnosti** — subjekt má potíže s běžnými rozhodnutími (co jíst, kam jít), protože odpadají kategorie, podle nichž lze rozhodovat
@@ -149,8 +149,8 @@ Uživatel internetové subkultury „od-iluze-osvobozený“ reportoval po 18 m�
 
 ### Eskaluje do
 
-- **Ontologická anihilace** ([viz ontologická anihilace](@/glossary/ontologicka-anihilace.md)) — terminální stav, v němž subjekt nemá funkční rozdíl mezi skutečným a neskutečným.
-- **Metakognitivní destrukce** ([viz metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)) — subjekt ztrácí schopnost reflektovat vlastní stav, čímž se exfoliace stává sebeudržující.
+- **[Ontologická anihilace](@/glossary/ontologicka-anihilace.md)** ([viz ontologická anihilace](@/glossary/ontologicka-anihilace.md)) — terminální stav, v němž subjekt nemá funkční rozdíl mezi skutečným a neskutečným.
+- **[Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)** ([viz metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)) — subjekt ztrácí schopnost reflektovat vlastní stav, čímž se exfoliace stává sebeudržující.
 
 ### Alternativy / podobné, ale **distinktivní**
 

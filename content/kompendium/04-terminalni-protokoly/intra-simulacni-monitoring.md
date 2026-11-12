@@ -39,17 +39,17 @@ Komponenty:
 - **Kontinuální zdravotnický dozor** s pravomocí přerušit protokol,
 - **Zdravotnická infrastruktura** — pohotovostní zdravotnický tým s definovaným reakčním časem.
 
-Eskalační prahy:
+Co je na tomto kanálu pozorovatelné:
 
-| Parametr | Práh varování | Práh ukončení |
-|----------|---------------|---------------|
-| Tep | Definováno individuálně dle baseline | Individuální horní mez |
-| Krevní tlak | Hypertenzní krize, hypotenze | Akutní dekompenzace |
-| Saturace | Pokles pod individuální baseline | Akutní hypoxie |
-| Tělesná teplota | Hypotermie, hypertermie | Mimo bezpečné rozsahy |
-| Glykémie | Symptomatická | Akutní hypoglykémie |
+| Parametr | Strukturální popis toho, co je vidět |
+|----------|--------------------------------------|
+| Tep | Odchylka od výchozí hodnoty daného člověka, nikoli od obecné normy |
+| Krevní tlak | Hypertenzní i hypotenzní posun; obojí je v záznamu zachytitelné jen proti výchozímu nálezu |
+| Saturace | Pokles proti individuálnímu výchozímu stavu |
+| Tělesná teplota | Posun v obou směrech, typicky v souvislosti s délkou expozice a hydratací |
+| Glykémie | Symptomatický pokles, zpravidla popsaný až retrospektivně |
 
-(Konkrétní hodnoty jsou individuálně kalibrovány v rámci [před-simulačního screeningu](@/kompendium/04-terminalni-protokoly/pred-simulacni-screening.md) a nejsou publikovatelné jako generický standard.)
+Kompendium k žádnému z těchto parametrů neuvádí hodnoty ani hranice. Výchozí stav je u každého člověka jiný, takže obecně publikovaná hranice by nebyla doložitelná, a hranice, která je publikovaná, je také obcházitelná. Rozpoznatelné je, zda byl výchozí nález vůbec pořízen — což je otázka [před-simulačního screeningu](@/kompendium/04-terminalni-protokoly/pred-simulacni-screening.md) — a zda k pozdějšímu stavu existuje srovnání.
 
 ### Kanál 2: behaviorální a kognitivní
 
@@ -61,7 +61,7 @@ Komponenty:
 - **Speech analysis** — analýza prozodie, koherence, lexikální variability,
 - **Motor activity** — sledování motorických markerů stresu a [disociace](@/glossary/disociace.md).
 
-Eskalační markery:
+Markery, které pozorovatelé v tomto kanálu zaznamenávají:
 
 - ztráta koherence ve verbální produkci,
 - výrazné prozodické změny (monotonie, fragmentace),
@@ -80,7 +80,7 @@ Komponenty:
 - **Periodické fenomenologické check-ins** v intervalech protokolu,
 - **[Self-report](@/glossary/self-report.md) markery** — krátké sebehodnotící škály v kontrolovaných intervalech.
 
-Eskalační markery:
+Markery, které pozorovatelé v tomto kanálu zaznamenávají:
 
 - plochý afekt v kontextu, kde by měl být přítomen,
 - nesoulad mezi verbálním a non-verbálním afektem,
@@ -98,7 +98,7 @@ Komponenty:
 - **Buddy-system reporting** — peer-partner subjektu reportuje pozorování,
 - **Skupinová dynamika** — markery kolektivní dezintegrace nebo cohesion.
 
-Eskalační markery:
+Markery, které pozorovatelé v tomto kanálu zaznamenávají:
 
 - ztráta rapportu s instruktory,
 - separace od peer-skupiny,
@@ -106,33 +106,15 @@ Eskalační markery:
 - kolektivní dynamika přechází do sub-skupinového konfliktu,
 - subjekt přestává reagovat na sociální výzvy.
 
-## Eskalační prahy a odpovídající akce
+## Konvergence napříč kanály
 
-Eskalační prahy jsou strukturovány do čtyř úrovní s definovanými odpovědními protokoly.
+Nejdůležitějším pozorováním této stránky není žádný jednotlivý marker, nýbrž jejich souběh. Tíseň se v materiálu tohoto druhu neohlašuje jedním kanálem; projevuje se současně v somatice, v řeči, v afektu a ve vztazích k okolí, a právě tato současnost je tím, co pozorovatelé zaznamenávají jako první — dříve, než dokážou pojmenovat, co vlastně vidí. Jednotlivá odchylka je v intenzivní situaci běžná a sama o sobě nevypovídá; souběh několika kanálů v krátkém okamžiku je naopak vzorec, který se v běžném zatížení nevyskytuje.
 
-### Úroveň E1: zvýšená pozornost
+Tento jev je dobře popsán v klinické literatuře o disociativních reakcích. Steele a kol. (2017) upozorňují, že [disociace](@/glossary/disociace.md) bývá rozpoznána až v okamžiku, kdy se plochý afekt, zpomalená řeč a ztráta orientace v situaci objeví pohromadě, protože každý z těchto znaků má izolovaně mnoho jiných vysvětlení. Totéž uvádějí Ogden a kol. (2006) pro somatické projevy: izolovaně jsou nespecifické, ve souběhu s narušenou řečovou koherencí nikoli.
 
-**Markery:** Drobné odchylky v jednom kanálu bez konvergence s ostatními.
+Pro rozpoznání z toho vyplývá něco, co jde proti intuici. Pozorovatel, který se soustředí na jediný kanál — například na vitální parametry, protože jsou měřitelné — vidí paradoxně méně než ten, kdo sleduje všechny čtyři hrubě. Souběh je totiž vlastností vztahu mezi kanály, a ta se z jednoho kanálu odvodit nedá, jakkoli přesně je měřen. *Interpretace knihy:* jde o důsledek jejího metodologického rámce (viz [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md)), ne o samostatné empirické zjištění.
 
-**Akce:** Intenzifikace monitoringu; klinický supervizor informován; protokol pokračuje beze změn.
-
-### Úroveň E2: aktivní intervence
-
-**Markery:** Konvergence markerů v dvou nebo více kanálech; nebo závažný marker v jednom kanálu.
-
-**Akce:** Klinický supervizor aktivně přítomen; mikro-modulace intenzity protokolu; kontaktní bod se subjektem (krátký check-in); reevaluace pokračování v krátkém čase.
-
-### Úroveň E3: ohraničení a stabilizace
-
-**Markery:** Závažné markery ve více kanálech; subjekt vykazuje známky akutní dekompenzace; somatické parametry mimo bezpečnostní rozsah.
-
-**Akce:** Pozastavení expozice; subjekt přesunut do stabilizačního prostředí; somatická a klinická intervence; reevaluace pokračování s vysokou prahovou hodnotou.
-
-### Úroveň E4: okamžité ukončení a klinická intervence
-
-**Markery:** Kritický marker (akutní psychotické symptomy, suicidální ideace, somatický kolaps, závažná disociace, identitní kolaps); aktivace safe-wordu; rozhodnutí klinického supervizora.
-
-**Akce:** Okamžité ukončení protokolu; aktivace klinické intervence; transfer do klinického prostředí; aktivace post-expoziční rekonstrukční sekvence (viz [Kontrolovaná rekonstituce](@/kompendium/04-terminalni-protokoly/kontrolovana-rekonstituce.md)).
+Kompendium k tomuto souběhu neuvádí žádné stupně, hranice ani odpovědi, které by na ně byly vázané; důvod je formulován v [etickém kodexu](@/kompendium/08-prilohy/eticky-kodex.md). Rozpoznatelné je něco jiného a pro klinika i pro vyšetřovatele podstatnějšího: zda souběh nastal, zda jej někdo zaznamenal, kdo v tu chvíli měl pravomoc sekvenci zastavit, a zda ji použil. Odpověď na poslední dvě otázky bývá v záznamech dohledatelná i tam, kde sám souběh zaznamenán nebyl — a její absence je sama pozorováním (viz [Kontrolovaná rekonstituce](@/kompendium/04-terminalni-protokoly/kontrolovana-rekonstituce.md) pro to, co po takovém okamžiku následuje v prostředí, které jej uznalo).
 
 ## Safe-word infrastruktura
 
@@ -198,7 +180,7 @@ Přístup k audit-trailu je striktně omezen na klinický personál, etickou kom
 
 ## Specifické rozšíření pro Capstone protokoly
 
-Pro protokoly úrovně Capstone (viz [Ultimátní výcvikový scénář](@/kompendium/04-terminalni-protokoly/ultimatni-scenar.md)) jsou nezbytné dodatečné monitorovací vrstvy:
+U protokolů úrovně Capstone (viz [Ultimátní výcvikový scénář](@/kompendium/04-terminalni-protokoly/ultimatni-scenar.md)) jsou v odpovědném prostředí doložitelné ještě další pozorovací kanály, jejichž absence je u takto intenzivní expozice sama zjistitelná:
 
 - **Disociogenní monitoring** — specializovaný coding pro detekci ranných disociativních markerů,
 - **Identitní monitoring** — monitoring narativních markerů identitní integrity,
@@ -215,7 +197,23 @@ Monitoring sám představuje etickou zátěž:
 - **False security** — monitoring nemůže detekovat všechny formy iatrogenního poškození,
 - **Data security** — archivovaná data představují bezpečnostní riziko, pokud nejsou chráněna.
 
-Doporučení: monitoring je implementován v **proporcionalitě** k rizikovému profilu protokolu, s explicitním souhlasem subjektu, a s robustními safeguards pro data security.
+V prostředí, kde je materiál tohoto druhu studován, je monitoring **proporcionální** k rizikovému profilu, probíhá s explicitním souhlasem a archivovaná data mají doložitelnou ochranu. Tato proporcionalita je sama rozpoznatelná: rozsah sledování, který převyšuje rozsah rizika, bývá vysvětlován bezpečností, ale funguje jako nástroj kontroly, protože o každém účastníkovi vzniká materiál, jehož užití nikdo neomezil (Foucault, 1975).
+
+## Kdo smí zastavit, co je spuštěno
+
+Všechny čtyři kanály popsané výše jsou pozorovatelné pouze tehdy, má-li je kdo pozorovat a kdo jednat podle toho, co vidí. Prostředí, v němž je tento materiál studován, se proto od prostředí, v němž je vykonáván, odlišuje jedinou otázkou, která nemá nic společného s technikou: existuje osoba, která může sekvenci zastavit a která za to nenese žádnou cenu? Kde taková osoba není, nezáleží na kvalitě monitoringu, protože pozorování, jež nemůže vyústit v zastavení, je pouze dokumentací.
+
+Tuto asymetrii lze rozpoznat i zpětně, a často snáze než za běhu. Lifton (1961) uvádí mezi rysy totálního prostředí právě splynutí role toho, kdo sekvenci vede, s rolí toho, kdo rozhoduje o jejím ukončení; po takovém splynutí je každé ujištění o bezpečnosti vydáváno stranou, která má na pokračování zájem. V záznamech se to projevuje tím, že neexistuje žádný dokumentovaný případ zastavení — ne tím, že by chyběla pravidla pro zastavení.
+
+Pro čtenáře, který takovou expozicí prošel, má popsaná struktura ještě jeden důsledek. Pokud byl signál k ukončení dostupný formálně, ale jeho použití bylo vyjednáváno, zpochybněno nebo vyloženo jako slabost, nejde o jeho selhání. Herman (1992) popisuje, že obnovení vlastní působnosti je součástí zotavení, a nikoli jeho podmínkou; neschopnost uplatnit vlastní vůli uprostřed sekvence je proto jejím následkem, a ne jejím vyvrácením.
+
+## Literatura
+
+- Foucault, M. (1975). *Surveiller et punir: Naissance de la prison*. Gallimard.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- Ogden, P., Minton, K., & Pain, C. (2006). *Trauma and the Body: A Sensorimotor Approach to Psychotherapy*. W. W. Norton.
+- Steele, K., Boon, S., & Van der Hart, O. (2017). *Treating Trauma-Related Dissociation: A Practical, Integrative Approach*. W. W. Norton.
 
 ## Související materiály
 
@@ -231,19 +229,4 @@ Doporučení: monitoring je implementován v **proporcionalitě** k rizikovému 
 - [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) · [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) · [Ontologická anihilace](@/glossary/ontologicka-anihilace.md) · [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) · [Anankastický režim](@/glossary/anankasticky-rezim.md) · [Epistemická alienace](@/glossary/epistemicka-alienace.md) · [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) · [Taxonomie EA](@/glossary/taxonomie-ea.md) · [Dual-use poznání](@/glossary/dual-use-poznani.md) · [Epistemické trauma](@/glossary/epistemicke-trauma.md) · [Gaslighting](@/glossary/gaslighting.md) · [Delegitimizace](@/glossary/delegitimizace.md)
 - Filozofie: [Intelektuální suverenita](@/philosophy/intellectual-sovereignty.md) · [Epistemická integrita](@/philosophy/epistemic-integrity.md) · [Boundary ethics](@/philosophy/boundary-ethics.md)
-
-## Kritický krok
-
-**Tato sekce není použitelná bez supervize.** Před aplikací jakéhokoli
-terminálního protokolu (i v rámci sebe-monitoringu) ověř:
-
-1. Existující písemný [eticky-kodex](@/kompendium/08-prilohy/eticky-kodex.md)
-   schválený tvou institucí
-2. Aktivní [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-   s minimálně měsíčním kontaktem
-3. [Pred-simulační screening](@/kompendium/04-terminalni-protokoly/pred-simulacni-screening.md)
-   uplynulých 7 dní
-
-> **Mandatorní akce**: aplikace bez splnění všech tří bodů je porušením
-> doktríny tohoto kompendia. Bez nich vrať tento materiál na úroveň
-> [03 Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md).
+- [Etický kodex kompendia](@/kompendium/08-prilohy/eticky-kodex.md) · [Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) · [Metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md)

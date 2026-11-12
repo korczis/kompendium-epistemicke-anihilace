@@ -20,7 +20,7 @@ Tato kapitola poskytuje **fundamentální konceptuální vymezení** fenoménů 
 
 ## Epistemická anihilace: konceptuální vymezení
 
-> **Epistemická anihilace** je systematický, cílený a graduální proces destrukce epistemických struktur jedince nebo skupiny, vedoucí k fundamentálnímu narušení schopnosti **poznávat**, **evaluovat**, integrovat a **využívat informace** způsobem umožňujícím konstrukci koherentního a adekvátního obrazu reality.
+> **[Epistemická anihilace](@/glossary/epistemicka-anihilace.md)** je systematický, cílený a graduální proces destrukce epistemických struktur jedince nebo skupiny, vedoucí k fundamentálnímu narušení schopnosti **poznávat**, **evaluovat**, integrovat a **využívat informace** způsobem umožňujícím konstrukci koherentního a adekvátního obrazu reality.
 
 Na rozdíl od běžných epistemických distorzí (dílčích zkreslení v jinak funkčním poznávacím aparátu) zasahuje epistemická anihilace **samotné fundamentální struktury**, které poznávání umožňují. Jde o **meta-epistemické poškození** — destrukci mechanismů formování, revize a justifikace přesvědčení jako takových. Subjekt postižený běžnou distorzí stále disponuje funkčním aparátem, jen nese specifické chyby v jeho výstupech; subjekt postižený epistemickou anihilací nemá funkční aparát, kterým by chyby identifikoval či opravil.
 
@@ -49,7 +49,7 @@ Doxastická anihilace je analogická chirurgickému odstranění patologické tk
 
 ## Kognitivní anihilace: konceptuální vymezení
 
-> **Kognitivní anihilace** označuje systematickou destrukci kognitivních procesů a funkcí, vedoucí k fundamentálnímu narušení schopnosti jedince **zpracovávat informace**, **realizovat mentální operace** a **využívat kognitivní kapacity** pro adaptivní fungování ve světě.
+> **[Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)** označuje systematickou destrukci kognitivních procesů a funkcí, vedoucí k fundamentálnímu narušení schopnosti jedince **zpracovávat informace**, **realizovat mentální operace** a **využívat kognitivní kapacity** pro adaptivní fungování ve světě.
 
 Zatímco epistemická anihilace se primárně týká narušení poznávacích struktur v epistemologickém smyslu, kognitivní anihilace zasahuje **širší spektrum** mentálních procesů včetně pozornosti, paměti, exekutivních funkcí, rozhodovacích procesů a metakognitivních kapacit. Kognitivní anihilace je tedy **fenomenologicky širší** ale **epistemologicky mělčí** — postihuje rovněž subjekty bez explicitního epistemického života (např. v pokročilých demenčních stavech), avšak ne nutně narušuje epistemickou strukturu jako takovou.
 
@@ -178,7 +178,7 @@ Současná konceptualizace epistemické a kognitivní anihilace integruje poznat
 
 - **Kognitivní vědy** poskytují detailní porozumění architektuře kognitivních procesů a jejich vulnerabilitě
 - **Epistemologie** nabízí konceptuální rámec pro analýzu narušení poznávacích struktur
-- **Fenomenologie** umožňuje porozumění subjektivním aspektům epistemické dezintegrace
+- **[Fenomenologie](@/glossary/fenomenologie.md)** umožňuje porozumění subjektivním aspektům epistemické dezintegrace
 - **Sociální psychologie** objasňuje roli sociálních a institucionálních faktorů v epistemické manipulaci
 - **Neurovědy** přinášejí porozumění neurobiologickým korelatům epistemických a kognitivních procesů
 

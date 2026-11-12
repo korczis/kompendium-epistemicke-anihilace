@@ -1,0 +1,123 @@
+# Rodina NLP-02: Základní pojmy NLP, část pokryti (NLP-02.43 až NLP-02.45).
+# Pravidlo project.content-catalogs; schéma v scripts/catalogs.py. Pořadí je pořadí identifikátorů.
+# Druhý, třetí a pátý axiom pragmatiky komunikace (Watzlawick, Beavin a Jackson 1967), které NLP
+# převzalo; první axiom je heslo nelze-nekomunikovat v rodině předpokladů.
+
+[[pattern]]
+id = "NLP-02.43"
+slug = "obsah-a-vztah"
+type = "concept"
+cs = "Obsahová a vztahová rovina sdělení"
+en = "Content and relationship aspects"
+aliases = ["druhý axiom komunikace", "obsahový a vztahový aspekt", "obsah a vztah"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = [
+  "nelze-nekomunikovat",
+  "inkongruence",
+  "kategorie-satirove",
+  "kontrola-tonu",
+  "personalizace-sporu",
+]
+kompendium = [
+  "kompendium/techniques/ea-3-2-4-metacommunication-skill.md",
+  "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md",
+  "kompendium/techniques/ea-7-1-4-habermas-communicative-action.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Já jsem ti jen řekl, že ta zpráva má chyby. To, jak se teď tváříš, je tvůj problém. Já mluvím o věci, ty si z toho děláš osobní záležitost."
+context = "Vedoucí po poradě, na které podřízeného přede všemi zesměšnil tónem i poznámkami."
+benign = false
+marker = "Mluvčí se schovává za obsahovou rovinu, kterou nikdo nezpochybnil, a vztahové sdělení, které vyslal tónem a situací, popírá a připisuje reakci druhého jeho přecitlivělosti."
+response = "Obě roviny pojmenovat zvlášť: s obsahem výtky lze souhlasit a zároveň trvat na tom, že způsob a místo, kde zazněla, jsou samostatné sdělení, o kterém se dá mluvit."
+
+[[pattern.trainer]]
+utterance = "K tomu návrhu mám dost výhrad, ale nechci, aby to vyznělo jako útok na tebe. Můžeme je projít a pak mi řekneš, jestli to tak působilo?"
+context = "Kolegyně před připomínkami k projektu, na kterém druhý dlouho pracoval."
+benign = true
+marker = "Mluvčí výslovně odděluje věcnou kritiku od vztahového sdělení a nabízí druhému, aby vztahovou rovinu sám posoudil."
+response = "Benigní užití: metakomunikace o vztahu je otevřená, ověřovaná a nebrání nesouhlasu s obsahem."
+
+[[pattern]]
+id = "NLP-02.44"
+slug = "interpunkce-komunikace"
+type = "concept"
+cs = "Interpunkce komunikačního sledu"
+en = "Punctuation of the communicational sequence"
+aliases = ["třetí axiom komunikace", "členění komunikačního sledu", "kdo to začal"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = [
+  "interpunkcni-dvojznacnost",
+  "nelze-nekomunikovat",
+  "obsah-a-vztah",
+  "obracena-kauzalita",
+  "tu-quoque",
+  "dve-kriva-jedno-pravo",
+]
+kompendium = [
+  "kompendium/critical-perspectives/21-systems-theory-alternative.md",
+  "kompendium/educational-scenarios/20-darvo-recognition.md",
+  "kompendium/research-methodology/conversation-analysis-EA.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Já bych přece nikdy nekřičel, kdybys mě pořád neprovokovala. Všechno, co dělám, je jen reakce na tebe, takže si za to můžeš sama."
+context = "Partner po hádce, ve které druhé vyhrožoval a rozbil jí telefon."
+benign = false
+marker = "Sled událostí je členěn tak, že každý vlastní čin mluvčího je jen odpovědí a začátek vždy leží u druhé, čímž se odpovědnost za výhrůžky a násilí přesouvá na ni."
+response = "Rozlišit členění sledu od odpovědnosti za čin: ať se spor vyvíjel jakkoli, za výhrůžku a rozbitou věc odpovídá ten, kdo to udělal, a otázka, kdo začal, na tom nic nemění."
+
+[[pattern.trainer]]
+utterance = "Asi to vidíme každý jinak: já mám pocit, že se stahuješ, a proto naléhám, a ty máš možná pocit, že naléhám, a proto se stahuješ. Zkusme to popsat oba."
+context = "Manželé v rozhovoru o opakované hádce, kterou vedou na podobné téma."
+benign = true
+marker = "Mluvčí pojmenovává, že oba členují týž kruh jinak, a nehledá viníka, ale společný popis vzorce mezi dvěma rovnocennými stranami."
+response = "Benigní užití: uznání odlišné interpunkce otevírá rozhovor o vzorci, protože ve vztahu nejde o násilí ani o nerovnou moc."
+
+[[pattern]]
+id = "NLP-02.45"
+slug = "symetricka-a-komplementarni-interakce"
+type = "concept"
+cs = "Symetrická a komplementární interakce"
+en = "Symmetrical and complementary interaction"
+aliases = ["pátý axiom komunikace", "symetrická eskalace", "rigidní komplementarita", "schismogeneze"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = [
+  "obsah-a-vztah",
+  "interpunkce-komunikace",
+  "raport",
+  "pacing-a-leading-pojem",
+  "odvolani-na-autoritu",
+  "odvolani-na-silu",
+]
+kompendium = [
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+  "kompendium/critical-perspectives/14-power-asymmetry-EA.md",
+  "kompendium/prevention-resilience/14-de-escalation-prevention.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tady se neptáš, tady posloucháš. Až budeš rozumět tomu, co já, můžeš mít názor. Do té doby je každá tvoje otázka jen důkaz, jak daleko ještě jsi."
+context = "Vedoucí duchovní skupiny k členovi, který se zeptal na hospodaření skupiny."
+benign = false
+marker = "Komplementární vztah učitele a žáka je vyhlášen za neměnný a jakýkoli pokus o rovnocennou otázku se vykládá jako potvrzení podřízeného postavení."
+response = "Otázka na peníze a rozhodování je oprávněná bez ohledu na postavení; vztah, ve kterém ji nelze položit, je rigidní a jeho uzavřenost je sama varovným znakem."
+
+[[pattern.trainer]]
+utterance = "V tomhle kurzu vás vedu já, protože to dělám dvacet let. Ale pokud uvidíte něco, co nesedí, řekněte to; v posledním týdnu budete vést sezení vy."
+context = "Instruktorka první pomoci na začátku vícedenního výcviku."
+benign = true
+marker = "Komplementární rozdělení rolí je zdůvodněné, výslovně připouští zpochybnění a počítá s tím, že se postavení během výcviku vyrovná."
+response = "Benigní užití: komplementarita slouží učení, je časově omezená a nepožaduje, aby podřízený přestal posuzovat, co se děje."

@@ -13,7 +13,7 @@ set -euo pipefail
 root=$(cd "$(dirname "$0")/../.." && pwd)
 work=$(mktemp -d "${TMPDIR:-/tmp}/kea-case03.XXXXXX")
 trap 'rm -rf "$work"' EXIT
-git -C "$root" archive "$(git -C "$root" write-tree)" | tar -x -C "$work"  # the index: what is about to be committed
+git -C "$root" archive "${KEA_TEST_TREE:-$(git -C "$root" write-tree)}" | tar -x -C "$work"  # the index: what is about to be committed
 cd "$work"
 mkdir -p static/css && touch static/css/app.css
 

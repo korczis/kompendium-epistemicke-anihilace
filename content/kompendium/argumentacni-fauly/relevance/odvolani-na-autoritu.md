@@ -35,7 +35,7 @@ catalog_broader = ""
 catalog_narrower = ["anonymni-autorita"]
 catalog_depth = 0
 catalog_ancestors = []
-catalog_related = ["anonymni-autorita", "ad-populum", "odvolani-na-bohatstvi", "falesna-vyvazenost", "galileuv-gambit", "vedecky-zargon", "pravidlo-argumentacniho-schematu", "argumentacni-schemata", "bayesovske-pojeti-klamu", "inokulace-proti-klamum", "guru-efekt", "neuro-zargon"]
+catalog_related = ["anonymni-autorita", "ad-populum", "odvolani-na-bohatstvi", "falesna-vyvazenost", "galileuv-gambit", "vedecky-zargon", "pravidlo-argumentacniho-schematu", "argumentacni-schemata", "bayesovske-pojeti-klamu", "inokulace-proti-klamum", "symetricka-a-komplementarni-interakce", "guru-efekt", "neuro-zargon"]
 catalog_related_declared = ["anonymni-autorita", "ad-populum", "vedecky-zargon", "galileuv-gambit", "guru-efekt", "neuro-zargon"]
 catalog_kompendium = ["kompendium/techniques/ea-9-1-7-synthetic-expertise-claim.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md", "kompendium/07-teoreticke-reflexe/socialni-epistemologie.md"]
 catalog_canonical = ""
@@ -43,7 +43,7 @@ catalog_links_prose = ["glossary/charisma.md", "kompendium/argumentacni-fauly/di
 catalog_prev = "vina-asociaci"
 catalog_next = "anonymni-autorita"
 catalog_position = 7
-catalog_family_size = 28
+catalog_family_size = 29
 catalog_sources = ["bentham-1824", "cialdini-2009", "cook-lewandowsky-ecker-2017", "copi-cohen-mcmahon-2014", "govier-2010", "hahn-oaksford-2007", "kahneman-2011", "lilienfeld-2015", "petty-cacioppo-1986", "walton-2008", "walton-reed-macagno-2008", "woods-walton-1989", "eemeren-grootendorst-1992"]
 catalog_sources_primary = ["copi-cohen-mcmahon-2014", "govier-2010", "walton-2008", "walton-reed-macagno-2008", "woods-walton-1989", "eemeren-grootendorst-1992"]
 catalog_sources_roots = ["bentham-1824"]
@@ -246,6 +246,7 @@ hlasy.
 - [Argumentační schémata a kritické otázky](@/kompendium/argumentacni-fauly/teorie-argumentace/argumentacni-schemata.md) – příbuzné heslo (Principy kritické diskuse a teorie argumentace, Argumentation schemes)
 - [Bayesovské pojetí klamů](@/kompendium/argumentacni-fauly/teorie-argumentace/bayesovske-pojeti-klamu.md) – příbuzné heslo (Principy kritické diskuse a teorie argumentace, Bayesian account of fallacies)
 - [Inokulace proti klamům](@/kompendium/argumentacni-fauly/teorie-argumentace/inokulace-proti-klamum.md) – příbuzné heslo (Principy kritické diskuse a teorie argumentace, Inoculation against fallacies)
+- [Symetrická a komplementární interakce](@/kompendium/nlp-vzorce/zakladni-pojmy/symetricka-a-komplementarni-interakce.md) – příbuzné heslo (NLP vzorce: Základní pojmy NLP, Symmetrical and complementary interaction)
 - [Efekt guru na seminářích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md) – příbuzné heslo (NLP vzorce: Vliv a zneužití NLP, Guru effect in seminars)
 - [Neurožargon](@/kompendium/nlp-vzorce/vliv-a-zneuziti/neuro-zargon.md) – příbuzné heslo (NLP vzorce: Vliv a zneužití NLP, Neuro-jargon)
 

@@ -62,18 +62,16 @@ Zasažený člověk referuje, že „teprve teď vidí věci správně“, a dř
 | **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
 | **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
 
-## Indikace a kontraindikace
+## Vylučující okolnosti
 
-### Legitimní indikace (vzácné, výhradně supervidovaný kontext)
-- Profesní příprava operativních složek pro extrémně náročné prostředí pod doložitelnou jurisdikcí.
-- Klinická intervence u striktně vymezených diagnóz, kde benefit prokazatelně převažuje riziko.
-- Forenzní rekonstrukce s explicitním soudním mandátem a etickým dohledem.
+Žádné oprávněné užití rekonstrukce pojmového aparátu tato kniha nevyjmenovává; otázku, zda je expozice takového rozsahu vůbec připustitelná, řeší [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md), ne tento výčet. Následující okolnosti stojí proti ní bez výjimky.
 
-### Absolutní kontraindikace
-- Akutní psychiatrická krize, suicidální ideace, dekompenzovaná komorbidita.
-- Nedostatečná podpůrná síť subjektu nebo závislé sociální postavení.
-- Subjekt v mocenské asymetrii vůči operátorovi (zaměstnanec, podřízený, klient v privátní praxi bez druhého supervizora).
-- Komerční, kompetitivní nebo politické cíle protokolu.
+| Okolnost | Proč vylučuje |
+|----------|---------------|
+| Akutní psychiatrická krize, suicidální ideace, dekompenzovaná komorbidita | Obnova pojmového rámce předpokládá stabilní výkon úsudku; v dekompenzaci se nový rámec usadí zcela mimo kontrolu subjektu |
+| Nedostatečná podpůrná síť subjektu nebo závislé sociální postavení | Bez okolí, které snese nezávislou námitku, se rekonstrukce odehraje v jediném zdroji a výsledkem je rámec někoho jiného |
+| Mocenská asymetrie mezi subjektem a operátorem (zaměstnanec, podřízený, klient bez druhého supervizora) | Pojmy přejaté od toho, kdo o subjektu rozhoduje, nelze odlišit od pojmů přijatých z přesvědčení |
+| Komerční, kompetitivní nebo politické cíle protokolu | Zadavatel se zájmem na obsahu nového rámce určuje, co bude subjekt vůbec schopen vyslovit |
 
 ## Klinické markery (neúmyslná manifestace)
 

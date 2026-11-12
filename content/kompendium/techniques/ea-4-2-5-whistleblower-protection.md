@@ -62,18 +62,20 @@ Zasažený člověk v anamnéze referuje o postupné ztrátě jistoty, zda vidě
 | **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
 | **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
 
-## Indikace a kontraindikace
+## Okolnosti, které vylučují expozici
 
-### Legitimní indikace (vzácné, výhradně supervidovaný kontext)
-- Profesní příprava operativních složek pro extrémně náročné prostředí pod doložitelnou jurisdikcí.
-- Klinická intervence u striktně vymezených diagnóz, kde benefit prokazatelně převažuje riziko.
-- Forenzní rekonstrukce s explicitním soudním mandátem a etickým dohledem.
+Kompendium neuvádí kontext, v němž by byla expozice tohoto druhu legitimní; stránka slouží
+rozpoznání vzorce, a rámec tohoto čtení stanoví
+[etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md). Následující okolnosti ji
+vylučují naprosto a jejich výčet má smysl právě jako znak, podle něhož se pozná prostředí,
+které je přehlíží:
 
-### Absolutní kontraindikace
-- Akutní psychiatrická krize, suicidální ideace, dekompenzovaná komorbidita.
-- Nedostatečná podpůrná síť subjektu nebo závislé sociální postavení.
-- Subjekt v mocenské asymetrii vůči operátorovi (zaměstnanec, podřízený, klient v privátní praxi bez druhého supervizora).
-- Komerční, kompetitivní nebo politické cíle protokolu.
+| Okolnost na straně subjektu nebo zadání | Proč expozici vylučuje |
+|---|---|
+| Akutní psychiatrická krize, suicidální myšlenky, dekompenzovaná komorbidita | Zátěž dopadá na stav, který sám potřebuje léčbu |
+| Chybějící podpůrná síť nebo závislé sociální postavení | Chybí prostředí, které by následky zachytilo |
+| Mocenská asymetrie vůči zadavateli (zaměstnanec, podřízený, klient v privátní praxi bez druhého supervizora) | Souhlas není svobodný, a není tedy souhlasem |
+| Komerční, soutěžní nebo politický cíl zadání | Účelem není poznání ani péče, nýbrž výsledek pro zadavatele |
 
 ## Klinické markery (neúmyslná manifestace)
 
@@ -135,19 +137,28 @@ Klinický kontext **EA-4.2.5** připouští následující dokumentované adapta
 ## Vztah k jiným technikám
 
 ### V rámci subkategorie 4.2 Bezpečnostní protokoly
-  - [EA-4.2.1 Pre-engagement screening](@/kompendium/techniques/ea-4-2-1-pre-engagement-screening.md)
-  - [EA-4.2.2 Real-time monitoring](@/kompendium/techniques/ea-4-2-2-real-time-monitoring.md)
-  - [EA-4.2.3 Post-engagement reintegration](@/kompendium/techniques/ea-4-2-3-post-engagement-reintegration.md)
-  - [EA-4.2.4 IRB review multi-tier](@/kompendium/techniques/ea-4-2-4-irb-review-multi-tier.md)
-  - [EA-4.2.6 Consent withdrawal](@/kompendium/techniques/ea-4-2-6-consent-withdrawal.md)
+
+| Sousední pojistka téže subkategorie | Čeho se týká |
+|---|---|
+| [EA-4.2.1 Pre-engagement screening](@/kompendium/techniques/ea-4-2-1-pre-engagement-screening.md) | Posouzení vhodnosti před vstupem |
+| [EA-4.2.2 Real-time monitoring](@/kompendium/techniques/ea-4-2-2-real-time-monitoring.md) | Sledování stavu v průběhu |
+| [EA-4.2.3 Post-engagement reintegration](@/kompendium/techniques/ea-4-2-3-post-engagement-reintegration.md) | Návrat a rekonstrukční fáze po ukončení |
+| [EA-4.2.4 IRB review multi-tier](@/kompendium/techniques/ea-4-2-4-irb-review-multi-tier.md) | Etický přezkum nezávislými komisemi |
+| [EA-4.2.6 Consent withdrawal](@/kompendium/techniques/ea-4-2-6-consent-withdrawal.md) | Odvolání souhlasu a jeho důsledky |
 
 ### Provázanost mezi subkategoriemi 4
-  - [EA-4.3.1 Systematic conceptual disassembly](@/kompendium/techniques/ea-4-3-1-systematic-conceptual-disassembly.md)
+
+| Vazba mimo subkategorii 4.2 | Čeho se týká |
+|---|---|
+| [EA-4.3.1 Systematic conceptual disassembly](@/kompendium/techniques/ea-4-3-1-systematic-conceptual-disassembly.md) | Terminální technika, u níž je oznamovací kanál pojistkou téhož druhu |
 
 ### Cross-kategoriální vazby
-- **[EA 1 4 1 PROSODICKA DOMINANCE](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md)** — akademická vrstva, jejíž eskalace může vést k terminální fázi.
-- **[EA 1 2 3 ILUZORNI KOMPLEXITA](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md)** — související vstupní mechanismus.
-- **[EA 5 1 3 REFLEXIVNI PARADOXIE](@/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie.md)** — ultramární technika strukturálně příbuzná, vyžadující ostřejší distinktivní detekci.
+
+| Technika z jiné kategorie | Povaha vazby |
+|---|---|
+| [EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) | Akademická vrstva, jejíž eskalace může vést až k terminální fázi |
+| [EA-1.2.3 Iluzorní komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) | Vstupní mechanismus, který činí vnější přezkum zdánlivě neúměrně nákladným |
+| [EA-5.1.3 Reflexivní paradoxie](@/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie.md) | Ultramární technika strukturně příbuzná, vyžadující ostřejší rozlišení |
 
 ## Literatura
 
@@ -184,11 +195,13 @@ Klinický kontext **EA-4.2.5** připouští následující dokumentované adapta
 
 ## Co ověřit před čtením
 
-Před prací s touto stránkou si čtenář ověří:
+Stránka je vedena na úrovni L2 a týká se terminálního protokolu; čtenář si před prací s ní ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L2 = doložená kvalifikace + supervize).
-- Máš funkční [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) na úrovni odpovídající rizikovému profilu techniky.
-- Pokud diagnostikuješ na sobě nebo na blízkém kontaktu, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí.
+| Podmínka čtení této stránky | Kde ji ověří |
+|---|---|
+| Vlastní přístupová úroveň odpovídá hodnotě `access_level` v záhlaví, tedy doložené kvalifikaci se supervizí | Záhlaví tohoto článku |
+| Supervizní rámec odpovídá rizikovému profilu, s nímž je stránka vedena | [Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) |
+| Rozpoznání vzorce u sebe nebo u blízkého kontaktu se nese do supervize, nikoli do vlastního závěru | [Diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) |
 
 > **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
 > čtenáře, nikoli nástroj. Etický rámec stanoví
@@ -201,4 +214,4 @@ Před prací s touto stránkou si čtenář ověří:
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)
+Rozcestníky: [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

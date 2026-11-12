@@ -67,10 +67,12 @@ Konkrétní implementace vyžaduje:
 1. **Pre-implementation assessment** — verifikace předpokladů u individuálních účastníků a kohorty jako celku.
 2. **Resource provisioning** — institucionální alokace času, prostoru, personálu, technologií.
 3. **Documentation infrastructure** — systém zaznamenávání průběhu, výsledků, incidentů.
-4. **Quality assurance** — peer review nebo external observation alespoň 10 % sessions.
-5. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
+4. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
 
 Implementace je iterativní — každý cyklus generuje data informující úpravy v dalších cyklech.
+Nácvik se nevede bez vnějšího posuzovatele, protože zpětná vazba o správnosti rozpoznání nemůže
+pocházet od téhož, kdo rozpoznával; sebehodnocení zde pouze zesiluje to, co už se naučilo.
+Bez cizího pohledu je výcvik rozpoznávání z principu neopravitelný.
 
 ## Hodnotící kritéria
 
@@ -95,6 +97,41 @@ Specificky:
 - **Nedostatek institucionální infrastruktury** — bez adekvátní podpory technika selhává a může poškozovat.
 - **Kulturně necitlivá implementace** — technika musí být adaptována pro local context, nikoli mechanicky importována.
 - **Power asymmetry** — implementace v kontextu [coercive control](@/glossary/coercive-control.md) (nedobrovolná účast) je eticky problematická.
+
+## Co recognition trénink nezakládá
+
+Rychlé a jisté rozpoznání nezakládá jeho správnost. Kahneman a Klein (2009) se shodli na tom, za
+jakých okolností má odborná intuice platnost: prostředí musí být dost pravidelné, aby v něm bylo
+co zachytit, a praktik musí mít příležitost se jeho pravidelnosti naučit ze zpětné vazby.
+Institucionální prostředí, v němž se epistemická manipulace odehrává, splňuje obě podmínky
+nestejně — vzorce se v něm proměňují s tím, kdo je pozoruje, a odezva o správnosti přichází
+zřídka a pozdě. *Interpretace knihy*: cvičené rozpoznání je proto u této látky hypotézou o
+struktuře situace, nikoli zjištěním, a subjektivní jistota není jeho zárukou.
+
+Rozpoznání nezakládá tvrzení o konkrétním člověku. Technika učí všimnout si uspořádání rozhovoru
+nebo řízení, ne určit, kdo je jeho strůjcem a s jakým úmyslem; nálepka přidělená na základě
+rozpoznaného vzorce nemá povahu nálezu a nelze ji předkládat jako doklad. Tento rozdíl je pro
+pokročilé účastníky nesnadnější než samo rozpoznávání, protože běží proti tomu, k čemu nácvik
+vede.
+
+Nezakládá ani to, že cvičený je sám chráněn. Kruger a Dunning (1999) doložili, že nedostatek
+dovednosti se zpravidla pojí s nedostatkem schopnosti ho u sebe rozpoznat — a to platí i pro
+dovednost, které se zde učí. Absolvent nácviku je vůči vzorcům citlivější, a tím zároveň
+sebejistější; o jeho vlastní zranitelnosti ta sebejistota neříká nic.
+
+## Odlišení od příbuzných technik
+
+Od [drillu kompoziční analýzy](@/kompendium/techniques/ea-3-1-8-compositional-analysis-drill.md)
+se tato technika liší časovým režimem a tím, co se cvičí. Analýza je rozklad provedený dodatečně,
+písemně a bez tlaku; rozpoznání má nastat ještě v situaci, a proto se cvičí i to, čeho si člověk
+všimne nejdřív, než začne skládat výklad. Klein (1998) popsal právě tento rozdíl u zkušených
+praktiků: typ situace je rozpoznán dřív, než je porovnána jakákoli varianta.
+
+Od běžného výukového případu se odlišuje nakládáním se správnou odpovědí. Obvyklá kazuistika má
+klíč a výuka míří k jeho nalezení. Zde patří k látce i případy, u nichž se zkušení neshodnou, a
+správnou odpovědí je, že se podle dostupných znaků rozhodnout nelze. Sada případů s klíčem učí
+klíč — Chi, Feltovich a Glaser (1981) ukázali, že odborník třídí podle rysů rozhodujících o
+povaze situace; klíč naopak odměňuje rysy, podle nichž byla sada sestavena.
 
 ## Vztah k jiným technikám
 
@@ -125,7 +162,9 @@ Tato edukativní technika operacionalizuje poznatky z taxonomie:
 
 - Chi, M. T. H., Feltovich, P. J., & Glaser, R. (1981). Categorization and representation of physics problems by experts and novices. *Cognitive Science*, 5(2).
 - Ericsson, K. A., Krampe, R. T., & Tesch-Römer, C. (1993). The role of deliberate practice in the acquisition of expert performance. *Psychological Review*, 100(3).
+- Kahneman, D., & Klein, G. (2009). Conditions for intuitive expertise: A failure to disagree. *American Psychologist*, 64(6).
 - Klein, G. (1998). *Sources of Power: How People Make Decisions*. MIT Press.
+- Kruger, J., & Dunning, D. (1999). Unskilled and unaware of it: How difficulties in recognizing one's own incompetence lead to inflated self-assessments. *Journal of Personality and Social Psychology*, 77(6).
 
 ## Související
 

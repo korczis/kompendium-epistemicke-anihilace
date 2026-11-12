@@ -16,7 +16,7 @@ date_modified = "2026-11-10"
 
 ## Definice
 
-**Analytický soud** je takový, jehož pravdivost plyne ze samotného významu pojmů: predikát je již obsažen v subjektu („každý mládenec je neženatý“, „všechna tělesa jsou rozprostraněná“). **Syntetický soud** k subjektu přidává něco, co v jeho pojmu obsaženo není, a jeho pravdivost proto nelze zjistit rozborem slov („všechna tělesa jsou těžká“, „tento lék snižuje tlak“). Rozlišení se kříží s druhým: soudy **a priori** platí nezávisle na zkušenosti, soudy **a posteriori** jsou na ní založeny (viz [apriori](@/glossary/apriori.md)).
+**Analytický soud** je takový, jehož pravdivost plyne ze samotného významu pojmů: predikát je již obsažen v subjektu („každý mládenec je neženatý“, „všechna tělesa jsou rozprostraněná“). **Syntetický soud** k subjektu přidává něco, co v jeho pojmu obsaženo není, a jeho pravdivost proto nelze zjistit rozborem slov („všechna tělesa jsou těžká“, „tento lék snižuje tlak“). Rozlišení se kříží s druhým: soudy **[a priori](@/glossary/apriori.md)** platí nezávisle na zkušenosti, soudy **a posteriori** jsou na ní založeny (viz [apriori](@/glossary/apriori.md)).
 
 Analytické soudy jsou jisté, ale o světě nic nového neříkají; syntetické soudy o světě vypovídají, ale lze je zkušeností vyvrátit. Pro Kompendium je rozlišení užitečné proto, že jeho **záměna** – vydávání empirického tvrzení za pravdu z definice a naopak – je častým a nenápadným nástrojem uzavírání diskuse.
 

@@ -48,6 +48,8 @@ Nepříznivý průběh se pozná podle rozporu mezi hlášenou spokojeností a p
 
 *Interpretace knihy*: rozlišujícím znakem není klid během setkání, nýbrž návratnost po něm. Kde se ztráta stability přijímá jako cena za hloubku, přestává kotvení chránit a stává se obřadem (Herman, 1992).
 
+Rozvrstvení zdrojů je u této stránky podstatné, protože se v ní potkává klinická literatura s výcvikovým prostředím. Přednost stabilizace před prací s těžkým materiálem formulovala Herman (1992) pro zotavení z traumatu; směr zdola nahoru, od tělesné regulace k výkladu, pochází od Ogden, Minton a Pain (2006); poznatek, že potíže po intenzivní vnitřní práci bývají vykládány jako součást procesu, a tedy nehlášeny, dokumentovali Lindahl a kol. (2017) u meditační praxe. Žádný z těchto zdrojů se nevyslovuje o vzdělávacím kurikulu. Přenesení fázového uspořádání z léčby do výuky je proto *interpretace knihy*: drží se pouze strukturní podobnosti — i zde se pracuje s materiálem, který mění stav člověka — a netvrdí, že účastník výcviku je v postavení pacienta.
+
 ## Cílová populace
 
 Všichni účastníci po expozičních modulech; intenzivnější protokol pro účastníky se zvýšenou bazální aktivací.
@@ -67,7 +69,7 @@ Konkrétní implementace vyžaduje:
 1. **Pre-implementation assessment** — verifikace předpokladů u individuálních účastníků a kohorty jako celku.
 2. **Resource provisioning** — institucionální alokace času, prostoru, personálu, technologií.
 3. **Documentation infrastructure** — systém zaznamenávání průběhu, výsledků, incidentů.
-4. **Quality assurance** — peer review nebo external observation alespoň 10 % sessions.
+4. Nikdo nevede kotvení sám — na stav účastníků po expozici se dívá i druhý člověk, který na průběhu modulu nemá výkonový zájem.
 5. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
 
 Implementace je iterativní — každý cyklus generuje data informující úpravy v dalších cyklech.
@@ -83,6 +85,8 @@ Implementace je iterativní — každý cyklus generuje data informující úpra
 
 Evaluace integruje kvantitativní (validované instrumenty) i kvalitativní (reflektivní eseje, ethnographic observation) datové zdroje. Žádná samostatná metrika není dostatečná — multidimenzionální evaluace je nezbytná.
 
+Zdařilé kotvení nedokládá, že expozice byla neškodná. Dokládá nejvýš, že se účastník po ní vrátil do svého obvyklého stavu v prostředí, kde byla pomoc po ruce — nikoli že by se vrátil i tam, kde po ruce není, a už vůbec ne že by obsah, s nímž se setkal, přestal působit. Nedokládá ani osvojenou schopnost: návrat uskutečněný za přítomnosti skupiny a vedoucího není totéž co regulace vlastními prostředky, a Ogden, Minton a Pain (2006) právě proto umisťují tělesnou část práce před výklad, nikoli za něj. Vlastní hlášení přitom nese známý směr chyby, který u této techniky váží nejvíc ze všech: Lindahl a kol. (2017) ukázali, že obtíže bývají přerámovány jako znak hloubky, takže uvedený klid je slabším údajem než spánek, soustředění a chování mimo výuku. A konečně — účastník, který se dobře ukotví, tím nedokládá kompetenci kotvení vést; schopnost vrátit se do svého stavu je něco jiného než schopnost rozpoznat, že se do něj někdo jiný nevrací.
+
 ## Rizika a kontraindikace
 
 **Kdy techniku NEPOUŽÍVAT nebo modifikovat:**
@@ -97,6 +101,8 @@ Specificky:
 - **Power asymmetry** — implementace v kontextu [coercive control](@/glossary/coercive-control.md) (nedobrovolná účast) je eticky problematická.
 
 ## Vztah k jiným technikám
+
+Od [EA-3.2.3 Mistrovství emoční regulace](@/kompendium/techniques/ea-3-2-3-emotional-regulation-mastery.md) se kotvení liší svou vázaností na epizodu: regulační mistrovství je trvalá výbava toho, kdo vede, kdežto kotvení se váže ke konkrétnímu setkání s obsahem a jeho výsledek se posuzuje po něm, ne obecně. Od [EA-3.1.4 Formace epistemické komunity](@/kompendium/techniques/ea-3-1-4-epistemic-community-formation.md) je odděleno úlohou vztahu — komunita je míněna jako trvalá příslušnost, zatímco zde slouží vztahový kontakt jako bod, od něhož se lze vrátit do běžného stavu. Proti běžnému vyučovacímu případu je rozdíl v tom, co uzavírá výukovou jednotku: v obvyklé výuce ji uzavírá probraný materiál a ověřené porozumění, zde stav účastníků, takže jednotku lze považovat za nedokončenou i tehdy, když bylo odpřednášeno vše.
 
 ### Sourozenecké techniky (3.1 Kurikulární techniky)
 

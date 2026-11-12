@@ -1,0 +1,37 @@
+# Rodina NLP-16: Přesvědčení, část pokryti (NLP-16.15).
+# Pravidlo project.content-catalogs; schéma v scripts/catalogs.py. Pořadí záznamů je pořadí
+# identifikátorů; identifikátor se po zveřejnění nemění.
+
+[[pattern]]
+id = "NLP-16.15"
+slug = "zmena-hodnot"
+type = "pattern"
+cs = "Změna hodnot"
+en = "Changing values"
+aliases = ["přeuspořádání hodnot", "změna hierarchie hodnot", "values change"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["uroven-presvedceni-a-hodnot", "kriteria", "sladeni-hodnot", "terapie-casove-osy", "imprint", "som-hierarchie-kriterii"]
+kompendium = [
+  "kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md",
+  "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md",
+  "kompendium/techniques/ea-5-3-1-identitarni-substituce.md",
+  "kompendium/case-studies/61-corporate-leadership-cult.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Rodina, kterou máš na prvním místě, tě drží zpátky. Úspěšní lidé mají nahoře svobodu a růst, a my ti teď pomůžeme to pořadí v sobě přepsat."
+context = "Mentor v síťovém prodeji mluví s nováčkem, který odmítá víkendové akce kvůli dětem."
+benign = false
+marker = "Vlastní pořadí hodnot se vydává za vadu, cílové pořadí určuje skupina a „přepsání“ má odstranit právě tu hodnotu, která člověka chrání před nároky skupiny."
+response = "Brát vlastní hodnoty jako oprávněné měřítko, ne jako překážku; ptát se, komu navrhované pořadí slouží, a rozhodnutí o čase s rodinou nedělat pod tlakem skupiny."
+
+[[pattern.trainer]]
+utterance = "Zdá se, že pro vás je jistota i dobrodružství důležité a teď stojí proti sobě. Nebudu vám říkat, co má vyhrát; můžeme se podívat, co pro vás které znamená."
+context = "Poradkyně pro volbu povolání mluví s klientem, který zvažuje odchod do zahraničí."
+benign = true
+marker = "Hodnoty klienta se pojmenovávají a zkoumají, poradkyně výslovně odmítá určit jejich pořadí a rozhodnutí ponechává klientovi."
+response = "Jde o neškodné užití: rozhovor o hodnotách slouží sebepoznání a rozhodování, nic se nepřepisuje a nikdo nemá zájem na konkrétním výsledku."

@@ -9,7 +9,7 @@ set -euo pipefail
 root=$(cd "$(dirname "$0")/../.." && pwd)
 work=$(mktemp -d "${TMPDIR:-/tmp}/kea-case22.XXXXXX")
 trap 'rm -rf "$work"' EXIT
-git -C "$root" archive "$(git -C "$root" write-tree)" | tar -x -C "$work"
+git -C "$root" archive "${KEA_TEST_TREE:-$(git -C "$root" write-tree)}" | tar -x -C "$work"
 cd "$work"
 d=content/kompendium/case-22-fixture
 mkdir -p "$d" content/philosophy
@@ -23,7 +23,7 @@ printf '+++\ntitle = "Case 22 fm"\ndescription = "O NABLA Infinity na platformě
 # philosophy-frame: dev-philosophy framing inside content/philosophy
 printf '+++\ntitle = "Case 22 philo"\n+++\n\nTento text popisuje filozofii platformy Prismatic.\n' > content/philosophy/case-22-philo.md
 
-listed() { python3 scripts/check-ia.py --list "$1" 2>/dev/null | grep -q "$2" || { echo "$1 did not refuse $2"; exit 1; }; }
+listed() { python3 scripts/check-ia.py --list "$1" 2>/dev/null | grep -- "$2" >/dev/null || { echo "$1 did not refuse $2"; exit 1; }; }
 listed relative-link        "$d/rel.md"
 listed platform-label       "$d/label.md"
 listed platform-frontmatter "$d/fm.md"

@@ -34,7 +34,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-6/"
 
 ## Definice
 
-**Diferenciální nihilace** je systematické vymazávání **relevantních distinkcí** v subjektově myšlení. Technika operuje skrze postupný kolaps: jemně členěné kategorie jsou nejprve sloučeny do **hrubších** kategorií, ty jsou následně sloučeny do **ještě hrubších**, a v terminálním stadiu mizí kategoriální struktura zcela. Výsledkem je **kognitivní zploštění** — stav, ve kterém subjekt ztrácí schopnost činit rozdíly, jež jsou pro adekvátní orientaci ve světě nezbytné.
+**Diferenciální nihilace** je systematické vymazávání **relevantních distinkcí** v subjektově myšlení. Technika operuje skrze postupný kolaps: jemně členěné kategorie jsou nejprve sloučeny do **hrubších** kategorií, ty jsou následně sloučeny do **ještě hrubších**, a v terminálním stadiu mizí kategoriální struktura zcela. Výsledkem je **[kognitivní zploštění](@/glossary/kognitivni-zplosteni.md)** — stav, ve kterém subjekt ztrácí schopnost činit rozdíly, jež jsou pro adekvátní orientaci ve světě nezbytné.
 
 Klíčové pojmenování — **diferenciální** vs. *globální* — záměrně podtrhuje, že nejde o útok na **obsah** myšlení, nýbrž na jeho **strukturu rozlišování**. Subjekt si stále myslí, stále hovoří, stále reaguje — ale **rozdíly**, které dříve činily jeho myšlení informativním, postupně mizí.
 

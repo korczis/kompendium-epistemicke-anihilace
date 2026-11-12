@@ -29,8 +29,23 @@ fix=${1:-}
 
 root=$(git rev-parse --show-toplevel)
 cd "$root"
+# A run killed with SIGKILL (a tool timeout, a stopped task) cannot run its EXIT trap and leaves
+# its export behind, 200-600 MB each (2026-11-12: three such exports, 8-44 h old, on a disk at
+# 4.4 GiB free). Each export records the pid that owns it; an export whose owner is gone is
+# removed here, before the next one is made. An export without the file is older than this
+# rule and is removed only when it is more than a day old.
+for old in "${TMPDIR:-/tmp}"/kea-verify.*; do
+  [ -d "$old" ] || continue
+  owner=$(cat "$old/.kea-verify.pid" 2>/dev/null || true)
+  if [ -n "$owner" ]; then
+    kill -0 "$owner" 2>/dev/null || rm -rf "$old"
+  elif [ -n "$(find "$old" -maxdepth 0 -mmin +1440 2>/dev/null)" ]; then
+    rm -rf "$old"
+  fi
+done
 work=$(mktemp -d "${TMPDIR:-/tmp}/kea-verify.XXXXXX")
 trap 'rm -rf "$work"' EXIT
+echo $$ > "$work/.kea-verify.pid"
 git archive "$(git write-tree)" | tar -x -C "$work"
 if [ -f static/css/app.css ]; then mkdir -p "$work/static/css"; cp static/css/app.css "$work/static/css/"; fi
 
@@ -39,7 +54,7 @@ step() { printf '%-28s ' "$1"; shift; if out=$("$@" 2>&1); then echo "ok"; else 
 cd "$work"
 if [ "$fix" = --fix ]; then
   # A new glossary entry extends the dictionary, so pages anywhere may gain a link.
-  python3 scripts/link-terms.py >/dev/null
+  python3 scripts/link-terms.py --bold >/dev/null
   # link-terms injects link markup that polish-markdown would normalise; polish here, before the
   # staging loop and the polish-markdown --check (below), so a relinked page stages already
   # polished instead of failing the check it cannot otherwise reach (the --fix apply is later).
@@ -64,7 +79,7 @@ step "migrate-content --check"    python3 scripts/migrate-content.py --check
 step "normalize-front-matter"     python3 scripts/normalize-front-matter.py --check
 step "front-matter schema doc"   python3 scripts/normalize-front-matter.py --doc --check
 step "polish-markdown"            python3 scripts/polish-markdown.py --check
-step "link-terms"                 python3 scripts/link-terms.py --check
+step "link-terms"                 python3 scripts/link-terms.py --bold --check
 if [ "$fix" = --fix ]; then
   step "catalogs"                 python3 scripts/catalogs.py
   step "build-references"         python3 scripts/build-references.py

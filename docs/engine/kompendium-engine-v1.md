@@ -1,8 +1,8 @@
 # kompendium-engine/v1
 
 The portable contract of the site's query engine: two operations, `search` and
-`neighbourhood`, over the derived data in `static/data/`. Any implementation (the site's JS, a
-later wasm build) is conformant when it reproduces every fixture in `test/cases/engine/`.
+`neighbourhood`, over the derived data in `static/data/`. Any implementation (the site's JS, the
+wasm build) is conformant when it reproduces every fixture in `test/cases/engine/`.
 
 | Artefact | Role |
 | --- | --- |
@@ -12,6 +12,19 @@ later wasm build) is conformant when it reproduces every fixture in `test/cases/
 | `scripts/build-engine-fixtures.py [--check]` | derives the fixtures from the real data; `--check` runs in `npm run verify` and CI |
 | `test/cases/engine/` | the fixtures: `manifest.json` plus one `{category, input, expected[, data]}` per file |
 | `test/cases/04_engine_fixtures.sh` | proves the reference reproduces them and the schema rejects violations |
+
+## Implementations
+
+| Implementation | Source | Runs in | Proven by |
+| --- | --- | --- | --- |
+| reference (Python) | `scripts/engine.py` | the build: fixtures, gates | `test/cases/04_engine_fixtures.sh` |
+| JS | `static/js/viz/jadro.js` | the site when the wasm engine is not ready, and Node | `test/cases/05_engine_js.sh`: fixtures, and the same answers as the reference on a sweep derived from the data |
+| WASM | `crates/kompendium-engine` (Rust, built to `static/wasm/kompendium_engine.wasm`), loaded by `static/js/viz/jadro-wasm.js` | the site, through `jadro.js`, once the module is loaded and passes the loader's contract check; Node | `test/cases/06_engine_wasm.sh`: fixtures, the 05 sweep and edge requests byte for byte, `normalise` on every code point, broken modules |
+
+`KompendiumJadro.create` answers with the wasm engine when it is ready and with the JS one
+otherwise. `<html data-engine>` names the engine that answered. A request the module cannot be
+handed falls back to JS: JSON with a lone UTF-16 surrogate. The wasm build's Unicode tables come
+from the reference's own Python (`scripts/build-engine-unicode.py`).
 
 ## Inputs
 

@@ -35,7 +35,7 @@ catalog_broader = ""
 catalog_narrower = []
 catalog_depth = 0
 catalog_ancestors = []
-catalog_related = ["ad-hominem", "tu-quoque", "otraveni-studny", "odvolani-na-silu", "kontrola-tonu", "bulverismus", "pravidlo-svobody", "dialektika-a-eristika"]
+catalog_related = ["ad-hominem", "tu-quoque", "otraveni-studny", "odvolani-na-silu", "kontrola-tonu", "bulverismus", "pravidlo-svobody", "dialektika-a-eristika", "obsah-a-vztah"]
 catalog_related_declared = ["ad-hominem", "bulverismus", "otraveni-studny", "tu-quoque", "pravidlo-svobody", "dialektika-a-eristika"]
 catalog_kompendium = ["kompendium/techniques/ea-2-1-3-credentialing-attack.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/organizational-defense/_index.md"]
 catalog_canonical = ""
@@ -227,6 +227,7 @@ je samo prvním krokem k jeho věcnému řešení (Walton 2008).
 - [Bulverismus](@/kompendium/argumentacni-fauly/dialekticke-taktiky/bulverismus.md) – příbuzné heslo (Rétorické a dialogické taktiky, Bulverism)
 - [Pravidlo svobody](@/kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-svobody.md) – příbuzné heslo (Principy kritické diskuse a teorie argumentace, Freedom rule)
 - [Dialektika a eristika](@/kompendium/argumentacni-fauly/teorie-argumentace/dialektika-a-eristika.md) – příbuzné heslo (Principy kritické diskuse a teorie argumentace, Dialectic and eristic)
+- [Obsahová a vztahová rovina sdělení](@/kompendium/nlp-vzorce/zakladni-pojmy/obsah-a-vztah.md) – příbuzné heslo (NLP vzorce: Základní pojmy NLP, Content and relationship aspects)
 
 **V kompendiu**
 

@@ -1,0 +1,986 @@
+# Pokrytí standardních přehledů NLP (pravidlo project.content-catalogs). Každý
+
+[[term]]
+name = "Prosté vypuštění (simple deletion)"
+sources = ["bandler-grinder-1975"]
+entry = "prosta-delece"
+
+[[term]]
+name = "Srovnávací vypuštění (comparative deletion)"
+sources = ["bandler-grinder-1975"]
+entry = "srovnavaci-delece"
+
+[[term]]
+name = "Chybějící referenční index (lack of referential index)"
+sources = ["bandler-grinder-1975", "bandler-grinder-1975b"]
+entry = "nespecifikovany-referencni-index"
+
+[[term]]
+name = "Nespecifikované sloveso (unspecified verb)"
+sources = ["bandler-grinder-1975"]
+entry = "nespecifikovane-sloveso"
+
+[[term]]
+name = "Nominalizace (nominalization)"
+sources = ["bandler-grinder-1975", "bandler-grinder-1975b"]
+entry = "nominalizace"
+
+[[term]]
+name = "Univerzální kvantifikátor (universal quantifier)"
+sources = ["bandler-grinder-1975"]
+entry = "univerzalni-kvantifikator"
+
+[[term]]
+name = "Modální operátor nutnosti (modal operator of necessity)"
+sources = ["bandler-grinder-1975"]
+entry = "modalni-operator-nutnosti"
+
+[[term]]
+name = "Modální operátor možnosti (modal operator of possibility)"
+sources = ["bandler-grinder-1975"]
+entry = "modalni-operator-moznosti"
+
+[[term]]
+name = "Presupozice (presupposition)"
+sources = ["bandler-grinder-1975", "bandler-grinder-1975b"]
+entry = "presupozice-v-meta-modelu"
+
+[[term]]
+name = "Čtení myšlenek (mind reading)"
+sources = ["bandler-grinder-1975"]
+entry = "cteni-myslenek"
+
+[[term]]
+name = "Příčina a následek (cause and effect)"
+sources = ["bandler-grinder-1975"]
+entry = "pricina-a-nasledek"
+
+[[term]]
+name = "Ztracený performativ (lost performative)"
+sources = ["bandler-grinder-1975"]
+entry = "ztraceny-performativ"
+
+[[term]]
+name = "Fonologická dvojznačnost (phonological ambiguity)"
+sources = ["bandler-grinder-1975b"]
+entry = "fonologicka-dvojznacnost"
+
+[[term]]
+name = "Syntaktická dvojznačnost (syntactic ambiguity)"
+sources = ["bandler-grinder-1975b"]
+entry = "syntakticka-dvojznacnost"
+
+[[term]]
+name = "Rozsahová dvojznačnost (scope ambiguity)"
+sources = ["bandler-grinder-1975b"]
+entry = "rozsahova-dvojznacnost"
+
+[[term]]
+name = "Interpunkční dvojznačnost (punctuation ambiguity)"
+sources = ["bandler-grinder-1975b"]
+entry = "interpunkcni-dvojznacnost"
+
+[[term]]
+name = "Vložené příkazy (embedded commands)"
+sources = ["bandler-grinder-1975b"]
+entry = "vlozene-prikazy"
+
+[[term]]
+name = "Analogové značení (analogue marking)"
+sources = ["bandler-grinder-1975b"]
+entry = "analogove-znaceni"
+
+[[term]]
+name = "Konverzační postuláty (conversational postulates)"
+sources = ["bandler-grinder-1975b"]
+entry = "konverzacni-postulaty"
+
+[[term]]
+name = "Porušení selekčních omezení (selectional restriction violation)"
+sources = ["bandler-grinder-1975b"]
+entry = "poruseni-selekcnich-omezeni"
+
+[[term]]
+name = "Smiřovatel (placater)"
+sources = ["satir-1972"]
+entry = "smirovatel"
+
+[[term]]
+name = "Obviňovatel (blamer)"
+sources = ["satir-1972"]
+entry = "obvinovatel"
+
+[[term]]
+name = "Počítač (computer, super-reasonable)"
+sources = ["satir-1972"]
+entry = "pocitac"
+
+[[term]]
+name = "Rozptylovač (distracter)"
+sources = ["satir-1972"]
+entry = "rozptylovac"
+
+[[term]]
+name = "Vyrovnaný (leveler)"
+sources = ["satir-1972"]
+entry = "vyrovnany"
+
+[[term]]
+name = "Level: Proactive / Reactive"
+sources = ["charvet-1997"]
+entry = "proaktivni-a-reaktivni"
+
+[[term]]
+name = "Criteria"
+sources = ["charvet-1997", "dilts-delozier-2000"]
+entry = "kriteria"
+
+[[term]]
+name = "Direction: Toward / Away From"
+sources = ["charvet-1997"]
+entry = "k-cili-a-od-problemu"
+
+[[term]]
+name = "Source: Internal / External"
+sources = ["charvet-1997"]
+entry = "vnitrni-a-vnejsi-reference"
+
+[[term]]
+name = "Reason: Options / Procedures"
+sources = ["charvet-1997"]
+entry = "moznosti-a-postupy"
+
+[[term]]
+name = "Decision Factors: Sameness / Sameness with Exception / Difference / Sameness with Exception and Difference"
+sources = ["charvet-1997"]
+entry = "shoda-a-rozdil"
+
+[[term]]
+name = "Scope: Specific / General"
+sources = ["charvet-1997"]
+entry = "obecne-a-specificke"
+
+[[term]]
+name = "Attention Direction: Self / Other"
+sources = ["charvet-1997"]
+entry = "ja-a-druzi"
+
+[[term]]
+name = "Stress Response: Feelings / Choice / Thinking"
+sources = ["charvet-1997"]
+entry = "reakce-na-stres"
+
+[[term]]
+name = "Style: Independent / Proximity / Co-operative"
+sources = ["charvet-1997"]
+entry = "pracovni-styl"
+
+[[term]]
+name = "Organization: Person / Thing"
+sources = ["charvet-1997"]
+entry = "lide-a-veci"
+
+[[term]]
+name = "Rule Structure: My/My, My/., No/My, My/Your"
+sources = ["charvet-1997"]
+entry = "struktura-pravidel"
+
+[[term]]
+name = "Convincer Channel: See / Hear / Read / Do"
+sources = ["charvet-1997"]
+entry = "kanal-presvedceni"
+
+[[term]]
+name = "Convincer Mode: Number of Examples / Automatic / Consistent / Period of Time"
+sources = ["charvet-1997"]
+entry = "rezim-presvedceni"
+
+[[term]]
+name = "The Meta-Model"
+sources = ["bandler-grinder-1975"]
+entry = "meta-model"
+
+[[term]]
+name = "Deep Structure / Surface Structure"
+sources = ["bandler-grinder-1975"]
+entry = "hluboka-a-povrchova-struktura"
+
+[[term]]
+name = "Deletion"
+sources = ["bandler-grinder-1975", "dilts-delozier-2000"]
+entry = "vypousteni"
+
+[[term]]
+name = "Distortion"
+sources = ["bandler-grinder-1975", "dilts-delozier-2000"]
+entry = "zkreslovani"
+
+[[term]]
+name = "Generalization"
+sources = ["bandler-grinder-1975", "dilts-delozier-2000"]
+entry = "zobecnovani"
+
+[[term]]
+name = "Semantic Well-Formedness"
+sources = ["bandler-grinder-1975"]
+excluded = "Souhrnný pojem Meta-modelu pro sémantické poruchy; jeho jednotlivé kategorie (čtení myšlenek, příčina a následek, ztracený performativ) mají vlastní hesla"
+
+[[term]]
+name = "Enactment"
+sources = ["bandler-grinder-1975"]
+excluded = "Terapeutická technika přehrání scény z knihy o Meta-modelu, ne jazykový vzorec; katalog ji samostatně nevede, souvisí s hesly o percepčních pozicích"
+
+[[term]]
+name = "Guided Fantasy"
+sources = ["bandler-grinder-1975"]
+excluded = "Terapeutická technika vedené fantazie z knihy o Meta-modelu, ne jazykový vzorec; katalog ji samostatně nevede, souvisí s hesly o vizualizaci"
+
+[[term]]
+name = "Representational System: The R-Operator"
+sources = ["grinder-delozier-bandler-1977"]
+entry = "reprezentacni-systemy"
+
+[[term]]
+name = "Lead System: The L-Operator"
+sources = ["grinder-delozier-bandler-1977"]
+entry = "vedouci-system"
+
+[[term]]
+name = "Transderivational Search: Generalized Referential Index"
+sources = ["grinder-delozier-bandler-1977"]
+entry = "transderivacni-hledani"
+
+[[term]]
+name = "Tracking Models I–III"
+sources = ["grinder-delozier-bandler-1977"]
+excluded = "Kapitoly o sledování reprezentačních systémů klienta; obsah pokrývají hesla o reprezentačních systémech a kalibraci, samostatné heslo katalog nevede"
+
+[[term]]
+name = "Content reframing: meaning"
+sources = ["bandler-grinder-1982"]
+entry = "obsahovy-reframing"
+
+[[term]]
+name = "Content reframing: context"
+sources = ["bandler-grinder-1982"]
+entry = "kontextovy-reframing"
+
+[[term]]
+name = "Negotiating between parts"
+sources = ["bandler-grinder-1982"]
+entry = "vyjednavani-casti"
+
+[[term]]
+name = "Creating a new part"
+sources = ["bandler-grinder-1982"]
+entry = "vytvoreni-nove-casti"
+
+[[term]]
+name = "Advanced six-step reframing"
+sources = ["bandler-grinder-1982"]
+entry = "sestikrokovy-reframing"
+
+[[term]]
+name = "Reframing systems: couples, families, organizations"
+sources = ["bandler-grinder-1982"]
+excluded = "Kapitola o použití reframingu v párech, rodinách a organizacích, ne samostatný vzorec; techniku pokrývají hesla rodiny Reframing a rámce"
+
+[[term]]
+name = "Reframing dissociated states: alcoholism, drug abuse"
+sources = ["bandler-grinder-1982"]
+excluded = "Kapitola o použití reframingu u závislostí, ne samostatný vzorec; katalog techniku pokrývá v rodině Reframing a rámce a varuje před nahrazením léčby"
+
+[[term]]
+name = "Submodalities"
+sources = ["bandler-1985", "dilts-delozier-2000"]
+entry = "submodality-pojem"
+
+[[term]]
+name = "The Swish"
+sources = ["bandler-1985"]
+entry = "swish"
+
+[[term]]
+name = "1. Timelines"
+sources = ["andreas-andreas-1987"]
+entry = "casova-osa-pojem"
+
+[[term]]
+name = "3. The Swish Pattern"
+sources = ["andreas-andreas-1987"]
+entry = "swish"
+
+[[term]]
+name = "4. Shifting the Importance of Criteria"
+sources = ["andreas-andreas-1987"]
+excluded = "Submodalitní varianta práce s kritérii; samostatné heslo katalog nevede, téma pokrývají hesla Kritéria a Hierarchie kritérií"
+
+[[term]]
+name = "5. Eliminating Compulsions"
+sources = ["andreas-andreas-1987"]
+entry = "vyhozeni-kompulze"
+
+[[term]]
+name = "6. \"The Last Straw\" Threshold Pattern"
+sources = ["andreas-andreas-1987"]
+entry = "prahovy-vzorec"
+
+[[term]]
+name = "7. Internal/External Reference"
+sources = ["andreas-andreas-1987"]
+entry = "vnitrni-a-vnejsi-reference"
+
+[[term]]
+name = "8. A Strategy for Responding to Criticism"
+sources = ["andreas-andreas-1987"]
+entry = "reakce-na-kritiku"
+
+[[term]]
+name = "9. Accessing Kinesthetic States"
+sources = ["andreas-andreas-1987"]
+excluded = "Kapitola o vyvolání tělesných stavů, ne samostatný vzorec; téma pokrývají hesla o kinestetických submodalitách a kotvení"
+
+[[term]]
+name = "10. Other Submodality Interventions"
+sources = ["andreas-andreas-1987"]
+excluded = "Souhrnná kapitola dalších submodalitních zásahů bez vlastního názvu vzorce; jednotlivé zásahy pokrývají hesla rodiny Submodality"
+
+[[term]]
+name = "Ch. 1 Introduction to Time Line"
+sources = ["james-woodsmall-1988"]
+entry = "casova-osa-pojem"
+
+[[term]]
+name = "Ch. 2 Through Time and In Time: The Two Types"
+sources = ["james-woodsmall-1988"]
+entry = "v-case-a-mimo-cas"
+
+[[term]]
+name = "Ch. 3 Discovering the Time Line"
+sources = ["james-woodsmall-1988"]
+entry = "elicitace-casove-osy"
+
+[[term]]
+name = "Ch. 9/11 Time Line Therapy (demonstration, outline)"
+sources = ["james-woodsmall-1988"]
+entry = "terapie-casove-osy"
+
+[[term]]
+name = "Ch. 10 Programming Your Future With Time Line"
+sources = ["james-woodsmall-1988"]
+entry = "vlozeni-budouciho-cile"
+
+[[term]]
+name = "Ch. 12–14 Meta Programs"
+sources = ["james-woodsmall-1988"]
+entry = "metaprogramy-pojem"
+
+[[term]]
+name = "Ch. 20 The Hierarchy of Ideas"
+sources = ["james-woodsmall-1988"]
+entry = "hierarchie-idei"
+
+[[term]]
+name = "Ch. 7 Handling Trauma"
+sources = ["james-woodsmall-1988"]
+excluded = "Kapitola o práci s traumatem v terapii časové osy; katalog ji jako samostatný vzorec nevede a téma pokrývá rodina Disociace, fobie a trauma"
+
+[[term]]
+name = "Ch. 15 Changing Meta Programs"
+sources = ["james-woodsmall-1988"]
+entry = "zmena-metaprogramu"
+
+[[term]]
+name = "Ch. 19 Resolving Beliefs and Values Conflicts"
+sources = ["james-woodsmall-1988"]
+excluded = "Kapitola o řešení konfliktu přesvědčení a hodnot; samostatné heslo katalog nevede, téma pokrývají hesla Změna hodnot a rodina Přesvědčení"
+
+[[term]]
+name = "Ch. 21–22 Changing Values / Utilizing and Changing Values"
+sources = ["james-woodsmall-1988"]
+entry = "zmena-hodnot"
+
+[[term]]
+name = "Law of Requisite Variety"
+sources = ["dilts-delozier-2000"]
+entry = "zakon-pozadovane-variety"
+
+[[term]]
+name = "Representational Systems"
+sources = ["dilts-delozier-2000"]
+entry = "reprezentacni-systemy"
+
+[[term]]
+name = "Lead System"
+sources = ["dilts-delozier-2000"]
+entry = "vedouci-system"
+
+[[term]]
+name = "Predicates"
+sources = ["dilts-delozier-2000"]
+entry = "predikaty"
+
+[[term]]
+name = "Synesthesia"
+sources = ["dilts-delozier-2000"]
+entry = "synestezie"
+
+[[term]]
+name = "Eye-Accessing Cues; Accessing Cues; Eye Movements"
+sources = ["dilts-delozier-2000"]
+entry = "ocni-pristupove-signaly"
+
+[[term]]
+name = "Calibration"
+sources = ["dilts-delozier-2000"]
+entry = "kalibrace"
+
+[[term]]
+name = "Sensory Acuity"
+sources = ["dilts-delozier-2000"]
+entry = "smyslova-ostrost"
+
+[[term]]
+name = "Rapport"
+sources = ["dilts-delozier-2000"]
+entry = "raport"
+
+[[term]]
+name = "Logical Levels / Neuro-Logical Levels"
+sources = ["dilts-delozier-2000"]
+entry = "logicke-urovne-pojem"
+
+[[term]]
+name = "Environment"
+sources = ["dilts-delozier-2000"]
+entry = "uroven-prostredi"
+
+[[term]]
+name = "Behavior"
+sources = ["dilts-delozier-2000"]
+entry = "uroven-chovani"
+
+[[term]]
+name = "Capability"
+sources = ["dilts-delozier-2000"]
+entry = "uroven-schopnosti"
+
+[[term]]
+name = "Beliefs, Values"
+sources = ["dilts-delozier-2000"]
+entry = "uroven-presvedceni-a-hodnot"
+
+[[term]]
+name = "Identity"
+sources = ["dilts-delozier-2000"]
+entry = "uroven-identity"
+
+[[term]]
+name = "Spiritual (+ \"... Level\")"
+sources = ["dilts-delozier-2000"]
+entry = "uroven-poslani"
+
+[[term]]
+name = "Level Alignment Process; Logical Level Alignment"
+sources = ["dilts-delozier-2000"]
+entry = "zarovnani-logickych-urovni"
+
+[[term]]
+name = "Confusion of Logical Level"
+sources = ["dilts-delozier-2000"]
+entry = "zamena-logickych-urovni"
+
+[[term]]
+name = "Perceptual Positions"
+sources = ["dilts-delozier-2000"]
+entry = "percepcni-pozice-pojem"
+
+[[term]]
+name = "First"
+sources = ["dilts-delozier-2000"]
+entry = "prvni-pozice"
+
+[[term]]
+name = "Second"
+sources = ["dilts-delozier-2000"]
+entry = "druha-pozice"
+
+[[term]]
+name = "Third"
+sources = ["dilts-delozier-2000"]
+entry = "treti-pozice"
+
+[[term]]
+name = "Fourth Position"
+sources = ["dilts-delozier-2000"]
+entry = "ctvrta-pozice"
+
+[[term]]
+name = "Meta Position"
+sources = ["dilts-delozier-2000"]
+entry = "meta-pozice"
+
+[[term]]
+name = "Meta Mirror Format"
+sources = ["dilts-delozier-2000"]
+entry = "meta-zrcadlo"
+
+[[term]]
+name = "Triple Description"
+sources = ["dilts-delozier-2000"]
+entry = "troji-popis"
+
+[[term]]
+name = "S.C.O.R.E. Integration Format / Multi-Level S.C.O.R.E."
+sources = ["dilts-delozier-2000"]
+entry = "model-score"
+
+[[term]]
+name = "Disney Strategy / Disney Creativity Strategy"
+sources = ["dilts-delozier-2000"]
+entry = "disneyova-strategie"
+
+[[term]]
+name = "T.O.T.E. (index)"
+sources = ["dilts-delozier-2000"]
+entry = "tote-model"
+
+[[term]]
+name = "Dissociation"
+sources = ["dilts-delozier-2000"]
+entry = "disociace"
+
+[[term]]
+name = "Congruence"
+sources = ["dilts-delozier-2000"]
+entry = "kongruence"
+
+[[term]]
+name = "Incongruence"
+sources = ["dilts-delozier-2000"]
+entry = "inkongruence"
+
+[[term]]
+name = "Ecology Check"
+sources = ["dilts-delozier-2000"]
+entry = "ekologicka-kontrola"
+
+[[term]]
+name = "Chunking"
+sources = ["dilts-delozier-2000"]
+entry = "chunking"
+
+[[term]]
+name = "Chunking Up"
+sources = ["dilts-delozier-2000"]
+entry = "chunking-nahoru"
+
+[[term]]
+name = "Down"
+sources = ["dilts-delozier-2000"]
+entry = "chunking-dolu"
+
+[[term]]
+name = "Laterally"
+sources = ["dilts-delozier-2000"]
+entry = "lateralni-chunking"
+
+[[term]]
+name = "Meta Programs"
+sources = ["dilts-delozier-2000"]
+entry = "metaprogramy-pojem"
+
+[[term]]
+name = "Modeling"
+sources = ["dilts-delozier-2000"]
+entry = "modelovani-pojem"
+
+[[term]]
+name = "Internal Dialogue"
+sources = ["dilts-delozier-2000"]
+entry = "vnitrni-dialog"
+
+[[term]]
+name = "Uptime / Downtime"
+sources = ["dilts-delozier-2000"]
+entry = "uptime-a-downtime"
+
+[[term]]
+name = "Trance"
+sources = ["dilts-delozier-2000"]
+entry = "trans-pojem"
+
+[[term]]
+name = "Transderivational Search"
+sources = ["dilts-delozier-2000"]
+entry = "transderivacni-hledani"
+
+[[term]]
+name = "Meta Model"
+sources = ["dilts-delozier-2000"]
+entry = "meta-model"
+
+[[term]]
+name = "Milton Model"
+sources = ["dilts-delozier-2000"]
+entry = "milton-model"
+
+[[term]]
+name = "Quotes"
+sources = ["dilts-delozier-2000"]
+entry = "citace"
+
+[[term]]
+name = "Utilization"
+sources = ["dilts-delozier-2000"]
+entry = "utilizace"
+
+[[term]]
+name = "Confusion Technique"
+sources = ["dilts-delozier-2000"]
+entry = "konfuzni-technika"
+
+[[term]]
+name = "Nested Loops"
+sources = ["dilts-delozier-2000"]
+entry = "vnorene-smycky"
+
+[[term]]
+name = "Pseudo-Orientation In Time"
+sources = ["dilts-delozier-2000"]
+entry = "pseudoorientace-v-case"
+
+[[term]]
+name = "My Friend John Technique"
+sources = ["dilts-delozier-2000"]
+entry = "muj-pritel-john"
+
+[[term]]
+name = "Double Bind"
+sources = ["dilts-delozier-2000"]
+entry = "terapeuticka-dvojna-vazba"
+
+[[term]]
+name = "Pattern Interruption"
+sources = ["dilts-delozier-2000"]
+entry = "preruseni-vzorce"
+
+[[term]]
+name = "Sleight of Mouth Patterns"
+sources = ["dilts-delozier-2000"]
+entry = "sleight-of-mouth"
+
+[[term]]
+name = "Reframing"
+sources = ["dilts-delozier-2000"]
+entry = "reframing"
+
+[[term]]
+name = "Content"
+sources = ["dilts-delozier-2000"]
+entry = "obsahovy-reframing"
+
+[[term]]
+name = "Context"
+sources = ["dilts-delozier-2000"]
+entry = "kontextovy-reframing"
+
+[[term]]
+name = "Six-Step Reframing"
+sources = ["dilts-delozier-2000"]
+entry = "sestikrokovy-reframing"
+
+[[term]]
+name = "'As If' Frame"
+sources = ["dilts-delozier-2000"]
+entry = "ramec-jako-by"
+
+[[term]]
+name = "Outcome Frame"
+sources = ["dilts-delozier-2000"]
+entry = "ramec-vysledku"
+
+[[term]]
+name = "Problem Frame"
+sources = ["dilts-delozier-2000"]
+entry = "od-problemu-k-vysledku"
+
+[[term]]
+name = "Backtracking Frame"
+sources = ["dilts-delozier-2000"]
+entry = "ramec-zpetneho-shrnuti"
+
+[[term]]
+name = "Backtracking"
+sources = ["dilts-delozier-2000"]
+entry = "zpetne-shrnuti"
+
+[[term]]
+name = "Feedback Versus Failure Frame; Failure Into Feedback Strategy"
+sources = ["dilts-delozier-2000"]
+entry = "selhani-jako-zpetna-vazba-vzorec"
+
+[[term]]
+name = "Frames"
+sources = ["dilts-delozier-2000"]
+entry = "ramec-pojem"
+
+[[term]]
+name = "Well-Formed Outcome / Outcome Well-Formedness Conditions"
+sources = ["dilts-delozier-2000"]
+entry = "dobre-formulovany-vysledek"
+
+[[term]]
+name = "Anchoring"
+sources = ["dilts-delozier-2000"]
+entry = "kotveni"
+
+[[term]]
+name = "Collapsing Anchors"
+sources = ["dilts-delozier-2000"]
+entry = "kolaps-kotev"
+
+[[term]]
+name = "Chaining Anchors"
+sources = ["dilts-delozier-2000"]
+entry = "retezeni-kotev"
+
+[[term]]
+name = "Sliding Anchors"
+sources = ["dilts-delozier-2000"]
+entry = "posuvna-kotva"
+
+[[term]]
+name = "Spatial Anchoring"
+sources = ["dilts-delozier-2000"]
+entry = "prostorove-kotveni"
+
+[[term]]
+name = "Kinesthetic Anchoring"
+sources = ["dilts-delozier-2000"]
+entry = "kinesteticke-kotvy"
+
+[[term]]
+name = "Circle of Excellence"
+sources = ["dilts-delozier-2000"]
+entry = "kruh-excelence"
+
+[[term]]
+name = "Contrastive Analysis"
+sources = ["dilts-delozier-2000"]
+entry = "kontrastni-analyza"
+
+[[term]]
+name = "Mapping Across"
+sources = ["dilts-delozier-2000"]
+entry = "mapovani-napric"
+
+[[term]]
+name = "Swish Pattern"
+sources = ["dilts-delozier-2000"]
+entry = "swish"
+
+[[term]]
+name = "Compulsion Blow-Out"
+sources = ["dilts-delozier-2000"]
+entry = "vyhozeni-kompulze"
+
+[[term]]
+name = "Threshold"
+sources = ["dilts-delozier-2000"]
+entry = "prahovy-vzorec"
+
+[[term]]
+name = "Phobia; V-K Dissociation Process"
+sources = ["dilts-delozier-2000"]
+entry = "rychla-lecba-fobie"
+
+[[term]]
+name = "Change Personal History"
+sources = ["dilts-delozier-2000"]
+entry = "zmena-osobni-historie"
+
+[[term]]
+name = "Allergy Process"
+sources = ["dilts-delozier-2000"]
+entry = "alergicky-vzorec"
+
+[[term]]
+name = "Future Pacing"
+sources = ["dilts-delozier-2000"]
+entry = "budouci-prehravani"
+
+[[term]]
+name = "Strategies"
+sources = ["dilts-delozier-2000"]
+entry = "strategie-pojem"
+
+[[term]]
+name = "Strategy Elicitation"
+sources = ["dilts-delozier-2000"]
+entry = "elicitace-strategie"
+
+[[term]]
+name = "Spelling"
+sources = ["dilts-delozier-2000"]
+entry = "pravopisna-strategie"
+
+[[term]]
+name = "Learning"
+sources = ["dilts-delozier-2000"]
+entry = "strategie-uceni"
+
+[[term]]
+name = "Decision"
+sources = ["dilts-delozier-2000"]
+entry = "rozhodovaci-strategie"
+
+[[term]]
+name = "Motivation"
+sources = ["dilts-delozier-2000"]
+entry = "motivacni-strategie"
+
+[[term]]
+name = "Convincer"
+sources = ["dilts-delozier-2000"]
+entry = "presvedcovaci-strategie"
+
+[[term]]
+name = "Reality Strategy"
+sources = ["dilts-delozier-2000"]
+entry = "strategie-reality"
+
+[[term]]
+name = "Strategies of Genius"
+sources = ["dilts-delozier-2000"]
+entry = "strategie-geniality"
+
+[[term]]
+name = "New Code"
+sources = ["dilts-delozier-2000"]
+entry = "novy-kod"
+
+[[term]]
+name = "Peripheral Vision"
+sources = ["dilts-delozier-2000"]
+entry = "periferni-videni"
+
+[[term]]
+name = "New Behavior Generator"
+sources = ["dilts-delozier-2000"]
+entry = "generator-noveho-chovani"
+
+[[term]]
+name = "Visual Squash"
+sources = ["dilts-delozier-2000"]
+entry = "vizualni-squash"
+
+[[term]]
+name = "Polarities"
+sources = ["dilts-delozier-2000"]
+entry = "integrace-polarit"
+
+[[term]]
+name = "Core Transformation"
+sources = ["dilts-delozier-2000"]
+entry = "jadrova-transformace"
+
+[[term]]
+name = "Belief Change Cycle"
+sources = ["dilts-delozier-2000"]
+entry = "cyklus-zmeny-presvedceni"
+
+[[term]]
+name = "Belief Audit"
+sources = ["dilts-delozier-2000"]
+entry = "audit-presvedceni"
+
+[[term]]
+name = "Belief Chaining"
+sources = ["dilts-delozier-2000"]
+entry = "retezeni-presvedceni"
+
+[[term]]
+name = "Limiting Beliefs"
+sources = ["dilts-delozier-2000"]
+entry = "limitujici-presvedceni"
+
+[[term]]
+name = "Thought Viruses"
+sources = ["dilts-delozier-2000"]
+entry = "myslenkovy-virus"
+
+[[term]]
+name = "Trust"
+sources = ["dilts-delozier-2000"]
+entry = "duvera"
+
+[[term]]
+name = "Mirroring"
+sources = ["dilts-delozier-2000"]
+entry = "zrcadleni"
+
+[[term]]
+name = "Matching"
+sources = ["dilts-delozier-2000"]
+entry = "zrcadleni"
+
+[[term]]
+name = "Mismatching"
+sources = ["dilts-delozier-2000"]
+entry = "preruseni-raportu"
+
+[[term]]
+name = "Leading"
+sources = ["dilts-delozier-2000"]
+entry = "vedeni-v-raportu"
+
+[[term]]
+name = "Therapeutic Metaphor"
+sources = ["dilts-delozier-2000"]
+entry = "terapeuticka-metafora"
+
+[[term]]
+name = "Isomorphism"
+sources = ["dilts-delozier-2000"]
+entry = "izomorfni-metafora"
+
+[[term]]
+name = "Satir Categories"
+sources = ["dilts-delozier-2000"]
+entry = "kategorie-satirove"
+
+[[term]]
+name = "Lie Detection"
+sources = ["dilts-delozier-2000"]
+entry = "detekce-lzi-v-nlp"
+
+[[term]]
+name = "Meta Model II; Meta Model III; Precision Model"
+sources = ["dilts-delozier-2000"]
+excluded = "MISSING (exclude: Dilts' own extensions)"
+
+[[term]]
+name = "Covert Anchoring; Covert Outcomes"
+sources = ["dilts-delozier-2000"]
+entry = "skryte-kotveni"
+
+[[term]]
+name = "1. One cannot not communicate"
+sources = ["watzlawick-1967"]
+entry = "nelze-nekomunikovat"
+
+[[term]]
+name = "2. Content and relationship aspects"
+sources = ["watzlawick-1967"]
+entry = "obsah-a-vztah"
+
+[[term]]
+name = "3. Punctuation of the communicational sequence"
+sources = ["watzlawick-1967"]
+entry = "interpunkce-komunikace"
+
+[[term]]
+name = "5. Symmetrical or complementary interchanges"
+sources = ["watzlawick-1967"]
+entry = "symetricka-a-komplementarni-interakce"

@@ -125,6 +125,9 @@
 <script src="{{ get_url(path='js/viz/vrstva.js', cachebust=true) }}"></script>
 {#- Jádro hledání a okolí (kontrakt kompendium-engine/v1): jediné řazení pro hledání v záhlaví,
     paletu příkazů i okolí stránky. -#}
+{#- The same engine in WebAssembly (crates/kompendium-engine): the loader fetches the module
+    itself and jadro.js uses it once it passes the contract check; until then JS answers. -#}
+<script src="{{ get_url(path='js/viz/jadro-wasm.js', cachebust=true) }}" data-wasm="{{ get_url(path='wasm/kompendium_engine.wasm') }}"></script>
 <script src="{{ get_url(path='js/viz/jadro.js', cachebust=true) }}"></script>
 {#- Visualisation libraries: only those the page's scripts call, by the derived manifest
     static/data/viz-deps.json (scripts/build-ui-data.py reads each script's source). -#}

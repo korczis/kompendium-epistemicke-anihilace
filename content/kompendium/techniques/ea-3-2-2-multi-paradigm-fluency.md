@@ -56,7 +56,7 @@ Edukativní cíl není změna chování v behaviorálním smyslu, ale kultivace 
 
 ## Předpoklady
 
-Vzdělání nebo intensive familiarity v minimum 3 z 5 paradigmatických rámců; aktivní reading praxe v aktuálních literaturách.
+Vzdělání nebo důvěrná obeznámenost s několika paradigmatickými rámci, z nichž ani jeden není čtenáři vlastní natolik, aby ostatní posuzoval jen jeho slovníkem; aktivní čtenářská praxe v jejich aktuální literatuře.
 
 Bez splnění předpokladů technika produkuje suboptimální výsledky a může generovat iatrogenní efekty. Předpoklady nejsou byrokratické formality, ale strukturální podmínky efektivity intervence.
 
@@ -67,10 +67,13 @@ Konkrétní implementace vyžaduje:
 1. **Pre-implementation assessment** — verifikace předpokladů u individuálních účastníků a kohorty jako celku.
 2. **Resource provisioning** — institucionální alokace času, prostoru, personálu, technologií.
 3. **Documentation infrastructure** — systém zaznamenávání průběhu, výsledků, incidentů.
-4. **Quality assurance** — peer review nebo external observation alespoň 10 % sessions.
-5. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
+4. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
 
 Implementace je iterativní — každý cyklus generuje data informující úpravy v dalších cyklech.
+Posouzení se tu nedá provést zevnitř vlastního rámce: zda je nabídnuté druhé čtení věrné, ví
+jedině ten, kdo v onom druhém rámci skutečně pracuje. Hodnocení fluence proto patří kolegům z
+nesourodých oborů, ne nadřízenému z téže školy — jinak se ověřuje právě to, co má být
+zpochybněno.
 
 ## Hodnotící kritéria
 
@@ -95,6 +98,44 @@ Specificky:
 - **Nedostatek institucionální infrastruktury** — bez adekvátní podpory technika selhává a může poškozovat.
 - **Kulturně necitlivá implementace** — technika musí být adaptována pro local context, nikoli mechanicky importována.
 - **Power asymmetry** — implementace v kontextu [coercive control](@/glossary/coercive-control.md) (nedobrovolná účast) je eticky problematická.
+
+## Co multiparadigmatická fluence nezakládá
+
+Schopnost vyložit případ v několika rámcích nezakládá porozumění žádnému z nich. Mluva rámce je
+osvojitelná odděleně od praxe, v níž se rámec osvědčuje nebo neosvědčuje, a posluchač z vlastního
+rámce rozdíl nerozpozná — to je bezprostřední důsledek toho, co popsal Kuhn (1962): rámce
+nesdílejí všechna měřítka, takže věrnost výkladu nelze ověřit zvnějšku onoho rámce. Výsledkem
+může být supervizor, který je zdatný v přepínání registrů a v žádném z nich nedokáže pracovat.
+
+Předvedení dvou čtení vedle sebe nezakládá, že se dají sloučit. Není dáno, že případ má jedinou
+pravdu dostupnou složením rámců; sloučení může být právě tím, co se ztrátou měřítek smaže, o co
+v jednom z nich šlo. *Interpretace knihy*: hodnotou fluence tedy není syntéza, nýbrž udržení
+otevřené možnosti druhého čtení i tam, kde syntéza není k mání.
+
+Nezakládá ani prospěch supervidovaného. Více čtení bez měřítka volby jej může nechat bez
+možnosti jednat, a tato nerozhodnutelnost je sama podobou uzávěru, proti němuž má technika
+působit — jen obrácenou. Nezakládá konečně neutralitu vedoucího. Falender a Shafranske (2004)
+upozorňují, že supervizor předává i své teoretické předpoklady; fluence jeho výchozí rámec
+nezruší, nejvýš jej zviditelní, a nevyslovený výchozí rámec se předává jako fakt i uprostřed
+pěstované plurality.
+
+## Odlišení od příbuzných technik
+
+Od [metakomunikační dovednosti](@/kompendium/techniques/ea-3-2-4-metacommunication-skill.md) se
+tato kompetence liší tím, k čemu se vztahuje promluva o promluvě. Metakomunikace tematizuje
+vztah v rozhovoru — co se právě mezi účastníky děje; fluence tematizuje rámec, v němž je případ
+vykládán. Obojí lze mít odděleně: supervizor může věcně pojmenovat napětí ve vztahu a přitom
+vyložit případ jedině po svém.
+
+Od [etické sofistikovanosti](@/kompendium/techniques/ea-3-2-5-ethical-sophistication.md) se
+odlišuje tím, že fluence nerozhoduje. Etická rozvaha musí dospět k volbě, kterou lze zdůvodnit;
+fluence smí nechat výklady vedle sebe.
+
+Od běžné interdisciplinární kazuistiky se odlišuje tím, zda jsou rámce v záběru rozděleny.
+Obvyklá mezioborová porada přiřadí každému rámci jeho příslušnost — zdravotní otázku medicíně,
+právní právu — a tím se střetu vyhne. Fluence se týká případů, v nichž si rámce činí nárok na
+tutéž otázku; proto se také neosvědčuje hladkostí porady, nýbrž tím, zda se rozpor dá vyslovit,
+jak to Schön (1983) popisuje na situaci kladoucí odpor.
 
 ## Vztah k jiným technikám
 

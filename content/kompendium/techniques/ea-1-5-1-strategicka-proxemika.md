@@ -99,48 +99,17 @@ Strategická proxemika vs. **legitimní spatial communication**:
 
 ### Individuální
 
-#### 1. **Vědomé monitorování vlivu prostorové dynamiky**
+#### Vědomé sledování prostorové dynamiky
 
-Aktivně sleduj:
+Nejúčinnějším jednotlivým opatřením je pojmenovat odstup nahlas pro sebe: jaká je v této rozmluvě vzdálenost, jak se u ní člověk tělesně cítí a zda by při jiném uspořádání odpovídal jinak. Totéž platí o tělesných odezvách, které přicházejí před vědomým zpracováním — napětí v ramenou při přiblížení, zkřížené paže v určité vzdálenosti, změna dechu při přestavbě prostoru; sledovaná odezva slouží jako včasná výstraha. Účinek pásem odstupu totiž závisí právě na tom, že zůstávají nepozorována (Hall, 1966).
 
-- Jak je distance v této interakci?
-- Jak se cítím somaticky?
-- Korelovala by jiná proxemika s jinou epistemickou response?
+#### Aktivní zacházení s interpersonálním prostorem
 
-Vědomé monitorování dramaticky redukuje subliminální vliv.
+Prostor není daností, do níž se člověk vkládá: lze změnit vzdálenost, přesednout si, požádat o jiné uspořádání a odmítnout uspořádání, z něhož není kam odejít. U rozhodování, na němž záleží, je proto vhodné uspořádání, které samo nevyslovuje postavení — rovnocenné sezení, stejná výška pohledu, volná cesta ke dveřím, žádná překážka mezi mluvícími a rozptýlené světlo místo nasvícení jedné strany. Výška pohledu, držení těla a zacházení s prostorem jsou totiž v sociálním styku čteny jako znaky postavení (Hall, Coats a Smith LeBeau, 2005).
 
-#### 2. **Aktivní management interpersonálního prostoru**
+#### Písemná forma u klíčových rozhodnutí
 
-Jsi **agent**, ne pasivní recipient prostoru:
-
-- **Move** k preferovanému distance
-- **Reposition** sebe v room
-- **Request** different spatial setup
-- **Refuse** strategicky compromising spatial situations
-
-#### 3. **Preference epistemické interakce v prostorově neutrálních konfiguracích**
-
-Klíčová rozhodnutí preferuj:
-
-- **Stejné size židle**
-- **Stejné výšky** pohledu
-- **Open exit options**
-- **Bez physical barriers** mezi participants
-- **Neutral lighting** ne dramatic spotlight
-
-### 4. **Written-first protokoly**
-
-Pro klíčová rozhodnutí preferuj **písemnou** komunikaci, která je strukturálně **odolná** vůči proxemice.
-
-#### 5. **Embodied awareness**
-
-Body registruje proxemické signály před vědomou kognicí:
-
-- Tense ramena při approach?
-- Defensive crossing arms při specific distance?
-- Breathing changes při spatial reconfiguration?
-
-Use somatic awareness as early warning system.
+U rozhodnutí, která snesou odklad, je písemná komunikace strukturálně odolná: text nemá odstup, výšku ani dveře. Odpovídá to doporučení posuzovat sdělení i mimo situaci, v níž zaznělo — v záznamu, v jiném uspořádání prostoru, s odstupem (Knapp a Hall, 2010).
 
 ### Institucionální
 
@@ -156,60 +125,42 @@ Use somatic awareness as early warning system.
 
 ### Případ 1 — Akademická supervize
 
-PhD student prožíval **discomfort** během supervisor meetings, bez specifické artikulace. Externí coach analyzoval setup:
+Doktorand prožíval během konzultací se školitelem nepohodu, kterou nedovedl pojmenovat. Externí konzultant popsal uspořádání, v němž se konzultace odehrávaly: školitel za velkým pracovním stolem, doktorand v nižším křesle, dveře za školitelovými rameny, takže cesta k nim vedla kolem něj, a jediné výraznější světlo na školitelově straně — tedy uspořádání, jehož výškové a prostorové rozvržení je v sociálním styku čteno jako znak postavení (Hall, Coats a Smith LeBeau, 2005).
 
-- Supervisor sat **behind** large desk
-- Student sat in **lower chair**
-- Door was **behind** supervisor (student couldn't easily exit)
-- Lighting was **dramatic** on supervisor
+Detekce: popis uspořádání obsahoval současně všechny znaky, které tato stránka uvádí jako prostorovou nadřazenost.
 
-Detekce: Spatial audit identifikoval všechny **klasické markers** dominance proxemiky.
-
-Intervence: Restrukturalizace meeting space — round table, equal chairs, open exit, neutral lighting. Student reportoval **dramatic improvement** in ability to provide critical feedback.
+Intervence: přestavba místnosti (jednací stůl, rovnocenná sedadla, volná cesta ke dveřím) a doktorandova schopnost kritické připomínky se obnovila.
 
 ### Případ 2 — Klinické konzultace
 
-Pacienti reportovali „**pocit mírného strachu**“ během konzultací s konkrétním klinikem. Patient advocate analyzed encounters:
+Pacienti opakovaně popisovali „pocit mírného strachu“ během konzultací s jedním klinikem. Zástupce práv pacientů popsal, co bylo na konzultacích vidět: klinik stál, zatímco pacient seděl, přibližoval se právě v místech, kde se rozhodovalo, a stál v přímé cestě ke dveřím. Porušení ustáleného odstupu je přitom registrováno okamžitě a téměř vždy mimo pozornost (Hall, 1966).
 
-- Klinik **stál**, while patient seděl
-- Klinik **moved closer** at critical decision points
-- Klinik **blocked** přímý sight to door
+Detekce: popis odpovídal prostorovému uspořádání, které pacientovi odnímá možnost odejít.
 
-Detekce: Spatial analysis identifikoval coercive proxemic pattern.
-
-Intervence: Klinické protokoly — both parties seated, open spatial setup, explicit acknowledgment patient's spatial preferences.
+Intervence: klinický postup — oba hovořící sedí, cesta ke dveřím zůstává volná, pacientovo přání ohledně odstupu se zaznamenává.
 
 ### Případ 3 — Sales encounter
 
-Customer signed contract feeling pressured, post hoc reported difficulty articulating proč. Analysis identifikoval salesperson's strategy:
+Zákazník podepsal smlouvu s pocitem nátlaku a dodatečně nedokázal říct, v čem nátlak spočíval. Rozbor stížností popsal, co bylo na jednáních společné: přiblížení v okamžicích rozhodování, odstup ve chvílích zákazníkova zaváhání, poloha v cestě ke dveřím a časová tíseň, kterou prostorové uspořádání zesilovalo. Posoudit sdělení mimo situaci, v níž padlo, je přitom jediná cesta, jak takový nátlak pojmenovat (Knapp a Hall, 2010).
 
-- **Approach** during decision moments
-- **Withdrawal** when customer hesitated
-- **Door blocking** preventing easy exit
-- **Time pressure** intensified by spatial pressure
+Detekce: spotřebitelská organizace zaznamenala tentýž popis v několika vzájemně nezávislých stížnostech.
 
-Detekce: Consumer advocacy documented pattern across multiple complaints.
-
-Intervence: Regulatory framework — required cooldown periods, mandatory off-site decision option, explicit consumer right to remove spatial pressure.
+Intervence: regulatorní rámec — lhůta na rozmyšlenou, možnost rozhodnout se mimo prodejní prostor a výslovné právo zákazníka prostorový nátlak odmítnout.
 
 ## Vztah k jiným technikám
 
-### Často se kombinuje s
+Levý sloupec uvádí stránku nebo jev, prostřední povahu vazby, pravý to, co z vazby plyne.
 
-- **[EA-1.5.2 Dominantní tělesné hieroglyfy](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md)** — sourozenecká: proxemika + body language = **comprehensive** spatial-kinetic dominance.
-- **[EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md)** — multimodální dominance (auditory + spatial).
-- **[EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)** — proxemika jako medium pro emocionální indukci.
-- **[EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md)** — spatial pressure intensifuje cognitive overload.
-
-### Eskaluje do
-
-- **[EA-1.6.1](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) Vzorec „Guru a adept“** — proxemická hierarchie je **strukturální komponenta** etablování gurova autority.
-- **[Coercive control](@/glossary/coercive-control.md)** — spatial entrapment patterns jsou součást abusive dynamics.
-
-### Hraniční / podobné
-
-- **Legitimní spatial communication** — distinkce na úrovni intencionality a synchronizace s rétorickými cíli.
-- **Cultural variation** — proxemická norma se liší kulturně; manipulace je definovaná **odchylkou** od kulturní normy v specifických rétorických bodech.
+| Stránka nebo jev | Povaha vazby | Co z toho plyne |
+|---|---|---|
+| [EA-1.5.2 Dominantní tělesné hieroglyfy](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md) | Častý souběh | Sourozenecká stránka: odstup a držení těla se doplňují v téže prostorové nadřazenosti. |
+| [EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) | Častý souběh | Nadřazenost se vyslovuje zároveň hlasem a prostorem, takže ji lze těžko přiřadit jedné příčině. |
+| [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) | Častý souběh | Odstup zde slouží jako prostředek emoční indukce. |
+| [EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) | Častý souběh | Prostorová tíseň zesiluje zahlcení, které už probíhá. |
+| [EA-1.6.1 Vzorec „Guru a adept“](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) | Eskalace | Prostorová hierarchie je součástí ustavení gurovy autority. |
+| [Coercive control](@/glossary/coercive-control.md) | Eskalace | Odnětí možnosti odejít patří k celku zneužívajícího vztahu. |
+| Legitimní prostorová komunikace | Podobné, ale odlišné | Rozdíl je v tom, zda se uspořádání mění spolu se sporným místem rozmluvy. |
+| Kulturní rozdíl v normě odstupu | Podobné, ale odlišné | Norma se mezi kulturami liší; vzorec je dán odchylkou od místní normy, nikoli odstupem samotným. |
 
 ## Literatura
 
@@ -235,16 +186,13 @@ Intervence: Regulatory framework — required cooldown periods, mandatory off-si
 
 ## Co ověřit před čtením
 
-Před prací s touto stránkou si čtenář ověří:
+Před prací s touto stránkou si čtenář ověří tři věci.
 
-- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
-  (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
-  rámec)
-- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  odpovídající úrovni této stránky
-- Rozpoznání vzorce u sebe sama není diagnóza: slouží k tomu
-  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a výsledek patří do supervize
+| Co si čtenář ověří | Proč to u prostorových znaků záleží |
+|---|---|
+| Jeho přístupová úroveň odpovídá poli `access_level` v záhlaví článku | Stránka je vedena jako volně přístupná; vyšší úrovně žádají doloženou kvalifikaci, případně omezený doktrinální rámec |
+| Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) odpovídající úrovni této stránky | Prostorové znaky se posuzují proti místní normě a to je úsudek, který patří do supervize |
+| Rozpoznání vzorce u sebe sama nepovažuje za diagnózu | K té slouží [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a jejich výsledek patří do supervize |
 
 > **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
 > čtenáře, nikoli nástroj. Etický rámec stanoví
@@ -255,6 +203,7 @@ Před prací s touto stránkou si čtenář ověří:
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+Stránku vytvořil [Tomáš Korcak (korczis)](https://github.com/korczis).
+Licence obsahu: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md).
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)
+Další rozcestníky: [Glossary](@/glossary/_index.md) a [Philosophy](@/philosophy/_index.md).

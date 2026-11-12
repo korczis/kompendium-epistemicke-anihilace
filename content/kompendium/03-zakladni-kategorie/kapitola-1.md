@@ -36,7 +36,7 @@ Akademické techniky intelektuální manipulace operují na distinktním teoreti
 
 Intelektuální manipulace systematicky exploituje inherentní kognitivní biasy, které predisponují lidské myšlení k specifickým formám epistemické vulnerability:
 
-- **Konfirmační bias** — Tendence preferenčně vyhledávat, interpretovat a pamatovat si informace kongruentní s existujícími přesvědčeními. Je exploitována selektivní prezentací důkazů, která vytváří dojem komprehenzivity.
+- **[Konfirmační bias](@/glossary/konfirmacni-bias.md)** — Tendence preferenčně vyhledávat, interpretovat a pamatovat si informace kongruentní s existujícími přesvědčeními. Je exploitována selektivní prezentací důkazů, která vytváří dojem komprehenzivity.
 - **Důvěra v autoritu** — Tendence přisuzovat vyšší epistemickou váhu informacím prezentovaným entitami s vnímanou autoritou. Je exploitována manipulací s indikátory epistemické autority (titul, instituce, prosodické signály).
 - **Efekt zarámování** — Tendence formovat úsudky v závislosti na způsobu prezentace informací. Je exploitována strategickým rámováním diskurzu (volba metafor, sekvence informací, kontrastní pole).
 - **Kotvení a adjustace** — Tendence nadměrně spoléhat na iniciálně prezentované informace. Je exploitována strategickým sekvenčním dávkováním informací a načasováním klíčových premis.

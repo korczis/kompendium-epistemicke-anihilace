@@ -64,20 +64,21 @@ sám – stejným měřítkem.
 
 ## Mechanismus (strukturní popis)
 
-Ve výpovědích a kazuistikách se opakuje šest strukturních prvků:
+Ve výpovědích a kazuistikách se opakuje šest strukturních prvků. Stav zakládá souběh
+jediného měřítka s devalvací první osoby: dokud má prožitek váhu informace, zůstává
+měřítko jedním z hledisek. Ostatní prvky ukazují, jak hluboko převzetí vnější pozice
+dosáhlo; teorie objektifikace spojuje právě sebesledování a oslabené vnímání vnitřních
+stavů do jednoho obrazu (Fredrickson a Roberts, 1997). Uvedené pořadí je popis znaků,
+nikoli posloupnost kroků.
 
-1. **Jediné měřítko.** Hodnota člověka splývá s číslem nebo hodnocením – výkonem, příjmem,
-   pořadím, body „atraktivity“, metrikami těla.
-2. **Devalvace první osoby.** Prožitek, který měřítku odporuje (únava, smutek, chuť odejít),
-   se nevykládá jako informace, ale jako slabost nebo chyba.
-3. **Zcizený slovník.** O sobě člověk mluví jazykem trhu, techniky nebo sportovní přípravy:
-   kapitál, výnos, optimalizace, výkon, verze sebe.
-4. **Vnitřní dozor.** Sledování, které původně zajišťovalo prostředí, se stává vlastním
-   ([panoptismus](@/glossary/panopticism.md) ve foucaultovském smyslu).
-5. **Zaměnitelnost.** Člověk se prožívá jako nahraditelná jednotka; selhání v měřítku
-   znamená, že „nemá cenu“.
-6. **Ztlumení vnitřních signálů.** Vnímání hladu, únavy a bolesti slábne nebo je soustavně
-   přehlíženo; srov. [interocepce](@/glossary/interocepce.md).
+| Prvek | Jak se projevuje | Role v závěru |
+|---|---|---|
+| Jediné měřítko | Hodnota člověka splývá s číslem nebo hodnocením – výkonem, příjmem, pořadím, body „atraktivity“, metrikami těla. | Nutný prvek; bez jediného měřítka jde o běžné sebehodnocení. |
+| Devalvace první osoby | Prožitek, který měřítku odporuje (únava, smutek, chuť odejít), se nevykládá jako informace, ale jako slabost nebo chyba. | Nutný prvek; odlišuje stav od náročného, ale vlastního cíle. |
+| Zcizený slovník | O sobě člověk mluví jazykem trhu, techniky nebo sportovní přípravy: kapitál, výnos, optimalizace, výkon, verze sebe. | Potvrzující prvek; ukazuje, odkud je měřítko převzaté. |
+| Vnitřní dozor | Sledování, které původně zajišťovalo prostředí, se stává vlastním ([panoptismus](@/glossary/panopticism.md) ve foucaultovském smyslu). | Potvrzující prvek; popisuje, proč stav trvá i po odchodu z prostředí. |
+| Zaměnitelnost | Člověk se prožívá jako nahraditelná jednotka; selhání v měřítku znamená, že „nemá cenu“. | Popisuje dopad; určuje závažnost, nikoli přítomnost stavu. |
+| Ztlumení vnitřních signálů | Vnímání hladu, únavy a bolesti slábne nebo je soustavně přehlíženo; srov. [interocepce](@/glossary/interocepce.md). | Popisuje dopad na zdraví; bývá prvním zjištěním v péči. |
 
 V rámci subkategorie EA-5.3 jde o konečný bod identitárního vývoje, v němž se já
 nezničí ani nenahradí jiným já (jako u [EA-5.3.1 Identitární substituce](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md)),
@@ -116,25 +117,21 @@ která měřítko ztělesňuje ([EA-1.6.1 Vzorec guru a adept](@/kompendium/tech
 
 ## Odlišení
 
-- **Zdravé sebesledování.** Sportovec nebo pacient, který měří výkon či hodnoty, zůstává
-  pánem měřítka: ví, proč měří, umí přestat a dává přednost tomu, jak se cítí.
-- **[Perfekcionismus](@/glossary/perfekcionismus.md).** Může být osobnostním rysem bez
-  vnějšího zdroje; u totální sebeobjektifikace jsou měřítka doložitelně převzatá
-  a pokrývají celý život.
-- **Syndrom vyhoření.** MKN-11 ho vede jako jev spojený se zaměstnáním, nikoli jako nemoc.
-  Je častým důsledkem stavu, ale sám nevysvětluje převzetí vnější pozice vůči sobě.
-- **Depersonalizace.** [Depersonalizace](@/glossary/depersonalizace.md) (MKN-10 F48.1) je
-  prožívána jako cizí a nepříjemná; sebeobjektifikace bývá přijímána a oceňována jako
-  „profesionalita“.
-- **Poruchy příjmu potravy.** Teorie objektifikace s nimi sebeobjektifikaci těla spojuje;
-  přítomnost poruchy příjmu potravy vyžaduje samostatnou léčbu a má přednost.
-- **Odlišný styl prožívání.** Menší důraz na city nebo jiný způsob jejich vyjadřování
-  (například u některých lidí na autistickém spektru) není ztrátou; rozhoduje změna oproti
-  dřívějšku a vazba na prostředí.
-- **[EA-5.3.25 Minimal-self deformace](@/kompendium/techniques/ea-5-3-25-minimal-self-deformace.md).**
-  Tam mizí pocit, že prožitek je „můj“; zde pocit vlastnictví trvá, ale prožitek ztrácí
-  váhu. Od [EA-5.1.13 Hyperreflexivity](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md)
-  se stav liší tím, že nejde o nekonečné přemýšlení o myšlení, ale o převod sebe na čísla.
+Rozlišení se opírá o to, komu měřítko patří a co se děje s prožitkem. Pocit, že prožitek
+je „můj“, patří k minimální složce sebeprožívání (Zahavi, 2005) a u totální
+sebeobjektifikace zůstává zachován – mizí jen jeho váha jako zdroje poznání. To odděluje
+stav jak od zdravého měření, tak od klinických stavů, s nimiž se zaměňuje.
+
+| Jev | Čím se od totální sebeobjektifikace odlišuje |
+|---|---|
+| Zdravé sebesledování | Sportovec nebo pacient, který měří výkon či hodnoty, zůstává pánem měřítka: ví, proč měří, umí přestat a dává přednost tomu, jak se cítí. |
+| [Perfekcionismus](@/glossary/perfekcionismus.md) | Může být osobnostním rysem bez vnějšího zdroje; zde jsou měřítka doložitelně převzatá a pokrývají celý život. |
+| Syndrom vyhoření | MKN-11 ho vede jako jev spojený se zaměstnáním, nikoli jako nemoc; je častým důsledkem stavu, ale sám nevysvětluje převzetí vnější pozice vůči sobě. |
+| [Depersonalizace](@/glossary/depersonalizace.md) | Podle MKN-10 (F48.1) je prožívána jako cizí a nepříjemná, zatímco sebeobjektifikace bývá přijímána a oceňována jako „profesionalita“. |
+| Poruchy příjmu potravy | Teorie objektifikace s nimi sebeobjektifikaci těla spojuje; jejich přítomnost vyžaduje samostatnou léčbu a má přednost. |
+| Odlišný styl prožívání | Menší důraz na city nebo jiný způsob jejich vyjadřování (například u některých lidí na autistickém spektru) není ztrátou; rozhoduje změna oproti dřívějšku a vazba na prostředí. |
+| [EA-5.3.25 Minimal-self deformace](@/kompendium/techniques/ea-5-3-25-minimal-self-deformace.md) | Tam mizí pocit, že prožitek je „můj“; zde pocit vlastnictví trvá, ale prožitek ztrácí váhu. |
+| [EA-5.1.13 Hyperreflexivita](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md) | Nejde o nekonečné přemýšlení o myšlení, ale o převod sebe na čísla. |
 
 ## Klinický a právní rámec
 

@@ -13,6 +13,17 @@ cd "$(dirname "$0")/.."
 fast=0
 [ "${1:-}" = "--fast" ] && fast=1
 
+# The site is built into a temporary directory, never into public/: a build left in the worktree is
+# ~560 MB, and every verify in every worktree used to leave one (2026-11-12: thirteen of them took
+# ~7 GB and the shared disk fell to 326 MiB, killing peers' builds with ENOSPC). One cleanup owns
+# every temporary path this script makes.
+tmp_paths=()
+server=""
+cleanup() { [ -n "$server" ] && kill "$server" 2>/dev/null || true; for p in "${tmp_paths[@]+"${tmp_paths[@]}"}"; do rm -rf "$p"; done; }
+trap cleanup EXIT
+site=$(mktemp -d "${TMPDIR:-/tmp}/kea-verify.XXXXXX"); tmp_paths+=("$site")
+echo $$ > "$site/.kea-verify.pid"
+
 step() { printf '\n== %s\n' "$1"; }
 run() { step "$1"; shift; "$@"; }
 
@@ -26,14 +37,14 @@ run "README je aktuální" python3 scripts/build-readme.py --check
 run "Vizualizace jdou přes komponentovou vrstvu" python3 scripts/check-viz-layer.py
 run "Front matter je normalizovaný" python3 scripts/normalize-front-matter.py --check
 run "Markdown je upravený" python3 scripts/polish-markdown.py --check
-run "Pojmy jsou propojené" python3 scripts/link-terms.py --check
+run "Pojmy jsou propojené" python3 scripts/link-terms.py --bold --check
 run "Informační architektura se nezhoršuje" python3 scripts/check-ia.py
 run "Katalogy knihy souhlasí se stránkami" python3 scripts/catalogs.py --check
 run "Testy nástrojů obsahu" bash test/run.sh
-run "Sestavení (interní odkazy jsou chyba)" npm run --silent build
+run "Sestavení (interní odkazy jsou chyba)" sh -c 'npm run --silent assets && zola build --output-dir "$1"' _ "$site/out"
 # Patří k build-ui-data, ale čte sestavený web (pohledy stránek, scénáře derived()),
 # proto běží až po sestavení.
-run "Katalog ploch a pokrytí tříd stránek" python3 scripts/build-surfaces.py --check
+run "Katalog ploch a pokrytí tříd stránek" python3 scripts/build-surfaces.py --check --site "$site/out"
 run "Flowbite Pro" node "$HOME/.claude/skills/flowbite-pro/verify.mjs" .
 
 if [ "$fast" = 1 ]; then
@@ -43,10 +54,8 @@ fi
 
 step "Interaktivní plochy (Playwright pod produkční cestou)"
 port=$(python3 -c 'import socket; s=socket.socket(); s.bind(("127.0.0.1", 0)); print(s.getsockname()[1]); s.close()')
-root=$(mktemp -d "${TMPDIR:-/tmp}/kea-verify.XXXXXX")
-server=""
-cleanup() { [ -n "$server" ] && kill "$server" 2>/dev/null || true; rm -rf "$root"; }
-trap cleanup EXIT
+root=$(mktemp -d "${TMPDIR:-/tmp}/kea-verify.XXXXXX"); tmp_paths+=("$root")
+echo $$ > "$root/.kea-verify.pid"
 zola build --base-url "http://127.0.0.1:$port/kompendium-epistemicke-anihilace" \
   --output-dir "$root/kompendium-epistemicke-anihilace" >/dev/null
 (cd "$root" && exec python3 -m http.server "$port" --bind 127.0.0.1 >/dev/null 2>&1) &

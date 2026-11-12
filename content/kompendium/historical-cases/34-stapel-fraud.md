@@ -20,13 +20,13 @@ type = "historical-case"
 
 Diederik Stapel byl uznávaný sociální psycholog, děkan fakulty a autor studií, které se dostaly do
 *Science* i do novin. Jeho podvod nebyl technicky důmyslný; spočíval v tom, že nikdo nechtěl vidět
-surová data (Levelt, Noort a Drenth Committees, 2012). Případ je pro Kompendium cenný jako studie
+surová data (komise Levelt, Noort a Drenth, 2012). Případ je pro Kompendium cenný jako studie
 toho, jak [charisma](@/glossary/charisma.md), hierarchie a důvěra v kolegu nahrazují ověřování – a
 jak málo stačí k tomu, aby komunita přijímala vymyšlenou realitu.
 
 Případ je mimořádně dobře zdokumentován. Tři univerzitní komise prověřily celé Stapelovo dílo a
 zveřejnily společnou zprávu, která se nezastavila u viny jednotlivce a popsala i kulturu oboru, jež
-podvod dlouho nerozpoznala (Levelt, Noort a Drenth Committees, 2012). Pro defenzivní praxi je tato
+podvod dlouho nerozpoznala (komise Levelt, Noort a Drenth, 2012). Pro defenzivní praxi je tato
 dvojí perspektiva – osobní podvod a systémové selhání – užitečnější než příběh o jednom „padouchovi“
 (Stroebe, Postmes a Spears, 2012).
 
@@ -48,8 +48,8 @@ podoby byly běžné.
 ## Co se stalo
 
 Po řadu let až do roku 2011 Stapel navrhoval studie s kolegy, sběr dat si však vyhrazoval sám –
-údajně na školách a v kontaktech, k nimž nikdo jiný neměl přístup (Levelt, Noort a Drenth
-Committees, 2012). Poté dodával datové soubory, které ve skutečnosti vytvořil u svého stolu. Sám
+údajně na školách a v kontaktech, k nimž nikdo jiný neměl přístup (komise Levelt, Noort a Drenth,
+2012). Poté dodával datové soubory, které ve skutečnosti vytvořil u svého stolu. Sám
 později popsal, že data vymýšlel tak, aby odpovídala očekávání, a že s každým úspěchem rostl tlak
 pokračovat (Stapel, 2012; Bhattacharjee, 2013).
 
@@ -59,8 +59,8 @@ data, opakující se hodnoty, neochotu ukázat dotazníky – a oznámili podez�
 
 V letech 2011–2012 prověřily tři komise – za Tilburg, Groningen a Amsterdam – jeho celé dílo.
 Společná závěrečná zpráva *Flawed science* z listopadu 2012 potvrdila podvod v 55 publikacích a
-zjistila, že vymyšlená data byla použita i v disertacích, které vedl (Levelt, Noort a Drenth
-Committees, 2012). Počet stažených článků se podle evidence Retraction Watch později ustálil
+zjistila, že vymyšlená data byla použita i v disertacích, které vedl (komise Levelt, Noort a Drenth,
+2012). Počet stažených článků se podle evidence Retraction Watch později ustálil
 kolem 58.
 
 Stapel se vzdal doktorského titulu; v roce 2013 uzavřel s nizozemským státním zastupitelstvím dohodu
@@ -72,7 +72,7 @@ popisuje svůj pohled na vlastní selhání (Stapel, 2012).
 ### Monopol na zdroj
 
 Stapel kontroloval jediný bod, na němž stál celý řetězec ověřování: sběr dat. Spoluautoři viděli jen
-výsledný soubor (Levelt, Noort a Drenth Committees, 2012). Tento strukturální vzorec – jedna osoba
+výsledný soubor (komise Levelt, Noort a Drenth, 2012). Tento strukturální vzorec – jedna osoba
 je jediným přístupem k realitě, kterou ostatní nemohou nezávisle zkontrolovat – je obecným markerem
 [asymetrického
 odhalování](@/kompendium/detection-signatures/15-behavioral-asymmetric-disclosure.md).
@@ -81,7 +81,7 @@ odhalování](@/kompendium/detection-signatures/15-behavioral-asymmetric-disclos
 
 Jeho postavení – profesor, děkan, oceňovaný autor – způsobilo, že zpochybnění dat by vypadalo jako
 nedůvěra vůči nadřízenému a dobrodinci. Komise popsala, že doktorandi i kolegové zaznamenali
-podivnosti, ale neodvážili se je řešit (Levelt, Noort a Drenth Committees, 2012). Mechanismus je
+podivnosti, ale neodvážili se je řešit (komise Levelt, Noort a Drenth, 2012). Mechanismus je
 příbuzný vztahu [guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) v akademické
 podobě: mentor poskytuje zdroje, uznání a budoucnost, a tím i ochranu před otázkami. Viz
 [emocionální dluh](@/kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md) a [monopolizace
@@ -99,15 +99,15 @@ vymyšlená data lze často rozpoznat statisticky právě podle nepřirozeně ma
 
 Zpráva komise konstatovala, že recenzenti i redaktoři přehlédli zjevné statistické nesrovnalosti a
 že kultura oboru tolerovala „nedbalou vědu“ (*sloppy science*): selektivní uvádění výsledků,
-vynechávání podmínek, dodatečné úpravy hypotéz (Levelt, Noort a Drenth Committees, 2012). Stroebe,
+vynechávání podmínek, dodatečné úpravy hypotéz (komise Levelt, Noort a Drenth, 2012). Stroebe,
 Postmes a Spears (2012) z rozboru řady podvodů vyvozují, že recenzní řízení podvod odhaluje jen
 zřídka a že většinu případů odhalí lidé z bezprostředního okolí pachatele.
 
 ## Dopady na jednotlivce a společnost
 
 Nejvíce zasaženi byli doktorandi, jejichž disertace stály na vymyšlených datech: přišli o výsledky
-let práce, museli obhajovat svou nevinu a nesli reputační stigma, přestože byli klamáni (Levelt,
-Noort a Drenth Committees, 2012). Mnozí popisovali pocity viny, studu a ztráty důvěry ve vlastní
+let práce, museli obhajovat svou nevinu a nesli reputační stigma, přestože byli klamáni (komise
+Levelt, Noort a Drenth, 2012). Mnozí popisovali pocity viny, studu a ztráty důvěry ve vlastní
 úsudek – fenomenologii, kterou Kompendium popisuje jako [skok
 sebepochybnosti](@/kompendium/detection-signatures/26-phenomenological-self-doubt-spike.md).
 
@@ -120,7 +120,7 @@ skepsi k větě „výzkumy ukazují“ (Ritchie, 2020).
 Stapelův podvod je třeba odlišit od sporných výzkumných praktik, s nimiž ho spojuje prostředí, ale
 nikoli povaha činu. Vymýšlení dat je úmyslné vytvoření neexistující reality; selektivní uvádění
 výsledků je zkreslení reality existující (Fanelli, 2009). Komise obojí popsala, ale výslovně je
-rozlišila (Levelt, Noort a Drenth Committees, 2012).
+rozlišila (komise Levelt, Noort a Drenth, 2012).
 
 Odlišit je třeba i Stapela od typického „manipulátora“ ve smyslu cíleného útoku na konkrétní osobu:
 jeho cílem byla kariéra a uznání a poškození kolegů bylo důsledkem, nikoli účelem (Bhattacharjee,
@@ -131,7 +131,7 @@ vděčnost, obava zpochybnit autoritu –, jaké Kompendium popisuje u vztahů s
 
 Rozhodující byla odvaha tří mladých výzkumníků a skutečnost, že vedoucí katedry jejich podnět
 nezamítl (Bhattacharjee, 2013). Univerzity zvolily mimořádně důkladné vyšetření celého díla a zprávu
-zveřejnily (Levelt, Noort a Drenth Committees, 2012).
+zveřejnily (komise Levelt, Noort a Drenth, 2012).
 
 Následovaly změny: povinná archivace surových dat, pravidla pro spoluautorství, výuka výzkumné
 integrity a podpora otevřené vědy v Nizozemsku i jinde (Chambers, 2017). Z hlediska Kompendia je
@@ -141,7 +141,7 @@ skryté.
 ## Poučení pro detekci a obranu dnes
 
 Prvním poučením je, že **nikdo nesmí být jediným strážcem dat**: každý spoluautor má právo i
-povinnost vidět surová data a postup jejich sběru (Levelt, Noort a Drenth Committees, 2012). Druhým
+povinnost vidět surová data a postup jejich sběru (komise Levelt, Noort a Drenth, 2012). Druhým
 je **marker nemožné pravidelnosti** – opakující se hodnoty, chybějící variabilita a efekty bez
 výjimek si zaslouží kontrolu, ne obdiv (Simonsohn, 2013).
 
@@ -154,7 +154,7 @@ snižují závislost na jedné osobě (Chambers, 2017).
 
 Pátým je **podpora oklamaných**. Lidé, jejichž práci podvod zničil, potřebují institucionální
 uznání, že nejsou spoluviníky, a pomoc s rekonstrukcí profesní identity; komise nezjistila, že by se
-doktorandi a spoluautoři na vymýšlení dat podíleli (Levelt, Noort a Drenth Committees, 2012). Právní
+doktorandi a spoluautoři na vymýšlení dat podíleli (komise Levelt, Noort a Drenth, 2012). Právní
 rámec viz [podvod jako prvek EA](@/kompendium/forensic-legal/17-fraud-EA-element.md).
 
 ## Hranice výkladu

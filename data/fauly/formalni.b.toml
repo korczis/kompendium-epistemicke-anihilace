@@ -225,3 +225,34 @@ context = "Ekonomka v redakční poradě reaguje na návrh titulku o zdražován
 benign = true
 marker = "Kritika míří na spojení premis se závěrem a výslovně ponechává otázku pravdivosti závěru otevřenou."
 response = "Správné užití kritiky: vadnost argumentu se odliší od nepravdivosti závěru, o kterém rozhodnou další data."
+
+[[pattern]]
+id = "AF-01.15"
+slug = "kladny-zaver-ze-zaporne-premisy"
+type = "formal"
+cs = "Kladný závěr ze záporné premisy"
+en = "Affirmative conclusion from a negative premise"
+aliases = ["klam kladného závěru", "kladný závěr ze záporu"]
+use = "chyba"
+risk = "nizke"
+broader = "formalni-klam"
+related = ["vylucujici-premisy", "existencni-klam", "nerozlozeny-stredni-termin", "nedovoleny-vetsi-termin", "odvolani-na-nevedomost"]
+kompendium = [
+  "kompendium/forensic-legal/_index.md",
+  "kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md",
+  "kompendium/03-zakladni-kategorie/kapitola-1.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Žádný z prověřených dodavatelů nedodal vadnou šarži a tento dodavatel prověřený byl. Tento dodavatel tedy dodal bezvadnou šarži."
+context = "Vedoucí nákupu shrnuje poradě výsledek kontroly kvality."
+benign = false
+marker = "Jedna premisa je záporná, a přesto je závěr kladný: přisuzuje dodavateli vlastnost, kterou žádná premisa kladně nestanoví."
+response = "Ze záporné premisy plyne nanejvýš záporný závěr, tedy že tento dodavatel vadnou šarži nedodal. Zda dodal bezvadnou, musí doložit jiné zjištění, například zda vůbec něco dodal."
+[[pattern.trainer]]
+utterance = "Žádný z prověřených dodavatelů nedodal vadnou šarži a tento dodavatel prověřený byl. Tento dodavatel tedy vadnou šarži nedodal."
+context = "Auditorka zapisuje závěr kontroly do protokolu."
+benign = true
+marker = "Záporná premisa vede k zápornému závěru, který tvrdí jen tolik, kolik premisy unesou."
+response = "Platný úsudek: závěr je záporný stejně jako jedna z premis a nic nepřidává."

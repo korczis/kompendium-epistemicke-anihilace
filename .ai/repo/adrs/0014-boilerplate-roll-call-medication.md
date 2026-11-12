@@ -58,3 +58,22 @@ Shoduje se s ADR 0013, položenou nezávisle v integrační session.
 - Brány vlákna f3: `drug-name` (kurátorovaný seznam skupin a INN, mimo bibliografii) a
   `authority-without-source` (příjmení jako autorita bez roku a bez záznamu v Literatuře), obě
   nikdy do baseline, na nule po řezech.
+
+## Doplněk 1 (2026-11-12): výčet autorit je deset jmen, ne pět
+
+Vlákno obsahu změřilo celý oddíl `## Klinické pozadí`, ne jen jednu větu: na 75 stránkách stojí
+jeden vložený odstavec („Technika EA-X.Y.Z se historicky vyvinula z konvergence několika
+klinických tradic …“) s pěti závorkami bez roku a bez záznamu v Literatuře: (Ferenczi, Sándor),
+(Foa, Edna B.), (Porges, Stephen W.), (Singer, Margaret T.; Hassan, Steven) a (Vondráček, Mečíř,
+Kratochvíl, Höschl, Praško); na 65 z nich také „(Type I trauma per Terr)“. Závorky jsou ve tvaru
+příjmení, jméno: deset lidí, ne patnáct jmen.
+
+Odpověď vlastníka na otázku 2 („jména pustit, tvrzení nechat jako čtení knihy“) je použití
+platného pravidla `project.content-sources-verifiable` (jméno jako autorita bez díla odchází),
+takže platí pro všech deset, ne jen pro českou skupinu; nejde o nové rozhodnutí. Dále:
+
+- Tvrzení o vývoji každé techniky „z konvergence klinických tradic“ kniha pro 75 technik doložit
+  nemůže; odstraní se (ADR 0010: nejdřív osekat), ne přeformuluje.
+- Terrovo rozlišení traumatu typu I a II je skutečné a doložitelné: Terr, L. C. (1991).
+  Childhood traumas: an outline and overview. *American Journal of Psychiatry*, 148(1), 10–20.
+  Zůstává jen tam, kde stránka rozlišení skutečně používá, s dílem v Literatuře stránky.

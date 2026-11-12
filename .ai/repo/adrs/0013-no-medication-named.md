@@ -48,3 +48,18 @@ mluví, řekne, že medikace patří ošetřujícímu lékaři, a nic nejmenuje.
   lék (nikdy do baseline, strop podle změření, po řezu 0).
 - Jmenované terapeutické protokoly a nástroje jako kroky techniky (TF-CBT, DBT, MoCA …) jsou
   samostatná otázka; toto rozhodnutí se jich netýká.
+
+## Doplněk 1 (2026-11-12): stránka o akutní farmakoterapii
+
+Vlákno obsahu změřilo: jmenovaná skupina „atypická antipsychotika“ stojí na 27 stránkách (všechny
+ve vlně výčtu autorit, odstraní se tam), pokyn k farmakologické stabilizaci bez jmenované skupiny
+na 28 (25 ve vlně, 3 mimo ni: `02-uvod/definice.md`, `quick-reference/qr-ea-5-2-30.md`,
+`emergency-protocols/18-emergency-pharmacotherapy.md`). Poslední je stránka o 2355 slovech, jejímž
+celým předmětem je akutní farmakoterapie; jmenuje skupiny léků obecně a mluví o dávkování.
+
+Integrace odpověď vlastníka uplatnila takto (nejde o nové rozhodnutí vlastníka; může ho zvrátit):
+podle zvolené možnosti („the book says medication belongs to the treating physician and names
+nothing“) stránka jako samostatný protokol zaniká. Její poctivý zbytek — rozhodnutí o medikaci v
+tomto stavu patří ošetřujícímu psychiatrovi, při akutní dekompenzaci má ta cesta zůstat otevřená a
+kniha o lécích neuvažuje — přejde jako odstavec do nejbližší krizové stránky v
+`emergency-protocols/`; stará adresa vede přes `aliases` na novou, příchozí odkazy se přepíší.

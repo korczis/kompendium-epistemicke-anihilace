@@ -26,7 +26,7 @@ run "README je aktuální" python3 scripts/build-readme.py --check
 run "Vizualizace jdou přes komponentovou vrstvu" python3 scripts/check-viz-layer.py
 run "Front matter je normalizovaný" python3 scripts/normalize-front-matter.py --check
 run "Markdown je upravený" python3 scripts/polish-markdown.py --check
-run "Pojmy jsou propojené" python3 scripts/link-terms.py --check
+run "Pojmy jsou propojené" python3 scripts/link-terms.py --bold --check
 run "Informační architektura se nezhoršuje" python3 scripts/check-ia.py
 run "Katalogy knihy souhlasí se stránkami" python3 scripts/catalogs.py --check
 run "Testy nástrojů obsahu" bash test/run.sh

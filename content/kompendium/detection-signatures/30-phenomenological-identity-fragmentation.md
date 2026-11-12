@@ -63,7 +63,7 @@ Pozitivní při splnění všech bodů. Bod 2 odlišuje signaturu od svobodné p
 
 **Životní přechody**, jako je rozvod, odchod do důchodu, emigrace nebo vážná nemoc, vedou k přechodné nejistotě o sobě, kterou člověk vysvětlí okolnostmi a postupně překoná. **Svobodná konverze**, ať náboženská, nebo životní, může přinést hlubokou změnu; člověk ji však prožívá jako vlastní, dokáže ji vyprávět včetně toho, čím byl předtím, a nemusí kvůli ní přerušit vztahy s lidmi, kteří ji nesdílejí.
 
-Konečně **transformativní zkušenost** mění perspektivu, z níž člověk hodnotí svůj život. Paul (2014) ukázala, že některé zkušenosti – rodičovství, vážná nemoc, změna povolání – mění samotné preference, podle nichž bychom je mohli předem posoudit (srov. [transformative experience](@/glossary/transformative-experience.md)). Ani taková změna však nevymazává dřívější já; integruje ho do nového příběhu.
+Konečně **[transformativní zkušenost](@/glossary/transformative-experience.md)** mění perspektivu, z níž člověk hodnotí svůj život. Paul (2014) ukázala, že některé zkušenosti – rodičovství, vážná nemoc, změna povolání – mění samotné preference, podle nichž bychom je mohli předem posoudit (srov. [transformative experience](@/glossary/transformative-experience.md)). Ani taková změna však nevymazává dřívější já; integruje ho do nového příběhu.
 
 ## Klinická diferenciální diagnostika
 

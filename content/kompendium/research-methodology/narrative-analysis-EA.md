@@ -36,7 +36,7 @@ identity kniha rozvádí v eseji [Ricoeur: Trojí mimésis a narativní identita
 
 ## Kdy metodu použít
 
-- Když zkoumáme **narativní trauma** – rozpad souvislého příběhu o sobě
+- Když zkoumáme **[narativní trauma](@/glossary/narrative-trauma.md)** – rozpad souvislého příběhu o sobě
   ([narativní trauma](@/glossary/narrative-trauma.md), [fragmentace narativu](@/kompendium/detection-signatures/6-linguistic-narrative-fragmentation.md)).
 - Když nás zajímá **převzatý narativ**: nakolik člověk vypráví svou minulost jazykem skupiny,
   partnera nebo instituce, a jak se to mění.

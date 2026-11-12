@@ -110,7 +110,7 @@ Influence](@/glossary/undue-influence.md).
 
 ## Zpravodajské pojmy – rozšířený přehled
 
-**OSINT** ([zpravodajství z otevřených zdrojů](@/glossary/osint.md)) je sběr a analýza veřejně dostupných
+**[OSINT](@/glossary/osint.md)** ([zpravodajství z otevřených zdrojů](@/glossary/osint.md)) je sběr a analýza veřejně dostupných
 informací. Jeho výsledky spojuje **slučování zpravodajství** (*[Intelligence Fusion](@/glossary/intelligence-fusion.md)*) –
 syntéza signálů z více nezávislých zdrojů do jednotných analytických výstupů.
 

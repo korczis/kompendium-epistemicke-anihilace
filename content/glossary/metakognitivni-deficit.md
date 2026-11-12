@@ -16,7 +16,7 @@ date_modified = "2026-11-10"
 
 ## Definice
 
-**Metakognitivní deficit** je oslabení **metakognice** – schopnosti přemýšlet o vlastním
+**Metakognitivní deficit** je oslabení **[metakognice](@/glossary/metakognice.md)** – schopnosti přemýšlet o vlastním
 myšlení: všimnout si, co si myslím a proč, odhadnout, jak jistě to vím, rozpoznat vlastní
 chybu nebo zkreslení a podle toho upravit postup (viz [metakognice](@/glossary/metakognice.md)).
 Člověk s metakognitivním deficitem může myslet rychle a věcně správně, ale hůř kontroluje,

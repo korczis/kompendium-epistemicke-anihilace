@@ -96,7 +96,7 @@ Sloterdijkova trilogie *Sphären* (1998–2004) předkládá originální **pros
 
 Pro kompendium EA má sférická perspektiva **zásadní význam**:
 
-- **Epistemická anihilace** není primárně útokem na izolovaný kognitivní mechanismus — je **prolomením imunologické sféry**, v níž subjekt myslí, cítí a poznává.
+- **[Epistemická anihilace](@/glossary/epistemicka-anihilace.md)** není primárně útokem na izolovaný kognitivní mechanismus — je **prolomením imunologické sféry**, v níž subjekt myslí, cítí a poznává.
 - **Sférický útok** je v něčem fundamentálnější než **kognitivní útok**: oslabuje **podmínky možnosti** epistemického fungování.
 
 ### 3.2 Mikrosféry, makrosféry a globalizace

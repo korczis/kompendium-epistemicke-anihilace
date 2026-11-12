@@ -103,7 +103,7 @@ o majetku a děti a dospívající u rozhodnutí o zdravotní péči.
   doporučil lékař, pokud chápe a oceňuje důsledky.
 - **Hodnotová a náboženská volba.** Odmítnutí léčby z vlastního přesvědčení je při zachované
   schopnosti legitimní; posuzuje se, zda je přesvědčení vlastní a zda člověk chápe fakta.
-- **Nepřípustný vliv** je otázka okolností vzniku rozhodnutí, nikoli schopnosti; vyžaduje
+- **[Nepřípustný vliv](@/glossary/undue-influence.md)** je otázka okolností vzniku rozhodnutí, nikoli schopnosti; vyžaduje
   jiné šetření ([doktrína nepřípustného vlivu](@/kompendium/forensic-legal/11-undue-influence-doctrine.md)).
 - **Pod tlakem úsudku** ([EA-7.3.1](@/kompendium/techniques/ea-7-3-1-kahneman-system12.md))
   může být rozhodnutí špatné i při plné schopnosti; ochranou je čas.

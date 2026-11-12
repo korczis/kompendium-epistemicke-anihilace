@@ -117,7 +117,7 @@ Co může vidět vnější pozorovatel:
 
 ## Teoretické zázemí
 
-Ricoeurovo **caractère** jako sedimentovaná disposice (*Soi-même comme un autre*) — návyky, ctnosti, emoční dispozice — je transponován z jednoho subjektu na druhý. Bourdieuho **habitus** (*Esquisse d'une théorie de la pratique*) je přemístěn. Aristotelova **hexis** (*Nikomachova etika*) — etická dispozice — je vykořeněna z jejího osobního substrátu. Damasiův **personality template** (rozšířený autobiografický self) je přepsán. Merleau-Pontyho **stylé d'être** (styl bytí) je transponován. Levinasovo **caractère** jako stopa odpovědnosti je obrácena. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
+Ricoeurovo **caractère** jako sedimentovaná disposice (*Soi-même comme un autre*) — návyky, ctnosti, emoční dispozice — je transponován z jednoho subjektu na druhý. Bourdieuho **[habitus](@/glossary/habitus.md)** (*Esquisse d'une théorie de la pratique*) je přemístěn. Aristotelova **hexis** (*Nikomachova etika*) — etická dispozice — je vykořeněna z jejího osobního substrátu. Damasiův **personality template** (rozšířený autobiografický self) je přepsán. Merleau-Pontyho **stylé d'être** (styl bytí) je transponován. Levinasovo **caractère** jako stopa odpovědnosti je obrácena. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
 
 ## Empirická literatura
 

@@ -45,7 +45,7 @@ podrobné klinické vyšetření. Kompendium doporučuje znát tři nástroje a 
 - **PCL-5** (*PTSD Checklist for DSM-5*) – 20 položek odpovídajících příznakům
   [PTSD](@/glossary/ptsd.md) podle DSM-5 (vtíravé vzpomínky, vyhýbání, negativní změny
   myšlení a nálady, zvýšená dráždivost), hodnocených za poslední měsíc;
-- **IES-R** (*Impact of Event Scale – Revised*) – 22 položek o vtíravých myšlenkách,
+- **[IES-R](@/glossary/ies-r.md)** (*Impact of Event Scale – Revised*) – 22 položek o vtíravých myšlenkách,
   vyhýbání a zvýšeném vzrušení ve vztahu ke konkrétní události ([glosář: IES-R](@/glossary/ies-r.md));
 - **ITQ** (*International Trauma Questionnaire*) – krátký dotazník pro PTSD a
   [komplexní PTSD](@/glossary/c-ptsd.md) podle MKN-11, včetně poruch sebeorganizace.

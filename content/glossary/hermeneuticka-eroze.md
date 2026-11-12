@@ -32,7 +32,7 @@ určitou zkušenost sdílet ([epistemická injustice](@/glossary/epistemicka-inj
 
 ## Původ a kontext pojmu
 
-Termín je pracovním pojmem Kompendia. **Hermeneutika** – nauka o výkladu – zdůrazňuje od
+Termín je pracovním pojmem Kompendia. **[Hermeneutika](@/glossary/hermeneutika.md)** – nauka o výkladu – zdůrazňuje od
 Schleiermachera přes Gadamera (*Wahrheit und Methode*, 1960) až k Ricoeurovi, že porozumění
 je vždy výklad a že výklad stojí na sdílené tradici jazyka ([hermeneutika](@/glossary/hermeneutika.md),
 [hermeneutický kruh](@/glossary/hermeneuticky-kruh.md)). Eroze je narušení této tradice

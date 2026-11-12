@@ -398,7 +398,7 @@ Scénáře nejsou paralelními procesy, ale **synergickými kombinacemi**, jež 
 2. **Epistemická hyperdependence** — extrémní závislost na externí validaci
 3. **Diskontinuitní vědomostní trajektorie** — náhlé opuštění dříve robustně držených přesvědčení
 4. **Kontraproduktivní epistemické praktiky** aktivně inhibující akvizici znalostí
-5. **Epistemická alienace** — odcizení od vlastních kognitivních procesů
+5. **[Epistemická alienace](@/glossary/epistemicka-alienace.md)** — odcizení od vlastních kognitivních procesů
 
 ### Indikátory na kolektivní úrovni
 

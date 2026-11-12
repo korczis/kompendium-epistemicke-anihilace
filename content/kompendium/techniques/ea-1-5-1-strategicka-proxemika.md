@@ -111,7 +111,7 @@ Vědomé monitorování dramaticky redukuje subliminální vliv.
 
 #### 2. **Aktivní management interpersonálního prostoru**
 
-Jsi **agent**, ne pasivní recipient prostoru:
+Jsi **[agent](@/glossary/agent.md)**, ne pasivní recipient prostoru:
 
 - **Move** k preferovanému distance
 - **Reposition** sebe v room

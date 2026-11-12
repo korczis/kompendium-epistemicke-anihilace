@@ -110,7 +110,7 @@ U každého paradoxu se ptej: *Jaké typové úrovně se zde mísí? Jaké mlč�
 
 #### 3. **Diagnostika double-bindu**
 
-Bateson identifikoval **double-bind** jako paradoxní komunikační vzorec. Pokud zjistíš, že **každá** odpověď v nějaké interakci je „špatně“, **nejde o tvoji chybu** — jde o strukturální past, kterou je třeba **opustit jako celek**, nikoli „vyřešit“.
+Bateson identifikoval **[double-bind](@/glossary/double-bind.md)** jako paradoxní komunikační vzorec. Pokud zjistíš, že **každá** odpověď v nějaké interakci je „špatně“, **nejde o tvoji chybu** — jde o strukturální past, kterou je třeba **opustit jako celek**, nikoli „vyřešit“.
 
 #### 4. **Časový odstup od paradoxu**
 

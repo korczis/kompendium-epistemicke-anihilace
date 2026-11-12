@@ -29,7 +29,7 @@ date_modified = "2026-11-10"
 
 ## Definice a vymezení stránky
 
-**Gaslighting** je vzorec, v němž jedna strana soustavně útočí na důvěru druhé strany ve
+**[Gaslighting](@/glossary/gaslighting.md)** je vzorec, v němž jedna strana soustavně útočí na důvěru druhé strany ve
 vlastní vnímání, paměť a úsudek, až dotčený přestane fungovat jako samostatný poznávající
 člověk. Pojem, jeho původ v divadelní hře a filmu *Gaslight* i strukturní mechanismus
 podrobně vykládá [heslo glosáře](@/glossary/gaslighting.md). Tato stránka ho zpracovává

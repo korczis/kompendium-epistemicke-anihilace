@@ -99,9 +99,9 @@ EA-5.5.1 (pre-predikativní blokace), [EA-5.5.29](@/kompendium/techniques/ea-5-5
 
 Tato technika operuje na úrovni **pre-predikativní zkušenosti** v Husserlově fenomenologii — vrstva před tím, než se konstituuje predikativní soud „S je P“. Husserl v *Erfahrung und Urteil* (1939) ukazuje, že každý vědomý soud je založen na pasivní syntéze pre-predikativních dat: vjemy jsou již před verbalizací strukturovány retencemi (právě uplynulé) a protencemi (anticipovanými). Technika **gestalt disrupce** cílí přesně na tuto vrstvu — narušuje pasivní syntézu před tím, než subjekt může artikulovat, co se mu vlastně děje.
 
-Merleau-Ponty v *Phénoménologie de la perception* (1945) doplňuje koncept **body schema** (schéma corporel) — pre-reflexivní tělesné vědomí, které předchází kartesiánskému kogitujícímu subjektu. „Já mohu“ (je peux) předbíhá „já myslím“ (je pense). Tato technika narušuje body schema na úrovni proprioceptivně-kinestetické integrace, čímž se subjekt ocitá v stavu, kdy jeho tělesný „já mohu“ přestává fungovat jako transparentní médium světa.
+Merleau-Ponty v *Phénoménologie de la perception* (1945) doplňuje koncept **[body schema](@/glossary/body-schema.md)** (schéma corporel) — pre-reflexivní tělesné vědomí, které předchází kartesiánskému kogitujícímu subjektu. „Já mohu“ (je peux) předbíhá „já myslím“ (je pense). Tato technika narušuje body schema na úrovni proprioceptivně-kinestetické integrace, čímž se subjekt ocitá v stavu, kdy jeho tělesný „já mohu“ přestává fungovat jako transparentní médium světa.
 
-Damasio v *The Feeling of What Happens* (1999) konceptualizuje **core consciousness** jako kontinuální mapping organism-objekt vztahu, který předchází extended consciousness s autobiografickou pamětí. Technika cílí na core consciousness vrstvu — produkuje narušení kontinuálního self-mappingu, čímž subjekt ztrácí pre-reflexivní jistotu vlastní situovanosti ve světě.
+Damasio v *The Feeling of What Happens* (1999) konceptualizuje **[core consciousness](@/glossary/core-consciousness.md)** jako kontinuální mapping organism-objekt vztahu, který předchází extended consciousness s autobiografickou pamětí. Technika cílí na core consciousness vrstvu — produkuje narušení kontinuálního self-mappingu, čímž subjekt ztrácí pre-reflexivní jistotu vlastní situovanosti ve světě.
 
 ## Neurobiologické koreláty
 

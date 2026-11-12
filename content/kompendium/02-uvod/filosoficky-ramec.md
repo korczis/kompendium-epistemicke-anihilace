@@ -71,7 +71,7 @@ Edmund Husserl ve svých analýzách *konstituce smyslu* (*Logische Untersuchung
 - **Pasivní syntézy** — pre-reflexivní úroveň, kde je konstituce již provedena před vědomou reflexí
 - **Intersubjektivita** — konstituce smyslu je strukturálně zakotvena ve vztahu k druhým subjektům
 
-Husserlova **epoché** (fenomenologická redukce) je metodickým aktem suspendace přirozeného postoje — strukturálně podobná Descartově metodické skepsi, ale s odlišným účelem (deskripce konstitutivních struktur, nikoli rekonstrukce empirické jistoty).
+Husserlova **[epoché](@/glossary/epoche.md)** (fenomenologická redukce) je metodickým aktem suspendace přirozeného postoje — strukturálně podobná Descartově metodické skepsi, ale s odlišným účelem (deskripce konstitutivních struktur, nikoli rekonstrukce empirické jistoty).
 
 Pro taxonomii je Husserl klíčový vhledem, že **anihilace nemusí cílit na obsahy přesvědčení, ale na konstitutivní struktury samé**. Útok na pasivní syntézy (např. systematické narušení temporálního strukturování zkušenosti) má fundamentálnější efekt než útok na konkrétní názory.
 

@@ -75,7 +75,7 @@ Tento redukovaný metanarativ:
 
 ### 2.1 Procession of simulacra
 
-Jean Baudrillard v *Simulacres et simulation* (1981) formuluje teorii **simulakra** — znaků, jež **odkazují** primárně na jiné znaky, nikoli na realitu, již by reprezentovaly. V postmoderním stavu:
+Jean Baudrillard v *Simulacres et simulation* (1981) formuluje teorii **[simulakra](@/glossary/simulacra.md)** — znaků, jež **odkazují** primárně na jiné znaky, nikoli na realitu, již by reprezentovaly. V postmoderním stavu:
 
 - Mapa **předchází** území (ve smyslu, který Borges parodoval, ale který se v digitálním věku stává empirickou realitou)
 - **[Hyperrealita](@/glossary/hyperreality.md)** — stav, v němž simulace je „reálnější“ než realita sama

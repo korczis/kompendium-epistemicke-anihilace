@@ -139,7 +139,7 @@ Validace efektivity techniky vyžaduje multidimenzionální outcome battery apli
 
 - **PHQ-9** (depresivní symptomatologie, target < 10)
 - **GAD-7** (úzkostná symptomatologie, target < 10)
-- **DES-II** (disociativní symptomatologie, target < 30)
+- **[DES-II](@/glossary/des-ii.md)** (disociativní symptomatologie, target < 30)
 - **WAI-SR** (terapeutická aliance, target ≥ 25. percentil)
 - **CGI-S** (klinické globální zhodnocení)
 - **PSQI** (kvalita spánku)

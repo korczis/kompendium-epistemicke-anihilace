@@ -40,7 +40,7 @@ Současně je třeba vidět i opačné riziko: demarkační argument lze zneuž�
 
 ## Odlišení
 
-- **Falsifikovatelnost** je jedno konkrétní řešení demarkačního problému, ne problém sám.
+- **[Falsifikovatelnost](@/glossary/falsifikovatelnost.md)** je jedno konkrétní řešení demarkačního problému, ne problém sám.
 - **[Pseudověda](@/glossary/pseudoscience.md)** je předmět, na nějž se demarkace vztahuje; demarkační problém je otázka po kritériu.
 - **Chybná věda** (*bad science*) dodržuje pravidla, ale dělá chyby; pseudověda pravidla napodobuje a obchází.
 - **[Krize replikace](@/glossary/replication-crisis.md)** ukazuje, že i uznaná věda může mít systémové slabiny; neznamená, že demarkace je bezpředmětná.

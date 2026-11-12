@@ -195,7 +195,7 @@ Chris Brewin (Brewin, Dalgleish, Joseph, 1996; Brewin, 2014) formuloval **teorii
 
 Traumatická paměť je dominantně **SAM** — tj. neintegrovaná do narativní struktury. **Klinický cíl** spočívá v **integraci** SAM do VAM.
 
-Pro EA: **epistemické trauma** vykazuje analogickou strukturu — fragmentované epistemické „vzpomínky“ (somatosenzorické, afektivní, intuitivní), jež nejsou narativně integrovány do koherentního autobiografického příběhu.
+Pro EA: **[epistemické trauma](@/glossary/epistemicke-trauma.md)** vykazuje analogickou strukturu — fragmentované epistemické „vzpomínky“ (somatosenzorické, afektivní, intuitivní), jež nejsou narativně integrovány do koherentního autobiografického příběhu.
 
 ## 5. Neuroplasticita a rekonstrukce
 
@@ -252,7 +252,7 @@ Vývoj **EA-specifických diagnostických nástrojů** zůstává otevřeným ú
 1. **Conceptual fragmentation** — různé tradice (Herman, Freyd, Brewin, van der Kolk) operují s neporovnatelnými terminologickými aparáty
 2. **Methodological heterogeneity** — od kvalitativních klinických observací po kvantitativní fMRI; integrace zůstává problematická
 3. **Cultural narrowness** — drtivá většina literatury vychází z **anglo-saského** kontextu; cross-kulturní validace je limitovaná
-4. **Diagnostic gap** — neexistuje konsenzuální diagnostický rámec pro **epistemické trauma** jako specifickou klinickou kategorii
+4. **Diagnostic gap** — neexistuje konsenzuální diagnostický rámec pro **[epistemické trauma](@/glossary/epistemicke-trauma.md)** jako specifickou klinickou kategorii
 5. **Therapeutic gap** — terapeutické přístupy explicitně cílící na epistemickou dimenzi (oproti afektivní nebo somatické) jsou v plenkách
 
 Kompendium se k těmto limitám staví **transparentně** — viz princip transparentní limitace ([01 — Předmluva](@/kompendium/01-predmluva/_index.md)).

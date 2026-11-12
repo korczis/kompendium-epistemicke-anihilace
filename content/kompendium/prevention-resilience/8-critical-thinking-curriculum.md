@@ -49,7 +49,7 @@ Kurikulum stojí na několika tradicích:
   tato zkreslení nejsou chybou hloupých lidí, ale běžnou vlastností lidského myšlení.
 - **Pravděpodobnostní uvažování** – názor jako míra jistoty, kterou nové doklady posouvají,
   ne jako vypínač „věřím / nevěřím“.
-- **Metakognice** – schopnost přemýšlet o vlastním myšlení, viz [metakognice](@/glossary/metakognice.md).
+- **[Metakognice](@/glossary/metakognice.md)** – schopnost přemýšlet o vlastním myšlení, viz [metakognice](@/glossary/metakognice.md).
 
 Výzkum vzdělávání opakovaně upozorňuje, že kritické myšlení se špatně přenáší mezi obory,
 pokud se učí jen abstraktně. Proto má kurikulum pracovat s konkrétním obsahem – dějepisem,

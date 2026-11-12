@@ -99,7 +99,7 @@ omezení (Frazier a kol. 2009); validované normy pro EA neexistují.
 
 Protokol není vhodný v dřívějších fázích, kdy by řeč o růstu mohla zlehčit bolest. Hlavním
 rizikem je **povinný optimismus** – okolí i terapeut mohou chtít „šťastný konec“. Dalším rizikem
-je **spirituální obcházení** (srov. [spiritual bypassing](@/glossary/spiritual-bypassing.md)):
+je **[spirituální obcházení](@/glossary/spiritual-bypassing.md)** (srov. [spiritual bypassing](@/glossary/spiritual-bypassing.md)):
 růst jako způsob, jak se vyhnout hněvu a truchlení. A konečně **zneužití příběhu** – veřejné
 vyprávění o růstu může klienta tlačit k idealizované verzi.
 

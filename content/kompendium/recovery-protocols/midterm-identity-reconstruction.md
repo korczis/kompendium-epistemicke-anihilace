@@ -73,7 +73,7 @@ jako součást identity, ne jako její celek.
    „co chci já?“; jasnost sebepojetí se obnovuje odspodu.
 4. **Možná já** – po vzoru Markuse a Nurius (1986) klient formuluje, kým by mohl být, kým by
    chtěl být a kým se bojí, že bude; možná já slouží jako vodítko i jako motivace.
-5. **Narativní identita** – propojení minulosti, přítomnosti a budoucnosti do příběhu podle
+5. **[Narativní identita](@/glossary/narativni-identita.md)** – propojení minulosti, přítomnosti a budoucnosti do příběhu podle
    McAdamse (2001); příběh zahrnuje EA jako kapitolu, ne jako celou knihu.
 6. **Hodnoty jako jádro** – navazuje [Subakutní axiologická restaurace](@/kompendium/recovery-protocols/subacute-axiological-restoration.md).
 7. **Zkoušení identity v praxi** – nové koníčky, kurzy, prostředí, kde klient může být „nový“

@@ -231,8 +231,8 @@ PENDING_ZERO = {"placeholder": 0, "technique-page": 0, "howto": 0, "drug-dose": 
                 "fabricated-citation": 0,
                 "legitimate-indication": 0,  # lands at 0 after 2e's slice
                 # safety, ADR 0013/0014 (dev-31 sets the final ceiling at merge; both reach 0 after
-                # the content lane's waves). Measured on main f35a2749: drug-name 76, authority 83.
-                "drug-name": 76, "authority-without-source": 83}  # 0 → never baselined
+                # the content lane's waves). Measured on main bd684894: drug-name 75, authority 83.
+                "drug-name": 75, "authority-without-source": 83}  # 0 → never baselined
 BOLD_CANDIDATE_PAGES = 3  # a bold phrase on this many pages is a term and needs its own page
 
 

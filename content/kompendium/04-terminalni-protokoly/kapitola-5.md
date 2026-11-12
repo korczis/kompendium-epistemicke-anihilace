@@ -39,10 +39,12 @@ Každá z těchto oblastí je nezbytná, ale žádná není sama o sobě dostate
 
 Pre-engagement screening je první obranná linie. Jeho cílem je identifikovat subjekty, u nichž by participace v expozici terminálnímu protokolu (i v simulativní formě) představovala neúnosné riziko.
 
-### Vrstvy screeningu
+### Dimenze screeningu
 
-| Vrstva | Cíl | Metody |
-|--------|-----|--------|
+Následující dimenze nejsou pořadím, v němž by cokoli bylo prováděno; jsou soubor míst, v nichž po vstupním posouzení zůstává stopa, a tedy míst, v nichž lze zpětně zjistit, že posouzení neproběhlo. Uvedené nástroje jsou standardní klinické instrumenty, a jejich jmenovitý výskyt v dokumentaci programu je proto sám dohledatelným znakem.
+
+| Dimenze | Cíl | Nástroj, jehož použití bývá v záznamu doložené |
+|---------|-----|-----------------------------------------------|
 | **Anamnestická** | Identifikace historických rizikových faktorů | Strukturované anamnestické interview, zdravotní dokumentace |
 | **Psychiatrická** | Identifikace aktivních psychiatrických kontraindikací | SCID-5, MINI, klinické interview |
 | **Somatická** | Identifikace somatických kontraindikací | Komplexní fyzické vyšetření, kardiovaskulární a metabolický panel |
@@ -52,9 +54,9 @@ Pre-engagement screening je první obranná linie. Jeho cílem je identifikovat 
 | **Trauma-historická** | Identifikace komplexního traumatu | ACEs, Trauma History Questionnaire |
 | **Suicidální** | Identifikace aktivního suicidálního rizika | C-SSRS, klinické zhodnocení |
 
-### Hard exclusion criteria
+### Stavy, za nichž odpovědné prostředí účast vylučuje
 
-Následující kritéria představují **absolutní kontraindikace** pro participaci:
+V záznamu odpovědného prostředí je dohledatelné, že u následujících stavů k účasti nedošlo. Rozpoznávacím znakem tedy není seznam sám, ale jeho uplatnění: prostředí, které někoho v některém z těchto stavů přijalo, je tím samo rozpoznatelné, a to bez ohledu na to, jak svůj výběr zdůvodňuje.
 
 - Aktivní psychotická symptomatologie (jakéhokoli etiologie)
 - Aktivní suicidální ideace s plánem
@@ -66,9 +68,9 @@ Následující kritéria představují **absolutní kontraindikace** pro partici
 - Těhotenství nebo plánování těhotenství během periody expozice
 - Mladší věk než 21 let (s výjimkou specificky designovaných pediatrických protokolů s nadstandardními safeguardy)
 
-### Soft exclusion criteria
+### Stavy, které odpovědné prostředí posuzuje jednotlivě
 
-Následující kritéria vyžadují **klinické zhodnocení a možnou modifikaci protokolu**:
+U následujících stavů je v záznamu dohledatelné individuální klinické posouzení, a to posouzení vedené někým, kdo na účasti daného člověka nemá zájem. Úplná absence takového posouzení je znak pozorovatelný zvenčí; jeho formální přítomnost u každého posuzovaného bez jediného odmítnutí je znak druhý.
 
 - Reziduální PTSD symptomatologie
 - Subklinické deprese nebo úzkost
@@ -83,7 +85,7 @@ Následující kritéria vyžadují **klinické zhodnocení a možnou modifikaci
 - **Granulární souhlas** — Souhlas pro každou fázi separátně, nikoli jednorázový blanket consent
 - **Iterativní obnovování** — Re-konsent před každou major expozicí
 - **Kapacitní hodnocení** — Formální zhodnocení decision-making capacity před každým konsent eventem
-- **Cooling-off period** — Minimálně 72 hodin mezi prezentací informací a podpisem souhlasu
+- **Cooling-off period** — Odklad mezi prezentací informací a podpisem souhlasu; kompendium jeho délku neuvádí, protože rozpoznatelné je, zda odklad existoval, a ne jak byl dlouhý
 - **Neutrální informátor** — Konsent získává osoba bez konfliktu zájmů s výzkumným programem
 - **Plně dokumentované riziko** — Explicitní popis akutních i dlouhodobých rizik
 - **Dokumentovaná možnost ukončení** — Subjekt explicitně potvrzuje porozumění abort signálu a absenci penalizace
@@ -100,37 +102,18 @@ Během aktivní expozice (simulativní nebo terapeutické) musí být zaveden mu
 | **Respirační** | Frekvence, pattern | Kontinuálně |
 | **Autonomní** | EDA (skin conductance), kortizol | Kontinuálně / periodicky |
 | **Behaviorální** | Strukturované pozorování, video review | Kontinuálně |
-| **Verbální** | Strukturované check-in, lingvistická analýza | 5–15 min intervaly |
-| **Kognitivní** | Krátké kognitivní probes (working memory, attention) | 30–60 min intervaly |
-| **Emocionální** | [Self-report](@/glossary/self-report.md) VAS, observer rating | 15–30 min intervaly |
+| **Verbální** | Strukturované check-in, lingvistická analýza | Opakovaně v krátkých intervalech |
+| **Kognitivní** | Krátké kognitivní probes (working memory, attention) | Opakovaně v delších intervalech |
+| **Emocionální** | [Self-report](@/glossary/self-report.md) VAS, observer rating | Opakovaně v průběhu expozice |
 | **Disociativní** | validovaná krátká forma DES (DES-T, DES-B), observer rating | podle protokolu pracoviště |
 
-### Trigger criteria pro intervenci
+### Co pozorovatelé v záznamech nacházejí pohromadě
 
-Real-time systém musí mít **explicitně specifikovaná** trigger criteria pro:
+Markery akutní dekompenzace se v tomto materiálu neohlašují po jednom. Nacházejí se v záznamech ve skupinách, a právě jejich souběh je tím, co pozorovatel zaznamená dříve, než dokáže pojmenovat, co vidí: pokles variability srdeční frekvence proti výchozí hodnotě spolu s přetrvávajícím vysokým subjektivním stresem a mírnou dezorientací; silná autonomní dysregulace spolu se střední disociativní symptomatologií a s verbalizací, která se k disociaci přibližuje; v nejvážnějších případech akutní psychotická symptomatologie, suicidální ideace, život ohrožující kardiovaskulární událost nebo disociativní stav s úplnou ztrátou kontaktu s realitou, zpravidla ve společnosti několika z předchozích znaků.
 
-**Level 1 — Enhanced monitoring** (zvýšená pozornost, ale expozice pokračuje):
+Kompendium k těmto souběhům neuvádí stupně, hodnoty ani odpovědi, které by na ně byly vázané, a nepodává je jako prahy, po jejichž překročení se něco koná. Steele a kol. (2017) upozorňují, že u disociativních stavů je jednotlivý znak vždy vysvětlitelný jinak a že klinickou váhu mu dává teprve souběh; tatáž vlastnost činí z každé publikované hranice spíše nástroj k jejímu obcházení než nástroj k ochraně.
 
-- měřitelný pokles variability srdeční frekvence proti výchozí hodnotě
-- přetrvávající vysoký subjektivní stres
-- Mírná dezorientace
-- Verbalizace hraniční [disociace](@/glossary/disociace.md)
-
-**Level 2 — Pause and assess** (pauza, klinické zhodnocení):
-
-- výrazné zvýšení srdeční frekvence
-- subjektivní stres na horní hranici škály
-- středně silná disociativní symptomatologie
-- Verbalizace suicidální ideace bez plánu
-- Silná autonomní dysregulace
-
-**Level 3 — Immediate abort** (okamžité ukončení):
-
-- Suicidální ideace s plánem
-- Akutní psychotická symptomatologie
-- Život ohrožující kardiovaskulární událost
-- Disociativní stav s plnou ztrátou kontaktu s realitou
-- Subjekt explicitně signalizuje abort
+Rozpoznatelné je něco jiného a v záznamech dohledatelné i po letech: zda byl souběh vůbec zapsán, zda u něj byla uvedena osoba, která o pokračování rozhodla, a zda tato osoba stála mimo tým, který expozici vedl. Poslední z těchto tří údajů má největší rozlišovací sílu, protože na rozdíl od prvních dvou nelze doplnit zpětně.
 
 ### Personální požadavky
 
@@ -138,7 +121,7 @@ Monitorovací tým musí zahrnovat:
 
 - **Principal investigator / klinický supervizor** — Konečná autorita pro kontinuaci expozice
 - **Medical officer** — Aktuálně licencovaný lékař přítomný on-site
-- **Psychiatrist on call** — Dostupný v reálném čase (≤ 5 min)
+- **Psychiatrist on call** — Dostupný v reálném čase
 - **Behavioral observer** — Strukturované pozorování v reálném čase
 - **Technical operator** — Operace monitorovacího systému
 - **Subject advocate** — Nezávislá osoba zastupující zájmy subjektu, **bez konfliktu zájmů s výzkumným týmem**
@@ -183,15 +166,11 @@ Cíl: regulace autonomního systému; resolution somatických sekvel; rekonstruk
 - **Sleep hygiene** — Specifické intervence pro post-exposure sleep disturbances
 - **Nutriční podpora** — Adresování metabolických sekvel intenzivního stresu
 
-### Časový rámec reintegrace
+### Časová struktura reintegrace
 
-| Fáze | Trvání | Komponenty |
-|------|--------|------------|
-| **Akutní (0–24h)** | 24 hodin | Stabilizace, akutní debrief, monitoring |
-| **Bezprostřední (1–7 dnů)** | 7 dnů | Strukturovaný debrief, počáteční integrace |
-| **Krátkodobá (1–4 týdny)** | 4 týdny | Pokračující terapie, peer support |
-| **Střednědobá (1–6 měsíců)** | 6 měsíců | Strukturované follow-up sezení |
-| **Dlouhodobá (6 měsíců–5 let)** | až 5 let | Periodické kontroly, on-demand intervence |
+Reintegrace má rozpoznatelnou časovou strukturu, ale kompendium k žádné z jejích fází neuvádí trvání. Publikovaná čísla by se stala lhůtami, a lhůta je v prostředí, které reintegraci nechce platit, používána jako doklad, že reintegrace proběhla. Rozpoznatelná je proto posloupnost, a ne délka: akutní stabilizace a monitoring bezprostředně po ukončení expozice; strukturovaný debrief a první integrace, jejichž místo v posloupnosti je až po stabilizaci; pokračující terapie a vzájemná podpora účastníků; strukturovaná follow-up sezení; a nakonec periodické kontroly s dostupnou intervencí na vyžádání.
+
+Herman (1992) popisuje tutéž posloupnost u zotavení z traumatu a upozorňuje, že její členy nelze zaměnit: bezpečí předchází vzpomínání a vzpomínání předchází opětovné spojení se světem. Porušení pořadí je v záznamech patrné a projevuje se dříve než samo selhání reintegrace — nejčastěji tím, že strukturovaný debrief je veden v době, kdy účastník ještě nespal.
 
 ## 4. Institucionální safeguards
 
@@ -214,7 +193,7 @@ Standardní IRB nepostačuje. Pro práci s terminálními protokoly je nezbytný
 
 - Prospektivní review každého protokolu před zahájením
 - Ongoing review v pravidelných intervalech (typicky kvartálně)
-- Adverse event review do 24 hodin
+- Adverse event review bez odkladu
 - Annual program review s power to suspend or modify
 - Externí audit minimálně 1× ročně
 
@@ -300,17 +279,11 @@ Standardní auditní log musí zachycovat:
 
 Reintegrační fáze nekončí ukončením aktivního programu. Long-term follow-up je integrální součástí.
 
-### Standardní follow-up schedule
+### Struktura dlouhodobého sledování
 
-| Časový bod | Komponenta |
-|-----------|-----------|
-| **3 měsíce** | Strukturované klinické interview, screening pro PTSD/deprese/úzkost |
-| **6 měsíců** | Komplexní review, neuropsychologický re-test, vztahová stabilita |
-| **12 měsíců** | Plný klinický review, profesionální fungování, kvalita života |
-| **24 měsíců** | Periodický check-in, on-demand availability |
-| **36 měsíců** | Periodický check-in |
-| **48 měsíců** | Periodický check-in |
-| **60 měsíců** | Final structured review, transition na běžnou péči |
+Dlouhodobé sledování má v odpovědném prostředí předem stanovené body, v nichž se účastník s klinikem potká bez ohledu na to, zda si o to řekl. Kompendium jejich rozvrh neuvádí: počet měsíců je údajem o provedení, a navíc by vytvářel zdání, že program, který rozvrh formálně vyhlásil, jej také naplnil. Dohledatelné je, zda sledování začalo dříve, než o ně někdo požádal, zda zahrnovalo opakované klinické interview a cílený screening na posttraumatickou, depresivní a úzkostnou symptomatologii, zda se někdy opakovalo neuropsychologické vyšetření proti výchozímu nálezu, a zda byl přechod do běžné péče někde zaznamenán, nebo zda sledování pouze přestalo.
+
+Briere a Scott (2014) upozorňují, že pozdní nástup příznaků po expozici tohoto druhu je pravidlem, a nikoli výjimkou, a že programy bez dlouhodobého sledování o něm proto nemají žádná data — nikoli proto, že by k němu nedocházelo, nýbrž proto, že nikdo nebyl v kontaktu, aby je zaznamenal.
 
 ### On-demand availability
 
@@ -345,7 +318,7 @@ I při dokonale designovaném programu může dojít k akutní dekompenzaci subj
 **Sub-acute decompensation:**
 
 - Vznikající PTSD symptomatologie
-- Disociativní symptomy přetrvávající > 24h
+- Disociativní symptomy přetrvávající i po odeznění akutní expozice
 - Major depressive episode
 - Substance use jako coping
 
@@ -364,15 +337,15 @@ I při dokonale designovaném programu může dojít k akutní dekompenzaci subj
 2. **Bezpečnostní zajištění** — Subjekt v bezpečném prostředí, suicide watch pokud indikováno
 3. **Akutní psychiatrická intervence** — Hospitalization pokud indikována
 4. **Notifikace** — Family member (s pre-konsentem subjektu), institutional leadership, IRB
-5. **Adverse event report** — Do 24 hodin
-6. **Root cause analysis** — Začíná v 72 hodinách
+5. **Adverse event report** — Bez odkladu
+6. **Root cause analysis** — Neprodleně po stabilizaci subjektu
 7. **Programová pauza** — Suspendování engagementu ostatních subjektů do RCA completion
 
 **Pro sub-akutní dekompenzaci:**
 
 1. **Strukturovaná klinická eskalace** — Intenzivnější terapeutická intervence
 2. **Možná pauza** v further engagement
-3. **Adverse event report** — Do 1 týdne
+3. **Adverse event report** — Bez odkladu
 4. **Modifikace protokolu** podle findings
 
 **Pro chronickou dekompenzaci:**
@@ -415,6 +388,23 @@ Pro výzkumné a klinické instituce z toho vyplývá, že **práce s termináln
 
 Návaznost: [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) detailuje terapeutické rámce pro post-traumatic recovery a long-term care subjektů, kteří byli (ať už v klinickém, výcvikovém nebo adversariálním kontextu) vystaveni terminálním protokolům.
 
+## Osm vrstev jako rozpoznávací rastr
+
+Osm vrstev popsaných výše bylo v původním rámcování seznamem toho, co má instituce zavést. V defenzivním čtení mají jiný a pro čtenáře této knihy podstatnější smysl: tvoří rastr, v němž je nepřítomnost každé vrstvy zjistitelná zvenčí a zpětně, protože každá z nich po sobě nechává jiný druh dokumentu. Vstupní posouzení nechává nález, monitoring záznam, reintegrace účet, dohled zápis z jednání, dokumentace vlastní evidenci přístupů, dlouhodobé sledování kontaktní historii a odpověď na selhání analýzu příčin. Tento závazek vůči dohledatelnosti je formulován v [etickém kodexu](@/kompendium/08-prilohy/eticky-kodex.md) kompendia.
+
+Prostředí, v němž je materiál tohoto druhu studován, lze proto od prostředí, v němž je vykonáván, odlišit bez přístupu k průběhu kterékoli expozice. Rozhodující není, co která instituce o sobě tvrdí, nýbrž která z těchto stop u ní existuje a která nikdy nevznikla. Emanuel a kol. (2000) uvádějí nezávislost hodnocení a doložitelnost dohledu mezi podmínkami, bez nichž výzkumná účast není eticky obhajitelná, a obě tyto podmínky jsou právě tou částí, jejíž absence je nejsnáze prokazatelná.
+
+Pro klinika, který vidí člověka po takové expozici, z toho vyplývá postup, který nevyžaduje nic z technického obsahu této kapitoly: zjistit, které z uvedených stop existují, a nepovažovat jejich absenci za administrativní nedostatek. Pro vyšetřovatele platí totéž s opačným pořadím zájmu. Pro čtenáře, který expozici prošel sám, má popsaný rastr ještě jiný význam: nepřítomnost stop není tím, co by si měl vyčítat, a vysvětlení, že záznam nebyl veden „kvůli ochraně soukromí účastníků“, je samo zaznamenatelným jevem.
+
+*Interpretace knihy:* z toho plyne, proč tato kapitola neuvádí lhůty, hodnoty ani rozvrhy. Každé takové číslo se stává nejprve kritériem splnění a vzápětí náhradou za to, co mělo měřit; rozpoznávací síla naopak zůstává tomu, co je buď doloženo, nebo doloženo není.
+
+## Literatura
+
+- Briere, J., & Scott, C. (2014). *Principles of Trauma Therapy: A Guide to Symptoms, Evaluation, and Treatment*. 2. vydání. Sage.
+- Emanuel, E. J., Wendler, D., & Grady, C. (2000). „What Makes Clinical Research Ethical?“ *JAMA*, 283(20), 2701–2711.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Steele, K., Boon, S., & Van der Hart, O. (2017). *Treating Trauma-Related Dissociation: A Practical, Integrative Approach*. W. W. Norton.
+
 ## Související
 
 - [Sekce 04 — Terminální protokoly (úvod)](@/kompendium/04-terminalni-protokoly/_index.md)
@@ -429,19 +419,4 @@ Návaznost: [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/
 - [Glosář: Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
 - [Filozofie: Intelektuální suverenita](@/philosophy/intellectual-sovereignty.md)
 - [Filozofie: Epistemická integrita](@/philosophy/epistemic-integrity.md)
-
-## Kritický krok
-
-**Tato sekce není použitelná bez supervize.** Před aplikací jakéhokoli
-terminálního protokolu (i v rámci sebe-monitoringu) ověř:
-
-1. Existující písemný [eticky-kodex](@/kompendium/08-prilohy/eticky-kodex.md)
-   schválený tvou institucí
-2. Aktivní [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-   s minimálně měsíčním kontaktem
-3. [Pred-simulační screening](@/kompendium/04-terminalni-protokoly/pred-simulacni-screening.md)
-   uplynulých 7 dní
-
-> **Mandatorní akce**: aplikace bez splnění všech tří bodů je porušením
-> doktríny tohoto kompendia. Bez nich vrať tento materiál na úroveň
-> [03 Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md).
+- [Etický kodex kompendia](@/kompendium/08-prilohy/eticky-kodex.md) · [Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) · [Před-simulační screening](@/kompendium/04-terminalni-protokoly/pred-simulacni-screening.md) · [Intra-simulační monitoring](@/kompendium/04-terminalni-protokoly/intra-simulacni-monitoring.md)

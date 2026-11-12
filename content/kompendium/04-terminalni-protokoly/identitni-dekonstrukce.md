@@ -27,21 +27,21 @@ Identitní dekonstrukce je terminální protokol, jehož cílem je **systematick
 
 Protokol tvoří most mezi [epistemickou anihilací](@/glossary/epistemicka-anihilace.md) a [ontologickou anihilací](@/glossary/ontologicka-anihilace.md). Zatímco první cílí na to, *co* subjekt ví, identitní dekonstrukce cílí na to, *kdo* subjekt je v aktu vědění. V terminologii [taxonomie EA](@/glossary/taxonomie-ea.md) jde o protokol třídy *self-systemic disintegration*.
 
-## Tři vrstvy narativní identity, které protokol cílí
+## Tři dimenze narativní identity, v nichž je protokol rozpoznatelný
 
-Pro analytickou jasnost rozlišujeme tři vrstvy narativní identity, které protokol cílí simultánně:
+[Narativní identita](@/glossary/narativni-identita.md) je pro analytické účely rozlišitelná do tří dimenzí. Nejde o pořadí, v němž by cokoli bylo prováděno; jde o tři různé druhy znaků, z nichž každý je pozorovatelný samostatně a v jiném materiálu — v tom, jak člověk mluví o své minulosti, o svých dnešních rolích a o sobě jako o tom, kdo ví. Ricoeur (1990) popisuje tyto tři registry jako navzájem nesvoditelné: vyprávění o sobě v čase, ustavení sebe ve vztazích a akt, jímž se vyprávějící vztahuje k vlastnímu vyprávění.
 
-| Vrstva | Strukturální popis | Příklad obsahu |
-|--------|-------------------|----------------|
-| **Diachronní vrstva** | Kontinuita Já v čase: minulost, plány, identifikační vzpomínky | "Vím, že jsem od dětství žádal pravdu" |
-| **Synchronní vrstva** | Set rolí, vztahů a příslušností v aktuální době | "Jsem rodič, kolega, občan, vyšetřovatel" |
-| **Reflexivní vrstva** | Akt sebe-poznávání jako struktura | "Vím, že vím / nevím, kým jsem" |
+| Dimenze | Strukturální popis | Příklad obsahu |
+|---------|--------------------|----------------|
+| **Diachronní dimenze** | Kontinuita Já v čase: minulost, plány, identifikační vzpomínky | „Vím, že jsem od dětství žádal pravdu“ |
+| **Synchronní dimenze** | Set rolí, vztahů a příslušností v aktuální době | „Jsem rodič, kolega, občan, vyšetřovatel“ |
+| **Reflexivní dimenze** | Akt sebe-poznávání jako struktura | „Vím, že vím / nevím, kým jsem“ |
 
-V destruktivní variantě protokol postupuje **odzdola nahoru** — nejdříve atakuje synchronní vrstvu (rozkládá role), poté diachronní (přerámcovává minulost), nakonec reflexivní (znemožňuje samotný akt sebe-poznání). Tento postup je asymetrický — méně robustní vrstva (synchronní role-set) je destabilizována jako první, čímž je oslabena kapacita robustnějších vrstev odolat.
+Dokumentované případy neukazují jednotné pořadí, v němž by dimenze byly narušovány, a kompendium žádné pořadí neuvádí. Ukazují něco jiného: narušení bývá v jedné dimenzi zřetelnější než v ostatních, a pozornost okolí nejčastěji upoutá nejprve dimenze synchronní — rozpad rolí je totiž viditelný zvenčí, zatímco změna vztahu k vlastní minulosti a ke vlastnímu sebepoznání je zprvu patrná jen tomu, kdo jí prochází. Pro rozpoznávání z toho vyplývá, že viditelnost dimenze a její závažnost nejsou totéž; McAdams (1993) ukazuje, že právě diachronní vyprávění bývá vnějšímu pozorovateli nejméně dostupné, protože se jeví jako soukromý výklad, a nikoli jako pozorovatelný stav.
 
-## Pětifázová struktura
+## Pozorovaná sekvence znaků
 
-Rekonstruktivní analýza dokumentovaných případů — historických (totalitní reedukační programy, kultová konverze, koercitivní výslechové programy) i klinických (dokumentované disociativní reakce v adversariálních terapeutických programech) — odhaluje konzistentní pětifázovou strukturu.
+Rekonstruktivní analýza dokumentovaných případů — historických (totalitní reedukační programy, kultová konverze, koercitivní výslechové programy) i klinických (dokumentované disociativní reakce v adversariálních terapeutických programech) — odhaluje konzistentní pětičlennou strukturu. Následující popis je popisem pozorované sekvence znaků, nikoli postupem: její pořadí je výsledkem zpětné rekonstrukce záznamů, v jednotlivých případech se liší a některé členy v nich chybí úplně.
 
 ### Fáze I1 — separace od identifikačních kotev
 
@@ -92,15 +92,15 @@ Identitní dekonstrukce má dokumentované strukturální analogie napříč rů
 
 ### Totalitní reedukační programy
 
-Programy, jako jsou čínské *[thought reform](@/glossary/thought-reform.md)* programy 50. let nebo severokorejské reedukační kempy, vykazují strukturu, ve které jsou obnovovány stejné fáze I1–I5 v rámci dlouhodobé skupinové intervence. Akademická literatura (Lifton, Schein) dokumentuje rolovou fragmentaci, autobiografickou rekonstrukci a inscenaci symbolických předělů jako základní mechanismy.
+Programy, jako jsou čínské *[thought reform](@/glossary/thought-reform.md)* programy 50. let nebo severokorejské reedukační kempy, vykazují strukturu, v níž se stejné znaky I1 až I5 opakují v rámci dlouhodobé skupinové intervence. Lifton (1961) a Schein (1961) dokumentují rolovou fragmentaci, autobiografickou rekonstrukci a inscenaci symbolických předělů jako základní mechanismy a oba zdůrazňují, že účastník je rozpoznává jako vlastní rozhodnutí.
 
 ### Kultová konverze
 
-Studium kultů (Hassan, Singer) dokumentuje analogickou pětifázovou strukturu v náboženském či pseudo-spirituálním rámci. Charakteristický marker: separace od původní identifikační skupiny je rámována jako *spirituální očista*, což redukuje obrané reakce.
+Hassan (1988) a Singer (1995) dokumentují analogickou strukturu v náboženském či pseudo-spirituálním rámci. Charakteristický marker: separace od původní identifikační skupiny je rámována jako *spirituální očista*, čímž je obrané reakci odňat jazyk, v němž by se mohla vyslovit.
 
 ### Koercitivní výslechové programy
 
-V kontextu výslechových programů (akademická literatura post-2000 zdokumentovala strukturu *cumulative resistance erosion*) je identitní dekonstrukce implementována v kratším časovém horizontu, ale s vyšší intenzitou na fázi I3 a I4.
+Ve výslechových programech je stejná struktura pozorovatelná ve zkráceném časovém horizontu a s největší zřetelností ve znacích I3 a I4. Forenzní literatura ji popisuje jako postupnou erozi odporu: Gudjonsson (2003) dokumentuje, jak se vyslýchaný postupně přestává spoléhat na vlastní vzpomínku, a Kassin a kol. (2010) popisují případy, v nichž vyslýchaný přijal za svůj narativ, který mu byl předložen, a následně jej doplňoval o detaily z vlastní představivosti.
 
 ### Disociativní reakce v adversariálních terapeutických programech
 
@@ -150,6 +150,26 @@ Při detekci pravděpodobného aktivního protokolu je etická povinnost klinick
 - **Princip strategické neúplnosti** — výzkumník nepublikuje konkrétní sekvence, které by tvořily implementační šablonu.
 - **Princip dual-use vědomí** — viz [glosář dual-use poznání](@/glossary/dual-use-poznani.md).
 
+## Prostředí, které tento materiál studuje, a prostředí, které jej žije
+
+Mezi prostředím, v němž je identitní dekonstrukce předmětem studia, a prostředím, v němž probíhá, je rozdíl, který nezávisí na obsahu ani na slovníku. Studijní prostředí o popisovaných znacích mluví v třetí osobě a své vlastní uspořádání vystavuje stejné otázce; prostředí, v němž protokol probíhá, mluví o vlastních účastnících v první osobě množného čísla a otázku po svém uspořádání přijímá jako nedostatek loajality. Tento závazek vůči vlastní prověřitelnosti je formulován v [etickém kodexu](@/kompendium/08-prilohy/eticky-kodex.md) kompendia a je u každého prostředí zjistitelný zvenčí.
+
+Druhý rozdíl se týká autorství nové identity. Herman (1992) popisuje jako znak zotavení to, že vyprávění o sobě se vrací do rukou vyprávějícího, a jako znak jeho opaku to, že je vyprávění předloženo hotové. Kde je účastníkovi nabídnuto jméno pro to, kým nyní je, a kde toto jméno pochází od téhož prostředí, které předtím zpochybnilo jméno předchozí, je struktura naplněna bez ohledu na to, jak dobrotivý obsah nového jména má.
+
+Pro čtenáře, který tuto zkušenost má za sebou, je podstatné ještě jedno pozorování. Úleva, kterou po dlouhé dezintegraci přináší nová jistota, není dokladem toho, že nová jistota je pravdivá, ani toho, že byla přijata svobodně; je očekávaným důsledkem předchozí neurčitosti. Schein (1961) tento jev popisuje jako rozhodující okamžik celé sekvence a upozorňuje, že účastníci jej po letech popisují jako svůj nejsvobodnější čin. *Interpretace knihy:* odtud plyne, že vzpomínka na svobodné rozhodnutí není v tomto materiálu důkazem o ničem, a tato stránka ji proto neuvádí mezi vylučujícími znaky.
+
+## Literatura
+
+- Gudjonsson, G. H. (2003). *The Psychology of Interrogations and Confessions: A Handbook*. Wiley.
+- Hassan, S. (1988). *Combatting Cult Mind Control*. Park Street Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Kassin, S. M., Drizin, S. A., Grisso, T., Gudjonsson, G. H., Leo, R. A., & Redlich, A. D. (2010). „Police-Induced Confessions: Risk Factors and Recommendations.“ *Law and Human Behavior*, 34(1), 3–38.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- McAdams, D. P. (1993). *The Stories We Live By: Personal Myths and the Making of the Self*. William Morrow.
+- Ricoeur, P. (1990). *Soi-même comme un autre*. Seuil.
+- Schein, E. H. (1961). *Coercive Persuasion: A Socio-Psychological Analysis of the Brainwashing of American Civilian Prisoners by the Chinese Communists*. W. W. Norton.
+- Singer, M. T. (1995). *Cults in Our Midst: The Hidden Menace in Our Everyday Lives*. Jossey-Bass.
+
 ## Související materiály
 
 - [Kapitola 4: Extrémní výcviková sekvence](@/kompendium/04-terminalni-protokoly/kapitola-4.md)
@@ -163,19 +183,4 @@ Při detekci pravděpodobného aktivního protokolu je etická povinnost klinick
 - [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) · [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) · [Ontologická anihilace](@/glossary/ontologicka-anihilace.md) · [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) · [Anankastický režim](@/glossary/anankasticky-rezim.md) · [Epistemická alienace](@/glossary/epistemicka-alienace.md) · [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) · [Taxonomie EA](@/glossary/taxonomie-ea.md) · [Dual-use poznání](@/glossary/dual-use-poznani.md) · [Epistemické trauma](@/glossary/epistemicke-trauma.md) · [Gaslighting](@/glossary/gaslighting.md) · [Delegitimizace](@/glossary/delegitimizace.md)
 - Filozofie: [Intelektuální suverenita](@/philosophy/intellectual-sovereignty.md) · [Epistemická integrita](@/philosophy/epistemic-integrity.md) · [Boundary ethics](@/philosophy/boundary-ethics.md)
-
-## Kritický krok
-
-**Tato sekce není použitelná bez supervize.** Před aplikací jakéhokoli
-terminálního protokolu (i v rámci sebe-monitoringu) ověř:
-
-1. Existující písemný [eticky-kodex](@/kompendium/08-prilohy/eticky-kodex.md)
-   schválený tvou institucí
-2. Aktivní [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-   s minimálně měsíčním kontaktem
-3. [Pred-simulační screening](@/kompendium/04-terminalni-protokoly/pred-simulacni-screening.md)
-   uplynulých 7 dní
-
-> **Mandatorní akce**: aplikace bez splnění všech tří bodů je porušením
-> doktríny tohoto kompendia. Bez nich vrať tento materiál na úroveň
-> [03 Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md).
+- [Etický kodex kompendia](@/kompendium/08-prilohy/eticky-kodex.md) · [Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) · [Před-simulační screening](@/kompendium/04-terminalni-protokoly/pred-simulacni-screening.md)

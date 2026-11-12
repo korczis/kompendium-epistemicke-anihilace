@@ -1,39 +1,29 @@
 {
   "category": "code",
   "expected": {
-    "code": "EA-3.3.1",
+    "code": "EA-3.1.3",
     "hits": [
       {
-        "code": "EA-3.3.1",
-        "in": 31,
+        "code": "EA-3.1.3",
+        "in": 18,
         "kind": "Technika",
-        "path": "kompendium/techniques/ea-3-3-1-institutional-ethics-board.md",
+        "path": "kompendium/techniques/ea-3-1-3-metacognitive-cultivation.md",
         "tier": 1,
-        "title": "EA-3.3.1 Institucionální etická rada",
-        "url": "/kompendium/techniques/ea-3-3-1-institutional-ethics-board/",
+        "title": "EA-3.1.3 Metakognitivní kultivace",
+        "url": "/kompendium/techniques/ea-3-1-3-metacognitive-cultivation/",
         "why": "exact_code"
-      },
-      {
-        "code": "EA-3.3.10",
-        "in": 2,
-        "kind": "Technika",
-        "path": "kompendium/techniques/ea-3-3-10-funding-model-ethics.md",
-        "tier": 4,
-        "title": "EA-3.3.10 Etika finančního modelu",
-        "url": "/kompendium/techniques/ea-3-3-10-funding-model-ethics/",
-        "why": "title_prefix"
       }
     ],
     "limit": 12,
-    "normalised": "ea-3.3.1",
+    "normalised": "ea-3.1.3",
     "ok": true,
     "op": "search",
-    "query": "ea 3.3.1",
+    "query": "ea 3.1.3",
     "schema": "kompendium-engine/v1",
-    "total": 2
+    "total": 1
   },
   "input": {
     "op": "search",
-    "query": "ea 3.3.1"
+    "query": "ea 3.1.3"
   }
 }

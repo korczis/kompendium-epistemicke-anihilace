@@ -55,22 +55,22 @@
       },
       {
         "code": null,
-        "in": 357,
-        "kind": "Kapitola",
-        "path": "kompendium/01-predmluva/eticke-aspekty.md",
-        "tier": 6,
-        "title": "1.3 Etické aspekty a upozornění",
-        "url": "/kompendium/01-predmluva/eticke-aspekty/",
-        "why": "description"
-      },
-      {
-        "code": null,
         "in": 328,
         "kind": "Kapitola",
         "path": "kompendium/06-klinicke-aplikace/_index.md",
         "tier": 6,
         "title": "06. Klinické aplikace a diagnostika",
         "url": "/kompendium/06-klinicke-aplikace/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 244,
+        "kind": "Kapitola",
+        "path": "kompendium/01-predmluva/eticke-aspekty.md",
+        "tier": 6,
+        "title": "1.3 Etické aspekty a upozornění",
+        "url": "/kompendium/01-predmluva/eticke-aspekty/",
         "why": "description"
       },
       {

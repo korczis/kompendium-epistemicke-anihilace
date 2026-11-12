@@ -50,6 +50,27 @@ page content/glossary c31-glossary <<'P'
 
 Mimo techniky se tento nadpis neposuzuje.
 P
+# frame extension: "kdy je … legitimní" heading, scoped by technique FAMILY (not by citation).
+page "$d" ea-4-99-1 <<'P'
+## Kdy je rámec legitimní
+
+Podmínky, za nichž je terminální protokol legitimní (Autor, 2020).
+P
+page "$d" ea-6-99-1 <<'P'
+## Kdy je rámec legitimní
+
+Na EA-6 oddělení péče od zneužití; obranná kritéria.
+P
+page "$d" ea-4-99-2 <<'P'
+## Poznámka k rámci
+
+Legitimní rámec je pro tyto protokoly úzký a vždy vnější: platí jen pod supervizí.
+P
+page "$d" ea-4-99-3 <<'P'
+## Kdy je tento krok legitimní
+
+Dvě slova mezi "je" a "legitimní".
+P
 
 listed
 has   c31-heading      # the legitimate-indications heading
@@ -58,5 +79,9 @@ has   c31-permission   # the permission item, even without the heading
 hasnt c31-exclusion    # an exclusion / contraindication heading is the fix, not the offence
 hasnt c31-contra       # plain "Kontraindikace" / "Indikace" are not applier permission
 hasnt c31-glossary     # not a technique page
+has   ea-4-99-1        # "kdy je … legitimní" frame on a non-EA-6 technique family (cites, still refused)
+hasnt ea-6-99-1        # the SAME heading on EA-6 care/recovery — defensive, exempt by family
+has   ea-4-99-2        # the byte-identical opening sentence, even without the heading
+has   ea-4-99-3        # up to two words between "je" and "legitimní"
 
-echo "legitimate-indication: a permission heading or item on a technique page is refused; exclusion/contra and non-technique are not"
+echo "legitimate-indication: a permission heading or item (incl. the family-scoped 'kdy je … legitimní' frame on non-EA-6) is refused; exclusion/contra, EA-6 frame and non-technique are not"

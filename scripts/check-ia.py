@@ -84,8 +84,12 @@ Requirements (id: what is checked):
                    is renamed (benefit prokazatelně převažuje riziko). It is the counterpart of the
                    applier checklist: the book's frame is recognition and defence, not sanctioned
                    application (ADR 0013). Matched by shape, so a reworded heading still fails; an
-                   EXCLUSION heading ("Vylučující okolnosti") is not matched. Remedy: replace with a
-                   contraindication / excluding-circumstances section. NEVER baselined
+                   EXCLUSION heading ("Vylučující okolnosti") is not matched. The "kdy je … legitimní"
+                   frame ("Kdy je rámec legitimní") is scoped by TECHNIQUE FAMILY — charged on EA-4.x
+                   and every non-EA-6 code, EXEMPT on EA-6 care/recovery (there it separates care from
+                   abuse defensively). The scope is the family, NOT whether the section cites: all the
+                   EA-4 pages cite and some EA-6 do not, so "cited means keep" is wrong. Remedy:
+                   replace with a contraindication / excluding-circumstances section. NEVER baselined
   howto            no operational playbook: a page carries no "Operační modus/postup/sekvence"
                    section (steps or phases for performing a technique on a person); the
                    defensive frame describes recognition and defence, not execution. NEVER
@@ -349,9 +353,22 @@ PLAYBOOK_APPLIER = re.compile(r"před\s+aplikac[ií][\s\S]{0,60}?\bprotokol", re
 LEGIT_INDICATION = re.compile(
     r"^#{2,6}\s+(?![^\n]*vylo?uč)[^\n]*"  # guard BOTH stems: vyluč- (vylučuje) and vylouč- (vyloučena)
     r"(?:legitimní\s+(?:indikac|užit|použit|kontext|aplikac)|indikace\s+k\s+aplikaci"
-    r"|podmínky\s+(?:použití|aplikace|nasazení)|kdy\s+je\s+legitimní"
+    r"|podmínky\s+(?:použití|aplikace|nasazení)"
     r"|přípustné?\s+(?:užití|použití|nasazení|indikac|aplikac))", re.M | re.I)
 LEGIT_PERMISSION = re.compile(r"benefit\s+prokazateln[ěe]\s+převažuje\s+riziko", re.I)
+# "Kdy je … legitimní" names the conditions under which applying the technique is legitimate —
+# applier permission on a terminal protocol. The SAME heading on the EA-6 care/recovery family
+# separates legitimate care from abuse with defensive criteria, so the scope is the technique
+# FAMILY: charged on EA-4.x and every non-EA-6 code, exempt on EA-6 — NOT on whether the section
+# cites (all 15 EA-4 pages cite; some EA-6 cite nothing, so citation is not the discriminator). A
+# word between "je" and "legitimní" ("Kdy je rámec legitimní") is why the LEGIT_INDICATION form
+# missed it; up to two words are allowed. LEGIT_FRAME_SENTENCE keys on the byte-identical opening
+# the pages share, so renaming the heading but keeping the claim does not evade.
+LEGIT_FRAME = re.compile(  # all on the heading line: [ \t] gaps, not \s (which would span newlines)
+    r"^#{2,6}[ \t]+(?![^\n]*vylo?uč)[^\n]*kdy[ \t]+je[ \t]+(?:\S+[ \t]+){0,2}legitimní", re.M | re.I)
+LEGIT_FRAME_SENTENCE = re.compile(
+    r"Legitimní\s+rámec\s+je\s+pro\s+tyto\s+protokoly\s+úzký\s+a\s+vždy\s+vnější", re.I)
+EA_RECOVERY_FAMILY = "6"  # EA-6 care/recovery: the frame heading there is defensive, not permission
 # A drug dose or dose range: a number and a dose unit. A bibliography (a work's title, e.g.
 # "Mediator 150 mg") is skipped by section, so only a dosing claim in prose is caught.
 DRUG_DOSE = re.compile(r"\d[\d.,]*\s*(?:[–-]|až)?\s*\d*\s*(?:mg|µg|μg|mcg|IU)\b", re.I)
@@ -571,9 +588,17 @@ def analyse(pages: list) -> dict:
                              or (page["path"].startswith("kompendium/")
                                  and (PLAYBOOK_SHAPE.search(prose) or PLAYBOOK_APPLIER.search(prose)))
                              or (technique and (HOWTO_STEP.search(prose) or HOWTO_STEP_CELL.search(prose))))
+        # EA-4.x and every non-EA-6 family gets the "kdy je … legitimní" frame + its byte-identical
+        # opening sentence; EA-6 care/recovery is exempt. Family from the technique code (equals the
+        # front-matter ea_code family), not a path list.
+        fam = re.match(r"kompendium/techniques/ea-(\d+)-", page["path"])
+        non_recovery = bool(fam) and fam.group(1) != EA_RECOVERY_FAMILY
         page["legitimate_indication"] = (
             sorted({m.group(0).strip() for m in LEGIT_INDICATION.finditer(prose)}
-                   | {m.group(0) for m in LEGIT_PERMISSION.finditer(prose)}) if technique else [])
+                   | {m.group(0) for m in LEGIT_PERMISSION.finditer(prose)}
+                   | ({m.group(0).strip() for m in LEGIT_FRAME.finditer(prose)} if non_recovery else set())
+                   | ({m.group(0) for m in LEGIT_FRAME_SENTENCE.finditer(prose)} if non_recovery else set()))
+            if technique else [])
         page["drug_dose"] = has_drug_dose(prose)
         page["clinical_figures"] = clinical_figures(prose) if page["path"].startswith("kompendium/") else []
         page["platform_section"] = (

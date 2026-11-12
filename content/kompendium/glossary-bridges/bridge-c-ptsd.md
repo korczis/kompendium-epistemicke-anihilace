@@ -43,7 +43,7 @@ Tři okruhy, které C-PTSD odlišují od PTSD, mají v knize epistemický protě
    strach „platí“. Souvisí s [disociací](@/glossary/disociace.md) a s technikami, které
    pracují s afektem, jako je
    [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md).
-2. **Negativní sebepojetí** – bezcennost, stud, vina. Epistemicky jde o převzetí výkladu, který
+2. **[Negativní sebepojetí](@/glossary/c-ptsd.md)** – bezcennost, stud, vina. Epistemicky jde o převzetí výkladu, který
    o člověku vytvořil pachatel; kniha to popisuje jako vnitřního pachatele
    ([internalizovaný pachatel](@/glossary/internalizovany-pachatel.md)) a jako výsledek
    technik typu [EA-2.5.3 Kultivace sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md).

@@ -117,7 +117,7 @@ Co může vidět vnější pozorovatel:
 
 ## Teoretické zázemí
 
-Husserlova **eidetická redukce** (*Ideen I*) — uchopení esence — je perverzně instrumentalizována: subjekt je redukován na 'esenci' definovanou zvenčí. Sartrova **existence předchází esenci** (*L'existentialisme est un humanisme*) je obrácena: implantovaná esence předchází a definuje existenci. Heideggerova **was-sein** je manipulátorem fixována, čímž se ruší **dass-sein** kontingentní svoboda. Levinasova **autrement qu'être** (jinak než bytí) je zrušena: subjekt je redukován na 'co' bez dimenze 'kdo'. Ricoeurovo **idem** je hypertrofováno, **ipse** atrofováno. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
+Husserlova **eidetická redukce** (*Ideen I*) — uchopení esence — je perverzně instrumentalizována: subjekt je redukován na 'esenci' definovanou zvenčí. Sartrova **existence předchází esenci** (*L'existentialisme est un humanisme*) je obrácena: implantovaná esence předchází a definuje existenci. Heideggerova **was-sein** je manipulátorem fixována, čímž se ruší **dass-sein** kontingentní svoboda. Levinasova **autrement qu'être** (jinak než bytí) je zrušena: subjekt je redukován na 'co' bez dimenze 'kdo'. Ricoeurovo **idem** je hypertrofováno, **[ipse](@/glossary/ipseita.md)** atrofováno. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
 
 ## Empirická literatura
 

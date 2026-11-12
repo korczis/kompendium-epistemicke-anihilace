@@ -8,6 +8,7 @@ description = "Klinický konstrukt narušené integrace vědomí, paměti, ident
 tags = ["glossary", "clinical", "kompendium", "trauma", "diagnostika"]
 
 [extra]
+aliases = ["Disociativní poruchy"]
 category = "clinical"
 related_terms = ["epistemicka-anihilace", "kognitivni-anihilace", "iatrogenic-harm", "mereologicka-rekonstrukce", "narrative-identity", "metakognitivni-destrukce"]
 author = "Tomáš Korcak (korczis)"

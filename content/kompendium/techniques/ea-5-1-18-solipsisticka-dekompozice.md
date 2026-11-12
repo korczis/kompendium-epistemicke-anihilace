@@ -56,7 +56,7 @@ Co prožívá subjekt uvnitř solipsistické dekompozice:
 
 - **Pocit „filozofické hloubky“** — subjekt si myslí, že rozumí podstatě reality
 - **Emocionální plochost** — události vnějšího světa přestávají vyvolávat reakci
-- **Derealizace** — vnější svět se prožívá jako „ne zcela skutečný“, jako „film“
+- **[Derealizace](@/glossary/depersonalizace.md)** — vnější svět se prožívá jako „ne zcela skutečný“, jako „film“
 - **[Depersonalizace](@/glossary/depersonalizace.md) druhých** — druzí lidé jsou prožíváni jako „postavy“, ne jako vědomé bytosti
 - **Ztráta epistemické pokory vůči vnějším zdrojům** — subjekt přestává konzultovat experty, knihy, instituce
 - **Falešná autonomie** — pocit „konečně samostatného myšlení“ maskuje izolaci

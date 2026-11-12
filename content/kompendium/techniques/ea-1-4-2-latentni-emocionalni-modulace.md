@@ -37,7 +37,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 
 **Latentní emocionální modulace** je **subtilní indukce** specifických emocionálních stavů — **anxiety**, **frustrace**, **vina**, **stud**, **strach**, **identitní hrozba** — k **modulaci kognitivních procesů** a **epistemických tendencí**. Strukturálně **sourozenecká** s [EA-1.4.1 Prosodickou dominancí](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md), ale s odlišným cílem: dominance signalizuje autoritu; modulace **mění emocionální stav** subjektu, aby modulovala jeho **kognici**.
 
-Klíčový mechanismus: **exploitace vlivu emocionálních stavů** na kognitivní zpracování — emocionální stres redukuje **System 2** uvažování, zvyšuje **heuristickou** evaluaci, snižuje **toleranci** kognitivní disonance. Manipulátor **strategicky** generuje specifický emocionální stav, který **predisponuje** subjekt k specifickému typu reakce.
+Klíčový mechanismus: **exploitace vlivu emocionálních stavů** na kognitivní zpracování — emocionální stres redukuje **[System 2](@/glossary/system-1-system-2.md)** uvažování, zvyšuje **heuristickou** evaluaci, snižuje **toleranci** kognitivní disonance. Manipulátor **strategicky** generuje specifický emocionální stav, který **predisponuje** subjekt k specifickému typu reakce.
 
 Klíčová charakteristika: **latentní** — emocionální indukce operuje **pod prahem** vědomé detekce. Subjekt prožívá emocionální stav jako „**přirozenou reakci**“ na obsah, bez vědomí, že byl strategicky indukován.
 

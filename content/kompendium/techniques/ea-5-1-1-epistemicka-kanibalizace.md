@@ -163,7 +163,7 @@ Intervence: Veřejné svědectví, deklarace komunity jako kanibalizační struk
 
 ### Eskaluje do
 
-- **Úplná epistemická singularita** — terminální stav, kdy je subjekt epistemicky neoddělitelný od manipulátora ([Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)).
+- **[Úplná epistemická singularita](@/glossary/epistemicka-singularita.md)** — terminální stav, kdy je subjekt epistemicky neoddělitelný od manipulátora ([Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)).
 - **Generační kanibalizace** — kanibalizovaný subjekt sám začne kanibalizovat dalších, replikuje vzorec ([Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)).
 
 ### Alternativy / podobné, ale **distinktivní**

@@ -8,6 +8,7 @@ description = "Rámec Stevena Hassana pro posouzení skupin s vysokou mírou kon
 tags = ["glossary", "clinical", "manipulace", "kompendium", "high-control-group"]
 
 [extra]
+aliases = ["kontrola informací"]
 category = "clinical"
 related_terms = ["coercive-control", "epistemicka-anihilace", "taxonomie-ea", "kognitivni-anihilace", "darvo", "gaslighting"]
 author = "Tomáš Korcak (korczis)"

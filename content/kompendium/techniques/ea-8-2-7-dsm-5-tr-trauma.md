@@ -114,7 +114,7 @@ posoudit, zda zkušenost obsahovala události kritéria A.
 - **Deprese, úzkostné poruchy a užívání látek** se s PTSD často sdružují a mohou ho
   zakrývat.
 - **Normální reakce na zátěž** nevede k trvalému omezení fungování.
-- **Disociativní poruchy** mají v DSM samostatnou kapitolu; překryv s disociativním podtypem
+- **[Disociativní poruchy](@/glossary/disociace.md)** mají v DSM samostatnou kapitolu; překryv s disociativním podtypem
   PTSD vyžaduje pečlivé vyšetření ([6.2 Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)).
 
 ## Klinický a právní rámec

@@ -7,6 +7,7 @@ description = "Ipseita: základní, předreflexivní zakoušení sebe jako toho,
 tags = ["glossary", "kompendium", "phenomenology", "identity"]
 
 [extra]
+aliases = ["ipse"]
 category = "phenomenology"
 related_terms = ["predreflexivni-vedomi", "depersonalizace", "core-consciousness", "narrative-identity", "fenomenologie", "metakognice"]
 author = "Tomas Korcak (korczis)"

@@ -50,7 +50,7 @@ souhlas a vytváří závislost ([nepřípustný vliv](@/glossary/undue-influenc
 
 Hassan rámec představil v knize *Combatting Cult Mind Control* (1988) na základě vlastní
 zkušenosti z Církve sjednocení a práce s bývalými členy. Navazuje na dvě tradice:
-**Liftonova kritéria** myšlenkové reformy (1961; [EA-8.2.2](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md))
+**[Liftonova kritéria](@/glossary/thought-reform.md)** myšlenkové reformy (1961; [EA-8.2.2](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md))
 a **teorii kognitivní disonance** Leona Festingera (1957), včetně studie *When Prophecy
 Fails* (Festinger, Riecken a Schachter, 1956) o skupině, jejíž víra po nesplněném proroctví
 zesílila. Hassan rámec dále rozvinul v knihách *Releasing the Bonds* (2000) a *Freedom of

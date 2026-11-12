@@ -23,7 +23,7 @@ Podle **DSM-5** (Americká psychiatrická asociace, 2013) jde o čtyři skupiny 
 3. **negativní změny myšlení a nálady** – přesvědčení o sobě a světě („nikomu nelze věřit“), sebeobviňování, trvalé negativní emoce, odcizení, neschopnost prožívat pozitivní emoce;
 4. **změny vzrušivosti a reaktivity** – podrážděnost, riskantní chování, hypervigilance, lekavost, potíže se soustředěním a spánkem.
 
-**MKN-11** (Světová zdravotnická organizace, kód 6B40) vymezuje PTSD úžeji třemi jádrovými prvky: znovuprožívání události v přítomnosti, vyhýbání a přetrvávající pocit aktuálního ohrožení. Vedle ní zavádí samostatnou diagnózu **komplexní PTSD** (6B41) – viz [C-PTSD](@/glossary/c-ptsd.md).
+**MKN-11** (Světová zdravotnická organizace, kód 6B40) vymezuje PTSD úžeji třemi jádrovými prvky: znovuprožívání události v přítomnosti, vyhýbání a přetrvávající pocit aktuálního ohrožení. Vedle ní zavádí samostatnou diagnózu **[komplexní PTSD](@/glossary/c-ptsd.md)** (6B41) – viz [C-PTSD](@/glossary/c-ptsd.md).
 
 ## Původ a kontext pojmu
 
@@ -43,7 +43,7 @@ Na úrovni modelů se PTSD vykládá jako porucha **zpracování traumatické pa
 - **[C-PTSD](@/glossary/c-ptsd.md)** zahrnuje navíc trvalé poruchy regulace emocí, negativní sebepojetí a obtíže ve vztazích; typicky po dlouhodobém, opakovaném traumatu.
 - **Porucha přizpůsobení** následuje po zátěži, která nesplňuje kritérium traumatické události.
 - **Deprese a úzkostné poruchy** se s PTSD často kombinují a mohou ji maskovat.
-- **Disociativní poruchy** (viz [disociace](@/glossary/disociace.md)) mohou s PTSD souviset; DSM-5 zná i disociativní podtyp PTSD.
+- **[Disociativní poruchy](@/glossary/disociace.md)** (viz [disociace](@/glossary/disociace.md)) mohou s PTSD souviset; DSM-5 zná i disociativní podtyp PTSD.
 - **Následky epistemické anihilace** se s PTSD překrývají, ale nejsou s ní totožné: jádrem EA je poškození schopnosti poznávat a důvěřovat vlastnímu úsudku, které se může objevit i bez traumatické události v užším smyslu; rozbor podává [6.2 Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
 
 ## Význam pro Kompendium

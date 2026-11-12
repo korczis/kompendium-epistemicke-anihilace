@@ -135,7 +135,7 @@ protože vyžadují vlastní léčbu a samy o sobě nevysvětlují vztahovou str
 zachytit poruchy nálady v souvislosti s porodem odděleně od kontextu vztahu (World Health
 Organization, 2019).
 
-**Komplexní PTSD** (MKN-11, 6B41) byla po odchodu zvažována: byly přítomny narušený sebeobraz,
+**[Komplexní PTSD](@/glossary/c-ptsd.md)** (MKN-11, 6B41) byla po odchodu zvažována: byly přítomny narušený sebeobraz,
 potíže ve vztazích a emoční dysregulace. Diagnóza byla ponechána k dalšímu sledování; Herman
 (1992) koncept komplexního traumatu formulovala právě pro dlouhodobou expozici kontrole, z níž
 nebylo snadné uniknout.

@@ -117,7 +117,7 @@ Co může vidět vnější pozorovatel:
 
 ## Teoretické zázemí
 
-Husserlův **transcendentální ego** (*Cartesian Meditations*) — formální nositel intencionálních aktů — je redukován na minimální skeletální bod. Ricoeurovo **ipse** je atrofováno na pouhý formální index. Sartrovo **ego transcendence** (*La Transcendance de l'Ego*) — ego jako objekt vědomí — je hypertrofováno na úkor pre-egologického vědomí. Damasiův **autobiografický self** je redukován na holé jméno bez biografického masa. Heideggerova **Jemeinigkeit** (vždy-mojnost) ztrácí konkrétnost. Levinasova **iposeité** je obnažena na pasivní pozici bez konkrétní stopy. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
+Husserlův **transcendentální ego** (*Cartesian Meditations*) — formální nositel intencionálních aktů — je redukován na minimální skeletální bod. Ricoeurovo **[ipse](@/glossary/ipseita.md)** je atrofováno na pouhý formální index. Sartrovo **ego transcendence** (*La Transcendance de l'Ego*) — ego jako objekt vědomí — je hypertrofováno na úkor pre-egologického vědomí. Damasiův **autobiografický self** je redukován na holé jméno bez biografického masa. Heideggerova **Jemeinigkeit** (vždy-mojnost) ztrácí konkrétnost. Levinasova **iposeité** je obnažena na pasivní pozici bez konkrétní stopy. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
 
 ## Empirická literatura
 

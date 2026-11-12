@@ -91,6 +91,15 @@ Requirements (id: what is checked):
                    typed by hand goes stale the first time a technique is added (2026-11-12: the
                    EA-5 index stated 5.3.1–5.3.30 and 5.4.1–5.4.30 for 36 and 60 pages). Link the
                    first technique or the techniques index instead. NEVER baselined
+  duplicate-passage  no pasted prose: a paragraph (whitespace-normalised, 15+ words) re-pasted
+                   byte-identical on 3+ content/kompendium pages, which no gate sees once it has no
+                   figure. Excludes figure-bearing blocks (template-figure owns them), the "Created
+                   by …" chrome footer (a template partial, separate slice) and cross-reference /
+                   relation list lines (derived by the okolí / Související engine, never pasted).
+                   ADR 0013. Remedy: rewrite per page where it pretends to be per-technique content,
+                   or move a genuine shared notice to a Zola include/partial; `scripts/dup-passages.py`
+                   lists each block with its pages so a block is fixed across all of them at once.
+                   NEVER baselined
   howto            no operational playbook: a page carries no "Operační modus/postup/sekvence"
                    section (steps or phases for performing a technique on a person); the
                    defensive frame describes recognition and defence, not execution. NEVER
@@ -158,7 +167,7 @@ import sys
 sys.dont_write_bytecode = True  # no __pycache__ in the checkout
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from ia_model import (ROOT, EA_ONLY, academic_profile, body_lines, bold_spans,  # noqa: E402
-                      bold_term_index, FENCE, figure_lines, TEMPLATE_FIGURE_PAGES,
+                      bold_term_index, FENCE, figure_lines, TEMPLATE_FIGURE_PAGES, FIGURE,
                       detail_thresholds, ea_mentions, load_pages, load_terms,
                       placeholder_markers, slugify, technique_codes, cited_names, plain)
 
@@ -213,6 +222,7 @@ NEVER_BASELINED = {"placeholder", "technique-page", "howto", "drug-dose", "templ
                    "clinical-figure", "fabricated-citation", "legitimate-indication",
                    "code-range",
                    "detail", "weak-link",
+                   "duplicate-passage",
                    "platform-section", "relative-link", "platform-label", "platform-frontmatter",
                    "philosophy-frame"}
 # When a never-baselined requirement was introduced, these pages already failed it (listed by
@@ -226,7 +236,8 @@ PENDING_ZERO = {"placeholder": 0, "technique-page": 0, "howto": 0, "drug-dose": 
                 "platform-label": 0, "platform-frontmatter": 0, "philosophy-frame": 0,
                 "fabricated-citation": 0,
                 "legitimate-indication": 0,
-                "detail": 201, "weak-link": 201}  # 0 → never baselined (lands at 0 after 2e's slice)
+                "detail": 201, "weak-link": 201,
+                "duplicate-passage": 281}  # 0 → never baselined (lands at 0 after 2e's slice)
 BOLD_CANDIDATE_PAGES = 3  # a bold phrase on this many pages is a term and needs its own page
 
 
@@ -286,6 +297,8 @@ def violations(page: dict) -> list:
         found.append("legitimate-indication")
     if page.get("code_ranges"):
         found.append("code-range")
+    if page.get("duplicate_passages"):
+        found.append("duplicate-passage")
     if page.get("misnamed_techniques"):
         found.append("technique-name")
     if page["bold_unlinked"]:
@@ -315,6 +328,7 @@ def explain(page: dict) -> dict:
         "citation-unresolved": ", ".join(page["unresolved"]),
         "clinical-figure": "; ".join(page.get("clinical_figures", [])[:3]),
         "legitimate-indication": "; ".join(page.get("legitimate_indication", [])[:2]),
+        "duplicate-passage": "; ".join(b[:60] for b in page.get("duplicate_passages", [])[:2]),
         "fabricated-citation": "; ".join(page.get("fabricated_citations", [])[:2]),
         "code-range": "; ".join(page.get("code_ranges", [])[:3]),
         "technique-page": ", ".join("EA-" + c for c in page["missing_techniques"]),
@@ -563,6 +577,46 @@ def has_drug_dose(prose: str) -> bool:
     return False
 
 
+# A duplicate PROSE passage: a paragraph re-pasted byte-identical across pages, which no other gate
+# sees once it has no figure (template-figure owns figure-bearing rows). ADR 0013. Measured over
+# content/kompendium, whitespace-normalised, >= DUP_MIN_WORDS words, on DUP_PAGES+ pages. Excluded,
+# because each is a different remedy: the "Created by …" chrome footer (a template partial, dev-31),
+# and cross-reference / relation list items (derived by the okolí / Související engine, not pasted).
+DUP_MIN_WORDS = 15
+DUP_PAGES = 3
+DUP_WORD = re.compile(r"\w+", re.U)
+DUP_CHROME = re.compile(r"Created by|github\.com/korczis")
+# A cross-reference LINE: a list item of EA codes / links, or a block that opens with a link. A
+# prose paragraph with an INLINE @/ link is not excluded — it is still pasted prose.
+DUP_XREF = re.compile(r"^-\s*\*?\*?\[?EA-\d|^-\s*\[|^@/kompendium|^\[[^\]]*\]\(@/")
+
+
+def passage_blocks(prose: str) -> set:
+    """Whitespace-normalised prose paragraphs (contiguous non-blank lines) of DUP_MIN_WORDS+ words,
+    for cross-page duplicate detection. Skips headings, tables, blockquotes and `-`/`*` list items;
+    skips the chrome footer, cross-reference lines and figure-bearing blocks (template-figure's
+    domain). A numbered or inline-linked paragraph that is pasted prose is kept."""
+    out, cur = set(), []
+
+    def flush():
+        if not cur:
+            return
+        nb = re.sub(r"\s+", " ", " ".join(cur)).strip()
+        cur.clear()
+        if (len(DUP_WORD.findall(nb)) >= DUP_MIN_WORDS and nb[:1] not in "#|>"
+                and nb[:2] not in ("- ", "* ") and "@/kompendium" not in nb[:40]
+                and not DUP_CHROME.search(nb) and not DUP_XREF.search(nb) and not FIGURE.search(nb)):
+            out.add(nb)
+
+    for line in prose.split("\n"):
+        if line.strip():
+            cur.append(line)
+        else:
+            flush()
+    flush()
+    return out
+
+
 def analyse(pages: list) -> dict:
     """Attach the text analyses to each page, among them `template_figures`; return the
     bold-candidate worklist {"bold:<slug>": (pages, phrase)}."""
@@ -573,6 +627,7 @@ def analyse(pages: list) -> dict:
     shown = {}
     figures = collections.defaultdict(set)
     fabricated = collections.defaultdict(set)
+    passages = collections.defaultdict(set)
     for page in pages:
         body = page.pop("body")
         lines = list(body_lines(body))
@@ -610,6 +665,8 @@ def analyse(pages: list) -> dict:
         if page["path"].startswith("kompendium/"):
             for unit in citation_stat_units(prose):
                 fabricated[unit].add(page["path"])
+            for blk in passage_blocks(prose):
+                passages[blk].add(page["path"])
         page["bold_unlinked"] = []
         for _, _, text, linked in bold_spans(body, lines):
             if linked:
@@ -636,6 +693,11 @@ def analyse(pages: list) -> dict:
     for page in pages:
         page["fabricated_citations"] = sorted(u for u, paths in fab_shared.items()
                                               if page["path"] in paths)
+    # duplicate-passage: a prose paragraph re-pasted byte-identical on DUP_PAGES+ pages.
+    dup_shared = {b: paths for b, paths in passages.items() if len(paths) >= DUP_PAGES}
+    for page in pages:
+        page["duplicate_passages"] = sorted(b for b, paths in dup_shared.items()
+                                            if page["path"] in paths)
     # Only bold candidates become worklist entries: they are pages the book still owes. A shared
     # figure is not a page to write but a line to delete, and `--list template-figure` names the
     # pages that carry it.

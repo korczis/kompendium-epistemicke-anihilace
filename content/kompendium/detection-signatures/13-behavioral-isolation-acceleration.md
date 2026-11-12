@@ -31,29 +31,39 @@ Epistemickou funkci sociální sítě popsal už Festinger (1954) v teorii soci�
 
 ### Lingvistické
 
-- Výroky, které stavějí blízké do role nepřátel („tvoje matka tě vždycky ponižovala“, „tvoji přátelé jsou na nižší úrovni“).
-- Rámování izolace jako péče nebo pokroku („chci tě jen pro sebe“, „staré vztahy tě brzdí“).
-- „My proti nim“ (srov. [inverze zájmen](@/kompendium/detection-signatures/5-linguistic-pronoun-inversion.md)).
+| Marker | Jak se pozná |
+|---|---|
+| Blízcí v roli nepřátel | „Tvoje matka tě vždycky ponižovala“, „tvoji přátelé jsou na nižší úrovni“. |
+| Izolace rámovaná jako péče nebo pokrok | „Chci tě jen pro sebe“, „staré vztahy tě brzdí“. |
+| Mluva „my proti nim“ | Hranice skupiny se stává hranicí důvěryhodnosti; srov. [inverze zájmen](@/kompendium/detection-signatures/5-linguistic-pronoun-inversion.md). |
 
 ### Behaviorální
 
-- Kontrola telefonu, zpráv, sociálních sítí; požadavek hesel.
-- Konflikty nebo „krize“ načasované na plánovaná setkání s blízkými.
-- Omezení přístupu k penězům, dopravě nebo práci, které setkávání znemožňují.
-- Postupná ztráta koníčků a aktivit mimo vztah nebo skupinu.
+Tyto markery se neomezují na komunikaci: popisují i zužování materiálních podmínek, za nichž je setkání s druhými vůbec možné, a právě spojení izolace s kontrolou peněz, pohybu a každodenního života řadí Stark (2007) k jádru nátlakové kontroly.
+
+| Marker | Jak se pozná |
+|---|---|
+| Dohled nad komunikací | Kontrola telefonu, zpráv a sociálních sítí, požadavek hesel. |
+| Načasovaný konflikt | „Krize“ přicházejí právě na plánovaná setkání s blízkými. |
+| Omezení prostředků | Přístup k penězům, dopravě nebo práci je zúžen tak, že setkávání není proveditelné. |
+| Vyklízení života mimo vztah | Koníčky a aktivity mimo vztah nebo skupinu postupně mizí. |
 
 ### Relační a institucionální
 
-- Okolí hlásí, že osoba „zmizela“, ruší setkání, odpovídá stručně nebo jen v přítomnosti zdroje.
-- Ve skupinách je kontakt s vnějšími lidmi regulován, hlášen nebo zakázán; bývalí členové jsou označeni jako nebezpeční.
-- V organizacích je zaměstnanec odříznut od kolegů a informací (přesunutí, vyloučení z porad), což mu znemožňuje ověřit, co se děje.
+| Marker | Jak se pozná |
+|---|---|
+| Hlášené „zmizení“ | Okolí uvádí, že osoba ruší setkání, odpovídá stručně nebo jen v přítomnosti zdroje. |
+| Regulovaný kontakt ve skupině | Styk s vnějšími lidmi je hlášen nebo zakázán, bývalí členové jsou označeni jako nebezpeční. |
+| Odříznutí na pracovišti | Přesunutí a vyloučení z porad zbavuje zaměstnance kolegů i informací, jimiž by si ověřil, co se děje. |
 
 ## Detekční kritéria
 
-1. Doložitelné zúžení sociální sítě (počet pravidelných kontaktů, četnost setkání) v časové souvislosti se vztahem nebo skupinou.
-2. Zúžení je iniciováno nebo podporováno zdrojem (požadavky, konflikty, rámování).
-3. Zúžení se zrychluje nebo zasahuje stále bližší osoby.
-4. Pokusy zasažené osoby kontakty udržet mají pro ni nepříjemné důsledky.
+| Kritérium | Co musí být doloženo |
+|---|---|
+| 1 | Doložitelné zúžení sociální sítě (počet pravidelných kontaktů, četnost setkání) v časové souvislosti se vztahem nebo skupinou. |
+| 2 | Zúžení je iniciováno nebo podporováno zdrojem (požadavky, konflikty, rámování). |
+| 3 | Zúžení se zrychluje nebo zasahuje stále bližší osoby. |
+| 4 | Pokusy zasažené osoby kontakty udržet mají pro ni nepříjemné důsledky. |
 
 Pozitivní při splnění bodů 1, 2 a alespoň jednoho z bodů 3–4.
 

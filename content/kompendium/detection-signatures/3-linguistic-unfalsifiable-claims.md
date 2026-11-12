@@ -21,12 +21,14 @@ Signatura je lingvistickou stopou techniky [EA-1.3.1 Imunizace proti falsifikaci
 
 ## Co signatura indikuje
 
-Na úrovni struktury jde o **epistemický uzávěr**: tvrzení je chráněno pomocnými předpoklady, které se aktivují pokaždé, když by realita mohla vypovídat proti němu. Typické imunizační mechanismy:
+Na úrovni struktury jde o **epistemický uzávěr**: tvrzení je chráněno pomocnými předpoklady, které se aktivují pokaždé, když by realita mohla vypovídat proti němu. Čtyři imunizační mechanismy, s nimiž se v detekci pracuje nejčastěji, a způsob, jímž se každý z nich ohlašuje v řeči, shrnuje následující přehled.
 
-- **sebeuzavírající výklad kritiky** – „kdo nesouhlasí, potvrzuje, že je pod vlivem toho, před čím varujeme“;
-- **neurčitost času a místa** – „změna přijde, až nastane správná chvíle“;
-- **přesun do nepozorovatelného** – „na hlubší úrovni se to stalo, jen to zatím nevidíš“;
-- **ad hoc dodatky** – po nesplněné předpovědi se upraví výklad, nikoli tvrzení.
+| Imunizační mechanismus | Jak se ohlašuje v řeči |
+|---|---|
+| Sebeuzavírající výklad kritiky | „Kdo nesouhlasí, potvrzuje, že je pod vlivem toho, před čím varujeme.“ |
+| Neurčitost času a místa | „Změna přijde, až nastane správná chvíle.“ |
+| Přesun do nepozorovatelného | „Na hlubší úrovni se to stalo, jen to zatím nevidíš.“ |
+| Ad hoc dodatek k výkladu | Po nesplněné předpovědi se upraví výklad, nikoli samo tvrzení. |
 
 Pro zasaženou osobu je důsledkem, že její vlastní zkušenost přestává mít váhu: každá zkušenost, která tvrzení odporuje, je předem vyložena jako omyl, odpor nebo nedostatek „úrovně“. To je přímá cesta k [indukované pochybnosti](@/kompendium/techniques/ea-1-3-4-indukovana-pochybnost.md) o vlastním úsudku.
 
@@ -36,28 +38,36 @@ Klasickou empirickou ilustraci tohoto mechanismu podali Festinger, Riecken a Sch
 
 ### Lingvistické
 
-- Předpovědi bez času, místa a měřitelného výsledku.
-- Únikové obraty po nesplněném očekávání: „to neznamená doslova“, „symbolicky se to naplnilo“, „na hlubší rovině“.
-- Kritika zahrnutá do teorie jako její potvrzení („odpor je důkaz, že to funguje“).
-- Univerzální kvantifikátory bez výjimek („vždy“, „každý, kdo…“), které se však při protipříkladu přesouvají.
+| Marker v řeči | Doklad, který se zaznamenává |
+|---|---|
+| Předpověď bez času, místa a měřitelného výsledku | „Zlom přijde, až bude připraveno dost lidí.“ |
+| Únikový obrat po nesplněném očekávání | „To neznamená doslova“, „symbolicky se to naplnilo“, „na hlubší rovině“ |
+| Kritika zahrnutá do teorie jako její potvrzení | „Odpor je důkaz, že to funguje.“ |
+| Univerzální kvantifikátor, který se při protipříkladu přesouvá | „Vždy“, „každý, kdo…“ – a po uvedení výjimky nová podmínka |
 
 ### Behaviorální
 
-- Na otázku „co by tě přesvědčilo, že to neplatí?“ přichází odpověď „nic, protože to platí“, nebo útok na tazatele.
-- Nesplněná předpověď nevede k revizi, ale ke zvýšení nároků na víru nebo oddanost.
-- Mluvčí si vybírá jen potvrzující příklady a protipříklady nesbírá ani nekomentuje.
+| Marker v jednání | Co je na něm pozorovatelné |
+|---|---|
+| Reakce na otázku „co by tě přesvědčilo, že to neplatí?“ | Odpověď „nic, protože to platí“, nebo útok na tazatele |
+| Reakce na nesplněnou předpověď | Nikoli revize tvrzení, ale vyšší nárok na víru či oddanost |
+| Zacházení s příklady | Vybírají se jen potvrzující; protipříklady se nesbírají ani nekomentují |
 
 ### Relační a institucionální
 
-- Pochybnost je ve skupině morálně zatížená – ten, kdo pochybuje, je „slabý“ nebo „nevděčný“.
-- Odpovědnost za neúspěch nese vždy jednotlivec („nevěřil jsi dost“), nikdy tvrzení.
-- V institucích se signatura objevuje v hodnoceních, která nejdou napadnout („nemáte správný přístup“), a v rozhodnutích bez kritérií.
+| Prostředí | Podoba markeru |
+|---|---|
+| Skupina | Pochybnost je morálně zatížená – kdo pochybuje, je „slabý“ nebo „nevděčný“ |
+| Přičítání neúspěchu | Nese jej vždy jednotlivec („nevěřil jsi dost“), nikdy tvrzení |
+| Instituce | Hodnocení, které nelze napadnout („nemáte správný přístup“), a rozhodnutí bez kritérií |
 
 ## Detekční kritéria
 
-1. Tvrzení nemá ani při doplňujících otázkách uvedenou podmínku vyvrácení.
-2. Obsahuje nebo je chráněno mechanismem, který kritiku či neúspěch vykládá jako potvrzení.
-3. Je použito jako základ požadavku na jednání (platba, rozchod s blízkými, poslušnost, změna léčby).
+| Bod | Kritérium |
+|---|---|
+| 1 | Tvrzení nemá ani při doplňujících otázkách uvedenou podmínku vyvrácení. |
+| 2 | Obsahuje nebo je chráněno mechanismem, který kritiku či neúspěch vykládá jako potvrzení. |
+| 3 | Je použito jako základ požadavku na jednání (platba, rozchod s blízkými, poslušnost, změna léčby). |
 
 Pozitivní je kombinace bodů 1–3. Body 1 a 2 bez bodu 3 popisují spíše názorový nebo světonázorový výrok, který sám o sobě nemusí být manipulací.
 
@@ -83,11 +93,7 @@ Konečně je třeba pamatovat, že Popperovo kritérium je samo předmětem filo
 
 ## Validační test
 
-**Otázka po podmínce vyvrácení.** Mluvčímu nebo zasažené osobě se položí otázka: „Co by se muselo stát, abys uznal, že to neplatí?“ Hodnotí se:
-
-- zda je odpověď konkrétní a pozorovatelná;
-- zda by mluvčí uvedenou podmínku skutečně uznal, kdyby nastala (lze ověřit na minulých nesplněných předpovědích);
-- zda se podmínka po zadání neposouvá.
+**Otázka po podmínce vyvrácení.** Mluvčímu nebo zasažené osobě se položí otázka: „Co by se muselo stát, abys uznal, že to neplatí?“ Hodnotí se tři věci současně: zda je odpověď konkrétní a pozorovatelná, zda by mluvčí uvedenou podmínku skutečně uznal, kdyby nastala – což lze ověřit na dříve nesplněných předpovědích téhož zdroje –, a zda se podmínka po vyslovení neposouvá. Právě poslední z nich nese nejvíc informace: posun podmínky poté, co byla jednou vyslovena, odpovídá tomu, co Popper (1963) nazval konvencionalistickým úskokem, tedy úpravě teorie provedené výhradně proto, aby nepříznivé pozorování ztratilo vypovídací hodnotu.
 
 U zasažené osoby se otázka klade laskavě a bez tlaku; jejím cílem je obnovit vlastní kritéria, ne ji „usvědčit“ z omylu.
 

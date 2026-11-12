@@ -31,30 +31,38 @@ Logika tento vzorec zná dlouho jako *petitio principii*, kdy závěr je předpo
 
 ### Lingvistické
 
-- Definice klíčových pojmů se při sledování odkazů vracejí k výchozímu pojmu.
-- Na žádost o příklad přichází další definice místo konkrétní situace.
-- Pojmy jsou definovány přes své účinky, které jsou zase definovány přes pojem („pravé vědomí je stav, v němž člověk vidí pravdu; pravdu vidí ten, kdo má pravé vědomí“).
-- Negativní případy se nedají formulovat: neexistuje popis situace, kdy by pojem neplatil.
+| Marker v definicích | Jak se v řeči pozná |
+|---|---|
+| Uzavřený řetězec | Definice klíčových pojmů se při sledování odkazů vrací k pojmu, od něhož se vyšlo. |
+| Definice místo příkladu | Na žádost o konkrétní situaci přichází další definice, ne popis toho, co se stalo. |
+| Pojem přes vlastní účinek | Pojem je vymezen svým účinkem a účinek zpět pojmem („pravé vědomí je stav, v němž člověk vidí pravdu; pravdu vidí ten, kdo má pravé vědomí“). |
+| Nemožnost negativního případu | Nelze popsat situaci, v níž by pojem neplatil, a tím ani ověřit, že platí. |
 
 ### Behaviorální
 
-- Výzva k vnějšímu ukotvení („jak to poznám v praxi?“) je odbyta odkazem na zkušenost, kterou tazatel „ještě nemá“.
-- Mluvčí reaguje na rozbor kruhu podrážděně nebo ho označí za „intelektualizaci“.
-- Učení je postupné: nové pojmy se přidávají tak, aby se opíraly jen o dříve přijaté.
+| Behaviorální marker | Jak se v rozhovoru pozná |
+|---|---|
+| Odkaz na chybějící zkušenost | Výzva k vnějšímu ukotvení („jak to poznám v praxi?“) je odbyta odkazem na zkušenost, kterou tazatel „ještě nemá“. |
+| Podráždění nad rozborem | Rozbor kruhu vyvolá podráždění nebo je označen za „intelektualizaci“. |
+| Řazené učení | Nové pojmy se přidávají tak, aby se opíraly jen o pojmy dříve přijaté, a nikdy o něco mimo systém. |
 
 ### Relační a institucionální
 
-- Výklad pojmů má jediný zdroj (vedoucí, zakladatel, „metodika“), proti němuž neexistuje odvolání.
-- Ve skupině je nežádoucí používat pojmy „zvenku“; vnější slovník je nálepkován jako nižší úroveň porozumění.
-- V organizacích se kruh objevuje v hodnoticích systémech: „výkon“ se měří „angažovaností“, ta „kulturou“ a kultura „výkonem“ – a hodnocený nemá jak výsledek zpochybnit.
+| Marker v prostředí | Jak se v prostředí pozná |
+|---|---|
+| Jediný výkladový zdroj | Výklad pojmů má jediný zdroj (vedoucí, zakladatel, „metodika“), proti němuž neexistuje odvolání. |
+| Vnější slovník jako nižší úroveň | Používat pojmy „zvenku“ je ve skupině nežádoucí; takový slovník je nálepkován jako nedostatek porozumění. |
+| Kruh v hodnocení lidí | „Výkon“ se měří „angažovaností“, ta „kulturou“ a kultura „výkonem“ – a hodnocený nemá jak výsledek zpochybnit. |
 
 ## Detekční kritéria
 
-Signatura je pozitivní, pokud platí současně:
+Signatura je pozitivní, pokud platí současně všechny tři podmínky.
 
-1. Při mapování definic klíčových pojmů vznikne uzavřený řetězec, z něhož nevede žádná vazba ke konkrétnímu pozorování.
-2. Opakovaná žádost o příklad, protipříklad nebo kritérium použití nepřinese vnější kotvu.
-3. Systém pojmů slouží k hodnocení lidí nebo k rozhodování o nich (přijetí, postup, vyloučení).
+| Podmínka | Co musí platit |
+|---|---|
+| Uzavřenost mapy | Při mapování definic klíčových pojmů vznikne uzavřený řetězec, z něhož nevede žádná vazba ke konkrétnímu pozorování. |
+| Marnost žádosti o kotvu | Opakovaná žádost o příklad, protipříklad nebo kritérium použití nepřinese vnější kotvu. |
+| Užití k rozhodování o lidech | Systém pojmů slouží k hodnocení lidí nebo k rozhodování o nich (přijetí, postup, vyloučení). |
 
 Pomocným, nikoli nutným kritériem je reakce na pokus kruh pojmenovat – obrana, zesměšnění nebo patologizace tazatele.
 
@@ -84,10 +92,14 @@ Třetí riziko se týká náboženských a filozofických systémů, které obsa
 
 ## Dokumentace v praxi
 
-- Citovat definice doslovně a s odkazem na zdroj (materiál, nahrávka, výpověď).
-- Přiložit mapu definic jako pracovní přílohu s datem vytvoření.
-- Zapsat, jaké otázky byly položeny a co na ně zaznělo.
-- Oddělit popis struktury (kruh existuje) od interpretace (proč byl vytvořen).
+Dokumentace kruhu se opírá o čtyři prvky.
+
+| Záznamová položka | Co obsahuje |
+|---|---|
+| Doslovné definice | Definice uvedené slovo za slovem s odkazem na zdroj (materiál, nahrávka, výpověď). |
+| Mapa definic | Mapa definic přiložená jako pracovní příloha s datem svého vytvoření. |
+| Položené otázky | Jaké otázky na kotvu byly položeny a co na ně zaznělo. |
+| Oddělení popisu od výkladu | Popis struktury (kruh existuje) oddělený od interpretace (proč byl vytvořen). |
 
 V organizačním a právním kontextu má mapa definic hodnotu tam, kde se posuzuje, zda osoba rozuměla tomu, s čím souhlasila (srov. [doktrína nepřípustného vlivu](@/kompendium/forensic-legal/11-undue-influence-doctrine.md)).
 

@@ -16,10 +16,7 @@ date_modified = "2026-11-10"
 
 ## Definice signatury
 
-Epistemická kalibrace je shoda mezi tím, jak jistě něčemu věříme, a tím, jak dobře je to podloženo. Dobře kalibrovaný člověk je si jistý tam, kde má silné důvody, a nejistý tam, kde má slabé; z věcí, kterým přisuzuje vysokou pravděpodobnost, se jich skutečně naplní většina. Jako **detekční signatura** tato stránka popisuje vzorec **kalibračního rozladění** ve vztahu mezi zdrojem a zasaženou osobou, který má dvě zrcadlové strany:
-
-- **u zdroje** soustavnou nadměrnou jistotu, která se nemění s důkazy (behaviorálně ji zachycuje [nepřiměřená sebejistota](@/kompendium/detection-signatures/9-behavioral-disproportionate-confidence.md));
-- **u zasažené osoby** pokles jistoty ve vlastní úsudek pod úroveň jejích skutečných důkazů a současný nárůst důvěry ve zdroj nad úroveň toho, co zdroj doložil.
+Epistemická kalibrace je shoda mezi tím, jak jistě něčemu věříme, a tím, jak dobře je to podloženo. Dobře kalibrovaný člověk je si jistý tam, kde má silné důvody, a nejistý tam, kde má slabé; z věcí, kterým přisuzuje vysokou pravděpodobnost, se jich skutečně naplní většina. Jako **detekční signatura** tato stránka popisuje vzorec **kalibračního rozladění** ve vztahu mezi zdrojem a zasaženou osobou. Rozladění má dvě zrcadlové strany, které se obvykle objevují pohromadě. Na straně zdroje jde o soustavnou nadměrnou jistotu, která se nemění s důkazy; behaviorálně ji zachycuje [nepřiměřená sebejistota](@/kompendium/detection-signatures/9-behavioral-disproportionate-confidence.md) a v terminologii přehledu Moora a Healyho (2008) jí nejblíže odpovídá nadměrná přesnost (*overprecision*), tedy nepřiměřeně úzké rozpětí nejistoty u vlastních přesvědčení. Na straně zasažené osoby klesá jistota ve vlastní úsudek pod úroveň jejích skutečných důkazů a současně roste důvěra ve zdroj nad úroveň toho, co zdroj doložil.
 
 Kalibrace je zároveň **obranná dovednost**: kdo umí vědomě přiřazovat míru jistoty podle důkazů, je méně zranitelný vůči jistotě předváděné druhými. Teoretické zázemí dává [epistemická pokora](@/glossary/epistemicka-pokora.md), [metakognice](@/glossary/metakognice.md) a výzkum úsudku v nejistotě (Tversky & Kahneman, heuristiky a zkreslení; viz [EA-7.3.2](@/kompendium/techniques/ea-7-3-2-tversky-heuristics.md)).
 
@@ -35,28 +32,36 @@ Pojem kalibrace pochází z výzkumu pravděpodobnostních úsudků. Brier (1950
 
 ### Na straně zdroje
 
-- Stejně vysoká jistota napříč tématy různé obtížnosti.
-- Absence revize po selhaných předpovědích.
-- Požadavek důvěry na základě autority nebo vztahu, ne výsledků („věř mi“).
+| Marker | Na čem se pozná |
+|---|---|
+| Jistota nezávislá na obtížnosti tématu | Táž míra jistoty u snadné i u sporné otázky |
+| Chybějící revize po selhané předpovědi | Jistota zůstává stejná, mění se jen výklad výsledku |
+| Nárok na důvěru z postavení, ne z výsledků | „Věř mi“ místo záznamu toho, co se dříve potvrdilo |
 
 ### Na straně zasažené osoby
 
-- Výroky typu „asi se mýlím“ u věcí, které jsou doložitelně správné.
-- Ochota přijmout tvrzení zdroje bez dokladu a současně neochota věřit vlastnímu dokladu.
-- Ztráta schopnosti vyjádřit míru jistoty – vše je buď „jasné, protože to řekl on“, nebo „nevím“.
+| Marker | Na čem se pozná |
+|---|---|
+| Omluvná nejistota u doložitelně správných věcí | „Asi se mýlím“ pronesené nad vlastním správným zápisem nebo zprávou |
+| Nerovný nárok na doklad | Tvrzení zdroje se přijímá bez dokladu, vlastní doklad nestačí |
+| Vymizení stupňů jistoty | Vše je buď „jasné, protože to řekl on“, nebo „nevím“ |
 
 ### Relační a institucionální kontext
 
-- Ve skupině nebo organizaci se nesleduje, zda se rozhodnutí a předpovědi naplnily.
-- Chyby autority jsou přisuzovány podřízeným nebo okolnostem.
-- Kritika založená na výsledcích je odmítána jako „negativita“.
+| Prostředí | Podoba markeru |
+|---|---|
+| Skupina nebo organizace | Nesleduje se, zda se rozhodnutí a předpovědi naplnily |
+| Přičítání chyb | Omyly autority nesou podřízení nebo „okolnosti“ |
+| Zacházení s kritikou | Výhrada opřená o výsledky je odmítnuta jako „negativita“ |
 
 ## Detekční kritéria
 
-1. U zdroje lze doložit opakované tvrzení s vysokou jistotou, které se nenaplnilo, bez revize jistoty.
-2. U zasažené osoby lze doložit pokles důvěry ve vlastní úsudek, přestože její úsudek byl v ověřitelných případech správný.
-3. Důvěra zasažené osoby ve zdroj se nesnížila úměrně jeho omylům.
-4. Obě změny časově souvisejí se vztahem.
+| Bod | Kritérium |
+|---|---|
+| 1 | U zdroje lze doložit opakované tvrzení s vysokou jistotou, které se nenaplnilo, bez revize jistoty. |
+| 2 | U zasažené osoby lze doložit pokles důvěry ve vlastní úsudek, přestože její úsudek byl v ověřitelných případech správný. |
+| 3 | Důvěra zasažené osoby ve zdroj se nesnížila úměrně jeho omylům. |
+| 4 | Obě změny časově souvisejí se vztahem. |
 
 Pozitivní při splnění bodů 1–3; bod 4 ukazuje na vztahový původ rozladění.
 

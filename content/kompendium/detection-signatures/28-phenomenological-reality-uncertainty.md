@@ -31,29 +31,38 @@ Fenomenologická a sociologická tradice tento mechanismus popsala podrobně. Hu
 
 ### Subjektivní výpověď
 
-- „Už nevím, co je pravda.“
-- „Připadám si, jako bych žila ve snu.“
-- „Musím si všechno nahrávat, jinak nevím, jestli se to stalo.“
-- Pochybnost se týká hlavně událostí ve vztahu nebo skupině; u neutrálních věcí bývá menší.
+| Doslovná výpověď | Čeho se pochybnost týká |
+|---|---|
+| „Už nevím, co je pravda.“ | Pravdivosti toho, co jí bylo sděleno |
+| „Připadám si, jako bych žila ve snu.“ | Skutečnosti vlastního prožívání (derealizace) |
+| „Musím si všechno nahrávat, jinak nevím, jestli se to stalo.“ | Vlastní paměti na proběhlé události |
+
+Pochybnost se přitom týká hlavně událostí ve vztahu nebo skupině; u neutrálních věcí bývá menší.
 
 ### Pozorovatelné chování
 
-- Opakované ověřování (fotografování, nahrávání, dotazy na druhé).
-- Úzkostné hledání potvrzení u terapeuta nebo blízkých.
-- Neschopnost jednat, dokud není realita „potvrzena“.
+| Marker | Jak se projevuje |
+|---|---|
+| Opakované ověřování | Fotografování, nahrávání, dotazy na druhé po téže události |
+| Hledání potvrzení u druhých | Úzkostné dotazy směřované na terapeuta nebo blízké |
+| Odkládání jednání | Osoba nejedná, dokud není realita někým „potvrzena“ |
 
 ### Relační kontext
 
-- Zdroj soustavně popírá události, výroky nebo vnímání osoby.
-- Skupina nabízí alternativní realitu, v níž běžný svět je „iluzí“ nebo „matrixem“.
-- Osoba nemá nezávislé svědky svého života.
+| Prostředí | Podoba markeru |
+|---|---|
+| Zdroj | Soustavně popírá události, výroky nebo vnímání osoby |
+| Skupina | Nabízí alternativní realitu, v níž je běžný svět „iluzí“ nebo „matrixem“ |
+| Okolí | Osoba nemá nezávislé svědky svého života |
 
 ## Detekční kritéria
 
-1. Osoba popisuje zpochybnění reality, které je nové nebo výrazně zesílené.
-2. Pochybnost se rozvinula v souvislosti s prostředím, kde je realita popírána nebo přepisována.
-3. Osoba si zachovává vhled – ví, že její pochybnost je neobvyklá, a hledá ověření.
-4. Byly zváženy jiné příčiny, zejména psychotické, disociativní, neurologické a toxické.
+| Bod | Kritérium |
+|---|---|
+| 1 | Osoba popisuje zpochybnění reality, které je nové nebo výrazně zesílené. |
+| 2 | Pochybnost se rozvinula v souvislosti s prostředím, kde je realita popírána nebo přepisována. |
+| 3 | Osoba si zachovává vhled – ví, že její pochybnost je neobvyklá, a hledá ověření. |
+| 4 | Byly zváženy jiné příčiny, zejména psychotické, disociativní, neurologické a toxické. |
 
 Bod 3 je podstatný: zachovaný vhled a aktivní hledání ověření odlišují signaturu od psychotického prožívání, kde pochybnost obvykle chybí a přesvědčení je pevné.
 

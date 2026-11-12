@@ -31,31 +31,39 @@ Erikson (1968) chápal identitu jako pocit vnitřní stejnosti a kontinuity, kte
 
 ### Subjektivní výpověď
 
-- „Nevím, co mám rád, protože dřív za mě rozhodovali.“
-- „To, co jsem byla předtím, mi připadá jako jiný člověk.“
-- „Nedokážu říct, co si myslím, dokud nevím, co by řekl on.“
-- Popis sebe ve druhé nebo třetí osobě nebo skupinovou terminologií (srov. [inverze zájmen](@/kompendium/detection-signatures/5-linguistic-pronoun-inversion.md)).
+| Typická výpověď | Která část já v ní chybí |
+|---|---|
+| „Nevím, co mám rád, protože dřív za mě rozhodovali.“ | Vlastní preference a přání. |
+| „To, co jsem byla předtím, mi připadá jako jiný člověk.“ | Souvislost s vlastní minulostí. |
+| „Nedokážu říct, co si myslím, dokud nevím, co by řekl on.“ | Stanoviště, z něhož lze zaujmout názor. |
+| Popis sebe ve druhé či třetí osobě nebo skupinovou terminologií | Vlastní hlas v mluvení o sobě (srov. [inverze zájmen](@/kompendium/detection-signatures/5-linguistic-pronoun-inversion.md)). |
 
 ### Pozorovatelné chování
 
-- Neschopnost činit drobná rozhodnutí podle vlastních preferencí (jídlo, oblečení, volný čas).
-- Přejímání názorů, stylu a slovníku osoby, s níž je člověk právě v kontaktu.
-- Náhlé změny identity (jméno, vzhled, hodnoty) bez vlastní reflexe.
+| Pozorované chování | Jak se projevuje |
+|---|---|
+| Nerozhodnost v drobnostech | Drobná rozhodnutí podle vlastních preferencí (jídlo, oblečení, volný čas) se nedaří učinit. |
+| Zrcadlení přítomného člověka | Názory, styl a slovník se přejímají od osoby, s níž je člověk právě v kontaktu. |
+| Nereflektovaná změna identity | Jméno, vzhled nebo hodnoty se mění náhle a bez vlastní úvahy o tom, proč. |
 
 ### Relační kontext
 
-- Prostředí přidělovalo nové jméno, roli nebo „pravou identitu“.
-- Minulost byla znehodnocena („tvůj starý život byl iluze“).
-- Kontakty s lidmi, kteří znají dřívější já, byly přerušeny ([akcelerace izolace](@/kompendium/detection-signatures/13-behavioral-isolation-acceleration.md)).
+| Rys prostředí | Jak se projevoval |
+|---|---|
+| Přidělená identita | Prostředí přidělovalo nové jméno, roli nebo „pravou identitu“. |
+| Znehodnocená minulost | Dřívější život byl označen za omyl či iluzi („tvůj starý život byl iluze“). |
+| Odstranění svědků | Kontakty s lidmi, kteří znají dřívější já, byly přerušeny ([akcelerace izolace](@/kompendium/detection-signatures/13-behavioral-isolation-acceleration.md)). |
 
 ## Detekční kritéria
 
-1. Osoba popisuje ztrátu souvislého vědomí sebe nebo nemožnost pojmenovat vlastní hodnoty a přání bez vnějšího odkazu.
-2. Je patrný rozpor mezi dřívější a současnou identitou, který osoba nepopisuje jako vlastní vývoj.
-3. Prostředí aktivně přepisovalo identitu (nové role, znehodnocení minulosti, izolace od svědků).
-4. Byly zváženy vývojové, psychiatrické a neurologické příčiny.
+| Podmínka | Co se zjišťuje |
+|---|---|
+| Ztráta souvislého já | Osoba popisuje ztrátu souvislého vědomí sebe nebo nemožnost pojmenovat vlastní hodnoty a přání bez vnějšího odkazu. |
+| Rozpor neprožívaný jako vývoj | Je patrný rozpor mezi dřívější a současnou identitou, který osoba nepopisuje jako vlastní vývoj. |
+| Přepisující prostředí | Prostředí identitu aktivně přepisovalo (nové role, znehodnocení minulosti, izolace od svědků). |
+| Zvážení jiných příčin | Byly zváženy vývojové, psychiatrické a neurologické příčiny, které popisují části níže. |
 
-Pozitivní při splnění všech bodů. Bod 2 odlišuje signaturu od svobodné proměny: osoba změnu neprožívá jako svou volbu, ale jako ztrátu.
+Signatura je pozitivní při splnění všech čtyř podmínek. Rozpor neprožívaný jako vývoj ji odlišuje od svobodné proměny: osoba změnu nepopisuje jako svou volbu, ale jako ztrátu.
 
 ## Odlišení od běžných stavů
 

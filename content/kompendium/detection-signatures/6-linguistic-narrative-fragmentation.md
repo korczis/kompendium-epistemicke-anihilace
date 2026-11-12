@@ -29,31 +29,31 @@ Pojem implikatury zavedl Grice (1975): v běžném rozhovoru předpokládáme, �
 
 ### Lingvistické
 
-- Parataxe: věty stojí vedle sebe bez spojek tam, kde by příčinná nebo časová spojka byla nutná.
-- Chronologie bez dat a bez pořadí („jednou“, „pak taky“, „mezitím“).
-- Vynechání klíčového kontextu, který by souvislost vyvrátil (srov. [EA-2.3.3 Quote Mining](@/kompendium/techniques/ea-2-3-3-quote-mining.md)).
-- Otázky, které implikují spojení („Není zvláštní, že…?“, „Proč asi…?“).
+| Znak sdělení | Jak se v přepisu projeví |
+| --- | --- |
+| Parataxe | věty stojí vedle sebe bez spojky tam, kde by časová nebo příčinná spojka byla nutná |
+| Chronologie bez dat | „jednou“, „pak taky“, „mezitím“ namísto určení, co bylo dřív |
+| Vynechaný klíčový kontext | chybí právě ta informace, která by implikovanou souvislost vyvrátila (srov. [EA-2.3.3 Quote Mining](@/kompendium/techniques/ea-2-3-3-quote-mining.md)) |
+| Otázka místo tvrzení | „Není zvláštní, že…?“, „Proč asi…?“ – spojení je položeno jako dotaz |
 
 ### Behaviorální
 
-- Na otázku „tvrdíš, že X způsobil Y?“ zdroj odpoví „to jsem neřekl, jen říkám fakta“.
-- Fragmenty jsou opakovány v různém pořadí podle publika.
-- Posluchači převyprávějí příběh s kauzálními spoji, které zdroj nevyslovil – to je nejsilnější behaviorální marker.
+Nejsilnějším behaviorálním markerem není nic, co by zdroj řekl, nýbrž to, co po něm zopakují posluchači: převyprávějí příběh s kauzálními spoji, které v původním sdělení nezněly, a zdroj je neopravuje. Na přímý dotaz, zda tvrdí, že X způsobil Y, odpoví, že nic takového neřekl a že jen uvádí fakta; tatáž sada fragmentů se přitom podle publika opakuje v jiném pořadí. Grice (1975) tento rozpor vysvětluje: posluchač pracuje s předpokladem, že mluvčí sděluje relevantní věci v přiměřeném pořadí, takže souvislost odvodí, i když vyslovena nebyla, a mluvčí se může od jeho závěru odstřihnout.
 
 ### Relační a institucionální
 
-- V rodině nebo skupině koluje o konkrétním člověku soubor střípků, z nichž nikdo nesložil celý příběh, ale všichni „vědí, jaký je“.
-- Ve spisových materiálech se objevují izolované záznamy vytržené z časové osy.
-- Zasažené osobě jsou její vlastní vzpomínky vraceny v přeskupené podobě („pamatuješ, jak jsi tehdy…“).
+Ve skupině nebo v rodině o konkrétním člověku koluje soubor střípků, z nichž nikdo nesložil celý příběh, a přesto všichni „vědí, jaký je“; ve spisových materiálech má tentýž vzorec podobu izolovaných záznamů vytržených z časové osy a vůči zasažené osobě podobu vzpomínek vracených jí v přeskupeném pořadí. Wardle a Derakhshan (2017) popisují tuto podobu informační poruchy jako falešný kontext (*false context*) – pravdivý obsah zasazený do souvislosti, která mu dává jiný význam –, a právě proto se kolující fragmenty nedají vyvrátit opravou jediného údaje.
 
 ## Detekční kritéria
 
-1. Sdělení obsahuje jednotlivě ověřitelné údaje bez explicitní časové nebo příčinné vazby.
-2. Kontext, který by implikovanou souvislost oslabil, je dostupný, ale zdrojem vynechán.
-3. Posluchači prokazatelně odvozují závěr, který zdroj nevyslovil, a zdroj ho neopravuje.
-4. Zdroj na přímou otázku po souvislosti odpovědnost za závěr odmítá.
+| Kritérium | Co se zjišťuje | Role v závěru |
+| --- | --- | --- |
+| Údaje bez vazby | sdělení obsahuje jednotlivě ověřitelné údaje bez explicitní časové nebo příčinné vazby | nutné |
+| Dostupný vynechaný kontext | kontext, který by implikovanou souvislost oslabil, byl k dispozici, ale ve sdělení není | nutné |
+| Odvozený závěr bez opravy | posluchači prokazatelně odvozují závěr, který zdroj nevyslovil, a zdroj jej neopravuje | nutné |
+| Odmítnutí odpovědnosti | na přímou otázku po souvislosti zdroj odpovědnost za závěr odmítá | potvrzující |
 
-Pozitivní při splnění bodů 1–3; bod 4 signaturu potvrzuje.
+Signatura je pozitivní při splnění všech tří nutných kritérií.
 
 ## Odlišení od benigních podob
 
@@ -83,9 +83,11 @@ U zasažené osoby se tento test **nepoužívá**; místo toho se pracuje s trau
 
 ## Dokumentace v praxi
 
-- Doslovný přepis sdělení zdroje včetně pořadí vět.
-- Časová osa s rozlišením „doloženo“ / „implikováno“.
-- U výpovědi zasažené osoby zapisovat její slova bez dodatečného řazení a bez hodnocení „nesouvislá“; případné mezery uvést jako mezery (viz [výpověď oběti](@/kompendium/forensic-legal/25-victim-statement.md) a [forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md)).
+| Co se zaznamenává | Pravidlo zápisu |
+| --- | --- |
+| Sdělení zdroje | doslovný přepis včetně pořadí vět, nikoli shrnutí obsahu |
+| Časová osa | u každého údaje se odlišuje „doloženo“ od „implikováno“ |
+| Výpověď zasažené osoby | její slova bez dodatečného řazení a bez hodnocení „nesouvislá“; mezery se uvádějí jako mezery (viz [výpověď oběti](@/kompendium/forensic-legal/25-victim-statement.md) a [forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md)) |
 
 ## Doporučený postup
 

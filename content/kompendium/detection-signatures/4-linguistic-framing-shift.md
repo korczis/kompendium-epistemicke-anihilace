@@ -31,31 +31,33 @@ Komunikační věda popisuje rámování jako výběr a zvýraznění určitých
 
 ### Lingvistické
 
-- **Nominalizace a trpný rod**: „došlo k incidentu“, „byla učiněna chyba“ místo „X udělal Y“ – aktér mizí z věty.
-- **Výměna nálepek** se stejným referentem a opačnou valencí: „ochrana“ ↔ „kontrola“, „upřímnost“ ↔ „útok“.
-- **Posun měřítka**: jednotlivý čin je přerámován jako „vzorec na obou stranách“ nebo naopak systémový problém jako „ojedinělé selhání“.
-- **Přesun časového počátku**: příběh začíná až reakcí druhé strany, nikoli činem, na který reagovala.
+Jazyková vrstva je nejlépe dokumentovatelná: posun zůstává v textu zachován.
+
+| Jazykový prostředek | Podoba v textu |
+| --- | --- |
+| Nominalizace a trpný rod | „došlo k incidentu“, „byla učiněna chyba“ místo „X udělal Y“; aktér z věty mizí |
+| Výměna nálepky při témže referentu | „ochrana“ místo „kontrola“, „útok“ místo „upřímnost“ – opačná valence, totéž jednání |
+| Posun měřítka | jednotlivý čin podán jako „vzorec na obou stranách“, systémový problém jako „ojedinělé selhání“ |
+| Přesun časového počátku | vyprávění začíná reakcí druhé strany, nikoli činem, na který reagovala |
 
 ### Behaviorální
 
-- Mluvčí vypráví tutéž událost různým publikům v různých rámcích.
-- Na připomínku původní verze reaguje tvrzením, že „to tak vždycky myslel“.
-- Posluchač, který původní rámec hájí, je označen za přecitlivělého nebo zaujatého.
+Chování mluvčího prozrazuje posun především tím, že se rámec mění s publikem: tatáž událost je různým skupinám vyprávěna jinak a na připomínku starší verze mluvčí odpovídá, že „to tak vždycky myslel“. Posluchač, který hájí původní rámec, bývá označen za přecitlivělého nebo zaujatého, a tím se z obhajoby verze stává otázka jeho povahy. Chong a Druckman (2007) ukázali, že účinek rámce je nejsilnější u posluchačů bez konkurenčního rámce a bez nezávislých informací; měnit rámec podle publika a oslabovat nositele původní verze je proto postup, který si účinnost udržuje.
 
 ### Relační a institucionální
 
-- V rodině nebo týmu se ustaluje „oficiální verze“ událostí, kterou opakují i lidé, kteří u ní nebyli.
-- Interní zprávy a tiskové zprávy popisují incident jazykem, z něhož nelze zjistit, kdo co udělal.
-- Zasažená osoba začne sama popisovat vlastní zkušenost v rámci, který jí byl nabídnut („asi jsem to přehnala“).
+V rodině nebo v týmu se postupně ustaluje „oficiální verze“ událostí, kterou opakují i lidé, kteří u nich nebyli, a zasažená osoba nakonec popisuje vlastní zkušenost v rámci, jenž jí byl nabídnut („asi jsem to přehnala“). Institucionální podobou téhož jsou interní a tiskové zprávy psané jazykem, z něhož nelze zjistit, kdo co udělal: Henley, Miller a Beazley (1995) doložili, že trpný rod v popisech násilí snižuje odpovědnost, kterou čtenář pachateli přisoudí, takže neosobní formulace není jen slohovou konvencí úředního textu.
 
 ## Detekční kritéria
 
-1. Existují alespoň dvě doložené verze téže události od stejného zdroje s odlišným přisouzením aktérství nebo odpovědnosti.
-2. Změna rámce nebyla zdůvodněna novými fakty.
-3. Posun systematicky zvýhodňuje zdroj (snižuje jeho odpovědnost nebo zvyšuje odpovědnost druhého).
-4. Posun má dopad na rozhodování (kdo se omlouvá, kdo je sankcionován, komu se věří).
+| Kritérium | Co musí být doloženo | Role v závěru |
+| --- | --- | --- |
+| Více verzí od jednoho zdroje | alespoň dvě doložené verze téže události s odlišným přisouzením aktérství nebo odpovědnosti | nutné |
+| Změna bez nových fakt | posun není zdůvodněn informací, která mezitím přibyla | nutné |
+| Systematický směr | posun opakovaně zvýhodňuje zdroj: snižuje jeho odpovědnost nebo zvyšuje odpovědnost druhého | nutné |
+| Dopad na rozhodování | kdo se omlouvá, kdo je sankcionován, komu se věří | určuje závažnost |
 
-Kritéria 1–3 jsou nutná; kritérium 4 určuje závažnost.
+Signatura je pozitivní při splnění všech tří nutných kritérií.
 
 ## Odlišení od benigních podob
 

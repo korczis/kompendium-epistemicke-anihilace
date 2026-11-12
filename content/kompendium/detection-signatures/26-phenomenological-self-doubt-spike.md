@@ -31,32 +31,40 @@ Filozofie a psychologie popisují tento stav z několika stran. Govier (1993) ch
 
 ### Subjektivní výpověď
 
-- „Už nevím, jestli si to pamatuju správně.“
-- „Možná jsem opravdu přecitlivělá.“
-- „Nevěřím si ani v tom, co jsem dřív uměl.“
-- Výroky o sobě převzaté od zdroje („jsem nespolehlivý“, „všechno překrucuju“).
+| Typická výpověď | Čeho se pochybnost týká |
+|---|---|
+| „Už nevím, jestli si to pamatuju správně.“ | Vlastní paměti na průběh událostí. |
+| „Možná jsem opravdu přecitlivělá.“ | Vlastního vnímání a oprávněnosti vlastních emocí. |
+| „Nevěřím si ani v tom, co jsem dřív uměl.“ | Dovedností, v nichž byla osoba dříve kompetentní. |
+| „Jsem nespolehlivý“, „všechno překrucuju“ | Sebehodnocení převzatého v této formulaci od zdroje. |
 
 ### Pozorovatelné chování
 
-- Opakované ověřování jednoduchých faktů u druhých nebo v záznamech.
-- Neschopnost rozhodnout bez souhlasu konkrétní osoby.
-- Nadměrné omlouvání; vyhýbání se vyjádření názoru.
-- Ztráta výkonu v oblastech, kde osoba byla dříve kompetentní.
+| Pozorované chování | Jak se projevuje |
+|---|---|
+| Opakované ověřování | Osoba si jednoduché faktické údaje znovu potvrzuje u druhých nebo v záznamech. |
+| Rozhodnutí přes jednu osobu | Rozhodnutí se odkládá, dokud k němu nedá souhlas jedna konkrétní osoba. |
+| Omlouvání a mlčení | Nadměrné omlouvání se a vyhýbání se vyjádření vlastního názoru. |
+| Pokles výkonu | Ztráta výkonu právě v oblastech, v nichž byla osoba dříve kompetentní. |
 
 ### Relační kontext
 
-- Pochybnost je silnější v přítomnosti zdroje nebo po kontaktu s ním.
-- Okolí si všímá změny („dřív byla rozhodná“).
-- Ve vztahu nebo skupině je úsudek osoby soustavně opravován, zesměšňován nebo patologizován.
+| Rys kontextu | Jak se projevuje |
+|---|---|
+| Vazba na přítomnost zdroje | Pochybnost je silnější v přítomnosti zdroje nebo krátce po kontaktu s ním. |
+| Změna patrná okolí | Lidé v okolí si proměnu všímají („dřív byla rozhodná“). |
+| Soustavná oprava úsudku | Ve vztahu nebo skupině je úsudek osoby trvale opravován, zesměšňován nebo patologizován. |
 
 ## Detekční kritéria
 
-1. Pokles důvěry ve vlastní paměť, vnímání nebo úsudek je oproti dřívějšímu fungování osoby nový nebo výrazně zesílený (doloženo výpovědí osoby nebo okolí).
-2. Časově souvisí se vztahem nebo prostředím a v něm je zhoršení výraznější.
-3. Ve vztahu nebo prostředí je přítomen vzorec zpochybňování úsudku osoby.
-4. Byly zváženy jiné příčiny pochybnosti (viz níže).
+| Podmínka | Co se doloží |
+|---|---|
+| Novost poklesu | Pokles důvěry ve vlastní paměť, vnímání nebo úsudek je oproti dřívějšímu fungování osoby nový nebo výrazně zesílený (doloženo výpovědí osoby nebo okolí). |
+| Časová vazba na prostředí | Pokles časově souvisí se vztahem nebo prostředím a v jeho přítomnosti je zhoršení výraznější. |
+| Vzorec zpochybňování | Ve vztahu nebo prostředí je přítomen vzorec soustavného zpochybňování úsudku osoby. |
+| Zvážení jiných příčin | Byly zváženy ostatní příčiny pochybnosti, které popisuje diferenciální část níže. |
 
-Pozitivní při splnění všech čtyř bodů. Bez bodu 3 jde o sebepochybnost s otevřenou příčinou.
+Signatura je pozitivní při splnění všech čtyř podmínek. Chybí-li vzorec zpochybňování, jde o sebepochybnost s otevřenou příčinou.
 
 ## Odlišení od běžných stavů
 

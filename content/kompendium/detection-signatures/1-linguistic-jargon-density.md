@@ -21,11 +21,7 @@ Signatura odpovídá technice [EA-1.1.3 Terminologická mystifikace](@/kompendiu
 
 ## Co signatura indikuje
 
-Na úrovni struktury jde o přesun epistemické autority: místo „je to pravda, protože to lze doložit“ platí „je to pravda, protože to zní jako řeč těch, kdo vědí“. Žargon tu má tři funkce, které lze pozorovat odděleně:
-
-- **filtr příslušnosti** – kdo slovům rozumí, patří dovnitř; kdo se ptá, prozrazuje, že je venku;
-- **zdroj zdánlivé autority** – složitost formulace se zaměňuje za hloubku obsahu;
-- **imunizace** – tvrzení vyjádřené v nepřeložitelných pojmech nelze napadnout, protože nelze určit, co přesně tvrdí (viz [nefalsifikovatelná tvrzení](@/kompendium/detection-signatures/3-linguistic-unfalsifiable-claims.md)).
+Na úrovni struktury jde o přesun epistemické autority: místo „je to pravda, protože to lze doložit“ platí „je to pravda, protože to zní jako řeč těch, kdo vědí“. Žargon tu plní tři funkce, které lze pozorovat odděleně, a každá z nich oslabuje jiný předpoklad ověřování. První je filtr příslušnosti: kdo slovům rozumí, patří dovnitř, a kdo se ptá na význam, tím prozrazuje, že stojí venku – Lifton (1961) právě v tomto odlišujícím užití slovníku viděl jeden ze znaků totalistického prostředí. Druhou funkcí je zdánlivá autorita, protože složitost formulace se posluchači zaměňuje za hloubku obsahu; Weisberg et al. (2008) ukázali, že obsahově nadbytečná odborná terminologie zvyšuje u laických posluchačů hodnocení vysvětlení jako uspokojivého. Třetí je imunizace tvrzení: co je vyjádřeno v nepřeložitelných pojmech, nelze napadnout, protože nelze určit, co přesně se tvrdí, a pochybnost tak nemá na čem spočinout (viz [nefalsifikovatelná tvrzení](@/kompendium/detection-signatures/3-linguistic-unfalsifiable-claims.md)). Rozlišení těchto tří funkcí je výkladem kompendia, ne výsledkem měření; empirickou oporu má jen druhá z nich.
 
 U zasažené osoby se dlouhodobá expozice projevuje tím, že přebírá slovník, aniž by přebírala jeho obsah: mluví plynule, ale na otázku „co tím myslíš“ odpovídá dalším termínem. To je jeden z raných znaků [hermeneutického outsourcingu](@/glossary/hermeneuticky-outsourcing.md) – výklad vlastní zkušenosti se svěřuje cizímu slovníku.
 
@@ -35,34 +31,42 @@ Empirický výzkum podporuje, že složitost formulace se u posluchače skutečn
 
 ### Lingvistické
 
-- Termíny jsou užívány bez definice, nebo definice odkazují zpět na jiné termíny téhož slovníku (překryv se signaturou [cirkulárních definic](@/kompendium/detection-signatures/2-linguistic-circular-definitions.md)).
-- Tentýž termín mění význam podle situace, aniž by to mluvčí přiznal ([sémantická eroze](@/kompendium/detection-signatures/8-linguistic-semantic-erosion.md)).
-- Hustota odborných výrazů roste právě v místech, kde by měl následovat důkaz, číslo nebo příklad.
-- Běžná slova jsou nahrazována novotvary nebo přejatými výrazy, i když český ekvivalent existuje a je přesný.
+| Jazykový marker | Pozorovaný projev |
+|---|---|
+| Termín bez definice | Klíčové výrazy se užívají bez definice, nebo definice odkazuje zpět na jiné termíny téhož slovníku (překryv se signaturou [cirkulárních definic](@/kompendium/detection-signatures/2-linguistic-circular-definitions.md)). |
+| Pohyblivý význam | Tentýž termín mění význam podle situace, aniž by to mluvčí přiznal ([sémantická eroze](@/kompendium/detection-signatures/8-linguistic-semantic-erosion.md)). |
+| Hustota na místě důkazu | Podíl odborných výrazů roste právě tam, kde by měl následovat důkaz, číslo nebo příklad. |
+| Novotvar místo běžného slova | Běžná slova jsou nahrazována novotvary nebo přejatými výrazy, i když přesný český ekvivalent existuje. |
 
 ### Behaviorální
 
-- Mluvčí odmítá nebo odkládá parafrázi („to se nedá zjednodušit“, „pochopíš to, až budeš dál“) – viz [odpor k upřesnění](@/kompendium/detection-signatures/10-behavioral-resistance-to-clarification.md).
-- Otázka na význam je vykládána jako projev nepřipravenosti, nedůvěry nebo „odporu“ tazatele.
-- Pokus o laické přeformulování ze strany posluchače je opravován, ale bez vysvětlení, v čem je chybný.
+| Behaviorální marker | Pozorovaný projev |
+|---|---|
+| Odkládaná parafráze | Mluvčí odmítá nebo odkládá převyprávění vlastními slovy („to se nedá zjednodušit“, „pochopíš to, až budeš dál“) – viz [odpor k upřesnění](@/kompendium/detection-signatures/10-behavioral-resistance-to-clarification.md). |
+| Dotaz jako vada tazatele | Otázka na význam je vykládána jako projev nepřipravenosti, nedůvěry nebo „odporu“ toho, kdo se ptá. |
+| Oprava bez vysvětlení | Laické přeformulování ze strany posluchače je opraveno, ale bez vysvětlení, v čem bylo chybné. |
 
 ### Relační a institucionální
 
-- Ve skupině existuje neformální hierarchie podle ovládání slovníku; nováčci se učí slova dřív než obsah.
-- Přechod do skupiny je provázen „jazykovou konverzí“: člověk přestává popisovat vlastní zkušenost vlastními slovy (srov. [BITE model](@/glossary/bite-model.md), oblast kontroly myšlení).
-- V organizaci se žargon objevuje v dokumentech, které mají být srozumitelné i lidem mimo obor (smlouvy, souhlasy, hodnocení výkonu), a znemožňuje jim posoudit, s čím souhlasí.
+| Marker v prostředí | Pozorovaný projev |
+|---|---|
+| Hierarchie podle slovníku | Ve skupině platí neformální pořadí podle ovládání slovníku; nováčci se učí slova dřív než obsah. |
+| Jazyková konverze | Přechod do skupiny je provázen tím, že člověk přestává popisovat vlastní zkušenost vlastními slovy (srov. [BITE model](@/glossary/bite-model.md), oblast kontroly myšlení). |
+| Nesrozumitelné dokumenty | Žargon se objevuje v dokumentech určených i lidem mimo obor (smlouvy, souhlasy, hodnocení výkonu) a znemožňuje jim posoudit, s čím souhlasí. |
 
 ## Detekční kritéria
 
-Signatura je **pozitivní**, pokud jsou současně splněny alespoň tři z pěti podmínek:
+Signatura je **pozitivní**, pokud jsou současně splněny alespoň tři z pěti podmínek.
 
-1. Hustota odborných výrazů je zjevně vyšší než ve srovnatelném textu stejného žánru a pro stejné publikum (srovnání proti vlastnímu korpusu, ne proti pevnému číslu).
-2. Klíčové termíny nemají dohledatelnou definici, nebo je definice kruhová.
-3. Mluvčí na opakovanou, zdvořilou výzvu termín neparafrázuje ani neuvede konkrétní příklad.
-4. Dotaz na význam vede k sankci, zesměšnění nebo přesunu pozornosti na tazatele.
-5. Na nejasnost formulace navazuje požadavek na rozhodnutí, souhlas nebo závazek.
+| Podmínka | Co se posuzuje |
+|---|---|
+| Hustota | Podíl odborných výrazů je zjevně vyšší než ve srovnatelném textu stejného žánru a pro stejné publikum (srovnání proti vlastnímu korpusu, ne proti pevnému číslu). |
+| Dohledatelnost definic | Klíčové termíny nemají dohledatelnou definici, nebo je definice kruhová. |
+| Odpověď na výzvu | Mluvčí na opakovanou, zdvořilou výzvu termín nepřevypráví ani neuvede konkrétní příklad. |
+| Reakce na dotaz | Dotaz na význam vede k sankci, zesměšnění nebo přesunu pozornosti na toho, kdo se ptá. |
+| Návaznost na závazek | Na nejasnou formulaci navazuje požadavek na rozhodnutí, souhlas nebo závazek. |
 
-Jediný splněný bod je slabý signál. Kombinace bodů 3–5 má větší váhu než samotná hustota termínů, protože popisuje *funkci* žargonu, ne jeho množství.
+Jediná splněná podmínka je slabý signál. Souběh posledních tří podmínek – odpovědi na výzvu, reakce na dotaz a návaznosti na závazek – má větší váhu než samotná hustota termínů, protože popisuje *funkci* žargonu, ne jeho množství.
 
 ## Odlišení od benigních podob
 
@@ -93,37 +97,28 @@ Druhou skupinou omylů je **zaměnění tónu za funkci**. Arogance nebo nepří
 
 ## Validační test
 
-**Test parafráze.** Mluvčí je požádán, aby klíčový pojem vysvětlil člověku bez odborného vzdělání a doplnil jeden konkrétní příklad a jeden případ, kdy pojem *neplatí*. Test není past: má smysl jen tehdy, když je položen věcně a mluvčí má prostor odpovědět.
-
-- Úspěšná parafráze, i nedokonalá, signaturu oslabuje.
-- Odmítnutí parafráze samo o sobě nestačí; významné je, pokud je provázeno útokem na tazatele nebo tlakem na rozhodnutí.
+**Test parafráze.** Mluvčí je požádán, aby klíčový pojem vysvětlil člověku bez odborného vzdělání a doplnil jeden konkrétní příklad a jeden případ, kdy pojem *neplatí*. Test není past: má smysl jen tehdy, když je položen věcně a mluvčí má prostor odpovědět. Výsledek se nečte binárně – i nedokonalé převyprávění signaturu oslabuje, protože ukazuje, že význam je přístupný zvenčí, zatímco samotné odmítnutí nestačí a nabývá váhy teprve tam, kde je provázeno útokem na toho, kdo se ptal, nebo tlakem na rozhodnutí.
 
 V terapeutickém kontextu lze test obrátit k zasažené osobě: požádat ji, aby pojem, který přebrala, popsala na vlastní zkušenosti. Neschopnost to udělat neznamená selhání, ale ukazuje, kde začít s [hermeneutickým resetem](@/kompendium/recovery-protocols/midterm-hermeneutic-reset.md).
 
 ## Dokumentace v praxi
 
-Profesionál (klinik, vyšetřovatel, compliance pracovník) zaznamenává:
+Profesionál (klinik, vyšetřovatel, compliance pracovník) zaznamenává čtyři druhy údajů.
 
-- doslovné citace klíčových termínů s datem, kontextem a publikem;
-- zda a jak byla položena otázka na význam a jaká byla odpověď;
-- návaznost na požadované rozhodnutí (souhlas, platba, závazek);
-- vlastní odbornou kvalifikaci k posouzení oboru a případnou konzultaci.
+| Záznamová položka | Co obsahuje |
+|---|---|
+| Doslovné citace termínů | Klíčové výrazy tak, jak zazněly, s datem, kontextem a publikem, jemuž byly určeny. |
+| Dotaz na význam | Zda a jak byla otázka na význam položena a co na ni zaznělo. |
+| Návaznost na rozhodnutí | Zda po nejasné formulaci následoval požadavek na souhlas, platbu nebo jiný závazek. |
+| Kvalifikace hodnotitele | Vlastní odborná způsobilost posoudit daný obor a případná konzultace s jeho znalcem. |
 
 Záznam má popisovat jazykové chování, ne motivaci mluvčího. Formulace „termín X nebyl na dvojí dotaz vysvětlen“ obstojí; formulace „mluvčí záměrně mlžil“ je interpretace, kterou dokumentace nemá předjímat (viz [forenzní dokumentace](@/kompendium/forensic-legal/10-forensic-documentation.md) a [diskurzivní analýza](@/kompendium/research-methodology/discourse-analysis-EA.md)).
 
 ## Doporučený postup
 
-**Pro zasaženou osobu:**
+Zasažené osobě pomáhá vlastní glosář: u každého termínu, který v jejím prostředí rozhoduje, zapsat vlastními slovy, co podle ní znamená a odkud to ví. Tentýž návyk se uplatní před rozhodnutím – přeformulovat, k čemu se zavazuje, tak, aby to pochopil někdo mimo skupinu – a u klíčových pojmů jej doplní ověření u nezávislého zdroje ([triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md)). Jde o doporučení kompendia, nikoli o postup s doloženou účinností; v jakém smyslu je kompendium míní, popisuje [jak kompendium používat](@/kompendium/01-predmluva/jak-pouzivat.md).
 
-1. Vést si vlastní glosář: ke každému termínu zapsat vlastními slovy, co podle něj znamená, a odkud to ví.
-2. Před každým rozhodnutím přeformulovat, k čemu se zavazuje, tak, aby to pochopil někdo mimo skupinu.
-3. Ověřit klíčové pojmy u nezávislého zdroje ([triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md)).
-
-**Pro profesionála:**
-
-1. Neútočit na slovník zasažené osoby; ptát se na zkušenost, kterou slova popisují.
-2. Zkontrolovat souběžné signatury, zejména [odpor k upřesnění](@/kompendium/detection-signatures/10-behavioral-resistance-to-clarification.md) a [vyhýbání se tématu](@/kompendium/detection-signatures/11-behavioral-topic-evasion.md).
-3. Při potvrzení vzorce v organizaci navrhnout požadavek na srozumitelnost dokumentů, které vyžadují souhlas (viz [dokumentační standardy](@/kompendium/organizational-defense/24-documentation-standards.md)).
+Profesionál naopak neútočí na slovník zasažené osoby a ptá se na zkušenost, kterou její slova popisují; samotné odebrání pojmů nechává člověka bez jazyka pro to, co prožil. Dále ověřuje souběžné signatury, především [odpor k upřesnění](@/kompendium/detection-signatures/10-behavioral-resistance-to-clarification.md) a [vyhýbání se tématu](@/kompendium/detection-signatures/11-behavioral-topic-evasion.md), a potvrdí-li se vzorec na úrovni organizace, přenáší otázku z osob na dokumenty, které vyžadují souhlas (viz [dokumentační standardy](@/kompendium/organizational-defense/24-documentation-standards.md)). Hranice takového posuzování vymezují [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) kompendia.
 
 Samotná hustota žargonu nikdy neodůvodňuje akutní intervenci. Ta přichází na řadu, jen když se signatura sbíhá s fenomenologickými znaky zátěže, jako je [kognitivní mlha](@/kompendium/detection-signatures/25-phenomenological-cognitive-fog.md), a s izolací.
 

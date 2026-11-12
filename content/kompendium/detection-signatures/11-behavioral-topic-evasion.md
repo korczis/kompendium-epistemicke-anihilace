@@ -21,13 +21,15 @@ Signatura je behaviorální stopou techniky [EA-1.3.3 Tematická diverze](@/komp
 
 ## Co signatura indikuje
 
-Každý rozhovor má omezenou kapacitu pozornosti. Kdo dokáže tuto kapacitu odvést jinam, nemusí na nepříjemnou otázku odpovídat ani lhát. Strukturálně se úniky dělí na:
+Každý rozhovor má omezenou kapacitu pozornosti. Kdo dokáže tuto kapacitu odvést jinam, nemusí na nepříjemnou otázku odpovídat ani lhát. Strukturálně se úniky dělí na pět opakujících se typů, které se v jednom rozhovoru mohou střídat.
 
-- **odbočku** – přechod na příbuzné, ale jiné téma („to mi připomíná…“);
-- **protiotázku** – „a co ty, když jsi minulý rok…?“;
-- **protiútok** – zpochybnění práva tazatele se ptát nebo jeho motivů;
-- **zahlcení** – množství informací, mezi nimiž se původní otázka ztratí;
-- **emoční přesměrování** – pláč, uražení nebo projev zranitelnosti, který otázku znemožní.
+| Typ úniku | Jak otázka zmizí |
+|---|---|
+| Odbočka | Přechod na příbuzné, ale jiné téma („to mi připomíná…“). |
+| Protiotázka | Otázka je obrácena na tazatele („a co ty, když jsi minulý rok…?“). |
+| Protiútok | Zpochybnění práva tazatele se ptát nebo jeho motivů. |
+| Zahlcení | Množství informací, mezi nímž se původní otázka ztratí. |
+| Emoční přesměrování | Pláč, uražení nebo projev zranitelnosti, po němž už otázku nelze zopakovat. |
 
 Pro zasaženou osobu vede opakovaný únik k tomu, že nedokáže uzavřít žádnou zkušenost – nikdy se nedozví odpověď, a proto si ji začne domýšlet nebo přestane klást otázky vůbec. V partnerských vztazích je únik součástí vzorce [DARVO](@/glossary/darvo.md), kde protiútok přechází v obrácení role oběti.
 
@@ -37,28 +39,36 @@ Empiricky nejlépe doloženou vlastností úniku je jeho nenápadnost. Rogers a 
 
 ### Lingvistické
 
-- Odpověď začíná zjevným navázáním („dobře, ale…“), pak se vzdálí.
-- Protiotázky typu „a co…?“ místo odpovědi.
-- Odpověď na jinou, snazší otázku, než jaká byla položena.
+| Marker | Jak se pozná |
+|---|---|
+| Navázání bez pokračování | Odpověď začíná zjevným přijetím otázky („dobře, ale…“) a pak se od ní vzdálí. |
+| Protiotázka místo odpovědi | Na otázku přichází „a co…?“ obrácené na tazatele. |
+| Záměna za snazší otázku | Zdroj odpoví na jinou, snadnější otázku, než jaká byla položena. |
 
 ### Behaviorální
 
-- Rozhovor opakovaně končí na jiném tématu; zpětně nelze určit, zda byla otázka zodpovězena.
-- Tazatel se omlouvá, přestože to byl on, kdo se ptal.
-- Zdroj vyhledává rozhovor ve chvílích, kdy na hlubší otázky není čas (při odchodu, na veřejnosti).
+| Marker | Jak se pozná |
+|---|---|
+| Rozhovor končí jinde, než začal | Zpětně nelze určit, zda otázka vůbec dostala odpověď. |
+| Obrácená omluva | Tazatel se omlouvá, přestože to byl on, kdo se ptal. |
+| Volba chvíle bez času | Zdroj vyhledává rozhovor při odchodu nebo na veřejnosti, kdy na hlubší otázky není čas. |
 
 ### Relační a institucionální
 
-- V rodině existují „nevyslovitelná“ témata; jejich otevření vede k rodinné krizi, která téma znovu uzavře.
-- V institucích dotazy na odpovědnost dostávají odpověď o procesech, plánech nebo jiných útvarech.
-- Na tiskových konferencích nebo jednáních zaznívají dlouhé úvodní projevy, které zkracují čas na otázky.
+| Marker | Jak se pozná |
+|---|---|
+| Nevyslovitelné téma v rodině | Otevření tématu vede k rodinné krizi, která téma znovu uzavře. |
+| Odpověď o procesu místo o odpovědnosti | Dotaz na odpovědnost dostane odpověď o plánech, procesech nebo jiných útvarech. |
+| Rozpočet času na otázky | Dlouhé úvodní projevy na jednáních a tiskových konferencích zkracují čas na dotazy. |
 
 ## Detekční kritéria
 
-1. Otázka týkající se jednání nebo odpovědnosti zdroje byla položena jasně.
-2. Odpověď se otázce věcně nevěnovala (odbočka, protiotázka, protiútok, zahlcení, emoční přesměrování).
-3. Při opakování otázky se vzorec zopakoval.
-4. Únik je selektivní – u jiných témat zdroj odpovídá přímo.
+| Kritérium | Co musí být doloženo |
+|---|---|
+| 1 | Otázka týkající se jednání nebo odpovědnosti zdroje byla položena jasně. |
+| 2 | Odpověď se otázce věcně nevěnovala (odbočka, protiotázka, protiútok, zahlcení, emoční přesměrování). |
+| 3 | Při opakování otázky se vzorec zopakoval. |
+| 4 | Únik je selektivní – u jiných témat zdroj odpovídá přímo. |
 
 Kritérium 4 je diagnosticky nejcennější: odlišuje strategický únik od obecného komunikačního stylu.
 

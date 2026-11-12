@@ -66,11 +66,18 @@ Následující pojistky jsou shrnuty proto, že jejich nepřítomnost je sama n�
 | **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
 | **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
 
-## Kdy je rámec legitimní
+## Okolnosti, které řízenou expozici vylučují
 
-Legitimní rámec je pro tyto protokoly úzký a vždy vnější: doložená indikace, nezávislé posouzení poměru přínosu a rizika, odpovídající výběr účastníků a souhlas, který lze kdykoli odvolat. Nejde o formality, ale o minimum, bez něhož se zátěžová intervence ani výzkum nepovažují za eticky přijatelné (Emanuel, Wendler a Grady, 2000).
+Tato stránka nejmenuje uspořádání, v němž by byla řízená expozice stresoru legitimní, a nejmenuje je ani nepřímo: popisuje, čím se taková expozice pozná zvenčí, a tím končí. Zda je zátěžová intervence tohoto druhu vůbec přijatelná, je otázkou výzkumné etiky — požadavky, které shrnuli Emanuel, Wendler a Grady (2000), zavazují samo uspořádání, tedy zadavatele, nezávislý přezkum a protokol, nikoli čtenáře, který vzorec rozpoznává. Stránka proto k ničemu neopravňuje a nic neodpírá; měřítko přípustnosti stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) a rozhodují o něm orgány, které kniha popisuje na těchto stránkách.
 
-Hranici, která se dá pozorovat zvenčí, tvoří souhlas. Souhlas je proces, nikoli podpis, a v závislém postavení — zaměstnanec, podřízený, student, klient bez jiné možnosti — ho nelze číst jako svobodný; tam, kde je cíl protokolu komerční, soutěžní nebo politický, přestává jít o intervenci a začíná vzorec, který tato kniha popisuje (Faden a Beauchamp, 1986).
+Rozpoznání zátěže navíc samo neurčuje, čím byla způsobena. Týž obraz přetrvávající ostražitosti zůstává po náročném, ale odvolatelném výcviku i po prostředí, kde odvolat nešlo nic; rozdíl není v intenzitě zážitku, nýbrž v tom, zda si o něm člověk smí myslet něco jiného (Herman, 1992).
+
+| Vylučující okolnost | Proč u expozice vylučuje |
+|---|---|
+| Účast vázaná na zaměstnání, hodnocení nebo postavení ve skupině | Odstoupení by stálo člověka to, co má mimo protokol, a odvolatelnost zůstává jen na papíře |
+| Komerční, soutěžní nebo politický účel zadání | O pokračování rozhoduje výsledek pro zadavatele, ne stav vystaveného člověka |
+| Chybějící předem dohodnutá podmínka zastavení | Expozici nelze ukončit ve chvíli, kdy to má smysl, a zátěž se stává nevratnou |
+| Výklad, který odpor obrací proti tomu, kdo ho vyslovil | Vystavený člověk nemá jak oznámit, že zátěž přestala být přiměřená |
 
 ## Klinické markery (neúmyslná manifestace)
 

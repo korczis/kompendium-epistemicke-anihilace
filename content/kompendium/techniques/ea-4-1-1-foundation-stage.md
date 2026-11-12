@@ -66,11 +66,17 @@ Následující pojistky jsou shrnuty proto, že jejich nepřítomnost je sama n�
 | **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
 | **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
 
-## Kdy je rámec legitimní
+## Okolnosti, které vstupní fázi vylučují
 
-Legitimní rámec je pro tyto protokoly úzký a vždy vnější: doložená indikace, nezávislé posouzení poměru přínosu a rizika, odpovídající výběr účastníků a souhlas, který lze kdykoli odvolat. Nejde o formality, ale o minimum, bez něhož se zátěžová intervence ani výzkum nepovažují za eticky přijatelné (Emanuel, Wendler a Grady, 2000).
+Oprávněný rámec pro zakládající fázi tato stránka nepojmenovává a nemá k tomu žádné postavení: zda je sekvence tohoto druhu vůbec přípustná, je otázkou výzkumné etiky, kterou Emanuel, Wendler a Grady (2000) formulují jako soubor požadavků na uspořádání — na nezávislost přezkumu, na poměr přínosu a rizika, na výběr účastníků a na souhlas. Tyto požadavky zavazují toho, kdo uspořádání zřizuje, a posuzují je orgány, k nimž odkazuje [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md); měřítko jejich rozhodování shrnují [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md). Čtenáři tohoto článku neudělují nic. Zůstává tedy jen to, co u vstupní fáze expozici vylučuje, a proč.
 
-Hranici, která se dá pozorovat zvenčí, tvoří souhlas. Souhlas je proces, nikoli podpis, a v závislém postavení — zaměstnanec, podřízený, student, klient bez jiné možnosti — ho nelze číst jako svobodný; tam, kde je cíl protokolu komerční, soutěžní nebo politický, přestává jít o intervenci a začíná vzorec, který tato kniha popisuje (Faden a Beauchamp, 1986).
+| Vylučující okolnost | Proč u vstupní fáze vylučuje |
+|---------------------|------------------------------|
+| Vstupní posouzení provádí totéž prostředí, které o přijetí rozhoduje | Posuzovatel nese náklad každého vylučujícího nálezu, a prověření proto měří vhodnost uchazeče pro nábor, ne jeho ohrožení |
+| Vstup rozhoduje o zaměstnání, o postavení ve skupině nebo o přístupu k péči | Odmítnutí má pro uchazeče cenu, kterou podpis nevyjádří, a do záznamu se takový tlak nepromítne |
+| O výchozím stavu nevzniká zápis, proti němuž by se pozdější změna porovnávala | Následek expozice pak nelze odlišit od toho, co člověk přinesl s sebou, a újma zůstane neprokazatelná |
+| Souhlas je od počátku podán jako závazek, který nelze vypovědět | Nevypověditelný souhlas přestává být souhlasem a vstupní prověření se mění v přijetí do závislosti |
+| Okruh lidí, kteří o uchazeči něco vědí, se vstupem zužuje | Mizí svědci výchozího stavu, tedy jediný zdroj, z něhož se dá rekonstruovat, co se změnilo |
 
 ## Klinické markery (neúmyslná manifestace)
 

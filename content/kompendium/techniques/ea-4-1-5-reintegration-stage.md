@@ -66,11 +66,18 @@ Následující pojistky jsou shrnuty proto, že jejich nepřítomnost je sama n�
 | **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
 | **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
 
-## Kdy je rámec legitimní
+## Okolnosti, které zátěž ve fázi návratu vylučují
 
-Legitimní rámec je pro tyto protokoly úzký a vždy vnější: doložená indikace, nezávislé posouzení poměru přínosu a rizika, odpovídající výběr účastníků a souhlas, který lze kdykoli odvolat. Nejde o formality, ale o minimum, bez něhož se zátěžová intervence ani výzkum nepovažují za eticky přijatelné (Emanuel, Wendler a Grady, 2000).
+Fáze návratu je zde popsána jako to, co po sekvenci zůstává, a ne jako úsek, který by stránka komukoli otevírala. Jestli je uspořádání, jehož je návrat posledním dílem, vůbec přijatelné, se na stránce o rozpoznávání nerozhoduje: patří to výzkumné etice a nároky, jež formulovali Emanuel, Wendler a Grady (2000), míří na instituci a na její přezkum, ne na toho, kdo obtížný návrat u někoho pozoruje. Kniha tedy návrat ani nepovoluje, ani nepodmiňuje; co z toho plyne pro čtení stránky, stojí v [etických aspektech](@/kompendium/01-predmluva/eticke-aspekty.md) a v [etickém kodexu](@/kompendium/08-prilohy/eticky-kodex.md).
 
-Hranici, která se dá pozorovat zvenčí, tvoří souhlas. Souhlas je proces, nikoli podpis, a v závislém postavení — zaměstnanec, podřízený, student, klient bez jiné možnosti — ho nelze číst jako svobodný; tam, kde je cíl protokolu komerční, soutěžní nebo politický, přestává jít o intervenci a začíná vzorec, který tato kniha popisuje (Faden a Beauchamp, 1986).
+Z toho, že je návrat obtížný, navíc nelze zpětně usoudit, co mu předcházelo. Plochost běžného prostředí a odstup od blízkých zůstávají po uzavřené skupině stejně jako po konci dlouhé a korektní služby; rozlišení nese až to, zda člověk smí své období popsat jinak než jedinou předepsanou formulí (Singer, 1995).
+
+| Vylučující okolnost | Proč návrat vylučuje |
+|---|---|
+| Obživa nebo bydlení vázané na původní prostředí | Odchod je formálně dostupný a prakticky neproveditelný, takže návrat nezačal |
+| Prostředí, které potíž s návratem čte jako nezpůsobilost | Člověk ji přestane vyslovovat a podpora mine toho, komu byla určena |
+| Jediný dostupný okruh tvoří ti, kdo prošli týmž | Chybí vztah, v němž by zkušenost mohla znít jinak než uvnitř skupiny |
+| Rozhodnutí o průběhu návratu drží ten, na němž je člověk závislý | Přijetí podmínek není souhlasem, nýbrž cenou za setrvání |
 
 ## Klinické markery (neúmyslná manifestace)
 

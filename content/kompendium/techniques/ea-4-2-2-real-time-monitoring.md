@@ -66,11 +66,19 @@ Následující pojistky jsou shrnuty proto, že jejich nepřítomnost je sama n�
 | **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
 | **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
 
-## Kdy je rámec legitimní
+## Co průběžné sledování vylučuje
 
-Legitimní rámec je pro tyto protokoly úzký a vždy vnější: doložená indikace, nezávislé posouzení poměru přínosu a rizika, odpovídající výběr účastníků a souhlas, který lze kdykoli odvolat. Nejde o formality, ale o minimum, bez něhož se zátěžová intervence ani výzkum nepovažují za eticky přijatelné (Emanuel, Wendler a Grady, 2000).
+Průběžné sledování není na této stránce popsáno jako postup, k němuž by článek opravňoval, a legitimní rámec pro ně nepojmenovává. Je-li něco takového vůbec přípustné, posuzuje se to jako otázka výzkumné etiky: požadavky, které shrnuli Emanuel, Wendler a Grady (2000), zavazují uspořádání a jeho nezávislý přezkum ([IRB](@/glossary/irb-review.md)), nerozdělují oprávnění mezi čtenáře. Kdo o nich rozhoduje, popisují [supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md). Níže stojí okolnosti, za nichž je expozice vyloučena i tam, kde je sledování zavedené.
 
-Hranici, která se dá pozorovat zvenčí, tvoří souhlas. Souhlas je proces, nikoli podpis, a v závislém postavení — zaměstnanec, podřízený, student, klient bez jiné možnosti — ho nelze číst jako svobodný; tam, kde je cíl protokolu komerční, soutěžní nebo politický, přestává jít o intervenci a začíná vzorec, který tato kniha popisuje (Faden a Beauchamp, 1986).
+| Vylučující okolnost | Proč vylučuje i při zavedeném sledování |
+|---------------------|------------------------------------------|
+| Sledující nemá pravomoc expozici zastavit | Údaj nikoho nezavazuje, na průběh nemá vliv a jeho sběr vytváří pouze zdání ochrany |
+| Týž údaj slouží ochraně člověka i jeho hodnocení | Sledovaný se naučí vykazovat žádoucí hodnoty a ukazatel pozbývá vztahu ke stavu, který měl chránit |
+| Překročení prahu se vysvětluje, místo aby vedlo k zásahu | Posun normálu není dohledatelný a výkaz o sledování zůstává bez obsahu, který by se dal přezkoumat |
+| Subjekt nemůže sledování odvolat, aniž ztratí postavení nebo přístup k péči | Souhlas se sledováním přestává být odvolatelný a sledování se mění v dohled nad závislým člověkem |
+| Naměřené údaje nejsou dostupné nikomu mimo vedení protokolu | Chybí druhé čtení téhož údaje, a tím i jediná cesta, jak zpochybnit výklad, který vedení zvolilo |
+
+I tam, kde je souhlas se sledováním doložen písemně, zůstává otevřené, zda jej lze bez následků odvolat; neodvolatelný souhlas není souhlasem, nýbrž podmínkou účasti (Faden a Beauchamp, 1986).
 
 ## Klinické markery (neúmyslná manifestace)
 

@@ -66,11 +66,21 @@ Následující pojistky jsou shrnuty proto, že jejich nepřítomnost je sama n�
 | **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
 | **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
 
-## Kdy je rámec legitimní
+## Co vylučuje expozici s předem určeným koncem
 
-Legitimní rámec je pro tyto protokoly úzký a vždy vnější: doložená indikace, nezávislé posouzení poměru přínosu a rizika, odpovídající výběr účastníků a souhlas, který lze kdykoli odvolat. Nejde o formality, ale o minimum, bez něhož se zátěžová intervence ani výzkum nepovažují za eticky přijatelné (Emanuel, Wendler a Grady, 2000).
+Tato stránka neuvádí situaci, v níž by byla sekvence s takto nastaveným koncem oprávněná, protože takový výčet by byl návodem k jejímu zřízení. Emanuel, Wendler a Grady (2000) shrnují, co se od eticky obhajitelného uspořádání žádá; jde o nároky vůči tomu, kdo uspořádání nese a kdo je přezkoumává, nikoli o doklad, jímž by se jednotlivý zásah legitimoval. Přípustnost posuzuje etická instance, nikoli popis vzorce; mez vymezují [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a závazek sepsaný v [etickém kodexu](@/kompendium/08-prilohy/eticky-kodex.md). Zbývá soupis okolností, za nichž je expozice vyloučena, s uvedeným důvodem.
 
-Hranici, která se dá pozorovat zvenčí, tvoří souhlas. Souhlas je proces, nikoli podpis, a v závislém postavení — zaměstnanec, podřízený, student, klient bez jiné možnosti — ho nelze číst jako svobodný; tam, kde je cíl protokolu komerční, soutěžní nebo politický, přestává jít o intervenci a začíná vzorec, který tato kniha popisuje (Faden a Beauchamp, 1986).
+| Okolnost | Proč expozici vylučuje |
+|---|---|
+| O zastavení rozhoduje ten, jehož cíl by zastavení zmařilo | Práh vyhodnocuje ten, komu překročení škodí, a vyhodnocení nemá vnější kontrolu |
+| Odchod by znamenal ztrátu postavení, vztahů nebo obživy | Konec existuje formálně, ale jeho využití je zpoplatněno, a souhlas tím přestává být svobodný |
+| Organizace eviduje přerušení jako selhání | Statistika, která zastavení trestá, potlačí hlášení dřív než jeho důvod |
+| Konec se určuje průběžně a je vždy znovu odkládán | Bez předem daného konce nelze odlišit odůvodněné pokračování od pokračování bez konce |
+| Cíl sekvence je komerční, soutěžní nebo politický | Důvod k pokračování je pak vždy k dispozici a nezávisí na stavu účastníka |
+
+## Co z existence kritérií ukončení neplyne
+
+Zapsaná kritéria ukončení sama nedokládají, že odstoupení je skutečně dostupné. Faden a Beauchamp (1986) odlišují formální stránku souhlasu od jeho uskutečnění; kritérium může být vyhlášeno a zároveň nevymahatelné, protože náklad odchodu nese ten, kdo odchází. Z toho, že v průběhu k přerušení nedošlo, neplyne ani bezpečí, ani potlačení důvodů k přerušení — obě možnosti dávají tentýž nulový záznam a odlišit je lze jen podle toho, jak se zacházelo s hlášenými důvody (Reason, 1997). Opačným směrem neplatí nic jiného: jedno zastavení neukazuje, že byl práh nastaven správně, nýbrž jen že byl překročen. A tam, kde si prostředí určuje měřítko úspěchu samo, ztrácí vypovídací hodnotu i tvrzení, že sekvence skončila v pořádku (Lifton, 1961).
 
 ## Klinické markery (neúmyslná manifestace)
 

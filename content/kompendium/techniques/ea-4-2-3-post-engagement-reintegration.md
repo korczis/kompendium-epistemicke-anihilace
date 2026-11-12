@@ -66,11 +66,17 @@ Následující pojistky jsou shrnuty proto, že jejich nepřítomnost je sama n�
 | **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
 | **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
 
-## Kdy je rámec legitimní
+## Co vylučuje vedenou reintegrační fázi
 
-Legitimní rámec je pro tyto protokoly úzký a vždy vnější: doložená indikace, nezávislé posouzení poměru přínosu a rizika, odpovídající výběr účastníků a souhlas, který lze kdykoli odvolat. Nejde o formality, ale o minimum, bez něhož se zátěžová intervence ani výzkum nepovažují za eticky přijatelné (Emanuel, Wendler a Grady, 2000).
+Kniha nejmenuje poměry, za nichž by byla vedená reintegrace po skončení expozice oprávněná, a tato stránka takový soupis nenahrazuje. Emanuel, Wendler a Grady (2000) popisují, co se žádá od uspořádání, které chce být eticky obhajitelné; nárok leží na uspořádání a jeho nezávislém přezkumu, ne na čtenáři, a žádné z těch kritérií nelze obrátit v oprávnění vést fázi návratu po zásahu. Souhlas, který je možné kdykoli odvolat bez sankce, patří k témuž souboru podmínek (Faden a Beauchamp, 1986). Přípustnost posuzuje nezávislá etická instance; měřítko podávají [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a výčet mezí [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md). Dále stojí jen okolnosti, které reintegrační fázi vylučují, a důvod u každé.
 
-Hranici, která se dá pozorovat zvenčí, tvoří souhlas. Souhlas je proces, nikoli podpis, a v závislém postavení — zaměstnanec, podřízený, student, klient bez jiné možnosti — ho nelze číst jako svobodný; tam, kde je cíl protokolu komerční, soutěžní nebo politický, přestává jít o intervenci a začíná vzorec, který tato kniha popisuje (Faden a Beauchamp, 1986).
+| Okolnost | Proč reintegrační fázi vylučuje |
+|---|---|
+| Následnou péči poskytuje tentýž, kdo expozici vedl | Újmu posuzuje ten, jehož vlastní práce je předmětem posouzení |
+| Účast na programu je povinná nebo dostupná jen ve skupinové formě | Podpora podaná všem bez rozdílu nemá doloženou preventivní účinnost a některým lidem přitíží |
+| Člověk je na poskytovateli závislý postavením nebo obživou | Odmítnout nabízenou formu návratu by stálo víc než ji přijmout |
+| Jediným dostupným kontaktem zůstává okruh, který expozici vedl | Návrat pak probíhá uvnitř téhož výkladu, z něhož měl vést ven |
+| Cíl programu je komerční, soutěžní nebo politický | Měřítkem návratu se stává použitelnost člověka, ne obnova jeho vztahů a rolí |
 
 ## Klinické markery (neúmyslná manifestace)
 

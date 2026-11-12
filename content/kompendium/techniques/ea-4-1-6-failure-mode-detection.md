@@ -66,11 +66,19 @@ Následující pojistky jsou shrnuty proto, že jejich nepřítomnost je sama n�
 | **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
 | **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
 
-## Kdy je rámec legitimní
+## Vylučující okolnosti detekce
 
-Legitimní rámec je pro tyto protokoly úzký a vždy vnější: doložená indikace, nezávislé posouzení poměru přínosu a rizika, odpovídající výběr účastníků a souhlas, který lze kdykoli odvolat. Nejde o formality, ale o minimum, bez něhož se zátěžová intervence ani výzkum nepovažují za eticky přijatelné (Emanuel, Wendler a Grady, 2000).
+Detekce režimů selhání zde není popsána jako výkon, k němuž by článek dával oprávnění; žádný legitimní rámec pro ni pojmenován není. Přípustnost uspořádání, v němž by k něčemu takovému docházelo, je předmětem výzkumné etiky — Emanuel, Wendler a Grady (2000) vypisují požadavky vážící zřizovatele a jeho nezávislý přezkum, nikoli čtenáře — a posuzují ji komise, o nichž mluví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md). Následující okolnosti říkají, kdy je expozice vyloučena bez ohledu na to, jak dobře je detekce nastavena.
 
-Hranici, která se dá pozorovat zvenčí, tvoří souhlas. Souhlas je proces, nikoli podpis, a v závislém postavení — zaměstnanec, podřízený, student, klient bez jiné možnosti — ho nelze číst jako svobodný; tam, kde je cíl protokolu komerční, soutěžní nebo politický, přestává jít o intervenci a začíná vzorec, který tato kniha popisuje (Faden a Beauchamp, 1986).
+| Vylučující okolnost | Proč detekci nestačí |
+|---------------------|----------------------|
+| Hlášení odchylky zdržuje provoz, zatímco nehlášení se nijak neprojeví | Asymetrie nákladů potlačí hlášení dřív, než se cokoli stane, a sledování pak měří ochotu mlčet |
+| Práh posouvá tentýž, kdo podle něj má zasáhnout | Signál nikdy nepřekročí mez a provoz vykazuje klid, který si sám vyrobil |
+| Odchylka jednotlivce je ve skupině čtena jako jeho slabost | Poškozený člověk nese důvod mlčet a jeho případ zůstane v celkovém obrazu skupiny neviditelný |
+| Nikdo kromě vedení sekvence nemá pravomoc ji pozastavit | Nález bez pravomoci zastavit se stává záznamem o škodě, které nezabránil |
+| Slabý signál se vysvětluje jako jednorázový, aniž se zapíše | Mizí právě ta řada záznamů, z níž by se posun normálu dal zpětně doložit |
+
+Souhlas s účastí tyto okolnosti nevyvažuje: jeho písemná podoba nevypovídá o tom, zda smí člověk odchylku ohlásit nebo účast ukončit, závisí-li na průběhu sekvence jeho postavení (Faden a Beauchamp, 1986).
 
 ## Klinické markery (neúmyslná manifestace)
 

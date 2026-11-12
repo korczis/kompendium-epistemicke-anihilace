@@ -66,11 +66,17 @@ Následující pojistky jsou shrnuty proto, že jejich nepřítomnost je sama n�
 | **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
 | **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
 
-## Kdy je rámec legitimní
+## Co vylučuje postup do fáze zvládnutí
 
-Legitimní rámec je pro tyto protokoly úzký a vždy vnější: doložená indikace, nezávislé posouzení poměru přínosu a rizika, odpovídající výběr účastníků a souhlas, který lze kdykoli odvolat. Nejde o formality, ale o minimum, bez něhož se zátěžová intervence ani výzkum nepovažují za eticky přijatelné (Emanuel, Wendler a Grady, 2000).
+Prostředí, v němž by bylo dovedení člověka do fáze prokazovaného zvládnutí oprávněné, kniha nevypisuje a vypsat je nemůže. Co musí splnit uspořádání, aby se dalo považovat za eticky obhajitelné, popisují Emanuel, Wendler a Grady (2000); jejich čtyři požadavky míří na ty, kdo uspořádání zřizují a posuzují, a uplatňující z nich pro sebe oprávnění nezíská. Souhlas odvolatelný bez sankce je rovněž podmínkou uspořádání, ne vlastností výcviku (Faden a Beauchamp, 1986). Přípustnost čehokoli takového posuzuje nezávislý etický přezkum ([IRB review](@/glossary/irb-review.md)) a mez stanovuje [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md), nikoli popis vzorce. Následují okolnosti, které postup vylučují, a důvod u každé z nich.
 
-Hranici, která se dá pozorovat zvenčí, tvoří souhlas. Souhlas je proces, nikoli podpis, a v závislém postavení — zaměstnanec, podřízený, student, klient bez jiné možnosti — ho nelze číst jako svobodný; tam, kde je cíl protokolu komerční, soutěžní nebo politický, přestává jít o intervenci a začíná vzorec, který tato kniha popisuje (Faden a Beauchamp, 1986).
+| Okolnost | Proč postup vylučuje |
+|---|---|
+| Způsobilost uznává tentýž okruh, který výcvik vedl | Doklad o zvládnutí pak potvrzuje příslušnost a o výkonu v jiných podmínkách nevypovídá nic |
+| Námitka zvenčí se vykládá jako nekompetence toho, kdo ji vznesl | Chybí korektiv, podle něhož by se způsobilost vůbec dala měřit |
+| Účastník je na uplatňujícím závislý postavením, studiem nebo obživou | Přiznat neúplné zvládnutí by stálo víc než mlčet a souhlas v takovém postavení není svobodný |
+| Postavení účastníka se odvozuje od dokládaného zvládnutí | Čím výše postavení, tím dražší je vlastní pochybnost, a ta se do záznamu nedostane |
+| Cíl výcviku je komerční, soutěžní nebo politický | Měřítko zvládnutí se přizpůsobí tomu, co takový cíl vyžaduje |
 
 ## Klinické markery (neúmyslná manifestace)
 

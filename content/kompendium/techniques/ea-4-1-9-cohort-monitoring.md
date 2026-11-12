@@ -66,11 +66,19 @@ Následující pojistky jsou shrnuty proto, že jejich nepřítomnost je sama n�
 | **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
 | **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
 
-## Kdy je rámec legitimní
+## Okolnosti vylučující sledování kohorty
 
-Legitimní rámec je pro tyto protokoly úzký a vždy vnější: doložená indikace, nezávislé posouzení poměru přínosu a rizika, odpovídající výběr účastníků a souhlas, který lze kdykoli odvolat. Nejde o formality, ale o minimum, bez něhož se zátěžová intervence ani výzkum nepovažují za eticky přijatelné (Emanuel, Wendler a Grady, 2000).
+Kohortní sledování nemá v této knize podobu oprávnění a tato stránka žádné nevydává. Zda je uspořádání, které by takto vystavilo celou skupinu, eticky přijatelné, rozhoduje se v režimu výzkumné etiky; Emanuel, Wendler a Grady (2000) uvádějí požadavky kladené na zadavatele a na nezávislé posouzení, nikoli měřítko, jímž by si čtenář směl posloužit sám. Hranici drží [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) a orgány, které za něj odpovídají. Zbývá popsat okolnosti, za nichž je expozice kohorty vyloučena, a důvod každé z nich.
 
-Hranici, která se dá pozorovat zvenčí, tvoří souhlas. Souhlas je proces, nikoli podpis, a v závislém postavení — zaměstnanec, podřízený, student, klient bez jiné možnosti — ho nelze číst jako svobodný; tam, kde je cíl protokolu komerční, soutěžní nebo politický, přestává jít o intervenci a začíná vzorec, který tato kniha popisuje (Faden a Beauchamp, 1986).
+| Vylučující okolnost | Co se tím u kohorty znemožní |
+|---------------------|------------------------------|
+| Skupina je uzavřená a bez nezávislých vnějších referenčních bodů | Skupinová norma se stává jediným měřítkem skutečnosti a souhrnný ukazatel měří už jen její sevřenost |
+| Data sbírá tentýž, kdo rozhoduje o postupu jednotlivců | Odpověď ztrácí povahu zpětné vazby a nabývá povahy hodnocení, jemuž se účastník přizpůsobí |
+| Účast v kohortě je podmínkou setrvání ve výcviku nebo v zaměstnání | Odstoupení má cenu, kterou souhlas nepokrývá, a nesouhlas jednotlivce se v agregátu neprojeví |
+| Vyhodnocuje se jen souhrn, bez pohledu na okraj rozložení | Zhoršení několika účastníků se v průměru skupiny vyruší a ten, kdo se rozpadá, z obrazu zmizí |
+| Obtíže se hlásí vedení skupiny, ne mimo ni | Hlášení prochází stranou, jejíž zájem na pokračování je v rozporu s důvodem obtíž zachytit |
+
+Hromadně podepsaný souhlas celé kohorty na žádné z uvedených okolností nic nemění; svobodný je jen tam, kde vystoupení jednotlivce nemá ve skupině cenu, kterou by nesl sám (Faden a Beauchamp, 1986).
 
 ## Klinické markery (neúmyslná manifestace)
 

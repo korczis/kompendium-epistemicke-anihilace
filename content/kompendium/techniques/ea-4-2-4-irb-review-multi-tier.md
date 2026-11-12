@@ -66,11 +66,19 @@ Následující pojistky jsou shrnuty proto, že jejich nepřítomnost je sama n�
 | **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
 | **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
 
-## Kdy je rámec legitimní
+## Okolnosti, které posuzované uspořádání vylučují
 
-Legitimní rámec je pro tyto protokoly úzký a vždy vnější: doložená indikace, nezávislé posouzení poměru přínosu a rizika, odpovídající výběr účastníků a souhlas, který lze kdykoli odvolat. Nejde o formality, ale o minimum, bez něhož se zátěžová intervence ani výzkum nepovažují za eticky přijatelné (Emanuel, Wendler a Grady, 2000).
+Přezkum je na této stránce předmětem rozpoznávání, nikoli pravomocí, kterou by stránka propůjčovala: žádné uspořádání tu není označeno za legitimní a pro zátěžový protokol tohoto druhu to platí dvojnásob. Nároky, které Emanuel, Wendler a Grady (2000) na eticky přijatelný výzkum kladou, zavazují zadavatele a komisi — jsou tedy tím, co se posuzuje, ne výsledkem posouzení, a oprávněním pro čtenáře nejsou v žádném případě. Co z toho plyne pro práci se stránkou, stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
-Hranici, která se dá pozorovat zvenčí, tvoří souhlas. Souhlas je proces, nikoli podpis, a v závislém postavení — zaměstnanec, podřízený, student, klient bez jiné možnosti — ho nelze číst jako svobodný; tam, kde je cíl protokolu komerční, soutěžní nebo politický, přestává jít o intervenci a začíná vzorec, který tato kniha popisuje (Faden a Beauchamp, 1986).
+Rozdíl mezi nárokem a povolením je u přezkumu patrnější než kdekoli jinde. Nárok lze vznést vůči uspořádání, které se dá poměřit zvenčí; povolení by muselo vyjít od někoho uvnitř, a právě takové postavení si tato stránka nebere. Drží se čtení, jež popisují [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md), a okolnosti níže jsou proto zapsány jako to, co uspořádání vylučuje, nikoli jako podmínky, jejichž splnění by k něčemu otevíralo cestu.
+
+| Vylučující okolnost | Proč posuzované uspořádání vylučuje |
+|---|---|
+| Komise bez rozpočtu a bez vlastního personálu | Závisí na posuzovaném útvaru, takže nezávislé posouzení poměru přínosu a rizika nemůže proběhnout |
+| Členové se zájmovým vztahem k posuzovaným programům | Přezkum pak chrání instituci, a ne účastníky, jimž má sloužit |
+| Poradní stanovisko bez pravomoci protokol pozastavit | Nález nemá následek, a pojistkou tudíž není |
+| Účastníci v závislém postavení vůči zadavateli protokolu | Podepsaný souhlas nelze v takovém postavení číst jako svobodný |
+| Bezpečnostní, komerční nebo politický tlak na výsledek přezkumu | Ohýbá se nejdřív to, co chrání nejslabší stranu, protože ta tlak nevyvíjí |
 
 ## Klinické markery (neúmyslná manifestace)
 

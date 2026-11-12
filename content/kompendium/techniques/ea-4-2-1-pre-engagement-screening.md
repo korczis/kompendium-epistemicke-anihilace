@@ -66,11 +66,21 @@ Následující pojistky jsou shrnuty proto, že jejich nepřítomnost je sama n�
 | **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
 | **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
 
-## Kdy je rámec legitimní
+## Co zařazení vylučuje bez ohledu na výsledek posouzení
 
-Legitimní rámec je pro tyto protokoly úzký a vždy vnější: doložená indikace, nezávislé posouzení poměru přínosu a rizika, odpovídající výběr účastníků a souhlas, který lze kdykoli odvolat. Nejde o formality, ale o minimum, bez něhož se zátěžová intervence ani výzkum nepovažují za eticky přijatelné (Emanuel, Wendler a Grady, 2000).
+Výčet případů, v nichž by bylo zařazení do protokolu tohoto druhu v pořádku, na stránce není a ani být nemá. Požadavky, jež Emanuel, Wendler a Grady (2000) kladou na eticky obhajitelný výzkum, jsou nároky vůči uspořádání a vůči nezávislému posouzení, ne kritéria, podle nichž by si uplatňující zařazení povolil; pro vstupní posouzení z nich plyne jedině to, že musí být možné zařazení odmítnout. Zda je protokol tohoto druhu vůbec přípustný, rozhodují komise a pravidla, k nimž vedou [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md), spolu s výčtem mezí v [etickém kodexu](@/kompendium/08-prilohy/eticky-kodex.md). Následuje jen to, co zařazení vylučuje, a důvod u každé okolnosti.
 
-Hranici, která se dá pozorovat zvenčí, tvoří souhlas. Souhlas je proces, nikoli podpis, a v závislém postavení — zaměstnanec, podřízený, student, klient bez jiné možnosti — ho nelze číst jako svobodný; tam, kde je cíl protokolu komerční, soutěžní nebo politický, přestává jít o intervenci a začíná vzorec, který tato kniha popisuje (Faden a Beauchamp, 1986).
+| Okolnost | Proč zařazení vylučuje |
+|---|---|
+| Posouzení provádí tentýž okruh, který uchazeče získává | Nepříznivý nález jde proti zájmu posuzujícího, a proto nevznikne |
+| Účast je pro uchazeče jedinou dostupnou cestou k péči, postavení nebo obživě | O svobodné volbě nelze mluvit tam, kde odmítnutí znamená ztrátu toho jediného, co je dostupné |
+| Vylučující nález se vykládá jako překonatelný | Posouzení pak nemá vylučující funkci a plní roli náboru |
+| Posouzení se provádí až po přijetí | Nález nemůže ovlivnit rozhodnutí, které už padlo |
+| Cíl protokolu je komerční, soutěžní nebo politický | Okruh toho, co je vylučující, se zúží na to, co takový cíl snese |
+
+## Co vstupní posouzení nedokládá
+
+Z toho, že člověk posouzením prošel, neplyne, že je mimo riziko; plyne jen, že posuzující nenašel to, co hledal. Lilienfeld (2007) dokládá intervence, u nichž se škodlivost ukázala až po jejich podání, takže vstupní obraz závěr o bezpečí nenese. Nedokládá nic ani vysoký podíl odmítnutí: přísnost posouzení se stejně dobře vysvětlí složením uchazečů jako ochranou těch, kdo se přihlásili. Beecher (1966) shrnul publikované studie, v nichž účastníci o své účasti nevěděli; záznam o posouzení a jeho skutečné provedení jsou proto dvě různé věci. A chybějící záznam o odmítnutí nelze odlišit od toho, že se žádný důvod k odmítnutí nehledal.
 
 ## Klinické markery (neúmyslná manifestace)
 

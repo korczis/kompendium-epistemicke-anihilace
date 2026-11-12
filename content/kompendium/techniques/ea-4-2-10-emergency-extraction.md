@@ -66,11 +66,19 @@ Následující pojistky jsou shrnuty proto, že jejich nepřítomnost je sama n�
 | **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
 | **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
 
-## Kdy je rámec legitimní
+## Okolnosti, které takto vedené přerušení vylučují
 
-Legitimní rámec je pro tyto protokoly úzký a vždy vnější: doložená indikace, nezávislé posouzení poměru přínosu a rizika, odpovídající výběr účastníků a souhlas, který lze kdykoli odvolat. Nejde o formality, ale o minimum, bez něhož se zátěžová intervence ani výzkum nepovažují za eticky přijatelné (Emanuel, Wendler a Grady, 2000).
+Nouzové přerušení je tu popsáno jako pojistka, kterou lze poznat zvenčí, a ne jako zásah, k němuž by stránka kohokoli zmocňovala. Jestli je uspořádání, v němž se taková pojistka vůbec může uplatnit, eticky přijatelné, váží výzkumná etika: požadavky, jež sepsali Emanuel, Wendler a Grady (2000), adresují zadavatele a nezávislý přezkum, a nikoli toho, kdo stránku čte. Mandát k přemístění člověka tedy kniha nedává ani neupírá a dělicí linii vedou [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) a [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md), nikoli tento text.
 
-Hranici, která se dá pozorovat zvenčí, tvoří souhlas. Souhlas je proces, nikoli podpis, a v závislém postavení — zaměstnanec, podřízený, student, klient bez jiné možnosti — ho nelze číst jako svobodný; tam, kde je cíl protokolu komerční, soutěžní nebo politický, přestává jít o intervenci a začíná vzorec, který tato kniha popisuje (Faden a Beauchamp, 1986).
+Že k přerušení došlo, samo o sobě neříká nic o jeho účinku. Podpora podaná plošně a bez volby nemá doloženou preventivní hodnotu a u části lidí se váže k horšímu výsledku, takže zaznamenaný zásah není dokladem o pomoci (Rose a kol., 2002). Pozorovatelné zvenčí zůstává jen to, zda byla možnost přerušení dohodnuta dřív, než jí bylo třeba, a komu byla dostupná.
+
+| Vylučující okolnost | Proč přerušení vylučuje |
+|---|---|
+| Přemístění provedené bez vysvětlení a bez možnosti se vyjádřit | Z pojistky se stává úkon vedený proti člověku, tedy právě to, co měla ukončit |
+| Přerušení, které vede zpět do téhož prostředí | Mění jen podobu zátěže, protože bezpečné místo není kam určit |
+| Možnost přerušení vyhrazená tomu, kdo expozici vede | Odchod je vázán na souhlas prostředí, a tím přestává být odchodem |
+| Účast vázaná na zaměstnání, zakázku nebo postavení v organizaci | Ohlásit krizi je pro vystaveného člověka dražší než ji snášet |
+| Komerční, soutěžní nebo politický účel expozice | O zastavení rozhoduje náklad na přerušení, ne stav toho, kdo je vystaven |
 
 ## Klinické markery (neúmyslná manifestace)
 

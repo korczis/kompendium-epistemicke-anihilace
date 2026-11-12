@@ -66,11 +66,18 @@ Následující pojistky jsou shrnuty proto, že jejich nepřítomnost je sama n�
 | **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
 | **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
 
-## Kdy je rámec legitimní
+## Okolnosti, které takové supervizní uspořádání vylučují
 
-Legitimní rámec je pro tyto protokoly úzký a vždy vnější: doložená indikace, nezávislé posouzení poměru přínosu a rizika, odpovídající výběr účastníků a souhlas, který lze kdykoli odvolat. Nejde o formality, ale o minimum, bez něhož se zátěžová intervence ani výzkum nepovažují za eticky přijatelné (Emanuel, Wendler a Grady, 2000).
+O tom, kdy je uspořádání s jediným nerotujícím supervizorem ještě obhajitelné, tato stránka nerozhoduje a žádný takový případ nevypisuje. Přípustnost zátěžového výzkumu i zátěžové intervence posuzuje výzkumná etika a nároky, které pro ni formulovali Emanuel, Wendler a Grady (2000), dopadají na instituci, na nezávislý přezkum a na poměr přínosu a rizika v konkrétním protokolu; na toho, kdo závislostní vzorec rozpoznává, nedopadají vůbec. Stránka proto k rotaci neopravňuje ani ji nepředepisuje a rámec tohoto čtení stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
-Hranici, která se dá pozorovat zvenčí, tvoří souhlas. Souhlas je proces, nikoli podpis, a v závislém postavení — zaměstnanec, podřízený, student, klient bez jiné možnosti — ho nelze číst jako svobodný; tam, kde je cíl protokolu komerční, soutěžní nebo politický, přestává jít o intervenci a začíná vzorec, který tato kniha popisuje (Faden a Beauchamp, 1986).
+Vyčerpání na straně supervizora přitom samo nedokládá, že uspořádání někomu škodí. Odstup, cynismus a klesající pocit vlastní účinnosti popisují Maslach a Jackson (1981) jako stav pomáhajícího, nikoli jako záznam o tom, co se dělo člověku v péči; obrácený úsudek je stejně slabý, protože výměna doložená v rozpisu neříká nic o tom, zda se vazba na jednu osobu skutečně rozvolnila (Figley, 1995).
+
+| Vylučující okolnost | Proč uspořádání vylučuje |
+|---|---|
+| Zadání, hodnocení i útěchu drží jedna a tatáž osoba | Námitku není komu vznést než tomu, koho se týká |
+| Zaměstnanecká, výcviková nebo studijní závislost na supervizorovi | Setrvání v uspořádání je podmínkou postavení, ne volbou |
+| Tým, v němž není kým rotaci naplnit | Výměna zůstane záznamem, zatímco faktická závislost trvá dál |
+| Komerční, soutěžní nebo politický účel programu | Nepříjemný nález se odkládá, protože ohrožuje výsledek, a ne proto, že by byl sporný |
 
 ## Klinické markery (neúmyslná manifestace)
 

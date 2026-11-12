@@ -66,11 +66,17 @@ Následující pojistky jsou shrnuty proto, že jejich nepřítomnost je sama n�
 | **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
 | **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
 
-## Kdy je rámec legitimní
+## Co vylučuje debriefing tohoto typu
 
-Legitimní rámec je pro tyto protokoly úzký a vždy vnější: doložená indikace, nezávislé posouzení poměru přínosu a rizika, odpovídající výběr účastníků a souhlas, který lze kdykoli odvolat. Nejde o formality, ale o minimum, bez něhož se zátěžová intervence ani výzkum nepovažují za eticky přijatelné (Emanuel, Wendler a Grady, 2000).
+Žádné uspořádání, v němž by byla kaskáda debriefingů po zátěži na místě, tato stránka nejmenuje. Emanuel, Wendler a Grady (2000) formulují požadavky, jimž musí vyhovět výzkumné uspořádání — nezávislý přezkum, příznivý poměr přínosu a rizika, spravedlivý výběr účastníků a informovaný souhlas; ty váží zadavatele a posuzující orgán a nelze je číst jako měřítko, jímž by si někdo odsouhlasil vlastní postup. Souhlas odvolatelný bez sankce patří k témuž souboru podmínek uspořádání (Faden a Beauchamp, 1986). Zda je rozhovor tohoto druhu po zátěži vůbec přípustný, posuzují orgány popsané v [etických aspektech](@/kompendium/01-predmluva/eticke-aspekty.md) a mez stanovuje [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md); tato stránka nepovoluje nic. Níže stojí jen okolnosti, za nichž je takový rozhovor vyloučen, a u každé důvod.
 
-Hranici, která se dá pozorovat zvenčí, tvoří souhlas. Souhlas je proces, nikoli podpis, a v závislém postavení — zaměstnanec, podřízený, student, klient bez jiné možnosti — ho nelze číst jako svobodný; tam, kde je cíl protokolu komerční, soutěžní nebo politický, přestává jít o intervenci a začíná vzorec, který tato kniha popisuje (Faden a Beauchamp, 1986).
+| Okolnost | Proč rozhovor vylučuje |
+|---|---|
+| Účast na debriefingu nelze odmítnout bez ztráty postavení, vztahů nebo obživy | Mlčení je pak dražší než vyprávění a opakované vyprávění se stává vynuceným, nikoli nabídnutým |
+| Rozhovor vede ten, kdo zátěž zadal | Posuzující je zároveň zadavatelem, takže nepříznivý nález jde proti jeho vlastnímu zájmu |
+| Skupinová forma v hierarchii za přítomnosti nadřízeného | Co lze vyslovit, určuje složení skupiny, a obtíž se do záznamu nedostane |
+| U účastníka jsou patrné známky dekompenzace | Další rozhovor odkládá odbornou péči, kterou stav vyžaduje, a přináší riziko dalšího znovuprožití |
+| Cílem rozhovoru je komerční, soutěžní nebo politický výsledek | Výpověď se sbírá pro zadavatele a účel rozhovoru přestává být na straně mluvícího |
 
 ## Klinické markery (neúmyslná manifestace)
 

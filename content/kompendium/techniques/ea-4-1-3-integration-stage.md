@@ -66,11 +66,19 @@ Následující pojistky jsou shrnuty proto, že jejich nepřítomnost je sama n�
 | **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
 | **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
 
-## Kdy je rámec legitimní
+## Co integrační fázi vylučuje
 
-Legitimní rámec je pro tyto protokoly úzký a vždy vnější: doložená indikace, nezávislé posouzení poměru přínosu a rizika, odpovídající výběr účastníků a souhlas, který lze kdykoli odvolat. Nejde o formality, ale o minimum, bez něhož se zátěžová intervence ani výzkum nepovažují za eticky přijatelné (Emanuel, Wendler a Grady, 2000).
+Žádnou legitimní podobu integrační fáze tento článek nevymezuje. Otázka, zda je takové uspořádání obhajitelné, patří do výzkumné etiky: Emanuel, Wendler a Grady (2000) formulují nezávislý přezkum, příznivý poměr přínosu a rizika, spravedlivý výběr účastníků a informovaný souhlas jako podmínky, které musí splnit uspořádání samo — nikoli jako oprávnění pro toho, kdo o nich čte. Rozhodují o nich orgány, k nimž vede [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) a [supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md). Stránka proto nic nepovoluje ani nezakazuje; uvádí okolnosti, za nichž je práce s výkladem zkušenosti vyloučena.
 
-Hranici, která se dá pozorovat zvenčí, tvoří souhlas. Souhlas je proces, nikoli podpis, a v závislém postavení — zaměstnanec, podřízený, student, klient bez jiné možnosti — ho nelze číst jako svobodný; tam, kde je cíl protokolu komerční, soutěžní nebo politický, přestává jít o intervenci a začíná vzorec, který tato kniha popisuje (Faden a Beauchamp, 1986).
+| Okolnost | Důvod vyloučení |
+|----------|-----------------|
+| Výklad zkušenosti poskytuje tentýž, kdo zážitek navodil | Člověk nemá s čím nabídnutý výklad porovnat a přistupuje na verzi, kterou nelze bez ztráty odmítnout |
+| Integrace má být uzavřena v dohodnuté době | Vzniká předčasný příběh, který drží jen potud, pokud jej prostředí potvrzuje, a pochybnost se čte jako selhání |
+| Jiná verze vlastní zkušenosti je v prostředí nepřijatelná | Zpracování se mění v převzetí: měřítkem je unesená pochybnost, ne dosažený soulad s výkladem okolí |
+| Chybí nezávislá supervize, u níž lze příběh zpochybnit bez následků | Bez vnějšího posluchače nelze odlišit vyprávění vlastní od vyprávění předepsaného |
+| Vzpomínky odporující ustálenému příběhu jsou opravovány | Opravovaný materiál je právě to, čím by se výklad dal falzifikovat, a jeho ztráta je nevratná |
+
+Podpis žádnou z těchto okolností neodstraní: souhlas je proces, a kde na přijetí předloženého výkladu závisí setrvání člověka ve skupině, přestává být svobodný (Faden a Beauchamp, 1986).
 
 ## Klinické markery (neúmyslná manifestace)
 

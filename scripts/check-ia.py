@@ -255,10 +255,10 @@ PENDING_ZERO = {"placeholder": 0, "technique-page": 0, "howto": 0, "drug-dose": 
                 "platform-label": 0, "platform-frontmatter": 0, "philosophy-frame": 0,
                 "fabricated-citation": 0,
                 "legitimate-indication": 0,
-                "detail": 201, "weak-link": 201,
+                "detail": 199, "weak-link": 199,
                 "duplicate-passage": 281,
                 # safety, ADR 0013/0014: both reach 0 after the content lane's waves
-                "drug-name": 75, "authority-without-source": 83}  # 0 → never baselined (lands at 0 after 2e's slice)
+                "drug-name": 31, "authority-without-source": 0}  # 0 → never baselined (lands at 0 after 2e's slice)
 BOLD_CANDIDATE_PAGES = 3  # a bold phrase on this many pages is a term and needs its own page
 
 

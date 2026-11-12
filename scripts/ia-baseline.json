@@ -821,19 +821,11 @@
  "bold:zuzeni": [
   "bold-candidate"
  ],
- "content/_index.md": [
-  "weak-link",
-  "detail"
- ],
  "content/about.md": [
-  "citations:5",
-  "weak-link",
-  "detail"
+  "citations:5"
  ],
  "content/galerie.md": [
-  "citations:4",
-  "weak-link",
-  "detail"
+  "citations:4"
  ],
  "content/glossary/_index.md": [
   "bullets:16",
@@ -845,63 +837,43 @@
  ],
  "content/glossary/akademicka-technika.md": [
   "bullets:10",
-  "citations:9",
-  "weak-link",
-  "detail"
+  "citations:9"
  ],
  "content/glossary/akutni-naruseni.md": [
   "bullets:10",
-  "citations:10",
-  "weak-link",
-  "detail"
+  "citations:10"
  ],
  "content/glossary/anihilacni-fenomeny.md": [
   "bullets:20",
-  "citations:6",
-  "weak-link",
-  "detail"
+  "citations:6"
  ],
  "content/glossary/apofaticky-modus.md": [
   "bullets:19",
-  "citations:10",
-  "weak-link",
-  "detail"
+  "citations:10"
  ],
  "content/glossary/apofatika.md": [
   "bullets:13",
-  "citations:11",
-  "weak-link",
-  "detail"
+  "citations:11"
  ],
  "content/glossary/apriori.md": [
   "bullets:13",
-  "citations:9",
-  "weak-link",
-  "detail"
+  "citations:9"
  ],
  "content/glossary/aristotelovy-kategorie.md": [
   "bullets:24",
-  "citations:9",
-  "weak-link",
-  "detail"
+  "citations:9"
  ],
  "content/glossary/asymptoticky-kolaps.md": [
   "bullets:19",
-  "citations:9",
-  "weak-link",
-  "detail"
+  "citations:9"
  ],
  "content/glossary/banalita-zla.md": [
   "bullets:8",
-  "citations:9",
-  "weak-link",
-  "detail"
+  "citations:9"
  ],
  "content/glossary/blame-shifting.md": [
   "bullets:24",
-  "citations:10",
-  "weak-link",
-  "detail"
+  "citations:10"
  ],
  "content/glossary/blue-team.md": [
   "bullets:26",
@@ -909,33 +881,23 @@
  ],
  "content/glossary/category-mistake.md": [
   "bullets:15",
-  "citations:9",
-  "weak-link",
-  "detail"
+  "citations:9"
  ],
  "content/glossary/charisma.md": [
   "bullets:22",
-  "citations:6",
-  "weak-link",
-  "detail"
+  "citations:6"
  ],
  "content/glossary/child-grooming.md": [
   "bullets:26",
-  "citations:6",
-  "weak-link",
-  "detail"
+  "citations:6"
  ],
  "content/glossary/cirkularni-argumentace.md": [
   "bullets:17",
-  "citations:11",
-  "weak-link",
-  "detail"
+  "citations:11"
  ],
  "content/glossary/communicative-rationality.md": [
   "bullets:16",
-  "citations:7",
-  "weak-link",
-  "detail"
+  "citations:7"
  ],
  "content/glossary/complex-trauma.md": [
   "bullets:17",
@@ -943,63 +905,43 @@
  ],
  "content/glossary/cynicky-rozum.md": [
   "bullets:9",
-  "citations:9",
-  "weak-link",
-  "detail"
+  "citations:9"
  ],
  "content/glossary/demarkacni-problem.md": [
   "bullets:9",
-  "citations:10",
-  "weak-link",
-  "detail"
+  "citations:10"
  ],
  "content/glossary/deplatforming.md": [
   "bullets:10",
-  "citations:8",
-  "weak-link",
-  "detail"
+  "citations:8"
  ],
  "content/glossary/des-ii.md": [
   "bullets:9",
-  "citations:8",
-  "weak-link",
-  "detail"
+  "citations:8"
  ],
  "content/glossary/differance.md": [
   "bullets:17",
-  "citations:5",
-  "weak-link",
-  "detail"
+  "citations:5"
  ],
  "content/glossary/ding-an-sich.md": [
   "bullets:12",
-  "citations:9",
-  "weak-link",
-  "detail"
+  "citations:9"
  ],
  "content/glossary/discard.md": [
   "bullets:18",
-  "citations:8",
-  "weak-link",
-  "detail"
+  "citations:8"
  ],
  "content/glossary/diskursivni-formace.md": [
   "bullets:9",
-  "citations:9",
-  "weak-link",
-  "detail"
+  "citations:9"
  ],
  "content/glossary/dissociativni-amnezie.md": [
   "bullets:20",
-  "citations:7",
-  "weak-link",
-  "detail"
+  "citations:7"
  ],
  "content/glossary/doubling.md": [
   "bullets:9",
-  "citations:11",
-  "weak-link",
-  "detail"
+  "citations:11"
  ],
  "content/glossary/due-diligence.md": [
   "bullets:16",
@@ -1007,120 +949,82 @@
  ],
  "content/glossary/ecri.md": [
   "bullets:11",
-  "citations:6",
-  "weak-link",
-  "detail"
+  "citations:6"
  ],
  "content/glossary/emocionalni-terorismus.md": [
   "bullets:25",
-  "citations:6",
-  "weak-link",
-  "detail"
+  "citations:6"
  ],
  "content/glossary/entity-resolution.md": [
   "citations:7"
  ],
  "content/glossary/epistemicka-agentnost.md": [
   "bullets:18",
-  "citations:9",
-  "weak-link",
-  "detail"
+  "citations:9"
  ],
  "content/glossary/epistemicka-bezdomovost.md": [
   "bullets:19",
-  "citations:8",
-  "weak-link",
-  "detail"
+  "citations:8"
  ],
  "content/glossary/epistemicka-komunita.md": [
   "bullets:18",
-  "citations:8",
-  "weak-link",
-  "detail"
+  "citations:8"
  ],
  "content/glossary/epistemicka-regrese.md": [
   "bullets:20",
-  "citations:7",
-  "weak-link",
-  "detail"
+  "citations:7"
  ],
  "content/glossary/epistemicka-reintegrace.md": [
   "bullets:18",
-  "citations:8",
-  "weak-link",
-  "detail"
+  "citations:8"
  ],
  "content/glossary/epistemicka-slepota.md": [
   "bullets:18",
-  "citations:6",
-  "weak-link",
-  "detail"
+  "citations:6"
  ],
  "content/glossary/epistemicka-staze.md": [
   "bullets:18",
-  "citations:7",
-  "weak-link",
-  "detail"
+  "citations:7"
  ],
  "content/glossary/epistemicke-zakladny.md": [
   "bullets:23",
-  "citations:7",
-  "weak-link",
-  "detail"
+  "citations:7"
  ],
  "content/glossary/epistemicky-monismus.md": [
   "bullets:17",
-  "citations:8",
-  "weak-link",
-  "detail"
+  "citations:8"
  ],
  "content/glossary/expert-witness.md": [
   "bullets:12",
-  "citations:10",
-  "weak-link",
-  "detail"
+  "citations:10"
  ],
  "content/glossary/falsifikabilita.md": [
   "bullets:17",
-  "citations:11",
-  "weak-link",
-  "detail"
+  "citations:11"
  ],
  "content/glossary/fenomen.md": [
   "bullets:14",
-  "citations:8",
-  "weak-link",
-  "detail"
+  "citations:8"
  ],
  "content/glossary/forensic-interview.md": [
   "bullets:13",
-  "citations:10",
-  "weak-link",
-  "detail"
+  "citations:10"
  ],
  "content/glossary/four-noble-truths.md": [
   "bullets:11",
-  "citations:7",
-  "weak-link",
-  "detail"
+  "citations:7"
  ],
  "content/glossary/fuze-horizontu.md": [
   "bullets:8",
-  "citations:10",
-  "weak-link",
-  "detail"
+  "citations:10"
  ],
  "content/glossary/gestalt-shift.md": [
   "bullets:18",
-  "citations:9",
-  "weak-link",
-  "detail"
+  "citations:9"
  ],
  "content/glossary/godeluv-teorem.md": [
   "bullets:17",
-  "citations:9",
-  "weak-link",
-  "detail"
+  "citations:9"
  ],
  "content/glossary/graph-theory.md": [
   "bullets:9",
@@ -1128,93 +1032,63 @@
  ],
  "content/glossary/habitus.md": [
   "bullets:8",
-  "citations:11",
-  "weak-link",
-  "detail"
+  "citations:11"
  ],
  "content/glossary/heat-death.md": [
   "bullets:13",
-  "citations:9",
-  "weak-link",
-  "detail"
+  "citations:9"
  ],
  "content/glossary/hermeneuticka-eroze.md": [
   "bullets:17",
-  "citations:6",
-  "weak-link",
-  "detail"
+  "citations:6"
  ],
  "content/glossary/hermeneuticka-marginalizace.md": [
   "bullets:9",
-  "citations:10",
-  "weak-link",
-  "detail"
+  "citations:10"
  ],
  "content/glossary/hermeneuticky-kruh.md": [
   "bullets:22",
-  "citations:5",
-  "weak-link",
-  "detail"
+  "citations:5"
  ],
  "content/glossary/hermeneuticky-outsourcing.md": [
   "bullets:18",
-  "citations:7",
-  "weak-link",
-  "detail"
+  "citations:7"
  ],
  "content/glossary/heuristika.md": [
   "bullets:12",
-  "citations:9",
-  "weak-link",
-  "detail"
+  "citations:9"
  ],
  "content/glossary/hodnotova-destrukce.md": [
   "bullets:24",
-  "citations:5",
-  "weak-link",
-  "detail"
+  "citations:5"
  ],
  "content/glossary/holismus.md": [
   "bullets:15",
-  "citations:9",
-  "weak-link",
-  "detail"
+  "citations:9"
  ],
  "content/glossary/hranicni-koncept.md": [
   "bullets:17",
-  "citations:8",
-  "weak-link",
-  "detail"
+  "citations:8"
  ],
  "content/glossary/husserl-retence.md": [
   "bullets:17",
-  "citations:10",
-  "weak-link",
-  "detail"
+  "citations:10"
  ],
  "content/glossary/hyperreality.md": [
   "bullets:17",
-  "citations:5",
-  "weak-link",
-  "detail"
+  "citations:5"
  ],
  "content/glossary/ideal-speech-situation.md": [
   "bullets:11",
-  "citations:6",
-  "weak-link",
-  "detail"
+  "citations:6"
  ],
  "content/glossary/identity-destruction.md": [
   "bullets:15",
-  "citations:7",
-  "weak-link",
-  "detail"
+  "citations:7"
  ],
  "content/glossary/ies-r.md": [
   "bullets:9",
-  "citations:6",
-  "weak-link",
-  "detail"
+  "citations:6"
  ],
  "content/glossary/inference.md": [
   "bullets:9",
@@ -1222,21 +1096,15 @@
  ],
  "content/glossary/infinitni-regress.md": [
   "bullets:13",
-  "citations:9",
-  "weak-link",
-  "detail"
+  "citations:9"
  ],
  "content/glossary/instrumental-reason.md": [
   "bullets:13",
-  "citations:8",
-  "weak-link",
-  "detail"
+  "citations:8"
  ],
  "content/glossary/integrative-collapse.md": [
   "bullets:17",
-  "citations:5",
-  "weak-link",
-  "detail"
+  "citations:5"
  ],
  "content/glossary/intelligence-fusion.md": [
   "bullets:10",
@@ -1244,177 +1112,119 @@
  ],
  "content/glossary/introjekce.md": [
   "bullets:13",
-  "citations:8",
-  "weak-link",
-  "detail"
+  "citations:8"
  ],
  "content/glossary/ipseita.md": [
   "bullets:13",
-  "citations:6",
-  "weak-link",
-  "detail"
+  "citations:6"
  ],
  "content/glossary/jazykova-hra.md": [
   "bullets:9",
-  "citations:10",
-  "weak-link",
-  "detail"
+  "citations:10"
  ],
  "content/glossary/kantovy-kategorie.md": [
   "bullets:12",
-  "citations:7",
-  "weak-link",
-  "detail"
+  "citations:7"
  ],
  "content/glossary/kataphasis.md": [
   "bullets:16",
-  "citations:7",
-  "weak-link",
-  "detail"
+  "citations:7"
  ],
  "content/glossary/kognitivni-bias.md": [
   "bullets:7",
-  "citations:6",
-  "weak-link",
-  "detail"
+  "citations:6"
  ],
  "content/glossary/kognitivni-stagnace.md": [
   "bullets:20",
-  "citations:6",
-  "weak-link",
-  "detail"
+  "citations:6"
  ],
  "content/glossary/kognitivni-zplosteni.md": [
   "bullets:24",
-  "citations:4",
-  "weak-link",
-  "detail"
+  "citations:4"
  ],
  "content/glossary/konceptualni-anihilace.md": [
   "bullets:18",
-  "citations:6",
-  "weak-link",
-  "detail"
+  "citations:6"
  ],
  "content/glossary/konfabulace.md": [
   "bullets:12",
-  "citations:7",
-  "weak-link",
-  "detail"
+  "citations:7"
  ],
  "content/glossary/konsenzualni-realita.md": [
   "bullets:15",
-  "citations:8",
-  "weak-link",
-  "detail"
+  "citations:8"
  ],
  "content/glossary/konstitutivni-akt.md": [
   "bullets:17",
-  "citations:6",
-  "weak-link",
-  "detail"
+  "citations:6"
  ],
  "content/glossary/kuhnova-revoluce.md": [
   "bullets:17",
-  "citations:7",
-  "weak-link",
-  "detail"
+  "citations:7"
  ],
  "content/glossary/kult-osobnosti.md": [
   "bullets:16",
-  "citations:7",
-  "weak-link",
-  "detail"
+  "citations:7"
  ],
  "content/glossary/liaruv-paradox.md": [
   "bullets:14",
-  "citations:6",
-  "weak-link",
-  "detail"
+  "citations:6"
  ],
  "content/glossary/logic-prolog.md": [
   "bullets:14",
-  "citations:6",
-  "weak-link",
-  "detail"
+  "citations:6"
  ],
  "content/glossary/logicka-koherence.md": [
   "bullets:16",
-  "citations:8",
-  "weak-link",
-  "detail"
+  "citations:8"
  ],
  "content/glossary/lti-lingua-tertii-imperii.md": [
   "bullets:11",
-  "citations:7",
-  "weak-link",
-  "detail"
+  "citations:7"
  ],
  "content/glossary/mereologicka-rekonstrukce.md": [
   "bullets:11",
-  "citations:9",
-  "weak-link",
-  "detail"
+  "citations:9"
  ],
  "content/glossary/meta-epistemologie.md": [
   "bullets:15",
-  "citations:8",
-  "weak-link",
-  "detail"
+  "citations:8"
  ],
  "content/glossary/metakognitivni-deficit.md": [
   "bullets:15",
-  "citations:6",
-  "weak-link",
-  "detail"
+  "citations:6"
  ],
  "content/glossary/metanarrative-collapse.md": [
   "bullets:12",
-  "citations:8",
-  "weak-link",
-  "detail"
+  "citations:8"
  ],
  "content/glossary/modalni-logika.md": [
   "bullets:15",
-  "citations:7",
-  "weak-link",
-  "detail"
+  "citations:7"
  ],
  "content/glossary/mysticky-prozitek.md": [
   "bullets:23",
-  "citations:6",
-  "weak-link",
-  "detail"
+  "citations:6"
  ],
  "content/glossary/narativni-topologie.md": [
   "bullets:17",
-  "citations:8",
-  "weak-link",
-  "detail"
+  "citations:8"
  ],
  "content/glossary/narrative-trauma.md": [
   "bullets:19",
-  "citations:8",
-  "weak-link",
-  "detail"
+  "citations:8"
  ],
  "content/glossary/normalni-veda.md": [
   "bullets:9",
-  "citations:8",
-  "weak-link",
-  "detail"
+  "citations:8"
  ],
  "content/glossary/noumenum.md": [
   "bullets:16",
-  "citations:6",
-  "weak-link",
-  "detail"
+  "citations:6"
  ],
  "content/glossary/operativni-artikulace.md": [
   "bullets:23",
-  "citations:6",
-  "weak-link",
-  "detail"
+  "citations:6"
  ],
  "content/glossary/osint.md": [
   "bullets:2",
@@ -1426,87 +1236,59 @@
  ],
  "content/glossary/paradigmaticka-bezdomovina.md": [
   "bullets:18",
-  "citations:6",
-  "weak-link",
-  "detail"
+  "citations:6"
  ],
  "content/glossary/parental-alienation.md": [
   "bullets:15",
-  "citations:8",
-  "weak-link",
-  "detail"
+  "citations:8"
  ],
  "content/glossary/pattern-evidence.md": [
   "bullets:13",
-  "citations:9",
-  "weak-link",
-  "detail"
+  "citations:9"
  ],
  "content/glossary/perfekcionismus.md": [
   "bullets:18",
-  "citations:7",
-  "weak-link",
-  "detail"
+  "citations:7"
  ],
  "content/glossary/performativni-akt.md": [
   "bullets:12",
-  "citations:9",
-  "weak-link",
-  "detail"
+  "citations:9"
  ],
  "content/glossary/pluralismus.md": [
   "bullets:18",
-  "citations:6",
-  "weak-link",
-  "detail"
+  "citations:6"
  ],
  "content/glossary/popperianismus.md": [
   "bullets:17",
-  "citations:7",
-  "weak-link",
-  "detail"
+  "citations:7"
  ],
  "content/glossary/power-knowledge.md": [
   "bullets:18",
-  "citations:6",
-  "weak-link",
-  "detail"
+  "citations:6"
  ],
  "content/glossary/pragmaticka-kompetence.md": [
   "bullets:15",
-  "citations:5",
-  "weak-link",
-  "detail"
+  "citations:5"
  ],
  "content/glossary/predictive-processing.md": [
   "bullets:15",
-  "citations:5",
-  "weak-link",
-  "detail"
+  "citations:5"
  ],
  "content/glossary/predreflexivni-vedomi.md": [
   "bullets:14",
-  "citations:8",
-  "weak-link",
-  "detail"
+  "citations:8"
  ],
  "content/glossary/privatni-jazyk.md": [
   "bullets:14",
-  "citations:6",
-  "weak-link",
-  "detail"
+  "citations:6"
  ],
  "content/glossary/pseudoempaticka-vazba.md": [
   "bullets:20",
-  "citations:6",
-  "weak-link",
-  "detail"
+  "citations:6"
  ],
  "content/glossary/ptsd.md": [
   "bullets:10",
-  "citations:9",
-  "weak-link",
-  "detail"
+  "citations:9"
  ],
  "content/glossary/purple-team.md": [
   "bullets:10",
@@ -1514,9 +1296,7 @@
  ],
  "content/glossary/pyrrhonismus.md": [
   "bullets:14",
-  "citations:7",
-  "weak-link",
-  "detail"
+  "citations:7"
  ],
  "content/glossary/red-team.md": [
   "bullets:16",
@@ -1528,9 +1308,7 @@
  ],
  "content/glossary/russell-paradox.md": [
   "bullets:13",
-  "citations:5",
-  "weak-link",
-  "detail"
+  "citations:5"
  ],
  "content/glossary/sanctions-screening.md": [
   "bullets:14",
@@ -1538,105 +1316,71 @@
  ],
  "content/glossary/scam-compliance.md": [
   "bullets:22",
-  "citations:4",
-  "weak-link",
-  "detail"
+  "citations:4"
  ],
  "content/glossary/secure-attachment.md": [
   "bullets:15",
-  "citations:8",
-  "weak-link",
-  "detail"
+  "citations:8"
  ],
  "content/glossary/self-reference.md": [
   "bullets:14",
-  "citations:5",
-  "weak-link",
-  "detail"
+  "citations:5"
  ],
  "content/glossary/semanticka-afazie.md": [
   "bullets:15",
-  "citations:6",
-  "weak-link",
-  "detail"
+  "citations:6"
  ],
  "content/glossary/simulacra.md": [
   "bullets:22",
-  "citations:5",
-  "weak-link",
-  "detail"
+  "citations:5"
  ],
  "content/glossary/solipsismus.md": [
   "bullets:18",
-  "citations:7",
-  "weak-link",
-  "detail"
+  "citations:7"
  ],
  "content/glossary/strukturalni-trauma.md": [
   "bullets:23",
-  "citations:7",
-  "weak-link",
-  "detail"
+  "citations:7"
  ],
  "content/glossary/synteticke-analyticke.md": [
   "bullets:13",
-  "citations:7",
-  "weak-link",
-  "detail"
+  "citations:7"
  ],
  "content/glossary/system-1-system-2.md": [
   "bullets:8",
-  "citations:9",
-  "weak-link",
-  "detail"
+  "citations:9"
  ],
  "content/glossary/tautologie.md": [
   "bullets:17",
-  "citations:6",
-  "weak-link",
-  "detail"
+  "citations:6"
  ],
  "content/glossary/toulmin-model.md": [
   "bullets:22",
-  "citations:6",
-  "weak-link",
-  "detail"
+  "citations:6"
  ],
  "content/glossary/traumatic-bonding.md": [
   "bullets:20",
-  "citations:7",
-  "weak-link",
-  "detail"
+  "citations:7"
  ],
  "content/glossary/verejna-sfera.md": [
   "bullets:9",
-  "citations:9",
-  "weak-link",
-  "detail"
+  "citations:9"
  ],
  "content/glossary/via-negativa.md": [
   "bullets:16",
-  "citations:7",
-  "weak-link",
-  "detail"
+  "citations:7"
  ],
  "content/glossary/vnitrni-casovost.md": [
   "bullets:21",
-  "citations:6",
-  "weak-link",
-  "detail"
+  "citations:6"
  ],
  "content/glossary/weaponized-incompetence.md": [
   "bullets:14",
-  "citations:8",
-  "weak-link",
-  "detail"
+  "citations:8"
  ],
  "content/glossary/zenon-paradox.md": [
   "bullets:18",
-  "citations:8",
-  "weak-link",
-  "detail"
+  "citations:8"
  ],
  "content/kompendium/01-predmluva/_index.md": [
   "citations:4"
@@ -1658,9 +1402,7 @@
  ],
  "content/kompendium/01-zaklady-manipulace/_index.md": [
   "bullets:10",
-  "citations:5",
-  "weak-link",
-  "detail"
+  "citations:5"
  ],
  "content/kompendium/02-doktrinalni-ramec/_index.md": [
   "bullets:5",
@@ -1691,9 +1433,7 @@
  ],
  "content/kompendium/03-manipulacni-vzorce/_index.md": [
   "bullets:16",
-  "citations:1",
-  "weak-link",
-  "detail"
+  "citations:1"
  ],
  "content/kompendium/03-zakladni-kategorie/_index.md": [
   "citations:5"
@@ -1953,9 +1693,7 @@
  ],
  "content/kompendium/08-prilohy/_index.md": [
   "bullets:13",
-  "citations:2",
-  "weak-link",
-  "detail"
+  "citations:2"
  ],
  "content/kompendium/08-prilohy/bibliografie.md": [
   "bullets:69",
@@ -1993,9 +1731,7 @@
  ],
  "content/kompendium/case-studies/_index.md": [
   "bullets:21",
-  "citations:2",
-  "weak-link",
-  "detail"
+  "citations:2"
  ],
  "content/kompendium/critical-perspectives/_index.md": [
   "bullets:36",
@@ -2500,9 +2236,7 @@
  ],
  "content/kompendium/konceptualni-mapa/_index.md": [
   "bullets:10",
-  "citations:2",
-  "weak-link",
-  "detail"
+  "citations:2"
  ],
  "content/kompendium/organizational-defense/27-information-classification.md": [
   "citations:3"
@@ -3411,9 +3145,7 @@
  ],
  "content/kompendium/section-bridges/_index.md": [
   "bullets:10",
-  "citations:3",
-  "weak-link",
-  "detail"
+  "citations:3"
  ],
  "content/kompendium/section-bridges/bridge-01-to-02-predmluva-uvod.md": [
   "bullets:16",
@@ -3745,9 +3477,7 @@
  ],
  "content/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce.md": [
   "bullets:11",
-  "citations:10",
-  "weak-link",
-  "detail"
+  "citations:10"
  ],
  "content/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md": [
   "citations:8"
@@ -3757,15 +3487,11 @@
  ],
  "content/kompendium/techniques/ea-1-3-2-pseudo-empiricka-validace.md": [
   "bullets:11",
-  "citations:10",
-  "weak-link",
-  "detail"
+  "citations:10"
  ],
  "content/kompendium/techniques/ea-1-3-2-sokratovska-past.md": [
   "bullets:19",
-  "citations:8",
-  "weak-link",
-  "detail"
+  "citations:8"
  ],
  "content/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md": [
   "bullets:29",
@@ -3777,15 +3503,11 @@
  ],
  "content/kompendium/techniques/ea-1-3-4-indukovana-pochybnost.md": [
   "bullets:17",
-  "citations:7",
-  "weak-link",
-  "detail"
+  "citations:7"
  ],
  "content/kompendium/techniques/ea-1-4-1-latentni-podbarveni.md": [
   "bullets:16",
-  "citations:9",
-  "weak-link",
-  "detail"
+  "citations:9"
  ],
  "content/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md": [
   "citations:1"
@@ -3796,9 +3518,7 @@
  ],
  "content/kompendium/techniques/ea-1-5-1-emocni-podbarveni.md": [
   "bullets:14",
-  "citations:9",
-  "weak-link",
-  "detail"
+  "citations:9"
  ],
  "content/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md": [
   "citations:2"
@@ -3813,9 +3533,7 @@
  ],
  "content/kompendium/techniques/ea-1-6-5.md": [
   "bullets:11",
-  "citations:10",
-  "weak-link",
-  "detail"
+  "citations:10"
  ],
  "content/kompendium/techniques/ea-1-6-falesny-paradigmaticky-narok.md": [
   "citations:7"
@@ -3829,9 +3547,7 @@
  ],
  "content/kompendium/techniques/ea-2-1-2-pseudo-peer-mob.md": [
   "bullets:17",
-  "citations:2",
-  "weak-link",
-  "detail"
+  "citations:2"
  ],
  "content/kompendium/techniques/ea-2-1-3-credentialing-attack.md": [
   "bullets:10",
@@ -3980,9 +3696,7 @@
  ],
  "content/kompendium/techniques/ea-2-4-falesny-konsensus.md": [
   "bullets:10",
-  "citations:11",
-  "weak-link",
-  "detail"
+  "citations:11"
  ],
  "content/kompendium/techniques/ea-2-5-1-pseudo-pokora-internalizace.md": [
   "bullets:14",
@@ -4090,54 +3804,34 @@
   "bullets:3"
  ],
  "content/kompendium/techniques/ea-3-2-9-iatrogenic-risk-assessment.md": [
-  "bullets:3",
-  "weak-link",
-  "detail"
+  "bullets:3"
  ],
  "content/kompendium/techniques/ea-3-3-10-funding-model-ethics.md": [
-  "bullets:3",
-  "weak-link",
-  "detail"
+  "bullets:3"
  ],
  "content/kompendium/techniques/ea-3-3-2-irb-protocol-design.md": [
-  "bullets:3",
-  "weak-link",
-  "detail"
+  "bullets:3"
  ],
  "content/kompendium/techniques/ea-3-3-3-curriculum-architecture.md": [
-  "bullets:3",
-  "weak-link",
-  "detail"
+  "bullets:3"
  ],
  "content/kompendium/techniques/ea-3-3-4-evaluation-metrics.md": [
-  "bullets:3",
-  "weak-link",
-  "detail"
+  "bullets:3"
  ],
  "content/kompendium/techniques/ea-3-3-5-certification-pipeline.md": [
-  "bullets:3",
-  "weak-link",
-  "detail"
+  "bullets:3"
  ],
  "content/kompendium/techniques/ea-3-3-6-relapse-prevention-program.md": [
-  "bullets:3",
-  "weak-link",
-  "detail"
+  "bullets:3"
  ],
  "content/kompendium/techniques/ea-3-3-7-alumni-network.md": [
-  "bullets:3",
-  "weak-link",
-  "detail"
+  "bullets:3"
  ],
  "content/kompendium/techniques/ea-3-3-8-research-translation-pipeline.md": [
-  "bullets:3",
-  "weak-link",
-  "detail"
+  "bullets:3"
  ],
  "content/kompendium/techniques/ea-3-3-9-cross-institutional-collaboration.md": [
-  "bullets:3",
-  "weak-link",
-  "detail"
+  "bullets:3"
  ],
  "content/kompendium/techniques/ea-4-1-1-foundation-stage.md": [
   "bullets:3"
@@ -4161,9 +3855,7 @@
   "bullets:3"
  ],
  "content/kompendium/techniques/ea-4-1-7-termination-criteria.md": [
-  "bullets:3",
-  "weak-link",
-  "detail"
+  "bullets:3"
  ],
  "content/kompendium/techniques/ea-4-1-8-supervisor-rotation.md": [
   "bullets:3"
@@ -4175,9 +3867,7 @@
   "citations:5"
  ],
  "content/kompendium/techniques/ea-4-2-1-pre-engagement-screening.md": [
-  "bullets:3",
-  "weak-link",
-  "detail"
+  "bullets:3"
  ],
  "content/kompendium/techniques/ea-4-2-10-emergency-extraction.md": [
   "bullets:3"
@@ -4417,57 +4107,39 @@
  ],
  "content/kompendium/techniques/ea-5-2-11-kategorialni-anihilace.md": [
   "bullets:22",
-  "citations:6",
-  "weak-link",
-  "detail"
+  "citations:6"
  ],
  "content/kompendium/techniques/ea-5-2-12-noumenalni-paralyza.md": [
   "bullets:21",
-  "citations:7",
-  "weak-link",
-  "detail"
+  "citations:7"
  ],
  "content/kompendium/techniques/ea-5-2-13-apriorni-fragmentace.md": [
   "bullets:22",
-  "citations:6",
-  "weak-link",
-  "detail"
+  "citations:6"
  ],
  "content/kompendium/techniques/ea-5-2-14-konstitutivni-zhrouceni.md": [
   "bullets:22",
-  "citations:3",
-  "weak-link",
-  "detail"
+  "citations:3"
  ],
  "content/kompendium/techniques/ea-5-2-15-transcendentalni-implosion.md": [
   "bullets:22",
-  "citations:3",
-  "weak-link",
-  "detail"
+  "citations:3"
  ],
  "content/kompendium/techniques/ea-5-2-16-kantovska-paradoxie.md": [
   "bullets:21",
-  "citations:3",
-  "weak-link",
-  "detail"
+  "citations:3"
  ],
  "content/kompendium/techniques/ea-5-2-17-husserlovska-redukce-perverze.md": [
   "bullets:24",
-  "citations:3",
-  "weak-link",
-  "detail"
+  "citations:3"
  ],
  "content/kompendium/techniques/ea-5-2-18-heideggerovska-rozklady.md": [
   "bullets:26",
-  "citations:3",
-  "weak-link",
-  "detail"
+  "citations:3"
  ],
  "content/kompendium/techniques/ea-5-2-19-merleau-pontyovska-deformace.md": [
   "bullets:22",
-  "citations:3",
-  "weak-link",
-  "detail"
+  "citations:3"
  ],
  "content/kompendium/techniques/ea-5-2-2-transcendentalni-iluze.md": [
   "bullets:17",
@@ -4475,63 +4147,43 @@
  ],
  "content/kompendium/techniques/ea-5-2-20-apperceptivni-rozklad.md": [
   "bullets:22",
-  "citations:4",
-  "weak-link",
-  "detail"
+  "citations:4"
  ],
  "content/kompendium/techniques/ea-5-2-21-subjekt-objekt-fuzia.md": [
   "bullets:22",
-  "citations:4",
-  "weak-link",
-  "detail"
+  "citations:4"
  ],
  "content/kompendium/techniques/ea-5-2-22-intentionalni-rozpojeni.md": [
   "bullets:22",
-  "citations:4",
-  "weak-link",
-  "detail"
+  "citations:4"
  ],
  "content/kompendium/techniques/ea-5-2-23-synteticka-paralyza.md": [
   "bullets:23",
-  "citations:2",
-  "weak-link",
-  "detail"
+  "citations:2"
  ],
  "content/kompendium/techniques/ea-5-2-24-analyticka-anihilace.md": [
   "bullets:22",
-  "citations:4",
-  "weak-link",
-  "detail"
+  "citations:4"
  ],
  "content/kompendium/techniques/ea-5-2-25-kategorialni-mlha.md": [
   "bullets:22",
-  "citations:4",
-  "weak-link",
-  "detail"
+  "citations:4"
  ],
  "content/kompendium/techniques/ea-5-2-26-schemata-rozpad.md": [
   "bullets:22",
-  "citations:3",
-  "weak-link",
-  "detail"
+  "citations:3"
  ],
  "content/kompendium/techniques/ea-5-2-27-apriorni-deformace.md": [
   "bullets:22",
-  "citations:3",
-  "weak-link",
-  "detail"
+  "citations:3"
  ],
  "content/kompendium/techniques/ea-5-2-28-transcendentalni-vakuace.md": [
   "bullets:22",
-  "citations:3",
-  "weak-link",
-  "detail"
+  "citations:3"
  ],
  "content/kompendium/techniques/ea-5-2-29-meta-fenomenalni-redukce.md": [
   "bullets:22",
-  "citations:4",
-  "weak-link",
-  "detail"
+  "citations:4"
  ],
  "content/kompendium/techniques/ea-5-2-3-noumenalni-redukce.md": [
   "bullets:23",
@@ -4642,9 +4294,7 @@
  ],
  "content/kompendium/techniques/ea-5-3-27-autobiografi-self-fragmentace.md": [
   "bullets:10",
-  "citations:8",
-  "weak-link",
-  "detail"
+  "citations:8"
  ],
  "content/kompendium/techniques/ea-5-3-27-ego-skeletalni-redukce.md": [
   "bullets:22",
@@ -4668,27 +4318,19 @@
  ],
  "content/kompendium/techniques/ea-5-3-32-rekonstituce-skrze-rituall.md": [
   "bullets:10",
-  "citations:8",
-  "weak-link",
-  "detail"
+  "citations:8"
  ],
  "content/kompendium/techniques/ea-5-3-34-konvergentni-identitarni-tlak.md": [
   "bullets:11",
-  "citations:9",
-  "weak-link",
-  "detail"
+  "citations:9"
  ],
  "content/kompendium/techniques/ea-5-3-36-identitarni-singularita.md": [
   "bullets:10",
-  "citations:9",
-  "weak-link",
-  "detail"
+  "citations:9"
  ],
  "content/kompendium/techniques/ea-5-3-39-anti-individuacni-pust.md": [
   "bullets:11",
-  "citations:9",
-  "weak-link",
-  "detail"
+  "citations:9"
  ],
  "content/kompendium/techniques/ea-5-3-4-telesna-disociace.md": [
   "bullets:22",
@@ -4696,9 +4338,7 @@
  ],
  "content/kompendium/techniques/ea-5-3-41-trans-individualizace.md": [
   "bullets:12",
-  "citations:8",
-  "weak-link",
-  "detail"
+  "citations:8"
  ],
  "content/kompendium/techniques/ea-5-3-42-self-objektifikace-totalni.md": [
   "citations:12"
@@ -4733,15 +4373,11 @@
  ],
  "content/kompendium/techniques/ea-5-4-11-richardova-paradox-zneuziti.md": [
   "bullets:15",
-  "citations:3",
-  "weak-link",
-  "detail"
+  "citations:3"
  ],
  "content/kompendium/techniques/ea-5-4-12-grellingova-paradox-aplikace.md": [
   "bullets:15",
-  "citations:3",
-  "weak-link",
-  "detail"
+  "citations:3"
  ],
  "content/kompendium/techniques/ea-5-4-13-heterolog-self-aplikace.md": [
   "bullets:15",
@@ -4765,15 +4401,11 @@
  ],
  "content/kompendium/techniques/ea-5-4-18-circular-justification-trap.md": [
   "bullets:15",
-  "citations:4",
-  "weak-link",
-  "detail"
+  "citations:4"
  ],
  "content/kompendium/techniques/ea-5-4-19-self-undermining-claim.md": [
   "bullets:15",
-  "citations:3",
-  "weak-link",
-  "detail"
+  "citations:3"
  ],
  "content/kompendium/techniques/ea-5-4-2-russell-typ-violace.md": [
   "bullets:15",
@@ -4781,15 +4413,11 @@
  ],
  "content/kompendium/techniques/ea-5-4-20-performative-contradiction-induction.md": [
   "bullets:15",
-  "citations:4",
-  "weak-link",
-  "detail"
+  "citations:4"
  ],
  "content/kompendium/techniques/ea-5-4-21-semanticka-vzpoury.md": [
   "bullets:15",
-  "citations:3",
-  "weak-link",
-  "detail"
+  "citations:3"
  ],
  "content/kompendium/techniques/ea-5-4-22-logicka-paradox-eskalace.md": [
   "bullets:15",
@@ -4797,33 +4425,23 @@
  ],
  "content/kompendium/techniques/ea-5-4-23-modalni-paradox-aplikace.md": [
   "bullets:15",
-  "citations:4",
-  "weak-link",
-  "detail"
+  "citations:4"
  ],
  "content/kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md": [
   "bullets:15",
-  "citations:4",
-  "weak-link",
-  "detail"
+  "citations:4"
  ],
  "content/kompendium/techniques/ea-5-4-25-soritska-paradox-zneuziti.md": [
   "bullets:15",
-  "citations:3",
-  "weak-link",
-  "detail"
+  "citations:3"
  ],
  "content/kompendium/techniques/ea-5-4-26-heap-paradox-eskalace.md": [
   "bullets:15",
-  "citations:3",
-  "weak-link",
-  "detail"
+  "citations:3"
  ],
  "content/kompendium/techniques/ea-5-4-27-ship-of-theseus-aplikace.md": [
   "bullets:15",
-  "citations:3",
-  "weak-link",
-  "detail"
+  "citations:3"
  ],
  "content/kompendium/techniques/ea-5-4-28-trolley-paradox-iterace.md": [
   "bullets:15",
@@ -4839,27 +4457,19 @@
  ],
  "content/kompendium/techniques/ea-5-4-30-paradox-volby-totalni.md": [
   "bullets:15",
-  "citations:4",
-  "weak-link",
-  "detail"
+  "citations:4"
  ],
  "content/kompendium/techniques/ea-5-4-31-paradox-vsemocnosti.md": [
   "bullets:15",
-  "citations:4",
-  "weak-link",
-  "detail"
+  "citations:4"
  ],
  "content/kompendium/techniques/ea-5-4-32-paradox-tolerance.md": [
   "bullets:15",
-  "citations:3",
-  "weak-link",
-  "detail"
+  "citations:3"
  ],
  "content/kompendium/techniques/ea-5-4-33-paradox-svobody.md": [
   "bullets:15",
-  "citations:4",
-  "weak-link",
-  "detail"
+  "citations:4"
  ],
  "content/kompendium/techniques/ea-5-4-34-paradox-pravdy-prizemni.md": [
   "bullets:15",
@@ -4867,27 +4477,19 @@
  ],
  "content/kompendium/techniques/ea-5-4-35-surprize-test-paradox.md": [
   "bullets:15",
-  "citations:4",
-  "weak-link",
-  "detail"
+  "citations:4"
  ],
  "content/kompendium/techniques/ea-5-4-36-unexpected-hanging.md": [
   "bullets:15",
-  "citations:3",
-  "weak-link",
-  "detail"
+  "citations:3"
  ],
  "content/kompendium/techniques/ea-5-4-37-paradox-prediktivni.md": [
   "bullets:15",
-  "citations:4",
-  "weak-link",
-  "detail"
+  "citations:4"
  ],
  "content/kompendium/techniques/ea-5-4-38-self-defeating-prediction.md": [
   "bullets:15",
-  "citations:4",
-  "weak-link",
-  "detail"
+  "citations:4"
  ],
  "content/kompendium/techniques/ea-5-4-39-tachyon-anti-causality.md": [
   "bullets:15",
@@ -5043,9 +4645,7 @@
  ],
  "content/kompendium/techniques/ea-5-5-19-ultradian-rozklad.md": [
   "bullets:12",
-  "citations:8",
-  "weak-link",
-  "detail"
+  "citations:8"
  ],
  "content/kompendium/techniques/ea-5-5-2-somato-fenomenologicka-disrupce.md": [
   "bullets:12",
@@ -5477,9 +5077,7 @@
  ],
  "content/kompendium/techniques/ea-8-3-3-philosophical-canon.md": [
   "bullets:15",
-  "citations:2",
-  "weak-link",
-  "detail"
+  "citations:2"
  ],
  "content/kompendium/techniques/ea-8-3-4-empirical-research-base.md": [
   "bullets:3",
@@ -5495,9 +5093,7 @@
  ],
  "content/kompendium/techniques/ea-8-3-7-interdisciplinary-anthology.md": [
   "bullets:14",
-  "citations:1",
-  "weak-link",
-  "detail"
+  "citations:1"
  ],
  "content/kompendium/techniques/ea-8-3-8-trauma-recovery-literature.md": [
   "bullets:3",

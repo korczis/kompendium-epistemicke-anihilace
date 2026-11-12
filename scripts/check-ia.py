@@ -212,6 +212,7 @@ NEVER_BASELINED = {"placeholder", "technique-page", "howto", "drug-dose", "templ
                    "bold-term",
                    "clinical-figure", "fabricated-citation", "legitimate-indication",
                    "code-range",
+                   "detail", "weak-link",
                    "platform-section", "relative-link", "platform-label", "platform-frontmatter",
                    "philosophy-frame"}
 # When a never-baselined requirement was introduced, these pages already failed it (listed by
@@ -224,7 +225,8 @@ PENDING_ZERO = {"placeholder": 0, "technique-page": 0, "howto": 0, "drug-dose": 
                 "template-figure": 0, "platform-section": 0, "relative-link": 0,
                 "platform-label": 0, "platform-frontmatter": 0, "philosophy-frame": 0,
                 "fabricated-citation": 0,
-                "legitimate-indication": 0}  # 0 → never baselined (lands at 0 after 2e's slice)
+                "legitimate-indication": 0,
+                "detail": 201, "weak-link": 201}  # 0 → never baselined (lands at 0 after 2e's slice)
 BOLD_CANDIDATE_PAGES = 3  # a bold phrase on this many pages is a term and needs its own page
 
 

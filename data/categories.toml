@@ -170,6 +170,20 @@ label = "Stránka webu"
 description = "Obecná stránka webu knihy: o knize, licence, navigace."
 sections = ["root"]
 
+[[typ]]
+slug = "nlp-vzorec"
+label = "NLP vzorec"
+description = "Heslo katalogu NLP vzorců: definice, struktura, detekční znaky, legitimní a manipulativní užití, obrana a zotavení."
+sections = ["kompendium/nlp-vzorce"]
+catalog = true
+
+[[typ]]
+slug = "faul"
+label = "Argumentační faul"
+description = "Heslo katalogu argumentačních faulů: definice, struktura, detekční znaky, legitimní a manipulativní užití a obrana."
+sections = ["kompendium/argumentacni-fauly"]
+catalog = true
+
 [[oblast]]
 slug = "klinicka-praxe"
 label = "Klinická praxe"
@@ -271,13 +285,13 @@ sections = ["glossary", "kompendium/glossary-bridges", "kompendium/section-bridg
 slug = "klinik"
 label = "Klinik"
 description = "Psychiatr, psycholog, terapeut: rozpoznání, diagnostika, krize a zotavení v péči."
-types = ["technika", "karta-v-kostce", "detekcni-signatura", "krizovy-protokol", "protokol-zotaveni", "kazuistika", "verejne-zdravi", "prevence", "aiad", "kapitola"]
+types = ["technika", "karta-v-kostce", "detekcni-signatura", "krizovy-protokol", "protokol-zotaveni", "kazuistika", "verejne-zdravi", "prevence", "aiad", "kapitola", "nlp-vzorec"]
 
 [[publikum]]
 slug = "vysetrovatel"
 label = "Vyšetřovatel"
 description = "Analytik a vyšetřovatel: rozpoznání vzorců, signatury, případy a atribuce."
-types = ["technika", "detekcni-signatura", "forenzni-pruvodce", "historicky-pripad", "mezinarodni-perspektiva", "kazuistika", "aiad"]
+types = ["technika", "detekcni-signatura", "forenzni-pruvodce", "historicky-pripad", "mezinarodni-perspektiva", "kazuistika", "aiad", "nlp-vzorec", "faul"]
 
 [[publikum]]
 slug = "pravnik"
@@ -289,31 +303,31 @@ types = ["forenzni-pruvodce", "organizacni-obrana", "kriticka-perspektiva"]
 slug = "vyzkumnik"
 label = "Výzkumník"
 description = "Badatel: pojmy, teorie, metodologie, kritika a doložené případy."
-types = ["pojem", "most-pojmu", "metodologie", "kriticka-perspektiva", "filozofie", "verejne-zdravi", "mezinarodni-perspektiva", "historicky-pripad", "aiad", "kapitola", "vizualizace", "mezioborovy-most"]
+types = ["pojem", "most-pojmu", "metodologie", "kriticka-perspektiva", "filozofie", "verejne-zdravi", "mezinarodni-perspektiva", "historicky-pripad", "aiad", "kapitola", "vizualizace", "mezioborovy-most", "faul"]
 
 [[publikum]]
 slug = "pedagog"
 label = "Pedagog"
 description = "Učitel a lektor: scénáře výuky, návody a prevence rozpoznání a obrany."
-types = ["vzdelavaci-scenar", "navod-sebeobrany", "prevence", "pojem", "karta-v-kostce"]
+types = ["vzdelavaci-scenar", "navod-sebeobrany", "prevence", "pojem", "karta-v-kostce", "nlp-vzorec", "faul"]
 
 [[publikum]]
 slug = "zasazeny"
 label = "Zasažený člověk a blízcí"
 description = "Člověk, který jev zažívá, a jeho okolí: sebeobrana, krizová pomoc a zotavení."
-types = ["navod-sebeobrany", "protokol-zotaveni", "krizovy-protokol", "pojem"]
+types = ["navod-sebeobrany", "protokol-zotaveni", "krizovy-protokol", "pojem", "nlp-vzorec"]
 
 [[publikum]]
 slug = "obecny"
 label = "Obecný čtenář"
 description = "Poučený čtenář bez odborné role: pojmy, přehledy a sebeobrana."
-types = ["pojem", "most-pojmu", "stranka", "kapitola", "navod-sebeobrany", "vizualizace"]
+types = ["pojem", "most-pojmu", "stranka", "kapitola", "navod-sebeobrany", "vizualizace", "nlp-vzorec", "faul"]
 
 [[pilir]]
 slug = "rozpoznani"
 label = "Rozpoznání"
 description = "Jak jev poznat: techniky, karty a detekční signatury."
-types = ["technika", "karta-v-kostce", "detekcni-signatura"]
+types = ["technika", "karta-v-kostce", "detekcni-signatura", "nlp-vzorec", "faul"]
 
 [[pilir]]
 slug = "odliseni"

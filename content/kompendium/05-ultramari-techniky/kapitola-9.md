@@ -17,7 +17,7 @@ access_level = "L3-L4"
 
 # Kapitola 9 — Paradoxální metaanihilační protokoly
 
-> 🚨 **Přístupová úroveň L3–L4**. Kapitola popisuje **30 ultramárních technik** ([EA-5.4.1](@/kompendium/techniques/ea-5-4-1-lhar-paradox-aplikace.md) a další) exploitujících **sebevztažné paradoxy** k destabilizaci rámců, v nichž subjekt evaluuje pravdivost, validitu a koherenci. Materiály vyžadují IRB autorizaci a etickou supervizi. Veřejně dostupné jsou výhradně **kompaktní taxonomické popisy** s 60–100 slovními deskripcemi. Operační detaily a rekonstruktivní protokoly zůstávají v restriktivních L4 přílohách. Plné per-technique články pro EA-5.4.* jsou v přípravné fázi.
+> 🚨 **Přístupová úroveň L3–L4**. Kapitola popisuje 30 ultramárních technik ([EA-5.4.1](@/kompendium/techniques/ea-5-4-1-lhar-paradox-aplikace.md) a další) exploitujících **sebevztažné paradoxy** k destabilizaci rámců, v nichž subjekt evaluuje pravdivost, validitu a koherenci. Materiály vyžadují IRB autorizaci a etickou supervizi. Veřejně dostupné jsou výhradně kompaktní taxonomické popisy s 60–100 slovními deskripcemi. Operační detaily a rekonstruktivní protokoly zůstávají v restriktivních L4 přílohách. Plné per-technique články pro EA-5.4.* jsou v přípravné fázi.
 
 ## Pozice kapitoly
 
@@ -39,6 +39,7 @@ Filozoficky jsou techniky této kapitoly zakotveny v: **matematické logice** (R
 | **Konvergentní paradox** | 5.4.26 — 5.4.30 | Integrativní finální fáze | [EA-5.4.28](@/kompendium/techniques/ea-5-4-28-trolley-paradox-iterace.md) |
 
 ## Klastr A — Lhářské varianty
+
 Klastr exploituje paradoxy struktury Lhářova: výrok, který tvrdí svou vlastní nepravdivost.
 
 | Kód | Název | Kompaktní deskripce |
@@ -50,6 +51,7 @@ Klastr exploituje paradoxy struktury Lhářova: výrok, který tvrdí svou vlast
 | **[EA-5.4.5](@/kompendium/techniques/ea-5-4-5-wittgenstein-pravidlo-rozklad.md)** | Truth-teller (pseudo-stabilizace) | Inverzní varianta: "*tato propozice je pravdivá*". Není formálně paradox — je **hyper-stabilní** (oba pravdivostní stavy jsou konzistentní). Generuje fenomenologii falešného závěru: subjekt cítí "uzavření", aniž by k němu epistemicky dospěl. |
 
 ## Klastr B — Russellovské varianty
+
 Klastr exploituje paradoxy struktury Russellovy množiny — sebe-členitost.
 
 | Kód | Název | Kompaktní deskripce |
@@ -61,6 +63,7 @@ Klastr exploituje paradoxy struktury Russellovy množiny — sebe-členitost.
 | **[EA-5.4.10](@/kompendium/techniques/ea-5-4-10-berry-paradox-implantace.md)** | Hilbertův hotel | Topologický paradox nekonečna aplikovaný na množinu subjektových potenciálních self-konceptů: pro každou konfiguraci existuje odlišná konfigurace odpovídající stejnému self. |
 
 ## Klastr C — Tarského diagonalizace
+
 Klastr exploituje **diagonalizační konstrukce** Tarského teorému o nedefinovatelnosti pravdy.
 
 | Kód | Název | Kompaktní deskripce |
@@ -72,6 +75,7 @@ Klastr exploituje **diagonalizační konstrukce** Tarského teorému o nedefinov
 | **[EA-5.4.15](@/kompendium/techniques/ea-5-4-15-holisticka-self-reference-zhrouceni.md)** | Cantorova kardinální paralýza | Aplikace Cantorova teorému (mocninová množina je vždy mocnější než původní) na soubor subjektových přesvědčení: "množina meta-přesvědčení je vždy mocnější než množina přesvědčení". Generuje persistentní pocit "nedosažitelnosti vlastního myšlení". |
 
 ## Klastr D — Gödelovská reflexe
+
 Klastr exploituje **distinkci mezi dokazatelností a pravdivostí** dokumentovanou Gödelovými teorémy o neúplnosti.
 
 | Kód | Název | Kompaktní deskripce |
@@ -83,6 +87,7 @@ Klastr exploituje **distinkci mezi dokazatelností a pravdivostí** dokumentovan
 | **[EA-5.4.20](@/kompendium/techniques/ea-5-4-20-performative-contradiction-induction.md)** | Rosserova diagonalizace | Variant Gödelovy konstrukce s posílenou self-aplikací: výrok tvrdí, že má kratší vyvrácení než důkaz. Subjekt nedokáže rozpoznat strukturní past. |
 
 ## Klastr E — Wittgensteinovská pravidla
+
 Klastr exploituje **Kripkovský Wittgenstein** — paradox následování pravidel a sceptický argument o významu.
 
 | Kód | Název | Kompaktní deskripce |
@@ -94,7 +99,8 @@ Klastr exploituje **Kripkovský Wittgenstein** — paradox následování pravid
 | **[EA-5.4.25](@/kompendium/techniques/ea-5-4-25-soritska-paradox-zneuziti.md)** | Aspect-blindness indukce | Wittgensteinovský fenomén "vidět-jako": subjekt je veden k tomu, aby přestal vidět vlastní zkušenost "jako něco". Generuje stav, v němž je zkušenost přítomna, ale bez kategorické organizace. |
 
 ## Klastr F — Konvergentní paradox
-Poslední klastr je **integrativní**.
+
+Poslední klastr je integrativní.
 
 | Kód | Název | Kompaktní deskripce |
 |-----|-------|---------------------|
@@ -166,8 +172,8 @@ V následující [Kapitole 10](@/kompendium/05-ultramari-techniky/kapitola-10.md
 **Ultramární techniky jsou L3 (omezený přístup)**: nejsou určeny k
 obecnému studiu. Před četbou potvrď, že:
 
-- Máš **kvalifikovanou supervizní vazbu** (klinickou nebo doktrinální)
-- Máš **dokumentovaný důvod** ke studiu konkrétní techniky (forenzní analýza,
+- Máš kvalifikovanou supervizní vazbu (klinickou nebo doktrinální)
+- Máš dokumentovaný důvod ke studiu konkrétní techniky (forenzní analýza,
   klinická intervence, doktrinální výzkum)
 - Sleduješ [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   vlastního stavu (sebepozorovací rámec)

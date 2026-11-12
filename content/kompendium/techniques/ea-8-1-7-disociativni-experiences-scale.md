@@ -47,7 +47,7 @@ stává. Výsledkem je průměr. Analýzy obvykle rozlišují tři skupiny záž
 - **amnézie** – mezery v paměti pro běžné činnosti, nalezené věci, které si člověk nepamatuje;
 - **pohlcení a imaginativní zaujetí** – ponoření do činnosti nebo fantazie až do ztráty
   vnímání okolí;
-- **depersonalizace a derealizace** – pocit odcizení od sebe nebo od světa.
+- **[depersonalizace a derealizace](@/glossary/depersonalizace.md)** – pocit odcizení od sebe nebo od světa.
 
 ## Původ a kontext
 

@@ -37,7 +37,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 
 Vytržený klip je krátký výřez ze záznamu (přednášky, rozhovoru, debaty, jednání), který
 se **šíří odděleně od celku** a v novém prostředí nese smysl, jaký mluvčí nevyslovil.
-Klip není podvržený: slova i obraz jsou pravé. Mění se **rámec** – co předcházelo, co
+Klip není podvržený: slova i obraz jsou pravé. Mění se rámec – co předcházelo, co
 následovalo, komu a proč byla slova určena. Proto je klip tak přesvědčivý: kdo ho vidí,
 „viděl to na vlastní oči“.
 

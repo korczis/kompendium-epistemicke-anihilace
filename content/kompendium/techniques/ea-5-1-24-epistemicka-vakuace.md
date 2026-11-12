@@ -34,9 +34,9 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-6/"
 
 ## Definice
 
-**Epistemická vakuace** je produkce **epistemického vakua** — stavu, ve kterém subjekt nemá pevné základy pro **žádné** tvrzení. Každý potenciální základ — smyslová evidence, paměť, autoritativní reference, logické intuice, společenský konsenzus, vlastní zkušenost — byl systematicky **destabilizován**. Výsledkem je **totální epistemická bezdomovost**: subjekt sice přežívá kognitivně, ale nemá **kde** epistemicky stát.
+**Epistemická vakuace** je produkce **epistemického vakua** — stavu, ve kterém subjekt nemá pevné základy pro **žádné** tvrzení. Každý potenciální základ — smyslová evidence, paměť, autoritativní reference, logické intuice, společenský konsenzus, vlastní zkušenost — byl systematicky **destabilizován**. Výsledkem je **totální epistemická bezdomovost**: subjekt sice přežívá kognitivně, ale nemá kde epistemicky stát.
 
-Označení **vakuace** záměrně podtrhuje rozdíl od pouhé skepse. **Skeptik** drží metodologii pochybnosti a zachovává epistemické nástroje pro rekonstrukci tvrzení. **Vakuovaný** subjekt nedrží metodologii — má pouze **diferenciální** vědomí, že každý možný základ byl podemlet, aniž by věděl, **jak** by jej rekonstruoval.
+Označení **vakuace** záměrně podtrhuje rozdíl od pouhé skepse. **Skeptik** drží metodologii pochybnosti a zachovává epistemické nástroje pro rekonstrukci tvrzení. **Vakuovaný** subjekt nedrží metodologii — má pouze **diferenciální** vědomí, že každý možný základ byl podemlet, aniž by věděl, jak by jej rekonstruoval.
 
 Epistemická vakuace je **terminální** technikou v subkategorii 5.1: produkuje stav, ve kterém je subjekt zranitelný vůči **jakékoli** dodatečné manipulaci, neboť nemá nástroje k jejímu odolání. Vakuum nezůstává prázdné — je obvykle **vyplněno** strukturou navrhovanou operátorem, jež se subjektovi jeví jako **jediná dostupná** forma orientace.
 
@@ -58,7 +58,7 @@ Detekční markery zachycené na této stránce odpovídají téže struktuře: 
 - **Závrať** v středních fázích — „nic není pevné“
 - **Únava** v pozdních fázích — „už nemohu pochybovat dál“
 - **Subjektivní vděk** vůči nabízené struktuře v terminálním stadiu
-- **Inkapacita** kriticky vyhodnotit nabízenou strukturu — chybí nástroje
+- Inkapacita kriticky vyhodnotit nabízenou strukturu — chybí nástroje
 - **Estetizace stavu** — vakuum prožíváno jako moudrost, ne jako porucha
 - **Defenzivní reakce** vůči pokusům o návrat ke konvenčním základnám — ty jsou prožívány jako naivní
 
@@ -81,7 +81,7 @@ V kombinaci s [EA-1.4.2 latentní emocionální modulací](@/kompendium/techniqu
 Epistemická vakuace je odlišitelná od **legitimní filosofické skepse**:
 
 - **Legitimní skepse** drží **metodologii** pochybnosti a zachovává nástroje rekonstrukce; její cíl je **opravená** verze poznání.
-- **Vakuace** odebírá metodologii i nástroje; její cíl je **závislost** subjektu na externí struktuře.
+- **Vakuace** odebírá metodologii i nástroje; její cíl je závislost subjektu na externí struktuře.
 
 Hraniční případ: **autentické filosofické krize** mohou produkovat dočasné stavy podobné vakuaci. Klíčový rozdíl: autentická krize obvykle **mobilizuje** subjekt k rekonstrukci vlastními prostředky; vakuace **demobilizuje** subjekt vůči jakékoli rekonstrukci s výjimkou té, kterou nabízí operátor.
 
@@ -118,7 +118,7 @@ Ptej se: zpochybňuje současný diskurz **všechny** základny **rovnoměrně**
 
 #### 5. **Princip provizorní funkčnosti**
 
-I uvnitř filosofické pochybnosti drž minimální **funkční** epistemiku: „nevím, jestli mé smysly jsou principiálně spolehlivé, ale **provizorně** s nimi pracuji jako kdyby byly“. Princip provizornosti uchovává operativní nástroje i během reflexivní krize.
+I uvnitř filosofické pochybnosti drž minimální funkční epistemiku: „nevím, jestli mé smysly jsou principiálně spolehlivé, ale **provizorně** s nimi pracuji jako kdyby byly“. Princip provizornosti uchovává operativní nástroje i během reflexivní krize.
 
 ### Institucionální
 

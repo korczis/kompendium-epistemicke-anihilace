@@ -39,7 +39,7 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/"
 
 Thomas Metzinger tvrdí, že to, co prožíváme jako **já**, je **fenomenální model sebe**
 (*phenomenal self-model*, PSM): reprezentace organismu, kterou mozek vytváří, aby mohl
-řídit tělo a jednat. Model je **transparentní** – nevidíme ho jako model, ale díváme se
+řídit tělo a jednat. Model je transparentní – nevidíme ho jako model, ale díváme se
 skrze něj, a proto se nám jeví jako přímý kontakt se sebou. Svět prožíváme uvnitř
 „ego-tunelu“: v simulaci, kterou nepoznáváme jako simulaci. Metzinger z toho vyvozuje
 provokativní tezi, že v metafyzickém smyslu „nikdo nemá já“.

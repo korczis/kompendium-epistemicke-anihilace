@@ -52,8 +52,8 @@ když se nahromadí anomálie, které rámec nevysvětlí, může nastat revoluc
 staré nahradí ([Kuhnova revoluce](@/glossary/kuhnova-revoluce.md), [paradigm shift](@/glossary/paradigm-shift.md)).
 Kuhn zdůrazňoval i *nesouměřitelnost* rámců – a právě tento pojem bývá zneužíván, jako
 by nový rámec nemusel nic vysvětlovat starými prostředky. Imre Lakatos (1970) nabídl
-měřítko, které tuto mezeru zavírá: výzkumný program je **progresivní**, když předpovídá
-nové a ověřitelné skutečnosti, a **degenerující**, když jen dodatečně vysvětluje,
+měřítko, které tuto mezeru zavírá: výzkumný program je progresivní, když předpovídá
+nové a ověřitelné skutečnosti, a degenerující, když jen dodatečně vysvětluje,
 co mu odporuje ([Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md)).
 Rozdíl je přitom časový: progresivní program předpovídá nové skutečnosti dříve, než jsou
 známy, degenerující je dovysvětluje teprve tehdy, když je zná. Falešný paradigmatický

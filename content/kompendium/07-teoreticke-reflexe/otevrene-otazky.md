@@ -16,7 +16,7 @@ toc = true
 
 # 7.9 Otevřené výzkumné otázky a budoucí směry
 
-Tato závěrečná kapitola sekce 07 explicitně tematizuje **mezery** kompendia: oblasti, jež současný taxonomický rámec **nepokrývá adekvátně**, otázky, jež teprve čekají na empirickou nebo teoretickou rezolúci, a směry, jimiž by se měl výzkum [epistemické anihilace](@/glossary/epistemicka-anihilace.md) rozvíjet v nadcházejících letech.
+Tato závěrečná kapitola sekce 07 explicitně tematizuje mezery kompendia: oblasti, jež současný taxonomický rámec **nepokrývá adekvátně**, otázky, jež teprve čekají na empirickou nebo teoretickou rezolúci, a směry, jimiž by se měl výzkum [epistemické anihilace](@/glossary/epistemicka-anihilace.md) rozvíjet v nadcházejících letech.
 
 Cílem není katalogizovat všechny limitace; takový seznam by byl nutně neúplný. Cílem je **identifikovat strukturní mezery** — oblasti, kde současná teorie EA selhává, a kde je proto výzkum nejvíce potřebný a potenciálně produktivní.
 
@@ -82,7 +82,7 @@ Kompendium tematizuje [epistemické trauma](@/glossary/epistemicke-trauma.md) a 
 
 ### Problém
 
-Kompendium explicitně přiznává (sekce 2.3): „Neaspirativně nepokrývá kolektivní subjekty (instituce, společnosti) na úrovni jejich vlastních epistemických procesů.“ Tato mezera je **strukturní**, nikoli kontingentní — vyžaduje fundamentální teoretickou inovaci.
+Kompendium explicitně přiznává (sekce 2.3): „Neaspirativně nepokrývá kolektivní subjekty (instituce, společnosti) na úrovni jejich vlastních epistemických procesů.“ Tato mezera je strukturní, nikoli kontingentní — vyžaduje fundamentální teoretickou inovaci.
 
 Klíčové otázky:
 
@@ -195,7 +195,7 @@ Programovou ambicí je transformovat kompendium z **klasifikačního systému** 
 
 ## Závěrečná poznámka
 
-Otevřenost výzkumných otázek **není slabostí** kompendia, ale jeho **strukturní vlastností**. Taxonomie [epistemické anihilace](@/glossary/epistemicka-anihilace.md) je živým konceptuálním nástrojem, jenž se kontinuálně revizuje na základě empirických objevů, technologických inovací a politických posunů. Každá generace bude muset taxonomii **re-validovat, rozšířit a v některých částech přepracovat**. Tato kapitola je proto současně bilance a programové prohlášení: současný stav definovaný jako východisko, nikoli jako finální slovo.
+Otevřenost výzkumných otázek **není slabostí** kompendia, ale jeho strukturní vlastností. Taxonomie [epistemické anihilace](@/glossary/epistemicka-anihilace.md) je živým konceptuálním nástrojem, jenž se kontinuálně revizuje na základě empirických objevů, technologických inovací a politických posunů. Každá generace bude muset taxonomii **re-validovat, rozšířit a v některých částech přepracovat**. Tato kapitola je proto současně bilance a programové prohlášení: současný stav definovaný jako východisko, nikoli jako finální slovo.
 
 ## Související
 
@@ -235,8 +235,8 @@ Otevřenost výzkumných otázek **není slabostí** kompendia, ale jeho **struk
 
 **Teoretické reflexe ne jsou závěry — jsou pozvánkami k myšlení.** Po četbě:
 
-1. Identifikuj **alespoň jeden bod**, kde nesouhlasíš s autorovou formulací
-2. Formuluj svou **vlastní alternativní pozici** v 3–5 větách
+1. Identifikuj alespoň jeden bod, kde nesouhlasíš s autorovou formulací
+2. Formuluj svou vlastní alternativní pozici v 3–5 větách
 3. Najdi v [bibliografii](@/kompendium/08-prilohy/bibliografie.md) primární
    zdroj, který tvou alternativu podporuje (alespoň 1)
 

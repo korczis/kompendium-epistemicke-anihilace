@@ -38,7 +38,7 @@ Pyrrhonský postoj u člověka se dá rozpoznat podle těchto rysů:
 
 ## Mechanismus
 
-Pyrrhonská *epoché* je strukturálně **ohraničená** (týká se tvrzení o podstatě věcí, ne každodenního jednání), **reverzibilní** a **opřená o praktické kotvy** – přirozenost, společenství, zvyk a řemeslo. Právě tyto kotvy jsou to, co manipulativní napodobeniny odstraňují.
+Pyrrhonská *epoché* je strukturálně **ohraničená** (týká se tvrzení o podstatě věcí, ne každodenního jednání), reverzibilní a **opřená o praktické kotvy** – přirozenost, společenství, zvyk a řemeslo. Právě tyto kotvy jsou to, co manipulativní napodobeniny odstraňují.
 
 Kompendium popisuje terminální vzorec [epistemické vakuace (EA-5.1.24)](@/kompendium/techniques/ea-5-1-24-epistemicka-vakuace.md): jistoty se systematicky odčerpávají, nic je nenahrazuje a potřeba pevného bodu se označuje za „lpění“ nebo „nezralost“. Navenek může připomínat skepsi, ale chybí jí všechno, co pyrrhonismus činí obyvatelným: praktické vodítko, společenství a klid. Příbuzné vzorce zneužívají samotné Agrippovo trilema – [implantace nekonečného regresu (EA-5.4.17)](@/kompendium/techniques/ea-5-4-17-infinit-regres-implantace.md) a [past kruhového ospravedlnění (EA-5.4.18)](@/kompendium/techniques/ea-5-4-18-circular-justification-trap.md) – k tomu, aby člověk uvěřil, že nemá právo věřit ničemu, kromě toho, co mu řekne autorita.
 

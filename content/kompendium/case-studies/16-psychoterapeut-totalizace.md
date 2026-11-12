@@ -173,7 +173,7 @@ terapeuta užitečné tyto údaje zrekonstruovat.
 
 ## 11. Prevence a poučení pro praxi
 
-Nejúčinnější ochranou je **pravidelná supervize** ([supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md))
+Nejúčinnější ochranou je pravidelná supervize ([supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md))
 a posouzení [iatrogenního rizika](@/kompendium/techniques/ea-3-2-9-iatrogenic-risk-assessment.md).
 Gabbard a Lester (1995) zdůrazňují, že porušení hranic obvykle vzniká postupně a nepozorovaně, a
 právě proto je pravidelný pohled zvenčí nejspolehlivější ochranou. Varovné signály pro kolegy jsou tři: klient má terapeuta jako

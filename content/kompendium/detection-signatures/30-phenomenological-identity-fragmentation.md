@@ -71,7 +71,7 @@ Konečně **[transformativní zkušenost](@/glossary/transformative-experience.m
 
 **Disociativní porucha identity a jiné disociativní poruchy** se projevují přítomností odlišných stavů identity a amnézií a vyžadují specializované vyšetření ([disociativní spektrum](@/kompendium/techniques/ea-6-1-8-disociativni-spektrum-assessment.md)); Van der Hart, Nijenhuis a Steele (2006) je vykládají jako strukturální disociaci osobnosti po traumatu. DSM-5 uvádí mezi příklady jiné specifikované disociativní poruchy i narušení identity v důsledku dlouhodobého a intenzivního donucujícího přesvědčování, například v totalitních skupinách (American Psychiatric Association, 2013); diagnostiku je třeba přenechat specialistovi.
 
-Dále přichází v úvahu **komplexní PTSD** s narušeným sebeobrazem a pocitem méněcennosti, **[depersonalizace](@/glossary/depersonalizace.md)**, při níž jde o odcizení od sebe bez ztráty znalosti, kdo člověk je, **psychotické poruchy** s bizarními přesvědčeními o identitě („jsem někdo jiný“) a ztrátou vhledu a **neurologické stavy**, jako jsou změny osobnosti po poranění mozku nebo při frontotemporální degeneraci. Diagnostický závěr náleží kvalifikovanému klinikovi.
+Dále přichází v úvahu **[komplexní PTSD](@/glossary/c-ptsd.md)** s narušeným sebeobrazem a pocitem méněcennosti, **[depersonalizace](@/glossary/depersonalizace.md)**, při níž jde o odcizení od sebe bez ztráty znalosti, kdo člověk je, **psychotické poruchy** s bizarními přesvědčeními o identitě („jsem někdo jiný“) a ztrátou vhledu a **neurologické stavy**, jako jsou změny osobnosti po poranění mozku nebo při frontotemporální degeneraci. Diagnostický závěr náleží kvalifikovanému klinikovi.
 
 ## Riziko falešné pozitivity
 

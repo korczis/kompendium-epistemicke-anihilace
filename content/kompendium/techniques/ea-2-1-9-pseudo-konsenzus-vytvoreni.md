@@ -46,7 +46,7 @@ tato stránka popisuje jeho užití proti jednotlivci.
 
 ## Mechanismus (strukturní popis)
 
-Skutečný konsenzus má tři vlastnosti: mnoho **nezávislých** posuzovatelů, **otevřený**
+Skutečný konsenzus má tři vlastnosti: mnoho **nezávislých** posuzovatelů, otevřený
 proces, v němž bylo možné nesouhlasit, a **zdůvodnění**, které lze zkontrolovat.
 Pseudokonsenzus napodobuje výsledek a obchází tyto vlastnosti:
 

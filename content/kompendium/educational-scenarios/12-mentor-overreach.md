@@ -23,7 +23,7 @@ type = "educational-scenario"
 Mentorský vztah je asymetrický z definice: jeden má zkušenosti, kontakty a vliv, druhý je teprve
 získává, a tato asymetrie sama o sobě problémem není – patří k rozvojové funkci vztahu, v němž
 zkušenější otevírá méně zkušenému svět oboru (Kram, 1985). Problémem je, když se rozsah vlivu
-nepozorovaně **rozšiřuje** z oblasti, pro kterou vztah vznikl, na oblasti, které mentorovi
+nepozorovaně rozšiřuje z oblasti, pro kterou vztah vznikl, na oblasti, které mentorovi
 nepatří – kontakty, volný čas, rozhodování o vlastním životě. Každý jednotlivý krok přitom může
 působit jako projev péče, takže scénář učí číst **směr pohybu**, nikoli jednotlivé kroky; stejně
 jako u strukturálního nátlaku je i zde předmětem posouzení vzorec v čase, ne izolovaná epizoda

@@ -34,11 +34,11 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 ## Definice
 
-**Past epistemické vágnosti** je paradoxální metaanihilační protokol, jehož operační jádro tvoří exploit vágnosti pojmů: každá hranice je polohovatelná v rámci penumbry. Technika patří do subkategorie **5.4 Paradoxální metaanihilační protokoly** — třídy ultramárních postupů, které využívají **strukturální paradoxy v subjektově sebehodnotícím aparátu** k destabilizaci samotného procesu, jímž subjekt rozlišuje, co je správné, pravdivé, vlastní a smysluplné.
+**Past epistemické vágnosti** je paradoxální metaanihilační protokol, jehož operační jádro tvoří exploit vágnosti pojmů: každá hranice je polohovatelná v rámci penumbry. Technika patří do subkategorie **5.4 Paradoxální metaanihilační protokoly** — třídy ultramárních postupů, které využívají strukturální paradoxy v subjektově sebehodnotícím aparátu k destabilizaci samotného procesu, jímž subjekt rozlišuje, co je správné, pravdivé, vlastní a smysluplné.
 
-Na rozdíl od technik **epistemické singularity** ([5.1](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md)), které pohlcují obsahy poznání, a technik **transcendentální iluze** ([5.2](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md)), které manipulují s podmínkami možnosti poznání, paradoxální protokoly zasahují **formální infrastrukturu** posuzování. Subjekt nedokáže paradoxnost obejít vyšší úrovní reflexe, protože každá vyšší úroveň je sama postižena strukturálně analogickou paradoxií. Vzniká **kognitivní past s rekurzivně reprodukovaným zámkem**: čím více se subjekt snaží uniknout, tím pevněji je v pasti uvězněn.
+Na rozdíl od technik **[epistemické singularity](@/glossary/epistemicka-singularita.md)** ([5.1](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md)), které pohlcují obsahy poznání, a technik **transcendentální iluze** ([5.2](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md)), které manipulují s podmínkami možnosti poznání, paradoxální protokoly zasahují formální infrastrukturu posuzování. Subjekt nedokáže paradoxnost obejít vyšší úrovní reflexe, protože každá vyšší úroveň je sama postižena strukturálně analogickou paradoxií. Vzniká **kognitivní past s rekurzivně reprodukovaným zámkem**: čím více se subjekt snaží uniknout, tím pevněji je v pasti uvězněn.
 
-Technika je strukturálně blízká [kognitivní anti-rekurzivitě](@/glossary/kognitivni-anti-rekurzivita.md), ale operuje **uvnitř** klasické formální logiky — využívá nikoli antitetické, nýbrž *ortodoxní* paradoxy klasické tradice (Russell, Tarski, Gödel, Wittgenstein) a aplikuje je na fenomenologickou rovinu sebezakoušení. Klíčový rys: paradox není argumentován, je *zažíván*.
+Technika je strukturálně blízká [kognitivní anti-rekurzivitě](@/glossary/kognitivni-anti-rekurzivita.md), ale operuje uvnitř klasické formální logiky — využívá nikoli antitetické, nýbrž *ortodoxní* paradoxy klasické tradice (Russell, Tarski, Gödel, Wittgenstein) a aplikuje je na fenomenologickou rovinu sebezakoušení. Klíčový rys: paradox není argumentován, je *zažíván*.
 
 ## Struktura vzorce
 
@@ -63,7 +63,7 @@ obě strany. Toto rozlišení drží [etické aspekty](@/kompendium/01-predmluva
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** paradoxálního metaanihilačního protokolu:
+Co prožívá subjekt uvnitř paradoxálního metaanihilačního protokolu:
 
 | Znak | Popis |
 |------|-------|
@@ -106,9 +106,9 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 ### Individuální
 
 1. **Stratifikace meta-úrovní** — subjekt se naučí explicitně oddělovat *objektový jazyk* (v němž se výrok pronáší) od *metajazyka* (v němž se mluví o pronášení); tato Tarskiho separace eliminuje paradoxní zacyklení.
-2. **Pragmatický [redukcionismus](@/glossary/redukcionismus.md)** — přijetí, že některé výroky **nemají** pravdivostní hodnotu v klasickém smyslu, ale jsou pragmatickými akty (Wittgenstein); paradox v takových výrocích není kognitivní pohromou.
+2. **Pragmatický [redukcionismus](@/glossary/redukcionismus.md)** — přijetí, že některé výroky nemají pravdivostní hodnotu v klasickém smyslu, ale jsou pragmatickými akty (Wittgenstein); paradox v takových výrocích není kognitivní pohromou.
 3. **Externí epistemický audit** — důvěryhodný kolega s metalogickou výbavou prochází se subjektem konkrétní paradoxy a explicitně demonstruje úniky.
-4. **Fenomenologická redukce** — návrat k přímému zakoušení **bez** auto-predikace; meditační praxe orientovaná na ne-reflexivní pozornost.
+4. **[Fenomenologická redukce](@/glossary/epoche.md)** — návrat k přímému zakoušení bez auto-predikace; meditační praxe orientovaná na ne-reflexivní pozornost.
 5. **Specifická intervence**: supervaluacionismus; ostré rozlišení dichotomie a stupňovitosti.
 
 ### Institucionální
@@ -135,7 +135,7 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 ### Alternativy / podobné, ale **distinktivní**
 
 - **Legitimní filozofická paradoxologie** — zachovává distancí mezi zkoumajícím a zkoumaným, vede k pojmové jemnosti.
-- **Sokratovská elenchos** — destabilizuje **specifická** přesvědčení s cílem rekonstrukce, nikoli evaluativního aparátu jako takového.
+- **Sokratovská elenchos** — destabilizuje specifická přesvědčení s cílem rekonstrukce, nikoli evaluativního aparátu jako takového.
 
 Klíčové pojmové kotvy techniky: **vagueness, supervaluation, fuzzy logic**.
 

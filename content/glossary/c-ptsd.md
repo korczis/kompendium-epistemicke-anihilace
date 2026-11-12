@@ -8,6 +8,7 @@ description = "Diagnóza MKN-11 pro následky dlouhodobého mezilidského trauma
 tags = ["glossary", "epistemic", "kompendium", "trauma", "clinical"]
 
 [extra]
+aliases = ["komplexní PTSD", "negativní sebepojetí"]
 category = "epistemic"
 related_terms = ["betrayal-trauma", "epistemicka-anihilace", "metakognitivni-destrukce", "epistemicka-alienace", "kognitivni-anihilace"]
 author = "Tomáš Korcak (korczis)"

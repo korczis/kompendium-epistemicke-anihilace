@@ -26,7 +26,7 @@ Pojem navazuje na Liftonovu dřívější práci o [reformě myšlení](@/glossa
 
 ## Jak se projevuje
 
-Pojem se v Kompendiu používá jako **interpretační rámec** pro chování lidí v systémech, které po nich žádají jednání v rozporu s jejich hodnotami. Znaky:
+Pojem se v Kompendiu používá jako interpretační rámec pro chování lidí v systémech, které po nich žádají jednání v rozporu s jejich hodnotami. Znaky:
 
 - výrazný rozdíl mezi chováním v pracovní roli a mimo ni, který si člověk sám nevysvětluje jako rozpor;
 - specifický jazyk role (technický, eufemistický), jímž se o jednání mluví jen v rámci instituce;

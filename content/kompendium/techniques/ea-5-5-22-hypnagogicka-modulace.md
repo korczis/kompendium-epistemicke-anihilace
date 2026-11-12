@@ -52,7 +52,7 @@ Zevnitř se vzorec obtížně rozpoznává, protože obrazy z přechodu do spán
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|

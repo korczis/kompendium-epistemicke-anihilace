@@ -17,7 +17,7 @@ access_level = "L3-L4"
 
 # Kapitola 10 — Transkonceptuální mechanismy
 
-> 🚨 **Přístupová úroveň L3–L4**. Kapitola popisuje **30 ultramárních technik** ([EA-5.5.1](@/kompendium/techniques/ea-5-5-1-pre-predikativni-blokace.md) a další) operujících **pod prahem konceptuálního zachycení** — na úrovni, která předchází formování pojmů, na nichž operuje veškerá explicitní reflexe, identita, evaluace a paradoxalita. Materiály vyžadují IRB autorizaci a etickou supervizi. Veřejně dostupné jsou výhradně **kompaktní taxonomické popisy** s 60–100 slovními deskripcemi. Operační detaily a rekonstruktivní protokoly zůstávají v restriktivních L4 přílohách. Plné per-technique články pro EA-5.5.* jsou v přípravné fázi.
+> 🚨 **Přístupová úroveň L3–L4**. Kapitola popisuje 30 ultramárních technik ([EA-5.5.1](@/kompendium/techniques/ea-5-5-1-pre-predikativni-blokace.md) a další) operujících **pod prahem konceptuálního zachycení** — na úrovni, která předchází formování pojmů, na nichž operuje veškerá explicitní reflexe, identita, evaluace a paradoxalita. Materiály vyžadují IRB autorizaci a etickou supervizi. Veřejně dostupné jsou výhradně kompaktní taxonomické popisy s 60–100 slovními deskripcemi. Operační detaily a rekonstruktivní protokoly zůstávají v restriktivních L4 přílohách. Plné per-technique články pro EA-5.5.* jsou v přípravné fázi.
 
 ## Pozice kapitoly
 
@@ -39,6 +39,7 @@ Tato vrstva je **strukturálně rezistentní vůči konceptualizaci** — pokus 
 | **Konvergentní transkonceptualita** | 5.5.26 — 5.5.30 | Integrativní finální fáze | [EA-5.5.28](@/kompendium/techniques/ea-5-5-28-olfacticka-modulace.md) |
 
 ## Klastr A — Pre-predikativní destabilizace
+
 Klastr cílí na **pole zkušenosti před aktem predikace** — vrstvu, na níž je něco „dáno“ před tím, než je o tom cokoli řečeno.
 
 | Kód | Název | Kompaktní deskripce |
@@ -50,6 +51,7 @@ Klastr cílí na **pole zkušenosti před aktem predikace** — vrstvu, na níž
 | **[EA-5.5.5](@/kompendium/techniques/ea-5-5-5-pre-temporalni-rozpojeni.md)** | Hyletická dekoherence | Manipulace s hyletickou vrstvou (smyslový "materiál" zkušenosti) prostřednictvím inkonzistentních ujištění o její struktuře. Klinicky se manifestuje fragmentací smyslové integrace. |
 
 ## Klastr B — Somato-fenomenologická inverze
+
 Klastr zasahuje **chair-tělo** Merleau-Pontyho — tělesnou zkušenost před jejím rozčleněním na „moje tělo“ a „věci“.
 
 | Kód | Název | Kompaktní deskripce |
@@ -61,6 +63,7 @@ Klastr zasahuje **chair-tělo** Merleau-Pontyho — tělesnou zkušenost před j
 | **[EA-5.5.10](@/kompendium/techniques/ea-5-5-10-proprioceptivni-confusion.md)** | [Tělesné schéma](@/glossary/body-schema.md) evakuace | Dekompozice "tělesného schématu" (corporal schema, Schilder) bez nahrazujícího rámce. Klinicky velmi vzácné, dokumentováno pouze v laboratorních kontextech. |
 
 ## Klastr C — Atmosférická anihilace
+
 Klastr cílí na **Stimmung-atmosféru** — předkonceptuální emoční tonalitu, která zabarvuje pole zkušenosti, aniž by byla zaměřena na konkrétní objekt.
 
 | Kód | Název | Kompaktní deskripce |
@@ -72,6 +75,7 @@ Klastr cílí na **Stimmung-atmosféru** — předkonceptuální emoční tonali
 | **[EA-5.5.15](@/kompendium/techniques/ea-5-5-15-pulzace-disrupce.md)** | Pre-emoční subverze | Manipulace s pre-emoční vrstvou (tím, co předchází identifikovatelnou emoci) prostřednictvím systematické afektivní disorientace v ne-emočních kontextech. |
 
 ## Klastr D — Gestalt-rozplývání
+
 Klastr cílí na **figura-pozadí strukturu** — fundamentální organizační princip gestalt-psychologie, na němž stojí veškerá perceptuální koherence.
 
 | Kód | Název | Kompaktní deskripce |
@@ -83,6 +87,7 @@ Klastr cílí na **figura-pozadí strukturu** — fundamentální organizační 
 | **[EA-5.5.20](@/kompendium/techniques/ea-5-5-20-pre-spaclni-restrukturalizace.md)** | Aspect-shift kaskáda | Sekvenční vynucené aspect-shifts (wittgensteinovské "vidění-jako") bez stabilizační pauzy. Subjekt ztrácí kapacitu setrvat v jednom aspektu. |
 
 ## Klastr E — Pre-temporální destabilizace
+
 Klastr zasahuje **pasivní synthesis času** v Husserlově smyslu — předkonceptuální strukturování zkušenosti do retence-přítomnosti-protentence.
 
 | Kód | Název | Kompaktní deskripce |
@@ -94,6 +99,7 @@ Klastr zasahuje **pasivní synthesis času** v Husserlově smyslu — předkonce
 | **[EA-5.5.25](@/kompendium/techniques/ea-5-5-25-svetelna-frekvence-modulace.md)** | Pre-temporální klid | Vzácný stav, v němž zkušenostní pole nemá **ani časovou ani ne-časovou strukturu**. Strukturálně sousedí s některými mystickými stavy popsanými v kontemplativní literatuře, ale generováno destruktivně. |
 
 ## Klastr F — Konvergentní transkonceptualita
+
 Poslední klastr je **integrativní a finální** — uzavírá nejen kapitolu, ale celou sekci 05.
 
 | Kód | Název | Kompaktní deskripce |
@@ -172,8 +178,8 @@ V navazující [Sekci 06](@/kompendium/06-klinicke-aplikace/_index.md) jsou spec
 **Ultramární techniky jsou L3 (omezený přístup)**: nejsou určeny k
 obecnému studiu. Před četbou potvrď, že:
 
-- Máš **kvalifikovanou supervizní vazbu** (klinickou nebo doktrinální)
-- Máš **dokumentovaný důvod** ke studiu konkrétní techniky (forenzní analýza,
+- Máš kvalifikovanou supervizní vazbu (klinickou nebo doktrinální)
+- Máš dokumentovaný důvod ke studiu konkrétní techniky (forenzní analýza,
   klinická intervence, doktrinální výzkum)
 - Sleduješ [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   vlastního stavu (sebepozorovací rámec)

@@ -54,7 +54,7 @@ Empirický výzkum podporuje, že složitost formulace se u posluchače skutečn
 
 ## Detekční kritéria
 
-Signatura je **pozitivní**, pokud jsou současně splněny alespoň tři z pěti podmínek:
+Signatura je pozitivní, pokud jsou současně splněny alespoň tři z pěti podmínek:
 
 1. Hustota odborných výrazů je zjevně vyšší než ve srovnatelném textu stejného žánru a pro stejné publikum (srovnání proti vlastnímu korpusu, ne proti pevnému číslu).
 2. Klíčové termíny nemají dohledatelnou definici, nebo je definice kruhová.

@@ -53,7 +53,7 @@ Detekční markery zachycené na této stránce odpovídají téže struktuře: 
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** trans-paradigmatické migrace:
+Co prožívá subjekt uvnitř trans-paradigmatické migrace:
 
 - **Kognitivní únava** — *„jsem vyčerpaný/á věčným pochybováním“*
 - **Cynicismus vůči „každému dalšímu paradigmatu“**

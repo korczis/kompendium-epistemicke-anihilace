@@ -54,7 +54,7 @@ Vazba mezi vůní a stavem se zevnitř neohlašuje jako vazba. Člověk prožív
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|

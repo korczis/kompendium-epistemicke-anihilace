@@ -92,7 +92,7 @@ Aristoteles v *Rétorice* identifikoval tři fundamentální pilíře přesvěd�
 | **Pathos** (apel na emoce) | EA-1.4.2 (latentní emocionální modulace jako kognitivní disrupce) |
 | **Ethos** (apel na charakter) | EA-1.4.1 (prosodická dominance) + EA-1.5.2 (dominantní hieroglyfy) jako pseudo-ethos |
 
-Tato strukturální korespondence není náhodná. Manipulativní techniky systematicky **invertují** legitimní rétorické nástroje — používají identický mechanismus, ale s opačným epistemickým záměrem. Toto pochopení je důležité, neboť odlišuje EA-1 od pouhé patologizace přesvědčování. Cílem není vyhnout se rétorice, ale rozlišovat **integrativní** a **subverzivní** rétorické formy.
+Tato strukturální korespondence není náhodná. Manipulativní techniky systematicky **invertují** legitimní rétorické nástroje — používají identický mechanismus, ale s opačným epistemickým záměrem. Toto pochopení je důležité, neboť odlišuje EA-1 od pouhé patologizace přesvědčování. Cílem není vyhnout se rétorice, ale rozlišovat integrativní a **subverzivní** rétorické formy.
 
 ### Frickerova teorie epistemické nespravedlnosti (2007)
 
@@ -367,7 +367,7 @@ Jürgen Habermas rozlišuje **strategickou** a **komunikativní** akci — strat
 
 ### Lakatos a vědecké výzkumné programy
 
-Imre Lakatos rozlišuje **progresivní** a **degenerativní** výzkumné programy. EA-1.3.* (techniky imunizace a reinterpretace) odpovídají strategiím **degenerativních ad hoc rescue operations**, které charakterizují epistemicky problematické výzkumné programy.
+Imre Lakatos rozlišuje progresivní a **degenerativní** výzkumné programy. EA-1.3.* (techniky imunizace a reinterpretace) odpovídají strategiím **degenerativních ad hoc rescue operations**, které charakterizují epistemicky problematické výzkumné programy.
 
 ## Empirická validace taxonomie
 

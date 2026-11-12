@@ -145,7 +145,7 @@ podklady dostupné a jak málo lidí je čte. Dva z nich se pak zúčastnili ve�
 
 ## Indikátory úspěchu
 
-Validované normy občanského vzdělávání ve vztahu k EA **neexistují**. Programy sledují vývoj
+Validované normy občanského vzdělávání ve vztahu k EA neexistují. Programy sledují vývoj
 oproti výchozímu stavu:
 
 - porozumění fungování institucí (úlohy na konkrétních situacích, ne jen definice),

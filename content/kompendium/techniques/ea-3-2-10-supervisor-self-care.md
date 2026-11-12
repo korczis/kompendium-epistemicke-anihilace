@@ -54,13 +54,13 @@ Je třeba rozlišit, co je zde doloženo a co je čtením knihy. Trojsložkový 
 
 Všichni certifikovaní supervizoři; institucionální leadership zodpovědný za supervizorskou kapacitu.
 
-Edukativní cíl není **změna chování** v behaviorálním smyslu, ale **kultivace kompetencí** umožňujících autonomní navigaci v epistemicky náročných kontextech. Cílová populace je primárně dospělí profesionálové s baseline metakognitivní stabilitou — technika není určena pro klinické intervence u aktivně dekompenzovaných jedinců.
+Edukativní cíl není změna chování v behaviorálním smyslu, ale kultivace kompetencí umožňujících autonomní navigaci v epistemicky náročných kontextech. Cílová populace je primárně dospělí profesionálové s baseline metakognitivní stabilitou — technika není určena pro klinické intervence u aktivně dekompenzovaných jedinců.
 
 ## Předpoklady
 
 Certifikace supervizora; identifikované osobní self-care praxe; institutional benefits framework.
 
-Bez splnění předpokladů technika produkuje suboptimální výsledky a může generovat iatrogenní efekty. Předpoklady nejsou byrokratické formality, ale **strukturální podmínky** efektivity intervence.
+Bez splnění předpokladů technika produkuje suboptimální výsledky a může generovat iatrogenní efekty. Předpoklady nejsou byrokratické formality, ale strukturální podmínky efektivity intervence.
 
 ## Implementační protokol
 
@@ -72,7 +72,7 @@ Konkrétní implementace vyžaduje:
 4. Ani supervizor nezůstává bez supervize — jeho vlastní práce je předmětem pohledu dalšího člověka, protože opotřebení bývá nejméně viditelné právě tomu, kdo se jím má zabývat.
 5. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
 
-Implementace je **iterativní** — každý cyklus generuje data informující úpravy v dalších cyklech.
+Implementace je iterativní — každý cyklus generuje data informující úpravy v dalších cyklech.
 
 ## Hodnotící kritéria
 
@@ -83,7 +83,7 @@ Implementace je **iterativní** — každý cyklus generuje data informující �
 | MBI scores | Emoční vyčerpání < klinický cutoff |
 | Sabbatical utilization | 100 % využití dostupných dnů
 
-Evaluace integruje **kvantitativní** (validované instrumenty) i **kvalitativní** (reflektivní eseje, ethnographic observation) datové zdroje. Žádná samostatná metrika není dostatečná — multidimenzionální evaluace je nezbytná.
+Evaluace integruje kvantitativní (validované instrumenty) i kvalitativní (reflektivní eseje, ethnographic observation) datové zdroje. Žádná samostatná metrika není dostatečná — multidimenzionální evaluace je nezbytná.
 
 Dodržovaný plán sebepéče nedokládá, že je supervizor způsobilý supervidovat. Maslach a Leiter (2016) vztahují vyhoření k uspořádání práce — jejímu množství, míře vlastního rozhodování a spravedlnosti prostředí —, takže osobní praxe nedokládá nic o tom, zda se tyto podmínky změnily; může naopak znamenat, že jednotlivec nese náklad, který nese instituce jen podle názvu. Nepřítomnost vyčerpání dále nedokládá nepřítomnost odstupu: složky vyhoření nejsou u týchž autorů zaměnitelné a v supervizi se ta druhá projevuje dřív, takže supervizor může být odpočatý a přesto už nezvídavý. Vlastní dobrý stav nedokládá ani nic o supervidovaných; Falender a Shafranske (2004) kladou průkaz supervizní kompetence do práce, která z supervize vychází, nikoli do stavů toho, kdo ji vede. A konečně, sdělení o vlastním stavu je u této techniky zatíženo postavením mluvčího: supervizor je zároveň tím, kdo je hodnocen z hlediska kapacity, takže jeho ujištění o dobré formě je výpovědí pořízenou v nerovném vztahu, nikoli měřením.
 
@@ -121,7 +121,7 @@ Technika je integrální součástí subkategorie 3.2 a je navržena pro synergi
 
 ### Vztah k EA-1 a EA-2
 
-Tato edukativní technika **operacionalizuje** poznatky z taxonomie:
+Tato edukativní technika operacionalizuje poznatky z taxonomie:
 
 - **[EA-1 Techniky epistemické anihilace](@/kompendium/03-zakladni-kategorie/kapitola-1.md)** — obsahový materiál pro výuku.
 - **[EA-2 Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)** — komplexní real-world cases pro analýzu.

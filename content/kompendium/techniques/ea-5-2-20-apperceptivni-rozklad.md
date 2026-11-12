@@ -75,9 +75,9 @@ Zpětně se znaky skládají takto: nejprve nauka popírající jednotu subjektu
 
 Apperceptivní rozklad je odlišitelný od:
 
-- **Autentické anatta-realizace** v zavedených buddhistických tradicích, jež **integruje** vhled do funkční subjektivity (mnich operuje, učí, jí, spí).
+- **Autentické anatta-realizace** v zavedených buddhistických tradicích, jež integruje vhled do funkční subjektivity (mnich operuje, učí, jí, spí).
 - **Klinické depersonalizační/derealizační poruchy**, jež má odlišnou etiologii a chybí pseudo-mystická racionalizace.
-- **Disociativní porucha identity**, jež zachovává **více** subjektivit místo jejich rozpadu.
+- **Disociativní porucha identity**, jež zachovává více subjektivit místo jejich rozpadu.
 
 Klíčový diferenciál: **autentický buddhista funguje**; subjekt po apperceptivním rozkladu **strukturně nefunguje**.
 

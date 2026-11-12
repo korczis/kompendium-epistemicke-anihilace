@@ -18,7 +18,7 @@ date_modified = "2026-11-10"
 
 **Perfekcionismus** je osobnostní dispozice, při níž člověk klade na sebe (případně na druhé) nepřiměřeně vysoké nároky a současně posuzuje vlastní výkon přísně kriticky: odchylka od ideálu se prožívá jako selhání, nikoli jako běžná součást práce. Psychologie dnes perfekcionismus nechápe jako jednu vlastnost, ale jako vícerozměrný konstrukt. Rozlišuje se snaha o vysoké standardy, která sama o sobě nemusí být škodlivá, a perfekcionistické obavy – strach z chyby, pochybnosti o vlastním jednání a pocit, že okolí očekává bezchybnost. Klinicky významné jsou právě obavy a jejich vazba sebehodnoty na výkon.
 
-Pro Kompendium je pojem důležitý ze dvou stran. Perfekcionismus je **zranitelnost**, na kterou se mohou navázat manipulační vzorce, a zároveň **rámec**, který lze člověku zvenčí vštípit: skupina nebo autorita definuje standard, který nikdy nelze naplnit, a postižený pak žije v trvalém deficitu.
+Pro Kompendium je pojem důležitý ze dvou stran. Perfekcionismus je **zranitelnost**, na kterou se mohou navázat manipulační vzorce, a zároveň rámec, který lze člověku zvenčí vštípit: skupina nebo autorita definuje standard, který nikdy nelze naplnit, a postižený pak žije v trvalém deficitu.
 
 ## Původ a kontext pojmu
 

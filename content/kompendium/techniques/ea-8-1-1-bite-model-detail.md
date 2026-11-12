@@ -101,7 +101,7 @@ rámcem [coercive control](@/kompendium/techniques/ea-8-2-5-stark-coercive-contr
 
 - **Náročné, ale svobodné komunity.** Řád, armáda, vrcholový sport mají pravidla chování;
   rozhoduje transparentnost, možnost odejít bez trestu a absence kontroly myšlení.
-- **Liftonova kritéria** ([EA-8.2.2](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md))
+- **[Liftonova kritéria](@/glossary/thought-reform.md)** ([EA-8.2.2](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md))
   popisují prostředí myšlenkové reformy; BITE přidává praktickou strukturu pro rozhovor.
 - **[Coercive control](@/glossary/coercive-control.md)** se zaměřuje na partnerské vztahy
   a na právní rámec; BITE na skupiny.

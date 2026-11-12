@@ -33,7 +33,7 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/"
 ## Vymezení
 
 Ve *Fenomenologii vnímání* (1945) Merleau-Ponty tvrdil, že základní zkušeností světa
-není myšlení, ale **vnímání** a že vnímá **tělo**. Tělo není věc mezi věcmi, kterou
+není myšlení, ale **vnímání** a že vnímá tělo. Tělo není věc mezi věcmi, kterou
 máme, ale způsob, jak jsme ve světě: „jsem své tělo“. Vnímání je předreflexivní – dřív,
 než o světě přemýšlíme, se v něm tělesně orientujeme, saháme po věcech, vyhýbáme se
 překážkám, rozumíme gestům druhých. Tento tělesný vztah ke světu nazval **motorickou

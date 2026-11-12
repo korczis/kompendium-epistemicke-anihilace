@@ -55,7 +55,7 @@ tuto myšlenku spojili s kantovským pojetím přirozeného účelu a hovoří o
 teleologii“ živých systémů (Weber a Varela, 2002).
 
 Di Paolo ukázal, že samotná autopoiesis na sense-making nestačí: systém musí být navíc
-**adaptivní**, tedy schopen rozlišovat, zda se blíží k hranici, za níž by se rozpadl, a měnit
+adaptivní, tedy schopen rozlišovat, zda se blíží k hranici, za níž by se rozpadl, a měnit
 podle toho své jednání (Di Paolo, 2005). Thompson tuto korekci přijímá a enaktivní přístup
 shrnuje do pěti myšlenek: živé bytosti jsou autonomní aktéři, nervový systém je autonomní
 dynamický systém, kognice je dovednostní vědění uplatňované ve vtěleném a situovaném jednání,

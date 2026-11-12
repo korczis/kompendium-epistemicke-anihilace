@@ -21,7 +21,7 @@ access_level = "L2"
 
 ## Kontext
 
-K. (32 let, žena, postgraduální výzkumnice v oboru sociálních věd) byla referována na klinickou supervizi po roce 8 měsíců trvajícího postupného úpadku akademického výkonu, [sociální izolace](@/glossary/socialni-izolace.md) a opakovaných epizod **derealizace** v kontextu nadcházející disertační obhajoby. Iniciální klinické vyhodnocení indikovalo úzkostně-depresivní symptomatologii s prominentními rysy [epistemického traumatu](@/glossary/epistemicke-trauma.md), s anamnézou intenzivního výzkumného mentorského vztahu, který klientka popisovala střídavě jako **„transformativní“** a **„zničující“**.
+K. (32 let, žena, postgraduální výzkumnice v oboru sociálních věd) byla referována na klinickou supervizi po roce 8 měsíců trvajícího postupného úpadku akademického výkonu, [sociální izolace](@/glossary/socialni-izolace.md) a opakovaných epizod **[derealizace](@/glossary/depersonalizace.md)** v kontextu nadcházející disertační obhajoby. Iniciální klinické vyhodnocení indikovalo úzkostně-depresivní symptomatologii s prominentními rysy [epistemického traumatu](@/glossary/epistemicke-trauma.md), s anamnézou intenzivního výzkumného mentorského vztahu, který klientka popisovala střídavě jako **„transformativní“** a **„zničující“**.
 
 | Pole | Hodnota |
 |------|---------|

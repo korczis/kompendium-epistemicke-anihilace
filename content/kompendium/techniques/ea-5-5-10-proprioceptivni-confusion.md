@@ -48,7 +48,7 @@ Zpětně se v anamnéze rozlišuje sled, v němž znaky vystupují: nejprve se v
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|

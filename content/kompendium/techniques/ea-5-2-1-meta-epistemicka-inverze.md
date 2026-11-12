@@ -52,7 +52,7 @@ Detekční markery zachycené na této stránce odpovídají téže struktuře: 
 
 ## Fenomenologie
 
-Co prožívá subjekt **uvnitř** meta-epistemické inverze:
+Co prožívá subjekt uvnitř meta-epistemické inverze:
 
 - **Pocit hlubšího vhledu** — silnější přesvědčení o pravdivosti vlastních soudů než před inverzí.
 - **Disproporční opovržení** vůči standardní akademické a vědecké práci — interpretovaná jako „naivní“ nebo „systémem zaslepená“.

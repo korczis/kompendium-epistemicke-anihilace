@@ -35,9 +35,9 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 
 ## Definice
 
-**Imunizace proti falsifikaci** je systematická modifikace teorie nebo argumentu způsobem, který ji činí **resistentní vůči potenciální falsifikující evidenci**, **při zachování zdání** empirické testovatelnosti. Pojem je inspirován **Popperovou** kritikou pseudovědeckých teorií (psychoanalýza, marxismus, astrologie) — teorií, které **vždy** najdou způsob, jak vysvětlit jakoukoli evidenci.
+**Imunizace proti falsifikaci** je systematická modifikace teorie nebo argumentu způsobem, který ji činí **resistentní vůči potenciální falsifikující evidenci**, **při zachování zdání** empirické testovatelnosti. Pojem je inspirován **Popperovou** kritikou pseudovědeckých teorií (psychoanalýza, marxismus, astrologie) — teorií, které vždy najdou způsob, jak vysvětlit jakoukoli evidenci.
 
-Klíčový mechanismus: **strategické zavádění ad hoc výjimek**, **auxiliárních hypotéz** nebo **flexibilních definic**, které **absorbují** potenciálně kontradiktorní evidenci. Subjekt prožívá teorii jako **stále testovatelnou** — ale ve skutečnosti je strukturálně **netestovatelná**, protože **každá** myslitelná evidence je předem **konzistentní** s teorií.
+Klíčový mechanismus: **strategické zavádění ad hoc výjimek**, **auxiliárních hypotéz** nebo **flexibilních definic**, které **absorbují** potenciálně kontradiktorní evidenci. Subjekt prožívá teorii jako **stále testovatelnou** — ale ve skutečnosti je strukturálně **netestovatelná**, protože každá myslitelná evidence je předem **konzistentní** s teorií.
 
 ## Struktura vzorce
 
@@ -86,7 +86,7 @@ Imunizace vs. **legitimní teoretická revize**:
 | **Definiční stabilita** | Tekutá | Stabilní |
 | **Ochota přijmout falsifikaci** | Rezistentní | Otevřená |
 
-Hraniční případy: Lakatosův *research programme* — některé legitimní programy obsahují **protective belt** auxiliárních hypotéz. Distinkce: Lakatosovský protective belt **musí** generovat **nové, nezávislé predikce** („progressive problem shifts“); imunizační belt **pouze** absorbuje kontradikce („degenerative problem shifts“).
+Hraniční případy: Lakatosův *research programme* — některé legitimní programy obsahují **protective belt** auxiliárních hypotéz. Distinkce: Lakatosovský protective belt musí generovat **nové, nezávislé predikce** („progressive problem shifts“); imunizační belt **pouze** absorbuje kontradikce („degenerative problem shifts“).
 
 ## Rizikové kontexty
 
@@ -106,7 +106,7 @@ Hraniční případy: Lakatosův *research programme* — některé legitimní p
 
 #### 1. **Požadavek na explicitní falsifikační kritéria**
 
-Při setkání s teorií **explicitně** požaduj:
+Při setkání s teorií explicitně požaduj:
 
 > *„Jaká specifická evidence by tuto teorii falsifikovala?“*
 
@@ -147,7 +147,7 @@ Degenerativní program má být podle tohoto měřítka opuštěn, nikoli posilo
 
 #### 5. **Active falsification attempt**
 
-Aktivně **hledej** evidenci, která by teorii falsifikovala. Pokud subjekt **odmítá** uznat hypotetickou falsifikační evidenci („ale to by se nemohlo stát z důvodů X“), to samo o sobě je **diagnostické**.
+Aktivně **hledej** evidenci, která by teorii falsifikovala. Pokud subjekt odmítá uznat hypotetickou falsifikační evidenci („ale to by se nemohlo stát z důvodů X“), to samo o sobě je **diagnostické**.
 
 ### Institucionální
 

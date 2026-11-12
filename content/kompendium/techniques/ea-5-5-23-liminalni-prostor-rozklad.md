@@ -54,7 +54,7 @@ Kdo má pro každý přechod dne připravený rituál, prožívá jeho výpadek 
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|

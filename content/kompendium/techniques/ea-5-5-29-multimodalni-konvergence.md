@@ -52,7 +52,7 @@ Zevnitř je souběh těžko rozpoznatelný, protože se nikdy nejeví jako tlak 
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|

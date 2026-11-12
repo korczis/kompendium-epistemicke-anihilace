@@ -38,7 +38,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 
 Klíčový mechanismus: **exploitace evoluční předispozice** k interpretaci specifických tělesných konfigurací jako signálů **dominance**, **jistoty** a **epistemické autority**. Tato interpretace je **automatická** — operuje pod prahem vědomé deliberace a je jen **omezeně** modulovatelná explicitní reflexí.
 
-Strukturálně sourozenecká s [EA-1.5.1 Strategickou proxemikou](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md) — proxemika manipuluje **prostor**, hieroglyfy manipulují **tělo** v prostoru. Spolu tvoří kompletní **kinesic dominance system**.
+Strukturálně sourozenecká s [EA-1.5.1 Strategickou proxemikou](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md) — proxemika manipuluje **prostor**, hieroglyfy manipulují tělo v prostoru. Spolu tvoří kompletní **kinesic dominance system**.
 
 ## Struktura vzorce
 
@@ -109,7 +109,7 @@ Při přednášce / prezentaci aktivně **redirect** vizuální fokus:
 - **Slides** ne speaker
 - **Briefly close eyes** during klíčových substantivních claims
 
-To **strukturálně** snižuje vliv body language na evaluaci.
+To strukturálně snižuje vliv body language na evaluaci.
 
 #### 2. **Temporální oddělení exposure neverbálním signálům od substantivní epistemické evaluace**
 
@@ -143,7 +143,7 @@ Pokud informace silně **závisí** na in-person presentation, je to indikátor 
 
 #### 5. **Substance-only re-reading**
 
-Po klíčových prezentacích **explicitně** přečti substantivní transcript / writeup. Pokud substantivní obsah je **slabší**, než byl real-time dojem, tělesné hieroglyfy hrály signifikantní roli.
+Po klíčových prezentacích explicitně přečti substantivní transcript / writeup. Pokud substantivní obsah je **slabší**, než byl real-time dojem, tělesné hieroglyfy hrály signifikantní roli.
 
 ### Institucionální
 
@@ -181,7 +181,7 @@ Intervence: Defense protocol redesign — increased weighting na written assessm
 
 ### Případ 3 — Klinická konzultace
 
-Patient reported „**feeling reassured**“ by physician's confident demeanor at high-stakes diagnosis. Treatment recommendation accepted **bez** explicit [informed consent](@/glossary/informed-consent.md) process.
+Patient reported „**feeling reassured**“ by physician's confident demeanor at high-stakes diagnosis. Treatment recommendation accepted bez explicit [informed consent](@/glossary/informed-consent.md) process.
 
 Detekce: Patient advocate noted pattern — high-confidence physicians achieved high acceptance rates **regardless** substantive accuracy of recommendations.
 
@@ -198,7 +198,7 @@ Intervence: Klinické protokoly — written treatment options requirement, manda
 
 ### Eskaluje do
 
-- **[EA-1.6.1](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) Vzorec „Guru a adept“** — guru typically má high-trained body language; **klíčový** establishment mechanism.
+- **[EA-1.6.1](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) Vzorec „Guru a adept“** — guru typically má high-trained body language; klíčový establishment mechanism.
 - **Coercive presence** — strukturální body language patterns v abusive dynamics.
 
 ### Hraniční / podobné

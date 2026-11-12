@@ -42,7 +42,7 @@ Na rozdíl od běžné nadměrné introspekce, která pouze **zpomaluje** myšle
 - *„Pokud jsem manipulován, mohu rozpoznat manipulaci? A pokud myslím, že nejsem, není to právě důsledek manipulace?“*
 - *„Kdo to ve mně reflektuje? A kdo reflektuje toho, kdo reflektuje?“*
 
-V akutní fázi prožívá subjekt stav, který fenomenologie označuje jako **kognitivní zamrznutí**: produktivní myšlení se zastavuje v okamžiku, kdy se obrací k sobě samému. Spolu s [EA-5.1.1 epistemickou kanibalizací](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md) a [EA-5.1.2 konceptuální nihilací](@/kompendium/techniques/ea-5-1-2-konceptualni-nihilace.md) tvoří reflexivní paradoxie jádro **epistemické singularity** — subjekt přestává být schopný operovat jako autonomní epistemický agent.
+V akutní fázi prožívá subjekt stav, který fenomenologie označuje jako **kognitivní zamrznutí**: produktivní myšlení se zastavuje v okamžiku, kdy se obrací k sobě samému. Spolu s [EA-5.1.1 epistemickou kanibalizací](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md) a [EA-5.1.2 konceptuální nihilací](@/kompendium/techniques/ea-5-1-2-konceptualni-nihilace.md) tvoří reflexivní paradoxie jádro **[epistemické singularity](@/glossary/epistemicka-singularita.md)** — subjekt přestává být schopný operovat jako autonomní epistemický agent.
 
 ## Struktura vzorce
 
@@ -56,7 +56,7 @@ Detekční markery zachycené na této stránce odpovídají téže struktuře: 
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** reflexivní paradoxie:
+Co prožívá subjekt uvnitř reflexivní paradoxie:
 
 | Znak | Popis |
 |------|-------|
@@ -68,7 +68,7 @@ Co prožívá subjekt **uvnitř** reflexivní paradoxie:
 | **Strach z vlastního přesvědčení** | Subjekt se učí **neformulovat** přesvědčení, protože každé je následováno meta-otázkou |
 | **Estetizace nerozhodnutelnosti** | V raných stadiích subjekt prožívá paradoxnost jako sofistikaci — "konečně myslím dostatečně hluboko" |
 
-V pokročilých stadiích kombinace s [konceptuální nihilací](@/kompendium/techniques/ea-5-1-2-konceptualni-nihilace.md) způsobuje, že subjekt **nedokáže** ani formulovat otázku, jestli má manipulátorovi věřit — pojem *věřit* je destabilizován a metakognitivní operace, která by ho aplikovala, je paralyzována.
+V pokročilých stadiích kombinace s [konceptuální nihilací](@/kompendium/techniques/ea-5-1-2-konceptualni-nihilace.md) způsobuje, že subjekt nedokáže ani formulovat otázku, jestli má manipulátorovi věřit — pojem *věřit* je destabilizován a metakognitivní operace, která by ho aplikovala, je paralyzována.
 
 ## Detekční markery (pohled pozorovatele)
 
@@ -122,7 +122,7 @@ Při akutním kognitivním zamrznutí přechází subjekt na **pre-reflexivní**
 
 #### 4. **Externí dialogický partner mimo manipulační rámec**
 
-Subjekt vede pravidelný dialog s důvěryhodným partnerem **mimo** manipulační rámec, který demonstruje **operativní úsudek bez paradoxního zhroucení**. Tento partner slouží jako kalibrační referent legitimní metakognice.
+Subjekt vede pravidelný dialog s důvěryhodným partnerem mimo manipulační rámec, který demonstruje **operativní úsudek bez paradoxního zhroucení**. Tento partner slouží jako kalibrační referent legitimní metakognice.
 
 #### 5. **Časově ohraničená reflexe**
 
@@ -167,7 +167,7 @@ Intervence: Změna supervize na pragmatičtěji orientovaného mentora, povinné
 ### Eskaluje do
 
 - **[Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)** — terminální stav, v němž subjekt nedokáže provést žádnou rekurzivní kognitivní operaci.
-- **Úplná epistemická singularita** — terminální konvergence všech tří 5.1 technik s úplnou delegací epistemické agency manipulátorovi ([Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)).
+- **[Úplná epistemická singularita](@/glossary/epistemicka-singularita.md)** — terminální konvergence všech tří 5.1 technik s úplnou delegací epistemické agency manipulátorovi ([Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)).
 
 ### Alternativy / podobné, ale **distinktivní**
 

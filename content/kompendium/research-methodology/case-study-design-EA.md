@@ -22,7 +22,7 @@ pravidla, která rozhodují o tom, zda z případu lze něco obecného vyvodit �
 Robert Yin definuje případovou studii jako empirické zkoumání současného jevu v jeho
 reálném kontextu, zvlášť tam, kde hranice mezi jevem a kontextem nejsou zřejmé. Robert Stake
 rozlišuje případy **vnitřní** (případ zajímá sám o sobě), **instrumentální** (případ slouží
-k pochopení obecnější otázky) a **kolektivní** (více případů). Yin dále rozlišuje případové
+k pochopení obecnější otázky) a kolektivní (více případů). Yin dále rozlišuje případové
 studie **popisné, explorační a vysvětlující** a designy s jedním nebo více případy.
 
 Od **klinické kazuistiky** se výzkumná případová studie liší cílem a postupem: kazuistika

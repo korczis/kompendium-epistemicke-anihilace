@@ -17,7 +17,7 @@ access_level = "L3-L4"
 
 # Kapitola 8 — Hypertransformativní protokoly
 
-> 🚨 **Přístupová úroveň L3–L4**. Kapitola popisuje **30 ultramárních technik** ([EA-5.3.1](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md) a další) operujících na rovině [identity poznávajícího subjektu](@/glossary/epistemicka-alienace.md). Materiály vyžadují IRB autorizaci a etickou supervizi. Veřejně dostupné jsou výhradně **kompaktní taxonomické popisy** s 60–100 slovními deskripcemi — operační detaily, plné fenomenologické profily a rekonstruktivní protokoly jsou v restriktivních L4 přílohách. Plné per-technique články pro EA-5.3.* jsou v přípravné fázi a publikovány budou až po dokončení etické supervize.
+> 🚨 **Přístupová úroveň L3–L4**. Kapitola popisuje 30 ultramárních technik ([EA-5.3.1](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md) a další) operujících na rovině [identity poznávajícího subjektu](@/glossary/epistemicka-alienace.md). Materiály vyžadují IRB autorizaci a etickou supervizi. Veřejně dostupné jsou výhradně kompaktní taxonomické popisy s 60–100 slovními deskripcemi — operační detaily, plné fenomenologické profily a rekonstruktivní protokoly jsou v restriktivních L4 přílohách. Plné per-technique články pro EA-5.3.* jsou v přípravné fázi a publikovány budou až po dokončení etické supervize.
 
 ## Pozice kapitoly
 
@@ -41,6 +41,7 @@ Třicet technik je organizováno do **šesti klastrů**, z nichž každý zasahu
 | **Rekurzivní hypertransformace** | 5.3.26 — 5.3.30 | Integrativní finální fáze | [EA-5.3.28](@/kompendium/techniques/ea-5-3-28-pseudo-self-implantace.md) |
 
 ## Klastr A — Identitární substituce
+
 Klastr destabilizuje **centrální self-koncept** — odpověď subjektu na otázku „kdo jsem“. Techniky vedou subjekt k postupnému přijímání alternativních identitárních konfigurací jako „pravdivějších“ než původní.
 
 | Kód | Název | Kompaktní deskripce |
@@ -52,6 +53,7 @@ Klastr destabilizuje **centrální self-koncept** — odpověď subjektu na otá
 | **[EA-5.3.5](@/kompendium/techniques/ea-5-3-5-temporalne-vyvojova-inverze.md)** | Substituční inkorporace | Subjekt postupně inkorporuje jako vlastní hodnoty, paměti a preference, které byly externě prezentovány jako "vždy již vlastní". Po dostatečné expozici subjekt nedokáže rozlišit původní identitární obsahy od inkorporovaných. |
 
 ## Klastr B — Autobiografická dekonstrukce
+
 Klastr cílí na **narativní paměť** — sekvenci vzpomínek, kterou subjekt užívá k organizaci své identitární kontinuity. Mechanismem je systematická destabilizace autobiografického vyprávění.
 
 | Kód | Název | Kompaktní deskripce |
@@ -63,6 +65,7 @@ Klastr cílí na **narativní paměť** — sekvenci vzpomínek, kterou subjekt 
 | **[EA-5.3.10](@/kompendium/techniques/ea-5-3-10-perspektivni-substituce.md)** | Polyhistorická konfuzia | Subjekt je veden k akceptaci multiplicitních vzájemně inkompatibilních autobiografií jako "různých legitimních interpretací téhož". Eliminuje samotnou možnost autobiografické pravdy. |
 
 ## Klastr C — Rolová fragmentace
+
 Klastr operuje na **sociální pozicionalitě** — souboru rolí a vztahů, prostřednictvím kterých subjekt funguje v sociálním poli.
 
 | Kód | Název | Kompaktní deskripce |
@@ -74,6 +77,7 @@ Klastr operuje na **sociální pozicionalitě** — souboru rolí a vztahů, pro
 | **[EA-5.3.15](@/kompendium/techniques/ea-5-3-15-mentalizacni-disrupce.md)** | Identitární kontextová singularizace | Subjekt je veden k akceptaci, že jeho "skutečná identita" je manifestována pouze v jednom specifickém kontextu (typicky kontextu manipulátora), a všechny ostatní kontexty jsou "deformující". |
 
 ## Klastr D — Tělesná identitární disociace
+
 Klastr zasahuje **embodiment** — tělesnou kontinuitu, která je fenomenologicky fundamentem identitární kontinuity (Merleau-Ponty).
 
 | Kód | Název | Kompaktní deskripce |
@@ -85,6 +89,7 @@ Klastr zasahuje **embodiment** — tělesnou kontinuitu, která je fenomenologic
 | **[EA-5.3.20](@/kompendium/techniques/ea-5-3-20-self-vector-rotation.md)** | Sensori-motorická inverze | Manipulace s vazbou mezi senzorickou aferencí a motorickou eferencí prostřednictvím inkonzistentních ujištění a fenomenologické sugesce. Klinicky vzácné, dokumentováno pouze v laboratorních kontextech. |
 
 ## Klastr E — Temporálně-vývojová inverze
+
 Klastr cílí na **ontogenetickou kontinuitu** — zkušenost vlastního vývoje od dětství po současnost.
 
 | Kód | Název | Kompaktní deskripce |
@@ -96,7 +101,8 @@ Klastr cílí na **ontogenetickou kontinuitu** — zkušenost vlastního vývoje
 | **[EA-5.3.25](@/kompendium/techniques/ea-5-3-25-minimal-self-deformace.md)** | Mortalitní temporální kolaps | Indukce zkušenosti, že subjekt je "již zemřel" nebo "nikdy neexistoval", při zachování formální realitní validace. Jeden z nejintenzivnějších stavů katalogizovaných v kapitole. |
 
 ## Klastr F — Rekurzivní hypertransformace
-Poslední klastr je **integrativní**. Techniky 5.3.26 až 5.3.29 kombinují předchozí klastry do koherentních sekvencí; technika 5.3.28 představuje **vrcholovou kompozici**.
+
+Poslední klastr je integrativní. Techniky 5.3.26 až 5.3.29 kombinují předchozí klastry do koherentních sekvencí; technika 5.3.28 představuje **vrcholovou kompozici**.
 
 | Kód | Název | Kompaktní deskripce |
 |-----|-------|---------------------|
@@ -173,8 +179,8 @@ V následující [Kapitole 9](@/kompendium/05-ultramari-techniky/kapitola-9.md) 
 **Ultramární techniky jsou L3 (omezený přístup)**: nejsou určeny k
 obecnému studiu. Před četbou potvrď, že:
 
-- Máš **kvalifikovanou supervizní vazbu** (klinickou nebo doktrinální)
-- Máš **dokumentovaný důvod** ke studiu konkrétní techniky (forenzní analýza,
+- Máš kvalifikovanou supervizní vazbu (klinickou nebo doktrinální)
+- Máš dokumentovaný důvod ke studiu konkrétní techniky (forenzní analýza,
   klinická intervence, doktrinální výzkum)
 - Sleduješ [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   vlastního stavu (sebepozorovací rámec)

@@ -52,11 +52,11 @@ Detekční markery zachycené na této stránce odpovídají téže struktuře: 
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** ontologické exfoliace:
+Co prožívá subjekt uvnitř ontologické exfoliace:
 
 - **Iniciálně: pocit osvobození** — odlupování první vrstvy je provázeno euforií „konečně vidím skrz iluze“
 - **Postupně: difúzní úzkost** — orientační body se rozplývají, ale subjekt je interpretuje jako „intenzitu nového vnímání“
-- **Derealizace** — okolní svět začíná působit *vzdáleně*, *plochcky*, *jako film*
+- **[Derealizace](@/glossary/depersonalizace.md)** — okolní svět začíná působit *vzdáleně*, *plochcky*, *jako film*
 - **[Depersonalizace](@/glossary/depersonalizace.md)** — vlastní zkušenost působí *cizí*, *zvenku pozorovaná*
 - **Estetická fascinace prázdnotou** — exfoliace je často podávána v jazyce hluboké duchovnosti, takže subjekt prožívá ztrátu jako *probuzení*
 - **Ztráta operativnosti** — subjekt má potíže s běžnými rozhodnutími (co jíst, kam jít), protože odpadají kategorie, podle nichž lze rozhodovat

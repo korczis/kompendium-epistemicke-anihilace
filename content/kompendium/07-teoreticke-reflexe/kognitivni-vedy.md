@@ -48,7 +48,7 @@ Manipulátor cílí primárně na System 1 z pragmatických důvodů: System 1 j
 - **Affect heuristic** — Pozitivní/negativní valence transferovaná z asociovaných objektů manipuluje rozhodnutí v doménách formálně nesouvisejících.
 - **Framing effects** — Logicky ekvivalentní formulace generují odlišná rozhodnutí; manipulátor volí frame maximalizující požadovaný výsledek.
 
-Tato zranitelnost je **strukturální**, nikoli individuální. Není manifestací iracionality jednotlivců, ale architektonického kompromisu mezi rychlostí a přesností. Kahneman opakovaně zdůrazňuje, že System 1 nelze „vypnout“ — lze pouze kultivovat **metakognitivní detekci** situací, jež vyžadují aktivaci System 2.
+Tato zranitelnost je strukturální, nikoli individuální. Není manifestací iracionality jednotlivců, ale architektonického kompromisu mezi rychlostí a přesností. Kahneman opakovaně zdůrazňuje, že System 1 nelze „vypnout“ — lze pouze kultivovat **metakognitivní detekci** situací, jež vyžadují aktivaci System 2.
 
 ### Inhibice System 2 jako útoková strategie
 
@@ -91,7 +91,7 @@ Konkrétní mechanismy:
 
 Pathologickou hyperverzí prediktivního uzávěru je **predikční rigidita**: stav, v němž generativní model přestává reagovat na prediction errors. Subjekt obývá uzavřený prediktivní koridor, jenž imunizuje sám sebe proti revizi. Tento stav strukturálně koresponduje s [anankastickým režimem](@/glossary/anankasticky-rezim.md) popsaným v sekci 03 — rigidní, kontroverzní, kompulzivně reprodukovaný kognitivní vzorec, jenž blokuje epistemickou flexibilitu.
 
-Z perspektivy aktivní inference je predikční rigidita **adaptivní** v krátké časové škále (minimalizuje krátkodobou predikční nejistotu) a **maladaptivní** v dlouhé (subjekt ztrácí schopnost detekovat strukturální změny prostředí). Manipulátor exploituje tento trade-off: nabízí krátkodobou kognitivní úlevu (jasný narativ) výměnou za dlouhodobou epistemickou kapacitu.
+Z perspektivy aktivní inference je predikční rigidita adaptivní v krátké časové škále (minimalizuje krátkodobou predikční nejistotu) a **maladaptivní** v dlouhé (subjekt ztrácí schopnost detekovat strukturální změny prostředí). Manipulátor exploituje tento trade-off: nabízí krátkodobou kognitivní úlevu (jasný narativ) výměnou za dlouhodobou epistemickou kapacitu.
 
 ## Embodied a enaktivní kognice
 
@@ -171,8 +171,8 @@ Sofistikovaný manipulační útok operuje **napříč všemi třemi úrovněmi 
 
 **Teoretické reflexe ne jsou závěry — jsou pozvánkami k myšlení.** Po četbě:
 
-1. Identifikuj **alespoň jeden bod**, kde nesouhlasíš s autorovou formulací
-2. Formuluj svou **vlastní alternativní pozici** v 3–5 větách
+1. Identifikuj alespoň jeden bod, kde nesouhlasíš s autorovou formulací
+2. Formuluj svou vlastní alternativní pozici v 3–5 větách
 3. Najdi v [bibliografii](@/kompendium/08-prilohy/bibliografie.md) primární
    zdroj, který tvou alternativu podporuje (alespoň 1)
 

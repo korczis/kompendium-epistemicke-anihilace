@@ -83,7 +83,7 @@ každé spojení osoby napříč rejstříky zaznamenat s mírou jistoty a u spo
 dopadem vyžadovat druhý nezávislý identifikátor. Čtvrtým je **kontrola adres a osob
 v síti**: kolik dalších subjektů sdílí sídlo či statutára a co mají společného
 (viz [síťová analýza](@/kompendium/research-methodology/network-analysis-EA.md)). Pátým
-je **lidské posouzení** automaticky generovaných varování, zvlášť pokud vedou k odmítnutí
+je lidské posouzení automaticky generovaných varování, zvlášť pokud vedou k odmítnutí
 klienta.
 
 ## Lidský rozměr a zotavení

@@ -20,12 +20,12 @@ date_modified = "2026-11-10"
 příběhu, nikoli jeho obsah. Vychází z představy, že vyprávění o sobě má strukturu podobnou
 síti: obsahuje **uzly** (klíčové události, vztahy, rozhodnutí), **spojení** mezi nimi (protože,
 a proto, navzdory), **větve** (alternativní linie – kým jsem mohl být, kým ještě mohu být),
-**hranice** (co do příběhu patří a co ne), **mezery** (období, o nichž nelze vyprávět)
+**hranice** (co do příběhu patří a co ne), mezery (období, o nichž nelze vyprávět)
 a **smyčky** (události, které se v příběhu opakovaně vracejí).
 
 Zdravý příběh není dokonale hladký. Má mezery i rozpory, ale je **souvislý** (z jedné části
 se lze dostat do jiné), **rozvětvený** (existuje více možných výkladů a budoucností)
-a **otevřený** (nové zkušenosti lze připojit). Manipulace tyto vlastnosti cíleně mění.
+a otevřený (nové zkušenosti lze připojit). Manipulace tyto vlastnosti cíleně mění.
 
 Slovo „topologie“ je zde metaforou převzatou z matematiky, kde topologie zkoumá vlastnosti
 útvarů, které se nemění při spojité deformaci (souvislost, díry). Kompendium z matematiky
@@ -48,7 +48,7 @@ osobního příběhu.
 
 ## Jak se projevuje
 
-Topologické deformace se poznají podle toho, **jak** člověk vypráví:
+Topologické deformace se poznají podle toho, jak člověk vypráví:
 
 - **Singulární bod.** Jediná událost nebo osoba vysvětluje všechno – před ní „nic nebylo“,
   po ní „vše je jen důsledek“.

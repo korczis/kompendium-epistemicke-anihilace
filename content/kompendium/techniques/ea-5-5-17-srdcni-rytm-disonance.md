@@ -48,7 +48,7 @@ Klinicky je podstatné odlišení od úzkostných a kardiologických stavů: ved
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|

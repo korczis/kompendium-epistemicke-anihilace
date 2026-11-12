@@ -37,6 +37,7 @@ konkrétní přesvědčení, ale na **aparát, kterým se přesvědčení ověř
 ## Tři klastry první poloviny
 
 ### Klastr A – sebevztažný kolaps
+
 Kritická měřítka člověka se obracejí proti sobě samým. Typickým představitelem je
 [EA-5.1.1 Epistemická kanibalizace](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md);
 patří sem i [EA-5.1.3 Reflexivní paradoxie](@/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie.md).
@@ -47,6 +48,7 @@ patří sem i [EA-5.1.3 Reflexivní paradoxie](@/kompendium/techniques/ea-5-1-3-
   sám sebe“.
 
 ### Klastr B – sémantická destabilizace
+
 Slova zůstávají, ale ztrácejí ostré hranice a ukotvení ve světě:
 [EA-5.1.4 Sémantická imploze](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md),
 [EA-5.1.7 Referenční rekurze](@/kompendium/techniques/ea-5-1-7-referencni-rekurze.md),
@@ -60,6 +62,7 @@ a [EA-5.1.10 Temporální dekoherence](@/kompendium/techniques/ea-5-1-10-tempora
   zopakovat vlastní včerejší myšlenku „stejně“.
 
 ### Klastr C – hyperreflexivní destrukce
+
 Reflexe se vrství nad reflexi, až nezbude nereflektovaný prožitek, o kterém by se dalo
 přemýšlet: [EA-5.1.13 Hyperreflexivita](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md);
 do klastru spadá i [EA-5.1.14 Iluzorní transcendence](@/kompendium/techniques/ea-5-1-14-iluzorni-transcendence.md)

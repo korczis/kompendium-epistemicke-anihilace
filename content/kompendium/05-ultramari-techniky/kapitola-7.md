@@ -48,13 +48,14 @@ Singulární techniky (EA-5.1.*) a metatranscendentální techniky (EA-5.2.*) sd
 | **Klinická prezentace** | Epistemická bezmocnost, ztráta autorství | [Depersonalizace](@/glossary/depersonalizace.md), aperspektivismus, dekategoriální stavy |
 | **Filozofická afinita** | Pyrrhonský [skepticismus](@/glossary/skepticismus.md), konstruktivistická psychóza | Kantovská kritika převrácená proti samotné možnosti syntetické apercepce |
 
-Klíčový diagnostický rozdíl: subjekt po EA-5.1.* je schopen **popsat své poškození** — má slova, používá kategorie, dokáže říct *„nevěřím ničemu“*, *„nemám vlastní myšlenky“*. Subjekt po EA-5.2.* nedokáže své poškození artikulovat **strukturálně**, protože samotné struktury, které by artikulaci umožnily, jsou narušené. Klinici hlásí výpovědi typu *„není to, že bych něco neviděl, ale chybí mi něco, co by mi umožnilo říct, co chybí“*.
+Klíčový diagnostický rozdíl: subjekt po EA-5.1.* je schopen **popsat své poškození** — má slova, používá kategorie, dokáže říct *„nevěřím ničemu“*, *„nemám vlastní myšlenky“*. Subjekt po EA-5.2.* nedokáže své poškození artikulovat strukturálně, protože samotné struktury, které by artikulaci umožnily, jsou narušené. Klinici hlásí výpovědi typu *„není to, že bych něco neviděl, ale chybí mi něco, co by mi umožnilo říct, co chybí“*.
 
 ## Třicet technik metatranscendentální anihilace
 
 Kapitola obsahuje třicet technik, [EA-5.2.1](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md) až [EA-5.2.30](@/kompendium/techniques/ea-5-2-30-konvergentni-meta-singularita.md). Každá z nich má v katalogu technik vlastní stránku, jejíž název a vymezení jsou pro kód EA-5.2.* závazné. Prvních deset technik je níže shrnuto jednou větou; techniky 11–30 jsou uvedeny v **kompaktní taxonomické formě**: u každé kapitola shrnuje, jaký vzorec stránka techniky popisuje, podle čeho se rozpoznává a čím se liší od sousedních technik, od neškodných jevů a od klinických stavů. Postupy a kroky, které by šlo provést, kapitola záměrně neuvádí.
 
 ### Deep-dive techniky
+
 1. **EA-5.2.1 Meta-epistemická inverze** — epistemické standardy obrácené tak, že hodnota důkazu, koherence a reliability funguje s opačným znaménkem.
 2. **[EA-5.2.2](@/kompendium/techniques/ea-5-2-2-transcendentalni-iluze.md) Transcendentální iluze** — falešný pocit, že subjekt překračuje epistemické limity, vytvořený inscenovanou pseudo-transcendencí.
 3. **[EA-5.2.3](@/kompendium/techniques/ea-5-2-3-noumenalni-redukce.md) Noumenální redukce** — kolaps fenomenálně/noumenálního rozlišení; subjekt přestává rozumět rozdílu mezi *jak se jeví* a *jak je*.
@@ -175,8 +176,8 @@ Veškerá analýza technik EA-5.2.* podléhá [Etickým aspektům](@/kompendium/
 **Ultramární techniky jsou L3 (omezený přístup)**: nejsou určeny k
 obecnému studiu. Před četbou potvrď, že:
 
-- Máš **kvalifikovanou supervizní vazbu** (klinickou nebo doktrinální)
-- Máš **dokumentovaný důvod** ke studiu konkrétní techniky (forenzní analýza,
+- Máš kvalifikovanou supervizní vazbu (klinickou nebo doktrinální)
+- Máš dokumentovaný důvod ke studiu konkrétní techniky (forenzní analýza,
   klinická intervence, doktrinální výzkum)
 - Sleduješ [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   vlastního stavu (sebepozorovací rámec)

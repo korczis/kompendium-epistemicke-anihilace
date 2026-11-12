@@ -54,13 +54,13 @@ Rozvrstvení zdrojů je u této stránky podstatné, protože se v ní potkává
 
 Všichni účastníci po expozičních modulech; intenzivnější protokol pro účastníky se zvýšenou bazální aktivací.
 
-Edukativní cíl není **změna chování** v behaviorálním smyslu, ale **kultivace kompetencí** umožňujících autonomní navigaci v epistemicky náročných kontextech. Cílová populace je primárně dospělí profesionálové s baseline metakognitivní stabilitou — technika není určena pro klinické intervence u aktivně dekompenzovaných jedinců.
+Edukativní cíl není změna chování v behaviorálním smyslu, ale kultivace kompetencí umožňujících autonomní navigaci v epistemicky náročných kontextech. Cílová populace je primárně dospělí profesionálové s baseline metakognitivní stabilitou — technika není určena pro klinické intervence u aktivně dekompenzovaných jedinců.
 
 ## Předpoklady
 
 Dokončený trénink polyvagálních regulačních dovedností; identifikovány osobní kotvy v pre-program intake.
 
-Bez splnění předpokladů technika produkuje suboptimální výsledky a může generovat iatrogenní efekty. Předpoklady nejsou byrokratické formality, ale **strukturální podmínky** efektivity intervence.
+Bez splnění předpokladů technika produkuje suboptimální výsledky a může generovat iatrogenní efekty. Předpoklady nejsou byrokratické formality, ale strukturální podmínky efektivity intervence.
 
 ## Implementační protokol
 
@@ -72,7 +72,7 @@ Konkrétní implementace vyžaduje:
 4. Nikdo nevede kotvení sám — na stav účastníků po expozici se dívá i druhý člověk, který na průběhu modulu nemá výkonový zájem.
 5. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
 
-Implementace je **iterativní** — každý cyklus generuje data informující úpravy v dalších cyklech.
+Implementace je iterativní — každý cyklus generuje data informující úpravy v dalších cyklech.
 
 ## Hodnotící kritéria
 
@@ -83,7 +83,7 @@ Implementace je **iterativní** — každý cyklus generuje data informující �
 | Identity stability | Konzistentní self-narrative pre/post |
 | No carry-over | Žádné perzistentní intruze >48h
 
-Evaluace integruje **kvantitativní** (validované instrumenty) i **kvalitativní** (reflektivní eseje, ethnographic observation) datové zdroje. Žádná samostatná metrika není dostatečná — multidimenzionální evaluace je nezbytná.
+Evaluace integruje kvantitativní (validované instrumenty) i kvalitativní (reflektivní eseje, ethnographic observation) datové zdroje. Žádná samostatná metrika není dostatečná — multidimenzionální evaluace je nezbytná.
 
 Zdařilé kotvení nedokládá, že expozice byla neškodná. Dokládá nejvýš, že se účastník po ní vrátil do svého obvyklého stavu v prostředí, kde byla pomoc po ruce — nikoli že by se vrátil i tam, kde po ruce není, a už vůbec ne že by obsah, s nímž se setkal, přestal působit. Nedokládá ani osvojenou schopnost: návrat uskutečněný za přítomnosti skupiny a vedoucího není totéž co regulace vlastními prostředky, a Ogden, Minton a Pain (2006) právě proto umisťují tělesnou část práce před výklad, nikoli za něj. Vlastní hlášení přitom nese známý směr chyby, který u této techniky váží nejvíc ze všech: Lindahl a kol. (2017) ukázali, že obtíže bývají přerámovány jako znak hloubky, takže uvedený klid je slabším údajem než spánek, soustředění a chování mimo výuku. A konečně — účastník, který se dobře ukotví, tím nedokládá kompetenci kotvení vést; schopnost vrátit se do svého stavu je něco jiného než schopnost rozpoznat, že se do něj někdo jiný nevrací.
 
@@ -121,7 +121,7 @@ Technika je integrální součástí subkategorie 3.1 a je navržena pro synergi
 
 ### Vztah k EA-1 a EA-2
 
-Tato edukativní technika **operacionalizuje** poznatky z taxonomie:
+Tato edukativní technika operacionalizuje poznatky z taxonomie:
 
 - **[EA-1 Techniky epistemické anihilace](@/kompendium/03-zakladni-kategorie/kapitola-1.md)** — obsahový materiál pro výuku.
 - **[EA-2 Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)** — komplexní real-world cases pro analýzu.

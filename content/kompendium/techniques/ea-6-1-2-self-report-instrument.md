@@ -48,7 +48,7 @@ Sekundárně může být zvažována jako adjunktivní intervence v rámci kompl
 
 ## Kontraindikace
 
-Aplikace techniky je **kontraindikována** v následujících situacích:
+Aplikace techniky je kontraindikována v následujících situacích:
 
 Nízká úroveň funkční gramotnosti, aktivní psychóza ovlivňující [reality testing](@/glossary/reality-testing.md), závažná kognitivní porucha doložená vyšetřením, nedostatečná jazyková kompetence v jazyce nástroje.
 

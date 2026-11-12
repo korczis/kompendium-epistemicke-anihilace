@@ -77,7 +77,7 @@ a identitárních technik EA-5.3, například
    prožívá jako selhání celé osoby.
 4. **Krize** – zlom obvykle přichází zvenčí: zdravotní kolaps, vyhoření, odchod mentora,
    propuštění, vyloučení nebo zásah blízkých.
-5. **Návrat** – po odchodu z prostředí se vnější život obnovuje poměrně rychle; vnitřní
+5. Návrat – po odchodu z prostředí se vnější život obnovuje poměrně rychle; vnitřní
    měřítka (co je dost, co mám rád, co je odpočinek) se obnovují měsíce až roky.
 
 ## Odlišení

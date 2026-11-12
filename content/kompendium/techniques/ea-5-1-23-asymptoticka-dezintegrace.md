@@ -34,13 +34,13 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-6/"
 
 ## Definice
 
-**Asymptotická dezintegrace** je pomalý pohyb k totálnímu epistemickému kolapsu, jehož každý **jednotlivý** krok je malý — pod prahem afektivní i reflexivní detekce — ale jehož **kumulativní** trajektorie směřuje k destrukci epistemické integrity subjektu. Klíčová charakteristika: **neexistuje** identifikovatelný bod, kdy by subjekt mohl říci „toto je už příliš“.
+**Asymptotická dezintegrace** je pomalý pohyb k totálnímu epistemickému kolapsu, jehož každý **jednotlivý** krok je malý — pod prahem afektivní i reflexivní detekce — ale jehož **kumulativní** trajektorie směřuje k destrukci epistemické integrity subjektu. Klíčová charakteristika: neexistuje identifikovatelný bod, kdy by subjekt mohl říci „toto je už příliš“.
 
 Označení **asymptotická** odkazuje k matematické metafoře: trajektorie se k epistemickému zničení **přibližuje** spojitě, takže v žádném okamžiku není destrukce přítomna jako diskrétní událost; je rozprostřena do pomalého spádu, jehož směr je destruktivní, ale jehož kroky jsou pod prahem rozhodnosti.
 
 Asymptotická dezintegrace operuje na **prahové struktuře** lidského hodnocení: pokud je každý krok dostatečně malý, žádný **z nich** sám o sobě neaktivuje obrannou reakci. Subjekt aktivuje obranu pouze proti **diskrétně velkým** porušením, a tato logika je systematicky obcházena.
 
-Asymptotická dezintegrace je obvykle navázána na předchozí [EA-5.1.22 diferenciální nihilaci](@/kompendium/techniques/ea-5-1-22-diferencialni-nihilace.md) — bez kolapsu distinkcí by subjekt dokázal kumulativní trajektorii **rekonstruovat** porovnáním současného a počátečního stavu.
+Asymptotická dezintegrace je obvykle navázána na předchozí [EA-5.1.22 diferenciální nihilaci](@/kompendium/techniques/ea-5-1-22-diferencialni-nihilace.md) — bez kolapsu distinkcí by subjekt dokázal kumulativní trajektorii rekonstruovat porovnáním současného a počátečního stavu.
 
 ## Struktura vzorce
 
@@ -60,7 +60,7 @@ Detekční markery zachycené na této stránce odpovídají téže struktuře: 
 - **Ztráta paměti počátku** — vzpomínka na **původní** pozici slábne nebo je reinterpretována
 - **Pocit kontinuity** — „byl jsem to celou dobu já“
 - Při retrospektivní konfrontaci s počátečním stavem **šok** ze vzdálenosti, jež se zdá nemožně velká
-- V pokročilém stadiu **inkapacita** rekonstruovat trajektorii, jež k současnému stavu vedla
+- V pokročilém stadiu inkapacita rekonstruovat trajektorii, jež k současnému stavu vedla
 
 V kombinaci s [EA-5.1.22 diferenciální nihilací](@/kompendium/techniques/ea-5-1-22-diferencialni-nihilace.md) je ztráta kotvy posílena ztrátou nástrojů, jež by trajektorii vůbec dovedly reflektovat.
 
@@ -79,8 +79,8 @@ V kombinaci s [EA-5.1.22 diferenciální nihilací](@/kompendium/techniques/ea-5
 
 Asymptotická dezintegrace je odlišitelná od **legitimního pomalého učení**:
 
-- **Legitimní učení** směřuje k **vyšší** integraci — subjekt na konci dovede **více**, drží **více** distinkcí, rozeznává **více** případů.
-- **Asymptotická dezintegrace** směřuje k **nižší** integraci — subjekt na konci dovede **méně**, drží **méně** distinkcí, rezignoval na **více** epistemických nároků.
+- **Legitimní učení** směřuje k **vyšší** integraci — subjekt na konci dovede více, drží více distinkcí, rozeznává více případů.
+- **Asymptotická dezintegrace** směřuje k **nižší** integraci — subjekt na konci dovede **méně**, drží **méně** distinkcí, rezignoval na více epistemických nároků.
 
 ## Rizikové kontexty
 

@@ -48,7 +48,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 Klíčový distinktivní znak — kategorická transgrese není pouhý přesun mezi kategoriemi (metafora, analogie), ani filosofická kritika kategoriálního systému. Subjekt **ztrácí schopnost** rozlišovat. Nikoliv „rozlišuje, ale rozhodl se nepřisuzovat váhu rozdílu“, ale **kapacitně** nedokáže udržet hranici.
 
-Technika exploituje skutečnost, že kategoriální struktura zkušenosti je **infrastrukturální** — operuje pod úrovní vědomé reflexe. Systematická transgrese této infrastruktury produkuje **dezorientaci**, kterou subjekt nedokáže lokalizovat, protože nedokáže pojmenovat, **co** se rozpadlo.
+Technika exploituje skutečnost, že kategoriální struktura zkušenosti je **infrastrukturální** — operuje pod úrovní vědomé reflexe. Systematická transgrese této infrastruktury produkuje **dezorientaci**, kterou subjekt nedokáže lokalizovat, protože nedokáže pojmenovat, co se rozpadlo.
 
 Kategorická transgrese je [ultramární technikou](@/kompendium/05-ultramari-techniky/_index.md) kategorie [epistemická singularita](@/glossary/epistemicka-anihilace.md), s úzkým vztahem k [ontologické anihilaci](@/glossary/ontologicka-anihilace.md) — destruuje **ontologickou** klasifikační schopnost.
 
@@ -64,7 +64,7 @@ Detekční markery zachycené na této stránce odpovídají téže struktuře: 
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** kategorické transgrese:
+Co prožívá subjekt uvnitř kategorické transgrese:
 
 | Znak | Jak jej subjekt popisuje |
 |---|---|
@@ -137,11 +137,11 @@ Udržuj **pravidelný kontakt** s prostředím, které **vynucuje** kategoriáln
 
 #### 3. **Temporální pinning**
 
-Pravidelně **explicitně** lokalizuj zážitek v čase: „toto se děje **teď**, dne **X**, v **Y**“. Re-traumatizace bez temporální kotvy je hlavním symptomem narušené hranice minulost / přítomnost.
+Pravidelně explicitně lokalizuj zážitek v čase: „toto se děje **teď**, dne X, v Y“. Re-traumatizace bez temporální kotvy je hlavním symptomem narušené hranice minulost / přítomnost.
 
 #### 4. **Autorská lokalizace**
 
-U každého klíčového přesvědčení **explicitně** identifikuj: **kdo** to řekl, **kdy**, **v jakém rámci**. Pokud zjistíš, že nedokážeš lokalizovat, je přesvědčení kandidátem na převzatý narativ s erodovaným autorstvím.
+U každého klíčového přesvědčení explicitně identifikuj: kdo to řekl, kdy, **v jakém rámci**. Pokud zjistíš, že nedokážeš lokalizovat, je přesvědčení kandidátem na převzatý narativ s erodovaným autorstvím.
 
 #### 5. **Návrat k těleskosti**
 

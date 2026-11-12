@@ -111,7 +111,7 @@ hnutí a vztahy, v nichž jedna strana skrývá své záměry.
 
 - **Legitimní socializace.** Výchova, výcvik a profesní příprava také mění chování
   a postoje; liší se tím, že cíle jsou známé, kritika je možná a odchod není trestán.
-- **Liftonova kritéria** ([EA-8.2.2](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md))
+- **[Liftonova kritéria](@/glossary/thought-reform.md)** ([EA-8.2.2](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md))
   popisují výsledné prostředí, Singerová proces.
 - **Sociologická kritika** upozorňuje, že většina lidí ze skupin odchází sama a že
   podmínky nejsou „nutné a postačující“; Kompendium je proto čte jako rozpoznávací vzorce,

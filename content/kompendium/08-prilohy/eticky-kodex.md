@@ -198,7 +198,7 @@ flowchart TD
 
 ## Vztah k jiným etickým rámcům
 
-Tento kodex je **kompatibilní s** a **rozšiřuje** následující rámce:
+Tento kodex je **kompatibilní s** a rozšiřuje následující rámce:
 
 - **APA Ethics Code** (American Psychological Association)
 - **Belmont Report** (1979) — Respect for Persons, Beneficence, Justice
@@ -237,12 +237,12 @@ skutečně dosáhne — rozsah takové volby vymezují
 **Tato příloha je referenční nástroj** — není k četbě od začátku do konce.
 Místo lineární četby:
 
-1. Identifikuj **konkrétní termín / techniku / nástroj**, který právě potřebuješ
+1. Identifikuj konkrétní termín / techniku / nástroj, který právě potřebuješ
 2. Použij vyhledávání (Cmd+F / Ctrl+F) v této stránce
 3. Pokud nenajdeš, zkontroluj [glosář](@/glossary/_index.md) a [rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md)
 
 > **Mandatorní akce**: použití přílohy bez konkrétní otázky je obvykle
-> formou prokrastinace. Definuj si nejprve, **co hledáš**, teprve pak
+> formou prokrastinace. Definuj si nejprve, co hledáš, teprve pak
 > otevři přílohu.
 
 ## Související

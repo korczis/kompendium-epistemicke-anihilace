@@ -16,7 +16,7 @@ toc = true
 
 # 7.3 Sociální epistemologie EA — Goldman, Fricker, Longino, Anderson
 
-Sociální epistemologie — disciplína systematicky rozvíjená od 70. let 20. století — představuje pro [kompendium EA](@/glossary/kompendium-ea.md) **bezprecedentně relevantní** teoretický zdroj. Zatímco klasická epistemologie analyzuje individuální poznání izolovaného subjektu, sociální epistemologie zkoumá **kolektivní** dimenzi vědění: jak věříme druhým, jak operují epistemické instituce, jak distribuce moci formuje distribuci vědění a jak některé sociální struktury **systematicky znevýhodňují** určité epistemické subjekty.
+Sociální epistemologie — disciplína systematicky rozvíjená od 70. let 20. století — představuje pro [kompendium EA](@/glossary/kompendium-ea.md) **bezprecedentně relevantní** teoretický zdroj. Zatímco klasická epistemologie analyzuje individuální poznání izolovaného subjektu, sociální epistemologie zkoumá kolektivní dimenzi vědění: jak věříme druhým, jak operují epistemické instituce, jak distribuce moci formuje distribuci vědění a jak některé sociální struktury **systematicky znevýhodňují** určité epistemické subjekty.
 
 Tato kapitola představuje čtyři kanonické pozice — Alvina Goldmana (veritism a sociální reliabilismus), Mirandu Fricker (epistemická nespravedlnost), Helen Longino (kritický kontextový empirismus) a Elizabeth Anderson (demokratická epistemologie) — a explicitně mapuje jejich vztah k taxonomii EA.
 
@@ -34,7 +34,7 @@ Klíčové komponenty:
 
 ### 1.2 Implikace pro EA taxonomii
 
-Goldmanova perspektiva poskytuje kompendiu **kvantitativní** kritérium pro hodnocení EA technik:
+Goldmanova perspektiva poskytuje kompendiu kvantitativní kritérium pro hodnocení EA technik:
 
 | EA technika | Veritistická hodnota |
 |-------------|------------------------|
@@ -55,7 +55,7 @@ Goldman dále rozvíjí **bayesovský** model sociální epistemologie: agent up
 Veritistická perspektiva má **dvě signifikantní** limity:
 
 1. **Mocenská asymetrie** je v Goldmanově rámci **téměř neviditelná**. Veritism abstrahuje od skutečnosti, že distribuce epistemických zdrojů (přístup k informacím, kapacita k jejich zpracování, sociální legitimace) je **systematicky nerovnoměrná**. Frickerová (sekce 1.2) tuto mezeru explicitně řeší.
-2. **Strukturální dimenze** — Goldman analyzuje **individuální** kognitivní procesy a **agregaci** individuálních přesvědčení. Strukturální fenomény (algoritmická amplifikace, kulturní kódování epistemických norem) zůstávají v jeho rámci nedostatečně rozpracované. Longino (sekce 1.3) tuto dimenzi explicitně tematizuje.
+2. **Strukturální dimenze** — Goldman analyzuje individuální kognitivní procesy a **agregaci** individuálních přesvědčení. Strukturální fenomény (algoritmická amplifikace, kulturní kódování epistemických norem) zůstávají v jeho rámci nedostatečně rozpracované. Longino (sekce 1.3) tuto dimenzi explicitně tematizuje.
 
 ## 2. Miranda Fricker — epistemická nespravedlnost
 
@@ -73,7 +73,7 @@ Komponenty:
 
 - **Identitní předsudek** (gender, rasa, třída, věk, zdravotní stav, akademická hierarchie…)
 - **Systematická diskontace důvěryhodnosti** podle této identity
-- **Strukturální** charakter — testimoniální nespravedlnost není individuální chybou, ale **vzorcem** napříč interakcemi
+- Strukturální charakter — testimoniální nespravedlnost není individuální chybou, ale **vzorcem** napříč interakcemi
 
 Příklady:
 
@@ -109,7 +109,7 @@ Subjekt, jenž byl chronicky vystaven **gaslightingu**, **terminologické mystif
 
 ### 2.6 Epistemická ctnost a vice
 
-Fricková dále rozvíjí **virtue-epistemologickou** dimenzi: existují **epistemické ctnosti** (zejména **testimoniální spravedlnost** a **hermeneutická senzitivita**) a **vice** (předsudečná diskontace, hermeneutická lhostejnost). Pro klinickou praxi (sekce 06) to znamená:
+Fricková dále rozvíjí **virtue-epistemologickou** dimenzi: existují **epistemické ctnosti** (zejména **testimoniální spravedlnost** a **hermeneutická senzitivita**) a vice (předsudečná diskontace, hermeneutická lhostejnost). Pro klinickou praxi (sekce 06) to znamená:
 
 - Terapeut musí kultivovat **testimoniální spravedlnost** vůči pacientovi (akceptování validity jeho narativu)
 - Terapeut musí být **hermeneuticky senzitivní** — rozpoznávat, kdy pacient artikuluje něco, pro co nemá adekvátní pojmosloví, a poskytovat hermeneutické zdroje (vč. kompendia EA)
@@ -131,7 +131,7 @@ Pokud tyto podmínky nejsou splněny, sociální epistemická praktika **degener
 
 ### 3.2 Aplikace na EA
 
-Longino poskytuje kompendiu **strukturální** kritérium pro identifikaci patologicky operujících epistemických komunit. EA techniky lze nyní **strukturálně** klasifikovat podle toho, **kterou** z Longinových podmínek narušují:
+Longino poskytuje kompendiu strukturální kritérium pro identifikaci patologicky operujících epistemických komunit. EA techniky lze nyní strukturálně klasifikovat podle toho, **kterou** z Longinových podmínek narušují:
 
 | EA technika | Narušená podmínka |
 |-------------|---------------------|
@@ -188,7 +188,7 @@ Pro EA to má klíčový význam: **institucionální delegitimizace whistleblow
 
 Sociální epistemologie samotná **není dostačující** pro pokrytí fenoménů EA:
 
-1. **Subjektivní zkušenost** — sociální epistemologie je převážně **strukturální** disciplínou; subjektivní fenomenologie traumatu (kapitola 7.2) zůstává mimo její primární záběr
+1. **Subjektivní zkušenost** — sociální epistemologie je převážně strukturální disciplínou; subjektivní fenomenologie traumatu (kapitola 7.2) zůstává mimo její primární záběr
 2. **Klinická intervence** — sociální epistemologie analyzuje, ale primárně **neintervenuje**; klinická aplikace (sekce 06) vyžaduje další teoretické zdroje
 3. **Kulturní specificita** — drtivá většina sociálně-epistemologických rámců je formulovaná v anglo-saském kontextu; cross-kulturní validace je limitovaná
 
@@ -232,8 +232,8 @@ Sociálně-epistemologické rámce jsou v kompendiu integrovány **napříč**:
 
 **Teoretické reflexe ne jsou závěry — jsou pozvánkami k myšlení.** Po četbě:
 
-1. Identifikuj **alespoň jeden bod**, kde nesouhlasíš s autorovou formulací
-2. Formuluj svou **vlastní alternativní pozici** v 3–5 větách
+1. Identifikuj alespoň jeden bod, kde nesouhlasíš s autorovou formulací
+2. Formuluj svou vlastní alternativní pozici v 3–5 větách
 3. Najdi v [bibliografii](@/kompendium/08-prilohy/bibliografie.md) primární
    zdroj, který tvou alternativu podporuje (alespoň 1)
 

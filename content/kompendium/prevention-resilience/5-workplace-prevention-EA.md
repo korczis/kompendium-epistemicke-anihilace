@@ -138,7 +138,7 @@ práce přestal záviset na jedné paměti.
 
 ## Indikátory úspěchu
 
-Validované normy pro pracovní prevenci EA **neexistují**. Organizace si stanoví cíle podle
+Validované normy pro pracovní prevenci EA neexistují. Organizace si stanoví cíle podle
 vlastních výchozích dat a sleduje vývoj v čase:
 
 - výsledky opakovaného psychosociálního auditu po týmech,

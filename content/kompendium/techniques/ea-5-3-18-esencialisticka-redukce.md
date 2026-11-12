@@ -48,7 +48,7 @@ Zvenčí je nejlépe doložitelné to, že vybraná „esence“ je strukturáln
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|
@@ -117,7 +117,7 @@ Co může vidět vnější pozorovatel:
 
 ## Teoretické zázemí
 
-Husserlova **eidetická redukce** (*Ideen I*) — uchopení esence — je perverzně instrumentalizována: subjekt je redukován na 'esenci' definovanou zvenčí. Sartrova **existence předchází esenci** (*L'existentialisme est un humanisme*) je obrácena: implantovaná esence předchází a definuje existenci. Heideggerova **was-sein** je manipulátorem fixována, čímž se ruší **dass-sein** kontingentní svoboda. Levinasova **autrement qu'être** (jinak než bytí) je zrušena: subjekt je redukován na 'co' bez dimenze 'kdo'. Ricoeurovo **idem** je hypertrofováno, **ipse** atrofováno. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
+Husserlova **eidetická redukce** (*Ideen I*) — uchopení esence — je perverzně instrumentalizována: subjekt je redukován na 'esenci' definovanou zvenčí. Sartrova **existence předchází esenci** (*L'existentialisme est un humanisme*) je obrácena: implantovaná esence předchází a definuje existenci. Heideggerova **was-sein** je manipulátorem fixována, čímž se ruší **dass-sein** kontingentní svoboda. Levinasova **autrement qu'être** (jinak než bytí) je zrušena: subjekt je redukován na 'co' bez dimenze 'kdo'. Ricoeurovo **idem** je hypertrofováno, **[ipse](@/glossary/ipseita.md)** atrofováno. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
 
 ## Empirická literatura
 
@@ -138,7 +138,7 @@ Klíčové vymezení vůči klinicky podobným, ale etiologicky odlišným stav�
 - **Depersonalizačně-derealizační porucha (F48.1)**: izolovaná porucha self-experience bez narativní substituce; neobsahuje implantovaný alternativní self-model.
 - **Trauma-induced personality changes (F62.0)**: trvalá změna osobnosti po traumatu má jiný mechanismus (regresní obrana) než aktivně instalovaná identitární substituce.
 
-Diferenciální klíč: přítomnost identifikovatelného **externího agenta**, **časového bodu vstupu**, **lexikální homogenity** s diskursem agenta, **diskontinuita** v autobiografické textuře.
+Diferenciální klíč: přítomnost identifikovatelného externího agenta, časového bodu vstupu, lexikální homogenity s diskursem agenta, diskontinuita v autobiografické textuře.
 
 ## Klinické markery
 

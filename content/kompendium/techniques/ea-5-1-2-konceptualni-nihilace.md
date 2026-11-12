@@ -40,7 +40,7 @@ Po nasazení techniky není subjekt schopen klást otázku *„Co je pravda?“*
 
 Strukturálně připomíná konceptuální nihilace **filozofickou skepsi**, ale liší se v zásadním rysu: filozofická skepse je **operatorem** (nástrojem k revizi přesvědčení v kontrolovaném rámci), kdežto konceptuální nihilace je **stavem**, do něhož je subjekt uveden bez možnosti návratu k operativnímu používání pojmů. Subjekt **přestává mít k dispozici** kategorie, které dříve používal — nikoli proto, že je revidoval, ale proto, že je **vyprázdnily**.
 
-Technika je strukturálním předkladem pro [EA-5.1.3 reflexivní paradoxii](@/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie.md) — bez kategoriální destabilizace by reflexivní paradoxy nebyly produktivní. Společně s [EA-5.1.1 epistemickou kanibalizací](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md) tvoří jádro **epistemické singularity**.
+Technika je strukturálním předkladem pro [EA-5.1.3 reflexivní paradoxii](@/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie.md) — bez kategoriální destabilizace by reflexivní paradoxy nebyly produktivní. Společně s [EA-5.1.1 epistemickou kanibalizací](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md) tvoří jádro **[epistemické singularity](@/glossary/epistemicka-singularita.md)**.
 
 ## Struktura vzorce
 
@@ -54,7 +54,7 @@ Detekční markery zachycené na této stránce odpovídají téže struktuře: 
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** konceptuální nihilace:
+Co prožívá subjekt uvnitř konceptuální nihilace:
 
 | Znak | Popis |
 |------|-------|
@@ -111,7 +111,7 @@ Subjekt si pravidelně píše **operativní definice** klíčových pojmů — v
 
 #### 2. **Distinkce filozofie vs. orientace**
 
-Filozofická analýza patří **do filozofického prostoru** s vyhrazeným časem a strukturou. **Mimo** tento prostor se používají pracovní pojmy bez meta-revize. Subjekt si chrání **dvojkolejnost**: kontemplace zvlášť, jednání zvlášť.
+Filozofická analýza patří **do filozofického prostoru** s vyhrazeným časem a strukturou. Mimo tento prostor se používají pracovní pojmy bez meta-revize. Subjekt si chrání **dvojkolejnost**: kontemplace zvlášť, jednání zvlášť.
 
 #### 3. **Externí pojmový anchor**
 
@@ -166,7 +166,7 @@ Intervence: Podpůrná síť pro bývalé členy s explicitní pojmovou rehabili
 ### Eskaluje do
 
 - **[Anankastický režim](@/glossary/anankasticky-rezim.md)** — funkční závislost na vnějším kategoriálním rámci jako jediné operativní struktuře.
-- **Úplná epistemická singularita** — terminální stav konvergence všech tří 5.1 technik ([Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)).
+- **[Úplná epistemická singularita](@/glossary/epistemicka-singularita.md)** — terminální stav konvergence všech tří 5.1 technik ([Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)).
 
 ### Alternativy / podobné, ale **distinktivní**
 

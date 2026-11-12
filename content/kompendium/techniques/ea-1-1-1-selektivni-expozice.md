@@ -149,7 +149,7 @@ Pravidelně vystavuj **kontradiktornímu** materiálu — i pokud je nesouhlasn�
 
 ### Případ 1 — Anonymizovaný akademický kontext
 
-PhD program v sociálních vědách. **Mentor** dlouhodobě směřuje kandidáty výhradně k literatuře z **jednoho** specifického teoretického proudu. Kandidáti opouštějí program s pocitem, že tento proud **je** stav oboru.
+PhD program v sociálních vědách. **Mentor** dlouhodobě směřuje kandidáty výhradně k literatuře z **jednoho** specifického teoretického proudu. Kandidáti opouštějí program s pocitem, že tento proud je stav oboru.
 
 Detekce: Externí evaluátor **nezávislé komise** zjistil, že žádný z kandidátů za posledních 7 let necitoval autora z **konkurenčního** proudu, navzdory aktivní debatě v mezinárodní literatuře.
 
@@ -169,7 +169,7 @@ Intervence: Externí audit, redesign training programu s explicitním **counter-
 
 Detekce: Self-audit feedu odhalil, že 84 % zobrazených článků pocházelo z 11 zdrojů (z původně diverzního feedu se stal homogenní).
 
-Intervence: Manuální **deduplikace** zdrojů, přihlášení k **antagonistickým** publikacím, periodické vyhledávání **mimo** algoritmický feed.
+Intervence: Manuální **deduplikace** zdrojů, přihlášení k **antagonistickým** publikacím, periodické vyhledávání mimo algoritmický feed.
 
 ## Vztah k jiným technikám
 

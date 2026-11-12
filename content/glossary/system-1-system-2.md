@@ -7,6 +7,7 @@ description = "Rozlišení rychlého, automatického a pomalého, uvážlivého 
 tags = ["glossary", "kompendium", "psychology", "cognitive"]
 
 [extra]
+aliases = ["Systém 2"]
 category = "psychology"
 related_terms = ["heuristika", "kognitivni-bias", "metakognice", "predictive-processing", "konfabulace"]
 keywords = ["System 1", "System 2", "duální procesy", "Daniel Kahneman", "Myšlení rychlé a pomalé", "Stanovich", "intuice"]

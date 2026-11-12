@@ -19,7 +19,7 @@ date_modified = "2026-11-10"
 **Modální logika** je obor logiky, který zkoumá výroky obsahující **modality** – způsoby,
 jimiž je něco pravdivé. Klasická logika pracuje s tím, zda výrok platí, nebo neplatí. Modální
 logika rozlišuje, zda něco platí **nutně**, nebo jen **možná**; a v rozšířeních i to, zda
-to **víme**, zda to **má** platit, nebo zda to platí **vždy** či **někdy**.
+to **víme**, zda to **má** platit, nebo zda to platí vždy či **někdy**.
 
 Základními operátory jsou nutnost (□, „je nutné, že“) a možnost (◇, „je možné, že“), které
 jsou vzájemně propojeny: něco je nutné právě tehdy, když není možné, aby to neplatilo.

@@ -52,7 +52,7 @@ Kdo žije v útržkovitém „teď“, nemá z čeho poznat, že mu něco chybí
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|

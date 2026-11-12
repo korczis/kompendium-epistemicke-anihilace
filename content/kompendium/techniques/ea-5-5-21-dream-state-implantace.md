@@ -52,7 +52,7 @@ Zevnitř je vzorec skrytý tím, že sen se prožívá jako nejvlastnější zdr
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|

@@ -137,7 +137,7 @@ porovnat s tím, co sám od vztahu chtěl.
 
 ## Indikátory úspěchu
 
-Validované normy pro vztahovou sebereflexi ve vztahu k EA **neexistují**; nástroje kvality
+Validované normy pro vztahovou sebereflexi ve vztahu k EA neexistují; nástroje kvality
 vztahu (jako DAS) mají normy pro kvalitu partnerského soužití, ne pro EA. Smysl má sledovat:
 
 - zda člověk pravidelně reflektuje své hlavní vztahy (u programů: podíl účastníků),

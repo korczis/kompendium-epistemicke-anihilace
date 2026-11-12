@@ -52,7 +52,7 @@ Zasažený člověk referuje vyčerpání bez výkonu a pocit bezedné hloubky k
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** hyperreflexivity:
+Co prožívá subjekt uvnitř hyperreflexivity:
 
 - **Pocit bezedné hloubky** každého kognitivního aktu — žádný úsudek se nezdá „dostatečně reflektovaný“
 - **Paralyzující přítomnost pozorovatele** — subjekt cítí, jak ho jeho vlastní mysl sleduje
@@ -80,13 +80,13 @@ Co může vidět vnější pozorovatel:
 
 ### Diferenciální detekce
 
-Hyperreflexivitu je třeba **odlišit** od:
+Hyperreflexivitu je třeba odlišit od:
 
 - **Zdravé metakognice** — která je nástrojová, časově ohraničená, slouží primární kognici a **nezpůsobuje paralýzu**.
 - **Filosofické introspektivní praxe** — která je **dobrovolná**, kontextově ohraničená a subjekta **neuvádí** do dysfunkce v každodenním fungování.
 - **Obsesivně-kompulzivních ruminací** — klinický jev s odlišnou etiologií, ovšem fenomenologicky překrývající; v praxi je hranice neostrá.
 
-Hraniční případ: **akademická socializace** v určitých obdobích a oborech (zejména filozofie mysli, fenomenologie, kritická teorie) může vytvářet **strukturální podmínky** pro hyperreflexivitu, aniž by šlo o intencionální manipulaci.
+Hraniční případ: **akademická socializace** v určitých obdobích a oborech (zejména filozofie mysli, fenomenologie, kritická teorie) může vytvářet strukturální podmínky pro hyperreflexivitu, aniž by šlo o intencionální manipulaci.
 
 ## Rizikové kontexty
 
@@ -109,11 +109,11 @@ Stanovit **explicitní časový limit** pro reflexi v daném kontextu. Po překr
 
 #### 2. Návrat k tělesnému
 
-Hyperreflexivita disociuje od těla. **Tělesná praxe** (chůze, fyzická práce, kontakt s materií) vrací subjekt k primární kognici. Klíčové: **bez** souběžné reflexe nad samotným tělesným prožitkem.
+Hyperreflexivita disociuje od těla. **Tělesná praxe** (chůze, fyzická práce, kontakt s materií) vrací subjekt k primární kognici. Klíčové: bez souběžné reflexe nad samotným tělesným prožitkem.
 
 #### 3. Externalizace rekurze
 
-Zapsat reflexivní řetězec **na papír**. Vizuální reprezentace odhaluje strukturu jako rekurzivní past, což subjektu umožňuje vystoupit z pozice **uvnitř** smyčky.
+Zapsat reflexivní řetězec **na papír**. Vizuální reprezentace odhaluje strukturu jako rekurzivní past, což subjektu umožňuje vystoupit z pozice uvnitř smyčky.
 
 #### 4. Paradoxní intervence
 

@@ -127,7 +127,7 @@ Pravidelné kladení otázky *„stalo se to, ano nebo ne?“* — bez tolerance
 | Strategie | Implementace |
 |-----------|--------------|
 | **Forenzní protokoly** | Striktní oddělení **rekapitulace** a **imaginativní rekonstrukce** ve výslechu |
-| **Klinické rámce** | Imaginativní techniky **vždy** uzavřeny návratovým mostem k realitnímu testování |
+| **Klinické rámce** | Imaginativní techniky vždy uzavřeny návratovým mostem k realitnímu testování |
 | **Mediální gramotnost** | Schopnost rozpoznat **[deepfake](@/glossary/deepfake.md)** a syntetický obsah jako veřejná dovednost |
 | **Edukace o modálních pastích** | Veřejná osvěta o rozdílu mezi *kreativní imaginací* a *modální dezorientací* |
 

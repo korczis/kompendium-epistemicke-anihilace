@@ -55,7 +55,7 @@ nesou osobní odpovědnost, do něj mají sklon investovat dál, aby je ospraved
 (1985) obdobně dokládají vliv utopených nákladů (*sunk cost*).
 
 Ve fázi **ideologizace** (roky 1–2) byl neúspěch vykládán jako nedostatek víry a skeptici byli
-označeni za „toxické“. Ve fázi **izolace** (roky 2–3) přišla ztráta přátel, konflikty s partnerem
+označeni za „toxické“. Ve fázi izolace (roky 2–3) přišla ztráta přátel, konflikty s partnerem
 kvůli financím a skrývání výpisů. Fáze **detekce a odchodu** (rok 3) začala sečtením skutečných
 příjmů a výdajů s pomocí dluhové poradny. Bhattacharya a Mehta (2000) analyzovali socializaci
 v organizacích síťového prodeje a ptali se, nakolik se blíží kultovnímu chování; kompozit

@@ -48,7 +48,7 @@ Sekundárně může být zvažována jako adjunktivní intervence v rámci kompl
 
 ## Kontraindikace
 
-Aplikace techniky je **kontraindikována** v následujících situacích:
+Aplikace techniky je kontraindikována v následujících situacích:
 
 Akutní paranoidní psychóza, akutní bezpečnostní riziko ze strany terapeuta nebo systému, kulturní kontext kde nedůvěra je adaptivní.
 

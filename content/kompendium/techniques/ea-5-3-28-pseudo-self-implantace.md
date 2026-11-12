@@ -48,7 +48,7 @@ Zvenčí doložitelnými markery jsou výpovědi dlouholetých svědků, že jde
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|
@@ -117,7 +117,7 @@ Co může vidět vnější pozorovatel:
 
 ## Teoretické zázemí
 
-Winnicottův **false self** (*The Maturational Processes and the Facilitating Environment*, 1965) — pseudo-self vytvořený jako reakce na narušené early environment — je manipulátorem instalován i v dospělosti. Bowlbyho **internal working model** je přepsán. Ricoeurovo **ipse** je nahrazeno cizím slibem (cizí promise vepsaná jako vlastní). Husserlova **passive genesis** ego je obejita aktivním implantátem. Levinasova **substituce** je obrácena: namísto etické substituce za druhého je do subjektu vložena fiktivní substituce. Sartrova **mauvaise foi** je instalována jako pre-reflektivní stav, což činí přístup k autenticitě dvojitě obtížný. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
+Winnicottův **false self** (*The Maturational Processes and the Facilitating Environment*, 1965) — pseudo-self vytvořený jako reakce na narušené early environment — je manipulátorem instalován i v dospělosti. Bowlbyho **internal working model** je přepsán. Ricoeurovo **[ipse](@/glossary/ipseita.md)** je nahrazeno cizím slibem (cizí promise vepsaná jako vlastní). Husserlova **passive genesis** ego je obejita aktivním implantátem. Levinasova **substituce** je obrácena: namísto etické substituce za druhého je do subjektu vložena fiktivní substituce. Sartrova **mauvaise foi** je instalována jako pre-reflektivní stav, což činí přístup k autenticitě dvojitě obtížný. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
 
 ## Empirická literatura
 
@@ -138,7 +138,7 @@ Klíčové vymezení vůči klinicky podobným, ale etiologicky odlišným stav�
 - **Depersonalizačně-derealizační porucha (F48.1)**: izolovaná porucha self-experience bez narativní substituce; neobsahuje implantovaný alternativní self-model.
 - **Trauma-induced personality changes (F62.0)**: trvalá změna osobnosti po traumatu má jiný mechanismus (regresní obrana) než aktivně instalovaná identitární substituce.
 
-Diferenciální klíč: přítomnost identifikovatelného **externího agenta**, **časového bodu vstupu**, **lexikální homogenity** s diskursem agenta, **diskontinuita** v autobiografické textuře.
+Diferenciální klíč: přítomnost identifikovatelného externího agenta, časového bodu vstupu, lexikální homogenity s diskursem agenta, diskontinuita v autobiografické textuře.
 
 ## Klinické markery
 

@@ -54,13 +54,13 @@ Od ruminace se reflektivní zápis odliší tím, zda se text vyvíjí: ruminati
 
 Všichni účastníci po celou dobu programu; pokračující praxe pro alumni.
 
-Edukativní cíl není **změna chování** v behaviorálním smyslu, ale **kultivace kompetencí** umožňujících autonomní navigaci v epistemicky náročných kontextech. Cílová populace je primárně dospělí profesionálové s baseline metakognitivní stabilitou — technika není určena pro klinické intervence u aktivně dekompenzovaných jedinců.
+Edukativní cíl není změna chování v behaviorálním smyslu, ale kultivace kompetencí umožňujících autonomní navigaci v epistemicky náročných kontextech. Cílová populace je primárně dospělí profesionálové s baseline metakognitivní stabilitou — technika není určena pro klinické intervence u aktivně dekompenzovaných jedinců.
 
 ## Předpoklady
 
 Funkční písemná expressivita; ochota sdílet selektivní výňatky se supervizorem; soukromý úložný systém.
 
-Bez splnění předpokladů technika produkuje suboptimální výsledky a může generovat iatrogenní efekty. Předpoklady nejsou byrokratické formality, ale **strukturální podmínky** efektivity intervence.
+Bez splnění předpokladů technika produkuje suboptimální výsledky a může generovat iatrogenní efekty. Předpoklady nejsou byrokratické formality, ale strukturální podmínky efektivity intervence.
 
 ## Implementační protokol
 
@@ -71,7 +71,7 @@ Konkrétní implementace vyžaduje:
 3. **Documentation infrastructure** — systém zaznamenávání průběhu, výsledků, incidentů.
 4. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
 
-Implementace je **iterativní** — každý cyklus generuje data informující úpravy v dalších cyklech.
+Implementace je iterativní — každý cyklus generuje data informující úpravy v dalších cyklech.
 
 ## Hodnotící kritéria
 
@@ -82,7 +82,7 @@ Implementace je **iterativní** — každý cyklus generuje data informující �
 | Pattern emergence | Identifikace longitudinálních vzorců |
 | Integration | Konkrétní změny v praxi navázané na záznamy
 
-Evaluace integruje **kvantitativní** (validované instrumenty) i **kvalitativní** (reflektivní eseje, ethnographic observation) datové zdroje. Žádná samostatná metrika není dostatečná — multidimenzionální evaluace je nezbytná.
+Evaluace integruje kvantitativní (validované instrumenty) i kvalitativní (reflektivní eseje, ethnographic observation) datové zdroje. Žádná samostatná metrika není dostatečná — multidimenzionální evaluace je nezbytná.
 
 ## Rizika a kontraindikace
 
@@ -128,7 +128,7 @@ Technika je integrální součástí subkategorie 3.1 a je navržena pro synergi
 
 ### Vztah k EA-1 a EA-2
 
-Tato edukativní technika **operacionalizuje** poznatky z taxonomie:
+Tato edukativní technika operacionalizuje poznatky z taxonomie:
 
 - **[EA-1 Techniky epistemické anihilace](@/kompendium/03-zakladni-kategorie/kapitola-1.md)** — obsahový materiál pro výuku.
 - **[EA-2 Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)** — komplexní real-world cases pro analýzu.

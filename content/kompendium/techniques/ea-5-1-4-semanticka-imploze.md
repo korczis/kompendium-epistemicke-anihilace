@@ -38,7 +38,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 Klíčový distinktivní znak — sémantická imploze není pouhá nejasnost ani polysémie. Polysémní termín má **strukturovaný** rozsah významů, mezi nimiž subjekt umí kontextuálně rozlišovat. Sémanticky imploudovaný termín naopak **ztrácí strukturu**: subjekt jej používá s pocitem rozumění, ale při jakémkoli pokusu o explikaci rozkládá pojem do **kruhových** nebo **protichůdných** komponent.
 
-Technika exploituje skutečnost, že v běžném používání jazyka **nikdy neverifikujeme** sémantickou stabilitu klíčových pojmů — důvěřujeme, že „svoboda“, „pravda“, „spravedlnost“, „subjekt“, „vědomí“ odkazují k něčemu konzistentnímu. Sémantická imploze tuto důvěru **strukturálně** ničí.
+Technika exploituje skutečnost, že v běžném používání jazyka **nikdy neverifikujeme** sémantickou stabilitu klíčových pojmů — důvěřujeme, že „svoboda“, „pravda“, „spravedlnost“, „subjekt“, „vědomí“ odkazují k něčemu konzistentnímu. Sémantická imploze tuto důvěru strukturálně ničí.
 
 Sémantická imploze je [ultramární technikou](@/kompendium/05-ultramari-techniky/_index.md) kategorie [epistemická singularita](@/glossary/epistemicka-anihilace.md), kde **prostředek poznání** (jazyk) je sám předmětem destrukce.
 
@@ -54,13 +54,13 @@ Detekční markery zachycené na této stránce odpovídají téže struktuře: 
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** sémantické imploze:
+Co prožívá subjekt uvnitř sémantické imploze:
 
 - **Klouzavost pojmů** — pocit, že klíčové termíny „neudrží“ význam, že „se mi rozpadají v rukou“
 - **Pseudo-rozumění** — dojem, že rozumí, který se rozpadne při pokusu o explikaci
 - **Lexikální únava** — vyhýbání se klíčovým termínům, používání perifrází („ta věc, co jsme o ní mluvili“)
 - **Kruhové definice** — definuje pojem skrze jiný stejně imploudovaný pojem („svoboda je autenticita“, „autenticita je svoboda“)
-- **Paradoxní afirmace** — pocit, že rozporné výroky o tomtéž pojmu mohou být **současně** pravdivé
+- **Paradoxní afirmace** — pocit, že rozporné výroky o tomtéž pojmu mohou být současně pravdivé
 - **Nostalgie po významu** — vzpomínka, že „kdysi“ tato slova něco znamenala
 - **Mlhavá euforie** — v pokročilejších stadiích pseudo-mystický pocit, že „překročil“ obyčejný jazyk
 
@@ -80,10 +80,10 @@ Co prožívá subjekt **uvnitř** sémantické imploze:
 
 Sémantická imploze je odlišitelná od:
 
-- **Legitimní filosofická revize pojmů** — explicitní, lokalizovaná, transparentní o stávající definici a nové; **udržuje** rozlišení mezi „termín v běžném smyslu“ a „termín v navrhovaném smyslu“. Sémantická imploze toto rozlišení likviduje.
+- **Legitimní filosofická revize pojmů** — explicitní, lokalizovaná, transparentní o stávající definici a nové; udržuje rozlišení mezi „termín v běžném smyslu“ a „termín v navrhovaném smyslu“. Sémantická imploze toto rozlišení likviduje.
 - **Polysémie** — strukturovaná, kontextově řízená; subjekt **umí** rozlišovat. Imploudovaný termín naopak ztrácí strukturu.
 - **[EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)** — zatemňuje význam **specializovaného** termínu pro účely vyloučení; nedestruktiuje sémantické pole subjektu.
-- **Genuinně obtížné pojmy** (vědomí, čas, identita) — mají **diskurzivně mapovanou** problematičnost; subjekt umí pojmenovat, **co** je obtížné. Imploudovaný subjekt naopak operuje s pocitem zdánlivého rozumění.
+- **Genuinně obtížné pojmy** (vědomí, čas, identita) — mají **diskurzivně mapovanou** problematičnost; subjekt umí pojmenovat, co je obtížné. Imploudovaný subjekt naopak operuje s pocitem zdánlivého rozumění.
 
 ## Rizikové kontexty
 
@@ -159,7 +159,7 @@ Klient po 18 měsících intenzivního programu nebyl schopen popsat, co znamen�
 
 ### Distinktivní vůči
 
-- **Filosofická skepse vůči jazyku** (Wittgenstein, Derrida) — explicitní, reflexivní, **udržuje** schopnost rozlišovat. Sémantická imploze je naopak **strukturální deficit**.
+- **Filosofická skepse vůči jazyku** (Wittgenstein, Derrida) — explicitní, reflexivní, udržuje schopnost rozlišovat. Sémantická imploze je naopak strukturální deficit.
 
 ## Související
 

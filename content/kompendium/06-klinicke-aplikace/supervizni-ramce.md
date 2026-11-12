@@ -24,7 +24,7 @@ Klinická práce s manifestacemi [epistemické anihilace](@/glossary/epistemicka
 Supervize klinické práce s EA-fenomény se distinktně liší od standardní psychoterapeutické supervize ze tří důvodů:
 
 1. **Sekundární expozice** — klinik je systematicky vystaven materiálu, který reprezentuje destrukční techniky, jejichž porozumění vyžaduje **simulační internalizaci**. To vytváří skutečné riziko sekundární epistemické destabilizace.
-2. **Hraniční etické pole** — terapeutická práce s [gaslightingovými](@/glossary/gaslighting.md) traumaty často vyžaduje rozhodování o tom, **kdy** a **jak** delegitimizovat narativy klientových dosavadních autorit (manipulátora, instituce, akademického prostředí).
+2. **Hraniční etické pole** — terapeutická práce s [gaslightingovými](@/glossary/gaslighting.md) traumaty často vyžaduje rozhodování o tom, kdy a jak delegitimizovat narativy klientových dosavadních autorit (manipulátora, instituce, akademického prostředí).
 3. **[Dual-use poznání](@/glossary/dual-use-poznani.md)** — kompetence v rozpoznávání EA technik je strukturálně tatáž jako kompetence v jejich aplikaci. Supervize musí explicitně monitorovat **etickou orientaci** kompetence, nikoli pouze její technickou úroveň.
 
 První z těchto důvodů má v literatuře o práci s traumatem pevné místo. McCann a Pearlman (1990) zavedli pojem zástupné traumatizace (vicarious traumatization) pro změny v prožívání a přesvědčeních terapeuta, které vznikají opakovaným nasloucháním traumatickému materiálu. U epistemické anihilace má toto riziko zvláštní podobu: nezasahuje jen pocit bezpečí, ale i důvěru klinika ve vlastní úsudek.
@@ -51,7 +51,7 @@ Supervizor v doméně klinické EA musí splňovat agregovaný kompetenční pro
 
 ### Kontraindikace pro převzetí supervize
 
-Supervizor **nesmí** převzít supervizi případu, pokud:
+Supervizor nesmí převzít supervizi případu, pokud:
 
 - Sám nedávno prošel obdobným EA-traumatem a nemá je zpracované ve vlastní terapii
 - Má dvojí roli (osobní vztah, akademická závislost, institucionální nadřazenost) vůči supervidovanému klinikovi nebo klientovi

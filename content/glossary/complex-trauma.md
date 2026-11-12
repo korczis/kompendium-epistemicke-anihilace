@@ -36,7 +36,7 @@ pocit ohrožení) a navíc tři **poruchy sebeorganizace**:
 
 - trvalou a pronikavou **dysregulaci afektu** (špatná reakce na stres, disociativní
   epizody, sebevražedné myšlenky);
-- trvalé a pronikavé **negativní sebepojetí** (bezcennost, stud, vina, porážka);
+- trvalé a pronikavé **[negativní sebepojetí](@/glossary/c-ptsd.md)** (bezcennost, stud, vina, porážka);
 - trvalé a pronikavé **obtíže ve vztazích** (vyhýbání, nedůvěra, nízké zapojení).
 
 ## Původ a kontext pojmu

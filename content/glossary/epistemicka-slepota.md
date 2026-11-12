@@ -21,8 +21,8 @@ rozpoznat**, že jeho poznávání bylo poškozeno. Nejde o nevědomost v běžn
 nikoli informace, ale schopnost použít je k sebe-posouzení. Ten, kdo by měl škodu zjistit,
 je zároveň tím, koho škoda zasáhla.
 
-Slepota může být **individuální** – člověk se cítí v pořádku, svůj úsudek považuje za
-jasnější než kdykoli předtím a varování okolí vykládá jako nepochopení – nebo **kolektivní**,
+Slepota může být individuální – člověk se cítí v pořádku, svůj úsudek považuje za
+jasnější než kdykoli předtím a varování okolí vykládá jako nepochopení – nebo kolektivní,
 kdy celé společenství přestane vidět, co je zvenčí zřejmé.
 
 Pro Kompendium má pojem zásadní význam ze dvou důvodů: komplikuje **včasnou detekci**

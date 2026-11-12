@@ -114,7 +114,7 @@ V těchto případech je **právní cesta** primární a restorativní proces je
 
 **Trvání fází kniha neuvádí**: dřívější verze tu měla u každé fáze rozsah týdnů nebo měsíců bez zdroje. Délka závisí na velikosti instituce, na souběžných právních řízeních a na tom, zda instituce spolupracuje; pevný harmonogram by navíc sloužil jako záminka intervenci uzavřít, jakmile kalendář uplyne.
 
-Kolektivní intervence **musí** produkovat formalizovanou dokumentaci:
+Kolektivní intervence musí produkovat formalizovanou dokumentaci:
 
 - **Kompletní strukturální audit** — písemný report s anonymizací
 - **Klinická dokumentace** všech individuálních případů (pod ochranou klinického privilegia)
@@ -146,7 +146,7 @@ Disciplinární mechanismy musí mít:
 
 Kolektivní intervence často operuje **na hranici klinického, etického a právního** pole. Kritické aspekty koordinace:
 
-- **Klinické privilegium** — terapeutická dokumentace je chráněna; klinik **nesmí** být primárním zdrojem důkazů pro disciplinární řízení proti aktérovi
+- **Klinické privilegium** — terapeutická dokumentace je chráněna; klinik nesmí být primárním zdrojem důkazů pro disciplinární řízení proti aktérovi
 - **Whistleblower ochrana** — formální právní ochrana před retaliací (akademickou, profesní, ekonomickou)
 - **Defamation rizika** — institucionální procesy musí balancovat **transparenci** s **právy obviněných**
 - **Profesní reputace** — disciplinární proces nesmí být zneužit k poškození legitimní akademické nebo profesní soutěže

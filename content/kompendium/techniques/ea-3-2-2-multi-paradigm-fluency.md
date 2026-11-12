@@ -52,13 +52,13 @@ Nepříznivý průběh se pozná podle jednotvárnosti výkladů napříč nesou
 
 Certifikovaní supervizoři; senior klinici v interdisciplinárních týmech.
 
-Edukativní cíl není **změna chování** v behaviorálním smyslu, ale **kultivace kompetencí** umožňujících autonomní navigaci v epistemicky náročných kontextech. Cílová populace je primárně dospělí profesionálové s baseline metakognitivní stabilitou — technika není určena pro klinické intervence u aktivně dekompenzovaných jedinců.
+Edukativní cíl není změna chování v behaviorálním smyslu, ale kultivace kompetencí umožňujících autonomní navigaci v epistemicky náročných kontextech. Cílová populace je primárně dospělí profesionálové s baseline metakognitivní stabilitou — technika není určena pro klinické intervence u aktivně dekompenzovaných jedinců.
 
 ## Předpoklady
 
 Vzdělání nebo důvěrná obeznámenost s několika paradigmatickými rámci, z nichž ani jeden není čtenáři vlastní natolik, aby ostatní posuzoval jen jeho slovníkem; aktivní čtenářská praxe v jejich aktuální literatuře.
 
-Bez splnění předpokladů technika produkuje suboptimální výsledky a může generovat iatrogenní efekty. Předpoklady nejsou byrokratické formality, ale **strukturální podmínky** efektivity intervence.
+Bez splnění předpokladů technika produkuje suboptimální výsledky a může generovat iatrogenní efekty. Předpoklady nejsou byrokratické formality, ale strukturální podmínky efektivity intervence.
 
 ## Implementační protokol
 
@@ -69,7 +69,7 @@ Konkrétní implementace vyžaduje:
 3. **Documentation infrastructure** — systém zaznamenávání průběhu, výsledků, incidentů.
 4. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
 
-Implementace je **iterativní** — každý cyklus generuje data informující úpravy v dalších cyklech.
+Implementace je iterativní — každý cyklus generuje data informující úpravy v dalších cyklech.
 Posouzení se tu nedá provést zevnitř vlastního rámce: zda je nabídnuté druhé čtení věrné, ví
 jedině ten, kdo v onom druhém rámci skutečně pracuje. Hodnocení fluence proto patří kolegům z
 nesourodých oborů, ne nadřízenému z téže školy — jinak se ověřuje právě to, co má být
@@ -84,7 +84,7 @@ zpochybněno.
 | Reduction avoidance | Žádná systematická redukce jednoho paradigmatu na druhý |
 | Peer rating | >=4/5 od cross-paradigmatic peers
 
-Evaluace integruje **kvantitativní** (validované instrumenty) i **kvalitativní** (reflektivní eseje, ethnographic observation) datové zdroje. Žádná samostatná metrika není dostatečná — multidimenzionální evaluace je nezbytná.
+Evaluace integruje kvantitativní (validované instrumenty) i kvalitativní (reflektivní eseje, ethnographic observation) datové zdroje. Žádná samostatná metrika není dostatečná — multidimenzionální evaluace je nezbytná.
 
 ## Rizika a kontraindikace
 
@@ -156,7 +156,7 @@ Technika je integrální součástí subkategorie 3.2 a je navržena pro synergi
 
 ### Vztah k EA-1 a EA-2
 
-Tato edukativní technika **operacionalizuje** poznatky z taxonomie:
+Tato edukativní technika operacionalizuje poznatky z taxonomie:
 
 - **[EA-1 Techniky epistemické anihilace](@/kompendium/03-zakladni-kategorie/kapitola-1.md)** — obsahový materiál pro výuku.
 - **[EA-2 Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)** — komplexní real-world cases pro analýzu.

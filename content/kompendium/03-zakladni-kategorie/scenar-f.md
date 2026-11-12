@@ -34,7 +34,7 @@ Scénář kolektivní epistemické [delegitimizace](@/glossary/delegitimizace.md
 - **Mechanismy kontroly hranic** — kritéria pro inkluzi/exkluzi členů
 - **Historické kotvení** — sdílená narativní kontinuita disciplinárního vývoje
 
-Kolektivní delegitimizace cílí na **strukturu této entity**, nikoli na obsah jejích konkrétních přesvědčení. Útok je proto fundamentálně **strukturální**, nikoli obsahový.
+Kolektivní delegitimizace cílí na **strukturu této entity**, nikoli na obsah jejích konkrétních přesvědčení. Útok je proto fundamentálně strukturální, nikoli obsahový.
 
 ### Proč funguje strukturální útok
 
@@ -115,7 +115,7 @@ Typickým výsledkem je **fragmentace** původně koherentní komunity na více 
 - Systematické dotazování o organizační struktuře
 - Dotazníková aktivita zacílená na komunikační kanály
 
-**Fenomenologie subjektů**: V této fázi cílová komunita typicky **nezaznamenává žádné signifikantní změny**. Příležitostně může být zvýšená pozornost vnímána jako rostoucí zájem o práci komunity — paradoxně tedy jako **pozitivní** signál.
+**Fenomenologie subjektů**: V této fázi cílová komunita typicky **nezaznamenává žádné signifikantní změny**. Příležitostně může být zvýšená pozornost vnímána jako rostoucí zájem o práci komunity — paradoxně tedy jako pozitivní signál.
 
 ### Fáze 2: Narušení hranic a legitimizace externích agentů
 
@@ -284,7 +284,7 @@ Klíčový znak EA-3.2.F: **destruktivnost bez konstruktivní alternativy** v ra
 
 ### Reverzibilita
 
-Reverzibilita EA-3.2.F je obecně **nízká**. Po dosažení Fáze 4 nebo 5 jsou:
+Reverzibilita EA-3.2.F je obecně nízká. Po dosažení Fáze 4 nebo 5 jsou:
 
 - Etablované autority demoralizovány nebo institucionálně marginalizovány
 - Generační výměna posunula expertízu mimo tradiční kanály

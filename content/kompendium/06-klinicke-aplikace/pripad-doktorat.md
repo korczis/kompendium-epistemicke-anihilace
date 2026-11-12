@@ -51,7 +51,7 @@ Prof. R. systematicky zatěžoval M. excesivním množstvím doporučené litera
 **Klinický marker**: V supervizní hodině 3 byl M. požádán, aby kvantifikoval, kolik z doporučené literatury **skutečně využíval pro disertaci**. Odhad: ~12 %. Zbytek tvořil **kognitivní zátěž bez přínosu**.
 
 ### EA-1.2.1 Falešné dilema
-Klíčové momenty disertačního vývoje byly prof. R. systematicky strukturovány jako **binární volby** (typologická univerzalita vs. úzká doménová studie; lineární vs. neuronová architektura; kvantitativní vs. kvalitativní), kde každá volba byla **nepravdivě** prezentovaná jako vyčerpávající. M. opakovaně volil mezi dvěma alternativami **bez** rozpoznání třetí, čtvrté, n-té možnosti. [Detailní analýza techniky](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md).
+Klíčové momenty disertačního vývoje byly prof. R. systematicky strukturovány jako **binární volby** (typologická univerzalita vs. úzká doménová studie; lineární vs. neuronová architektura; kvantitativní vs. kvalitativní), kde každá volba byla **nepravdivě** prezentovaná jako vyčerpávající. M. opakovaně volil mezi dvěma alternativami bez rozpoznání třetí, čtvrté, n-té možnosti. [Detailní analýza techniky](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md).
 
 ### EA-1.2.3 Iluzorní komplexita
 Disertační téma bylo v průběhu času **uměle komplexifikováno** — každá změna vyžadovala další subkomponentu, a každá subkomponenta další integraci. Po 3 letech se disertace strukturálně nestala „dokončitelnou“ — vždy existoval další **nezbytný** rozšiřující prvek. [Detailní analýza techniky](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md).
@@ -82,12 +82,12 @@ Při iniciální konzultaci M. manifestoval:
 - **Major depresivní epizodu** s výraznou anhedonií, hypersomnií a kognitivním zpomalením
 - **Suicidální ideaci** s konkretizovaným plánem (nutnost krizové intervence)
 - **Akademickou paralýzu** — neschopnost dokončit disertaci 26 měsíců po plánovaném termínu
-- **Autorskou desorientaci** — neschopnost identifikovat **vlastní** intelektuální příspěvek
+- **Autorskou desorientaci** — neschopnost identifikovat vlastní intelektuální příspěvek
 - **Somatizace** — chronické bolesti hlavy, gastrointestinální dyskomfort
 - **Sociální stažení** — postupná ztráta partnerského vztahu, kontaktu s rodinou
 - **Profesní strach** — přesvědčení, že **nemá kompetence** mimo kontrolu prof. R.
 
-Centrální klinický fenomén distinktní od [případu K.](@/kompendium/06-klinicke-aplikace/pripad-akademie.md): M. **netušil, že byl vystaven manipulativním technikám**, ALE **současně** sám sebe identifikoval jako **podvodníka** („imposter“) — internalizoval, že **legitimní akademická kariéra** vyžaduje strukturálně tytéž techniky, které experiantoval.
+Centrální klinický fenomén distinktní od [případu K.](@/kompendium/06-klinicke-aplikace/pripad-akademie.md): M. **netušil, že byl vystaven manipulativním technikám**, ALE současně sám sebe identifikoval jako **podvodníka** („imposter“) — internalizoval, že **legitimní akademická kariéra** vyžaduje strukturálně tytéž techniky, které experiantoval.
 
 ## Krizová intervence
 
@@ -129,9 +129,9 @@ Po klinické stabilizaci byla aktivována **právní konzultace** ohledně autor
 
 - ~ 22 % textu disertace bylo strukturálně převzato z prof. R. bez specifické atribuce
 - Tento status by představoval **vážný problém** v případě formální obhajoby
-- M. nemohl dále využít ani **vlastní** části, dokud nebude provedena formální separace
+- M. nemohl dále využít ani vlastní části, dokud nebude provedena formální separace
 
-Řešení: M. v koordinaci s právním poradcem **stáhl** disertaci formálním procesem, písemně dokumentoval autorské nejasnosti a ukončil studium **bez** veřejného obvinění prof. R. Klinický rámec respektoval **klientovu prioritu** stability nad veřejnou justicí.
+Řešení: M. v koordinaci s právním poradcem **stáhl** disertaci formálním procesem, písemně dokumentoval autorské nejasnosti a ukončil studium bez veřejného obvinění prof. R. Klinický rámec respektoval **klientovu prioritu** stability nad veřejnou justicí.
 
 ## Výsledky
 

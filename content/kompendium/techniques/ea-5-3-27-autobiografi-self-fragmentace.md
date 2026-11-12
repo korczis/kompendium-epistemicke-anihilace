@@ -38,7 +38,7 @@ skupiny nebo autority rozdělena na „pravé“ a „nepravé“, „autentick�
 „před probuzením“ a „po něm“ – a mezi těmito úseky se ztratí spojnice. Člověk si
 vzpomínky zachovává, ale nedokáže je spojit do jednoho „já, které to všechno prožilo“.
 
-Fragmentace se liší od příbuzných vzorců subkategorie tím, **co** se narušuje. U
+Fragmentace se liší od příbuzných vzorců subkategorie tím, co se narušuje. U
 [autobiografické dekonstrukce](@/kompendium/techniques/ea-5-3-2-autobiograficka-dekonstrukce.md)
 se zpochybňuje pravdivost vzpomínek, u [autobiografické amnestizace](@/kompendium/techniques/ea-5-3-19-autobiograficka-amnestizace.md)
 se úseky stávají nedostupnými. Zde vzpomínky zůstávají přístupné i pravdivé, ale

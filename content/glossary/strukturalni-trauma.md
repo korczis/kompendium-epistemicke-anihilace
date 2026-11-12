@@ -17,7 +17,7 @@ date_modified = "2026-11-10"
 ## Definice
 
 **Strukturální trauma** je v Kompendiu označení pro zranění, které **nepoškozuje jen obsah
-zkušenosti** (konkrétní vzpomínky, obrazy, strachy), ale **struktury**, jimiž se zkušenost
+zkušenosti** (konkrétní vzpomínky, obrazy, strachy), ale struktury, jimiž se zkušenost
 organizuje: schopnost důvěřovat, přiřazovat význam, mluvit o minulosti, spoléhat se na
 instituce a předávat poznání další generaci. Zatímco klasické trauma má často podobu
 „rány“, kterou lze lokalizovat v čase a v paměti, strukturální trauma má podobu **změněného
@@ -25,7 +25,7 @@ tvaru** – světa, ve kterém některé věci přestaly být možné.
 
 Pojem má dvě roviny:
 
-- **individuální** – trvalá změna kognitivních a vztahových struktur jednotlivce (např.
+- individuální – trvalá změna kognitivních a vztahových struktur jednotlivce (např.
   generalizovaná nedůvěra, zúžení významů, rozpad schopnosti vyprávět);
 - **kolektivní a mezigenerační** – poškození rodinné komunikace, komunitních vazeb
   a institucí, které se přenáší i na ty, kdo původní události nezažili.

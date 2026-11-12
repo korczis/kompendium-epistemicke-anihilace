@@ -54,7 +54,7 @@ Ztráta citových odstínů se zevnitř neprožívá jako ztráta, protože to, 
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|

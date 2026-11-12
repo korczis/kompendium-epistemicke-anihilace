@@ -43,7 +43,7 @@ a přechod z rozložení klinické populace do rozložení populace běžné.
 Vždy. Každá kvantitativní studie má hlásit velikost účinku pro hlavní výsledky, ať je
 statisticky významný, nebo ne. Zvlášť důležité je to u:
 
-- **intervencí** pro lidi po zkušenosti s manipulací (zlepšení symptomů, důvěry ve vlastní
+- intervencí pro lidi po zkušenosti s manipulací (zlepšení symptomů, důvěry ve vlastní
   úsudek, sociálního fungování);
 - **programů prevence** (viz [Randomizované studie](@/kompendium/research-methodology/RCT-EA-considerations.md));
 - **souvislostí** mezi expozicí a následky, které se pak citují v klinických nebo soudních

@@ -52,7 +52,7 @@ Zasažený člověk referuje vděčnost rostoucí s mírou pohlcení a paniku p�
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** epistemické kanibalizace:
+Co prožívá subjekt uvnitř epistemické kanibalizace:
 
 | Znak | Popis |
 |------|-------|
@@ -114,7 +114,7 @@ I rané, nehotové vhledy by měly být zveřejněny v **kontrolovatelných** ka
 
 #### 3. **Triangulace mimo vztah**
 
-Subjekt sdílí klíčové ideje **také** s nezávislými třetími stranami **mimo** kanibalizační vztah. Tyto třetí strany slouží jako **autorští svědci**.
+Subjekt sdílí klíčové ideje **také** s nezávislými třetími stranami mimo kanibalizační vztah. Tyto třetí strany slouží jako **autorští svědci**.
 
 #### 4. **Dočasná epistemická separace**
 
@@ -163,13 +163,13 @@ Intervence: Veřejné svědectví, deklarace komunity jako kanibalizační struk
 
 ### Eskaluje do
 
-- **Úplná epistemická singularita** — terminální stav, kdy je subjekt epistemicky neoddělitelný od manipulátora ([Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)).
+- **[Úplná epistemická singularita](@/glossary/epistemicka-singularita.md)** — terminální stav, kdy je subjekt epistemicky neoddělitelný od manipulátora ([Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)).
 - **Generační kanibalizace** — kanibalizovaný subjekt sám začne kanibalizovat dalších, replikuje vzorec ([Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)).
 
 ### Alternativy / podobné, ale **distinktivní**
 
 - **Legitimní mentorská kontribuce** — mentor přidává kontextualizaci, metodologickou rigorozitu a explicitně připisuje subjektovi autorství raných idejí.
-- **Plagiát v úzkém slova smyslu** — krádež bez dlouhodobého vztahu; kanibalizace operuje **uvnitř** vztahu a **mění** subjektovu autorskou paměť.
+- **Plagiát v úzkém slova smyslu** — krádež bez dlouhodobého vztahu; kanibalizace operuje uvnitř vztahu a **mění** subjektovu autorskou paměť.
 
 ## Literatura
 

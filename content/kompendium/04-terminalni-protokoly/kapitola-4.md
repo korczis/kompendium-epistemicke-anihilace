@@ -94,7 +94,7 @@ Strukturální analýza extrémních výcvikových protokolů — jak legitimní
 
 **Co je v této fázi pozorovatelné.** Práce s vyprávěním o zkušenosti, kognitivní zpracování stresových reakcí, somatická regulace a obnova sociálních vazeb narušených ve stupni 2. Rozpoznávacím znakem je autorství výsledného vyprávění, a nikoli rozsah práce, která mu byla věnována.
 
-**Klíčový diferenciační moment**: V legitimním protokolu je integrace **autentická** — subjekt si zachovává epistemickou autonomii a vytváří **vlastní** narrativu zkušenosti. V destruktivním protokolu je integrace **direkcionalizovaná** — subjekt je veden k osvojení **specifické pre-formulované narrativy**, která slouží institucionálním cílům na úkor jeho autonomie.
+**Klíčový diferenciační moment**: V legitimním protokolu je integrace **autentická** — subjekt si zachovává epistemickou autonomii a vytváří vlastní narrativu zkušenosti. V destruktivním protokolu je integrace **direkcionalizovaná** — subjekt je veden k osvojení **specifické pre-formulované narrativy**, která slouží institucionálním cílům na úkor jeho autonomie.
 
 **Supervize.** Klinický nebo psychologický supervizor; pravidelná individuální sezení; monitorování koherence narrativní integrace.
 

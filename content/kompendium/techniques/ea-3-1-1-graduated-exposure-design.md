@@ -52,13 +52,13 @@ Rozpoznat lze i opačný případ. Lindahl a kol. (2017) zdokumentovali, že int
 
 Studenti magisterských a doktorských programů v klinické psychologii, sociologii poznání a etice; supervizoři začínající kurikulární implementaci.
 
-Edukativní cíl není **změna chování** v behaviorálním smyslu, ale **kultivace kompetencí** umožňujících autonomní navigaci v epistemicky náročných kontextech. Cílová populace je primárně dospělí profesionálové s baseline metakognitivní stabilitou — technika není určena pro klinické intervence u aktivně dekompenzovaných jedinců.
+Edukativní cíl není změna chování v behaviorálním smyslu, ale kultivace kompetencí umožňujících autonomní navigaci v epistemicky náročných kontextech. Cílová populace je primárně dospělí profesionálové s baseline metakognitivní stabilitou — technika není určena pro klinické intervence u aktivně dekompenzovaných jedinců.
 
 ## Předpoklady
 
 Dokončený předmět z metodologie kvalitativního výzkumu; baseline metakognitivní stabilita ověřená MAAS; podepsaný [informovaný souhlas](@/glossary/informed-consent.md) L1.
 
-Bez splnění předpokladů technika produkuje suboptimální výsledky a může generovat iatrogenní efekty. Předpoklady nejsou byrokratické formality, ale **strukturální podmínky** efektivity intervence.
+Bez splnění předpokladů technika produkuje suboptimální výsledky a může generovat iatrogenní efekty. Předpoklady nejsou byrokratické formality, ale strukturální podmínky efektivity intervence.
 
 ## Implementační protokol
 
@@ -69,7 +69,7 @@ Konkrétní implementace vyžaduje:
 3. **Documentation infrastructure** — systém zaznamenávání průběhu, výsledků, incidentů.
 4. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
 
-Implementace je **iterativní** — každý cyklus generuje data informující úpravy v dalších cyklech.
+Implementace je iterativní — každý cyklus generuje data informující úpravy v dalších cyklech.
 Žádný z cyklů se nevede bez vnějšího pohledu. To, co se zde posuzuje, je právě odhad náročnosti
 látky vůči stavu kohorty, a ten nemůže platně posoudit tentýž člověk, který posloupnost navrhl;
 vyučující je ve vztahu k vlastnímu stupňování stranou, nikoli pozorovatelem.
@@ -83,7 +83,7 @@ vyučující je ve vztahu k vlastnímu stupňování stranou, nikoli pozorovatel
 | Konceptuální retence | >80 % na delayed post-test (2 týdny) |
 | [Self-report](@/glossary/self-report.md) integrace | Kvalitativní reflektivní eseje
 
-Evaluace integruje **kvantitativní** (validované instrumenty) i **kvalitativní** (reflektivní eseje, ethnographic observation) datové zdroje. Žádná samostatná metrika není dostatečná — multidimenzionální evaluace je nezbytná.
+Evaluace integruje kvantitativní (validované instrumenty) i kvalitativní (reflektivní eseje, ethnographic observation) datové zdroje. Žádná samostatná metrika není dostatečná — multidimenzionální evaluace je nezbytná.
 
 ## Rizika a kontraindikace
 
@@ -152,7 +152,7 @@ Technika je integrální součástí subkategorie 3.1 a je navržena pro synergi
 
 ### Vztah k EA-1 a EA-2
 
-Tato edukativní technika **operacionalizuje** poznatky z taxonomie:
+Tato edukativní technika operacionalizuje poznatky z taxonomie:
 
 - **[EA-1 Techniky epistemické anihilace](@/kompendium/03-zakladni-kategorie/kapitola-1.md)** — obsahový materiál pro výuku.
 - **[EA-2 Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)** — komplexní real-world cases pro analýzu.

@@ -147,7 +147,7 @@ Doporučené pořadí studia pro nově přijaté výzkumníky úrovně L3:
 
 Pro Kapitolu 6 (EA-5.1.*) jsou v paralelní vlně přípravy **plné hloubkové články** v [/kompendium/techniques/](@/kompendium/techniques/_index.md) — každá z 30 technik má samostatný článek s detailním fenomenologickým profilem, mechanismem operace, klinickým obrazem a rekonstruktivním protokolem.
 
-Pro Kapitoly 7, 8, 9, 10 jsou **kompaktní taxonomické popisy** integrovány přímo do narativu kapitoly. Plné per-technique články pro tyto kapitoly jsou **v přípravné fázi** a budou publikovány ve vlně 3 po dokončení etické supervize.
+Pro Kapitoly 7, 8, 9, 10 jsou kompaktní taxonomické popisy integrovány přímo do narativu kapitoly. Plné per-technique články pro tyto kapitoly jsou **v přípravné fázi** a budou publikovány ve vlně 3 po dokončení etické supervize.
 
 ## Stav publikace
 
@@ -180,8 +180,8 @@ Pro Kapitoly 7, 8, 9, 10 jsou **kompaktní taxonomické popisy** integrovány p�
 **Ultramární techniky jsou L3 (omezený přístup)**: nejsou určeny k
 obecnému studiu. Před četbou potvrď, že:
 
-- Máš **kvalifikovanou supervizní vazbu** (klinickou nebo doktrinální)
-- Máš **dokumentovaný důvod** ke studiu konkrétní techniky (forenzní analýza,
+- Máš kvalifikovanou supervizní vazbu (klinickou nebo doktrinální)
+- Máš dokumentovaný důvod ke studiu konkrétní techniky (forenzní analýza,
   klinická intervence, doktrinální výzkum)
 - Sleduješ [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   vlastního stavu (sebepozorovací rámec)

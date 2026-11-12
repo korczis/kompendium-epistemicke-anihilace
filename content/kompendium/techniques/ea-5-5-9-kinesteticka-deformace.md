@@ -54,7 +54,7 @@ Pocit, že se pohyb děje sám, může zevnitř působit jako lehkost, a prostř
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|

@@ -54,10 +54,10 @@ Detekční markery zachycené na této stránce odpovídají téže struktuře: 
 
 - **Specifická „úplnost“** vědomí, která **neprodukuje** distinkce.
 - **Absence kalibrace** — subjekt prožívá vše s **jednotnou jistotou**, ale jistota není diferenciovaná podle obsahu.
-- **Strukturní paralyzace kognitivního růstu** — subjekt **nemůže** revidovat své soudy, protože revize vyžaduje metakognitivní akt.
+- **Strukturní paralyzace kognitivního růstu** — subjekt nemůže revidovat své soudy, protože revize vyžaduje metakognitivní akt.
 - **Specifická forma „vznešenosti“** — subjekt prožívá stav jako vyšší úroveň, vědomí, klid.
 - **Neschopnost odpovědět** na otázky vyžadující meta-úroveň: *„Mohl by ses mýlit?“*, *„Jak silná je tvá jistota?“*, *„Co by tě přesvědčilo o opaku?“*.
-- **Pseudokognitivní výkonnost** — subjekt může vést rozhovory, řešit úkoly, ale **bez** metakognitivní vrstvy. Funkční výstup je **strojový** v tom smyslu, že chybí reflexivní kalibrace.
+- **Pseudokognitivní výkonnost** — subjekt může vést rozhovory, řešit úkoly, ale bez metakognitivní vrstvy. Funkční výstup je **strojový** v tom smyslu, že chybí reflexivní kalibrace.
 
 ## Detekční markery
 
@@ -76,9 +76,9 @@ Meta-kognitivní singularita je odlišitelná od **legitimní pokročilé kontem
 
 - **Legitimní realizace** je **integrována** s každodenním fungováním — subjekt **stále** dokáže provádět metakognitivní akty v kontextech, kde je to potřeba.
 - **Legitimní realizace** je **otevřena vůči externí konzultaci** — subjekt přijímá zpětnou vazbu od učitele.
-- **EA-5.2.10** **ruší** funkční metakognici a **odmítá** externí korekci.
+- **EA-5.2.10** **ruší** funkční metakognici a odmítá externí korekci.
 
-Hraniční případ: některé pokročilé fáze nedualistické realizace (advaita-védánta, dzogčhen) mohou strukturálně připomínat singularitu. Tradice **explicitně** instalují **post-realization integration** — návrat k diferencovanému fungování v rámci otevření realizace.
+Hraniční případ: některé pokročilé fáze nedualistické realizace (advaita-védánta, dzogčhen) mohou strukturálně připomínat singularitu. Tradice explicitně instalují **post-realization integration** — návrat k diferencovanému fungování v rámci otevření realizace.
 
 ## Rizikové kontexty
 
@@ -140,7 +140,7 @@ Intervence: **akademická pause**, intenzivní analytická spolupráce, postupn�
 
 Subjekt po **vysoké dávce psychedelika** s narativním rámcem *„jednoty vědomí“* vyvinul perzistentní stav meta-kognitivní singularity. Stav trval **48 měsíců** s postupnou stabilizací.
 
-Detekce: rodina zjistila **dramatický pokles** rozhodovací schopnosti — subjekt **odpovídal** na všechny otázky **identicky**, bez ohledu na obsah.
+Detekce: rodina zjistila dramatický pokles rozhodovací schopnosti — subjekt **odpovídal** na všechny otázky **identicky**, bez ohledu na obsah.
 
 Intervence: integrační terapie zaměřená na rekonstrukci metakognitivní diferenciace; klinický rámec rozšířený o **konkrétní rozhodovací cvičení**. Funkční návrat dosažen, ale **strukturální dysfórie** („nic z toho mě nezajímá“) přetrvala.
 

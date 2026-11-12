@@ -51,7 +51,7 @@ Souvisí s tím i heslo [sektářská konverze](@/glossary/sektarska-konverze.md
 
 ### Jak odlišit náhled od konverze
 
-Kniha nabízí několik vodítek. Skutečný náhled obvykle **rozšiřuje** možnosti: člověk vidí víc, ne méně,
+Kniha nabízí několik vodítek. Skutečný náhled obvykle rozšiřuje možnosti: člověk vidí víc, ne méně,
 a může s novým pohledem nesouhlasit. Konverze **zužuje**: všechno se vykládá jedním klíčem a dřívější
 pohled je odsouzen. Náhled se dá **ověřit** – nové vidění vede k předpovědím, které lze zkontrolovat;
 konverze se ověřování brání. A náhled je **vlastní**: člověk k němu dospěl skrze vlastní zkušenost;

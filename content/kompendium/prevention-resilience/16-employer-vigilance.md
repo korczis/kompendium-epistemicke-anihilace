@@ -142,7 +142,7 @@ prostor uvažovat.
 
 ## Indikátory úspěchu
 
-Validované normy pro vigilanci zaměstnavatele ve vztahu k EA **neexistují**. Organizace si
+Validované normy pro vigilanci zaměstnavatele ve vztahu k EA neexistují. Organizace si
 cíle stanoví podle vlastních dat a sledují:
 
 - podíl vedoucích s absolvovaným tréninkem,

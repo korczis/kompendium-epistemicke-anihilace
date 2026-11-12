@@ -8,6 +8,7 @@ description = "Husserlova fenomenologická redukce: metodické uzávorkování p
 tags = ["glossary", "epistemic", "kompendium", "philosophy"]
 
 [extra]
+aliases = ["fenomenologická redukce"]
 category = "epistemic"
 related_terms = ["epistemicka-anihilace", "metakognitivni-destrukce", "epistemicka-alienace", "predictive-processing", "differance"]
 author = "Tomáš Korcak (korczis)"

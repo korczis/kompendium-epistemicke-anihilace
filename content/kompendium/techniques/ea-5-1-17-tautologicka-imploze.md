@@ -52,7 +52,7 @@ Detekční markery zachycené na této stránce odpovídají téže struktuře: 
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** tautologické imploze:
+Co prožívá subjekt uvnitř tautologické imploze:
 
 - **Pocit hlubokého porozumění** — subjekt si myslí, že vidí podstatu věcí
 - **Verbální plynulost** — schopnost mluvit dlouze, jistě a rytmicky o „podstatných věcech“
@@ -62,7 +62,7 @@ Co prožívá subjekt **uvnitř** tautologické imploze:
 - **Inverzní hodnocení normality** — vědecká diskuse je prožívána jako „povrchní“
 - **Identitární investice** — tautologický slovník se stává součástí self-konceptu
 
-V pokročilých stadiích se subjekt **nemůže** zbavit slovníku, aniž by ztratil pocit identity. Tautologie se stává **konstitutivní** pro self.
+V pokročilých stadiích se subjekt nemůže zbavit slovníku, aniž by ztratil pocit identity. Tautologie se stává konstitutivní pro self.
 
 ## Detekční markery (pohled pozorovatele)
 
@@ -82,7 +82,7 @@ V pokročilých stadiích se subjekt **nemůže** zbavit slovníku, aniž by ztr
 Tautologická imploze je odlišitelná od **legitimní pojmové analýzy**:
 
 - **Legitimní analýza** používá pojmy k **diferenciaci** (rozlišuje X od ne-X) a generuje **predikce** (z X plyne Y).
-- **Tautologická imploze** používá pojmy k **identifikaci** (X = X) a **negeneruje žádné predikce**.
+- **Tautologická imploze** používá pojmy k identifikaci (X = X) a **negeneruje žádné predikce**.
 
 Hraniční případ: některé filozofické tradice (zejména mystické) **legitimně** užívají paradoxního/tautologického jazyka jako **transformativního** nástroje — např. zenový kóan není primárně informační, ale **pragmatický**. Imploze je odlišná tím, že se prezentuje jako **informační** a slibuje **kognitivní** porozumění, které pak nedodává.
 

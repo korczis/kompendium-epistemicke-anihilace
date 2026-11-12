@@ -19,7 +19,7 @@ toc = true
 Toto kompendium je **pokusem o ucelený taxonomický systém** fenoménů [epistemické](@/glossary/epistemicka-anihilace.md)
 a [kognitivní anihilace](@/glossary/kognitivni-anihilace.md), vytvořený pro specializovanou psychiatrickou komunitu jako
 referenční a edukativní nástroj. Jeho primárním účelem je poskytnout strukturovaný rámec
-pro **pochopení**, **identifikaci** a **intervenci** v případech systematické destrukce
+pro **pochopení**, identifikaci a intervenci v případech systematické destrukce
 kognitivních struktur a epistemických základů jedince či skupiny; klasifikace přitom není
 neutrální soupis, ale nástroj, který určuje, co bude v praxi vidět a co přehlédnuto
 (Bowker a Star, 1999). Ústřední pojem knihy a jeho rozklad do jednotlivých částí shrnuje

@@ -44,7 +44,7 @@ Akademické a profesionální komunity etablovaly normy zpětné vazby pro **leg
 1. **Institucionální legitimita** — kritika přichází od osoby v autorizované pozici (mentor, supervizor, recenzent)
 2. **Subjektová receptivita** — subjekt je socializován k akceptaci kritiky jako rozvojové příležitosti
 
-Tato kombinace **paralyzuje** obvyklé obrany. Subjekt, který by odmítl manipulaci od cizince, **akceptuje** stejný vzorec od mentora.
+Tato kombinace **paralyzuje** obvyklé obrany. Subjekt, který by odmítl manipulaci od cizince, akceptuje stejný vzorec od mentora.
 
 ### Operant conditioning paralela
 

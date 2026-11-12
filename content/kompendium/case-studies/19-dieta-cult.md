@@ -51,7 +51,7 @@ obtíží nebo od vedlejšího účinku jiné změny.
 V prvních čtyřech měsících (fáze **úlevy**) přišly první změny, zlepšení potíží a vstup do online
 skupiny. Mezi čtvrtým a dvanáctým měsícem (fáze **zúžení**) žena vyřazovala další potraviny,
 podstupovala „detoxy“ a kupovala placené programy. V prvních dvou letech (fáze **moralizace**) se
-jídlo stalo ctností a hříchem a nemoc „nečistotou“. Ve druhém roce (fáze **izolace**) odmítala
+jídlo stalo ctností a hříchem a nemoc „nečistotou“. Ve druhém roce (fáze izolace) odmítala
 lékaře, prožívala konflikty při rodinných jídlech a žila převážně v online skupině. Mezi druhým a
 třetím rokem (fáze **detekce**) nastal kolaps se zdravotními komplikacemi a hospitalizace. Dunn a
 Bratman (2016) ve svém návrhu diagnostických kritérií ortorexie popisují stejný postup: restrikce

@@ -18,7 +18,7 @@ toc = true
 
 Vztah kompendia EA k postmoderní filozofii je **konstitutivně ambivalentní**. Postmodernismus — zejména v podání Jeana-Françoise Lyotarda, Jeana Baudrillarda a Jacquesa Derridy — poskytuje **bezprecedentní diagnostické nástroje** pro pochopení současného epistemického prostředí, v němž EA techniky operují. Současně však **postmodernismus představuje filozofickou výzvu** vůči samotnému projektu kompendia: pokud jsou všechny metanarativy nedůvěryhodné, [simulakra](@/glossary/simulacra.md) nahrazují skutečnost a každý text se rozpadá pod tlakem dekonstrukce, **na čem** stojí klasifikační aparát kompendia?
 
-Tato kapitola se s touto výzvou **vědomě konfrontuje** a nabízí **diferencovanou** odpověď: postmodernismus je pro kompendium **současně** zdrojem (diagnostickým rámcem) **a** předmětem (kritickou pozicí, vůči níž kompendium vymezuje vlastní stanovisko).
+Tato kapitola se s touto výzvou **vědomě konfrontuje** a nabízí **diferencovanou** odpověď: postmodernismus je pro kompendium současně zdrojem (diagnostickým rámcem) **a** předmětem (kritickou pozicí, vůči níž kompendium vymezuje vlastní stanovisko).
 
 ## 1. Jean-François Lyotard — rozpad metanarativů
 
@@ -32,13 +32,13 @@ Lyotardova kniha *La condition postmoderne* (1979) představuje pro postmoderní
 
 ### 1.2 Jazykové hry a fragmentace legitimace
 
-Místo metanarativu nastupuje **mnohost jazykových her** (přejato z Wittgensteina): vědecká, narativní, etická, politická, estetická, religiózní… Každá hra má **vlastní** pravidla legitimace. Žádná **metahra** (přesahující všechny ostatní) neexistuje.
+Místo metanarativu nastupuje **mnohost jazykových her** (přejato z Wittgensteina): vědecká, narativní, etická, politická, estetická, religiózní… Každá hra má vlastní pravidla legitimace. Žádná **metahra** (přesahující všechny ostatní) neexistuje.
 
 Pro EA má tato perspektiva **trojí význam**:
 
 ### 1.3 Postmoderní stav jako EA-příznivé prostředí
 
-Lyotardova diagnóza **strukturálně** charakterizuje současné epistemické prostředí, v němž EA techniky operují:
+Lyotardova diagnóza strukturálně charakterizuje současné epistemické prostředí, v němž EA techniky operují:
 
 | Postmoderní rys | EA implikace |
 |------------------|----------------|
@@ -62,14 +62,14 @@ Toto je strukturní prostředí, v němž **falešná ekvivalence** ([3.5](@/kom
 
 ### 1.5 Kritická odbočka: kompendium odmítá radikální Lyotardovu pozici
 
-Kompendium **akceptuje** Lyotardovu diagnózu fragmentovaného epistemického prostředí, **ale odmítá** radikální tezi, že **žádný** metanarativ není možný. Naopak: kompendium **vědomě formuluje** redukovaný metanarativ — narativ **epistemické integrity** ([Filozofie: Epistemická integrita](@/philosophy/epistemic-integrity.md)) — nikoli jako totalizující osvícenský projekt, ale jako **explicitně reflektovaný**, **revizibilní** a **otevřený** rámec.
+Kompendium akceptuje Lyotardovu diagnózu fragmentovaného epistemického prostředí, **ale odmítá** radikální tezi, že žádný metanarativ není možný. Naopak: kompendium **vědomě formuluje** redukovaný metanarativ — narativ **epistemické integrity** ([Filozofie: Epistemická integrita](@/philosophy/epistemic-integrity.md)) — nikoli jako totalizující osvícenský projekt, ale jako **explicitně reflektovaný**, **revizibilní** a otevřený rámec.
 
 Tento redukovaný metanarativ:
 
-- **Není** universalistickým nárokem na konečnou pravdu
-- **Je** explicitně fundovaným etickým závazkem k respektování epistemické autonomie
+- Není universalistickým nárokem na konečnou pravdu
+- Je explicitně fundovaným etickým závazkem k respektování epistemické autonomie
 - **Operuje** napříč jazykovými hrami jako **meta-pravidlo druhého řádu** (nikoli jako další [jazyková hra](@/glossary/jazykova-hra.md))
-- **Akceptuje** vlastní revizibilitu a otevřenost kritice
+- Akceptuje vlastní revizibilitu a otevřenost kritice
 
 ## 2. Jean Baudrillard — hyperrealita a simulakra
 
@@ -77,7 +77,7 @@ Tento redukovaný metanarativ:
 
 Jean Baudrillard v *Simulacres et simulation* (1981) formuluje teorii **[simulakra](@/glossary/simulacra.md)** — znaků, jež **odkazují** primárně na jiné znaky, nikoli na realitu, již by reprezentovaly. V postmoderním stavu:
 
-- Mapa **předchází** území (ve smyslu, který Borges parodoval, ale který se v digitálním věku stává empirickou realitou)
+- Mapa předchází území (ve smyslu, který Borges parodoval, ale který se v digitálním věku stává empirickou realitou)
 - **[Hyperrealita](@/glossary/hyperreality.md)** — stav, v němž simulace je „reálnější“ než realita sama
 - **Implozion** sociálního, ve kterém médium pohlcuje obsah
 
@@ -117,13 +117,13 @@ EA kategorie **falešné ekvivalence** a **simulované debaty** (kdy „obě str
 
 Baudrillard **radikalizuje** svou pozici k tezi, že **realita** sama přestala existovat — zůstávají pouze simulakra. Tato pozice je často interpretována jako **nihilistická**.
 
-Kompendium **akceptuje** Baudrillardovu diagnózu **mediální** dimenze postmoderního stavu, ale **odmítá** radikální ontologický nihilismus:
+Kompendium akceptuje Baudrillardovu diagnózu **mediální** dimenze postmoderního stavu, ale odmítá radikální ontologický nihilismus:
 
 - **Existuje** ontologická realita nezávislá na simulakrech (např. somatické trauma je **reálné** ve fyziologickém smyslu)
 - **Existuje** epistemická distinkce mezi pravdivým a falešným — byť je v hyperreálném prostředí **obtížněji** udržitelná
 - **Existuje** etická povinnost rozlišovat — i v podmínkách, kde rozlišování je obtížné
 
-Strategie kompendia: **explicitní** návrat k **somatické**, **fenomenologické** a **traumatické** zkušenosti jako **kotvícímu** bodu, jenž odolává simulakrickému rozpouštění (viz kapitola [7.2 Epistemické trauma](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md)).
+Strategie kompendia: explicitní návrat k **somatické**, **fenomenologické** a **traumatické** zkušenosti jako **kotvícímu** bodu, jenž odolává simulakrickému rozpouštění (viz kapitola [7.2 Epistemické trauma](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md)).
 
 ## 3. Jacques Derrida — dekonstrukce
 
@@ -168,7 +168,7 @@ Kompendium operuje s **binárními** opozicemi (pravdivé/manipulativní, autono
 - „Autonomní“ subjekt vždy nese stopy „manipulovaného“
 - Žádné dělení není **čisté**, **stabilní**, **neproblematické**
 
-Kompendium **akceptuje** tuto kritickou výzvu a **transparentně** přiznává:
+Kompendium akceptuje tuto kritickou výzvu a **transparentně** přiznává:
 
 - Kategorie nejsou ostře oddělené — operují na **spektrech** a **multidimenzionálních** osách ([2.3](@/kompendium/02-uvod/teoreticke-zaklady.md))
 - Některé techniky jsou **inherentně ambivalentní** (např. **strategická reinterpretace** může být manipulací **i** legitimní hermeneutickou operací)
@@ -178,11 +178,11 @@ Kompendium **akceptuje** tuto kritickou výzvu a **transparentně** přiznává:
 
 Pokud je dekonstrukce **radikalizována**, může vést ke **kvietismu**: každý normativní nárok je dekonstruovatelný, každá kategorie nestabilní, každá intervence problematizovatelná. V důsledku **žádná** klinická, etická ani epistemická intervence není „čistě“ legitimní.
 
-Kompendium **odmítá** tuto radikalizaci. Místo toho zaujímá **post-dekonstruktivní** pozici:
+Kompendium odmítá tuto radikalizaci. Místo toho zaujímá **post-dekonstruktivní** pozici:
 
-- **Akceptuje** dekonstruktivní vhled, že kategorie jsou kontingentní a destabilizovatelné
+- Akceptuje dekonstruktivní vhled, že kategorie jsou kontingentní a destabilizovatelné
 - **Trvá** na pragmatickém **závazku** k normativním rozhodnutím — i v podmínkách kontingence
-- Tento závazek je sám **explicitně** reflektovaný a otevřený revizi (viz [Filozofie: Epistemická integrita](@/philosophy/epistemic-integrity.md))
+- Tento závazek je sám explicitně reflektovaný a otevřený revizi (viz [Filozofie: Epistemická integrita](@/philosophy/epistemic-integrity.md))
 
 ### 3.4 Marges a marginalita
 
@@ -190,7 +190,7 @@ Derridova analýza **marginality** — pozic vyloučených z dominantních narat
 
 - Subjekty postižené EA jsou často **systematicky marginalizovány** v dominantních narativech (jejich svědectví je diskontováno, jejich zkušenost je delegitimizována)
 - **Dekonstruktivní práce** odhaluje, jak dominantní narativy **strukturálně závisejí** na potlačování těchto hlasů
-- Kompendium tuto perspektivu integruje skrze **explicitní** zaměření na fenomenologickou perspektivu obětí, nejen pachatelů a strukturálních mechanismů
+- Kompendium tuto perspektivu integruje skrze explicitní zaměření na fenomenologickou perspektivu obětí, nejen pachatelů a strukturálních mechanismů
 
 ## 4. Komparativní syntéza tří postmoderních pozic
 
@@ -215,7 +215,7 @@ Derridova analýza **marginality** — pozic vyloučených z dominantních narat
 
 Postmoderní filozofie pak je **zároveň** diagnostikou tohoto traumatu **a** jeho symptomem (v některých podobách hraničícím s epistemickou paralýzou).
 
-Kompendium tuto interpretaci **vážně bere** — což znamená, že integruje **klinickou** perspektivu i na **kolektivní** úroveň: kolektivní epistemická zkušenost a její traumata jsou empiricky relevantní.
+Kompendium tuto interpretaci **vážně bere** — což znamená, že integruje **klinickou** perspektivu i na kolektivní úroveň: kolektivní epistemická zkušenost a její traumata jsou empiricky relevantní.
 
 ## 6. Strategická pozice kompendia
 
@@ -228,7 +228,7 @@ Vzhledem k postmoderní výzvě kompendium zaujímá **diferencovanou strategii*
 5. **Akceptuje vlastní dekonstruovatelnost** — kategorie jsou revizibilní, klasifikace je kontextuálně závislá, spektra a multidimenzionální osy nahrazují ostré binární distinkce
 6. **Trvá na pragmatickém závazku** — i v podmínkách kontingence existuje etická povinnost rozlišovat manipulaci od legitimní argumentace
 
-Tato pozice **není** pre-postmoderní (nelze se vrátit do bezproblémové afirmace metanarativů), **není** post-postmoderní v naivním smyslu (předstírání, že postmoderní výzvy nejsou validní), je **post-dekonstruktivní** v specifickém smyslu: integrací postmoderních vhledů s **revizibilním** normativním závazkem.
+Tato pozice není pre-postmoderní (nelze se vrátit do bezproblémové afirmace metanarativů), není post-postmoderní v naivním smyslu (předstírání, že postmoderní výzvy nejsou validní), je **post-dekonstruktivní** v specifickém smyslu: integrací postmoderních vhledů s **revizibilním** normativním závazkem.
 
 ## 7. Otevřené body
 
@@ -268,8 +268,8 @@ Tato pozice **není** pre-postmoderní (nelze se vrátit do bezproblémové afir
 
 **Teoretické reflexe ne jsou závěry — jsou pozvánkami k myšlení.** Po četbě:
 
-1. Identifikuj **alespoň jeden bod**, kde nesouhlasíš s autorovou formulací
-2. Formuluj svou **vlastní alternativní pozici** v 3–5 větách
+1. Identifikuj alespoň jeden bod, kde nesouhlasíš s autorovou formulací
+2. Formuluj svou vlastní alternativní pozici v 3–5 větách
 3. Najdi v [bibliografii](@/kompendium/08-prilohy/bibliografie.md) primární
    zdroj, který tvou alternativu podporuje (alespoň 1)
 

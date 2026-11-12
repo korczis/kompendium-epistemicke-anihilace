@@ -33,7 +33,7 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/"
 ## Vymezení
 
 Pojem [instrumentální rozum](@/glossary/instrumental-reason.md) označuje rozum, který
-se omezuje na otázku, **jak** dosáhnout daného cíle co nejúčinněji, a přestává se ptát,
+se omezuje na otázku, jak dosáhnout daného cíle co nejúčinněji, a přestává se ptát,
 **zda** je cíl dobrý. Horkheimer v knize *Eclipse of Reason* (1947) rozlišil
 „subjektivní“ rozum, který jen kalkuluje prostředky, od „objektivního“ rozumu, který
 posuzuje i cíle; moderní společnosti podle něj přecházejí k prvnímu. Horkheimer

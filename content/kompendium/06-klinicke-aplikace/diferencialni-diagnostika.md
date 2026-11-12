@@ -21,7 +21,7 @@ Klinická manifestace [epistemické anihilace](@/glossary/epistemicka-anihilace.
 
 - **[PTSD](@/glossary/ptsd.md)** (post-traumatická stresová porucha)
 - **cPTSD** (komplexní PTSD, ICD-11)
-- **Disociativní poruchy** (DID, dissociativní amnézie, depersonalizační/derealizační porucha)
+- **[Disociativní poruchy](@/glossary/disociace.md)** (DID, dissociativní amnézie, depersonalizační/derealizační porucha)
 - **Psychotické poruchy** s kognitivními a paranoidními rysy
 - **Generalizovaná úzkostná porucha** s metakognitivní složkou
 

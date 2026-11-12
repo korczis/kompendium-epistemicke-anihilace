@@ -129,7 +129,7 @@ vlivovým operacím.
 
 ## Obrana a neutralizace
 
-**Pro jednotlivce.** Ptát se, **jak** shoda vznikla, ne jen zda existuje: kdo ji zjistil,
+**Pro jednotlivce.** Ptát se, jak shoda vznikla, ne jen zda existuje: kdo ji zjistil,
 jaké jsou nezávislé zdroje, kde se lze s nesouhlasem setkat. Hledat lidi, kteří sdílejí
 pochybnost, a ověřit ji věcně. Diverzifikovat zdroje ([diverzifikace sítě](@/kompendium/self-defense-guides/25-network-diversification.md),
 [triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md)).

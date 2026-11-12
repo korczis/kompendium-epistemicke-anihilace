@@ -36,9 +36,9 @@ parent_chapter = "/kompendium/04-terminalni-protokoly/"
 
 **Systematic conceptual disassembly** představuje systematický rozklad konceptuálního aparátu subjektu v rámci řízeného terminálního protokolu. V rámci kompendia je technika klasifikována jako **terminální protokol** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození.
 
-Tento článek **nemá operační charakter**: jeho účelem je výhradně **defenzivní rozpoznání**, **detekce neúmyslné manifestace** a **supervidovaná intervence**. Jakékoliv ofenzivní použití techniky je v rozporu s [doktrinou platformy](@/kompendium/02-doktrinalni-ramec/_index.md) a její aplikace bez doložitelného etického rámce je explicitně zakázána.
+Tento článek **nemá operační charakter**: jeho účelem je výhradně defenzivní rozpoznání, detekce neúmyslné manifestace a supervidovaná intervence. Jakékoliv ofenzivní použití techniky je v rozporu s [doktrinou platformy](@/kompendium/02-doktrinalni-ramec/_index.md) a její aplikace bez doložitelného etického rámce je explicitně zakázána.
 
-Mechanismus, kterým technika operuje uvnitř supervidovaného rámce, spočívá v: mapování vnitřní topologie konceptů, jejich vazeb a opěrných axiomů s následným postupným rozpojováním pod klinickou supervizí. Tento popis slouží jako **referenční rámec pro detekci**, nikoliv jako návod k provedení.
+Mechanismus, kterým technika operuje uvnitř supervidovaného rámce, spočívá v: mapování vnitřní topologie konceptů, jejich vazeb a opěrných axiomů s následným postupným rozpojováním pod klinickou supervizí. Tento popis slouží jako referenční rámec pro detekci, nikoliv jako návod k provedení.
 
 ## Struktura vzorce
 
@@ -75,7 +75,7 @@ Výčet legitimních použití terminálního protokolu kompendium neuvádí; st
 
 ## Klinické markery (neúmyslná manifestace)
 
-Co může klinik nebo supervizor pozorovat, pokud se technika manifestuje **mimo** supervidovaný rámec — v důsledku patologické sociální struktury, kultovního prostředí, abusivního vztahu nebo neetické instituce:
+Co může klinik nebo supervizor pozorovat, pokud se technika manifestuje mimo supervidovaný rámec — v důsledku patologické sociální struktury, kultovního prostředí, abusivního vztahu nebo neetické instituce:
 
 | Marker | Indikuje |
 |--------|----------|

@@ -29,7 +29,7 @@ Používají ho především **klinici a výzkumníci** v psychiatrii, klinické
 Celkové skóre je průměr všech 28 položek (0–100). Faktorové analýzy v literatuře obvykle popisují tři oblasti:
 
 - **amnestická disociace** – mezery v paměti, nalezené věci, o jejichž původu člověk neví;
-- **depersonalizace a derealizace** – odcizení od vlastního těla, myšlenek nebo okolí (viz [depersonalizace](@/glossary/depersonalizace.md));
+- **[depersonalizace a derealizace](@/glossary/depersonalizace.md)** – odcizení od vlastního těla, myšlenek nebo okolí (viz [depersonalizace](@/glossary/depersonalizace.md));
 - **absorpce a imaginativní pohlcení** – ponoření do činnosti nebo fantazie se ztrátou kontaktu s okolím.
 
 Z osmi položek, které nejlépe odlišují patologickou disociaci, sestavili Waller, Putnam a Carlsonová (1996) tzv. **DES-T** (taxon); používá se ve výzkumu k odhadu příslušnosti k patologické skupině.

@@ -50,7 +50,7 @@ Zevnitř vypadá vzorec jako zvyk, který pomáhá usnout, a jeho odebrání se 
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|

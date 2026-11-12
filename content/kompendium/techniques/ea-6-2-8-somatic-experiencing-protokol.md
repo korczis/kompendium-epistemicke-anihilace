@@ -48,7 +48,7 @@ Sekundárně může být zvažována jako adjunktivní intervence v rámci kompl
 
 ## Kontraindikace
 
-Aplikace techniky je **kontraindikována** v následujících situacích:
+Aplikace techniky je kontraindikována v následujících situacích:
 
 Akutní psychóza, závažná disociativní porucha bez stabilizace, akutní somatická patologie kontraindikující intenzivní afektivní práci, klient odmítá tělesné techniky.
 

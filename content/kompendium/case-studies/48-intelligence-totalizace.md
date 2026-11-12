@@ -73,7 +73,7 @@ důsledky dlouhodobého života v ohrožení, ať je ohrožení skutečné, nebo
 ## Projevené EA techniky
 
 V tomto případě nejde o úmyslnou manipulaci ze strany konkrétní osoby. EA techniky zde popisují
-**strukturální** působení prostředí, které nemá vestavěné korektivy. Smith a Freyd (2014) pro
+strukturální působení prostředí, které nemá vestavěné korektivy. Smith a Freyd (2014) pro
 takové situace zavádějí pojem institucionální zrada (institutional betrayal): instituce, na níž
 je člověk závislý, mu způsobí újmu tím, že nepředchází předvídatelným škodám nebo na ně
 nereaguje.

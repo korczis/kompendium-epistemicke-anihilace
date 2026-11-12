@@ -28,7 +28,7 @@ kalkuluje prostředky, od hodnotové racionality, která jedná podle přesvěd�
 a Adorno (1947) a Horkheimer (1947) pak ukázali, jak moderní společnost dává první přednost a jak se
 rozum, který měl člověka osvobodit, mění v nástroj ovládání přírody i lidí.
 
-Pro knihu je pojem důležitý tím, že popisuje **prostředí**, v němž se manipulace stává
+Pro knihu je pojem důležitý tím, že popisuje prostředí, v němž se manipulace stává
 samozřejmostí. Kde se všechno měří účinností – počtem prodaných kurzů, angažovaností uživatelů,
 výkonem týmu –, tam se otázka, zda je cíl dobrý a zda prostředky respektují lidi, přestává klást.
 Manipulace pak nevypadá jako zlo, ale jako dobře odvedená práce.

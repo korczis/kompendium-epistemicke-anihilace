@@ -129,7 +129,7 @@ Uklouznutí se nezměnilo v návrat, protože bylo předem pojmenované jako mo�
 
 ## Indikátory úspěchu
 
-Validované normy relapsu po EA **neexistují**; údaje z léčby závislostí nelze přenášet.
+Validované normy relapsu po EA neexistují; údaje z léčby závislostí nelze přenášet.
 Programy si cíle stanoví podle vlastních dat a sledují podíl klientů s písemným plánem
 prevence relapsu, udržení navazující péče, dobu od prvního signálu ke kontaktu s podpůrnou
 osobou nebo odborníkem, počet návratů do akutní péče a kvalitativně schopnost klienta popsat

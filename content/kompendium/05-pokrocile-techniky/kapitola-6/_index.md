@@ -36,6 +36,7 @@ vnější korekci.
 ## Tři klastry druhé poloviny
 
 ### Klastr D – inferenční paralýza
+
 Člověk vidí důvody, ale nedokáže z nich udělat krok k závěru:
 [EA-5.1.16 Inferenční paralýza](@/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md),
 [EA-5.1.17 Tautologická imploze](@/kompendium/techniques/ea-5-1-17-tautologicka-imploze.md).
@@ -47,6 +48,7 @@ popisuje přesvědčení, že každá část obsahuje celek, takže stačí jede
 čehokoli.
 
 ### Klastr E – diferenciální dekonstrukce
+
 Rozdíly přestávají mít důsledky:
 [EA-5.1.21 Sebereferenční paradox](@/kompendium/techniques/ea-5-1-21-sebe-referencni-paradox.md),
 [EA-5.1.22 Diferenciální nihilace](@/kompendium/techniques/ea-5-1-22-diferencialni-nihilace.md),
@@ -55,6 +57,7 @@ a [EA-5.1.25 Singulární narativní kolaps](@/kompendium/techniques/ea-5-1-25-s
 kdy se všechny životní příběhy slijí do jednoho.
 
 ### Klastr F – konvergence k singularitě
+
 Integrativní klastr, v němž se předchozí vzorce spojují:
 [EA-5.1.26 Transparadigmatická migrace](@/kompendium/techniques/ea-5-1-26-trans-paradigmaticka-migrace.md),
 [EA-5.1.28 Konvergentní singularita](@/kompendium/techniques/ea-5-1-28-konvergentni-singularita.md),

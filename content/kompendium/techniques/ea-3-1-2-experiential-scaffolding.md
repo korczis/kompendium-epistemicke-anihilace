@@ -54,13 +54,13 @@ Stojí za to oddělit, co na této stránce pochází z literatury a co je čten
 
 Trainees v supervizovaných tréninkových programech; klinici v re-trainingu po identifikované kompetenční mezeře.
 
-Edukativní cíl není **změna chování** v behaviorálním smyslu, ale **kultivace kompetencí** umožňujících autonomní navigaci v epistemicky náročných kontextech. Cílová populace je primárně dospělí profesionálové s baseline metakognitivní stabilitou — technika není určena pro klinické intervence u aktivně dekompenzovaných jedinců.
+Edukativní cíl není změna chování v behaviorálním smyslu, ale kultivace kompetencí umožňujících autonomní navigaci v epistemicky náročných kontextech. Cílová populace je primárně dospělí profesionálové s baseline metakognitivní stabilitou — technika není určena pro klinické intervence u aktivně dekompenzovaných jedinců.
 
 ## Předpoklady
 
 Dokončené graduální expozice design (EA-3.1.1); baseline kompetenční mapování; přístup k akreditovanému scaffolding mentorovi.
 
-Bez splnění předpokladů technika produkuje suboptimální výsledky a může generovat iatrogenní efekty. Předpoklady nejsou byrokratické formality, ale **strukturální podmínky** efektivity intervence.
+Bez splnění předpokladů technika produkuje suboptimální výsledky a může generovat iatrogenní efekty. Předpoklady nejsou byrokratické formality, ale strukturální podmínky efektivity intervence.
 
 ## Implementační protokol
 
@@ -72,7 +72,7 @@ Konkrétní implementace vyžaduje:
 4. Pohled zvenčí na odebírání opory — úsudek, že opora může ubrat, nezůstává na tom, kdo ji sám poskytuje; vstupuje do něj i někdo, kdo k učícímu se není ve vztahu mentora.
 5. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
 
-Implementace je **iterativní** — každý cyklus generuje data informující úpravy v dalších cyklech.
+Implementace je iterativní — každý cyklus generuje data informující úpravy v dalších cyklech.
 
 ## Hodnotící kritéria
 
@@ -83,7 +83,7 @@ Implementace je **iterativní** — každý cyklus generuje data informující �
 | Generalizace | Kompetence prokazatelná v nových případech |
 | Mentor confidence | Kalibrovaný odhad supervisor-student konvergence
 
-Evaluace integruje **kvantitativní** (validované instrumenty) i **kvalitativní** (reflektivní eseje, ethnographic observation) datové zdroje. Žádná samostatná metrika není dostatečná — multidimenzionální evaluace je nezbytná.
+Evaluace integruje kvantitativní (validované instrumenty) i kvalitativní (reflektivní eseje, ethnographic observation) datové zdroje. Žádná samostatná metrika není dostatečná — multidimenzionální evaluace je nezbytná.
 
 Žádné z uvedených kritérií nedokládá kompetenci učícího se mimo prostředí, v němž byla opora odebírána. Rozdíl mezi podpořeným a samostatným výkonem je údajem o jedné situaci a o jednom pozorovateli; Vygotsky (1978) jej zavedl jako popis okamžiku učení, nikoli jako trvalou vlastnost člověka, a zvládnutý úkol bez opory neříká nic o úkolu, který se mu nepodobá. Stejně tak doložené fading nedokládá nic o mentorovi: to, že učící se obstál, může znamenat, že opora byla odebírána dobře, ale i to, že nebyla nikdy potřebná, a obě možnosti vypadají ve výsledku totožně. Opačný závěr je rovněž nedostupný — regrese po odebrání opory sama neukazuje na nedostatek na straně učícího se, protože ukazuje jen na to, že opora nesla více, než bylo zjevné, dokud byla přítomna. Nedoložitelná zůstává i vlastní zkušenost podpory: učící se, který prošel vrstvením zkušenosti, tím nezískává schopnost vrstvit ji druhému, neboť rozhodování o oporách je jiná dovednost než práce v nich.
 
@@ -121,7 +121,7 @@ Technika je integrální součástí subkategorie 3.1 a je navržena pro synergi
 
 ### Vztah k EA-1 a EA-2
 
-Tato edukativní technika **operacionalizuje** poznatky z taxonomie:
+Tato edukativní technika operacionalizuje poznatky z taxonomie:
 
 - **[EA-1 Techniky epistemické anihilace](@/kompendium/03-zakladni-kategorie/kapitola-1.md)** — obsahový materiál pro výuku.
 - **[EA-2 Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)** — komplexní real-world cases pro analýzu.

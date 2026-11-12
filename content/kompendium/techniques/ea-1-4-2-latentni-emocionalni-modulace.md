@@ -37,9 +37,9 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 
 **Latentní emocionální modulace** je **subtilní indukce** specifických emocionálních stavů — **anxiety**, **frustrace**, **vina**, **stud**, **strach**, **identitní hrozba** — k **modulaci kognitivních procesů** a **epistemických tendencí**. Strukturálně **sourozenecká** s [EA-1.4.1 Prosodickou dominancí](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md), ale s odlišným cílem: dominance signalizuje autoritu; modulace **mění emocionální stav** subjektu, aby modulovala jeho **kognici**.
 
-Klíčový mechanismus: **exploitace vlivu emocionálních stavů** na kognitivní zpracování — emocionální stres redukuje **System 2** uvažování, zvyšuje **heuristickou** evaluaci, snižuje **toleranci** kognitivní disonance. Manipulátor **strategicky** generuje specifický emocionální stav, který **predisponuje** subjekt k specifickému typu reakce.
+Klíčový mechanismus: **exploitace vlivu emocionálních stavů** na kognitivní zpracování — emocionální stres redukuje **[System 2](@/glossary/system-1-system-2.md)** uvažování, zvyšuje **heuristickou** evaluaci, snižuje **toleranci** kognitivní disonance. Manipulátor **strategicky** generuje specifický emocionální stav, který **predisponuje** subjekt k specifickému typu reakce.
 
-Klíčová charakteristika: **latentní** — emocionální indukce operuje **pod prahem** vědomé detekce. Subjekt prožívá emocionální stav jako „**přirozenou reakci**“ na obsah, **bez** vědomí, že byl strategicky indukován.
+Klíčová charakteristika: **latentní** — emocionální indukce operuje **pod prahem** vědomé detekce. Subjekt prožívá emocionální stav jako „**přirozenou reakci**“ na obsah, bez vědomí, že byl strategicky indukován.
 
 ## Struktura vzorce
 
@@ -57,7 +57,7 @@ Detekční markery zachycené níže odpovídají téže struktuře: nepohoda, k
 |------|---------------------|
 | **Emocionální diskomfort při zvažování** | "Cítím nejistotu, když přemýšlím o této otázce" |
 | **Atribuční chyba** | "Asi je to proto, že téma je skutečně náročné" |
-| **Bez identifikace zdroje** | "Není mi jasné, **proč** se cítím takto" |
+| **Bez identifikace zdroje** | "Není mi jasné, proč se cítím takto" |
 | **Asymetrické reakce** | Souhlas evokuje relief, nesouhlas distres |
 | **Difúzní úzkost** | "Cítím nepohodu, ale neumím to formulovat" |
 | **Avoidance behaviors** | Tendence vyhnout se otázkám / situacím evokujícím distres |
@@ -123,15 +123,15 @@ Vědomé monitorování dramaticky redukuje subliminální vliv.
 
 #### 3. **Explicitní identifikace potenciálně manipulativního emocionálního důrazu**
 
-Při detekci emocionální charge **explicitně** zformuluj:
+Při detekci emocionální charge explicitně zformuluj:
 
-> *„Cítím se v této diskusi anxious. Zajímalo by mě, **proč**. Můžeme zpomalit a zaměřit se na substantivu?“*
+> *„Cítím se v této diskusi anxious. Zajímalo by mě, proč. Můžeme zpomalit a zaměřit se na substantivu?“*
 
 Meta-úroveň přerušuje strukturální vzorec.
 
 #### 4. **Externí emocionální triangulace**
 
-Diskutuj klíčové **emocionálně charged** témata s **externími** osobami **mimo** manipulátorův kontext. Pokud se emocionální response **neobjevuje** v externím kontextu, je **indukovaná** manipulátorem.
+Diskutuj klíčové **emocionálně charged** témata s **externími** osobami mimo manipulátorův kontext. Pokud se emocionální response **neobjevuje** v externím kontextu, je **indukovaná** manipulátorem.
 
 #### 5. **Embodied awareness**
 
@@ -161,7 +161,7 @@ PhD student spent 3 roky pracujíc na specifickém theoretickém approach pod me
 
 Detekce: Externí klinický psycholog identifikoval, že emocionální response **byly asociované s mentorem**, ne s materiálem samotným. Bez mentorovy expectation byl student schopen calmly evaluovat alternative.
 
-Intervence: Strukturální separace — student vystaven alternative material **mimo** mentorův kontext, s explicit framing „**studujeme alternativy bez závazku**“.
+Intervence: Strukturální separace — student vystaven alternative material mimo mentorův kontext, s explicit framing „**studujeme alternativy bez závazku**“.
 
 ### Případ 2 — Klinické konzultace
 
@@ -190,12 +190,12 @@ Intervence: Leadership coaching; **structural** safe space for substantive criti
 
 ### Eskaluje do
 
-- **[EA-1.6.1](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) Vzorec „Guru a adept“** — emocionální modulace je **klíčový** mechanism establishment dependence.
+- **[EA-1.6.1](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) Vzorec „Guru a adept“** — emocionální modulace je klíčový mechanism establishment dependence.
 - **Sektářská dynamika** — strukturální použití emocionální modulace je defining feature manipulativních skupin.
 
 ### Hraniční / podobné
 
-- **Legitimní emocionální komunikace** — strukturálně podobná, ale **transparentní** o emocionálním obsahu a **bez asymetrické exploitation**.
+- **Legitimní emocionální komunikace** — strukturálně podobná, ale transparentní o emocionálním obsahu a **bez asymetrické exploitation**.
 - **Therapeutic emotional engagement** — vyžaduje [informed consent](@/glossary/informed-consent.md) a explicit ethical framework.
 
 ## Literatura

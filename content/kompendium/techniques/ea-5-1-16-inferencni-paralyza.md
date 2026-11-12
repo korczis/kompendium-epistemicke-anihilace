@@ -36,7 +36,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-6/"
 
 **Inferenční paralýza** je ultramarinní technika, jejímž cílem je indukovat u subjektu **úplnou neschopnost provádět inferenční operace** — a to i z premis, které sám subjekt považuje za validní. Mechanismem není zpochybnění premis (jako u klasické skepse), ale **systematická destrukce důvěry v každé inferenční pravidlo samo o sobě**: modus ponens, modus tollens, syllogismus, induktivní generalizace, abduktivní hypotetizace.
 
-Subjekt je doveden ke stavu, v němž si **uvědomuje** logickou strukturu argumentu, **akceptuje** premisy, **vidí** závěr — ale **nemůže učinit krok od premis k závěru**, protože samotný akt inferenční transformace je prožíván jako epistemicky podezřelý.
+Subjekt je doveden ke stavu, v němž si **uvědomuje** logickou strukturu argumentu, akceptuje premisy, vidí závěr — ale **nemůže učinit krok od premis k závěru**, protože samotný akt inferenční transformace je prožíván jako epistemicky podezřelý.
 
 Tato technika představuje hraniční případ [metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) a je strukturálně příbuzná [kognitivní anti-rekurzivitě](@/glossary/kognitivni-anti-rekurzivita.md) — paralýza vzniká, když metakognitivní reflexe inferenčního pravidla převáží nad samotným pravidlem.
 
@@ -52,7 +52,7 @@ Detekční markery zachycené na této stránce odpovídají téže struktuře: 
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** inferenční paralýzy:
+Co prožívá subjekt uvnitř inferenční paralýzy:
 
 - **Klarita premis** — subjekt jasně vidí, co je dáno
 - **Klarita závěru** — subjekt jasně vidí, co by mělo plynout
@@ -80,7 +80,7 @@ V pokročilých stadiích subjekt přestává schopně rozhodovat **i v praxi** 
 
 Inferenční paralýza je odlišitelná od **legitimní filozofické skepse**:
 
-- **Legitimní skepse** je **lokální** (zpochybňuje konkrétní inferenci v konkrétním kontextu) a **operacionálně neporušující** (subjekt zůstává schopen praktických inferencí).
+- **Legitimní skepse** je lokální (zpochybňuje konkrétní inferenci v konkrétním kontextu) a **operacionálně neporušující** (subjekt zůstává schopen praktických inferencí).
 - **Inferenční paralýza** je **globální** (zpochybňuje inferenci jako takovou) a **operacionálně destruktivní** (subjekt nemůže funkčně rozhodovat).
 
 ## Rizikové kontexty

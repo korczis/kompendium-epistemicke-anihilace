@@ -50,7 +50,7 @@ Od obliby určité hudby se vzorec liší tím, že bez ní stav nenastane a že
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|

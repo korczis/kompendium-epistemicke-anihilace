@@ -34,7 +34,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 ## Definice
 
-**Referenční rekurze** je ultramární technika, která vynucuje, aby subjektovo uvažování o libovolné otázce bylo strukturováno jako cyklický odkaz na sebe sama bez možnosti terminace. Každý pokus odpovědět na otázku **X** vyžaduje předchozí odpověď na **Y**, jejíž odpověď však vyžaduje předchozí odpověď na **X** (případně přes delší řetězec **X → Y → Z → … → X**). Subjekt se ocitá v topologické pasti, ze které racionálně-introspektivní cestou neexistuje východ.
+**Referenční rekurze** je ultramární technika, která vynucuje, aby subjektovo uvažování o libovolné otázce bylo strukturováno jako cyklický odkaz na sebe sama bez možnosti terminace. Každý pokus odpovědět na otázku X vyžaduje předchozí odpověď na Y, jejíž odpověď však vyžaduje předchozí odpověď na X (případně přes delší řetězec **X → Y → Z → … → X**). Subjekt se ocitá v topologické pasti, ze které racionálně-introspektivní cestou neexistuje východ.
 
 Na rozdíl od běžné [logické cirkularity](@/glossary/kognitivni-anti-rekurzivita.md), kterou subjekt detekuje a odmítá jako vadný argument, je referenční rekurze konstruována tak, aby **prožívání cyklu bylo prožíváním legitimního prohlubování porozumění**. Subjekt opakovaně procházející smyčku má pocit, že **se posouvá hlouběji** k jádru problému, zatímco strukturálně se pouze vrací do téhož bodu.
 
@@ -52,7 +52,7 @@ Detekční markery zachycené na této stránce odpovídají téže struktuře: 
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** referenční rekurze:
+Co prožívá subjekt uvnitř referenční rekurze:
 
 - **Pocit hloubky** disproporční vůči faktickému pokroku v rozumění
 - **Iluze zpřesňování** — každá iterace se zdá detailnější, ač zůstává strukturálně identická
@@ -62,7 +62,7 @@ Co prožívá subjekt **uvnitř** referenční rekurze:
 - **Sekundární afektivní zátěž** — únava, podrážděnost, pocit *neautentičnosti* všech ostatních (kteří neumí *jít hluboko*)
 - **Erosní účinek na sousední domény** — paralýza se postupně přelévá do dalších rozhodovacích oblastí
 
-V pokročilejších stadiích kombinace s [EA-1.4.2 latentní emocionální modulací](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) může produkovat *anankastické* uzamčení — subjekt cítí, že **musí** smyčku procházet, dokud ji *nedořeší*, ač strukturálně dořešení neexistuje (viz [anankastický režim](@/glossary/anankasticky-rezim.md)).
+V pokročilejších stadiích kombinace s [EA-1.4.2 latentní emocionální modulací](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) může produkovat *anankastické* uzamčení — subjekt cítí, že musí smyčku procházet, dokud ji *nedořeší*, ač strukturálně dořešení neexistuje (viz [anankastický režim](@/glossary/anankasticky-rezim.md)).
 
 ## Detekční markery (pohled pozorovatele)
 
@@ -118,7 +118,7 @@ Nakresli graf závislostí pojmů, se kterými pracuješ. Cyklus se objeví vizu
 
 #### 4. **Externí epistemická triangulace**
 
-Konzultuj problém s **alespoň třemi** osobami **mimo** doménu manipulátorova diskursu. Pokud všechny tři spontánně zformulují **operační definice**, které manipulátor odmítá, je to silný indikátor uzavřené smyčky.
+Konzultuj problém s **alespoň třemi** osobami mimo doménu manipulátorova diskursu. Pokud všechny tři spontánně zformulují **operační definice**, které manipulátor odmítá, je to silný indikátor uzavřené smyčky.
 
 #### 5. **Časové ohraničení**
 
@@ -131,7 +131,7 @@ Stanov si **explicitní časový limit** pro řešení problému (např. 14 dní
 | **Operační definice** | Každý klíčový pojem v dokumentaci/curriculu má **externě testovatelnou** definici |
 | **Decision deadlines** | V supervizích a poradenských vztazích explicitní termíny pro klíčová rozhodnutí |
 | **Externí audit terminologie** | Periodická kontrola, zda definice klíčových pojmů netvoří uzavřené cykly |
-| **Multi-paradigmatická konzultace** | Zásadní rozhodnutí konzultována s aktéry **mimo** sdílený diskurs |
+| **Multi-paradigmatická konzultace** | Zásadní rozhodnutí konzultována s aktéry mimo sdílený diskurs |
 | **Anti-rekurzivní training** | Cílené vzdělávání v rozpoznávání cirkulárních argumentačních struktur |
 
 ## Případové studie

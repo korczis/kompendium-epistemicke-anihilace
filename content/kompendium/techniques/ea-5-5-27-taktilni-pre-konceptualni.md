@@ -52,7 +52,7 @@ Dotek, který přináší úlevu, se zevnitř těžko zpochybňuje, protože jeh
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|

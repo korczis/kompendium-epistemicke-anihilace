@@ -41,7 +41,7 @@ spolku, kuratorium nadace, etická komise –, postupně obsadí lidmi vázaným
 (vedení, frakci, sponzora, hnutí). Orgán formálně existuje, schází se a hlasuje, ale
 **přestane plnit kontrolní roli**: schvaluje, co mu předloží ti, které měl kontrolovat.
 
-Podkategorie 2.4 popisuje techniky, které nemíří na jednotlivce, ale na **strukturu**,
+Podkategorie 2.4 popisuje techniky, které nemíří na jednotlivce, ale na strukturu,
 v níž se o poznání a o lidech rozhoduje. Zachycení správních orgánů je obvykle prvním
 krokem: kdo ovládá kontrolní orgán, může pak měnit pravidla ([EA-2.4.2](@/kompendium/techniques/ea-2-4-2-policy-rewriting-skryta.md)),
 vedení ([EA-2.4.4](@/kompendium/techniques/ea-2-4-4-leadership-capture.md)) i finanční

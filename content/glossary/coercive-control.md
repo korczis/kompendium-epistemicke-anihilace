@@ -26,7 +26,7 @@ a klinický rámec, který vypracoval Evan Stark v knize *Coercive Control: How 
 Women in Personal Life* (Stark, 2007). Chápe násilí v partnerských vztazích ne jako sled
 jednotlivých násilných incidentů, ale jako **trvalý strategický vzorec ovládání**. Stark
 rozlišuje čtyři vektory, které se v čase skládají do jednoho režimu: **násilí** nebo jeho
-věrohodnou hrozbu, **zastrašování** (ponižování, sledování, výhrůžky dětem nebo zvířatům),
+věrohodnou hrozbu, zastrašování (ponižování, sledování, výhrůžky dětem nebo zvířatům),
 **izolaci** ([sociální izolace](@/glossary/socialni-izolace.md): přerušení kontaktu s rodinou, přáteli, zaměstnáním a finanční nezávislostí)
 a **kontrolu**, tedy drobnou regulaci každodenního života – co nosit, jíst a říkat, kdy
 spát a jak utrácet peníze (Stark, 2007).

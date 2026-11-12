@@ -52,7 +52,7 @@ Kdo nevidí celek, nevidí ani to, že mu chybí; útržkovitost se mu jeví jak
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|

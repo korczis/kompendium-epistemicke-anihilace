@@ -99,7 +99,7 @@ kritéria vyvrácení proti imunizaci
 ([Falzifikační myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md)),
 zapisování souvislostí proti fragmentaci a průběžné sledování vlastního myšlení proti ztrátě
 metakognice ([Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md)).
-Ve všech případech jde o **strukturní** opatření: nechrání před konkrétním tvrzením, ale před
+Ve všech případech jde o strukturní opatření: nechrání před konkrétním tvrzením, ale před
 tím, aby se jedno prostředí stalo jediným měřítkem pravdy.
 
 Na úrovni jednotlivce je dobré mít i jednoduché pravidlo: kdykoli se v nějakém prostředí

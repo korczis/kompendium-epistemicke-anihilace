@@ -56,7 +56,7 @@ Detekční markery zachycené na této stránce odpovídají téže struktuře: 
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** apofatického zacyklení:
+Co prožívá subjekt uvnitř apofatického zacyklení:
 
 - **Pocit, že každá pozitivní formulace zrazuje pravdu**
 - **Únava z neschopnosti dokončit větu** — každá věta vyvolává okamžitou potřebu negace
@@ -86,7 +86,7 @@ Co může vidět vnější pozorovatel:
 
 ### Diferenciální detekce
 
-Apofatické zacyklení je třeba **odlišit** od:
+Apofatické zacyklení je třeba odlišit od:
 
 - **Autentické apofatické tradice** — která je **disciplinárně ohraničená** (aplikuje se na specifický předmět, např. transcendentno) a **neruší** operativní fungování v ostatních doménách.
 - **Filosofické skepse** — která má **strukturovanou metodu** a **explicitní kritéria** pro pozastavení tvrzení; nikoli plošná negace.
@@ -115,7 +115,7 @@ Trénink **explicitního** formulování pozitivních tvrzení v nízkorizikový
 
 #### 2. Operační kotvy
 
-Stanovit **konkrétní, měřitelné** denní cíle. Dokončit konkrétní úkol bez ohledu na epistemickou jistotu. Operace **předchází** epistemice; obnovení operativnosti pomáhá obnovit epistemickou kapacitu.
+Stanovit **konkrétní, měřitelné** denní cíle. Dokončit konkrétní úkol bez ohledu na epistemickou jistotu. Operace předchází epistemice; obnovení operativnosti pomáhá obnovit epistemickou kapacitu.
 
 #### 3. Tělesné a smyslové kotvy
 
@@ -143,9 +143,9 @@ Osoba s autoritou **ukončit** negativní řetězec. Používá fráze typu: *�
 
 ### Případ 1 — Doktorand kritické teorie
 
-Doktorand v posledním roce psaní disertace začal vykazovat rostoucí neschopnost formulovat **vlastní** pozici. Každá kapitola byla **kritikou** jiných pozic, ale chyběla **konstruktivní** část. Po roce psaní měl 800 stran kritiky a žádné vlastní stanovisko.
+Doktorand v posledním roce psaní disertace začal vykazovat rostoucí neschopnost formulovat vlastní pozici. Každá kapitola byla **kritikou** jiných pozic, ale chyběla **konstruktivní** část. Po roce psaní měl 800 stran kritiky a žádné vlastní stanovisko.
 
-Detekce: Externí supervizor zjistil, že subjekt **nedokáže** odpovědět na otázku *„Co tedy tvrdíš?“* bez několikahodinového řetězce dvojích negací.
+Detekce: Externí supervizor zjistil, že subjekt nedokáže odpovědět na otázku *„Co tedy tvrdíš?“* bez několikahodinového řetězce dvojích negací.
 
 Intervence: Strukturovaný program s denním limitem kritiky (60 minut), povinným tvořením **jedné** pozitivní teze denně, externí supervize kontrolující dodržování. Disertace přepracována za 11 měsíců.
 
@@ -159,11 +159,11 @@ Intervence: Návrat k **začátečnické praxi** s explicitními pozitivními af
 
 ### Případ 3 — Klient po několika letech „kritického coachingu“
 
-Klient prošel coachingovým programem zaměřeným na *„dekonstrukci ego-identity“*. Po čtyřech letech reportoval, že **nemůže** formulovat své zájmy, hodnoty ani cíle — každá formulace mu zní jako *„konstrukce, kterou je třeba podrobit kritice“*.
+Klient prošel coachingovým programem zaměřeným na *„dekonstrukci ego-identity“*. Po čtyřech letech reportoval, že nemůže formulovat své zájmy, hodnoty ani cíle — každá formulace mu zní jako *„konstrukce, kterou je třeba podrobit kritice“*.
 
 Detekce: Klinické posouzení odhalilo plnohodnotné apofatické zacyklení s **operačním kolapsem** (ztráta zaměstnání, rozpad vztahů, finanční potíže).
 
-Intervence: Klinická psychoterapie s **explicitně** kataphatickou orientací (rehabilitace pozitivních tvrzení), strukturovaný operační program, ukončení coachingového vztahu. Plné fungování obnoveno za 18 měsíců.
+Intervence: Klinická psychoterapie s explicitně kataphatickou orientací (rehabilitace pozitivních tvrzení), strukturovaný operační program, ukončení coachingového vztahu. Plné fungování obnoveno za 18 měsíců.
 
 ## Vztah k jiným technikám
 
@@ -183,7 +183,7 @@ Intervence: Klinická psychoterapie s **explicitně** kataphatickou orientací (
 
 - **Autentická apofatická tradice** — strukturálně podobná, ale **disciplinárně ohraničená** a **doplněná** kataphatickými protokoly.
 - **Filosofická skepse** — má **strukturovanou metodu** a **explicitní kritéria**, není plošná.
-- **EA-1.3.1 Imunizace proti falsifikaci** — strukturní příbuznost; apofatické zacyklení je **bohatší** verze imunizace, kde je imunizovaný **každý** možný obsah.
+- **EA-1.3.1 Imunizace proti falsifikaci** — strukturní příbuznost; apofatické zacyklení je **bohatší** verze imunizace, kde je imunizovaný každý možný obsah.
 
 ## Související
 

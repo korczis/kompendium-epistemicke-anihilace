@@ -54,7 +54,7 @@ Detekční markery zachycené na této stránce odpovídají téže struktuře: 
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** konceptuální fragmentace:
+Co prožívá subjekt uvnitř konceptuální fragmentace:
 
 - **Pocit učení** — subjekt subjektivně vnímá, že *postupuje*, nabývá nové detaily, učí se nové distinkce
 - **Mizející praktická kompetence** — v komplexních situacích, kde dříve rozhodoval bez problémů, nyní *„potřebuje více informací"*
@@ -109,7 +109,7 @@ Pravidelně testuj, **zda v dotčené doméně rozhoduješ stejně rychle a úsp
 
 #### 2. **Reaktivace původní struktury**
 
-Vrať se k zápisům, knihám, materiálům, které jsi používal **před** kontaktem s manipulátorem. Pokus se rekonstruovat, **jak** jsi tehdy uvažoval. Funkční struktura je často stále přítomná, jen inhibovaná.
+Vrať se k zápisům, knihám, materiálům, které jsi používal před kontaktem s manipulátorem. Pokus se rekonstruovat, jak jsi tehdy uvažoval. Funkční struktura je často stále přítomná, jen inhibovaná.
 
 #### 3. **Strategická holistická cvičení**
 
@@ -132,7 +132,7 @@ Disproporce mezi dříve a dnes lokalizuje fragmentaci.
 | Strategie | Implementace |
 |-----------|--------------|
 | **Holistic competence assessment** | Periodické hodnocení integrační kapacity, nikoli jen faktické znalosti |
-| **Integration mentoring** | V dlouhodobé supervizi explicitní pozornost vůči **funkční** integraci, nikoli jen detailům |
+| **Integration mentoring** | V dlouhodobé supervizi explicitní pozornost vůči funkční integraci, nikoli jen detailům |
 | **Cross-paradigm rotation** | Pravidelná konfrontace se *strukturálně odlišnými* paradigmaty obnovuje integrační flexibilitu |
 | **Functional simulation** | Drily vyžadující rychlé komplexní rozhodnutí v reálném čase |
 | **Anti-fragmentation training** | Cílené vzdělávání v rozpoznávání fragmentačních tlaků |
@@ -167,7 +167,7 @@ Intervence: Cílená rekonstituce mimo-právního etického slovníku skrze čte
 
 ### Často se kombinuje s
 
-- **[EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)** — nový, nepřehledný slovník usnadňuje fragmentaci tím, že subjekt **musí** přijmout nové pojmy.
+- **[EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)** — nový, nepřehledný slovník usnadňuje fragmentaci tím, že subjekt musí přijmout nové pojmy.
 - **EA-5.1.7 Referenční rekurze** — fragmentace produkuje izolované pojmy, na kterých může být následně postavena rekurzivní pasta.
 - **EA-5.1.9 Identitní dezintegrace** — když je fragmentace aplikována na sebe-pojem, výsledkem je dezintegrace identity.
 - **[EA-1.3.3](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) Tematická diverze** — diverze udržuje subjektovu pozornost dál od integračních pokusů.

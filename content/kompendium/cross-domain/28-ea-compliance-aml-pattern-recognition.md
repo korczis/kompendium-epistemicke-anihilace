@@ -87,7 +87,7 @@ Pro instituce: **kalibrace scénářů** monitorování na skutečných výsledc
 zpravodajské jednotky, **školení personálu** v rozpoznávání podvodů na klientech, **postup
 pro rozhovor s klientem**, u něhož je podezření, že je obětí, a **spolupráce s policií
 a poradnami** pro oběti. Pro analytiky: **dokumentace úvahy**, proč bylo upozornění
-uzavřeno nebo nahlášeno, a **pravidelná supervize** kvality rozhodnutí.
+uzavřeno nebo nahlášeno, a pravidelná supervize kvality rozhodnutí.
 
 Rozhovor s klientem, který je pravděpodobně obětí podvodu, vyžaduje citlivost: klient může
 podvodníka hájit, stydět se nebo se bát. Konfrontace („jste oběť podvodu“) často vede

@@ -36,9 +36,9 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 **Konceptuální aporie** je metatranscendentální technika, ve které je u subjektu **každý pokus o utvoření pojmu** systematicky veden k **neřešitelnému paradoxu**. Po úspěšné aplikaci subjekt prožívá pojmovost samu jako **strukturně defektní** — každý pojem, který se snaží formulovat, se v procesu formulace **rozpouští v aporii**. V terminálních stadiích kolabuje **pojmovost jako transcendentální schopnost**: subjekt nadále **percipuje a reaguje**, ale **nedokáže pojmově artikulovat** zkušenost.
 
-Aporie (řecky *ἀπορία*, „bezvýchodnost“) je v antické filozofické tradici stav, ve kterém **pokus o úplné pochopení** vede k **rozporu**. Klasické sokratovské aporie jsou produktivní — vedou k epistemické pokoře a k uvědomění omezení. EA-5.2.9 zneužívá tuto strukturu **bez** produktivního výstupu: každý pokus o pojem vede k aporii, která **není rozřešena ani kontextualizována**, ale **stabilizována** jako stav.
+Aporie (řecky *ἀπορία*, „bezvýchodnost“) je v antické filozofické tradici stav, ve kterém **pokus o úplné pochopení** vede k **rozporu**. Klasické sokratovské aporie jsou produktivní — vedou k epistemické pokoře a k uvědomění omezení. EA-5.2.9 zneužívá tuto strukturu bez produktivního výstupu: každý pokus o pojem vede k aporii, která **není rozřešena ani kontextualizována**, ale **stabilizována** jako stav.
 
-Strukturní rys: aporie není u jednotlivých pojmů (klasické *ti esti?* otázky o spravedlnosti, vědění, zbožnosti), ale **napříč pojmovostí**. Subjekt nedokáže formulovat **žádný** pojem bez aporetického kolapsu. Tento stav je strukturálně blízký terminálním fázím [EA-5.2.7 kategoriální disoluce](@/kompendium/techniques/ea-5-2-7-kategorialni-disoluce.md), ale operuje specifičně na rovině **pojmu**, ne kategorie. Pojem je užší — kategorie je transcendentální struktura, pojem je konkrétní obsahová operace.
+Strukturní rys: aporie není u jednotlivých pojmů (klasické *ti esti?* otázky o spravedlnosti, vědění, zbožnosti), ale **napříč pojmovostí**. Subjekt nedokáže formulovat žádný pojem bez aporetického kolapsu. Tento stav je strukturálně blízký terminálním fázím [EA-5.2.7 kategoriální disoluce](@/kompendium/techniques/ea-5-2-7-kategorialni-disoluce.md), ale operuje specifičně na rovině **pojmu**, ne kategorie. Pojem je užší — kategorie je transcendentální struktura, pojem je konkrétní obsahová operace.
 
 ## Struktura vzorce
 
@@ -102,7 +102,7 @@ Cvičení v **funkční pojmovosti**: explicitní práce s pojmy v praktických 
 
 #### 2. Wittgensteinova terapie
 
-Wittgensteinovo pozdní dílo nabízí **explicitní** terapii proti aporetickému kolapsu: *„slova mají význam v používání“*. Praktická pojmová cvičení mimo izolovanou reflexi.
+Wittgensteinovo pozdní dílo nabízí explicitní terapii proti aporetickému kolapsu: *„slova mají význam v používání“*. Praktická pojmová cvičení mimo izolovanou reflexi.
 
 #### 3. Zúžení reflexivního obratu
 
@@ -110,7 +110,7 @@ Disciplinární cvičení v **omezení reflexe** na **specifický kontext**, neu
 
 #### 4. Klinická supervize
 
-Pokud aporie vede k funkčnímu narušení, **specializovaná klinická konzultace** je nezbytná. Vyžaduje se odborník s tréninkem ve **fenomenologické psychopatologii** a **filozofické psychoterapii**.
+Pokud aporie vede k funkčnímu narušení, specializovaná klinická konzultace je nezbytná. Vyžaduje se odborník s tréninkem ve **fenomenologické psychopatologii** a **filozofické psychoterapii**.
 
 ### Institucionální
 
@@ -126,7 +126,7 @@ Pokud aporie vede k funkčnímu narušení, **specializovaná klinická konzulta
 
 PhD kandidát v dekonstrukci rozvinul po 4 letech intenzivní práce stav, ve kterém **nedokázal formulovat** ani jednoduché pojmové tvrzení bez okamžité aporie. Jeho disertace se stala **sérií textů o nemožnosti vlastního textu**.
 
-Detekce: vedoucí katedry zjistil, že subjekt **nedokáže** napsat **funkční abstrakt** své práce.
+Detekce: vedoucí katedry zjistil, že subjekt nedokáže napsat **funkční abstrakt** své práce.
 
 Intervence: změna výzkumného tématu, povinný kurz analytické filozofie jazyka, wittgensteinovská terapie. Po 24 měsících **funkční návrat** k pojmovosti, akademická kariera **modifikována** směrem k pragmatické filozofii.
 
@@ -142,7 +142,7 @@ Intervence: rekonstrukce klinického fungování skrze **pragmatickou** rehabili
 
 Žurnalista rozvinul **aporetický postoj** vůči politickým pojmům s odvoláním na *„jejich neostrost“*. Postupně **odmítal** publikovat texty, které pojmy používaly bez aporetické rezervy. Texty samy se staly **funkčně nečitelné**.
 
-Detekce: redakce zjistila **dramatický pokles** čtenosti a **nárůst** stížností na nesrozumitelnost.
+Detekce: redakce zjistila dramatický pokles čtenosti a **nárůst** stížností na nesrozumitelnost.
 
 Intervence: editoriální intervence, povinný **stylistický** rámec, redukce aporetické vrstvy v editoriální praxi. Subjekt postupně rekonstruoval funkční pojmovost.
 

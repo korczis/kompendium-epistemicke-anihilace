@@ -36,7 +36,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 **Transcendentální rekurzivita** je metatranscendentální technika, při níž jsou **kantovské kategorie** (kvantita, kvalita, relace, modalita) aplikovány **rekurzivně proti sobě samým**, dokud kategorie přestanou stabilně **organizovat fenomény**. Subjekt prožívá kategorii v **rekurzivní vrstvě**: kauzalita kauzality kauzality, substance substance substance, jednota jednoty jednoty. Rekurze nemá pevný bod a rozpouští distinktivní funkci kategorie.
 
-Strukturální rys: rekurze je **jiná než klasická paradoxálnost**. Klasický paradox (Russellův, Liarův) operuje **uvnitř** stabilní kategoriální struktury a vede k lokálnímu kolapsu. Transcendentální rekurzivita operuje na **transcendentální úrovni** — destabilizuje sám aparát, kterým by se paradox identifikoval. Subjekt nevidí „paradox“, vidí, že **kauzalita přestala být kauzalitou**, **substance přestala být substancí**.
+Strukturální rys: rekurze je **jiná než klasická paradoxálnost**. Klasický paradox (Russellův, Liarův) operuje uvnitř stabilní kategoriální struktury a vede k lokálnímu kolapsu. Transcendentální rekurzivita operuje na **transcendentální úrovni** — destabilizuje sám aparát, kterým by se paradox identifikoval. Subjekt nevidí „paradox“, vidí, že **kauzalita přestala být kauzalitou**, **substance přestala být substancí**.
 
 Strukturálně blízká [EA-5.1.7 referenční rekurzi](@/kompendium/techniques/ea-5-1-7-referencni-rekurze.md), ale operuje **o úroveň výš**: nejen reference rozpouštějí svůj objekt, ale samotná kategorie reference se rozpouští v rekurzivní aplikaci na sebe.
 
@@ -74,7 +74,7 @@ Zpětně se znaky skládají takto: nejprve soustředěná reflexe jedné často
 Transcendentální rekurzivita je odlišitelná od **legitimní transcendentální filozofie**:
 
 - **Legitimní transcendentální filozofie** (Kant, Husserl) **explicitně tematizuje** rekurzivní strukturu jako **filozofickou** a **udržuje funkční stabilitu** kategorií **na úrovni každodenního používání**.
-- **EA-5.2.6** rozpouští každodenní funkčnost kategorií, čímž **dramaticky narušuje** funkční vědomí.
+- **EA-5.2.6** rozpouští každodenní funkčnost kategorií, čímž dramaticky narušuje funkční vědomí.
 
 Hraničný případ: některé pozdní fáze Husserlova *Krisis* a Heideggerových *Beiträge* operují s rekurzivní strukturou v patologicky podobné formě. Filozofická literatura tematizuje toto riziko explicitně (např. Henry Allison o „transcendentálním idealismu“).
 

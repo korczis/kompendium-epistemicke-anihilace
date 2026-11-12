@@ -140,7 +140,7 @@ do telefonu pod jiným jménem.
 
 ## Indikátory úspěchu
 
-Validované normy klinické vigilance ve vztahu k EA **neexistují**. Ordinace a zařízení si cíle
+Validované normy klinické vigilance ve vztahu k EA neexistují. Ordinace a zařízení si cíle
 stanoví podle vlastních dat a sledují:
 
 - podíl preventivních prohlídek s krátkým screeningem nálady a úzkosti,

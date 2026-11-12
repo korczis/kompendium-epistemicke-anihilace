@@ -136,7 +136,7 @@ důsledkem kontroly, ne jeho „paranoie“, a mohl se k nim vrátit.
 
 ## Indikátory úspěchu
 
-Validované normy digitální hygieny ve vztahu k EA **neexistují**. Programy a jednotlivci mohou
+Validované normy digitální hygieny ve vztahu k EA neexistují. Programy a jednotlivci mohou
 sledovat:
 
 - podíl účtů s dvoufázovým ověřením a jedinečným heslem,

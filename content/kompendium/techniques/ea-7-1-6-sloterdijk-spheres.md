@@ -33,7 +33,7 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/"
 ## Vymezení
 
 Trilogie *Sféry* (*Sphären*: I. *Bubliny*, 1998; II. *Glóby*, 1999; III. *Pěny*, 2004)
-rozvíjí obraz člověka jako bytosti, která vždy žije **uvnitř** – v prostoru vytvořeném
+rozvíjí obraz člověka jako bytosti, která vždy žije uvnitř – v prostoru vytvořeném
 s druhými. Sloterdijk tento prostor nazývá sférou. Nejmenší sférou je „bublina“ intimního
 vztahu, prvním modelem je dvojice matky a dítěte; největšími sférami jsou „glóby“
 metafyzických a imperiálních světových obrazů, které chtěly obsáhnout celý svět;

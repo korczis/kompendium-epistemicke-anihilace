@@ -52,7 +52,7 @@ Zevnitř se rozklad schématu obtížně hlásí, protože tělesné schéma bě
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|

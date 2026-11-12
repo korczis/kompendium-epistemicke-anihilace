@@ -7,6 +7,7 @@ description = "Stav, kdy se poznávání zhroutí do jediného výkladového rá
 tags = ["glossary", "kompendium", "philosophy", "epistemic", "epistemicka-singularita"]
 
 [extra]
+aliases = ["epistemické singularity", "Úplná epistemická singularita"]
 category = "philosophy"
 related_terms = [
   "epistemicka-monokultura",

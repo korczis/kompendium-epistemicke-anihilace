@@ -91,7 +91,7 @@ důvěře.
 
 ## Odlišení
 
-- **Od zdravého mentorského vztahu:** zdravý vztah je **transparentní** (rodiče vědí, co
+- **Od zdravého mentorského vztahu:** zdravý vztah je transparentní (rodiče vědí, co
   se děje a kde), respektuje hranice, není výlučný a dítě má i jiné důležité dospělé.
 - **Od vrstevnického vztahu:** rozhoduje věkový a mocenský rozdíl a kontext; posouzení
   u dospívajících vyžaduje citlivost a odbornost.

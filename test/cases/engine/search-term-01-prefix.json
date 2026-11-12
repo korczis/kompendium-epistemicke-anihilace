@@ -15,22 +15,22 @@
       },
       {
         "code": null,
+        "in": 198,
+        "kind": "Pojem",
+        "path": "glossary/epistemicka-singularita.md",
+        "tier": 4,
+        "title": "Epistemická singularita",
+        "url": "/glossary/epistemicka-singularita/",
+        "why": "title_prefix"
+      },
+      {
+        "code": null,
         "in": 181,
         "kind": "Pojem",
         "path": "glossary/epistemicke-trauma.md",
         "tier": 4,
         "title": "Epistemické trauma",
         "url": "/glossary/epistemicke-trauma/",
-        "why": "title_prefix"
-      },
-      {
-        "code": null,
-        "in": 138,
-        "kind": "Pojem",
-        "path": "glossary/epistemicka-singularita.md",
-        "tier": 4,
-        "title": "Epistemická singularita",
-        "url": "/glossary/epistemicka-singularita/",
         "why": "title_prefix"
       },
       {

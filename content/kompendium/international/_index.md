@@ -19,7 +19,7 @@ ale jejich podoba, rozpoznání i obrana závisí na prostředí. Kleinman (1980
 tíseň je vždy prožívána a vykládána v určitém kulturním rámci a že léčba, která tento rámec
 přehlíží, ztrácí pacientovu důvěru. Tato sekce proto sleduje tři proměnné: **historii
 a společenské struktury** regionu, **právní řád**, který rozhoduje o tom, co lze pojmenovat
-a postihnout, a **jazyk**, v němž oběť a odborník o zkušenosti mluví.
+a postihnout, a jazyk, v němž oběť a odborník o zkušenosti mluví.
 
 Pro všechny články platí jedno pravidlo: popisují strukturální zranitelnosti a ochranné
 faktory, nikoli povahu národů, náboženství nebo kultur. Oyserman, Coon a Kemmelmeier (2002)

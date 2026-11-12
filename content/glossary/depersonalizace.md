@@ -7,6 +7,7 @@ description = "Disociativní prožitek odcizení od vlastního já, těla nebo m
 tags = ["glossary", "clinical", "trauma", "psychology", "kompendium"]
 
 [extra]
+aliases = ["derealizace", "depersonalizace a derealizace"]
 category = "clinical"
 related_terms = ["disociace", "interocepce", "ipseita", "c-ptsd", "reality-testing", "polyvagalni-teorie"]
 author = "Tomas Korcak (korczis)"

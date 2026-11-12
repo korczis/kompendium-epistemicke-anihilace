@@ -155,7 +155,7 @@ Oběť dlouhodobého zneužívání během prvního výslechu opakovaně vracela
 
 ### Eskaluje do
 
-- **Kompletní rozpad agentivity** — terminální stadium, kdy subjekt přestává být schopen rozlišit, **kdo** je v dané situaci **kdo**.
+- **Kompletní rozpad agentivity** — terminální stadium, kdy subjekt přestává být schopen rozlišit, kdo je v dané situaci kdo.
 - **[Anankastický režim](@/glossary/anankasticky-rezim.md)** — některé subjekty vyvinou rigidní rituály preventivního chování s cílem „neprovokovat“, což manipulátor využívá k další eskalaci.
 
 ### Distinktivní

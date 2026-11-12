@@ -49,7 +49,7 @@ dlouhodobé domácí násilí nebo opakované zneužívání v dětství. Diagn�
    ohrožení;
 2. **poruchy sebeorganizace** (*disturbances in self-organisation*, DSO) ve třech oblastech:
    - **dysregulace emocí** (výrazná reaktivita, výbuchy, otupění, [disociace](@/glossary/disociace.md) pod stresem);
-   - **negativní sebepojetí** (přesvědčení o vlastní bezcennosti, provázené studem a vinou);
+   - **[negativní sebepojetí](@/glossary/c-ptsd.md)** (přesvědčení o vlastní bezcennosti, provázené studem a vinou);
    - **poruchy vztahů** (potíže udržet vztahy a cítit se blízko druhým).
 
 ## Původ a kontext

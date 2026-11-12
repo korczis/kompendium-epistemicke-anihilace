@@ -18,7 +18,7 @@ date_modified = "2026-11-10"
 
 **Epistemická agentnost** je schopnost člověka být aktivním původcem svého poznání: klást
 otázky, vyhledávat a hodnotit důkazy, tvořit si úsudek, měnit ho, když se objeví důvod,
-a hájit ho, když důvod chybí. Zahrnuje také **oprávnění** – vnitřní i společensky uznané –
+a hájit ho, když důvod chybí. Zahrnuje také oprávnění – vnitřní i společensky uznané –
 pokládat se za někoho, kdo vědět smí a umí.
 
 Agentnost není totéž co správnost. Člověk s plnou epistemickou agentností se může mýlit;
@@ -71,11 +71,11 @@ Strukturálně se agentnost oslabuje ve **třech rovinách**:
 
 1. **Kapacita** – přetížení, únava, nedostatek spánku a emoční tlak snižují schopnost
    uvažovat; člověk pak deleguje úsudek, protože na něj nemá sílu.
-2. **Oprávnění** – opakované zesměšňování, „opravování“ a znehodnocování vede k tomu, že
+2. Oprávnění – opakované zesměšňování, „opravování“ a znehodnocování vede k tomu, že
    člověk přestane sám sebe považovat za kompetentního
    ([EA-2.5.3 Kultivace sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md),
    [EA-2.5.2 Zesílení syndromu podvodníka](@/kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md)).
-3. **Prostředí** – pokud jsou všechny zdroje informací a všichni partneři rozhovoru pod
+3. Prostředí – pokud jsou všechny zdroje informací a všichni partneři rozhovoru pod
    kontrolou jedné autority, nemá úsudek s čím se srovnat. Vzniká
    [hermeneutický outsourcing](@/glossary/hermeneuticky-outsourcing.md): výklad vlastní
    zkušenosti je svěřen jinému.

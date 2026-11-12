@@ -74,7 +74,7 @@ v oblasti řízení rizik, kvality dat, transparentnosti a lidského dohledu.
 ## Ochranná opatření
 
 Prvním opatřením je **pravidelné vyhodnocení kalibrace** na skutečných výsledcích,
-celkově i pro podskupiny. Druhým je **lidské posouzení** u rozhodnutí s významným dopadem,
+celkově i pro podskupiny. Druhým je lidské posouzení u rozhodnutí s významným dopadem,
 s pravidlem, že posuzovatel musí uvést vlastní důvody, nikoli jen potvrdit skóre. Třetím
 je **sledování míry přepsání**: příliš nízká míra signalizuje automation bias, příliš
 vysoká nedůvěru nebo špatný model. Čtvrtým je **vysvětlitelnost** – schopnost říct

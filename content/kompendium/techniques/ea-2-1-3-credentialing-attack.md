@@ -36,7 +36,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 ## Definice
 
 Útok na kvalifikaci je vzorec, v němž se spor o **obsah** tvrzení soustavně převádí na spor
-o **oprávnění** jeho autora vůbec mluvit. Místo otázky „je to pravda?“ se klade otázka „kdo
+o oprávnění jeho autora vůbec mluvit. Místo otázky „je to pravda?“ se klade otázka „kdo
 vůbec je, aby to tvrdil?“ – a odpověď je předem záporná. Předmětem zpochybnění jsou formální
 kvalifikace (titul, atestace, licence, habilitace), afiliace (pracoviště, „správná“ škola)
 i neformální znaky odbornosti (praxe, publikační dráha, příslušnost k oboru).

@@ -52,7 +52,7 @@ Zevnitř člověk nedokáže pojmenovat, co se s ním děje, protože žádná z
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|

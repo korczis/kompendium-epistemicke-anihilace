@@ -106,7 +106,7 @@ pro EA neexistují.
 Hlavním rizikem je **nová informační kontrola**: pokud terapeut nebo rodina rozhodují, co
 klient smí číst, opakují strukturu, z níž odešel. Kurace proto vychází z rozhodnutí klienta
 a je dočasná. Druhým rizikem je **ztráta důležitých informací** (soudní obsílky, zprávy
-o dětech); proto se zprávy neodstraňují, ale přesměrovávají. Třetím rizikem je **izolace**,
+o dětech); proto se zprávy neodstraňují, ale přesměrovávají. Třetím rizikem je izolace,
 pokud klient s kanály odstřihne i jediné lidi, se kterými byl v kontaktu; viz
 [Akutní sociální rekonekce](@/kompendium/recovery-protocols/acute-social-reconnection.md).
 

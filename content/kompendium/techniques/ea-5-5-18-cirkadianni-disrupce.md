@@ -52,7 +52,7 @@ Zevnitř se poškození skrývá právě za únavu: vyčerpaný člověk nemá s
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|

@@ -52,13 +52,13 @@ Nepříznivý průběh je u této techniky doložen nejlépe ze všech v této p
 
 Všichni účastníci po expoziční sekvenci; intenzivnější forma po simulačních praktikách.
 
-Edukativní cíl není **změna chování** v behaviorálním smyslu, ale **kultivace kompetencí** umožňujících autonomní navigaci v epistemicky náročných kontextech. Cílová populace je primárně dospělí profesionálové s baseline metakognitivní stabilitou — technika není určena pro klinické intervence u aktivně dekompenzovaných jedinců.
+Edukativní cíl není změna chování v behaviorálním smyslu, ale kultivace kompetencí umožňujících autonomní navigaci v epistemicky náročných kontextech. Cílová populace je primárně dospělí profesionálové s baseline metakognitivní stabilitou — technika není určena pro klinické intervence u aktivně dekompenzovaných jedinců.
 
 ## Předpoklady
 
 Trénovaný debriefer (EA-3.2.7); časový blok, který neskončí dřív než účastníci; soukromé prostředí.
 
-Bez splnění předpokladů technika produkuje suboptimální výsledky a může generovat iatrogenní efekty. Předpoklady nejsou byrokratické formality, ale **strukturální podmínky** efektivity intervence.
+Bez splnění předpokladů technika produkuje suboptimální výsledky a může generovat iatrogenní efekty. Předpoklady nejsou byrokratické formality, ale strukturální podmínky efektivity intervence.
 
 ## Implementační protokol
 
@@ -69,7 +69,7 @@ Konkrétní implementace vyžaduje:
 3. **Documentation infrastructure** — systém zaznamenávání průběhu, výsledků, incidentů.
 4. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
 
-Implementace je **iterativní** — každý cyklus generuje data informující úpravy v dalších cyklech.
+Implementace je iterativní — každý cyklus generuje data informující úpravy v dalších cyklech.
 Rozbor se nevede bez druhého, a to z důvodu vlastního této technice: vedoucí rozboru byl sám
 účastníkem téže události a nese z ní vlastní odezvu, takže to, co přeslechl nebo nechtěl slyšet,
 se z jeho zápisu nedá zjistit. Dohled zde tedy nestojí nad kvalitou výkonu, nýbrž nad tím, co
@@ -84,7 +84,7 @@ v rozboru nezaznělo.
 | 24h follow-up | Žádné perzistentní symptomy |
 | 1-week consolidation | Konstruktivní integrace v reflektivních esejích
 
-Evaluace integruje **kvantitativní** (validované instrumenty) i **kvalitativní** (reflektivní eseje, ethnographic observation) datové zdroje. Žádná samostatná metrika není dostatečná — multidimenzionální evaluace je nezbytná.
+Evaluace integruje kvantitativní (validované instrumenty) i kvalitativní (reflektivní eseje, ethnographic observation) datové zdroje. Žádná samostatná metrika není dostatečná — multidimenzionální evaluace je nezbytná.
 
 ## Rizika a kontraindikace
 
@@ -155,7 +155,7 @@ Technika je integrální součástí subkategorie 3.1 a je navržena pro synergi
 
 ### Vztah k EA-1 a EA-2
 
-Tato edukativní technika **operacionalizuje** poznatky z taxonomie:
+Tato edukativní technika operacionalizuje poznatky z taxonomie:
 
 - **[EA-1 Techniky epistemické anihilace](@/kompendium/03-zakladni-kategorie/kapitola-1.md)** — obsahový materiál pro výuku.
 - **[EA-2 Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)** — komplexní real-world cases pro analýzu.

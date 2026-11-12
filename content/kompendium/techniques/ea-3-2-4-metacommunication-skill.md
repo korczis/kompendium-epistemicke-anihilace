@@ -54,13 +54,13 @@ Zdroje této stránky je užitečné rozlišit podle toho, co vlastně tvrdí. �
 
 Certifikovaní supervizoři; klinici v terapeutickém tréninku.
 
-Edukativní cíl není **změna chování** v behaviorálním smyslu, ale **kultivace kompetencí** umožňujících autonomní navigaci v epistemicky náročných kontextech. Cílová populace je primárně dospělí profesionálové s baseline metakognitivní stabilitou — technika není určena pro klinické intervence u aktivně dekompenzovaných jedinců.
+Edukativní cíl není změna chování v behaviorálním smyslu, ale kultivace kompetencí umožňujících autonomní navigaci v epistemicky náročných kontextech. Cílová populace je primárně dospělí profesionálové s baseline metakognitivní stabilitou — technika není určena pro klinické intervence u aktivně dekompenzovaných jedinců.
 
 ## Předpoklady
 
 Dokončený trénink fenomenologického pozorování; reflexní praxe; doložená vlastní zkušenost se supervizí supervize, vedená dost dlouho, aby zahrnula opakované a konfliktní případy.
 
-Bez splnění předpokladů technika produkuje suboptimální výsledky a může generovat iatrogenní efekty. Předpoklady nejsou byrokratické formality, ale **strukturální podmínky** efektivity intervence.
+Bez splnění předpokladů technika produkuje suboptimální výsledky a může generovat iatrogenní efekty. Předpoklady nejsou byrokratické formality, ale strukturální podmínky efektivity intervence.
 
 ## Implementační protokol
 
@@ -72,7 +72,7 @@ Konkrétní implementace vyžaduje:
 4. Posouzení se neopírá jen o dojem toho, kdo pojmenovává — supervizní vztah vidí i někdo mimo něj, protože nesouhlas s pojmenováním se v něm samém vysloví nejtíž.
 5. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
 
-Implementace je **iterativní** — každý cyklus generuje data informující úpravy v dalších cyklech.
+Implementace je iterativní — každý cyklus generuje data informující úpravy v dalších cyklech.
 
 ## Hodnotící kritéria
 
@@ -83,7 +83,7 @@ Implementace je **iterativní** — každý cyklus generuje data informující �
 | Tone | Reflektivní, ne konfrontační |
 | Student integration | Naming usnadňuje pohyb, neblokuje
 
-Evaluace integruje **kvantitativní** (validované instrumenty) i **kvalitativní** (reflektivní eseje, ethnographic observation) datové zdroje. Žádná samostatná metrika není dostatečná — multidimenzionální evaluace je nezbytná.
+Evaluace integruje kvantitativní (validované instrumenty) i kvalitativní (reflektivní eseje, ethnographic observation) datové zdroje. Žádná samostatná metrika není dostatečná — multidimenzionální evaluace je nezbytná.
 
 Přesvědčivé pojmenování procesu nedokládá, že popisovaný proces nastal. Souhlas supervidovaného je u této techniky nejslabším z možných potvrzení, protože souhlas je v nerovném vztahu očekávanou odpovědí; Ladany, Hill, Corbett a Nutt (1996) zdokumentovali, že se právě pochybnosti o supervizi vyslovují nejméně, takže přijaté pojmenování nerozlišuje mezi tím, že bylo přesné, a tím, že nebylo bezpečné je odmítnout. Nedokládá se tím ani prospěšnost: to, že se hovor po pojmenování rozběhl, může znamenat porozumění, i že supervidovaný přešel na téma, které je od něj žádáno. Vyvozovat z metakomunikační zdatnosti terapeutickou kompetenci rovněž nelze — supervizní vztah je vztahem, v němž jedna strana druhou hodnotí, a tato asymetrie v případu, o němž se mluví, obdobu nemá, takže se dovednost nacvičuje v jiných podmínkách, než v jakých má působit. A protože podle Batesona (1972) náleží sdělení o sdělení k jiné logické rovině, nelze proti němu namítat v rovině obsahu; mlčení supervidovaného proto není potvrzením, nýbrž především znakem toho, že odvolání není kam podat.
 
@@ -121,7 +121,7 @@ Technika je integrální součástí subkategorie 3.2 a je navržena pro synergi
 
 ### Vztah k EA-1 a EA-2
 
-Tato edukativní technika **operacionalizuje** poznatky z taxonomie:
+Tato edukativní technika operacionalizuje poznatky z taxonomie:
 
 - **[EA-1 Techniky epistemické anihilace](@/kompendium/03-zakladni-kategorie/kapitola-1.md)** — obsahový materiál pro výuku.
 - **[EA-2 Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)** — komplexní real-world cases pro analýzu.

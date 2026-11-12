@@ -7,6 +7,7 @@ description = "Liftonův rámec reformy myšlení: osm kritérií totalistickéh
 tags = ["glossary", "kompendium", "psychology", "manipulace"]
 
 [extra]
+aliases = ["Liftonova kritéria"]
 category = "psychology"
 related_terms = ["milieu-control", "loading-the-language", "bite-model", "high-control-group", "sektarska-konverze"]
 keywords = ["thought reform", "reforma myšlení", "Robert Jay Lifton", "totalismus", "osm kritérií", "brainwashing", "Edgar Schein", "coercive persuasion"]

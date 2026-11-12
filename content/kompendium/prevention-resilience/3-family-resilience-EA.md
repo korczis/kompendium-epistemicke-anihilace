@@ -130,7 +130,7 @@ obnovení více hlasů v rodinném výkladu. Navazují stránky
 
 ## Indikátory úspěchu
 
-Validované normy rodinné odolnosti vůči EA **neexistují**. Programy mohou sledovat proměnné,
+Validované normy rodinné odolnosti vůči EA neexistují. Programy mohou sledovat proměnné,
 které s ochrannými procesy souvisejí:
 
 - fungování rodiny měřené ověřeným nástrojem (například McMaster Family Assessment Device; Epstein, Baldwin a Bishop 1983)

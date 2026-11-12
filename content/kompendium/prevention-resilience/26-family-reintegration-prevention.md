@@ -120,7 +120,7 @@ zapomnělo, ale tím, že dostala místo, kde se o ní dalo mluvit.
 
 ## Indikátory úspěchu
 
-Validované normy rodinné reintegrace po EA **neexistují**. Program může použít ověřený nástroj
+Validované normy rodinné reintegrace po EA neexistují. Program může použít ověřený nástroj
 fungování rodiny – například McMaster Family Assessment Device (Epstein, Baldwin a Bishop 1983)
 – k porovnání s výchozím stavem rodiny, a dále sledovat frekvenci a průběh konfliktů, zda se
 člověk podílí na rodinných rozhodnutích, zda má i vztahy mimo rodinu a jak obě strany

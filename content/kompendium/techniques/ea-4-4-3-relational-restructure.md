@@ -36,9 +36,9 @@ parent_chapter = "/kompendium/04-terminalni-protokoly/"
 
 **Relational restructure** představuje restrukturalizace vztahové sítě subjektu jako součást terminálního protokolu identitní dekonstrukce. V rámci kompendia je technika klasifikována jako **terminální protokol** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození.
 
-Tento článek **nemá operační charakter**: jeho účelem je výhradně **defenzivní rozpoznání**, **detekce neúmyslné manifestace** a **supervidovaná intervence**. Jakékoliv ofenzivní použití techniky je v rozporu s [doktrinou platformy](@/kompendium/02-doktrinalni-ramec/_index.md) a její aplikace bez doložitelného etického rámce je explicitně zakázána.
+Tento článek **nemá operační charakter**: jeho účelem je výhradně defenzivní rozpoznání, detekce neúmyslné manifestace a supervidovaná intervence. Jakékoliv ofenzivní použití techniky je v rozporu s [doktrinou platformy](@/kompendium/02-doktrinalni-ramec/_index.md) a její aplikace bez doložitelného etického rámce je explicitně zakázána.
 
-Mechanismus, kterým technika operuje uvnitř supervidovaného rámce, spočívá v: mapování závislostních a podpůrných vztahů, řízená dočasná deeskalace a následná renegociace vazeb po fázi rekonstrukce. Tento popis slouží jako **referenční rámec pro detekci**, nikoliv jako návod k provedení.
+Mechanismus, kterým technika operuje uvnitř supervidovaného rámce, spočívá v: mapování závislostních a podpůrných vztahů, řízená dočasná deeskalace a následná renegociace vazeb po fázi rekonstrukce. Tento popis slouží jako referenční rámec pro detekci, nikoliv jako návod k provedení.
 
 ## Struktura vzorce
 
@@ -75,7 +75,7 @@ Pro zásah do vztahové sítě kniha neuvádí žádné prostředí, v němž by
 
 ## Klinické markery (neúmyslná manifestace)
 
-Co může klinik nebo supervizor pozorovat, pokud se technika manifestuje **mimo** supervidovaný rámec — v důsledku patologické sociální struktury, kultovního prostředí, abusivního vztahu nebo neetické instituce:
+Co může klinik nebo supervizor pozorovat, pokud se technika manifestuje mimo supervidovaný rámec — v důsledku patologické sociální struktury, kultovního prostředí, abusivního vztahu nebo neetické instituce:
 
 | Marker | Indikuje |
 |--------|----------|

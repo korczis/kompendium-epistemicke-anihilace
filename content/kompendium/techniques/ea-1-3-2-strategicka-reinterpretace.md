@@ -39,7 +39,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 
 Klíčový mechanismus: **exploitace inherentní interpretační flexibility** empirických dat, kombinovaná s **rekurzivní hermeneutickou adjustací**. Stejná data, která původně byla čtena jako „**proti**“ teorii, jsou zpětně čtena jako „**pro**“ — bez explicitního přiznání, že interpretace se změnila.
 
-Strukturální problém: **veškerá** empirická evidence vyžaduje interpretaci. Strategická reinterpretace neexploituje tuto **legitimní** flexibilitu, ale její **nelegitimní** rozšíření na případy, kdy data **strukturálně** odporují teorii.
+Strukturální problém: **veškerá** empirická evidence vyžaduje interpretaci. Strategická reinterpretace neexploituje tuto **legitimní** flexibilitu, ale její **nelegitimní** rozšíření na případy, kdy data strukturálně odporují teorii.
 
 ## Struktura vzorce
 
@@ -104,7 +104,7 @@ Strategická reinterpretace vs. **legitimní hermeneutická revize**:
 
 #### 1. **Požadavek na explicitní artikulaci interpretačních principů**
 
-Před evaluací evidence **explicitně** požaduj:
+Před evaluací evidence explicitně požaduj:
 
 > *„Jaká pravidla budeme používat pro čtení této evidence? Specificky — jaký výsledek by byl podporující, jaký falsifikující?“*
 
@@ -116,7 +116,7 @@ Pre-registered predikce jsou **méně citlivé** na strategickou reinterpretaci:
 
 - Teorie predikuje X v čase t.
 - V čase t je pozorováno Y.
-- Pokud Y ≠ X, teorie je **strukturálně** falsifikována — bez ohledu na post hoc reinterpretaci.
+- Pokud Y ≠ X, teorie je strukturálně falsifikována — bez ohledu na post hoc reinterpretaci.
 
 Důraz na **prediktivní** namísto **retrospektivní** evaluaci.
 
@@ -125,7 +125,7 @@ Důraz na **prediktivní** namísto **retrospektivní** evaluaci.
 Při setkání s reinterpretací **explicitně testuj**:
 
 - Je nová interpretace **podpořena externí evidencí**, nebo pouze **slouží** k absorpci kontradikce?
-- Pokud **bez** externí podpory → potenciální strategická reinterpretace.
+- Pokud bez externí podpory → potenciální strategická reinterpretace.
 
 #### 4. **Documentation of original interpretation**
 
@@ -135,11 +135,11 @@ V kontextech, kde je hrozí reinterpretace, **explicitně zaznamenej** původní
 - Detail formulace
 - Kontext, ve kterém byla interpretace pronesena
 
-Pozdější reinterpretace pak **strukturálně** vystoupí proti dokumentaci.
+Pozdější reinterpretace pak strukturálně vystoupí proti dokumentaci.
 
 #### 5. **Active forecasting**
 
-Pre-registered forecasting (Tetlock-style superforecasting) — **explicitní** kvantitativní predikce před výsledkem. Strategická reinterpretace je **strukturálně** zablokována pre-registered numbers.
+Pre-registered forecasting (Tetlock-style superforecasting) — explicitní kvantitativní predikce před výsledkem. Strategická reinterpretace je strukturálně zablokována pre-registered numbers.
 
 ### Institucionální
 
@@ -205,7 +205,7 @@ Intervence: Pre-registered outcome criteria; structured clinical decision rules.
 
 ### Hraniční / podobné
 
-- **Legitimní hermeneutická revize** — strukturálně podobná, ale **explicitně** dokumentovaná a podpořená externí evidencí.
+- **Legitimní hermeneutická revize** — strukturálně podobná, ale explicitně dokumentovaná a podpořená externí evidencí.
 - **Lakatos progressive shift** — některé teoretické revize jsou legitimní; distinkce na úrovni externí podpory a transparency.
 
 ## Literatura

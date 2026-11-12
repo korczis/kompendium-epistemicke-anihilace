@@ -48,7 +48,7 @@ Pro klinické rozlišení je podstatné, že tyto projevy samy o sobě diagnózo
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|

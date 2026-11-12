@@ -50,7 +50,7 @@ Od jednotlivých vzorců subkategorie se terminální stav liší tím, že chyb
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|

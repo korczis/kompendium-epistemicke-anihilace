@@ -29,7 +29,7 @@ Terapeutická intervence stojí na třech vzájemně provázaných pilířích:
 | **2. Trauma-fokusovaná práce** | Zpracovat traumatické zážitky z období expozice | TF-CBT, EMDR, prolongovaná expozice, somatic experiencing |
 | **3. Epistemická rehabilitace** | Obnovit poznávací autonomii a [metakognici](@/glossary/metakognice.md) | Narativní rekonstrukce, dialogická validace, hermeneutická obnova |
 
-**Sekvence pilířů je kritická**: vstoupit do trauma-fokusované práce **před** stabilizací nebo **bez** epistemické rehabilitace často vede k retraumatizaci.
+**Sekvence pilířů je kritická**: vstoupit do trauma-fokusované práce před stabilizací nebo bez epistemické rehabilitace často vede k retraumatizaci.
 
 ## Pilíř 1: Stabilizace a bezpečí
 

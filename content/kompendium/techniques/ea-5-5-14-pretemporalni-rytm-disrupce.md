@@ -52,7 +52,7 @@ Rytmus, v němž člověk žije, se zevnitř nevnímá, dokud plyne; nápadný j
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|

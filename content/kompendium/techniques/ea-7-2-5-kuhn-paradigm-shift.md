@@ -37,7 +37,7 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/"
 
 ## Definice
 
-**Paradigma** je podle Thomase Kuhna soubor sdílených vzorových řešení, pojmů, metod
+Paradigma je podle Thomase Kuhna soubor sdílených vzorových řešení, pojmů, metod
 a měřítek, který vědecké společenství přijímá za samozřejmý. V období
 [normální vědy](@/glossary/normalni-veda.md) paradigma určuje, co je problém, co se počítá
 jako řešení a které výsledky jsou anomálie. Když se anomálie nahromadí, může dojít

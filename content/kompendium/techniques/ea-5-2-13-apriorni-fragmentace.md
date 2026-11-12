@@ -73,7 +73,7 @@ Detekční markery zachycené na této stránce odpovídají téže struktuře: 
 
 Apriorní fragmentace je odlišitelná od:
 
-- **Legitimní fenomenologické tematizace** prostoročasu (Husserl, Heidegger, Merleau-Ponty), která **explicitně** rozlišuje formální popis od prožitkové struktury a neničí funkční orientaci.
+- **Legitimní fenomenologické tematizace** prostoročasu (Husserl, Heidegger, Merleau-Ponty), která explicitně rozlišuje formální popis od prožitkové struktury a neničí funkční orientaci.
 - **Klinických disociačních poruch**, které mají odlišnou etiologii (trauma) a fenomenologii ([depersonalizace](@/glossary/depersonalizace.md), ne primárně prostoročasová fragmentace).
 - **Pokročilé buddhistické praxe**, jež může relativizovat časový zážitek, ale **udržuje praktickou orientaci**.
 

@@ -79,7 +79,7 @@ Perspektivistický kolaps je odlišitelný od **legitimní snahy o objektivitu**
 - **Legitimní vědecká objektivita** je **metodologickou disciplínou** — operuje *uvnitř* perspektivy a snaží se eliminovat specifická zkreslení.
 - **EA-5.2.8** ruší **strukturální možnost** perspektivy.
 
-Hraniční případ: některé pokročilé kontemplativní stavy (specifické *anatta* v théravádě, *non-duální vědomí* v advaita-védántě) mohou strukturálně připomínat kolaps. Tradice **explicitně** instalují **návrat** do perspektivního fungování po sezení, čímž zachovávají reverzibilitu.
+Hraniční případ: některé pokročilé kontemplativní stavy (specifické *anatta* v théravádě, *non-duální vědomí* v advaita-védántě) mohou strukturálně připomínat kolaps. Tradice explicitně instalují návrat do perspektivního fungování po sezení, čímž zachovávají reverzibilitu.
 
 ## Rizikové kontexty
 
@@ -108,7 +108,7 @@ Cvičení v formulaci **konkrétních hodnocení** specifických situací. *„T
 
 #### 4. Klinická supervize
 
-Pokud kolaps trvá déle než 4 týdny, **specializovaná klinická konzultace** je nezbytná. Vyžaduje se odborník s tréninkem ve **fenomenologické psychopatologii**.
+Pokud kolaps trvá déle než 4 týdny, specializovaná klinická konzultace je nezbytná. Vyžaduje se odborník s tréninkem ve **fenomenologické psychopatologii**.
 
 ### Institucionální
 
@@ -130,9 +130,9 @@ Intervence: 18 měsíců strukturované práce s tradičním učitelem v rámci 
 
 ### Případ 2 — Akademická aperspektivismus
 
-Filozof rozvinul ve své pozdní práci radikálně aperspektivistickou pozici. Jeho schopnost formulovat **vlastní** filozofické stanovisko se postupně rozpadla — každý jeho text byl analýzou jiných pozic, nikdy vlastního argumentu.
+Filozof rozvinul ve své pozdní práci radikálně aperspektivistickou pozici. Jeho schopnost formulovat vlastní filozofické stanovisko se postupně rozpadla — každý jeho text byl analýzou jiných pozic, nikdy vlastního argumentu.
 
-Detekce: kolega zjistil, že subjekt **nemůže** odpovědět na otázku *„Co si o tom myslíš?“*, ne kvůli neznalosti, ale kvůli **strukturální nemožnosti** formulovat vlastní stanovisko.
+Detekce: kolega zjistil, že subjekt nemůže odpovědět na otázku *„Co si o tom myslíš?“*, ne kvůli neznalosti, ale kvůli **strukturální nemožnosti** formulovat vlastní stanovisko.
 
 Intervence: terapeutická rekonstrukce perspektivního ukotvení; akademická produkce **dramaticky modifikována**.
 

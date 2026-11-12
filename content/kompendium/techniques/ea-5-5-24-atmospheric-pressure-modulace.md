@@ -54,7 +54,7 @@ Tělesné příznaky nedostatku kyslíku, jako je závrať, brnění, změněné
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|

@@ -48,7 +48,7 @@ Zvenčí je doložitelné zejména to, že si člověk není jistý, co se při 
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|
@@ -117,7 +117,7 @@ Co může vidět vnější pozorovatel:
 
 ## Teoretické zázemí
 
-Husserlova **fenomenologická redukce** (*Ideen I*) — pozastavení přirozeného postoje — je manipulátorem instrumentalizována jako nástroj devalvace pre-manipulační zkušenosti ('to byla naivita'). **Konstituce** (Konstitution) — způsob, jak vědomí konstruuje fenomény — je převedena pod externí program. Merleau-Pontyho **přirozený postoj** ztrácí důvěryhodnost. Heideggerova **alétheia** (odkrývání bytí) je manipulátorem nárokována jako jeho doména. Sartrova **mauvaise foi** (*L'Être et le néant*) je obráceně diagnostikována: autentické pre-manipulační self je označeno za zlou víru, zatímco implantát je 'pravda'. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
+Husserlova **[fenomenologická redukce](@/glossary/epoche.md)** (*Ideen I*) — pozastavení přirozeného postoje — je manipulátorem instrumentalizována jako nástroj devalvace pre-manipulační zkušenosti ('to byla naivita'). **Konstituce** (Konstitution) — způsob, jak vědomí konstruuje fenomény — je převedena pod externí program. Merleau-Pontyho **přirozený postoj** ztrácí důvěryhodnost. Heideggerova **alétheia** (odkrývání bytí) je manipulátorem nárokována jako jeho doména. Sartrova **mauvaise foi** (*L'Être et le néant*) je obráceně diagnostikována: autentické pre-manipulační self je označeno za zlou víru, zatímco implantát je 'pravda'. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
 
 ## Empirická literatura
 
@@ -138,7 +138,7 @@ Klíčové vymezení vůči klinicky podobným, ale etiologicky odlišným stav�
 - **Depersonalizačně-derealizační porucha (F48.1)**: izolovaná porucha self-experience bez narativní substituce; neobsahuje implantovaný alternativní self-model.
 - **Trauma-induced personality changes (F62.0)**: trvalá změna osobnosti po traumatu má jiný mechanismus (regresní obrana) než aktivně instalovaná identitární substituce.
 
-Diferenciální klíč: přítomnost identifikovatelného **externího agenta**, **časového bodu vstupu**, **lexikální homogenity** s diskursem agenta, **diskontinuita** v autobiografické textuře.
+Diferenciální klíč: přítomnost identifikovatelného externího agenta, časového bodu vstupu, lexikální homogenity s diskursem agenta, diskontinuita v autobiografické textuře.
 
 ## Klinické markery
 

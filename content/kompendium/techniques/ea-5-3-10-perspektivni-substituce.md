@@ -50,7 +50,7 @@ Zpětně se znaky skládají takto: nejprve znevažování úsudku postiženého
 
 ## Fenomenologické znaky
 
-Co prožívá subjekt **uvnitř** techniky:
+Co prožívá subjekt uvnitř techniky:
 
 | Znak | Popis |
 |------|-------|
@@ -147,7 +147,7 @@ Klíčové vymezení vůči klinicky podobným, ale etiologicky odlišným stav�
 - **Depersonalizačně-derealizační porucha (F48.1)**: izolovaná porucha self-experience bez narativní substituce; neobsahuje implantovaný alternativní self-model.
 - **Trauma-induced personality changes (F62.0)**: trvalá změna osobnosti po traumatu má jiný mechanismus (regresní obrana) než aktivně instalovaná identitární substituce.
 
-Diferenciální klíč: přítomnost identifikovatelného **externího agenta**, **časového bodu vstupu**, **lexikální homogenity** s diskursem agenta, **diskontinuita** v autobiografické textuře.
+Diferenciální klíč: přítomnost identifikovatelného externího agenta, časového bodu vstupu, lexikální homogenity s diskursem agenta, diskontinuita v autobiografické textuře.
 
 ## Klinické markery
 

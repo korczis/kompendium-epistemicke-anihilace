@@ -41,7 +41,7 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/"
 Model **dvou systémů** popisuje lidské myšlení jako souhru dvou režimů
 ([Systém 1 a Systém 2](@/glossary/system-1-system-2.md)). **Systém 1** pracuje rychle,
 automaticky a bez úsilí: rozpoznává tváře, čte emoce, doplňuje známé vzorce a vytváří
-první dojem. **Systém 2** je pomalý, vědomý a náročný na pozornost: počítá, porovnává,
+první dojem. **[Systém 2](@/glossary/system-1-system-2.md)** je pomalý, vědomý a náročný na pozornost: počítá, porovnává,
 kontroluje a může dojem Systému 1 opravit. Daniel Kahneman zdůrazňuje, že Systém 2 je
 „líný“: většinu času přijímá návrhy Systému 1 bez kontroly.
 

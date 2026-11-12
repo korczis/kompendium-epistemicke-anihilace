@@ -54,7 +54,7 @@ Detekční markery zachycené níže odpovídají téže struktuře: posluchač 
 |------|---------------------|
 | **Sociální tlak na akceptaci** | "Asi je to správné, prezentátor zní jistě" |
 | **Inhibice otázek** | Diskomfort při zpochybnění autoritativně prezentovaného tvrzení |
-| **Surface persuasion** | Pocit přesvědčení **bez** schopnosti reformulovat argument |
+| **Surface persuasion** | Pocit přesvědčení bez schopnosti reformulovat argument |
 | **Status threat** | Strach, že kritická otázka odhalí "naive" pozici |
 | **Hesitation to disagree** | Nevyslovený dotaz |
 | **Akceptace bez evaluace** | "Asi to bude pravda, jinak by to neříkal/a tak důrazně" |

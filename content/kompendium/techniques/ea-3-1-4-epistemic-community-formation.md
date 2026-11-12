@@ -50,7 +50,7 @@ Nepříznivý průběh se pozná podle toho, že skupina ztvrdne: neshoda z ní 
 
 ## Cílová populace
 
-Kohorty 6–12 trainees; absolvované programy formující alumni komunity.
+Kohorty natolik malé, aby se účastníci navzájem znali jménem i prací; absolvované programy formující alumni komunity.
 
 Edukativní cíl není **změna chování** v behaviorálním smyslu, ale **kultivace kompetencí** umožňujících autonomní navigaci v epistemicky náročných kontextech. Cílová populace je primárně dospělí profesionálové s baseline metakognitivní stabilitou — technika není určena pro klinické intervence u aktivně dekompenzovaných jedinců.
 
@@ -75,10 +75,10 @@ Implementace je **iterativní** — každý cyklus generuje data informující �
 
 | Kritérium | Měřítko |
 |-----------|---------|
-| Network density | >70 % účastníků má >=3 aktivní vazby |
+| Network density | většina účastníků má funkční vazbu na několik dalších, nikoli jen na lektora |
 | Help-seeking events | Reálné využití v krizích (ne jen formalita) |
 | Triangulation accuracy | Komunita správně identifikuje manipulace v test-cases |
-| Longevity | >50 % vazeb přetrvává >2 roky
+| Longevity | část vazeb přetrvává i po skončení programu, bez jeho organizační podpory |
 
 Evaluace integruje **kvantitativní** (validované instrumenty) i **kvalitativní** (reflektivní eseje, ethnographic observation) datové zdroje. Žádná samostatná metrika není dostatečná — multidimenzionální evaluace je nezbytná.
 

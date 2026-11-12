@@ -36,7 +36,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-3/"
 
 ## Definice
 
-**Drill kompoziční analýzy** je technika dekompozice komplexních real-world manipulativních epizod na **konstitutivní techniky EA-1.* + scénáře EA-2.***. Studenti se učí rozeznat, že většina reálných epizod je kombinací 3–7 elementárních technik — nikoli monolitické 'manipulace'.
+**Drill kompoziční analýzy** je technika dekompozice komplexních real-world manipulativních epizod na **konstitutivní techniky EA-1.* + scénáře EA-2.***. Studenti se učí rozeznat, že většina reálných epizod je kombinací několika elementárních technik — nikoli monolitické 'manipulace'.
 
 ## Struktura vzorce
 

@@ -58,7 +58,7 @@ Edukativní cíl není **změna chování** v behaviorálním smyslu, ale **kult
 
 ## Předpoklady
 
-Dokončený trénink fenomenologického pozorování; reflexní praxe; supervize na supervizi minimum 100h.
+Dokončený trénink fenomenologického pozorování; reflexní praxe; doložená vlastní zkušenost se supervizí supervize, vedená dost dlouho, aby zahrnula opakované a konfliktní případy.
 
 Bez splnění předpokladů technika produkuje suboptimální výsledky a může generovat iatrogenní efekty. Předpoklady nejsou byrokratické formality, ale **strukturální podmínky** efektivity intervence.
 

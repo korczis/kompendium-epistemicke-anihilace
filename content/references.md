@@ -240,7 +240,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Appelbaum, M. a kol. (2018). Journal article reporting standards for quantitative research in psychology.  
   <small>Citováno: [Publikační etika výzkumu manipulace](@/kompendium/research-methodology/publication-ethics-EA.md)</small>
 - Appelbaum, P. S. (2007). Assessment of Patients' Competence to Consent to Treatment.  
-  <small>Citováno: [EA-8.1.10 Posouzení schopnosti rozhodovat (Appelbaum a Grisso)](@/kompendium/techniques/ea-8-1-10-decision-making-capacity-scale.md)</small>
+  <small>Citováno: [EA-8.1.10 Posouzení schopnosti rozhodovat](@/kompendium/techniques/ea-8-1-10-decision-making-capacity-scale.md)</small>
 - Appelbaum, P. S. (2007). *Assessment of patients' competence to consent to treatment*. New England Journal of Medicine.  
   <small>Citováno: [Zneužívání seniorů (elder abuse)](@/glossary/elder-abuse.md), [EA-6.2.10 Farmakoterapie jako adjuvant](@/kompendium/techniques/ea-6-2-10-pharmacotherapy-adjuvant.md)</small>
 - Appelbaum, P. S. (2007). Assessment of patients' competence to consent to treatment. *New England Journal of Medicine*, 357(18).  
@@ -250,7 +250,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Appelbaum, P. S., a Grisso, T. (1988). Assessing patients' capacities to consent to treatment. *New England Journal of Medicine*.  
   <small>Citováno: [Doktrína nepřípustného vlivu](@/kompendium/forensic-legal/11-undue-influence-doctrine.md)</small>
 - Appelbaum, P. S., & Grisso, T. (1988). Assessing Patients' Capacities to Consent to  
-  <small>Citováno: [EA-8.1.10 Posouzení schopnosti rozhodovat (Appelbaum a Grisso)](@/kompendium/techniques/ea-8-1-10-decision-making-capacity-scale.md)</small>
+  <small>Citováno: [EA-8.1.10 Posouzení schopnosti rozhodovat](@/kompendium/techniques/ea-8-1-10-decision-making-capacity-scale.md)</small>
 - Appelbaum, P. S., & Grisso, T. (1988). Assessing patients' capacities to consent to treatment. *New England Journal of Medicine*, 319(25), 1635–1638.  
   <small>Citováno: [Kompletní rejstřík technik (master index)](@/kompendium/08-prilohy/rejstrik-technik.md)</small>
 - Appelbaum, P. S., Roth, L. H., Lidz, C. W., Benson, P., & Winslade, W. (1987). False hopes and best data: Consent to research and the therapeutic misconception. *Hastings Center Report*.  
@@ -1414,7 +1414,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Cameron-Bandler, L. (1978). *They Lived Happily Ever After: A Book about Achieving Happy Endings in Coupling*. Cupertino: Meta Publications.  
   <small>Citováno: [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md), [Důkazní procedura](@/kompendium/nlp-vzorce/cile-a-vysledky/dukazni-procedura.md), [Ekologie cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/ekologie-cile.md) a 2 dalších</small>
 - Campbell, C., et al. (2021). Development and Validation of a [Self-Report](@/glossary/self-report.md) Measure of  
-  <small>Citováno: [EA-8.1.5 Epistemická důvěra, nedůvěra a důvěřivost (Fonagy, Allison)](@/kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md)</small>
+  <small>Citováno: [EA-8.1.5 Epistemická důvěra, nedůvěra a důvěřivost](@/kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md)</small>
 - Campbell, D. T. (1979). Assessing the impact of planned social change. *Evaluation and Program Planning*.  
   <small>Citováno: [EA-3.2.5 Etická sofistikovanost](@/kompendium/techniques/ea-3-2-5-ethical-sophistication.md), [EA-3.2.6 Kohortní monitoring](@/kompendium/techniques/ea-3-2-6-cohort-monitoring.md), [EA-3.2.7 Individuální supervize](@/kompendium/techniques/ea-3-2-7-individual-supervision.md) a 12 dalších</small>
 - Campbell, D. T. (1979). Assessing the impact of planned social change. *Evaluation and Program Planning*, 2(1), 67–90.  
@@ -2062,7 +2062,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Crystal, D. (2001). *Language and the Internet*. Cambridge University Press.  
   <small>Citováno: [Hypersyntaktická anihilace](@/glossary/hypersyntakticka-anihilace.md)</small>
 - Csibra, G., & Gergely, G. (2009). Natural Pedagogy. *Trends in Cognitive Sciences*.  
-  <small>Citováno: [EA-8.1.5 Epistemická důvěra, nedůvěra a důvěřivost (Fonagy, Allison)](@/kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md)</small>
+  <small>Citováno: [EA-8.1.5 Epistemická důvěra, nedůvěra a důvěřivost](@/kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md)</small>
 - Csikszentmihalyi, M. (1990). *Flow: The Psychology of Optimal Experience*.  
   <small>Citováno: [EA-5.3.41 Transindividualizace](@/kompendium/techniques/ea-5-3-41-trans-individualizace.md)</small>
 - Csikszentmihalyi, M. (1990). *Flow: The Psychology of Optimal Experience*. Harper & Row.  
@@ -3083,7 +3083,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Fonagy, P., a Allison, E. (2014). The Role of Mentalizing and Epistemic Trust in the Therapeutic Relationship. *Psychotherapy*, 51(3), 372–380.  
   <small>Citováno: [Důvěra – protokol obnovy kalibrované důvěry](@/kompendium/recovery-protocols/duvera.md)</small>
 - Fonagy, P., & Allison, E. (2014). The role of mentalizing and epistemic trust in the  
-  <small>Citováno: [Subakutní rekonstrukce důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md), [EA-8.1.5 Epistemická důvěra, nedůvěra a důvěřivost (Fonagy, Allison)](@/kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md), [EA-8.2.8 Vazbové trauma (Allen)](@/kompendium/techniques/ea-8-2-8-aprw-attachment-trauma.md)</small>
+  <small>Citováno: [Subakutní rekonstrukce důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md), [EA-8.1.5 Epistemická důvěra, nedůvěra a důvěřivost](@/kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md), [EA-8.2.8 Vazbové trauma (Allen)](@/kompendium/techniques/ea-8-2-8-aprw-attachment-trauma.md)</small>
 - Fonagy, P., & Allison, E. (2014). The role of mentalizing and epistemic trust in the therapeutic relationship. *Psychotherapy*.  
   <small>Citováno: [EA-6.1.10 Epistemická trust assessment](@/kompendium/techniques/ea-6-1-10-epistemicka-trust-assessment.md), [EA-6.3.3 Metakognitivní rehabilitace](@/kompendium/techniques/ea-6-3-3-metakognitivni-rehabilitace.md), [EA-6.3.8 Relační restaurace](@/kompendium/techniques/ea-6-3-8-relacni-restaurace.md)</small>
 - Fonagy, P., & Allison, E. (2014). The role of mentalizing and epistemic trust in the therapeutic relationship. *Psychotherapy*, 51(3), 372–380.  
@@ -3095,7 +3095,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Fonagy, P., Gergely, G., Jurist, E. L., & Target, M. (2002). *Affect Regulation, Mentalization, and the Development of the Self*. Other Press.  
   <small>Citováno: [7.35 Dennett: Intentional Stance a vrstvy interpretace](@/kompendium/07-teoreticke-reflexe/dennett-intentional-stance.md), [Detekční signatura: Kalibrace teorie mysli (ToM)](@/kompendium/detection-signatures/tom-kalibrace.md), [EA-5.3.15 Mentalizační disrupce](@/kompendium/techniques/ea-5-3-15-mentalizacni-disrupce.md)</small>
 - Fonagy, P., Luyten, P., & Allison, E. (2015). Epistemic Petrification and the Restoration  
-  <small>Citováno: [EA-8.1.5 Epistemická důvěra, nedůvěra a důvěřivost (Fonagy, Allison)](@/kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md)</small>
+  <small>Citováno: [EA-8.1.5 Epistemická důvěra, nedůvěra a důvěřivost](@/kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md)</small>
 - Fonagy, P., & Target, M. (1997). *Attachment and reflective function*. Development and Psychopathology.  
   <small>Citováno: [Theory of mind (teorie mysli)](@/glossary/theory-of-mind.md)</small>
 - Fonagy, P., & Target, M. (1997). Attachment and reflective function: their role in self-organization. *Development and Psychopathology*, 9(4).  
@@ -3850,13 +3850,13 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Grisso, T. a Appelbaum, P. S. (1998). *Assessing Competence to Consent to Treatment: A Guide for Physicians and Other Health Professionals*. Oxford University Press.  
   <small>Citováno: [Akutní protokol: Aktivní člen kultu v akutní krizi](@/kompendium/emergency-protocols/27-active-cult-emergency.md), [Akutní protokol: Přerušení léčby a odmítnutí péče](@/kompendium/emergency-protocols/35-treatment-noncompliance.md)</small>
 - Grisso, T., & Appelbaum, P. S. (1998). *Assessing Competence to Consent to Treatment*.  
-  <small>Citováno: [EA-8.1.10 Posouzení schopnosti rozhodovat (Appelbaum a Grisso)](@/kompendium/techniques/ea-8-1-10-decision-making-capacity-scale.md)</small>
+  <small>Citováno: [EA-8.1.10 Posouzení schopnosti rozhodovat](@/kompendium/techniques/ea-8-1-10-decision-making-capacity-scale.md)</small>
 - Grisso, T., & Appelbaum, P. S. (1998). *Assessing Competence to Consent to Treatment: A Guide for Physicians and Other Health Professionals*. Oxford University Press.  
   <small>Citováno: [Informed consent (informovaný souhlas)](@/glossary/informed-consent.md), [Právo osob se zdravotním postižením](@/kompendium/forensic-legal/45-disability-law-EA.md), [Ochrana seniorů před zneužíváním](@/kompendium/forensic-legal/46-elder-abuse-law.md)</small>
 - Grisso, T., & Appelbaum, P. S. (1998). *Assessing Competence to Consent to Treatment*. Oxford University Press.  
   <small>Citováno: [Před-simulační screening](@/kompendium/04-terminalni-protokoly/pred-simulacni-screening.md), [Otázka platnosti souhlasu ve výzkumu a praxi EA](@/kompendium/critical-perspectives/15-consent-validity-question.md)</small>
 - Grisso, T., Appelbaum, P. S., & Hill-Fotouhi, C. (1997). The MacCAT-T. *Psychiatric  
-  <small>Citováno: [EA-8.1.10 Posouzení schopnosti rozhodovat (Appelbaum a Grisso)](@/kompendium/techniques/ea-8-1-10-decision-making-capacity-scale.md)</small>
+  <small>Citováno: [EA-8.1.10 Posouzení schopnosti rozhodovat](@/kompendium/techniques/ea-8-1-10-decision-making-capacity-scale.md)</small>
 - Grof, S. (1975). *Realms of the Human Unconscious*. Viking.  
   <small>Citováno: [Ego death (rozpuštění ega)](@/glossary/ego-death.md)</small>
 - Grof, S., & Grof, C. (Eds.) (1989). *Spiritual Emergency: When Personal Transformation Becomes a Crisis*. Tarcher.  
@@ -9074,7 +9074,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Sperber, D., Clément, F., Heintz, C., Mascaro, O., Mercier, H., Origgi, G., & Wilson, D. (2010). Epistemic vigilance. *Mind & Language*, 25(4), 359–393.  
   <small>Citováno: [Sebe-obrana: Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md)</small>
 - Sperber, D., et al. (2010). Epistemic Vigilance. *Mind & Language*.  
-  <small>Citováno: [EA-8.1.5 Epistemická důvěra, nedůvěra a důvěřivost (Fonagy, Allison)](@/kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md)</small>
+  <small>Citováno: [EA-8.1.5 Epistemická důvěra, nedůvěra a důvěřivost](@/kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md)</small>
 - Sperling, G. (1960). The information available in brief visual presentations. *Psychological Monographs*, 74(11).  
   <small>Citováno: [7.38 Block: Phenomenal vs. Access Consciousness](@/kompendium/07-teoreticke-reflexe/block-phenomenal-vs-access.md)</small>
 - Spiegel, D., et al. (2011). *Dissociative disorders in DSM-5*. Depression and Anxiety.  

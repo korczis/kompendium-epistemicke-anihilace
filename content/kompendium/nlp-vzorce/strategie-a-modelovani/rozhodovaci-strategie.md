@@ -146,7 +146,7 @@ Základní obranou je oddělit rozhodnutí od místa a chvíle, kde byla nabídk
 
 **V kompendiu**
 
-- [EA-8.1.10 Posouzení schopnosti rozhodovat (Appelbaum a Grisso)](@/kompendium/techniques/ea-8-1-10-decision-making-capacity-scale.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.1.10 Posouzení schopnosti rozhodovat](@/kompendium/techniques/ea-8-1-10-decision-making-capacity-scale.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 - [EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 - [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 - [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí

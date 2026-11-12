@@ -83,3 +83,20 @@ které se nikdy nezapisují do baseline. Jedna třída, jeden vlastník:
 - Bránu se ověřuje jejími vlastními vzory, nikdy ručním grepem: řádkový grep vlákna obsahu
   prohlásil oddíl 04 za čistý, vzory brány howto (tolerantní k zalomení řádku) našly dva
   zbývající nálezy.
+
+## Doplněk 2 (2026-11-12): bullets jen spolu s citacemi téže stránky
+
+Vlákno obsahu změřilo, že převod seznamů na prózu přesouvá dluh, ne ruší ho: na pěti
+zkušebních stránkách klesl `bullets` 1052 → 1048, `citations` zůstal 1164 (počítá stránky),
+ale necitovaných odstavců na stránce přibylo (např. detection-signatures/_index 3 → 9,
+ea-3-1-1 5 → 9) a baseline to četla jako zlepšení (3158 → 3154). Vlna bez citací by vyrobila
+tisíce necitovaných odstavců při lepších souhrnných číslech.
+
+Proto: `bullets` se opravuje po stránkách spolu s citacemi téže stránky, nikdy jako samostatný
+mechanický převod. Převedený bod dostane skutečný pramen, nebo je označen jako interpretace
+knihy, nebo se vypustí. Platí pro něj táž podmínka jako pro `citations`: brána
+fabricated-citation je na main a nulová, dávky jsou malé a hlášené po odstavcích. Jednotkou
+práce je stránka: 914 stránek mimo `glossary/` (14 588 položek seznamů), `glossary/` vlákno
+katalogů. Detail/weak-link (223 stránek, totožné seznamy): práh 1100 slov platí i pro glosář
+(pokyn vlastníka: každý markdown aspoň 2 × A4); vlákno bran f3 dodá seznam podle chybějících
+slov, psaní nesou vlastníci stránek.

@@ -29,8 +29,23 @@ fix=${1:-}
 
 root=$(git rev-parse --show-toplevel)
 cd "$root"
+# A run killed with SIGKILL (a tool timeout, a stopped task) cannot run its EXIT trap and leaves
+# its export behind, 200-600 MB each (2026-11-12: three such exports, 8-44 h old, on a disk at
+# 4.4 GiB free). Each export records the pid that owns it; an export whose owner is gone is
+# removed here, before the next one is made. An export without the file is older than this
+# rule and is removed only when it is more than a day old.
+for old in "${TMPDIR:-/tmp}"/kea-verify.*; do
+  [ -d "$old" ] || continue
+  owner=$(cat "$old/.kea-verify.pid" 2>/dev/null || true)
+  if [ -n "$owner" ]; then
+    kill -0 "$owner" 2>/dev/null || rm -rf "$old"
+  elif [ -n "$(find "$old" -maxdepth 0 -mmin +1440 2>/dev/null)" ]; then
+    rm -rf "$old"
+  fi
+done
 work=$(mktemp -d "${TMPDIR:-/tmp}/kea-verify.XXXXXX")
 trap 'rm -rf "$work"' EXIT
+echo $$ > "$work/.kea-verify.pid"
 git archive "$(git write-tree)" | tar -x -C "$work"
 if [ -f static/css/app.css ]; then mkdir -p "$work/static/css"; cp static/css/app.css "$work/static/css/"; fi
 

@@ -113,13 +113,19 @@ if [ "$fix" = --fix ]; then
   python3 scripts/check-ia.py --update-baseline >/dev/null
   cp scripts/ia-baseline.json "$root/scripts/ia-baseline.json"
   cp static/data/*.json "$root/static/data/"
-  if [ -d content/kompendium/nlp-vzorce ]; then
-    (cd content/kompendium/nlp-vzorce && find . -name '*.md' -print0) | while IFS= read -r -d '' f; do
-      cmp -s "content/kompendium/nlp-vzorce/$f" "$root/content/kompendium/nlp-vzorce/$f" \
-        || cp "content/kompendium/nlp-vzorce/$f" "$root/content/kompendium/nlp-vzorce/$f"
+  # Every catalogue section scripts/catalogs.py writes, read from data/catalogs.toml: a section
+  # named here by hand (it used to be nlp-vzorce only) left a new catalogue's regenerated pages
+  # behind in the export (2026-11-12: argumentacni-fauly).
+  python3 -c 'import tomllib; [print(c["section"]) for c in tomllib.load(open("data/catalogs.toml", "rb")).get("catalog", [])]' |
+  while IFS= read -r section; do
+    [ -d "content/$section" ] || continue
+    (cd "content/$section" && find . -name '*.md' -print0) | while IFS= read -r -d '' f; do
+      mkdir -p "$(dirname "$root/content/$section/$f")"
+      cmp -s "content/$section/$f" "$root/content/$section/$f" \
+        || cp "content/$section/$f" "$root/content/$section/$f"
     done
-    (cd "$root" && git add content/kompendium/nlp-vzorce)
-  fi
+    (cd "$root" && git add "content/$section")
+  done
   cp content/references.md "$root/content/references.md"
   derived="scripts/ia-baseline.json static/data content/references.md"
   if [ -f scripts/build-engine-fixtures.py ]; then

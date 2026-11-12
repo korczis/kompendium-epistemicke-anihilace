@@ -31,32 +31,36 @@ Pojetí emocí jako zdroje informací má v psychologii pevnou oporu. Schwarz a 
 
 ### Subjektivní výpověď
 
-- „Necítím nic, ani když bych měla.“
-- „Je mi to jedno“ u věcí, na kterých dřív záleželo.
-- „Vidím se jako ve filmu.“
-- Popis, že emoce se objevují jen v bezpečí (u přítele, na dovolené) a pak „zase zmizí“.
+| Rovina prožitku | Jak ji osoba vyjádří |
+| --- | --- |
+| Chybějící odezva | „Necítím nic, ani když bych měla.“ |
+| Lhostejnost k dříve důležitému | „Je mi to jedno“ o věcech, na kterých dřív záleželo |
+| Odstup od sebe samé | „Vidím se jako ve filmu.“ |
+| Vázanost na bezpečí | popis, že emoce se objeví jen v bezpečí – u přítele, na dovolené – a pak „zase zmizí“ |
 
 ### Pozorovatelné chování
 
-- Plochý afekt, monotónní řeč při popisu zatěžujících událostí.
-- Ztráta zájmu o koníčky, vztahy, sexualitu.
-- Neschopnost plakat nebo se smát, nebo naopak náhlé, nepřiměřené výbuchy po dlouhém útlumu.
-- Hledání silných podnětů, aby osoba „něco cítila“ (riskantní chování, sebepoškozování).
+| Oblast | Pozorovaný projev |
+| --- | --- |
+| Afekt | plochý afekt a monotónní řeč i při popisu zatěžujících událostí |
+| Zájmy a vztahy | ztráta zájmu o koníčky, blízké vztahy i sexualitu |
+| Výrazové projevy | neschopnost plakat nebo se smát, případně náhlé nepřiměřené výbuchy po dlouhém útlumu |
+| Vyhledávání podnětů | snaha „něco cítit“ prostřednictvím riskantního chování nebo sebepoškozování |
 
 ### Relační kontext
 
-- Projevy emocí byly ve vztahu nebo skupině trestány nebo zneužívány („jsi hysterická“, „tvoje emoce jsou ego“).
-- Otupělost je výraznější v přítomnosti zdroje nebo v prostředí skupiny.
-- Okolí popisuje, že osoba „vyhasla“.
+Signatura se opírá o to, jak prostředí s emocemi zacházelo: projevy citu v něm byly trestány, zesměšňovány nebo obráceny proti osobě („jsi hysterická“, „tvoje emoce jsou ego“), otupělost je výraznější v přítomnosti zdroje nebo uvnitř skupiny a okolí popisuje, že osoba „vyhasla“. Linehan (1993) takové prostředí pojmenovala jako invalidující: prostředí, které sdělení o vlastním prožitku soustavně zlehčuje nebo trestá, oslabuje schopnost emoce rozpoznávat a regulovat, takže útlum není selháním osoby, nýbrž výsledkem toho, čemu se musela přizpůsobit.
 
 ## Detekční kritéria
 
-1. Osoba popisuje nebo okolí pozoruje výrazné zúžení citového prožívání oproti dřívějšímu stavu.
-2. Rozvoj otupělosti časově souvisí s dlouhodobě ohrožujícím nebo kontrolujícím vztahem či prostředím.
-3. V tomto prostředí byly emoce trestány, zesměšňovány nebo zneužívány.
-4. Byly zváženy jiné příčiny, zejména depresivní porucha, PTSD a vliv léků a látek.
+| Kritérium | Co se zjišťuje |
+| --- | --- |
+| Zúžení prožívání | osoba popisuje nebo okolí pozoruje výrazné zúžení citového prožívání oproti dřívějšímu stavu |
+| Časová vazba na prostředí | rozvoj otupělosti souvisí s dlouhodobě ohrožujícím, kontrolujícím nebo nepředvídatelným vztahem či prostředím |
+| Zacházení s emocemi v prostředí | emoce v něm byly trestány, zesměšňovány nebo zneužívány |
+| Zvážené jiné příčiny | zejména depresivní porucha, PTSD a vliv léků a návykových látek |
 
-Pozitivní při splnění všech čtyř bodů. Signatura nevylučuje současnou depresi nebo PTSD – často se s nimi překrývá.
+Pozitivní při splnění všech čtyř kritérií. Signatura nevylučuje současnou depresi nebo PTSD – často se s nimi překrývá.
 
 ## Odlišení od běžných stavů
 

@@ -18,11 +18,7 @@ date_modified = "2026-11-10"
 
 Teorie mysli (*theory of mind*, ToM) je schopnost přisuzovat sobě i druhým duševní stavy – přání, úmysly, přesvědčení, emoce – a podle nich rozumět chování. Klinická literatura o tomto procesu mluví jako o **mentalizaci**. Kalibrovaná teorie mysli odhaduje stavy druhých přiměřeně: ani je nepřehlíží, ani jim nepřisuzuje víc, než lze z chování vyčíst, a zachovává stejnou pozornost i pro vlastní stavy.
 
-Jako detekční signatura tato stránka popisuje **rozladění kalibrace ToM ve vztahu**, které má typicky tuto podobu:
-
-- zasažená osoba **nadměrně mentalizuje zdroj** – neustále odhaduje, co si myslí, co potřebuje, co by ho mohlo rozladit, a jeho jednání vykládá vstřícně i proti zjevnému chování („určitě to tak nemyslel“, „má těžké období“);
-- zároveň **nedostatečně mentalizuje sebe** – přestává vnímat vlastní přání, únavu, strach nebo hněv;
-- zdroj tuto schopnost **využívá**: předvádí stavy, které vyvolávají soucit nebo pocit viny, a přenechává zasažené osobě práci výkladu.
+Jako detekční signatura tato stránka popisuje **rozladění kalibrace ToM ve vztahu**. Jeho tři složky se vyskytují společně a každá z nich posiluje obě ostatní. Zasažená osoba nadměrně mentalizuje zdroj: neustále odhaduje, co si myslí, co potřebuje a co by ho mohlo rozladit, a jeho jednání vykládá vstřícně i proti zjevnému chování („určitě to tak nemyslel“, „má těžké období“). Zároveň přestává vnímat vlastní přání, únavu, strach nebo hněv – tedy právě tu stranu mentalizace, kterou Fonagy et al. (2002) popisují jako neoddělitelnou od regulace vlastních emocí, protože porozumění sobě a porozumění druhému se podle nich vyvíjejí jako jedna schopnost. Zdroj pak této schopnosti užívá ve svůj prospěch: předvádí stavy, které vyvolávají soucit nebo pocit viny, a práci výkladu přenechává jí.
 
 Signatura navazuje na rámec [využití teorie mysli](@/kompendium/03-zakladni-kategorie/tom-exploitation.md) a na glosář [Theory of Mind](@/glossary/theory-of-mind.md); na straně technik jí odpovídá [EA-5.3.15 Mentalizační disrupce](@/kompendium/techniques/ea-5-3-15-mentalizacni-disrupce.md).
 
@@ -38,29 +34,37 @@ Pojem teorie mysli zavedli Premack a Woodruff (1978) v otázce, zda šimpanzi p�
 
 ### Na straně zasažené osoby
 
-- Podrobné výklady vnitřních stavů zdroje, i bez vnějších dokladů („vím, že uvnitř trpí“).
-- Vstřícný výklad i zjevně škodlivého jednání; omluvy za zdroj vůči ostatním.
-- Obtíže odpovědět na otázku „a co jste cítila vy?“; odpověď se stáčí zpět ke zdroji.
-- Trvalé sledování nálady zdroje a přizpůsobování se jí ([emocionální modulace](@/kompendium/detection-signatures/16-behavioral-emotional-modulation.md)).
+| Marker | Jak se v rozhovoru projeví |
+|---|---|
+| Výklad vnitřních stavů zdroje bez vnějších dokladů | „Vím, že uvnitř trpí“ – bez odkazu na to, co zdroj udělal nebo řekl |
+| Vstřícný výklad i zjevně škodlivého jednání | Omluvy za zdroj pronášené vůči ostatním, nikoli vůči sobě |
+| Obtíž s otázkou po vlastním prožitku | Na „a co jste cítila vy?“ se odpověď stáčí zpět ke zdroji |
+| Trvalé sledování nálady zdroje | Přizpůsobování vlastního chování jeho rozladění ([emocionální modulace](@/kompendium/detection-signatures/16-behavioral-emotional-modulation.md)) |
 
 ### Na straně zdroje
 
-- Předvádění zranitelnosti ve chvílích, kdy by měl nést odpovědnost.
-- Vyžadování porozumění („kdybys mě opravdu chápala…“) místo změny chování.
-- Přisuzování vlastních stavů zasažené osobě („ty jsi ta, kdo se zlobí“).
+| Marker | Jak se v jednání projeví |
+|---|---|
+| Předvádění zranitelnosti | Nastupuje ve chvílích, kdy by zdroj měl nést odpovědnost |
+| Požadavek porozumění místo změny | „Kdybys mě opravdu chápala…“ – bez úpravy vlastního chování |
+| Přisuzování vlastních stavů druhé straně | „Ty jsi ta, kdo se zlobí“ |
 
 ### Relační kontext
 
-- Okolí vnímá vztah jinak než zasažená osoba („on se k tobě chová špatně“ × „vy mu nerozumíte“).
-- Ve skupinách se od členů očekává „cítění“ potřeb vedoucího a předjímání jeho přání.
-- V pečujících profesích je vysoká mentalizační kapacita součástí role, což zvyšuje zranitelnost.
+| Prostředí | Podoba markeru |
+|---|---|
+| Blízké okolí | Vnímá vztah jinak než zasažená osoba („on se k tobě chová špatně“ × „vy mu nerozumíte“) |
+| Skupina | Od členů se očekává „cítění“ potřeb vedoucího a předjímání jeho přání |
+| Pečující profese | Vysoká mentalizační kapacita je součástí role, a tím i trvalým místem zranitelnosti |
 
 ## Detekční kritéria
 
-1. Výrazná asymetrie mezi tím, jak podrobně zasažená osoba mentalizuje zdroj a jak sebe.
-2. Výklady stavů zdroje jsou soustavně vstřícnější, než odpovídá jeho doložitelnému jednání.
-3. Zdroj předvádí stavy, které tuto asymetrii podporují, a nepřebírá odpovědnost za své jednání.
-4. Asymetrie je vázaná na tento vztah – v jiných vztazích osoba mentalizuje vyváženě.
+| Bod | Kritérium |
+|---|---|
+| 1 | Výrazná asymetrie mezi tím, jak podrobně zasažená osoba mentalizuje zdroj a jak sebe. |
+| 2 | Výklady stavů zdroje jsou soustavně vstřícnější, než odpovídá jeho doložitelnému jednání. |
+| 3 | Zdroj předvádí stavy, které tuto asymetrii podporují, a nepřebírá odpovědnost za své jednání. |
+| 4 | Asymetrie je vázaná na tento vztah – v jiných vztazích osoba mentalizuje vyváženě. |
 
 Pozitivní při splnění bodů 1, 2 a 4; bod 3 ukazuje na aktivní využívání.
 

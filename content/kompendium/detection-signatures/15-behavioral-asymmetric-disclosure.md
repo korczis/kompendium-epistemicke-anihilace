@@ -31,31 +31,39 @@ Reciprocitu sebeodhalení popsali Altman a Taylor (1973) v teorii sociální pen
 
 ### Lingvistické
 
-- Podněcování otevřenosti („tady můžeš být úplně upřímný“, „před námi nemáš co skrývat“).
-- Vyhýbavé odpovědi zdroje na otázky o sobě („o mně teď nejde“, „to není důležité“).
-- Pozdější odkazy na důvěrné informace v jiném kontextu („vzhledem k tomu, co jsi mi řekla o svém otci…“).
+| Jazykový marker | Jak zní v rozhovoru |
+|---|---|
+| Podněcování otevřenosti | Pobídky k odhalení bez vlastní protihodnoty („tady můžeš být úplně upřímný“, „před námi nemáš co skrývat“). |
+| Vyhýbavá odpověď o sobě | Otázky o zdroji jsou odkloněny („o mně teď nejde“, „to není důležité“). |
+| Pozdější odkaz na důvěrné | Sdělené se vrací v jiném kontextu („vzhledem k tomu, co jsi mi řekla o svém otci…“). |
 
 ### Behaviorální
 
-- Rychlé tempo intimity v počáteční fázi vztahu.
-- Skupinové „sdílení“ nebo „zpovědi“, při nichž se od nováčků čeká otevřenost a vedení se neodhaluje.
-- Zápisy nebo nahrávky důvěrných rozhovorů bez jasného účelu a ochrany.
-- Zdroj o sobě sděluje jen vybrané, často zranitelně působící informace, které budí soucit, ale neumožňují ověření.
+| Behaviorální marker | Jak se projevuje |
+|---|---|
+| Rychlé tempo intimity | Hloubka sdílení roste v počáteční fázi vztahu rychleji, než by odpovídalo délce známosti. |
+| Jednosměrné skupinové sdílení | Od nováčků se při „sdílení“ či „zpovědích“ očekává otevřenost, zatímco vedení se neodhaluje. |
+| Záznamy bez účelu a ochrany | O důvěrných rozhovorech vznikají zápisy nebo nahrávky bez určeného účelu a bez ochrany. |
+| Vybrané sebeodhalení zdroje | Zdroj o sobě sděluje jen vybrané, zranitelně působící informace, které budí soucit, ale nelze je ověřit. |
 
 ### Relační a institucionální
 
-- Neexistuje pravidlo, kdo má k důvěrným informacím přístup a k čemu smějí sloužit.
-- Informace sdílené v důvěře se objevují v hodnoceních, při rozhodování o postupu nebo při sporech.
-- Odchod ze skupiny je provázen obavou, co se o odcházejícím „ví“.
+| Marker v prostředí | Jak se projevuje |
+|---|---|
+| Chybějící pravidlo přístupu | Není stanoveno, kdo má k důvěrným informacím přístup a k čemu smějí sloužit. |
+| Důvěrné v rozhodování | Informace sdílené v důvěře se objevují v hodnoceních, při rozhodování o postupu nebo při sporech. |
+| Obava při odchodu | Odchod ze skupiny je provázen obavou, co se o odcházejícím „ví“ a komu to může být řečeno. |
 
 ## Detekční kritéria
 
-1. Hloubka sebeodhalení obou stran je výrazně nerovnoměrná a nerovnoměrnost trvá.
-2. Asymetrie není rámována ochrannými pravidly (mlčenlivost, účel, omezení použití).
-3. Zdroj aktivně podněcuje otevřenost zasažené osoby a vyhýbá se vlastní.
-4. Existuje doklad nebo důvodná obava, že získané informace byly použity k tlaku, zahanbení nebo kontrole.
+| Podmínka | Co musí být zjištěno |
+|---|---|
+| Trvalá nerovnost hloubky | Hloubka sebeodhalení obou stran je výrazně nerovnoměrná a nerovnoměrnost trvá v čase. |
+| Chybějící ochranný rámec | Asymetrie není rámována ochrannými pravidly (mlčenlivost, určený účel, omezení použití). |
+| Aktivní podněcování | Zdroj otevřenost zasažené osoby podněcuje a vlastní se přitom vyhýbá. |
+| Použití získaného | Existuje doklad nebo důvodná obava, že získané informace byly použity k tlaku, zahanbení nebo kontrole. |
 
-Body 1–3 tvoří signaturu; bod 4 ukazuje na její zneužití a zvyšuje závažnost.
+První tři podmínky tvoří signaturu; použití získaného ukazuje na její zneužití a zvyšuje závažnost.
 
 ## Odlišení od benigních podob
 

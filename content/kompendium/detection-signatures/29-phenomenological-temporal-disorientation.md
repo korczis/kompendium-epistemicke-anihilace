@@ -31,29 +31,39 @@ Kognitivní psychologie vysvětluje, proč na opěrných bodech tolik záleží.
 
 ### Subjektivní výpověď
 
-- „Ty měsíce splynuly v jeden den.“
-- „Nevím, jestli to bylo před tou hádkou, nebo po ní.“
-- „Ztratila jsem pojem o čase.“
-- Pocit, že čas „neplynul“ nebo „uběhl bez mě“.
+| Marker | Jak se pozná |
+|---|---|
+| Splývání delšího období | „Ty měsíce splynuly v jeden den.“ |
+| Ztráta pořadí u konkrétní události | „Nevím, jestli to bylo před tou hádkou, nebo po ní.“ |
+| Výslovná ztráta orientace | „Ztratila jsem pojem o čase.“ |
+| Čas bez prožitého průběhu | Pocit, že čas „neplynul“ nebo „uběhl bez mě“. |
 
 ### Pozorovatelné chování
 
-- Chyby v datech, zmeškané termíny, nejistota o dni v týdnu.
-- Nejistota při vyprávění vlastní historie; časté opravy pořadí.
-- Při pokusu sestavit časovou osu osoba zjistí velké mezery.
+| Marker | Jak se pozná |
+|---|---|
+| Chyby v datech | Zmeškané termíny, nejistota o dni v týdnu. |
+| Opravy pořadí při vyprávění | Vlastní historie se vypráví nejistě a pořadí se opakovaně koriguje. |
+| Mezery v časové ose | Při pokusu sestavit osu období osoba zjistí, že úseky chybějí. |
 
 ### Relační kontext
 
-- Režim skupiny nebo vztahu bez pravidelnosti (noční aktivity, náhlé změny plánů, omezení spánku).
-- Omezení přístupu k hodinám, telefonu, kalendáři nebo k událostem běžného světa.
-- Zdroj opakovaně přeskupuje nebo popírá pořadí událostí („to bylo až potom, co jsi…“).
+Tyto markery popisují prostředí, nikoli osobu: prostředí odnímá právě ty opěrné body, z nichž se datum události rekonstruuje (Friedman, 1993), a současně zkracuje spánek, jehož nedostatek zhoršuje pozornost a další kognitivní funkce (Lim & Dinges, 2010).
+
+| Marker | Jak se pozná |
+|---|---|
+| Režim bez pravidelnosti | Noční aktivity, náhlé změny plánů, omezený spánek. |
+| Odňaté vnější hodiny | Omezený přístup k hodinám, telefonu, kalendáři nebo k událostem běžného světa. |
+| Přepisovaná chronologie | Zdroj opakovaně přeskupuje nebo popírá pořadí událostí („to bylo až potom, co jsi…“). |
 
 ## Detekční kritéria
 
-1. Osoba popisuje nebo okolí pozoruje narušenou orientaci v čase či pořadí událostí, nově nebo výrazně zesíleně.
-2. Prostředí vykazuje narušení rytmu nebo přepisování chronologie.
-3. Obtíže jsou výraznější u událostí spojených s prostředím než u jiných období života.
-4. Byly zváženy neurologické, somatické, toxické a psychiatrické příčiny.
+| Kritérium | Co musí být doloženo |
+|---|---|
+| 1 | Osoba popisuje nebo okolí pozoruje narušenou orientaci v čase či pořadí událostí, nově nebo výrazně zesíleně. |
+| 2 | Prostředí vykazuje narušení rytmu nebo přepisování chronologie. |
+| 3 | Obtíže jsou výraznější u událostí spojených s prostředím než u jiných období života. |
+| 4 | Byly zváženy neurologické, somatické, toxické a psychiatrické příčiny. |
 
 Pozitivní při splnění všech bodů. Bod 4 je u časové dezorientace zvlášť důležitý, protože může být příznakem vážného zdravotního stavu.
 

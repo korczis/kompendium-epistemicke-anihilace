@@ -31,29 +31,37 @@ Experimentální oporu má tento mechanismus v práci Freedmana a Frasera (1966)
 
 ### Lingvistické
 
-- Obraty „samozřejmě sem patří i…“, „to je přece součást…“, „to se rozumí samo sebou“.
-- Pojem je vysvětlován příklady, které se v čase stále vzdalují od původní definice.
-- Při zpochybnění se mluvčí odvolává na původní, úzký význam („vždyť jsme se dohodli jen na tom, že…“).
-- Na konci jednání nebo vztahu nelze uvést nic, co by pod pojem *nespadalo*.
+| Marker v řeči | Co se jím připojuje k původnímu rozsahu |
+|---|---|
+| „Samozřejmě sem patří i…“, „to je přece součást…“ | Nová oblast, a to bez nového souhlasu |
+| Vysvětlování pojmu příklady | Příklady se v čase vzdalují od původní definice |
+| Odvolání na úzký význam při zpochybnění | „Vždyť jsme se dohodli jen na tom, že…“ |
+| Nemožnost uvést protipříklad | Na konci vztahu či jednání nelze jmenovat nic, co by pod pojem *nespadalo* |
 
 ### Behaviorální
 
-- Požadavky přibývají po malých krocích, každý navazuje na předchozí souhlas.
-- Odmítnutí dalšího kroku je vykládáno jako porušení původní dohody („slíbil jsi loajalitu“).
-- Zdroj se vyhýbá písemnému vymezení rozsahu.
+| Marker v jednání | Na čem se pozná |
+|---|---|
+| Přírůstek po malých krocích | Každý požadavek se opírá o souhlas s předchozím |
+| Odmítnutí vykládané jako porušení dohody | „Slíbil jsi loajalitu“ řečené o věci, která v dohodě nebyla |
+| Vyhýbání se písemnému vymezení | Zdroj odmítá rozsah zapsat nebo jeho zápis odkládá |
 
 ### Relační a institucionální
 
-- V pracovních vztazích se náplň práce rozšiřuje bez změny smlouvy a bez odměny; odmítnutí je hodnoceno jako „nedostatek angažovanosti“.
-- Ve skupinách se rozšiřuje okruh toho, co podléhá schválení (oblékání, kontakty, finance, čas).
-- V institucích se pravomoc orgánu rozšiřuje výkladem bez formální změny pravidel (srov. [EA-2.4.2 Policy Rewriting Skrytá](@/kompendium/techniques/ea-2-4-2-policy-rewriting-skryta.md)).
+| Prostředí | Podoba rozšíření |
+|---|---|
+| Pracovní vztah | Náplň práce roste bez změny smlouvy a bez odměny; odmítnutí platí za „nedostatek angažovanosti“ |
+| Skupina | Rozšiřuje se okruh toho, co podléhá schválení (oblékání, kontakty, finance, čas) |
+| Instituce | Pravomoc orgánu se rozšiřuje výkladem bez formální změny pravidel (srov. [EA-2.4.2 Policy Rewriting Skrytá](@/kompendium/techniques/ea-2-4-2-policy-rewriting-skryta.md)) |
 
 ## Detekční kritéria
 
-1. Lze doložit původní, užší vymezení pojmu nebo závazku.
-2. Současné uplatnění je prokazatelně širší a k rozšíření nedošlo výslovným novým souhlasem.
-3. Při zpochybnění se zdroj vrací k užšímu vymezení, v jednání však uplatňuje širší.
-4. Rozšíření směřuje k větší kontrole nebo k větším povinnostem jedné strany.
+| Bod | Kritérium |
+|---|---|
+| 1 | Lze doložit původní, užší vymezení pojmu nebo závazku. |
+| 2 | Současné uplatnění je prokazatelně širší a k rozšíření nedošlo výslovným novým souhlasem. |
+| 3 | Při zpochybnění se zdroj vrací k užšímu vymezení, v jednání však uplatňuje širší. |
+| 4 | Rozšíření směřuje k větší kontrole nebo k větším povinnostem jedné strany. |
 
 Body 1 a 2 jsou nutné; bod 3 odlišuje signaturu od pouhé nepřesnosti; bod 4 určuje závažnost.
 

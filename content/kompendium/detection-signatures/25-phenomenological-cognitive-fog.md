@@ -31,31 +31,29 @@ Kognitivní věda tento obraz dobře podkládá. Baddeley a Hitch (1974) popsali
 
 ### Subjektivní výpověď
 
-- „Nedokážu myslet, když je v blízkosti.“
-- „Než jsem s ním mluvila, věděla jsem, co chci říct, a pak to bylo pryč.“
-- „Mám pocit, že hloupnu.“
-- Popis, že jasnost se vrací na dovolené, u přátel, mimo skupinu.
+| Čeho se výpověď týká | Typická formulace |
+| --- | --- |
+| Vázanost na přítomnost zdroje | „Nedokážu myslet, když je v blízkosti.“ |
+| Ztráta rozmyšlené úvahy | „Než jsem s ním mluvila, věděla jsem, co chci říct, a pak to bylo pryč.“ |
+| Hodnocení vlastní mysli | „Mám pocit, že hloupnu.“ |
+| Návrat jasnosti mimo prostředí | popis, že myšlení se „srovná“ na dovolené, u přátel nebo mimo skupinu |
 
 ### Pozorovatelné chování
 
-- Zapomínání běžných věcí, chyby v práci, pomalé odpovědi.
-- Neschopnost rozhodovat i o drobnostech, odkládání rozhodnutí na druhou osobu.
-- Při rozhovoru o vztahu nebo skupině osoba ztrácí nit, kdežto u neutrálních témat ne.
+Zvenčí je mlha patrná na drobnostech: osoba zapomíná běžné věci, dělá v práci chyby, odpovídá pomalu a i nepodstatná rozhodnutí přenechává druhému člověku. Rozlišující je však selektivita – při rozhovoru o vztahu nebo o skupině ztrácí nit, kdežto u neutrálních témat nikoli. Teorie řízení pozornosti (Eysenck et al., 2007) takovou selektivitu předpokládá: úzkost odvádí pozornost k ohrožujícím podnětům a oslabuje právě ty výkonné funkce, které umožňují potlačit rušivou myšlenku a vrátit se k úkolu, takže výkon klesá u témat spojených s ohrožením víc než u ostatních.
 
 ### Relační kontext
 
-- Zhoršení po setkáních, telefonátech nebo zprávách od zdroje.
-- Režim, který omezuje spánek, jídlo nebo odpočinek (dlouhé schůzky, noční aktivity, půsty).
-- Vysoký objem informací nebo požadavků ze strany zdroje.
+Kontextová vrstva signatury je v tom, co mlze předchází: zhoršení následuje po setkáních, telefonátech nebo zprávách od zdroje; prostředí krátí spánek, jídlo a odpočinek dlouhými schůzkami, nočními aktivitami nebo posty; objem informací a požadavků ze strany zdroje je trvale vysoký. Lim a Dinges (2010) doložili, že i krátkodobé omezení spánku zhoršuje především pozornost a bdělost, tedy přesně tu složku, jejíž ztrátu osoby popisují jako nejnápadnější; režim, který spánek krátí, proto k mlze přispívá bez ohledu na ostatní působení.
 
 ## Detekční kritéria
 
-1. Osoba opakovaně popisuje ztrátu mentální jasnosti, případně ji potvrzuje okolí.
-2. Průběh obtíží časově souvisí s kontaktem se zdrojem nebo prostředím (zhoršení při kontaktu, zlepšení mimo něj), a to opakovaně, nikoli jednorázově.
-3. Byly zváženy a přiměřeně vyšetřeny jiné příčiny (viz níže).
-4. Je přítomna alespoň jedna další signatura působení (behaviorální nebo lingvistická).
-
-Bez bodu 3 nelze signaturu uzavřít. Bez bodu 4 jde o kontextově vázanou mlhu, jejíž příčina zůstává otevřená.
+| Kritérium | Co se zjišťuje | Role v závěru |
+| --- | --- | --- |
+| Opakovaná výpověď o ztrátě jasnosti | osoba ji popisuje opakovaně, případně ji potvrzuje okolí | nutné |
+| Časová vazba na kontakt | obtíže se zhoršují při kontaktu se zdrojem nebo prostředím a mimo něj ustupují, a to opakovaně, nikoli jednorázově | nutné |
+| Zvážené jiné příčiny | somatické, farmakologické i psychiatrické příčiny byly zváženy a přiměřeně vyšetřeny (viz níže) | bez něj nelze signaturu uzavřít |
+| Souběh další signatury | je přítomna alespoň jedna behaviorální nebo lingvistická signatura působení | bez něj zůstává příčina otevřená |
 
 ## Odlišení od běžných stavů
 

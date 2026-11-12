@@ -31,30 +31,40 @@ Výzkum rozhodování pod časovým tlakem tento mechanismus podrobně dokumentu
 
 ### Lingvistické
 
-- Lhůty bez věcného důvodu („jen dnes“, „poslední místo“).
-- Katastrofické důsledky odkladu („pak už bude pozdě navždy“).
-- Morální nebo citový nátlak spojený s rychlostí („kdo váhá, nevěří“).
-- Odrazování od konzultace („neříkej to nikomu, nepochopili by to“).
+Jazykové markery pracují se vzácností a s uzavírajícím se oknem; Cialdini (1984) ukázal, že právě tyto prvky zvyšují vnímanou hodnotu nabídky nezávisle na tom, co nabídka obsahuje.
+
+| Marker | Jak se pozná |
+|---|---|
+| Lhůta bez věcného důvodu | „Jen dnes“, „poslední místo“ – a důvod lhůty nelze ověřit. |
+| Katastrofický odklad | „Pak už bude pozdě navždy.“ |
+| Rychlost jako morální zkouška | „Kdo váhá, nevěří“ – váhání se vykládá jako nedostatek loajality. |
+| Odrazování od konzultace | „Neříkej to nikomu, nepochopili by to.“ |
 
 ### Behaviorální
 
-- Rozhodnutí je předkládáno na konci setkání, v únavě nebo v emočně vypjaté chvíli.
-- Zdroj odmítá dát podklady domů nebo k posouzení třetí osobě.
-- Po odmítnutí přichází nová, ještě naléhavější nabídka.
-- Lhůty se opakují – „jedinečná příležitost“ se vrací v dalších kolech.
+| Marker | Jak se pozná |
+|---|---|
+| Volba nejslabší chvíle | Rozhodnutí je předkládáno na konci setkání, v únavě nebo v emočně vypjaté chvíli. |
+| Podklady nesmí opustit místnost | Zdroj odmítá dát dokumenty domů nebo k posouzení třetí osobě. |
+| Stupňování po odmítnutí | Po „ne“ přichází nová, ještě naléhavější nabídka. |
+| Opakovaná „poslední“ lhůta | „Jedinečná příležitost“ se vrací v dalších kolech. |
 
 ### Relační a institucionální
 
-- Ve vztahu se opakují „krize“, které vyžadují okamžitou oběť (peníze, zrušení plánů).
-- Ve skupinách jsou rozhodnutí o závazcích (finanční dary, přesun bydliště) svázána s „okny příležitosti“.
-- V organizacích jsou zaměstnanci tlačeni k podpisu dokumentů bez času na přečtení nebo právní konzultaci.
+| Marker | Jak se pozná |
+|---|---|
+| Opakovaná krize ve vztahu | Objevují se situace, které žádají okamžitou oběť – peníze, zrušení plánů. |
+| Okno příležitosti ve skupině | Závazky jako finanční dar nebo přesun bydliště jsou svázány s krátkým „oknem“. |
+| Podpis bez času na přečtení | Zaměstnanci jsou tlačeni k podpisu dokumentů bez prostoru na právní konzultaci. |
 
 ## Detekční kritéria
 
-1. Rozhodnutí má velké a obtížně vratné důsledky.
-2. Lhůta je krátká a není podložena ověřitelným vnějším důvodem.
-3. Zdroj odrazuje od konzultace nebo odkladu, případně trestá jejich žádost.
-4. Vzorec naléhavosti se opakuje.
+| Kritérium | Co musí být doloženo |
+|---|---|
+| 1 | Rozhodnutí má velké a obtížně vratné důsledky. |
+| 2 | Lhůta je krátká a není podložena ověřitelným vnějším důvodem. |
+| 3 | Zdroj odrazuje od konzultace nebo odkladu, případně trestá jejich žádost. |
+| 4 | Vzorec naléhavosti se opakuje. |
 
 Pozitivní při splnění bodů 1–3. Bod 4 ukazuje na systematickou techniku, nikoli na jednorázovou situaci.
 

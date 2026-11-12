@@ -25,9 +25,11 @@ Gaslighting **není diagnóza** v DSM ani v MKN. Je to popis vzorce jednání, k
 
 Gaslighting útočí na **epistemickou sebedůvěru**: na předpoklad, že vlastní paměť a vnímání jsou přiměřeně spolehlivé. Bez tohoto předpokladu člověk nemůže hájit svou verzi událostí, protože nemá na čem stát. Mechanismus má obvykle tři fáze:
 
-1. **nedůvěra** – zasažená osoba se brání a jinou verzi odmítá;
-2. **obrana** – snaží se zdroj přesvědčit, shromažďuje důkazy, ale začíná pochybovat;
-3. **útlum** – přebírá verzi zdroje, aby předešla konfliktu, a ztrácí důvěru ve svůj úsudek.
+| Fáze | Co se v ní děje |
+| --- | --- |
+| Nedůvěra | zasažená osoba se brání a cizí verzi odmítá |
+| Obrana | snaží se zdroj přesvědčit a shromažďuje důkazy, ale sama už začíná pochybovat |
+| Útlum | přebírá verzi zdroje, aby předešla konfliktu, a ztrácí důvěru ve vlastní úsudek |
 
 Tento popis fází (Stern 2007) je klinicky užitečný jako orientace, nikoli jako pevná posloupnost. Důsledkem bývá [skok sebepochybnosti](@/kompendium/detection-signatures/26-phenomenological-self-doubt-spike.md), [nejistota o realitě](@/kompendium/detection-signatures/28-phenomenological-reality-uncertainty.md) a závislost na zdroji jako arbitrovi toho, co je pravda.
 
@@ -37,33 +39,35 @@ Jednotlivé teoretické přístupy zdůrazňují různé vrstvy téhož jevu. Ca
 
 ### Lingvistické
 
-- **Popření výroku**: „to jsem neřekl“, i když existuje záznam.
-- **Popření události**: „to se nestalo“, „vymýšlíš si“.
-- **Útok na paměť**: „tvoje paměť je nespolehlivá“, „vždycky si věci překrucuješ“.
-- **Útok na soudnost**: „jsi hysterická“, „měla bys k doktorovi“.
-- **Falešný sociální důkaz**: „všichni si myslí, že přeháníš“.
-- **Trivializace**: „děláš z komára velblouda“, „to byl jen vtip“.
+| Typ výroku | Typická formulace |
+| --- | --- |
+| Popření vlastního výroku | „to jsem neřekl“, i když existuje záznam |
+| Popření události | „to se nestalo“, „vymýšlíš si“ |
+| Útok na paměť | „tvoje paměť je nespolehlivá“, „vždycky si věci překrucuješ“ |
+| Útok na soudnost | „jsi hysterická“, „měla bys k doktorovi“ |
+| Falešný sociální důkaz | „všichni si myslí, že přeháníš“ |
+| Trivializace | „děláš z komára velblouda“, „to byl jen vtip“ |
 
 ### Behaviorální
 
-- Zdroj mění, skrývá nebo přemisťuje předměty a pak popírá, že k tomu došlo.
-- Přerušuje kontakty zasažené osoby se svědky, kteří by její verzi potvrdili (souběh s [akcelerací izolace](@/kompendium/detection-signatures/13-behavioral-isolation-acceleration.md)).
-- Předkládá zasažené osobě „důkazy“ její nespolehlivosti a sdílí je s okolím.
+Mimo řeč se vzorec projevuje zacházením s prostředím zasažené osoby: zdroj mění, skrývá nebo přemisťuje předměty a následně popírá, že k tomu došlo, a zároveň jí předkládá „důkazy“ její nespolehlivosti, které sdílí s okolím. Stern (2007) popisuje takové jednání jako běžnou součást gaslightingu v blízkém vztahu, v němž je spor o fakta postupně vytlačen sporem o to, komu lze věřit.
+
+Zvlášť závažné je přerušování kontaktů se svědky, kteří by verzi zasažené osoby potvrdili (souběh s [akcelerací izolace](@/kompendium/detection-signatures/13-behavioral-isolation-acceleration.md)). Stark (2007) řadí izolaci k základním prostředkům nátlakové kontroly právě proto, že odebírá přístup k nezávislému srovnání, bez něhož nelze cizí verzi reality konfrontovat s ničím jiným než s vlastní nejistotou.
 
 ### Relační a institucionální
 
-- Zasažená osoba se omlouvá za věci, které neudělala, a před rozhovory si zkouší, co řekne.
-- Okolí (rodina, kolegové) přebírá verzi zdroje, protože působí klidněji a soudněji.
-- V institucích může mít gaslighting podobu popírání zdokumentovaných událostí nebo zpochybňování duševního zdraví stěžovatele (srov. [případová studie pedagogického gaslightingu](@/kompendium/case-studies/03-pedagogicke-gaslighting.md)).
+Relační vrstvu signatury tvoří změny u zasažené osoby i u jejího okolí: omlouvá se za věci, které neudělala, před rozhovory si zkouší, co řekne, a rodina nebo kolegové přebírají verzi zdroje, protože působí klidněji a soudněji. V institucích má tentýž vzorec podobu popírání zdokumentovaných událostí nebo zpochybňování duševního zdraví stěžovatele (srov. [případová studie pedagogického gaslightingu](@/kompendium/case-studies/03-pedagogicke-gaslighting.md)). Sweet (2019) ukázala, že účinnost gaslightingu nespočívá jen v jednání zdroje, nýbrž i v ochotě okolí a institucí uvěřit tomu, kdo lépe odpovídá očekávání o věrohodnosti; Fricker (2007) tuto nerovnou váhu výpovědi pojmenovala jako svědeckou nespravedlnost.
 
 ## Detekční kritéria
 
-1. Opakované popírání nebo zpochybňování paměti či vnímání zasažené osoby ve více situacích.
-2. Alespoň v některých případech existuje nezávislý doklad (záznam, zpráva, svědek), který verzi zasažené osoby podporuje.
-3. Zpochybňování směřuje jedním směrem – zdroj sám svou paměť nezpochybňuje.
-4. U zasažené osoby lze pozorovat pokles důvěry ve vlastní úsudek, který časově souvisí se vztahem.
+| Kritérium | Co se zjišťuje | Role v závěru |
+| --- | --- | --- |
+| Opakované zpochybňování | popírání nebo zpochybňování paměti či vnímání zasažené osoby ve více různých situacích | nutné |
+| Nezávislý doklad | alespoň v některých případech existuje záznam, zpráva nebo svědek podporující verzi zasažené osoby | nutné |
+| Jednosměrnost | zpochybňování míří jedním směrem; zdroj svou vlastní paměť nezpochybňuje | nutné |
+| Pokles důvěry ve vlastní úsudek | lze jej u zasažené osoby pozorovat a časově souvisí se vztahem ke zdroji | popisuje dopad |
 
-Pro závěr je klíčová kombinace bodů 1–3; bod 4 popisuje dopad.
+Pro závěr je klíčová kombinace nutných kritérií; poslední řádek popisuje dopad, nikoli podmínku.
 
 ## Odlišení od benigních podob
 
@@ -89,9 +93,11 @@ Obvinění z gaslightingu může být samo nástrojem manipulace: kritiku lze zp
 
 Test není určen zasažené osobě. Konfrontace zdroje s důkazy v násilném vztahu může zvýšit riziko eskalace. Validace je úkolem profesionála:
 
-- **Test konzistence dokladů**: srovnat konkrétní popřené výroky nebo události s nezávislými doklady (zprávy, e-maily, kalendáře, výpovědi třetích osob, viz [třetiosobní potvrzení](@/kompendium/forensic-legal/37-third-party-corroboration.md)).
-- **Test vzorce**: z deníku zasažené osoby nebo spisu sestavit přehled situací, kdy byla její paměť zpochybněna, a posoudit, kolik z nich lze ověřit a kolik se potvrdilo.
-- **Test jednosměrnosti**: zjistit, zda zdroj někdy připustil vlastní omyl.
+| Test | Co se srovnává |
+| --- | --- |
+| Konzistence dokladů | konkrétní popřené výroky nebo události proti nezávislým dokladům: zprávám, e-mailům, kalendářům, výpovědím třetích osob (viz [třetiosobní potvrzení](@/kompendium/forensic-legal/37-third-party-corroboration.md)) |
+| Vzorec v čase | přehled situací, kdy byla paměť zasažené osoby zpochybněna, sestavený z jejího deníku nebo ze spisu, a podíl těch, které se podařilo ověřit |
+| Jednosměrnost | zda zdroj někdy připustil vlastní omyl, nebo zda pochybnost směřuje vždy k druhé straně |
 
 ## Dokumentace v praxi
 
@@ -99,18 +105,9 @@ Zasažená osoba si může vést **bezpečně uložený** deník (mimo dosah zdr
 
 ## Doporučený postup
 
-**Pro zasaženou osobu:**
+**Pro zasaženou osobu:** oporou je deník a doklady uložené mimo dosah zdroje a ověřování vlastní paměti u lidí mimo vztah – ne proto, že by byla nespolehlivá, ale aby měla srovnání, které jí nikdo nemůže přepsat. Herman (1992) řadí obnovení bezpečí na první místo zotavení, před zpracování vzpomínek; proto má přednost odborná pomoc u terapeuta, který zná dynamiku psychického násilí, a ne konfrontace zdroje s důkazy tam, kde hrozí eskalace.
 
-1. Vést si deník a uchovávat doklady na bezpečném místě.
-2. Ověřovat svou paměť u lidí mimo vztah – ne proto, že by byla nespolehlivá, ale aby měla oporu.
-3. Hledat odbornou pomoc u terapeuta, který zná dynamiku psychického násilí.
-4. Nekonfrontovat zdroj s důkazy, pokud existuje riziko eskalace.
-
-**Pro profesionála:**
-
-1. Validovat zkušenost, aniž by předčasně vynášel soud o druhé osobě.
-2. Posoudit bezpečnost, včetně rizika fyzického násilí a pronásledování ([Coercive Control Scale](@/kompendium/techniques/ea-8-1-4-coercive-control-scale.md), [Stalking Behavior Checklist](@/kompendium/techniques/ea-8-1-3-stalking-behavior-checklist.md)).
-3. Postupovat podle [protokolu domácího násilí](@/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md) a obnovu opírat o [subakutní rekonstrukci důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md).
+**Pro profesionála:** úkolem je validovat zkušenost, aniž by hodnotitel předčasně vynášel soud o druhé osobě, a posoudit bezpečnost včetně rizika fyzického násilí a pronásledování ([Coercive Control Scale](@/kompendium/techniques/ea-8-1-4-coercive-control-scale.md), [Stalking Behavior Checklist](@/kompendium/techniques/ea-8-1-3-stalking-behavior-checklist.md)). Stark (2007) ukazuje, že u nátlakové kontroly rozhoduje vzorec jednání v čase, nikoli jednotlivá epizoda, a posouzení proto vychází z celé časové osy, ne z posledního incidentu; další postup se opírá o [protokol domácího násilí](@/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md) a obnovu o [subakutní rekonstrukci důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md).
 
 **Právní rámec:** v české praxi může být psychické násilí ve společném obydlí posuzováno jako týrání osoby žijící ve společném obydlí (§ 199 zákona č. 40/2009 Sb., trestní zákoník) a vytrvalé pronásledování může naplnit skutkovou podstatu nebezpečného pronásledování podle § 354; oběti mají práva podle zákona č. 45/2013 Sb., o obětech trestných činů. V Anglii a Walesu je kontrolující nebo donucující chování v blízkém vztahu trestné podle s. 76 Serious Crime Act 2015. Posouzení konkrétního případu patří právníkovi (viz [právo o coercive control](@/kompendium/forensic-legal/12-coercive-control-law.md)).
 

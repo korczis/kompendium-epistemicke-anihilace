@@ -284,7 +284,7 @@ HOWTO_STEP_CELL = re.compile(r"^\s*\|.*\bKrok\s*\d", re.M | re.I)
 # vylučují expozici") must NOT match — hence the `vyluč` guard. LEGIT_PERMISSION also keys on the
 # byte-identical permission item, so renaming the heading but keeping the claim does not evade.
 LEGIT_INDICATION = re.compile(
-    r"^#{2,6}\s+(?![^\n]*vyluč)[^\n]*"
+    r"^#{2,6}\s+(?![^\n]*vylo?uč)[^\n]*"  # guard BOTH stems: vyluč- (vylučuje) and vylouč- (vyloučena)
     r"(?:legitimní\s+(?:indikac|užit|použit|kontext|aplikac)|indikace\s+k\s+aplikaci"
     r"|podmínky\s+(?:použití|aplikace|nasazení)|kdy\s+je\s+legitimní"
     r"|přípustné?\s+(?:užití|použití|nasazení|indikac|aplikac))", re.M | re.I)

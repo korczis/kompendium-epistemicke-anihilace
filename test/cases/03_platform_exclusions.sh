@@ -32,8 +32,8 @@ expect_fail() {
   restore
 }
 
-data=$(find data -path 'data/fauly/*.toml' -o -path 'data/nlp/*.toml' | sort | head -1)
-page=$(find content/kompendium -path '*nlp-vzorce/*' -name '*.md' ! -name '_index.md' | sort | head -1)
+data=$(find data -path 'data/fauly/*.toml' -o -path 'data/nlp/*.toml' | sort | sed -n 1p)
+page=$(find content/kompendium -path '*nlp-vzorce/*' -name '*.md' ! -name '_index.md' | sort | sed -n 1p)
 [ -n "$data" ] && [ -n "$page" ] || { echo "no catalogue data or page to seed"; exit 1; }
 
 printf '\n# provenance: apps/prismatic_web/priv/dd_cases/x.json\n' >> "$data"

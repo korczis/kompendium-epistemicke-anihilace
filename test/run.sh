@@ -2,7 +2,7 @@
 # Runs every behavioural case under test/cases/ (or the ones named) and reports each.
 # A case is a bash script that exits 0 on success; it works on a temporary copy of the
 # repository and never changes the checkout, so cases run in parallel (TEST_JOBS, default the
-# number of CPUs): each case calls check-ia several times at ~25 s a call, and run one after
+# CPUs up to 4): each case calls check-ia several times at ~25 s a call, and run one after
 # another the suite outgrew CI's 70-minute job (2026-11-12). Output stays in case order.
 #
 #   test/run.sh            every case
@@ -11,7 +11,10 @@ set -uo pipefail
 
 root=$(cd "$(dirname "$0")/.." && pwd)
 cd "$root"
-jobs=${TEST_JOBS:-$(getconf _NPROCESSORS_ONLN 2>/dev/null || sysctl -n hw.ncpu 2>/dev/null || echo 2)}
+# At most 4 by default: each case extracts the tree and some build the whole site (~600 MB),
+# so jobs are bounded by disk, not only by CPUs; 18 at once filled this Mac's disk (2026-11-12).
+cpus=$(getconf _NPROCESSORS_ONLN 2>/dev/null || sysctl -n hw.ncpu 2>/dev/null || echo 2)
+jobs=${TEST_JOBS:-$(( cpus < 4 ? cpus : 4 ))}
 out_dir=$(mktemp -d "${TMPDIR:-/tmp}/kea-tests.XXXXXX")
 # One snapshot of the index for every case: `git write-tree` refreshes the index and takes
 # index.lock, so cases computing it in parallel collided ("index.lock: File exists").
@@ -22,7 +25,7 @@ trap 'rm -rf "$out_dir"' EXIT
 cases=()
 for case in test/cases/*_*.sh; do
   n=$(basename "$case"); n=${n%%_*}
-  if [ $# -gt 0 ] && ! printf '%s\n' "$@" | grep -qx "$n"; then continue; fi
+  if [ $# -gt 0 ] && ! printf '%s\n' "$@" | grep -x "$n" >/dev/null; then continue; fi
   cases+=("$case")
 done
 

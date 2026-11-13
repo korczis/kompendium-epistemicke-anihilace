@@ -52,15 +52,19 @@ Zasažený člověk referuje, že „přestal rozumět slovům, která celý ži
 
 ## Bezpečnostní rámec
 
-| Mechanismus | Implementace |
-|--------------|--------------|
-| **IRB přezkum** | Vícepatrový etický přezkum nezávislými komisemi před spuštěním |
-| **Informed consent** | Explicitní, opakovaně ověřovaný souhlas s právem kdykoliv odstoupit |
-| **Real-time monitoring** | Kontinuální sledování biopsychosociálních markerů |
-| **Eskalační hierarchie** | Předem definované prahy a postup intervence |
-| **External audit** | Nezávislá komise s pravomocí pozastavení protokolu |
-| **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
-| **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
+Tam, kde se pojmový systém rozebírá, zůstává po pojistkách rozpoznatelné prázdné místo.
+
+Rozebírání cizího pojmového aparátu stránka nenavrhuje ani neopravňuje; vede jen k jeho rozpoznání u sebe i jinde.
+
+| Pojistka | Co znamená její nepřítomnost |
+|----------|------------------------------|
+| **[IRB přezkum](@/glossary/irb-review.md)** | Nikdo mimo dané uspořádání jeho přínos a jeho rizika nevážil a o žádném takovém vážení nezůstal zápis |
+| **[Informovaný souhlas](@/glossary/informed-consent.md)** | Zasažený člověk neumí říct, s čím souhlasil, od koho to slyšel a co se stane, když přestane |
+| **Průběžné sledování stavu** | Zhoršení nikdo nezaznamenával, nebo se zaznamenaný údaj vykládal jako součást procesu; nezůstalo nic, co by šlo zpětně srovnat |
+| **Shoda na tom, kdy přestat** | Nikdo se předem neshodl na tom, co by platilo za důvod přestat; otázku, kdy je toho dost, zodpovídá zpětně tentýž, kdo uspořádání vede |
+| **Nezávislý audit** | Na průběh se nepodíval nikdo, kdo by na něm nebyl zúčastněn, a námitka zvenčí se vyřizuje uvnitř |
+| **Dokumentační řetězec** | Záznam neexistuje, nebo vznikl zpětně a drží jej ten, kdo je zároveň aktérem; řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) nelze rekonstruovat |
+| **Kanál pro oznamovatele** | Člověk, který chce o věci mluvit, nemá kam; každá cesta vede k tomu, kdo je sám předmětem námitky |
 
 ## Vylučující okolnosti
 

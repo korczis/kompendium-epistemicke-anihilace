@@ -54,17 +54,17 @@ Měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.m
 
 ## Bezpečnostní rámec
 
-Následující pojistky jsou shrnuty proto, že jejich nepřítomnost je sama nálezem.
+Kaskádu debriefingů tato stránka nepředepisuje ani nepovoluje; pojistky níže uvádí proto, že jejich nepřítomnost je sama rozpoznatelná.
 
-| Mechanismus | Implementace |
-|--------------|--------------|
-| **IRB přezkum** | Vícepatrový etický přezkum nezávislými komisemi před spuštěním |
-| **[Informed consent](@/glossary/informed-consent.md)** | Explicitní, opakovaně ověřovaný souhlas s právem kdykoliv odstoupit |
-| **Real-time monitoring** | Kontinuální sledování biopsychosociálních markerů |
-| **Eskalační hierarchie** | Předem definované prahy a postup intervence |
-| **External audit** | Nezávislá komise s pravomocí pozastavení protokolu |
-| **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
-| **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
+| Pojistka | Co znamená její nepřítomnost |
+|---|---|
+| **[IRB přezkum](@/glossary/irb-review.md)** | Nikdo mimo dané uspořádání nevážil jeho přínos proti riziku a o takovém vážení neexistuje záznam |
+| **[Informovaný souhlas](@/glossary/informed-consent.md)** | Zúčastněný nevěděl, čemu je vystaven, a odstoupení pro něj nebylo dostupné bez ztráty |
+| **Průběžné sledování stavu** | Zhoršení stavu nikdo nezaznamenává a vyjde najevo až tehdy, když na ně upozorní sám zasažený |
+| **Shoda na tom, kdy přestat** | Nikdo se předem neshodl na tom, co by platilo za okamžik zastavení, a rozhoduje o tom ten, kdo zátěž vede |
+| **Nezávislý audit** | Uspořádání nikdo zvenčí nepřezkoumal a nikdo mimo ně nemá jak je zastavit |
+| **Dokumentační řetězec** | Co se dělo, nelze doložit jinak než výpovědí toho, kdo uspořádání vedl ([chain of custody](@/glossary/chain-of-custody.md)) |
+| **Kanál pro oznamovatele** | Námitku nelze vznést nikde jinde než u toho, proti komu míří, a je rozpoznatelná podle svého autora |
 
 ## Co vylučuje debriefing tohoto typu
 

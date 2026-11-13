@@ -120,9 +120,9 @@ Aplikace techniky **EA-6.1.1** vyžaduje specifickou modifikaci v následující
 
 ## Intervenční variace
 
-Popsané adaptace jsou varianty, které klinická literatura zná; kniha je uvádí jako kontext rozpoznávání.
+Formát rozhovoru se různí prostředím. Kniha varianty uvádí proto, aby byl rozpoznatelný i rozhovor vedený mimo ordinaci.
 
-Kvantifikace, počty sezení a prahy návratu patří manuálu použitého postupu a supervizi, nikoli této knize.
+Počty, délky a mezní hodnoty patří manuálu použitého nástroje a supervizi; tato stránka je neuvádí.
 
 Video-mediovaná varianta se rozšířila v době pandemických omezení a pro část populace je dostupnou alternativou. U aktivní disociativní symptomatologie zachovává osobní setkání klinickou výhodu, protože regulaci nese fyzická přítomnost druhého člověka (van der Kolk, 2014).
 

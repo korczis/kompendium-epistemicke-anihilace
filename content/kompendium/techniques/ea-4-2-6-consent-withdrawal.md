@@ -52,15 +52,17 @@ Zasažený člověk referuje, že si odchod „nemohl dovolit“, a popisuje to 
 
 ## Bezpečnostní rámec
 
-| Mechanismus | Implementace |
-|--------------|--------------|
-| **IRB přezkum** | Vícepatrový etický přezkum nezávislými komisemi před spuštěním |
-| **Informed consent** | Explicitní, opakovaně ověřovaný souhlas s právem kdykoliv odstoupit |
-| **Real-time monitoring** | Kontinuální sledování biopsychosociálních markerů |
-| **Eskalační hierarchie** | Předem definované prahy a postup intervence |
-| **External audit** | Nezávislá komise s pravomocí pozastavení protokolu |
-| **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
-| **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
+Pojistky níže jsou uvedeny proto, že u odvolatelnosti souhlasu je rozpoznatelná právě jejich nepřítomnost: chybějí-li, nelze o souhlasu mluvit jako o úkonu, který jde vzít zpět (Faden a Beauchamp, 1986). Stránka žádné takové uspořádání nepředepisuje ani k němu neopravňuje.
+
+| Pojistka | Co znamená její nepřítomnost |
+|----------|------------------------------|
+| **[IRB přezkum](@/glossary/irb-review.md)** | Přínos a riziko nevážil nikdo mimo samo uspořádání a o žádném takovém vážení nezůstal záznam, který by šlo předložit |
+| **[Informovaný souhlas](@/glossary/informed-consent.md)** | Zasažený nevěděl, do čeho vstupuje, nebo to věděl a nemohl to vzít zpět bez ztráty, kterou nesl sám |
+| **Průběžné sledování stavu** | Zhoršení stavu nikdo zvenčí nezaznamenával; co se se zasaženým dělo, je známo jen z jeho vlastního pozdějšího vyprávění |
+| **Shoda na tom, kdy přestat** | Nikdo se předem neshodl na tom, co by platilo za okamžik, kdy se přestává, a rozhodnutí tak zůstalo na těch, kdo měli zájem na pokračování |
+| **Nezávislý audit** | Uspořádání posuzují pouze ti, kdo je vedou, a nikdo zvenčí je nemůže pozastavit |
+| **Dokumentační řetězec** | Co se stalo, nelze po čase rekonstruovat z ničeho než ze vzpomínek účastníků; chybí doložitelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
+| **Kanál pro oznamovatele** | Kdo si uvnitř porušení všiml, nemá je komu oznámit, aniž by nesl následky; mlčení uvnitř proto není dokladem, že se nic nedělo |
 
 ## Okolnosti, které vylučují expozici
 

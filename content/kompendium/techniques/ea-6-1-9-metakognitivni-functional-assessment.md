@@ -120,9 +120,9 @@ Aplikace techniky **EA-6.1.9** vyžaduje specifickou modifikaci v následující
 
 ## Intervenční variace
 
-Popsané adaptace jsou varianty, které klinická literatura zná; kniha je uvádí jako kontext rozpoznávání.
+Posuzování metakognice probíhá v různých uspořádáních. Jejich výčet zde slouží rozpoznávání takového uspořádání, nikoli jeho sestavení.
 
-Kvantifikace, počty sezení a prahy návratu patří manuálu použitého postupu a supervizi, nikoli této knize.
+Kvantifikaci výkonu a jeho srovnání s normou ponechává kniha manuálu nástroje a supervizi.
 
 Video-mediovaná varianta se rozšířila v době pandemických omezení a pro část populace je dostupnou alternativou. U aktivní disociativní symptomatologie zachovává osobní setkání klinickou výhodu, protože regulaci nese fyzická přítomnost druhého člověka (van der Kolk, 2014).
 

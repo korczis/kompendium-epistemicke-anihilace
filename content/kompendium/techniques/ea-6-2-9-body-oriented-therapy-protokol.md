@@ -118,7 +118,7 @@ Aplikace techniky **EA-6.2.9** vyžaduje specifickou modifikaci v následující
 
 ## Intervenční variace
 
-Klinický kontext připouští dokumentované adaptace pro různá prostředí a populace. Kniha je zaznamenává proto, že se s každou z nich mění rizikový profil, nikoli aby některou doporučovala; volba zůstává indikačním rozhodnutím klinika ve supervizi ([jak používat](@/kompendium/01-predmluva/jak-pouzivat.md)).
+Tělesně orientované přístupy se různí školou i rámcem. Kniha ty rozdíly zapisuje proto, aby byly rozpoznatelné.
 
 **Video-mediovaná varianta**: rozšířila se v souvislosti s pandemií covidu-19. U aktivní disociativní symptomatologie zůstává fyzická přítomnost druhého člověka klinicky významná, protože sama nese regulační funkci (Porges, 2011). Rozdíl se týká dostupnosti pomoci při destabilizaci a rozsahu dokumentace.
 

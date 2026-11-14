@@ -5,7 +5,7 @@
     "hits": [
       {
         "code": null,
-        "in": 278,
+        "in": 279,
         "kind": "Pojem",
         "path": "glossary/disociace.md",
         "tier": 4,
@@ -114,13 +114,13 @@
         "why": "title_word"
       },
       {
-        "code": "EA-2.1.1",
-        "in": 51,
-        "kind": "Technika",
-        "path": "kompendium/techniques/ea-2-1-1-expertni-disinflation.md",
+        "code": null,
+        "in": 53,
+        "kind": "Pojem",
+        "path": "glossary/uzkostne-poruchy.md",
         "tier": 5,
-        "title": "EA-2.1.1 Expertní disinflace",
-        "url": "/kompendium/techniques/ea-2-1-1-expertni-disinflation/",
+        "title": "Úzkostné poruchy",
+        "url": "/glossary/uzkostne-poruchy/",
         "why": "title_word"
       }
     ],
@@ -130,7 +130,7 @@
     "op": "search",
     "query": "Dis",
     "schema": "kompendium-engine/v1",
-    "total": 110
+    "total": 111
   },
   "input": {
     "op": "search",

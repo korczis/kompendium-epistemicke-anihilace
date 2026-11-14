@@ -8,12 +8,12 @@ tags = ["kompendium"]
 
 [extra]
 toc = false
-entries = 5238
+entries = 5248
 +++
 
 Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotlivých stránkách kompendia a glosáře; ručně se needituje.
 
-**5238 položek**, seřazených podle autora.
+**5248 položek**, seřazených podle autora.
 
 ## A
 
@@ -528,6 +528,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Případ 55: Zotavení z QAnon konspirační sítě](@/kompendium/case-studies/55-qanon-recovery.md), [Případ 76: Kult youtubera](@/kompendium/case-studies/76-youtuber-cult.md), [Případ 78: Kult internetového fóra](@/kompendium/case-studies/78-forum-cult.md)</small>
 - Barlow, D. H. (2002). *Anxiety and Its Disorders: The Nature and Treatment of Anxiety and Panic* (2. vyd.). Guilford Press.  
   <small>Citováno: [Akutní protokol: Panická ataka po epistemické anihilaci](@/kompendium/emergency-protocols/6-panic-attack-EA.md)</small>
+- Barlow, D. H. (2002). *Anxiety and Its Disorders: The Nature and Treatment of Anxiety and Panic* (2nd ed.). New York: Guilford Press.  
+  <small>Citováno: [Úzkostné poruchy](@/glossary/uzkostne-poruchy.md)</small>
 - Barlow, D. H. (2010). *Negative effects from psychological treatments: A perspective*. American Psychologist.  
   <small>Citováno: [Iatrogenic harm (iatrogenní újma)](@/glossary/iatrogenic-harm.md), [EA-3.2.9 Hodnocení iatrogenního rizika](@/kompendium/techniques/ea-3-2-9-iatrogenic-risk-assessment.md)</small>
 - Barlow, D. H. (2010). Negative effects from psychological treatments: A perspective. *American Psychologist*, 65(1).  
@@ -668,6 +670,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Klam modálního rozsahu](@/kompendium/argumentacni-fauly/formalni/klam-modalniho-rozsahu.md), [Magické myšlení](@/kompendium/argumentacni-fauly/kauzalni/magicke-mysleni.md), [Obrácená kauzalita](@/kompendium/argumentacni-fauly/kauzalni/obracena-kauzalita.md) a 148 dalších</small>
 - Beck, A. T., Rush, A. J., Shaw, B. F., & Emery, G. (1979). *Cognitive Therapy of Depression*. Guilford Press.  
   <small>Citováno: [Destruktivní sokratovská metoda](@/glossary/destruktivni-sokratovska-metoda.md), [Epistemická pokora](@/glossary/epistemicka-pokora.md), [Negativní epistemická amplifikace](@/glossary/negativni-epistemicka-amplifikace.md) a 3 dalších</small>
+- Beck, A. T., Rush, A. J., Shaw, B. F., & Emery, G. (1979). *Cognitive Therapy of Depression*. New York: Guilford Press.  
+  <small>Citováno: [Depresivní epizoda a depresivní porucha](@/glossary/depresivni-epizoda-a-porucha.md)</small>
 - Beck, A. T., Weissman, A., Lester, D., & Trexler, L. (1974). The measurement of pessimism: The Hopelessness Scale. *Journal of Consulting and Clinical Psychology*.  
   <small>Citováno: [Případ 56: Hlubší zotavení z incel ideologie](@/kompendium/case-studies/56-incel-deep-recovery.md)</small>
 - Becker, E. (1986). *When the War Was Over: Cambodia and the Khmer Rouge Revolution*. Simon &  
@@ -1006,8 +1010,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [EA-3.2.3 Mistrovství emoční regulace](@/kompendium/techniques/ea-3-2-3-emotional-regulation-mastery.md)</small>
 - Borenstein, M., Hedges, L. V., Higgins, J. P. T., Rothstein, H. R. (2009). *Introduction to Meta-Analysis.*  
   <small>Citováno: [Systematický přehled a metaanalýza](@/kompendium/research-methodology/meta-analysis-EA.md)</small>
-- Borkovec, T. D., Robinson, E., Pruzinsky, T., & DePree, J. A. (1983). *Preliminary exploration of worry: Some characteristics and processes*. Behaviour Research and Therapy.  
-  <small>Citováno: [Rekurzivní paralýza](@/glossary/rekurzivni-paralyza.md)</small>
+- Borkovec, T. D., Robinson, E., Pruzinsky, T., & DePree, J. A. (1983). *Preliminary exploration of worry: Some characteristics and processes*. Behaviour Research and Therapy, 21(1).  
+  <small>Citováno: [Rekurzivní paralýza](@/glossary/rekurzivni-paralyza.md), [Úzkostné poruchy](@/glossary/uzkostne-poruchy.md)</small>
 - Bornstein, R. F. (1992). The dependent personality: developmental, social, and clinical  
   <small>Citováno: [Případ 17: Nátlak kouče](@/kompendium/case-studies/17-coach-coercion.md)</small>
 - Bornstein, R. F. (1992). The dependent personality: Developmental, social, and clinical perspectives. *Psychological Bulletin*, 112(1), 3–23.  
@@ -1288,6 +1292,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Sebe-obrana: Odolnost vůči studu](@/kompendium/self-defense-guides/18-shame-resilience.md)</small>
 - Brown, G. W., Birley, J. L. T., & Wing, J. K. (1972). Influence of family life on the course of  
   <small>Citováno: [Rodinná reintegrace](@/kompendium/prevention-resilience/26-family-reintegration-prevention.md)</small>
+- Brown, G. W., & Harris, T. (1978). *Social Origins of Depression: A Study of Psychiatric Disorder in Women*. London: Tavistock.  
+  <small>Citováno: [Depresivní epizoda a depresivní porucha](@/glossary/depresivni-epizoda-a-porucha.md)</small>
 - Brown, P., & Levinson, S. C. (1987). *Politeness: Some Universals in Language Usage*. Cambridge University Press.  
   <small>Citováno: [Detekční signatura: Odpor k upřesnění](@/kompendium/detection-signatures/10-behavioral-resistance-to-clarification.md)</small>
 - Brown, R., & Gilman, A. (1960). The pronouns of power and solidarity. In T. A. Sebeok (Ed.), *Style in Language* (s. 253–276). MIT Press.  
@@ -1815,6 +1821,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Akutní protokol: Panická ataka po epistemické anihilaci](@/kompendium/emergency-protocols/6-panic-attack-EA.md)</small>
 - Clark, D. M., & Wells, A. (1995). A cognitive model of social phobia. In R. G. Heimberg et al. (Eds.), *Social Phobia: Diagnosis, Assessment, and Treatment*. Guilford Press.  
   <small>Citováno: [Případ 56: Hlubší zotavení z incel ideologie](@/kompendium/case-studies/56-incel-deep-recovery.md)</small>
+- Clark, D. M., & Wells, A. (1995). *A cognitive model of social phobia*. In R. G. Heimberg, M. R. Liebowitz, D. A. Hope, & F. R. Schneier (Eds.), Social Phobia: Diagnosis, Assessment, and Treatment. New York: Guilford Press.  
+  <small>Citováno: [Úzkostné poruchy](@/glossary/uzkostne-poruchy.md)</small>
 - Clark, G. I., & Egan, S. J. (2015). *The Socratic method in cognitive behavioural therapy: A narrative review*. Cognitive Therapy and Research.  
   <small>Citováno: [Destruktivní sokratovská metoda](@/glossary/destruktivni-sokratovska-metoda.md)</small>
 - Clark, K. L. (1978). Negation as Failure. In H. Gallaire & J. Minker (Eds.), *Logic and Data  
@@ -2067,8 +2075,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Případ 15: Zdravotnická iatrogenie](@/kompendium/case-studies/15-zdravotnicky-iatrogen.md)</small>
 - Croskerry, P. (2003). *The importance of cognitive errors in diagnosis and strategies to minimize them*. Academic Medicine.  
   <small>Citováno: [Konfirmační bias](@/glossary/konfirmacni-bias.md), [Medicínská nedbalost](@/kompendium/forensic-legal/18-medical-malpractice-EA.md)</small>
-- Croskerry, P. (2003). The importance of cognitive errors in diagnosis and strategies to minimize them. *Academic Medicine*, 78(8).  
-  <small>Citováno: [Přesah rámce – když EA vysvětluje všechno](@/kompendium/critical-perspectives/3-framework-overreach.md), [Kruhové uvažování v detekci EA](@/kompendium/critical-perspectives/4-circular-reasoning-risk.md)</small>
+- Croskerry, P. (2003). *The importance of cognitive errors in diagnosis and strategies to minimize them*. Academic Medicine, 78(8).  
+  <small>Citováno: [Diferenciální diagnóza](@/glossary/diferencialni-diagnoza.md), [Přesah rámce – když EA vysvětluje všechno](@/kompendium/critical-perspectives/3-framework-overreach.md), [Kruhové uvažování v detekci EA](@/kompendium/critical-perspectives/4-circular-reasoning-risk.md)</small>
 - Croskerry, P. (2003). The importance of cognitive errors in diagnosis and strategies to minimize them. *Academic Medicine*, 78(8), 775–780.  
   <small>Citováno: [Akutní protokol: Žádost o druhý názor v akutní situaci](@/kompendium/emergency-protocols/38-second-opinion-emergency.md), [Bridge: Purple Team (fialový tým)](@/kompendium/glossary-bridges/bridge-purple-team.md)</small>
 - Croskerry, P. (2009). A universal model of diagnostic reasoning. *Academic Medicine*, 84(8), 1022–1028.  
@@ -2974,6 +2982,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Případ 14: Self-help kult](@/kompendium/case-studies/14-self-help-cult.md)</small>
 - Finucane, M. L., Alhakami, A., Slovic, P., & Johnson, S. M. (2000). *The affect heuristic in judgments of risks and benefits*. Journal of Behavioral Decision Making.  
   <small>Citováno: [Afektivní heuristika](@/glossary/afektivni-heuristika.md)</small>
+- First, M. B. (2014). *DSM-5 Handbook of Differential Diagnosis*. Washington, DC: American Psychiatric Publishing.  
+  <small>Citováno: [Diferenciální diagnóza](@/glossary/diferencialni-diagnoza.md)</small>
 - Fischer, T. (2024). *Strafgesetzbuch mit Nebengesetzen*. C. H. Beck.  
   <small>Citováno: [Německo — EA právní rámec](@/kompendium/international/23-german-law-EA/index.md), [Česko-německá terminologie EA](@/kompendium/international/32-cs-de-terminology/index.md)</small>
 - Fischhoff, B. (1975). Hindsight ≠ foresight: The effect of outcome knowledge on judgment under uncertainty. *Journal of Experimental Psychology: Human Perception and Performance*, 1(3), 288–299.  
@@ -3803,6 +3813,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Falešná vyváženost](@/kompendium/argumentacni-fauly/dialekticke-taktiky/falesna-vyvazenost.md), [Formální klam](@/kompendium/argumentacni-fauly/formalni/formalni-klam.md), [Nedovolený menší termín](@/kompendium/argumentacni-fauly/formalni/nedovoleny-mensi-termin.md) a 36 dalších</small>
 - Graber, M. L., Franklin, N. a Gordon, R. (2005). Diagnostic error in internal medicine. *Archives of Internal Medicine*, 165(13), 1493–1499.  
   <small>Citováno: [Akutní protokol: Žádost o druhý názor v akutní situaci](@/kompendium/emergency-protocols/38-second-opinion-emergency.md)</small>
+- Graber, M. L., Franklin, N., & Gordon, R. (2005). *Diagnostic error in internal medicine*. Archives of Internal Medicine, 165(13).  
+  <small>Citováno: [Diferenciální diagnóza](@/glossary/diferencialni-diagnoza.md)</small>
 - Graeber, D., & Wengrow, D. (2021). *The Dawn of Everything: A New History of Humanity*. Allen Lane.  
   <small>Citováno: [7.52 Harari: Sapiens, narativ a fikční řády](@/kompendium/07-teoreticke-reflexe/harari-sapiens-narativ.md)</small>
 - Graham, D. L. R. (1994). *Loving to Survive: Sexual Terror, Men's Violence, and Women's Lives*. New York University Press.  
@@ -4369,7 +4381,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.  
   <small>Citováno: [Kompendium epistemické a kognitivní anihilace](@/_index.md), [Betrayal trauma (trauma ze zrady)](@/glossary/betrayal-trauma.md), [Tělesné schéma (body schema)](@/glossary/body-schema.md) a 510 dalších</small>
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.  
-  <small>Citováno: [1.5 Bezpečnostní klasifikace přístupu](@/kompendium/01-predmluva/bezpecnostni-klasifikace.md), [Delegitimizace – odnětí epistemického postavení](@/kompendium/03-zakladni-kategorie/delegitimizace.md), [Falsifikovatelnost – kritérium jako kategorie analýzy](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md) a 387 dalších</small>
+  <small>Citováno: [Depresivní epizoda a depresivní porucha](@/glossary/depresivni-epizoda-a-porucha.md), [1.5 Bezpečnostní klasifikace přístupu](@/kompendium/01-predmluva/bezpecnostni-klasifikace.md), [Delegitimizace – odnětí epistemického postavení](@/kompendium/03-zakladni-kategorie/delegitimizace.md) a 388 dalších</small>
 - Herman, J. L. (1992). *Trauma and Recovery: The Aftermath of Violence — From Domestic Abuse to Political Terror*. Basic Books.  
   <small>Citováno: [Traumatic Bonding](@/glossary/traumatic-bonding.md)</small>
 - Herman, J. L. (1992). *Trauma and Recovery: The Aftermath of Violence*. New York: Basic Books.  
@@ -4599,7 +4611,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Horvath, A. O. a Symonds, B. D. (1991). Relation between working alliance and outcome in psychotherapy: A meta-analysis. *Journal of Counseling Psychology*, 38(2), 139–149.  
   <small>Citováno: [Akutní protokol: Stupňovitý přechod z hospitalizace do ambulantní péče](@/kompendium/emergency-protocols/32-step-down-program.md)</small>
 - Horwitz, A. V., & Wakefield, J. C. (2007). *The Loss of Sadness: How Psychiatry Transformed Normal Sorrow into Depressive Disorder*. Oxford University Press.  
-  <small>Citováno: [Medikalizace morálního selhání](@/kompendium/critical-perspectives/1-medicalization-critique.md)</small>
+  <small>Citováno: [Depresivní epizoda a depresivní porucha](@/glossary/depresivni-epizoda-a-porucha.md), [Medikalizace morálního selhání](@/kompendium/critical-perspectives/1-medicalization-critique.md)</small>
 - Horwitz, A. V., & Wakefield, J. C. (2007). *The Loss of Sadness*. Oxford University Press.  
   <small>Citováno: [Patologizace normálních variací](@/kompendium/critical-perspectives/2-pathologization-critique.md)</small>
 - House, J. (2015). *Translation Quality Assessment: Past and Present*. Routledge.  
@@ -6863,6 +6875,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Theory of mind (teorie mysli)](@/glossary/theory-of-mind.md)</small>
 - Mineka, S., & Kihlstrom, J. F. (1978). *Unpredictable and uncontrollable events: A new perspective on experimental neurosis*. Journal of Abnormal Psychology.  
   <small>Citováno: [Epistemický chaos](@/glossary/epistemicky-chaos.md)</small>
+- Mineka, S., & Zinbarg, R. (2006). *A contemporary learning theory perspective on the etiology of anxiety disorders: It's not what you thought it was*. American Psychologist, 61(1).  
+  <small>Citováno: [Úzkostné poruchy](@/glossary/uzkostne-poruchy.md)</small>
 - Minkowski, E. (1933). *Le temps vécu*.  
   <small>Citováno: [Vnitřní časovost](@/glossary/vnitrni-casovost.md)</small>
 - Minkowski, E. (1933). *Le temps vécu: Études phénoménologiques et psychopathologiques*. D'Artrey.  
@@ -8062,6 +8076,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [EA-7.3.3 Friston: Aktivní inference](@/kompendium/techniques/ea-7-3-3-friston-active-inference.md)</small>
 - Rao, R. P. N., & Ballard, D. H. (1999). Predictive coding in the visual cortex. *Nature Neuroscience*, 2.  
   <small>Citováno: [7.40 Friston: Active Inference a free energy principle](@/kompendium/07-teoreticke-reflexe/friston-active-inference.md)</small>
+- Rapee, R. M., & Heimberg, R. G. (1997). *A cognitive-behavioral model of anxiety in social phobia*. Behaviour Research and Therapy, 35(8).  
+  <small>Citováno: [Úzkostné poruchy](@/glossary/uzkostne-poruchy.md)</small>
 - Ratcliffe, M. (2008). *Feelings of Being*. Oxford: Oxford University Press.  
   <small>Citováno: [EA-5.2.17 Husserlovská redukce — perverze](@/kompendium/techniques/ea-5-2-17-husserlovska-redukce-perverze.md), [EA-5.2.18 Heideggerovské rozklady](@/kompendium/techniques/ea-5-2-18-heideggerovska-rozklady.md), [EA-5.2.22 Intencionální rozpojení](@/kompendium/techniques/ea-5-2-22-intentionalni-rozpojeni.md) a 2 dalších</small>
 - Ratcliffe, M. (2008). *Feelings of Being: Phenomenology, Psychiatry and the Sense of  
@@ -8489,6 +8505,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Řízení přístupů s EA fokusem](@/kompendium/organizational-defense/28-access-control-EA.md)</small>
 - Saltzer, J. H., & Schroeder, M. D. (1975). The protection of information in computer systems. *Proceedings of the IEEE*.  
   <small>Citováno: [Prověřování kontraktorů](@/kompendium/organizational-defense/26-contractor-vetting.md)</small>
+- Šámal, P. a kol. (2012). *Trestní zákoník II. § 140 až 421. Komentář* (2. vyd.). Praha: C. H. Beck.  
+  <small>Citováno: [Vydírání](@/glossary/vydirani.md)</small>
 - Šámal, P., a kol. (2012). *Trestní zákoník: komentář* (2. vyd.). C. H. Beck.  
   <small>Citováno: [ČR právo — EA rámec](@/kompendium/international/22-czech-law-EA/index.md), [Česko-německá terminologie EA](@/kompendium/international/32-cs-de-terminology/index.md)</small>
 - Sampson, R. J., Raudenbush, S. W., & Earls, F. (1997). Neighborhoods and violent crime: A multilevel study of collective efficacy. *Science*, 277(5328).  
@@ -8741,6 +8759,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [EA-2.5.10 Implantace existenciální bezmoci](@/kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md)</small>
 - Seligman, M. E. P. (1975). *Helplessness: On Depression, Development, and Death*. San Francisco:  
   <small>Citováno: [Obnova dovedností](@/kompendium/prevention-resilience/23-skills-rebuilding-program.md), [Středně-dobé obnovení kompetencí](@/kompendium/recovery-protocols/midterm-skill-rebuilding.md)</small>
+- Seligman, M. E. P. (1975). *Helplessness: On Depression, Development, and Death*. San Francisco: W. H. Freeman.  
+  <small>Citováno: [Depresivní epizoda a depresivní porucha](@/glossary/depresivni-epizoda-a-porucha.md)</small>
 - Seligman, M. E. P. (1975). *Helplessness: On Depression, Development, and Death*. W. H.  
   <small>Citováno: [Případ 23: Zotavení z incel subkultury](@/kompendium/case-studies/23-incel-recovery.md)</small>
 - Seligman, M. E. P. (1975). *Helplessness: On Depression, Development, and Death*. W. H. Freeman.  
@@ -9250,7 +9270,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University  
   <small>Citováno: [Operační principy](@/kompendium/04-operacni-principy/_index.md), [Historický případ: Východoněmecká Zersetzung](@/kompendium/historical-cases/5-east-german-zersetzung.md)</small>
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.  
-  <small>Citováno: [BITE model](@/glossary/bite-model.md), [C-PTSD (komplexní posttraumatická stresová porucha)](@/glossary/c-ptsd.md), [Chain of custody (řetězec úschovy důkazů)](@/glossary/chain-of-custody.md) a 244 dalších</small>
+  <small>Citováno: [BITE model](@/glossary/bite-model.md), [C-PTSD (komplexní posttraumatická stresová porucha)](@/glossary/c-ptsd.md), [Chain of custody (řetězec úschovy důkazů)](@/glossary/chain-of-custody.md) a 245 dalších</small>
 - Stark, E. (2007). *Coercive Control*. New York: Oxford University Press.  
   <small>Citováno: [EA-5.2.21 Subjekt-objekt fúzia](@/kompendium/techniques/ea-5-2-21-subjekt-objekt-fuzia.md), [EA-5.3.1 Identitární substituce](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md), [EA-5.3.10 Perspektivní substituce](@/kompendium/techniques/ea-5-3-10-perspektivni-substituce.md) a 3 dalších</small>
 - Stark, E. (2007). *Coercive Control*. Oxford University Press.  

@@ -78,7 +78,7 @@ Mereologická rekonstrukce je **charakteristickým konstruktivním přínosem** 
 
 **Pojmy**
 
-- [Disociace](@/glossary/disociace.md) – diferenciální diagnóza.
+- [Disociace](@/glossary/disociace.md) – [diferenciální diagnóza](@/glossary/diferencialni-diagnoza.md).
 - [Iatrogenic Harm](@/glossary/iatrogenic-harm.md) – riziko, které pořadí fází minimalizuje.
 - [Narrative Identity](@/glossary/narrative-identity.md) – cíl rekonstrukce v závěrečné fázi.
 - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – základní stav.

@@ -92,7 +92,7 @@ Co může klinik nebo supervizor pozorovat, pokud se technika manifestuje mimo s
 | [Sociální izolace](@/glossary/socialni-izolace.md) s jediným referenčním zdrojem autority | Strukturální rizikový kontext |
 | Časová dezorientace ve vztahu k vlastnímu životnímu příběhu | Indukovanou temporální disrupci |
 
-Detekce vyžaduje **diferenciální diagnózu** vůči primárním psychiatrickým stavům (disociativní poruchy, PTSD, psychotická spektra) a vůči [legitimní transformativní zkušenosti](@/glossary/transformative-experience.md).
+Detekce vyžaduje **[diferenciální diagnózu](@/glossary/diferencialni-diagnoza.md)** vůči primárním psychiatrickým stavům (disociativní poruchy, PTSD, psychotická spektra) a vůči [legitimní transformativní zkušenosti](@/glossary/transformative-experience.md).
 
 ## Klinické pozadí
 

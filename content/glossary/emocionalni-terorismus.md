@@ -98,7 +98,7 @@ vlastní názor. V terapii popisuje, že „neví, co chce, ale přesně ví, co
 - **Od [coercive control](@/glossary/coercive-control.md):** emocionální terorismus je
   jedna z podob kontrolujícího vzorce; coercive control zahrnuje i ekonomickou kontrolu,
   izolaci a dohled.
-- **Od úzkostné poruchy:** hypervigilance dotčeného není primárně úzkostná porucha, ale
+- **Od [úzkostné poruchy](@/glossary/uzkostne-poruchy.md):** hypervigilance dotčeného není primárně úzkostná porucha, ale
   přiměřená reakce na nepředvídatelné prostředí; po skončení vztahu však může přetrvávat
   a vyžadovat léčbu.
 

@@ -187,7 +187,7 @@ Obranou pacienta je klást poskytovateli tytéž otázky, které klade systemati
 studie metodu podporují, jak byly velké, s jakou kontrolní skupinou a kdo je provedl. Pokud
 odpověď chybí nebo se omezí na svědectví, je rozumné metodu nepovažovat za léčbu. Zvláště
 důležité je nepřerušovat probíhající léčbu bez porady s lékařem a nezačínat „alternativní“
-postup místo ověřeného u závažných stavů. U obtíží, jako jsou úzkostné poruchy, fobie nebo
+postup místo ověřeného u závažných stavů. U obtíží, jako jsou [úzkostné poruchy](@/glossary/uzkostne-poruchy.md), fobie nebo
 následky traumatu, existují postupy s doloženou účinností, například kognitivně behaviorální
 terapie, která vychází z kognitivního modelu emočních poruch (Beck 1976).
 

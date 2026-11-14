@@ -78,7 +78,7 @@ V **akutní medicíně** může lékař oprávněně trvat na rychlém rozhodnut
 
 ## Klinická diferenciální diagnostika
 
-**Úzkostné poruchy** mohou vést k tomu, že osoba sama prožívá naléhavost i tam, kde chybí vnější tlak; takový prožitek je obecný a neváže se na jednoho zdroje. **Impulzivita**, například u ADHD, hraniční poruchy osobnosti nebo při mánii, zkracuje čas rozhodování bez vnějšího zdroje; zároveň však zvyšuje zranitelnost vůči vnějšímu tlaku, takže obě možnosti se mohou sčítat.
+**[Úzkostné poruchy](@/glossary/uzkostne-poruchy.md)** mohou vést k tomu, že osoba sama prožívá naléhavost i tam, kde chybí vnější tlak; takový prožitek je obecný a neváže se na jednoho zdroje. **Impulzivita**, například u ADHD, hraniční poruchy osobnosti nebo při mánii, zkracuje čas rozhodování bez vnějšího zdroje; zároveň však zvyšuje zranitelnost vůči vnějšímu tlaku, takže obě možnosti se mohou sčítat.
 
 **Kognitivní pokles u seniorů** snižuje schopnost odolat tlaku a ověřit informace, a proto bývají senioři častým cílem podvodů s časovým tlakem (srov. [elder abuse](@/glossary/elder-abuse.md)). Kognitivní pokles zde není alternativním vysvětlením, ale rizikovým faktorem, který posiluje význam signatury. Rozhoduje, zda je naléhavost vnesena zvenčí a od koho; posouzení kognitivních funkcí nebo psychiatrické poruchy přísluší kvalifikovanému klinikovi.
 

@@ -108,7 +108,7 @@ jasné příčiny.
 - **Akutní stresová reakce a poruchy přizpůsobení.** Potíže v prvních týdnech po události
   nebo potíže odpovídající zátěži bez traumatu mají jiné diagnostické zařazení
   ([EA-8.2.7](@/kompendium/techniques/ea-8-2-7-dsm-5-tr-trauma.md)).
-- **Deprese a úzkostné poruchy** se s PTSD překrývají; screening sám je nerozliší.
+- **Deprese a [úzkostné poruchy](@/glossary/uzkostne-poruchy.md)** se s PTSD překrývají; screening sám je nerozliší.
 - **Prodloužený žal.** Ztráta komunity nebo blízkých po odchodu může vést k truchlení,
   které je třeba odlišit.
 - **Epistemické potíže** (ztráta jazyka, světonázoru, důvěry ve vlastní úsudek) do

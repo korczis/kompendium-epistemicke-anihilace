@@ -119,7 +119,7 @@ v rozporu s vlastními hodnotami.
 ## Detekční bod
 
 Spouštěčem byla panická ataka v zákulisí televizního studia před debatou o studii, kterou podepsal
-proti svému přesvědčení. Praktický lékař ho odeslal k psychologovi s diagnózou úzkostné poruchy.
+proti svému přesvědčení. Praktický lékař ho odeslal k psychologovi s diagnózou [úzkostné poruchy](@/glossary/uzkostne-poruchy.md).
 Psycholožka si všimla, že úzkost je přísně vázána na situace, v nichž musí hájit linii institutu,
 a že v jiných sociálních situacích se nevyskytuje; MKN-11 rozlišuje situačně vázanou úzkost od
 panické poruchy s opakovanými neočekávanými atakami (World Health Organization, 2019).

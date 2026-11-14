@@ -42,7 +42,7 @@ Na úrovni modelů se PTSD vykládá jako porucha **zpracování traumatické pa
 - **Akutní stresová reakce a akutní stresová porucha** trvají kratší dobu; PTSD se podle DSM-5 diagnostikuje po uplynutí měsíce.
 - **[C-PTSD](@/glossary/c-ptsd.md)** zahrnuje navíc trvalé poruchy regulace emocí, negativní sebepojetí a obtíže ve vztazích; typicky po dlouhodobém, opakovaném traumatu.
 - **Porucha přizpůsobení** následuje po zátěži, která nesplňuje kritérium traumatické události.
-- **Deprese a úzkostné poruchy** se s PTSD často kombinují a mohou ji maskovat.
+- **Deprese a [úzkostné poruchy](@/glossary/uzkostne-poruchy.md)** se s PTSD často kombinují a mohou ji maskovat.
 - **[Disociativní poruchy](@/glossary/disociace.md)** (viz [disociace](@/glossary/disociace.md)) mohou s PTSD souviset; DSM-5 zná i disociativní podtyp PTSD.
 - **Následky epistemické anihilace** se s PTSD překrývají, ale nejsou s ní totožné: jádrem EA je poškození schopnosti poznávat a důvěřovat vlastnímu úsudku, které se může objevit i bez traumatické události v užším smyslu; rozbor podává [6.2 Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
 

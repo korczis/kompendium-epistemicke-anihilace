@@ -111,7 +111,7 @@ posoudit, zda zkušenost obsahovala události kritéria A.
 
 - **MKN-11** užívá užší jádro PTSD a samostatné C-PTSD; diagnózy se mezi oběma systémy
   nemusejí shodovat.
-- **Deprese, úzkostné poruchy a užívání látek** se s PTSD často sdružují a mohou ho
+- **Deprese, [úzkostné poruchy](@/glossary/uzkostne-poruchy.md) a užívání látek** se s PTSD často sdružují a mohou ho
   zakrývat.
 - **Normální reakce na zátěž** nevede k trvalému omezení fungování.
 - **[Disociativní poruchy](@/glossary/disociace.md)** mají v DSM samostatnou kapitolu; překryv s disociativním podtypem

@@ -38,7 +38,7 @@ zmiňované v klinické literatuře o traumatu a nátlakových skupinách (Herma
 | PTSD a komplexní PTSD (MKN-11 6B41) | Dlouhodobé interpersonální trauma je typickým kontextem EA | [C-PTSD](@/glossary/c-ptsd.md), [ICD-11 CPTSD](@/kompendium/techniques/ea-8-2-6-icd-11-complex-trauma.md) |
 | Disociativní symptomy | Ochranná odpověď na nesnesitelný rozpor; mění vnímání reality | [disociace](@/glossary/disociace.md), [depersonalizace](@/glossary/depersonalizace.md) |
 | Deprese | Bezmoc, sebeobviňování, ztráta smyslu | [existenciální bezmoc](@/kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md) |
-| Úzkostné poruchy | Trvalá nejistota, hypervigilance | [kognitivní mlha](@/kompendium/detection-signatures/25-phenomenological-cognitive-fog.md) |
+| [Úzkostné poruchy](@/glossary/uzkostne-poruchy.md) | Trvalá nejistota, hypervigilance | [kognitivní mlha](@/kompendium/detection-signatures/25-phenomenological-cognitive-fog.md) |
 | Užívání návykových látek | Regulace stavu, někdy součást kontroly | [substance use v EA-emergency](@/kompendium/emergency-protocols/26-substance-EA.md) |
 | Poruchy příjmu potravy | Typické u skupin kolem diet a těla | [dieta kult](@/kompendium/case-studies/19-dieta-cult.md) |
 

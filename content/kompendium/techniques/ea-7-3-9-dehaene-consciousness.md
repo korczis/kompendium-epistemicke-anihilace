@@ -102,7 +102,7 @@ obecně a prodej „podprahových“ technik osobního rozvoje.
 
 - **Soustředění a flow.** Plné zaujetí činností, kterou si člověk zvolil a může přerušit,
   není zahlcením.
-- **ADHD a úzkostné poruchy** mění zvládání pozornosti zevnitř; vyžadují odborné posouzení
+- **ADHD a [úzkostné poruchy](@/glossary/uzkostne-poruchy.md)** mění zvládání pozornosti zevnitř; vyžadují odborné posouzení
   a zvyšují zranitelnost vůči prostředí, které pozornost vyčerpává.
 - **[Default mode network](@/glossary/default-mode-network.md).** Klidové stavy mozku jsou
   spojovány se sebereflexí a vybavováním vzpomínek; jejich soustavné potlačování je

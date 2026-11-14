@@ -151,7 +151,7 @@ Legitimní užití vyžaduje, aby změnu chtěl sám člověk, aby šlo o reakci
 za nežádoucí, a aby žádoucí sebeobraz vycházel z jeho hodnot. Člověk, který se chce zbavit
 kousání nehtů nebo automatického sahání po telefonu, může s praktikem zkoumat, zda mu taková
 práce pomůže. I pak je ale poctivé mu říci, že účinnost swishe není doložena a že pro mnoho
-obtíží, například pro nutkavé jednání, úzkostné poruchy nebo závislosti, existují ověřené
+obtíží, například pro nutkavé jednání, [úzkostné poruchy](@/glossary/uzkostne-poruchy.md) nebo závislosti, existují ověřené
 postupy, které by neměl swish nahrazovat (Beck 1976). Užitečným rámcem pro posouzení je i
 motivační rozhovor, který klade důraz na vlastní důvody klienta ke změně (Miller a Rollnick
 2013).

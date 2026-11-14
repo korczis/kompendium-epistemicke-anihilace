@@ -94,7 +94,7 @@ Předcházení iatrogenním poškozením je integrální součástí klinické e
 
 V kompendiu je EA-6.2.6 vedena jako dovednostní modul pro krizové chvíle, ne jako zpracování traumatu.
 
-**Klinické zacílení**: [evidence-based](@/glossary/evidence-based.md) psychoterapeutické intervence pro EA-trauma se sekundární komorbiditou (úzkostné poruchy, depresivní poruchy, somatizace, disociativní spektrum). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+**Klinické zacílení**: [evidence-based](@/glossary/evidence-based.md) psychoterapeutické intervence pro EA-trauma se sekundární komorbiditou ([úzkostné poruchy](@/glossary/uzkostne-poruchy.md), depresivní poruchy, somatizace, disociativní spektrum). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
 
 **Trauma spektrum kontext**: klinická literatura odlišuje jednorázovou akutní traumatizaci od opakované relační expozice v dětství a dospívání; rozlišení obou typů zavedla Terr (1991) a pro druhý z nich je popsána zdlouhavější, fázovaná cesta zotavení (Herman, 1992). Kde se rozdíl přehlíží, bývá následkem zhoršení místo zlepšení; přehled doložených případů, kdy terapeutická intervence poškodila, shrnuje Lilienfeld (2007). Jaká úprava z toho v jednotlivém případě vyplývá, nerozhoduje tato kniha, ale indikující klinik ve supervizi.
 

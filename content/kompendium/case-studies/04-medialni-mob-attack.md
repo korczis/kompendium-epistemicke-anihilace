@@ -155,7 +155,7 @@ nastat, protože útok může splnit kritéria traumatické události (American 
 [diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
 
 **Paranoidní prožívání** se liší tím, že pocit koordinovaného útoku zde byl doložitelný daty;
-rozhodující je ověření, nikoli síla přesvědčení. **Sociální úzkost** znamená obavu z hodnocení,
+rozhodující je ověření, nikoli síla přesvědčení. **[Sociální úzkost](@/glossary/uzkostne-poruchy.md)** znamená obavu z hodnocení,
 která předchází události a není vázaná na konkrétní kauzu (American Psychiatric Association,
 2013); zde vznikla až s útokem a měla jasný obsah.
 

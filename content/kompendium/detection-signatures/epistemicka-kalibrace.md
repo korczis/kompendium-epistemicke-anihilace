@@ -75,7 +75,7 @@ Při **učení** student na začátku oboru správně přisuzuje větší váhu 
 
 **[Deprese](@/glossary/depresivni-epizoda-a-porucha.md)** systematicky snižuje důvěru ve vlastní schopnosti a úsudek, a to plošně a bez vazby na jeden vztah. Zajímavou výhradou je výzkum tzv. depresivního realismu: Alloy a Abramson (1979) zjistili, že mírně depresivní účastníci odhadovali svou kontrolu nad výsledkem v některých úlohách přesněji než nedepresivní. Snížená jistota tedy nemusí znamenat sníženou přesnost, a hodnotitel musí posuzovat obojí zvlášť.
 
-**Úzkostné poruchy** zvyšují nejistotu a potřebu ujištění, **hypomanie a mánie** naopak nafukují vlastní jistotu. **Závislá struktura osobnosti** se projevuje dlouhodobým přenecháváním rozhodnutí druhým napříč vztahy; Bornstein (1992) ji popisuje jako stabilní vzorec, který se vytváří již ve vývoji. **Kognitivní pokles** může oprávněně snižovat důvěru ve vlastní paměť; i zde však hrozí zneužití, protože oprávněná nejistota v jedné oblasti se snadno rozšíří na oblasti, v nichž úsudek zůstává spolehlivý.
+**[Úzkostné poruchy](@/glossary/uzkostne-poruchy.md)** zvyšují nejistotu a potřebu ujištění, **hypomanie a mánie** naopak nafukují vlastní jistotu. **Závislá struktura osobnosti** se projevuje dlouhodobým přenecháváním rozhodnutí druhým napříč vztahy; Bornstein (1992) ji popisuje jako stabilní vzorec, který se vytváří již ve vývoji. **Kognitivní pokles** může oprávněně snižovat důvěru ve vlastní paměť; i zde však hrozí zneužití, protože oprávněná nejistota v jedné oblasti se snadno rozšíří na oblasti, v nichž úsudek zůstává spolehlivý.
 
 Rozlišovacím znakem signatury je **vztahová specifičnost** a doložitelná správnost úsudku, kterému osoba přestala věřit. Klinické posouzení přísluší kvalifikovanému odborníkovi.
 

@@ -113,7 +113,7 @@ nezakládá (WHO, 2024; Brewin a kol., 2017). Viz [Diferenciální diagnostika E
 Ve zprávě se uvádí systém a verze – „MKN-11, 6B41 komplexní posttraumatická stresová porucha“ –
 a pro vykazování v ČR případně souběžně platný kód MKN-10 podle pokynů ÚZIS.
 
-Diferenciální rozvaha zahrnuje poruchy nálady, úzkostné poruchy, poruchy osobnosti, psychotické
+Diferenciální rozvaha zahrnuje poruchy nálady, [úzkostné poruchy](@/glossary/uzkostne-poruchy.md), poruchy osobnosti, psychotické
 poruchy a užívání látek i jejich souběh. Zvlášť obtížné je odlišení komplexní PTSD od hraniční
 poruchy osobnosti; Cloitre a kol. (2014) v analýze latentních tříd ukázali, že jde o odlišitelné
 profily, i když se překrývají.

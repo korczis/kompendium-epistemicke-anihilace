@@ -94,7 +94,7 @@ Předcházení iatrogenním poškozením je integrální součástí klinické e
 
 Kniha vede techniku **EA-6.2.7** jako trauma-senzitivní adaptaci všímavostního programu, jehož komponenty popsala vlastní literatura přístupu (Kabat-Zinn, 1990; Segal, Williams a Teasdale, 2002). Stránka ji zaznamenává jako intervenci dotýkající se epistemicko-afektivní složky traumatu; posouzení účinku v jednotlivém případě jí nepatří.
 
-**Klinické zacílení**: [evidence-based](@/glossary/evidence-based.md) psychoterapeutické intervence pro EA-trauma se sekundární komorbiditou (úzkostné poruchy, depresivní poruchy, somatizace, disociativní spektrum). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+**Klinické zacílení**: [evidence-based](@/glossary/evidence-based.md) psychoterapeutické intervence pro EA-trauma se sekundární komorbiditou ([úzkostné poruchy](@/glossary/uzkostne-poruchy.md), depresivní poruchy, somatizace, disociativní spektrum). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
 
 **Trauma spektrum kontext**: dvojici typů traumatizace — po jediné události a po opakované relační expozici — zavedla Terr (1991). U pozornostní práce se rozdíl projeví tím, co se při obrácení pozornosti k tělu vynoří: po dlouhodobé expozici v dětství je návrat tělesného materiálu pravděpodobnější a cesta zotavení fázovaná (Herman, 1992). Nežádoucí účinky meditačních praxí jsou samostatně zdokumentovány (Farias a kol., 2020).
 

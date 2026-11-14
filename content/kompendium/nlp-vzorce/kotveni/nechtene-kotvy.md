@@ -192,7 +192,7 @@ jako vyhasínání podmíněné reakce, když se podnět opakuje bez původní z
 1927). U traumatických spouštěčů je cesta jiná a delší. Prvním krokem k bezpečí je
 zjistit, zda ohrožení skončilo; pokud trvá, například ve vztahu s násilím, má přednost
 ochrana, ne práce s reakcemi. Dále je namístě posouzení klinicky kvalifikovaným odborníkem,
-který dokáže odlišit posttraumatickou stresovou poruchu, komplexní trauma, úzkostné poruchy a
+který dokáže odlišit posttraumatickou stresovou poruchu, komplexní trauma, [úzkostné poruchy](@/glossary/uzkostne-poruchy.md) a
 další stavy a doporučit léčbu s doloženou účinností. Herman popsala zotavení z traumatu jako
 proces, v němž se nejprve obnovuje bezpečí, pak se událost zpracovává a truchlí se nad
 ztrátami a nakonec se člověk znovu propojuje s druhými a se svým životem (Herman 1992).

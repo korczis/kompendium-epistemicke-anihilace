@@ -26,7 +26,7 @@ V civilním řízení je posouzení podkladem pro náhradu nemajetkové újmy po
 
 ## Specifika epistemického zneužívání
 
-Běžné posouzení újmy se soustředí na diagnózy – posttraumatickou stresovou poruchu, depresi, úzkostné poruchy – a na funkční omezení v práci a ve vztazích. U epistemického zneužívání je část újmy jinde. Prvním jevem je **ztráta důvěry ve vlastní úsudek**: osoba se bojí rozhodovat, opakovaně si ověřuje běžná fakta a potřebuje potvrzení od druhých. Janoff-Bulman (1992) popsala trauma jako rozbití základních předpokladů o světě a o sobě; u epistemického zneužívání jde specificky o rozbití předpokladu, že vlastní vnímání je spolehlivé.
+Běžné posouzení újmy se soustředí na diagnózy – posttraumatickou stresovou poruchu, depresi, [úzkostné poruchy](@/glossary/uzkostne-poruchy.md) – a na funkční omezení v práci a ve vztazích. U epistemického zneužívání je část újmy jinde. Prvním jevem je **ztráta důvěry ve vlastní úsudek**: osoba se bojí rozhodovat, opakovaně si ověřuje běžná fakta a potřebuje potvrzení od druhých. Janoff-Bulman (1992) popsala trauma jako rozbití základních předpokladů o světě a o sobě; u epistemického zneužívání jde specificky o rozbití předpokladu, že vlastní vnímání je spolehlivé.
 
 Druhým jevem je **narušení [narativní identity](@/glossary/narativni-identita.md)** (*narrative identity*): neschopnost vyprávět vlastní život jako souvislý příběh, kdy roky vztahu nebo členství ve skupině působí jako „cizí“. McAdams (2001) chápe životní příběh jako jádro identity dospělého člověka, a Brison (2002) z vlastní zkušenosti popsala, jak násilí tento příběh přetrhává a jak se musí znovu vystavět ve vztahu s druhými. Posudek, který tuto rovinu nepojmenuje, popisuje jen symptomy, ne ztrátu.
 

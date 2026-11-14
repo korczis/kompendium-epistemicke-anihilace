@@ -160,7 +160,7 @@ ne impulzivita (American Psychiatric Association, 2013).
 **Falešné vzpomínky** vyžadují při rekonstrukci opatrnost – terapeut nemá vzpomínky navrhovat, ale
 pomáhat je ověřovat; viz historický případ
 [hnutí znovuobjevené paměti](@/kompendium/historical-cases/37-recovered-memory.md), z něhož
-vyplynulo poučení o rizicích sugestivních technik (Loftus, 2005). **Úzkostná porucha** může
+vyplynulo poučení o rizicích sugestivních technik (Loftus, 2005). **[Úzkostná porucha](@/glossary/uzkostne-poruchy.md)** může
 koexistovat a vyžaduje vlastní léčbu; komplexní PTSD podle MKN-11 zahrnuje vedle příznaků PTSD
 i trvalé poruchy sebepojetí a vztahů (World Health Organization, 2019). Obecně viz
 [diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).

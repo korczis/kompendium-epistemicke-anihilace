@@ -100,7 +100,7 @@ Nezlehčujte si skutečné nebezpečí jen proto, že vám někdo říká, že �
 
 ## Meze svépomoci
 
-Strach chránící život se nemá odstraňovat, ale vyslyšet. Úzkostné poruchy a posttraumatické stavy jsou dobře léčitelné, ale vyžadují odbornou péči. Svépomocné rozlišování strachů nenahrazuje posouzení rizika profesionálem – pokud jde o násilí, obraťte se na specialisty.
+Strach chránící život se nemá odstraňovat, ale vyslyšet. [Úzkostné poruchy](@/glossary/uzkostne-poruchy.md) a posttraumatické stavy jsou dobře léčitelné, ale vyžadují odbornou péči. Svépomocné rozlišování strachů nenahrazuje posouzení rizika profesionálem – pokud jde o násilí, obraťte se na specialisty.
 
 ## Literatura
 

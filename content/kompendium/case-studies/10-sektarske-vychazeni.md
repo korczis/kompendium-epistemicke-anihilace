@@ -156,7 +156,7 @@ a proto vyžaduje trvalou podporu.
 
 **Běžná náboženská krize víry** se odlišuje tím, že člověk zpochybňuje víru, ale neztrácí vztahy a
 není trestán za pochybnost; rozhoduje míra kontroly a ostrakizace, nikoli obsah víry (Hassan,
-1988). **Úzkostná porucha** je zde nepravděpodobným primárním vysvětlením, protože úzkost je vázaná
+1988). **[Úzkostná porucha](@/glossary/uzkostne-poruchy.md)** je zde nepravděpodobným primárním vysvětlením, protože úzkost je vázaná
 na témata skupiny a trestu, nikoli generalizovaná (American Psychiatric Association, 2013).
 
 **Psychotické prožívání** je třeba odlišit pečlivě: apokalyptické noční můry a strach z trestu mají

@@ -26,7 +26,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/"
 | **Kategorie** | 7. Teoretické reflexe |
 | **Subkategorie** | 7.2 Analytická filozofie |
 | **Typ hesla** | Interpretační rámec – obhajoba plurality a riziko jejího převrácení v relativismus |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Střední u popsaného jevu – zneužitý relativismus zbavuje člověka měřítek, podle nichž by rozpoznal klam |
 | **Reverzibilita** | Dobrá; měřítka lze znovu vybudovat, pokud je člověk nespojil s identitou |
 | **Rodičovská kapitola** | [7. Teoretické a metakonceptuální reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) |

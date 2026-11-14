@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **EA kód** | `EA-5.5.4` |
 | **Kategorie** | 5. Ultramární techniky |
 | **Subkategorie** | 5.5 Transkonceptuální mechanismy |
-| **Přístupová úroveň** | L3 (omezená — výhradně pro kvalifikovanou klinickou, forenzní a doktrinální analýzu) |
 | **Riziková úroveň** | Extrémní — strukturální poškození identitárně-kognitivní integrity, dlouhodobé následky |
 | **Reverzibilita** | Velmi nízká — návrat vyžaduje rekonstrukční terapeutický rámec |
 | **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) |
@@ -120,6 +119,16 @@ Klinická [diferenciace](@/glossary/diferenciace.md) techniky **gestalt disrupce
 **vs. Mystická zkušenost** (Stace 1960; Hood Mysticism Scale): Mystické zážitky obsahují pozitivní afekt, sense of unity a ineffability. EA-5.5.4 produkuje *negativní* fenomenologii — rozpadnutí, ne sjednocení. Hood M-Scale skore <40 v kombinaci s anxietou diferencuje EA od mystické zkušenosti. James (*Varieties of Religious Experience*, 1902) by EA-5.5.4 klasifikoval jako „anti-mystical“ stav.
 
 **vs. [Depersonalizace](@/glossary/depersonalizace.md)/derealizace** (F48.1): DPDR je trvalý nebo recurrent stav odcizení od self/světa. EA-5.5.4 je akutní *induced* stav s definovaným počátkem a koncem. Rozlišení i délku průběhu posoudí klinik; kniha k nim čísla neuvádí.
+
+## Proč se škoda zevnitř špatně pozná
+
+Útržkovitost si dodává nevinné čtení sebe samé: pozornost k jednotlivostem je ctností, takže
+chybějící celek se jeví jako přesnost. Druhou nevinnou verzí je skromnost: kdo nedůvěřuje
+svému úsudku o celku, připadá si opatrný. Lindahl et al.
+(2017) zaznamenali, že obtíže provázející kontemplativní praxi bývají posuzovány v rámci nauky,
+uvnitř níž vznikly, a jejich tíže tak zůstane nepojmenovaná.
+
+Zevnitř chybí srovnání: chybějící celek by musel být nejprve k dispozici.
 
 ## Literatura
 

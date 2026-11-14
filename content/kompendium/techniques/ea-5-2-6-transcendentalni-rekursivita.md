@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **EA kód** | `EA-5.2.6` |
 | **Kategorie** | 5. Ultramární techniky |
 | **Subkategorie** | 5.2 Metatranscendentální anihilace |
-| **Přístupová úroveň** | L3 |
 | **Riziková úroveň** | Extrémní — destabilizace kantovských kategorií rekurzivní aplikací |
 | **Reverzibilita** | Velmi nízká — návrat vyžaduje rekategorizační práci |
 | **Rodičovská kapitola** | [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) |

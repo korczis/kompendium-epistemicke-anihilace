@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **EA kód** | `EA-5.1.28` |
 | **Kategorie** | 5. Ultramari techniky |
 | **Subkategorie** | 5.1 [Epistemická singularita](@/glossary/epistemicka-singularita.md) |
-| **Přístupová úroveň** | L5 (cosmic clearance) |
 | **Riziková úroveň** | Kritická — totální epistemická monotonizace, nevratná bez specializované intervence |
 | **Reverzibilita** | Velmi nízká — vyžaduje vnější epistemickou re-pluralizaci a deprogramační protokol |
 | **Rodičovská kapitola** | [Kapitola 5 — Ultramari techniky](@/kompendium/05-ultramari-techniky/_index.md) |

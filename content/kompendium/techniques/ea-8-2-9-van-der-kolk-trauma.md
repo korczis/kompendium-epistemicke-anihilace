@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/08-prilohy/"
 | **Kategorie** | 8. Přílohy |
 | **Subkategorie** | 8.2 Referenční rámce |
 | **Typ hesla** | Referenční rámec – klinická a populárně-odborná teorie traumatu |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Vysoká u popsaných jevů; u rámce samého střední riziko zjednodušení |
 | **Validační status** | Vlivný klinický rámec; část jeho tvrzení a doporučených metod má omezenou empirickou podporu |
 | **Rodičovská kapitola** | [08. Přílohy](@/kompendium/08-prilohy/_index.md) · [Bibliografie](@/kompendium/08-prilohy/bibliografie.md) |

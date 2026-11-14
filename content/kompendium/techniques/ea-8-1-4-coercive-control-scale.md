@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/08-prilohy/"
 | **Kategorie** | 8. Přílohy |
 | **Subkategorie** | 8.1 Diagnostické nástroje |
 | **Typ hesla** | Diagnostický nástroj – oblast měření a přehled ověřených dotazníků |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Vysoká – coercive control je silným rizikovým faktorem závažného násilí |
 | **Validační status** | Existují publikované dotazníky psychického a kontrolujícího násilí; jednotná škála „Stark/Hamberger“ s hraniční hodnotou, kterou uváděla původní verze stránky, se nepodařilo doložit |
 | **Rodičovská kapitola** | [08. Přílohy](@/kompendium/08-prilohy/_index.md) · [Diagnostické nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md) |

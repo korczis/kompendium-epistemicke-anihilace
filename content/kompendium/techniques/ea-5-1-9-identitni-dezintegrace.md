@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **EA kód** | `EA-5.1.9` |
 | **Kategorie** | 5. Ultramární techniky |
 | **Subkategorie** | 5.1 [Epistemická singularita](@/glossary/epistemicka-singularita.md) |
-| **Přístupová úroveň** | L3 (omezená — výzkumný / klinický / forenzní kontext, vyžaduje supervizi) |
 | **Riziková úroveň** | Extrémní — riziko trvalého [epistemického traumatu](@/glossary/epistemicke-trauma.md), depersonalizační/derealizační symptomatiky, suicidálních ideací |
 | **Reverzibilita** | Nízká bez profesionální intervence; střední s integrovaným klinickým programem |
 | **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) |

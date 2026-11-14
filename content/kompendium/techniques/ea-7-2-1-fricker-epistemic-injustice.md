@@ -26,7 +26,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/"
 | **Kategorie** | 7. Teoretické reflexe |
 | **Subkategorie** | 7.2 Analytická filozofie |
 | **Typ hesla** | Interpretační rámec – vysvětluje, proč techniky zasahují člověka jako svědka a mluvčího |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Vysoká u popsaného jevu – soustavné nevěření vede k sebeumlčení a ke ztrátě důvěry ve vlastní paměť |
 | **Reverzibilita** | Dobrá, pokud se člověk dostane do prostředí, které mu naslouchá, a najde pojmy pro svou zkušenost |
 | **Rodičovská kapitola** | [7. Teoretické a metakonceptuální reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) |

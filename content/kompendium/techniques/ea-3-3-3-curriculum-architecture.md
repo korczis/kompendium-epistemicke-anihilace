@@ -29,7 +29,6 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-3/"
 | **EA kód** | `EA-3.3.3` |
 | **Kategorie** | 3. [Edukativní implementace](@/glossary/edukativni-implementace.md) |
 | **Subkategorie** | 3.3 Institucionální techniky |
-| **Přístupová úroveň** | L1 (volný přístup, etická governance vyžadována) |
 | **Riziková úroveň** | Nízká až střední — primárně edukativní, iatrogenní rizika při nesprávné implementaci |
 | **Reverzibilita** | Vysoká — edukativní intervence jsou principiálně modifikovatelné |
 | **Rodičovská kapitola** | [Kapitola 3 — Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md) |

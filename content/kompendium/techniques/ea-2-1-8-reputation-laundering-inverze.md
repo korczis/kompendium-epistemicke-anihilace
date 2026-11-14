@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 | **EA kód** | `EA-2.1.8` |
 | **Kategorie** | 2. Scénáře [delegitimizace](@/glossary/delegitimizace.md) |
 | **Subkategorie** | 2.1 Expertní diskvalifikace |
-| **Přístupová úroveň** | L2 (odborná analýza) |
 | **Riziková úroveň** | Vysoká – útočí právě na ty, jejichž hlas má největší váhu |
 | **Reverzibilita** | Střední až nízká; čím víc cíl své uznání brání, tím víc ho potvrzuje |
 | **Rodičovská kapitola** | [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |

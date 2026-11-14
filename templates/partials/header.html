@@ -43,7 +43,7 @@
       {%- if x.risk_level in ["critical", "kriticka", "kritická", "extreme", "high", "vysoka", "vysoká"] %}{% set tone = "bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-300" %}{% elif x.risk_level in ["medium", "stredni", "střední", "moderate"] %}{% set tone = "bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-300" %}{% else %}{% set tone = "bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-300" %}{% endif %}
       <span class="rounded-md px-2.5 py-0.5 text-xs font-medium {{ tone }}">Riziko: {{ x.risk_level }}</span>
       {%- endif %}
-      {%- if x.access_level is defined and x.access_level %}<span class="hidden sm:inline-flex rounded-md bg-purple-100 px-2.5 py-0.5 text-xs font-medium text-purple-800 dark:bg-purple-900 dark:text-purple-300">Přístup {{ x.access_level }}</span>{% endif %}
+      {%- if x.access_level is defined and x.access_level %}<a href="{{ config.base_url }}{{ config.extra.access_classification_path }}" title="Bezpečnostní klasifikace přístupu" class="hidden sm:inline-flex rounded-md bg-purple-100 px-2.5 py-0.5 text-xs font-medium text-purple-800 hover:bg-purple-200 dark:bg-purple-900 dark:text-purple-300 dark:hover:bg-purple-800">Přístup {{ x.access_level }}</a>{% endif %}
       {%- if x.anonymized is defined and x.anonymized %}<span class="rounded-md bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800 dark:bg-gray-700 dark:text-gray-300">Anonymizovaná kazuistika</span>{% endif %}
       {%- if x.stub is defined and x.stub %}<span class="rounded-md bg-yellow-100 px-2.5 py-0.5 text-xs font-medium text-yellow-800 dark:bg-yellow-900 dark:text-yellow-300">Pahýl</span>{% endif %}
       {%- if page is defined and page.ancestors %}

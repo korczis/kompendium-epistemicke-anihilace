@@ -28,7 +28,6 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-6/"
 | **EA kód** | `EA-5.1.26` |
 | **Kategorie** | 5. Ultramární techniky |
 | **Subkategorie** | 5.1 Epistemická singularita |
-| **Přístupová úroveň** | L4 (ultramarine) |
 | **Riziková úroveň** | Extrémní — produkuje paradigmatickou bezdomovinu s vysokou náchylností k akceptaci jakéhokoli stabilního rámce |
 | **Reverzibilita** | Nízká bez systematické rekonstrukce paradigmatické gramotnosti |
 | **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md) |

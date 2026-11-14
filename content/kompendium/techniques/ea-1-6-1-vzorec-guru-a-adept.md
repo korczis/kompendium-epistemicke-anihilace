@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 | **EA kód** | `EA-1.6.1` |
 | **Kategorie** | 1. Akademické techniky – kompoziční vzorce |
 | **Subkategorie** | 1.6 Charizmatické vedení |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Vysoká – vzorec je nosnou strukturou většiny závažných kazuistik |
 | **Reverzibilita** | Střední až nízká; závisí na délce vztahu a na tom, zda adept měl vztahy mimo něj |
 | **Rodičovská kapitola** | [3.1 Akademické techniky intelektuální manipulace](@/kompendium/03-zakladni-kategorie/kapitola-1.md) |

@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/08-prilohy/"
 | **Kategorie** | 8. Přílohy |
 | **Subkategorie** | 8.2 Referenční rámce |
 | **Typ hesla** | Referenční rámec – model průběhu zotavení z traumatu |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Nízká u modelu; riziko vzniká při jeho mechanickém použití |
 | **Validační status** | Klasický klinický model; postup ve fázích je široce doporučován, jeho nutnost je však předmětem odborného sporu |
 | **Rodičovská kapitola** | [08. Přílohy](@/kompendium/08-prilohy/_index.md) · [Bibliografie](@/kompendium/08-prilohy/bibliografie.md) |

@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/05-pokrocile-techniky/kapitola-6/"
 | **EA kód** | `EA-5.1.20` |
 | **Kategorie** | 5. Pokročilé techniky epistemické anihilace |
 | **Subkategorie** | 5.1 Epistemická singularita |
-| **Přístupová úroveň** | L3 (pokročilá) |
 | **Riziková úroveň** | Kritická — produkuje totalitní rámec, který interpretuje veškerou evidenci jako potvrzující |
 | **Reverzibilita** | Nízká — strukturálně eliminuje samotný mechanismus revize |
 | **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-pokrocile-techniky/kapitola-6/_index.md) |

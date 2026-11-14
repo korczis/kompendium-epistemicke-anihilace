@@ -29,7 +29,6 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-3/"
 | **EA kód** | `EA-3.1.7` |
 | **Kategorie** | 3. [Edukativní implementace](@/glossary/edukativni-implementace.md) |
 | **Subkategorie** | 3.1 Kurikulární techniky |
-| **Přístupová úroveň** | L1 (volný přístup, etická governance vyžadována) |
 | **Riziková úroveň** | Nízká až střední — primárně edukativní, iatrogenní rizika při nesprávné implementaci |
 | **Reverzibilita** | Vysoká — edukativní intervence jsou principiálně modifikovatelné |
 | **Rodičovská kapitola** | [Kapitola 3 — Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md) |
@@ -131,6 +130,14 @@ Tato edukativní technika operacionalizuje poznatky z taxonomie:
 - **[EA-1 Techniky epistemické anihilace](@/kompendium/03-zakladni-kategorie/kapitola-1.md)** — obsahový materiál pro výuku.
 - **[EA-2 Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)** — komplexní real-world cases pro analýzu.
 - **[EA-5 Kognitivní anihilace](@/kompendium/04-terminalni-protokoly/kapitola-5.md)** — pokročilé materiály pro L2/L3 úrovně.
+
+## Jak se vzorec pozná zevnitř
+
+Zevnitř je nejvýraznější úleva v okamžiku, kdy scéna skončí, a právě ta se snadno zaměňuje za
+důkaz zvládnutí. Účastník má přístup k tomu, jak si počínal, nikoli k tomu, co jeho výkon nesl; Barnett a Ceci
+(2002) ukazují, že přenos naučeného závisí na rysech situace, které účastník nerozlišuje.
+
+Pozorovatel se naopak ptá na jedinou věc: co z dění účastník pojmenoval.
 
 ## Literatura
 

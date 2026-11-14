@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 | **EA kód** | `EA-2.4.8` |
 | **Kategorie** | 2. Scénáře [delegitimizace](@/glossary/delegitimizace.md) |
 | **Subkategorie** | 2.4 Institucionální zachycení |
-| **Přístupová úroveň** | L2 (odborná analýza) |
 | **Riziková úroveň** | Vysoká – zachycený časopis propůjčuje autoritu vědy cizímu programu |
 | **Reverzibilita** | Nízká až střední; publikované články zůstávají v literatuře i po změně redakce |
 | **Rodičovská kapitola** | [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |

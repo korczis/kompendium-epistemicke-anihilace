@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/08-prilohy/"
 | **Kategorie** | 8. Přílohy |
 | **Subkategorie** | 8.2 Referenční rámce |
 | **Typ hesla** | Referenční rámec – diagnostická kategorie mezinárodní klasifikace |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Vysoká – porucha výrazně omezuje fungování a vztahy |
 | **Validační status** | Oficiální diagnóza MKN-11 (kód 6B41), s empirickou podporou odlišení od PTSD |
 | **Rodičovská kapitola** | [08. Přílohy](@/kompendium/08-prilohy/_index.md) · [Bibliografie](@/kompendium/08-prilohy/bibliografie.md) |

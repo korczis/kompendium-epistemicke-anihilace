@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **EA kód** | `EA-5.5.15` |
 | **Kategorie** | 5. Ultramární techniky |
 | **Subkategorie** | 5.5 Transkonceptuální mechanismy |
-| **Přístupová úroveň** | L3 (omezená — výhradně pro kvalifikovanou klinickou, forenzní a doktrinální analýzu) |
 | **Riziková úroveň** | Extrémní — strukturální poškození identitárně-kognitivní integrity, dlouhodobé následky |
 | **Reverzibilita** | Velmi nízká — návrat vyžaduje rekonstrukční terapeutický rámec |
 | **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) |
@@ -126,6 +125,14 @@ depersonalizace má podobu vylučování, které patří do rukou klinika.
 *Interpretace knihy*: od ztišení, o němž mluví kontemplativní tradice, odlišuje tento stav to, co
 v něm chybí. Stace (1960) i James (1902) popisují zkušenost, k níž patří sjednocení a kterou
 člověk sám hodnotí jako cennou; zde zůstává hájená nehybnost bez obojího.
+
+## Jak se vzorec pozná zevnitř
+
+Zevnitř chybí to, čím se ztráta obvykle ohlašuje — nespokojenost. Ubylo nejen kolísání, ale
+i měřítko, jímž by se dalo poznat, že ubylo: dny se neodlišují vahou a žádná volba netíží více
+než druhá. James (1902) nechával o ceně zkušenosti vypovídat především toho, kdo ji prožil, a právě tento svědek je zde zasažen.
+
+Pozorovatel vidí plochost; zasažený vidí pořádek, v němž nic nenaléhá.
 
 ## Literatura
 

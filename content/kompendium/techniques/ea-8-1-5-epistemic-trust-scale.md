@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/08-prilohy/"
 | **Kategorie** | 8. Přílohy |
 | **Subkategorie** | 8.1 Diagnostické nástroje |
 | **Typ hesla** | Diagnostický nástroj – sebehodnoticí dotazník a klinický konstrukt |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Střední až vysoká – porucha epistemické důvěry zvyšuje zranitelnost vůči manipulaci i izolaci |
 | **Validační status** | Konstrukt je teoreticky dobře rozpracován; dotazník ETMCQ je novější nástroj s probíhající validací |
 | **Rodičovská kapitola** | [08. Přílohy](@/kompendium/08-prilohy/_index.md) · [Diagnostické nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md) |

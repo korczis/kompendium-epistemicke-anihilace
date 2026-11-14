@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 | **EA kód** | `EA-1.3.3` |
 | **Kategorie** | 1. Akademické techniky intelektuální manipulace |
 | **Subkategorie** | 1.3 Narušení procesů revize a [falsifikace](@/glossary/falsifikace.md) |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Středně vysoká — pervazivní v debatách, peer review, klinických rozhovorech |
 | **Reverzibilita** | Vysoká, pokud je rozpoznána |
 | **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md) |

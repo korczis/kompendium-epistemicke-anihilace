@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/08-prilohy/"
 | **Kategorie** | 8. Přílohy |
 | **Subkategorie** | 8.1 Diagnostické nástroje |
 | **Typ hesla** | Diagnostický nástroj – sada sebehodnoticích screeningů a navazující klinický rozhovor |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Vysoká u zachyceného jevu – neléčené posttraumatické potíže se často chronifikují |
 | **Validační status** | Jednotlivé nástroje jsou ověřené; „hybridní“ skóre s vahami, které uváděla původní verze stránky, není standardem a bylo vypuštěno |
 | **Rodičovská kapitola** | [08. Přílohy](@/kompendium/08-prilohy/_index.md) · [Diagnostické nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md) |

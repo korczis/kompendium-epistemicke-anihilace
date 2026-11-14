@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **EA kód** | `EA-5.5.3` |
 | **Kategorie** | 5. Ultramární techniky |
 | **Subkategorie** | 5.5 Transkonceptuální mechanismy |
-| **Přístupová úroveň** | L3 (omezená — výhradně pro kvalifikovanou klinickou, forenzní a doktrinální analýzu) |
 | **Riziková úroveň** | Extrémní — strukturální poškození identitárně-kognitivní integrity, dlouhodobé následky |
 | **Reverzibilita** | Velmi nízká — návrat vyžaduje rekonstrukční terapeutický rámec |
 | **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) |
@@ -69,6 +68,12 @@ Co může vidět vnější pozorovatel:
 | Subjekt aktivně reprodukuje manipulátorovo prostředí ve vlastním životě | Internalizace |
 | Subjekt vykazuje známky atmosférické závislosti | Konsolidovaná struktura |
 | Subjekt nedokáže funkčně operovat v atmosféricky neutrálním prostředí | Hluboká závislost |
+
+## Jak se vzorec pozná zevnitř
+
+Zevnitř se vzorec neohlašuje jako závislost na prostředí, ale jako objev, že některá místa jsou pravdivější než jiná. Že se doma soustředí hůř, vykládá člověk jako vlastní nedůslednost, nikoli jako důsledek toho, že své naladění svěřil cizímu interiéru. Lindahl et al. (2017) zaznamenali, že účastníci přičítali obtíže z intenzivní praxe spíš sobě než prostředí, v němž vznikaly.
+
+Nápadné proto bývá až přestěhování, kdy prostředí zmizí.
 
 ## Neutralizační strategie
 

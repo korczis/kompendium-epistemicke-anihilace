@@ -26,7 +26,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/"
 | **Kategorie** | 7. Teoretické reflexe |
 | **Subkategorie** | 7.2 Analytická filozofie |
 | **Typ hesla** | Interpretační rámec – vztah objektivního a subjektivního poznání |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Střední u popsaného jevu – zneplatnění první osoby vede k odcizení od vlastního prožitku |
 | **Reverzibilita** | Dobrá; prvenství prožitku lze obnovit, pokud se člověk vymaní z prostředí, které ho popírá |
 | **Rodičovská kapitola** | [7. Teoretické a metakonceptuální reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) |

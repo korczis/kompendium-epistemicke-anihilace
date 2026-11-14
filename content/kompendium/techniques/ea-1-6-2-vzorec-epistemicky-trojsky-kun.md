@@ -26,7 +26,6 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 | **EA kód** | `EA-1.6.2` |
 | **Kategorie** | 1. Akademické techniky – kompoziční vzorce |
 | **Subkategorie** | 1.6 Charizmatické vedení |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Vysoká – vzorec přenáší účinek jiných technik do institucí, které jinak odolávají |
 | **Reverzibilita** | Vysoká u jednotlivého tvrzení, nízká tam, kde se náklad stal citovanou oporou dalších prací |
 | **Rodičovská kapitola** | [3.1 Akademické techniky intelektuální manipulace](@/kompendium/03-zakladni-kategorie/kapitola-1.md) |

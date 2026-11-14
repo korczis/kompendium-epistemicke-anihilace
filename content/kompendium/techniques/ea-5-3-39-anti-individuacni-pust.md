@@ -12,6 +12,7 @@ related_terms = ["ea-5-3-41-trans-individualizace", "ea-1-6-5", "ea-1-6-1-vzorec
 ea_code = "EA-5.3.39"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.3 Hypertransformativní protokoly"
+access_level = "L3"
 parent_chapter = "/kompendium/05-ultramari-techniky/"
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
@@ -25,7 +26,6 @@ date_modified = "2026-11-10"
 | **EA kód** | `EA-5.3.39` |
 | **Kategorie** | 5. Ultramární techniky |
 | **Subkategorie** | 5.3 Hypertransformativní protokoly |
-| **Přístupová úroveň** | L3 (pro klinickou, forenzní a výzkumnou analýzu) |
 | **Riziková úroveň** | Střední až vysoká; nejvyšší v uměleckém a sportovním vzdělávání dětí |
 | **Reverzibilita** | Střední; vlastní hlas se obnovuje pomalu, ale obnovuje |
 | **Rodičovská kapitola** | [Kapitola 8: Hypertransformativní protokoly](@/kompendium/05-ultramari-techniky/kapitola-8.md) |

@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **EA kód** | `EA-5.5.22` |
 | **Kategorie** | 5. Ultramární techniky |
 | **Subkategorie** | 5.5 Transkonceptuální mechanismy |
-| **Přístupová úroveň** | L3 (omezená — výhradně pro kvalifikovanou klinickou, forenzní a doktrinální analýzu) |
 | **Riziková úroveň** | Extrémní — strukturální poškození identitárně-kognitivní integrity, dlouhodobé následky |
 | **Reverzibilita** | Velmi nízká — návrat vyžaduje rekonstrukční terapeutický rámec |
 | **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) |
@@ -71,6 +70,12 @@ Co může vidět vnější pozorovatel:
 | Subjekt přikládá hypnagogii vyšší autoritu než běžné zkušenosti | Inverze priorities |
 | Subjekt aktivně vyhledává hypnagogii | Závislost |
 | Subjektovy hypnagogické zkušenosti jsou strukturálně shodné s manipulátorovou doktrinou | Implantát |
+
+## Proč se škoda zevnitř špatně pozná
+
+Vzorec si zevnitř nebere nic, co by šlo ohlásit jako ztrátu — naopak přidává: každou noc přichází něco, co den nenabízí. Teprve na pozadí toho přírůstku zešedne obyčejné odpoledne i jeho rozhodnutí. Singer (1995) popisuje, že přesun významu k jedinému zdroji si zasažený uvědomí až ve chvíli, kdy je o tento zdroj připraven.
+
+Otázka zevnitř pak nezní, co ve dni chybí.
 
 ## Neutralizační strategie
 

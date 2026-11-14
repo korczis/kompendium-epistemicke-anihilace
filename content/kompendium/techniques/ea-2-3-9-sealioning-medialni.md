@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 | **EA kód** | `EA-2.3.9` |
 | **Kategorie** | 2. Scénáře [delegitimizace](@/glossary/delegitimizace.md) |
 | **Subkategorie** | 2.3 Mediální delegitimizace |
-| **Přístupová úroveň** | L2 (odborná analýza) |
 | **Riziková úroveň** | Střední až vysoká – vyčerpává, umlčuje a staví cíl do role nezdvořilého |
 | **Reverzibilita** | Vysoká, pokud cíl rozpozná vzorec a vystoupí z něj |
 | **Rodičovská kapitola** | [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
@@ -183,6 +182,15 @@ platformy moderovat vzorec vyčerpání, aniž by omezily oprávněné požadavk
 
 Anonymizované kompozity: [mediální mob útok](@/kompendium/case-studies/04-medialni-mob-attack.md)
 (vlna „zdvořilých“ dotazů předcházející útoku) a [kult podcastu](@/kompendium/case-studies/75-podcast-cult.md).
+
+## Proč se škoda zevnitř špatně pozná
+
+Každá otázka je oprávněná a vzorec leží teprve v jejich řadě; cíl má před sebou jen jednu,
+takže odmítnutí se mu jeví jako nesplněná povinnost, ne jako hranice. Walton (2008) připomíná,
+že přechod mezi typy dialogu zůstává nepozorován — a nepojmenovaný přechod je právě to, co
+zevnitř chybí.
+
+Druhou nevinnou verzí je zdvořilost tazatelů: na tónu nelze nic ukázat.
 
 ## Literatura
 

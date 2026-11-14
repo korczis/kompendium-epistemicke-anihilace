@@ -29,7 +29,6 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-3/"
 | **EA kód** | `EA-3.2.3` |
 | **Kategorie** | 3. [Edukativní implementace](@/glossary/edukativni-implementace.md) |
 | **Subkategorie** | 3.2 Supervizorské techniky |
-| **Přístupová úroveň** | L1 (volný přístup, etická governance vyžadována) |
 | **Riziková úroveň** | Nízká až střední — primárně edukativní, iatrogenní rizika při nesprávné implementaci |
 | **Reverzibilita** | Vysoká — edukativní intervence jsou principiálně modifikovatelné |
 | **Rodičovská kapitola** | [Kapitola 3 — Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md) |
@@ -133,6 +132,15 @@ Tato edukativní technika operacionalizuje poznatky z taxonomie:
 - **[EA-1 Techniky epistemické anihilace](@/kompendium/03-zakladni-kategorie/kapitola-1.md)** — obsahový materiál pro výuku.
 - **[EA-2 Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)** — komplexní real-world cases pro analýzu.
 - **[EA-5 Kognitivní anihilace](@/kompendium/04-terminalni-protokoly/kapitola-5.md)** — pokročilé materiály pro L2/L3 úrovně.
+
+## Jak se vzorec pozná zevnitř
+
+Zevnitř to nezaznamená nejdřív supervizor, nýbrž supervidovaný, a ne jako výkyv, nýbrž jako
+vlastní rozhodnutí: některý materiál už nepřinese a vysvětlí si to jako ohleduplnost. Falender
+a Shafranske (2004) kladou odpovědnost za zacházení s vlastním stavem na supervizora proto,
+že v nerovném vztahu ji jinak nese slabší strana.
+
+Zvenčí se to jeví jako hladká supervize: nepřinesené nelze pozorovat.
 
 ## Literatura
 

@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-6/"
 | **EA kód** | `EA-5.1.16` |
 | **Kategorie** | 5. Ultramarinní techniky |
 | **Subkategorie** | 5.1 [Epistemická singularita](@/glossary/epistemicka-singularita.md) |
-| **Přístupová úroveň** | L4 (ultramarinní — vyžaduje supervizi) |
 | **Riziková úroveň** | Ultramarinní — vede k úplnému kolapsu inferenční schopnosti |
 | **Reverzibilita** | Velmi nízká — paralýza se sebevynucuje, protože každý pokus o únik vyžaduje inferenci, která je sama zpochybňována |
 | **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md) |

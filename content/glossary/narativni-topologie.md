@@ -42,9 +42,8 @@ Z klinické literatury o traumatu přebírá pozorování, že traumatická zku�
 **nezačleněná** – vyčnívá z příběhu jako cizí těleso nebo v něm chybí ([narrative
 trauma](@/glossary/narrative-trauma.md)).
 
-Prismatic Platform, z níž Kompendium vzešlo, pracuje s grafovými modely ([Graph
-theory](@/glossary/graph-theory.md)); narativní topologie je jejich volnou analogií pro oblast
-osobního příběhu.
+Narativní topologie je volnou analogií grafových modelů ([Graph
+theory](@/glossary/graph-theory.md)) pro oblast osobního příběhu.
 
 ## Jak se projevuje
 

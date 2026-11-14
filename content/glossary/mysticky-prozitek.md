@@ -33,7 +33,7 @@ image_alt = "Mysticky prozitek"
 
 Moderní operacionalizace (Walter Pahnke 1969, Ralph Hood 1975, Roland Griffiths od roku 2006) přidala dva další znaky: **pocit jednoty** s okolím a **hluboce pociťovanou pozitivní náladu**. Současným standardním nástrojem je MEQ30 (*Mystical Experience Questionnaire*, 30 položek).
 
-V kontextu platformy Prismatic i knihy je mystický prožitek **provozně definovanou psychologickou kategorií** (prostřednictvím MEQ30), ne metafyzickým tvrzením. Kniha se nevyjadřuje k tomu, zda prožitek odkazuje k transcendentní skutečnosti; zabývá se tím, jak se s ním zachází.
+V této knize je mystický prožitek **provozně definovanou psychologickou kategorií** (prostřednictvím MEQ30), ne metafyzickým tvrzením. Kniha se nevyjadřuje k tomu, zda prožitek odkazuje k transcendentní skutečnosti; zabývá se tím, jak se s ním zachází.
 
 ## Původ a kontext pojmu
 
@@ -68,7 +68,7 @@ Mystický prožitek je epistemicky silný, protože má **noetickou kvalitu**: p
 
 ## Význam pro Kompendium
 
-Pro vyšetřování [due diligence](@/glossary/due-diligence.md) zaměřená na náboženské, terapeutické nebo koučovací organizace platí ve vývojovém kontextu, z něhož kniha vzešla: tvrzení o „spirituálních zážitcích“ klientů lze ověřovat jen s odkazem na standardizované nástroje a vnější kontrolu. Manažersky kritické je, že organizace, která *prodává mystické prožitky* (psychedelické pobyty, intenzivní meditační centra, charismatické náboženské komunity), musí doložit:
+Pro vyšetřování [due diligence](@/glossary/due-diligence.md) zaměřená na náboženské, terapeutické nebo koučovací organizace platí, že tvrzení o „spirituálních zážitcích“ klientů lze ověřovat jen s odkazem na standardizované nástroje a vnější kontrolu. Manažersky kritické je, že organizace, která *prodává mystické prožitky* (psychedelické pobyty, intenzivní meditační centra, charismatické náboženské komunity), musí doložit:
 
 1. screeningový protokol;
 2. kvalifikovanou podporu integrace;

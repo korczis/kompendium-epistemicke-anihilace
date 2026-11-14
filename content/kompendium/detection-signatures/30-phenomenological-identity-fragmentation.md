@@ -145,7 +145,3 @@ Měřit fragmentaci identity spolehlivě je obtížné; dostupné nástroje zach
 
 - [Středně-dobá rekonstrukce identity](@/kompendium/recovery-protocols/midterm-identity-reconstruction.md) – rámec obnovy.
 - [Protokol kultovní extrakce](@/kompendium/recovery-protocols/recovery-cult-extraction-protocol.md) – specifika po odchodu ze skupiny.
-
----
-
-*Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)*

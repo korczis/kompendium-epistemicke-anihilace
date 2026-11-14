@@ -151,7 +151,3 @@ Praktickým omezením je pracnost mapy definic a její závislost na úplnosti m
 - [Kruhové uvažování v EA detekci](@/kompendium/critical-perspectives/4-circular-reasoning-risk.md) – varování, že i detekce může být kruhová.
 - [Středně-dobý hermeneutický reset](@/kompendium/recovery-protocols/midterm-hermeneutic-reset.md) – obnova vlastních významů.
 - [Vzdělávací scénář: Řešení rozporů](@/kompendium/educational-scenarios/8-contradiction-resolution.md) – nácvik práce s protipříklady.
-
----
-
-*Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)*

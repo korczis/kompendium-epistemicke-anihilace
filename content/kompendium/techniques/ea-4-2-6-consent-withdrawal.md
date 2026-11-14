@@ -133,6 +133,7 @@ Klinický kontext **EA-4.2.6** připouští následující dokumentované adapta
 ## Vztah k jiným technikám
 
 ### V rámci subkategorie 4.2 Bezpečnostní protokoly
+
   - [EA-4.2.1 Pre-engagement screening](@/kompendium/techniques/ea-4-2-1-pre-engagement-screening.md)
   - [EA-4.2.2 Real-time monitoring](@/kompendium/techniques/ea-4-2-2-real-time-monitoring.md)
   - [EA-4.2.3 Post-engagement reintegration](@/kompendium/techniques/ea-4-2-3-post-engagement-reintegration.md)
@@ -140,9 +141,11 @@ Klinický kontext **EA-4.2.6** připouští následující dokumentované adapta
   - [EA-4.2.5 Whistleblower protection](@/kompendium/techniques/ea-4-2-5-whistleblower-protection.md)
 
 ### Provázanost mezi subkategoriemi 4
+
   - [EA-4.3.1 Systematic conceptual disassembly](@/kompendium/techniques/ea-4-3-1-systematic-conceptual-disassembly.md)
 
 ### Cross-kategoriální vazby
+
 - **[EA 1 5 1 STRATEGICKA PROXEMIKA](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md)** — akademická vrstva, jejíž eskalace může vést k terminální fázi.
 - **[EA 2 1 1 EXPERTNI DISINFLATION](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md)** — související vstupní mechanismus.
 - **[EA 5 1 1 EPISTEMICKA KANIBALIZACE](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md)** — ultramární technika strukturálně příbuzná, vyžadující ostřejší distinktivní detekci.
@@ -179,9 +182,3 @@ Klinický kontext **EA-4.2.6** připouští následující dokumentované adapta
 - **Forward-references**:
   - [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

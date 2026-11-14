@@ -317,20 +317,24 @@ Fáze na sebe navazují v tomto pořadí, ale překrývají se a jejich délku k
 ## Související
 
 ### Sister scenarios
+
 - [Scénář F: Kolektivní epistemická delegitimizace](@/kompendium/03-zakladni-kategorie/scenar-f.md)
 - [Scénář G: Progresivní kognitivní dekonstrukce](@/kompendium/03-zakladni-kategorie/scenar-g.md)
 
 ### Kapitoly
+
 - [Kapitola 1: Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
 - [Kapitola 2: Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)
 - [Kapitola 3: Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md)
 
 ### Předmluva
+
 - [Účel kompendia](@/kompendium/01-predmluva/ucel-kompendia.md)
 - [Etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md)
 - [Odkud kniha pochází](@/kompendium/01-predmluva/vztah-k-platforme.md)
 
 ### Související techniky (cross-link)
+
 - [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md)
 - [EA-1.2.2 Falešná ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md)
 - [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)
@@ -340,6 +344,7 @@ Fáze na sebe navazují v tomto pořadí, ale překrývají se a jejich délku k
 - [EA-1.5.2 Dominantní tělesné hieroglyfy](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md)
 
 ### Sekce
+
 - [Sekce 04: Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
 - [Sekce 05: Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
 - [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
@@ -347,6 +352,7 @@ Fáze na sebe navazují v tomto pořadí, ale překrývají se a jejich délku k
 - [Sekce 08: Přílohy](@/kompendium/08-prilohy/_index.md)
 
 ### Glosář
+
 - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
 - [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
 - [Anankastický režim](@/glossary/anankasticky-rezim.md)
@@ -354,6 +360,7 @@ Fáze na sebe navazují v tomto pořadí, ale překrývají se a jejich délku k
 - [Anihilační fenomény](@/glossary/anihilacni-fenomeny.md)
 
 ### Platforma
+
 - [Philosophy: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 - [Philosophy: Boundary Ethics](@/philosophy/boundary-ethics.md)
 

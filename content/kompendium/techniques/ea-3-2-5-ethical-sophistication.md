@@ -81,6 +81,10 @@ Od neškodných jevů se vzorec odlišuje tím, co zůstává možné. Náročn�
 
 Druhým rozlišovacím hlediskem je čas. Jednorázový konflikt nebo období přetížení mají konec a pracoviště se po nich vrací k dřívějšímu způsobu práce; vzorec popsaný na této stránce se naopak usazuje jako nová norma, které si zúčastnění přestanou všímat (Bernard a Goodyear, 2019).
 
+## Jak se ochuzení pozná zevnitř
+
+Supervizor, jehož etická rozvaha se zúžila na soulad s předpisem, to sám neprožívá jako ztrátu. Rozhodování se mu zdá klidnější a úbytek nejistoty si vykládá jako zralost. Praktický úsudek přitom žije ze srovnávání s obtížnými případy, a kdo přestal hledat případ, v němž by vlastní závěr neplatil, nemá zevnitř čím rozdíl zachytit (Jonsen a Toulmin, 1988). Okolí si spíš všimne, že supervidovaní přestali s dilematy přicházet.
+
 ## Hodnotící kritéria
 
 Hodnotící kritéria nejsou cílem práce, ale jejím ukazatelem. Jakmile se měřítko stane cílem, přestává měřit to, kvůli čemu vzniklo — tento efekt popsal Campbell (1979) jako pravidlo, že čím více se kvantitativní ukazatel používá k rozhodování, tím více podléhá zkreslení.
@@ -140,12 +144,3 @@ Druhým rizikovým kontextem je přenos případů mezi kulturními prostředím
 - **Klinické aplikace**: [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - **Filozofie**:
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
-## Connect & Contribute
-
-Stránku vytvořil [Tomáš Korcak (korczis)](https://github.com/korczis).
-Licence obsahu: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md).
-
-Další rozcestníky: [Glossary](@/glossary/_index.md), [Philosophy](@/philosophy/_index.md),
-[Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki),
-[Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues).

@@ -137,6 +137,7 @@ Klinický kontext **EA-4.3.8** připouští následující dokumentované adapta
 ## Vztah k jiným technikám
 
 ### V rámci subkategorie 4.3 Konceptuální dekonstrukce
+
   - [EA-4.3.1 Systematic conceptual disassembly](@/kompendium/techniques/ea-4-3-1-systematic-conceptual-disassembly.md)
   - [EA-4.3.2 Categorical boundary erosion](@/kompendium/techniques/ea-4-3-2-categorical-boundary-erosion.md)
   - [EA-4.3.3 Semantic stability disruption](@/kompendium/techniques/ea-4-3-3-semantic-stability-disruption.md)
@@ -144,9 +145,11 @@ Klinický kontext **EA-4.3.8** připouští následující dokumentované adapta
   - [EA-4.3.5 Evidential criteria modification](@/kompendium/techniques/ea-4-3-5-evidential-criteria-modification.md)
 
 ### Provázanost mezi subkategoriemi 4
+
   - [EA-4.4.1 Narrative disassembly](@/kompendium/techniques/ea-4-4-1-narrative-disassembly.md)
 
 ### Cross-kategoriální vazby
+
 - **[EA 1 2 3 ILUZORNI KOMPLEXITA](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md)** — akademická vrstva, jejíž eskalace může vést k terminální fázi.
 - **[EA 1 1 1 SELEKTIVNI EXPOZICE](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)** — související vstupní mechanismus.
 - **[EA 5 1 1 EPISTEMICKA KANIBALIZACE](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md)** — ultramární technika strukturálně příbuzná, vyžadující ostřejší distinktivní detekci.
@@ -183,9 +186,3 @@ Klinický kontext **EA-4.3.8** připouští následující dokumentované adapta
 - **Forward-references**:
   - [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

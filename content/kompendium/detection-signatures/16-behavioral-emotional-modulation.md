@@ -132,7 +132,3 @@ Deník emočního klimatu je subjektivní a pro forenzní účely je třeba ho d
 
 - [Sebe-obrana: Rozpoznání emočního dluhu](@/kompendium/self-defense-guides/20-emotional-debt-recognition.md) – pojmenování závazku vzniklého z vřelých fází.
 - [Subakutní relační restrukturalizace](@/kompendium/recovery-protocols/subacute-relational-restructuring.md) – obnova vztahových vzorců.
-
----
-
-*Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)*

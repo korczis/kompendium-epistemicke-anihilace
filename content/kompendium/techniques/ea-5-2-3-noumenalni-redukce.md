@@ -197,9 +197,3 @@ Intervence: redakční intervence, povinný kurz **investigativní metodologie**
   - [Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
   - [Fenomenologie](@/glossary/fenomenologie.md)
   - [Hermeneutika](@/glossary/hermeneutika.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

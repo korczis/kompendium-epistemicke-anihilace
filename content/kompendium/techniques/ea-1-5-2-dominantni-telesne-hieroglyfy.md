@@ -227,9 +227,3 @@ Intervence: Klinické protokoly — written treatment options requirement, manda
 - **Forward-references**:
   - [Sekce 04 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
   - [Sekce 05 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

@@ -134,7 +134,3 @@ Zájmena jsou slabý signál, který bez kontextu nevypovídá; jejich síla je 
 
 - [Sebe-obrana: Asertivní komunikace](@/kompendium/self-defense-guides/24-communication-assertiveness.md) – návrat k první osobě.
 - [Středně-dobá rekonstrukce identity](@/kompendium/recovery-protocols/midterm-identity-reconstruction.md) – obnova vlastního hlasu.
-
----
-
-*Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)*

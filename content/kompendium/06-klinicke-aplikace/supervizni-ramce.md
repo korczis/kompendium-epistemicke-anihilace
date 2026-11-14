@@ -97,15 +97,19 @@ Přiměřenost kombinace se posuzuje podle toho, zda má klinik kam přinést ja
 Supervize potřebuje předem domluvené, co se stane, když běžné setkání nestačí. Nejde o číselné prahy, ale o rozpoznatelné situace, které vyžadují jiný druh pomoci.
 
 ### Nejistota v interpretaci
+
 Klinik si není jistý výkladem techniky nebo zvažuje intervenci s nejasným rizikem. Odpovědí je rozšířené supervizní setkání s podrobným mapováním případu. **Rozsah kniha neuvádí**: dřívější verze tu měla délku rozšířeného setkání bez zdroje.
 
 ### Sekundární destabilizace klinika
+
 Klinik vykazuje znaky destabilizace (ztráta epistemických kotev, fascinace, identifikace s materiálem). Odpovědí je **dočasné odpojení** od případu, vlastní terapie a návrat až po novém posouzení.
 
 ### Etický konflikt
+
 Objeví se dual-use riziko, porušení hranic nebo manipulace ze strany klienta. Odpovědí je přerušení dosavadního postupu, předání věci etické komisi nebo jinému nezávislému orgánu a dokumentace.
 
 ### Krizová indikace klienta
+
 Klient projevuje suicidální ideaci, akutní psychotickou dekompenzaci nebo závažnou destabilizaci. Taková situace přesahuje supervizi: rozhoduje ošetřující klinik a krizové služby podle platných postupů. Supervize pomáhá klinikovi situaci unést a později ji zpracovat.
 
 ## Indikátory selhání supervize

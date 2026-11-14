@@ -128,7 +128,3 @@ Odkazy na smazané nebo změněné stránky ztěžují rekonstrukci, a archivní
 
 - [Sebe-obrana: Ověřování tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md) – praktický postup.
 - [Analýza dokumentů](@/kompendium/research-methodology/document-analysis-EA.md) – metodika práce s prameny.
-
----
-
-*Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)*

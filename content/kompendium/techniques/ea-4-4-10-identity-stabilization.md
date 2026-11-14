@@ -119,6 +119,7 @@ Aplikace techniky **EA-4.4.10** vyžaduje specifickou modifikaci v následujíc�
 ## Vztah k jiným technikám
 
 ### V rámci subkategorie 4.4 Identitní dekonstrukce
+
   - [EA-4.4.1 Narrative disassembly](@/kompendium/techniques/ea-4-4-1-narrative-disassembly.md)
   - [EA-4.4.2 Role fragmentation](@/kompendium/techniques/ea-4-4-2-role-fragmentation.md)
   - [EA-4.4.3 Relational restructure](@/kompendium/techniques/ea-4-4-3-relational-restructure.md)
@@ -126,9 +127,11 @@ Aplikace techniky **EA-4.4.10** vyžaduje specifickou modifikaci v následujíc�
   - [EA-4.4.5 Temporal self-disruption](@/kompendium/techniques/ea-4-4-5-temporal-self-disruption.md)
 
 ### Provázanost mezi subkategoriemi 4
+
   - [EA-4.1.1 Foundation stage](@/kompendium/techniques/ea-4-1-1-foundation-stage.md)
 
 ### Cross-kategoriální vazby
+
 - **[EA 2 1 3 CREDENTIALING ATTACK](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md)** — akademická vrstva, jejíž eskalace může vést k terminální fázi.
 - **[EA 1 3 2 STRATEGICKA REINTERPRETACE](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md)** — související vstupní mechanismus.
 - **[EA 5 1 1 EPISTEMICKA KANIBALIZACE](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md)** — ultramární technika strukturálně příbuzná, vyžadující ostřejší distinktivní detekci.

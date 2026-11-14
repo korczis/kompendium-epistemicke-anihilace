@@ -131,7 +131,3 @@ Institucionální prověřování je nákladné a nerovnoměrně dostupné; mal�
 
 - [EA × Due Diligence: Source Weighting](@/kompendium/cross-domain/10-ea-dd-source-weighting.md) – vážení zdrojů při prověřování.
 - [Politika střetu zájmů](@/kompendium/organizational-defense/3-conflict-of-interest-policy.md) – institucionální pojistka.
-
----
-
-*Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)*

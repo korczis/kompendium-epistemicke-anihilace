@@ -144,7 +144,3 @@ Hranice mezi agresivním obchodem a manipulací je v praxi i právně neostrá; 
 
 - [Sebe-obrana: Časově odložené hodnocení](@/kompendium/self-defense-guides/37-time-locked-evaluation.md) – pravidlo odkladu.
 - [Sebe-obrana: Řízení kognitivní zátěže](@/kompendium/self-defense-guides/10-cognitive-load-management.md) – ochrana rozhodování pod tlakem.
-
----
-
-*Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)*

@@ -119,6 +119,7 @@ Aplikace techniky **EA-4.2.8** vyžaduje specifickou modifikaci v následující
 ## Vztah k jiným technikám
 
 ### V rámci subkategorie 4.2 Bezpečnostní protokoly
+
   - [EA-4.2.1 Pre-engagement screening](@/kompendium/techniques/ea-4-2-1-pre-engagement-screening.md)
   - [EA-4.2.2 Real-time monitoring](@/kompendium/techniques/ea-4-2-2-real-time-monitoring.md)
   - [EA-4.2.3 Post-engagement reintegration](@/kompendium/techniques/ea-4-2-3-post-engagement-reintegration.md)
@@ -126,9 +127,11 @@ Aplikace techniky **EA-4.2.8** vyžaduje specifickou modifikaci v následující
   - [EA-4.2.5 Whistleblower protection](@/kompendium/techniques/ea-4-2-5-whistleblower-protection.md)
 
 ### Provázanost mezi subkategoriemi 4
+
   - [EA-4.3.1 Systematic conceptual disassembly](@/kompendium/techniques/ea-4-3-1-systematic-conceptual-disassembly.md)
 
 ### Cross-kategoriální vazby
+
 - **[EA 1 2 3 ILUZORNI KOMPLEXITA](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md)** — akademická vrstva, jejíž eskalace může vést k terminální fázi.
 - **[EA 1 1 1 SELEKTIVNI EXPOZICE](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)** — související vstupní mechanismus.
 - **[EA 5 1 3 REFLEXIVNI PARADOXIE](@/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie.md)** — ultramární technika strukturálně příbuzná, vyžadující ostřejší distinktivní detekci.

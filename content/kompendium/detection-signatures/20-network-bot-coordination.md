@@ -131,7 +131,3 @@ Generativní umělá inteligence zvyšuje věrohodnost falešných účtů a sni
 
 - [Vzdělávací scénář: Koordinace botů](@/kompendium/educational-scenarios/17-bot-coordination.md) – nácvik rozpoznání.
 - [EA × OSINT: Bot Detection](@/kompendium/cross-domain/6-ea-osint-bot-detection.md) – metodika.
-
----
-
-*Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)*

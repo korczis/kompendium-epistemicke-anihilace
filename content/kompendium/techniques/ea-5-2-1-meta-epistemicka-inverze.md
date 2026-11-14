@@ -177,9 +177,3 @@ Intervence: deplatformizace a rozprášení komunity — rekonstrukce standardů
   - [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

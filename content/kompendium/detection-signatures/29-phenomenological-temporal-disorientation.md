@@ -143,7 +143,3 @@ Vztah mezi narušením rytmu a narušením paměti je složitý a u jednotlivce 
 
 - [Biografická časová osa](@/kompendium/06-klinicke-aplikace/biographical-timeline-rekonstrukce.md) – klinický nástroj.
 - [Sebe-obrana: Časové sešívání sebe](@/kompendium/self-defense-guides/49-temporal-self-stitching.md) – každodenní praxe.
-
----
-
-*Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)*

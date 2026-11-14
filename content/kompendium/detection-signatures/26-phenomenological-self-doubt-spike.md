@@ -144,7 +144,3 @@ Sebepochybnost a deprese se často navzájem podmiňují a oddělit je nelze vž
 
 - [Středně-dobá metakognitivní rehabilitace](@/kompendium/recovery-protocols/midterm-metacognitive-rehab.md) – obnova důvěry v úsudek.
 - [Sebe-obrana: Paměťový archiv](@/kompendium/self-defense-guides/43-memory-archive.md) – opora mimo vlastní paměť.
-
----
-
-*Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)*

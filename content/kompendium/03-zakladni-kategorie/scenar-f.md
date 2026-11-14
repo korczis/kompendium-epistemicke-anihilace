@@ -325,20 +325,24 @@ Plné zotavení do předútočného stavu **není typicky možné**. Realistick�
 ## Související
 
 ### Sister scenarios
+
 - [Scénář G: Progresivní kognitivní dekonstrukce](@/kompendium/03-zakladni-kategorie/scenar-g.md)
 - [Scénář H: Destruktivní „konstruktivní“ kritika](@/kompendium/03-zakladni-kategorie/scenar-h.md)
 
 ### Kapitoly
+
 - [Kapitola 1: Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
 - [Kapitola 2: Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)
 - [Kapitola 3: Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md)
 
 ### Předmluva
+
 - [Účel kompendia](@/kompendium/01-predmluva/ucel-kompendia.md)
 - [Etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md)
 - [Odkud kniha pochází](@/kompendium/01-predmluva/vztah-k-platforme.md)
 
 ### Související techniky (cross-link)
+
 - [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)
 - [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)
 - [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md)
@@ -351,17 +355,20 @@ Plné zotavení do předútočného stavu **není typicky možné**. Realistick�
 - [EA-1.5.1 Strategická proxemika](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md)
 
 ### Sekce
+
 - [Sekce 04: Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
 - [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - [Sekce 07: Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
 
 ### Glosář
+
 - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
 - [Epistemická komunita](@/glossary/epistemicka-komunita.md)
 - [Epistemická alienace](@/glossary/epistemicka-alienace.md)
 - [Anihilační fenomény](@/glossary/anihilacni-fenomeny.md)
 
 ### Platforma
+
 - [Philosophy: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ## Kritický krok

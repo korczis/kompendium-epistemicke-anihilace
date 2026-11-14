@@ -187,9 +187,3 @@ Klientka po pětiletém vztahu hlásí: „Nevím, co se vlastně stalo a co mi 
   - [Hermeneutika](@/glossary/hermeneutika.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
   - [Dual-use poznání](@/glossary/dual-use-poznani.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

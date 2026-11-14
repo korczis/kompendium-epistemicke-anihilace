@@ -56,15 +56,10 @@ Posunutá kritéria důkazu se poznají i na tom, které z níže uvedených poj
 
 Posouvání cizích kritérií stránka nepředepisuje ani neospravedlňuje; nabízí jen měřítko k jeho rozpoznání.
 
-| Pojistka | Co znamená její nepřítomnost |
-|----------|------------------------------|
-| **[IRB přezkum](@/glossary/irb-review.md)** | Nikdo mimo dané uspořádání jeho přínos a jeho rizika nevážil a o žádném takovém vážení nezůstal zápis |
-| **[Informovaný souhlas](@/glossary/informed-consent.md)** | Zasažený člověk neumí říct, s čím souhlasil, od koho to slyšel a co se stane, když přestane |
-| **Průběžné sledování stavu** | Zhoršení nikdo nezaznamenával, nebo se zaznamenaný údaj vykládal jako součást procesu; nezůstalo nic, co by šlo zpětně srovnat |
-| **Shoda na tom, kdy přestat** | Nikdo se předem neshodl na tom, co by platilo za důvod přestat; otázku, kdy je toho dost, zodpovídá zpětně tentýž, kdo uspořádání vede |
-| **Nezávislý audit** | Na průběh se nepodíval nikdo, kdo by na něm nebyl zúčastněn, a námitka zvenčí se vyřizuje uvnitř |
-| **Dokumentační řetězec** | Záznam neexistuje, nebo vznikl zpětně a drží jej ten, kdo je zároveň aktérem; řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) nelze rekonstruovat |
-| **Kanál pro oznamovatele** | Člověk, který chce o věci mluvit, nemá kam; každá cesta vede k tomu, kdo je sám předmětem námitky |
+{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
+|---|---|
+{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
+{% endfor %}
 
 ## Okolnosti, za nichž je expozice vyloučena
 

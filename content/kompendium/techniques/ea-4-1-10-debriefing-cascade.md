@@ -55,19 +55,14 @@ Měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.m
 
 Kaskádu debriefingů tato stránka nepředepisuje ani nepovoluje; pojistky níže uvádí proto, že jejich nepřítomnost je sama rozpoznatelná.
 
-| Pojistka | Co znamená její nepřítomnost |
+{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
 |---|---|
-| **[IRB přezkum](@/glossary/irb-review.md)** | Nikdo mimo dané uspořádání nevážil jeho přínos proti riziku a o takovém vážení neexistuje záznam |
-| **[Informovaný souhlas](@/glossary/informed-consent.md)** | Zúčastněný nevěděl, čemu je vystaven, a odstoupení pro něj nebylo dostupné bez ztráty |
-| **Průběžné sledování stavu** | Zhoršení stavu nikdo nezaznamenává a vyjde najevo až tehdy, když na ně upozorní sám zasažený |
-| **Shoda na tom, kdy přestat** | Nikdo se předem neshodl na tom, co by platilo za okamžik zastavení, a rozhoduje o tom ten, kdo zátěž vede |
-| **Nezávislý audit** | Uspořádání nikdo zvenčí nepřezkoumal a nikdo mimo ně nemá jak je zastavit |
-| **Dokumentační řetězec** | Co se dělo, nelze doložit jinak než výpovědí toho, kdo uspořádání vedl ([chain of custody](@/glossary/chain-of-custody.md)) |
-| **Kanál pro oznamovatele** | Námitku nelze vznést nikde jinde než u toho, proti komu míří, a je rozpoznatelná podle svého autora |
+{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
+{% endfor %}
 
 ## Co vylučuje debriefing tohoto typu
 
-Žádné uspořádání, v němž by byla kaskáda debriefingů po zátěži na místě, tato stránka nejmenuje. Emanuel, Wendler a Grady (2000) formulují požadavky, jimž musí vyhovět výzkumné uspořádání — nezávislý přezkum, příznivý poměr přínosu a rizika, spravedlivý výběr účastníků a informovaný souhlas; ty váží zadavatele a posuzující orgán a nelze je číst jako měřítko, jímž by si někdo odsouhlasil vlastní postup. Souhlas odvolatelný bez sankce patří k témuž souboru podmínek uspořádání (Faden a Beauchamp, 1986). Zda je rozhovor tohoto druhu po zátěži vůbec přípustný, posuzují orgány popsané v [etických aspektech](@/kompendium/01-predmluva/eticke-aspekty.md) a mez stanovuje [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md); tato stránka nepovoluje nic. Níže stojí jen okolnosti, za nichž je takový rozhovor vyloučen, a u každé důvod.
+Žádné uspořádání, v němž by byla kaskáda debriefingů po zátěži na místě, tato stránka nejmenuje. Emanuel, Wendler a Grady (2000) formulují požadavky, jimž musí vyhovět výzkumné uspořádání — nezávislý přezkum, příznivý poměr přínosu a rizika, spravedlivý výběr účastníků a [informovaný souhlas](@/glossary/informed-consent.md); ty váží zadavatele a posuzující orgán a nelze je číst jako měřítko, jímž by si někdo odsouhlasil vlastní postup. Souhlas odvolatelný bez sankce patří k témuž souboru podmínek uspořádání (Faden a Beauchamp, 1986). Zda je rozhovor tohoto druhu po zátěži vůbec přípustný, posuzují orgány popsané v [etických aspektech](@/kompendium/01-predmluva/eticke-aspekty.md) a mez stanovuje [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md); tato stránka nepovoluje nic. Níže stojí jen okolnosti, za nichž je takový rozhovor vyloučen, a u každé důvod.
 
 | Okolnost | Proč rozhovor vylučuje |
 |---|---|

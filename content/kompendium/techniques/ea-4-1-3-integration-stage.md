@@ -55,15 +55,10 @@ Měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.m
 
 U integrační fáze je nepřítomnost níže uvedených pojistek sama rozpoznatelná; stránka takové uspořádání nedoporučuje ani neopravňuje.
 
-| Pojistka | Co znamená její nepřítomnost |
-|--------------|--------------|
-| **[IRB přezkum](@/glossary/irb-review.md)** | Nikdo mimo dané uspořádání neposuzoval přínos proti riziku a o takovém posouzení neexistuje záznam |
-| **[Informovaný souhlas](@/glossary/informed-consent.md)** | Zasažený člověk nedokáže říci, s čím souhlasil, a odchod nevnímá jako dostupnou možnost |
-| **Průběžné sledování stavu** | Změny tělesného a duševního stavu nikdo nezaznamenával; o průběhu existuje jen výklad té strany, která jej vedla |
-| **Shoda na tom, kdy přestat** | Nikdo se předem neshodl, co by platilo za důvod přestat, a rozhodnutí zůstává na vedení uspořádání |
-| **Nezávislý audit** | Uspořádání nikdo zvenčí nekontroloval a nikdo kromě jeho vedení je nemůže zastavit |
-| **Dokumentační řetězec** | Záznamy chybějí, jsou neúplné nebo je lze zpětně měnit; [chain of custody](@/glossary/chain-of-custody.md) nelze dohledat |
-| **Kanál pro oznamovatele** | Není kam ohlásit pochybnost a ten, kdo ji vysloví, nese následky uvnitř téhož uspořádání |
+{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
+|---|---|
+{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
+{% endfor %}
 
 ## Co integrační fázi vylučuje
 

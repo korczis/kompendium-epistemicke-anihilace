@@ -104,19 +104,17 @@ V kompendiu EA je tento protokol veden jako adaptace pro populaci, která o vlas
 
 ## Vulnerabilní podpopulace
 
-Aplikace techniky **EA-6.4.8** vyžaduje specifickou modifikaci v následujících podpopulacích, kde standardní protokol nese zvýšené iatrogenní riziko:
+Vyhoření se u některých skupin projeví dřív a z vnějšku se rozpozná obtížněji.
 
-**Děti a adolescenti (< 18 let)**: vývojově citlivá adaptace s explicitním zapojením pečující osoby (TF-CBT model), kratší sezení, vyšší frekvence stabilizačních prvků, hra a kreativní expresivní techniky jako preferovaný kanál. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). Doporučené nástroje: UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
+**Geriatrická populace**: u starších splývá vyčerpání s chronickým onemocněním i s kohortně specifickou historií, v níž se o vlastní zátěži nemluvilo. Uváděný nástroj: MoCA.
 
-**Geriatrická populace (> 65 let)**: kognitivní akomodace (delší pauzy, opakování klíčových konceptů, písemné podpůrné materiály), screening pro early-stage demenci (MoCA), zohlednění kohortně specifické historie (postkomunistická intergenerační traumata), častá komorbidita s chronickými somatickými onemocněními.
+**Komorbidní psychotické spektrum**: dlouhodobá zátěž na pracovišti je u této skupiny popisována jazykem, který okolí zaměňuje za příznak. Riziko: psychotická dekompenzace pod expozičním tlakem.
 
-**Komorbidní psychotické spektrum**: technika vyžaduje předchozí psychiatrickou stabilizaci v péči psychiatra, úzká spolupráce s psychiatrem, redukce konfrontačních elementů, posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
+**Komorbidní substance use disorders**: u souběhu drží výkon v práci užívání, takže zátěž je zvenčí nerozpoznatelná až do chvíle, kdy výkon spadne. Přístup, který se v této souvislosti uvádí: Seeking Safety.
 
-**Komorbidní substance use disorders**: doporučená sekvence — primární SUD léčba do funkční remise, poté trauma-fokusovaná intervence. Paralelní integrované přístupy (Seeking Safety) jsou alternativou pro pacienty neschopné dosáhnout primární abstinence.
+**Komorbidní borderline personality disorder**: zátěž se ukazuje ve vztazích na pracovišti dřív než ve výkonu, a regresivní idealizace a devalvace v nich kolísá podle směny. Uváděný postup: DBT skill training.
 
-**Komorbidní borderline personality disorder**: rozšířená stabilizační fáze (DBT skill training) předchází trauma expozičním komponentám. Riziko regresivní idealizace/devalvace v terapeutickém vztahu vyžaduje peer-supervizi.
-
-**Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; preferovány sensorimotor a stabilizační intervence v perinatálním období.
+**Gravidita a perinatální období**: v tomto období se vyčerpání přičítá samotnému období, a jeho pracovní podíl zůstává nepojmenován.
 
 ## Intervenční variace
 

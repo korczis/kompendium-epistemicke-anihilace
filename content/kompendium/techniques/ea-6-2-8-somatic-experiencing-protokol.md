@@ -102,19 +102,19 @@ V kompendiu je tento protokol veden jako intervence pracující s tělesnou slo�
 
 ## Vulnerabilní podpopulace
 
-Aplikace techniky **EA-6.2.8** vyžaduje specifickou modifikaci v následujících podpopulacích, kde standardní protokol nese zvýšené iatrogenní riziko:
+Práce s tělesnou pamětí zasahuje nejhlouběji tam, kde je vlastní tělesný signál nedůvěryhodný nebo nesrozumitelný.
 
-**Děti a adolescenti (< 18 let)**: vývojově citlivá adaptace s explicitním zapojením pečující osoby (TF-CBT model), kratší sezení, vyšší frekvence stabilizačních prvků, hra a kreativní expresivní techniky jako preferovaný kanál. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). Doporučené nástroje: UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
+**Děti a adolescenti**: dítě popisuje autonomní aktivaci tělesně, nikoli pojmově, a o tom, co se z toho dostane do záznamu, rozhoduje dospělý doprovod; zhoršení se proto projeví změnou chování doma a ve škole. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). Nástroje a modely uváděné v této souvislosti: TF-CBT model, UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
 
-**Geriatrická populace (> 65 let)**: kognitivní akomodace (delší pauzy, opakování klíčových konceptů, písemné podpůrné materiály), screening pro early-stage demenci (MoCA), zohlednění kohortně specifické historie (postkomunistická intergenerační traumata), častá komorbidita s chronickými somatickými onemocněními.
+**Geriatrická populace**: tělesné následky se slévají s pohybovou a srdeční komorbiditou a s kohortní historií postkomunistické nedůvěry, takže co patří titraci a co věku, odliší jen záznam vedený už před intervencí. Nástroj uváděný v této souvislosti: MoCA.
 
-**Komorbidní psychotické spektrum**: technika vyžaduje předchozí psychiatrickou stabilizaci, úzká spolupráce s psychiatrem, redukce konfrontačních elementů, posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
+**Komorbidní psychotické spektrum**: tělesná aktivace se zde splétá s halucinatorním prožíváním a prožívající osoba ztrácí možnost obojí od sebe odlišit. Riziko: psychotická dekompenzace pod expozičním tlakem.
 
-**Komorbidní substance use disorders**: popsanou sekvencí je primární léčba užívání do funkční remise a teprve poté trauma-fokusovaná práce; paralelní integrované přístupy jsou dokumentovanou alternativou tam, kde primární abstinence není dosažitelná.
+**Komorbidní substance use disorders**: užívání zde slouží jako tlumič autonomní aktivace, a proto se po intervenci vrací jako první; bývá vykázáno jako selhání klienta, ne jako následek zátěže.
 
-**Komorbidní borderline personality disorder**: rozšířená stabilizační fáze s tréninkem dovedností předchází expozičním komponentám. Riziko regresivní idealizace a devalvace v terapeutickém vztahu činí ze supervize podmínku, nikoli doplněk.
+**Komorbidní borderline personality disorder**: tělesná blízkost práce s dechem a kontaktem se převádí do vztahové roviny, přechod od idealizace k devalvaci přichází rychle a do dokumentace se dostane jako potíž klienta. Riziko: regresivní idealizace a devalvace v terapeutickém vztahu.
 
-**Gravidita a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; popsána je přednost stabilizačních a sensorimotorických intervencí.
+**Gravidita a perinatální období**: tělesná expozice v tomto období mění spánek i snášenlivost vlastních tělesných signálů.
 
 ## Intervenční variace
 

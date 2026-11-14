@@ -102,19 +102,19 @@ Kniha vede techniku **EA-6.2.7** jako trauma-senzitivní adaptaci všímavostní
 
 ## Vulnerabilní podpopulace
 
-Aplikace techniky **EA-6.2.7** vyžaduje specifickou modifikaci v následujících podpopulacích, kde standardní protokol nese zvýšené iatrogenní riziko:
+Práce s pozorností nedopadá na všechny stejně: nejvíc na ty, jejichž vnitřní stav popisuje někdo jiný.
 
-**Děti a adolescenti (< 18 let)**: vývojově citlivá adaptace s explicitním zapojením pečující osoby (TF-CBT model), kratší sezení, vyšší frekvence stabilizačních prvků, hra a kreativní expresivní techniky jako preferovaný kanál. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). Doporučené nástroje: UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
+**Děti a adolescenti**: dítě obrací pozornost dovnitř v prostředí, které si nevybralo, a o jeho obtížích referuje dospělý. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). V této souvislosti se uvádějí tyto nástroje a modely: TF-CBT model, UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
 
-**Geriatrická populace (> 65 let)**: kognitivní akomodace (delší pauzy, opakování klíčových konceptů, písemné podpůrné materiály), screening pro early-stage demenci (MoCA), zohlednění kohortně specifické historie (postkomunistická intergenerační traumata), častá komorbidita s chronickými somatickými onemocněními.
+**Geriatrická populace**: pomalejší tempo a potřeba opakování bývají ve stáří vykládány jako nezájem o nabízenou péči; jmenovaným nástrojem bývá MoCA.
 
-**Komorbidní psychotické spektrum**: technika vyžaduje předchozí psychiatrickou stabilizaci, úzká spolupráce s psychiatrem, redukce konfrontačních elementů, posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
+**Komorbidní psychotické spektrum**: nehodnotící pozorování vnitřních stavů se u tohoto obrazu obtížně odlišuje od jejich zesílení. Riziko: psychotická dekompenzace pod expozičním tlakem.
 
-**Komorbidní substance use disorders**: popsanou sekvencí je primární léčba užívání do funkční remise a teprve poté trauma-fokusovaná práce; paralelní integrované přístupy jsou dokumentovanou alternativou tam, kde primární abstinence není dosažitelná.
+**Komorbidní substance use disorders**: kde je užívání přítomné, bývá klid dosažený cvičením i jeho ztráta připsány látce, nikoli prostředí, které tlak vytváří.
 
-**Komorbidní borderline personality disorder**: rozšířená stabilizační fáze s tréninkem dovedností předchází expozičním komponentám. Riziko regresivní idealizace a devalvace v terapeutickém vztahu činí ze supervize podmínku, nikoli doplněk.
+**Komorbidní borderline personality disorder**: prudké přesuny mezi idealizací a devalvací se čtou jako rys osoby, takže stížnost na vztah v péči ztrácí váhu dřív, než je vyslechnuta.
 
-**Gravidita a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; popsána je přednost stabilizačních a sensorimotorických intervencí.
+**Gravidita a perinatální období**: perinatální období přináší tělesnou proměnlivost, kterou lze snadno vydávat za celé vysvětlení potíží.
 
 ## Intervenční variace
 

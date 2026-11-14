@@ -104,19 +104,19 @@ Tato stránka vede techniku **EA-6.5.2** jako akutní stabilizaci u člověka s 
 
 ## Vulnerabilní podpopulace
 
-Aplikace techniky **EA-6.5.2** vyžaduje specifickou modifikaci v následujících podpopulacích, kde standardní protokol nese zvýšené iatrogenní riziko:
+Krizový protokol u suicidality rozděluje lidi podle toho, čí sdělení o vlastním ohrožení se bere vážně.
 
-**Děti a adolescenti (< 18 let)**: vývojově citlivá adaptace s explicitním zapojením pečující osoby (TF-CBT model), kratší sezení, vyšší frekvence stabilizačních prvků, hra a kreativní expresivní techniky jako preferovaný kanál. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). Doporučené nástroje: UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
+**Děti a adolescenti**: sdělení dítěte váží jen tolik, kolik mu přizná dospělý, který je podá, a ten je v tom zaujatý. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). U dětí a adolescentů se uvádějí nástroje TF-CBT model, UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
 
-**Geriatrická populace (> 65 let)**: kognitivní akomodace (delší pauzy, opakování klíčových konceptů, písemné podpůrné materiály), screening pro early-stage demenci (MoCA), zohlednění kohortně specifické historie (postkomunistická intergenerační traumata), častá komorbidita s chronickými somatickými onemocněními.
+**Geriatrická populace**: ve vyšším věku se úmysl ukončit život zamění s rezignací, kterou okolí považuje za přiměřenou; nástrojem uváděným zde je MoCA.
 
-**Komorbidní psychotické spektrum**: technika vyžaduje předchozí psychiatrickou stabilizaci vedenou psychiatrem, úzkou spolupráci s ním, redukci konfrontačních elementů a posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
+**Komorbidní psychotické spektrum**: sdělení o vlastním ohrožení se v tomto obrazu čte jako příznak, ne jako informace. Riziko: psychotická dekompenzace pod expozičním tlakem.
 
-**Komorbidní substance use disorders**: doporučená sekvence — primární SUD léčba do funkční remise, poté trauma-fokusovaná intervence. Paralelní integrované přístupy (Seeking Safety) jsou alternativou pro pacienty neschopné dosáhnout primární abstinence.
+**Komorbidní substance use disorders**: krize vzniklá v době užívání se odloží jako intoxikace; u tohoto souběhu je uváděn Seeking Safety.
 
-**Komorbidní borderline personality disorder**: rozšířená stabilizační fáze (DBT skill training) předchází trauma expozičním komponentám. Riziko regresivní idealizace/devalvace v terapeutickém vztahu vyžaduje peer-supervizi.
+**Komorbidní borderline personality disorder**: opakovaná krize se tu pokládá za vztahové jednání, čímž ohrožení přestává být bráno jako ohrožení. Jmenován je DBT skill training.
 
-**Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; preferovány sensorimotor a stabilizační intervence.
+**Gravidita a perinatální období**: v perinatálním období se úzkost i zoufalství předem vysvětlují tělesnou a hormonální proměnou.
 
 ## Intervenční variace
 

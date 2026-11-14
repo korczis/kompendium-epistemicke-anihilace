@@ -51,34 +51,31 @@ ale není neprůstřelné.
 V každodenním uvažování se a priori a a posteriori prolínají. Rozlišení se stává viditelné
 hlavně tam, kde o něj vzniká spor:
 
-- **Nárok na nezpochybnitelnost.** Tvrzení se prohlásí za „samozřejmé“, „logicky nutné“ nebo
-  „pravdivé z definice“, ačkoli jde o empirickou otázku (například o účinnosti metody nebo
-  o motivech lidí).
-- **Empirie podřízená principu.** Pozorování, která tvrzení odporují, se odmítnou předem,
-  protože „to nemůže být jinak“.
-- **Přesun mezi rovinami.** Diskuse se zastaví na tom, že oponent „nechápe pojem“, místo aby
-  se vyhodnotila data.
-- **U postiženého:** nejistota, zda vůbec něco může vědět sám ze sebe; pocit, že všechny
-  základní jistoty (logika, čas, příčinnost) jsou jen „naučené konvence“, které lze libovolně
-  vyměnit.
+Tvrzení se prohlásí za „samozřejmé“, „logicky nutné“ nebo „pravdivé z definice“, ačkoli jde o empirickou
+otázku, například o účinnosti metody nebo o motivech lidí, a pozorování, která mu odporují, se odmítnou předem,
+protože „to nemůže být jinak“. Diskuse se pak zastaví na tom, že oponent „nechápe pojem“, místo aby se
+vyhodnotila data. Popper (1963) takový postup popsal jako ochranu teorie před vyvrácením, která ji činí
+nevyvratitelnou za cenu toho, že přestane o světě cokoli říkat.
+
+U postiženého se rozlišení projevuje opačně: jako nejistota, zda vůbec něco může vědět sám ze sebe, a jako
+pocit, že všechny základní jistoty, logika, čas a příčinnost, jsou jen „naučené konvence“, které lze
+libovolně vyměnit. *Interpretace knihy*: Quine (1951) sice ukázal, že ani logika není zcela imunní vůči
+revizi, ale revize, kterou popisuje, je pomalá a celostní, nikoli výměna na pokyn druhého.
 
 ## Mechanismus
 
-Kompendium popisuje dva zrcadlové vzorce zneužití rozlišení:
+Kompendium popisuje dva zrcadlové vzorce zneužití rozlišení. Prvním je **falešné a priori**: empirická nebo
+hodnotová teze se převleče za nutnou pravdu, a tím se vyjme z ověřování. Strukturálně jde o [imunizaci proti
+falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md), protože co je „pravdivé z
+definice“, nemůže vyvrátit žádné pozorování (Popper, 1963), a souvisí s tím [cirkulární
+argumentace](@/glossary/cirkularni-argumentace.md).
 
-1. **Falešné a priori.** Empirická nebo hodnotová teze se převleče za nutnou pravdu, a tím
-   se vyjme z ověřování. Strukturálně jde o [imunizaci proti
-   falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md): co je
-   „pravdivé z definice“, nemůže být vyvráceno žádným pozorováním. Souvisí s tím
-   [cirkulární argumentace](@/glossary/cirkularni-argumentace.md).
-2. **Rozpuštění a priori.** Opačný postup: všechny apriorní jistoty člověka (logická
-   konzistence, základní kategorie, časová posloupnost) se prohlásí za libovolné a nahradí
-   rámcem, který dodává autorita. Technika [EA-5.2.4 Apriorní
-   saturace](@/kompendium/techniques/ea-5-2-4-apriorni-saturace.md) popisuje přetížení
-   apriorní roviny, [EA-5.2.13 Apriorní
-   fragmentace](@/kompendium/techniques/ea-5-2-13-apriorni-fragmentace.md) její rozpad
-   a [EA-5.2.27 Apriorní deformace](@/kompendium/techniques/ea-5-2-27-apriorni-deformace.md)
-   její nenápadné posunutí.
+Druhým je **rozpuštění a priori**: všechny apriorní jistoty člověka, logická konzistence, základní kategorie a
+časová posloupnost, se prohlásí za libovolné a nahradí rámcem, který dodává autorita. *Interpretace knihy*:
+technika [EA-5.2.4 Apriorní saturace](@/kompendium/techniques/ea-5-2-4-apriorni-saturace.md) popisuje přetížení
+apriorní roviny, [EA-5.2.13 Apriorní fragmentace](@/kompendium/techniques/ea-5-2-13-apriorni-fragmentace.md) její
+rozpad a [EA-5.2.27 Apriorní deformace](@/kompendium/techniques/ea-5-2-27-apriorni-deformace.md) její nenápadné
+posunutí; všechny míří na roviny, které Kant (1787) považoval za podmínky zkušenosti.
 
 **Obecný příklad (kompozit).** Účastnice intenzivního kurzu slyší, že „kdo pochybuje,
 ten ještě nepochopil“. Věta zní jako pojmová pravda, ale ve skutečnosti tvrdí něco
@@ -93,18 +90,13 @@ zkušeností, se ověřování vyhýbá, a co nese strukturu myšlení, se zneji
 
 ## Odlišení
 
-- **A priori vs. vrozené:** a priori je otázka zdůvodnění, ne biologie. Vrozené dispozice
-  zkoumá vývojová psychologie; apriorní pravdy epistemologie.
-- **A priori vs. analytické:** u Kanta se kryjí jen částečně (syntetické soudy a priori);
-  v pozdější filozofii je jejich vztah předmětem sporu.
-- **A priori vs. axiom ideologie:** axiom formálního systému je přijat výslovně a lze ho
-  změnit spolu se systémem; ideologický „axiom“ se prezentuje jako nezměnitelný a jeho
-  zpochybnění se trestá.
-- **Filozofická skepse vs. klinický stav:** zkoumat, zda logika „platí nutně“, je legitimní
-  filozofická práce. Pokud ale člověk ztrácí schopnost spolehnout se na elementární
-  inference v běžném životě a trpí tím, jde o stav k odbornému posouzení (například
-  derealizace, psychotické prožívání), viz [Diferenciální
-  diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
+| Odlišit od | Rozdíl |
+| --- | --- |
+| Vrozené | a priori je otázka zdůvodnění, ne biologie; vrozené dispozice zkoumá vývojová psychologie, apriorní pravdy epistemologie |
+| Analytické | u Kanta se kryjí jen částečně, protože existují syntetické soudy a priori (Kant, 1787); v pozdější filozofii je jejich vztah předmětem sporu (Quine, 1951) |
+| Nutné | Kripke (1980) ukázal, že existují nutné pravdy poznávané a posteriori, a a priori proto není totéž co nutné |
+| Axiom ideologie | axiom formálního systému je přijat výslovně a lze ho změnit spolu se systémem; ideologický „axiom“ se prezentuje jako nezměnitelný a jeho zpochybnění se trestá |
+| Klinický stav | zkoumat, zda logika „platí nutně“, je legitimní filozofická práce; ztrácí-li však člověk schopnost spolehnout se na elementární úsudky v běžném životě a trpí tím, jde o stav k odbornému posouzení ([diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)) |
 
 ## Význam pro Kompendium
 
@@ -117,23 +109,22 @@ tvrzení](@/kompendium/detection-signatures/3-linguistic-unfalsifiable-claims.md
 
 ## Obrana a zotavení
 
-- **Otázka „jak bych to poznal?“.** U každého tvrzení, které se prezentuje jako samozřejmé,
-  se ptát, zda by nějaké pozorování mohlo ukázat opak. Pokud ano, jde o empirickou otázku,
-  ne o apriorní pravdu ([Falsifikační
-  myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md)).
-- **Ukotvení elementárních jistot.** Při rozpuštění apriorní roviny pomáhá vrátit se
-  k jednoduchým, sdíleným operacím: počítání, časová osa vlastního dne, konzistence
-  běžných úsudků. Viz [Akutní kognitivní
-  ukotvení](@/kompendium/recovery-protocols/acute-cognitive-anchoring.md).
-- **Odlišit filozofii od tlaku.** Diskuse o apriornosti je v pořádku ve výuce nebo na
-  semináři. Je-li však vedena tak, že člověk na jejím konci má přijmout výklad jediné
-  autority, jde o jiný jev.
+Obrana začíná otázkou „jak bych to poznal?“. U tvrzení, které se prezentuje jako samozřejmé, lze zjišťovat,
+zda by nějaké pozorování mohlo ukázat opak; pokud ano, jde o empirickou otázku, ne o apriorní pravdu, což je
+Popperovo (1963) kritérium ([falsifikační myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md)).
+
+*Interpretace knihy*: při rozpuštění apriorní roviny pomáhá návrat k jednoduchým, sdíleným operacím, jako je
+počítání, časová osa vlastního dne a konzistence běžných úsudků ([akutní kognitivní
+ukotvení](@/kompendium/recovery-protocols/acute-cognitive-anchoring.md)). Diskuse o apriornosti je v pořádku
+ve výuce nebo na semináři, kde ji vedli Kant (1787) i Quine (1951); je-li však vedena tak, že člověk na jejím
+konci má přijmout výklad jediné autority, jde o jiný jev.
 
 ## Literatura
 
 - Immanuel Kant: *Kritika čistého rozumu* (1781, 2. vyd. 1787).
 - W. V. O. Quine: „Two Dogmas of Empiricism“ (1951).
 - Saul Kripke: *Naming and Necessity* (1980).
+- Popper, K. R. (1963). *Conjectures and Refutations*. London: Routledge.
 
 ## Související
 

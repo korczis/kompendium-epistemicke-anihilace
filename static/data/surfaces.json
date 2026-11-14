@@ -2306,8 +2306,7 @@
       1
      ],
      "covers": [
-      "viz/kontext",
-      "viz/pripad-faze"
+      "viz/kontext"
      ],
      "note": "nejodkazovanější kazuistika: kontext",
      "origin": "derived",
@@ -2322,9 +2321,9 @@
      ],
      "note": "pohled pripad-faze: stupně intervence S1–S5 kazuistiky",
      "origin": "derived",
-     "page": "kompendium/case-studies/06-cult-recovery-12-let.md",
+     "page": "kompendium/case-studies/16-psychoterapeut-totalizace.md",
      "painted": 1,
-     "path": "kompendium/case-studies/06-cult-recovery-12-let/"
+     "path": "kompendium/case-studies/16-psychoterapeut-totalizace/"
     },
     {
      "covers": [
@@ -2374,7 +2373,7 @@
    "views": {
     "viz/kontext": 80,
     "viz/oddil-prehled": 1,
-    "viz/pripad-faze": 52
+    "viz/pripad-faze": 27
    }
   },
   "kompendium/critical-perspectives": {

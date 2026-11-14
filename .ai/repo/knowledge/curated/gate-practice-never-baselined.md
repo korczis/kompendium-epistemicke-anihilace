@@ -1,0 +1,60 @@
+---
+schema: knowledge/v1
+id: gate-practice-never-baselined
+kind: knowledge
+class: lesson
+title: "Widening or adding a never-baselined gate: the fix lands with it, the count is pages, a zero proves only what it looks for"
+description: "Before adding or widening a NEVER_BASELINED rule in scripts/check-ia.py, or before reading a 0 from one as 'the class is clean'."
+status: verified
+epistemics: observed
+date: 2026-11-15
+tags:
+  - gates
+  - check-ia
+  - ci
+provenance:
+  origin: authored
+---
+
+# Widening or adding a never-baselined gate
+
+`scripts/check-ia.py` keeps most safety rules in `NEVER_BASELINED` with a ceiling in
+`PENDING_ZERO` that may only fall. Five things about them were each rediscovered the hard way in
+the sessions of 2026-11-12 to 2026-11-15.
+
+**1. A widened gate and the content it newly charges are one change.** Widening a rule that sits
+at its ceiling makes the count grow, and growth is a hard fail, so a widen pushed alone turns main
+red until someone fixes the content. Land both as one branch, or as a stacked pair that lands in a
+single fast-forward: `fix/pristupova-uroven` (row removal, detail 199 → 212) rode on
+`feature/zvednuti-13` (the 13-page lift), and `fix/applier-checklist` carries both the widened
+`PLAYBOOK_APPLIER` and the 11 pages it charged.
+
+**2. The count is pages, not occurrences.** `--list <rule>` and `ia.json` count charged pages. A
+fix that removes repeated rows from pages that still carry other repeated rows moves nothing:
+`duplicate-table` stayed at 256 after 280 safeguard rows went, and fell only by the 7 pages whose
+sole duplicate was the removed row. Measure the page set before promising a drop.
+
+**3. A zero proves only what the pattern looks for.** `howto` read 0 book-wide while 11 pages
+carried an applier checklist, because the pattern keyed on the words "před aplikací … protokol"
+and the block said "Před aplikací: 1. Konzultuj …". `drug-name` keyed on classes and missed named
+substances. Key a rule on the shape when the vocabulary varies, and write its known recall gap into
+the rule's description, so that nobody reads a 0 as "class handled".
+
+**4. Some classes are worklists, not gates.** A rule with low precision costs CI time on every
+run and trains people to ignore it. Measure precision on a hand-read sample first. The bare-surname
+pattern ran at ~25% (it is now `scripts/lint-bare-surname.py`, advisory), Czech reader-directed
+imperatives cannot be bounded by verb lists or endings, and single-number durations ran at 10–20%.
+Each became a one-off candidate list for a content pass; only the narrow, high-precision cores
+became gates.
+
+**5. A one-line content edit has a derived tail.** Adding a work to a page's `## Literatura` makes
+`content/references.md` stale; editing a bold, a heading or a link moves `static/data/*.json`.
+Run `scripts/verify-content.sh --fix` before every content commit, however small. It verifies the
+index, not the working tree, and names any unstaged path beside its verdict.
+
+Instruments that misled the same sessions, and the reading that held:
+
+- A truncated commit sha in a CI query returned 0 runs; the full sha found the run at once.
+- This site's 404 page carries the full navigation, so a fetch of a wrong URL still "contains" the
+  site's words. Guard every production check with the HTTP status (`curl -w '%{http_code}'`).
+- A run reads `queued` while its first job runs; read the jobs, not the run's label.

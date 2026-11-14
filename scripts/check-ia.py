@@ -118,7 +118,13 @@ Requirements (id: what is checked):
                    or move a genuine shared notice to a Zola include/partial; `scripts/dup-passages.py`
                    lists each block with its pages so a block is fixed across all of them at once.
                    NEVER baselined
-  howto            no operational playbook: a page carries no "Operační modus/postup/sekvence"
+  duplicate-table  no pasted table row: a table data row (whitespace- and EA-code-normalised, 8+
+                   words) re-pasted byte-identical on 3+ content/kompendium pages — the complement of
+                   duplicate-passage, which skips tables. Exempts ONLY a metadata field (a bold-label
+                   first cell AND a short second cell: a code, a level or a link); a pasted prose
+                   sentence in the second cell ("| **Mechanismus** | … |") stays charged. ADR 0013.
+                   Remedy: rewrite the row per page, or move a genuine shared field to a template.
+                   NEVER baselined
                    section (steps or phases for performing a technique on a person); the
                    defensive frame describes recognition and defence, not execution. NEVER
                    baselined; a "z hlediska supervize" reframing is a playbook too. Also refuses
@@ -240,7 +246,7 @@ NEVER_BASELINED = {"placeholder", "technique-page", "howto", "drug-dose", "templ
                    "clinical-figure", "fabricated-citation", "legitimate-indication",
                    "code-range",
                    "detail", "weak-link",
-                   "duplicate-passage",
+                   "duplicate-passage", "duplicate-table",
                    "drug-name", "authority-without-source",
                    "platform-section", "relative-link", "platform-label", "platform-frontmatter",
                    "philosophy-frame"}
@@ -257,6 +263,7 @@ PENDING_ZERO = {"placeholder": 0, "technique-page": 0, "howto": 0, "drug-dose": 
                 "legitimate-indication": 0,
                 "detail": 199, "weak-link": 199,
                 "duplicate-passage": 281,
+                "duplicate-table": 256,  # measured on main 97fb3b3b; bold-label→short-value exempt
                 # safety, ADR 0013/0014: both reach 0 after the content lane's waves
                 "drug-name": 31, "authority-without-source": 0}  # 0 → never baselined (lands at 0 after 2e's slice)
 BOLD_CANDIDATE_PAGES = 3  # a bold phrase on this many pages is a term and needs its own page
@@ -324,6 +331,8 @@ def violations(page: dict) -> list:
         found.append("code-range")
     if page.get("duplicate_passages"):
         found.append("duplicate-passage")
+    if page.get("duplicate_tables"):
+        found.append("duplicate-table")
     if page.get("misnamed_techniques"):
         found.append("technique-name")
     if page["bold_unlinked"]:
@@ -354,6 +363,7 @@ def explain(page: dict) -> dict:
         "clinical-figure": "; ".join(page.get("clinical_figures", [])[:3]),
         "legitimate-indication": "; ".join(page.get("legitimate_indication", [])[:2]),
         "duplicate-passage": "; ".join(b[:60] for b in page.get("duplicate_passages", [])[:2]),
+        "duplicate-table": "; ".join(r[:60] for r in page.get("duplicate_tables", [])[:2]),
         "drug-name": ", ".join(page.get("drug_name", [])),
         "authority-without-source": "; ".join(f"({g})" for g in page.get("pasted_authorities", [])),
         "fabricated-citation": "; ".join(page.get("fabricated_citations", [])[:2]),
@@ -719,6 +729,39 @@ def passage_blocks(prose: str) -> set:
     return out
 
 
+# A page's own technique code interpolated into a table cell makes every copy read as unique;
+# normalise it (with its bold markers) to a placeholder before hashing, as the prose gate does.
+# (fix/duplicate-ea-code adds the same DUP_CODE for passage_blocks; dedupe on merge.)
+DUP_CODE = re.compile(r"\*{0,2}EA-\d+(?:\.\d+)*\*{0,2}")
+# A table DATA row ("| … |") re-pasted byte-identical across pages — the complement of
+# passage_blocks, which skips tables. The "|---|" delimiter is skipped. Exempt ONLY a metadata
+# field: a bold-label first cell AND a short second cell (a code, a level or a link, NOT a prose
+# sentence), so a pasted sentence in "| **Mechanismus** | … |" is still caught.
+TABLE_DELIM = re.compile(r"^\|[\s:|-]+\|?\s*$")
+TABLE_BOLD_LABEL = re.compile(r"^\*\*[^*]+\*\*$")
+TABLE_LINK_VALUE = re.compile(r"^\[[^\]]*\]\([^)]*\)$")  # a single markdown link counts as short
+DUP_TABLE_MIN_WORDS = 8
+
+
+def table_rows(prose: str) -> set:
+    """Normalised table data rows of DUP_TABLE_MIN_WORDS+ words, for cross-page duplicate detection
+    (passage_blocks' table complement). Skips the "|---|" delimiter; exempts a metadata field whose
+    first cell is a bold label and whose second cell is a short value (code/level/link)."""
+    out = set()
+    for line in prose.split("\n"):
+        s = line.strip()
+        if not (s.startswith("|") and s.endswith("|")) or TABLE_DELIM.match(s):
+            continue
+        cells = [c.strip() for c in s.strip("|").split("|")]
+        if (len(cells) >= 2 and TABLE_BOLD_LABEL.match(cells[0])
+                and (TABLE_LINK_VALUE.match(cells[1]) or len(DUP_WORD.findall(cells[1])) <= 5)):
+            continue  # a metadata field (label → short value), not pasted prose
+        nb = DUP_CODE.sub("EA-§", SPACE_RUN.sub(" ", s))
+        if len(DUP_WORD.findall(nb)) >= DUP_TABLE_MIN_WORDS:
+            out.add(nb)
+    return out
+
+
 def drug_names(prose: str) -> list:
     """The distinct named drugs/classes in prose outside bibliography sections (a work's title is
     not a naming claim). content/references.md is excluded by the caller via EXEMPT."""
@@ -744,6 +787,7 @@ def analyse(pages: list) -> dict:
     figures = collections.defaultdict(set)
     fabricated = collections.defaultdict(set)
     passages = collections.defaultdict(set)
+    tables = collections.defaultdict(set)
     authorities = collections.defaultdict(set)
     lower_freq = collections.Counter()
     for page in pages:
@@ -801,6 +845,8 @@ def analyse(pages: list) -> dict:
                 fabricated[unit].add(page["path"])
             for blk in passage_blocks(prose):
                 passages[blk].add(page["path"])
+            for row in table_rows(prose):
+                tables[row].add(page["path"])
         page["bold_unlinked"] = []
         for _, _, text, linked in bold_spans(body, lines):
             if linked:
@@ -842,6 +888,12 @@ def analyse(pages: list) -> dict:
     for page in pages:
         page["duplicate_passages"] = sorted(b for b, paths in dup_shared.items()
                                             if page["path"] in paths)
+    # duplicate-table: a table data row re-pasted byte-identical on DUP_PAGES+ pages (tables are
+    # outside passage_blocks' reach). Same threshold and normalisation as the prose gate.
+    tab_shared = {r: paths for r, paths in tables.items() if len(paths) >= DUP_PAGES}
+    for page in pages:
+        page["duplicate_tables"] = sorted(r for r, paths in tab_shared.items()
+                                          if page["path"] in paths)
     # Only bold candidates become worklist entries: they are pages the book still owes. A shared
     # figure is not a page to write but a line to delete, and `--list template-figure` names the
     # pages that carry it.

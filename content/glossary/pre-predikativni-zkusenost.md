@@ -92,7 +92,7 @@ před soudem. Oba pojmy se doplňují, ale nejsou totožné; první je popsán v
 vědomí](@/glossary/predreflexivni-vedomi.md).
 
 Od klinických stavů je pojem třeba odlišit tím, že jde o filozofický popis struktury zkušenosti,
-nikoli o diagnózu. Fenomenologická psychopatologie ho přesto používá: Sass a Parnas (2003)
+nikoli o diagnózu. [Fenomenologická psychopatologie](@/glossary/fenomenologicka-psychopatologie.md) ho přesto používá: Sass a Parnas (2003)
 popisují poruchy schizofrenního spektra jako narušení pre-reflexivního sebeuvědomění a „uchopení“
 světa (ipseity) a Fuchs (2005) popisuje melancholii a schizofrenii jako změny tělesné, předpojmové
 vztaženosti ke světu. Tyto popisy slouží k porozumění prožitku pacienta, ne ke stanovení diagnózy,

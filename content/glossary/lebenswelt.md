@@ -165,7 +165,7 @@ kritérií (American Psychiatric Association, 2022).
 
 Žitý svět je pojem fenomenologický, ne měřitelný; neexistuje nástroj, který by jeho poškození
 kvantifikoval, a jeho popis vždy zůstává popisem zkušenosti z první osoby (Husserl, 1936).
-Fenomenologická psychopatologie proto pracuje s pečlivě vedeným rozhovorem, ne se škálami,
+[Fenomenologická psychopatologie](@/glossary/fenomenologicka-psychopatologie.md) proto pracuje s pečlivě vedeným rozhovorem, ne se škálami,
 a sama upozorňuje na mez takového přístupu (Sass a Parnas, 2003).
 
 Druhou mezí je sváděnivost pojmu k dramatickým tvrzením. Z toho, že je žitý svět nejhlubší

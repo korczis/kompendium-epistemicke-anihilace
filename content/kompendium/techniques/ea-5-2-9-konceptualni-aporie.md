@@ -110,7 +110,7 @@ Disciplinární cvičení v **omezení reflexe** na **specifický kontext**, neu
 
 #### 4. Klinická supervize
 
-Pokud aporie vede k funkčnímu narušení, specializovaná klinická konzultace je nezbytná. Vyžaduje se odborník s tréninkem ve **fenomenologické psychopatologii** a **filozofické psychoterapii**.
+Pokud aporie vede k funkčnímu narušení, specializovaná klinická konzultace je nezbytná. Vyžaduje se odborník s tréninkem ve **[fenomenologické psychopatologii](@/glossary/fenomenologicka-psychopatologie.md)** a **filozofické psychoterapii**.
 
 ### Institucionální
 

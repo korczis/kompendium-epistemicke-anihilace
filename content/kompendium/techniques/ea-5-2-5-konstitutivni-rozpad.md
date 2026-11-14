@@ -109,7 +109,7 @@ Pravidelný **vztahový kontakt** s lidmi, kteří subjektu **vrátí předmětn
 
 #### 4. Klinická intervence
 
-Pokud rozpad přetrvává déle než 4 týdny, specializovaná klinická konzultace je nezbytná. Standardní psychoterapeutické přístupy jsou nedostatečné — vyžaduje se odborník s tréninkem v **fenomenologické psychopatologii**.
+Pokud rozpad přetrvává déle než 4 týdny, specializovaná klinická konzultace je nezbytná. Standardní psychoterapeutické přístupy jsou nedostatečné — vyžaduje se odborník s tréninkem v **[fenomenologické psychopatologii](@/glossary/fenomenologicka-psychopatologie.md)**.
 
 ### Institucionální
 

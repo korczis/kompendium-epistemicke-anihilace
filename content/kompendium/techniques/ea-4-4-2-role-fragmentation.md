@@ -135,6 +135,7 @@ Klinický kontext **EA-4.4.2** připouští následující dokumentované adapta
 ## Vztah k jiným technikám
 
 ### V rámci subkategorie 4.4 Identitní dekonstrukce
+
   - [EA-4.4.1 Narrative disassembly](@/kompendium/techniques/ea-4-4-1-narrative-disassembly.md)
   - [EA-4.4.3 Relational restructure](@/kompendium/techniques/ea-4-4-3-relational-restructure.md)
   - [EA-4.4.4 Biographical recontextualization](@/kompendium/techniques/ea-4-4-4-biographical-recontextualization.md)
@@ -142,9 +143,11 @@ Klinický kontext **EA-4.4.2** připouští následující dokumentované adapta
   - [EA-4.4.6 Axiological self-reset](@/kompendium/techniques/ea-4-4-6-axiological-self-reset.md)
 
 ### Provázanost mezi subkategoriemi 4
+
   - [EA-4.1.1 Foundation stage](@/kompendium/techniques/ea-4-1-1-foundation-stage.md)
 
 ### Cross-kategoriální vazby
+
 - **[EA 1 1 2 INFORMACNI PRETIZENI](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md)** — akademická vrstva, jejíž eskalace může vést k terminální fázi.
 - **[EA 1 4 1 PROSODICKA DOMINANCE](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md)** — související vstupní mechanismus.
 - **[EA 5 1 2 KONCEPTUALNI NIHILACE](@/kompendium/techniques/ea-5-1-2-konceptualni-nihilace.md)** — ultramární technika strukturálně příbuzná, vyžadující ostřejší distinktivní detekci.
@@ -181,9 +184,3 @@ Klinický kontext **EA-4.4.2** připouští následující dokumentované adapta
 - **Forward-references**:
   - [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

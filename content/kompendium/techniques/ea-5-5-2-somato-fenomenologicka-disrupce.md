@@ -46,6 +46,10 @@ Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Ne
 
 *Interpretace knihy*: nálezem není cizí pohyb, ale ztráta vlastního měřítka tělesnosti.
 
+## Proč se škoda zevnitř špatně pozná
+
+Narušení tělesného schématu se zevnitř špatně zachycuje, protože schéma pracuje mimo pozornost a jeho výpadek nemá obsah, který by šel popsat; člověk cítí jen neurčitou nejistotu v pohybu (Gallagher, 2005). Nabízený výklad o uvolňování starých vzorců z ní udělá pokrok, o kterém se nemluví jako o obtíži. Blízcí si všimnou neobratnosti a váhání tam, kde dříve jednal samozřejmě.
+
 ## Fenomenologické znaky
 
 Co prožívá subjekt uvnitř techniky:
@@ -167,9 +171,3 @@ Klinická [diferenciace](@/glossary/diferenciace.md) techniky **somato-fenomenol
   - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
   - [Embodied cognition](@/glossary/embodied-cognition.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

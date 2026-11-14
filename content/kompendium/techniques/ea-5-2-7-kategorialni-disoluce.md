@@ -188,9 +188,3 @@ Intervence: 36 měsíců rekategorizační práce, vyžadující **odloučení o
   - [Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
   - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
   - [Anankastický režim](@/glossary/anankasticky-rezim.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

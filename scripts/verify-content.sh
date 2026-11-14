@@ -29,6 +29,16 @@ fix=${1:-}
 
 root=$(git rev-parse --show-toplevel)
 cd "$root"
+# This verifies the index, never the working tree. Edits left unstaged are therefore NOT checked,
+# and a green verdict says nothing about them (2026-11-14: a --fix run over unstaged work passed on
+# main's content and left ia.json stale). They are named here and again beside the verdict.
+unstaged=$( { git diff --name-only -- content data scripts static templates test;
+              git ls-files --others --exclude-standard -- content data scripts templates test; } \
+            | sort -u)
+if [ -n "$unstaged" ]; then
+  echo "verify-content: WARNING $(printf '%s\n' "$unstaged" | wc -l | tr -d ' ') unstaged path(s) are NOT verified (stage them first):" >&2
+  printf '%s\n' "$unstaged" | sed -n '1,10p' | sed 's/^/  /' >&2
+fi
 # A run killed with SIGKILL (a tool timeout, a stopped task) cannot run its EXIT trap and leaves
 # its export behind, 200-600 MB each (2026-11-12: three such exports, 8-44 h old, on a disk at
 # 4.4 GiB free). Each export records the pid that owns it; an export whose owner is gone is
@@ -160,3 +170,6 @@ step "test/ is staged"            git -C "$root" diff --quiet -- test/
 step "test/run.sh"                bash "$root/test/run.sh"
 
 echo "verify-content: the staged tree passes every content gate"
+if [ -n "$unstaged" ]; then
+  echo "verify-content: but $(printf '%s\n' "$unstaged" | wc -l | tr -d ' ') unstaged path(s) were not part of it (see the warning above)" >&2
+fi

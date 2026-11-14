@@ -184,9 +184,3 @@ Intervence: editoriální intervence, povinný **stylistický** rámec, redukce 
   - [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)
   - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
   - [Hermeneutika](@/glossary/hermeneutika.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

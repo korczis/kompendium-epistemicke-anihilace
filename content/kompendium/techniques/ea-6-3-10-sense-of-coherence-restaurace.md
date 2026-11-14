@@ -117,6 +117,7 @@ Aplikace techniky **EA-6.3.10** vyžaduje specifickou modifikaci v následujíc�
 **Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; preferovány sensorimotor a stabilizační intervence v perinatálním období.
 
 ## Intervenční variace
+
 Kompendium uvádí následující adaptace jako varianty rámce, ne jako doložené srovnání účinnosti.
 
 **Vzdálená varianta**: práce vedená videem je dostupná tam, kde osobní setkání není možné. U osob s aktivní disociativní symptomatologií zůstává osobní přítomnost klinika oporou, kterou obraz nenahradí; tělesná složka regulace, kterou popisuje van der Kolk (2014), se na dálku sleduje obtížněji.

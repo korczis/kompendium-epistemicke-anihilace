@@ -48,6 +48,10 @@ Od zájmu o světelné prostředí se vzorec liší tím, že zdravotní událos
 
 *Interpretace knihy*: nálezem je to, že zážitek bez určitého prostředí nepřichází.
 
+## Proč se škoda zevnitř špatně pozná
+
+Tělesná reakce na světlo, ať je to tlak v hlavě, neklid nebo zastřené vidění, přichází zároveň s výkladem, který ji předem označuje za znamení. Zasažený člověk pak nemá důvod brát ji jako příznak, a nepříjemné prožitky spojené s praxí bývají v takovém prostředí čteny jako známka pokroku (Lindahl et al., 2017). Okolí spíš zaznamená, že odchází z běžně osvětlených místností.
+
 ## Fenomenologické znaky
 
 Co prožívá subjekt uvnitř techniky:
@@ -170,9 +174,3 @@ Klinická [diferenciace](@/glossary/diferenciace.md) techniky **světelná frekv
   - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
   - [Embodied cognition](@/glossary/embodied-cognition.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

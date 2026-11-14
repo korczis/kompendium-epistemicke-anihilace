@@ -144,7 +144,3 @@ Kulturní normy nepřímé komunikace mohou únik připomínat; posuzovat je tř
 
 - [Sebe-obrana: Řešení konfliktů](@/kompendium/self-defense-guides/29-conflict-resolution.md) – jak vracet rozhovor k tématu.
 - [Vzdělávací scénář: Rozpoznání DARVO](@/kompendium/educational-scenarios/20-darvo-recognition.md) – nácvik rozpoznání protiútoku.
-
----
-
-*Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)*

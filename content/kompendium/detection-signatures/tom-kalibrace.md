@@ -146,7 +146,3 @@ Hranice mezi empatií a nadměrnou mentalizací je kulturně a vztahově proměn
 
 - [Sebe-obrana: Rozpoznání emočního dluhu](@/kompendium/self-defense-guides/20-emotional-debt-recognition.md) – kdy porozumění přechází v závazek.
 - [Subakutní relační restrukturalizace](@/kompendium/recovery-protocols/subacute-relational-restructuring.md) – obnova vyvážených vztahů.
-
----
-
-*Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)*

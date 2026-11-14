@@ -4,41 +4,6 @@
     "depth": 1,
     "edges": [
       {
-        "from": "glossary/_index.md",
-        "kind": "link",
-        "to": "glossary/coercive-control.md"
-      },
-      {
-        "from": "glossary/_index.md",
-        "kind": "link",
-        "to": "glossary/delegitimizace.md"
-      },
-      {
-        "from": "glossary/_index.md",
-        "kind": "link",
-        "to": "glossary/disociace.md"
-      },
-      {
-        "from": "glossary/_index.md",
-        "kind": "link",
-        "to": "glossary/epistemicka-anihilace.md"
-      },
-      {
-        "from": "glossary/_index.md",
-        "kind": "link",
-        "to": "glossary/gaslighting.md"
-      },
-      {
-        "from": "glossary/_index.md",
-        "kind": "link",
-        "to": "glossary/metakognitivni-destrukce.md"
-      },
-      {
-        "from": "glossary/_index.md",
-        "kind": "link",
-        "to": "glossary/taxonomie-ea.md"
-      },
-      {
         "from": "glossary/coercive-control.md",
         "kind": "link",
         "to": "glossary/epistemicka-anihilace.md"
@@ -66,6 +31,11 @@
       {
         "from": "glossary/delegitimizace.md",
         "kind": "link",
+        "to": "glossary/dual-use-poznani.md"
+      },
+      {
+        "from": "glossary/delegitimizace.md",
+        "kind": "link",
         "to": "glossary/epistemicka-anihilace.md"
       },
       {
@@ -87,6 +57,36 @@
         "from": "glossary/disociace.md",
         "kind": "link",
         "to": "glossary/metakognitivni-destrukce.md"
+      },
+      {
+        "from": "glossary/dual-use-poznani.md",
+        "kind": "link",
+        "to": "glossary/delegitimizace.md"
+      },
+      {
+        "from": "glossary/dual-use-poznani.md",
+        "kind": "link",
+        "to": "glossary/epistemicka-anihilace.md"
+      },
+      {
+        "from": "glossary/dual-use-poznani.md",
+        "kind": "link",
+        "to": "glossary/gaslighting.md"
+      },
+      {
+        "from": "glossary/dual-use-poznani.md",
+        "kind": "link",
+        "to": "glossary/metakognitivni-destrukce.md"
+      },
+      {
+        "from": "glossary/dual-use-poznani.md",
+        "kind": "link",
+        "to": "glossary/taxonomie-ea.md"
+      },
+      {
+        "from": "glossary/dual-use-poznani.md",
+        "kind": "link",
+        "to": "kompendium/01-predmluva/eticke-aspekty.md"
       },
       {
         "from": "glossary/epistemicka-anihilace.md",
@@ -171,6 +171,11 @@
       {
         "from": "kompendium/05-ultramari-techniky/_index.md",
         "kind": "link",
+        "to": "glossary/dual-use-poznani.md"
+      },
+      {
+        "from": "kompendium/05-ultramari-techniky/_index.md",
+        "kind": "link",
         "to": "glossary/epistemicka-anihilace.md"
       },
       {
@@ -228,13 +233,6 @@
       {
         "class": "glossary",
         "distance": 1,
-        "in": 325,
-        "path": "glossary/_index.md",
-        "title": "Glosář"
-      },
-      {
-        "class": "glossary",
-        "distance": 1,
         "in": 319,
         "path": "glossary/taxonomie-ea.md",
         "title": "Taxonomie EA"
@@ -287,6 +285,13 @@
         "in": 218,
         "path": "kompendium/05-ultramari-techniky/_index.md",
         "title": "05. Ultramární techniky fundamentální dekonstrukce"
+      },
+      {
+        "class": "glossary",
+        "distance": 1,
+        "in": 211,
+        "path": "glossary/dual-use-poznani.md",
+        "title": "Dual-use poznání"
       }
     ],
     "ok": true,

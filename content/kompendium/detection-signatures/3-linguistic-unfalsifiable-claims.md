@@ -150,7 +150,3 @@ V praxi se také těžko určuje hranice mezi „dosud netestovaným“ a „pri
 - [Sebe-obrana: Hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md) – jak si stanovit vlastní kritéria.
 - [Reality Testing](@/glossary/reality-testing.md) – klinický pojem pro ověřování vůči skutečnosti.
 - [Subakutní detekční trénink](@/kompendium/recovery-protocols/subacute-detection-training.md) – nácvik rozpoznávání imunizace po odchodu ze skupiny.
-
----
-
-*Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)*

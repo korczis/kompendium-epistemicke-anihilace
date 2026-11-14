@@ -76,18 +76,21 @@ Souběžně s auditem:
 Na základě strukturálního auditu:
 
 #### 4a — Personální opatření
+
 - **Dočasné odstavení od mentorské role** identifikovaných aktérů (s probíhajícím etickým procesem)
 - **Strukturovaný coaching** pro aktéry, jejichž jednání lze klasifikovat jako **neintencionální** (přenos vlastní filtrace; viz [kapitola 1, hraniční případ](@/kompendium/03-zakladni-kategorie/kapitola-1.md))
 - **Disciplinární proces** pro aktéry s **intencionálním** vzorcem
 - **Personální tranzice** — přerozdělení mentees, supervize jiných projektů
 
 #### 4b — Strukturální opatření
+
 - **Restrukturace mentorského systému** — implementace [pravidla dvou školitelů](@/kompendium/06-klinicke-aplikace/preventivni-strategie.md), externí ko-mentoři
 - **Reorganizace komunikačních kanálů** — obnovení anonymních zpětnovazebních cest, jejichž efektivita byla kompromitována
 - **Reforma etických komisí** — doplnění EA-kompetence, aktivace specializovaných podkomisí
 - **Implementace anti-Salami a anti-Trojan protokolů** — formalizovaná dokumentační a auditová praxe
 
 #### 4c — Kulturní opatření
+
 - **Strukturovaný dialog** — facilitované setkání jednotky s explicitní artikulací vzorců a závazků
 - **Edukativní program** — povinný edukativní cyklus k taxonomii EA pro všechny členy jednotky
 - **Kontinuální monitoring** — pravidelné reportování tak dlouho, dokud nezávislé hodnocení nedoloží, že se vzorec nevrací

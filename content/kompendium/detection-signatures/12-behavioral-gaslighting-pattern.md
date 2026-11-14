@@ -153,7 +153,3 @@ Hranice mezi gaslightingem a obyčejným, i když tvrdým konfliktem o vzpomínk
 - [Vzdělávací scénář: Vzorec gaslightingu](@/kompendium/educational-scenarios/19-gaslighting-pattern.md) – nácvik rozpoznání.
 - [Právo o coercive control](@/kompendium/forensic-legal/12-coercive-control-law.md) – právní rámec.
 - [Subakutní rekonstrukce důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md) – obnova důvěry v sebe i druhé.
-
----
-
-*Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)*

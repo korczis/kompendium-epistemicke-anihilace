@@ -63,6 +63,14 @@ autoritu jako jádro autoritářského uspořádání vztahu. Popsané pořadí 
 zůstává člověku zachována schopnost vynášet běžné soudy. Rámec, v němž se takový materiál čte,
 stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
+## Proč se škoda zevnitř špatně pozná
+
+Zasažený člověk svou vyčerpanost nečte jako škodu, ale jako doklad poctivosti: prohlásit úkol
+sebepoznání za dokončený by podle převzatého měřítka bylo selháním, takže každý další krok
+potvrzuje, že hledá správně. Nárok na sebekritiku, kterému nelze dostát, mění vinu v trvalý
+stav (Lifton, 1961). Okolí si spíš všimne, že dotyčný nevynáší ani soudy, které dříve
+nevyžadovaly reflexi.
+
 ## Fenomenologické znaky
 
 Co prožívá subjekt uvnitř paradoxálního metaanihilačního protokolu:
@@ -169,10 +177,3 @@ Klíčové pojmové kotvy techniky: **Zenon z Eleje, Achilles a želva, konverge
 - **Forward-references**:
   - [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
----
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/korczis-prismatic-platform)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

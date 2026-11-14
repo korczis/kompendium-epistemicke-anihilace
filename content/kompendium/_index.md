@@ -91,9 +91,11 @@ Vedle hlavních sekcí je kompendium doprovázeno **[per-technique podknihovnou]
 ## Klíčové koncepty
 
 ### Epistemická anihilace
+
 Systematická destrukce schopnosti poznávat, vyhodnocovat informace a konstruovat koherentní obraz reality — fenomén překračující hranice klasické psychopatologie. Viz [glosářové heslo](@/glossary/epistemicka-anihilace.md).
 
 ### Kognitivní anihilace
+
 Narušení základních kognitivních struktur a procesů, které může vést k fundamentální dezintegraci myšlení a vnímání. Viz [glosářové heslo](@/glossary/kognitivni-anihilace.md).
 
 ### Taxonomické osy

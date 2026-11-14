@@ -222,9 +222,3 @@ Intervence: Strukturovaná psychoeducation o **rozlišení** legitimní nuance v
 - **Glossary**:
   - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-[Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

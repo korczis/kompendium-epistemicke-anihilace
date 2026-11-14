@@ -134,7 +134,3 @@ Injekce může být úspěšná právě proto, že narativ vystihuje skutečný 
 
 - [Vzdělávací scénář: Injekce narativu](@/kompendium/educational-scenarios/15-narrative-injection.md) – nácvik rozpoznání.
 - [EA × OSINT: Narrative Injection Attacks](@/kompendium/cross-domain/7-ea-osint-narrative-injection.md) – metodika pro vyšetřovatele.
-
----
-
-*Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)*

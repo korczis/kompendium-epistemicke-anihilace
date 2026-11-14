@@ -131,7 +131,3 @@ Platformy zveřejňují data omezeně a nezávislá analýza je často odkázán
 
 - [EA × OSINT: Bot Detection](@/kompendium/cross-domain/6-ea-osint-bot-detection.md) – postup pro vyšetřovatele.
 - [Vzdělávací scénář: Rozpoznání mediální smečky](@/kompendium/educational-scenarios/14-media-mob-recognition.md) – nácvik.
-
----
-
-*Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)*

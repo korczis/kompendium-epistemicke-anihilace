@@ -139,7 +139,3 @@ Konečně je třeba opakovaně připomínat, a to i odborníkům, že stupeň fr
 - [Disclosure traumatu](@/kompendium/forensic-legal/6-trauma-disclosure.md) – proč fragmentovaná výpověď neznamená nevěrohodnost.
 - [Narativní analýza](@/kompendium/research-methodology/narrative-analysis-EA.md) – metodika rozboru vyprávění.
 - [Subakutní narativní externalizace](@/kompendium/recovery-protocols/subacute-narrative-externalization.md) – obnova vlastního příběhu.
-
----
-
-*Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)*

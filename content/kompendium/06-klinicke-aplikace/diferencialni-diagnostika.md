@@ -159,23 +159,27 @@ Doporučený postup pro klinika:
 V praxi se setkáváme s několika typickými klastry:
 
 ### Vzor 1: Post-kult komplex
+
 - **Primární**: cPTSD
 - **Sekundární**: EA (strukturální + obsahová)
 - **Terciární**: Často disociativní symptomy
 - **Léčebná sekvence**: Stabilizace → epistemická rekonstrukce → trauma-zpracování
 
 ### Vzor 2: Oběť dlouhodobého gaslightingu
+
 - **Primární**: EA (typicky strukturální)
 - **Sekundární**: cPTSD
 - **Často přidružené**: GAD, depresivní porucha
 - **Léčebná sekvence**: Validace zkušenosti → epistemická rekonstrukce → trauma-zpracování
 
 ### Vzor 3: Politická represe (přeživší)
+
 - **Primární**: PTSD nebo cPTSD
 - **Sekundární**: EA (často obsahová — narušení důvěry v institucionální realitu)
 - **Léčebná sekvence**: Trauma-focused → kontextuální epistemická rekonstrukce
 
 ### Vzor 4: Oběť informačního zneužívání (digital abuse)
+
 - **Primární**: GAD nebo cPTSD
 - **Sekundární**: EA (často hermeneutická složka)
 - **Léčebná sekvence**: Stabilizace digitálního prostředí → epistemická rekonstrukce → trauma-zpracování
@@ -230,12 +234,3 @@ Před aplikací:
 
 > **Mandatorní akce**: aplikace bez licence + supervize + dokumentace je
 > mimo zamýšlený klinický rámec.
-
----
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

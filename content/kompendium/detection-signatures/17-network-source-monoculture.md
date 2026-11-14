@@ -132,7 +132,3 @@ Algoritmicky řízené prostředí vytváří monokulturu i bez úmyslu konkrét
 
 - [Sebe-obrana: Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md) – ověřování z nezávislých zdrojů.
 - [EA × OSINT: Cross-Source Triangulation](@/kompendium/cross-domain/8-ea-osint-cross-source-triangulation.md) – metodika pro vyšetřovatele.
-
----
-
-*Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)*

@@ -36,6 +36,7 @@ import collections
 import json
 import pathlib
 import re
+import subprocess
 import sys
 import tomllib
 import unicodedata
@@ -416,6 +417,15 @@ def main() -> int:
         print(f"build-ui-data: unknown argument {unknown[0]}; see --help", file=sys.stderr)
         return 2
     check = "--check" in args
+    # ia.json and graph.json are build-graph.py's outputs that build() reads. Regenerate them first
+    # (or, in check mode, verify with build-graph --check) so a build-ui-data-only run can never
+    # operate on, or pass against, a stale ia.json. The "passes locally, fails CI" gotcha came from a
+    # --check that reads ia.json instead of regenerating it, not from a second writer: build-graph is
+    # ia.json's sole writer (test/cases/37).
+    graph_py = str(pathlib.Path(__file__).resolve().with_name("build-graph.py"))
+    rc = subprocess.run([sys.executable, graph_py] + (["--check"] if check else [])).returncode
+    if rc:
+        return rc
     stale = []
     for name, data in build().items():
         target, text = OUT / name, serialise(data)

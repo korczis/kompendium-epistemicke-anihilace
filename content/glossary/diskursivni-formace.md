@@ -26,13 +26,16 @@ Kompendium Foucaulta zpracovává v kapitole [7.1 Filosofický rámec EA](@/komp
 
 ## Jak se projevuje
 
-Diskursivní formace je vidět především na svých hranicích:
+Diskursivní formace je vidět především na svých hranicích. Foucault (1971) popisuje procedury, jimiž
+diskurs vylučuje: o tom, kdo smí mluvit, rozhoduje kvalifikace a pozice mluvčího, ne obsah výpovědi, a
+některé zkušenosti nelze v dané instituci vyjádřit tak, aby byly vzaty vážně, protože pro ně chybí
+uznaná kategorie. Disciplíny podle něj také určují, za jakých podmínek může nový pojem do oboru vstoupit,
+a přijímají ho jen v podobě, která odpovídá jejich pravidlům (Foucault, 1971).
 
-- určité zkušenosti nelze v dané instituci vyjádřit tak, aby byly vzaty vážně – chybí pro ně uznaná kategorie;
-- o tom, kdo smí mluvit, rozhoduje pozice (titul, funkce, příslušnost), ne obsah výpovědi;
-- stejné tvrzení zní v jednom prostředí jako odborný poznatek a v jiném jako laický dojem;
-- nové pojmy vstupují do oboru jen přes schválené kanály a s jazykovou úpravou, která je přizpůsobí;
-- lidé mluví o sobě slovy, která jim nabídla instituce, a jinými slovy už o sobě mluvit neumějí.
+Foucault (1969) ukazuje, že status výpovědi závisí na formaci, k níž patří: totéž tvrzení může v jednom
+prostředí platit za odborný poznatek a v jiném za laický dojem. V *Surveiller et punir* pak Foucault
+(1975) popisuje, jak disciplinární vědění utváří samotné jednotlivce, kteří o sobě začnou mluvit slovy,
+jež jim nabídla instituce, a jinými slovy už o sobě mluvit neumějí.
 
 ## Mechanismus
 
@@ -42,10 +45,12 @@ Pro epistemickou anihilaci je klíčové, že uzavřené skupiny a instituce moh
 
 ## Odlišení
 
-- **Ideologie** v marxistickém pojetí je falešný obraz skutečnosti; diskursivní formace se otázce pravdy a lži vyhýbá a zkoumá podmínky vzniku výpovědí.
-- Paradigma (Kuhn, viz [paradigm shift](@/glossary/paradigm-shift.md)) se týká vědeckého společenství a jeho vzorových řešení; diskursivní formace je širší a zahrnuje i nevědecké praktiky.
-- **[Jazyková hra](@/glossary/jazykova-hra.md)** (Wittgenstein) zdůrazňuje pravidla užití slov v praxi; Foucault se ptá po historickém a institucionálním vzniku pravidel a po jejich vztahu k moci.
-- **[Hermeneutická marginalizace](@/glossary/hermeneuticka-marginalizace.md)** (Fricker) popisuje důsledek pro skupiny, které se na tvorbě sdílených pojmů nepodílejí.
+| Odlišit od | Rozdíl |
+| --- | --- |
+| Ideologie (marxistické pojetí) | falešný obraz skutečnosti; diskursivní formace se otázce pravdy a lži vyhýbá a zkoumá podmínky vzniku výpovědí |
+| Paradigma (Kuhn, viz [paradigm shift](@/glossary/paradigm-shift.md)) | týká se vědeckého společenství a jeho vzorových řešení; diskursivní formace je širší a zahrnuje i nevědecké praktiky |
+| [Jazyková hra](@/glossary/jazykova-hra.md) (Wittgenstein) | zdůrazňuje pravidla užití slov v praxi; Foucault se ptá po historickém a institucionálním vzniku pravidel a po jejich vztahu k moci |
+| [Hermeneutická marginalizace](@/glossary/hermeneuticka-marginalizace.md) (Fricker) | popisuje důsledek pro skupiny, které se na tvorbě sdílených pojmů nepodílejí |
 
 ## Význam pro Kompendium
 

@@ -35,6 +35,8 @@ page paragraph-sign <<<"$long podle OZ (§ 1724)."
 page double-year <<<"$long (Kant, 1781/1787)."
 page narrative-double-year <<<"Kant (1781/1787) tvrdí, že $long."
 page month-year <<<"$long (Novák, 12/2019)."
+page initial <<<"$long (Freud, A., 1936)."
+page initials <<<"$long (Freud, A. M., 1936)."
 page exempt <<PAGE
 > **Pozor**: $long a jde o upozornění v rámečku.
 
@@ -50,5 +52,5 @@ $long ve formě poznámky k literatuře.
 PAGE
 listed citations
 has seeded; has paragraph-sign; has month-year
-for p in double-year narrative-double-year fixed paren-no-comma narrative two-authors et-al czech-capitals statute eu exempt; do hasnt "$p"; done
+for p in initial initials double-year narrative-double-year fixed paren-no-comma narrative two-authors et-al czech-capitals statute eu exempt; do hasnt "$p"; done
 echo "case 12: uncited paragraphs are refused, every accepted form passes"

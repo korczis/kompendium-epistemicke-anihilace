@@ -29,8 +29,8 @@
   },
   "og-glossary.png": {
    "height": 630,
-   "sha256": "1b43145e0d1ba672855d5ecc1b4ba3690ff1a4cad3456d88a7fe44401500b7e5",
-   "source_sha256": "773f2b79e0671fefe582ba9a6fa7a3c9d870bba0c4956450fafa73fa438c2a45",
+   "sha256": "b1c55575536bc59ae4f2acbec5bb284c87668dc8a777f0f6f1128bdd1c3595c0",
+   "source_sha256": "ea97233918e22fcb15eb194a8cf9b693a22f65f743fbae6a8749749755ee193f",
    "width": 1200
   },
   "og-kompendium-01-predmluva.png": {
@@ -316,7 +316,7 @@
    "width": 1200
   },
   "section-glossary.svg": {
-   "sha256": "be5d5977a634ffdc20270f2f3171bc1b7ee8bcdb846e98f09b683dccffe4ea17"
+   "sha256": "a0392d1a5ca2413c1e65366447beaf1bdba03e81266a46dbbbc564c8e779ec44"
   },
   "section-kompendium-01-predmluva.svg": {
    "sha256": "d21995e8c121099c39fef0c36f1910d87343d718c585db28169b1f1986a772a4"

@@ -28739,6 +28739,11 @@
   },
   {
    "from": "pocitac",
+   "to": "glossary/intelektualizace.md",
+   "type": "prose"
+  },
+  {
+   "from": "pocitac",
    "to": "kompendium/detection-signatures/1-linguistic-jargon-density.md",
    "type": "prose"
   },
@@ -77507,6 +77512,7 @@
    ],
    "links_prose": [
     "glossary/disociace.md",
+    "glossary/intelektualizace.md",
     "kompendium/detection-signatures/1-linguistic-jargon-density.md",
     "kompendium/nlp-vzorce/jazykove-vzorce/kategorie-satirove.md",
     "kompendium/nlp-vzorce/jazykove-vzorce/vyrovnany.md",

@@ -111,7 +111,7 @@ Operační důvěru v inferenční reflexy **obnovuje pravidelné rozhodování*
 
 #### 4. Externí epistemická kotva
 
-Paralýzu obchází **mentor** s operační autoritou — člověk, jehož „tento závěr je validní, lze ho přijmout“ má pro dotčeného váhu rozhodnutí. Externí potvrzení tak zastupuje ospravedlnění, které si zasažená metakognice není schopna vydat sama.
+Paralýzu obchází **mentor** s operační autoritou — člověk, jehož „tento závěr je validní, lze ho přijmout“ má pro dotčeného váhu rozhodnutí. Externí potvrzení tak zastupuje ospravedlnění, které si zasažená [metakognice](@/glossary/metakognice.md) není schopna vydat sama.
 
 #### 5. Wittgensteinova terapie
 

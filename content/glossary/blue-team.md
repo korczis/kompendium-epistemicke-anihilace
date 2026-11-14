@@ -1,310 +1,138 @@
 +++
-title = "Blue Team"
+title = "Blue Team (modrý tým)"
 weight = 20
-description = "Tým epistemické obrany: slučování signálů, detekce posunu a strukturované důkazy místo výstrah."
+description = "Obranná strana informační bezpečnosti, která útoky odhaluje, vyhodnocuje a odráží, a proč se signál musí stát doloženým zjištěním dřív, než se podle něj jedná."
 
 [taxonomies]
 tags = ["glossary", "security"]
 
 [extra]
 category = "security"
-status = "active"
+related_terms = ["red-team", "purple-team"]
 author = "Tomas Korcak (korczis)"
-difficulty = "advanced"
-technical_level = "expert"
-domain_category = "Security Operations"
-related_concepts = ["epistemic defense", "signal aggregation", "drift detection", "evidence synthesis", "defensive posture", "adversarial-defensive loop", "paraconsistent reasoning"]
-implementation_status = "production"
-authority_level = "L3-strategic"
-difficulty_rating = "advanced"
-prerequisites = ["agent"]
-learning_path = ["security-fundamentals", "epistemic-reasoning", "blue-team-operations", "defensive-posture-assessment"]
-interactive_demos = ["/security"]
-code_examples = true
-external_resources = ["https://hexdocs.pm/elixir/processes.html", "https://erlang.org/doc/design_principles/des_princ.html"]
-version_introduced = "gen-8"
-stability_level = "stable"
-testing_scenarios = ["drift-detection-accuracy", "signal-aggregation-completeness", "evidence-synthesis-quality", "defensive-posture-validation"]
-related_terms = ["red-team", "purple-team", "agent"]
-date_modified = "2026-11-10"
+date_modified = "2026-11-14"
+keywords = ["blue team", "modrý tým", "obrana", "reakce na incident", "NIST", "detekce", "falešné poplachy", "doložené zjištění"]
 +++
 
 ## Definice
 
-**Blue Team** je tým čtyř specializovaných agentů zaměřených na
-epistemickou obranu prostřednictvím syntézy důkazů. V tradiční kybernetické bezpečnosti
-brání blue team sítě proti útokům; epistemický Blue Team brání **epistemickou integritu**
-znalostních systémů – stará se o to, aby přesvědčení byla dobře doložena, signály nebyly
-poškozeny a uvažování systému se neodchýlilo od ověřeného výchozího stavu.
+**Blue team** (modrý tým) je v informační bezpečnosti obranná strana: tým, který chrání systémy a
+organizaci, útoky odhaluje, vyhodnocuje a odráží a po incidentu obnovuje provoz. Ve cvičeních stojí proti
+[red teamu](@/glossary/red-team.md), který simuluje protivníka, a jejich spolupráci nad týmiž zjištěními
+popisuje heslo [purple team](@/glossary/purple-team.md). Rámec kybernetické bezpečnosti NIST rozděluje práci,
+kterou obranná strana vykonává, do funkcí řízení, identifikace, ochrany, detekce, reakce a obnovy (NIST,
+2024).
 
-Zásadní rozdíl mezi epistemickým a běžným blue teamem je v typu výstupu. Běžný
-blue team vytváří **výstrahy**: „zjištěno podezřelé přihlášení“, „nalezen podpis malwaru“,
-„pozorován neobvyklý provoz“. Epistemický Blue Team vytváří **strukturované důkazy**:
-zdokumentovaná pozorování s původem, mírou důvěry, souladem s [pluralitou
-signálů](@/glossary/intelligence-fusion.md) a výslovnou kvantifikací nejistoty.
-Výstrahy jsou pomíjivé a slouží k okamžité akci; důkazy jsou trvalé a lze je analyzovat.
+Podstatou pojmu je, že obrana není jednorázový zásah, ale trvalá činnost. Příručka NIST pro zvládání
+bezpečnostních incidentů popisuje její průběh jako cyklus přípravy, detekce a analýzy, omezení a odstranění
+incidentu, obnovy a poučení z incidentu, v němž se zkušenost z každého incidentu vrací do přípravy na další
+(Cichonski a kol., 2012).
 
-Výstraha „zjištěn posun“ je jediný signál, který
-může, ale nemusí vyžadovat akci. Strukturovaný důkazní artefakt, který posun dokumentuje,
-přináší více nezávislých měření, zachovává protichůdná pozorování a vede své uvažování zpět
-k surové telemetrii, je tvrzením o vědění, které lze ověřit, zpochybnit, zpřesnit
-a prostřednictvím [Purple Teamu](@/glossary/purple-team.md) sloučit s jinými důkazy.
+## Původ a kontext pojmu
 
-**Vztah ke knize:** zásady Blue Teamu – víc nezávislých zdrojů pro každé tvrzení, zachování
-rozporů, sledování postupného posunu pod prahem pozornosti – jsou strojovou obdobou obrany, kterou kniha doporučuje lidem
-(viz [Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md)
-a [Detekční signatury](@/kompendium/detection-signatures/_index.md)).
+Pojem pochází z vojenských cvičení, v nichž „modrá“ strana bránila vlastní síly proti „červené“ straně, která
+simulovala nepřítele. V informační bezpečnosti se ustálil jako označení obranného týmu ve cvičeních a obecně
+jako označení bezpečnostního provozu, který systémy hlídá a reaguje na incidenty (Cichonski a kol., 2012).
 
-## Čtyři agenti Blue Teamu
+Rámec, podle něhož obranné týmy svou práci organizují, se postupně rozšiřoval. NIST vydal první verzi
+rámce kybernetické bezpečnosti v roce 2014 jako dobrovolný soubor postupů pro ochranu kritické
+infrastruktury, a verze 2.0 ho rozšířila na všechny organizace a doplnila funkci řízení, která obranu váže na
+odpovědnost vedení a na řízení rizik (NIST, 2024). Obrana tím přestává být jen technickou činností
+bezpečnostního týmu a stává se součástí toho, jak organizace rozhoduje.
 
-Blue Team působí pod velením jediného strategického velitele L3 se třemi provozními
-specialisty L2. Každý agent má samostatnou doménovou odpovědnost a dohromady poskytují
-komplexní obranné pokrytí.
+Strom a kolegové (2018) popisují, jak katalog MITRE ATT&CK proměnil práci obranného týmu: místo hledání
+jednotlivých známých podpisů škodlivého kódu může obrana budovat detekční analýzy zaměřené na chování
+útočníka a hodnotit, které techniky protivníka dokáže zachytit a které ne.
 
-### blue-commander (L3 strategický velitel)
+## Jak se projevuje
 
-Blue-commander řídí všechny operace Blue Teamu. Slučuje důkazy od tří specialistů do
-jednotného hodnocení obranného postoje, určuje priority šetření a předává důkazy [Purple
-Teamu](@/glossary/purple-team.md) k syntéze s adversariálními zjištěními [Red
-Teamu](@/glossary/red-team.md).
+V praxi se blue team projevuje jako průběžné sledování a vyhodnocování signálů z provozu. Obranný tým třídí
+výstrahy, rozhoduje, které z nich vyžadují zásah, a u skutečných incidentů postupuje podle připraveného
+postupu pro jejich omezení a odstranění (Cichonski a kol., 2012).
 
-| Atribut | Hodnota |
-|-----------|-------|
-| **Klasifikace** | L3 strategický velitel |
-| **Oprávnění** | plná koordinace Blue Teamu, syntéza důkazů, hlášení Purple Teamu |
-| **Vstupy** | důkazní zprávy specialistů, zjištění Red Teamu (přes Purple), telemetrie platformy |
-| **Výstupy** | jednotný obranný postoj, pokyny k šetření, důkazní balíčky pro Purple |
+Velkou část této práce tvoří zacházení s falešnými poplachy. Alahmadi, Axon a Martinovic (2022) v rozhovorech s
+analytiky bezpečnostních dohledových center ukázali, že velký podíl výstrah se ukáže jako planý a že zahlcení
+výstrahami vede k únavě, při níž analytici přehlížejí i ty, které jsou skutečné. Obrana proto stojí nejen na
+počtu výstrah, ale na schopnosti je doložit a odlišit.
 
-Hlavním výstupem blue-commandera je **hodnocení obranného postoje** (*Defensive Posture
-Assessment*) – strukturovaný dokument, který zachycuje, jak Blue Team aktuálně rozumí
-epistemickému zdraví platformy. Obsahuje:
+## Mechanismus
 
-- aktuální stav integrity přesvědčení ve všech doménách;
-- aktivní trendy posunu (zlepšení, stabilita, zhoršení);
-- otevřené rozpory, které vyžadují syntézu Purple Teamem;
-- míru důvěry všech obranných závěrů;
-- mezery v důkazech, kde je potřeba další šetření.
+Mechanismus obrany spočívá v tom, že signál se mění v doložené zjištění. Výstraha sama je jen podnětem;
+teprve když obranný tým ověří, odkud signál pochází, zda ho potvrzují jiné zdroje a jak spolehlivé jsou,
+vzniká zjištění, které lze obhájit a na jehož základě lze jednat (Cichonski a kol., 2012). Strom a kolegové
+(2018) tento posun popisují jako přechod od detekce indikátorů k detekci chování.
 
-### blue-auth-sentinel (L2 Operational Specialist)
+Detekční pravidlo, na němž obrana stojí, lze chápat jako hypotézu o chování útočníka: tvrdí, že určitá
+technika zanechá určitou stopu. Má-li taková hypotéza smysl, musí být možné popsat pozorování, které by ji
+vyvrátilo, a tak ji také ověřovat, což je Popperovo (1963) kritérium odlišující vědecké tvrzení od
+nevyvratitelného. Strom a kolegové (2018) z téhož důvodu navrhují zapisovat každé obranné opatření jako
+tvrzení o tom, kterou techniku protivníka detekuje, aby ho bylo možné jednu po druhé vyzkoušet a obranu
+hodnotit podle toho, co skutečně zachytí, nikoli podle toho, co o sobě tvrdí.
 
-Blue-auth-sentinel sleduje hranice autentizace a autorizace v celé platformě. Odhaluje pokusy
-o eskalaci oprávnění, vzorce neoprávněného přístupu a podmínky, za nichž lze autentizaci
-obejít.
+*Interpretace knihy*: z tohoto mechanismu plyne obdoba obrany, kterou kniha doporučuje lidem a kterou v
+metodologii výzkumu popsal Denzin (1978) jako triangulaci. Opírat tvrzení o
+více nezávislých zdrojů, zachovat rozpory místo jejich uhlazení a sledovat i pozvolné posuny pod prahem
+pozornosti jsou zásady, které popisuje [triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md)
+a [detekční signatury](@/kompendium/detection-signatures/_index.md).
 
-| Atribut | Hodnota |
-|-----------|-------|
-| **Klasifikace** | L2 Operational Specialist |
-| **Oprávnění** | sledování hranic autentizace, přístup k platformě jen pro čtení |
-| **Oblasti zaměření** | vzorce přihlašování, validace tokenů, vynucení RBAC, integrita relací |
-| **Metody detekce** | behaviorální analýza, sledování prahů, porovnávání vzorů |
-| **Formát výstupu** | důkazní artefakty s původem v přístupových logech |
+## Odlišení
 
-Auth-sentinel působí na hranici mezi vnějšími uživateli a vnitřním stavem platformy.
-Sleduje:
+| Odlišit od | Rozdíl |
+| --- | --- |
+| [Red team](@/glossary/red-team.md) | útočná strana, která obranu prověřuje simulací protivníka |
+| [Purple team](@/glossary/purple-team.md) | spolupráce útočné a obranné strany nad týmiž zjištěními |
+| Reakce na incident | jedna z fází práce obranného týmu, nikoli celá jeho činnost |
+| Bezpečnostní audit | posuzuje soulad s požadavky v určitém okamžiku; blue team brání průběžně |
+| Bezpečnostní dohledové centrum (SOC) | organizační útvar, v němž obranný tým obvykle pracuje a výstrahy třídí; blue team je role ve cvičení i v provozu, nikoli místo |
 
-- **pokusy o autentizaci** – vzorce neúspěšných přihlášení, znaky zkoušení ukradených
-  přihlašovacích údajů, detekci útoků hrubou silou;
-- **hranice autorizace** – požadavky, které testují meze RBAC, sledy eskalace oprávnění,
-  pokusy o záměnu rolí;
-- **integritu tokenů** – selhání validace JWT, opakované použití tokenů, znaky fixace relace;
-- **hranici API** – vzorce přístupu k REST API, spouštění omezení četnosti, pokusy
-  o porušení schématu OpenAPI.
+## Význam pro Kompendium
 
-### blue-drift-detector (L2 Operational Specialist)
+V Kompendiu je blue team obranným protějškem v trojici, kterou doplňují red team a purple team. *Interpretace
+knihy*: kniha z ní přejímá rozlišení mezi výstrahou a doloženým zjištěním, protože totéž rozlišení platí pro
+člověka, který čelí manipulaci: dojem, že „něco nesedí“, je výstraha, a teprve jeho ověření s jinými zdroji je
+zjištění, na jehož základě lze jednat (Cichonski a kol., 2012).
 
-Blue-drift-detector je specialista Blue Teamu s nejširším záběrem. Sleduje čtyři rozměry
-posunu ve všech aplikacích umbrella projektu a odhaluje postupné změny,
-které jednotlivě leží pod prahem výstrahy, ale dohromady ukazují na systémové zhoršení.
+Druhé užití se týká únavy z poplachů. *Interpretace knihy*: kdo je zahlcen množstvím varovných signálů,
+přestane je rozlišovat, a manipulace toho může využít tím, že skutečný signál schová mezi mnoho planých; totéž
+pozorování popsali Alahmadi, Axon a Martinovic (2022) u bezpečnostních analytiků.
 
-| Rozměr posunu | Co sleduje | Metoda detekce | Podmínka výstrahy |
-|-----------------|-----------------|------------------|-----------------|
-| **behaviorální** | vzorce volání funkcí, cesty provádění, rozložení výstupů | statistické srovnání s výchozím stavem | posun rozložení > 2 směrodatné odchylky |
-| **konfigurační** | konfigurace aplikací, proměnné prostředí, přepínače funkcí | rozdíl proti zapsané konfiguraci | jakákoli neoprávněná nebo nezdokumentovaná změna |
-| **závislostní** | verze knihoven, kontrakty vnějších API, datová schémata | sledování verzí, testování kontraktů | zpětně nekompatibilní změny, bezpečnostní upozornění |
-| **výkonnostní** | latence odezvy, propustnost, využití zdrojů | analýza časových řad se sezonní úpravou | trvalá odchylka > 20 % od výchozího stavu |
+## Obrana a zotavení
 
-Klíčovým přínosem detektoru je odhalení **posunu pod prahem**: změn, které jsou jednotlivě
-příliš malé na spuštění běžné výstrahy, ale časem se nasčítají do významného zhoršení.
-Odpovídá to známému přirovnání o „vařené žábě“: postupné zvyšování teploty nikdy nespustí
-jednotlivý poplach, a přesto se nakonec stane smrtelným. Stejnou strukturu má mnoho technik
-manipulace, které Kompendium popisuje – posun po malých krocích, z nichž žádný nevypadá jako
-hranice (srov. [Gaslighting](@/glossary/gaslighting.md)).
+Každý incident je pro obranný tým zdrojem poučení. Příručka NIST řadí na konec cyklu zvládání incidentu
+fázi poučení, v níž tým rozebírá, co se stalo, co fungovalo a co ne, a jak upravit přípravu, aby se podobný
+incident neopakoval nebo byl odhalen dřív (Cichonski a kol., 2012). Bez této fáze se obrana nezlepšuje, jen
+opakuje.
 
-### blue-signal-aggregator (L2 Operational Specialist)
+Rámec NIST (2024) staví vedle detekce a reakce samostatnou funkci obnovy, která se týká návratu k
+běžnému provozu a obnovy důvěry. *Interpretace knihy*: totéž rozlišení platí pro člověka po manipulaci;
+odhalit, že k ní došlo, a ubránit se dalšímu působení je jen část cesty, a obnova vlastního úsudku a vztahů
+je samostatný úkol, který kniha popisuje v protokolech zotavení.
 
-Blue-signal-aggregator koreluje signály napříč doménami, vynucuje [pluralitu
-signálů](@/glossary/intelligence-fusion.md) (nejméně 2 nezávislé signály na každé
-přesvědčení) a vytváří syntetizované důkazy z více zdrojů.
+## Meze pojmu a kritika
 
-| Atribut | Hodnota |
-|-----------|-------|
-| **Klasifikace** | L2 Operational Specialist |
-| **Oprávnění** | korelace signálů napříč doménami, přístup k telemetrii všech domén jen pro čtení |
-| **Hlavní funkce** | vynutit pluralitu signálů, korelovat nezávislé signály, vytvářet syntetizované důkazy |
-| **Výstup** | balíčky korelovaných signálů s osvědčením plurality |
+Obrana je vždy připravena hlavně na to, co zná. Strom a kolegové (2018) upozorňují, že katalog chování
+protivníka zachycuje chování, které už někdo zaznamenal, a obranný tým, který ho pokryje celý, je připraven na
+známé útoky, ne na všechny.
 
-Signal-aggregator odpovídá u každého zjištění Blue Teamu na zásadní otázku: **Opírá se toto
-pozorování alespoň o dva nezávislé zdroje?** Jediné neobvyklé měření může být šum senzoru.
-Dvě nezávislá měření téže anomálie z různých zdrojů jsou signál.
+Druhou mezí je, že úspěch obrany se obtížně měří. Incidenty, které obrana zastavila včas, často nikdo
+nezaznamená, kdežto ty, které prošly, jsou vidět. *Interpretace knihy*: měření obrany podle počtu uzavřených
+výstrah naráží na tutéž past, kterou popisuje heslo [purple team](@/glossary/purple-team.md): když se míra
+stane cílem, přestane měřit, což ukázala už Strathernová (1997).
 
-Sledování nezávislosti signálů vyžaduje porozumět korelaci zdrojů:
+## Literatura
 
-| Kombinace zdrojů | Nezávislost | Zdůvodnění |
-|-------------------|--------------|-----------|
-| dva skeny týmž skenerem | nízká | stejná infrastruktura i metodika, jiný čas |
-| sken portů + banner služby | střední | stejný cíl, jiný typ pozorování |
-| telemetrická metrika + záznam v logu | vysoká | jiné sběrné systémy, jiné typy dat |
-
-## Hodnocení obranného postoje
-
-Hlavním výstupem Blue Teamu je hodnocení obranného postoje (DPA), strukturovaný důkazní
-dokument, který zachycuje aktuální stav epistemické obrany. DPA není dashboard ani
-metrika – je to formální důkazní artefakt.
-
-| Oddíl | Obsah | Požadovaná důvěra |
-|---------|---------|----------------------|
-| **stav integrity** | zdraví grafu přesvědčení, doložení přesvědčení původem | ≥ 0,90 |
-| **aktivní trendy posunu** | analýza posunu podle rozměrů ve všech aplikacích | ≥ 0,80 |
-| **otevřené rozpory** | nevyřešené protichůdné důkazy, které vyžadují syntézu | nepoužije se (rozpory se zachovávají, neřeší) |
-| **mezery v důkazech** | oblasti, kde není splněna pluralita signálů | nepoužije se (mezery se dokumentují, nevyplňují) |
-| **postoj k hrozbám** | hodnocení se zohledněním zjištění Red Teamu | ≥ 0,85 |
-| **doporučení** | prioritizované kroky k posílení obrany | ≥ 0,80 |
-
-DPA vzniká v pravidelném rytmu a na vyžádání při významných událostech (zjištění Red Teamu,
-neúspěšné uzavření v Purple Teamu, aktualizace platformy). Každé DPA je verzované, opatřené
-časovým razítkem a uložené s úplným původem, takže lze sledovat vývoj v čase.
-
-## Syntéza důkazů a generování výstrah
-
-| Hledisko | Obrana založená na výstrahách | Obrana založená na důkazech (Blue Team) |
-|-----------|--------------------|------------------------------------|
-| **Výstup** | „Anomálie zjištěna ve 14:32“ | strukturovaný důkazní artefakt s řetězcem původu |
-| **Důvěra** | binární (výstraha, nebo nic) | spojitá (0,0–1,0 s kvantifikací nejistoty) |
-| **Práce s rozpory** | výstrahy si mohou odporovat bez řešení | rozpory se zachovávají, anotují a předávají Purple |
-| **Použitelnost** | vyžaduje lidský výklad | Purple je může strojově zpracovat k syntéze |
-| **Trvalost** | obvykle pomíjivé (výstraha se spustí a potvrdí) | trvalé důkazy vstupují do grafu přesvědčení |
-| **Skládání** | jednotlivé výstrahy, obtížně kombinovatelné | důkazní balíčky se skládají do větších hodnocení |
-
-Tento přístup umožňuje Purple Teamu automatickou syntézu obranných důkazů Blue Teamu
-s adversariálními zjištěními Red Teamu, takže smyčka útoku a obrany se uzavírá programově,
-ne ručním procházením logů výstrah.
-
-## Smyčka Red–Blue přes Purple
-
-Blue Team s [Red Teamem](@/glossary/red-team.md) nekomunikuje přímo. Veškerá interakce Red–Blue
-prochází [Purple Teamem](@/glossary/purple-team.md), který je syntetizačním uzlem smyčky útoku
-a obrany:
-
-```
-Red Team                    Purple Team                    Blue Team
-(adversarial)              (synthesis)                   (defensive)
-
-  Scenarios ──────>  purple-mapper ───────> Defense improvements
-  Findings ──────>  purple-closure ────────> Posture adjustments
-                         ^                         |
-                         |                         v
-                   purple-regression ────── Evidence reports
-                         |
-                         v
-                   Closure decision
-                   (all 4 conditions)
-```
-Analýza uzavření v Purple Teamu vyžaduje před uzavřením cyklu Red–Blue čtyři podmínky:
-
-1. **útok reprodukován** – scénář Red Teamu byl reprodukován v sandboxu;
-2. **obrana ověřena** – protiopatření Blue Teamu řeší konkrétní útočný vektor;
-3. **regrese otestována** – obrana nevnáší nové zranitelnosti;
-4. **důkazy úplné** – důkazy Red i Blue mají doložený původ a splňují pluralitu signálů.
-
-Příspěvek Blue Teamu je zde zásadní: musí vytvořit důkaz, který není jen reaktivní („výstrahu
-jsme opravili“), ale strukturální („dvěma a více nezávislými signály jsme ověřili, že obrana
-je účinná, s důvěrou 0,92, a řetězec důkazů vede od původního zjištění Red Teamu přes
-implementaci obrany k validačnímu měření“).
-
-## Bezpečnostní protokoly
-
-| Protokol | Vynucení |
-|----------|-------------|
-| **operace jen pro čtení** | agenti Blue mají ke stavu platformy přístup jen pro čtení; pozorují a měří, nikdy nemění |
-| **syntetická data** | veškeré testování používá syntetická data; skutečné osobní údaje ani produkční data do analýzy nevstupují |
-| **etické kontroly** | automatická validace každých 10–15 sekund u všech agentů Blue |
-| **auditní logování** | každá operace se zapisuje do neměnné auditní stopy |
-| **hranice rozsahu** | agenti Blue nemohou eskalovat do útočných operací; rozsah je přísně obranný |
-
-## Osvědčené postupy
-
-1. **Ukotvit každé zjištění v důkazních požadavcích.** Důkaz, který nemá doložený původ
-   nebo nesplňuje pluralitu signálů, jde do karantény. Tato kázeň brání běžnému selhání,
-   kdy naléhavost přebije epistemickou přísnost.
-2. **Udržovat nezávislé zdroje signálů pro každý sledovaný rozměr.** Každý kritický rozměr
-   má mít alespoň dvě nezávislé cesty pozorování – jiné sběrné systémy, jiné metodiky, jiná
-   místa pozorování.
-3. **Výslovně zachovávat rozpory.** Když drift-detector a auth-sentinel hodnotí týž jev
-   protichůdně, obě hodnocení se v DPA zachovají. Syntézu dělá Purple Team, zachování Blue
-   Team.
-4. **Vydávat strukturované důkazy, ne výstrahy.** Pokušení zredukovat důkaz pro jednoduchost
-   na binární výstrahu je třeba odolat – právě struktura umožňuje strojově zpracovatelnou
-   syntézu.
-5. **Sledovat posun pod prahem.** Měření pod prahem výstrahy se mohou nasčítat do
-   významného zhoršení; odhalit tyto postupné, jednotlivě neviditelné změny je hlavní
-   hodnotou detektoru.
-6. **Verzovat a označovat časem všechny důkazy.** Každý artefakt nese čas vzniku, výchozí
-   stav, s nímž byl srovnán, a verzi detektoru, který jej vytvořil.
-7. **Oddělit pozorování od výkladu.** Agenti Blue pozorují a měří, nevykládají a nedoporučují.
-   Výklad je odpovědností Purple Teamu. Oddělení brání tomu, aby obranné důkazy zkreslily
-   předčasné závěry.
-
-## Časté chyby
-
-1. **Únava z výstrah při příliš citlivé detekci posunu.** Příliš nízké prahy vytvoří záplavu
-   slabých zjištění, která zahltí analytiky a zastřou skutečné hrozby. Prahy se kalibrují
-   podle historických dat a míry falešných poplachů.
-2. **Zjištění z jediného zdroje vydávaná za důkaz.** Takové zjištění nesplňuje požadavek
-   plurality signálů. Je třeba odolat tlaku zveřejnit je jako „předběžný důkaz“ – musí být
-   výslovně označeno jako neověřené pozorování.
-3. **Směšování obrany Blue s útokem Red.** Agenti Blue mají přístup jen pro čtení a přísně
-   obranný rozsah. Operace, která mění stav systému nebo simuluje útoky, porušila hranici
-   rozsahu a musí být okamžitě zastavena.
-4. **Přehlížení časové dynamiky.** Metrika, která se při hodinovém vzorkování zdá stabilní,
-   může při minutovém rozlišení ukázat výrazný posun. Frekvence vzorkování má odpovídat
-   očekávanému časovému měřítku posunu.
-5. **Brát DPA jako metriku na dashboardu.** DPA je formální důkazní artefakt; jeho redukce
-   na jediné číslo zahodí strukturovanou informaci, která je pro syntézu cenná.
-6. **Neaktualizovat výchozí stav.** Detektor srovnává se zvoleným výchozím stavem; není-li
-   po legitimních změnách aktualizován, vznikají falešné poplachy. Je třeba řízený postup
-   aktualizace výchozího stavu s auditní stopou.
-
-## Případy užití
-
-### Hodnocení spolehlivosti zdrojů OSINT
-
-Když zdroje [OSINT](@/glossary/osint.md) poskytují o téže entitě protichůdná data, Blue Team
-rozpor zachová a vytvoří strukturovaný důkaz, který dokumentuje, které zdroje se rozcházejí,
-jakou důvěru má každý zdroj a jaký může mít rozpor dopad na navazující hodnocení.
-
-### Sledování hranice autentizace
-
-Auth-sentinel sleduje vzorce autentizace na koncových bodech REST API a LiveView. Když se
-objeví neobvyklé vzorce – nárůst neúspěšných přihlášení z nového rozsahu IP adres, nečekaná
-selhání validace tokenů, znaky fixace relace –, vytvoří důkazní artefakty pro hodnocení
-obranného postoje.
-
-### Sledování dodavatelského řetězce závislostí
-
-Drift-detector sleduje verze závislostí ve všech aplikacích umbrella projektu. Když závislost vydá bezpečnostní upozornění, detektor vytvoří důkaz o tom, kterých
-aplikací se týká, jak je závažné a jaký má dopad na stromy supervize OTP. Důkaz umožňuje
-nápravu podle priorit.
-
-## Související pojmy
-
-Bez vlastního hesla v glosáři knihy: *Epistemic Robustness* (míra odolnosti obrany vůči
-epistemickému útoku) a *Confidence Scoring* (kvantifikace nejistoty důkazů).
+- Alahmadi, B. A., Axon, L., & Martinovic, I. (2022). *99% false positives: A qualitative study of SOC analysts' perspectives on security alarms*. In Proceedings of the 31st USENIX Security Symposium.
+- Cichonski, P., Millar, T., Grance, T., & Scarfone, K. (2012). *Computer Security Incident Handling Guide* (NIST SP 800-61 Rev. 2). Gaithersburg: National Institute of Standards and Technology.
+- Denzin, N. K. (1978). *The Research Act: A Theoretical Introduction to Sociological Methods* (2nd ed.). New York: McGraw-Hill.
+- NIST. (2024). *The NIST Cybersecurity Framework (CSF) 2.0*. Gaithersburg: National Institute of Standards and Technology.
+- Popper, K. R. (1963). *Conjectures and Refutations*. London: Routledge.
+- Strathern, M. (1997). „Improving ratings“: audit in the British University system. *European Review*.
+- Strom, B. E., a kol. (2018). *MITRE ATT&CK: Design and Philosophy*. MITRE.
 
 ## Související
 
-- [Red Team](@/glossary/red-team.md) – adversariální protějšek, proti jehož zjištěním se Blue
-  brání.
-- [Purple Team](@/glossary/purple-team.md) – syntetizační uzel smyčky Red–Blue.
+- [Red Team](@/glossary/red-team.md) – útočná strana, která obranu prověřuje.
+- [Purple Team](@/glossary/purple-team.md) – spolupráce útočné a obranné strany.
 
 <!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
 

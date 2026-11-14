@@ -104,19 +104,27 @@ Klinické zařazení protokolu dává povaha expozice, která je u této profese
 
 ## Vulnerabilní podpopulace
 
-Aplikace techniky **EA-6.4.9** vyžaduje specifickou modifikaci v následujících podpopulacích, kde standardní protokol nese zvýšené iatrogenní riziko:
+Péče popsaná v této technice se potkává s profesní kulturou, která přiznanou tíseň trestá. Některé skupiny jsou tím zasaženy víc než ostatní.
 
-**Děti a adolescenti (< 18 let)**: vývojově citlivá adaptace s explicitním zapojením pečující osoby (TF-CBT model), kratší sezení, vyšší frekvence stabilizačních prvků, hra a kreativní expresivní techniky jako preferovaný kanál. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). Doporučené nástroje: UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
+**Děti a adolescenti**: dospívající, kteří publikují a jsou za to online obtěžováni, stojí mimo redakční ochranu i mimo dětskou péči. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization).
 
-**Geriatrická populace (> 65 let)**: kognitivní akomodace (delší pauzy, opakování klíčových konceptů, písemné podpůrné materiály), screening pro early-stage demenci (MoCA), zohlednění kohortně specifické historie (postkomunistická intergenerační traumata), častá komorbidita s chronickými somatickými onemocněními.
+Uvádějí se u nich: TF-CBT model, UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
 
-**Komorbidní psychotické spektrum**: technika vyžaduje předchozí psychiatrickou stabilizaci v péči psychiatra, úzká spolupráce s psychiatrem, redukce konfrontačních elementů, posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
+**Geriatrická populace**: starší novináři nesou kumulované zprostředkované trauma z celé kariéry a jeho projevy se připisují vyhoření nebo věku.
 
-**Komorbidní substance use disorders**: doporučená sekvence — primární SUD léčba do funkční remise, poté trauma-fokusovaná intervence. Paralelní integrované přístupy (Seeking Safety) jsou alternativou pro pacienty neschopné dosáhnout primární abstinence.
+Při odlišení počínající demence bývá uveden MoCA.
 
-**Komorbidní borderline personality disorder**: rozšířená stabilizační fáze (DBT skill training) předchází trauma expozičním komponentám. Riziko regresivní idealizace/devalvace v terapeutickém vztahu vyžaduje peer-supervizi.
+**Komorbidní psychotické spektrum**: cílené sledování novináře je doloženou praxí, takže se obava o soukromí od příznaku odlišuje obtížně. Riziko: psychotická dekompenzace pod expozičním tlakem.
 
-**Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; preferovány sensorimotor a stabilizační intervence v perinatálním období.
+**Komorbidní substance use disorders**: užívání je v redakční kultuře běžné a tíseň, kterou tlumí, se tím nepojmenuje.
+
+Mezi jmenovanými je Seeking Safety.
+
+**Komorbidní borderline personality disorder**: redakční vztahy se střídají v krátkých cyklech. Riziko: regresivní idealizace a devalvace v terapeutickém vztahu.
+
+Uváděn je DBT skill training.
+
+**Gravidita a perinatální období**: terénní nasazení je v tomto období nedostupné a s ním i obvyklý zdroj uznání.
 
 ## Kdy je rámec legitimní
 

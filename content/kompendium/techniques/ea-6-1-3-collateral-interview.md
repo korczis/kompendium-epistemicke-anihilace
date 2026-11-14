@@ -104,19 +104,19 @@ V kompendiu EA je rozhovor s blízkými veden jako diagnostický zdroj, který z
 
 ## Vulnerabilní podpopulace
 
-Aplikace techniky **EA-6.1.3** vyžaduje specifickou modifikaci v následujících podpopulacích, kde standardní protokol nese zvýšené iatrogenní riziko:
+Rozhovor s blízkými dopadá nejtvrději tam, kde je blízký okruh sám zdrojem tlaku; v následujících skupinách je to postavení zvenčí rozpoznatelné.
 
-**Děti a adolescenti (< 18 let)**: vývojově citlivá adaptace s explicitním zapojením pečující osoby (TF-CBT model), zkrácená sezení, vyšší frekvence stabilizačních prvků, hra a kreativní expresivní techniky jako preferovaný kanál. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). Doporučené nástroje: UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
+**Děti a adolescenti**: externí perspektivu o dítěti podává zpravidla ten, kdo nad ním má moc, a jeho verze se bere jako opravná. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). Nástroje a modely, které se u této skupiny uvádějí: TF-CBT model, UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
 
-**Geriatrická populace (> 65 let)**: kognitivní akomodace (delší pauzy, opakování klíčových konceptů, písemné podpůrné materiály), screening pro early-stage demenci (MoCA), zohlednění kohortně specifické historie (postkomunistická intergenerační traumata), častá komorbidita s chronickými somatickými onemocněními.
+**Geriatrická populace**: výpověď starého člověka bývá rutinně doplňována rodinou a tím také přepisována; jako nástroj se zde uvádí MoCA.
 
-**Komorbidní psychotické spektrum**: technika vyžaduje předchozí psychiatrickou stabilizaci, úzká spolupráce s psychiatrem, redukce konfrontačních elementů, posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
+**Komorbidní psychotické spektrum**: shoda okolí proti jedinému hlasu zde platí za důkaz. Riziko: psychotická dekompenzace pod expozičním tlakem.
 
-**Komorbidní substance use disorders**: doporučená sekvence — primární léčba užívání návykových látek do funkční remise, poté trauma-fokusovaná intervence. Paralelní integrované přístupy (Seeking Safety) jsou alternativou pro pacienty neschopné dosáhnout primární abstinence.
+**Komorbidní substance use disorders**: blízcí popisují užívání jako hlavní problém a souběžnou expozici jako jeho následek; nástrojem zmiňovaným u tohoto souběhu je Seeking Safety.
 
-**Komorbidní borderline personality disorder**: rozšířená stabilizační fáze s tréninkem zvládání afektu předchází trauma expozičním komponentám. Riziko regresivní idealizace/devalvace v terapeutickém vztahu vyžaduje peer-supervizi.
+**Komorbidní borderline personality disorder**: okolí líčí vztahovou nestabilitu jako vlastnost dotčeného člověka, čímž se idealizace a devalvace stávají důkazem proti jeho popisu situace.
 
-**Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; preferovány stabilizační a sensorimotorické intervence.
+**Gravidita a perinatální období**: blízcí zde mluví za dva a jejich hlas má v tomto období největší institucionální váhu.
 
 ## Intervenční variace
 

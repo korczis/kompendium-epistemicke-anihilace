@@ -104,19 +104,27 @@ Kniha vede techniku **EA-4.2.7** jako režim správy záznamů: předmětem nen�
 
 ## Vulnerabilní podpopulace
 
-Aplikace techniky **EA-4.2.7** vyžaduje specifickou modifikaci v následujících podpopulacích, kde standardní protokol nese zvýšené iatrogenní riziko:
+Dokumentační řetězec zasahuje toho, o kom je vedený. Několik skupin je vůči tomu, co o nich záznam tvrdí, vystaveno víc, protože samy k němu nemají přístup.
 
-**Děti a adolescenti (< 18 let)**: vývojově citlivá adaptace s explicitním zapojením pečující osoby (model TF-CBT), zkrácená sezení proti dospělému standardu, vyšší frekvence stabilizačních prvků, hra a kreativní expresivní techniky jako preferovaný kanál. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). Doporučené nástroje: UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
+**Děti a adolescenti**: o dítěti mluví záznam pořízený dospělými a dítě jeho obsah samo neopraví. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization).
 
-**Geriatrická populace (> 65 let)**: kognitivní akomodace (delší pauzy, opakování klíčových konceptů, písemné podpůrné materiály), screening pro early-stage demenci (MoCA), zohlednění kohortně specifické historie (postkomunistická intergenerační traumata), častá komorbidita s chronickými somatickými onemocněními.
+Jmenovány bývají: model TF-CBT, UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
 
-**Komorbidní psychotické spektrum**: technika vyžaduje předchozí psychiatrickou stabilizaci, úzká spolupráce s psychiatrem, redukce konfrontačních elementů, posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
+**Geriatrická populace**: záznam o starém člověku bývá úplnější než jeho vlastní verze a v rozhodování o něm ji převáží; kohortní zkušenost s úředním spisem to zesiluje.
 
-**Komorbidní substance use disorders**: doporučená sekvence — primární léčba závislosti do funkční remise, poté trauma-fokusovaná intervence. Paralelní integrované přístupy (Seeking Safety) jsou alternativou pro pacienty neschopné dosáhnout primární abstinence.
+Při odlišení počínající demence se v záznamech uvádí MoCA.
 
-**Komorbidní borderline personality disorder**: rozšířená stabilizační fáze (nácvik dovedností DBT) předchází trauma expozičním komponentám. Riziko regresivní idealizace/devalvace v terapeutickém vztahu vyžaduje peer-supervizi.
+**Komorbidní psychotické spektrum**: tvrzení o sledování a shromažďování údajů se v tomto obraze potvrzuje samo. Riziko: psychotická dekompenzace pod expozičním tlakem.
 
-**Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; v těhotenství a v poporodním období jsou preferovány sensorimotorické a stabilizační intervence.
+**Komorbidní substance use disorders**: údaj o užívání jednou zapsaný v řetězci přežívá svou platnost a vysvětluje pak všechno ostatní.
+
+Mezi jmenovanými přístupy stojí Seeking Safety.
+
+**Komorbidní borderline personality disorder**: diagnóza v záznamu předchází člověku. Riziko: regresivní idealizace a devalvace v terapeutickém vztahu.
+
+V dokumentaci bývá jmenován nácvik dovedností DBT.
+
+**Gravidita a perinatální období**: záznam z tohoto období se váže i k dítěti a přežívá situaci, o níž vznikl.
 
 ## Intervenční variace
 

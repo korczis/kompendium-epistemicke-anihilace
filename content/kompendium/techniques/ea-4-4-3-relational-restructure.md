@@ -104,19 +104,19 @@ V kompendiu EA popisuje tato technika zásah do vztahové sítě, tedy do té č
 
 ## Vulnerabilní podpopulace
 
-Aplikace techniky **EA-4.4.3** vyžaduje specifickou modifikaci v následujících podpopulacích, kde standardní protokol nese zvýšené iatrogenní riziko:
+Přepsání vztahové sítě odebírá subjektu svědky. Chybí-li nezávislé vazby, nezůstane nikdo, komu by se změna jevila.
 
-**Děti a adolescenti (< 18 let)**: vývojově citlivá adaptace s explicitním zapojením pečující osoby (model TF-CBT), zkrácená sezení proti dospělému standardu, vyšší frekvence stabilizačních prvků, hra a kreativní expresivní techniky jako preferovaný kanál. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). Doporučené nástroje: UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
+**Děti a adolescenti**: dítě si vztahovou síť nevybírá a po jejím přepsání nemá ke komu se obrátit s tím, že se něco změnilo; ztráta vazeb se ukáže jako potíž ve škole. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). Uvedené nástroje a modely: model TF-CBT, UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
 
-**Geriatrická populace (> 65 let)**: kognitivní akomodace (delší pauzy, opakování klíčových konceptů, písemné podpůrné materiály), screening pro early-stage demenci (MoCA), zohlednění kohortně specifické historie (postkomunistická intergenerační traumata), častá komorbidita s chronickými somatickými onemocněními.
+**Geriatrická populace**: vztahová síť je ve vyšším věku řídká a nenahraditelná, její přepsání vypadá jako běžné osamění stáří a kohortní nedůvěra z postkomunistického období brání vyhledání náhradního kontaktu. Uvedený nástroj: MoCA.
 
-**Komorbidní psychotické spektrum**: technika vyžaduje předchozí psychiatrickou stabilizaci, úzká spolupráce s psychiatrem, redukce konfrontačních elementů, posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
+**Komorbidní psychotické spektrum**: blízké osoby zde plní funkci vnější korekce, po přepsání sítě tato korekce chybí a její ztráta se neprojeví hned. Riziko: psychotická dekompenzace pod expozičním tlakem.
 
-**Komorbidní substance use disorders**: doporučená sekvence — primární léčba závislosti do funkční remise, poté trauma-fokusovaná intervence. Paralelní integrované přístupy (Seeking Safety) jsou alternativou pro pacienty neschopné dosáhnout primární abstinence.
+**Komorbidní substance use disorders**: po přepsání sítě zůstávají dostupné především kontakty vázané na užívání, a výsledek se vykazuje jako volba klienta. Uvedený přístup: Seeking Safety.
 
-**Komorbidní borderline personality disorder**: rozšířená stabilizační fáze (nácvik dovedností DBT) předchází trauma expozičním komponentám. Riziko regresivní idealizace/devalvace v terapeutickém vztahu vyžaduje peer-supervizi.
+**Komorbidní borderline personality disorder**: přepsání sítě splyne s jejím vlastním kolísáním, takže se ztráta vazeb zapíše jako důsledek chování klienta. Riziko: regresivní idealizace a devalvace v terapeutickém vztahu. Uvedený postup: nácvik dovedností DBT.
 
-**Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; v těhotenství a v poporodním období jsou preferovány sensorimotorické a stabilizační intervence.
+**Gravidita a perinatální období**: podpora vztahové sítě je zde nejpotřebnější, takže její přepsání dopadá na matku i dítě.
 
 ## Intervenční variace
 

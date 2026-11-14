@@ -102,19 +102,19 @@ Klinický kontext této stránky neurčuje původ metod, ale povaha samotného p
 
 ## Vulnerabilní podpopulace
 
-Aplikace techniky **EA-4.4.9** vyžaduje specifickou modifikaci v následujících podpopulacích, kde standardní protokol nese zvýšené iatrogenní riziko:
+Rekonstrukce narativu rozhoduje, čí verze vlastního života subjektu zůstane. Bez vlastního záznamu zůstane verze vedoucí osoby.
 
-**Děti a adolescenti (< 18 let)**: vývojově citlivá adaptace s explicitním zapojením pečující osoby (model TF-CBT), zkrácená sezení proti dospělému standardu, vyšší frekvence stabilizačních prvků, hra a kreativní expresivní techniky jako preferovaný kanál. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). Doporučené nástroje: UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
+**Děti a adolescenti**: nezletilý o svém životě dosud hotové vyprávění nemá, takže se vnesená verze stává první a není s čím ji porovnat. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). V této souvislosti se uvádějí: model TF-CBT, UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
 
-**Geriatrická populace (> 65 let)**: kognitivní akomodace (delší pauzy, opakování klíčových konceptů, písemné podpůrné materiály), screening pro early-stage demenci (MoCA), zohlednění kohortně specifické historie (postkomunistická intergenerační traumata), častá komorbidita s chronickými somatickými onemocněními.
+**Geriatrická populace**: životní vyprávění je zde hlavní oporou kontinuity a jeho přepsání se jeví jako nepřesnost paměti, přičemž kohortní zkušenost s oficiálními verzemi minulosti zvyšuje ochotu nové verzi ustoupit. Uvádí se nástroj: MoCA.
 
-**Komorbidní psychotické spektrum**: technika vyžaduje předchozí psychiatrickou stabilizaci, úzká spolupráce s psychiatrem, redukce konfrontačních elementů, posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
+**Komorbidní psychotické spektrum**: nabídnutý narativ se může vestavět do bludného obsahu, takže zvenčí není poznat, kde končí rekonstrukce a začíná nové přesvědčení. Riziko: psychotická dekompenzace pod expozičním tlakem.
 
-**Komorbidní substance use disorders**: doporučená sekvence — primární léčba závislosti do funkční remise, poté trauma-fokusovaná intervence. Paralelní integrované přístupy (Seeking Safety) jsou alternativou pro pacienty neschopné dosáhnout primární abstinence.
+**Komorbidní substance use disorders**: nové vyprávění bývá vystavěno kolem abstinence, takže návrat užívání ruší celou verzi sebe samého, nejen jeden symptom. Uvádí se přístup: Seeking Safety.
 
-**Komorbidní borderline personality disorder**: rozšířená stabilizační fáze (nácvik dovedností DBT) předchází trauma expozičním komponentám. Riziko regresivní idealizace/devalvace v terapeutickém vztahu vyžaduje peer-supervizi.
+**Komorbidní borderline personality disorder**: vyprávění o sobě se přepíná s kvalitou vztahu k vedoucí osobě a výsledek se zapíše jako nestabilita identity. Riziko: regresivní idealizace a devalvace v terapeutickém vztahu. Uvádí se postup: nácvik dovedností DBT.
 
-**Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; v těhotenství a v poporodním období jsou preferovány sensorimotorické a stabilizační intervence.
+**Gravidita a perinatální období**: vyprávění o vlastním rodičovství se zde píše poprvé a přepsaná verze se drží dlouho.
 
 ## Intervenční variace
 

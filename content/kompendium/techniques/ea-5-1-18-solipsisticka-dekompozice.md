@@ -105,7 +105,7 @@ Solipsistická dekompozice je **specificky** indukovaná **filozoficky-rétorick
 
 #### 1. Operační realismus
 
-Přijmi pragmatický předpoklad: **svět existuje a je struktura, kterou nelze libovolně přepisovat**. Pravidelně testuj: pokud bys skočil ze střechy, chování těla není funkcí tvé interpretace. Operacionalita kotví vědomí v realitě.
+Oporou je pragmatický předpoklad, že **svět existuje a je struktura, kterou nelze libovolně přepisovat**. Pravidelně testuj: pokud bys skočil ze střechy, chování těla není funkcí tvé interpretace. Operacionalita kotví vědomí v realitě.
 
 #### 2. Embodied praxe
 
@@ -117,7 +117,7 @@ Záměrně investuj do **dlouhodobých blízkých vztahů**. Druhý člověk, kt
 
 #### 4. Závazek vůči konsekvencím
 
-Přijmi **konsekvenční** závazky — péče o dítě, povinnost vůči pacientovi, dluh, profesionální odpovědnost. Tyto závazky **nelze** ignorovat z pozice solipsismu, aniž by reálně zranily reálné lidi.
+Dekompozici vzdorují **konsekvenční** závazky — péče o dítě, povinnost vůči pacientovi, dluh, profesionální odpovědnost. Tyto závazky **nelze** ignorovat z pozice solipsismu, aniž by reálně zranily reálné lidi.
 
 #### 5. Externí klinická intervence
 
@@ -125,7 +125,7 @@ Pokud se objeví derealizace nebo depersonalizace, je na místě psychiatrické 
 
 #### 6. Wittgensteinova praktická terapie
 
-Studuj **§§243-315 Filozofických zkoumání** o privátním jazyce: solipsismus je **gramatickou iluzí**, ne ontologickým objevem. Wittgenstein ukazuje, že **smysluplný jazyk** je strukturálně **veřejný** — solipsistický jazyk je sebezničující.
+Studuj **§§243-315 Filozofických zkoumání** o privátním jazyce: solipsismus je **gramatickou iluzí**, ne ontologickým objevem. Wittgenstein (1953) ukazuje, že **smysluplný jazyk** je strukturálně **veřejný** — solipsistický jazyk je sebezničující.
 
 #### 7. Moorovský důkaz
 
@@ -175,6 +175,10 @@ Doktorand 5 let pracoval na disertaci o „iluzornosti vnějšího světa“. Po
 - **Filozofický idealismus** (Berkeley) — koherentní pozice **s** vazbami na druhé (Bůh garantuje sdílení percepcí)
 - **Buddhistická anatta** — dekompozice **selfu**, ne vnějšího světa; explicitně **soucitná** vůči druhým
 - **Schizoidní osobnostní rys** — primárně afektivní, bez epistemické rétoriky
+
+## Literatura
+
+- Wittgenstein, L. (1953). *Philosophische Untersuchungen* / *Filozofická zkoumání*. Blackwell.
 
 ## Související
 

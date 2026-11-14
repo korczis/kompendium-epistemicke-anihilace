@@ -109,19 +109,19 @@ Operační rekonstrukce v jiném slovníku odhaluje, zda problém **má obsah**,
 
 #### 2. **Strategická prozatímnost**
 
-Přijmi *prozatímní* odpověď na A bez vyřešení B (a opačně). Označ ji explicitně jako pracovní. Pozoruj, zda systém kolabuje, nebo zda umožňuje pokračovat — manipulativní rekurze často kolabuje, autentický problém ne.
+Smyčku rozpojuje *prozatímní* odpověď na A bez vyřešení B (a opačně), explicitně označená jako pracovní. Pozoruj, zda systém kolabuje, nebo zda umožňuje pokračovat — manipulativní rekurze často kolabuje, autentický problém ne.
 
 #### 3. **Strukturální mapování**
 
-Nakresli graf závislostí pojmů, se kterými pracuješ. Cyklus se objeví vizuálně. Po identifikaci cyklu **explicitně přerušuj** jednu z hran rozhodnutím *„toto považuji za externě danou kotvu"*.
+Závislosti mezi pojmy, s nimiž dotčený člověk pracuje, lze vynést do grafu. Cyklus se v něm objeví vizuálně. Po identifikaci cyklu **explicitně přerušuj** jednu z hran rozhodnutím *„toto považuji za externě danou kotvu"*.
 
 #### 4. **Externí epistemická triangulace**
 
-Konzultuj problém s **alespoň třemi** osobami mimo doménu manipulátorova diskursu. Pokud všechny tři spontánně zformulují **operační definice**, které manipulátor odmítá, je to silný indikátor uzavřené smyčky.
+Uzavřenou smyčku odhalí teprve úsudek **alespoň tří** osob mimo doménu manipulátorova diskursu: jediný hlas lze připsat neznalosti, shodu tří nikoli. Pokud všechny tři spontánně zformulují **operační definice**, které manipulátor odmítá, je to silný indikátor uzavřené smyčky.
 
 #### 5. **Časové ohraničení**
 
-Stanov si **explicitní časový limit** pro řešení problému (např. 14 dní). Po vypršení přijmi **nejlepší dostupný kompromis** a postupuj dál. Tento postup je nepřátelský vůči struktuře cyklu, protože cyklus předpokládá neomezený čas.
+Oporou je **explicitní časový limit** pro řešení problému (např. 14 dní). Po vypršení přijmi **nejlepší dostupný kompromis** a postupuj dál. Tento postup je nepřátelský vůči struktuře cyklu, protože cyklus předpokládá neomezený čas.
 
 ### Institucionální
 

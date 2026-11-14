@@ -112,7 +112,7 @@ Hraniční případ: **přechody po závažném traumatu** (těžká nemoc, ztr�
 
 #### 1. **Externí narativní kotva**
 
-Vyhledej **dlouhodobé blízké osoby**, které tě znají *před* začátkem manipulace. Veď s nimi rozhovory o tom, jak tě vnímaly. Zaznamenávej kontinuity, které **oni** vidí mezi tehdejším a současným *tebou*.
+Vyhledej **dlouhodobé blízké osoby**, které tě znají *před* začátkem manipulace. Rozhovory s nimi o tom, jak dotčeného člověka vnímaly, vracejí do hry vnější popis jeho dřívější identity. Zaznamenávej kontinuity, které **oni** vidí mezi tehdejším a současným *tebou*.
 
 #### 2. **Auto-archeologie**
 

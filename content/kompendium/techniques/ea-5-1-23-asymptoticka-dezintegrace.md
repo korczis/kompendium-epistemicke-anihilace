@@ -102,7 +102,7 @@ Pravidelně (čtvrtletně, ročně) zaznamenávej **klíčové pozice** k vybran
 
 #### 2. **Dlouhodobí epistemičtí svědci**
 
-Udržuj kontakt s lidmi, kteří tě znají dlouhodobě a mají **vlastní paměť** tvých dřívějších pozic. Externí svědek zachycuje trajektorii i tehdy, kdy ji vlastní paměť ztrácí.
+Trajektorii drží lidé, kteří dotčeného znají dlouhodobě a mají **vlastní paměť** jeho dřívějších pozic. Externí svědek zachycuje posun i tehdy, kdy jej vlastní paměť zasaženého už ztrácí; bez něj zbývá jen zpětná rekonstrukce, která se posunu přizpůsobuje.
 
 #### 3. **Cvičení v retrospektivě**
 

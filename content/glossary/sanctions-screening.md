@@ -1,382 +1,141 @@
 +++
 title = "Sanctions screening (sankční prověrka)"
 weight = 29
-description = "Automatizované prověřování osob a subjektů proti sankčním seznamům EU, USA, Spojeného království a OSN s neostrým porovnáváním a slučováním entit."
+description = "Prověřování osob a subjektů proti sankčním seznamům EU, OSN, USA a Spojeného království, a proč je shoda jména na seznamu hypotéza, nikoli zjištění."
 
 [taxonomies]
 tags = ["glossary", "compliance", "osint", "due-diligence"]
 
 [extra]
 category = "osint"
-related_terms = ["osint", "intelligence-fusion", "nis2", "entity-resolution", "security-rating", "threat-intelligence", "compliance-framework", "gdpr"]
-keywords = ["sanctions screening automation", "OFAC SDN list checking", "EU sanctions compliance", "fuzzy name matching", "entity resolution deduplication", "AML KYC screening", "sanctions list management", "PEP screening", "Elixir parallel screening", "regulatory compliance automation"]
-platform_integration = "deep"
-related_app = "prismatic_intel"
-complexity = "advanced"
-audience = ["compliance-officers", "risk-analysts", "osint-investigators", "security-engineers"]
-date_created = "2026-02-22"
-version = "2.0.0"
-requires_knowledge = ["osint", "entity-resolution", "elixir"]
-prismatic_components = ["SanctionsScreening", "ListManager", "FuzzyMatcher", "EntityResolver", "ResultAggregator"]
-supported_lists = ["EU Consolidated", "OFAC SDN", "OFSI", "UN Consolidated"]
-matching_algorithms = ["exact", "soundex", "levenshtein", "jaro-winkler", "n-gram", "token-based"]
-screening_threshold = 0.85
-enforcement_level = "P1"
-compliance_frameworks = ["NIS2", "AML5D", "OFAC", "EU Sanctions Regulation"]
+aliases = ["sankční prověrka", "sankční prověrky", "sankčních prověrek"]
+related_terms = ["osint", "intelligence-fusion", "entity-resolution", "compliance-framework", "due-diligence", "risk-score"]
+keywords = ["sankční prověrka", "sanctions screening", "sankční seznamy", "restriktivní opatření", "OFAC", "FATF", "porovnávání jmen", "falešně pozitivní shoda"]
 author = "Tomas Korcak (korczis)"
-date_modified = "2026-11-10"
-see_also = ["capabilities", "architecture", "agents"]
-image = "/images/sections/glossary.png"
-image_alt = "Sanctions screening (sankční prověrka) – glosář"
+date_created = "2026-02-22"
+date_modified = "2026-11-14"
 +++
 
-## Definice a přehled
+## Definice
 
-Sankční prověrka (*sanctions screening*) je regulatorní proces systematického porovnávání
-fyzických osob, organizací, plavidel, adres a dalších subjektů s oficiálními sankčními seznamy,
-které vedou státní a nadnárodní orgány. Hlavními seznamy jsou konsolidovaný sankční seznam
-Evropské unie, seznam SDN (*Specially Designated Nationals*) amerického úřadu OFAC (*Office of
-Foreign Assets Control*), seznam britského úřadu OFSI (*Office of Financial Sanctions
-Implementation*) a konsolidovaný seznam Rady bezpečnosti OSN. Proces identifikuje sankcionované
-subjekty, politicky exponované osoby (PEP) a subjekty podléhající restriktivním opatřením,
-včetně zmrazení majetku, zákazů cestování, zbrojních embarg a obchodních omezení.
+**Sankční prověrka** (*sanctions screening*) je proces, v němž se fyzické osoby, organizace, plavidla a
+další subjekty porovnávají s oficiálními sankčními seznamy, které vedou státní a nadnárodní orgány. Mezi
+hlavní seznamy patří konsolidovaný seznam osob a subjektů podléhajících restriktivním opatřením Evropské
+unie, konsolidovaný seznam Rady bezpečnosti OSN, seznam SDN amerického úřadu OFAC a seznam britského úřadu
+OFSI. Mezinárodní standard pro tuto povinnost stanovují doporučení Finančního akčního výboru, která po
+státech požadují, aby uplatňovaly cílené finanční sankce bez prodlení (FATF, 2012).
 
-Sankční prověrka stojí na průsečíku regulatorního souladu, prevence finanční kriminality
-a národní bezpečnosti. Organizace, na něž se sankční předpisy vztahují – finanční instituce,
-pojišťovny, zprostředkovatelé obchodu a stále častěji i technologické firmy –, musí před
-navázáním obchodního vztahu nebo zpracováním platby prověřit protistrany, zákazníky, skutečné
-majitele a transakce proti příslušným seznamům. Nesplnění povinností přináší přísné sankce
-včetně trestního stíhání, vysokých pokut (u závažných porušení v řádu miliard dolarů)
-a poškození pověsti. V České republice provádění mezinárodních sankcí upravuje zákon
-č. 69/2006 Sb., o provádění mezinárodních sankcí.
+Sankční prověrka je povinností těch, na něž se sankční předpisy vztahují, zejména finančních institucí a
+dalších povinných osob, které musí před navázáním obchodního vztahu nebo provedením platby prověřit
+protistrany, zákazníky a jejich skutečné majitele. V České republice provádění mezinárodních sankcí
+upravuje zákon č. 69/2006 Sb., o provádění mezinárodních sankcí, a sankce Evropské unie se uplatňují
+přímo použitelnými nařízeními Rady, jako je nařízení Rady (EU) č. 269/2014 o omezujících opatřeních.
 
-Prismatic Platform implementuje sankční prověrku jako integrovanou součást své pipeline
-[OSINT](@/glossary/osint.md) a [fúze zpravodajských informací](@/glossary/intelligence-fusion.md)
-a využívá model souběžnosti Elixiru k paralelní prověrce proti více seznamům s odezvou pod
-sekundu. Výsledky prověrek vstupují přímo do [bezpečnostních
-hodnocení](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/)
-a [posouzení souladu](@/glossary/compliance-framework.md) a dávají jednotný pohled na riziko
-subjektu v regulatorní, bezpečnostní i provozní dimenzi.
+## Původ a kontext pojmu
 
-Pro Kompendium je sankční prověrka pojmem z kontextu platformy. Kniha se jí dotýká tam, kde
-rozhoduje o lidech: shoda jména na seznamu je hypotéza, ne zjištění, a neopatrné závěry mohou
-poškodit nevinné osoby se stejným nebo podobným jménem (viz [EA × OSINT: Sankční seznamy
-a atribuční bias](@/kompendium/cross-domain/4-ea-osint-sanctions-list-bias.md)).
+Ekonomické sankce mají dlouhé dějiny. Hufbauer a kolegové (2007) je sledují od sankcí Společnosti národů
+proti Itálii v roce 1935 přes rozsáhlá obchodní embarga studené války a ukazují, že plošné sankce proti celým
+státům často dopadaly na obyvatelstvo, aniž by změnily jednání vlád. Z této zkušenosti vznikl posun k cíleným
+sankcím, které míří na konkrétní osoby a subjekty, a s ním i potřeba tyto osoby spolehlivě poznat.
 
-## Historický kontext a regulatorní prostředí
+Drezner (2011) popisuje, že cílené, takzvaně „chytré“ sankce se staly převažujícím nástrojem po roce 2000,
+zejména v boji proti financování terorismu, a že jejich účinnost závisí na tom, zda je lze přesně uplatnit
+na označené osoby. Doporučení FATF (2012) tento posun promítla do povinností pro finanční systém: povinné
+osoby musí zmrazit majetek označených osob a zajistit, že jim nebudou zpřístupněny žádné prostředky.
 
-Moderní sankční režim má kořeny v americkém zákoně *Trading with the Enemy Act* z roku 1917
-a v sankcích Společnosti národů proti Itálii v roce 1935. Sankční prostředí v dnešní podobě však
-vzniklo hlavně po útocích z 11. září 2001, kdy byl globální finanční systém mobilizován jako
-zbraň proti financování terorismu. Zákon *USA PATRIOT Act* z roku 2001 výrazně rozšířil
-pravomoci OFAC a rozsah povinností finančních institucí v oblasti sankčního souladu.
+## Jak se projevuje
 
-V Evropě vyvinula Evropská unie vlastní sankční rámec prostřednictvím rozhodnutí v rámci
-společné zahraniční a bezpečnostní politiky (SZBP), prováděných nařízeními Rady, která jsou
-přímo použitelná ve všech členských státech. Sankční prostředí EU se dramaticky zkomplikovalo
-po ruské anexi Krymu v roce 2014 a po plnohodnotné invazi na Ukrajinu v roce 2022, která vyvolala
-nejrozsáhlejší sankční balíčky v dějinách EU – více než deset po sobě jdoucích balíčků
-s tisíci individuálních označení osob a subjektů.
+V praxi se sankční prověrka projevuje jako kontrola při vstupu do vztahu a při každé transakci. Povinná
+osoba porovná údaje o zákazníkovi a o protistraně se seznamy, a pokud se objeví možná shoda, předá ji k
+přezkumu, který rozhodne, zda jde o tutéž osobu (FATF, 2012). Výsledkem je buď uvolnění, nebo zmrazení a
+oznámení příslušnému orgánu podle zákona č. 69/2006 Sb., o provádění mezinárodních sankcí.
 
-Odchod Spojeného království z EU vytvořil třetí velký sankční režim; jeho právním základem je
-zákon *Sanctions and Anti-Money Laundering Act 2018* a vymáhání finančních sankcí má na starosti
-OFSI při britském ministerstvu financí. Rada bezpečnosti OSN vede vlastní konsolidovaný seznam,
-který jsou členské státy povinny provádět, ale který se rozsahem a výkladem může od národních
-provedení lišit.
+Prověrka se opakuje i v průběhu vztahu, protože seznamy se mění: přibývají nová označení a některá jsou
+zrušena. Hufbauer a kolegové (2007) upozorňují, že sankční režimy se v čase rozšiřují a proměňují podle
+politické situace, a prověrka, která byla správná při vstupu, proto nemusí platit později.
 
-Tato víceúrovňová složitost napříč jurisdikcemi je základní technickou výzvou sankční prověrky.
-Subjekt může být sankcionován jedním orgánem, a jiným ne, nebo sankcionován v různých programech
-s různými omezeními. Prismatic Platform to řeší paralelní prověrkou proti všem hlavním seznamům
-a konsolidovaným posouzením rizika, které zohledňuje konkrétní regulatorní povinnosti
-prověřující organizace.
+## Mechanismus
 
-## Technický rozbor
+Jádrem prověrky je porovnávání jmen a dalších identifikátorů, které je obtížnější, než se zdá. Christen
+(2012) ukazuje, že jména se v různých zdrojích zapisují různě: liší se přepis z jiného písma, pořadí jmen,
+zkratky, překlepy i úplnost údajů, a přesná shoda proto mnoho skutečných shod přehlédne. Systémy proto
+používají neostré porovnávání, které počítá s podobností zápisu.
 
-### Algoritmy porovnávání
+Neostré porovnávání však vede k nevyhnutelné volbě mezi dvěma druhy chyb. Čím volněji se shoda posuzuje,
+tím méně skutečných shod unikne, ale tím více nevinných osob s podobným jménem se označí jako možná shoda,
+a naopak (Christen, 2012). *Interpretace knihy*: tato volba není technickou podrobností, ale rozhodnutím o
+tom, kolik nevinných lidí ponese důsledky podezření, a nemá se činit bez lidského přezkumu.
 
-Systémy sankční prověrky kombinují více strategií porovnávání, aby maximalizovaly záchyt
-a zároveň udržely míru falešně pozitivních shod pod kontrolou:
+## Odlišení
 
-| Algoritmus | Přístup | Silná stránka | Slabina | Váha v Prismatic |
-|-----------|----------|----------|----------|-----------------|
-| **Přesná shoda** | porovnání znak po znaku | nula falešně pozitivních | mine jakoukoli variantu | 1,0 |
-| **Soundex/Metaphone** | porovnání fonetického kódu | zachytí výslovnostní varianty | jazykově specifické, vysoká míra FP | 0,6 |
-| **Levenshteinova vzdálenost** | editační vzdálenost řetězců | zachytí překlepy a drobné odchylky | výpočetně náročné | 0,8 |
-| **Jaro-Winkler** | vážené transpozice znaků | dobré pro porovnávání jmen | citlivé na rozdíly délky | 0,85 |
-| **N-gramy** | míra překryvu podřetězců | jazykově nezávislé | vysoká míra falešně pozitivních | 0,7 |
-| **Tokenové** | porovnání slov s přeskupením | zvládá různé pořadí jmen | mine částečné shody jmen | 0,75 |
+| Odlišit od | Rozdíl |
+| --- | --- |
+| Prověrka politicky exponovaných osob | zjišťuje zvýšené riziko korupce u osob ve veřejných funkcích; neznamená, že by osoba byla sankcionována |
+| Prověrka negativních zpráv | hledá v médiích informace o možném nekalém jednání; nejde o úřední seznam |
+| [Entity resolution](@/glossary/entity-resolution.md) | obecná technika rozhodování, zda dva záznamy popisují tutéž entitu, na níž sankční prověrka stojí |
+| [Due diligence](@/glossary/due-diligence.md) | širší prověrka protistrany, jejíž je sankční prověrka jednou částí |
 
-Produkční systémy obvykle kombinují více algoritmů ve skórovací pipeline, v níž každý algoritmus
-přispívá váženým skóre do složené důvěry shody. Shody nad nastavitelným prahem (ve výchozí
-konfiguraci Prismatic Platform 0,85) se označí k lidskému přezkumu, jasné neshody projdou
-automaticky.
+## Význam pro Kompendium
 
-### Pipeline normalizace jmen
+V Kompendiu se sankční prověrka objevuje tam, kde rozhoduje o lidech. Stránka [sankční seznamy a atribuční
+bias](@/kompendium/cross-domain/4-ea-osint-sanctions-list-bias.md) ukazuje, že shoda jména na seznamu je
+hypotéza, nikoli zjištění, a že neopatrné závěry mohou poškodit osoby se stejným nebo podobným jménem.
+*Interpretace knihy*: tento závěr vyplývá přímo z povahy neostrého porovnávání, které podle Christena
+(2012) vždy vyvažuje přehlédnuté shody proti chybně označeným osobám.
 
-Před porovnáním procházejí jména subjektů normalizační pipeline, která řeší běžné varianty:
+Druhé užití se týká prověřování spolupracovníků a dodavatelů. Stránka o [prověrce
+dodavatelů](@/kompendium/organizational-defense/26-contractor-vetting.md) zařazuje sankční prověrku mezi
+kroky prověrky protistrany. *Interpretace knihy*: kniha ji uvádí jako ochranu instituce, která však musí
+respektovat práva prověřovaných osob, jak je popisuje následující oddíl.
 
-```elixir
-defmodule PrismaticIntel.SanctionsScreening.NameNormalizer do
-  @moduledoc """
-  Normalizes entity names before sanctions matching to improve
-  detection rates. Handles transliteration, honorific removal,
-  script conversion, and cultural naming pattern normalization.
-  """
+## Obrana a zotavení
 
-  @spec normalize(String.t()) :: {:ok, list(String.t())} | {:error, term()}
-  def normalize(name) when is_binary(name) do
-    variants =
-      name
-      |> String.trim()
-      |> generate_variants()
-      |> Enum.map(&apply_normalizations/1)
-      |> Enum.uniq()
+Pro osobu, která byla chybně označena jako možná shoda, je podstatné vědět, že rozhodnutí o ní nemá stát
+jen na automatickém porovnání. Obecné nařízení o ochraně osobních údajů, nařízení (EU) 2016/679, dává
+subjektu údajů právo na přístup k údajům, které o něm správce zpracovává (čl. 15), a právo nebýt předmětem
+rozhodnutí založeného výhradně na automatizovaném zpracování, které má pro něj právní účinky (čl. 22).
 
-    {:ok, variants}
-  end
+Osoba, která je na sankčním seznamu sama uvedena, má právo zápis napadnout. Soudní dvůr Evropské unie ve
+věci *Kadi* rozhodl, že i opatření přijatá k provedení rezolucí Rady bezpečnosti OSN podléhají soudnímu
+přezkumu z hlediska základních práv, včetně práva na obhajobu a na účinnou soudní ochranu (Soudní dvůr EU,
+2008). *Interpretace knihy*: konkrétní postup v takové věci náleží advokátovi a příslušným orgánům.
 
-  defp generate_variants(name) do
-    [
-      name,
-      remove_honorifics(name),
-      remove_diacritics(name),
-      transliterate(name),
-      reverse_name_order(name)
-    ]
-    |> Enum.reject(&is_nil/1)
-  end
+## Meze pojmu a kritika
 
-  defp apply_normalizations(name) do
-    name
-    |> String.downcase()
-    |> String.replace(~r/[^\p{L}\p{N}\s]/u, "")
-    |> String.replace(~r/\s+/, " ")
-    |> String.trim()
-  end
+Cílené sankce jsou kritizovány za to, že zapisují osoby na seznamy v řízení, které jim neumožňuje se
+bránit. Drezner (2011) upozorňuje, že přechod od plošných k cíleným sankcím přenesl tíhu z celých populací
+na jednotlivce, ale zároveň zvýšil význam správnosti každého označení, a rozsudek ve věci *Kadi* ukázal, že
+tato správnost musí být soudně přezkoumatelná (Soudní dvůr EU, 2008).
 
-  defp remove_honorifics(name) do
-    honorifics = ~w(mr mrs ms dr prof sir dame lord lady haj sheikh)
-    words = String.split(name, " ")
-    filtered = Enum.reject(words, fn w -> String.downcase(w) in honorifics end)
-    Enum.join(filtered, " ")
-  end
+Druhou mezí je samotné porovnávání. Žádné nastavení neostrého porovnávání neodstraní obě chyby zároveň, a
+výsledek prověrky je proto vždy podkladem k lidskému posouzení, nikoli rozhodnutím (Christen, 2012).
 
-  defp remove_diacritics(name) do
-    name
-    |> :unicode.characters_to_nfd_binary()
-    |> String.replace(~r/[\x{0300}-\x{036f}]/u, "")
-  end
+## Literatura
 
-  defp transliterate(name), do: name
-  defp reverse_name_order(name) do
-    parts = String.split(name, " ", trim: true)
-    if length(parts) >= 2, do: Enum.join(Enum.reverse(parts), " "), else: nil
-  end
-end
-```
-
-### Správa a příjem seznamů
-
-Sankční seznamy se zveřejňují v různých formátech (XML, CSV, PDF, JSON) s různou frekvencí
-aktualizací a různými schématy. ListManager platformy převádí tyto různorodé zdroje do
-jednotného interního formátu:
-
-| Seznam | Orgán | Frekvence aktualizace | Formát | Položky (přibližně, v době zápisu) |
-|------|-----------|-----------------|--------|------------------|
-| **EU konsolidovaný** | Evropská komise | denně | XML | 10 000+ |
-| **OFAC SDN** | ministerstvo financí USA | několikrát týdně | XML, CSV, PDF | 12 000+ |
-| **OFSI** | ministerstvo financí Spojeného království | týdně | CSV, XML | 4 000+ |
-| **OSN konsolidovaný** | Rada bezpečnosti OSN | dle potřeby | XML | 800+ |
-| **Seznamy PEP** | různí poskytovatelé | měsíčně | proprietární | 1 000 000+ |
-
-```elixir
-defmodule PrismaticIntel.SanctionsScreening.ListManager do
-  @moduledoc """
-  Manages sanctions list ingestion, normalization, and caching.
-  Lists are fetched from authoritative sources, parsed into a
-  unified schema, and cached in ETS for sub-millisecond lookup.
-  Automatic refresh ensures lists are never stale beyond the
-  configured maximum age.
-  """
-
-  use GenServer
-
-  @type list_entry :: %{
-    id: String.t(),
-    source_list: atom(),
-    names: list(String.t()),
-    aliases: list(String.t()),
-    date_of_birth: Date.t() | nil,
-    nationalities: list(String.t()),
-    entry_type: :individual | :entity | :vessel | :aircraft,
-    sanctions_programs: list(String.t()),
-    designation_date: Date.t(),
-    last_updated: DateTime.t()
-  }
-
-  @spec start_link(keyword()) :: GenServer.on_start()
-  def start_link(opts) do
-    GenServer.start_link(__MODULE__, opts, name: __MODULE__)
-  end
-
-  @impl true
-  def init(opts) do
-    table = :ets.new(:sanctions_lists, [:set, :public, read_concurrency: true])
-    schedule_refresh(Keyword.get(opts, :refresh_interval, :timer.hours(1)))
-    {:ok, %{table: table, last_refresh: nil}, {:continue, :initial_load}}
-  end
-
-  @impl true
-  def handle_continue(:initial_load, state) do
-    load_all_lists(state.table)
-    {:noreply, %{state | last_refresh: DateTime.utc_now()}}
-  end
-
-  @spec get_entries(atom()) :: [list_entry()]
-  def get_entries(list_name) do
-    :ets.match_object(:sanctions_lists, {list_name, :_})
-    |> Enum.map(fn {_list, entry} -> entry end)
-  end
-
-  defp load_all_lists(table) do
-    [:eu_consolidated, :ofac_sdn, :ofsi, :un_consolidated]
-    |> Task.async_stream(&fetch_and_parse/1, max_concurrency: 4, timeout: 60_000)
-    |> Enum.each(fn {:ok, {list_name, entries}} ->
-      Enum.each(entries, fn entry ->
-        :ets.insert(table, {list_name, entry})
-      end)
-    end)
-  end
-
-  defp fetch_and_parse(list_name) do
-    # Fetch from authoritative source and parse into unified schema
-    {list_name, []}
-  end
-
-  defp schedule_refresh(interval) do
-    Process.send_after(self(), :refresh, interval)
-  end
-end
-```
-
-## Srovnání s alternativami
-
-| Přístup | Pokrytí | Rychlost | Přesnost | Náklady |
-|----------|----------|-------|----------|------|
-| **Vlastní prověrka** | přizpůsobitelné | rychlá (lokálně) | závisí na implementaci | vývoj + údržba |
-| **Komerční SaaS** (Dow Jones, Refinitiv) | úplné + PEP | latence API | vysoká (vyladěné modely) | cena za dotaz |
-| **Bureau van Dijk / Moody's** | zaměření na finance | střední | velmi vysoká | podniková licence |
-| **Jen otevřené seznamy** | jen vládní seznamy | rychlá | omezená (bez PEP) | zdarma (seznamy) + vývoj |
-| **Integrace v Prismatic** | více seznamů + obohacení z OSINT | paralelní, pod sekundu | vysoká (neostré porovnání + slučování) | součást platformy |
-
-Komerční poskytovatelé prověrek nabízejí širší pokrytí dat (zejména databáze PEP, negativní
-mediální zmínky a vlastnické struktury firem), ale přinášejí závislost na API, náklady za dotaz
-a otázky umístění dat. Vlastní prověrka dává plnou kontrolu a odstraňuje náklady za dotaz, ale
-vyžaduje významné investice do správy seznamů, vývoje porovnávacích algoritmů a průběžné údržby.
-
-## Auditní stopa a dokumentace souladu
-
-Každá operace prověrky vytváří neměnný auditní záznam, který dokumentuje parametry prověrky,
-výsledky a rozhodnutí:
-
-```elixir
-defmodule PrismaticIntel.SanctionsScreening.AuditLogger do
-  @moduledoc """
-  Records immutable audit logs for all sanctions screening operations.
-  Required by regulatory frameworks for compliance evidence.
-  Records are retained for the configured period (minimum 5 years).
-  """
-
-  @spec log_screening(screening_result(), keyword()) :: {:ok, String.t()} | {:error, term()}
-  def log_screening(result, opts \\ []) do
-    audit_record = %{
-      screening_id: result.screening_id,
-      entity_screened: result.entity,
-      lists_checked: result.lists_checked,
-      match_count: length(result.matches),
-      risk_level: result.risk_level,
-      confidence: result.confidence,
-      screened_at: result.checked_at,
-      screened_by: Keyword.get(opts, :operator, "system"),
-      disposition: Keyword.get(opts, :disposition, :pending_review),
-      disposition_reason: Keyword.get(opts, :reason),
-      retention_until: Date.add(Date.utc_today(), 365 * 7)
-    }
-
-    {:ok, audit_record.screening_id}
-  end
-end
-```
-
-## Osvědčené postupy
-
-1. **Kalibrovat prahy shody podle ochoty nést riziko.** Příliš nízké prahy vytvářejí zahlcující
-   množství falešně pozitivních shod, příliš vysoké hrozí přehlédnutím skutečných shod. Začít na
-   0,85 a upravovat podle provozní zkušenosti a regulatorních pokynů.
-2. **Aktualizace seznamů uplatňovat neprodleně.** Sankční označení nabývají účinnosti okamžitě po
-   zveřejnění. Automatizované pipeline příjmu s ověřením integrity mají aktualizace zpracovat do
-   několika hodin od zveřejnění.
-3. **Dokumentovat všechna rozhodnutí z prověrek.** Regulátoři očekávají úplné auditní stopy, které
-   dokládají důkladný přezkum shod, zdokumentované zdůvodnění rozhodnutí a uchování záznamů po
-   dobu 5–7 let.
-4. **Prověřovat průběžně, ne jen při navázání vztahu.** Dávková opakovaná prověrka existujících
-   vztahů při každé aktualizaci seznamů zachytí subjekty označené až po úvodním schválení.
-5. **Kombinovat více algoritmů porovnávání.** Žádný jednotlivý algoritmus nezachytí všechny typy
-   variant. Víceúrovňová skórovací pipeline platformy pokrývá transliteraci, fonetickou
-   podobnost i typografické odchylky.
-6. **Slučovat entity napříč seznamy.** Tentýž sankcionovaný subjekt uvedený na více seznamech pod
-   různými variantami jména je třeba sloučit do jediného záznamu, aby bylo posouzení rizika
-   přesné (viz [Entity Resolution](@/glossary/entity-resolution.md)).
-
-## Časté chyby
-
-- **Prověrka proti zastaralým seznamům**: používání starých verzí seznamů vytváří mezery v souladu.
-  Zavést automatickou obnovu s výstrahami při zastarání.
-- **Přílišné spoléhání na přesnou shodu**: přesná shoda mine prakticky všechny pokusy o obcházení.
-  Neostré porovnávání je pro smysluplnou detekci povinné.
-- **Přehlížení aliasů a transliteračních variant**: sankcionované subjekty používají aliasy,
-  transliterace a záměrné zamlžování. Normalizace a generování variant jsou nezbytnými kroky
-  předzpracování.
-- **Nezohlednění rozdílů písma**: arabská, cyrilská a čínská jména mají více platných přepisů do
-  latinky. Porovnávání napříč písmy vyžaduje specializovanou práci s transliterací.
-- **Brát prověrku jako jednorázovou kontrolu**: sankční seznamy se průběžně aktualizují. Průběžné
-  monitorování je regulatorním očekáváním, ne volitelným vylepšením.
-- **Zaměnit shodu jména s identitou**: každou shodu nad prahem musí potvrdit další
-  identifikátory (datum narození, státní příslušnost, adresa, registrační čísla) – jinak hrozí
-  újma osobám se shodným jménem.
+- Christen, P. (2012). *Data Matching: Concepts and Techniques for Record Linkage, Entity Resolution, and Duplicate Detection*. Berlin: Springer.
+- Drezner, D. W. (2011). *Sanctions sometimes smart: Targeted sanctions in theory and practice*. International Studies Review, 13(1).
+- FATF. (2012). *International Standards on Combating Money Laundering and the Financing of Terrorism & Proliferation: The FATF Recommendations*. Paris: FATF.
+- Hufbauer, G. C., Schott, J. J., Elliott, K. A., & Oegg, B. (2007). *Economic Sanctions Reconsidered* (3rd ed.). Washington, DC: Peterson Institute for International Economics.
+- Nařízení Rady (EU) č. 269/2014 o omezujících opatřeních vzhledem k činnostem narušujícím nebo ohrožujícím územní celistvost, svrchovanost a nezávislost Ukrajiny.
+- Nařízení Evropského parlamentu a Rady (EU) 2016/679 (obecné nařízení o ochraně osobních údajů).
+- Soudní dvůr EU. (2008). *Kadi a Al Barakaat International Foundation v. Rada a Komise*, spojené věci C-402/05 P a C-415/05 P.
+- Zákon č. 69/2006 Sb., o provádění mezinárodních sankcí.
 
 ## Související
 
-**Pojmy v tomto glosáři**
+**Glosář**
 
 - [OSINT](@/glossary/osint.md) – metodika přístupu k veřejným sankčním datům.
-- [Intelligence Fusion](@/glossary/intelligence-fusion.md) – korelace výsledků prověrek z více
-  zdrojů.
-- [Entity Resolution](@/glossary/entity-resolution.md) – technologie deduplikace, na níž stojí
-  přesnost prověrky.
-- [Compliance Framework](@/glossary/compliance-framework.md) – regulatorní požadavky, z nichž
-  povinnost prověrky plyne.
+- [Intelligence Fusion](@/glossary/intelligence-fusion.md) – korelace výsledků prověrek z více zdrojů.
+- [Entity Resolution](@/glossary/entity-resolution.md) – technika, na níž stojí přesnost prověrky.
+- [Compliance Framework](@/glossary/compliance-framework.md) – regulatorní požadavky, z nichž povinnost prověrky plyne.
 - [Due Diligence](@/glossary/due-diligence.md) – hlavní kontext užití.
 - [Risk Score](@/glossary/risk-score.md) – skórování rizik, do něhož výsledky vstupují.
 
-**Hesla a přehledy platformy mimo tuto knihu**
+**Kompendium**
 
-- [NIS2](https://prismatic-reality-com.github.io/prismatic-promo/glossary/nis2/),
-  [Security Rating](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/),
-  [Threat Intelligence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/threat-intelligence/),
-  [Audit Trail](https://prismatic-reality-com.github.io/prismatic-promo/glossary/audit-trail/),
-  [SDN List](https://prismatic-reality-com.github.io/prismatic-promo/glossary/sdn-list/).
-- [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/),
-  [Technologie](https://prismatic-reality-com.github.io/prismatic-promo/technologies/),
-  [Aplikace](https://prismatic-reality-com.github.io/prismatic-promo/apps/).
-
-**Kniha**
-
-- [EA × OSINT: Sankční seznamy a atribuční bias](@/kompendium/cross-domain/4-ea-osint-sanctions-list-bias.md) –
-  zkreslení při práci se sankčními daty.
-  regulatorní prověrka v detekci EA.
-
----
+- [Sankční seznamy a atribuční bias](@/kompendium/cross-domain/4-ea-osint-sanctions-list-bias.md) – shoda jména jako hypotéza.
+- [Prověrka dodavatelů](@/kompendium/organizational-defense/26-contractor-vetting.md) – sankční prověrka v prověrce protistrany.
 
 ## Autor a zapojení
 

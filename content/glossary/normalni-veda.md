@@ -24,13 +24,13 @@ Kuhnovo pojetí vyvolalo rozsáhlou debatu, zejména se zastánci falsifikacioni
 
 ## Jak se projevuje
 
-Znaky normální vědy v oboru:
+Normální vědu v oboru poznáme podle několika rysů, které popsal Kuhn (1962). Učebnice představují obor jako
+uzavřený soubor výsledků a vzorových úloh, výzkum se zaměřuje na „hádanky“, o nichž se předpokládá, že mají
+v rámci paradigmatu řešení, a vědecké společenství sdílí kritéria toho, co je dobrý problém a dobré řešení.
 
-- učebnice představují obor jako uzavřený soubor výsledků a vzorových úloh;
-- výzkum se zaměřuje na otázky, o nichž se předpokládá, že mají v rámci paradigmatu řešení;
-- neúspěch při řešení se přičítá spíš badateli nebo přístrojům než paradigmatu;
-- anomálie se nejprve odkládají, přehlížejí nebo se vysvětlují úpravami;
-- vědecké společenství sdílí kritéria toho, co je dobrý problém a dobré řešení.
+Kuhn (1962) také ukazuje, jak normální věda zachází s neúspěchem: selhání při řešení hádanky se přičítá spíš
+badateli nebo přístrojům než paradigmatu, a anomálie se nejprve odkládají, přehlížejí nebo se vysvětlují
+úpravami, dokud se nenahromadí v krizi.
 
 ## Mechanismus
 
@@ -40,10 +40,12 @@ Pro Kompendium je tato struktura důležitá dvojím způsobem. Za prvé vysvět
 
 ## Odlišení
 
-- **Paradigmatický posun** je přechod mezi paradigmaty; normální věda je práce uvnitř jednoho z nich.
-- **Dogmatismus** odmítá kritiku principiálně; normální věda ji odkládá, ale nechává otevřenou cestu ke krizi.
-- **[Pseudověda](@/glossary/pseudoscience.md)** napodobuje formu vědy bez řešení hádanek, které by mohla selhat; Kuhn sám uváděl, že pro demarkaci je důležitá právě tradice řešení hádanek (viz [demarkační problém](@/glossary/demarkacni-problem.md)).
-- **Lakatosův degenerující program** je pojem pro situaci, kdy úpravy jen zachraňují teorii a nic nového nepředpovídají.
+| Odlišit od | Rozdíl |
+| --- | --- |
+| Paradigmatický posun | přechod mezi paradigmaty; normální věda je práce uvnitř jednoho z nich |
+| Dogmatismus | odmítá kritiku principiálně; normální věda ji odkládá, ale nechává otevřenou cestu ke krizi |
+| [Pseudověda](@/glossary/pseudoscience.md) | napodobuje formu vědy bez řešení hádanek, které by mohla selhat; Kuhn uváděl, že pro demarkaci je důležitá právě tradice řešení hádanek (viz [demarkační problém](@/glossary/demarkacni-problem.md)) |
+| Lakatosův degenerující program | situace, kdy úpravy jen zachraňují teorii a nic nového nepředpovídají |
 
 ## Význam pro Kompendium
 

@@ -26,13 +26,17 @@ S pojmem jazykové hry souvisí Wittgensteinovy úvahy o **sledování pravidla*
 
 ## Jak se projevuje
 
-Pojem pomáhá rozpoznat situace, kdy se komunikace rozpadá nebo je zneužita na úrovni pravidel:
+Pojem pomáhá rozpoznat situace, kdy se komunikace rozpadá nebo je zneužita na úrovni pravidel. Wittgenstein
+(1953) zdůrazňuje mnohost jazykových her, k nimž patří tvrzení, žert i otázka, a z toho plyne, že tatáž
+slova mohou patřit do různých her a jedna strana mezi nimi může bez upozornění přepínat, například mezi
+doslovným tvrzením a výmluvou „to byl jen vtip“. Wittgenstein (1953) výslovně připouští i hry, jejichž
+pravidla se mění za pochodu; pro Kompendium je podstatné, kdy se tak děje vždy v neprospěch jedné strany.
 
-- tatáž slova se používají v různých hrách a jedna strana mezi nimi bez upozornění přepíná (např. mezi doslovným tvrzením a „to byl jen vtip“);
-- pravidla rozhovoru se mění průběžně a vždy v neprospěch jedné strany;
-- slovo, které mělo ustálené užití, dostane ve skupině nový, vnitřní význam (viz [loading the language](@/glossary/loading-the-language.md));
-- člověk ztrácí jistotu, „jakou hru se hraje“ – zda jde o hádku, terapii, zkoušku nebo test loajality;
-- vnější posluchač výpovědi rozumí jinak než člen skupiny, protože slova patří do jiné formy života.
+Protože význam slova je podle Wittgensteina (1953) jeho užitím, může slovo s ustáleným užitím dostat ve
+skupině nový, vnitřní význam (srov. [loading the language](@/glossary/loading-the-language.md)), a člověk
+pak ztrácí jistotu, jakou hru se vůbec hraje, zda jde o hádku, terapii, zkoušku nebo test loajality.
+Porozumění podle Wittgensteina (1953) předpokládá shodu ve formě života, a proto vnější posluchač výpovědi
+rozumí jinak než člen skupiny.
 
 ## Mechanismus
 
@@ -42,10 +46,12 @@ Wittgensteinův argument proti soukromému jazyku má pro Kompendium i obranný 
 
 ## Odlišení
 
-- **[Performativní akt](@/glossary/performativni-akt.md)** (Austin) zkoumá, jak výpověď jedná; jazyková hra je širší rámec praxe, v němž se jedná.
-- **[Diskursivní formace](@/glossary/diskursivni-formace.md)** (Foucault) se ptá po historických a mocenských pravidlech výpovědí; Wittgenstein po pravidlech užití v každodenní praxi.
-- **[Pragmatická kompetence](@/glossary/pragmaticka-kompetence.md)** je lingvistický a vývojový pojem schopnosti užívat jazyk v kontextu; jazyková hra je filozofický rámec, který takovou schopnost předpokládá.
-- **Žargon** je specializovaný slovník; jazyková hra zahrnuje i pravidla jednání, nejen slova.
+| Odlišit od | Rozdíl |
+| --- | --- |
+| [Performativní akt](@/glossary/performativni-akt.md) (Austin) | zkoumá, jak výpověď jedná; jazyková hra je širší rámec praxe, v němž se jedná |
+| [Diskursivní formace](@/glossary/diskursivni-formace.md) (Foucault) | ptá se po historických a mocenských pravidlech výpovědí; Wittgenstein po pravidlech užití v každodenní praxi |
+| [Pragmatická kompetence](@/glossary/pragmaticka-kompetence.md) | lingvistický a vývojový pojem schopnosti užívat jazyk v kontextu; jazyková hra je filozofický rámec, který takovou schopnost předpokládá |
+| Žargon | specializovaný slovník; jazyková hra zahrnuje i pravidla jednání, nejen slova |
 
 ## Význam pro Kompendium
 

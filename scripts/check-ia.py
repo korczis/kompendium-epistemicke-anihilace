@@ -140,9 +140,11 @@ Requirements (id: what is checked):
                    first cells, Související, Literatura, key sentences over 6 words and the
                    entry's own page exempt); `link-terms.py --bold` fixes it and every gate
                    runs it (verify-content --fix, pre-push, CI), so it is NEVER baselined
-  bold-candidate   a worklist keyed bold:<slug>: a bold phrase of up to 6 words on 3+ pages that
-                   is not a term, a label or a link needs its own glossary page; when the page
-                   exists, the phrase leaves the list and bold-term enforces it
+  bold-candidate   keyed bold:<slug>: a bold phrase of up to 6 words on 3+ pages that is not a
+                   term, a label or a link needs its own glossary page (with a real source) or a
+                   link to the book's own page; when the page exists, the phrase leaves the list
+                   and bold-term enforces it. The worklist reached 0 in batch D (2026-11-14), so
+                   it is NEVER baselined: a new candidate fails and no baseline entry excuses it
   template-figure  a technique page carries no numeric table row or list item that stands
                    byte-identical on 3+ technique pages. Data measured for one technique is
                    never identical to another's, so an identical figure is machine template
@@ -237,7 +239,7 @@ def stamp(path: str, name: str, now_counts: dict) -> str:
 # An unfinished page or a technique without a page is never an accepted state: these
 # requirements cannot be introduced into, extended in or hand-written into the baseline.
 NEVER_BASELINED = {"placeholder", "technique-page", "howto", "drug-dose", "template-figure",
-                   "bold-term",
+                   "bold-term", "bold-candidate",
                    "clinical-figure", "fabricated-citation", "legitimate-indication",
                    "code-range",
                    "detail", "weak-link",
@@ -249,7 +251,7 @@ NEVER_BASELINED = {"placeholder", "technique-page", "howto", "drug-dose", "templ
 # `--list <rule>`); they are fixed in content, not accepted. Until then the gate fails only when
 # the count grows. The number may only go down, and the entry goes when it reaches 0.
 PENDING_ZERO = {"placeholder": 0, "technique-page": 0, "howto": 0, "drug-dose": 0,
-                "bold-term": 0,
+                "bold-term": 0, "bold-candidate": 0,
                 "code-range": 0,
                 "clinical-figure": 0,
                 "template-figure": 0, "platform-section": 0, "relative-link": 0,

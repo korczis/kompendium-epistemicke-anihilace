@@ -26,7 +26,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/"
 | **Kategorie** | 7. Teoretické reflexe |
 | **Subkategorie** | 7.3 Kognitivní věda |
 | **Typ hesla** | Interpretační rámec – kognitivní model zranitelnosti úsudku |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Střední u popsaného jevu – oslabená kontrola úsudku je vstupní branou většiny technik |
 | **Reverzibilita** | Vysoká; spánek, čas a snížení zátěže kontrolu úsudku obnovují |
 | **Rodičovská kapitola** | [7. Teoretické a metakonceptuální reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) |

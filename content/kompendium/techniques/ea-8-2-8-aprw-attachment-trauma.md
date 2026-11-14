@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/08-prilohy/"
 | **Kategorie** | 8. Přílohy |
 | **Subkategorie** | 8.2 Referenční rámce |
 | **Typ hesla** | Referenční rámec – vývojová a vztahová teorie traumatu |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Vysoká – trauma ve vazbě narušuje regulaci emocí, mentalizaci a důvěru |
 | **Validační status** | Teorie vazby je empiricky dobře podložená; aplikace na trauma je rozpracovaná klinická tradice |
 | **Rodičovská kapitola** | [08. Přílohy](@/kompendium/08-prilohy/_index.md) · [Bibliografie](@/kompendium/08-prilohy/bibliografie.md) |

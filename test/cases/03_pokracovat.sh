@@ -67,7 +67,25 @@ for here, entry in sorted(pages.items()):
 assert checked > 100, f"only {checked} pages render the block"
 PY
 
-# A changed link graph makes pokracovat.json stale.
+# A stale pokracovat.json is reported as such (half its entries dropped, the graph unchanged).
+cp static/data/pokracovat.json "$work/pokracovat.orig"
+python3 - <<'PY'
+import json
+path = "static/data/pokracovat.json"
+d = json.load(open(path))
+keys = sorted(d["pages"])
+d["pages"] = {k: d["pages"][k] for k in keys[:len(keys) // 2]}
+json.dump(d, open(path, "w"))
+PY
+if python3 scripts/build-ui-data.py --check >"$work/check.out" 2>&1; then
+  echo "build-ui-data --check missed a stale pokracovat.json"; exit 1
+fi
+grep -F "stale pokracovat.json" "$work/check.out" >/dev/null \
+  || { echo "build-ui-data --check failed for another reason:"; cat "$work/check.out"; exit 1; }
+cp "$work/pokracovat.orig" static/data/pokracovat.json
+
+# A hand-edited link graph is caught too: build-ui-data --check runs build-graph --check first,
+# so its inputs can never be stale behind its back (fix/ia-json-writer, 2026-11-14).
 python3 - <<'PY'
 import json
 path = "static/data/graph.json"
@@ -76,7 +94,8 @@ g["edges"] = g["edges"][:len(g["edges"]) // 2]
 json.dump(g, open(path, "w"))
 PY
 if python3 scripts/build-ui-data.py --check >"$work/check.out" 2>&1; then
-  echo "build-ui-data --check missed a stale pokracovat.json"; exit 1
+  echo "build-ui-data --check missed a stale graph.json"; exit 1
 fi
-grep -F "stale pokracovat.json" "$work/check.out" >/dev/null \
+grep -F "stale graph.json" "$work/check.out" >/dev/null \
   || { echo "build-ui-data --check failed for another reason:"; cat "$work/check.out"; exit 1; }
+echo "case 03: pokracovat picks obey the rules and render; a stale pokracovat.json or graph.json is refused"

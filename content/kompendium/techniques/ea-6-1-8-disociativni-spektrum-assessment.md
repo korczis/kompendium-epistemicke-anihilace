@@ -29,7 +29,6 @@ parent_chapter = "/kompendium/06-klinicke-aplikace/"
 | **EA kód** | `EA-6.1.8` |
 | **Kategorie** | 6. Klinické aplikace |
 | **Subkategorie** | 6.1 Diagnostické techniky |
-| **Přístupová úroveň** | L2 (klinická) |
 | **Riziková úroveň** | Střední — vyžaduje kvalifikovaného klinika |
 | **Reverzibilita** | Vysoká při řádné implementaci |
 | **Rodičovská kapitola** | [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) |
@@ -104,19 +103,19 @@ V kompendiu EA slouží tento assessment k odlišení disociativních jevů od j
 
 ## Vulnerabilní podpopulace
 
-Aplikace techniky **EA-6.1.8** vyžaduje specifickou modifikaci v následujících podpopulacích, kde standardní protokol nese zvýšené iatrogenní riziko:
+Dotazování na disociativní prožitky přitahuje pozornost k tomu, co popisuje. Tyto skupiny zasahuje nejvíce.
 
-**Děti a adolescenti (< 18 let)**: vývojově citlivá adaptace s explicitním zapojením pečující osoby (TF-CBT model), zkrácená sezení, vyšší frekvence stabilizačních prvků, hra a kreativní expresivní techniky jako preferovaný kanál. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). Doporučené nástroje: UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
+**Děti a adolescenti**: běžná vývojová imaginace bývá u nezletilých čtena jako disociace a pečující osoba převezme tento popis dříve než klinik. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). Takový popis pak provází dítě dalšími vyšetřeními. Zmiňované nástroje a modely: TF-CBT model, UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
 
-**Geriatrická populace (> 65 let)**: kognitivní akomodace (delší pauzy, opakování klíčových konceptů, písemné podpůrné materiály), screening pro early-stage demenci (MoCA), zohlednění kohortně specifické historie (postkomunistická intergenerační traumata), častá komorbidita s chronickými somatickými onemocněními.
+**Geriatrická populace**: výpadky pozornosti a paměti mají ve vyšším věku řadu příčin, které dotazování neodliší; časné stadium demence se tak objevuje v záznamu pod disociativní hlavičkou. Zmiňované nástroje: MoCA.
 
-**Komorbidní psychotické spektrum**: technika vyžaduje předchozí psychiatrickou stabilizaci, úzká spolupráce s psychiatrem, redukce konfrontačních elementů, posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
+**Komorbidní psychotické spektrum**: hranice mezi disociativním a psychotickým prožitkem je zde nejtenčí a dotazování ji nezpevňuje. Riziko: psychotická dekompenzace pod expozičním tlakem. Záznamy o této skupině zmiňují předchozí psychiatrickou stabilizaci jako okolnost předcházející vyšetření.
 
-**Komorbidní substance use disorders**: doporučená sekvence — primární léčba užívání návykových látek do funkční remise, poté trauma-fokusovaná intervence. Paralelní integrované přístupy (Seeking Safety) jsou alternativou pro pacienty neschopné dosáhnout primární abstinence.
+**Komorbidní substance use disorders**: intoxikace a odvykání vytvářejí stavy od disociace k nerozeznání; výsledný popis proto říká více o posledních dnech než o životní historii. Zmiňovaný přístup: Seeking Safety.
 
-**Komorbidní borderline personality disorder**: rozšířená stabilizační fáze s tréninkem zvládání afektu předchází trauma expozičním komponentám. Riziko regresivní idealizace/devalvace v terapeutickém vztahu vyžaduje peer-supervizi.
+**Komorbidní borderline personality disorder**: zkušenost odcizení od sebe sama patří zde k trvalému obrazu, nikoli k následku jedné události, a vyšetření ji přesto zařadí do téže osy.
 
-**Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; preferovány stabilizační a sensorimotorické intervence.
+**Gravidita a perinatální období**: odcizení od vlastního těla sem patří i bez traumatu.
 
 ## Intervenční variace
 

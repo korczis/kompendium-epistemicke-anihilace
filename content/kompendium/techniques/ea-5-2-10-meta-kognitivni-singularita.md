@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **EA kód** | `EA-5.2.10` |
 | **Kategorie** | 5. Ultramární techniky |
 | **Subkategorie** | 5.2 Metatranscendentální anihilace |
-| **Přístupová úroveň** | L3 |
 | **Riziková úroveň** | Extrémní — terminální zhroucení meta-kognitivní funkce |
 | **Reverzibilita** | Téměř nulová bez radikální klinické intervence; |
 | **Rodičovská kapitola** | [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
@@ -172,9 +171,3 @@ Intervence: integrační terapie zaměřená na rekonstrukci metakognitivní dif
   - [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)
   - [Anankastický režim](@/glossary/anankasticky-rezim.md)
   - [Epistemické trauma](@/glossary/epistemicke-trauma.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

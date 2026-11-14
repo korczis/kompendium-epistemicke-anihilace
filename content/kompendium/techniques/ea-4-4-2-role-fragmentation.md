@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/04-terminalni-protokoly/"
 | **EA kód** | `EA-4.4.2` |
 | **Kategorie** | 4. Terminální protokoly |
 | **Subkategorie** | 4.4 Identitní dekonstrukce |
-| **Přístupová úroveň** | L2 (omezená — výhradně pro kvalifikovanou klinickou, forenzní a doktrinální analýzu) |
 | **Riziková úroveň** | Vysoká — terminální protokoly vyžadují přísný supervizní rámec, [IRB](@/glossary/irb-review.md) přezkum a doložitelnou klinickou kompetenci |
 | **Reverzibilita** | Střední — návrat vyžaduje supervidovanou rekonstrukční fázi v řádu měsíců až let |
 | **Rodičovská kapitola** | [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md) |
@@ -54,15 +53,10 @@ Zasažený člověk referuje, že se „v práci a doma neumí potkat“, a popi
 
 Rozdělení rolí do oddělených hodnotících os se udrží jen tam, kde je nikdo nespojuje do jednoho obrazu sebe sama (Neisser, 1988). Pojistky níže proto kniha uvádí jako něco, čeho nepřítomnost je sama rozpoznatelná; jejich výčet není zadáním ani svolením.
 
-| Pojistka | Co znamená její nepřítomnost |
-|----------|------------------------------|
-| **[IRB přezkum](@/glossary/irb-review.md)** | Přínos a riziko nevážil nikdo mimo samo uspořádání a o žádném takovém vážení nezůstal záznam, který by šlo předložit |
-| **[Informovaný souhlas](@/glossary/informed-consent.md)** | Zasažený nevěděl, do čeho vstupuje, nebo to věděl a nemohl to vzít zpět bez ztráty, kterou nesl sám |
-| **Průběžné sledování stavu** | Zhoršení stavu nikdo zvenčí nezaznamenával; co se se zasaženým dělo, je známo jen z jeho vlastního pozdějšího vyprávění |
-| **Shoda na tom, kdy přestat** | Nikdo se předem neshodl na tom, co by platilo za okamžik, kdy se přestává, a rozhodnutí tak zůstalo na těch, kdo měli zájem na pokračování |
-| **Nezávislý audit** | Uspořádání posuzují pouze ti, kdo je vedou, a nikdo zvenčí je nemůže pozastavit |
-| **Dokumentační řetězec** | Co se stalo, nelze po čase rekonstruovat z ničeho než ze vzpomínek účastníků; chybí doložitelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
-| **Kanál pro oznamovatele** | Kdo si uvnitř porušení všiml, nemá je komu oznámit, aniž by nesl následky; mlčení uvnitř proto není dokladem, že se nic nedělo |
+{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
+|---|---|
+{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
+{% endfor %}
 
 ## Vylučující okolnosti
 
@@ -102,19 +96,19 @@ Kniha zaznamenává techniku **EA-4.4.2** jako popis rozpadu rolí, jimiž člov
 
 ## Vulnerabilní podpopulace
 
-Aplikace techniky **EA-4.4.2** vyžaduje specifickou modifikaci v následujících podpopulacích, kde standardní protokol nese zvýšené iatrogenní riziko:
+Rozpad rolí tíží nejvíc tam, kde si člověk role nevybírá a nemá kam z nich odejít; následující skupiny stojí v tomto postavení nejčastěji.
 
-**Děti a adolescenti (< 18 let)**: vývojově citlivá adaptace s explicitním zapojením pečující osoby (model TF-CBT), zkrácená sezení proti dospělému standardu, vyšší frekvence stabilizačních prvků, hra a kreativní expresivní techniky jako preferovaný kanál. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). Doporučené nástroje: UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
+**Děti a adolescenti**: dítě má rolí málo a ztráta jedné z nich je ztrátou velké části jeho světa. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). U dětí a dospívajících bývají jmenovány nástroje model TF-CBT, UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
 
-**Geriatrická populace (> 65 let)**: kognitivní akomodace (delší pauzy, opakování klíčových konceptů, písemné podpůrné materiály), screening pro early-stage demenci (MoCA), zohlednění kohortně specifické historie (postkomunistická intergenerační traumata), častá komorbidita s chronickými somatickými onemocněními.
+**Geriatrická populace**: ve vyšším věku ubyly role samy a jejich další oddělování se zamění s úbytkem sil; v této souvislosti je uváděn nástroj MoCA.
 
-**Komorbidní psychotické spektrum**: technika vyžaduje předchozí psychiatrickou stabilizaci, úzká spolupráce s psychiatrem, redukce konfrontačních elementů, posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
+**Komorbidní psychotické spektrum**: oddělené hodnotící osy roztrhnou obraz, který už tak drží vlastní jednotu obtížně. Riziko: psychotická dekompenzace pod expozičním tlakem.
 
-**Komorbidní substance use disorders**: doporučená sekvence — primární léčba závislosti do funkční remise, poté trauma-fokusovaná intervence. Paralelní integrované přístupy (Seeking Safety) jsou alternativou pro pacienty neschopné dosáhnout primární abstinence.
+**Komorbidní substance use disorders**: role pacienta a role uživatele se v dokumentaci spojí a ostatní zmizí; u tohoto souběhu je uváděn Seeking Safety.
 
-**Komorbidní borderline personality disorder**: rozšířená stabilizační fáze (nácvik dovedností DBT) předchází trauma expozičním komponentám. Riziko regresivní idealizace/devalvace v terapeutickém vztahu vyžaduje peer-supervizi.
+**Komorbidní borderline personality disorder**: nestálost sebeobrazu se zde pokládá za příčinu rozpadu rolí, přestože je také jeho následkem. Jmenovaným nástrojem je nácvik dovedností DBT.
 
-**Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; v těhotenství a v poporodním období jsou preferovány sensorimotorické a stabilizační intervence.
+**Gravidita a perinatální období**: nová role rodiče nastupuje v tomto období bez možnosti ji odložit.
 
 ## Intervenční variace
 
@@ -135,6 +129,7 @@ Klinický kontext **EA-4.4.2** připouští následující dokumentované adapta
 ## Vztah k jiným technikám
 
 ### V rámci subkategorie 4.4 Identitní dekonstrukce
+
   - [EA-4.4.1 Narrative disassembly](@/kompendium/techniques/ea-4-4-1-narrative-disassembly.md)
   - [EA-4.4.3 Relational restructure](@/kompendium/techniques/ea-4-4-3-relational-restructure.md)
   - [EA-4.4.4 Biographical recontextualization](@/kompendium/techniques/ea-4-4-4-biographical-recontextualization.md)
@@ -142,9 +137,11 @@ Klinický kontext **EA-4.4.2** připouští následující dokumentované adapta
   - [EA-4.4.6 Axiological self-reset](@/kompendium/techniques/ea-4-4-6-axiological-self-reset.md)
 
 ### Provázanost mezi subkategoriemi 4
+
   - [EA-4.1.1 Foundation stage](@/kompendium/techniques/ea-4-1-1-foundation-stage.md)
 
 ### Cross-kategoriální vazby
+
 - **[EA 1 1 2 INFORMACNI PRETIZENI](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md)** — akademická vrstva, jejíž eskalace může vést k terminální fázi.
 - **[EA 1 4 1 PROSODICKA DOMINANCE](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md)** — související vstupní mechanismus.
 - **[EA 5 1 2 KONCEPTUALNI NIHILACE](@/kompendium/techniques/ea-5-1-2-konceptualni-nihilace.md)** — ultramární technika strukturálně příbuzná, vyžadující ostřejší distinktivní detekci.
@@ -181,9 +178,3 @@ Klinický kontext **EA-4.4.2** připouští následující dokumentované adapta
 - **Forward-references**:
   - [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

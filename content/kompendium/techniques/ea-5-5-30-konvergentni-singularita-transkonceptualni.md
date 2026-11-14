@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **EA kód** | `EA-5.5.30` |
 | **Kategorie** | 5. Ultramární techniky |
 | **Subkategorie** | 5.5 Transkonceptuální mechanismy |
-| **Přístupová úroveň** | L3 (omezená — výhradně pro kvalifikovanou klinickou, forenzní a doktrinální analýzu) |
 | **Riziková úroveň** | Extrémní — strukturální poškození identitárně-kognitivní integrity, dlouhodobé následky |
 | **Reverzibilita** | Velmi nízká — návrat vyžaduje rekonstrukční terapeutický rámec |
 | **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) |
@@ -47,6 +46,10 @@ Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují: je
 Od jednotlivých vzorců subkategorie se terminální stav liší tím, že chybí místo, odkud by šlo cokoli z něj zpochybnit. Singer (1995) popisuje toto uzavření jako konec procesu, ne jako jeho začátek.
 
 *Interpretace knihy*: nálezem je nepřítomnost vlastního slovníku, ne jednotlivý zážitek.
+
+## Jak se vzorec pozná zevnitř
+
+Zevnitř terminální stav nepůsobí jako omezení, protože chybí srovnání: kdo si nevybaví, jak prožíval dřív, nemá z čeho poznat, že se něco změnilo, a shoda všech vrstev zkušenosti s naukou se mu jeví jako soulad. Odchod z uzavřeného prostředí bývá proto prožíván jako dezorientace a strach, ne jako úleva (Singer, 1995). Okolí si spíš všimne, že dotyčný mluví o životě bez vzpomínek, které by nebyly výkladem.
 
 ## Fenomenologické znaky
 
@@ -169,9 +172,3 @@ vs. Mystická zkušenost (Stace 1960; Hood Mysticism Scale): Mystické zážitky
   - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
   - [Embodied cognition](@/glossary/embodied-cognition.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

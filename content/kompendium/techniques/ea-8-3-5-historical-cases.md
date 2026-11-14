@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/08-prilohy/"
 | **Kategorie** | 8. Přílohy |
 | **Subkategorie** | 8.3 Bibliografie |
 | **Typ hesla** | Bibliografický oddíl – monografie a svědectví k historickým případům |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Nevztahuje se |
 | **Validační status** | Uvedena jen díla s jistou existencí; vročení knihy o Óm šinrikjó opraveno na rok 1999 |
 | **Rodičovská kapitola** | [08. Přílohy](@/kompendium/08-prilohy/_index.md) · [Historické případy](@/kompendium/historical-cases/_index.md) |

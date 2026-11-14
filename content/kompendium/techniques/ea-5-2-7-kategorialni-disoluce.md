@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **EA kód** | `EA-5.2.7` |
 | **Kategorie** | 5. Ultramární techniky |
 | **Subkategorie** | 5.2 Metatranscendentální anihilace |
-| **Přístupová úroveň** | L3 |
 | **Riziková úroveň** | Extrémní — rozpad samotné kategoriální organizace zkušenosti |
 | **Reverzibilita** | Téměř nulová bez specializované rekategorizační práce |
 | **Rodičovská kapitola** | [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
@@ -188,9 +187,3 @@ Intervence: 36 měsíců rekategorizační práce, vyžadující **odloučení o
   - [Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
   - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
   - [Anankastický režim](@/glossary/anankasticky-rezim.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

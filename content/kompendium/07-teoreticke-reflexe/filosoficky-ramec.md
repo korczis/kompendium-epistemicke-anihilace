@@ -200,6 +200,10 @@ Filosofický rámec kompendia není uzavřený. Otevřené teoretické body, na 
 - **Sociálně-epistemologická operacionalizace** — viz [7.3 Sociální epistemologie EA](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md)
 - **Postmoderní výzva metanarativům kompendia** — viz [7.4 EA a postmodernismus](@/kompendium/07-teoreticke-reflexe/postmodernismus.md)
 
+## Literatura
+
+- Horkheimer, M., & Adorno, T. W. (1947). *Dialektik der Aufklärung: Philosophische Fragmente*. Amsterdam: Querido.
+
 ## Související
 
 - [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)

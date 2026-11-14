@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **EA kód** | `EA-5.4.42` |
 | **Kategorie** | 5. Ultramární techniky |
 | **Subkategorie** | 5.4 Paradoxální metaanihilační protokoly |
-| **Přístupová úroveň** | L3 (omezená — výhradně pro kvalifikovanou klinickou, forenzní a doktrinální analýzu) |
 | **Riziková úroveň** | Extrémní — strukturální destabilizace evaluativních rámců, [epistemické trauma](@/glossary/epistemicke-trauma.md) s rekurentními relapsy |
 | **Reverzibilita** | Velmi nízká — návrat vyžaduje rekonstrukci subjektova paradoxologického repertoáru ve chráněném klinickém rámci |
 | **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) |
@@ -160,10 +159,3 @@ Klíčové pojmové kotvy techniky: **grandfather paradox, Lewis counterpart, mo
 - **Forward-references**:
   - [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
----
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/korczis-prismatic-platform)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

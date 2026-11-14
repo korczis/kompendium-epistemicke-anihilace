@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 | **EA kód** | `EA-2.1.9` |
 | **Kategorie** | 2. Scénáře [delegitimizace](@/glossary/delegitimizace.md) |
 | **Subkategorie** | 2.1 Expertní diskvalifikace |
-| **Přístupová úroveň** | L2 (odborná analýza) |
 | **Riziková úroveň** | Vysoká – zneužívá nejsilnější argument vědy, shodu odborníků |
 | **Reverzibilita** | Střední; zdání shody se rozpadá, když se zjistí, kolik nezávislých hlasů za ním skutečně stojí |
 | **Rodičovská kapitola** | [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
@@ -177,6 +176,15 @@ soud vědecké obce vytvářel politicky. Anonymizované kompozity:
 [vědecká disinflace](@/kompendium/case-studies/05-vedecka-disinflation.md),
 [kult think-tanku](@/kompendium/case-studies/68-think-tank-cult.md) a
 [kult výzkumné disciplíny](@/kompendium/case-studies/67-research-discipline-cult.md).
+
+## Proč se škoda zevnitř špatně pozná
+
+Vzorec si dodává nevinné čtení z vědecké ctnosti: připustit, že menšinová pozice bývá mylná, patří k odborné poctivosti, takže pochybnost o sobě se zevnitř jeví
+jako správné uvažování. Podmínku, podle níž by se zdání dalo odlišit — nezávislost posuzovatelů
+(Goldman, 2001) — cíl ze svého místa nevidí; vazby signatářů ze seznamu jmen patrné nejsou.
+
+Noelle-Neumannová (1974) vysvětluje, proč chybí i druhá opora: soukromá podpora zůstává
+nedoložitelná.
 
 ## Literatura
 

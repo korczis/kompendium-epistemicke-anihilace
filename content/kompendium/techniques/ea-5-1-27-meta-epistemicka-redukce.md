@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-6/"
 | **EA kód** | `EA-5.1.27` |
 | **Kategorie** | 5. Ultramární techniky |
 | **Subkategorie** | 5.1 Epistemická singularita |
-| **Přístupová úroveň** | L4 (ultramarine) |
 | **Riziková úroveň** | Extrémní — terminálni stav epistemické singularity, blokuje samotnou kapacitu pro nezávislé poznání |
 | **Reverzibilita** | Velmi nízká — vyžaduje rekonstrukci epistemické plurality od základů |
 | **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md) |
@@ -179,9 +178,3 @@ Doktorand v izolovaném akademickém prostředí přijal kritérium pravdy *„c
 - **Filozofie**:
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **EA kód** | `EA-5.1.5` |
 | **Kategorie** | 5. Ultramární techniky |
 | **Subkategorie** | 5.1 [Epistemická singularita](@/glossary/epistemicka-singularita.md) |
-| **Přístupová úroveň** | L3 (omezený výzkumný přístup) |
 | **Riziková úroveň** | Extrémní — destrukce inferenciálních kapacit, podkopává schopnost dlouhodobého plánování a evaluace |
 | **Reverzibilita** | Nízká — vyžaduje strukturovaný restart formálního myšlení v kontrolovaném prostředí |
 | **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) |
@@ -186,9 +185,3 @@ Klient po 18 měsících intenzivního programu spontánně přijímal výroky t
 - **Forward-references**:
   - [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

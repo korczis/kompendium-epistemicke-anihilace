@@ -130,7 +130,3 @@ Uzavřené komunikátory a soukromé skupiny unikají pozorování, a značná �
 
 - [Vzdělávací scénář: Koordinace na více cílů](@/kompendium/educational-scenarios/28-multi-target-coordination.md) – nácvik rozpoznání.
 - [EA × Security: Enterprise Disinformation Defense](@/kompendium/cross-domain/19-ea-security-disinformation-defense.md) – obrana organizací.
-
----
-
-*Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)*

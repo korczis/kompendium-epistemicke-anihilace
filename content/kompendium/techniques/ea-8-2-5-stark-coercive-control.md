@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/08-prilohy/"
 | **Kategorie** | 8. Přílohy |
 | **Subkategorie** | 8.2 Referenční rámce |
 | **Typ hesla** | Referenční rámec – teorie kontrolujícího partnerského násilí |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Vysoká – coercive control předchází řadě případů závažného násilí |
 | **Validační status** | Vlivný sociologický a právní rámec; promítl se do legislativy několika zemí |
 | **Rodičovská kapitola** | [08. Přílohy](@/kompendium/08-prilohy/_index.md) · [Bibliografie](@/kompendium/08-prilohy/bibliografie.md) |

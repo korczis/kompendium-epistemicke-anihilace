@@ -143,7 +143,3 @@ Otevřenou otázkou zůstává, kdy se kumulace drobných posunů stává manipu
 
 - [Subakutní narativní externalizace](@/kompendium/recovery-protocols/subacute-narrative-externalization.md) – oddělení vlastního příběhu od nabídnutého rámce.
 - [Vzdělávací scénář: Rozpoznání DARVO](@/kompendium/educational-scenarios/20-darvo-recognition.md) – nácvik na modelové situaci.
-
----
-
-*Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)*

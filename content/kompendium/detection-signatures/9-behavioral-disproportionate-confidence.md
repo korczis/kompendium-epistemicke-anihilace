@@ -131,7 +131,3 @@ Charisma a sebejistota jsou kulturně oceňované vlastnosti. Signatura nesmí p
 
 - [Sebe-obrana: Kalibrace důvěry](@/kompendium/self-defense-guides/23-trust-calibration.md) – jak dávkovat důvěru podle důkazů.
 - [Vzdělávací scénář: Vážení důkazů](@/kompendium/educational-scenarios/7-evidence-weighting.md) – nácvik oddělení jistoty od důkazu.
-
----
-
-*Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)*

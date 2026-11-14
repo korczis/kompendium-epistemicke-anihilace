@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **EA kód** | `EA-5.1.3` |
 | **Kategorie** | 5. Ultramární techniky |
 | **Subkategorie** | 5.1 [Epistemická singularita](@/glossary/epistemicka-singularita.md) |
-| **Přístupová úroveň** | L3 (omezená — výhradně pro kvalifikovanou klinickou, forenzní a doktrinální analýzu) |
 | **Riziková úroveň** | Extrémní — destrukce kapacity k metakognici, stav srovnatelný s [metakognitivní destrukcí](@/glossary/metakognitivni-destrukce.md) a [kognitivní anti-rekurzivitou](@/glossary/kognitivni-anti-rekurzivita.md) |
 | **Reverzibilita** | Velmi nízká — obnovení produktivní sebereflexe vyžaduje strukturovanou metakognitivní rehabilitaci |
 | **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) |
@@ -197,9 +196,3 @@ Intervence: Změna supervize na pragmatičtěji orientovaného mentora, povinné
 - **Forward-references**:
   - [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

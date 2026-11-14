@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-6/"
 | **EA kód** | `EA-5.1.25` |
 | **Kategorie** | 5. Ultramární techniky |
 | **Subkategorie** | 5.1 Epistemická singularita |
-| **Přístupová úroveň** | L4 (ultramarine) |
 | **Riziková úroveň** | Extrémní — produkuje narativní monismus s dlouhodobou rezistencí vůči pluralizaci |
 | **Reverzibilita** | Velmi nízká bez externí biografické rekonstrukce |
 | **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md) |
@@ -42,7 +41,7 @@ Singulární narativní kolaps je strukturálním předkladem pro [EA-5.1.27 met
 
 ## Struktura vzorce
 
-Singulární narativní kolaps se pozorovateli ukazuje na tom, kolik příběhů o sobě zasažený člověk ještě dokáže vyprávět. Dřív jich bylo několik a lišily se podle kontextu; teď je jeden a je všude stejný, vyprávěný jako přímá cesta k dnešní pozici. Okolí zaznamenává, že klíčové životní okamžiky mají napříč situacemi doslova shodný výklad, často ve stejných obratech, jaké používá osoba, která výklad dodala.
+Singulární narativní kolaps se pozorovateli ukazuje na tom, kolik příběhů o sobě zasažený člověk ještě dokáže vyprávět. Dřív jich bylo několik a lišily se podle kontextu; teď je jeden a je všude stejný, vyprávěný jako přímá cesta k dnešní pozici. Okolí zaznamenává, že klíčové životní okamžiky mají napříč situacemi doslova shodný výklad, často ve stejných obratech, jaké používá osoba, která výklad dodala. Zasažený člověk změnu neprožívá jako ztrátu, ale jako úlevu: životopis, který dřív působil rozporně, konečně dává smysl, a souvislost vyprávění se mu jeví jako doklad jeho pravdivosti. Chybějící čtení nepostrádá, protože si je nepamatuje jako čtení, nýbrž jako omyl. Blízcí lidé spíš zachytí, že se z jeho vyprávění vytratily vedlejší postavy, odbočky a nedořešené epizody.
 
 Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Nejzranitelnější bývá ta linie, která je citově nejvíc obsazená, nejhůř slučitelná se zbytkem a spojená s otevřenou otázkou po vlastní identitě. Právě ji nový výklad vysvětlí a propojí se zbytkem do souvislého celku — jeho silou není nepravdivost, ale výlučnost. Ostatní čtení jsou pak postupně vykládána jako nezralé verze téhož, až si zasažený člověk začne vlastní životopis přepisovat sám a prožívá to jako konečné porozumění. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
@@ -166,9 +165,3 @@ Subjekt po sedmi letech vztahu rekonstruuje celou předchozí biografii skrze pa
 - **Filozofie**:
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

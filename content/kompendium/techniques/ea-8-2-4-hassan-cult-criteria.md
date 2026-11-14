@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/08-prilohy/"
 | **Kategorie** | 8. Přílohy |
 | **Subkategorie** | 8.2 Referenční rámce |
 | **Typ hesla** | Referenční rámec – organizační struktura skupin s vysokou kontrolou |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Vysoká u popsaného jevu |
 | **Validační status** | Klinický a vzdělávací rámec z praxe; bez standardizovaného měření |
 | **Rodičovská kapitola** | [08. Přílohy](@/kompendium/08-prilohy/_index.md) · [Bibliografie](@/kompendium/08-prilohy/bibliografie.md) |

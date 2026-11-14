@@ -26,7 +26,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/"
 | **Kategorie** | 7. Teoretické reflexe |
 | **Subkategorie** | 7.2 Analytická filozofie |
 | **Typ hesla** | Interpretační rámec – sociální povaha změny přesvědčení a její zneužití |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Střední až vysoká u popsaného jevu – „konverze“ prezentovaná jako vhled odstraňuje možnost návratu ke starým měřítkům |
 | **Reverzibilita** | Střední; staré pojmy je třeba znovu získat, ne jen připomenout |
 | **Rodičovská kapitola** | [7. Teoretické a metakonceptuální reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) |

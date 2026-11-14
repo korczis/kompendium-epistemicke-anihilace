@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/08-prilohy/"
 | **Kategorie** | 8. Přílohy |
 | **Subkategorie** | 8.3 Bibliografie |
 | **Typ hesla** | Bibliografický oddíl – empirické studie |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Nevztahuje se |
 | **Validační status** | Uvedeny jen studie s jistou existencí; velikosti vzorků a „kumulativní N“ z původní verze stránky byly vypuštěny, protože je nebylo možné spolehlivě doložit |
 | **Rodičovská kapitola** | [08. Přílohy](@/kompendium/08-prilohy/_index.md) · [Bibliografie a primární literatura](@/kompendium/08-prilohy/bibliografie.md) |

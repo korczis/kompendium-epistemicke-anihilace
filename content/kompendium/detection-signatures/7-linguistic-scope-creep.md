@@ -142,7 +142,3 @@ Signatura popisuje strukturu, ne úmysl. Rozšiřování může být i důsledke
 
 - [Sebe-obrana: Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) – praktická obrana.
 - [Ochrana mentorství](@/kompendium/organizational-defense/19-mentorship-protection.md) – institucionální pojistky.
-
----
-
-*Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)*

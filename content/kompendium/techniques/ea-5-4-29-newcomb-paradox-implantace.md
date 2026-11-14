@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **EA kód** | `EA-5.4.29` |
 | **Kategorie** | 5. Ultramární techniky |
 | **Subkategorie** | 5.4 Paradoxální metaanihilační protokoly |
-| **Přístupová úroveň** | L3 (omezená — výhradně pro kvalifikovanou klinickou, forenzní a doktrinální analýzu) |
 | **Riziková úroveň** | Extrémní — strukturální destabilizace evaluativních rámců, [epistemické trauma](@/glossary/epistemicke-trauma.md) s rekurentními relapsy |
 | **Reverzibilita** | Velmi nízká — návrat vyžaduje rekonstrukci subjektova paradoxologického repertoáru ve chráněném klinickém rámci |
 | **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) |
@@ -61,6 +60,14 @@ rozhodovací paralýza a nakonec se jediným zdrojem rozhodnutí stává druhá 
 
 *Interpretace knihy*: explicitní volba rozhodovacího rámce úlohu nezruší, ale vrátí ji do polohy,
 v níž je řešitelná. Metodický rámec takové volby vymezují [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
+
+## Jak se vzorec pozná zevnitř
+
+Zevnitř se vzorec neprožívá jako ztráta úsudku, ale jako objev. Napětí mezi dvěma rozumnými
+zásadami volby, které filozofie vede jako neuzavřený spor (Nozick, 1969), je zažíváno jako
+odhalení, že vlastní rozvažování je nespolehlivé vůbec. Chybu proto nehledá v rozšíření sporu
+na běžné volby, ale v sobě. Okolí spíš zaznamená, že odkládá i drobná rozhodnutí, dokud
+nerozhodne někdo jiný.
 
 ## Fenomenologické znaky
 
@@ -170,10 +177,3 @@ Klíčové pojmové kotvy techniky: **Newcomb problem, decision theory, evidenci
 - **Forward-references**:
   - [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
----
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/korczis-prismatic-platform)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

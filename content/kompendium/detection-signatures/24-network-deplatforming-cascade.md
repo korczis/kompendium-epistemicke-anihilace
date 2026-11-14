@@ -134,7 +134,3 @@ Mezi legitimní ochranou a zneužitím moderování je napětí, které nelze vy
 
 - [Sebe-obrana: Mobilizace podpory](@/kompendium/self-defense-guides/30-support-mobilization.md) – opora mimo platformy.
 - [Mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md) – ochrana kritických hlasů v organizacích.
-
----
-
-*Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)*

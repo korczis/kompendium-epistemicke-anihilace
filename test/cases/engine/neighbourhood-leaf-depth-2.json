@@ -4,26 +4,6 @@
     "depth": 2,
     "edges": [
       {
-        "from": "glossary/_index.md",
-        "kind": "link",
-        "to": "glossary/coercive-control.md"
-      },
-      {
-        "from": "glossary/_index.md",
-        "kind": "link",
-        "to": "glossary/epistemicka-anihilace.md"
-      },
-      {
-        "from": "glossary/_index.md",
-        "kind": "link",
-        "to": "glossary/taxonomie-ea.md"
-      },
-      {
-        "from": "glossary/_index.md",
-        "kind": "link",
-        "to": "kompendium/_index.md"
-      },
-      {
         "from": "glossary/coercive-control.md",
         "kind": "link",
         "to": "glossary/epistemicka-anihilace.md"
@@ -44,9 +24,34 @@
         "to": "kompendium/_index.md"
       },
       {
+        "from": "glossary/delegitimizace.md",
+        "kind": "link",
+        "to": "glossary/coercive-control.md"
+      },
+      {
+        "from": "glossary/delegitimizace.md",
+        "kind": "link",
+        "to": "glossary/epistemicka-anihilace.md"
+      },
+      {
+        "from": "glossary/delegitimizace.md",
+        "kind": "link",
+        "to": "glossary/taxonomie-ea.md"
+      },
+      {
+        "from": "glossary/delegitimizace.md",
+        "kind": "link",
+        "to": "kompendium/_index.md"
+      },
+      {
         "from": "glossary/epistemicka-anihilace.md",
         "kind": "link",
         "to": "glossary/coercive-control.md"
+      },
+      {
+        "from": "glossary/epistemicka-anihilace.md",
+        "kind": "link",
+        "to": "glossary/delegitimizace.md"
       },
       {
         "from": "glossary/epistemicka-anihilace.md",
@@ -71,12 +76,22 @@
       {
         "from": "kompendium/06-klinicke-aplikace/_index.md",
         "kind": "link",
+        "to": "glossary/delegitimizace.md"
+      },
+      {
+        "from": "kompendium/06-klinicke-aplikace/_index.md",
+        "kind": "link",
         "to": "glossary/epistemicka-anihilace.md"
       },
       {
         "from": "kompendium/06-klinicke-aplikace/_index.md",
         "kind": "link",
         "to": "kompendium/_index.md"
+      },
+      {
+        "from": "kompendium/_index.md",
+        "kind": "link",
+        "to": "glossary/delegitimizace.md"
       },
       {
         "from": "kompendium/_index.md",
@@ -97,11 +112,6 @@
         "from": "kompendium/nlp-vzorce/_index.md",
         "kind": "link",
         "to": "kompendium/_index.md"
-      },
-      {
-        "from": "mapa.md",
-        "kind": "link",
-        "to": "glossary/_index.md"
       },
       {
         "from": "mapa.md",
@@ -181,7 +191,7 @@
       {
         "class": "kompendium",
         "distance": 1,
-        "in": 89,
+        "in": 56,
         "path": "kompendium/_index.md",
         "title": "Kompendium epistemické a kognitivní anihilace"
       },
@@ -230,13 +240,6 @@
       {
         "class": "glossary",
         "distance": 2,
-        "in": 325,
-        "path": "glossary/_index.md",
-        "title": "Glosář"
-      },
-      {
-        "class": "glossary",
-        "distance": 2,
         "in": 319,
         "path": "glossary/taxonomie-ea.md",
         "title": "Taxonomie EA"
@@ -247,13 +250,20 @@
         "in": 300,
         "path": "glossary/coercive-control.md",
         "title": "Coercive control (donucující kontrola)"
+      },
+      {
+        "class": "glossary",
+        "distance": 2,
+        "in": 265,
+        "path": "glossary/delegitimizace.md",
+        "title": "Delegitimizace"
       }
     ],
     "ok": true,
     "op": "neighbourhood",
     "path": "osy.md",
     "schema": "kompendium-engine/v1",
-    "total": 121,
+    "total": 88,
     "truncated": true
   },
   "input": {

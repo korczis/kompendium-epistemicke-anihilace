@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/04-terminalni-protokoly/"
 | **EA kód** | `EA-4.2.10` |
 | **Kategorie** | 4. Terminální protokoly |
 | **Subkategorie** | 4.2 Bezpečnostní protokoly |
-| **Přístupová úroveň** | L2 (omezená — výhradně pro kvalifikovanou klinickou, forenzní a doktrinální analýzu) |
 | **Riziková úroveň** | Vysoká — terminální protokoly vyžadují přísný supervizní rámec, [IRB](@/glossary/irb-review.md) přezkum a doložitelnou klinickou kompetenci |
 | **Reverzibilita** | Střední — návrat vyžaduje supervidovanou rekonstrukční fázi v řádu měsíců až let |
 | **Rodičovská kapitola** | [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md) |
@@ -56,15 +55,10 @@ Měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.m
 
 Nouzové přerušení expozice je pojistka, jejíž chybění je samo zjistitelné; stránka žádný takový postup neschvaluje.
 
-| Pojistka | Co znamená její nepřítomnost |
-|--------------|--------------|
-| **[IRB přezkum](@/glossary/irb-review.md)** | Nikdo mimo dané uspořádání neposuzoval přínos proti riziku a o takovém posouzení neexistuje záznam |
-| **[Informovaný souhlas](@/glossary/informed-consent.md)** | Zasažený člověk nedokáže říci, s čím souhlasil, a odchod nevnímá jako dostupnou možnost |
-| **Průběžné sledování stavu** | Změny tělesného a duševního stavu nikdo nezaznamenával; o průběhu existuje jen výklad té strany, která jej vedla |
-| **Shoda na tom, kdy přestat** | Nikdo se předem neshodl, co by platilo za důvod přestat, a rozhodnutí zůstává na vedení uspořádání |
-| **Nezávislý audit** | Uspořádání nikdo zvenčí nekontroloval a nikdo kromě jeho vedení je nemůže zastavit |
-| **Dokumentační řetězec** | Záznamy chybějí, jsou neúplné nebo je lze zpětně měnit; [chain of custody](@/glossary/chain-of-custody.md) nelze dohledat |
-| **Kanál pro oznamovatele** | Není kam ohlásit pochybnost a ten, kdo ji vysloví, nese následky uvnitř téhož uspořádání |
+{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
+|---|---|
+{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
+{% endfor %}
 
 ## Okolnosti, které takto vedené přerušení vylučují
 

@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/08-prilohy/"
 | **Kategorie** | 8. Přílohy |
 | **Subkategorie** | 8.2 Referenční rámce |
 | **Typ hesla** | Referenční rámec – teoretický model autoritářské kontroly |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Vysoká u popsaného jevu; střední u nekritického použití rámce |
 | **Validační status** | Široce užívaný klinický a vzdělávací rámec; empirická validace je omezená a pojmy jsou předmětem odborného sporu |
 | **Rodičovská kapitola** | [08. Přílohy](@/kompendium/08-prilohy/_index.md) · [Bibliografie](@/kompendium/08-prilohy/bibliografie.md) |

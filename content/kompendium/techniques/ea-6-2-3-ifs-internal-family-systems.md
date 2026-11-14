@@ -29,7 +29,6 @@ parent_chapter = "/kompendium/06-klinicke-aplikace/"
 | **EA kód** | `EA-6.2.3` |
 | **Kategorie** | 6. Klinické aplikace |
 | **Subkategorie** | 6.2 Terapeutické intervence |
-| **Přístupová úroveň** | L2 (klinická) |
 | **Riziková úroveň** | Střední — vyžaduje kvalifikovaného klinika |
 | **Reverzibilita** | Vysoká při řádné implementaci |
 | **Rodičovská kapitola** | [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) |
@@ -102,19 +101,19 @@ V kompendiu je tato technika vedena jako intervence zacílená na epistemicko-af
 
 ## Vulnerabilní podpopulace
 
-Aplikace techniky **EA-6.2.3** vyžaduje specifickou modifikaci v následujících podpopulacích, kde standardní protokol nese zvýšené iatrogenní riziko:
+Rozhovor o vnitřních partech zasahuje nestejně; u následujících skupin je jeho dopad zvenčí patrnější.
 
-**Děti a adolescenti (< 18 let)**: vývojově citlivá adaptace s explicitním zapojením pečující osoby (TF-CBT model), kratší sezení, vyšší frekvence stabilizačních prvků, hra a kreativní expresivní techniky jako preferovaný kanál. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). Doporučené nástroje: UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
+**Děti a adolescenti**: dítě popisuje své vnitřní rozdělení slovy dospělého, který je přivedl, a přijímá je jako hotový obraz sebe. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). Nástroje a modely, které se v této souvislosti uvádějí: TF-CBT model, UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
 
-**Geriatrická populace (> 65 let)**: kognitivní akomodace (delší pauzy, opakování klíčových konceptů, písemné podpůrné materiály), screening pro early-stage demenci (MoCA), zohlednění kohortně specifické historie (postkomunistická intergenerační traumata), častá komorbidita s chronickými somatickými onemocněními.
+**Geriatrická populace**: starší člověk přichází s kohortně specifickou historií, k níž patří postkomunistická intergenerační traumata, a s častou komorbiditou chronických somatických onemocnění; zpomalení je pak zvenčí čteno jako neochota mluvit o sobě. Nástroj, který se v této souvislosti uvádí: MoCA.
 
-**Komorbidní psychotické spektrum**: technika vyžaduje předchozí psychiatrickou stabilizaci, úzká spolupráce s psychiatrem, redukce konfrontačních elementů, posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
+**Komorbidní psychotické spektrum**: oslabené [reality testing](@/glossary/reality-testing.md) je u této skupiny zvenčí patrné dřív než samotný obsah vnitřních partů. Riziko: psychotická dekompenzace pod expozičním tlakem.
 
-**Komorbidní substance use disorders**: popsanou sekvencí je primární léčba užívání do funkční remise a teprve poté trauma-fokusovaná práce; paralelní integrované přístupy jsou dokumentovanou alternativou tam, kde primární abstinence není dosažitelná.
+**Komorbidní substance use disorders**: souběh se zvenčí jeví jako střídání dvou obrazů — jednou užívání, jednou následek expozice — a každý z nich ten druhý zakrývá.
 
-**Komorbidní borderline personality disorder**: rozšířená stabilizační fáze s tréninkem dovedností předchází expozičním komponentám. Riziko regresivní idealizace a devalvace v terapeutickém vztahu činí ze supervize podmínku, nikoli doplněk.
+**Komorbidní borderline personality disorder**: zátěž nese sám vztah, nikoli obsah; regresivní idealizace a devalvace jsou v něm patrné dřív, než se o nich začne mluvit.
 
-**Gravidita a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; popsána je přednost stabilizačních a sensorimotorických intervencí.
+**Gravidita a perinatální období**: vysokoexpoziční varianty jsou v tomto období popisovány jako relativní kontraindikace.
 
 ## Intervenční variace
 

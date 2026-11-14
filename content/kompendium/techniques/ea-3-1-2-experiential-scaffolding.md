@@ -29,7 +29,6 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-3/"
 | **EA kód** | `EA-3.1.2` |
 | **Kategorie** | 3. [Edukativní implementace](@/glossary/edukativni-implementace.md) |
 | **Subkategorie** | 3.1 Kurikulární techniky |
-| **Přístupová úroveň** | L1 (volný přístup, etická governance vyžadována) |
 | **Riziková úroveň** | Nízká až střední — primárně edukativní, iatrogenní rizika při nesprávné implementaci |
 | **Reverzibilita** | Vysoká — edukativní intervence jsou principiálně modifikovatelné |
 | **Rodičovská kapitola** | [Kapitola 3 — Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md) |
@@ -150,10 +149,3 @@ Tato edukativní technika operacionalizuje poznatky z taxonomie:
 - **Klinické aplikace**: [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - **Filozofie**:
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

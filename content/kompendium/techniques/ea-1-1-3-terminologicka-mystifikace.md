@@ -28,7 +28,6 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 | **EA kód** | `EA-1.1.3` |
 | **Kategorie** | 1. Akademické techniky intelektuální manipulace |
 | **Subkategorie** | 1.1 Narušení procesů akvizice poznání |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Vysoká — pervazivní v akademii a expertních doménách, často strukturálně neintencionální |
 | **Reverzibilita** | Vysoká pro jednorázové incidenty, nízká při dlouhodobé internalizaci |
 | **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md) |
@@ -204,9 +203,3 @@ Intervence: Část tradice provedla autocritique a sebepředefinovala. Druhá č
 - **Glossary**:
   - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

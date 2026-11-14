@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/08-prilohy/"
 | **Kategorie** | 8. Přílohy |
 | **Subkategorie** | 8.1 Diagnostické nástroje |
 | **Typ hesla** | Diagnostický nástroj – sebehodnoticí dotazník metakognitivních přesvědčení |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Střední – dysfunkční metakognice udržují úzkost, depresi a zvyšují zranitelnost vůči cizímu výkladu vlastního myšlení |
 | **Validační status** | Ověřený výzkumný a klinický nástroj s pěti faktory; pevné klinické hranice se nestanovují |
 | **Rodičovská kapitola** | [08. Přílohy](@/kompendium/08-prilohy/_index.md) · [Diagnostické nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md) |

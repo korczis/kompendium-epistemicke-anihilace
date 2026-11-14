@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **EA kód** | `EA-5.5.6` |
 | **Kategorie** | 5. Ultramární techniky |
 | **Subkategorie** | 5.5 Transkonceptuální mechanismy |
-| **Přístupová úroveň** | L3 (omezená — výhradně pro kvalifikovanou klinickou, forenzní a doktrinální analýzu) |
 | **Riziková úroveň** | Extrémní — strukturální poškození identitárně-kognitivní integrity, dlouhodobé následky |
 | **Reverzibilita** | Velmi nízká — návrat vyžaduje rekonstrukční terapeutický rámec |
 | **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) |
@@ -71,6 +70,12 @@ Co může vidět vnější pozorovatel:
 | Subjekt vykazuje hlubokou pre-konceptuální dezintegraci | Manifestní stav |
 | Stav je rámován doktrinálně jako 'duchovní průlom' | Maskování |
 | Pokus o separaci vede k pre-konceptuálnímu kolapsu | Diagnostický test |
+
+## Proč se škoda zevnitř špatně pozná
+
+Každá z vrstev si zevnitř nese nevinné vysvětlení: tělesná zvláštnost je únava, rozpadlý čas uspěchané období, cizí atmosféra nezvyk. Na každou jednotlivou stížnost proto existuje samostatná odpověď a souběh, který je tím podstatným, se nikde nesejde pohromadě. Lindahl et al. (2017) zaznamenali u obtíží z intenzivní praxe právě tuto víceoblastní podobu.
+
+Celek se tak ztrácí v dílčích vysvětleních.
 
 ## Neutralizační strategie
 
@@ -172,9 +177,3 @@ vs. Mystická zkušenost (Stace 1960; Hood Mysticism Scale): Mystické zážitky
   - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
   - [Embodied cognition](@/glossary/embodied-cognition.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

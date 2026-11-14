@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **EA kód** | `EA-5.1.2` |
 | **Kategorie** | 5. Ultramární techniky |
 | **Subkategorie** | 5.1 [Epistemická singularita](@/glossary/epistemicka-singularita.md) |
-| **Přístupová úroveň** | L3 (omezená — výhradně pro kvalifikovanou klinickou, forenzní a doktrinální analýzu) |
 | **Riziková úroveň** | Extrémní — narušení kategoriálního rámce zkušenosti, dezorientace srovnatelná s [ontologickou anihilací](@/glossary/ontologicka-anihilace.md) |
 | **Reverzibilita** | Velmi nízká — rekonstrukce konceptuálního rámce vyžaduje kombinaci kognitivní a fenomenologické rehabilitace |
 | **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) |
@@ -194,9 +193,3 @@ Intervence: Podpůrná síť pro bývalé členy s explicitní pojmovou rehabili
 - **Forward-references**:
   - [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

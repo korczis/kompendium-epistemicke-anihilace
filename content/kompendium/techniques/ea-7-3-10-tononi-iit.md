@@ -26,7 +26,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/"
 | **Kategorie** | 7. Teoretické reflexe |
 | **Subkategorie** | 7.3 Kognitivní věda |
 | **Typ hesla** | Interpretační rámec – vědecká teorie vědomí s otevřeným statusem |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Nízká u teorie samé; střední u jejího komerčního a doktrinálního zneužití |
 | **Reverzibilita** | Dobrá |
 | **Rodičovská kapitola** | [7. Teoretické a metakonceptuální reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) |

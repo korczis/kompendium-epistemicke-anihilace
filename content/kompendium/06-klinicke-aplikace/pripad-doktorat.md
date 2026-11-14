@@ -46,33 +46,41 @@ Současně prof. R. **vpašoval** do disertačního textu vlastní teoretický r
 Případ M. demonstruje distinktní vzorec — **kompoziční Salami + Trojan** s podpůrnými technikami:
 
 ### EA-1.1.2 Informační přetížení
+
 Prof. R. systematicky zatěžoval M. excesivním množstvím doporučené literatury (50-80 textů na měsíc), kde navigace nebyla možná bez **trvalé deference** k filtrování ze strany školitele. M. **nikdy nemohl tvrdit**, že „přečetl literaturu“ — vždy existovalo víc nepřečteného než přečteného. [Detailní analýza techniky](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md).
 
 **Klinický marker**: V supervizní hodině 3 byl M. požádán, aby kvantifikoval, kolik z doporučené literatury **skutečně využíval pro disertaci**. Odhad: ~12 %. Zbytek tvořil **kognitivní zátěž bez přínosu**.
 
 ### EA-1.2.1 Falešné dilema
+
 Klíčové momenty disertačního vývoje byly prof. R. systematicky strukturovány jako **binární volby** (typologická univerzalita vs. úzká doménová studie; lineární vs. neuronová architektura; kvantitativní vs. kvalitativní), kde každá volba byla **nepravdivě** prezentovaná jako vyčerpávající. M. opakovaně volil mezi dvěma alternativami bez rozpoznání třetí, čtvrté, n-té možnosti. [Detailní analýza techniky](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md).
 
 ### EA-1.2.3 Iluzorní komplexita
+
 Disertační téma bylo v průběhu času **uměle komplexifikováno** — každá změna vyžadovala další subkomponentu, a každá subkomponenta další integraci. Po 3 letech se disertace strukturálně nestala „dokončitelnou“ — vždy existoval další **nezbytný** rozšiřující prvek. [Detailní analýza techniky](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md).
 
 **Klinický marker**: Při dotazu na **definici dokončení disertace** M. nedokázal formulovat operační kritéria. Každá formulace byla parafrázována zpět prof. R. jako „ne dostatečná“.
 
 ### EA-1.3.2 Strategická reinterpretace
+
 Empirické výsledky M. byly opakovaně prof. R. **reinterpretovány** — pozitivní výsledky byly přijímány „ano, ale očekávalo se to“, negativní jako „ano, ale to ukazuje hloubku problému“. Žádný experimentální výsledek neměl **falsifikační moc** vůči teoretickému rámci prof. R. [Detailní analýza techniky](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md).
 
 ### EA-1.3.3 Tematická diverze
+
 Konzultační setkání byla strukturována s **systematickou diverzí** od kritických bodů. Když M. otevíral problematický aspekt (např. nekompatibilita přístupu s jeho daty), prof. R. **redirektoval** — k tangenciálnímu metodologickému tématu, k osobnímu kontextu, k administrativní agendě. [Detailní analýza techniky](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md).
 
 **Klinický marker**: Dvouměsíční žurnál konzultačních setkání ukázal, že **77 % otevřených kritických bodů** ze strany M. nebylo v dané schůzce vyřešeno ani uzavřeno — bylo „odloženo“ (a nikdy znovu otevřeno).
 
 ### EA-1.4.1 Prosodická dominance
+
 Prof. R. udržoval **prosodicky dominantní pozici** v setkáních (objem hlasu, tempo, dlouhé monology s intonační uzávěrou nepřipouštějící přerušení). M. internalizoval pozici **akustického podřízeného**, což produkovalo **somaticky zakódovanou inhibici** — nemožnost klást otázky i když je intelektuálně formuloval. [Detailní analýza techniky](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md).
 
 ### Kompoziční vzorec Salami
+
 Změna disertačního zaměření probíhala přes ~30 mikrokroků v průběhu 3 let. Žádný jednotlivý krok nepřekročil práh M. resistence, ale agregátní posun byl **paradigmatický**. M. po 3 letech pracoval na disertaci, kterou by **odmítl** přijmout, kdyby mu byla v původní podobě navržena v 1. roce. [Viz Salami v kapitole 1](@/kompendium/03-zakladni-kategorie/kapitola-1.md).
 
 ### Kompoziční vzorec Trojan (Trojský kůň)
+
 Teoretický rámec prof. R. byl vpašován do disertace prostřednictvím **legitimních metodologických doporučení**. M. nedokázal v okamžiku obhajoby distinguovat, **které části** disertace pocházejí z jeho vlastního myšlení a **které** jsou převzaté od prof. R. To produkovalo **autorskou nejistotu** prahující etickou krizi.
 
 ## Klinická prezentace

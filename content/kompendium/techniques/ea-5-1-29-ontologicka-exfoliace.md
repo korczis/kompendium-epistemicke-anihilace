@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **EA kód** | `EA-5.1.29` |
 | **Kategorie** | 5. Ultramari techniky |
 | **Subkategorie** | 5.1 [Epistemická singularita](@/glossary/epistemicka-singularita.md) |
-| **Přístupová úroveň** | L5 (cosmic clearance) |
 | **Riziková úroveň** | Kritická — odstraňuje stabilní referenci reality, vede k dezintegraci základního orientačního aparátu |
 | **Reverzibilita** | Velmi nízká — vyžaduje rekonstrukční ontogenezi v terapeutickém kontextu |
 | **Rodičovská kapitola** | [Kapitola 5 — Ultramari techniky](@/kompendium/05-ultramari-techniky/_index.md) |
@@ -178,9 +177,3 @@ Uživatel internetové subkultury „od-iluze-osvobozený“ reportoval po 18 m�
   - [Epistemické trauma](@/glossary/epistemicke-trauma.md)
   - [Hermeneutika](@/glossary/hermeneutika.md)
   - [Fenomenologie](@/glossary/fenomenologie.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

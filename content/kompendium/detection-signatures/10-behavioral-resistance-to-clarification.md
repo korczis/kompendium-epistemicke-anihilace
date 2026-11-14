@@ -129,7 +129,3 @@ Rozlišit neochotu od neschopnosti upřesnit vyžaduje znalost osoby a kontextu,
 
 - [Sebe-obrana: Asertivní komunikace](@/kompendium/self-defense-guides/24-communication-assertiveness.md) – jak žádat upřesnění bez eskalace.
 - [Komunikační politika](@/kompendium/organizational-defense/23-communication-policy.md) – institucionální právo na vysvětlení.
-
----
-
-*Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)*

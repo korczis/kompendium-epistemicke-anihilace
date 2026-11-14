@@ -26,7 +26,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/"
 | **Kategorie** | 7. Teoretické reflexe |
 | **Subkategorie** | 7.3 Kognitivní věda |
 | **Typ hesla** | Interpretační rámec – výpočetní model vnímání, přesvědčení a jednání |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Střední u popsaného jevu – přepsaná očekávání se samy udržují jednáním |
 | **Reverzibilita** | Střední; nová očekávání vyžadují dlouhodobě jiné prostředí, ne jednorázový argument |
 | **Rodičovská kapitola** | [7. Teoretické a metakonceptuální reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) |

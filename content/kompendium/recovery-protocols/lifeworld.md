@@ -65,8 +65,8 @@ předchází zpracování obsahu (Herman, 1992).
 
 Práce začíná strukturou dne: spolu s klientem se sestaví jednoduchý týdenní rámec, který není novým
 „režimem“ nahrazujícím skupinová pravidla, ale lešením, jež klient může měnit, a kde je dovoleno
-položku porušit bez trestu. Obnova pravidelného rytmu aktivit má doloženou antidepresivní hodnotu
-jako behaviorální aktivace (Jacobson a kol., 2001). Následuje práce se smysly a tělem – krátké,
+položku porušit bez trestu. Obnova pravidelného rytmu aktivit má jako behaviorální aktivace doložený
+účinek na depresivní příznaky (Jacobson a kol., 2001). Následuje práce se smysly a tělem – krátké,
 nenáročné činnosti, které vracejí kontakt s přítomností (procházka po známé trase, vaření, práce
 rukama) –, s oporou [Uzemňovacích technik](@/kompendium/self-defense-guides/14-grounding-techniques.md)
 a [Somatické pozornosti](@/kompendium/self-defense-guides/13-somatic-awareness.md); v akutním období

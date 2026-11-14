@@ -26,7 +26,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/"
 | **Kategorie** | 7. Teoretické reflexe |
 | **Subkategorie** | 7.2 Analytická filozofie |
 | **Typ hesla** | Interpretační rámec – měřítko pro doktríny chráněné před vyvrácením |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Vysoká u popsaného jevu – imunizovaná doktrína činí člověka nedosažitelným pro zkušenost |
 | **Reverzibilita** | Střední; závisí na tom, jak hluboko je doktrína spojena s identitou |
 | **Rodičovská kapitola** | [7. Teoretické a metakonceptuální reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) |

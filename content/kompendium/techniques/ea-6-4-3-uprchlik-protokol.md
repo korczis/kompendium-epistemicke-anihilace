@@ -29,7 +29,6 @@ parent_chapter = "/kompendium/06-klinicke-aplikace/"
 | **EA kód** | `EA-6.4.3` |
 | **Kategorie** | 6. Klinické aplikace |
 | **Subkategorie** | 6.4 Vulnerabilní populace |
-| **Přístupová úroveň** | L2 (klinická) |
 | **Riziková úroveň** | Střední — vyžaduje kvalifikovaného klinika |
 | **Reverzibilita** | Vysoká při řádné implementaci |
 | **Rodičovská kapitola** | [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) |
@@ -104,19 +103,27 @@ V kompendiu EA je tento protokol veden jako populačně specifická adaptace, v 
 
 ## Vulnerabilní podpopulace
 
-Aplikace techniky **EA-6.4.3** vyžaduje specifickou modifikaci v následujících podpopulacích, kde standardní protokol nese zvýšené iatrogenní riziko:
+Protokol se potkává s lidmi, jejichž postavení je samo o sobě závislé. Některé skupiny mezi nimi nesou tu závislost dvakrát.
 
-**Děti a adolescenti (< 18 let)**: vývojově citlivá adaptace s explicitním zapojením pečující osoby (TF-CBT model), kratší sezení, vyšší frekvence stabilizačních prvků, hra a kreativní expresivní techniky jako preferovaný kanál. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). Doporučené nástroje: UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
+**Děti a adolescenti**: dítě v migraci často tlumočí a vyjednává za dospělé a vlastní stav tím odkládá. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization).
 
-**Geriatrická populace (> 65 let)**: kognitivní akomodace (delší pauzy, opakování klíčových konceptů, písemné podpůrné materiály), screening pro early-stage demenci (MoCA), zohlednění kohortně specifické historie (postkomunistická intergenerační traumata), častá komorbidita s chronickými somatickými onemocněními.
+Uvádějí se u dětí: TF-CBT model, UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
 
-**Komorbidní psychotické spektrum**: technika vyžaduje předchozí psychiatrickou stabilizaci v péči psychiatra, úzká spolupráce s psychiatrem, redukce konfrontačních elementů, posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
+**Geriatrická populace**: starý člověk po přesídlení ztrácí jazyk, v němž svému stavu rozuměl, a jeho tíseň se čte jako věk.
 
-**Komorbidní substance use disorders**: doporučená sekvence — primární SUD léčba do funkční remise, poté trauma-fokusovaná intervence. Paralelní integrované přístupy (Seeking Safety) jsou alternativou pro pacienty neschopné dosáhnout primární abstinence.
+Uvádí se tu MoCA při odlišení počínající demence.
 
-**Komorbidní borderline personality disorder**: rozšířená stabilizační fáze (DBT skill training) předchází trauma expozičním komponentám. Riziko regresivní idealizace/devalvace v terapeutickém vztahu vyžaduje peer-supervizi.
+**Komorbidní psychotické spektrum**: tvrzení o sledování a hrozbě má v postavení žadatele reálné jádro, které se od příznaku neodliší. Riziko: psychotická dekompenzace pod expozičním tlakem.
 
-**Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; preferovány sensorimotor a stabilizační intervence v perinatálním období.
+**Komorbidní substance use disorders**: užívání je v řízení o pobytu přitěžující okolností, a tak o něm dotčený člověk nemluví.
+
+Mezi uváděnými přístupy je Seeking Safety.
+
+**Komorbidní borderline personality disorder**: vztahy v zařízení se rychle obracejí. Riziko: regresivní idealizace a devalvace v terapeutickém vztahu.
+
+Uváděn bývá DBT skill training.
+
+**Gravidita a perinatální období**: přístup k péči je v tomto období vázán na pobytový status.
 
 ## Kdy je rámec legitimní
 

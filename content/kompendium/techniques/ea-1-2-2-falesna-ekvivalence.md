@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 | **EA kód** | `EA-1.2.2` |
 | **Kategorie** | 1. Akademické techniky intelektuální manipulace |
 | **Subkategorie** | 1.2 Narušení procesů evaluace a integrace |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Vysoká — pervazivní v médiích, vědecké komunikaci, politickém diskurzu |
 | **Reverzibilita** | Střední, vyžaduje aktivní kalibraci |
 | **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md) |
@@ -200,9 +199,3 @@ Intervence: Procedurální reforma — pre-decision meta-evaluation kvalitativn�
 - **Glossary**:
   - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

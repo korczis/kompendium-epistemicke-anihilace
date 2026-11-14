@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **EA kód** | `EA-5.3.17` |
 | **Kategorie** | 5. Ultramární techniky |
 | **Subkategorie** | 5.3 Hypertransformativní protokoly |
-| **Přístupová úroveň** | L3 (omezená — výhradně pro kvalifikovanou klinickou, forenzní a doktrinální analýzu) |
 | **Riziková úroveň** | Extrémní — strukturální poškození identitárně-kognitivní integrity, dlouhodobé následky |
 | **Reverzibilita** | Velmi nízká — návrat vyžaduje rekonstrukční terapeutický rámec |
 | **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) |
@@ -178,9 +177,3 @@ Odpovědi na otázky smyslu, konečnosti, svobody a samoty nelze postiženému p
 - [Glossary: Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
 - [Glossary: Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
 - [Glossary: Taxonomie EA](@/glossary/taxonomie-ea.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-6/"
 | **EA kód** | `EA-5.1.22` |
 | **Kategorie** | 5. Ultramární techniky |
 | **Subkategorie** | 5.1 Epistemická singularita |
-| **Přístupová úroveň** | L5 (ultramarine) |
 | **Riziková úroveň** | Extrémní — zasahuje samotnou kapacitu rozlišovat, postupuje pod prahem detekce |
 | **Reverzibilita** | Nízká — rekonstrukce ztracených distinkcí vyžaduje externí epistemickou referenci |
 | **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md) |
@@ -42,11 +41,11 @@ Diferenciální nihilace je **prerekvizitou** několika dalších ultramarine te
 
 ## Struktura vzorce
 
-Diferenciální nihilace se pozorovateli ukazuje na slovníku dřív než na názorech. Zasažený člověk pořád mluví, reaguje i argumentuje, ale rozdíly, které jeho řeč dřív nesly, z ní mizí: argument, apel a vyprávění splývají v souhrnné „promluvy“, dřív pečlivě oddělované termíny se zaměňují a projev lexikálně chudne. Okolí přitom zaznamenává opakovaný pocit, že „to je v zásadě totéž“, i tam, kde jde o věci různé, a v pokročilejším stavu neschopnost dřívější rozlišení vůbec zopakovat.
+Diferenciální nihilace se pozorovateli ukazuje na slovníku dřív než na názorech. Zasažený člověk pořád mluví, reaguje i argumentuje, ale rozdíly, které jeho řeč dřív nesly, z ní mizí: argument, apel a vyprávění splývají v souhrnné „promluvy“, dřív pečlivě oddělované termíny se zaměňují a projev lexikálně chudne. Okolí přitom zaznamenává opakovaný pocit, že „to je v zásadě totéž“, i tam, kde jde o věci různé, a v pokročilejším stavu neschopnost dřívější rozlišení vůbec zopakovat. Sám zasažený člověk přitom v téže době nemá co ohlásit: ztracené rozlišení by musel zaznamenat právě ten aparát, který zmizel, a úbytek se proto zevnitř jeví jako vyjasnění, ne jako chybění.
 
 Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Nejdřív bývají zasaženy hraniční případy, v nichž rozdíl skutečně jasný není a jejichž výběr je nápadně jednostranný. Pak se z toho, že některé případy jsou nejasné, stává tvrzení o celé distinkci — tedy záměna existenčního kvantifikátoru za univerzální, která zůstává v argumentaci zasaženého člověka jako stopa. Teprve pak se zplošťuje běžný slovník a nakonec je samotná snaha o jemné rozlišení označena za pedanterii a scholastiku, takže k tlaku kognitivnímu přistupuje tlak statusový. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-Detekční markery zachycené na této stránce odpovídají téže struktuře: zaměňování dřív oddělovaných termínů, chudnoucí slovník, kvantifikační záměny ve vlastní argumentaci a znehodnocování jemnosti.
+Detekční markery zachycené na této stránce odpovídají téže struktuře: zaměňování dřív oddělovaných termínů, chudnoucí slovník, kvantifikační záměny ve vlastní argumentaci a znehodnocování jemnosti. Poslední z nich uzavírá i vnější cestu k nálezu: text, který distinkce stále drží, je odmítnut dřív, než je přečten, takže chybějící rozdíl se nemá kde ohlásit.
 
 *Interpretace knihy*: sjednocování kategorií samo znakem vzorce není. Rozhoduje, kam vede: teoretická integrace dělí nakonec jemněji, zatímco tento vzorec dělit přestává. Právě tímto kritériem se obojí odliší, jak k rozlišovacím kritériím vede [jak používat kompendium](@/kompendium/01-predmluva/jak-pouzivat.md).
 
@@ -172,9 +171,3 @@ V postgraduálním programu byl studentům prezentován výklad, podle něhož �
 - **Filozofie**:
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

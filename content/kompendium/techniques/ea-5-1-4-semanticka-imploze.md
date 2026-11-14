@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **EA kód** | `EA-5.1.4` |
 | **Kategorie** | 5. Ultramární techniky |
 | **Subkategorie** | 5.1 [Epistemická singularita](@/glossary/epistemicka-singularita.md) |
-| **Přístupová úroveň** | L3 (omezený výzkumný přístup) |
 | **Riziková úroveň** | Extrémní — destrukce lingvistického substrátu myšlení, prakticky nereverzibilní bez intenzivní rehabilitace |
 | **Reverzibilita** | Velmi nízká — vyžaduje rekonstrukci sémantického pole zvenku, zpravidla v dlouhodobém terapeutickém rámci |
 | **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) |
@@ -185,9 +184,3 @@ Klient po 18 měsících intenzivního programu nebyl schopen popsat, co znamen�
 - **Forward-references**:
   - [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

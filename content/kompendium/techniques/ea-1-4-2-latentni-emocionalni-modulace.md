@@ -28,7 +28,6 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 | **EA kód** | `EA-1.4.2` |
 | **Kategorie** | 1. Akademické techniky intelektuální manipulace |
 | **Subkategorie** | 1.4 Paralingvistické manipulativní techniky |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Vysoká — strukturální mechanismus pro dlouhodobé manipulace |
 | **Reverzibilita** | Střední — vyžaduje vědomé monitorování emocionálních reakcí |
 | **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md) |
@@ -216,9 +215,3 @@ Intervence: Leadership coaching; **structural** safe space for substantive criti
   - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
   - [Epistemická alienace](@/glossary/epistemicka-alienace.md)
   - [Anankastický režim](@/glossary/anankasticky-rezim.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

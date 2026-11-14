@@ -29,7 +29,6 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-3/"
 | **EA kód** | `EA-3.2.5` |
 | **Kategorie** | 3. [Edukativní implementace](@/glossary/edukativni-implementace.md) |
 | **Subkategorie** | 3.2 Supervizorské techniky |
-| **Přístupová úroveň** | L1 (volný přístup, etická governance vyžadována) |
 | **Riziková úroveň** | Nízká až střední — primárně edukativní, iatrogenní rizika při nesprávné implementaci |
 | **Reverzibilita** | Vysoká — edukativní intervence jsou principiálně modifikovatelné |
 | **Rodičovská kapitola** | [Kapitola 3 — Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md) |
@@ -80,6 +79,10 @@ Rozlišení od neškodných jevů je nutné: tichá kohorta může být unavená
 Od neškodných jevů se vzorec odlišuje tím, co zůstává možné. Náročná supervize, nepříjemná zpětná vazba i vysoké nároky jsou legitimní a samy o sobě nic neznamenají; poznávacím znakem je, že supervidovaný už nemá, komu obtíž vynést, a že se neshoda přestala objevovat i tam, kde by věcně patřila (Ellis a kol., 2014).
 
 Druhým rozlišovacím hlediskem je čas. Jednorázový konflikt nebo období přetížení mají konec a pracoviště se po nich vrací k dřívějšímu způsobu práce; vzorec popsaný na této stránce se naopak usazuje jako nová norma, které si zúčastnění přestanou všímat (Bernard a Goodyear, 2019).
+
+## Jak se ochuzení pozná zevnitř
+
+Supervizor, jehož etická rozvaha se zúžila na soulad s předpisem, to sám neprožívá jako ztrátu. Rozhodování se mu zdá klidnější a úbytek nejistoty si vykládá jako zralost. Praktický úsudek přitom žije ze srovnávání s obtížnými případy, a kdo přestal hledat případ, v němž by vlastní závěr neplatil, nemá zevnitř čím rozdíl zachytit (Jonsen a Toulmin, 1988). Okolí si spíš všimne, že supervidovaní přestali s dilematy přicházet.
 
 ## Hodnotící kritéria
 
@@ -140,12 +143,3 @@ Druhým rizikovým kontextem je přenos případů mezi kulturními prostředím
 - **Klinické aplikace**: [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - **Filozofie**:
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
-## Connect & Contribute
-
-Stránku vytvořil [Tomáš Korcak (korczis)](https://github.com/korczis).
-Licence obsahu: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md).
-
-Další rozcestníky: [Glossary](@/glossary/_index.md), [Philosophy](@/philosophy/_index.md),
-[Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki),
-[Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues).

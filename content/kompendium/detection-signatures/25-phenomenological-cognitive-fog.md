@@ -134,7 +134,3 @@ Souvislost s kontaktem nevylučuje, že osoba má zároveň jinou poruchu, kter�
 - [6.2 Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md) – rámec rozlišení.
 - [Akutní kognitivní ukotvení](@/kompendium/recovery-protocols/acute-cognitive-anchoring.md) – první kroky stabilizace.
 - [Akutní kognitivní paralýza](@/kompendium/emergency-protocols/7-acute-cognitive-paralysis.md) – když mlha přejde v neschopnost jednat.
-
----
-
-*Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)*

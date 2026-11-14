@@ -28,7 +28,6 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 | **EA kód** | `EA-1.1.2` |
 | **Kategorie** | 1. Akademické techniky intelektuální manipulace |
 | **Subkategorie** | 1.1 Narušení procesů akvizice poznání |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Střední — masivní v moderních informačních prostředích, často strukturálně neintencionální |
 | **Reverzibilita** | Vysoká, pokud subjekt rozpozná stav zahlcení a zpomalí |
 | **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md) |
@@ -203,9 +202,3 @@ Intervence: Redesign — méně článků, více integračních seminářů, exp
   - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
   - [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
   - [Anankastický režim](@/glossary/anankasticky-rezim.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

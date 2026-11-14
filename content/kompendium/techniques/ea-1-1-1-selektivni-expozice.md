@@ -28,7 +28,6 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 | **EA kód** | `EA-1.1.1` |
 | **Kategorie** | 1. Akademické techniky intelektuální manipulace |
 | **Subkategorie** | 1.1 Narušení procesů akvizice poznání |
-| **Přístupová úroveň** | L1 (základní) |
 | **Riziková úroveň** | Střední — široce rozšířená, snadno detekovatelná **při povědomí**, obtížně detekovatelná **bez povědomí** |
 | **Reverzibilita** | Vysoká, pokud je rozpoznána a odstraněn zdroj filtrace |
 | **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md) |
@@ -205,10 +204,3 @@ První sloupec uvádí stránku nebo jev, druhý povahu vazby k filtraci, třet�
 - **Filozofie**:
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
-## Connect & Contribute
-
-Stránku vytvořil [Tomáš Korcak (korczis)](https://github.com/korczis).
-Licence obsahu: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md).
-
-Další rozcestníky: [Glossary](@/glossary/_index.md) a [Philosophy](@/philosophy/_index.md).

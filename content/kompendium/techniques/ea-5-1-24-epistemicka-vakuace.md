@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-6/"
 | **EA kód** | `EA-5.1.24` |
 | **Kategorie** | 5. Ultramární techniky |
 | **Subkategorie** | 5.1 Epistemická singularita |
-| **Přístupová úroveň** | L5 (ultramarine) |
 | **Riziková úroveň** | Extrémní — terminální stav, subjekt postrádá **základ** pro jakýkoli nárok |
 | **Reverzibilita** | Velmi nízká — vyžaduje rekonstrukci epistemické infrastruktury **z vnějšku** |
 | **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md) |
@@ -175,9 +174,3 @@ PhD studentka po dlouhodobém vystavení radikální variantě postmoderní teor
 - **Filozofie**:
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

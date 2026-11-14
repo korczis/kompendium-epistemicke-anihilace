@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 | **EA kód** | `EA-2.2.3` |
 | **Kategorie** | 2. Scénáře [delegitimizace](@/glossary/delegitimizace.md) |
 | **Subkategorie** | 2.2 Pedagogická koerce |
-| **Přístupová úroveň** | L2 (odborná analýza) |
 | **Riziková úroveň** | Vysoká – ovlivňuje celou budoucí odbornou dráhu |
 | **Reverzibilita** | Střední; téma lze změnit, ztracené roky ne |
 | **Rodičovská kapitola** | [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |

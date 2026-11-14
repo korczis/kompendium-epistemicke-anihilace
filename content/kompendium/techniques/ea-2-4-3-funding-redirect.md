@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 | **EA kód** | `EA-2.4.3` |
 | **Kategorie** | 2. Scénáře [delegitimizace](@/glossary/delegitimizace.md) |
 | **Subkategorie** | 2.4 Institucionální zachycení |
-| **Přístupová úroveň** | L2 (odborná analýza) |
 | **Riziková úroveň** | Vysoká – mění, co instituce vůbec dokáže zkoumat a učit |
 | **Reverzibilita** | Nízká; zrušené týmy, programy a infrastruktura se obnovují léta |
 | **Rodičovská kapitola** | [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
@@ -77,6 +76,12 @@ vyhladovění způsobilo. Zpětně ukazuje vzorec časová řada rozpočtů po j
 | Tlak na přizpůsobení | Úvaha, zda přejít k „perspektivnímu“ tématu. |
 | Rozpad týmu | Nejlepší lidé odcházejí jako první. |
 | Nejistota příčin | Neví, zda jde o úmysl, nebo o škrty pro všechny. |
+
+## Proč se škoda zevnitř špatně pozná
+
+Vzorec si zevnitř obstarává nevinné čtení sám: rozpočet se mění každý rok, úspory dopadají na mnohé a pokles výstupů je vidět dřív než pokles prostředků, který mu předcházel. Kdo zůstal, má proto blíž k výkladu, že nestačil, než ke struktuře. Smaldino a McElreath (2016) ukazují, že samo nastavení pobídek mění, jaká práce v prostředí přežije.
+
+Úmysl zevnitř rozpoznat nelze.
 
 ## Detekční markery (pohled pozorovatele)
 

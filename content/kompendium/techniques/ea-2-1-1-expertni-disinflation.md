@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 | **EA kód** | `EA-2.1.1` |
 | **Kategorie** | 2. Scénáře epistemické delegitimizace |
 | **Subkategorie** | 2.1 Expertní diskvalifikace |
-| **Přístupová úroveň** | L2 (pokročilá) |
 | **Riziková úroveň** | Vysoká — strukturálně poškozuje odborný diskurz, obtížně reverzibilní |
 | **Reverzibilita** | Nízká až střední — reputační poškození přetrvává i po vyvrácení |
 | **Rodičovská kapitola** | [Kapitola 2 — Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
@@ -151,9 +150,3 @@ Následující opatření jsou doporučením kompendia, nikoli postupem s dolož
   - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
 - **Filozofie**:
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-Rozcestníky: [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

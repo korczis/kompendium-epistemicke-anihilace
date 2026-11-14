@@ -147,7 +147,3 @@ Online kontakty komplikují měření: osoba může mít mnoho kontaktů, které
 
 - [Sebe-obrana: Prevence izolace](@/kompendium/self-defense-guides/26-isolation-prevention.md) – praktické pojistky.
 - [Akutní sociální rekonekce](@/kompendium/recovery-protocols/acute-social-reconnection.md) – první kroky k obnově sítě.
-
----
-
-*Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)*

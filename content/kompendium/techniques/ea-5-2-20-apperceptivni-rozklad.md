@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 | **EA kód** | `EA-5.2.20` |
 | **Kategorie** | 5. Ultramární techniky |
 | **Subkategorie** | 5.2 Metatranscendentální anihilace |
-| **Přístupová úroveň** | L4 (kosmická — výhradně doktrinální analýza) |
 | **Riziková úroveň** | Extrémní — kolaps "Já myslím" jako nutného doprovodu představ |
 | **Reverzibilita** | Velmi nízká —, často kombinovaná psychiatrická intervence |
 | **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
@@ -137,9 +136,3 @@ Klíčový diferenciál: **autentický buddhista funguje**; subjekt po appercept
 - **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
 - **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](@/glossary/intentionalita.md), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

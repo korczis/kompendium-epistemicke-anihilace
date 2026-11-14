@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/08-prilohy/"
 | **Kategorie** | 8. Přílohy |
 | **Subkategorie** | 8.1 Diagnostické nástroje |
 | **Typ hesla** | Diagnostický nástroj – strukturovaný klinický rozhovor (MacCAT-T, MacCAT-CR) |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Vysoká u rozhodnutí, která na posouzení stojí (léčba, majetek, svéprávnost) |
 | **Validační status** | Ověřené nástroje klinické a výzkumné praxe; výsledek je podkladem úsudku, ne automatickým verdiktem |
 | **Rodičovská kapitola** | [08. Přílohy](@/kompendium/08-prilohy/_index.md) · [Diagnostické nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md) |

@@ -26,7 +26,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/"
 | **Kategorie** | 7. Teoretické reflexe |
 | **Subkategorie** | 7.3 Kognitivní věda |
 | **Typ hesla** | Interpretační rámec – já jako model a podmínky jeho narušení |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Vysoká u popsaného jevu – narušený model já může vést k disociaci a dekompenzaci |
 | **Reverzibilita** | Obvykle dobrá, u dlouhodobě vyvolávaných stavů pomalá |
 | **Rodičovská kapitola** | [7. Teoretické a metakonceptuální reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) |

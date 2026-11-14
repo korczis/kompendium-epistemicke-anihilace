@@ -26,7 +26,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/"
 | **Kategorie** | 7. Teoretické reflexe |
 | **Subkategorie** | 7.3 Kognitivní věda |
 | **Typ hesla** | Interpretační rámec – katalog předvídatelných zkreslení úsudku |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Střední u popsaného jevu – jednotlivé zkreslení je malé, soustavně využívané mění obraz světa |
 | **Reverzibilita** | Vysoká u jednotlivých úsudků, nižší u přesvědčení, která na nich vyrostla |
 | **Rodičovská kapitola** | [7. Teoretické a metakonceptuální reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) |

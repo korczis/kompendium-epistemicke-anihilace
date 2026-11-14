@@ -60,7 +60,10 @@ Requirements (id: what is checked):
   drug-name        no named medication: a curated drug class or INN (antipsychotika, benzodiazepiny,
                    SSRI, sertralin, lithium …) in prose on any content page, bibliographies and
                    references.md excluded. Owner ADR 0013/0014: the book names no drugs; the content
-                   lane rewrites the drug generically. NEVER baselined
+                   lane rewrites the drug generically. Owner, ADR 0013 doplněk 2: a drug that is the
+                   documented subject of a historical case stays, so content/kompendium/historical-
+                   cases/ and links to it are exempt; "endogenní opioidy" is not medication.
+                   NEVER baselined
   authority-without-source  no name-dropped authority: a parenthetical citation of 2+ names with no
                    year on the line, pasted byte-identical on 3+ pages. The names may be a list of
                    surnames ("(Vondráček, Mečíř, …)") or one author surname-forename ("(Ferenczi,
@@ -104,6 +107,11 @@ Requirements (id: what is checked):
                    abuse defensively). The scope is the family, NOT whether the section cites: all the
                    EA-4 pages cite and some EA-6 do not, so "cited means keep" is wrong. Remedy:
                    replace with a contraindication / excluding-circumstances section. NEVER baselined
+  chrome-trailer   no hand-pasted site chrome in content: a "## Connect & Contribute" section or a
+                   "Created by […]" credit line. templates/partials/footer.html renders the author,
+                   licence, wiki and repository from config.extra on every page; the pasted copies
+                   came in five variants, some with broken bold and 60 linking the wrong
+                   repository (2026-11-14, 294 pages). Remedy: delete it. NEVER baselined
   code-range       no hand-written range of EA codes ("EA-5.4.1 — 5.4.30", "EA-4.1.1–4.1.10") in
                    prose or tables: the set of codes is derived from the technique pages, and a range
                    typed by hand goes stale the first time a technique is added (2026-11-12: the
@@ -112,13 +120,23 @@ Requirements (id: what is checked):
   duplicate-passage  no pasted prose: a paragraph (whitespace-normalised, 15+ words) re-pasted
                    byte-identical on 3+ content/kompendium pages, which no gate sees once it has no
                    figure. Excludes figure-bearing blocks (template-figure owns them), the "Created
-                   by …" chrome footer (a template partial, separate slice) and cross-reference /
+                   by …" credit (chrome-trailer owns it) and cross-reference /
                    relation list lines (derived by the okolí / Související engine, never pasted).
                    ADR 0013. Remedy: rewrite per page where it pretends to be per-technique content,
                    or move a genuine shared notice to a Zola include/partial; `scripts/dup-passages.py`
                    lists each block with its pages so a block is fixed across all of them at once.
                    NEVER baselined
-  howto            no operational playbook: a page carries no "Operační modus/postup/sekvence"
+  duplicate-table  no pasted table row: a table data row (whitespace- and EA-code-normalised, 8+
+                   words) re-pasted byte-identical on 3+ content/kompendium pages — the complement of
+                   duplicate-passage, which skips tables. Exempts ONLY a metadata field (a bold-label
+                   first cell AND a short second cell: a code, a level or a link); a pasted prose
+                   sentence in the second cell ("| **Mechanismus** | … |") stays charged. ADR 0013.
+                   Remedy: rewrite the row per page, or move a genuine shared field to a template.
+                   NEVER baselined
+  access-level-row  no hand-written access level: a "| **Přístupová úroveň** | … |" row in content.
+                   The access level is data (extra.access_level), rendered derived in the page header
+                   as a link to 1.5 Bezpečnostní klasifikace; a typed row drifts (it had 11 variants).
+                   Remedy: delete the row, rely on access_level. NEVER baselined
                    section (steps or phases for performing a technique on a person); the
                    defensive frame describes recognition and defence, not execution. NEVER
                    baselined; a "z hlediska supervize" reframing is a playbook too. Also refuses
@@ -183,6 +201,7 @@ import json
 import pathlib
 import re
 import sys
+import tomllib
 
 sys.dont_write_bytecode = True  # no __pycache__ in the checkout
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
@@ -241,9 +260,9 @@ def stamp(path: str, name: str, now_counts: dict) -> str:
 NEVER_BASELINED = {"placeholder", "technique-page", "howto", "drug-dose", "template-figure",
                    "bold-term", "bold-candidate",
                    "clinical-figure", "fabricated-citation", "legitimate-indication",
-                   "code-range",
+                   "code-range", "chrome-trailer",
                    "detail", "weak-link",
-                   "duplicate-passage",
+                   "duplicate-passage", "duplicate-table", "access-level-row",
                    "drug-name", "authority-without-source",
                    "platform-section", "relative-link", "platform-label", "platform-frontmatter",
                    "philosophy-frame"}
@@ -252,7 +271,7 @@ NEVER_BASELINED = {"placeholder", "technique-page", "howto", "drug-dose", "templ
 # the count grows. The number may only go down, and the entry goes when it reaches 0.
 PENDING_ZERO = {"placeholder": 0, "technique-page": 0, "howto": 0, "drug-dose": 0,
                 "bold-term": 0, "bold-candidate": 0,
-                "code-range": 0,
+                "code-range": 0, "chrome-trailer": 0,
                 "clinical-figure": 0,
                 "template-figure": 0, "platform-section": 0, "relative-link": 0,
                 "platform-label": 0, "platform-frontmatter": 0, "philosophy-frame": 0,
@@ -260,8 +279,10 @@ PENDING_ZERO = {"placeholder": 0, "technique-page": 0, "howto": 0, "drug-dose": 
                 "legitimate-indication": 0,
                 "detail": 199, "weak-link": 199,
                 "duplicate-passage": 281,
+                "duplicate-table": 249,  # measured on merged main c8394d3e after Přístupová úroveň removal; bold-label→short-value exempt
+                "access-level-row": 0,  # the row is derived from extra.access_level; 0 after removal
                 # safety, ADR 0013/0014: both reach 0 after the content lane's waves
-                "drug-name": 31, "authority-without-source": 0}  # 0 → never baselined (lands at 0 after 2e's slice)
+                "drug-name": 1, "authority-without-source": 0}  # 0 → never baselined (lands at 0 after 2e's slice)
 BOLD_CANDIDATE_PAGES = 3  # a bold phrase on this many pages is a term and needs its own page
 
 
@@ -325,8 +346,14 @@ def violations(page: dict) -> list:
         found.append("legitimate-indication")
     if page.get("code_ranges"):
         found.append("code-range")
+    if page.get("chrome_trailer"):
+        found.append("chrome-trailer")
     if page.get("duplicate_passages"):
         found.append("duplicate-passage")
+    if page.get("duplicate_tables"):
+        found.append("duplicate-table")
+    if page.get("access_level_row"):
+        found.append("access-level-row")
     if page.get("misnamed_techniques"):
         found.append("technique-name")
     if page["bold_unlinked"]:
@@ -357,10 +384,13 @@ def explain(page: dict) -> dict:
         "clinical-figure": "; ".join(page.get("clinical_figures", [])[:3]),
         "legitimate-indication": "; ".join(page.get("legitimate_indication", [])[:2]),
         "duplicate-passage": "; ".join(b[:60] for b in page.get("duplicate_passages", [])[:2]),
+        "duplicate-table": "; ".join(r[:60] for r in page.get("duplicate_tables", [])[:2]),
+        "access-level-row": "hand-written Přístupová úroveň row" if page.get("access_level_row") else "",
         "drug-name": ", ".join(page.get("drug_name", [])),
         "authority-without-source": "; ".join(f"({g})" for g in page.get("pasted_authorities", [])),
         "fabricated-citation": "; ".join(page.get("fabricated_citations", [])[:2]),
         "code-range": "; ".join(page.get("code_ranges", [])[:3]),
+        "chrome-trailer": "; ".join(page.get("chrome_trailer", [])[:2]),
         "technique-page": ", ".join("EA-" + c for c in page["missing_techniques"]),
         "technique-name": "; ".join(f"EA-{c} \"{h}\" is \"{t}\" in the catalogue"
                                     for c, h, t in page.get("misnamed_techniques", [])),
@@ -484,6 +514,7 @@ AUTHOR_YEAR = re.compile(
 # numbered differently on two pages still compares byte-identical.
 LIST_MARKER = re.compile(r"^(?:[-*+]\s+|\d+[.)]\s+|\(\d+\)\s+)")
 FABRICATED_CITATION_PAGES = 3  # a citation+stat unit identical on this many pages is a pasted study
+CHROME_TRAILER = re.compile(r"^#{1,6}\s+Connect & Contribute\b|^\*{0,2}Created by \[", re.M)
 CODE_RANGE = re.compile(r"EA-\d+\.\d+\.\d+`?\]?(?:\([^)\s]*\))?\s*(?:[—–-]{1,2}|až)\s*`?(?:EA-)?\d+\.\d+\.\d+")
 # A pasted, unsourced authority (ADR 0014): a parenthetical group of two or more capitalised
 # surnames with NO year on the line, repeated byte-identical across pages. A one-off "(Austin,
@@ -694,6 +725,11 @@ DUP_CHROME = re.compile(r"Created by|github\.com/korczis")
 # A cross-reference LINE: a list item of EA codes / links, or a block that opens with a link. A
 # prose paragraph with an INLINE @/ link is not excluded — it is still pasted prose.
 DUP_XREF = re.compile(r"^-\s*\*?\*?\[?EA-\d|^-\s*\[|^@/kompendium|^\[[^\]]*\]\(@/")
+# A page's own technique code, interpolated into an otherwise-pasted block ("Klinický kontext
+# **EA-4.2.5** připouští …"), makes every copy read as unique. Normalise the code, with its bold
+# markers, to a placeholder in the STORED block so the copies hash identically; the word count and
+# the exclusions above still run on the original text, not the placeholder.
+DUP_CODE = re.compile(r"\*{0,2}EA-\d+(?:\.\d+)*\*{0,2}")
 
 
 def passage_blocks(prose: str) -> set:
@@ -711,7 +747,7 @@ def passage_blocks(prose: str) -> set:
         if (len(DUP_WORD.findall(nb)) >= DUP_MIN_WORDS and nb[:1] not in "#|>"
                 and nb[:2] not in ("- ", "* ") and "@/kompendium" not in nb[:40]
                 and not DUP_CHROME.search(nb) and not DUP_XREF.search(nb) and not FIGURE.search(nb)):
-            out.add(nb)
+            out.add(DUP_CODE.sub("EA-§", nb))
 
     for line in prose.split("\n"):
         if line.strip():
@@ -722,9 +758,72 @@ def passage_blocks(prose: str) -> set:
     return out
 
 
+# Owner answer 2026-11-13 (ADR 0013, doplněk 2, "Keep in history"): a drug named as the documented
+# subject of a historical or regulatory case stays. The case pages are exempt by path, and a link
+# to one of them is exempt by its label ("[FDA a opioidy](@/kompendium/historical-cases/…)"), since
+# the label is the case's name. The body's own chemistry ("endogenní opioidy") is not medication.
+DRUG_HISTORY_PREFIX = "kompendium/historical-cases/"
+HISTORY_LINK = re.compile(r"\[[^\]]*\]\(@/" + re.escape(DRUG_HISTORY_PREFIX) + r"[^)]*\)")
+ENDOGENOUS = re.compile(r"\bendogenn\w*\s+opioid\w*", re.I)
+
+
+def drug_recognition() -> dict:
+    """Pages exempt from drug-name because they name a class to recognise, never to offer (owner,
+    ADR 0013 doplněk 3): path -> because, from data/drug-recognition.toml. An entry without a
+    `because` or naming a missing page is a hard error: the list never grows by accident."""
+    path = ROOT / "data" / "drug-recognition.toml"
+    if not path.exists():
+        return {}
+    out = {}
+    for entry in tomllib.loads(path.read_text()).get("page", []):
+        page, because = entry.get("path", ""), entry.get("because", "").strip()
+        if not because or entry.get("kind") not in ("emergency", "differential", "harm"):
+            sys.exit(f"check-ia: data/drug-recognition.toml: {page or '?'} needs kind and because")
+        if not (ROOT / page).exists():
+            sys.exit(f"check-ia: data/drug-recognition.toml: {page} does not exist")
+        out[page] = because
+    return out
+
+
+# A table DATA row ("| … |") re-pasted byte-identical across pages — the complement of
+# passage_blocks, which skips tables. The "|---|" delimiter is skipped. Exempt ONLY a metadata
+# field: a bold-label first cell AND a short second cell (a code, a level or a link, NOT a prose
+# sentence), so a pasted sentence in "| **Mechanismus** | … |" is still caught.
+TABLE_DELIM = re.compile(r"^\|[\s:|-]+\|?\s*$")
+TABLE_BOLD_LABEL = re.compile(r"^\*\*[^*]+\*\*$")
+TABLE_LINK_VALUE = re.compile(r"^\[[^\]]*\]\([^)]*\)$")  # a single markdown link counts as short
+DUP_TABLE_MIN_WORDS = 8
+# A hand-written "| **Přístupová úroveň** | … |" metadata row. The access level is data
+# (extra.access_level) and is rendered derived in the page header, linked to the classification
+# page; the row must not be re-typed into content, where it drifts (11 hand-written variants before
+# this). The gate refuses any such row on a kompendium page.
+ACCESS_LEVEL_ROW = re.compile(r"^\|\s*\*\*Přístupová úroveň\*\*\s*\|", re.M)
+
+
+def table_rows(prose: str) -> set:
+    """Normalised table data rows of DUP_TABLE_MIN_WORDS+ words, for cross-page duplicate detection
+    (passage_blocks' table complement). Skips the "|---|" delimiter; exempts a metadata field whose
+    first cell is a bold label and whose second cell is a short value (code/level/link)."""
+    out = set()
+    for line in prose.split("\n"):
+        s = line.strip()
+        if not (s.startswith("|") and s.endswith("|")) or TABLE_DELIM.match(s):
+            continue
+        cells = [c.strip() for c in s.strip("|").split("|")]
+        if (len(cells) >= 2 and TABLE_BOLD_LABEL.match(cells[0])
+                and (TABLE_LINK_VALUE.match(cells[1]) or len(DUP_WORD.findall(cells[1])) <= 5)):
+            continue  # a metadata field (label → short value), not pasted prose
+        nb = DUP_CODE.sub("EA-§", SPACE_RUN.sub(" ", s))
+        if len(DUP_WORD.findall(nb)) >= DUP_TABLE_MIN_WORDS:
+            out.add(nb)
+    return out
+
+
 def drug_names(prose: str) -> list:
     """The distinct named drugs/classes in prose outside bibliography sections (a work's title is
-    not a naming claim). content/references.md is excluded by the caller via EXEMPT."""
+    not a naming claim). content/references.md is excluded by the caller via EXEMPT, the historical
+    case pages by DRUG_HISTORY_PREFIX; links to those cases and endogenous chemistry are skipped."""
+    prose = ENDOGENOUS.sub("", HISTORY_LINK.sub("", prose))
     kept, in_biblio = [], False
     for line in prose.split("\n"):
         if line.startswith("#") and HEADING_PREFIX.match(line):
@@ -742,11 +841,13 @@ def analyse(pages: list) -> dict:
     terms = bold_term_index(pages)
     codes = technique_codes(pages)
     catalogue = catalogue_titles(pages)
+    recognition = drug_recognition()
     phrases = collections.defaultdict(set)
     shown = {}
     figures = collections.defaultdict(set)
     fabricated = collections.defaultdict(set)
     passages = collections.defaultdict(set)
+    tables = collections.defaultdict(set)
     authorities = collections.defaultdict(set)
     lower_freq = collections.Counter()
     for page in pages:
@@ -775,8 +876,16 @@ def analyse(pages: list) -> dict:
                    | ({m.group(0) for m in LEGIT_FRAME_SENTENCE.finditer(prose)} if non_recovery else set()))
             if technique else [])
         page["drug_dose"] = has_drug_dose(prose)
-        page["drug_name"] = ([] if f"content/{page['path']}" in EXEMPT
-                             else drug_names(prose))
+        key = f"content/{page['path']}"
+        names = ([] if key in EXEMPT or page["path"].startswith(DRUG_HISTORY_PREFIX)
+                 else drug_names(prose))
+        if key in recognition:
+            # a recognition page passes while it names a drug; once it names none the entry is
+            # stale and is charged, so the exemption is removed with its reason
+            names = [] if names else ["stale entry in data/drug-recognition.toml"]
+        page["drug_name"] = names
+        page["access_level_row"] = (page["path"].startswith("kompendium/")
+                                    and bool(ACCESS_LEVEL_ROW.search(prose)))
         lower_freq.update(LOWER_WORD.findall(prose))
         for line in prose.split("\n"):
             if AUTHORITY_YEAR.search(line):
@@ -785,6 +894,7 @@ def analyse(pages: list) -> dict:
                 authorities[m.group(1)].add(page["path"])
         page["clinical_figures"] = clinical_figures(prose) if page["path"].startswith("kompendium/") else []
         page["code_ranges"] = [m.group(0) for m in CODE_RANGE.finditer(prose)]
+        page["chrome_trailer"] = [m.group(0).strip("*# ") for m in CHROME_TRAILER.finditer(body)]
         page["platform_section"] = (
             [m.group(0).strip() for m in PLATFORM_HEADING.finditer(prose)]
             + sorted({m.group(0) for m in PLATFORM_MARKER.finditer(body)}))
@@ -804,6 +914,8 @@ def analyse(pages: list) -> dict:
                 fabricated[unit].add(page["path"])
             for blk in passage_blocks(prose):
                 passages[blk].add(page["path"])
+            for row in table_rows(prose):
+                tables[row].add(page["path"])
         page["bold_unlinked"] = []
         for start, _, text, linked in bold_spans(body, lines):
             if linked:
@@ -846,6 +958,12 @@ def analyse(pages: list) -> dict:
     for page in pages:
         page["duplicate_passages"] = sorted(b for b, paths in dup_shared.items()
                                             if page["path"] in paths)
+    # duplicate-table: a table data row re-pasted byte-identical on DUP_PAGES+ pages (tables are
+    # outside passage_blocks' reach). Same threshold and normalisation as the prose gate.
+    tab_shared = {r: paths for r, paths in tables.items() if len(paths) >= DUP_PAGES}
+    for page in pages:
+        page["duplicate_tables"] = sorted(r for r, paths in tab_shared.items()
+                                          if page["path"] in paths)
     # Only bold candidates become worklist entries: they are pages the book still owes. A shared
     # figure is not a page to write but a line to delete, and `--list template-figure` names the
     # pages that carry it.

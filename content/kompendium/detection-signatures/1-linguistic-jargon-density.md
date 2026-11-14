@@ -166,7 +166,3 @@ Hranice mezi oborovou kulturou a uzavírajícím se jazykem skupiny je navíc pl
 - [Diagnostické indikátory a markery EA](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) – zařazení signatury do klinického vyšetření.
 - [Středně-dobý hermeneutický reset](@/kompendium/recovery-protocols/midterm-hermeneutic-reset.md) – návrat k vlastnímu jazyku pro vlastní zkušenost.
 - [Sebe-obrana: Hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md) – co požadovat místo složité formulace.
-
----
-
-*Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)*

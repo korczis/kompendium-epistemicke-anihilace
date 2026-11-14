@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/04-terminalni-protokoly/"
 | **EA kód** | `EA-4.1.1` |
 | **Kategorie** | 4. Terminální protokoly |
 | **Subkategorie** | 4.1 Extrémní výcviková sekvence |
-| **Přístupová úroveň** | L2 (omezená — výhradně pro kvalifikovanou klinickou, forenzní a doktrinální analýzu) |
 | **Riziková úroveň** | Vysoká — terminální protokoly vyžadují přísný supervizní rámec, [IRB](@/glossary/irb-review.md) přezkum a doložitelnou klinickou kompetenci |
 | **Reverzibilita** | Střední — návrat vyžaduje supervidovanou rekonstrukční fázi v řádu měsíců až let |
 | **Rodičovská kapitola** | [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md) |
@@ -58,15 +57,10 @@ U zakládající fáze bývá nepřítomnost těchto pojistek jediným nálezem,
 
 Vstupní fázi tohoto druhu stránka nepředepisuje ani neschvaluje; uvádí jen, co je na chybějící pojistce vidět.
 
-| Pojistka | Co znamená její nepřítomnost |
-|----------|------------------------------|
-| **[IRB přezkum](@/glossary/irb-review.md)** | Nikdo mimo dané uspořádání jeho přínos a jeho rizika nevážil a o žádném takovém vážení nezůstal zápis |
-| **[Informovaný souhlas](@/glossary/informed-consent.md)** | Zasažený člověk neumí říct, s čím souhlasil, od koho to slyšel a co se stane, když přestane |
-| **Průběžné sledování stavu** | Zhoršení nikdo nezaznamenával, nebo se zaznamenaný údaj vykládal jako součást procesu; nezůstalo nic, co by šlo zpětně srovnat |
-| **Shoda na tom, kdy přestat** | Nikdo se předem neshodl na tom, co by platilo za důvod přestat; otázku, kdy je toho dost, zodpovídá zpětně tentýž, kdo uspořádání vede |
-| **Nezávislý audit** | Na průběh se nepodíval nikdo, kdo by na něm nebyl zúčastněn, a námitka zvenčí se vyřizuje uvnitř |
-| **Dokumentační řetězec** | Záznam neexistuje, nebo vznikl zpětně a drží jej ten, kdo je zároveň aktérem; řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) nelze rekonstruovat |
-| **Kanál pro oznamovatele** | Člověk, který chce o věci mluvit, nemá kam; každá cesta vede k tomu, kdo je sám předmětem námitky |
+{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
+|---|---|
+{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
+{% endfor %}
 
 ## Okolnosti, které vstupní fázi vylučují
 
@@ -158,10 +152,3 @@ Druhým rizikovým kontextem je závislé postavení uchazeče. Kde vstup rozhod
 - **Forward-references**:
   - [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-
-## Connect & Contribute
-
-Stránku vytvořil [Tomáš Korcak (korczis)](https://github.com/korczis).
-Licence obsahu: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md).
-
-Další rozcestníky: [Glossary](@/glossary/_index.md), [Philosophy](@/philosophy/_index.md).

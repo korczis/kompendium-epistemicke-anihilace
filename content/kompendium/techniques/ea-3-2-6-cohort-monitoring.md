@@ -29,7 +29,6 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-3/"
 | **EA kód** | `EA-3.2.6` |
 | **Kategorie** | 3. [Edukativní implementace](@/glossary/edukativni-implementace.md) |
 | **Subkategorie** | 3.2 Supervizorské techniky |
-| **Přístupová úroveň** | L1 (volný přístup, etická governance vyžadována) |
 | **Riziková úroveň** | Nízká až střední — primárně edukativní, iatrogenní rizika při nesprávné implementaci |
 | **Reverzibilita** | Vysoká — edukativní intervence jsou principiálně modifikovatelné |
 | **Rodičovská kapitola** | [Kapitola 3 — Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md) |
@@ -143,12 +142,3 @@ Druhým rizikovým kontextem je sběr dat, který sám mění, co se měří. An
 - [Kapitola 3 – Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md) – rodičovská kapitola.
 - [6.6 Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) – supervize v klinické praxi.
 - [Anonymizace ve výzkumu EA](@/kompendium/research-methodology/anonymization-EA-research.md) – ochrana dat kohorty.
-
-## Connect & Contribute
-
-Stránku vytvořil [Tomáš Korcak (korczis)](https://github.com/korczis).
-Licence obsahu: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md).
-
-Další rozcestníky: [Glossary](@/glossary/_index.md), [Philosophy](@/philosophy/_index.md),
-[Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki),
-[Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues).

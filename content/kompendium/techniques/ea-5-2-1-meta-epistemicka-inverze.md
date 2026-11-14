@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **EA kód** | `EA-5.2.1` |
 | **Kategorie** | 5. Ultramární techniky |
 | **Subkategorie** | 5.2 Metatranscendentální anihilace |
-| **Přístupová úroveň** | L3 (omezená — výhradně doktrinální analýza) |
 | **Riziková úroveň** | Extrémní — narušení epistemické normativity samé |
 | **Reverzibilita** | Velmi nízká — návrat vyžaduje rekonstrukci epistemických standardů v terapeutickém rámci |
 | **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
@@ -177,9 +176,3 @@ Intervence: deplatformizace a rozprášení komunity — rekonstrukce standardů
   - [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

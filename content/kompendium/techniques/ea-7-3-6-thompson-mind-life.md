@@ -26,7 +26,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/"
 | **Kategorie** | 7. Teoretické reflexe |
 | **Subkategorie** | 7.3 Kognitivní věda |
 | **Typ hesla** | Interpretační rámec – enaktivní [teorie mysli](@/glossary/theory-of-mind.md) a autonomie |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Střední u popsaného jevu – zásah do tělesné seberegulace oslabuje celé poznávání |
 | **Reverzibilita** | Dobrá; tělesná a vztahová autonomie se obnovují s bezpečným prostředím |
 | **Rodičovská kapitola** | [7. Teoretické a metakonceptuální reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) |

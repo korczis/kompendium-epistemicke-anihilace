@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/05-pokrocile-operace/kapitola-6/"
 | **EA kód** | `EA-5.1.14` |
 | **Kategorie** | 5. Pokročilé operace |
 | **Subkategorie** | 5.1 [Epistemická singularita](@/glossary/epistemicka-singularita.md) |
-| **Přístupová úroveň** | L4 (kritická — riziko trvalého poškození) |
 | **Riziková úroveň** | Kritická — extrémně rezistentní vůči externí korekci kvůli vnitřní jistotě subjektu |
 | **Reverzibilita** | Velmi nízká — subjekt aktivně odmítá redukci své transcendentní zkušenosti |
 | **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-pokrocile-operace/kapitola-6/_index.md) |
@@ -206,9 +205,3 @@ Intervence: Časové ohraničení LLM kontaktu, návrat k tradiční lidské kon
 - **Filozofie**:
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

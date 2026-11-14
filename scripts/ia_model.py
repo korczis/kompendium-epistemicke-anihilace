@@ -333,14 +333,20 @@ OWN_FRAME = re.compile(r"\]\(@/kompendium/(?:01-predmluva/eticke-aspekty|01-pred
 MAX_OWN_FRAME = 3
 
 # An author-year citation. § numbers are not years: "§ 1724" is removed before matching.
-YEAR = r"(?<![\d/§.])(?:1[5-9]\d\d|20[0-4]\d)[a-z]?(?![\d/])"
+# A double year ("Kant, 1781/1787": first and second edition) is one citation; a statute number
+# ("40/2009 Sb.") is not, since its year follows a slash and the lookbehind refuses that.
+YEAR = (r"(?<![\d/§.])(?:1[5-9]\d\d|20[0-4]\d)[a-z]?"
+        r"(?:/(?:1[5-9]\d\d|20[0-4]\d)[a-z]?)?(?![\d/])")
 NAME = r"(?:(?:van|von|de|der|den|du|da|di|le|la|ten|ter)\s+)*[" + UPPER + r"][\w'’\-]*\w"
 # Further authors may be lower case (danah boyd: "Marwick a boyd (2011)"); "a kol.", "a kolegové",
 # "et al." close the list.
 AUTHORS = (NAME + r"(?:(?:\s*,\s*|\s*&\s*|\s+(?:a|and|und)\s+)(?:" + NAME + r"|[a-zà-ž][\w'’\-]*\w))*"
            r"(?:,?\s+(?:a\s+kol\.|a\s+kolegové|a\s+spolupracovníci|et\s+al\.))?")
 PAREN = re.compile(r"\(([^()]*)\)")
-PAREN_CITE = re.compile(r"(?:^|(?<=[\s;(]))(" + AUTHORS + r"),?\s+" + YEAR)
+# An initial that tells two authors of one surname apart ("Freud, A., 1936", "Freud, S. 1900") sits
+# between the name and the year; it is part of the citation, not a reason to miss it.
+INITIALS = r"(?:,\s*[" + UPPER + r"]\.(?:\s*[" + UPPER + r"]\.)*)?"
+PAREN_CITE = re.compile(r"(?:^|(?<=[\s;(]))(" + AUTHORS + r")" + INITIALS + r",?\s+" + YEAR)
 # Autor (rok): the parenthesis holds the year and no name ("DSM-5 (APA, 2013)" is the
 # parenthetical citation of APA, not a narrative one of DSM-5).
 NARRATIVE_CITE = re.compile(r"(?<![\w.])(" + AUTHORS + r")\s+\([^()A-Za-zÀ-ž]*" + YEAR + r"[^()]*\)")

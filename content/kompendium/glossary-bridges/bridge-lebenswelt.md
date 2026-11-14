@@ -37,7 +37,7 @@ oporu i jeho myšlení. Základní kategorii věnuje kniha kapitolu [Lebenswelt]
 
 Kniha popisuje žitý svět ve třech vrstvách, které se v manipulativním prostředí rozkládají
 postupně. První je **tělesná a časová vrstva** – spánek, jídlo, denní rytmus, prostor, v němž
-člověk žije. Merleau-Ponty ukázal, že vnímání je vždy tělesné; když se rozpadne denní rytmus,
+člověk žije. Merleau-Ponty (1945) ukázal, že vnímání je vždy tělesné; když se rozpadne denní rytmus,
 rozpadá se i jistota vnímání. Kniha tento rozklad popisuje v [EA-5.5.23 Rozkladu liminálního
 prostoru](@/kompendium/techniques/ea-5-5-23-liminalni-prostor-rozklad.md) a v celé části
 [Pre-konceptuální rozklad](@/kompendium/05-pre-konceptualni-rozklad/_index.md).
@@ -150,6 +150,7 @@ dřívější žitý svět byl sám nebezpečný – návrat do něj nemusí bý
 - Habermas, J. (1981). *Theorie des kommunikativen Handelns*. Suhrkamp.
 - Heidegger, M. (1927). *Sein und Zeit*. Niemeyer.
 - Husserl, E. (1954). *Die Krisis der europäischen Wissenschaften und die transzendentale Phänomenologie* (Husserliana VI). Martinus Nijhoff.
+- Merleau-Ponty, M. (1945). *Phénoménologie de la perception*. Gallimard.
 - Schutz, A., & Luckmann, T. (1973). *The Structures of the Life-World*. Northwestern University Press.
 
 ## Související

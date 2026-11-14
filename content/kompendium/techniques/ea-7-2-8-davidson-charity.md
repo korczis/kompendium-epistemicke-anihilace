@@ -26,7 +26,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/"
 | **Kategorie** | 7. Teoretické reflexe |
 | **Subkategorie** | 7.2 Analytická filozofie |
 | **Typ hesla** | Interpretační rámec – jak rozumíme druhým a kde je toto porozumění zranitelné |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Střední u popsaného jevu – vstřícnost je ctnost, kterou lze obrátit proti tomu, kdo ji projevuje |
 | **Reverzibilita** | Dobrá; kalibraci vstřícnosti se člověk může naučit znovu |
 | **Rodičovská kapitola** | [7. Teoretické a metakonceptuální reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) |

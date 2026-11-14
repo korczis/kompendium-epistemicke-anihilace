@@ -29,7 +29,6 @@ parent_chapter = "/kompendium/06-klinicke-aplikace/"
 | **EA kód** | `EA-6.5.8` |
 | **Kategorie** | 6. Klinické aplikace |
 | **Subkategorie** | 6.5 Krizové intervence |
-| **Přístupová úroveň** | L2 (klinická) |
 | **Riziková úroveň** | Střední — vyžaduje kvalifikovaného klinika |
 | **Reverzibilita** | Vysoká při řádné implementaci |
 | **Rodičovská kapitola** | [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) |
@@ -104,19 +103,19 @@ V kompendiu EA je denní program veden jako mezistupeň mezi hospitalizací a b�
 
 ## Vulnerabilní podpopulace
 
-Aplikace techniky **EA-6.5.8** vyžaduje specifickou modifikaci v následujících podpopulacích, kde standardní protokol nese zvýšené iatrogenní riziko:
+Denní program je úroveň péče, do níž se dostane ten, kdo do ní může docházet; to samo rozděluje.
 
-**Děti a adolescenti (< 18 let)**: vývojově citlivá adaptace s explicitním zapojením pečující osoby (TF-CBT model), kratší sezení, vyšší frekvence stabilizačních prvků, hra a kreativní expresivní techniky jako preferovaný kanál. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). Doporučené nástroje: UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
+**Děti a adolescenti**: několik hodin denně mimo školu je rozhodnutí o dítěti, na němž se dítě nepodílí. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). Zmiňované nástroje a modely jsou u této skupiny tyto: TF-CBT model, UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
 
-**Geriatrická populace (> 65 let)**: kognitivní akomodace (delší pauzy, opakování klíčových konceptů, písemné podpůrné materiály), screening pro early-stage demenci (MoCA), zohlednění kohortně specifické historie (postkomunistická intergenerační traumata), častá komorbidita s chronickými somatickými onemocněními.
+**Geriatrická populace**: docházení do programu naráží ve vyšším věku na pohyblivost a dopravu, takže se nabídka tiše ztratí; jmenovaným nástrojem je MoCA.
 
-**Komorbidní psychotické spektrum**: technika vyžaduje předchozí psychiatrickou stabilizaci vedenou psychiatrem, úzkou spolupráci s ním, redukci konfrontačních elementů a posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
+**Komorbidní psychotické spektrum**: skupinový provoz nese stálý interakční tlak. Riziko: psychotická dekompenzace pod expozičním tlakem.
 
-**Komorbidní substance use disorders**: doporučená sekvence — primární SUD léčba do funkční remise, poté trauma-fokusovaná intervence. Paralelní integrované přístupy (Seeking Safety) jsou alternativou pro pacienty neschopné dosáhnout primární abstinence.
+**Komorbidní substance use disorders**: vstup do programu bývá vázán na abstinenci, takže souběh užívání zůstává mimo péči; u tohoto souběhu se jmenuje Seeking Safety.
 
-**Komorbidní borderline personality disorder**: rozšířená stabilizační fáze (DBT skill training) předchází trauma expozičním komponentám. Riziko regresivní idealizace/devalvace v terapeutickém vztahu vyžaduje peer-supervizi.
+**Komorbidní borderline personality disorder**: ve skupině se idealizace a devalvace projeví dřív než jinde a slouží pak jako důvod k ukončení. Uváděn je DBT skill training.
 
-**Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; preferovány sensorimotor a stabilizační intervence.
+**Gravidita a perinatální období**: denní režim naráží v tomto období na péči o dítě, kterou nelze přerušit.
 
 ## Kdy je rámec legitimní
 

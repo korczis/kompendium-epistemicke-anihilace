@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/05-pokrocile-techniky/kapitola-6/"
 | **EA kód** | `EA-5.1.19` |
 | **Kategorie** | 5. Pokročilé techniky epistemické anihilace |
 | **Subkategorie** | 5.1 Epistemická singularita |
-| **Přístupová úroveň** | L3 (pokročilá) |
 | **Riziková úroveň** | Kritická — produkuje subjektivní stav, který subjekt interpretuje jako vyšší formu poznání |
 | **Reverzibilita** | Nízká — subjekt aktivně odmítá racionální intervenci jako "nedostatečnou" |
 | **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-pokrocile-techniky/kapitola-6/_index.md) |
@@ -42,7 +41,7 @@ Technika je strukturálním vrcholem [EA-5.1 epistemické singularity](@/kompend
 
 ## Struktura vzorce
 
-Kvazi-mystická anihilace se pozorovateli neohlašuje obsahem prožitku, ale tím, co po prožitku chybí. Zasažený člověk popisuje jednotu, transcendenci a bezprostřední vhled; okolí ve stejném období zaznamenává, že zmizela schopnost rozlišovat mezi vlastní myšlenkou a vnějším zdrojem, mezi omylem a pravdou, mezi potvrzením a vyvrácením. Fenomenologicky je stav od autentické zkušenosti nerozlišitelný — rozdíl je v tom, že chybí diagnostický rámec, jímž tradice sama odlišuje vhled od klamu.
+Kvazi-mystická anihilace se pozorovateli neohlašuje obsahem prožitku, ale tím, co po prožitku chybí. Zasažený člověk popisuje jednotu, transcendenci a bezprostřední vhled; okolí ve stejném období zaznamenává, že zmizela schopnost rozlišovat mezi vlastní myšlenkou a vnějším zdrojem, mezi omylem a pravdou, mezi potvrzením a vyvrácením. Fenomenologicky je stav od autentické zkušenosti nerozlišitelný — rozdíl je v tom, že chybí diagnostický rámec, jímž tradice sama odlišuje vhled od klamu. Zevnitř se stav nehlásí jako ztráta, ale jako zisk: jistota, s níž se dřívější pochybnosti jeví jako překonaná nezralost, je prožívána jako doklad vhledu, a proto zasažený člověk nemá důvod hledat korekci. Okolí naopak vidí, že táž jistota provází každé téma bez rozdílu a že se nemění ani tam, kde se změnily okolnosti.
 
 Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Nejprve bývá zachyceno prostředí s jednou autoritou, která transcendentní poznání zprostředkovává i vykládá a jejíž slovník předem znehodnocuje každou námitku. Pak následuje fyziologicky alterovaný stav, který je sám o sobě skutečný a měřitelný. Teprve výklad tohoto stavu je už předem připravený, takže ve stavu, v němž nezávislá interpretace nevzniká, se použije ta nabídnutá. Nakonec přichází rámec nepřenositelnosti: co se stalo, prý nelze sdělit, a kdo to nezažil, nemůže mluvit. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
@@ -170,9 +169,3 @@ Klient absolvoval sérii ayahuasca seancí s „shamanem“ bez klinické superv
 - **Filozofie**:
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

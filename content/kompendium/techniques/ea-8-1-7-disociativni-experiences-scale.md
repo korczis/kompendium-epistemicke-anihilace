@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/08-prilohy/"
 | **Kategorie** | 8. Přílohy |
 | **Subkategorie** | 8.1 Diagnostické nástroje |
 | **Typ hesla** | Diagnostický nástroj – sebehodnoticí screeningová škála |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Střední až vysoká u zachyceného jevu – výrazná disociace provází závažné trauma a komplikuje léčbu |
 | **Validační status** | Široce užívaný a opakovaně ověřený screeningový nástroj; nenahrazuje diagnostický rozhovor |
 | **Rodičovská kapitola** | [08. Přílohy](@/kompendium/08-prilohy/_index.md) · [Diagnostické nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md) |

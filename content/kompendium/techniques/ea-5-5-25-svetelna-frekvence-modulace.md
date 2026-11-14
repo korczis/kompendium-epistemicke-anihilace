@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **EA kód** | `EA-5.5.25` |
 | **Kategorie** | 5. Ultramární techniky |
 | **Subkategorie** | 5.5 Transkonceptuální mechanismy |
-| **Přístupová úroveň** | L3 (omezená — výhradně pro kvalifikovanou klinickou, forenzní a doktrinální analýzu) |
 | **Riziková úroveň** | Extrémní — strukturální poškození identitárně-kognitivní integrity, dlouhodobé následky |
 | **Reverzibilita** | Velmi nízká — návrat vyžaduje rekonstrukční terapeutický rámec |
 | **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) |
@@ -47,6 +46,10 @@ Klinicky je podstatné, že fotosenzitivní reakce jsou známé neurologické ri
 Od zájmu o světelné prostředí se vzorec liší tím, že zdravotní událost je vykládána jako potvrzení a že vyšetření nepřichází v úvahu. Herman (1992) popisuje toto zúžení rozvahy jako důsledek asymetrického vztahu.
 
 *Interpretace knihy*: nálezem je to, že zážitek bez určitého prostředí nepřichází.
+
+## Proč se škoda zevnitř špatně pozná
+
+Tělesná reakce na světlo, ať je to tlak v hlavě, neklid nebo zastřené vidění, přichází zároveň s výkladem, který ji předem označuje za znamení. Zasažený člověk pak nemá důvod brát ji jako příznak, a nepříjemné prožitky spojené s praxí bývají v takovém prostředí čteny jako známka pokroku (Lindahl et al., 2017). Okolí spíš zaznamená, že odchází z běžně osvětlených místností.
 
 ## Fenomenologické znaky
 
@@ -170,9 +173,3 @@ vs. Mystická zkušenost (Stace 1960; Hood Mysticism Scale): Mystické zážitky
   - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
   - [Embodied cognition](@/glossary/embodied-cognition.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

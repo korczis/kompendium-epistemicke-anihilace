@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **EA kód** | `EA-5.4.14` |
 | **Kategorie** | 5. Ultramární techniky |
 | **Subkategorie** | 5.4 Paradoxální metaanihilační protokoly |
-| **Přístupová úroveň** | L3 (omezená — výhradně pro kvalifikovanou klinickou, forenzní a doktrinální analýzu) |
 | **Riziková úroveň** | Extrémní — strukturální destabilizace evaluativních rámců, [epistemické trauma](@/glossary/epistemicke-trauma.md) s rekurentními relapsy |
 | **Reverzibilita** | Velmi nízká — návrat vyžaduje rekonstrukci subjektova paradoxologického repertoáru ve chráněném klinickém rámci |
 | **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) |
@@ -62,6 +61,14 @@ autoritu jako jádro autoritářského uspořádání vztahu. Popsané pořadí 
 *Interpretace knihy*: rozlišujícím znakem není obtížnost paradoxu, ale to, zda po setkání s ním
 zůstává člověku zachována schopnost vynášet běžné soudy. Rámec, v němž se takový materiál čte,
 stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
+
+## Proč se škoda zevnitř špatně pozná
+
+Zasažený člověk svou vyčerpanost nečte jako škodu, ale jako doklad poctivosti: prohlásit úkol
+sebepoznání za dokončený by podle převzatého měřítka bylo selháním, takže každý další krok
+potvrzuje, že hledá správně. Nárok na sebekritiku, kterému nelze dostát, mění vinu v trvalý
+stav (Lifton, 1961). Okolí si spíš všimne, že dotyčný nevynáší ani soudy, které dříve
+nevyžadovaly reflexi.
 
 ## Fenomenologické znaky
 
@@ -169,10 +176,3 @@ Klíčové pojmové kotvy techniky: **Zenon z Eleje, Achilles a želva, konverge
 - **Forward-references**:
   - [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
----
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/korczis-prismatic-platform)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

@@ -8,12 +8,12 @@ tags = ["kompendium"]
 
 [extra]
 toc = false
-entries = 5280
+entries = 5281
 +++
 
 Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotlivých stránkách kompendia a glosáře; ručně se needituje.
 
-**5280 položek**, seřazených podle autora.
+**5281 položek**, seřazených podle autora.
 
 ## A
 
@@ -4626,6 +4626,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Případ 37: Totalizace v technologické monokultuře](@/kompendium/case-studies/37-tech-bro-totalizace.md), [Bridge: Instrumental reason (instrumentální rozum)](@/kompendium/glossary-bridges/bridge-instrumental-reason.md)</small>
 - Horkheimer, M., & Adorno, T. W. (1947). *Dialektik der Aufklärung*.  
   <small>Citováno: [EA-5.3.42 Totální sebeobjektifikace](@/kompendium/techniques/ea-5-3-42-self-objektifikace-totalni.md), [EA-7.1.3 Adorno: instrumentální rozum](@/kompendium/techniques/ea-7-1-3-adorno-instrumental-reason.md)</small>
+- Horkheimer, M., & Adorno, T. W. (1947). *Dialektik der Aufklärung: Philosophische Fragmente*. Amsterdam: Querido.  
+  <small>Citováno: [7.1 Filosofický rámec EA: Foucault, Adorno, Sloterdijk, Habermas](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)</small>
 - Horkheimer, M., & Adorno, T. W. (1947). *Dialektik der Aufklärung*. Querido.  
   <small>Citováno: [Vizualizace pro sekci 07 – mapa teoretických rámců](@/kompendium/07-teoreticke-reflexe/visualizations.md), [Bridge: Instrumental reason (instrumentální rozum)](@/kompendium/glossary-bridges/bridge-instrumental-reason.md)</small>
 - Horowitz, M., Wilner, N., & Alvarez, W. (1979). Impact of Event Scale: A measure of subjective stress. *Psychosomatic Medicine*, 41(3), 209–218.  
@@ -6752,7 +6754,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Merleau-Ponty, M. (1945). *Phénoménologie de la perception*.  
   <small>Citováno: [Předreflexivní vědomí](@/glossary/predreflexivni-vedomi.md), [EA-7.1.10 Merleau-Ponty: vtělenost](@/kompendium/techniques/ea-7-1-10-merleau-ponty-embodiment.md)</small>
 - Merleau-Ponty, M. (1945). *Phénoménologie de la perception*. Gallimard.  
-  <small>Citováno: [Tělesné schéma (body schema)](@/glossary/body-schema.md), [Embodied cognition (vtělená kognice)](@/glossary/embodied-cognition.md), [Epistemická derealizace](@/glossary/epistemicka-derealizace.md) a 39 dalších</small>
+  <small>Citováno: [Tělesné schéma (body schema)](@/glossary/body-schema.md), [Embodied cognition (vtělená kognice)](@/glossary/embodied-cognition.md), [Epistemická derealizace](@/glossary/epistemicka-derealizace.md) a 40 dalších</small>
 - **Merleau-Ponty, M.** (1945). *Phénoménologie de la perception*. Paris: Gallimard. — Tělesnost, vnímání, [tělesné schéma](@/glossary/body-schema.md).  
   <small>Citováno: [Chair](@/glossary/chair.md), [Pre-predikativní zkušenost (vorprädikative Erfahrung)](@/glossary/pre-predikativni-zkusenost.md), [Fenomenologie – prožitek jako kategorie analýzy](@/kompendium/03-zakladni-kategorie/fenomenologie.md) a 10 dalších</small>
 - Merleau-Ponty, M. (1960). *Signes*. Paris: Gallimard.  

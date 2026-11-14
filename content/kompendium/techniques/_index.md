@@ -343,11 +343,3 @@ EA-7.\* a EA-8.\* materiály jsou primárně publikovány jako narativní člán
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
 > tuto techniku jako instrumentum — pouze jako fenomenologický popis.
-
----
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

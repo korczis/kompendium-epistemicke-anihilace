@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/08-prilohy/"
 | **Kategorie** | 8. Přílohy |
 | **Subkategorie** | 8.3 Bibliografie |
 | **Typ hesla** | Bibliografický oddíl – léčebné směry a jejich manuály |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Nevztahuje se |
 | **Validační status** | Uvedena jen díla s jistou existencí; původní verze označovala všech pět směrů za „evidence-based“, stránka nyní rozlišuje sílu důkazů |
 | **Rodičovská kapitola** | [08. Přílohy](@/kompendium/08-prilohy/_index.md) · [Bibliografie a primární literatura](@/kompendium/08-prilohy/bibliografie.md) |

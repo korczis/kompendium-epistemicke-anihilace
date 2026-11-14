@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/08-prilohy/"
 | **Kategorie** | 8. Přílohy |
 | **Subkategorie** | 8.1 Diagnostické nástroje |
 | **Typ hesla** | Diagnostický nástroj – záznam chování a strukturovaný odhad rizika |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Vysoká – pronásledování může přejít v násilí a dlouhodobě rozkládá pocit bezpečí |
 | **Validační status** | Typologie a nástroje odhadu rizika jsou publikované a v praxi užívané; bodové skóre z původní verze stránky se nepodařilo doložit a bylo vypuštěno |
 | **Rodičovská kapitola** | [08. Přílohy](@/kompendium/08-prilohy/_index.md) · [Diagnostické nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md) |

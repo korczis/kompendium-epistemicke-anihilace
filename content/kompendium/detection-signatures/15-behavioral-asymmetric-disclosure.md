@@ -144,7 +144,3 @@ V online prostředí lze reciprocitu předstírat: zdroj sdílí smyšlené info
 
 - [Sebe-obrana: Kalibrace důvěry](@/kompendium/self-defense-guides/23-trust-calibration.md) – dávkování otevřenosti podle zkušenosti.
 - [Sebe-obrana: Odolnost vůči studu](@/kompendium/self-defense-guides/18-shame-resilience.md) – když hrozí zneužití sdíleného.
-
----
-
-*Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)*

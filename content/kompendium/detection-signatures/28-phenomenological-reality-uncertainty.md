@@ -146,7 +146,3 @@ Ztráta samozřejmé víry ve svět je fenomenologicky popsána lépe než empir
 - [Diferenciální diagnostika EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md) – klíčové rozlišení.
 - [Psychotický zlom po EA](@/kompendium/emergency-protocols/3-psychotic-break-EA.md) – krizový postup.
 - [Akutní kognitivní ukotvení](@/kompendium/recovery-protocols/acute-cognitive-anchoring.md) – vnější kotvy.
-
----
-
-*Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)*

@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 | **EA kód** | `EA-1.4.1` |
 | **Kategorie** | 1. Akademické techniky intelektuální manipulace |
 | **Subkategorie** | 1.4 Paralingvistické manipulativní techniky |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Středně vysoká — operuje pod prahem vědomé detekce |
 | **Reverzibilita** | Vysoká, pokud je rozpoznána |
 | **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md) |
@@ -168,10 +167,3 @@ Tři anonymizované kompozity ukazují tentýž rozpor v různém prostředí: p
 - **Forward-references**:
   - [Sekce 04 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
   - [Sekce 05 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
-
-## Connect & Contribute
-
-Stránku vytvořil [Tomáš Korcak (korczis)](https://github.com/korczis).
-Licence obsahu: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md).
-
-Další rozcestníky: [Glossary](@/glossary/_index.md), [Philosophy](@/philosophy/_index.md).

@@ -12,6 +12,7 @@ related_terms = ["ea-5-3-39-anti-individuacni-pust", "ea-5-3-42-self-objektifika
 ea_code = "EA-5.3.41"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.3 Hypertransformativní protokoly"
+access_level = "L3"
 parent_chapter = "/kompendium/05-ultramari-techniky/"
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
@@ -25,7 +26,6 @@ date_modified = "2026-11-10"
 | **EA kód** | `EA-5.3.41` |
 | **Kategorie** | 5. Ultramární techniky |
 | **Subkategorie** | 5.3 Hypertransformativní protokoly |
-| **Přístupová úroveň** | L3 (pro klinickou, forenzní a výzkumnou analýzu) |
 | **Riziková úroveň** | Vysoká |
 | **Reverzibilita** | Střední; po odchodu z prostředí se hranice já obnovují, často s bolestí |
 | **Rodičovská kapitola** | [Kapitola 8: Hypertransformativní protokoly](@/kompendium/05-ultramari-techniky/kapitola-8.md) |

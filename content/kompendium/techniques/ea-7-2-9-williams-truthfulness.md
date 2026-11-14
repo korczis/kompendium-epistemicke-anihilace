@@ -26,7 +26,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/"
 | **Kategorie** | 7. Teoretické reflexe |
 | **Subkategorie** | 7.2 Analytická filozofie |
 | **Typ hesla** | Interpretační rámec – ctnosti pravdivosti a jejich rozklad |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Vysoká u popsaného jevu na úrovni skupin a společností; cynismus vůči pravdě je nakažlivý |
 | **Reverzibilita** | Střední; důvěra v pravdivost druhých se obnovuje pomaleji než vlastní upřímnost |
 | **Rodičovská kapitola** | [7. Teoretické a metakonceptuální reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) |

@@ -29,7 +29,6 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-3/"
 | **EA kód** | `EA-3.3.3` |
 | **Kategorie** | 3. [Edukativní implementace](@/glossary/edukativni-implementace.md) |
 | **Subkategorie** | 3.3 Institucionální techniky |
-| **Přístupová úroveň** | L1 (volný přístup, etická governance vyžadována) |
 | **Riziková úroveň** | Nízká až střední — primárně edukativní, iatrogenní rizika při nesprávné implementaci |
 | **Reverzibilita** | Vysoká — edukativní intervence jsou principiálně modifikovatelné |
 | **Rodičovská kapitola** | [Kapitola 3 — Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md) |
@@ -138,12 +137,3 @@ Druhým rizikovým kontextem je destabilizující obsah bez opory. Učení, kter
 - **Klinické aplikace**: [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - **Filozofie**:
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
-## Connect & Contribute
-
-Stránku vytvořil [Tomáš Korcak (korczis)](https://github.com/korczis).
-Licence obsahu: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md).
-
-Další rozcestníky: [Glossary](@/glossary/_index.md), [Philosophy](@/philosophy/_index.md),
-[Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki),
-[Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues).

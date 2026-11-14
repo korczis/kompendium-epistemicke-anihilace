@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **EA kód** | `EA-5.1.7` |
 | **Kategorie** | 5. Ultramární techniky |
 | **Subkategorie** | 5.1 [Epistemická singularita](@/glossary/epistemicka-singularita.md) |
-| **Přístupová úroveň** | L3 (omezená — výzkumný / klinický / forenzní kontext) |
 | **Riziková úroveň** | Extrémní — produkuje persistentní decizní paralýzu, riziko sekundárního epistemického traumatu |
 | **Reverzibilita** | Nízká až střední; vyžaduje externí kotvu a strukturovanou rekonstituci uvažovacího řetězce |
 | **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) |
@@ -195,9 +194,3 @@ Intervence: Operační rekonstrukce — definice obou pojmů přes pozorovateln�
 - **Forward-refs**:
   - [Kapitola 4 — Operační principy](@/kompendium/04-operacni-principy/_index.md)
   - [Kapitola 6 — Epistemická singularita](@/kompendium/06-epistemicka-singularita/_index.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

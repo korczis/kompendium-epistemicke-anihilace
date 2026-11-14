@@ -143,7 +143,3 @@ Pojmy z polyvagální teorie (Porges, 2011) jsou v praxi užitečné metafory pr
 
 - [Akutní somatická regulace](@/kompendium/recovery-protocols/acute-somatic-regulation.md) – první krok obnovy.
 - [Akutní disociativní stav](@/kompendium/emergency-protocols/4-acute-dissociation-EA.md) – krizový postup.
-
----
-
-*Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)*

@@ -46,31 +46,37 @@ Po 18 měsících začala K. zaznamenávat **subtilní diskomfort** při čtení
 Klinický průběh i retrospektivní analýza odhalily systematickou přítomnost **pěti distinktních technik** organizovaných do kompozičního vzorce **Guru/adept** ([viz kapitola 1](@/kompendium/03-zakladni-kategorie/kapitola-1.md)):
 
 ### EA-1.1.1 Selektivní expozice
+
 Prof. P. systematicky usměrňoval K. v doporučené literatuře — kanonizoval okruh ~30 autorů jako **„seriózní“** a delegitimizoval celé proudy v oboru jako **„non-rigorózní“**, **„sociologický kýč“** nebo **„módní“**. K. po čase **automaticky odmítala** alternativní zdroje, často aniž by je četla. [Detailní analýza techniky](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md).
 
 **Klinický marker**: K. v iniciální supervizní hodině citovala 12 autorů — všech 12 patřilo do uzavřeného okruhu prof. P. Při dotazu na jeden z odmítaných proudů nedokázala uvést **ani jednoho specifického autora**, pouze opakovala generickou kritiku formulovanou prof. P.
 
 ### EA-1.1.3 Terminologická mystifikace
+
 Prof. P. systematicky budoval **interní slovník** (cca 40 termínů) jako **markery insider-statusu** výzkumné skupiny. Tyto termíny byly definovány **operacionálně přes příklady**, nikoli explicitně. K. internalizovala slovník bez schopnosti **explicitní definice** klíčových konceptů — což produkovalo trvalou subtilní úzkost při kontaktu s externím akademickým prostředím. [Detailní analýza techniky](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md).
 
 **Klinický marker**: V supervizní hodině 4 byla K. požádána, aby definovala tři klíčové termíny, které opakovaně používala. U všech tří selhala — produkovala parafráze, přibližné popisy, příklady použití, ale **nikoli definici**. Toto selhání produkovalo akutní stresovou reakci.
 
 ### EA-1.3.1 Imunizace proti falsifikaci
+
 Teoretický rámec prof. P. byl strukturován tak, aby každá kontradiktorní evidence mohla být **reinterpretována jako podporující** prostřednictvím auxiliárních hypotéz. K. prožívala oborové kritiky rámce jako **„nepochopení“** — interní rétorická figura, kterou převzala beze změny. [Detailní analýza techniky](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md).
 
 **Klinický marker**: Při explorativním dotazu **„Co by Vás přesvědčilo, že rámec prof. P. je chybný?“** K. nejprve nedokázala odpovědět vůbec, posléze formulovala podmínku takto extrémní, že byla prakticky nesplnitelná (a vykazovala sebezpevňující strukturu).
 
 ### EA-1.4.2 Latentní emocionální modulace
+
 Prof. P. systematicky moduloval emocionální tón mentorských setkání: **chválení v přítomnosti** vlastních textů a referencí, **subtilní chlad** při zmínce o jiných autorech, **enthusiastická afilace** při replikaci jeho metodologie. K. internalizovala emocionální mapu pole odpovídající těmto modulacím. [Detailní analýza techniky](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md).
 
 **Klinický marker**: K. popisovala **somatickou averzi** při čtení autorů odmítaných prof. P. — pocit „špatnosti“, „neserióznosti“ textu, který nekoreloval s žádnou specifickou substantivní kritikou. Tato somatická signatura byla pro K. nerozlišitelná od **autentické intelektuální evaluace**.
 
 ### EA-1.5.2 Dominantní tělesné hieroglyfy
+
 Prof. P. udržoval konzistentní postturální dominanci v setkáních (přesahující stůl při interpretaci, sezení v zorném poli při čtení K. textů, fyzický blok dveří při ukončování setkání). Tyto signály byly subkonstitutivně internalizovány jako **deference**. [Detailní analýza techniky](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md).
 
 **Klinický marker**: Při simulačním cvičení (s informovaným souhlasem) byla K. požádána, aby si vizualizovala setkání s prof. P. Manifestovala **fyzickou redukci** vlastní postury, ztišení hlasu a vizuální vyhýbání i v terapeutickém prostoru.
 
 ### Kompoziční vzorec Guru/adept
+
 Pět technik bylo organizováno do koherentního vzorce **Guru/adept** s pěti rozpoznatelnými fázemi:
 
 1. Demonstrace impresivní epistemické kapacity (rok 1)

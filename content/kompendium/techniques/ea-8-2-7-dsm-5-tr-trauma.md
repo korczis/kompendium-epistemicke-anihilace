@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/08-prilohy/"
 | **Kategorie** | 8. Přílohy |
 | **Subkategorie** | 8.2 Referenční rámce |
 | **Typ hesla** | Referenční rámec – kapitola americké diagnostické klasifikace |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Vysoká u zachycených poruch |
 | **Validační status** | Oficiální klasifikace Americké psychiatrické asociace (2022) |
 | **Rodičovská kapitola** | [08. Přílohy](@/kompendium/08-prilohy/_index.md) · [Bibliografie](@/kompendium/08-prilohy/bibliografie.md) |

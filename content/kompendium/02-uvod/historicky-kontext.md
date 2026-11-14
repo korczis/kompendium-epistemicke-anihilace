@@ -29,43 +29,55 @@ Ačkoli systematické studium epistemických traumat je relativně recentním fe
 ## Antické kořeny: epistemologie a manipulace
 
 ### Sokratovská tradice
+
 Sokratovský dialog jako **proto-detektor** epistemické manipulace. *Elenchos* odhaluje skryté předpoklady, jejichž zpochybnění vede k *aporii* — řízené epistemické dezorientaci s **konstruktivním** záměrem. Sokrates demonstruje, že destabilizace sama není destruktivní; rozhodující je **co následuje** — zda subjekt dostane prostor pro vlastní rekonstrukci, nebo zda je destabilizace exploitována k indukci nového externě dodaného obsahu.
 
 ### Platónova jeskyně
+
 **Platónova alegorie jeskyně** (cca 380 př. n. l.) představuje první systematickou reflexi radikální epistemické manipulace a zároveň **kolektivní epistemické zajatosti** — fenoménu, ve kterém celá skupina sdílí distortní obraz reality nerozeznatelný zevnitř od reality samotné. Alegorie obsahuje i motiv **aktivního odporu** k epistemické rekonstrukci: vězeň vrácený po expozici slunci by byl ostatními zabit, protože jeho narativ se vymyká rámci, v němž ostatní operují. Anticipace moderního pozorování o **agresivní imunitní reakci** epistemicky uzavřených komunit vůči disonantním zdrojům.
 
 ### Pyrrhonská skepse a Sextus Empiricus
+
 **Pyrrhonská skeptická škola** (3. století př. n. l.) rozpracovala systematické techniky epistemické suspenze (*epoché*), které, byť původně koncipované jako filozofická metoda, implicitně demonstrovaly možnost indukce systematického epistemického kolapsu. **Sextus Empiricus** (2. století n. l.) ve svém díle *Adversus Mathematicos* artikuloval tzv. „modus tollens ad absurdum" — specifickou formu argumentace, která může indukovat stav epistemické dezorientace.
 
 ### Aristotelova rétorika
+
 Systematizace **přesvědčovacích strategií** v *Rétorice* — první explicitní katalog technik použitelných legitimně i manipulativně. Trichotomický model (*ethos*, *pathos*, *logos*) předjímá dimenzionální analýzu manipulace. Klíčový vhled: technika je **eticky neutrální** strukturně a získává morální zabarvení **kontextem aplikace** a **vztahem k pravdivosti** — základ distinkce mezi legitimní persuazí a manipulací.
 
 ### Sofisté
+
 Sofistická tradice je **historickým prototypem** instrumentální epistemiky — systematické kultivace technik přesvědčení nezávislých na pravdivostní hodnotě. Platónova kritika sofistů zakládá normativní rozlišení mezi **legitimní** a **manipulativní** epistemickou praxí. Gorgiovo *Encomium of Helen* (cca 414 př. n. l.) tematizuje **moc slova** jako kvazi-fyzikální sílu nutící duši k přesvědčením proti racionální evaluaci — fenomenologicky precizní popis akutní epistemické kompromise.
 
 ## Středověká teologická psychologie
 
 ### Augustin a iluminace
+
 Augustinova teorie iluminace: poznání je **závislé na transcendentním zdroji**, jehož přerušení vede k epistemické dezintegraci. Modernizovaná verze: epistemická anihilace jako přerušení vztahu jedince ke zdroji epistemické integrity (sociální komunita, kulturní tradice, reflexivní kapacita). **Augustinova analýza kognitivních důsledků prvotního hříchu** poskytla první systematický model transgeneračního přenosu epistemického poškození. *Confessiones* dodávají fenomenologicky bohatý popis epistemické konverze i regrese — patrně první dostupný introspektivní materiál.
 
 ### Tomistická intelektuální virtus
+
 Tomáš Akvinský systematizuje **intelektuální ctnosti** (*virtutes intellectuales*) — strukturní dispozice umožňující adekvátní poznání. Inverze: identifikace **intelektuálních neřestí** dává proto-taxonomii epistemických selhání. Tomistický rámec je plodný, protože operuje na úrovni **dispozic** (nikoli pouze aktuálních přesvědčení) — tedy tam, kde současná taxonomie lokalizuje epistemickou anihilaci.
 
 ### Inquisiční technologie
+
 Inkviziční manuály (*Directorium Inquisitorum*, 1376) představují **temný protějšek** — první systematicky zdokumentované techniky **vynucené epistemické konverze**. Mnohé techniky popsané Bernardem Guidonim a Nikolausem Eymerichem mají strukturní analogy v moderních protokolech thought reformu.
 
 ## Osvícenství: kritická epistemologie
 
 ### Bacon a idoly
+
 Baconova teorie **idolů** (*Novum Organum*, 1620) — čtyři kategorie systematického epistemického zkreslení (idoly tribu, jeskyně, tržiště, divadla). První moderní pokus o **typologii epistemických selhání** s explicitním uznáním, že některé typy jsou **socialně indukované** (idoly tržiště) a **institucionalizované** (idoly divadla). Metodologicky průkopnické: namísto morálního odsouzení nabízí strukturní klasifikaci s intervenčními implikacemi.
 
 ### Descartova metodická pochybnost
+
 **Descartova metodická skepse** (*Meditationes*, 1641) demonstruje indukci dočasného stavu epistemické dezorientace jako nástroj odkrytí fundamentálních jistot — zároveň poukazuje na fragilitu poznávacích struktur. Distinkce **konstruktivní vs. destruktivní pochybnost** je dodnes klíčovým kritériem pro odlišení legitimní filosofické práce od manipulace. Hypotéza zlovolného démona je první explicitní konceptualizace stavu, kdy je celý epistemický aparát systematicky kompromitován.
 
 ### Humova kritika kauzality
+
 Hume demonstruje, že **mnoho epistemických jistot** je založeno na zvyku, nikoli racionální justifikaci. Otevírá prostor pro pochopení **manipulace skrze exploataci kognitivních heuristik** — vhled empiricky validovaný až o dvě století později programem Kahnemana a Tverskyho.
 
 ### Kantova transcendentální kritika
+
 **Kantova analýza transcendentálních iluzí** (*Kritika čistého rozumu*, 1781) artikuluje systematické epistemické distorze vyplývající ze samotné struktury poznávacího aparátu. Kant identifikuje **nutné předpoklady** poznání (kategorie, formy nazírání); jejich destabilizace = transcendentální epistemická anihilace. Strukturálně klíčové: distinkce mezi **obsahovou** úrovní (jednotlivá přesvědčení) a strukturální úrovní (předpoklady, jež poznávání umožňují) — paralelní modernímu rozlišení doxastické a epistemické anihilace.
 
 ## 19. století: formativní konceptualizace
@@ -73,12 +85,15 @@ Hume demonstruje, že **mnoho epistemických jistot** je založeno na zvyku, nik
 V průběhu 19. století došlo k významným konceptuálním posunům, které bezprostředně předcházely systematickému studiu epistemických traumat.
 
 ### Nietzscheova kritika „vůle k pravdě"
+
 Nietzscheův *perspektivismus* (*Genealogie morálky*, 1887) anticipuje možnost systematické manipulace s epistemickými standardy — uvědomění, že **kdo definuje, co se počítá za poznání**, kontroluje strukturu možného přesvědčení samotného.
 
 ### Marxova ideologie
+
 **Marxova analýza „falešného vědomí"** a koncept ideologie jako systematické distorze sociální kognice (*Německá ideologie*, 1845) položily základy pro porozumění **strukturálně mediovaným** formám epistemické manipulace, jež operují skrze ekonomické a třídní mechanismy bez nutnosti explicitní intencionální koordinace.
 
 ### Freudova obrana
+
 **Freudova identifikace obranných mechanismů** (1894) poskytla první systematický model **intrapsychických procesů**, které mohou vést k epistemické disociaci a kompartmentalizaci — fundamentální vhled, že epistemické distorze nemusí pocházet z vnějšku, ale mohou být **autogenerované** vlastní psychickou ekonomikou subjektu.
 
 Tyto filozofické konceptualizace, ačkoli nepředstavovaly systematické studium epistemických traumat v moderním slova smyslu, vytvořily nezbytný konceptuální základ pro pozdější empirické a klinické zkoumání těchto fenoménů.
@@ -102,6 +117,7 @@ První polovina 20. století přinesla počáteční empirické a klinické stud
 - **Freudův koncept rezistence** identifikuje aktivní obranné mechanismy proti epistemické rekonstrukci; **přenos** poskytuje rámec pro epistemickou autoritu v terapeutickém vztahu — strukturně analogickou epistemické dependenci v manipulativních systémech.
 
 #### Behavioristická redukce
+
 Behavioristé (Watson, Skinner) demonstrovali, že **velká část přesvědčení a chování** je formována podmiňováním nezávisle na racionálním uvědomění. Operantní podmiňování zůstává jednou z nejmocnějších technik indukce epistemických dispozic mimo vědomou kontrolu.
 
 #### Sociální psychologie sugesce a konformity
@@ -123,6 +139,7 @@ Společně etablovaly empirickou bázi pro **sociální mediaci** epistemické p
 V poválečném období došlo k výraznému posunu směrem k systematickému studiu fenoménů souvisejících s epistemickým traumatem a kognitivní anihilací. Toto období bylo charakterizováno snahou o porozumění procesům „vymývání mozků", indoktrinace a dalším formám systematické epistemické manipulace.
 
 #### Totalitní epistemická inženýrství a studia propagandy
+
 Frankfurtská škola (Adorno, Horkheimer), Hannah Arendtová (*Origins of Totalitarianism*, 1951), Victor Klemperer (*LTI — [Lingua Tertii Imperii](@/glossary/lti-lingua-tertii-imperii.md)*, 1947) — systematická analýza **státem indukované epistemické destrukce**. Klemperer zavádí pojem **lingvistické anihilace** — destrukce skrze redefinici klíčových slov. Klempererovo pozorování, že totalitní režim útočí primárně na **slovník** (a teprve sekundárně na konkrétní přesvědčení), předjímá moderní porozumění epistemické anihilaci jako útoku na **infrastruktury poznání** spíše než na jednotlivé poznatky.
 
 #### Brainwashing, thought reform a programovaná indoktrinace
@@ -179,9 +196,11 @@ Toto období přineslo konsolidaci studia epistemických traumat a integraci poz
 V průběhu 80. a 90. let probíhal vedle konceptuální konsolidace **paralelní kognitivní obrat**, jenž nakonec konvergoval s ostatními proudy do moderní taxonomie.
 
 #### Kahneman a Tversky
+
 Programy **heuristik a biasů** (od 1974) systematizují **predikovatelná epistemická selhání**. Dvojsystémová teorie (*[System 1 / System 2](@/glossary/system-1-system-2.md)*) poskytuje mechanistický rámec pro pochopení, proč určité manipulativní techniky fungují — exploitují systematické vlastnosti rychlého, asociativního zpracování (System 1), jež jsou evolucí optimalizovány pro rychlost, nikoli pro epistemickou robustnost.
 
 #### Sociální epistemologie
+
 Práce **Alvina Goldmana** (*Knowledge in a Social World*, 1999), **Mirandy Frickerové** (epistemické nespravedlnosti, 2007) a **Jennifer Nagelové** zavádějí epistemologii jako sociálně situovanou disciplínu. Frickerová poskytuje koncepty **testimonial injustice** (snížení důvěryhodnosti svědectví na základě identitních předsudků) a **hermeneutical injustice** (chybějící konceptuální zdroje pro artikulaci vlastní zkušenosti) jako forem **strukturální epistemické anihilace**.
 
 ### Současný výzkum a systematická taxonomie (2000–současnost)
@@ -213,6 +232,7 @@ V posledních dvou dekádách došlo k bezprecedentnímu rozvoji systematického
 - **Lopezové kritika „epistemického redukcionismu"** (2020) — holistické pojetí epistemických poruch jako multidimenzionálních fenoménů.
 
 #### Krize replikace
+
 Krize replikace v psychologii (od 2010) ukazuje, že **epistemická pochybnost** je mandatorní i vůči zdánlivě etablovanému poznání. Specifický metodologický důsledek pro tuto taxonomii: **literatura, jež se sama propaguje jako empiricky validovaná, může být sama produktem nereplikovatelných nálezů** — povinnost cross-disciplinární triangulace. Pro detailní [metodologii taxonomie](@/kompendium/02-uvod/metodologicke-poznamky.md) viz samostatná sekce.
 
 ### 21. století: digitální epistemická patologie
@@ -220,15 +240,19 @@ Krize replikace v psychologii (od 2010) ukazuje, že **epistemická pochybnost**
 Digitální transformace přinesla **strukturálně novou** vrstvu epistemických hrozeb, jež nelze beze zbytku redukovat na předchozí kategorie.
 
 #### Filter bubbles a echo chambers
+
 **Eli Pariser** (*The Filter Bubble*, 2011), **Cass Sunstein** (*Republic.com*) — algoritmicky kurátorovaná epistemická izolace. Klíčová strukturní inovace digitálního prostředí: epistemická manipulace nevyžaduje explicitního agenta — emerguje jako **neúmyslný produkt** optimalizačních algoritmů cílících na engagement.
 
 #### Disinformační operace
+
 **Renée DiResta**, **Kate Starbird** — empirická dokumentace státních a nestátních disinformačních kampaní. Konvergence akademického studia s aplikovanou bezpečnostní praxí (CISA, EUvsDisinfo, Stanford Internet Observatory).
 
 #### AI-mediated manipulace
+
 Vznikající fenomén **algoritmicky generované epistemické distorze** prostřednictvím LLM, deepfakes a synthetic media. Tato vrstva přidává kvalitativně nové výzvy — vůbec poprvé v dějinách poznání mohou být epistemické artefakty produkovány v měřítku a kvalitě, jež znemožňuje individuální verifikaci.
 
 #### Epistemic security
+
 Vznikající **interdisciplinární pole** integrující epistemologii, kognitivní vědy, kybernetickou bezpečnost a politickou teorii. Tato taxonomie kompendia se hlásí k tomuto poli jako **plnohodnotné komponentě** (viz [epistemic security](@/glossary/epistemic-security.md)).
 
 ---
@@ -268,21 +292,25 @@ Historická perspektiva ukazuje několik konstantních motivů, jež překračuj
 Na základě současného stavu lze identifikovat klíčové směry dalšího studia:
 
 ### Neurobiologický výzkum
+
 - Identifikace **neurobiologických markerů** specifických forem epistemického traumatu pokročilými zobrazovacími metodami
 - Výzkum **epigenetických mechanismů** transgeneračního přenosu epistemických vulnerabilit
 - Studie **neuroplastických mechanismů** epistemické rekonstrukce po traumatu
 
 ### Kognitivně-vědecký výzkum
+
 - Výzkum **evolučních kořenů** epistemických vulnerabilit lidské kognice
 - **Komputační modelování** procesů epistemické dezintegrace a reintegrace
 - Studie role **metamyšlení** v prevenci a léčbě epistemických traumat
 
 ### Sociálně-epistemologický výzkum
+
 - Analýza vlivu **digitálních technologií** na epistemické struktury a vulnerabilitu
 - Výzkum **institucionálních mechanismů** prevence epistemických distorzí
 - Studie **interkulturních rozdílů** v manifestacích a prevalenci
 
 ### Klinický a terapeutický výzkum
+
 - Vývoj a validace **diagnostických nástrojů** pro identifikaci epistemických traumat
 - Vytvoření **specializovaných terapeutických protokolů** pro různé formy epistemické anihilace
 - **Longitudinální studie** dlouhodobých důsledků a efektivity intervencí

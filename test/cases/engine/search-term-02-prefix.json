@@ -105,22 +105,22 @@
       },
       {
         "code": null,
-        "in": 89,
-        "kind": "Kapitola",
-        "path": "kompendium/_index.md",
-        "tier": 6,
-        "title": "Kompendium epistemické a kognitivní anihilace",
-        "url": "/kompendium/",
-        "why": "description"
-      },
-      {
-        "code": null,
         "in": 60,
         "kind": "Kapitola",
         "path": "kompendium/03-zakladni-kategorie/_index.md",
         "tier": 6,
         "title": "03. Základní kategorie epistemických manipulací",
         "url": "/kompendium/03-zakladni-kategorie/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 56,
+        "kind": "Kapitola",
+        "path": "kompendium/_index.md",
+        "tier": 6,
+        "title": "Kompendium epistemické a kognitivní anihilace",
+        "url": "/kompendium/",
         "why": "description"
       }
     ],

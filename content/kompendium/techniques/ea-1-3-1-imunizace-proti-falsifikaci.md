@@ -28,7 +28,6 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 | **EA kód** | `EA-1.3.1` |
 | **Kategorie** | 1. Akademické techniky intelektuální manipulace |
 | **Subkategorie** | 1.3 Narušení procesů revize a [falsifikace](@/glossary/falsifikace.md) |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Vysoká — strukturální obrana před korekcí; bez detekce ireverzibilní |
 | **Reverzibilita** | Nízká, jakmile je vzorec konsolidován |
 | **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md) |
@@ -245,9 +244,3 @@ Intervence: Strukturální požadavek na pre-registered outcome criteria; advers
 - **Glossary**:
   - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-Rozcestníky: [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

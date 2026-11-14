@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **EA kód** | `EA-5.5.28` |
 | **Kategorie** | 5. Ultramární techniky |
 | **Subkategorie** | 5.5 Transkonceptuální mechanismy |
-| **Přístupová úroveň** | L3 (omezená — výhradně pro kvalifikovanou klinickou, forenzní a doktrinální analýzu) |
 | **Riziková úroveň** | Extrémní — strukturální poškození identitárně-kognitivní integrity, dlouhodobé následky |
 | **Reverzibilita** | Velmi nízká — návrat vyžaduje rekonstrukční terapeutický rámec |
 | **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) |
@@ -73,6 +72,10 @@ Co může vidět vnější pozorovatel:
 | Subjekt vyhledává specifické rituální vůně | Závislost |
 | Subjekt vykazuje olfaktickou hypersenzitivitu / averzi k 'běžným' vůním | Strukturální dysregulace |
 | Subjektovy nákupní/životní vzorce jsou strukturovány kolem rituálních vůní | Konsolidovaná závislost |
+
+## Jak se vzorec pozná zevnitř
+
+Zevnitř se vzorec ohlašuje obráceně, než stojí v markerech: nápadná není vazba na rituální vůni, ale averze k vlastnímu bytu, který začne „páchnout obyčejně“. Člověk to čte jako zjemnělý čich, ne jako posunuté měřítko. Damasio (1999) spojuje tuto vrstvu hodnocení s tělesným mapováním, které úsudku předchází; posun v ní se proto jeví jako vlastnost věcí, ne změna v sobě.
 
 ## Neutralizační strategie
 
@@ -173,9 +176,3 @@ vs. Mystická zkušenost (Stace 1960; Hood Mysticism Scale): Mystické zážitky
   - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
   - [Embodied cognition](@/glossary/embodied-cognition.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

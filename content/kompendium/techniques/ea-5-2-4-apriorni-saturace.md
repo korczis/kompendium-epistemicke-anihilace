@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **EA kód** | `EA-5.2.4` |
 | **Kategorie** | 5. Ultramární techniky |
 | **Subkategorie** | 5.2 Metatranscendentální anihilace |
-| **Přístupová úroveň** | L3 |
 | **Riziková úroveň** | Extrémní — strukturální blokáda empirické revize |
 | **Reverzibilita** | Velmi nízká — apriorní soudy jsou systematicky chráněny před zkušeností |
 | **Rodičovská kapitola** | [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
@@ -185,9 +184,3 @@ Intervence: zavedení **explicitních empirických metrik** efektivity, formaliz
   - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
   - [Hermeneutika](@/glossary/hermeneutika.md)
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

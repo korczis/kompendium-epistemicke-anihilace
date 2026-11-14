@@ -6,7 +6,9 @@ code, inline code, HTML tags, Tera expressions, link targets or table rows.
 
   - one blank line at most between blocks, none at the end of the file, a final newline;
   - no trailing whitespace (two-space hard breaks are kept);
-  - a blank line before a heading and before a list that follows a paragraph;
+  - a blank line before a heading and before a list that follows a paragraph, and after a
+    heading unless another heading follows (2026-11-14: stripping a code range off 28 cluster
+    headings left them glued to their paragraph, and 194 more had never had the line);
   - three dots become an ellipsis, a spaced double hyphen a dash (en on Czech pages, em on
     English ones);
   - straight double quotes become typographic quotes: Czech „…“ on Czech pages,
@@ -97,6 +99,7 @@ def polish(text: str) -> str:
         prev = out[-1] if out else ""
         needs_gap = prev.strip() and not FENCE.match(prev) and (
             (HEADING.match(line) and not HEADING.match(prev))
+            or (HEADING.match(prev) and line.strip() and not HEADING.match(line))
             or (
                 LIST_START.match(line)
                 and not LIST_ITEM.match(prev)

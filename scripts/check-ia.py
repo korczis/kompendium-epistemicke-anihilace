@@ -104,6 +104,11 @@ Requirements (id: what is checked):
                    abuse defensively). The scope is the family, NOT whether the section cites: all the
                    EA-4 pages cite and some EA-6 do not, so "cited means keep" is wrong. Remedy:
                    replace with a contraindication / excluding-circumstances section. NEVER baselined
+  chrome-trailer   no hand-pasted site chrome in content: a "## Connect & Contribute" section or a
+                   "Created by […]" credit line. templates/partials/footer.html renders the author,
+                   licence, wiki and repository from config.extra on every page; the pasted copies
+                   came in five variants, some with broken bold and 60 linking the wrong
+                   repository (2026-11-14, 294 pages). Remedy: delete it. NEVER baselined
   code-range       no hand-written range of EA codes ("EA-5.4.1 — 5.4.30", "EA-4.1.1–4.1.10") in
                    prose or tables: the set of codes is derived from the technique pages, and a range
                    typed by hand goes stale the first time a technique is added (2026-11-12: the
@@ -112,7 +117,7 @@ Requirements (id: what is checked):
   duplicate-passage  no pasted prose: a paragraph (whitespace-normalised, 15+ words) re-pasted
                    byte-identical on 3+ content/kompendium pages, which no gate sees once it has no
                    figure. Excludes figure-bearing blocks (template-figure owns them), the "Created
-                   by …" chrome footer (a template partial, separate slice) and cross-reference /
+                   by …" credit (chrome-trailer owns it) and cross-reference /
                    relation list lines (derived by the okolí / Související engine, never pasted).
                    ADR 0013. Remedy: rewrite per page where it pretends to be per-technique content,
                    or move a genuine shared notice to a Zola include/partial; `scripts/dup-passages.py`
@@ -238,7 +243,7 @@ def stamp(path: str, name: str, now_counts: dict) -> str:
 NEVER_BASELINED = {"placeholder", "technique-page", "howto", "drug-dose", "template-figure",
                    "bold-term",
                    "clinical-figure", "fabricated-citation", "legitimate-indication",
-                   "code-range",
+                   "code-range", "chrome-trailer",
                    "detail", "weak-link",
                    "duplicate-passage",
                    "drug-name", "authority-without-source",
@@ -249,7 +254,7 @@ NEVER_BASELINED = {"placeholder", "technique-page", "howto", "drug-dose", "templ
 # the count grows. The number may only go down, and the entry goes when it reaches 0.
 PENDING_ZERO = {"placeholder": 0, "technique-page": 0, "howto": 0, "drug-dose": 0,
                 "bold-term": 0,
-                "code-range": 0,
+                "code-range": 0, "chrome-trailer": 0,
                 "clinical-figure": 0,
                 "template-figure": 0, "platform-section": 0, "relative-link": 0,
                 "platform-label": 0, "platform-frontmatter": 0, "philosophy-frame": 0,
@@ -322,6 +327,8 @@ def violations(page: dict) -> list:
         found.append("legitimate-indication")
     if page.get("code_ranges"):
         found.append("code-range")
+    if page.get("chrome_trailer"):
+        found.append("chrome-trailer")
     if page.get("duplicate_passages"):
         found.append("duplicate-passage")
     if page.get("misnamed_techniques"):
@@ -358,6 +365,7 @@ def explain(page: dict) -> dict:
         "authority-without-source": "; ".join(f"({g})" for g in page.get("pasted_authorities", [])),
         "fabricated-citation": "; ".join(page.get("fabricated_citations", [])[:2]),
         "code-range": "; ".join(page.get("code_ranges", [])[:3]),
+        "chrome-trailer": "; ".join(page.get("chrome_trailer", [])[:2]),
         "technique-page": ", ".join("EA-" + c for c in page["missing_techniques"]),
         "technique-name": "; ".join(f"EA-{c} \"{h}\" is \"{t}\" in the catalogue"
                                     for c, h, t in page.get("misnamed_techniques", [])),
@@ -481,6 +489,7 @@ AUTHOR_YEAR = re.compile(
 # numbered differently on two pages still compares byte-identical.
 LIST_MARKER = re.compile(r"^(?:[-*+]\s+|\d+[.)]\s+|\(\d+\)\s+)")
 FABRICATED_CITATION_PAGES = 3  # a citation+stat unit identical on this many pages is a pasted study
+CHROME_TRAILER = re.compile(r"^#{1,6}\s+Connect & Contribute\b|^\*{0,2}Created by \[", re.M)
 CODE_RANGE = re.compile(r"EA-\d+\.\d+\.\d+`?\]?(?:\([^)\s]*\))?\s*(?:[—–-]{1,2}|až)\s*`?(?:EA-)?\d+\.\d+\.\d+")
 # A pasted, unsourced authority (ADR 0014): a parenthetical group of two or more capitalised
 # surnames with NO year on the line, repeated byte-identical across pages. A one-off "(Austin,
@@ -782,6 +791,7 @@ def analyse(pages: list) -> dict:
                 authorities[m.group(1)].add(page["path"])
         page["clinical_figures"] = clinical_figures(prose) if page["path"].startswith("kompendium/") else []
         page["code_ranges"] = [m.group(0) for m in CODE_RANGE.finditer(prose)]
+        page["chrome_trailer"] = [m.group(0).strip("*# ") for m in CHROME_TRAILER.finditer(body)]
         page["platform_section"] = (
             [m.group(0).strip() for m in PLATFORM_HEADING.finditer(prose)]
             + sorted({m.group(0) for m in PLATFORM_MARKER.finditer(body)}))

@@ -56,16 +56,10 @@ Měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.m
 
 Fázi návratu stránka nezavádí ani neschvaluje; pojistky zaznamenává proto, že jejich absence je u takového uspořádání patrná.
 
-| Pojistka | Co znamená její nepřítomnost |
+{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
 |---|---|
-| **[IRB přezkum](@/glossary/irb-review.md)** | Nikdo mimo dané uspořádání nevážil jeho přínos proti riziku a o takovém vážení neexistuje záznam |
-| **[Informovaný souhlas](@/glossary/informed-consent.md)** | Zúčastněný nevěděl, čemu je vystaven, a odstoupení pro něj nebylo dostupné bez ztráty |
-| **Průběžné sledování stavu** | Zhoršení stavu nikdo nezaznamenává a vyjde najevo až tehdy, když na ně upozorní sám zasažený |
-| **Shoda na tom, kdy přestat** | Nikdo se předem neshodl na tom, co by platilo za okamžik zastavení, a rozhoduje o tom ten, kdo zátěž vede |
-| **Nezávislý audit** | Uspořádání nikdo zvenčí nepřezkoumal a nikdo mimo ně nemá jak je zastavit |
-| **Dokumentační řetězec** | Co se dělo, nelze doložit jinak než výpovědí toho, kdo uspořádání vedl ([chain of custody](@/glossary/chain-of-custody.md)) |
-| **Kanál pro oznamovatele** | Námitku nelze vznést nikde jinde než u toho, proti komu míří, a je rozpoznatelná podle svého autora |
-
+{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
+{% endfor %}
 ## Okolnosti, které zátěž ve fázi návratu vylučují
 
 Fáze návratu je zde popsána jako to, co po sekvenci zůstává, a ne jako úsek, který by stránka komukoli otevírala. Jestli je uspořádání, jehož je návrat posledním dílem, vůbec přijatelné, se na stránce o rozpoznávání nerozhoduje: patří to výzkumné etice a nároky, jež formulovali Emanuel, Wendler a Grady (2000), míří na instituci a na její přezkum, ne na toho, kdo obtížný návrat u někoho pozoruje. Kniha tedy návrat ani nepovoluje, ani nepodmiňuje; co z toho plyne pro čtení stránky, stojí v [etických aspektech](@/kompendium/01-predmluva/eticke-aspekty.md) a v [etickém kodexu](@/kompendium/08-prilohy/eticky-kodex.md).

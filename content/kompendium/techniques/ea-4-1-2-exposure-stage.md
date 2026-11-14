@@ -56,16 +56,10 @@ Měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.m
 
 U řízené expozice stresoru se následující pojistky čtou obráceně: co z nich chybí, je samo nálezem o povaze dané zátěže, protože legitimní expozice je od počátku odvolatelná (Herman, 1992). Popis nezakládá oprávnění expozici tohoto druhu uspořádat.
 
-| Pojistka | Co znamená její nepřítomnost |
-|----------|------------------------------|
-| **[IRB přezkum](@/glossary/irb-review.md)** | Přínos a riziko nevážil nikdo mimo samo uspořádání a o žádném takovém vážení nezůstal záznam, který by šlo předložit |
-| **[Informovaný souhlas](@/glossary/informed-consent.md)** | Zasažený nevěděl, do čeho vstupuje, nebo to věděl a nemohl to vzít zpět bez ztráty, kterou nesl sám |
-| **Průběžné sledování stavu** | Zhoršení stavu nikdo zvenčí nezaznamenával; co se se zasaženým dělo, je známo jen z jeho vlastního pozdějšího vyprávění |
-| **Shoda na tom, kdy přestat** | Nikdo se předem neshodl na tom, co by platilo za okamžik, kdy se přestává, a rozhodnutí tak zůstalo na těch, kdo měli zájem na pokračování |
-| **Nezávislý audit** | Uspořádání posuzují pouze ti, kdo je vedou, a nikdo zvenčí je nemůže pozastavit |
-| **Dokumentační řetězec** | Co se stalo, nelze po čase rekonstruovat z ničeho než ze vzpomínek účastníků; chybí doložitelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
-| **Kanál pro oznamovatele** | Kdo si uvnitř porušení všiml, nemá je komu oznámit, aniž by nesl následky; mlčení uvnitř proto není dokladem, že se nic nedělo |
-
+{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
+|---|---|
+{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
+{% endfor %}
 ## Okolnosti, které řízenou expozici vylučují
 
 Tato stránka nejmenuje uspořádání, v němž by byla řízená expozice stresoru legitimní, a nejmenuje je ani nepřímo: popisuje, čím se taková expozice pozná zvenčí, a tím končí. Zda je zátěžová intervence tohoto druhu vůbec přijatelná, je otázkou výzkumné etiky — požadavky, které shrnuli Emanuel, Wendler a Grady (2000), zavazují samo uspořádání, tedy zadavatele, nezávislý přezkum a protokol, nikoli čtenáře, který vzorec rozpoznává. Stránka proto k ničemu neopravňuje a nic neodpírá; měřítko přípustnosti stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) a rozhodují o něm orgány, které kniha popisuje na těchto stránkách.

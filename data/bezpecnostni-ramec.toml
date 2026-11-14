@@ -1,0 +1,43 @@
+# Bezpečnostní rámec — jeden zdroj pro celou knihu.
+#
+# Tento soubor je kanonickým textem sedmi pojistek, které se dřív opakovaly jako
+# vložená tabulka na 40 technických stránkách. Seznam pojistek je společné
+# upozornění, ne obsah jednotlivé techniky, a společné upozornění patří na jedno
+# místo. Každá stránka si proto píše vlastní úvodní odstavec — ten je specifický —
+# a tabulku vykresluje shortcode `bezpecnostni_ramec` z těchto dat.
+#
+# Druhý sloupec říká, co čtenář pozná, když pojistka chybí. Nikdy neříká, co
+# zařídit: kniha popisuje rozpoznatelnou strukturu a odmítá postup. Do políček
+# proto nepatří prahy, počty, lhůty ani pořadí kroků.
+#
+# Při úpravě textu se mění všech 40 stránek zároveň; to je smysl toho zdroje.
+
+schema = "kompendium-bezpecnostni-ramec/v1"
+
+[[pojistka]]
+label = "[IRB přezkum](@/glossary/irb-review.md)"
+absence = "Nikdo mimo dané uspořádání neposuzoval přínos proti riziku a o takovém posouzení neexistuje záznam."
+
+[[pojistka]]
+label = "[Informovaný souhlas](@/glossary/informed-consent.md)"
+absence = "Zasažený nevěděl, do čeho vstupuje, nebo to věděl a nemohl to vzít zpět bez ztráty, kterou nesl sám."
+
+[[pojistka]]
+label = "Průběžné sledování stavu"
+absence = "Zhoršení stavu nikdo zvenčí nezaznamenával; co se se zasaženým dělo, je známo jen z jeho vlastního pozdějšího vyprávění."
+
+[[pojistka]]
+label = "Shoda na tom, kdy přestat"
+absence = "Nikdo se předem neshodl na tom, co by platilo za okamžik, kdy se přestává, a rozhodnutí tak zůstalo na těch, kdo měli zájem na pokračování."
+
+[[pojistka]]
+label = "Nezávislý audit"
+absence = "Na průběh se nepodíval nikdo, kdo by na něm nebyl zúčastněn, a námitka zvenčí se vyřizuje uvnitř."
+
+[[pojistka]]
+label = "Dokumentační řetězec"
+absence = "Záznam neexistuje, nebo vznikl zpětně a drží jej ten, kdo je zároveň aktérem; [řetězec záznamů](@/glossary/chain-of-custody.md) nelze rekonstruovat."
+
+[[pojistka]]
+label = "Kanál pro oznamovatele"
+absence = "Kdo si uvnitř porušení všiml, nemá je komu oznámit, aniž by nesl následky; mlčení uvnitř proto není dokladem, že se nic nedělo."

@@ -58,16 +58,10 @@ U zakládající fáze bývá nepřítomnost těchto pojistek jediným nálezem,
 
 Vstupní fázi tohoto druhu stránka nepředepisuje ani neschvaluje; uvádí jen, co je na chybějící pojistce vidět.
 
-| Pojistka | Co znamená její nepřítomnost |
-|----------|------------------------------|
-| **[IRB přezkum](@/glossary/irb-review.md)** | Nikdo mimo dané uspořádání jeho přínos a jeho rizika nevážil a o žádném takovém vážení nezůstal zápis |
-| **[Informovaný souhlas](@/glossary/informed-consent.md)** | Zasažený člověk neumí říct, s čím souhlasil, od koho to slyšel a co se stane, když přestane |
-| **Průběžné sledování stavu** | Zhoršení nikdo nezaznamenával, nebo se zaznamenaný údaj vykládal jako součást procesu; nezůstalo nic, co by šlo zpětně srovnat |
-| **Shoda na tom, kdy přestat** | Nikdo se předem neshodl na tom, co by platilo za důvod přestat; otázku, kdy je toho dost, zodpovídá zpětně tentýž, kdo uspořádání vede |
-| **Nezávislý audit** | Na průběh se nepodíval nikdo, kdo by na něm nebyl zúčastněn, a námitka zvenčí se vyřizuje uvnitř |
-| **Dokumentační řetězec** | Záznam neexistuje, nebo vznikl zpětně a drží jej ten, kdo je zároveň aktérem; řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) nelze rekonstruovat |
-| **Kanál pro oznamovatele** | Člověk, který chce o věci mluvit, nemá kam; každá cesta vede k tomu, kdo je sám předmětem námitky |
-
+{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
+|---|---|
+{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
+{% endfor %}
 ## Okolnosti, které vstupní fázi vylučují
 
 Oprávněný rámec pro zakládající fázi tato stránka nepojmenovává a nemá k tomu žádné postavení: zda je sekvence tohoto druhu vůbec přípustná, je otázkou výzkumné etiky, kterou Emanuel, Wendler a Grady (2000) formulují jako soubor požadavků na uspořádání — na nezávislost přezkumu, na poměr přínosu a rizika, na výběr účastníků a na souhlas. Tyto požadavky zavazují toho, kdo uspořádání zřizuje, a posuzují je orgány, k nimž odkazuje [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md); měřítko jejich rozhodování shrnují [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md). Čtenáři tohoto článku neudělují nic. Zůstává tedy jen to, co u vstupní fáze expozici vylučuje, a proč.

@@ -54,16 +54,10 @@ Zasažený člověk referuje, že „o tom člověku tehdy mluví jako o někom 
 
 Narušení časového sebevztahu stránka nepředepisuje; pojistky shrnuje proto, že jejich absence je rozpoznatelným znakem uspořádání.
 
-| Pojistka | Co znamená její nepřítomnost |
+{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
 |---|---|
-| **[IRB přezkum](@/glossary/irb-review.md)** | Nikdo mimo dané uspořádání nevážil jeho přínos proti riziku a o takovém vážení neexistuje záznam |
-| **[Informovaný souhlas](@/glossary/informed-consent.md)** | Zúčastněný nevěděl, čemu je vystaven, a odstoupení pro něj nebylo dostupné bez ztráty |
-| **Průběžné sledování stavu** | Zhoršení stavu nikdo nezaznamenává a vyjde najevo až tehdy, když na ně upozorní sám zasažený |
-| **Shoda na tom, kdy přestat** | Nikdo se předem neshodl na tom, co by platilo za okamžik zastavení, a rozhoduje o tom ten, kdo zátěž vede |
-| **Nezávislý audit** | Uspořádání nikdo zvenčí nepřezkoumal a nikdo mimo ně nemá jak je zastavit |
-| **Dokumentační řetězec** | Co se dělo, nelze doložit jinak než výpovědí toho, kdo uspořádání vedl ([chain of custody](@/glossary/chain-of-custody.md)) |
-| **Kanál pro oznamovatele** | Námitku nelze vznést nikde jinde než u toho, proti komu míří, a je rozpoznatelná podle svého autora |
-
+{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
+{% endfor %}
 ## Okolnosti, které vylučují expozici
 
 Narušení časového sebevztahu nemá v této knize vyjmenovaný legitimní kontext: popsat podmínky, za nichž je přípustné, znamená dát čtenáři oprávnění je vyvolat. Přípustnost posuzují [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a tam uvedené meze, ne tato stránka. Níže stojí okolnosti vylučující expozici, u každé s uvedeným důvodem.

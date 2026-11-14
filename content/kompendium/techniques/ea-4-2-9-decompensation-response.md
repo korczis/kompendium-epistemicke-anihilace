@@ -54,16 +54,10 @@ Zasažený člověk referuje, že „se zhroutil“, a událost popisuje jako sv
 
 Krizovou odpověď stránka nikomu nepovoluje ani nepředepisuje; pojistky jsou vypsány proto, že jejich chybění je samo nálezem.
 
-| Pojistka | Co znamená její nepřítomnost |
+{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
 |---|---|
-| **[IRB přezkum](@/glossary/irb-review.md)** | Nikdo mimo dané uspořádání nevážil jeho přínos proti riziku a o takovém vážení neexistuje záznam |
-| **[Informovaný souhlas](@/glossary/informed-consent.md)** | Zúčastněný nevěděl, čemu je vystaven, a odstoupení pro něj nebylo dostupné bez ztráty |
-| **Průběžné sledování stavu** | Zhoršení stavu nikdo nezaznamenává a vyjde najevo až tehdy, když na ně upozorní sám zasažený |
-| **Shoda na tom, kdy přestat** | Nikdo se předem neshodl na tom, co by platilo za okamžik zastavení, a rozhoduje o tom ten, kdo zátěž vede |
-| **Nezávislý audit** | Uspořádání nikdo zvenčí nepřezkoumal a nikdo mimo ně nemá jak je zastavit |
-| **Dokumentační řetězec** | Co se dělo, nelze doložit jinak než výpovědí toho, kdo uspořádání vedl ([chain of custody](@/glossary/chain-of-custody.md)) |
-| **Kanál pro oznamovatele** | Námitku nelze vznést nikde jinde než u toho, proti komu míří, a je rozpoznatelná podle svého autora |
-
+{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
+{% endfor %}
 ## Okolnosti, které krizovou odpověď vylučují
 
 Kompendium nevypisuje, kdy je zásah do člověka v akutní dekompenzaci oprávněný, a tato stránka takový výčet nenabízí; o přípustnosti čehokoli podobného rozhodují [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md), nikoli popis vzorce na této stránce. Níže stojí okolnosti, za nichž je expozice vyloučena, a důvod, proč každá z nich vylučuje.

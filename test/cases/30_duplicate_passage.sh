@@ -35,6 +35,12 @@ for n in c30-xr1 c30-xr2 c30-xr3; do page "$d" "$n" <<<"$XREF"; done
 for n in c30-ws1 c30-ws2 c30-ws3; do
   printf '+++\ntitle = "%s"\n+++\n\nTento odstavec je obecná   klinická vsuvka o více\nnež patnácti slovech, která se objevuje\nna třech stránkách se zalomením jinak, ale po normalizaci mezer je totožná a je tedy boilerplate.\n' "$n" > "$d/$n.md"
 done
+# interpolated own code: each copy carries the page's OWN EA code, so byte-identity misses it; after
+# EA-code normalisation the three hash the same and are refused
+codeblock() { printf 'Aplikace této pasované šablony o více než patnácti slovech vyžaduje u techniky **EA-%s** stejnou modifikaci napříč všemi stránkami knihy.' "$1"; }
+page "$d" c30-code1 <<<"$(codeblock 4.2.5)"
+page "$d" c30-code2 <<<"$(codeblock 6.3.3)"
+page "$d" c30-code3 <<<"$(codeblock 5.4.1)"
 
 listed
 has c30-a; has c30-b; has c30-c            # prose boilerplate on 3 pages
@@ -43,5 +49,6 @@ hasnt c30-fig1; hasnt c30-fig2             # figure-bearing — template-figure'
 hasnt c30-chr1; hasnt c30-chr2             # chrome footer — excluded
 hasnt c30-xr1; hasnt c30-xr2               # cross-reference list line — excluded
 has c30-ws1; has c30-ws2; has c30-ws3      # whitespace-normalised duplicates still caught
+has c30-code1; has c30-code2; has c30-code3  # interpolated own-code boilerplate, caught after normalisation
 
-echo "duplicate-passage: pasted prose on 3+ pages refused (whitespace-normalised); figure/chrome/xref excluded; 2 pages pass"
+echo "duplicate-passage: pasted prose on 3+ pages refused (whitespace- and EA-code-normalised); figure/chrome/xref excluded; 2 pages pass"

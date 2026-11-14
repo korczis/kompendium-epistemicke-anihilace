@@ -71,6 +71,12 @@ Co může vidět vnější pozorovatel:
 | Subjekt aktivně vyhledává hypnagogii | Závislost |
 | Subjektovy hypnagogické zkušenosti jsou strukturálně shodné s manipulátorovou doktrinou | Implantát |
 
+## Proč se škoda zevnitř špatně pozná
+
+Vzorec si zevnitř nebere nic, co by šlo ohlásit jako ztrátu — naopak přidává: každou noc přichází něco, co den nenabízí. Teprve na pozadí toho přírůstku zešedne obyčejné odpoledne i jeho rozhodnutí. Singer (1995) popisuje, že přesun významu k jedinému zdroji si zasažený uvědomí až ve chvíli, kdy je o tento zdroj připraven.
+
+Otázka zevnitř pak nezní, co ve dni chybí.
+
 ## Neutralizační strategie
 
 ### Individuální

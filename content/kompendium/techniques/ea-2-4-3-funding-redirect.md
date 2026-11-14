@@ -77,6 +77,12 @@ vyhladovění způsobilo. Zpětně ukazuje vzorec časová řada rozpočtů po j
 | Rozpad týmu | Nejlepší lidé odcházejí jako první. |
 | Nejistota příčin | Neví, zda jde o úmysl, nebo o škrty pro všechny. |
 
+## Proč se škoda zevnitř špatně pozná
+
+Vzorec si zevnitř obstarává nevinné čtení sám: rozpočet se mění každý rok, úspory dopadají na mnohé a pokles výstupů je vidět dřív než pokles prostředků, který mu předcházel. Kdo zůstal, má proto blíž k výkladu, že nestačil, než ke struktuře. Smaldino a McElreath (2016) ukazují, že samo nastavení pobídek mění, jaká práce v prostředí přežije.
+
+Úmysl zevnitř rozpoznat nelze.
+
 ## Detekční markery (pohled pozorovatele)
 
 | Marker | Co může naznačovat |

@@ -120,6 +120,16 @@ Klinická [diferenciace](@/glossary/diferenciace.md) techniky **gestalt disrupce
 
 **vs. [Depersonalizace](@/glossary/depersonalizace.md)/derealizace** (F48.1): DPDR je trvalý nebo recurrent stav odcizení od self/světa. EA-5.5.4 je akutní *induced* stav s definovaným počátkem a koncem. Rozlišení i délku průběhu posoudí klinik; kniha k nim čísla neuvádí.
 
+## Proč se škoda zevnitř špatně pozná
+
+Útržkovitost si dodává nevinné čtení sebe samé: pozornost k jednotlivostem je ctností, takže
+chybějící celek se jeví jako přesnost. Druhou nevinnou verzí je skromnost: kdo nedůvěřuje
+svému úsudku o celku, připadá si opatrný. Lindahl et al.
+(2017) zaznamenali, že obtíže provázející kontemplativní praxi bývají posuzovány v rámci nauky,
+uvnitř níž vznikly, a jejich tíže tak zůstane nepojmenovaná.
+
+Zevnitř chybí srovnání: chybějící celek by musel být nejprve k dispozici.
+
 ## Literatura
 
 - Damasio, A. R. (1999). *The Feeling of What Happens*. Harcourt Brace.

@@ -71,6 +71,12 @@ Co může vidět vnější pozorovatel:
 | Stav je rámován doktrinálně jako 'duchovní průlom' | Maskování |
 | Pokus o separaci vede k pre-konceptuálnímu kolapsu | Diagnostický test |
 
+## Proč se škoda zevnitř špatně pozná
+
+Každá z vrstev si zevnitř nese nevinné vysvětlení: tělesná zvláštnost je únava, rozpadlý čas uspěchané období, cizí atmosféra nezvyk. Na každou jednotlivou stížnost proto existuje samostatná odpověď a souběh, který je tím podstatným, se nikde nesejde pohromadě. Lindahl et al. (2017) zaznamenali u obtíží z intenzivní praxe právě tuto víceoblastní podobu.
+
+Celek se tak ztrácí v dílčích vysvětleních.
+
 ## Neutralizační strategie
 
 ### Individuální

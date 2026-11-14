@@ -71,6 +71,12 @@ Co může vidět vnější pozorovatel:
 | Subjekt vykazuje funkční disrupce v každodenním životě | Strukturální dysfunkce |
 | Stav je rámován jako 'znamení transformace' | Doktrinální legitimizace |
 
+## Jak se vzorec pozná zevnitř
+
+Zevnitř se chybějící plynutí neukazuje jako chybějící čas, ale jako námaha: každá věta i každý úkol začínají znovu od začátku a za celý den nezůstane nic, co by drželo pohromadě. Vykládá to jako nesoustředěnost nebo únavu. Lifton (1961) připomíná, že v prostředí s výlučným nárokem na výklad zkušenosti je pro takový stav připraveno pojmenování dřív, než si ho člověk najde sám.
+
+Vlastní slova pak chybí.
+
 ## Neutralizační strategie
 
 ### Individuální

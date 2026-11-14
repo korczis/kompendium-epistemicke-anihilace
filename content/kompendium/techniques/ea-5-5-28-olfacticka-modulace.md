@@ -73,6 +73,10 @@ Co může vidět vnější pozorovatel:
 | Subjekt vykazuje olfaktickou hypersenzitivitu / averzi k 'běžným' vůním | Strukturální dysregulace |
 | Subjektovy nákupní/životní vzorce jsou strukturovány kolem rituálních vůní | Konsolidovaná závislost |
 
+## Jak se vzorec pozná zevnitř
+
+Zevnitř se vzorec ohlašuje obráceně, než stojí v markerech: nápadná není vazba na rituální vůni, ale averze k vlastnímu bytu, který začne „páchnout obyčejně“. Člověk to čte jako zjemnělý čich, ne jako posunuté měřítko. Damasio (1999) spojuje tuto vrstvu hodnocení s tělesným mapováním, které úsudku předchází; posun v ní se proto jeví jako vlastnost věcí, ne změna v sobě.
+
 ## Neutralizační strategie
 
 ### Individuální

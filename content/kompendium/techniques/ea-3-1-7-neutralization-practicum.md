@@ -131,6 +131,14 @@ Tato edukativní technika operacionalizuje poznatky z taxonomie:
 - **[EA-2 Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)** — komplexní real-world cases pro analýzu.
 - **[EA-5 Kognitivní anihilace](@/kompendium/04-terminalni-protokoly/kapitola-5.md)** — pokročilé materiály pro L2/L3 úrovně.
 
+## Jak se vzorec pozná zevnitř
+
+Zevnitř je nejvýraznější úleva v okamžiku, kdy scéna skončí, a právě ta se snadno zaměňuje za
+důkaz zvládnutí. Účastník má přístup k tomu, jak si počínal, nikoli k tomu, co jeho výkon nesl; Barnett a Ceci
+(2002) ukazují, že přenos naučeného závisí na rysech situace, které účastník nerozlišuje.
+
+Pozorovatel se naopak ptá na jedinou věc: co z dění účastník pojmenoval.
+
 ## Literatura
 
 - Barnett, S. M., & Ceci, S. J. (2002). When and where do we apply what we learn? A taxonomy for far transfer. *Psychological Bulletin*, 128(4).

@@ -177,6 +177,15 @@ soud vědecké obce vytvářel politicky. Anonymizované kompozity:
 [kult think-tanku](@/kompendium/case-studies/68-think-tank-cult.md) a
 [kult výzkumné disciplíny](@/kompendium/case-studies/67-research-discipline-cult.md).
 
+## Proč se škoda zevnitř špatně pozná
+
+Vzorec si dodává nevinné čtení z vědecké ctnosti: připustit, že menšinová pozice bývá mylná, patří k odborné poctivosti, takže pochybnost o sobě se zevnitř jeví
+jako správné uvažování. Podmínku, podle níž by se zdání dalo odlišit — nezávislost posuzovatelů
+(Goldman, 2001) — cíl ze svého místa nevidí; vazby signatářů ze seznamu jmen patrné nejsou.
+
+Noelle-Neumannová (1974) vysvětluje, proč chybí i druhá opora: soukromá podpora zůstává
+nedoložitelná.
+
 ## Literatura
 
 - Noelle-Neumann, E. (1974). The spiral of silence: A theory of public opinion. *Journal

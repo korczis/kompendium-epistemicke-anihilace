@@ -69,6 +69,12 @@ Co může vidět vnější pozorovatel:
 | Subjekt vykazuje známky atmosférické závislosti | Konsolidovaná struktura |
 | Subjekt nedokáže funkčně operovat v atmosféricky neutrálním prostředí | Hluboká závislost |
 
+## Jak se vzorec pozná zevnitř
+
+Zevnitř se vzorec neohlašuje jako závislost na prostředí, ale jako objev, že některá místa jsou pravdivější než jiná. Že se doma soustředí hůř, vykládá člověk jako vlastní nedůslednost, nikoli jako důsledek toho, že své naladění svěřil cizímu interiéru. Lindahl et al. (2017) zaznamenali, že účastníci přičítali obtíže z intenzivní praxe spíš sobě než prostředí, v němž vznikaly.
+
+Nápadné proto bývá až přestěhování, kdy prostředí zmizí.
+
 ## Neutralizační strategie
 
 ### Individuální

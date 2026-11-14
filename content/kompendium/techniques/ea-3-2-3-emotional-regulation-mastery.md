@@ -133,6 +133,15 @@ Tato edukativní technika operacionalizuje poznatky z taxonomie:
 - **[EA-2 Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)** — komplexní real-world cases pro analýzu.
 - **[EA-5 Kognitivní anihilace](@/kompendium/04-terminalni-protokoly/kapitola-5.md)** — pokročilé materiály pro L2/L3 úrovně.
 
+## Jak se vzorec pozná zevnitř
+
+Zevnitř to nezaznamená nejdřív supervizor, nýbrž supervidovaný, a ne jako výkyv, nýbrž jako
+vlastní rozhodnutí: některý materiál už nepřinese a vysvětlí si to jako ohleduplnost. Falender
+a Shafranske (2004) kladou odpovědnost za zacházení s vlastním stavem na supervizora proto,
+že v nerovném vztahu ji jinak nese slabší strana.
+
+Zvenčí se to jeví jako hladká supervize: nepřinesené nelze pozorovat.
+
 ## Literatura
 
 - Bordin, E. S. (1983). A working alliance based model of supervision. *The Counseling Psychologist*, 11(1).

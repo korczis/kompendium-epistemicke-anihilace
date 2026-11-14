@@ -183,6 +183,15 @@ platformy moderovat vzorec vyčerpání, aniž by omezily oprávněné požadavk
 Anonymizované kompozity: [mediální mob útok](@/kompendium/case-studies/04-medialni-mob-attack.md)
 (vlna „zdvořilých“ dotazů předcházející útoku) a [kult podcastu](@/kompendium/case-studies/75-podcast-cult.md).
 
+## Proč se škoda zevnitř špatně pozná
+
+Každá otázka je oprávněná a vzorec leží teprve v jejich řadě; cíl má před sebou jen jednu,
+takže odmítnutí se mu jeví jako nesplněná povinnost, ne jako hranice. Walton (2008) připomíná,
+že přechod mezi typy dialogu zůstává nepozorován — a nepojmenovaný přechod je právě to, co
+zevnitř chybí.
+
+Druhou nevinnou verzí je zdvořilost tazatelů: na tónu nelze nic ukázat.
+
 ## Literatura
 
 - Malki, D. (2014). *Wondermark*, komiks „The Terrible Sea Lion“.

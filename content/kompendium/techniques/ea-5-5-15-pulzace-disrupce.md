@@ -126,6 +126,14 @@ depersonalizace má podobu vylučování, které patří do rukou klinika.
 v něm chybí. Stace (1960) i James (1902) popisují zkušenost, k níž patří sjednocení a kterou
 člověk sám hodnotí jako cennou; zde zůstává hájená nehybnost bez obojího.
 
+## Jak se vzorec pozná zevnitř
+
+Zevnitř chybí to, čím se ztráta obvykle ohlašuje — nespokojenost. Ubylo nejen kolísání, ale
+i měřítko, jímž by se dalo poznat, že ubylo: dny se neodlišují vahou a žádná volba netíží více
+než druhá. James (1902) nechával o ceně zkušenosti vypovídat především toho, kdo ji prožil, a právě tento svědek je zde zasažen.
+
+Pozorovatel vidí plochost; zasažený vidí pořádek, v němž nic nenaléhá.
+
 ## Literatura
 
 - Damasio, A. R. (1999). *The Feeling of What Happens*. Harcourt Brace.

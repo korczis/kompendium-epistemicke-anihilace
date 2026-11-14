@@ -8,12 +8,12 @@ tags = ["kompendium"]
 
 [extra]
 toc = false
-entries = 5258
+entries = 5264
 +++
 
 Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotlivých stránkách kompendia a glosáře; ručně se needituje.
 
-**5258 položek**, seřazených podle autora.
+**5264 položek**, seřazených podle autora.
 
 ## A
 
@@ -111,6 +111,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Případ 63: Investorský kult kolem obchodního „guru“](@/kompendium/case-studies/63-investor-cult.md)</small>
 - Akerlof, G. A., & Shiller, R. J. (2015). *Phishing for Phools: The Economics of Manipulation  
   <small>Citováno: [Případ 20: Finanční kult](@/kompendium/case-studies/20-finance-cult.md)</small>
+- Alahmadi, B. A., Axon, L., & Martinovic, I. (2022). *99% false positives: A qualitative study of SOC analysts' perspectives on security alarms*. In Proceedings of the 31st USENIX Security Symposium.  
+  <small>Citováno: [Blue Team (modrý tým)](@/glossary/blue-team.md)</small>
 - Albantakis, L., a kol. (2023). *Integrated information theory (IIT) 4.0: Formulating the properties of phenomenal existence in physical terms*. PLOS Computational Biology.  
   <small>Citováno: [7.39 Tononi: Integrated Information Theory (IIT)](@/kompendium/07-teoreticke-reflexe/tononi-iit.md)</small>
 - Albert, H. (1968). *Traktat über kritische Vernunft*.  
@@ -1747,6 +1749,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Řízení přístupů s EA fokusem](@/kompendium/organizational-defense/28-access-control-EA.md), [Reakce na incident s EA fokusem](@/kompendium/organizational-defense/31-incident-response-EA.md), [Právní podpora v krizi](@/kompendium/organizational-defense/33-legal-counsel-engagement.md)</small>
 - Cichonski, P., Millar, T., Grance, T., Scarfone, K. (2012). *Computer Security Incident Handling Guide* (NIST SP 800-61 Rev. 2).  
   <small>Citováno: [Bezpečnost: narativ při reakci na incident](@/kompendium/cross-domain/22-ea-security-incident-response-narrative.md)</small>
+- Cichonski, P., Millar, T., Grance, T., & Scarfone, K. (2012). *Computer Security Incident Handling Guide* (NIST SP 800-61 Rev. 2). Gaithersburg: National Institute of Standards and Technology.  
+  <small>Citováno: [Blue Team (modrý tým)](@/glossary/blue-team.md)</small>
 - Cienciala, A. M., Lebedeva, N. S., & Materski, W. (Eds.). (2007). *Katyn: A Crime Without Punishment*. Yale University Press.  
   <small>Citováno: [Polsko — vzorce EA](@/kompendium/international/4-poland-EA/index.md)</small>
 - Cienfuegos, A. J. a Monelli, C. (1983). The testimony of political repression as a therapeutic instrument. *American Journal of Orthopsychiatry*, 53(1), 43–51.  
@@ -2336,6 +2340,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [OSINT: triangulace napříč zdroji](@/kompendium/cross-domain/8-ea-osint-cross-source-triangulation.md)</small>
 - Denzin, N. K. (1970). *The Research Act: A Theoretical Introduction to Sociological Methods*. Aldine.  
   <small>Citováno: [Kruhové uvažování v detekci EA](@/kompendium/critical-perspectives/4-circular-reasoning-risk.md), [Sebe-obrana: Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md)</small>
+- Denzin, N. K. (1978). *The Research Act: A Theoretical Introduction to Sociological Methods* (2nd ed.). New York: McGraw-Hill.  
+  <small>Citováno: [Blue Team (modrý tým)](@/glossary/blue-team.md)</small>
 - Depraz, N., Varela, F. J., & Vermersch, P. (2003). *On Becoming Aware: A Pragmatics of Experiencing*. John Benjamins.  
   <small>Citováno: [Epoché](@/glossary/epoche.md), [Bridge: Epoché](@/kompendium/glossary-bridges/bridge-epoche.md)</small>
 - DeRose, K. (1995). *Solving the skeptical problem*. The Philosophical Review.  
@@ -3532,7 +3538,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Gangarosa, E. J., a kol. (1998). Impact of anti-vaccine movements on pertussis control: The untold  
   <small>Citováno: [Historický případ: Hesitance vůči vakcínám](@/kompendium/historical-cases/27-vaccine-hesitancy.md)</small>
 - Ganguli, D., a kol. (2022). *Red teaming language models to reduce harms: Methods, scaling behaviors, and lessons learned*. arXiv:2209.07858.  
-  <small>Citováno: [Purple Team (fialový tým)](@/glossary/purple-team.md)</small>
+  <small>Citováno: [Purple Team (fialový tým)](@/glossary/purple-team.md), [Red Team (červený tým)](@/glossary/red-team.md)</small>
 - Gans, H. J. (1979). *Deciding What's News*. Pantheon Books.  
   <small>Citováno: [Případ 70: Kult mediální organizace](@/kompendium/case-studies/70-media-organization-cult.md)</small>
 - Gantt, E. E., & Williams, R. N. (Eds.). (2002). *Psychology for the Other: Levinas, Ethics and the Practice of Psychology*. Duquesne University Press.  
@@ -4887,7 +4893,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Janis, I. L. (1972). *Victims of Groupthink: A Psychological Study of Foreign-Policy Decisions and Fiascoes*. Houghton Mifflin.  
   <small>Citováno: [EA-3.1.4 Formace epistemické komunity](@/kompendium/techniques/ea-3-1-4-epistemic-community-formation.md)</small>
 - Janis, I. L. (1972). *Victims of Groupthink*. Boston: Houghton Mifflin.  
-  <small>Citováno: [Předběžná pitva (pre-mortem)](@/glossary/predbezna-pitva.md)</small>
+  <small>Citováno: [Předběžná pitva (pre-mortem)](@/glossary/predbezna-pitva.md), [Red Team (červený tým)](@/glossary/red-team.md)</small>
 - Janis, I. L. (1972). *Victims of Groupthink*. Houghton Mifflin.  
   <small>Citováno: [Epistemická monokultura](@/glossary/epistemicka-monokultura.md), [Případ 12: Kult vůdcovství](@/kompendium/case-studies/12-leadership-cult.md), [Případ 35: Výzkumná laboratoř jako kult](@/kompendium/case-studies/35-research-lab-cult.md) a 10 dalších</small>
 - Janis, I. L. (1982). *Groupthink: Psychological Studies of Policy Decisions and Fiascoes* (2. vyd.). Houghton Mifflin.  
@@ -6919,6 +6925,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Teoretický imperialismus – EA jako totalizující rámec](@/kompendium/critical-perspectives/8-theoretical-imperialism.md)</small>
 - Mitnick, K. D., Simon, W. L. (2002). *The Art of Deception.*  
   <small>Citováno: [Bezpečnost: sociální inženýrství](@/kompendium/cross-domain/17-ea-security-social-engineering.md)</small>
+- Mitnick, K. D., & Simon, W. L. (2002). *The Art of Deception: Controlling the Human Element of Security*. Indianapolis: Wiley.  
+  <small>Citováno: [Red Team (červený tým)](@/glossary/red-team.md)</small>
 - Mitnick, K. D., & Simon, W. L. (2002). *The Art of Deception: Controlling the Human Element of Security*. Wiley.  
   <small>Citováno: [Prověřování kontraktorů](@/kompendium/organizational-defense/26-contractor-vetting.md), [Klasifikace informací](@/kompendium/organizational-defense/27-information-classification.md)</small>
 - Mitroff, I. I. (1974). Norms and counter-norms in a select group of the Apollo moon scientists. *American Sociological Review*, 39(4).  
@@ -7139,7 +7147,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Nembhard, I. M., a Edmondson, A. C. (2006). Making it safe: The effects of leader  
   <small>Citováno: [Psychologická bezpečnost](@/kompendium/organizational-defense/16-psychological-safety.md)</small>
 - Nemeth, C., Brown, K., & Rogers, J. (2001). *Devil's advocate versus authentic dissent: Stimulating quantity and quality*. European Journal of Social Psychology, 31(6).  
-  <small>Citováno: [Předběžná pitva (pre-mortem)](@/glossary/predbezna-pitva.md)</small>
+  <small>Citováno: [Předběžná pitva (pre-mortem)](@/glossary/predbezna-pitva.md), [Red Team (červený tým)](@/glossary/red-team.md)</small>
 - Neuhuber, W. L., & Berthoud, H.-R. (2022). *Functional anatomy of the vagus system: How does the polyvagal theory comply?*. Autonomic Neuroscience.  
   <small>Citováno: [Polyvagální teorie](@/glossary/polyvagalni-teorie.md)</small>
 - Neumann, I. B. (2012). *At Home with the Diplomats: Inside a European Foreign Ministry*. Cornell University Press.  
@@ -7866,8 +7874,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [EA-1.3.2 Pseudoempirická validace](@/kompendium/techniques/ea-1-3-2-pseudo-empiricka-validace.md)</small>
 - Popper, K. R. (1963). *Conjectures and Refutations*.  
   <small>Citováno: [Popperianismus](@/glossary/popperianismus.md), [EA-2.1.8 Inverze reputace (obrácené praní pověsti)](@/kompendium/techniques/ea-2-1-8-reputation-laundering-inverze.md)</small>
-- Popper, K. R. (1963). *Conjectures and Refutations.* London: Routledge.  
-  <small>Citováno: [Konfirmační bias](@/kompendium/03-zakladni-kategorie/biasy/konfirmacni.md), [Falsifikovatelnost – kritérium jako kategorie analýzy](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md), [Lakatos – výzkumné programy jako kategorie analýzy](@/kompendium/03-zakladni-kategorie/lakatos.md)</small>
+- Popper, K. R. (1963). *Conjectures and Refutations*. London: Routledge.  
+  <small>Citováno: [Blue Team (modrý tým)](@/glossary/blue-team.md), [Konfirmační bias](@/kompendium/03-zakladni-kategorie/biasy/konfirmacni.md), [Falsifikovatelnost – kritérium jako kategorie analýzy](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md) a 1 dalších</small>
 - Popper, K. R. (1963). *Conjectures and Refutations*. Routledge.  
   <small>Citováno: [Akademická technika](@/glossary/akademicka-technika.md), [Demarkační problém](@/glossary/demarkacni-problem.md), [Dialektická anihilace](@/glossary/dialekticka-anihilace.md) a 12 dalších</small>
 - Popper, K. R. (1963). *Conjectures and Refutations*. Routledge & Kegan Paul.  
@@ -8587,6 +8595,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Akutní protokol: Akutní sebepoškozování po epistemické anihilaci](@/kompendium/emergency-protocols/10-acute-self-harm-EA.md)</small>
 - Scandura, T. A. (1998). Dysfunctional mentoring relationships and outcomes. *Journal of Management*.  
   <small>Citováno: [Ochrana mentorství](@/kompendium/organizational-defense/19-mentorship-protection.md)</small>
+- Scarfone, K., Souppaya, M., Cody, A., & Orebaugh, A. (2008). *Technical Guide to Information Security Testing and Assessment* (NIST SP 800-115). Gaithersburg: National Institute of Standards and Technology.  
+  <small>Citováno: [Red Team (červený tým)](@/glossary/red-team.md)</small>
 - Schabas, W. A. (2009). *Genocide in International Law: The Crime of Crimes* (2. vyd.). Cambridge University Press.  
   <small>Citováno: [Prevence genocidy — EA](@/kompendium/international/30-genocide-prevention-EA/index.md)</small>
 - Schabas, W. A. (2016). *The International Criminal Court: A Commentary on the Rome Statute* (2. vyd.). Oxford University Press.  
@@ -9382,7 +9392,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Strasburger, L. H., Gutheil, T. G., & Brodsky, A. (1997). *On wearing two hats: Role conflict in serving as both psychotherapist and expert witness*. American Journal of Psychiatry.  
   <small>Citováno: [Znalec v kauzách EA](@/kompendium/forensic-legal/21-expert-witness-EA.md), [Klinická dokumentace](@/kompendium/forensic-legal/31-clinical-documentation-EA.md)</small>
 - Strathern, M. (1997). „Improving ratings“: audit in the British University system. *European Review*.  
-  <small>Citováno: [Purple Team (fialový tým)](@/glossary/purple-team.md)</small>
+  <small>Citováno: [Blue Team (modrý tým)](@/glossary/blue-team.md), [Purple Team (fialový tým)](@/glossary/purple-team.md)</small>
 - Strathern, M. (1997). „Improving ratings“: Audit in the British university system. *European Review*, 5(3), 305–321.  
   <small>Citováno: [Bridge: Purple Team (fialový tým)](@/kompendium/glossary-bridges/bridge-purple-team.md)</small>
 - Straus, M. A. (1979). Measuring intrafamily conflict and violence: The Conflict Tactics (CT) Scales.  
@@ -9410,7 +9420,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Stroebe, W., Postmes, T., & Spears, R. (2012). Scientific misconduct and the myth of  
   <small>Citováno: [Historický případ: Stapelův podvod](@/kompendium/historical-cases/34-stapel-fraud.md)</small>
 - Strom, B. E., a kol. (2018). *MITRE ATT&CK: Design and Philosophy*. MITRE.  
-  <small>Citováno: [Purple Team (fialový tým)](@/glossary/purple-team.md)</small>
+  <small>Citováno: [Blue Team (modrý tým)](@/glossary/blue-team.md), [Purple Team (fialový tým)](@/glossary/purple-team.md), [Red Team (červený tým)](@/glossary/red-team.md)</small>
 - Strom, B. E., Applebaum, A., Miller, D. P., Nickels, K. C., Pennington, A. G., & Thomas, C. B. (2018). *MITRE ATT&CK: Design and Philosophy*. MITRE.  
   <small>Citováno: [Taxonomie EA](@/glossary/taxonomie-ea.md)</small>
 - Stroud, B. (1968). *Transcendental arguments*. The Journal of Philosophy, 65(9).  
@@ -10571,6 +10581,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Historický případ: Heaven's Gate](@/kompendium/historical-cases/12-heavens-gate.md)</small>
 - Zenko, M. (2015). *Red Team: How to Succeed by Thinking Like the Enemy*. Basic Books.  
   <small>Citováno: [Bridge: Blue Team (modrý tým)](@/kompendium/glossary-bridges/bridge-blue-team.md), [Bridge: Red Team (červený tým)](@/kompendium/glossary-bridges/bridge-red-team.md)</small>
+- Zenko, M. (2015). *Red Team: How to Succeed by Thinking Like the Enemy*. New York: Basic Books.  
+  <small>Citováno: [Red Team (červený tým)](@/glossary/red-team.md)</small>
 - Zenz, A. (2019). „Thoroughly reforming them towards a healthy heart attitude“: China's political re-education campaign in Xinjiang. *Central Asian Survey*.  
   <small>Citováno: [Historický případ: Ujgurská převýchovná zařízení](@/kompendium/historical-cases/10-uyghur-reeducation.md)</small>
 - Zermelo, E. (1908). Untersuchungen über die Grundlagen der Mengenlehre I. *Mathematische Annalen*, 65.  

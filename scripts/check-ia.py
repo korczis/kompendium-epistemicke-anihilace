@@ -704,6 +704,11 @@ DUP_CHROME = re.compile(r"Created by|github\.com/korczis")
 # A cross-reference LINE: a list item of EA codes / links, or a block that opens with a link. A
 # prose paragraph with an INLINE @/ link is not excluded — it is still pasted prose.
 DUP_XREF = re.compile(r"^-\s*\*?\*?\[?EA-\d|^-\s*\[|^@/kompendium|^\[[^\]]*\]\(@/")
+# A page's own technique code, interpolated into an otherwise-pasted block ("Klinický kontext
+# **EA-4.2.5** připouští …"), makes every copy read as unique. Normalise the code, with its bold
+# markers, to a placeholder in the STORED block so the copies hash identically; the word count and
+# the exclusions above still run on the original text, not the placeholder.
+DUP_CODE = re.compile(r"\*{0,2}EA-\d+(?:\.\d+)*\*{0,2}")
 
 
 def passage_blocks(prose: str) -> set:
@@ -721,7 +726,7 @@ def passage_blocks(prose: str) -> set:
         if (len(DUP_WORD.findall(nb)) >= DUP_MIN_WORDS and nb[:1] not in "#|>"
                 and nb[:2] not in ("- ", "* ") and "@/kompendium" not in nb[:40]
                 and not DUP_CHROME.search(nb) and not DUP_XREF.search(nb) and not FIGURE.search(nb)):
-            out.add(nb)
+            out.add(DUP_CODE.sub("EA-§", nb))
 
     for line in prose.split("\n"):
         if line.strip():

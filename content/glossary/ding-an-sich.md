@@ -54,15 +54,13 @@ co víme o jevech, a co je již spekulace. Vede k opatrnosti v soudech a k uzná
 pohled je pohledem odněkud (srov. [Nagel: View from
 Nowhere](@/kompendium/07-teoreticke-reflexe/nagel-view-from-nowhere.md)).
 
-Ve zneužité podobě, kterou Kompendium popisuje, má pojem jiné, pozorovatelné znaky:
-
-- **„Pravá skutečnost je skrytá“** – to, co člověk vidí a prožívá, je prohlášeno za „pouhý
-  povrch“ či „iluzi“.
-- **„Tvé pravé já“** – psychologizovaná verze věci o sobě: skutečný člověk je prý někdo jiný,
-  než jak se sám zná, a toto „pravé já“ zná jen vůdce, terapeut nebo skupina.
-- **Nesouměřitelnost námitek** – každá námitka je odbyta tím, že se týká „jen jevů“.
-- **Asymetrie přístupu** – meze poznání platí pro podřízené, nikoli pro autoritu, která
-  o skrytém mluví s jistotou.
+Ve zneužité podobě, kterou Kompendium popisuje, má pojem jiné, pozorovatelné znaky. To, co člověk vidí a
+prožívá, se prohlašuje za „pouhý povrch“ či „iluzi“, zatímco pravá skutečnost je prý skrytá. V
+psychologizované verzi jde o „tvé pravé já“: skutečný člověk je prý někdo jiný, než jak se sám zná, a toto
+„pravé já“ zná jen vůdce, terapeut nebo skupina. Každá námitka je pak odbyta tím, že se týká „jen jevů“, a
+meze poznání platí pro podřízené, nikoli pro autoritu, která o skrytém mluví s jistotou. *Interpretace
+knihy*: tato asymetrie je opakem Kantova (1787) pojmu, podle něhož mez poznání platí pro každý konečný rozum
+stejně.
 
 ## Mechanismus
 
@@ -81,15 +79,12 @@ a [EA-5.2.12 Noumenální paralýza](@/kompendium/techniques/ea-5-2-12-noumenaln
 
 ## Odlišení
 
-- **Od filozofické skepse:** skepse zpochybňuje jistotu, ale nepřiděluje nikomu výsadní
-  přístup k pravdě ([Skepticismus](@/glossary/skepticismus.md)).
-- **Od [solipsismu](@/glossary/solipsismus.md):** solipsismus pochybuje o existenci vnějšího
-  světa; zneužitá věc o sobě existenci světa nepopírá, jen odebírá člověku právo o něm soudit.
-- **Od náboženské víry v transcendentno:** víra může uznávat skrytou skutečnost, aniž by
-  z ní někdo vyvozoval nárok na poslušnost a na výklad cizí zkušenosti.
-- **Od klinické derealizace:** pocit nereálnosti světa je příznak (úzkost,
-  [disociace](@/glossary/disociace.md), psychóza), ne filozofické stanovisko; filozofická
-  debata s ním nepomáhá a patří k němu klinické posouzení.
+| Odlišit od | Rozdíl |
+| --- | --- |
+| Filozofická skepse | zpochybňuje jistotu, ale nepřiděluje nikomu výsadní přístup k pravdě ([skepticismus](@/glossary/skepticismus.md)) |
+| [Solipsismus](@/glossary/solipsismus.md) | pochybuje o existenci vnějšího světa; zneužitá věc o sobě existenci světa nepopírá, jen odebírá člověku právo o něm soudit |
+| Náboženská víra v transcendentno | může uznávat skrytou skutečnost, aniž by z ní někdo vyvozoval nárok na poslušnost a na výklad cizí zkušenosti |
+| Klinická derealizace | pocit nereálnosti světa je příznak, například u úzkosti, [disociace](@/glossary/disociace.md) nebo psychózy, ne filozofické stanovisko; patří k němu klinické posouzení |
 
 ## Význam pro Kompendium
 
@@ -103,17 +98,20 @@ heslo nástroj k rozpoznání, kdy se z meze poznání stává mocenský nárok.
 
 ## Obrana a zotavení
 
-- **Symetrie meze.** Je-li skutečnost o sobě nepoznatelná, je nepoznatelná pro všechny,
-  včetně toho, kdo o ní mluví.
-- **Rehabilitace jevů.** To, co vidím, slyším a dělám, je plnohodnotným základem úsudku;
-  jednání druhých lze hodnotit podle toho, co činí, ne podle „skryté podstaty“.
-- **Vyjasnění „pravého já“.** V terapii pomáhá rozlišit hodnotné hledání sebe sama od
-  nároku jiné osoby určovat, kým člověk „opravdu“ je ([Trénink identitní
-  odolnosti](@/kompendium/self-defense-guides/47-identity-resilience-training.md)).
-- **Pro profesionály:** v akutní fázi se nepouštět do metafyziky; stabilizovat a ukotvit
-  v každodenní zkušenosti ([Akutní kognitivní
-  ukotvení](@/kompendium/recovery-protocols/acute-cognitive-anchoring.md)). Filozofickou
-  rekonstrukci nechat na dobu, kdy je člověk schopen ji vést sám.
+Obrana vychází z **symetrie meze**: je-li skutečnost o sobě nepoznatelná, je nepoznatelná pro všechny,
+včetně toho, kdo o ní mluví, a to je i smysl Kantova (1787) omezení poznání na jevy. Z toho plyne
+**rehabilitace jevů**: to, co člověk vidí, slyší a dělá, je plnohodnotným základem úsudku, a jednání druhých
+lze hodnotit podle toho, co činí, ne podle „skryté podstaty“. Allison (1983) Kantův idealismus vykládá právě
+tak, že rozlišení jevu a věci o sobě se týká způsobu, jak věci zkoumáme, a nedává nikomu přístup k
+„pravější“ skutečnosti.
+
+Ve vztahu k „pravému já“ jde o rozlišení mezi hodnotným hledáním sebe sama a nárokem jiné osoby určovat, kým
+člověk „opravdu“ je ([trénink identitní odolnosti](@/kompendium/self-defense-guides/47-identity-resilience-training.md)). Lifton
+(1961) popsal tentýž nárok u myšlenkové reformy jako nadřazení doktríny osobě: vlastní zkušenost člověka se
+má podřídit tomu, co o něm tvrdí nauka skupiny.
+*Interpretace knihy*: v akutní fázi po manipulaci kniha metafyzickou debatu nedoporučuje a odkazuje na
+[akutní kognitivní ukotvení](@/kompendium/recovery-protocols/acute-cognitive-anchoring.md); filozofická
+rekonstrukce přichází na řadu, až ji člověk může vést sám, a o postupu v péči rozhoduje kliník.
 
 ## Literatura
 
@@ -121,6 +119,7 @@ heslo nástroj k rozpoznání, kdy se z meze poznání stává mocenský nárok.
 - Jacobi, F. H. (1787). *David Hume über den Glauben, oder Idealismus und Realismus*
   (příloha o transcendentálním idealismu).
 - Allison, H. E. (1983). *Kant's Transcendental Idealism*.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: W. W. Norton.
 
 ## Související
 

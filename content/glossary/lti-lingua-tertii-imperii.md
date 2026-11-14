@@ -26,15 +26,18 @@ Dílo patří ke klasice kritické analýzy politického jazyka a je běžně uv
 
 ## Jak se projevuje
 
-Klemperer popsal řadu rysů LTI; v Kompendiu slouží jako vzorce, které lze hledat i v jiných prostředích:
+Klemperer (1947) popsal řadu rysů LTI; v Kompendiu slouží jako vzorce, které lze hledat i v jiných
+prostředích:
 
-- **chudoba a jednotvárnost** – jazyk se zužuje na omezený repertoár formulí, který se opakuje ve všech oblastech života;
-- **superlativy a hyperboly** – vše je „historické“, „jedinečné“, „totální“, „věčné“;
-- **přenášení technického slovníku na lidi** – o lidech se mluví jako o materiálu nebo strojích;
-- **eufemismy** zakrývající násilí – úřední slova pro deportaci a vraždu;
-- **ironické uvozovky** – nepřítel nemá „skutečné“ vlastnosti, jen „takzvané“;
-- **pseudonáboženský slovník** – víra, poslání, prozřetelnost, obětování;
-- **převzetí jazyka pronásledovanými** – i oběti začnou mluvit slovy, která je vylučují.
+| Rys | Jak se projevuje |
+| --- | --- |
+| Chudoba a jednotvárnost | jazyk se zužuje na omezený repertoár formulí, který se opakuje ve všech oblastech života |
+| Superlativy a hyperboly | vše je „historické“, „jedinečné“, „totální“, „věčné“ |
+| Technický slovník přenesený na lidi | o lidech se mluví jako o materiálu nebo strojích |
+| Eufemismy zakrývající násilí | úřední slova pro deportaci a vraždu |
+| Ironické uvozovky | nepřítel nemá „skutečné“ vlastnosti, jen „takzvané“ |
+| Pseudonáboženský slovník | víra, poslání, prozřetelnost, obětování |
+| Převzetí jazyka pronásledovanými | i oběti začnou mluvit slovy, která je vylučují |
 
 ## Mechanismus
 
@@ -42,10 +45,12 @@ Strukturně LTI ukazuje, že ideologie se nejúčinněji šíří **pod úrovní
 
 ## Odlišení
 
-- **[Propaganda](@/glossary/propaganda.md)** je záměrné šíření sdělení; LTI zahrnuje i nezáměrné přejímání jazyka v každodenní řeči.
-- **[Newspeak](@/glossary/newspeak.md)** je literární konstrukce plánovaného jazyka; LTI je dokumentovaný historický jazyk, který se vyvíjel živelně i řízeně.
-- **[Loading the language](@/glossary/loading-the-language.md)** je obecné kritérium; LTI je konkrétní případová studie.
-- **Politický žargon** obecně nemusí být totalitní; rozhodující je, zda vylučuje alternativní popisy a zakrývá násilí.
+| Odlišit od | Rozdíl |
+| --- | --- |
+| [Propaganda](@/glossary/propaganda.md) | záměrné šíření sdělení; LTI zahrnuje i nezáměrné přejímání jazyka v každodenní řeči |
+| [Newspeak](@/glossary/newspeak.md) | literární konstrukce plánovaného jazyka (Orwell, 1949); LTI je dokumentovaný historický jazyk, který se vyvíjel živelně i řízeně |
+| [Loading the language](@/glossary/loading-the-language.md) | obecné kritérium; LTI je konkrétní případová studie |
+| Politický žargon | nemusí být totalitní; rozhodující je, zda vylučuje alternativní popisy a zakrývá násilí (Orwell, 1946) |
 
 ## Význam pro Kompendium
 

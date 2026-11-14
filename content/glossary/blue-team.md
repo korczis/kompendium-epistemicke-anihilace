@@ -31,7 +31,7 @@ date_modified = "2026-11-10"
 
 ## Definice
 
-**Blue Team** je tým čtyř specializovaných [agentů](@/glossary/agent.md) zaměřených na
+**Blue Team** je tým čtyř specializovaných agentů zaměřených na
 epistemickou obranu prostřednictvím syntézy důkazů. V tradiční kybernetické bezpečnosti
 brání blue team sítě proti útokům; epistemický Blue Team brání **epistemickou integritu**
 znalostních systémů – stará se o to, aby přesvědčení byla dobře doložena, signály nebyly

@@ -17,10 +17,10 @@
     "static/data/viz-deps.json"
    ],
    "generic_views": {
-    "viz/okoli": 290
+    "viz/okoli": 289
    },
    "libraries": [],
-   "pages": 291,
+   "pages": 290,
    "partials": [
     "partials/connections.html",
     "partials/explorer-glossary.html",
@@ -105,13 +105,13 @@
    ],
    "status": "covered",
    "templates": {
-    "glossary/detail.html": 290,
+    "glossary/detail.html": 289,
     "glossary/list.html": 1
    },
    "views": {
     "chart-inline": 1,
     "viz/glosar": 1,
-    "viz/kontext": 290
+    "viz/kontext": 289
    }
   },
   "kompendium": {
@@ -2960,10 +2960,10 @@
    ],
    "generic_views": {
     "viz/oddil": 1,
-    "viz/okoli": 74
+    "viz/okoli": 73
    },
    "libraries": [],
-   "pages": 75,
+   "pages": 74,
    "partials": [
     "partials/connections.html",
     "partials/explorer-glossary.html",
@@ -3032,7 +3032,7 @@
    ],
    "status": "covered",
    "templates": {
-    "kompendium/page.html": 74,
+    "kompendium/page.html": 73,
     "section.html": 1
    },
    "views": {

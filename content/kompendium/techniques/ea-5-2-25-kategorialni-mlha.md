@@ -57,7 +57,7 @@ Zpětně se znaky skládají takto: nejprve přejatý slovník odmítající roz
 - **Chronická pojmová neurčitost** — distinkce se „rozpouštějí“.
 - **Praktická pomalost rozhodování** — fuzzy hranice prodlužují deliberaci.
 - **Pseudo-pokročilý slovník** — „kontinuum“, „fluidita“, „non-binarita“ mimo legitimní kontext.
-- **Slovní intelektualizace** maskující kompetenční deficit.
+- **Slovní [intelektualizace](@/glossary/intelektualizace.md)** maskující kompetenční deficit.
 - **Akutní paralýza při tlaku na ostrá rozhodnutí** — mlha kolaboruje k paralýze.
 - **Postupná ztráta praktické rozhodovací rychlosti**.
 

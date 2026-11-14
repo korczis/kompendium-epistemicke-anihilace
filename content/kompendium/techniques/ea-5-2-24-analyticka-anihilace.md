@@ -59,7 +59,7 @@ Zpětně se znaky skládají takto: nejprve nauka o neudržitelnosti definic, pa
 - **Chronická pojmová neurčitost** — slova přetrvávají, ale významy „tečou“.
 - **Komunikační selhání** — partneři přestávají rozumět.
 - **Akutní afatické epizody** v formálních kontextech.
-- **Slovní intelektualizace** maskující strukturální afázii.
+- **Slovní [intelektualizace](@/glossary/intelektualizace.md)** maskující strukturální afázii.
 - **Pseudo-poetická produkce** — řeč se rozpouští v asociativní neurčitost.
 - **Praktická dezorientace** v doménách vyžadujících definice (právo, věda, technika).
 

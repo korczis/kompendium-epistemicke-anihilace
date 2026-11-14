@@ -81,7 +81,7 @@ Prvním opatřením je **zápis výchozích hypotéz** před zahájením prověr
 myslí a proč. Na konci se se zápisem srovná a zpráva uvede, co se změnilo. Druhým je
 **oddělení sběru a hodnocení**: kdo shromažďuje informace, nemusí být tím, kdo o nich
 rozhoduje. Třetím je **[red team](@/glossary/red-team.md)** – kolega, který má za úkol hledat nejsilnější argumenty
-proti závěru (viz [Red Team](@/glossary/red-team.md)). Čtvrtým je **předběžná pitva**
+proti závěru (viz [Red Team](@/glossary/red-team.md)). Čtvrtým je **[předběžná pitva](@/glossary/predbezna-pitva.md)**
 (*pre-mortem*): představit si, že rozhodnutí dopadlo špatně, a hledat proč (Klein 2007).
 Pátým je **nezávislost odměny na výsledku** a výslovné ujištění zadavatele, že negativní
 nález je hodnotný výsledek. Podrobné postupy popisuje [prevence konfirmačního zkreslení](@/kompendium/cross-domain/16-ea-dd-confirmation-bias-prevention.md).

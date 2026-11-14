@@ -91,7 +91,7 @@ Logická diskontinuita je odlišitelná od:
 | Kontext | Manifestace |
 |---------|-------------|
 | **Pokročilé pseudo-spirituální skupiny** | Koánové saturace, paradoxní afirmace, devaluace racionality jako "ego" |
-| **Vysoce manipulativní coaching** | Insight bombing, krátké emocionální triggery, devaluace "intelektualizace" |
+| **Vysoce manipulativní coaching** | Insight bombing, krátké emocionální triggery, devaluace "[intelektualizace](@/glossary/intelektualizace.md)" |
 | **Sleep-deprivation kontexty** (extrémní retreaty, izolace) | Fragmentace pracovní paměti |
 | **Některé akademické proudy** | Obrana proti analytické kritice rétorikou typu "logocentrismus", aniž je nabízena alternativní formální struktura |
 | **Vysoce kontrolní skupiny** | Důsledná devaluace dlouhých argumentů, akceptace doktrinálních rozporů |

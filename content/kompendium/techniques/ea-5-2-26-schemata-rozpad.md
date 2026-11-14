@@ -57,7 +57,7 @@ Zpětně se znaky skládají takto: nejprve nauka upřednostňující čistý po
 - **Pojmová abstraktnost bez aplikace** — subjekt operuje s pojmy, ale neaplikuje je na konkrétno.
 - **Smyslová amorfnost** — fenomény se zdají „nezpracované“.
 - **Praktická bezmocnost** v úkolech vyžadujících syntézu pojmu a vjemu.
-- **Slovní intelektualizace** maskující strukturální rozpad.
+- **Slovní [intelektualizace](@/glossary/intelektualizace.md)** maskující strukturální rozpad.
 - **Postupná ztráta produktivní obrazotvornosti** — neschopnost generovat scenáře.
 - **Akutní dezorientace** v nových situacích.
 

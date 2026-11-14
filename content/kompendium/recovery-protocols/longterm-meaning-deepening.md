@@ -104,7 +104,7 @@ smysl a zda nové nabídky smyslu posuzuje vlastním úsudkem. Lze použít dota
 Protokol není vhodný v dřívějších fázích, kdy je třeba nejdřív bezpečí a stabilita. Rizikem je
 **terapeut jako zdroj smyslu** – terapeut, který nabízí vlastní světonázor, opakuje roli vůdce.
 Dalším rizikem je **povinnost smyslu**: tlak, aby z utrpení vzešlo „něco hlubokého“, může klienta
-zatížit. A konečně **intelektualizace** – existenciální rozhovor může nahradit práci s bolestí.
+zatížit. A konečně **[intelektualizace](@/glossary/intelektualizace.md)** – existenciální rozhovor může nahradit práci s bolestí.
 
 ## 7. Kazuistika (anonymizovaný kompozit)
 

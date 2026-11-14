@@ -60,7 +60,7 @@ Zpětně se znaky skládají takto: nejprve přejatý hyperskeptický rejstřík
 - **Chronická tautologičnost** — subjekt se omezuje na analytická tvrzení.
 - **Hyper-skeptická paralýza** — neschopnost generalizovat z pozorování.
 - **Akutní úzkost při tlaku na rozšiřující soudy** — paralýza se aktivuje.
-- **Slovní intelektualizace** maskující strukturální paralýzu.
+- **Slovní [intelektualizace](@/glossary/intelektualizace.md)** maskující strukturální paralýzu.
 - **Praktická dezorientace** v doménách vyžadujících syntetickou kompetenci (věda, etika, plánování).
 - **Pseudo-skeptická melancholie** — pocit, že „nic se opravdu neví“.
 

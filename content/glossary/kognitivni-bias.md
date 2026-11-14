@@ -62,7 +62,7 @@ Ve vývojovém kontextu, z něhož kniha vzešla, je kognitivní bias převeden 
 
 ## Obrana a zotavení
 
-Strukturní obrany vyrovnávají místa, kde individuální reflexe není spolehlivá: rozmanité vstupy, kalibrační smyčky, výslovné *pre-mortem* („představme si, že rozhodnutí selhalo – proč?“).
+Strukturní obrany vyrovnávají místa, kde individuální reflexe není spolehlivá: rozmanité vstupy, kalibrační smyčky, výslovné *[pre-mortem](@/glossary/predbezna-pitva.md)* („představme si, že rozhodnutí selhalo – proč?“).
 
 - **Pro jednotlivce:** [osobní audit biasů](@/kompendium/self-defense-guides/38-bias-audit-personal.md), [hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md), odklad důležitých rozhodnutí mimo tlak.
 - **Pro výuku:** scénář [Rozpoznání kognitivních biasů](@/kompendium/educational-scenarios/2-cognitive-bias-recognition.md).

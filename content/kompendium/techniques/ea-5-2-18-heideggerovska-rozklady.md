@@ -64,7 +64,7 @@ Zpětně se znaky skládají takto: nejprve osvojení slovníku, pak stahování
 - **Pseudo-mystická melancholie** prokládaná akutními úzkostnými epizodami.
 - **Praktická bezstarostnost** maskovaná pseudo-filozofickou hloubkou.
 - **Resentimentní vztah ke vrženosti** — chronická stížnost na „podmínky existence“.
-- **Slovní intelektualizace** maskující strukturální paralýzu.
+- **Slovní [intelektualizace](@/glossary/intelektualizace.md)** maskující strukturální paralýzu.
 
 ## Detekční markery
 

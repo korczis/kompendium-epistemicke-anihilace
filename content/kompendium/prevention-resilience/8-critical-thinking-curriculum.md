@@ -170,7 +170,7 @@ předmětů, autoři kurikula, knihovny a programy celoživotního vzděláván�
 
 - **Hyperkriticismus a cynismus** – viz výše; kritické myšlení bez symetrie vede k nové
   formě slepoty.
-- **Intelektualizace.** Kritické myšlení nechrání před manipulací, která působí přes vztah
+- **[Intelektualizace](@/glossary/intelektualizace.md).** Kritické myšlení nechrání před manipulací, která působí přes vztah
   a emoce; inteligentní lidé nejsou vůči [vysoce kontrolujícím skupinám](@/glossary/high-control-group.md)
   imunní.
 - **Kulturní a hodnotové otázky.** Ne všechny spory lze rozhodnout důkazy; kurikulum má

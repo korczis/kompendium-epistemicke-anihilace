@@ -91,7 +91,7 @@ regulátora, nezávislý výzkum), **vyvážený přístup** zájmových skupin 
 regulátorem a odvětvím, **povinnost odůvodnit rozhodnutí** s uvedením zdrojů, **vnější
 přezkum** (parlament, auditní instituce, soudy) a **ochrana oznamovatelů** uvnitř regulátora
 (viz [Mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md)).
-Uvnitř regulátora pomáhá **[red team](@/glossary/red-team.md)** a **předběžná pitva** u zásadních rozhodnutí (viz
+Uvnitř regulátora pomáhá **[red team](@/glossary/red-team.md)** a **[předběžná pitva](@/glossary/predbezna-pitva.md)** u zásadních rozhodnutí (viz
 [prevence konfirmačního zkreslení](@/kompendium/cross-domain/16-ea-dd-confirmation-bias-prevention.md)).
 
 Pro organizace v regulovaném odvětví je regulatorní zajetí zdánlivě výhodné, ve skutečnosti

@@ -17,6 +17,12 @@ at ~+3-5 s per check-ia run it would cost more than it catches. Run it by hand t
 genuine cases — an ambiguous surname with several works in references.md, cited in passing
 on a page that is not about that author — and fix those by adding the author-year.
 
+Fixing a hit means adding the work to that page's own ``## Literatura``. That is a DERIVED-DATA
+change: ``content/references.md`` is the book-wide bibliography generated from every page's
+Literatura, so a one-line addition makes it stale and CI's "References page is current" step
+fails. Regenerate it in the same commit — ``python3 scripts/build-references.py`` (or let
+``scripts/verify-content.sh --fix`` do it) — and commit the updated ``content/references.md``.
+
 Always exits 0. Usage:
 
     python3 scripts/lint-bare-surname.py            # list every hit, sorted

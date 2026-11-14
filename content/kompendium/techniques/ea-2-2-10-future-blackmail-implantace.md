@@ -35,7 +35,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 
 ## Definice
 
-Implantace budoucího vydírání je vzorec, v němž se v průběhu mentorského, vůdčího nebo
+Implantace budoucího [vydírání](@/glossary/vydirani.md) je vzorec, v němž se v průběhu mentorského, vůdčího nebo
 terapeutického vztahu **hromadí materiál, který může později sloužit jako páka**:
 důvěrná přiznání, informace o zdraví a soukromí, porušení pravidel, k nimž byl svěřenec
 přiveden nebo v nichž byl zapojen, finanční závazky a závislosti. Materiál nemusí být

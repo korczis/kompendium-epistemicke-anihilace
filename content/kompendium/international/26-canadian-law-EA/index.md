@@ -48,7 +48,7 @@ vytvořit (viz
 ## 2. Klíčové instituty a pojmy
 
 Trestní zákoník obsahuje trestné obtěžování (s. 264), tedy opakované sledování, kontaktování
-nebo výhružné jednání, které u oběti vyvolá důvodný strach o bezpečí, a dále vydírání
+nebo výhružné jednání, které u oběti vyvolá důvodný strach o bezpečí, a dále [vydírání](@/glossary/vydirani.md)
 (s. 346), zastrašování (s. 423) a podvod (s. 380). Obtěžování je skutkovou podstatou, která
 nejblíže zachycuje opakování; Podle analýzy, kterou předložil Stark (2007), však
 kontrola v blízkém vztahu nemusí u oběti vyvolávat strach o bezpečí, ale spíše postupnou

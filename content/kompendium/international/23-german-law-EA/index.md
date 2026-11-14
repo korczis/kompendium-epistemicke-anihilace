@@ -53,7 +53,7 @@ Fischer (2024) ve výkladu zdůrazňuje, že skutková podstata postihuje opakov
 celek, což je jeden z mála německých trestných činů, který vzorec výslovně zachycuje.
 
 Nátlak a hrozbu postihují § 240 *Nötigung*, tedy donucení násilím nebo hrozbou citelnou
-újmou k jednání, strpění nebo opomenutí, a § 241 *Bedrohung*, tedy vyhrožování. Vydírání
+újmou k jednání, strpění nebo opomenutí, a § 241 *Bedrohung*, tedy vyhrožování. [Vydírání](@/glossary/vydirani.md)
 s cílem majetkového prospěchu je samostatně upraveno v § 253 *Erpressung*. Urážku, pomluvu
 a vědomě nepravdivé pomlouvání upravují §§ 185–187 (viz
 [pomluva v EA kontextu](@/kompendium/forensic-legal/14-defamation-EA.md)); Fischer (2024)

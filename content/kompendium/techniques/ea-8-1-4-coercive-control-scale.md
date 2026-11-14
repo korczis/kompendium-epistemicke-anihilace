@@ -112,7 +112,7 @@ po oznámení rozchodu, kdy riziko násilí stoupá.
 ## Klinický a právní rámec
 
 V Česku lze vzorec postihnout zejména jako **týrání osoby žijící ve společném obydlí**
-(§ 199 trestního zákoníku), případně jako nebezpečné pronásledování nebo vydírání; Anglie
+(§ 199 trestního zákoníku), případně jako nebezpečné pronásledování nebo [vydírání](@/glossary/vydirani.md); Anglie
 a Wales zavedly samostatný trestný čin kontrolujícího nebo donucujícího chování (Serious
 Crime Act 2015, oddíl 76). Klinik by měl dotazovat v soukromí, bez partnera, a výsledky
 zapisovat doslovně ([klinická dokumentace](@/kompendium/forensic-legal/31-clinical-documentation-EA.md),

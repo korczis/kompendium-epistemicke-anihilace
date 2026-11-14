@@ -121,7 +121,7 @@ a spory o děti.
 
 V Česku je samostatný trestný čin coercive control neznámý; vzorec lze postihnout jako
 týrání osoby žijící ve společném obydlí (§ 199 trestního zákoníku), nebezpečné
-pronásledování (§ 354) nebo vydírání (§ 175). Policie může násilnou osobu vykázat ze
+pronásledování (§ 354) nebo [vydírání](@/glossary/vydirani.md) (§ 175). Policie může násilnou osobu vykázat ze
 společného obydlí. Pro klinika je rámec vodítkem k otázkám, které se ptají na vzorec
 a svobodu, ne jen na zranění. Viz [právo o coercive control](@/kompendium/forensic-legal/12-coercive-control-law.md)
 a [rodinné právo](@/kompendium/forensic-legal/41-family-court-EA.md).

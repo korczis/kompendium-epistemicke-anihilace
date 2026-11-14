@@ -39,7 +39,7 @@ zveřejní, často s cílem ovlivnit veřejnou debatu. Dobře doložené jsou p�
 e-mailů Národního výboru Demokratické strany v USA v roce 2016 a úniku dokumentů kampaně
 Emmanuela Macrona těsně před druhým kolem prezidentských voleb v roce 2017, kde bylo podle
 kampaně mezi pravé dokumenty vmícháno i padělané. U ransomwaru se rozšířilo **dvojí
-vydírání**: šifrování dat spojené s hrozbou jejich zveřejnění.
+[vydírání](@/glossary/vydirani.md)**: šifrování dat spojené s hrozbou jejich zveřejnění.
 
 ## Průnik s epistemickou anihilací
 

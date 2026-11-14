@@ -26,7 +26,7 @@ a podpůrným organizacím.
 ## Právní a forenzní kontext
 
 České právo nemá jediný trestný čin „ovlivňování svědka“. Působení na svědky lze podle
-okolností postihnout podle trestního zákoníku, zákona č. 40/2009 Sb., jako **vydírání**
+okolností postihnout podle trestního zákoníku, zákona č. 40/2009 Sb., jako **[vydírání](@/glossary/vydirani.md)**
 (§ 175), **nebezpečné vyhrožování** (§ 353), **nebezpečné pronásledování** (§ 354) nebo jako
 účastenství – zejména návod – na trestném činu **křivé výpovědi** (§ 346 ve spojení s § 24).
 Procesně je obava, že obviněný bude působit na dosud nevyslechnuté svědky nebo jinak mařit

@@ -17,7 +17,7 @@ toc = true
 
 > **Akutní intervenční protokol č. 22** · skupina Cílové populace · okno: krize a první dva týdny
 >
-> **Sebevražedné jednání, intoxikace, zranění = 155.** Ohrožení třetí osobou nebo vydírání
+> **Sebevražedné jednání, intoxikace, zranění = 155.** Ohrožení třetí osobou nebo [vydírání](@/glossary/vydirani.md)
 > intimními materiály = Policie ČR (158). Dospívajícím je k dispozici Linka bezpečí (116 111).
 > Ohrožený nezletilý má nárok na ochranu podle zákona č. 359/1999 Sb., o sociálně-právní ochraně
 > dětí, i tehdy, když rodiče situaci nevidí jako vážnou.

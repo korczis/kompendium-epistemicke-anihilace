@@ -72,7 +72,7 @@ Tabulka srovnává pojmy podle funkce, jak doporučuje funkční metoda srovnáv
 | *harcèlement moral* | Francie | šikana; částečně útisk | francouzské právo jej postihuje v práci i v páru |
 | [undue influence](@/glossary/undue-influence.md) | common law (závěti, smlouvy) | lest, bezprávná výhrůžka, zneužití tísně; neplatnost právního jednání | žádný jednotný institut |
 | *duress* | common law | bezprávná výhrůžka, tíseň | |
-| psychické násilí | Istanbulská úmluva, čl. 33 | týrání, vydírání, útisk | úmluva ukládá postihovat závažné narušení psychické integrity nátlakem nebo výhrůžkami |
+| psychické násilí | Istanbulská úmluva, čl. 33 | týrání, [vydírání](@/glossary/vydirani.md), útisk | úmluva ukládá postihovat závažné narušení psychické integrity nátlakem nebo výhrůžkami |
 | *insanity* (M'Naghtenova pravidla) | Anglie, část USA | nepříčetnost (§ 26 tr. zák.) | odlišná kritéria |
 | *persecution* | Římský statut, čl. 7 odst. 1 písm. h) | zločin proti lidskosti | viz [Mezinárodní trestní právo](@/kompendium/international/28-international-criminal-EA/index.md) |
 | *direct and public incitement* | Úmluva o genocidě 1948, čl. III písm. c) | přímé a veřejné podněcování ke genocidě | viz [Prevence genocidy](@/kompendium/international/30-genocide-prevention-EA/index.md) |

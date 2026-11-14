@@ -155,7 +155,7 @@ kol., 2000).
 
 ## Meze a otevřené otázky
 
-Ochrana menšiny může být zneužita k obstrukci a vydírání většiny; i to je třeba rozpoznat, a
+Ochrana menšiny může být zneužita k obstrukci a [vydírání](@/glossary/vydirani.md) většiny; i to je třeba rozpoznat, a
 principy správy společností proto vyvažují práva menšiny s potřebou efektivního rozhodování
 (OECD, 2015). Zákonné nástroje jsou pomalé a nákladné a malý vlastník je často nepoužije.
 Otevřenou otázkou zůstává ochrana „vlastníků“ veřejných firem – občanů –, kteří nemají hlas na

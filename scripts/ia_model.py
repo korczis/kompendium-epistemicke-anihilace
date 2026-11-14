@@ -333,7 +333,10 @@ OWN_FRAME = re.compile(r"\]\(@/kompendium/(?:01-predmluva/eticke-aspekty|01-pred
 MAX_OWN_FRAME = 3
 
 # An author-year citation. § numbers are not years: "§ 1724" is removed before matching.
-YEAR = r"(?<![\d/§.])(?:1[5-9]\d\d|20[0-4]\d)[a-z]?(?![\d/])"
+# A double year ("Kant, 1781/1787": first and second edition) is one citation; a statute number
+# ("40/2009 Sb.") is not, since its year follows a slash and the lookbehind refuses that.
+YEAR = (r"(?<![\d/§.])(?:1[5-9]\d\d|20[0-4]\d)[a-z]?"
+        r"(?:/(?:1[5-9]\d\d|20[0-4]\d)[a-z]?)?(?![\d/])")
 NAME = r"(?:(?:van|von|de|der|den|du|da|di|le|la|ten|ter)\s+)*[" + UPPER + r"][\w'’\-]*\w"
 # Further authors may be lower case (danah boyd: "Marwick a boyd (2011)"); "a kol.", "a kolegové",
 # "et al." close the list.

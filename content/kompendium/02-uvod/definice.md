@@ -119,7 +119,7 @@ Pro adekvátní identifikaci fenoménů epistemické a kognitivní anihilace je 
 | Stav | Klíčový diferenciační znak |
 |------|----------------------------|
 | **Demence** (organická etiologie) | Neurodegenerativní substrát, lokalizovatelný neuropsychologický pattern, predikovatelná progrese |
-| **Psychotická dezintegrace** | Primárně endogenní vulnerabilita, responzivita na antipsychotika; dezintegrace stávajících struktur vs. cílená destrukce kapacit |
+| **Psychotická dezintegrace** | Primárně endogenní vulnerabilita, rozlišení patří psychiatrickému vyšetření; dezintegrace stávajících struktur vs. cílená destrukce kapacit |
 | **Disociativní poruchy** | Fragmentace identity vs. destrukce poznávací kapacity; protektivní (nikoli destruktivní) funkce; primární disociace mezi aspekty self vs. mezi subjektem a jeho epistemickými kapacitami |
 | **Kognitivní únava** | Reverzibilní funkční stav, remituje při odstranění zátěže |
 | **Akutní stresová reakce** | Časově ohraničená, váže se k identifikovatelnému stresoru |

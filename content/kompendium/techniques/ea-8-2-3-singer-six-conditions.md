@@ -138,8 +138,12 @@ obraz nepřátelského vnějšího světa, který skupina předkládá.
 
 **Pro jednotlivce.** Před vstupem do intenzivního programu zjistit, kdo za ním stojí,
 co bude následovat a kolik bude stát; mít čas a lidi mimo program. Odmítnout prostředí,
-které nevysvětlí své cíle. **Pro instituce.** Transparentní nábor a informovaný souhlas
-s programem ([informovaný souhlas](@/glossary/informed-consent.md)). **Pro profesionály.**
+které nevysvětlí své cíle.
+
+**Pro instituce.** Transparentní nábor a informovaný souhlas
+s programem ([informovaný souhlas](@/glossary/informed-consent.md)).
+
+**Pro profesionály.**
 Neopakovat podmínky v „opačném směru“ – nátlakové deprogramování porušuje stejné principy.
 
 **Otázky, které pomáhají v rozhovoru.** Věděl jsi na začátku, kam to povede? Kolik jsi

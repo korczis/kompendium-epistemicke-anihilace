@@ -57,7 +57,7 @@ být u rozhovoru ani jako „tlumočník“. WHO (2013) doporučuje, aby se zdra
 násilí ptali v soukromí, s ohledem na bezpečí ženy a s připravenou nabídkou pomoci, a výslovně
 zmiňuje prenatální péči jako místo, kde je takový dotaz namístě.
 
-**Přímý dotaz na sebevražedné myšlenky** a myšlenky na ublížení dítěti patří do prvního kontaktu;
+Přímý dotaz na sebevražedné myšlenky a myšlenky na ublížení dítěti patří do prvního kontaktu;
 jejich vyslovení je signálem k péči, ne důvodem k odsudku. Strukturované posouzení sebevražedného
 rizika popisuje [protokol č. 2](@/kompendium/emergency-protocols/2-suicide-risk-EA.md) a vychází ze
 škály C-SSRS (Posner a kol., 2011).

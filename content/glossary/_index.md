@@ -157,12 +157,12 @@ ukazují integrativní povahu celku.
 
 ## Struktura hesla
 
-Hesla jsou psána česky a podle podrobného schématu: **Definice** · **Původ a kontext pojmu**
-(obor, tradice, kdo pojem zavedl – jen tam, kde je to jisté) · **Jak se projevuje**
-(pozorovatelné znaky) · **Mechanismus** (strukturálně, nikdy jako návod) · **Odlišení** (od
-podobných pojmů a klinických stavů) · **Význam pro Kompendium** (které techniky, případy
-a protokoly pojem vysvětluje) · **Obrana a zotavení** · **Literatura** (jen jistě existující
-díla) · **Související**.
+Hesla jsou psána česky a podle podrobného schématu: Definice · Původ a kontext pojmu
+(obor, tradice, kdo pojem zavedl – jen tam, kde je to jisté) · Jak se projevuje
+(pozorovatelné znaky) · Mechanismus (strukturálně, nikdy jako návod) · Odlišení (od
+podobných pojmů a klinických stavů) · Význam pro Kompendium (které techniky, případy
+a protokoly pojem vysvětluje) · Obrana a zotavení · Literatura (jen jistě existující
+díla) · Související.
 
 ### Pole metadat
 

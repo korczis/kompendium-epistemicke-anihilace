@@ -137,7 +137,9 @@ je třeba vedle DSM vždy zvážit i rámec MKN-11 (Brewin a kol., 2017).
 
 **Pro profesionály.** Neodmítat potíže jako „nedost traumatické“ jen proto, že chybí událost
 kritéria A; popsat příznaky a zvážit vhodnější kategorii. Při práci s klienty z prostředí
-EA počítat s tím, že vyhýbání může zakrýt i samotnou zkušenost. **Pro instituce.** Neopírat
+EA počítat s tím, že vyhýbání může zakrýt i samotnou zkušenost.
+
+**Pro instituce.** Neopírat
 nárok na pomoc výhradně o diagnózu PTSD.
 
 **Otázky, které pomáhají v rozhovoru.** Co přesně se stalo a jak dlouho to trvalo? Bál jste

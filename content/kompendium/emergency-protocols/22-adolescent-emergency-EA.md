@@ -52,7 +52,7 @@ mluví, co se bude dít a co zůstane mezi nimi i kde jsou hranice důvěrnosti.
 pomoc začíná představením a vysvětlením role, protože bez základní důvěry nelze bezpečí ověřit
 (WHO, 2011).
 
-**Přímý dotaz na sebevražedné myšlenky** a sebepoškozování patří do prvního kontaktu; u
+Přímý dotaz na sebevražedné myšlenky a sebepoškozování patří do prvního kontaktu; u
 dospívajících po online šikaně či vydírání je třeba počítat s vysokým rizikem
 ([protokol č. 2](@/kompendium/emergency-protocols/2-suicide-risk-EA.md),
 [protokol č. 10](@/kompendium/emergency-protocols/10-acute-self-harm-EA.md)). Škála C-SSRS byla

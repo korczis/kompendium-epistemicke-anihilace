@@ -84,7 +84,7 @@ Tento kodex operacionalizuje cestu mezi těmito riziky. Není to seznam pravidel
 
 **Operacionalizace**:
 
-- Každá technika obsahuje **detekční markery** (≥ 3) a **neutralizační strategie** (≥ 2).
+- Každá technika obsahuje detekční markery (≥ 3) a neutralizační strategie (≥ 2).
 - Per-technique články obsahují **diagnostické indikátory**, ne **operační návody**.
 - Technika je publikována, **až když** je publikována i její neutralizace.
 
@@ -234,7 +234,7 @@ skutečně dosáhne — rozsah takové volby vymezují
 
 ## Kritický krok
 
-**Tato příloha je referenční nástroj** — není k četbě od začátku do konce.
+Tato příloha je referenční nástroj — není k četbě od začátku do konce.
 Místo lineární četby:
 
 1. Identifikuj konkrétní termín / techniku / nástroj, který právě potřebuješ

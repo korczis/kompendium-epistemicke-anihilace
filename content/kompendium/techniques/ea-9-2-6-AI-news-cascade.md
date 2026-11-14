@@ -21,7 +21,7 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 
 # EA-9.2.6 AI News Cascade
 
-> *Subkategorie 🎬 **9.2 Generativní média** — současná digitální epistemická agrese v éře AI, sociálních platforem a algoritmické governance.*
+> *Subkategorie 🎬 9.2 Generativní média — současná digitální epistemická agrese v éře AI, sociálních platforem a algoritmické governance.*
 
 ---
 

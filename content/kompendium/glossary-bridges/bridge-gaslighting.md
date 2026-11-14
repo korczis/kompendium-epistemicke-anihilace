@@ -17,7 +17,7 @@ toc = false
 
 # Bridge: Gaslighting
 
-> **Most** vede od hesla glosáře k místům knihy, kde se pojem používá, a od nich k praxi:
+> Most vede od hesla glosáře k místům knihy, kde se pojem používá, a od nich k praxi:
 > rozpoznání, obraně a zotavení. Přehled všech mostů je v rejstříku
 > [Glossary Bridges](@/kompendium/glossary-bridges/_index.md).
 

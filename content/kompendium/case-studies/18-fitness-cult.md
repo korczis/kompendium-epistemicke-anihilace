@@ -49,7 +49,7 @@ osobní slabostí, ale situací.
 V prvním půlroce (fáze **pokroku**) přišly rychlé výsledky, pochvala a nová komunita. Mezi šestým
 a patnáctým měsícem (fáze **intenzifikace**) přibyl dvoufázový trénink, skupinové výzvy a přísný
 jídelníček. V prvních dvou letech (fáze **morálního rámce**) se odpočinek stal „slabostí“ a
-zranění osobní vinou. Ve druhém a třetím roce (fáze **uzavření**) muž pracoval v centru, měl
+zranění osobní vinou. Ve druhém a třetím roce (fáze uzavření) muž pracoval v centru, měl
 přátele jen z komunity a rodina podle něj „nechápala“. Ve třetím roce (fáze **detekce a
 odchodu**) skončil po závažném přetížení v nemocnici a sportovní lékař zpochybnil celý režim.
 Coser (1974) označuje instituce, které si postupně nárokují čas, vztahy i identitu člena, za
@@ -111,7 +111,7 @@ skupinovému výkladu.
 
 Rámec poskytl [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
 spolu se [somaticky orientovanou terapií](@/kompendium/techniques/ea-6-2-9-body-oriented-therapy-protokol.md).
-Ve stupni **S1 – Validace a mapování** proběhla somatická stabilizace a psychoedukace o
+Ve stupni S1 – Validace a mapování proběhla somatická stabilizace a psychoedukace o
 přetížení a vznikla mapa toho, jak se měnil režim a vztahy. Ve stupni **S2 – Externalizace
 introjektů** byly věty „bolest je slabost opouštějící tělo“ a „odpočinek je pro lenochy“
 přiřazeny zdroji; White a Epston (1990) popisují externalizaci jako oddělení problému od
@@ -121,8 +121,8 @@ Ve stupni **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md)** šlo 
 [somatické pozornosti](@/kompendium/self-defense-guides/13-somatic-awareness.md), tedy o učení
 se znovu číst signály těla. Van der Kolk (2014) zdůrazňuje, že po dlouhodobém stresu je obnova
 schopnosti bezpečně vnímat tělo samostatným terapeutickým cílem, nikoli vedlejším produktem
-rozhovoru. Stupeň **S4 – Hermeneutická obnova** přinesl nový vztah ke sportu – pohyb pro radost a
-zdraví, ne jako důkaz hodnoty – a stupeň **S5 – Konsolidace a transfer** trénink pod vedením
+rozhovoru. Stupeň S4 – Hermeneutická obnova přinesl nový vztah ke sportu – pohyb pro radost a
+zdraví, ne jako důkaz hodnoty – a stupeň S5 – Konsolidace a transfer trénink pod vedením
 trenéra s jasnými hranicemi a obnovu vztahů s rodinou.
 
 ## 8. Výsledek a reziduální deficity

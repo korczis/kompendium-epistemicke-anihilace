@@ -17,7 +17,7 @@ access_level = "L1"
 
 # 6.9 Preventivní strategie
 
-Klinická intervence po manifestaci [epistemické anihilace](@/glossary/epistemicka-anihilace.md) je nezbytná, ale **strukturálně sekundární**. Primární odpovědí systému musí být **prevence** — etablování takové epistemické infrastruktury, ve které jsou techniky [taxonomie EA](@/kompendium/03-zakladni-kategorie/kapitola-1.md) **detekovatelné dříve**, **strukturálně méně účinné** a **kolektivně neutralizovány** dříve, než produkují klinické konsekvence (viz [případové studie K.](@/kompendium/06-klinicke-aplikace/pripad-akademie.md) a [M.](@/kompendium/06-klinicke-aplikace/pripad-doktorat.md)).
+Klinická intervence po manifestaci [epistemické anihilace](@/glossary/epistemicka-anihilace.md) je nezbytná, ale strukturálně sekundární. Primární odpovědí systému musí být prevence — etablování takové epistemické infrastruktury, ve které jsou techniky [taxonomie EA](@/kompendium/03-zakladni-kategorie/kapitola-1.md) **detekovatelné dříve**, **strukturálně méně účinné** a **kolektivně neutralizovány** dříve, než produkují klinické konsekvence (viz [případové studie K.](@/kompendium/06-klinicke-aplikace/pripad-akademie.md) a [M.](@/kompendium/06-klinicke-aplikace/pripad-doktorat.md)).
 
 Tato kapitola formuluje preventivní strategie na **třech úrovních** — personální, institucionální a kulturní. Žádná z úrovní není v izolaci dostatečná. Robustní prevence vyžaduje integraci všech tří.
 

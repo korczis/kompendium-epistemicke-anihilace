@@ -62,8 +62,8 @@ jejích prací. Lee a kol. (2013) v přehledu předpojatosti recenzního řízen
 konzervativismus vůči výsledkům, které odporují zavedeným teoriím, i vliv vztahů mezi recenzentem
 a autorem.
 
-Ve fázi **internalizace** (roky 2–4) výzkumnice přestala publikovat v původním tématu a zvažovala
-odchod z vědy. **Rekonstrukce** (od roku 4) začala, když nezávislá replikace potvrdila její
+Ve fázi internalizace (roky 2–4) výzkumnice přestala publikovat v původním tématu a zvažovala
+odchod z vědy. Rekonstrukce (od roku 4) začala, když nezávislá replikace potvrdila její
 výsledek, a pokračovala obnovením spolupráce mimo původní síť. Rozsáhlý projekt replikací
 v psychologii ukázal, jak velkou váhu má nezávislé zopakování studie pro posouzení její
 spolehlivosti (Open Science Collaboration, 2015); zde replikace sloužila jako vnější arbitr.
@@ -124,7 +124,7 @@ asymetrie ukázala, že se tak nedělo.
 Terapie běžela souběžně s profesním poradenstvím a sledovala
 [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md),
 jehož stupně volně odpovídají modelu zotavení bezpečí – zpracování – nové propojení (Herman,
-1992). Ve **S1 – validaci a mapování** výzkumnice sestavila přehled recenzí, grantových posudků a
+1992). Ve S1 – validaci a mapování výzkumnice sestavila přehled recenzí, grantových posudků a
 citací v čase; vizualizace asymetrie pomohla oddělit vzorec od náhody. Ve **S2 – externalizaci
 introjektů** přiřadila věty „jsem metodologicky slabá“ a „poškodila jsem obor“ jejich zdrojům,
 v duchu narativní externalizace problému mimo osobu (White a Epston, 1990).
@@ -134,7 +134,7 @@ v explicitní kritéria: pokud data a analýza obstojí, pocit „neplatnosti“
 hermeneutické obnově** výzkumnice nově porozuměla vědecké komunitě jako pluralitní, ne jako jediné
 skupině, která rozhoduje o pravdě; viz [pluralita paradigmat](@/kompendium/self-defense-guides/6-paradigm-pluralism.md).
 Kuhn (1962) ukazuje, že soupeření paradigmat je normální součástí vědeckého vývoje, a tento
-výklad jí pomohl vidět spor jako strukturální, nikoli osobní. **S5 – konsolidace a transfer**
+výklad jí pomohl vidět spor jako strukturální, nikoli osobní. S5 – konsolidace a transfer
 znamenala budování spolupráce mimo původní síť a publikace v časopisech s otevřeným recenzním
 řízením, jehož formy a přínosy shrnuje Ross-Hellauer (2017).
 

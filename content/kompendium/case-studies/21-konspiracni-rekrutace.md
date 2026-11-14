@@ -55,14 +55,14 @@ nestačí, ale společně vytvářejí uzavřený systém.
 
 ## 3. Časová osa expozice
 
-V prvních třech měsících (fáze **počátečního kontaktu**) přišla doporučená videa, vlídní komentující
+V prvních třech měsících (fáze počátečního kontaktu) přišla doporučená videa, vlídní komentující
 a první pocit porozumění, tedy vzorec podobný [love bombingu](@/glossary/love-bombing.md). Mezi
-čtvrtým a dvanáctým měsícem (fáze **perturbace**) slábla důvěra v ostatní zdroje a nastal moment
-„probuzení“. Mezi třináctým a dvacátým čtvrtým měsícem (fáze **eskalace**) následoval přechod z
+čtvrtým a dvanáctým měsícem (fáze perturbace) slábla důvěra v ostatní zdroje a nastal moment
+„probuzení“. Mezi třináctým a dvacátým čtvrtým měsícem (fáze eskalace) následoval přechod z
 veřejných platforem do uzavřených kanálů, kam byl vstup podmíněn prokázáním „probuzení“. Mezi
-druhým a pátým rokem (fáze **konsolidace**) se ustálil binární svět „probuzených“ a „ovcí“, stále
-obnovované předpovědi a status podle věrnosti. **Detekční bod** nastal v proměnlivé době sporem s
-členem rodiny o očkování dítěte, který nešlo uklidnit výkladem skupiny, a **odchod a rekonstrukce**
+druhým a pátým rokem (fáze konsolidace) se ustálil binární svět „probuzených“ a „ovcí“, stále
+obnovované předpovědi a status podle věrnosti. Detekční bod nastal v proměnlivé době sporem s
+členem rodiny o očkování dítěte, který nešlo uklidnit výkladem skupiny, a odchod a rekonstrukce
 začaly po pátém roce hospitalizací se šesti týdny offline a setkáním s lékaři a s bývalým členem
 skupiny. Festinger, Riecken a Schachter (1956) popsali, že skupina, jejíž předpovědi selhávají,
 často selhání přeformuluje a víru zesílí; stále obnovované předpovědi ve fázi konsolidace jsou
@@ -129,10 +129,10 @@ zdrojem, jehož důvěryhodnost skupina nedokázala předem zpochybnit.
 ## 7. Intervenční strategie
 
 Postup sledoval [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md).
-Ve stupni **S1 – Validace a mapování** proběhla stabilizace a uznání oprávněných otázek, které stály
+Ve stupni S1 – Validace a mapování proběhla stabilizace a uznání oprávněných otázek, které stály
 na začátku, a vznikla mapa [zrady](@/glossary/betrayal-trauma.md) – od institucí i od skupiny.
 Herman (1992) zdůrazňuje, že bez uznání skutečné křivdy nelze bezpečně pracovat s tím, jak byla
-zpracována. Ve stupni **S2 – Externalizace introjektů** byl jazyk skupiny („ovce“, „probuzení“)
+zpracována. Ve stupni S2 – Externalizace introjektů byl jazyk skupiny („ovce“, „probuzení“)
 zapsán a oddělen od vlastního hlasu.
 
 Ve stupni **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md)** šlo o
@@ -142,8 +142,8 @@ Ve stupni **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md)** šlo 
 dokonalého výkladu. Keeley (1999) upozorňuje, že rozumná skepse se od konspirační liší tím, že má
 mez; tuto mez bylo třeba znovu vybudovat.
 
-Stupeň **S4 – Hermeneutická obnova** zahrnoval návrat do vztahů mimo skupinu a rodinnou terapii
-zaměřenou na spor o dítě a na zahanbení. Stupeň **S5 – Konsolidace a transfer** spočíval ve
+Stupeň S4 – Hermeneutická obnova zahrnoval návrat do vztahů mimo skupinu a rodinnou terapii
+zaměřenou na spor o dítě a na zahanbení. Stupeň S5 – Konsolidace a transfer spočíval ve
 sledování po 18–36 měsících s vrstevnickou podporou bývalých členů. Kontakt s bývalým členem a
 období offline by měly být zvažovány i v obdobných případech, vždy však jako dobrovolná součást
 léčby, nikoli jako izolace uložená zvenčí (Singer a Lalich, 1995).

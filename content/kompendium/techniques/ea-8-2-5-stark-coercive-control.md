@@ -136,10 +136,10 @@ s tím, že rozhodnutí odejít může přijít až po několika pokusech.
 
 ## Obrana a neutralizace
 
-**Pro oběť.** Pojmenovat vzorec, vést si bezpečně uložený záznam, mít bezpečnostní plán
-a kontakt na intervenční centrum; obnovovat i drobné vztahy mimo domov. **Pro profesionály.**
+Pro oběť. Pojmenovat vzorec, vést si bezpečně uložený záznam, mít bezpečnostní plán
+a kontakt na intervenční centrum; obnovovat i drobné vztahy mimo domov. Pro profesionály.
 Ptát se v soukromí, sledovat vzorec v čase a brát vážně strach bez zranění; při rozchodu
-posoudit riziko. **Pro soudy a policii.** Hodnotit souhrn chování, ne izolované incidenty
+posoudit riziko. Pro soudy a policii. Hodnotit souhrn chování, ne izolované incidenty
 ([pattern evidence](@/glossary/pattern-evidence.md), [pattern důkaz](@/kompendium/forensic-legal/38-pattern-evidence.md)).
 
 **Otázky, které pomáhají v rozhovoru.** Co nesmíte dělat bez jeho svolení? Kdy jste

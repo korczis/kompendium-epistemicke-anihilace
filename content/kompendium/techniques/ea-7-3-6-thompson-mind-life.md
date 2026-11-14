@@ -129,7 +129,9 @@ rozhoduje.
 **Pro jednotlivce.** Chránit si základní seberegulaci jako nepřekročitelnou hranici: spánek,
 jídlo, pohyb, čas o samotě ([nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md)).
 Udržovat činnosti, v nichž si člověk sám určuje smysl – tvorbu, zahradu, sport bez
-hodnocení. **Pro profesionály.** Vracet klientovi rozhodování o drobnostech, ne jen
+hodnocení.
+
+**Pro profesionály.** Vracet klientovi rozhodování o drobnostech, ne jen
 o velkých tématech.
 
 **Otázky, které pomáhají v rozhovoru.** Kdo rozhoduje o tom, kdy jíš, spíš a odpočíváš? Jak

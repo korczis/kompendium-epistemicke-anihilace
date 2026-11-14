@@ -128,7 +128,9 @@ odejít, s vlastním plánem následné péče a s lidmi mimo skupinu, kteří o
 signálem je, když se vlastní hranice začnou vykládat jako překážka.
 [Uzemňovací techniky](@/kompendium/self-defense-guides/14-grounding-techniques.md) a
 [somatická pozornost](@/kompendium/self-defense-guides/13-somatic-awareness.md) stabilizují
-model já. **Pro profesionály.** Neinterpretovat stav jako „duchovní pokrok“ ani jako
+model já.
+
+**Pro profesionály.** Neinterpretovat stav jako „duchovní pokrok“ ani jako
 patologii předčasně; nejprve stabilizace.
 
 **Otázky, které pomáhají v rozhovoru.** Kdy ses naposledy cítil sám sebou? Co ti pomáhá

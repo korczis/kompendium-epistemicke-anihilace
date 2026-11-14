@@ -176,7 +176,7 @@ Intervence: Ukončení coachingového vztahu, klinická psychoterapie s **explic
 ### Alternativy / podobné, ale **distinktivní**
 
 - **Zdravá metakognice** — strukturálně podobná, ale **nástrojová** a **časově ohraničená**.
-- **[EA-1.3.4](@/kompendium/techniques/ea-1-3-4-indukovana-pochybnost.md) Indukovaná pochybnost** — opačná strategie: ne rekurze nad kognicí, ale **destabilizace** kognitivních základů. Často kombinovány.
+- **[EA-1.3.4](@/kompendium/techniques/ea-1-3-4-indukovana-pochybnost.md) Indukovaná pochybnost** — opačná strategie: ne rekurze nad kognicí, ale destabilizace kognitivních základů. Často kombinovány.
 
 ## Literatura
 

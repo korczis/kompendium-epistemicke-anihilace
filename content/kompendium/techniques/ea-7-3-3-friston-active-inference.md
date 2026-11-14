@@ -42,7 +42,7 @@ podněty ze světa i z těla a snaží se minimalizovat rozdíl mezi předpověd
 vstupem – **predikční chybu**. Může to dělat dvojím způsobem: změnit svůj model (vnímání
 a učení), nebo změnit svět tak, aby předpovědi odpovídal (jednání). Obecným principem je
 **minimalizace volné energie**, matematické horní meze „překvapení“. Klíčovou roli hraje
-**přesnost** (*precision*): váha, kterou systém přikládá predikčním chybám z určitého zdroje.
+přesnost (*precision*): váha, kterou systém přikládá predikčním chybám z určitého zdroje.
 
 Kompendium heslo používá jako vysvětlení, proč dlouhodobě kontrolované prostředí mění
 nejen názory, ale samotná **očekávání a váhu vlastních vjemů** – a proč odchod z takového
@@ -124,7 +124,9 @@ skutečnosti.
 **Pro jednotlivce.** Vědomě udržovat zdroje překvapení: lidi, místa a informace mimo
 převládající prostředí ([diverzifikace sítě](@/kompendium/self-defense-guides/25-network-diversification.md),
 [rutina cross-source](@/kompendium/self-defense-guides/36-cross-source-routine.md)).
-Varovným signálem je pocit, že „už nic nepřekvapí“. **Pro profesionály.** Po odchodu
+Varovným signálem je pocit, že „už nic nepřekvapí“.
+
+**Pro profesionály.** Po odchodu
 dávkovat novost a nabízet předvídatelný rámec péče, aby predikční chyba nebyla
 zahlcující.
 

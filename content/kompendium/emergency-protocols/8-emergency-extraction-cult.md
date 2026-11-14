@@ -102,7 +102,7 @@ látek a „floating“, náhlé návraty myšlení a pocitů skupiny, které Si
 jako běžný jev po odchodu. Floating není relaps ani psychóza; člověk potřebuje vědět, že ho
 mohou zažít i lidé, kteří se rozhodli pevně.
 
-**Zdroje** jsou příbuzní a přátelé mimo skupinu, zaměstnání, bydlení a jazyk (u mezinárodních
+Zdroje jsou příbuzní a přátelé mimo skupinu, zaměstnání, bydlení a jazyk (u mezinárodních
 skupin). Sborník o odpadlictví, který vydal Bromley (1988), ukazuje, že zkušenost po odchodu se
 liší podle způsobu odchodu i podle toho, jaké vazby má člověk mimo bývalou komunitu.
 

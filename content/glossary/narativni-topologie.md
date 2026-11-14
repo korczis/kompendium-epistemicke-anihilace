@@ -20,7 +20,7 @@ date_modified = "2026-11-10"
 příběhu, nikoli jeho obsah. Vychází z představy, že vyprávění o sobě má strukturu podobnou
 síti: obsahuje **uzly** (klíčové události, vztahy, rozhodnutí), **spojení** mezi nimi (protože,
 a proto, navzdory), **větve** (alternativní linie – kým jsem mohl být, kým ještě mohu být),
-**hranice** (co do příběhu patří a co ne), mezery (období, o nichž nelze vyprávět)
+hranice (co do příběhu patří a co ne), mezery (období, o nichž nelze vyprávět)
 a **smyčky** (události, které se v příběhu opakovaně vracejí).
 
 Zdravý příběh není dokonale hladký. Má mezery i rozpory, ale je **souvislý** (z jedné části

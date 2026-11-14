@@ -117,7 +117,7 @@ praktickou potřebu pojmů, aniž by se zredukovaly na užitečnost (Queloz, 202
 ## Interpretace pro kompendium EA
 
 Následující oddíl je interpretací kompendia. Williamsovo rozlišení umožňuje třídit
-manipulační vzorce podle toho, kterou ctnost oslabují. Útoky na **přesnost** činí zkoumání
+manipulační vzorce podle toho, kterou ctnost oslabují. Útoky na přesnost činí zkoumání
 nákladným nebo zbytečným: zahlcení rozpornými sděleními, jaké popisuje heslo [Firehose of
 Falsehood](@/glossary/firehose-of-falsehood.md), zpochybňování důvěry ve vlastní vnímání
 v [gaslightingu](@/glossary/gaslighting.md) nebo podpora sebeklamu (srov. Williams, 2002).

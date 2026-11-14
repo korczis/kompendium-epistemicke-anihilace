@@ -132,7 +132,9 @@ riziko a jiné potřeby než prostředí, které člověka fyzicky odřízne od 
 
 **Pro jednotlivce.** Varovné jsou zejména kontrola kontaktu s okolím, rituály přiznání
 a démonizace odpadlíků; jejich kombinace je silným signálem. Udržovat soukromý prostor,
-vlastní slovník a vztahy mimo skupinu. **Pro profesionály.** Nepřebírat skupinový jazyk
+vlastní slovník a vztahy mimo skupinu.
+
+**Pro profesionály.** Nepřebírat skupinový jazyk
 ani v kritice; nevyžadovat od klienta „úplné přiznání“, které by opakovalo kult zpovědi.
 
 **Otázky, které pomáhají v rozhovoru.** Mohl jsi mluvit s kýmkoli mimo skupinu? Jak se

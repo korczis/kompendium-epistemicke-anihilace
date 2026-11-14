@@ -127,7 +127,9 @@ a její chybovost známa. Nefalsifikovatelné „znalecké“ závěry mají mal
 u důležitého přesvědčení si předem zapsat, co by ho vyvrátilo, a po čase se k zápisu vrátit
 ([časově odložené hodnocení](@/kompendium/self-defense-guides/37-time-locked-evaluation.md)).
 **Pro profesionály.** Neútočit na obsah, ale klást otázky po kritériu: „Jak bys poznal, že se
-učení mýlí?“ **Pro instituce.** Otevřená kritika, zveřejněné metody a povinnost odpovídat na
+učení mýlí?“
+
+**Pro instituce.** Otevřená kritika, zveřejněné metody a povinnost odpovídat na
 námitky – Popperova otevřená společnost v malém.
 
 **Otázky, které pomáhají v rozhovoru.** Co by se muselo stát, abys uznal, že se učení

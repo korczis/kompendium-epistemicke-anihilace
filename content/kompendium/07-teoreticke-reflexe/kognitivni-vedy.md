@@ -16,7 +16,7 @@ toc = true
 
 # 7.5 Kognitivní vědy a epistemická anihilace
 
-Tato kapitola integruje **kognitivní vědy** do konceptuálního rámce kompendia. Bez explicitního propojení s empirickou architekturou mysli by taxonomie zůstala čistě filosofickou konstrukcí — neukotvenou v materiálním substrátu, na němž epistemická anihilace operuje. Kognitivní vědy nabízejí **mechanistická vysvětlení** zranitelností, jež manipulátor exploituje, a poskytují **empirické fundamenty** pro intervenční a obranné protokoly.
+Tato kapitola integruje kognitivní vědy do konceptuálního rámce kompendia. Bez explicitního propojení s empirickou architekturou mysli by taxonomie zůstala čistě filosofickou konstrukcí — neukotvenou v materiálním substrátu, na němž epistemická anihilace operuje. Kognitivní vědy nabízejí **mechanistická vysvětlení** zranitelností, jež manipulátor exploituje, a poskytují **empirické fundamenty** pro intervenční a obranné protokoly.
 
 Tři teoretické paradigmaty stojí v centru pozornosti: **duální systém zpracování** (Kahneman, Stanovich, Evans), **prediktivní kódování / aktivní inference** (Friston, Clark, Hohwy) a **embodied / enaktivní kognice** (Varela, Thompson, Gallagher, Noë). Každé paradigma osvětluje odlišnou dimenzi epistemické zranitelnosti, a teprve jejich integrace umožňuje porozumět [epistemické anihilaci](@/glossary/epistemicka-anihilace.md) jako multilevelovému fenoménu.
 

@@ -38,7 +38,7 @@ parent_chapter = "/kompendium/05-pokrocile-operace/kapitola-6/"
 
 Klíčová asymetrie techniky spočívá v tom, že prožitek transcendence je **fenomenologicky autentický** (jasný, intenzivní, transformující) a současně **epistemicky regresivní**. Subjekt cítí, že „konečně rozumí všemu“, zatímco z vnějšku je pozorovatelné, že **přestal** rozlišovat mezi věcmi, které je nezbytné rozlišovat.
 
-Iluzorní transcendence je **nebezpečnější než hyperreflexivita** ([EA-5.1.13](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md)) v jednom klíčovém ohledu: subjekt **nechce** být z ní vyveden. Pocit kosmického vhledu je pro něj **identitarne konstitutivní**, externí korekce je interpretována jako **útok** na „ten nejhlubší vhled, který kdy měl“.
+Iluzorní transcendence je **nebezpečnější než hyperreflexivita** ([EA-5.1.13](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md)) v jednom klíčovém ohledu: subjekt **nechce** být z ní vyveden. Pocit kosmického vhledu je pro něj **identitarne konstitutivní**, externí korekce je interpretována jako útok na „ten nejhlubší vhled, který kdy měl“.
 
 ## Struktura vzorce
 

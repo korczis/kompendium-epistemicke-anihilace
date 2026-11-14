@@ -121,7 +121,7 @@ byrokratická organizace masového násilí, kterou Adorno a Horkheimer měli na
 
 Kritika instrumentálního rozumu není kritikou rozumu ani techniky. Efektivita je hodnota
 a mnoho lidských dobrých věcí vyžaduje instrumentální racionalitu – lékařství, inženýrství,
-logistika humanitární pomoci. Rámec upozorňuje na **zúžení**, ne na existenci účelového
+logistika humanitární pomoci. Rámec upozorňuje na zúžení, ne na existenci účelového
 myšlení. Kritici, mezi nimi Habermas (1981), vytýkali Adornovi a Horkheimerovi, že jejich
 diagnóza je tak totální, že nenechává prostor pro rozum, jímž by bylo možné kritiku
 vést; Habermas proto rozvinul pojem komunikativního rozumu (viz [EA-7.1.4](@/kompendium/techniques/ea-7-1-4-habermas-communicative-action.md)).

@@ -125,7 +125,7 @@ Pravidelně si pokládej otázku:
 
 > *Kdyby existoval autor Y, který nesouhlasí se vším, co jsem právě přečetl — co by argumentoval?*
 
-I když Y skutečně neexistuje, **simulace** Y odhaluje strukturu argumentace primárního zdroje a vystavuje její slepá místa.
+I když Y skutečně neexistuje, simulace Y odhaluje strukturu argumentace primárního zdroje a vystavuje její slepá místa.
 
 #### 4. **Externí epistemická triangulace**
 

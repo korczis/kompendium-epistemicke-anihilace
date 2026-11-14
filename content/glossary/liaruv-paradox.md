@@ -65,8 +65,8 @@ pragmatickými obdobami:
 
 Logický paradox je neškodný, pokud ho lze pojmenovat a posoudit z vyšší úrovně – to je
 Tarského řešení. Pragmatický paradox se stává škodlivým za tří podmínek, které Batesonova
-skupina popsala pro double bind: **opakování** v důležitém vztahu, **zákaz metakomunikace**
-(nelze o rozporu mluvit) a **zákaz odchodu** (vztah nelze opustit).
+skupina popsala pro double bind: opakování v důležitém vztahu, zákaz metakomunikace
+(nelze o rozporu mluvit) a zákaz odchodu (vztah nelze opustit).
 
 Strukturálně tedy manipulativní užití nespočívá v paradoxu samotném, ale v **blokaci výstupu
 na metaúroveň**. Člověk, který nemůže říct „tento požadavek si odporuje“, zůstává uvnitř

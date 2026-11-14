@@ -23,7 +23,7 @@ očekávání prochází menší, ale strukturně podobnou cestou.
 ## Doména a problém
 
 Tversky a Kahneman (1974) popsali tři heuristiky, které ovlivňují úsudek v nejistotě:
-**dostupnost** (co se snadno vybaví, zdá se pravděpodobnější), **reprezentativnost** (co se
+dostupnost (co se snadno vybaví, zdá se pravděpodobnější), reprezentativnost (co se
 podobá prototypu, zdá se jím být) a **kotvení** (první číslo nebo dojem ovlivňuje všechny
 další odhady). V due diligence se projevují konkrétně: nedávný skandál v odvětví zvyšuje
 vnímané riziko podobných firem, protistrana, která „vypadá“ jako podvodník, je hodnocena

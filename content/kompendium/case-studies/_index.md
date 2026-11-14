@@ -40,7 +40,7 @@ Studie 01–40 sdílejí dvanáctidílnou osnovu, která umožňuje případy po
 11. **Prevence a poučení pro praxi** – pro instituce, kliniky a dotčené osoby.
 12. **Limity a otevřené otázky** – co kompozit nezachycuje.
 
-Každá studie končí oddílem **Související** s odkazy na glosář, protokoly a příbuzné případy.
+Každá studie končí oddílem Související s odkazy na glosář, protokoly a příbuzné případy.
 
 ## Přehled podle domén
 

@@ -122,11 +122,11 @@ Terapie kombinovala [protokol epistemické rekonstrukce](@/kompendium/06-klinick
 s prvky [IFS](@/kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md), tedy terapie
 vnitřních rodinných systémů, kterou rozpracoval Schwartz (1995), a
 [narativní terapie](@/kompendium/techniques/ea-6-2-5-narrative-therapy-protokol.md) v pojetí,
-které popsali White a Epston (1990). Ve **S1 – validaci a mapování** klientka sestavila vlastní
+které popsali White a Epston (1990). Ve S1 – validaci a mapování klientka sestavila vlastní
 časovou osu dětství z fotografií, deníků a výpovědí příbuzných; terapeut validoval, že nejistota
 je pochopitelným následkem, ne vadou.
 
-Ve **S2 – externalizaci introjektů** identifikovala vnitřní hlas („přeháníš“) jako převzatý od
+Ve S2 – externalizaci introjektů identifikovala vnitřní hlas („přeháníš“) jako převzatý od
 rodiče a pracovala s „dětskou částí“, která stále hlídá rodičovu náladu; práce s částmi osobnosti
 jako s vnitřními postavami vychází z IFS (Schwartz, 1995). Ve **S3 – rekonstrukci
 [metakognice](@/glossary/metakognice.md)** nacvičovala důvěru k vlastní paměti v současných
@@ -134,7 +134,7 @@ situacích – zapisování událostí a jejich pozdější porovnávání. Klí
 vzpomínky nenavrhuje ani nedoplňuje, protože sugestivní práce s pamětí může vytvořit
 nepravdivé vzpomínky (Loftus, 2005).
 
-Ve **S4 – hermeneutické obnově** vzniklo nové vyprávění rodinného příběhu, v němž má místo její
+Ve S4 – hermeneutické obnově vzniklo nové vyprávění rodinného příběhu, v němž má místo její
 zkušenost i složitost rodičů, bez povinnosti odpustit nebo se usmířit. **S5 – konsolidace a
 transfer** přinesla dlouhodobou strategii kontaktu s rodinou a posílení partnerského vztahu bez
 opakování starého vzorce. Neff (2003) popisuje sebesoucit jako laskavost k sobě, vědomí sdílené

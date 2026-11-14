@@ -125,10 +125,10 @@ Při opakovaném posouzení se sleduje hlavně změna v čase, zejména eskalace
 
 ## Obrana a neutralizace
 
-**Pro oběť.** Pojmenovat vzorec, ne jen jednotlivé incidenty; vést bezpečně uložený
-záznam; mít bezpečnostní plán a kontakt na intervenční centrum. **Pro profesionály.**
+Pro oběť. Pojmenovat vzorec, ne jen jednotlivé incidenty; vést bezpečně uložený
+záznam; mít bezpečnostní plán a kontakt na intervenční centrum. Pro profesionály.
 Rutinní, citlivý dotaz na kontrolu, ne jen na fyzické násilí; nikdy ne v přítomnosti
-partnera; počítat s tím, že oběť může vzorec zpočátku popírat. **Pro instituce.** Školení
+partnera; počítat s tím, že oběť může vzorec zpočátku popírat. Pro instituce. Školení
 personálu a postupy, které nepovažují absenci modřin za absenci násilí.
 
 **Otázky, které pomáhají v rozhovoru.** Máte strach z toho, jak partner zareaguje? Můžete

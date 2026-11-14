@@ -88,7 +88,7 @@ z každé úrovně (výpisy, společenské smlouvy, dokumenty o svěřenských f
 platby. Třetím je **ověření z nezávislých zdrojů** – zahraniční registry, soudní spisy,
 média, úniky dat používané s opatrností. Čtvrtým je **síťová analýza** sdílených osob,
 adres a zástupců napříč firmami (viz [síťová analýza](@/kompendium/research-methodology/network-analysis-EA.md)).
-Pátým je **eskalace** u struktur, které nelze vysvětlit: rozhodnutí o pokračování patří
+Pátým je eskalace u struktur, které nelze vysvětlit: rozhodnutí o pokračování patří
 na vyšší úroveň s jasným záznamem důvodů.
 
 Klíčové je i to, co prověrka nedělá: nepřenáší podezření z nominální osoby na všechny

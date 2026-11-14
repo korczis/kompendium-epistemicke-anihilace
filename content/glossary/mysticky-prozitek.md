@@ -45,7 +45,7 @@ Kritická perspektiva (Steven Katz 1978) namítá, že mystický prožitek nikdy
 
 ## Jak se projevuje
 
-Bezprostředně: rozplynutí hranic já, intenzivní pocit smysluplnosti, změněné vnímání času, emoce od blaženosti po úzkost. Následně: potřeba prožitek začlenit do vlastního života – **integrace**. Právě zde se rozhoduje, zda prožitek posílí, nebo destabilizuje.
+Bezprostředně: rozplynutí hranic já, intenzivní pocit smysluplnosti, změněné vnímání času, emoce od blaženosti po úzkost. Následně: potřeba prožitek začlenit do vlastního života – integrace. Právě zde se rozhoduje, zda prožitek posílí, nebo destabilizuje.
 
 Rizikové znaky v následném období:
 

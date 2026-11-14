@@ -124,7 +124,9 @@ v právu vlastní kritéria.
 **Pro jednotlivce.** Ptát se při vstupu do jakékoli intenzivní komunity: vím, čemu skupina
 skutečně učí a co se po mně bude chtít? Mohu odejít bez trestu? Mám zdroje mimo ni?
 **Pro rodiny.** Udržovat vztah a kontakt s autentickou identitou člena – připomínat
-společnou minulost, zájmy, lidi – místo útoků na skupinu. **Pro profesionály.** Používat
+společnou minulost, zájmy, lidi – místo útoků na skupinu.
+
+**Pro profesionály.** Používat
 rámec opatrně a vědomě vůči riziku [falešně pozitivních detekcí](@/kompendium/critical-perspectives/5-false-positive-risk.md).
 
 **Otázky, které pomáhají v rozhovoru.** Co jsi dělal rád, než jsi do skupiny vstoupil?

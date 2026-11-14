@@ -66,7 +66,7 @@ Klasifikační techniky popsané v sekci 03 (selektivní expozice, falešné dil
 
 ### Vůči [Sekci 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) (forward link)
 
-Empirická literatura epistemického traumatu (kapitola 7.2) tvoří **most** k sekci 06 — diagnostika, terapie, prevence. Bez empiricky validovaných modelů traumatické patofyziologie by klinické intervence byly buď neúčinné, nebo iatrogenní (samy traumatizující).
+Empirická literatura epistemického traumatu (kapitola 7.2) tvoří most k sekci 06 — diagnostika, terapie, prevence. Bez empiricky validovaných modelů traumatické patofyziologie by klinické intervence byly buď neúčinné, nebo iatrogenní (samy traumatizující).
 
 ## Metateoretická pozice
 

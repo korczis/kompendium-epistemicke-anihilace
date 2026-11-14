@@ -134,7 +134,7 @@ Pracovní paměť je biologicky závislá na spánku. Strukturální diskontinui
 
 ### Případ 1 — Pokročilý retreat kontext
 
-Účastník 30denního programu s minimálním spánkem reportoval po skončení, že „konečně pochopil“. Po měsíci nedokázal rekonstruovat co. Při explicitní konfrontaci přijímal vzájemně rozporné metafyzické pozice („vědomí je pouze konstruktem ega“ **a** „vědomí je primárně danost“). Detekce: terapeut formálního zázemí identifikoval logickou diskontinuitu po požadavku na strukturovaný argument. Reverzace: 6 měsíců strukturovaného **psaní** argumentů ve formálním rámci.
+Účastník 30denního programu s minimálním spánkem reportoval po skončení, že „konečně pochopil“. Po měsíci nedokázal rekonstruovat co. Při explicitní konfrontaci přijímal vzájemně rozporné metafyzické pozice („vědomí je pouze konstruktem ega“ **a** „vědomí je primárně danost“). Detekce: terapeut formálního zázemí identifikoval logickou diskontinuitu po požadavku na strukturovaný argument. Reverzace: 6 měsíců strukturovaného psaní argumentů ve formálním rámci.
 
 ### Případ 2 — Akademický kontext
 

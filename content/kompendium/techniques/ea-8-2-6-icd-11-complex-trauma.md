@@ -132,7 +132,9 @@ skutečná, i když ji nelze shrnout jedním příběhem.
 
 **Pro profesionály.** Myslet na C-PTSD u lidí z prostředí bez možnosti úniku i tehdy, když
 chybí jedna „velká“ událost; nezačínat expozicí bez stabilizace; počítat s tím, že
-nedůvěra k terapeutovi je příznak, ne odpor. **Pro instituce.** Trauma-informovaný přístup
+nedůvěra k terapeutovi je příznak, ne odpor.
+
+**Pro instituce.** Trauma-informovaný přístup
 v sociálních a zdravotních službách ([trauma-informovaný framework](@/kompendium/critical-perspectives/22-trauma-framework-alternative.md)).
 
 **Otázky, které pomáhají v rozhovoru.** Mohl jste z té situace odejít? Jak dlouho trvala?

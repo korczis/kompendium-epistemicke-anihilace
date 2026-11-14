@@ -41,7 +41,7 @@ Hierarchie odráží jak narůstající komplexitu a potenciální destruktivitu
 
 ### Graduální expozice
 
-Struktura kompendia je navržena v souladu s principem **graduální expozice**, který zohledňuje jak kognitivní, tak etické aspekty práce s taxonomií. Tato graduální povaha se projevuje v:
+Struktura kompendia je navržena v souladu s principem graduální expozice, který zohledňuje jak kognitivní, tak etické aspekty práce s taxonomií. Tato graduální povaha se projevuje v:
 
 - Postupném odhalování stále komplexnějších a potenciálně destruktivnějších technik
 - Narůstající teoretické sofistikovanosti konceptuálního aparátu
@@ -99,7 +99,7 @@ V závislosti na účelu a kontextu využití kompendia jsou doporučeny násled
 2. Detailní studium relevantních fenoménů včetně jejich diferenciální diagnostiky
 3. Konzultace **anonymizovaných případových studií** s podobným symptomatickým obrazem
 4. Aplikace diagnostických algoritmů ze [Sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)
-5. **Triangulace** s kolegy — interdiskvalifikace mylné diagnózy
+5. Triangulace s kolegy — interdiskvalifikace mylné diagnózy
 
 ### Pro výzkumné účely
 
@@ -363,7 +363,7 @@ Kompendium epistemické a [kognitivní anihilace](@/glossary/kognitivni-anihilac
 
 ## Kritický krok
 
-**Předtím než pokročíš do dalších sekcí**, ověř si etický kontext: zkontroluj
+Předtím než pokročíš do dalších sekcí, ověř si etický kontext: zkontroluj
 souhlas se svou supervizí (akademická / klinická / forenzní), porozuměl jsi
 [etickým aspektům](@/kompendium/01-predmluva/eticke-aspekty.md), a víš, **kdy
 materiál nečíst** (vyhořelý stav, akutní krize, neexistující supervizní rámec).

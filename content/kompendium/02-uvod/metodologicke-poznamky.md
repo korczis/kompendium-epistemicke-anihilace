@@ -494,7 +494,7 @@ Taxonomie není dokončený artefakt — je **živý systém**. Klíčové otev�
 
 ## Kritický krok
 
-**Než přejdeš ke konkrétním kategoriím**, formuluj si vlastní pracovní
+Než přejdeš ke konkrétním kategoriím, formuluj si vlastní pracovní
 [definici epistemické anihilace](@/glossary/epistemicka-anihilace.md) a zapiš si ji
 mimo tuto stránku (papír / zápisník / poznámka). Tato definice se bude
 v průběhu četby měnit — to je žádoucí. Ale výchozí zápis je nepostradatelný

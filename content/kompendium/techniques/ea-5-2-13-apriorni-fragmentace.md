@@ -56,7 +56,7 @@ Detekční markery zachycené na této stránce odpovídají téže struktuře: 
 - **Časové diskontinuity** — momenty mezi událostmi „chybí“.
 - **Retencni-protencni rozpad** — Husserlovsky: minulé udržení a budoucí předjímání ztrácejí strukturu.
 - **Prostorová homotopie selhává** — neschopnost intuitivně držet topologii prostředí.
-- **Pseudo-mystická euforie** prokládaná **akutní dezorientací**.
+- **Pseudo-mystická euforie** prokládaná akutní dezorientací.
 - **Mnemonické rozpojení** — paměti přetrvávají, ale jsou „vykolejené“ z časové linie.
 
 ## Detekční markery

@@ -19,7 +19,7 @@ status = "publikovano"
 
 # Intra-simulační monitoring
 
-> ⚠️ **L2 — Analytické porozumění.** Tato studie popisuje strukturu **průběžného bezpečnostního monitoringu** během intenzivních simulačních protokolů. Doplňuje [Kapitolu 5: Specializované bezpečnostní protokoly](@/kompendium/04-terminalni-protokoly/kapitola-5.md) a navazuje na [před-simulační screening](@/kompendium/04-terminalni-protokoly/pred-simulacni-screening.md).
+> **L2 — Analytické porozumění.** Tato studie popisuje strukturu **průběžného bezpečnostního monitoringu** během intenzivních simulačních protokolů. Doplňuje [Kapitolu 5: Specializované bezpečnostní protokoly](@/kompendium/04-terminalni-protokoly/kapitola-5.md) a navazuje na [před-simulační screening](@/kompendium/04-terminalni-protokoly/pred-simulacni-screening.md).
 
 ## Postavení v bezpečnostním rámci
 

@@ -122,9 +122,13 @@ a [mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblowe
 ## Obrana a neutralizace
 
 **Pro jednotlivce.** Pochopit, že „nevidění“ bylo ochranou, ne hloupostí; hledat lidi
-mimo vztah závislosti, kteří potvrdí vnímání. **Pro instituce.** Opakem institucionální
+mimo vztah závislosti, kteří potvrdí vnímání.
+
+**Pro instituce.** Opakem institucionální
 zrady je **institucionální odvaha**: aktivní vyšetření, ochrana oznamovatele, transparentnost
-a omluva. **Pro profesionály.** Reagovat na sdělení zrady tak, aby se neopakovala: věřit,
+a omluva.
+
+**Pro profesionály.** Reagovat na sdělení zrady tak, aby se neopakovala: věřit,
 nebagatelizovat, nepřesouvat vinu.
 
 **Otázky, které pomáhají v rozhovoru.** Kdo vám ublížil a jaký jste k němu měla vztah?

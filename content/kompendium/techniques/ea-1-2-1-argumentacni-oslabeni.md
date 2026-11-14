@@ -41,7 +41,7 @@ epistemický účinek je stejný: posluchač **integruje do svého obrazu světa
 nikdo nehájil**.
 
 Subkategorie 1.2 popisuje narušení dvou kroků poznání: **hodnocení** (co je dobrý důvod)
-a **integrace** (co z toho plyne pro celek). Argumentační oslabení zasahuje oba. Hodnotí
+a integrace (co z toho plyne pro celek). Argumentační oslabení zasahuje oba. Hodnotí
 se jiný argument, než jaký byl předložen, a výsledek se zobecní na člověka, jeho obor nebo
 celý směr.
 

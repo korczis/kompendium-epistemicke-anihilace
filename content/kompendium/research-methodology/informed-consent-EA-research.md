@@ -23,9 +23,9 @@ změnit.
 ## Vymezení
 
 Informovaný souhlas má podle Belmontské zprávy tři složky: informaci (účastník ví, co
-studie obnáší), **porozumění** (informaci skutečně chápe) a **dobrovolnost** (rozhoduje bez
-nátlaku a nepřiměřených pobídek). K nim patří **způsobilost** k rozhodnutí a **právo
-odstoupit**. Obecné vymezení podává heslo [informed consent](@/glossary/informed-consent.md).
+studie obnáší), porozumění (informaci skutečně chápe) a dobrovolnost (rozhoduje bez
+nátlaku a nepřiměřených pobídek). K nim patří způsobilost k rozhodnutí a právo
+odstoupit. Obecné vymezení podává heslo [informed consent](@/glossary/informed-consent.md).
 V evropském prostředí je třeba odlišit etický souhlas s účastí od právního základu
 zpracování osobních údajů podle GDPR – nemusí být totožné.
 

@@ -131,7 +131,9 @@ být použit jako jediný podklad rozhodnutí o léčbě, pracovní neschopnosti
 ## Obrana a neutralizace
 
 **Pro profesionály.** Screening provádět až v bezpečném prostředí a s vysvětlením, k čemu
-slouží; nečíst výsledky jako nálepku. Opakovat ho v průběhu léčby. **Pro organizace.**
+slouží; nečíst výsledky jako nálepku. Opakovat ho v průběhu léčby.
+
+**Pro organizace.**
 Krizové služby a intervenční centra by měla mít screening jako rutinu, s jasnou cestou
 k odborné péči.
 

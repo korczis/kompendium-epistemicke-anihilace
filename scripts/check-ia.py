@@ -60,7 +60,10 @@ Requirements (id: what is checked):
   drug-name        no named medication: a curated drug class or INN (antipsychotika, benzodiazepiny,
                    SSRI, sertralin, lithium …) in prose on any content page, bibliographies and
                    references.md excluded. Owner ADR 0013/0014: the book names no drugs; the content
-                   lane rewrites the drug generically. NEVER baselined
+                   lane rewrites the drug generically. Owner, ADR 0013 doplněk 2: a drug that is the
+                   documented subject of a historical case stays, so content/kompendium/historical-
+                   cases/ and links to it are exempt; "endogenní opioidy" is not medication.
+                   NEVER baselined
   authority-without-source  no name-dropped authority: a parenthetical citation of 2+ names with no
                    year on the line, pasted byte-identical on 3+ pages. The names may be a list of
                    surnames ("(Vondráček, Mečíř, …)") or one author surname-forename ("(Ferenczi,
@@ -181,6 +184,7 @@ import json
 import pathlib
 import re
 import sys
+import tomllib
 
 sys.dont_write_bytecode = True  # no __pycache__ in the checkout
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
@@ -258,7 +262,7 @@ PENDING_ZERO = {"placeholder": 0, "technique-page": 0, "howto": 0, "drug-dose": 
                 "detail": 199, "weak-link": 199,
                 "duplicate-passage": 281,
                 # safety, ADR 0013/0014: both reach 0 after the content lane's waves
-                "drug-name": 31, "authority-without-source": 0}  # 0 → never baselined (lands at 0 after 2e's slice)
+                "drug-name": 1, "authority-without-source": 0}  # 0 → never baselined (lands at 0 after 2e's slice)
 BOLD_CANDIDATE_PAGES = 3  # a bold phrase on this many pages is a term and needs its own page
 
 
@@ -719,9 +723,38 @@ def passage_blocks(prose: str) -> set:
     return out
 
 
+# Owner answer 2026-11-13 (ADR 0013, doplněk 2, "Keep in history"): a drug named as the documented
+# subject of a historical or regulatory case stays. The case pages are exempt by path, and a link
+# to one of them is exempt by its label ("[FDA a opioidy](@/kompendium/historical-cases/…)"), since
+# the label is the case's name. The body's own chemistry ("endogenní opioidy") is not medication.
+DRUG_HISTORY_PREFIX = "kompendium/historical-cases/"
+HISTORY_LINK = re.compile(r"\[[^\]]*\]\(@/" + re.escape(DRUG_HISTORY_PREFIX) + r"[^)]*\)")
+ENDOGENOUS = re.compile(r"\bendogenn\w*\s+opioid\w*", re.I)
+
+
+def drug_recognition() -> dict:
+    """Pages exempt from drug-name because they name a class to recognise, never to offer (owner,
+    ADR 0013 doplněk 3): path -> because, from data/drug-recognition.toml. An entry without a
+    `because` or naming a missing page is a hard error: the list never grows by accident."""
+    path = ROOT / "data" / "drug-recognition.toml"
+    if not path.exists():
+        return {}
+    out = {}
+    for entry in tomllib.loads(path.read_text()).get("page", []):
+        page, because = entry.get("path", ""), entry.get("because", "").strip()
+        if not because or entry.get("kind") not in ("emergency", "differential", "harm"):
+            sys.exit(f"check-ia: data/drug-recognition.toml: {page or '?'} needs kind and because")
+        if not (ROOT / page).exists():
+            sys.exit(f"check-ia: data/drug-recognition.toml: {page} does not exist")
+        out[page] = because
+    return out
+
+
 def drug_names(prose: str) -> list:
     """The distinct named drugs/classes in prose outside bibliography sections (a work's title is
-    not a naming claim). content/references.md is excluded by the caller via EXEMPT."""
+    not a naming claim). content/references.md is excluded by the caller via EXEMPT, the historical
+    case pages by DRUG_HISTORY_PREFIX; links to those cases and endogenous chemistry are skipped."""
+    prose = ENDOGENOUS.sub("", HISTORY_LINK.sub("", prose))
     kept, in_biblio = [], False
     for line in prose.split("\n"):
         if line.startswith("#") and HEADING_PREFIX.match(line):
@@ -739,6 +772,7 @@ def analyse(pages: list) -> dict:
     terms = bold_term_index(pages)
     codes = technique_codes(pages)
     catalogue = catalogue_titles(pages)
+    recognition = drug_recognition()
     phrases = collections.defaultdict(set)
     shown = {}
     figures = collections.defaultdict(set)
@@ -772,8 +806,14 @@ def analyse(pages: list) -> dict:
                    | ({m.group(0) for m in LEGIT_FRAME_SENTENCE.finditer(prose)} if non_recovery else set()))
             if technique else [])
         page["drug_dose"] = has_drug_dose(prose)
-        page["drug_name"] = ([] if f"content/{page['path']}" in EXEMPT
-                             else drug_names(prose))
+        key = f"content/{page['path']}"
+        names = ([] if key in EXEMPT or page["path"].startswith(DRUG_HISTORY_PREFIX)
+                 else drug_names(prose))
+        if key in recognition:
+            # a recognition page passes while it names a drug; once it names none the entry is
+            # stale and is charged, so the exemption is removed with its reason
+            names = [] if names else ["stale entry in data/drug-recognition.toml"]
+        page["drug_name"] = names
         lower_freq.update(LOWER_WORD.findall(prose))
         for line in prose.split("\n"):
             if AUTHORITY_YEAR.search(line):

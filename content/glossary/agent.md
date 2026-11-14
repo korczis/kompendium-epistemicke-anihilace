@@ -173,7 +173,7 @@ Agenti komunikují několika vzorci, volenými podle naléhavosti a významu int
 
 **Poznávání strojů a lidí**
 
-- [Inference](@/glossary/inference.md) – spuštění natrénovaného modelu nad novými vstupy
+- [Inference](@/glossary/inference.md) – krok od dokladů k závěru; u modelů AI se tak říká i jejich spuštění nad vstupy
 - [Prediktivní zpracování](@/glossary/predictive-processing.md) – rámec, který poznávání čte jako předvídání
 - [Teorie mysli](@/glossary/theory-of-mind.md) – připisování duševních stavů, které software nemá
 

@@ -3,7 +3,12 @@
 
 Prints every place in content/kompendium where a surname that appears in
 content/references.md is used in prose as an attribution (``X ukazuje``, ``podle X``,
-``X tvrdí`` …) with no author-year anywhere in the same paragraph.
+``X tvrdí`` …) AND that author is cited nowhere else on the same page — no author-year
+in any paragraph and no entry in the page's own Literatura.
+
+The unit is the page, not the paragraph: a second, year-less mention of an author the page
+already cites is ordinary academic practice, not a defect (2e). So a bare "Husserl" on a
+page that cites ``Husserl (1900)`` above it does not count.
 
 This is a WORKLIST, not a gate. It is deliberately NOT wired into scripts/check-ia.py
 or CI: measured precision is only ~25 % (most hits name a known position or framework —
@@ -55,6 +60,19 @@ def paragraphs(body: str):
             yield blk
 
 
+def cited_on_page(body: str, name: str) -> bool:
+    """Is this author cited anywhere on the page — a year beside the surname, or a
+    Literatura/Citováno entry naming it? Then a bare second mention is not a defect."""
+    n = re.escape(name)
+    near_year = re.compile(
+        rf"{n}[^\n]{{0,60}}?\b(?:1[5-9]\d\d|20\d\d)|\b(?:1[5-9]\d\d|20\d\d)[^\n]{{0,30}}?{n}"
+    )
+    if near_year.search(body):
+        return True
+    # Literatura / references block entries (and the generated "Citováno" back-links)
+    return bool(re.search(rf"^(?:-|\*|\d+\.)\s*{n}\b", body, re.M))
+
+
 def main() -> int:
     names = surnames()
     pattern = "|".join(sorted(map(re.escape, names), key=len, reverse=True))
@@ -65,11 +83,14 @@ def main() -> int:
     hits = []
     for path in sorted((ROOT / "content" / "kompendium").rglob("*.md")):
         rel = path.relative_to(ROOT).as_posix()
-        for para in paragraphs(path.read_text(errors="replace")):
+        body = path.read_text(errors="replace")
+        for para in paragraphs(body):
             if YEAR.search(para):
                 continue
             for m in attr.finditer(para):
                 name = m.group("s1") or m.group("s2")
+                if cited_on_page(body, name):   # page cites this author elsewhere: not bare
+                    continue
                 i = m.start()
                 snip = re.sub(r"\s+", " ", para[max(0, i - 24): i + 72]).strip()
                 hits.append((rel, name, snip))
@@ -79,8 +100,8 @@ def main() -> int:
         for rel, name, snip in sorted(hits):
             print(f"{rel}\t{name}\t…{snip}…")
     print(
-        f"\nbare-surname worklist: {len(hits)} hit(s) across {len(pages)} page(s). "
-        f"~25% are genuine (ambiguous author, cited in passing); review by hand.",
+        f"\nbare-surname worklist: {len(hits)} hit(s) across {len(pages)} page(s) where the "
+        f"page cites the author nowhere. Review by hand — a refutation in quotes can still slip in.",
         file=sys.stderr,
     )
     return 0

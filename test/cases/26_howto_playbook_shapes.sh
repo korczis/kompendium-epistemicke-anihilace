@@ -29,6 +29,19 @@ page "$d" case26-applier <<'P'
 **Tato sekce není použitelná bez supervize.** Před aplikací jakéhokoli
 terminálního protokolu ověř: 1. etický kodex, 2. supervizní rámec, 3. screening.
 P
+page "$d" case26-applier-shape <<'P'
+## Kritický krok
+
+Před aplikací:
+
+1. Konzultuj s licencovaným psychoterapeutem
+2. Potvrď, že indikátory odpovídají profilu klienta
+P
+page "$d" case26-applier-prose <<'P'
+Pozorovatel si všimne, že před aplikací nátlaku se mění slovník skupiny.
+
+1. Prvním znakem je změna slovníku.
+P
 page "$d" case26-uroven <<'P'
 ### Úroveň E1: zvýšená pozornost
 
@@ -62,6 +75,8 @@ P
 
 listed
 has case26-applier
+has case26-applier-shape   # a "Před aplikací:" lead with a numbered list, whatever the verbs
+hasnt case26-applier-prose  # the words in prose, no list under them
 has case26-uroven
 has case26-vrstva
 has case26-criteria

@@ -64,3 +64,71 @@ aiad-integration a u filozofie). Stránka proto **zůstává beze změny, dokud 
 Ostatní z ADR 0013 provádí vlna 1 vlákna obsahu: po ní na žádné jiné stránce se nejmenuje lék, léková skupina ani
 pokyn k medikaci; „atypická antipsychotika“ i „farmakologická stabilizace“ vrací nula stránek
 (vlákno obsahu, 52 stránek sjednocených na „předchozí psychiatrickou stabilizaci“).
+
+## Doplněk 2 (2026-11-13): lék jako doložený předmět historického případu
+
+Po sloučení dávky C měřila brána `drug-name` 31 stránek. Devět z nich jsou historické případy,
+v nichž je lék doloženým předmětem události, nikoli radou k medikaci: případ `40-fda-opioid`
+(Purdue Pharma a opioidová krize, 14 zmínek), sedm stránek, které na něj odkazují popiskem
+„FDA a opioidy“, a Jonestown („nápoj s kyanidem a sedativy“). Integrace se zeptala vlastníka.
+
+Otázka vlastníkovi (AskUserQuestion, session `5d49a595-d035-4bbe-b04a-d12695922860`,
+2026-11-13), doslovně:
+
+> „ADR 0013 ("Never name medication") is being applied to the last 31 pages that name a drug
+> class. 9 of them are historical-case pages where a drug is the documented subject of the event:
+> the case "FDA, Purdue Pharma a opioidová krize" (40-fda-opioid, 14 mentions), 7 pages linking
+> to it with the label "FDA a opioidy", and Jonestown's "nápoj s kyanidem a sedativy". Should those
+> historical cases keep naming the drug?“
+
+Možnosti: „Keep in history (Recommended)“ – „A drug named as the documented subject of a
+historical or regulatory case (the opioid crisis, Jonestown) stays; it is history, not medication
+advice. The gate exempts content/kompendium/historical-cases/ and links to those pages; every other
+page still names nothing.“; „Remove everywhere“ – „Apply ADR 0013 literally: rewrite 40-fda-opioid
+and the 8 others without naming any drug (e.g. "případ Purdue Pharma a epidemie závislosti na lécích
+proti bolesti"). No exemption in the gate.“ Odpověď vlastníka doslovně: **„Keep in history
+(Recommended)“**.
+
+Důsledky:
+
+- Brána `drug-name` vynechá stránky pod `content/kompendium/historical-cases/` a popisek odkazu na
+  ně; lék jmenovaný mimo takový odkaz na téže stránce odmítne dál (případ 32 to dokládá).
+- „Endogenní opioidy“ jsou chemie těla, ne medikace; brána je nepočítá. Přídavné jméno
+  „antidepresivní hodnota“ aktivity na `recovery-protocols/lifeworld.md` přepsáno obecně.
+- Zbylo 14 stránek: `18-emergency-pharmacotherapy` (drží vlastník, doplněk 1), čtyři citované
+  stránky rozpoznání akutního stavu a devět stránek, kde skupina stojí v diferenciální diagnostice
+  nebo v popisu škody. Tu hranici řeší doplněk 3.
+
+## Doplněk 3 (2026-11-14): skupina jmenovaná k rozpoznání, ne k nabídce
+
+Otázka vlastníkovi (AskUserQuestion, session `5d49a595-d035-4bbe-b04a-d12695922860`,
+2026-11-14), doslovně:
+
+> „13 pages still name a drug class but don't offer medication: 4 cited emergency pages use the
+> class so a reader can recognise a crisis and call 155 (36-medication-emergency: lithium
+> intoxication, Baird-Gunning 2017; 26-substance-EA: sedative withdrawal, naloxone, WHO 2014;
+> 35-treatment-noncompliance: dangers of abrupt stopping, Davies & Read 2019; 6-panic-attack-EA:
+> NICE 2011 advising AGAINST benzodiazepines), and 9 pages list a class among medical causes to
+> rule out first or in a harm description ("nadužívání alkoholu a stimulancií"). Does ADR 0013
+> cover these?“
+
+Možnosti: „Keep recognition (Recommended)“ – „A class named so a reader can recognise an
+emergency, a cause to rule out or a harm stays, when the sentence recognises rather than offers.
+The gate exempts these 13 by a named list in ADR 0013; offering, planning or requiring medication
+stays refused everywhere.“; „Remove these too“ – „Rewrite all 13 generically (e.g. "intoxikace
+předepsaným lékem", "náhlé vysazení léků"), dropping class names even where a cited source is
+about that class. drug-name then reaches 0 apart from page 18.“; „Emergency only“ – „Keep the 4
+cited emergency pages; rewrite the 9 differential/harm pages generically.“ Odpověď vlastníka
+doslovně: **„Keep recognition (Recommended)“**.
+
+Důsledky:
+
+- Pojmenovaný seznam je `data/drug-recognition.toml`: každá stránka s druhem (`emergency`,
+  `differential`, `harm`) a důvodem. Brána `drug-name` stránku ze seznamu propustí, dokud lék
+  jmenuje; jakmile nejmenuje žádný, je záznam zastaralý a brána ho odmítne. Záznam bez důvodu
+  nebo s neexistující stránkou je chyba. Případ 32 to dokládá.
+- Seznam má 12 stránek, ne 13: `02-uvod/definice.md` rozlišovala psychotickou dezintegraci
+  „responzivitou na antipsychotika“, tedy znakem, který čtenář použije jen tak, že lék podá. To
+  je nabídka, ne rozpoznání; věta je přepsána („rozlišení patří psychiatrickému vyšetření“).
+- Strop `drug-name` je 1: zbývá jen `18-emergency-pharmacotherapy`, kterou drží vlastník.
+- Nabízet, plánovat nebo vyžadovat medikaci zůstává odmítnuto na každé stránce.

@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/08-prilohy/"
 | **Kategorie** | 8. Přílohy |
 | **Subkategorie** | 8.3 Bibliografie |
 | **Typ hesla** | Bibliografický oddíl – informační válka, [propaganda](@/glossary/propaganda.md) a dezinformace |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Nevztahuje se |
 | **Validační status** | Uvedena jen díla s jistou existencí; položka Wanless a Berk z dřívější verze byla vypuštěna, protože se nepodařilo spolehlivě ověřit její bibliografické údaje |
 | **Rodičovská kapitola** | [08. Přílohy](@/kompendium/08-prilohy/_index.md) · [Bibliografie a primární literatura](@/kompendium/08-prilohy/bibliografie.md) |

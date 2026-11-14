@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/08-prilohy/"
 | **Kategorie** | 8. Přílohy |
 | **Subkategorie** | 8.1 Diagnostické nástroje |
 | **Typ hesla** | Diagnostický nástroj – sebehodnoticí inventáře traumatických událostí podle míry zrady |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Vysoká – zrada blízkou osobou nebo institucí souvisí s disociací a komplexními posttraumatickými potížemi |
 | **Validační status** | Publikované výzkumné nástroje; bodový „Betrayal Trauma Index“ s hraniční hodnotou z původní verze stránky se nepodařilo doložit |
 | **Rodičovská kapitola** | [08. Přílohy](@/kompendium/08-prilohy/_index.md) · [Diagnostické nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md) |

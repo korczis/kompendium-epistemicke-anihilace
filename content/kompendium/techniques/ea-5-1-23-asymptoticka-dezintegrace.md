@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-6/"
 | **EA kód** | `EA-5.1.23` |
 | **Kategorie** | 5. Ultramární techniky |
 | **Subkategorie** | 5.1 Epistemická singularita |
-| **Přístupová úroveň** | L5 (ultramarine) |
 | **Riziková úroveň** | Extrémní — **prahová neviditelnost**, žádný jednotlivý okamžik nepředstavuje detekovatelnou hranici |
 | **Reverzibilita** | Velmi nízká — bez referenčního bodu nelze určit, **odkud** se subjekt vrátit má |
 | **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md) |

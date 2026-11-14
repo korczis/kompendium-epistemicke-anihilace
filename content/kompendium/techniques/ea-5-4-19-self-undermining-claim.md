@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **EA kód** | `EA-5.4.19` |
 | **Kategorie** | 5. Ultramární techniky |
 | **Subkategorie** | 5.4 Paradoxální metaanihilační protokoly |
-| **Přístupová úroveň** | L3 (omezená — výhradně pro kvalifikovanou klinickou, forenzní a doktrinální analýzu) |
 | **Riziková úroveň** | Extrémní — strukturální destabilizace evaluativních rámců, [epistemické trauma](@/glossary/epistemicke-trauma.md) s rekurentními relapsy |
 | **Reverzibilita** | Velmi nízká — návrat vyžaduje rekonstrukci subjektova paradoxologického repertoáru ve chráněném klinickém rámci |
 | **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) |

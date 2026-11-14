@@ -133,6 +133,10 @@ Requirements (id: what is checked):
                    sentence in the second cell ("| **Mechanismus** | … |") stays charged. ADR 0013.
                    Remedy: rewrite the row per page, or move a genuine shared field to a template.
                    NEVER baselined
+  access-level-row  no hand-written access level: a "| **Přístupová úroveň** | … |" row in content.
+                   The access level is data (extra.access_level), rendered derived in the page header
+                   as a link to 1.5 Bezpečnostní klasifikace; a typed row drifts (it had 11 variants).
+                   Remedy: delete the row, rely on access_level. NEVER baselined
                    section (steps or phases for performing a technique on a person); the
                    defensive frame describes recognition and defence, not execution. NEVER
                    baselined; a "z hlediska supervize" reframing is a playbook too. Also refuses
@@ -255,7 +259,7 @@ NEVER_BASELINED = {"placeholder", "technique-page", "howto", "drug-dose", "templ
                    "clinical-figure", "fabricated-citation", "legitimate-indication",
                    "code-range", "chrome-trailer",
                    "detail", "weak-link",
-                   "duplicate-passage", "duplicate-table",
+                   "duplicate-passage", "duplicate-table", "access-level-row",
                    "drug-name", "authority-without-source",
                    "platform-section", "relative-link", "platform-label", "platform-frontmatter",
                    "philosophy-frame"}
@@ -273,6 +277,7 @@ PENDING_ZERO = {"placeholder": 0, "technique-page": 0, "howto": 0, "drug-dose": 
                 "detail": 199, "weak-link": 199,
                 "duplicate-passage": 281,
                 "duplicate-table": 256,  # measured on main 97fb3b3b; bold-label→short-value exempt
+                "access-level-row": 0,  # the row is derived from extra.access_level; 0 after removal
                 # safety, ADR 0013/0014: both reach 0 after the content lane's waves
                 "drug-name": 1, "authority-without-source": 0}  # 0 → never baselined (lands at 0 after 2e's slice)
 BOLD_CANDIDATE_PAGES = 3  # a bold phrase on this many pages is a term and needs its own page
@@ -344,6 +349,8 @@ def violations(page: dict) -> list:
         found.append("duplicate-passage")
     if page.get("duplicate_tables"):
         found.append("duplicate-table")
+    if page.get("access_level_row"):
+        found.append("access-level-row")
     if page.get("misnamed_techniques"):
         found.append("technique-name")
     if page["bold_unlinked"]:
@@ -375,6 +382,7 @@ def explain(page: dict) -> dict:
         "legitimate-indication": "; ".join(page.get("legitimate_indication", [])[:2]),
         "duplicate-passage": "; ".join(b[:60] for b in page.get("duplicate_passages", [])[:2]),
         "duplicate-table": "; ".join(r[:60] for r in page.get("duplicate_tables", [])[:2]),
+        "access-level-row": "hand-written Přístupová úroveň row" if page.get("access_level_row") else "",
         "drug-name": ", ".join(page.get("drug_name", [])),
         "authority-without-source": "; ".join(f"({g})" for g in page.get("pasted_authorities", [])),
         "fabricated-citation": "; ".join(page.get("fabricated_citations", [])[:2]),
@@ -782,6 +790,11 @@ TABLE_DELIM = re.compile(r"^\|[\s:|-]+\|?\s*$")
 TABLE_BOLD_LABEL = re.compile(r"^\*\*[^*]+\*\*$")
 TABLE_LINK_VALUE = re.compile(r"^\[[^\]]*\]\([^)]*\)$")  # a single markdown link counts as short
 DUP_TABLE_MIN_WORDS = 8
+# A hand-written "| **Přístupová úroveň** | … |" metadata row. The access level is data
+# (extra.access_level) and is rendered derived in the page header, linked to the classification
+# page; the row must not be re-typed into content, where it drifts (11 hand-written variants before
+# this). The gate refuses any such row on a kompendium page.
+ACCESS_LEVEL_ROW = re.compile(r"^\|\s*\*\*Přístupová úroveň\*\*\s*\|", re.M)
 
 
 def table_rows(prose: str) -> set:
@@ -868,6 +881,8 @@ def analyse(pages: list) -> dict:
             # stale and is charged, so the exemption is removed with its reason
             names = [] if names else ["stale entry in data/drug-recognition.toml"]
         page["drug_name"] = names
+        page["access_level_row"] = (page["path"].startswith("kompendium/")
+                                    and bool(ACCESS_LEVEL_ROW.search(prose)))
         lower_freq.update(LOWER_WORD.findall(prose))
         for line in prose.split("\n"):
             if AUTHORITY_YEAR.search(line):

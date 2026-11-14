@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/08-prilohy/"
 | **Kategorie** | 8. Přílohy |
 | **Subkategorie** | 8.1 Diagnostické nástroje |
 | **Typ hesla** | Diagnostický nástroj – oblast posouzení po odchodu ze skupiny s vysokou kontrolou |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Vysoká v prvních měsících po odchodu (izolace, ztráta smyslu, riziko sebepoškození) |
 | **Validační status** | Oblast s malým počtem ověřených nástrojů; viz poznámka níže |
 | **Rodičovská kapitola** | [08. Přílohy](@/kompendium/08-prilohy/_index.md) · [Diagnostické nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md) |

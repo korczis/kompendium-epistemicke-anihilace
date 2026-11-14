@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 | **EA kód** | `EA-2.1.2` |
 | **Kategorie** | 2. Scénáře epistemické delegitimizace |
 | **Subkategorie** | 2.1 Expertní diskvalifikace |
-| **Přístupová úroveň** | L2 (pokročilá) |
 | **Riziková úroveň** | Vysoká — produkuje iluzi konsensu, masivní reputační tlak |
 | **Reverzibilita** | Nízká — sociální paměť útoku přetrvává |
 | **Rodičovská kapitola** | [Kapitola 2 — Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |

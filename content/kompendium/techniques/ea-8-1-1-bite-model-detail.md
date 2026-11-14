@@ -27,7 +27,6 @@ parent_chapter = "/kompendium/08-prilohy/"
 | **Kategorie** | 8. Přílohy |
 | **Subkategorie** | 8.1 Diagnostické nástroje |
 | **Typ hesla** | Diagnostický nástroj – kvalitativní kontrolní seznam |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Vysoká u jevu, který zachycuje (autoritářská kontrola ve skupině nebo vztahu) |
 | **Validační status** | Konceptuální model; bez standardizovaných norem a bez ověřené hraniční hodnoty |
 | **Rodičovská kapitola** | [08. Přílohy](@/kompendium/08-prilohy/_index.md) · [Diagnostické nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md) |

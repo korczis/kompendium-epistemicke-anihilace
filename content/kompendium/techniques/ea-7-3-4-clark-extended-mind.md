@@ -26,7 +26,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/"
 | **Kategorie** | 7. Teoretické reflexe |
 | **Subkategorie** | 7.3 Kognitivní věda |
 | **Typ hesla** | Interpretační rámec – mysl rozložená do nástrojů, prostředí a vztahů |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Střední až vysoká u popsaného jevu – zásah do vnějších opor působí jako zásah do paměti a úsudku |
 | **Reverzibilita** | Dobrá, pokud člověk získá zpět vlastní, ověřitelné opory |
 | **Rodičovská kapitola** | [7. Teoretické a metakonceptuální reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) |

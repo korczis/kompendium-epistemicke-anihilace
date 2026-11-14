@@ -50,6 +50,8 @@ origin_site = "https://prismatic-reality-com.github.io/prismatic-promo"
 author = "Tomas Korcak"
 licence = "GHL v1.0"
 licence_url = "https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE"
+# Jediný zdroj odkazu na definici přístupových úrovní L1–L4; header badge „Přístup Ln" odkazuje sem.
+access_classification_path = "/kompendium/01-predmluva/bezpecnostni-klasifikace/"
 
 # Texty bloku „Pokračovat“ na konci stránky (templates/partials/pokracovat.html).
 [extra.pokracovat]

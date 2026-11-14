@@ -26,7 +26,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/"
 | **Kategorie** | 7. Teoretické reflexe |
 | **Subkategorie** | 7.3 Kognitivní věda |
 | **Typ hesla** | Interpretační rámec – hranice mezi funkcí a prožitkem |
-| **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Nízká až střední u popsaného jevu – riziko leží ve zneužití pojmu, ne v pojmu samém |
 | **Reverzibilita** | Dobrá |
 | **Rodičovská kapitola** | [7. Teoretické a metakonceptuální reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) |

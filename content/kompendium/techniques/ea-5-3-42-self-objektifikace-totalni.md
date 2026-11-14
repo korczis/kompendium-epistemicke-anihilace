@@ -26,7 +26,6 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **EA kód** | `EA-5.3.42` |
 | **Kategorie** | 5. Ultramární techniky |
 | **Subkategorie** | 5.3 Hypertransformativní protokoly |
-| **Přístupová úroveň** | L3 (pro klinickou, forenzní a výzkumnou analýzu) |
 | **Riziková úroveň** | Vysoká – ohrožuje zdraví a při selhání v měřítku i život |
 | **Reverzibilita** | Střední; tělesné následky se upravují rychleji než ztracená důvěra ve vlastní prožitek |
 | **Rodičovská kapitola** | [Kapitola 8: Hypertransformativní protokoly](@/kompendium/05-ultramari-techniky/kapitola-8.md) |

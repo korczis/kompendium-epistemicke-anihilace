@@ -27,12 +27,14 @@ image_alt = "Expert Witness"
 
 **Expert witness** (česky *znalec*, v angloamerickém řízení doslova „svědek-expert“) je osoba kvalifikovaná odbornými znalostmi, dovednostmi, zkušenostmi, výcvikem nebo vzděláním, která podává **názorovou výpověď** (*opinion testimony*) o otázkách přesahujících běžné porozumění porotců nebo soudců. Klíčový rozdíl oproti svědkovi je v tom, že znalec smí vyjádřit *názor*, musí však prokázat jak svou kvalifikaci, tak vědeckou důslednost své metody. Svědek vypovídá o tom, co vnímal; znalec vykládá, co z dostupných skutečností plyne.
 
-V jurisdikcích common law, v USA podle pravidla 702 federálních pravidel o dokazování (*Federal Rule of Evidence 702*) a trojice rozhodnutí Nejvyššího soudu označované podle případu *Daubert*, musí znalec:
+V jurisdikcích common law, v USA podle pravidla 702 federálních pravidel o dokazování (*Federal Rule of Evidence 702*) a trojice rozhodnutí Nejvyššího soudu označované podle případu *Daubert*, musí znalec splnit čtyři požadavky (*Federal Rules of Evidence*, Rule 702; *Daubert v. Merrell Dow Pharmaceuticals*, 1993):
 
-1. mít odpovídající kvalifikaci;
-2. používat spolehlivé principy a metody;
-3. tyto metody spolehlivě uplatnit na skutečnosti případu;
-4. podat výpověď, která pomůže tomu, kdo rozhoduje o skutkových otázkách (*trier of fact*).
+| Požadavek | Obsah |
+| --- | --- |
+| Kvalifikace | znalec má odpovídající znalosti, dovednosti, zkušenost nebo vzdělání |
+| Spolehlivá metoda | výpověď stojí na spolehlivých principech a metodách |
+| Spolehlivé uplatnění | metody jsou spolehlivě uplatněny na skutečnosti případu |
+| Užitečnost | výpověď pomůže tomu, kdo rozhoduje o skutkových otázkách (*trier of fact*) |
 
 V českém řízení musí být **znalec** podle zákona č. 254/2019 Sb., o znalcích, znaleckých kancelářích a znaleckých ústavech, zapsán ve veřejném seznamu znalců a vypracovat **znalecký posudek** splňující zákonné náležitosti formy. České právo tak navíc vyžaduje formální zápis, nejen prokázání odbornosti v konkrétním řízení.
 
@@ -44,12 +46,12 @@ Moderní rámec přípustnosti v USA vytvořila trojice rozhodnutí *Daubert v. 
 
 ## Jak se projevuje
 
-V praxi se znalecká role pozná podle několika znaků:
-
-- znalec je **přibrán** orgánem řízení nebo stranou a odpovídá na **konkrétně položené otázky**;
-- posudek obsahuje popis podkladů, metody, výsledku a mezí závěru;
-- znalec nese odpovědnost za pravdivost a úplnost posudku a může být vyslýchán;
-- v kontradiktorním řízení čelí křížovému výslechu, v němž se zkoumá metoda i nestrannost.
+V praxi se znalecká role pozná podle toho, že znalec je **přibrán** orgánem řízení nebo stranou a odpovídá
+na **konkrétně položené otázky**. Český zákon o znalcích (zákon č. 254/2019 Sb.) požaduje, aby posudek
+obsahoval popis podkladů, metody a výsledku a aby byl úplný a nestranný, a znalec za jeho pravdivost odpovídá
+a může být k posudku vyslýchán. V kontradiktorním řízení čelí křížovému výslechu, v němž se zkoumá metoda i
+nestrannost; Nejvyšší soud USA ve věci *Daubert* (1993) označil důrazný křížový výslech a předložení
+protichůdných důkazů za tradiční a přiměřený způsob, jak zpochybnit nejistý znalecký důkaz.
 
 Varovné znaky špatné znalecké praxe: závěr přesahuje položenou otázku; metoda není popsána nebo není reprodukovatelná; nejistota je skryta za neadresná tvrzení; znalec posuzuje věrohodnost výpovědi, ačkoli k tomu nemá podklad ani mandát.
 
@@ -59,10 +61,12 @@ Znalecký posudek má v řízení zvláštní epistemickou váhu: přenáší od
 
 ## Odlišení
 
-- **Od svědka (*fact witness*):** svědek vypovídá o vlastním vnímání; znalec vykládá a hodnotí. Ochranu svědků v případech EA popisuje [ochrana svědka skutkového děje](@/kompendium/forensic-legal/22-fact-witness-protection.md).
-- **Od konzultanta strany:** odborník najatý stranou k přípravě strategie nemusí být nestranný; znalec podle českého zákona nestranný být musí.
-- **Od terapeuta:** terapeut léčí a stojí na straně klienta; znalec posuzuje. Spojení obou rolí v jedné osobě vytváří střet zájmů.
-- **Od autority v manipulačním smyslu:** znalecká autorita je podmíněná metodou a přezkoumatelná; autorita guru nebo vůdce skupiny přezkum odmítá. Viz [EA-7.1.1 Foucault: moc a vědění](@/kompendium/techniques/ea-7-1-1-foucault-power-knowledge.md).
+| Odlišit od | Rozdíl |
+| --- | --- |
+| Svědek (*fact witness*) | vypovídá o vlastním vnímání; znalec vykládá a hodnotí ([ochrana svědka skutkového děje](@/kompendium/forensic-legal/22-fact-witness-protection.md)) |
+| Konzultant strany | odborník najatý stranou k přípravě strategie nemusí být nestranný; znalec podle zákona č. 254/2019 Sb. nestranný být musí |
+| Terapeut | léčí a stojí na straně klienta; znalec posuzuje, a spojení obou rolí v jedné osobě vytváří střet zájmů |
+| Autorita v manipulačním smyslu | znalecká autorita je podmíněná metodou a přezkoumatelná; autorita guru nebo vůdce skupiny přezkum odmítá ([EA-7.1.1 Foucault: moc a vědění](@/kompendium/techniques/ea-7-1-1-foucault-power-knowledge.md)) |
 
 ## Význam pro Kompendium
 
@@ -99,8 +103,3 @@ V práci [OSINT](@/glossary/osint.md) a ve zpravodajské analýze z principu zna
 - [Znalec v případech EA](@/kompendium/forensic-legal/21-expert-witness-EA.md) – podrobný výklad role.
 - [Posuzování věrohodnosti](@/kompendium/forensic-legal/2-credibility-assessment.md) – nejčastější úskalí posudku.
 - [Obrana při křížovém výslechu](@/kompendium/forensic-legal/23-cross-examination-defense.md) – ochrana vyslýchané oběti.
-
-**Mimo knihu**
-
-- [Evidence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/evidence/) – obecná kategorie, kterou znalecká výpověď vykládá.
-- [Verifiable Evidence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/verifiable-evidence/) – standard, který mají znalecké názory podpírat.

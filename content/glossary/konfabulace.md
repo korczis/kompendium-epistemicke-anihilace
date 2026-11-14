@@ -14,10 +14,13 @@ keywords = ["konfabulace", "confabulation", "Nisbett", "Wilson", "slepota k volb
 
 ## Definice
 
-**Konfabulace** (*confabulation*) je vytváření nepravdivých nebo zkreslených vzpomínek či vysvětlení **bez úmyslu klamat**. Člověk, který konfabuluje, nelže: je přesvědčen, že říká pravdu, a jeho výpověď je často plynulá a sebejistá. Pojem se používá ve dvou souvisejících významech:
+**Konfabulace** (*confabulation*) je vytváření nepravdivých nebo zkreslených vzpomínek či vysvětlení **bez úmyslu klamat**. Člověk, který konfabuluje, nelže: je přesvědčen, že říká pravdu, a jeho výpověď je často plynulá a sebejistá.
 
-1. **v klinické neuropsychologii** pro nepravdivé vzpomínky u pacientů s poškozením mozku, typicky u Korsakovova syndromu nebo po poškození předních částí mozku;
-2. **v psychologii úsudku a sebepoznání** pro obecnější a běžný jev: lidé dodatečně vytvářejí vysvětlení vlastního chování a rozhodování, aniž by měli přístup k jeho skutečným příčinám.
+Pojem se používá ve dvou souvisejících významech. **V klinické neuropsychologii** označuje nepravdivé
+vzpomínky u pacientů s poškozením mozku, typicky u Korsakovova syndromu nebo po poškození předních částí
+mozku (Hirstein, 2005). **V psychologii úsudku a sebepoznání** označuje obecnější a běžný jev: lidé dodatečně
+vytvářejí vysvětlení vlastního chování a rozhodování, aniž by měli přístup k jeho skutečným příčinám (Nisbett
+a Wilson, 1977).
 
 Index pojmů Kompendia má na mysli především druhý význam: **dodatečnou konstrukci příběhu o vlastním rozhodování**.
 
@@ -29,11 +32,14 @@ Michael Gazzaniga na základě výzkumu pacientů s přerušeným spojením mozk
 
 ## Jak se projevuje
 
-- plynulé, přesvědčivé zdůvodnění rozhodnutí, které se rozpadne při dotazu na konkrétní okolnosti;
-- vysvětlení, které odpovídá spíše tomu, co „dává smysl“ nebo co je společensky přijatelné, než tomu, co se stalo;
-- doplňování mezer v paměti hodnověrnými detaily, které se při ověření ukážou jako nepravdivé;
-- změna vzpomínky na vlastní dřívější postoj tak, aby odpovídala postoji současnému;
-- vysoká jistota výpovědi nezávislá na její přesnosti.
+Konfabulace se projevuje plynulým a přesvědčivým zdůvodněním rozhodnutí, které člověk ve skutečnosti
+neučinil. Johansson a kolegové (2005) účastníkům nepozorovaně vyměnili fotografii obličeje, kterou si vybrali,
+a většina z nich záměnu nepostřehla a podrobně zdůvodnila volbu, kterou neudělala.
+
+Vysvětlení přitom odpovídá spíše tomu, co „dává smysl“ nebo co je společensky přijatelné, než tomu, co se
+skutečně stalo. Nisbett a Wilson (1977) ukázali, že účastníci jejich pokusů uváděli tytéž důvody, jaké by
+uvedl nezúčastněný pozorovatel, a nikoli činitele, kteří jejich chování prokazatelně ovlivnili. Gazzaniga
+(1985) popsal, že takové výklady vznikají s vysokou jistotou, která nezávisí na jejich přesnosti.
 
 ## Mechanismus
 
@@ -43,11 +49,13 @@ Pro epistemickou anihilaci je to podstatné ve dvou ohledech. Za prvé: člověk
 
 ## Odlišení
 
-- **Lež** je vědomé klamání; konfabulace je upřímná.
-- **Falešná vzpomínka** vyvolaná sugescí je příbuzný jev; konfabulace je širší a zahrnuje i vysvětlení, nejen vzpomínky.
-- **Racionalizace** v psychodynamickém smyslu je obranný mechanismus chránící sebeobraz; konfabulace může obrannou funkci mít, ale vzniká i bez ní, jako běžná vlastnost poznávání.
-- **[Disociativní amnézie](@/glossary/dissociativni-amnezie.md)** je ztráta vzpomínek; konfabulace je jejich nahrazení.
-- **Psychotický blud** je pevné přesvědčení odolné vůči důkazům v širokém rozsahu; konfabulace je lokální a často se na dotaz snadno změní.
+| Odlišit od | Rozdíl |
+| --- | --- |
+| Lež | vědomé klamání; konfabulace je upřímná |
+| Falešná vzpomínka vyvolaná sugescí | příbuzný jev; konfabulace je širší a zahrnuje i vysvětlení, nejen vzpomínky |
+| Racionalizace | v psychodynamickém smyslu obranný mechanismus chránící sebeobraz; konfabulace může obrannou funkci mít, ale vzniká i bez ní |
+| [Disociativní amnézie](@/glossary/dissociativni-amnezie.md) | ztráta vzpomínek; konfabulace je jejich nahrazení |
+| Psychotický blud | pevné přesvědčení odolné vůči důkazům v širokém rozsahu; konfabulace je lokální a často se na dotaz snadno změní |
 
 ## Význam pro Kompendium
 
@@ -63,6 +71,7 @@ Rozsah konfabulace v běžném životě je předmětem debaty: některá experim
 
 ## Literatura
 
+- Hirstein, W. (2005). *Brain Fiction: Self-Deception and the Riddle of Confabulation*. Cambridge, MA: MIT Press.
 - Nisbett, R. E., & Wilson, T. D. (1977). Telling more than we can know: Verbal reports on mental processes. *Psychological Review*, 84(3), 231–259.
 - Johansson, P., Hall, L., Sikström, S., & Olsson, A. (2005). Failure to detect mismatches between intention and outcome in a simple decision task. *Science*, 310(5745), 116–119.
 - Gazzaniga, M. S. (1985). *The Social Brain: Discovering the Networks of the Mind*. Basic Books.

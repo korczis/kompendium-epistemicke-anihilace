@@ -32,27 +32,26 @@ Ve všech kontextech je strukturní funkce totožná: **neschopnost je tou prac�
 
 ## Původ a kontext pojmu
 
-Výraz se ustálil v literatuře o neplacené domácí práci (Arlie Hochschildová v knize *The Second
-Shift*, 1989, rozbor předjímá, aniž by termín používala) a novější výzkum organizačního chování
-ho zobecnil na institucionální kontexty: technici, kteří „neumějí“ používat nástroje, jež jejich
-práce vyžaduje, manažeři, kteří „neumějí“ číst vlastní přehledy, vedoucí, kteří „nedokážou“
-dotáhnout své závazky. Kniha fenomén rozpracovává v kapitole [Weaponized
+Výraz se ustálil v debatě o neplacené domácí práci. Hochschild (1989) její rozbor předjímá, aniž by
+termín používala: popisuje, jak se v rodinách, kde oba partneři pracují, „druhá směna“ domácí práce a péče
+přesouvá převážně na jednoho z nich, a to i tam, kde se oba hlásí k rovnému rozdělení. *Interpretace knihy*:
+kniha výraz přenáší i na pracovní a institucionální kontexty, kde někdo „neumí“ používat nástroje, které jeho
+práce vyžaduje, nebo „nedokáže“ dotáhnout své závazky. Kniha fenomén rozpracovává v kapitole [Weaponized
 incompetence](@/kompendium/05-ultramari-techniky/weaponized-incompetence.md).
 
 ## Jak se projevuje
 
-Tři diagnostické znaky odlišují strategickou neschopnost od skutečné:
+*Interpretace knihy*: tři znaky odlišují strategickou neschopnost od skutečné.
 
-1. **výběrová oblast** – neschopnost se objevuje u úkolů, kterým se aktér chce vyhnout, ne
-   rovnoměrně u kognitivně srovnatelných úkolů;
-2. **odolnost vůči zaučení** – opakované vysvětlení, zaškolení, písemné návody ani zjednodušení
-   nástrojů nevedou ke zlepšení;
-3. **vzorec vzniku** – neschopnost se objeví až poté, co se úkol stane politicky nebo vztahově
-   nepohodlným, ne při prvním setkání s ním.
+| Znak | Obsah |
+| --- | --- |
+| Výběrová oblast | neschopnost se objevuje u úkolů, kterým se aktér chce vyhnout, ne rovnoměrně u kognitivně srovnatelných úkolů |
+| Odolnost vůči zaučení | opakované vysvětlení, zaškolení, písemné návody ani zjednodušení nástrojů nevedou ke zlepšení |
+| Vzorec vzniku | neschopnost se objeví až poté, co se úkol stane politicky nebo vztahově nepohodlným, ne při prvním setkání s ním |
 
-Další znaky: úkol je proveden tak špatně, že ho druhý raději udělá sám; po převzetí úkolu druhým
-přichází úleva nebo dokonce kritika jeho provedení; aktér zvládá srovnatelně náročné úkoly, které
-ho baví nebo které jsou vidět.
+Úkol bývá navíc proveden tak špatně, že ho druhý raději udělá sám, a po jeho převzetí přichází úleva nebo
+dokonce kritika toho, jak ho druhý provedl. Hochschild (1989) popsala obdobný vzorec u domácí práce, kde se
+nerovné rozdělení udrželo díky tomu, že jeden z partnerů úkoly přebíral, aby se vyhnul sporu.
 
 ## Mechanismus
 
@@ -80,13 +79,12 @@ prostě nerozumím“ jako k bezpečné pozici). Příbuzné je i [blame shiftin
 
 ## Odlišení
 
-- **Od skutečné neschopnosti a poruch učení** – ty jsou konzistentní napříč srovnatelnými úkoly
-  a zlepšují se s vhodnou podporou; u ADHD, dyslexie nebo deprese je potřeba přizpůsobení, ne
-  podezření.
-- **Od vyhoření a vyčerpání** – vyčerpaný člověk selhává plošně a obvykle to prožívá jako problém;
-  strategická neschopnost je výběrová a pro aktéra výhodná.
-- **Od naučené bezmocnosti** – ta vzniká opakovaným neúspěchem a trápí toho, kdo ji má.
-- **Od nejistoty nováčka** – nováček se ptá, učí se a zlepšuje se.
+| Odlišit od | Rozdíl |
+| --- | --- |
+| Skutečná neschopnost a poruchy učení | jsou konzistentní napříč srovnatelnými úkoly a zlepšují se s vhodnou podporou; u ADHD, dyslexie nebo deprese je potřeba přizpůsobení, ne podezření |
+| Vyhoření a vyčerpání | vyčerpaný člověk selhává plošně a obvykle to prožívá jako problém; strategická neschopnost je výběrová a pro aktéra výhodná |
+| Naučená bezmocnost | vzniká opakovanou zkušeností, že vlastní jednání nemá vliv na výsledek, a trápí toho, kdo ji má (Seligman, 1975) |
+| Nejistota nováčka | nováček se ptá, učí se a zlepšuje se |
 
 Rozlišení je třeba dělat opatrně: obvinění z předstírání může samo poškodit člověka se skutečným
 omezením.
@@ -101,23 +99,23 @@ i soustavným „nedokážu“.
 
 ## Obrana a zotavení
 
-Doktrína zotavení je popsána v protokolu [Incompetence](@/kompendium/recovery-protocols/incompetence.md).
-Prakticky:
+Doktrínu zotavení popisuje protokol [Incompetence](@/kompendium/recovery-protocols/incompetence.md).
+*Interpretace knihy*: vzorec zaznamenaný v čase, tedy které úkoly „nejdou“, které ano a co následuje, je
+silnějším dokladem než jednotlivá epizoda, a teprve takový záznam umožňuje odlišit strategickou neschopnost od
+skutečného omezení, u něhož by obvinění samo škodilo. Hochschild (1989) ukázala, že nerovné rozdělení práce
+přetrvává tam, kde se o něm nemluví výslovně, a výslovná dohoda o tom, co znamená „hotovo“, je proto součástí
+obrany.
 
-- **zaznamenávat vzorec** – které úkoly „nejdou“, které ano, co následuje; vzorec v čase je
-  silnější než jednotlivá epizoda;
-- **přestat úkol přebírat** – vrátit odpovědnost a snést přechodný nepořádek nebo nepohodlí;
-- **dohodnout výslovné standardy** („hotovo znamená…“) a termíny;
-- **v organizaci** – měřit výsledky, ne snahu; jasně přidělit odpovědnost a nedovolit, aby se
-  práce tiše přesouvala na nejspolehlivější lidi (srov. [organizační
-  obrana](@/kompendium/organizational-defense/_index.md));
-- **pro terapeuta** – pracovat s pochybností klienta o vlastním úsudku („možná to opravdu nejde“)
-  a s vyčerpáním z přebírané práce.
+V organizaci jde o to měřit výsledky, ne snahu, a nepřipustit, aby se práce tiše přesouvala na nejspolehlivější
+lidi ([organizační obrana](@/kompendium/organizational-defense/_index.md)). V terapii se pracuje s pochybností
+klienta o vlastním úsudku („možná to opravdu nejde“) a s vyčerpáním z přebírané práce; o postupu rozhoduje
+terapeut, a tato pochybnost odpovídá tomu, co Seligman (1975) popsal jako ztrátu očekávání, že vlastní jednání
+něco změní.
 
 ## Literatura
 
-- Arlie Russell Hochschild (s Anne Machungovou): *The Second Shift: Working Parents and the
-  Revolution at Home* (1989).
+- Hochschild, A. R., & Machung, A. (1989). *The Second Shift: Working Parents and the Revolution at Home*. New York: Viking.
+- Seligman, M. E. P. (1975). *Helplessness: On Depression, Development, and Death*. San Francisco: W. H. Freeman.
 
 ## Související
 

@@ -130,7 +130,7 @@
     "op": "search",
     "query": "Dis",
     "schema": "kompendium-engine/v1",
-    "total": 111
+    "total": 110
   },
   "input": {
     "op": "search",

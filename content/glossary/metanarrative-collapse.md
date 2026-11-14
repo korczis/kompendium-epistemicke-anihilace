@@ -45,7 +45,7 @@ uvnitř skupiny vyhrocují a styk s jinými skupinami slábne.
 
 ## Mechanismus
 
-Kompendium používá Lyotardovu diagnózu k vysvětlení strukturního rysu současných technik delegitimizace: v prostředí, kde je samo odvolání na sdílené metanarativy podezřelé, se **delegitimizační kroky EA-1.2.x** stávají snazšími (není sdílený rámec, který by bylo třeba bránit) a zároveň hůře rozpoznatelnými (není sdílený rámec, z něhož by je šlo označit za nelegitimní). Konkrétně. Delegitimizace ve společenském měřítku rozpad metanarativů zneužívá:
+Kompendium používá Lyotardovu diagnózu k vysvětlení strukturního rysu současných technik [delegitimizace](@/glossary/delegitimizace.md): v prostředí, kde je samo odvolání na sdílené metanarativy podezřelé, se **delegitimizační kroky EA-1.2.x** stávají snazšími (není sdílený rámec, který by bylo třeba bránit) a zároveň hůře rozpoznatelnými (není sdílený rámec, z něhož by je šlo označit za nelegitimní). Konkrétně. Delegitimizace ve společenském měřítku rozpad metanarativů zneužívá:
 odvolání oběti na vědecký konsenzus, novinářské standardy, soudní postup nebo historický záznam lze neutralizovat
 přerámováním každého z nich na „jen další vyprávění“, a vytvořit tak falešnou rovnocennost mezi epistemickými
 infrastrukturami s velmi rozdílnými postupy ověřování (Lyotard, 1979).

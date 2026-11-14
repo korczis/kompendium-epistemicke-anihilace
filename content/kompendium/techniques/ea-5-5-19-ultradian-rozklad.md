@@ -95,7 +95,7 @@ EA-5.5.18 (cirkadianní disrupce), EA-5.5.20 (pre-spánková restrukturalizace)
 
 ## Teoretické zázemí
 
-Tato technika operuje na úrovni **pre-predikativní zkušenosti** v Husserlově fenomenologii — vrstva před tím, než se konstituuje predikativní soud „S je P“. Husserl v *Erfahrung und Urteil* (1939) ukazuje, že každý vědomý soud je založen na pasivní syntéze pre-predikativních dat: vjemy jsou již před verbalizací strukturovány retencemi (právě uplynulé) a protencemi (anticipovanými). Technika **ultradiánní rozklad** cílí přesně na tuto vrstvu — narušuje pasivní syntézu před tím, než subjekt může artikulovat, co se mu vlastně děje.
+Tato technika operuje na úrovni **[pre-predikativní zkušenosti](@/glossary/pre-predikativni-zkusenost.md)** v Husserlově fenomenologii — vrstva před tím, než se konstituuje predikativní soud „S je P“. Husserl v *Erfahrung und Urteil* (1939) ukazuje, že každý vědomý soud je založen na pasivní syntéze pre-predikativních dat: vjemy jsou již před verbalizací strukturovány retencemi (právě uplynulé) a protencemi (anticipovanými). Technika **ultradiánní rozklad** cílí přesně na tuto vrstvu — narušuje pasivní syntézu před tím, než subjekt může artikulovat, co se mu vlastně děje.
 
 Merleau-Ponty v *Phénoménologie de la perception* (1945) doplňuje koncept **[body schema](@/glossary/body-schema.md)** (schéma corporel) — pre-reflexivní tělesné vědomí, které předchází kartesiánskému kogitujícímu subjektu. „Já mohu“ (je peux) předbíhá „já myslím“ (je pense). Tato technika narušuje body schema na úrovni proprioceptivně-kinestetické integrace, čímž se subjekt ocitá v stavu, kdy jeho tělesný „já mohu“ přestává fungovat jako transparentní médium světa.
 

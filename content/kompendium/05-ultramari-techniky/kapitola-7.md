@@ -25,7 +25,7 @@ risk_level = "extreme"
 
 Metatranscendentální anihilace (EA-5.2.*) je **druhá podtřída** ultramárních technik. Jestliže [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md) (EA-5.1.*) popisuje techniky, které vedou ke kolapsu **obsahových** epistemických struktur (vědění, věřit, pochybovat) skrze rekurzivní imploze, kanibalizace a singulární narativní propady, kapitola 7 se obrací k **podmínkám**, které kterékoli vědění vůbec umožňují — k transcendentálnímu rámci v kantovském smyslu, k apriorním kategoriím, k konstitutivním principům a k samotné struktuře perspektivy.
 
-Termín *metatranscendentální* zde znamená dvojí. Za prvé, techniky neútočí na obsah poznání, ale na **podmínky možnosti** poznání jakéhokoliv obsahu. Za druhé, neútočí pouze na transcendentální struktury jako takové, ale na **subjektovu schopnost rozpoznat**, že nějaké transcendentální struktury vůbec operují — tedy na *meta-úroveň* transcendentální reflexe. Cílem není zpochybnit konkrétní kategorii (kauzalitu, prostor, čas), ale **rozpustit funkci kategorialní organizace** jako takovou.
+Termín *metatranscendentální* zde znamená dvojí. Za prvé, techniky neútočí na obsah poznání, ale na **[podmínky možnosti](@/glossary/podminky-moznosti.md)** poznání jakéhokoliv obsahu. Za druhé, neútočí pouze na transcendentální struktury jako takové, ale na **subjektovu schopnost rozpoznat**, že nějaké transcendentální struktury vůbec operují — tedy na *meta-úroveň* transcendentální reflexe. Cílem není zpochybnit konkrétní kategorii (kauzalitu, prostor, čas), ale **rozpustit funkci kategorialní organizace** jako takovou.
 
 ## Mechanismus
 

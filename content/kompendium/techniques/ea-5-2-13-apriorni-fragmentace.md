@@ -36,7 +36,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 
 **Apriorní fragmentace** je metatranscendentální technika, jíž jsou **apriorní formy smyslovosti** (prostor, čas) — Kantova *Anschauungsformen* — fragmentovány na nespojité úseky bez jednotící syntézy. Subjekt ztrácí schopnost prožívat **kontinuální prostorovou rozprostraněnost** a **lineární časovou sukcesi** jako sjednocenou strukturu zkušenosti.
 
-V Kantově terminologii: *transcendentální estetika* (Aesthetik) postuluje prostor a čas jako apriorní podmínky možnosti smyslovosti. Apriorní fragmentace tuto **podmínku možnosti** narušuje: prostor se rozpadá na **diskrétní lokality** bez plynulého přechodu, čas na **izolované momenty** bez retenčně-protenční struktury (jak by ji popsal Husserl). Důsledkem není pouhá dezorientace, ale **strukturní defektura zkušenostního aparátu**.
+V Kantově terminologii: *transcendentální estetika* (Aesthetik) postuluje prostor a čas jako apriorní [podmínky možnosti](@/glossary/podminky-moznosti.md) smyslovosti. Apriorní fragmentace tuto **podmínku možnosti** narušuje: prostor se rozpadá na **diskrétní lokality** bez plynulého přechodu, čas na **izolované momenty** bez retenčně-protenční struktury (jak by ji popsal Husserl). Důsledkem není pouhá dezorientace, ale **strukturní defektura zkušenostního aparátu**.
 
 Subjekt v terminálním stadiu prožívá svět jako **galerii nespojitých snímků** — „skok“ z místa na místo, „skok“ z momentu na moment, bez prožívané kontinuity, jež by je sjednocovala. Paměť přetrvává obsahově, ale ztrácí časovou koherenci.
 

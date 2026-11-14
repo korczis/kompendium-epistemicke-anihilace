@@ -110,7 +110,7 @@ zkušeností, se ověřování vyhýbá, a co nese strukturu myšlení, se zneji
 
 Pojem je klíčem ke kapitole o metatranscendentální anihilaci
 ([Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)) a k technikám EA-5.2, které
-cílí na podmínky možnosti zkušenosti, ne na jednotlivá přesvědčení. Rychlý přehled podává
+cílí na [podmínky možnosti](@/glossary/podminky-moznosti.md) zkušenosti, ne na jednotlivá přesvědčení. Rychlý přehled podává
 karta [QR EA-5.2.4](@/kompendium/quick-reference/qr-ea-5-2-4.md). Na rovině kritického
 myšlení se pojem uplatní při rozpoznávání [nefalsifikovatelných
 tvrzení](@/kompendium/detection-signatures/3-linguistic-unfalsifiable-claims.md).

@@ -144,7 +144,7 @@ sezeních mohou vést k traumatické symptomatice [C-PTSD](@/glossary/c-ptsd.md)
 anihilací překrývá; Herman (1992) popsala [komplexní trauma](@/glossary/complex-trauma.md) právě u lidí vystavených dlouhodobé
 kontrole bez možnosti úniku.
 
-**Depresivní porucha** může mít zde ideologický původ (zákaz radosti), ale může přejít v samostatnou
+**[Depresivní porucha](@/glossary/depresivni-epizoda-a-porucha.md)** může mít zde ideologický původ (zákaz radosti), ale může přejít v samostatnou
 depresi, a vyžaduje proto posouzení podle obvyklých kritérií (American Psychiatric Association,
 2013). Konečně je třeba zvážit **morální zranění**, tedy vinu za účast na čistkách bez rozpadu úsudku
 o faktech; Litz et al. (2009) je vymezují jako újmu z jednání, které porušilo vlastní morální

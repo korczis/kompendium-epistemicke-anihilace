@@ -147,7 +147,7 @@ běžnou a produktivní součástí vědy. Odlišit je třeba i **akademickou š
 ponižování bez monopolu na pravdu, kterou Bourdieu (1984) vysvětluje spíše bojem o pozice v akademickém
 poli než uzavřeným výkladem.
 
-**Depresivní porucha** může stát za ztrátou radosti z oboru i z jiných příčin a vyžaduje posouzení podle
+**[Depresivní porucha](@/glossary/depresivni-epizoda-a-porucha.md)** může stát za ztrátou radosti z oboru i z jiných příčin a vyžaduje posouzení podle
 obvyklých kritérií (American Psychiatric Association, 2013). Pro srovnání slouží
 [případ 01](@/kompendium/case-studies/01-akademicka-supervize-totalizace.md), stejný vzorec v empirickém
 oboru.

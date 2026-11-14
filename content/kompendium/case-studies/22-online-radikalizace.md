@@ -156,7 +156,7 @@ dospívání. **Poruchy autistického spektra** mohou zvyšovat zranitelnost (do
 systému); nejde o příčinu, ale o faktor, s nímž musí intervence počítat, a diagnóza podle DSM-5
 (American Psychiatric Association, 2013) vyžaduje samostatné posouzení.
 
-**Depresivní epizoda** se samotou a beznadějí může radikalizaci předcházet i ji provázet a **primární
+**[Depresivní epizoda](@/glossary/depresivni-epizoda-a-porucha.md)** se samotou a beznadějí může radikalizaci předcházet i ji provázet a **primární
 porucha chování** se projevuje agresí napříč kontexty bez ideologického rámce. McCauley a Moskalenko
 (2017) připomínají, že radikální názor sám neznamená riziko násilí; diferenciální rozvaha proto
 odděluje otázku duševního zdraví od otázky bezpečnosti.

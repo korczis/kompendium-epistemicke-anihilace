@@ -157,7 +157,7 @@ a [případ 25](@/kompendium/case-studies/25-extremni-leve-exit.md)). Tourish a 
 upozorňují, že většina politických kultů zůstává nenásilná a jejich škoda je psychologická
 a ekonomická, nikoli bezpečnostní.
 
-**Depresivní epizoda** se po odchodu projevila prázdnotou a anhedonií a mohla splňovat
+**[Depresivní epizoda](@/glossary/depresivni-epizoda-a-porucha.md)** se po odchodu projevila prázdnotou a anhedonií a mohla splňovat
 kritéria deprese. Komorbidita je častá, ale deprese sama nevysvětluje změněný vztah k vlastnímu
 úsudku ani introjikovaný hlas skupiny; Herman (1992) popisuje tyto rysy jako součást obrazu
 dlouhodobé kontroly.

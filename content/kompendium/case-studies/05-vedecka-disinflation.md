@@ -155,7 +155,7 @@ formulované jako vyvratitelná námitka (Popper, 1959). **Běžný kariérní n
 vazba na nepohodlný výsledek, nikoli samotný počet neúspěchů. I běžné recenzní řízení nese známé
 zdroje předpojatosti (Lee a kol., 2013), takže jednotlivé zamítnutí samo nic nedokazuje.
 
-**Depresivní epizoda** se může rozvinout sekundárně; [epistemická anihilace](@/glossary/epistemicka-anihilace.md) se liší tím, že
+**[Depresivní epizoda](@/glossary/depresivni-epizoda-a-porucha.md)** se může rozvinout sekundárně; [epistemická anihilace](@/glossary/epistemicka-anihilace.md) se liší tím, že
 pochybnost je zaměřená na hodnotu vlastního poznání, ne globálně na sebe (American Psychiatric
 Association, 2013). **Paranoidní interpretace** znamená přesvědčení o spiknutí bez dat; zde byla
 asymetrie doložena citační analýzou. Viz

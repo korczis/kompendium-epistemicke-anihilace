@@ -77,7 +77,7 @@ Pozitivní při splnění bodů 1, 2 a alespoň jednoho z bodů 3–4.
 
 ## Klinická diferenciální diagnostika
 
-**Deprese** vede ke stažení se z kontaktů z nedostatku energie a radosti. Stažení je obvykle plošné a osoba ho popisuje jako vlastní neschopnost, ne jako požadavek někoho jiného (srov. [sociální izolace](@/glossary/socialni-izolace.md)). **Sociální úzkost** a **vyhýbavá porucha osobnosti** vedou k omezení kontaktů ze strachu z hodnocení; tento vzorec je dlouhodobý, předchází současnému vztahu a není vázán na jednu osobu.
+**[Deprese](@/glossary/depresivni-epizoda-a-porucha.md)** vede ke stažení se z kontaktů z nedostatku energie a radosti. Stažení je obvykle plošné a osoba ho popisuje jako vlastní neschopnost, ne jako požadavek někoho jiného (srov. [sociální izolace](@/glossary/socialni-izolace.md)). **Sociální úzkost** a **vyhýbavá porucha osobnosti** vedou k omezení kontaktů ze strachu z hodnocení; tento vzorec je dlouhodobý, předchází současnému vztahu a není vázán na jednu osobu.
 
 **Paranoidní stavy** mohou vést k přerušení kontaktů z podezření vůči ostatním. Na rozdíl od signatury však vznikají bez vnějšího zdroje, který by podezření živil, a podezření se často vztahuje i na samotný „chránící“ vztah. **Psychotická porucha nebo demence** u staršího člověka mohou izolaci způsobit a zároveň ho učinit zranitelným vůči izolaci zvenčí; tyto stavy se proto nevylučují se signaturou, ale mohou s ní koexistovat (srov. [elder abuse](@/glossary/elder-abuse.md)).
 

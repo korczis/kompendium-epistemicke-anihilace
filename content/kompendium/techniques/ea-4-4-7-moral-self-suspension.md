@@ -53,15 +53,10 @@ Zasažený člověk referuje, že „tehdy to nebyl on“, a o období mluví s 
 
 Pozastavení vlastního morálního sebehodnocení „ve jménu úkolu“ je tím snazší, čím méně je komu skládat účet (Milgram, 1974). Následující pojistky jsou proto uvedeny obráceně, podle toho, co znamená, když některá z nich chybí; stránka nic z toho nezařizuje.
 
-| Pojistka | Co znamená její nepřítomnost |
-|----------|------------------------------|
-| **[IRB přezkum](@/glossary/irb-review.md)** | Přínos a riziko nevážil nikdo mimo samo uspořádání a o žádném takovém vážení nezůstal záznam, který by šlo předložit |
-| **[Informovaný souhlas](@/glossary/informed-consent.md)** | Zasažený nevěděl, do čeho vstupuje, nebo to věděl a nemohl to vzít zpět bez ztráty, kterou nesl sám |
-| **Průběžné sledování stavu** | Zhoršení stavu nikdo zvenčí nezaznamenával; co se se zasaženým dělo, je známo jen z jeho vlastního pozdějšího vyprávění |
-| **Shoda na tom, kdy přestat** | Nikdo se předem neshodl na tom, co by platilo za okamžik, kdy se přestává, a rozhodnutí tak zůstalo na těch, kdo měli zájem na pokračování |
-| **Nezávislý audit** | Uspořádání posuzují pouze ti, kdo je vedou, a nikdo zvenčí je nemůže pozastavit |
-| **Dokumentační řetězec** | Co se stalo, nelze po čase rekonstruovat z ničeho než ze vzpomínek účastníků; chybí doložitelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
-| **Kanál pro oznamovatele** | Kdo si uvnitř porušení všiml, nemá je komu oznámit, aniž by nesl následky; mlčení uvnitř proto není dokladem, že se nic nedělo |
+{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
+|---|---|
+{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
+{% endfor %}
 
 ## Důvody, pro které je expozice vyloučena
 

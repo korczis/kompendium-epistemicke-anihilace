@@ -276,7 +276,7 @@ PENDING_ZERO = {"placeholder": 0, "technique-page": 0, "howto": 0, "drug-dose": 
                 "legitimate-indication": 0,
                 "detail": 199, "weak-link": 199,
                 "duplicate-passage": 281,
-                "duplicate-table": 256,  # measured on main 97fb3b3b; bold-label→short-value exempt
+                "duplicate-table": 249,  # measured on merged main c8394d3e after Přístupová úroveň removal; bold-label→short-value exempt
                 "access-level-row": 0,  # the row is derived from extra.access_level; 0 after removal
                 # safety, ADR 0013/0014: both reach 0 after the content lane's waves
                 "drug-name": 1, "authority-without-source": 0}  # 0 → never baselined (lands at 0 after 2e's slice)

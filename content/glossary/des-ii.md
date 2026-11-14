@@ -26,11 +26,14 @@ Používají ho především **klinici a výzkumníci** v psychiatrii, klinické
 
 ## Co měří
 
-Celkové skóre je průměr všech 28 položek (0–100). Faktorové analýzy v literatuře obvykle popisují tři oblasti:
+Celkové skóre je průměr všech 28 položek (0–100). Carlson a Putnam (1993) uvádějí, že faktorové analýzy
+dotazníku obvykle popisují tři oblasti disociativních zážitků:
 
-- **amnestická disociace** – mezery v paměti, nalezené věci, o jejichž původu člověk neví;
-- **[depersonalizace a derealizace](@/glossary/depersonalizace.md)** – odcizení od vlastního těla, myšlenek nebo okolí (viz [depersonalizace](@/glossary/depersonalizace.md));
-- **absorpce a imaginativní pohlcení** – ponoření do činnosti nebo fantazie se ztrátou kontaktu s okolím.
+| Oblast | Co zahrnuje |
+| --- | --- |
+| Amnestická disociace | mezery v paměti, nalezené věci, o jejichž původu člověk neví |
+| [Depersonalizace a derealizace](@/glossary/depersonalizace.md) | odcizení od vlastního těla, myšlenek nebo okolí |
+| Absorpce a imaginativní pohlcení | ponoření do činnosti nebo fantazie se ztrátou kontaktu s okolím |
 
 Z osmi položek, které nejlépe odlišují patologickou disociaci, sestavili Waller, Putnam a Carlsonová (1996) tzv. **DES-T** (taxon); používá se ve výzkumu k odhadu příslušnosti k patologické skupině.
 
@@ -40,12 +43,18 @@ V klinické literatuře se jako orientační hranice pro další vyšetření ne
 
 ## Meze interpretace
 
-- **Screening, ne diagnóza.** Falešně pozitivní i falešně negativní výsledky jsou běžné.
-- **Absorpce je v běžné populaci častá** – hluboké soustředění, čtení, hry –, a proto vysoké skóre v této oblasti samo o sobě nesvědčí o patologii.
-- **Sebeposouzení** závisí na vhledu, ochotě a porozumění položkám; u lidí s výraznou amnézií může být zkreslené oběma směry (viz [self-report](@/glossary/self-report.md)).
-- **Kulturní a jazykové vlivy**: v některých kulturách se disociativní zážitky prožívají a pojmenovávají jinak; překlady by měly být validované.
-- **Stav vs. rys**: DES-II se ptá na obecnou četnost, ne na stav v daný okamžik; akutní reakce po zátěži může skóre dočasně zvýšit.
-- **Nejde o měřítko manipulace.** Vysoké skóre po pobytu ve skupině s vysokou mírou kontroly nebo v násilném vztahu může souviset s expozicí, ale kauzální závěr z dotazníku nevyplývá.
+DES-II je screeningový nástroj, nikoli diagnóza: Carlson a Putnam (1993) zdůrazňují, že vyšší skóre má vést k
+podrobnějšímu klinickému vyšetření, a že falešně pozitivní i falešně negativní výsledky jsou běžné. Absorpce,
+tedy hluboké soustředění při čtení, hře nebo práci, je přitom v běžné populaci častá; Waller, Putnam a
+Carlson (1996) ukázali, že běžná absorpce a patologická disociace jsou odlišné typy zkušenosti, a vysoké
+skóre v oblasti absorpce proto samo o sobě o patologii nesvědčí.
+
+Dotazník se ptá na to, jak často člověk dané zážitky obvykle prožívá v běžném životě, nikoli na jeho stav v
+daném okamžiku, a jako každé sebeposouzení závisí na vhledu a ochotě vypovídat (Bernstein a Putnam, 1986); u
+lidí s výraznou amnézií může být zkreslený oběma směry (viz [self-report](@/glossary/self-report.md)).
+*Interpretace knihy*: dotazník také není měřítkem manipulace. Vysoké skóre po pobytu ve skupině s vysokou
+mírou kontroly nebo v násilném vztahu může souviset s expozicí, ale kauzální závěr z něj neplyne, protože
+dotazník podle Carlsona a Putnama (1993) zachycuje četnost zážitků, nikoli jejich příčinu.
 
 ## Význam pro Kompendium
 

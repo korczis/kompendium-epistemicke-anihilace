@@ -2,231 +2,137 @@
 title = "Red Team (červený tým)"
 aliases = ["/glossary/black-team/", "/glossary/color-teams/", "/glossary/gray-team/", "/glossary/white-team/", "/kompendium/glossary-bridges/bridge-black-team/", "/kompendium/glossary-bridges/bridge-color-teams/", "/kompendium/glossary-bridges/bridge-gray-team/", "/kompendium/glossary-bridges/bridge-white-team/"]
 weight = 19
-description = "Tým útočné simulace: pět primitiv epistemického útoku v izolovaném sandboxu se syntetickými daty slouží k ověření obrany."
+description = "Skupina, která hraje roli protivníka, aby prověřila plán, závěr nebo obranu: od válečných her přes kybernetickou bezpečnost po strukturované zpochybnění vlastního úsudku."
 
 [taxonomies]
-tags = ["glossary", "security", "agents"]
+tags = ["glossary", "security", "decision-making"]
 
 [extra]
 category = "security"
-related_terms = ["blue-team", "purple-team"]
-difficulty = "advanced"
-importance = "critical"
-platform_relevance = "core"
-date_created = "2025-06-15"
-date_updated = "2026-02-22"
-version = "3.0.0"
-audience = ["security-engineers", "platform-architects", "ai-safety-researchers", "compliance-officers"]
-prerequisites = ["epistemic-security"]
-domain = "security-operations"
-related_patterns = ["adversarial-synthesis", "sandbox-isolation", "attack-taxonomy", "campaign-orchestration", "epistemic-validation"]
-see_also = ["architecture/_index.md", "agents/_index.md", "technologies/_index.md", "capabilities/_index.md"]
-acronyms = ["OSINT", "CTF"]
-standards = ["MITRE-ATT&CK", "OWASP", "NIST-CSF", "ISO-27001"]
+related_terms = ["blue-team", "purple-team", "predbezna-pitva", "konfirmacni-bias"]
 author = "Tomas Korcak (korczis)"
-date_modified = "2026-11-10"
-keywords = ["Red", "Team", "Adversarial", "glossary", "security", "Red Team", "Purple Team"]
-image = "/images/sections/glossary.png"
-image_alt = "Red Team (červený tým) – glosář"
+date_created = "2025-06-15"
+date_modified = "2026-11-14"
+keywords = ["red team", "červený tým", "red teaming", "simulace protivníka", "alternativní analýza", "ďáblův advokát", "MITRE ATT&CK", "kritické myšlení"]
 +++
 
-## Definice a přehled
+## Definice
 
-Red Team (červený tým) je specializovaná jednotka bezpečnostního provozu, která provádí
-cvičení útočné simulace s cílem odhalit zranitelnosti, slabiny a způsoby selhání systémů,
-procesů a epistemické obrany. Pojem vychází z vojenských cvičení studené války, v nichž
-vyhrazená „červená“ síla simulovala taktiku nepřítele proti bránícím se „modrým“ silám,
-a vyvinul se v základní kámen moderní kybernetické bezpečnosti, bezpečnosti umělé
-inteligence a epistemické bezpečnosti. Epistemický red teaming rozšiřuje tuto tradici
-do oblasti [epistemické bezpečnosti](@/glossary/epistemic-security.md): cílem je integrita
-znalostních systémů, pipeline uvažování a rozhodovacích procesů, nejen síťová infrastruktura.
+**Red team** (červený tým) je skupina, která v cvičení nebo v posouzení hraje roli protivníka, aby prověřila
+plán, závěr nebo obranu dřív, než je prověří skutečný protivník. Britské ministerstvo obrany ve své příručce
+red teaming vymezuje jako nezávislé uplatnění strukturovaných, tvůrčích a kritických postupů myšlení, které
+mají pomoci tomu, kdo rozhoduje, učinit lépe informované rozhodnutí (UK Ministry of Defence, 2021).
 
-Jeho obranným protějškem je [Blue Team](@/glossary/blue-team.md) a zjištění obou stran
-spojuje [Purple Team](@/glossary/purple-team.md). Útočné simulace se vedou v sandboxu se
-syntetickými daty a bez přístupu do sítě, takže nemohou ovlivnit produkční systémy ani
-skutečná data.
+Podstatou pojmu je záměrně přijatý pohled zvenčí. Zenko (2015) popisuje red teaming jako způsob, jak
+instituce mohou překonat vlastní slepá místa: lidé uvnitř organizace sdílejí předpoklady, které nedokážou
+vidět, a red team je má za úkol odhalit tím, že myslí jako ten, kdo by organizaci chtěl porazit.
 
-Rozdíl mezi tradičním a epistemickým red teamingem je zásadní. Tradiční Red Teamy útočí na
-síťovou infrastrukturu, aplikace a fyzické bezpečnostní perimetry. Epistemické Red Teamy cílí na integritu vzniku přesvědčení, hodnocení
-důkazů a kalibraci důvěry – oblasti, kde jemná manipulace může mít nepřiměřeně velký dopad na
-chování systému, aniž by spustila běžné bezpečnostní poplachy.
+## Původ a kontext pojmu
 
-| Hledisko | Tradiční Red Team | Epistemický Red Team |
-|--------|--------------------|--------------------|
-| **Cíl** | síťová infrastruktura, aplikace | znalostní systémy, pipeline uvažování |
-| **Útočná plocha** | porty, API, autentizace | zdroje důkazů, skóre důvěry, vznik přesvědčení |
-| **Primitiva** | exploit, pivot, exfiltrace, perzistence | zkreslení, manipulace, otrávení, navození posunu, únos pozornosti |
-| **Měřítko úspěchu** | kompromitace systému | zhoršení epistemické integrity |
-| **Bezpečnostní opatření** | síťová izolace | sandbox + syntetická data + nulová síť |
-| **Integrace** | samostatná posouzení | nepřetržitá smyčka syntézy s Purple Teamem |
+Pojem pochází z vojenských válečných her, v nichž „červená“ strana simulovala nepřítele proti „modré“
+straně, která se bránila. Zenko (2015) sleduje, jak se tato praxe přenesla z armády do zpravodajských služeb,
+kde slouží k alternativní analýze a ke zpochybňování převládajících odhadů, a odtud do bezpečnosti, podnikání
+a veřejné správy.
 
-Pět primitiv útočné simulace je užitečnou mřížkou i pro rozpoznání útoků na lidské poznání –
-každé má v knize obdobu, popsanou vždy s detekcí a obranou.
+V informační bezpečnosti se red teaming stal součástí standardního hodnocení. Příručka NIST k technickému
+testování bezpečnosti popisuje penetrační testy a jim příbuzné postupy, které napodobují útočníka (Scarfone a
+kol., 2008), a katalog bezpečnostních opatření NIST uvádí cvičení red teamu jako jedno z opatření, jimiž
+organizace ověřuje, zda její ochrana obstojí proti reálným útokům (NIST, 2020). Strom a kolegové (2018)
+popisují, jak katalog MITRE ATT&CK dává red teamu společný slovník, v němž lze simulované chování
+protivníka zapsat technika po technice.
 
-## Pět primitiv epistemického útoku
+## Jak se projevuje
 
-Operace Red Teamu jsou postaveny kolem pěti základních primitiv útoku, která pokrývají celé
-spektrum epistemické manipulace. Primitiva byla odvozena z analýzy historických epistemických
-selhání systémů umělé inteligence, zpravodajské analýzy a platforem pro podporu rozhodování
-a představují minimální úplnou sadu potřebnou k modelování útočného chování proti znalostním
-systémům.
+V bezpečnostní praxi se red teaming projevuje jako emulace protivníka: red team provede techniky, které by
+použil skutečný útočník, a zjišťuje, kde obrana selže (Strom a kol., 2018). Od běžného testu se liší tím, že
+neověřuje jednotlivou zranitelnost, ale schopnost organizace odhalit a zastavit celý postup útoku.
 
-**1. Zkreslení pravdy** (*Truth Distortion*): úprava faktického obsahu informačních zdrojů,
-která do nich vnáší nepřesnosti. Patří sem jemné změny, které projdou povrchním ověřením, ale
-poškodí navazující uvažování. Nejúčinnější jsou zkreslení, která využívají mezeru mezi
-syntaktickou platností a sémantickou správností. Například úprava
-výpočtu bezpečnostního hodnocení o 2 % – dost malá, aby nespustila prahové výstrahy, ale
-dostatečná, aby při agregaci přes více datových bodů posunula hranici známky z B na C.
+V analytické práci se red teaming projevuje jako strukturované zpochybnění závěru. Britská příručka popisuje
+postupy, jako je hledání alternativních vysvětlení, kontrola klíčových předpokladů nebo pohled očima
+protivníka, které mají odhalit, kde se úsudek opírá o nevyslovené domněnky (UK Ministry of Defence, 2021).
+Nově se red teaming uplatňuje i u systémů umělé inteligence: Ganguli a kolegové (2022) popisují, jak se
+jazykové modely záměrně zkoušejí útočnými dotazy, aby se jejich slabiny našly dřív, než je využije někdo jiný.
 
-**2. Manipulace důvěry** (*Confidence Manipulation*): nadsazení nebo podhodnocení skóre důvěry
-spojených s přesvědčeními nebo důkazy beze změny podkladových faktů. Útok využívá systémy,
-které rozhodují podle prahů důvěry, a posouvá hraniční rozhodnutí přes prahové hranice.
+## Mechanismus
 
-**3. Otrávení signálů** (*Signal Poisoning*): vkládání nepravdivých nebo zavádějících signálů
-do toků důkazů, které poškozuje požadavek [plurality
-signálů](@/glossary/intelligence-fusion.md), podle něhož má přesvědčení vzniknout až
-z nejméně dvou nezávislých signálů. Otrávené signály se tváří, že
-pocházejí z nezávislých zdrojů, a podkopávají požadavek plurality tím, že z jediného útočného
-původu vytvářejí zdání potvrzení z více zdrojů.
+Mechanismus red teamingu spočívá v tom, že nesouhlas dostane legitimní místo. Janis (1972) ukázal, že
+soudržné skupiny pod tlakem na shodu potlačují pochybnosti, a doporučil pověřit někoho rolí ďáblova advokáta;
+red team je institucionální podobou téhož principu, protože jeho úkolem je najít slabinu, nikoli potvrdit
+plán.
 
-**4. Navození posunu** (*Drift Induction*): zavádění podprahových změn, které jednotlivě
-projdou detekcí, ale společně v čase posunou chování systému. Rozhodující je kaskádové šíření –
-jak se malá narušení sčítají v propojených systémech. Navození posunu je obzvlášť nebezpečné, protože každá jednotlivá změna je v mezích
-běžného rozptylu, takže detekce závisí na sledování kumulativní odchylky, ne jednotlivých anomálií.
+Aby mechanismus fungoval, musí být red team nezávislý a jeho zjištění musí mít váhu. Zenko (2015) popisuje
+případy, kdy red team selhal proto, že byl podřízen těm, jejichž plán měl prověřit, nebo proto, že jeho
+zjištění vedení odbylo. Nemeth, Brown a Rogers (2001) navíc ukázali, že nesouhlas přidělený jako role
+podněcuje uvažování méně než nesouhlas skutečný, a red team proto potřebuje lidi, kteří problém skutečně
+vidí jinak.
 
-**5. Únos výraznosti** (*Salience Hijacking*): manipulace tím, které informace dostanou
-v procesech uvažování pozornost. Zvýrazněním irelevantních signálů nebo potlačením kritických
-poškozuje únos výraznosti stanovení priorit, aniž by měnil podkladová data. Primitivum míří na
-mechanismy pozornosti automatizovaných systémů i lidských analytiků a využívá omezenou
-kapacitu procesů uvažování.
+## Odlišení
 
-Lidské obdoby, které kniha rozebírá: zkreslení pravdy odpovídá [gaslightingu](@/glossary/gaslighting.md),
-otrávení signálů koordinovanému zdání shody ([Firehose of
-Falsehood](@/glossary/firehose-of-falsehood.md), boti), navození posunu postupné eskalaci
-v kultovní konverzi ([sektářská konverze](@/glossary/sektarska-konverze.md)) a únos výraznosti
-[EA-1.1.1 Selektivní expozici](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md).
+| Odlišit od | Rozdíl |
+| --- | --- |
+| [Blue team](@/glossary/blue-team.md) | obranná strana, kterou red team prověřuje |
+| [Purple team](@/glossary/purple-team.md) | spolupráce útočné a obranné strany nad týmiž zjištěními |
+| Penetrační test | ověřuje zranitelnosti určitého systému; red teaming prověřuje schopnost organizace odhalit a zastavit celý útok |
+| Ďáblův advokát | jeden člověk pověřený hájit opačné stanovisko; red team je samostatná skupina se strukturovanými postupy |
+| [Předběžná pitva](@/glossary/predbezna-pitva.md) | provádí ji tatáž skupina, která plán připravila; red team plán napadá zvenčí |
 
-## Taxonomie útoků
+## Význam pro Kompendium
 
-Red Team vede ucelenou taxonomii útočných scénářů uspořádanou podle primitiva útoku, cílového
-subsystému a úrovně složitosti. Taxonomie slouží zároveň jako testovací rámec a jako znalostní
-báze známých vzorců epistemických útoků.
+V Kompendiu se red teaming objevuje především v analytickém smyslu, jako ochrana závěru před konfirmačním
+zkreslením. Stránky [prevence konfirmačního zkreslení](@/kompendium/cross-domain/16-ea-dd-confirmation-bias-prevention.md)
+a [zkreslení při vyšetřování](@/kompendium/cross-domain/9-ea-dd-investigation-bias.md) uvádějí red team jako
+skupinu, která má za úkol formulovat nejsilnější případ proti vlastnímu závěru, a stránka o [regulatorním
+zajetí](@/kompendium/cross-domain/30-ea-compliance-regulatory-capture-detection.md) ho doporučuje u zásadních
+rozhodnutí regulátora. *Interpretace knihy*: všechna tři užití stojí na Janisově (1972) pozorování, že skupina
+bez legitimního nesouhlasu přestává vidět vlastní chyby.
 
-Taxonomie není statická: průběžně se rozšiřuje podle nových hrozeb a skutečných vzorců
-epistemických útoků pozorovaných v komunitách kybernetické bezpečnosti a bezpečnosti umělé
-inteligence.
+Druhé užití se týká bezpečnosti a informačních operací, kde kniha red teaming uvádí jako způsob, jak prověřit
+odolnost organizace vůči útoku na její pověst nebo dodavatelský řetězec. *Interpretace knihy*: rozdíl mezi
+red teamingem a útokem netkví v technice, ale v souhlasu, vymezeném rozsahu a v tom, že výsledek slouží
+obraně (Ganguli a kol., 2022).
 
-## Architektura izolace v sandboxu
+## Obrana a zotavení
 
-Všechny operace Red Teamu běží uvnitř izolační hranice sandboxu. Architektura zajišťuje, že útočné simulace nemohou ovlivnit produkční systémy, skutečná data ani vnější
-sítě. Sandbox vynucuje tři invarianty: jen syntetická data, nulový přístup do sítě a neměnné
-auditní logování.
+Legitimní red teaming má podmínky, které ho odlišují od útoku. Britská příručka zdůrazňuje, že red team
+pracuje pro toho, kdo rozhoduje, na jeho žádost a v dohodnutém rozsahu, a že jeho zjištění patří tomu, kdo ho
+pověřil (UK Ministry of Defence, 2021). Kde chybí souhlas, vymezený rozsah a příjemce výsledků, nejde o red
+teaming, ale o útok, a to i tehdy, když se tak sám nazývá.
 
-Izolace v sandboxu není jen osvědčený postup – je to nepodkročitelný bezpečnostní požadavek
-vynucovaný na úrovni infrastruktury. I přístup do sítě „jen pro čtení“ by mohl prozradit
-informace o útočných schopnostech nebo vnitřní struktuře testovaného systému. Interval
-etických kontrol zajišťuje, že automatizované etické ověření běží během aktivních operací každých 10 sekund
-a brání tomu, aby se útočné myšlení rozšířilo do skutečně škodlivého území.
+Na tento rozdíl se lze ptát i v běžném životě. Mitnick a Simon (2002) popisují, jak útočníci využívají
+předstírání oprávněné role, například údajného testu bezpečnosti nebo kontroly, k získání přístupu nebo
+informací. *Interpretace knihy*: kdo tvrdí, že „jen testuje odolnost“ člověka nebo skupiny, má umět doložit,
+kdo ho k tomu pověřil a v jakém rozsahu; bez toho je tvrzení samo varovným znakem.
 
-## Provádění kampaní
+## Meze pojmu a kritika
 
-Operace Red Teamu se organizují do kampaní – strukturovaných sledů útočných scénářů navržených
-k testování konkrétních aspektů obrany. Kampaně dávají organizační rámec testování
-o více scénářích a vytvářejí strukturovaná zjištění, která [Purple Team](@/glossary/purple-team.md)
-využívá k syntéze útoku a obrany.
+Red teaming může selhat a stát se jen formalitou. Zenko (2015) ukazuje, že organizace někdy red team zřídí,
+aby mohla tvrdit, že plán byl prověřen, a jeho zjištění pak nebere vážně; takový red team vytváří falešný
+dojem jistoty, který je horší než jeho absence.
 
-## Bezpečnostní protokoly
+Druhou mezí je, že red team může prověřit jen to, co si dokáže představit. Strom a kolegové (2018)
+upozorňují, že katalog chování protivníka zachycuje chování, které už někdo zaznamenal, a cvičení red teamu
+proto ověřuje odolnost vůči známému, nikoli vůči všemu možnému. *Interpretace knihy*: úspěšně prověřený plán
+je plán, který obstál proti představeným protivníkům, nikoli plán bez slabin.
 
-Red Team pracuje pod přísnými bezpečnostními protokoly, které nelze vyjednávat ani obejít.
-Vynucují se na několika vrstvách – v kódu, v infrastruktuře a organizačně –, aby vznikla
-hloubková obrana proti porušení bezpečnostních hranic.
+## Literatura
 
-| Protokol | Vynucení | Ověření |
-|----------|-------------|-------------|
-| **Izolace v sandboxu** | všechny operace jen uvnitř sandboxu | kontroly při kompilaci a za běhu |
-| **Jen syntetická data** | žádná skutečná data, žádné osobní údaje, žádný produkční stav | ověření zdroje dat při každé operaci |
-| **Nulový přístup do sítě** | operace Red bez síťového připojení | pravidla firewallu + ověření za běhu |
-| **Etické kontroly** | automatizované ověření každých 10 sekund | periodický časovač s eskalací při selhání |
-| **Eskalační stráže** | nezávislá stráž brání rozšiřování rozsahu | bezpečnostní role s pravomocí operaci zastavit |
-| **Auditní logování** | neměnná auditní stopa každé operace | log jen pro připisování s ověřením integrity |
-| **Časové limity** | kampaň nejvýše 1 hodina | vynucení časovačem s automatickým ukončením |
-| **Jen oprávněný kontext** | CTF, obranný výzkum, autorizované testování | ověření kontextu při zahájení kampaně |
-
-Bezpečnostní protokoly vycházejí z předpokladu, že útočné myšlení vytváří kognitivní rizika
-i v kontextu simulace. Kadence etických kontrol (každých 10 sekund) je záměrně častá, aby
-zabránila postupné normalizaci stále agresivnějších vzorců útoku. Eskalační stráž má nezávislou
-pravomoc zastavit kteroukoli operaci Red Teamu, která vykazuje známky rozšiřování mimo hranice
-testování epistemické bezpečnosti.
-
-Kompendium tento princip přebírá pro vlastní obsah: mechanismy se popisují jen jako
-rozpoznatelné vzorce spolu s detekcí a obranou, nikdy jako postup (viz [1.3 Etické aspekty
-a upozornění](@/kompendium/01-predmluva/eticke-aspekty.md) a [Dual Use](@/kompendium/08-prilohy/dual-use.md)).
-
-## Osvědčené postupy
-
-1. **Vždy v sandboxu**: nikdy nespouštět útočné scénáře mimo izolační hranici, bez ohledu na
-   zdánlivou bezpečnost. Jediný chybně nastavený scénář může poškodit produkční data nebo
-   prozradit vnitřní strukturu vnějším pozorovatelům.
-2. **Výhradně syntetická data**: generovat realistická, ale zcela syntetická testovací data.
-   Použití anonymizovaných produkčních dat hrozí reidentifikací a vnáší skutečné důsledky,
-   které porušují mandát „jen simulace“.
-3. **Strukturovaná zjištění**: každé zjištění dokumentovat s ID scénáře, důkazy, posouzením
-   dopadu, dobou detekce a použitelnými doporučeními. Nestrukturovaná zjištění vytvářejí šum
-   bez zlepšení.
-4. **Napojení na Purple Team**: všechna zjištění směrovat přes syntézu [Purple
-   Teamu](@/glossary/purple-team.md), ne přímo inženýrům. Purple Team zasadí zjištění do
-   kontextu existujících obran a brání zdvojeným nápravám.
-5. **Kadence etických kontrol**: během aktivních operací udržovat automatizované etické
-   ověření každých 10–15 sekund. Brání to přesahu útočného myšlení do skutečně škodlivého území.
-6. **Stupňovaná složitost**: začínat kampaně základními scénáři a eskalovat ke složeným útokům.
-   Tím se ověří základní obrany dřív, než se testují sofistikované útoky z více primitiv.
-7. **Úplnost auditní stopy**: každá operace Red Teamu musí vytvořit neměnný auditní záznam.
-   Mezery v auditu vytvářejí slepá místa odpovědnosti a podkopávají integritu bezpečnostního
-   programu.
-8. **Aktuálnost taxonomie**: taxonomii útoků revidovat a aktualizovat nejméně jednou měsíčně.
-   Nové funkce testovaného systému vytvářejí nové útočné plochy, které existující scénáře
-   nemusí pokrývat.
-
-## Časté chyby
-
-- **Rozšiřování rozsahu**: útočné myšlení se může posunout od testování obrany k vývoji
-  skutečných útočných schopností. Přísné eskalační stráže tomuto přechodu brání. Hranice mezi
-  „testováním obrany“ a „vývojem útoku“ vyžaduje trvalou bdělost.
-- **Falešná jistota z ubráněných výsledků**: scénář klasifikovaný jako „ubráněný“ dokazuje jen
-  to, že byl zablokován konkrétní vektor útoku. Varianty mohou uspět. Složené scénáře testují
-  robustnost obrany vůči novým kombinacím, které jednotlivé základní scénáře odhalit nemohou.
-- **Přehlížení podprahových zjištění**: částečná obejití a těsná minutí často ukazují na
-  závažnější zranitelnosti než čistá selhání. Analytik uzavření v Purple Teamu cíleně sleduje
-  vzorce v dílčích výsledcích, které naznačují systémové slabiny.
-- **Porušení síťové izolace**: i přístup do sítě „jen pro čtení“ může prozradit informace
-  o útočných schopnostech nebo vnitřní architektuře. Nulový přístup do sítě je pro útočné
-  operace nepodkročitelný.
-- **Zastarávání taxonomie**: taxonomie útoků vyžadují průběžnou aktualizaci, jak se testovaný
-  systém vyvíjí. Nové funkce vytvářejí nové útočné plochy. Taxonomie je živý dokument,
-  ne pevná reference.
-- **Předčasné ukončení kampaně**: zastavení kampaně po prvních „ubráněných“ výsledcích vynechá
-  stupňovanou složitost, kterou složené scénáře přinášejí. Plán kampaně je třeba vždy dokončit.
-
-## Historický kontext a vývoj v odvětví
-
-Red teaming má kořeny ve vojenské strategii studené války, kdy se jednotky simulující
-protivníka označovaly „červeně“. Do kybernetické bezpečnosti se praxe dostala přes vojenskou
-a zpravodajskou komunitu v 90. letech, do hlavního proudu ji uvedla publikace NIST SP 800-115
-(*Technical Guide to Information Security Testing and Assessment*) a dále se vyvinula se
-systematickým katalogem taktik, technik a postupů protivníka v rámci MITRE ATT&CK.
-
-Rozšíření red teamingu na epistemickou bezpečnost je novější vývoj. Jak se systémy umělé
-inteligence stále víc podílejí na rozhodování, rozšiřuje se útočná plocha za tradiční
-infrastrukturu na znalostní systémy, pipeline uvažování a mechanismy kalibrace důvěry, na
-které se umělá inteligence spoléhá. Epistemický red teaming na tuto rozšířenou útočnou plochu
-odpovídá pěti primitivy útoku a jejich systematickou taxonomií.
+- Ganguli, D., a kol. (2022). *Red teaming language models to reduce harms: Methods, scaling behaviors, and lessons learned*. arXiv:2209.07858.
+- Janis, I. L. (1972). *Victims of Groupthink*. Boston: Houghton Mifflin.
+- Mitnick, K. D., & Simon, W. L. (2002). *The Art of Deception: Controlling the Human Element of Security*. Indianapolis: Wiley.
+- Nemeth, C., Brown, K., & Rogers, J. (2001). *Devil's advocate versus authentic dissent: Stimulating quantity and quality*. European Journal of Social Psychology, 31(6).
+- NIST. (2020). *Security and Privacy Controls for Information Systems and Organizations* (SP 800-53 Rev. 5). Gaithersburg: National Institute of Standards and Technology.
+- Scarfone, K., Souppaya, M., Cody, A., & Orebaugh, A. (2008). *Technical Guide to Information Security Testing and Assessment* (NIST SP 800-115). Gaithersburg: National Institute of Standards and Technology.
+- Strom, B. E., a kol. (2018). *MITRE ATT&CK: Design and Philosophy*. MITRE.
+- UK Ministry of Defence. (2021). *Red Teaming Handbook* (3rd ed.). Shrivenham: Development, Concepts and Doctrine Centre.
+- Zenko, M. (2015). *Red Team: How to Succeed by Thinking Like the Enemy*. New York: Basic Books.
 
 ## Související
 
-- [Blue Team](@/glossary/blue-team.md) – obranný protějšek, který přijímá zjištění Red.
-- [Purple Team](@/glossary/purple-team.md) – syntetický uzel uzavírání smyčky Red–Blue.
-- [Epistemická bezpečnost](@/glossary/epistemic-security.md) – oblast, kterou útočná
-  simulace testuje.
+- [Blue Team](@/glossary/blue-team.md) – obranný protějšek, kterého red team prověřuje.
+- [Purple Team](@/glossary/purple-team.md) – spolupráce útočné a obranné strany.
+- [Předběžná pitva](@/glossary/predbezna-pitva.md) – vnitřní protějšek red teamu.
+- [Konfirmační bias](@/glossary/konfirmacni-bias.md) – zkreslení, proti němuž red team v analýze slouží.
+- [Epistemická bezpečnost](@/glossary/epistemic-security.md) – oblast, kterou útočná simulace testuje.
 
 ---
 

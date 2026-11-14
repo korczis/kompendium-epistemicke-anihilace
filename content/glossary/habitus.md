@@ -26,12 +26,15 @@ Bourdieu pojmem chtěl překonat protiklad mezi výkladem jednání čistě ze s
 
 ## Jak se projevuje
 
-Habitus je vidět hlavně ve chvíli, kdy člověk změní prostředí:
+Habitus je vidět hlavně ve chvíli, kdy člověk změní prostředí. Bourdieu (1979) popisuje, že lidé z
+prostředí, jemuž je určité sociální pole vlastní, se v něm pohybují se samozřejmou lehkostí, vědí, jak
+mluvit, oblékat se nebo se ptát, zatímco ti, kdo do pole přišli odjinud, to pracně dohánějí a mají pocit,
+že sem nepatří, i když formálně splňují všechny podmínky. Vkus a úsudky, které se jeví jako osobní, podle
+něj odpovídají sociální pozici, z níž vzešly (Bourdieu, 1979).
 
-- pocit „nepatřím sem“ v novém sociálním poli, i když formálně všechny podmínky splňuje;
-- samozřejmost, s níž lidé z jednoho prostředí vědí, jak mluvit, oblékat se nebo se ptát, zatímco jiní to pracně dohánějí;
-- vkus a úsudky, které se zdají osobní, ale odpovídají sociální pozici;
-- **sebevyloučení**: člověk se nepřihlásí, nezeptá, nepromluví, protože „to není pro mě“ – aniž by mu to někdo zakázal.
+Nejnenápadnějším projevem je sebevyloučení: člověk se nepřihlásí, nezeptá a nepromluví, protože „to není
+pro něj“, aniž by mu to kdokoli zakázal. Bourdieu (1980) tento jev vykládá tak, že habitus přizpůsobuje
+očekávání objektivním šancím, takže lidé sami odmítají to, co jim jejich postavení stejně odpírá.
 
 ## Mechanismus
 
@@ -43,10 +46,12 @@ Pro Kompendium je podstatné, že **uzavřené skupiny vytvářejí vlastní hab
 
 ## Odlišení
 
-- **Zvyk** je jednotlivý opakovaný úkon; habitus je generativní systém, z něhož vznikají stále nové praxe.
-- **[Introjekce](@/glossary/introjekce.md)** je psychologický mechanismus převzetí cizích obsahů; habitus je sociologický pojem pro celkové dispozice vzniklé v prostředí.
-- **[Diskursivní formace](@/glossary/diskursivni-formace.md)** (Foucault) určuje, co lze říci; habitus určuje, jak člověk jedná a co vnímá jako samozřejmé.
-- **[Embodied cognition](@/glossary/embodied-cognition.md)** je kognitivněvědní přístup k vtělenosti mysli; habitus zdůrazňuje sociální původ vtělených dispozic.
+| Odlišit od | Rozdíl |
+| --- | --- |
+| Zvyk | jednotlivý opakovaný úkon; habitus je generativní systém, z něhož vznikají stále nové praxe |
+| [Introjekce](@/glossary/introjekce.md) | psychologický mechanismus převzetí cizích obsahů; habitus je sociologický pojem pro celkové dispozice vzniklé v prostředí |
+| [Diskursivní formace](@/glossary/diskursivni-formace.md) (Foucault) | určuje, co lze říci; habitus určuje, jak člověk jedná a co vnímá jako samozřejmé |
+| [Embodied cognition](@/glossary/embodied-cognition.md) | kognitivněvědní přístup k vtělenosti mysli; habitus zdůrazňuje sociální původ vtělených dispozic |
 
 ## Význam pro Kompendium
 

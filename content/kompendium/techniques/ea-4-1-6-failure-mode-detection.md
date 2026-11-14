@@ -60,6 +60,7 @@ Detekce režimů selhání je bez vnější kontroly prázdná: slabé signály 
 |---|---|
 {% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
 {% endfor %}
+
 ## Vylučující okolnosti detekce
 
 Detekce režimů selhání zde není popsána jako výkon, k němuž by článek dával oprávnění; žádný legitimní rámec pro ni pojmenován není. Přípustnost uspořádání, v němž by k něčemu takovému docházelo, je předmětem výzkumné etiky — Emanuel, Wendler a Grady (2000) vypisují požadavky vážící zřizovatele a jeho nezávislý přezkum, nikoli čtenáře — a posuzují ji komise, o nichž mluví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md). Následující okolnosti říkají, kdy je expozice vyloučena bez ohledu na to, jak dobře je detekce nastavena.

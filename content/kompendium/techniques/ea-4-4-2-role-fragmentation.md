@@ -58,6 +58,7 @@ Rozdělení rolí do oddělených hodnotících os se udrží jen tam, kde je ni
 |---|---|
 {% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
 {% endfor %}
+
 ## Vylučující okolnosti
 
 Oddělování rolí jednoho člověka není na této stránce opatřeno žádným oprávněným použitím: kompendium takové výčty nevede a o přípustnosti rozhoduje [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md). Dále jsou pojmenovány okolnosti, které expozici vylučují, a důvod, proč vylučují.

@@ -58,6 +58,7 @@ Pojistky níže jsou uvedeny proto, že u odvolatelnosti souhlasu je rozpoznatel
 |---|---|
 {% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
 {% endfor %}
+
 ## Okolnosti, které vylučují expozici
 
 Kompendium u odvolání souhlasu nevypisuje žádný výčet oprávněných užití a nenabízí kontext, v němž by expozice tohoto druhu byla přípustná; o přípustnosti rozhodují [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md), nikoli tato stránka. Níže uvedené okolnosti jsou důvody, pro které expozice nepřichází v úvahu.

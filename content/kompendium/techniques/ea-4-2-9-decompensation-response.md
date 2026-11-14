@@ -58,6 +58,7 @@ Krizovou odpověď stránka nikomu nepovoluje ani nepředepisuje; pojistky jsou 
 |---|---|
 {% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
 {% endfor %}
+
 ## Okolnosti, které krizovou odpověď vylučují
 
 Kompendium nevypisuje, kdy je zásah do člověka v akutní dekompenzaci oprávněný, a tato stránka takový výčet nenabízí; o přípustnosti čehokoli podobného rozhodují [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md), nikoli popis vzorce na této stránce. Níže stojí okolnosti, za nichž je expozice vyloučena, a důvod, proč každá z nich vylučuje.

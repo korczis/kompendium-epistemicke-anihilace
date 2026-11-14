@@ -58,6 +58,7 @@ Rekonstruovaný příběh bez níže shrnutých pojistek je rozpoznatelný podle
 |---|---|
 {% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
 {% endfor %}
+
 ## Vylučující okolnosti rekonstrukční fáze
 
 Kompendium nevyjmenovává prostředí, v nichž by rekonstrukce životního příběhu druhého člověka byla přípustná; takový výčet by zastíral, že autorství příběhu patří jeho nositeli. Otázku přípustnosti posuzuje [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md), nikoli tento přehled. Následují okolnosti, za nichž je rekonstrukční fáze vyloučena, a proč vylučují.

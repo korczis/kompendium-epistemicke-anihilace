@@ -62,6 +62,7 @@ Rotaci supervizorů ani její vynechání stránka nenařizuje; pojmenovává je
 |---|---|
 {% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
 {% endfor %}
+
 ## Okolnosti, které takové supervizní uspořádání vylučují
 
 O tom, kdy je uspořádání s jediným nerotujícím supervizorem ještě obhajitelné, tato stránka nerozhoduje a žádný takový případ nevypisuje. Přípustnost zátěžového výzkumu i zátěžové intervence posuzuje výzkumná etika a nároky, které pro ni formulovali Emanuel, Wendler a Grady (2000), dopadají na instituci, na nezávislý přezkum a na poměr přínosu a rizika v konkrétním protokolu; na toho, kdo závislostní vzorec rozpoznává, nedopadají vůbec. Stránka proto k rotaci neopravňuje ani ji nepředepisuje a rámec tohoto čtení stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).

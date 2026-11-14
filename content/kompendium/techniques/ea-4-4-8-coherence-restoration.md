@@ -58,6 +58,7 @@ Obnovu koherence stránka neschvaluje ani nepředepisuje; pojistky uvádí proto
 |---|---|
 {% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
 {% endfor %}
+
 ## Vylučující okolnosti rekonstrukční fáze
 
 Kdy je obnova koherence legitimním cílem, se zde neurčuje: kompendium takový výčet neposkytuje a posouzení odkazuje na [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md). Tato část proto uvádí jen okolnosti, za nichž je rekonstrukční expozice vyloučena.

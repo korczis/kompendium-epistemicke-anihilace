@@ -62,6 +62,7 @@ Takto doloženou způsobilost stránka neuděluje ani nedoporučuje; jmenuje pou
 |---|---|
 {% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
 {% endfor %}
+
 ## Co vylučuje postup do fáze zvládnutí
 
 Prostředí, v němž by bylo dovedení člověka do fáze prokazovaného zvládnutí oprávněné, kniha nevypisuje a vypsat je nemůže. Co musí splnit uspořádání, aby se dalo považovat za eticky obhajitelné, popisují Emanuel, Wendler a Grady (2000); jejich čtyři požadavky míří na ty, kdo uspořádání zřizují a posuzují, a uplatňující z nich pro sebe oprávnění nezíská. Souhlas odvolatelný bez sankce je rovněž podmínkou uspořádání, ne vlastností výcviku (Faden a Beauchamp, 1986). Přípustnost čehokoli takového posuzuje nezávislý etický přezkum ([IRB review](@/glossary/irb-review.md)) a mez stanovuje [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md), nikoli popis vzorce. Následují okolnosti, které postup vylučují, a důvod u každé z nich.

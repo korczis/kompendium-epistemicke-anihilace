@@ -60,6 +60,7 @@ Návrat do běžných rolí probíhá postupně a jeho průběh je pozorovateln�
 |---|---|
 {% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
 {% endfor %}
+
 ## Co vylučuje vedenou reintegrační fázi
 
 Kniha nejmenuje poměry, za nichž by byla vedená reintegrace po skončení expozice oprávněná, a tato stránka takový soupis nenahrazuje. Emanuel, Wendler a Grady (2000) popisují, co se žádá od uspořádání, které chce být eticky obhajitelné; nárok leží na uspořádání a jeho nezávislém přezkumu, ne na čtenáři, a žádné z těch kritérií nelze obrátit v oprávnění vést fázi návratu po zásahu. Souhlas, který je možné kdykoli odvolat bez sankce, patří k témuž souboru podmínek (Faden a Beauchamp, 1986). Přípustnost posuzuje nezávislá etická instance; měřítko podávají [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a výčet mezí [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md). Dále stojí jen okolnosti, které reintegrační fázi vylučují, a důvod u každé.

@@ -60,6 +60,7 @@ Kritéria ukončení uvádí kompendium proto, že jejich chybění je samo zjis
 |---|---|
 {% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
 {% endfor %}
+
 ## Co vylučuje expozici s předem určeným koncem
 
 Tato stránka neuvádí situaci, v níž by byla sekvence s takto nastaveným koncem oprávněná, protože takový výčet by byl návodem k jejímu zřízení. Emanuel, Wendler a Grady (2000) shrnují, co se od eticky obhajitelného uspořádání žádá; jde o nároky vůči tomu, kdo uspořádání nese a kdo je přezkoumává, nikoli o doklad, jímž by se jednotlivý zásah legitimoval. Přípustnost posuzuje etická instance, nikoli popis vzorce; mez vymezují [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a závazek sepsaný v [etickém kodexu](@/kompendium/08-prilohy/eticky-kodex.md). Zbývá soupis okolností, za nichž je expozice vyloučena, s uvedeným důvodem.

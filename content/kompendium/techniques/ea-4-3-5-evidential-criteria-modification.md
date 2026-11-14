@@ -60,6 +60,7 @@ Posouvání cizích kritérií stránka nepředepisuje ani neospravedlňuje; nab
 |---|---|
 {% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
 {% endfor %}
+
 ## Okolnosti, za nichž je expozice vyloučena
 
 Posun evidenčních kritérií kniha nepředkládá jako nástroj, který by někde směl být použit, a žádný přípustný kontext neuvádí; co je zde eticky myslitelné, vymezují [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md). Uvedené okolnosti expozici vylučují.

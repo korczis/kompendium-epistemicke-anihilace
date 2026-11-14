@@ -62,6 +62,7 @@ Tam, kde se narušuje stabilita pojmů, je absence těchto pojistek sama náleze
 |---|---|
 {% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
 {% endfor %}
+
 ## Vylučující okolnosti
 
 Žádné legitimní užití narušení sémantické stability tato kniha nevyjmenovává: seznam přípustných kontextů by čtenáři dodal ospravedlnění zásahu do pojmového ukotvení druhého člověka. Otázku přípustnosti řeší [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md), ne tato stránka. Co zde stojí, jsou okolnosti vylučující expozici spolu s důvodem, proč vylučují.

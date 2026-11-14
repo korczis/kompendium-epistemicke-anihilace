@@ -60,6 +60,7 @@ U integrační fáze je nepřítomnost níže uvedených pojistek sama rozpoznat
 |---|---|
 {% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
 {% endfor %}
+
 ## Co integrační fázi vylučuje
 
 Žádnou legitimní podobu integrační fáze tento článek nevymezuje. Otázka, zda je takové uspořádání obhajitelné, patří do výzkumné etiky: Emanuel, Wendler a Grady (2000) formulují nezávislý přezkum, příznivý poměr přínosu a rizika, spravedlivý výběr účastníků a informovaný souhlas jako podmínky, které musí splnit uspořádání samo — nikoli jako oprávnění pro toho, kdo o nich čte. Rozhodují o nich orgány, k nimž vede [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) a [supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md). Stránka proto nic nepovoluje ani nezakazuje; uvádí okolnosti, za nichž je práce s výkladem zkušenosti vyloučena.

@@ -58,6 +58,7 @@ Narušení časového sebevztahu stránka nepředepisuje; pojistky shrnuje proto
 |---|---|
 {% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
 {% endfor %}
+
 ## Okolnosti, které vylučují expozici
 
 Narušení časového sebevztahu nemá v této knize vyjmenovaný legitimní kontext: popsat podmínky, za nichž je přípustné, znamená dát čtenáři oprávnění je vyvolat. Přípustnost posuzují [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a tam uvedené meze, ne tato stránka. Níže stojí okolnosti vylučující expozici, u každé s uvedeným důvodem.

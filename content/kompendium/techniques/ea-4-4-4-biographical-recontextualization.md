@@ -58,6 +58,7 @@ Přeznačení životního příběhu bez těchto pojistek se pozná právě podl
 |---|---|
 {% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
 {% endfor %}
+
 ## Okolnosti, které přeznačení vylučují
 
 Oprávněné užití biografického přeznačení tato stránka nevymezuje, protože kompendium žádné nevypočítává; hranice přípustnosti stanoví [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) nezávisle na tom, co o vzorci říká tento článek. Následuje výhradně přehled vylučujících okolností.

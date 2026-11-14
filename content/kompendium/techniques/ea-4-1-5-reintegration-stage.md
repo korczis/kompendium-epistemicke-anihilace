@@ -60,6 +60,7 @@ Fázi návratu stránka nezavádí ani neschvaluje; pojistky zaznamenává proto
 |---|---|
 {% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
 {% endfor %}
+
 ## Okolnosti, které zátěž ve fázi návratu vylučují
 
 Fáze návratu je zde popsána jako to, co po sekvenci zůstává, a ne jako úsek, který by stránka komukoli otevírala. Jestli je uspořádání, jehož je návrat posledním dílem, vůbec přijatelné, se na stránce o rozpoznávání nerozhoduje: patří to výzkumné etice a nároky, jež formulovali Emanuel, Wendler a Grady (2000), míří na instituci a na její přezkum, ne na toho, kdo obtížný návrat u někoho pozoruje. Kniha tedy návrat ani nepovoluje, ani nepodmiňuje; co z toho plyne pro čtení stránky, stojí v [etických aspektech](@/kompendium/01-predmluva/eticke-aspekty.md) a v [etickém kodexu](@/kompendium/08-prilohy/eticky-kodex.md).

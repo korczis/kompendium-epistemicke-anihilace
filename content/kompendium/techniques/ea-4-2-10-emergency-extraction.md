@@ -60,6 +60,7 @@ Nouzové přerušení expozice je pojistka, jejíž chybění je samo zjistiteln
 |---|---|
 {% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
 {% endfor %}
+
 ## Okolnosti, které takto vedené přerušení vylučují
 
 Nouzové přerušení je tu popsáno jako pojistka, kterou lze poznat zvenčí, a ne jako zásah, k němuž by stránka kohokoli zmocňovala. Jestli je uspořádání, v němž se taková pojistka vůbec může uplatnit, eticky přijatelné, váží výzkumná etika: požadavky, jež sepsali Emanuel, Wendler a Grady (2000), adresují zadavatele a nezávislý přezkum, a nikoli toho, kdo stránku čte. Mandát k přemístění člověka tedy kniha nedává ani neupírá a dělicí linii vedou [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) a [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md), nikoli tento text.

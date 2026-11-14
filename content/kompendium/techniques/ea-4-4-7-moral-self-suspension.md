@@ -58,6 +58,7 @@ Pozastavení vlastního morálního sebehodnocení „ve jménu úkolu“ je tí
 |---|---|
 {% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
 {% endfor %}
+
 ## Důvody, pro které je expozice vyloučena
 
 Výčet situací, v nichž by odpojení morálního sebehodnocení bylo přípustné, tato kniha vědomě neuvádí; hranici popisuje [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) a zdejší text slouží jen rozpoznání. Za níže jmenovaných okolností je vyloučena bez výhrady.

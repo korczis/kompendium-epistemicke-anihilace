@@ -58,6 +58,7 @@ Fluidizaci paradigmat tato stránka nepovoluje; pojistky uvádí proto, že jeji
 |---|---|
 {% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
 {% endfor %}
+
 ## Okolnosti, které expozici vylučují
 
 Přípustné použití paradigmatické fluidizace kompendium neuvádí a uvádět nemá; výčet prostředí, v nichž by uvolnění rámců bylo v pořádku, je sám povolením k zásahu. O tom, zda je takový zásah vůbec obhajitelný, rozhoduje [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md). Následuje jen to, co expozici vylučuje, s uvedeným důvodem.

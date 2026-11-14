@@ -60,6 +60,7 @@ U řízené expozice stresoru se následující pojistky čtou obráceně: co z 
 |---|---|
 {% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
 {% endfor %}
+
 ## Okolnosti, které řízenou expozici vylučují
 
 Tato stránka nejmenuje uspořádání, v němž by byla řízená expozice stresoru legitimní, a nejmenuje je ani nepřímo: popisuje, čím se taková expozice pozná zvenčí, a tím končí. Zda je zátěžová intervence tohoto druhu vůbec přijatelná, je otázkou výzkumné etiky — požadavky, které shrnuli Emanuel, Wendler a Grady (2000), zavazují samo uspořádání, tedy zadavatele, nezávislý přezkum a protokol, nikoli čtenáře, který vzorec rozpoznává. Stránka proto k ničemu neopravňuje a nic neodpírá; měřítko přípustnosti stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) a rozhodují o něm orgány, které kniha popisuje na těchto stránkách.

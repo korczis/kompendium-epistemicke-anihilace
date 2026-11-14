@@ -62,6 +62,7 @@ Takové sledování stránka nezavádí ani k němu neopravňuje; uvádí pouze,
 |---|---|
 {% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
 {% endfor %}
+
 ## Co průběžné sledování vylučuje
 
 Průběžné sledování není na této stránce popsáno jako postup, k němuž by článek opravňoval, a legitimní rámec pro ně nepojmenovává. Je-li něco takového vůbec přípustné, posuzuje se to jako otázka výzkumné etiky: požadavky, které shrnuli Emanuel, Wendler a Grady (2000), zavazují uspořádání a jeho nezávislý přezkum ([IRB](@/glossary/irb-review.md)), nerozdělují oprávnění mezi čtenáře. Kdo o nich rozhoduje, popisují [supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md). Níže stojí okolnosti, za nichž je expozice vyloučena i tam, kde je sledování zavedené.

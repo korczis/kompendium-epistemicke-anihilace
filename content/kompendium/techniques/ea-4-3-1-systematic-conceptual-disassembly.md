@@ -60,6 +60,7 @@ Rozebírání cizího pojmového aparátu stránka nenavrhuje ani neopravňuje; 
 |---|---|
 {% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
 {% endfor %}
+
 ## Vylučující okolnosti
 
 Výčet legitimních použití terminálního protokolu kompendium neuvádí; stránka je defenzivní taxonomie a měřítko přípustnosti stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md). Zaznamenány jsou proto jen okolnosti, za nichž je vzorec nepřípustný i tam, kde se na supervizi odvolává.

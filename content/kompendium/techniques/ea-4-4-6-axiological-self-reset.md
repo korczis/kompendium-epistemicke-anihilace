@@ -60,6 +60,7 @@ Přenastavování hodnotového vztahu k sobě stránka nezavádí ani neschvaluj
 |---|---|
 {% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
 {% endfor %}
+
 ## Okolnosti vylučující expozici
 
 Kompendium nikde neuvádí, za jakých okolností je přenastavení hodnotového vztahu člověka k sobě oprávněné; tato stránka takový výčet neobsahuje a přípustnost postupuje [etickým aspektům](@/kompendium/01-predmluva/eticke-aspekty.md). Následuje popis okolností, které expozici vylučují, s uvedením důvodu.

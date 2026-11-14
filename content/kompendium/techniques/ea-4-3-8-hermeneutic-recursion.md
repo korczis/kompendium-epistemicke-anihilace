@@ -60,6 +60,7 @@ Stránka takový nekončící výklad nezadává ani neopravňuje; ukazuje pouze
 |---|---|
 {% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
 {% endfor %}
+
 ## Co expozici vylučuje
 
 Stránka neuvádí žádný kontext, v němž by indukovaná spirála sebevýkladu byla oprávněná; kompendium takové výčty nevede a otázku přípustnosti ponechává [etickým aspektům](@/kompendium/01-predmluva/eticke-aspekty.md). Zbytek sekce říká, co expozici vylučuje a z jakého důvodu.

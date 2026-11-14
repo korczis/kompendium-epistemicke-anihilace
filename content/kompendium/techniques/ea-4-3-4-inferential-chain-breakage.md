@@ -58,6 +58,7 @@ Je-li narušena inferenční praxe, zasažený sám nedokáže posoudit, co se s
 |---|---|
 {% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
 {% endfor %}
+
 ## Okolnosti, za nichž je expozice vyloučena
 
 Výčet oprávněných důvodů k přerušení cizího úsudku zde čtenář nenajde: kompendium jej nevede a tato stránka o přípustnosti nerozhoduje. Zda je něco takového vůbec přípustné, řeší [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md). Následující tabulka uvádí okolnosti, které expozici vylučují, a důvod vyloučení.

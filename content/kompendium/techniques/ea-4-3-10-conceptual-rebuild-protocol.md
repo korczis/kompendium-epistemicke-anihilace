@@ -58,6 +58,7 @@ Rekonstrukční fáze se pozná podle toho, komu se z ní skládá účet; pojis
 |---|---|
 {% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
 {% endfor %}
+
 ## Vylučující okolnosti
 
 Žádné oprávněné užití rekonstrukce pojmového aparátu tato kniha nevyjmenovává; otázku, zda je expozice takového rozsahu vůbec připustitelná, řeší [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md), ne tento výčet. Následující okolnosti stojí proti ní bez výjimky.

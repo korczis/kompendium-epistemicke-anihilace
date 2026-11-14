@@ -60,6 +60,7 @@ Sledování kohorty stránka nikomu neumožňuje; pojistky vypisuje proto, že j
 |---|---|
 {% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
 {% endfor %}
+
 ## Okolnosti vylučující sledování kohorty
 
 Kohortní sledování nemá v této knize podobu oprávnění a tato stránka žádné nevydává. Zda je uspořádání, které by takto vystavilo celou skupinu, eticky přijatelné, rozhoduje se v režimu výzkumné etiky; Emanuel, Wendler a Grady (2000) uvádějí požadavky kladené na zadavatele a na nezávislé posouzení, nikoli měřítko, jímž by si čtenář směl posloužit sám. Hranici drží [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) a orgány, které za něj odpovídají. Zbývá popsat okolnosti, za nichž je expozice kohorty vyloučena, a důvod každé z nich.

@@ -60,9 +60,10 @@ Kaskádu debriefingů tato stránka nepředepisuje ani nepovoluje; pojistky ní�
 |---|---|
 {% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
 {% endfor %}
+
 ## Co vylučuje debriefing tohoto typu
 
-Žádné uspořádání, v němž by byla kaskáda debriefingů po zátěži na místě, tato stránka nejmenuje. Emanuel, Wendler a Grady (2000) formulují požadavky, jimž musí vyhovět výzkumné uspořádání — nezávislý přezkum, příznivý poměr přínosu a rizika, spravedlivý výběr účastníků a informovaný souhlas; ty váží zadavatele a posuzující orgán a nelze je číst jako měřítko, jímž by si někdo odsouhlasil vlastní postup. Souhlas odvolatelný bez sankce patří k témuž souboru podmínek uspořádání (Faden a Beauchamp, 1986). Zda je rozhovor tohoto druhu po zátěži vůbec přípustný, posuzují orgány popsané v [etických aspektech](@/kompendium/01-predmluva/eticke-aspekty.md) a mez stanovuje [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md); tato stránka nepovoluje nic. Níže stojí jen okolnosti, za nichž je takový rozhovor vyloučen, a u každé důvod.
+Žádné uspořádání, v němž by byla kaskáda debriefingů po zátěži na místě, tato stránka nejmenuje. Emanuel, Wendler a Grady (2000) formulují požadavky, jimž musí vyhovět výzkumné uspořádání — nezávislý přezkum, příznivý poměr přínosu a rizika, spravedlivý výběr účastníků a [informovaný souhlas](@/glossary/informed-consent.md); ty váží zadavatele a posuzující orgán a nelze je číst jako měřítko, jímž by si někdo odsouhlasil vlastní postup. Souhlas odvolatelný bez sankce patří k témuž souboru podmínek uspořádání (Faden a Beauchamp, 1986). Zda je rozhovor tohoto druhu po zátěži vůbec přípustný, posuzují orgány popsané v [etických aspektech](@/kompendium/01-predmluva/eticke-aspekty.md) a mez stanovuje [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md); tato stránka nepovoluje nic. Níže stojí jen okolnosti, za nichž je takový rozhovor vyloučen, a u každé důvod.
 
 | Okolnost | Proč rozhovor vylučuje |
 |---|---|

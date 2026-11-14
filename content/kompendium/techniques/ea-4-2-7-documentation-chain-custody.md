@@ -60,6 +60,7 @@ Stránka takové nakládání se záznamem nepředepisuje ani k němu neopravňu
 |---|---|
 {% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
 {% endfor %}
+
 ## Okolnosti, které expozici vylučují
 
 Tato stránka nevypočítává případy, v nichž by zásah do záznamu o průběhu byl přípustný; o přípustnosti čehokoli takového nerozhoduje popis vzorce, nýbrž [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md). Následující přehled uvádí pouze okolnosti vylučující a důvod vyloučení.

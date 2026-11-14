@@ -58,6 +58,7 @@ Chybějící sledování po skončení expozice je samo pozorovatelným nálezem
 |---|---|
 {% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
 {% endfor %}
+
 ## Okolnosti, za nichž expozice nepřichází v úvahu
 
 Kompendium neuvádí, kdy je dlouhodobé sledování po terminálním protokolu přípustné, protože výčet přípustných užití by byl pokynem k zahájení expozice, jejíž opožděné následky tato stránka pouze popisuje. Zda je něco takového vůbec připustitelné, rozhodují [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md), nikoli tento přehled. Zůstávají okolnosti, za nichž je expozice vyloučena, a důvod každé z nich.

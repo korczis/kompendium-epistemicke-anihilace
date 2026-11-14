@@ -58,6 +58,7 @@ Zásah do metakonceptuální vrstvy bez níže uvedených pojistek je rozpoznate
 |---|---|
 {% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
 {% endfor %}
+
 ## Okolnosti vylučující jakoukoli expozici
 
 Podmínky, za nichž by byl reset metakonceptuální vrstvy obhajitelný, kompendium neformuluje; posouzení přípustnosti nepatří popisu vzorce, nýbrž [etickému kodexu](@/kompendium/08-prilohy/eticky-kodex.md). Zbývá proto pouze soupis okolností, za nichž je expozice vyloučena, s uvedením důvodu.

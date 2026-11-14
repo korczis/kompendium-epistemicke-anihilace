@@ -60,6 +60,7 @@ Vstupní posouzení, které nemůže skončit nepřijetím, není posouzením; c
 |---|---|
 {% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
 {% endfor %}
+
 ## Co zařazení vylučuje bez ohledu na výsledek posouzení
 
 Výčet případů, v nichž by bylo zařazení do protokolu tohoto druhu v pořádku, na stránce není a ani být nemá. Požadavky, jež Emanuel, Wendler a Grady (2000) kladou na eticky obhajitelný výzkum, jsou nároky vůči uspořádání a vůči nezávislému posouzení, ne kritéria, podle nichž by si uplatňující zařazení povolil; pro vstupní posouzení z nich plyne jedině to, že musí být možné zařazení odmítnout. Zda je protokol tohoto druhu vůbec přípustný, rozhodují komise a pravidla, k nimž vedou [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md), spolu s výčtem mezí v [etickém kodexu](@/kompendium/08-prilohy/eticky-kodex.md). Následuje jen to, co zařazení vylučuje, a důvod u každé okolnosti.

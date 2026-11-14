@@ -60,6 +60,7 @@ Zasahování do vztahů druhého člověka stránka nedoporučuje ani neopravňu
 |---|---|
 {% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
 {% endfor %}
+
 ## Okolnosti vylučující expozici
 
 Pro zásah do vztahové sítě kniha neuvádí žádné prostředí, v němž by byl oprávněný, a výčet takových prostředí odmítá sestavit; mez stanovují [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md). Zde uvedené okolnosti zásah vylučují.

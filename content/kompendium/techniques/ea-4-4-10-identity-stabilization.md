@@ -58,6 +58,7 @@ Po protokolech zasahujících sebepojetí je chybění zde shrnutých pojistek s
 |---|---|
 {% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
 {% endfor %}
+
 ## Co expozici vylučuje
 
 Stabilizace identity je obnovovací cíl, a kompendium proto nevyjmenovává kontexty, v nichž by předcházející dekonstrukce sebepojetí byla přípustná. Zda je vůbec obhajitelná, neřeší tato stránka, nýbrž [jak kompendium používat](@/kompendium/01-predmluva/jak-pouzivat.md) a etická část knihy. Dále jsou uvedeny okolnosti, které expozici vylučují, a u každé důvod.

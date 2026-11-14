@@ -60,6 +60,7 @@ Vícepatrový přezkum je zde předmětem popisu, nikoli pravomocí; pojistky n�
 |---|---|
 {% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
 {% endfor %}
+
 ## Okolnosti, které posuzované uspořádání vylučují
 
 Přezkum je na této stránce předmětem rozpoznávání, nikoli pravomocí, kterou by stránka propůjčovala: žádné uspořádání tu není označeno za legitimní a pro zátěžový protokol tohoto druhu to platí dvojnásob. Nároky, které Emanuel, Wendler a Grady (2000) na eticky přijatelný výzkum kladou, zavazují zadavatele a komisi — jsou tedy tím, co se posuzuje, ne výsledkem posouzení, a oprávněním pro čtenáře nejsou v žádném případě. Co z toho plyne pro práci se stránkou, stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).

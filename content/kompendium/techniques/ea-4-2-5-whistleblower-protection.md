@@ -58,6 +58,7 @@ Ochrana oznamovatele je zde vedena jako pojistka, jejíž chybění lze rozpozna
 |---|---|
 {% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
 {% endfor %}
+
 ## Okolnosti, které vylučují expozici
 
 Kompendium neuvádí kontext, v němž by byla expozice tohoto druhu legitimní; stránka slouží

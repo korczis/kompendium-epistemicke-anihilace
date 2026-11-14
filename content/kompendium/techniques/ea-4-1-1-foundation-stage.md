@@ -62,6 +62,7 @@ Vstupní fázi tohoto druhu stránka nepředepisuje ani neschvaluje; uvádí jen
 |---|---|
 {% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
 {% endfor %}
+
 ## Okolnosti, které vstupní fázi vylučují
 
 Oprávněný rámec pro zakládající fázi tato stránka nepojmenovává a nemá k tomu žádné postavení: zda je sekvence tohoto druhu vůbec přípustná, je otázkou výzkumné etiky, kterou Emanuel, Wendler a Grady (2000) formulují jako soubor požadavků na uspořádání — na nezávislost přezkumu, na poměr přínosu a rizika, na výběr účastníků a na souhlas. Tyto požadavky zavazují toho, kdo uspořádání zřizuje, a posuzují je orgány, k nimž odkazuje [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md); měřítko jejich rozhodování shrnují [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md). Čtenáři tohoto článku neudělují nic. Zůstává tedy jen to, co u vstupní fáze expozici vylučuje, a proč.

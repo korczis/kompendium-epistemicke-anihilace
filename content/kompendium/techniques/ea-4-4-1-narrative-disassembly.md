@@ -58,6 +58,7 @@ Rozklad narativní struktury stránka nenavrhuje ani nepovoluje; pojistky jmenuj
 |---|---|
 {% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
 {% endfor %}
+
 ## Co expozici vylučuje bez výjimky
 
 Rozklad narativní struktury kompendium nikde neopravňuje a neuvádí prostředí, v němž by byl na místě; zda je něco takového vůbec přípustné, rozhodují [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md), a ne tato stránka. Uvedeny jsou proto jedině okolnosti vylučující.

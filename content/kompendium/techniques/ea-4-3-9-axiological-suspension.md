@@ -58,6 +58,7 @@ Pozastavení hodnotícího postoje se zvenčí pozná teprve podle toho, co kole
 |---|---|
 {% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
 {% endfor %}
+
 ## Co expozici vylučuje
 
 Suspenzi hodnotového soudu kompendium nepopisuje jako něco, co by bylo za určitých podmínek oprávněné; posouzení přípustnosti patří [etickému kodexu](@/kompendium/08-prilohy/eticky-kodex.md), nikoli stránce o technice. Dále jmenované okolnosti ji vylučují.

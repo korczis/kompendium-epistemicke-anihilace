@@ -58,6 +58,7 @@ Erozi kategoriálních hranic zde nic neopravňuje; pojistky stojí níže proto
 |---|---|
 {% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
 {% endfor %}
+
 ## Vylučující okolnosti
 
 Žádný výčet oprávněných důvodů k erozi kategoriálních hranic kompendium neuvádí a tato stránka takový výčet nahradit nemůže; zda je zásah tohoto druhu vůbec obhajitelný, vymezují [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md). Zaznamenány jsou tedy jen okolnosti, které jej vylučují.

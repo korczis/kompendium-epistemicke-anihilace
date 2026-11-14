@@ -34,7 +34,7 @@ parent_chapter = "/kompendium/04-terminalni-protokoly/"
 
 ## Definice
 
-**IRB review multi-tier** představuje vícepatrový etický přezkum protokolu nezávislými komisemi před spuštěním a v průběhu jeho operace. V rámci kompendia je technika klasifikována jako **terminální protokol** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození. Že se formální souhlas komise může zcela míjet s tím, co se účastníkům skutečně dělo, doložil na publikovaných studiích Beecher (1966).
+**IRB review multi-tier** představuje vícepatrový etický přezkum protokolu nezávislými komisemi před spuštěním a v průběhu jeho operace. V rámci kompendia je technika klasifikována jako **[terminální protokol](@/kompendium/04-terminalni-protokoly/_index.md)** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození. Že se formální souhlas komise může zcela míjet s tím, co se účastníkům skutečně dělo, doložil na publikovaných studiích Beecher (1966).
 
 Stránka slouží rozpoznání vzorce, nikoli jeho provedení.
 

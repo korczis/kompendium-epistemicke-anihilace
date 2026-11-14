@@ -34,7 +34,7 @@ parent_chapter = "/kompendium/04-terminalni-protokoly/"
 
 ## Definice
 
-**Termination criteria** představuje explicitně definovaná kritéria pro okamžité ukončení extrémní výcvikové sekvence z důvodů ochrany subjektu. V rámci kompendia je technika klasifikována jako **terminální protokol** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození. Podmínka, že lze kdykoli odstoupit bez následku, patří k minimu, bez něhož nelze mluvit o souhlasu (Faden a Beauchamp, 1986).
+**Termination criteria** představuje explicitně definovaná kritéria pro okamžité ukončení extrémní výcvikové sekvence z důvodů ochrany subjektu. V rámci kompendia je technika klasifikována jako **[terminální protokol](@/kompendium/04-terminalni-protokoly/_index.md)** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození. Podmínka, že lze kdykoli odstoupit bez následku, patří k minimu, bez něhož nelze mluvit o souhlasu (Faden a Beauchamp, 1986).
 
 Stránka slouží rozpoznání vzorce, nikoli jeho provedení.
 

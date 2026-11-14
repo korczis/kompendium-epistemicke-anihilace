@@ -34,7 +34,7 @@ parent_chapter = "/kompendium/04-terminalni-protokoly/"
 
 ## Definice
 
-**Emergency extraction** představuje protokol nouzové extrakce subjektu z expozičního prostředí v situaci akutního ohrožení. V rámci kompendia je technika klasifikována jako **terminální protokol** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození. Akutní zásah má přitom vlastní rizika: podpora podaná plošně a bez volby nemá doloženou preventivní účinnost a u části lidí je spojena s horším výsledkem (Rose a kol., 2002).
+**Emergency extraction** představuje protokol nouzové extrakce subjektu z expozičního prostředí v situaci akutního ohrožení. V rámci kompendia je technika klasifikována jako **[terminální protokol](@/kompendium/04-terminalni-protokoly/_index.md)** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození. Akutní zásah má přitom vlastní rizika: podpora podaná plošně a bez volby nemá doloženou preventivní účinnost a u části lidí je spojena s horším výsledkem (Rose a kol., 2002).
 
 Stránka slouží rozpoznání vzorce, nikoli jeho provedení.
 

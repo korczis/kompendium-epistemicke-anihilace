@@ -34,7 +34,7 @@ parent_chapter = "/kompendium/04-terminalni-protokoly/"
 
 ## Definice
 
-**Temporal self-disruption** představuje narušení časového sebeprožívání subjektu mezi minulým, přítomným a budoucím já. V rámci kompendia je technika klasifikována jako **terminální protokol** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození.
+**Temporal self-disruption** představuje narušení časového sebeprožívání subjektu mezi minulým, přítomným a budoucím já. V rámci kompendia je technika klasifikována jako **[terminální protokol](@/kompendium/04-terminalni-protokoly/_index.md)** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození.
 
 Tento článek **nemá operační charakter**: jeho účelem je výhradně defenzivní rozpoznání, detekce neúmyslné manifestace a supervidovaná intervence. Jakékoliv ofenzivní použití techniky je v rozporu s [doktrinou platformy](@/kompendium/02-doktrinalni-ramec/_index.md) a její aplikace bez doložitelného etického rámce je explicitně zakázána.
 

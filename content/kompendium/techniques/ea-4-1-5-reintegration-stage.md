@@ -34,7 +34,7 @@ parent_chapter = "/kompendium/04-terminalni-protokoly/"
 
 ## Definice
 
-**Reintegration stage** představuje fáze návratu subjektu do běžného profesního a soukromého kontextu po ukončení extrémní výcvikové sekvence. V rámci kompendia je technika klasifikována jako **terminální protokol** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození. Návrat do běžného prostředí je v literatuře o zotavení popsán jako samostatná fáze s vlastními nároky, nikoli jako automatický důsledek ukončení zátěže (Herman, 1992).
+**Reintegration stage** představuje fáze návratu subjektu do běžného profesního a soukromého kontextu po ukončení extrémní výcvikové sekvence. V rámci kompendia je technika klasifikována jako **[terminální protokol](@/kompendium/04-terminalni-protokoly/_index.md)** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození. Návrat do běžného prostředí je v literatuře o zotavení popsán jako samostatná fáze s vlastními nároky, nikoli jako automatický důsledek ukončení zátěže (Herman, 1992).
 
 Stránka slouží rozpoznání vzorce, nikoli jeho provedení.
 

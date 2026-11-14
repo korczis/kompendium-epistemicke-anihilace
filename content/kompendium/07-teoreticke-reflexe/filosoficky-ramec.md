@@ -62,7 +62,7 @@ Adornova kniha *Dialektik der Aufklärung* (s Maxem Horkheimerem, 1944/1947) př
 
 Pro kompendium to znamená:
 
-- Mnohé techniky EA (zejména **terminologická mystifikace**, **iluzorní komplexita**, **falešná ekvivalence**) nejsou aberacemi racionality, ale **vlastními logickými důsledky** instrumentálního rozumu, jenž ztratil schopnost sebereflexivity.
+- Mnohé techniky EA (zejména **[terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)**, **[iluzorní komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md)**, **[falešná ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md)**) nejsou aberacemi racionality, ale **vlastními logickými důsledky** instrumentálního rozumu, jenž ztratil schopnost sebereflexivity.
 - Akademické prostředí — paradoxně — může být **paradigmatickým prostorem** instrumentální racionality, kde sofistikovaná argumentace slouží **delegitimizaci** kritiky (kategorie 1.5 v sekci 03).
 
 ### 2.2 Negativní dialektika a princip nesmiřitelného
@@ -150,7 +150,7 @@ Pro EA to má **diagnostický význam**: techniky EA jsou systematickými **defo
    - **Prosodická dominance** porušuje symetrickou distribuci řečových aktů
    - **Tematická diverze** porušuje princip orientace na porozumění
    - **Imunizace proti falsifikaci** porušuje ochotu k revizi
-   - **Terminologická mystifikace** porušuje princip transparentnosti
+   - **[Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)** porušuje princip transparentnosti
 
 ### 4.3 Diskursivní etika
 

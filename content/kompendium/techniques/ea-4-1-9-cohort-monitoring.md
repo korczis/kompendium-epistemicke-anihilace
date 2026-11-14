@@ -34,7 +34,7 @@ parent_chapter = "/kompendium/04-terminalni-protokoly/"
 
 ## Definice
 
-**Cohort monitoring** představuje systematické sledování celé výcvikové kohorty jako agregátní jednotky vedle individuálního monitoringu. V rámci kompendia je technika klasifikována jako **terminální protokol** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození. Důvod je empirický: část jevů vzniká až ve skupině a na jednotlivci se projeví až tehdy, kdy odlišný názor přestane být vyslovitelný (Asch, 1956).
+**Cohort monitoring** představuje systematické sledování celé výcvikové kohorty jako agregátní jednotky vedle individuálního monitoringu. V rámci kompendia je technika klasifikována jako **[terminální protokol](@/kompendium/04-terminalni-protokoly/_index.md)** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození. Důvod je empirický: část jevů vzniká až ve skupině a na jednotlivci se projeví až tehdy, kdy odlišný názor přestane být vyslovitelný (Asch, 1956).
 
 Stránka slouží rozpoznání vzorce, nikoli jeho provedení.
 

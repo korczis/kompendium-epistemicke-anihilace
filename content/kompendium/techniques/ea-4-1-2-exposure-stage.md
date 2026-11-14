@@ -34,7 +34,7 @@ parent_chapter = "/kompendium/04-terminalni-protokoly/"
 
 ## Definice
 
-**Exposure stage** představuje fáze řízené expozice subjektu kontrolovanému stresoru v rámci extrémní výcvikové sekvence, s explicitním rámcem reverzibility a klinické supervize. V rámci kompendia je technika klasifikována jako **terminální protokol** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození. Rozdíl proti vzorci, který tato kniha popisuje, je v reverzibilitě: legitimní expozice má doložené podmínky zastavení a je od počátku odvolatelná (Herman, 1992).
+**Exposure stage** představuje fáze řízené expozice subjektu kontrolovanému stresoru v rámci extrémní výcvikové sekvence, s explicitním rámcem reverzibility a klinické supervize. V rámci kompendia je technika klasifikována jako **[terminální protokol](@/kompendium/04-terminalni-protokoly/_index.md)** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození. Rozdíl proti vzorci, který tato kniha popisuje, je v reverzibilitě: legitimní expozice má doložené podmínky zastavení a je od počátku odvolatelná (Herman, 1992).
 
 Stránka slouží rozpoznání vzorce, nikoli jeho provedení.
 

@@ -34,7 +34,7 @@ parent_chapter = "/kompendium/04-terminalni-protokoly/"
 
 ## Definice
 
-**Foundation stage** představuje počáteční fáze extrémní výcvikové sekvence, v níž je etablována základová epistemická a psychofyzická kapacita subjektu před expozicí vysoce zátěžovým protokolům. V rámci kompendia je technika klasifikována jako **terminální protokol** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození. Pojem výchozího stavu má přitom smysl jen jako doložený popis, proti němuž se pozdější změna porovnává; bez něj nelze odlišit následek expozice od toho, co člověk přinesl s sebou (Herman, 1992).
+**Foundation stage** představuje počáteční fáze extrémní výcvikové sekvence, v níž je etablována základová epistemická a psychofyzická kapacita subjektu před expozicí vysoce zátěžovým protokolům. V rámci kompendia je technika klasifikována jako **[terminální protokol](@/kompendium/04-terminalni-protokoly/_index.md)** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození. Pojem výchozího stavu má přitom smysl jen jako doložený popis, proti němuž se pozdější změna porovnává; bez něj nelze odlišit následek expozice od toho, co člověk přinesl s sebou (Herman, 1992).
 
 Stránka slouží rozpoznání vzorce, nikoli jeho provedení.
 

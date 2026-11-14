@@ -34,7 +34,7 @@ parent_chapter = "/kompendium/04-terminalni-protokoly/"
 
 ## Definice
 
-**Mastery stage** představuje fáze, v níž subjekt prokazuje stabilizovanou kompetenci pracovat se stresorem v supervidovaném i samostatném režimu. V rámci kompendia je technika klasifikována jako **terminální protokol** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození. Doklad o zvládnutí je přitom jiný druh tvrzení než pocit zvládnutí; odborná způsobilost se prokazuje výkonem v různých podmínkách, ne jistotou toho, kdo ji má (Ericsson, Krampe a Tesch-Römer, 1993).
+**Mastery stage** představuje fáze, v níž subjekt prokazuje stabilizovanou kompetenci pracovat se stresorem v supervidovaném i samostatném režimu. V rámci kompendia je technika klasifikována jako **[terminální protokol](@/kompendium/04-terminalni-protokoly/_index.md)** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození. Doklad o zvládnutí je přitom jiný druh tvrzení než pocit zvládnutí; odborná způsobilost se prokazuje výkonem v různých podmínkách, ne jistotou toho, kdo ji má (Ericsson, Krampe a Tesch-Römer, 1993).
 
 Stránka slouží rozpoznání vzorce, nikoli jeho provedení.
 

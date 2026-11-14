@@ -17,10 +17,10 @@
     "static/data/viz-deps.json"
    ],
    "generic_views": {
-    "viz/okoli": 276
+    "viz/okoli": 279
    },
    "libraries": [],
-   "pages": 277,
+   "pages": 280,
    "partials": [
     "partials/connections.html",
     "partials/explorer-glossary.html",
@@ -105,13 +105,13 @@
    ],
    "status": "covered",
    "templates": {
-    "glossary/detail.html": 276,
+    "glossary/detail.html": 279,
     "glossary/list.html": 1
    },
    "views": {
     "chart-inline": 1,
     "viz/glosar": 1,
-    "viz/kontext": 276
+    "viz/kontext": 279
    }
   },
   "kompendium": {

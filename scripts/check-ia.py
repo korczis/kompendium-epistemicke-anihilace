@@ -185,7 +185,8 @@ import sys
 sys.dont_write_bytecode = True  # no __pycache__ in the checkout
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from ia_model import (ROOT, EA_ONLY, academic_profile, body_lines, bold_spans,  # noqa: E402
-                      bold_term_index, FENCE, figure_lines, TEMPLATE_FIGURE_PAGES, FIGURE,
+                      is_list_lead, bold_term_index, FENCE, figure_lines,
+                      TEMPLATE_FIGURE_PAGES, FIGURE,
                       detail_thresholds, ea_mentions, load_pages, load_terms,
                       placeholder_markers, slugify, technique_codes, cited_names, plain)
 
@@ -802,7 +803,7 @@ def analyse(pages: list) -> dict:
             for blk in passage_blocks(prose):
                 passages[blk].add(page["path"])
         page["bold_unlinked"] = []
-        for _, _, text, linked in bold_spans(body, lines):
+        for start, _, text, linked in bold_spans(body, lines):
             if linked:
                 continue
             key = slugify(text)
@@ -810,7 +811,8 @@ def analyse(pages: list) -> dict:
             if target:
                 if target != page["path"]:
                     page["bold_unlinked"].append((text, target))
-            elif re.search(r"[^\W\d_]", text) and not EA_ONLY.match(key):
+            elif (re.search(r"[^\W\d_]", text) and not EA_ONLY.match(key)
+                  and not is_list_lead(body, start)):
                 phrases[key].add(page["path"])
                 shown.setdefault(key, text)
     shared = {line: paths for line, paths in figures.items()

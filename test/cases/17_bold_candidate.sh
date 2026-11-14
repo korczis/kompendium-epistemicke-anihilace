@@ -5,6 +5,8 @@
 #  - a bold phrase of up to six words on three or more pages, not a term and not a link, is
 #    listed per phrase with its page count (bold:<slug>), and a new one fails the gate;
 #  - on two pages, as a label, in a table's first cell or in a link it is not listed;
+#  - as the lead label of a list item (`- **X** …`, `1. **X** …`) it is structure, not a term
+#    use, and is not counted; the same phrase bolded mid-sentence on three pages still is;
 #  - once a glossary entry carries the phrase, it leaves the worklist and bold-term enforces it.
 set -euo pipefail
 
@@ -36,6 +38,30 @@ if grep -q 'bold:\(dvoji-fixturou\|fixturovy-popisek\|fixturova-bunka\|fixturovy
 if python3 scripts/check-ia.py >"$work/gate.out" 2>&1; then
   echo "the gate passed a new bold candidate"; exit 1; fi
 grep -q 'bold:fixturova-fraze: bold-candidate' "$work/gate.out"
+
+# a list whose items lead with bold labels, on three pages: structure, never a candidate
+for n in 1 2 3; do
+  page "l$n" <<'PAGE'
+Postup má tři kroky:
+
+- **Fixturová položka** první krok v seznamu.
+- **Druhá položka** druhý krok v seznamu.
+1. **Fixturová položka** číslovaný krok.
+PAGE
+done
+python3 scripts/check-ia.py --list bold-candidate > "$work/list"
+if grep -q '^bold:fixturova-polozka' "$work/list"; then
+  echo "a list item's lead label was counted"; grep fixtur "$work/list"; exit 1; fi
+# the same phrase bolded mid-sentence on three other pages is still charged, and only those count
+for n in 1 2 3; do
+  page "m$n" <<'PAGE'
+Uprostřed věty stojí **Fixturová položka** jako zvýraznění, ne jako popisek seznamu.
+PAGE
+done
+python3 scripts/check-ia.py --list bold-candidate > "$work/list"
+grep -qx $'bold:fixturova-polozka\t3 pages\tFixturová položka' "$work/list" \
+  || { echo "a mid-sentence bold phrase was not charged on exactly its three pages"; grep fixtur "$work/list"; exit 1; }
+rm "$d"/l?.md "$d"/m?.md
 
 cat > content/glossary/fixturova-fraze.md <<'PAGE'
 +++

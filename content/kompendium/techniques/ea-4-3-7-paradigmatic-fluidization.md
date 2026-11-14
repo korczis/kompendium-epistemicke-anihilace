@@ -108,7 +108,7 @@ Rozvolnění paradigmatu zvyšuje plasticitu, a tím i přístupnost vnějšímu
 
 **Geriatrická populace**: paradigma je ve vyšším věku často poslední zdroj kontinuity a jeho uvolnění se zvenčí jeví jako zmatenost, kterou kognitivní úbytek i chronická somatická zátěž potvrzují. Nástroj, který se zde uvádí: MoCA.
 
-**Komorbidní psychotické spektrum**: s rozvolněným rámcem odpadá i opora pro testování reality a tato ztráta zůstává bez korektivu. Riziko: psychotická dekompenzace pod expozičním tlakem.
+**Komorbidní psychotické spektrum**: s rozvolněným rámcem odpadá i opora pro [testování reality](@/glossary/reality-testing.md) a tato ztráta zůstává bez korektivu. Riziko: psychotická dekompenzace pod expozičním tlakem.
 
 **Komorbidní substance use disorders**: rozvolněné paradigma zde provází návrat užívání jako jediné dostupné stabilizace, což se v záznamu objeví jako relaps bez souvislosti s protokolem. Přístup, který se zde uvádí: Seeking Safety.
 

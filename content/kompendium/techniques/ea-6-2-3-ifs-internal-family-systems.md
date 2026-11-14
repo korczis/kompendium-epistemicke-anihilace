@@ -108,7 +108,7 @@ Rozhovor o vnitřních partech zasahuje nestejně; u následujících skupin je 
 
 **Geriatrická populace**: starší člověk přichází s kohortně specifickou historií, k níž patří postkomunistická intergenerační traumata, a s častou komorbiditou chronických somatických onemocnění; zpomalení je pak zvenčí čteno jako neochota mluvit o sobě. Nástroj, který se v této souvislosti uvádí: MoCA.
 
-**Komorbidní psychotické spektrum**: oslabené reality testing je u této skupiny zvenčí patrné dřív než samotný obsah vnitřních partů. Riziko: psychotická dekompenzace pod expozičním tlakem.
+**Komorbidní psychotické spektrum**: oslabené [reality testing](@/glossary/reality-testing.md) je u této skupiny zvenčí patrné dřív než samotný obsah vnitřních partů. Riziko: psychotická dekompenzace pod expozičním tlakem.
 
 **Komorbidní substance use disorders**: souběh se zvenčí jeví jako střídání dvou obrazů — jednou užívání, jednou následek expozice — a každý z nich ten druhý zakrývá.
 

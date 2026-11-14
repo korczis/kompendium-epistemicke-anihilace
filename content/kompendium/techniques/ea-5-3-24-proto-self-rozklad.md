@@ -117,7 +117,7 @@ Co může vidět vnější pozorovatel:
 
 ## Teoretické zázemí
 
-Damasiův **proto-self** (*The Feeling of What Happens*) — nejhlubší vrstva, neuronální mapa aktuálního stavu těla — je atakována. Merleau-Pontyho **prelingvistické tělové schéma** (*Phénoménologie de la perception*) ztrácí integritu. Husserlovy **kinestetické pré-egologické struktury** se rozpadají. Levinasova **sensibilité** jako vulnerabilita před druhým je manipulátorem využita k průniku do nejhlubší vrstvy. Heideggerovo **Da** Da-seinu (zde-bytí) ztrácí lokalizaci. Stern: **vital affects** (jaderné životní afekty) ztrácejí rytmus. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
+Damasiův **proto-self** (*The Feeling of What Happens*) — nejhlubší vrstva, neuronální mapa aktuálního stavu těla — je atakována. Merleau-Pontyho **prelingvistické tělové schéma** (*Phénoménologie de la perception*) ztrácí integritu. Husserlovy **kinestetické pré-egologické struktury** se rozpadají. Levinasova **[sensibilité](@/glossary/sensibilite.md)** jako vulnerabilita před druhým je manipulátorem využita k průniku do nejhlubší vrstvy. Heideggerovo **Da** Da-seinu (zde-bytí) ztrácí lokalizaci. Stern: **vital affects** (jaderné životní afekty) ztrácejí rytmus. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
 
 ## Empirická literatura
 

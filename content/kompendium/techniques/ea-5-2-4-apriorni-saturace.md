@@ -73,7 +73,7 @@ Zpětně se znaky skládají takto: nejprve přijetí několika vět bez argumen
 |--------|----------|
 | Subjekt **deklaruje pravdu** bez evidenční podpory a **nenarazí** na vlastní strukturu | Apriorní saturace |
 | Subjekt **nedokáže formulovat falsifikační podmínku** pro tvrzení | Strukturální chránění |
-| **Iritace nad otázkou "Jak víš?"** — interpretovaná jako špatná víra | Defenzivní reakce na pokus o externalizaci apriori |
+| **Iritace nad otázkou "Jak víš?"** — interpretovaná jako [špatná víra](@/glossary/spatna-vira.md) | Defenzivní reakce na pokus o externalizaci apriori |
 | Soudy mají **zvláštní oboustrannou strategii** (apriorní/empirická) | Fáze — maskování |
 | **Hermeneuticky uzavřená** struktura tvrzení — každé je podpořeno ostatními | Fáze — autoizolace |
 | **Selektivní empirismus** — silně podložené v některých oblastech, deklarativní v jiných | Lokální saturace |

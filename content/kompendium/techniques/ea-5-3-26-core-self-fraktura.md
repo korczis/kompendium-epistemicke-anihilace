@@ -117,7 +117,7 @@ Co může vidět vnější pozorovatel:
 
 ## Teoretické zázemí
 
-Damasiův **core self** (*The Feeling of What Happens*) — pulzující self generovaný v každém okamžiku interakce s objektem — je fragmentován do nesynchronních pulzů. Husserlova **lebendige Gegenwart** (živá přítomnost, *Bernauer Manuscripts*) ztrácí jednotu. Merleau-Pontyho **chair** rozštěpí na nesynchronní vrstvy smyslujícího a smyslovaného. Levinas: **temps de l'autre** (čas druhého) prostupuje do core selfu. Stern: **emergent self** (raně vývojový self) je zranitelně regredován. Heideggerova **ekstatická časovost** ztrácí synchronizaci. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
+Damasiův **core self** (*The Feeling of What Happens*) — pulzující self generovaný v každém okamžiku interakce s objektem — je fragmentován do nesynchronních pulzů. Husserlova **lebendige Gegenwart** (živá přítomnost, *Bernauer Manuscripts*) ztrácí jednotu. Merleau-Pontyho **[chair](@/glossary/chair.md)** rozštěpí na nesynchronní vrstvy smyslujícího a smyslovaného. Levinas: **temps de l'autre** (čas druhého) prostupuje do core selfu. Stern: **emergent self** (raně vývojový self) je zranitelně regredován. Heideggerova **ekstatická časovost** ztrácí synchronizaci. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
 
 ## Empirická literatura
 

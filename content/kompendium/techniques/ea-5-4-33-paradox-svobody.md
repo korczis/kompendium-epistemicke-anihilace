@@ -45,7 +45,7 @@ Technika je strukturálně blízká [kognitivní anti-rekurzivitě](@/glossary/k
 Pod názvem „paradox svobody“ se míchají dvě různé věci. Popper (1945) jím označuje politický
 závěr, že neomezená svoboda ruší sama sebe, a proto potřebuje právní meze. Sartre (1943) tvrdí
 něco jiného: svobodě se nelze vyhnout, úzkost je uvědoměním si odpovědnosti za volbu a útěk před
-ní je špatná víra. Sartre nikde nedělá ze svobody vinu vůči neuskutečněným možnostem; toto čtení
+ní je [špatná víra](@/glossary/spatna-vira.md). Sartre nikde nedělá ze svobody vinu vůči neuskutečněným možnostem; toto čtení
 bylo zde opraveno. Berlin (1958) k tomu přidává rozlišení svobody od něčeho a svobody k něčemu,
 které umožňuje o mezích mluvit, aniž by se svoboda rušila.
 

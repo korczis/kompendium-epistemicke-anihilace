@@ -6642,7 +6642,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Merleau-Ponty, M. (1945). *Phénoménologie de la perception*.  
   <small>Citováno: [Předreflexivní vědomí](@/glossary/predreflexivni-vedomi.md), [EA-7.1.10 Merleau-Ponty: vtělenost](@/kompendium/techniques/ea-7-1-10-merleau-ponty-embodiment.md)</small>
 - Merleau-Ponty, M. (1945). *Phénoménologie de la perception*. Gallimard.  
-  <small>Citováno: [Tělesné schéma (body schema)](@/glossary/body-schema.md), [Embodied cognition (vtělená kognice)](@/glossary/embodied-cognition.md), [Epistemická derealizace](@/glossary/epistemicka-derealizace.md) a 39 dalších</small>
+  <small>Citováno: [Tělesné schéma (body schema)](@/glossary/body-schema.md), [Embodied cognition (vtělená kognice)](@/glossary/embodied-cognition.md), [Epistemická derealizace](@/glossary/epistemicka-derealizace.md) a 40 dalších</small>
 - **Merleau-Ponty, M.** (1945). *Phénoménologie de la perception*. Paris: Gallimard. — Tělesnost, vnímání, [tělesné schéma](@/glossary/body-schema.md).  
   <small>Citováno: [Fenomenologie – prožitek jako kategorie analýzy](@/kompendium/03-zakladni-kategorie/fenomenologie.md), [Intencionalita – zaměřenost vědomí jako kategorie analýzy](@/kompendium/03-zakladni-kategorie/intencionalita.md), [Somatické vektory – tělo jako kanál epistemického vlivu](@/kompendium/03-zakladni-kategorie/somaticke-vektory.md) a 8 dalších</small>
 - Merleau-Ponty, M. (1964). *Le Visible et l'invisible*.  

@@ -2331,6 +2331,17 @@
       "viz/kontext",
       "viz/pripad-faze"
      ],
+     "note": "pohled pripad-faze: stupně intervence S1–S5 kazuistiky, fixtura bez tučného písma a se zalomením",
+     "origin": "derived",
+     "page": "kompendium/case-studies/06-cult-recovery-12-let.md",
+     "painted": 1,
+     "path": "kompendium/case-studies/06-cult-recovery-12-let/"
+    },
+    {
+     "covers": [
+      "viz/kontext",
+      "viz/pripad-faze"
+     ],
      "note": "pohled pripad-faze: fáze kazuistiky z tabulky časové osy",
      "origin": "derived",
      "page": "kompendium/case-studies/50-spiritual-cult-recovery.md",

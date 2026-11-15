@@ -93,7 +93,7 @@ Předcházení iatrogenním poškozením je integrální součástí klinické e
 
 V kompendiu je tato technika vedena jako intervence zacílená na epistemicko-afektivní složku traumatu, konkrétně na práci s vnitřními částmi, jimž subjekt připisuje vlastní hlas; zda je v daném případě indikována, posoudí klinik, ne tento text.
 
-**Klinické zacílení**: [evidence-based](@/glossary/evidence-based.md) psychoterapeutické intervence pro EA-trauma se sekundární komorbiditou (úzkostné poruchy, depresivní poruchy, somatizace, disociativní spektrum). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+**Klinické zacílení**: [evidence-based](@/glossary/evidence-based.md) psychoterapeutické intervence pro EA-trauma se sekundární komorbiditou ([úzkostné poruchy](@/glossary/uzkostne-poruchy.md), depresivní poruchy, somatizace, disociativní spektrum). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
 
 **Trauma spektrum kontext**: pro práci s vnitřními částmi rozhoduje rozlišení jednorázové traumatizace a opakované relační expozice (Terr, 1991) o tom, nakolik je ochranná část vázána na jednu událost, a nakolik tvoří soustavu, která nese chod celého života. Ve druhém případě nelze s takovou částí zacházet jako s příznakem, který má zmizet; pokusy o to patří k doloženým způsobům, jimiž psychoterapie škodí (Lilienfeld, 2007). Co z toho pro konkrétního pacienta vyplývá, posuzuje klinik ve supervizi.
 

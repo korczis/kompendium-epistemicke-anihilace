@@ -65,11 +65,11 @@ Bez splnění předpokladů technika produkuje suboptimální výsledky a může
 
 Konkrétní implementace vyžaduje:
 
-1. **Pre-implementation assessment** — verifikace předpokladů u individuálních účastníků a kohorty jako celku.
-2. **Resource provisioning** — institucionální alokace času, prostoru, personálu, technologií.
-3. **Documentation infrastructure** — systém zaznamenávání průběhu, výsledků, incidentů.
+1. Pre-implementation assessment — verifikace předpokladů u individuálních účastníků a kohorty jako celku.
+2. Resource provisioning — institucionální alokace času, prostoru, personálu, technologií.
+3. Documentation infrastructure — systém zaznamenávání průběhu, výsledků, incidentů.
 4. Nikdo nevede kotvení sám — na stav účastníků po expozici se dívá i druhý člověk, který na průběhu modulu nemá výkonový zájem.
-5. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
+5. Continuous adjustment — iterativní úpravy na základě real-time feedback.
 
 Implementace je iterativní — každý cyklus generuje data informující úpravy v dalších cyklech.
 

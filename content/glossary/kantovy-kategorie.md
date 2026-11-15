@@ -47,17 +47,18 @@ Použití kategorií mimo hranice možné zkušenosti vede podle Kanta k „tran
 
 ## Jak se projevuje
 
-Kategorie samy nejsou pozorovatelné; vidět je lze jen to, jak spolehlivě člověk **používá**
-formy úsudku, které jim odpovídají. V klinickém a poradenském kontextu se pak jako varovné
-znaky jeví:
+Kategorie samy nejsou pozorovatelné; vidět je lze jen to, jak spolehlivě člověk **používá** formy úsudku,
+které jim odpovídají. *Interpretace knihy*: v klinickém a poradenském kontextu se jako varovné znaky jeví
+nejistota v úsudcích o příčinách („nevím, jestli to, co udělal, způsobilo, že jsem se bála, nebo jestli si to
+jen namlouvám“, srov. [EA-5.1.12 Kauzální inverze](@/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md)),
+nejistota v úsudcích o trvání a identitě lidí a vztahů („je to pořád tentýž člověk?“) a zmatení v tom, co je
+možné, skutečné a nutné ([EA-5.1.11 Modální dezorientace](@/kompendium/techniques/ea-5-1-11-modalni-dezorientace.md)).
+Každý z těchto znaků odpovídá jedné skupině Kantových kategorií: příčinnost a substance patří ke kategoriím
+vztahu, možnost, existence a nutnost ke kategoriím modality (Kant, 1787).
 
-- nejistota v úsudcích o příčinách („nevím, jestli to, co udělal, způsobilo, že jsem se
-  bála, nebo jestli si to jen namlouvám“) – srov. [EA-5.1.12 Kauzální inverze](@/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md);
-- nejistota v úsudcích o trvání a identitě předmětů, lidí a vztahů („je to pořád tentýž
-  člověk?“);
-- zmatení v modalitě – rozlišení mezi tím, co je možné, skutečné a nutné (srov.
-  [EA-5.1.11 Modální dezorientace](@/kompendium/techniques/ea-5-1-11-modalni-dezorientace.md));
-- pocit, že „nic není skutečné“ nebo že „všechno je jen výklad“, který znemožňuje rozhodovat.
+Krajní podobou je pocit, že „nic není skutečné“ nebo že „všechno je jen výklad“, který znemožňuje rozhodovat.
+Kant (1787) naproti tomu tvrdil, že kategorie platí pro veškerou možnou zkušenost, a pochybnost o nich proto
+není objevem hlubší pravdy, ale ztrátou půdy, na které se úsudek vůbec může odehrát.
 
 ## Mechanismus
 
@@ -78,17 +79,12 @@ a [EA-5.2.16 Kantovská paradoxie](@/kompendium/techniques/ea-5-2-16-kantovska-p
 
 ## Odlišení
 
-- **Kantovy vs. Aristotelovy kategorie.** Aristotelés třídí jsoucno; Kant popisuje podmínky
-  poznání. Záměna vede k nedorozuměním v textech, které „kategorie“ používají volně.
-- **Kategorie vs. kognitivní schémata.** Psychologická schémata (například o sobě nebo o světě)
-  jsou naučená a dají se změnit terapií. Kantovy kategorie jsou podle Kanta univerzální
-  a neměnné. Klinicky relevantní je narušení *schémat* a *dovedností úsudku*, nikoli kategorií
-  v přísném smyslu.
-- **Filozofická kritika vs. manipulace.** Kantova teorie je předmětem legitimní kritiky (Hegel,
-  novokantovci, analytická filozofie). Kritika kategoriální teorie je filozofie; použití
-  „kategorie jsou iluze“ k paralýze konkrétního člověka je manipulace.
-- **Vs. psychotická derealizace.** Pocit neskutečnosti může být příznakem [disociace](@/glossary/disociace.md), úzkosti
-  nebo psychózy; vyžaduje klinické posouzení, ne filozofický výklad.
+| Odlišit od | Rozdíl |
+| --- | --- |
+| Aristotelovy kategorie | Aristotelés třídí jsoucno; Kant popisuje podmínky poznání a Aristotelův výčet sám kritizoval jako nahodilý (Kant, 1787) |
+| Kognitivní schémata | psychologická schémata o sobě nebo o světě jsou naučená a dají se změnit terapií (Young, Klosko a Weishaar, 2003); Kantovy kategorie jsou podle Kanta univerzální, a klinicky relevantní je proto narušení schémat a dovedností úsudku, nikoli kategorií v přísném smyslu |
+| Filozofická kritika | Kantova teorie je předmětem legitimní kritiky, například Strawsonovy (1966); použití „kategorie jsou iluze“ k ochromení konkrétního člověka je však manipulace |
+| Derealizace | pocit neskutečnosti může být příznakem [disociace](@/glossary/disociace.md), úzkosti nebo psychózy a vyžaduje klinické posouzení, ne filozofický výklad |
 
 ## Význam pro Kompendium
 
@@ -102,18 +98,23 @@ s [Ding an sich](@/glossary/ding-an-sich.md), [epoché](@/glossary/epoche.md) a
 
 ## Obrana a zotavení
 
-- **Vrátit se do oblasti zkušenosti.** Výroky typu „v hlubší rovině neexistuje příčina“ nelze
-  vyvrátit ani potvrdit. Užitečná otázka zní: co z toho plyne pro to, co dnes udělám?
-- **Trénovat jednoduché úsudky.** Po dlouhodobém zpochybňování pomáhá znovu si ověřovat
-  kauzální a časové souvislosti v každodenním životě – deník, časová osa, zpětná vazba od
-  blízkých (viz [Paměťový archiv](@/kompendium/self-defense-guides/43-memory-archive.md)).
-- **Rozlišovat sporné a jasné případy** (viz [hraniční koncept](@/glossary/hranicni-koncept.md)).
-- **Pro profesionály:** nepouštět se s klientem do metafyzické debaty v akutní fázi; nejdřív
-  stabilizace, pak případně filozofické vyjasnění.
+Obrana začíná návratem do oblasti zkušenosti. Výroky typu „v hlubší rovině neexistuje příčina“ přesahují
+každou možnou zkušenost, a podle Kanta (1787) je proto nelze ani vyvrátit, ani potvrdit; smysluplnou otázkou
+je, co z nich plyne pro to, co člověk dnes udělá. *Interpretace knihy*: po dlouhodobém zpochybňování pomáhá
+znovu ověřovat kauzální a časové souvislosti v každodenním životě, k čemuž kniha nabízí
+[paměťový archiv](@/kompendium/self-defense-guides/43-memory-archive.md), a rozlišovat sporné případy od jasných
+([hraniční koncept](@/glossary/hranicni-koncept.md)).
+
+V akutní fázi kniha metafyzickou debatu s klientem nedoporučuje; nejdřív přichází stabilizace, pak případně
+filozofické vyjasnění, a o postupu v péči rozhoduje kliník. Strawson (1966) ukazuje, že i kritik Kanta může
+uznat, že bez pojmu trvajících předmětů nelze mít zkušenost jednoho objektivního světa, a tato část Kantovy teorie je
+proto pevnější oporou, než se manipulátorovi hodí.
 
 ## Literatura
 
 - Kant, I. (1781/1787). *Kritik der reinen Vernunft* (Kritika čistého rozumu).
+- Strawson, P. F. (1966). *The Bounds of Sense: An Essay on Kant's Critique of Pure Reason*. London: Methuen.
+- Young, J. E., Klosko, J. S., & Weishaar, M. E. (2003). *Schema Therapy: A Practitioner's Guide*. New York: Guilford Press.
 
 ## Související
 

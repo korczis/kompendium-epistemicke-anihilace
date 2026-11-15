@@ -57,8 +57,8 @@ kontrola telefonu „z lásky“ a společné finance pod jeho správou. Johnson
 „intimní terorismus“, tedy násilí zakotvené v obecném vzorci kontroly, od situačního párového
 konfliktu; kontrola financí, kontaktů a komunikace je pro první typ charakteristická.
 
-Ve fázi **destabilizace** (roky 3–4) se popírání událostí stalo soustavným, žena si začala
-zapisovat rozhovory a partner ji označoval za „nemocnou“. Fáze **detekce a odchodu** (rok 5)
+Ve fázi destabilizace (roky 3–4) se popírání událostí stalo soustavným, žena si začala
+zapisovat rozhovory a partner ji označoval za „nemocnou“. Fáze detekce a odchodu (rok 5)
 začala, když si praktická lékařka všimla rozporu, a pokračovala postupným plánem odchodu s
 podporou poradny. Walker (1979) popsala cyklické střídání napětí, incidentu a smíření; i bez
 fyzického násilí měla dynamika podobný rytmus, který oběť drží v naději na návrat idealizace.
@@ -122,16 +122,16 @@ v partnerských vztazích identifikovala odloučení od kontrolujícího partner
 kontakt na pomoc. Terapie pak využila [protokol pro domácí abuse](@/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md)
 a [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md).
 
-Ve **S1 – validaci a mapování** terapeutka potvrdila, že vnímání ženy bylo převážně správné, a
+Ve S1 – validaci a mapování terapeutka potvrdila, že vnímání ženy bylo převážně správné, a
 sestavila s ní časovou osu ze zápisků, zpráv a výpovědí přátel. Ve **S2 – externalizaci
 introjektů** byly věty „jsem nemocná“ a „bez něj to nezvládnu“ přiřazeny jejich zdroji. Ve **S3 –
 rekonstrukci [metakognice](@/glossary/metakognice.md)** šlo o obnovu důvěry k vlastní paměti bez
 nutkavé dokumentace. Pořadí odpovídá modelu, v němž bezpečí předchází zpracování a zpracování
 předchází novému propojení s druhými (Herman, 1992).
 
-Ve **S4 – hermeneutické obnově** žena nově porozuměla vztahu jako vzorci kontroly, ne „lásce,
+Ve S4 – hermeneutické obnově žena nově porozuměla vztahu jako vzorci kontroly, ne „lásce,
 která se pokazila“; Stark (2007) považuje toto přejmenování za klíčové, protože přesouvá pozornost
-z jednotlivých incidentů na systém. **S5 – konsolidace a transfer** přinesla obnovu přátelství,
+z jednotlivých incidentů na systém. S5 – konsolidace a transfer přinesla obnovu přátelství,
 finanční samostatnost a rozpoznávání časných signálů v nových vztazích.
 
 ## 8. Výsledek a reziduální deficity

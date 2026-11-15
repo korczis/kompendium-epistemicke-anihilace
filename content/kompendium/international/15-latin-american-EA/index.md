@@ -67,7 +67,7 @@ předchází vraždě často roky (Stark, 2007); Monckton Smith (2020) popsala o
 průběh, v němž kontrola, žárlivost a izolace předcházejí smrtelné eskalaci.
 
 **Migrace a nejistý status.** Lidé na cestě na sever a v tranzitních zemích jsou vystaveni
-vydírání, únosům a podvodným slibům práce ([obchodování s lidmi](@/kompendium/forensic-legal/49-trafficking-law-EA.md)).
+[vydírání](@/glossary/vydirani.md), únosům a podvodným slibům práce ([obchodování s lidmi](@/kompendium/forensic-legal/49-trafficking-law-EA.md)).
 Bales (1999) ukazuje, že zranitelnost nevzniká z naivity migrantů, ale z kombinace dluhu,
 nelegálního statusu a nemožnosti obrátit se na úřady.
 

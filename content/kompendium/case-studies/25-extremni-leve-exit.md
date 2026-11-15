@@ -47,14 +47,14 @@ ochotni mu podřídit vlastní zájmy.
 
 ## 3. Časová osa expozice
 
-V prvním půlroce (fáze **počátečního kontaktu**) šlo o čtenářský kroužek, dobrovolnictví a pocit
-smysluplné komunity. Mezi šestým a osmnáctým měsícem (fáze **perturbace**) přišlo odmítání
-„reformistických“ směrů a ideologické „prozření“. Mezi druhým a čtvrtým rokem (fáze **eskalace**)
+V prvním půlroce (fáze počátečního kontaktu) šlo o čtenářský kroužek, dobrovolnictví a pocit
+smysluplné komunity. Mezi šestým a osmnáctým měsícem (fáze perturbace) přišlo odmítání
+„reformistických“ směrů a ideologické „prozření“. Mezi druhým a čtvrtým rokem (fáze eskalace)
 následovala sebekritická sezení, autoritativní teoretická linie a izolace od jiné levice. Mezi
-čtvrtým a desátým rokem (fáze **konsolidace**) se ustálila dialektika imunní vůči faktům, „masová
-linie“ místo vlastního úsudku, periodické čistky a udávání a kult vůdce. **Detekce** nastala v
+čtvrtým a desátým rokem (fáze konsolidace) se ustálila dialektika imunní vůči faktům, „masová
+linie“ místo vlastního úsudku, periodické čistky a udávání a kult vůdce. Detekce nastala v
 proměnlivé době přístupem k vnitřním dokumentům o dřívější čistce, po níž si členka vzala život, a
-**odchod a rekonstrukce** po desátém roce probíhaly s podporou sítě bývalých členů a s psychoterapií
+odchod a rekonstrukce po desátém roce probíhaly s podporou sítě bývalých členů a s psychoterapií
 zaměřenou na skupinový nátlak. Lifton (1961) popsal „požadavek čistoty“ (*demand for purity*) jako
 trvalé měření člena proti nedosažitelnému ideálu; periodické čistky jsou jeho institucionální podobou.
 
@@ -111,19 +111,19 @@ pozorovat zvenčí a hledat alternativy.
 
 Rámcem byl [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md);
 pro vinu a smutek nad zemřelou členkou [subakutní narativní externalizace](@/kompendium/recovery-protocols/subacute-narrative-externalization.md).
-Ve stupni **S1 – Validace a mapování** šlo o uznání idealismu a skutečné nespravedlnosti, které ji
+Ve stupni S1 – Validace a mapování šlo o uznání idealismu a skutečné nespravedlnosti, které ji
 přivedly, a o mapu vztahů, které organizace přerušila. Lalich (2004) ukazuje, že členové takových
 organizací vstupovali z upřímného idealismu; uznání tohoto idealismu proto zmírňuje stud, který
 zpracování zkušenosti brání.
 
-Ve stupni **S2 – Externalizace introjektů** byl jazyk sebekritiky („buržoazní individualismus“,
+Ve stupni S2 – Externalizace introjektů byl jazyk sebekritiky („buržoazní individualismus“,
 „oportunismus“) zapsán a odlišen od vlastní etiky. Ve stupni **S3 – Rekonstrukce
 [metakognice](@/glossary/metakognice.md)** šlo o obnovu schopnosti držet nejistotu a pluralitu názorů
 ([pluralita paradigmat](@/kompendium/self-defense-guides/6-paradigm-pluralism.md)). Lifton (1961)
 staví proti totalismu otevřenost vůči nejistotě a vůči více výkladům jako znak psychické svobody.
 
-Stupeň **S4 – Hermeneutická obnova** oddělil hodnoty (spravedlnost, solidaritu), které si ponechala,
-od uzavřeného systému, který je zneužil. Stupeň **S5 – Konsolidace a transfer** spočíval v návratu ke
+Stupeň S4 – Hermeneutická obnova oddělil hodnoty (spravedlnost, solidaritu), které si ponechala,
+od uzavřeného systému, který je zneužil. Stupeň S5 – Konsolidace a transfer spočíval v návratu ke
 studiu, v politické angažovanosti v otevřené organizaci a v podpoře bývalých členů. Herman (1992)
 popisuje znovupropojení se společenstvím jako závěrečnou fázi zotavení; zde měla podobu nové,
 otevřené politické příslušnosti.
@@ -144,7 +144,7 @@ sezeních mohou vést k traumatické symptomatice [C-PTSD](@/glossary/c-ptsd.md)
 anihilací překrývá; Herman (1992) popsala [komplexní trauma](@/glossary/complex-trauma.md) právě u lidí vystavených dlouhodobé
 kontrole bez možnosti úniku.
 
-**Depresivní porucha** může mít zde ideologický původ (zákaz radosti), ale může přejít v samostatnou
+**[Depresivní porucha](@/glossary/depresivni-epizoda-a-porucha.md)** může mít zde ideologický původ (zákaz radosti), ale může přejít v samostatnou
 depresi, a vyžaduje proto posouzení podle obvyklých kritérií (American Psychiatric Association,
 2013). Konečně je třeba zvážit **morální zranění**, tedy vinu za účast na čistkách bez rozpadu úsudku
 o faktech; Litz et al. (2009) je vymezují jako újmu z jednání, které porušilo vlastní morální

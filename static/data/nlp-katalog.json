@@ -16129,6 +16129,11 @@
   },
   {
    "from": "nechtene-kotvy",
+   "to": "glossary/uzkostne-poruchy.md",
+   "type": "prose"
+  },
+  {
+   "from": "nechtene-kotvy",
    "to": "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md",
    "type": "prose"
   },
@@ -16956,6 +16961,11 @@
    "from": "swish",
    "to": "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
    "type": "kompendium"
+  },
+  {
+   "from": "swish",
+   "to": "glossary/uzkostne-poruchy.md",
+   "type": "prose"
   },
   {
    "from": "swish",
@@ -19094,6 +19104,11 @@
   },
   {
    "from": "uvolneni-negativnich-emoci",
+   "to": "glossary/uzkostne-poruchy.md",
+   "type": "prose"
+  },
+  {
+   "from": "uvolneni-negativnich-emoci",
    "to": "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
    "type": "prose"
   },
@@ -19386,6 +19401,11 @@
    "from": "zmena-tvaru-casove-osy",
    "to": "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
    "type": "kompendium"
+  },
+  {
+   "from": "zmena-tvaru-casove-osy",
+   "to": "glossary/uzkostne-poruchy.md",
+   "type": "prose"
   },
   {
    "from": "zmena-tvaru-casove-osy",
@@ -28739,6 +28759,11 @@
   },
   {
    "from": "pocitac",
+   "to": "glossary/intelektualizace.md",
+   "type": "prose"
+  },
+  {
+   "from": "pocitac",
    "to": "kompendium/detection-signatures/1-linguistic-jargon-density.md",
    "type": "prose"
   },
@@ -31401,6 +31426,11 @@
    "from": "systematicky-prehled-zdravi",
    "to": "kompendium/techniques/ea-8-3-4-empirical-research-base.md",
    "type": "kompendium"
+  },
+  {
+   "from": "systematicky-prehled-zdravi",
+   "to": "glossary/uzkostne-poruchy.md",
+   "type": "prose"
   },
   {
    "from": "systematicky-prehled-zdravi",
@@ -57549,6 +57579,7 @@
    ],
    "links_prose": [
     "glossary/complex-trauma.md",
+    "glossary/uzkostne-poruchy.md",
     "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md",
     "kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md",
     "kompendium/nlp-vzorce/kotveni/kolaps-kotev.md",
@@ -58906,6 +58937,7 @@
     "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"
    ],
    "links_prose": [
+    "glossary/uzkostne-poruchy.md",
     "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
     "kompendium/nlp-vzorce/submodality/auditivni-swish.md",
     "kompendium/nlp-vzorce/submodality/kinesteticky-swish.md",
@@ -62156,6 +62188,7 @@
    "links_prose": [
     "glossary/complex-trauma.md",
     "glossary/disociace.md",
+    "glossary/uzkostne-poruchy.md",
     "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
     "kompendium/nlp-vzorce/casova-osa/korenova-pricina.md",
     "kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md",
@@ -62623,6 +62656,7 @@
     "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md"
    ],
    "links_prose": [
+    "glossary/uzkostne-poruchy.md",
     "kompendium/06-obrana/_index.md",
     "kompendium/nlp-vzorce/casova-osa/elicitace-casove-osy.md",
     "kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md",
@@ -77507,6 +77541,7 @@
    ],
    "links_prose": [
     "glossary/disociace.md",
+    "glossary/intelektualizace.md",
     "kompendium/detection-signatures/1-linguistic-jargon-density.md",
     "kompendium/nlp-vzorce/jazykove-vzorce/kategorie-satirove.md",
     "kompendium/nlp-vzorce/jazykove-vzorce/vyrovnany.md",
@@ -82017,6 +82052,7 @@
     "kompendium/techniques/ea-8-3-4-empirical-research-base.md"
    ],
    "links_prose": [
+    "glossary/uzkostne-poruchy.md",
     "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
     "kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md",
     "kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md",

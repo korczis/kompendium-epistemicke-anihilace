@@ -21,7 +21,7 @@ Ke stovkám technik knihy existují dvě podoby výkladu. Podrobná stránka tec
 
 ## Co pokrývají stránky technik
 
-[Přehled technik](@/kompendium/techniques/_index.md) popisuje šablonu, kterou všechny stránky sdílejí. Pro tento most jsou nejdůležitější tři její části. **Detekční markery** popisují, co pozoruje pozorovatel zvenčí; **fenomenologické znaky** popisují, co prožívá zasažený; **neutralizační strategie** popisují individuální i institucionální obranu. Stránky navíc obsahují vztahy k jiným technikám – konjunkce, eskalační řetězce a alternativy –, které karta zpravidla jen naznačí odkazem.
+[Přehled technik](@/kompendium/techniques/_index.md) popisuje šablonu, kterou všechny stránky sdílejí. Pro tento most jsou nejdůležitější tři její části. Detekční markery popisují, co pozoruje pozorovatel zvenčí; fenomenologické znaky popisují, co prožívá zasažený; neutralizační strategie popisují individuální i institucionální obranu. Stránky navíc obsahují vztahy k jiným technikám – konjunkce, eskalační řetězce a alternativy –, které karta zpravidla jen naznačí odkazem.
 
 ## Co pokrývají referenční karty
 

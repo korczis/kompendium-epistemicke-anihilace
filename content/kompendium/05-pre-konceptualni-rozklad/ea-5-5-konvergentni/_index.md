@@ -79,8 +79,8 @@ z jeho osmi kritérií totalismu.
 Intenzivní a pohlcující zážitky nejsou samy o sobě manipulací: hudební festival,
 náboženská pouť, meditační pobyt v tichu, horská expedice nebo divadelní rituál pracují se
 souběhem podnětů záměrně a mohou být hodnotné. Rozlišovací kritéria jsou čtyři:
-**informovanost** (účastník ví předem, co ho čeká), **svoboda** (může kdykoli odejít bez
-trestu), **péče** (spánek, jídlo a zdraví jsou chráněny) a **výklad** (prožitek nepatří
+informovanost (účastník ví předem, co ho čeká), svoboda (může kdykoli odejít bez
+trestu), péče (spánek, jídlo a zdraví jsou chráněny) a výklad (prožitek nepatří
 vedoucímu – účastník si ho smí vyložit po svém). Zdravotní příčiny stavů po pobytu
 (dehydratace, spánková deprivace, užití látek) je nutné vyloučit lékařsky.
 

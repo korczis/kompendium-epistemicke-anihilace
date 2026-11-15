@@ -17,10 +17,10 @@
     "static/data/viz-deps.json"
    ],
    "generic_views": {
-    "viz/okoli": 276
+    "viz/okoli": 289
    },
    "libraries": [],
-   "pages": 277,
+   "pages": 290,
    "partials": [
     "partials/connections.html",
     "partials/explorer-glossary.html",
@@ -105,13 +105,13 @@
    ],
    "status": "covered",
    "templates": {
-    "glossary/detail.html": 276,
+    "glossary/detail.html": 289,
     "glossary/list.html": 1
    },
    "views": {
     "chart-inline": 1,
     "viz/glosar": 1,
-    "viz/kontext": 276
+    "viz/kontext": 289
    }
   },
   "kompendium": {
@@ -2306,8 +2306,7 @@
       1
      ],
      "covers": [
-      "viz/kontext",
-      "viz/pripad-faze"
+      "viz/kontext"
      ],
      "note": "nejodkazovanější kazuistika: kontext",
      "origin": "derived",
@@ -2322,9 +2321,9 @@
      ],
      "note": "pohled pripad-faze: stupně intervence S1–S5 kazuistiky",
      "origin": "derived",
-     "page": "kompendium/case-studies/06-cult-recovery-12-let.md",
+     "page": "kompendium/case-studies/16-psychoterapeut-totalizace.md",
      "painted": 1,
-     "path": "kompendium/case-studies/06-cult-recovery-12-let/"
+     "path": "kompendium/case-studies/16-psychoterapeut-totalizace/"
     },
     {
      "covers": [
@@ -2385,7 +2384,7 @@
    "views": {
     "viz/kontext": 80,
     "viz/oddil-prehled": 1,
-    "viz/pripad-faze": 52
+    "viz/pripad-faze": 27
    }
   },
   "kompendium/critical-perspectives": {
@@ -2972,10 +2971,10 @@
    ],
    "generic_views": {
     "viz/oddil": 1,
-    "viz/okoli": 74
+    "viz/okoli": 73
    },
    "libraries": [],
-   "pages": 75,
+   "pages": 74,
    "partials": [
     "partials/connections.html",
     "partials/explorer-glossary.html",
@@ -3044,7 +3043,7 @@
    ],
    "status": "covered",
    "templates": {
-    "kompendium/page.html": 74,
+    "kompendium/page.html": 73,
     "section.html": 1
    },
    "views": {

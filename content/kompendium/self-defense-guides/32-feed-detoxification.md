@@ -78,7 +78,7 @@ Jednou měsíčně zhruba dvě hodiny na důkladnější detox, týdenní zkouš
 
 ## Kdy a koho požádat o pomoc
 
-- Při výhrůžkách, vydírání nebo pronásledování přes sociální sítě kontaktujte Policii ČR (158) nebo linku 116 006; nebezpečné pronásledování je trestný čin.
+- Při výhrůžkách, [vydírání](@/glossary/vydirani.md) nebo pronásledování přes sociální sítě kontaktujte Policii ČR (158) nebo linku 116 006; nebezpečné pronásledování je trestný čin.
 - Děti a dospívající, kteří zažívají kyberšikanu, mohou volat Linku bezpečí 116 111.
 - Pokud obsah na sítích zhoršuje vaše psychické zdraví (poruchy příjmu potravy, úzkost, deprese), vyhledejte lékaře nebo psychologa; v krizi volejte 116 123, v ohrožení života 112 nebo 155.
 

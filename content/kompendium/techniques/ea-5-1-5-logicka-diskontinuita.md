@@ -90,7 +90,7 @@ Logická diskontinuita je odlišitelná od:
 | Kontext | Manifestace |
 |---------|-------------|
 | **Pokročilé pseudo-spirituální skupiny** | Koánové saturace, paradoxní afirmace, devaluace racionality jako "ego" |
-| **Vysoce manipulativní coaching** | Insight bombing, krátké emocionální triggery, devaluace "intelektualizace" |
+| **Vysoce manipulativní coaching** | Insight bombing, krátké emocionální triggery, devaluace "[intelektualizace](@/glossary/intelektualizace.md)" |
 | **Sleep-deprivation kontexty** (extrémní retreaty, izolace) | Fragmentace pracovní paměti |
 | **Některé akademické proudy** | Obrana proti analytické kritice rétorikou typu "logocentrismus", aniž je nabízena alternativní formální struktura |
 | **Vysoce kontrolní skupiny** | Důsledná devaluace dlouhých argumentů, akceptace doktrinálních rozporů |
@@ -133,7 +133,7 @@ Pracovní paměť je biologicky závislá na spánku. Strukturální diskontinui
 
 ### Případ 1 — Pokročilý retreat kontext
 
-Účastník 30denního programu s minimálním spánkem reportoval po skončení, že „konečně pochopil“. Po měsíci nedokázal rekonstruovat co. Při explicitní konfrontaci přijímal vzájemně rozporné metafyzické pozice („vědomí je pouze konstruktem ega“ **a** „vědomí je primárně danost“). Detekce: terapeut formálního zázemí identifikoval logickou diskontinuitu po požadavku na strukturovaný argument. Reverzace: 6 měsíců strukturovaného **psaní** argumentů ve formálním rámci.
+Účastník 30denního programu s minimálním spánkem reportoval po skončení, že „konečně pochopil“. Po měsíci nedokázal rekonstruovat co. Při explicitní konfrontaci přijímal vzájemně rozporné metafyzické pozice („vědomí je pouze konstruktem ega“ **a** „vědomí je primárně danost“). Detekce: terapeut formálního zázemí identifikoval logickou diskontinuitu po požadavku na strukturovaný argument. Reverzace: 6 měsíců strukturovaného psaní argumentů ve formálním rámci.
 
 ### Případ 2 — Akademický kontext
 

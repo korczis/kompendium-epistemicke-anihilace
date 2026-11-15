@@ -51,10 +51,17 @@ Diagnostickým principem Kompendia je, že **každý jednotlivý bias lze tréno
 
 ## Odlišení
 
-- **Bias není patologie:** heuristiky jsou obvykle efektivní a selhávají jen v nepřátelských podmínkách nebo při neobvyklých základních četnostech. Standardem platformy i knihy je proto **rozhodování s vědomím biasů** – rozpoznání, ne odstranění.
-- **Od [epistemické anihilace](@/glossary/epistemicka-anihilace.md):** bias je odchylka uvnitř funkčního aparátu; anihilace je poškození aparátu.
-- **Od klamu v argumentaci:** argumentační klam je chyba v úsudku, kterou lze ukázat v textu; bias je sklon, který se projevuje ve statistice rozhodnutí.
-- **Od [kognitivní anti-rekurzivity](@/glossary/kognitivni-anti-rekurzivita.md):** zatvrdnutí biasu v pokročilém stadiu, kdy už reflexe není dostupná.
+Bias není patologie. Heuristiky, z nichž biasy vznikají, jsou podle Gigerenzera (2007) ve většině
+běžných situací rychlé a účinné a selhávají hlavně tam, kde se prostředí liší od toho, v němž se
+osvědčily, například při neobvyklých základních četnostech; Tversky a Kahneman (1974) je od počátku
+popisovali jako užitečné zkratky, které jen za určitých podmínek vedou k soustavným chybám. Cílem
+knihy proto není biasy odstranit, ale rozhodovat s vědomím, kde se mohou projevit.
+
+| Odlišit od | Rozdíl |
+| --- | --- |
+| [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) | bias je odchylka uvnitř funkčního poznávacího aparátu, anihilace je poškození aparátu samého |
+| Klam v argumentaci | argumentační klam je chyba v úsudku, kterou lze ukázat v textu; bias je sklon, který se projevuje ve statistice rozhodnutí |
+| [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) | zatvrdnutí biasu v pokročilém stadiu, kdy už reflexe není dostupná |
 
 ## Význam pro Kompendium
 
@@ -62,11 +69,13 @@ Ve vývojovém kontextu, z něhož kniha vzešla, je kognitivní bias převeden 
 
 ## Obrana a zotavení
 
-Strukturní obrany vyrovnávají místa, kde individuální reflexe není spolehlivá: rozmanité vstupy, kalibrační smyčky, výslovné *pre-mortem* („představme si, že rozhodnutí selhalo – proč?“).
+Strukturní obrany vyrovnávají místa, kde individuální reflexe není spolehlivá: rozmanité vstupy, kalibrační smyčky, výslovné *[pre-mortem](@/glossary/predbezna-pitva.md)* („představme si, že rozhodnutí selhalo – proč?“).
 
-- **Pro jednotlivce:** [osobní audit biasů](@/kompendium/self-defense-guides/38-bias-audit-personal.md), [hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md), odklad důležitých rozhodnutí mimo tlak.
-- **Pro výuku:** scénář [Rozpoznání kognitivních biasů](@/kompendium/educational-scenarios/2-cognitive-bias-recognition.md).
-- **Pro organizace a analytiky:** [prevence konfirmačního biasu v due diligence](@/kompendium/cross-domain/16-ea-dd-confirmation-bias-prevention.md), [bias při atribuci](@/kompendium/cross-domain/23-ea-security-attribution-bias.md).
+| Pro koho | Kde v knize |
+| --- | --- |
+| Jednotlivec | [osobní audit biasů](@/kompendium/self-defense-guides/38-bias-audit-personal.md), [hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md), odklad důležitých rozhodnutí mimo tlak |
+| Výuka | scénář [Rozpoznání kognitivních biasů](@/kompendium/educational-scenarios/2-cognitive-bias-recognition.md) |
+| Organizace a analytici | [prevence konfirmačního biasu v due diligence](@/kompendium/cross-domain/16-ea-dd-confirmation-bias-prevention.md), [bias při atribuci](@/kompendium/cross-domain/23-ea-security-attribution-bias.md) |
 
 ## Literatura
 

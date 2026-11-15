@@ -33,7 +33,7 @@ parent_chapter = "/kompendium/04-terminalni-protokoly/"
 
 ## Definice
 
-**Conceptual rebuild protocol** představuje rekonstrukční protokol, který následuje po fázi konceptuální dekonstrukce a obnovuje funkční pojmový aparát. V rámci kompendia je technika klasifikována jako **terminální protokol** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození.
+**Conceptual rebuild protocol** představuje rekonstrukční protokol, který následuje po fázi konceptuální dekonstrukce a obnovuje funkční pojmový aparát. V rámci kompendia je technika klasifikována jako **[terminální protokol](@/kompendium/04-terminalni-protokoly/_index.md)** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození.
 
 Tento článek **nemá operační charakter**: jeho účelem je výhradně defenzivní rozpoznání, detekce neúmyslné manifestace a supervidovaná intervence. Jakékoliv ofenzivní použití techniky je v rozporu s [doktrinou platformy](@/kompendium/02-doktrinalni-ramec/_index.md) a její aplikace bez doložitelného etického rámce je explicitně zakázána.
 
@@ -82,7 +82,7 @@ Co může klinik nebo supervizor pozorovat, pokud se technika manifestuje mimo s
 | [Sociální izolace](@/glossary/socialni-izolace.md) s jediným referenčním zdrojem autority | Strukturální rizikový kontext |
 | Časová dezorientace ve vztahu k vlastnímu životnímu příběhu | Indukovanou temporální disrupci |
 
-Detekce vyžaduje **diferenciální diagnózu** vůči primárním psychiatrickým stavům (disociativní poruchy, PTSD, psychotická spektra) a vůči [legitimní transformativní zkušenosti](@/glossary/transformative-experience.md).
+Detekce vyžaduje **[diferenciální diagnózu](@/glossary/diferencialni-diagnoza.md)** vůči primárním psychiatrickým stavům (disociativní poruchy, PTSD, psychotická spektra) a vůči [legitimní transformativní zkušenosti](@/glossary/transformative-experience.md).
 
 ## Klinické pozadí
 

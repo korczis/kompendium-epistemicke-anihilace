@@ -88,7 +88,7 @@ Arendtová teorie myšlení není psychologickou teorií a nedá se z ní odvodi
 
 - [7.18 Arendt: Banalita zla](@/kompendium/07-teoreticke-reflexe/arendt-banalita-zla.md) – diagnóza bezmyšlenkovitosti, z níž tato kapitola vychází.
 - [7.14 Heidegger: Být-ve-světě](@/kompendium/07-teoreticke-reflexe/heidegger-byt-ve-svete.md) – Arendtové učitel a protipól její teorie soudnosti.
-- [7.15 Sartre: Existencialismus](@/kompendium/07-teoreticke-reflexe/sartre-existencialismus.md) – špatná víra jako jiný popis úniku před myšlením.
+- [7.15 Sartre: Existencialismus](@/kompendium/07-teoreticke-reflexe/sartre-existencialismus.md) – [špatná víra](@/glossary/spatna-vira.md) jako jiný popis úniku před myšlením.
 - [7.53 Snyder: O tyranii](@/kompendium/07-teoreticke-reflexe/snyder-tyranny-essays.md) – aplikace arendtovských motivů na současnost.
 
 **Techniky a klinika**

@@ -5,7 +5,7 @@
     "hits": [
       {
         "code": null,
-        "in": 277,
+        "in": 279,
         "kind": "Pojem",
         "path": "glossary/disociace.md",
         "tier": 2,
@@ -35,7 +35,7 @@
       },
       {
         "code": "EA-5.3.4",
-        "in": 28,
+        "in": 30,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-5-3-4-telesna-disociace.md",
         "tier": 5,
@@ -65,7 +65,7 @@
       },
       {
         "code": null,
-        "in": 54,
+        "in": 56,
         "kind": "Pojem",
         "path": "glossary/body-schema.md",
         "tier": 6,

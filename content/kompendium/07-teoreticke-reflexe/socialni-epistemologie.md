@@ -144,7 +144,7 @@ Longino poskytuje kompendiu strukturální kritérium pro identifikaci patologic
 
 ### 3.4 Hodnotová neutralita: kritická revize
 
-Longino kriticky revidoval pojem **hodnotové neutrality** vědy. Argumentuje, že **neutralita** je nedosažitelná — všechny vědecké rámce nutně vtělují **hodnotové předpoklady**. Klíčem není neutralita, ale **transparentnost** těchto předpokladů a **otevřenost** ke kritice.
+Longino kriticky revidoval pojem **hodnotové neutrality** vědy. Argumentuje, že **neutralita** je nedosažitelná — všechny vědecké rámce nutně vtělují **hodnotové předpoklady**. Klíčem není neutralita, ale transparentnost těchto předpokladů a otevřenost ke kritice.
 
 Pro kompendium EA to má fundamentální důsledek: **kompendium samotné** vtěluje hodnotové předpoklady (závazek k epistemické integritě, k autonomii subjektu, k otevřené komunikaci). Tyto předpoklady jsou **explicitně deklarovány** ([2.5 Filosofický rámec](@/kompendium/02-uvod/filosoficky-ramec.md), [Filozofie: Epistemická integrita](@/philosophy/epistemic-integrity.md)) — nikoli skryté pod fasádou „neutrality“.
 

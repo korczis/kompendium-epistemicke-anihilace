@@ -80,7 +80,7 @@ se opírá o to, zda si člověk uvědomuje, že jde o „hlas skupiny“, zda j
 zda se fungování rozpadá i mimo něj; diagnostická kritéria psychotických a disociativních poruch
 se překrývají a vyžadují pozorování v čase (American Psychiatric Association, 2013).
 
-**Spouštěče** a jejich časová souvislost se mapují společně s člověkem. Lalich a Tobias (2006)
+Spouštěče a jejich časová souvislost se mapují společně s člověkem. Lalich a Tobias (2006)
 doporučují spouštěče pojmenovat a sepsat, protože jejich rozpoznání vrací pocit předvídatelnosti a
 kontroly.
 

@@ -78,7 +78,7 @@ Prvním opatřením je **ACH** pro klíčové otázky prověrky: tabulka hypoté
 na důkazy, které hypotézy odlišují, a výslovná úvaha, jaký důkaz by vedl k opuštění
 preferované hypotézy. Druhým je **[red team](@/glossary/red-team.md)** – osoba nebo skupina, která má za úkol
 formulovat nejsilnější případ proti závěru (viz [Red Team](@/glossary/red-team.md)).
-Třetím je **předběžná pitva** (Klein 2007):
+Třetím je **[předběžná pitva](@/glossary/predbezna-pitva.md)** (Klein 2007):
 tým si představí, že rozhodnutí dopadlo špatně, a hledá nejpravděpodobnější příčiny.
 Čtvrtým je **oddělení sběru a hodnocení** a **sekvenční odkrývání informací** – hodnotitel
 dostává informace postupně, aby kontext neovlivnil hodnocení dřívějších důkazů (Dror

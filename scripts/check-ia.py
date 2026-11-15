@@ -133,7 +133,14 @@ Requirements (id: what is checked):
                    sentence in the second cell ("| **Mechanismus** | … |") stays charged. ADR 0013.
                    Remedy: rewrite the row per page, or move a genuine shared field to a template.
                    NEVER baselined
-  access-level-row  no hand-written access level: a "| **Přístupová úroveň** | … |" row in content.
+  access-level-row  no hand-written access level: a "| **Přístupová úroveň** | … |" row in content,
+                   or the same claim as prose ("Přístupová úroveň L3.", "**Přístupová úroveň
+                   L3–L4**:", "Přístupová úroveň L2 (rozšířený přístup) —"), with or without a
+                   leading admonition marker. Removing the row from 420 pages left 41 prose
+                   occurrences in 40 files standing, 30 of them byte-identical on the
+                   quick-reference cards beside those very pages. A heading and a markdown link
+                   label are NOT charged: a documented classification section is its own decision,
+                   and "[Přístupová úroveň oddílu](…)" is navigation, not an assertion.
                    The access level is data (extra.access_level), rendered derived in the page header
                    as a link to 1.5 Bezpečnostní klasifikace; a typed row drifts (it had 11 variants).
                    Remedy: delete the row, rely on access_level. NEVER baselined
@@ -158,9 +165,11 @@ Requirements (id: what is checked):
                    first cells, Související, Literatura, key sentences over 6 words and the
                    entry's own page exempt); `link-terms.py --bold` fixes it and every gate
                    runs it (verify-content --fix, pre-push, CI), so it is NEVER baselined
-  bold-candidate   a worklist keyed bold:<slug>: a bold phrase of up to 6 words on 3+ pages that
-                   is not a term, a label or a link needs its own glossary page; when the page
-                   exists, the phrase leaves the list and bold-term enforces it
+  bold-candidate   keyed bold:<slug>: a bold phrase of up to 6 words on 3+ pages that is not a
+                   term, a label or a link needs its own glossary page (with a real source) or a
+                   link to the book's own page; when the page exists, the phrase leaves the list
+                   and bold-term enforces it. The worklist reached 0 in batch D (2026-11-14), so
+                   it is NEVER baselined: a new candidate fails and no baseline entry excuses it
   template-figure  a technique page carries no numeric table row or list item that stands
                    byte-identical on 3+ technique pages. Data measured for one technique is
                    never identical to another's, so an identical figure is machine template
@@ -204,7 +213,8 @@ import tomllib
 sys.dont_write_bytecode = True  # no __pycache__ in the checkout
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from ia_model import (ROOT, EA_ONLY, academic_profile, body_lines, bold_spans,  # noqa: E402
-                      bold_term_index, FENCE, figure_lines, TEMPLATE_FIGURE_PAGES, FIGURE,
+                      is_list_lead, bold_term_index, FENCE, figure_lines,
+                      TEMPLATE_FIGURE_PAGES, FIGURE,
                       detail_thresholds, ea_mentions, load_pages, load_terms,
                       placeholder_markers, slugify, technique_codes, cited_names, plain)
 
@@ -255,7 +265,7 @@ def stamp(path: str, name: str, now_counts: dict) -> str:
 # An unfinished page or a technique without a page is never an accepted state: these
 # requirements cannot be introduced into, extended in or hand-written into the baseline.
 NEVER_BASELINED = {"placeholder", "technique-page", "howto", "drug-dose", "template-figure",
-                   "bold-term",
+                   "bold-term", "bold-candidate",
                    "clinical-figure", "fabricated-citation", "legitimate-indication",
                    "code-range", "chrome-trailer",
                    "detail", "weak-link",
@@ -267,7 +277,7 @@ NEVER_BASELINED = {"placeholder", "technique-page", "howto", "drug-dose", "templ
 # `--list <rule>`); they are fixed in content, not accepted. Until then the gate fails only when
 # the count grows. The number may only go down, and the entry goes when it reaches 0.
 PENDING_ZERO = {"placeholder": 0, "technique-page": 0, "howto": 0, "drug-dose": 0,
-                "bold-term": 0,
+                "bold-term": 0, "bold-candidate": 0,
                 "code-range": 0, "chrome-trailer": 0,
                 "clinical-figure": 0,
                 "template-figure": 0, "platform-section": 0, "relative-link": 0,
@@ -349,7 +359,7 @@ def violations(page: dict) -> list:
         found.append("duplicate-passage")
     if page.get("duplicate_tables"):
         found.append("duplicate-table")
-    if page.get("access_level_row"):
+    if page.get("access_level_row") or page.get("access_level_prose"):
         found.append("access-level-row")
     if page.get("misnamed_techniques"):
         found.append("technique-name")
@@ -382,7 +392,10 @@ def explain(page: dict) -> dict:
         "legitimate-indication": "; ".join(page.get("legitimate_indication", [])[:2]),
         "duplicate-passage": "; ".join(b[:60] for b in page.get("duplicate_passages", [])[:2]),
         "duplicate-table": "; ".join(r[:60] for r in page.get("duplicate_tables", [])[:2]),
-        "access-level-row": "hand-written Přístupová úroveň row" if page.get("access_level_row") else "",
+        "access-level-row": ("hand-written Přístupová úroveň row" if page.get("access_level_row")
+                             else "hand-written Přístupová úroveň L<n> in prose — delete the level"
+                                  " claim, keep the rest of the sentence"
+                             if page.get("access_level_prose") else ""),
         "drug-name": ", ".join(page.get("drug_name", [])),
         "authority-without-source": "; ".join(f"({g})" for g in page.get("pasted_authorities", [])),
         "fabricated-citation": "; ".join(page.get("fabricated_citations", [])[:2]),
@@ -424,7 +437,13 @@ PLAYBOOK_SHAPE = re.compile(
 # heading — the same "Kritický krok" heading in 03/08 is a reader recognition exercise ("vyber
 # techniku, projdi Detekční markery") and is book-wide, so a heading match would flag 53 pages
 # outside 04. This tolerates the prose line wrap between "aplikací" and "protokol".
-PLAYBOOK_APPLIER = re.compile(r"před\s+aplikac[ií][\s\S]{0,60}?\bprotokol", re.I)
+# Also the same checklist SHAPED rather than worded: a line that opens with "Před aplikací" and ends
+# in a colon, and a numbered list
+# right under it, whatever its verbs ("1. Konzultuj … 2. Potvrď … 3. Dokumentuj"). The 06 chapter
+# carried that on 11 pages and the protokol/ověř wording missed it (2026-11-15, 2e).
+PLAYBOOK_APPLIER = re.compile(
+    r"před\s+aplikac[ií][\s\S]{0,60}?\bprotokol"
+    r"|^[ \t]*před\s+aplikac[ií]\b[^\n]{0,40}:[ \t]*\n[ \t]*\n?[ \t]*1[.)]\s", re.I | re.M)
 # The applier-facing PERMISSION (ADR 0013), the counterpart of the applier checklist: a heading on
 # a technique page naming legitimate indications / permitted use / conditions for application grants
 # permission to apply the technique; the book's frame is recognition and defence, not sanctioned
@@ -477,6 +496,17 @@ _DRUG_INNS = [
     r"carbamazepin\w*", r"methylfenidát\w*", r"metylfenidát\w*", r"atomoxetin\w*", r"naltrexon\w*",
     r"naloxon\w*", r"buprenorfin\w*", r"metadon\w*", r"ketamin\w*", r"esketamin\w*",
 ]
+# A cheap pre-filter for DRUG_NAME: every entry is a literal stem + \w*, so a page names a drug
+# only if one of its lower-cased words starts with a stem (str.startswith on a tuple runs in C;
+# the 65-way regex alternation tried at every word boundary was most of drug_names' 4.5 s).
+_DRUG_STEMS = tuple(e[:-3] for e in _DRUG_CLASSES + _DRUG_INNS) + ("ssri", "snri", "imao", "maoi")
+_WORDS = re.compile(r"\w+")
+
+
+def _may_name_drug(prose: str) -> bool:
+    return any(w.startswith(_DRUG_STEMS) for w in _WORDS.findall(prose.lower()))
+
+
 DRUG_NAME = re.compile(
     r"\b(?:" + "|".join(_DRUG_CLASSES + _DRUG_INNS) + r")"
     r"|\bSSRI\b|\bSNRI\b|\bIMAO\b|\bMAOI\b", re.I)
@@ -795,6 +825,29 @@ DUP_TABLE_MIN_WORDS = 8
 # page; the row must not be re-typed into content, where it drifts (11 hand-written variants before
 # this). The gate refuses any such row on a kompendium page.
 ACCESS_LEVEL_ROW = re.compile(r"^\|\s*\*\*Přístupová úroveň\*\*\s*\|", re.M)
+# The same claim written as prose rather than a table row. Removing the row from 420 pages left
+# 41 of these standing, 30 of them byte-identical on the quick-reference cards beside the
+# technique pages the row had just been cleared from, so a reader following a card link still met
+# it. The level is shown by the header badge from extra.access_level; a sentence that re-states it
+# is the same hand-written duplicate in a different shape.
+#
+# It matches the phrase followed by a level, however the sentence dresses it: bold or plain, with
+# or without a leading admonition marker, "L3", "L3–L4" (en dash or hyphen) or "L2 (rozšířený
+# přístup)", and a ".", ":" or "—" after it. It does NOT match a heading (a documented
+# classification section is a different decision, not a stray claim) and does NOT match a markdown
+# link label such as "[Přístupová úroveň oddílu](…)", which is navigation to that section rather
+# than an assertion about the current page.
+ACCESS_LEVEL_PROSE = re.compile(
+    r"(?<!\])\*{0,2}Přístupová\s+úroveň\*{0,2}\s*:?\s*"           # the phrase, bold or plain
+    r"\*{0,2}L\s*\d(?:\s*[–-]\s*L?\d)?"                            # L3, L3–L4, L2
+    r"(?:\s*\([^)]*\))?\*{0,2}"                                    # an optional "(rozšířený přístup)"
+    # Closed by "." ":" or a dash — but never by the dash INSIDE a range. Without this lookahead
+    # the engine backtracks on "L3–L4": it gives up the range, then takes the en dash as the
+    # terminator, and "## Přístupová úroveň: L3–L4" matched although a heading must not be charged.
+    # Measured: with it, 39 files on main and the heading untouched; without it, 40 and the heading.
+    r"\s*(?![–-]\s*L?\d)(?:[.:—–-]|\*\*\s*[.:—–-])",
+    re.M,
+)
 
 
 def table_rows(prose: str) -> set:
@@ -820,6 +873,12 @@ def drug_names(prose: str) -> list:
     """The distinct named drugs/classes in prose outside bibliography sections (a work's title is
     not a naming claim). content/references.md is excluded by the caller via EXEMPT, the historical
     case pages by DRUG_HISTORY_PREFIX; links to those cases and endogenous chemistry are skipped."""
+    # Most pages name no drug at all. The exemptions and the bibliography cut only REMOVE text, so
+    # a page with no match in its whole prose cannot have one after them: one pass decides it,
+    # instead of three regex passes on every page (2026-11-15 profile: drug_names was 4.9 s of
+    # check-ia's 23.6 s).
+    if not _may_name_drug(prose):
+        return []
     prose = ENDOGENOUS.sub("", HISTORY_LINK.sub("", prose))
     kept, in_biblio = [], False
     for line in prose.split("\n"):
@@ -881,6 +940,8 @@ def analyse(pages: list) -> dict:
             # stale and is charged, so the exemption is removed with its reason
             names = [] if names else ["stale entry in data/drug-recognition.toml"]
         page["drug_name"] = names
+        page["access_level_prose"] = (page["path"].startswith("kompendium/")
+                                      and bool(ACCESS_LEVEL_PROSE.search(prose)))
         page["access_level_row"] = (page["path"].startswith("kompendium/")
                                     and bool(ACCESS_LEVEL_ROW.search(prose)))
         lower_freq.update(LOWER_WORD.findall(prose))
@@ -914,7 +975,7 @@ def analyse(pages: list) -> dict:
             for row in table_rows(prose):
                 tables[row].add(page["path"])
         page["bold_unlinked"] = []
-        for _, _, text, linked in bold_spans(body, lines):
+        for start, _, text, linked in bold_spans(body, lines):
             if linked:
                 continue
             key = slugify(text)
@@ -922,7 +983,8 @@ def analyse(pages: list) -> dict:
             if target:
                 if target != page["path"]:
                     page["bold_unlinked"].append((text, target))
-            elif re.search(r"[^\W\d_]", text) and not EA_ONLY.match(key):
+            elif (re.search(r"[^\W\d_]", text) and not EA_ONLY.match(key)
+                  and not is_list_lead(body, start)):
                 phrases[key].add(page["path"])
                 shown.setdefault(key, text)
     shared = {line: paths for line, paths in figures.items()

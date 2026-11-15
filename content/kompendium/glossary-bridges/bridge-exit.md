@@ -16,7 +16,7 @@ date_modified = "2026-11-10"
 
 # Bridge: Odchod (exit)
 
-> **Most** spojuje pojem odchodu (*exit*) s místy knihy, kde se odchod z manipulativního prostředí
+> Most spojuje pojem odchodu (*exit*) s místy knihy, kde se odchod z manipulativního prostředí
 > připravuje, provádí a zpracovává. Přehled mostů je v rejstříku
 > [Glossary Bridges](@/kompendium/glossary-bridges/_index.md).
 

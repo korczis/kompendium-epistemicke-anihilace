@@ -24,14 +24,18 @@ Rozlišení akutního a chronického je převzato z klinické praxe, kde běžn�
 
 ## Jak se projevuje
 
-Typické znaky během akutního narušení nebo bezprostředně po něm:
+Akutní narušení se projevuje během zátěže nebo bezprostředně po ní. Manuál DSM-5 popisuje u akutní stresové
+reakce dezorientaci, prožitky [depersonalizace](@/glossary/depersonalizace.md) a derealizace („jako bych se
+díval na film“, „nic není skutečné“), zúžení pozornosti a výpadky paměti na časové úseky, k nimž se přidávají
+tělesné projevy stresové reakce, jako je bušení srdce, třes, ztuhnutí nebo nespavost (American Psychiatric
+Association, 2013). Herman (1992) popisuje, že pod náporem ohrožení se člověk může ocitnout ve stavu, kdy
+neví, čemu věřit, i v otázkách, které mu byly ještě před chvílí jasné, a že jeho rozhodování buď ochromí, nebo
+se podřídí rámci, který mu vnutil druhý.
 
-- dezorientace: člověk neví, čemu věřit, i v otázkách, které byly ještě před chvílí jasné;
-- prožitky [depersonalizace](@/glossary/depersonalizace.md) a derealizace – „jako bych se díval na film“, „nic není skutečné“;
-- zúžení pozornosti, výpadky paměti na časové úseky, potíže s řazením událostí;
-- náhlá nejistota ve vlastních vzpomínkách („možná jsem si to vymyslel“);
-- ochromení rozhodování, nebo naopak impulzivní rozhodnutí přijaté v cizím rámci;
-- tělesné projevy stresové reakce: bušení srdce, třes, ztuhnutí, nespavost.
+Zvláštním znakem akutního narušení vyvolaného manipulací je náhlá nejistota ve vlastních vzpomínkách
+(„možná jsem si to vymyslel“). Sweet (2019) ukazuje, že zpochybňování vnímání a paměti druhého patří k jádru
+gaslightingu a že jeho účinek se opírá o nerovnost moci ve vztahu. Tyto znaky samy diagnózu nestanoví; jejich
+posouzení patří odborníkovi.
 
 Z pozice pozorovatele je nápadný **ostrý zlom**: člověk, který fungoval souvisle, je během krátké doby rozpadlý a hledá vnější autoritu, která by mu řekla, co se děje.
 
@@ -43,10 +47,12 @@ Akutní narušení také může být vstupní branou do chronického stavu, poku
 
 ## Odlišení
 
-- **Chronická expozice** působí pozvolna a člověk si změnu často neuvědomí; akutní narušení má zřetelný začátek.
-- **Akutní stresová reakce a [PTSD](@/glossary/ptsd.md)**: akutní narušení se s nimi může překrývat, ale Kompendium sleduje především poškození poznávacích funkcí; klinická diagnóza zůstává věcí odborného vyšetření.
-- **Psychotická epizoda** se může projevovat podobnou dezorientací; rozlišení patří psychiatrovi, viz [diferenciální diagnostika EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md).
-- **Intoxikace, somatické onemocnění a neurologické příčiny** musí být vyloučeny dřív, než se stav vyloží jako následek manipulace.
+| Odlišit od | Rozdíl |
+| --- | --- |
+| Chronická expozice | působí pozvolna a člověk si změnu často neuvědomí; akutní narušení má zřetelný začátek |
+| Akutní stresová reakce a [PTSD](@/glossary/ptsd.md) | akutní narušení se s nimi může překrývat, ale Kompendium sleduje především poškození poznávacích funkcí; klinická diagnóza zůstává věcí odborného vyšetření |
+| Psychotická epizoda | může se projevovat podobnou dezorientací; rozlišení patří psychiatrovi, viz [diferenciální diagnostika EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md) |
+| Intoxikace, somatické onemocnění a neurologické příčiny | musí být vyloučeny dřív, než se stav vyloží jako následek manipulace |
 
 ## Význam pro Kompendium
 
@@ -63,6 +69,12 @@ Anonymizovaný kompozit: Člověk se po víkendovém intenzivním pobytu v uzav�
 ## Meze a otevřené otázky
 
 Hranice mezi akutním a chronickým působením je pracovní: dny trvající narušení může být vrcholem dlouhé přípravy. Kompendium zatím nemá validované měřítko „epistemické“ složky akutního stavu; klinické nástroje měří stres, disociaci a příznaky traumatu, ne přímo schopnost poznávat. Otevřená zůstává i otázka, jak často akutní narušení přechází v trvalý stav a co tomu nejlépe brání.
+
+## Literatura
+
+- American Psychiatric Association. (2013). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed.). Washington, DC: APA.
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- Sweet, P. L. (2019). *The sociology of gaslighting*. American Sociological Review, 84(5).
 
 ## Související
 

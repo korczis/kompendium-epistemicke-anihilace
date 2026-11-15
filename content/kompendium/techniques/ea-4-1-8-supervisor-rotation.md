@@ -33,7 +33,7 @@ parent_chapter = "/kompendium/04-terminalni-protokoly/"
 
 ## Definice
 
-**Supervisor rotation** představuje protokol pravidelné rotace supervizorů během extrémní výcvikové sekvence pro prevenci závislostních a kanibalizačních vzorců. V rámci kompendia je technika klasifikována jako **terminální protokol** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození. Důvodem je doložená zátěž na straně pomáhajícího: opakovaný kontakt s traumatickým materiálem mění toho, kdo pomáhá, a mění ho tím nenápadněji, čím déle trvá (Figley, 1995).
+**Supervisor rotation** představuje protokol pravidelné rotace supervizorů během extrémní výcvikové sekvence pro prevenci závislostních a kanibalizačních vzorců. V rámci kompendia je technika klasifikována jako **[terminální protokol](@/kompendium/04-terminalni-protokoly/_index.md)** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození. Důvodem je doložená zátěž na straně pomáhajícího: opakovaný kontakt s traumatickým materiálem mění toho, kdo pomáhá, a mění ho tím nenápadněji, čím déle trvá (Figley, 1995).
 
 Stránka slouží rozpoznání vzorce, nikoli jeho provedení.
 

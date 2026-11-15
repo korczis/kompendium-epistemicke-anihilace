@@ -19,7 +19,7 @@ status = "publikovano"
 
 # Před-simulační screening
 
-> ⚠️ **L2 — Analytické porozumění.** Tato studie popisuje strukturu **vstupního screeningu** pro účast v simulacích a výcvikových sekvencích s vysokým intenzitním profilem. Doplňuje [Kapitolu 5: Specializované bezpečnostní protokoly](@/kompendium/04-terminalni-protokoly/kapitola-5.md) a poskytuje detailní rozpracování pre-engagement vrstvy.
+> **L2 — Analytické porozumění.** Tato studie popisuje strukturu **vstupního screeningu** pro účast v simulacích a výcvikových sekvencích s vysokým intenzitním profilem. Doplňuje [Kapitolu 5: Specializované bezpečnostní protokoly](@/kompendium/04-terminalni-protokoly/kapitola-5.md) a poskytuje detailní rozpracování pre-engagement vrstvy.
 
 ## Postavení screeningu v bezpečnostním rámci
 

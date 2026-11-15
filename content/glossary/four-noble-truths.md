@@ -23,12 +23,15 @@ image_alt = "Four Noble Truths – glosář"
 
 **Čtyři vznešené pravdy** (pálijsky *cattāri ariyasaccāni*, anglicky *Four Noble Truths*) jsou diagnosticko-terapeutickým jádrem rané buddhistické epistemologie, tradičně spojovaným s *Dhammačakkappavattana suttou* (Rozprava o roztočení kola učení). Kompendium s nimi zachází **výhradně jako s formální epistemickou strukturou** – bez jakéhokoli náboženského závazku. Tak chápány vyjadřují čtyřkrokové diagnostické schéma, které je strukturálně velmi blízké současným taxonomiím epistemické újmy.
 
-Čtyři pravdy tvoří **lékařskou analogii**, na kterou výslovně upozorňují klasické komentáře:
+Čtyři pravdy tvoří **lékařskou analogii**, na kterou výslovně upozorňují klasické komentáře; Rahula
+(1959) je vykládá jako postup lékaře, který určí nemoc, její příčinu, možnost uzdravení a léčbu:
 
-1. **Dukkha** (neuspokojivost, „nemoc“) – diagnostické určení: problém *existuje*; současný stav subjektu je strukturálně neuspokojivý. Nejde o „všechno je utrpení“ z populární karikatury, ale o tvrzení, že podmíněný, reaktivní způsob poznávání je ze své podstaty nestabilní.
-2. **Samudaja** (vznik) – etiologie: neuspokojivost má *příčiny*, konkrétně žízeň (*taṇhā*) a nevědomost (*avijjā*) ohledně podmíněné povahy zkušenosti.
-3. **Niródha** (ustání) – prognóza: stav *není* trvalý; příčinný řetězec lze přerušit.
-4. **Magga** (cesta) – terapie: osmidílný praktický postup, jak řetězec přerušit.
+| Pravda | Obsah | Lékařská obdoba |
+| --- | --- | --- |
+| **Dukkha** (neuspokojivost, „nemoc“) | problém *existuje*: podmíněný, reaktivní způsob poznávání a prožívání je strukturálně neuspokojivý; nejde o „všechno je utrpení“ z populární karikatury | diagnóza |
+| **Samudaja** (vznik) | neuspokojivost má *příčiny*, konkrétně žízeň (*taṇhā*) a nevědomost (*avijjā*) ohledně podmíněné povahy zkušenosti | etiologie |
+| **Niródha** (ustání) | stav *není* trvalý; příčinný řetězec lze přerušit | prognóza |
+| **Magga** (cesta) | osmidílný praktický postup, jak řetězec přerušit | terapie |
 
 Epistemicky zajímavá – a důvodem zařazení do glosáře – je **diagnostická kázeň**, kterou struktura vyžaduje: určit nemoc, určit její příčiny, doložit, že ustání je možné, a specifikovat postup. To je strukturálně totožné s diagnosticko-terapeutickou logikou [Kompendia](@/kompendium/_index.md): určit techniku EA (EA-X.Y.Z-α), určit její mechanismus, doložit, že zotavení je možné, a specifikovat protokol zotavení.
 
@@ -53,20 +56,22 @@ Podstatným strukturním rysem je, že třetí pravda (*niródha*) není triviá
 
 ## Odlišení
 
-- **Od náboženské nauky:** Kompendium nepřebírá buddhistickou soteriologii, karmu ani znovuzrození; přebírá jen formu úvahy.
-- **Od [spiritual bypassing](@/glossary/spiritual-bypassing.md):** zneužití buddhistického jazyka („všechno je utrpení, nelpi na tom“) k přeskočení skutečné bolesti a skutečné křivdy je opakem diagnostické kázně, o kterou jde zde.
-- **Od kultických adaptací:** skupiny s vysokou kontrolou někdy přebírají buddhistické pojmy (nelpění, rozpouštění ega) jako nástroje kontroly; viz [ego death](@/glossary/ego-death.md) a [vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md).
-- **Od lékařského modelu jako celku:** analogie je strukturní; nečiní z EA nemoc v medicínském smyslu ([kritika medikalizace](@/kompendium/critical-perspectives/1-medicalization-critique.md)).
+| Odlišit od | Rozdíl |
+| --- | --- |
+| Náboženská nauka | Kompendium nepřebírá buddhistickou soteriologii, karmu ani znovuzrození; přebírá jen formu úvahy |
+| [Spiritual bypassing](@/glossary/spiritual-bypassing.md) | zneužití buddhistického jazyka („všechno je utrpení, nelpi na tom“) k přeskočení skutečné bolesti a křivdy je opakem diagnostické kázně, o kterou jde zde |
+| Kultické adaptace | skupiny s vysokou kontrolou někdy přebírají buddhistické pojmy (nelpění, rozpouštění ega) jako nástroje kontroly; viz [ego death](@/glossary/ego-death.md) |
+| Lékařský model jako celek | analogie je strukturní a nečiní z epistemické anihilace nemoc v medicínském smyslu ([kritika medikalizace](@/kompendium/critical-perspectives/1-medicalization-critique.md)) |
 
 ## Význam pro Kompendium
 
 Kniha se na strukturu čtyř pravd neodkazuje jako na náboženský obsah, ale jako na **srovnávací diagnostický rámec** v kapitole [Rámce zotavení](@/kompendium/recovery-protocols/ramce.md) – vedle aristotelské *eudaimonie*, stoické *prosoché* a terapeutických schémat KBT a ACT. Srovnání napříč tradicemi má konkrétní účel: určit **invariantní rysy** každého důvěryhodného rámce zotavení z epistemické újmy.
 
-Napříč všemi tradicemi se objevují tři invarianty:
-
-1. **diagnostická přesnost** – újmu pojmenovat přesně;
-2. **příčinná etiologie** – určit mechanismus, ne jen příznak;
-3. **specifikace cesty** – protokol zotavení musí být vyjmenovatelný, opakovatelný a falzifikovatelný.
+Napříč všemi tradicemi se objevují tři invarianty, které kniha z této formy úvahy přebírá: diagnostická
+přesnost, tedy újmu pojmenovat přesně, příčinná etiologie, tedy určit mechanismus a ne jen příznak, a
+specifikace cesty, podle níž má být protokol zotavení vyjmenovatelný, opakovatelný a falzifikovatelný.
+*Interpretace knihy*: jde o tutéž posloupnost diagnózy, příčiny, prognózy a léčby, kterou Rahula (1959)
+popisuje u čtyř pravd, přenesenou z buddhistické nauky na metodu knihy.
 
 Složka *anattá* (nepřítomnost já) buddhistické epistemologie do rámce knihy **začleněna není** – nese metafyzické závazky, které s diagnostickou otázkou nesouvisejí. Kniha se omezuje na strukturní kostru.
 

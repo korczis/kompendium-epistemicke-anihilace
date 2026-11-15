@@ -120,7 +120,7 @@ a spory o děti.
 
 V Česku je samostatný trestný čin coercive control neznámý; vzorec lze postihnout jako
 týrání osoby žijící ve společném obydlí (§ 199 trestního zákoníku), nebezpečné
-pronásledování (§ 354) nebo vydírání (§ 175). Policie může násilnou osobu vykázat ze
+pronásledování (§ 354) nebo [vydírání](@/glossary/vydirani.md) (§ 175). Policie může násilnou osobu vykázat ze
 společného obydlí. Pro klinika je rámec vodítkem k otázkám, které se ptají na vzorec
 a svobodu, ne jen na zranění. Viz [právo o coercive control](@/kompendium/forensic-legal/12-coercive-control-law.md)
 a [rodinné právo](@/kompendium/forensic-legal/41-family-court-EA.md).
@@ -135,10 +135,10 @@ s tím, že rozhodnutí odejít může přijít až po několika pokusech.
 
 ## Obrana a neutralizace
 
-**Pro oběť.** Pojmenovat vzorec, vést si bezpečně uložený záznam, mít bezpečnostní plán
-a kontakt na intervenční centrum; obnovovat i drobné vztahy mimo domov. **Pro profesionály.**
+Pro oběť. Pojmenovat vzorec, vést si bezpečně uložený záznam, mít bezpečnostní plán
+a kontakt na intervenční centrum; obnovovat i drobné vztahy mimo domov. Pro profesionály.
 Ptát se v soukromí, sledovat vzorec v čase a brát vážně strach bez zranění; při rozchodu
-posoudit riziko. **Pro soudy a policii.** Hodnotit souhrn chování, ne izolované incidenty
+posoudit riziko. Pro soudy a policii. Hodnotit souhrn chování, ne izolované incidenty
 ([pattern evidence](@/glossary/pattern-evidence.md), [pattern důkaz](@/kompendium/forensic-legal/38-pattern-evidence.md)).
 
 **Otázky, které pomáhají v rozhovoru.** Co nesmíte dělat bez jeho svolení? Kdy jste

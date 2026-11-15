@@ -20,8 +20,8 @@ zostuzení. Datová bezpečnost proto není technický detail, ale etická povin
 
 ## Vymezení
 
-Datová bezpečnost zahrnuje opatření, která chrání **důvěrnost** (k datům mají přístup jen
-oprávnění), **integritu** (data nejsou neoprávněně změněna) a **dostupnost** (data jsou
+Datová bezpečnost zahrnuje opatření, která chrání důvěrnost (k datům mají přístup jen
+oprávnění), integritu (data nejsou neoprávněně změněna) a dostupnost (data jsou
 k dispozici, když je třeba). GDPR vyžaduje u osobních údajů „vhodná technická a organizační
 opatření“ a u zvláštních kategorií údajů (zdraví, náboženské a filozofické přesvědčení,
 sexuální život) zvýšenou ochranu. U rozsáhlého zpracování zvláštních kategorií se obvykle

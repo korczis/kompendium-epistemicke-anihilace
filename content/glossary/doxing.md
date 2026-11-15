@@ -127,7 +127,7 @@ o digitálních službách, nařízení (EU) 2022/2065. Citronová přitom opako
 rozhodující překážkou nebývá chybějící norma, ale vymahatelnost v reálném čase (Citron, 2014).
 
 Trestněprávně může doxing naplnit znaky nebezpečného pronásledování podle § 354 zákona
-č. 40/2009 Sb., trestního zákoníku, případně vydírání nebo nebezpečného vyhrožování, je-li
+č. 40/2009 Sb., trestního zákoníku, případně [vydírání](@/glossary/vydirani.md) nebo nebezpečného vyhrožování, je-li
 spojen s dalším jednáním; občanskoprávně přichází v úvahu ochrana osobnosti. Pro uchování
 důkazů a jejich použitelnost v řízení platí nároky popsané v heslech [chain of
 custody](@/glossary/chain-of-custody.md) a v kapitolách [Ochrana

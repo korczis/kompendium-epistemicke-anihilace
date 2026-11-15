@@ -64,7 +64,7 @@ je jistá.
 - [Dezinformace o skutečném majiteli](@/kompendium/cross-domain/13-ea-dd-beneficial-ownership-disinformation.md) – nepravda strukturou.
 - [Narativní válka kolem firem](@/kompendium/cross-domain/14-ea-dd-narrative-warfare.md) – hodnotit tvrzení, ne hlasitost.
 - [Hodnocení kvality důkazů](@/kompendium/cross-domain/15-ea-dd-evidence-quality-assessment.md) – co dokument skutečně dokládá.
-- [Prevence konfirmačního zkreslení](@/kompendium/cross-domain/16-ea-dd-confirmation-bias-prevention.md) – ACH, [red team](@/glossary/red-team.md), předběžná pitva.
+- [Prevence konfirmačního zkreslení](@/kompendium/cross-domain/16-ea-dd-confirmation-bias-prevention.md) – ACH, [red team](@/glossary/red-team.md), [předběžná pitva](@/glossary/predbezna-pitva.md).
 
 ## Kybernetická bezpečnost
 

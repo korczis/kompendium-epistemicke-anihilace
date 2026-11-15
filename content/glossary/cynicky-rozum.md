@@ -24,13 +24,15 @@ Kompendium pojem zasazuje do přehledu v kapitole [7.1 Filosofický rámec EA: F
 
 ## Jak se projevuje
 
-Znaky cynického rozumu v jednotlivci, skupině nebo instituci:
+Cynický rozum se pozná podle toho, že vědění nevede ke změně. Sloterdijk (1983) ho popisuje jako
+osvícené falešné vědomí: člověk o pravidlech otevřeně říká, že jsou „jen hra“, a přesto se jimi řídí,
+a ironie se stává hlavním tónem komunikace, protože co se nebere vážně, nemusí být změněno. Žižek (1989)
+tento postoj shrnuje formulí, podle níž lidé velmi dobře vědí, co dělají, a přesto to dělají.
 
-- otevřené přiznání, že pravidla jsou „jen hra“, spojené s jejich bezvýhradným dodržováním;
-- ironie jako hlavní tón komunikace: nic se nebere vážně, takže nic nemusí být změněno;
-- odpověď na odhalení není stud ani náprava, ale pokrčení ramen („všichni to přece vědí“);
-- pravdivost přestává být hodnotou: rozhoduje, co funguje, co se vyplatí, co projde;
-- mladší nebo nově příchozí členové se učí, že naivní je ten, kdo věří, a chytrý ten, kdo „prokoukl“ a přizpůsobil se.
+Odtud plyne, proč odhalení na cynický rozum nepůsobí. Odpovědí na ně není stud ani náprava, ale
+pokrčení ramen („všichni to přece vědí“), protože kritika, která odhaluje skrytou pravdu, předpokládá
+nevědomost, a ta tu chybí (Žižek, 1989). Sloterdijk (1983) dodává, že cynik jedná proti lepšímu vědění
+z důvodu sebezáchovy, takže rozhoduje, co funguje a co projde, nikoli co je pravdivé.
 
 ## Mechanismus
 
@@ -40,10 +42,12 @@ V epistemické rovině to vede k plíživé **devalvaci pravdy**: rozdíl mezi p
 
 ## Odlišení
 
-- **Klasické falešné vědomí** (Marxova tradice) předpokládá nevědomost; cynický rozum vědění předpokládá.
-- **[Skepticismus](@/glossary/skepticismus.md)** je metodická pochybnost, která hledá důvody; cynismus pochybnost ukončuje dřív, než by k něčemu zavazovala (viz [skepticismus](@/glossary/skepticismus.md)).
-- **Zdravá ironie a humor** chrání odstup a mohou být formou odporu – tím je Sloterdijkův kynismus; cynismus naopak slouží přizpůsobení.
-- **[Banalita zla](@/glossary/banalita-zla.md)** popisuje absenci úsudku; cynický rozum úsudek má, ale nevyvozuje z něj nic.
+| Odlišit od | Rozdíl |
+| --- | --- |
+| Klasické falešné vědomí (marxistická tradice) | předpokládá nevědomost; cynický rozum vědění předpokládá |
+| [Skepticismus](@/glossary/skepticismus.md) | metodická pochybnost, která hledá důvody; cynismus pochybnost ukončuje dřív, než by k něčemu zavazovala |
+| Zdravá ironie a humor | chrání odstup a mohou být formou odporu, což je Sloterdijkův kynismus; cynismus naopak slouží přizpůsobení |
+| [Banalita zla](@/glossary/banalita-zla.md) | popisuje absenci úsudku; cynický rozum úsudek má, ale nevyvozuje z něj nic |
 
 ## Význam pro Kompendium
 

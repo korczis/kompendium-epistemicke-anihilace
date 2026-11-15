@@ -24,12 +24,12 @@ Každý scénář je samostatná výuková jednotka se stejnou strukturou:
 - **Scénář** – realistický, obecný případ a postup práce po krocích;
 - **Signály, kterých si všimnout** – markery s odkazy na
   [detekční signatury](@/kompendium/detection-signatures/_index.md);
-- **Diskusní otázky** a **Modelové odpovědi** – odpovědi nejsou jediné správné, ukazují úroveň
+- **Diskusní otázky** a Modelové odpovědi – odpovědi nejsou jediné správné, ukazují úroveň
   argumentace, kterou je rozumné očekávat;
 - **Časté chyby** – včetně opačných extrémů (paušální podezíravost, nálepkování);
 - **Debriefing pro facilitátora** – jak vést závěrečnou reflexi a jak pečovat o účastníky,
   kteří ve scénáři poznají vlastní zkušenost;
-- **Rozšiřující úkoly** a **Související** – další práce a odkazy na techniky,
+- **Rozšiřující úkoly** a Související – další práce a odkazy na techniky,
   [sebe-obranu](@/kompendium/self-defense-guides/_index.md), [glosář](@/glossary/_index.md)
   a sousední scénáře.
 

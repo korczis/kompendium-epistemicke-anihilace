@@ -124,7 +124,7 @@ veřejném ochránci práv.
 | Situace | Postup |
 |---|---|
 | Ohrožení života | 155, akutní protokoly |
-| Podezření na trestný čin (sexuální zneužití, vydírání) | informovat pacienta o možnosti oznámení; Policie ČR (158) |
+| Podezření na trestný čin (sexuální zneužití, [vydírání](@/glossary/vydirani.md)) | informovat pacienta o možnosti oznámení; Policie ČR (158) |
 | Pacient chce podat stížnost | informace o postupu: stížnost poskytovateli, krajskému úřadu, profesní komoře; veřejný ochránce práv u omezení svobody |
 | Pochybná diagnóza nebo léčba | nové vyšetření, [druhý názor](@/kompendium/emergency-protocols/38-second-opinion-emergency.md) |
 | Bývalý terapeut stále kontaktuje pacienta | bezpečnostní plán, právní pomoc |

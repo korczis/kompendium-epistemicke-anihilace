@@ -44,7 +44,7 @@ metodu: návrat „k věcem samým“, k tomu, jak se dávají. Klíčovým post
 [epoché](@/glossary/epoche.md), uzávorkování předpokladů o existenci světa, aby bylo možné
 popsat strukturu zkušenosti – její [intencionalitu](@/glossary/intentionalita.md), časovost,
 tělesnost. Na Husserla navázali Heidegger, Merleau-Ponty a další; v současnosti
-fenomenologie spolupracuje s kognitivní vědou a psychiatrií (fenomenologická psychopatologie).
+fenomenologie spolupracuje s kognitivní vědou a psychiatrií ([fenomenologická psychopatologie](@/glossary/fenomenologicka-psychopatologie.md)).
 
 ## Jak se projevuje
 

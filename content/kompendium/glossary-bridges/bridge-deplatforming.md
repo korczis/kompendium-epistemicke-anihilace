@@ -16,7 +16,7 @@ toc = false
 
 # Bridge: Deplatforming
 
-> **Most** vede od hesla glosáře k místům knihy, kde se pojem používá, a od nich k praxi:
+> Most vede od hesla glosáře k místům knihy, kde se pojem používá, a od nich k praxi:
 > rozpoznání, obraně a zotavení. Přehled všech mostů je v rejstříku
 > [Glossary Bridges](@/kompendium/glossary-bridges/_index.md).
 
@@ -49,7 +49,7 @@ zdůrazňuje: deplatforming může snížit šíření škodlivého obsahu a zá
 ### Kdy se z moderace stává umlčení
 
 Kniha navrhuje sledovat čtyři znaky, které odlišují legitimní moderaci od deplatformingu jako
-nástroje delegitimizace: **transparentnost** (je známo, podle jakého pravidla a proč se zasáhlo?),
+nástroje delegitimizace: transparentnost (je známo, podle jakého pravidla a proč se zasáhlo?),
 **proporcionalitu** (odpovídá zásah závažnosti porušení?), **možnost obrany** (může zasažený
 rozhodnutí napadnout?) a **koordinaci** (nejde o souběžný tlak na více platforem a institucí, jehož
 cílem je člověka zcela vyřadit?). Čtvrtý znak kniha popisuje jako kaskádu.

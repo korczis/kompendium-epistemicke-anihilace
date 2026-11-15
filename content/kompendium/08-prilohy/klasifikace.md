@@ -260,7 +260,7 @@ jako údaj o jeho osobě.
 
 ## Kritický krok
 
-**Tato příloha je referenční nástroj** — není k četbě od začátku do konce.
+Tato příloha je referenční nástroj — není k četbě od začátku do konce.
 Místo lineární četby:
 
 1. Identifikuj konkrétní termín / techniku / nástroj, který právě potřebuješ

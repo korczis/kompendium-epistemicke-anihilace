@@ -19,7 +19,7 @@ status = "publikovano"
 
 # Identitní dekonstrukce
 
-> ⚠️ **L2 — Analytické porozumění.** Tato studie analyzuje terminální protokol cílený na **strukturu narativní identity** subjektu. Patří mezi nejnebezpečnější protokoly v taxonomii — produkuje hluboké, často protrahované klinické následky a strukturálně směřuje k [ontologické anihilaci](@/glossary/ontologicka-anihilace.md). Materiál zachovává princip strategické neúplnosti.
+> **L2 — Analytické porozumění.** Tato studie analyzuje terminální protokol cílený na **strukturu narativní identity** subjektu. Patří mezi nejnebezpečnější protokoly v taxonomii — produkuje hluboké, často protrahované klinické následky a strukturálně směřuje k [ontologické anihilaci](@/glossary/ontologicka-anihilace.md). Materiál zachovává princip strategické neúplnosti.
 
 ## Pozice protokolu v taxonomii
 

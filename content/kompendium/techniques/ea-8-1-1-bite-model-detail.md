@@ -122,8 +122,8 @@ stupňuje, nebo slábne. Zápis by měl uvádět i to, co se nepotvrdilo.
 
 ## Obrana a neutralizace
 
-**Pro jednotlivce a rodiny.** Seznam slouží k sebereflexi a k rozhovoru, ne jako zbraň:
-konfrontace členem skupiny („podívej, jste sekta“) obvykle posílí obranu. **Pro profesionály.**
+Pro jednotlivce a rodiny. Seznam slouží k sebereflexi a k rozhovoru, ne jako zbraň:
+konfrontace členem skupiny („podívej, jste sekta“) obvykle posílí obranu. Pro profesionály.
 Pozor na zneužití: model lze nadužívat a označovat jím každou silnou komunitu
 ([framework overreach](@/kompendium/critical-perspectives/3-framework-overreach.md),
 [riziko falešně pozitivních detekcí](@/kompendium/critical-perspectives/5-false-positive-risk.md)).

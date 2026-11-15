@@ -121,20 +121,20 @@ dovolilo muži vidět, že jeho reakce nejsou povahový rys, ale naučená ochra
 
 Terapie pracovala s [protokolem epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
 a s [biografickou rekonstrukcí časové osy](@/kompendium/06-klinicke-aplikace/biographical-timeline-rekonstrukce.md).
-Ve **S1 – validaci a mapování** terapeut uznal, že obavy rodiny byly realistické a adaptivní, a
+Ve S1 – validaci a mapování terapeut uznal, že obavy rodiny byly realistické a adaptivní, a
 s klientem zmapoval životní rozhodnutí ovlivněná režimem. Herman (1992) zdůrazňuje, že porozumění
 traumatu vyžaduje uznat jeho společenský a politický kontext; bez tohoto uznání by terapie
 individualizovala to, co bylo společenské.
 
-Ve **S2 – externalizaci introjektů** se pravidla „neříkej, co si myslíš“ a „instituce lžou“ oddělila
+Ve S2 – externalizaci introjektů se pravidla „neříkej, co si myslíš“ a „instituce lžou“ oddělila
 od svého historického zdroje. Ve **S3 – rekonstrukci [metakognice](@/glossary/metakognice.md)**
 probíhala kalibrace důvěry: nácvik rozlišování mezi institucemi podle doložitelného chování, ne
 podle formy jejich řeči; viz [kalibrace důvěry](@/kompendium/self-defense-guides/23-trust-calibration.md).
 Kuran (1995) ukazuje, že po pádu režimu, který falšování preferencí vynucoval, se veřejný a
 soukromý projev nesbíhají automaticky; je třeba je znovu propojit.
 
-Ve **S4 – hermeneutické obnově** vzniklo nové porozumění otcově biografii včetně jeho kompromisů,
-bez heroizace i odsudku. **S5 – konsolidace a transfer** přinesla nácvik vyjadřování nesouhlasu
+Ve S4 – hermeneutické obnově vzniklo nové porozumění otcově biografii včetně jeho kompromisů,
+bez heroizace i odsudku. S5 – konsolidace a transfer přinesla nácvik vyjadřování nesouhlasu
 v bezpečných situacích a jeho postupné rozšiřování na pracovní prostředí. Hirsch (2012)
 chápe postpaměť jako vztah zprostředkovaný vyprávěním a představivostí; terapeutická práce proto
 hledá vyprávění, které minulost nepopírá, ale ani jí nedovoluje ovládnout přítomnost.

@@ -74,7 +74,7 @@ Registr předpovědí je sám o sobě záznamem: datum, předpověď, kdo ji vys
 
 ## Časový rámec a indikátory pokroku
 
-Měsíčně zhruba dvě hodiny na registr a seznam opuštěných názorů; předběžná pitva před každým rozhodnutím s dlouhodobým dopadem. Pokrok poznáte podle toho, že dokážete změnit názor bez pocitu porážky, že rozlišíte víru od vědění ([diferenciace](@/glossary/diferenciace.md)) a že vás neodradí, když vás za otázku „co by to vyvrátilo?“ někdo zesměšní.
+Měsíčně zhruba dvě hodiny na registr a seznam opuštěných názorů; [předběžná pitva](@/glossary/predbezna-pitva.md) před každým rozhodnutím s dlouhodobým dopadem. Pokrok poznáte podle toho, že dokážete změnit názor bez pocitu porážky, že rozlišíte víru od vědění ([diferenciace](@/glossary/diferenciace.md)) a že vás neodradí, když vás za otázku „co by to vyvrátilo?“ někdo zesměšní.
 
 ## Kdy a koho požádat o pomoc
 

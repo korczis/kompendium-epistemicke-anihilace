@@ -19,7 +19,7 @@ status = "publikovano"
 
 # Kontrolovaná rekonstituce — etický rekonstrukční protokol
 
-> ⚠️ **L2 — Analytické porozumění.** Tato studie popisuje **strukturu rekonstrukčního protokolu**, který musí následovat každou intenzivní expozici extrémnímu výcviku. Bez tohoto kroku přechází i intenčně legitimní výcvik do destruktivní zóny. Materiál slouží jako referenční rámec pro klinické pracoviště, výcvikové instituce a etické komise.
+> **L2 — Analytické porozumění.** Tato studie popisuje **strukturu rekonstrukčního protokolu**, který musí následovat každou intenzivní expozici extrémnímu výcviku. Bez tohoto kroku přechází i intenčně legitimní výcvik do destruktivní zóny. Materiál slouží jako referenční rámec pro klinické pracoviště, výcvikové instituce a etické komise.
 
 ## Analytická pozice rekonstituce v sekvenci
 

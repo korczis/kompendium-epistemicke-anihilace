@@ -156,7 +156,7 @@ Kompendium používá **modifikovaný APA 7. styl**:
 - **Filozofické klasiky**: rok prvního vydání + rok edice použité.
 - **Cross-reference uvnitř kompendia**: Markdown odkazy na relativní cesty.
 
-Od listopadu 2026 platí pro odborné stránky knihy přísnější podoba této konvence. Každý podstatný odstavec se opírá o odkaz v podobě autor–rok, například (Herman 1992), na dílo, o jehož existenci a obsahu není pochyb, a stránka končí oddílem **Literatura** před oddílem **Související**. Kde jistý zdroj chybí, odstavec zůstává bez citace a myšlenka se uvádí jako výklad autora; vymyšlený nebo nejistý odkaz je vždy horší než žádný. Výčty se používají jen tam, kde jde o skutečný výčet – kroky protokolu, kontakty krizových služeb, seznamy odkazů –, ostatní obsah se píše souvislým textem. Citovanou literaturu ze všech stránek shromažďuje generovaný [přehled literatury](@/references.md).
+Od listopadu 2026 platí pro odborné stránky knihy přísnější podoba této konvence. Každý podstatný odstavec se opírá o odkaz v podobě autor–rok, například (Herman 1992), na dílo, o jehož existenci a obsahu není pochyb, a stránka končí oddílem Literatura před oddílem Související. Kde jistý zdroj chybí, odstavec zůstává bez citace a myšlenka se uvádí jako výklad autora; vymyšlený nebo nejistý odkaz je vždy horší než žádný. Výčty se používají jen tam, kde jde o skutečný výčet – kroky protokolu, kontakty krizových služeb, seznamy odkazů –, ostatní obsah se píše souvislým textem. Citovanou literaturu ze všech stránek shromažďuje generovaný [přehled literatury](@/references.md).
 
 ### 6.1 Sigla filosofických klasiků
 
@@ -214,7 +214,7 @@ není mnoho zkratek, nýbrž zkratky, jejichž rozpis se od členů neočekává
 
 ## Kritický krok
 
-**Tato příloha je referenční nástroj** — není k četbě od začátku do konce.
+Tato příloha je referenční nástroj — není k četbě od začátku do konce.
 Místo lineární četby:
 
 1. Identifikuj konkrétní termín / techniku / nástroj, který právě potřebuješ

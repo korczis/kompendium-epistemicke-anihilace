@@ -41,7 +41,7 @@ Na rozdíl od běžné nadměrné introspekce, která pouze **zpomaluje** myšle
 - *„Pokud jsem manipulován, mohu rozpoznat manipulaci? A pokud myslím, že nejsem, není to právě důsledek manipulace?“*
 - *„Kdo to ve mně reflektuje? A kdo reflektuje toho, kdo reflektuje?“*
 
-V akutní fázi prožívá subjekt stav, který fenomenologie označuje jako **kognitivní zamrznutí**: produktivní myšlení se zastavuje v okamžiku, kdy se obrací k sobě samému. Spolu s [EA-5.1.1 epistemickou kanibalizací](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md) a [EA-5.1.2 konceptuální nihilací](@/kompendium/techniques/ea-5-1-2-konceptualni-nihilace.md) tvoří reflexivní paradoxie jádro **[epistemické singularity](@/glossary/epistemicka-singularita.md)** — subjekt přestává být schopný operovat jako autonomní epistemický agent.
+V akutní fázi prožívá subjekt stav, který fenomenologie označuje jako **kognitivní zamrznutí**: produktivní myšlení se zastavuje v okamžiku, kdy se obrací k sobě samému. Spolu s [EA-5.1.1 epistemickou kanibalizací](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md) a [EA-5.1.2 konceptuální nihilací](@/kompendium/techniques/ea-5-1-2-konceptualni-nihilace.md) tvoří reflexivní paradoxie jádro **[epistemické singularity](@/glossary/epistemicka-singularita.md)** — subjekt přestává být schopný operovat jako autonomní [epistemický agent](@/glossary/epistemicka-agentnost.md).
 
 ## Struktura vzorce
 

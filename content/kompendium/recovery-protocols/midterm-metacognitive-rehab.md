@@ -109,7 +109,7 @@ pevné cílové hodnoty se nestanovují, protože validované normy pro EA neexi
 ## 6. Kontraindikace a rizika
 
 Protokol není vhodný v akutní fázi, kdy je kognitivní kapacita vyčerpaná. Rizikem je
-**intelektualizace** – klient se naučí o myšlení skvěle mluvit, ale emoční jádro zůstane
+**[intelektualizace](@/glossary/intelektualizace.md)** – klient se naučí o myšlení skvěle mluvit, ale emoční jádro zůstane
 nedotčené. Dalším rizikem je **nadměrná sebereflexe**, která přemítání posílí místo
 oslabení. A konečně terapeut, který se stane arbitrem „správného“ myšlení, opakuje strukturu
 původního prostředí.

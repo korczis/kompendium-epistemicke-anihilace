@@ -29,7 +29,7 @@ Trestný čin **podvodu** podle § 209 trestního zákoníku, zákona č. 40/200
 kdo sebe nebo jiného obohatí tím, že uvede někoho v omyl, využije něčího omylu nebo zamlčí
 podstatné skutečnosti, a způsobí tak na cizím majetku škodu nikoli nepatrnou. Zvláštní
 podoby představují pojistný a úvěrový podvod. Je-li oběť donucena k plnění výhrůžkou, jde
-spíše o vydírání podle § 175 téhož zákona.
+spíše o [vydírání](@/glossary/vydirani.md) podle § 175 téhož zákona.
 
 Pokud pachatel nevyvolá omyl, ale zneužije tísně, nezkušenosti nebo rozumové slabosti oběti,
 přichází v úvahu civilní neplatnost pro **lichvu** podle § 1796 občanského zákoníku, zákona

@@ -160,7 +160,7 @@ Kompatibilní s [EA-6.1.8 disociativním spektrum](@/kompendium/techniques/ea-6-
 
 **Sourozenecké techniky (6.5)**
 
-- [EA-6.5.4 Disociativní akutní protokol](@/kompendium/techniques/ea-6-5-4-disociativni-akutni-protokol.md) – disociace jako hlavní diferenciální diagnóza.
+- [EA-6.5.4 Disociativní akutní protokol](@/kompendium/techniques/ea-6-5-4-disociativni-akutni-protokol.md) – disociace jako hlavní [diferenciální diagnóza](@/glossary/diferencialni-diagnoza.md).
 - [EA-6.5.6 Inpatient stabilizace](@/kompendium/techniques/ea-6-5-6-inpatient-stabilizace.md) – kdy je nutná hospitalizace.
 
 **Diferenciální diagnostika**

@@ -84,7 +84,7 @@ Jednou týdně sdílení s bezpečnou osobou, jednou měsíčně delší reflexe
 
 ## Čeho se vyvarovat
 
-Nesvěřujte se v první řadě osobě, která stud vyvolává; hledejte bezpečné lidi mimo tento okruh – přítele, lékaře, terapeuta, poradnu. Neplňte požadavky vyděrače v naději, že přestane – obvykle nepřestane; vydírání intimními materiály nebo tajemstvími je důvodem obrátit se na policii.
+Nesvěřujte se v první řadě osobě, která stud vyvolává; hledejte bezpečné lidi mimo tento okruh – přítele, lékaře, terapeuta, poradnu. Neplňte požadavky vyděrače v naději, že přestane – obvykle nepřestane; [vydírání](@/glossary/vydirani.md) intimními materiály nebo tajemstvími je důvodem obrátit se na policii.
 
 Nenuťte se ani ke sdílení všeho najednou; i opatrnost je legitimní a rozhodnutí, komu a kolik říci, je vaše.
 

@@ -40,7 +40,7 @@ Syntetický nebo synteticky upravený záznam (video, zvuk, obraz), v němž sku
 
 ## Kdy a jak eskalovat
 
-Eskalujte vždy: deepfake intimní povahy, vydírání nebo podvodný hlasový pokyn patří k policii a právní pomoci, se zajištěním řetězce důkazů ([chain of custody](@/kompendium/forensic-legal/7-evidence-chain-of-custody.md)). Instituce má postup pro podezřelé záznamy – ověřit původ, nereagovat na obsah ([reakce na incident](@/kompendium/organizational-defense/31-incident-response-EA.md)). Při akutní krizi postupujte podle [protokolu suicidálního rizika](@/kompendium/emergency-protocols/2-suicide-risk-EA.md).
+Eskalujte vždy: deepfake intimní povahy, [vydírání](@/glossary/vydirani.md) nebo podvodný hlasový pokyn patří k policii a právní pomoci, se zajištěním řetězce důkazů ([chain of custody](@/kompendium/forensic-legal/7-evidence-chain-of-custody.md)). Instituce má postup pro podezřelé záznamy – ověřit původ, nereagovat na obsah ([reakce na incident](@/kompendium/organizational-defense/31-incident-response-EA.md)). Při akutní krizi postupujte podle [protokolu suicidálního rizika](@/kompendium/emergency-protocols/2-suicide-risk-EA.md).
 
 ## S čím ji nezaměnit
 

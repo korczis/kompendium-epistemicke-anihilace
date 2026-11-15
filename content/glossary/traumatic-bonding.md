@@ -20,7 +20,7 @@ interactive = "chart"
 
 **Traumatic Bonding** (česky *traumatická vazba*) je paradoxní psychologický fenomén, kdy oběť opakovaného zneužívání vyvíjí silnou emoční závislost na svém agresorovi. Termín zavedli kanadští psychologové **Donald Dutton** a **Susan Painter** v roce 1981 v rámci výzkumu obětí domácího násilí. Vazba se tvoří v podmínkách, které kombinují **mocenskou nerovnost** (jeden má kontrolu, druhý je zranitelný) a **přerušované, nepředvídatelné posilování** (cyklus krutosti střídá projevy něhy, omluv nebo náklonnosti).
 
-V kontextu **Prismatic Kompendia** patří traumatická vazba mezi klíčové pojmy pro analýzu **manipulačních vzorců**, **identitních dynamik** a **epistemických procesů** — tedy situací, kde dochází k systematickému narušení obětivy schopnosti vyhodnocovat realitu, vlastní hodnotu a možnost úniku. Fenomén je úzce příbuzný se Stockholmským syndromem (rukojmí ↔ únosci), ale aplikuje se na opakující se vztahy: domácí násilí, sektářské skupiny, vykořisťovatelské pracovní prostředí, indoktrinaci nebo digitální manipulaci.
+V této knize patří traumatická vazba mezi klíčové pojmy pro analýzu **manipulačních vzorců**, **identitních dynamik** a **epistemických procesů** — tedy situací, kde dochází k systematickému narušení obětivy schopnosti vyhodnocovat realitu, vlastní hodnotu a možnost úniku. Fenomén je úzce příbuzný se Stockholmským syndromem (rukojmí ↔ únosci), ale aplikuje se na opakující se vztahy: domácí násilí, sektářské skupiny, vykořisťovatelské pracovní prostředí, indoktrinaci nebo digitální manipulaci.
 
 ## Mechanismus vzniku
 

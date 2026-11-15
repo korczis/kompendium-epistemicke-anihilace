@@ -38,16 +38,23 @@ for case in "${cases[@]+"${cases[@]}"}"; do
 done
 wait
 
-failed=0 ran=0
+failed=0 ran=0 names=""
 for case in "${cases[@]+"${cases[@]}"}"; do
   key=$(basename "$case" .sh); ran=$((ran + 1))
   if [ "$(cat "$out_dir/$key.rc" 2>/dev/null)" = 0 ]; then
     echo "ok   $case"
   else
-    failed=$((failed + 1))
+    failed=$((failed + 1)); names="$names $key"
     echo "FAIL $case"
     sed 's/^/     /' "$out_dir/$key.out" | tail -20
   fi
 done
-echo "test/run.sh: $ran case(s), $failed failure(s)"
+# The failed names are repeated on the last line: a caller that shows only the tail of this output
+# (verify-content.sh does) otherwise reports a count without saying which cases failed
+# (2026-11-15: "38 case(s), 1 failure(s)" with the failing case scrolled out of the tail).
+if [ "$failed" -gt 0 ]; then
+  echo "test/run.sh: $ran case(s), $failed failure(s):$names"
+else
+  echo "test/run.sh: $ran case(s), $failed failure(s)"
+fi
 [ "$failed" -eq 0 ]

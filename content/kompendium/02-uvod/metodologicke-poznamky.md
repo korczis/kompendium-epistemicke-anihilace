@@ -426,7 +426,7 @@ Pro klinickou aplikaci taxonomie je doporučen vícestupňový diagnostický pro
 1. **Screeningová fáze** — iniciální identifikace potenciálních epistemických traumat pomocí screeningových nástrojů
 2. **Detailní fenomenologická explorace** — důkladné fenomenologické zkoumání subjektivní zkušenosti pacienta
 3. **Multidimenzionální posouzení** — evaluace fenoménu ve strukturální, funkční, temporální a fenomenologické dimenzi
-4. **Diferenciální diagnostika** — systematické zvážení alternativních taxonomických kategorií
+4. **[Diferenciální diagnostika](@/glossary/diferencialni-diagnoza.md)** — systematické zvážení alternativních taxonomických kategorií
 5. **Kolaborativní formulace** — vytvoření komplexní diagnostické formulace ve spolupráci s pacientem
 6. **Kontinuální reevaluace** — pravidelná revize diagnostické klasifikace ve světle nových informací
 
@@ -494,7 +494,7 @@ Taxonomie není dokončený artefakt — je **živý systém**. Klíčové otev�
 
 ## Kritický krok
 
-**Než přejdeš ke konkrétním kategoriím**, formuluj si vlastní pracovní
+Než přejdeš ke konkrétním kategoriím, formuluj si vlastní pracovní
 [definici epistemické anihilace](@/glossary/epistemicka-anihilace.md) a zapiš si ji
 mimo tuto stránku (papír / zápisník / poznámka). Tato definice se bude
 v průběhu četby měnit — to je žádoucí. Ale výchozí zápis je nepostradatelný

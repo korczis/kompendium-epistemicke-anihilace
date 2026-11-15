@@ -111,7 +111,7 @@ po oznámení rozchodu, kdy riziko násilí stoupá.
 ## Klinický a právní rámec
 
 V Česku lze vzorec postihnout zejména jako **týrání osoby žijící ve společném obydlí**
-(§ 199 trestního zákoníku), případně jako nebezpečné pronásledování nebo vydírání; Anglie
+(§ 199 trestního zákoníku), případně jako nebezpečné pronásledování nebo [vydírání](@/glossary/vydirani.md); Anglie
 a Wales zavedly samostatný trestný čin kontrolujícího nebo donucujícího chování (Serious
 Crime Act 2015, oddíl 76). Klinik by měl dotazovat v soukromí, bez partnera, a výsledky
 zapisovat doslovně ([klinická dokumentace](@/kompendium/forensic-legal/31-clinical-documentation-EA.md),
@@ -124,10 +124,10 @@ Při opakovaném posouzení se sleduje hlavně změna v čase, zejména eskalace
 
 ## Obrana a neutralizace
 
-**Pro oběť.** Pojmenovat vzorec, ne jen jednotlivé incidenty; vést bezpečně uložený
-záznam; mít bezpečnostní plán a kontakt na intervenční centrum. **Pro profesionály.**
+Pro oběť. Pojmenovat vzorec, ne jen jednotlivé incidenty; vést bezpečně uložený
+záznam; mít bezpečnostní plán a kontakt na intervenční centrum. Pro profesionály.
 Rutinní, citlivý dotaz na kontrolu, ne jen na fyzické násilí; nikdy ne v přítomnosti
-partnera; počítat s tím, že oběť může vzorec zpočátku popírat. **Pro instituce.** Školení
+partnera; počítat s tím, že oběť může vzorec zpočátku popírat. Pro instituce. Školení
 personálu a postupy, které nepovažují absenci modřin za absenci násilí.
 
 **Otázky, které pomáhají v rozhovoru.** Máte strach z toho, jak partner zareaguje? Můžete

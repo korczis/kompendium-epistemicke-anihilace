@@ -103,11 +103,7 @@ Klíčové uzly v této síti najdete v sekcích:
 
 ## Most-pojmy mezi doménami
 
-Most-pojmy (bridge concepts) jsou termíny, které leží na rozhraní dvou nebo více domén a slouží jako „překladače". Jejich katalog vede [Glossary bridges](@/kompendium/glossary-bridges/_index.md):
-
-| Most-pojem | Domény, které propojuje |
-|------------|--------------------------|
-| [Bridge: Agent](@/kompendium/glossary-bridges/bridge-agent.md) | Sociologie ↔ multi-agent systémy |
+Most-pojmy (bridge concepts) jsou termíny, které leží na rozhraní dvou nebo více domén a slouží jako „překladače". Jejich katalog vede [Glossary bridges](@/kompendium/glossary-bridges/_index.md).
 
 ## Sekční mosty
 

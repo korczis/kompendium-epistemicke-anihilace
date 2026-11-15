@@ -24,13 +24,18 @@ Po Popperovi se problém dále komplikoval. Thomas Kuhn ukázal, že vědci v ob
 
 ## Jak se projevuje
 
-V praxi se demarkační problém objevuje všude, kde je třeba posoudit, zda tvrzení s vědeckou fasádou zaslouží důvěru. Varovné znaky pseudovědeckého zdůvodnění, které se v literatuře opakují:
+V praxi se demarkační problém objevuje všude, kde je třeba posoudit, zda tvrzení s vědeckou fasádou zaslouží důvěru.
 
-- tvrzení nelze vyvrátit, protože každá námitka je vyložena jako potvrzení nebo jako důkaz zaujatosti kritika;
-- neúspěšné předpovědi se vysvětlují dodatečnými pomocnými hypotézami, které nic nového nepředpovídají;
-- chybí ochota vystavit tvrzení nezávislé kontrole; argumentuje se autoritou zakladatele;
-- slovník napodobuje vědu (kvantový, energetický, neuro-), ale termíny nemají měřitelný obsah;
-- výsledky nejsou replikovány, nebo se replikace odmítají jako nepotřebné.
+Popper (1963) za první varovný znak pokládal tvrzení, které nelze vyvrátit, protože každá námitka je
+vyložena jako jeho potvrzení nebo jako doklad zaujatosti kritika, a druhým znakem byla podle něj
+praxe, která neúspěšné předpovědi zachraňuje dodatečnými pomocnými hypotézami, jež nic nového
+nepředpovídají. Za pseudovědeckou pokládal i ochotu odvolávat se na autoritu zakladatele místo
+vystavení tvrzení nezávislé kontrole (Popper, 1963).
+
+Pigliucci a Boudry (2013) k tomu přidávají znaky, které pseudovědu odlišují od pouhé chybné vědy:
+slovník napodobuje vědecký jazyk, například výrazy „kvantový“, „energetický“ nebo „neuro-“, ale jeho
+termíny nemají měřitelný obsah, a výsledky nejsou replikovány, nebo se replikace odmítají jako
+nepotřebné.
 
 ## Mechanismus
 
@@ -40,10 +45,12 @@ Současně je třeba vidět i opačné riziko: demarkační argument lze zneuž�
 
 ## Odlišení
 
-- **[Falsifikovatelnost](@/glossary/falsifikovatelnost.md)** je jedno konkrétní řešení demarkačního problému, ne problém sám.
-- **[Pseudověda](@/glossary/pseudoscience.md)** je předmět, na nějž se demarkace vztahuje; demarkační problém je otázka po kritériu.
-- **Chybná věda** (*bad science*) dodržuje pravidla, ale dělá chyby; pseudověda pravidla napodobuje a obchází.
-- **[Krize replikace](@/glossary/replication-crisis.md)** ukazuje, že i uznaná věda může mít systémové slabiny; neznamená, že demarkace je bezpředmětná.
+| Odlišit od | Rozdíl |
+| --- | --- |
+| [Falsifikovatelnost](@/glossary/falsifikovatelnost.md) | jedno konkrétní řešení demarkačního problému, ne problém sám |
+| [Pseudověda](@/glossary/pseudoscience.md) | předmět, na nějž se demarkace vztahuje; demarkační problém je otázka po kritériu |
+| Chybná věda (*bad science*) | dodržuje pravidla, ale dělá chyby; pseudověda pravidla napodobuje a obchází |
+| [Krize replikace](@/glossary/replication-crisis.md) | ukazuje, že i uznaná věda může mít systémové slabiny; neznamená, že demarkace je bezpředmětná |
 
 ## Význam pro Kompendium
 

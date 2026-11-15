@@ -42,6 +42,13 @@ if [ -n "$unstaged" ]; then
   echo "verify-content: WARNING $(printf '%s\n' "$unstaged" | wc -l | tr -d ' ') unstaged path(s) are NOT verified (stage them first):" >&2
   printf '%s\n' "$unstaged" | sed -n '1,10p' | sed 's/^/  /' >&2
 fi
+# static/css/app.css is built and ignored, so a fresh worktree has none and zola build fails late
+# on "get_url: Could not find or open file css/app.css". Refuse here, before any work, with the
+# command that builds it; copying it from another checkout assumes that checkout is current.
+if [ ! -f static/css/app.css ]; then
+  echo "verify-content: static/css/app.css is missing; run: npm run assets" >&2
+  exit 2
+fi
 # A run killed with SIGKILL (a tool timeout, a stopped task) cannot run its EXIT trap and leaves
 # its export behind, 200-600 MB each (2026-11-12: three such exports, 8-44 h old, on a disk at
 # 4.4 GiB free). Each export records the pid that owns it; an export whose owner is gone is
@@ -60,7 +67,7 @@ work=$(mktemp -d "${TMPDIR:-/tmp}/kea-verify.XXXXXX")
 trap 'rm -rf "$work"' EXIT
 echo $$ > "$work/.kea-verify.pid"
 git archive "$(git write-tree)" | tar -x -C "$work"
-if [ -f static/css/app.css ]; then mkdir -p "$work/static/css"; cp static/css/app.css "$work/static/css/"; fi
+mkdir -p "$work/static/css"; cp static/css/app.css "$work/static/css/"
 
 step() { printf '%-28s ' "$1"; shift; if out=$("$@" 2>&1); then echo "ok"; else echo "FAIL"; printf '%s\n' "$out" | tail -15; exit 1; fi; }
 

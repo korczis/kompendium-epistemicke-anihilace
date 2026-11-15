@@ -20,6 +20,12 @@ Writes, into static/data/ (nobody edits them by hand):
                  entry follow from its url and file (0 page.md, 1 _index.md, 2 index.md)
   viz-deps.json  every educational visualisation in static/js/kompendium/ -> the vendored
                  libraries it calls (chart, p5, three); base.html loads only those
+  catalogue.json the technique catalogue: every technique page with an extra.ea_code, by family
+                 ("1.2" -> its techniques in code order), each {code, name, summary, slug} from the
+                 page's own front matter (name = title without its code; summary = description,
+                 from after the dash when it opens with the "Detailní per-technique článek: X —"
+                 boilerplate) plus extra.exploitation where a page has one. Chapter catalogue
+                 tables are rendered from it by load_data (ADR 0015); nothing in it is hand-typed
   pokracovat.json  the "Pokračovat" block of every page (templates/partials/pokracovat.html
                  renders it): page path -> {next, related, term, protocol}, each [path, title],
                  derived from static/data/graph.json and static/data/ia.json (so run
@@ -395,9 +401,37 @@ def pokracovat() -> dict:
     return {"schema": "kompendium-pokracovat/v1", "pages": out}
 
 
+CATALOGUE_CODE = re.compile(r"^EA-(\d+)\.(\d+)\.(\d+)$")
+BOILERPLATE_DESCRIPTION = re.compile(r"^(?:Detailní\s+)?per-technique\s+článek:\s*[^—]*—\s*", re.I)
+
+
+def catalogue(pages: list) -> dict:
+    """The technique catalogue by family, from each technique page's own front matter (ADR 0015)."""
+    families: dict = {}
+    for p in pages:
+        if not p["path"].startswith("kompendium/techniques/ea-") or p["is_index"]:
+            continue
+        front = front_matter(p["path"])
+        extra = front.get("extra") if isinstance(front.get("extra"), dict) else {}
+        m = CATALOGUE_CODE.match(str(extra.get("ea_code", "") or "").strip())
+        if not m:
+            continue
+        code = m.group(0)
+        summary = BOILERPLATE_DESCRIPTION.sub("", str(front.get("description", "") or "")).strip()
+        entry = {"code": code, "name": re.sub(r"^EA-[\d.]+\s*", "", str(front.get("title", ""))).strip(),
+                 "summary": summary[:1].upper() + summary[1:], "slug": p["path"].rsplit("/", 1)[-1][:-3]}
+        if isinstance(extra.get("exploitation"), str) and extra["exploitation"].strip():
+            entry["exploitation"] = extra["exploitation"].strip()
+        families.setdefault(f"{m.group(1)}.{m.group(2)}", []).append((int(m.group(3)), code, entry))
+    order = lambda f: tuple(int(x) for x in f.split("."))
+    return {"schema": "kompendium-catalogue/v1",
+            "families": {f: [e for _, _, e in sorted(families[f], key=lambda t: (t[0], t[1]))]
+                         for f in sorted(families, key=order)}}
+
+
 def build() -> dict:
     pages = load()
-    return {"nav.json": navigation(pages), "terms.json": terms(pages),
+    return {"nav.json": navigation(pages), "terms.json": terms(pages), "catalogue.json": catalogue(pages),
             "glossary.json": glossary(pages), "search.json": search_index(pages),
             "viz-deps.json": viz_deps(), "pokracovat.json": pokracovat()}
 

@@ -31,41 +31,67 @@ Mereologická rekonstrukce je ústředním praktickým přínosem Kompendia, pod
 
 ## Jak se projevuje
 
-Protokol obvykle zahrnuje čtyři po sobě jdoucí fáze:
+Mereologická rekonstrukce je navržena jako posloupnost čtyř fází, kterou kniha odvozuje z fázově orientované
+léčby traumatu. Herman (1992) i van der Hart, Nijenhuis a Steele (2006) popisují léčbu, která začíná bezpečím
+a stabilizací a ke zpracování vzpomínek přistupuje až potom. Kniha mezi stabilizaci a vyprávění vkládá dvě
+fáze: obnovu jednotlivých hodnoticích schopností, jako je hodnocení zdrojů nebo kalibrovaná nejistota, a
+jejich zkoušení v situacích s nízkou sázkou; teprve v poslední fázi se přistupuje k celistvému vyprávění o
+sobě. Fáze popisují karty [stabilizační fáze](@/kompendium/techniques/ea-6-3-1-stabilizacni-faze-protokol.md),
+[metakognitivní rehabilitace](@/kompendium/techniques/ea-6-3-3-metakognitivni-rehabilitace.md),
+[konsolidace](@/kompendium/techniques/ea-6-3-5-konsolidace-protokol.md) a
+[narativní rekonstrukce](@/kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md).
 
-1. **Vyvázání a stabilizace** – fyzické a informační oddělení od prostředí, které EA vytváří; obnova základních regulačních funkcí (spánek, výživa, sociální stabilizace). Zatím žádná výkladová práce. Viz [stabilizační fáze](@/kompendium/techniques/ea-6-3-1-stabilizacni-faze-protokol.md).
-2. **Obnova částí** – cílená obnova konkrétních hodnoticích schopností: hodnocení zdrojů, sledování falzifikovatelnosti, metakognitivní monitoring, kalibrovaná nejistota. Každá schopnost se obnoví jako samostatná funkční část, než se přistoupí k integraci. Viz [metakognitivní rehabilitace](@/kompendium/techniques/ea-6-3-3-metakognitivni-rehabilitace.md).
-3. **Místní integrace** – zkoušení obnovených částí na vybraném materiálu v kontextech s nízkou sázkou; ověření, že hodnocení zdrojů funguje bez okamžitého odvolávání na rámce dodané pachatelem; budování důvěry v obnovený aparát. Viz [konsolidace](@/kompendium/techniques/ea-6-3-5-konsolidace-protokol.md).
-4. **Rekonstrukce vyprávění** – teprve v této fázi se přistupuje k úplnému autobiografickému vyprávění. Přeživší používá nyní funkční epistemické části k vytvoření (nebo obnovení) soudržného vyprávění o sobě; terapeut slouží jako neautoritativní opora, ne jako zdroj výkladové pravdy. Viz [narativní rekonstrukce](@/kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md).
-
-Postup se v praxi pozná podle toho, že terapie v prvních měsících „nemluví o tom hlavním“ – a je to záměr, ne vyhýbání.
+*Interpretace knihy*: postup se pozná podle toho, že terapie zpočátku „nemluví o tom hlavním“, a je to
+záměr, ne vyhýbání. Herman (1992) totéž pořadí zdůvodňuje tím, že zpracování traumatu dřív, než je člověk v
+bezpečí, ho může znovu zaplavit.
 
 ## Mechanismus
 
-Přístup se výslovně vymezuje proti přístupům, které **začínají vyprávěním** – vyprávěním příběhu a jeho zpracováním. V případech EA hrozí, že takový postup způsobí **iatrogenní újmu**, protože aktivuje dosud narušené výkladové struktury: přeživší vypráví příběh pomocí slovníku a rámců, které mu dodal pachatel, a terapie je tak nevědomky upevní.
+Přístup se vymezuje proti postupům, které **začínají vyprávěním**. Van der Hart, Nijenhuis a Steele (2006)
+varují, že předčasné zpracování traumatických vzpomínek může stav zhoršit, pokud člověk nemá dostatečnou
+schopnost je unést. *Interpretace knihy*: v případech epistemické anihilace k tomu přistupuje další riziko,
+protože přeživší vypráví příběh slovníkem a rámci, které mu dodal pachatel, a terapie je tak může nevědomky
+upevnit; jde o [iatrogenní újmu](@/glossary/iatrogenic-harm.md).
 
-Logika „části před celkem“ platí i obráceně: obnovené části samy nestačí. Bez fáze 4 zůstává člověk s funkčními dovednostmi, ale bez souvislého příběhu, který by jim dával smysl. Mereologie zde připomíná, že celek není jen součet částí – části musí být uspořádány.
+Logika „části před celkem“ platí i obráceně: obnovené části samy nestačí. Simons (1987) v teorii částí a
+celků ukazuje, že celek není jen souhrnem svých částí, ale závisí i na tom, jak jsou uspořádány.
+*Interpretace knihy*: bez závěrečné fáze zůstává člověk s funkčními dovednostmi, ale bez souvislého příběhu,
+který by jim dával smysl.
 
 ## Odlišení
 
-- **Od fázově orientované terapie traumatu:** ta také začíná stabilizací; mereologická rekonstrukce přidává samostatnou fázi obnovy hodnoticích schopností.
-- **Od kognitivní remediace:** ta trénuje kognitivní funkce (pozornost, paměť); zde jde o epistemické schopnosti (hodnocení zdrojů, kalibrace).
-- **Od [disociace](@/glossary/disociace.md):** disociativní fragmentace má jiné potřeby pořadí; přístup ji pečlivě odlišuje od fragmentace navozené EA.
-- **Od [redukcionismu](@/glossary/redukcionismus.md):** obnovovat po částech neznamená tvrdit, že člověk je jen souhrnem částí; viz [holismus](@/glossary/holismus.md).
+| Odlišit od | Rozdíl |
+| --- | --- |
+| Fázově orientovaná terapie traumatu | také začíná stabilizací (van der Hart, Nijenhuis a Steele, 2006); mereologická rekonstrukce přidává samostatnou fázi obnovy hodnoticích schopností |
+| Kognitivní remediace | trénuje kognitivní funkce, jako je pozornost a paměť; zde jde o epistemické schopnosti, jako je hodnocení zdrojů a kalibrace |
+| [Disociace](@/glossary/disociace.md) | disociativní fragmentace má jiné potřeby pořadí a přístup ji odlišuje od fragmentace navozené manipulací |
+| [Redukcionismus](@/glossary/redukcionismus.md) | obnovovat po částech neznamená tvrdit, že člověk je jen souhrnem částí; viz [holismus](@/glossary/holismus.md) |
 
 ## Význam pro Kompendium
 
-- Přístup minimalizuje [iatrogenní újmu](@/glossary/iatrogenic-harm.md) tím, že odkládá výkladovou práci, dokud není obnovena hodnoticí schopnost.
-- Cílí na [narativní identitu](@/glossary/narrative-identity.md) až po obnově částí, z nichž se hodnocení vyprávění skládá.
-- Řeší [metakognitivní destrukci](@/glossary/metakognitivni-destrukce.md) přímo ve fázi 2 obnovou metakognitivního monitoringu jako samostatné funkční schopnosti.
+*Interpretace knihy*: přístup má omezit [iatrogenní újmu](@/glossary/iatrogenic-harm.md) tím, že odkládá
+výkladovou práci, dokud není obnovena hodnoticí schopnost, a k [narativní
+identitě](@/glossary/narrative-identity.md) se obrací až po obnově částí, z nichž se hodnocení vyprávění
+skládá. [Metakognitivní destrukci](@/glossary/metakognitivni-destrukce.md) řeší přímo, obnovou
+metakognitivního sledování jako samostatné schopnosti. Pořadí bezpečí, zpracování a znovupropojení přitom
+přebírá od Herman (1992).
 
-Mereologická rekonstrukce je **charakteristickým konstruktivním přínosem** Kompendia: nejen popisem poškození, ale strukturovanou cestou k obnově, která respektuje specifickou architekturu újmy navozené EA. Jako každý nový přístup potřebuje empirické ověření; kniha jej předkládá jako klinicky zdůvodněný rámec, ne jako ověřenou léčebnou metodu.
+Mereologická rekonstrukce je **konstruktivním návrhem** Kompendia: nejen popisem poškození, ale
+strukturovanou cestou k obnově. Jako každý nový přístup potřebuje empirické ověření; kniha jej předkládá
+jako klinicky zdůvodněný rámec, ne jako ověřenou léčebnou metodu, a navazuje v tom na fázový model, který
+popsali van der Hart, Nijenhuis a Steele (2006).
 
 ## Obrana a zotavení
 
-**Pro klinika:** držet pořadí fází, ale netrvat na něm mechanicky – u některých klientů se fáze překrývají; průběžně měřit, zda obnovené části fungují (např. [škála epistemické důvěry](@/kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md)); ve fázi 4 nechat autorství příběhu klientovi ([narativní terapie](@/glossary/narativni-terapie.md)).
+O tom, zda a jak takový rámec v péči o konkrétního člověka použít, rozhoduje kliník; kniha nestanoví postup
+léčby. Herman (1992) upozorňuje, že fáze zotavení se v praxi překrývají a člověk se k dřívějším vrací, a
+rámec proto nemá být uplatňován mechanicky. Míru obnovené důvěry ve vlastní úsudek popisuje
+[škála epistemické důvěry](@/kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md).
 
-**Pro klienta a blízké:** rozumět, proč terapie zpočátku nepracuje s „hlavním příběhem“, a nevnímat to jako zlehčování; podporovat drobné každodenní úspěchy samostatného úsudku.
+Pro klienta a jeho blízké může být užitečné vědět, proč terapie zpočátku nepracuje s „hlavním příběhem“, aby
+to nevnímali jako zlehčování. *Interpretace knihy*: autorství příběhu zůstává na člověku samém, jak to
+zdůrazňuje i [narativní terapie](@/glossary/narativni-terapie.md), a terapeut je oporou, ne zdrojem výkladové
+pravdy (Herman, 1992).
 
 ## Literatura
 
@@ -78,7 +104,7 @@ Mereologická rekonstrukce je **charakteristickým konstruktivním přínosem** 
 
 **Pojmy**
 
-- [Disociace](@/glossary/disociace.md) – diferenciální diagnóza.
+- [Disociace](@/glossary/disociace.md) – [diferenciální diagnóza](@/glossary/diferencialni-diagnoza.md).
 - [Iatrogenic Harm](@/glossary/iatrogenic-harm.md) – riziko, které pořadí fází minimalizuje.
 - [Narrative Identity](@/glossary/narrative-identity.md) – cíl rekonstrukce v závěrečné fázi.
 - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – základní stav.

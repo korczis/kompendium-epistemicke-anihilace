@@ -27,7 +27,7 @@ výzkumu, kde jsou klíčové prameny o praktikách Stasi. Gieseke (2014) píše
 státní bezpečnosti NDR ze zpřístupněných archivních pramenů, jejichž interní terminologie
 proniká i do historického výzkumu mimo Německo, včetně českého.
 
-Stránka pokrývá tři roviny: trestní právo (pronásledování, nátlak, vydírání), ochranu před
+Stránka pokrývá tři roviny: trestní právo (pronásledování, nátlak, [vydírání](@/glossary/vydirani.md)), ochranu před
 domácím násilím a klinické pojmy. Podrobný výklad německého práva je na stránce
 [Německo — EA právní rámec](@/kompendium/international/23-german-law-EA/index.md), regionální
 kontext na stránce [Německo — vzorce EA](@/kompendium/international/8-german-EA/index.md).

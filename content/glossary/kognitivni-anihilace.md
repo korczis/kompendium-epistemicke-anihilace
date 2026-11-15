@@ -113,7 +113,7 @@ režimem prostředí (American Psychiatric Association, 2022).
 
 Od vratné kognitivní únavy se liší trváním a vazbou na zdroj tlaku: vyčerpání z několika
 probdělých nocí odezní po odpočinku, a právě to zbývá jako rozhodující otázka při prvním
-posouzení (Killgore, 2010). Od depresivní a úzkostné poruchy se odlišuje obtížně, protože obě
+posouzení (Killgore, 2010). Od depresivní a [úzkostné poruchy](@/glossary/uzkostne-poruchy.md) se odlišuje obtížně, protože obě
 kognici výrazně zhoršují a mohou být zároveň následkem téhož prostředí (American Psychiatric
 Association, 2022). Od následků užívání návykových látek a somatických onemocnění je nutné
 odlišit vždy, protože mají vlastní a často dobře léčitelnou příčinu (American Psychiatric

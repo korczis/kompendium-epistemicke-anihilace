@@ -1,358 +1,139 @@
 +++
 title = "Paradigm shift (změna paradigmatu)"
 weight = 50
-description = "Kuhnův pojem změny paradigmatu použitý na softwarové inženýrství: od OOP k funkcionálnímu programování a procesnímu modelu OTP/BEAM; v knize změna rámce u člověka."
+description = "Změna celého rámce, v němž se rozhoduje, co je problém, doklad a řešení: Kuhnův pojem ve vědě a jeho obdoba u člověka, kterou kniha sleduje u manipulace i u zotavení."
 
 [taxonomies]
-tags = ["glossary", "architecture", "science", "philosophy"]
+tags = ["glossary", "kompendium", "philosophy", "science"]
 
 [extra]
-category = "core"
-status = "active"
+category = "filozofie"
+aliases = ["paradigmatický posun", "paradigmatické změny", "změny paradigmatu"]
+related_terms = ["kuhnova-revoluce", "normalni-veda", "gestalt-shift", "paradigmaticka-bezdomovina", "transformative-experience"]
 author = "Tomas Korcak (korczis)"
-difficulty = "advanced"
-related_terms = ["beam-vm", "beam", "otp", "erlang", "elixir", "functional-programming-language", "actor-model", "genserver", "supervision-tree", "supervision", "behaviour", "behaviour-pattern", "architectural-pattern", "architectural-thinking", "autonomous-evolution"]
-learning_outcomes = ["Understand Thomas Kuhn's paradigm shift framework and its application to software engineering", "Trace the major paradigm shifts in programming from imperative to functional to process-oriented", "Explain why the BEAM/OTP paradigm represents a fundamental shift in concurrent system design", "Compare the actor model with shared-state concurrency and identify appropriate use cases for each", "Implement paradigm-native Elixir code that leverages OTP patterns rather than fighting them", "Recognize paradigm lock-in and evaluate when a shift is warranted"]
-prerequisites = ["architecture", "elixir", "otp", "beam"]
-use_cases = ["Evaluating technology migrations", "Designing concurrent systems", "Training teams on new programming paradigms", "Architectural decision records", "Technology strategy development"]
-key_technologies = ["Elixir", "Erlang", "OTP", "BEAM VM", "GenServer", "Supervisor", "Actor Model"]
-complexity = "advanced"
-see_also = ["beam-vm", "otp", "erlang", "elixir", "functional-programming-language", "actor-model"]
 date_created = "2026-02-22"
-date_updated = "2026-02-22"
-version = "2.0.0"
-date_modified = "2026-11-10"
-keywords = ["Paradigm", "Shift", "OTPBEAM", "glossary", "core", "BEAM", "změna paradigmatu"]
-image = "/images/sections/glossary.png"
-image_alt = "Paradigm shift (změna paradigmatu) – glosář"
+date_modified = "2026-11-14"
+keywords = ["paradigm shift", "změna paradigmatu", "Kuhn", "paradigma", "inkomensurabilita", "gestaltový přepínač", "transformace perspektivy", "rámec"]
 +++
 
 ## Definice
 
-Změna paradigmatu (*paradigm shift*) je zásadní změna výchozích předpokladů, metod a rámců,
-jimiž obor chápe svou oblast a přistupuje k ní. Pojem pochází z knihy Thomase Kuhna *The
-Structure of Scientific Revolutions* (*Struktura vědeckých revolucí*, 1962). Kuhn v ní tvrdil,
-že vědecký pokrok není plynulé, souvislé hromadění poznatků, ale řada revolučních zlomů –
-změn paradigmatu –, při nichž se celý pojmový rámec oboru nahradí novým, který je
-s předchozím nesouměřitelný (viz heslo [Kuhnova revoluce](@/glossary/kuhnova-revoluce.md)
-a kapitolu [7.11 Kuhn: Paradigmatické revoluce a
-inkomensurabilita](@/kompendium/07-teoreticke-reflexe/kuhn-paradigmaticke-revoluce.md)).
-
-V softwarovém inženýrství se změny paradigmatu projevují jako zásadní proměny toho, jak
-chápeme výpočet, strukturujeme programy, spravujeme stav, zvládáme souběžnost a uvažujeme
-o chování systému. Nejde jen o nové nástroje nebo knihovny, ale o nové způsoby myšlení, které
-předchozí přístupy činí nejen zastaralými, ale pojmově nedostačujícími. Přechod od
-procedurálního k objektově orientovanému programování nespočíval v přidání tříd do C, ale
-v novém pojetí programu jako souboru spolupracujících objektů místo posloupnosti instrukcí.
-Podobně přechod k funkcionálnímu programování nespočívá v přidání lambda výrazů do Javy, ale
-v novém pojetí výpočtu jako vyhodnocování matematických funkcí místo měnění stavu.
-
-Pro Kompendium je Kuhnův pojem důležitý ještě v jiném smyslu: změna paradigmatu u člověka (konverze, vystoupení ze skupiny) může být
-zdravým vývojem i výsledkem manipulace, a kniha proto rozlišuje mezi svobodnou revizí
-rámce a vnuceným přepisem (viz [Gestalt Shift](@/glossary/gestalt-shift.md),
-[paradigmatická bezdomovina](@/glossary/paradigmaticka-bezdomovina.md)).
-
-## Kuhnův rámec v softwarovém inženýrství
-
-Kuhn popsal opakující se vzorec vědeckých revolucí, který překvapivě dobře odpovídá změnám
-technologických paradigmat.
-
-### Normální věda (normální inženýrství)
-
-V obdobích „normální vědy“ pracují odborníci uvnitř zavedeného paradigmatu a řeší hádanky,
-které paradigma vymezuje a k jejichž řešení dává nástroje. V softwarovém inženýrství tomu
-odpovídají období postupného zlepšování v rámci zavedeného technologického stacku – nové
-frameworky pro totéž paradigma, lepší nástroje pro tytéž jazyky, optimalizace existujících
-vzorů.
-
-Objektově orientované paradigma ovládalo „normální inženýrství“ od 90. let do 10. let
-21. století. V tom období byly základní předpoklady stabilní: programy se organizují jako
-hierarchie tříd, stav je zapouzdřen v objektech, souběžnost se řídí sdílenou pamětí se
-zámky a návrhové vzory poskytují šablony pro běžné problémy.
-
-### Anomálie
-
-Anomálie jsou problémy, které současné paradigma nedokáže uspokojivě vyřešit. V čase se
-hromadí a vytvářejí rostoucí napětí mezi sliby paradigmatu a jeho skutečnými schopnostmi.
-V objektově orientovaném paradigmatu se anomálie hromadily kolem souběžnosti (sdílený
-měnitelný stav + vlákna = souběhové chyby), distribuce (objekty předpokládají sdílenou
-paměť, ale distribuované systémy ji nemají) a složitosti (hluboké hierarchie tříd jsou rigidní
-a obtížně se o nich uvažuje).
-
-„Callback hell“ v Node.js, přístup „synchronizovat všechno“ v souběžném programování v Javě
-a exploze návrhových vzorů „Gang of Four“ (mnohé z nich obcházejí omezení paradigmatu,
-místo aby vyjadřovaly přirozená řešení) jsou anomálie, které signalizovaly meze objektově
-orientovaného paradigmatu pro moderní požadavky na systémy.
-
-### Krize a revoluce
-
-Když jsou anomálie příliš četné nebo příliš závažné, než aby je šlo přehlížet, vstupuje
-paradigma do krize. Alternativní paradigmata, dříve odbývaná jako akademické kuriozity,
-získávají půdu, protože odborníci hledají lepší řešení problémů, které staré paradigma řešit
-neumí.
-
-Krize souběžného programování v 10. letech 21. století – hnaná koncem růstu výkonu jednoho
-jádra a nástupem distribuovaných systémů – vytvořila podmínky pro změnu paradigmatu směrem
-k funkcionálnímu programování, neměnným datovým strukturám a procesně orientovaným modelům
-souběžnosti. Virtuální stroj BEAM a jeho framework OTP, původně navržené v 80. letech pro
-telekomunikační ústředny, našly novou relevanci jako paradigma, které už vyřešilo problémy,
-jež zbytek odvětví teprve objevoval.
-
-## Hlavní změny paradigmatu v softwarovém inženýrství
-
-### Od nestrukturovaného ke strukturovanému programování (60.–70. léta)
-
-Odstranění příkazů GOTO a přijetí strukturovaného řízení toku (if/else, while, for)
-představovalo první velkou změnu paradigmatu v programování. Teoretický základ formuloval
-Edsger Dijkstra v dopise „Go To Statement Considered Harmful“ (1968) a nové paradigma
-ztělesnily jazyky jako Pascal a C.
-
-### Od procedurálního k objektově orientovanému (80.–90. léta)
-
-Přechod od procedur pracujících nad datovými strukturami k objektům, které zapouzdřují data
-i chování, změnil způsob, jak programátoři organizují kód. Smalltalk předvedl vizi, C++
-a Java ji přivedly do hlavního proudu. Změna zavedla pojmy dědičnost, polymorfismus
-a zapouzdření, které se staly převládajícím slovníkem softwarového návrhu.
-
-### Od sekvenčního k souběžnému (první dvě desetiletí 21. století)
-
-Konec Moorova zákona pro výkon jednoho jádra si vynutil přechod od sekvenčního k souběžnému
-programování. Vícejádrové procesory se staly všudypřítomnými, ale nástroje převládajícího
-paradigmatu pro souběžnost – vlákna a zámky – se ukázaly jako nedostatečné pro stavbu
-spolehlivých souběžných systémů. Krize vedla k přijetí alternativních modelů souběžnosti:
-aktorů (Erlang/Elixir), komunikujících sekvenčních procesů (Go), softwarové transakční paměti
-(Clojure) a async/await (JavaScript, Rust, Python).
-
-### Od imperativního k funkcionálnímu (10. a 20. léta 21. století)
-
-Změna paradigmatu k funkcionálnímu programování nahrazuje měnitelný stav neměnnými daty,
-vedlejší účinky čistými funkcemi a imperativní řízení toku deklarativními transformacemi.
-Změna stále probíhá – většina hlavních jazyků převzala funkcionální prvky (lambdy,
-map/filter/reduce, porovnávání se vzorem), aniž by zcela opustila imperativní základy.
-
-### Od monolitického k distribuovanému (od 2010)
-
-Přechod od monolitických aplikací k distribuovaným systémům (mikroslužby, architektury řízené
-událostmi, serverless) je změnou paradigmatu systémové architektury. Mění základní jednotku
-nasazení, komunikační model mezi komponentami i způsoby selhání, s nimiž musí systémy počítat.
-
-## Paradigma OTP/BEAM
-
-Virtuální stroj BEAM a framework OTP představují paradigma odlišné od objektově
-orientovaného i čistě funkcionálního. Základní jednotkou paradigmatu BEAM je proces – lehká,
-izolovaná výpočetní jednotka, která komunikuje výhradně předáváním zpráv.
-
-### Procesně orientované myšlení
-
-V paradigmatu BEAM je každá stavová entita procesem. Uživatelské sezení je proces.
-Databázové spojení je proces. I položka cache může být proces. Nejde o optimalizační techniku
-ani návrhový vzor – je to základní organizační princip všech programů na BEAM.
-
-Procesní orientace řeší napětí mezi funkcionální čistotou a stavovým výpočtem. Jednotlivé
-funkce uvnitř procesu jsou čisté – berou vstupy a vracejí výstupy bez vedlejších účinků. Stav
-se spravuje na úrovni procesu rekurzivními smyčkami zpráv (GenServer), čímž vzniká čisté
-oddělení čistého výpočtu od stavové interakce.
-
-```elixir
-defmodule Example.SessionProcess do
-  @moduledoc """
-  Demonstrates the BEAM paradigm's process-oriented design.
-
-  Each user session is a separate process with isolated state.
-  Failures in one session cannot corrupt another. The supervisor
-  automatically restarts crashed sessions, providing fault
-  tolerance without explicit error handling in business logic.
-
-  This design is impossible to replicate idiomatically in
-  object-oriented languages because it relies on:
-  1. Lightweight processes (~2KB each, millions possible)
-  2. Complete memory isolation (no shared state)
-  3. Preemptive scheduling (no process can starve others)
-  4. Supervision trees (automatic fault recovery)
-
-  ## The Meta-Rule
-
-  If this code could be written identically in Node.js,
-  it is WRONG. Process-oriented design must leverage what
-  the BEAM uniquely provides.
-  """
-
-  use GenServer
-
-  @type state :: %{
-          user_id: String.t(),
-          started_at: DateTime.t(),
-          last_active: DateTime.t(),
-          request_count: non_neg_integer(),
-          data: map()
-        }
-
-  @spec start_link(keyword()) :: GenServer.on_start()
-  def start_link(opts) do
-    user_id = Keyword.fetch!(opts, :user_id)
-    GenServer.start_link(__MODULE__, opts, name: via_tuple(user_id))
-  end
-
-  @spec get_state(String.t()) :: {:ok, state()} | {:error, :not_found}
-  def get_state(user_id) do
-    case GenServer.whereis(via_tuple(user_id)) do
-      nil -> {:error, :not_found}
-      pid -> {:ok, GenServer.call(pid, :get_state)}
-    end
-  end
-
-  @spec record_activity(String.t(), map()) :: :ok | {:error, term()}
-  def record_activity(user_id, activity) do
-    GenServer.cast(via_tuple(user_id), {:record_activity, activity})
-  end
-
-  @impl true
-  def init(opts) do
-    state = %{
-      user_id: Keyword.fetch!(opts, :user_id),
-      started_at: DateTime.utc_now(),
-      last_active: DateTime.utc_now(),
-      request_count: 0,
-      data: %{}
-    }
-
-    schedule_timeout_check()
-    {:ok, state}
-  end
-
-  @impl true
-  def handle_call(:get_state, _from, state) do
-    {:reply, state, state}
-  end
-
-  @impl true
-  def handle_cast({:record_activity, activity}, state) do
-    updated_state = %{state |
-      last_active: DateTime.utc_now(),
-      request_count: state.request_count + 1,
-      data: Map.merge(state.data, activity)
-    }
-
-    {:noreply, updated_state}
-  end
-
-  @impl true
-  def handle_info(:check_timeout, state) do
-    idle_seconds = DateTime.diff(DateTime.utc_now(), state.last_active)
-
-    if idle_seconds > 1800 do
-      {:stop, :normal, state}
-    else
-      schedule_timeout_check()
-      {:noreply, state}
-    end
-  end
-
-  defp schedule_timeout_check do
-    Process.send_after(self(), :check_timeout, :timer.minutes(5))
-  end
-
-  defp via_tuple(user_id) do
-    {:via, Registry, {Example.SessionRegistry, user_id}}
-  end
-end
-```
-
-### Filosofie „let it crash“
-
-Snad nejvíce paradigma měnícím rysem OTP je filosofie „let it crash“ („nech to spadnout“).
-V objektově orientovaném paradigmatu je ošetření chyb defenzivní – kód obaluje operace bloky
-try/catch, kontroluje návratové hodnoty a snaží se zotavit z každého možného selhání.
-V paradigmatu BEAM se od procesů očekává, že při neočekávaných podmínkách spadnou,
-a supervizory je automaticky restartují do známého dobrého stavu.
-
-Není to nedbalost; je to záměrné rozhodnutí návrhu založené na pozorování, že většina kódu
-pro zotavení z chyb je sama chybová (ošetřuje případy, které programátor předvídal, ale chyby,
-které shazují systémy, jsou z definice nepředvídané). Oddělením zotavení z chyb (supervize)
-od obchodní logiky (pracovní procesy) dosahuje OTP odolnosti vůči chybám, která je
-robustnější a zároveň jednodušší na uvažování než defenzivní programování.
-
-### Supervize jako architektura
-
-V paradigmatu BEAM není supervizní strom implementačním detailem – je to architektura.
-Struktura supervizního stromu určuje domény selhání systému, pořadí inicializace a strategii
-zotavení každé komponenty. Návrh aplikace
-na BEAM začíná návrhem supervizního stromu, ne hierarchie tříd ani struktury modulů.
-
-## Rozpoznání uvíznutí v paradigmatu
-
-Jedním z nejzákeřnějších účinků paradigmatického myšlení je uvíznutí v paradigmatu
-(*paradigm lock-in*) – neschopnost vidět řešení mimo pojmový rámec současného paradigmatu.
-Vývojáři vyškolení v objektově orientovaném programování často píší „objektově orientovaný
-Elixir“ – vytvářejí GenServery, které zrcadlí hierarchie tříd, používají procesy jako objekty
-a bojují s funkcionální povahou jazyka, místo aby ji přijali.
-
-Znaky uvíznutí v paradigmatu: GenServery pro bezstavové operace (stačila by funkce), hluboké
-hierarchie procesů zrcadlící dědičnost tříd, sahání po měnitelném stavu (ETS, slovník procesu)
-tam, kde by neměnné datové struktury byly jednodušší, a implementace návrhových vzorů z OOP,
-které ve funkcionálním programování nemají odpovídající potřebu (většina vzorů Gang of Four
-řeší problémy, které ve funkcionálních jazycích neexistují).
-
-Kompendium zná analogii u lidí: uvíznutí v rámci, který člověk převzal od skupiny, se
-projevuje tím, že každou novou zkušenost překládá do starého slovníku (srov. [Kognitivní
-stagnace](@/glossary/kognitivni-stagnace.md)).
-
-## Funkcionální změna podrobněji
-
-Změna paradigmatu k funkcionálnímu programování zahrnuje několik provázaných pojmových změn.
-
-**Neměnnost** odstraňuje celou kategorii chyb – souběhové chyby, neočekávané mutace, zastaralé
-reference –, protože datové struktury se po vytvoření nedají změnit. V Elixiru jsou všechna
-data neměnná. Operace, které zdánlivě datovou strukturu mění (jako `Map.put/3`), ve
-skutečnosti vytvářejí novou strukturu a běhové prostředí efektivně sdílí nezměněné části
-(strukturní sdílení).
-
-**Porovnávání se vzorem** (*pattern matching*) nahrazuje podmíněné větvení deklarativním
-rozkladem dat. Místo imperativního ověřování podmínek a vybírání hodnot funkce deklarují tvar
-dat, který očekávají, a běhové prostředí zvolí odpovídající klauzuli funkce.
-
-**Pipeline** nahrazují vnořená volání funkcí lineárními řetězci transformací dat. Operátor
-pipe (`|>`) v Elixiru činí tok dat transformacemi výslovným a čitelným a nahrazuje čtení
-vnořených volání „zevnitř ven“ tokem „shora dolů“.
-
-**Algebraické datové typy** (v Elixiru označené n-tice jako `{:ok, value}` a
-`{:error, reason}`) nahrazují výjimky u očekávaných selhání, takže ošetření chyb je výslovně
-v signaturách funkcí, ne skryté v blocích try/catch.
-
-## Kdy je změna paradigmatu oprávněná
-
-Ne každá nová technologie představuje změnu paradigmatu a ne každá změna paradigmatu se hodí
-do každého kontextu. Rozhodnutí o přijetí nového paradigmatu vyžaduje poctivé posouzení
-několika faktorů.
-
-**Soulad problému a paradigmatu**: řeší nové paradigma skutečné anomálie současného přístupu,
-nebo problémy, které nemáte? Paradigma BEAM je transformační pro souběžné systémy odolné vůči
-chybám; u jednoduchých CRUD aplikací s minimálními požadavky na souběžnost přináší menší
-výhodu.
-
-**Připravenost týmu**: změny paradigmatu vyžadují přeškolení. Tým zkušených vývojářů v Javě se
-přes noc nestane produktivním týmem v Elixiru. Investici do učení je třeba vážit proti
-očekávanému přínosu.
-
-**Zralost ekosystému**: paradigma je jen tak užitečné jako jeho ekosystém. Knihovny, nástroje,
-dokumentace a podpora komunity rozhodují, zda se teoretické výhody paradigmatu promítnou do
-praktické produktivity.
-
-**Náklady migrace**: existující systémy nelze změnit paradigmaticky „na místě“. Náklady
-přepsání, integrace nebo postupné migrace musí být realistické.
-
-## Past nedokončené změny
-
-Mnoho organizací se o změnu paradigmatu pokusí, ale zastaví se v půli a vytvoří hybridní
-systémy, které spojují nejhorší stránky obou paradigmat. Psaní kódu ve stylu Javy v Elixiru,
-používání vzorů OOP ve funkcionálním jazyce nebo stavba monolitických architektur nasazených
-jako mikroslužby jsou příklady nedokončených změn, které zvyšují složitost, aniž by přinesly
-výhody kteréhokoli paradigmatu.
-
-U lidí má „nedokončená změna“ jiný význam: člověk, který opustil jeden rámec a nový ještě
-nemá, prožívá [paradigmatickou bezdomovinu](@/glossary/paradigmaticka-bezdomovina.md), v níž je
-zvlášť zranitelný vůči nabídce hotového světonázoru. Postup zotavení popisuje protokol
-[Paradigm](@/kompendium/recovery-protocols/paradigm.md).
+**Paradigm shift** (změna paradigmatu) je změna celého rámce, v němž se rozhoduje, co je problém, co platí
+za doklad a co za řešení. Pojem zavedl Kuhn (1962) pro vědecké revoluce: přechod například od Ptolemaiovy
+k Koperníkově astronomii nebo od flogistonové k Lavoisierově chemii nebyl podle něj jen přidáním nových
+poznatků, ale proměnou toho, jak vědecké společenství vidí svůj předmět.
+
+Podstatou pojmu je, že změna se netýká jednotlivých přesvědčení, ale jejich společného základu. Kuhn
+(1962) ji přirovnal ke gestaltovému přepnutí, při němž tentýž obrázek člověk najednou vidí jako jiný
+útvar, a tvrdil, že po revoluci vědci „pracují v jiném světě“. Kniha tento pojem užívá ve dvojím smyslu:
+pro vědecké revoluce, kterým se podrobně věnuje heslo [Kuhnova revoluce](@/glossary/kuhnova-revoluce.md), a
+pro obdobnou změnu rámce u jednotlivého člověka.
+
+## Původ a kontext pojmu
+
+Kuhn (1962) pojem zavedl v knize *The Structure of Scientific Revolutions*, kde popsal střídání období
+normální vědy, v nichž se řeší hádanky uvnitř přijatého paradigmatu, s krizemi a revolucemi, v nichž je
+paradigma nahrazeno jiným. Masterman (1970) záhy upozornila, že Kuhn užívá slovo „paradigma“ nejméně ve
+dvaceti jednom významu, a Kuhn (1970) v doslovu k druhému vydání proto rozlišil paradigma jako celek
+sdílených přesvědčení, hodnot a postupů skupiny a paradigma jako vzorové řešení, podle něhož se ostatní
+úlohy učí řešit.
+
+Myšlenka, že vidění je ovlivněno teorií, kterou pozorovatel zastává, předchází Kuhnovi. Hanson (1958)
+ukázal na příkladu Tycha Braha a Keplera, kteří hledí na týž východ Slunce, že vidět neznamená jen
+přijímat smyslová data, ale vidět je jako něco, a právě na tuto myšlenku Kuhn navázal, když mluvil o
+gestaltovém přepnutí.
+
+## Jak se projevuje
+
+Ve vědě se změna paradigmatu projevuje tím, že spor mezi starým a novým rámcem nelze rozhodnout jen
+logikou a pozorováním, protože oba rámce se liší i v tom, co pokládají za rozhodující doklad. Kuhn (1962)
+tuto situaci nazval inkomensurabilitou a popsal, že zastánci různých paradigmat se v debatě navzájem
+„míjejí“, protože tatáž slova užívají v jiném významu.
+
+Zvláštním projevem změny paradigmatu je, že po ní přestává být vidět. Kuhn (1962) ukázal, že učebnice
+po revoluci přepisují dějiny oboru tak, aby se nový rámec jevil jako přirozený výsledek postupného
+hromadění poznatků, a předchozí paradigma se v nich objevuje jen jako omyl, který byl překonán. Revoluce
+se tak stává neviditelnou a další generace se o ní dozvídá jen jako o pokroku. *Interpretace knihy*:
+obdobné přepsání vlastní minulosti zná kniha u člověka, jemuž byl rámec vnucen: celý dosavadní život se
+mu začne jevit jako omyl, z něhož ho nový rámec vysvobodil, a možnost, že minulý pohled měl své důvody,
+přestane být myslitelná.
+
+U jednotlivce se obdobná změna projevuje jako proměna celého pohledu na vlastní život. Mezirow (1991)
+popsal transformaci perspektivy, při níž člověk zjistí, že předpoklady, podle nichž vykládal svou
+zkušenost, neplatí, a přestaví je, a Paul (2014) popisuje transformativní zkušenost, která mění nejen to,
+co člověk ví, ale i to, co chce a čeho si cení. V knize je tento druh zkušenosti popsán v hesle
+[transformativní zkušenost](@/glossary/transformative-experience.md).
+
+## Mechanismus
+
+Mechanismus změny paradigmatu je podle Kuhna (1962) nahromadění anomálií, které starý rámec nedokáže
+vysvětlit, krize, v níž se pravidla uvolní, a přijetí nového rámce, který anomálie zahrnuje. Rozhodující
+přitom není jeden experiment, ale to, že nový rámec slibuje řešit víc problémů než starý; Kuhn (1970)
+proto zdůrazňoval, že volba mezi paradigmaty se opírá o sdílené hodnoty, jako je přesnost, jednoduchost a
+plodnost, a nikoli o algoritmus.
+
+Mezirow (1991) popisuje u jednotlivce podobný průběh: změna perspektivy často začíná „dezorientujícím
+dilematem“, situací, kterou dosavadní předpoklady nedokážou vyložit, a pokračuje kritickou reflexí těchto
+předpokladů. *Interpretace knihy*: právě tento průběh může manipulace zneužít, když uměle vytvoří krizi a
+nabídne hotový nový rámec dřív, než člověk stačí starý sám prověřit.
+
+## Odlišení
+
+| Odlišit od | Rozdíl |
+| --- | --- |
+| [Normální věda](@/glossary/normalni-veda.md) | práce uvnitř přijatého paradigmatu; změna paradigmatu je přechod mezi paradigmaty |
+| [Gestalt shift](@/glossary/gestalt-shift.md) | percepční model náhlé změny vidění, jímž Kuhn změnu paradigmatu přirovnával |
+| Postupný vývoj názorů | jednotlivá přesvědčení se mění v rámci, který zůstává; změna paradigmatu mění rámec sám |
+| Konverze vynucená skupinou | změna, kterou člověk neprovedl na základě vlastní reflexe, ale pod tlakem a bez možnosti nový rámec prověřit |
+
+## Význam pro Kompendium
+
+V Kompendiu se pojem objevuje u technik, které zasahují celý rámec člověka, a u postupů obnovy po jeho
+rozpadu. Průvodce [paradigmatickým pluralismem](@/kompendium/self-defense-guides/6-paradigm-pluralism.md)
+odlišuje vědeckou změnu paradigmatu, která je kolektivní a jejíž důvody jsou veřejně kontrolovatelné, od
+změny rámce vnucené jednotlivci, a kapitola o [Kuhnovi](@/kompendium/07-teoreticke-reflexe/kuhn-paradigmaticke-revoluce.md)
+vykládá původní pojem v souvislostech. *Interpretace knihy*: toto rozlišení vychází z Kuhnova (1970)
+důrazu na to, že volba paradigmatu ve vědě probíhá ve společenství a podle sdílených hodnot.
+
+Druhým užitím je obnova. Protokol [obnovy paradigmatu](@/kompendium/recovery-protocols/paradigm.md) pracuje
+se stavem po rozpadu rámce, který kniha popisuje jako [paradigmatickou
+bezdomovinu](@/glossary/paradigmaticka-bezdomovina.md). *Interpretace knihy*: kde Mezirow (1991) popisuje
+transformaci perspektivy jako výsledek vlastní kritické reflexe, tam obnova po manipulaci usiluje o to, aby
+člověk nový rámec nepřejal hotový, ale znovu si ho sám prověřil.
+
+## Obrana a zotavení
+
+Obrana vychází z rozlišení mezi změnou rámce, kterou člověk provedl sám, a změnou, kterou mu někdo vnutil.
+Mezirow (1991) zdůrazňuje, že transformace perspektivy je oprávněná tehdy, když vyplývá z kritické
+reflexe a z rozhovoru s druhými, v němž lze předpoklady otevřeně zpochybnit; kde takový rozhovor chybí,
+je na místě nedůvěra k náhlé změně.
+
+Při zotavení je podstatné nespěchat. Paul (2014) upozorňuje, že u transformativní zkušenosti člověk
+předem neví, jaký bude po ní, a nemůže ji proto racionálně zvolit na základě toho, co ví nyní.
+*Interpretace knihy*: kdo prošel vnuceným rozpadem rámce, potřebuje čas a bezpečný vztah, v němž může
+zkoušet různé výklady své zkušenosti, než se k některému přikloní; konkrétní postup volí odborník.
+
+## Meze pojmu a kritika
+
+Kuhnův pojem byl od počátku kritizován za nejasnost a za relativismus. Masterman (1970) ukázala jeho
+mnohoznačnost, a v diskusích shromážděných Lakatosem a Musgravem (1970) kritici namítali, že pokud volba
+mezi paradigmaty není věcí logiky, hrozí, že věda bude vypadat jako věc víry nebo davové psychologie.
+Kuhn (1970) tyto námitky odmítl, ale své tvrzení o inkomensurabilitě zmírnil.
+
+Druhou mezí je přenos pojmu z vědy na jednotlivce. Kuhn ho vymezil pro vědecká společenství, a jeho užití
+pro změnu pohledu u člověka je analogie, nikoli totožnost. *Interpretace knihy*: Kompendium proto u
+jednotlivce mluví o změně rámce a odkazuje k Mezirowovi (1991) a Paulové (2014), kteří tuto zkušenost
+popisují přímo.
+
+## Literatura
+
+- Hanson, N. R. (1958). *Patterns of Discovery*. Cambridge University Press.
+- Kuhn, T. S. (1962). *The Structure of Scientific Revolutions*. University of Chicago Press.
+- Kuhn, T. S. (1970). *The Structure of Scientific Revolutions* (2nd ed., with a Postscript). University of Chicago Press.
+- Lakatos, I., & Musgrave, A. (Eds.). (1970). *Criticism and the Growth of Knowledge*. Cambridge University Press.
+- Masterman, M. (1970). *The nature of a paradigm*. In I. Lakatos & A. Musgrave (Eds.), Criticism and the Growth of Knowledge. Cambridge University Press.
+- Mezirow, J. (1991). *Transformative Dimensions of Adult Learning*. San Francisco: Jossey-Bass.
+- Paul, L. A. (2014). *Transformative Experience*. Oxford University Press.
 
 ## Související
 

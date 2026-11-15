@@ -26,11 +26,16 @@ Navazující autoři rozvinuli příbuzné pojmy: Kristie Dotsonová *contributo
 
 ## Jak se projevuje
 
-- člověk popisuje zkušenost opisem, metaforou nebo omluvou („nevím, jak to říct, asi to nic není“);
-- instituce nemá kategorii, do které by stížnost zapadla, a proto ji neeviduje nebo ji zařadí jinam;
-- zkušenost se vykládá jako osobní selhání, přecitlivělost nebo nemoc, protože jiný výklad není k dispozici;
-- při prvním setkání s přesným pojmem přichází úleva a poznání („tak tohle má jméno“);
-- výpověď je pro posluchače nesrozumitelná nebo nepřesvědčivá – ne kvůli předsudku vůči mluvčímu, ale kvůli chybějícímu sdílenému slovníku.
+Frickerová (2007) vykládá hermeneutickou marginalizaci na příběhu ženy, která odešla ze zaměstnání kvůli
+obtěžování v době, kdy pro tuto zkušenost ještě neexistoval pojem, a nedokázala na úřadě vysvětlit, proč
+odešla. Instituce neměla kategorii, do níž by její stížnost zapadla, a zkušenost se proto vykládala jako
+osobní selhání, přecitlivělost nebo potíž s povahou, protože jiný výklad nebyl k dispozici. Člověk pak
+zkušenost popisuje opisem, metaforou nebo omluvou („nevím, jak to říct, asi to nic není“).
+
+Výpověď je v takové situaci pro posluchače nesrozumitelná nebo nepřesvědčivá, a to ne kvůli předsudku vůči
+mluvčímu, ale kvůli chybějícímu sdílenému slovníku (Frickerová, 2007). Frickerová popisuje i druhou stranu
+téže zkušenosti: při prvním setkání s přesným pojmem, například ve skupinách, které tyto zkušenosti začaly
+pojmenovávat, přichází úleva a poznání, že věc má jméno.
 
 ## Mechanismus
 
@@ -40,10 +45,12 @@ Pro epistemickou anihilaci je hermeneutická marginalizace zvlášť důležitá
 
 ## Odlišení
 
-- **[Testimoniální nespravedlnost](@/glossary/testimonialni-nespravedlnost.md)** vzniká z předsudku posluchače vůči mluvčímu; hermeneutická marginalizace je strukturní a nemusí za ní stát nikdo konkrétní.
-- **[Sémantická afázie](@/glossary/semanticka-afazie.md)** v Kompendiu popisuje ztrátu schopnosti vyjádřit význam u jednotlivce; marginalizace se týká skupiny a jejího místa ve společnosti.
-- **[Diskursivní formace](@/glossary/diskursivni-formace.md)** (Foucault) je obecnější rámec pravidel výpovědí; Frickerová se ptá konkrétně po etice a spravedlnosti.
-- **Neznalost odborného termínu** je individuální a snadno napravitelná; marginalizace znamená, že pojem v kolektivním zdroji vůbec chybí.
+| Odlišit od | Rozdíl |
+| --- | --- |
+| [Testimoniální nespravedlnost](@/glossary/testimonialni-nespravedlnost.md) | vzniká z předsudku posluchače vůči mluvčímu; hermeneutická marginalizace je strukturní a nemusí za ní stát nikdo konkrétní |
+| [Sémantická afázie](@/glossary/semanticka-afazie.md) | v Kompendiu ztráta schopnosti vyjádřit význam u jednotlivce; marginalizace se týká skupiny a jejího místa ve společnosti |
+| [Diskursivní formace](@/glossary/diskursivni-formace.md) (Foucault) | obecnější rámec pravidel výpovědí; Frickerová se ptá konkrétně po etice a spravedlnosti |
+| Neznalost odborného termínu | individuální a snadno napravitelná; marginalizace znamená, že pojem v kolektivním zdroji vůbec chybí |
 
 ## Význam pro Kompendium
 

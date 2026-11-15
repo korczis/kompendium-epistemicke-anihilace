@@ -112,7 +112,7 @@ práce s jedním převládajícím příběhem.
   sčítají.
 - **Oprávněný strach.** Když je hrozba skutečně častá, vysoký odhad není biasem; rozhoduje
   srovnání se základními četnostmi.
-- **Klinické stavy.** Úzkostné poruchy zesilují dostupnost hrozivých scénářů zevnitř;
+- **Klinické stavy.** [Úzkostné poruchy](@/glossary/uzkostne-poruchy.md) zesilují dostupnost hrozivých scénářů zevnitř;
   manipulované prostředí zvenku. U úzkostného pacienta je třeba posoudit obojí.
 
 ## Klinický a právní rámec

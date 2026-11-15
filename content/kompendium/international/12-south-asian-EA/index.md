@@ -46,7 +46,7 @@ povinností. Kontrolu pak vykonává několik lidí najednou, což klasický mod
 ([coercive control](@/glossary/coercive-control.md); Stark, 2007) nezachytí.
 
 **Věno a finanční závislost.** Požadavky na věno jsou v Indii zakázány od roku 1961,
-přesto přetrvávají a mohou se proměnit v dlouhodobé vydírání nevěsty i její rodiny.
+přesto přetrvávají a mohou se proměnit v dlouhodobé [vydírání](@/glossary/vydirani.md) nevěsty i její rodiny.
 Oldenburg (2002) argumentuje, že dnešní podoba věna a násilí s ním spojeného není
 „odvěkou tradicí“, ale vznikla z velké části za koloniálních změn vlastnických práv; tento
 výklad je důležitý, protože odmítá kulturní fatalismus.

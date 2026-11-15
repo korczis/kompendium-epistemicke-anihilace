@@ -16,7 +16,7 @@ toc = false
 
 # Bridge: Epistemická injustice
 
-> **Most** vede od hesla glosáře k místům knihy, kde se pojem používá, a od nich k praxi:
+> Most vede od hesla glosáře k místům knihy, kde se pojem používá, a od nich k praxi:
 > rozpoznání, obraně a zotavení. Přehled všech mostů je v rejstříku
 > [Glossary Bridges](@/kompendium/glossary-bridges/_index.md).
 
@@ -157,7 +157,7 @@ konkrétní výpovědi a hodnotit ji podle obsahu, kontextu a souladu s dalším
 
 ## Příklad (anonymizovaný kompozit)
 
-Pacientka s dřívější diagnózou úzkostné poruchy opakovaně upozorňuje praktického lékaře na
+Pacientka s dřívější diagnózou [úzkostné poruchy](@/glossary/uzkostne-poruchy.md) opakovaně upozorňuje praktického lékaře na
 narůstající bolesti; ten je přičítá „nervům“. Až druhý lékař, který si stížnosti vyslechne
 bez ohledu na diagnózu v kartě, odešle pacientku na vyšetření a nalezne organickou příčinu.
 Pacientka později říká, že nejhorší nebyla bolest, ale to, že jí přestala věřit i ona sama.

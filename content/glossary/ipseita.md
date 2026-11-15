@@ -39,7 +39,7 @@ když dodrží slib) – tento význam souvisí s [narativní identitou](@/gloss
 Dan Zahavi (*Subjectivity and Selfhood*, 2005) systematicky obhájil pojem minimálního já
 jako zkušenostní „mineness“.
 
-V psychiatrii pojem rozpracovala fenomenologická psychopatologie. Louis Sass a Josef Parnas
+V psychiatrii pojem rozpracovala [fenomenologická psychopatologie](@/glossary/fenomenologicka-psychopatologie.md). Louis Sass a Josef Parnas
 (2003) formulovali model, podle něhož je jádrem schizofrenního spektra **porucha ipseity**:
 spojení *hyperreflexivity* (přehnaného, explicitního uvědomování si toho, co by normálně
 zůstalo implicitní) a oslabeného sebe-zakoušení. Na tento model navazuje polostrukturovaný

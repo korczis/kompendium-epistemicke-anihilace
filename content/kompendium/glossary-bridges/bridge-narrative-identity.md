@@ -16,7 +16,7 @@ toc = false
 
 # Bridge: Narrative identity (narativní identita)
 
-> **Most** vede od hesla glosáře k místům knihy, kde se pojem používá, a od nich k praxi:
+> Most vede od hesla glosáře k místům knihy, kde se pojem používá, a od nich k praxi:
 > rozpoznání, obraně a zotavení. Přehled všech mostů je v rejstříku
 > [Glossary Bridges](@/kompendium/glossary-bridges/_index.md).
 
@@ -35,7 +35,7 @@ i to, kým se člověk cítí být. Přepsaný příběh se po čase stává př
 
 ## Narativní identita očima knihy
 
-Kniha rozlišuje tři způsoby, jak manipulace na narativní identitu působí. **Přepis** nahrazuje
+Kniha rozlišuje tři způsoby, jak manipulace na narativní identitu působí. Přepis nahrazuje
 dosavadní příběh novým: minulost před vstupem do skupiny je „temná doba“, rodina „toxická“, dřívější
 úspěchy „iluze ega“. Odpovídá tomu [EA-5.3.7 Náhrada vlastního příběhu](@/kompendium/techniques/ea-5-3-7-self-narrative-replacement.md)
 a [EA-4.4.4 Biografická rekontextualizace](@/kompendium/techniques/ea-4-4-4-biographical-recontextualization.md).

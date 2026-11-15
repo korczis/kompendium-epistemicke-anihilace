@@ -19,7 +19,7 @@ status = "publikovano"
 
 # Institucionální anihilace — destrukce kolektivních epistemických struktur
 
-> ⚠️ **L2 — Analytické porozumění.** Tato studie analyzuje **terminální protokoly cílené na kolektivní úroveň** — instituce, profesní komunity, mediální ekosystémy, akademické sítě. Operuje na úrovni populace, nikoli individuálního subjektu, ale strukturálně sdílí mechanismy s individuálně cílenými protokoly. Materiál zachovává princip strategické neúplnosti.
+> **L2 — Analytické porozumění.** Tato studie analyzuje **terminální protokoly cílené na kolektivní úroveň** — instituce, profesní komunity, mediální ekosystémy, akademické sítě. Operuje na úrovni populace, nikoli individuálního subjektu, ale strukturálně sdílí mechanismy s individuálně cílenými protokoly. Materiál zachovává princip strategické neúplnosti.
 
 ## Pozice protokolu
 

@@ -115,7 +115,7 @@ hypotéze, které Croskerry (2003) popisuje mezi kognitivními chybami.
 
 Diferenciálně je třeba odlišit **obtížnou diagnostiku**, kdy byl postup odborně správný, ale
 nemoc se projevila atypicky, **legitimní odmítnutí** vyšetření, které nebylo indikováno, a
-**komunikační selhání** bez věcného pochybení. Ne každé „to je psychické“ je pochybením –
+komunikační selhání bez věcného pochybení. Ne každé „to je psychické“ je pochybením –
 někdy je to správná diagnóza podaná necitlivě. Ne každé odmítnutí pacientova výkladu je
 epistemickou nespravedlností; ta podle Fricker (2007) vzniká až tam, kde důvěryhodnost
 mluvčího snižuje předsudek.

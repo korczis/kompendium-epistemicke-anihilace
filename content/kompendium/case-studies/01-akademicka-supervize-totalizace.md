@@ -61,16 +61,16 @@ kdykoli připomenout a revidovat (National Academies of Sciences, Engineering, a
 ## 3. Časová osa expozice
 
 Průběh lze rozdělit do pěti fází. **Idealizace** (přibližně měsíce 1–6) zahrnovala výběr
-„nejlepší z ročníku“, intenzivní mentorství a příslib spoluautorství. Ve fázi **zúžení**
+„nejlepší z ročníku“, intenzivní mentorství a příslib spoluautorství. Ve fázi zúžení
 (měsíce 6–18) přibylo odrazování od konzultací s jinými pracovníky a pravidlo „naše data nikomu
 neukazujeme“. Stark (2007) u donucující kontroly zdůrazňuje, že jednotlivé kroky vypadají
 izolovaně banálně a teprve jejich souhrn omezuje autonomii; stejný rys má i tento průběh.
 
-Ve fázi **destabilizace** (měsíce 18–30) se proměňovala kritéria kvality, chvála se střídala
+Ve fázi destabilizace (měsíce 18–30) se proměňovala kritéria kvality, chvála se střídala
 s pohrdáním a zadání se přepisovalo. Nepravidelné střídání odměny a trestu patří k podmínkám,
 za nichž vzniká obzvlášť pevná vazba na zdroj odměny (Dutton a Painter, 1981). Ve fázi
-**konsolidace** (roky 3–4) doktorandka obhajovala školitele před ostatními a ztrácela důvěru ve
-vlastní rukopisy. Fáze **detekce a odchodu** (roky 4–5) začala, když externí oponent ohodnotil
+konsolidace (roky 3–4) doktorandka obhajovala školitele před ostatními a ztrácela důvěru ve
+vlastní rukopisy. Fáze detekce a odchodu (roky 4–5) začala, když externí oponent ohodnotil
 její samostatnou kapitolu jako výbornou – v rozporu s tím, co slýchala ve skupině.
 
 ## 4. Manifestované EA techniky
@@ -144,7 +144,7 @@ doktorandce pomohlo uvidět, jak se kritéria posouvala v čase. Strukturované 
 zkušenosti má samostatný příznivý účinek (Pennebaker, 1997) a zde zároveň sloužilo jako
 dokumentace.
 
-V **S2 – externalizaci introjektů** doktorandka sepsala věty, kterými se hodnotí („jsem
+V S2 – externalizaci introjektů doktorandka sepsala věty, kterými se hodnotí („jsem
 průměrná“, „bez něj nic nedokážu“), a přiřadila je původnímu zdroji. Oddělení problému od
 identity člověka je jádrem narativního přístupu, který popsali White a Epston (1990). Ve **S3 –
 rekonstrukci [metakognice](@/glossary/metakognice.md)** nacvičovala hodnocení vlastního textu
@@ -152,7 +152,7 @@ podle explicitních, vnějších kritérií (pravidla časopisu, rubrika oponent
 reakce autority; Flavell (1979) chápe metakognitivní monitorování jako schopnost posoudit
 vlastní poznávání, a tu bylo třeba obnovit.
 
-Ve **S4 – hermeneutické obnově** proběhlo nové čtení vlastního oboru a rozlišení mezi oprávněnou
+Ve S4 – hermeneutické obnově proběhlo nové čtení vlastního oboru a rozlišení mezi oprávněnou
 kritikou, kterou si doktorandka ponechala, a ponižováním, které odložila. **S5 – konsolidace a
 transfer** zahrnovala dokončení disertace pod novým vedením a dohodu o pravidlech spolupráce
 sepsanou předem. Paralelně probíhalo institucionální řešení: změna školitele přes oborovou radu,

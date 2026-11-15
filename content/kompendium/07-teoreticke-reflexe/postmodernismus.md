@@ -58,7 +58,7 @@ Lyotardův pojem **performativity** — kritérium „co dělá rozdíl ve výko
 - Pravdivost se stává **sekundární** dimenzí
 - Manipulace ztrácí **kvalitativní rozdíl** vůči legitimní argumentaci — všechny formy přesvědčování jsou „jen“ performance
 
-Toto je strukturní prostředí, v němž **falešná ekvivalence** ([3.5](@/kompendium/03-zakladni-kategorie/_index.md)), **iluzorní komplexita** a **terminologická mystifikace** nejen že fungují, ale stávají se **dominantní** rétorickou normou.
+Toto je strukturní prostředí, v němž **[falešná ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md)** ([3.5](@/kompendium/03-zakladni-kategorie/_index.md)), **[iluzorní komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md)** a **[terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)** nejen že fungují, ale stávají se **dominantní** rétorickou normou.
 
 ### 1.5 Kritická odbočka: kompendium odmítá radikální Lyotardovu pozici
 

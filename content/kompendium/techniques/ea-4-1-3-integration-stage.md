@@ -33,7 +33,7 @@ parent_chapter = "/kompendium/04-terminalni-protokoly/"
 
 ## Definice
 
-**Integration stage** představuje fáze, v níž je expoziční zkušenost integrována do koherentního narativu a stabilní self-struktury subjektu. V rámci kompendia je technika klasifikována jako **terminální protokol** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození. Zotavení se v této tradici popisuje jako obnovení vlastního příběhu a vztahů, nikoli jako zvládnutí jednotlivé vzpomínky (Herman, 1992).
+**Integration stage** představuje fáze, v níž je expoziční zkušenost integrována do koherentního narativu a stabilní self-struktury subjektu. V rámci kompendia je technika klasifikována jako **[terminální protokol](@/kompendium/04-terminalni-protokoly/_index.md)** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození. Zotavení se v této tradici popisuje jako obnovení vlastního příběhu a vztahů, nikoli jako zvládnutí jednotlivé vzpomínky (Herman, 1992).
 
 Stránka slouží rozpoznání vzorce, nikoli jeho provedení.
 

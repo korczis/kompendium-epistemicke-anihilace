@@ -21,8 +21,8 @@ výslovně a jak se bránit tomu, aby ji někdo nenápadně posunul.
 
 ## Doména a problém
 
-Teorie důkazu rozlišuje tři vlastnosti každého důkazu: **relevanci** (souvisí s hypotézou?),
-**věrohodnost** (je pravý a přesný?) a **sílu** (jak moc mění pravděpodobnost hypotézy?).
+Teorie důkazu rozlišuje tři vlastnosti každého důkazu: relevanci (souvisí s hypotézou?),
+věrohodnost (je pravý a přesný?) a sílu (jak moc mění pravděpodobnost hypotézy?).
 Schum (1994) a Anderson, Schum a Twining (2005) ukázali, že většina důkazů v reálných
 rozhodnutích není přímá: mezi důkazem a závěrem vede řetěz úsudků, z nichž každý přidává
 nejistotu. Bankovní výpis dokládá, že platba proběhla; že šlo o úplatek, je úsudek, který

@@ -60,7 +60,7 @@ bývalé členky veřejně svědčily v médiích, včetně deníku *The New Yor
 Oxenberg (2018) popsala z pozice matky jedné z členek, jak se rodina snažila dceru ze skupiny
 dostat.
 
-V roce 2018 byl Raniere zatčen v Mexiku; obžaloba zahrnovala vydírání v rámci organizované
+V roce 2018 byl Raniere zatčen v Mexiku; obžaloba zahrnovala [vydírání](@/glossary/vydirani.md) v rámci organizované
 trestné činnosti (RICO), obchodování s lidmi za účelem sexuálního vykořisťování a nucenou
 práci. V červnu 2019 ho porota uznala vinným ve všech bodech a v říjnu 2020 byl odsouzen ke
 120 letům vězení. Další vedoucí osoby, včetně Nancy Salzmanové, Clare Bronfmanové a herečky

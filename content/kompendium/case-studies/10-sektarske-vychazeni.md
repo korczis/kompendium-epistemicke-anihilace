@@ -62,7 +62,7 @@ textů, dvojí život a rostoucí úzkost. Wright (1987) zjistil, že odchodům 
 hnutí často předchází postupné oslabení izolace od vnějšího světa a navázání vztahů mimo skupinu.
 
 **Vnější odchod** (24 let) přinesl oznámení odchodu, ostrakizaci rodiči a přáteli a stěhování.
-**Zotavení** (24–28 let) zahrnovalo terapii, peer skupinu bývalých členů, studium a nové vztahy.
+Zotavení (24–28 let) zahrnovalo terapii, peer skupinu bývalých členů, studium a nové vztahy.
 Williams (2007) ukazuje, že vyloučení ze skupiny ohrožuje potřeby sounáležitosti, sebeúcty,
 kontroly a smysluplné existence současně; u člověka, kterého ostrakizuje vlastní rodina, jde
 o ohrožení všech čtyř najednou.
@@ -128,15 +128,15 @@ v dobrovolné podobě (bydlení, finance, studium) a [akutní sociální rekonek
 pořadí odpovídá zásadě, že nastolení bezpečí předchází zpracování (Herman, 1992). Terapie poté
 navázala [protokolem epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md).
 
-Ve **S1 – validaci a mapování** proběhla psychoedukace o skupinách s vysokou kontrolou a uznání,
-že odchod byl racionální rozhodnutí, nikoli selhání. Ve **S2 – externalizaci introjektů** žena
+Ve S1 – validaci a mapování proběhla psychoedukace o skupinách s vysokou kontrolou a uznání,
+že odchod byl racionální rozhodnutí, nikoli selhání. Ve S2 – externalizaci introjektů žena
 identifikovala hlasy „budu potrestána“ a „mimo skupinu nejsem nic“ a přiřadila je učení skupiny.
 Lalich a Tobias (2006) považují poznání mechanismů vlivu za důležitý krok, který bývalému
 členovi pomáhá přestat vinit sám sebe.
 
 Ve **S3 – rekonstrukci [metakognice](@/glossary/metakognice.md)** nacvičovala
 [hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md) a vlastního úsudku
-u témat, o nichž dříve rozhodovalo učení. Ve **S4 – hermeneutické obnově** budovala vlastní vztah
+u témat, o nichž dříve rozhodovalo učení. Ve S4 – hermeneutické obnově budovala vlastní vztah
 ke spiritualitě – bez povinnosti ji odmítnout i bez povinnosti ji zachovat. **S5 – konsolidace a
 transfer** přinesla studium, nové přátelské sítě a plán pro situace kontaktu s rodinou a pro
 výročí. Ebaugh (1988) zdůrazňuje, že nová identita nevzniká popřením staré role, ale jejím
@@ -156,7 +156,7 @@ a proto vyžaduje trvalou podporu.
 
 **Běžná náboženská krize víry** se odlišuje tím, že člověk zpochybňuje víru, ale neztrácí vztahy a
 není trestán za pochybnost; rozhoduje míra kontroly a ostrakizace, nikoli obsah víry (Hassan,
-1988). **Úzkostná porucha** je zde nepravděpodobným primárním vysvětlením, protože úzkost je vázaná
+1988). **[Úzkostná porucha](@/glossary/uzkostne-poruchy.md)** je zde nepravděpodobným primárním vysvětlením, protože úzkost je vázaná
 na témata skupiny a trestu, nikoli generalizovaná (American Psychiatric Association, 2013).
 
 **Psychotické prožívání** je třeba odlišit pečlivě: apokalyptické noční můry a strach z trestu mají

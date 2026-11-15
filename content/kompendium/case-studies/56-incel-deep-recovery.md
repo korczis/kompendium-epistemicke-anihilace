@@ -33,7 +33,7 @@ a sociální stažení přetrvávající do dospělosti.
 
 Rizikové faktory: dlouhodobá [sociální izolace](@/glossary/socialni-izolace.md), nezpracovaná
 zkušenost šikany, nerealistické představy o vztazích formované online obsahem, silná
-intelektualizace emocí, anonymní online prostředí a pseudovědecká rétorika, která osobní
+[intelektualizace](@/glossary/intelektualizace.md) emocí, anonymní online prostředí a pseudovědecká rétorika, která osobní
 bolest převádí na „objektivní zákony“. Ging (2019) ukazuje, že prostředí takzvané manosféry
 spojuje skutečné prožitky mužské zranitelnosti s výkladem, který z nich viní ženy a feminismus,
 a právě tato kombinace uznání bolesti a nabídky viníka je pro izolované muže přitažlivá.

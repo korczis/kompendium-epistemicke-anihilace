@@ -36,8 +36,8 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/"
 
 ## Definice
 
-Bernard Williams rozlišuje dvě **ctnosti pravdivosti**: **přesnost** (*accuracy*) – péči
-o to, aby přesvědčení byla správná, tedy ochotu zjišťovat a ověřovat – a **upřímnost**
+Bernard Williams rozlišuje dvě **ctnosti pravdivosti**: přesnost (*accuracy*) – péči
+o to, aby přesvědčení byla správná, tedy ochotu zjišťovat a ověřovat – a upřímnost
 (*sincerity*) – ochotu říkat to, co člověk skutečně považuje za pravdivé. Obě jsou podle něj
 podmínkou, bez níž nemůže fungovat sdílení poznání mezi lidmi: kdo spoléhá na svědectví
 druhých, spoléhá na jejich přesnost i upřímnost.
@@ -124,7 +124,9 @@ obou stran.
 **Pro jednotlivce.** Malé praxe přesnosti (ověřit, zapsat, opravit se) a upřímnosti (říct
 nahlas vlastní názor tam, kde je to bezpečné). Václav Havel v eseji *Moc bezmocných* (1978)
 mluvil o „životě v pravdě“ jako o odmítnutí rituálního souhlasu – osobní, nikoli hrdinská
-podoba obrany. **Pro organizace.** Chránit nositele špatných zpráv a oddělit chybu od trestu
+podoba obrany.
+
+**Pro organizace.** Chránit nositele špatných zpráv a oddělit chybu od trestu
 ([psychologická bezpečnost](@/kompendium/organizational-defense/16-psychological-safety.md)).
 
 **Otázky, které pomáhají v rozhovoru.** Kde můžeš říct, co si opravdu myslíš? Kdy jsi

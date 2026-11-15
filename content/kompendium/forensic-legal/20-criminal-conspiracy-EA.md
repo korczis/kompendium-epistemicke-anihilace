@@ -36,7 +36,7 @@ ve stadiu organizování, opatřování prostředků nebo spolčení, a **organi
 skupina**, kterou definuje § 129, spolu s trestným činem **účasti na organizované zločinecké
 skupině** (§ 361); spáchání činu ve prospěch takové skupiny je přitěžující okolností.
 Jednotlivé skutky pak bývají kvalifikovány podle zákona č. 40/2009 Sb. jako obchodování
-s lidmi (§ 168), vydírání (§ 175), útisk (§ 177), týrání (§ 198, § 199), podvod (§ 209) nebo
+s lidmi (§ 168), [vydírání](@/glossary/vydirani.md) (§ 175), útisk (§ 177), týrání (§ 198, § 199), podvod (§ 209) nebo
 nebezpečné pronásledování (§ 354).
 
 ## Specifika epistemického zneužívání

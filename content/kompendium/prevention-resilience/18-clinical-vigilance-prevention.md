@@ -78,7 +78,7 @@ stopou vztahu, který vnímání pacienta soustavně podkopává.
    konzultaci; krátký kontakt nedává prostor ke svěření.
 4. **Zrcadlení bez verdiktu** – lékař pojmenuje, co slyší („popisujete, že se doma bojíte
    říct, co si myslíte“), a nevynáší závěr o druhé osobě.
-5. **Diferenciální diagnostika** podle oddílu [Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md);
+5. **[Diferenciální diagnostika](@/glossary/diferencialni-diagnoza.md)** podle oddílu [Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md);
    zvláštní pozornost kognitivním poruchám u seniorů a počínající psychóze.
 6. **Předání** – kontakt na psychologa nebo psychiatra s rozumnou čekací dobou, na
    intervenční centrum při podezření na domácí násilí, na sociální službu; ideálně domluvené

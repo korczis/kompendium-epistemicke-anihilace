@@ -183,7 +183,7 @@ a dohodnuté zprostředkování je pro rozvoj dovedností dítěte vhodnější 
 
 ## Právní rámec
 
-Výhrůžka zveřejněním snímků s cílem vynutit si jednání může naplňovat znaky vydírání podle zákona
+Výhrůžka zveřejněním snímků s cílem vynutit si jednání může naplňovat znaky [vydírání](@/glossary/vydirani.md) podle zákona
 č. 40/2009 Sb., trestního zákoníku, který zná i samostatnou skutkovou podstatu navazování
 nedovolených kontaktů s dítětem; o tom, zda a jaký trestný čin byl spáchán, rozhodují orgány činné
 v trestním řízení a text to nepředjímá. Whittle et al. (2013) zdůrazňují, že včasné zajištění

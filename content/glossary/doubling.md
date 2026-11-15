@@ -26,13 +26,17 @@ Pojem navazuje na Liftonovu dřívější práci o [reformě myšlení](@/glossa
 
 ## Jak se projevuje
 
-Pojem se v Kompendiu používá jako interpretační rámec pro chování lidí v systémech, které po nich žádají jednání v rozporu s jejich hodnotami. Znaky:
+Pojem se v Kompendiu používá jako interpretační rámec pro chování lidí v systémech, které po nich žádají jednání v rozporu s jejich hodnotami.
 
-- výrazný rozdíl mezi chováním v pracovní roli a mimo ni, který si člověk sám nevysvětluje jako rozpor;
-- specifický jazyk role (technický, eufemistický), jímž se o jednání mluví jen v rámci instituce;
-- racionalizace typu „kdybych to nedělal já, udělal by to někdo horší“, „aspoň tím někomu pomůžu“;
-- oslabení emocí v pracovní roli spojené s živou citovostí mimo ni;
-- po odchodu z prostředí: obtíže integrovat vzpomínky a odpovědnost, stud, vina, někdy popření.
+Lifton (1986) popsal zdvojení na základě rozhovorů s lékaři, kteří pracovali v nacistických táborech.
+Popisuje výrazný rozdíl mezi chováním v pracovní roli a mimo ni, který si člověk sám nevysvětluje jako
+rozpor, a specifický jazyk role, technický a eufemistický, jímž se o jednání mluví jen uvnitř instituce.
+K tomu patří racionalizace typu „kdybych to nedělal já, udělal by to někdo horší“ nebo „aspoň tím někomu
+pomůžu“, které podle Liftona (1986) umožňovaly pracovní já udržet v chodu.
+
+Lifton (1986) dále popisuje psychické otupění v pracovní roli, spojené se živou citovostí mimo ni, a obtíže
+po odchodu z prostředí: integrovat vzpomínky a odpovědnost je těžké a projevuje se studem, vinou nebo
+popřením.
 
 ## Mechanismus
 
@@ -42,10 +46,12 @@ Lifton popsal několik rysů zdvojení: dialektiku mezi oběma částmi, relativ
 
 ## Odlišení
 
-- **Disociativní porucha identity** je klinický stav s typickými amnestickými bariérami; zdvojení je adaptivní proces bez ztráty paměti a nemá se zaměňovat s diagnózou (viz [disociace](@/glossary/disociace.md)).
-- **Běžná profesní role** také vyžaduje odstup (lékař, policista); zdvojení začíná tam, kde role slouží jednání, které by vlastní já odmítlo jako nemorální.
-- **[Banalita zla](@/glossary/banalita-zla.md)** (Arendtová) zdůrazňuje absenci myšlení; zdvojení popisuje aktivní psychickou práci, jak s rozporem žít.
-- **Kompartmentalizace** je obecnější obranný mechanismus; zdvojení je jeho extrémní, celou identitu zasahující podoba.
+| Odlišit od | Rozdíl |
+| --- | --- |
+| Disociativní porucha identity | klinický stav s typickými amnestickými bariérami; zdvojení je adaptivní proces bez ztráty paměti a nemá se zaměňovat s diagnózou (viz [disociace](@/glossary/disociace.md)) |
+| Běžná profesní role | také vyžaduje odstup (lékař, policista); zdvojení začíná tam, kde role slouží jednání, které by vlastní já odmítlo jako nemorální |
+| [Banalita zla](@/glossary/banalita-zla.md) (Arendtová) | zdůrazňuje absenci myšlení; zdvojení popisuje aktivní psychickou práci, jak s rozporem žít |
+| Kompartmentalizace | obecnější obranný mechanismus; zdvojení je jeho extrémní, celou identitu zasahující podoba |
 
 ## Význam pro Kompendium
 

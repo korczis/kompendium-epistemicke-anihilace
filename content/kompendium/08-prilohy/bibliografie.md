@@ -158,7 +158,7 @@ Digitální zdroje s aktivními odkazy (přístup ověřen 2026-04-25). Slouží
 
 ## Kritický krok
 
-**Tato příloha je referenční nástroj** – není k četbě od začátku do konce.
+Tato příloha je referenční nástroj – není k četbě od začátku do konce.
 Místo lineární četby:
 
 1. Identifikuj konkrétní termín / techniku / nástroj, který právě potřebuješ.

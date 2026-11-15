@@ -642,7 +642,7 @@ Efektivní navigace komplexního epistemického terénu vyžaduje robustní poro
 **Vyber si jednu konkrétní techniku z této kategorie**, kterou jsi za
 posledních 12 měsíců sám/sama pozoroval/a (na sobě nebo v okolí), a v
 [detailním per-technique článku](@/kompendium/techniques/_index.md) projdi sekci
-**Detekční markery** a **Neutralizace**.
+Detekční markery a Neutralizace.
 
 > **Mandatorní akce**: bez konkrétního aplikačního kotvení zůstává tato
 > kategorie abstraktním přehledem. Aplikace na vlastní zkušenost je to,

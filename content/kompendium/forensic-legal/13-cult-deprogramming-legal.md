@@ -48,7 +48,7 @@ a svobod (Shupe a Darnell, 2006, rozebírají obdobné ústavní argumenty v ame
 
 V českém právu by nucené zadržení dospělé osoby naplňovalo znaky trestných činů proti
 svobodě podle trestního zákoníku, zákona č. 40/2009 Sb., zejména **omezování osobní
-svobody** nebo **zbavení osobní svobody**, případně **útisku** (§ 177) či **vydírání**
+svobody** nebo **zbavení osobní svobody**, případně **útisku** (§ 177) či **[vydírání](@/glossary/vydirani.md)**
 (§ 175). Na tom nic nemění motiv rodiny ani přesvědčení, že jde o „záchranu“.
 
 ## Specifika epistemického zneužívání

@@ -55,7 +55,7 @@ rozhodnutím.
 
 Ve fázi **asistence** (roky 1–3) přibyla dobrovolná práce na seminářích, víkendy mimo domov a
 zadlužení. Fáze **jazykové uzavřenosti** (roky 2–4) přinesla vlastní slovník pro emoce i vztahy;
-přátelé mimo skupinu byli „nevědomí“. Fáze **detekce a odchodu** (rok 4) začala panickou poruchou
+přátelé mimo skupinu byli „nevědomí“. Fáze detekce a odchodu (rok 4) začala panickou poruchou
 po intenzivním kurzu a zásahem lékařky a sestry. Lifton (1961) popsal „nabití jazyka“ (*loading
 the language*) jako zúžení slovníku na pojmy, které předem obsahují výklad; jazyková uzavřenost
 je jeho přímou podobou.
@@ -110,18 +110,18 @@ nešlo přeložit.
 
 Rámcem byl [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md);
 v akutní fázi pomohla [akutní somatická regulace](@/kompendium/recovery-protocols/acute-somatic-regulation.md).
-Ve **S1 – validaci a mapování** proběhla stabilizace panické poruchy, psychoedukace o vlivu
+Ve S1 – validaci a mapování proběhla stabilizace panické poruchy, psychoedukace o vlivu
 spánkové deprivace a skupinové intenzity a časová osa výdajů a kurzů. Stabilizace před
 zpracováním odpovídá obecné zásadě traumatologie (Herman, 1992).
 
-Ve **S2 – externalizaci introjektů** klient sepsal slovník skupiny a přeložil jej do běžného
+Ve S2 – externalizaci introjektů klient sepsal slovník skupiny a přeložil jej do běžného
 jazyka; zvlášť pracoval s větami o „egu“ a „volbě“. Postup vychází z narativní externalizace,
 která odděluje člověka od problému a jeho jazyka (White a Epston, 1990). Ve **S3 – rekonstrukci
 [metakognice](@/glossary/metakognice.md)** se učil nejistotě – připustit, že některé věci neví,
 bez potřeby okamžitého výkladu.
 
-Ve **S4 – hermeneutické obnově** rozlišil užitečné dovednosti, které si odnesl (asertivita,
-sdílení), od uzavřeného systému výkladu. **S5 – konsolidace a transfer** přinesla obnovu
+Ve S4 – hermeneutické obnově rozlišil užitečné dovednosti, které si odnesl (asertivita,
+sdílení), od uzavřeného systému výkladu. S5 – konsolidace a transfer přinesla obnovu
 přátelství a dlouhodobou terapii v běžném rámci. Lieberman, Yalom a Miles (1973) zjistili, že
 část účastníků skupinových programů z nich skutečně těžila; rozlišení přínosu od poškození je
 proto pro sebeúctu klienta podstatnější než celkové odmítnutí.

@@ -39,7 +39,7 @@ catalog_related = ["submodality-pojem", "kotveni", "kriticke-submodality", "kine
 catalog_related_declared = ["kinesteticky-swish", "auditivni-swish", "kriticke-submodality", "vyhozeni-kompulze", "kotveni", "budouci-prehravani"]
 catalog_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
 catalog_canonical = ""
-catalog_links_prose = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/nlp-vzorce/submodality/auditivni-swish.md", "kompendium/nlp-vzorce/submodality/kinesteticky-swish.md", "kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md", "kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
+catalog_links_prose = ["glossary/uzkostne-poruchy.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/nlp-vzorce/submodality/auditivni-swish.md", "kompendium/nlp-vzorce/submodality/kinesteticky-swish.md", "kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md", "kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
 catalog_prev = "mapovani-napric"
 catalog_next = "kinesteticky-swish"
 catalog_position = 8
@@ -151,7 +151,7 @@ Legitimní užití vyžaduje, aby změnu chtěl sám člověk, aby šlo o reakci
 za nežádoucí, a aby žádoucí sebeobraz vycházel z jeho hodnot. Člověk, který se chce zbavit
 kousání nehtů nebo automatického sahání po telefonu, může s praktikem zkoumat, zda mu taková
 práce pomůže. I pak je ale poctivé mu říci, že účinnost swishe není doložena a že pro mnoho
-obtíží, například pro nutkavé jednání, úzkostné poruchy nebo závislosti, existují ověřené
+obtíží, například pro nutkavé jednání, [úzkostné poruchy](@/glossary/uzkostne-poruchy.md) nebo závislosti, existují ověřené
 postupy, které by neměl swish nahrazovat (Beck 1976). Užitečným rámcem pro posouzení je i
 motivační rozhovor, který klade důraz na vlastní důvody klienta ke změně (Miller a Rollnick
 2013).

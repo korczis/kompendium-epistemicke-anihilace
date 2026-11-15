@@ -95,7 +95,7 @@
       },
       {
         "code": null,
-        "in": 36,
+        "in": 35,
         "kind": "Pojem",
         "path": "glossary/epistemic-security.md",
         "tier": 4,
@@ -105,7 +105,7 @@
       },
       {
         "code": null,
-        "in": 33,
+        "in": 34,
         "kind": "Pojem",
         "path": "glossary/epistemicka-agentnost.md",
         "tier": 4,
@@ -130,7 +130,7 @@
     "op": "search",
     "query": "Epi",
     "schema": "kompendium-engine/v1",
-    "total": 390
+    "total": 389
   },
   "input": {
     "op": "search",

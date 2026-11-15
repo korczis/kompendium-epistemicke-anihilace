@@ -26,14 +26,20 @@ Zvláštní nebezpečnost akademických technik vyplývá z prostředí, ve kter
 
 ## Jak se projevuje
 
-Pozorovatelné znaky v rozhovoru, textu nebo instituci:
+Akademickou techniku lze rozpoznat podle několika pozorovatelných znaků v rozhovoru, textu nebo instituci.
+Prvním jsou početné citace, které při kontrole nedokládají to, co se jim připisuje, nebo jsou vytržené ze
+souvislosti; Greenberg (2009) na analýze citační sítě ukázal, jak opakované zkreslené citování může
+vytvořit zdánlivou autoritu tvrzení, které původní práce nedokládají. Druhým je odborný slovník, který
+přibývá, aniž by přibývala přesnost: Sokal a Bricmont (1997) dokládají, že termíny přejaté z exaktních věd
+se mohou používat bez jejich obsahu, a Frankfurt (2005) popisuje řeč, které nejde o pravdivost, ale o
+dojem.
 
-- citace a odkazy jsou početné, ale při kontrole nedokládají to, co se jim připisuje, nebo jsou vytržené z kontextu;
-- odborný slovník přibývá, aniž by přibývala přesnost; termíny nejde převést do obyčejné řeči bez ztráty „obsahu“, protože žádný obsah nemají;
-- požadavek důkazu je asymetrický: od jedné strany se žádá nedosažitelná míra doložení, tvrzení druhé strany se nezkoumají;
-- teorie je formulována tak, že žádné pozorování ji nemůže vyvrátit, a každá námitka se vykládá jako potvrzení;
-- diskuse se opakovaně stáčí od sporného bodu jinam a k původní otázce se nikdy nevrátí;
-- posluchač odchází s pocitem, že „tomu asi nerozumí“, ale nedokáže říct, čemu přesně.
+Dalším znakem je asymetrický požadavek důkazu, kdy se od jedné strany žádá nedosažitelná míra doložení,
+zatímco tvrzení druhé strany se nezkoumají; Walton (1988) popisuje, jak přesouvání důkazního břemene mění
+výsledek sporu bez nového argumentu. Teorie bývá formulována tak, že ji žádné pozorování nemůže vyvrátit, a
+každá námitka se vykládá jako její potvrzení, což Popper (1963) pokládal za znak pseudovědy. Diskuse se
+přitom opakovaně stáčí od sporného bodu jinam a k původní otázce se nevrací; Walton (2008) tento tah
+popisuje jako odvedení pozornosti od tématu sporu.
 
 Subjektivně se akademická technika často prožívá jako **epistemická rezignace**: člověk přestává důvěřovat vlastnímu úsudku v oboru, kterému jinak rozumí.
 
@@ -45,10 +51,12 @@ Společným jmenovatelem je, že technika **parazituje na důvěře v instituci 
 
 ## Odlišení
 
-- **Poctivá odborná kritika** může být ostrá, a přesto není technikou: je adresná, přiznává, co by ji vyvrátilo, a lze ji přezkoumat. Akademická technika se přezkumu vyhýbá.
-- **Odborná složitost** je reálná; ne každý nesrozumitelný text je mystifikace. Rozhodující je, zda lze složitost na požádání rozložit na kroky.
-- **[Pseudověda](@/glossary/pseudoscience.md)** je celý systém tvrzení s vědeckou fasádou; akademická technika je jednotlivý tah, který se může objevit i uvnitř skutečné vědy.
-- **[Delegitimizace](@/glossary/delegitimizace.md)** útočí na důvěryhodnost osoby; akademická technika častěji na důvěru posluchače ve vlastní úsudek.
+| Odlišit od | Rozdíl |
+| --- | --- |
+| Poctivá odborná kritika | může být ostrá, a přesto není technikou: je adresná, přiznává, co by ji vyvrátilo, a lze ji přezkoumat; akademická technika se přezkumu vyhýbá |
+| Odborná složitost | je reálná a ne každý nesrozumitelný text je mystifikace; rozhoduje, zda lze složitost na požádání rozložit na kroky |
+| [Pseudověda](@/glossary/pseudoscience.md) | celý systém tvrzení s vědeckou fasádou; akademická technika je jednotlivý tah, který se může objevit i uvnitř skutečné vědy |
+| [Delegitimizace](@/glossary/delegitimizace.md) | útočí na důvěryhodnost osoby; akademická technika častěji na důvěru posluchače ve vlastní úsudek |
 
 ## Význam pro Kompendium
 
@@ -64,8 +72,13 @@ Hranice mezi akademickou technikou a tvrdou, ale poctivou odbornou polemikou nen
 
 ## Literatura
 
+- Frankfurt, H. G. (2005). *On Bullshit*. Princeton University Press.
 - Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.
+- Greenberg, S. A. (2009). *How citation distortions create unfounded authority: Analysis of a citation network*. BMJ, 339, b2680.
 - Popper, K. R. (1963). *Conjectures and Refutations*. Routledge.
+- Sokal, A., & Bricmont, J. (1997). *Impostures intellectuelles*. Paris: Odile Jacob.
+- Walton, D. N. (1988). *Burden of proof*. Argumentation, 2(2).
+- Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2nd ed.). Cambridge University Press.
 
 ## Související
 

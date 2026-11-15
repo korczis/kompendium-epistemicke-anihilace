@@ -58,7 +58,7 @@ Identifikace kontraindikací je integrální součástí každého iniciálního
 
 Standardní implementace techniky probíhá v následujících strukturovaných krocích:
 
-(1) Psychoedukace [metakognice](@/glossary/metakognice.md). (2) Confidence calibration cvičení (predikce + post-dikce + Brierův skór). (3) Bias detection — explicitní mapování vlastních cognitive biases. (4) [Theory of Mind](@/glossary/theory-of-mind.md) training. (5) Cognitive flexibility — task switching praxe. (6) Generalizace do real-world rozhodování. (7) Pre-mortem a post-mortem analýzy.
+(1) Psychoedukace [metakognice](@/glossary/metakognice.md). (2) Confidence calibration cvičení (predikce + post-dikce + Brierův skór). (3) Bias detection — explicitní mapování vlastních cognitive biases. (4) [Theory of Mind](@/glossary/theory-of-mind.md) training. (5) Cognitive flexibility — task switching praxe. (6) Generalizace do real-world rozhodování. (7) [Pre-mortem](@/glossary/predbezna-pitva.md) a post-mortem analýzy.
 
 Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
 

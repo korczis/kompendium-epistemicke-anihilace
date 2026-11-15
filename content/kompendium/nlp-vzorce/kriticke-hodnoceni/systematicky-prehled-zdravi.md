@@ -39,7 +39,7 @@ catalog_related = ["rychla-lecba-fobie", "alergicky-vzorec", "presvedceni-a-zdra
 catalog_related_declared = ["presvedceni-a-zdravi", "rychla-lecba-fobie", "nlp-v-koucinku-vyzkum", "delfska-studie"]
 catalog_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/population-health/_index.md", "kompendium/techniques/ea-8-3-4-empirical-research-base.md"]
 catalog_canonical = ""
-catalog_links_prose = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md", "kompendium/nlp-vzorce/presvedceni/presvedceni-a-zdravi.md", "kompendium/population-health/_index.md"]
+catalog_links_prose = ["glossary/uzkostne-poruchy.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md", "kompendium/nlp-vzorce/presvedceni/presvedceni-a-zdravi.md", "kompendium/population-health/_index.md"]
 catalog_prev = "delfska-studie"
 catalog_next = "databaze-vyzkumu-nlp"
 catalog_position = 6
@@ -187,7 +187,7 @@ Obranou pacienta je klást poskytovateli tytéž otázky, které klade systemati
 studie metodu podporují, jak byly velké, s jakou kontrolní skupinou a kdo je provedl. Pokud
 odpověď chybí nebo se omezí na svědectví, je rozumné metodu nepovažovat za léčbu. Zvláště
 důležité je nepřerušovat probíhající léčbu bez porady s lékařem a nezačínat „alternativní“
-postup místo ověřeného u závažných stavů. U obtíží, jako jsou úzkostné poruchy, fobie nebo
+postup místo ověřeného u závažných stavů. U obtíží, jako jsou [úzkostné poruchy](@/glossary/uzkostne-poruchy.md), fobie nebo
 následky traumatu, existují postupy s doloženou účinností, například kognitivně behaviorální
 terapie, která vychází z kognitivního modelu emočních poruch (Beck 1976).
 

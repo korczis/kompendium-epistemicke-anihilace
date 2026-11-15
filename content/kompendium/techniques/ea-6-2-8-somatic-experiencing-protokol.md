@@ -93,7 +93,7 @@ Předcházení iatrogenním poškozením je integrální součástí klinické e
 
 V kompendiu je tento protokol veden jako intervence pracující s tělesnou složkou epistemicko-afektivního traumatu; o jeho vhodnosti pro konkrétního pacienta nerozhoduje kniha, nýbrž indikující klinik.
 
-**Klinické zacílení**: [evidence-based](@/glossary/evidence-based.md) psychoterapeutické intervence pro EA-trauma se sekundární komorbiditou (úzkostné poruchy, depresivní poruchy, somatizace, disociativní spektrum). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+**Klinické zacílení**: [evidence-based](@/glossary/evidence-based.md) psychoterapeutické intervence pro EA-trauma se sekundární komorbiditou ([úzkostné poruchy](@/glossary/uzkostne-poruchy.md), depresivní poruchy, somatizace, disociativní spektrum). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
 
 **Trauma spektrum kontext**: tělesná práce naráží na rozdíl, který popsala Terr (1991): po jediné ohraničené události lze tělesnou odpověď přiřadit k rozpoznatelnému podnětu, zatímco po opakované relační expozici je trvalé napětí tím, co subjekt zná jako svůj běžný stav, a nemá je s čím srovnat. Pro druhý případ bývá popsána zdlouhavější a fázovaná cesta zotavení (Herman, 1992); její tempo určuje indikující klinik, ne tato kniha.
 

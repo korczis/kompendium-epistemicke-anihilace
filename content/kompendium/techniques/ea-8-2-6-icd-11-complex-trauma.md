@@ -107,7 +107,7 @@ s lidmi a lidé, kteří vyrůstali v institucionální péči se zneužívání
 - **Hraniční porucha osobnosti** se s C-PTSD překrývá (emoční dysregulace, vztahy); liší se
   mimo jiné nestálostí sebeobrazu a strachem z opuštění u hraniční poruchy oproti stále
   negativnímu sebepojetí a vyhýbání se blízkosti u C-PTSD. Výzkum odlišení pokračuje.
-- **Deprese** sdílí negativní sebepojetí, ale chybí jí jádro PTSD.
+- **[Deprese](@/glossary/depresivni-epizoda-a-porucha.md)** sdílí negativní sebepojetí, ale chybí jí jádro PTSD.
 - **Prodloužený žal (6B42)** a **porucha přizpůsobení (6B43)** mají jiný stresor a průběh.
 - **Epistemické následky** (ztráta jazyka, světonázoru) diagnóza nepokrývá; je třeba je
   mapovat samostatně.
@@ -131,7 +131,9 @@ skutečná, i když ji nelze shrnout jedním příběhem.
 
 **Pro profesionály.** Myslet na C-PTSD u lidí z prostředí bez možnosti úniku i tehdy, když
 chybí jedna „velká“ událost; nezačínat expozicí bez stabilizace; počítat s tím, že
-nedůvěra k terapeutovi je příznak, ne odpor. **Pro instituce.** Trauma-informovaný přístup
+nedůvěra k terapeutovi je příznak, ne odpor.
+
+**Pro instituce.** Trauma-informovaný přístup
 v sociálních a zdravotních službách ([trauma-informovaný framework](@/kompendium/critical-perspectives/22-trauma-framework-alternative.md)).
 
 **Otázky, které pomáhají v rozhovoru.** Mohl jste z té situace odejít? Jak dlouho trvala?

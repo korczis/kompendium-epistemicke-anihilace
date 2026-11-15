@@ -49,12 +49,12 @@ a k odlišování od cizích; v kompozitu se tato běžná potřeba stala nástr
 
 ## 3. Časová osa expozice
 
-V prvním půlroce (fáze **počátečního kontaktu**) šlo o koncerty, trénink, ochranu staršími členy a
-pocit bratrství. Mezi šestým a osmnáctým měsícem (fáze **perturbace**) následovalo ideologické
-„školení“ a nedůvěra k rodině a škole. Mezi druhým a čtvrtým rokem (fáze **eskalace**) přišlo
+V prvním půlroce (fáze počátečního kontaktu) šlo o koncerty, trénink, ochranu staršími členy a
+pocit bratrství. Mezi šestým a osmnáctým měsícem (fáze perturbace) následovalo ideologické
+„školení“ a nedůvěra k rodině a škole. Mezi druhým a čtvrtým rokem (fáze eskalace) přišlo
 tetování jako signál loajality, účast na akcích a zapojení do násilí. Mezi čtvrtým a desátým rokem
-(fáze **konsolidace**) se rasový mýtus stal absolutním výkladovým rámcem, doplněným kultem silného
-těla, militarizovanou hierarchií a eschatologií „rasové války“. **Detekce** nastala v proměnlivé době
+(fáze konsolidace) se rasový mýtus stal absolutním výkladovým rámcem, doplněným kultem silného
+těla, militarizovanou hierarchií a eschatologií „rasové války“. Detekce nastala v proměnlivé době
 narozením dítěte a telefonátem bývalého člena, který pracoval v programu pro odcházející, a **odchod a
 rekonstrukce** po desátém roce probíhaly v programu typu EXIT: obnova identity, odstranění tetování,
 rekvalifikace a mentoring. Kanter (1972) popsala investici a oběť jako mechanismy, které členy váží
@@ -115,19 +115,19 @@ je třeba souhry odpuzujících činitelů ve skupině (*push factors*) a přita
 
 Program navazoval na severoevropský model programů typu EXIT a na
 [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md).
-Ve stupni **S1 – Validace a mapování** vznikl bezpečnostní plán s ohledem na riziko odvety, proběhla
+Ve stupni S1 – Validace a mapování vznikl bezpečnostní plán s ohledem na riziko odvety, proběhla
 stabilizace a mapa vztahů a závazků ve skupině. Koehler (2017) řadí zajištění bezpečí odcházejících
 k základním úkolům programů pro odchod z násilných skupin.
 
-Ve stupni **S2 – Externalizace introjektů** byly rasový mýtus a dehumanizující jazyk odděleny od
+Ve stupni S2 – Externalizace introjektů byly rasový mýtus a dehumanizující jazyk odděleny od
 vlastního hlasu a začala práce s vinou za činy. Ve stupni **S3 – Rekonstrukce
 [metakognice](@/glossary/metakognice.md)** šlo o obnovu schopnosti vnímat druhé jako jednotlivce, ne
 kategorie. Horgan (2009) rozlišuje odpoutání od skupiny a změnu přesvědčení a upozorňuje, že první
 může předcházet druhému; kompozit ukazuje, že změna vnímání druhých přichází až po opuštění
 skupinového prostředí.
 
-Stupeň **S4 – Hermeneutická obnova** přinesl nový výklad vlastního příběhu včetně odpovědnosti a
-odstraňování tetování jako tělesnou součást odchodu. Stupeň **S5 – Konsolidace a transfer**
+Stupeň S4 – Hermeneutická obnova přinesl nový výklad vlastního příběhu včetně odpovědnosti a
+odstraňování tetování jako tělesnou součást odchodu. Stupeň S5 – Konsolidace a transfer
 zahrnoval rekvalifikaci, novou práci, mentoring a později pomoc jiným odcházejícím. Ebaugh (1988)
 popisuje vytvoření role „bývalého“ jako samostatný úkol: člověk se musí naučit žít s minulostí, kterou
 okolí nezapomíná.

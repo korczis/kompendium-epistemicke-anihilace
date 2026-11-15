@@ -93,7 +93,7 @@ Předcházení iatrogenním poškozením je integrální součástí klinické e
 
 Kompendium vede techniku **EA-6.2.5** jako narativní práci s cizím příběhem, který expozice vnutila; zda v konkrétním případě pomůže, posuzuje klinik, ne tato stránka.
 
-**Klinické zacílení**: [evidence-based](@/glossary/evidence-based.md) psychoterapeutické intervence pro EA-trauma se sekundární komorbiditou (úzkostné poruchy, depresivní poruchy, somatizace, disociativní spektrum). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+**Klinické zacílení**: [evidence-based](@/glossary/evidence-based.md) psychoterapeutické intervence pro EA-trauma se sekundární komorbiditou ([úzkostné poruchy](@/glossary/uzkostne-poruchy.md), depresivní poruchy, somatizace, disociativní spektrum). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
 
 **Trauma spektrum kontext**: u jedné ohraničené události a u opakované relační expozice v dětství se liší nejen obraz, ale i to, kolik příběhu o sobě člověk vůbec má; obě kategorie zavedla Terr (1991). Pro druhý profil popisuje Herman (1992) zotavení jako práci o více fázích, a kde se rozdíl přehlíží, patří zhoršení místo zlepšení k doloženým možnostem (Lilienfeld, 2007). Rozhodnutí o tempu re-authoringu proto zůstává na klinikovi a jeho supervizi.
 

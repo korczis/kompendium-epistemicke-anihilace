@@ -1,168 +1,152 @@
 +++
-title = "Inference (inference modelu AI)"
+title = "Inference"
 weight = 36
-description = "Spuštění natrénovaného modelu umělé inteligence, které z nových vstupů vytváří výstupy. Odlišení od inference jako usuzování."
+description = "Krok od dokladů k závěru: dedukce, indukce a abdukce, inference k nejlepšímu vysvětlení a proč techniky manipulace útočí právě na tento krok a na to, co platí za doklad."
 
 [taxonomies]
-tags = ["glossary", "technology", "inference", "AI"]
+tags = ["glossary", "kompendium", "logic", "epistemology"]
 
 [extra]
-category = "technology"
-related_terms = ["ollama", "beam", "telemetry", "observability", "rate-limiting", "backpressure"]
+category = "logika"
+aliases = ["abdukce", "inference k nejlepšímu vysvětlení"]
+related_terms = ["toulmin-model", "cirkularni-argumentace", "evidence-based", "modalni-logika", "konfirmacni-bias"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-02-23"
-date_modified = "2026-11-10"
-keywords = ["Inference", "Executing", "glossary", "technology", "README", "Cache"]
-see_also = ["capabilities", "architecture", "agents"]
-image = "/images/sections/glossary.png"
-image_alt = "Inference"
+date_modified = "2026-11-14"
+keywords = ["inference", "usuzování", "dedukce", "indukce", "abdukce", "inference k nejlepšímu vysvětlení", "doklad", "závěr", "argumentační schémata"]
 +++
 
 ## Definice
 
-**Inference** je výpočetní proces, při němž se spouští natrénovaný model umělé inteligence, aby z nových, dosud neviděných vstupů vytvořil výstupy (předpovědi, klasifikace, generovaný text nebo rozhodnutí). Na rozdíl od tréninku, který upravuje parametry modelu opakovaným průchodem daty s cílem minimalizovat ztrátovou funkci, inference používá pevné naučené parametry a převádí vstupy na výstupy dopředným průchodem neuronovou sítí modelu. V produkčních systémech zahrnuje inference celou pipeline: předzpracování vstupu a tokenizaci, sestavení tenzorů, dopředné šíření vrstvami modelu, vzorkování či dekódování výstupu a dodatečné zpracování výsledků do formátu, se kterým pracuje aplikace.
+**Inference** je krok, jímž člověk od dokladů, předpokladů nebo pozorování dospívá k závěru. Když z toho,
+že je chodník mokrý, usoudím, že pršelo, nebo když z obecného pravidla a jednoho případu odvodím, co pro
+ten případ platí, provádím inferenci. Toulmin (1958) ukázal, že každý takový krok má strukturu: z údajů se
+přechází k tvrzení díky oprávnění, které tento přechod opravňuje, a právě oprávnění bývá v běžné řeči
+nevyslovené.
 
-Výkon inference charakterizují tři hlavní rozměry: **latence** (doba do prvního tokenu a doba do dokončení u generativních modelů, celková doba odpovědi u klasifikačních modelů), **propustnost** (tokeny nebo požadavky za sekundu, které systém udrží) a **efektivita využití prostředků** (spotřeba paměti, využití GPU/CPU a energie na jednu inferenci). Tyto rozměry jsou v napětí – optimalizace propustnosti dávkováním zvyšuje latenci jednotlivých požadavků, minimalizace latence vyhrazenými prostředky snižuje propustnost a zvyšuje cenu. Produkční systémy musí mezi nimi volit podle požadavků aplikace: interaktivní aplikace upřednostňují latenci, dávkové pipeline propustnost.
+Podstatou pojmu je rozdíl mezi tím, co je dáno, a tím, co se z toho usuzuje. Doklad a závěr nejsou totéž a
+mezi nimi stojí úsudek, který může být správný i chybný. Walton (2008) proto zkoumá inferenci jako součást
+argumentace: ptá se nejen, zda závěr z předpokladů logicky plyne, ale také, zda je v dané situaci rozumné ho
+přijmout.
 
-Rozdíl mezi tréninkem a inferencí má zásadní důsledky pro architekturu. Trénink je dávkový proces, který hodiny či dny vyžaduje obrovské výpočetní prostředky a vytváří artefakt modelu. Inference je služba v reálném čase, která po celou dobu provozu aplikace vyžaduje trvalé zpracování s nízkou latencí. Proto jsou tréninková infrastruktura (clustery GPU, distribuované datové pipeline) a inferenční infrastruktura (obslužné frameworky, vyvažovače zátěže, cache modelů) zásadně odlišné systémy optimalizované pro odlišné úlohy.
+## Původ a kontext pojmu
 
-**Pozor na dvojznačnost:** v logice a epistemologii znamená *inference* odvozování závěru z premis (usuzování). Toto heslo popisuje technický význam z oblasti strojového učení; epistemickým významem se v knize zabývají například [EA-4.3.4 Přerušení inferenčního řetězce](@/kompendium/techniques/ea-4-3-4-inferential-chain-breakage.md), [EA-5.1.16 Inferenční paralýza](@/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md) a [Brandom: inferenční sémantika](@/kompendium/07-teoreticke-reflexe/brandom-inferential-semantics.md).
+Tradiční logika rozlišuje dva základní druhy inference. Dedukce vede od předpokladů k závěru, který z nich
+nutně plyne: jsou-li předpoklady pravdivé, nemůže být závěr nepravdivý. Indukce vede od jednotlivých případů
+k obecnějšímu závěru, který z nich plyne jen pravděpodobně; Hume (1748) ukázal, že takový závěr nelze
+zdůvodnit bez předpokladu, že budoucnost bude podobná minulosti, a tento předpoklad sám indukcí zdůvodnit
+nelze.
 
-## Přehled
+Třetí druh inference popsal Peirce, který ho nazval abdukcí. Abdukce vychází z překvapivého pozorování a
+navrhuje hypotézu, za jejíž pravdivosti by pozorování bylo samozřejmé; podle Peirce (1934) je to jediný druh
+usuzování, který přináší novou myšlenku, protože dedukce jen rozvíjí to, co předpoklady obsahují, a indukce
+jen ověřuje. Harman (1965) tento typ usuzování nazval inferencí k nejlepšímu vysvětlení a tvrdil, že na něm
+stojí i velká část toho, co se běžně považuje za indukci.
 
-Prostředí inference se rychle proměnilo s rozšířením velkých jazykových modelů (LLM) a nástupem lokálních běhových prostředí. Kde dříve inference vyžadovala cloudové instance GPU za tisíce dolarů měsíčně, umožňují dnes techniky kvantizace a optimalizovaná běhová prostředí provozovat modely se 7–20 miliardami parametrů na běžném hardwaru s přijatelnou latencí. Toto zpřístupnění dovoluje platformám udržet funkce AI s menší závislostí na cloudu, lepší ochranou dat a předvídatelnými náklady.
+Lipton (2004) teorii inference k nejlepšímu vysvětlení rozpracoval a rozlišil mezi vysvětlením
+nejpravděpodobnějším a vysvětlením nejlepším, tedy takovým, které by, kdyby bylo pravdivé, nejvíce
+objasnilo. Walton, Reed a Macagno (2008) pak popsali argumentační schémata, typické vzorce každodenní
+inference, například usuzování z názoru odborníka nebo z příčiny na následek, a ke každému z nich kritické
+otázky, jimiž lze jeho oprávněnost prověřit.
 
-### Fáze inferenční pipeline
+## Jak se projevuje
 
-| fáze | popis | typická latence | optimalizace |
-|-------|-------------|-----------------|--------------|
-| **předzpracování** | validace vstupu, tokenizace, vyhledání embeddingů | 1–5 ms | cache tokenů, dávková tokenizace |
-| **prefill** | zpracování všech vstupních tokenů vrstvami attention | 50–500 ms | FlashAttention, tenzorový paralelismus |
-| **generování** | autoregresivní generování tokenů (LLM) | 20–100 ms/token | KV-cache, spekulativní dekódování |
-| **dodatečné zpracování** | dekódování tokenů, formátování a validace výstupu | 1–5 ms | streamování výstupu, předčasné ukončení |
+V každodenním životě se inference projevuje jako samozřejmý přechod od toho, co člověk vidí nebo slyší, k
+tomu, co si o tom myslí. Toulmin (1958) upozorňuje, že tento přechod se často odehrává bez povšimnutí,
+protože oprávnění, na kterém stojí, se pokládá za samozřejmé; teprve když někdo závěr zpochybní, ukáže se,
+jaké oprávnění se mlčky použilo.
 
-### Techniky optimalizace modelu
+V odborné práci se inference projevuje jako rozhodování mezi vysvětleními. Lékař, vyšetřovatel nebo
+vědec zvažuje, které z možných vysvětlení nejlépe odpovídá dokladům, a Lipton (2004) ukazuje, že tato
+úvaha je inferencí k nejlepšímu vysvětlení. Její slabinou je, že dobře působící vysvětlení může být
+přijato dřív, než byla zvážena jiná, a pocit, že vysvětlení „sedí“, se snadno zamění za doklad jeho
+pravdivosti.
 
-| technika | úspora paměti | vliv na rychlost | vliv na kvalitu |
-|-----------|------------------|--------------|----------------|
-| **FP16** | 50 % oproti FP32 | 1,5–2× rychlejší | zanedbatelný |
-| **kvantizace INT8** | 75 % oproti FP32 | 2–3× rychlejší | malý (< 1 % perplexity) |
-| **kvantizace INT4 (GPTQ/AWQ)** | 87,5 % oproti FP32 | 3–4× rychlejší | střední (1–3 % perplexity) |
-| **GGUF (llama.cpp)** | proměnlivá (typicky Q4_K_M) | optimalizováno pro CPU | podle úrovně kvantizace |
-| **spekulativní dekódování** | žádná | 2–3× rychlejší generování | bezztrátové |
-| **KV-cache** | paměť zvyšuje | nutná pro generování | bezztrátová |
-| **průběžné dávkování** | žádná | 2–5× vyšší propustnost | bezztrátové |
+## Mechanismus
 
-### Architektury inference
+Mechanismus inference lze rozložit na tři části: doklady, oprávnění a závěr (Toulmin, 1958). Každá z nich
+může selhat zvlášť. Doklady mohou být nepravdivé nebo vybrané, oprávnění může být nepřiměřené, a závěr
+může tvrdit víc, než doklady unesou. Walton, Reed a Macagno (2008) proto ke každému argumentačnímu schématu
+uvádějí kritické otázky, které míří právě na tato místa, například zda je odborník skutečně odborníkem v
+dané věci, nebo zda příčinná souvislost nemá jiné vysvětlení.
 
-```
-                    +-----------------------+
-                    |    Request Router     |
-                    |  (load balancing,     |
-                    |   rate limiting)      |
-                    +----------+------------+
-                               |
-              +----------------+----------------+
-              |                |                |
-     +--------v------+  +-----v--------+  +---v-----------+
-     | Local Runtime  |  | Cloud API    |  | Hybrid        |
-     | (Ollama)       |  | (Claude,     |  | (local first, |
-     | - 7B-20B       |  |  GPT)        |  |  cloud        |
-     | - < 8GB RAM    |  | - Any size   |  |  fallback)    |
-     | - Privacy      |  | - Fastest    |  | - Balanced    |
-     +----------------+  +--------------+  +---------------+
-```
+*Interpretace knihy*: z této struktury plyne, proč je inference cílem manipulace. Kdo chce změnit závěr,
+nemusí lhát o závěru samém; stačí změnit, co platí za doklad, nebo nepozorovaně podsunout oprávnění, a
+závěr pak plyne zdánlivě sám. Walton (2008) tento typ chyby popisuje jako argument, který je formálně
+platný, ale stojí na premisách, jež by druhá strana při výslovném vyslovení nepřijala.
 
-## Technické podrobnosti
+## Odlišení
 
-### Tokenizace a zpracování vstupu
+| Odlišit od | Rozdíl |
+| --- | --- |
+| Implikace | logický vztah mezi výroky (jestliže A, pak B); inference je úkon, jímž se od jednoho k druhému přechází |
+| Argument | veřejná podoba úsudku určená druhému; inference je krok úsudku sám, i když ho nikdo nevysloví |
+| Inference modelu AI | v informatice spuštění natrénovaného modelu nad novými vstupy; s usuzováním sdílí jen název |
+| [Kruhová argumentace](@/glossary/cirkularni-argumentace.md) | chybná inference, v níž závěr je skrytě obsažen v předpokladech |
 
-Inference začíná převodem surového vstupu do formátu, který model očekává. U LLM jde o tokenizaci – převod textových řetězců na celočíselná ID tokenů podle slovníku modelu:
-
-| tokenizér | velikost slovníku | průměr tokenů na slovo | používají |
-|-----------|----------------|-----------------|---------|
-| **BPE (Byte Pair Encoding)** | 32K–100K | 1,3–1,5 | GPT, Llama |
-| **SentencePiece** | 32K–64K | 1,2–1,4 | T5, Gemma |
-| **WordPiece** | 30K–50K | 1,4–1,6 | BERT |
-| **Tiktoken** | 100K+ | 1,1–1,3 | GPT-4 (OpenAI) |
-
-Hodnoty tokenů na slovo platí orientačně pro angličtinu; u češtiny bývají vyšší.
-
-### Správa KV-cache
-
-Při autoregresivním generování věnuje každý nový token pozornost všem předchozím tokenům. Bez cache by bylo nutné v každém kroku znovu spočítat attention pro celou sekvenci (složitost O(n²)). KV-cache ukládá mezivýsledky klíčů a hodnot attention a opětovným použitím snižuje generování jednoho tokenu na O(n):
-
-| délka sekvence | bez KV-cache | s KV-cache | paměťová cena (7B FP16) |
-|-----------------|------------------|---------------|----------------------|
-| 512 tokenů | 512 dopředných průchodů | 1 průchod + 511 z cache | ~500 MB |
-| 2048 tokenů | 2048 dopředných průchodů | 1 průchod + 2047 z cache | ~2 GB |
-| 8192 tokenů | 8192 dopředných průchodů | 1 průchod + 8191 z cache | ~8 GB |
-
-### Strategie dávkování
-
-| strategie | popis | latence | propustnost | použití |
-|----------|-------------|---------|------------|----------|
-| **bez dávkování** | jeden požadavek najednou | nejnižší | nejnižší | interaktivní, jeden uživatel |
-| **statické dávkování** | pevná velikost dávky, čeká se na naplnění | vyšší | střední | dávkové zpracování |
-| **průběžné dávkování** | dynamické přidávání a dokončování | střední | nejvyšší | produkční obsluha |
-| **spekulativní dávkování** | návrhový model generuje, hlavní model ověřuje | nízká | vysoká | generování citlivé na latenci |
-
-## Srovnání s alternativami
-
-| rozměr | lokální inference (Ollama) | cloudové API (Claude/GPT) | inference na okraji sítě | vlastní trénink |
-|-----------|-------------------------|------------------------|----------------|-----------------|
-| **latence** | 1–5 s (7B), 3–10 s (20B) | 0,5–3 s (optimalizováno) | 10–100 ms | různá |
-| **soukromí** | úplná lokalita dat | data se posílají poskytovateli | v zařízení | podle nastavení |
-| **náklady** | amortizace hardwaru | cena za token | cena zařízení | cena clusteru GPU |
-| **kvalita modelu** | dobrá (rozsah 7–20B) | nejlepší (velké modely) | omezená (1–3B) | doménově specifická |
-| **škálovatelnost** | omezená hardwarem | prakticky neomezená | podle zařízení | podle clusteru |
-| **dostupnost** | 99 %+ (lokální hardware) | 99,9 % (podle SLA) | 100 % (offline) | různá |
-
-## Osvědčené postupy
-
-1. **Volit velikost modelu podle úlohy:** doplňování kódu a klasifikace často dobře zvládnou modely 7B, složité usuzování a vícekrokové plánování těží z větších modelů. Nesahat automaticky po největším modelu, když stačí menší.
-2. **Zavést zpětný tlak (*backpressure*):** nikdy nedovolit, aby požadavky na inferenci překročily kapacitu systému. Omezené fronty, omezování rychlosti a jističe brání vyčerpání prostředků. Model předávání zpráv v BEAM podporuje zpětný tlak přirozeně prostřednictvím časových limitů volání GenServer.
-3. **Sledovat spotřebu prostředků:** využití GPU/CPU, paměť a latenci inference vést jako telemetrické metriky. Nastavit upozornění, když se paměť blíží limitu (> 90 % rozpočtu 8 GB) a latence překročí prahy (> 5 s u interaktivních požadavků).
-4. **Navrhnout řízený ústup:** při přetížení nebo nedostupnosti lokální inference automaticky směrovat na cloudové poskytovatele; při nedostupnosti cloudu degradovat řízeně na odpovědi z cache nebo zjednodušené heuristiky.
-5. **Ukládat do cache s rozmyslem:** u deterministických vstupů ukládat výsledky inference. Pro přibližné zásahy cache používat shodu podle sémantické podobnosti.
-6. **Streamovat odpovědi:** u generativních modelů posílat tokeny klientovi průběžně. Snižuje to vnímanou latenci a umožňuje předčasné ukončení.
-
-## Případy užití
-
-- **Generování a analýza kódu:** inference pohání generování kódu pro vývoj platformy, návrhy oprav kvality a detekci vzorů. Modely jako qwen3-coder a deepseek-coder jsou optimalizovány pro porozumění kódu v Elixiru a jeho generování.
-- **Analýza OSINT:** inference zpracování přirozeného jazyka extrahuje entity, vztahy a sentiment z nestrukturovaných dat [OSINT](@/glossary/osint.md) a předává strukturované zpravodajství do znalostního grafu.
-- **Bezpečnostní klasifikace:** modely klasifikují bezpečnostní hrozby, hodnotí závažnost zranitelností a vytvářejí popisy rizik pro bezpečnostní hodnocení Prismatic Perimeter.
+Rozdíl mezi dedukcí, indukcí a abdukcí je rozdílem v síle, s níž závěr z dokladů plyne. Dedukce zaručuje
+pravdivost závěru za pravdivosti předpokladů, indukce a abdukce ji činí jen pravděpodobnou nebo přijatelnou,
+a proto u nich záleží na tom, zda byly zváženy jiné možnosti (Lipton, 2004).
 
 ## Význam pro Kompendium
 
-Pro knihu je inference modelů AI podstatná proto, že výstupy jazykových modelů se stávají zdrojem tvrzení, které lidé přebírají. Model nevypovídá o světě; generuje pravděpodobné pokračování textu. Kompendium popisuje rizika, která z toho plynou: [EA-9.1.1 Praní halucinací](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md), [EA-9.1.8 Zesilování konfabulací](@/kompendium/techniques/ea-9-1-8-llm-confabulation-amplification.md) a [EA-9.1.6 Obcházení přiřazení zdroje](@/kompendium/techniques/ea-9-1-6-llm-source-attribution-bypass.md). Obranou je zacházet s výstupem modelu jako s hypotézou, ne jako se svědectvím, a ověřovat jej proti zdrojům ([detekce obsahu generovaného AI](@/kompendium/self-defense-guides/40-ai-content-detection.md)).
+V Kompendiu se pojem objevuje u technik, které zasahují samotný krok usuzování. [Inferenční
+paralýza](@/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md) podle knihy znemožňuje subjektu
+dospět od dokladů k jakémukoli závěru, a [praní halucinací](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
+popisuje, jak se výstup jazykového modelu bez ověření stane „faktem“, z něhož se dále usuzuje.
+*Interpretace knihy*: v obou případech jde o útok na to, co platí za doklad a jaké oprávnění se k němu
+připojuje, tedy na části inference, které popsal Toulmin (1958).
+
+Pojem také vysvětluje, proč kniha klade důraz na alternativní vysvětlení. Inference k nejlepšímu vysvětlení
+je podle Liptona (2004) spolehlivá jen tehdy, když byla zvážena skutečná škála možností, a manipulace často
+spočívá v tom, že se nabídne jediné vysvětlení a ostatní se nepřipustí. *Interpretace knihy*: proto
+Kompendium u diagnostických a vyšetřovacích kroků požaduje [diferenciální
+diagnózu](@/glossary/diferencialni-diagnoza.md) a [předběžnou pitvu](@/glossary/predbezna-pitva.md).
+
+## Obrana a zotavení
+
+Obrana spočívá v tom, rozložit inferenci na její části a ptát se po každé zvlášť. Kritické otázky, které k
+argumentačním schématům uvádějí Walton, Reed a Macagno (2008), slouží právě k tomu: oddělit doklad od závěru
+a vyslovit oprávnění, které je spojuje, aby bylo možné ho posoudit.
+
+Druhou obranou je záměrně hledat jiná vysvětlení téhož. Lipton (2004) zdůrazňuje, že nejlepší vysvětlení je
+nejlepší jen ve srovnání s ostatními, a kde žádná jiná nebyla zvážena, je výběr prázdný. *Interpretace
+knihy*: pro člověka, jehož schopnost usuzovat byla narušena, je užitečné vracet se k jednoduchým, dobře
+ověřitelným krokům a ověřovat je s druhými, než znovu přejde ke složitým závěrům.
+
+## Meze pojmu a kritika
+
+Rozdělení na dedukci, indukci a abdukci není jediné možné a jeho hranice jsou sporné. Harman (1965) tvrdil,
+že indukce je ve skutečnosti druhem inference k nejlepšímu vysvětlení, a Lipton (2004) uvádí, že kritici
+naopak zpochybňují, zda „nejlepší“ vysvětlení vůbec svědčí o pravdivosti, nebo jen o tom, co se nám jako
+vysvětlení líbí.
+
+Druhou mezí je problém indukce, který Hume (1748) formuloval a který dosud nemá obecně přijímané řešení.
+*Interpretace knihy*: Kompendium z něj nevyvozuje, že by usuzování bylo bezcenné, ale že každý závěr, který
+přesahuje doklady, je třeba držet s mírou jistoty, jakou doklady opravňují.
+
+## Literatura
+
+- Harman, G. H. (1965). *The inference to the best explanation*. The Philosophical Review, 74(1).
+- Hume, D. (1748). *An Enquiry Concerning Human Understanding*. London: A. Millar.
+- Lipton, P. (2004). *Inference to the Best Explanation* (2nd ed.). London: Routledge.
+- Peirce, C. S. (1934). *Collected Papers of Charles Sanders Peirce, Vol. 5: Pragmatism and Pragmaticism* (ed. C. Hartshorne & P. Weiss). Cambridge, MA: Harvard University Press.
+- Toulmin, S. E. (1958). *The Uses of Argument*. Cambridge University Press.
+- Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2nd ed.). Cambridge University Press.
+- Walton, D. N., Reed, C., & Macagno, F. (2008). *Argumentation Schemes*. Cambridge University Press.
 
 ## Související
 
-**Kde se pojem v knize potkává s praxí**
+**Glosář**
 
-- [OSINT](@/glossary/osint.md) – oblast, v níž inference extrahuje entity a vztahy.
+- [Toulminův model](@/glossary/toulmin-model.md) – struktura údajů, oprávnění a tvrzení v každé inferenci.
+- [Kruhová argumentace](@/glossary/cirkularni-argumentace.md) – chybná inference, jejíž závěr je skryt v předpokladech.
+- [Evidence-based](@/glossary/evidence-based.md) – práce s doklady jako s podkladem závěru.
+- [Modální logika](@/glossary/modalni-logika.md) – logika nutnosti a možnosti, v níž se dedukce rozšiřuje.
+- [Konfirmační bias](@/glossary/konfirmacni-bias.md) – sklon hledat jen doklady pro přijatý závěr.
 
-**Kniha**
+**Kompendium**
 
-- [EA-9.1.1 Praní halucinací](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md) – když se výstup modelu stane „faktem“.
-- [EA-5.1.16 Inferenční paralýza](@/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md) – inference ve smyslu usuzování.
+- [EA-5.1.16 Inferenční paralýza](@/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md) – narušení kroku od dokladů k závěru.
+- [EA-9.1.1 Praní halucinací](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md) – výstup modelu, který se stane „faktem“.
 - [Detekce obsahu generovaného AI](@/kompendium/self-defense-guides/40-ai-content-detection.md) – obrana jednotlivce.
-
-**Mimo knihu (web a repozitář platformy)**
-
-- [Ollama](https://prismatic-reality-com.github.io/prismatic-promo/glossary/ollama/) – lokální běhové prostředí AI pro modely platformy.
-- [Backpressure](https://prismatic-reality-com.github.io/prismatic-promo/glossary/backpressure/) – řízení toku, které brání přetížení inference.
-- [Rate Limiting](https://prismatic-reality-com.github.io/prismatic-promo/glossary/rate-limiting/) – omezování požadavků chránící prostředky.
-- [Telemetry](https://prismatic-reality-com.github.io/prismatic-promo/glossary/telemetry/) – metriky výkonu inference.
-- [Observability](https://prismatic-reality-com.github.io/prismatic-promo/glossary/observability/) – infrastruktura sledování stavu inference.
-- [BEAM](https://prismatic-reality-com.github.io/prismatic-promo/glossary/beam/) – virtuální stroj pro souběžné zpracování požadavků.
-- [GenServer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/genserver/) – chování OTP, které implementuje koordinátor inference.
-- [Node](https://prismatic-reality-com.github.io/prismatic-promo/glossary/node/) – uzel BEAM.
-- [prismatic_ollama](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_ollama/README.md) – lokální běhové prostředí inference přes Ollama.
-- `prismatic_agents` (aplikace platformy, není součástí tohoto repozitáře) – systém agentů využívající inferenci.
-- [app_ai_safety](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/app_ai_safety/README.md) – sledování bezpečnosti výstupů inference.
-- [app_ai_interpretability](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/app_ai_interpretability/README.md) – analýza interpretovatelnosti výsledků.
-- [prismatic_telemetry](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_telemetry/README.md) – telemetrie výkonu inference.
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) – architektura AI inference a integrační vzory.
-- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) – schopnosti AI a strojového učení.

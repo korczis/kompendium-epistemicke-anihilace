@@ -99,7 +99,7 @@ co bylo důležité dřív, kdo mě znal mimo roli, co jsem dělal jen pro rados
 [nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md). Návrat
 spánku a pravidelného rytmu předchází hlubší práci.
 
-**Pro profesionála.** Klinik zvažuje vyhoření, depresi, úzkostné poruchy a poruchy příjmu
+**Pro profesionála.** Klinik zvažuje vyhoření, depresi, [úzkostné poruchy](@/glossary/uzkostne-poruchy.md) a poruchy příjmu
 potravy jako možné doprovodné stavy a neinterpretuje loajalitu k prostředí jako odpor
 k léčbě. Postup zotavení popisují [rekonstrukce identity](@/kompendium/recovery-protocols/midterm-identity-reconstruction.md)
 a [profesní reintegrace](@/kompendium/recovery-protocols/midterm-vocational-integration.md).

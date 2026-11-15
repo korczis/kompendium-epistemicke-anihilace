@@ -55,7 +55,7 @@ někdo nablízku, a dohodne signál pro případ, že musí hovor náhle ukonči
 kontrolující partner často sleduje telefon a komunikaci oběti; volající proto nemusí moci mluvit
 otevřeně, i když je fyzicky sám.
 
-**Přímý dotaz na sebevražedné myšlenky** a na sebepoškozování patří do každého hovoru s člověkem
+Přímý dotaz na sebevražedné myšlenky a na sebepoškozování patří do každého hovoru s člověkem
 v krizi; přímý dotaz riziko nezvyšuje (Dazzi a kol., 2014). Při riziku se postupuje podle
 [protokolu č. 2](@/kompendium/emergency-protocols/2-suicide-risk-EA.md) a pravidel linky, které
 obvykle vycházejí ze strukturovaného posouzení (Posner a kol., 2011).
@@ -73,18 +73,18 @@ Stanley a Brown (2012); i krátký plán dává volajícímu konkrétní kroky m
 
 ## Posouzení
 
-Během hovoru si pracovník všímá signálů EA a zároveň rizika. **Formulace** jako „on říká, že se to
+Během hovoru si pracovník všímá signálů EA a zároveň rizika. Formulace jako „on říká, že se to
 nestalo“, „nesmím o tom mluvit“, „ve skupině se tomu říká…“, časté omlouvání a nejistota ve vlastní
 paměti ukazují na prostředí, které přepisuje realitu volajícího. Lifton (1961) popsal „zatížení
 jazyka“ ([loading the language](@/glossary/loading-the-language.md)), kdy skupinová klišé nahrazují vlastní popis zkušenosti; volající
 pak mluví slovníkem prostředí, ze kterého volá.
 
-**Situace** zahrnuje, zda volající žije s osobou, která ho kontroluje, zda má přístup k penězům,
+Situace zahrnuje, zda volající žije s osobou, která ho kontroluje, zda má přístup k penězům,
 dokladům a telefonu a zda odešel ze skupiny nedávno. Tyto otázky odpovídají mapě donucující
 kontroly, kterou popisuje Stark (2007), a pomáhají odlišit běžný konflikt od soustavné kontroly
 ([coercive control](@/glossary/coercive-control.md)).
 
-**Riziko** zahrnuje suicidalitu, sebepoškození, násilí a ohrožení dětí. **Zdroje** jsou někdo mimo
+Riziko zahrnuje suicidalitu, sebepoškození, násilí a ohrožení dětí. Zdroje jsou někdo mimo
 manipulativní prostředí, předchozí kontakt s terapeutem a místo, kam může volající jít. Model
 krizové intervence, který popisuje Roberts (2005), začíná právě posouzením nebezpečí a zdrojů a
 teprve potom přechází k pocitům, možnostem a plánu.

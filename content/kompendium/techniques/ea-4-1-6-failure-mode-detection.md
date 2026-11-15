@@ -33,7 +33,7 @@ parent_chapter = "/kompendium/04-terminalni-protokoly/"
 
 ## Definice
 
-**Failure mode detection** představuje diagnostický mechanismus identifikace skrytých režimů selhání během průběhu extrémní výcvikové sekvence. V rámci kompendia je technika klasifikována jako **terminální protokol** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození. Organizační literatura popisuje, že vážné selhání se zpravidla ohlašuje dlouho dopředu slabými signály, které se v běžném provozu vykládají jako přijatelná odchylka (Reason, 1997).
+**Failure mode detection** představuje diagnostický mechanismus identifikace skrytých režimů selhání během průběhu extrémní výcvikové sekvence. V rámci kompendia je technika klasifikována jako **[terminální protokol](@/kompendium/04-terminalni-protokoly/_index.md)** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození. Organizační literatura popisuje, že vážné selhání se zpravidla ohlašuje dlouho dopředu slabými signály, které se v běžném provozu vykládají jako přijatelná odchylka (Reason, 1997).
 
 Stránka slouží rozpoznání vzorce, nikoli jeho provedení.
 

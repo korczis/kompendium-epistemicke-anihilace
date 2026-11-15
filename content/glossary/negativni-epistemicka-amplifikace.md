@@ -96,7 +96,7 @@ Kde kritika nikdy neuznává dílčí platnost a mění měřítko podle osoby, 
 pozornosti, nikoli o důkaz manipulace.
 
 Od klinických stavů je nutné odlišit depresi, u níž je negativní zkreslení součástí obrazu
-(Beck et al., 1979), úzkostné poruchy a obsedantně kompulzivní poruchu s nesnášenlivostí
+(Beck et al., 1979), [úzkostné poruchy](@/glossary/uzkostne-poruchy.md) a obsedantně kompulzivní poruchu s nesnášenlivostí
 nejistoty (American Psychiatric Association, 2022). U nich zkreslení nevyžaduje vnějšího
 aktéra a léčí se podle klinických doporučení. Od [paralýzy
 analýzou](@/glossary/paralysis-by-analysis.md) se vzorec liší tím, že ta vzniká nadměrným

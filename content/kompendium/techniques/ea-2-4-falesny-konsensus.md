@@ -8,7 +8,7 @@ tags = ["kompendium", "techniques", "ea-2-4", "konsenzus", "delegitimizace"]
 
 [extra]
 category = "kompendium-technique"
-related_terms = ["ea-2-1-9-pseudo-konsenzus-vytvoreni", "ea-2-4-6-peer-review-capture", "ea-2-4-8-journal-capture", "ea-2-3-4-mob-coordination", "ea-1-2-2-falesna-ekvivalence", "ea-1-5-1-emocni-podbarveni"]
+related_terms = ["ea-2-1-9-pseudo-konsenzus-vytvoreni", "ea-2-4-6-peer-review-capture", "ea-2-4-8-journal-capture", "ea-2-3-4-mob-coordination", "ea-1-2-2-falesna-ekvivalence", "ea-1-5-3-emocni-podbarveni"]
 ea_code = "EA-2.4"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.4 Institucionální zachycení"
@@ -178,7 +178,7 @@ ve vědě), [Československá normalizace](@/kompendium/historical-cases/6-czech
 
 - [EA-2.1.9 Vytvoření pseudokonsenzu](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md)
   – shoda proti jednomu expertovi.
-- [EA-1.5.1 Emoční podbarvení](@/kompendium/techniques/ea-1-5-1-emocni-podbarveni.md) –
+- [EA-1.5.3 Emoční podbarvení](@/kompendium/techniques/ea-1-5-3-emocni-podbarveni.md) –
   sdílená emoce místo sdíleného důvodu.
 
 **Teorie**

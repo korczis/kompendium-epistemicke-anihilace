@@ -9,7 +9,7 @@ tags = ["kompendium", "techniques", "ea-6-2", "klinicke", "emdr-protokol"]
 categories = ["academic", "clinical"]
 
 [extra]
-related_terms = ["ea-6-2-1-trauma-focused-cbt-protokol", "ea-6-2-8-somatic-experiencing-protokol", "ea-6-2-3-ifs-internal-family-systems", "ea-6-3-1-stabilizacni-faze-protokol", "ea-6-1-8-disociativni-spektrum-assessment", "ea-1-2-2-memorni-rekonstrukce"]
+related_terms = ["ea-6-2-1-trauma-focused-cbt-protokol", "ea-6-2-8-somatic-experiencing-protokol", "ea-6-2-3-ifs-internal-family-systems", "ea-6-3-1-stabilizacni-faze-protokol", "ea-6-1-8-disociativni-spektrum-assessment", "ea-1-2-5-memorni-rekonstrukce"]
 ea_code = "EA-6.2.2"
 ea_category = "6. Klinické aplikace"
 ea_subcategory = "6.2 Terapeutické intervence"
@@ -186,4 +186,4 @@ Rizikem je rovněž očekávání, že jediné sezení věc uzavře; práce s ko
 **Pojmy**
 
 - [Disociace](@/glossary/disociace.md) – hlavní riziko pro protokol.
-- [Paměťová rekonstrukce](@/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce.md) – manipulace pamětí, kterou EA-trauma často obsahuje.
+- [Paměťová rekonstrukce](@/kompendium/techniques/ea-1-2-5-memorni-rekonstrukce.md) – manipulace pamětí, kterou EA-trauma často obsahuje.

@@ -81,7 +81,7 @@ Pro děti, které se staly terčem upravených snímků ve škole, je klíčová
 
 ## 11. Vztah k ostatním kategoriím EA
 
-Mediální podobu téhož cíle – vytvořit z výseku obrazu nálepku – popisuje [EA-2.3.10 Virální Misrepresentation](@/kompendium/techniques/ea-2-3-10-viralni-misrepresentation.md). Upravený snímek použitý proti paměti blízké osoby patří k vzorcům [paměťové rekonstrukce](@/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce.md) z kapitoly 1: obraz „dokládá“ minulost, kterou postižený pamatuje jinak.
+Mediální podobu téhož cíle – vytvořit z výseku obrazu nálepku – popisuje [EA-2.3.10 Virální Misrepresentation](@/kompendium/techniques/ea-2-3-10-viralni-misrepresentation.md). Upravený snímek použitý proti paměti blízké osoby patří k vzorcům [paměťové rekonstrukce](@/kompendium/techniques/ea-1-2-5-memorni-rekonstrukce.md) z kapitoly 1: obraz „dokládá“ minulost, kterou postižený pamatuje jinak.
 
 ## 12. Postup při sporném snímku
 

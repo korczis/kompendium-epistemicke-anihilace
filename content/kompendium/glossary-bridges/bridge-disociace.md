@@ -42,7 +42,7 @@ Kniha rozlišuje několik rovin, na nichž disociace zasahuje do poznávání:
 1. **Paměť.** Události nejsou uloženy jako souvislý příběh, ale jako útržky, tělesné pocity
    nebo obrazy bez kontextu. Pro zasaženého je pak obtížné obhájit vlastní verzi, a proto je
    zranitelný vůči technikám, které paměť přepisují – například
-   [EA-1.2.2 Paměťová rekonstrukce](@/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce.md)
+   [EA-1.2.5 Paměťová rekonstrukce](@/kompendium/techniques/ea-1-2-5-memorni-rekonstrukce.md)
    nebo [EA-5.3.8 Mnemonická rekonfigurace](@/kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md).
 2. **Tělo.** Člověk ztrácí kontakt s tělesnými signály, které jinak slouží jako tichá kontrola
    reality; viz [EA-5.3.4 Tělesná disociace](@/kompendium/techniques/ea-5-3-4-telesna-disociace.md)

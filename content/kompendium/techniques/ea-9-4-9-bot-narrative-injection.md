@@ -87,7 +87,7 @@ Kniha to považuje za užitečné.
 
 ## 11. Vztah k ostatním kategoriím EA
 
-V kapitole 1 popisuje stejnou dynamiku [EA-1.4.1 Latentní podbarvení](@/kompendium/techniques/ea-1-4-1-latentni-podbarveni.md): rámec, který není vysloven jako teze, ale určuje čtení. Okamžitost reakce sdílí s [EA-9.4.8 Real-Time Bot Response](@/kompendium/techniques/ea-9-4-8-real-time-bot-response.md).
+V kapitole 1 popisuje stejnou dynamiku [EA-1.4.3 Latentní podbarvení](@/kompendium/techniques/ea-1-4-3-latentni-podbarveni.md): rámec, který není vysloven jako teze, ale určuje čtení. Okamžitost reakce sdílí s [EA-9.4.8 Real-Time Bot Response](@/kompendium/techniques/ea-9-4-8-real-time-bot-response.md).
 
 ## 12. Postup při podezření na vložený rámec v diskusi
 

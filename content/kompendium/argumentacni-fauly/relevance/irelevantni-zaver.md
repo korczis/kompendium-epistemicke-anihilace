@@ -37,9 +37,9 @@ catalog_depth = 0
 catalog_ancestors = []
 catalog_related = ["cerveny-sled", "slameny-panak", "whataboutism", "kontrola-tonu", "falesna-utecha", "slozena-otazka", "klam-obhajce", "myslenkove-ukoncujici-klise", "odvedeni-k-procedure", "pravidlo-relevance", "vyzva-k-relevanci"]
 catalog_related_declared = ["cerveny-sled", "slameny-panak", "pravidlo-relevance", "whataboutism", "vyzva-k-relevanci"]
-catalog_kompendium = ["kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md", "kompendium/forensic-legal/_index.md"]
+catalog_kompendium = ["kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md", "kompendium/forensic-legal/_index.md"]
 catalog_canonical = ""
-catalog_links_prose = ["kompendium/argumentacni-fauly/relevance/cerveny-sled.md", "kompendium/argumentacni-fauly/relevance/slameny-panak.md", "kompendium/argumentacni-fauly/relevance/whataboutism.md", "kompendium/argumentacni-fauly/teorie-argumentace/pragma-dialektika.md", "kompendium/argumentacni-fauly/teorie-argumentace/toulminuv-model.md", "kompendium/forensic-legal/_index.md", "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md", "kompendium/techniques/ea-1-3-3-tematicka-diverze.md"]
+catalog_links_prose = ["kompendium/argumentacni-fauly/relevance/cerveny-sled.md", "kompendium/argumentacni-fauly/relevance/slameny-panak.md", "kompendium/argumentacni-fauly/relevance/whataboutism.md", "kompendium/argumentacni-fauly/teorie-argumentace/pragma-dialektika.md", "kompendium/argumentacni-fauly/teorie-argumentace/toulminuv-model.md", "kompendium/forensic-legal/_index.md", "kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md", "kompendium/techniques/ea-1-3-3-tematicka-diverze.md"]
 catalog_prev = "kontrola-tonu"
 catalog_next = "falesna-utecha"
 catalog_position = 28
@@ -136,7 +136,7 @@ nadřazení doktríny osobě, podle níž se konkrétní zkušenost člověka po
 ideologie (Lifton 1961). V obou případech jsou premisy často pravdivé, a proto se
 posluchači těžko brání: nesouhlas s argumentem vypadá jako nesouhlas s hodnotami nebo s
 posláním. Kompendium popisuje příbuzný vzorec u
-[argumentačního oslabení](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md), kde se
+[argumentačního oslabení](@/kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md), kde se
 cizí argument posuzuje v podobě, která se snadno vyvrací. Pro obranu je důležité, že
 rozpoznání irelevantního závěru nevyžaduje zpochybnit premisy; stačí ukázat, že se týkají
 jiné otázky.
@@ -243,7 +243,7 @@ samostatné (van Eemeren a Grootendorst 2004).
 **V kompendiu**
 
 - [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
-- [EA-1.2.1 Argumentační oslabení](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.2.4 Argumentační oslabení](@/kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 - [Forenzní a právní rozměr EA](@/kompendium/forensic-legal/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**

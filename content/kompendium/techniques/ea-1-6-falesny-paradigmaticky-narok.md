@@ -8,7 +8,7 @@ tags = ["kompendium", "techniques", "ea-1-6", "paradigma", "charisma"]
 
 [extra]
 category = "kompendium-technique"
-related_terms = ["ea-1-6-1-vzorec-guru-a-adept", "ea-1-6-5", "ea-1-3-1-imunizace-proti-falsifikaci", "ea-1-3-2-pseudo-empiricka-validace", "ea-1-1-3-terminologicka-mystifikace", "ea-5-1-26-trans-paradigmaticka-migrace"]
+related_terms = ["ea-1-6-1-vzorec-guru-a-adept", "ea-1-6-5", "ea-1-3-1-imunizace-proti-falsifikaci", "ea-1-3-5-pseudo-empiricka-validace", "ea-1-1-3-terminologicka-mystifikace", "ea-5-1-26-trans-paradigmaticka-migrace"]
 ea_code = "EA-1.6"
 ea_category = "1. Akademické techniky"
 ea_subcategory = "1.6 Charizmatické vedení"
@@ -176,7 +176,7 @@ kultu](@/kompendium/case-studies/28-academic-philosophy-cult.md).
 
 - [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)
   – kritika jako potvrzení.
-- [EA-1.3.2 Pseudoempirická validace](@/kompendium/techniques/ea-1-3-2-pseudo-empiricka-validace.md)
+- [EA-1.3.5 Pseudoempirická validace](@/kompendium/techniques/ea-1-3-5-pseudo-empiricka-validace.md)
   – vědecký vzhled nového rámce.
 
 **Teorie**

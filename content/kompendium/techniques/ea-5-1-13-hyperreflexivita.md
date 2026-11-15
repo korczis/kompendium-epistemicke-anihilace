@@ -162,7 +162,7 @@ Intervence: Ukončení coachingového vztahu, klinická psychoterapie s **explic
 
 ### Často se kombinuje s
 
-- **[EA-1.3.2 Sokratovská past](@/kompendium/techniques/ea-1-3-2-sokratovska-past.md)** — řetězec metaotázek je strukturálně podobný a může eskalovat do hyperreflexivity.
+- **[EA-1.3.6 Sokratovská past](@/kompendium/techniques/ea-1-3-6-sokratovska-past.md)** — řetězec metaotázek je strukturálně podobný a může eskalovat do hyperreflexivity.
 - **[EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)** — úzkost potencuje paralýzu, paralýza potencuje úzkost.
 - **EA-5.1.14 Iluzorní transcendence** — sesterská technika; v případech, kdy hyperreflexivita produkuje **iluzi vhledu** namísto paralýzy.
 - **EA-5.1.15 Apofatické zacyklení** — sesterská technika; obě sdílejí strukturu epistemické stáze, ale mechanismus je odlišný.
@@ -191,7 +191,7 @@ Intervence: Ukončení coachingového vztahu, klinická psychoterapie s **explic
   - [EA-5.1.14 Iluzorní transcendence](@/kompendium/techniques/ea-5-1-14-iluzorni-transcendence.md)
   - [EA-5.1.15 Apofatické zacyklení](@/kompendium/techniques/ea-5-1-15-apofaticke-zacykleni.md)
 - **Příbuzné techniky**:
-  - [EA-1.3.2 Sokratovská past](@/kompendium/techniques/ea-1-3-2-sokratovska-past.md)
+  - [EA-1.3.6 Sokratovská past](@/kompendium/techniques/ea-1-3-6-sokratovska-past.md)
   - [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)
 - **Glossary**:
   - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)

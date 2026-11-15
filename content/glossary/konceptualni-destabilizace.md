@@ -49,7 +49,7 @@ Od sousedních vzorců původní taxonomie se destabilizace liší rovinou. [Dek
 
 ## Odlišení
 
-Od filozofické výuky se vzorec liší tím, zda vede k přesnějšímu užití. Sokratovský elenchos podle Vlastose testuje soudržnost přesvědčení tázaného a jeho cílem je poznání, nikoli zbavení se pojmů (Vlastos 1983). Seminář, po němž student používá pojem opatrněji, ale stále jej používá, plní svůj účel. Zneužití sokratovského tázání, v němž otázky mají jedinou přijatelnou odpověď, popisuje technika [EA-1.3.2 Sokratovská past](@/kompendium/techniques/ea-1-3-2-sokratovska-past.md).
+Od filozofické výuky se vzorec liší tím, zda vede k přesnějšímu užití. Sokratovský elenchos podle Vlastose testuje soudržnost přesvědčení tázaného a jeho cílem je poznání, nikoli zbavení se pojmů (Vlastos 1983). Seminář, po němž student používá pojem opatrněji, ale stále jej používá, plní svůj účel. Zneužití sokratovského tázání, v němž otázky mají jedinou přijatelnou odpověď, popisuje technika [EA-1.3.6 Sokratovská past](@/kompendium/techniques/ea-1-3-6-sokratovska-past.md).
 
 Od akademické debaty se vzorec liší reciprocitou: v debatě své pojmy vymezují obě strany a obě je hájí. Od [kognitivního zploštění](@/glossary/kognitivni-zplosteni.md) se liší směrem, protože zploštění odlišné věci slévá, kdežto destabilizace jeden pojem rozptyluje do neurčitosti. Lakatos ukazuje, že rozšiřování a zužování pojmů pod tlakem protipříkladů je normální součástí poznání (Lakatos 1976); vzorcem se stává jen tehdy, když nikdy neskončí dočasnou dohodou.
 
@@ -101,6 +101,6 @@ Pojem nemá vlastní empirickou validaci a jeho hranice s legitimní filozoficko
 **Kniha**
 
 - [EA-4.3.3 Semantic stability disruption](@/kompendium/techniques/ea-4-3-3-semantic-stability-disruption.md) – nejbližší mechanismus v současné taxonomii.
-- [EA-1.3.2 Sokratovská past](@/kompendium/techniques/ea-1-3-2-sokratovska-past.md) – zneužití sokratovského tázání.
+- [EA-1.3.6 Sokratovská past](@/kompendium/techniques/ea-1-3-6-sokratovska-past.md) – zneužití sokratovského tázání.
 - [EA-5.4.24 Past epistemické vágnosti](@/kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md) – zneužití vágnosti pojmů.
 - [Hermeneutický reset](@/kompendium/recovery-protocols/midterm-hermeneutic-reset.md) – dlouhodobá obnova výkladového rámce.

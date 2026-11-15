@@ -46,7 +46,7 @@ broader = "sleight-of-mouth"
 related = ["ramec-vysledku", "vyzva-k-relevanci", "som-zamer", "som-hierarchie-kriterii"]
 kompendium = [
   "kompendium/techniques/ea-1-3-3-tematicka-diverze.md",
-  "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md",
+  "kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md",
 ]
 vaknin = "inferred"
 review = "agent"

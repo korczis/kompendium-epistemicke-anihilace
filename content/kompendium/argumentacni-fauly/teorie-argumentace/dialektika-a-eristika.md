@@ -37,9 +37,9 @@ catalog_depth = 0
 catalog_ancestors = []
 catalog_related = ["slameny-panak", "gish-gallop", "sealioning", "personalizace-sporu", "princip-shovivavosti", "pragma-dialektika", "argumentacni-teorie-uvazovani"]
 catalog_related_declared = ["pragma-dialektika", "gish-gallop", "sealioning", "personalizace-sporu", "slameny-panak", "princip-shovivavosti"]
-catalog_kompendium = ["kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md", "kompendium/07-teoreticke-reflexe/politicka-ea.md", "kompendium/techniques/ea-2-3-9-sealioning-medialni.md"]
+catalog_kompendium = ["kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md", "kompendium/07-teoreticke-reflexe/politicka-ea.md", "kompendium/techniques/ea-2-3-9-sealioning-medialni.md"]
 catalog_canonical = ""
-catalog_links_prose = ["glossary/gish-gallop.md", "kompendium/07-teoreticke-reflexe/politicka-ea.md", "kompendium/argumentacni-fauly/dialekticke-taktiky/personalizace-sporu.md", "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md"]
+catalog_links_prose = ["glossary/gish-gallop.md", "kompendium/07-teoreticke-reflexe/politicka-ea.md", "kompendium/argumentacni-fauly/dialekticke-taktiky/personalizace-sporu.md", "kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md"]
 catalog_prev = "pragma-dialektika"
 catalog_next = "bayesovske-pojeti-klamu"
 catalog_position = 16
@@ -173,7 +173,7 @@ ukázat se v lepším světle (Walton 2008). V politickém prostředí, kterému
 veřejné debaty stává soutěž o pozornost, ve které se argumenty měří dosahem. V osobních
 vztazích se eristika projevuje tím, že každá výměna končí přiznáním chyby jen na jedné straně,
 protože druhá strana nikdy neuzná žádný důvod. Dlouhodobé vystavení takovému sporu vede k tomu,
-co kompendium popisuje jako [argumentační oslabení](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md):
+co kompendium popisuje jako [argumentační oslabení](@/kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md):
 člověk přestává důvěřovat vlastní schopnosti argumentovat, protože každý jeho argument byl
 „poražen“, ačkoli nebyl vyvrácen.
 
@@ -222,7 +222,7 @@ je ochota uznat dobrý důvod, i když pochází od protivníka.
 
 **V kompendiu**
 
-- [EA-1.2.1 Argumentační oslabení](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.2.4 Argumentační oslabení](@/kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 - [7.8 Politická a ideologická EA — totalitní systémy, propaganda, populismus](@/kompendium/07-teoreticke-reflexe/politicka-ea.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 - [EA-2.3.9 Mediální sealioning](@/kompendium/techniques/ea-2-3-9-sealioning-medialni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 

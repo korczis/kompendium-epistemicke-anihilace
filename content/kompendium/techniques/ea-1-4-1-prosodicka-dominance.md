@@ -9,7 +9,7 @@ tags = ["kompendium", "techniques", "ea-1-4-1", "prosodicka-dominance", "paralin
 categories = ["academic"]
 
 [extra]
-related_terms = ["ea-1-3-4-indukovana-pochybnost", "ea-1-4-1-latentni-podbarveni", "ea-1-4-2-latent-emotional-modulation", "ea-1-4-2-latentni-emocionalni-modulace"]
+related_terms = ["ea-1-3-4-indukovana-pochybnost", "ea-1-4-3-latentni-podbarveni", "ea-1-4-2-latent-emotional-modulation", "ea-1-4-2-latentni-emocionalni-modulace"]
 ea_code = "EA-1.4.1"
 ea_category = "1. Akademické techniky"
 ea_subcategory = "1.4 Paralingvistické manipulativní techniky"

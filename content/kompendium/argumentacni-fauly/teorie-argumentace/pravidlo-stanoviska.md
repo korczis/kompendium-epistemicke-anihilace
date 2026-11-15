@@ -37,9 +37,9 @@ catalog_depth = 1
 catalog_ancestors = ["pragma-dialektika"]
 catalog_related = ["slameny-panak", "vytrzeni-z-kontextu", "motte-and-bailey", "princip-shovivavosti", "ocelovy-panak"]
 catalog_related_declared = ["slameny-panak", "vytrzeni-z-kontextu", "motte-and-bailey", "princip-shovivavosti", "ocelovy-panak"]
-catalog_kompendium = ["kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md", "kompendium/techniques/ea-2-3-3-quote-mining.md", "kompendium/techniques/ea-2-3-10-viralni-misrepresentation.md"]
+catalog_kompendium = ["kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md", "kompendium/techniques/ea-2-3-3-quote-mining.md", "kompendium/techniques/ea-2-3-10-viralni-misrepresentation.md"]
 catalog_canonical = ""
-catalog_links_prose = ["glossary/motte-and-bailey.md", "kompendium/argumentacni-fauly/jazykove-klamy/vytrzeni-z-kontextu.md", "kompendium/argumentacni-fauly/relevance/irelevantni-zaver.md", "kompendium/argumentacni-fauly/relevance/slameny-panak.md", "kompendium/argumentacni-fauly/teorie-argumentace/ocelovy-panak.md", "kompendium/argumentacni-fauly/teorie-argumentace/princip-shovivavosti.md", "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md", "kompendium/techniques/ea-2-3-10-viralni-misrepresentation.md", "kompendium/techniques/ea-2-3-3-quote-mining.md"]
+catalog_links_prose = ["glossary/motte-and-bailey.md", "kompendium/argumentacni-fauly/jazykove-klamy/vytrzeni-z-kontextu.md", "kompendium/argumentacni-fauly/relevance/irelevantni-zaver.md", "kompendium/argumentacni-fauly/relevance/slameny-panak.md", "kompendium/argumentacni-fauly/teorie-argumentace/ocelovy-panak.md", "kompendium/argumentacni-fauly/teorie-argumentace/princip-shovivavosti.md", "kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md", "kompendium/techniques/ea-2-3-10-viralni-misrepresentation.md", "kompendium/techniques/ea-2-3-3-quote-mining.md"]
 catalog_prev = "pravidlo-dukazniho-bremene"
 catalog_next = "pravidlo-relevance"
 catalog_position = 3
@@ -112,7 +112,7 @@ mediální variantu představuje
 [vytržení z kontextu](@/kompendium/argumentacni-fauly/jazykove-klamy/vytrzeni-z-kontextu.md).
 Struktura je v obou případech stejná: stanovisko S se nahradí stanoviskem S′, které je snáze
 napadnutelné, S′ se vyvrátí a vyvrácení se vydává za vyvrácení S. Kompendium popisuje obecnou
-podobu tohoto vzorce jako [argumentační oslabení](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md).
+podobu tohoto vzorce jako [argumentační oslabení](@/kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md).
 Na straně obhájce existuje zrcadlová chyba: když je silná verze stanoviska napadena, ustoupí se ke
 slabší a obtížně napadnutelné verzi, a jakmile kritika odezní, vrací se silná verze. Tento pohyb
 popisuje glosář jako [motte-and-bailey](@/glossary/motte-and-bailey.md) a z hlediska pravidla
@@ -226,7 +226,7 @@ z téhož důvodu vést vlastní záznam toho, co a kdy skutečně řekl.
 
 **V kompendiu**
 
-- [EA-1.2.1 Argumentační oslabení](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.2.4 Argumentační oslabení](@/kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 - [EA-2.3.3 Těžba citátů (quote mining)](@/kompendium/techniques/ea-2-3-3-quote-mining.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 - [EA-2.3.10 Virální zkreslení výroku](@/kompendium/techniques/ea-2-3-10-viralni-misrepresentation.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 

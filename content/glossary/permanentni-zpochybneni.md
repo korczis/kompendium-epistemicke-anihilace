@@ -123,7 +123,7 @@ Od **sokratovského tázání jako terapeutické metody** se liší cílem a kon
 systematické tázání jako nástroj, který klientovi pomáhá dojít k vlastnímu úsudku (Overholser,
 1993), a Padesky odlišila řízené objevování od přesvědčování právě tím, že terapeut nezná
 předem odpověď, k níž má klient dospět (Padesky, 1993). Zneužití této formy popisuje technika
-[EA-1.3.2 Sokratovská past](@/kompendium/techniques/ea-1-3-2-sokratovska-past.md).
+[EA-1.3.6 Sokratovská past](@/kompendium/techniques/ea-1-3-6-sokratovska-past.md).
 
 Od **neúnavného, ale upřímného tazatele** se stav liší tím, co se stane po odpovědi: upřímný
 tazatel odpověď přijme nebo vysvětlí, proč nestačí, kdežto zde odpověď mizí bez komentáře

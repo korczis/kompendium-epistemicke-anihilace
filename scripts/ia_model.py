@@ -13,6 +13,10 @@ CONTENT = ROOT / "content"
 
 TOML_FM = re.compile(r"\A\+\+\+\n(.*?)\n\+\+\+\n", re.S)
 YAML_FM = re.compile(r"\A---\n(.*?)\n---\n", re.S)
+# The catalogue loop of a chapter (ADR 0015): the data file it loads and the families it loops over.
+CATALOGUE_DATA = 'load_data(path="static/data/catalogue.json")'
+CATALOGUE_FAMILY = re.compile(r'\.families\[\s*"(\d+\.\d+)"\s*\]')
+CATALOGUE_CODE = re.compile(r"^EA-(\d+\.\d+)\.\d+$")
 AT_LINK = re.compile(r"\]\(@/([^)#\s]+?\.md)(#[^)\s]*)?\)")
 FENCE = re.compile(r"```.*?```", re.S)
 WORD = re.compile(r"[A-Za-zÀ-ž]+")
@@ -132,6 +136,8 @@ def language_of(words: list) -> str:
 def load_pages(with_body: bool = False) -> list:
     """Every page of content/ as a dict; `with_body` keeps the body (front matter removed)
     and the front matter's [extra] for the text analyses of scripts/check-ia.py."""
+    loops: dict = {}
+    family_of: dict = {}
     pages = []
     for path in sorted(CONTENT.rglob("*.md")):
         rel = pathlib.PurePosixPath(path.relative_to(CONTENT).as_posix())
@@ -184,9 +190,22 @@ def load_pages(with_body: bool = False) -> list:
             if isinstance(extra, dict) and isinstance(extra.get("catalog_aliases"), list) else [],
             "links": [m.group(1) for m in AT_LINK.finditer(body)],
         })
+        # A chapter's catalogue table is a load_data loop over static/data/catalogue.json (ADR 0015):
+        # its links are not literal in the source, so they are added from the same front matter the
+        # catalogue is derived from, below. Record which families a page loops over, and each
+        # technique page's family.
+        if CATALOGUE_DATA in body:
+            loops[pages[-1]["path"]] = set(CATALOGUE_FAMILY.findall(body))
+        code = CATALOGUE_CODE.match(str(extra.get("ea_code", "") or "").strip()) if isinstance(extra, dict) else None
+        if code and pages[-1]["path"].startswith("kompendium/techniques/ea-"):
+            family_of[pages[-1]["path"]] = code.group(1)
         if with_body:
             pages[-1]["body"] = body
             pages[-1]["extra"] = extra if isinstance(extra, dict) else {}
+    for page in pages:
+        families = loops.get(page["path"])
+        if families:
+            page["links"] += [t for t, f in family_of.items() if f in families]
     known = {p["path"] for p in pages}
     for page in pages:
         page["broken_links"] = sorted({t for t in page["links"] if t not in known})

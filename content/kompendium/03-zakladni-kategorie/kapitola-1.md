@@ -106,20 +106,19 @@ Miranda Fricker rozlišuje **testimoniální** a **hermeneutickou** epistemickou
 
 Distinktním přínosem taxonomie EA-1 oproti Frickerové je **mikroúroveň techniky** (Frickerová operuje primárně na strukturální úrovni nespravedlnosti) a **integrace neverbálních modalit** (paralingvistika a proxemika).
 
-## Taxonomie 13 technik EA-1.*
+{% set cat = load_data(path="static/data/catalogue.json") %}{% set n = cat.families["1.1"] | length + cat.families["1.2"] | length + cat.families["1.3"] | length + cat.families["1.4"] | length + cat.families["1.5"] | length %}
+## Taxonomie {{ n }} technik EA-1.*
 
-Následující taxonomie systematicky kategorizuje 13 technik intelektuální manipulace v akademickém kontextu. Každá technika je kategorizována podle primární epistemické funkce, kterou narušuje, a dominantního modu operace. Každý kód [EA-1.X.Y] odkazuje na samostatný hloubkový článek v podknihovně technik.
+Následující taxonomie systematicky kategorizuje {{ n }} technik intelektuální manipulace v akademickém kontextu. Každá technika je kategorizována podle primární epistemické funkce, kterou narušuje, a dominantního modu operace. Každý kód [EA-1.X.Y] odkazuje na samostatný hloubkový článek v podknihovně technik.
 
 ### 1.1 Narušení procesů akvizice poznání
 
 Tyto techniky primárně cílí na procesy, jejichž prostřednictvím jsou nové informace získávány a inicálně evaluovány. Společným charakteristickým rysem je manipulace s **input vrstvou** epistemické zkušenosti — subjekt obdrží zkreslené nebo limitované informace dříve, než má příležitost iniciovat kritickou evaluaci. Tyto techniky jsou zvlášť nebezpečné v formativních akademických kontextech (úvodní kurzy, orientační přednášky, přehledové publikace), protože konfigurují fundamentální epistemickou krajinu subjektu.
 
-| EA | Technika | Jednověté shrnutí | Primární exploitace |
-|----|----------|-------------------|---------------------|
-| **[EA-1.1.1](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)** | Selektivní expozice | Strategická filtrace dostupných informací s předstíráním objektivity | Konfirmační bias, předpoklad komprehenzivity |
-| **[EA-1.1.2](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md)** | Informační přetížení | Excesivní množství informací inhibující kritické zpracování | Kognitivní limity pracovní paměti |
-| **[EA-1.1.3](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)** | Terminologická mystifikace | Zbytečně komplexní terminologie vytvářející falešnou epistemickou hierarchii | Atribuce nepochopení vlastním limitům |
-
+| EA | Technika | Shrnutí | Primární exploitace |
+|----|----------|---------|---------------------|
+{% for t in cat.families["1.1"] %}| **[{{ t.code }}](@/kompendium/techniques/{{ t.slug }}.md)** | {{ t.name }} | {{ t.summary }} | {{ t.exploitation | default(value="") }} |
+{% endfor %}
 **Detail EA-1.1.1 (Selektivní expozice)**: Strategická kontrola informací, jimž je subjekt vystaven, prezentovaná jako nestranný výběr relevantních dat. Operační modus je strategická filtrace dostupných informací kombinovaná s vytvářením dojmu komprehenzivity a objektivity. Fenomenologicky subjekt zažívá pocit informovanosti a epistemické saturace navzdory limitovanému informačnímu poli. Rizikové kontexty: úvodní kurzy, orientační přednášky, přehledové publikace, kurikulární design. Neutralizace: aktivní vyhledávání diversních zdrojů, kritická analýza selekčních kritérií, identifikace absentujících perspektiv.
 
 **Detail EA-1.1.2 (Informační přetížení)**: Prezentace excesivního množství informací nebo náročně komplexních dat způsobem znemožňujícím adekvátní kritické zpracování. Operační modus exploituje kognitivní limity pracovní paměti, následované rychlými závěry. Fenomenologicky: kognitivní zahlcení, epistemická úzkost, tendence akceptovat závěry bez evaluace. Rizikové kontexty: odborné prezentace, technické texty, kvantitativní argumentace. Neutralizace: systematická dekompozice, request pro zpomalení, dokumentace klíčových premis, odmítnutí akceptovat závěry bez adekvátního času.
@@ -130,14 +129,10 @@ Tyto techniky primárně cílí na procesy, jejichž prostřednictvím jsou nov�
 
 Tyto techniky primárně cílí na procesy kritické evaluace a integrace informací do existujícího epistemického systému. Společným rysem je manipulace s **evaluační vrstvou** — subjekt informace získává adekvátně, ale je narušen jeho schopnost je porovnávat, hierarchizovat a integrovat do existujícího rámce poznání. Důsledkem je často **epistemická paralýza** nebo nesprávná kategorizace informací.
 
-| EA | Technika | Jednověté shrnutí | Primární exploitace |
-|----|----------|-------------------|---------------------|
-| **[EA-1.2.1](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md)** | Falešné dilema | Artificiální polarizace komplexního problému na binární volbu | Kognitivní tendence k bivalenci |
-| **[EA-1.2.2](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md)** | Falešná ekvivalence | Prezentace asymetrických entit jako rovnocenných | Norma nestrannosti, balance fallacy |
-| **[EA-1.2.3](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md)** | Iluzorní komplexita | Umělé komplikování jasných problémů irelevantními faktory | Tendence k suspenzi úsudku v komplexitě |
-| **[EA-1.2.4](@/kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md)** | Argumentační oslabení | Posouzení cizího argumentu v nejslabší podobě a vydání jeho vyvrácení za vyvrácení celé pozice | Důvěra publika v parafrázi místo původního znění |
-| **[EA-1.2.5](@/kompendium/techniques/ea-1-2-5-memorni-rekonstrukce.md)** | Paměťová rekonstrukce | Opakované přepisování vzpomínek zvenčí, až převáží cizí verze minulosti | Autorita nad minulostí a opakování, které zvyšuje pocit pravdivosti |
-
+| EA | Technika | Shrnutí | Primární exploitace |
+|----|----------|---------|---------------------|
+{% for t in cat.families["1.2"] %}| **[{{ t.code }}](@/kompendium/techniques/{{ t.slug }}.md)** | {{ t.name }} | {{ t.summary }} | {{ t.exploitation | default(value="") }} |
+{% endfor %}
 **Detail [EA-1.2.1](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) (Falešné dilema)**: Prezentace komplexního epistemického problému jako binární volby mezi dvěma extrémními pozicemi, s implicitním delegitimizováním nuancovaných nebo hybridních perspektiv. Operační modus představuje artificiální polarizaci diskurzu, která znemožňuje subtilnější pozice. Fenomenologicky: kognitivní tenze a push k výběru mezi dvěma neadekvátními pozicemi, pocit epistemické rezignace. Rizikové kontexty: politizované akademické debaty, metodologické kontroverze, interdisciplinární dialogy. Neutralizace: explicitní identifikace dilematu jako potenciálně falešného, aktivní artikulace alternativních pozic mimo prezentovanou dichotomii, dekonstrukce předpokládaných exkluzivit.
 
 **Detail EA-1.2.2 (Falešná ekvivalence)**: Prezentace fundamentálně asymetrických epistemických entit (argumentů, evidencí, teorií) jako ekvivalentních, často skrze superficiální podobnosti. Operační modus exploituje normu nestrannosti a tendenci k „balance fallacy“ v akademickém diskurzu. Fenomenologicky: epistemická dezorientace, neschopnost adekvátně prioritizovat distinktní entity. Rizikové kontexty: vědecké kontroverze, mediální reprezentace akademických debat, pedagogická prezentace kompetitivních teorií. Neutralizace: explicitní artikulace relevantních asymetrií, metaepistemická analýza evaluačních kritérií, odmítnutí falešné neutrality.
@@ -148,14 +143,10 @@ Tyto techniky primárně cílí na procesy kritické evaluace a integrace inform
 
 Tyto techniky primárně cílí na procesy kritického přezkumu a případné revize existujících přesvědčení a teorií. Společným rysem je manipulace s **revizní vrstvou** — subjekt může korektně získat informace a evaluovat je, ale je narušena jeho schopnost konfrontovat existující přesvědčení s novou evidencí. Vzniká **epistemická setrvačnost**, jež chrání problematické pozice před oprávněnou revizí.
 
-| EA | Technika | Jednověté shrnutí | Primární exploitace |
-|----|----------|-------------------|---------------------|
-| **[EA-1.3.1](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)** | Imunizace proti falsifikaci | Modifikace teorie tak, aby byla resistentní vůči falsifikační evidenci | Ad hoc auxiliární hypotézy |
-| **[EA-1.3.2](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md)** | Strategická reinterpretace | Reinterpretace kontradiktorní evidence jako podporující | Hermeneutická flexibilita |
-| **[EA-1.3.3](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md)** | Tematická diverze | Přesměrování diskuse od problematických aspektů k irelevantním | Konverzační fluidita |
-| **[EA-1.3.5](@/kompendium/techniques/ea-1-3-5-pseudo-empiricka-validace.md)** | Pseudoempirická validace | Vědecký vzhled tvrzení (čísla, grafy, citace) bez empirické opory | Důvěra ve vnější znaky vědeckého doložení |
-| **[EA-1.3.6](@/kompendium/techniques/ea-1-3-6-sokratovska-past.md)** | Sokratovská past | Řada otázek s jedinou přijatelnou odpovědí, jejíž závěr se vydává za vlastní poznání tázaného | Asymetrie rolí a postupně ukládané drobné ústupky |
-
+| EA | Technika | Shrnutí | Primární exploitace |
+|----|----------|---------|---------------------|
+{% for t in cat.families["1.3"] %}| **[{{ t.code }}](@/kompendium/techniques/{{ t.slug }}.md)** | {{ t.name }} | {{ t.summary }} | {{ t.exploitation | default(value="") }} |
+{% endfor %}
 **Detail EA-1.3.1 (Imunizace proti falsifikaci)**: Systematická modifikace teorie nebo argumentu způsobem činícím je resistentními vůči potenciální falsifikační evidenci, při zachování zdání empirické testovatelnosti. Operační modus je strategické zavádění ad hoc výjimek, auxiliárních hypotéz nebo flexibilních definic absorbujících kontradiktorní evidenci. Fenomenologicky: frustrace z „pohyblivého cíle“, neschopnost identifikovat definitivní falsifikační kritéria. Rizikové kontexty: teoretické debaty, interdisciplinární aplikace, defense ideologicky motivovaných pozic. Neutralizace: požadavek na explicitní specifikaci falsifikačních kritérií, identifikace ad hoc modifikací, evaluace z perspektivy Occamovy břitvy.
 
 **Detail EA-1.3.2 (Strategická reinterpretace)**: Systematické přeinterpretování evidence kontradiktující specifickou teorii nebo pozici způsobem transformujícím ji na podporující evidenci. Operační modus exploituje inherentní interpretační flexibilitu empirických dat, kombinovanou s rekurzivní hermeneutickou adjustací. Fenomenologicky: epistemická dezorientace, konfúze ohledně toho, co konstituuje podporující vs. falsifikující evidenci. Rizikové kontexty: metodologické debaty, interpretace experimentálních výsledků, evaluace historické evidence. Neutralizace: požadavek na explicitní artikulaci interpretačních principů před evaluací evidence, fokus na prediktivní aspekty teorií, identifikace cirkulárních interpretačních schémat.
@@ -166,12 +157,10 @@ Tyto techniky primárně cílí na procesy kritického přezkumu a případné r
 
 Tyto techniky využívají aspekty řečové produkce mimo samotný lingvistický obsah. Zatímco techniky 1.1–1.3 operují primárně skrze obsah, paralingvistické techniky operují skrze **formu** prezentace — subjekt může být manipulován i přes naprosto neutrální propoziční obsah skrze způsob, jakým je tento obsah dodán. Tyto techniky jsou obzvláště nebezpečné, protože **operují pod prahem vědomé detekce** a tradičních argumentačních analytických metod.
 
-| EA | Technika | Jednověté shrnutí | Primární exploitace |
-|----|----------|-------------------|---------------------|
-| **[EA-1.4.1](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md)** | Prosodická dominance | Využití intonace, hlasitosti, tempa k epistemické dominanci | Sociální interpretace prosodie jako jistoty |
-| **[EA-1.4.2](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)** | Latentní emocionální modulace | Subtilní indukce emocionálních stavů modulujících kognici | Vliv emocí na evaluační procesy |
-| **[EA-1.4.3](@/kompendium/techniques/ea-1-4-3-latentni-podbarveni.md)** | Latentní podbarvení | Hodnotící význam věcně neutrální výpovědi nesený tónem, důrazem a pauzami | Implikatura nesená hlasem, za kterou mluvčí neodpovídá |
-
+| EA | Technika | Shrnutí | Primární exploitace |
+|----|----------|---------|---------------------|
+{% for t in cat.families["1.4"] %}| **[{{ t.code }}](@/kompendium/techniques/{{ t.slug }}.md)** | {{ t.name }} | {{ t.summary }} | {{ t.exploitation | default(value="") }} |
+{% endfor %}
 **Detail EA-1.4.1 (Prosodická dominance)**: Systematické využívání prosodických vzorců (intonace, hlasitost, tempo) k ustanovení epistemické dominance a inhibici kritického zkoumání. Operační modus exploituje automatické sociální interpretace prosodických signálů jako indikátorů epistemického statusu a jistoty. Fenomenologicky: subtilní sociální tlak k akceptaci propozic prezentovaných s prosodickými signály autority. Rizikové kontexty: přednášky, verbální prezentace, konferenční diskuse. Neutralizace: vědomá neutralizace prosodických vlivů skrze fokus na propoziční obsah, meta-komunikativní poznámky, písemné zachycení klíčových argumentů nezávisle na prezentaci.
 
 **Detail EA-1.4.2 (Latentní emocionální modulace)**: Subtilní indukce specifických emocionálních stavů (anxiety, frustrace, vina) k modulaci kognitivních procesů a epistemických tendencí. Operační modus exploituje vliv emocionálních stavů na kognitivní zpracování, tendenci k heuristické evaluaci a toleranci kognitivní disonance. Fenomenologicky: emocionální diskomfort při zvažování určitých propozic, často bez explicitního vědomí zdroje. Rizikové kontexty: pedagogické diskuse, mentorské vztahy, akademické konfrontace. Neutralizace: mindfulness ohledně emocionálních reakcí, temporální separace emocionální zkušenosti od epistemické evaluace, explicitní identifikace manipulativního důrazu.
@@ -180,12 +169,10 @@ Tyto techniky využívají aspekty řečové produkce mimo samotný lingvistick�
 
 Tyto techniky využívají prostorové a tělesné aspekty komunikace. Operují na nejhlubší předjazykové vrstvě interakce — exploitují **evoluční předispozice** k interpretaci specifických tělesných a prostorových konfigurací jako signálů hierarchie a dominance. V akademickém kontextu jsou tyto techniky frequently zcela neidentifikované, ačkoli mohou strukturovat celé interakční pole konference, semináře nebo konzultace.
 
-| EA | Technika | Jednověté shrnutí | Primární exploitace |
-|----|----------|-------------------|---------------------|
-| **[EA-1.5.1](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md)** | Strategická proxemika | Manipulace s interpersonálním prostorem k indukci kognitivních efektů | Automatické psychologické efekty proximity |
-| **[EA-1.5.2](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md)** | Dominantní tělesné hieroglyfy | Tělesná posturalita a gestika k ustanovení neverbální hierarchie | Evoluční signály dominance |
-| **[EA-1.5.3](@/kompendium/techniques/ea-1-5-3-emocni-podbarveni.md)** | Emoční podbarvení | Spojení osoby nebo tématu s pohrdáním či odporem mimikou a gesty, bez jediného tvrzení | Evaluační podmiňování a emoční nákaza ve skupině |
-
+| EA | Technika | Shrnutí | Primární exploitace |
+|----|----------|---------|---------------------|
+{% for t in cat.families["1.5"] %}| **[{{ t.code }}](@/kompendium/techniques/{{ t.slug }}.md)** | {{ t.name }} | {{ t.summary }} | {{ t.exploitation | default(value="") }} |
+{% endfor %}
 **Detail EA-1.5.1 (Strategická proxemika)**: Systematická manipulace s interpersonálním prostorem k indukci specifických kognitivních efektů včetně tendence k souhlasu nebo kritickému rozpojení. Operační modus exploituje automatické psychologické a kognitivní efekty asociované s fyzickou proximitou a distancí. Fenomenologicky: subtilní somatický diskomfort nebo afiliace, která je podvědomě atribuována diskutovaným propozicím spíše než proxemické dynamice. Rizikové kontexty: tutoriály, malé skupinové diskuse, akademické konzultace. Neutralizace: vědomé monitorování vlivu prostorové dynamiky, aktivní management interpersonálního prostoru, preference pro epistemické interakce v prostorově neutrálních konfiguracích.
 
 **Detail EA-1.5.2 (Dominantní tělesné hieroglyfy)**: Systematické využívání tělesné posturality, gestiky a faciální exprese k establishmentu neverbální epistemické hierarchie. Operační modus exploituje evoluční předispozice k interpretaci specifických tělesných konfigurací jako signálů dominance, jistoty a epistemické autority. Fenomenologicky: subtilní podvědomá inhibice kritických responsí a tendence k deferenci navzdory legitimním epistemickým pochybnostem. Rizikové kontexty: akademické debaty, panelové diskuse, pedagogické prezentace. Neutralizace: zaměření vizuální pozornosti na neutrální objekty spíše než dominantní hieroglyfy, temporální oddělení exposice neverbálním signálům od substantivní evaluace, vědomé zaujímání vlastní posturálně neutrální nebo konfidentní konfigurace.
@@ -194,6 +181,10 @@ Tyto techniky využívají prostorové a tělesné aspekty komunikace. Operují 
 
 Vedle základních technik kompendium identifikuje **kompoziční vzorce** — koherentní sekvence technik kombinovaných s temporální dynamikou. Vzorce nejsou nezávislé techniky, ale **strukturální architektury**, které organizují multiple techniky do koherentních manipulativních strategií.
 
+| EA | Vzorec | Shrnutí |
+|----|--------|---------|
+{% for t in cat.families["1.6"] %}| **[{{ t.code }}](@/kompendium/techniques/{{ t.slug }}.md)** | {{ t.name }} | {{ t.summary }} |
+{% endfor %}
 ### Vzorec „Guru a adept“
 
 **Deskripce**: Systematické etablování asymetrického epistemického vztahu charakterizovaného extrémní deferencí adepta k epistemické autoritě gurua a suspenzí kritických evaluačních procesů.

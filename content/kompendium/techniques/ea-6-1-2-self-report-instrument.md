@@ -49,8 +49,6 @@ Aplikace techniky je kontraindikována v následujících situacích:
 
 Nízká úroveň funkční gramotnosti, aktivní psychóza ovlivňující [reality testing](@/glossary/reality-testing.md), závažná kognitivní porucha doložená vyšetřením, nedostatečná jazyková kompetence v jazyce nástroje.
 
-Identifikace kontraindikací je integrální součástí každého iniciálního assessment a vyžaduje opakované re-evaluation v průběhu intervence — zejména v případě dynamicky se měnícího klinického obrazu.
-
 ## Implementační protokol
 
 Standardní implementace techniky probíhá v následujících strukturovaných krocích:

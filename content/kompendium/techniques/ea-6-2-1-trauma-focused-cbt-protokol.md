@@ -49,8 +49,6 @@ Aplikace techniky je kontraindikována v následujících situacích:
 
 Akutní krize bez stabilizace, závažná disociativní fragmentace, akutní suicidalita, akutní psychóza, závažná závislost bez detoxifikace.
 
-Identifikace kontraindikací je integrální součástí každého iniciálního assessment a vyžaduje opakované re-evaluation v průběhu intervence — zejména v případě dynamicky se měnícího klinického obrazu.
-
 ## Implementační protokol
 
 Vlastní literatura přístupu popisuje jeho skladbu následujícími komponentami:

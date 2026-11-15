@@ -49,8 +49,6 @@ Aplikace techniky je kontraindikována v následujících situacích:
 
 Aktivní bezpečnostní riziko ze strany blízkých (DV), informant je sám manipulátorem, klient nedal [informovaný souhlas](@/glossary/informed-consent.md) s kontaktováním třetích stran, zákonné překážky (mlčenlivost).
 
-Identifikace kontraindikací je integrální součástí každého iniciálního assessment a vyžaduje opakované re-evaluation v průběhu intervence — zejména v případě dynamicky se měnícího klinického obrazu.
-
 ## Implementační protokol
 
 Standardní implementace techniky probíhá v následujících strukturovaných krocích:

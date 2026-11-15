@@ -49,8 +49,6 @@ Aplikace techniky je kontraindikována v následujících situacích:
 
 Akutní krize bez stabilizace, klient explicitně odmítá vracení k minulosti, riziko abreakce bez kontejnmentu, akutní suicidalita.
 
-Identifikace kontraindikací je integrální součástí každého iniciálního assessment a vyžaduje opakované re-evaluation v průběhu intervence — zejména v případě dynamicky se měnícího klinického obrazu.
-
 ## Implementační protokol
 
 Standardní implementace techniky probíhá v následujících strukturovaných krocích:

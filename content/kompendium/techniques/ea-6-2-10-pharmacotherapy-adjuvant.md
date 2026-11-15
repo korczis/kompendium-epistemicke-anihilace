@@ -51,8 +51,6 @@ Aplikace techniky je kontraindikována v následujících situacích:
 
 Známé alergie, gravidita (relativní), těžká hepatální/renální dysfunkce, lékové interakce, klient odmítá farmakoterapii (jeho rozhodnutí je respektováno).
 
-Identifikace kontraindikací je integrální součástí každého iniciálního assessment a vyžaduje opakované re-evaluation v průběhu intervence — zejména v případě dynamicky se měnícího klinického obrazu.
-
 ## Implementační protokol
 
 Vlastní literatura přístupu popisuje jeho skladbu následujícími komponentami:

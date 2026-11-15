@@ -49,8 +49,6 @@ Aplikace techniky je kontraindikována v následujících situacích:
 
 Akutní bolestivé somatické onemocnění, klient odmítá tělesnou práci, kulturní kontext zakazující intimní tělesnou komunikaci, terapeut bez kvalifikace v tělesných přístupech.
 
-Identifikace kontraindikací je integrální součástí každého iniciálního assessment a vyžaduje opakované re-evaluation v průběhu intervence — zejména v případě dynamicky se měnícího klinického obrazu.
-
 ## Implementační protokol
 
 Vlastní literatura přístupu popisuje jeho skladbu následujícími komponentami:

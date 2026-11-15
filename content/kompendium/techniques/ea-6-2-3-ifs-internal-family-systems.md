@@ -49,8 +49,6 @@ Aplikace techniky je kontraindikována v následujících situacích:
 
 Akutní psychóza s narušeným reality testingem, klient odmítá konceptualizaci 'partů', kulturní/náboženský kontext kde 'parts' jazyk je problematický.
 
-Identifikace kontraindikací je integrální součástí každého iniciálního assessment a vyžaduje opakované re-evaluation v průběhu intervence — zejména v případě dynamicky se měnícího klinického obrazu.
-
 ## Implementační protokol
 
 Vlastní literatura přístupu popisuje jeho skladbu následujícími komponentami:

@@ -49,8 +49,6 @@ Aplikace techniky je kontraindikována v následujících situacích:
 
 Akutní psychóza, klient odmítá strukturovaný skill-based přístup, závažná somatická kontraindikace TIPP (kardiovaskulární onemocnění).
 
-Identifikace kontraindikací je integrální součástí každého iniciálního assessment a vyžaduje opakované re-evaluation v průběhu intervence — zejména v případě dynamicky se měnícího klinického obrazu.
-
 ## Implementační protokol
 
 Vlastní literatura přístupu popisuje jeho skladbu následujícími komponentami:

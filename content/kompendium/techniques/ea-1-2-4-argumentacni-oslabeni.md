@@ -1,5 +1,6 @@
 +++
-title = "EA-1.2.1 Argumentační oslabení"
+title = "EA-1.2.4 Argumentační oslabení"
+aliases = ["/kompendium/techniques/ea-1-2-4-argumentacni-oslabeni/"]
 weight = 100
 description = "Vzorec, v němž se cizí argument posuzuje v nejslabší možné podobě a jeho vyvrácení se vydává za vyvrácení celé pozice. Znaky, odlišení, obrana."
 
@@ -8,8 +9,8 @@ tags = ["kompendium", "techniques", "ea-1-2", "argumentace", "evaluace"]
 
 [extra]
 category = "kompendium-technique"
-related_terms = ["ea-1-2-1-falesne-dilema", "ea-1-2-2-falesna-ekvivalence", "ea-2-3-3-quote-mining", "ea-2-3-2-context-collapse", "ea-1-3-2-sokratovska-past", "ea-1-2-2-memorni-rekonstrukce"]
-ea_code = "EA-1.2.1"
+related_terms = ["ea-1-2-1-falesne-dilema", "ea-1-2-2-falesna-ekvivalence", "ea-2-3-3-quote-mining", "ea-2-3-2-context-collapse", "ea-1-3-6-sokratovska-past", "ea-1-2-5-memorni-rekonstrukce"]
+ea_code = "EA-1.2.4"
 ea_category = "1. Akademické techniky"
 ea_subcategory = "1.2 Narušení procesů evaluace a integrace"
 parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
@@ -18,11 +19,11 @@ date_created = "2026-05-03"
 date_modified = "2026-11-10"
 +++
 
-# EA-1.2.1 Argumentační oslabení
+# EA-1.2.4 Argumentační oslabení
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-1.2.1` (sdílí kód s [falešným dilematem](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md)) |
+| **EA kód** | `EA-1.2.4` |
 | **Kategorie** | 1. Akademické techniky |
 | **Subkategorie** | 1.2 Narušení procesů evaluace a integrace |
 | **Riziková úroveň** | Střední; v institucionálním hodnocení vysoká |
@@ -176,7 +177,7 @@ písemné doplnění zápisu a vyžádání hodnocení podle textu.
 
 - Často se kombinuje s [falešným dilematem](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md):
   oslabená verze se postaví jako jediná alternativa k pozici kritika.
-- Připravuje [sokratovskou past](@/kompendium/techniques/ea-1-3-2-sokratovska-past.md),
+- Připravuje [sokratovskou past](@/kompendium/techniques/ea-1-3-6-sokratovska-past.md),
   v níž se oslabená verze vkládá do úst samotnému autorovi.
 - V mediálním prostředí přechází v [klipové vytržení](@/kompendium/techniques/ea-2-3-1-clip-takeout.md)
   a [expertní disinflaci](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md).
@@ -194,7 +195,7 @@ písemné doplnění zápisu a vyžádání hodnocení podle textu.
   subkategorie; zúžení alternativ.
 - [EA-1.2.2 Falešná ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md)
   – zkreslení váhy pozic opačným směrem.
-- [EA-1.3.2 Sokratovská past](@/kompendium/techniques/ea-1-3-2-sokratovska-past.md) –
+- [EA-1.3.6 Sokratovská past](@/kompendium/techniques/ea-1-3-6-sokratovska-past.md) –
   oslabená verze vložená do úst autorovi.
 
 **Mediální a institucionální podoby**

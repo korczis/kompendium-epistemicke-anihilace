@@ -17,7 +17,7 @@ access_level = "L3-L4"
 
 # Kapitola 8 — Hypertransformativní protokoly
 
-> 🚨 Kapitola popisuje 30 ultramárních technik ([EA-5.3.1](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md) a další) operujících na rovině [identity poznávajícího subjektu](@/glossary/epistemicka-alienace.md). Materiály vyžadují IRB autorizaci a etickou supervizi. Veřejně dostupné jsou výhradně kompaktní taxonomické popisy s 60–100 slovními deskripcemi — operační detaily, plné fenomenologické profily a rekonstruktivní protokoly jsou v restriktivních L4 přílohách. Plné per-technique články pro EA-5.3.* jsou v přípravné fázi a publikovány budou až po dokončení etické supervize.
+> 🚨 Kapitola popisuje 30 ultramárních technik ([EA-5.3.1](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md) a další) operujících na rovině [identity poznávajícího subjektu](@/glossary/epistemicka-alienace.md). Materiály vyžadují IRB autorizaci a etickou supervizi. Kniha popisuje techniky kompaktní taxonomickou deskripcí; operační detaily, plné fenomenologické profily ani rekonstruktivní protokoly neobsahuje. Plné per-technique články pro EA-5.3.* jsou v přípravné fázi a publikovány budou až po dokončení etické supervize.
 
 ## Pozice kapitoly
 
@@ -139,7 +139,7 @@ Klinik musí rozlišit syndromový obraz EA-5.3.* od:
 
 Jelikož techniky této kapitoly mohou indukovat klinické stavy připomínající **disociační poruchy identity**, jsou regulovány nejstriktnějším protokolem v rámci sekce 05:
 
-- **Operační detaily L4-restriktivní** — plné protokoly nejsou veřejně dostupné a budou publikovány až po dokončení etické supervize.
+- **Bez operačních detailů** — plné protokoly kniha neobsahuje; aplikace popsaného vyžaduje IRB schválení a etickou supervizi.
 - **IRB povinné** — žádný výzkum této domény nesmí probíhat mimo institucionálně-supervidovaný kontext.
 - **Klinický backup povinný** — každý výzkum v této doméně vyžaduje klinickou supervizi a dostupnou krizovou podporu. Rozsah a dostupnost této podpory kniha neurčuje; dřívější verze tu měla pevný požadavek bez zdroje a o skutečných podmínkách rozhoduje etická komise pracoviště.
 - **Per-technique články v přípravě** — plné hloubkové články pro EA-5.3.* budou publikovány postupně po klinické verifikaci rekonstruktivních protokolů.

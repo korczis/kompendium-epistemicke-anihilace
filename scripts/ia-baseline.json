@@ -688,7 +688,7 @@
  ],
  "content/kompendium/05-ultramari-techniky/kapitola-6.md": [
   "bullets:16",
-  "citations:23"
+  "citations:22"
  ],
  "content/kompendium/05-ultramari-techniky/kapitola-7.md": [
   "bullets:16",
@@ -2563,10 +2563,6 @@
   "bullets:11",
   "citations:7"
  ],
- "content/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md": [
-  "bullets:21",
-  "citations:11"
- ],
  "content/kompendium/techniques/ea-1-2-1-falesne-dilema.md": [
   "bullets:15",
   "citations:5"
@@ -2575,23 +2571,19 @@
   "bullets:14",
   "citations:10"
  ],
- "content/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce.md": [
-  "bullets:11",
-  "citations:10"
- ],
  "content/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md": [
   "citations:8"
  ],
- "content/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md": [
-  "citations:5"
+ "content/kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md": [
+  "bullets:21",
+  "citations:11"
  ],
- "content/kompendium/techniques/ea-1-3-2-pseudo-empiricka-validace.md": [
+ "content/kompendium/techniques/ea-1-2-5-memorni-rekonstrukce.md": [
   "bullets:11",
   "citations:10"
  ],
- "content/kompendium/techniques/ea-1-3-2-sokratovska-past.md": [
-  "bullets:19",
-  "citations:8"
+ "content/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md": [
+  "citations:5"
  ],
  "content/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md": [
   "bullets:25",
@@ -2605,9 +2597,13 @@
   "bullets:17",
   "citations:7"
  ],
- "content/kompendium/techniques/ea-1-4-1-latentni-podbarveni.md": [
-  "bullets:16",
-  "citations:9"
+ "content/kompendium/techniques/ea-1-3-5-pseudo-empiricka-validace.md": [
+  "bullets:11",
+  "citations:10"
+ ],
+ "content/kompendium/techniques/ea-1-3-6-sokratovska-past.md": [
+  "bullets:19",
+  "citations:8"
  ],
  "content/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md": [
   "citations:1"
@@ -2616,8 +2612,8 @@
   "bullets:17",
   "citations:8"
  ],
- "content/kompendium/techniques/ea-1-5-1-emocni-podbarveni.md": [
-  "bullets:14",
+ "content/kompendium/techniques/ea-1-4-3-latentni-podbarveni.md": [
+  "bullets:16",
   "citations:9"
  ],
  "content/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md": [
@@ -2626,6 +2622,10 @@
  "content/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md": [
   "bullets:26",
   "citations:7"
+ ],
+ "content/kompendium/techniques/ea-1-5-3-emocni-podbarveni.md": [
+  "bullets:14",
+  "citations:9"
  ],
  "content/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md": [
   "bullets:13",

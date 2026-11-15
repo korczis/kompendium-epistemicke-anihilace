@@ -1,7 +1,7 @@
 {
  "files": {
   "family-ea-1.svg": {
-   "sha256": "37beec63053d85bd9821923964c12155cb9f24ba1aa5de0649f1a74800652785"
+   "sha256": "4a6f698208122d1994389f5850d48e83ca511100b91db919d96d62bab7f63408"
   },
   "family-ea-2.svg": {
    "sha256": "a9a597341e90af4d9e2627d3efaa256b198d825a36d0fa0b3a988fad2d806cf5"
@@ -293,8 +293,8 @@
   },
   "og-kompendium-techniques.png": {
    "height": 630,
-   "sha256": "443ecdd0e5a30d8eaca5e46b630ffc6fd315ce4213296dff1a676d70b8c5ddc7",
-   "source_sha256": "d72fc0ad7ae2b18ae54f822f04292c2e00cd3b6397ef7de1f2cf9993d4343fa6",
+   "sha256": "c2f1936b45c2937698737fd4063f1efd608203df1840a17dd273d6b9418f13e4",
+   "source_sha256": "1122402b5ff4f8d3e15ddbd3e801d362069857894483c06d35d52125df85e2bb",
    "width": 1200
   },
   "og-kompendium-visualizations.png": {
@@ -305,8 +305,8 @@
   },
   "og-kompendium.png": {
    "height": 630,
-   "sha256": "34195c64da8183c7fa725eff42b8c3e40d6acd8972dc6685649736d68f4860a4",
-   "source_sha256": "8040d9fbd4129141585a8e6b0efe16c0ac09fed516bf29b6c65cb5f25c4f79c0",
+   "sha256": "2be028f4ae1f7b88febcaf952e99fd23c99ee69f246976b883bbce27c5015078",
+   "source_sha256": "42b63dd6e20947537fac7c709e642b743316fdb50be791b51e1e837e4f1e456a",
    "width": 1200
   },
   "og-philosophy.png": {
@@ -448,13 +448,13 @@
    "sha256": "39a5f0782f5dfe6cc9cd859de9e24bd0119a7d873173a27ef397f753a1ae33e3"
   },
   "section-kompendium-techniques.svg": {
-   "sha256": "a37db19c240876a5f08c32e7b06d363685dfc20b4ba4d1bac0baa83ee5ff813d"
+   "sha256": "0af68fceb14e768785547ce1e45566605ec4203b25e7e01af05461bc500bab79"
   },
   "section-kompendium-visualizations.svg": {
    "sha256": "7cd757b434f79d93ff190d7cbfa0ca8674801010963f0c75a96d06a0b0bf249a"
   },
   "section-kompendium.svg": {
-   "sha256": "2e2a99d767aed44a1cc09171948b1550b80e592ce9542eb36f07fa9b75f37535"
+   "sha256": "d784a8b1a48e70cceffd190e93428133d8aecccb080926a98e44d4c962731a85"
   },
   "section-philosophy.svg": {
    "sha256": "7e4f9ec39ff4b5f686d53585ad126c9f17ca0b9731f6606bc3f1bc8ba0941cca"

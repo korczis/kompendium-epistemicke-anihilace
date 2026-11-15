@@ -91,7 +91,7 @@ posiluje přesvědčení (Oreskes a Conway, 2010). Kniha tento průběh vede jak
 migraci](@/kompendium/techniques/ea-5-1-26-trans-paradigmaticka-migrace.md).
 
 Dílčími vzorci jsou [pseudo-empirická
-validace](@/kompendium/techniques/ea-1-3-2-pseudo-empiricka-validace.md), tedy zdání
+validace](@/kompendium/techniques/ea-1-3-5-pseudo-empiricka-validace.md), tedy zdání
 empirického doložení, [vytvoření
 pseudo-konsenzu](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md) a [iluzorní
 komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md). Všechny tři napodobují
@@ -215,7 +215,7 @@ sousední rodinu technik (Pigliucci a Boudry, 2013).
 **Techniky**
 
 - [EA-5.1.26 Trans-paradigmatická migrace](@/kompendium/techniques/ea-5-1-26-trans-paradigmaticka-migrace.md) – přechod do rámce s měkčími kritérii.
-- [EA-1.3.2 Pseudo-empirická validace](@/kompendium/techniques/ea-1-3-2-pseudo-empiricka-validace.md) – zdání empirického doložení.
+- [EA-1.3.5 Pseudo-empirická validace](@/kompendium/techniques/ea-1-3-5-pseudo-empiricka-validace.md) – zdání empirického doložení.
 - [EA-1.2.3 Iluzorní komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) – nesrozumitelnost jako znak hloubky.
 
 **Případy a obrana**

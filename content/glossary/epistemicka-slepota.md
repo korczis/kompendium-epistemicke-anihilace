@@ -76,8 +76,8 @@ Strukturálně má slepota **tři zdroje**:
    viz [epistemická monokultura](@/glossary/epistemicka-monokultura.md).
 
 Slepotu prohlubují techniky, které útočí na důvěru ve vlastní vzpomínky a vnímání
-([gaslighting](@/glossary/gaslighting.md), [EA-1.2.2 Memorní
-rekonstrukce](@/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce.md)) i ty, které člověka
+([gaslighting](@/glossary/gaslighting.md), [EA-1.2.5 Memorní
+rekonstrukce](@/kompendium/techniques/ea-1-2-5-memorni-rekonstrukce.md)) i ty, které člověka
 učí považovat pochybnost za selhání ([Thought stopping](@/glossary/thought-stopping.md)).
 
 ## Odlišení

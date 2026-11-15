@@ -9,7 +9,7 @@ tags = ["kompendium", "techniques", "ea-1-3-3", "tematicka-diverze", "red-herrin
 categories = ["academic"]
 
 [extra]
-related_terms = ["ea-1-3-2-strategic-reinterpretation", "ea-1-3-2-strategicka-reinterpretace", "ea-1-3-4-indukovana-pochybnost", "ea-1-4-1-latentni-podbarveni"]
+related_terms = ["ea-1-3-2-strategic-reinterpretation", "ea-1-3-2-strategicka-reinterpretace", "ea-1-3-4-indukovana-pochybnost", "ea-1-4-3-latentni-podbarveni"]
 ea_code = "EA-1.3.3"
 ea_category = "1. Akademické techniky"
 ea_subcategory = "1.3 Narušení procesů revize a falsifikace"

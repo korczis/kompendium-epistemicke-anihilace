@@ -37,9 +37,9 @@ catalog_depth = 0
 catalog_ancestors = []
 catalog_related = ["potvrzeni-dusledku", "odvolani-na-autoritu", "odvolani-na-dusledky", "kluzky-svah", "pravidlo-argumentacniho-schematu", "toulminuv-model", "bayesovske-pojeti-klamu"]
 catalog_related_declared = ["pravidlo-argumentacniho-schematu", "odvolani-na-autoritu", "kluzky-svah", "odvolani-na-dusledky", "toulminuv-model", "bayesovske-pojeti-klamu"]
-catalog_kompendium = ["kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md", "kompendium/forensic-legal/_index.md", "kompendium/07-teoreticke-reflexe/socialni-epistemologie.md"]
+catalog_kompendium = ["kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md", "kompendium/forensic-legal/_index.md", "kompendium/07-teoreticke-reflexe/socialni-epistemologie.md"]
 catalog_canonical = ""
-catalog_links_prose = ["kompendium/argumentacni-fauly/predpoklady-argumentu/kluzky-svah.md", "kompendium/argumentacni-fauly/relevance/ad-hominem.md", "kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-argumentacniho-schematu.md", "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md"]
+catalog_links_prose = ["kompendium/argumentacni-fauly/predpoklady-argumentu/kluzky-svah.md", "kompendium/argumentacni-fauly/relevance/ad-hominem.md", "kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-argumentacniho-schematu.md", "kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md"]
 catalog_prev = "pravidlo-uzivani-jazyka"
 catalog_next = "toulminuv-model"
 catalog_position = 11
@@ -184,7 +184,7 @@ odbude útokem na tazatele, břemeno zůstává na ní a argument zůstává ned
 Grootendorst 2004). V institucích, kde se rozhoduje na základě posudků, pomáhá kritické otázky
 k nejčastějším schématům zapsat předem do postupu hodnocení, aby jejich položení nebylo
 vykládáno jako osobní nedůvěra. Taková praxe chrání i proti tomu, co kompendium popisuje jako
-[argumentační oslabení](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md): když jsou
+[argumentační oslabení](@/kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md): když jsou
 otázky součástí postupu, nelze je odbýt jako projev nepřátelství. Konečně platí, že kritické
 otázky slouží oběma stranám. Kdo je klade jen cizím argumentům a nikdy vlastním, mění
 nástroj kritické diskuse v další taktiku sporu.
@@ -220,7 +220,7 @@ nástroj kritické diskuse v další taktiku sporu.
 
 **V kompendiu**
 
-- [EA-1.2.1 Argumentační oslabení](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.2.4 Argumentační oslabení](@/kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 - [Forenzní a právní rozměr EA](@/kompendium/forensic-legal/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 - [7.3 Sociální epistemologie EA — Goldman, Fricker, Longino, Anderson](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 

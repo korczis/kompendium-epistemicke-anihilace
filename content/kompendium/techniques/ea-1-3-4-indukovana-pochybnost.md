@@ -8,7 +8,7 @@ tags = ["kompendium", "techniques", "ea-1-3", "pochybnost", "dezinformace"]
 
 [extra]
 category = "kompendium-technique"
-related_terms = ["ea-1-3-1-imunizace-proti-falsifikaci", "ea-1-3-2-pseudo-empiricka-validace", "ea-1-2-3-iluzorni-komplexita", "ea-2-5-3-self-doubt-cultivation", "ea-2-5-8-recursive-doubt-spiral", "ea-4-1-gaslighting"]
+related_terms = ["ea-1-3-1-imunizace-proti-falsifikaci", "ea-1-3-5-pseudo-empiricka-validace", "ea-1-2-3-iluzorni-komplexita", "ea-2-5-3-self-doubt-cultivation", "ea-2-5-8-recursive-doubt-spiral", "ea-4-1-gaslighting"]
 ea_code = "EA-1.3.4"
 ea_category = "1. Akademické techniky"
 ea_subcategory = "1.3 Narušení procesů revize a falsifikace"
@@ -176,7 +176,7 @@ a [pedagogický gaslighting](@/kompendium/case-studies/03-pedagogicke-gaslightin
 
 - [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)
   – opačná strana: vlastní tvrzení chráněné před pochybností.
-- [EA-1.3.2 Pseudoempirická validace](@/kompendium/techniques/ea-1-3-2-pseudo-empiricka-validace.md)
+- [EA-1.3.5 Pseudoempirická validace](@/kompendium/techniques/ea-1-3-5-pseudo-empiricka-validace.md)
   – vyrobená evidence pro alternativu.
 - [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) –
   odvedení pozornosti od jádra sporu.
@@ -185,7 +185,7 @@ a [pedagogický gaslighting](@/kompendium/case-studies/03-pedagogicke-gaslightin
 
 - [EA-4.1 Gaslighting](@/kompendium/techniques/ea-4-1-gaslighting.md) – pochybnost
   o vlastním vnímání ve vztahu.
-- [EA-1.2.2 Paměťová rekonstrukce](@/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce.md)
+- [EA-1.2.5 Paměťová rekonstrukce](@/kompendium/techniques/ea-1-2-5-memorni-rekonstrukce.md)
   – pochybnost o vlastní minulosti.
 
 **Pojmy**

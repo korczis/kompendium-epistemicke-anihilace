@@ -79,7 +79,7 @@ risk = "nizke"
 broader = "pragma-dialektika"
 related = ["slameny-panak", "vytrzeni-z-kontextu", "motte-and-bailey", "princip-shovivavosti", "ocelovy-panak"]
 kompendium = [
-  "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md",
+  "kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md",
   "kompendium/techniques/ea-2-3-3-quote-mining.md",
   "kompendium/techniques/ea-2-3-10-viralni-misrepresentation.md",
 ]
@@ -143,7 +143,7 @@ broader = "pragma-dialektika"
 related = ["slameny-panak", "jen-se-ptam", "cteni-myslenek", "vyhybava-slova", "princip-shovivavosti"]
 kompendium = [
   "kompendium/techniques/ea-2-3-2-context-collapse.md",
-  "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md",
+  "kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md",
 ]
 review = "agent"
 

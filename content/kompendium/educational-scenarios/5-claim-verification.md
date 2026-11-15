@@ -32,7 +32,7 @@ Dvojice dostanou snímek obrazovky příspěvku, který koluje na sociálních s
 
 ## Signály, kterých si všimnout
 
-Prvním signálem je chybějící odkaz, tedy „vědci zjistili“ bez jména, časopisu nebo roku, což znemožňuje jakékoli ověření a je podle Goldacreho (2008) nejčastějším rysem nepodložených zdravotních tvrzení. Druhým je posun kauzality, kdy se „souvisí s“ mění na „způsobuje“, a třetím posun populace, kdy se výsledek z úzké skupiny vztahuje na všechny; oba posuny patří k doloženým typům zkreslení v řetězci od studie k titulku (Sumner a kol., 2014). Čtvrtým je relativní číslo bez absolutního, tedy „dvojnásobek“ bez výchozí hodnoty, které podle Gigerenzera a kol. (2007) systematicky nadhodnocuje vnímané riziko. Pátým je nepřiměřená jistota, kdy se u jediné studie tvrdí „prokázali“; srovnej [nepřiměřená sebejistota](@/kompendium/detection-signatures/9-behavioral-disproportionate-confidence.md) a obecnou nespolehlivost jednotlivého výsledku (Ioannidis, 2005). Šestým je rozšiřování rozsahu, kdy každé převyprávění tvrdí trochu víc; srovnej [posun rozsahu](@/kompendium/detection-signatures/7-linguistic-scope-creep.md). Sedmým je pseudo-empirický nátěr, grafy a čísla bez metodologie, viz [EA-1.3.2 Pseudo-empirická validace](@/kompendium/techniques/ea-1-3-2-pseudo-empiricka-validace.md).
+Prvním signálem je chybějící odkaz, tedy „vědci zjistili“ bez jména, časopisu nebo roku, což znemožňuje jakékoli ověření a je podle Goldacreho (2008) nejčastějším rysem nepodložených zdravotních tvrzení. Druhým je posun kauzality, kdy se „souvisí s“ mění na „způsobuje“, a třetím posun populace, kdy se výsledek z úzké skupiny vztahuje na všechny; oba posuny patří k doloženým typům zkreslení v řetězci od studie k titulku (Sumner a kol., 2014). Čtvrtým je relativní číslo bez absolutního, tedy „dvojnásobek“ bez výchozí hodnoty, které podle Gigerenzera a kol. (2007) systematicky nadhodnocuje vnímané riziko. Pátým je nepřiměřená jistota, kdy se u jediné studie tvrdí „prokázali“; srovnej [nepřiměřená sebejistota](@/kompendium/detection-signatures/9-behavioral-disproportionate-confidence.md) a obecnou nespolehlivost jednotlivého výsledku (Ioannidis, 2005). Šestým je rozšiřování rozsahu, kdy každé převyprávění tvrdí trochu víc; srovnej [posun rozsahu](@/kompendium/detection-signatures/7-linguistic-scope-creep.md). Sedmým je pseudo-empirický nátěr, grafy a čísla bez metodologie, viz [EA-1.3.5 Pseudo-empirická validace](@/kompendium/techniques/ea-1-3-5-pseudo-empiricka-validace.md).
 
 ## Diskusní otázky
 
@@ -72,7 +72,7 @@ Jako přenos lze zadat zmapování skutečného virálního tvrzení o výzkumu 
 
 **Techniky**
 
-- [EA-1.3.2 Pseudo-empirická validace](@/kompendium/techniques/ea-1-3-2-pseudo-empiricka-validace.md) – vědecký vzhled bez vědecké opory.
+- [EA-1.3.5 Pseudo-empirická validace](@/kompendium/techniques/ea-1-3-5-pseudo-empiricka-validace.md) – vědecký vzhled bez vědecké opory.
 - [EA-9.1.8 LLM Confabulation Amplification](@/kompendium/techniques/ea-9-1-8-llm-confabulation-amplification.md) – vymyšlené zdroje v oběhu.
 
 **Sebe-obrana**

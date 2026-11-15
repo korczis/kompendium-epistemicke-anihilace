@@ -68,7 +68,7 @@ odpovědnost za ověření svědectví dítěte (Smith a Freyd, 2014).
 ## 4. Manifestované EA techniky
 
 Základ tvořil [EA-4.1 Gaslighting](@/kompendium/techniques/ea-4-1-gaslighting.md), tedy soustavné
-popírání ověřitelných událostí, a [EA-1.2.2 Paměťová rekonstrukce](@/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce.md),
+popírání ověřitelných událostí, a [EA-1.2.5 Paměťová rekonstrukce](@/kompendium/techniques/ea-1-2-5-memorni-rekonstrukce.md),
 nabízení alternativní verze minulosti, která se opakováním stává „oficiální“. Loftus (2005)
 shrnuje desítky let výzkumu, podle něhož lze paměť na události změnit dodatečně podanou
 zavádějící informací; u dětí je navíc dobře doloženo, že sugestivní otázky autority mohou

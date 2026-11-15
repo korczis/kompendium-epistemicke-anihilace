@@ -133,6 +133,15 @@ Requirements (id: what is checked):
                    sentence in the second cell ("| **Mechanismus** | … |") stays charged. ADR 0013.
                    Remedy: rewrite the row per page, or move a genuine shared field to a template.
                    NEVER baselined
+  duplicate-ea-code  one EA code names one technique: two technique pages (content/kompendium/
+                   techniques/) whose extra.ea_code is the same are both refused. A quick-reference
+                   card or other page carrying a technique's code is about that technique and is not
+                   judged, nor is the extra.ea_codes list a page cites. Remedy: the page the chapter
+                   catalogue table names keeps the code; a page describing the same technique is
+                   merged into it (Zola alias, links repointed); a distinct technique takes the next
+                   free code of its family, with its title, links and catalogue row. Pending zero at
+                   the two pages of EA-5.3.27 (ego-skeletalni-redukce, autobiografi-self-fragmentace),
+                   whose chapter row names neither; NEVER baselined
   access-level-row  no hand-written access level: a "| **Přístupová úroveň** | … |" row in content,
                    or the same claim as prose ("Přístupová úroveň L3.", "**Přístupová úroveň
                    L3–L4**:", "Přístupová úroveň L2 (rozšířený přístup) —"), with or without a
@@ -269,7 +278,7 @@ NEVER_BASELINED = {"placeholder", "technique-page", "howto", "drug-dose", "templ
                    "clinical-figure", "fabricated-citation", "legitimate-indication",
                    "code-range", "chrome-trailer",
                    "detail", "weak-link",
-                   "duplicate-passage", "duplicate-table", "access-level-row",
+                   "duplicate-passage", "duplicate-table", "access-level-row", "duplicate-ea-code",
                    "drug-name", "authority-without-source",
                    "platform-section", "relative-link", "platform-label", "platform-frontmatter",
                    "philosophy-frame"}
@@ -288,6 +297,8 @@ PENDING_ZERO = {"placeholder": 0, "technique-page": 0, "howto": 0, "drug-dose": 
                 "duplicate-passage": 281,
                 "duplicate-table": 249,  # measured on merged main c8394d3e after Přístupová úroveň removal; bold-label→short-value exempt
                 "access-level-row": 0,  # the row is derived from extra.access_level; 0 after removal
+                # the one known case: EA-5.3.27 on two pages, its kapitola-8 row naming neither
+                "duplicate-ea-code": 2,
                 # safety, ADR 0013/0014: both reach 0 after the content lane's waves
                 "drug-name": 1, "authority-without-source": 0}  # 0 → never baselined (lands at 0 after 2e's slice)
 BOLD_CANDIDATE_PAGES = 3  # a bold phrase on this many pages is a term and needs its own page
@@ -361,6 +372,8 @@ def violations(page: dict) -> list:
         found.append("duplicate-table")
     if page.get("access_level_row") or page.get("access_level_prose"):
         found.append("access-level-row")
+    if page.get("duplicate_ea_code"):
+        found.append("duplicate-ea-code")
     if page.get("misnamed_techniques"):
         found.append("technique-name")
     if page["bold_unlinked"]:
@@ -396,6 +409,9 @@ def explain(page: dict) -> dict:
                              else "hand-written Přístupová úroveň L<n> in prose — delete the level"
                                   " claim, keep the rest of the sentence"
                              if page.get("access_level_prose") else ""),
+        "duplicate-ea-code": (f"{page['duplicate_ea_code'][0]} is also the ea_code of "
+                              + ", ".join(page["duplicate_ea_code"][1])
+                              if page.get("duplicate_ea_code") else ""),
         "drug-name": ", ".join(page.get("drug_name", [])),
         "authority-without-source": "; ".join(f"({g})" for g in page.get("pasted_authorities", [])),
         "fabricated-citation": "; ".join(page.get("fabricated_citations", [])[:2]),
@@ -1016,6 +1032,19 @@ def analyse(pages: list) -> dict:
     for page in pages:
         page["duplicate_passages"] = sorted(b for b, paths in dup_shared.items()
                                             if page["path"] in paths)
+    # duplicate-ea-code: one EA code, one technique page. Only the technique pages' own
+    # extra.ea_code counts; a card or page citing the code is about the technique, not another one.
+    by_code = collections.defaultdict(set)
+    for page in pages:
+        if page["path"].startswith("kompendium/techniques/") and not page["is_index"]:
+            code = str((page.get("extra") or {}).get("ea_code") or "").strip()
+            if code:
+                by_code[code].add(page["path"])
+    for page in pages:
+        code = str((page.get("extra") or {}).get("ea_code") or "").strip()
+        others = sorted(by_code.get(code, set()) - {page["path"]})
+        page["duplicate_ea_code"] = ((code, others) if others and page["path"] in by_code.get(code, set())
+                                     else None)
     # duplicate-table: a table data row re-pasted byte-identical on DUP_PAGES+ pages (tables are
     # outside passage_blocks' reach). Same threshold and normalisation as the prose gate.
     tab_shared = {r: paths for r, paths in tables.items() if len(paths) >= DUP_PAGES}

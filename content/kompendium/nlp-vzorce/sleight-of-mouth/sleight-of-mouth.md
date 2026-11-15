@@ -37,9 +37,9 @@ catalog_depth = 0
 catalog_ancestors = []
 catalog_related = ["pricina-a-nasledek", "komplexni-ekvivalence", "struktura-presvedceni-som", "reframing", "obsahovy-reframing", "cyklus-zmeny-presvedceni", "myslenkovy-virus", "obrana-proti-vlivovym-vzorcum"]
 catalog_related_declared = ["struktura-presvedceni-som", "reframing", "obsahovy-reframing", "komplexni-ekvivalence", "pricina-a-nasledek", "obrana-proti-vlivovym-vzorcum"]
-catalog_kompendium = ["kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md", "kompendium/06-obrana/_index.md"]
+catalog_kompendium = ["kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md", "kompendium/06-obrana/_index.md"]
 catalog_canonical = ""
-catalog_links_prose = ["kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-protipriklad.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-redefinice.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-zamer.md", "kompendium/nlp-vzorce/sleight-of-mouth/struktura-presvedceni-som.md", "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
+catalog_links_prose = ["kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-protipriklad.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-redefinice.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-zamer.md", "kompendium/nlp-vzorce/sleight-of-mouth/struktura-presvedceni-som.md", "kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
 catalog_prev = ""
 catalog_next = "struktura-presvedceni-som"
 catalog_position = 1
@@ -146,7 +146,7 @@ jen jednu přijatelnou odpověď. A rozhovor končí tím, že původní otázka
 nezodpovězena, i když posluchač má pocit, že byla „vyřešena“. Tyto znaky se překrývají s
 technikami, které kompendium popisuje jako
 [strategickou reinterpretaci](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md)
-a [argumentační oslabení](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md). V
+a [argumentační oslabení](@/kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md). V
 uzavřených skupinách se podobné pohyby stávají součástí jazyka skupiny, kterým se
 pochybnost člena obrací v jeho vlastní selhání (Lifton 1961).
 
@@ -257,7 +257,7 @@ každý nový rámec má být nabídkou, kterou lze bez následků odmítnout (M
 **V kompendiu**
 
 - [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
-- [EA-1.2.1 Argumentační oslabení](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.2.4 Argumentační oslabení](@/kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 - [Obrana a kalibrace: obrana proti epistemické anihilaci](@/kompendium/06-obrana/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**

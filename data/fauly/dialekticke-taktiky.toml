@@ -232,7 +232,7 @@ related = ["genetic-klam", "otraveni-studny", "kafkapast", "som-meta-ramec", "mo
 kompendium = [
   "kompendium/techniques/ea-2-1-3-credentialing-attack.md",
   "kompendium/03-zakladni-kategorie/kapitola-2.md",
-  "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md",
+  "kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md",
   "kompendium/07-teoreticke-reflexe/socialni-epistemologie.md",
 ]
 review = "agent"

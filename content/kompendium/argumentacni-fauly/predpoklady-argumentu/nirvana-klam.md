@@ -37,9 +37,9 @@ catalog_depth = 0
 catalog_ancestors = []
 catalog_related = ["odvolani-na-tradici", "falesna-utecha", "falesne-dilema", "posouvani-branek", "predstirana-starost"]
 catalog_related_declared = ["falesne-dilema", "posouvani-branek", "odvolani-na-tradici", "predstirana-starost"]
-catalog_kompendium = ["kompendium/03-zakladni-kategorie/scenar-h.md", "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md"]
+catalog_kompendium = ["kompendium/03-zakladni-kategorie/scenar-h.md", "kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md"]
 catalog_canonical = ""
-catalog_links_prose = ["kompendium/03-zakladni-kategorie/scenar-h.md", "kompendium/argumentacni-fauly/predpoklady-argumentu/posouvani-branek.md", "kompendium/argumentacni-fauly/teorie-argumentace/argumentacni-schemata.md", "kompendium/nlp-vzorce/reframing/kontrastni-ramec.md", "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md"]
+catalog_links_prose = ["kompendium/03-zakladni-kategorie/scenar-h.md", "kompendium/argumentacni-fauly/predpoklady-argumentu/posouvani-branek.md", "kompendium/argumentacni-fauly/teorie-argumentace/argumentacni-schemata.md", "kompendium/nlp-vzorce/reframing/kontrastni-ramec.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md"]
 catalog_prev = "presun-dukazniho-bremene"
 catalog_next = "argument-z-neuveritelnosti"
 catalog_position = 16
@@ -137,7 +137,7 @@ bude k dispozici lepší řešení“, bez určení, co by „lepší“ znamena
 Klamy odkladu, jak je katalogizoval Bentham, návrh nevyvracejí, ale odsouvají, a jejich
 užitek pro mluvčího proto nezávisí na tom, zda by námitka v diskusi obstála (Bentham 1824). V osobních a pracovních
 vztazích se klam projevuje jako soustavné hodnocení podle nesplnitelného ideálu, které
-kompendium popisuje u [argumentačního oslabení](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md),
+kompendium popisuje u [argumentačního oslabení](@/kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md),
 kde se cizí návrh poměřuje nejpřísnějším možným způsobem.
 
 ## Odlišení od platné argumentace
@@ -217,7 +217,7 @@ stavu.
 **V kompendiu**
 
 - [3.2.H Scénář H: Destruktivní 'konstruktivní' kritika](@/kompendium/03-zakladni-kategorie/scenar-h.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
-- [EA-1.2.1 Argumentační oslabení](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.2.4 Argumentační oslabení](@/kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 - [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**

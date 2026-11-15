@@ -10,7 +10,7 @@ tags = ["kompendium", "techniques", "ea-1-1-3", "terminologicka-mystifikace", "a
 categories = ["academic"]
 
 [extra]
-related_terms = ["ea-1-1-2", "ea-1-1-2-informacni-pretizeni", "ea-1-2-1-argumentacni-oslabeni", "ea-1-2-1-falesne-dilema"]
+related_terms = ["ea-1-1-2", "ea-1-1-2-informacni-pretizeni", "ea-1-2-4-argumentacni-oslabeni", "ea-1-2-1-falesne-dilema"]
 ea_code = "EA-1.1.3"
 ea_category = "1. Akademické techniky"
 ea_subcategory = "1.1 Narušení procesů akvizice poznání"

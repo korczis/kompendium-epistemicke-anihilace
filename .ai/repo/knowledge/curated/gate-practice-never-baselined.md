@@ -58,6 +58,11 @@ Instruments that misled the same sessions, and the reading that held:
 - This site's 404 page carries the full navigation, so a fetch of a wrong URL still "contains" the
   site's words. Guard every production check with the HTTP status (`curl -w '%{http_code}'`).
 - A run reads `queued` while its first job runs; read the jobs, not the run's label.
+- The GitHub API budget (5000 calls an hour) is shared by every session on the account, and
+  several watchers polling `gh` once a minute exhausted it (2026-11-15). A watcher's filter then
+  printed the 403 body where a failed job's name goes, so a rate limit read as a red build. Ask
+  git what git can answer (`git ls-remote` for heads, `merge-base --is-ancestor`), read a run's
+  verdict with one `gh` call per wake, and check the response has `.jobs` before judging it.
 - A renumbering verified only on its new addresses looked done: production served all six new
   codes at 200 while every old address returned 404, because each alias named the page's new path
   (c5200028, 2026-11-15). A move is verified in both directions: the new page at 200 and each old

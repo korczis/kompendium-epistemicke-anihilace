@@ -10,7 +10,7 @@ tags = ["kompendium", "techniques", "ea-1-2-3", "iluzorni-komplexita", "evaluace
 categories = ["academic"]
 
 [extra]
-related_terms = ["ea-1-2-2-falesna-ekvivalence", "ea-1-2-2-memorni-rekonstrukce", "ea-1-3-1-immunization-against-falsification", "ea-1-3-1-imunizace-proti-falsifikaci"]
+related_terms = ["ea-1-2-2-falesna-ekvivalence", "ea-1-2-5-memorni-rekonstrukce", "ea-1-3-1-immunization-against-falsification", "ea-1-3-1-imunizace-proti-falsifikaci"]
 ea_code = "EA-1.2.3"
 ea_category = "1. Akademické techniky"
 ea_subcategory = "1.2 Narušení procesů evaluace a integrace"
@@ -203,7 +203,7 @@ Intervence: Strukturovaná psychoeducation o **rozlišení** legitimní nuance v
 | Hraniční jev | Čím se od iluzorní komplexity liší |
 |---|---|
 | Skutečná komplexita | Náročnost odpovídá kausální distribuci relevance faktorů; osy sporu lze pojmenovat |
-| [EA-1.2.1](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md) Falešné dilema | Strukturálně inverzní: redukuje skutečně komplexní problém, místo aby jednoduchý nafukovalo |
+| [EA-1.2.4](@/kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md) Falešné dilema | Strukturálně inverzní: redukuje skutečně komplexní problém, místo aby jednoduchý nafukovalo |
 | EA-1.2.2 Falešná ekvivalence | Sourozenecká: inflouje paritu pozic, nikoli náročnost problému |
 
 ## Literatura

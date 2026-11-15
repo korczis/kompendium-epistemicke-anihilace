@@ -44,9 +44,9 @@ i odvedení pozornosti od tématu, které popisuje [EA-1.3.3 Tematická diverze]
 
 **Útoky na modus** ponechávají předmět, ale mění způsob, jímž se k němu člověk vztahuje.
 Vzpomínka zůstává, ale je provázena nejistotou; viz [EA-1.3.4 Indukovaná pochybnost](@/kompendium/techniques/ea-1-3-4-indukovana-pochybnost.md)
-a [EA-1.2.2 Paměťová rekonstrukce](@/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce.md).
+a [EA-1.2.5 Paměťová rekonstrukce](@/kompendium/techniques/ea-1-2-5-memorni-rekonstrukce.md).
 Vjem zůstává, ale je zabarven emocí, kterou do něj vložilo prostředí; viz
-[EA-1.4.1 Latentní podbarvení](@/kompendium/techniques/ea-1-4-1-latentni-podbarveni.md).
+[EA-1.4.3 Latentní podbarvení](@/kompendium/techniques/ea-1-4-3-latentni-podbarveni.md).
 
 **Útoky na horizont** jsou nejméně viditelné. Nemění, co člověk vidí ani jak si je jistý, ale
 mění souvislosti, v nichž se předmět dává – předpoklady, které se „rozumějí samy sebou“. Husserl

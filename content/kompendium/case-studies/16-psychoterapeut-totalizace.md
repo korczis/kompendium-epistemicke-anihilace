@@ -62,7 +62,7 @@ přestává rozlišovat mezi potřebami klienta a vlastními.
 
 Ústředním vzorcem byl [EA-1.6.1 Vzorec Guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md):
 terapeut se stal jediným, kdo „rozumí“ klientčině duši. S ním souvisela
-[EA-1.2.2 Paměťová rekonstrukce](@/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce.md),
+[EA-1.2.5 Paměťová rekonstrukce](@/kompendium/techniques/ea-1-2-5-memorni-rekonstrukce.md),
 tedy sugestivní výklad dětství, v němž neutrální vzpomínky získávaly traumatický význam. Loftus a
 Ketcham (1994) shromáždili doklady, že opakované sugestivní dotazování a výklad mohou vést ke
 vzniku přesvědčivých, ale nepravdivých vzpomínek, a Lilienfeld (2007) zařadil techniky

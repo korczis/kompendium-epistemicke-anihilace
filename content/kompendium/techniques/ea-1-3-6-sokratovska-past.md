@@ -1,5 +1,6 @@
 +++
-title = "EA-1.3.2 Sokratovská past"
+title = "EA-1.3.6 Sokratovská past"
+aliases = ["/kompendium/techniques/ea-1-3-6-sokratovska-past/"]
 weight = 100
 description = "Zneužití sokratovského tázání: řada otázek s jedinou přijatelnou odpovědí vede k závěru, který se pak vydává za vlastní poznání tázaného. Znaky a obrana."
 
@@ -8,8 +9,8 @@ tags = ["kompendium", "techniques", "ea-1-3", "argumentace", "dialog"]
 
 [extra]
 category = "kompendium-technique"
-related_terms = ["ea-1-2-1-argumentacni-oslabeni", "ea-1-2-1-falesne-dilema", "ea-1-3-2-strategicka-reinterpretace", "ea-1-6-1-vzorec-guru-a-adept", "ea-1-6-5", "ea-5-1-13-hyperreflexivita"]
-ea_code = "EA-1.3.2"
+related_terms = ["ea-1-2-4-argumentacni-oslabeni", "ea-1-2-1-falesne-dilema", "ea-1-3-2-strategicka-reinterpretace", "ea-1-6-1-vzorec-guru-a-adept", "ea-1-6-5", "ea-5-1-13-hyperreflexivita"]
+ea_code = "EA-1.3.6"
 ea_category = "1. Akademické techniky"
 ea_subcategory = "1.3 Narušení procesů revize a falsifikace"
 parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
@@ -18,11 +19,11 @@ date_created = "2026-05-03"
 date_modified = "2026-11-10"
 +++
 
-# EA-1.3.2 Sokratovská past
+# EA-1.3.6 Sokratovská past
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-1.3.2` (sdílí kód se [strategickou reinterpretací](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) a [pseudoempirickou validací](@/kompendium/techniques/ea-1-3-2-pseudo-empiricka-validace.md)) |
+| **EA kód** | `EA-1.3.6` |
 | **Kategorie** | 1. Akademické techniky |
 | **Subkategorie** | 1.3 Narušení procesů revize a [falsifikace](@/glossary/falsifikace.md) |
 | **Riziková úroveň** | Střední; vysoká ve výuce, výcviku a duchovním vedení |
@@ -102,7 +103,7 @@ prodej (zvlášť víceúrovňový marketing), duchovní vedení, ale i vyšetř
   rozhovor – lze ho najít v učebnici, v datech, v pokusu.
 - **[Sealioning](@/glossary/sealioning.md).** Otázky slouží k vyčerpání, ne k vedení
   k závěru.
-- **[Argumentační oslabení](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md).**
+- **[Argumentační oslabení](@/kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md).**
   Mění cizí argument zvenčí; sokratovská past ho mění rukama jeho autora.
 
 ## Klinický a právní rámec
@@ -173,7 +174,7 @@ jednoho rozhovoru a uviděl, že na každou existovala jen jedna povolená odpov
 
 - [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md)
   – stejný kód, jiná cesta k témuž: přeložit odpor na souhlas.
-- [EA-1.2.1 Argumentační oslabení](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md)
+- [EA-1.2.4 Argumentační oslabení](@/kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md)
   – zkreslení cizí teze zvenčí.
 - [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – uzavřené
   alternativy uvnitř otázek.

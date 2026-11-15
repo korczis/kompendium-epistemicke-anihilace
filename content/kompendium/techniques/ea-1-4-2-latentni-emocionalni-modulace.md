@@ -10,7 +10,7 @@ tags = ["kompendium", "techniques", "ea-1-4-2", "emocionalni-modulace", "afekt",
 categories = ["academic"]
 
 [extra]
-related_terms = ["ea-1-4-1-prosodicka-dominance", "ea-1-4-2-latent-emotional-modulation", "ea-1-5-1-emocni-podbarveni", "ea-1-5-1-strategicka-proxemika"]
+related_terms = ["ea-1-4-1-prosodicka-dominance", "ea-1-4-2-latent-emotional-modulation", "ea-1-5-3-emocni-podbarveni", "ea-1-5-1-strategicka-proxemika"]
 ea_code = "EA-1.4.2"
 ea_category = "1. Akademické techniky"
 ea_subcategory = "1.4 Paralingvistické manipulativní techniky"

@@ -1,5 +1,6 @@
 +++
-title = "EA-1.3.2 Pseudoempirická validace"
+title = "EA-1.3.5 Pseudoempirická validace"
+aliases = ["/kompendium/techniques/ea-1-3-5-pseudo-empiricka-validace/"]
 weight = 100
 description = "Vzorec, v němž tvrzení získává vědecký vzhled – čísla, grafy, citace, měření – bez skutečné empirické opory. Znaky, odlišení od rané vědy, obrana."
 
@@ -9,7 +10,7 @@ tags = ["kompendium", "techniques", "ea-1-3", "pseudoveda", "falsifikace"]
 [extra]
 category = "kompendium-technique"
 related_terms = ["ea-1-3-1-imunizace-proti-falsifikaci", "ea-1-3-2-strategicka-reinterpretace", "ea-1-3-4-indukovana-pochybnost", "ea-1-1-3-terminologicka-mystifikace", "ea-1-6-falesny-paradigmaticky-narok", "ea-1-2-3-iluzorni-komplexita"]
-ea_code = "EA-1.3.2"
+ea_code = "EA-1.3.5"
 ea_category = "1. Akademické techniky"
 ea_subcategory = "1.3 Narušení procesů revize a falsifikace"
 parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
@@ -18,11 +19,11 @@ date_created = "2026-05-03"
 date_modified = "2026-11-10"
 +++
 
-# EA-1.3.2 Pseudoempirická validace
+# EA-1.3.5 Pseudoempirická validace
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-1.3.2` (sdílí kód se [strategickou reinterpretací](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) a [sokratovskou pastí](@/kompendium/techniques/ea-1-3-2-sokratovska-past.md)) |
+| **EA kód** | `EA-1.3.5` |
 | **Kategorie** | 1. Akademické techniky |
 | **Subkategorie** | 1.3 Narušení procesů revize a [falsifikace](@/glossary/falsifikace.md) |
 | **Riziková úroveň** | Vysoká u zdravotních a finančních rozhodnutí |

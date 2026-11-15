@@ -44,7 +44,7 @@ Kniha popisuje [modifikaci evidenčních kritérií](@/kompendium/techniques/ea-
 jako proces, při němž se člověku postupně mění, co považuje za doklad – například že pocit
 nebo slovo autority začne mít váhu vyšší než vlastní pozorování. V organizacích má tento
 proces podobu kultury, v níž se „ví“, co je pravda, a důkazy se hledají jen na potvrzení.
-[Pseudo-empirická validace](@/kompendium/techniques/ea-1-3-2-pseudo-empiricka-validace.md)
+[Pseudo-empirická validace](@/kompendium/techniques/ea-1-3-5-pseudo-empiricka-validace.md)
 popisuje použití vnějších znaků vědeckosti nebo úřednosti (čísla, grafy, razítka) bez
 skutečného doložení.
 

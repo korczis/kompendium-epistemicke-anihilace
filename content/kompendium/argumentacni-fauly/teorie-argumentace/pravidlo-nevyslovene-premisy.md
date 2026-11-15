@@ -37,9 +37,9 @@ catalog_depth = 1
 catalog_ancestors = ["pragma-dialektika"]
 catalog_related = ["slameny-panak", "vyhybava-slova", "jen-se-ptam", "je-a-ma-byt", "toulminuv-model", "princip-shovivavosti", "cteni-myslenek"]
 catalog_related_declared = ["slameny-panak", "jen-se-ptam", "cteni-myslenek", "vyhybava-slova", "princip-shovivavosti"]
-catalog_kompendium = ["kompendium/techniques/ea-2-3-2-context-collapse.md", "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md"]
+catalog_kompendium = ["kompendium/techniques/ea-2-3-2-context-collapse.md", "kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md"]
 catalog_canonical = ""
-catalog_links_prose = ["kompendium/argumentacni-fauly/dialekticke-taktiky/jen-se-ptam.md", "kompendium/argumentacni-fauly/jazykove-klamy/vyhybava-slova.md", "kompendium/argumentacni-fauly/relevance/slameny-panak.md", "kompendium/argumentacni-fauly/teorie-argumentace/princip-shovivavosti.md", "kompendium/nlp-vzorce/meta-model/cteni-myslenek.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md", "kompendium/techniques/ea-2-3-2-context-collapse.md"]
+catalog_links_prose = ["kompendium/argumentacni-fauly/dialekticke-taktiky/jen-se-ptam.md", "kompendium/argumentacni-fauly/jazykove-klamy/vyhybava-slova.md", "kompendium/argumentacni-fauly/relevance/slameny-panak.md", "kompendium/argumentacni-fauly/teorie-argumentace/princip-shovivavosti.md", "kompendium/nlp-vzorce/meta-model/cteni-myslenek.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md", "kompendium/techniques/ea-2-3-2-context-collapse.md"]
 catalog_prev = "pravidlo-relevance"
 catalog_next = "pravidlo-vychodiska"
 catalog_position = 5
@@ -156,7 +156,7 @@ V kompendiu se pravidlo nevyslovené premisy dotýká technik, které pracují s
 [kolapsu kontextu](@/kompendium/techniques/ea-2-3-2-context-collapse.md) se výrok přenese do
 prostředí, kde posluchači doplňují jiné nevyslovené premisy, než s jakými počítal mluvčí, a výrok
 pak nabývá významu, který autor nezamýšlel. Jde o neúmyslnou obdobu zveličení, která může být
-následně využita úmyslně. Při [argumentačním oslabení](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md)
+následně využita úmyslně. Při [argumentačním oslabení](@/kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md)
 se nevyslovená premisa doplňuje v nejslabší možné podobě, aby se argument dal snadno vyvrátit.
 Pragma-dialektika obě situace posuzuje stejným měřítkem: rozhoduje, za co lze mluvčího v kontextu
 odůvodněně považovat za odpovědného (van Eemeren a Grootendorst 2004).
@@ -221,7 +221,7 @@ zdají samozřejmé, protože právě samozřejmost bývá místem, kde se poslu
 **V kompendiu**
 
 - [EA-2.3.2 Kolaps kontextu (context collapse)](@/kompendium/techniques/ea-2-3-2-context-collapse.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
-- [EA-1.2.1 Argumentační oslabení](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.2.4 Argumentační oslabení](@/kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 

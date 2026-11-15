@@ -1,5 +1,6 @@
 +++
-title = "EA-1.4.1 Latentní podbarvení"
+title = "EA-1.4.3 Latentní podbarvení"
+aliases = ["/kompendium/techniques/ea-1-4-3-latentni-podbarveni/"]
 weight = 100
 description = "Paralingvistický vzorec, v němž tón, důraz a pauzy dávají věcně neutrální výpovědi hodnotící význam, za který mluvčí neodpovídá. Znaky, odlišení, obrana."
 
@@ -8,8 +9,8 @@ tags = ["kompendium", "techniques", "ea-1-4", "paralingvistika", "implikatura"]
 
 [extra]
 category = "kompendium-technique"
-related_terms = ["ea-1-4-1-prosodicka-dominance", "ea-1-4-2-latentni-emocionalni-modulace", "ea-1-5-1-emocni-podbarveni", "ea-1-1-1-selektivni-expozice", "ea-1-2-1-argumentacni-oslabeni", "ea-2-3-2-context-collapse"]
-ea_code = "EA-1.4.1"
+related_terms = ["ea-1-4-1-prosodicka-dominance", "ea-1-4-2-latentni-emocionalni-modulace", "ea-1-5-3-emocni-podbarveni", "ea-1-1-1-selektivni-expozice", "ea-1-2-4-argumentacni-oslabeni", "ea-2-3-2-context-collapse"]
+ea_code = "EA-1.4.3"
 ea_category = "1. Akademické techniky"
 ea_subcategory = "1.4 Paralingvistické manipulativní techniky"
 parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
@@ -18,11 +19,11 @@ date_created = "2026-05-03"
 date_modified = "2026-11-10"
 +++
 
-# EA-1.4.1 Latentní podbarvení
+# EA-1.4.3 Latentní podbarvení
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-1.4.1` (sdílí kód s [prosodickou dominancí](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md)) |
+| **EA kód** | `EA-1.4.3` |
 | **Kategorie** | 1. Akademické techniky |
 | **Subkategorie** | 1.4 Paralingvistické manipulativní techniky |
 | **Riziková úroveň** | Nízká až střední jednotlivě; vysoká při dlouhodobém opakování |
@@ -111,7 +112,7 @@ je hlas hlavním nosičem), soudní a správní jednání, kde se hodnotí dův�
 - **Kulturní a individuální rozdíly v prozódii.** Některé způsoby řeči působí na cizince
   nebo na lidi z jiného prostředí ironicky, aniž by tak byly míněny; proto je nutné
   sledovat opakování a vazbu na cíl, ne jednotlivý tón.
-- **[Emoční podbarvení](@/kompendium/techniques/ea-1-5-1-emocni-podbarveni.md).** Totéž
+- **[Emoční podbarvení](@/kompendium/techniques/ea-1-5-3-emocni-podbarveni.md).** Totéž
   hodnocení přenášené tělem – mimikou, gestem, odvrácením – místo hlasu.
 
 ## Klinický a právní rámec
@@ -177,7 +178,7 @@ ukázalo, že negativní obraz neměl žádný věcný podklad.
   – hlas jako signál autority.
 - [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)
   – hlas jako spouštěč emocí posluchače.
-- [EA-1.5.1 Emoční podbarvení](@/kompendium/techniques/ea-1-5-1-emocni-podbarveni.md) –
+- [EA-1.5.3 Emoční podbarvení](@/kompendium/techniques/ea-1-5-3-emocni-podbarveni.md) –
   totéž hodnocení přenášené tělem.
 
 **Pojmy**

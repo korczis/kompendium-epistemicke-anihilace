@@ -69,7 +69,7 @@ literatuře popisuje jako problém zásuvky na nulové nálezy (Rosenthal, 1979)
 Druhou podobou je pseudoempirická forma: dotazníky a „měření“, která vypadají vědecky, ale
 nejsou validovaná, tedy nástroje, u nichž se nikdy neověřilo, co vlastně měří (Lilienfeld
 a kol., 2015). Knižní zpracování má v technice [pseudoempirické
-validace](@/kompendium/techniques/ea-1-3-2-pseudo-empiricka-validace.md). Třetí podobou je
+validace](@/kompendium/techniques/ea-1-3-5-pseudo-empiricka-validace.md). Třetí podobou je
 opačný extrém, odmítnutí veškerých důkazů jako „jen statistiky“, které je stejně nekritické
 jako jejich přijetí bez prověření (Greenhalgh a kol., 2014).
 
@@ -200,7 +200,7 @@ opřít o shodu nezávislých kvalitativních souborů (Ioannidis, 2005).
 
 **Techniky a výuka**
 
-- [Pseudoempirická validace](@/kompendium/techniques/ea-1-3-2-pseudo-empiricka-validace.md) – vědecká forma bez obsahu.
+- [Pseudoempirická validace](@/kompendium/techniques/ea-1-3-5-pseudo-empiricka-validace.md) – vědecká forma bez obsahu.
 - [Vážení důkazů](@/kompendium/educational-scenarios/7-evidence-weighting.md) – vzdělávací scénář.
 - [Verifikace tvrzení](@/kompendium/educational-scenarios/5-claim-verification.md) – vzdělávací scénář.
 

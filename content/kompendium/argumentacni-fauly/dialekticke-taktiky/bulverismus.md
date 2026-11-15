@@ -37,7 +37,7 @@ catalog_depth = 2
 catalog_ancestors = ["okolnostni-ad-hominem", "ad-hominem"]
 catalog_related = ["ad-hominem", "okolnostni-ad-hominem", "genetic-klam", "otraveni-studny", "kafkapast", "personalizace-sporu", "motivovane-uvazovani", "som-meta-ramec"]
 catalog_related_declared = ["genetic-klam", "otraveni-studny", "kafkapast", "som-meta-ramec", "motivovane-uvazovani", "ad-hominem"]
-catalog_kompendium = ["kompendium/techniques/ea-2-1-3-credentialing-attack.md", "kompendium/03-zakladni-kategorie/kapitola-2.md", "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md", "kompendium/07-teoreticke-reflexe/socialni-epistemologie.md"]
+catalog_kompendium = ["kompendium/techniques/ea-2-1-3-credentialing-attack.md", "kompendium/03-zakladni-kategorie/kapitola-2.md", "kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md", "kompendium/07-teoreticke-reflexe/socialni-epistemologie.md"]
 catalog_canonical = ""
 catalog_links_prose = ["glossary/delegitimizace.md", "kompendium/03-zakladni-kategorie/kapitola-2.md", "kompendium/07-teoreticke-reflexe/socialni-epistemologie.md", "kompendium/argumentacni-fauly/dialekticke-taktiky/kafkapast.md", "kompendium/argumentacni-fauly/relevance/okolnostni-ad-hominem.md", "kompendium/argumentacni-fauly/teorie-argumentace/argumentacni-teorie-uvazovani.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-meta-ramec.md", "kompendium/nlp-vzorce/zakladni-pojmy/stav.md", "kompendium/techniques/ea-2-1-3-credentialing-attack.md"]
 catalog_prev = "kafkapast"
@@ -236,7 +236,7 @@ stává prvním krokem k vyloučení člověka z rozhovoru.
 
 - [EA-2.1.3 Útok na kvalifikaci (credentialing attack)](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 - [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
-- [EA-1.2.1 Argumentační oslabení](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.2.4 Argumentační oslabení](@/kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 - [7.3 Sociální epistemologie EA — Goldman, Fricker, Longino, Anderson](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**

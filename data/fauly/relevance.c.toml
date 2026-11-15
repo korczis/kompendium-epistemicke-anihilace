@@ -239,7 +239,7 @@ broader = ""
 related = ["cerveny-sled", "slameny-panak", "pravidlo-relevance", "whataboutism", "vyzva-k-relevanci"]
 kompendium = [
   "kompendium/techniques/ea-1-3-3-tematicka-diverze.md",
-  "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md",
+  "kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md",
   "kompendium/forensic-legal/_index.md",
 ]
 review = "agent"

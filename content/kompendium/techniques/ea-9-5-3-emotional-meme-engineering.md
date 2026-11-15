@@ -8,7 +8,7 @@ tags = ["kompendium", "techniques", "ea-9-5", "digitalni", "ai"]
 categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-5-7-narrative-meme-fusion", "ea-9-5-4-meme-network-amplification", "ea-9-3-2-engagement-optimization-EA", "ea-1-5-1-emocni-podbarveni"]
+related_terms = ["ea-9-5-7-narrative-meme-fusion", "ea-9-5-4-meme-network-amplification", "ea-9-3-2-engagement-optimization-EA", "ea-1-5-3-emocni-podbarveni"]
 ea_code = "EA-9.5.3"
 ea_category = "9. Současná digitální EA"
 ea_subcategory = "9.5 Memetická válka"
@@ -75,7 +75,7 @@ Zevnitř se emočně laděné memy prožívají jako vyjádření toho, co člov
 
 ## 11. Vztah k ostatním kategoriím EA
 
-V kapitole 1 popisuje tentýž mechanismus [EA-1.5.1 Emoční podbarvení](@/kompendium/techniques/ea-1-5-1-emocni-podbarveni.md) a [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md); memetická podoba přidává rozsah a testování. Teoretický rámec dodává [Damasio: Somatic Marker](@/kompendium/07-teoreticke-reflexe/damasio-somatic-marker.md).
+V kapitole 1 popisuje tentýž mechanismus [EA-1.5.3 Emoční podbarvení](@/kompendium/techniques/ea-1-5-3-emocni-podbarveni.md) a [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md); memetická podoba přidává rozsah a testování. Teoretický rámec dodává [Damasio: Somatic Marker](@/kompendium/07-teoreticke-reflexe/damasio-somatic-marker.md).
 
 ## 12. Otázky pro rozhovor a šetření
 
@@ -124,7 +124,7 @@ Terapeuti a poradci se s účinky emočně laděných memů setkávají nepřím
 
 **Kapitola 1 a teorie**
 
-- [EA-1.5.1 Emoční podbarvení](@/kompendium/techniques/ea-1-5-1-emocni-podbarveni.md) – emoce jako nástroj úsudku.
+- [EA-1.5.3 Emoční podbarvení](@/kompendium/techniques/ea-1-5-3-emocni-podbarveni.md) – emoce jako nástroj úsudku.
 - [Damasio: Somatic Marker](@/kompendium/07-teoreticke-reflexe/damasio-somatic-marker.md) – vazba emoce a rozhodování.
 
 **Detekce a obrana**

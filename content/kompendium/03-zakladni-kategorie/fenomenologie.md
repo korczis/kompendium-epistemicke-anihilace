@@ -51,7 +51,7 @@ poznávajícího a předpojmovou vrstvu zkušenosti; přehled podává
 
 Pro analýzu technik kniha rozlišuje tři roviny, na nichž lze prožitkové struktury narušit. Na rovině
 obsahu prožitku jde o to, co člověk vnímá a pamatuje si; sem patří popírání událostí a přepisování
-vzpomínek, které sleduje [Memorní rekonstrukce](@/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce.md).
+vzpomínek, které sleduje [Memorní rekonstrukce](@/kompendium/techniques/ea-1-2-5-memorni-rekonstrukce.md).
 Na rovině formy prožitku jde o to, jak vnímá — o zúžení pozornosti, změnu prožívání času a ztrátu
 tělesné opory — na niž míří paralingvistické a proxemické techniky
 [kapitoly 3.1](@/kompendium/03-zakladni-kategorie/kapitola-1.md); Merleau-Ponty (1945) zdůrazňuje, že

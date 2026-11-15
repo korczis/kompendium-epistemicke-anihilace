@@ -1,5 +1,6 @@
 +++
-title = "EA-1.5.1 Emoční podbarvení"
+title = "EA-1.5.3 Emoční podbarvení"
+aliases = ["/kompendium/techniques/ea-1-5-3-emocni-podbarveni/"]
 weight = 100
 description = "Neverbální vzorec, v němž mimika, gesta a práce s odstupem spojují osobu nebo téma s pohrdáním či odporem, aniž by zaznělo jediné tvrzení. Znaky, odlišení, obrana."
 
@@ -8,8 +9,8 @@ tags = ["kompendium", "techniques", "ea-1-5", "neverbalni-komunikace", "emoce"]
 
 [extra]
 category = "kompendium-technique"
-related_terms = ["ea-1-5-1-strategicka-proxemika", "ea-1-5-2-dominantni-telesne-hieroglyfy", "ea-1-4-1-latentni-podbarveni", "ea-1-4-2-latentni-emocionalni-modulace", "ea-2-4-falesny-konsensus", "ea-1-6-1-vzorec-guru-a-adept"]
-ea_code = "EA-1.5.1"
+related_terms = ["ea-1-5-1-strategicka-proxemika", "ea-1-5-2-dominantni-telesne-hieroglyfy", "ea-1-4-3-latentni-podbarveni", "ea-1-4-2-latentni-emocionalni-modulace", "ea-2-4-falesny-konsensus", "ea-1-6-1-vzorec-guru-a-adept"]
+ea_code = "EA-1.5.3"
 ea_category = "1. Akademické techniky"
 ea_subcategory = "1.5 Proxemické a kinetické techniky"
 parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
@@ -18,11 +19,11 @@ date_created = "2026-05-03"
 date_modified = "2026-11-10"
 +++
 
-# EA-1.5.1 Emoční podbarvení
+# EA-1.5.3 Emoční podbarvení
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-1.5.1` (sdílí kód se [strategickou proxemikou](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md)) |
+| **EA kód** | `EA-1.5.3` |
 | **Kategorie** | 1. Akademické techniky |
 | **Subkategorie** | 1.5 Proxemické a kinetické techniky |
 | **Riziková úroveň** | Střední; vysoká ve skupinách a v rodinách |
@@ -37,7 +38,7 @@ a úcta – prostřednictvím těla: mimiky, gest, postoje, práce s pohledem a 
 odstupem. Nic se netvrdí, a přece se posluchači učí, co mají k předmětu cítit. Protiváha
 téhož vzorce, nadšené podbarvení vlastního zdroje nebo vůdce, funguje stejně.
 
-Podbarvení je strukturálně blízké [latentnímu podbarvení](@/kompendium/techniques/ea-1-4-1-latentni-podbarveni.md)
+Podbarvení je strukturálně blízké [latentnímu podbarvení](@/kompendium/techniques/ea-1-4-3-latentni-podbarveni.md)
 v řeči; liší se kanálem. Zatímco u něj nese hodnocení hlas, tady je nese tělo. Proto
 vzorec působí i bez slov – v okamžiku, kdy se o věci mluví, nebo když cíl vstoupí do
 místnosti.
@@ -173,7 +174,7 @@ jediný věcný argument, který by ve skupině zazněl.
   – prostor jako nosič vlivu.
 - [EA-1.5.2 Dominantní tělesné hieroglyfy](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md)
   – tělo jako signál autority.
-- [EA-1.4.1 Latentní podbarvení](@/kompendium/techniques/ea-1-4-1-latentni-podbarveni.md)
+- [EA-1.4.3 Latentní podbarvení](@/kompendium/techniques/ea-1-4-3-latentni-podbarveni.md)
   – totéž hodnocení přenášené hlasem.
 
 **Navazující vzorce**

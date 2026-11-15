@@ -14,7 +14,7 @@ risk = "nizke"
 broader = ""
 related = ["pravidlo-argumentacniho-schematu", "odvolani-na-autoritu", "kluzky-svah", "odvolani-na-dusledky", "toulminuv-model", "bayesovske-pojeti-klamu"]
 kompendium = [
-  "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md",
+  "kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md",
   "kompendium/forensic-legal/_index.md",
   "kompendium/07-teoreticke-reflexe/socialni-epistemologie.md",
 ]
@@ -108,7 +108,7 @@ risk = "nizke"
 broader = "princip-shovivavosti"
 related = ["slameny-panak", "princip-shovivavosti", "falesna-vyvazenost", "pravidlo-stanoviska", "vybirani-podivinu"]
 kompendium = [
-  "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md",
+  "kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md",
   "kompendium/educational-scenarios/_index.md",
 ]
 review = "agent"
@@ -141,7 +141,7 @@ related = ["pravidlo-svobody", "pravidlo-dukazniho-bremene", "pravidlo-uzavreni"
 kompendium = [
   "kompendium/techniques/ea-7-1-4-habermas-communicative-action.md",
   "kompendium/forensic-legal/_index.md",
-  "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md",
+  "kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md",
 ]
 review = "agent"
 
@@ -171,7 +171,7 @@ risk = "stredni"
 broader = ""
 related = ["pragma-dialektika", "gish-gallop", "sealioning", "personalizace-sporu", "slameny-panak", "princip-shovivavosti"]
 kompendium = [
-  "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md",
+  "kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md",
   "kompendium/07-teoreticke-reflexe/politicka-ea.md",
   "kompendium/techniques/ea-2-3-9-sealioning-medialni.md",
 ]

@@ -29,7 +29,7 @@ Hannah Arendtová ukázala nejkrajnější podobu: totalitní režim, jehož pro
 
 **Masová delegitimizace.** Na populační rovině se delegitimizace netýká jednoho člověka, ale celých skupin a institucí: soustavné zpochybňování novinářů, vědců, soudů nebo menšin jako zdrojů poznání. Výsledkem není přechod k jiné autoritě, ale ztráta důvěry v jakoukoli – stav, který kniha popisuje jako rozpad [konsenzuální reality](@/glossary/konsenzualni-realita.md).
 
-**Kolektivní paměť.** Maurice Halbwachs ukázal, že paměť není jen individuální: vzpomínáme v rámcích, které nám dávají skupiny, k nimž patříme (Halbwachs 1925). Kdo ovládá tyto rámce – učebnice, pomníky, výročí –, ovlivňuje, co si společnost pamatuje a co zapomíná. Přepisování společné minulosti je populační obdobou toho, co na úrovni jednotlivce kniha popisuje jako [paměťovou rekonstrukci](@/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce.md).
+**Kolektivní paměť.** Maurice Halbwachs ukázal, že paměť není jen individuální: vzpomínáme v rámcích, které nám dávají skupiny, k nimž patříme (Halbwachs 1925). Kdo ovládá tyto rámce – učebnice, pomníky, výročí –, ovlivňuje, co si společnost pamatuje a co zapomíná. Přepisování společné minulosti je populační obdobou toho, co na úrovni jednotlivce kniha popisuje jako [paměťovou rekonstrukci](@/kompendium/techniques/ea-1-2-5-memorni-rekonstrukce.md).
 
 **Mezigenerační přenos.** Trauma, mlčení a naučená nedůvěra se mohou přenášet na další generace prostřednictvím výchovy, rodinných příběhů i toho, o čem se nemluví. Sborník, který k tomuto tématu sestavila Yael Danieli, shrnuje výzkum mezigeneračních dopadů hromadného traumatu napříč různými historickými zkušenostmi (Danieli 1998).
 

@@ -41,7 +41,7 @@ se obnoví: pozornost a ověřování drží význam pohromadě.
   <div class="overflow-hidden rounded-lg border border-gray-200 dark:border-gray-700" data-p5="eroze" data-ratio="0.5"></div>
 </figure>
 
-Souvisí s heslem [EA-1.2.2 Paměťová rekonstrukce](@/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce.md).
+Souvisí s heslem [EA-1.2.5 Paměťová rekonstrukce](@/kompendium/techniques/ea-1-2-5-memorni-rekonstrukce.md).
 
 ## Rekonstituce
 

@@ -8,7 +8,7 @@ tags = ["kompendium", "techniques", "ea-5-3", "narativni-identita", "autobiograf
 
 [extra]
 category = "kompendium-technique"
-related_terms = ["ea-5-3-2-autobiograficka-dekonstrukce", "ea-5-3-19-autobiograficka-amnestizace", "ea-5-3-3-rolova-fragmentace", "ea-5-3-7-self-narrative-replacement", "ea-1-2-2-memorni-rekonstrukce", "ea-6-3-6-narrativni-rekonstrukce"]
+related_terms = ["ea-5-3-2-autobiograficka-dekonstrukce", "ea-5-3-19-autobiograficka-amnestizace", "ea-5-3-3-rolova-fragmentace", "ea-5-3-7-self-narrative-replacement", "ea-1-2-5-memorni-rekonstrukce", "ea-6-3-6-narrativni-rekonstrukce"]
 ea_code = "EA-5.3.27"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.3 Hypertransformativní protokoly"

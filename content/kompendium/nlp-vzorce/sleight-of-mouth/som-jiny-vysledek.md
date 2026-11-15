@@ -37,7 +37,7 @@ catalog_depth = 1
 catalog_ancestors = ["sleight-of-mouth"]
 catalog_related = ["som-zamer", "som-hierarchie-kriterii", "ramec-vysledku", "vyzva-k-relevanci"]
 catalog_related_declared = ["ramec-vysledku", "vyzva-k-relevanci", "som-zamer", "som-hierarchie-kriterii"]
-catalog_kompendium = ["kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md"]
+catalog_kompendium = ["kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md"]
 catalog_canonical = ""
 catalog_links_prose = ["kompendium/nlp-vzorce/reframing/ramec-vysledku.md", "kompendium/nlp-vzorce/reframing/vyzva-k-relevanci.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-hierarchie-kriterii.md", "kompendium/techniques/ea-1-3-3-tematicka-diverze.md"]
 catalog_prev = "som-analogie"
@@ -138,7 +138,7 @@ Nejúčinnější obranou je pojmenovat záměnu otázky a vrátit se k původn�
 **V kompendiu**
 
 - [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
-- [EA-1.2.1 Argumentační oslabení](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.2.4 Argumentační oslabení](@/kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 

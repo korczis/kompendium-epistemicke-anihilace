@@ -8,7 +8,7 @@ tags = ["kompendium", "techniques", "ea-4-1", "gaslighting", "coercive-control"]
 
 [extra]
 category = "kompendium-technique"
-related_terms = ["ea-1-2-2-memorni-rekonstrukce", "ea-1-3-4-indukovana-pochybnost", "ea-1-3-2-strategicka-reinterpretace", "ea-1-4-2-latentni-emocionalni-modulace", "ea-2-5-3-self-doubt-cultivation", "ea-2-2-2-mentee-isolation"]
+related_terms = ["ea-1-2-5-memorni-rekonstrukce", "ea-1-3-4-indukovana-pochybnost", "ea-1-3-2-strategicka-reinterpretace", "ea-1-4-2-latentni-emocionalni-modulace", "ea-2-5-3-self-doubt-cultivation", "ea-2-2-2-mentee-isolation"]
 ea_code = "EA-4.1"
 ea_category = "4. Terminální protokoly"
 parent_chapter = "/kompendium/04-terminalni-protokoly/"
@@ -50,7 +50,7 @@ Gaslighting není jedna technika, ale **souběh** několika vzorců Kompendia:
 
 | Prvek | Co se děje | Technika |
 |---|---|---|
-| Popření události | „To se nestalo.“ „To jsem neřekl.“ | [EA-1.2.2 Paměťová rekonstrukce](@/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce.md) |
+| Popření události | „To se nestalo.“ „To jsem neřekl.“ | [EA-1.2.5 Paměťová rekonstrukce](@/kompendium/techniques/ea-1-2-5-memorni-rekonstrukce.md) |
 | Přerámování minulosti | Události se zpětně vykládají jinak | [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) |
 | Patologizace emocí | „Jsi přecitlivělá.“ „To mluví tvoje trauma.“ | [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) |
 | Zpochybnění úsudku | „Ty si to vždycky spleteš.“ | [EA-1.3.4 Indukovaná pochybnost](@/kompendium/techniques/ea-1-3-4-indukovana-pochybnost.md) |
@@ -176,7 +176,7 @@ proto je důležitá [rekonstrukce důvěry](@/kompendium/recovery-protocols/sub
 
 **Složkové techniky**
 
-- [EA-1.2.2 Paměťová rekonstrukce](@/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce.md)
+- [EA-1.2.5 Paměťová rekonstrukce](@/kompendium/techniques/ea-1-2-5-memorni-rekonstrukce.md)
   – přepis minulosti.
 - [EA-1.3.4 Indukovaná pochybnost](@/kompendium/techniques/ea-1-3-4-indukovana-pochybnost.md)
   – pochybnost o vlastním úsudku.

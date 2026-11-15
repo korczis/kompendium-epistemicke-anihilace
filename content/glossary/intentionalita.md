@@ -71,8 +71,8 @@ husserlovském rozlišení aktu, modu a horizontu (Husserl, 1913).
 | složka | co se mění | pozorovatelný vzorec |
 |---|---|---|
 | předmět | o čem člověk přemýšlí | pozornost je soustavně odváděna jinam: [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md), [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) |
-| modus | zda člověk vnímá, vzpomíná, nebo pochybuje | jistá vzpomínka se mění v pochybnost: [EA-1.3.4 Indukovaná pochybnost](@/kompendium/techniques/ea-1-3-4-indukovana-pochybnost.md), [EA-1.2.2 Paměťová rekonstrukce](@/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce.md) |
-| horizont | co člověk bere za samozřejmé | posun pozadí bez výslovného tvrzení: [EA-1.4.1 Latentní podbarvení](@/kompendium/techniques/ea-1-4-1-latentni-podbarveni.md) |
+| modus | zda člověk vnímá, vzpomíná, nebo pochybuje | jistá vzpomínka se mění v pochybnost: [EA-1.3.4 Indukovaná pochybnost](@/kompendium/techniques/ea-1-3-4-indukovana-pochybnost.md), [EA-1.2.5 Paměťová rekonstrukce](@/kompendium/techniques/ea-1-2-5-memorni-rekonstrukce.md) |
+| horizont | co člověk bere za samozřejmé | posun pozadí bez výslovného tvrzení: [EA-1.4.3 Latentní podbarvení](@/kompendium/techniques/ea-1-4-3-latentni-podbarveni.md) |
 
 Skutečné vzorce obvykle zasahují více složek současně, takže tabulka slouží k rozboru, ne
 k zařazení případu (Husserl, 1913).
@@ -185,7 +185,7 @@ samozřejmostí heslo [epoché](@/glossary/epoche.md).
 
 - [Intencionalita](@/kompendium/03-zakladni-kategorie/intencionalita.md) – kapitola základních kategorií.
 - [Dennett: intencionální postoj](@/kompendium/07-teoreticke-reflexe/dennett-intentional-stance.md) – analytický protipól.
-- [EA-1.4.1 Latentní podbarvení](@/kompendium/techniques/ea-1-4-1-latentni-podbarveni.md) – vzorec zasahující horizont.
+- [EA-1.4.3 Latentní podbarvení](@/kompendium/techniques/ea-1-4-3-latentni-podbarveni.md) – vzorec zasahující horizont.
 - [Diverzifikace sítě](@/kompendium/self-defense-guides/25-network-diversification.md) – obrana na úrovni pozadí.
 
 <!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->

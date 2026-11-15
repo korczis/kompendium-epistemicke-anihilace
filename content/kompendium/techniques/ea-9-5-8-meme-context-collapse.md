@@ -81,7 +81,7 @@ Pomáhá také, když se instituce, pro kterou člověk pracuje, veřejně posta
 
 ## 11. Vztah k ostatním kategoriím EA
 
-Vzorec je memetickou podobou [EA-2.3.2 Context Collapse](@/kompendium/techniques/ea-2-3-2-context-collapse.md) a [EA-2.3.3 Quote Mining](@/kompendium/techniques/ea-2-3-3-quote-mining.md); v argumentaci mu odpovídá [EA-1.2.1 Argumentační oslabení](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md), kde je cizí výrok posuzován v nejslabší podobě.
+Vzorec je memetickou podobou [EA-2.3.2 Context Collapse](@/kompendium/techniques/ea-2-3-2-context-collapse.md) a [EA-2.3.3 Quote Mining](@/kompendium/techniques/ea-2-3-3-quote-mining.md); v argumentaci mu odpovídá [EA-1.2.4 Argumentační oslabení](@/kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md), kde je cizí výrok posuzován v nejslabší podobě.
 
 ## 12. Otázky pro rozhovor a šetření
 

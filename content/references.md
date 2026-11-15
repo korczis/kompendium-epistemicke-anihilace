@@ -565,7 +565,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Bartlett, C., Marshall, M., & Marshall, A. (2012). Two-Eyed Seeing and other lessons learned within a co-learning journey of bringing together indigenous and mainstream knowledges and ways of knowing. *Journal of Environmental Studies and Sciences*, 2(4).  
   <small>Citováno: [Domorodé perspektivy EA](@/kompendium/international/16-indigenous-perspectives-EA/index.md)</small>
 - Bartlett, F. C. (1932). *Remembering: A Study in Experimental and Social Psychology*.  
-  <small>Citováno: [Případ 15: Zdravotnická iatrogenie](@/kompendium/case-studies/15-zdravotnicky-iatrogen.md), [EA-1.2.2 Paměťová rekonstrukce](@/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce.md)</small>
+  <small>Citováno: [Případ 15: Zdravotnická iatrogenie](@/kompendium/case-studies/15-zdravotnicky-iatrogen.md), [EA-1.2.5 Paměťová rekonstrukce](@/kompendium/techniques/ea-1-2-5-memorni-rekonstrukce.md)</small>
 - Bartlett, F. C. (1932). *Remembering: A Study in Experimental and Social Psychology*. Cambridge  
   <small>Citováno: [Historický případ: Spor o znovuobjevené vzpomínky](@/kompendium/historical-cases/37-recovered-memory.md)</small>
 - Bartlett, F. C. (1932). *Remembering: A Study in Experimental and Social Psychology*. Cambridge University Press.  
@@ -2327,7 +2327,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Dennett, D. C. (1996). *Kinds of Minds: Toward an Understanding of Consciousness*. Basic Books.  
   <small>Citováno: [7.51 Dennett: From Bacteria to Bach a evoluční vědomí](@/kompendium/07-teoreticke-reflexe/dennett-from-bacteria-to-bach.md)</small>
 - Dennett, D. C. (2013). *Intuition Pumps and Other Tools for Thinking*.  
-  <small>Citováno: [EA-1.2.1 Argumentační oslabení](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md)</small>
+  <small>Citováno: [EA-1.2.4 Argumentační oslabení](@/kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md)</small>
 - Dennett, D. C. (2013). *Intuition Pumps and Other Tools for Thinking*. W. W. Norton.  
   <small>Citováno: [7.51 Dennett: From Bacteria to Bach a evoluční vědomí](@/kompendium/07-teoreticke-reflexe/dennett-from-bacteria-to-bach.md)</small>
 - Dennett, D. C. (2017). *From Bacteria to Bach and Back: The Evolution of Minds*. W. W. Norton.  
@@ -3289,7 +3289,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Freedman, D., Thornton, A., Camburn, D., Alwin, D., & Young-DeMarco, L. (1988). The life history calendar: A technique for collecting retrospective data. *Sociological Methodology*.  
   <small>Citováno: [Rekonstrukce časové osy](@/kompendium/forensic-legal/33-timeline-reconstruction.md)</small>
 - Freedman, J. L., & Fraser, S. C. (1966). Compliance without pressure: The  
-  <small>Citováno: [EA-1.3.2 Sokratovská past](@/kompendium/techniques/ea-1-3-2-sokratovska-past.md)</small>
+  <small>Citováno: [EA-1.3.6 Sokratovská past](@/kompendium/techniques/ea-1-3-6-sokratovska-past.md)</small>
 - Freedman, J. L., & Fraser, S. C. (1966). *Compliance without pressure: The foot-in-the-door technique*. Journal of Personality and Social Psychology.  
   <small>Citováno: [Door-in-the-face (technika velkého požadavku)](@/glossary/door-in-the-face.md), [EA-9.1.9 Multi-Turn Narrative Shift](@/kompendium/techniques/ea-9-1-9-multi-turn-narrative-shift.md)</small>
 - Freedman, J. L., & Fraser, S. C. (1966). Compliance without pressure: The foot-in-the-door technique. *Journal of Personality and Social Psychology*, 4(2), 195–202.  
@@ -3810,7 +3810,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Gorwa, R., Binns, R., & Katzenbach, C. (2020). Algorithmic content moderation: Technical and political challenges in the automation of platform governance. *Big Data & Society*.  
   <small>Citováno: [EA-9.6.3 Automated Content Takedown](@/kompendium/techniques/ea-9-6-3-automated-content-takedown.md)</small>
 - Gottman, J. M. (1994). *What Predicts Divorce?*  
-  <small>Citováno: [EA-1.5.1 Emoční podbarvení](@/kompendium/techniques/ea-1-5-1-emocni-podbarveni.md)</small>
+  <small>Citováno: [EA-1.5.3 Emoční podbarvení](@/kompendium/techniques/ea-1-5-3-emocni-podbarveni.md)</small>
 - Gottman, J. M. (1994). *What Predicts Divorce? The Relationship Between Marital Processes and Marital Outcomes*. Lawrence Erlbaum.  
   <small>Citováno: [Detekční signatura: Emocionální modulace](@/kompendium/detection-signatures/16-behavioral-emotional-modulation.md), [Sebe-obrana: Řešení konfliktů](@/kompendium/self-defense-guides/29-conflict-resolution.md)</small>
 - Gould, M. S., Kalafat, J., Harris Munfakh, J. L. a Kleinman, M. (2007). An evaluation of crisis hotline outcomes. Part 2: Suicidal callers. *Suicide and Life-Threatening Behavior*, 37(3), 338–352.  
@@ -3876,7 +3876,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Grice, H. P. (1975). *Logic and Conversation*. In: Cole, P., & Morgan, J. L. (Eds.), *Syntax and Semantics 3: Speech Acts*. Academic Press.  
   <small>Citováno: [Sealioning (lachtaní dotazování)](@/glossary/sealioning.md)</small>
 - Grice, H. P. (1975). Logic and Conversation. In P. Cole & J. L. Morgan (Eds.),  
-  <small>Citováno: [EA-1.4.1 Latentní podbarvení](@/kompendium/techniques/ea-1-4-1-latentni-podbarveni.md)</small>
+  <small>Citováno: [EA-1.4.3 Latentní podbarvení](@/kompendium/techniques/ea-1-4-3-latentni-podbarveni.md)</small>
 - Grice, H. P. (1975). *Logic and conversation*. In P. Cole & J. L. Morgan (Eds.), Syntax and Semantics 3: Speech Acts. Academic Press.  
   <small>Citováno: [Diskurzivní anihilace](@/glossary/diskurzivni-anihilace.md)</small>
 - Grice, H. P. (1975). Logic and conversation. In P. Cole & J. L. Morgan (Eds.), *Syntax and Semantics 3: Speech Acts* (pp. 41–58). New York: Academic Press.  
@@ -4275,7 +4275,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Hassig, R., Oh, K. (2009). *The Hidden People of North Korea: Everyday Life in the Hermit  
   <small>Citováno: [Historický případ: Severokorejská čučche](@/kompendium/historical-cases/4-north-korean-juche.md)</small>
 - Hatfield, E., Cacioppo, J. T., & Rapson, R. L. (1994). *Emotional Contagion*.  
-  <small>Citováno: [EA-1.5.1 Emoční podbarvení](@/kompendium/techniques/ea-1-5-1-emocni-podbarveni.md)</small>
+  <small>Citováno: [EA-1.5.3 Emoční podbarvení](@/kompendium/techniques/ea-1-5-3-emocni-podbarveni.md)</small>
 - Hatfield, E., Cacioppo, J. T., & Rapson, R. L. (1994). *Emotional Contagion*. Cambridge University Press.  
   <small>Citováno: [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)</small>
 - Hausenblas, H. A., & Symons Downs, D. (2002). Exercise dependence: a systematic review.  
@@ -4838,7 +4838,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Insel, T., Cuthbert, B., Garvey, M., et al. (2010). *Research Domain Criteria (RDoC): Toward a new classification framework for research on mental disorders*. American Journal of Psychiatry.  
   <small>Citováno: [Redukcionismus](@/glossary/redukcionismus.md)</small>
 - Ioannidis, J. P. A. (2005). Why most published research findings are false.  
-  <small>Citováno: [EA-1.3.2 Pseudoempirická validace](@/kompendium/techniques/ea-1-3-2-pseudo-empiricka-validace.md)</small>
+  <small>Citováno: [EA-1.3.5 Pseudoempirická validace](@/kompendium/techniques/ea-1-3-5-pseudo-empiricka-validace.md)</small>
 - Ioannidis, J. P. A. (2005). Why most published research findings are false. *PLoS  
   <small>Citováno: [EA-2.4.6 Zachycení recenzního řízení (peer review capture)](@/kompendium/techniques/ea-2-4-6-peer-review-capture.md), [EA-2.4.8 Zachycení časopisu (journal capture)](@/kompendium/techniques/ea-2-4-8-journal-capture.md)</small>
 - Ioannidis, J. P. A. (2005). *Why most published research findings are false*. PLoS Medicine.  
@@ -6069,7 +6069,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Lilienfeld, S. O., Lynn, S. J., & Lohr, J. M. (2015). *Science and Pseudoscience in Clinical Psychology*. Guilford Press.  
   <small>Citováno: [Evidence-based (praxe založená na důkazech)](@/glossary/evidence-based.md)</small>
 - Lilienfeld, S. O., Lynn, S. J., & Lohr, J. M. (Eds.) (2003). *Science and Pseudoscience  
-  <small>Citováno: [EA-1.3.2 Pseudoempirická validace](@/kompendium/techniques/ea-1-3-2-pseudo-empiricka-validace.md)</small>
+  <small>Citováno: [EA-1.3.5 Pseudoempirická validace](@/kompendium/techniques/ea-1-3-5-pseudo-empiricka-validace.md)</small>
 - Lilienfeld, S. O., Lynn, S. J., & Lohr, J. M. (Eds.) (2015). *Science and Pseudoscience in Clinical Psychology* (2. vyd.). New York: Guilford Press.  
   <small>Citováno: [Galileův gambit](@/kompendium/argumentacni-fauly/dialekticke-taktiky/galileuv-gambit.md), [Klamy hodnot, přírody a vědy](@/kompendium/argumentacni-fauly/hodnoty-a-veda/_index.md), [Klam placeba](@/kompendium/argumentacni-fauly/hodnoty-a-veda/klam-placebo.md) a 89 dalších</small>
 - Lilienfeld, S. O., Miller, J. D., & Lynam, D. R. (2018). The Goldwater Rule: Perspectives from, and implications for, psychological science. *Perspectives on Psychological Science*.  
@@ -6207,7 +6207,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Loftus, E. F., & Ketcham, K. (1994). *The Myth of Repressed Memory*. St. Martin's Press.  
   <small>Citováno: [Případ 16: Totalizace v psychoterapii](@/kompendium/case-studies/16-psychoterapeut-totalizace.md), [Iatrogenní účinky intervencí EA](@/kompendium/critical-perspectives/11-iatrogenic-overreach.md), [Disociace ve forenzní praxi](@/kompendium/forensic-legal/3-dissociation-forensic.md) a 1 dalších</small>
 - Loftus, E. F., & Palmer, J. C. (1974). Reconstruction of automobile destruction.  
-  <small>Citováno: [Randomizované studie a jejich etické meze](@/kompendium/research-methodology/RCT-EA-considerations.md), [EA-1.2.2 Paměťová rekonstrukce](@/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce.md)</small>
+  <small>Citováno: [Randomizované studie a jejich etické meze](@/kompendium/research-methodology/RCT-EA-considerations.md), [EA-1.2.5 Paměťová rekonstrukce](@/kompendium/techniques/ea-1-2-5-memorni-rekonstrukce.md)</small>
 - Loftus, E. F., & Palmer, J. C. (1974). Reconstruction of automobile destruction: An example of  
   <small>Citováno: [Interní vyšetřování](@/kompendium/organizational-defense/32-internal-investigation.md)</small>
 - Loftus, E. F., & Palmer, J. C. (1974). Reconstruction of automobile destruction: An example of the interaction between language and memory. *Journal of Verbal Learning and Verbal Behavior*, 13(5), 585–589.  
@@ -6219,7 +6219,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Loftus, E. F., & Palmer, J. C. (1974). Reconstruction of automobile destruction. *Journal of Verbal Learning and Verbal Behavior*, 13(5), 585–589.  
   <small>Citováno: [EA-5.4.40 Past retrokauzality](@/kompendium/techniques/ea-5-4-40-retrokauzalita-trap.md)</small>
 - Loftus, E. F., & Pickrell, J. E. (1995). The formation of false memories.  
-  <small>Citováno: [EA-1.2.2 Paměťová rekonstrukce](@/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce.md)</small>
+  <small>Citováno: [EA-1.2.5 Paměťová rekonstrukce](@/kompendium/techniques/ea-1-2-5-memorni-rekonstrukce.md)</small>
 - Loftus, E. F., & Pickrell, J. E. (1995). The Formation of False Memories. *Psychiatric  
   <small>Citováno: [EA-8.3.4 Empirická výzkumná báze](@/kompendium/techniques/ea-8-3-4-empirical-research-base.md)</small>
 - Loftus, E. F., Pickrell, J. E. (1995). The formation of false memories. *Psychiatric Annals*.  
@@ -7899,7 +7899,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Popper, K. R. (1959). *The Logic of Scientific Discovery.* London: Hutchinson.  
   <small>Citováno: [Falsifikovatelnost – kritérium jako kategorie analýzy](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md), [Argumentační fauly](@/kompendium/argumentacni-fauly/_index.md), [Galileův gambit](@/kompendium/argumentacni-fauly/dialekticke-taktiky/galileuv-gambit.md) a 47 dalších</small>
 - Popper, K. R. (1959). *The Logic of Scientific Discovery* (něm. orig. 1934).  
-  <small>Citováno: [EA-1.3.2 Pseudoempirická validace](@/kompendium/techniques/ea-1-3-2-pseudo-empiricka-validace.md)</small>
+  <small>Citováno: [EA-1.3.5 Pseudoempirická validace](@/kompendium/techniques/ea-1-3-5-pseudo-empiricka-validace.md)</small>
 - Popper, K. R. (1963). *Conjectures and Refutations*.  
   <small>Citováno: [Popperianismus](@/glossary/popperianismus.md), [EA-2.1.8 Inverze reputace (obrácené praní pověsti)](@/kompendium/techniques/ea-2-1-8-reputation-laundering-inverze.md)</small>
 - Popper, K. R. (1963). *Conjectures and Refutations*. London: Routledge.  
@@ -9771,7 +9771,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Toulmin, S. (1958). *The Uses of Argument*. Cambridge: Cambridge University Press.  
   <small>Citováno: [Vzdělávací scénář: Vážení důkazů](@/kompendium/educational-scenarios/7-evidence-weighting.md), [Kurikulum kritického myšlení](@/kompendium/prevention-resilience/8-critical-thinking-curriculum.md)</small>
 - Toulmin, S. (1958). *The Uses of Argument*; srov. [Toulminův model](@/glossary/toulmin-model.md).  
-  <small>Citováno: [EA-1.2.1 Argumentační oslabení](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md)</small>
+  <small>Citováno: [EA-1.2.4 Argumentační oslabení](@/kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md)</small>
 - Toulmin, S. E. (1958). *The Uses of Argument*.  
   <small>Citováno: [Toulminův model argumentace](@/glossary/toulmin-model.md)</small>
 - Toulmin, S. E. (1958). *The Uses of Argument*. Cambridge: Cambridge University Press.  

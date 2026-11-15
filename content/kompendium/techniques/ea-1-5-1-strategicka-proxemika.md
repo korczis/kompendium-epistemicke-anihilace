@@ -9,7 +9,7 @@ tags = ["kompendium", "techniques", "ea-1-5-1", "proxemika", "prostor", "neverba
 categories = ["academic"]
 
 [extra]
-related_terms = ["ea-1-4-2-latentni-emocionalni-modulace", "ea-1-5-1-emocni-podbarveni", "ea-1-5-2-dominantni-telesne-hieroglyfy", "ea-1-5-terminologicka-mystifikace"]
+related_terms = ["ea-1-4-2-latentni-emocionalni-modulace", "ea-1-5-3-emocni-podbarveni", "ea-1-5-2-dominantni-telesne-hieroglyfy", "ea-1-5-terminologicka-mystifikace"]
 ea_code = "EA-1.5.1"
 ea_category = "1. Akademické techniky"
 ea_subcategory = "1.5 Proxemické a kinetické techniky"

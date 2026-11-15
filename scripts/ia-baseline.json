@@ -684,7 +684,7 @@
  ],
  "content/kompendium/05-ultramari-techniky/kapitola-10.md": [
   "bullets:12",
-  "citations:8"
+  "citations:7"
  ],
  "content/kompendium/05-ultramari-techniky/kapitola-6.md": [
   "bullets:16",
@@ -696,11 +696,11 @@
  ],
  "content/kompendium/05-ultramari-techniky/kapitola-8.md": [
   "bullets:13",
-  "citations:7"
+  "citations:4"
  ],
  "content/kompendium/05-ultramari-techniky/kapitola-9.md": [
   "bullets:11",
-  "citations:5"
+  "citations:4"
  ],
  "content/kompendium/06-epistemicka-singularita/_index.md": [
   "bullets:7",
@@ -839,7 +839,7 @@
  ],
  "content/kompendium/08-prilohy/rejstrik-technik.md": [
   "bullets:7",
-  "citations:3"
+  "citations:2"
  ],
  "content/kompendium/08-prilohy/zkratky.md": [
   "bullets:17",
@@ -2426,8 +2426,7 @@
   "citations:5"
  ],
  "content/kompendium/techniques/_index.md": [
-  "bullets:3",
-  "citations:1"
+  "bullets:3"
  ],
  "content/kompendium/techniques/ea-1-1-1-selektivni-expozice.md": [
   "citations:9"

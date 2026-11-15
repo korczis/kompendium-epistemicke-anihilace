@@ -13,7 +13,7 @@
    "sha256": "765a1ebf90bf2aba589e0698d5bdc510de2c73cf9fa2ec48390d632df69049f0"
   },
   "family-ea-5.svg": {
-   "sha256": "b7100691eb496927d42990e10a500ac08025f0110d85de29653fc67f62101888"
+   "sha256": "3b0c7e427f8b400dac856efdfce0c5165df611d0b85b25ed7d739e43dbe9aecc"
   },
   "family-ea-6.svg": {
    "sha256": "b4b554d6ce676e2d84f790a6675f7bc05992d216b0670bb75cf792449cba8696"
@@ -293,8 +293,8 @@
   },
   "og-kompendium-techniques.png": {
    "height": 630,
-   "sha256": "c2f1936b45c2937698737fd4063f1efd608203df1840a17dd273d6b9418f13e4",
-   "source_sha256": "1122402b5ff4f8d3e15ddbd3e801d362069857894483c06d35d52125df85e2bb",
+   "sha256": "eec1412d2457823100941fdd3932362b45ec38c4cf4428a24112412b1c0cd518",
+   "source_sha256": "3b3776d6e8dfe0a2c5561fec55ed83b79007fa1644f60033214c08e2a7fcf2bd",
    "width": 1200
   },
   "og-kompendium-visualizations.png": {
@@ -305,8 +305,8 @@
   },
   "og-kompendium.png": {
    "height": 630,
-   "sha256": "2be028f4ae1f7b88febcaf952e99fd23c99ee69f246976b883bbce27c5015078",
-   "source_sha256": "42b63dd6e20947537fac7c709e642b743316fdb50be791b51e1e837e4f1e456a",
+   "sha256": "29c6b3673b30f080359c48d0ca3bef39aa48db98692ec1e7986162eda347d4ae",
+   "source_sha256": "be74181314d941c5b055148ada0770a608838059ef17ef7e04c5d29da8525594",
    "width": 1200
   },
   "og-philosophy.png": {
@@ -448,13 +448,13 @@
    "sha256": "39a5f0782f5dfe6cc9cd859de9e24bd0119a7d873173a27ef397f753a1ae33e3"
   },
   "section-kompendium-techniques.svg": {
-   "sha256": "0af68fceb14e768785547ce1e45566605ec4203b25e7e01af05461bc500bab79"
+   "sha256": "17d510e1bce30f1c842f337b883588a985d38fd0b80eab00938f60f9ecea114c"
   },
   "section-kompendium-visualizations.svg": {
    "sha256": "7cd757b434f79d93ff190d7cbfa0ca8674801010963f0c75a96d06a0b0bf249a"
   },
   "section-kompendium.svg": {
-   "sha256": "d784a8b1a48e70cceffd190e93428133d8aecccb080926a98e44d4c962731a85"
+   "sha256": "e53ec4fbfb39072f1ac395f3ae6660aeb9174559f35d72418f9638049e6bef44"
   },
   "section-philosophy.svg": {
    "sha256": "7e4f9ec39ff4b5f686d53585ad126c9f17ca0b9731f6606bc3f1bc8ba0941cca"

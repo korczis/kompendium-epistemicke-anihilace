@@ -35,9 +35,11 @@ EOF
 before=$(shasum "$f")
 python3 scripts/link-terms.py --bold >/dev/null 2>&1 || true
 python3 scripts/polish-markdown.py >/dev/null 2>&1 || true
-[ "$(shasum "$f")" = "$before" ] || { echo "the loop page was rewritten"; diff <(git -C "$work" show HEAD:"$f" 2>/dev/null || true) "$f" | head; exit 1; }
+[ "$(shasum "$f")" = "$before" ] || { echo "the loop page was rewritten"; diff <(git -C "$work" show HEAD:"$f" 2>/dev/null || true) "$f" | sed -n 1,10p; exit 1; }
 for rule in catalogue-row bullets citations duplicate-passage; do
-  if python3 scripts/check-ia.py --list "$rule" 2>/dev/null | grep -q '/c43-loop.md'; then echo "loop charged by $rule"; exit 1; fi
+  if python3 scripts/check-ia.py --list "$rule" 2>/dev/null | grep '/c43-loop.md' >/dev/null; then
+    echo "loop charged by $rule"; exit 1
+  fi
 done
 python3 - <<'PY'
 import json, sys

@@ -224,6 +224,7 @@ Tabulka níže je z něj vygenerovaná (`--doc --fix`), ručně se neupravuje a
 | extra | `estimated_reading_time` | glossary | autorský | str |  |
 | extra | `ethics_check_interval` | glossary | autorský | str |  |
 | extra | `evolution_support` | glossary | autorský | str |  |
+| extra | `exploitation` | technique | autorský | str |  |
 | extra | `external_resources` | glossary | autorský | list |  |
 | extra | `false_negative_impact` | glossary | autorský | str |  |
 | extra | `false_positive_impact` | glossary | autorský | str |  |

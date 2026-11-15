@@ -434,7 +434,13 @@ PLAYBOOK_SHAPE = re.compile(
 # heading — the same "Kritický krok" heading in 03/08 is a reader recognition exercise ("vyber
 # techniku, projdi Detekční markery") and is book-wide, so a heading match would flag 53 pages
 # outside 04. This tolerates the prose line wrap between "aplikací" and "protokol".
-PLAYBOOK_APPLIER = re.compile(r"před\s+aplikac[ií][\s\S]{0,60}?\bprotokol", re.I)
+# Also the same checklist SHAPED rather than worded: a line that opens with "Před aplikací" and ends
+# in a colon, and a numbered list
+# right under it, whatever its verbs ("1. Konzultuj … 2. Potvrď … 3. Dokumentuj"). The 06 chapter
+# carried that on 11 pages and the protokol/ověř wording missed it (2026-11-15, 2e).
+PLAYBOOK_APPLIER = re.compile(
+    r"před\s+aplikac[ií][\s\S]{0,60}?\bprotokol"
+    r"|^[ \t]*před\s+aplikac[ií]\b[^\n]{0,40}:[ \t]*\n[ \t]*\n?[ \t]*1[.)]\s", re.I | re.M)
 # The applier-facing PERMISSION (ADR 0013), the counterpart of the applier checklist: a heading on
 # a technique page naming legitimate indications / permitted use / conditions for application grants
 # permission to apply the technique; the book's frame is recognition and defence, not sanctioned
@@ -487,6 +493,17 @@ _DRUG_INNS = [
     r"carbamazepin\w*", r"methylfenidát\w*", r"metylfenidát\w*", r"atomoxetin\w*", r"naltrexon\w*",
     r"naloxon\w*", r"buprenorfin\w*", r"metadon\w*", r"ketamin\w*", r"esketamin\w*",
 ]
+# A cheap pre-filter for DRUG_NAME: every entry is a literal stem + \w*, so a page names a drug
+# only if one of its lower-cased words starts with a stem (str.startswith on a tuple runs in C;
+# the 65-way regex alternation tried at every word boundary was most of drug_names' 4.5 s).
+_DRUG_STEMS = tuple(e[:-3] for e in _DRUG_CLASSES + _DRUG_INNS) + ("ssri", "snri", "imao", "maoi")
+_WORDS = re.compile(r"\w+")
+
+
+def _may_name_drug(prose: str) -> bool:
+    return any(w.startswith(_DRUG_STEMS) for w in _WORDS.findall(prose.lower()))
+
+
 DRUG_NAME = re.compile(
     r"\b(?:" + "|".join(_DRUG_CLASSES + _DRUG_INNS) + r")"
     r"|\bSSRI\b|\bSNRI\b|\bIMAO\b|\bMAOI\b", re.I)
@@ -853,6 +870,12 @@ def drug_names(prose: str) -> list:
     """The distinct named drugs/classes in prose outside bibliography sections (a work's title is
     not a naming claim). content/references.md is excluded by the caller via EXEMPT, the historical
     case pages by DRUG_HISTORY_PREFIX; links to those cases and endogenous chemistry are skipped."""
+    # Most pages name no drug at all. The exemptions and the bibliography cut only REMOVE text, so
+    # a page with no match in its whole prose cannot have one after them: one pass decides it,
+    # instead of three regex passes on every page (2026-11-15 profile: drug_names was 4.9 s of
+    # check-ia's 23.6 s).
+    if not _may_name_drug(prose):
+        return []
     prose = ENDOGENOUS.sub("", HISTORY_LINK.sub("", prose))
     kept, in_biblio = [], False
     for line in prose.split("\n"):

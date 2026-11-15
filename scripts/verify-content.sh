@@ -44,9 +44,13 @@ if [ -n "$unstaged" ]; then
 fi
 # static/css/app.css is built and ignored, so a fresh worktree has none and zola build fails late
 # on "get_url: Could not find or open file css/app.css". Refuse here, before any work, with the
-# command that builds it; copying it from another checkout assumes that checkout is current.
+# command that builds it. A linked worktree has no node_modules either, and `npm run assets`
+# copies the Flowbite bundle out of it, so the hint names `npm ci` when it is missing. Copying the
+# file from another checkout is not offered: Tailwind scans templates, static/js and content
+# (styles/app.css @source), so the same styles/app.css does not mean the same output.
 if [ ! -f static/css/app.css ]; then
-  echo "verify-content: static/css/app.css is missing; run: npm run assets" >&2
+  if [ -d node_modules ]; then hint="npm run assets"; else hint="npm ci && npm run assets"; fi
+  echo "verify-content: static/css/app.css is missing; run: $hint" >&2
   exit 2
 fi
 # A run killed with SIGKILL (a tool timeout, a stopped task) cannot run its EXIT trap and leaves

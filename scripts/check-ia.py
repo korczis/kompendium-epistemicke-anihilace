@@ -424,7 +424,13 @@ PLAYBOOK_SHAPE = re.compile(
 # heading — the same "Kritický krok" heading in 03/08 is a reader recognition exercise ("vyber
 # techniku, projdi Detekční markery") and is book-wide, so a heading match would flag 53 pages
 # outside 04. This tolerates the prose line wrap between "aplikací" and "protokol".
-PLAYBOOK_APPLIER = re.compile(r"před\s+aplikac[ií][\s\S]{0,60}?\bprotokol", re.I)
+# Also the same checklist SHAPED rather than worded: a line that opens with "Před aplikací" and ends
+# in a colon, and a numbered list
+# right under it, whatever its verbs ("1. Konzultuj … 2. Potvrď … 3. Dokumentuj"). The 06 chapter
+# carried that on 11 pages and the protokol/ověř wording missed it (2026-11-15, 2e).
+PLAYBOOK_APPLIER = re.compile(
+    r"před\s+aplikac[ií][\s\S]{0,60}?\bprotokol"
+    r"|^[ \t]*před\s+aplikac[ií]\b[^\n]{0,40}:[ \t]*\n[ \t]*\n?[ \t]*1[.)]\s", re.I | re.M)
 # The applier-facing PERMISSION (ADR 0013), the counterpart of the applier checklist: a heading on
 # a technique page naming legitimate indications / permitted use / conditions for application grants
 # permission to apply the technique; the book's frame is recognition and defence, not sanctioned

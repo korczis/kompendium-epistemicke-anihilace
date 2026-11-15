@@ -173,14 +173,3 @@ Případ ilustruje několik etických aspektů klinické práce s EA traumatem v
 **Klinická intervence vyžaduje licencovanou klinickou supervizi.** Tento
 materiál není terapeutickou příručkou ani diagnostickou metodikou pro
 neformální použití.
-
-Před aplikací:
-
-1. Konzultuj s licencovaným psychoterapeutem / psychiatrem / klinickým
-   psychologem
-2. Potvrď, že [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-   odpovídají profilu klienta
-3. Dokumentuj postup v souladu s [diferenciální diagnostikou](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
-
-> **Mandatorní akce**: aplikace bez licence + supervize + dokumentace je
-> mimo zamýšlený klinický rámec.

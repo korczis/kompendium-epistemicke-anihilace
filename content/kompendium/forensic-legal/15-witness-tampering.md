@@ -48,7 +48,7 @@ oznámením, a proto je oběť vůči nim zvlášť zranitelná (Stark, 2007).
 
 **Přepisování vzpomínek.** Pachatel s obětí „probírá, jak to bylo“, a nabízí vlastní verzi.
 Navazuje tím na dlouhodobý [gaslighting](@/glossary/gaslighting.md) a oběť ji může upřímně
-přijmout (viz [memorní rekonstrukce](@/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce.md)).
+přijmout (viz [memorní rekonstrukce](@/kompendium/techniques/ea-1-2-5-memorni-rekonstrukce.md)).
 Loftus (2005) shrnuje výzkum, podle něhož opakované vystavení cizí verzi události může změnit
 vzpomínku samotnou, nejen ochotu o ní mluvit.
 
@@ -200,5 +200,5 @@ nejlepší ochranou zůstává kvalitní první záznam.
 **Protokoly a techniky**
 
 - [Witness protection v EA-kontextu](@/kompendium/emergency-protocols/40-witness-protection.md) – akutní postup.
-- [Memorní rekonstrukce](@/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce.md) – mechanismus přepisu paměti.
+- [Memorní rekonstrukce](@/kompendium/techniques/ea-1-2-5-memorni-rekonstrukce.md) – mechanismus přepisu paměti.
 - [Stalking Behavior Checklist](@/kompendium/techniques/ea-8-1-3-stalking-behavior-checklist.md) – posouzení pronásledování během řízení.

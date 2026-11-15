@@ -37,9 +37,9 @@ catalog_depth = 1
 catalog_ancestors = ["princip-shovivavosti"]
 catalog_related = ["slameny-panak", "falesna-vyvazenost", "vybirani-podivinu", "pravidlo-stanoviska", "princip-shovivavosti"]
 catalog_related_declared = ["slameny-panak", "princip-shovivavosti", "falesna-vyvazenost", "pravidlo-stanoviska", "vybirani-podivinu"]
-catalog_kompendium = ["kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md", "kompendium/educational-scenarios/_index.md"]
+catalog_kompendium = ["kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md", "kompendium/educational-scenarios/_index.md"]
 catalog_canonical = ""
-catalog_links_prose = ["kompendium/argumentacni-fauly/dialekticke-taktiky/falesna-vyvazenost.md", "kompendium/argumentacni-fauly/dialekticke-taktiky/vybirani-podivinu.md", "kompendium/argumentacni-fauly/relevance/slameny-panak.md", "kompendium/educational-scenarios/_index.md", "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md"]
+catalog_links_prose = ["kompendium/argumentacni-fauly/dialekticke-taktiky/falesna-vyvazenost.md", "kompendium/argumentacni-fauly/dialekticke-taktiky/vybirani-podivinu.md", "kompendium/argumentacni-fauly/relevance/slameny-panak.md", "kompendium/educational-scenarios/_index.md", "kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md"]
 catalog_prev = "princip-shovivavosti"
 catalog_next = "pragma-dialektika"
 catalog_position = 14
@@ -182,7 +182,7 @@ argumentu je užitečné při jeho posouzení, ale nesmí se zaměňovat s rovno
 ## Vztah k technikám kompendia
 
 V kompendiu se opakovaně objevují techniky, které pracují s obrazem protějšku, například
-[argumentační oslabení](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md), při
+[argumentační oslabení](@/kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md), při
 kterém se stanovisko člověka systematicky zobrazuje ve slabší podobě, než jakou má, až ho sám
 přestane umět hájit. Ocelový panák je obranným zrcadlem této techniky: obnovuje nejsilnější věrnou
 podobu stanoviska a vrací ho tam, kde se dá posoudit. Odpovídá to zásadě, podle níž se stanovisko
@@ -236,7 +236,7 @@ nerozumí sporu dost dobře na to, aby ho mohl rozhodnout.
 
 **V kompendiu**
 
-- [EA-1.2.1 Argumentační oslabení](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.2.4 Argumentační oslabení](@/kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 - [Vzdělávací scénáře](@/kompendium/educational-scenarios/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**

@@ -150,7 +150,7 @@ Klientka po pětiletém vztahu hlásí: „Nevím, co se vlastně stalo a co mi 
 
 - **[EA-5.1.10 Temporální dekoherence](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md)** — bez časové kotvy je modální rozlišení podstatně oslabeno; obě techniky se vzájemně potencují.
 - **[EA-5.1.12 Kauzální inverze](@/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md)** — modální chaos je přirozenou půdou pro kauzální zmatek.
-- **[EA-1.2.2 Memorní rekonstrukce](@/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce.md)** — vstupní brána; opakovaná rekonstrukce je přímý nástroj indukce dezorientace.
+- **[EA-1.2.5 Memorní rekonstrukce](@/kompendium/techniques/ea-1-2-5-memorni-rekonstrukce.md)** — vstupní brána; opakovaná rekonstrukce je přímý nástroj indukce dezorientace.
 
 ### Eskaluje do
 
@@ -175,7 +175,7 @@ Klientka po pětiletém vztahu hlásí: „Nevím, co se vlastně stalo a co mi 
   - [EA-5.1.10 Temporální dekoherence](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md)
   - [EA-5.1.12 Kauzální inverze](@/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md)
 - **Související techniky nižších kategorií**:
-  - [EA-1.2.2 Memorní rekonstrukce](@/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce.md)
+  - [EA-1.2.5 Memorní rekonstrukce](@/kompendium/techniques/ea-1-2-5-memorni-rekonstrukce.md)
 - **Glossary**:
   - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
   - [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)

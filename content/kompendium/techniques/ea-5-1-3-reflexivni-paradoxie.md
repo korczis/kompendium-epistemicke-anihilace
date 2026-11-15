@@ -160,8 +160,8 @@ Intervence: Změna supervize na pragmatičtěji orientovaného mentora, povinné
 
 - **[EA-5.1.1 Epistemická kanibalizace](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md)** — když subjekt nedokáže metakognitivně rozlišit vlastní produkci, je snazší ji pohltit.
 - **[EA-5.1.2 Konceptuální nihilace](@/kompendium/techniques/ea-5-1-2-konceptualni-nihilace.md)** — destabilizované pojmy generují produktivnější paradoxy.
-- **[EA-1.2.x Argumentační oslabení](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md)** — paradoxní pole inhibuje subjektovu schopnost argumentovat.
-- **[EA-1.4.x Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-1-latentni-podbarveni.md)** — metakognitivní úzkost je emocionálním palivem techniky.
+- **[EA-1.2.x Argumentační oslabení](@/kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md)** — paradoxní pole inhibuje subjektovu schopnost argumentovat.
+- **[EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)** — metakognitivní úzkost je emocionálním palivem techniky.
 
 ### Eskaluje do
 
@@ -180,7 +180,7 @@ Intervence: Změna supervize na pragmatičtěji orientovaného mentora, povinné
   - [EA-5.1.1 Epistemická kanibalizace](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md)
   - [EA-5.1.2 Konceptuální nihilace](@/kompendium/techniques/ea-5-1-2-konceptualni-nihilace.md)
 - **Příbuzné akademické techniky**:
-  - [EA-1.2.1 Argumentační oslabení](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md)
+  - [EA-1.2.4 Argumentační oslabení](@/kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md)
   - [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)
   - [EA-1.6.1 Vzorec „Guru a adept“](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md)
 - **Glossary**:

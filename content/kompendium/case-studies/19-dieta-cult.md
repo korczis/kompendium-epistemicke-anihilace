@@ -61,7 +61,7 @@ se stupňují, odchylka vyvolává vinu a úzkost a důsledkem je zdravotní i s
 
 Informační prostor komunity určovala [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md):
 sdílela se jen svědectví o uzdravení a potíže se mazaly. Místo ověřitelných dat nastoupila
-[EA-1.3.2 Pseudoempirická validace](@/kompendium/techniques/ea-1-3-2-pseudo-empiricka-validace.md),
+[EA-1.3.5 Pseudoempirická validace](@/kompendium/techniques/ea-1-3-5-pseudo-empiricka-validace.md),
 tedy osobní zkušenost a vědecky znějící jazyk. Goldacre (2008) upozorňuje, že sbírka svědectví
 nemůže nahradit srovnání se skupinou, která danou změnu neprovedla, protože bez něj nelze odlišit
 účinek od náhody a očekávání.

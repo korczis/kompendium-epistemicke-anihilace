@@ -1,5 +1,6 @@
 +++
-title = "EA-1.2.2 Paměťová rekonstrukce"
+title = "EA-1.2.5 Paměťová rekonstrukce"
+aliases = ["/kompendium/techniques/ea-1-2-5-memorni-rekonstrukce/"]
 weight = 100
 description = "Vzorec, v němž se vzpomínky člověka opakovaně přepisují zvenčí, až převáží cizí verze minulosti. Mechanismus, znaky, odlišení, forenzní rámec a obrana."
 
@@ -9,7 +10,7 @@ tags = ["kompendium", "techniques", "ea-1-2", "pamet", "gaslighting"]
 [extra]
 category = "kompendium-technique"
 related_terms = ["ea-4-1-gaslighting", "ea-1-3-4-indukovana-pochybnost", "ea-5-3-2-autobiograficka-dekonstrukce", "ea-5-3-8-mnemonicka-rekonfigurace", "ea-5-3-19-autobiograficka-amnestizace", "ea-1-2-2-falesna-ekvivalence"]
-ea_code = "EA-1.2.2"
+ea_code = "EA-1.2.5"
 ea_category = "1. Akademické techniky"
 ea_subcategory = "1.2 Narušení procesů evaluace a integrace"
 parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
@@ -18,11 +19,11 @@ date_created = "2026-05-03"
 date_modified = "2026-11-10"
 +++
 
-# EA-1.2.2 Paměťová rekonstrukce
+# EA-1.2.5 Paměťová rekonstrukce
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-1.2.2` (sdílí kód s [falešnou ekvivalencí](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md)) |
+| **EA kód** | `EA-1.2.5` |
 | **Kategorie** | 1. Akademické techniky |
 | **Subkategorie** | 1.2 Narušení procesů evaluace a integrace |
 | **Riziková úroveň** | Vysoká ve vztazích závislosti, v terapii a ve výpovědích |

@@ -142,7 +142,7 @@ ipse.
 Ricoeurův pojem manipulované paměti kompendium vztahuje i na mikroúroveň vztahů a skupin: příběh
 o tom, co se stalo, je soustavně vybírán a přeskupován tak, aby potvrzoval výklad mocnějšího
 (Ricoeur, 2000); na úrovni jednotlivce tomu odpovídá
-[paměťová rekonstrukce](@/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce.md). Zrcadlovým
+[paměťová rekonstrukce](@/kompendium/techniques/ea-1-2-5-memorni-rekonstrukce.md). Zrcadlovým
 vzorcem je absolutizované podezření: každá myšlenka člena je vykládána jako projev ega,
 podmínění nebo „starého já“, a proto nemá váhu. Ricoeurova dvojí hermeneutika nabízí měřítko –
 podezření, které nikdy nevede k obnově smyslu, nepomáhá porozumět, ale ruší možnost porozumění

@@ -37,9 +37,9 @@ catalog_depth = 1
 catalog_ancestors = ["sleight-of-mouth"]
 catalog_related = ["chunking", "meta-model", "nespecifikovane-sloveso", "som-zobecneni", "som-zmena-velikosti-ramce", "deframing", "chunking-dolu"]
 catalog_related_declared = ["chunking-dolu", "chunking", "meta-model", "som-zobecneni", "nespecifikovane-sloveso"]
-catalog_kompendium = ["kompendium/techniques/ea-2-3-3-quote-mining.md", "kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md"]
+catalog_kompendium = ["kompendium/techniques/ea-2-3-3-quote-mining.md", "kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md"]
 catalog_canonical = ""
-catalog_links_prose = ["kompendium/nlp-vzorce/jazykove-vzorce/chunking-dolu.md", "kompendium/nlp-vzorce/jazykove-vzorce/chunking-nahoru.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-zobecneni.md", "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md", "kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "kompendium/techniques/ea-2-3-3-quote-mining.md"]
+catalog_links_prose = ["kompendium/nlp-vzorce/jazykove-vzorce/chunking-dolu.md", "kompendium/nlp-vzorce/jazykove-vzorce/chunking-nahoru.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-zobecneni.md", "kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md", "kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "kompendium/techniques/ea-2-3-3-quote-mining.md"]
 catalog_prev = "som-dusledek"
 catalog_next = "som-zobecneni"
 catalog_position = 6
@@ -138,7 +138,7 @@ popisuje jako [těžbu citátů](@/kompendium/techniques/ea-2-3-3-quote-mining.m
 přesměrování pozornosti k obhajitelným detailům, popsané jako
 [tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md), a vyvracení
 nejslabší složky cizího argumentu, které se vydává za vyvrácení celé pozice, popsané jako
-[argumentační oslabení](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md). U
+[argumentační oslabení](@/kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md). U
 člověka, vůči kterému se rozklad opakuje, se objevuje přesvědčení, že na stížnost nemá
 právo, dokud nemá dokonalé záznamy, a že jeho celkový dojem je nespolehlivý (Herman 1992).
 
@@ -232,7 +232,7 @@ byla zkušenost dříve zpochybňována. Opačný pohyb, přechod od části k c
 
 - [EA-2.3.3 Těžba citátů (quote mining)](@/kompendium/techniques/ea-2-3-3-quote-mining.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 - [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
-- [EA-1.2.1 Argumentační oslabení](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.2.4 Argumentační oslabení](@/kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 

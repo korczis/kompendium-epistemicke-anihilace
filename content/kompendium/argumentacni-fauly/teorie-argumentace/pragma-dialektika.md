@@ -37,7 +37,7 @@ catalog_depth = 0
 catalog_ancestors = []
 catalog_related = ["odvedeni-k-procedure", "pravidlo-svobody", "pravidlo-dukazniho-bremene", "pravidlo-uzavreni", "toulminuv-model", "princip-shovivavosti", "dialektika-a-eristika", "argumentacni-teorie-uvazovani"]
 catalog_related_declared = ["pravidlo-svobody", "pravidlo-dukazniho-bremene", "pravidlo-uzavreni", "dialektika-a-eristika", "toulminuv-model", "princip-shovivavosti"]
-catalog_kompendium = ["kompendium/techniques/ea-7-1-4-habermas-communicative-action.md", "kompendium/forensic-legal/_index.md", "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md"]
+catalog_kompendium = ["kompendium/techniques/ea-7-1-4-habermas-communicative-action.md", "kompendium/forensic-legal/_index.md", "kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md"]
 catalog_canonical = ""
 catalog_links_prose = ["kompendium/argumentacni-fauly/predpoklady-argumentu/presun-dukazniho-bremene.md", "kompendium/argumentacni-fauly/teorie-argumentace/dialektika-a-eristika.md", "kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-dukazniho-bremene.md", "kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-svobody.md", "kompendium/forensic-legal/_index.md", "kompendium/techniques/ea-7-1-4-habermas-communicative-action.md"]
 catalog_prev = "ocelovy-panak"
@@ -238,7 +238,7 @@ diskusi ve spor o pravidla, který je sám formou eristiky (van Eemeren a Groote
 
 - [EA-7.1.4 Habermas: komunikativní jednání](@/kompendium/techniques/ea-7-1-4-habermas-communicative-action.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 - [Forenzní a právní rozměr EA](@/kompendium/forensic-legal/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
-- [EA-1.2.1 Argumentační oslabení](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.2.4 Argumentační oslabení](@/kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 

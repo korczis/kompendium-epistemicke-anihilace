@@ -75,7 +75,7 @@ Zde nejde o vědomé techniky, ale o strukturální mechanismy, které mají ste
 to psychické“ vstřebal každý nový příznak, což odpovídá vzorci
 [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md);
 jeho logickou strukturu popsal Popper (1963) jako teorii, které nic nemůže odporovat. Současně
-působila [EA-1.2.2 Paměťová rekonstrukce](@/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce.md):
+působila [EA-1.2.5 Paměťová rekonstrukce](@/kompendium/techniques/ea-1-2-5-memorni-rekonstrukce.md):
 pacientka si své dřívější příznaky začala vybavovat jako „asi přehnané“. Bartlett (1932) ukázal,
 že vzpomínka není záznam, ale rekonstrukce řízená schématem, a nové schéma „přehánění“ tak
 zpětně přepisovalo i to, co pacientka skutečně prožila.

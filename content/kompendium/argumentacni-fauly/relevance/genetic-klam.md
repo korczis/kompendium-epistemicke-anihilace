@@ -37,9 +37,9 @@ catalog_depth = 0
 catalog_ancestors = []
 catalog_related = ["ad-hominem", "okolnostni-ad-hominem", "vina-asociaci", "odvolani-na-tradici", "odvolani-na-bohatstvi", "chronologicky-snobismus", "etymologicky-klam", "bulverismus", "som-meta-ramec"]
 catalog_related_declared = ["ad-hominem", "vina-asociaci", "etymologicky-klam", "odvolani-na-tradici", "som-meta-ramec", "bulverismus"]
-catalog_kompendium = ["kompendium/07-teoreticke-reflexe/socialni-epistemologie.md", "kompendium/02-uvod/filosoficky-ramec.md", "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md"]
+catalog_kompendium = ["kompendium/07-teoreticke-reflexe/socialni-epistemologie.md", "kompendium/02-uvod/filosoficky-ramec.md", "kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md"]
 catalog_canonical = ""
-catalog_links_prose = ["kompendium/argumentacni-fauly/relevance/ad-hominem.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-meta-ramec.md", "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md"]
+catalog_links_prose = ["kompendium/argumentacni-fauly/relevance/ad-hominem.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-meta-ramec.md", "kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md"]
 catalog_prev = "tu-quoque"
 catalog_next = "otraveni-studny"
 catalog_position = 4
@@ -197,7 +197,7 @@ hodnocení argumentu se má soustředit na to, co argument skutečně tvrdí a o
 klidně poukázat, že i kdyby vysvětlení bylo správné, důvody pro názor zůstávají
 neprozkoumané. V terapeutickém nebo skupinovém prostředí, kde se pochybnosti člena soustavně
 vykládají jako projev jeho minulosti či nezralosti, jde o vzorec, který kompendium popisuje
-u [argumentačního oslabení](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md) a
+u [argumentačního oslabení](@/kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md) a
 který zbavuje člověka možnosti, aby jeho námitky byly posouzeny jako námitky.
 
 ## Literatura
@@ -238,7 +238,7 @@ který zbavuje člověka možnosti, aby jeho námitky byly posouzeny jako námit
 
 - [7.3 Sociální epistemologie EA — Goldman, Fricker, Longino, Anderson](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 - [2.5 Filosofický rámec: epistemologie, fenomenologie, hermeneutika](@/kompendium/02-uvod/filosoficky-ramec.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
-- [EA-1.2.1 Argumentační oslabení](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.2.4 Argumentační oslabení](@/kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 

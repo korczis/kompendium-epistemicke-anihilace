@@ -17,7 +17,7 @@ access_level = "L3-L4"
 
 # Kapitola 9 — Paradoxální metaanihilační protokoly
 
-> 🚨 Kapitola popisuje 30 ultramárních technik ([EA-5.4.1](@/kompendium/techniques/ea-5-4-1-lhar-paradox-aplikace.md) a další) exploitujících **sebevztažné paradoxy** k destabilizaci rámců, v nichž subjekt evaluuje pravdivost, validitu a koherenci. Materiály vyžadují IRB autorizaci a etickou supervizi. Veřejně dostupné jsou výhradně kompaktní taxonomické popisy s 60–100 slovními deskripcemi. Operační detaily a rekonstruktivní protokoly zůstávají v restriktivních L4 přílohách. Plné per-technique články pro EA-5.4.* jsou v přípravné fázi.
+> 🚨 Kapitola popisuje 30 ultramárních technik ([EA-5.4.1](@/kompendium/techniques/ea-5-4-1-lhar-paradox-aplikace.md) a další) exploitujících **sebevztažné paradoxy** k destabilizaci rámců, v nichž subjekt evaluuje pravdivost, validitu a koherenci. Materiály vyžadují IRB autorizaci a etickou supervizi. Kniha popisuje techniky kompaktní taxonomickou deskripcí; operační detaily ani rekonstruktivní protokoly neobsahuje. Plné per-technique články pro EA-5.4.* jsou v přípravné fázi.
 
 ## Pozice kapitoly
 
@@ -133,7 +133,7 @@ Subjekt v expozici technikám EA-5.4.* vykazuje:
 
 Sebevztažné paradoxy jsou zvláště citlivé:
 
-- **Vysoká fascinanční hodnota** — subjekty mohou být přitahováni k expozici dobrovolně, považujíc ji za „intelektuální výzvu“. Operační detaily jsou proto restriktivní.
+- **Vysoká fascinanční hodnota** — subjekty mohou být přitahováni k expozici dobrovolně, považujíc ji za „intelektuální výzvu“. Operační detaily kniha proto neuvádí.
 - **Klinická náročnost rekonstrukce** — paradoxalní destrukce zasahuje typovou hierarchii subjektova evaluačního aparátu, a obnova proto míří na schopnost rozlišovat úrovně evaluace. Doloženou terapeutickou metodu specifickou pro tento obraz kniha nezná; dřívější verze tu bez zdroje doporučovala „adjuvantní logickou terapii“.
 - **Riziko v akademickém prostředí** — studenti filozofie a logiky jsou disproporcionálně exponováni klasickým paradoxům jako legitimní pedagogické materii. Pramen o patologických reakcích na pedagogickou expozici kniha nemá; dřívější verze tu tvrdila, že je klinická literatura dokumentuje, a žádnou neuvedla. Riziko tu proto stojí jako hypotéza k pozornosti vyučujících, ne jako doložený výskyt.
 

@@ -116,7 +116,7 @@ kvalita argumentů (Petty a Cacioppo 1986). V uzavřených skupinách a kontrolu
 se vzorce stávají součástí ustáleného jazyka, kterým se pochybnost obrací v selhání toho,
 kdo pochybuje (Lifton 1961; Stark 2007). Kompendium podobné pohyby popisuje i mimo NLP,
 například jako [strategickou reinterpretaci](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md)
-nebo [argumentační oslabení](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md).
+nebo [argumentační oslabení](@/kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md).
 
 Legitimní užití vypadá jinak. Terapeut nebo kouč nabízí jiný úhel pohledu pomalu, jako
 otázku, a nechává klienta, aby ho vyzkoušel a případně odmítl. Takové užití se blíží

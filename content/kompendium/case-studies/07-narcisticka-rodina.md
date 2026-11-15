@@ -70,7 +70,7 @@ a že toto opakování není volbou, ale stopou naučeného přizpůsobení.
 
 Rovinu paměti tvořil [EA-4.1 Gaslighting](@/kompendium/techniques/ea-4-1-gaslighting.md) – „to se
 nikdy nestalo“, „přeháníš“, „vždycky sis vymýšlela“ – a
-[EA-1.2.2 Paměťová rekonstrukce](@/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce.md):
+[EA-1.2.5 Paměťová rekonstrukce](@/kompendium/techniques/ea-1-2-5-memorni-rekonstrukce.md):
 rodinné historky vyprávěné opakovaně v upravené verzi, až se stanou kánonem. Výzkum paměti
 ukazuje, že opakované vyprávění zavádějící verze může původní vzpomínku skutečně přepsat
 (Loftus, 2005); rodinný kánon proto není jen tlakem na souhlas, ale i tlakem na samotnou paměť.

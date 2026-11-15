@@ -133,7 +133,14 @@ Requirements (id: what is checked):
                    sentence in the second cell ("| **Mechanismus** | … |") stays charged. ADR 0013.
                    Remedy: rewrite the row per page, or move a genuine shared field to a template.
                    NEVER baselined
-  access-level-row  no hand-written access level: a "| **Přístupová úroveň** | … |" row in content.
+  access-level-row  no hand-written access level: a "| **Přístupová úroveň** | … |" row in content,
+                   or the same claim as prose ("Přístupová úroveň L3.", "**Přístupová úroveň
+                   L3–L4**:", "Přístupová úroveň L2 (rozšířený přístup) —"), with or without a
+                   leading admonition marker. Removing the row from 420 pages left 41 prose
+                   occurrences in 40 files standing, 30 of them byte-identical on the
+                   quick-reference cards beside those very pages. A heading and a markdown link
+                   label are NOT charged: a documented classification section is its own decision,
+                   and "[Přístupová úroveň oddílu](…)" is navigation, not an assertion.
                    The access level is data (extra.access_level), rendered derived in the page header
                    as a link to 1.5 Bezpečnostní klasifikace; a typed row drifts (it had 11 variants).
                    Remedy: delete the row, rely on access_level. NEVER baselined
@@ -352,7 +359,7 @@ def violations(page: dict) -> list:
         found.append("duplicate-passage")
     if page.get("duplicate_tables"):
         found.append("duplicate-table")
-    if page.get("access_level_row"):
+    if page.get("access_level_row") or page.get("access_level_prose"):
         found.append("access-level-row")
     if page.get("misnamed_techniques"):
         found.append("technique-name")
@@ -385,7 +392,10 @@ def explain(page: dict) -> dict:
         "legitimate-indication": "; ".join(page.get("legitimate_indication", [])[:2]),
         "duplicate-passage": "; ".join(b[:60] for b in page.get("duplicate_passages", [])[:2]),
         "duplicate-table": "; ".join(r[:60] for r in page.get("duplicate_tables", [])[:2]),
-        "access-level-row": "hand-written Přístupová úroveň row" if page.get("access_level_row") else "",
+        "access-level-row": ("hand-written Přístupová úroveň row" if page.get("access_level_row")
+                             else "hand-written Přístupová úroveň L<n> in prose — delete the level"
+                                  " claim, keep the rest of the sentence"
+                             if page.get("access_level_prose") else ""),
         "drug-name": ", ".join(page.get("drug_name", [])),
         "authority-without-source": "; ".join(f"({g})" for g in page.get("pasted_authorities", [])),
         "fabricated-citation": "; ".join(page.get("fabricated_citations", [])[:2]),
@@ -815,6 +825,29 @@ DUP_TABLE_MIN_WORDS = 8
 # page; the row must not be re-typed into content, where it drifts (11 hand-written variants before
 # this). The gate refuses any such row on a kompendium page.
 ACCESS_LEVEL_ROW = re.compile(r"^\|\s*\*\*Přístupová úroveň\*\*\s*\|", re.M)
+# The same claim written as prose rather than a table row. Removing the row from 420 pages left
+# 41 of these standing, 30 of them byte-identical on the quick-reference cards beside the
+# technique pages the row had just been cleared from, so a reader following a card link still met
+# it. The level is shown by the header badge from extra.access_level; a sentence that re-states it
+# is the same hand-written duplicate in a different shape.
+#
+# It matches the phrase followed by a level, however the sentence dresses it: bold or plain, with
+# or without a leading admonition marker, "L3", "L3–L4" (en dash or hyphen) or "L2 (rozšířený
+# přístup)", and a ".", ":" or "—" after it. It does NOT match a heading (a documented
+# classification section is a different decision, not a stray claim) and does NOT match a markdown
+# link label such as "[Přístupová úroveň oddílu](…)", which is navigation to that section rather
+# than an assertion about the current page.
+ACCESS_LEVEL_PROSE = re.compile(
+    r"(?<!\])\*{0,2}Přístupová\s+úroveň\*{0,2}\s*:?\s*"           # the phrase, bold or plain
+    r"\*{0,2}L\s*\d(?:\s*[–-]\s*L?\d)?"                            # L3, L3–L4, L2
+    r"(?:\s*\([^)]*\))?\*{0,2}"                                    # an optional "(rozšířený přístup)"
+    # Closed by "." ":" or a dash — but never by the dash INSIDE a range. Without this lookahead
+    # the engine backtracks on "L3–L4": it gives up the range, then takes the en dash as the
+    # terminator, and "## Přístupová úroveň: L3–L4" matched although a heading must not be charged.
+    # Measured: with it, 39 files on main and the heading untouched; without it, 40 and the heading.
+    r"\s*(?![–-]\s*L?\d)(?:[.:—–-]|\*\*\s*[.:—–-])",
+    re.M,
+)
 
 
 def table_rows(prose: str) -> set:
@@ -907,6 +940,8 @@ def analyse(pages: list) -> dict:
             # stale and is charged, so the exemption is removed with its reason
             names = [] if names else ["stale entry in data/drug-recognition.toml"]
         page["drug_name"] = names
+        page["access_level_prose"] = (page["path"].startswith("kompendium/")
+                                      and bool(ACCESS_LEVEL_PROSE.search(prose)))
         page["access_level_row"] = (page["path"].startswith("kompendium/")
                                     and bool(ACCESS_LEVEL_ROW.search(prose)))
         lower_freq.update(LOWER_WORD.findall(prose))

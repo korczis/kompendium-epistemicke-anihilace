@@ -19,7 +19,7 @@ toc = false
 
 **Oblast:** [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md), skupina 5.1 · **Plná stránka:** [EA-5.1.2 Konceptuální nihilace](@/kompendium/techniques/ea-5-1-2-konceptualni-nihilace.md)
 
-> Přístupová úroveň L3. Karta slouží k rozpoznání a ochraně; popis je strukturní, ne návod.
+> Karta slouží k rozpoznání a ochraně; popis je strukturní, ne návod.
 
 ## Co to je
 

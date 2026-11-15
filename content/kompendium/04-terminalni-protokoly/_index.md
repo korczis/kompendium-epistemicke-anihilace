@@ -17,7 +17,7 @@ status = "publikovano"
 
 # 04. Terminální protokoly
 
-> ⚠️ **Přístupová úroveň L2 (rozšířený přístup)** — Tato sekce popisuje **komplexní sekvence vedoucí k systematické epistemické destrukci**. Materiál je určen výhradně pokročilým výzkumníkům, klinickým specialistům a bezpečnostním analytikům s adekvátním vzděláním, institucionálním zázemím a etickou supervizí. Přístup k této sekci implicitně znamená přijetí etických principů a bezpečnostních protokolů specifikovaných v [Předmluvě](@/kompendium/01-predmluva/_index.md) a [Sekci 02 — Úvod do epistemické anihilace](@/kompendium/02-uvod/_index.md).
+> ⚠️ Tato sekce popisuje **komplexní sekvence vedoucí k systematické epistemické destrukci**. Materiál je určen výhradně pokročilým výzkumníkům, klinickým specialistům a bezpečnostním analytikům s adekvátním vzděláním, institucionálním zázemím a etickou supervizí. Přístup k této sekci implicitně znamená přijetí etických principů a bezpečnostních protokolů specifikovaných v [Předmluvě](@/kompendium/01-predmluva/_index.md) a [Sekci 02 — Úvod do epistemické anihilace](@/kompendium/02-uvod/_index.md).
 
 ## Pozice v rámci kompendia
 

@@ -99,23 +99,23 @@ Inferenční paralýza je odlišitelná od **legitimní filozofické skepse**:
 
 #### 1. Operační instrumentalismus
 
-Přijmi **pragmatický postoj**: inferenční pravidla jsou **nástroje**, které **fungují**, a jejich legitimita spočívá v jejich operačních výsledcích, nikoli ve vnitřním ospravedlnění. *„Modus ponens nepotřebuje dokázat — potřebuje fungovat, a to dělá.“*
+**Pragmatický postoj** zachází s inferenčními pravidly jako s **nástroji**, které **fungují**: jejich legitimita spočívá v operačních výsledcích, nikoli ve vnitřním ospravedlnění. *„Modus ponens nepotřebuje dokázat — potřebuje fungovat, a to dělá.“*
 
 #### 2. Časový limit pro metakognici
 
-Stanov si pravidlo: **maximálně 2 minuty** metakognitivního přezkumu na inferenční krok. Pokud po 2 minutách paralýza pokračuje, **udělej krok** a označ ho jako „operační hypotéza“ otevřená revizi.
+Paralýzu rozpouští ohraničení metakognitivního přezkumu v čase: po jeho vypršení následuje **krok**, označený jako „operační hypotéza“ otevřená revizi. Délku takového ohraničení kniha neuvádí: dřívější verze tu měla pevný časový limit bez zdroje.
 
 #### 3. Deliberátní praxe **rychlého úsudku**
 
-Pravidelně cvič rozhodování pod časovým tlakem v nízko-rizikových doménách. Hra šachu, kvízy, simulované case studies. Cílem je **obnovit operační důvěru** v inferenční reflexy.
+Operační důvěru v inferenční reflexy **obnovuje pravidelné rozhodování** pod časovým tlakem v nízko-rizikových doménách — šachová partie, kvíz, simulovaná case study. Tam, kde taková praxe chybí, se inferenční krok odehrává vždy jen v situacích s vysokou cenou chyby, a paralýza tak zůstává bez protiváhy.
 
 #### 4. Externí epistemická kotva
 
-Pracuj s **mentorem**, který má operační autoritu říct: „Tento závěr je validní, můžeš ho přijmout.“ Externí potvrzení obchází vnitřní paralýzu.
+Paralýzu obchází **mentor** s operační autoritou — člověk, jehož „tento závěr je validní, lze ho přijmout“ má pro dotčeného váhu rozhodnutí. Externí potvrzení tak zastupuje ospravedlnění, které si zasažená [metakognice](@/glossary/metakognice.md) není schopna vydat sama.
 
 #### 5. Wittgensteinova terapie
 
-Studuj **Filozofická zkoumání** (§§185-242) o pravidlech: pravidla nejsou interpretována, jsou **následována**. Paralyzér předpokládá, že pravidlo musí být ospravedlněno — Wittgenstein ukazuje, že žádné takové ospravedlnění není ani potřebné, ani možné, ani relevantní.
+Studuj **Filozofická zkoumání** (§§185-242) o pravidlech: pravidla nejsou interpretována, jsou **následována**. Paralyzér předpokládá, že pravidlo musí být ospravedlněno — Wittgenstein (1953) ukazuje, že žádné takové ospravedlnění není ani potřebné, ani možné, ani relevantní.
 
 ### Institucionální
 
@@ -156,6 +156,10 @@ Soudce se hrdě prezentoval jako „epistemicky pokorný“, odkládal rozsudky 
 ### Alternativy / podobné, ale **distinktivní**
 
 - **Metodická skepse** (Descartes) — strukturálně podobná, ale **časově ohraničená** s návratem k operacionalitě (cogito jako Archimedovský bod).
+
+## Literatura
+
+- Wittgenstein, L. (1953). *Philosophische Untersuchungen* / *Filozofická zkoumání*. Blackwell.
 
 ## Související
 

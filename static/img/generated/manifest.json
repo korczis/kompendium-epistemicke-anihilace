@@ -13,7 +13,7 @@
    "sha256": "765a1ebf90bf2aba589e0698d5bdc510de2c73cf9fa2ec48390d632df69049f0"
   },
   "family-ea-5.svg": {
-   "sha256": "0f6df908ca4aca0ac6ab77819d2de2c96af1a009705676ab995af86a8ea7af9b"
+   "sha256": "b7100691eb496927d42990e10a500ac08025f0110d85de29653fc67f62101888"
   },
   "family-ea-6.svg": {
    "sha256": "b4b554d6ce676e2d84f790a6675f7bc05992d216b0670bb75cf792449cba8696"
@@ -29,8 +29,8 @@
   },
   "og-glossary.png": {
    "height": 630,
-   "sha256": "da86e93c08ce4632c04934667571369eed8c0f354d1a6935183b6f6bdb7c3b1d",
-   "source_sha256": "246ec75dea785426ca868364b4dd54d05a45c489f807d9aaf6e2504e20c36a03",
+   "sha256": "29abf60df2b5c519540b53348c2c476ede5f6fb647c60a0a0439b14d3f3f3222",
+   "source_sha256": "a11fdf0af25dd51d49ee0d95d4a62fe8b906dc7b0699de1e1940ced6980a1ad1",
    "width": 1200
   },
   "og-kompendium-01-predmluva.png": {
@@ -209,8 +209,8 @@
   },
   "og-kompendium-glossary-bridges.png": {
    "height": 630,
-   "sha256": "1a93503ab8605e237cb76dd8b8dd36ed098e384a00d2531e917b8acc4612ae25",
-   "source_sha256": "858cd6add023306dd70a9d529ef1e81670c069e0782013286fc3f6637cc71e15",
+   "sha256": "fe5d5259d21aa01166b4b2d53f3cbadb4e15652455f2b37edab15668835bab62",
+   "source_sha256": "a8d73367663665b39332ef6ae00009bfab53112180b1c318d7f4c4160b6d4dd4",
    "width": 1200
   },
   "og-kompendium-historical-cases.png": {
@@ -293,8 +293,8 @@
   },
   "og-kompendium-techniques.png": {
    "height": 630,
-   "sha256": "5b693c6caa49929d269d85693dae0063bb6d0ec6dc7ac87843c2f084299a02b6",
-   "source_sha256": "d412ee89ac48795ac9237fccf7888e9cdcb28f23f0f55032698b9f63ede2534b",
+   "sha256": "443ecdd0e5a30d8eaca5e46b630ffc6fd315ce4213296dff1a676d70b8c5ddc7",
+   "source_sha256": "d72fc0ad7ae2b18ae54f822f04292c2e00cd3b6397ef7de1f2cf9993d4343fa6",
    "width": 1200
   },
   "og-kompendium-visualizations.png": {
@@ -305,8 +305,8 @@
   },
   "og-kompendium.png": {
    "height": 630,
-   "sha256": "1ac001a4d9a6ad3d6fb477c86f978ebcfaf73a6eba0fd0705082cbaea2cf48e0",
-   "source_sha256": "d53cf9123837b6bb50437abf5744622dd85b8b550deac63765d3ac16b886a267",
+   "sha256": "58e086aed24a9d114f451db07c929484e46620d0d23d5c109b75fd3abf9c5d36",
+   "source_sha256": "f0e2c628e4661734dd77fa0c8f94f62b98ff1c8a95e316d13dabbc6409912ce3",
    "width": 1200
   },
   "og-philosophy.png": {
@@ -316,7 +316,7 @@
    "width": 1200
   },
   "section-glossary.svg": {
-   "sha256": "de0014eb838f410eb626af35061f5661a84a178a46a12b0f2ed559fd4855629f"
+   "sha256": "915c39d38dfda320e2beb719a4bec00622cd558e61167f1954329d1c48c61f47"
   },
   "section-kompendium-01-predmluva.svg": {
    "sha256": "d21995e8c121099c39fef0c36f1910d87343d718c585db28169b1f1986a772a4"
@@ -406,7 +406,7 @@
    "sha256": "e15197790fece1851c467f0675cb72e1b8db8ea2c54fc61a37f2c9fe43191087"
   },
   "section-kompendium-glossary-bridges.svg": {
-   "sha256": "f3d3a9486d415fa1be4fce7df7781a9cdfa2f12d2b8a818fc8c8462e0506fc7a"
+   "sha256": "1574060bc8ce5b5a4ec6eaa2244de1e8e6816f27fbd93b189b66af0f488d8fe1"
   },
   "section-kompendium-historical-cases.svg": {
    "sha256": "8214b1ba64ef5801e35c8ebebff0c2a775b2d2662d0ebe71bf1f15f23cd45b79"
@@ -448,13 +448,13 @@
    "sha256": "39a5f0782f5dfe6cc9cd859de9e24bd0119a7d873173a27ef397f753a1ae33e3"
   },
   "section-kompendium-techniques.svg": {
-   "sha256": "6469c00a6cfb18db4e4e62c22cc79287de2ee74ff31777e0673e3d4f53e53cd0"
+   "sha256": "a37db19c240876a5f08c32e7b06d363685dfc20b4ba4d1bac0baa83ee5ff813d"
   },
   "section-kompendium-visualizations.svg": {
    "sha256": "7cd757b434f79d93ff190d7cbfa0ca8674801010963f0c75a96d06a0b0bf249a"
   },
   "section-kompendium.svg": {
-   "sha256": "4fcf08cdf01bc9e7bb892d6fe88abba1e32e064d275ac96f8dd8be76f81429ff"
+   "sha256": "651748c093c89d89f88a77d43642f10d231d25ec54a2b3dc34a2079d883b8e3f"
   },
   "section-philosophy.svg": {
    "sha256": "7e4f9ec39ff4b5f686d53585ad126c9f17ca0b9731f6606bc3f1bc8ba0941cca"

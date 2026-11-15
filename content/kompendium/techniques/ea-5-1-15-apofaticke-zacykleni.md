@@ -146,7 +146,7 @@ Doktorand v posledním roce psaní disertace začal vykazovat rostoucí neschopn
 
 Detekce: Externí supervizor zjistil, že subjekt nedokáže odpovědět na otázku *„Co tedy tvrdíš?“* bez několikahodinového řetězce dvojích negací.
 
-Intervence: Strukturovaný program s denním limitem kritiky (60 minut), povinným tvořením **jedné** pozitivní teze denně, externí supervize kontrolující dodržování. Disertace přepracována za 11 měsíců.
+Intervence: Strukturovaný program, v němž byl kritický výklad časově ohraničen, tvorba vlastní pozitivní teze se stala pravidelným úkolem a externí supervize sledovala, zda se obojí drží. **Délku ani počet kniha neuvádí**: dřívější verze tu měla denní limit i denní kvótu bez zdroje. Disertace přepracována za 11 měsíců.
 
 ### Případ 2 — Účastník dlouhodobé kontemplativní praxe
 

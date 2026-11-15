@@ -8,12 +8,12 @@ tags = ["kompendium"]
 
 [extra]
 toc = false
-entries = 5281
+entries = 5282
 +++
 
 Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotlivých stránkách kompendia a glosáře; ručně se needituje.
 
-**5281 položek**, seřazených podle autora.
+**5282 položek**, seřazených podle autora.
 
 ## A
 
@@ -5106,7 +5106,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Kant, I. (1781/1787). *Kritik der reinen Vernunft*.  
   <small>Citováno: [Syntetické a analytické soudy](@/glossary/synteticke-analyticke.md)</small>
 - Kant, I. (1781/1787). *Kritik der reinen Vernunft* (Kritika čistého rozumu).  
-  <small>Citováno: [Věc o sobě (Ding an sich)](@/glossary/ding-an-sich.md), [Hraniční koncept](@/glossary/hranicni-koncept.md), [Kantovy kategorie](@/glossary/kantovy-kategorie.md) a 1 dalších</small>
+  <small>Citováno: [Věc o sobě (Ding an sich)](@/glossary/ding-an-sich.md), [Hraniční koncept](@/glossary/hranicni-koncept.md), [Kantovy kategorie](@/glossary/kantovy-kategorie.md) a 2 dalších</small>
 - Kant, I. (1781/1787). *Kritik der reinen Vernunft*. Riga: Johann Friedrich Hartknoch.  
   <small>Citováno: [Kapitola 7: Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md)</small>
 - Kant, I. (1781). *Kritik der reinen Vernunft*.  
@@ -10431,6 +10431,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Diskurzivní anihilace](@/glossary/diskurzivni-anihilace.md), [Bridge: Gestalt shift (gestaltový přesmyk)](@/kompendium/glossary-bridges/bridge-gestalt-shift.md), [EA-5.4.41 Implantace bootstrap paradoxu](@/kompendium/techniques/ea-5-4-41-bootstrap-paradox-implantace.md) a 24 dalších</small>
 - Wittgenstein, L. (1953). *Philosophische Untersuchungen* (Filosofická zkoumání).  
   <small>Citováno: [Konsenzuální realita](@/glossary/konsenzualni-realita.md)</small>
+- Wittgenstein, L. (1953). *Philosophische Untersuchungen* / *Filozofická zkoumání*. Blackwell.  
+  <small>Citováno: [EA-5.1.16 Inferenční paralýza](@/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md), [EA-5.1.18 Solipsistická dekompozice](@/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice.md)</small>
 - **Wittgenstein, L.** (1953). *Philosophische Untersuchungen*. Oxford: Blackwell. — Jazykové hry, rodinné podobnosti.  
   <small>Citováno: [Kapitola 7: Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md), [Bibliografie a primární literatura](@/kompendium/08-prilohy/bibliografie.md), [EA-5.2.24 Analytická anihilace](@/kompendium/techniques/ea-5-2-24-analyticka-anihilace.md) a 1 dalších</small>
 - Wittgenstein, L. (1953). *Philosophische Untersuchungen / Philosophical Investigations*.  

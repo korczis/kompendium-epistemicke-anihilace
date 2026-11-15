@@ -132,7 +132,7 @@ Nelze-li na kteroukoli z nich v daném okamžiku odpovědět, je to **výstraha*
 
 #### 2. **Externí ontologická kotva**
 
-Udržuj **pravidelný kontakt** s prostředím, které **vynucuje** kategoriální distinkce: pracovní úkol s konkrétními cíli, fyzická aktivita s objektivní zpětnou vazbou (sport, řemeslo), formální text s explicitní strukturou.
+Ontologickou kotvou je **pravidelný kontakt** s prostředím, které **vynucuje** kategoriální distinkce: pracovní úkol s konkrétními cíli, fyzická aktivita s objektivní zpětnou vazbou (sport, řemeslo), formální text s explicitní strukturou. Takové prostředí distinkci neudržuje přesvědčováním, nýbrž tím, že její setření má okamžitý a pozorovatelný důsledek.
 
 #### 3. **Temporální pinning**
 

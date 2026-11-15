@@ -8,6 +8,7 @@ description = "Paralingvistický vzorec, v němž tón, důraz a pauzy dávají 
 tags = ["kompendium", "techniques", "ea-1-4", "paralingvistika", "implikatura"]
 
 [extra]
+exploitation = "Implikatura nesená hlasem, za kterou mluvčí neodpovídá"
 category = "kompendium-technique"
 related_terms = ["ea-1-4-1-prosodicka-dominance", "ea-1-4-2-latentni-emocionalni-modulace", "ea-1-5-3-emocni-podbarveni", "ea-1-1-1-selektivni-expozice", "ea-1-2-4-argumentacni-oslabeni", "ea-2-3-2-context-collapse"]
 ea_code = "EA-1.4.3"

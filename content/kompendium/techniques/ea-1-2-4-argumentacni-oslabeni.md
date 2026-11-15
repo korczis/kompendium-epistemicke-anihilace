@@ -8,6 +8,7 @@ description = "Vzorec, v němž se cizí argument posuzuje v nejslabší možné
 tags = ["kompendium", "techniques", "ea-1-2", "argumentace", "evaluace"]
 
 [extra]
+exploitation = "Důvěra publika v parafrázi místo původního znění"
 category = "kompendium-technique"
 related_terms = ["ea-1-2-1-falesne-dilema", "ea-1-2-2-falesna-ekvivalence", "ea-2-3-3-quote-mining", "ea-2-3-2-context-collapse", "ea-1-3-6-sokratovska-past", "ea-1-2-5-memorni-rekonstrukce"]
 ea_code = "EA-1.2.4"

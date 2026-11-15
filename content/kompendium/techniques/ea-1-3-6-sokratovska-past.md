@@ -8,6 +8,7 @@ description = "Zneužití sokratovského tázání: řada otázek s jedinou při
 tags = ["kompendium", "techniques", "ea-1-3", "argumentace", "dialog"]
 
 [extra]
+exploitation = "Asymetrie rolí a postupně ukládané drobné ústupky"
 category = "kompendium-technique"
 related_terms = ["ea-1-2-4-argumentacni-oslabeni", "ea-1-2-1-falesne-dilema", "ea-1-3-2-strategicka-reinterpretace", "ea-1-6-1-vzorec-guru-a-adept", "ea-1-6-5", "ea-5-1-13-hyperreflexivita"]
 ea_code = "EA-1.3.6"

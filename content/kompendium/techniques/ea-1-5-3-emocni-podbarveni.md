@@ -8,6 +8,7 @@ description = "Neverbální vzorec, v němž mimika, gesta a práce s odstupem s
 tags = ["kompendium", "techniques", "ea-1-5", "neverbalni-komunikace", "emoce"]
 
 [extra]
+exploitation = "Evaluační podmiňování a emoční nákaza ve skupině"
 category = "kompendium-technique"
 related_terms = ["ea-1-5-1-strategicka-proxemika", "ea-1-5-2-dominantni-telesne-hieroglyfy", "ea-1-4-3-latentni-podbarveni", "ea-1-4-2-latentni-emocionalni-modulace", "ea-2-4-falesny-konsensus", "ea-1-6-1-vzorec-guru-a-adept"]
 ea_code = "EA-1.5.3"

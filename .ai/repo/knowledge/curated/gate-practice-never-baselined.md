@@ -58,3 +58,11 @@ Instruments that misled the same sessions, and the reading that held:
 - This site's 404 page carries the full navigation, so a fetch of a wrong URL still "contains" the
   site's words. Guard every production check with the HTTP status (`curl -w '%{http_code}'`).
 - A run reads `queued` while its first job runs; read the jobs, not the run's label.
+- A CI watcher keyed on "the newest run for this sha" reported a pre-merge head's green as the
+  merged head's: `[ "$h" != "9738c87d"* ]` is not a glob in POSIX `test`, so it filtered nothing.
+  Pin the run id of the push you made and watch that id; the sha moves under you, the id does not.
+- `scripts/ia-baseline.json` is written with each page's charges sorted, so a reorder shows as a
+  large diff that moves nothing. Compare it as a set per page before reading a ratchet move into it.
+- After a merge, derived files (`static/data/*.json`) are regenerated from the merged content,
+  never hand-merged, and checked for zero conflict markers before staging: a `<<<<<<<` staged into
+  derived data passes every content gate.

@@ -306,7 +306,7 @@ PENDING_ZERO = {"placeholder": 0, "technique-page": 0, "howto": 0, "drug-dose": 
                 "duplicate-table": 249,  # measured on merged main c8394d3e after Přístupová úroveň removal; bold-label→short-value exempt
                 "access-level-row": 0,  # the row is derived from extra.access_level; 0 after removal
                 # the one known case: EA-5.3.27 on two pages, its kapitola-8 row naming neither
-                "duplicate-ea-code": 2,
+                "duplicate-ea-code": 0,
                 # the hand-written catalogues when the rule came in (ADR 0015); each converts on its branch
                 "catalogue-row": 3,
                 # safety, ADR 0013/0014: both reach 0 after the content lane's waves

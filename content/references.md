@@ -1960,7 +1960,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Conrad, P., & Schneider, J. W. (1980). *Deviance and Medicalization: From Badness to Sickness*. Mosby.  
   <small>Citováno: [Medikalizace morálního selhání](@/kompendium/critical-perspectives/1-medicalization-critique.md)</small>
 - Conway, M. A., & Pleydell-Pearce, C. W. (2000). The construction of autobiographical  
-  <small>Citováno: [EA-5.3.27 Autobiografická fragmentace já](@/kompendium/techniques/ea-5-3-27-autobiografi-self-fragmentace.md)</small>
+  <small>Citováno: [EA-5.3.31 Autobiografická fragmentace já](@/kompendium/techniques/ea-5-3-31-autobiografi-self-fragmentace.md)</small>
 - Conway, M. A., & Pleydell-Pearce, C. W. (2000). The construction of autobiographical memories in the self-memory system. *Psychological Review*.  
   <small>Citováno: [Rekonstrukce časové osy](@/kompendium/forensic-legal/33-timeline-reconstruction.md)</small>
 - Conway, M. A., & Pleydell-Pearce, C. W. (2000). *The construction of autobiographical memories in the self-memory system*. Psychological Review, 107(2).  
@@ -6576,7 +6576,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - McAdams, D. P. (1985). *Power, Intimacy, and the Life Story: Personological Inquiries into Identity*. Guilford.  
   <small>Citováno: [Narativní identita (narrative identity)](@/glossary/narativni-identita.md)</small>
 - McAdams, D. P. (1993). *The Stories We Live By*.  
-  <small>Citováno: [EA-5.3.27 Autobiografická fragmentace já](@/kompendium/techniques/ea-5-3-27-autobiografi-self-fragmentace.md)</small>
+  <small>Citováno: [EA-5.3.31 Autobiografická fragmentace já](@/kompendium/techniques/ea-5-3-31-autobiografi-self-fragmentace.md)</small>
 - McAdams, D. P. (1993). *The Stories We Live By: Personal Myths and the Making of the Self*.  
   <small>Citováno: [Subakutní narativní externalizace](@/kompendium/recovery-protocols/subacute-narrative-externalization.md)</small>
 - McAdams, D. P. (1993). *The Stories We Live By: Personal Myths and the Making of the Self*. Guilford.  
@@ -8239,7 +8239,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Ricoeur, P. (1985). *Temps et récit III: Le temps raconté*. Seuil.  
   <small>Citováno: [7.17 Ricoeur: Trojí mimésis a narativní identita](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md)</small>
 - Ricoeur, P. (1990). *Soi-même comme un autre*.  
-  <small>Citováno: [Ipseita](@/glossary/ipseita.md), [EA-2.5.9 Pěstování identitní nejistoty](@/kompendium/techniques/ea-2-5-9-identity-uncertainty-cult.md), [EA-5.3.27 Autobiografická fragmentace já](@/kompendium/techniques/ea-5-3-27-autobiografi-self-fragmentace.md)</small>
+  <small>Citováno: [Ipseita](@/glossary/ipseita.md), [EA-2.5.9 Pěstování identitní nejistoty](@/kompendium/techniques/ea-2-5-9-identity-uncertainty-cult.md), [EA-5.3.31 Autobiografická fragmentace já](@/kompendium/techniques/ea-5-3-31-autobiografi-self-fragmentace.md)</small>
 - Ricoeur, P. (1990). *Soi-même comme un autre*. Éditions du Seuil.  
   <small>Citováno: [Identitární manipulace – přehled tématu](@/kompendium/02-identitarni-manipulace.md), [Narativní trauma – poškození životního příběhu](@/kompendium/05-ultramari-techniky/narrativni-trauma.md)</small>
 - Ricoeur, P. (1990). *Soi-même comme un autre*. Paris: Seuil.  

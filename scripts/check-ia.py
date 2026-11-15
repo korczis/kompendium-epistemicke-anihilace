@@ -140,6 +140,13 @@ Requirements (id: what is checked):
                    sentence in the second cell ("| **Mechanismus** | … |") stays charged. ADR 0013.
                    Remedy: rewrite the row per page, or move a genuine shared field to a template.
                    NEVER baselined
+  alias-collision  a Zola alias is a free old address: refused, on the page that carries it, an alias
+                   equal to the page's own address (a no-op that redirects nothing; c5200028 gave six
+                   renumbered techniques one instead of their old address, and those URLs went 404),
+                   or equal to another page's address or to another page's alias (one path, two
+                   things served). Trailing slashes are normalised. Remedy: the alias names the
+                   address the page had before it moved, and that address is served by nothing else.
+                   NEVER baselined
   duplicate-ea-code  one EA code names one technique: two technique pages (content/kompendium/
                    techniques/) whose extra.ea_code is the same are both refused. A quick-reference
                    card or other page carrying a technique's code is about that technique and is not
@@ -285,7 +292,7 @@ NEVER_BASELINED = {"placeholder", "technique-page", "howto", "drug-dose", "templ
                    "clinical-figure", "fabricated-citation", "legitimate-indication",
                    "code-range", "chrome-trailer",
                    "detail", "weak-link",
-                   "duplicate-passage", "duplicate-table", "access-level-row", "duplicate-ea-code",
+                   "duplicate-passage", "duplicate-table", "access-level-row", "duplicate-ea-code", "alias-collision",
                    "drug-name", "authority-without-source",
                    "platform-section", "relative-link", "platform-label", "platform-frontmatter",
                    "philosophy-frame"}
@@ -381,6 +388,8 @@ def violations(page: dict) -> list:
         found.append("access-level-row")
     if page.get("duplicate_ea_code"):
         found.append("duplicate-ea-code")
+    if page.get("alias_collisions"):
+        found.append("alias-collision")
     if page.get("misnamed_techniques"):
         found.append("technique-name")
     if page["bold_unlinked"]:
@@ -416,6 +425,8 @@ def explain(page: dict) -> dict:
                              else "hand-written Přístupová úroveň L<n> in prose — delete the level"
                                   " claim, keep the rest of the sentence"
                              if page.get("access_level_prose") else ""),
+        "alias-collision": ("; ".join(f"{a} is {why}" for a, why in page["alias_collisions"])
+                            if page.get("alias_collisions") else ""),
         "duplicate-ea-code": (f"{page['duplicate_ea_code'][0]} is also the ea_code of "
                               + ", ".join(page["duplicate_ea_code"][1])
                               if page.get("duplicate_ea_code") else ""),
@@ -1039,6 +1050,25 @@ def analyse(pages: list) -> dict:
     for page in pages:
         page["duplicate_passages"] = sorted(b for b, paths in dup_shared.items()
                                             if page["path"] in paths)
+    # alias-collision: an alias is a free old address, not the page's own nor another page's.
+    def as_path(a: str) -> str:
+        return "/" + a.strip().strip("/") + "/"
+    served = {as_path(page["url"]): page["path"] for page in pages}
+    claimed = collections.defaultdict(set)
+    for page in pages:
+        for a in page.get("url_aliases", []):
+            claimed[as_path(a)].add(page["path"])
+    for page in pages:
+        hits = []
+        for a in page.get("url_aliases", []):
+            at = as_path(a)
+            if served.get(at) == page["path"]:
+                hits.append((a, "the page's own address"))
+            elif at in served:
+                hits.append((a, f"the address of {served[at]}"))
+            elif len(claimed[at]) > 1:
+                hits.append((a, "also an alias of " + ", ".join(sorted(claimed[at] - {page["path"]}))))
+        page["alias_collisions"] = hits
     # duplicate-ea-code: one EA code, one technique page. Only the technique pages' own
     # extra.ea_code counts; a card or page citing the code is about the technique, not another one.
     by_code = collections.defaultdict(set)

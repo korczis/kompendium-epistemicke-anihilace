@@ -1,6 +1,6 @@
 +++
 title = "EA-1.2.5 Paměťová rekonstrukce"
-aliases = ["/kompendium/techniques/ea-1-2-5-memorni-rekonstrukce/"]
+aliases = ["/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce/"]
 weight = 100
 description = "Vzorec, v němž se vzpomínky člověka opakovaně přepisují zvenčí, až převáží cizí verze minulosti. Mechanismus, znaky, odlišení, forenzní rámec a obrana."
 

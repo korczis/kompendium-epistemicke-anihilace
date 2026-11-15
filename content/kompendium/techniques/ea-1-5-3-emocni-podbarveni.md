@@ -1,6 +1,6 @@
 +++
 title = "EA-1.5.3 Emoční podbarvení"
-aliases = ["/kompendium/techniques/ea-1-5-3-emocni-podbarveni/"]
+aliases = ["/kompendium/techniques/ea-1-5-1-emocni-podbarveni/"]
 weight = 100
 description = "Neverbální vzorec, v němž mimika, gesta a práce s odstupem spojují osobu nebo téma s pohrdáním či odporem, aniž by zaznělo jediné tvrzení. Znaky, odlišení, obrana."
 

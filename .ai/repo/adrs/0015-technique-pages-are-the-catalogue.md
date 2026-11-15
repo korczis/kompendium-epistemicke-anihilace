@@ -114,3 +114,31 @@ the integrator (dev-31) on the mesh:
   families. Where the book had two wordings (1.1–1.5), the chapter text's was chosen: the
   kapitola-1 and techniques-index wording occurs 5–12 times outside the register, the register's
   own 0–1 times. A family named nowhere in the book (1.6, 2.2–2.5, 3.x, 4.x, 6.x) keeps its code.
+
+## Amendment, 2026-11-15: the cluster maps of kapitola-8, 9 and 10
+
+This is an application of the owner's answer P above, not a new owner decision; the integrator
+(dev-31) confirmed on the mesh that it is within P. Measured in session
+`a70e6c7e-b525-4e86-bcd0-65a5d3593446` on `feature/derived-catalogue`:
+
+- Each of the three chapters had a "Strukturální mapa: 30 technik EA-5.x v šesti klastrech" and
+  six "Klastr A–F" sections: catalogue tables cut by code range, with intros making thematic
+  claims about the techniques in each range.
+- The themes do not hold for the pages. kapitola-9 "Lhářské varianty" (5.4.1–5.4.5) holds the
+  pages on the liar, Russell's type violation, Tarski's diagonalisation, Gödelian
+  self-reflection and Wittgenstein's rule-following; "Russellovské varianty" (5.4.6–5.4.10) holds
+  Konvergentní paradox, Epimenides, Quine, Cantor and Berry.
+- Pages 5.3.1–5.3.6 and 5.5.1–5.5.6 carry exactly the six cluster titles as technique names: the
+  bulk generation of 2026-04-26 turned the cluster titles into techniques.
+- The ranges and the "30 technik" headings stop at 30, while families 5.3 and 5.4 have 37 and 60
+  pages: 36 pages were in no cluster. The closing summaries named row-only "vrcholové techniky"
+  (5.3.28 "Vrcholová hypertransformace" over the page "Pseudo-self implantace", 5.4.28
+  "Konvergentní paradox", EA-5.4.6's page, 5.5.28 "Konvergentní transkonceptualita" over
+  "Olfaktická modulace").
+
+So each chapter's map and clusters became one derived section, "Techniky EA-5.x", with the count
+taken from catalogue.json; the closing summaries were rewritten to the pages, and nothing else in
+the kept sections changed. The six pages named after clusters keep their names: under P the pages
+are the techniques, and renaming them is a separate content slice. The rows had been most of each
+chapter's running text, so each chapter gained a sourced section on the literature its page names
+draw on, framed as recognition and distinction, with its own Literatura.

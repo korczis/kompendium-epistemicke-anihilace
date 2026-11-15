@@ -142,12 +142,13 @@ Requirements (id: what is checked):
                    free code of its family, with its title, links and catalogue row. Pending zero at
                    the two pages of EA-5.3.27 (ego-skeletalni-redukce, autobiografi-self-fragmentace),
                    whose chapter row names neither; NEVER baselined
-  catalogue-row  no hand-written catalogue row: a content table row whose first cell is a bold EA code
-                   ("| **[EA-1.2.1](…)** | … |" or "| **EA-5.3.22** | … |"). A technique's catalogue
+  catalogue-row  no hand-written catalogue row: a content table row whose first cell is an EA technique
+                   code, bold or in backticks ("| **[EA-1.2.1](…)** | … |", "| **EA-5.3.22** | … |",
+                   "| [`EA-1.1.1`](…) | … |"). A technique's catalogue
                    entry is its page's front matter (code, title, description), and a chapter renders
                    its table from static/data/catalogue.json with load_data (ADR 0015); the row a loop
                    renders is not in the source. Not charged: a technique heading with prose under it,
-                   a row whose first cell is not a bold code. Remedy: replace the table with the
+                   a row whose first cell is not a technique code. Remedy: replace the table with the
                    family's load_data loop. NEVER baselined
   access-level-row  no hand-written access level: a "| **Přístupová úroveň** | … |" row in content,
                    or the same claim as prose ("Přístupová úroveň L3.", "**Přístupová úroveň
@@ -307,11 +308,13 @@ PENDING_ZERO = {"placeholder": 0, "technique-page": 0, "howto": 0, "drug-dose": 
                 # the one known case: EA-5.3.27 on two pages, its kapitola-8 row naming neither
                 "duplicate-ea-code": 2,
                 # the hand-written catalogues when the rule came in (ADR 0015); each converts on its branch
-                "catalogue-row": 5,
+                "catalogue-row": 4,
                 # safety, ADR 0013/0014: both reach 0 after the content lane's waves
                 "drug-name": 1, "authority-without-source": 0}  # 0 → never baselined (lands at 0 after 2e's slice)
-# A hand-written catalogue row: first cell a bold EA code, linked or not (ADR 0015).
-CATALOGUE_ROW = re.compile(r"^\|\s*\*\*\s*\[?EA-\d+\.\d+\.\d+\]?(?:\([^)]*\))?\s*\*\*\s*\|")
+# A hand-written catalogue row: the first cell is an EA technique code, bold or in backticks, linked
+# or not ("| **[EA-1.2.1](…)** |", "| **EA-5.3.22** |", "| [`EA-1.1.1`](…) |", "| `EA-2.1.1` |").
+CATALOGUE_ROW = re.compile(r"^\|\s*(?:\*\*\s*\[?EA-\d+\.\d+\.\d+\]?(?:\([^)]*\))?\s*\*\*"
+                           r"|\[?`EA-\d+\.\d+\.\d+`\]?(?:\([^)]*\))?)\s*\|")
 BOLD_CANDIDATE_PAGES = 3  # a bold phrase on this many pages is a term and needs its own page
 
 

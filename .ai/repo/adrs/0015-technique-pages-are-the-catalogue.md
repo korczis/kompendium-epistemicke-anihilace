@@ -94,3 +94,23 @@ The owner's answer, verbatim: "P: the pages (Recommended)".
 - Row-only names from kapitola-8 to 10 leave the book; one that a source later supports enters as
   a page with its own code, never as a row.
 - Anything that reads the chapter tables as data reads the technique pages' front matter instead.
+
+## Amendment, 2026-11-15: the register and the family names
+
+Found while converting, measured in session `a70e6c7e-b525-4e86-bcd0-65a5d3593446` and agreed with
+the integrator (dev-31) on the mesh:
+
+- `08-prilohy/rejstrik-technik.md` was a sixth hand-written catalogue: 90 rows with the code in
+  backticks, which the first form of the gate did not see. 42 of the 90 named a different
+  technique from the page under the code (2.1.1 "Ad hominem konstrukce" over "Expertní
+  disinflace"); none of the 42 names is any page's title, one (7.3.8) only differs in wording; 409
+  codes had no row. It follows decision 3: it is rendered from the pages. `klasifikace.md`'s
+  notation examples had the same drift (EA-5.1.30 "Apoteoza prázdna" over "Konceptuální
+  entropie") and now take the name from the catalogue. `catalogue-row` refuses a backticked code
+  as well as a bold one.
+- Chapter and family names have one source, `data/families.toml`, which build-graph,
+  catalogue.json and every derived table read; the register's headings are no longer a source,
+  because they are rendered from it. The 2025 original taxonomy (ADR 0005) does not name the
+  families. Where the book had two wordings (1.1–1.5), the chapter text's was chosen: the
+  kapitola-1 and techniques-index wording occurs 5–12 times outside the register, the register's
+  own 0–1 times. A family named nowhere in the book (1.6, 2.2–2.5, 3.x, 4.x, 6.x) keeps its code.

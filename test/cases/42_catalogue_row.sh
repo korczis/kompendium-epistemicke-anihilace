@@ -1,16 +1,19 @@
 #!/usr/bin/env bash
-# Requirement `catalogue-row` of scripts/check-ia.py (ADR 0015): a technique's catalogue entry is its
-# page's front matter, and a chapter renders its catalogue table from static/data/catalogue.json with
-# load_data. A hand-written catalogue row in content, a table row whose first cell is a bold EA
-# code, is refused: it is the row that drifted from its page (kapitola-8 to 10 named 70 of 90
-# techniques other than the pages they linked) and the reason six codes came to sit on thirteen
-# pages.
+# Requirement `catalogue-row` of scripts/check-ia.py (ADR 0015): a technique's catalogue entry
+# is its page's front matter, and a chapter renders its catalogue table from
+# static/data/catalogue.json with load_data. A hand-written catalogue row in content, a table row
+# whose first cell is an EA technique code, bold or in backticks, linked or not, is refused: it is
+# the row that drifted from its page (kapitola-8 to 10 named 70 of 90 techniques other than the
+# pages they linked, the register 42 of 90) and the reason six codes came to sit on thirteen pages.
 #
 # Not charged, each because it is not a hand-written catalogue row:
 #   * the same row produced by a load_data loop: the source holds the loop, not the row;
-#   * a heading naming a technique ("#### [EA-5.2.11 …](…)"), kapitola-7's form, with prose under it;
-#   * a row whose first cell is not a bold code: a family table ("| **Rodina** | 5.1.1 — 5.1.5 |"),
-#     a case table with the code in a later cell, a card's "| **EA kód** | `EA-1.2.4` |".
+#   * a heading naming a technique ("#### [EA-5.2.11 …](…)"), kapitola-7's form, with prose
+#     under it;
+#   * a row whose first cell is not a technique code (EA-N.M.K): a family table
+#     ("| **Rodina** | 5.1.1 — 5.1.5 |", "| `EA-9.1` | … |"), a case table with the code in a
+#     later cell, a card's "| **EA kód** | `EA-1.2.4` |";
+#   * a row whose names are derived (`{{ … }}`), as klasifikace's notation examples are.
 # The fixtures are pages of their own, so the case does not depend on the live book.
 set -euo pipefail
 
@@ -31,6 +34,16 @@ page c42-linked "c42-linked" '| EA | Technika | Shrnutí |
 page c42-bare "c42-bare" '| EA | Technika |
 |---|---|
 | **EA-5.3.22** | Vývojová inverze |'
+page c42-tick-linked "c42-tick-linked" '| Kód | Název |
+|---|---|
+| [`EA-1.1.1`](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) | Selektivní expozice |'
+page c42-tick-bare "c42-tick-bare" '| Kód | Název |
+|---|---|
+| `EA-2.1.1` | Ad hominem konstrukce |'
+page c42-group "c42-group" '| Skupina | Obsah |
+|---|---|
+| `EA-9.1` | Jazykové modely |
+| `EA-1.4.2-a` | {{ cat.entries["EA-1.4.2"].name }}, varianta a |'
 page c42-loop "c42-loop" '{% set cat = load_data(path="static/data/catalogue.json") %}| EA | Technika | Shrnutí |
 |---|---|---|
 {% for t in cat.families["1.2"] %}| **[{{ t.code }}](@/kompendium/techniques/{{ t.slug }}.md)** | {{ t.name }} | {{ t.summary }} |
@@ -47,6 +60,9 @@ page c42-family "c42-family" '| Rodina | Kódy |
 listed
 has   c42-linked                 # a hand-written row linking its technique
 has   c42-bare                   # a hand-written row naming a code, linked or not
+has   c42-tick-linked            # the register's form: a backticked code, linked
+has   c42-tick-bare              # a backticked code, unlinked
+hasnt c42-group                  # a family code (EA-N.M), a derived example row
 hasnt c42-loop                   # the row a load_data loop renders
 hasnt c42-heading                # a technique heading with prose under it
 hasnt c42-family                 # family row, code in a later cell, a card's field

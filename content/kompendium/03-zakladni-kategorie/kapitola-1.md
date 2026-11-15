@@ -112,7 +112,7 @@ Distinktním přínosem taxonomie EA-1 oproti Frickerové je **mikroúroveň tec
 
 Následující taxonomie systematicky kategorizuje {{ n }} technik intelektuální manipulace v akademickém kontextu. Každá technika je kategorizována podle primární epistemické funkce, kterou narušuje, a dominantního modu operace. Každý kód [EA-1.X.Y] odkazuje na samostatný hloubkový článek v podknihovně technik.
 
-### 1.1 Narušení procesů akvizice poznání
+### 1.1 {{ cat.family_names["1.1"] }}
 
 Tyto techniky primárně cílí na procesy, jejichž prostřednictvím jsou nové informace získávány a inicálně evaluovány. Společným charakteristickým rysem je manipulace s **input vrstvou** epistemické zkušenosti — subjekt obdrží zkreslené nebo limitované informace dříve, než má příležitost iniciovat kritickou evaluaci. Tyto techniky jsou zvlášť nebezpečné v formativních akademických kontextech (úvodní kurzy, orientační přednášky, přehledové publikace), protože konfigurují fundamentální epistemickou krajinu subjektu.
 
@@ -126,7 +126,7 @@ Tyto techniky primárně cílí na procesy, jejichž prostřednictvím jsou nov�
 
 **Detail EA-1.1.3 (Terminologická mystifikace)**: Používání zbytečně komplexní, obskurní nebo idiosynkratické terminologie prezentované jako nezbytné odborné výrazivo. Operační modus vytváří nepřístupnou „expertní“ jazykovou doménu inhibující kritickou evaluaci a vytvářející falešnou epistemickou hierarchii. Fenomenologicky: pocit epistemické nedostatečnosti, atribuce nepochopení vlastním kognitivním limitům spíše než problematické prezentaci. Rizikové kontexty: interdisciplinární diskurzy, emergentní výzkumné domény, metodologické diskuse. Neutralizace: request pro definice, identifikace zbytečně komplexních formulací, demystifikační parafráze, evaluace substantivního obsahu za terminologickou fasádou.
 
-### 1.2 Narušení procesů evaluace a integrace
+### 1.2 {{ cat.family_names["1.2"] }}
 
 Tyto techniky primárně cílí na procesy kritické evaluace a integrace informací do existujícího epistemického systému. Společným rysem je manipulace s **evaluační vrstvou** — subjekt informace získává adekvátně, ale je narušen jeho schopnost je porovnávat, hierarchizovat a integrovat do existujícího rámce poznání. Důsledkem je často **epistemická paralýza** nebo nesprávná kategorizace informací.
 
@@ -140,7 +140,7 @@ Tyto techniky primárně cílí na procesy kritické evaluace a integrace inform
 
 **Detail EA-1.2.3 (Iluzorní komplexita)**: Prezentace fundamentálně jasného nebo rozřešeného problému jako vysoce komplexního, kontroverzního nebo nerozřešitelného. Operační modus představuje umělou komplikaci jednoduchých problémů skrze irelevantní faktory, marginální nuance nebo pseudo-technické detaily. Fenomenologicky: epistemická nejistota a tendence suspendovat úsudek navzdory adekvátní dostupné evidenci. Rizikové kontexty: diskurz ohledně vědeckého konsensu, politizované debaty, strategické narativy zájmových skupin. Neutralizace: fokus na centrální propoziční jádro, identifikace irelevantních komplikujících faktorů, rozlišení mezi legitimními nuancemi a uměle vytvořenou komplexitou.
 
-### 1.3 Narušení procesů revize a falsifikace
+### 1.3 {{ cat.family_names["1.3"] }}
 
 Tyto techniky primárně cílí na procesy kritického přezkumu a případné revize existujících přesvědčení a teorií. Společným rysem je manipulace s **revizní vrstvou** — subjekt může korektně získat informace a evaluovat je, ale je narušena jeho schopnost konfrontovat existující přesvědčení s novou evidencí. Vzniká **epistemická setrvačnost**, jež chrání problematické pozice před oprávněnou revizí.
 
@@ -154,7 +154,7 @@ Tyto techniky primárně cílí na procesy kritického přezkumu a případné r
 
 **Detail EA-1.3.3 (Tematická diverze)**: Systematické přesměrování diskurzu od potenciálně problematických nebo falsifikujících aspektů teorie k irelevantním, triviálně pravdivým nebo defensible aspektům. Operační modus exploituje konverzační fluiditu a epistemickou kontinuitu mezi distinktními tématy. Fenomenologicky: kontinuální „následování králíka do nory“, frustrace z neschopnosti adresovat centrální problematické body. Rizikové kontexty: akademické debaty, peer review proces, pedagogické diskuse. Neutralizace: explicitní dokumentace původního kontroverzního bodu, rekurzivní návrat k centrální otázce, meta-konverzační poznámky identifikující diverzi.
 
-### 1.4 Paralingvistické techniky
+### 1.4 {{ cat.family_names["1.4"] }}
 
 Tyto techniky využívají aspekty řečové produkce mimo samotný lingvistický obsah. Zatímco techniky 1.1–1.3 operují primárně skrze obsah, paralingvistické techniky operují skrze **formu** prezentace — subjekt může být manipulován i přes naprosto neutrální propoziční obsah skrze způsob, jakým je tento obsah dodán. Tyto techniky jsou obzvláště nebezpečné, protože **operují pod prahem vědomé detekce** a tradičních argumentačních analytických metod.
 
@@ -166,7 +166,7 @@ Tyto techniky využívají aspekty řečové produkce mimo samotný lingvistick�
 
 **Detail EA-1.4.2 (Latentní emocionální modulace)**: Subtilní indukce specifických emocionálních stavů (anxiety, frustrace, vina) k modulaci kognitivních procesů a epistemických tendencí. Operační modus exploituje vliv emocionálních stavů na kognitivní zpracování, tendenci k heuristické evaluaci a toleranci kognitivní disonance. Fenomenologicky: emocionální diskomfort při zvažování určitých propozic, často bez explicitního vědomí zdroje. Rizikové kontexty: pedagogické diskuse, mentorské vztahy, akademické konfrontace. Neutralizace: mindfulness ohledně emocionálních reakcí, temporální separace emocionální zkušenosti od epistemické evaluace, explicitní identifikace manipulativního důrazu.
 
-### 1.5 Proxemické a kinetické techniky
+### 1.5 {{ cat.family_names["1.5"] }}
 
 Tyto techniky využívají prostorové a tělesné aspekty komunikace. Operují na nejhlubší předjazykové vrstvě interakce — exploitují **evoluční předispozice** k interpretaci specifických tělesných a prostorových konfigurací jako signálů hierarchie a dominance. V akademickém kontextu jsou tyto techniky frequently zcela neidentifikované, ačkoli mohou strukturovat celé interakční pole konference, semináře nebo konzultace.
 

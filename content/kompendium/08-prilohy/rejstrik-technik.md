@@ -18,6 +18,8 @@ access_level = "L1-L4"
 status = "complete"
 +++
 
+{% set cat = load_data(path="static/data/catalogue.json") %}
+
 # Kompletní rejstřík technik (master index)
 
 > **Master index všech technik kompendia.** Tabulky obsahují EA kód, kanonický název, jednořádkový popis a odkaz na detailní per-technique článek. Slouží jako primární navigační vrstva pro per-technique podknihovnu v `/kompendium/techniques/`.
@@ -38,203 +40,112 @@ Detailní popis notace viz [Klasifikační schéma](@/kompendium/08-prilohy/klas
 
 ---
 
-## Kapitola 1 — Akademické techniky
+## Kapitola 1 — {{ cat.chapter_names["1"] }}
 
 > **Subjekt akademického a intelektuálního prostředí.** Techniky využívají legitimní akademické nástroje (selektivní citace, falešné dilema, rétorika autority) k systematické dezorientaci. Riziko: **střední**, reverzibilita: **vysoká**.
 
-### 1.1 Akvizice poznání
+{% for f in cat.chapters["1"] %}{% set fname = cat.family_names[f] | default(value="") %}
+### EA-{{ f }}{% if fname %} {{ fname }}{% endif %}
 
 | Kód | Název | Jednořádkový popis |
 |-----|-------|--------------------|
-| [`EA-1.1.1`](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) | Selektivní expozice | Strategický výběr informačních pramenů vytvářející iluzi vyváženosti. |
-| [`EA-1.1.2`](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) | Informační přetížení | Záměrné zahlcení daty znemožňující kritické vyhodnocení. |
-| [`EA-1.1.3`](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) | Terminologická mystifikace | Konstrukce odborně znějících termínů bez denotativního obsahu. |
-
-### 1.2 Logická manipulace
-
-| Kód | Název | Jednořádkový popis |
-|-----|-------|--------------------|
-| [`EA-1.2.1`](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) | Falešné dilema | Redukce komplexního problému na binární volbu. |
-| [`EA-1.2.2`](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md) | Falešná ekvivalence | Postavení nesouměřitelných pozic do zdánlivé symetrie. |
-| [`EA-1.2.3`](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) | Iluzorní komplexita | Umělé komplikování jednoduchých témat za účelem neutralizace. |
-
-### 1.3 Falsifikační obrana
-
-| Kód | Název | Jednořádkový popis |
-|-----|-------|--------------------|
-| [`EA-1.3.1`](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) | Imunizace proti falsifikaci | Konstrukce tvrzení nepřístupných empirickému přezkumu. |
-| [`EA-1.3.2`](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) | Strategická reinterpretace | Posun významu pojmů tak, aby falsifikační evidence ztratila platnost. |
-| [`EA-1.3.3`](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) | Tematická diverze | Přesměrování diskuse od kritického bodu k bezpečnému tématu. |
-
-### 1.4 Prosodická a paralingvistická vrstva
-
-| Kód | Název | Jednořádkový popis |
-|-----|-------|--------------------|
-| [`EA-1.4.1`](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) | Prosodická dominance | Použití hlasového rejstříku k vytvoření iluze autority. |
-| [`EA-1.4.2`](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) | Latentní emocionální modulace | Podprahový emoční tón rámující obsah. |
-
-### 1.5 Proxemická a tělesná vrstva
-
-| Kód | Název | Jednořádkový popis |
-|-----|-------|--------------------|
-| [`EA-1.5.1`](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md) | Strategická proxemika | Manipulace fyzickou vzdáleností a prostorovým uspořádáním. |
-| [`EA-1.5.2`](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md) | Dominantní tělesné hieroglyfy | Posturální dominance jako neverbální argument. |
+{% for t in cat.families[f] %}| [`{{ t.code }}`](@/kompendium/techniques/{{ t.slug }}.md) | {{ t.name }} | {{ t.summary }} |
+{% endfor %}
+{% endfor %}
 
 ---
 
-## Kapitola 2 — Delegitimizační techniky
+## Kapitola 2 — {{ cat.chapter_names["2"] }}
 
 > **Cíl: zničení epistemické důvěryhodnosti zdroje.** Riziko: **střední–vysoké**, reverzibilita: **střední**. Plné articulace v sekci [03 Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md) a [04 Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md).
 
+{% for f in cat.chapters["2"] %}{% set fname = cat.family_names[f] | default(value="") %}
+### EA-{{ f }}{% if fname %} {{ fname }}{% endif %}
+
 | Kód | Název | Jednořádkový popis |
 |-----|-------|--------------------|
-| `EA-2.1.1` | Ad hominem konstrukce | Útok na osobu místo argumentu, formalizovaný akademickou rétorikou. |
-| `EA-2.1.2` | Asociativní diskreditace | Spojení s negativně valencovanou skupinou bez evidence vazby. |
-| `EA-2.2.1` | Selektivní zveřejnění minulosti | Vytržené historické fragmenty vytvářející zkreslený narativ. |
-| `EA-2.2.2` | Konstruktivní mlčení | Strategické nepřipomínání pozitivních faktů. |
-| `EA-2.3.1` | Kvalifikační útok | Zpochybnění formálních předpokladů (titul, instituce, etnicita). |
-| `EA-2.3.2` | Procedurální disqualifikace | Použití formálních pravidel k vyloučení nepohodlného hlasu. |
-
-> **Stav publikace**: detailní per-technique články pro Kapitolu 2 jsou v přípravě.
+{% for t in cat.families[f] %}| [`{{ t.code }}`](@/kompendium/techniques/{{ t.slug }}.md) | {{ t.name }} | {{ t.summary }} |
+{% endfor %}
+{% endfor %}
 
 ---
 
-## Kapitola 3 — Edukativní implementace
+## Kapitola 3 — {{ cat.chapter_names["3"] }}
 
 > **Cíl: naučit subjekt manipulovat sebe sama.** Riziko: **vysoké**, reverzibilita: **nízká–střední**. Pokrývá doménu vzdělávacích, terapeutických a coachingových kontextů.
 
+{% for f in cat.chapters["3"] %}{% set fname = cat.family_names[f] | default(value="") %}
+### EA-{{ f }}{% if fname %} {{ fname }}{% endif %}
+
 | Kód | Název | Jednořádkový popis |
 |-----|-------|--------------------|
-| `EA-3.1.1` | Pseudokritické myšlení | Trénink „kritičnosti“ zaměřený výhradně na vnější autority. |
-| `EA-3.1.2` | Internalizace metaframu | Adopce výkladového rámce jako vlastního světonázoru. |
-| `EA-3.2.1` | Konfesní cyklus | Periodická veřejná sebedeklarace upevňující skupinovou loyalitu. |
-| `EA-3.2.2` | Pedagogická triangulace | Učitel hraje roli jak autority, tak rivala, tak průvodce. |
-| `EA-3.3.1` | Epistemická úzkost | Indukce stálé pochybnosti o vlastním poznání. |
-
-> **Stav publikace**: detailní per-technique články pro Kapitolu 3 jsou v přípravě.
+{% for t in cat.families[f] %}| [`{{ t.code }}`](@/kompendium/techniques/{{ t.slug }}.md) | {{ t.name }} | {{ t.summary }} |
+{% endfor %}
+{% endfor %}
 
 ---
 
-## Kapitola 4 — Terminální protokoly
+## Kapitola 4 — {{ cat.chapter_names["4"] }}
 
 > **Komplexní destrukční sekvence kombinující techniky z předchozích kapitol.** Riziko: **vysoké–extrémní**, reverzibilita: nízká. Vyžaduje úroveň přístupu **L2+**. Plný popis v [Sekci 04](@/kompendium/04-terminalni-protokoly/_index.md).
 
+{% for f in cat.chapters["4"] %}{% set fname = cat.family_names[f] | default(value="") %}
+### EA-{{ f }}{% if fname %} {{ fname }}{% endif %}
+
 | Kód | Název | Jednořádkový popis |
 |-----|-------|--------------------|
-| `EA-4.1.1` | Epistemická anihilace plná | Sekvenční aplikace 1.x + 2.x + 3.x do úplného kolapsu epistemické autonomie. |
-| `EA-4.2.1` | Skupinová homogenizace | Eliminace vnitroskupinové epistemické diverzity. |
-| `EA-4.3.1` | Hierarchická kaskáda | Top-down distribuce manipulačních protokolů přes mocenskou strukturu. |
-
-> **Stav publikace**: detailní per-technique články pro Kapitolu 4 jsou v přípravě (vyžadují IRB schválení).
+{% for t in cat.families[f] %}| [`{{ t.code }}`](@/kompendium/techniques/{{ t.slug }}.md) | {{ t.name }} | {{ t.summary }} |
+{% endfor %}
+{% endfor %}
 
 ---
 
-## Kapitola 5 — Ultramární techniky
+## Kapitola 5 — {{ cat.chapter_names["5"] }}
 
 > **Fundamentální dekonstrukce.** Cíl: rozklad **základních struktur poznávání samotného**. Riziko: **extrémní**, reverzibilita: **velmi nízká**. Vyžaduje úroveň přístupu **L3+** s etickým dohledem.
 
+{% for f in cat.chapters["5"] %}{% set fname = cat.family_names[f] | default(value="") %}
+### EA-{{ f }}{% if fname %} {{ fname }}{% endif %}
+
 | Kód | Název | Jednořádkový popis |
 |-----|-------|--------------------|
-| [`EA-5.1.1`](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md) | Epistemická kanibalizace | Subjekt používá vlastní poznávací nástroje k destrukci téhož. |
-| `EA-5.1.2` | Reflexivní inverze | Obrácení reflexe proti reflexi samotné. |
-| `EA-5.1.3` | Sebenosný paradox | Vnoření paradoxu do identitárního jádra. |
-| [`EA-5.1.4`](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md) | Sémantická imploze | Kolaps významu pojmů zevnitř, bez vnějšího odporu. |
-| `EA-5.1.5` | Lexikální vyprázdnění | Postupné vyprazdňování jádrových termínů zachováním obalu. |
-| `EA-5.1.6` | Konceptuální štěpení | Rozdělení jednotného pojmu na neslučitelné fragmenty. |
-| [`EA-5.1.7`](@/kompendium/techniques/ea-5-1-7-referencni-rekurze.md) | Referenční rekurze | Nekonečná smyčka odkazů bez dosažení referentu. |
-| `EA-5.1.8` | Sebepojmenovávací paradox | Pojem, který nemůže označovat sám sebe ani něco jiného. |
-| `EA-5.1.9` | Meta-meta-narativní kolaps | Destrukce na úrovni vyprávění o vyprávění o vyprávění. |
-| [`EA-5.1.10`](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md) | Temporální dekoherence | Rozbití koherentního vnímání plynutí času. |
-| `EA-5.1.11` | Anachronická záměna | Přiřazení současného významu historickému kontextu jako pravdivý překlad. |
-| `EA-5.1.12` | Kauzální inverze | Záměna příčiny a následku v narativní struktuře. |
-| [`EA-5.1.13`](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md) | Hyperreflexivita | Patologická reflexe znemožňující jakoukoliv akci. |
-| `EA-5.1.14` | Identitární dezintegrace | Postupný rozpad jádrových identifikátorů self. |
-| `EA-5.1.15` | Existenciální derealizace | Ztráta pocitu reality vlastní existence. |
-| [`EA-5.1.16`](@/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md) | Inferenční paralýza | Neschopnost vyvodit závěr z jasných premis. |
-| `EA-5.1.17` | Modalitní zmatek | Záměna nutnosti, možnosti a aktuálnosti. |
-| `EA-5.1.18` | Pravdo-falešová indiference | Vyhasnutí relevance pravdivosti. |
-| [`EA-5.1.19`](@/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace.md) | Kvazi-mystická anihilace | Imitace transcendentní zkušenosti za účelem destrukce reflexe. |
-| `EA-5.1.20` | Spirituální bypass | Použití spirituální terminologie k vyhnutí se etické konfrontaci. |
-| `EA-5.1.21` | Sakralizace destrukce | Přiřazení posvátného statusu rozkládajícímu procesu. |
-| [`EA-5.1.22`](@/kompendium/techniques/ea-5-1-22-diferencialni-nihilace.md) | Diferenciální nihilace | Eliminace schopnosti rozlišovat — vše splývá. |
-| `EA-5.1.23` | Hodnotová dezorientace | Ztráta hierarchie hodnot, ekvivalence triviality a důležitosti. |
-| `EA-5.1.24` | Etická amnézie | Vymazání vzpomínky na vlastní etické intuice. |
-| [`EA-5.1.25`](@/kompendium/techniques/ea-5-1-25-singularni-narativni-kolaps.md) | Singulární narativní kolaps | Jediný narativ konzumuje všechny ostatní. |
-| `EA-5.1.26` | Polyfonní zámlka | Více protichůdných narativů potlačí všechen smysl. |
-| `EA-5.1.27` | Anti-narativní kasace | Aktivní destrukce vyprávění jako takového. |
-| [`EA-5.1.28`](@/kompendium/techniques/ea-5-1-28-konvergentni-singularita.md) | Konvergentní singularita | Sjednocení všech rozdílů do jednoho bodu, kde mizí poznání. |
-| `EA-5.1.29` | Ireverzibilní transcendence | Bod, za nímž návrat do předchozí epistemické struktury není možný. |
-| `EA-5.1.30` | Apoteoza prázdna | Konečná deifikace ztráty jako cíle. |
-
-> **Stav publikace**: 10/30 technik Kapitoly 5 publikováno v plné formě, zbytek v přípravě.
+{% for t in cat.families[f] %}| [`{{ t.code }}`](@/kompendium/techniques/{{ t.slug }}.md) | {{ t.name }} | {{ t.summary }} |
+{% endfor %}
+{% endfor %}
 
 ---
 
-## Kapitola 6 — Klinické aplikace
+## Kapitola 6 — {{ cat.chapter_names["6"] }}
 
 > **Diagnostické a terapeutické rámce** pro práci s pacienty exponovanými technikám EA. Plný popis v [Sekci 06](@/kompendium/06-klinicke-aplikace/_index.md) a [Diagnostických nástrojích](@/kompendium/08-prilohy/diagnosticke-nastroje.md).
 
+{% for f in cat.chapters["6"] %}{% set fname = cat.family_names[f] | default(value="") %}
+### EA-{{ f }}{% if fname %} {{ fname }}{% endif %}
+
 | Kód | Název | Jednořádkový popis |
 |-----|-------|--------------------|
-| `EA-6.1.1` | Diagnostické rozhovorové protokoly | Strukturované rozhovory pro detekci EA expozice. |
-| `EA-6.2.1` | Třífázová terapeutická sekvence | Stabilizace → rekonstrukce → reintegrace. |
-| `EA-6.3.1` | Preventivní edukace | Trénink epistemické imunity. |
+{% for t in cat.families[f] %}| [`{{ t.code }}`](@/kompendium/techniques/{{ t.slug }}.md) | {{ t.name }} | {{ t.summary }} |
+{% endfor %}
+{% endfor %}
 
 ---
 
-## Kapitola 7 — Teoretické reflexe
+## Kapitola 7 — {{ cat.chapter_names["7"] }}
 
 > **Filozofické, epistemologické a kognitivně-vědní zázemí taxonomie.** Kapitola 7 neobsahuje techniky v užším smyslu: kódy `EA-7.*` označují teoretické rámce, jimiž se jevy z kapitol 1–5 vysvětlují, kriticky prověřují a zasazují do dějin myšlení. Rozcestník kapitoly je [Sekce 07](@/kompendium/07-teoreticke-reflexe/_index.md), přehled tradic podle oborů [Filozofické tradice](@/kompendium/07-teoreticke-reflexe/filozoficke-tradice/_index.md), grafický přehled [mapa teoretických rámců](@/kompendium/07-teoreticke-reflexe/visualizations.md).
 
 ### 7.A Kódované teoretické rámce `EA-7.*`
 
-Třicet hesel ve třech skupinách. Každé popisuje myšlenku autora, to, co z ní plyne pro rozpoznání epistemické anihilace, a meze jejího použití.
+{% set n7 = 0 %}{% for f in cat.chapters["7"] %}{% set_global n7 = n7 + cat.families[f] | length %}{% endfor %}{{ n7 }} hesel ve {{ cat.chapters["7"] | length }} skupinách. Každé popisuje myšlenku autora, to, co z ní plyne pro rozpoznání epistemické anihilace, a meze jejího použití.
 
-#### EA-7.1 Kontinentální filozofie a kritická teorie
-
-| Kód | Název | Jednořádkový popis |
-|-----|-------|--------------------|
-| [`EA-7.1.1`](@/kompendium/techniques/ea-7-1-1-foucault-power-knowledge.md) | Foucault: moc a vědění | Vědění a moc se vzájemně podmiňují; kdo určuje, co platí za pravdu, ovládá i prostor možného poznání. |
-| [`EA-7.1.2`](@/kompendium/techniques/ea-7-1-2-foucault-discipline.md) | Foucault: Dohlížet a trestat | Disciplinární instituce formují subjekt dohledem a normalizací; rámec pro totalitní prostředí. |
-| [`EA-7.1.3`](@/kompendium/techniques/ea-7-1-3-adorno-instrumental-reason.md) | Adorno: [instrumentální rozum](@/glossary/instrumental-reason.md) | Rozum zúžený na prostředek k cíli ztrácí schopnost ptát se po cílech samých. |
-| [`EA-7.1.4`](@/kompendium/techniques/ea-7-1-4-habermas-communicative-action.md) | Habermas: komunikativní jednání | Měřítko nezkreslené komunikace, proti němuž se dá popsat strategické zkreslení rozhovoru. |
-| [`EA-7.1.5`](@/kompendium/techniques/ea-7-1-5-arendt-banality-evil.md) | Arendtová: [banalita zla](@/glossary/banalita-zla.md) | Zlo vykonané bez myšlení a úsudku; selhání úsudku jako společný jmenovatel. |
-| [`EA-7.1.6`](@/kompendium/techniques/ea-7-1-6-sloterdijk-spheres.md) | Sloterdijk: sféry | Člověk žije ve sdílených „bublinách“ smyslu; jejich uzavření je předpoklad epistemické izolace. |
-| [`EA-7.1.7`](@/kompendium/techniques/ea-7-1-7-deleuze-rhizome.md) | Deleuze a Guattari: rhizom | Necentrovaná síť vztahů jako model decentralizovaných a těžko dohledatelných vlivů. |
-| [`EA-7.1.8`](@/kompendium/techniques/ea-7-1-8-derrida-deconstruction.md) | Derrida: dekonstrukce | Rozbor nestability významu; hranice mezi kritickým čtením a rozkladem smyslu. |
-| [`EA-7.1.9`](@/kompendium/techniques/ea-7-1-9-heidegger-dasein.md) | Heidegger: pobyt (Dasein) | Bytí-ve-světě a starost; co se ztrácí, když je člověku vzat jeho svět. |
-| [`EA-7.1.10`](@/kompendium/techniques/ea-7-1-10-merleau-ponty-embodiment.md) | Merleau-Ponty: vtělenost | Vnímání je tělesné; teoretický základ somatických vrstev technik a tělesně zaměřené obnovy. |
-
-#### EA-7.2 Epistemologie a filozofie vědy
+{% for f in cat.chapters["7"] %}{% set fname = cat.family_names[f] | default(value="") %}
+#### EA-{{ f }}{% if fname %} {{ fname }}{% endif %}
 
 | Kód | Název | Jednořádkový popis |
 |-----|-------|--------------------|
-| [`EA-7.2.1`](@/kompendium/techniques/ea-7-2-1-fricker-epistemic-injustice.md) | Fricker: epistemická nespravedlnost | Svědectví a hermeneutická nespravedlnost: člověku se nevěří, nebo chybí pojmy pro jeho zkušenost. |
-| [`EA-7.2.2`](@/kompendium/techniques/ea-7-2-2-goldman-veritism.md) | Goldman: veritismus | Sociální praxe se hodnotí podle toho, zda zvyšují podíl pravdivých přesvědčení. |
-| [`EA-7.2.3`](@/kompendium/techniques/ea-7-2-3-popper-falsification.md) | Popper: [falsifikace](@/glossary/falsifikace.md) | Teorie, kterou nic nemůže vyvrátit, není poznáním; měřítko pro imunizované doktríny. |
-| [`EA-7.2.4`](@/kompendium/techniques/ea-7-2-4-lakatos-research-program.md) | Lakatos: výzkumný program | Tvrdé jádro a ochranný pás; rozlišení progresivního a degenerujícího programu. |
-| [`EA-7.2.5`](@/kompendium/techniques/ea-7-2-5-kuhn-paradigm-shift.md) | Kuhn: [změna paradigmatu](@/glossary/paradigm-shift.md) | Paradigmata určují, co se vidí jako problém; „konverze“ a její zneužití. |
-| [`EA-7.2.6`](@/kompendium/techniques/ea-7-2-6-feyerabend-anti-method.md) | Feyerabend: proti metodě | Kritika jediné metody; zároveň argument, jímž se dá relativizovat jakákoli kontrola. |
-| [`EA-7.2.7`](@/kompendium/techniques/ea-7-2-7-quine-web-belief.md) | Quine: síť přesvědčení | Přesvědčení tvoří celek; změna v jádru sítě se šíří do všech okrajů. |
-| [`EA-7.2.8`](@/kompendium/techniques/ea-7-2-8-davidson-charity.md) | Davidson: princip vstřícnosti | Porozumění předpokládá, že druhý má většinou pravdivá přesvědčení; kdy se princip zneužívá. |
-| [`EA-7.2.9`](@/kompendium/techniques/ea-7-2-9-williams-truthfulness.md) | Williams: pravdivost | Ctnosti přesnosti a upřímnosti jako podmínka společného poznání. |
-| [`EA-7.2.10`](@/kompendium/techniques/ea-7-2-10-nagel-view-from-nowhere.md) | Nagel: pohled odnikud | Napětí mezi objektivním a subjektivním pohledem; riziko „objektivity“ bez subjektu. |
-
-#### EA-7.3 Kognitivní věda a teorie vědomí
-
-| Kód | Název | Jednořádkový popis |
-|-----|-------|--------------------|
-| [`EA-7.3.1`](@/kompendium/techniques/ea-7-3-1-kahneman-system12.md) | Kahneman: Systém 1 a 2 | Rychlé intuitivní a pomalé reflexivní myšlení; proč tlak a únava oslabují kontrolu úsudku. |
-| [`EA-7.3.2`](@/kompendium/techniques/ea-7-3-2-tversky-heuristics.md) | Tversky a Kahneman: heuristiky | Systematické zkreslení úsudku za nejistoty; základ katalogu kognitivních biasů. |
-| [`EA-7.3.3`](@/kompendium/techniques/ea-7-3-3-friston-active-inference.md) | Friston: aktivní inference | Mozek minimalizuje predikční chybu; kontrolované prostředí přepisuje očekávání. |
-| [`EA-7.3.4`](@/kompendium/techniques/ea-7-3-4-clark-extended-mind.md) | Clark: rozšířená mysl | Kognice zahrnuje nástroje a druhé lidi; kdo ovládá vnější opory, zasahuje do myšlení. |
-| [`EA-7.3.5`](@/kompendium/techniques/ea-7-3-5-metzinger-ego-tunnel.md) | Metzinger: ego-tunel | Já jako fenomenální model sebe; teoretický rámec poruch prožitku já. |
-| [`EA-7.3.6`](@/kompendium/techniques/ea-7-3-6-thompson-mind-life.md) | Thompson: mysl v životě | Kontinuita života a mysli; enaktivní pohled na smysl a sebe-udržování. |
-| [`EA-7.3.7`](@/kompendium/techniques/ea-7-3-7-dennett-intentional-stance.md) | Dennett: intenční postoj | Připisování přesvědčení a záměrů jako interpretační strategie a její omyly. |
-| [`EA-7.3.8`](@/kompendium/techniques/ea-7-3-8-chalmers-hard-problem.md) | Chalmers: těžký problém | Proč prožitek nelze odvodit z funkce; meze redukce subjektivity na chování. |
-| [`EA-7.3.9`](@/kompendium/techniques/ea-7-3-9-dehaene-consciousness.md) | Dehaene: globální pracovní prostor | Vědomý přístup jako sdílení informace napříč mozkem; co znamená zahlcení pozornosti. |
-| [`EA-7.3.10`](@/kompendium/techniques/ea-7-3-10-tononi-iit.md) | Tononi: teorie integrované informace | Vědomí jako integrovaná informace; teoretický, empiricky sporný rámec. |
-
+{% for t in cat.families[f] %}| [`{{ t.code }}`](@/kompendium/techniques/{{ t.slug }}.md) | {{ t.name }} | {{ t.summary }} |
+{% endfor %}
+{% endfor %}
 ### 7.B Tematické kapitoly 7.1–7.9
 
 | Č. | Kapitola | Co řeší |
@@ -267,7 +178,7 @@ Třicet hesel ve třech skupinách. Každé popisuje myšlenku autora, to, co z 
 
 ---
 
-## Kapitola 8 — Přílohy
+## Kapitola 8 — {{ cat.chapter_names["8"] }}
 
 > **Nástroje posouzení, klinické a teoretické rámce a literatura**, o něž se opírají kapitoly
 > 1–7. Kódy `EA-8.*` neoznačují manipulativní techniky, ale odborné opory pro jejich
@@ -275,11 +186,14 @@ Třicet hesel ve třech skupinách. Každé popisuje myšlenku autora, to, co z 
 > nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md) a
 > [Bibliografie](@/kompendium/08-prilohy/bibliografie.md).
 
-| Skupina | Obsah | Vstupní stránka |
-|---------|-------|-----------------|
-| `EA-8.1` | Nástroje posouzení: rozhodovací kapacita, disociace, traumatický stres, [metakognice](@/glossary/metakognice.md), [coercive control](@/glossary/coercive-control.md) | [EA-8.1.1 Model BITE v praxi](@/kompendium/techniques/ea-8-1-1-bite-model-detail.md) |
-| `EA-8.2` | Klinické a teoretické rámce: Lifton, Singerová, Hassan, Stark, Hermanová, MKN-11 a DSM-5-TR | [EA-8.2.2 Liftonova kritéria](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md) |
-| `EA-8.3` | Literatura podle oblastí: klinická, filozofická, empirická, historická, cult studies | [EA-8.3.1 Základní literatura](@/kompendium/techniques/ea-8-3-1-foundational-readings.md) |
+{% for f in cat.chapters["8"] %}{% set fname = cat.family_names[f] | default(value="") %}
+### EA-{{ f }}{% if fname %} {{ fname }}{% endif %}
+
+| Kód | Název | Jednořádkový popis |
+|-----|-------|--------------------|
+{% for t in cat.families[f] %}| [`{{ t.code }}`](@/kompendium/techniques/{{ t.slug }}.md) | {{ t.name }} | {{ t.summary }} |
+{% endfor %}
+{% endfor %}
 
 Skupina 8.1 sdružuje nástroje, jejichž psychometrické vlastnosti jsou publikované, například
 posouzení schopnosti rozhodovat podle Appelbauma a Grissa (1988) nebo škálu disociativních
@@ -289,20 +203,20 @@ taxonomie vychází: Liftonova kritéria myšlenkové reformy (Lifton, 1961), po
 Singerovou (Singer a Lalich, 1995), Starkův koncept coercive control (Stark, 2007) a fázový
 model zotavení Hermanové (Herman, 1992).
 
-## Kapitola 9 — Současná digitální EA
+## Kapitola 9 — {{ cat.chapter_names["9"] }}
 
 > **Epistemické útoky v prostředí jazykových modelů, syntetických médií a platforem.** Kódy
 > `EA-9.*` popisují, jak se mechanismy z kapitol 1–5 přenášejí do digitálních systémů; každá
 > stránka uvádí znaky, obranu a meze poznání, nikdy postup útoku.
 
-| Skupina | Oblast | Vstupní stránka |
-|---------|--------|-----------------|
-| `EA-9.1` | Jazykové modely: halucinace, injekce promptu, rekurzivní smyčky | [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md) |
-| `EA-9.2` | Syntetická média: [deepfake](@/glossary/deepfake.md) osobnosti, klonování hlasu, syntetický text | [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md) |
-| `EA-9.3` | Algoritmická amplifikace a personalizace obsahu | [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md) |
-| `EA-9.4` | Koordinované neautentické chování, botí a loutkové sítě | [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md) |
-| `EA-9.5` | Memy, symbolika a emoční inženýrství obsahu | [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md) |
-| `EA-9.6` | Automatizované rozhodování a „praní“ úsudku přes AI | [EA-9.6.1 Algorithmic Decision Bias](@/kompendium/techniques/ea-9-6-1-algorithmic-decision-bias.md) |
+{% for f in cat.chapters["9"] %}{% set fname = cat.family_names[f] | default(value="") %}
+### EA-{{ f }}{% if fname %} {{ fname }}{% endif %}
+
+| Kód | Název | Jednořádkový popis |
+|-----|-------|--------------------|
+{% for t in cat.families[f] %}| [`{{ t.code }}`](@/kompendium/techniques/{{ t.slug }}.md) | {{ t.name }} | {{ t.summary }} |
+{% endfor %}
+{% endfor %}
 
 Kapitola navazuje na typologii informační poruchy Wardleové a Derakhshana (2017), na výzkum
 výpočetní propagandy (Woolley a Howard, 2018) a na právní a společenskou analýzu deepfakes

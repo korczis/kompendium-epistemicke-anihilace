@@ -49,7 +49,7 @@ import unicodedata
 
 sys.dont_write_bytecode = True  # no __pycache__ in the checkout
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
-from ia_model import (CONTENT, ROOT, TOML_FM, YAML_FM, load_pages,  # noqa: E402
+from ia_model import (CONTENT, ROOT, TOML_FM, YAML_FM, family_names, load_pages,  # noqa: E402
                       parse_yaml_subset, url_of)
 
 OUT = ROOT / "static" / "data"
@@ -424,9 +424,21 @@ def catalogue(pages: list) -> dict:
             entry["exploitation"] = extra["exploitation"].strip()
         families.setdefault(f"{m.group(1)}.{m.group(2)}", []).append((int(m.group(3)), code, entry))
     order = lambda f: tuple(int(x) for x in f.split("."))
+    chapter_names, family_names_ = family_names()
+    ordered = sorted(families, key=order)
+    chapters: dict = {}
+    for f in ordered:
+        chapters.setdefault(f.split(".")[0], []).append(f)
+    # `chapters` lists each chapter's families in order (a JSON object's keys are sorted on
+    # serialisation, a list keeps its order): a page loops over cat.chapters["5"] for chapter 5.
     return {"schema": "kompendium-catalogue/v1",
             "families": {f: [e for _, _, e in sorted(families[f], key=lambda t: (t[0], t[1]))]
-                         for f in sorted(families, key=order)}}
+                         for f in ordered},
+            "chapters": chapters,
+            # one entry by its code, for a page that names a single technique (no listing)
+            "entries": {e["code"]: e for f in ordered for _, _, e in families[f]},
+            "chapter_names": {c: n for c, n in chapter_names.items() if c in chapters},
+            "family_names": {f: n for f, n in family_names_.items() if f in families}}
 
 
 def build() -> dict:

@@ -15,7 +15,7 @@ broader = ""
 related = ["struktura-presvedceni-som", "reframing", "obsahovy-reframing", "komplexni-ekvivalence", "pricina-a-nasledek", "obrana-proti-vlivovym-vzorcum"]
 kompendium = [
   "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
-  "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md",
+  "kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md",
   "kompendium/06-obrana/_index.md",
 ]
 vaknin = "inferred"
@@ -179,7 +179,7 @@ related = ["chunking-dolu", "chunking", "meta-model", "som-zobecneni", "nespecif
 kompendium = [
   "kompendium/techniques/ea-2-3-3-quote-mining.md",
   "kompendium/techniques/ea-1-3-3-tematicka-diverze.md",
-  "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md",
+  "kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md",
 ]
 vaknin = "inferred"
 review = "agent"

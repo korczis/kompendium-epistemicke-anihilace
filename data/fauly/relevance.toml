@@ -112,7 +112,7 @@ related = ["ad-hominem", "vina-asociaci", "etymologicky-klam", "odvolani-na-trad
 kompendium = [
   "kompendium/07-teoreticke-reflexe/socialni-epistemologie.md",
   "kompendium/02-uvod/filosoficky-ramec.md",
-  "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md",
+  "kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md",
 ]
 review = "agent"
 

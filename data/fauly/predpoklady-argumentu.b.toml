@@ -175,7 +175,7 @@ broader = ""
 related = ["falesne-dilema", "posouvani-branek", "odvolani-na-tradici", "predstirana-starost"]
 kompendium = [
   "kompendium/03-zakladni-kategorie/scenar-h.md",
-  "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md",
+  "kompendium/techniques/ea-1-2-4-argumentacni-oslabeni.md",
   "kompendium/techniques/ea-1-2-1-falesne-dilema.md",
 ]
 review = "agent"

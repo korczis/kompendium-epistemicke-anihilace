@@ -55,7 +55,7 @@ publikem, které jeho předpoklady nezná, a každé další vysvětlení se oci
 ## 3. Časová osa expozice
 
 Fáze **zážehu** (hodiny 0–24) zahrnovala vytržený úryvek, synchronní sdílení a první vlnu urážek.
-Ve fázi **eskalace** (dny 2–7) přibylo zveřejnění adresy pracoviště a rodinných údajů, výzvy
+Ve fázi eskalace (dny 2–7) přibylo zveřejnění adresy pracoviště a rodinných údajů, výzvy
 zaměstnavateli a hromadné nahlašování. Brady a kol. (2017) ukázali, že obsah s morálně-emočním
 jazykem se v sociálních sítích šíří rychleji; Crockett (2017) dodává, že digitální prostředí
 snižuje náklady vyjádření morálního pohoršení a zvyšuje jeho odměnu, což vysvětluje tempo obou
@@ -63,7 +63,7 @@ prvních fází.
 
 Fáze **institucionálního dopadu** (týdny 2–6) přinesla zrušené přednášky, „pozastavení“
 spolupráce a stažení z mediálních výstupů. **Dozvuk** (měsíce 2–12) znamenal opakované oživování
-kauzy při každém dalším veřejném vystoupení a trvalé označení v diskusích. **Rekonstrukce** (rok 1
+kauzy při každém dalším veřejném vystoupení a trvalé označení v diskusích. Rekonstrukce (rok 1
 a dále) se opírala o odborné zastání kolegů, opravu ze strany média a návrat k veřejné komunikaci
 za nových podmínek. Cohen (1972) popsal, jak se z člověka či skupiny v průběhu morální paniky
 stává symbol, jehož obraz žije déle než původní událost; dozvuk odpovídá této trvalosti.
@@ -123,15 +123,15 @@ zpracování (Herman, 1992): delegování správy účtů na důvěryhodnou osob
 komentářů a [mobilizace podpory](@/kompendium/self-defense-guides/30-support-mobilization.md).
 Poté navázal [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md).
 
-Ve **S1 – validaci a mapování** se oddělilo to, co skutečně řekla, od toho, co jí bylo přisouzeno;
+Ve S1 – validaci a mapování se oddělilo to, co skutečně řekla, od toho, co jí bylo přisouzeno;
 srovnání úplného záznamu s úryvkem fungovalo jako přímá korekce kolapsu kontextu (Marwick a boyd,
-2011). Ve **S2 – externalizaci introjektů** byly hlasy „jsem nebezpečná“ a „nemám právo mluvit“
-pojmenovány jako převzaté z útoku. Ve **S3 – rekonstrukci [metakognice](@/glossary/metakognice.md)**
+2011). Ve S2 – externalizaci introjektů byly hlasy „jsem nebezpečná“ a „nemám právo mluvit“
+pojmenovány jako převzaté z útoku. Ve S3 – rekonstrukci [metakognice](@/glossary/metakognice.md)
 proběhla kalibrace odhadu, kolik lidí útok skutečně představuje – analýza sítě ukázala, že jádro
 tvořil malý okruh účtů, jak to odpovídá modelu síťového obtěžování (Marwick, 2021).
 
-Ve **S4 – hermeneutické obnově** se obnovil vztah k vlastnímu oboru a k veřejné roli; **S5 –
-konsolidace a transfer** přinesla nová pravidla mediální spolupráce (autorizace, celé záznamy).
+Ve S4 – hermeneutické obnově se obnovil vztah k vlastnímu oboru a k veřejné roli; S5 –
+konsolidace a transfer přinesla nová pravidla mediální spolupráce (autorizace, celé záznamy).
 Zaměstnavatel přijal plán podle [reakce na incident](@/kompendium/organizational-defense/31-incident-response-EA.md)
 a veřejně se za ni postavil. Smith a Freyd (2014) ukazují, že podpora instituce zmírňuje následky
 křivdy, zatímco její mlčení nebo distancování působí jako druhá, samostatná zrada.
@@ -155,7 +155,7 @@ nastat, protože útok může splnit kritéria traumatické události (American 
 [diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
 
 **Paranoidní prožívání** se liší tím, že pocit koordinovaného útoku zde byl doložitelný daty;
-rozhodující je ověření, nikoli síla přesvědčení. **Sociální úzkost** znamená obavu z hodnocení,
+rozhodující je ověření, nikoli síla přesvědčení. **[Sociální úzkost](@/glossary/uzkostne-poruchy.md)** znamená obavu z hodnocení,
 která předchází události a není vázaná na konkrétní kauzu (American Psychiatric Association,
 2013); zde vznikla až s útokem a měla jasný obsah.
 

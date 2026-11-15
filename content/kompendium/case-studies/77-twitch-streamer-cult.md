@@ -165,27 +165,27 @@ Postup sledoval [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-ap
 ve stupních S1–S5, jejichž pořadí odpovídá modelu zotavení, který popsala Herman (1992): bezpečí,
 vzpomínání a truchlení, znovupropojení.
 
-**S1 – Validace a mapování.** Uznání, že stream byl skutečnou oporou během matčiny nemoci. Mapa
+S1 – Validace a mapování. Uznání, že stream byl skutečnou oporou během matčiny nemoci. Mapa
 zahrnovala spánkový dluh, ztrátu přátel, ale i vinu za vyloučené diváky. Litz a kolegové
 (Litz et al., 2009) upozorňují, že vina za vlastní podíl na ublížení musí být pojmenována hned
 na začátku, jinak klient buď škodu popírá, nebo se v ní utápí.
 
-**S2 – Externalizace introjektů.** Rozbor „hlasu streamera“, který komentoval každé její rozhodnutí,
+S2 – Externalizace introjektů. Rozbor „hlasu streamera“, který komentoval každé její rozhodnutí,
 a rozdělení odpovědnosti: co byla její volba a co byla struktura, ve které se rozhodovala. White
 a Epston (1990) chápou externalizaci jako oddělení problému od osoby, což zde umožnilo mluvit
 o vině bez sebeodsouzení.
 
-**S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md).** Obnova spánku jako podmínka uvažování;
+S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md). Obnova spánku jako podmínka uvažování;
 teprve potom práce s tím, jak se v kanálu měnila její kritéria „správného“ a „nevěrného“.
 [Uzemňovací techniky](@/kompendium/self-defense-guides/14-grounding-techniques.md) sloužily pro
 okamžiky, kdy ji upozornění z aplikace vrhala zpět; Najavits (2002) popisuje uzemnění (grounding)
 jako dovednost, která odvádí pozornost od vnitřní bolesti k přítomnosti.
 
-**S4 – Hermeneutická obnova.** Práce s biografickým vzorcem „být užitečná, aby mě měli rádi“
+S4 – Hermeneutická obnova. Práce s biografickým vzorcem „být užitečná, aby mě měli rádi“
 a s odlišením služby od podřízení. Bandura (1999) ukazuje, že navrácení osobní odpovědnosti za
 jednání je protipólem morálního vyvázání; cílem bylo vrátit subjektu vlastní měřítka.
 
-**S5 – Konsolidace a transfer.** Nové [hranice](@/kompendium/self-defense-guides/21-boundary-setting.md):
+S5 – Konsolidace a transfer. Nové [hranice](@/kompendium/self-defense-guides/21-boundary-setting.md):
 žádná neplacená role bez jasných pravidel a odchod z komunity bez vysvětlování. Lalich a Tobias
 (2006) považují schopnost odejít bez ospravedlňování za jeden ze znaků zotavení.
 

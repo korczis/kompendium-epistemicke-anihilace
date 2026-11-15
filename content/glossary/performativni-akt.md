@@ -18,11 +18,13 @@ keywords = ["performativní akt", "performative utterance", "J. L. Austin", "ře
 
 ## Původ a kontext pojmu
 
-Austin přednesl myšlenky v rámci William James Lectures na Harvardu v roce 1955; kniha vyšla posmrtně. Vystoupil proti předpokladu, že základní funkcí jazyka je popisovat fakta. Postupně ukázal, že rozlišení performativ a konstativ není ostré a že **každá výpověď je zároveň jednáním**. Rozlišil tři roviny řečového aktu:
+Austin přednesl myšlenky v rámci William James Lectures na Harvardu v roce 1955; kniha vyšla posmrtně. Vystoupil proti předpokladu, že základní funkcí jazyka je popisovat fakta. Postupně ukázal, že rozlišení performativ a konstativ není ostré a že **každá výpověď je zároveň jednáním**. Rozlišil tři roviny řečového aktu (Austin, 1962):
 
-- **lokuční akt** – vyslovení věty s určitým smyslem a odkazem;
-- **ilokuční akt** – co mluvčí výpovědí dělá (slibuje, varuje, nařizuje, tvrdí);
-- **perlokuční akt** – jaký účinek výpověď vyvolá u posluchače (přesvědčí, vystraší, uklidní).
+| Rovina | Co zahrnuje |
+| --- | --- |
+| Lokuční akt | vyslovení věty s určitým smyslem a odkazem |
+| Ilokuční akt | co mluvčí výpovědí dělá: slibuje, varuje, nařizuje, tvrdí |
+| Perlokuční akt | jaký účinek výpověď vyvolá u posluchače: přesvědčí, vystraší, uklidní |
 
 Austin také popsal **podmínky zdaru** (*felicity conditions*): musí existovat uznaný postup, správné osoby a okolnosti, úplné provedení a – u mnoha aktů – upřímnost úmyslu. Selhání dělil na **neúspěchy** (*misfires*), kdy akt neproběhne, a **zneužití** (*abuses*), kdy proběhne, ale je neupřímný (slib bez úmyslu ho splnit).
 
@@ -30,13 +32,16 @@ Austinovu teorii systematizoval John R. Searle (*Speech Acts*, 1969). Judith But
 
 ## Jak se projevuje
 
-Pojem pomáhá rozpoznat manipulaci, která pracuje s tím, co výpovědi **dělají**, ne jen s tím, co **říkají**:
+Pojem pomáhá rozpoznat manipulaci, která pracuje s tím, co výpovědi **dělají**, ne jen s tím, co **říkají**.
+Sliby a omluvy bez úmyslu je dodržet přesto plní svou funkci, uklidní a odloží konflikt; Austin (1962) je
+řadí mezi zneužití, při nichž akt proběhne, ale je neupřímný. Výpovědi, které vypadají jako popis („jsi
+přecitlivělá“), mohou fungovat jako rozkaz nebo nálepka, a co bylo řečeno jako výhrůžka, bývá zpětně vydáváno
+za „jen konstatování“, protože ilokuční síla výpovědi nemusí být vyslovena (Searle, 1969).
 
-- sliby a omluvy bez úmyslu je dodržet, které přesto plní svou funkci – uklidní, odloží konflikt;
-- výpovědi, které vypadají jako popis („jsi přecitlivělá“), ale fungují jako rozkaz nebo nálepka;
-- „prohlášení“ skupiny nebo autority, která mění status člověka (vyloučení, označení za zrádce), aniž by k tomu existoval uznaný a spravedlivý postup;
-- přepínání mezi ilokucemi: co bylo řečeno jako výhrůžka, je zpětně vydáváno za „jen konstatování“;
-- vynucená přiznání a veřejné sebekritiky, v nichž výpověď sama vytváří vinu.
+Zvlášť nápadné jsou „prohlášení“ skupiny nebo autority, která mění status člověka, například vyloučení nebo
+označení za zrádce, aniž by k tomu existoval uznaný a spravedlivý postup, a vynucená přiznání a veřejné
+sebekritiky, v nichž výpověď sama vytváří vinu. Lifton (1961) popsal takové zpovědi u myšlenkové reformy jako
+kult zpovědi, v němž se přiznání stává nástrojem kontroly.
 
 ## Mechanismus
 
@@ -44,10 +49,12 @@ Strukturně performativ **vytváří sociální skutečnost**: závazky, statusy
 
 ## Odlišení
 
-- **[Konstitutivní akt](@/glossary/konstitutivni-akt.md)** v Kompendiu je příbuzný pojem pro akty, které ustavují rámec; performativ je Austinův obecnější termín.
-- **[Jazyková hra](@/glossary/jazykova-hra.md)** (Wittgenstein) zdůrazňuje pravidla užití v praxi; Austin rozebírá jednotlivý akt a jeho podmínky.
-- **Lež** je nepravdivé konstativní tvrzení; neupřímný slib je zneužitý performativ, který není pravdivý ani nepravdivý.
-- **Perlokuční účinek** (vystrašit, přesvědčit) může nastat i bez performativu; manipulace často míří právě na perlokuci a skrývá ji za neutrální ilokucí.
+| Odlišit od | Rozdíl |
+| --- | --- |
+| [Konstitutivní akt](@/glossary/konstitutivni-akt.md) | příbuzný pojem Kompendia pro akty, které ustavují rámec; performativ je Austinův obecnější termín |
+| [Jazyková hra](@/glossary/jazykova-hra.md) | Wittgenstein zdůrazňuje pravidla užití v praxi; Austin rozebírá jednotlivý akt a jeho podmínky |
+| Lež | nepravdivé konstativní tvrzení; neupřímný slib je zneužitý performativ, který není pravdivý ani nepravdivý |
+| Perlokuční účinek | vystrašit nebo přesvědčit lze i bez performativu; manipulace často míří právě na perlokuci a skrývá ji za neutrální ilokucí |
 
 ## Význam pro Kompendium
 
@@ -67,6 +74,7 @@ Teorie řečových aktů je propracovaná pro jednotlivé výpovědi, ale méně
 
 ## Literatura
 
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: W. W. Norton.
 - Austin, J. L. (1962). *How to Do Things with Words*. Clarendon Press.
 - Searle, J. R. (1969). *Speech Acts: An Essay in the Philosophy of Language*. Cambridge University Press.
 - Butler, J. (1990). *Gender Trouble*. Routledge.

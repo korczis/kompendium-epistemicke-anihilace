@@ -44,7 +44,7 @@ bezpečnostním rizikem.
 Získávání zaměstnance zvenčí často probíhá postupně a využívá mechanismy, které kniha
 popisuje u manipulativních vztahů: navázání vztahu a pocitu výjimečnosti ([love bombing](@/glossary/love-bombing.md)),
 drobné první požadavky, které vytvářejí závazek, postupná [izolace](@/kompendium/detection-signatures/13-behavioral-isolation-acceleration.md)
-od kolegů, kteří by si změn všimli, a nakonec vydírání tím, co už zaměstnanec udělal a co by nechtěl, aby vyšlo najevo
+od kolegů, kteří by si změn všimli, a nakonec [vydírání](@/glossary/vydirani.md) tím, co už zaměstnanec udělal a co by nechtěl, aby vyšlo najevo
 (srov. [future blackmail implantace](@/kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md)).
 Člověk v takové situaci prožívá rostoucí stud a strach, které mu brání se svěřit.
 

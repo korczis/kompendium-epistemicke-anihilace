@@ -164,25 +164,25 @@ v rámci stupňů S1–S5 [protokolu epistemické rekonstrukce](@/kompendium/06-
 Herman (1992) klade na začátek každého zotavení bezpečí a předvídatelnost, a u nezletilého proto
 první kroky vedly přes rodinu a školu.
 
-**S1 – Validace a mapování.** Zvídavost byla výslovně oceněna jako hodnota. Žádné zákazy bez rozhovoru
+S1 – Validace a mapování. Zvídavost byla výslovně oceněna jako hodnota. Žádné zákazy bez rozhovoru
 – rodiče místo odpojení internetu domluvili spánkový režim a sdílený plán. Steinberg (2014) upozorňuje,
 že dospívající lépe přijímají pravidla, na nichž se podíleli, než pravidla uložená shora.
 
-**S2 – Externalizace introjektů.** Subjekt sám sepsal, co mu autor „říkal o lidech“, a zkoumal, kdo
+S2 – Externalizace introjektů. Subjekt sám sepsal, co mu autor „říkal o lidech“, a zkoumal, kdo
 z jeho okolí do těch kategorií skutečně patří. White a Epston (1990) by tento krok označili za
 externalizaci: autorův hlas se stal předmětem zkoumání, ne vnitřním přesvědčením.
 
-**S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md).** Společné ověřování jednoho tvrzení
+S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md). Společné ověřování jednoho tvrzení
 z kanálu s historikem z blízké univerzity. Šlo o metodu, ne o výsledek: jak se pracuje s pramenem,
 co je kontext, kdo může tvrzení zpochybnit ([verifikace tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md)).
 Wineburg a McGrew (2019) doložili, že právě dovednost ověřit zdroj mimo něj samotný odlišuje odborníky
 od laiků.
 
-**S4 – Hermeneutická obnova.** Práce s vinou za klipy, které ponižovaly kritiky, včetně dopisů, které
+S4 – Hermeneutická obnova. Práce s vinou za klipy, které ponižovaly kritiky, včetně dopisů, které
 subjekt nikdy neodeslal, ale které mu pomohly vidět lidi za klipy. Litz a kolegové (Litz et al., 2009)
 popisují práci s vinou za vlastní podíl na ublížení jako cestu k morální nápravě bez sebeodsouzení.
 
-**S5 – Konsolidace a transfer.** Kroužek historie a studentský časopis se staly místem, kde se
+S5 – Konsolidace a transfer. Kroužek historie a studentský časopis se staly místem, kde se
 zvídavost může rozvíjet v komunitě s korekcí. Erikson (1968) chápe zdravé završení hledání identity
 jako závazek, který si člověk zvolí a za nímž stojí i před kritikou.
 

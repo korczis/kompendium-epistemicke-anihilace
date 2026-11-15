@@ -67,7 +67,7 @@ Konečně je třeba zmínit **Dunningův–Krugerův efekt** (Kruger & Dunning, 
 
 Nepřiměřená sebejistota zdroje může mít i klinickou povahu. Tyto možnosti se uvádějí jako diferenciální úvaha, nikoli jako diagnóza na dálku, kterou nelze bez osobního vyšetření stanovit. **Hypomanické nebo manické stavy** se projevují zvýšeným sebevědomím, zrychlenou řečí a sníženou potřebou spánku; obvykle mají časový průběh a představují změnu oproti dřívějšímu stavu osoby. **Grandiózní bludy** jsou idiosynkratické, nezřídka bizarní a nesdílené. **Osobnostní rysy** s nafouknutým sebeobrazem samy o sobě neurčují, zda zdroj manipuluje; signatura se týká chování v komunikaci, nikoli osobnostní diagnózy.
 
-U zasažené osoby je naopak třeba odlišit, zda její vlastní snížená důvěra v úsudek není projevem deprese nebo úzkostné poruchy nezávislé na zdroji. Pomáhá časová osa: vznikla nejistota až v kontaktu se zdrojem a je zvlášť výrazná v tématech, v nichž zdroj vystupuje s jistotou? Posouzení přísluší kvalifikovanému klinikovi.
+U zasažené osoby je naopak třeba odlišit, zda její vlastní snížená důvěra v úsudek není projevem deprese nebo [úzkostné poruchy](@/glossary/uzkostne-poruchy.md) nezávislé na zdroji. Pomáhá časová osa: vznikla nejistota až v kontaktu se zdrojem a je zvlášť výrazná v tématech, v nichž zdroj vystupuje s jistotou? Posouzení přísluší kvalifikovanému klinikovi.
 
 ## Riziko falešné pozitivity
 

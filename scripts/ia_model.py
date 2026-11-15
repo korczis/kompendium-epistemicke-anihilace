@@ -604,6 +604,15 @@ def technique_codes(pages: list) -> set:
 BOLD = re.compile(r"(?<![*\\])\*\*(?=\S)(.+?)(?<=\S)\*\*(?!\*)")
 MAX_BOLD_WORDS = 6  # a longer bold span is a key sentence, not a term
 RUN_IN = re.compile(r"^\s*(?:>\s*)*(?:(?:[-*+]|\d{1,9}[.)])\s+)?$")
+# The lead label of a list item, "- **Krok.** …" or "1. **Krok** …": what precedes the bold is only
+# quote markers and the item marker. It is list structure, not a use of a term, so bold-candidate
+# does not count it (bold-term still does: a lead that names a glossary term must link).
+LIST_LEAD = re.compile(r"^\s*(?:>\s*)*(?:[-*+]|\d{1,9}[.)])\s+$")
+
+
+def is_list_lead(body: str, start: int) -> bool:
+    """Whether the bold span starting at `start` of `body` leads a list item."""
+    return bool(LIST_LEAD.match(body[body.rfind("\n", 0, start) + 1:start]))
 EA_ONLY = re.compile(r"^ea-\d+-\d+(?:-\d+)?(?:-|$)")
 
 

@@ -29,7 +29,7 @@ Pro tento most jsou v oddílu 06 klíčové: [diferenciální diagnostika](@/kom
 
 ## Proč přecházet z oddílu 05 do kliniky
 
-Prvním důvodem je **diferenciální diagnostika**. Projevy, které oddíl 05 popisuje – ztráta samozřejmosti vlastního prožívání, pocit neskutečnosti, nejistota o vlastní kontinuitě, nekonečná reflexe, rozpad časové orientace – se překrývají s depersonalizací a derealizací, s disociativními poruchami, s obsedantně-kompulzivním pochybováním, s prodromálními stavy psychózy, s neurologickými příčinami i s účinky návykových látek. Ultramární model nesmí být použit dřív, než jsou tyto možnosti zváženy; jinak hrozí, že léčitelný stav zůstane bez léčby.
+Prvním důvodem je diferenciální diagnostika. Projevy, které oddíl 05 popisuje – ztráta samozřejmosti vlastního prožívání, pocit neskutečnosti, nejistota o vlastní kontinuitě, nekonečná reflexe, rozpad časové orientace – se překrývají s depersonalizací a derealizací, s disociativními poruchami, s obsedantně-kompulzivním pochybováním, s prodromálními stavy psychózy, s neurologickými příčinami i s účinky návykových látek. Ultramární model nesmí být použit dřív, než jsou tyto možnosti zváženy; jinak hrozí, že léčitelný stav zůstane bez léčby.
 
 Druhým důvodem je **volba intervence**. U diskurzivních technik pomáhá pracovat s argumenty, důkazy a pojmy. U jevů z oddílu 05 může taková práce škodit: člověk v hyperreflexivní smyčce použije každý nový argument jako další materiál k přemýšlení, a sebevztažné paradoxy se rozumovým vyvracením neuzavírají, ale prohlubují. Klinika proto u této vrstvy začíná jinde – u tělesné regulace, spánku, rytmu dne, jednoduchých konkrétních činností a bezpečného vztahu.
 

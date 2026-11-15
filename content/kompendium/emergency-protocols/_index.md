@@ -46,13 +46,13 @@ bodech, které rozhodují o tom, zda péče pomůže, nebo ublíží:
 
 ## Jednotná struktura protokolů
 
-Každý protokol má stejné oddíly, aby se v něm dalo v krizi rychle orientovat: **indikace**
-(kdy protokol použít), **bezprostřední bezpečnostní kroky**, **posouzení**, **rozhodovací body a
-eskalace** (tabulka situací a odpovídajícího postupu, včetně 155, 112, psychiatrické krizové péče,
-OSPOD a policie), **dokumentace**, **předání do dlouhodobé péče** s odkazy na
+Každý protokol má stejné oddíly, aby se v něm dalo v krizi rychle orientovat: indikace
+(kdy protokol použít), bezprostřední bezpečnostní kroky, posouzení, rozhodovací body a
+eskalace (tabulka situací a odpovídajícího postupu, včetně 155, 112, psychiatrické krizové péče,
+OSPOD a policie), dokumentace, předání do dlouhodobé péče s odkazy na
 [longitudinální rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md),
-**kontraindikace a časté chyby**, **etika a souhlas**, **komunikace v akutní fázi**, anonymizovaná
-**modelová situace** a oddíl **Související**.
+kontraindikace a časté chyby, etika a souhlas, komunikace v akutní fázi, anonymizovaná
+modelová situace a oddíl Související.
 
 ## Akutní krize (1–10)
 

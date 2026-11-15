@@ -18,19 +18,19 @@ keywords = ["normální věda", "normal science", "Thomas Kuhn", "paradigma", "�
 
 ## Původ a kontext pojmu
 
-Kuhn byl fyzik, který se obrátil k dějinám vědy. Z historického studia vyvodil, že obraz vědy jako neustálého testování a vyvracení hypotéz – spojovaný s Karlem Popperem – neodpovídá tomu, co vědci většinu času skutečně dělají. Vědecký vývoj podle něj probíhá v cyklu: **předparadigmatická fáze** soupeřících škol, **normální věda** pod jedním paradigmatem, hromadění **anomálií** (pozorování, která do paradigmatu nezapadají), **krize** a nakonec **vědecká revoluce**, v níž je paradigma nahrazeno jiným (viz [paradigm shift](@/glossary/paradigm-shift.md) a [Kuhnova revoluce](@/glossary/kuhnova-revoluce.md)).
+Kuhn byl fyzik, který se obrátil k dějinám vědy. Z historického studia vyvodil, že obraz vědy jako neustálého testování a vyvracení hypotéz – spojovaný s Karlem Popperem – neodpovídá tomu, co vědci většinu času skutečně dělají. Vědecký vývoj podle něj probíhá v cyklu: předparadigmatická fáze soupeřících škol, normální věda pod jedním paradigmatem, hromadění anomálií (pozorování, která do paradigmatu nezapadají), krize a nakonec vědecká revoluce, v níž je paradigma nahrazeno jiným (viz [paradigm shift](@/glossary/paradigm-shift.md) a [Kuhnova revoluce](@/glossary/kuhnova-revoluce.md)).
 
 Kuhnovo pojetí vyvolalo rozsáhlou debatu, zejména se zastánci falsifikacionismu; jejím důležitým dokumentem je sborník *Criticism and the Growth of Knowledge* (ed. Imre Lakatos a Alan Musgrave, 1970). Lakatos se pokusil obě pozice smířit konceptem [výzkumných programů](@/glossary/lakatos-vyzkumny-program.md) s pevným jádrem a ochranným pásem pomocných hypotéz. Kompendium Kuhna zpracovává v kapitole [7.11 Kuhn: Paradigmatické revoluce a inkomensurabilita](@/kompendium/07-teoreticke-reflexe/kuhn-paradigmaticke-revoluce.md).
 
 ## Jak se projevuje
 
-Znaky normální vědy v oboru:
+Normální vědu v oboru poznáme podle několika rysů, které popsal Kuhn (1962). Učebnice představují obor jako
+uzavřený soubor výsledků a vzorových úloh, výzkum se zaměřuje na „hádanky“, o nichž se předpokládá, že mají
+v rámci paradigmatu řešení, a vědecké společenství sdílí kritéria toho, co je dobrý problém a dobré řešení.
 
-- učebnice představují obor jako uzavřený soubor výsledků a vzorových úloh;
-- výzkum se zaměřuje na otázky, o nichž se předpokládá, že mají v rámci paradigmatu řešení;
-- neúspěch při řešení se přičítá spíš badateli nebo přístrojům než paradigmatu;
-- anomálie se nejprve odkládají, přehlížejí nebo se vysvětlují úpravami;
-- vědecké společenství sdílí kritéria toho, co je dobrý problém a dobré řešení.
+Kuhn (1962) také ukazuje, jak normální věda zachází s neúspěchem: selhání při řešení hádanky se přičítá spíš
+badateli nebo přístrojům než paradigmatu, a anomálie se nejprve odkládají, přehlížejí nebo se vysvětlují
+úpravami, dokud se nenahromadí v krizi.
 
 ## Mechanismus
 
@@ -40,10 +40,12 @@ Pro Kompendium je tato struktura důležitá dvojím způsobem. Za prvé vysvět
 
 ## Odlišení
 
-- **Paradigmatický posun** je přechod mezi paradigmaty; normální věda je práce uvnitř jednoho z nich.
-- **Dogmatismus** odmítá kritiku principiálně; normální věda ji odkládá, ale nechává otevřenou cestu ke krizi.
-- **[Pseudověda](@/glossary/pseudoscience.md)** napodobuje formu vědy bez řešení hádanek, které by mohla selhat; Kuhn sám uváděl, že pro demarkaci je důležitá právě tradice řešení hádanek (viz [demarkační problém](@/glossary/demarkacni-problem.md)).
-- **Lakatosův degenerující program** je pojem pro situaci, kdy úpravy jen zachraňují teorii a nic nového nepředpovídají.
+| Odlišit od | Rozdíl |
+| --- | --- |
+| Paradigmatický posun | přechod mezi paradigmaty; normální věda je práce uvnitř jednoho z nich |
+| Dogmatismus | odmítá kritiku principiálně; normální věda ji odkládá, ale nechává otevřenou cestu ke krizi |
+| [Pseudověda](@/glossary/pseudoscience.md) | napodobuje formu vědy bez řešení hádanek, které by mohla selhat; Kuhn uváděl, že pro demarkaci je důležitá právě tradice řešení hádanek (viz [demarkační problém](@/glossary/demarkacni-problem.md)) |
+| Lakatosův degenerující program | situace, kdy úpravy jen zachraňují teorii a nic nového nepředpovídají |
 
 ## Význam pro Kompendium
 

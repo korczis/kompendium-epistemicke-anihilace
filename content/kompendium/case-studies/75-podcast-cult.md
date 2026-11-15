@@ -165,28 +165,28 @@ přítomnosti zdroje.
 Postup sledoval [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
 ve stupních S1–S5, jejichž pořadí vychází z modelu zotavení, který popsala Herman (1992).
 
-**S1 – Validace a mapování.** Uznání intelektuální hodnoty, kterou subjekt v pořadu viděl,
+S1 – Validace a mapování. Uznání intelektuální hodnoty, kterou subjekt v pořadu viděl,
 a zároveň zmapování ztrát: spánek, vztah s manželkou, sebedůvěra v odborné úsudky. Herman (1992)
 zdůrazňuje, že bez uznání toho, co bylo pro klienta skutečně cenné, není možné bezpečně mluvit
 o tom, co ho poškodilo.
 
-**S2 – Externalizace introjektů.** Práce s „cenzorem v hlavě“: pojmenovat ho, popsat, kdy promlouvá,
+S2 – Externalizace introjektů. Práce s „cenzorem v hlavě“: pojmenovat ho, popsat, kdy promlouvá,
 a odlišit jeho soudy od vlastních. Užitečné bylo poslouchat surové nahrávky společně s terapeutem
 jako materiál pro [externalizaci](@/kompendium/techniques/ea-6-3-2-externalizacni-faze.md), kterou
 jako oddělení problému od osoby popisují White a Epston (1990).
 
-**S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md).** Pravidlo „žádné tvrzení bez zdroje,
+S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md). Pravidlo „žádné tvrzení bez zdroje,
 který není součástí okruhu“ ([triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md))
 a [časově odložené hodnocení](@/kompendium/self-defense-guides/37-time-locked-evaluation.md) místo
 poslechu „na jeden zátah“. Obě pravidla míří na efekt opakování, který doložili Hasher, Goldstein
 a Toppino (1977): odklad a nezávislý zdroj oslabují dojem pravdivosti, který vzniká z pouhé
 známosti.
 
-**S4 – Hermeneutická obnova.** Reflexivní biografie: jak se z věcného inženýra stal hlas cizího
+S4 – Hermeneutická obnova. Reflexivní biografie: jak se z věcného inženýra stal hlas cizího
 rámce a co z jeho zvídavosti bylo autentické. McAdams (1993) chápe životní příběh jako nástroj
 identity; přepsání příběhu tak, aby v něm zvídavost zůstala ctností, chránilo před studem.
 
-**S5 – Konsolidace a transfer.** Návrat k odborné komunitě – profesnímu sdružení, kolegům –, kde
+S5 – Konsolidace a transfer. Návrat k odborné komunitě – profesnímu sdružení, kolegům –, kde
 jeho úsudek má váhu podle jiných pravidel než sledovanost. Lalich a Tobias (2006) považují obnovu
 vazeb mimo skupinu za klíčový ochranný faktor proti návratu.
 

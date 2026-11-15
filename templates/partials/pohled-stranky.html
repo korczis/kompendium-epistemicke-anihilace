@@ -14,7 +14,7 @@
 {%- set_global pv = "protokol-tok" %}{% set_global pv_h = "Rozhodovací body jako tok" %}
 {%- set_global pv_d = "Každý řádek tabulky rozhodovacích bodů je jedna dvojice: situace vlevo, postup vpravo a stránky, na které postup odkazuje. Řádky jsou souběžné možnosti, ne pořadí kroků. Klepnutím nebo klávesou Enter přejdete na řádek tabulky nebo otevřete navazující stránku; z klávesnice graf vyberte tabulátorem a procházejte šipkami." %}
 {%- set_global pv_c = "h-[30rem] sm:h-96" %}
-{%- elif pv_part == "case-studies" and ("<th>Fáze</th>" in doc.content or "<strong>S1 " in doc.content) %}
+{%- elif pv_part == "case-studies" and ("<th>Fáze</th>" in doc.content or "S1 –" in doc.content) %}
 {%- set_global pv = "pripad-faze" %}{% set_global pv_h = "Fáze případu" %}
 {%- set_global pv_d = "Fáze tak, jak je kazuistika uvádí: fáze expozice z tabulky časové osy, nebo stupně intervence S1–S5. Osa je pořadí, ne kalendář; trvání je převzaté z textu. Klepnutím nebo klávesou Enter přejdete na místo v textu; z klávesnice graf vyberte tabulátorem a procházejte šipkami." %}
 {%- set_global pv_c = "h-80" %}
@@ -23,8 +23,15 @@
 {%- set_global pv_d = "Uprostřed je tato stránka, v prvním kruhu související pojmy z její hlavičky, ve druhém stránky, na které odkazuje v textu. Čáry mezi nimi jsou odkazy z grafu knihy. Klepnutím nebo klávesou Enter stránku otevřete; z klávesnice graf vyberte tabulátorem a procházejte šipkami." %}
 {%- set_global pv_c = "h-96 sm:h-[28rem]" %}
 {%- endif %}
+{%- set_global pv_stupne = "" %}
+{%- if pv == "pripad-faze" %}
+{#- The names of the intervention stages S1–S5 come from the protocol that defines them, its
+    "Stupeň S<n>: <name>" headings; a case study only mentions the stage, in bold or not. #}
+{%- set pv_proto = get_page(path="kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md") %}
+{%- for top in pv_proto.toc %}{% if "Stupeň S" in top.title %}{% set pv_t = top.title | replace(from="Stupeň ", to="") %}{% set_global pv_stupne = pv_stupne ~ "|" ~ pv_t %}{% endif %}{% for h in top.children %}{% if "Stupeň S" in h.title %}{% set pv_t = h.title | replace(from="Stupeň ", to="") %}{% set_global pv_stupne = pv_stupne ~ "|" ~ pv_t %}{% endif %}{% endfor %}{% endfor %}
+{%- endif %}
 {%- if pv %}
-<section data-js data-pohled="{{ pv }}" data-pohled-stranka="{{ doc.relative_path }}" data-pohled-pojmy="{{ doc.extra.related_terms | default(value=[]) | join(sep=' ') }}" class="mt-8 border-t border-gray-200 pt-6 dark:border-gray-700" aria-labelledby="pohled-h">
+<section data-js data-pohled="{{ pv }}" data-pohled-stranka="{{ doc.relative_path }}" data-pohled-pojmy="{{ doc.extra.related_terms | default(value=[]) | join(sep=' ') }}"{% if pv_stupne %} data-pohled-stupne="{{ pv_stupne }}"{% endif %} class="mt-8 border-t border-gray-200 pt-6 dark:border-gray-700" aria-labelledby="pohled-h">
   <h2 id="pohled-h" class="mb-1 text-sm font-semibold uppercase tracking-wide text-gray-900 dark:text-white">{{ pv_h }}</h2>
   <p id="pohled-d" class="mb-3 text-sm text-gray-500 dark:text-gray-400">{{ pv_d }}</p>
   {%- set pg = {"label": pv_h, "desc": "pohled-d", "cls": pv_c ~ " border border-gray-200 bg-gray-50 dark:border-gray-700 dark:bg-gray-900"} %}

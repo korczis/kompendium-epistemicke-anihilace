@@ -33,17 +33,19 @@ Pro knihu je na teorii grafů podstatné dvojí: **kruhové zdůvodnění je v �
 
 Teorie grafů vznikla v roce 1736, kdy Leonhard Euler vyřešil úlohu sedmi mostů města Královce (Königsberg): dokázal, že žádná procházka městem nemůže přejít každý ze sedmi mostů právě jednou. Eulerův klíčový vhled spočíval v abstrakci úlohy od fyzické geografie k matematické struktuře – pevnina se stala vrcholy, mosty hranami a otázka se proměnila v otázku existence eulerovského tahu ve výsledném grafu. Tento akt abstrakce – převedení skutečné úlohy na její grafovou podstatu – zůstává ústřední metodou teorie grafů i po téměř třech stoletích.
 
-Obor od Eulerovy doby nesmírně vyrostl. Mezi milníky patří:
+Obor od Eulerovy doby nesmírně vyrostl. Mezi jeho milníky patří:
 
-- **1847:** Kirchhoffova věta o kostrách pro elektrické obvody;
-- **1852:** problém čtyř barev (dokázán s pomocí počítače v roce 1976);
-- **1936:** Kőnigova první učebnice teorie grafů;
-- **1956:** Dijkstrův algoritmus nejkratší cesty;
-- **1962:** Edmondsův algoritmus maximálního párování;
-- **70. léta:** NP-úplnost mnoha grafových úloh (hamiltonovská kružnice, barvení grafu aj.);
-- **2000. léta:** PageRank (Google) jako grafový algoritmus nad grafem webu;
-- **2010. léta:** grafové neuronové sítě propojující teorii grafů a strojové učení;
-- **2020. léta:** grafové databáze s vlastnostmi, které přinášejí teorii grafů do praktické správy dat.
+| Období | Milník |
+| --- | --- |
+| 1847 | Kirchhoffova věta o kostrách pro elektrické obvody |
+| 1852 | problém čtyř barev, dokázaný s pomocí počítače v roce 1976 |
+| 1936 | Kőnigova první učebnice teorie grafů |
+| 1956 | Dijkstrův algoritmus nejkratší cesty |
+| 1965 | Edmondsův algoritmus maximálního párování v obecném grafu |
+| 70. léta | NP-úplnost mnoha grafových úloh, například hamiltonovské kružnice a barvení grafu |
+| konec 90. let | PageRank jako grafový algoritmus nad grafem webu |
+| 2010. léta | grafové neuronové sítě propojující teorii grafů a strojové učení |
+| 2020. léta | grafové databáze, které přinášejí teorii grafů do praktické správy dat |
 
 V softwarovém inženýrství se teorie grafů objevuje všude: řešení závislostí, sestavovací systémy, směrování v sítích, stavové automaty, workflow, optimalizace překladačů (grafy toku řízení), správa paměti (grafy dosažitelnosti) a správa verzí (DAG commitů).
 

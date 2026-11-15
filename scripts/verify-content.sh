@@ -29,6 +29,9 @@ fix=${1:-}
 
 root=$(git rev-parse --show-toplevel)
 cd "$root"
+# shellcheck source=scripts/disk-floor.sh
+. "$root/scripts/disk-floor.sh"
+kea_disk_floor "verify-content"
 # This verifies the index, never the working tree. Edits left unstaged are therefore NOT checked,
 # and a green verdict says nothing about them (2026-11-14: a --fix run over unstaged work passed on
 # main's content and left ia.json stale). They are named here and again beside the verdict.

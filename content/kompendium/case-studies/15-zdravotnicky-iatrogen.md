@@ -63,8 +63,8 @@ Průběh lze shrnout do pěti fází. Ve fázi **hypotézy** (první rok) byla z
 negativní a pacientka dostala doporučení „zpomalit“. Ve fázi **zápisu** (první až druhý rok) se
 do dokumentace dostala poznámka o úzkosti, kterou přebírali další odborníci. Ve fázi **rámce**
 (druhý až čtvrtý rok) se stížnosti vykládaly jako somatizace a další vyšetření byla odmítána.
-Ve fázi **internalizace** (čtvrtý až pátý rok) pacientka přestala příznaky hlásit, protože se
-styděla „obtěžovat“. Ve fázi **detekce** (pátý až šestý rok) vedl akutní stav na pohotovosti k
+Ve fázi internalizace (čtvrtý až pátý rok) pacientka přestala příznaky hlásit, protože se
+styděla „obtěžovat“. Ve fázi detekce (pátý až šestý rok) vedl akutní stav na pohotovosti k
 novému vyšetření a ke správné diagnóze. Carel a Kidd (2014) ukazují, že takové sklouzávání není
 selháním jednotlivce, ale vlastností prostředí, v němž mají slova pacienta systematicky menší
 váhu než nálezy a zápisy.
@@ -137,20 +137,20 @@ správné.
 Rámec poskytl [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
 spolu s léčbou základního onemocnění. Jeho stupně S1–S5 volně navazují na třífázový model
 zotavení, který Herman (1992) popsala jako nastolení bezpečí, vzpomínání a truchlení a
-znovupropojení s běžným životem. Ve stupni **S1 – Validace a mapování** bylo klíčové uznání, že
+znovupropojení s běžným životem. Ve stupni S1 – Validace a mapování bylo klíčové uznání, že
 problém vznikl v systému péče, a společné sestavení časové osy příznaků a vyšetření z
 dokumentace, která tak přestala být nástrojem rámce a stala se zdrojem faktů.
 
-Ve stupni **S2 – Externalizace introjektů** byly věty „přeháním“ a „jsem hypochondr“ přiřazeny
+Ve stupni S2 – Externalizace introjektů byly věty „přeháním“ a „jsem hypochondr“ přiřazeny
 konkrétním situacím, kde zazněly. White a Epston (1990) popsali externalizaci jako oddělení
 problému od identity člověka: věta přestane být vlastností pacientky a stane se výrokem, který
-někdo v určité chvíli pronesl. Ve stupni **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md)**
+někdo v určité chvíli pronesl. Ve stupni S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md)
 šlo o obnovu [interoceptivní důvěry](@/kompendium/self-defense-guides/13-somatic-awareness.md);
 deník příznaků sloužil jako vnější kotva, která umožnila sledovat vlastní vnímání, jak to Flavell
 (1979) vymezil pro metakognitivní monitorování.
 
-Ve stupni **S4 – Hermeneutická obnova** pacientka hledala nový vztah ke zdravotní péči, který není
-ani slepou důvěrou, ani paušálním odmítáním. Stupeň **S5 – Konsolidace a transfer** spočíval v
+Ve stupni S4 – Hermeneutická obnova pacientka hledala nový vztah ke zdravotní péči, který není
+ani slepou důvěrou, ani paušálním odmítáním. Stupeň S5 – Konsolidace a transfer spočíval v
 dohodě s ošetřujícím lékařem o sdíleném rozhodování (*shared decision making*), jehož model
 Elwyn et al. (2012) opírají o výslovné nabídnutí volby, vysvětlení možností a společné
 rozhodnutí; pro pacientku to znamenalo, že její popis příznaků je rovnocenným vstupem.

@@ -33,9 +33,9 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 ## Definice
 
-**Paradox svobody** je paradoxální metaanihilační protokol, jehož operační jádro tvoří subjekt zjišťuje, že každá realizovaná svoboda je popřením potenciální svobody. Technika patří do subkategorie **5.4 Paradoxální metaanihilační protokoly** — třídy ultramárních postupů, které využívají strukturální paradoxy v subjektově sebehodnotícím aparátu k destabilizaci samotného procesu, jímž subjekt rozlišuje, co je správné, pravdivé, vlastní a smysluplné.
+**Paradox svobody** je paradoxální metaanihilační protokol, jehož operační jádro tvoří subjekt zjišťuje, že každá realizovaná svoboda je popřením potenciální svobody. Technika patří do subkategorie 5.4 Paradoxální metaanihilační protokoly — třídy ultramárních postupů, které využívají strukturální paradoxy v subjektově sebehodnotícím aparátu k destabilizaci samotného procesu, jímž subjekt rozlišuje, co je správné, pravdivé, vlastní a smysluplné.
 
-Na rozdíl od technik **[epistemické singularity](@/glossary/epistemicka-singularita.md)** ([5.1](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md)), které pohlcují obsahy poznání, a technik **transcendentální iluze** ([5.2](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md)), které manipulují s podmínkami možnosti poznání, paradoxální protokoly zasahují formální infrastrukturu posuzování. Subjekt nedokáže paradoxnost obejít vyšší úrovní reflexe, protože každá vyšší úroveň je sama postižena strukturálně analogickou paradoxií. Vzniká **kognitivní past s rekurzivně reprodukovaným zámkem**: čím více se subjekt snaží uniknout, tím pevněji je v pasti uvězněn.
+Na rozdíl od technik **[epistemické singularity](@/glossary/epistemicka-singularita.md)** ([5.1](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md)), které pohlcují obsahy poznání, a technik **[metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md)** ([5.2](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md)), které manipulují s podmínkami možnosti poznání, paradoxální protokoly zasahují formální infrastrukturu posuzování. Subjekt nedokáže paradoxnost obejít vyšší úrovní reflexe, protože každá vyšší úroveň je sama postižena strukturálně analogickou paradoxií. Vzniká **kognitivní past s rekurzivně reprodukovaným zámkem**: čím více se subjekt snaží uniknout, tím pevněji je v pasti uvězněn.
 
 Technika je strukturálně blízká [kognitivní anti-rekurzivitě](@/glossary/kognitivni-anti-rekurzivita.md), ale operuje uvnitř klasické formální logiky — využívá nikoli antitetické, nýbrž *ortodoxní* paradoxy klasické tradice (Russell, Tarski, Gödel, Wittgenstein) a aplikuje je na fenomenologickou rovinu sebezakoušení. Klíčový rys: paradox není argumentován, je *zažíván*.
 
@@ -44,7 +44,7 @@ Technika je strukturálně blízká [kognitivní anti-rekurzivitě](@/glossary/k
 Pod názvem „paradox svobody“ se míchají dvě různé věci. Popper (1945) jím označuje politický
 závěr, že neomezená svoboda ruší sama sebe, a proto potřebuje právní meze. Sartre (1943) tvrdí
 něco jiného: svobodě se nelze vyhnout, úzkost je uvědoměním si odpovědnosti za volbu a útěk před
-ní je špatná víra. Sartre nikde nedělá ze svobody vinu vůči neuskutečněným možnostem; toto čtení
+ní je [špatná víra](@/glossary/spatna-vira.md). Sartre nikde nedělá ze svobody vinu vůči neuskutečněným možnostem; toto čtení
 bylo zde opraveno. Berlin (1958) k tomu přidává rozlišení svobody od něčeho a svobody k něčemu,
 které umožňuje o mezích mluvit, aniž by se svoboda rušila.
 
@@ -115,7 +115,7 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 |-----------|--------------|
 | **Paradox-bezpečné výukové protokoly** | Filozofická pedagogika musí explicitně oddělovat zkoumání paradoxu od identifikace s paradoxem |
 | **Klinické rámce paradoxologie** | Terapeutická práce s paradoxy vyžaduje kvalifikaci v metalogice |
-| **Whistleblower kanály** | Anonymní hlášení manipulativní paradoxizace v akademickém a klinickém prostředí |
+| **Kanál pro oznamovatele** | Anonymní hlášení manipulativní paradoxizace v akademickém a klinickém prostředí |
 
 ## Vztah k jiným technikám
 

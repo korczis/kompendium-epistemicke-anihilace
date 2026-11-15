@@ -101,7 +101,7 @@ obecně a prodej „podprahových“ technik osobního rozvoje.
 
 - **Soustředění a flow.** Plné zaujetí činností, kterou si člověk zvolil a může přerušit,
   není zahlcením.
-- **ADHD a úzkostné poruchy** mění zvládání pozornosti zevnitř; vyžadují odborné posouzení
+- **ADHD a [úzkostné poruchy](@/glossary/uzkostne-poruchy.md)** mění zvládání pozornosti zevnitř; vyžadují odborné posouzení
   a zvyšují zranitelnost vůči prostředí, které pozornost vyčerpává.
 - **[Default mode network](@/glossary/default-mode-network.md).** Klidové stavy mozku jsou
   spojovány se sebereflexí a vybavováním vzpomínek; jejich soustavné potlačování je
@@ -130,7 +130,9 @@ přehlédly zjevné varovné znaky.
 [rozpočet pozornosti](@/kompendium/self-defense-guides/34-attention-budget.md),
 [informační půst](@/kompendium/self-defense-guides/39-information-fasting.md)) a
 [hluboké čtení](@/kompendium/self-defense-guides/35-deep-reading-practice.md) jako trénink
-udržení myšlenky. **Pro organizace.** Pravidla dostupnosti, časy bez schůzek a notifikací.
+udržení myšlenky.
+
+**Pro organizace.** Pravidla dostupnosti, časy bez schůzek a notifikací.
 
 **Otázky, které pomáhají v rozhovoru.** Kolik času denně máš bez obrazovky a bez zpráv?
 Jak se cítíš, když nic nehraje? Kdy sis naposledy promyslel něco až do konce? Kdo

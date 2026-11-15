@@ -48,10 +48,10 @@ kompozit ukazuje jeho podobu, v níž produktem je sama ideologie.
 
 V prvních třech měsících (fáze **zisku**) přišla malá investice, rychlý výnos a vstup do placené
 skupiny. Mezi třetím a devátým měsícem (fáze **zasvěcení**) následovaly denní signály, vlastní
-slovník a pohrdání „klasickými“ investory. Mezi devátým a osmnáctým měsícem (fáze **eskalace**)
-si muž vzal úvěr, přesvědčil bratra a ztráty ignoroval jako „šum“. Ve druhém roce (fáze **krize**)
+slovník a pohrdání „klasickými“ investory. Mezi devátým a osmnáctým měsícem (fáze eskalace)
+si muž vzal úvěr, přesvědčil bratra a ztráty ignoroval jako „šum“. Ve druhém roce (fáze krize)
 byla velká ztráta vykládána jako „otřesení slabých rukou“ a skupina vyzývala k dokupu. Na konci
-druhého roku (fáze **detekce a odchodu**) platforma zastavila výběry a bratr požadoval vysvětlení.
+druhého roku (fáze detekce a odchodu) platforma zastavila výběry a bratr požadoval vysvětlení.
 Staw (1976) popsal eskalaci závazku, při níž lidé po neúspěchu do zvoleného postupu přidávají, aby
 ospravedlnili dřívější rozhodnutí; právě tento mechanismus vedl od ztráty k úvěru.
 
@@ -110,21 +110,21 @@ za původní rozhodnutí nenese odpovědnost a nemusí je obhajovat.
 ## 7. Intervenční strategie
 
 Rámcem byl [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md).
-Ve stupni **S1 – Validace a mapování** vznikl finanční přehled a plán řešení dluhu a byla
+Ve stupni S1 – Validace a mapování vznikl finanční přehled a plán řešení dluhu a byla
 poskytnuta krizová podpora. Ztráta úspor a vina vůči blízkým zvyšují
 [suicidální riziko](@/kompendium/emergency-protocols/2-suicide-risk-EA.md) a je třeba se na něj
 přímo ptát; Joiner (2005) popisuje vnímané břemeno pro druhé (*perceived burdensomeness*) jako
 jeden z hlavních činitelů sebevražedného přání, a pocit, že člověk zničil bratra, takovým břemenem
 je.
 
-Ve stupni **S2 – Externalizace introjektů** byly věty „systém je proti nám“ a „slabé ruce prodávají“
-pojmenovány jako jazyk komunity. Ve stupni **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md)**
+Ve stupni S2 – Externalizace introjektů byly věty „systém je proti nám“ a „slabé ruce prodávají“
+pojmenovány jako jazyk komunity. Ve stupni S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md)
 se muž učil pravděpodobnostnímu uvažování a [falsifikačnímu myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md);
 Kahneman (2011) doporučuje u závažných rozhodnutí vědomě hledat základní pravděpodobnosti a
 pohled zvenčí místo přesvědčivého příběhu.
 
-Stupeň **S4 – Hermeneutická obnova** přinesl nový výklad apokalyptického příběhu a vlastní touhy po
-jistotě v nejistém světě. Stupeň **S5 – Konsolidace a transfer** spočíval v usmíření s bratrem a ve
+Stupeň S4 – Hermeneutická obnova přinesl nový výklad apokalyptického příběhu a vlastní touhy po
+jistotě v nejistém světě. Stupeň S5 – Konsolidace a transfer spočíval v usmíření s bratrem a ve
 společném finančním plánování s manželkou. Shiller (2000) připomíná, že příběhy finančních mánií
 působí proto, že odpovídají skutečné nejistotě; uznání této nejistoty bez nutnosti ji okamžitě
 vyřešit bylo jádrem hermeneutické práce.

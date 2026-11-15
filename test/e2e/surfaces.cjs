@@ -111,18 +111,36 @@ async function derived(load = fromBase) {
     }
     return null;
   };
+  // Stupně intervence bez tabulky fází: jen tak pohled dokazuje, že je čte, a ne že ho zachránila
+  // tabulka.
+  const firstWithout = async (nodes, absent, ...markers) => {
+    for (const n of nodes) {
+      const html = await load(page(n)).catch(() => '');
+      if (markers.every((m) => html.includes(m)) && !html.includes(absent)) return n;
+    }
+    return null;
+  };
   const views = [
     ['oddil-prehled', index('kompendium/emergency-protocols'), [], 'treemap rozsahu a stavu stránek oddílu'],
     ['protokol-tok', ranked('kompendium/emergency-protocols'), [], 'tok rozhodovacích bodů nejodkazovanějšího protokolu'],
     ['techniky-rozptyl', index('kompendium/techniques'), [], 'rizikový profil rodin technik'],
     ['teorie-pojmy', ranked('kompendium/07-teoreticke-reflexe'), [], 'graf pojmů nejodkazovanější teoretické reflexe'],
     ['pripad-faze', ranked('kompendium/case-studies'), ['<th>Fáze</th>'], 'fáze kazuistiky z tabulky časové osy'],
-    ['pripad-faze', ranked('kompendium/case-studies'), ['<strong>S1 '], 'stupně intervence S1–S5 kazuistiky'],
   ];
   for (const [pohled, nodes, markers, note] of views) {
     const n = await firstWith(nodes, `data-pohled="${pohled}"`, ...markers);
     if (n) out.push({ path: page(n), painted: 1, pohled, note: 'pohled ' + pohled + ': ' + note });
     else out.push({ path: nodes[0] ? page(nodes[0]) : '', painted: 0, pohled, missing: true, note: 'pohled ' + pohled + ': ' + note });
+  }
+  // Stupně intervence S1–S5 na kazuistice bez tabulky fází, jak je stránka napsaná, a táž stránka
+  // s fixturou: každý štítek „S<n> – …“ zbavený zvýraznění a první z nich zalomený uprostřed. Pohled
+  // musí v obou dojít do stavu „hotovo“ se všemi stupni, které stránka zmiňuje: nesmí záviset na
+  // tučném písmu ani na tom, kde editor zalomil řádek.
+  const stages = await firstWithout(ranked('kompendium/case-studies'), '<th>Fáze</th>', 'data-pohled="pripad-faze"', 'S1 –');
+  for (const fixture of [null, 'plain-stages']) {
+    const note = 'pohled pripad-faze: stupně intervence S1–S5 kazuistiky' + (fixture ? ', fixtura bez tučného písma a se zalomením' : '');
+    if (stages) out.push({ path: page(stages), painted: 1, pohled: 'pripad-faze', stages: true, fixture, note });
+    else out.push({ path: '', painted: 0, pohled: 'pripad-faze', missing: true, note });
   }
   // První stránka knihy, jejíž HTML obsahuje diagram Mermaid (hledá se v sestaveném webu).
   for (const n of g.nodes) {
@@ -373,6 +391,20 @@ async function view(page, s, failures) {
   if (stav !== 'hotovo') { failures.push(`pohled ${s.pohled}: stav „${stav}“, ne „hotovo“`); return; }
   const links = await root.locator('[data-pohled-seznam] li a[href]').count();
   if (links < 1) failures.push(`pohled ${s.pohled}: textová podoba nemá odkazy`);
+  if (s.stages) {
+    // every stage the intervention section mentions, by its number, is in the list with a name
+    const mentioned = await page.evaluate(() => {
+      const h = document.querySelector('h2[id*="intervencni-strategie"]');
+      if (!h) return [];
+      let t = '';
+      for (let e = h.nextElementSibling; e && e.tagName !== 'H2'; e = e.nextElementSibling) t += ' ' + e.textContent;
+      return [...new Set([...t.replace(/\s+/g, ' ').matchAll(/(^|[^\w])S([1-5])\s*[–-]\s/g)].map((m) => m[2]))].sort();
+    });
+    const listed = await root.locator('[data-pohled-seznam] li a[href]').evaluateAll((as) =>
+      as.map((a) => /^S([1-5]) – \S/.exec(a.textContent.trim())).filter(Boolean).map((m) => m[1]).sort());
+    if (mentioned.length < 3) failures.push(`pohled ${s.pohled}: oddíl zmiňuje jen ${mentioned.length} stupně`);
+    if (listed.join() !== mentioned.join()) failures.push(`pohled ${s.pohled}: stupně v textu ${mentioned.join()}, v seznamu ${listed.join()}`);
+  }
   const graf = root.locator('[data-pohled-graf]');
   await graf.focus();
   await page.keyboard.press('ArrowRight');
@@ -423,6 +455,15 @@ async function check(browser, s, viewport, scheme) {
   page.on('pageerror', (e) => failures.push('chyba stránky: ' + e.message));
   page.on('console', (m) => { if (m.type() === 'error') failures.push('konzole: ' + m.text().slice(0, 160)); });
   page.on('response', (r) => { if (r.status() >= 400 && r.url().startsWith(origin)) failures.push(r.status() + ' ' + r.url()); });
+  if (s.fixture === 'plain-stages') {
+    // the page as served, its stage labels unbolded and the first one wrapped mid-label
+    await page.route(BASE + s.path, async (route) => {
+      const r = await route.fetch();
+      let body = (await r.text()).replace(/<strong>(S[1-5]\s*[–-][^<]*)<\/strong>/g, '$1');
+      body = body.replace(/(S1\s*[–-]\s*\S+) /, '$1\n');
+      await route.fulfill({ response: r, body });
+    });
+  }
   const res = await page.goto(BASE + s.path, { waitUntil: 'networkidle' });
   if (!res || res.status() !== 200) failures.push('HTTP ' + (res && res.status()));
   await scrollThrough(page);

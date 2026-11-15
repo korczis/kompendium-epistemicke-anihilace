@@ -47,13 +47,13 @@ vysvětluje biologicky, tento sklon potvrzuje a upevňuje.
 
 ## 3. Časová osa expozice
 
-V prvním půlroce (fáze **počátečního kontaktu**) přišel obsah o sebezlepšení, pocit porozumění a
-první komunita. Mezi šestým a dvanáctým měsícem (fáze **perturbace**) rostla nedůvěra k terapii a
-„mainstreamovým“ radám a přišlo „prozření“. V prvních dvou letech (fáze **eskalace**) vztahový rámec
+V prvním půlroce (fáze počátečního kontaktu) přišel obsah o sebezlepšení, pocit porozumění a
+první komunita. Mezi šestým a dvanáctým měsícem (fáze perturbace) rostla nedůvěra k terapii a
+„mainstreamovým“ radám a přišlo „prozření“. V prvních dvou letech (fáze eskalace) vztahový rámec
 nahradily biologizující doktríny o vzhledu a jeho měření. Mezi druhým a čtvrtým rokem (fáze
-**konsolidace**) se ustálil absolutní biodeterminismus, fatalismus, misogynní slovník a izolace od
-smíšeného prostředí. **Detekce** nastala v proměnlivé době sebevraždou blízkého přítele z komunity,
-po níž rodina kontaktovala odborné služby, a **odchod a rekonstrukce** po čtvrtém roce zahrnovaly
+konsolidace) se ustálil absolutní biodeterminismus, fatalismus, misogynní slovník a izolace od
+smíšeného prostředí. Detekce nastala v proměnlivé době sebevraždou blízkého přítele z komunity,
+po níž rodina kontaktovala odborné služby, a odchod a rekonstrukce po čtvrtém roce zahrnovaly
 terapii zaměřenou na mužskou socializaci a samotu a dlouhodobou skupinu mimo online prostředí.
 Seligman (1975) popsal naučenou bezmocnost (*learned helplessness*) jako stav, kdy člověk po
 opakované zkušenosti nekontrolovatelnosti přestane jednat i tam, kde by jednání pomohlo; fáze
@@ -113,21 +113,21 @@ jako krátkou spolupracující intervenci, která má přednost před diskusí o
 ## 7. Intervenční strategie
 
 Rámcem byl [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md).
-Ve stupni **S1 – Validace a mapování** proběhlo posouzení [suicidálního rizika](@/kompendium/emergency-protocols/2-suicide-risk-EA.md),
+Ve stupni S1 – Validace a mapování proběhlo posouzení [suicidálního rizika](@/kompendium/emergency-protocols/2-suicide-risk-EA.md),
 sestavení bezpečnostního plánu podle Stanley a Brown (2012) a uznání samoty jako skutečné bolesti.
-Ve stupni **S2 – Externalizace introjektů** byly biodeterministické věty zapsány a odlišeny od
+Ve stupni S2 – Externalizace introjektů byly biodeterministické věty zapsány a odlišeny od
 zkušenosti; Beck (1976) popisuje podobné odlišení automatických myšlenek od faktů jako základ
 kognitivní terapie.
 
-Ve stupni **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md)** šlo o
+Ve stupni S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md) šlo o
 [hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md) o přitažlivosti a
-vztazích a o práci s tím, co „data“ fóra skutečně říkají. Stupeň **S4 – Hermeneutická obnova**
+vztazích a o práci s tím, co „data“ fóra skutečně říkají. Stupeň S4 – Hermeneutická obnova
 zahrnoval terapii zaměřenou na mužskou socializaci, kamarádství a samotu, inspirovanou programy pro
 muže a skupinami vzájemné podpory mužů. Cacioppo a Patrick (2008) zdůrazňují, že osamělost se
 nejúčinněji léčí úpravou zkreslených očekávání v sociálních situacích, nikoli jen zvýšením počtu
 kontaktů.
 
-Stupeň **S5 – Konsolidace a transfer** spočíval v dlouhodobé offline skupině a v postupném budování
+Stupeň S5 – Konsolidace a transfer spočíval v dlouhodobé offline skupině a v postupném budování
 vztahů včetně přátelství se ženami. Joiner (2005) považuje obnovenou sounáležitost za ochranný
 činitel, který přímo oslabuje jednu ze složek sebevražedného rizika.
 

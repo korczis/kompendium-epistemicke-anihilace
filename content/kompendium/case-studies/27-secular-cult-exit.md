@@ -49,13 +49,13 @@ tím více si jí člověk následně cení; vyčerpávající víkend tak sám 
 
 ## 3. Časová osa expozice
 
-V prvním měsíci (fáze **počátečního kontaktu**) proběhl úvodní víkend, katarze a nákup dalšího stupně.
-Mezi druhým a dvanáctým měsícem (fáze **perturbace**) byla vlastní minulost přejmenována na „raketu“ a
-přišly výzvy k „dotažení“ vztahů. Mezi prvním a třetím rokem (fáze **eskalace**) následovaly pokročilé
+V prvním měsíci (fáze počátečního kontaktu) proběhl úvodní víkend, katarze a nákup dalšího stupně.
+Mezi druhým a dvanáctým měsícem (fáze perturbace) byla vlastní minulost přejmenována na „raketu“ a
+přišly výzvy k „dotažení“ vztahů. Mezi prvním a třetím rokem (fáze eskalace) následovaly pokročilé
 kurzy, leadership program, neplacené asistentské role a odstup od „netransformovaných“. Mezi třetím a
-šestým rokem (fáze **konsolidace**) se ustálil technický slovník blokující kritickou diskusi a
-všudypřítomná povinnost náboru. **Detekce** nastala v proměnlivé době vyhořením z neplacené asistence,
-finančním napětím a skeptickým zásahem partnerky a **odchod a rekonstrukce** po šestém roce probíhaly ve
+šestým rokem (fáze konsolidace) se ustálil technický slovník blokující kritickou diskusi a
+všudypřítomná povinnost náboru. Detekce nastala v proměnlivé době vyhořením z neplacené asistence,
+finančním napětím a skeptickým zásahem partnerky a odchod a rekonstrukce po šestém roce probíhaly ve
 skupině bývalých účastníků, při kritickém čtení literatury o myšlenkové reformě a v terapii. Cialdini
 (1984) popsal princip závazku a konzistence: každý další zakoupený stupeň zvyšoval tlak, aby
 předchozí rozhodnutí zůstala smysluplná.
@@ -110,19 +110,19 @@ fakta dovolí; konkrétní účet času a peněz byl faktem, který výklad nepo
 ## 7. Intervenční strategie
 
 Rámcem byl [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md).
-Ve stupni **S1 – Validace a mapování** šlo o odpočinek, finanční přehled a uznání, že úvodní zkušenost
+Ve stupni S1 – Validace a mapování šlo o odpočinek, finanční přehled a uznání, že úvodní zkušenost
 byla pro něj skutečně silná; Lalich a Tobias (2006) připomínají, že bývalí členové prožili ve
-skupině i skutečně dobré chvíle a že jejich uznání patří k realistickému obrazu zkušenosti. Ve stupni **S2 – Externalizace introjektů** byl
+skupině i skutečně dobré chvíle a že jejich uznání patří k realistickému obrazu zkušenosti. Ve stupni S2 – Externalizace introjektů byl
 slovník programu sepsán a přeložen, se zvláštní pozorností k větám, které znevažují minulost („to je
 jen tvůj příběh“).
 
-Ve stupni **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md)** muž kriticky četl literaturu o
+Ve stupni S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md) muž kriticky četl literaturu o
 myšlenkové reformě (Lifton, 1961) a o skupinách s vysokou kontrolou a srovnával vlastní zkušenost s
 popsanými vzorci. Singer a Lalich (1995) popisují poznání mechanismů vlivu jako důležitou součást
 zotavení, protože vrací člověku vysvětlení, které nevychází z jazyka skupiny.
 
-Stupeň **S4 – Hermeneutická obnova** vrátil vlastnímu životnímu příběhu legitimitu, místo aby byl
-„raketou“. Stupeň **S5 – Konsolidace a transfer** spočíval ve skupině bývalých účastníků a v obnově
+Stupeň S4 – Hermeneutická obnova vrátil vlastnímu životnímu příběhu legitimitu, místo aby byl
+„raketou“. Stupeň S5 – Konsolidace a transfer spočíval ve skupině bývalých účastníků a v obnově
 běžné komunikace s rodinou. Herman (1992) popisuje závěrečnou fázi zotavení jako znovupropojení s
 běžnými vztahy; zde to znamenalo znovu mluvit s blízkými jejich jazykem.
 

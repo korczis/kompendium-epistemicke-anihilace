@@ -11,6 +11,9 @@ set -uo pipefail
 
 root=$(cd "$(dirname "$0")/.." && pwd)
 cd "$root"
+# shellcheck source=../scripts/disk-floor.sh
+. "$root/scripts/disk-floor.sh"
+kea_disk_floor "test/run.sh"
 # At most 4 by default: each case extracts the tree and some build the whole site (~600 MB),
 # so jobs are bounded by disk, not only by CPUs; 18 at once filled this Mac's disk (2026-11-12).
 cpus=$(getconf _NPROCESSORS_ONLN 2>/dev/null || sysctl -n hw.ncpu 2>/dev/null || echo 2)

@@ -94,7 +94,7 @@ který platí pro všechny stejně (Merton 1973). Supervize má dohodnutý cíl,
 supervidovaného, jak ji popisují Hawkins a Shohet (1989). Rozdíl tedy nespočívá v ostrosti
 kritiky, ale v tom, zda posiluje, nebo oslabuje schopnost člověka samostatně posuzovat.
 
-Klinicky je třeba odlišit depresi, úzkostné poruchy a vyhoření, které samy o sobě vedou k
+Klinicky je třeba odlišit depresi, [úzkostné poruchy](@/glossary/uzkostne-poruchy.md) a vyhoření, které samy o sobě vedou k
 nejistotě, nerozhodnosti a ztrátě sebedůvěry bez jakéhokoli vnějšího působení (American
 Psychiatric Association 2022). U dlouhodobého a opakovaného ohrožení je třeba zvážit
 komplexní posttraumatickou stresovou poruchu ([C-PTSD](@/glossary/c-ptsd.md)), kterou MKN-11

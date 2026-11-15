@@ -26,11 +26,14 @@ Dotazník používají **kliničtí psychologové, psychiatři, psychotraumatolo
 
 ## Co měří
 
-Tři subškály odpovídají třem skupinám posttraumatických příznaků:
+Weiss a Marmar (1997) dotazník sestavili ze tří subškál, které odpovídají třem skupinám posttraumatických
+příznaků:
 
-- intruze (8 položek) – nechtěné vzpomínky, sny, náhlé vlny pocitů, znovuprožívání při připomenutí;
-- vyhýbání (8 položek) – snaha nemyslet na událost, vyhýbat se připomínkám, emoční otupělost;
-- **hyperarousal** (6 položek) – podrážděnost, potíže se soustředěním a spánkem, lekavost, ostražitost.
+| Subškála | Položky | Co zahrnuje |
+| --- | --- | --- |
+| Intruze | 8 | nechtěné vzpomínky, sny, náhlé vlny pocitů, znovuprožívání při připomenutí |
+| Vyhýbání | 8 | snaha nemyslet na událost, vyhýbat se připomínkám, emoční otupělost |
+| Hyperarousal | 6 | podrážděnost, potíže se soustředěním a spánkem, lekavost, ostražitost |
 
 Subškály se obvykle vyjadřují jako průměr položek, celkové skóre jako součet (0–88).
 
@@ -40,12 +43,22 @@ Weiss a Marmar původně nestanovili diagnostické hraniční hodnoty. Pozdějš
 
 ## Meze interpretace
 
-- **Vázanost na jednu událost.** IES-R předpokládá identifikovatelnou událost. U dlouhodobé, opakované zátěže – v násilném vztahu nebo ve skupině s vysokou mírou kontroly – je obtížné „událost“ určit a dotazník může obraz zkreslit.
-- **Neodpovídá plně DSM-5.** Nástroj vznikl před DSM-5 a nepokrývá skupinu negativních změn kognice a nálady; pro hodnocení podle DSM-5 se používá například PCL-5.
-- **Nezachycuje [komplexní trauma](@/glossary/complex-trauma.md).** Narušení sebepojetí, regulace emocí a vztahů typické pro [C-PTSD](@/glossary/c-ptsd.md) dotazník neměří.
-- **Sebeposouzení** závisí na ochotě a schopnosti vypovídat; vyhýbání se může projevit i podhodnocením odpovědí (viz [self-report](@/glossary/self-report.md)).
-- **Časové okno sedmi dní** zachycuje aktuální stav; jednorázové měření neříká nic o průběhu.
-- **Nejde o důkaz.** Skóre nedokazuje, že se událost stala ani že ji způsobila konkrétní osoba.
+IES-R se vztahuje k jedné identifikovatelné události: respondent hodnotí, jak ho tato konkrétní událost v
+uplynulých dnech zatěžovala (Weiss a Marmar, 1997). U dlouhodobé, opakované zátěže, například v násilném
+vztahu nebo ve skupině s vysokou mírou kontroly, je obtížné „událost“ určit a dotazník může obraz zkreslit;
+jednorázové měření navíc zachycuje aktuální stav a neříká nic o průběhu.
+
+Nástroj vznikl před manuálem DSM-5 a jeho subškály vycházejí ze starší skladby příznaků, takže nepokrývá
+skupinu negativních změn kognice a nálady, kterou DSM-5 zavedl (American Psychiatric Association, 2013).
+Neměří ani narušení sebepojetí, regulace emocí a vztahů, typické pro [komplexní
+trauma](@/glossary/complex-trauma.md) a [C-PTSD](@/glossary/c-ptsd.md), protože jeho položky se týkají jen
+intruzí, vyhýbání a zvýšené pohotovosti (Weiss a Marmar, 1997).
+
+Jako sebeposouzení závisí IES-R na ochotě a schopnosti vypovídat, a samo vyhýbání se může projevit
+podhodnocením odpovědí (Creamer, Bell a Failla, 2003; viz [self-report](@/glossary/self-report.md)).
+*Interpretace knihy*: skóre proto není důkazem; nedokazuje, že se událost stala, ani že ji způsobila
+konkrétní osoba, protože dotazník měří zátěž, kterou člověk uvádí, nikoli událost samu (Weiss a Marmar,
+1997).
 
 ## Význam pro Kompendium
 
@@ -61,6 +74,7 @@ Anonymizovaný kompozit: Muž přichází k psychologovi několik týdnů poté,
 
 ## Literatura
 
+- American Psychiatric Association. (2013). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed.). Washington, DC: APA.
 - Horowitz, M., Wilner, N., & Alvarez, W. (1979). Impact of Event Scale: A measure of subjective stress. *Psychosomatic Medicine*, 41(3), 209–218.
 - Weiss, D. S., & Marmar, C. R. (1997). The Impact of Event Scale – Revised. In J. P. Wilson & T. M. Keane (Eds.), *Assessing Psychological Trauma and PTSD*. Guilford Press.
 - Creamer, M., Bell, R., & Failla, S. (2003). Psychometric properties of the Impact of Event Scale – Revised. *Behaviour Research and Therapy*, 41(12), 1489–1496.

@@ -194,27 +194,27 @@ s prvky pro tělesnou a spánkovou regulaci. Pořadí kroků odpovídá zásadě
 Herman (1992): nejprve bezpečí a stabilizace, teprve poté vzpomínání a truchlení a nakonec
 obnovení vazeb se světem.
 
-**S1 – Validace a mapování.** Nejprve spánek: tři měsíce pravidelného rytmu a
+S1 – Validace a mapování. Nejprve spánek: tři měsíce pravidelného rytmu a
 [somatická regulace](@/kompendium/recovery-protocols/acute-somatic-regulation.md) reakcí na
 znělku stanice a na moderátorův hlas. Ogden, Minton a Pain (2006) zdůrazňují, že tělesné reakce
 na podněty spojené s traumatem je třeba stabilizovat dřív, než se s nimi pracuje slovy. Poté
 vznikla mapa situací, kdy se vysílaná verze lišila od toho, co subjekt sám viděl.
 
-**S2 – Externalizace introjektů.** Práce s množným číslem: subjekt přepisoval vlastní věty
+S2 – Externalizace introjektů. Práce s množným číslem: subjekt přepisoval vlastní věty
 z „my“ do „já“ a zjišťoval, se kterými skutečně souhlasí. Postup vychází z [narativní terapie](@/glossary/narativni-terapie.md),
 v níž White a Epston (1990) oddělují problém od osoby tím, že ho pojmenují jako něco vnějšího;
 zde se vnějším stal moderátorův hlas v klientově řeči.
 
-**S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md).** Porovnání archivních nahrávek
+S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md). Porovnání archivních nahrávek
 s vlastní pamětí a poznámkami a nácvik otázky „víme to, nebo to bylo řečeno?“. Cvičení cílí
 na schopnost odlišit vzpomínku na událost od vzpomínky na vyprávění o ní (Johnson, Hashtroudi
 a Lindsay, 1993) a na metakognitivní monitorování ve smyslu, který zavedl Flavell (1979).
 
-**S4 – Hermeneutická obnova.** Oddělení vděku za to, co mu poslech dal v době smutku, od toho, co
+S4 – Hermeneutická obnova. Oddělení vděku za to, co mu poslech dal v době smutku, od toho, co
 se stalo později; obojí je pravdivé. Souběžně probíhala terapie zármutku zaměřená na ztrátu otce,
 protože komplikovaný zármutek vyžaduje cílenou léčbu a sám od sebe často neodezní (Shear, 2015).
 
-**S5 – Konsolidace a transfer.** Subjekt napsal omluvný dopis kolegovi, jehož výroky stříhal,
+S5 – Konsolidace a transfer. Subjekt napsal omluvný dopis kolegovi, jehož výroky stříhal,
 a odeslal ho po šesti měsících, když si byl jistý, že ho nepíše kvůli vlastní úlevě. K morální
 nápravě po morálním zranění řadí autoři konceptu uznání vlastního podílu a obnovu vztahu
 s poškozeným tam, kde je bezpečná (Litz et al., 2009).

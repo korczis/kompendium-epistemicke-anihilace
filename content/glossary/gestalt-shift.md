@@ -75,7 +75,7 @@ EA-5.1.26 od legitimní opravy paradigmatu odlišuje **původ nového rámce**: 
 
 Zpráva o nedávné dramatické reorganizaci pohledu na svět je **kalibračním upozorněním**: prudký vzestup deklarované jistoty v několika nesouvisejících oblastech současně je strukturní signaturou navozeného, nikoli organického přesmyku.
 
-Pro čtenáře knihy je pojem užitečný dvojím způsobem. Vysvětluje rychlost některých konverzí do uzavřených skupin. A připomíná, že i **zotavení** bývá přesmykem: chvíle, kdy člověk „prohlédne“, je skutečná a cenná. Proto Kompendium nežádá podezíravost vůči každému vhledu, ale zkoumání jeho původu. Výuku nabízí scénář [Rozpoznání paradigmatu](@/kompendium/educational-scenarios/10-paradigm-recognition.md).
+Pro čtenáře knihy je pojem užitečný dvojím způsobem. Vysvětluje rychlost některých konverzí do uzavřených skupin. A připomíná, že i zotavení bývá přesmykem: chvíle, kdy člověk „prohlédne“, je skutečná a cenná. Proto Kompendium nežádá podezíravost vůči každému vhledu, ale zkoumání jeho původu. Výuku nabízí scénář [Rozpoznání paradigmatu](@/kompendium/educational-scenarios/10-paradigm-recognition.md).
 
 ## Obrana a zotavení
 

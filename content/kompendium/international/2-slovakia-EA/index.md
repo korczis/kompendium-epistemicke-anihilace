@@ -156,7 +156,7 @@ MKN-11 (World Health Organization, 2019).
 ## 6. Právní a institucionální rámec
 
 Základem je Trestný zákon, zákon č. 300/2005 Z. z., který zná mimo jiné týrání blízké
-a svěřené osoby, nebezpečné pronásledování a vydírání; samostatný trestný čin coercive control
+a svěřené osoby, nebezpečné pronásledování a [vydírání](@/glossary/vydirani.md); samostatný trestný čin coercive control
 v něm není. Stark (2007) argumentuje, že právo postihující jednotlivé incidenty zachytí
 z dlouhodobé kontroly jen fragmenty, a slovenská úprava tuto mezeru sdílí s většinou
 evropských řádů. Ochranu osobnosti upravuje občanský zákoník z roku 1964 v platném znění.

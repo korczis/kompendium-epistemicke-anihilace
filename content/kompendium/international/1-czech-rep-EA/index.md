@@ -169,7 +169,7 @@ nový slovník, kdy omezil dřívější kontakty a kdo mu k tomu dával důvody
 
 Jádro tvoří trestní zákoník, zákon č. 40/2009 Sb., občanský zákoník, zákon č. 89/2012 Sb.,
 s ochranou osobnosti, a zákon o obětech trestných činů, zákon č. 45/2013 Sb. Trestní právo
-zná mimo jiné vydírání (§ 175), útisk (§ 177), týrání osoby žijící ve společném obydlí
+zná mimo jiné [vydírání](@/glossary/vydirani.md) (§ 175), útisk (§ 177), týrání osoby žijící ve společném obydlí
 (§ 199) a nebezpečné pronásledování (§ 354); samostatný trestný čin coercive control
 v něm není. Podrobný rozbor je na stránce
 [ČR právo — EA rámec](@/kompendium/international/22-czech-law-EA/index.md).

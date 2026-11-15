@@ -18,11 +18,13 @@ keywords = ["heuristika", "heuristic", "Tversky", "Kahneman", "reprezentativnost
 
 ## Původ a kontext pojmu
 
-Výzkumný program „heuristiky a zkreslení“ (*heuristics and biases*) založili psychologové Amos Tversky a Daniel Kahneman. Jeho klíčovým textem je článek „Judgment under Uncertainty: Heuristics and Biases“ v časopise *Science* (1974), který popsal tři základní heuristiky:
+Výzkumný program „heuristiky a zkreslení“ (*heuristics and biases*) založili psychologové Amos Tversky a Daniel Kahneman. Jeho klíčovým textem je článek „Judgment under Uncertainty: Heuristics and Biases“ v časopise *Science* (1974), který popsal tři základní heuristiky (Tversky a Kahneman, 1974):
 
-- **reprezentativnost** – pravděpodobnost se posuzuje podle podobnosti s typickým případem, a přitom se přehlíží základní četnost (*base rate*);
-- **dostupnost** – četnost se odhaduje podle toho, jak snadno se vybaví příklady; živé, nedávné a emočně silné události se přeceňují;
-- **ukotvení a přizpůsobení** – odhad vychází z výchozí hodnoty (kotvy), i když je zjevně nahodilá, a přizpůsobuje se od ní nedostatečně.
+| Heuristika | Jak působí |
+| --- | --- |
+| Reprezentativnost | pravděpodobnost se posuzuje podle podobnosti s typickým případem, a přitom se přehlíží základní četnost (*base rate*) |
+| Dostupnost | četnost se odhaduje podle toho, jak snadno se vybaví příklady; živé, nedávné a emočně silné události se přeceňují |
+| Ukotvení a přizpůsobení | odhad vychází z výchozí hodnoty (kotvy), i když je zjevně nahodilá, a přizpůsobuje se od ní nedostatečně |
 
 Program navazoval na koncept **omezené racionality** Herberta Simona. Kahneman jej později shrnul pro širokou veřejnost v knize *Thinking, Fast and Slow* (2011), kde heuristiky spojil s rozlišením [Systému 1 a Systému 2](@/glossary/system-1-system-2.md). Kritický protipól představuje Gerd Gigerenzer a jeho skupina (*Simple Heuristics That Make Us Smart*, 1999), kteří zdůrazňují **ekologickou racionalitu**: heuristika není chyba, ale nástroj, jehož přesnost závisí na tom, zda odpovídá struktuře prostředí.
 
@@ -30,11 +32,14 @@ Kompendium tuto tradici zpracovává v referenční kartě [EA-7.3.2 Tversky & K
 
 ## Jak se projevuje
 
-- přeceňování rizik, o nichž se hodně mluví, a podceňování rizik nenápadných;
-- úsudek ovlivněný první zaslechnutou hodnotou nebo prvním dojmem;
-- přesvědčivost příběhu, který „sedí“ na stereotyp, i když statistika říká něco jiného;
-- důvěra ve známé a opakované tvrzení jen proto, že je známé;
-- rozhodnutí přijaté rychle a s jistotou, jehož důvody člověk zpětně nedokáže popsat.
+Heuristiky se projevují v úsudcích, které působí samozřejmě. Lidé přeceňují rizika, o nichž se hodně mluví,
+a podceňují rizika nenápadná, a jejich odhad ovlivní i první zaslechnutá hodnota, jak ukázali Tversky a
+Kahneman (1974) u dostupnosti a ukotvení. Příběh, který „sedí“ na stereotyp, působí přesvědčivě, i když
+statistika říká něco jiného, což je projev reprezentativnosti (Tversky a Kahneman, 1974).
+
+Opakované tvrzení se zdá pravdivější jen proto, že je známé; Hasher, Goldstein a Toppino (1977) tento účinek
+prokázali u výroků, které účastníci viděli opakovaně. Kahneman (2011) popisuje, že rychlé úsudky
+intuitivního myšlení přicházejí s pocitem jistoty, ačkoli člověk jejich důvody zpětně nedokáže popsat.
 
 ## Mechanismus
 
@@ -44,10 +49,12 @@ Zvlášť zranitelný je úsudek pod časovým tlakem, při únavě, ve stresu a
 
 ## Odlišení
 
-- **[Kognitivní bias](@/glossary/kognitivni-bias.md)** je výsledek – systematická odchylka; heuristika je proces, který k ní může vést.
-- **[Konfirmační bias](@/glossary/konfirmacni-bias.md)** je sklon vyhledávat potvrzení; nejde o heuristiku v užším smyslu Tverskyho a Kahnemana, ale o příbuzný jev.
-- **Intuice experta** může být také rychlá, ale opírá se o dlouhou zkušenost v pravidelném prostředí se zpětnou vazbou; tam bývá spolehlivá.
-- **Logický klam** je chyba v argumentu; heuristika je zkratka v úsudku, která se nemusí vůbec projevit v argumentaci.
+| Odlišit od | Rozdíl |
+| --- | --- |
+| [Kognitivní bias](@/glossary/kognitivni-bias.md) | výsledek, tedy systematická odchylka; heuristika je proces, který k ní může vést |
+| [Konfirmační bias](@/glossary/konfirmacni-bias.md) | sklon vyhledávat potvrzení; nejde o heuristiku v užším smyslu Tverskyho a Kahnemana, ale o příbuzný jev |
+| Intuice experta | také rychlá, ale opírá se o dlouhou zkušenost v pravidelném prostředí se zpětnou vazbou, kde bývá spolehlivá (Kahneman a Klein, 2009) |
+| Logický klam | chyba v argumentu; heuristika je zkratka v úsudku, která se v argumentaci nemusí vůbec projevit |
 
 ## Význam pro Kompendium
 
@@ -67,6 +74,8 @@ Mezi výzkumnými tradicemi trvá spor, nakolik jsou heuristiky zdrojem chyb a n
 
 ## Literatura
 
+- Hasher, L., Goldstein, D., & Toppino, T. (1977). Frequency and the conference of referential validity. *Journal of Verbal Learning and Verbal Behavior*, 16(1), 107–112.
+- Kahneman, D., & Klein, G. (2009). Conditions for intuitive expertise: A failure to disagree. *American Psychologist*, 64(6), 515–526.
 - Tversky, A., & Kahneman, D. (1974). Judgment under Uncertainty: Heuristics and Biases. *Science*, 185(4157), 1124–1131.
 - Kahneman, D. (2011). *Thinking, Fast and Slow*. Farrar, Straus and Giroux.
 - Gigerenzer, G., Todd, P. M., & the ABC Research Group. (1999). *Simple Heuristics That Make Us Smart*. Oxford University Press.

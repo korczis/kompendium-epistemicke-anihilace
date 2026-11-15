@@ -33,28 +33,38 @@ Lyotardova kniha vznikla jako zpráva o stavu vědění pro radu pro univerzity 
 
 ## Jak se projevuje
 
-V současném informačním prostředí se rozpad velkých vyprávění projevuje tak, že:
+V současném informačním prostředí se rozpad velkých vyprávění projevuje tím, že vědecký konsenzus,
+novinářské standardy, soudní řízení a historický záznam jsou v debatě stavěny na roveň libovolnému názoru („to
+je jen jeden z narativů“) a rozdíl mezi institucí s ověřovacími postupy a anonymním zdrojem se stírá. Lyotard
+(1979) předpověděl i to, že místo otázky po pravdivosti nastoupí výkonová kritéria, tedy to, zda něco „funguje“
+nebo „má dosah“.
 
-- vědecký konsenzus, novinářské standardy, soudní řízení a historický záznam jsou v debatě stavěny na roveň libovolnému názoru („to je jen jeden z narativů“);
-- rozdíl mezi institucí s ověřovacími postupy a anonymním zdrojem se stírá;
-- lidé se stahují do dílčích veřejností s vlastními pravidly a slovníkem;
-- výkonová kritéria („funguje to“, „má to dosah“) nahrazují otázku po pravdivosti.
+Lidé se přitom stahují do dílčích veřejností s vlastními pravidly a slovníkem. Sunstein (2017) popisuje, jak
+možnost vybírat si jen sdělení, která potvrzují vlastní postoje, vede ke skupinové polarizaci, v níž se názory
+uvnitř skupiny vyhrocují a styk s jinými skupinami slábne.
 
 ## Mechanismus
 
-Kompendium používá Lyotardovu diagnózu k vysvětlení strukturního rysu současných technik delegitimizace: v prostředí, kde je samo odvolání na sdílené metanarativy podezřelé, se **delegitimizační kroky EA-1.2.x** stávají snazšími (není sdílený rámec, který by bylo třeba bránit) a zároveň hůře rozpoznatelnými (není sdílený rámec, z něhož by je šlo označit za nelegitimní). Konkrétně:
+Kompendium používá Lyotardovu diagnózu k vysvětlení strukturního rysu současných technik [delegitimizace](@/glossary/delegitimizace.md): v prostředí, kde je samo odvolání na sdílené metanarativy podezřelé, se **delegitimizační kroky EA-1.2.x** stávají snazšími (není sdílený rámec, který by bylo třeba bránit) a zároveň hůře rozpoznatelnými (není sdílený rámec, z něhož by je šlo označit za nelegitimní). Konkrétně. Delegitimizace ve společenském měřítku rozpad metanarativů zneužívá:
+odvolání oběti na vědecký konsenzus, novinářské standardy, soudní postup nebo historický záznam lze neutralizovat
+přerámováním každého z nich na „jen další vyprávění“, a vytvořit tak falešnou rovnocennost mezi epistemickými
+infrastrukturami s velmi rozdílnými postupy ověřování (Lyotard, 1979).
 
-- **delegitimizace EA-1.2.x ve společenském měřítku** zneužívá rozpad metanarativů: odvolání oběti na vědecký konsenzus, novinářské standardy, soudní postup nebo historický záznam lze neutralizovat přerámováním každého z nich na „jen další vyprávění“, a vytvořit tak falešnou rovnocennost mezi epistemickými infrastrukturami s velmi odlišnými doklady platnosti; viz [EA-1.2.2 Falešná ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md) a [delegitimizace](@/glossary/delegitimizace.md);
-- **algoritmická informační prostředí** rozpad urychlují: tříštění veřejné debaty do dílčích veřejností kurátorovaných doporučovacími systémy vytváří přesně ten rozptyl místních jazykových her, který Lyotard popisuje – ovšem optimalizovaný pro zapojení, ne pro skutečnou nesouměřitelnost ([EA-9.3.4 Radikalizace doporučováním](@/kompendium/techniques/ea-9-3-4-recommendation-radicalization.md)).
+Algoritmická informační prostředí rozpad urychlují. Tříštění veřejné debaty do dílčích veřejností, které
+kurátorují doporučovací systémy, vytváří rozptyl místních jazykových her, jaký Lyotard popisuje, ovšem
+optimalizovaný pro zapojení, ne pro skutečnou nesouměřitelnost (Sunstein, 2017; [EA-9.3.4 Radikalizace
+doporučováním](@/kompendium/techniques/ea-9-3-4-recommendation-radicalization.md)).
 
 Na úrovni jednotlivce se tentýž vzorec objevuje jako vštípený radikální relativismus ([EA-2.5.4](@/kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md)) nebo jako „bothsidesismus“ ([EA-2.5.5](@/kompendium/techniques/ea-2-5-5-bothsidesizm-internalizace.md)): člověk přestane rozlišovat, protože rozlišování bylo označeno za předpojatost.
 
 ## Odlišení
 
-- **Od pluralismu:** uznání více legitimních perspektiv ([pluralismus](@/glossary/pluralismus.md)) neznamená, že všechny mají stejné doklady.
-- **Od relativismu jako filozofické pozice:** Lyotard popisuje stav kultury, ne tezi, že pravda neexistuje.
-- **Od [hyperreality](@/glossary/hyperreality.md):** Baudrillard popisuje odpojení znaků od skutečnosti; Lyotard rozpad legitimizačních vyprávění.
-- **Od legitimní kritiky institucí:** zpochybnit konkrétní pochybení vědy nebo soudu je nutné; zneužití nastává, když se z kritiky stane plošné zrušení rozdílu mezi ověřeným a neověřeným.
+| Odlišit od | Rozdíl |
+| --- | --- |
+| [Pluralismus](@/glossary/pluralismus.md) | uznání více legitimních perspektiv neznamená, že všechny mají stejné doklady |
+| Relativismus jako filozofická pozice | Lyotard popisuje stav kultury, ne tezi, že pravda neexistuje |
+| [Hyperrealita](@/glossary/hyperreality.md) | Baudrillard popisuje odpojení znaků od skutečnosti; Lyotard rozpad legitimizačních vyprávění |
+| Legitimní kritika institucí | zpochybnit konkrétní pochybení vědy nebo soudu je nutné; zneužití nastává, když se z kritiky stane plošné zrušení rozdílu mezi ověřeným a neověřeným |
 
 ## Význam pro Kompendium
 
@@ -64,13 +74,22 @@ Samo Kompendium tím, že záměrně vytváří **odbornou taxonomii v češtin�
 
 ## Obrana a zotavení
 
-- **Pro jednotlivce:** rozlišovat mezi *jak víme* a *co tvrdíme* – instituce se liší postupy ověřování, ne jen obsahem; ptát se po metodě, ne po straně; viz [hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md) a [paradigmatický pluralismus](@/kompendium/self-defense-guides/6-paradigm-pluralism.md).
-- **Pro instituce a výuku:** vysvětlovat postupy ověřování, ne jen výsledky; [kritické myšlení](@/kompendium/prevention-resilience/8-critical-thinking-curriculum.md) a [kvalita veřejné debaty](@/kompendium/prevention-resilience/10-public-discourse-quality.md).
+Obrana stojí na rozlišení mezi tím, *jak víme*, a tím, *co tvrdíme*: instituce se neliší jen obsahem, ale
+postupy ověřování, a otázka po metodě je proto užitečnější než otázka po straně ([hodnocení
+důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md), [paradigmatický
+pluralismus](@/kompendium/self-defense-guides/6-paradigm-pluralism.md)). Habermas (1985) proti Lyotardovi
+namítl, že kdo kritizuje rozum, používá při tom jeho měřítka, a že rozlišení mezi lepším a horším argumentem
+proto nezmizí ani po rozpadu velkých vyprávění.
+
+Pro instituce a výuku z toho plyne vysvětlovat postupy ověřování, ne jen výsledky; *Interpretace knihy*: tomu
+slouží kapitoly o [kritickém myšlení](@/kompendium/prevention-resilience/8-critical-thinking-curriculum.md) a o
+[kvalitě veřejné debaty](@/kompendium/prevention-resilience/10-public-discourse-quality.md).
 
 ## Literatura
 
-- Jean-François Lyotard: *La condition postmoderne: rapport sur le savoir* (1979).
-- Jürgen Habermas: *Der philosophische Diskurs der Moderne* (1985).
+- Sunstein, C. R. (2017). *#Republic: Divided Democracy in the Age of Social Media*. Princeton University Press.
+- Lyotard, J.-F. (1979). *La condition postmoderne: rapport sur le savoir*. Paris: Minuit.
+- Habermas, J. (1985). *Der philosophische Diskurs der Moderne*. Frankfurt am Main: Suhrkamp.
 
 ## Související
 

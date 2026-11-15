@@ -49,11 +49,11 @@ obtíží nebo od vedlejšího účinku jiné změny.
 ## 3. Časová osa expozice
 
 V prvních čtyřech měsících (fáze **úlevy**) přišly první změny, zlepšení potíží a vstup do online
-skupiny. Mezi čtvrtým a dvanáctým měsícem (fáze **zúžení**) žena vyřazovala další potraviny,
+skupiny. Mezi čtvrtým a dvanáctým měsícem (fáze zúžení) žena vyřazovala další potraviny,
 podstupovala „detoxy“ a kupovala placené programy. V prvních dvou letech (fáze **moralizace**) se
 jídlo stalo ctností a hříchem a nemoc „nečistotou“. Ve druhém roce (fáze izolace) odmítala
 lékaře, prožívala konflikty při rodinných jídlech a žila převážně v online skupině. Mezi druhým a
-třetím rokem (fáze **detekce**) nastal kolaps se zdravotními komplikacemi a hospitalizace. Dunn a
+třetím rokem (fáze detekce) nastal kolaps se zdravotními komplikacemi a hospitalizace. Dunn a
 Bratman (2016) ve svém návrhu diagnostických kritérií ortorexie popisují stejný postup: restrikce
 se stupňují, odchylka vyvolává vinu a úzkost a důsledkem je zdravotní i sociální poškození.
 
@@ -115,17 +115,17 @@ umožnilo pochybnost.
 Intervence vyžadovala **týmovou péči**: lékaře, nutričního terapeuta a psychologa. Rámec poskytl
 [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md),
 při akutních komplikacích [EA s medicínskou komorbiditou](@/kompendium/emergency-protocols/25-medical-comorbidity-EA.md).
-Ve stupni **S1 – Validace a mapování** měla prioritu medicínská stabilizace a uznání původního
+Ve stupni S1 – Validace a mapování měla prioritu medicínská stabilizace a uznání původního
 zdravotního problému, který nebyl vyřešen; Herman (1992) považuje obnovu tělesného bezpečí za
 podmínku, bez níž další práce nemůže začít.
 
-Ve stupni **S2 – Externalizace introjektů** bylo dělení potravin na „čisté“ a „jedovaté“
-pojmenováno jako naučený jazyk, nikoli vlastní zkušenost. Ve stupni **S3 – Rekonstrukce
-[metakognice](@/glossary/metakognice.md)** žena procvičovala [hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md)
+Ve stupni S2 – Externalizace introjektů bylo dělení potravin na „čisté“ a „jedovaté“
+pojmenováno jako naučený jazyk, nikoli vlastní zkušenost. Ve stupni S3 – Rekonstrukce
+[metakognice](@/glossary/metakognice.md) žena procvičovala [hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md)
 o výživě a rozlišení svědectví a studie, k čemuž Goldacre (2008) nabízí srozumitelný výklad.
 
-Stupeň **S4 – Hermeneutická obnova** vracel jídlu význam výživy a společenství místo morálky a
-stupeň **S5 – Konsolidace a transfer** zahrnoval dlouhodobou spolupráci s nutričním terapeutem a
+Stupeň S4 – Hermeneutická obnova vracel jídlu význam výživy a společenství místo morálky a
+stupeň S5 – Konsolidace a transfer zahrnoval dlouhodobou spolupráci s nutričním terapeutem a
 návrat ke společným jídlům s rodinou. Fairburn (2008) popisuje pravidelné stravování a postupné
 znovuzavádění vyloučených potravin jako klíčové kroky, které zároveň testují katastrofická
 očekávání.

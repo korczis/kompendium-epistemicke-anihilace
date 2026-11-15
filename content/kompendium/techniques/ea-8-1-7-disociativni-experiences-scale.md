@@ -128,7 +128,9 @@ vyplnění po několika měsících léčby ukazuje, zda stabilizace přináší
 
 **Pro jednotlivce.** Poznat vlastní disociativní stavy a jejich spouštěče; mít připravené
 [uzemňovací techniky](@/kompendium/self-defense-guides/14-grounding-techniques.md)
-a vést si záznamy, které pomáhají překlenout mezery v paměti. **Pro profesionály.**
+a vést si záznamy, které pomáhají překlenout mezery v paměti.
+
+**Pro profesionály.**
 Nepovažovat mezery ve výpovědi automaticky za známku nevěrohodnosti; neptat se sugestivně
 na „zapomenuté“ události.
 

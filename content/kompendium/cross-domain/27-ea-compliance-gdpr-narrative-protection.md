@@ -22,10 +22,10 @@ které mu část této kontroly vracejí.
 
 ## Doména a problém
 
-GDPR stanoví zásady zpracování osobních údajů (čl. 5), mezi nimi **zákonnost, korektnost
-a transparentnost**, **účelové omezení**, **minimalizaci údajů**, **přesnost** (údaje mají
+GDPR stanoví zásady zpracování osobních údajů (čl. 5), mezi nimi zákonnost, korektnost
+a transparentnost, účelové omezení, minimalizaci údajů, přesnost (údaje mají
 být přesné a v případě potřeby aktualizované; nepřesné údaje mají být bez zbytečného
-odkladu vymazány nebo opraveny), **omezení uložení** a **integritu a důvěrnost**. Subjekt
+odkladu vymazány nebo opraveny), omezení uložení a integritu a důvěrnost. Subjekt
 údajů má právo na přístup (čl. 15), opravu (čl. 16), výmaz (čl. 17), omezení zpracování
 (čl. 18), námitku (čl. 21) a právo nebýt předmětem rozhodnutí založeného výhradně na
 automatizovaném zpracování s právními či obdobně významnými účinky (čl. 22).

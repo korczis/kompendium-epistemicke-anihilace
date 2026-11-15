@@ -181,28 +181,28 @@ Postup sledoval [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-ap
 a jeho pořadí odpovídá trojfázovému modelu zotavení, který popsala Herman (1992): bezpečí,
 vzpomínání a truchlení, znovupropojení.
 
-**S1 – Validace a mapování.** Uznání, že vazba byla prožívána jako skutečná a že stud je
+S1 – Validace a mapování. Uznání, že vazba byla prožívána jako skutečná a že stud je
 pochopitelný. Mapa zranění zahrnovala finanční škodu, ztrátu přátelství a narušenou důvěru ve
 vlastní úsudek; současně vznikl krizový plán pro období veřejného zesměšnění. Lalich a Tobias
 (2006) zdůrazňují, že bez uznání studu se bývalí členové často stahují i z terapie.
 
-**S2 – Externalizace introjektů.** Sepsání slovníku skupiny a přeložení každého výrazu do běžné řeči
+S2 – Externalizace introjektů. Sepsání slovníku skupiny a přeložení každého výrazu do běžné řeči
 („nízké vibrace“ = „člověk se ptá na peníze“). Externalizující jazyk, jak ho popisují White a Epston
 (1990), pomohl oddělit vnitřní hlas influencerky od vlastního; Lifton (1961) by tento slovník
 označil za „nabitý jazyk“ ([loading the language](@/glossary/loading-the-language.md)).
 
-**S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md).** Trénink rozlišování, kdy rozhodnutí
+S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md). Trénink rozlišování, kdy rozhodnutí
 vychází z emoční vlny vyvolané obsahem, spolu s [detoxikací feedu](@/kompendium/self-defense-guides/32-feed-detoxification.md)
 a [rozpočtem pozornosti](@/kompendium/self-defense-guides/34-attention-budget.md). Flavell (1979)
 chápe metakognitivní monitorování jako schopnost všimnout si vlastního poznávacího stavu; zde šlo
 o rozpoznání okamžiku, kdy emoce předbíhá úsudek.
 
-**S4 – Hermeneutická obnova.** Práce s tím, co v obsahu bylo skutečně užitečné – pohyb, deníkování –,
+S4 – Hermeneutická obnova. Práce s tím, co v obsahu bylo skutečně užitečné – pohyb, deníkování –,
 aby subjekt nemusel celé období zavrhnout a nepropadl opačné totalizaci. Klinické příspěvky ve sborníku,
 který vydal Langone (1993), zdůrazňují integraci zkušenosti ze skupiny místo jejího úplného
 zavržení, které může vést k novému černobílému rámci.
 
-**S5 – Konsolidace a transfer.** Obnova sítě a plán prevence relapsu pro okamžiky osamělosti, kdy
+S5 – Konsolidace a transfer. Obnova sítě a plán prevence relapsu pro okamžiky osamělosti, kdy
 se staré vzorce vracejí. Rubin, Perse a Powell (1985) spojují intenzitu parasociálních vazeb
 s osamělostí; prevence proto mířila na osamělost, ne na sociální síť samotnou.
 

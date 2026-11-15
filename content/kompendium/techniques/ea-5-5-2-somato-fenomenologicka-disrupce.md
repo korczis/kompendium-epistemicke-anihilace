@@ -98,7 +98,7 @@ Co může vidět vnější pozorovatel:
 
 ## Teoretické zázemí
 
-Tato technika operuje na úrovni **pre-predikativní zkušenosti** v Husserlově fenomenologii — vrstva před tím, než se konstituuje predikativní soud „S je P“. Husserl v *Erfahrung und Urteil* (1939) ukazuje, že každý vědomý soud je založen na pasivní syntéze pre-predikativních dat: vjemy jsou již před verbalizací strukturovány retencemi (právě uplynulé) a protencemi (anticipovanými). Technika **somato-fenomenologická disrupce** cílí přesně na tuto vrstvu — narušuje pasivní syntézu před tím, než subjekt může artikulovat, co se mu vlastně děje.
+Tato technika operuje na úrovni **[pre-predikativní zkušenosti](@/glossary/pre-predikativni-zkusenost.md)** v Husserlově fenomenologii — vrstva před tím, než se konstituuje predikativní soud „S je P“. Husserl v *Erfahrung und Urteil* (1939) ukazuje, že každý vědomý soud je založen na pasivní syntéze pre-predikativních dat: vjemy jsou již před verbalizací strukturovány retencemi (právě uplynulé) a protencemi (anticipovanými). Technika **somato-fenomenologická disrupce** cílí přesně na tuto vrstvu — narušuje pasivní syntézu před tím, než subjekt může artikulovat, co se mu vlastně děje.
 
 Merleau-Ponty v *Phénoménologie de la perception* (1945) doplňuje koncept **[body schema](@/glossary/body-schema.md)** (schéma corporel) — pre-reflexivní tělesné vědomí, které předchází kartesiánskému kogitujícímu subjektu. „Já mohu“ (je peux) předbíhá „já myslím“ (je pense). Tato technika narušuje body schema na úrovni proprioceptivně-kinestetické integrace, čímž se subjekt ocitá v stavu, kdy jeho tělesný „já mohu“ přestává fungovat jako transparentní médium světa.
 
@@ -112,11 +112,11 @@ Disrupce body schema koreluje s narušením integrace v pravé temporo-parietál
 
 Klinická [diferenciace](@/glossary/diferenciace.md) techniky **somato-fenomenologická disrupce** od podobných stavů je kritická pro správné rozhodnutí o intervenci.
 
-**vs. Psychotické spektrum** (F20–F29 dle MKN-10): Psychotická epizoda zahrnuje *strukturální* narušení [reality testing](@/glossary/reality-testing.md) s halucinacemi a bludy, zatímco EA-5.5.2 produkuje *fenomenologické* narušení pre-predikativní vrstvy bez ztráty reality testing. Klíčová diference: u psychózy subjekt *věří* iluzornímu obsahu jako realitě (delusional conviction); u EA-5.5.2 subjekt *prožívá* narušení, ale meta-kognitivně rozpoznává, že jde o anomální stav. Schneiderovy first-rank symptoms (vkládání myšlenek, ozvučení myšlení) jsou v EA-5.5.2 absentní.
+vs. Psychotické spektrum (F20–F29 dle MKN-10): Psychotická epizoda zahrnuje *strukturální* narušení [reality testing](@/glossary/reality-testing.md) s halucinacemi a bludy, zatímco EA-5.5.2 produkuje *fenomenologické* narušení pre-predikativní vrstvy bez ztráty reality testing. Klíčová diference: u psychózy subjekt *věří* iluzornímu obsahu jako realitě (delusional conviction); u EA-5.5.2 subjekt *prožívá* narušení, ale meta-kognitivně rozpoznává, že jde o anomální stav. Schneiderovy first-rank symptoms (vkládání myšlenek, ozvučení myšlení) jsou v EA-5.5.2 absentní.
 
-**vs. Disociativní poruchy** (F44): Disociace zahrnuje narušení integrace vědomí, paměti a identity. EA-5.5.2 produkuje narušení *pre-reflexivní* vrstvy, zatímco disociace operuje na úrovni autobiografické paměti a identity. Rozlišení patří klinickému vyšetření; práh skóre kniha neuvádí.
+vs. Disociativní poruchy (F44): Disociace zahrnuje narušení integrace vědomí, paměti a identity. EA-5.5.2 produkuje narušení *pre-reflexivní* vrstvy, zatímco disociace operuje na úrovni autobiografické paměti a identity. Rozlišení patří klinickému vyšetření; práh skóre kniha neuvádí.
 
-**vs. Mystická zkušenost** (Stace 1960; Hood Mysticism Scale): Mystické zážitky obsahují pozitivní afekt, sense of unity a ineffability. EA-5.5.2 produkuje *negativní* fenomenologii — rozpadnutí, ne sjednocení. Hood M-Scale skore <40 v kombinaci s anxietou diferencuje EA od mystické zkušenosti. James (*Varieties of Religious Experience*, 1902) by EA-5.5.2 klasifikoval jako „anti-mystical“ stav.
+vs. Mystická zkušenost (Stace 1960; Hood Mysticism Scale): Mystické zážitky obsahují pozitivní afekt, sense of unity a ineffability. EA-5.5.2 produkuje *negativní* fenomenologii — rozpadnutí, ne sjednocení. Hood M-Scale skore <40 v kombinaci s anxietou diferencuje EA od mystické zkušenosti. James (*Varieties of Religious Experience*, 1902) by EA-5.5.2 klasifikoval jako „anti-mystical“ stav.
 
 **vs. [Depersonalizace](@/glossary/depersonalizace.md)/derealizace** (F48.1): DPDR je trvalý nebo recurrent stav odcizení od self/světa. EA-5.5.2 je akutní *induced* stav s definovaným počátkem a koncem. Rozlišení i délku průběhu posoudí klinik; kniha k nim čísla neuvádí.
 

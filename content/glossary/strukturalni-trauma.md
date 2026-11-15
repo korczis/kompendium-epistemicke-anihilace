@@ -91,7 +91,7 @@ na úrovni společnosti a s terminálním stavem, který metaforicky popisuje [h
   lidi v tom, co by sami chtěli.
 - **Od rozumné opatrnosti:** nedůvěra k instituci, která skutečně selhává, není traumatem.
 - **Od individuální psychopatologie:** u jednotlivce je třeba posoudit i jiné příčiny
-  (deprese, úzkostné poruchy, poruchy osobnosti); strukturální rámec diagnostiku nenahrazuje.
+  (deprese, [úzkostné poruchy](@/glossary/uzkostne-poruchy.md), poruchy osobnosti); strukturální rámec diagnostiku nenahrazuje.
 
 ## Význam pro Kompendium
 

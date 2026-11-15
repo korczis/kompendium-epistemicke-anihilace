@@ -33,7 +33,7 @@ parent_chapter = "/kompendium/04-terminalni-protokoly/"
 
 ## Definice
 
-**Post-engagement reintegration** představuje rámec reintegrace subjektu po ukončení expozice s explicitní fází stabilizace a postupné rezocializace. V rámci kompendia je technika klasifikována jako **terminální protokol** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození. Zotavení je v této tradici popsáno jako fázový proces, jehož poslední částí je obnova vztahů a běžných rolí, nikoli vymizení jednotlivých příznaků (Herman, 1992).
+**Post-engagement reintegration** představuje rámec reintegrace subjektu po ukončení expozice s explicitní fází stabilizace a postupné rezocializace. V rámci kompendia je technika klasifikována jako **[terminální protokol](@/kompendium/04-terminalni-protokoly/_index.md)** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození. Zotavení je v této tradici popsáno jako fázový proces, jehož poslední částí je obnova vztahů a běžných rolí, nikoli vymizení jednotlivých příznaků (Herman, 1992).
 
 Stránka slouží rozpoznání vzorce, nikoli jeho provedení.
 

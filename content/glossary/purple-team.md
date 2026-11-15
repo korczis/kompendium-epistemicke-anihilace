@@ -1,7 +1,7 @@
 +++
 title = "Purple Team (fialový tým)"
 weight = 21
-description = "Syntetický uzel mezi útočným a obranným bezpečnostním týmem s výhradní pravomocí uzavírat smyčku Red–Blue a bezpečnostní nálezy."
+description = "Spolupráce útočného a obranného bezpečnostního týmu nad společným katalogem chování protivníka, a proč se uzavření zjištění nesmí stát cílem měření."
 
 [taxonomies]
 tags = ["glossary", "security"]
@@ -19,52 +19,49 @@ documentation_required = true
 see_also = ["red-team", "blue-team"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-02-23"
-date_modified = "2026-11-10"
+date_modified = "2026-11-14"
 keywords = ["Purple", "Team", "Red-Blue", "glossary", "security", "Purple Team", "Red Team", "Blue Team"]
 image = "/images/sections/glossary.png"
 image_alt = "Purple Team (fialový tým) – glosář"
 +++
 
-## Definice a přehled
+## Definice
 
-Purple Team (fialový tým) je specializovaná jednotka bezpečnostního provozu, která slouží jako
-ústřední syntetický uzel mezi útočným (Red) a obranným (Blue) bezpečnostním týmem. Na rozdíl
-od tradičních modelů, v nichž Red a Blue Team pracují nezávisle, zajišťuje Purple Team
-nepřetržité zpětné vazby, mapuje útočná zjištění na obranné schopnosti a má výhradní
-pravomoc k přechodům do stavu uzavření. Tím brání předčasnému odbytí bezpečnostních nálezů
-a zajišťuje, že každá zjištěná zranitelnost byla skutečně vyřešena, ne jen vzata na vědomí.
+**Purple team** (fialový tým) označuje v kybernetické bezpečnosti spolupráci útočného týmu (*red team*),
+který simuluje chování protivníka, s obranným týmem (*blue team*), který útoky detekuje a odráží. Název
+vznikl smíšením obou barev: místo aby útočná strana po cvičení předala zprávu a obranná ji později četla,
+pracují obě strany společně, takže každý simulovaný útok se okamžitě porovnává s tím, zda ho obrana
+zachytila. Strom a kolegové (2018) popisují emulaci protivníka a hodnocení mezer v obraně jako dvě
+navazující užití téhož katalogu chování útočníků, a purple teaming je praxe, která je spojuje.
 
-V širším odvětví kybernetické bezpečnosti vznikl purple teaming z poznání, že Red a Blue
-Team pracující izolovaně často nepředávají poznatky účinně. Zjištění se ztrácejí, obrana
-zůstává netestovaná proti známým útokům a organizace si vytvářejí slepá místa. Model
-Purple Teamu to řeší vyhrazenou syntetickou funkcí, která propojuje útočnou a obrannou
-perspektivu, aby každý scénář útoku odpovídal ověřené obraně a každá obrana byla ověřena
-proti realistickým hrozbám.
+Pro Kompendium je podstatná myšlenka, kterou purple teaming zdůrazňuje: problém smí „uzavřít“ jen ten,
+kdo ověřil skutečnou nápravu, nikoli ten, komu uzavření přináší úlevu. Strathern (1997) ukázala, jak
+snadno se místo nápravy začne měřit a vykazovat její pouhé formální splnění, a *Interpretace knihy*: v
+oblasti epistemické anihilace to platí pro intervence i pro hodnocení zotavení.
 
-Pro Kompendium je podstatná myšlenka, že „uzavřít“ problém smí jen ten, kdo ověřil skutečnou
-nápravu, nikoli ten, komu uzavření přináší úlevu – v oblasti EA to platí pro intervence
-i pro hodnocení zotavení.
+## Původ a kontext pojmu
 
-## Historický kontext a vývoj v odvětví
+Purple teaming vychází z omezení tradičních cvičení, v nichž útočný a obranný tým pracovaly odděleně.
+Útočníci napsali zprávu, obránci ji četli, a převod od „útok uspěl“ k „obrana se zlepšila“ často ztratil
+podstatné podrobnosti. Strom a kolegové (2018) z tohoto důvodu navrhli společný slovník taktik a technik,
+v němž lze útočné zjištění i obranné opatření zapsat týmž identifikátorem, a tím propojit obě strany
+cvičení.
 
-Koncept purple teamingu vychází z omezení pozorovaných u tradičních cvičení Red Team / Blue
-Team. Organizace kybernetické bezpečnosti po desetiletí pořádaly periodická cvičení, v nichž
-se útoční specialisté snažili prolomit obranu a Blue Team pak analyzoval, co přehlédl a jak
-se zlepšit. Zásadním problémem tohoto sekvenčního modelu je mezera v předávání znalostí:
-Red Team píše zprávy, Blue Team je čte a převod od „útok uspěl“ k „obrana se zlepšila“ často
-ztratí podstatné nuance.
+Analogii nabízí bezpečnost letectví, kde se uzavírání bezpečnostních zjištění řídí systémy řízení
+bezpečnosti. Mezinárodní organizace pro civilní letectví (ICAO, 2018) v nich požaduje, aby zjištění bylo
+uzavřeno teprve tehdy, když bylo nápravné opatření zavedeno a ověřeno jeho účinek, nikoli když uplynul
+termín nebo když se o zjištění přestalo mluvit.
 
-Termín „Purple Team“ se v komunitě kybernetické bezpečnosti prosadil zhruba v polovině
-10. let 21. století, zpočátku pro společná cvičení, při nichž členové Red a Blue Teamu
-pracují bok po boku. Organizace jako SANS Institute metodiky purple teamingu formalizovaly
-a zdůraznily zpětnou vazbu v reálném čase mezi provedením útoku a ověřením obrany. Většina
-implementací v odvětví však chápe purple teaming jako periodickou činnost – plánované
-workshopy nebo čtvrtletní cvičení –, ne jako nepřetržitou provozní funkci.
+## Jak se projevuje
 
-Analogii nabízí bezpečnost letectví, kde se „uzavírání smyčky“ u bezpečnostních zjištění
-přísně vynucuje regulatorními rámci, jako jsou systémy řízení bezpečnosti (SMS, *Safety
-Management Systems*). V letectví nelze bezpečnostní zjištění uzavřít, dokud není nápravné
-opatření zavedeno, ověřeno a prokazatelně nebrání opakování.
+V praxi má purple teaming podobu společného cvičení, v němž útočný tým provede jednu techniku za druhou a
+obranný tým u každé z nich ověří, zda ji zachytil, a pokud ne, proč. Výsledek se nezapisuje jako jedna
+souhrnná zpráva, ale jako soupis technik, u nichž je uvedeno, zda byly detekovány; Strom a kolegové (2018)
+právě takové hodnocení mezer v obraně popisují jako jedno z hlavních užití katalogu ATT&CK.
+
+Druhým projevem je, že se zjištění neuzavírá okamžikem, kdy byla navržena oprava, ale okamžikem, kdy
+opakovaná zkouška ukázala, že oprava funguje. Tento požadavek odpovídá zásadě, kterou ICAO (2018) uplatňuje
+v systémech řízení bezpečnosti: nápravné opatření se považuje za účinné teprve po ověření.
 
 ## Mapování na katalog chování protivníka
 
@@ -78,54 +75,46 @@ hypotéza: má-li smysl, musí být možné popsat pozorování, které by je vy
 
 Mapování na katalog však vede k vlastní epistemické chybě, na niž upozorňují sami autoři rámce:
 ATT&CK zachycuje chování, které už někdo zaznamenal. Pokrytí katalogu je proto pokrytím známého,
-nikoli pokrytím prostoru hrozeb, a vysoké „pokrytí ATT&CK“ není mírou bezpečnosti. Jakmile se
-takto spočítaným pokrytím začne vykazovat obranná vyspělost, platí pro ně táž výhrada jako pro
-míru uzavření zjištění v následujícím oddílu.
+nikoli pokrytím prostoru hrozeb, a vysoké „pokrytí ATT&CK“ není mírou bezpečnosti (Strom a kol. 2018).
+Jakmile se takto spočítaným pokrytím začne vykazovat obranná vyspělost, platí pro ně táž výhrada jako
+pro míru uzavření zjištění v následujícím oddílu.
 
-## Vynucení antimetrik
+## Když se míra stane cílem
 
-Charakteristickým rysem Purple Teamu je filosofie vynucení antimetrik: aktivní odolávání
-pobídkám k uzavírání řízenému metrikami. Mezi běžné antivzorce
-bezpečnostního provozu patří uzavírání zjištění kvůli splnění KPI míry uzavření, snižování
-závažnosti, aby nedošlo k zablokování nasazení, nebo přijímání částečných oprav kvůli lepším
-statistikám. Výhradní pravomoc Purple Teamu nad přechody do uzavření brání tomu, aby tyto
-organizační tlaky ohrozily bezpečnostní integritu.
+Purple teaming bývá spojován s nedůvěrou k metrikám uzavírání. Strathern (1997) formulovala zobecnění
+pozorování, které původně popsal Goodhart (1975) u měnových ukazatelů: když se míra stane cílem, přestane
+být dobrou mírou. Campbell (1979) totéž popsal pro sociální ukazatele, jejichž užití při rozhodování vede k
+tomu, že se je lidé naučí ovlivňovat, a ukazatele tím ztrácejí vypovídací hodnotu.
 
-### Odhalované a blokované antivzorce
-
-| Antivzorec | Metoda detekce | Reakce |
-|-------------|-----------------|----------|
-| **Uzavírání kvůli KPI** | skoky míry uzavření bez úměrné aktivity oprav | blokace + šetření |
-| **Snižování závažnosti** | změny závažnosti bez nových důkazů | vyžadovat důkazy pro překlasifikaci |
-| **Přijetí částečné opravy** | oprava řeší příznak, ne kořenovou příčinu | ponechat otevřené, sledovat dílčí pokrok |
-| **Vypršení časem** | automatické uzavření po časovém prahu | zakázáno – zjištění nikdy nevyprší |
-| **Uzavírání kopírováním** | totožné zdůvodnění uzavření u více zjištění | označit k individuálnímu přezkumu |
-
-Filosofie antimetrik vychází z pozorování, že Goodhartův zákon (v často citované formulaci
-Marilyn Strathernové: „Když se míra stane cílem, přestane být dobrou mírou“) platí pro
-bezpečnostní metriky obzvlášť silně. Jakmile organizace měří „míru uzavření zjištění“,
-optimalizuje uzavírání zjištění, ne zlepšování bezpečnosti. Nezávislost Purple Teamu na
-termínech dodávek a výkonnostních metrikách zajišťuje, že rozhodnutí o uzavření stojí jen na
-důkazech.
-
-Stejný vzorec zná Kompendium z institucí, které „uzavírají“ stížnosti obětí kvůli
-statistikám nebo pověsti; obranou je i tam oddělení toho, kdo uzavírá, od toho, komu uzavření
+V bezpečnostním provozu se tento vzorec projevuje tak, že organizace, která měří míru uzavřených zjištění,
+začne optimalizovat uzavírání, nikoli bezpečnost: zjištění se uzavírají kvůli splnění ukazatele, jejich
+závažnost se snižuje, aby nezdržela nasazení, a částečné opravy se přijímají jako úplné. Muller (2018)
+popisuje tento jev obecněji jako fixaci na metriky, při níž se úsilí přesouvá od věci samé k jejímu
+vykazování. *Interpretace knihy*: stejný vzorec zná Kompendium z institucí, které „uzavírají“ stížnosti
+obětí kvůli statistikám nebo pověsti; obranou je i tam oddělit toho, kdo uzavírá, od toho, komu uzavření
 prospívá (viz [Riziko obětování oběti](@/kompendium/critical-perspectives/13-victim-blaming-risk.md)).
 
-## Detekce falešného uzavření
+## Význam pro Kompendium
 
-Na falešné uzavření ukazují tyto vzorce:
+V Kompendiu se purple teaming objevuje jako legitimní protějšek útoku. Stránka o [kaskádě
+jailbreaků](@/kompendium/techniques/ea-9-1-3-jailbreak-cascade.md) ho uvádí jako legitimní rámec testování
+odolnosti jazykových modelů: Ganguli a kolegové (2022) popisují, jak se modely záměrně zkoušejí útočnými
+dotazy, aby se jejich slabiny našly a opravily dřív, než je využije někdo jiný. *Interpretace knihy*:
+rozdíl mezi takovým testováním a útokem netkví v technice, ale v souhlasu, vymezeném rozsahu a v tom, že
+výsledek slouží obraně.
 
-- **Opravy na úrovni příznaku**: záplaty, které řeší konkrétní exploit, ale ne podkladovou
-  třídu zranitelnosti. Pravidlo WAF blokuje konkrétní payload SQL injection, zatímco problém
-  s parametrizací dotazů trvá.
-- **Opravy závislé na prostředí**: obrany, které fungují v testování, ale ne v produkčních
-  konfiguracích. Bezpečnostní hlavička přidaná do testovací konfigurace, ale ne do
-  produkčních nasazovacích skriptů.
-- **Částečné pokrytí**: opravy, které uzavřou jeden vektor útoku a příbuzné ponechají
-  zneužitelné. Záplata jednoho endpointu, zatímco jiné endpointy mají tutéž zranitelnost.
-- **Časem oslabené obrany**: obrany, které byly v době uzavření účinné, ale oslabily kvůli
-  změnám infrastruktury, aktualizacím závislostí nebo posunu konfigurace.
+Druhé užití je metodické. Kniha přejímá z purple teamingu zásadu, že závěr o nápravě má vydat ten, kdo ji
+ověřil, a nikoli ten, komu uzavření prospívá, a uplatňuje ji na hodnocení intervencí i zotavení.
+*Interpretace knihy*: tato zásada stojí na tomtéž pozorování jako Strathernové (1997) kritika auditu, totiž
+že vykazovaný ukazatel se snadno odtrhne od toho, co měl měřit.
+
+## Odlišení
+
+| Odlišit od | Rozdíl |
+| --- | --- |
+| [Red team](@/glossary/red-team.md) | útočná strana, která simuluje protivníka; purple teaming ji spojuje s obranou |
+| [Blue team](@/glossary/blue-team.md) | obranná strana, která útoky detekuje a odráží; purple teaming ji ověřuje proti simulovaným útokům |
+| Penetrační test | jednorázová zkouška zranitelnosti s výslednou zprávou; purple teaming je průběžné společné ověřování |
 
 ## Co uzavřená smyčka nedokazuje
 
@@ -138,26 +127,13 @@ riziko zmizelo; dokazuje nejvýš, že jeden ověřitelný projev rizika byl ods
 užívá jen k rozpoznávání vzorců a nikdy jako důkaz o záměru druhého člověka — ověřená detekce
 vzorce říká, co se stalo, ne proč.
 
-## Osvědčené postupy
-
-1. **Odolávat tlaku zúčastněných stran na uzavření.** Hodnota Purple Teamu spočívá právě
-   v nezávislosti na termínech dodávek. Slevit ze standardů uzavření kvůli termínům podkopává
-   celý model bezpečnostního provozu.
-2. **Nikdy neuzavírat zjištění automaticky podle času.** Na rozdíl od úkolů v řízení projektů
-   bezpečnostní zjištění stářím neztrácejí relevanci. Neopravená zranitelnost je po šesti
-   měsících stejně nebezpečná jako v den objevení.
-
-## Časté chyby
-
-- **Chápat uzavření binárně**: zjištění existují na škále vyřešení. Částečné opravy mohou
-  snížit riziko, aniž by dosáhly úplného uzavření. Purple Team sleduje dílčí nápravu jako
-  snížení rizika a zjištění ponechává otevřené.
-- **Organizační odpor**: bezpečnostní týmy zvyklé uzavírat zjištění jednostranně mohou
-  pravomoci Purple Teamu vzdorovat. Odpor je očekávatelný a je třeba ho řešit vzděláváním
-  o nákladech falešného uzavření.
-
 ## Literatura
 
+- Campbell, D. T. (1979). *Assessing the impact of planned social change*. Evaluation and Program Planning, 2(1).
+- Ganguli, D., a kol. (2022). *Red teaming language models to reduce harms: Methods, scaling behaviors, and lessons learned*. arXiv:2209.07858.
+- Goodhart, C. A. E. (1975). *Problems of monetary management: The U.K. experience*. Papers in Monetary Economics, Vol. 1. Sydney: Reserve Bank of Australia.
+- International Civil Aviation Organization. (2018). *Safety Management Manual* (Doc 9859, 4th ed.). Montréal: ICAO.
+- Muller, J. Z. (2018). *The Tyranny of Metrics*. Princeton University Press.
 - Strathern, M. (1997). „Improving ratings“: audit in the British University system. *European Review*.
 - Strom, B. E., a kol. (2018). *MITRE ATT&CK: Design and Philosophy*. MITRE.
 

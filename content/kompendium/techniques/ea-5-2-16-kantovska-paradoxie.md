@@ -57,7 +57,7 @@ Zpětně se znaky skládají takto: nejprve rostoucí zájem o neřešitelné ot
 - **Pseudo-filozofická melancholie** — pocit, že „nic není rozhodnutelné“.
 - **Volní paralýza ve sporných oblastech** — neschopnost zaujmout pozici.
 - **Akutní úzkost při tlačení na rozhodnutí** — antinomie se aktivuje.
-- **Slovní intelektualizace** maskující paralýzu.
+- **Slovní [intelektualizace](@/glossary/intelektualizace.md)** maskující paralýzu.
 - **Rostoucí obdiv k „paradoxnímu myšlení“** bez tematizace jeho strukturní funkce.
 
 ## Detekční markery

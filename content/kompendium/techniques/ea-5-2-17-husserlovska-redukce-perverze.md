@@ -61,7 +61,7 @@ Zpětně se znaky skládají takto: nejprve nadšené přijetí slovníku, pak s
 - **Chronická derealizace** — věci jsou prožívány jako „zdánlivé“, „uzávorkované“.
 - **Praktická paralýza** — neschopnost angažovaně jednat, protože každý akt je „zredukován“.
 - **Pseudo-fenomenologická melancholie** — pocit, že „skutečný svět je ztracen“.
-- **Slovní intelektualizace** maskující strukturální derealizaci.
+- **Slovní [intelektualizace](@/glossary/intelektualizace.md)** maskující strukturální derealizaci.
 - **Lingvistická referenční nestabilita** — slova přetrvávají, ale referují k „uzávorkovaným“ jevům.
 - **Postupná ztráta lebensweltové orientace** — domácí prostředí přestává být domácí.
 

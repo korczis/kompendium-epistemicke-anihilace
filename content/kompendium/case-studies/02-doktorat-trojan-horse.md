@@ -124,16 +124,16 @@ sebehodnocení tam, kde chybí objektivní měřítko (Festinger, 1954).
 
 Terapie probíhala podle [protokolu epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
 a souběžně s institucionálním řešením, v pořadí bezpečí – zpracování – nové propojení, jak je
-pro zotavení po dlouhodobé zátěži navrhla Herman (1992). Ve **S1 – validaci a mapování**
+pro zotavení po dlouhodobé zátěži navrhla Herman (1992). Ve S1 – validaci a mapování
 proběhla rekonstrukce původního zadání, verzí plánu a e-mailové korespondence; vznikla mapa toho,
-kde se téma posouvalo a kdo o tom rozhodl. Ve **S2 – externalizaci introjektů** se oddělily věty
+kde se téma posouvalo a kdo o tom rozhodl. Ve S2 – externalizaci introjektů se oddělily věty
 „jsem nevděčný“ a „bez projektu nejsem nic“ od jejich zdroje a vděčnost byla pojmenována jako
 legitimní, ale zneužitý cit; postup vychází z narativní externalizace (White a Epston, 1990).
 
-Ve **S3 – rekonstrukci [metakognice](@/glossary/metakognice.md)** doktorand nacvičoval rozlišování
+Ve S3 – rekonstrukci [metakognice](@/glossary/metakognice.md) doktorand nacvičoval rozlišování
 mezi sjednaným a vynucovaným závazkem a [verifikaci tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md)
-proti dokumentům. Ve **S4 – hermeneutické obnově** znovu vybudoval vlastní výzkumnou otázku
-z materiálu, který mu skutečně patřil. **S5 – konsolidace a transfer** přinesla písemnou dohodu
+proti dokumentům. Ve S4 – hermeneutické obnově znovu vybudoval vlastní výzkumnou otázku
+z materiálu, který mu skutečně patřil. S5 – konsolidace a transfer přinesla písemnou dohodu
 o autorství a rozdělení dat při změně vedení a plán kariéry nezávislý na jednom doporučení.
 Evropský kodex integrity výzkumu váže autorství na skutečný podíl na koncepci, provedení či
 interpretaci práce (ALLEA, 2017), a poskytl tak vnější měřítko, o které se dohoda opřela.

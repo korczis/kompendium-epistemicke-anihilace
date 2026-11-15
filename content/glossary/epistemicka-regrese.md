@@ -57,7 +57,7 @@ Kompendium termín užívá pracovně pro situaci, kdy se tento vývoj **obrací
   že jiný může jednat v dobré víře a přitom nesouhlasit (srov. [Theory of
   Mind](@/glossary/theory-of-mind.md)).
 - **Konkrétnost.** Metafory skupiny se berou doslovně; abstraktní rozbor je odmítán jako
-  „intelektualizace“.
+  „[intelektualizace](@/glossary/intelektualizace.md)“.
 - **Infantilní závislost.** Prosba o svolení u drobných rozhodnutí, strach z „neposlušnosti“,
   hledání pochvaly.
 

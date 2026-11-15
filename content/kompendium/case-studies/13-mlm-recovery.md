@@ -56,7 +56,7 @@ nesou osobní odpovědnost, do něj mají sklon investovat dál, aby je ospraved
 
 Ve fázi **ideologizace** (roky 1–2) byl neúspěch vykládán jako nedostatek víry a skeptici byli
 označeni za „toxické“. Ve fázi izolace (roky 2–3) přišla ztráta přátel, konflikty s partnerem
-kvůli financím a skrývání výpisů. Fáze **detekce a odchodu** (rok 3) začala sečtením skutečných
+kvůli financím a skrývání výpisů. Fáze detekce a odchodu (rok 3) začala sečtením skutečných
 příjmů a výdajů s pomocí dluhové poradny. Bhattacharya a Mehta (2000) analyzovali socializaci
 v organizacích síťového prodeje a ptali se, nakolik se blíží kultovnímu chování; kompozit
 ukazuje variantu, v níž se k této socializaci přidala ideologizace neúspěchu.
@@ -106,20 +106,20 @@ z hlavních cest k odolnosti vůči studu.
 
 Intervence spojovala finanční a psychologickou práci a odpovídala
 [protokolu epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md);
-paralelně běžela párová konzultace kvůli financím a důvěře. Ve **S1 – validaci a mapování** se
+paralelně běžela párová konzultace kvůli financím a důvěře. Ve S1 – validaci a mapování se
 finanční přehled stal prvním terapeutickým dokumentem a proběhla psychoedukace o ekonomice MLM
 bez moralizování. Pořadí – nejprve stabilizace finanční situace, pak zpracování – odpovídá zásadě,
 že bezpečí předchází práci s prožitkem (Herman, 1992).
 
-Ve **S2 – externalizaci introjektů** byly věty jako „chudoba je volba“ nebo „úspěch je jen mindset“
+Ve S2 – externalizaci introjektů byly věty jako „chudoba je volba“ nebo „úspěch je jen mindset“
 zapsány a vráceny zdroji, z něhož pocházejí, v duchu narativní externalizace (White a Epston,
-1990). Ve **S3 – rekonstrukci [metakognice](@/glossary/metakognice.md)** žena nacvičovala
+1990). Ve S3 – rekonstrukci [metakognice](@/glossary/metakognice.md) žena nacvičovala
 [verifikaci tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md) – rozlišení mezi
 příběhem úspěchu a statistikou výsledků. Cialdini (1984) doporučuje bránit se sociálnímu důkazu
 tím, že si člověk všímá, zda je předkládaný „důkaz“ zkreslený nebo uměle vybraný.
 
-Ve **S4 – hermeneutické obnově** proběhlo nové čtení let v síti a uznání skutečných potřeb
-(komunita, smysl), které ji tam přivedly. **S5 – konsolidace a transfer** přinesla plán splácení,
+Ve S4 – hermeneutické obnově proběhlo nové čtení let v síti a uznání skutečných potřeb
+(komunita, smysl), které ji tam přivedly. S5 – konsolidace a transfer přinesla plán splácení,
 návrat do zaměstnání a novou komunitu bez ekonomické vazby. Biggart (1989) ukazuje, že tyto
 organizace nabízejí členům i smysl a společenství; zotavení proto musí nabídnout jiný zdroj
 smyslu, ne jen odchod.

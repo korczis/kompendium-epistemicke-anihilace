@@ -39,7 +39,7 @@ přepisování**: rodinná historka vyprávěná pořád v upravené podobě, �
 dětství v terapii, „oficiální“ verze konfliktu na pracovišti.
 
 Vzorec stojí na dobře doloženém poznatku kognitivní psychologie: paměť není záznam, ale
-**rekonstrukce**. Při každém vybavení se vzpomínka znovu skládá a je citlivá na otázky,
+rekonstrukce. Při každém vybavení se vzpomínka znovu skládá a je citlivá na otázky,
 slova a výklady, které přicházejí zvenčí. To, co je běžnou vlastností paměti, se ve vztahu
 s mocenskou asymetrií stává branou k přepisu.
 

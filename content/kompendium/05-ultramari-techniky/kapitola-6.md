@@ -17,7 +17,7 @@ access_level = "L3-L4"
 
 # Kapitola 6 — Epistemická singularita
 
-> 🚨 Kapitola popisuje 30 ultramárních technik (EA-5.1.*) operujících na rovině [metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md). Materiály vyžadují IRB autorizaci a etickou supervizi. Veřejně dostupné jsou výhradně metaúrovňové popisy fenomenologie a klinického obrazu — operační detaily jsou redigovány nebo přesunuty do restriktivních L4 příloh.
+> 🚨 Kapitola popisuje 30 ultramárních technik (EA-5.1.*) operujících na rovině [metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md). Materiály vyžadují IRB autorizaci a etickou supervizi. Kniha popisuje metaúroveň fenomenologie a klinického obrazu; operační detaily neobsahuje.
 
 ## Pozice kapitoly
 
@@ -124,7 +124,7 @@ Klinik musí rozlišit syndromový obraz EA-5.1.* od:
 
 ## Etické scaffolding kapitoly
 
-Tato kapitola **neposkytuje operační návod**. Plná operační dokumentace je restriktivně přístupná pouze L4-autorizovaným klinikům a výzkumníkům. Účel veřejně dostupných materiálů:
+Tato kapitola **neposkytuje operační návod**. Operační dokumentaci kniha neobsahuje. Účel jejích materiálů:
 
 - **Diagnostika** — klinici musí být schopni identifikovat syndromový obraz u subjektů, kteří byli technikám exponováni (např. v adversariálních kontextech vědeckého soupeření, kultovních sociálních dynamik, [gaslighting](@/glossary/gaslighting.md) v profesních vztazích).
 - **Prevence** — pedagogická literatura pro akademické instituce o riziku v specifických sociálních dynamikách (mentor–doktorand, terapeut–klient, kult–adept).

@@ -125,13 +125,13 @@ Terapie běžela souběžně s profesním poradenstvím a sledovala
 [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md),
 jehož stupně volně odpovídají modelu zotavení bezpečí – zpracování – nové propojení (Herman,
 1992). Ve S1 – validaci a mapování výzkumnice sestavila přehled recenzí, grantových posudků a
-citací v čase; vizualizace asymetrie pomohla oddělit vzorec od náhody. Ve **S2 – externalizaci
-introjektů** přiřadila věty „jsem metodologicky slabá“ a „poškodila jsem obor“ jejich zdrojům,
+citací v čase; vizualizace asymetrie pomohla oddělit vzorec od náhody. Ve S2 – externalizaci
+introjektů přiřadila věty „jsem metodologicky slabá“ a „poškodila jsem obor“ jejich zdrojům,
 v duchu narativní externalizace problému mimo osobu (White a Epston, 1990).
 
-Ve **S3 – rekonstrukci [metakognice](@/glossary/metakognice.md)** šlo o obnovu důvěry
-v explicitní kritéria: pokud data a analýza obstojí, pocit „neplatnosti“ není argument. Ve **S4 –
-hermeneutické obnově** výzkumnice nově porozuměla vědecké komunitě jako pluralitní, ne jako jediné
+Ve S3 – rekonstrukci [metakognice](@/glossary/metakognice.md) šlo o obnovu důvěry
+v explicitní kritéria: pokud data a analýza obstojí, pocit „neplatnosti“ není argument. Ve S4 –
+hermeneutické obnově výzkumnice nově porozuměla vědecké komunitě jako pluralitní, ne jako jediné
 skupině, která rozhoduje o pravdě; viz [pluralita paradigmat](@/kompendium/self-defense-guides/6-paradigm-pluralism.md).
 Kuhn (1962) ukazuje, že soupeření paradigmat je normální součástí vědeckého vývoje, a tento
 výklad jí pomohl vidět spor jako strukturální, nikoli osobní. S5 – konsolidace a transfer

@@ -126,12 +126,12 @@ Poté navázal [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-apl
 Ve S1 – validaci a mapování se oddělilo to, co skutečně řekla, od toho, co jí bylo přisouzeno;
 srovnání úplného záznamu s úryvkem fungovalo jako přímá korekce kolapsu kontextu (Marwick a boyd,
 2011). Ve S2 – externalizaci introjektů byly hlasy „jsem nebezpečná“ a „nemám právo mluvit“
-pojmenovány jako převzaté z útoku. Ve **S3 – rekonstrukci [metakognice](@/glossary/metakognice.md)**
+pojmenovány jako převzaté z útoku. Ve S3 – rekonstrukci [metakognice](@/glossary/metakognice.md)
 proběhla kalibrace odhadu, kolik lidí útok skutečně představuje – analýza sítě ukázala, že jádro
 tvořil malý okruh účtů, jak to odpovídá modelu síťového obtěžování (Marwick, 2021).
 
-Ve S4 – hermeneutické obnově se obnovil vztah k vlastnímu oboru a k veřejné roli; **S5 –
-konsolidace a transfer** přinesla nová pravidla mediální spolupráce (autorizace, celé záznamy).
+Ve S4 – hermeneutické obnově se obnovil vztah k vlastnímu oboru a k veřejné roli; S5 –
+konsolidace a transfer přinesla nová pravidla mediální spolupráce (autorizace, celé záznamy).
 Zaměstnavatel přijal plán podle [reakce na incident](@/kompendium/organizational-defense/31-incident-response-EA.md)
 a veřejně se za ni postavil. Smith a Freyd (2014) ukazují, že podpora instituce zmírňuje následky
 křivdy, zatímco její mlčení nebo distancování působí jako druhá, samostatná zrada.

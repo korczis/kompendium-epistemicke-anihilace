@@ -112,12 +112,12 @@ skupinovému výkladu.
 Rámec poskytl [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
 spolu se [somaticky orientovanou terapií](@/kompendium/techniques/ea-6-2-9-body-oriented-therapy-protokol.md).
 Ve stupni S1 – Validace a mapování proběhla somatická stabilizace a psychoedukace o
-přetížení a vznikla mapa toho, jak se měnil režim a vztahy. Ve stupni **S2 – Externalizace
-introjektů** byly věty „bolest je slabost opouštějící tělo“ a „odpočinek je pro lenochy“
+přetížení a vznikla mapa toho, jak se měnil režim a vztahy. Ve stupni S2 – Externalizace
+introjektů byly věty „bolest je slabost opouštějící tělo“ a „odpočinek je pro lenochy“
 přiřazeny zdroji; White a Epston (1990) popisují externalizaci jako oddělení problému od
 identity člověka.
 
-Ve stupni **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md)** šlo o obnovu
+Ve stupni S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md) šlo o obnovu
 [somatické pozornosti](@/kompendium/self-defense-guides/13-somatic-awareness.md), tedy o učení
 se znovu číst signály těla. Van der Kolk (2014) zdůrazňuje, že po dlouhodobém stresu je obnova
 schopnosti bezpečně vnímat tělo samostatným terapeutickým cílem, nikoli vedlejším produktem

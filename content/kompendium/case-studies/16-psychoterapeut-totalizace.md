@@ -116,19 +116,19 @@ závislost oslabila natolik, že pochybnost mohla zaznít.
 Druhá terapie musela být **výslovně jiná** v rámci, ne jen v osobě. Postup vycházel z
 [protokolu epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
 s důrazem na prevenci [retraumatizace](@/glossary/retraumatizace.md).
-Ve stupni **S1 – Validace a mapování** byl uzavřen jasně ohraničený kontrakt (délka, frekvence, žádný kontakt mimo sezení)
+Ve stupni S1 – Validace a mapování byl uzavřen jasně ohraničený kontrakt (délka, frekvence, žádný kontakt mimo sezení)
 a klientka dostala psychoedukaci o hranicích v terapii; Bordin (1979) zdůrazňuje, že shoda na
 cílech a úkolech je součástí aliance, nikoli formalitou.
 
-Ve stupni **S2 – Externalizace introjektů** terapeut pomáhal rozlišit vlastní vzpomínky od
+Ve stupni S2 – Externalizace introjektů terapeut pomáhal rozlišit vlastní vzpomínky od
 výkladů, které do nich byly vloženy, bez snahy rozhodnout, „jak to opravdu bylo“; White a Epston
 (1990) tento postup popisují jako oddělení příběhu od člověka.
-Ve stupni **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md)** šlo o obnovu práva na nesouhlas, i s novým
+Ve stupni S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md) šlo o obnovu práva na nesouhlas, i s novým
 terapeutem. Safran a Muran (2000) ukazují, že otevřené pojmenování a společné řešení trhlin v
 alianci (*rupture and repair*) je samo terapeutickým činitelem.
 
-Stupeň **S4 – Hermeneutická obnova** zahrnoval opatrné znovunavázání vztahu s rodinou a stupeň
-**S5 – Konsolidace a transfer** plánované ukončení terapie jako důkaz, že vztah lze opustit.
+Stupeň S4 – Hermeneutická obnova zahrnoval opatrné znovunavázání vztahu s rodinou a stupeň
+S5 – Konsolidace a transfer plánované ukončení terapie jako důkaz, že vztah lze opustit.
 Herman (1992) popisuje závěrečnou fázi zotavení jako znovupropojení s běžným životem; zde to
 znamenalo, že terapie skončila dřív, než se mohla stát novou závislostí.
 

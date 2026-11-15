@@ -117,8 +117,8 @@ organizací vstupovali z upřímného idealismu; uznání tohoto idealismu proto
 zpracování zkušenosti brání.
 
 Ve stupni S2 – Externalizace introjektů byl jazyk sebekritiky („buržoazní individualismus“,
-„oportunismus“) zapsán a odlišen od vlastní etiky. Ve stupni **S3 – Rekonstrukce
-[metakognice](@/glossary/metakognice.md)** šlo o obnovu schopnosti držet nejistotu a pluralitu názorů
+„oportunismus“) zapsán a odlišen od vlastní etiky. Ve stupni S3 – Rekonstrukce
+[metakognice](@/glossary/metakognice.md) šlo o obnovu schopnosti držet nejistotu a pluralitu názorů
 ([pluralita paradigmat](@/kompendium/self-defense-guides/6-paradigm-pluralism.md)). Lifton (1961)
 staví proti totalismu otevřenost vůči nejistotě a vůči více výkladům jako znak psychické svobody.
 

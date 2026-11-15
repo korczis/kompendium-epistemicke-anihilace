@@ -113,7 +113,7 @@ bez moralizování. Pořadí – nejprve stabilizace finanční situace, pak zpr
 
 Ve S2 – externalizaci introjektů byly věty jako „chudoba je volba“ nebo „úspěch je jen mindset“
 zapsány a vráceny zdroji, z něhož pocházejí, v duchu narativní externalizace (White a Epston,
-1990). Ve **S3 – rekonstrukci [metakognice](@/glossary/metakognice.md)** žena nacvičovala
+1990). Ve S3 – rekonstrukci [metakognice](@/glossary/metakognice.md) žena nacvičovala
 [verifikaci tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md) – rozlišení mezi
 příběhem úspěchu a statistikou výsledků. Cialdini (1984) doporučuje bránit se sociálnímu důkazu
 tím, že si člověk všímá, zda je předkládaný „důkaz“ zkreslený nebo uměle vybraný.

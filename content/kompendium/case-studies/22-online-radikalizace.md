@@ -128,7 +128,7 @@ obviňování. Ve stupni S2 – Externalizace introjektů byly vnitroskupinový 
 rozebrány na to, co doslova tvrdí; Phillips (2015) ukazuje, že doslovné čtení ironického obsahu
 zbavuje ironii její ochranné funkce.
 
-Ve stupni **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md)** dospívající procvičoval
+Ve stupni S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md) dospívající procvičoval
 strukturované hodnocení ideových zdrojů a [kognitivní flexibilitu](@/kompendium/self-defense-guides/8-cognitive-flexibility.md).
 Stupeň S4 – Hermeneutická obnova zahrnoval mentoring s bývalým členem podobného hnutí podle
 modelu deradikalizačních programů vedených bývalými extremisty (*formers*), který mluví bez

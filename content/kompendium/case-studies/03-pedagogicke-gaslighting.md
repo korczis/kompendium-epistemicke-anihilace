@@ -124,7 +124,7 @@ a o zkrácenou verzi [protokolu epistemické rekonstrukce](@/kompendium/06-klini
 Ve S1 – validaci a mapování terapeutka potvrdila, že vnímání studentky bylo správné, a spolu
 s ní sestavila časovou osu z jejích zápisků. Ve S2 – externalizaci introjektů se věta „mám
 špatnou paměť“ oddělila od svého zdroje; externalizace problému mimo identitu člověka pochází
-z [narativní terapie](@/glossary/narativni-terapie.md) (White a Epston, 1990). Ve **S3 – rekonstrukci [metakognice](@/glossary/metakognice.md)**
+z [narativní terapie](@/glossary/narativni-terapie.md) (White a Epston, 1990). Ve S3 – rekonstrukci [metakognice](@/glossary/metakognice.md)
 šlo o zdravé ověřování bez kompulze – postupné omezování nahrávání a nácvik
 [triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md), tedy ověření
 události z více nezávislých svědectví místo jediného záznamu (Johnson a kol., 1993).

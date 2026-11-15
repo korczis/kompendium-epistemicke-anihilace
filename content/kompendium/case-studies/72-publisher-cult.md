@@ -178,27 +178,27 @@ s důrazem na [narativní rekonstrukci](@/kompendium/techniques/ea-6-3-6-narrati
 White a Epston (1990) popisují v narativní terapii přepisování životního příběhu (re-authoring)
 tak, aby jeho autorem byl znovu sám klient; to bylo i cílem zde.
 
-**S1 – Validace a mapování.** Uznání, že redakce knihu skutečně zlepšila a že zároveň zasáhla do
+S1 – Validace a mapování. Uznání, že redakce knihu skutečně zlepšila a že zároveň zasáhla do
 toho, co nesmělo být změněno. Vznikla mapa míst, kde se kniha liší od pramenů. Herman (1992)
 klade validaci zkušenosti na začátek, protože bez ní klient zpochybňuje i oprávněné pochybnosti.
 
-**S2 – Externalizace introjektů.** Rozlišení „jeho věty“ a „mé věty“ při čtení vlastní knihy
+S2 – Externalizace introjektů. Rozlišení „jeho věty“ a „mé věty“ při čtení vlastní knihy
 nahlas a pojmenování přesvědčení, že bez něj není spisovatelkou. Oddělení cizího hlasu od
 vlastního je praktickou podobou externalizace, jak ji popisují White a Epston (1990).
 
-**S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md).** Srovnávání původních přepisů
+S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md). Srovnávání původních přepisů
 rozhovorů, dopisů a vydaného textu řádek po řádku a založení
 [paměťového archivu](@/kompendium/self-defense-guides/43-memory-archive.md) rodinných pramenů
 nezávislého na knize. Cvičení posiluje sledování zdroje (Johnson, Hashtroudi a Lindsay, 1993):
 u každé věty je třeba vědět, odkud pochází.
 
-**S4 – Hermeneutická obnova.** Rozhovory s žijícími příbuznými podle principů
+S4 – Hermeneutická obnova. Rozhovory s žijícími příbuznými podle principů
 [kolaterálního rozhovoru](@/kompendium/06-klinicke-aplikace/collateral-interview-protokol.md)
 a přijetí, že některé události zůstanou nejisté a že nejistota je poctivější než uzavřený příběh.
 Bartlett (1932) ukázal, že každé vyprávění je rekonstrukcí; cílem proto nebyla jediná „pravá“
 verze, ale poctivý vztah k pramenům.
 
-**S5 – Konsolidace a transfer.** Nové vydání u jiného nakladatele s předmluvou, která vysvětluje
+S5 – Konsolidace a transfer. Nové vydání u jiného nakladatele s předmluvou, která vysvětluje
 rozdíly, a smlouva, v níž má autorka konečné slovo o změnách. McAdams (1993) chápe narativní
 identitu jako příběh, který člověk dál píše; nová předmluva byla doslova jeho další kapitolou.
 

@@ -144,7 +144,7 @@ dokumentace, která tak přestala být nástrojem rámce a stala se zdrojem fakt
 Ve stupni S2 – Externalizace introjektů byly věty „přeháním“ a „jsem hypochondr“ přiřazeny
 konkrétním situacím, kde zazněly. White a Epston (1990) popsali externalizaci jako oddělení
 problému od identity člověka: věta přestane být vlastností pacientky a stane se výrokem, který
-někdo v určité chvíli pronesl. Ve stupni **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md)**
+někdo v určité chvíli pronesl. Ve stupni S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md)
 šlo o obnovu [interoceptivní důvěry](@/kompendium/self-defense-guides/13-somatic-awareness.md);
 deník příznaků sloužil jako vnější kotva, která umožnila sledovat vlastní vnímání, jak to Flavell
 (1979) vymezil pro metakognitivní monitorování.

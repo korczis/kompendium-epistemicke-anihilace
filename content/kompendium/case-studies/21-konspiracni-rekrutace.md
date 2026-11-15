@@ -135,7 +135,7 @@ Herman (1992) zdůrazňuje, že bez uznání skutečné křivdy nelze bezpečně
 zpracována. Ve stupni S2 – Externalizace introjektů byl jazyk skupiny („ovce“, „probuzení“)
 zapsán a oddělen od vlastního hlasu.
 
-Ve stupni **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md)** šlo o
+Ve stupni S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md) šlo o
 [triangulaci zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md) a
 [falsifikační myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md) s důrazem na
 [epistemickou pokoru](@/glossary/epistemicka-pokora.md) – připustit nejistotu bez potřeby nového

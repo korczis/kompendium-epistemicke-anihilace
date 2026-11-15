@@ -120,8 +120,8 @@ průběhu za podmínku zotavení; zde zahrnovalo i uznání, že část toho, co
 hodnotu.
 
 Ve stupni S2 – Externalizace introjektů byly mistrovy fráze sepsány a přeloženy do běžné řeči a
-doktorand rozlišil mezi myšlenkou a formou, kterou mu byla vnucena. Ve stupni **S3 – Rekonstrukce
-[metakognice](@/glossary/metakognice.md)** šlo o [hluboké čtení](@/kompendium/self-defense-guides/35-deep-reading-practice.md)
+doktorand rozlišil mezi myšlenkou a formou, kterou mu byla vnucena. Ve stupni S3 – Rekonstrukce
+[metakognice](@/glossary/metakognice.md) šlo o [hluboké čtení](@/kompendium/self-defense-guides/35-deep-reading-practice.md)
 autorů různých směrů a o [pluralitu paradigmat](@/kompendium/self-defense-guides/6-paradigm-pluralism.md).
 Popper (1945) připomíná, že kritika je podmínkou růstu poznání, nikoli jeho ohrožením; nácvik kritického
 čtení vlastní školy byl proto i nácvikem filozofie samé.

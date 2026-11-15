@@ -116,7 +116,7 @@ skupině i skutečně dobré chvíle a že jejich uznání patří k realistick�
 slovník programu sepsán a přeložen, se zvláštní pozorností k větám, které znevažují minulost („to je
 jen tvůj příběh“).
 
-Ve stupni **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md)** muž kriticky četl literaturu o
+Ve stupni S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md) muž kriticky četl literaturu o
 myšlenkové reformě (Lifton, 1961) a o skupinách s vysokou kontrolou a srovnával vlastní zkušenost s
 popsanými vzorci. Singer a Lalich (1995) popisují poznání mechanismů vlivu jako důležitou součást
 zotavení, protože vrací člověku vysvětlení, které nevychází z jazyka skupiny.

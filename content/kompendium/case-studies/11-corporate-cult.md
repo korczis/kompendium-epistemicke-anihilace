@@ -121,15 +121,15 @@ nejcennějším zdrojem.
 
 Terapie sledovala [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md).
 Ve S1 – validaci a mapování proběhlo pojmenování vzorce jako organizační kontroly, ne
-osobního selhání, a mapa toho, kdy a jak se zužoval okruh vztahů. Ve **S2 – externalizaci
-introjektů** byl firemní slovník sepsán a přeložen do běžného jazyka a hodnoty, které si klient
+osobního selhání, a mapa toho, kdy a jak se zužoval okruh vztahů. Ve S2 – externalizaci
+introjektů byl firemní slovník sepsán a přeložen do běžného jazyka a hodnoty, které si klient
 chce ponechat (pracovitost, péče o tým), se oddělily od jejich zneužití. Postup vychází
 z narativní externalizace, která odlišuje člověka od problému (White a Epston, 1990).
 
-Ve **S3 – rekonstrukci [metakognice](@/glossary/metakognice.md)** klient nacvičoval rozlišení mezi
-únavou a „špatným mindsetem“ a formuloval vlastní kritéria dobré práce. Ve **S4 – hermeneutické
-obnově** vznikl nový výklad kariéry a párová terapie pomohla obnovit důvěru s partnerkou. **S5 –
-konsolidace a transfer** znamenala výběr nového zaměstnavatele podle předem sepsaných hranic.
+Ve S3 – rekonstrukci [metakognice](@/glossary/metakognice.md) klient nacvičoval rozlišení mezi
+únavou a „špatným mindsetem“ a formuloval vlastní kritéria dobré práce. Ve S4 – hermeneutické
+obnově vznikl nový výklad kariéry a párová terapie pomohla obnovit důvěru s partnerkou. S5 –
+konsolidace a transfer znamenala výběr nového zaměstnavatele podle předem sepsaných hranic.
 Užitečná byla [akutní sociální rekonekce](@/kompendium/recovery-protocols/acute-social-reconnection.md)
 s přáteli z doby před nástupem a pracovněprávní konzultace kvůli podmínkám odchodu; obnova
 vztahů mimo organizaci odpovídá fázi nového propojení s druhými (Herman, 1992).

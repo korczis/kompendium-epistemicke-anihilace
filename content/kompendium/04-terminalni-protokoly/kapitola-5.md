@@ -16,7 +16,7 @@ status = "publikovano"
 
 # Kapitola 5: Specializované bezpečnostní protokoly
 
-> ⚠️ **L2 — Analytické porozumění.** Tato kapitola popisuje strukturální požadavky bezpečnostních protokolů pro práci s terminálními protokoly na úrovni výzkumné a klinické instituce. Implementační detaily konkrétních screeningových nástrojů, monitorovacích systémů a forenzních procedur jsou dostupné pouze prostřednictvím autorizovaných kanálů (úroveň L3+).
+> **L2 — Analytické porozumění.** Tato kapitola popisuje strukturální požadavky bezpečnostních protokolů pro práci s terminálními protokoly na úrovni výzkumné a klinické instituce. Implementační detaily konkrétních screeningových nástrojů, monitorovacích systémů a forenzních procedur jsou dostupné pouze prostřednictvím autorizovaných kanálů (úroveň L3+).
 
 ## Úvod: bezpečnost jako strukturální vlastnost, nikoli ad-hoc opatření
 

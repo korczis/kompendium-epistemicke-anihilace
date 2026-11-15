@@ -38,7 +38,7 @@ dekonstrukce](@/kompendium/05-ultramari-techniky/_index.md).
 
 ## Původ a kontext pojmu
 
-Termín je pracovním pojmem Kompendia a Prismatic Platform. Myšlenkově stojí na poznatku
+Termín je pracovním pojmem této knihy. Myšlenkově stojí na poznatku
 kognitivních věd a filozofie, že vnímání a myšlení nejsou možné bez pojmů: Kant hovořil
 o [kategoriích](@/glossary/kantovy-kategorie.md) jako o podmínkách zkušenosti, kognitivní
 psychologie o schématech, kognitivní lingvistika (Lakoff) o pojmových metaforách, které

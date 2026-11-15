@@ -16,7 +16,7 @@ date_modified = "2026-11-10"
 
 # Bridge: Připravenost (readiness)
 
-> **Most** spojuje pojem připravenosti s místy knihy, kde se rozhoduje, zda je vhodná chvíle pro
+> Most spojuje pojem připravenosti s místy knihy, kde se rozhoduje, zda je vhodná chvíle pro
 > další krok. Přehled mostů je v rejstříku [Glossary Bridges](@/kompendium/glossary-bridges/_index.md).
 
 ## Pojem

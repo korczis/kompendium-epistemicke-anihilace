@@ -39,7 +39,7 @@ catalog_related = ["auditivne-digitalni-system", "disociace", "rozptylovac", "vy
 catalog_related_declared = ["rozptylovac", "vyrovnany", "disociace", "neuro-zargon", "auditivne-digitalni-system"]
 catalog_kompendium = ["kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/detection-signatures/1-linguistic-jargon-density.md"]
 catalog_canonical = ""
-catalog_links_prose = ["glossary/disociace.md", "kompendium/detection-signatures/1-linguistic-jargon-density.md", "kompendium/nlp-vzorce/jazykove-vzorce/kategorie-satirove.md", "kompendium/nlp-vzorce/jazykove-vzorce/vyrovnany.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md"]
+catalog_links_prose = ["glossary/disociace.md", "glossary/intelektualizace.md", "kompendium/detection-signatures/1-linguistic-jargon-density.md", "kompendium/nlp-vzorce/jazykove-vzorce/kategorie-satirove.md", "kompendium/nlp-vzorce/jazykove-vzorce/vyrovnany.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md"]
 catalog_prev = "obvinovatel"
 catalog_next = "rozptylovac"
 catalog_position = 8
@@ -80,7 +80,7 @@ Počítačem, v anglických textech také superrozumným postojem, se v typologi
 
 ## Původ a souvislosti
 
-Satirová postoj popsala na základě práce s rodinami, ve kterých někteří členové na napětí reagovali tím, že se stáhli do neosobních vysvětlení a pravidel. Jako u ostatních postojů zdůrazňovala tělesný obraz: rovná, nehybná postava, jako by člověk spolkl pravítko, a hlas bez zabarvení (Satir 1972). V psychoanalytické tradici se podobný jev popisuje jako intelektualizace, tedy obrana, při níž člověk zvládá citově náročnou situaci tím, že o ní uvažuje abstraktně. Carl Rogers z jiné strany popsal nesoulad mezi tím, co člověk prožívá, a tím, co si připouští a vyjadřuje, jako jádro psychické nepohody (Rogers 1951).
+Satirová postoj popsala na základě práce s rodinami, ve kterých někteří členové na napětí reagovali tím, že se stáhli do neosobních vysvětlení a pravidel. Jako u ostatních postojů zdůrazňovala tělesný obraz: rovná, nehybná postava, jako by člověk spolkl pravítko, a hlas bez zabarvení (Satir 1972). V psychoanalytické tradici se podobný jev popisuje jako [intelektualizace](@/glossary/intelektualizace.md), tedy obrana, při níž člověk zvládá citově náročnou situaci tím, že o ní uvažuje abstraktně. Carl Rogers z jiné strany popsal nesoulad mezi tím, co člověk prožívá, a tím, co si připouští a vyjadřuje, jako jádro psychické nepohody (Rogers 1951).
 
 NLP převzalo postoj s celou typologií Satirové (Grinder a Bandler 1976) a spojilo jej s vlastními pojmy. Způsob řeči, který se drží slov, logiky a pravidel bez odkazu na smyslovou zkušenost, NLP přiřazuje k [auditivně digitálnímu systému](@/kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md), a vzdálení se od vlastního prožitku popisuje jako [disociaci](@/glossary/disociace.md) (O'Connor a Seymour 1990). Ve vlivové a prezentační literatuře NLP se lze setkat s doporučením superrozumného postoje jako vhodného pro sdělování nepříjemných zpráv nebo pro vystupování s autoritou.
 

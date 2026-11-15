@@ -63,7 +63,7 @@ myšlenkové reformy kontrolu prostředí (*[milieu control](@/glossary/milieu-c
 
 Ve fázi **trhlin** (roky 10–11) se objevil rozpor mezi učením a jednáním vedení a potlačované
 pochybnosti. **Odchod** (rok 12) neproběhl z vlastní iniciativy: následovalo vyloučení po otázce
-na hospodaření a náhlá ztráta bydlení, práce i všech přátel. **Zotavení** (roky 12–17) zahrnovalo
+na hospodaření a náhlá ztráta bydlení, práce i všech přátel. Zotavení (roky 12–17) zahrnovalo
 terapii, peer skupinu bývalých členů, rekvalifikaci a nové vztahy. Wright (1987) řadí vnímaný
 rozpor mezi ideály a jednáním vedení k typickým spouštěčům odchodu z nových náboženských hnutí.
 
@@ -126,19 +126,19 @@ protože poskytuje svědectví, že život po odchodu je možný (Langone, 1993)
 – bydlení, příjem, zdravotní péče, bezpečný kontakt –, tedy fáze bezpečí, kterou Herman (1992)
 staví na začátek každého zotavení. Poté navázal
 [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md).
-Ve **S1 – validaci a mapování** proběhla psychoedukace o skupinách s vysokou kontrolou a mapa let
+Ve S1 – validaci a mapování proběhla psychoedukace o skupinách s vysokou kontrolou a mapa let
 ve skupině a toho, co se kdy změnilo; psychoedukace o mechanismech vlivu je v odborné
 literatuře o zotavení bývalých členů považována za důležitou součást rané fáze (Langone, 1993).
 
-Ve **S2 – externalizaci introjektů** vznikl slovník vnitřního jazyka s překladem do běžné češtiny
+Ve S2 – externalizaci introjektů vznikl slovník vnitřního jazyka s překladem do běžné češtiny
 a oddělil se hlas vůdce od vlastního. Ve **S3 – rekonstrukci [metakognice](@/glossary/metakognice.md)**
 muž nacvičoval rozhodování v malých, nízkorizikových situacích a znovuobjevoval vlastní
 preference. Lalich a Tobias (2006) doporučují právě takové postupné obnovování autonomie
 v drobnostech, protože velká rozhodnutí bez opory vyvolávají paniku.
 
-Ve **S4 – hermeneutické obnově** šlo o porozumění tomu, proč do skupiny vstoupil, bez
+Ve S4 – hermeneutické obnově šlo o porozumění tomu, proč do skupiny vstoupil, bez
 sebeobviňování, a o rozlišení hodnot, které si ponechá (služba druhým), od jejich zneužití.
-**S5 – konsolidace a transfer** přinesla nové vztahy, práci, vlastní bydlení a plán pro výročí a
+S5 – konsolidace a transfer přinesla nové vztahy, práci, vlastní bydlení a plán pro výročí a
 kontakty se členy. Velký význam měla peer skupina bývalých členů a
 [dlouhodobá rekonstrukce komunity](@/kompendium/recovery-protocols/longterm-community-rebuilding.md),
 odpovídající fázi opětovného propojení s druhými (Herman, 1992).

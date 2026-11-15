@@ -55,9 +55,9 @@ zkreslení.
 
 ## Rozpoznávací znaky
 
-Znakem falešné shody bývá **shoda jména bez shody dalších identifikátorů** (datum narození,
-státní příslušnost, číslo dokladu), **neúplný záznam** na seznamu (jen jméno a přibližný
-rok narození), **přepis** z jiného písma s více možnými variantami a **odlišný profil**
+Znakem falešné shody bývá shoda jména bez shody dalších identifikátorů (datum narození,
+státní příslušnost, číslo dokladu), neúplný záznam na seznamu (jen jméno a přibližný
+rok narození), přepis z jiného písma s více možnými variantami a odlišný profil
 klienta od profilu sankcionované osoby (věk, povolání, místo pobytu). Znakem systémového
 zkreslení je, když se falešné poplachy koncentrují u klientů určitého původu a když
 instituce reaguje plošným odmítáním místo individuálního posouzení. Znakem problému

@@ -21,7 +21,7 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 
 # EA-9.2.1 Deepfake Personality
 
-> *Subkategorie 🎬 **9.2 Generativní média** — současná digitální epistemická agrese v éře AI, sociálních platforem a algoritmické governance.*
+> *Subkategorie 🎬 9.2 Generativní média — současná digitální epistemická agrese v éře AI, sociálních platforem a algoritmické governance.*
 
 ---
 
@@ -55,7 +55,7 @@ Vzorec využívá důvěru, kterou lidé tradičně vkládají do obrazu a hlasu
 
 ## 6. Dopad a rámec
 
-Pro zobrazenou osobu jde o zásah do pověsti, soukromí a důstojnosti; zvlášť závažné jsou sexuální deepfaky, které nesou rysy sexuálního obtěžování a mají těžké psychické následky. Právně se uplatní ochrana osobnosti a podle okolností trestné činy jako pomluva, vydírání nebo podvod; v Evropské unii se k tomu přidávají povinnosti označovat syntetický obsah. Pro důkazní řízení to znamená vyšší nároky na původ a [řetězec opatrování důkazu](@/glossary/chain-of-custody.md).
+Pro zobrazenou osobu jde o zásah do pověsti, soukromí a důstojnosti; zvlášť závažné jsou sexuální deepfaky, které nesou rysy sexuálního obtěžování a mají těžké psychické následky. Právně se uplatní ochrana osobnosti a podle okolností trestné činy jako pomluva, [vydírání](@/glossary/vydirani.md) nebo podvod; v Evropské unii se k tomu přidávají povinnosti označovat syntetický obsah. Pro důkazní řízení to znamená vyšší nároky na původ a [řetězec opatrování důkazu](@/glossary/chain-of-custody.md).
 
 ## 7. Obrana a zotavení
 

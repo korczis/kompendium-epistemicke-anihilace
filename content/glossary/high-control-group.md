@@ -118,7 +118,7 @@ jde o obtíže po odchodu – úzkost, depresi, poruchy důvěry, ztrátu smyslu
 nesnáze –, které zachycují nástroje popsané v kartě [EA-8.1.2 Dotazník po odchodu ze
 skupiny](@/kompendium/techniques/ea-8-1-2-cult-leaving-questionnaire.md) (Langone, 1993).
 
-Právo obvykle nepostihuje členství ani víru, ale konkrétní jednání: vydírání, podvod,
+Právo obvykle nepostihuje členství ani víru, ale konkrétní jednání: [vydírání](@/glossary/vydirani.md), podvod,
 omezování osobní svobody, zneužívání dětí nebo nepatřičný vliv na majetkové úkony.
 Pro soudní znalectví (viz [Expert witness](@/glossary/expert-witness.md)) z toho plyne požadavek popsat konkrétní znaky kontroly a jejich
 dopad, nikoli hodnotit nauku skupiny (Zablocki a Robbins, 2001). Výzkum stojí převážně na

@@ -24,12 +24,12 @@ S tím souvisí Gadamerův pojem **dějinně působícího vědomí** (*wirkungs
 
 ## Jak se projevuje
 
-Fúzi horizontů lze rozpoznat jako zkušenost i jako proces:
-
-- v rozhovoru se obě strany posunou; ani jedna nemá na konci přesně to porozumění, se kterým začala;
-- vykladač si uvědomí vlastní předporozumění právě ve chvíli, kdy ho text nebo druhý „zarazí“;
-- otázka, kterou přinesl druhý, se stane vlastní otázkou;
-- porozumění je pociťováno jako objev, ne jako potvrzení.
+Fúzi horizontů lze rozpoznat jako zkušenost i jako proces. Gadamer (1960) popisuje skutečný rozhovor
+jako dění, z něhož ani jedna strana nevychází s tím porozuměním, se kterým do něj vstoupila, a ukazuje,
+že vlastní předsudky si vykladač uvědomí právě ve chvíli, kdy ho text nebo druhý člověk „zarazí“
+(*Anstoß*), protože neodpovídá tomu, co očekával. Porozumění se podle něj děje v logice otázky a
+odpovědi: otázka, kterou přinesl druhý, se stane vlastní otázkou, a porozumění je proto prožíváno jako
+objev, nikoli jako potvrzení toho, co člověk věděl předem (Gadamer, 1960).
 
 Opakem je situace, kdy jeden horizont **pohltí** druhý: výklad jen potvrzuje, co vykladač už věděl, nebo druhý nemá prostor, aby cokoli zpochybnil.
 
@@ -41,10 +41,12 @@ Pro Kompendium je tento model důležitý negativně i pozitivně. Negativně pr
 
 ## Odlišení
 
-- **Empatie** ve smyslu „vcítění“ předpokládá přenesení se do druhého; Gadamer zdůrazňuje, že vlastní horizont nelze odložit.
-- **Konsenzus** je dohoda o tvrzení; fúze horizontů je proměna porozumění, která nemusí vést k souhlasu.
-- **Asimilace** podřizuje druhého vlastním kategoriím – to je selhání, ne fúze.
-- **[Lebenswelt](@/glossary/lebenswelt.md)** (Husserl) je předteoretický svět každodenní zkušenosti; horizont je jeho perspektivní výsek.
+| Odlišit od | Rozdíl |
+| --- | --- |
+| Empatie | vcítění předpokládá přenesení se do druhého; Gadamer zdůrazňuje, že vlastní horizont nelze odložit |
+| Konsenzus | dohoda o tvrzení; fúze horizontů je proměna porozumění, která nemusí vést k souhlasu |
+| Asimilace | podřizuje druhého vlastním kategoriím, a je tedy selháním, ne fúzí |
+| [Lebenswelt](@/glossary/lebenswelt.md) (Husserl) | předteoretický svět každodenní zkušenosti; horizont je jeho perspektivní výsek |
 
 ## Význam pro Kompendium
 

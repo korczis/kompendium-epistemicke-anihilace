@@ -143,7 +143,7 @@ doklad, který by názor změnil, a zda je nesouhlas okolí vykládán věcně, 
 obsahy. Patologizace jeho postojů by byla klinickou chybou (viz [diferenciální diagnostika EA
 vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md)).
 
-**Depresivní epizoda** byla po exitu přítomna a vyžadovala léčbu; nevysvětluje však předchozí
+**[Depresivní epizoda](@/glossary/depresivni-epizoda-a-porucha.md)** byla po exitu přítomna a vyžadovala léčbu; nevysvětluje však předchozí
 tříletou dynamiku. MKN-11 umožňuje depresivní epizodu diagnostikovat bez ohledu na obsah
 přesvědčení, který jí předcházel (World Health Organization, 2019).
 

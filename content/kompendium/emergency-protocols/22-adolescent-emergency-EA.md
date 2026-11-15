@@ -17,7 +17,7 @@ toc = true
 
 > **Akutní intervenční protokol č. 22** · skupina Cílové populace · okno: krize a první dva týdny
 >
-> **Sebevražedné jednání, intoxikace, zranění = 155.** Ohrožení třetí osobou nebo vydírání
+> **Sebevražedné jednání, intoxikace, zranění = 155.** Ohrožení třetí osobou nebo [vydírání](@/glossary/vydirani.md)
 > intimními materiály = Policie ČR (158). Dospívajícím je k dispozici Linka bezpečí (116 111).
 > Ohrožený nezletilý má nárok na ochranu podle zákona č. 359/1999 Sb., o sociálně-právní ochraně
 > dětí, i tehdy, když rodiče situaci nevidí jako vážnou.
@@ -52,7 +52,7 @@ mluví, co se bude dít a co zůstane mezi nimi i kde jsou hranice důvěrnosti.
 pomoc začíná představením a vysvětlením role, protože bez základní důvěry nelze bezpečí ověřit
 (WHO, 2011).
 
-**Přímý dotaz na sebevražedné myšlenky** a sebepoškozování patří do prvního kontaktu; u
+Přímý dotaz na sebevražedné myšlenky a sebepoškozování patří do prvního kontaktu; u
 dospívajících po online šikaně či vydírání je třeba počítat s vysokým rizikem
 ([protokol č. 2](@/kompendium/emergency-protocols/2-suicide-risk-EA.md),
 [protokol č. 10](@/kompendium/emergency-protocols/10-acute-self-harm-EA.md)). Škála C-SSRS byla

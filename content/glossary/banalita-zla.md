@@ -24,13 +24,17 @@ Pojem vyvolal dlouhou a dodnes živou kontroverzi. Kritici namítali, že Arendt
 
 ## Jak se projevuje
 
-Pojem se v Kompendiu používá jako interpretační rámec, ne jako diagnóza osoby. Znaky prostředí, ve kterém banalita zla vzniká:
+Pojem se v Kompendiu používá jako interpretační rámec, ne jako diagnóza osoby. Arendtová (1963) ho
+odvodila z pozorování prostředí, v němž se zločin stal administrativou: jazyk úřadu se řídil
+předepsanými obraty, které zakrývaly, co se lidem skutečně děje, a Eichmann sám mluvil o své práci v
+ustálených frázích, které mu nedovolily její důsledky popsat ani domyslet. V knize je tato podoba
+jazyka popsána v hesle [LTI](@/glossary/lti-lingua-tertii-imperii.md).
 
-- jazyk organizace je plný eufemismů a technických termínů, které zakrývají, co se reálně děje lidem (viz [LTI](@/glossary/lti-lingua-tertii-imperii.md));
-- odpovědnost je rozdělena na tak malé úseky, že nikdo necítí, že by za výsledek odpovídal;
-- otázka „je to správné?“ je nahrazena otázkou „je to podle pravidel?“ nebo „je to efektivní?“;
-- loajalita a výkonnost se odměňují, pochybnost se trestá nebo zesměšňuje;
-- jednotlivci mluví o své práci v klišé, která nedovolí popsat její důsledky.
+Arendtová (1963) také popisuje, že Eichmann sám sebe chápal jako vykonavatele dílčích úkolů v
+rozsáhlém aparátu, v němž za výsledek neodpovídal nikdo jednotlivě, a že otázku, zda je jeho jednání
+správné, nahradil otázkou, zda odpovídá zákonu a rozkazu. V pozdějším díle Arendtová (1978) z tohoto
+pozorování vyvozuje, že zlo tohoto druhu nevychází ze zlého úmyslu, ale z neschopnosti myslet, tedy
+zastavit se a ptát se, co člověk dělá.
 
 ## Mechanismus
 
@@ -40,9 +44,11 @@ Pro Kompendium je podstatné, že tento mechanismus je **epistemický**. Neschop
 
 ## Odlišení
 
-- **[Doubling](@/glossary/doubling.md)** (Robert J. Lifton) popisuje psychologický mechanismus štěpení já u profesionálů uvnitř zločinného systému; banalita zla popisuje především absenci úsudku. Oba pojmy se doplňují.
-- **Poslušnost vůči autoritě**, jak ji zkoumala sociální psychologie, se týká situačního tlaku; Arendtová se ptá po schopnosti myslet, která by mu mohla odolat.
-- **Sadismus nebo psychopatie** jsou osobnostní charakteristiky; banalita zla je výslovně jejich opakem – hrůza bez zvláštní zlé motivace.
+| Odlišit od | Rozdíl |
+| --- | --- |
+| [Doubling](@/glossary/doubling.md) (Robert J. Lifton) | psychologický mechanismus štěpení já u profesionálů uvnitř zločinného systému; banalita zla popisuje především absenci úsudku, oba pojmy se doplňují |
+| Poslušnost vůči autoritě | sociálněpsychologický pojem pro situační tlak; Arendtová se ptá po schopnosti myslet, která by mu mohla odolat |
+| Sadismus nebo psychopatie | osobnostní charakteristiky; banalita zla je výslovně jejich opakem, hrůza bez zvláštní zlé motivace |
 
 ## Význam pro Kompendium
 

@@ -21,12 +21,14 @@ image_alt = "Ideal Speech Situation – glosář"
 
 ## Definice
 
-**Ideální řečová situace** (*ideal speech situation*, německy *ideale Sprechsituation*) je rekonstrukce normativních podmínek, které podle Jürgena Habermase implicitně předpokládá každý skutečný diskurz zaměřený na vzájemné porozumění. Habermas ji poprvé formuloval ve studii *Wahrheitstheorien* (1972) a dále zpřesňoval v literatuře o diskurzivní etice. Ideální řečová situace určuje čtyři podmínky symetrie, které musí kontrafaktuálně platit, aby výsledek diskurzu bylo možné považovat za **racionálně motivovaný**, a ne za vynucený nebo strategicky vyrobený:
+**Ideální řečová situace** (*ideal speech situation*, německy *ideale Sprechsituation*) je rekonstrukce normativních podmínek, které podle Jürgena Habermase implicitně předpokládá každý skutečný diskurz zaměřený na vzájemné porozumění. Habermas ji poprvé formuloval ve studii *Wahrheitstheorien* (1972) a dále zpřesňoval v literatuře o diskurzivní etice. Ideální řečová situace určuje čtyři podmínky symetrie, které musí kontrafaktuálně platit, aby výsledek diskurzu bylo možné považovat za **racionálně motivovaný**, a ne za vynucený nebo strategicky vyrobený (Habermas, 1983):
 
-1. **rovný přístup** – každý kompetentní mluvčí má právo se účastnit;
-2. **rovná příležitost** – každý účastník má stejnou příležitost předkládat tvrzení, klást otázky, zpochybňovat tvrzení a vyjadřovat postoje;
-3. **svoboda od vnitřního nátlaku** – účastníky při formulaci jejich pozic neomezuje sebeklam, vytěsnění ani psychické nutkání;
-4. **svoboda od vnějšího nátlaku** – žádnému účastníkovi nebrání moc, síla nebo hrozba ve výkonu práv (1)–(3); jedinou působící silou je **síla lepšího argumentu** (*der zwanglose Zwang des besseren Arguments*).
+| Podmínka | Obsah |
+| --- | --- |
+| Rovný přístup | každý kompetentní mluvčí má právo se účastnit |
+| Rovná příležitost | každý účastník má stejnou příležitost předkládat tvrzení, klást otázky, zpochybňovat tvrzení a vyjadřovat postoje |
+| Svoboda od vnitřního nátlaku | účastníky při formulaci jejich pozic neomezuje sebeklam, vytěsnění ani psychické nutkání |
+| Svoboda od vnějšího nátlaku | žádnému účastníkovi nebrání moc, síla nebo hrozba ve výkonu předchozích práv; jedinou působící silou je **síla lepšího argumentu** (*der zwanglose Zwang des besseren Arguments*) |
 
 Habermas trvá na tom, že ideální řečová situace není utopickým popisem žádné skutečné řečové situace. Je to **regulativní ideál** s **transcendentálním statusem**: určuje podmínky, které účastníci musí kontrafaktuálně předpokládat, mají-li se účastnit skutečné argumentace, a ne strategické interakce. Vstoupit do diskurzu znamená už se zavázat k ideální řečové situaci jako k měřítku, podle něhož lze diskurz hodnotit. Skutečné diskurzy se ideálu přibližují v různé míře; mezera mezi skutečností a ideálem je místem **patologie diskurzu**.
 
@@ -47,18 +49,24 @@ Porušení jednotlivých podmínek lze v konkrétní situaci pozorovat:
 
 ## Mechanismus
 
-Kompendium používá ideální řečovou situaci jako **provozní měřítko**, vůči němuž se měří strukturní patologie prostředí epistemické anihilace. Zatímco [komunikativní racionalita](@/glossary/communicative-rationality.md) dodává *formu* legitimního diskurzu, ideální řečová situace dodává *podmínky*, za kterých lze tuto formu uskutečnit. Konkrétně:
+Kompendium používá ideální řečovou situaci jako **provozní měřítko**, vůči němuž se měří strukturní patologie prostředí epistemické anihilace. Zatímco [komunikativní racionalita](@/glossary/communicative-rationality.md) dodává *formu* legitimního diskurzu, ideální řečová situace dodává *podmínky*, za kterých lze tuto formu uskutečnit. Habermas (1983) podmínky formuloval
+jako měřítko, vůči němuž lze posoudit, nakolik se skutečná komunikace od porozumění vzdaluje, a kniha je
+používá k rozlišení, kterou podmínku jednotlivé skupiny technik porušují:
 
-- **delegitimizace EA-1.2.x** je přesně porušením podmínek (1) a (2) – oběti je upřen rovný přístup a rovná příležitost účastnit se jako důvěryhodný mluvčí; viz [delegitimizace](@/glossary/delegitimizace.md);
-- **[metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) EA-2.x** porušuje podmínku (3) – poškozením reflexivní schopnosti oběti vytváří **vnitřní nátlak**, který třetí podmínka výslovně vylučuje. Oběť nedokáže vyslovit svou pozici, protože aparát, jímž by ji vyslovila, byl narušen;
-- **[coercive control](@/glossary/coercive-control.md) a institucionální EA** porušují podmínku (4) – výsledky určují vnější mocenské asymetrie bez ohledu na kvalitu argumentů.
+| Technika nebo prostředí | Porušená podmínka |
+| --- | --- |
+| Delegitimizace EA-1.2.x ([delegitimizace](@/glossary/delegitimizace.md)) | rovný přístup a rovná příležitost: oběti je upřeno účastnit se jako důvěryhodný mluvčí |
+| [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) EA-2.x | svoboda od vnitřního nátlaku: poškozená reflexivní schopnost brání oběti vyslovit vlastní pozici |
+| [Coercive control](@/glossary/coercive-control.md) a institucionální EA | svoboda od vnějšího nátlaku: výsledky určují mocenské asymetrie bez ohledu na kvalitu argumentů |
 
 ## Odlišení
 
-- **Od skutečné debaty:** žádná skutečná debata podmínky nesplňuje dokonale; měřítkem není dokonalost, ale směr – přibližuje se situace ideálu, nebo se od něj vzdaluje?
-- **Od formální rovnosti:** pravidlo „každý může mluvit“ nestačí, pokud jeden z účastníků mluví ze strachu nebo pokud jeho slova nemají váhu ([epistemická injustice](@/glossary/epistemicka-injustice.md)).
-- **Od [instrumentálního rozumu](@/glossary/instrumental-reason.md):** strategické jednání sleduje úspěch, ne porozumění; ideální řečová situace popisuje podmínky porozumění.
-- **Od konsenzu:** shoda dosažená pod nátlakem není racionálně motivovaná, i když je jednomyslná ([EA-2.1.9 Vytváření pseudokonsenzu](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md)).
+| Odlišit od | Rozdíl |
+| --- | --- |
+| Skutečná debata | žádná nesplňuje podmínky dokonale; měřítkem je směr, zda se situace ideálu přibližuje, nebo se od něj vzdaluje |
+| Formální rovnost | pravidlo „každý může mluvit“ nestačí, pokud jeden z účastníků mluví ze strachu nebo jeho slova nemají váhu ([epistemická injustice](@/glossary/epistemicka-injustice.md)) |
+| [Instrumentální rozum](@/glossary/instrumental-reason.md) | strategické jednání sleduje úspěch, ne porozumění; ideální řečová situace popisuje podmínky porozumění |
+| Konsenzus | shoda dosažená pod nátlakem není racionálně motivovaná, i když je jednomyslná ([EA-2.1.9 Vytváření pseudokonsenzu](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md)) |
 
 ## Význam pro Kompendium
 

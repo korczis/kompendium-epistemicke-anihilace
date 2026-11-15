@@ -33,7 +33,7 @@ parent_chapter = "/kompendium/04-terminalni-protokoly/"
 
 ## Definice
 
-**Pre-engagement screening** představuje vstupní screening kandidáta před zařazením do terminálního protokolu s cílem identifikovat kontraindikace. V rámci kompendia je technika klasifikována jako **terminální protokol** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození. Vstupní posouzení má smysl jen tehdy, může-li skončit nepřijetím; nezávislé posouzení a příznivý poměr přínosu a rizika jsou podmínkami, nikoli doplňkem (Emanuel, Wendler a Grady, 2000).
+**Pre-engagement screening** představuje vstupní screening kandidáta před zařazením do terminálního protokolu s cílem identifikovat kontraindikace. V rámci kompendia je technika klasifikována jako **[terminální protokol](@/kompendium/04-terminalni-protokoly/_index.md)** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození. Vstupní posouzení má smysl jen tehdy, může-li skončit nepřijetím; nezávislé posouzení a příznivý poměr přínosu a rizika jsou podmínkami, nikoli doplňkem (Emanuel, Wendler a Grady, 2000).
 
 Stránka slouží rozpoznání vzorce, nikoli jeho provedení.
 

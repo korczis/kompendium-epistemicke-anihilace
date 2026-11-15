@@ -14,7 +14,7 @@ toc = true
 
 # Glossary Bridges – mosty mezi glosářem a knihou
 
-**Most** (*bridge*) je stránka, která spojuje jedno heslo [glosáře](@/glossary/_index.md) s místy
+Most (*bridge*) je stránka, která spojuje jedno heslo [glosáře](@/glossary/_index.md) s místy
 knihy, kde se pojem skutečně používá. Heslo glosáře odpovídá na otázku, *co* pojem znamená; most
 odpovídá na otázku, *kde* a *jak* s ním kniha pracuje a co z toho plyne pro praxi. Čtenář, který
 narazí na pojem v kapitole, v technice nebo v kazuistice, najde v mostu cestu k ostatním místům, kde
@@ -30,9 +30,9 @@ k technikám podle kódu EA, ke kapitolám, protokolům, detekčním signaturám
 stránky říká, co přidává.
 
 Jádrem mostu je oddíl **Od pojmu k praxi**: rozpoznání (pozorovatelné znaky), obrana (pro
-zasaženého, pro blízké, pro instituce), zotavení a rámec pro profesionály. Most dále uvádí **odlišení**
-od příbuzných jevů a klinických stavů, **časté omyly** při výkladu pojmu, obecný **anonymizovaný
-příklad**, **meze a otevřené otázky**, **literaturu** a nakonec oddíl **Související** s vybranými
+zasaženého, pro blízké, pro instituce), zotavení a rámec pro profesionály. Most dále uvádí odlišení
+od příbuzných jevů a klinických stavů, časté omyly při výkladu pojmu, obecný anonymizovaný
+příklad, meze a otevřené otázky, literaturu a nakonec oddíl Související s vybranými
 odkazy.
 
 ## Obranný rámec

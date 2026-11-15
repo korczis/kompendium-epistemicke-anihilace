@@ -55,7 +55,7 @@ Mezi šestým a dvanáctým měsícem (fáze **rozšíření**) začal koučink 
 přibyla mimořádná sezení. V prvních dvou letech (fáze **závislosti**) klientka nepřijala žádné
 rozhodnutí bez konzultace a platila za „mastermind“ skupinu. Ve druhém roce (fáze **kontroly**)
 propouštěla zaměstnance na radu kouče a rozešla se s partnerem. Mezi druhým a třetím rokem (fáze
-**detekce a odchodu**) upozornila účetní na souvislost plateb a rozhodnutí, firma však už byla ve
+detekce a odchodu) upozornila účetní na souvislost plateb a rozhodnutí, firma však už byla ve
 ztrátě. Staw (1976) popsal eskalaci závazku (*escalation of commitment*): po neúspěchu lidé do
 zvoleného postupu spíše přidávají, aby ospravedlnili dřívější investici, a tento mechanismus
 vysvětluje, proč zhoršení výsledků spolupráci neukončilo, ale prohloubilo.
@@ -110,19 +110,19 @@ závislost, může ji jediný důvěryhodný nesouhlasný hlas oslabit.
 
 Postup vycházel z [protokolu epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md);
 pracovní rovinu podpořilo [obnovení kompetencí](@/kompendium/recovery-protocols/midterm-skill-rebuilding.md).
-Ve stupni **S1 – Validace a mapování** vznikla finanční a rozhodovací časová osa a terapeut
+Ve stupni S1 – Validace a mapování vznikla finanční a rozhodovací časová osa a terapeut
 uznal, že spolupráce zpočátku pomohla, což zmírnilo stud. Herman (1992) považuje uznání
 skutečného průběhu a obnovu bezpečí za první podmínku zotavení.
 
-Ve stupni **S2 – Externalizace introjektů** byly věty „moje intuice je starý vzorec“ a „bez něj
+Ve stupni S2 – Externalizace introjektů byly věty „moje intuice je starý vzorec“ a „bez něj
 se točím v kruhu“ vráceny zdroji; White a Epston (1990) popisují externalizaci jako oddělení
 problému od identity. Ve stupni **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md)**
 klientka obnovovala vlastní rozhodovací postup: kritéria, termíny a okruh lidí, s nimiž se radí.
 Kahneman (2011) doporučuje u závažných rozhodnutí právě takové předem stanovené postupy, které
 oslabují vliv momentálního dojmu a cizí autority.
 
-Stupeň **S4 – Hermeneutická obnova** rozlišil mezi užitečnými nástroji, které si klientka
-ponechala, a rozšířením koučinku na celý život. Stupeň **S5 – Konsolidace a transfer** spočíval v
+Stupeň S4 – Hermeneutická obnova rozlišil mezi užitečnými nástroji, které si klientka
+ponechala, a rozšířením koučinku na celý život. Stupeň S5 – Konsolidace a transfer spočíval v
 nastavení poradního týmu s více hlasy, což je přímý protiklad chamtivé instituce (Coser,
 1974): ochranou je rozložení loajality mezi více vztahů.
 

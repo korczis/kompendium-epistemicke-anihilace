@@ -23,7 +23,7 @@ image_alt = "Dual-use poznání – glosář"
 
 **Dual-use poznání** (angl. *dual-use knowledge*, česky též *poznání dvojího užití*) je
 strukturální etický problém, který vzniká všude tam, kde je stejné porozumění potřebné pro
-**obranu** i pro **útok**. Termín pochází z literatury o kontrole zbrojení a o biologické
+obranu i pro útok. Termín pochází z literatury o kontrole zbrojení a o biologické
 bezpečnosti; zpráva americké Národní rady pro výzkum jej zavedla jako ústřední pojem
 správy citlivého biologického výzkumu (National Research Council, 2004). Odtud se rozšířil
 na informační bezpečnost a prostřednictvím [Kompendia epistemické a kognitivní

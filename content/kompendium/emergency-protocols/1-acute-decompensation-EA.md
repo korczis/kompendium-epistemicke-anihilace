@@ -113,7 +113,7 @@ informacím, chápe jejich význam pro svou situaci, dokáže o možnostech uva�
 Těchto čtyř schopností se drží klinický standard posuzování způsobilosti k souhlasu
 (Appelbaum, 2007). Rozrušení a nejistota po EA samy o sobě kapacitu nevylučují.
 
-**Zdroje** jsou bezpečné bydlení na nejbližší noc, dosažitelné osoby, dosavadní léčba a
+Zdroje jsou bezpečné bydlení na nejbližší noc, dosažitelné osoby, dosavadní léčba a
 medikace. Diagnostické závěry jsou v akutní fázi pracovní; k nástrojům pro pozdější fázi vede
 příloha [diagnostické dotazníky a nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md),
 [katalog screeningových instrumentů](@/kompendium/06-klinicke-aplikace/screening-instrumenty-detail.md) a

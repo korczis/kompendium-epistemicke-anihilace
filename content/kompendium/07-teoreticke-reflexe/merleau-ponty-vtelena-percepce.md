@@ -107,7 +107,7 @@ neodmítají, ale ukazují, že tělesná zkušenost je vždy i společensky for
 Následující oddíl je *interpretací knihy*. Merleau-Pontyho filozofie pomáhá popsat, proč
 dlouhodobé ohrožení a kontrola nezanechávají stopu jen v přesvědčeních, ale i v těle: v ostražitém
 napětí, v zúžení prostoru, v němž se člověk cítí doma, ve ztrátě samozřejmosti, s níž se pohybuje
-mezi lidmi. Fenomenologická psychopatologie popisuje u řady stavů ztrátu této samozřejmosti
+mezi lidmi. [Fenomenologická psychopatologie](@/glossary/fenomenologicka-psychopatologie.md) popisuje u řady stavů ztrátu této samozřejmosti
 a narušení předreflexivního sebeprožívání, které Sass a Parnas (2003) spojují s narušením
 [ipseity](@/glossary/ipseita.md); Fuchs (2005) rozlišuje stavy, v nichž tělo „ztěžkne“ a stává
 se překážkou, a stavy, v nichž se člověk od těla odcizí.

@@ -110,7 +110,7 @@ posoudit, zda zkušenost obsahovala události kritéria A.
 
 - **MKN-11** užívá užší jádro PTSD a samostatné C-PTSD; diagnózy se mezi oběma systémy
   nemusejí shodovat.
-- **Deprese, úzkostné poruchy a užívání látek** se s PTSD často sdružují a mohou ho
+- **Deprese, [úzkostné poruchy](@/glossary/uzkostne-poruchy.md) a užívání látek** se s PTSD často sdružují a mohou ho
   zakrývat.
 - **Normální reakce na zátěž** nevede k trvalému omezení fungování.
 - **[Disociativní poruchy](@/glossary/disociace.md)** mají v DSM samostatnou kapitolu; překryv s disociativním podtypem
@@ -136,7 +136,9 @@ je třeba vedle DSM vždy zvážit i rámec MKN-11 (Brewin a kol., 2017).
 
 **Pro profesionály.** Neodmítat potíže jako „nedost traumatické“ jen proto, že chybí událost
 kritéria A; popsat příznaky a zvážit vhodnější kategorii. Při práci s klienty z prostředí
-EA počítat s tím, že vyhýbání může zakrýt i samotnou zkušenost. **Pro instituce.** Neopírat
+EA počítat s tím, že vyhýbání může zakrýt i samotnou zkušenost.
+
+**Pro instituce.** Neopírat
 nárok na pomoc výhradně o diagnózu PTSD.
 
 **Otázky, které pomáhají v rozhovoru.** Co přesně se stalo a jak dlouho to trvalo? Bál jste

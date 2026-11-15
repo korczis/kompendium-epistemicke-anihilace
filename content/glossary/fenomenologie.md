@@ -59,7 +59,7 @@ podali Gallagher a Zahavi (Gallagher a Zahavi, 2012). V knize k tomu patří kap
 [Fenomenologie](@/kompendium/03-zakladni-kategorie/fenomenologie.md) a reflexe
 [Merleau-Ponty](@/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce.md).
 
-Pro klinickou praxi je rozhodující fenomenologická psychopatologie. Sass a Parnas popsali
+Pro klinickou praxi je rozhodující [fenomenologická psychopatologie](@/glossary/fenomenologicka-psychopatologie.md). Sass a Parnas popsali
 schizofrenii jako poruchu základního sebeprožívání, ne jako soubor příznaků (Sass a Parnas,
 2003), a z tohoto přístupu vzešel strukturovaný nástroj pro zkoumání anomálií sebeprožitku
 (Parnas a kol., 2005). Fuchs ukázal, jak lze fenomenologicky popsat rozpad časové kontinuity

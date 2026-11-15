@@ -127,7 +127,7 @@ označovat syntetický obsah zavedl akt o umělé inteligenci, nařízení (EU) 
 a Citron přitom upozorňují, že žádný z těchto nástrojů neřeší jádro problému – rychlost
 šíření a nerovný přístup k nápravě (Chesney a Citron, 2019).
 
-Trestněprávně může útok deepfakem naplnit znaky pomluvy, vydírání, podvodu nebo šíření
+Trestněprávně může útok deepfakem naplnit znaky pomluvy, [vydírání](@/glossary/vydirani.md), podvodu nebo šíření
 nesouhlasných intimních záznamů, podle jurisdikce a okolností; Citronová dokumentuje, že
 hlavní překážkou nebývá chybějící skutková podstata, ale náklady a čas, které vymáhání po
 oběti vyžaduje (Citron, 2014). Eticky je proto podstatné nezacházet s takovým útokem jako

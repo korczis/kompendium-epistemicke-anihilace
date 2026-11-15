@@ -47,12 +47,12 @@ symbolické uznání; výsada užšího kruhu je obojím zároveň.
 
 ## 3. Časová osa expozice
 
-V prvním roce (fáze **počátečního kontaktu**) přišlo okouzlení přednáškami a pozvání do užšího kruhu.
-Mezi prvním a druhým rokem (fáze **perturbace**) byly jiné filozofické směry vykládány jako „mělké“ a
-doktorand se vzdálil dřívějším učitelům. Mezi druhým a čtvrtým rokem (fáze **eskalace**) mistr určoval
+V prvním roce (fáze počátečního kontaktu) přišlo okouzlení přednáškami a pozvání do užšího kruhu.
+Mezi prvním a druhým rokem (fáze perturbace) byly jiné filozofické směry vykládány jako „mělké“ a
+doktorand se vzdálil dřívějším učitelům. Mezi druhým a čtvrtým rokem (fáze eskalace) mistr určoval
 četbu, akademické kontakty i partnerské volby a doktorát se stal testem loajality. Mezi čtvrtým a šestým
-rokem (fáze **konsolidace**) se ustálila vnitřní terminologie blokující kritiku zvenčí, eschatologie
-„konce metafyziky“ a hierarchie blízkosti k mistrovi. **Detekce** nastala v proměnlivé době veřejným
+rokem (fáze konsolidace) se ustálila vnitřní terminologie blokující kritiku zvenčí, eschatologie
+„konce metafyziky“ a hierarchie blízkosti k mistrovi. Detekce nastala v proměnlivé době veřejným
 ponížením na konferenci před zahraničním hostem a prvním kontaktem s jinou literaturou a **odchod a
 rekonstrukce** po šestém roce zahrnovaly přestup na zahraniční univerzitu s pluralitní metodologií,
 nového školitele a dlouhodobou terapii. Coser (1974) by školu v pozdní fázi označil za chamtivou
@@ -114,20 +114,20 @@ lze posoudit jen ve srovnání; doktorand poprvé dostal možnost takové srovn�
 ## 7. Intervenční strategie
 
 Rámcem byl [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md).
-Ve stupni **S1 – Validace a mapování** šlo o uznání intelektuální hodnoty, kterou ve škole skutečně
+Ve stupni S1 – Validace a mapování šlo o uznání intelektuální hodnoty, kterou ve škole skutečně
 získal, a o mapu vztahů a rozhodnutí, která převzal mistr. Herman (1992) považuje uznání skutečného
 průběhu za podmínku zotavení; zde zahrnovalo i uznání, že část toho, co se doktorand naučil, má trvalou
 hodnotu.
 
-Ve stupni **S2 – Externalizace introjektů** byly mistrovy fráze sepsány a přeloženy do běžné řeči a
+Ve stupni S2 – Externalizace introjektů byly mistrovy fráze sepsány a přeloženy do běžné řeči a
 doktorand rozlišil mezi myšlenkou a formou, kterou mu byla vnucena. Ve stupni **S3 – Rekonstrukce
 [metakognice](@/glossary/metakognice.md)** šlo o [hluboké čtení](@/kompendium/self-defense-guides/35-deep-reading-practice.md)
 autorů různých směrů a o [pluralitu paradigmat](@/kompendium/self-defense-guides/6-paradigm-pluralism.md).
 Popper (1945) připomíná, že kritika je podmínkou růstu poznání, nikoli jeho ohrožením; nácvik kritického
 čtení vlastní školy byl proto i nácvikem filozofie samé.
 
-Stupeň **S4 – Hermeneutická obnova** přinesl návrat k vlastním výzkumným otázkám a nového školitele s
-explicitně pluralitní metodologií. Stupeň **S5 – Konsolidace a transfer** spočíval v dokončení disertace
+Stupeň S4 – Hermeneutická obnova přinesl návrat k vlastním výzkumným otázkám a nového školitele s
+explicitně pluralitní metodologií. Stupeň S5 – Konsolidace a transfer spočíval v dokončení disertace
 v novém prostředí a v publikování pod vlastním hlasem. Merton (1973) zdůrazňuje, že vědecké uznání má
 vycházet z veřejného posouzení díla; publikace mimo školu byly prvním takovým posouzením.
 
@@ -147,7 +147,7 @@ běžnou a produktivní součástí vědy. Odlišit je třeba i **akademickou š
 ponižování bez monopolu na pravdu, kterou Bourdieu (1984) vysvětluje spíše bojem o pozice v akademickém
 poli než uzavřeným výkladem.
 
-**Depresivní porucha** může stát za ztrátou radosti z oboru i z jiných příčin a vyžaduje posouzení podle
+**[Depresivní porucha](@/glossary/depresivni-epizoda-a-porucha.md)** může stát za ztrátou radosti z oboru i z jiných příčin a vyžaduje posouzení podle
 obvyklých kritérií (American Psychiatric Association, 2013). Pro srovnání slouží
 [případ 01](@/kompendium/case-studies/01-akademicka-supervize-totalizace.md), stejný vzorec v empirickém
 oboru.

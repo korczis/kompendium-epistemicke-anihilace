@@ -39,7 +39,7 @@ catalog_related = ["kotva-pojem", "kotveni", "kolaps-kotev", "auditivni-kotvy", 
 catalog_related_declared = ["kotva-pojem", "kotveni", "kolaps-kotev", "rychla-lecba-fobie", "kotveni-v-kontrolujicich-vztazich", "trauma-a-falesne-vzpominky"]
 catalog_kompendium = ["glossary/complex-trauma.md", "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md", "kompendium/techniques/ea-8-1-8-traumatic-stress-screen.md", "kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md"]
 catalog_canonical = ""
-catalog_links_prose = ["glossary/complex-trauma.md", "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md", "kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md", "kompendium/nlp-vzorce/kotveni/kolaps-kotev.md", "kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md", "kompendium/techniques/ea-8-1-8-traumatic-stress-screen.md", "kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md"]
+catalog_links_prose = ["glossary/complex-trauma.md", "glossary/uzkostne-poruchy.md", "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md", "kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md", "kompendium/nlp-vzorce/kotveni/kolaps-kotev.md", "kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md", "kompendium/techniques/ea-8-1-8-traumatic-stress-screen.md", "kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md"]
 catalog_prev = "kotvy-v-reklame"
 catalog_next = "kotveni-v-kontrolujicich-vztazich"
 catalog_position = 17
@@ -192,7 +192,7 @@ jako vyhasínání podmíněné reakce, když se podnět opakuje bez původní z
 1927). U traumatických spouštěčů je cesta jiná a delší. Prvním krokem k bezpečí je
 zjistit, zda ohrožení skončilo; pokud trvá, například ve vztahu s násilím, má přednost
 ochrana, ne práce s reakcemi. Dále je namístě posouzení klinicky kvalifikovaným odborníkem,
-který dokáže odlišit posttraumatickou stresovou poruchu, komplexní trauma, úzkostné poruchy a
+který dokáže odlišit posttraumatickou stresovou poruchu, komplexní trauma, [úzkostné poruchy](@/glossary/uzkostne-poruchy.md) a
 další stavy a doporučit léčbu s doloženou účinností. Herman popsala zotavení z traumatu jako
 proces, v němž se nejprve obnovuje bezpečí, pak se událost zpracovává a truchlí se nad
 ztrátami a nakonec se člověk znovu propojuje s druhými a se svým životem (Herman 1992).

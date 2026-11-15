@@ -33,7 +33,7 @@ parent_chapter = "/kompendium/04-terminalni-protokoly/"
 
 ## Definice
 
-**Real-time monitoring** představuje kontinuální monitoring biopsychosociálních markerů subjektu po dobu celé expozice terminálnímu protokolu. V rámci kompendia je technika klasifikována jako **terminální protokol** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození. Spolehlivý provoz se v organizační literatuře popisuje jako trvalá pozornost ke slabým signálům a odpor vůči zjednodušenému výkladu, nikoli jako hustota měření (Weick a Sutcliffe, 2007).
+**Real-time monitoring** představuje kontinuální monitoring biopsychosociálních markerů subjektu po dobu celé expozice terminálnímu protokolu. V rámci kompendia je technika klasifikována jako **[terminální protokol](@/kompendium/04-terminalni-protokoly/_index.md)** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození. Spolehlivý provoz se v organizační literatuře popisuje jako trvalá pozornost ke slabým signálům a odpor vůči zjednodušenému výkladu, nikoli jako hustota měření (Weick a Sutcliffe, 2007).
 
 Stránka slouží rozpoznání vzorce, nikoli jeho provedení.
 

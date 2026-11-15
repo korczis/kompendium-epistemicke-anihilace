@@ -36,7 +36,7 @@ u poskytovatele a krajského úřadu.
 **Civilní** odpovědnost zahrnuje náhradu újmy za zásah do duševní integrity, ochranu
 osobnosti a vydání bezdůvodného obohacení podle zákona č. 89/2012 Sb. **Trestní** odpovědnost
 přichází v úvahu v závažných případech, například při zneužití závislosti k sexuálnímu
-kontaktu, podvodu, vydírání nebo útisku podle zákona č. 40/2009 Sb.
+kontaktu, podvodu, [vydírání](@/glossary/vydirani.md) nebo útisku podle zákona č. 40/2009 Sb.
 
 Společným jmenovatelem je **porušení hranic** (*boundary violation*) – situace, kdy
 profesionál využije asymetrii vztahu pro vlastní potřebu. Gutheil a Gabbard (1993)

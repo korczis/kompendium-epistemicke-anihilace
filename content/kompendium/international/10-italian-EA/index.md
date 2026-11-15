@@ -143,7 +143,7 @@ a [protokol pro přeživší obchodování s lidmi](@/kompendium/recovery-protoc
 Diferenciálně je třeba odlišit realistickou obavu od paranoidního prožívání: strach ze
 sledování je u svědka organizovaného zločinu často přiměřený skutečnosti. Dále je třeba
 odlišit [komplexní PTSD](@/glossary/c-ptsd.md), kterou MKN-11 vymezuje jako samostatnou
-diagnózu po dlouhodobém traumatu (World Health Organization, 2019), od úzkostné poruchy.
+diagnózu po dlouhodobém traumatu (World Health Organization, 2019), od [úzkostné poruchy](@/glossary/uzkostne-poruchy.md).
 
 ## 6. Právní a institucionální rámec
 

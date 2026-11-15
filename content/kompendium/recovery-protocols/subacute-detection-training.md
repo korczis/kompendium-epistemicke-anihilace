@@ -106,7 +106,7 @@ a srovnává klienta s ním samým v čase.
 ## 6. Kontraindikace a rizika
 
 Trénink není vhodný v akutní fázi a u klientů, kteří nemají terapeutickou alianci. Vedle
-hypervigilance hrozí **intelektualizace** – klient zná všechny pojmy, ale používá je
+hypervigilance hrozí **[intelektualizace](@/glossary/intelektualizace.md)** – klient zná všechny pojmy, ale používá je
 k vyhýbání se emocím. Dalším rizikem je **zbraňové použití** pojmů: klient označí každý
 nesouhlas blízkého za „gaslighting“, a tím ztratí schopnost snést oprávněnou kritiku.
 Terapeut proto stále vrací pozornost ke strukturním znakům a k rozdílu mezi konfliktem

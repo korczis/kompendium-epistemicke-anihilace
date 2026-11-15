@@ -67,7 +67,7 @@ Druhou oblastí jsou **filozofie mysli a kognitivní vědy**, které zkoumají p
 intencionality a sebereflexe i empirické mechanismy usuzování; rozlišení rychlého,
 intuitivního a pomalého, reflektujícího myšlení ([System 1 / System
 2](@/glossary/system-1-system-2.md)) vysvětluje, proč manipulace často působí
-pod prahem pozornosti (Kahneman, 2011). **Sociální psychologie** k tomu přidává kolektivní
+pod prahem pozornosti (Kahneman, 2011). Sociální psychologie k tomu přidává kolektivní
 a interpersonální rovinu: dynamiku skupin, konformity a závazku, která udržuje člověka
 v uzavřeném výkladu i proti důkazům (Festinger, 1957).
 

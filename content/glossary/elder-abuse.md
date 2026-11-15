@@ -123,7 +123,7 @@ u záměrného vykořisťování, takže řešením je podpora i ochrana, nikoli
 
 V Česku přichází podle okolností v úvahu zejména týrání svěřené osoby podle § 198 a týrání
 osoby žijící ve společném obydlí podle § 199 trestního zákoníku, zákon č. 40/2009 Sb., dále
-podvod, zpronevěra nebo vydírání. Občanský zákoník, zákon č. 89/2012 Sb., řeší neplatnost
+podvod, zpronevěra nebo [vydírání](@/glossary/vydirani.md). Občanský zákoník, zákon č. 89/2012 Sb., řeší neplatnost
 právních jednání učiněných pod nátlakem nebo v duševní poruše a obsahuje podpůrná opatření
 při narušení schopnosti rozhodovat. Přehled podává kapitola [Právo o zneužívání
 seniorů](@/kompendium/forensic-legal/46-elder-abuse-law.md).

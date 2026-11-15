@@ -90,7 +90,7 @@ Netrestejte se za překročení limitů; sledujte vzorce a upravte plán, pokud 
 
 ## Meze svépomoci
 
-Příliš přísná dieta se snadno zlomí; plánujte i volnější dny, aby byla udržitelná. Kompulzivní sledování informací může být projevem úzkostné poruchy, kterou je potřeba léčit, ne jen „ukáznit“. Profesní nároky někdy dietu omezují – pak hledejte nejmenší dosažitelnou změnu.
+Příliš přísná dieta se snadno zlomí; plánujte i volnější dny, aby byla udržitelná. Kompulzivní sledování informací může být projevem [úzkostné poruchy](@/glossary/uzkostne-poruchy.md), kterou je potřeba léčit, ne jen „ukáznit“. Profesní nároky někdy dietu omezují – pak hledejte nejmenší dosažitelnou změnu.
 
 ## Literatura
 

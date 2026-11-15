@@ -33,7 +33,7 @@ podle výkladu této knihy dává kontrolujícímu partnerovi nové páky: zdrav
 závislost a izolaci ženy.
 
 Těhotenství a období po porodu zvyšují zranitelnost: žena je závislejší, izolovanější a pod
-tlakem, aby „byla šťastná“. Howard a kol. (2014) ukazují, že deprese a úzkostné poruchy v
+tlakem, aby „byla šťastná“. Howard a kol. (2014) ukazují, že deprese a [úzkostné poruchy](@/glossary/uzkostne-poruchy.md) v
 perinatálním období patří k častým komplikacím těhotenství a mají dopad na matku i na vývoj
 dítěte; Campbell (2002) popisuje zdravotní důsledky partnerského násilí, k nimž patří i
 komplikace reprodukčního zdraví. Ve skupinách s přísnými pravidly může jít i o odmítání lékařské
@@ -57,7 +57,7 @@ být u rozhovoru ani jako „tlumočník“. WHO (2013) doporučuje, aby se zdra
 násilí ptali v soukromí, s ohledem na bezpečí ženy a s připravenou nabídkou pomoci, a výslovně
 zmiňuje prenatální péči jako místo, kde je takový dotaz namístě.
 
-**Přímý dotaz na sebevražedné myšlenky** a myšlenky na ublížení dítěti patří do prvního kontaktu;
+Přímý dotaz na sebevražedné myšlenky a myšlenky na ublížení dítěti patří do prvního kontaktu;
 jejich vyslovení je signálem k péči, ne důvodem k odsudku. Strukturované posouzení sebevražedného
 rizika popisuje [protokol č. 2](@/kompendium/emergency-protocols/2-suicide-risk-EA.md) a vychází ze
 škály C-SSRS (Posner a kol., 2011).

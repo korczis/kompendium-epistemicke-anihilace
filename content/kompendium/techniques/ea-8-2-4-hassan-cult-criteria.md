@@ -136,7 +136,9 @@ nejsou škodlivé.
 nakládá s penězi; podezřelé jsou utajované stupně učení a nábor pod jiným jménem.
 **Pro rodiny.** Strategický interaktivní přístup: udržovat vztah, klást otevřené otázky,
 podporovat kontakt s autentickou identitou člena a vyhnout se konfrontaci, která potvrzuje
-obraz nepřátelského světa. **Pro organizace.** Kontrola vedení, transparentnost a ochrana
+obraz nepřátelského světa.
+
+**Pro organizace.** Kontrola vedení, transparentnost a ochrana
 oznamovatelů ([mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md)).
 
 **Otázky, které pomáhají v rozhovoru.** Kdo stojí na vrcholu a komu odpovídá? Co víš

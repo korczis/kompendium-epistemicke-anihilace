@@ -21,7 +21,7 @@ Ve skupinách s vysokou kontrolou popsal Lifton (1961) tento vzorec jako „kult
 
 ## Co signatura indikuje
 
-Sebeodhalení je v běžných vztazích **reciproční**: důvěra roste tím, že se obě strany postupně otevírají. Asymetrie tuto reciprocitu narušuje dvojím způsobem. Zaprvé zdroj získává informace, které může později použít – k zahanbení, vydírání, k vysvětlení „proč jsi takový“ nebo k ovlivnění rozhodnutí. Zadruhé zasažená osoba vytváří citové pouto ke zdroji, o němž ve skutečnosti nic neví; pouto je tedy vázáno na obraz, který zdroj sám řídí.
+Sebeodhalení je v běžných vztazích **reciproční**: důvěra roste tím, že se obě strany postupně otevírají. Asymetrie tuto reciprocitu narušuje dvojím způsobem. Zaprvé zdroj získává informace, které může později použít – k zahanbení, [vydírání](@/glossary/vydirani.md), k vysvětlení „proč jsi takový“ nebo k ovlivnění rozhodnutí. Zadruhé zasažená osoba vytváří citové pouto ke zdroji, o němž ve skutečnosti nic neví; pouto je tedy vázáno na obraz, který zdroj sám řídí.
 
 V terapeutických a poradenských vztazích je určitá asymetrie legitimní a nutná (klient mluví o sobě, terapeut ne). Proto je u této signatury zvlášť důležité, zda je asymetrie **rámována pravidly, která chrání slabší stranu** (mlčenlivost, etický kodex, supervize), nebo slouží straně silnější.
 

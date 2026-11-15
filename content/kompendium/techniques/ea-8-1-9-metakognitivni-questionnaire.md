@@ -131,7 +131,9 @@ myšlenek je popsaný a léčitelný vzorec, a ne důkaz špatnosti.
 
 **Pro jednotlivce.** Vědět, že myšlenky nejsou činy a že pochybnost není nebezpečná;
 trénovat odstup od myšlenek místo jejich potlačování ([metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md)).
-Vést si záznamy, které podpoří důvěru v paměť. **Pro profesionály.** Neposilovat
+Vést si záznamy, které podpoří důvěru v paměť.
+
+**Pro profesionály.** Neposilovat
 sebesledování dalšími úkoly „hlídat myšlenky“; v terapii mírnit kontrolu, ne ji zvyšovat.
 
 **Otázky, které pomáhají v rozhovoru.** Co se stane, když tě napadne pochybnost? Kdo tě

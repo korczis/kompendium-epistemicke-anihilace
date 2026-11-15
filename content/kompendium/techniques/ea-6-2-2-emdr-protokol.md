@@ -93,7 +93,7 @@ Předcházení iatrogenním poškozením je integrální součástí klinické e
 
 Kniha zaznamenává techniku **EA-6.2.2** jako intervenci pracující s traumatickou vzpomínkou prostřednictvím strukturovaných sérií; její manuálové vymezení pochází z vlastní literatury přístupu (Shapiro, 2018). O účinku v jednotlivém případě rozhoduje klinické posouzení, nikoli tato stránka.
 
-**Klinické zacílení**: [evidence-based](@/glossary/evidence-based.md) psychoterapeutické intervence pro EA-trauma se sekundární komorbiditou (úzkostné poruchy, depresivní poruchy, somatizace, disociativní spektrum). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+**Klinické zacílení**: [evidence-based](@/glossary/evidence-based.md) psychoterapeutické intervence pro EA-trauma se sekundární komorbiditou ([úzkostné poruchy](@/glossary/uzkostne-poruchy.md), depresivní poruchy, somatizace, disociativní spektrum). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
 
 **Trauma spektrum kontext**: rozlišení traumatu po jediné události a traumatu z opakované relační expozice zavedla Terr (1991). Pro tento přístup je rozdíl podstatný v tom, co lze vzít jako cílovou vzpomínku: u dlouhodobé expozice v dětství zpravidla nejde o jeden výjev a popsaná trajektorie zotavení je fázovaná a delší (Herman, 1992). Doložené případy, kdy terapeutická intervence poškodila, shrnuje Lilienfeld (2007).
 

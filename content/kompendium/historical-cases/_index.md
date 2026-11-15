@@ -31,7 +31,7 @@ Každý případ má stejnou kostru, aby bylo možné případy srovnávat:
 6. **Poučení pro detekci a obranu dnes** – markery, klinický a právní rámec, prevence.
 7. **Hranice výkladu** – co je sporné, co je interpretace a kde hrozí přetížení rámce
    (srov. [Framework overreach](@/kompendium/critical-perspectives/3-framework-overreach.md)).
-8. **Literatura** a **Související**.
+8. **Literatura** a Související.
 
 Fakta jsou uváděna střídmě a s vyznačením nejistoty; interpretace je označena jako
 interpretace. Opravy a doplňky pramenů jsou vítány (viz níže).

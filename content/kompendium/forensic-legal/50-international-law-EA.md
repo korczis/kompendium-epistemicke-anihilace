@@ -44,9 +44,9 @@ Třetím principem je **dokumentace podle mezinárodních standardů** – Istan
 
 ## Postup v praxi
 
-Postup začíná **analýzou**, zda jednání může zakládat porušení konkrétní mezinárodní normy a kdo je odpovědný – stát přímo, nebo pro nedostatek ochrany. Následuje využití **vnitrostátních prostředků**, včetně ústavní stížnosti, s výslovným odkazem na mezinárodní závazky, aby domácí soudy měly příležitost porušení napravit. **Dokumentace** zahrnuje lékařskou a psychologickou dokumentaci podle Istanbulského protokolu a zajištění důkazů o reakci státu; protokol výslovně počítá s dokumentací psychických následků, které nezanechávají fyzické stopy (OHCHR, 2022).
+Postup začíná analýzou, zda jednání může zakládat porušení konkrétní mezinárodní normy a kdo je odpovědný – stát přímo, nebo pro nedostatek ochrany. Následuje využití vnitrostátních prostředků, včetně ústavní stížnosti, s výslovným odkazem na mezinárodní závazky, aby domácí soudy měly příležitost porušení napravit. Dokumentace zahrnuje lékařskou a psychologickou dokumentaci podle Istanbulského protokolu a zajištění důkazů o reakci státu; protokol výslovně počítá s dokumentací psychických následků, které nezanechávají fyzické stopy (OHCHR, 2022).
 
-**Mezinárodní mechanismy** zahrnují individuální stížnost k Evropskému soudu pro lidská práva a k výborům OSN, podle toho, které mechanismy daný stát přijal, a podnět zvláštním zpravodajům. **Mezinárodní trestní cesta** přichází v úvahu v případech systematických útoků proti civilnímu obyvatelstvu, kdy lze informace podat příslušným orgánům (Cassese, 2008). Celým postupem prochází **ochrana stěžovatele** před odvetou, zejména u stížností proti státu; mechanismy OSN i Rady Evropy umožňují v naléhavých případech předběžná opatření.
+Mezinárodní mechanismy zahrnují individuální stížnost k Evropskému soudu pro lidská práva a k výborům OSN, podle toho, které mechanismy daný stát přijal, a podnět zvláštním zpravodajům. Mezinárodní trestní cesta přichází v úvahu v případech systematických útoků proti civilnímu obyvatelstvu, kdy lze informace podat příslušným orgánům (Cassese, 2008). Celým postupem prochází ochrana stěžovatele před odvetou, zejména u stížností proti státu; mechanismy OSN i Rady Evropy umožňují v naléhavých případech předběžná opatření.
 
 ## Markery a diferenciální úvahy
 

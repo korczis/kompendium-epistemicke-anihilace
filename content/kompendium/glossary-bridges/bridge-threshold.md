@@ -16,7 +16,7 @@ date_modified = "2026-11-10"
 
 # Bridge: Práh (threshold)
 
-> **Most** spojuje pojem prahu s místy knihy, kde se z pozorování stává rozhodnutí: kdy považovat
+> Most spojuje pojem prahu s místy knihy, kde se z pozorování stává rozhodnutí: kdy považovat
 > vzorec za manipulaci, kdy eskalovat k akutní péči, kdy oznámit, kdy intervenci přerušit. Přehled
 > mostů je v rejstříku [Glossary Bridges](@/kompendium/glossary-bridges/_index.md).
 

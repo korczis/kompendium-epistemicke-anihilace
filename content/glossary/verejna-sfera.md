@@ -26,13 +26,11 @@ Habermas pojem později zasadil do své teorie **komunikativního jednání** (*
 
 ## Jak se projevuje
 
-Znaky zdravé veřejné sféry: přístup různých hlasů; možnost veřejně zpochybnit tvrzení mocných; sdílená fakta, o jejichž výkladu se lze přít; pravidla debaty, která platí pro všechny. Znaky jejího rozkladu:
-
-- debata se rozpadá do oddělených prostorů, které spolu nekomunikují (srov. [epistemic bubble](@/glossary/epistemic-bubble.md));
-- argument nahrazuje předvádění, emoce a mobilizace vlastních stoupenců;
-- fakta se stávají věcí příslušnosti, ne ověření;
-- hlasy kritiků se neodmítají argumentem, ale zahlcením, zesměšněním nebo vyloučením (srov. [deplatforming](@/glossary/deplatforming.md));
-- veřejné mínění se vyrábí a měří, místo aby vznikalo v debatě.
+Znaky zdravé veřejné sféry jsou přístup různých hlasů, možnost veřejně zpochybnit tvrzení mocných, sdílená
+fakta, o jejichž výkladu se lze přít, a pravidla debaty, která platí pro všechny. Habermas (1962) popisuje i
+opačný proces, který nazývá refeudalizací veřejnosti: argument je nahrazován předváděním, emocemi a
+mobilizací vlastních stoupenců, a veřejné mínění se vyrábí a měří, například průzkumy, místo aby vznikalo v
+debatě mezi občany.
 
 ## Mechanismus
 
@@ -40,10 +38,12 @@ Strukturně veřejná sféra funguje jako **kolektivní epistemická instituce**
 
 ## Odlišení
 
-- **Veřejný prostor** ve fyzickém smyslu (náměstí, park) není totéž: veřejná sféra je komunikační, ne prostorová kategorie.
-- **Média** jsou nástrojem veřejné sféry, ne veřejnou sférou samou.
-- **[Komunikativní racionalita](@/glossary/communicative-rationality.md)** je teorie jednání orientovaného na porozumění; veřejná sféra je institucionální prostor, kde se má uplatnit.
-- **[Propaganda](@/glossary/propaganda.md)** je jedním z nástrojů, jimiž se veřejná sféra deformuje.
+| Odlišit od | Rozdíl |
+| --- | --- |
+| Veřejný prostor | ve fyzickém smyslu náměstí nebo park; veřejná sféra je komunikační, ne prostorová kategorie |
+| Média | nástroj veřejné sféry, ne veřejná sféra sama |
+| [Komunikativní racionalita](@/glossary/communicative-rationality.md) | teorie jednání orientovaného na porozumění; veřejná sféra je institucionální prostor, kde se má uplatnit |
+| [Propaganda](@/glossary/propaganda.md) | jeden z nástrojů, jimiž se veřejná sféra deformuje |
 
 ## Význam pro Kompendium
 

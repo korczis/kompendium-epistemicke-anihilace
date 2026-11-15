@@ -16,7 +16,7 @@ date_modified = "2026-11-10"
 
 # Bridge: Etický rámec
 
-> **Most** spojuje etický rámec knihy, stanovený v předmluvě a v přílohách, s místy, kde se uplatňuje:
+> Most spojuje etický rámec knihy, stanovený v předmluvě a v přílohách, s místy, kde se uplatňuje:
 > v popisu technik, v klinických protokolech, ve výuce a ve výzkumu. Přehled mostů je v rejstříku
 > [Glossary Bridges](@/kompendium/glossary-bridges/_index.md).
 

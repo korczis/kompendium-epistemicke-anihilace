@@ -129,11 +129,11 @@ a [elektronické důkazy](@/kompendium/forensic-legal/35-electronic-evidence-EA.
 
 ## Obrana a neutralizace
 
-**Pro oběť.** Jedno jasné odmítnutí, poté žádná odpověď; vedení deníku událostí s daty,
+Pro oběť. Jedno jasné odmítnutí, poté žádná odpověď; vedení deníku událostí s daty,
 časy a důkazy; uchování zpráv; kontrola zabezpečení telefonu a účtů; informování
-důvěryhodných lidí v práci a doma; bezpečnostní plán. **Pro profesionály.** Brát hlášení
+důvěryhodných lidí v práci a doma; bezpečnostní plán. Pro profesionály. Brát hlášení
 vážně, i když jednotlivé činy působí banálně; posuzovat vzorec, ne jednotlivosti;
-odhad rizika opakovat při každé změně. **Pro instituce.** Jasný postup pro zaměstnance,
+odhad rizika opakovat při každé změně. Pro instituce. Jasný postup pro zaměstnance,
 kteří jsou pronásledováni klienty nebo kolegy.
 
 **Otázky, které pomáhají v rozhovoru.** Od kdy to trvá a jak často? Mění se to? Ví o vás

@@ -52,16 +52,15 @@ aby bylo vidět, kdy je její jazyk vypůjčen bez její disciplíny.
 
 ## Jak se projevuje
 
-V živé tradici se apofatika projevuje několika rozpoznatelnými rysy:
+V živé tradici se apofatika projevuje několika rozpoznatelnými rysy. Negace se týká absolutna, ne
+každodenních faktů, morálky ani praktických rozhodnutí, a apofatický text stojí vedle liturgie, etiky a výkladu
+Písma, takže tradice nikdy nežije jen z negace. Turner (1995) ukazuje, že u klasických autorů je negace
+disciplínou, která předpokládá kladnou řeč a postupuje skrze ni, nikoli místo ní.
 
-- **Vymezený předmět.** Negace se týká absolutna, ne každodenních faktů, morálky ani
-  praktických rozhodnutí.
-- **Párování s kladnou řečí.** Apofatický text stojí vedle liturgie, etiky a výkladu
-  Písma; tradice nikdy nežije jen z negace.
-- **Komunita výkladu.** Učitel, společenství a texty tvoří síť, ve které lze zneužití
-  rozpoznat a korigovat.
-- **Ovoce v jednání.** Tradice měří pokrok soucitem, pokorou a odpovědností, nikoli
-  neschopností cokoli tvrdit.
+Tradici dále nese komunita výkladu: učitel, společenství a texty tvoří síť, ve které lze zneužití rozpoznat a
+korigovat, a pokrok se v ní měří soucitem, pokorou a odpovědností, nikoli neschopností cokoli tvrdit. *Interpretace
+knihy*: tyto rysy jsou měřítkem, podle něhož lze posoudit, zda byl jazyk apofatiky převzat i s jeho kázní
+(Turner, 1995).
 
 Kde se jazyk apofatiky objevuje mimo takový rámec – v kurzu osobního rozvoje, v uzavřené
 skupině, ve vztahu s vlivnou osobou – stojí za to sledovat, zda zůstaly zachovány i tyto
@@ -83,21 +82,13 @@ o [epistemické singularitě](@/kompendium/05-ultramari-techniky/kapitola-6.md).
 
 ## Odlišení
 
-- **Apofatika vs. [Via negativa](@/glossary/via-negativa.md):** via negativa je metoda
-  (cesta negací), apofatika celá tradice, která ji používá. V běžné řeči se oba výrazy
-  často zaměňují.
-- **Apofatika vs. [skepticismus](@/glossary/skepticismus.md) a
-  [pyrrhonismus](@/glossary/pyrrhonismus.md):** skeptik zdržuje soud, protože nemá dost
-  důvodů; apofatik popírá výroky, protože předmět je přesahuje. Ani jeden z nich ale
-  neruší každodenní orientaci ve světě.
-- **Apofatika vs. iracionalismus:** apofatičtí autoři byli většinou mimořádně přesní
-  logici; negace u nich vyžaduje víc rozlišování, ne méně.
-- **Autentická tradice vs. vypůjčený slovník:** rozhodující není, zda se mluví negacemi,
-  ale zda negace má vymezený předmět, zda je vyvážena kladnou řečí a zda ji lze
-  v komunitě zpochybnit.
-- **Duchovní krize vs. klinický stav:** ztráta smyslu a „temná noc“ mohou být součástí
-  duchovní cesty; přetrvávající ochromení, nespavost, izolace a ztráta péče o sebe vyžadují
-  odborné posouzení bez ohledu na to, jak je člověk sám interpretuje.
+| Odlišit od | Rozdíl |
+| --- | --- |
+| [Via negativa](@/glossary/via-negativa.md) | via negativa je metoda, cesta negací, apofatika celá tradice, která ji používá; v běžné řeči se výrazy často zaměňují |
+| [Skepticismus](@/glossary/skepticismus.md) a [pyrrhonismus](@/glossary/pyrrhonismus.md) | skeptik zdržuje soud, protože nemá dost důvodů; apofatik popírá výroky, protože předmět je přesahuje, a ani jeden neruší každodenní orientaci ve světě |
+| Iracionalismus | apofatičtí autoři byli většinou mimořádně přesní logici a negace u nich vyžaduje víc rozlišování, ne méně |
+| Vypůjčený slovník | rozhodující není, zda se mluví negacemi, ale zda negace má vymezený předmět, zda je vyvážena kladnou řečí a zda ji lze v komunitě zpochybnit |
+| Klinický stav | ztráta smyslu a „temná noc“ mohou být součástí duchovní cesty; přetrvávající ochromení, nespavost, izolace a ztráta péče o sebe vyžadují odborné posouzení |
 
 ## Význam pro Kompendium
 
@@ -115,21 +106,23 @@ skupin ([Zotavení ze spirituálního kultu](@/kompendium/case-studies/50-spirit
 
 ## Obrana a zotavení
 
-- **Vrátit negaci její předmět.** Společně s klientem pojmenovat, o čem negace platí (víra,
-  posvátno, hranice vlastního poznání) a o čem ne (zdraví, peníze, bezpečí, vztahy).
-- **Opřít se o tradici samu.** Klasické texty apofatiky zdůrazňují pokoru, soucit
-  a odpovědnost. Klient, který byl tradicí zneužit, často uvítá, že jeho víru nikdo
-  neshazuje, a přesto může zneužití nazvat jménem.
-- **Obnovit kladnou řeč.** Malá, ověřitelná tvrzení a každodenní rozhodnutí; viz
-  [Revize přesvědčení](@/kompendium/self-defense-guides/7-belief-revision.md).
-- **Spirituální obnova jako součást zotavení,** nikoli jako její překážka, viz
-  [Spirituální obnova](@/kompendium/prevention-resilience/28-spiritual-restoration-prevention.md).
+*Interpretace knihy*: obrana začíná tím, že se negaci vrátí její předmět, tedy že se pojmenuje, o čem platí,
+například o víře, posvátnu nebo hranicích vlastního poznání, a o čem ne, například o zdraví, penězích, bezpečí
+a vztazích. Turner (1995) připomíná, že klasické texty apofatiky zdůrazňují pokoru, soucit a odpovědnost, a
+člověk, který byl tradicí zneužit, proto může zneužití nazvat jménem, aniž by se musel vzdát své víry.
+
+Součástí zotavení je obnova kladné řeči, tedy malých, ověřitelných tvrzení a každodenních rozhodnutí ([revize
+přesvědčení](@/kompendium/self-defense-guides/7-belief-revision.md)), a spirituální obnova je jeho součástí,
+nikoli překážkou, jak to pro psychoterapii dovozuje Pargament (2007) ([spirituální obnova](@/kompendium/prevention-resilience/28-spiritual-restoration-prevention.md)).
+O postupu v péči o konkrétního člověka rozhoduje kliník.
 
 ## Literatura
 
 - Pseudo-Dionýsios Areopagita: *O mystické teologii* (asi 5.–6. století).
 - Mikuláš Kusánský: *De docta ignorantia* (1440).
 - Mojžíš Maimonides: *Průvodce zbloudilých* (12. století).
+- Pargament, K. I. (2007). *Spiritually Integrated Psychotherapy: Understanding and Addressing the Sacred*. New York: Guilford Press.
+- Turner, D. (1995). *The Darkness of God: Negativity in Christian Mysticism*. Cambridge University Press.
 
 ## Související
 

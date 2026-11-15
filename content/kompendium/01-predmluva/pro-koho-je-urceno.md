@@ -78,7 +78,7 @@ Akademičtí pracovníci odpovědní za výuku pokročilých témat, kteří moh
 
 **Specifické závazky pedagogů**:
 
-- Aplikace principu **graduální expozice** odpovídající úrovni studentů
+- Aplikace principu graduální expozice odpovídající úrovni studentů
 - Integrace etické reflexe do všech aspektů výuky
 - Selekce obsahu podle pedagogické nezbytnosti, nikoli komplexnosti
 - Periodické posouzení zralosti a etické připravenosti studentů
@@ -158,7 +158,7 @@ Tato kapitola popisuje, komu je text určen, nikoli komu je technicky dostupný.
 
 ## Kritický krok
 
-**Předtím než pokročíš do dalších sekcí**, ověř si etický kontext: zkontroluj
+Předtím než pokročíš do dalších sekcí, ověř si etický kontext: zkontroluj
 souhlas se svou supervizí (akademická / klinická / forenzní), porozuměl jsi
 [etickým aspektům](@/kompendium/01-predmluva/eticke-aspekty.md), a víš, **kdy
 materiál nečíst** (vyhořelý stav, akutní krize, neexistující supervizní rámec).

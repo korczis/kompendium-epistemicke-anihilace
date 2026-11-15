@@ -117,7 +117,7 @@ paralýza stává nástrojem závislosti (Wells, 2009).
 
 Od **pečlivého uvažování** se rekurzivní paralýza liší existencí konce: pečlivá úvaha zváží
 důvody a rozhodne s vědomím rizika, protože má kritérium dostatečnosti (Watkins, 2008). Od
-**ruminace u depresivní poruchy a starostí u generalizované úzkostné poruchy** se liší
+**ruminace u depresivní poruchy a starostí u generalizované [úzkostné poruchy](@/glossary/uzkostne-poruchy.md)** se liší
 jen rámcem popisu, nikoli ostrou hranicí; obě mají vlastní klinický obraz a léčbu a mohou
 vzniknout bez vnějšího vlivu (Nolen-Hoeksema, 1991).
 

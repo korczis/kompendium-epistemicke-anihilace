@@ -97,7 +97,7 @@ Fricker (2007) popisuje [testimoniální nespravedlnost](@/glossary/testimonialn
 kdy je výpověď kvůli předsudku o mluvčím považována za méně důvěryhodnou; u exulantů se takovým
 předsudkem snadno stane přízvuk, původ nebo psychiatrická diagnóza.
 
-**Zdroje** zahrnují komunitu, krajanské a lidskoprávní organizace, rodinu a smysl, který člověk
+Zdroje zahrnují komunitu, krajanské a lidskoprávní organizace, rodinu a smysl, který člověk
 připisuje svému boji. Agger a Jensen (1990) ukázali, že u politicky pronásledovaných má
 zachování politického a morálního smyslu vlastní zkušenosti ochrannou hodnotu a že péče, která
 ho přehlíží, jim bere důležitou oporu.

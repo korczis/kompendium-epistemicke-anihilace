@@ -58,6 +58,11 @@ Instruments that misled the same sessions, and the reading that held:
 - This site's 404 page carries the full navigation, so a fetch of a wrong URL still "contains" the
   site's words. Guard every production check with the HTTP status (`curl -w '%{http_code}'`).
 - A run reads `queued` while its first job runs; read the jobs, not the run's label.
+- A renumbering verified only on its new addresses looked done: production served all six new
+  codes at 200 while every old address returned 404, because each alias named the page's new path
+  (c5200028, 2026-11-15). A move is verified in both directions: the new page at 200 and each old
+  address at 200 redirecting to it. A gate on aliases equal to their own page's address catches
+  this shape of the bug before it ships.
 - A CI watcher keyed on "the newest run for this sha" reported a pre-merge head's green as the
   merged head's: `[ "$h" != "9738c87d"* ]` is not a glob in POSIX `test`, so it filtered nothing.
   Pin the run id of the push you made and watch that id; the sha moves under you, the id does not.

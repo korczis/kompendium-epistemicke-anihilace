@@ -85,8 +85,6 @@ Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Pseudo-coping (technika nahrazuje skutečnou afektivní práci), dependence na technikách bez integrované změny, paradoxní afektivní vyhýbání.
 
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
-
 ## Klinické pozadí
 
 V kompendiu je EA-6.2.6 vedena jako dovednostní modul pro krizové chvíle, ne jako zpracování traumatu.

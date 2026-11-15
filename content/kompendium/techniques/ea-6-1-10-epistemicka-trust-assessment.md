@@ -87,8 +87,6 @@ Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Stigmatizace klienta jako 'paranoidního', falešné patologizování adaptivní nedůvěry v ohrožujícím kontextu, iatrogenní destabilizace zachovaných důvěryschopných vztahů.
 
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
-
 ## Klinické pozadí
 
 EA-6.1.10 v kompendiu hodnotí kapacitu epistemické důvěry, nikoli pravdivost toho, co klient tvrdí.

@@ -87,8 +87,6 @@ Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Institutional dependency, second-cult dynamics v residential settings, financial.
 
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
-
 ## Klinické pozadí
 
 Klinické zařazení programu dává riziko, které je mu vlastní: instituce se svým vnitřním řádem může reprodukovat právě to, z čeho člověk odešel (Goffman, 1961). Lalich a Tobias (2006) popisují zotavení po odchodu ze skupiny jako návrat vlastního rozhodování, ne jako pobyt v lépe vedeném režimu. Tato stránka z obojího bere rozpoznání, ne provozní návod.

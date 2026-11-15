@@ -87,8 +87,6 @@ Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Stigma vyhledání pomoci, fitness-for-duty důsledky odhalení, paradoxní hyperidentifikace s rolí.
 
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
-
 ## Klinické pozadí
 
 Kniha zaznamenává techniku **EA-6.4.7** jako adaptaci pro příslušníky bezpečnostních složek, u nichž expozice patří k výkonu služby. Vlastní literatura oblasti popisuje zvláštní rizikový profil takové opakované zátěže (Figley, 1995); co z toho pro konkrétního člověka vyplývá, posuzuje klinik, nikoli tato stránka.

@@ -85,8 +85,6 @@ Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Re-traumatizace, fragmentace identity při příliš rychlé externalizaci, dropout, paradoxní reifikace 'parts'.
 
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
-
 ## Klinické pozadí
 
 Kniha vede techniku **EA-6.3.2** jako druhou fázi rekonstrukčního modelu, v níž se zpracovává internalizovaná postava toho, kdo poškodil. Fázové uspořádání s vymezenými kritérii vstupu a výstupu je přitom podstatné: kritéria slouží rozpoznání, kam práce patří, nikoli návodu, jak ji vést.

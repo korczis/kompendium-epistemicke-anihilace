@@ -87,8 +87,6 @@ Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Imposice terapeutovy queer-identity, premature outing, paradoxní reifikace 'queer self' jako trauma.
 
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
-
 ## Klinické pozadí
 
 Klinické zařazení protokolu dává doložený zdroj zátěže: menšinový stres je popsán jako chronická zátěž vyplývající z postavení, ne z jednotlivé události (Meyer, 2003). Freyd (1996) k tomu připojuje poškození z porušení vztahu, na němž je člověk závislý — tedy i rodiny, která přijetí podmiňuje. Kompendium z obojího bere rozpoznání vzorce.

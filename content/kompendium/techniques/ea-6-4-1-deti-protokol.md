@@ -87,8 +87,6 @@ Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Mandatory reporting konflikty, [parental alienation](@/glossary/parental-alienation.md), iatrogenní pathologization vývojově-normálního chování.
 
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
-
 ## Klinické pozadí
 
 V kompendiu je technika **EA-6.4.1** vedena jako vývojově citlivá adaptace EA-intervence, u níž je zapojení pečující osoby součástí rámce, ne jeho rozšířením.

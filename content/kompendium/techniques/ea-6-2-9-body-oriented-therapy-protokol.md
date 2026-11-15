@@ -85,8 +85,6 @@ Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Re-traumatizace při dotykové práci bez souhlasu, sexualizovaná interpretace tělesné práce, dependence na terapeutickém doteku.
 
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
-
 ## Klinické pozadí
 
 Klinické zařazení protokolu dává tělesná stránka poškození: reakce na trvalé ohrožení jsou popsány jako stavy autonomního nervového systému (Porges, 2011) a klinická tradice z toho odvozuje práci s dechem, pohybem a vnímáním těla (Ogden, Minton a Pain, 2006). Tvrzení, že část následků expozice je přístupná jen touto cestou (van der Kolk, 2014), přebírá kompendium jako důvod, proč je modalita vedena samostatně, nikoli jako doklad její účinnosti.

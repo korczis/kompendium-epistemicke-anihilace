@@ -85,8 +85,6 @@ Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Re-traumatizace při dekonstrukci centrálního narativu, identity diffusion při příliš rychlé externalizaci, kulturní necitlivost narativní techniky.
 
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
-
 ## Klinické pozadí
 
 Kompendium vede techniku **EA-6.2.5** jako narativní práci s cizím příběhem, který expozice vnutila; zda v konkrétním případě pomůže, posuzuje klinik, ne tato stránka.

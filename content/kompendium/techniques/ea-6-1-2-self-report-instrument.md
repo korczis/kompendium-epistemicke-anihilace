@@ -87,8 +87,6 @@ Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Sebehodnotící zkreslení (response bias), social desirability efekt, alexithymická podhodnocenost, sebestylizační nadhodnocení v post-cult populacích, iatrogenní rumination při příliš častém opakování.
 
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
-
 ## Klinické pozadí
 
 Kniha vede techniku **EA-6.1.2** jako nástroj sebeposouzení, jehož výstupem je údaj o tom, co člověk o svém stavu uvádí. Diagnostická detekce EA-traumatu s odlišením od primárních afektivních a úzkostných poruch je úkolem klinika; dotazník k němu dodává podklad, nikoli závěr.

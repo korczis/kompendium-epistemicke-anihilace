@@ -87,8 +87,6 @@ Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Re-traumatizace při forsírovaném vyvolání vzpomínek, falešné memoárové konstrukce při sugestibilním vedení, iatrogenní legitimizace neexistující patologie u resilientních subjektů, stigmatizace klienta diagnostickým štítkem.
 
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
-
 ## Klinické pozadí
 
 Kompendium vede techniku **EA-6.1.1** jako diagnostickou detekci EA-trauma s výslovnou diferenciací proti primárním afektivním a úzkostným poruchám.

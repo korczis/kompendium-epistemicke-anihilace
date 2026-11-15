@@ -87,8 +87,6 @@ Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Závislost na předepsaném léčivu, nežádoucí účinky posuzované předepisujícím lékařem, suicidální ideace u mladších klientů, paradoxní emoční flattening znemožňující psychoterapii.
 
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
-
 ## Klinické pozadí
 
 V kompendiu je EA-6.2.10 vedena jako podpůrná složka plánu péče; o její indikaci rozhoduje lékař, ne tato stránka.

@@ -87,8 +87,6 @@ Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Re-traumatizace při forsírovaném vyvolání, sekundární traumatizace tlumočníka, kulturní necitlivost.
 
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
-
 ## Klinické pozadí
 
 V kompendiu EA je tento protokol veden jako populačně specifická adaptace, v níž se epistemické zranění prolíná s trojí expozicí — před migrací, během ní a po příchodu — a žádnou z nich nelze vyšetřit zvlášť.

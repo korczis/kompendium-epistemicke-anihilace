@@ -85,8 +85,6 @@ Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Iatrogenní hyperreflexivita, paradoxní zvýšení monitoringu vlastního myšlení, dropout u klientů preferujících obsah-zaměřené přístupy.
 
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
-
 ## Klinické pozadí
 
 Klinické zařazení protokolu dává model, na němž stojí: předmětem práce jsou přesvědčení o vlastním myšlení a navyklé způsoby pozornosti (Wells a Matthews, 1994), ne obsah jednotlivých myšlenek. Wells (2009) z toho vyvozuje postup pro úzkostné a depresivní obrazy; kompendium si bere jen to, co se týká epistemicko-afektivní složky poškození, a o účinku v jednotlivém případě nerozhoduje.

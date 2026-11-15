@@ -85,8 +85,6 @@ Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Re-traumatizace při forsírované interoceptivní pozornosti, paradoxní zvýšení dissociace, spirituální by-passing, dropout u klientů s nízkou tolerancí ticha.
 
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
-
 ## Klinické pozadí
 
 Kniha vede techniku **EA-6.2.7** jako trauma-senzitivní adaptaci všímavostního programu, jehož komponenty popsala vlastní literatura přístupu (Kabat-Zinn, 1990; Segal, Williams a Teasdale, 2002). Stránka ji zaznamenává jako intervenci dotýkající se epistemicko-afektivní složky traumatu; posouzení účinku v jednotlivém případě jí nepatří.

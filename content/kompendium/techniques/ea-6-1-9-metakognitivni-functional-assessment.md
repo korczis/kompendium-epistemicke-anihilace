@@ -87,8 +87,6 @@ Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Falešně pozitivní deficity u alexithymických klientů, kulturní bias v kalibračních normách, iatrogenní rumination o vlastním myšlení.
 
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
-
 ## Klinické pozadí
 
 Klinický kontext této techniky dává metakognice sama: sledování a hodnocení vlastního poznávání je popsaná funkce, kterou lze narušit nezávisle na obsahu myšlení (Flavell, 1979). Wells (2009) k ní připojuje klinický model, v němž jsou předmětem práce přesvědčení o myšlení, nikoli jeho jednotlivé obsahy. Assessment z toho bere, co je zjistitelné, ne co se s tím má dělat.

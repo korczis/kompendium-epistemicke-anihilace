@@ -87,8 +87,6 @@ Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Dependence na intensive setting, premature step-down, financial burden.
 
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
-
 ## Klinické pozadí
 
 Kniha vede techniku **EA-6.5.7** jako program denní péče, v němž člověk tráví část dne v léčebném prostředí a zbytek ve svém. Stránka ji zaznamenává kvůli rozpoznání, co takové uspořádání s dotčeným člověkem dělá; o indikaci a délce rozhoduje klinické posouzení.

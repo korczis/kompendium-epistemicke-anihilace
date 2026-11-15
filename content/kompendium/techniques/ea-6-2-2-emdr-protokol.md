@@ -85,8 +85,6 @@ Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Abreakce a desorganizace při nedostatečné stabilizaci, [retraumatizace](@/glossary/retraumatizace.md), dissociativní switching v sezení, paradoxní zafixování traumatu při neúplném zpracování.
 
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
-
 ## Klinické pozadí
 
 Kniha zaznamenává techniku **EA-6.2.2** jako intervenci pracující s traumatickou vzpomínkou prostřednictvím strukturovaných sérií; její manuálové vymezení pochází z vlastní literatury přístupu (Shapiro, 2018). O účinku v jednotlivém případě rozhoduje klinické posouzení, nikoli tato stránka.

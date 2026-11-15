@@ -87,8 +87,6 @@ Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Stigma profesní pomoci, fitness-to-practice důsledky, dropout z profese.
 
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
-
 ## Klinické pozadí
 
 V kompendiu EA je tento protokol veden jako adaptace pro populaci, která o vlastním vyčerpání mluví v prostředí, kde je vyčerpání součástí profesní normy; právě to omezuje použitelnost běžného sebeposouzení.

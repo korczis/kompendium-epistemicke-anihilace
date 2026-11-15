@@ -85,8 +85,6 @@ Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Premature termination, dependence na terapeutickém vztahu, paradoxní destabilizace ukončením.
 
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
-
 ## Klinické pozadí
 
 Technika **EA-6.3.5** je v kompendiu zařazena jako třetí fáze rekonstrukčního modelu, která s návratem do dřívější fáze počítá jako s možností, ne jako se selháním.

@@ -87,8 +87,6 @@ Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Mis-diagnóza disociace jako psychóza, premature antipsychotic, secondary stigma.
 
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
-
 ## Klinické pozadí
 
 V kompendiu EA je tento protokol veden jako diferenciálně diagnostická úloha: odlišit psychotické příznaky od disociace a od přesvědčení, která subjekt přijal pod tlakem skupiny.

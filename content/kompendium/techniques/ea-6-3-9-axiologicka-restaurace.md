@@ -85,8 +85,6 @@ Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Imposice terapeutových hodnot, hodnotový relativismus jako obrana, paradoxní rigidita.
 
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
-
 ## Klinické pozadí
 
 Klinické zařazení techniky dává předmět, k němuž míří: hodnoty, podle nichž se člověk rozhoduje, a jejich poškození. Litz a kol. (2009) popisují morální poranění jako důsledek jednání v rozporu s vlastním hodnotovým rámcem; Antonovsky (1987) k tomu připojuje srozumitelnost světa jako složku, bez níž zátěž nelze unést. Kompendium odtud bere, co je rozpoznatelné, ne co se má udělat.

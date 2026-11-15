@@ -85,8 +85,6 @@ Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Abreakce bez kontejnmentu, [retraumatizace](@/glossary/retraumatizace.md) při příliš rychlé titraci, dissociativní switching, paradoxní zafixování somatického symptomu.
 
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
-
 ## Klinické pozadí
 
 V kompendiu je tento protokol veden jako intervence pracující s tělesnou složkou epistemicko-afektivního traumatu; o jeho vhodnosti pro konkrétního pacienta nerozhoduje kniha, nýbrž indikující klinik.

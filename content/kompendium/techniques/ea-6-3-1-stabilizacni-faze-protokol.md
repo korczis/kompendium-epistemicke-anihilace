@@ -85,8 +85,6 @@ Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Premature progression do fáze 2 bez dostatečné stabilizace, fixace na stabilizaci jako vyhýbání trauma-práce, dependence na stabilizační dovednostech.
 
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
-
 ## Klinické pozadí
 
 V kompendiu je technika **EA-6.3.1** vedena jako první fáze rekonstrukčního modelu; její pořadí vůči dalším fázím je vlastností modelu, ne volbou pracoviště.

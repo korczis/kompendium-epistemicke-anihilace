@@ -87,8 +87,6 @@ Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Premature confrontation s cult-leaders, secondary cult dependence (na terapeutovi), paradoxní idealizace cult-period.
 
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
-
 ## Klinické pozadí
 
 Kniha zaznamenává techniku **EA-6.4.2** jako populačně vymezenou adaptaci pro lidi, kteří odešli z totalizující skupiny. Vlastní literatura této oblasti popisuje zotavení jako práci s následky členství, nikoli s jeho obsahem (Lalich a Tobias, 2006); hodnocení jednotlivého případu stránce nepatří.

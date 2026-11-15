@@ -87,8 +87,6 @@ Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Pozorovatelský bias, Hawthorne efekt, etické riziko narušení soukromí, falešně-pozitivní markery u kulturně variantního chování.
 
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
-
 ## Klinické pozadí
 
 Klinický kontext pozorování neurčují dějiny škol, ale dvě doložená omezení pozorovatele samotného: očekávání utváří to, co je viděno (Rosenthal a Jacobson, 1968), a hledání potvrzení již přijatého výkladu je pravidlem, ne výjimkou (Nickerson, 1998). Technika proto stojí a padá s tím, zda je výklad pozorovatele vystaven přezkumu.

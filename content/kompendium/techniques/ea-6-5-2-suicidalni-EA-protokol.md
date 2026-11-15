@@ -87,8 +87,6 @@ Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Hospitalizace bez consent, paradoxní zvýšení rizika diskuzí, premature termination.
 
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
-
 ## Klinické pozadí
 
 Tato stránka vede techniku **EA-6.5.2** jako akutní stabilizaci u člověka s aktivní sebevražednou symptomatikou a jako popis přechodu do ambulantní péče. Strukturovaný rámec takové práce popisuje vlastní literatura oblasti (Jobes, 2016); rozhodnutí o místě a intenzitě péče zůstává klinické.

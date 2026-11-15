@@ -87,8 +87,6 @@ Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 OPSEC violations, newsroom-stigma, dropout z profese.
 
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
-
 ## Klinické pozadí
 
 Klinické zařazení protokolu dává povaha expozice, která je u této profese součástí práce: zprostředkované trauma z opakovaného kontaktu s cizím utrpením je popsáno jako samostatná zátěž (Figley, 1995). Herman (1992) popisuje následky dlouhodobé expozice jako obraz, který nevzniká jedním zásahem; právě tam začíná předmět této stránky.

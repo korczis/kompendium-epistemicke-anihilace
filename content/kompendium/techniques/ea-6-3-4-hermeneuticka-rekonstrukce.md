@@ -85,8 +85,6 @@ Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Imposice terapeutových interpretací, kulturní necitlivost, sekundární hermeneutic injustice.
 
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
-
 ## Klinické pozadí
 
 Klinické zařazení techniky dává povaha poškození, ne původ metod: chybějí-li člověku pojmy pro to, co se mu stalo, není to neznalost, nýbrž stav popsaný jako hermeneutická nespravedlnost (Fricker, 2007). Obnova proto nemůže spočívat v dodání výkladu; McAdams (2001) připomíná, že vyprávění o vlastním životě zůstává revidovatelnou konstrukcí.

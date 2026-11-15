@@ -85,8 +85,6 @@ Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Re-traumatizace při forsírovaném unblending, paradoxní reifikace 'partů' jako autonomních entit (mis-DID), dependence na terapeutovi pro Self-access.
 
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
-
 ## Klinické pozadí
 
 V kompendiu je tato technika vedena jako intervence zacílená na epistemicko-afektivní složku traumatu, konkrétně na práci s vnitřními částmi, jimž subjekt připisuje vlastní hlas; zda je v daném případě indikována, posoudí klinik, ne tento text.

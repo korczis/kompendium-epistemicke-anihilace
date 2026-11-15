@@ -87,8 +87,6 @@ Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Falešně pozitivní aktivace u zdravotně-úzkostných klientů, technicky-indukovaná artefaktní aktivace, etické riziko ekologické monitorace u klientů v abusivních vztazích (data leak).
 
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
-
 ## Klinické pozadí
 
 EA-6.1.6 je v kompendiu vedena jako objektivizující doplněk klinického rozhovoru, ne jako jeho nahrazení.

@@ -85,8 +85,6 @@ Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Re-traumatizace v nových vztazích, dependence na terapeutovi jako single relationship, premature reconciliation s abuserem.
 
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
-
 ## Klinické pozadí
 
 V kompendiu EA je tato technika vedena jako obnova schopnosti vstupovat do vztahu bez závislosti a bez izolace; předmětem není konkrétní vztah, nýbrž to, podle čeho subjekt rozpoznává bezpečí.

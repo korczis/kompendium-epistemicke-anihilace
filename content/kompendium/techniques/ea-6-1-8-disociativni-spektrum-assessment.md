@@ -87,8 +87,6 @@ Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Iatrogenní vyvolání disociativní epizody během vyšetření, paradoxní legitimizace neexistující DID u sugestibilních klientů, mis-diagnóza s psychózou.
 
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
-
 ## Klinické pozadí
 
 V kompendiu EA slouží tento assessment k odlišení disociativních jevů od jiných následků manipulativní expozice; předmětem posouzení není závažnost, nýbrž povaha toho, co subjekt popisuje jako výpadek.

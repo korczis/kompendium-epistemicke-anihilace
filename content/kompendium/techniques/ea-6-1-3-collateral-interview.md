@@ -87,8 +87,6 @@ Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Porušení důvěry v terapeutické alianci, sekundární traumatizace informantů, paradoxní validizace gaslightingu pokud informant byl sám součástí manipulace, právní následky při překročení rozsahu souhlasu.
 
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
-
 ## Klinické pozadí
 
 V kompendiu EA je rozhovor s blízkými veden jako diagnostický zdroj, který zachytí to, co subjekt sám popsat nemůže — protože právě jeho hodnocení vlastního stavu bylo předmětem manipulace.

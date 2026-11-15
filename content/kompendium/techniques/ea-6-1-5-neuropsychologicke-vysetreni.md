@@ -87,8 +87,6 @@ Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Falešně pozitivní deficity z fluktuujícího afektu, kulturní bias norem, frustrace klienta při obtížných úlohách, etiologické zaměňování (deficit jako důsledek vs. premorbidní stav).
 
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
-
 ## Klinické pozadí
 
 Technika **EA-6.1.5** je v kompendiu zařazena jako měření kognitivních následků expozice; nález sám o sobě jeho příčinu neurčuje.

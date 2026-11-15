@@ -159,7 +159,7 @@ Vrcholový tým velké organizace po dlouhodobém používání korporátního �
 
 ### Alternativy / podobné, ale **distinktivní**
 
-- **Wittgensteinská kritika rigidních definic** — Wittgenstein zachovává **používání** konceptů jako fungující praxi; entropie destruuje praxi samu.
+- **Wittgensteinská kritika rigidních definic** — tato kritika zachovává **používání** konceptů jako fungující praxi (*interpretace knihy*); entropie destruuje praxi samu.
 - **Pluralistická konceptuální tolerance** — pluralismus zachovává distinkce *uvnitř* různých rámců; entropie je destruuje.
 
 ## Související

@@ -108,7 +108,7 @@ Pravidelně testuj, **zda v dotčené doméně rozhoduješ stejně rychle a úsp
 
 #### 2. **Reaktivace původní struktury**
 
-Vrať se k zápisům, knihám, materiálům, které jsi používal před kontaktem s manipulátorem. Pokus se rekonstruovat, jak jsi tehdy uvažoval. Funkční struktura je často stále přítomná, jen inhibovaná.
+Reaktivaci umožňují zápisy, knihy a materiály, které dotčený člověk používal před kontaktem s manipulátorem. Pokus se rekonstruovat, jak jsi tehdy uvažoval. Funkční struktura je často stále přítomná, jen inhibovaná.
 
 #### 3. **Strategická holistická cvičení**
 
@@ -116,7 +116,7 @@ Pravidelně řeš **komplexní problémy v dotčené doméně bez deliberace** �
 
 #### 4. **Externí mentor mimo manipulátorův diskurs**
 
-Konzultuj komplexní problémy s expertem, který **nepoužívá manipulátorův pojmový aparát**. Pokud externí expert subjektovy úvahy hodnotí jako *fragmentované*, je to silný indikátor.
+Fragmentaci zviditelní expert, který **nepoužívá manipulátorův pojmový aparát**: hodnotí-li úvahy dotčeného člověka jako *fragmentované*, je to silný indikátor. Uvnitř aparátu týž výklad působí celistvě, protože aparát sám chybějící vazby nevyžaduje.
 
 #### 5. **Mapování ztracených vazeb**
 

@@ -114,7 +114,7 @@ Pravidelně si pokládej otázku: *Tvrzením A jsem právě přijal. Tvrzením B
 
 #### 4. **Argumentační deník**
 
-Veď deník klíčových přesvědčení s **explicitním** odůvodněním: „Věřím v X, protože Y a Z“. Pravidelně reviduj. Pokud Y nebo Z přestaly být validní, X by mělo být revidováno také.
+Oporou proti diskontinuitě je deník klíčových přesvědčení s **explicitním** odůvodněním: „Věřím v X, protože Y a Z“. Pravidelně reviduj. Pokud Y nebo Z přestaly být validní, X by mělo být revidováno také.
 
 #### 5. **Restorativní spánek a kognitivní hygiena**
 

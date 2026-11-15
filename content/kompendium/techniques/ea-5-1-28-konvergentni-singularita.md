@@ -82,7 +82,7 @@ Konvergentní singularitu je nutné odlišit od:
 - **Hluboké odbornosti** — odborník má rovněž pevné jádro, ale **dokáže explicitně artikulovat alternativy** a popsat, *proč* je odmítl. Subjekt v singularitě alternativy *neumí* artikulovat.
 - **Náboženské víry** — autentická víra připouští paradox a tajemství; singularita vyžaduje *uzavřenost*.
 - **[EA-1.2.1](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md) Falešné dilema** — falešné dilema vynucuje volbu mezi **dvěma** body; konvergentní singularita redukuje na **jeden**.
-- **EA-5.1.29 Ontologická exfoliace](@/kompendium/techniques/ea-5-1-29-ontologicka-exfoliace.md)** — exfoliace **odstraňuje** ontologické závazky; singularita je *koncentruje* do jednoho.
+- **[EA-5.1.29 Ontologická exfoliace](@/kompendium/techniques/ea-5-1-29-ontologicka-exfoliace.md)** — exfoliace **odstraňuje** ontologické závazky; singularita je *koncentruje* do jednoho.
 
 ## Rizikové kontexty
 
@@ -137,7 +137,7 @@ Vrcholový tým velké organizace po dlouhodobé spolupráci s jediným strategi
 
 ### Případ 3 — Komunitní ideologická konvergence
 
-Online komunita po 2 letech intenzivní interakce vykazovala lingvistickou signaturu konvergentní singularity: 87 % příspěvků obsahovalo identické 12 frazémů. Detekce: NLP analýza odhalila topologickou monotonii. Intervence: distribuovaná deprogramační iniciativa kombinující **EA-5.1.30](@/kompendium/techniques/ea-5-1-30-konceptualni-entropie.md)** induced kontrolovaný entropický šok s následnou re-pluralizací.
+Online komunita po 2 letech intenzivní interakce vykazovala lingvistickou signaturu konvergentní singularity: příspěvky se opakovaly v okruhu několika týchž frazémů. **Podíl kniha neuvádí**: dřívější verze tu měla procento příspěvků bez zdroje. Detekce: NLP analýza odhalila topologickou monotonii. Intervence: distribuovaná deprogramační iniciativa kombinující kontrolovaný entropický šok podle [EA-5.1.30 Konceptuální entropie](@/kompendium/techniques/ea-5-1-30-konceptualni-entropie.md) s následnou re-pluralizací.
 
 ## Vztah k jiným technikám
 

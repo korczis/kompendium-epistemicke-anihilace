@@ -109,11 +109,11 @@ Pokud jediný zdroj systematicky podkopává **všechny ostatní** zdroje, je to
 
 #### 3. **Externí epistemická triangulace**
 
-Udržuj kontakt s lidmi mimo vakuovaný kontext. Externí zdroje, jež **nesouhlasí** s probíhající destabilizací, jsou bezpečnostním kabelem. Podezřelé jsou kontexty, kde jsou externí zdroje systematicky **delegitimizovány**.
+Bezpečnostním kabelem jsou lidé mimo vakuovaný kontext: externí zdroje, jež **nesouhlasí** s probíhající destabilizací, drží alternativu, kterou vakuum samo nenabízí. Podezřelé jsou proto kontexty, kde jsou externí zdroje systematicky **delegitimizovány**.
 
 #### 4. **Test diverzity dekonstrukce**
 
-Ptej se: zpochybňuje současný diskurz **všechny** základny **rovnoměrně**, nebo pouze ty, jež jsou nepřátelské vůči určitému programu? Selektivní dekonstrukce je téměř vždy manipulativní.
+Rozhodující je, zda současný diskurz zpochybňuje **všechny** základny **rovnoměrně**, nebo pouze ty, jež jsou nepřátelské vůči určitému programu. Selektivní dekonstrukce je téměř vždy manipulativní.
 
 #### 5. **Princip provizorní funkčnosti**
 

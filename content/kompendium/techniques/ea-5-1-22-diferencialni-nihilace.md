@@ -111,7 +111,7 @@ Texty z **různých disciplín** drží různé distinkce. Filosofická tradice 
 
 #### 4. **Strategická pedanterie**
 
-Vědomě udržuj **terminologickou přesnost** i v kontextech, kde je to „zbytečné“. Pedanterie je v tomto případě defenzivní postoj.
+Ochranou je **terminologická přesnost** držená i tam, kde se jeví jako „zbytečná“. Pedanterie je zde defenzivní postoj.
 
 #### 5. **Externí epistemická triangulace**
 

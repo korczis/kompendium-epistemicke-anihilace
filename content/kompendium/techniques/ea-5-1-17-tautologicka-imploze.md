@@ -114,7 +114,7 @@ Ke každé tezi formuluj **přesnou negaci** a zkoumej, zda je negace **odlišit
 
 #### 4. Externí epistemická triangulace
 
-Konzultuj tezi s **expertem mimo tradici** (vědcem, právníkem, inženýrem). Pokud expert reportuje „nic se neřeklo“ nebo „je to pravda triviálně“, jde o implozi.
+Implozi odhalí úsudek **experta mimo tradici** — vědce, právníka, inženýra —, který tezi posuzuje bez jejího vnitřního slovníku. Reaguje-li „nic se neřeklo“ nebo „je to pravda triviálně“, jde o implozi; uvnitř tradice přitom tatáž teze nadále zní obsažně.
 
 #### 5. Karnapův test
 

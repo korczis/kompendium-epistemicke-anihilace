@@ -113,7 +113,7 @@ Bateson identifikoval **[double-bind](@/glossary/double-bind.md)** jako paradoxn
 
 #### 4. **Časový odstup od paradoxu**
 
-Pokud paradox generuje úzkost, **odstup**. Nech ho stranou, věnuj se konkrétní práci, vrať se k němu s čerstvou perspektivou. Manipulativní paradoxy živí svou silu z **akutního afektivního stavu**.
+Pokud paradox generuje úzkost, **odstup**. Odložení paradoxu, práce na něčem konkrétním a pozdější návrat s čerstvou perspektivou tuto úzkost snižují, a s ní i tah paradoxu. Manipulativní paradoxy živí svou silu z **akutního afektivního stavu**.
 
 #### 5. **Externí konzultace s logikem**
 

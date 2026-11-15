@@ -105,11 +105,11 @@ Pravidelně si pokládej otázku: *Kdyby měl jiný člověk rozumět, co tímto
 
 #### 2. **Lexikální deník**
 
-Veď zápis klíčových termínů svého oboru / kontextu s **explicitní definicí** (vlastními slovy, ne výpůjčkou) a **konkrétními příklady** referentů. Pravidelně reviduj — pokud se definice mění bez vědomí, je to alarm.
+Posun významu zachytí zápis klíčových termínů daného oboru či kontextu s **explicitní definicí** (vlastními slovy, ne výpůjčkou) a **konkrétními příklady** referentů. Pravidelně reviduj — pokud se definice mění bez vědomí, je to alarm.
 
 #### 3. **Externí jazyková kotva**
 
-Udržuj **pravidelný kontakt** s lidmi mimo manipulativní kontext, kteří používají běžnou referenční sémantiku. Detekuje se to tak, že tito lidé **rozumějí**, co říkáš, a **upozorňují**, když používáš termíny způsobem, který běžný posluchač nepřijímá.
+Jazykovou kotvou je **pravidelný kontakt** s lidmi mimo manipulativní kontext, kteří používají běžnou referenční sémantiku. Tito lidé **rozumějí** tomu, co dotčený člověk říká, a **upozorňují** ho, užívá-li termín způsobem, který běžný posluchač nepřijímá; kde takový kontakt chybí, nemá posun významu kdo zaznamenat.
 
 #### 4. **Etymologická návrat**
 

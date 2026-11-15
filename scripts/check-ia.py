@@ -50,7 +50,14 @@ Requirements (id: what is checked):
                    (zákon č. N/RRRR Sb.) or EU instrument; callouts, tables, code exempt; up to
                    three paragraphs per page that only state the book's own frame may instead
                    link one of its method pages (01-predmluva/eticke-aspekty, jak-pouzivat,
-                   08-prilohy/eticky-kodex, 02-uvod/metodologicke-poznamky) and no other page
+                   08-prilohy/eticky-kodex, 02-uvod/metodologicke-poznamky) and no other page.
+                   A quick-reference card owes no citations of its own while it links its
+                   technique page as "**Plná stránka:**" and that page exists: the parent carries
+                   the apparatus, and a ten-line summary citing the same works again would
+                   duplicate its parent's credibility. Keyed on that relation, so a card with no
+                   link or a broken one is charged. quick-reference/_index.md is prose, not a
+                   card, and is charged. The method-page exemption could not have served here:
+                   119 of the 123 cards carry 4 or more uncited paragraphs, above its cap of 3
   bibliography     a page that cites an author has `## Literatura`, before `## Související`
   citation-unresolved  every cited surname is in the page's Literatura (Czech case endings and
                    female -ová forms resolve: Liftona -> Lifton, Arendtová -> Arendt)
@@ -1102,10 +1109,57 @@ def weak(page: dict) -> bool:
     return (not surface and page["words"] < min_words(page)) or page["generated"]
 
 
+# A quick-reference card summarises one technique page and links it as "**Plná stránka:**". The
+# apparatus belongs to that page: it carries the citations, the bibliography and the
+# citation-unresolved check. Asking the card to cite the same works again would duplicate its
+# parent's credibility in a ten-line summary — the borrowed credibility this book spent a wave
+# removing from 75 other pages.
+#
+# So the exemption is keyed on the RELATION, not on the directory, and it cannot outlive its
+# reason: a card is cleared only while it links a technique page that exists. Drop the link, or
+# break it, and the card is charged again. Three consequences of that choice, each deliberate:
+#   * quick-reference/_index.md is NOT a card and is not cleared. It is prose (13 uncited
+#     paragraphs, where a card has 3 to 5), and it owes citations like any other prose page.
+#   * the five cards that do carry a ## Literatura keep it and are cleared too; a bibliography a
+#     writer chose to add is not a reason to charge the page.
+#   * the method-page exemption (OWN_FRAME, capped at 3) could not have done this job: 119 of the
+#     123 cards carry 4 or more uncited paragraphs, so adding a method link to every card would
+#     have left 119 charged. Measured before this rule was written.
+CARD_PARENT = re.compile(r"\*\*Plná stránka:\*\*\s*\[[^\]]*\]\(@/(kompendium/techniques/[^)#]+\.md)")
+
+
+# This takes two passes and the order is forced. The decision needs each page's `body`, which
+# analyse() empties; the number it adjusts is `uncited`, which analyse() COMPUTES and which a
+# freshly loaded page does not carry at all. Zeroing it before analyse() therefore created a key
+# that analyse() then overwrote — the exemption fired on all 123 cards and changed nothing, which
+# is why the identification and the clearing are separate functions with analyse() between them.
+def card_parents_resolve(pages: list) -> set:
+    """The quick-reference cards that link a technique page which exists. Reads the bodies."""
+    known = {p["path"] for p in pages}
+    found = set()
+    for page in pages:
+        path = page["path"]
+        if not path.startswith("kompendium/quick-reference/") or page["is_index"]:
+            continue
+        m = CARD_PARENT.search(page.get("body") or "")
+        if m and m.group(1) in known:
+            found.add(path)
+    return found
+
+
+def clear_card_citations(pages: list, exempt: set) -> None:
+    """Zero `uncited` on those cards. Needs the counts, so it runs after analyse()."""
+    for page in pages:
+        if page["path"] in exempt:
+            page["uncited"] = 0
+
+
 def current(details: dict = None, counts: dict = None) -> dict:
     result = {}
     pages = load_pages(with_body=True)
+    cards = card_parents_resolve(pages)   # while the bodies are still there
     candidates = analyse(pages)
+    clear_card_citations(pages, cards)    # once analyse() has produced the counts
     weak_pages = {p["path"] for p in pages if weak(p)}
     for page in pages:
         key = f"content/{page['path']}"

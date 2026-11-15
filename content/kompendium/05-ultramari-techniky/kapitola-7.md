@@ -19,7 +19,7 @@ risk_level = "extreme"
 
 # Kapitola 7: Metatranscendentální anihilace
 
-> 🚨 **Přístupová úroveň L3**. Tato kapitola popisuje techniky operující na úrovni **transcendentálních podmínek možnosti poznání samého**. Studium je možné pouze v rámci **doktrinální analýzy** s explicitní etickou supervizí. Žádný materiál v této kapitole není návodem k aplikaci.
+> 🚨 Tato kapitola popisuje techniky operující na úrovni **transcendentálních podmínek možnosti poznání samého**. Studium je možné pouze v rámci **doktrinální analýzy** s explicitní etickou supervizí. Žádný materiál v této kapitole není návodem k aplikaci.
 
 ## Pozice kapitoly v taxonomii
 

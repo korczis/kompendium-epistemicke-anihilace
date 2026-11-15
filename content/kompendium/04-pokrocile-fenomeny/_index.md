@@ -19,7 +19,7 @@ status = "publikovano"
 
 # Pokročilé fenomény
 
-> ⚠️ **Přístupová úroveň L2 (rozšířený přístup)** — Tato sekce popisuje fenomény, které se objevují v krajních stavech epistemické anihilace. Materiál je určen výzkumníkům, klinickým specialistům a bezpečnostním analytikům s odpovídajícím vzděláním a etickou supervizí. Práce s touto sekcí předpokládá zvládnuté teoretické a etické rámce ze sekcí [01](@/kompendium/01-predmluva/_index.md) a [02](@/kompendium/02-uvod/_index.md).
+> ⚠️ Tato sekce popisuje fenomény, které se objevují v krajních stavech epistemické anihilace. Materiál je určen výzkumníkům, klinickým specialistům a bezpečnostním analytikům s odpovídajícím vzděláním a etickou supervizí. Práce s touto sekcí předpokládá zvládnuté teoretické a etické rámce ze sekcí [01](@/kompendium/01-predmluva/_index.md) a [02](@/kompendium/02-uvod/_index.md).
 
 Pokročilé fenomény tvoří taxonomickou vrstvu, kde **kognitivní, sociální a ontologické roviny** přestávají být analyticky oddělitelné. Zatímco izolovaná technika ovlivňuje jednu rovinu (typicky kognici nebo emoci) a [terminální protokol](@/kompendium/04-terminalni-protokoly/_index.md) působí synchronně na více rovinách, pokročilý fenomén je **emergentní stav**, který nelze přímo vyrobit — vyrůstá z dlouhodobé expozice protokolům, často v kombinaci s individuální zranitelností a sociálním nastavením.
 

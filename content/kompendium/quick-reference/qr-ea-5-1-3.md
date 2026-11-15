@@ -19,7 +19,7 @@ toc = false
 
 **Oblast:** [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md), skupina 5.1 · **Plná stránka:** [EA-5.1.3 Reflexivní paradoxie](@/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie.md)
 
-> Přístupová úroveň L3. Karta slouží k rozpoznání a ochraně; popis je strukturní, ne návod.
+> Karta slouží k rozpoznání a ochraně; popis je strukturní, ne návod.
 
 ## Co to je
 

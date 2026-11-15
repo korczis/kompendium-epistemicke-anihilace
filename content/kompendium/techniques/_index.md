@@ -123,7 +123,7 @@ Celkem **40/40 článků v Kapitole 4**.
 
 ### Kapitola 5 — Ultramární techniky fundamentální dekonstrukce
 
-> 🚨 **Přístupová úroveň L3–L4**. Per-technique články pro Sekci 05 jsou publikovány postupně. Kapitoly 6 (5.1.\*) a 7 (5.2.\*) mají publikované hloubkové články; ostatní jsou v narativní formě uvnitř kapitol 8–10.
+> Per-technique články pro Sekci 05 jsou publikovány postupně. Kapitoly 6 (5.1.\*) a 7 (5.2.\*) mají publikované hloubkové články; ostatní jsou v narativní formě uvnitř kapitol 8–10.
 
 #### 5.1 Epistemická singularita (Kapitola 6)
 

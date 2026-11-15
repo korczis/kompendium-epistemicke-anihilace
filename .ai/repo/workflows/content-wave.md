@@ -22,8 +22,9 @@ a zmenší, a `majordomus check` jinak odmítne.
 `static/data/` patří do rozsahu úkolu: vlna mění obsah, a tedy i odvozený graf a metriky, které
 CI kontroluje (`build-graph.py --check`); bez něj `majordomus finish` odmítne.
 
-`static/css/app.css` je generovaný a ignorovaný: v novém worktree ho vytvoří `npm run css`
-(nebo se zkopíruje z primárního checkoutu), jinak `zola build` selže na `get_url`.
+`static/css/app.css` a vendorované skripty jsou generované a ignorované: v novém worktree je
+vytvoří `npm run assets` (nekopíruj je z jiného checkoutu, ten nemusí být aktuální).
+`verify-content.sh` bez `app.css` hned odmítne s tímto příkazem.
 
 ## 2. Změř
 

@@ -123,9 +123,9 @@ kontakt na pomoc. Terapie pak využila [protokol pro domácí abuse](@/kompendiu
 a [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md).
 
 Ve S1 – validaci a mapování terapeutka potvrdila, že vnímání ženy bylo převážně správné, a
-sestavila s ní časovou osu ze zápisků, zpráv a výpovědí přátel. Ve **S2 – externalizaci
-introjektů** byly věty „jsem nemocná“ a „bez něj to nezvládnu“ přiřazeny jejich zdroji. Ve **S3 –
-rekonstrukci [metakognice](@/glossary/metakognice.md)** šlo o obnovu důvěry k vlastní paměti bez
+sestavila s ní časovou osu ze zápisků, zpráv a výpovědí přátel. Ve S2 – externalizaci
+introjektů byly věty „jsem nemocná“ a „bez něj to nezvládnu“ přiřazeny jejich zdroji. Ve S3 –
+rekonstrukci [metakognice](@/glossary/metakognice.md) šlo o obnovu důvěry k vlastní paměti bez
 nutkavé dokumentace. Pořadí odpovídá modelu, v němž bezpečí předchází zpracování a zpracování
 předchází novému propojení s druhými (Herman, 1992).
 

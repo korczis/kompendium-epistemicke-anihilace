@@ -131,7 +131,7 @@ ve skupině a toho, co se kdy změnilo; psychoedukace o mechanismech vlivu je v 
 literatuře o zotavení bývalých členů považována za důležitou součást rané fáze (Langone, 1993).
 
 Ve S2 – externalizaci introjektů vznikl slovník vnitřního jazyka s překladem do běžné češtiny
-a oddělil se hlas vůdce od vlastního. Ve **S3 – rekonstrukci [metakognice](@/glossary/metakognice.md)**
+a oddělil se hlas vůdce od vlastního. Ve S3 – rekonstrukci [metakognice](@/glossary/metakognice.md)
 muž nacvičoval rozhodování v malých, nízkorizikových situacích a znovuobjevoval vlastní
 preference. Lalich a Tobias (2006) doporučují právě takové postupné obnovování autonomie
 v drobnostech, protože velká rozhodnutí bez opory vyvolávají paniku.

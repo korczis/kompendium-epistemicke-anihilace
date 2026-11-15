@@ -134,11 +134,11 @@ identifikovala hlasy „budu potrestána“ a „mimo skupinu nejsem nic“ a p�
 Lalich a Tobias (2006) považují poznání mechanismů vlivu za důležitý krok, který bývalému
 členovi pomáhá přestat vinit sám sebe.
 
-Ve **S3 – rekonstrukci [metakognice](@/glossary/metakognice.md)** nacvičovala
+Ve S3 – rekonstrukci [metakognice](@/glossary/metakognice.md) nacvičovala
 [hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md) a vlastního úsudku
 u témat, o nichž dříve rozhodovalo učení. Ve S4 – hermeneutické obnově budovala vlastní vztah
-ke spiritualitě – bez povinnosti ji odmítnout i bez povinnosti ji zachovat. **S5 – konsolidace a
-transfer** přinesla studium, nové přátelské sítě a plán pro situace kontaktu s rodinou a pro
+ke spiritualitě – bez povinnosti ji odmítnout i bez povinnosti ji zachovat. S5 – konsolidace a
+transfer přinesla studium, nové přátelské sítě a plán pro situace kontaktu s rodinou a pro
 výročí. Ebaugh (1988) zdůrazňuje, že nová identita nevzniká popřením staré role, ale jejím
 začleněním do příběhu „bývalé“ členky.
 

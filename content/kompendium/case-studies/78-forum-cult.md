@@ -164,27 +164,27 @@ prolínají a je třeba léčit obojí. Podrobný rámec nabízí
 Postup sledoval [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
 ve stupních S1–S5, jejichž pořadí odpovídá modelu zotavení, který popsala Herman (1992).
 
-**S1 – Validace a mapování.** Uznání hodnoty, kterou fórum mělo po úrazu. Mapa zahrnovala ztracené
+S1 – Validace a mapování. Uznání hodnoty, kterou fórum mělo po úrazu. Mapa zahrnovala ztracené
 vztahy, roky času, morální zranění z hlasování a strach z doxxingu vůči sobě. Bezpečnostní plán
 obsahoval změnu hesel a kontrolu toho, co o něm fórum ví. Herman (1992) klade obnovu bezpečí na
 začátek, protože bez ní nelze pracovat s minulostí.
 
-**S2 – Externalizace introjektů.** Slovník fóra byl sepsán a přeložen; subjekt sledoval, kdy zkratky
+S2 – Externalizace introjektů. Slovník fóra byl sepsán a přeložen; subjekt sledoval, kdy zkratky
 používá doma a kým tím mluví. White a Epston (1990) chápou externalizaci jako oddělení problému od
 osoby; zde se oddělovaným problémem stal jazyk fóra.
 
-**S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md).** Práce s nenaplněnými předpověďmi:
+S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md). Práce s nenaplněnými předpověďmi:
 tabulka toho, co bylo předpovězeno, kdy a co se stalo ([falsifikační myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md),
 [revize přesvědčení](@/kompendium/self-defense-guides/7-belief-revision.md)). Tetlock (2005) ukázal,
 že systematické zaznamenávání předpovědí a jejich výsledků je nejspolehlivějším způsobem, jak
 kalibrovat vlastní úsudek, protože paměť nenaplněné předpovědi snadno přepisuje.
 
-**S4 – Hermeneutická obnova.** Čtení archivu vlastních příspěvků jako biografického materiálu – kde
+S4 – Hermeneutická obnova. Čtení archivu vlastních příspěvků jako biografického materiálu – kde
 se měnil tón, co tehdy ztratil a co získal – s využitím [paměťového archivu](@/kompendium/self-defense-guides/43-memory-archive.md).
 McAdams (1993) chápe narativní identitu jako příběh, který propojuje minulé já s přítomným; archiv
 umožnil tento příběh sestavit z dokladů, ne z dojmů.
 
-**S5 – Konsolidace a transfer.** Technické dovednosti byly převedeny do místního spolku zahrádkářů
+S5 – Konsolidace a transfer. Technické dovednosti byly převedeny do místního spolku zahrádkářů
 a do dobrovolnictví v knihovně, kde pomáhá seniorům s počítači. Ebaugh (1988) považuje vytvoření nové
 role, která navazuje na hodnoty staré, za závěrečnou fázi úspěšného odchodu.
 

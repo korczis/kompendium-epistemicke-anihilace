@@ -119,7 +119,7 @@ náhodná. Ve S2 – externalizaci introjektů se oddělil vlastní hlas od řed
 které používala o sobě („jsi příliš opatrná“). Pojmenování nepředvídatelnosti jako vzorce snižuje
 sebeobviňování, které je pro traumatickou vazbu typické (Dutton a Painter, 1981).
 
-Ve **S3 – rekonstrukci [metakognice](@/glossary/metakognice.md)** obnovovala schopnost formulovat
+Ve S3 – rekonstrukci [metakognice](@/glossary/metakognice.md) obnovovala schopnost formulovat
 nesouhlas a unést nejistotu bez autority, která ji rozhodne. Ve S4 – hermeneutické obnově
 nově četla léta ve funkci včetně vlastní odpovědnosti vůči podřízeným a odcházejícím kolegům.
 Tato práce se dotýká morálního zranění (*moral injury*), tedy následku jednání, které porušuje

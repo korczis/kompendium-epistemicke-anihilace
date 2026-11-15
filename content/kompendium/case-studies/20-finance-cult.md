@@ -118,7 +118,7 @@ jeden z hlavních činitelů sebevražedného přání, a pocit, že člověk zn
 je.
 
 Ve stupni S2 – Externalizace introjektů byly věty „systém je proti nám“ a „slabé ruce prodávají“
-pojmenovány jako jazyk komunity. Ve stupni **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md)**
+pojmenovány jako jazyk komunity. Ve stupni S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md)
 se muž učil pravděpodobnostnímu uvažování a [falsifikačnímu myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md);
 Kahneman (2011) doporučuje u závažných rozhodnutí vědomě hledat základní pravděpodobnosti a
 pohled zvenčí místo přesvědčivého příběhu.

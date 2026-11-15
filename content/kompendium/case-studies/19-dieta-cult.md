@@ -120,8 +120,8 @@ zdravotního problému, který nebyl vyřešen; Herman (1992) považuje obnovu t
 podmínku, bez níž další práce nemůže začít.
 
 Ve stupni S2 – Externalizace introjektů bylo dělení potravin na „čisté“ a „jedovaté“
-pojmenováno jako naučený jazyk, nikoli vlastní zkušenost. Ve stupni **S3 – Rekonstrukce
-[metakognice](@/glossary/metakognice.md)** žena procvičovala [hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md)
+pojmenováno jako naučený jazyk, nikoli vlastní zkušenost. Ve stupni S3 – Rekonstrukce
+[metakognice](@/glossary/metakognice.md) žena procvičovala [hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md)
 o výživě a rozlišení svědectví a studie, k čemuž Goldacre (2008) nabízí srozumitelný výklad.
 
 Stupeň S4 – Hermeneutická obnova vracel jídlu význam výživy a společenství místo morálky a

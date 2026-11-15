@@ -130,7 +130,7 @@ kde se téma posouvalo a kdo o tom rozhodl. Ve S2 – externalizaci introjektů 
 „jsem nevděčný“ a „bez projektu nejsem nic“ od jejich zdroje a vděčnost byla pojmenována jako
 legitimní, ale zneužitý cit; postup vychází z narativní externalizace (White a Epston, 1990).
 
-Ve **S3 – rekonstrukci [metakognice](@/glossary/metakognice.md)** doktorand nacvičoval rozlišování
+Ve S3 – rekonstrukci [metakognice](@/glossary/metakognice.md) doktorand nacvičoval rozlišování
 mezi sjednaným a vynucovaným závazkem a [verifikaci tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md)
 proti dokumentům. Ve S4 – hermeneutické obnově znovu vybudoval vlastní výzkumnou otázku
 z materiálu, který mu skutečně patřil. S5 – konsolidace a transfer přinesla písemnou dohodu

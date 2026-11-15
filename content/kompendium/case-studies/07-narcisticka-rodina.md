@@ -128,15 +128,15 @@ je pochopitelným následkem, ne vadou.
 
 Ve S2 – externalizaci introjektů identifikovala vnitřní hlas („přeháníš“) jako převzatý od
 rodiče a pracovala s „dětskou částí“, která stále hlídá rodičovu náladu; práce s částmi osobnosti
-jako s vnitřními postavami vychází z IFS (Schwartz, 1995). Ve **S3 – rekonstrukci
-[metakognice](@/glossary/metakognice.md)** nacvičovala důvěru k vlastní paměti v současných
+jako s vnitřními postavami vychází z IFS (Schwartz, 1995). Ve S3 – rekonstrukci
+[metakognice](@/glossary/metakognice.md) nacvičovala důvěru k vlastní paměti v současných
 situacích – zapisování událostí a jejich pozdější porovnávání. Klíčovou zásadou bylo, že terapeut
 vzpomínky nenavrhuje ani nedoplňuje, protože sugestivní práce s pamětí může vytvořit
 nepravdivé vzpomínky (Loftus, 2005).
 
 Ve S4 – hermeneutické obnově vzniklo nové vyprávění rodinného příběhu, v němž má místo její
-zkušenost i složitost rodičů, bez povinnosti odpustit nebo se usmířit. **S5 – konsolidace a
-transfer** přinesla dlouhodobou strategii kontaktu s rodinou a posílení partnerského vztahu bez
+zkušenost i složitost rodičů, bez povinnosti odpustit nebo se usmířit. S5 – konsolidace a
+transfer přinesla dlouhodobou strategii kontaktu s rodinou a posílení partnerského vztahu bez
 opakování starého vzorce. Neff (2003) popisuje sebesoucit jako laskavost k sobě, vědomí sdílené
 lidské zkušenosti a všímavost; tyto tři složky sloužily jako protiváha vnitřního kritika.
 

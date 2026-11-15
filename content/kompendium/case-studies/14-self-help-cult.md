@@ -116,8 +116,8 @@ zpracováním odpovídá obecné zásadě traumatologie (Herman, 1992).
 
 Ve S2 – externalizaci introjektů klient sepsal slovník skupiny a přeložil jej do běžného
 jazyka; zvlášť pracoval s větami o „egu“ a „volbě“. Postup vychází z narativní externalizace,
-která odděluje člověka od problému a jeho jazyka (White a Epston, 1990). Ve **S3 – rekonstrukci
-[metakognice](@/glossary/metakognice.md)** se učil nejistotě – připustit, že některé věci neví,
+která odděluje člověka od problému a jeho jazyka (White a Epston, 1990). Ve S3 – rekonstrukci
+[metakognice](@/glossary/metakognice.md) se učil nejistotě – připustit, že některé věci neví,
 bez potřeby okamžitého výkladu.
 
 Ve S4 – hermeneutické obnově rozlišil užitečné dovednosti, které si odnesl (asertivita,

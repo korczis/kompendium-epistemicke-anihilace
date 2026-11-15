@@ -138,23 +138,23 @@ ochoten vedení převzít.
 
 Postup sledoval [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md),
 jehož stupně S1–S5 volně odpovídají třem fázím zotavení po traumatu – bezpečí, vzpomínání a
-truchlení, opětovné propojení s druhými –, jak je formulovala Herman (1992). V **S1 – validaci a
-mapování** proběhla psychoedukace o vzorci a rekonstrukce časové osy z e-mailů a verzí rukopisů;
+truchlení, opětovné propojení s druhými –, jak je formulovala Herman (1992). V S1 – validaci a
+mapování proběhla psychoedukace o vzorci a rekonstrukce časové osy z e-mailů a verzí rukopisů;
 doktorandce pomohlo uvidět, jak se kritéria posouvala v čase. Strukturované psaní o zátěžové
 zkušenosti má samostatný příznivý účinek (Pennebaker, 1997) a zde zároveň sloužilo jako
 dokumentace.
 
 V S2 – externalizaci introjektů doktorandka sepsala věty, kterými se hodnotí („jsem
 průměrná“, „bez něj nic nedokážu“), a přiřadila je původnímu zdroji. Oddělení problému od
-identity člověka je jádrem narativního přístupu, který popsali White a Epston (1990). Ve **S3 –
-rekonstrukci [metakognice](@/glossary/metakognice.md)** nacvičovala hodnocení vlastního textu
+identity člověka je jádrem narativního přístupu, který popsali White a Epston (1990). Ve S3 –
+rekonstrukci [metakognice](@/glossary/metakognice.md) nacvičovala hodnocení vlastního textu
 podle explicitních, vnějších kritérií (pravidla časopisu, rubrika oponentury), ne podle odhadu
 reakce autority; Flavell (1979) chápe metakognitivní monitorování jako schopnost posoudit
 vlastní poznávání, a tu bylo třeba obnovit.
 
 Ve S4 – hermeneutické obnově proběhlo nové čtení vlastního oboru a rozlišení mezi oprávněnou
-kritikou, kterou si doktorandka ponechala, a ponižováním, které odložila. **S5 – konsolidace a
-transfer** zahrnovala dokončení disertace pod novým vedením a dohodu o pravidlech spolupráce
+kritikou, kterou si doktorandka ponechala, a ponižováním, které odložila. S5 – konsolidace a
+transfer zahrnovala dokončení disertace pod novým vedením a dohodu o pravidlech spolupráce
 sepsanou předem. Paralelně probíhalo institucionální řešení: změna školitele přes oborovou radu,
 archivace dokumentace a konzultace s ombudsmanem fakulty, viz
 [role ombudsmana](@/kompendium/organizational-defense/6-ombudsman-role.md). Smith a Freyd (2014)

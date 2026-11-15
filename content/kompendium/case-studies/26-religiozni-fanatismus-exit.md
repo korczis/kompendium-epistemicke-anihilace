@@ -111,12 +111,12 @@ trajektoriemi, nikoli jako jednorázové rozhodnutí; postupnost odchodu v kompo
 
 Odchod probíhal jako **postupné vzdálení**, nikoli jednorázový rozchod, aby se omezila ostrakizace.
 Rámcem byl [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-a [post-cult protokol](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md). Ve stupni **S1 –
-Validace a mapování** šlo o bezpečí, psychoedukaci o skupinách s vysokou kontrolou a mapu vztahů,
+a [post-cult protokol](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md). Ve stupni S1 –
+Validace a mapování šlo o bezpečí, psychoedukaci o skupinách s vysokou kontrolou a mapu vztahů,
 které odchod ohrozí; Herman (1992) považuje bezpečí a předvídatelnost za první podmínku zotavení.
 
 Ve stupni S2 – Externalizace introjektů byly věty o hříchu, trestu a „světu“ odlišeny od vlastních
-hodnot. Ve stupni **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md)** žena nacvičovala
+hodnot. Ve stupni S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md) žena nacvičovala
 malá samostatná rozhodnutí a [revizi přesvědčení](@/kompendium/self-defense-guides/7-belief-revision.md)
 bez nutnosti okamžitě nahradit víru jiným systémem. Winell (1993) popisuje období po odchodu jako
 dobu, kdy staré jistoty už neplatí a nové ještě nevznikly; schopnost toto období snášet bez hotové

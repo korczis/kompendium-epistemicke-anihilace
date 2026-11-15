@@ -116,7 +116,7 @@ skutečného průběhu a obnovu bezpečí za první podmínku zotavení.
 
 Ve stupni S2 – Externalizace introjektů byly věty „moje intuice je starý vzorec“ a „bez něj
 se točím v kruhu“ vráceny zdroji; White a Epston (1990) popisují externalizaci jako oddělení
-problému od identity. Ve stupni **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md)**
+problému od identity. Ve stupni S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md)
 klientka obnovovala vlastní rozhodovací postup: kritéria, termíny a okruh lidí, s nimiž se radí.
 Kahneman (2011) doporučuje u závažných rozhodnutí právě takové předem stanovené postupy, které
 oslabují vliv momentálního dojmu a cizí autority.

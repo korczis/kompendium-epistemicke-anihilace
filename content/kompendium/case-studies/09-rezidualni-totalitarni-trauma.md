@@ -127,7 +127,7 @@ traumatu vyžaduje uznat jeho společenský a politický kontext; bez tohoto uzn
 individualizovala to, co bylo společenské.
 
 Ve S2 – externalizaci introjektů se pravidla „neříkej, co si myslíš“ a „instituce lžou“ oddělila
-od svého historického zdroje. Ve **S3 – rekonstrukci [metakognice](@/glossary/metakognice.md)**
+od svého historického zdroje. Ve S3 – rekonstrukci [metakognice](@/glossary/metakognice.md)
 probíhala kalibrace důvěry: nácvik rozlišování mezi institucemi podle doložitelného chování, ne
 podle formy jejich řeči; viz [kalibrace důvěry](@/kompendium/self-defense-guides/23-trust-calibration.md).
 Kuran (1995) ukazuje, že po pádu režimu, který falšování preferencí vynucoval, se veřejný a

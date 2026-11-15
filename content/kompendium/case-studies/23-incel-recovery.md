@@ -119,7 +119,7 @@ Ve stupni S2 – Externalizace introjektů byly biodeterministické věty zapsá
 zkušenosti; Beck (1976) popisuje podobné odlišení automatických myšlenek od faktů jako základ
 kognitivní terapie.
 
-Ve stupni **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md)** šlo o
+Ve stupni S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md) šlo o
 [hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md) o přitažlivosti a
 vztazích a o práci s tím, co „data“ fóra skutečně říkají. Stupeň S4 – Hermeneutická obnova
 zahrnoval terapii zaměřenou na mužskou socializaci, kamarádství a samotu, inspirovanou programy pro

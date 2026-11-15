@@ -120,8 +120,8 @@ stabilizace a mapa vztahů a závazků ve skupině. Koehler (2017) řadí zajiš
 k základním úkolům programů pro odchod z násilných skupin.
 
 Ve stupni S2 – Externalizace introjektů byly rasový mýtus a dehumanizující jazyk odděleny od
-vlastního hlasu a začala práce s vinou za činy. Ve stupni **S3 – Rekonstrukce
-[metakognice](@/glossary/metakognice.md)** šlo o obnovu schopnosti vnímat druhé jako jednotlivce, ne
+vlastního hlasu a začala práce s vinou za činy. Ve stupni S3 – Rekonstrukce
+[metakognice](@/glossary/metakognice.md) šlo o obnovu schopnosti vnímat druhé jako jednotlivce, ne
 kategorie. Horgan (2009) rozlišuje odpoutání od skupiny a změnu přesvědčení a upozorňuje, že první
 může předcházet druhému; kompozit ukazuje, že změna vnímání druhých přichází až po opuštění
 skupinového prostředí.

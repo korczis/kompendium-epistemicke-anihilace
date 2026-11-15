@@ -55,8 +55,6 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 (1) Bezpečnostní plánování. (2) Risk assessment (DA, ODARA). (3) Stabilizace v kontextu pokračující threat. (4) Externalizace abusera. (5) Boundary work. (6) Ekonomická + právní podpora. (7) Long-term reintegrace.
 
-Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
-
 ## Trvání a frekvence
 
 Délku a frekvenci stanoví indikace, manuál použité modality a supervize, nikoli tato kniha.

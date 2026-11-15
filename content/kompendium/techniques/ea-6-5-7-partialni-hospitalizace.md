@@ -55,8 +55,6 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 (1) PHP assessment. (2) Individualizovaný denní plán. (3) Group + individual therapy. (4) Pharmacotherapy management. (5) Skill-building modules. (6) Family/support involvement. (7) Discharge planning.
 
-Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
-
 ## Trvání a frekvence
 
 **Typická délka:** ohraničená; délku i hustotu určuje klinický obraz a supervize, nikoli norma stanovená touto knihou.

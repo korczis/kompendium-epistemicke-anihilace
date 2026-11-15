@@ -55,8 +55,6 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 (1) Rapid safety assessment. (2) Triáž — outpatient vs. inpatient. (3) Akutní stabilizace — DBT distress tolerance, grounding. (4) Bezpečnostní plánování. (5) Rapid psychoedukace. (6) Bridge k dlouhodobé péči. (7) Follow-up v krátkém odstupu.
 
-Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
-
 ## Trvání a frekvence
 
 **Typická délka:** krátká a ohraničená; počet sezení i jejich rozestup jsou klinickým rozhodnutím pod supervizí, nikoli normou stanovenou touto knihou.

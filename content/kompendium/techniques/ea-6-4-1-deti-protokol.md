@@ -55,8 +55,6 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 (1) Komprehensivní rodinná anamnéza. (2) Vývojově-upravený screening (CPSS, UCLA-PTSD-RI). (3) Bezpečnostní plánování s rodičovskou účastí. (4) TF-CBT for children. (5) Rodičovská komponenta. (6) Školní spolupráce. (7) Long-term follow-up.
 
-Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
-
 ## Trvání a frekvence
 
 Délku a frekvenci stanoví indikace, manuál použité modality a supervize, nikoli tato kniha.

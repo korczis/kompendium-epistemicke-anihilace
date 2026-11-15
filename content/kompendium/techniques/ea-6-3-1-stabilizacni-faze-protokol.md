@@ -55,8 +55,6 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 (1) Bezpečnostní plánování — environment + suicidalita + DV. (2) Psychoedukace EA-trauma. (3) Self-regulation skills — DBT, mindfulness, somatic resourcing. (4) Spánková hygiena, výživa, pohyb. (5) Sociální podpora a stabilní vztahy. (6) Symptom management — flashbacks, nightmares, dissociation. (7) Pravidelné re-assessment readiness pro fázi 2.
 
-Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
-
 ## Trvání a frekvence
 
 Kompendium pro tuto fázi neuvádí normu délky ani počtu sezení. Herman (1992) popisuje zotavení jako sled fází, které se opakovaně vracejí a prolínají; tempo se odvozuje od obnovené kapacity člověka, nikoli z rozvrhu. Údaje o délce a frekvenci patří do manuálu použité modality a do supervizního záznamu konkrétního případu.

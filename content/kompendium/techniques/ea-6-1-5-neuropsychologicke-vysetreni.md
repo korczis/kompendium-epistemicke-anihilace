@@ -55,8 +55,6 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 (1) Screening — MoCA, RBANS. (2) Pozornost a pracovní paměť — Trail Making, Digit Span, n-back. (3) Exekutivní funkce — Wisconsin Card Sorting, Stroop, BRIEF-A. (4) Paměť — Rey AVLT, ROCFT. (5) Sociální kognice — Reading the Mind in Eyes, ToM tasks. (6) Metakognice — confidence calibration tasks.
 
-Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
-
 ## Trvání a frekvence
 
 Délku vyšetření a odstup opakování stanoví manuál použitého nástroje a supervize, nikoli tato kniha.

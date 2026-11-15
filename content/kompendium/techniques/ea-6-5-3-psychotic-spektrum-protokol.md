@@ -55,8 +55,6 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 (1) Komprehensivní diferenciálně-diagnostické vyšetření. (2) SCID-D + SCID-5 PD. (3) Toxicology screen. (4) Neurologická konzultace pokud indikováno. (5) Akutní stabilizace v psychiatrické péči dle indikace. (6) Trauma-aware approach k psychotickým experiences. (7) Long-term plan.
 
-Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
-
 ## Trvání a frekvence
 
 **Typická délka:** variabilní; délku akutní stabilizace určuje klinický obraz a psychiatrická péče, nikoli norma stanovená touto knihou.

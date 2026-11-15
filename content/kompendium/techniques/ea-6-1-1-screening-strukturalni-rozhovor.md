@@ -55,8 +55,6 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 (1) Etablování bezpečného rámce a informovaného souhlasu. (2) Anamnéza vstupní expozice — chronologie, kontext, intenzita. (3) Mapování čtyř EA domén — kognitivní, afektivní, identitní, relační. (4) Detekce klíčových markerů — epistemická paralýza, hermeneutická tísen, dvojitá vědomí. (5) Diferenciální diagnostika — vyloučení primárních úzkostných/depresivních/PTSD obrazů. (6) Stratifikace rizika a doporučení.
 
-Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
-
 ## Trvání a frekvence
 
 Délku vyšetření a odstup opakování stanoví manuál použitého nástroje a supervize, nikoli tato kniha.

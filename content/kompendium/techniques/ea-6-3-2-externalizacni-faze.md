@@ -55,8 +55,6 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 (1) Re-assessment readiness. (2) Volba trauma-procesové modality (TF-CBT/EMDR/IFS/SE). (3) Externalizace — pojmenování internalizovaného manipulátora. (4) Mapování internalizovaných hlasů a pravidel. (5) Trauma-procesní práce s klíčovými epizodami. (6) Postupné decoupling self od cult-self. (7) Re-stabilizace po každém procesovém sezení.
 
-Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
-
 ## Trvání a frekvence
 
 Kompendium pro tuto fázi neuvádí normu délky ani počtu sezení. Herman (1992) popisuje zotavení jako sled fází, které se opakovaně vracejí a prolínají; tempo se odvozuje od obnovené kapacity člověka, nikoli z rozvrhu. Údaje o délce a frekvenci patří do manuálu použité modality a do supervizního záznamu konkrétního případu.

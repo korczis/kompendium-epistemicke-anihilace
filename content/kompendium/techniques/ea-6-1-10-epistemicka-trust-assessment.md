@@ -55,8 +55,6 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 (1) Epistemic Trust, Mistrust, and Credulity Questionnaire (ETMCQ). (2) Strukturovaná explorace zdrojů důvěry/nedůvěry. (3) Behaviorální úloha — kooperační game s revealmentem manipulace. (4) Mapování interpersonálních důvěry-narušujících epizod. (5) Identifikace zachovaných důvěryschopných vztahů.
 
-Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
-
 ## Trvání a frekvence
 
 Délku vyšetření a odstup opakování stanoví manuál použitého nástroje a supervize, nikoli tato kniha.

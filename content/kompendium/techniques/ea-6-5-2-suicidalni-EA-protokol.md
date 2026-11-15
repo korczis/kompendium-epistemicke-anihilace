@@ -55,8 +55,6 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 (1) Columbia Suicide Severity Rating Scale (C-SSRS). (2) Safety planning intervention (Stanley-Brown). (3) Means restriction counseling. (4) CAMS framework — collaborative assessment. (5) BCBT — brief CBT for suicide. (6) Rapid medication consultation. (7) High-frequency follow-up.
 
-Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
-
 ## Trvání a frekvence
 
 **Typická délka:** variabilní; hustota kontaktů v akutní fázi i její trvání jsou klinickým rozhodnutím pod supervizí, nikoli normou stanovenou touto knihou.

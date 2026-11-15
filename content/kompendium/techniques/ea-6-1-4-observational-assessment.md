@@ -55,8 +55,6 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 (1) Definice cílových chování s operacionálními kritérii. (2) Kalibrace pozorovatelů (inter-rater training). (3) Pozorování v klinické situaci. (4) Pozorování v ekologickém kontextu. (5) Kódování s časovým razítkem. (6) Analýza vzorců a reportování.
 
-Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
-
 ## Trvání a frekvence
 
 Délku vyšetření a odstup opakování stanoví manuál použitého nástroje a supervize, nikoli tato kniha.

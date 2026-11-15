@@ -55,8 +55,6 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 (1) Comprehensive admission assessment. (2) Intensive trauma-focused individual + group. (3) 24/7 safe environment. (4) Pharmacotherapy. (5) Specializované moduly (post-cult, DV). (6) Recreation + experiential. (7) Discharge planning.
 
-Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
-
 ## Trvání a frekvence
 
 **Typická délka:** dlouhá a ohraničená plánem; délku pobytu určuje klinický obraz a supervize, nikoli norma stanovená touto knihou.

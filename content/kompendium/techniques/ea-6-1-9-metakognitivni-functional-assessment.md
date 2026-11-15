@@ -55,8 +55,6 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 (1) MCQ-30 [self-report](@/glossary/self-report.md). (2) Confidence calibration tasks — predikce, post-dikce. (3) [Theory of Mind](@/glossary/theory-of-mind.md) úlohy. (4) Cognitive flexibility — task switching. (5) Metacognitive interview — explorace metakognitivních strategií.
 
-Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
-
 ## Trvání a frekvence
 
 Délku vyšetření a odstup opakování stanoví manuál použitého nástroje a supervize, nikoli tato kniha.

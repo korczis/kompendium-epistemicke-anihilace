@@ -55,8 +55,6 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 (1) DES-II screening. (2) Strukturovaný klinický rozhovor — SCID-D-R. (3) Mapování disociativních triggerů. (4) Posouzení disociativní funkčnosti (adaptivní vs. patologická). (5) Bezpečnostní plánování pro disociativní epizody.
 
-Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
-
 ## Trvání a frekvence
 
 Délku vyšetření a odstup opakování stanoví manuál použitého nástroje a supervize, nikoli tato kniha.

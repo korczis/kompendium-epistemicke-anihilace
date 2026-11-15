@@ -55,8 +55,6 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 (1) Healthcare-competent anamnéza. (2) Burnout + STS + MI mapping (MBI, ProQOL, MIES). (3) Systémová analýza (organizační vs. individuální). (4) [Evidence-based](@/glossary/evidence-based.md) modality. (5) Moral injury work. (6) Career planning. (7) Peer-support skupiny.
 
-Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
-
 ## Trvání a frekvence
 
 Délku a frekvenci stanoví indikace, manuál použité modality a supervize, nikoli tato kniha.

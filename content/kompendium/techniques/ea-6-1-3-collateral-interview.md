@@ -55,8 +55,6 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 (1) Získání explicitního písemného souhlasu klienta s definicí rozsahu sdílených informací. (2) Příprava informanta — informace o cíli a etických hranicích. (3) Strukturovaný rozhovor — chronologie pozorovaných změn, behaviorální markery, vlastní emocionální reakce informanta. (4) Triangulace s informacemi z hlavního rozhovoru. (5) Reportování klientovi v rámci dohodnutých hranic.
 
-Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
-
 ## Trvání a frekvence
 
 Délku vyšetření a odstup opakování stanoví manuál použitého nástroje a supervize, nikoli tato kniha.

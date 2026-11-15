@@ -55,8 +55,6 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 (1) Activist-competent anamnéza. (2) Burnout + state harassment + movement-conflict mapping. (3) OPSEC review. (4) [Evidence-based](@/glossary/evidence-based.md) modality. (5) Sustainability planning. (6) Movement-cultural support. (7) Peer-networks.
 
-Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
-
 ## Trvání a frekvence
 
 Délku a frekvenci stanoví indikace, manuál použité modality a supervize, nikoli tato kniha.

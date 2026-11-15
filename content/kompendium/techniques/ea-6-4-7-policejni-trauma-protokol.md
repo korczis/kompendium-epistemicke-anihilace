@@ -55,8 +55,6 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 (1) Police-cultural-competent anamnéza. (2) Critical incident processing. (3) Cumulative stress. (4) [Evidence-based](@/glossary/evidence-based.md) modality (CISD redesigned, EMDR, PE). (5) Peer-support (Code Green, COPLINE). (6) Family support. (7) Career + retirement planning.
 
-Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
-
 ## Trvání a frekvence
 
 Délku a frekvenci stanoví indikace, manuál použité modality a supervize, nikoli tato kniha.

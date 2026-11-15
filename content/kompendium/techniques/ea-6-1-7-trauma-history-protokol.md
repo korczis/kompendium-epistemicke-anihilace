@@ -55,8 +55,6 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 (1) Psychoedukace o EA-trauma kategoriích a normalizace. (2) Lifetime stressor inventory — chronologické mapování. (3) Detailní explorace klíčových manipulativních epizod. (4) Mapování protective factors a resilience zdrojů. (5) Generování trauma-time-line vizualizace. (6) Stabilizace na konci každého sezení.
 
-Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
-
 ## Trvání a frekvence
 
 Délku vyšetření a odstup opakování stanoví manuál použitého nástroje a supervize, nikoli tato kniha.

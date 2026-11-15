@@ -55,8 +55,6 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 (1) Baseline měření v klidu. (2) Stresový challenge — narativní expozice klíčovým podnětům. (3) Recovery měření. (4) Ekologická ambulantní HRV monitorace. (5) Kortizolové měření (slinné, awakening response). (6) Analýza HRV (RMSSD, HF, LF/HF), kožní vodivosti (SCR amplituda, frekvence).
 
-Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
-
 ## Trvání a frekvence
 
 Délku vyšetření a odstup opakování stanoví manuál použitého nástroje a supervize, nikoli tato kniha.

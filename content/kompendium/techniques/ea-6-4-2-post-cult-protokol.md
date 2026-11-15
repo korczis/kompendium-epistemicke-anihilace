@@ -55,8 +55,6 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 (1) Cult-specific anamnesa — Steven Hassan [BITE model](@/glossary/bite-model.md) assessment. (2) Prodloužená stabilizační fáze. (3) Externalizace cult-self. (4) Information liberation — dekonstrukce cult-doctrines. (5) Identity reconstruction. (6) Sociální reintegrace. (7) Long-term peer-support skupiny (např. ICSA).
 
-Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
-
 ## Trvání a frekvence
 
 Délku a frekvenci stanoví indikace, manuál použité modality a supervize, nikoli tato kniha.

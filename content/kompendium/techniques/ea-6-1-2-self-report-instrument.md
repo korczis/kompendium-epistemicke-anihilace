@@ -55,8 +55,6 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 (1) Pilotní psychometrická validace na cílové populaci. (2) Kalibrace cut-off hodnot pro screening vs. klinickou diagnózu. (3) Administrace v kontrolovaném prostředí. (4) Skórování s automatickou validací konzistence (k-detekce). (5) Interpretace v kontextu kvalitativní anamnézy.
 
-Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
-
 ## Trvání a frekvence
 
 Délku vyšetření a odstup opakování stanoví manuál použitého nástroje a supervize, nikoli tato kniha.

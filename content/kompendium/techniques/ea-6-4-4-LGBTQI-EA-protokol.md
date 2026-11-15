@@ -55,8 +55,6 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 (1) Affirmative anamnéza. (2) Mapování konverzní/religiózní expozice. (3) Internalized homonegativity work. (4) Identity affirmation. (5) Queer narrative reconstruction. (6) Komunita-založené podpůrné skupiny. (7) Spirituální rekonciliace (volitelně).
 
-Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
-
 ## Trvání a frekvence
 
 Délku a frekvenci stanoví indikace, manuál použité modality a supervize, nikoli tato kniha.

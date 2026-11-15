@@ -55,8 +55,6 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 (1) Vojensky-senzitivní anamnéza. (2) Kombat + moral injury + MST mapping. (3) Vojenská cultural competence. (4) [Evidence-based](@/glossary/evidence-based.md) modality (PE, CPT, EMDR). (5) Moral injury work — Litz protocol. (6) Transition support. (7) Peer-support (např. veteran groups).
 
-Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
-
 ## Trvání a frekvence
 
 Délku a frekvenci stanoví indikace, manuál použité modality a supervize, nikoli tato kniha.

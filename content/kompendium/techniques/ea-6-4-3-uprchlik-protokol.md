@@ -55,8 +55,6 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 (1) Kulturně-senzitivní anamnéza s tlumočníkem. (2) Pre/peri/post-migration trauma mapping. (3) Stabilizace v kontextu nestabilního statusu. (4) NET (Narrative Exposure Therapy) jako [evidence-based](@/glossary/evidence-based.md) modalita. (5) Cultural bridging. (6) Komunita-založené reintegrace. (7) Advocacy.
 
-Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
-
 ## Trvání a frekvence
 
 Délku a frekvenci stanoví indikace, manuál použité modality a supervize, nikoli tato kniha.

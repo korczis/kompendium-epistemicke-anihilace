@@ -1,451 +1,4 @@
 {
- "bold:5-4-paradoxalni-metaanihilacni-protokoly": [
-  "bold-candidate"
- ],
- "bold:9-1-llm-mediated-ea": [
-  "bold-candidate"
- ],
- "bold:9-2-generativni-media": [
-  "bold-candidate"
- ],
- "bold:9-3-socialni-platformy": [
-  "bold-candidate"
- ],
- "bold:9-4-bot-networks": [
-  "bold-candidate"
- ],
- "bold:9-5-memeticka-valka": [
-  "bold-candidate"
- ],
- "bold:9-6-algoritmicka-governance": [
-  "bold-candidate"
- ],
- "bold:autobiograficky-self": [
-  "bold-candidate"
- ],
- "bold:bezpeci-jako-primarni-cil": [
-  "bold-candidate"
- ],
- "bold:bezpecnostni-plan": [
-  "bold-candidate"
- ],
- "bold:chair": [
-  "bold-candidate"
- ],
- "bold:continuous-adjustment": [
-  "bold-candidate"
- ],
- "bold:deprese": [
-  "bold-candidate"
- ],
- "bold:depresivni-epizoda": [
-  "bold-candidate"
- ],
- "bold:depresivni-porucha": [
-  "bold-candidate"
- ],
- "bold:destabilizace": [
-  "bold-candidate"
- ],
- "bold:detekce": [
-  "bold-candidate"
- ],
- "bold:detekce-a-odchodu": [
-  "bold-candidate"
- ],
- "bold:detekcni-bod": [
-  "bold-candidate"
- ],
- "bold:detekcni-markery": [
-  "bold-candidate"
- ],
- "bold:diagnostika": [
-  "bold-candidate"
- ],
- "bold:diferencialni-diagnostika": [
-  "bold-candidate"
- ],
- "bold:diferencialni-diagnozu": [
-  "bold-candidate"
- ],
- "bold:dobrovolnost": [
-  "bold-candidate"
- ],
- "bold:documentation-infrastructure": [
-  "bold-candidate"
- ],
- "bold:dokumentace": [
-  "bold-candidate"
- ],
- "bold:dostupnost": [
-  "bold-candidate"
- ],
- "bold:emdr": [
-  "bold-candidate"
- ],
- "bold:epistemologie": [
-  "bold-candidate"
- ],
- "bold:eskalace": [
-  "bold-candidate"
- ],
- "bold:externi-archivace": [
-  "bold-candidate"
- ],
- "bold:externi-epistemicky-audit": [
-  "bold-candidate"
- ],
- "bold:falesna-ekvivalence": [
-  "bold-candidate"
- ],
- "bold:fenomenologicke-psychopatologii": [
-  "bold-candidate"
- ],
- "bold:gradualni-expozice": [
-  "bold-candidate"
- ],
- "bold:hermeneuticka-nespravedlnost": [
-  "bold-candidate"
- ],
- "bold:hranice": [
-  "bold-candidate"
- ],
- "bold:hranicni-porucha-osobnosti": [
-  "bold-candidate"
- ],
- "bold:identita": [
-  "bold-candidate"
- ],
- "bold:iluzorni-komplexita": [
-  "bold-candidate"
- ],
- "bold:informacni-asymetrie": [
-  "bold-candidate"
- ],
- "bold:integrace": [
-  "bold-candidate"
- ],
- "bold:intelektualizace": [
-  "bold-candidate"
- ],
- "bold:internalizace": [
-  "bold-candidate"
- ],
- "bold:kalibrace": [
-  "bold-candidate"
- ],
- "bold:klinicke-nerozhodnosti": [
-  "bold-candidate"
- ],
- "bold:kognitivni-imploze": [
-  "bold-candidate"
- ],
- "bold:kognitivni-vedy": [
-  "bold-candidate"
- ],
- "bold:komunikacni-selhani": [
-  "bold-candidate"
- ],
- "bold:konsolidace": [
-  "bold-candidate"
- ],
- "bold:kontinualni-monitoring": [
-  "bold-candidate"
- ],
- "bold:krize": [
-  "bold-candidate"
- ],
- "bold:krizove-situace": [
-  "bold-candidate"
- ],
- "bold:kulturne-necitliva-implementace": [
-  "bold-candidate"
- ],
- "bold:l2-analyticke-porozumeni": [
-  "bold-candidate"
- ],
- "bold:legitimni-filozoficka-paradoxologie": [
-  "bold-candidate"
- ],
- "bold:legitimni-prace": [
-  "bold-candidate"
- ],
- "bold:lez": [
-  "bold-candidate"
- ],
- "bold:lingvisticka-paradoxie": [
-  "bold-candidate"
- ],
- "bold:literatura": [
-  "bold-candidate"
- ],
- "bold:manipulacni-aplikace": [
-  "bold-candidate"
- ],
- "bold:manipulativni-ramec": [
-  "bold-candidate"
- ],
- "bold:mauvaise-foi": [
-  "bold-candidate"
- ],
- "bold:moralni-zraneni": [
-  "bold-candidate"
- ],
- "bold:most": [
-  "bold-candidate"
- ],
- "bold:nedostatek-institucionalni-infrastruktury": [
-  "bold-candidate"
- ],
- "bold:neutralizace": [
-  "bold-candidate"
- ],
- "bold:nez-prejdes-ke-konkretnim-kategoriim": [
-  "bold-candidate"
- ],
- "bold:noeticko-noematicka-korelace": [
-  "bold-candidate"
- ],
- "bold:odchod-a-rekonstrukce": [
-  "bold-candidate"
- ],
- "bold:odliseni": [
-  "bold-candidate"
- ],
- "bold:opakovani": [
-  "bold-candidate"
- ],
- "bold:osobni-signaly": [
-  "bold-candidate"
- ],
- "bold:pamet": [
-  "bold-candidate"
- ],
- "bold:passive-genesis": [
-  "bold-candidate"
- ],
- "bold:perturbace": [
-  "bold-candidate"
- ],
- "bold:pocatecniho-kontaktu": [
-  "bold-candidate"
- ],
- "bold:podminky-moznosti": [
-  "bold-candidate"
- ],
- "bold:posouzeni": [
-  "bold-candidate"
- ],
- "bold:posouzeni-bezpeci": [
-  "bold-candidate"
- ],
- "bold:power-asymmetry": [
-  "bold-candidate"
- ],
- "bold:pragmatisticka-korekce": [
-  "bold-candidate"
- ],
- "bold:prakticka-bezmocnost": [
-  "bold-candidate"
- ],
- "bold:prakticka-dezorientace": [
-  "bold-candidate"
- ],
- "bold:pre-implementation-assessment": [
-  "bold-candidate"
- ],
- "bold:pre-predikativni-zkusenosti": [
-  "bold-candidate"
- ],
- "bold:predani": [
-  "bold-candidate"
- ],
- "bold:predbezna-pitva": [
-  "bold-candidate"
- ],
- "bold:predtim-nez-pokrocis-do-dalsich-sekci": [
-  "bold-candidate"
- ],
- "bold:prepis": [
-  "bold-candidate"
- ],
- "bold:presnost": [
-  "bold-candidate"
- ],
- "bold:prevence": [
-  "bold-candidate"
- ],
- "bold:primy-dotaz-na-sebevrazedne-myslenky": [
-  "bold-candidate"
- ],
- "bold:princip-dual-use-vedomi": [
-  "bold-candidate"
- ],
- "bold:princip-strategicke-neuplnosti": [
-  "bold-candidate"
- ],
- "bold:pripravenost": [
-  "bold-candidate"
- ],
- "bold:pro-instituce": [
-  "bold-candidate"
- ],
- "bold:pro-organizace": [
-  "bold-candidate"
- ],
- "bold:pro-profesionaly": [
-  "bold-candidate"
- ],
- "bold:prosodicka-dominance": [
-  "bold-candidate"
- ],
- "bold:proverit-ucty": [
-  "bold-candidate"
- ],
- "bold:psani": [
-  "bold-candidate"
- ],
- "bold:pseudo-mysticka-euforie": [
-  "bold-candidate"
- ],
- "bold:reagovat-vecne": [
-  "bold-candidate"
- ],
- "bold:rekonstrukce": [
-  "bold-candidate"
- ],
- "bold:reprezentativnost": [
-  "bold-candidate"
- ],
- "bold:resource-provisioning": [
-  "bold-candidate"
- ],
- "bold:s1-validace-a-mapovani": [
-  "bold-candidate"
- ],
- "bold:s1-validaci-a-mapovani": [
-  "bold-candidate"
- ],
- "bold:s2-externalizace-introjektu": [
-  "bold-candidate"
- ],
- "bold:s2-externalizaci-introjektu": [
-  "bold-candidate"
- ],
- "bold:s4-hermeneuticka-obnova": [
-  "bold-candidate"
- ],
- "bold:s4-hermeneuticke-obnove": [
-  "bold-candidate"
- ],
- "bold:s5-konsolidace-a-transfer": [
-  "bold-candidate"
- ],
- "bold:self": [
-  "bold-candidate"
- ],
- "bold:sensibilite": [
-  "bold-candidate"
- ],
- "bold:simulace": [
-  "bold-candidate"
- ],
- "bold:slovni-intelektualizace": [
-  "bold-candidate"
- ],
- "bold:socialni-psychologie": [
-  "bold-candidate"
- ],
- "bold:socialni-uzkost": [
-  "bold-candidate"
- ],
- "bold:sokratovska-elenchos": [
-  "bold-candidate"
- ],
- "bold:souvisejici": [
-  "bold-candidate"
- ],
- "bold:spoustece": [
-  "bold-candidate"
- ],
- "bold:stabilizace": [
-  "bold-candidate"
- ],
- "bold:stratifikace-meta-urovni": [
-  "bold-candidate"
- ],
- "bold:strukturalni-dimenze": [
-  "bold-candidate"
- ],
- "bold:tato-priloha-je-referencni-nastroj": [
-  "bold-candidate"
- ],
- "bold:telesna-zakotvenost": [
-  "bold-candidate"
- ],
- "bold:telova-stabilizace-pred-narativni-rekonstrukci": [
-  "bold-candidate"
- ],
- "bold:terminalni-protokol": [
-  "bold-candidate"
- ],
- "bold:terminalni-protokoly": [
-  "bold-candidate"
- ],
- "bold:terminologicka-mystifikace": [
-  "bold-candidate"
- ],
- "bold:transcendentalni-iluze": [
-  "bold-candidate"
- ],
- "bold:transparentnost": [
-  "bold-candidate"
- ],
- "bold:triangulace": [
-  "bold-candidate"
- ],
- "bold:utok": [
-  "bold-candidate"
- ],
- "bold:uzavreni": [
-  "bold-candidate"
- ],
- "bold:uzkostne-poruchy": [
-  "bold-candidate"
- ],
- "bold:verohodnost": [
-  "bold-candidate"
- ],
- "bold:volni-paralyza": [
-  "bold-candidate"
- ],
- "bold:vs-disociativni-poruchy": [
-  "bold-candidate"
- ],
- "bold:vs-mysticka-zkusenost": [
-  "bold-candidate"
- ],
- "bold:vs-psychoticke-spektrum": [
-  "bold-candidate"
- ],
- "bold:vydirani": [
-  "bold-candidate"
- ],
- "bold:vyklad": [
-  "bold-candidate"
- ],
- "bold:zakaz-konfrontacnich-a-regresnich-technik": [
-  "bold-candidate"
- ],
- "bold:zdroje": [
-  "bold-candidate"
- ],
- "bold:zotaveni": [
-  "bold-candidate"
- ],
- "bold:zuzeni": [
-  "bold-candidate"
- ],
  "content/about.md": [
   "citations:5"
  ],
@@ -456,16 +9,10 @@
   "bullets:16",
   "citations:18"
  ],
- "content/glossary/agent.md": [
-  "bullets:15",
-  "citations:15"
- ],
  "content/glossary/akademicka-technika.md": [
-  "bullets:10",
   "citations:9"
  ],
  "content/glossary/akutni-naruseni.md": [
-  "bullets:10",
   "citations:10"
  ],
  "content/glossary/anihilacni-fenomeny.md": [
@@ -477,11 +24,9 @@
   "citations:10"
  ],
  "content/glossary/apofatika.md": [
-  "bullets:13",
   "citations:11"
  ],
  "content/glossary/apriori.md": [
-  "bullets:13",
   "citations:9"
  ],
  "content/glossary/aristotelovy-kategorie.md": [
@@ -493,16 +38,11 @@
   "citations:9"
  ],
  "content/glossary/banalita-zla.md": [
-  "bullets:8",
   "citations:9"
  ],
  "content/glossary/blame-shifting.md": [
   "bullets:24",
   "citations:10"
- ],
- "content/glossary/blue-team.md": [
-  "bullets:26",
-  "citations:20"
  ],
  "content/glossary/category-mistake.md": [
   "bullets:15",
@@ -529,19 +69,15 @@
   "citations:8"
  ],
  "content/glossary/cynicky-rozum.md": [
-  "bullets:9",
   "citations:9"
  ],
  "content/glossary/demarkacni-problem.md": [
-  "bullets:9",
-  "citations:10"
+  "citations:9"
  ],
  "content/glossary/deplatforming.md": [
-  "bullets:10",
-  "citations:8"
+  "citations:7"
  ],
  "content/glossary/des-ii.md": [
-  "bullets:9",
   "citations:8"
  ],
  "content/glossary/differance.md": [
@@ -549,7 +85,6 @@
   "citations:5"
  ],
  "content/glossary/ding-an-sich.md": [
-  "bullets:12",
   "citations:9"
  ],
  "content/glossary/discard.md": [
@@ -557,7 +92,6 @@
   "citations:8"
  ],
  "content/glossary/diskursivni-formace.md": [
-  "bullets:9",
   "citations:9"
  ],
  "content/glossary/dissociativni-amnezie.md": [
@@ -565,7 +99,6 @@
   "citations:7"
  ],
  "content/glossary/doubling.md": [
-  "bullets:9",
   "citations:11"
  ],
  "content/glossary/due-diligence.md": [
@@ -620,7 +153,6 @@
   "citations:8"
  ],
  "content/glossary/expert-witness.md": [
-  "bullets:12",
   "citations:10"
  ],
  "content/glossary/falsifikabilita.md": [
@@ -632,15 +164,12 @@
   "citations:8"
  ],
  "content/glossary/forensic-interview.md": [
-  "bullets:13",
-  "citations:10"
+  "citations:3"
  ],
  "content/glossary/four-noble-truths.md": [
-  "bullets:11",
   "citations:7"
  ],
  "content/glossary/fuze-horizontu.md": [
-  "bullets:8",
   "citations:10"
  ],
  "content/glossary/gestalt-shift.md": [
@@ -652,11 +181,9 @@
   "citations:9"
  ],
  "content/glossary/graph-theory.md": [
-  "bullets:9",
   "citations:23"
  ],
  "content/glossary/habitus.md": [
-  "bullets:8",
   "citations:11"
  ],
  "content/glossary/heat-death.md": [
@@ -668,7 +195,6 @@
   "citations:6"
  ],
  "content/glossary/hermeneuticka-marginalizace.md": [
-  "bullets:9",
   "citations:10"
  ],
  "content/glossary/hermeneuticky-kruh.md": [
@@ -680,8 +206,7 @@
   "citations:7"
  ],
  "content/glossary/heuristika.md": [
-  "bullets:12",
-  "citations:9"
+  "citations:8"
  ],
  "content/glossary/hodnotova-destrukce.md": [
   "bullets:24",
@@ -704,20 +229,14 @@
   "citations:5"
  ],
  "content/glossary/ideal-speech-situation.md": [
-  "bullets:11",
-  "citations:6"
+  "citations:4"
  ],
  "content/glossary/identity-destruction.md": [
   "bullets:15",
   "citations:7"
  ],
  "content/glossary/ies-r.md": [
-  "bullets:9",
   "citations:6"
- ],
- "content/glossary/inference.md": [
-  "bullets:9",
-  "citations:8"
  ],
  "content/glossary/infinitni-regress.md": [
   "bullets:13",
@@ -731,10 +250,6 @@
   "bullets:17",
   "citations:5"
  ],
- "content/glossary/intelligence-fusion.md": [
-  "bullets:10",
-  "citations:10"
- ],
  "content/glossary/introjekce.md": [
   "bullets:13",
   "citations:8"
@@ -744,19 +259,16 @@
   "citations:6"
  ],
  "content/glossary/jazykova-hra.md": [
-  "bullets:9",
   "citations:10"
  ],
  "content/glossary/kantovy-kategorie.md": [
-  "bullets:12",
-  "citations:7"
+  "citations:6"
  ],
  "content/glossary/kataphasis.md": [
   "bullets:16",
   "citations:7"
  ],
  "content/glossary/kognitivni-bias.md": [
-  "bullets:7",
   "citations:6"
  ],
  "content/glossary/kognitivni-stagnace.md": [
@@ -772,7 +284,6 @@
   "citations:6"
  ],
  "content/glossary/konfabulace.md": [
-  "bullets:12",
   "citations:7"
  ],
  "content/glossary/konsenzualni-realita.md": [
@@ -804,12 +315,10 @@
   "citations:8"
  ],
  "content/glossary/lti-lingua-tertii-imperii.md": [
-  "bullets:11",
   "citations:7"
  ],
  "content/glossary/mereologicka-rekonstrukce.md": [
-  "bullets:11",
-  "citations:9"
+  "citations:3"
  ],
  "content/glossary/meta-epistemologie.md": [
   "bullets:15",
@@ -820,7 +329,6 @@
   "citations:6"
  ],
  "content/glossary/metanarrative-collapse.md": [
-  "bullets:12",
   "citations:8"
  ],
  "content/glossary/modalni-logika.md": [
@@ -833,14 +341,13 @@
  ],
  "content/glossary/narativni-topologie.md": [
   "bullets:17",
-  "citations:8"
+  "citations:7"
  ],
  "content/glossary/narrative-trauma.md": [
   "bullets:19",
   "citations:8"
  ],
  "content/glossary/normalni-veda.md": [
-  "bullets:9",
   "citations:8"
  ],
  "content/glossary/noumenum.md": [
@@ -856,8 +363,7 @@
   "citations:19"
  ],
  "content/glossary/paradigm-shift.md": [
-  "bullets:2",
-  "citations:33"
+  "bullets:2"
  ],
  "content/glossary/paradigmaticka-bezdomovina.md": [
   "bullets:18",
@@ -876,8 +382,7 @@
   "citations:7"
  ],
  "content/glossary/performativni-akt.md": [
-  "bullets:12",
-  "citations:9"
+  "citations:8"
  ],
  "content/glossary/pluralismus.md": [
   "bullets:18",
@@ -911,21 +416,16 @@
   "bullets:20",
   "citations:6"
  ],
- "content/glossary/ptsd.md": [
-  "bullets:10",
-  "citations:9"
- ],
  "content/glossary/purple-team.md": [
-  "bullets:10",
-  "citations:11"
+  "bullets:2",
+  "citations:1"
  ],
  "content/glossary/pyrrhonismus.md": [
   "bullets:14",
   "citations:7"
  ],
  "content/glossary/red-team.md": [
-  "bullets:16",
-  "citations:20"
+  "bullets:2"
  ],
  "content/glossary/risk-score.md": [
   "bullets:24",
@@ -936,8 +436,8 @@
   "citations:5"
  ],
  "content/glossary/sanctions-screening.md": [
-  "bullets:14",
-  "citations:9"
+  "bullets:2",
+  "citations:1"
  ],
  "content/glossary/scam-compliance.md": [
   "bullets:22",
@@ -972,7 +472,6 @@
   "citations:7"
  ],
  "content/glossary/system-1-system-2.md": [
-  "bullets:8",
   "citations:9"
  ],
  "content/glossary/tautologie.md": [
@@ -988,8 +487,7 @@
   "citations:7"
  ],
  "content/glossary/verejna-sfera.md": [
-  "bullets:9",
-  "citations:9"
+  "citations:8"
  ],
  "content/glossary/via-negativa.md": [
   "bullets:16",
@@ -1000,8 +498,8 @@
   "citations:6"
  ],
  "content/glossary/weaponized-incompetence.md": [
-  "bullets:14",
-  "citations:8"
+  "bullets:2",
+  "citations:6"
  ],
  "content/glossary/zenon-paradox.md": [
   "bullets:18",
@@ -1598,9 +1096,6 @@
  ],
  "content/kompendium/glossary-bridges/_index.md": [
   "citations:13"
- ],
- "content/kompendium/glossary-bridges/bridge-agent.md": [
-  "citations:11"
  ],
  "content/kompendium/glossary-bridges/bridge-anankasticky-rezim.md": [
   "citations:8"
@@ -4530,7 +4025,7 @@
  ],
  "content/kompendium/techniques/ea-8-1-6-betrayal-trauma-inventory.md": [
   "bullets:11",
-  "citations:8"
+  "citations:7"
  ],
  "content/kompendium/techniques/ea-8-1-7-disociativni-experiences-scale.md": [
   "bullets:14",

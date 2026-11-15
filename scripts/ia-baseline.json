@@ -708,7 +708,7 @@
  ],
  "content/kompendium/06-klinicke-aplikace/_index.md": [
   "citations:4",
-  "bullets:18"
+  "bullets:15"
  ],
  "content/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md": [
   "citations:11",
@@ -716,39 +716,39 @@
  ],
  "content/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md": [
   "citations:11",
-  "bullets:23"
+  "bullets:20"
  ],
  "content/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md": [
   "citations:5",
-  "bullets:31"
+  "bullets:28"
  ],
  "content/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md": [
   "citations:5",
-  "bullets:116"
+  "bullets:113"
  ],
  "content/kompendium/06-klinicke-aplikace/kolektivni-intervence.md": [
   "citations:5",
-  "bullets:80"
+  "bullets:77"
  ],
  "content/kompendium/06-klinicke-aplikace/preventivni-strategie.md": [
   "citations:10",
-  "bullets:65"
+  "bullets:62"
  ],
  "content/kompendium/06-klinicke-aplikace/pripad-akademie.md": [
   "citations:17",
-  "bullets:26"
+  "bullets:23"
  ],
  "content/kompendium/06-klinicke-aplikace/pripad-doktorat.md": [
   "citations:23",
-  "bullets:24"
+  "bullets:21"
  ],
  "content/kompendium/06-klinicke-aplikace/supervizni-ramce.md": [
   "citations:19",
-  "bullets:26"
+  "bullets:23"
  ],
  "content/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md": [
   "citations:10",
-  "bullets:53"
+  "bullets:50"
  ],
  "content/kompendium/06-klinicke-aplikace/visualizations.md": [
   "citations:8",
@@ -756,7 +756,7 @@
  ],
  "content/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md": [
   "citations:4",
-  "bullets:100"
+  "bullets:97"
  ],
  "content/kompendium/06-obrana/_index.md": [
   "citations:9",

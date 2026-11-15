@@ -17,7 +17,7 @@ status = "preparation"
 
 # 05. Ultramární techniky fundamentální dekonstrukce
 
-> 🚨 **Přístupová úroveň L3–L4**: Tato sekce popisuje **nejpokročilejší a potenciálně nejdestruktivnější** formy [epistemické anihilace](@/glossary/epistemicka-anihilace.md). Přístup je možný **výhradně pro kvalifikované výzkumníky pod institucionálním IRB protokolem** s explicitní etickou supervizí. Materiály nejsou určeny pro obecné publikum a nesmí být užívány jako návod — slouží exkluzivně k taxonomické fixaci, diagnostické přípravě klinických týmů a konstrukci preventivních protiopatření.
+> 🚨 Tato sekce popisuje **nejpokročilejší a potenciálně nejdestruktivnější** formy [epistemické anihilace](@/glossary/epistemicka-anihilace.md). Přístup je možný **výhradně pro kvalifikované výzkumníky pod institucionálním IRB protokolem** s explicitní etickou supervizí. Materiály nejsou určeny pro obecné publikum a nesmí být užívány jako návod — slouží exkluzivně k taxonomické fixaci, diagnostické přípravě klinických týmů a konstrukci preventivních protiopatření.
 
 ## Pozice sekce v kompendiu
 

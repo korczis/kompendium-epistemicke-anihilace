@@ -17,7 +17,7 @@ access_level = "L3-L4"
 
 # Kapitola 6 — Epistemická singularita
 
-> 🚨 **Přístupová úroveň L3–L4**. Kapitola popisuje 30 ultramárních technik (EA-5.1.*) operujících na rovině [metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md). Materiály vyžadují IRB autorizaci a etickou supervizi. Veřejně dostupné jsou výhradně metaúrovňové popisy fenomenologie a klinického obrazu — operační detaily jsou redigovány nebo přesunuty do restriktivních L4 příloh.
+> 🚨 Kapitola popisuje 30 ultramárních technik (EA-5.1.*) operujících na rovině [metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md). Materiály vyžadují IRB autorizaci a etickou supervizi. Veřejně dostupné jsou výhradně metaúrovňové popisy fenomenologie a klinického obrazu — operační detaily jsou redigovány nebo přesunuty do restriktivních L4 příloh.
 
 ## Pozice kapitoly
 

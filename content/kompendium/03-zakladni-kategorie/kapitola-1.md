@@ -107,6 +107,7 @@ Miranda Fricker rozlišuje **testimoniální** a **hermeneutickou** epistemickou
 Distinktním přínosem taxonomie EA-1 oproti Frickerové je **mikroúroveň techniky** (Frickerová operuje primárně na strukturální úrovni nespravedlnosti) a **integrace neverbálních modalit** (paralingvistika a proxemika).
 
 {% set cat = load_data(path="static/data/catalogue.json") %}{% set n = cat.families["1.1"] | length + cat.families["1.2"] | length + cat.families["1.3"] | length + cat.families["1.4"] | length + cat.families["1.5"] | length %}
+
 ## Taxonomie {{ n }} technik EA-1.*
 
 Následující taxonomie systematicky kategorizuje {{ n }} technik intelektuální manipulace v akademickém kontextu. Každá technika je kategorizována podle primární epistemické funkce, kterou narušuje, a dominantního modu operace. Každý kód [EA-1.X.Y] odkazuje na samostatný hloubkový článek v podknihovně technik.
@@ -185,6 +186,7 @@ Vedle základních technik kompendium identifikuje **kompoziční vzorce** — k
 |----|--------|---------|
 {% for t in cat.families["1.6"] %}| **[{{ t.code }}](@/kompendium/techniques/{{ t.slug }}.md)** | {{ t.name }} | {{ t.summary }} |
 {% endfor %}
+
 ### Vzorec „Guru a adept“
 
 **Deskripce**: Systematické etablování asymetrického epistemického vztahu charakterizovaného extrémní deferencí adepta k epistemické autoritě gurua a suspenzí kritických evaluačních procesů.

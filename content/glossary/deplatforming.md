@@ -51,17 +51,19 @@ radikalizuje (selekční efekt a menší tření s normami).
 
 ## Jak se projevuje
 
-**Deplatforming jako obrana** (zásah platformy proti aktérovi):
+Deplatforming se projevuje dvojím způsobem. **Jako obrana**, tedy zásah platformy proti aktérovi, má podobu
+náhlého zmizení jeho účtů, kanálů nebo aplikace. Chandrasekharan a kolegové (2017) na zrušení komunit na
+Redditu v roce 2015 ukázali, že velká část dotčených účtů po zásahu přestala být aktivní a že ti, kdo
+zůstali, šířili výrazně méně nenávistného obsahu, a Jhaver a kolegové (2021) zjistili, že po vyřazení vlivných aktérů klesla pozornost,
+kterou jejich sdělení dostávala. Rogers (2020) popisuje, jak se vyřazení aktéři přesouvají na menší, méně
+moderované služby a svým příznivcům zásah vykládají jako pronásledování, které soudržnost komunity posiluje.
 
-- náhlé zmizení účtů, kanálů nebo aplikace aktéra;
-- přesun komunity na menší, méně moderované služby;
-- v komunitě aktéra narativ pronásledování, který posiluje soudržnost.
-
-**Deplatforming jako útok** (na cílovou osobu):
-
-- koordinované hromadné nahlašování účtu, které vede k automatickému zablokování;
-- postupné vyřazení z více služeb v krátké době (*kaskáda*);
-- ztráta kontaktu s publikem, klienty nebo komunitou, a tím i ztráta hlasu ve sporu.
+**Jako útok** na cílovou osobu se deplatforming projevuje tím, že ztratí účty, a s nimi kontakt s publikem,
+klienty nebo komunitou, a tím i hlas ve sporu. Gillespie (2018) popisuje, jak systémy nahlašování obsahu,
+které platformy zavedly k ochraně uživatelů, mohou být použity strategicky, když skupina koordinovaně nahlásí
+účet, aby vyvolala jeho zablokování. Williams (2007) ukazuje, že vyloučení ze sociální skupiny ohrožuje
+základní potřeby příslušnosti, sebeúcty, kontroly a smysluplné existence, a právě tyto ztráty doprovázejí i vyřazení z
+komunikačních kanálů. Kniha postupné vyřazení z více služeb v krátké době nazývá kaskádou.
 
 Druhou podobu popisuje Kompendium jako [EA-9.6.4 AI Deplatforming
 Cascade](@/kompendium/techniques/ea-9-6-4-AI-deplatforming-cascade.md) a detekční
@@ -84,11 +86,11 @@ platforem, jakkoli dobře míněné, mohou poškodit epistemický ekosystém, kt
 
 ## Odlišení
 
-- **Moderace obsahu.** Odstranění jednotlivého příspěvku; deplatforming odebírá celý kanál.
-- **[Delegitimizace](@/glossary/delegitimizace.md).** Útok na status zdroje; deplatforming
-  útočí na jeho dosah. Často se kombinují.
-- **Cenzura státem.** Deplatforming provádějí obvykle soukromé subjekty podle vlastních
-  pravidel; právní rámec se liší.
+| Odlišit od | Rozdíl |
+| --- | --- |
+| Moderace obsahu | odstranění jednotlivého příspěvku; deplatforming odebírá celý kanál |
+| [Delegitimizace](@/glossary/delegitimizace.md) | útok na status zdroje; deplatforming útočí na jeho dosah, a oba se často kombinují |
+| Cenzura státem | deplatforming provádějí obvykle soukromé subjekty podle vlastních pravidel a právní rámec se liší |
 
 ## Význam pro Kompendium
 
@@ -101,17 +103,8 @@ a [EA-2.3.6 Platform Coordinated
 Attack](@/kompendium/techniques/ea-2-3-6-platform-coordinated-attack.md) – a zároveň
 upozorňují na riziko epistemické monokultury, které zásah přináší.
 
-Na platformě, z níž kniha vzešla:
-
-  deplatforming podle pěti kritérií: (1) specifičnost škody, (2) vratnost zásahu,
-  (3) obecnost precedentu, (4) přiměřenost řádného procesu, (5) sledování po zásahu;
-  deplatformingem za **nejednoznačné co do původu**: jejich pozdější výstup může být
-  skutečně problematický, nebo zkreslený přesunem do prostředí s nižší moderací;
-  vylučuje stav, kdy by se pracovalo jen se „schválenými“ zdroji: model, který uvažuje jen
-  nad nimi, nesplňuje invariant rozmanitosti;
-- hesla [Info-Ops](@/glossary/info-ops.md) a [Firehose of
-  Falsehood](@/glossary/firehose-of-falsehood.md) popisují modely hrozeb, jimiž se
-  deplatforming někdy zdůvodňuje.
+Modely hrozeb, jimiž se deplatforming někdy zdůvodňuje, popisují hesla [Info-Ops](@/glossary/info-ops.md) a
+[Firehose of Falsehood](@/glossary/firehose-of-falsehood.md).
 
 ## Obrana a zotavení
 
@@ -129,6 +122,9 @@ od případu.
 
 ## Literatura
 
+- Gillespie, T. (2018). *Custodians of the Internet: Platforms, Content Moderation, and the Hidden Decisions That Shape Social Media*. Yale University Press.
+- Rogers, R. (2020). *Deplatforming: Following extreme Internet celebrities to Telegram and alternative social media*. European Journal of Communication, 35(3).
+- Williams, K. D. (2007). *Ostracism*. Annual Review of Psychology, 58.
 - Eshwar Chandrasekharan a kol.: „You Can't Stay Here: The Efficacy of Reddit's 2015 Ban
   Examined Through Hate Speech“, *Proceedings of the ACM on Human-Computer Interaction*
   (CSCW, 2017).

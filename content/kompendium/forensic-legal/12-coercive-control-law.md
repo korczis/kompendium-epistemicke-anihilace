@@ -48,7 +48,7 @@ a Hester (2019).
 zákoníku, zákona č. 40/2009 Sb., postihnout zejména jako **týrání osoby žijící ve společném
 obydlí** (§ 199), které se v praxi vykládá jako jednání s určitou trvalostí a může mít
 i podobu psychického týrání. Podle okolností přicházejí v úvahu též **nebezpečné
-pronásledování** (§ 354), **vydírání** (§ 175) nebo **útisk** (§ 177). Ochranu mimo trestní
+pronásledování** (§ 354), **[vydírání](@/glossary/vydirani.md)** (§ 175) nebo **útisk** (§ 177). Ochranu mimo trestní
 řízení poskytuje policejní vykázání podle zákona č. 273/2008 Sb., o Policii České republiky,
 a předběžné opatření při domácím násilí podle zákona č. 292/2013 Sb., o zvláštních řízeních
 soudních. Přehled jednotlivých jurisdikcí obsahují stránky [UK – EA právní

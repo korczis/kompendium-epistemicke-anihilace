@@ -17,13 +17,13 @@ access_level = "L3-L4"
 
 # Kapitola 10 — Transkonceptuální mechanismy
 
-> 🚨 Kapitola popisuje 30 ultramárních technik ([EA-5.5.1](@/kompendium/techniques/ea-5-5-1-pre-predikativni-blokace.md) a další) operujících **pod prahem konceptuálního zachycení** — na úrovni, která předchází formování pojmů, na nichž operuje veškerá explicitní reflexe, identita, evaluace a paradoxalita. Materiály vyžadují IRB autorizaci a etickou supervizi. Veřejně dostupné jsou výhradně kompaktní taxonomické popisy s 60–100 slovními deskripcemi. Operační detaily a rekonstruktivní protokoly zůstávají v restriktivních L4 přílohách. Plné per-technique články pro EA-5.5.* jsou v přípravné fázi.
+> 🚨 Kapitola popisuje 30 ultramárních technik ([EA-5.5.1](@/kompendium/techniques/ea-5-5-1-pre-predikativni-blokace.md) a další) operujících **pod prahem konceptuálního zachycení** — na úrovni, která předchází formování pojmů, na nichž operuje veškerá explicitní reflexe, identita, evaluace a paradoxalita. Materiály vyžadují IRB autorizaci a etickou supervizi. Kniha popisuje techniky kompaktní taxonomickou deskripcí; operační detaily ani rekonstruktivní protokoly neobsahuje. Plné per-technique články pro EA-5.5.* jsou v přípravné fázi.
 
 ## Pozice kapitoly
 
 Tato kapitola **uzavírá vertikální gradient destrukce** sekce 05. Po [Kapitole 6](@/kompendium/05-ultramari-techniky/kapitola-6.md) (reflexivita), [Kapitole 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) (transcendentální podmínky), [Kapitole 8](@/kompendium/05-ultramari-techniky/kapitola-8.md) (identita) a [Kapitole 9](@/kompendium/05-ultramari-techniky/kapitola-9.md) (logická struktura evaluace) zasahuje Kapitola 10 nejhlubší dostupnou vrstvu — **předkonceptuální vrstvu**, na níž zkušenostní pole subjektu existuje **dříve, než je rozčleněno do pojmů**, na nichž všechny předchozí kapitoly operují.
 
-Předkonceptuální vrstva je v fenomenologické tradici dlouho dokumentována pod různými jmény: **pre-predikativní zkušenost** (Husserl — *Erfahrung und Urteil*), **[lebenswelt](@/glossary/lebenswelt.md)** (Husserl — Krise), **chair-tělo** (Merleau-Ponty), **Stimmung/atmosféra** (Heidegger), **gestalt-zázemí** (Kurt Goldstein, Aron Gurwitsch), **bytí-mezi** (Maldiney), **field-consciousness** (William James — *fringe*), **non-conceptual content** (Gareth Evans, Christopher Peacocke — analytická tradice).
+Předkonceptuální vrstva je v fenomenologické tradici dlouho dokumentována pod různými jmény: **[pre-predikativní zkušenost](@/glossary/pre-predikativni-zkusenost.md)** (Husserl — *Erfahrung und Urteil*), **[lebenswelt](@/glossary/lebenswelt.md)** (Husserl — Krise), **chair-tělo** (Merleau-Ponty), **Stimmung/atmosféra** (Heidegger), **gestalt-zázemí** (Kurt Goldstein, Aron Gurwitsch), **bytí-mezi** (Maldiney), **field-consciousness** (William James — *fringe*), **non-conceptual content** (Gareth Evans, Christopher Peacocke — analytická tradice).
 
 Tato vrstva je **strukturálně rezistentní vůči konceptualizaci** — pokus ji uchopit pojmově ji nutně transformuje na konceptuální obsah, který už není pre-konceptuální. Techniky kapitoly 10 exploitují právě tento strukturální fakt: zasahují vrstvu, kterou subjekt nedokáže zachytit pojmovým aparátem, a tedy ani **artikulovat** to, co se s ním děje. Klinické popisy syndromů z této kapitoly mají charakteristickou kvalitu *ne-vyslovitelnosti* — subjekt cítí „něco zásadního se změnilo“, ale není schopen specifikovat co.
 
@@ -137,7 +137,7 @@ Transkonceptuální mechanismy jsou **nejcitlivější** vrstvou kompendia:
 
 - **Ne-vyslovitelnost zhoršuje terapeutickou intervenci** — subjekt nemůže verbálně artikulovat svůj stav, což činí standardní psychoterapeutické nástroje neúčinnými. Nabízejí se spíš přístupy pracující s tělesnou zkušeností (například Hakomi, Focusing nebo jiná body-oriented psychotherapy); jejich účinnost pro tento obraz kniha nedokládá.
 - **Riziko misdiagnostiky** — bez specializované znalosti je syndromový obraz EA-5.5.* snadno zaměněn s psychózou, alexithymie nebo somatoformní poruchou. Pramen o takových pochybeních kniha nemá; dřívější verze tu tvrdila, že je klinická literatura dokumentuje, a žádnou neuvedla. Riziko záměny je odvozené z podobnosti obrazů, ne z doložených případů.
-- **Operační detaily L4-restriktivní** — plné protokoly nejsou veřejně dostupné. Per-technique články pro EA-5.5.* budou publikovány pouze po dokončení etické supervize a po publikaci rekonstruktivních protokolů v [Sekci 06](@/kompendium/06-klinicke-aplikace/_index.md).
+- **Bez operačních detailů** — plné protokoly kniha neobsahuje. Per-technique články pro EA-5.5.* jsou v přípravné fázi; [Sekce 06](@/kompendium/06-klinicke-aplikace/_index.md) popisuje klinické aplikace.
 
 ## Vztah k ostatním kapitolám
 

@@ -35,12 +35,12 @@ Studie 01–40 sdílejí dvanáctidílnou osnovu, která umožňuje případy po
 7. **Intervenční strategie** – obvykle podle
    [protokolu epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) (S1–S5).
 8. **Výsledek a reziduální deficity** – co se obnovilo a co přetrvává.
-9. **Diferenciální diagnostika** – s čím si stav nezaměnit.
+9. **[Diferenciální diagnostika](@/glossary/diferencialni-diagnoza.md)** – s čím si stav nezaměnit.
 10. **Právní a institucionální rámec** – obecně, se zákony jen tam, kde je odkaz jistý.
 11. **Prevence a poučení pro praxi** – pro instituce, kliniky a dotčené osoby.
 12. **Limity a otevřené otázky** – co kompozit nezachycuje.
 
-Každá studie končí oddílem **Související** s odkazy na glosář, protokoly a příbuzné případy.
+Každá studie končí oddílem Související s odkazy na glosář, protokoly a příbuzné případy.
 
 ## Přehled podle domén
 

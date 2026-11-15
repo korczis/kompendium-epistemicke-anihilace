@@ -109,7 +109,7 @@ krajní popis. Žádné z těchto rozlišení není nálezem literatury; jde o u
 cena se měří tím, co dovolí rozpoznat a co zakryje (Bowker a Star 1999).
 
 Klinicky je třeba odlišit stavy, které tytéž projevy působí samy. Depresivní porucha,
-úzkostné poruchy, disociativní poruchy a následky akutního stresu mají každá vlastní vymezení
+[úzkostné poruchy](@/glossary/uzkostne-poruchy.md), disociativní poruchy a následky akutního stresu mají každá vlastní vymezení
 a vlastní léčbu; DSM-5-TR je popisuje jako samostatné jednotky, které vyžadují vlastní
 posouzení (American Psychiatric Association 2022). Blízkou, ale doloženou jednotkou je
 [komplexní posttraumatická stresová porucha](@/glossary/c-ptsd.md); pojem kognitivních trosek

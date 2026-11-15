@@ -77,7 +77,7 @@ Zúžení pole vědomí není samo o sobě znakem manipulace. Zamilovanost, nad�
 o nemocné dítě pole vědomí také zužují, takže rozdíl je v dobrovolnosti, v reverzibilitě a v tom, zda
 zúžení slouží člověku, nebo někomu jinému (Husserl, 1913). Monotematická pozornost ke hrozbě je navíc
 součástí úzkostných a obsedantních poruch; manipulací vyvolaný obraz se od nich odliší vazbou na
-konkrétní vztah a zmírněním v odstupu, zatímco u úzkostné poruchy tato vazba chybí. Zaměňování aktů,
+konkrétní vztah a zmírněním v odstupu, zatímco u [úzkostné poruchy](@/glossary/uzkostne-poruchy.md) tato vazba chybí. Zaměňování aktů,
 tedy vzpomínky a představy, může být disociativní a vyžaduje klinické vyšetření (viz
 [Disociace](@/glossary/disociace.md)), a obtíže s řízením pozornosti u ADHD jsou dlouhodobé a nezávislé
 na vztahu; Sass a Parnas (2003) upozorňují, že hyperreflexivitu je rovněž nutné odlišit od primárně

@@ -147,7 +147,7 @@ odehrává na finančních trzích.
 na bipolární poruchu (American Psychiatric Association, 2013). U subjektu se epizody nálady mimo
 kontext komunity nevyskytovaly, ale screening je nutný, protože léčba se zásadně liší.
 
-**Depresivní epizoda** byla po zhroucení přítomna, s vysokým rizikem suicidality vlivem studu
+**[Depresivní epizoda](@/glossary/depresivni-epizoda-a-porucha.md)** byla po zhroucení přítomna, s vysokým rizikem suicidality vlivem studu
 a finanční bezvýchodnosti. Herman (1992) připomíná, že stud a izolace jsou nejsilnějšími
 překážkami vyhledání pomoci i v situacích, kdy je pomoc dostupná.
 

@@ -68,7 +68,7 @@ o týž mechanismus, je *interpretace knihy*.
 
 Pátým pozadím je netolerance nejistoty jako měřená vlastnost. Freeston a spolupracovníci
 ukázali, že obtíž snášet neurčitost je samostatný prediktor úzkostného zaujetí (Freeston et al.,
-1994), a Dugas se spolupracovníky ji zařadili do modelu generalizované úzkostné poruchy (Dugas
+1994), a Dugas se spolupracovníky ji zařadili do modelu generalizované [úzkostné poruchy](@/glossary/uzkostne-poruchy.md) (Dugas
 et al., 1998). Pro knihu z toho plyne, že stejné prostředí nezatěžuje všechny stejně; to je
 zjištění o zranitelnosti, nikoli o vině dotčeného.
 

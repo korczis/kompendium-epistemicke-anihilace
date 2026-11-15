@@ -34,7 +34,7 @@ autorizaci zajišťuje jen přibližně (Faden a Beauchamp, 1986).
 
 Doktrína má tři konstitutivní prvky (Beauchamp a Childress, 2019). **Způsobilost**
 (*capacity*) je kognitivní schopnost porozumět, docenit, zvážit a sdělit volbu.
-**Dobrovolnost** (*voluntariness*) znamená nepřítomnost donucení, manipulace
+Dobrovolnost (*voluntariness*) znamená nepřítomnost donucení, manipulace
 a [nepatřičného vlivu](@/glossary/undue-influence.md) (*undue influence*). **Poučení** (*disclosure*) je přesná
 a srozumitelná informace o povaze navrhovaného postupu, jeho rizicích, očekávaných
 přínosech, rozumných alternativách (včetně nečinnosti) a o právu odmítnout nebo odstoupit

@@ -52,8 +52,8 @@ V prvním půlroce (fáze **pomoci**) se úzkosti zlepšily a klientka měla poc
 „konečně vidí“. Mezi šestým a patnáctým měsícem (fáze **rozšiřování**) přibyly zprávy mimo
 sezení, delší a častější setkání a osobní sdílení terapeuta. V prvních dvou letech (fáze
 **výkladu života**) byla rodina líčena jako zdroj traumatu a padlo doporučení přerušit s ní
-kontakt. Ve druhém a třetím roce (fáze **uzavření**) následovala skupina klientů mimo terapii,
-finanční závazky a závislost na terapeutovi. Ve třetím roce (fáze **detekce a odchodu**) vedla
+kontakt. Ve druhém a třetím roce (fáze uzavření) následovala skupina klientů mimo terapii,
+finanční závazky a závislost na terapeutovi. Ve třetím roce (fáze detekce a odchodu) vedla
 dekompenzace k hospitalizaci, při níž konzultující psychiatr rámec zpochybnil. Gabbard a Lester
 (1995) popisují obdobné trajektorie jako postupné vymizení „analytického rámce“, kdy terapeut
 přestává rozlišovat mezi potřebami klienta a vlastními.
@@ -115,20 +115,20 @@ závislost oslabila natolik, že pochybnost mohla zaznít.
 
 Druhá terapie musela být **výslovně jiná** v rámci, ne jen v osobě. Postup vycházel z
 [protokolu epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-s důrazem na prevenci [retraumatizace](@/glossary/retraumatizace.md). Ve stupni **S1 – Validace a
-mapování** byl uzavřen jasně ohraničený kontrakt (délka, frekvence, žádný kontakt mimo sezení)
+s důrazem na prevenci [retraumatizace](@/glossary/retraumatizace.md).
+Ve stupni S1 – Validace a mapování byl uzavřen jasně ohraničený kontrakt (délka, frekvence, žádný kontakt mimo sezení)
 a klientka dostala psychoedukaci o hranicích v terapii; Bordin (1979) zdůrazňuje, že shoda na
 cílech a úkolech je součástí aliance, nikoli formalitou.
 
-Ve stupni **S2 – Externalizace introjektů** terapeut pomáhal rozlišit vlastní vzpomínky od
+Ve stupni S2 – Externalizace introjektů terapeut pomáhal rozlišit vlastní vzpomínky od
 výkladů, které do nich byly vloženy, bez snahy rozhodnout, „jak to opravdu bylo“; White a Epston
-(1990) tento postup popisují jako oddělení příběhu od člověka. Ve stupni **S3 – Rekonstrukce
-[metakognice](@/glossary/metakognice.md)** šlo o obnovu práva na nesouhlas, i s novým
+(1990) tento postup popisují jako oddělení příběhu od člověka.
+Ve stupni S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md) šlo o obnovu práva na nesouhlas, i s novým
 terapeutem. Safran a Muran (2000) ukazují, že otevřené pojmenování a společné řešení trhlin v
 alianci (*rupture and repair*) je samo terapeutickým činitelem.
 
-Stupeň **S4 – Hermeneutická obnova** zahrnoval opatrné znovunavázání vztahu s rodinou a stupeň
-**S5 – Konsolidace a transfer** plánované ukončení terapie jako důkaz, že vztah lze opustit.
+Stupeň S4 – Hermeneutická obnova zahrnoval opatrné znovunavázání vztahu s rodinou a stupeň
+S5 – Konsolidace a transfer plánované ukončení terapie jako důkaz, že vztah lze opustit.
 Herman (1992) popisuje závěrečnou fázi zotavení jako znovupropojení s běžným životem; zde to
 znamenalo, že terapie skončila dřív, než se mohla stát novou závislostí.
 

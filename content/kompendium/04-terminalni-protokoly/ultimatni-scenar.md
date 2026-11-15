@@ -19,7 +19,7 @@ status = "publikovano"
 
 # Ultimátní výcvikový scénář — strukturální analýza terminální koncentrace
 
-> ⚠️ **L2 — Analytické porozumění.** Tato studie analyzuje **strukturu, dynamiku a rizikový profil ultimátního výcvikového scénáře** — vrcholného bodu pětistupňové progresivní sekvence popsané v [Kapitole 4](@/kompendium/04-terminalni-protokoly/kapitola-4.md). Materiál zachovává princip strategické neúplnosti: nepředkládá kalibrační parametry, prahové hodnoty stresorů ani implementační procedury. Cílem je vybudovat analytickou kompetenci pro **detekci, prevenci a klinickou intervenci**, nikoli pro reprodukci.
+> **L2 — Analytické porozumění.** Tato studie analyzuje **strukturu, dynamiku a rizikový profil ultimátního výcvikového scénáře** — vrcholného bodu pětistupňové progresivní sekvence popsané v [Kapitole 4](@/kompendium/04-terminalni-protokoly/kapitola-4.md). Materiál zachovává princip strategické neúplnosti: nepředkládá kalibrační parametry, prahové hodnoty stresorů ani implementační procedury. Cílem je vybudovat analytickou kompetenci pro **detekci, prevenci a klinickou intervenci**, nikoli pro reprodukci.
 
 ## Postavení v rámci pětistupňové sekvence
 

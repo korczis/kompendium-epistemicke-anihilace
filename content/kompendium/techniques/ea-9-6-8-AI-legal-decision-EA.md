@@ -21,7 +21,7 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 
 # EA-9.6.8 AI Legal Decision EA
 
-> *Subkategorie ⚖️ **9.6 Algoritmická governance** — současná digitální epistemická agrese v éře AI, sociálních platforem a algoritmické governance.*
+> *Subkategorie ⚖️ 9.6 Algoritmická governance — současná digitální epistemická agrese v éře AI, sociálních platforem a algoritmické governance.*
 
 ---
 

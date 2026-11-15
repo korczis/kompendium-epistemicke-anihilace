@@ -33,7 +33,7 @@ parent_chapter = "/kompendium/04-terminalni-protokoly/"
 
 ## Definice
 
-**Debriefing cascade** představuje kaskádový protokol postupných debriefingů po ukončení každé fáze extrémní výcvikové sekvence. V rámci kompendia je technika klasifikována jako **terminální protokol** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození. Debriefing přitom není neutrální: plošně a jednorázově podaný psychologický debriefing po traumatické události nepředchází rozvoji posttraumatické poruchy a u části lidí je spojen s horším výsledkem (Rose a kol., 2002).
+**Debriefing cascade** představuje kaskádový protokol postupných debriefingů po ukončení každé fáze extrémní výcvikové sekvence. V rámci kompendia je technika klasifikována jako **[terminální protokol](@/kompendium/04-terminalni-protokoly/_index.md)** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození. Debriefing přitom není neutrální: plošně a jednorázově podaný psychologický debriefing po traumatické události nepředchází rozvoji posttraumatické poruchy a u části lidí je spojen s horším výsledkem (Rose a kol., 2002).
 
 Stránka slouží rozpoznání vzorce, nikoli jeho provedení.
 

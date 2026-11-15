@@ -58,8 +58,8 @@ loajalitu a vytlačují konkurenční vazby, „chamtivými institucemi“; jeji
 donucení, ale z nabídky sounáležitosti, za kterou se platí časem a vztahy.
 
 Ve fázi **disciplinace** (roky 2–3) se objevila veřejná „zpětná vazba“ na poradách a odcházející
-kolegové byli označováni za zrádce. Ve fázi **konsolidace** (roky 3–5) manažer sám vedl výjezdy,
-obhajoval přesčasy a odcizil se partnerce. Fáze **detekce a odchodu** (roky 5–6) přinesla
+kolegové byli označováni za zrádce. Ve fázi konsolidace (roky 3–5) manažer sám vedl výjezdy,
+obhajoval přesčasy a odcizil se partnerce. Fáze detekce a odchodu (roky 5–6) přinesla
 zdravotní kolaps, propuštění blízkého kolegy během nemocenské a náhled zvenčí. Lifton (1961)
 popisuje „kult zpovědi“ (*cult of confession*), v němž veřejné doznávání selhání slouží
 k připoutání člena; veřejná zpětná vazba měla obdobnou funkci.
@@ -120,16 +120,16 @@ nejcennějším zdrojem.
 ## 7. Intervenční strategie
 
 Terapie sledovala [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md).
-Ve **S1 – validaci a mapování** proběhlo pojmenování vzorce jako organizační kontroly, ne
-osobního selhání, a mapa toho, kdy a jak se zužoval okruh vztahů. Ve **S2 – externalizaci
-introjektů** byl firemní slovník sepsán a přeložen do běžného jazyka a hodnoty, které si klient
+Ve S1 – validaci a mapování proběhlo pojmenování vzorce jako organizační kontroly, ne
+osobního selhání, a mapa toho, kdy a jak se zužoval okruh vztahů. Ve S2 – externalizaci
+introjektů byl firemní slovník sepsán a přeložen do běžného jazyka a hodnoty, které si klient
 chce ponechat (pracovitost, péče o tým), se oddělily od jejich zneužití. Postup vychází
 z narativní externalizace, která odlišuje člověka od problému (White a Epston, 1990).
 
-Ve **S3 – rekonstrukci [metakognice](@/glossary/metakognice.md)** klient nacvičoval rozlišení mezi
-únavou a „špatným mindsetem“ a formuloval vlastní kritéria dobré práce. Ve **S4 – hermeneutické
-obnově** vznikl nový výklad kariéry a párová terapie pomohla obnovit důvěru s partnerkou. **S5 –
-konsolidace a transfer** znamenala výběr nového zaměstnavatele podle předem sepsaných hranic.
+Ve S3 – rekonstrukci [metakognice](@/glossary/metakognice.md) klient nacvičoval rozlišení mezi
+únavou a „špatným mindsetem“ a formuloval vlastní kritéria dobré práce. Ve S4 – hermeneutické
+obnově vznikl nový výklad kariéry a párová terapie pomohla obnovit důvěru s partnerkou. S5 –
+konsolidace a transfer znamenala výběr nového zaměstnavatele podle předem sepsaných hranic.
 Užitečná byla [akutní sociální rekonekce](@/kompendium/recovery-protocols/acute-social-reconnection.md)
 s přáteli z doby před nástupem a pracovněprávní konzultace kvůli podmínkám odchodu; obnova
 vztahů mimo organizaci odpovídá fázi nového propojení s druhými (Herman, 1992).

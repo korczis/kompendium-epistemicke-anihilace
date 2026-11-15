@@ -56,7 +56,7 @@ narcisticky zaměřených lídrů zrcadlení a idealizaci, v nichž se vlastní 
 potřebě udržet si obdiv a blízkost vůdce.
 
 Fáze **střídání přízně** (roky 3–4) zahrnovala nepředvídatelné vyřazení z porad, opětovné přijetí
-a vyčerpávající hypervigilanci. Fáze **detekce a odchodu** (roky 4–5) začala pokynem podepsat
+a vyčerpávající hypervigilanci. Fáze detekce a odchodu (roky 4–5) začala pokynem podepsat
 dokument s nepravdivými údaji a konzultací s právníkem. Nepravidelné střídání odměny a jejího
 odnětí patří k podmínkám, za nichž je chování nejodolnější vůči vyhasnutí (Ferster a Skinner,
 1957); v mezilidském vztahu tak vzniká vazba, kterou člověk nedokáže sám ukončit.
@@ -113,18 +113,18 @@ přesun znemožnil.
 ## 7. Intervenční strategie
 
 Postup vycházel z [protokolu epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-a doplnila ho práce s traumatickou vazbou a studem. Ve **S1 – validaci a mapování** proběhla
+a doplnila ho práce s traumatickou vazbou a studem. Ve S1 – validaci a mapování proběhla
 rekonstrukce časové osy přízně a odmítnutí a poznání, že nepředvídatelnost byla systémová, ne
-náhodná. Ve **S2 – externalizaci introjektů** se oddělil vlastní hlas od ředitelových formulací,
+náhodná. Ve S2 – externalizaci introjektů se oddělil vlastní hlas od ředitelových formulací,
 které používala o sobě („jsi příliš opatrná“). Pojmenování nepředvídatelnosti jako vzorce snižuje
 sebeobviňování, které je pro traumatickou vazbu typické (Dutton a Painter, 1981).
 
-Ve **S3 – rekonstrukci [metakognice](@/glossary/metakognice.md)** obnovovala schopnost formulovat
-nesouhlas a unést nejistotu bez autority, která ji rozhodne. Ve **S4 – hermeneutické obnově**
+Ve S3 – rekonstrukci [metakognice](@/glossary/metakognice.md) obnovovala schopnost formulovat
+nesouhlas a unést nejistotu bez autority, která ji rozhodne. Ve S4 – hermeneutické obnově
 nově četla léta ve funkci včetně vlastní odpovědnosti vůči podřízeným a odcházejícím kolegům.
 Tato práce se dotýká morálního zranění (*moral injury*), tedy následku jednání, které porušuje
 vlastní morální přesvědčení, a vyžaduje jiný přístup než práce se strachem (Litz a kol., 2009).
-**S5 – konsolidace a transfer** přinesla novou roli s jasnou správou a kolektivním rozhodováním,
+S5 – konsolidace a transfer přinesla novou roli s jasnou správou a kolektivním rozhodováním,
 odpovídající fázi nového propojení s druhými (Herman, 1992).
 
 ## 8. Výsledek a reziduální deficity

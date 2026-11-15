@@ -79,7 +79,7 @@ Průběžně u rozhodnutí s finančním, vztahovým nebo pracovním dopadem; p�
 ## Kdy a koho požádat o pomoc
 
 - U rozhodnutí s právními nebo finančními důsledky (smlouvy, dluhy, majetek, péče o děti) se poraďte s advokátem, notářem nebo bezplatnou právní poradnou dřív, než cokoli podepíšete.
-- Pokud se „důkazy“ proti vám používají k zastrašování nebo vydírání, kontaktujte Linku pomoci obětem kriminality a domácího násilí 116 006 nebo Policii ČR (158).
+- Pokud se „důkazy“ proti vám používají k zastrašování nebo [vydírání](@/glossary/vydirani.md), kontaktujte Linku pomoci obětem kriminality a domácího násilí 116 006 nebo Policii ČR (158).
 - Pokud vás nejistota vyčerpává natolik, že nespíte a nemůžete fungovat, zavolejte Linku první psychické pomoci 116 123; v ohrožení života volejte 112 nebo 155.
 
 ## Čeho se vyvarovat

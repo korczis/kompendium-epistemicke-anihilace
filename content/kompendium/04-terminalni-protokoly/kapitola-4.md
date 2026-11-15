@@ -16,7 +16,7 @@ status = "publikovano"
 
 # Kapitola 4: Extrémní výcviková sekvence
 
-> ⚠️ **L2 — Analytické porozumění.** Tato kapitola popisuje strukturu a mechanismy extrémních výcvikových sekvencí na úrovni systémové analýzy. Nezahrnuje implementační detaily, kalibrační parametry ani materiály pro reprodukci. Čtenář se předpokládá obeznámen s [definicí epistemické anihilace](@/glossary/epistemicka-anihilace.md) a [základními kategoriemi epistemických manipulací](@/kompendium/03-zakladni-kategorie/_index.md).
+> **L2 — Analytické porozumění.** Tato kapitola popisuje strukturu a mechanismy extrémních výcvikových sekvencí na úrovni systémové analýzy. Nezahrnuje implementační detaily, kalibrační parametry ani materiály pro reprodukci. Čtenář se předpokládá obeznámen s [definicí epistemické anihilace](@/glossary/epistemicka-anihilace.md) a [základními kategoriemi epistemických manipulací](@/kompendium/03-zakladni-kategorie/_index.md).
 
 ## Úvod: výcvik jako legitimní rámec terminálního protokolu
 

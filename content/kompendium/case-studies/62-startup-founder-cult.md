@@ -127,7 +127,7 @@ připomíná, že kritérium nespočívá v náročnosti práce, ale v tom, zda 
 fenomén spojený se zaměstnáním, nikoli nemoc (World Health Organization, 2019). Vyhoření však
 nevysvětluje ideologickou fúzi identity s firmou ani prázdnotu, která přišla až po dosažení cíle.
 
-**Depresivní epizoda** byla přítomna a vyžadovala léčbu. Obsah krize – ztráta smyslu po dosažení
+**[Depresivní epizoda](@/glossary/depresivni-epizoda-a-porucha.md)** byla přítomna a vyžadovala léčbu. Obsah krize – ztráta smyslu po dosažení
 cíle – ukazuje na předchozí ztrátu identity, nikoli jen na náhlou změnu situace; Ebaugh (1988)
 tento typ krize popisuje u lidí, jejichž role skončila „úspěšně“.
 

@@ -77,7 +77,7 @@ a podporovat investigativní novinářství (Snyder, 2017).
 Třetí okruh chrání vazby mezi lidmi. Lekce „navazujte oční kontakt a mluvte o drobnostech“
 připomíná, že za teroru se lidé přestávali zdravit se sousedy, a obyčejná vlídnost je proto
 politickým činem, který udržuje důvěru (Snyder, 2017). Lekce „zajistěte si soukromý život“
-upozorňuje, že autoritářský režim využívá informace o soukromí k vydírání a zastrašování.
+upozorňuje, že autoritářský režim využívá informace o soukromí k [vydírání](@/glossary/vydirani.md) a zastrašování.
 Snyder se v knize odvolává i na Václava Havla, jehož esej *Moc bezmocných* ukázala, jak
 každodenní rituální souhlas – zelinář vystavující heslo ve výloze – udržuje systém, který
 nikdo nepovažuje za pravdivý (Havel, 1978).

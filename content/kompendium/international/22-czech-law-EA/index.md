@@ -49,7 +49,7 @@ podává komentářová literatura (Šámal a kol., 2012).
 
 | Skutková podstata | Co chrání | Vztah k EA |
 |---|---|---|
-| vydírání (§ 175) | svobodu rozhodování proti násilí a pohrůžce těžké újmy | výhrůžky zveřejněním, ztrátou dětí, vyloučením |
+| [vydírání](@/glossary/vydirani.md) (§ 175) | svobodu rozhodování proti násilí a pohrůžce těžké újmy | výhrůžky zveřejněním, ztrátou dětí, vyloučením |
 | útisk (§ 177) | svobodu proti zneužití tísně nebo závislosti | ekonomická a existenční závislost oběti |
 | týrání osoby žijící ve společném obydlí (§ 199) | blízké osoby ve společné domácnosti | dlouhodobé psychické týrání, [gaslighting](@/glossary/gaslighting.md) |
 | týrání svěřené osoby (§ 198) | osoby v péči nebo výchově | děti, senioři, osoby v ústavní péči |

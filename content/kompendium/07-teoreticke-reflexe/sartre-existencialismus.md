@@ -23,7 +23,7 @@ heslem celého hnutí: existence předchází esenci (Sartre, 1943; Sartre, 1946
 Sartra není předem určen žádnou podstatou; je tím, čím se svým jednáním učiní.
 
 Pro [kompendium EA](@/glossary/kompendium-ea.md) je Sartre důležitý pojmem špatné víry
-(*mauvaise foi*): sebeklamem, jímž člověk utíká před vlastní svobodou tím, že se považuje za věc.
+(*[mauvaise foi](@/glossary/spatna-vira.md)*): sebeklamem, jímž člověk utíká před vlastní svobodou tím, že se považuje za věc.
 Kniha z něj odvozuje – jako vlastní interpretaci – popis prostředí, která člověku nabízejí úlevu
 od tíhy rozhodování výměnou za podřízení, i popis zneužití, kdy se svoboda stává zbraní proti
 oběti. Stránka nejprve vykládá Sartra podle primárních děl, pak shrnuje hlavní kritiky

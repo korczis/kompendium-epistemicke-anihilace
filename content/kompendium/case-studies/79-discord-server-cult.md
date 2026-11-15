@@ -161,29 +161,29 @@ dříve, než server zmizel. Následovaly stupně [protokolu epistemické rekons
 přizpůsobené věku ([rekonstrukční protokol pro adolescenty](@/kompendium/recovery-protocols/recovery-adolescent-protocol.md)),
 jejichž pořadí odpovídá modelu, který popsala Herman (1992): nejprve bezpečí.
 
-**S1 – Validace a mapování.** Ujištění, že za situaci nenese vinu a že únik snímků je problém toho,
+S1 – Validace a mapování. Ujištění, že za situaci nenese vinu a že únik snímků je problém toho,
 kdo vyhrožuje, ne její, a plán bezpečí pro noc a pro chvíle, kdy ji láká se vrátit. Hawton, Saunders
 a O'Connor (2012) řadí bezpečnostní plán k základním prvkům péče o dospívající po sebepoškození.
 
-**S2 – Externalizace introjektů.** Pojmenování vět majitele, které si opakovala („nikdo jiný ti
+S2 – Externalizace introjektů. Pojmenování vět majitele, které si opakovala („nikdo jiný ti
 nerozumí“), a jejich odlišení od vlastního hlasu. White a Epston (1990) popisují externalizaci jako
 postup vhodný i pro děti, protože problém dostane jméno a přestane být součástí identity.
 
-**S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md).** Krátké a konkrétní: jak poznat, kdy
+S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md). Krátké a konkrétní: jak poznat, kdy
 online vztah vyžaduje tajemství, a proč je tajemství na žádost dospělého varovným signálem. Tento
 znak uvádějí Craven, Brown a Gilchrist (2006) jako jeden z nejsnáze naučitelných.
 
-**S4 – Hermeneutická obnova.** Práce s vinou vůči kamarádce, podpořená setkáním obou dívek za
+S4 – Hermeneutická obnova. Práce s vinou vůči kamarádce, podpořená setkáním obou dívek za
 přítomnosti psycholožky. Litz a kolegové (Litz et al., 2009) považují obnovu vztahu s tím, komu
 člověk ublížil, za jednu z cest k morální nápravě, pokud je bezpečná pro obě strany.
 
-**S5 – Konsolidace a transfer.** Výtvarný kroužek a bezpečný online prostor s viditelnou moderací;
+S5 – Konsolidace a transfer. Výtvarný kroužek a bezpečný online prostor s viditelnou moderací;
 matka s dcerou dohodly pravidla, ne zákaz. Livingstone a Helsper (2008) ukazují, že aktivní
 a dohodnuté zprostředkování je pro rozvoj dovedností dítěte vhodnější než restrikce.
 
 ## Právní rámec
 
-Výhrůžka zveřejněním snímků s cílem vynutit si jednání může naplňovat znaky vydírání podle zákona
+Výhrůžka zveřejněním snímků s cílem vynutit si jednání může naplňovat znaky [vydírání](@/glossary/vydirani.md) podle zákona
 č. 40/2009 Sb., trestního zákoníku, který zná i samostatnou skutkovou podstatu navazování
 nedovolených kontaktů s dítětem; o tom, zda a jaký trestný čin byl spáchán, rozhodují orgány činné
 v trestním řízení a text to nepředjímá. Whittle et al. (2013) zdůrazňují, že včasné zajištění

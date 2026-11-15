@@ -89,7 +89,7 @@ izolace, má své místo i tehdy, když pacient sám o sebevraždě nemluví.
 (2002) upozorňuje, že rozvoj panické poruchy nezávisí jen na samotných atakách, ale na obavě z
 dalších atak a na vyhýbání, které z ní plyne; právě to je třeba zachytit včas.
 
-**Spouštěče** zahrnují konkrétní kontakt, zprávu nebo místo a otázku, zda se ataky váží na
+Spouštěče zahrnují konkrétní kontakt, zprávu nebo místo a otázku, zda se ataky váží na
 probíhající manipulaci, například na opakované „připomínky“ od skupiny nebo výhrůžky. V takovém
 případě nejde jen o falešný poplach, ale o reakci na skutečný tlak, a Barlow (2002) by v tom smyslu
 rozlišoval mezi skutečným a naučeným poplachem.

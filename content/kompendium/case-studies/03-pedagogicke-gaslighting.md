@@ -53,14 +53,14 @@ nároku mít vlastní pohled.
 ## 3. Časová osa expozice
 
 **Spouštěcí konflikt** (týdny 1–4) zahrnoval námitku proti hodnocení, popření zadání a
-zpochybnění poznámek. Ve fázi **opakování** (měsíce 2–6) následovala drobná popření před třídou
+zpochybnění poznámek. Ve fázi opakování (měsíce 2–6) následovala drobná popření před třídou
 („to jsem nikdy neříkal“) a ironické komentáře o paměti. Ve fázi **rozšíření** (měsíce 6–10)
 učitel informoval rodiče o „obavách o psychickou stabilitu“ studentky, čímž spor přesunul
 z roviny faktů do roviny zdraví. Sweet (2019) popisuje, jak gaslighting využívá stereotyp
 „labilní“ či „iracionální“ oběti a mobilizuje proti jejímu svědectví okolí i instituce.
 
-Ve fázi **internalizace** (měsíce 10–14) si studentka nahrávala hodiny na telefon, aby si ověřila
-vlastní vnímání, a přestala se hlásit. Fáze **detekce** (od měsíce 14) začala, když si školní
+Ve fázi internalizace (měsíce 10–14) si studentka nahrávala hodiny na telefon, aby si ověřila
+vlastní vnímání, a přestala se hlásit. Fáze detekce (od měsíce 14) začala, když si školní
 psycholožka všimla rozporu mezi výpovědí studentky a jejími zápisky a zapojila vedení. Délka
 průběhu ukazuje, jak dlouho může vzorec v instituci zůstat neviditelný, pokud nikdo nemá
 odpovědnost za ověření svědectví dítěte (Smith a Freyd, 2014).
@@ -121,16 +121,16 @@ vyučujícímu a zahájila šetření; rodiče byli informováni o skutečném p
 [rekonstrukční protokol pro adolescenty](@/kompendium/recovery-protocols/recovery-adolescent-protocol.md)
 a o zkrácenou verzi [protokolu epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md).
 
-Ve **S1 – validaci a mapování** terapeutka potvrdila, že vnímání studentky bylo správné, a spolu
-s ní sestavila časovou osu z jejích zápisků. Ve **S2 – externalizaci introjektů** se věta „mám
+Ve S1 – validaci a mapování terapeutka potvrdila, že vnímání studentky bylo správné, a spolu
+s ní sestavila časovou osu z jejích zápisků. Ve S2 – externalizaci introjektů se věta „mám
 špatnou paměť“ oddělila od svého zdroje; externalizace problému mimo identitu člověka pochází
-z [narativní terapie](@/glossary/narativni-terapie.md) (White a Epston, 1990). Ve **S3 – rekonstrukci [metakognice](@/glossary/metakognice.md)**
+z [narativní terapie](@/glossary/narativni-terapie.md) (White a Epston, 1990). Ve S3 – rekonstrukci [metakognice](@/glossary/metakognice.md)
 šlo o zdravé ověřování bez kompulze – postupné omezování nahrávání a nácvik
 [triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md), tedy ověření
 události z více nezávislých svědectví místo jediného záznamu (Johnson a kol., 1993).
 
-Ve **S4 – hermeneutické obnově** studentka porozuměla tomu, proč spolužáci mlčeli, bez obviňování;
-**S5 – konsolidace a transfer** přinesla maturitu v novém prostředí a plán pro případ podobného
+Ve S4 – hermeneutické obnově studentka porozuměla tomu, proč spolužáci mlčeli, bez obviňování;
+S5 – konsolidace a transfer přinesla maturitu v novém prostředí a plán pro případ podobného
 konfliktu. Součástí byla práce s rodiči, kteří se vyrovnávali s tím, že zpočátku uvěřili
 učiteli. Rodina je pro dospívajícího hlavním zdrojem validace a obnovení podpůrných vztahů je
 podle Herman (1992) jádrem pozdní fáze zotavení.

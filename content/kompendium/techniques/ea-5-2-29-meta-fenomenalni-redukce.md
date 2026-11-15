@@ -56,7 +56,7 @@ Zpětně se znaky skládají takto: nejprve trvalý odstup od přirozeného post
 - **Strukturní fenomenologická afázie** — neschopnost zaujmout jakýkoli postoj.
 - **Pseudo-radikální melancholie** — pocit „překonání všech pozic“.
 - **Praktická bezmocnost** v úkolech vyžadujících jasný postoj.
-- **Slovní intelektualizace** maskující strukturní paralýzu.
+- **Slovní [intelektualizace](@/glossary/intelektualizace.md)** maskující strukturní paralýzu.
 - **Lingvistická regrese** — řeč o řeči o řeči, bez praktické denotace.
 - **Identitární vyprázdnění** s pseudo-pokročilou racionalizací.
 

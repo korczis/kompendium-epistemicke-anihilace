@@ -142,7 +142,7 @@ původní křivdu.
 ## 6. Právní a institucionální rámec
 
 Trestní zákoník (StGB) zná nebezpečné pronásledování (*Nachstellung*, § 238), nátlak
-(*Nötigung*, § 240), výhrůžku (*Bedrohung*, § 241), vydírání (*Erpressung*, § 253) a podněcování
+(*Nötigung*, § 240), výhrůžku (*Bedrohung*, § 241), [vydírání](@/glossary/vydirani.md) (*Erpressung*, § 253) a podněcování
 k nenávisti (*Volksverhetzung*, § 130). Zákon o ochraně před násilím, *Gewaltschutzgesetz* z roku
 2002, umožňuje civilní ochranné příkazy. Samostatný trestný čin
 [coercive control](@/glossary/coercive-control.md) neexistuje a o jeho zavedení se vede odborná

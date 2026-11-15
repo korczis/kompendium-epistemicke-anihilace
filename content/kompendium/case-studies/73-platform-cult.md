@@ -183,26 +183,26 @@ s prvky digitální hygieny. Herman (1992) zdůrazňuje, že zotavení začíná
 vlády nad vlastním životem; zde to znamenalo nejprve vrátit subjektu kontrolu nad tím, které
 podněty k němu přicházejí.
 
-**S1 – Validace a mapování.** Uznání, že platforma mu dlouho skutečně dávala férové hodnocení a že
+S1 – Validace a mapování. Uznání, že platforma mu dlouho skutečně dávala férové hodnocení a že
 ztráta je skutečná. Vznikla mapa toho, co z jeho odborné identity bylo uloženo jen v jednom
 systému. Boss (1999) upozorňuje, že ztráta, kterou okolí nepovažuje za skutečnou, se hůře
 zpracovává; validace proto předcházela všemu ostatnímu.
 
-**S2 – Externalizace introjektů.** Oddělení věty „jsem tolik, kolik mám bodů“ od vlastního měřítka
+S2 – Externalizace introjektů. Oddělení věty „jsem tolik, kolik mám bodů“ od vlastního měřítka
 kvality a pojmenování, že metrika byla nástrojem firmy, ne objektivním soudem. White a Epston
 (1990) by takový krok označili za oddělení problému od osoby.
 
-**S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md).** Hodnocení vlastní práce podle
+S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md). Hodnocení vlastní práce podle
 kritérií, která lze ověřit bez platformy: funguje kód, chápe kolega vysvětlení, obstojí odpověď
 za rok? Souběžně proběhla [detoxikace feedu](@/kompendium/self-defense-guides/32-feed-detoxification.md)
 a vypnutí notifikací. Flavell (1979) chápe metakognici jako sledování vlastního poznání; cílem bylo
 vrátit toto sledování z platformy k samotnému subjektu.
 
-**S4 – Hermeneutická obnova.** Přijetí nejistoty: některé věci, například zda byl jeho pokles
+S4 – Hermeneutická obnova. Přijetí nejistoty: některé věci, například zda byl jeho pokles
 viditelnosti úmyslný, se nikdy nedozví. Práce s tím, jak žít s nerozhodnutelnou otázkou bez
 přemítání, vychází z pojetí nejednoznačné ztráty, jak ho popisuje Boss (1999).
 
-**S5 – Konsolidace a transfer.** Vlastní archiv odpovědí, portfolio na místě, které sám spravuje,
+S5 – Konsolidace a transfer. Vlastní archiv odpovědí, portfolio na místě, které sám spravuje,
 a [diverzifikace sítě](@/kompendium/self-defense-guides/25-network-diversification.md) – mentoring
 juniorů v práci a setkání komunity oboru offline. Rozložení sebehodnocení do více oblastí snižuje
 podle Crockera a Wolfeové (Crocker a Wolfe, 2001) jeho zranitelnost.

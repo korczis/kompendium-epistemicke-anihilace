@@ -2,7 +2,9 @@
 // Zdroj je jen to, co text stránky nese ve stálém tvaru:
 //   - tabulka pod nadpisem „Časová osa…“, jejíž první sloupec je „Fáze“ (fáze expozice; ostatní
 //     sloupce, např. trvání a klíčové události, se převezmou tak, jak jsou napsané);
-//   - stupně intervence zapsané tučně jako „S1 – …“ až „S5 – …“ v oddílu „Intervenční strategie“.
+//   - stupně intervence „S1 – …“ až „S5 – …“ zmíněné v oddílu „Intervenční strategie“, tučně
+//     i bez zvýraznění a i přes zalomení řádku; jejich jména dodá protokol, který je definuje
+//     (data-pohled-stupne ze šablony), a jen bez něj se jméno převezme z tučného štítku.
 // Osa je pořadí fází, ne kalendář: data se nevymýšlejí ani nepřepočítávají. Fáze popsané jen
 // souvislým textem se nerozpoznávají (šablona pohled na takové stránce vůbec nevloží).
 (function () {
@@ -44,19 +46,44 @@
     return items.length ? { title: cleanHeading(h), items: items } : null;
   }
 
-  function fromStages(article) {
+  // Jména stupňů z protokolu: „S1: Validace a mapování|S2: …“ → {1: 'Validace a mapování', …}.
+  function stageNames(root) {
+    var out = {};
+    (root.getAttribute('data-pohled-stupne') || '').split('|').forEach(function (t) {
+      var m = /^S([1-5])\s*[:–-]\s*(.+)$/.exec(t.trim());
+      if (m) out[m[1]] = m[2].trim();
+    });
+    return out;
+  }
+
+  // Stupeň se pozná podle zmínky „S<n> –“ v textu oddílu, se zvýrazněním i bez něj: mezery
+  // včetně zalomení řádku se před hledáním sjednotí, takže zvýraznění ani zalomení nerozhoduje.
+  var MENTION = /(^|[^\w])S([1-5])\s*[–-]\s/g;
+
+  function fromStages(article, names) {
     var h = article.querySelector('h2[id*="intervencni-strategie"]');
     if (!h) return null;
     var seen = {};
     var items = [];
     sectionOf(h).forEach(function (el) {
+      // tučný štítek, je-li, nese kotvu a jméno, když je protokol neuvádí
+      var labels = {};
       Array.prototype.forEach.call(el.querySelectorAll('strong'), function (s) {
-        var m = S_RE.exec(s.textContent.trim());
-        if (!m || seen[m[1]]) return;
-        seen[m[1]] = true;
-        if (!s.id) s.id = 'stupen-s' + m[1];
-        items.push({ id: s.id, n: +m[1], name: 'S' + m[1] + ' – ' + m[2], detail: '', full: '' });
+        var m = S_RE.exec(s.textContent.replace(/\s+/g, ' ').trim());
+        if (m && !labels[m[1]]) labels[m[1]] = { node: s, name: m[2] };
       });
+      var text = el.textContent.replace(/\s+/g, ' ');
+      var m;
+      MENTION.lastIndex = 0;
+      while ((m = MENTION.exec(text))) {
+        var n = m[2];
+        if (seen[n]) continue;
+        seen[n] = true;
+        var anchor = labels[n] ? labels[n].node : el;
+        if (!anchor.id) anchor.id = 'stupen-s' + n;
+        var name = names[n] || (labels[n] && labels[n].name) || '';
+        items.push({ id: anchor.id, n: +n, name: 'S' + n + (name ? ' – ' + name : ''), detail: '', full: '' });
+      }
     });
     items.sort(function (a, b) { return a.n - b.n; });
     return items.length ? { title: cleanHeading(h), items: items } : null;
@@ -102,7 +129,7 @@
   function render(root, article) {
     var el = root.querySelector('[data-pohled-graf]');
     var caption = root.querySelector('[data-pohled-vyber]');
-    var tracks = [fromTable(article), fromStages(article)].filter(Boolean);
+    var tracks = [fromTable(article), fromStages(article, stageNames(root))].filter(Boolean);
     if (!tracks.length) {
       root.setAttribute('data-pohled-stav', 'prazdny');
       V.empty(el, 'Fáze nejsou rozpoznané', 'Pohled se kreslí jen z tabulky fází nebo ze stupňů S1–S5 v textu.');

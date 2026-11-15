@@ -62,7 +62,14 @@ Instruments that misled the same sessions, and the reading that held:
   merged head's: `[ "$h" != "9738c87d"* ]` is not a glob in POSIX `test`, so it filtered nothing.
   Pin the run id of the push you made and watch that id; the sha moves under you, the id does not.
 - `scripts/ia-baseline.json` is written with each page's charges sorted, so a reorder shows as a
-  large diff that moves nothing. Compare it as a set per page before reading a ratchet move into it.
+  large diff that moves nothing. Compare it as a set per page, then read what did move: a slice can
+  change another rule's charges as a side effect (removing "**Přístupová úroveň L3–L4**" also
+  dropped a bold-candidate charge, with nobody editing a bold).
+- Commit the derived state before merging main into a branch. A gate run leaves regenerated files
+  modified; `git merge` then refuses, and generators run afterwards measure the unmerged tree.
+- Below a few GiB free the suite fails with ENOSPC in ways that look like defects; two branches
+  reported 1 and 3 failures and both were green once the disk had room. `scripts/disk-floor.sh`
+  now refuses to start the gate or the suite under `KEA_MIN_FREE_MIB` (default 3072).
 - After a merge, derived files (`static/data/*.json`) are regenerated from the merged content,
   never hand-merged, and checked for zero conflict markers before staging: a `<<<<<<<` staged into
   derived data passes every content gate.

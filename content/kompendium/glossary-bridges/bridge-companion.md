@@ -16,7 +16,7 @@ date_modified = "2026-11-10"
 
 # Bridge: Doprovodná osoba (companion)
 
-> **Most** spojuje pojem doprovodné osoby s místy knihy, kde se s ní počítá: v akutní krizi, při
+> Most spojuje pojem doprovodné osoby s místy knihy, kde se s ní počítá: v akutní krizi, při
 > odchodu ze skupiny, ve forenzním řízení a v dlouhodobém zotavení. Přehled všech mostů je v
 > rejstříku [Glossary Bridges](@/kompendium/glossary-bridges/_index.md).
 

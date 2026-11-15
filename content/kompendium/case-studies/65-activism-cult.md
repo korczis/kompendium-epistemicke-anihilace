@@ -137,7 +137,7 @@ ukazují, že zdravá hnutí snášejí vnitřní pluralitu taktik i názorů.
 až když znemožňuje fungování; i pak je cílem její zpracování, nikoli zpochybnění jejího předmětu
 (Clayton, 2020).
 
-**Depresivní epizoda** byla po vyloučení přítomna a bylo třeba posoudit suicidální riziko spojené
+**[Depresivní epizoda](@/glossary/depresivni-epizoda-a-porucha.md)** byla po vyloučení přítomna a bylo třeba posoudit suicidální riziko spojené
 s pocitem, že „nic nemá smysl“. Herman (1992) připomíná, že ztráta celého sociálního světa najednou
 patří k nejrizikovějším momentům odchodu z uzavřené skupiny.
 

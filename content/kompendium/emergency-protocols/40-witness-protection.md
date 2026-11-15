@@ -87,7 +87,7 @@ popisuje „nejednoznačnou ztrátu“ (ambiguous loss), kdy blízcí lidé fyzi
 nedosažitelní; zármutek nad nimi nemá rituál ani uzavření a snadno se přehlédne, protože „nikdo
 neumřel“.
 
-**Identita** se posuzuje z hlediska toho, jak pacient prožívá novou totožnost a zda nedochází k
+Identita se posuzuje z hlediska toho, jak pacient prožívá novou totožnost a zda nedochází k
 disociativním epizodám. Lalich a Tobias (2006) popisují, že lidé po odchodu z kultů obnovují vlastní
 identitu postupně, často přes znovunalezení zájmů a vztahů z doby před skupinou; v ochranném režimu
 je právě tato cesta omezená.

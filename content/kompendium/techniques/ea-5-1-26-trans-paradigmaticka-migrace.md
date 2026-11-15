@@ -79,7 +79,7 @@ Co prožívá subjekt uvnitř trans-paradigmatické migrace:
 
 Trans-paradigmatická migrace je odlišitelná od **legitimního intelektuálního vývoje**:
 
-- **Legitimní vývoj** udržuje **paměť** předchozích paradigmat jako **integrované** zkušenosti — člověk si pamatuje, co bylo cenné, a co odmítá.
+- **Legitimní vývoj** udržuje paměť předchozích paradigmat jako **integrované** zkušenosti — člověk si pamatuje, co bylo cenné, a co odmítá.
 - **Vynucená migrace** likviduje předchozí paradigmata — subjekt je popisuje jako *„slepé uličky“*, nikoli jako kroky, ze kterých si něco odnesl.
 
 Časová kalibrace: legitimní zásadní paradigmatický posun trvá roky až desetiletí. Migrace skrz 4+ paradigmata za 12 měsíců je **silným indikátorem** vynucené dynamiky.
@@ -101,7 +101,7 @@ Trans-paradigmatická migrace je odlišitelná od **legitimního intelektuální
 
 #### 1. Paradigmatická archeologie
 
-Pravidelně si pokládat otázku: *„Co jsem si myslel/a před 2/5/10 lety? Co bylo na tehdejším pohledu legitimní?“* — cíl je obnovit **paměť** paradigmatické historie, ne ji likvidovat.
+Pravidelně si pokládat otázku: *„Co jsem si myslel/a před 2/5/10 lety? Co bylo na tehdejším pohledu legitimní?“* — cíl je obnovit paměť paradigmatické historie, ne ji likvidovat.
 
 #### 2. Strategická paradigmatická pluralita
 

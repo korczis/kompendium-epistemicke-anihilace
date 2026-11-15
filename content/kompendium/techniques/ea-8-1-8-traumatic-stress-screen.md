@@ -107,7 +107,7 @@ jasné příčiny.
 - **Akutní stresová reakce a poruchy přizpůsobení.** Potíže v prvních týdnech po události
   nebo potíže odpovídající zátěži bez traumatu mají jiné diagnostické zařazení
   ([EA-8.2.7](@/kompendium/techniques/ea-8-2-7-dsm-5-tr-trauma.md)).
-- **Deprese a úzkostné poruchy** se s PTSD překrývají; screening sám je nerozliší.
+- **Deprese a [úzkostné poruchy](@/glossary/uzkostne-poruchy.md)** se s PTSD překrývají; screening sám je nerozliší.
 - **Prodloužený žal.** Ztráta komunity nebo blízkých po odchodu může vést k truchlení,
   které je třeba odlišit.
 - **Epistemické potíže** (ztráta jazyka, světonázoru, důvěry ve vlastní úsudek) do
@@ -130,7 +130,9 @@ být použit jako jediný podklad rozhodnutí o léčbě, pracovní neschopnosti
 ## Obrana a neutralizace
 
 **Pro profesionály.** Screening provádět až v bezpečném prostředí a s vysvětlením, k čemu
-slouží; nečíst výsledky jako nálepku. Opakovat ho v průběhu léčby. **Pro organizace.**
+slouží; nečíst výsledky jako nálepku. Opakovat ho v průběhu léčby.
+
+**Pro organizace.**
 Krizové služby a intervenční centra by měla mít screening jako rutinu, s jasnou cestou
 k odborné péči.
 

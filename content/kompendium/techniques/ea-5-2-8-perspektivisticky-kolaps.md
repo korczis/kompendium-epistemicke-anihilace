@@ -107,7 +107,7 @@ Cvičení v formulaci **konkrétních hodnocení** specifických situací. *„T
 
 #### 4. Klinická supervize
 
-Pokud kolaps trvá déle než 4 týdny, specializovaná klinická konzultace je nezbytná. Vyžaduje se odborník s tréninkem ve **fenomenologické psychopatologii**.
+Pokud kolaps trvá déle než 4 týdny, specializovaná klinická konzultace je nezbytná. Vyžaduje se odborník s tréninkem ve **[fenomenologické psychopatologii](@/glossary/fenomenologicka-psychopatologie.md)**.
 
 ### Institucionální
 

@@ -16,7 +16,7 @@ toc = true
 
 # 7.7 Epistemická anihilace v digitálním věku
 
-Digitální infrastruktura 21. století zásadně transformovala **podmínky možnosti** epistemické anihilace. Manipulační techniky, jež dříve vyžadovaly institucionální aparát (státní [propaganda](@/glossary/propaganda.md), masmédia, kulty), jsou nyní **algoritmicky distribuovatelné** a operují v měřítkách dosud nepředstavitelných. Současně vznikají **kvalitativně nové** formy [epistemické anihilace](@/glossary/epistemicka-anihilace.md), jež nemají historický precedent — generativní AI, deepfakes, algoritmické filter bubbles a platformově-mediované kolektivní halucinace.
+Digitální infrastruktura 21. století zásadně transformovala **[podmínky možnosti](@/glossary/podminky-moznosti.md)** epistemické anihilace. Manipulační techniky, jež dříve vyžadovaly institucionální aparát (státní [propaganda](@/glossary/propaganda.md), masmédia, kulty), jsou nyní **algoritmicky distribuovatelné** a operují v měřítkách dosud nepředstavitelných. Současně vznikají **kvalitativně nové** formy [epistemické anihilace](@/glossary/epistemicka-anihilace.md), jež nemají historický precedent — generativní AI, deepfakes, algoritmické filter bubbles a platformově-mediované kolektivní halucinace.
 
 Tato kapitola mapuje digitální transformaci epistemické krajiny ze tří perspektiv: **infrastrukturní** (algoritmy, platformy, data), **generativní** (AI, syntetická média) a **filosoficko-antropologická** (Harari, Floridi, Zuboff). Cílem je ukázat, že digitální věk nepředstavuje pouze nové **prostředky** EA, ale **strukturní transformaci** epistemického prostoru, v němž se EA odehrává.
 

@@ -21,7 +21,7 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 
 # EA-9.4.7 Cross-Platform Bot Cascade
 
-> *Subkategorie 🕸️ **9.4 Bot networks** — současná digitální epistemická agrese v éře AI, sociálních platforem a algoritmické governance.*
+> *Subkategorie 🕸️ 9.4 Bot networks — současná digitální epistemická agrese v éře AI, sociálních platforem a algoritmické governance.*
 
 ---
 

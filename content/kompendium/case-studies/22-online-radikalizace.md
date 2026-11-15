@@ -54,14 +54,14 @@ identity, v němž je nabídka hotové a jednoznačné identity zvlášť přita
 
 ## 3. Časová osa expozice
 
-V prvních třech měsících (fáze **počátečního kontaktu**) šlo o herní a humoristický obsah, první
-komunitu a ocenění za „drsné“ vtipy. Mezi čtvrtým a dvanáctým měsícem (fáze **perturbace**) rostla
+V prvních třech měsících (fáze počátečního kontaktu) šlo o herní a humoristický obsah, první
+komunitu a ocenění za „drsné“ vtipy. Mezi čtvrtým a dvanáctým měsícem (fáze perturbace) rostla
 nedůvěra k učitelům a médiím a přišlo první „prozření“. Mezi dvanáctým a dvacátým čtvrtým měsícem
-(fáze **eskalace**) proběhla trojstupňová trajektorie od šokujícího obsahu přes ironické memy k
-vážné ideologii a manifestům. Ve druhém a třetím roce (fáze **konsolidace**) se ustálil nepřenosný
+(fáze eskalace) proběhla trojstupňová trajektorie od šokujícího obsahu přes ironické memy k
+vážné ideologii a manifestům. Ve druhém a třetím roce (fáze konsolidace) se ustálil nepřenosný
 vnitroskupinový humor, autocenzura vůči okolí, kanonizace vůdčích postav a eschatologický horizont.
-**Detekce** nastala v proměnlivé době, když vrstevník mimo skupinu ukázal rodičům konkrétní vlákno,
-a **odchod a rekonstrukce** po třetím roce zahrnovaly mentoring s bývalým členem podobného hnutí a
+Detekce nastala v proměnlivé době, když vrstevník mimo skupinu ukázal rodičům konkrétní vlákno,
+a odchod a rekonstrukce po třetím roce zahrnovaly mentoring s bývalým členem podobného hnutí a
 strukturované hodnocení zdrojů. Moghaddam (2005) popsal radikalizaci metaforou schodiště, na němž
 se s každým patrem zužují vnímané možnosti jednání; trojstupňová trajektorie kompozitu je jeho
 online podobou.
@@ -123,19 +123,19 @@ potvrdila skupinový příběh.
 
 Postup kombinoval [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
 s [protokolem pro adolescenty](@/kompendium/recovery-protocols/recovery-adolescent-protocol.md). Ve
-stupni **S1 – Validace a mapování** šlo o uznání samoty a potřeby patřit a o mapu cesty obsahem bez
-obviňování. Ve stupni **S2 – Externalizace introjektů** byly vnitroskupinový jazyk a „vtipy“
+stupni S1 – Validace a mapování šlo o uznání samoty a potřeby patřit a o mapu cesty obsahem bez
+obviňování. Ve stupni S2 – Externalizace introjektů byly vnitroskupinový jazyk a „vtipy“
 rozebrány na to, co doslova tvrdí; Phillips (2015) ukazuje, že doslovné čtení ironického obsahu
 zbavuje ironii její ochranné funkce.
 
-Ve stupni **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md)** dospívající procvičoval
+Ve stupni S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md) dospívající procvičoval
 strukturované hodnocení ideových zdrojů a [kognitivní flexibilitu](@/kompendium/self-defense-guides/8-cognitive-flexibility.md).
-Stupeň **S4 – Hermeneutická obnova** zahrnoval mentoring s bývalým členem podobného hnutí podle
+Stupeň S4 – Hermeneutická obnova zahrnoval mentoring s bývalým členem podobného hnutí podle
 modelu deradikalizačních programů vedených bývalými extremisty (*formers*), který mluví bez
 moralizování; Koehler (2017) popisuje přínos takových mentorů, ale i rizika, pokud nejsou
 odborně vedeni.
 
-Stupeň **S5 – Konsolidace a transfer** spočíval v obnově vrstevnických vztahů offline a v zájmových
+Stupeň S5 – Konsolidace a transfer spočíval v obnově vrstevnických vztahů offline a v zájmových
 aktivitách. Horgan (2009) rozlišuje odpoutání (*disengagement*), tedy opuštění skupiny a jejích
 aktivit, od deradikalizace, tedy změny přesvědčení; kompozit ukazuje, že u dospívajících obojí
 nejspolehlivěji podpoří nové vztahy, v nichž lze získat uznání jinak.
@@ -156,7 +156,7 @@ dospívání. **Poruchy autistického spektra** mohou zvyšovat zranitelnost (do
 systému); nejde o příčinu, ale o faktor, s nímž musí intervence počítat, a diagnóza podle DSM-5
 (American Psychiatric Association, 2013) vyžaduje samostatné posouzení.
 
-**Depresivní epizoda** se samotou a beznadějí může radikalizaci předcházet i ji provázet a **primární
+**[Depresivní epizoda](@/glossary/depresivni-epizoda-a-porucha.md)** se samotou a beznadějí může radikalizaci předcházet i ji provázet a **primární
 porucha chování** se projevuje agresí napříč kontexty bez ideologického rámce. McCauley a Moskalenko
 (2017) připomínají, že radikální názor sám neznamená riziko násilí; diferenciální rozvaha proto
 odděluje otázku duševního zdraví od otázky bezpečnosti.

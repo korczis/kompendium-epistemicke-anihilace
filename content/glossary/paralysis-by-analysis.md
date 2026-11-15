@@ -118,7 +118,7 @@ Od **racionální opatrnosti** se paralýza liší existencí pravidla ukončen�
 rozhoduje podle předem vysloveného kritéria a mění se s novými informacemi, paralýza
 kritérium nemá (Simon, 1957). Od **úzkostných poruch a anankastické poruchy osobnosti** se
 liší tím, že nejde o diagnózu, nýbrž o vzorec, který se s nimi může překrývat; nesnášenlivost
-nejistoty je u generalizované úzkostné poruchy popsána jako jádrový mechanismus a vyžaduje
+nejistoty je u generalizované [úzkostné poruchy](@/glossary/uzkostne-poruchy.md) popsána jako jádrový mechanismus a vyžaduje
 odborné posouzení (Dugas et al., 1998). Blízký klinický okruh popisuje heslo [anankastický
 režim](@/glossary/anankasticky-rezim.md) (WHO, 2019).
 

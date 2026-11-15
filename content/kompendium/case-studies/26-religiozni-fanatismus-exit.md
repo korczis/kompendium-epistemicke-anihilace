@@ -46,14 +46,14 @@ potřeby pak činí odchod obtížným.
 
 ## 3. Časová osa expozice
 
-V prvním roce (fáze **počátečního kontaktu**) šlo o rodinnou konverzi, vřelé přijetí a pocit řádu.
-Mezi prvním a třetím rokem (fáze **perturbace**) rostla nedůvěra ke „světským“ zdrojům a žena opustila
-volnočasové aktivity. Mezi třetím a osmým rokem (fáze **eskalace**) se vzdala vysoké školy, uzavřela
+V prvním roce (fáze počátečního kontaktu) šlo o rodinnou konverzi, vřelé přijetí a pocit řádu.
+Mezi prvním a třetím rokem (fáze perturbace) rostla nedůvěra ke „světským“ zdrojům a žena opustila
+volnočasové aktivity. Mezi třetím a osmým rokem (fáze eskalace) se vzdala vysoké školy, uzavřela
 sňatek doporučený staršími, přestěhovala se blízko shromáždění a přerušila kontakt s nečleny. Mezi
-osmým a patnáctým rokem (fáze **konsolidace**) se Písmo a výklad starších staly úplným morálním
+osmým a patnáctým rokem (fáze konsolidace) se Písmo a výklad starších staly úplným morálním
 návodem, doplněným jednotným oblékáním, pevnými genderovými rolemi a očekáváním „konce dnů“.
-**Detekce** nastala v proměnlivé době krizí plodnosti páru, kterou starší vyložili jako trest, a
-tajným čtením kritické literatury o kultech. **Odchod a rekonstrukce** po patnáctém roce probíhaly
+Detekce nastala v proměnlivé době krizí plodnosti páru, kterou starší vyložili jako trest, a
+tajným čtením kritické literatury o kultech. Odchod a rekonstrukce po patnáctém roce probíhaly
 jako postupné vzdálení s podporou skupiny bývalých členů a s trauma-informovanou terapií. Lifton
 (1961) popsal „kontrolu prostředí“ (*[milieu control](@/glossary/milieu-control.md)*) jako řízení komunikace člověka s vnějším
 světem; fáze eskalace a konsolidace ji ukazují v plné podobě.
@@ -111,20 +111,20 @@ trajektoriemi, nikoli jako jednorázové rozhodnutí; postupnost odchodu v kompo
 
 Odchod probíhal jako **postupné vzdálení**, nikoli jednorázový rozchod, aby se omezila ostrakizace.
 Rámcem byl [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-a [post-cult protokol](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md). Ve stupni **S1 –
-Validace a mapování** šlo o bezpečí, psychoedukaci o skupinách s vysokou kontrolou a mapu vztahů,
+a [post-cult protokol](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md). Ve stupni S1 –
+Validace a mapování šlo o bezpečí, psychoedukaci o skupinách s vysokou kontrolou a mapu vztahů,
 které odchod ohrozí; Herman (1992) považuje bezpečí a předvídatelnost za první podmínku zotavení.
 
-Ve stupni **S2 – Externalizace introjektů** byly věty o hříchu, trestu a „světu“ odlišeny od vlastních
-hodnot. Ve stupni **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md)** žena nacvičovala
+Ve stupni S2 – Externalizace introjektů byly věty o hříchu, trestu a „světu“ odlišeny od vlastních
+hodnot. Ve stupni S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md) žena nacvičovala
 malá samostatná rozhodnutí a [revizi přesvědčení](@/kompendium/self-defense-guides/7-belief-revision.md)
 bez nutnosti okamžitě nahradit víru jiným systémem. Winell (1993) popisuje období po odchodu jako
 dobu, kdy staré jistoty už neplatí a nové ještě nevznikly; schopnost toto období snášet bez hotové
 odpovědi je proto součástí léčby.
 
-Stupeň **S4 – Hermeneutická obnova** otevřel vlastní vztah k duchovnu – víru, nevíru nebo otevřenou
+Stupeň S4 – Hermeneutická obnova otevřel vlastní vztah k duchovnu – víru, nevíru nebo otevřenou
 otázku. Pargament (1997) ukazuje, že spiritualita může být zdrojem zotavení i po zkušenosti s
-náboženským zneužitím, pokud si ji člověk utváří svobodně. Stupeň **S5 – Konsolidace a transfer**
+náboženským zneužitím, pokud si ji člověk utváří svobodně. Stupeň S5 – Konsolidace a transfer
 přinesl vzdělání, které jí bylo odepřeno, a novou komunitu.
 
 ## 8. Výsledek a reziduální deficity

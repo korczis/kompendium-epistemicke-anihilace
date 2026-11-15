@@ -21,7 +21,7 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 
 # EA-9.3.2 Engagement Optimization EA
 
-> *Subkategorie 📱 **9.3 Sociální platformy** — současná digitální epistemická agrese v éře AI, sociálních platforem a algoritmické governance.*
+> *Subkategorie 📱 9.3 Sociální platformy — současná digitální epistemická agrese v éře AI, sociálních platforem a algoritmické governance.*
 
 ---
 

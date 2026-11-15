@@ -33,9 +33,9 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 ## Definice
 
-**Zneužití soritského paradoxu** je paradoxální metaanihilační protokol, jehož operační jádro tvoří soritský paradox („kdy se hromada stává hromadou?“) aplikovaný na subjektovu identitu, hodnoty, jistoty. Technika patří do subkategorie **5.4 Paradoxální metaanihilační protokoly** — třídy ultramárních postupů, které využívají strukturální paradoxy v subjektově sebehodnotícím aparátu k destabilizaci samotného procesu, jímž subjekt rozlišuje, co je správné, pravdivé, vlastní a smysluplné.
+**Zneužití soritského paradoxu** je paradoxální metaanihilační protokol, jehož operační jádro tvoří soritský paradox („kdy se hromada stává hromadou?“) aplikovaný na subjektovu identitu, hodnoty, jistoty. Technika patří do subkategorie 5.4 Paradoxální metaanihilační protokoly — třídy ultramárních postupů, které využívají strukturální paradoxy v subjektově sebehodnotícím aparátu k destabilizaci samotného procesu, jímž subjekt rozlišuje, co je správné, pravdivé, vlastní a smysluplné.
 
-Na rozdíl od technik **[epistemické singularity](@/glossary/epistemicka-singularita.md)** ([5.1](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md)), které pohlcují obsahy poznání, a technik **transcendentální iluze** ([5.2](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md)), které manipulují s podmínkami možnosti poznání, paradoxální protokoly zasahují formální infrastrukturu posuzování. Subjekt nedokáže paradoxnost obejít vyšší úrovní reflexe, protože každá vyšší úroveň je sama postižena strukturálně analogickou paradoxií. Vzniká **kognitivní past s rekurzivně reprodukovaným zámkem**: čím více se subjekt snaží uniknout, tím pevněji je v pasti uvězněn.
+Na rozdíl od technik **[epistemické singularity](@/glossary/epistemicka-singularita.md)** ([5.1](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md)), které pohlcují obsahy poznání, a technik **[metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md)** ([5.2](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md)), které manipulují s podmínkami možnosti poznání, paradoxální protokoly zasahují formální infrastrukturu posuzování. Subjekt nedokáže paradoxnost obejít vyšší úrovní reflexe, protože každá vyšší úroveň je sama postižena strukturálně analogickou paradoxií. Vzniká **kognitivní past s rekurzivně reprodukovaným zámkem**: čím více se subjekt snaží uniknout, tím pevněji je v pasti uvězněn.
 
 Technika je strukturálně blízká [kognitivní anti-rekurzivitě](@/glossary/kognitivni-anti-rekurzivita.md), ale operuje uvnitř klasické formální logiky — využívá nikoli antitetické, nýbrž *ortodoxní* paradoxy klasické tradice (Russell, Tarski, Gödel, Wittgenstein) a aplikuje je na fenomenologickou rovinu sebezakoušení. Klíčový rys: paradox není argumentován, je *zažíván*.
 
@@ -115,7 +115,7 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 |-----------|--------------|
 | **Paradox-bezpečné výukové protokoly** | Filozofická pedagogika musí explicitně oddělovat zkoumání paradoxu od identifikace s paradoxem |
 | **Klinické rámce paradoxologie** | Terapeutická práce s paradoxy vyžaduje kvalifikaci v metalogice |
-| **Whistleblower kanály** | Anonymní hlášení manipulativní paradoxizace v akademickém a klinickém prostředí |
+| **Kanál pro oznamovatele** | Anonymní hlášení manipulativní paradoxizace v akademickém a klinickém prostředí |
 
 ## Vztah k jiným technikám
 

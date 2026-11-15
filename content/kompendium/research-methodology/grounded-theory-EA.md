@@ -94,7 +94,7 @@ souhlas a citlivost k únavě.
 
 ## Kritéria kvality
 
-Charmazová navrhuje čtyři kritéria: **věrohodnost** (dostatek dat, systematická srovnání,
+Charmazová navrhuje čtyři kritéria: věrohodnost (dostatek dat, systematická srovnání,
 doložená vazba mezi daty a kategoriemi), **originalitu** (nové poznatky, nový pohled),
 **rezonanci** (teorie dává smysl lidem, jichž se týká) a **užitečnost** (teorie je použitelná
 v praxi a pro další výzkum).

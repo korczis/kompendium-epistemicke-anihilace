@@ -25,12 +25,12 @@ Kahneman zdůrazňuje, že Systém 1 je zdrojem většiny našich úsudků a že
 
 ## Jak se projevuje
 
-**Systém 1 dominuje**, když:
-
-- je člověk unavený, ve stresu, pod časovým tlakem nebo zahlcený informacemi;
-- je situace emočně nabitá;
-- odpověď „sedí“ a nevyvolává pocit nejistoty;
-- sdělení je jednoduché, opakované a podané s jistotou.
+**Systém 1 dominuje** tehdy, když je Systém 2 zatížen nebo nemá důvod zasáhnout. Kahneman (2011)
+popisuje, že únava, stres, časový tlak a zahlcení informacemi snižují kapacitu pomalého myšlení, a že
+emočně nabitá situace posiluje rychlé úsudky řízené afektem. Systém 2 zasahuje hlavně tehdy, když
+odpověď vyvolá pocit nejistoty; odpověď, která „sedí“, prochází bez kontroly. Kahneman (2011) také
+ukazuje, že jednoduché, opakované a s jistotou podané sdělení vyvolává pocit snadnosti, který lidé
+zaměňují za pravdivost.
 
 **Systém 2 se zapojuje**, když člověk narazí na rozpor, překvapení nebo chybu, má na rozhodnutí čas a důvod pochybovat, nebo když ho k tomu vede pravidlo či postup.
 
@@ -42,10 +42,12 @@ Zároveň platí, že Systém 2 není imunní: dokáže vytvořit sofistikované
 
 ## Odlišení
 
-- **Intuice a rozum** v běžném smyslu se s oběma systémy překrývají jen částečně; expertní intuice je Systém 1 vycvičený dlouhou zkušeností.
-- **Vědomí a nevědomí** nejsou totéž co Systém 2 a Systém 1; Systém 1 produkuje i vědomé dojmy.
-- **[Predictive processing](@/glossary/predictive-processing.md)** je obecnější teorie fungování mozku, která nepracuje s dělením na dva systémy.
-- **[Metakognice](@/glossary/metakognice.md)** je schopnost sledovat a řídit vlastní poznávání – včetně rozhodnutí, kdy zapojit Systém 2.
+| Odlišit od | Rozdíl |
+| --- | --- |
+| Intuice a rozum | v běžném smyslu se s oběma systémy překrývají jen částečně; expertní intuice je Systém 1 vycvičený dlouhou zkušeností |
+| Vědomí a nevědomí | nejsou totéž co Systém 2 a Systém 1; Systém 1 produkuje i vědomé dojmy |
+| [Predictive processing](@/glossary/predictive-processing.md) | obecnější teorie fungování mozku, která nepracuje s dělením na dva systémy |
+| [Metakognice](@/glossary/metakognice.md) | schopnost sledovat a řídit vlastní poznávání, včetně rozhodnutí, kdy zapojit Systém 2 |
 
 ## Význam pro Kompendium
 

@@ -19,7 +19,7 @@ status = "publikovano"
 
 # Systematická konceptuální dekonstrukce
 
-> ⚠️ **L2 — Analytické porozumění.** Tato studie analyzuje terminální protokol cílený na **pojmový aparát subjektu** — strukturu konceptů, jimiž subjekt organizuje zkušenost. Obsah zachovává princip strategické neúplnosti; popisuje mechanismy detekovatelné při analýze případů a nikoli implementační procedury.
+> **L2 — Analytické porozumění.** Tato studie analyzuje terminální protokol cílený na **pojmový aparát subjektu** — strukturu konceptů, jimiž subjekt organizuje zkušenost. Obsah zachovává princip strategické neúplnosti; popisuje mechanismy detekovatelné při analýze případů a nikoli implementační procedury.
 
 ## Konceptuální dekonstrukce v rámci taxonomie
 

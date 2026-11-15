@@ -78,7 +78,7 @@ Pět minut na každou důležitou zprávu před sdílením, půl hodiny týdně 
 
 ## Kdy a koho požádat o pomoc
 
-- Šíří-li někdo o vás nepravdivé informace nebo upravené snímky, poraďte se s advokátem; u výhrůžek, vydírání či pronásledování kontaktujte Policii ČR (158) nebo linku 116 006.
+- Šíří-li někdo o vás nepravdivé informace nebo upravené snímky, poraďte se s advokátem; u výhrůžek, [vydírání](@/glossary/vydirani.md) či pronásledování kontaktujte Policii ČR (158) nebo linku 116 006.
 - Falešné profily a obsah porušující pravidla nahlaste provozovateli platformy; uchovejte si doklad o nahlášení.
 - Pokud vás šíření pomluv psychicky drtí, zavolejte Linku první psychické pomoci 116 123; v akutním ohrožení 112 nebo 155.
 

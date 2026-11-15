@@ -164,27 +164,27 @@ Nejprve proběhla krizová stabilizace a posouzení suicidálního rizika (Turec
 [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
 ve stupních S1–S5, jejichž pořadí vychází z modelu zotavení, který popsala Herman (1992).
 
-**S1 – Validace a mapování.** Uznání motivace – spravedlnosti pro oběť – bez relativizace škody.
+S1 – Validace a mapování. Uznání motivace – spravedlnosti pro oběť – bez relativizace škody.
 Mapa zahrnovala vlastní rozhodnutí, rozhodnutí týmu a mechanismy, které jednaly za ně. Litz
 a kolegové (Litz et al., 2009) považují rozlišení vlastního podílu od podílu okolností za
 předpoklad práce s morálním zraněním.
 
-**S2 – Externalizace introjektů.** Oddělení vlastního analytického úsudku od „hlasu komunity“:
+S2 – Externalizace introjektů. Oddělení vlastního analytického úsudku od „hlasu komunity“:
 které závěry by subjekt sám obhájil, kdyby je musel podepsat jménem. White a Epston (1990) popisují
 externalizaci jako oddělení problému od osoby; zde se oddělovaným hlasem stal kolektivní soud.
 
-**S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md).** Rozbor časové osy, na níž stála
+S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md). Rozbor časové osy, na níž stála
 teorie, a identifikace bodů, kde se předpoklad změnil ve fakt ([hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md),
 [osobní audit zkreslení](@/kompendium/self-defense-guides/38-bias-audit-personal.md)). Heuer (1999)
 navrhuje analýzu konkurujících hypotéz (analysis of competing hypotheses), v níž se důkazy posuzují
 proti všem alternativám současně; subjekt ji použil zpětně na celou teorii komunity.
 
-**S4 – Hermeneutická obnova.** Práce s morálním zraněním: vina úměrná podílu, nikoli totální. Subjekt
+S4 – Hermeneutická obnova. Práce s morálním zraněním: vina úměrná podílu, nikoli totální. Subjekt
 napsal podezřelému omluvný dopis přes jeho právního zástupce. Bandura (1999) ukazuje, že navrácení
 osobní odpovědnosti je protipólem morálního vyvázání; úměrnost viny chrání před tím, aby se změnila
 v sebetrestání.
 
-**S5 – Konsolidace a transfer.** Analytické dovednosti převedl do dobrovolnictví v ověřování faktů pod
+S5 – Konsolidace a transfer. Analytické dovednosti převedl do dobrovolnictví v ověřování faktů pod
 redakčním dohledem, kde je odpovědnost jasně přiřazena. Tetlock (2005) ukazuje, že úsudek se zlepšuje
 tam, kde jsou předpovědi a závěry zaznamenávány a zpětně porovnávány se skutečností.
 

@@ -1075,7 +1075,10 @@ def current(details: dict = None, counts: dict = None) -> dict:
 
 
 def write_baseline(baseline: dict) -> None:
-    kept = {p: r for p, r in baseline.items() if r}
+    # Canonical order, pages AND each page's rules: the rule list used to keep whatever order the
+    # writing run found it in, so two runs over one tree wrote different files and every lane paid
+    # a merge conflict on this file at every merge (2026-11-15, four times on one branch).
+    kept = {p: sorted(r) for p, r in baseline.items() if r}
     BASELINE.write_text(json.dumps(kept, ensure_ascii=False, indent=1, sort_keys=True) + "\n",
                         encoding="utf-8")
 

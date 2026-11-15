@@ -50,7 +50,14 @@ Requirements (id: what is checked):
                    (zákon č. N/RRRR Sb.) or EU instrument; callouts, tables, code exempt; up to
                    three paragraphs per page that only state the book's own frame may instead
                    link one of its method pages (01-predmluva/eticke-aspekty, jak-pouzivat,
-                   08-prilohy/eticky-kodex, 02-uvod/metodologicke-poznamky) and no other page
+                   08-prilohy/eticky-kodex, 02-uvod/metodologicke-poznamky) and no other page.
+                   A quick-reference card owes no citations of its own while it links its
+                   technique page as "**Plná stránka:**" and that page exists: the parent carries
+                   the apparatus, and a ten-line summary citing the same works again would
+                   duplicate its parent's credibility. Keyed on that relation, so a card with no
+                   link or a broken one is charged. quick-reference/_index.md is prose, not a
+                   card, and is charged. The method-page exemption could not have served here:
+                   119 of the 123 cards carry 4 or more uncited paragraphs, above its cap of 3
   bibliography     a page that cites an author has `## Literatura`, before `## Související`
   citation-unresolved  every cited surname is in the page's Literatura (Czech case endings and
                    female -ová forms resolve: Liftona -> Lifton, Arendtová -> Arendt)
@@ -132,6 +139,13 @@ Requirements (id: what is checked):
                    first cell AND a short second cell: a code, a level or a link); a pasted prose
                    sentence in the second cell ("| **Mechanismus** | … |") stays charged. ADR 0013.
                    Remedy: rewrite the row per page, or move a genuine shared field to a template.
+                   NEVER baselined
+  alias-collision  a Zola alias is a free old address: refused, on the page that carries it, an alias
+                   equal to the page's own address (a no-op that redirects nothing; c5200028 gave six
+                   renumbered techniques one instead of their old address, and those URLs went 404),
+                   or equal to another page's address or to another page's alias (one path, two
+                   things served). Trailing slashes are normalised. Remedy: the alias names the
+                   address the page had before it moved, and that address is served by nothing else.
                    NEVER baselined
   duplicate-ea-code  one EA code names one technique: two technique pages (content/kompendium/
                    techniques/) whose extra.ea_code is the same are both refused. A quick-reference
@@ -286,7 +300,8 @@ NEVER_BASELINED = {"placeholder", "technique-page", "howto", "drug-dose", "templ
                    "clinical-figure", "fabricated-citation", "legitimate-indication",
                    "code-range", "chrome-trailer",
                    "detail", "weak-link",
-                   "duplicate-passage", "duplicate-table", "access-level-row", "duplicate-ea-code", "catalogue-row",
+                   "duplicate-passage", "duplicate-table", "access-level-row", "duplicate-ea-code",
+                   "catalogue-row", "alias-collision",
                    "drug-name", "authority-without-source",
                    "platform-section", "relative-link", "platform-label", "platform-frontmatter",
                    "philosophy-frame"}
@@ -390,6 +405,8 @@ def violations(page: dict) -> list:
         found.append("duplicate-ea-code")
     if page.get("catalogue_rows"):
         found.append("catalogue-row")
+    if page.get("alias_collisions"):
+        found.append("alias-collision")
     if page.get("misnamed_techniques"):
         found.append("technique-name")
     if page["bold_unlinked"]:
@@ -427,6 +444,8 @@ def explain(page: dict) -> dict:
                              if page.get("access_level_prose") else ""),
         "catalogue-row": (f"{len(page['catalogue_rows'])} hand-written row(s), first: "
                           f"{page['catalogue_rows'][0][:70]}" if page.get("catalogue_rows") else ""),
+        "alias-collision": ("; ".join(f"{a} is {why}" for a, why in page["alias_collisions"])
+                            if page.get("alias_collisions") else ""),
         "duplicate-ea-code": (f"{page['duplicate_ea_code'][0]} is also the ea_code of "
                               + ", ".join(page["duplicate_ea_code"][1])
                               if page.get("duplicate_ea_code") else ""),
@@ -1054,6 +1073,25 @@ def analyse(pages: list) -> dict:
     for page in pages:
         page["duplicate_passages"] = sorted(b for b, paths in dup_shared.items()
                                             if page["path"] in paths)
+    # alias-collision: an alias is a free old address, not the page's own nor another page's.
+    def as_path(a: str) -> str:
+        return "/" + a.strip().strip("/") + "/"
+    served = {as_path(page["url"]): page["path"] for page in pages}
+    claimed = collections.defaultdict(set)
+    for page in pages:
+        for a in page.get("url_aliases", []):
+            claimed[as_path(a)].add(page["path"])
+    for page in pages:
+        hits = []
+        for a in page.get("url_aliases", []):
+            at = as_path(a)
+            if served.get(at) == page["path"]:
+                hits.append((a, "the page's own address"))
+            elif at in served:
+                hits.append((a, f"the address of {served[at]}"))
+            elif len(claimed[at]) > 1:
+                hits.append((a, "also an alias of " + ", ".join(sorted(claimed[at] - {page["path"]}))))
+        page["alias_collisions"] = hits
     # duplicate-ea-code: one EA code, one technique page. Only the technique pages' own
     # extra.ea_code counts; a card or page citing the code is about the technique, not another one.
     by_code = collections.defaultdict(set)
@@ -1094,10 +1132,57 @@ def weak(page: dict) -> bool:
     return (not surface and page["words"] < min_words(page)) or page["generated"]
 
 
+# A quick-reference card summarises one technique page and links it as "**Plná stránka:**". The
+# apparatus belongs to that page: it carries the citations, the bibliography and the
+# citation-unresolved check. Asking the card to cite the same works again would duplicate its
+# parent's credibility in a ten-line summary — the borrowed credibility this book spent a wave
+# removing from 75 other pages.
+#
+# So the exemption is keyed on the RELATION, not on the directory, and it cannot outlive its
+# reason: a card is cleared only while it links a technique page that exists. Drop the link, or
+# break it, and the card is charged again. Three consequences of that choice, each deliberate:
+#   * quick-reference/_index.md is NOT a card and is not cleared. It is prose (13 uncited
+#     paragraphs, where a card has 3 to 5), and it owes citations like any other prose page.
+#   * the five cards that do carry a ## Literatura keep it and are cleared too; a bibliography a
+#     writer chose to add is not a reason to charge the page.
+#   * the method-page exemption (OWN_FRAME, capped at 3) could not have done this job: 119 of the
+#     123 cards carry 4 or more uncited paragraphs, so adding a method link to every card would
+#     have left 119 charged. Measured before this rule was written.
+CARD_PARENT = re.compile(r"\*\*Plná stránka:\*\*\s*\[[^\]]*\]\(@/(kompendium/techniques/[^)#]+\.md)")
+
+
+# This takes two passes and the order is forced. The decision needs each page's `body`, which
+# analyse() empties; the number it adjusts is `uncited`, which analyse() COMPUTES and which a
+# freshly loaded page does not carry at all. Zeroing it before analyse() therefore created a key
+# that analyse() then overwrote — the exemption fired on all 123 cards and changed nothing, which
+# is why the identification and the clearing are separate functions with analyse() between them.
+def card_parents_resolve(pages: list) -> set:
+    """The quick-reference cards that link a technique page which exists. Reads the bodies."""
+    known = {p["path"] for p in pages}
+    found = set()
+    for page in pages:
+        path = page["path"]
+        if not path.startswith("kompendium/quick-reference/") or page["is_index"]:
+            continue
+        m = CARD_PARENT.search(page.get("body") or "")
+        if m and m.group(1) in known:
+            found.add(path)
+    return found
+
+
+def clear_card_citations(pages: list, exempt: set) -> None:
+    """Zero `uncited` on those cards. Needs the counts, so it runs after analyse()."""
+    for page in pages:
+        if page["path"] in exempt:
+            page["uncited"] = 0
+
+
 def current(details: dict = None, counts: dict = None) -> dict:
     result = {}
     pages = load_pages(with_body=True)
+    cards = card_parents_resolve(pages)   # while the bodies are still there
     candidates = analyse(pages)
+    clear_card_citations(pages, cards)    # once analyse() has produced the counts
     weak_pages = {p["path"] for p in pages if weak(p)}
     for page in pages:
         key = f"content/{page['path']}"

@@ -1,6 +1,6 @@
 +++
 title = "EA-1.4.3 Latentní podbarvení"
-aliases = ["/kompendium/techniques/ea-1-4-3-latentni-podbarveni/"]
+aliases = ["/kompendium/techniques/ea-1-4-1-latentni-podbarveni/"]
 weight = 100
 description = "Paralingvistický vzorec, v němž tón, důraz a pauzy dávají věcně neutrální výpovědi hodnotící význam, za který mluvčí neodpovídá. Znaky, odlišení, obrana."
 

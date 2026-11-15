@@ -1,6 +1,6 @@
 +++
 title = "EA-1.3.6 Sokratovská past"
-aliases = ["/kompendium/techniques/ea-1-3-6-sokratovska-past/"]
+aliases = ["/kompendium/techniques/ea-1-3-2-sokratovska-past/"]
 weight = 100
 description = "Zneužití sokratovského tázání: řada otázek s jedinou přijatelnou odpovědí vede k závěru, který se pak vydává za vlastní poznání tázaného. Znaky a obrana."
 

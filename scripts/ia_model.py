@@ -203,6 +203,9 @@ def load_pages(with_body: bool = False) -> list:
             "catalog": str(extra.get("catalog", "")) if isinstance(extra, dict) else "",
             "catalog_entry": bool(isinstance(extra, dict) and extra.get("catalog_id")),
             "en": str(extra.get("catalog_en", "")) if isinstance(extra, dict) else "",
+            # Zola's top-level aliases: the old addresses this page redirects from
+            "url_aliases": [str(x) for x in front.get("aliases", [])]
+            if isinstance(front.get("aliases"), list) else [],
             "aliases": [str(x) for x in extra.get("catalog_aliases", [])]
             if isinstance(extra, dict) and isinstance(extra.get("catalog_aliases"), list) else [],
             "links": [m.group(1) for m in AT_LINK.finditer(body)],

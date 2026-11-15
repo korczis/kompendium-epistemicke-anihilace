@@ -1,6 +1,6 @@
 +++
 title = "EA-1.3.5 Pseudoempirická validace"
-aliases = ["/kompendium/techniques/ea-1-3-5-pseudo-empiricka-validace/"]
+aliases = ["/kompendium/techniques/ea-1-3-2-pseudo-empiricka-validace/"]
 weight = 100
 description = "Vzorec, v němž tvrzení získává vědecký vzhled – čísla, grafy, citace, měření – bez skutečné empirické opory. Znaky, odlišení od rané vědy, obrana."
 

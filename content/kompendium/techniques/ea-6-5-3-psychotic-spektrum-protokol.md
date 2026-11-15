@@ -59,8 +59,6 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 **Typická délka:** variabilní; délku akutní stabilizace určuje klinický obraz a psychiatrická péče, nikoli norma stanovená touto knihou.
 
-Frekvence sezení a celková délka intervence jsou závislé na komplexitě klinického obrazu, komorbiditách a individuální responsivitě. V populacích s komplexním C-PTSD je třeba počítat s prolongovaným průběhem, zatímco u single-incident traumat lze očekávat rychlejší progression.
-
 ## Hodnotící kritéria
 
 Klinická efektivita techniky je posuzována podle následujících outcome metrik:

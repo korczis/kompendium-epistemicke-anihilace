@@ -59,8 +59,6 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 Délku vyšetření a odstup opakování stanoví manuál použitého nástroje a supervize, nikoli tato kniha.
 
-Frekvence sezení a celková délka intervence jsou závislé na komplexitě klinického obrazu, komorbiditách a individuální responsivitě. V populacích s komplexním C-PTSD je třeba počítat s prolongovaným průběhem, zatímco u single-incident traumat lze očekávat rychlejší progression.
-
 ## Hodnotící kritéria
 
 Klinická efektivita techniky je posuzována podle následujících outcome metrik:

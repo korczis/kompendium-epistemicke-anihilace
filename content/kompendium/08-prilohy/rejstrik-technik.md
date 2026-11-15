@@ -45,6 +45,7 @@ Detailní popis notace viz [Klasifikační schéma](@/kompendium/08-prilohy/klas
 > **Subjekt akademického a intelektuálního prostředí.** Techniky využívají legitimní akademické nástroje (selektivní citace, falešné dilema, rétorika autority) k systematické dezorientaci. Riziko: **střední**, reverzibilita: **vysoká**.
 
 {% for f in cat.chapters["1"] %}{% set fname = cat.family_names[f] | default(value="") %}
+
 ### EA-{{ f }}{% if fname %} {{ fname }}{% endif %}
 
 | Kód | Název | Jednořádkový popis |
@@ -60,6 +61,7 @@ Detailní popis notace viz [Klasifikační schéma](@/kompendium/08-prilohy/klas
 > **Cíl: zničení epistemické důvěryhodnosti zdroje.** Riziko: **střední–vysoké**, reverzibilita: **střední**. Plné articulace v sekci [03 Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md) a [04 Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md).
 
 {% for f in cat.chapters["2"] %}{% set fname = cat.family_names[f] | default(value="") %}
+
 ### EA-{{ f }}{% if fname %} {{ fname }}{% endif %}
 
 | Kód | Název | Jednořádkový popis |
@@ -75,6 +77,7 @@ Detailní popis notace viz [Klasifikační schéma](@/kompendium/08-prilohy/klas
 > **Cíl: naučit subjekt manipulovat sebe sama.** Riziko: **vysoké**, reverzibilita: **nízká–střední**. Pokrývá doménu vzdělávacích, terapeutických a coachingových kontextů.
 
 {% for f in cat.chapters["3"] %}{% set fname = cat.family_names[f] | default(value="") %}
+
 ### EA-{{ f }}{% if fname %} {{ fname }}{% endif %}
 
 | Kód | Název | Jednořádkový popis |
@@ -90,6 +93,7 @@ Detailní popis notace viz [Klasifikační schéma](@/kompendium/08-prilohy/klas
 > **Komplexní destrukční sekvence kombinující techniky z předchozích kapitol.** Riziko: **vysoké–extrémní**, reverzibilita: nízká. Vyžaduje úroveň přístupu **L2+**. Plný popis v [Sekci 04](@/kompendium/04-terminalni-protokoly/_index.md).
 
 {% for f in cat.chapters["4"] %}{% set fname = cat.family_names[f] | default(value="") %}
+
 ### EA-{{ f }}{% if fname %} {{ fname }}{% endif %}
 
 | Kód | Název | Jednořádkový popis |
@@ -105,6 +109,7 @@ Detailní popis notace viz [Klasifikační schéma](@/kompendium/08-prilohy/klas
 > **Fundamentální dekonstrukce.** Cíl: rozklad **základních struktur poznávání samotného**. Riziko: **extrémní**, reverzibilita: **velmi nízká**. Vyžaduje úroveň přístupu **L3+** s etickým dohledem.
 
 {% for f in cat.chapters["5"] %}{% set fname = cat.family_names[f] | default(value="") %}
+
 ### EA-{{ f }}{% if fname %} {{ fname }}{% endif %}
 
 | Kód | Název | Jednořádkový popis |
@@ -120,6 +125,7 @@ Detailní popis notace viz [Klasifikační schéma](@/kompendium/08-prilohy/klas
 > **Diagnostické a terapeutické rámce** pro práci s pacienty exponovanými technikám EA. Plný popis v [Sekci 06](@/kompendium/06-klinicke-aplikace/_index.md) a [Diagnostických nástrojích](@/kompendium/08-prilohy/diagnosticke-nastroje.md).
 
 {% for f in cat.chapters["6"] %}{% set fname = cat.family_names[f] | default(value="") %}
+
 ### EA-{{ f }}{% if fname %} {{ fname }}{% endif %}
 
 | Kód | Název | Jednořádkový popis |
@@ -139,6 +145,7 @@ Detailní popis notace viz [Klasifikační schéma](@/kompendium/08-prilohy/klas
 {% set n7 = 0 %}{% for f in cat.chapters["7"] %}{% set_global n7 = n7 + cat.families[f] | length %}{% endfor %}{{ n7 }} hesel ve {{ cat.chapters["7"] | length }} skupinách. Každé popisuje myšlenku autora, to, co z ní plyne pro rozpoznání epistemické anihilace, a meze jejího použití.
 
 {% for f in cat.chapters["7"] %}{% set fname = cat.family_names[f] | default(value="") %}
+
 #### EA-{{ f }}{% if fname %} {{ fname }}{% endif %}
 
 | Kód | Název | Jednořádkový popis |
@@ -146,6 +153,7 @@ Detailní popis notace viz [Klasifikační schéma](@/kompendium/08-prilohy/klas
 {% for t in cat.families[f] %}| [`{{ t.code }}`](@/kompendium/techniques/{{ t.slug }}.md) | {{ t.name }} | {{ t.summary }} |
 {% endfor %}
 {% endfor %}
+
 ### 7.B Tematické kapitoly 7.1–7.9
 
 | Č. | Kapitola | Co řeší |
@@ -187,6 +195,7 @@ Detailní popis notace viz [Klasifikační schéma](@/kompendium/08-prilohy/klas
 > [Bibliografie](@/kompendium/08-prilohy/bibliografie.md).
 
 {% for f in cat.chapters["8"] %}{% set fname = cat.family_names[f] | default(value="") %}
+
 ### EA-{{ f }}{% if fname %} {{ fname }}{% endif %}
 
 | Kód | Název | Jednořádkový popis |
@@ -200,7 +209,7 @@ posouzení schopnosti rozhodovat podle Appelbauma a Grissa (1988) nebo škálu d
 zážitků DES-II (Carlson a Putnam, 1993); kniha je uvádí jako odkaz na odbornou literaturu, ne
 jako návod k samostatnému použití bez klinického výcviku. Skupina 8.2 shrnuje rámce, z nichž
 taxonomie vychází: Liftonova kritéria myšlenkové reformy (Lifton, 1961), podmínky popsané
-Singerovou (Singer a Lalich, 1995), Starkův koncept coercive control (Stark, 2007) a fázový
+Singerovou (Singer a Lalich, 1995), Starkův koncept [coercive control](@/glossary/coercive-control.md) (Stark, 2007) a fázový
 model zotavení Hermanové (Herman, 1992).
 
 ## Kapitola 9 — {{ cat.chapter_names["9"] }}
@@ -210,6 +219,7 @@ model zotavení Hermanové (Herman, 1992).
 > stránka uvádí znaky, obranu a meze poznání, nikdy postup útoku.
 
 {% for f in cat.chapters["9"] %}{% set fname = cat.family_names[f] | default(value="") %}
+
 ### EA-{{ f }}{% if fname %} {{ fname }}{% endif %}
 
 | Kód | Název | Jednořádkový popis |

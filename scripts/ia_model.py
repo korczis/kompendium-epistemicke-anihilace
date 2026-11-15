@@ -20,6 +20,8 @@ CATALOGUE_DATA = 'load_data(path="static/data/catalogue.json")'
 CATALOGUE_FAMILY = re.compile(r'\{%-?\s*for\s+\w+\s+in\s+\w+\.families\[\s*"(\d+\.\d+)"\s*\]')
 CATALOGUE_CODE = re.compile(r"^EA-(\d+\.\d+)\.\d+$")
 CATALOGUE_CHAPTER = re.compile(r'\{%-?\s*for\s+\w+\s+in\s+\w+\.chapters\[\s*"(\d+)"\s*\]')
+# a loop over every chapter (`{% for ch, fams in cat.chapters %}`) lists the whole catalogue
+CATALOGUE_ALL = re.compile(r'\{%-?\s*for\s+\w+\s*,\s*\w+\s+in\s+\w+\.chapters\s*-?%\}')
 AT_LINK = re.compile(r"\]\(@/([^)#\s]+?\.md)(#[^)\s]*)?\)")
 FENCE = re.compile(r"```.*?```", re.S)
 WORD = re.compile(r"[A-Za-zÀ-ž]+")
@@ -213,7 +215,8 @@ def load_pages(with_body: bool = False) -> list:
             # a family loop names its family; a chapter loop (cat.chapters["5"]) covers every
             # family of the chapter
             loops[pages[-1]["path"]] = (set(CATALOGUE_FAMILY.findall(body)),
-                                        set(CATALOGUE_CHAPTER.findall(body)))
+                                        set(CATALOGUE_CHAPTER.findall(body))
+                                        | ({"*"} if CATALOGUE_ALL.search(body) else set()))
         code = CATALOGUE_CODE.match(str(extra.get("ea_code", "") or "").strip()) if isinstance(extra, dict) else None
         if code and pages[-1]["path"].startswith("kompendium/techniques/ea-"):
             family_of[pages[-1]["path"]] = code.group(1)
@@ -224,7 +227,7 @@ def load_pages(with_body: bool = False) -> list:
         families, chapters = loops.get(page["path"], (set(), set()))
         if families or chapters:
             page["links"] += [t for t, f in family_of.items()
-                              if f in families or f.split(".")[0] in chapters]
+                              if f in families or f.split(".")[0] in chapters or "*" in chapters]
     known = {p["path"] for p in pages}
     for page in pages:
         page["broken_links"] = sorted({t for t in page["links"] if t not in known})

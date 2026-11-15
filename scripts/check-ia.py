@@ -308,7 +308,7 @@ PENDING_ZERO = {"placeholder": 0, "technique-page": 0, "howto": 0, "drug-dose": 
                 # the one known case: EA-5.3.27 on two pages, its kapitola-8 row naming neither
                 "duplicate-ea-code": 2,
                 # the hand-written catalogues when the rule came in (ADR 0015); each converts on its branch
-                "catalogue-row": 4,
+                "catalogue-row": 3,
                 # safety, ADR 0013/0014: both reach 0 after the content lane's waves
                 "drug-name": 1, "authority-without-source": 0}  # 0 → never baselined (lands at 0 after 2e's slice)
 # A hand-written catalogue row: the first cell is an EA technique code, bold or in backticks, linked

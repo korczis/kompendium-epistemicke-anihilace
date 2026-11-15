@@ -43,8 +43,6 @@ Technika je primárně indikována v následujících klinických kontextech:
 
 Novináři s field-PTSD, post-online-harassment trauma, kumulativním vicarious stress, source-trauma.
 
-Sekundárně může být zvažována jako adjunktivní intervence v rámci komplexního multimodálního léčebného plánu, vždy však s ohledem na individuální profil klienta a aktuální fázi rekonstrukčního procesu.
-
 ## Kontraindikace
 
 Aplikace techniky je kontraindikována v následujících situacích:

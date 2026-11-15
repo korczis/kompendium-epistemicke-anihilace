@@ -43,8 +43,6 @@ Technika je primárně indikována v následujících klinických kontextech:
 
 Klienti se silným cizím narativem (post-cult, post-coercive vztah, post-totalitní expozice), narušená narativní koherence, post-traumatic identity diffusion, hermeneutic injustice.
 
-Sekundárně může být zvažována jako adjunktivní intervence v rámci komplexního multimodálního léčebného plánu, vždy však s ohledem na individuální profil klienta a aktuální fázi rekonstrukčního procesu.
-
 ## Kontraindikace
 
 Aplikace techniky je kontraindikována v následujících situacích:

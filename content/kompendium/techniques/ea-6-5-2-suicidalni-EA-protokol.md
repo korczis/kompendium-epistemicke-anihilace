@@ -43,8 +43,6 @@ Technika je primárně indikována v následujících klinických kontextech:
 
 Akutní suicidální ideace s plánem, post-EA-trauma s recurrent suicidality, klienti po předchozím pokusu.
 
-Sekundárně může být zvažována jako adjunktivní intervence v rámci komplexního multimodálního léčebného plánu, vždy však s ohledem na individuální profil klienta a aktuální fázi rekonstrukčního procesu.
-
 ## Kontraindikace
 
 Aplikace techniky je kontraindikována v následujících situacích:

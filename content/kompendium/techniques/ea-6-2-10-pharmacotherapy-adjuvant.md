@@ -45,8 +45,6 @@ Technika je primárně indikována v následujících klinických kontextech:
 
 EA-PTSD s rezistentní afektivní složkou, persistentní noční děsy a poruchy spánku, akutní krize vyžadující stabilizaci, komorbidní deprese, rezistentní disociativní symptomy.
 
-Sekundárně může být zvažována jako adjunktivní intervence v rámci komplexního multimodálního léčebného plánu, vždy však s ohledem na individuální profil klienta a aktuální fázi rekonstrukčního procesu.
-
 ## Kontraindikace
 
 Aplikace techniky je kontraindikována v následujících situacích:

@@ -43,8 +43,6 @@ Technika je primárně indikována v následujících klinických kontextech:
 
 Subjektivní stížnosti na kognitivní problémy po manipulativní expozici, podezření na chronický stres-indukovaný kognitivní pokles, soudně-znalecké posouzení decision-making kapacity, monitorování kognitivní rekonvalescence.
 
-Sekundárně může být zvažována jako adjunktivní intervence v rámci komplexního multimodálního léčebného plánu, vždy však s ohledem na individuální profil klienta a aktuální fázi rekonstrukčního procesu.
-
 ## Kontraindikace
 
 Aplikace techniky je kontraindikována v následujících situacích:

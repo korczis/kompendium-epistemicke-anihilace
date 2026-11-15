@@ -43,8 +43,6 @@ Technika je primárně indikována v následujících klinických kontextech:
 
 Podezření na expozici manipulativním systémům (kult, abusivní vztah, koercivní pracovní prostředí), nespecifické úzkostně-depresivní symptomatologie s epistemickou složkou, refererence z OSINT/DD šetření, post-divorce/post-cult adaptační poruchy, klinický screening v populacích vysokého rizika.
 
-Sekundárně může být zvažována jako adjunktivní intervence v rámci komplexního multimodálního léčebného plánu, vždy však s ohledem na individuální profil klienta a aktuální fázi rekonstrukčního procesu.
-
 ## Kontraindikace
 
 Aplikace techniky je kontraindikována v následujících situacích:

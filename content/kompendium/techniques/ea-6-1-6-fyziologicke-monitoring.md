@@ -43,8 +43,6 @@ Technika je primárně indikována v následujících klinických kontextech:
 
 Validizace subjektivního self-reportu úzkostné aktivace, identifikace specifických triggerů, monitorování průběhu somatické intervence, výzkumná dokumentace fyziologického podpisu EA-trauma.
 
-Sekundárně může být zvažována jako adjunktivní intervence v rámci komplexního multimodálního léčebného plánu, vždy však s ohledem na individuální profil klienta a aktuální fázi rekonstrukčního procesu.
-
 ## Kontraindikace
 
 Aplikace techniky je kontraindikována v následujících situacích:

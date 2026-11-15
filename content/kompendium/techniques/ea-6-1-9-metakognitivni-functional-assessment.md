@@ -43,8 +43,6 @@ Technika je primárně indikována v následujících klinických kontextech:
 
 Po expozici epistemicky-manipulativním systémům (kult, manipulativní vztah, totalizující ideologie), persistentní nejistota při rozhodování, hyperkalibrace nebo hypokalibrace sebejistoty, příprava na metakognitivní terapii.
 
-Sekundárně může být zvažována jako adjunktivní intervence v rámci komplexního multimodálního léčebného plánu, vždy však s ohledem na individuální profil klienta a aktuální fázi rekonstrukčního procesu.
-
 ## Kontraindikace
 
 Aplikace techniky je kontraindikována v následujících situacích:

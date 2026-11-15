@@ -43,8 +43,6 @@ Technika je primárně indikována v následujících klinických kontextech:
 
 Hodnotová zmatenost po cult-exit, internalizované hodnoty manipulátora, anomie po EA-trauma, ztráta sense of meaning.
 
-Sekundárně může být zvažována jako adjunktivní intervence v rámci komplexního multimodálního léčebného plánu, vždy však s ohledem na individuální profil klienta a aktuální fázi rekonstrukčního procesu.
-
 ## Kontraindikace
 
 Aplikace techniky je kontraindikována v následujících situacích:

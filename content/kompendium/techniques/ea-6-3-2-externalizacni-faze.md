@@ -43,8 +43,6 @@ Technika je primárně indikována v následujících klinických kontextech:
 
 Stabilizovaní klienti připravení na trauma-procesovou intervenci, persistentní intrusive memories, internalizované manipulativní vzorce.
 
-Sekundárně může být zvažována jako adjunktivní intervence v rámci komplexního multimodálního léčebného plánu, vždy však s ohledem na individuální profil klienta a aktuální fázi rekonstrukčního procesu.
-
 ## Kontraindikace
 
 Aplikace techniky je kontraindikována v následujících situacích:

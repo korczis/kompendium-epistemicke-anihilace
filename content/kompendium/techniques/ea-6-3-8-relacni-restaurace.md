@@ -43,8 +43,6 @@ Technika je primárně indikována v následujících klinických kontextech:
 
 Post-trauma relational difficulties, izolace po cult-exit, narušená attachment po DV, generalizovaná interpersonální nedůvěra.
 
-Sekundárně může být zvažována jako adjunktivní intervence v rámci komplexního multimodálního léčebného plánu, vždy však s ohledem na individuální profil klienta a aktuální fázi rekonstrukčního procesu.
-
 ## Kontraindikace
 
 Aplikace techniky je kontraindikována v následujících situacích:

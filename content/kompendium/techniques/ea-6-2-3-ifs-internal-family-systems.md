@@ -43,8 +43,6 @@ Technika je primárně indikována v následujících klinických kontextech:
 
 Disociativní fragmentace po manipulativní expozici, internalizovaní agresoři, vnitřní konflikty mezi 'cult-self' a 'pre-cult-self', komplexní C-PTSD, klienti odolní vůči klasickým protokolům.
 
-Sekundárně může být zvažována jako adjunktivní intervence v rámci komplexního multimodálního léčebného plánu, vždy však s ohledem na individuální profil klienta a aktuální fázi rekonstrukčního procesu.
-
 ## Kontraindikace
 
 Aplikace techniky je kontraindikována v následujících situacích:

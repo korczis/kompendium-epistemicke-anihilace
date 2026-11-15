@@ -43,8 +43,6 @@ Technika je primárně indikována v následujících klinických kontextech:
 
 Persistentní rumination o manipulativní expozici, hyperkontrola myšlení, persistentní self-monitoring, epistemická paralýza, post-cult metakognitivní zmatek.
 
-Sekundárně může být zvažována jako adjunktivní intervence v rámci komplexního multimodálního léčebného plánu, vždy však s ohledem na individuální profil klienta a aktuální fázi rekonstrukčního procesu.
-
 ## Kontraindikace
 
 Aplikace techniky je kontraindikována v následujících situacích:

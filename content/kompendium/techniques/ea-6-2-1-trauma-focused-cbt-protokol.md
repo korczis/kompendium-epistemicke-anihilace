@@ -43,8 +43,6 @@ Technika je primárně indikována v následujících klinických kontextech:
 
 EA-PTSD diagnóza, persistentní intrusive memories epistemické manipulace, kognitivní zkreslení o sobě/světě/budoucnosti vznikající z manipulativní expozice, vyhýbavé chování, hypervigilance.
 
-Sekundárně může být zvažována jako adjunktivní intervence v rámci komplexního multimodálního léčebného plánu, vždy však s ohledem na individuální profil klienta a aktuální fázi rekonstrukčního procesu.
-
 ## Kontraindikace
 
 Aplikace techniky je kontraindikována v následujících situacích:

@@ -43,8 +43,6 @@ Technika je primárně indikována v následujících klinických kontextech:
 
 Chronické svalové napětí bez organického korelátu, dechové dysfunkce, posturální markery podřízenosti/agrese, EA-trauma manifestující se primárně somaticky.
 
-Sekundárně může být zvažována jako adjunktivní intervence v rámci komplexního multimodálního léčebného plánu, vždy však s ohledem na individuální profil klienta a aktuální fázi rekonstrukčního procesu.
-
 ## Kontraindikace
 
 Aplikace techniky je kontraindikována v následujících situacích:

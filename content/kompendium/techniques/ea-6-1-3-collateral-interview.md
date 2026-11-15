@@ -43,8 +43,6 @@ Technika je primárně indikována v následujících klinických kontextech:
 
 Klinické pochybnosti o spolehlivosti self-reportu, podezření na minimalizaci nebo idealizaci expozice, diferenciální diagnostika s narcistickou poruchou nebo histrionickou strukturou, soudně-znalecké posouzení.
 
-Sekundárně může být zvažována jako adjunktivní intervence v rámci komplexního multimodálního léčebného plánu, vždy však s ohledem na individuální profil klienta a aktuální fázi rekonstrukčního procesu.
-
 ## Kontraindikace
 
 Aplikace techniky je kontraindikována v následujících situacích:

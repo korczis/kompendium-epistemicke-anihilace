@@ -43,8 +43,6 @@ Technika je primárně indikována v následujících klinických kontextech:
 
 [Self-report](@/glossary/self-report.md) disociativních symptomů, klinické pozorování absencí, mezery v autobiografické paměti, podezření na disociativní amnézii ohledně manipulativní expozice, příprava na trauma intervenci.
 
-Sekundárně může být zvažována jako adjunktivní intervence v rámci komplexního multimodálního léčebného plánu, vždy však s ohledem na individuální profil klienta a aktuální fázi rekonstrukčního procesu.
-
 ## Kontraindikace
 
 Aplikace techniky je kontraindikována v následujících situacích:

@@ -43,8 +43,6 @@ Technika je primárně indikována v následujících klinických kontextech:
 
 Vstupní fáze každého EA-trauma léčebného plánu, klienti s vysokou symptomatologií, akutní krize, příprava na trauma-procesovou intervenci, klienti odolní vůči přímé trauma-práci.
 
-Sekundárně může být zvažována jako adjunktivní intervence v rámci komplexního multimodálního léčebného plánu, vždy však s ohledem na individuální profil klienta a aktuální fázi rekonstrukčního procesu.
-
 ## Kontraindikace
 
 Aplikace techniky je kontraindikována v následujících situacích:

@@ -43,8 +43,6 @@ Technika je primárně indikována v následujících klinických kontextech:
 
 Komplexní DD klientů s vícečetnými traumatizacemi, screening kumulativní traumatizace, identifikace skrytých EA-trauma maskovaných primárně somatickou stížností, příprava na trauma-zaměřenou intervenci.
 
-Sekundárně může být zvažována jako adjunktivní intervence v rámci komplexního multimodálního léčebného plánu, vždy však s ohledem na individuální profil klienta a aktuální fázi rekonstrukčního procesu.
-
 ## Kontraindikace
 
 Aplikace techniky je kontraindikována v následujících situacích:

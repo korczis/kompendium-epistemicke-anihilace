@@ -43,8 +43,6 @@ Technika je primárně indikována v následujících klinických kontextech:
 
 Uprchlíci s EA-trauma anamnézou (totalitní režimy, koercivní organizace v zemi původu), migrace z high-conflict regionů, post-asylum stress.
 
-Sekundárně může být zvažována jako adjunktivní intervence v rámci komplexního multimodálního léčebného plánu, vždy však s ohledem na individuální profil klienta a aktuální fázi rekonstrukčního procesu.
-
 ## Kontraindikace
 
 Aplikace techniky je kontraindikována v následujících situacích:

@@ -43,8 +43,6 @@ Technika je primárně indikována v následujících klinických kontextech:
 
 Aktivisti s burnout, post-state-harassment trauma, post-movement-conflict, secondary trauma z exposed populací.
 
-Sekundárně může být zvažována jako adjunktivní intervence v rámci komplexního multimodálního léčebného plánu, vždy však s ohledem na individuální profil klienta a aktuální fázi rekonstrukčního procesu.
-
 ## Kontraindikace
 
 Aplikace techniky je kontraindikována v následujících situacích:

@@ -43,8 +43,6 @@ Technika je primárně indikována v následujících klinických kontextech:
 
 Klienti po koercivní konverzní terapii, post-religious queer klienti, minority stress symptomatologie, queer betrayal trauma.
 
-Sekundárně může být zvažována jako adjunktivní intervence v rámci komplexního multimodálního léčebného plánu, vždy však s ohledem na individuální profil klienta a aktuální fázi rekonstrukčního procesu.
-
 ## Kontraindikace
 
 Aplikace techniky je kontraindikována v následujících situacích:

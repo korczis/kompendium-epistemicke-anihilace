@@ -43,8 +43,6 @@ Technika je primárně indikována v následujících klinických kontextech:
 
 Fragmentovaná autobiografická paměť, dominantní cult/abuser-narativ, narrative incoherence, post-traumatic identity diffusion.
 
-Sekundárně může být zvažována jako adjunktivní intervence v rámci komplexního multimodálního léčebného plánu, vždy však s ohledem na individuální profil klienta a aktuální fázi rekonstrukčního procesu.
-
 ## Kontraindikace
 
 Aplikace techniky je kontraindikována v následujících situacích:

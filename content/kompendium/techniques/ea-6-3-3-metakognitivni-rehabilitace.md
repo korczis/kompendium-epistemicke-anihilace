@@ -44,8 +44,6 @@ Technika je primárně indikována v následujících klinických kontextech:
 
 Persistentní metakognitivní deficity po EA-trauma, post-cult epistemická paralýza, hyperkalibrace nebo hypokalibrace sebejistoty, perfekcionistická self-pochybnost.
 
-Sekundárně může být zvažována jako adjunktivní intervence v rámci komplexního multimodálního léčebného plánu, vždy však s ohledem na individuální profil klienta a aktuální fázi rekonstrukčního procesu.
-
 ## Kontraindikace
 
 Aplikace techniky je kontraindikována v následujících situacích:

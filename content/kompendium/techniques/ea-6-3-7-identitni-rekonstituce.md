@@ -43,8 +43,6 @@ Technika je primárně indikována v následujících klinických kontextech:
 
 Post-traumatic identity diffusion, fragmentovaná identita po sektářské expozici, ztráta pre-trauma self po DV, identity confusion u LGBTQI klientů po koercivní terapii.
 
-Sekundárně může být zvažována jako adjunktivní intervence v rámci komplexního multimodálního léčebného plánu, vždy však s ohledem na individuální profil klienta a aktuální fázi rekonstrukčního procesu.
-
 ## Kontraindikace
 
 Aplikace techniky je kontraindikována v následujících situacích:

@@ -43,8 +43,6 @@ Technika je primárně indikována v následujících klinických kontextech:
 
 Aktivní policisti i veteráni s post-incident PTSD, kumulativním stresem, suicidálním rizikem (vysoké v PD populaci), substance use komorbidity.
 
-Sekundárně může být zvažována jako adjunktivní intervence v rámci komplexního multimodálního léčebného plánu, vždy však s ohledem na individuální profil klienta a aktuální fázi rekonstrukčního procesu.
-
 ## Kontraindikace
 
 Aplikace techniky je kontraindikována v následujících situacích:

@@ -43,8 +43,6 @@ Technika je primárně indikována v následujících klinických kontextech:
 
 Hyperskepse vůči autoritám, paranoidní rezidua po cult-exit, generalizovaná nedůvěra v terapeutickém vztahu, identifikace cílů relační terapie, prediktor odpovědi na intervenci.
 
-Sekundárně může být zvažována jako adjunktivní intervence v rámci komplexního multimodálního léčebného plánu, vždy však s ohledem na individuální profil klienta a aktuální fázi rekonstrukčního procesu.
-
 ## Kontraindikace
 
 Aplikace techniky je kontraindikována v následujících situacích:

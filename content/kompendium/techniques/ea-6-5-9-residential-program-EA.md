@@ -43,8 +43,6 @@ Technika je primárně indikována v následujících klinických kontextech:
 
 Severe komplexní C-PTSD, post-cult s vysokou risk, severe DV s safety needs, treatment-resistant cases.
 
-Sekundárně může být zvažována jako adjunktivní intervence v rámci komplexního multimodálního léčebného plánu, vždy však s ohledem na individuální profil klienta a aktuální fázi rekonstrukčního procesu.
-
 ## Kontraindikace
 
 Aplikace techniky je kontraindikována v následujících situacích:

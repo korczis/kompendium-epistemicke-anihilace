@@ -43,8 +43,6 @@ Technika je primárně indikována v následujících klinických kontextech:
 
 Klienti po DV expozici, koercivní kontrole, persistentní C-PTSD, internalizovaný abuserův hlas.
 
-Sekundárně může být zvažována jako adjunktivní intervence v rámci komplexního multimodálního léčebného plánu, vždy však s ohledem na individuální profil klienta a aktuální fázi rekonstrukčního procesu.
-
 ## Kontraindikace
 
 Aplikace techniky je kontraindikována v následujících situacích:

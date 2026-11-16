@@ -80,6 +80,10 @@ Instruments that misled the same sessions, and the reading that held:
   the page and entry totals unchanged (2026-11-15). Likewise a rule whose unit is a page (a
   duplicated passage shared by 3 or more pages) holds its page count until the last family on a
   page is gone; measure the family-page incidences to see such a wave progress.
+- A baseline diff speaks only for baselined rules. Never-baselined rules held by a PENDING_ZERO
+  ceiling (detail, weak-link) are absent from `scripts/ia-baseline.json`, so a page newly charged by
+  one of them leaves that file unchanged, and a ceiling that still holds hides a swap of pages.
+  Before landing a removal, compare each such rule's page set on both trees, not only its count.
 - Commit the derived state before merging main into a branch. A gate run leaves regenerated files
   modified; `git merge` then refuses, and generators run afterwards measure the unmerged tree.
 - Below a few GiB free the suite fails with ENOSPC in ways that look like defects; two branches

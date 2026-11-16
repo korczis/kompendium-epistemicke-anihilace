@@ -3,7 +3,7 @@ schema: knowledge/v1
 id: gate-practice-never-baselined
 kind: knowledge
 class: lesson
-title: "Widening or adding a never-baselined gate: the fix lands with it, the count is pages and clears per page, a zero proves only what it looks for, and text moved out of a page's source is invisible to the tools"
+title: "Widening or adding a never-baselined gate: the fix lands with it, the count is pages and clears per page, a zero proves only what it looks for, text moved out of a page's source is invisible to the tools, and a pattern that confirms the hypothesis is read by eye first"
 description: "Before adding or widening a NEVER_BASELINED rule in scripts/check-ia.py, or before reading a 0 from one as 'the class is clean'."
 status: verified
 epistemics: observed
@@ -19,7 +19,7 @@ provenance:
 # Widening or adding a never-baselined gate
 
 `scripts/check-ia.py` keeps most safety rules in `NEVER_BASELINED` with a ceiling in
-`PENDING_ZERO` that may only fall. Eight things about them were each rediscovered the hard way in
+`PENDING_ZERO` that may only fall. Nine things about them were each rediscovered the hard way in
 the sessions of 2026-11-12 to 2026-11-16.
 
 **1. A widened gate and the content it newly charges are one change.** Widening a rule that sits
@@ -84,6 +84,21 @@ page a reader is handed. Two cautions found by the case that proves it: a page's
 deduplicated into a set of targets (`ia_model.py:230`), so a partial linking what its page already
 links adds no edge and a fixture built that way tests nothing; and three fixture pages sharing one
 boilerplate paragraph ARE a duplicate passage, so a case can charge its own scaffolding.
+
+**9. When a measurement returns exactly what the hypothesis predicted, read three of the
+underlying pages by eye before acting.** The agreement is what stops you looking, and a pattern is
+itself a hypothesis about the corpus. On 2026-11-16 the pattern `\(\w[^)]*\d{4}\)` was used to
+count in-text citations; it matches only the `(Autor, 1945)` style, while this book's house style
+is `Autor (1945)` with the year alone in parentheses, so `\(\w` consumes the `1` and leaves three
+digits for `\d{4}` — **every citation in the dominant style scored zero.** Low counts are exactly
+what a thin page is expected to show, so the result read as a finding: "15 of 19 pages cite fewer
+than three of their own works, one cites none". Checking each `## Literatura` entry against its own
+page's body found **one** uncited work across all nineteen pages, and the page reported as citing
+none of its four cites all four. A whole expansion wave rested on it and was cancelled before a
+word was written. The same day, "moving four notices into partials lost 17 links" was the same
+shape: those were occurrences, not edges, because a page's links are deduplicated into a set of
+targets. Prefer counting with the repository's own tools (`ia_model`, `check_ia.passage_blocks`)
+over a fresh regex, and read the matching AND the non-matching items.
 
 Instruments that misled the same sessions, and the reading that held:
 

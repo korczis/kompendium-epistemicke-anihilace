@@ -22,8 +22,11 @@ a zmenší, a `majordomus check` jinak odmítne.
 `static/data/` patří do rozsahu úkolu: vlna mění obsah, a tedy i odvozený graf a metriky, které
 CI kontroluje (`build-graph.py --check`); bez něj `majordomus finish` odmítne.
 
-`static/css/app.css` je generovaný a ignorovaný: v novém worktree ho vytvoří `npm run css`
-(nebo se zkopíruje z primárního checkoutu), jinak `zola build` selže na `get_url`.
+`static/css/app.css` a vendorované skripty jsou generované a ignorované: v novém worktree je
+vytvoří `npm ci && npm run assets` (linkovaný worktree nemá `node_modules`, a `vendor` z nich
+kopíruje Flowbite). Nekopíruj `app.css` z jiného checkoutu: Tailwind prochází i šablony, JS a
+obsah, takže stejné `styles/app.css` neznamená stejný výstup. `verify-content.sh` bez `app.css`
+hned odmítne a vypíše příkaz, který v daném worktree chybí.
 
 ## 2. Změř
 

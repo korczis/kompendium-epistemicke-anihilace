@@ -43,15 +43,11 @@ Technika je primárně indikována v následujících klinických kontextech:
 
 Disociativní fragmentace po manipulativní expozici, internalizovaní agresoři, vnitřní konflikty mezi 'cult-self' a 'pre-cult-self', komplexní C-PTSD, klienti odolní vůči klasickým protokolům.
 
-Sekundárně může být zvažována jako adjunktivní intervence v rámci komplexního multimodálního léčebného plánu, vždy však s ohledem na individuální profil klienta a aktuální fázi rekonstrukčního procesu.
-
 ## Kontraindikace
 
 Aplikace techniky je kontraindikována v následujících situacích:
 
 Akutní psychóza s narušeným reality testingem, klient odmítá konceptualizaci 'partů', kulturní/náboženský kontext kde 'parts' jazyk je problematický.
-
-Identifikace kontraindikací je integrální součástí každého iniciálního assessment a vyžaduje opakované re-evaluation v průběhu intervence — zejména v případě dynamicky se měnícího klinického obrazu.
 
 ## Implementační protokol
 
@@ -86,8 +82,6 @@ Tyto adaptace nejsou ornamentální. Kniha je zaznamenává proto, že se s nimi
 Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Re-traumatizace při forsírovaném unblending, paradoxní reifikace 'partů' jako autonomních entit (mis-DID), dependence na terapeutovi pro Self-access.
-
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
 
 ## Klinické pozadí
 

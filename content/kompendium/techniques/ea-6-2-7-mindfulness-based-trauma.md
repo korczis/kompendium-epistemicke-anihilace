@@ -43,15 +43,11 @@ Technika je primárně indikována v následujících klinických kontextech:
 
 Persistentní rumination, hyperkontrola pozornosti, somatická hyperexcitabilita, příprava na trauma-zaměřenou intervenci, prevence relapsu deprese po EA-trauma.
 
-Sekundárně může být zvažována jako adjunktivní intervence v rámci komplexního multimodálního léčebného plánu, vždy však s ohledem na individuální profil klienta a aktuální fázi rekonstrukčního procesu.
-
 ## Kontraindikace
 
 Aplikace techniky je kontraindikována v následujících situacích:
 
 Akutní psychóza, závažná disociativní fragmentace bez stabilizace, akutní suicidalita, závažná somatická hyperexcitabilita bez předchozí desenzitizace.
-
-Identifikace kontraindikací je integrální součástí každého iniciálního assessment a vyžaduje opakované re-evaluation v průběhu intervence — zejména v případě dynamicky se měnícího klinického obrazu.
 
 ## Implementační protokol
 
@@ -86,8 +82,6 @@ Tyto adaptace nejsou ornamentální. Kniha je zaznamenává proto, že se s nimi
 Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Re-traumatizace při forsírované interoceptivní pozornosti, paradoxní zvýšení dissociace, spirituální by-passing, dropout u klientů s nízkou tolerancí ticha.
-
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
 
 ## Klinické pozadí
 

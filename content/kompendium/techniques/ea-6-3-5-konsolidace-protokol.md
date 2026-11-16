@@ -43,23 +43,17 @@ Technika je primárně indikována v následujících klinických kontextech:
 
 Klienti po úspěšné fázi 2, příprava na ukončení terapie, prevence relapsu, reintegrace.
 
-Sekundárně může být zvažována jako adjunktivní intervence v rámci komplexního multimodálního léčebného plánu, vždy však s ohledem na individuální profil klienta a aktuální fázi rekonstrukčního procesu.
-
 ## Kontraindikace
 
 Aplikace techniky je kontraindikována v následujících situacích:
 
 Aktivní krize vyžadující návrat k stabilizaci.
 
-Identifikace kontraindikací je integrální součástí každého iniciálního assessment a vyžaduje opakované re-evaluation v průběhu intervence — zejména v případě dynamicky se měnícího klinického obrazu.
-
 ## Implementační protokol
 
 Standardní implementace techniky probíhá v následujících strukturovaných krocích:
 
 (1) Re-assessment treatment gainů. (2) Konsolidace dovedností. (3) Relapsová prevence — identifikace warning signs + plán. (4) Reintegrace — práce/vztahy/komunita. (5) Mentorship/peer-support roles. (6) Postupné prodlužování intervalů sezení. (7) Termination ritual.
-
-Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
 
 ## Trvání a frekvence
 
@@ -86,8 +80,6 @@ Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fen
 Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Premature termination, dependence na terapeutickém vztahu, paradoxní destabilizace ukončením.
-
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
 
 ## Klinické pozadí
 

@@ -43,23 +43,17 @@ Technika je primárně indikována v následujících klinických kontextech:
 
 Vstupní fáze každého EA-trauma léčebného plánu, klienti s vysokou symptomatologií, akutní krize, příprava na trauma-procesovou intervenci, klienti odolní vůči přímé trauma-práci.
 
-Sekundárně může být zvažována jako adjunktivní intervence v rámci komplexního multimodálního léčebného plánu, vždy však s ohledem na individuální profil klienta a aktuální fázi rekonstrukčního procesu.
-
 ## Kontraindikace
 
 Aplikace techniky je kontraindikována v následujících situacích:
 
 Žádné absolutní; relativní u klientů s nízkou tolerancí strukturovaného přístupu.
 
-Identifikace kontraindikací je integrální součástí každého iniciálního assessment a vyžaduje opakované re-evaluation v průběhu intervence — zejména v případě dynamicky se měnícího klinického obrazu.
-
 ## Implementační protokol
 
 Standardní implementace techniky probíhá v následujících strukturovaných krocích:
 
 (1) Bezpečnostní plánování — environment + suicidalita + DV. (2) Psychoedukace EA-trauma. (3) Self-regulation skills — DBT, mindfulness, somatic resourcing. (4) Spánková hygiena, výživa, pohyb. (5) Sociální podpora a stabilní vztahy. (6) Symptom management — flashbacks, nightmares, dissociation. (7) Pravidelné re-assessment readiness pro fázi 2.
-
-Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
 
 ## Trvání a frekvence
 
@@ -86,8 +80,6 @@ Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fen
 Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Premature progression do fáze 2 bez dostatečné stabilizace, fixace na stabilizaci jako vyhýbání trauma-práce, dependence na stabilizační dovednostech.
-
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
 
 ## Klinické pozadí
 

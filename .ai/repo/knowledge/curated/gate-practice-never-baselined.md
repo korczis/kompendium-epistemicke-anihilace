@@ -110,7 +110,16 @@ Instruments that misled the same sessions, and the reading that held:
   of which took 23 minutes on its own.
 - A monitor shorter than the run it watches reports nothing and expires; a 35-minute verify under a
   30-minute watch looks identical to silence.
-- The primary checkout is another session's working tree and moves under a measurement. Compare
+- Zola's `page.word_count` is computed from the markdown BEFORE Tera expands it, so prose moved
+  into a partial stops counting: the badge, schema.org `wordCount`, the technique hero and both
+  explorer JSONs understate by the notice's length less the `{% include %}` line, 13-44 words per
+  page on the five measured. `ia_model` reads the rendered copy, so the book briefly has two word
+  counts that disagree; `static/data/ia.json` carries the one the gates judge.
+- `zola check` renders content but compares nothing. To prove a change left the reader's page
+  alone, build it and diff the rendered body against production — the five pages above were
+  byte-identical at 13338, 14620, 22804, 19027 and 10174 characters, which is what isolated the
+  word count as the only difference.
+- - The primary checkout is another session's working tree and moves under a measurement. Compare
   against `git show origin/main:<path>`, never against the files in it.
 - The GitHub API budget (5000 calls an hour) is shared by every session on the account, and
   several watchers polling `gh` once a minute exhausted it (2026-11-15). A watcher's filter then

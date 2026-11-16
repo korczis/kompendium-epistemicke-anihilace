@@ -55,10 +55,7 @@ U doložitelného řetězce záznamů je chybějící pojistka rozpoznatelná st
 
 Stránka takové nakládání se záznamem nepředepisuje ani k němu neopravňuje; popisuje je jen jako nález.
 
-{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
-|---|---|
-{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
-{% endfor %}
+{% include "partials/bezpecnostni-ramec.md" %}
 
 ## Okolnosti, které expozici vylučují
 

@@ -55,10 +55,7 @@ U výkladu, který se nezastaví, bývá nepřítomnost těchto pojistek lépe p
 
 Stránka takový nekončící výklad nezadává ani neopravňuje; ukazuje pouze, co lze na chybějící pojistce poznat.
 
-{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
-|---|---|
-{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
-{% endfor %}
+{% include "partials/bezpecnostni-ramec.md" %}
 
 ## Co expozici vylučuje
 

@@ -55,10 +55,7 @@ Měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.m
 
 Vstupní posouzení, které nemůže skončit nepřijetím, není posouzením; co z pojistek níže chybí, vypovídá o celém uspořádání dřív než o jednotlivém kandidátovi (Beecher, 1966). Stránka k zařazení kohokoli do takové sekvence neopravňuje a nedává k němu návod.
 
-{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
-|---|---|
-{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
-{% endfor %}
+{% include "partials/bezpecnostni-ramec.md" %}
 
 ## Co zařazení vylučuje bez ohledu na výsledek posouzení
 

@@ -53,10 +53,7 @@ Zasažený člověk referuje úlevu i úzkost současně: úlevu z toho, že „
 
 Erozi kategoriálních hranic zde nic neopravňuje; pojistky stojí níže proto, že jejich nepřítomnost se dá rozpoznat zvenčí.
 
-{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
-|---|---|
-{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
-{% endfor %}
+{% include "partials/bezpecnostni-ramec.md" %}
 
 ## Vylučující okolnosti
 

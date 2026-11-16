@@ -53,10 +53,7 @@ Zasažený člověk referuje, že si odchod „nemohl dovolit“, a popisuje to 
 
 Pojistky níže jsou uvedeny proto, že u odvolatelnosti souhlasu je rozpoznatelná právě jejich nepřítomnost: chybějí-li, nelze o souhlasu mluvit jako o úkonu, který jde vzít zpět (Faden a Beauchamp, 1986). Stránka žádné takové uspořádání nepředepisuje ani k němu neopravňuje.
 
-{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
-|---|---|
-{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
-{% endfor %}
+{% include "partials/bezpecnostni-ramec.md" %}
 
 ## Okolnosti, které vylučují expozici
 

@@ -53,10 +53,7 @@ Zasažený člověk referuje náhlé vyjasnění a zároveň neschopnost vysvět
 
 Zásah do metakonceptuální vrstvy bez níže uvedených pojistek je rozpoznatelný právě tím chyběním; stránka jej nezakládá.
 
-{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
-|---|---|
-{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
-{% endfor %}
+{% include "partials/bezpecnostni-ramec.md" %}
 
 ## Okolnosti vylučující jakoukoli expozici
 

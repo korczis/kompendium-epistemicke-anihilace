@@ -55,10 +55,7 @@ Měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.m
 
 Návrat do běžných rolí probíhá postupně a jeho průběh je pozorovatelný; co z pojistek níže chybí, se na něm pozná dřív než na vlastní výpovědi zasaženého (Mead, Hilton a Curtis, 2001). Sekvenci tohoto druhu stránka nepředepisuje ani neschvaluje.
 
-{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
-|---|---|
-{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
-{% endfor %}
+{% include "partials/bezpecnostni-ramec.md" %}
 
 ## Co vylučuje vedenou reintegrační fázi
 

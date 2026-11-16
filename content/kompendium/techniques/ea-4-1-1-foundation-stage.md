@@ -57,10 +57,7 @@ U zakládající fáze bývá nepřítomnost těchto pojistek jediným nálezem,
 
 Vstupní fázi tohoto druhu stránka nepředepisuje ani neschvaluje; uvádí jen, co je na chybějící pojistce vidět.
 
-{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
-|---|---|
-{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
-{% endfor %}
+{% include "partials/bezpecnostni-ramec.md" %}
 
 ## Okolnosti, které vstupní fázi vylučují
 

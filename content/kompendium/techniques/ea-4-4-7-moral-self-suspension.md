@@ -53,10 +53,7 @@ Zasažený člověk referuje, že „tehdy to nebyl on“, a o období mluví s 
 
 Pozastavení vlastního morálního sebehodnocení „ve jménu úkolu“ je tím snazší, čím méně je komu skládat účet (Milgram, 1974). Následující pojistky jsou proto uvedeny obráceně, podle toho, co znamená, když některá z nich chybí; stránka nic z toho nezařizuje.
 
-{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
-|---|---|
-{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
-{% endfor %}
+{% include "partials/bezpecnostni-ramec.md" %}
 
 ## Důvody, pro které je expozice vyloučena
 

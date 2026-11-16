@@ -55,10 +55,7 @@ Tam, kde se pojmový systém rozebírá, zůstává po pojistkách rozpoznateln�
 
 Rozebírání cizího pojmového aparátu stránka nenavrhuje ani neopravňuje; vede jen k jeho rozpoznání u sebe i jinde.
 
-{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
-|---|---|
-{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
-{% endfor %}
+{% include "partials/bezpecnostni-ramec.md" %}
 
 ## Vylučující okolnosti
 

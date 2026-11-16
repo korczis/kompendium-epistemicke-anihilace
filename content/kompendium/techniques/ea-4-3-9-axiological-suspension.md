@@ -53,10 +53,7 @@ Zasažený člověk referuje úlevu z toho, že „nemusí soudit“, a současn
 
 Pozastavení hodnotícího postoje se zvenčí pozná teprve podle toho, co kolem něj chybí; morální odpojení se udržuje právě tam, kde nikdo nezávislý nepřihlíží (Bandura, 1999). Stránka takové uspořádání nepopisuje jako přípustné a k jeho zavedení neopravňuje.
 
-{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
-|---|---|
-{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
-{% endfor %}
+{% include "partials/bezpecnostni-ramec.md" %}
 
 ## Co expozici vylučuje
 

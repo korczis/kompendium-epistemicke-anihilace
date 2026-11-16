@@ -57,10 +57,7 @@ Kde se způsobilost dokládá příslušností, poznává se nepřítomnost nás
 
 Takto doloženou způsobilost stránka neuděluje ani nedoporučuje; jmenuje pouze to, co po pojistkách chybí.
 
-{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
-|---|---|
-{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
-{% endfor %}
+{% include "partials/bezpecnostni-ramec.md" %}
 
 ## Co vylučuje postup do fáze zvládnutí
 

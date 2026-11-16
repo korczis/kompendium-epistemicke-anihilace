@@ -53,10 +53,7 @@ Zasažený člověk referuje, že „ví, jak to je, ale nedokáže to dokončit
 
 Je-li narušena inferenční praxe, zasažený sám nedokáže posoudit, co se s ním dělo; nepřítomnost pojistek uvedených níže je tedy nálezem, který lze rozpoznat jen z vnějšku (Lifton, 1961). Stránka tím nic nepředepisuje a k ničemu neopravňuje.
 
-{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
-|---|---|
-{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
-{% endfor %}
+{% include "partials/bezpecnostni-ramec.md" %}
 
 ## Okolnosti, za nichž je expozice vyloučena
 

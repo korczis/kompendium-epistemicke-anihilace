@@ -53,10 +53,7 @@ Zasažený člověk referuje, že „všechno dává smysl“, a současně nedo
 
 Fluidizaci paradigmat tato stránka nepovoluje; pojistky uvádí proto, že jejich nepřítomnost sama o uspořádání vypovídá.
 
-{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
-|---|---|
-{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
-{% endfor %}
+{% include "partials/bezpecnostni-ramec.md" %}
 
 ## Okolnosti, které expozici vylučují
 

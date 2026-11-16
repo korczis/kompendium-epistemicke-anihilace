@@ -55,10 +55,7 @@ Posunutá kritéria důkazu se poznají i na tom, které z níže uvedených poj
 
 Posouvání cizích kritérií stránka nepředepisuje ani neospravedlňuje; nabízí jen měřítko k jeho rozpoznání.
 
-{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
-|---|---|
-{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
-{% endfor %}
+{% include "partials/bezpecnostni-ramec.md" %}
 
 ## Okolnosti, za nichž je expozice vyloučena
 

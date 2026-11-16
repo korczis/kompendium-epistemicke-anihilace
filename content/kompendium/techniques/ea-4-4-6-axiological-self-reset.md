@@ -55,10 +55,7 @@ Mluví-li člověk o sobě cizími měřítky, bývá chybějící pojistka patr
 
 Přenastavování hodnotového vztahu k sobě stránka nezavádí ani neschvaluje; popisuje je zvenčí jako nález.
 
-{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
-|---|---|
-{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
-{% endfor %}
+{% include "partials/bezpecnostni-ramec.md" %}
 
 ## Okolnosti vylučující expozici
 

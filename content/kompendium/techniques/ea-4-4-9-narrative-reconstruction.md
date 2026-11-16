@@ -53,10 +53,7 @@ Zasažený člověk referuje, že dřívější verze svého života „už nero
 
 Rekonstruovaný příběh bez níže shrnutých pojistek je rozpoznatelný podle toho, co v něm chybí; stránka jej neopravňuje.
 
-{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
-|---|---|
-{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
-{% endfor %}
+{% include "partials/bezpecnostni-ramec.md" %}
 
 ## Vylučující okolnosti rekonstrukční fáze
 

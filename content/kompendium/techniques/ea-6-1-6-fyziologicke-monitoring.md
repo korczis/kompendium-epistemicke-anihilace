@@ -43,15 +43,11 @@ Technika je primárně indikována v následujících klinických kontextech:
 
 Validizace subjektivního self-reportu úzkostné aktivace, identifikace specifických triggerů, monitorování průběhu somatické intervence, výzkumná dokumentace fyziologického podpisu EA-trauma.
 
-Sekundárně může být zvažována jako adjunktivní intervence v rámci komplexního multimodálního léčebného plánu, vždy však s ohledem na individuální profil klienta a aktuální fázi rekonstrukčního procesu.
-
 ## Kontraindikace
 
 Aplikace techniky je kontraindikována v následujících situacích:
 
 Akutní arytmie, kardiostimulátor (relativní pro některé metody), těhotenství v pozdním stadiu, nedávné kardiochirurgické zákroky.
-
-Identifikace kontraindikací je integrální součástí každého iniciálního assessment a vyžaduje opakované re-evaluation v průběhu intervence — zejména v případě dynamicky se měnícího klinického obrazu.
 
 ## Implementační protokol
 
@@ -59,13 +55,9 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 (1) Baseline měření v klidu. (2) Stresový challenge — narativní expozice klíčovým podnětům. (3) Recovery měření. (4) Ekologická ambulantní HRV monitorace. (5) Kortizolové měření (slinné, awakening response). (6) Analýza HRV (RMSSD, HF, LF/HF), kožní vodivosti (SCR amplituda, frekvence).
 
-Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
-
 ## Trvání a frekvence
 
 Délku vyšetření a odstup opakování stanoví manuál použitého nástroje a supervize, nikoli tato kniha.
-
-Frekvence sezení a celková délka intervence jsou závislé na komplexitě klinického obrazu, komorbiditách a individuální responsivitě. V populacích s komplexním C-PTSD je třeba počítat s prolongovaným průběhem, zatímco u single-incident traumat lze očekávat rychlejší progression.
 
 ## Hodnotící kritéria
 
@@ -88,8 +80,6 @@ Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fen
 Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Falešně pozitivní aktivace u zdravotně-úzkostných klientů, technicky-indukovaná artefaktní aktivace, etické riziko ekologické monitorace u klientů v abusivních vztazích (data leak).
-
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
 
 ## Klinické pozadí
 

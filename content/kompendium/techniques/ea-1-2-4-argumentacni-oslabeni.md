@@ -1,6 +1,6 @@
 +++
 title = "EA-1.2.4 Argumentační oslabení"
-aliases = ["/kompendium/techniques/ea-1-2-4-argumentacni-oslabeni/"]
+aliases = ["/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni/"]
 weight = 100
 description = "Vzorec, v němž se cizí argument posuzuje v nejslabší možné podobě a jeho vyvrácení se vydává za vyvrácení celé pozice. Znaky, odlišení, obrana."
 

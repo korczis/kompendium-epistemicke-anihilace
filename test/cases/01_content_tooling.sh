@@ -131,9 +131,13 @@ PAGE
 if python3 scripts/check-ia.py >"$work/ia.out" 2>&1; then
   echo "check-ia passed a seeded violation"; cat "$work/ia.out"; exit 1
 fi
-python3 scripts/check-ia.py --list description | grep -x 'content/kompendium/case-01-fixture/seeded.md' >/dev/null
-python3 scripts/check-ia.py --list tags | grep -x 'content/kompendium/case-01-fixture/seeded.md' >/dev/null
-python3 scripts/check-ia.py --list detail | grep -x 'content/kompendium/case-01-fixture/seeded.md' >/dev/null
+# One --list-all for every rule on this fixture state; the checks read the file, no per-rule rerun.
+python3 scripts/check-ia.py --list-all > "$work/all" 2>/dev/null
+seeded=content/kompendium/case-01-fixture/seeded.md
+for rule in description tags detail; do
+  awk -F'\t' -v r="$rule" -v p="$seeded" '$1==r && $2==p{f=1} END{exit !f}' "$work/all" \
+    || { echo "seeded.md not listed under $rule"; exit 1; }
+done
 printf '\n<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->\nx\n<!-- ENHANCED:NLLB-AUTO-BLOCK END -->\n' \
   >> content/kompendium/case-01-fixture/seeded.md
 python3 scripts/check-ia.py --list generated | grep -x 'content/kompendium/case-01-fixture/seeded.md' >/dev/null
@@ -142,9 +146,10 @@ python3 scripts/check-ia.py --list generated | grep -x 'content/kompendium/case-
 # A glossary entry without Definice carries summary.
 printf '+++\ntitle = "Odkazující"\n+++\n\nViz [seeded](@/kompendium/case-01-fixture/seeded.md).\n' \
   > content/kompendium/case-01-fixture/linking.md
-python3 scripts/check-ia.py --list weak-link | grep -x 'content/kompendium/case-01-fixture/seeded.md' >/dev/null
-if python3 scripts/check-ia.py --list weak-link \
-    | grep -x 'content/kompendium/case-01-fixture/linking.md' >/dev/null; then
+python3 scripts/check-ia.py --list-all > "$work/all" 2>/dev/null
+awk -F'\t' -v p="$seeded" '$1=="weak-link" && $2==p{f=1} END{exit !f}' "$work/all" \
+  || { echo "seeded.md not charged weak-link"; exit 1; }
+if awk -F'\t' '$1=="weak-link" && $2=="content/kompendium/case-01-fixture/linking.md"{f=1} END{exit !f}' "$work/all"; then
   echo "weak-link must not be charged to the linking page"; exit 1
 fi
 python3 scripts/check-ia.py --debt | grep -x '1	content/kompendium/case-01-fixture/seeded.md' >/dev/null

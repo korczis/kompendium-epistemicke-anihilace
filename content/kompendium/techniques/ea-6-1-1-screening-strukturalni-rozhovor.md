@@ -43,15 +43,11 @@ Technika je primárně indikována v následujících klinických kontextech:
 
 Podezření na expozici manipulativním systémům (kult, abusivní vztah, koercivní pracovní prostředí), nespecifické úzkostně-depresivní symptomatologie s epistemickou složkou, refererence z OSINT/DD šetření, post-divorce/post-cult adaptační poruchy, klinický screening v populacích vysokého rizika.
 
-Sekundárně může být zvažována jako adjunktivní intervence v rámci komplexního multimodálního léčebného plánu, vždy však s ohledem na individuální profil klienta a aktuální fázi rekonstrukčního procesu.
-
 ## Kontraindikace
 
 Aplikace techniky je kontraindikována v následujících situacích:
 
 Akutní psychotická epizoda (relativní), aktivní suicidalita bez stabilizace, akutní intoxikace, závažná disociativní fragmentace bez předchozí stabilizace.
-
-Identifikace kontraindikací je integrální součástí každého iniciálního assessment a vyžaduje opakované re-evaluation v průběhu intervence — zejména v případě dynamicky se měnícího klinického obrazu.
 
 ## Implementační protokol
 
@@ -59,13 +55,9 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 (1) Etablování bezpečného rámce a informovaného souhlasu. (2) Anamnéza vstupní expozice — chronologie, kontext, intenzita. (3) Mapování čtyř EA domén — kognitivní, afektivní, identitní, relační. (4) Detekce klíčových markerů — epistemická paralýza, hermeneutická tísen, dvojitá vědomí. (5) Diferenciální diagnostika — vyloučení primárních úzkostných/depresivních/PTSD obrazů. (6) Stratifikace rizika a doporučení.
 
-Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
-
 ## Trvání a frekvence
 
 Délku vyšetření a odstup opakování stanoví manuál použitého nástroje a supervize, nikoli tato kniha.
-
-Frekvence sezení a celková délka intervence jsou závislé na komplexitě klinického obrazu, komorbiditách a individuální responsivitě. V populacích s komplexním C-PTSD je třeba počítat s prolongovaným průběhem, zatímco u single-incident traumat lze očekávat rychlejší progression.
 
 ## Hodnotící kritéria
 
@@ -88,8 +80,6 @@ Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fen
 Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Re-traumatizace při forsírovaném vyvolání vzpomínek, falešné memoárové konstrukce při sugestibilním vedení, iatrogenní legitimizace neexistující patologie u resilientních subjektů, stigmatizace klienta diagnostickým štítkem.
-
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
 
 ## Klinické pozadí
 

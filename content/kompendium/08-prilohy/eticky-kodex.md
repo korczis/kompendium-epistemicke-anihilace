@@ -8,6 +8,7 @@ sort_by = "weight"
 tags = ["kompendium", "08-prilohy"]
 
 [extra]
+listing_note = "IRB, etický komitét"
 related_terms = ["diagnosticke-nastroje", "dual-use", "index-pojmu", "klasifikace"]
 kompendium = ["08-prilohy"]
 prilohy = ["etika", "kodex", "irb"]

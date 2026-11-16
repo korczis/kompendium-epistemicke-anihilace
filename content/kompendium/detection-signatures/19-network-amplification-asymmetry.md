@@ -8,6 +8,7 @@ tags = ["kompendium", "detection-signature", "diagnostika", "network"]
 categories = ["academic", "clinical", "security"]
 
 [extra]
+listing_note = "Vyrobený signál popularity."
 related_terms = ["17-network-source-monoculture", "18-network-citation-circularity", "2-linguistic-circular-definitions", "20-network-bot-coordination"]
 toc = true
 modality = "network"

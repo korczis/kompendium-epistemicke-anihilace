@@ -95,7 +95,7 @@
       },
       {
         "code": "EA-2.1.1",
-        "in": 51,
+        "in": 52,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-2-1-1-expertni-disinflation.md",
         "tier": 6,
@@ -115,7 +115,7 @@
       },
       {
         "code": "EA-7.3.2",
-        "in": 44,
+        "in": 45,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-7-3-2-tversky-heuristics.md",
         "tier": 6,

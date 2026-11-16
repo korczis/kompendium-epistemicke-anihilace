@@ -8,6 +8,7 @@ tags = ["kompendium", "detection-signature", "diagnostika", "linguistic"]
 categories = ["academic", "clinical", "security"]
 
 [extra]
+listing_note = "Nepozorované rozšiřování pojmu nebo závazku."
 related_terms = ["5-linguistic-pronoun-inversion", "6-linguistic-narrative-fragmentation", "8-linguistic-semantic-erosion", "9-behavioral-disproportionate-confidence"]
 toc = true
 modality = "linguistic"

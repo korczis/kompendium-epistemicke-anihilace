@@ -8,6 +8,7 @@ tags = ["kompendium", "section-bridge", "navigace", "philosophy", "prilohy"]
 categories = ["academic", "reference"]
 
 [extra]
+listing_note = "reflexe ↔ referenční aparát"
 related_terms = ["bridge-05-to-08-ultramari-prilohy", "bridge-06-to-08-klinika-prilohy", "bridge-06-to-07-klinika-teorie", "bridge-02-to-07-uvod-teoreticke"]
 toc = false
 +++

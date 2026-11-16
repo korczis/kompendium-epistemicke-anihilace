@@ -8,6 +8,7 @@ tags = ["kompendium", "section-bridge", "navigace", "ultramari", "prilohy"]
 categories = ["academic", "reference"]
 
 [extra]
+listing_note = "technika ↔ operativní artefakt"
 related_terms = ["bridge-05-to-06-ultramari-klinika", "bridge-05-to-07-ultramari-teorie", "bridge-06-to-08-klinika-prilohy", "bridge-07-to-08-teorie-prilohy"]
 toc = false
 +++

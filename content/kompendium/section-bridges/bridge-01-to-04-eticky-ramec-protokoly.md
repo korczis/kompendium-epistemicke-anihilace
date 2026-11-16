@@ -8,6 +8,7 @@ tags = ["kompendium", "section-bridge", "navigace", "terminalni-protokoly", "eth
 categories = ["academic", "reference"]
 
 [extra]
+listing_note = "etika ↔ operativa"
 related_terms = ["bridge-01-to-02-predmluva-uvod", "bridge-01-to-05-eticky-ramec-ultramari", "bridge-03-to-04-zakladni-terminalni", "bridge-04-to-06-terminalni-klinika"]
 toc = false
 +++

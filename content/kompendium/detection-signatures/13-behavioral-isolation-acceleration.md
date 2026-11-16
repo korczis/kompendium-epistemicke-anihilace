@@ -8,6 +8,7 @@ tags = ["kompendium", "detection-signature", "diagnostika", "behavioral"]
 categories = ["academic", "clinical", "security"]
 
 [extra]
+listing_note = "Zrychlující se ztráta sítě."
 related_terms = ["11-behavioral-topic-evasion", "12-behavioral-gaslighting-pattern", "14-behavioral-time-pressure-creation", "15-behavioral-asymmetric-disclosure"]
 toc = true
 modality = "behavioral"

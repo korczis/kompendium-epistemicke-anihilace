@@ -7,6 +7,7 @@ template = "section.html"
 insert_anchor_links = "right"
 
 [extra]
+listing_note = "Pro koho je, kdy ji teď nečíst, k čemu neslouží, kde hledat pomoc hned"
 author = "Tomas Korcak (korczis)"
 section_icon = "🧭"
 toc = true

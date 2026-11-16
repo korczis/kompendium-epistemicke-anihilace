@@ -8,6 +8,7 @@ tags = ["kompendium", "detection-signature", "diagnostika", "behavioral"]
 categories = ["academic", "clinical", "security"]
 
 [extra]
+listing_note = "Selektivní únik od otázek odpovědnosti."
 related_terms = ["1-linguistic-jargon-density", "10-behavioral-resistance-to-clarification", "12-behavioral-gaslighting-pattern", "13-behavioral-isolation-acceleration"]
 toc = true
 modality = "behavioral"

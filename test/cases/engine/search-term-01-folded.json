@@ -55,16 +55,6 @@
       },
       {
         "code": null,
-        "in": 218,
-        "kind": "Kapitola",
-        "path": "kompendium/05-ultramari-techniky/_index.md",
-        "tier": 6,
-        "title": "05. Ultramární techniky fundamentální dekonstrukce",
-        "url": "/kompendium/05-ultramari-techniky/",
-        "why": "description"
-      },
-      {
-        "code": null,
         "in": 46,
         "kind": "Kapitola",
         "path": "kompendium/07-teoreticke-reflexe/digitalni-vek.md",
@@ -122,6 +112,16 @@
         "title": "Diagnostika",
         "url": "/kompendium/05-diagnostika/",
         "why": "description"
+      },
+      {
+        "code": null,
+        "in": 5,
+        "kind": "Kapitola",
+        "path": "kompendium/prevention-resilience/23-skills-rebuilding-program.md",
+        "tier": 6,
+        "title": "Obnova dovedností",
+        "url": "/kompendium/prevention-resilience/23-skills-rebuilding-program/",
+        "why": "description"
       }
     ],
     "limit": 12,
@@ -130,7 +130,7 @@
     "op": "search",
     "query": "epistemicka anihilace",
     "schema": "kompendium-engine/v1",
-    "total": 13
+    "total": 12
   },
   "input": {
     "op": "search",

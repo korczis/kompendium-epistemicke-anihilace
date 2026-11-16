@@ -8,6 +8,7 @@ tags = ["kompendium", "detection-signature", "diagnostika", "behavioral"]
 categories = ["academic", "clinical", "security"]
 
 [extra]
+listing_note = "Jistota odpojená od důkazů."
 related_terms = ["7-linguistic-scope-creep", "8-linguistic-semantic-erosion", "epistemicka-kalibrace", "motte-bailey"]
 toc = true
 modality = "behavioral"

@@ -8,6 +8,7 @@ tags = ["kompendium", "detection-signature", "diagnostika", "phenomenological"]
 categories = ["academic", "clinical", "security"]
 
 [extra]
+listing_note = "Rozpad samozřejmé víry ve svět."
 related_terms = ["26-phenomenological-self-doubt-spike", "27-phenomenological-emotional-numbing", "29-phenomenological-temporal-disorientation", "3-linguistic-unfalsifiable-claims"]
 toc = true
 modality = "phenomenological"

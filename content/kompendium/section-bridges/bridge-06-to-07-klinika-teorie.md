@@ -8,6 +8,7 @@ tags = ["kompendium", "section-bridge", "navigace", "klinicke-aplikace", "philos
 categories = ["academic", "reference"]
 
 [extra]
+listing_note = "praxe ↔ reflexe"
 related_terms = ["bridge-02-to-07-uvod-teoreticke", "bridge-03-to-06-techniky-klinika", "bridge-04-to-07-terminalni-teorie", "bridge-06-to-08-klinika-prilohy"]
 toc = false
 +++

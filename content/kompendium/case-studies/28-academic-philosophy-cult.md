@@ -71,7 +71,7 @@ který je obtížný proto, aby nemohl být kritizován.
 Představitelé jiných směrů byli podle [EA-2.1.3 Útok na kredibilitu](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md)
 paušálně zpochybněni. Iluze přímého přístupu k „bytí samému“, která nepotřebuje argument, odpovídá
 [EA-5.2.2 Transcendentální iluze](@/kompendium/techniques/ea-5-2-2-transcendentalni-iluze.md).
-Osobní životopis byl podle [EA-5.3.27 Autobiografická fragmentace já](@/kompendium/techniques/ea-5-3-27-autobiografi-self-fragmentace.md)
+Osobní životopis byl podle [EA-5.3.31 Autobiografická fragmentace já](@/kompendium/techniques/ea-5-3-31-autobiografi-self-fragmentace.md)
 přeložen do rámce „autenticity“ a „neautenticity“ a o tom, co smí a nesmí patřit do oboru, rozhodoval
 mistr ve smyslu [EA-2.2.9 Nátlak na disciplinární hranice](@/kompendium/techniques/ea-2-2-9-disciplinary-boundary-coercion.md).
 Gellner (1985) popsal na příkladu psychoanalytického hnutí, jak se myšlenkový systém stává

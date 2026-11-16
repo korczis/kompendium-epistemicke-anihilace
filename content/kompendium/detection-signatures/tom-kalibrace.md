@@ -7,6 +7,7 @@ description = "Vztahová signatura: zasažená osoba nadměrně čte potřeby a 
 tags = ["kompendium", "sub-page", "interactive"]
 
 [extra]
+listing_note = "Nadměrné čtení zdroje a přehlížení sebe."
 category = "kompendium-sub"
 related_terms = ["22-network-narrative-injection", "13-behavioral-isolation-acceleration", "15-behavioral-asymmetric-disclosure", "20-network-bot-coordination", "21-network-platform-coordination", "19-network-amplification-asymmetry"]
 author = "Tomas Korcak (korczis)"

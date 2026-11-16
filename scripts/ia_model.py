@@ -7,12 +7,42 @@ import functools
 import pathlib
 import re
 import tomllib
+import sys
+
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+import listings  # noqa: E402  (scripts/listings.py: the derived listings)
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content"
 
 TOML_FM = re.compile(r"\A\+\+\+\n(.*?)\n\+\+\+\n", re.S)
 YAML_FM = re.compile(r"\A---\n(.*?)\n---\n", re.S)
+# Loops over a derived listing (ADR 0015, scripts/listings.py): a page binds a listing with
+# {% set VAR = load_data(path="static/data/listings/KEY.json") %} and loops over one group
+# (VAR.groups["1.2"]), one parent (VAR.parents["5"]), or all of it (VAR.items, VAR.group_order, or a
+# key/value loop over VAR.groups or VAR.parents). A loop's links are not literal in the source; they are added
+# from the listing's membership, which the same front matter defines. A lookup of one entry
+# (VAR.entries["EA-1.1.1"]) is not a listing and links nothing by itself.
+# Not seen: a link rendered through a variable lookup (VAR.groups[t.ea_family] | first). The
+# graph would miss it, so no listing renders one (05-ultramari-techniky dropped its five
+# first-technique links for this reason); a listing that needs per-group links gets them by
+# resolving such lookups here, never by hand-writing them.
+LISTING_GROUP = r'\{%-?\s*for\s+\w+\s+in\s+VAR\.groups\[\s*"([^"]+)"\s*\]'
+LISTING_PARENT = r'\{%-?\s*for\s+\w+\s+in\s+VAR\.parents\[\s*"([^"]+)"\s*\]'
+LISTING_ALL = (r'\{%-?\s*for\s+(?:\w+\s+in\s+VAR\.(?:items|group_order)'
+               r'|\w+\s*,\s*\w+\s+in\s+VAR\.(?:groups|parents))\s*-?%\}')
+
+
+def listing_loops(body: str) -> list:
+    """[(listing key, groups, parents, everything)] for every listing a page loops over."""
+    out = []
+    for var, key in listings.LOAD.findall(body):
+        sub = lambda rx: re.compile(rx.replace("VAR", re.escape(var)))
+        out.append((key, set(sub(LISTING_GROUP).findall(body)), set(sub(LISTING_PARENT).findall(body)),
+                    bool(sub(LISTING_ALL).search(body))))
+    return out
+
+
 AT_LINK = re.compile(r"\]\(@/([^)#\s]+?\.md)(#[^)\s]*)?\)")
 FENCE = re.compile(r"```.*?```", re.S)
 WORD = re.compile(r"[A-Za-zÀ-ž]+")
@@ -129,9 +159,23 @@ def language_of(words: list) -> str:
     return "en" if en > cz else "cs"
 
 
+FAMILIES = ROOT / "data" / "families.toml"
+
+
+def family_names() -> tuple:
+    """(chapter code -> name, family code -> name) from data/families.toml, the one source of the
+    EA chapter and family names (ADR 0015). A code without a row has no name; none is guessed."""
+    import tomllib
+    data = tomllib.loads(FAMILIES.read_text(encoding="utf-8"))
+    return ({str(r["code"]): str(r["name"]) for r in data.get("chapter", [])},
+            {str(r["code"]): str(r["name"]) for r in data.get("family", [])})
+
+
 def load_pages(with_body: bool = False) -> list:
     """Every page of content/ as a dict; `with_body` keeps the body (front matter removed)
     and the front matter's [extra] for the text analyses of scripts/check-ia.py."""
+    loops: dict = {}
+    members: dict = {}
     pages = []
     for path in sorted(CONTENT.rglob("*.md")):
         rel = pathlib.PurePosixPath(path.relative_to(CONTENT).as_posix())
@@ -187,9 +231,20 @@ def load_pages(with_body: bool = False) -> list:
             if isinstance(extra, dict) and isinstance(extra.get("catalog_aliases"), list) else [],
             "links": [m.group(1) for m in AT_LINK.finditer(body)],
         })
+        # Derived listings (scripts/listings.py): which listings a page loops over, and which
+        # listings and groups a page is a member of.
+        if listings.OUTPUT_DIR in body:
+            loops[pages[-1]["path"]] = listing_loops(body)
+        for key, group, parent, field_links in listings.member_groups(rel.as_posix(), front):
+            members.setdefault(key, []).append((pages[-1]["path"], group, parent, field_links))
         if with_body:
             pages[-1]["body"] = body
             pages[-1]["extra"] = extra if isinstance(extra, dict) else {}
+    for page in pages:
+        for key, groups, parents, everything in loops.get(page["path"], []):
+            for t, group, parent, field_links in members.get(key, []):
+                if everything or group in groups or parent in parents:
+                    page["links"] += [t] + field_links
     known = {p["path"] for p in pages}
     for page in pages:
         page["broken_links"] = sorted({t for t in page["links"] if t not in known})

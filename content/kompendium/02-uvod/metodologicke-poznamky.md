@@ -9,6 +9,7 @@ tags = ["kompendium", "uvod", "metodologie", "klasifikace", "validace"]
 categories = ["academic", "methodology"]
 
 [extra]
+listing_note = "Klasifikační kritéria, validační principy"
 related_terms = ["filosoficky-ramec", "historicky-kontext", "teoreticke-zaklady" ]
 section_icon = "🧬"
 toc = true

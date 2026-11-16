@@ -10,6 +10,7 @@ tags = ["kompendium", "techniques", "ea-1-1-2", "informacni-pretizeni", "akvizic
 categories = ["academic"]
 
 [extra]
+exploitation = "Kognitivní limity pracovní paměti"
 related_terms = ["ea-1-1-1-selektivni-expozice", "ea-1-1-2", "ea-1-1-3-terminologicka-mystifikace", "ea-1-2-4-argumentacni-oslabeni"]
 ea_code = "EA-1.1.2"
 ea_category = "1. Akademické techniky"

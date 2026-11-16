@@ -231,15 +231,16 @@ def load_pages(with_body: bool = False) -> list:
         # listings and groups a page is a member of.
         if listings.OUTPUT_DIR in body:
             loops[pages[-1]["path"]] = listing_loops(body)
-        for key, group, parent in listings.member_groups(rel.as_posix(), front):
-            members.setdefault(key, []).append((pages[-1]["path"], group, parent))
+        for key, group, parent, field_links in listings.member_groups(rel.as_posix(), front):
+            members.setdefault(key, []).append((pages[-1]["path"], group, parent, field_links))
         if with_body:
             pages[-1]["body"] = body
             pages[-1]["extra"] = extra if isinstance(extra, dict) else {}
     for page in pages:
         for key, groups, parents, everything in loops.get(page["path"], []):
-            page["links"] += [t for t, group, parent in members.get(key, [])
-                              if everything or group in groups or parent in parents]
+            for t, group, parent, field_links in members.get(key, []):
+                if everything or group in groups or parent in parents:
+                    page["links"] += [t] + field_links
     known = {p["path"] for p in pages}
     for page in pages:
         page["broken_links"] = sorted({t for t in page["links"] if t not in known})

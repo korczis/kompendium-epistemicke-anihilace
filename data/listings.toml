@@ -53,3 +53,29 @@ section = "kompendium/section-bridges"
 index_pages = ["kompendium/section-bridges/_index.md"]
 fields = ["extra.listing_note"]
 title_strip = '^Most:\s*'
+
+[[listing]]
+key = "01-predmluva"
+section = "kompendium/01-predmluva"
+index_pages = ["kompendium/01-predmluva/_index.md"]
+fields = ["extra.listing_note"]
+
+[[listing]]
+key = "02-uvod"
+section = "kompendium/02-uvod"
+index_pages = ["kompendium/02-uvod/_index.md"]
+fields = ["extra.listing_note"]
+
+[[listing]]
+key = "08-prilohy"
+section = "kompendium/08-prilohy"
+index_pages = ["kompendium/08-prilohy/_index.md"]
+fields = ["extra.listing_note"]
+
+[[listing]]
+key = "05-ultramari-techniky"
+section = "kompendium/05-ultramari-techniky"
+index_pages = ["kompendium/05-ultramari-techniky/_index.md"]
+# the chapters of the section: the pages that name the technique family they cover
+where = "extra.ea_family"
+fields = ["extra.ea_family", "extra.listing_note"]

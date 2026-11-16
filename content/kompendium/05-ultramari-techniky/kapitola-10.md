@@ -9,6 +9,8 @@ tags = ["kompendium", "ultramari", "kapitola-10", "transkonceptualni-mechanismy"
 categories = ["academic", "ultramari"]
 
 [extra]
+ea_family = "5.5"
+listing_note = "Operace pod prahem konceptuálního zachycení"
 related_terms = ["kapitola-6", "kapitola-7", "kapitola-8"]
 section_icon = "🚨"
 toc = true

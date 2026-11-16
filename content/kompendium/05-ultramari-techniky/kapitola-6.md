@@ -9,6 +9,8 @@ tags = ["kompendium", "ultramari", "kapitola-6", "epistemicka-singularita", "ea-
 categories = ["academic", "ultramari"]
 
 [extra]
+ea_family = "5.1"
+listing_note = "Kolaps reflexivních struktur a sebeprůzkumných smyček"
 related_terms = ["kapitola-10", "kapitola-7", "kapitola-8", "kapitola-9"]
 section_icon = "🚨"
 toc = true

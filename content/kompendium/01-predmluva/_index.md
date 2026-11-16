@@ -33,15 +33,11 @@ Třetím pojmem je **epistemická spravedlnost**. Kniha píše o lidech, jejich�
 
 ## Průvodce kapitolami
 
-| # | Článek | Téma |
-|---|--------|------|
-| 1.1 | [Účel kompendia](@/kompendium/01-predmluva/ucel-kompendia.md) | Záměr taxonomie, vymezení vůči klasické psychopatologii |
-| 1.2 | [Pro koho je určeno](@/kompendium/01-predmluva/pro-koho-je-urceno.md) | Cílové skupiny a předpokládaná kvalifikace |
-| 1.3 | [Etické aspekty a upozornění](@/kompendium/01-predmluva/eticke-aspekty.md) | Etický rámec, omezení použití, rizika dvojího užití |
-| 1.4 | [Jak používat toto kompendium](@/kompendium/01-predmluva/jak-pouzivat.md) | Čtenářské strategie, postupná expozice |
-| 1.5 | [Bezpečnostní klasifikace přístupu](@/kompendium/01-predmluva/bezpecnostni-klasifikace.md) | Úrovně L1–L4, supervize, eskalace |
-| 1.6 | [Odkud kniha pochází](@/kompendium/01-predmluva/vztah-k-platforme.md) | Odkud kniha vzešla, co z toho v jejím textu zůstalo a čemu kvůli tomu nevěřit bez důkazu |
-| 1.7 | [Proč tato kniha není pro každého](@/kompendium/01-predmluva/neni-pro-kazdeho/_index.md) | Pro koho je, kdy ji teď nečíst, k čemu neslouží, kde hledat pomoc hned |
+{% set l = load_data(path="static/data/listings/01-predmluva.json") %}
+| Článek | Téma |
+|--------|------|
+{% for t in l.items %}| [{{ t.name }}](@/{{ t.path }}) | {{ t.listing_note | default(value="") }} |
+{% endfor %}
 
 Kapitola **1.1** vymezuje, čím kniha je a čím není: není diagnostickým manuálem, nenahrazuje DSM ani MKN, ale doplňuje je o popis vnějších vlivů na poznávání. Kapitola **1.2** popisuje, komu je text určen a proč předpokládá odborné zázemí. Kapitola **1.3** je jádrem sekce – stanoví závazné směrnice a postup při etickém dilematu. Kapitola **1.4** nabízí cesty knihou pro klinika, výzkumníka a pedagoga a vysvětluje, proč číst postupně. Kapitola **1.5** převádí etický rámec do úrovní přístupu a kapitola **1.6** vysvětluje souvislost s platformou, z níž kniha vzešla.
 

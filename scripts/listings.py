@@ -19,6 +19,7 @@ Output shape (the same for every listing):
   group_notes   group key -> one-line note, when the declaration gives one
   parents       parent key -> its group keys in order (code-pattern listings with a parent)
   parent_names  parent key -> name
+  parent_counts parent key -> number of its members (a count without a loop over them)
   entries       id -> member (the member's code, or its slug)
   count         number of members
 Each member: id, code (if any), name, summary, slug, path (the @/ link target), words, weight,
@@ -114,8 +115,23 @@ def classify(listing: dict, path: str, front: dict):
     return "", "", ((weight,), path)
 
 
+FIELD_LINK = re.compile(r"\]\(@/([^)#\s]+?\.md)(?:#[^)\s]*)?\)")
+
+
+def field_links(listing: dict, front: dict) -> list:
+    """The @/ link targets inside a member's declared fields: a page that renders the member
+    renders these links too."""
+    out = []
+    for field in listing.get("fields", []):
+        value = _get(front, field)
+        if isinstance(value, str):
+            out += FIELD_LINK.findall(value)
+    return out
+
+
 def member_groups(path: str, front: dict) -> list:
-    """[(listing key, group, parent)] for a page: the listings it is a member of."""
+    """[(listing key, group, parent, links in its fields)] for a page: the listings it is a
+    member of."""
     out = []
     for listing in declaration():
         sec = listing["section"]
@@ -127,7 +143,7 @@ def member_groups(path: str, front: dict) -> list:
             continue
         c = classify(listing, path, front)
         if c:
-            out.append((listing["key"], c[0], c[1]))
+            out.append((listing["key"], c[0], c[1], field_links(listing, front)))
     return out
 
 
@@ -193,6 +209,7 @@ def build(listing: dict) -> dict:
     if parents:
         out["parents"] = parents
         out["parent_names"] = {p: n for p, n in parent_names.items() if p in parents}
+        out["parent_counts"] = {p: sum(len(groups[g]) for g in gs) for p, gs in parents.items()}
     return out
 
 

@@ -9,6 +9,8 @@ tags = ["kompendium", "ultramari", "kapitola-8", "hypertransformativni-protokoly
 categories = ["academic", "ultramari"]
 
 [extra]
+ea_family = "5.3"
+listing_note = "Vynucená rekurzivní transformace identity poznávajícího"
 related_terms = ["kapitola-6", "kapitola-7", "kapitola-9", "motte-bailey"]
 section_icon = "🚨"
 toc = true

@@ -8,6 +8,7 @@ sort_by = "weight"
 tags = ["kompendium", "08-prilohy"]
 
 [extra]
+listing_note = "Metodolog, taxonom"
 related_terms = ["eticky-kodex", "index-pojmu", "rejstrik-technik", "zkratky"]
 kompendium = ["08-prilohy"]
 prilohy = ["klasifikace", "taxonomie", "metodologie"]

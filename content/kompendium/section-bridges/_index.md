@@ -45,7 +45,7 @@ Každý section bridge článek obsahuje:
 {% set l = load_data(path="static/data/listings/section-bridges.json") %}
 ## Seznam mostů
 
-Sekce má {{ l.count }} mostů, seřazených podle pořadí sekcí, které spojují; název mostu uvádí, z které sekce do které vede.
+Sekce má {{ l.count }} mostů v pořadí sekcí; název každého mostu říká, odkud a kam vede.
 
 | Most | Typ |
 |---|---|

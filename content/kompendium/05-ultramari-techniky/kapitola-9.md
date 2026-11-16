@@ -9,6 +9,8 @@ tags = ["kompendium", "ultramari", "kapitola-9", "paradoxalni-metaanihilace", "e
 categories = ["academic", "ultramari"]
 
 [extra]
+ea_family = "5.4"
+listing_note = "Sebevztažné paradoxy destabilizující rámce evaluace"
 related_terms = ["kapitola-7", "kapitola-8", "motte-bailey", "narrativni-trauma"]
 section_icon = "🚨"
 toc = true

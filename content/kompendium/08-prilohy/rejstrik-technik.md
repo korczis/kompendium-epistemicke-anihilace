@@ -8,6 +8,7 @@ sort_by = "weight"
 tags = ["kompendium", "08-prilohy"]
 
 [extra]
+listing_note = "Klinik, navigátor"
 related_terms = ["index-pojmu", "klasifikace", "zkratky", "eticky-kodex"]
 kompendium = ["08-prilohy"]
 prilohy = ["rejstrik", "master-index", "techniky"]

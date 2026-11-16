@@ -10,6 +10,8 @@ tags = ["kompendium", "ultramari-techniky", "metatranscendentalni-anihilace", "k
 categories = ["academic", "ultramari"]
 
 [extra]
+ea_family = "5.2"
+listing_note = "Suspenze transcendentálních podmínek poznání"
 related_terms = ["kapitola-10", "kapitola-6", "kapitola-8", "kapitola-9"]
 section_icon = "🌑"
 toc = true

@@ -133,6 +133,20 @@ Requirements (id: what is checked):
                    or move a genuine shared notice to a Zola include/partial; `scripts/dup-passages.py`
                    lists each block with its pages so a block is fixed across all of them at once.
                    NEVER baselined
+  typed-count      no hand-typed member count where the page itself loads the derived one: on a
+                   page that binds a derived data file (`{% set l = load_data(path="static/data/…")
+                   %}`), a literal numeral followed by a noun that this file's own derived
+                   expressions use for its members. Both halves are read out of the book — the
+                   member noun from the `{{ l.count }} signatur` the book already writes (no schema
+                   and no file name carries that Czech word), the scope from the binding, which
+                   proves the derived form is reachable from that very file. Refuses the numeral
+                   rather than comparing it: a correct hand-typed count goes stale on the next
+                   member, which is how section 05 came to claim 150 techniques over 187 and
+                   kapitola-8 30 over 37. Exempts an ordinal subset ("Prvních deset technik je níže
+                   shrnuto"), a noun the bound file never uses for its members, and front matter,
+                   which Zola does not template and which therefore has no derived form to offer.
+                   A file with no derived expression anywhere teaches no noun and is never charged.
+                   Remedy: render the count from the file the page already loads. NEVER baselined
   duplicate-table  no pasted table row: a table data row (whitespace- and EA-code-normalised, 8+
                    words) re-pasted byte-identical on 3+ content/kompendium pages — the complement of
                    duplicate-passage, which skips tables. Exempts ONLY a metadata field (a bold-label
@@ -293,6 +307,7 @@ NEVER_BASELINED = {"placeholder", "technique-page", "howto", "drug-dose", "templ
                    "code-range", "chrome-trailer",
                    "detail", "weak-link",
                    "duplicate-passage", "duplicate-table", "access-level-row", "duplicate-ea-code", "alias-collision",
+                   "typed-count",
                    "drug-name", "authority-without-source",
                    "platform-section", "relative-link", "platform-label", "platform-frontmatter",
                    "philosophy-frame"}
@@ -311,6 +326,9 @@ PENDING_ZERO = {"placeholder": 0, "technique-page": 0, "howto": 0, "drug-dose": 
                 "duplicate-passage": 281,
                 "duplicate-table": 249,  # measured on merged main c8394d3e after Přístupová úroveň removal; bold-label→short-value exempt
                 "access-level-row": 0,  # the row is derived from extra.access_level; 0 after removal
+                # 0 on main, which carries no derived count expression at all; the real
+                # positions appear with the first converted section and are fixed, not accepted
+                "typed-count": 0,
                 # the one known case: EA-5.3.27 on two pages, its kapitola-8 row naming neither
                 "duplicate-ea-code": 2,
                 # safety, ADR 0013/0014: both reach 0 after the content lane's waves
@@ -384,6 +402,8 @@ def violations(page: dict) -> list:
         found.append("duplicate-passage")
     if page.get("duplicate_tables"):
         found.append("duplicate-table")
+    if page.get("typed_counts"):
+        found.append("typed-count")
     if page.get("access_level_row") or page.get("access_level_prose"):
         found.append("access-level-row")
     if page.get("duplicate_ea_code"):
@@ -421,6 +441,9 @@ def explain(page: dict) -> dict:
         "legitimate-indication": "; ".join(page.get("legitimate_indication", [])[:2]),
         "duplicate-passage": "; ".join(b[:60] for b in page.get("duplicate_passages", [])[:2]),
         "duplicate-table": "; ".join(r[:60] for r in page.get("duplicate_tables", [])[:2]),
+        "typed-count": ("; ".join(page.get("typed_counts", [])[:3])
+                        + " — render the count from the data file this page already loads"
+                        if page.get("typed_counts") else ""),
         "access-level-row": ("hand-written Přístupová úroveň row" if page.get("access_level_row")
                              else "hand-written Přístupová úroveň L<n> in prose — delete the level"
                                   " claim, keep the rest of the sentence"
@@ -1147,6 +1170,64 @@ def card_parents_resolve(pages: list) -> set:
     return found
 
 
+# typed-count: a page that loads one of the book's derived data files has that set's member
+# count available in the file it is writing in, so typing the number is a choice — and a number
+# typed once goes stale on the next member. Both halves of the judgement are read out of the
+# book: see the requirement's entry in this module's docstring.
+DATA_BIND = re.compile(r"\{%-?\s*set\s+(\w+)\s*=\s*load_data\(path=\"([^\"]+\.(?:json|toml))\"")
+DERIVED_COUNT = re.compile(r"\{\{\s*(\w+)[^}]*(?:count|length)[^}]*\}\}\s*"
+                           r"((?:[^\s.,;:()\[\]{}]+\s*){0,4})")
+COUNT_WORD = re.compile(r"^[a-záčďéěíňóřšťúůýž]+$")
+COUNT_MARKUP = str.maketrans("", "", "*_`~\u00a0")
+# an adjective agreeing with a genitive plural stands between the numeral and its head noun
+# ("150 ultramárních technik"); the head is the first token that is not one of those forms
+COUNT_ADJ = re.compile(r"(?:ních|ých|ého|ími|ová|ové|ský|ská|ské|ní|ká)$")
+COUNT_NUM = (r"(?:\d{1,4}|dvě|dva|tři|čtyři|pět|šest|sedm|osm|devět|deset|jedenáct|dvanáct|"
+             r"třináct|čtrnáct|patnáct|šestnáct|sedmnáct|osmnáct|devatenáct|dvacet|třicet|"
+             r"čtyřicet|padesát|šedesát|sedmdesát|osmdesát|devadesát|sto)")
+# an ordinal makes the numeral a subset of the set, not its size
+COUNT_SUBSET = re.compile(r"\b(prvn\w+|posledn\w+|dalš\w+|zbýv\w+|následuj\w+)\s+$", re.I)
+
+
+def count_head_noun(after: str):
+    """The head noun of the phrase a derived count expression quantifies, or None."""
+    for tok in (t.translate(COUNT_MARKUP) for t in after.split()):
+        if not COUNT_WORD.match(tok):
+            return None
+        if COUNT_ADJ.search(tok):
+            continue   # an agreeing adjective; the head is still to come
+        return tok
+    return None
+
+
+def typed_counts_resolve(pages: list) -> None:
+    """Charge a typed member count on a page that binds the derived source. Needs the bodies,
+    so it runs before analyse() empties them."""
+    nouns = collections.defaultdict(set)
+    bodies = {p["path"]: (p.get("body") or "") for p in pages}
+    for body in bodies.values():
+        bound = dict(DATA_BIND.findall(body))
+        for var, after in DERIVED_COUNT.findall(body):
+            source, noun = bound.get(var), count_head_noun(after)
+            if source and noun:
+                nouns[source].add(noun)
+    for page in pages:
+        body = bodies[page["path"]]
+        page["typed_counts"] = []
+        sources = {src for _, src in DATA_BIND.findall(body)} & set(nouns)
+        if not sources:
+            continue   # no derived form is reachable from this file: nothing to demand
+        vocab = sorted(set().union(*(nouns[s] for s in sources)), key=len, reverse=True)
+        pattern = re.compile(r"(?<![\w*`])(" + COUNT_NUM + r")\s+"
+                             r"(?:[a-záčďéěíňóřšťúůýž]+(?:ních|ých)\s+){0,2}"
+                             r"(" + "|".join(map(re.escape, vocab)) + r")\b", re.I)
+        for sentence in re.split(r"(?<=[.!?])\s+|\n\n", body):
+            for m in pattern.finditer(sentence):
+                if COUNT_SUBSET.search(sentence[:m.start(1)]):
+                    continue
+                page["typed_counts"].append(f"{m.group(1)} {m.group(2)}")
+
+
 def clear_card_citations(pages: list, exempt: set) -> None:
     """Zero `uncited` on those cards. Needs the counts, so it runs after analyse()."""
     for page in pages:
@@ -1158,6 +1239,7 @@ def current(details: dict = None, counts: dict = None) -> dict:
     result = {}
     pages = load_pages(with_body=True)
     cards = card_parents_resolve(pages)   # while the bodies are still there
+    typed_counts_resolve(pages)           # likewise: it reads the bodies and the bindings
     candidates = analyse(pages)
     clear_card_citations(pages, cards)    # once analyse() has produced the counts
     weak_pages = {p["path"] for p in pages if weak(p)}

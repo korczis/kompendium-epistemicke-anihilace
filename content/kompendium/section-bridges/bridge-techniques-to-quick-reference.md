@@ -8,6 +8,7 @@ tags = ["kompendium", "section-bridge", "navigace", "techniques", "quick-referen
 categories = ["academic", "reference"]
 
 [extra]
+listing_note = "hluboké ↔ lookup"
 related_terms = ["bridge-quick-reference-to-glossary", "bridge-techniques-to-glossary", "bridge-techniques-to-case-studies", "bridge-techniques-to-visualizations"]
 toc = false
 +++

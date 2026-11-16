@@ -9,6 +9,7 @@ tags = ["kompendium", "predmluva", "etika", "dual-use", "primum-non-nocere", "in
 categories = ["academic", "ethics"]
 
 [extra]
+listing_note = "Etický rámec, omezení použití, rizika dvojího užití"
 related_terms = ["bezpecnostni-klasifikace", "jak-pouzivat", "pro-koho-je-urceno", "ucel-kompendia"]
 section_icon = "⚖️"
 toc = true

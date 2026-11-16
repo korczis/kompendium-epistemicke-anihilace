@@ -8,6 +8,7 @@ tags = ["kompendium", "detection-signature", "diagnostika", "behavioral"]
 categories = ["academic", "clinical", "security"]
 
 [extra]
+listing_note = "Vyrobená naléhavost."
 related_terms = ["12-behavioral-gaslighting-pattern", "13-behavioral-isolation-acceleration", "15-behavioral-asymmetric-disclosure", "16-behavioral-emotional-modulation"]
 toc = true
 modality = "behavioral"

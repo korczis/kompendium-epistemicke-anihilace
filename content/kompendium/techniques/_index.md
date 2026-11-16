@@ -36,21 +36,21 @@ Všechny technique-články dodržují stejnou strukturu:
 
 ## Index technik
 
-{% set cat = load_data(path="static/data/catalogue.json") %}Každý kód má tvar `EA-X.Y.Z` a čte se zleva doprava: první číslo určuje kapitolu taxonomie, druhé rodinu uvnitř kapitoly a třetí konkrétní fenomén; písmeno připojené za kód odlišuje variantu téhož fenoménu. Kód je stabilní identifikátor, který se po přidělení nemění, a když se dvě stránky ukázaly pod jedním kódem, dostala jedna z nich nový kód a stará adresa na ni přesměrovává. Pravidla přidělování kódů a výklad notace podává [klasifikační schéma](@/kompendium/08-prilohy/klasifikace.md), metodická východiska celé taxonomie shrnují [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
+{% set cat = load_data(path="static/data/listings/techniques.json") %}Každý kód má tvar `EA-X.Y.Z` a čte se zleva doprava: první číslo určuje kapitolu taxonomie, druhé rodinu uvnitř kapitoly a třetí konkrétní fenomén; písmeno připojené za kód odlišuje variantu téhož fenoménu. Kód je stabilní identifikátor, který se po přidělení nemění, a když se dvě stránky ukázaly pod jedním kódem, dostala jedna z nich nový kód a stará adresa na ni přesměrovává. Pravidla přidělování kódů a výklad notace podává [klasifikační schéma](@/kompendium/08-prilohy/klasifikace.md), metodická východiska celé taxonomie shrnují [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
-Index níže uvádí {{ cat.entries | length }} technik v {{ cat.families | length }} rodinách a {{ cat.chapters | length }} kapitolách. Žádný jeho řádek se nepíše ručně: kód, název a jednovětý popis přebírá ze záhlaví stránky, na kterou vede, takže řádek nemůže pojmenovat jinou techniku, než jakou stránka pod svým kódem popisuje. Rodina, kterou kniha dosud nikde nepojmenovala, je uvedena jen kódem, protože se název nedomýšlí. Názvy kapitol a rodin mají v knize jediný zdroj, z něhož čte tento index, [rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md) i tabulky kapitol, takže se jeden název nemůže na dvou místech lišit. Každá stránka techniky má stavbu popsanou výše v šabloně článku a slouží k rozpoznání, odlišení a obraně, nikdy jako návod k provedení; hranice studia a použití vymezuje [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
+Index níže uvádí {{ cat.entries | length }} technik v {{ cat.groups | length }} rodinách a {{ cat.parents | length }} kapitolách. Žádný jeho řádek se nepíše ručně: kód, název a jednovětý popis přebírá ze záhlaví stránky, na kterou vede, takže řádek nemůže pojmenovat jinou techniku, než jakou stránka pod svým kódem popisuje. Rodina, kterou kniha dosud nikde nepojmenovala, je uvedena jen kódem, protože se název nedomýšlí. Názvy kapitol a rodin mají v knize jediný zdroj, z něhož čte tento index, [rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md) i tabulky kapitol, takže se jeden název nemůže na dvou místech lišit. Každá stránka techniky má stavbu popsanou výše v šabloně článku a slouží k rozpoznání, odlišení a obraně, nikdy jako návod k provedení; hranice studia a použití vymezuje [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
-{% for ch, fams in cat.chapters %}{% set chname = cat.chapter_names[ch] | default(value="") %}
+{% for ch, fams in cat.parents %}{% set chname = cat.parent_names[ch] | default(value="") %}
 
 ### Kapitola {{ ch }}{% if chname %} — {{ chname }}{% endif %}
 
-{% for f in fams %}{% set fname = cat.family_names[f] | default(value="") %}
+{% for f in fams %}{% set fname = cat.group_names[f] | default(value="") %}
 
 #### EA-{{ f }}{% if fname %} {{ fname }}{% endif %}
 
 | EA | Technika | Shrnutí |
 |----|----------|---------|
-{% for t in cat.families[f] %}| **[{{ t.code }}](@/kompendium/techniques/{{ t.slug }}.md)** | {{ t.name }} | {{ t.summary }} |
+{% for t in cat.groups[f] %}| **[{{ t.code }}](@/kompendium/techniques/{{ t.slug }}.md)** | {{ t.name }} | {{ t.summary }} |
 {% endfor %}
 {% endfor %}{% endfor %}
 

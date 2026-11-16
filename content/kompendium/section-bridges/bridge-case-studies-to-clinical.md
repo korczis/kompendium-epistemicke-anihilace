@@ -8,6 +8,7 @@ tags = ["kompendium", "section-bridge", "navigace", "case-study", "klinicke-apli
 categories = ["academic", "reference"]
 
 [extra]
+listing_note = "narativa ↔ systém"
 related_terms = ["bridge-techniques-to-case-studies", "bridge-case-studies-to-glossary-bridges", "bridge-03-to-06-techniky-klinika", "bridge-visualizations-to-clinical"]
 toc = false
 +++

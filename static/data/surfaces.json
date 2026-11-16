@@ -15,6 +15,7 @@
     "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {
@@ -130,6 +131,7 @@
     "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {
@@ -227,6 +229,7 @@
     "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {
@@ -319,6 +322,7 @@
    "data": [
     "static/data/nav.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {},
@@ -396,6 +400,7 @@
    "data": [
     "static/data/nav.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {},
@@ -477,6 +482,7 @@
     "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {
@@ -572,6 +578,7 @@
    "data": [
     "static/data/nav.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {},
@@ -654,6 +661,7 @@
     "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {
@@ -751,6 +759,7 @@
    "data": [
     "static/data/nav.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {},
@@ -826,6 +835,7 @@
    "data": [
     "static/data/nav.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {},
@@ -902,6 +912,7 @@
    "data": [
     "static/data/nav.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {},
@@ -984,6 +995,7 @@
     "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {
@@ -1080,6 +1092,7 @@
    "data": [
     "static/data/nav.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {},
@@ -1155,6 +1168,7 @@
    "data": [
     "static/data/nav.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {},
@@ -1230,6 +1244,7 @@
    "data": [
     "static/data/nav.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {},
@@ -1305,6 +1320,7 @@
    "data": [
     "static/data/nav.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {},
@@ -1380,6 +1396,7 @@
    "data": [
     "static/data/nav.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {},
@@ -1458,6 +1475,7 @@
     "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {
@@ -1550,6 +1568,7 @@
    "data": [
     "static/data/nav.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {},
@@ -1626,6 +1645,7 @@
    "data": [
     "static/data/nav.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {},
@@ -1708,6 +1728,7 @@
     "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {
@@ -1805,6 +1826,7 @@
    "data": [
     "static/data/nav.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {},
@@ -1883,6 +1905,7 @@
     "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {
@@ -1980,6 +2003,7 @@
     "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {
@@ -2080,6 +2104,7 @@
     "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {
@@ -2184,6 +2209,7 @@
     "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {
@@ -2282,6 +2308,7 @@
     "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {
@@ -2426,6 +2453,7 @@
     "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {
@@ -2520,6 +2548,7 @@
     "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {
@@ -2614,6 +2643,7 @@
     "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {
@@ -2708,6 +2738,7 @@
     "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {
@@ -2803,6 +2834,7 @@
     "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {
@@ -2908,6 +2940,7 @@
     "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {
@@ -3002,6 +3035,7 @@
     "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {
@@ -3096,6 +3130,7 @@
     "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {
@@ -3190,6 +3225,7 @@
     "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {
@@ -3281,6 +3317,7 @@
    "data": [
     "static/data/nav.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {},
@@ -3362,6 +3399,7 @@
     "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {
@@ -3470,6 +3508,7 @@
     "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {
@@ -3564,6 +3603,7 @@
     "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {
@@ -3658,6 +3698,7 @@
     "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {
@@ -3752,6 +3793,7 @@
     "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {
@@ -3846,6 +3888,7 @@
     "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {
@@ -3940,6 +3983,7 @@
     "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {
@@ -4034,6 +4078,7 @@
     "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {
@@ -4128,6 +4173,7 @@
     "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {
@@ -4222,6 +4268,7 @@
     "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {
@@ -4319,6 +4366,7 @@
     "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {
@@ -4464,6 +4512,7 @@
    "data": [
     "static/data/nav.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {},
@@ -4595,6 +4644,7 @@
     "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {
@@ -4697,6 +4747,7 @@
     "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json",
+    "static/data/words.json",
     "static/img/generated/manifest.json"
    ],
    "generic_views": {

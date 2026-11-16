@@ -9,6 +9,7 @@ tags = ["kompendium", "uvod", "teorie", "konceptualni-ramec", "interdisciplinari
 categories = ["academic", "theory"]
 
 [extra]
+listing_note = "Epistemologie, kognitivní psychologie, filozofie mysli"
 related_terms = ["historicky-kontext", "metodologicke-poznamky" ]
 section_icon = "🏛️"
 toc = true

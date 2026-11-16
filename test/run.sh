@@ -30,6 +30,15 @@ trap 'rm -rf "$out_dir"' EXIT
 # kea-tests.* tree only when this pid is gone.
 echo $$ > "$out_dir/.kea-test.pid"
 
+# A case number names one case: `test/run.sh 40` must not run two unrelated files, and a failure
+# reported as "case 40" must point at one. Lanes take numbers from `majordomus mesh allocate case`;
+# three numbers had two files each on main (02, 03, 40, 2026-11-16) before this refused it.
+dupes=$(for c in test/cases/*_*.sh; do b=$(basename "$c"); echo "${b%%_*}"; done | sort | uniq -d)
+if [ -n "$dupes" ]; then
+  for n in $dupes; do echo "test/run.sh: case number $n names more than one file:" $(ls test/cases/"$n"_*.sh) >&2; done
+  exit 2
+fi
+
 cases=()
 for case in test/cases/*_*.sh; do
   n=$(basename "$case"); n=${n%%_*}

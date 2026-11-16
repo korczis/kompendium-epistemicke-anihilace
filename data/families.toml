@@ -1,14 +1,15 @@
 # Names of the EA chapters (EA-N) and families (EA-N.M): the one source every reader takes them
 # from (ADR 0015). scripts/build-graph.py gives graph.json its `families` and every node its
-# `podrodina` name from here; scripts/build-ui-data.py copies them into static/data/catalogue.json
-# (`chapter_names`, `family_names`), and the chapters, the register of techniques and the
-# techniques index title their derived tables from that. No page writes a family name by hand.
+# `podrodina` name from here; scripts/listings.py copies them into
+# static/data/listings/techniques.json (`parent_names`, `group_names`), and the chapters, the
+# register of techniques and the techniques index title their derived tables from that. No page
+# writes a family name by hand.
 #
 # A family without a row keeps its code: a name is entered only from a source in the book, never
-# guessed. Where the book used two wordings, the one its chapter text uses was chosen, measured on
-# 2026-11-15 (session a70e6c7e): for 1.1–1.5 the kapitola-1 and techniques-index wording occurs 5–12
-# times outside the register, the register's own ("Akvizice poznání", "Logická manipulace", …) 0–1
-# times. The 2025 original taxonomy (ADR 0005) does not name these families.
+# guessed. Where the book used two wordings, the one its chapter text uses was chosen, measured
+# on 2026-11-15 (session a70e6c7e): for 1.1-1.5 the kapitola-1 and techniques-index wording
+# occurs 5-12 times outside the register, the register's own ("Akvizice poznání", "Logická
+# manipulace", …) 0-1 times. The 2025 original taxonomy (ADR 0005) does not name these families.
 
 schema = "kompendium-families/v1"
 

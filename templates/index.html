@@ -15,10 +15,11 @@
 {%- set graph = load_data(path="static/data/graph.json") -%}
 {%- set_global total = 0 -%}
 {%- set_global words = 0 -%}
+{%- set wc_map = load_data(path="static/data/words.json") -%}
 {%- for path in root.subsections | sort -%}
   {%- set s = get_section(path=path) -%}
   {%- set_global total = total + s.pages | length + 1 -%}
-  {%- for p in s.pages -%}{%- set_global words = words + p.word_count -%}{%- endfor -%}
+  {%- for p in s.pages -%}{%- set_global words = words + wc_map[p.relative_path] | default(value=0) -%}{%- endfor -%}
 {%- endfor -%}
 {%- set_global families = 0 -%}{%- for code, name in graph.families -%}{%- set_global families = families + 1 -%}{%- endfor -%}
 <section class="bg-white dark:bg-gray-800" aria-labelledby="hero-title">

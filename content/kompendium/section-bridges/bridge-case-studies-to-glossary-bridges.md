@@ -8,6 +8,7 @@ tags = ["kompendium", "section-bridge", "navigace", "case-study", "glossary-brid
 categories = ["academic", "reference"]
 
 [extra]
+listing_note = "terminologie ↔ kotvy"
 related_terms = ["bridge-case-studies-to-clinical", "bridge-glossary-bridges-to-philosophy", "bridge-techniques-to-case-studies", "bridge-techniques-to-glossary"]
 toc = false
 +++

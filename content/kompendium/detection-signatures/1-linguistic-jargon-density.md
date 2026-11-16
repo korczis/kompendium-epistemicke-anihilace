@@ -8,6 +8,7 @@ tags = ["kompendium", "detection-signature", "diagnostika", "linguistic"]
 categories = ["academic", "clinical", "security"]
 
 [extra]
+listing_note = "Nepřeložitelný slovník jako bariéra."
 related_terms = ["10-behavioral-resistance-to-clarification", "11-behavioral-topic-evasion", "12-behavioral-gaslighting-pattern"]
 toc = true
 modality = "linguistic"

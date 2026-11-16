@@ -8,6 +8,7 @@ tags = ["kompendium", "detection-signature", "diagnostika", "phenomenological"]
 categories = ["academic", "clinical", "security"]
 
 [extra]
+listing_note = "Utlumení citové odezvy."
 related_terms = ["25-phenomenological-cognitive-fog", "26-phenomenological-self-doubt-spike", "28-phenomenological-reality-uncertainty", "29-phenomenological-temporal-disorientation"]
 toc = true
 modality = "phenomenological"

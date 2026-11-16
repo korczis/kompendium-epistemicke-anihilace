@@ -55,7 +55,9 @@
       {%- if pos %}<a href="{{ config.base_url }}{{ nav_here.url }}" class="hidden sm:inline-flex rounded-md bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600">{{ pos }} / {{ nav_here.pages | length }} · {{ nav_here.title | truncate(length=40) }}</a>{% endif %}
       {%- endif %}
       {%- endif %}
-      {%- if page is defined and page.word_count %}<span class="hidden sm:inline-flex rounded-md bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800 dark:bg-gray-700 dark:text-gray-300">{{ page.word_count }} slov</span>{% endif %}
+      {#- The book's one word count, static/data/words.json (scripts/build-graph.py from ia_model: the
+          rendered prose the gates judge); Zola's own word count counts link paths as words. -#}
+      {%- if page is defined %}{% set wc_map = load_data(path="static/data/words.json") %}{% set wc_n = wc_map[page.relative_path] | default(value=0) %}{% if wc_n %}<span data-word-count class="hidden sm:inline-flex rounded-md bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800 dark:bg-gray-700 dark:text-gray-300">{{ wc_n }} slov</span>{% endif %}{% endif %}
       {%- if doc.reading_time is defined and doc.reading_time %}<span class="hidden sm:inline-flex rounded-md bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800 dark:bg-gray-700 dark:text-gray-300">{{ doc.reading_time }} min čtení</span>{% endif %}
     </div>
   </div>

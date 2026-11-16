@@ -9,6 +9,7 @@ tags = ["kompendium", "uvod", "definice", "epistemicka-anihilace", "kognitivni-a
 categories = ["academic"]
 
 [extra]
+listing_note = "Základní pojmy a jejich vymezení"
 related_terms = ["filosoficky-ramec", "historicky-kontext", "metodologicke-poznamky"]
 section_icon = "📐"
 toc = true

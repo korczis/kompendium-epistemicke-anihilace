@@ -9,6 +9,7 @@ tags = ["kompendium", "predmluva", "metodika", "navigace", "graduacni-expozice",
 categories = ["academic"]
 
 [extra]
+listing_note = "Čtenářské strategie, postupná expozice"
 related_terms = ["bezpecnostni-klasifikace", "eticke-aspekty", "pro-koho-je-urceno", "ucel-kompendia"]
 section_icon = "🗺️"
 toc = true

@@ -19,6 +19,11 @@ Writes three files that templates and scripts read and nobody edits by hand:
   static/data/metrics.json  per-section and whole-book figures for the dashboards
   static/data/ia.json       per page: open IA violations by rule (scripts/check-ia.py), words,
                             language, in and out degree, for the editorial view
+  static/data/words.json    page path -> words, the book's one word count (scripts/ia_model.py:
+                            the rendered prose the gates judge), keyed so a template looks a page
+                            up by its relative_path; the badge, schema.org wordCount, the
+                            technique hero and the explorers read it instead of Zola's
+                            page.word_count, which counts link paths as words and misses included text
 
 Deterministic: the same content gives the same bytes, so `--check` can fail CI when a
 commit changes content without regenerating them.
@@ -163,7 +168,9 @@ def build() -> dict:
     fams = families(pages)
     graph = {"schema": SCHEMA, "nodes": nodes, "edges": edges, "families": fams,
              "categories": categorise(pages, nodes, fams)}
-    return {"graph.json": graph, "metrics.json": metrics, "ia.json": ia_report(pages)}
+    words = {p["path"]: p["words"] for p in sorted(pages, key=lambda p: p["path"])}
+    return {"graph.json": graph, "metrics.json": metrics, "ia.json": ia_report(pages),
+            "words.json": words}
 
 
 

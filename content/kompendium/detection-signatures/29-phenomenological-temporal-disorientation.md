@@ -8,6 +8,7 @@ tags = ["kompendium", "detection-signature", "diagnostika", "phenomenological"]
 categories = ["academic", "clinical", "security"]
 
 [extra]
+listing_note = "Narušené vnímání času a pořadí."
 related_terms = ["27-phenomenological-emotional-numbing", "28-phenomenological-reality-uncertainty", "3-linguistic-unfalsifiable-claims", "30-phenomenological-identity-fragmentation"]
 toc = true
 modality = "phenomenological"

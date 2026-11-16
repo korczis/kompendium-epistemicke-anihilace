@@ -8,6 +8,7 @@ tags = ["kompendium", "section-bridge", "navigace", "terminalni-protokoly", "phi
 categories = ["academic", "reference"]
 
 [extra]
+listing_note = "protokol ↔ kritika"
 related_terms = ["bridge-03-to-07-techniky-teorie", "bridge-04-to-06-terminalni-klinika", "bridge-05-to-07-ultramari-teorie", "bridge-06-to-07-klinika-teorie"]
 toc = false
 +++

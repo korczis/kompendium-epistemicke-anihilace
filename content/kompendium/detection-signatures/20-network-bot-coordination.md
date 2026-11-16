@@ -8,6 +8,7 @@ tags = ["kompendium", "detection-signature", "diagnostika", "network"]
 categories = ["academic", "clinical", "security"]
 
 [extra]
+listing_note = "Neautentické sítě účtů."
 related_terms = ["19-network-amplification-asymmetry", "2-linguistic-circular-definitions", "21-network-platform-coordination", "22-network-narrative-injection"]
 toc = true
 modality = "network"

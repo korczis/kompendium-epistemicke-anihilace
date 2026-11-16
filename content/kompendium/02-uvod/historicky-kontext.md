@@ -9,6 +9,7 @@ tags = ["kompendium", "uvod", "historie", "filozofie", "predchudci"]
 categories = ["academic", "history"]
 
 [extra]
+listing_note = "Vývoj zkoumání, intelektuální předchůdci"
 related_terms = ["definice", "filosoficky-ramec", "metodologicke-poznamky", "teoreticke-zaklady"]
 section_icon = "📜"
 toc = true

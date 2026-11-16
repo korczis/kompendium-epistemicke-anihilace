@@ -7,6 +7,10 @@ import functools
 import pathlib
 import re
 import tomllib
+import sys
+
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+import listings  # noqa: E402  (scripts/listings.py: the derived listings)
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content"
@@ -14,15 +18,32 @@ TEMPLATES = ROOT / "templates"
 
 TOML_FM = re.compile(r"\A\+\+\+\n(.*?)\n\+\+\+\n", re.S)
 YAML_FM = re.compile(r"\A---\n(.*?)\n---\n", re.S)
-# The catalogue loop of a chapter (ADR 0015): the data file it loads and the families it loops over.
-CATALOGUE_DATA = 'load_data(path="static/data/catalogue.json")'
-# only a loop over a family or a chapter lists the family; a single entry looked up by code
-# (`cat.families["5.1"] | filter(...)`) is not a listing and links nothing by itself
-CATALOGUE_FAMILY = re.compile(r'\{%-?\s*for\s+\w+\s+in\s+\w+\.families\[\s*"(\d+\.\d+)"\s*\]')
-CATALOGUE_CODE = re.compile(r"^EA-(\d+\.\d+)\.\d+$")
-CATALOGUE_CHAPTER = re.compile(r'\{%-?\s*for\s+\w+\s+in\s+\w+\.chapters\[\s*"(\d+)"\s*\]')
-# a loop over every chapter (`{% for ch, fams in cat.chapters %}`) lists the whole catalogue
-CATALOGUE_ALL = re.compile(r'\{%-?\s*for\s+\w+\s*,\s*\w+\s+in\s+\w+\.chapters\s*-?%\}')
+# Loops over a derived listing (ADR 0015, scripts/listings.py): a page binds a listing with
+# {% set VAR = load_data(path="static/data/listings/KEY.json") %} and loops over one group
+# (VAR.groups["1.2"]), one parent (VAR.parents["5"]), or all of it (VAR.items, VAR.group_order, or a
+# key/value loop over VAR.groups or VAR.parents). A loop's links are not literal in the source; they are added
+# from the listing's membership, which the same front matter defines. A lookup of one entry
+# (VAR.entries["EA-1.1.1"]) is not a listing and links nothing by itself.
+# Not seen: a link rendered through a variable lookup (VAR.groups[t.ea_family] | first). The
+# graph would miss it, so no listing renders one (05-ultramari-techniky dropped its five
+# first-technique links for this reason); a listing that needs per-group links gets them by
+# resolving such lookups here, never by hand-writing them.
+LISTING_GROUP = r'\{%-?\s*for\s+\w+\s+in\s+VAR\.groups\[\s*"([^"]+)"\s*\]'
+LISTING_PARENT = r'\{%-?\s*for\s+\w+\s+in\s+VAR\.parents\[\s*"([^"]+)"\s*\]'
+LISTING_ALL = (r'\{%-?\s*for\s+(?:\w+\s+in\s+VAR\.(?:items|group_order)'
+               r'|\w+\s*,\s*\w+\s+in\s+VAR\.(?:groups|parents))\s*-?%\}')
+
+
+def listing_loops(body: str) -> list:
+    """[(listing key, groups, parents, everything)] for every listing a page loops over."""
+    out = []
+    for var, key in listings.LOAD.findall(body):
+        sub = lambda rx: re.compile(rx.replace("VAR", re.escape(var)))
+        out.append((key, set(sub(LISTING_GROUP).findall(body)), set(sub(LISTING_PARENT).findall(body)),
+                    bool(sub(LISTING_ALL).search(body))))
+    return out
+
+
 AT_LINK = re.compile(r"\]\(@/([^)#\s]+?\.md)(#[^)\s]*)?\)")
 FENCE = re.compile(r"```.*?```", re.S)
 # A shared notice belongs in templates/partials/ and is pulled in with {% include %} — the remedy
@@ -184,7 +205,7 @@ def load_pages(with_body: bool = False) -> list:
     """Every page of content/ as a dict; `with_body` keeps the body (front matter removed)
     and the front matter's [extra] for the text analyses of scripts/check-ia.py."""
     loops: dict = {}
-    family_of: dict = {}
+    members: dict = {}
     pages = []
     for path in sorted(CONTENT.rglob("*.md")):
         rel = pathlib.PurePosixPath(path.relative_to(CONTENT).as_posix())
@@ -244,27 +265,20 @@ def load_pages(with_body: bool = False) -> list:
             if isinstance(extra, dict) and isinstance(extra.get("catalog_aliases"), list) else [],
             "links": [m.group(1) for m in AT_LINK.finditer(rendered)],
         })
-        # A chapter's catalogue table is a load_data loop over static/data/catalogue.json (ADR 0015):
-        # its links are not literal in the source, so they are added from the same front matter the
-        # catalogue is derived from, below. Record which families a page loops over, and each
-        # technique page's family.
-        if CATALOGUE_DATA in body:
-            # a family loop names its family; a chapter loop (cat.chapters["5"]) covers every
-            # family of the chapter
-            loops[pages[-1]["path"]] = (set(CATALOGUE_FAMILY.findall(body)),
-                                        set(CATALOGUE_CHAPTER.findall(body))
-                                        | ({"*"} if CATALOGUE_ALL.search(body) else set()))
-        code = CATALOGUE_CODE.match(str(extra.get("ea_code", "") or "").strip()) if isinstance(extra, dict) else None
-        if code and pages[-1]["path"].startswith("kompendium/techniques/ea-"):
-            family_of[pages[-1]["path"]] = code.group(1)
+        # Derived listings (scripts/listings.py): which listings a page loops over, and which
+        # listings and groups a page is a member of.
+        if listings.OUTPUT_DIR in body:
+            loops[pages[-1]["path"]] = listing_loops(body)
+        for key, group, parent, field_links in listings.member_groups(rel.as_posix(), front):
+            members.setdefault(key, []).append((pages[-1]["path"], group, parent, field_links))
         if with_body:
             pages[-1]["body"] = body
             pages[-1]["extra"] = extra if isinstance(extra, dict) else {}
     for page in pages:
-        families, chapters = loops.get(page["path"], (set(), set()))
-        if families or chapters:
-            page["links"] += [t for t, f in family_of.items()
-                              if f in families or f.split(".")[0] in chapters or "*" in chapters]
+        for key, groups, parents, everything in loops.get(page["path"], []):
+            for t, group, parent, field_links in members.get(key, []):
+                if everything or group in groups or parent in parents:
+                    page["links"] += [t] + field_links
     known = {p["path"] for p in pages}
     for page in pages:
         page["broken_links"] = sorted({t for t in page["links"] if t not in known})

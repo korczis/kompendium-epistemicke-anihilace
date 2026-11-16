@@ -34,15 +34,11 @@ Hlavní text kompendia (sekce 01–07) představuje **taxonomický a teoretický
 
 ## Obsah sekce
 
-| # | Článek | Cílový čtenář | Délka |
-|---|--------|---------------|-------|
-| 1 | [Bibliografie a primární literatura](@/kompendium/08-prilohy/bibliografie.md) | Výzkumník, recenzent | ~2000 slov |
-| 2 | [Kompletní rejstřík technik (master index)](@/kompendium/08-prilohy/rejstrik-technik.md) | Klinik, navigátor | ~2500 slov |
-| 3 | [Index pojmů (CS-EN bilingual)](@/kompendium/08-prilohy/index-pojmu.md) | Překladatel, mezinárodní výzkumník | ~2000 slov |
-| 4 | [Diagnostické dotazníky a nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md) | Klinický psycholog | ~2200 slov |
-| 5 | [Etický kodex výzkumníka EA](@/kompendium/08-prilohy/eticky-kodex.md) | IRB, etický komitét | ~1500 slov |
-| 6 | [Klasifikační schéma a taxonomie — meta-úroveň](@/kompendium/08-prilohy/klasifikace.md) | Metodolog, taxonom | ~1800 slov |
-| 7 | [Zkratky a notace](@/kompendium/08-prilohy/zkratky.md) | Univerzální | ~1000 slov |
+{% set l = load_data(path="static/data/listings/08-prilohy.json") %}
+| Článek | Cílový čtenář | Délka |
+|--------|---------------|-------|
+{% for t in l.items %}| [{{ t.name }}](@/{{ t.path }}) | {{ t.listing_note | default(value="") }} | {{ t.words }} slov |
+{% endfor %}
 
 ## Struktura referenční vrstvy
 

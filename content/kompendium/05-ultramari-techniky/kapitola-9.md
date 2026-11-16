@@ -9,6 +9,8 @@ tags = ["kompendium", "ultramari", "kapitola-9", "paradoxalni-metaanihilace", "e
 categories = ["academic", "ultramari"]
 
 [extra]
+ea_family = "5.4"
+listing_note = "Sebevztažné paradoxy destabilizující rámce evaluace"
 related_terms = ["kapitola-7", "kapitola-8", "motte-bailey", "narrativni-trauma"]
 section_icon = "🚨"
 toc = true
@@ -17,7 +19,7 @@ access_level = "L3-L4"
 
 # Kapitola 9 — Paradoxální metaanihilační protokoly
 
-> 🚨 Kapitola popisuje 30 ultramárních technik ([EA-5.4.1](@/kompendium/techniques/ea-5-4-1-lhar-paradox-aplikace.md) a další) exploitujících **sebevztažné paradoxy** k destabilizaci rámců, v nichž subjekt evaluuje pravdivost, validitu a koherenci. Materiály vyžadují IRB autorizaci a etickou supervizi. Kniha popisuje techniky kompaktní taxonomickou deskripcí; operační detaily ani rekonstruktivní protokoly neobsahuje. Plné per-technique články pro EA-5.4.* jsou v přípravné fázi.
+{% set cat = load_data(path="static/data/listings/techniques.json") %}> 🚨 Kapitola popisuje {{ cat.groups["5.4"] | length }} ultramárních technik ([EA-5.4.1](@/kompendium/techniques/ea-5-4-1-lhar-paradox-aplikace.md) a další) exploitujících **sebevztažné paradoxy** k destabilizaci rámců, v nichž subjekt evaluuje pravdivost, validitu a koherenci. Materiály vyžadují IRB autorizaci a etickou supervizi. Kniha popisuje techniky kompaktní taxonomickou deskripcí; operační detaily ani rekonstruktivní protokoly neobsahuje. Plné per-technique články pro EA-5.4.* jsou v přípravné fázi.
 
 ## Pozice kapitoly
 
@@ -27,15 +29,13 @@ Paradoxální metaanihilační protokoly exploitují třídu strukturně-singul�
 
 Filozoficky jsou techniky této kapitoly zakotveny v: **matematické logice** (Russell, Tarski, Gödel, Church, Turing), **filozofii jazyka** (Wittgenstein — rule-following, Kripke — Wittgenstein's paradox), **dialetheismu** (Priest — *In Contradiction*), **paraconsistentní logice** (Routley, Brady) a **buddhistické tetralemě** (Nāgārjuna). Techniky operacionalizují tyto teoretické zdroje destruktivně.
 
-{% set cat = load_data(path="static/data/catalogue.json") %}
-
 ## Techniky EA-5.4
 
-Rodina EA-5.4 má {{ cat.families["5.4"] | length }} technik; kód, název i popis každého řádku pocházejí ze stránky, na niž vede.
+Rodina EA-5.4 má {{ cat.groups["5.4"] | length }} technik; kód, název i popis každého řádku pocházejí ze stránky, na niž vede.
 
 | EA | Technika | Shrnutí |
 |----|----------|---------|
-{% for t in cat.families["5.4"] %}| **[{{ t.code }}](@/kompendium/techniques/{{ t.slug }}.md)** | {{ t.name }} | {{ t.summary }} |
+{% for t in cat.groups["5.4"] %}| **[{{ t.code }}](@/kompendium/techniques/{{ t.slug }}.md)** | {{ t.name }} | {{ t.summary }} |
 {% endfor %}
 
 ## Jak techniky rodiny číst
@@ -84,7 +84,7 @@ Sebevztažné paradoxy jsou zvláště citlivé:
 
 ## Závěr
 
-Kapitola 9 popisuje {{ cat.families["5.4"] | length }} paradoxálních metaanihilačních protokolů rodiny EA-5.4, které uvádí výše oddíl Techniky EA-5.4.
+Kapitola 9 popisuje {{ cat.groups["5.4"] | length }} paradoxálních metaanihilačních protokolů rodiny EA-5.4, které uvádí výše oddíl Techniky EA-5.4.
 
 Techniky exploitují strukturně-singulární konstrukce dokumentované v matematické logice, filozofii jazyka, dialetheismu a buddhistické tetralemě. Klinický obraz vyžaduje distinktní diagnostiku odlišující jej od OCD, GAD, filozofické psychózy a pseudo-mystických epizod.
 

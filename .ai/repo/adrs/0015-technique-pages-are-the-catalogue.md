@@ -142,3 +142,12 @@ the kept sections changed. The six pages named after clusters keep their names: 
 are the techniques, and renaming them is a separate content slice. The rows had been most of each
 chapter's running text, so each chapter gained a sourced section on the literature its page names
 draw on, framed as recognition and distinction, with its own Literatura.
+
+## Note, 2026-11-16: where the catalogue lives now
+
+The technique catalogue named `static/data/catalogue.json` in the amendments above is the first
+listing of the generic layer of rule `project.listings-derived`: it is declared in
+`data/listings.toml` (key `techniques`), built by `scripts/listings.py` and written to
+`static/data/listings/techniques.json`, with the keys `groups`, `parents`, `group_names` and
+`parent_names` in place of `families`, `chapters`, `family_names` and `chapter_names`. The
+decisions above are unchanged.

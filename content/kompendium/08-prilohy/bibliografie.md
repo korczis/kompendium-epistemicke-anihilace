@@ -8,6 +8,7 @@ sort_by = "weight"
 tags = ["kompendium", "08-prilohy", "reference", "bibliografie"]
 
 [extra]
+listing_note = "Výzkumník, recenzent"
 related_terms = ["diagnosticke-nastroje", "dual-use", "eticky-kodex"]
 kompendium = ["08-prilohy"]
 prilohy = ["bibliografie", "literatura", "reference"]

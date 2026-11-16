@@ -8,6 +8,7 @@ tags = ["kompendium", "detection-signature", "diagnostika", "network"]
 categories = ["academic", "clinical", "security"]
 
 [extra]
+listing_note = "Řetězové umlčení."
 related_terms = ["22-network-narrative-injection", "23-network-reputation-laundering", "25-phenomenological-cognitive-fog", "26-phenomenological-self-doubt-spike"]
 toc = true
 modality = "network"

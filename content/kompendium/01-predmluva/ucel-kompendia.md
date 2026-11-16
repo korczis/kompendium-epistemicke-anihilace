@@ -9,6 +9,7 @@ tags = ["kompendium", "predmluva", "ucel", "metodika", "primum-non-nocere", "dua
 categories = ["academic"]
 
 [extra]
+listing_note = "Záměr taxonomie, vymezení vůči klasické psychopatologii"
 related_terms = ["jak-pouzivat", "pro-koho-je-urceno", "vztah-k-platforme", "eticke-aspekty"]
 section_icon = "🎯"
 toc = true

@@ -8,6 +8,7 @@ tags = ["kompendium", "section-bridge", "navigace", "ultramari", "ethics"]
 categories = ["academic", "reference"]
 
 [extra]
+listing_note = "etika ↔ intenzivní praxe"
 related_terms = ["bridge-01-to-04-eticky-ramec-protokoly", "bridge-03-to-05-zakladni-ultramari", "bridge-04-to-05-terminalni-ultramari", "bridge-05-to-06-ultramari-klinika"]
 toc = false
 +++

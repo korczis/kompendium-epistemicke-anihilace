@@ -36,14 +36,11 @@ Miranda Fricker k tomu dodává sociální rozměr: poznání neprobíhá v izol
 
 ## Průvodce kapitolami
 
-| # | Článek | Téma |
-|---|--------|------|
-| 2.0 | [Epistemická anihilace v kostce](@/kompendium/02-uvod/v-kostce.md) | Šest vrstev, jejich vazby a ilustrativní model eskalace na jedné stránce |
-| 2.1 | [Definice epistemické a kognitivní anihilace](@/kompendium/02-uvod/definice.md) | Základní pojmy a jejich vymezení |
-| 2.2 | [Historický kontext studia epistemických traumat](@/kompendium/02-uvod/historicky-kontext.md) | Vývoj zkoumání, intelektuální předchůdci |
-| 2.3 | [Teoretické základy a konceptuální rámec](@/kompendium/02-uvod/teoreticke-zaklady.md) | Epistemologie, kognitivní psychologie, filozofie mysli |
-| 2.4 | [Metodologické poznámky k taxonomii](@/kompendium/02-uvod/metodologicke-poznamky.md) | Klasifikační kritéria, validační principy |
-| 2.5 | [Filosofický rámec](@/kompendium/02-uvod/filosoficky-ramec.md) | Epistemologie, fenomenologie, [hermeneutika](@/glossary/hermeneutika.md) |
+{% set l = load_data(path="static/data/listings/02-uvod.json") %}
+| Článek | Téma |
+|--------|------|
+{% for t in l.items %}| [{{ t.name }}](@/{{ t.path }}) | {{ t.listing_note | default(value="") }} |
+{% endfor %}
 
 Kdo má na úvod málo času, začne kapitolou **2.0**, která celý model shrnuje na jedné stránce. Kapitola **2.1** je referenčním bodem pro celou knihu: definuje pojmy, jejich znaky a stupně. Kapitola **2.2** sleduje, jak se o podobných jevech uvažovalo od studia propagandy a myšlenkové reformy po digitální prostředí, a kapitola **2.3** spojuje poznatky epistemologie a kognitivní psychologie do jednoho rámce. Kapitola **2.4** vysvětluje, podle čeho se techniky třídí a jak se nová technika do taxonomie přidává; navazuje na ni příloha [Klasifikační schéma](@/kompendium/08-prilohy/klasifikace.md). Kapitola **2.5** podává filozofické zázemí podrobněji, než je v úvodu nutné, a kapitoly **2.6** a **2.7** ukazují, jak se taxonomie převádí do technických systémů platformy, z níž kniha vzešla.
 

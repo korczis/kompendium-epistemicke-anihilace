@@ -68,6 +68,13 @@ Instruments that misled the same sessions, and the reading that held:
   (c5200028, 2026-11-15). A move is verified in both directions: the new page at 200 and each old
   address at 200 redirecting to it. A gate on aliases equal to their own page's address catches
   this shape of the bug before it ships.
+||||||| fc9576ba
+- A grep proves only the shape it searches: 105 of 106 generated graphics looked orphaned
+  because the templates build their paths (`"section-" ~ key ~ ".svg"`), and no page looked
+  illustrated because the illustrations are inline SVG drawn by a script, not `![...]`. Measure
+  the rendered page. For a deployed surface, the browser gate runs against production too:
+  `BASE_URL=<Pages URL> PLAYWRIGHT=$PWD/node_modules/playwright-core ONLY='^/<path>/' node
+  test/e2e/surfaces.cjs` (ONLY matches a path that starts with "/"; an empty selection exits 2).
 - A CI watcher keyed on "the newest run for this sha" reported a pre-merge head's green as the
   merged head's: `[ "$h" != "9738c87d"* ]` is not a glob in POSIX `test`, so it filtered nothing.
   Pin the run id of the push you made and watch that id; the sha moves under you, the id does not.

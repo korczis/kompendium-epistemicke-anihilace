@@ -1,4 +1,15 @@
 {
+ "families": {
+  "EA-1": "family-ea-1.svg",
+  "EA-2": "family-ea-2.svg",
+  "EA-3": "family-ea-3.svg",
+  "EA-4": "family-ea-4.svg",
+  "EA-5": "family-ea-5.svg",
+  "EA-6": "family-ea-6.svg",
+  "EA-7": "family-ea-7.svg",
+  "EA-8": "family-ea-8.svg",
+  "EA-9": "family-ea-9.svg"
+ },
  "files": {
   "family-ea-1.svg": {
    "sha256": "4a6f698208122d1994389f5850d48e83ca511100b91db919d96d62bab7f63408"
@@ -461,5 +472,199 @@
   }
  },
  "generator": "scripts/render-graphics.py",
- "schema": "kompendium-section-graphics/v1"
+ "schema": "kompendium-section-graphics/v1",
+ "sections": {
+  "glossary": {
+   "mark": "section-glossary.svg",
+   "og": "og-glossary.png"
+  },
+  "kompendium": {
+   "mark": "section-kompendium.svg",
+   "og": "og-kompendium.png"
+  },
+  "kompendium/01-predmluva": {
+   "mark": "section-kompendium-01-predmluva.svg",
+   "og": "og-kompendium-01-predmluva.png"
+  },
+  "kompendium/01-zaklady-manipulace": {
+   "mark": "section-kompendium-01-zaklady-manipulace.svg",
+   "og": "og-kompendium-01-zaklady-manipulace.png"
+  },
+  "kompendium/02-doktrinalni-ramec": {
+   "mark": "section-kompendium-02-doktrinalni-ramec.svg",
+   "og": "og-kompendium-02-doktrinalni-ramec.png"
+  },
+  "kompendium/02-uvod": {
+   "mark": "section-kompendium-02-uvod.svg",
+   "og": "og-kompendium-02-uvod.png"
+  },
+  "kompendium/03-manipulacni-vzorce": {
+   "mark": "section-kompendium-03-manipulacni-vzorce.svg",
+   "og": "og-kompendium-03-manipulacni-vzorce.png"
+  },
+  "kompendium/03-zakladni-kategorie": {
+   "mark": "section-kompendium-03-zakladni-kategorie.svg",
+   "og": "og-kompendium-03-zakladni-kategorie.png"
+  },
+  "kompendium/04-klinika": {
+   "mark": "section-kompendium-04-klinika.svg",
+   "og": "og-kompendium-04-klinika.png"
+  },
+  "kompendium/04-operacni-principy": {
+   "mark": "section-kompendium-04-operacni-principy.svg",
+   "og": "og-kompendium-04-operacni-principy.png"
+  },
+  "kompendium/04-pokrocile-fenomeny": {
+   "mark": "section-kompendium-04-pokrocile-fenomeny.svg",
+   "og": "og-kompendium-04-pokrocile-fenomeny.png"
+  },
+  "kompendium/04-terminalni-protokoly": {
+   "mark": "section-kompendium-04-terminalni-protokoly.svg",
+   "og": "og-kompendium-04-terminalni-protokoly.png"
+  },
+  "kompendium/05-diagnostika": {
+   "mark": "section-kompendium-05-diagnostika.svg",
+   "og": "og-kompendium-05-diagnostika.png"
+  },
+  "kompendium/05-kolektivni-rozmer": {
+   "mark": "section-kompendium-05-kolektivni-rozmer.svg",
+   "og": "og-kompendium-05-kolektivni-rozmer.png"
+  },
+  "kompendium/05-pre-konceptualni-rozklad": {
+   "mark": "section-kompendium-05-pre-konceptualni-rozklad.svg",
+   "og": "og-kompendium-05-pre-konceptualni-rozklad.png"
+  },
+  "kompendium/05-ultramari-techniky": {
+   "mark": "section-kompendium-05-ultramari-techniky.svg",
+   "og": "og-kompendium-05-ultramari-techniky.png"
+  },
+  "kompendium/06-epistemicka-singularita": {
+   "mark": "section-kompendium-06-epistemicka-singularita.svg",
+   "og": "og-kompendium-06-epistemicka-singularita.png"
+  },
+  "kompendium/06-intervence-a-obrana": {
+   "mark": "section-kompendium-06-intervence-a-obrana.svg",
+   "og": "og-kompendium-06-intervence-a-obrana.png"
+  },
+  "kompendium/06-klinicke-aplikace": {
+   "mark": "section-kompendium-06-klinicke-aplikace.svg",
+   "og": "og-kompendium-06-klinicke-aplikace.png"
+  },
+  "kompendium/06-obrana": {
+   "mark": "section-kompendium-06-obrana.svg",
+   "og": "og-kompendium-06-obrana.png"
+  },
+  "kompendium/07-populacni": {
+   "mark": "section-kompendium-07-populacni.svg",
+   "og": "og-kompendium-07-populacni.png"
+  },
+  "kompendium/07-teoreticke-reflexe": {
+   "mark": "section-kompendium-07-teoreticke-reflexe.svg",
+   "og": "og-kompendium-07-teoreticke-reflexe.png"
+  },
+  "kompendium/08-prilohy": {
+   "mark": "section-kompendium-08-prilohy.svg",
+   "og": "og-kompendium-08-prilohy.png"
+  },
+  "kompendium/argumentacni-fauly": {
+   "mark": "section-kompendium-argumentacni-fauly.svg",
+   "og": "og-kompendium-argumentacni-fauly.png"
+  },
+  "kompendium/case-studies": {
+   "mark": "section-kompendium-case-studies.svg",
+   "og": "og-kompendium-case-studies.png"
+  },
+  "kompendium/critical-perspectives": {
+   "mark": "section-kompendium-critical-perspectives.svg",
+   "og": "og-kompendium-critical-perspectives.png"
+  },
+  "kompendium/cross-domain": {
+   "mark": "section-kompendium-cross-domain.svg",
+   "og": "og-kompendium-cross-domain.png"
+  },
+  "kompendium/detection-signatures": {
+   "mark": "section-kompendium-detection-signatures.svg",
+   "og": "og-kompendium-detection-signatures.png"
+  },
+  "kompendium/educational-scenarios": {
+   "mark": "section-kompendium-educational-scenarios.svg",
+   "og": "og-kompendium-educational-scenarios.png"
+  },
+  "kompendium/emergency-protocols": {
+   "mark": "section-kompendium-emergency-protocols.svg",
+   "og": "og-kompendium-emergency-protocols.png"
+  },
+  "kompendium/forensic-legal": {
+   "mark": "section-kompendium-forensic-legal.svg",
+   "og": "og-kompendium-forensic-legal.png"
+  },
+  "kompendium/glossary-bridges": {
+   "mark": "section-kompendium-glossary-bridges.svg",
+   "og": "og-kompendium-glossary-bridges.png"
+  },
+  "kompendium/historical-cases": {
+   "mark": "section-kompendium-historical-cases.svg",
+   "og": "og-kompendium-historical-cases.png"
+  },
+  "kompendium/international": {
+   "mark": "section-kompendium-international.svg",
+   "og": "og-kompendium-international.png"
+  },
+  "kompendium/konceptualni-mapa": {
+   "mark": "section-kompendium-konceptualni-mapa.svg",
+   "og": "og-kompendium-konceptualni-mapa.png"
+  },
+  "kompendium/nlp-vzorce": {
+   "mark": "section-kompendium-nlp-vzorce.svg",
+   "og": "og-kompendium-nlp-vzorce.png"
+  },
+  "kompendium/organizational-defense": {
+   "mark": "section-kompendium-organizational-defense.svg",
+   "og": "og-kompendium-organizational-defense.png"
+  },
+  "kompendium/population-health": {
+   "mark": "section-kompendium-population-health.svg",
+   "og": "og-kompendium-population-health.png"
+  },
+  "kompendium/prevention-resilience": {
+   "mark": "section-kompendium-prevention-resilience.svg",
+   "og": "og-kompendium-prevention-resilience.png"
+  },
+  "kompendium/puvodni-taxonomie": {
+   "mark": "section-kompendium-puvodni-taxonomie.svg",
+   "og": "og-kompendium-puvodni-taxonomie.png"
+  },
+  "kompendium/quick-reference": {
+   "mark": "section-kompendium-quick-reference.svg",
+   "og": "og-kompendium-quick-reference.png"
+  },
+  "kompendium/recovery-protocols": {
+   "mark": "section-kompendium-recovery-protocols.svg",
+   "og": "og-kompendium-recovery-protocols.png"
+  },
+  "kompendium/research-methodology": {
+   "mark": "section-kompendium-research-methodology.svg",
+   "og": "og-kompendium-research-methodology.png"
+  },
+  "kompendium/section-bridges": {
+   "mark": "section-kompendium-section-bridges.svg",
+   "og": "og-kompendium-section-bridges.png"
+  },
+  "kompendium/self-defense-guides": {
+   "mark": "section-kompendium-self-defense-guides.svg",
+   "og": "og-kompendium-self-defense-guides.png"
+  },
+  "kompendium/techniques": {
+   "mark": "section-kompendium-techniques.svg",
+   "og": "og-kompendium-techniques.png"
+  },
+  "kompendium/visualizations": {
+   "mark": "section-kompendium-visualizations.svg",
+   "og": "og-kompendium-visualizations.png"
+  },
+  "philosophy": {
+   "mark": "section-philosophy.svg",
+   "og": "og-philosophy.png"
+  }
+ }
 }

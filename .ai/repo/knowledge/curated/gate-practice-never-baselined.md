@@ -75,6 +75,11 @@ Instruments that misled the same sessions, and the reading that held:
   large diff that moves nothing. Compare it as a set per page, then read what did move: a slice can
   change another rule's charges as a side effect (removing "**Přístupová úroveň L3–L4**" also
   dropped a bold-candidate charge, with nobody editing a bold).
+- A baseline entry can carry a count (`citations:N`), so a slice can move the counts while no page
+  or entry moves: removing uncited prose from 45 pages took book-wide citations 10279 to 10234 with
+  the page and entry totals unchanged (2026-11-15). Likewise a rule whose unit is a page (a
+  duplicated passage shared by 3 or more pages) holds its page count until the last family on a
+  page is gone; measure the family-page incidences to see such a wave progress.
 - Commit the derived state before merging main into a branch. A gate run leaves regenerated files
   modified; `git merge` then refuses, and generators run afterwards measure the unmerged tree.
 - Below a few GiB free the suite fails with ENOSPC in ways that look like defects; two branches

@@ -569,6 +569,12 @@ async function main() {
   SURFACES = FIXED.concat(await derived(process.env.SITE_DIR ? fromDir(process.env.SITE_DIR) : undefined));
   // ONLY=<regexp cesty>: jen vybrané plochy (ladění; gate běží bez něj).
   if (process.env.ONLY) SURFACES = SURFACES.filter((s) => new RegExp(process.env.ONLY).test('/' + s.path));
+  // Prázdný výběr není úspěch: „0/0 v pořádku“ s kódem 0 vypadá jako zelená brána. ONLY se
+  // porovnává s cestou začínající lomítkem (^/stav/, ne ^stav/).
+  if (!SURFACES.length) {
+    console.log(`surfaces: žádná plocha k ověření${process.env.ONLY ? ` (ONLY=${process.env.ONLY} nic nevybral; cesty začínají „/“)` : ''}`);
+    process.exit(2);
+  }
   const browser = await chromium.launch();
   let failed = 0;
   for (const s of SURFACES) {

@@ -58,6 +58,22 @@ Instruments that misled the same sessions, and the reading that held:
 - This site's 404 page carries the full navigation, so a fetch of a wrong URL still "contains" the
   site's words. Guard every production check with the HTTP status (`curl -w '%{http_code}'`).
 - A run reads `queued` while its first job runs; read the jobs, not the run's label.
+- The GitHub API budget (5000 calls an hour) is shared by every session on the account, and
+  several watchers polling `gh` once a minute exhausted it (2026-11-15). A watcher's filter then
+  printed the 403 body where a failed job's name goes, so a rate limit read as a red build. Ask
+  git what git can answer (`git ls-remote` for heads, `merge-base --is-ancestor`), read a run's
+  verdict with one `gh` call per wake, and check the response has `.jobs` before judging it.
+- A renumbering verified only on its new addresses looked done: production served all six new
+  codes at 200 while every old address returned 404, because each alias named the page's new path
+  (c5200028, 2026-11-15). A move is verified in both directions: the new page at 200 and each old
+  address at 200 redirecting to it. A gate on aliases equal to their own page's address catches
+  this shape of the bug before it ships.
+- A grep proves only the shape it searches: 105 of 106 generated graphics looked orphaned
+  because the templates build their paths (`"section-" ~ key ~ ".svg"`), and no page looked
+  illustrated because the illustrations are inline SVG drawn by a script, not `![...]`. Measure
+  the rendered page. For a deployed surface, the browser gate runs against production too:
+  `BASE_URL=<Pages URL> PLAYWRIGHT=$PWD/node_modules/playwright-core ONLY='^/<path>/' node
+  test/e2e/surfaces.cjs` (ONLY matches a path that starts with "/"; an empty selection exits 2).
 - A CI watcher keyed on "the newest run for this sha" reported a pre-merge head's green as the
   merged head's: `[ "$h" != "9738c87d"* ]` is not a glob in POSIX `test`, so it filtered nothing.
   Pin the run id of the push you made and watch that id; the sha moves under you, the id does not.
@@ -65,6 +81,15 @@ Instruments that misled the same sessions, and the reading that held:
   large diff that moves nothing. Compare it as a set per page, then read what did move: a slice can
   change another rule's charges as a side effect (removing "**Přístupová úroveň L3–L4**" also
   dropped a bold-candidate charge, with nobody editing a bold).
+- A baseline entry can carry a count (`citations:N`), so a slice can move the counts while no page
+  or entry moves: removing uncited prose from 45 pages took book-wide citations 10279 to 10234 with
+  the page and entry totals unchanged (2026-11-15). Likewise a rule whose unit is a page (a
+  duplicated passage shared by 3 or more pages) holds its page count until the last family on a
+  page is gone; measure the family-page incidences to see such a wave progress.
+- A baseline diff speaks only for baselined rules. Never-baselined rules held by a PENDING_ZERO
+  ceiling (detail, weak-link) are absent from `scripts/ia-baseline.json`, so a page newly charged by
+  one of them leaves that file unchanged, and a ceiling that still holds hides a swap of pages.
+  Before landing a removal, compare each such rule's page set on both trees, not only its count.
 - Commit the derived state before merging main into a branch. A gate run leaves regenerated files
   modified; `git merge` then refuses, and generators run afterwards measure the unmerged tree.
 - Below a few GiB free the suite fails with ENOSPC in ways that look like defects; two branches

@@ -5,4 +5,5 @@ if ! command -v majordomus >/dev/null 2>&1; then
   echo "pre-commit: majordomus is required (https://majordomus.dev)" >&2
   exit 1
 fi
+bash scripts/check-conflict-markers.sh
 majordomus doctor || exit $?

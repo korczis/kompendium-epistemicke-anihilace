@@ -27,90 +27,24 @@ Hypertransformativní protokoly nejsou identitární modifikace v běžném smys
 
 Filozoficky kapitola exploituje tradici **post-strukturalistické kritiky subjektu** (Foucault, Deleuze, Butler — performativita identity), **psychoanalytické teorie identity** (Lacan — *stade du miroir*), **fenomenologie tělesnosti** (Merleau-Ponty), **buddhistické nauky o ne-já** (anatman) a **klinické literatury o disociačních poruchách identity** (DSM-5 DID, ICD-11 6B64). Techniky operacionalizují tyto teoretické zdroje destruktivně.
 
-## Strukturální mapa: 30 technik EA-5.3.* v šesti klastrech
+{% set cat = load_data(path="static/data/catalogue.json") %}
 
-Třicet technik je organizováno do **šesti klastrů**, z nichž každý zasahuje distinktní aspekt identitární kontinuity.
+## Techniky EA-5.3
 
-| Klastr | Rozsah | Cílová struktura | Reprezentativní vstup |
-|--------|--------|-------------------|------------------------|
-| **Identitární substituce** | 5.3.1 — 5.3.5 | Centrální self-koncept | EA-5.3.1 |
-| **Autobiografická dekonstrukce** | 5.3.6 — 5.3.10 | Narativní paměť | [EA-5.3.7](@/kompendium/techniques/ea-5-3-7-self-narrative-replacement.md) |
-| **Rolová fragmentace** | 5.3.11 — 5.3.15 | Sociální pozicionalita | [EA-5.3.13](@/kompendium/techniques/ea-5-3-13-genealogicka-rekonstrukce.md) |
-| **Tělesná identitární [disociace](@/glossary/disociace.md)** | 5.3.16 — 5.3.20 | Embodiment | [EA-5.3.18](@/kompendium/techniques/ea-5-3-18-esencialisticka-redukce.md) |
-| **Temporálně-vývojová inverze** | 5.3.21 — 5.3.25 | Ontogenetická kontinuita | [EA-5.3.22](@/kompendium/techniques/ea-5-3-22-moralni-osy-inverze.md) |
-| **Rekurzivní hypertransformace** | 5.3.26 — 5.3.30 | Integrativní finální fáze | [EA-5.3.28](@/kompendium/techniques/ea-5-3-28-pseudo-self-implantace.md) |
+Rodina EA-5.3 má {{ cat.families["5.3"] | length }} technik; kód, název i popis každého řádku pocházejí ze stránky, na niž vede.
 
-## Klastr A — Identitární substituce
+| EA | Technika | Shrnutí |
+|----|----------|---------|
+{% for t in cat.families["5.3"] %}| **[{{ t.code }}](@/kompendium/techniques/{{ t.slug }}.md)** | {{ t.name }} | {{ t.summary }} |
+{% endfor %}
 
-Klastr destabilizuje **centrální self-koncept** — odpověď subjektu na otázku „kdo jsem“. Techniky vedou subjekt k postupnému přijímání alternativních identitárních konfigurací jako „pravdivějších“ než původní.
+## Jak techniky rodiny číst
 
-| Kód | Název | Kompaktní deskripce |
-|-----|-------|---------------------|
-| **EA-5.3.1** | Identitární metamorfóza | Postupná substituce centrálního self-konceptu prostřednictvím sekvenčního přijímání auxiliárních self-narativ. Subjekt nezažívá náhlou ztrátu identity — místo toho graduálně přijímá novou identitu jako "vždy již pravou". Mechanismus exploituje plasticitu autobiografické paměti. Klinický obraz: kompletní identitární dezorientace s persistentní jistotou ohledně nové identity. |
-| **[EA-5.3.2](@/kompendium/techniques/ea-5-3-2-autobiograficka-dekonstrukce.md)** | Pseudo-jádrová inverze | Manipulace s "jádrovými hodnotami" subjektu prostřednictvím systematické rekonfigurace toho, co subjekt považuje za "pravé já" oproti "rolemu já". Subjekt v post-aplikační fázi popisuje předchozí identitu jako "masku", aniž by měl epistemické nástroje toto tvrzení verifikovat. |
-| **[EA-5.3.3](@/kompendium/techniques/ea-5-3-3-rolova-fragmentace.md)** | Multiplikativní self-fragmentace | Indukce vědomí, že subjekt obsahuje multiplicitní distinktní identity — bez psychiatrické kvalifikace pro DID. Exploituje legitimní pluralitu rolí a převádí ji do destruktivní formy. Riziko: regresivní indukce DID-podobné symptomatiky u predisponovaných subjektů. |
-| **[EA-5.3.4](@/kompendium/techniques/ea-5-3-4-telesna-disociace.md)** | Autoimunitní self-rejekce | Subjekt je veden k rozpoznání, že "já minulé verze" bylo "falešné", a aplikace stejné struktury rejekce na současnou verzi v rekurzivní smyčce. Generuje persistentní self-rejekci bez stabilního referenta. |
-| **[EA-5.3.5](@/kompendium/techniques/ea-5-3-5-temporalne-vyvojova-inverze.md)** | Substituční inkorporace | Subjekt postupně inkorporuje jako vlastní hodnoty, paměti a preference, které byly externě prezentovány jako "vždy již vlastní". Po dostatečné expozici subjekt nedokáže rozlišit původní identitární obsahy od inkorporovaných. |
+Názvy stránek této rodiny si vypůjčují pojmy, jimiž kognitivní věda a filozofie mysli rozlišují vrstvy já. Damasio (1999) odlišuje proto-self, průběžnou neuronální mapu stavu těla, od jádrového já přítomného okamžiku a od autobiografického já, které spojuje paměť s očekáváním; Gallagher (2000) obdobně rozlišuje minimální já bezprostředního prožitku od narativního já, které člověk o sobě vypráví v čase. Stránky jako proto-self rozklad, minimal-self deformace nebo core-self fraktura těmito pojmy uspořádávají, na jakou vrstvu popisovaný vliv míří; nejde o diagnózy ani o tvrzení, že danou vrstvu lze zvenčí cíleně poškodit.
 
-## Klastr B — Autobiografická dekonstrukce
+Historicky nejlépe popsaným případem tlaku na identitu je myšlenková reforma, jak ji u lidí, kteří prošli čínskými převýchovnými programy, zkoumal Lifton (1961). Mezi jeho kritérii totalismu je „nadřazenost doktríny nad člověkem“: vlastní minulost a zkušenost se mají přepsat tak, aby odpovídaly učení skupiny. Výklad musí počítat s tím, že autobiografická paměť je i bez cizího vlivu rekonstruktivní (Conway a Pleydell-Pearce, 2000), takže změna vlastního příběhu sama o sobě manipulaci nedokazuje. Rozpoznávacím znakem je až vnější tlak na jedinou přípustnou verzi minulosti, spojený se znevažováním jiných svědectví.
 
-Klastr cílí na **narativní paměť** — sekvenci vzpomínek, kterou subjekt užívá k organizaci své identitární kontinuity. Mechanismem je systematická destabilizace autobiografického vyprávění.
-
-| Kód | Název | Kompaktní deskripce |
-|-----|-------|---------------------|
-| **[EA-5.3.6](@/kompendium/techniques/ea-5-3-6-rekurzivni-hypertransformace.md)** | Autobiografický restart | Subjekt je veden k přesvědčení, že jeho dosavadní autobiografie byla "konstruovaná pod vlivem" externí entity (kult, rodina, společnost), a že "skutečná autobiografie" musí být rekonstruována od nuly. Generuje totální narativní vakuum. |
-| **EA-5.3.7** | Mnemická revize | Systematická manipulace s konkrétními vzpomínkami prostřednictvím sugestivního dotazování, falešného konsensu a opakovaných "korekcí". Po dostatečné expozici subjekt přijímá revizovanou verzi jako autentickou. Spojeno s literaturou o falešných vzpomínkách (Loftus). |
-| **[EA-5.3.8](@/kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md)** | Narativní disociace | Indukce zkušenosti, že subjektova autobiografie "se týká někoho jiného" — formálně rozpoznána, ale ztratila autobiografický charakter. Klinický obraz: kompletně neutrální vyprávění životní historie bez emoční rezonance. |
-| **[EA-5.3.9](@/kompendium/techniques/ea-5-3-9-afektivni-prepolovani.md)** | Kausální historiografická inverze | Subjekt je veden k rekonstrukci kausálních vztahů ve své biografii v opačném smyslu, než jak je předtím rozuměl. Po expozici: "to, co jsem považoval za příčinu, bylo důsledkem; to, co jsem považoval za výsledek, bylo motivem". |
-| **[EA-5.3.10](@/kompendium/techniques/ea-5-3-10-perspektivni-substituce.md)** | Polyhistorická konfuzia | Subjekt je veden k akceptaci multiplicitních vzájemně inkompatibilních autobiografií jako "různých legitimních interpretací téhož". Eliminuje samotnou možnost autobiografické pravdy. |
-
-## Klastr C — Rolová fragmentace
-
-Klastr operuje na **sociální pozicionalitě** — souboru rolí a vztahů, prostřednictvím kterých subjekt funguje v sociálním poli.
-
-| Kód | Název | Kompaktní deskripce |
-|-----|-------|---------------------|
-| **[EA-5.3.11](@/kompendium/techniques/ea-5-3-11-axiologicka-inverze.md)** | Rolová dezintegrace | Postupné rozkládání koherence mezi rolemi (profesní, rodinná, partnerská). Subjekt zachová jednotlivé role, ale ztratí schopnost je integrovat do koherentní identity. Klinický obraz: kontextuálně-fragmentovaný self bez integrativní vazby. |
-| **[EA-5.3.12](@/kompendium/techniques/ea-5-3-12-relacni-restrukturalizace.md)** | Pozičně-rolová substituce | Vynucená záměna pozice subjektu v jedné nebo více klíčových relacích (mentor/adept, terapeut/klient, rodič/dítě). Generuje dezorientaci v sociální matrici. |
-| **EA-5.3.13** | Sociální pseudo-emancipace | Subjekt je veden k rejekci všech předchozích rolových vazeb jako "určení zvenčí" a k prohlášení nové identity jako "autentické". Nová identita je ovšem rovněž externě prefabrikována — subjekt nemá nástroje toto detekovat. |
-| **[EA-5.3.14](@/kompendium/techniques/ea-5-3-14-somaticka-rekodifikace.md)** | Statusová inverze | Manipulace s vnímáním vlastního sociálního statusu prostřednictvím systematické feedbackové dezorientace. Subjekt ztrácí schopnost posoudit, zda je v specifickém kontextu výše/níže/rovnocenně postaven. |
-| **[EA-5.3.15](@/kompendium/techniques/ea-5-3-15-mentalizacni-disrupce.md)** | Identitární kontextová singularizace | Subjekt je veden k akceptaci, že jeho "skutečná identita" je manifestována pouze v jednom specifickém kontextu (typicky kontextu manipulátora), a všechny ostatní kontexty jsou "deformující". |
-
-## Klastr D — Tělesná identitární disociace
-
-Klastr zasahuje **embodiment** — tělesnou kontinuitu, která je fenomenologicky fundamentem identitární kontinuity (Merleau-Ponty).
-
-| Kód | Název | Kompaktní deskripce |
-|-----|-------|---------------------|
-| **[EA-5.3.16](@/kompendium/techniques/ea-5-3-16-fenomenologicka-rekonstituce.md)** | Tělesná desidentifikace | Indukce zkušenosti, že "mé tělo není mé" — formálně rozpoznáno jako vlastní, ale ztratilo intimní vazbu. Distinktní od [depersonalizace](@/glossary/depersonalizace.md) tím, že je epistemicky generována. |
-| **[EA-5.3.17](@/kompendium/techniques/ea-5-3-17-existencialni-rekonfigurace.md)** | Kinestetická dezorientace | Systematická destabilizace tělesného schématu prostřednictvím inkonzistentních feedbackových smyček. Subjekt ztrácí jistotu ohledně tělesných úkonů, které byly před expozicí automatizované. |
-| **EA-5.3.18** | Genderová identitární destabilizace | Vynucená rekurzivní rekonfigurace genderové identity bez ohledu na predispozice subjektu. Distinktní od legitimní genderové exploraci tím, že je externě indukovaná destruktivně. Etická citlivost: nesmí být zaměňováno s legitimními formami genderové exprese. |
-| **[EA-5.3.19](@/kompendium/techniques/ea-5-3-19-autobiograficka-amnestizace.md)** | Tělesná hyperreflexivní fragmentace | Indukce stavu, v němž je subjekt současně přítomen v multiplicitních tělesných perspektivách (první osoba, třetí osoba, pohled "shora"). Generuje kompletní embodimentovou dezorientaci. |
-| **[EA-5.3.20](@/kompendium/techniques/ea-5-3-20-self-vector-rotation.md)** | Sensori-motorická inverze | Manipulace s vazbou mezi senzorickou aferencí a motorickou eferencí prostřednictvím inkonzistentních ujištění a fenomenologické sugesce. Klinicky vzácné, dokumentováno pouze v laboratorních kontextech. |
-
-## Klastr E — Temporálně-vývojová inverze
-
-Klastr cílí na **ontogenetickou kontinuitu** — zkušenost vlastního vývoje od dětství po současnost.
-
-| Kód | Název | Kompaktní deskripce |
-|-----|-------|---------------------|
-| **[EA-5.3.21](@/kompendium/techniques/ea-5-3-21-character-transposition.md)** | Ontogenetická regrese | Indukce stavu, v němž subjekt prožívá současnost jako návrat do vývojově ranější fáze. Distinktní od klinické regrese tím, že je epistemicky generovaná, ne afektivně. |
-| **EA-5.3.22** | Vývojová inverze | Subjekt je veden k rekonstrukci své vývojové sekvence v opačném směru: "to, co jsem dnes, je nezralejší než to, co jsem byl jako dítě". Generuje persistentní fragmentaci časové sebe-percepce. |
-| **[EA-5.3.23](@/kompendium/techniques/ea-5-3-23-konstitutivni-mytologizace.md)** | Život-fázová substituce | Subjekt je veden k akceptaci, že je v jiné životní fázi, než jak ji formálně registruje (např. mladý adult prožívá sebe jako stárnoucího). Spojeno s gerontofobní/juvenofobní symptomatikou. |
-| **[EA-5.3.24](@/kompendium/techniques/ea-5-3-24-proto-self-rozklad.md)** | Genealogická dezorientace | Manipulace s vnímáním vlastní genealogické pozice (rodič/dítě/sourozenec) prostřednictvím systematické rolové substituce v rodinných interakcích. |
-| **[EA-5.3.25](@/kompendium/techniques/ea-5-3-25-minimal-self-deformace.md)** | Mortalitní temporální kolaps | Indukce zkušenosti, že subjekt je "již zemřel" nebo "nikdy neexistoval", při zachování formální realitní validace. Jeden z nejintenzivnějších stavů katalogizovaných v kapitole. |
-
-## Klastr F — Rekurzivní hypertransformace
-
-Poslední klastr je integrativní. Techniky 5.3.26 až 5.3.29 kombinují předchozí klastry do koherentních sekvencí; technika 5.3.28 představuje **vrcholovou kompozici**.
-
-| Kód | Název | Kompaktní deskripce |
-|-----|-------|---------------------|
-| **[EA-5.3.26](@/kompendium/techniques/ea-5-3-26-core-self-fraktura.md)** | Iterativní self-substituce | Sekvenční aplikace identitárních substitucí (klastr A) v rekurzivních smyčkách, kde každá nová identita je následně prohlášena za "ne-skutečnou" a substituována další. Po cca 5–7 iteracích subjekt ztrácí kapacitu spočinout v jakékoli identitární konfiguraci. |
-| **[EA-5.3.27](@/kompendium/techniques/ea-5-3-27-ego-skeletalni-redukce.md)** | Hypertransformativní spirála | Akcelerující sekvence rolových, autobiografických a tělesných transformací bez stabilizačních pauz. Subjekt prožívá *transformativní vertigo* — přetrvávající pocit pádu mezi identitárními konfiguracemi. |
-| **EA-5.3.28** | Vrcholová hypertransformace | Integrativní vrcholová technika: simultánní aktivace klastrů A–E v koordinované sekvenci konvergující k bodu **identitární anihilace**. Klinický obraz srovnatelný s [konvergentní singularitou EA-5.1.28](@/kompendium/techniques/ea-5-1-28-konvergentni-singularita.md), ale s jádrem v identitárních strukturách spíše než reflexivních. |
-| **[EA-5.3.29](@/kompendium/techniques/ea-5-3-29-simulakralni-self-substituce.md)** | Post-transformativní stabilizační past | Fáze následující po 5.3.28: subjekt přijímá první nabízenou identitu jako "konečně pravou", aniž by měl epistemické nástroje pro její evaluaci. Generuje extrémní vulnerabilitu vůči indoktrinaci. |
-| **[EA-5.3.30](@/kompendium/techniques/ea-5-3-30-konvergentni-hypertransformace.md)** | Permanentní hypertransformativní režim | Vzácný post-singulární stav, v němž subjekt nepřijímá žádnou stabilní identitu, ale persistentně osciluje mezi konfiguracemi. Klinicky neodlišitelný od chronické DID; etiologicky distinktní. |
+Neisser (1988) rozlišil pět druhů sebepoznání: ekologické, interpersonální, rozšířené v čase, soukromé a pojmové. Rozlišení slouží jako mapa: stránky této rodiny popisují tlak na pojmové a časově rozšířené sebepoznání, zatímco tělesná a vztahová vrstva jsou podle Neissera samostatnými zdroji informace o sobě. Ekologické já vnímá samo sebe skrze pohyb v prostředí a interpersonální já skrze vzájemnost s druhými, tedy bez prostřednictví vyprávění, které popisovaný tlak přepisuje. Zda jde o klinický stav, například [disociaci](@/glossary/disociace.md), posuzuje vždy klinik; kniha tyto stránky nepojímá jako diagnostická kritéria.
 
 ## Fenomenologický profil
 
@@ -130,7 +64,7 @@ Klinik musí rozlišit syndromový obraz EA-5.3.* od:
 | Stav | Distinktivní znak |
 |------|-------------------|
 | **DID (DSM-5 300.14, ICD-11 6B64)** | DID má rané traumatické etiologie; EA-5.3.* je epistemicky generována v adultním věku |
-| **Depersonalizační porucha** | Depersonalizace je primárně somatická; EA-5.3.* identitární |
+| **Depersonalizační porucha** | [Depersonalizace](@/glossary/depersonalizace.md) je primárně somatická; EA-5.3.* identitární |
 | **Hraniční porucha osobnosti (BPD)** | BPD je strukturálně chronická; EA-5.3.* akutní reaktivní |
 | **Disociativní fuga** | Fuga je kompletní; EA-5.3.* je fragmentační, nikoli substituční |
 | **Posttraumatická porucha (PTSD)** | PTSD má specifickou traumatickou událost; EA-5.3.* je strukturálně-procesuální |
@@ -155,11 +89,19 @@ Jelikož techniky této kapitoly mohou indukovat klinické stavy připomínajíc
 
 ## Závěr
 
-Kapitola 8 katalogizuje **30 hypertransformativních protokolů** organizovaných do šesti klastrů (identitární substituce, autobiografická dekonstrukce, rolová fragmentace, tělesná disociace, temporálně-vývojová inverze, rekurzivní hypertransformace). Vrcholovou technikou je **EA-5.3.28 — Vrcholová hypertransformace**, integrativní kompozice konvergující k identitární anihilaci.
+Kapitola 8 popisuje {{ cat.families["5.3"] | length }} hypertransformativních protokolů rodiny EA-5.3, které uvádí výše oddíl Techniky EA-5.3.
 
 Techniky exploitují strukturní mechanismy identitární kontinuity dokumentované v post-strukturalistické kritice subjektu (Foucault, Butler), psychoanalýze (Lacan), fenomenologii tělesnosti (Merleau-Ponty) a klinické literatuře disociačních poruch. Klinický obraz vyžaduje distinktní diagnostiku odlišující jej od DID, depersonalizace, BPD, fugy a PTSD.
 
 V následující [Kapitole 9](@/kompendium/05-ultramari-techniky/kapitola-9.md) přechází taxonomie na **paradoxální metaanihilační protokoly** — sebevztažné paradoxy destabilizující rámce evaluace, v nichž identita operuje.
+
+## Literatura
+
+- Conway, M. A., & Pleydell-Pearce, C. W. (2000). The construction of autobiographical memories in the self-memory system. *Psychological Review*, 107(2), 261–288.
+- Damasio, A. (1999). *The Feeling of What Happens: Body and Emotion in the Making of Consciousness*. New York: Harcourt Brace.
+- Gallagher, S. (2000). Philosophical conceptions of the self: Implications for cognitive science. *Trends in Cognitive Sciences*, 4(1), 14–21.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: W. W. Norton.
+- Neisser, U. (1988). Five kinds of self-knowledge. *Philosophical Psychology*, 1(1), 35–59.
 
 ## Související
 

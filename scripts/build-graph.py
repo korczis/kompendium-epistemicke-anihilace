@@ -38,7 +38,7 @@ import tomllib
 
 sys.dont_write_bytecode = True  # no __pycache__ in the checkout
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
-from ia_model import ROOT, load_pages, load_terms  # noqa: E402
+from ia_model import ROOT, family_names, load_pages, load_terms  # noqa: E402
 
 OUT = ROOT / "static" / "data"
 SCHEMA = "kompendium-graph/v2"
@@ -166,18 +166,13 @@ def build() -> dict:
     return {"graph.json": graph, "metrics.json": metrics, "ia.json": ia_report(pages)}
 
 
-FAMILY_HEADING = re.compile(r"^##\s+Kapitola\s+(\d+)\s+[—–-]\s+(.+?)\s*$", re.M)
 
 
 def families(pages: list) -> dict:
-    """EA family code -> name, derived: the chapter headings of the register of techniques
-    ("## Kapitola 1 — Akademické techniky"), else the most common extra.ea_category on the
-    family's technique pages. A family with no derivable name is left out, never guessed."""
-    names = {}
-    register = ROOT / "content" / "kompendium" / "08-prilohy" / "rejstrik-technik.md"
-    if register.exists():
-        for num, name in FAMILY_HEADING.findall(register.read_text(encoding="utf-8")):
-            names[f"EA-{int(num)}"] = re.sub(r"\s*\(.*?\)\s*$", "", name).strip()
+    """EA chapter code -> name, from data/families.toml (ia_model.family_names, ADR 0015), else
+    the most common extra.ea_category on the chapter's technique pages. A chapter with no name in
+    either is left out, never guessed."""
+    names = {f"EA-{c}": n for c, n in family_names()[0].items()}
     votes = collections.defaultdict(collections.Counter)
     for p in pages:
         m = re.match(r"kompendium/techniques/ea-(\d+)-", p["path"])
@@ -214,22 +209,13 @@ def ia_report(pages: list) -> dict:
 
 CATEGORIES = ROOT / "data" / "categories.toml"
 CATALOGS = ROOT / "data" / "catalogs.toml"
-SUBFAMILY_HEADING = re.compile(r"^###\s+(\d+)\.(\d+)\s+(.+?)\s*$", re.M)
-SUBFAMILY_ROW = re.compile(r"^\|\s*`EA-(\d+)\.(\d+)`\s*\|\s*([^|]+?)\s*\|", re.M)
 CODED = re.compile(r"(?:kompendium/techniques/ea|kompendium/quick-reference/qr-ea)-(\d+)-(\d+)")
 
 
 def subfamily_names() -> dict:
-    """EA-N.M -> name, from the technique register: "### 1.1 Akvizice poznání" headings and
-    the "| `EA-9.1` | Jazykové modely: … |" rows of its group tables. No name is guessed."""
-    register = ROOT / "content" / "kompendium" / "08-prilohy" / "rejstrik-technik.md"
-    names = {}
-    if register.exists():
-        text = register.read_text(encoding="utf-8")
-        for regex in (SUBFAMILY_HEADING, SUBFAMILY_ROW):
-            for fam, sub, name in regex.findall(text):
-                names.setdefault(f"EA-{int(fam)}.{int(sub)}", re.sub(r"`", "", name).strip())
-    return names
+    """EA-N.M -> name, from data/families.toml (ia_model.family_names, ADR 0015). No name is
+    guessed: a family without a row keeps its code."""
+    return {f"EA-{f}": n for f, n in family_names()[1].items()}
 
 
 def categorise(pages: list, nodes: list, fams: dict) -> dict:

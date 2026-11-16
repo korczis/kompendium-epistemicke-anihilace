@@ -8,6 +8,7 @@ description = "Vzorec, v němž se vzpomínky člověka opakovaně přepisují z
 tags = ["kompendium", "techniques", "ea-1-2", "pamet", "gaslighting"]
 
 [extra]
+exploitation = "Autorita nad minulostí a opakování, které zvyšuje pocit pravdivosti"
 category = "kompendium-technique"
 related_terms = ["ea-4-1-gaslighting", "ea-1-3-4-indukovana-pochybnost", "ea-5-3-2-autobiograficka-dekonstrukce", "ea-5-3-8-mnemonicka-rekonfigurace", "ea-5-3-19-autobiograficka-amnestizace", "ea-1-2-2-falesna-ekvivalence"]
 ea_code = "EA-1.2.5"

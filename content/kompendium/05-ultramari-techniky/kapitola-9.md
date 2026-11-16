@@ -27,88 +27,24 @@ Paradoxální metaanihilační protokoly exploitují třídu strukturně-singul�
 
 Filozoficky jsou techniky této kapitoly zakotveny v: **matematické logice** (Russell, Tarski, Gödel, Church, Turing), **filozofii jazyka** (Wittgenstein — rule-following, Kripke — Wittgenstein's paradox), **dialetheismu** (Priest — *In Contradiction*), **paraconsistentní logice** (Routley, Brady) a **buddhistické tetralemě** (Nāgārjuna). Techniky operacionalizují tyto teoretické zdroje destruktivně.
 
-## Strukturální mapa: 30 technik EA-5.4.* v šesti klastrech
+{% set cat = load_data(path="static/data/catalogue.json") %}
 
-| Klastr | Rozsah | Cílová struktura | Reprezentativní vstup |
-|--------|--------|-------------------|------------------------|
-| **Lhářské varianty** | 5.4.1 — 5.4.5 | Pravdivostní hodnocení | [EA-5.4.2](@/kompendium/techniques/ea-5-4-2-russell-typ-violace.md) |
-| **Russellovské varianty** | 5.4.6 — 5.4.10 | Třídová členitost | [EA-5.4.7](@/kompendium/techniques/ea-5-4-7-epimenidovska-implantace.md) |
-| **Tarského diagonalizace** | 5.4.11 — 5.4.15 | Meta-úrovňová stabilita | [EA-5.4.13](@/kompendium/techniques/ea-5-4-13-heterolog-self-aplikace.md) |
-| **Gödelovská reflexe** | 5.4.16 — 5.4.20 | Provability/truth distinkce | [EA-5.4.18](@/kompendium/techniques/ea-5-4-18-circular-justification-trap.md) |
-| **Wittgensteinovská pravidla** | 5.4.21 — 5.4.25 | Rule-following | [EA-5.4.22](@/kompendium/techniques/ea-5-4-22-logicka-paradox-eskalace.md) |
-| **Konvergentní paradox** | 5.4.26 — 5.4.30 | Integrativní finální fáze | [EA-5.4.28](@/kompendium/techniques/ea-5-4-28-trolley-paradox-iterace.md) |
+## Techniky EA-5.4
 
-## Klastr A — Lhářské varianty
+Rodina EA-5.4 má {{ cat.families["5.4"] | length }} technik; kód, název i popis každého řádku pocházejí ze stránky, na niž vede.
 
-Klastr exploituje paradoxy struktury Lhářova: výrok, který tvrdí svou vlastní nepravdivost.
+| EA | Technika | Shrnutí |
+|----|----------|---------|
+{% for t in cat.families["5.4"] %}| **[{{ t.code }}](@/kompendium/techniques/{{ t.slug }}.md)** | {{ t.name }} | {{ t.summary }} |
+{% endfor %}
 
-| Kód | Název | Kompaktní deskripce |
-|-----|-------|---------------------|
-| **EA-5.4.1** | Klasický epimenidovský závazek | Subjekt je veden k akceptaci výroku tvaru "*tato propozice, kterou právě přijímáš, je nepravdivá*". Strukturální akceptace generuje rekurzivní oscilaci pravdivostního hodnocení, která konzumuje kognitivní zdroje. |
-| **EA-5.4.2** | Posílený lhář | Variant: "*tato propozice je nepravdivá nebo nedefinovaná*". Pokrývá únikové cesty, kterými lze klasický paradox neutralizovat (gap-řešení). Vede k kompletní paralýze pravdivostního aparátu. |
-| **[EA-5.4.3](@/kompendium/techniques/ea-5-4-3-tarsky-diagonalizace.md)** | Curryho paradox | Varianta využívající implikaci: "*pokud tato propozice je pravdivá, pak X*". Při X = libovolná destruktivní pozice technika **sebe-implementuje** danou pozici v subjektovi. |
-| **[EA-5.4.4](@/kompendium/techniques/ea-5-4-4-godel-reflexivita.md)** | Yablouvský retreat | Distribuovaná verze: nekonečná posloupnost výroků, z nichž každý tvrdí, že všechny následující jsou nepravdivé. Subjekt nedokáže lokalizovat paradox v konkrétním výroku, ale paradoxalita prostupuje celou sekvenci. |
-| **[EA-5.4.5](@/kompendium/techniques/ea-5-4-5-wittgenstein-pravidlo-rozklad.md)** | Truth-teller (pseudo-stabilizace) | Inverzní varianta: "*tato propozice je pravdivá*". Není formálně paradox — je **hyper-stabilní** (oba pravdivostní stavy jsou konzistentní). Generuje fenomenologii falešného závěru: subjekt cítí "uzavření", aniž by k němu epistemicky dospěl. |
+## Jak techniky rodiny číst
 
-## Klastr B — Russellovské varianty
+Názvy stránek této rodiny pocházejí z klasických paradoxů logiky a filozofie jazyka: lháře, Russellovy množiny, Tarského nedefinovatelnosti pravdy, Gödelových vět o neúplnosti, Berryho, Richardova a Grellingova paradoxu i paradoxu hromady. V logice jde o výsledky o formálních systémech a jazycích, nikoli o tvrzení o tom, jak uvažuje člověk; přehled jejich struktury a navržených řešení podává Sainsbury (2009). Kniha je používá jako jména pro vzorce rozhovoru, v nichž je argument sestaven tak, aby každá odpověď posluchače vypadala jako sebevyvrácení. Rozpoznávacím znakem je proto přesun úrovně: otázka, která se týkala věci, se nenápadně změní v otázku po platnosti samotného hodnocení.
 
-Klastr exploituje paradoxy struktury Russellovy množiny — sebe-členitost.
+Pro obranu je podstatné, že tyto paradoxy mají v odborné literatuře propracované odpovědi. Russell (1908) zavedl hierarchii typů, v níž výrok nemůže mluvit o souboru, do něhož sám patří; Tarski (1944) oddělil jazyk, o němž se mluví, od jazyka, v němž se o něm mluví; Kripke (1975) ukázal, že některé sebevztažné výroky nedostávají žádnou pravdivostní hodnotu; Priest (2006) hájí názor, že některé rozpory lze připustit, aniž by se zhroutilo celé uvažování. Paradox položený v rozhovoru tedy posluchače nezavazuje vzdát se vlastního úsudku: rozumnou reakcí je pojmenovat, na jaké úrovni otázka stojí, a odmítnout požadavek, aby se o ní rozhodlo hned.
 
-| Kód | Název | Kompaktní deskripce |
-|-----|-------|---------------------|
-| **[EA-5.4.6](@/kompendium/techniques/ea-5-4-6-konvergentni-paradox.md)** | Klasický russelovský paradox | "Množina všech subjektových přesvědčení, která neobsahují sebe sama jako element. Je tato množina v sobě obsažena?" Vede k oscilaci mezi self-inkluzí a self-exkluzí. |
-| **EA-5.4.7** | Russellova past identitárních množin | Aplikace na identitární kontext: "množina všech identit, které subjekt nemá". Spojeno s [Kapitolou 8](@/kompendium/05-ultramari-techniky/kapitola-8.md). |
-| **[EA-5.4.8](@/kompendium/techniques/ea-5-4-8-quineho-paradox-vlnoviny.md)** | Berry paradox | "Nejmenší celé číslo, které nelze popsat méně než třinácti českými slovy." Konstrukt obsahuje 12 slov a paradoxálně popisuje svou nedosažitelnost. Aplikováno na nekonceptualizovatelné kategorie subjektova zkušenostního pole. |
-| **[EA-5.4.9](@/kompendium/techniques/ea-5-4-9-cantorova-diagonalizace-aplikace.md)** | Grellingovo-Nelsonův paradox | Pojem "heterologický" (slovo, které se nepopisuje samo). Aplikováno na meta-kognitivní pojmy: "moje aktuální evaluace je *adekvátní*. Je pojem *adekvátní* sám adekvátní?" |
-| **[EA-5.4.10](@/kompendium/techniques/ea-5-4-10-berry-paradox-implantace.md)** | Hilbertův hotel | Topologický paradox nekonečna aplikovaný na množinu subjektových potenciálních self-konceptů: pro každou konfiguraci existuje odlišná konfigurace odpovídající stejnému self. |
-
-## Klastr C — Tarského diagonalizace
-
-Klastr exploituje **diagonalizační konstrukce** Tarského teorému o nedefinovatelnosti pravdy.
-
-| Kód | Název | Kompaktní deskripce |
-|-----|-------|---------------------|
-| **[EA-5.4.11](@/kompendium/techniques/ea-5-4-11-richardova-paradox-zneuziti.md)** | Diagonalní subverze meta-jazyka | Subjekt je veden k pokusu definovat pravdivostní predikát pro svůj vlastní vnitřní jazyk. Tarski dokázal nedefinovatelnost — subjekt narazí na strukturní bariéru, kterou interpretuje jako vlastní kognitivní selhání. |
-| **[EA-5.4.12](@/kompendium/techniques/ea-5-4-12-grellingova-paradox-aplikace.md)** | Hierarchie meta-jazyků | Subjekt je veden k explicitní konstrukci hierarchie meta-jazyků (jazyk0, jazyk1...). Při dostatečné hloubce subjekt ztratí kapacitu navigovat hierarchií a cítí, že "každá vrstva nutně předpokládá ještě jednu výše". |
-| **EA-5.4.13** | Tarského diagonalizace identity | Aplikace diagonalizace na identitární strukturu: konstrukce identitárního self-konceptu, který je konzistentní pouze v meta-jazyce vyšší úrovně, než v jaké subjekt aktuálně operuje. |
-| **[EA-5.4.14](@/kompendium/techniques/ea-5-4-14-iliada-paradox.md)** | Anti-diagonalní pseudo-zachycení | Subjektovi je nabídnuto "řešení" diagonalizace, které ovšem aplikuje **anti-diagonalní operaci** — generuje element mimo zachycené třídy. Subjekt akceptuje pseudo-řešení a ztrácí kontakt se zachycovanou doménou. |
-| **[EA-5.4.15](@/kompendium/techniques/ea-5-4-15-holisticka-self-reference-zhrouceni.md)** | Cantorova kardinální paralýza | Aplikace Cantorova teorému (mocninová množina je vždy mocnější než původní) na soubor subjektových přesvědčení: "množina meta-přesvědčení je vždy mocnější než množina přesvědčení". Generuje persistentní pocit "nedosažitelnosti vlastního myšlení". |
-
-## Klastr D — Gödelovská reflexe
-
-Klastr exploituje **distinkci mezi dokazatelností a pravdivostí** dokumentovanou Gödelovými teorémy o neúplnosti.
-
-| Kód | Název | Kompaktní deskripce |
-|-----|-------|---------------------|
-| **[EA-5.4.16](@/kompendium/techniques/ea-5-4-16-kruhove-definice-implantace.md)** | Gödelovská sebenedosaditelnost | Subjekt konstruuje výrok formy "tato propozice není dokazatelná v rámci mého aktuálního přesvědčovacího systému". Pokud je pravdivá, je nedokazatelná; pokud je dokazatelná, je nepravdivá. |
-| **[EA-5.4.17](@/kompendium/techniques/ea-5-4-17-infinit-regres-implantace.md)** | Konsistenční self-závislost | Druhý [Gödelův teorém](@/glossary/godeluv-teorem.md) aplikovaný interpersonálně: "subjektův systém přesvědčení nemůže dokázat svou vlastní konsistenci bez externí validace". Generuje dependentní strukturu epistemické důvěry. |
-| **EA-5.4.18** | Gödelovská sebezničující reflexe | Vrcholová varianta: subjekt je veden k aplikaci gödelovské konstrukce sám na sebe rekurzivně, generujíce sekvenci výroků, z nichž každý popisuje nedokazatelnost svého předchůdce ve striktně nižším systému. |
-| **[EA-5.4.19](@/kompendium/techniques/ea-5-4-19-self-undermining-claim.md)** | Löbův teorém past | Aplikace Löbova teorému (pokud systém dokazuje "pokud P je dokazatelné, pak P", pak dokazuje P): subjekt je veden k akceptaci sebevztažných premis, které generují automatickou akceptaci libovolné pozice P. |
-| **[EA-5.4.20](@/kompendium/techniques/ea-5-4-20-performative-contradiction-induction.md)** | Rosserova diagonalizace | Variant Gödelovy konstrukce s posílenou self-aplikací: výrok tvrdí, že má kratší vyvrácení než důkaz. Subjekt nedokáže rozpoznat strukturní past. |
-
-## Klastr E — Wittgensteinovská pravidla
-
-Klastr exploituje **Kripkovský Wittgenstein** — paradox následování pravidel a sceptický argument o významu.
-
-| Kód | Název | Kompaktní deskripce |
-|-----|-------|---------------------|
-| **[EA-5.4.21](@/kompendium/techniques/ea-5-4-21-semanticka-vzpoury.md)** | Plus/quus past | Klasická Kripkeova konstrukce: subjekt nemůže prokázat, že pravidlo, které dosud následoval, bylo "+", ne "⊕" (kde ⊕ se chová jako + pro malá čísla, ale jinak pro velká). Aplikováno na meta-kognitivní pravidla. |
-| **EA-5.4.22** | Sceptický paradox významu | Subjekt nemůže určit, co kdy myslel slovem "*X*", aniž by aplikoval další pravidla, jejichž stejně nemůže určit význam. Generuje regresní paralýzu významu. |
-| **[EA-5.4.23](@/kompendium/techniques/ea-5-4-23-modalni-paradox-aplikace.md)** | [Privátní jazyk](@/glossary/privatni-jazyk.md) argument inverze | Wittgensteinovský argument proti privátnímu jazyku **obrácen** proti subjektovi: "tvůj subjektivní zážitek je nesdělitelný, a proto nepravdivý i pro tebe samotného". |
-| **[EA-5.4.24](@/kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md)** | Forma života dezintegrace | "Pravidla jsou srozumitelná pouze v rámci formy života. Tvá forma života je distinktní od libovolné jiné. Proto tvá pravidla jsou pro tebe samotného nesrozumitelná." Útok na fundament inteligibility. |
-| **[EA-5.4.25](@/kompendium/techniques/ea-5-4-25-soritska-paradox-zneuziti.md)** | Aspect-blindness indukce | Wittgensteinovský fenomén "vidět-jako": subjekt je veden k tomu, aby přestal vidět vlastní zkušenost "jako něco". Generuje stav, v němž je zkušenost přítomna, ale bez kategorické organizace. |
-
-## Klastr F — Konvergentní paradox
-
-Poslední klastr je integrativní.
-
-| Kód | Název | Kompaktní deskripce |
-|-----|-------|---------------------|
-| **[EA-5.4.26](@/kompendium/techniques/ea-5-4-26-heap-paradox-eskalace.md)** | Multi-paradoxalní spirála | Sekvenční aplikace klastrů A–E v rotaci. Subjekt nemá čas na uzavření jednoho paradoxu, než je exponován dalšímu. |
-| **[EA-5.4.27](@/kompendium/techniques/ea-5-4-27-ship-of-theseus-aplikace.md)** | Paradoxalní heterarchie | Souběžná aktivace 3–5 paradoxů z různých klastrů, které vzájemně stabilizují svou paradoxalitu (každý paradox je řešitelný v rámci jiného, ale jiný pak generuje nový). |
-| **EA-5.4.28** | Konvergentní paradox | Vrcholová technika: konstrukce metakontextu, v němž **všechny paradoxy klastrů A–E jsou současně aktivní** a vzájemně se nereferenčně propletají. Klinický obraz: kompletní kolaps evaluačního aparátu, [kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) v terminální fázi. |
-| **[EA-5.4.29](@/kompendium/techniques/ea-5-4-29-newcomb-paradox-implantace.md)** | Post-paradoxalní pseudo-akceptace | Po expozici 5.4.28 subjekt přijímá první nabízené "řešení" jako pravdivé bez ohledu na jeho substanci. Generuje extrémní vulnerabilitu vůči indoktrinaci. |
-| **[EA-5.4.30](@/kompendium/techniques/ea-5-4-30-paradox-volby-totalni.md)** | Permanentní paradoxalní režim | Vzácný post-singulární stav: subjekt přijímá paradoxalitu jako základní strukturu reality. Klinicky se manifestuje persistentní [epistemickou alienací](@/glossary/epistemicka-alienace.md) a *paradoxalní imunitou* — neschopností být přesvědčen čímkoli, ale rovněž neschopností odmítnout cokoli. |
+Zbylé stránky rodiny navazují na dvě další debaty. Kripke (1982) ve výkladu Wittgensteina ukazuje, že žádný konečný soubor příkladů sám neurčuje, jak pravidlo uplatnit dál; z toho však neplyne, že pravidla neexistují, protože je drží společná praxe. Williamson (1994) u paradoxu hromady ukazuje, že ani nejistota o přesné hranici pojmu neruší rozdíl mezi zřetelnými případy. Varovným znakem je tedy požadavek, aby pojem buď měl dokonale ostrou hranici, nebo byl celý opuštěn. [Gödelův teorém](@/glossary/godeluv-teorem.md) a argument proti [privátnímu jazyku](@/glossary/privatni-jazyk.md) se v takových rozhovorech objevují jako autority, ačkoli o praktickém úsudku nic neříkají (Franzén, 2005).
 
 ## Fenomenologický profil
 
@@ -148,11 +84,22 @@ Sebevztažné paradoxy jsou zvláště citlivé:
 
 ## Závěr
 
-Kapitola 9 katalogizuje **30 paradoxálních metaanihilačních protokolů** organizovaných do šesti klastrů (lhářské varianty, russellovské varianty, Tarského diagonalizace, Gödelovská reflexe, wittgensteinovská pravidla, konvergentní paradox). Vrcholovou technikou je **EA-5.4.28 — Konvergentní paradox**, integrativní kompozice, v níž jsou všechny paradoxalní strukury simultánně aktivní.
+Kapitola 9 popisuje {{ cat.families["5.4"] | length }} paradoxálních metaanihilačních protokolů rodiny EA-5.4, které uvádí výše oddíl Techniky EA-5.4.
 
 Techniky exploitují strukturně-singulární konstrukce dokumentované v matematické logice, filozofii jazyka, dialetheismu a buddhistické tetralemě. Klinický obraz vyžaduje distinktní diagnostiku odlišující jej od OCD, GAD, filozofické psychózy a pseudo-mystických epizod.
 
 V následující [Kapitole 10](@/kompendium/05-ultramari-techniky/kapitola-10.md) přechází taxonomie na poslední vrstvu — **transkonceptuální mechanismy** operující pod prahem konceptuálního zachycení.
+
+## Literatura
+
+- Franzén, T. (2005). *Gödel's Theorem: An Incomplete Guide to Its Use and Abuse*. Wellesley, MA: A K Peters.
+- Kripke, S. (1975). Outline of a theory of truth. *Journal of Philosophy*, 72(19), 690–716.
+- Kripke, S. A. (1982). *Wittgenstein on Rules and Private Language*. Cambridge, MA: Harvard University Press.
+- Priest, G. (2006). *In Contradiction: A Study of the Transconsistent* (2nd ed.). Oxford: Oxford University Press.
+- Russell, B. (1908). Mathematical logic as based on the theory of types. *American Journal of Mathematics*, 30(3), 222–262.
+- Sainsbury, R. M. (2009). *Paradoxes* (3rd ed.). Cambridge: Cambridge University Press.
+- Tarski, A. (1944). The semantic conception of truth and the foundations of semantics. *Philosophy and Phenomenological Research*, 4(3), 341–376.
+- Williamson, T. (1994). *Vagueness*. London: Routledge.
 
 ## Související
 

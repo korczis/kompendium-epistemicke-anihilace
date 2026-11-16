@@ -71,6 +71,42 @@ So the include is applied, the arrangement is preserved, and the editorial choic
 owner. The 19 thin pages are not listed here: `scripts/detail-gap.py` is the derived worklist and
 all 19 are in its `gap 0-100` bucket.
 
+## The real size of the question: 788 pages, not 155
+
+The four blocks above are the largest, not the whole class. Measured the same day over all 94
+charged blocks, asking of each whether its carriers lie inside one family or section:
+
+| | blocks | carrier pages |
+|---|---|---|
+| confined to one family or section | **69** | 788 |
+| spanning several families | 25 | 483 |
+
+If every single-family block became a partial, `duplicate-passage` would go **252 → 110** and 25
+blocks would remain. The 69 collapse into **29 distinct carrier sets** — 53 of them share a set
+with at least one other block — so that wave is 29 partials rather than 69, and blocks with an
+identical carrier set should share one.
+
+**The test is not family confinement.** Being confined to one family is evidence that a block is
+framing rather than page content; it is not the criterion. The criterion is whether the text says
+anything about the page it sits on, and a block identical on 40 pages across 4 families says
+nothing page-specific by construction. So the 25 cross-family blocks are not excluded for spanning
+families — they are *stronger* include candidates, at book level rather than family level:
+
+- `Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly…` — 40 pages, 4 families
+- `Tento článek **nemá operační charakter**: jeho účelem je výhradně defenzivní rozpoznání…` —
+  25 pages, 3 families
+- `Detekce vyžaduje **diferenciální diagnózu**…` — 25 pages, 3 families
+- `Co může klinik nebo supervizor pozorovat, pokud se technika manifestuje…` — 25 pages, 3 families
+
+**The second of those is the book's own defensive framing, and it will not be moved without the
+owner.** Where a page states that it has no operational character and exists for defensive
+recognition is a safety decision about the book, not a maintenance decision about duplication. The
+same holds for the differential-diagnosis and observer notices. None of the 25 is touched.
+
+This is why the question is the owner's rather than a sweep's: at 155 pages "the include preserves
+today's arrangement" is a fair description of a maintenance fix, and at 788 pages across every
+family of the book it is a proposal about how the book repeats itself.
+
 ## When the owner answers
 
 The answer becomes an ADR with the owner's words verbatim, the session id and the time, the way

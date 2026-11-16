@@ -1,6 +1,6 @@
 +++
 title = "3.1 Akademické techniky intelektuální manipulace"
-description = "Systematický přehled 13 pokročilých technik intelektuální manipulace prezentovaných pod rouškou legitimního akademického diskurzu — kódy EA-1.1.1 až EA-1.5.2."
+description = "Systematický přehled pokročilých technik intelektuální manipulace prezentovaných pod rouškou legitimního akademického diskurzu — kódy EA-1.*."
 weight = 1
 insert_anchor_links = "right"
 
@@ -106,9 +106,9 @@ Miranda Fricker rozlišuje **testimoniální** a **hermeneutickou** epistemickou
 
 Distinktním přínosem taxonomie EA-1 oproti Frickerové je **mikroúroveň techniky** (Frickerová operuje primárně na strukturální úrovni nespravedlnosti) a **integrace neverbálních modalit** (paralingvistika a proxemika).
 
-{% set cat = load_data(path="static/data/catalogue.json") %}{% set n = cat.families["1.1"] | length + cat.families["1.2"] | length + cat.families["1.3"] | length + cat.families["1.4"] | length + cat.families["1.5"] | length %}
+{% set cat = load_data(path="static/data/catalogue.json") %}{% set n = cat.families["1.1"] | length + cat.families["1.2"] | length + cat.families["1.3"] | length + cat.families["1.4"] | length + cat.families["1.5"] | length %}{% set n_all = n + cat.families["1.6"] | length %}
 
-## Taxonomie {{ n }} technik EA-1.*
+## Taxonomie {{ n }} technik EA-1.1 až EA-1.5
 
 Následující taxonomie systematicky kategorizuje {{ n }} technik intelektuální manipulace v akademickém kontextu. Každá technika je kategorizována podle primární epistemické funkce, kterou narušuje, a dominantního modu operace. Každý kód [EA-1.X.Y] odkazuje na samostatný hloubkový článek v podknihovně technik.
 
@@ -332,7 +332,7 @@ Efektivní edukace vyžaduje **graduální expozici** podle sekvence: foundation
 
 ## Strukturální vztahy mezi technikami
 
-Třináct technik EA-1.* netvoří izolovaný seznam, ale **propojenou strukturu** s vnitřními vazbami, jež je užitečné explicitně artikulovat pro pokročilou diagnostickou práci.
+Techniky EA-1.* netvoří izolovaný seznam, ale **propojenou strukturu** s vnitřními vazbami, jež je užitečné explicitně artikulovat pro pokročilou diagnostickou práci.
 
 ### Funkční komplementarita
 
@@ -389,7 +389,7 @@ expozici, převažuje riziko újmy nad poznávacím ziskem (Beauchamp a Childres
 
 ## Závěr
 
-Akademické techniky intelektuální manipulace představují signifikantní epistemické riziko, jež vyžaduje systematický přístup k identifikaci, prevenci a neutralizaci. Tato kapitola poskytla taxonomický přehled 13 klíčových technik EA-1.* organizovaných do pěti funkčních skupin (akvizice, evaluace, revize, paralingvistika, proxemika), tří kompozičních vzorců (Guru/adept, Trojan, Salami), integrativního teoretického rámce situujícího taxonomii vůči etablovaným pracím Bachmana, Williamsona a Frickerové, a strukturální analýzy vnitřních vztahů mezi technikami.
+Akademické techniky intelektuální manipulace představují signifikantní epistemické riziko, jež vyžaduje systematický přístup k identifikaci, prevenci a neutralizaci. Tato kapitola poskytla taxonomický přehled {{ n }} klíčových technik EA-1.1 až EA-1.5 organizovaných do pěti funkčních skupin (akvizice, evaluace, revize, paralingvistika, proxemika), tří kompozičních vzorců (Guru/adept, Trojan, Salami), integrativního teoretického rámce situujícího taxonomii vůči etablovaným pracím Bachmana, Williamsona a Frickerové, a strukturální analýzy vnitřních vztahů mezi technikami.
 
 Je esenciální zdůraznit, že porozumění těmto technikám není pouze defenzivní kompetencí, ale **fundamentální součástí epistemické resilience a akademické integrity**. Kritická epistemická vigilance by však nikdy neměla degenerovat v hyperskepticismus, paranoidní epistemologie nebo reflexivní odmítání legitimně challenging idejí. Cílem taxonomie není kultivovat suspici, ale **kalibrovanou diskriminační schopnost** — kapacitu rozlišovat manipulativní a legitimní formy epistemického vyzývání.
 
@@ -407,7 +407,7 @@ V následující [Kapitole 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) 
 
 - [Kapitola 2: Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) — sister chapter
 - [Kapitola 3: Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md) — sister chapter
-- [Techniques index](@/kompendium/techniques/_index.md) — všech 13 hloubkových článků EA-1.*
+- [Techniques index](@/kompendium/techniques/_index.md) — všech {{ n_all }} hloubkových článků EA-1.*
 - [Sekce 02 — Definice](@/kompendium/02-uvod/definice.md)
 - [Sekce 04 — Pokročilé fenomény](@/kompendium/04-pokrocile-fenomeny/_index.md)
 - [Sekce 05 — Diagnostika](@/kompendium/05-diagnostika/_index.md)

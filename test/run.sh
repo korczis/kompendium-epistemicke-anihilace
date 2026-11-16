@@ -24,6 +24,11 @@ out_dir=$(mktemp -d "${TMPDIR:-/tmp}/kea-tests.XXXXXX")
 KEA_TEST_TREE=$(git write-tree) || { echo "test/run.sh: git write-tree failed" >&2; exit 1; }
 export KEA_TEST_TREE
 trap 'rm -rf "$out_dir"' EXIT
+# The owning pid, as scripts/verify-content.sh writes for its export: a tree holding only .out
+# files has no open handle between case writes, so `lsof +D` reads a running suite's directory as
+# unheld (2026-11-16, a peer's cleanup removed one mid-run and failed all 43 cases). Clean up a
+# kea-tests.* tree only when this pid is gone.
+echo $$ > "$out_dir/.kea-test.pid"
 
 cases=()
 for case in test/cases/*_*.sh; do

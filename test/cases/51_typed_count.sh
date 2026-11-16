@@ -39,26 +39,26 @@
 #
 # An empty vocabulary is an instrument failure, not a clean result: with no derived expression
 # in the tree the requirement can charge nothing, and the fixtures below are what keeps that
-# from reading as a pass — c45-typed must be charged in every run.
+# from reading as a pass — c51-typed must be charged in every run.
 set -euo pipefail
 
 root=$(cd "$(dirname "$0")/../.." && pwd)
-work=$(mktemp -d "${TMPDIR:-/tmp}/kea-case45.XXXXXX")
+work=$(mktemp -d "${TMPDIR:-/tmp}/kea-case51.XXXXXX")
 trap 'rm -rf "$work"' EXIT
 git -C "$root" archive "${KEA_TEST_TREE:-$(git -C "$root" write-tree)}" | tar -x -C "$work"
 cd "$work"
 
-d=content/kompendium/c45
+d=content/kompendium/c51
 mkdir -p "$d" static/data/listings
-cat > static/data/listings/c45.json <<'EOF'
-{"schema": "kompendium-listing/v1", "key": "c45", "count": 7,
+cat > static/data/listings/c51.json <<'EOF'
+{"schema": "kompendium-listing/v1", "key": "c51", "count": 7,
  "items": ["p1", "p2", "p3", "p4", "p5", "p6", "p7"],
  "group_order": ["a"], "groups": {"a": ["p1", "p2", "p3", "p4", "p5", "p6", "p7"]},
  "entries": {}, "group_names": {}, "group_notes": {}}
 EOF
-bind='{% set l = load_data(path="static/data/listings/c45.json") %}'
+bind='{% set l = load_data(path="static/data/listings/c51.json") %}'
 page() {
-  printf '+++\ntitle = "%s"\ndescription = "%s"\n+++\n\n' "$2" "${3:-Fixture 45.}" > "$1/$2.md"
+  printf '+++\ntitle = "%s"\ndescription = "%s"\n+++\n\n' "$2" "${3:-Fixture 51.}" > "$1/$2.md"
   cat >> "$1/$2.md"
 }
 listed() { python3 scripts/check-ia.py --list typed-count > "$work/list" 2>/dev/null || true; }
@@ -66,48 +66,48 @@ has()   { grep -q "/$1.md" "$work/list" || { echo "$1 not charged"; exit 1; }; }
 hasnt() { if grep -q "/$1.md" "$work/list"; then echo "$1 wrongly charged"; exit 1; fi; }
 
 # The index teaches the vocabulary: it binds the source and renders the count from it, which is
-# what says the members of c45 are called "pilířů". It types no numeral, so it owes nothing.
+# what says the members of c51 are called "pilířů". It types no numeral, so it owes nothing.
 page "$d" _index <<EOF
 ${bind}Sekce obsahuje **{{ l.count }} pilířů** obrany a každý pilíř má vlastní stránku; počet se
 bere z výpisu, takže se nemůže rozejít s tím, co v sekci skutečně je.
 EOF
 
 # the defect: the derived form is bound in this very file and the number is typed anyway
-page "$d" c45-typed <<EOF
+page "$d" c51-typed <<EOF
 ${bind}Sekce obsahuje 7 pilířů obrany a každý pilíř má vlastní stránku; číslo je napsané rukou,
 takže přidáním osmého pilíře se stane nepravdivým, aniž by si toho kdokoli všiml.
 EOF
 
 # an ordinal: a subset of the set, not its size
-page "$d" c45-subset <<EOF
+page "$d" c51-subset <<EOF
 ${bind}Prvních pět pilířů je níže shrnuto jednou větou; zbývající jsou uvedeny v tabulce, protože
 jejich výklad patří na vlastní stránky.
 EOF
 
 # no binding: no derived form is reachable from this file, so there is nothing to demand
-page "$d" c45-nobind <<'EOF'
+page "$d" c51-nobind <<'EOF'
 Sekce obsahuje 7 pilířů obrany a každý pilíř má vlastní stránku; tato stránka žádný odvozený
 výpis nenačítá, takže číslo nemá čím nahradit.
 EOF
 
 # a noun the bound source never uses for its members: this page counts something else
-page "$d" c45-othernoun <<EOF
-${bind}Sekce obsahuje 7 kapitol doprovodného textu; kapitoly nejsou členy výpisu c45 a jejich
+page "$d" c51-othernoun <<EOF
+${bind}Sekce obsahuje 7 kapitol doprovodného textu; kapitoly nejsou členy výpisu c51 a jejich
 počet z něj tedy nelze odvodit.
 EOF
 
 # front matter is not templated by Zola, so a count in `description` has no derived form
-page "$d" c45-frontmatter "Popis zmiňuje 7 pilířů obrany, protože front matter se nešablonuje." <<EOF
+page "$d" c51-frontmatter "Popis zmiňuje 7 pilířů obrany, protože front matter se nešablonuje." <<EOF
 ${bind}Sekce obsahuje **{{ l.count }} pilířů** obrany; v těle stránky je počet odvozený a jen
 popis v hlavičce ho má napsaný, protože Zola front matter nešablonuje.
 EOF
 
 listed
-has   c45-typed        # binds the source and types the number anyway
-hasnt c45-subset       # "prvních pět" is a subset, not the size of the set
-hasnt c45-nobind       # no derived form is reachable from this file
-hasnt c45-othernoun    # "kapitol" is not what this source calls its members
-hasnt c45-frontmatter  # front matter has no derived form to offer
+has   c51-typed        # binds the source and types the number anyway
+hasnt c51-subset       # "prvních pět" is a subset, not the size of the set
+hasnt c51-nobind       # no derived form is reachable from this file
+hasnt c51-othernoun    # "kapitol" is not what this source calls its members
+hasnt c51-frontmatter  # front matter has no derived form to offer
 hasnt _index           # renders the count from the source
 
 echo "typed-count: a page that binds a derived listing may not type that listing's member count; an ordinal subset, a page with no binding, a noun the listing never uses, and front matter are not charged"

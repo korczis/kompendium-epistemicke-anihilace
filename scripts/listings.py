@@ -220,3 +220,60 @@ def build_all() -> dict:
 
 def serialise(data: dict) -> str:
     return json.dumps(data, ensure_ascii=False, separators=(",", ":"), sort_keys=True) + "\n"
+
+
+def check_site(site: pathlib.Path) -> list:
+    """Problems found by comparing a built site with the declaration: every page a listing names
+    in index_pages must render, inside its tables, a link to every member its loops select (one
+    group, one parent or the whole listing, read from the page source as ia_model reads it).
+    Only links inside <table> count: the site navigation and the page's prose link members too,
+    and must not stand in for a row the listing failed to render."""
+    import ia_model  # imports this module; imported here to keep the two acyclic at load time
+    base = re.search(r'^base_url\s*=\s*"([^"]+)"', (ROOT / "zola.toml").read_text(encoding="utf-8"), re.M)
+    prefix = re.sub(r"^https?://[^/]+", "", base.group(1)).rstrip("/") if base else ""
+    href = re.compile(r'href="(?:https?://[^/"]+)?([^"#?]*)')
+    problems = []
+    for listing in declaration():
+        selected_by: dict = {}
+        for path in members_of(listing):
+            front, _ = front_matter(path)
+            c = classify(listing, path, front)
+            if c:
+                selected_by[path] = c
+        for index in listing.get("index_pages", []):
+            body = front_matter(index)[1]
+            loops = [l for l in ia_model.listing_loops(body) if l[0] == listing["key"]]
+            if not loops:
+                problems.append(f"{index}: declared as an index page of {listing['key']} but loops over none of it")
+                continue
+            want = {p for p, (group, parent, _) in selected_by.items()
+                    if any(everything or group in groups or parent in parents
+                           for _, groups, parents, everything in loops)}
+            url = ia_model.url_of(pathlib.PurePosixPath(index))
+            html_file = site / url.strip("/") / "index.html"
+            if not html_file.exists():
+                problems.append(f"{index}: not built at {html_file.relative_to(site)}")
+                continue
+            tables = "".join(re.findall(r"<table\b.*?</table>", html_file.read_text(encoding="utf-8"), re.S))
+            got = {h[len(prefix):] if h.startswith(prefix) else h for h in href.findall(tables)}
+            missing = sorted(p for p in want if ia_model.url_of(pathlib.PurePosixPath(p)) not in got)
+            if missing:
+                problems.append(f"{index}: renders {len(want) - len(missing)} of the {len(want)} members of "
+                                f"{listing['key']} it loops over; missing {', '.join(missing[:3])}")
+    return problems
+
+
+def main(argv: list) -> int:
+    if len(argv) == 2 and argv[0] == "--check-site":
+        problems = check_site(pathlib.Path(argv[1]))
+        for p in problems:
+            print(f"listings: {p}")
+        print(f"listings: {len(declaration())} listing(s); {'FAIL' if problems else 'every index page renders its members'}")
+        return 1 if problems else 0
+    print("usage: scripts/listings.py --check-site <built site directory>")
+    return 2
+
+
+if __name__ == "__main__":
+    import sys
+    raise SystemExit(main(sys.argv[1:]))

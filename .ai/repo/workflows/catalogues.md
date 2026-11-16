@@ -56,3 +56,20 @@ bash scripts/verify-content.sh --fix                      # všechny brány obsa
 
 `review = "agent"` je text agenta čekající na odbornou recenzi; na `owner` ho mění jen autor
 knihy. Rozhodnutí autora se zapisují přes `majordomus decision`.
+
+## 6. Derived listings: a section's pages as a table
+
+The reverse direction of the catalogues above: the pages exist, and a page lists them. Rule
+`project.listings-derived` (`../rules/project/listings-derived.v1.md`), ADR 0015.
+
+1. A new listing is one `[[listing]]` block in `data/listings.toml` (section, index pages,
+   grouping, names, fields), never a new script, template or gate.
+2. A short descriptive cell of a member goes verbatim into its own front matter
+   (`extra.listing_note` or a declared field); every count is derived in the template.
+3. The page renders it with
+   `{% set l = load_data(path="static/data/listings/<key>.json") %}` and a loop over a group, a
+   parent, `items` or `group_order`.
+4. `python3 scripts/build-ui-data.py`, then `python3 scripts/check-ia.py` (`listing-row`,
+   `undeclared-listing` and `catalogue-row` at 0) and `bash test/cases/46_listings_rendered.sh`
+   (the built site renders every member). A section index that hand-writes a table of its own
+   pages is found by `undeclared-listing` even before anyone declares it.

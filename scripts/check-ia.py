@@ -1200,6 +1200,19 @@ def write_baseline(baseline: dict) -> None:
                         encoding="utf-8")
 
 
+def list_rows(now: dict, details: dict, rule: str) -> list:
+    """(path, note) rows for one requirement, in that requirement's display order.
+
+    The single producer shared by ``--list <rule>`` and ``--list-all``, so the two can never
+    drift: ``--list X`` equals ``--list-all | awk -F'\t' '$1=="X"' | cut -f2-`` for every rule."""
+    rows = [(path, details.get((path, rule))) for path, rules in now.items() if rule in rules]
+    if rule == "bold-candidate":  # the worklist, most widespread phrase first
+        rows.sort(key=lambda r: (-int(r[1].split()[0]), r[0]))
+    else:
+        rows.sort()
+    return rows
+
+
 def main() -> int:
     args = sys.argv[1:]
     if "--debt" in args:
@@ -1214,13 +1227,17 @@ def main() -> int:
     now = current(details, now_counts)
     if "--list" in args:
         rule = args[args.index("--list") + 1]
-        rows = [(path, details.get((path, rule))) for path, rules in now.items() if rule in rules]
-        if rule == "bold-candidate":  # the worklist, most widespread phrase first
-            rows.sort(key=lambda r: (-int(r[1].split()[0]), r[0]))
-        else:
-            rows.sort()
-        for path, note in rows:
+        for path, note in list_rows(now, details, rule):
             print(f"{path}\t{note}" if note else path)
+        return 0
+    if "--list-all" in args:
+        # Every finding once as rule<TAB>page<TAB>detail, sorted, baselined rules included.
+        # A listing, not a verdict, so always exit 0. By construction (same producer, `rule\t`
+        # prefix only) `--list X` == `--list-all | awk -F'\t' '$1=="X"' | cut -f2-` for every rule,
+        # which lets a test harness compute every rule's pages from one check-ia run.
+        for rule in sorted({r for rules in now.values() for r in rules}):
+            for path, note in list_rows(now, details, rule):
+                print(f"{rule}\t{path}\t{note}" if note else f"{rule}\t{path}")
         return 0
     baseline = json.loads(BASELINE.read_text(encoding="utf-8")) if BASELINE.exists() else {}
     for entries in baseline.values():  # a hand-edited baseline cannot excuse these

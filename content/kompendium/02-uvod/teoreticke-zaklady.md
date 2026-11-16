@@ -69,7 +69,7 @@ Taxonomie epistemické a kognitivní anihilace je založena na několika fundame
 
 **Epistemická integrace** představuje fundamentální proces, prostřednictvím kterého jsou jednotlivé poznávací akty a jejich obsahy koordinovány do koherentního celku. Tento princip postuluje, že zdravé poznávání zahrnuje nejenom akvizici, justifikaci a revizi jednotlivých přesvědčení, ale především jejich systematickou integraci do koherentního epistemického systému.
 
-Epistemická anihilace může být z této perspektivy konceptualizována jako systematické narušení procesů epistemické integrace vedoucí k dezintegraci epistemického systému subjektu. Taxonomie rozlišuje multiple formy takové dezintegrace, od subtilních narušení po komplexní kolaps integračních mechanismů.
+[Epistemická anihilace](@/glossary/epistemicka-anihilace.md) může být z této perspektivy konceptualizována jako systematické narušení procesů epistemické integrace vedoucí k dezintegraci epistemického systému subjektu. Taxonomie rozlišuje multiple formy takové dezintegrace, od subtilních narušení po komplexní kolaps integračních mechanismů.
 
 ### Princip epistemické autonomie
 
@@ -470,11 +470,7 @@ Teoretický rámec je **dynamickou architekturou**, otevřenou kontinuální rev
 
 ## Kritický krok
 
-Než přejdeš ke konkrétním kategoriím, formuluj si vlastní pracovní
-[definici epistemické anihilace](@/glossary/epistemicka-anihilace.md) a zapiš si ji
-mimo tuto stránku (papír / zápisník / poznámka). Tato definice se bude
-v průběhu četby měnit — to je žádoucí. Ale výchozí zápis je nepostradatelný
-referenční bod pro detekci vlastního posunu pochopení.
+{% include "partials/vlastni-definice.md" %}
 
 > **Mandatorní akce**: bez vlastní výchozí definice četba dalších sekcí
 > riskuje, že se ti vlastní pochopení rozplyne v autorské formulaci.

@@ -200,6 +200,4 @@ Tento komparativní pohled potvrzuje, že **klinická heterogenita EA-trauma** j
 
 ## Kritický krok
 
-**Klinická intervence vyžaduje licencovanou klinickou supervizi.** Tento
-materiál není terapeutickou příručkou ani diagnostickou metodikou pro
-neformální použití.
+{% include "partials/klinicka-supervize.md" %}

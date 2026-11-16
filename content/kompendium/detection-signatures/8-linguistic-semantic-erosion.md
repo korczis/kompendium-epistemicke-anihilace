@@ -8,6 +8,7 @@ tags = ["kompendium", "detection-signature", "diagnostika", "linguistic"]
 categories = ["academic", "clinical", "security"]
 
 [extra]
+listing_note = "Vyprázdnění pojmu na pouhý náboj."
 related_terms = ["6-linguistic-narrative-fragmentation", "7-linguistic-scope-creep", "9-behavioral-disproportionate-confidence", "epistemicka-kalibrace"]
 toc = true
 modality = "linguistic"

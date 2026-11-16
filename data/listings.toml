@@ -35,3 +35,14 @@ names = "data/families.toml"
 fields = ["extra.exploitation"]
 title_strip = '^EA-[\d.]+\s*'
 summary_strip = '^(?:Detailní\s+)?per-technique\s+článek:\s*[^—]*—\s*'
+
+[[listing]]
+key = "detection-signatures"
+section = "kompendium/detection-signatures"
+index_pages = ["kompendium/detection-signatures/_index.md"]
+group = { field = "extra.modality", default = "cross" }
+group_order = ["linguistic", "behavioral", "network", "phenomenological", "cross"]
+group_names = { linguistic = "Lingvistické signatury", behavioral = "Behaviorální signatury", network = "Síťové signatury", phenomenological = "Fenomenologické signatury", cross = "Průřezové signatury" }
+group_notes = { linguistic = "Strukturu jazyka a argumentace: jak se tvrzení brání ověření.", behavioral = "Vzorce jednání ve vztahu: kontrola, izolace, tlak, emoční řízení.", network = "Topologii a dynamiku informačních toků: koordinace, amplifikace, umlčení.", phenomenological = "Prožívání zasažené osoby: co se děje s jejím myšlením, emocemi, časem a identitou.", cross = "Kalibraci úsudku a argumentační vzorce, které propojují modality." }
+fields = ["extra.listing_note"]
+title_strip = '^Detekční signatura:\s*'

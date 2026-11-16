@@ -8,6 +8,7 @@ tags = ["kompendium", "detection-signature", "diagnostika", "linguistic"]
 categories = ["academic", "clinical", "security"]
 
 [extra]
+listing_note = "Fakta bez spojů, které si posluchač doplní."
 related_terms = ["4-linguistic-framing-shift", "5-linguistic-pronoun-inversion", "7-linguistic-scope-creep", "8-linguistic-semantic-erosion"]
 toc = true
 modality = "linguistic"

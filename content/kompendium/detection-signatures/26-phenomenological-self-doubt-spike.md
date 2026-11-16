@@ -8,6 +8,7 @@ tags = ["kompendium", "detection-signature", "diagnostika", "phenomenological"]
 categories = ["academic", "clinical", "security"]
 
 [extra]
+listing_note = "Ztráta důvěry ve vlastní úsudek."
 related_terms = ["24-network-deplatforming-cascade", "25-phenomenological-cognitive-fog", "27-phenomenological-emotional-numbing", "28-phenomenological-reality-uncertainty"]
 toc = true
 modality = "phenomenological"

@@ -19,13 +19,13 @@ TOML_FM = re.compile(r"\A\+\+\+\n(.*?)\n\+\+\+\n", re.S)
 YAML_FM = re.compile(r"\A---\n(.*?)\n---\n", re.S)
 # Loops over a derived listing (ADR 0015, scripts/listings.py): a page binds a listing with
 # {% set VAR = load_data(path="static/data/listings/KEY.json") %} and loops over one group
-# (VAR.groups["1.2"]), one parent (VAR.parents["5"]), or all of it (VAR.items, or a key/value loop
-# over VAR.groups or VAR.parents). A loop's links are not literal in the source; they are added
+# (VAR.groups["1.2"]), one parent (VAR.parents["5"]), or all of it (VAR.items, VAR.group_order, or a
+# key/value loop over VAR.groups or VAR.parents). A loop's links are not literal in the source; they are added
 # from the listing's membership, which the same front matter defines. A lookup of one entry
 # (VAR.entries["EA-1.1.1"]) is not a listing and links nothing by itself.
 LISTING_GROUP = r'\{%-?\s*for\s+\w+\s+in\s+VAR\.groups\[\s*"([^"]+)"\s*\]'
 LISTING_PARENT = r'\{%-?\s*for\s+\w+\s+in\s+VAR\.parents\[\s*"([^"]+)"\s*\]'
-LISTING_ALL = (r'\{%-?\s*for\s+(?:\w+\s+in\s+VAR\.items'
+LISTING_ALL = (r'\{%-?\s*for\s+(?:\w+\s+in\s+VAR\.(?:items|group_order)'
                r'|\w+\s*,\s*\w+\s+in\s+VAR\.(?:groups|parents))\s*-?%\}')
 
 

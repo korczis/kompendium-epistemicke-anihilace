@@ -8,6 +8,7 @@ tags = ["kompendium", "detection-signature", "diagnostika", "behavioral"]
 categories = ["academic", "clinical", "security"]
 
 [extra]
+listing_note = "Ochrana neurčitosti."
 related_terms = ["1-linguistic-jargon-density", "11-behavioral-topic-evasion", "12-behavioral-gaslighting-pattern", "13-behavioral-isolation-acceleration"]
 toc = true
 modality = "behavioral"

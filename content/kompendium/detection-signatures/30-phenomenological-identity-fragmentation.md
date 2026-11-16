@@ -8,6 +8,7 @@ tags = ["kompendium", "detection-signature", "diagnostika", "phenomenological"]
 categories = ["academic", "clinical", "security"]
 
 [extra]
+listing_note = "Ztráta souvislého já."
 related_terms = ["29-phenomenological-temporal-disorientation", "3-linguistic-unfalsifiable-claims", "4-linguistic-framing-shift", "5-linguistic-pronoun-inversion"]
 toc = true
 modality = "phenomenological"

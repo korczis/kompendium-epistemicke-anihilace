@@ -8,6 +8,7 @@ tags = ["kompendium", "detection-signature", "diagnostika", "behavioral"]
 categories = ["academic", "clinical", "security"]
 
 [extra]
+listing_note = "Střídání vřelosti a chladu."
 related_terms = ["14-behavioral-time-pressure-creation", "15-behavioral-asymmetric-disclosure", "17-network-source-monoculture", "18-network-citation-circularity"]
 toc = true
 modality = "behavioral"

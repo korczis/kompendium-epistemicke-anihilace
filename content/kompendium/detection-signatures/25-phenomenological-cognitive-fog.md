@@ -8,6 +8,7 @@ tags = ["kompendium", "detection-signature", "diagnostika", "phenomenological"]
 categories = ["academic", "clinical", "security"]
 
 [extra]
+listing_note = "Ztráta mentální jasnosti vázaná na prostředí."
 related_terms = ["23-network-reputation-laundering", "24-network-deplatforming-cascade", "26-phenomenological-self-doubt-spike", "27-phenomenological-emotional-numbing"]
 toc = true
 modality = "phenomenological"

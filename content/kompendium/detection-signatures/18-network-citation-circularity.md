@@ -8,6 +8,7 @@ tags = ["kompendium", "detection-signature", "diagnostika", "network"]
 categories = ["academic", "clinical", "security"]
 
 [extra]
+listing_note = "Zdánlivé mnohonásobné doložení."
 related_terms = ["16-behavioral-emotional-modulation", "17-network-source-monoculture", "19-network-amplification-asymmetry", "2-linguistic-circular-definitions"]
 toc = true
 modality = "network"

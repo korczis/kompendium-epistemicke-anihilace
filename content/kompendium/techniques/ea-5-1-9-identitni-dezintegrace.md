@@ -112,7 +112,7 @@ Hraniční případ: **přechody po závažném traumatu** (těžká nemoc, ztr�
 
 #### 1. **Externí narativní kotva**
 
-Vyhledej **dlouhodobé blízké osoby**, které tě znají *před* začátkem manipulace. Rozhovory s nimi o tom, jak dotčeného člověka vnímaly, vracejí do hry vnější popis jeho dřívější identity. Zaznamenávej kontinuity, které **oni** vidí mezi tehdejším a současným *tebou*.
+Vnější narativní kotvou bývají **dlouhodobé blízké osoby**, které dotčeného znají *před* začátkem manipulace. Rozhovory s nimi o tom, jak jej vnímaly, vracejí do hry vnější popis jeho dřívější identity; kontinuity, které **ony** vidí mezi tehdejším a současným self, fungují jako opora proti rozpadu.
 
 #### 2. **Auto-archeologie**
 
@@ -120,7 +120,7 @@ Systematicky procházej **vlastní zápisky, deníky, e-maily, fotografie** z ob
 
 #### 3. **Klinická supervize**
 
-Identitní dezintegrace je **klinická situace**. Vyhledej psychiatrickou nebo psychologickou pomoc s explicitní zkušeností v doméně **kultů, high-control vztahů, exit counseling**, případně v doméně **disociativních poruch**.
+Identitní dezintegrace je **klinická situace**. Namístě je psychiatrická nebo psychologická pomoc s explicitní zkušeností v doméně **kultů, high-control vztahů, exit counseling**, případně v doméně **disociativních poruch**.
 
 #### 4. **Strukturní oddělení od manipulátora**
 

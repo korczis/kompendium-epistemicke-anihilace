@@ -22,7 +22,7 @@ FENCE = re.compile(r"```.*?```", re.S)
 # four section notices this way cost the book 17 `@/` links, measured against origin/main. So the
 # page is read twice. Which copy a field comes from follows what the field is about: duplication is
 # a property of the source (expanding there would cancel the remedy, 252 -> 281), while links,
-# words, language and the page-level facts describe the page a reader is handed. Case 46 holds both
+# words, language and the page-level facts describe the page a reader is handed. Case 50 holds both
 # halves against their own controls.
 INCLUDE = re.compile(r"\{%-?\s*include\s+\"([^\"]+)\"\s*-?%\}")
 TERA_COMMENT = re.compile(r"\{#-?.*?-?#\}", re.S)

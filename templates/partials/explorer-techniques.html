@@ -5,13 +5,14 @@
 <style>[x-cloak]{display:none !important}</style>
 {#- JSON se skládá po položkách (Tera 2 nemá filtr concat); každou hodnotu kóduje json_encode. -#}
 <script type="application/json" id="techniky-data">[
+{%- set wc_map = load_data(path="static/data/words.json") -%}
 {%- for p in section.pages %}
 {%- if p.extra.ea_code is defined %}{% set code = p.extra.ea_code %}{% else %}{% set code = "" %}{% endif %}
 {%- if p.extra.ea_category is defined %}{% set cat = p.extra.ea_category %}{% else %}{% set cat = "" %}{% endif %}
 {%- if p.extra.ea_subcategory is defined %}{% set sub = p.extra.ea_subcategory %}{% else %}{% set sub = "" %}{% endif %}
 {%- if p.extra.risk_level is defined %}{% set risk = p.extra.risk_level %}{% else %}{% set risk = "" %}{% endif %}
 {%- if p.description %}{% set desc = p.description %}{% else %}{% set desc = "" %}{% endif %}
-{%- set item = {"title": p.title, "permalink": p.permalink, "description": desc, "words": p.word_count, "code": code, "category": cat, "subcategory": sub, "risk": risk, "path": p.relative_path} %}
+{%- set item = {"title": p.title, "permalink": p.permalink, "description": desc, "words": wc_map[p.relative_path] | default(value=0), "code": code, "category": cat, "subcategory": sub, "risk": risk, "path": p.relative_path} %}
 {{ item | json_encode | safe }}{% if not loop.last %},{% endif %}
 {%- endfor %}
 ]</script>

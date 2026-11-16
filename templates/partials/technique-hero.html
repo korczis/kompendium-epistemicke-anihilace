@@ -111,7 +111,8 @@
 {%- elif hx_risk %}{% set hx_risk_label = hx_risk %}{% set hx_risk_tone = "bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-300" %}{% set hx_risk_dot = "bg-gray-400" %}
 {%- else %}{% set hx_risk_label = "neuvedeno" %}{% set hx_risk_tone = "bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-300" %}{% set hx_risk_dot = "bg-gray-400" %}{% endif -%}
 
-{%- set hx_words = page.word_count | default(value=0) -%}
+{%- set hx_wc = load_data(path="static/data/words.json") -%}
+{%- set hx_words = hx_wc[page.relative_path] | default(value=0) -%}
 {#- Rozpracované heslo: pod hranicí pravidla „detail“ ze scripts/check-ia.py (hranice z config.extra.ia_detail_words), nebo
     s vygenerovaným popisem („pojem v sekci … znalostní báze“), nebo s extra.stub. -#}
 {%- set hx_stub = hx_words < config.extra.ia_detail_words or "znalostní báze Prismatic Platform" in page.description | default(value="") or (page.extra.stub is defined and page.extra.stub) -%}

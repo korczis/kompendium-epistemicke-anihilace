@@ -28,6 +28,7 @@ Pojem signatury je převzat z bezpečnostní praxe, kde označuje rozpoznatelný
 {% for g in l.group_order %}| **{{ l.group_names[g] }}** | {{ l.groups[g] | length }} | {{ l.group_notes[g] }} |
 {% endfor %}
 {% for g in l.group_order %}
+
 ### {{ l.group_names[g] }}
 
 | Signatura | Co zachycuje |
@@ -35,6 +36,7 @@ Pojem signatury je převzat z bezpečnostní praxe, kde označuje rozpoznatelný
 {% for t in l.groups[g] %}| [{{ t.name }}](@/{{ t.path }}) | {{ t.listing_note | default(value="") }} |
 {% endfor %}
 {% endfor %}
+
 ## Jak signatury číst
 
 Každá stránka má stejnou kostru: definici, popis toho, co signatura indikuje na úrovni struktury, pozorovatelné markery, detekční kritéria, odlišení od benigních podob, klinickou diferenciální diagnostiku, rizika falešné pozitivity, validační test, zásady dokumentace, doporučený postup s eskalací na krizové protokoly, anonymizovaný ilustrativní příklad, limity a otevřené otázky a seznam literatury, o niž se výklad opírá. Pro práci s nimi platí několik zásad, které vyplývají z dlouhé tradice výzkumu klinického a forenzního úsudku.

@@ -43,6 +43,7 @@ Každý section bridge článek obsahuje:
 | 6. Související | 8–12 odkazů napříč sekcemi | — |
 
 {% set l = load_data(path="static/data/listings/section-bridges.json") %}
+
 ## Seznam mostů
 
 Sekce má {{ l.count }} mostů v pořadí sekcí; název každého mostu říká, odkud a kam vede.
@@ -51,6 +52,7 @@ Sekce má {{ l.count }} mostů v pořadí sekcí; název každého mostu říká
 |---|---|
 {% for t in l.items %}| [{{ t.name }}](@/{{ t.path }}) | {{ t.listing_note | default(value="") }} |
 {% endfor %}
+
 ## Vztah ke glossary bridges
 
 | Glossary bridges | Section bridges |

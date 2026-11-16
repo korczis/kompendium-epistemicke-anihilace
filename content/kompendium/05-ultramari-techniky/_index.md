@@ -26,6 +26,7 @@ Sekce 05 představuje **terminální vrstvu taxonomie EA**. Zatímco [Sekce 03](
 Pro filozofickou pozadi viz [fenomenologii](@/glossary/fenomenologie.md) zkušenosti vědomí (Husserl, Merleau-Ponty) a [hermeneutiku](@/glossary/hermeneutika.md) interpretace (Gadamer, Ricœur) — ultramární techniky exploitují právě transcendentální struktury, které tyto tradice rekonstruují jako podmínky inteligibility.
 
 {% set l = load_data(path="static/data/listings/05-ultramari-techniky.json") %}{% set tech = load_data(path="static/data/listings/techniques.json") %}
+
 ## Strukturální rámec
 
 Sekce sestává z **{{ l.count }} kapitol** s úhrnem **{{ tech.parent_counts["5"] }} ultramárních technik**. Každá kapitola odpovídá jednomu operačnímu režimu s vlastním fenomenologickým profilem, fundamentem destrukce a klinickým obrazem; počet technik v kapitolách se liší.
@@ -34,6 +35,7 @@ Sekce sestává z **{{ l.count }} kapitol** s úhrnem **{{ tech.parent_counts["5
 |----------|----------------|----------|------------------|
 {% for t in l.items %}| **[{{ t.name }}](@/{{ t.path }})** | {{ tech.group_names[t.ea_family] }} | {{ tech.groups[t.ea_family] | length }} | {{ t.listing_note | default(value="") }} |
 {% endfor %}
+
 ### Vertikální gradient destrukce
 
 Pět kapitol netvoří paralelní katalog — představují **vertikální gradient hloubky**. Každá následující kapitola operuje na hlubší vrstvě:
@@ -133,7 +135,7 @@ Doporučené pořadí studia pro nově přijaté výzkumníky úrovně L3:
 1. **Předpoklady**: [Sekce 02 — Definice](@/kompendium/02-uvod/_index.md), [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md), [Sekce 04 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
 2. **Vstup**: tento _index (orientace v rámci)
 3. **Hlavní studium**:
-   - **[Kapitola 6](@/kompendium/05-ultramari-techniky/kapitola-6.md)** — epistemická singularita (vstupní úroveň, plné per-technique články pro 5.1.* dostupné)
+   - **[Kapitola 6](@/kompendium/05-ultramari-techniky/kapitola-6.md)** — [epistemická singularita](@/glossary/epistemicka-singularita.md) (vstupní úroveň, plné per-technique články pro 5.1.* dostupné)
    - **[Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)** — metatranscendentální anihilace (úroveň L4, restriktivní)
    - **[Kapitola 8](@/kompendium/05-ultramari-techniky/kapitola-8.md)** — hypertransformativní protokoly (kompaktní taxonomie 5.3.*)
    - **[Kapitola 9](@/kompendium/05-ultramari-techniky/kapitola-9.md)** — paradoxální metaanihilace (kompaktní taxonomie 5.4.*)

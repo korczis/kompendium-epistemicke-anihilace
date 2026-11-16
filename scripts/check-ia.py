@@ -170,7 +170,7 @@ Requirements (id: what is checked):
                    code, bold or in backticks ("| **[EA-1.2.1](…)** | … |", "| **EA-5.3.22** | … |",
                    "| [`EA-1.1.1`](…) | … |"). A technique's catalogue
                    entry is its page's front matter (code, title, description), and a chapter renders
-                   its table from static/data/catalogue.json with load_data (ADR 0015); the row a loop
+                   its table from static/data/listings/techniques.json with load_data (ADR 0015); the row a loop
                    renders is not in the source. Not charged: a technique heading with prose under it,
                    a row whose first cell is not a technique code. Remedy: replace the table with the
                    family's load_data loop. NEVER baselined

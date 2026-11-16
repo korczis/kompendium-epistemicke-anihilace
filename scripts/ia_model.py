@@ -23,6 +23,10 @@ YAML_FM = re.compile(r"\A---\n(.*?)\n---\n", re.S)
 # key/value loop over VAR.groups or VAR.parents). A loop's links are not literal in the source; they are added
 # from the listing's membership, which the same front matter defines. A lookup of one entry
 # (VAR.entries["EA-1.1.1"]) is not a listing and links nothing by itself.
+# Not seen: a link rendered through a variable lookup (VAR.groups[t.ea_family] | first). The
+# graph would miss it, so no listing renders one (05-ultramari-techniky dropped its five
+# first-technique links for this reason); a listing that needs per-group links gets them by
+# resolving such lookups here, never by hand-writing them.
 LISTING_GROUP = r'\{%-?\s*for\s+\w+\s+in\s+VAR\.groups\[\s*"([^"]+)"\s*\]'
 LISTING_PARENT = r'\{%-?\s*for\s+\w+\s+in\s+VAR\.parents\[\s*"([^"]+)"\s*\]'
 LISTING_ALL = (r'\{%-?\s*for\s+(?:\w+\s+in\s+VAR\.(?:items|group_order)'

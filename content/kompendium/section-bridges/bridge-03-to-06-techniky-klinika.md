@@ -8,6 +8,7 @@ tags = ["kompendium", "section-bridge", "navigace", "klinicke-aplikace", "diagno
 categories = ["academic", "reference"]
 
 [extra]
+listing_note = "abstrakce ↔ aplikace"
 related_terms = ["bridge-02-to-03-uvod-zakladni-kategorie", "bridge-04-to-06-terminalni-klinika", "bridge-05-to-06-ultramari-klinika", "bridge-case-studies-to-clinical"]
 toc = false
 +++

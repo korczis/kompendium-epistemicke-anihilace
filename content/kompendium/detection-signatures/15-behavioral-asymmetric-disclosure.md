@@ -8,6 +8,7 @@ tags = ["kompendium", "detection-signature", "diagnostika", "behavioral"]
 categories = ["academic", "clinical", "security"]
 
 [extra]
+listing_note = "Jednostranná intimita jako páka."
 related_terms = ["13-behavioral-isolation-acceleration", "14-behavioral-time-pressure-creation", "16-behavioral-emotional-modulation", "17-network-source-monoculture"]
 toc = true
 modality = "behavioral"

@@ -211,6 +211,7 @@ Tabulka níže je z něj vygenerovaná (`--doc --fix`), ručně se neupravuje a
 | extra | `ea_category` | technique | autorský | str |  |
 | extra | `ea_code` | page, technique, quick-reference | autorský | str |  |
 | extra | `ea_codes` | page | autorský | list |  |
+| extra | `ea_family` | page | autorský | str | `\d+\.\d+` |
 | extra | `ea_subcategory` | technique | autorský | str |  |
 | extra | `elimination_status` | glossary | autorský | str |  |
 | extra | `elixir_libraries` | glossary | autorský | list |  |
@@ -276,6 +277,7 @@ Tabulka níže je z něj vygenerovaná (`--doc --fix`), ručně se neupravuje a
 | extra | `learning_path` | glossary | autorský | list, str |  |
 | extra | `level` | page | autorský | str |  |
 | extra | `license_framework` | page, section | autorský | str |  |
+| extra | `listing_note` | page, section | autorský | str |  |
 | extra | `matching_algorithms` | glossary | autorský | list |  |
 | extra | `matching_strategies` | glossary | autorský | list |  |
 | extra | `maturity` | glossary | autorský | str |  |

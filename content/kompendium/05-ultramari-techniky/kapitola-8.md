@@ -9,6 +9,8 @@ tags = ["kompendium", "ultramari", "kapitola-8", "hypertransformativni-protokoly
 categories = ["academic", "ultramari"]
 
 [extra]
+ea_family = "5.3"
+listing_note = "Vynucená rekurzivní transformace identity poznávajícího"
 related_terms = ["kapitola-6", "kapitola-7", "kapitola-9", "motte-bailey"]
 section_icon = "🚨"
 toc = true
@@ -17,7 +19,7 @@ access_level = "L3-L4"
 
 # Kapitola 8 — Hypertransformativní protokoly
 
-> 🚨 Kapitola popisuje 30 ultramárních technik ([EA-5.3.1](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md) a další) operujících na rovině [identity poznávajícího subjektu](@/glossary/epistemicka-alienace.md). Materiály vyžadují IRB autorizaci a etickou supervizi. Kniha popisuje techniky kompaktní taxonomickou deskripcí; operační detaily, plné fenomenologické profily ani rekonstruktivní protokoly neobsahuje. Plné per-technique články pro EA-5.3.* jsou v přípravné fázi a publikovány budou až po dokončení etické supervize.
+{% set cat = load_data(path="static/data/listings/techniques.json") %}> 🚨 Kapitola popisuje {{ cat.groups["5.3"] | length }} ultramárních technik ([EA-5.3.1](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md) a další) operujících na rovině [identity poznávajícího subjektu](@/glossary/epistemicka-alienace.md). Materiály vyžadují IRB autorizaci a etickou supervizi. Kniha popisuje techniky kompaktní taxonomickou deskripcí; operační detaily, plné fenomenologické profily ani rekonstruktivní protokoly neobsahuje. Plné per-technique články pro EA-5.3.* jsou v přípravné fázi a publikovány budou až po dokončení etické supervize.
 
 ## Pozice kapitoly
 
@@ -27,15 +29,13 @@ Hypertransformativní protokoly nejsou identitární modifikace v běžném smys
 
 Filozoficky kapitola exploituje tradici **post-strukturalistické kritiky subjektu** (Foucault, Deleuze, Butler — performativita identity), **psychoanalytické teorie identity** (Lacan — *stade du miroir*), **fenomenologie tělesnosti** (Merleau-Ponty), **buddhistické nauky o ne-já** (anatman) a **klinické literatury o disociačních poruchách identity** (DSM-5 DID, ICD-11 6B64). Techniky operacionalizují tyto teoretické zdroje destruktivně.
 
-{% set cat = load_data(path="static/data/catalogue.json") %}
-
 ## Techniky EA-5.3
 
-Rodina EA-5.3 má {{ cat.families["5.3"] | length }} technik; kód, název i popis každého řádku pocházejí ze stránky, na niž vede.
+Rodina EA-5.3 má {{ cat.groups["5.3"] | length }} technik; kód, název i popis každého řádku pocházejí ze stránky, na niž vede.
 
 | EA | Technika | Shrnutí |
 |----|----------|---------|
-{% for t in cat.families["5.3"] %}| **[{{ t.code }}](@/kompendium/techniques/{{ t.slug }}.md)** | {{ t.name }} | {{ t.summary }} |
+{% for t in cat.groups["5.3"] %}| **[{{ t.code }}](@/kompendium/techniques/{{ t.slug }}.md)** | {{ t.name }} | {{ t.summary }} |
 {% endfor %}
 
 ## Jak techniky rodiny číst
@@ -89,7 +89,7 @@ Jelikož techniky této kapitoly mohou indukovat klinické stavy připomínajíc
 
 ## Závěr
 
-Kapitola 8 popisuje {{ cat.families["5.3"] | length }} hypertransformativních protokolů rodiny EA-5.3, které uvádí výše oddíl Techniky EA-5.3.
+Kapitola 8 popisuje {{ cat.groups["5.3"] | length }} hypertransformativních protokolů rodiny EA-5.3, které uvádí výše oddíl Techniky EA-5.3.
 
 Techniky exploitují strukturní mechanismy identitární kontinuity dokumentované v post-strukturalistické kritice subjektu (Foucault, Butler), psychoanalýze (Lacan), fenomenologii tělesnosti (Merleau-Ponty) a klinické literatuře disociačních poruch. Klinický obraz vyžaduje distinktní diagnostiku odlišující jej od DID, depersonalizace, BPD, fugy a PTSD.
 

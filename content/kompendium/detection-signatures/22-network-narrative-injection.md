@@ -8,6 +8,7 @@ tags = ["kompendium", "detection-signature", "diagnostika", "network"]
 categories = ["academic", "clinical", "security"]
 
 [extra]
+listing_note = "Vsazení příběhu přes důvěryhodné uzly."
 related_terms = ["20-network-bot-coordination", "21-network-platform-coordination", "23-network-reputation-laundering", "24-network-deplatforming-cascade"]
 toc = true
 modality = "network"

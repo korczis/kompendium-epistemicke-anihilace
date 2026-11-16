@@ -9,6 +9,7 @@ tags = ["kompendium", "uvod", "filosofie", "epistemologie", "fenomenologie", "he
 categories = ["academic", "philosophy"]
 
 [extra]
+listing_note = "Epistemologie, fenomenologie, [hermeneutika](@/glossary/hermeneutika.md)"
 related_terms = ["definice", "historicky-kontext", "metodologicke-poznamky", "teoreticke-zaklady"]
 section_icon = "🧭"
 toc = true

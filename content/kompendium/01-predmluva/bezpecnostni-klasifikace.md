@@ -9,6 +9,7 @@ tags = ["kompendium", "predmluva", "bezpecnost", "klasifikace", "pristupove-urov
 categories = ["academic", "security"]
 
 [extra]
+listing_note = "Úrovně L1–L4, supervize, eskalace"
 related_terms = ["eticke-aspekty", "jak-pouzivat", "pro-koho-je-urceno"]
 section_icon = "🔐"
 toc = true

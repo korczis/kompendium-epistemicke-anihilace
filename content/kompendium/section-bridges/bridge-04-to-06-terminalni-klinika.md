@@ -8,6 +8,7 @@ tags = ["kompendium", "section-bridge", "navigace", "terminalni-protokoly", "kli
 categories = ["academic", "reference"]
 
 [extra]
+listing_note = "protokol ↔ SOP"
 related_terms = ["bridge-03-to-06-techniky-klinika", "bridge-04-to-05-terminalni-ultramari", "bridge-05-to-06-ultramari-klinika", "bridge-01-to-04-eticky-ramec-protokoly"]
 toc = false
 +++

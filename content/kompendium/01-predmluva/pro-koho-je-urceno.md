@@ -9,6 +9,7 @@ tags = ["kompendium", "predmluva", "cilova-skupina", "pristupova-omezeni", "kval
 categories = ["academic"]
 
 [extra]
+listing_note = "Cílové skupiny a předpokládaná kvalifikace"
 related_terms = ["eticke-aspekty", "jak-pouzivat", "ucel-kompendia", "vztah-k-platforme"]
 section_icon = "👥"
 toc = true

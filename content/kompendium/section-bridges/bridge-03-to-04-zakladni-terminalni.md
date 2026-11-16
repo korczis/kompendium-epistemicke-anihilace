@@ -8,6 +8,7 @@ tags = ["kompendium", "section-bridge", "navigace", "terminalni-protokoly", "ea-
 categories = ["academic", "reference"]
 
 [extra]
+listing_note = "typologie ↔ exit"
 related_terms = ["bridge-02-to-03-uvod-zakladni-kategorie", "bridge-03-to-05-zakladni-ultramari", "bridge-04-to-05-terminalni-ultramari", "bridge-01-to-04-eticky-ramec-protokoly"]
 toc = false
 +++

@@ -8,6 +8,7 @@ tags = ["kompendium", "detection-signature", "diagnostika", "linguistic"]
 categories = ["academic", "clinical", "security"]
 
 [extra]
+listing_note = "Nepřiznaná změna výkladového rámce."
 related_terms = ["3-linguistic-unfalsifiable-claims", "30-phenomenological-identity-fragmentation", "5-linguistic-pronoun-inversion", "6-linguistic-narrative-fragmentation"]
 toc = true
 modality = "linguistic"

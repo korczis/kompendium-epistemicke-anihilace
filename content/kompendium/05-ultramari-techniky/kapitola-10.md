@@ -9,6 +9,8 @@ tags = ["kompendium", "ultramari", "kapitola-10", "transkonceptualni-mechanismy"
 categories = ["academic", "ultramari"]
 
 [extra]
+ea_family = "5.5"
+listing_note = "Operace pod prahem konceptuálního zachycení"
 related_terms = ["kapitola-6", "kapitola-7", "kapitola-8"]
 section_icon = "🚨"
 toc = true
@@ -17,7 +19,7 @@ access_level = "L3-L4"
 
 # Kapitola 10 — Transkonceptuální mechanismy
 
-> 🚨 Kapitola popisuje 30 ultramárních technik ([EA-5.5.1](@/kompendium/techniques/ea-5-5-1-pre-predikativni-blokace.md) a další) operujících **pod prahem konceptuálního zachycení** — na úrovni, která předchází formování pojmů, na nichž operuje veškerá explicitní reflexe, identita, evaluace a paradoxalita. Materiály vyžadují IRB autorizaci a etickou supervizi. Kniha popisuje techniky kompaktní taxonomickou deskripcí; operační detaily ani rekonstruktivní protokoly neobsahuje. Plné per-technique články pro EA-5.5.* jsou v přípravné fázi.
+{% set cat = load_data(path="static/data/listings/techniques.json") %}> 🚨 Kapitola popisuje {{ cat.groups["5.5"] | length }} ultramárních technik ([EA-5.5.1](@/kompendium/techniques/ea-5-5-1-pre-predikativni-blokace.md) a další) operujících **pod prahem konceptuálního zachycení** — na úrovni, která předchází formování pojmů, na nichž operuje veškerá explicitní reflexe, identita, evaluace a paradoxalita. Materiály vyžadují IRB autorizaci a etickou supervizi. Kniha popisuje techniky kompaktní taxonomickou deskripcí; operační detaily ani rekonstruktivní protokoly neobsahuje. Plné per-technique články pro EA-5.5.* jsou v přípravné fázi.
 
 ## Pozice kapitoly
 
@@ -27,15 +29,13 @@ Předkonceptuální vrstva je v fenomenologické tradici dlouho dokumentována p
 
 Tato vrstva je **strukturálně rezistentní vůči konceptualizaci** — pokus ji uchopit pojmově ji nutně transformuje na konceptuální obsah, který už není pre-konceptuální. Techniky kapitoly 10 exploitují právě tento strukturální fakt: zasahují vrstvu, kterou subjekt nedokáže zachytit pojmovým aparátem, a tedy ani **artikulovat** to, co se s ním děje. Klinické popisy syndromů z této kapitoly mají charakteristickou kvalitu *ne-vyslovitelnosti* — subjekt cítí „něco zásadního se změnilo“, ale není schopen specifikovat co.
 
-{% set cat = load_data(path="static/data/catalogue.json") %}
-
 ## Techniky EA-5.5
 
-Rodina EA-5.5 má {{ cat.families["5.5"] | length }} technik; kód, název i popis každého řádku pocházejí ze stránky, na niž vede.
+Rodina EA-5.5 má {{ cat.groups["5.5"] | length }} technik; kód, název i popis každého řádku pocházejí ze stránky, na niž vede.
 
 | EA | Technika | Shrnutí |
 |----|----------|---------|
-{% for t in cat.families["5.5"] %}| **[{{ t.code }}](@/kompendium/techniques/{{ t.slug }}.md)** | {{ t.name }} | {{ t.summary }} |
+{% for t in cat.groups["5.5"] %}| **[{{ t.code }}](@/kompendium/techniques/{{ t.slug }}.md)** | {{ t.name }} | {{ t.summary }} |
 {% endfor %}
 
 ## Jak techniky rodiny číst
@@ -86,11 +86,11 @@ Transkonceptuální mechanismy jsou **nejcitlivější** vrstvou kompendia:
 
 ## Závěr a uzavření sekce 05
 
-Kapitola 10 **uzavírá sekci 05 — Ultramární techniky fundamentální dekonstrukce**. Popisuje {{ cat.families["5.5"] | length }} transkonceptuálních mechanismů rodiny EA-5.5, které uvádí výše oddíl Techniky EA-5.5.
+Kapitola 10 **uzavírá sekci 05 — Ultramární techniky fundamentální dekonstrukce**. Popisuje {{ cat.groups["5.5"] | length }} transkonceptuálních mechanismů rodiny EA-5.5, které uvádí výše oddíl Techniky EA-5.5.
 
 Techniky exploitují předkonceptuální vrstvu zkušenosti dokumentovanou v fenomenologii (Husserl, Merleau-Ponty, Heidegger, Maldiney), gestalt-psychologii (Goldstein, Gurwitsch), analytické filozofii nekonceptuálního obsahu (Evans, Peacocke) a kontemplativních tradicích (advaita, dzogchen). Strukturní rezistence předkonceptuální vrstvy vůči konceptualizaci dělá z těchto technik **strukturně nejhlubší formu epistemické anihilace**, kterou lze taxonomicky zachytit.
 
-Sekce 05 jako celek katalogizuje **150 ultramárních technik** v pěti vrstvách rostoucí destruktivní hloubky. Každá vrstva — reflexivita, transcendentální podmínky, identita, logická evaluace, předkonceptualita — je párována s rekonstruktivním protokolem v [Sekci 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md). Kompendium tak není katalogem destrukce, ale **integrovaným nástrojem** pro rozpoznání, neutralizaci a rekonstrukci epistemických struktur ohrožených ultramárními technikami.
+Sekce 05 jako celek katalogizuje **{{ cat.parent_counts["5"] }} ultramárních technik** v pěti vrstvách rostoucí destruktivní hloubky. Každá vrstva — reflexivita, transcendentální podmínky, identita, logická evaluace, předkonceptualita — je párována s rekonstruktivním protokolem v [Sekci 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md). Kompendium tak není katalogem destrukce, ale **integrovaným nástrojem** pro rozpoznání, neutralizaci a rekonstrukci epistemických struktur ohrožených ultramárními technikami.
 
 V navazující [Sekci 06](@/kompendium/06-klinicke-aplikace/_index.md) jsou specifikovány klinické aplikace; v [Sekci 07](@/kompendium/07-teoreticke-reflexe/_index.md) meta-analytické reflexe; v [Sekci 08](@/kompendium/08-prilohy/_index.md) přílohy zahrnující detailní per-technique odkazy.
 

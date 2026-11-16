@@ -8,6 +8,7 @@ tags = ["kompendium", "uvod", "epistemicka-anihilace", "kognitivni-anihilace", "
 categories = ["academic"]
 
 [extra]
+listing_note = "Šest vrstev, jejich vazby a ilustrativní model eskalace na jedné stránce"
 toc = true
 +++
 

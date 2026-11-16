@@ -58,6 +58,12 @@ Instruments that misled the same sessions, and the reading that held:
 - This site's 404 page carries the full navigation, so a fetch of a wrong URL still "contains" the
   site's words. Guard every production check with the HTTP status (`curl -w '%{http_code}'`).
 - A run reads `queued` while its first job runs; read the jobs, not the run's label.
+- A grep proves only the shape it searches: 105 of 106 generated graphics looked orphaned
+  because the templates build their paths (`"section-" ~ key ~ ".svg"`), and no page looked
+  illustrated because the illustrations are inline SVG drawn by a script, not `![...]`. Measure
+  the rendered page. For a deployed surface, the browser gate runs against production too:
+  `BASE_URL=<Pages URL> PLAYWRIGHT=$PWD/node_modules/playwright-core ONLY='^/<path>/' node
+  test/e2e/surfaces.cjs` (ONLY matches a path that starts with "/"; an empty selection exits 2).
 - A CI watcher keyed on "the newest run for this sha" reported a pre-merge head's green as the
   merged head's: `[ "$h" != "9738c87d"* ]` is not a glob in POSIX `test`, so it filtered nothing.
   Pin the run id of the push you made and watch that id; the sha moves under you, the id does not.

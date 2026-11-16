@@ -18,7 +18,7 @@ access_level = "L1-L4"
 status = "complete"
 +++
 
-{% set cat = load_data(path="static/data/catalogue.json") %}
+{% set cat = load_data(path="static/data/listings/techniques.json") %}
 
 # Kompletní rejstřík technik (master index)
 
@@ -40,117 +40,117 @@ Detailní popis notace viz [Klasifikační schéma](@/kompendium/08-prilohy/klas
 
 ---
 
-## Kapitola 1 — {{ cat.chapter_names["1"] }}
+## Kapitola 1 — {{ cat.parent_names["1"] }}
 
 > **Subjekt akademického a intelektuálního prostředí.** Techniky využívají legitimní akademické nástroje (selektivní citace, falešné dilema, rétorika autority) k systematické dezorientaci. Riziko: **střední**, reverzibilita: **vysoká**.
 
-{% for f in cat.chapters["1"] %}{% set fname = cat.family_names[f] | default(value="") %}
+{% for f in cat.parents["1"] %}{% set fname = cat.group_names[f] | default(value="") %}
 
 ### EA-{{ f }}{% if fname %} {{ fname }}{% endif %}
 
 | Kód | Název | Jednořádkový popis |
 |-----|-------|--------------------|
-{% for t in cat.families[f] %}| [`{{ t.code }}`](@/kompendium/techniques/{{ t.slug }}.md) | {{ t.name }} | {{ t.summary }} |
+{% for t in cat.groups[f] %}| [`{{ t.code }}`](@/kompendium/techniques/{{ t.slug }}.md) | {{ t.name }} | {{ t.summary }} |
 {% endfor %}
 {% endfor %}
 
 ---
 
-## Kapitola 2 — {{ cat.chapter_names["2"] }}
+## Kapitola 2 — {{ cat.parent_names["2"] }}
 
 > **Cíl: zničení epistemické důvěryhodnosti zdroje.** Riziko: **střední–vysoké**, reverzibilita: **střední**. Plné articulace v sekci [03 Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md) a [04 Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md).
 
-{% for f in cat.chapters["2"] %}{% set fname = cat.family_names[f] | default(value="") %}
+{% for f in cat.parents["2"] %}{% set fname = cat.group_names[f] | default(value="") %}
 
 ### EA-{{ f }}{% if fname %} {{ fname }}{% endif %}
 
 | Kód | Název | Jednořádkový popis |
 |-----|-------|--------------------|
-{% for t in cat.families[f] %}| [`{{ t.code }}`](@/kompendium/techniques/{{ t.slug }}.md) | {{ t.name }} | {{ t.summary }} |
+{% for t in cat.groups[f] %}| [`{{ t.code }}`](@/kompendium/techniques/{{ t.slug }}.md) | {{ t.name }} | {{ t.summary }} |
 {% endfor %}
 {% endfor %}
 
 ---
 
-## Kapitola 3 — {{ cat.chapter_names["3"] }}
+## Kapitola 3 — {{ cat.parent_names["3"] }}
 
 > **Cíl: naučit subjekt manipulovat sebe sama.** Riziko: **vysoké**, reverzibilita: **nízká–střední**. Pokrývá doménu vzdělávacích, terapeutických a coachingových kontextů.
 
-{% for f in cat.chapters["3"] %}{% set fname = cat.family_names[f] | default(value="") %}
+{% for f in cat.parents["3"] %}{% set fname = cat.group_names[f] | default(value="") %}
 
 ### EA-{{ f }}{% if fname %} {{ fname }}{% endif %}
 
 | Kód | Název | Jednořádkový popis |
 |-----|-------|--------------------|
-{% for t in cat.families[f] %}| [`{{ t.code }}`](@/kompendium/techniques/{{ t.slug }}.md) | {{ t.name }} | {{ t.summary }} |
+{% for t in cat.groups[f] %}| [`{{ t.code }}`](@/kompendium/techniques/{{ t.slug }}.md) | {{ t.name }} | {{ t.summary }} |
 {% endfor %}
 {% endfor %}
 
 ---
 
-## Kapitola 4 — {{ cat.chapter_names["4"] }}
+## Kapitola 4 — {{ cat.parent_names["4"] }}
 
 > **Komplexní destrukční sekvence kombinující techniky z předchozích kapitol.** Riziko: **vysoké–extrémní**, reverzibilita: nízká. Vyžaduje úroveň přístupu **L2+**. Plný popis v [Sekci 04](@/kompendium/04-terminalni-protokoly/_index.md).
 
-{% for f in cat.chapters["4"] %}{% set fname = cat.family_names[f] | default(value="") %}
+{% for f in cat.parents["4"] %}{% set fname = cat.group_names[f] | default(value="") %}
 
 ### EA-{{ f }}{% if fname %} {{ fname }}{% endif %}
 
 | Kód | Název | Jednořádkový popis |
 |-----|-------|--------------------|
-{% for t in cat.families[f] %}| [`{{ t.code }}`](@/kompendium/techniques/{{ t.slug }}.md) | {{ t.name }} | {{ t.summary }} |
+{% for t in cat.groups[f] %}| [`{{ t.code }}`](@/kompendium/techniques/{{ t.slug }}.md) | {{ t.name }} | {{ t.summary }} |
 {% endfor %}
 {% endfor %}
 
 ---
 
-## Kapitola 5 — {{ cat.chapter_names["5"] }}
+## Kapitola 5 — {{ cat.parent_names["5"] }}
 
 > **Fundamentální dekonstrukce.** Cíl: rozklad **základních struktur poznávání samotného**. Riziko: **extrémní**, reverzibilita: **velmi nízká**. Vyžaduje úroveň přístupu **L3+** s etickým dohledem.
 
-{% for f in cat.chapters["5"] %}{% set fname = cat.family_names[f] | default(value="") %}
+{% for f in cat.parents["5"] %}{% set fname = cat.group_names[f] | default(value="") %}
 
 ### EA-{{ f }}{% if fname %} {{ fname }}{% endif %}
 
 | Kód | Název | Jednořádkový popis |
 |-----|-------|--------------------|
-{% for t in cat.families[f] %}| [`{{ t.code }}`](@/kompendium/techniques/{{ t.slug }}.md) | {{ t.name }} | {{ t.summary }} |
+{% for t in cat.groups[f] %}| [`{{ t.code }}`](@/kompendium/techniques/{{ t.slug }}.md) | {{ t.name }} | {{ t.summary }} |
 {% endfor %}
 {% endfor %}
 
 ---
 
-## Kapitola 6 — {{ cat.chapter_names["6"] }}
+## Kapitola 6 — {{ cat.parent_names["6"] }}
 
 > **Diagnostické a terapeutické rámce** pro práci s pacienty exponovanými technikám EA. Plný popis v [Sekci 06](@/kompendium/06-klinicke-aplikace/_index.md) a [Diagnostických nástrojích](@/kompendium/08-prilohy/diagnosticke-nastroje.md).
 
-{% for f in cat.chapters["6"] %}{% set fname = cat.family_names[f] | default(value="") %}
+{% for f in cat.parents["6"] %}{% set fname = cat.group_names[f] | default(value="") %}
 
 ### EA-{{ f }}{% if fname %} {{ fname }}{% endif %}
 
 | Kód | Název | Jednořádkový popis |
 |-----|-------|--------------------|
-{% for t in cat.families[f] %}| [`{{ t.code }}`](@/kompendium/techniques/{{ t.slug }}.md) | {{ t.name }} | {{ t.summary }} |
+{% for t in cat.groups[f] %}| [`{{ t.code }}`](@/kompendium/techniques/{{ t.slug }}.md) | {{ t.name }} | {{ t.summary }} |
 {% endfor %}
 {% endfor %}
 
 ---
 
-## Kapitola 7 — {{ cat.chapter_names["7"] }}
+## Kapitola 7 — {{ cat.parent_names["7"] }}
 
 > **Filozofické, epistemologické a kognitivně-vědní zázemí taxonomie.** Kapitola 7 neobsahuje techniky v užším smyslu: kódy `EA-7.*` označují teoretické rámce, jimiž se jevy z kapitol 1–5 vysvětlují, kriticky prověřují a zasazují do dějin myšlení. Rozcestník kapitoly je [Sekce 07](@/kompendium/07-teoreticke-reflexe/_index.md), přehled tradic podle oborů [Filozofické tradice](@/kompendium/07-teoreticke-reflexe/filozoficke-tradice/_index.md), grafický přehled [mapa teoretických rámců](@/kompendium/07-teoreticke-reflexe/visualizations.md).
 
 ### 7.A Kódované teoretické rámce `EA-7.*`
 
-{% set n7 = 0 %}{% for f in cat.chapters["7"] %}{% set_global n7 = n7 + cat.families[f] | length %}{% endfor %}{{ n7 }} hesel ve {{ cat.chapters["7"] | length }} skupinách. Každé popisuje myšlenku autora, to, co z ní plyne pro rozpoznání epistemické anihilace, a meze jejího použití.
+{% set n7 = 0 %}{% for f in cat.parents["7"] %}{% set_global n7 = n7 + cat.groups[f] | length %}{% endfor %}{{ n7 }} hesel ve {{ cat.parents["7"] | length }} skupinách. Každé popisuje myšlenku autora, to, co z ní plyne pro rozpoznání epistemické anihilace, a meze jejího použití.
 
-{% for f in cat.chapters["7"] %}{% set fname = cat.family_names[f] | default(value="") %}
+{% for f in cat.parents["7"] %}{% set fname = cat.group_names[f] | default(value="") %}
 
 #### EA-{{ f }}{% if fname %} {{ fname }}{% endif %}
 
 | Kód | Název | Jednořádkový popis |
 |-----|-------|--------------------|
-{% for t in cat.families[f] %}| [`{{ t.code }}`](@/kompendium/techniques/{{ t.slug }}.md) | {{ t.name }} | {{ t.summary }} |
+{% for t in cat.groups[f] %}| [`{{ t.code }}`](@/kompendium/techniques/{{ t.slug }}.md) | {{ t.name }} | {{ t.summary }} |
 {% endfor %}
 {% endfor %}
 
@@ -186,7 +186,7 @@ Detailní popis notace viz [Klasifikační schéma](@/kompendium/08-prilohy/klas
 
 ---
 
-## Kapitola 8 — {{ cat.chapter_names["8"] }}
+## Kapitola 8 — {{ cat.parent_names["8"] }}
 
 > **Nástroje posouzení, klinické a teoretické rámce a literatura**, o něž se opírají kapitoly
 > 1–7. Kódy `EA-8.*` neoznačují manipulativní techniky, ale odborné opory pro jejich
@@ -194,13 +194,13 @@ Detailní popis notace viz [Klasifikační schéma](@/kompendium/08-prilohy/klas
 > nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md) a
 > [Bibliografie](@/kompendium/08-prilohy/bibliografie.md).
 
-{% for f in cat.chapters["8"] %}{% set fname = cat.family_names[f] | default(value="") %}
+{% for f in cat.parents["8"] %}{% set fname = cat.group_names[f] | default(value="") %}
 
 ### EA-{{ f }}{% if fname %} {{ fname }}{% endif %}
 
 | Kód | Název | Jednořádkový popis |
 |-----|-------|--------------------|
-{% for t in cat.families[f] %}| [`{{ t.code }}`](@/kompendium/techniques/{{ t.slug }}.md) | {{ t.name }} | {{ t.summary }} |
+{% for t in cat.groups[f] %}| [`{{ t.code }}`](@/kompendium/techniques/{{ t.slug }}.md) | {{ t.name }} | {{ t.summary }} |
 {% endfor %}
 {% endfor %}
 
@@ -212,19 +212,19 @@ taxonomie vychází: Liftonova kritéria myšlenkové reformy (Lifton, 1961), po
 Singerovou (Singer a Lalich, 1995), Starkův koncept [coercive control](@/glossary/coercive-control.md) (Stark, 2007) a fázový
 model zotavení Hermanové (Herman, 1992).
 
-## Kapitola 9 — {{ cat.chapter_names["9"] }}
+## Kapitola 9 — {{ cat.parent_names["9"] }}
 
 > **Epistemické útoky v prostředí jazykových modelů, syntetických médií a platforem.** Kódy
 > `EA-9.*` popisují, jak se mechanismy z kapitol 1–5 přenášejí do digitálních systémů; každá
 > stránka uvádí znaky, obranu a meze poznání, nikdy postup útoku.
 
-{% for f in cat.chapters["9"] %}{% set fname = cat.family_names[f] | default(value="") %}
+{% for f in cat.parents["9"] %}{% set fname = cat.group_names[f] | default(value="") %}
 
 ### EA-{{ f }}{% if fname %} {{ fname }}{% endif %}
 
 | Kód | Název | Jednořádkový popis |
 |-----|-------|--------------------|
-{% for t in cat.families[f] %}| [`{{ t.code }}`](@/kompendium/techniques/{{ t.slug }}.md) | {{ t.name }} | {{ t.summary }} |
+{% for t in cat.groups[f] %}| [`{{ t.code }}`](@/kompendium/techniques/{{ t.slug }}.md) | {{ t.name }} | {{ t.summary }} |
 {% endfor %}
 {% endfor %}
 

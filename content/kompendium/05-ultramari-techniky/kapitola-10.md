@@ -27,15 +27,15 @@ Předkonceptuální vrstva je v fenomenologické tradici dlouho dokumentována p
 
 Tato vrstva je **strukturálně rezistentní vůči konceptualizaci** — pokus ji uchopit pojmově ji nutně transformuje na konceptuální obsah, který už není pre-konceptuální. Techniky kapitoly 10 exploitují právě tento strukturální fakt: zasahují vrstvu, kterou subjekt nedokáže zachytit pojmovým aparátem, a tedy ani **artikulovat** to, co se s ním děje. Klinické popisy syndromů z této kapitoly mají charakteristickou kvalitu *ne-vyslovitelnosti* — subjekt cítí „něco zásadního se změnilo“, ale není schopen specifikovat co.
 
-{% set cat = load_data(path="static/data/catalogue.json") %}
+{% set cat = load_data(path="static/data/listings/techniques.json") %}
 
 ## Techniky EA-5.5
 
-Rodina EA-5.5 má {{ cat.families["5.5"] | length }} technik; kód, název i popis každého řádku pocházejí ze stránky, na niž vede.
+Rodina EA-5.5 má {{ cat.groups["5.5"] | length }} technik; kód, název i popis každého řádku pocházejí ze stránky, na niž vede.
 
 | EA | Technika | Shrnutí |
 |----|----------|---------|
-{% for t in cat.families["5.5"] %}| **[{{ t.code }}](@/kompendium/techniques/{{ t.slug }}.md)** | {{ t.name }} | {{ t.summary }} |
+{% for t in cat.groups["5.5"] %}| **[{{ t.code }}](@/kompendium/techniques/{{ t.slug }}.md)** | {{ t.name }} | {{ t.summary }} |
 {% endfor %}
 
 ## Jak techniky rodiny číst
@@ -86,7 +86,7 @@ Transkonceptuální mechanismy jsou **nejcitlivější** vrstvou kompendia:
 
 ## Závěr a uzavření sekce 05
 
-Kapitola 10 **uzavírá sekci 05 — Ultramární techniky fundamentální dekonstrukce**. Popisuje {{ cat.families["5.5"] | length }} transkonceptuálních mechanismů rodiny EA-5.5, které uvádí výše oddíl Techniky EA-5.5.
+Kapitola 10 **uzavírá sekci 05 — Ultramární techniky fundamentální dekonstrukce**. Popisuje {{ cat.groups["5.5"] | length }} transkonceptuálních mechanismů rodiny EA-5.5, které uvádí výše oddíl Techniky EA-5.5.
 
 Techniky exploitují předkonceptuální vrstvu zkušenosti dokumentovanou v fenomenologii (Husserl, Merleau-Ponty, Heidegger, Maldiney), gestalt-psychologii (Goldstein, Gurwitsch), analytické filozofii nekonceptuálního obsahu (Evans, Peacocke) a kontemplativních tradicích (advaita, dzogchen). Strukturní rezistence předkonceptuální vrstvy vůči konceptualizaci dělá z těchto technik **strukturně nejhlubší formu epistemické anihilace**, kterou lze taxonomicky zachytit.
 

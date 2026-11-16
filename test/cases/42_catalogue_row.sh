@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Requirement `catalogue-row` of scripts/check-ia.py (ADR 0015): a technique's catalogue entry
 # is its page's front matter, and a chapter renders its catalogue table from
-# static/data/catalogue.json with load_data. A hand-written catalogue row in content, a table row
+# static/data/listings/techniques.json with load_data. A hand-written catalogue row in content, a table row
 # whose first cell is an EA technique code, bold or in backticks, linked or not, is refused: it is
 # the row that drifted from its page (kapitola-8 to 10 named 70 of 90 techniques other than the
 # pages they linked, the register 42 of 90) and the reason six codes came to sit on thirteen pages.
@@ -44,9 +44,9 @@ page c42-group "c42-group" '| Skupina | Obsah |
 |---|---|
 | `EA-9.1` | Jazykové modely |
 | `EA-1.4.2-a` | {{ cat.entries["EA-1.4.2"].name }}, varianta a |'
-page c42-loop "c42-loop" '{% set cat = load_data(path="static/data/catalogue.json") %}| EA | Technika | Shrnutí |
+page c42-loop "c42-loop" '{% set cat = load_data(path="static/data/listings/techniques.json") %}| EA | Technika | Shrnutí |
 |---|---|---|
-{% for t in cat.families["1.2"] %}| **[{{ t.code }}](@/kompendium/techniques/{{ t.slug }}.md)** | {{ t.name }} | {{ t.summary }} |
+{% for t in cat.groups["1.2"] %}| **[{{ t.code }}](@/kompendium/techniques/{{ t.slug }}.md)** | {{ t.name }} | {{ t.summary }} |
 {% endfor %}'
 page c42-heading "c42-heading" '#### [EA-5.2.11 Kategoriální anihilace](@/kompendium/techniques/ea-5-2-11-kategorialni-anihilace.md)
 

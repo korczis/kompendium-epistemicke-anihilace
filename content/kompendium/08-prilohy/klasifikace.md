@@ -42,7 +42,7 @@ EA-X.Y.Z[-α]
 
 ### 1.2 Příklady
 
-{% set cat = load_data(path="static/data/catalogue.json") %}
+{% set cat = load_data(path="static/data/listings/techniques.json") %}
 
 | Kód | Význam |
 |-----|--------|

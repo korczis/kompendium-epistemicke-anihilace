@@ -1,0 +1,37 @@
+# Derived listings of the book (ADR 0015, rule project.listings-derived): every table of a
+# section's own pages is declared here and rendered by its pages with
+#   {% set l = load_data(path="static/data/listings/<key>.json") %}
+# from the JSON scripts/build-ui-data.py writes through scripts/listings.py, from each member
+# page's own front matter. A new listing is one [[listing]] block, never a new script.
+#
+# Fields:
+#   key           identifier and output name (static/data/listings/<key>.json)
+#   section       the section whose pages (and subsection index pages) are the members
+#   index_pages   pages that render the listing; check-ia refuses a hand-written member row there
+#   where         keep only members whose front matter has this field (dotted path)
+#   exclude       members left out, each {path, reason}
+#   group         {code, pattern, group, parent}: groups inferred from a code (regex groups fill
+#                 the {0} {1} … templates), or {field, default}: groups from a front-matter field
+#   names         a names file with [[chapter]] (parent) and [[family]] (group) rows
+#   group_names   group key -> name; group_order: the order of the groups; group_notes: key -> note
+#   fields        front-matter fields carried into each member (dotted; the last key names it)
+#   title_strip / summary_strip   regexes removed from the title / description
+
+schema = "kompendium-listings/v1"
+
+[[listing]]
+key = "techniques"
+section = "kompendium/techniques"
+index_pages = [
+  "kompendium/techniques/_index.md",
+  "kompendium/08-prilohy/rejstrik-technik.md",
+  "kompendium/03-zakladni-kategorie/kapitola-1.md",
+  "kompendium/05-ultramari-techniky/kapitola-8.md",
+  "kompendium/05-ultramari-techniky/kapitola-9.md",
+  "kompendium/05-ultramari-techniky/kapitola-10.md",
+]
+group = { code = "extra.ea_code", pattern = '^EA-(\d+)\.(\d+)\.(\d+)$', group = "{0}.{1}", parent = "{0}" }
+names = "data/families.toml"
+fields = ["extra.exploitation"]
+title_strip = '^EA-[\d.]+\s*'
+summary_strip = '^(?:Detailní\s+)?per-technique\s+článek:\s*[^—]*—\s*'

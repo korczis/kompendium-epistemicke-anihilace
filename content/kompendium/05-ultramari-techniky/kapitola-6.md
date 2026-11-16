@@ -19,7 +19,7 @@ access_level = "L3-L4"
 
 # Kapitola 6 — Epistemická singularita
 
-> 🚨 Kapitola popisuje 30 ultramárních technik (EA-5.1.*) operujících na rovině [metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md). Materiály vyžadují IRB autorizaci a etickou supervizi. Kniha popisuje metaúroveň fenomenologie a klinického obrazu; operační detaily neobsahuje.
+{% set cat = load_data(path="static/data/listings/techniques.json") %}> 🚨 Kapitola popisuje {{ cat.groups["5.1"] | length }} ultramárních technik (EA-5.1.*) operujících na rovině [metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md). Materiály vyžadují IRB autorizaci a etickou supervizi. Kniha popisuje metaúroveň fenomenologie a klinického obrazu; operační detaily neobsahuje.
 
 ## Pozice kapitoly
 
@@ -29,9 +29,9 @@ Reflexivita je ze všech vyšších kognitivních funkcí nejvíce **strukturně
 
 Pro filozofický kontext viz tradici fenomenologie ([Husserl](@/glossary/fenomenologie.md) — eidetická redukce, transcendentální ego), filozofie mysli (Hofstadter — *Gödel, Escher, Bach*), kognitivní vědy (Dennett — heterofenomenologie) a hermeneutiky ([Gadamer](@/glossary/hermeneutika.md) — [hermeneutický kruh](@/glossary/hermeneuticky-kruh.md)). Ultramární techniky této kapitoly nejsou abstraktní filozofické konstrukce — jsou **operacionalizované exploity** transcendentálních struktur, které tyto tradice rekonstruují.
 
-## Třicet technik EA-5.1.* — strukturální mapa
+## Techniky EA-5.1.* — strukturální mapa
 
-Třicet technik kapitoly se rozkládá do **šesti operačních klastrů**, z nichž každý zasahuje distinktní vrstvu reflexivního aparátu.
+Techniky kapitoly se rozkládají do **šesti operačních klastrů**, z nichž každý zasahuje distinktní vrstvu reflexivního aparátu.
 
 | Klastr | Rozsah | Cílová struktura | Reprezentativní technika |
 |--------|--------|-------------------|---------------------------|
@@ -134,7 +134,7 @@ Tato kapitola **neposkytuje operační návod**. Operační dokumentaci kniha ne
 
 ## Závěr
 
-Kapitola 6 inauguruje sekci 05 popisem **30 technik epistemické singularity** organizovaných do šesti klastrů (sebevztažný kolaps, sémantická destabilizace, hyperreflexivní destrukce, inferenční paralýza, diferenciální dekonstrukce, konvergence k singularitě). Vrcholovou technikou je [EA-5.1.28 — Konvergentní singularita](@/kompendium/techniques/ea-5-1-28-konvergentni-singularita.md), v níž všechny předchozí klastry simultánně konvergují k bodu terminální epistemické anihilace.
+Kapitola 6 inauguruje sekci 05 popisem **{{ cat.groups["5.1"] | length }} technik epistemické singularity** organizovaných do šesti klastrů (sebevztažný kolaps, sémantická destabilizace, hyperreflexivní destrukce, inferenční paralýza, diferenciální dekonstrukce, konvergence k singularitě). Vrcholovou technikou je [EA-5.1.28 — Konvergentní singularita](@/kompendium/techniques/ea-5-1-28-konvergentni-singularita.md), v níž všechny předchozí klastry simultánně konvergují k bodu terminální epistemické anihilace.
 
 Technicky tyto techniky exploitují **strukturně-singulární body** reflexivních smyček — místa, kde se reflexe lokálně hroutí nebo přechází do auto-referenční regrese. Filozoficky jsou párovány s tradicí transcendentální fenomenologie, hermeneutické filozofie a kognitivní vědy. Klinicky vyžadují distinktní diagnostiku odlišující je od psychózy, OCD, depersonalizace, filozofické deprese a burnoutu.
 

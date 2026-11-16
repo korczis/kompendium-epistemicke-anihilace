@@ -19,7 +19,7 @@ access_level = "L3-L4"
 
 # Kapitola 9 — Paradoxální metaanihilační protokoly
 
-> 🚨 Kapitola popisuje 30 ultramárních technik ([EA-5.4.1](@/kompendium/techniques/ea-5-4-1-lhar-paradox-aplikace.md) a další) exploitujících **sebevztažné paradoxy** k destabilizaci rámců, v nichž subjekt evaluuje pravdivost, validitu a koherenci. Materiály vyžadují IRB autorizaci a etickou supervizi. Kniha popisuje techniky kompaktní taxonomickou deskripcí; operační detaily ani rekonstruktivní protokoly neobsahuje. Plné per-technique články pro EA-5.4.* jsou v přípravné fázi.
+{% set cat = load_data(path="static/data/listings/techniques.json") %}> 🚨 Kapitola popisuje {{ cat.groups["5.4"] | length }} ultramárních technik ([EA-5.4.1](@/kompendium/techniques/ea-5-4-1-lhar-paradox-aplikace.md) a další) exploitujících **sebevztažné paradoxy** k destabilizaci rámců, v nichž subjekt evaluuje pravdivost, validitu a koherenci. Materiály vyžadují IRB autorizaci a etickou supervizi. Kniha popisuje techniky kompaktní taxonomickou deskripcí; operační detaily ani rekonstruktivní protokoly neobsahuje. Plné per-technique články pro EA-5.4.* jsou v přípravné fázi.
 
 ## Pozice kapitoly
 
@@ -28,8 +28,6 @@ Tato kapitola představuje **čtvrtý stupeň vertikálního gradientu destrukce
 Paradoxální metaanihilační protokoly exploitují třídu strukturně-singulárních konstrukcí, které jsou v matematické logice studovány od konce 19. století: **sebevztažné paradoxy**. Jádrem každé techniky je výrok nebo procedura, která **odkazuje sama na sebe** takovým způsobem, že její evaluace produkuje protichůdné výsledky v závislosti na úrovni, na níž je provedena. Klasické paradoxy (Lhářův, Russellův, Berryho, Richard, Grellingův-Nelsonův) jsou v matematice řešitelné prostřednictvím **typové hierarchie** (Russell), **diagonalizace** (Tarski), nebo **separace úrovní** (ZF). V kognitivním systému subjektu však tyto formální řešení nejsou snadno aplikovatelná — exploitace paradoxů generuje **stav, v němž jakýkoli evaluační akt subjektu generuje vlastní protiakce**.
 
 Filozoficky jsou techniky této kapitoly zakotveny v: **matematické logice** (Russell, Tarski, Gödel, Church, Turing), **filozofii jazyka** (Wittgenstein — rule-following, Kripke — Wittgenstein's paradox), **dialetheismu** (Priest — *In Contradiction*), **paraconsistentní logice** (Routley, Brady) a **buddhistické tetralemě** (Nāgārjuna). Techniky operacionalizují tyto teoretické zdroje destruktivně.
-
-{% set cat = load_data(path="static/data/listings/techniques.json") %}
 
 ## Techniky EA-5.4
 

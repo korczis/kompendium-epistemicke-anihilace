@@ -19,7 +19,7 @@ access_level = "L3-L4"
 
 # Kapitola 8 — Hypertransformativní protokoly
 
-> 🚨 Kapitola popisuje 30 ultramárních technik ([EA-5.3.1](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md) a další) operujících na rovině [identity poznávajícího subjektu](@/glossary/epistemicka-alienace.md). Materiály vyžadují IRB autorizaci a etickou supervizi. Kniha popisuje techniky kompaktní taxonomickou deskripcí; operační detaily, plné fenomenologické profily ani rekonstruktivní protokoly neobsahuje. Plné per-technique články pro EA-5.3.* jsou v přípravné fázi a publikovány budou až po dokončení etické supervize.
+{% set cat = load_data(path="static/data/listings/techniques.json") %}> 🚨 Kapitola popisuje {{ cat.groups["5.3"] | length }} ultramárních technik ([EA-5.3.1](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md) a další) operujících na rovině [identity poznávajícího subjektu](@/glossary/epistemicka-alienace.md). Materiály vyžadují IRB autorizaci a etickou supervizi. Kniha popisuje techniky kompaktní taxonomickou deskripcí; operační detaily, plné fenomenologické profily ani rekonstruktivní protokoly neobsahuje. Plné per-technique články pro EA-5.3.* jsou v přípravné fázi a publikovány budou až po dokončení etické supervize.
 
 ## Pozice kapitoly
 
@@ -28,8 +28,6 @@ Tato kapitola představuje **třetí stupeň vertikálního gradientu destrukce*
 Hypertransformativní protokoly nejsou identitární modifikace v běžném smyslu (změna rolí, profesí, životních fází) — jsou to **vynucené rekurzivní transformace**, v nichž je subjekt opakovaně přiváděn k bodu, v němž jeho předchozí identita musí být **odložena jako falešná**, a poté uvnitř nové identity opět odložena jako falešná, a tak dále. Kumulativní efekt: subjekt postupně ztrácí kapacitu spočinout v jakékoli stabilní identitární konfiguraci.
 
 Filozoficky kapitola exploituje tradici **post-strukturalistické kritiky subjektu** (Foucault, Deleuze, Butler — performativita identity), **psychoanalytické teorie identity** (Lacan — *stade du miroir*), **fenomenologie tělesnosti** (Merleau-Ponty), **buddhistické nauky o ne-já** (anatman) a **klinické literatury o disociačních poruchách identity** (DSM-5 DID, ICD-11 6B64). Techniky operacionalizují tyto teoretické zdroje destruktivně.
-
-{% set cat = load_data(path="static/data/listings/techniques.json") %}
 
 ## Techniky EA-5.3
 

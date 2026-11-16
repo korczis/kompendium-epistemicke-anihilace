@@ -1,6 +1,6 @@
 +++
 title = "05. Ultramární techniky fundamentální dekonstrukce"
-description = "Sekce 05 — pět kapitol (6–10), 150 ultramárních technik epistemické anihilace seskupených do pěti operačních režimů: epistemická singularita, metatranscendentální anihilace."
+description = "Sekce 05 — kapitoly 6–10: ultramární techniky epistemické anihilace v operačních režimech od epistemické singularity po transkonceptuální mechanismy."
 weight = 5
 sort_by = "weight"
 template = "section.html"
@@ -50,7 +50,7 @@ Postupné sestupování po této ose koreluje s **eskalujícím rizikem ireversi
 
 ### Subkategorie ultramárních technik
 
-Pět hlavních subkategorií tvoří hlavní strukturu sekce 05. Každá obsahuje 30 technik (`EA-5.X.1` až `EA-5.X.30`) a je dále rozpracována v dedikované kapitole.
+Sekci 05 tvoří {{ tech.parents["5"] | length }} subkategorií, každá s vlastní kapitolou; počty technik uvádí tabulka výše.
 
 #### Subkategorie 5.1 — Epistemická singularita {#subkategorie-5-1}
 
@@ -126,7 +126,7 @@ Materiály L3–L4 jsou distribuovány restriktivně. Cílová populace — kval
 
 ### 4. Princip rekonstruktivní finality
 
-Každá ultramární technika v Sekci 05 je párována s **rekonstruktivním protokolem** v [Sekci 06](@/kompendium/06-klinicke-aplikace/_index.md). Dokumentace není ukončena destrukcí — je strukturálně orientována k rekonstrukci. Žádná z 150 technik není popsána bez korespondujícího návrhu klinické odpovědi.
+Každá ultramární technika v Sekci 05 je párována s **rekonstruktivním protokolem** v [Sekci 06](@/kompendium/06-klinicke-aplikace/_index.md). Dokumentace není ukončena destrukcí — je strukturálně orientována k rekonstrukci. Žádná z {{ tech.parent_counts["5"] }} technik není popsána bez korespondujícího návrhu klinické odpovědi.
 
 ## Pedagogická sekvence
 
@@ -144,7 +144,7 @@ Doporučené pořadí studia pro nově přijaté výzkumníky úrovně L3:
 
 ## Per-technique architektura podknihovny
 
-Pro Kapitolu 6 (EA-5.1.*) jsou v paralelní vlně přípravy **plné hloubkové články** v [/kompendium/techniques/](@/kompendium/techniques/_index.md) — každá z 30 technik má samostatný článek s detailním fenomenologickým profilem, mechanismem operace, klinickým obrazem a rekonstruktivním protokolem.
+Pro Kapitolu 6 (EA-5.1.*) jsou v paralelní vlně přípravy **plné hloubkové články** v [/kompendium/techniques/](@/kompendium/techniques/_index.md) — každá z {{ tech.groups["5.1"] | length }} technik má samostatný článek s detailním fenomenologickým profilem, mechanismem operace, klinickým obrazem a rekonstruktivním protokolem.
 
 Pro Kapitoly 7, 8, 9, 10 jsou kompaktní taxonomické popisy integrovány přímo do narativu kapitoly. Plné per-technique články pro tyto kapitoly jsou **v přípravné fázi** a budou publikovány ve vlně 3 po dokončení etické supervize.
 

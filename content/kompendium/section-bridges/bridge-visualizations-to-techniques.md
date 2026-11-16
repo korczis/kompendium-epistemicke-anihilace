@@ -8,6 +8,7 @@ tags = ["kompendium", "section-bridge", "navigace", "interactive", "techniques"]
 categories = ["academic", "reference"]
 
 [extra]
+listing_note = "reference ↔ technika"
 related_terms = ["bridge-techniques-to-visualizations", "bridge-visualizations-to-clinical", "bridge-techniques-to-glossary", "bridge-techniques-to-quick-reference"]
 toc = false
 +++

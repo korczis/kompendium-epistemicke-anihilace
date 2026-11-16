@@ -8,6 +8,7 @@ tags = ["kompendium", "section-bridge", "navigace", "ultramari", "ea-taxonomy"]
 categories = ["academic", "reference"]
 
 [extra]
+listing_note = "typologie ↔ ultramari"
 related_terms = ["bridge-01-to-05-eticky-ramec-ultramari", "bridge-03-to-04-zakladni-terminalni", "bridge-04-to-05-terminalni-ultramari", "bridge-05-to-06-ultramari-klinika"]
 toc = false
 +++

@@ -8,6 +8,7 @@ tags = ["kompendium", "section-bridge", "navigace", "uvod", "ea-taxonomy"]
 categories = ["academic", "reference"]
 
 [extra]
+listing_note = "definice ↔ taxonomie"
 related_terms = ["bridge-01-to-02-predmluva-uvod", "bridge-02-to-07-uvod-teoreticke", "bridge-03-to-04-zakladni-terminalni", "bridge-03-to-06-techniky-klinika"]
 toc = false
 +++

@@ -8,6 +8,7 @@ tags = ["kompendium", "section-bridge", "navigace", "quick-reference", "glossary
 categories = ["academic", "reference"]
 
 [extra]
+listing_note = "lookup ↔ definice"
 related_terms = ["bridge-techniques-to-quick-reference", "bridge-techniques-to-glossary", "bridge-glossary-bridges-to-philosophy", "bridge-case-studies-to-glossary-bridges"]
 toc = false
 +++

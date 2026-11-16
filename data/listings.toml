@@ -46,3 +46,10 @@ group_names = { linguistic = "Lingvistické signatury", behavioral = "Behaviorá
 group_notes = { linguistic = "Strukturu jazyka a argumentace: jak se tvrzení brání ověření.", behavioral = "Vzorce jednání ve vztahu: kontrola, izolace, tlak, emoční řízení.", network = "Topologii a dynamiku informačních toků: koordinace, amplifikace, umlčení.", phenomenological = "Prožívání zasažené osoby: co se děje s jejím myšlením, emocemi, časem a identitou.", cross = "Kalibraci úsudku a argumentační vzorce, které propojují modality." }
 fields = ["extra.listing_note"]
 title_strip = '^Detekční signatura:\s*'
+
+[[listing]]
+key = "section-bridges"
+section = "kompendium/section-bridges"
+index_pages = ["kompendium/section-bridges/_index.md"]
+fields = ["extra.listing_note"]
+title_strip = '^Most:\s*'

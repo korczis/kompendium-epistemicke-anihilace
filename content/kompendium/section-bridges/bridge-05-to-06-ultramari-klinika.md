@@ -8,6 +8,7 @@ tags = ["kompendium", "section-bridge", "navigace", "ultramari", "klinicke-aplik
 categories = ["academic", "reference"]
 
 [extra]
+listing_note = "technika ↔ klinický vzor"
 related_terms = ["bridge-04-to-05-terminalni-ultramari", "bridge-04-to-06-terminalni-klinika", "bridge-05-to-07-ultramari-teorie", "bridge-05-to-08-ultramari-prilohy"]
 toc = false
 +++

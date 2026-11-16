@@ -68,7 +68,6 @@ Instruments that misled the same sessions, and the reading that held:
   (c5200028, 2026-11-15). A move is verified in both directions: the new page at 200 and each old
   address at 200 redirecting to it. A gate on aliases equal to their own page's address catches
   this shape of the bug before it ships.
-||||||| fc9576ba
 - A grep proves only the shape it searches: 105 of 106 generated graphics looked orphaned
   because the templates build their paths (`"section-" ~ key ~ ".svg"`), and no page looked
   illustrated because the illustrations are inline SVG drawn by a script, not `![...]`. Measure

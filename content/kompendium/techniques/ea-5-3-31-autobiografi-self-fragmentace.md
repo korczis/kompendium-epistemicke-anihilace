@@ -1,5 +1,6 @@
 +++
-title = "EA-5.3.27 Autobiografická fragmentace já"
+title = "EA-5.3.31 Autobiografická fragmentace já"
+aliases = ["/kompendium/techniques/ea-5-3-27-autobiografi-self-fragmentace/"]
 weight = 100
 description = "Stav, v němž je životní příběh rozdělen podle cizího měřítka na „pravé“ a „nepravé“ úseky, které spolu přestanou souviset. Znaky, odlišení, obrana, zotavení."
 
@@ -9,7 +10,7 @@ tags = ["kompendium", "techniques", "ea-5-3", "narativni-identita", "autobiograf
 [extra]
 category = "kompendium-technique"
 related_terms = ["ea-5-3-2-autobiograficka-dekonstrukce", "ea-5-3-19-autobiograficka-amnestizace", "ea-5-3-3-rolova-fragmentace", "ea-5-3-7-self-narrative-replacement", "ea-1-2-5-memorni-rekonstrukce", "ea-6-3-6-narrativni-rekonstrukce"]
-ea_code = "EA-5.3.27"
+ea_code = "EA-5.3.31"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.3 Hypertransformativní protokoly"
 access_level = "L3"
@@ -19,11 +20,11 @@ date_created = "2026-05-03"
 date_modified = "2026-11-10"
 +++
 
-# EA-5.3.27 Autobiografická fragmentace já
+# EA-5.3.31 Autobiografická fragmentace já
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-5.3.27` (kód sdílí s [ego-skeletální redukcí](@/kompendium/techniques/ea-5-3-27-ego-skeletalni-redukce.md); jde o odlišné vzorce) |
+| **EA kód** | `EA-5.3.31` |
 | **Kategorie** | 5. Ultramární techniky |
 | **Subkategorie** | 5.3 Hypertransformativní protokoly |
 | **Riziková úroveň** | Vysoká |

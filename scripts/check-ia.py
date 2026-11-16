@@ -156,6 +156,14 @@ Requirements (id: what is checked):
                    free code of its family, with its title, links and catalogue row. Pending zero at
                    the two pages of EA-5.3.27 (ego-skeletalni-redukce, autobiografi-self-fragmentace),
                    whose chapter row names neither; NEVER baselined
+  catalogue-row  no hand-written catalogue row: a content table row whose first cell is an EA technique
+                   code, bold or in backticks ("| **[EA-1.2.1](…)** | … |", "| **EA-5.3.22** | … |",
+                   "| [`EA-1.1.1`](…) | … |"). A technique's catalogue
+                   entry is its page's front matter (code, title, description), and a chapter renders
+                   its table from static/data/catalogue.json with load_data (ADR 0015); the row a loop
+                   renders is not in the source. Not charged: a technique heading with prose under it,
+                   a row whose first cell is not a technique code. Remedy: replace the table with the
+                   family's load_data loop. NEVER baselined
   access-level-row  no hand-written access level: a "| **Přístupová úroveň** | … |" row in content,
                    or the same claim as prose ("Přístupová úroveň L3.", "**Přístupová úroveň
                    L3–L4**:", "Přístupová úroveň L2 (rozšířený přístup) —"), with or without a
@@ -292,7 +300,8 @@ NEVER_BASELINED = {"placeholder", "technique-page", "howto", "drug-dose", "templ
                    "clinical-figure", "fabricated-citation", "legitimate-indication",
                    "code-range", "chrome-trailer",
                    "detail", "weak-link",
-                   "duplicate-passage", "duplicate-table", "access-level-row", "duplicate-ea-code", "alias-collision",
+                   "duplicate-passage", "duplicate-table", "access-level-row", "duplicate-ea-code",
+                   "catalogue-row", "alias-collision",
                    "drug-name", "authority-without-source",
                    "platform-section", "relative-link", "platform-label", "platform-frontmatter",
                    "philosophy-frame"}
@@ -312,9 +321,13 @@ PENDING_ZERO = {"placeholder": 0, "technique-page": 0, "howto": 0, "drug-dose": 
                 "duplicate-table": 249,  # measured on merged main c8394d3e after Přístupová úroveň removal; bold-label→short-value exempt
                 "access-level-row": 0,  # the row is derived from extra.access_level; 0 after removal
                 # the one known case: EA-5.3.27 on two pages, its kapitola-8 row naming neither
-                "duplicate-ea-code": 2,
+                "duplicate-ea-code": 0,
                 # safety, ADR 0013/0014: both reach 0 after the content lane's waves
                 "drug-name": 1, "authority-without-source": 0}  # 0 → never baselined (lands at 0 after 2e's slice)
+# A hand-written catalogue row: the first cell is an EA technique code, bold or in backticks, linked
+# or not ("| **[EA-1.2.1](…)** |", "| **EA-5.3.22** |", "| [`EA-1.1.1`](…) |", "| `EA-2.1.1` |").
+CATALOGUE_ROW = re.compile(r"^\|\s*(?:\*\*\s*\[?EA-\d+\.\d+\.\d+\]?(?:\([^)]*\))?\s*\*\*"
+                           r"|\[?`EA-\d+\.\d+\.\d+`\]?(?:\([^)]*\))?)\s*\|")
 BOLD_CANDIDATE_PAGES = 3  # a bold phrase on this many pages is a term and needs its own page
 
 
@@ -388,6 +401,8 @@ def violations(page: dict) -> list:
         found.append("access-level-row")
     if page.get("duplicate_ea_code"):
         found.append("duplicate-ea-code")
+    if page.get("catalogue_rows"):
+        found.append("catalogue-row")
     if page.get("alias_collisions"):
         found.append("alias-collision")
     if page.get("misnamed_techniques"):
@@ -425,6 +440,8 @@ def explain(page: dict) -> dict:
                              else "hand-written Přístupová úroveň L<n> in prose — delete the level"
                                   " claim, keep the rest of the sentence"
                              if page.get("access_level_prose") else ""),
+        "catalogue-row": (f"{len(page['catalogue_rows'])} hand-written row(s), first: "
+                          f"{page['catalogue_rows'][0][:70]}" if page.get("catalogue_rows") else ""),
         "alias-collision": ("; ".join(f"{a} is {why}" for a, why in page["alias_collisions"])
                             if page.get("alias_collisions") else ""),
         "duplicate-ea-code": (f"{page['duplicate_ea_code'][0]} is also the ea_code of "
@@ -942,6 +959,10 @@ def analyse(pages: list) -> dict:
     lower_freq = collections.Counter()
     for page in pages:
         body = page.pop("body")
+        # catalogue-row (ADR 0015): a literal table row whose first cell is a bold EA code; the row a
+        # load_data loop renders is not literal, its source line carries the Tera expression
+        page["catalogue_rows"] = [ln.strip() for ln in FENCE.sub("", body).splitlines()
+                                  if CATALOGUE_ROW.match(ln) and "{{" not in ln]
         lines = list(body_lines(body))
         page.update(academic_profile(body, lines))
         page["placeholders"] = placeholder_markers(body, page["extra"])

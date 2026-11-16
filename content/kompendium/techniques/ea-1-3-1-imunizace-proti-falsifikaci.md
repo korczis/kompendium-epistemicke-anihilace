@@ -10,6 +10,7 @@ tags = ["kompendium", "techniques", "ea-1-3-1", "imunizace", "falsifikace", "ad-
 categories = ["academic"]
 
 [extra]
+exploitation = "Ad hoc auxiliární hypotézy"
 related_terms = ["ea-1-2-3-iluzorni-komplexita", "ea-1-3-1-immunization-against-falsification", "ea-1-3-2", "ea-1-3-5-pseudo-empiricka-validace"]
 ea_code = "EA-1.3.1"
 ea_category = "1. Akademické techniky"

@@ -8,12 +8,12 @@ tags = ["kompendium"]
 
 [extra]
 toc = false
-entries = 5282
+entries = 5292
 +++
 
 Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotlivých stránkách kompendia a glosáře; ručně se needituje.
 
-**5282 položek**, seřazených podle autora.
+**5292 položek**, seřazených podle autora.
 
 ## A
 
@@ -960,6 +960,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Azyl a EA](@/kompendium/forensic-legal/43-asylum-EA.md)</small>
 - Bograd, M. (1984). Family systems approaches to wife battering: A feminist critique. *American Journal of Orthopsychiatry*, 54(4).  
   <small>Citováno: [Systémová teorie jako alternativa](@/kompendium/critical-perspectives/21-systems-theory-alternative.md)</small>
+- Böhme, G. (1993). Atmosphere as the fundamental concept of a new aesthetics. *Thesis Eleven*, 36(1), 113–126.  
+  <small>Citováno: [Kapitola 10: Transkonceptuální mechanismy](@/kompendium/05-ultramari-techniky/kapitola-10.md)</small>
 - Bohnet, I. (2016). *What Works: Gender Equality by Design*. Belknap Press of Harvard University Press.  
   <small>Citováno: [Plánování nástupnictví s EA fokusem](@/kompendium/organizational-defense/20-succession-planning-EA.md)</small>
 - Boin, A., 't Hart, P., Stern, E., & Sundelius, B. (2005). *The Politics of Crisis Management: Public Leadership under Pressure*. Cambridge University Press.  
@@ -1960,13 +1962,13 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Conrad, P., & Schneider, J. W. (1980). *Deviance and Medicalization: From Badness to Sickness*. Mosby.  
   <small>Citováno: [Medikalizace morálního selhání](@/kompendium/critical-perspectives/1-medicalization-critique.md)</small>
 - Conway, M. A., & Pleydell-Pearce, C. W. (2000). The construction of autobiographical  
-  <small>Citováno: [EA-5.3.27 Autobiografická fragmentace já](@/kompendium/techniques/ea-5-3-27-autobiografi-self-fragmentace.md)</small>
+  <small>Citováno: [EA-5.3.31 Autobiografická fragmentace já](@/kompendium/techniques/ea-5-3-31-autobiografi-self-fragmentace.md)</small>
 - Conway, M. A., & Pleydell-Pearce, C. W. (2000). The construction of autobiographical memories in the self-memory system. *Psychological Review*.  
   <small>Citováno: [Rekonstrukce časové osy](@/kompendium/forensic-legal/33-timeline-reconstruction.md)</small>
 - Conway, M. A., & Pleydell-Pearce, C. W. (2000). *The construction of autobiographical memories in the self-memory system*. Psychological Review, 107(2).  
   <small>Citováno: [Autobiografický self (autobiographical self)](@/glossary/autobiograficky-self.md), [EA-5.3.19 Autobiografická amnestizace](@/kompendium/techniques/ea-5-3-19-autobiograficka-amnestizace.md), [EA-5.3.2 Autobiografická dekonstrukce](@/kompendium/techniques/ea-5-3-2-autobiograficka-dekonstrukce.md) a 3 dalších</small>
 - Conway, M. A., & Pleydell-Pearce, C. W. (2000). The construction of autobiographical memories in the self-memory system. *Psychological Review*, 107(2), 261–288.  
-  <small>Citováno: [Sebe-obrana: Časové sešívání já](@/kompendium/self-defense-guides/49-temporal-self-stitching.md)</small>
+  <small>Citováno: [Kapitola 8: Hypertransformativní protokoly](@/kompendium/05-ultramari-techniky/kapitola-8.md), [Sebe-obrana: Časové sešívání já](@/kompendium/self-defense-guides/49-temporal-self-stitching.md)</small>
 - Conwell, Y., Van Orden, K. a Caine, E. D. (2011). Suicide in older adults. *Psychiatric Clinics of North America*, 34(2), 451–468.  
   <small>Citováno: [Akutní protokol: Senior v akutní situaci po epistemické anihilaci](@/kompendium/emergency-protocols/23-elder-emergency-EA.md)</small>
 - Cook, J., a kol. (2013). Quantifying the consensus on anthropogenic global warming in the  
@@ -2024,7 +2026,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Craig, A. D. (2002). How do you feel? Interoception: The sense of the physiological condition of the body. *Nature Reviews Neuroscience*, 3(8).  
   <small>Citováno: [7.45 Damasio: Somatic Marker a vtělené emoce](@/kompendium/07-teoreticke-reflexe/damasio-somatic-marker.md)</small>
 - Craig, A. D. (2002). How do you feel? Interoception: The sense of the physiological condition of the body. *Nature Reviews Neuroscience*, 3(8), 655–666.  
-  <small>Citováno: [Akutní protokol: Panická ataka po epistemické anihilaci](@/kompendium/emergency-protocols/6-panic-attack-EA.md), [Sebe-obrana: Somatická pozornost](@/kompendium/self-defense-guides/13-somatic-awareness.md)</small>
+  <small>Citováno: [Kapitola 10: Transkonceptuální mechanismy](@/kompendium/05-ultramari-techniky/kapitola-10.md), [Akutní protokol: Panická ataka po epistemické anihilaci](@/kompendium/emergency-protocols/6-panic-attack-EA.md), [Sebe-obrana: Somatická pozornost](@/kompendium/self-defense-guides/13-somatic-awareness.md)</small>
 - Craig, A. D. (2009). How do you feel — now? The anterior insula and human awareness. *Nature Reviews Neuroscience*, 10(1), 59–70.  
   <small>Citováno: [EA-5.5.12 Interoceptivní rozpojení](@/kompendium/techniques/ea-5-5-12-interoceptivni-rozpojeni.md)</small>
 - Craig, E. (1990). *Knowledge and the State of Nature: An Essay in Conceptual Synthesis*. Clarendon Press.  
@@ -2118,6 +2120,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Disociace](@/glossary/disociace.md)</small>
 - Damasio, A. (1999). *The Feeling of What Happens: Body and Emotion in the Making of Consciousness*. Harcourt Brace.  
   <small>Citováno: [Jádrové vědomí (core consciousness)](@/glossary/core-consciousness.md)</small>
+- Damasio, A. (1999). *The Feeling of What Happens: Body and Emotion in the Making of Consciousness*. New York: Harcourt Brace.  
+  <small>Citováno: [Kapitola 8: Hypertransformativní protokoly](@/kompendium/05-ultramari-techniky/kapitola-8.md)</small>
 - Damasio, A. (1999). *The Feeling of What Happens*. Harcourt.  
   <small>Citováno: [Interocepce](@/glossary/interocepce.md)</small>
 - Damasio, A. (2010). *Self Comes to Mind: Constructing the Conscious Brain*. Pantheon Books.  
@@ -3256,6 +3260,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Teleologická dezorientace](@/glossary/teleologicka-dezorientace.md)</small>
 - Frankl, V. E. (1959). *Man's Search for Meaning*. Boston: Beacon Press.  
   <small>Citováno: [Dlouhodobé prohlubování smyslu](@/kompendium/recovery-protocols/longterm-meaning-deepening.md), [Subakutní rekonstrukce smyslu](@/kompendium/recovery-protocols/subacute-meaning-reconstruction.md)</small>
+- Franzén, T. (2005). *Gödel's Theorem: An Incomplete Guide to Its Use and Abuse*. Wellesley, MA: A K Peters.  
+  <small>Citováno: [Kapitola 9: Paradoxální metaanihilační protokoly](@/kompendium/05-ultramari-techniky/kapitola-9.md)</small>
 - Franzén, T. (2005). *Gödel’s Theorem: An Incomplete Guide to Its Use and Abuse*. A K Peters.  
   <small>Citováno: [EA-5.4.4 Gödelovská sebereflexe](@/kompendium/techniques/ea-5-4-4-godel-reflexivita.md)</small>
 - Fraser, N. (1981). Foucault on Modern Power: Empirical Insights and Normative Confusions.  
@@ -3515,8 +3521,12 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Jádrové vědomí (core consciousness)](@/glossary/core-consciousness.md), [Default mode network (síť klidového režimu)](@/glossary/default-mode-network.md), [Egologická dezintegrace](@/glossary/egologicka-dezintegrace.md)</small>
 - Gallagher, S. (2000). *Philosophical conceptions of the self: Implications for cognitive science*. Trends in Cognitive Sciences, 4(1).  
   <small>Citováno: [Autobiografický self (autobiographical self)](@/glossary/autobiograficky-self.md), [7.42 Metzinger: Ego Tunnel a fenomenální self-model](@/kompendium/07-teoreticke-reflexe/metzinger-ego-tunnel.md)</small>
+- Gallagher, S. (2000). Philosophical conceptions of the self: Implications for cognitive science. *Trends in Cognitive Sciences*, 4(1), 14–21.  
+  <small>Citováno: [Kapitola 8: Hypertransformativní protokoly](@/kompendium/05-ultramari-techniky/kapitola-8.md)</small>
 - Gallagher, S. (2005). *How the Body Shapes the Mind*.  
   <small>Citováno: [EA-7.1.10 Merleau-Ponty: vtělenost](@/kompendium/techniques/ea-7-1-10-merleau-ponty-embodiment.md)</small>
+- Gallagher, S. (2005). *How the Body Shapes the Mind*. Oxford: Oxford University Press.  
+  <small>Citováno: [Kapitola 10: Transkonceptuální mechanismy](@/kompendium/05-ultramari-techniky/kapitola-10.md)</small>
 - Gallagher, S. (2005). *How the Body Shapes the Mind*. Oxford University Press.  
   <small>Citováno: [Tělesné schéma (body schema)](@/glossary/body-schema.md), [7.16 Merleau-Ponty: Vtělená percepce a tělesný subjekt](@/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce.md), [EA-5.5.2 Somato-fenomenologická disrupce](@/kompendium/techniques/ea-5-5-2-somato-fenomenologicka-disrupce.md) a 1 dalších</small>
 - Gallagher, S., & Cole, J. (1995). *Body image and body schema in a deafferented subject*. The Journal of Mind and Behavior.  
@@ -5479,6 +5489,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Případ 40: Totalizace ve velké advokátní kanceláři](@/kompendium/case-studies/40-law-firm-totalizace.md)</small>
 - Krimsky, S. (2003). *Science in the Private Interest*. Rowman & Littlefield.  
   <small>Citováno: [EA-3.3.10 Etika finančního modelu](@/kompendium/techniques/ea-3-3-10-funding-model-ethics.md)</small>
+- Kripke, S. (1975). Outline of a theory of truth. *Journal of Philosophy*, 72(19), 690–716.  
+  <small>Citováno: [Kapitola 9: Paradoxální metaanihilační protokoly](@/kompendium/05-ultramari-techniky/kapitola-9.md)</small>
 - Kripke, S. (1975). *Outline of a theory of truth*. The Journal of Philosophy.  
   <small>Citováno: [Implozivní rekurze](@/glossary/implozivni-rekurze.md), [Paradox lháře](@/glossary/liaruv-paradox.md)</small>
 - Kripke, S. A. (1963). Semantical considerations on modal logic. *Acta Philosophica Fennica*, 16, 83–94.  
@@ -5487,6 +5499,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Syntetické a analytické soudy](@/glossary/synteticke-analyticke.md)</small>
 - Kripke, S. A. (1982). *Wittgenstein on Rules and Private Language*.  
   <small>Citováno: [Privátní jazyk](@/glossary/privatni-jazyk.md)</small>
+- Kripke, S. A. (1982). *Wittgenstein on Rules and Private Language*. Cambridge, MA: Harvard University Press.  
+  <small>Citováno: [Kapitola 9: Paradoxální metaanihilační protokoly](@/kompendium/05-ultramari-techniky/kapitola-9.md)</small>
 - Kripke, S. A. (1982). *Wittgenstein on Rules and Private Language*. Harvard University Press.  
   <small>Citováno: [7.10 Wittgenstein: Jazykové hry a forma života](@/kompendium/07-teoreticke-reflexe/wittgenstein-jezykove-hry.md), [EA-5.4.5 Wittgensteinovský rozklad pravidla](@/kompendium/techniques/ea-5-4-5-wittgenstein-pravidlo-rozklad.md)</small>
 - Kroenke, K., Spitzer, R. L., a Williams, J. B. W. (2001). The PHQ-9: Validity of a Brief Depression Severity Measure. *Journal of General Internal Medicine*, 16(9), 606–613.  
@@ -6023,7 +6037,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism.* New York: Norton.  
   <small>Citováno: [Konfirmační bias](@/kompendium/03-zakladni-kategorie/biasy/konfirmacni.md), [Falsifikovatelnost – kritérium jako kategorie analýzy](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md), [Lakatos – výzkumné programy jako kategorie analýzy](@/kompendium/03-zakladni-kategorie/lakatos.md) a 15 dalších</small>
 - Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: W. W. Norton.  
-  <small>Citováno: [Věc o sobě (Ding an sich)](@/glossary/ding-an-sich.md), [Performativní akt](@/glossary/performativni-akt.md), [Kompletní rejstřík technik (master index)](@/kompendium/08-prilohy/rejstrik-technik.md) a 34 dalších</small>
+  <small>Citováno: [Věc o sobě (Ding an sich)](@/glossary/ding-an-sich.md), [Performativní akt](@/glossary/performativni-akt.md), [Kapitola 8: Hypertransformativní protokoly](@/kompendium/05-ultramari-techniky/kapitola-8.md) a 35 dalších</small>
 - Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. Norton.  
   <small>Citováno: [Double bind (dvojná vazba)](@/glossary/double-bind.md), [Edukativní implementace](@/glossary/edukativni-implementace.md), [Ego death (rozpuštění ega)](@/glossary/ego-death.md) a 24 dalších</small>
 - Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.  
@@ -6576,7 +6590,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - McAdams, D. P. (1985). *Power, Intimacy, and the Life Story: Personological Inquiries into Identity*. Guilford.  
   <small>Citováno: [Narativní identita (narrative identity)](@/glossary/narativni-identita.md)</small>
 - McAdams, D. P. (1993). *The Stories We Live By*.  
-  <small>Citováno: [EA-5.3.27 Autobiografická fragmentace já](@/kompendium/techniques/ea-5-3-27-autobiografi-self-fragmentace.md)</small>
+  <small>Citováno: [EA-5.3.31 Autobiografická fragmentace já](@/kompendium/techniques/ea-5-3-31-autobiografi-self-fragmentace.md)</small>
 - McAdams, D. P. (1993). *The Stories We Live By: Personal Myths and the Making of the Self*.  
   <small>Citováno: [Subakutní narativní externalizace](@/kompendium/recovery-protocols/subacute-narrative-externalization.md)</small>
 - McAdams, D. P. (1993). *The Stories We Live By: Personal Myths and the Making of the Self*. Guilford.  
@@ -6756,7 +6770,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Merleau-Ponty, M. (1945). *Phénoménologie de la perception*. Gallimard.  
   <small>Citováno: [Tělesné schéma (body schema)](@/glossary/body-schema.md), [Embodied cognition (vtělená kognice)](@/glossary/embodied-cognition.md), [Epistemická derealizace](@/glossary/epistemicka-derealizace.md) a 40 dalších</small>
 - **Merleau-Ponty, M.** (1945). *Phénoménologie de la perception*. Paris: Gallimard. — Tělesnost, vnímání, [tělesné schéma](@/glossary/body-schema.md).  
-  <small>Citováno: [Chair](@/glossary/chair.md), [Pre-predikativní zkušenost (vorprädikative Erfahrung)](@/glossary/pre-predikativni-zkusenost.md), [Fenomenologie – prožitek jako kategorie analýzy](@/kompendium/03-zakladni-kategorie/fenomenologie.md) a 10 dalších</small>
+  <small>Citováno: [Chair](@/glossary/chair.md), [Pre-predikativní zkušenost (vorprädikative Erfahrung)](@/glossary/pre-predikativni-zkusenost.md), [Fenomenologie – prožitek jako kategorie analýzy](@/kompendium/03-zakladni-kategorie/fenomenologie.md) a 11 dalších</small>
 - Merleau-Ponty, M. (1960). *Signes*. Paris: Gallimard.  
   <small>Citováno: [Chair](@/glossary/chair.md)</small>
 - Merleau-Ponty, M. (1964). *Le Visible et l'invisible*.  
@@ -7159,7 +7173,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Neisser, U. (1981). *John Dean's memory: A case study*. Cognition.  
   <small>Citováno: [Výpověď oběti](@/kompendium/forensic-legal/25-victim-statement.md), [Vzdělávání soudců](@/kompendium/forensic-legal/29-judicial-education.md), [Rekonstrukce časové osy](@/kompendium/forensic-legal/33-timeline-reconstruction.md)</small>
 - Neisser, U. (1988). Five kinds of self-knowledge. *Philosophical Psychology*, 1(1), 35–59.  
-  <small>Citováno: [EA-4.4.10 Identity stabilization](@/kompendium/techniques/ea-4-4-10-identity-stabilization.md), [EA-4.4.2 Role fragmentation](@/kompendium/techniques/ea-4-4-2-role-fragmentation.md)</small>
+  <small>Citováno: [Kapitola 8: Hypertransformativní protokoly](@/kompendium/05-ultramari-techniky/kapitola-8.md), [EA-4.4.10 Identity stabilization](@/kompendium/techniques/ea-4-4-10-identity-stabilization.md), [EA-4.4.2 Role fragmentation](@/kompendium/techniques/ea-4-4-2-role-fragmentation.md)</small>
 - Nelson, T. O. (1996). *Consciousness and metacognition*. American Psychologist.  
   <small>Citováno: [Epistemické trauma](@/glossary/epistemicke-trauma.md)</small>
 - Nelson, T. O., & Narens, L. (1990). Metamemory: A theoretical framework and new findings.  
@@ -7982,6 +7996,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Dialektická anihilace](@/glossary/dialekticka-anihilace.md), [Epistemická imploze](@/glossary/epistemicka-imploze.md), [Implozivní rekurze](@/glossary/implozivni-rekurze.md)</small>
 - Priest, G. (1994). The structure of the paradoxes of self-reference. *Mind*, 103(409), 25–34.  
   <small>Citováno: [EA-5.4.22 Eskalace logických paradoxů](@/kompendium/techniques/ea-5-4-22-logicka-paradox-eskalace.md)</small>
+- Priest, G. (2006). *In Contradiction: A Study of the Transconsistent* (2nd ed.). Oxford: Oxford University Press.  
+  <small>Citováno: [Kapitola 9: Paradoxální metaanihilační protokoly](@/kompendium/05-ultramari-techniky/kapitola-9.md)</small>
 - Pring, G. W. (1989). SLAPPs: Strategic lawsuits against public participation. *Pace  
   <small>Citováno: [Právní podpora v krizi](@/kompendium/organizational-defense/33-legal-counsel-engagement.md)</small>
 - Pring, G. W., a Canan, P. (1996). *SLAPPs: Getting Sued for Speaking Out*. Temple University Press.  
@@ -8239,7 +8255,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Ricoeur, P. (1985). *Temps et récit III: Le temps raconté*. Seuil.  
   <small>Citováno: [7.17 Ricoeur: Trojí mimésis a narativní identita](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md)</small>
 - Ricoeur, P. (1990). *Soi-même comme un autre*.  
-  <small>Citováno: [Ipseita](@/glossary/ipseita.md), [EA-2.5.9 Pěstování identitní nejistoty](@/kompendium/techniques/ea-2-5-9-identity-uncertainty-cult.md), [EA-5.3.27 Autobiografická fragmentace já](@/kompendium/techniques/ea-5-3-27-autobiografi-self-fragmentace.md)</small>
+  <small>Citováno: [Ipseita](@/glossary/ipseita.md), [EA-2.5.9 Pěstování identitní nejistoty](@/kompendium/techniques/ea-2-5-9-identity-uncertainty-cult.md), [EA-5.3.31 Autobiografická fragmentace já](@/kompendium/techniques/ea-5-3-31-autobiografi-self-fragmentace.md)</small>
 - Ricoeur, P. (1990). *Soi-même comme un autre*. Éditions du Seuil.  
   <small>Citováno: [Identitární manipulace – přehled tématu](@/kompendium/02-identitarni-manipulace.md), [Narativní trauma – poškození životního příběhu](@/kompendium/05-ultramari-techniky/narrativni-trauma.md)</small>
 - Ricoeur, P. (1990). *Soi-même comme un autre*. Paris: Seuil.  
@@ -8489,7 +8505,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Russell, B. (1908). Mathematical logic as based on the theory of types. *American Journal of Mathematics*, 30(3).  
   <small>Citováno: [EA-5.4.10 Implantace Berryho paradoxu](@/kompendium/techniques/ea-5-4-10-berry-paradox-implantace.md), [EA-5.4.11 Zneužití Richardova paradoxu](@/kompendium/techniques/ea-5-4-11-richardova-paradox-zneuziti.md), [EA-5.4.12 Aplikace Grellingova paradoxu](@/kompendium/techniques/ea-5-4-12-grellingova-paradox-aplikace.md)</small>
 - Russell, B. (1908). Mathematical logic as based on the theory of types. *American Journal of Mathematics*, 30(3), 222–262.  
-  <small>Citováno: [EA-5.4.2 Russellova violace typové hierarchie](@/kompendium/techniques/ea-5-4-2-russell-typ-violace.md), [EA-5.4.41 Implantace bootstrap paradoxu](@/kompendium/techniques/ea-5-4-41-bootstrap-paradox-implantace.md), [EA-5.4.42 Aplikace paradoxu dědečka](@/kompendium/techniques/ea-5-4-42-grandfather-paradox-aplikace.md) a 23 dalších</small>
+  <small>Citováno: [Kapitola 9: Paradoxální metaanihilační protokoly](@/kompendium/05-ultramari-techniky/kapitola-9.md), [EA-5.4.2 Russellova violace typové hierarchie](@/kompendium/techniques/ea-5-4-2-russell-typ-violace.md), [EA-5.4.41 Implantace bootstrap paradoxu](@/kompendium/techniques/ea-5-4-41-bootstrap-paradox-implantace.md) a 24 dalších</small>
 - Rutter, M. (1987). Psychosocial resilience and protective mechanisms. *American Journal of  
   <small>Citováno: [Dlouhodobá kultivace resilience](@/kompendium/recovery-protocols/longterm-resilience-cultivation.md)</small>
 - Ryan, R. M., & Deci, E. L. (2000). Self-determination theory and the facilitation of intrinsic  
@@ -8533,6 +8549,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Východní Asie — vzorce EA](@/kompendium/international/11-east-asian-EA/index.md), [Jižní Asie — vzorce EA](@/kompendium/international/12-south-asian-EA/index.md), [Blízký východ — vzorce EA](@/kompendium/international/13-middle-eastern-EA/index.md) a 1 dalších</small>
 - Sailas, E. a Fenton, M. (2000). Seclusion and restraint for people with serious mental illnesses. *Cochrane Database of Systematic Reviews*, CD001163.  
   <small>Citováno: [Akutní protokol: Vyhnutí se omezovacím prostředkům](@/kompendium/emergency-protocols/19-restraint-avoidance-EA.md)</small>
+- Sainsbury, R. M. (2009). *Paradoxes* (3rd ed.). Cambridge: Cambridge University Press.  
+  <small>Citováno: [Kapitola 9: Paradoxální metaanihilační protokoly](@/kompendium/05-ultramari-techniky/kapitola-9.md)</small>
 - Saitō, T. (2013). *Hikikomori: Adolescence without End* (J. Angles, Trans.). University of Minnesota Press.  
   <small>Citováno: [Východní Asie — vzorce EA](@/kompendium/international/11-east-asian-EA/index.md)</small>
 - Salas, E., Tannenbaum, S. I., Kraiger, K., a Smith-Jentsch, K. A. (2012). The science of  
@@ -9583,7 +9601,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Tarski, A. (1944). The semantic conception of truth and the foundations of semantics. *Philosophy and Phenomenological Research*, 4(3).  
   <small>Citováno: [EA-5.4.1 Aplikace lhářova paradoxu](@/kompendium/techniques/ea-5-4-1-lhar-paradox-aplikace.md), [EA-5.4.10 Implantace Berryho paradoxu](@/kompendium/techniques/ea-5-4-10-berry-paradox-implantace.md), [EA-5.4.12 Aplikace Grellingova paradoxu](@/kompendium/techniques/ea-5-4-12-grellingova-paradox-aplikace.md)</small>
 - Tarski, A. (1944). The semantic conception of truth and the foundations of semantics. *Philosophy and Phenomenological Research*, 4(3), 341–376.  
-  <small>Citováno: [EA-5.4.41 Implantace bootstrap paradoxu](@/kompendium/techniques/ea-5-4-41-bootstrap-paradox-implantace.md), [EA-5.4.42 Aplikace paradoxu dědečka](@/kompendium/techniques/ea-5-4-42-grandfather-paradox-aplikace.md), [EA-5.4.43 Paradox předurčení](@/kompendium/techniques/ea-5-4-43-predestiny-paradox.md) a 22 dalších</small>
+  <small>Citováno: [Kapitola 9: Paradoxální metaanihilační protokoly](@/kompendium/05-ultramari-techniky/kapitola-9.md), [EA-5.4.41 Implantace bootstrap paradoxu](@/kompendium/techniques/ea-5-4-41-bootstrap-paradox-implantace.md), [EA-5.4.42 Aplikace paradoxu dědečka](@/kompendium/techniques/ea-5-4-42-grandfather-paradox-aplikace.md) a 23 dalších</small>
 - Tarski, A. (1944). The semantic conception of truth. *Philosophy and Phenomenological Research*, 4(3), 341–376.  
   <small>Citováno: [EA-5.4.3 Tarsky diagonalizace pravdy](@/kompendium/techniques/ea-5-4-3-tarsky-diagonalizace.md)</small>
 - Taubes, G. (1993). *Bad Science: The Short Life and Weird Times of Cold Fusion*. Random House.  
@@ -10359,6 +10377,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Historický případ: Children of God](@/kompendium/historical-cases/17-children-of-god.md)</small>
 - Williamson, O. E. (1985). *The Economic Institutions of Capitalism*. Free Press.  
   <small>Citováno: [Řízení dodavatelů s EA fokusem](@/kompendium/organizational-defense/25-vendor-management-EA.md)</small>
+- Williamson, T. (1994). *Vagueness*. London: Routledge.  
+  <small>Citováno: [Kapitola 9: Paradoxální metaanihilační protokoly](@/kompendium/05-ultramari-techniky/kapitola-9.md)</small>
 - Williamson, T. (1994). *Vagueness*. Routledge.  
   <small>Citováno: [Konceptuální destabilizace](@/glossary/konceptualni-destabilizace.md), [EA-5.4.24 Past epistemické vágnosti](@/kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md), [EA-5.4.25 Zneužití soritského paradoxu](@/kompendium/techniques/ea-5-4-25-soritska-paradox-zneuziti.md) a 1 dalších</small>
 - Wilson, J. M. G., a Jungner, G. (1968). *Principles and Practice of Screening for Disease*. Geneva: WHO.  

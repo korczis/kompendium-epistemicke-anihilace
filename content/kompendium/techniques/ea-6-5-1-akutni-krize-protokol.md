@@ -43,15 +43,11 @@ Technika je primárně indikována v následujících klinických kontextech:
 
 Akutní EA-trauma krize, cult-exit shock, akutní DV escape, post-incident decompensation.
 
-Sekundárně může být zvažována jako adjunktivní intervence v rámci komplexního multimodálního léčebného plánu, vždy však s ohledem na individuální profil klienta a aktuální fázi rekonstrukčního procesu.
-
 ## Kontraindikace
 
 Aplikace techniky je kontraindikována v následujících situacích:
 
 Stabilizovaní klienti vhodnější pro standardní protokol.
-
-Identifikace kontraindikací je integrální součástí každého iniciálního assessment a vyžaduje opakované re-evaluation v průběhu intervence — zejména v případě dynamicky se měnícího klinického obrazu.
 
 ## Implementační protokol
 
@@ -59,13 +55,9 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 (1) Rapid safety assessment. (2) Triáž — outpatient vs. inpatient. (3) Akutní stabilizace — DBT distress tolerance, grounding. (4) Bezpečnostní plánování. (5) Rapid psychoedukace. (6) Bridge k dlouhodobé péči. (7) Follow-up v krátkém odstupu.
 
-Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
-
 ## Trvání a frekvence
 
 **Typická délka:** krátká a ohraničená; počet sezení i jejich rozestup jsou klinickým rozhodnutím pod supervizí, nikoli normou stanovenou touto knihou.
-
-Frekvence sezení a celková délka intervence jsou závislé na komplexitě klinického obrazu, komorbiditách a individuální responsivitě. V populacích s komplexním C-PTSD je třeba počítat s prolongovaným průběhem, zatímco u single-incident traumat lze očekávat rychlejší progression.
 
 ## Hodnotící kritéria
 
@@ -88,8 +80,6 @@ Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fen
 Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Premature deep work, dropout, paradoxní destabilizace.
-
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
 
 ## Klinické pozadí
 

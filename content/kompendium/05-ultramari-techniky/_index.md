@@ -38,7 +38,7 @@ Sekce sestává z **{{ l.count }} kapitol** s úhrnem **{{ tech.parent_counts["5
 
 ### Vertikální gradient destrukce
 
-Pět kapitol netvoří paralelní katalog — představují **vertikální gradient hloubky**. Každá následující kapitola operuje na hlubší vrstvě:
+Kapitoly netvoří paralelní katalog — představují **vertikální gradient hloubky**. Každá následující kapitola operuje na hlubší vrstvě:
 
 1. **Kapitola 6 (singularita)** zasahuje *reflexi* — schopnost subjektu pohlížet na vlastní poznání zvenčí.
 2. **Kapitola 7 (metatranscendence)** zasahuje *transcendentální podmínky* — apriorní struktury (čas, prostor, kauzalita, identita), na nichž reflexe stojí.

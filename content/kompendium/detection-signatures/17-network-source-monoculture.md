@@ -8,6 +8,7 @@ tags = ["kompendium", "detection-signature", "diagnostika", "network"]
 categories = ["academic", "clinical", "security"]
 
 [extra]
+listing_note = "Chybějící nezávislé srovnání."
 related_terms = ["15-behavioral-asymmetric-disclosure", "16-behavioral-emotional-modulation", "18-network-citation-circularity", "19-network-amplification-asymmetry"]
 toc = true
 modality = "network"

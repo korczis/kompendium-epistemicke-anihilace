@@ -57,10 +57,7 @@ Zasažený člověk referuje stav, který popisuje jako ztrátu půdy pod nohama
 
 Tam, kde se narušuje stabilita pojmů, je absence těchto pojistek sama nálezem; stránka nic takového neschvaluje.
 
-{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
-|---|---|
-{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
-{% endfor %}
+{% include "partials/bezpecnostni-ramec.md" %}
 
 ## Vylučující okolnosti
 

@@ -55,10 +55,7 @@ Měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.m
 
 U integrační fáze je nepřítomnost níže uvedených pojistek sama rozpoznatelná; stránka takové uspořádání nedoporučuje ani neopravňuje.
 
-{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
-|---|---|
-{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
-{% endfor %}
+{% include "partials/bezpecnostni-ramec.md" %}
 
 ## Co integrační fázi vylučuje
 

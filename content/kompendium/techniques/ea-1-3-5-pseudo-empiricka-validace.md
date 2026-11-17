@@ -8,6 +8,7 @@ description = "Vzorec, v němž tvrzení získává vědecký vzhled – čísla
 tags = ["kompendium", "techniques", "ea-1-3", "pseudoveda", "falsifikace"]
 
 [extra]
+exploitation = "Důvěra ve vnější znaky vědeckého doložení"
 category = "kompendium-technique"
 related_terms = ["ea-1-3-1-imunizace-proti-falsifikaci", "ea-1-3-2-strategicka-reinterpretace", "ea-1-3-4-indukovana-pochybnost", "ea-1-1-3-terminologicka-mystifikace", "ea-1-6-falesny-paradigmaticky-narok", "ea-1-2-3-iluzorni-komplexita"]
 ea_code = "EA-1.3.5"

@@ -232,10 +232,7 @@ Sociálně-epistemologické rámce jsou v kompendiu integrovány **napříč**:
 
 **Teoretické reflexe ne jsou závěry — jsou pozvánkami k myšlení.** Po četbě:
 
-1. Identifikuj alespoň jeden bod, kde nesouhlasíš s autorovou formulací
-2. Formuluj svou vlastní alternativní pozici v 3–5 větách
-3. Najdi v [bibliografii](@/kompendium/08-prilohy/bibliografie.md) primární
-   zdroj, který tvou alternativu podporuje (alespoň 1)
+{% include "partials/aktivni-oponentura.md" %}
 
 > **Mandatorní akce**: pasivní souhlas s teoretickou reflexí je sám o sobě
 > formou epistemické pasivity. Aktivní oponentura je nepostradatelná

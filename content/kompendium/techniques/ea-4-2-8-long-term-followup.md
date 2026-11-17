@@ -53,10 +53,7 @@ Zasažený člověk referuje, že si souvislost sám nespojil, protože mezi kon
 
 Chybějící sledování po skončení expozice je samo pozorovatelným nálezem; žádné uspořádání tohoto druhu stránka nepředepisuje ani nelegitimizuje.
 
-{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
-|---|---|
-{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
-{% endfor %}
+{% include "partials/bezpecnostni-ramec.md" %}
 
 ## Okolnosti, za nichž expozice nepřichází v úvahu
 

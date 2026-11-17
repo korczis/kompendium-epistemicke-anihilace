@@ -10,6 +10,7 @@ tags = ["kompendium", "techniques", "ea-1-4-2", "emocionalni-modulace", "afekt",
 categories = ["academic"]
 
 [extra]
+exploitation = "Vliv emocí na evaluační procesy"
 related_terms = ["ea-1-4-1-prosodicka-dominance", "ea-1-4-2-latent-emotional-modulation", "ea-1-5-3-emocni-podbarveni", "ea-1-5-1-strategicka-proxemika"]
 ea_code = "EA-1.4.2"
 ea_category = "1. Akademické techniky"
@@ -122,7 +123,7 @@ Vědomé monitorování dramaticky redukuje subliminální vliv.
 
 #### 3. **Explicitní identifikace potenciálně manipulativního emocionálního důrazu**
 
-Při detekci emocionální charge explicitně zformuluj:
+Jedna z popsaných obran pojmenuje emoční náboj nahlas, přibližně takto:
 
 > *„Cítím se v této diskusi anxious. Zajímalo by mě, proč. Můžeme zpomalit a zaměřit se na substantivu?“*
 
@@ -130,17 +131,17 @@ Meta-úroveň přerušuje strukturální vzorec.
 
 #### 4. **Externí emocionální triangulace**
 
-Diskutuj klíčové **emocionálně charged** témata s **externími** osobami mimo manipulátorův kontext. Pokud se emocionální response **neobjevuje** v externím kontextu, je **indukovaná** manipulátorem.
+Obrana spočívá v tom, že se klíčová **emočně nabitá** témata probírají i s lidmi **mimo** manipulátorův kontext. Nedostaví-li se emoční reakce v tomto vnějším kontextu, je **indukovaná** manipulátorem.
 
 #### 5. **Embodied awareness**
 
-Sleduj **somatické** signály:
+Mezi **somatické** signály, které u tohoto vzorce bývají popisovány, patří:
 
-- Tense ramena při specifických tématech?
-- Rapid breathing?
-- Stomach tension?
+- napětí v ramenech u určitých témat
+- zrychlené dýchání
+- stažený žaludek
 
-Body **frequently registers** subliminální manipulaci dříve než vědomá kognice.
+Tělo **často registruje** subliminální manipulaci dříve než vědomá kognice.
 
 ### Institucionální
 

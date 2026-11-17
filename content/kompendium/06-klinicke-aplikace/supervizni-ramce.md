@@ -186,6 +186,4 @@ Supervizní rámec je integrován se vzdělávací architekturou kompendia ([sek
 
 ## Kritický krok
 
-**Klinická intervence vyžaduje licencovanou klinickou supervizi.** Tento
-materiál není terapeutickou příručkou ani diagnostickou metodikou pro
-neformální použití.
+{% include "partials/klinicka-supervize.md" %}

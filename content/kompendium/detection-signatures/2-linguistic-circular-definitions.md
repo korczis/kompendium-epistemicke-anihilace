@@ -8,6 +8,7 @@ tags = ["kompendium", "detection-signature", "diagnostika", "linguistic"]
 categories = ["academic", "clinical", "security"]
 
 [extra]
+listing_note = "Pojmový kruh bez vnější kotvy."
 related_terms = ["18-network-citation-circularity", "19-network-amplification-asymmetry", "20-network-bot-coordination", "21-network-platform-coordination"]
 toc = true
 modality = "linguistic"

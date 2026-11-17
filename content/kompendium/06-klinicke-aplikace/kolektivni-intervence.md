@@ -249,6 +249,4 @@ Kolektivní intervence je **mocný nástroj** — proto musí být sama struktur
 
 ## Kritický krok
 
-**Klinická intervence vyžaduje licencovanou klinickou supervizi.** Tento
-materiál není terapeutickou příručkou ani diagnostickou metodikou pro
-neformální použití.
+{% include "partials/klinicka-supervize.md" %}

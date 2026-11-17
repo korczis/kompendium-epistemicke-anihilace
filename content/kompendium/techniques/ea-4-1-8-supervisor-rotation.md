@@ -57,10 +57,7 @@ Soustředí-li se výklad do jedné osoby, je nepřítomnost následujících po
 
 Rotaci supervizorů ani její vynechání stránka nenařizuje; pojmenovává jen to, co absence pojistek prozrazuje.
 
-{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
-|---|---|
-{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
-{% endfor %}
+{% include "partials/bezpecnostni-ramec.md" %}
 
 ## Okolnosti, které takové supervizní uspořádání vylučují
 

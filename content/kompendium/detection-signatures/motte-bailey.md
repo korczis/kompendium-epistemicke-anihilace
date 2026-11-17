@@ -7,6 +7,7 @@ description = "Lingvistická a argumentační signatura: mluvčí v praxi prosaz
 tags = ["kompendium", "sub-page", "interactive"]
 
 [extra]
+listing_note = "Střídání silné a slabé pozice pod týmž označením."
 category = "kompendium-sub"
 related_terms = ["15-behavioral-asymmetric-disclosure", "18-network-citation-circularity", "19-network-amplification-asymmetry", "14-behavioral-time-pressure-creation", "11-behavioral-topic-evasion", "21-network-platform-coordination"]
 author = "Tomas Korcak (korczis)"

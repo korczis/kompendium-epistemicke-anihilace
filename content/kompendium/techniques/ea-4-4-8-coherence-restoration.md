@@ -53,10 +53,7 @@ Zasažený člověk referuje úlevu a současně nedokáže uvést jedinou věc,
 
 Obnovu koherence stránka neschvaluje ani nepředepisuje; pojistky uvádí proto, že jejich nepřítomnost je v rekonstrukční fázi viditelná.
 
-{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
-|---|---|
-{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
-{% endfor %}
+{% include "partials/bezpecnostni-ramec.md" %}
 
 ## Vylučující okolnosti rekonstrukční fáze
 

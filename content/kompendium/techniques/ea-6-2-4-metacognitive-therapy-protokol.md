@@ -43,15 +43,11 @@ Technika je primárně indikována v následujících klinických kontextech:
 
 Persistentní rumination o manipulativní expozici, hyperkontrola myšlení, persistentní self-monitoring, epistemická paralýza, post-cult metakognitivní zmatek.
 
-Sekundárně může být zvažována jako adjunktivní intervence v rámci komplexního multimodálního léčebného plánu, vždy však s ohledem na individuální profil klienta a aktuální fázi rekonstrukčního procesu.
-
 ## Kontraindikace
 
 Aplikace techniky je kontraindikována v následujících situacích:
 
 Akutní psychóza, závažná deprese s anhedonií znemožňující engagement, akutní suicidalita, závažná kognitivní porucha.
-
-Identifikace kontraindikací je integrální součástí každého iniciálního assessment a vyžaduje opakované re-evaluation v průběhu intervence — zejména v případě dynamicky se měnícího klinického obrazu.
 
 ## Implementační protokol
 
@@ -86,8 +82,6 @@ Tyto adaptace nejsou ornamentální. Kniha je zaznamenává proto, že se s nimi
 Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Iatrogenní hyperreflexivita, paradoxní zvýšení monitoringu vlastního myšlení, dropout u klientů preferujících obsah-zaměřené přístupy.
-
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
 
 ## Klinické pozadí
 

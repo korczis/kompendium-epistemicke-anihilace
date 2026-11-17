@@ -8,6 +8,7 @@ tags = ["kompendium", "section-bridge", "navigace", "techniques", "case-study"]
 categories = ["academic", "reference"]
 
 [extra]
+listing_note = "preskripce ↔ narativa"
 related_terms = ["bridge-case-studies-to-clinical", "bridge-case-studies-to-glossary-bridges", "bridge-techniques-to-glossary", "bridge-techniques-to-quick-reference"]
 toc = false
 +++

@@ -9,6 +9,7 @@ tags = ["kompendium", "predmluva", "etika", "dual-use", "primum-non-nocere", "in
 categories = ["academic", "ethics"]
 
 [extra]
+listing_note = "Etický rámec, omezení použití, rizika dvojího užití"
 related_terms = ["bezpecnostni-klasifikace", "jak-pouzivat", "pro-koho-je-urceno", "ucel-kompendia"]
 section_icon = "⚖️"
 toc = true
@@ -188,10 +189,7 @@ Tato distribuovaná odpovědnost je explicitním záměrem — žádná centrali
 
 ## Kritický krok
 
-Předtím než pokročíš do dalších sekcí, ověř si etický kontext: zkontroluj
-souhlas se svou supervizí (akademická / klinická / forenzní), porozuměl jsi
-[etickým aspektům](@/kompendium/01-predmluva/eticke-aspekty.md), a víš, **kdy
-materiál nečíst** (vyhořelý stav, akutní krize, neexistující supervizní rámec).
+{% include "partials/eticky-kontext.md" %}
 
 > **Mandatorní akce**: vrať se na tuto stránku až poté, co tyto tři body
 > projdeš. Bez nich kompendium operuje mimo svůj zamýšlený etický rámec.

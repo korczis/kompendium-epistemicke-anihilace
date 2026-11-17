@@ -1,6 +1,6 @@
 +++
 title = "05. Ultramární techniky fundamentální dekonstrukce"
-description = "Sekce 05 — pět kapitol (6–10), 150 ultramárních technik epistemické anihilace seskupených do pěti operačních režimů: epistemická singularita, metatranscendentální anihilace."
+description = "Sekce 05 — kapitoly 6–10: ultramární techniky epistemické anihilace v operačních režimech od epistemické singularity po transkonceptuální mechanismy."
 weight = 5
 sort_by = "weight"
 template = "section.html"
@@ -25,21 +25,20 @@ Sekce 05 představuje **terminální vrstvu taxonomie EA**. Zatímco [Sekce 03](
 
 Pro filozofickou pozadi viz [fenomenologii](@/glossary/fenomenologie.md) zkušenosti vědomí (Husserl, Merleau-Ponty) a [hermeneutiku](@/glossary/hermeneutika.md) interpretace (Gadamer, Ricœur) — ultramární techniky exploitují právě transcendentální struktury, které tyto tradice rekonstruují jako podmínky inteligibility.
 
-## Strukturální rámec: 5 × 30 = 150 technik
+{% set l = load_data(path="static/data/listings/05-ultramari-techniky.json") %}{% set tech = load_data(path="static/data/listings/techniques.json") %}
 
-Sekce sestává z **pěti kapitol**, každá obsahující **30 technik**, což dává úhrnem **150 ultramárních technik**. Toto rozložení není arbitrární — odpovídá pěti distinktním operačním režimům, každý s vlastním fenomenologickým profilem, fundamentem destrukce a klinickým obrazem.
+## Strukturální rámec
 
-| Kapitola | Operační režim | První technika | Fokus destrukce |
-|----------|----------------|-------------|------------------|
-| **[Kapitola 6](@/kompendium/05-ultramari-techniky/kapitola-6.md)** | [Epistemická singularita](@/glossary/epistemicka-singularita.md) | [EA-5.1.1](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md) a další | Kolaps reflexivních struktur a sebeprůzkumných smyček |
-| **[Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)** | Metatranscendentální anihilace | [EA-5.2.1](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md) a další | Suspenze transcendentálních podmínek poznání |
-| **[Kapitola 8](@/kompendium/05-ultramari-techniky/kapitola-8.md)** | Hypertransformativní protokoly | [EA-5.3.1](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md) a další | Vynucená rekurzivní transformace identity poznávajícího |
-| **[Kapitola 9](@/kompendium/05-ultramari-techniky/kapitola-9.md)** | Paradoxální metaanihilační protokoly | [EA-5.4.1](@/kompendium/techniques/ea-5-4-1-lhar-paradox-aplikace.md) a další | Sebevztažné paradoxy destabilizující rámce evaluace |
-| **[Kapitola 10](@/kompendium/05-ultramari-techniky/kapitola-10.md)** | Transkonceptuální mechanismy | [EA-5.5.1](@/kompendium/techniques/ea-5-5-1-pre-predikativni-blokace.md) a další | Operace pod prahem konceptuálního zachycení |
+Sekce sestává z **{{ l.count }} kapitol** s úhrnem **{{ tech.parent_counts["5"] }} ultramárních technik**. Každá kapitola odpovídá jednomu operačnímu režimu s vlastním fenomenologickým profilem, fundamentem destrukce a klinickým obrazem; počet technik v kapitolách se liší.
+
+| Kapitola | Operační režim | Počet technik | Fokus destrukce |
+|----------|----------------|----------|------------------|
+{% for t in l.items %}| **[{{ t.name }}](@/{{ t.path }})** | {{ tech.group_names[t.ea_family] }} | {{ tech.groups[t.ea_family] | length }} | {{ t.listing_note | default(value="") }} |
+{% endfor %}
 
 ### Vertikální gradient destrukce
 
-Pět kapitol netvoří paralelní katalog — představují **vertikální gradient hloubky**. Každá následující kapitola operuje na hlubší vrstvě:
+Kapitoly netvoří paralelní katalog — představují **vertikální gradient hloubky**. Každá následující kapitola operuje na hlubší vrstvě:
 
 1. **Kapitola 6 (singularita)** zasahuje *reflexi* — schopnost subjektu pohlížet na vlastní poznání zvenčí.
 2. **Kapitola 7 (metatranscendence)** zasahuje *transcendentální podmínky* — apriorní struktury (čas, prostor, kauzalita, identita), na nichž reflexe stojí.
@@ -51,7 +50,7 @@ Postupné sestupování po této ose koreluje s **eskalujícím rizikem ireversi
 
 ### Subkategorie ultramárních technik
 
-Pět hlavních subkategorií tvoří hlavní strukturu sekce 05. Každá obsahuje 30 technik (`EA-5.X.1` až `EA-5.X.30`) a je dále rozpracována v dedikované kapitole.
+Sekci 05 tvoří {{ tech.parents["5"] | length }} subkategorií, každá s vlastní kapitolou; počty technik uvádí tabulka výše.
 
 #### Subkategorie 5.1 — Epistemická singularita {#subkategorie-5-1}
 
@@ -127,7 +126,7 @@ Materiály L3–L4 jsou distribuovány restriktivně. Cílová populace — kval
 
 ### 4. Princip rekonstruktivní finality
 
-Každá ultramární technika v Sekci 05 je párována s **rekonstruktivním protokolem** v [Sekci 06](@/kompendium/06-klinicke-aplikace/_index.md). Dokumentace není ukončena destrukcí — je strukturálně orientována k rekonstrukci. Žádná z 150 technik není popsána bez korespondujícího návrhu klinické odpovědi.
+Každá ultramární technika v Sekci 05 je párována s **rekonstruktivním protokolem** v [Sekci 06](@/kompendium/06-klinicke-aplikace/_index.md). Dokumentace není ukončena destrukcí — je strukturálně orientována k rekonstrukci. Žádná z {{ tech.parent_counts["5"] }} technik není popsána bez korespondujícího návrhu klinické odpovědi.
 
 ## Pedagogická sekvence
 
@@ -136,7 +135,7 @@ Doporučené pořadí studia pro nově přijaté výzkumníky úrovně L3:
 1. **Předpoklady**: [Sekce 02 — Definice](@/kompendium/02-uvod/_index.md), [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md), [Sekce 04 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
 2. **Vstup**: tento _index (orientace v rámci)
 3. **Hlavní studium**:
-   - **[Kapitola 6](@/kompendium/05-ultramari-techniky/kapitola-6.md)** — epistemická singularita (vstupní úroveň, plné per-technique články pro 5.1.* dostupné)
+   - **[Kapitola 6](@/kompendium/05-ultramari-techniky/kapitola-6.md)** — [epistemická singularita](@/glossary/epistemicka-singularita.md) (vstupní úroveň, plné per-technique články pro 5.1.* dostupné)
    - **[Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)** — metatranscendentální anihilace (úroveň L4, restriktivní)
    - **[Kapitola 8](@/kompendium/05-ultramari-techniky/kapitola-8.md)** — hypertransformativní protokoly (kompaktní taxonomie 5.3.*)
    - **[Kapitola 9](@/kompendium/05-ultramari-techniky/kapitola-9.md)** — paradoxální metaanihilace (kompaktní taxonomie 5.4.*)
@@ -145,7 +144,7 @@ Doporučené pořadí studia pro nově přijaté výzkumníky úrovně L3:
 
 ## Per-technique architektura podknihovny
 
-Pro Kapitolu 6 (EA-5.1.*) jsou v paralelní vlně přípravy **plné hloubkové články** v [/kompendium/techniques/](@/kompendium/techniques/_index.md) — každá z 30 technik má samostatný článek s detailním fenomenologickým profilem, mechanismem operace, klinickým obrazem a rekonstruktivním protokolem.
+Pro Kapitolu 6 (EA-5.1.*) jsou v paralelní vlně přípravy **plné hloubkové články** v [/kompendium/techniques/](@/kompendium/techniques/_index.md) — každá z {{ tech.groups["5.1"] | length }} technik má samostatný článek s detailním fenomenologickým profilem, mechanismem operace, klinickým obrazem a rekonstruktivním protokolem.
 
 Pro Kapitoly 7, 8, 9, 10 jsou kompaktní taxonomické popisy integrovány přímo do narativu kapitoly. Plné per-technique články pro tyto kapitoly jsou **v přípravné fázi** a budou publikovány ve vlně 3 po dokončení etické supervize.
 

@@ -43,15 +43,11 @@ Technika je primárně indikována v následujících klinických kontextech:
 
 Subjektivní stížnosti na kognitivní problémy po manipulativní expozici, podezření na chronický stres-indukovaný kognitivní pokles, soudně-znalecké posouzení decision-making kapacity, monitorování kognitivní rekonvalescence.
 
-Sekundárně může být zvažována jako adjunktivní intervence v rámci komplexního multimodálního léčebného plánu, vždy však s ohledem na individuální profil klienta a aktuální fázi rekonstrukčního procesu.
-
 ## Kontraindikace
 
 Aplikace techniky je kontraindikována v následujících situacích:
 
 Akutní intoxikace, akutní psychotická epizoda, závažná deprese bez předchozí stabilizace, akutní spánková deprivace.
-
-Identifikace kontraindikací je integrální součástí každého iniciálního assessment a vyžaduje opakované re-evaluation v průběhu intervence — zejména v případě dynamicky se měnícího klinického obrazu.
 
 ## Implementační protokol
 
@@ -59,13 +55,9 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 (1) Screening — MoCA, RBANS. (2) Pozornost a pracovní paměť — Trail Making, Digit Span, n-back. (3) Exekutivní funkce — Wisconsin Card Sorting, Stroop, BRIEF-A. (4) Paměť — Rey AVLT, ROCFT. (5) Sociální kognice — Reading the Mind in Eyes, ToM tasks. (6) Metakognice — confidence calibration tasks.
 
-Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
-
 ## Trvání a frekvence
 
 Délku vyšetření a odstup opakování stanoví manuál použitého nástroje a supervize, nikoli tato kniha.
-
-Frekvence sezení a celková délka intervence jsou závislé na komplexitě klinického obrazu, komorbiditách a individuální responsivitě. V populacích s komplexním C-PTSD je třeba počítat s prolongovaným průběhem, zatímco u single-incident traumat lze očekávat rychlejší progression.
 
 ## Hodnotící kritéria
 
@@ -88,8 +80,6 @@ Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fen
 Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Falešně pozitivní deficity z fluktuujícího afektu, kulturní bias norem, frustrace klienta při obtížných úlohách, etiologické zaměňování (deficit jako důsledek vs. premorbidní stav).
-
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
 
 ## Klinické pozadí
 

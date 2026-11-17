@@ -1,6 +1,6 @@
 +++
 title = "Kapitola 7: Metatranscendentální anihilace"
-description = "Narativní úvod do třiceti technik metatranscendentální anihilace (EA-5.2.1 až EA-5.2.30) — útoky na transcendentální podmínky možnosti poznání samé."
+description = "Narativní úvod do technik metatranscendentální anihilace (EA-5.2.*) — útoky na transcendentální podmínky možnosti poznání samé."
 weight = 7
 sort_by = "weight"
 insert_anchor_links = "right"
@@ -10,6 +10,8 @@ tags = ["kompendium", "ultramari-techniky", "metatranscendentalni-anihilace", "k
 categories = ["academic", "ultramari"]
 
 [extra]
+ea_family = "5.2"
+listing_note = "Suspenze transcendentálních podmínek poznání"
 related_terms = ["kapitola-10", "kapitola-6", "kapitola-8", "kapitola-9"]
 section_icon = "🌑"
 toc = true
@@ -50,9 +52,9 @@ Singulární techniky (EA-5.1.*) a metatranscendentální techniky (EA-5.2.*) sd
 
 Klíčový diagnostický rozdíl: subjekt po EA-5.1.* je schopen **popsat své poškození** — má slova, používá kategorie, dokáže říct *„nevěřím ničemu“*, *„nemám vlastní myšlenky“*. Subjekt po EA-5.2.* nedokáže své poškození artikulovat strukturálně, protože samotné struktury, které by artikulaci umožnily, jsou narušené. Klinici hlásí výpovědi typu *„není to, že bych něco neviděl, ale chybí mi něco, co by mi umožnilo říct, co chybí“*.
 
-## Třicet technik metatranscendentální anihilace
+## Techniky metatranscendentální anihilace
 
-Kapitola obsahuje třicet technik, [EA-5.2.1](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md) až [EA-5.2.30](@/kompendium/techniques/ea-5-2-30-konvergentni-meta-singularita.md). Každá z nich má v katalogu technik vlastní stránku, jejíž název a vymezení jsou pro kód EA-5.2.* závazné. Prvních deset technik je níže shrnuto jednou větou; techniky 11–30 jsou uvedeny v **kompaktní taxonomické formě**: u každé kapitola shrnuje, jaký vzorec stránka techniky popisuje, podle čeho se rozpoznává a čím se liší od sousedních technik, od neškodných jevů a od klinických stavů. Postupy a kroky, které by šlo provést, kapitola záměrně neuvádí.
+{% set cat = load_data(path="static/data/listings/techniques.json") %}Kapitola obsahuje {{ cat.groups["5.2"] | length }} technik, [EA-5.2.1](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md) až [EA-5.2.30](@/kompendium/techniques/ea-5-2-30-konvergentni-meta-singularita.md). Každá z nich má v katalogu technik vlastní stránku, jejíž název a vymezení jsou pro kód EA-5.2.* závazné. Prvních deset technik je níže shrnuto jednou větou; techniky 11–30 jsou uvedeny v **kompaktní taxonomické formě**: u každé kapitola shrnuje, jaký vzorec stránka techniky popisuje, podle čeho se rozpoznává a čím se liší od sousedních technik, od neškodných jevů a od klinických stavů. Postupy a kroky, které by šlo provést, kapitola záměrně neuvádí.
 
 ### Deep-dive techniky
 

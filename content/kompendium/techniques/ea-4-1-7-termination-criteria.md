@@ -55,10 +55,7 @@ Měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.m
 
 Kritéria ukončení uvádí kompendium proto, že jejich chybění je samo zjistitelné, ne jako pokyn k uspořádání.
 
-{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
-|---|---|
-{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
-{% endfor %}
+{% include "partials/bezpecnostni-ramec.md" %}
 
 ## Co vylučuje expozici s předem určeným koncem
 

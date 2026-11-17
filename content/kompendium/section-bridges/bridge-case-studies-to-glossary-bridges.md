@@ -8,6 +8,7 @@ tags = ["kompendium", "section-bridge", "navigace", "case-study", "glossary-brid
 categories = ["academic", "reference"]
 
 [extra]
+listing_note = "terminologie ↔ kotvy"
 related_terms = ["bridge-case-studies-to-clinical", "bridge-glossary-bridges-to-philosophy", "bridge-techniques-to-case-studies", "bridge-techniques-to-glossary"]
 toc = false
 +++
@@ -65,7 +66,7 @@ Druhým omylem je **hledat v mostu glosáře „správné“ zařazení případ
 
 Třetím omylem je **zobecňovat z jednoho případu**. Most je navržen tak, aby vedl zpět k dalším případům; teprve srovnání odhalí, co je pro vzorec podstatné.
 
-Čtvrtým omylem je **přehlížet mosty mezi oddíly**. Některé mosty glosáře se týkají pojmů z prostředí Prismatic Platform; v souvislosti s případy jsou užitečné jen tam, kde vysvětlují obecný princip, například triangulaci zdrojů.
+Čtvrtým omylem je **přehlížet mosty mezi oddíly**. Některé mosty glosáře se týkají pojmů z aplikačního prostředí, z něhož kniha vznikla; v souvislosti s případy jsou užitečné jen tam, kde vysvětlují obecný princip, například triangulaci zdrojů.
 
 ## Meze a otevřené otázky
 

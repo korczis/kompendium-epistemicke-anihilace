@@ -53,10 +53,7 @@ Zasažený člověk referuje, že „neví, kde začít“, když má o sobě ml
 
 Rozklad narativní struktury stránka nenavrhuje ani nepovoluje; pojistky jmenuje proto, že jejich chybění lze rozpoznat.
 
-{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
-|---|---|
-{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
-{% endfor %}
+{% include "partials/bezpecnostni-ramec.md" %}
 
 ## Co expozici vylučuje bez výjimky
 

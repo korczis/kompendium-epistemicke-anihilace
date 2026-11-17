@@ -278,6 +278,4 @@ Práce s vulnerabilní populací zůstává **oblastí aktivního vývoje**:
 
 ## Kritický krok
 
-**Klinická intervence vyžaduje licencovanou klinickou supervizi.** Tento
-materiál není terapeutickou příručkou ani diagnostickou metodikou pro
-neformální použití.
+{% include "partials/klinicka-supervize.md" %}

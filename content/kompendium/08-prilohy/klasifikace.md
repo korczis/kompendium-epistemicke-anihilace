@@ -8,6 +8,7 @@ sort_by = "weight"
 tags = ["kompendium", "08-prilohy"]
 
 [extra]
+listing_note = "Metodolog, taxonom"
 related_terms = ["eticky-kodex", "index-pojmu", "rejstrik-technik", "zkratky"]
 kompendium = ["08-prilohy"]
 prilohy = ["klasifikace", "taxonomie", "metodologie"]
@@ -42,11 +43,13 @@ EA-X.Y.Z[-α]
 
 ### 1.2 Příklady
 
+{% set cat = load_data(path="static/data/listings/techniques.json") %}
+
 | Kód | Význam |
 |-----|--------|
-| `EA-1.1.1` | Selektivní expozice (Kap. 1, podkat. 1, fenomén 1) |
-| `EA-5.1.30` | Apoteoza prázdna (Kap. 5, podkat. 1, fenomén 30) |
-| `EA-1.4.2-a` | Latentní emocionální modulace, varianta a |
+| [`EA-1.1.1`](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) | {{ cat.entries["EA-1.1.1"].name }} (Kap. 1, podkat. 1, fenomén 1) |
+| [`EA-5.1.30`](@/kompendium/techniques/ea-5-1-30-konceptualni-entropie.md) | {{ cat.entries["EA-5.1.30"].name }} (Kap. 5, podkat. 1, fenomén 30) |
+| `EA-1.4.2-a` | {{ cat.entries["EA-1.4.2"].name }}, varianta a |
 
 ### 1.3 Mapování kapitol
 

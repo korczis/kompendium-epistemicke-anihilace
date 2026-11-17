@@ -55,10 +55,7 @@ Měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.m
 
 U řízené expozice stresoru se následující pojistky čtou obráceně: co z nich chybí, je samo nálezem o povaze dané zátěže, protože legitimní expozice je od počátku odvolatelná (Herman, 1992). Popis nezakládá oprávnění expozici tohoto druhu uspořádat.
 
-{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
-|---|---|
-{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
-{% endfor %}
+{% include "partials/bezpecnostni-ramec.md" %}
 
 ## Okolnosti, které řízenou expozici vylučují
 

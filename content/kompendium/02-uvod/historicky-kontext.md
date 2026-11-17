@@ -9,6 +9,7 @@ tags = ["kompendium", "uvod", "historie", "filozofie", "predchudci"]
 categories = ["academic", "history"]
 
 [extra]
+listing_note = "Vývoj zkoumání, intelektuální předchůdci"
 related_terms = ["definice", "filosoficky-ramec", "metodologicke-poznamky", "teoreticke-zaklady"]
 section_icon = "📜"
 toc = true
@@ -343,11 +344,7 @@ Současný taxonomický systém je kulminací této trajektorie — zároveň v�
 
 ## Kritický krok
 
-Než přejdeš ke konkrétním kategoriím, formuluj si vlastní pracovní
-[definici epistemické anihilace](@/glossary/epistemicka-anihilace.md) a zapiš si ji
-mimo tuto stránku (papír / zápisník / poznámka). Tato definice se bude
-v průběhu četby měnit — to je žádoucí. Ale výchozí zápis je nepostradatelný
-referenční bod pro detekci vlastního posunu pochopení.
+{% include "partials/vlastni-definice.md" %}
 
 > **Mandatorní akce**: bez vlastní výchozí definice četba dalších sekcí
 > riskuje, že se ti vlastní pochopení rozplyne v autorské formulaci.

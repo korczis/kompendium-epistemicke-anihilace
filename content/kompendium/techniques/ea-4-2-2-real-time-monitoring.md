@@ -57,10 +57,7 @@ U sledování v reálném čase je chybějící pojistka poznatelná z toho, kom
 
 Takové sledování stránka nezavádí ani k němu neopravňuje; uvádí pouze, co jeho pojistky svou nepřítomností prozradí.
 
-{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
-|---|---|
-{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
-{% endfor %}
+{% include "partials/bezpecnostni-ramec.md" %}
 
 ## Co průběžné sledování vylučuje
 

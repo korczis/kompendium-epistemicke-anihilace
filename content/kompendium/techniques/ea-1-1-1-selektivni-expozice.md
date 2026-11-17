@@ -10,6 +10,7 @@ tags = ["kompendium", "techniques", "ea-1-1-1", "selektivni-expozice", "filter-b
 categories = ["academic"]
 
 [extra]
+exploitation = "Konfirmační bias, předpoklad komprehenzivity"
 related_terms = ["ea-1-1-1", "ea-1-1-2", "ea-1-1-2-informacni-pretizeni", "ea-1-1-3-terminologicka-mystifikace"]
 ea_code = "EA-1.1.1"
 ea_category = "1. Akademické techniky"

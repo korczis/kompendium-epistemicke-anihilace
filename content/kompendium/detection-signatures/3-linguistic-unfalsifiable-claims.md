@@ -8,6 +8,7 @@ tags = ["kompendium", "detection-signature", "diagnostika", "linguistic"]
 categories = ["academic", "clinical", "security"]
 
 [extra]
+listing_note = "Tvrzení imunizovaná proti vyvrácení."
 related_terms = ["28-phenomenological-reality-uncertainty", "29-phenomenological-temporal-disorientation", "30-phenomenological-identity-fragmentation", "4-linguistic-framing-shift"]
 toc = true
 modality = "linguistic"

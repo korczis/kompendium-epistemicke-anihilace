@@ -9,6 +9,7 @@ tags = ["kompendium", "predmluva", "metodika", "navigace", "graduacni-expozice",
 categories = ["academic"]
 
 [extra]
+listing_note = "Čtenářské strategie, postupná expozice"
 related_terms = ["bezpecnostni-klasifikace", "eticke-aspekty", "pro-koho-je-urceno", "ucel-kompendia"]
 section_icon = "🗺️"
 toc = true
@@ -363,10 +364,7 @@ Kompendium epistemické a [kognitivní anihilace](@/glossary/kognitivni-anihilac
 
 ## Kritický krok
 
-Předtím než pokročíš do dalších sekcí, ověř si etický kontext: zkontroluj
-souhlas se svou supervizí (akademická / klinická / forenzní), porozuměl jsi
-[etickým aspektům](@/kompendium/01-predmluva/eticke-aspekty.md), a víš, **kdy
-materiál nečíst** (vyhořelý stav, akutní krize, neexistující supervizní rámec).
+{% include "partials/eticky-kontext.md" %}
 
 > **Mandatorní akce**: vrať se na tuto stránku až poté, co tyto tři body
 > projdeš. Bez nich kompendium operuje mimo svůj zamýšlený etický rámec.

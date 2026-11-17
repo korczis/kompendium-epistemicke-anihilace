@@ -20,6 +20,10 @@ Writes, into static/data/ (nobody edits them by hand):
                  entry follow from its url and file (0 page.md, 1 _index.md, 2 index.md)
   viz-deps.json  every educational visualisation in static/js/kompendium/ -> the vendored
                  libraries it calls (chart, p5, three); base.html loads only those
+  listings/<key>.json  every derived listing declared in data/listings.toml (ADR 0015,
+                 rule project.listings-derived), built by scripts/listings.py from each member
+                 page's own front matter; pages render them with load_data. A file of a listing
+                 that is no longer declared is stale and removed.
   pokracovat.json  the "Pokračovat" block of every page (templates/partials/pokracovat.html
                  renders it): page path -> {next, related, term, protocol}, each [path, title],
                  derived from static/data/graph.json and static/data/ia.json (so run
@@ -43,6 +47,7 @@ import unicodedata
 
 sys.dont_write_bytecode = True  # no __pycache__ in the checkout
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+import listings  # noqa: E402
 from ia_model import (CONTENT, ROOT, TOML_FM, YAML_FM, load_pages,  # noqa: E402
                       parse_yaml_subset, url_of)
 
@@ -397,9 +402,10 @@ def pokracovat() -> dict:
 
 def build() -> dict:
     pages = load()
-    return {"nav.json": navigation(pages), "terms.json": terms(pages),
+    return {"nav.json": navigation(pages), "terms.json": terms(pages), 
             "glossary.json": glossary(pages), "search.json": search_index(pages),
-            "viz-deps.json": viz_deps(), "pokracovat.json": pokracovat()}
+            "viz-deps.json": viz_deps(), "pokracovat.json": pokracovat(),
+            **{name[len("static/data/"):]: data for name, data in listings.build_all().items()}}
 
 
 def serialise(data: dict) -> str:
@@ -427,14 +433,21 @@ def main() -> int:
     if rc:
         return rc
     stale = []
-    for name, data in build().items():
+    outputs = build()
+    for orphan in sorted((OUT / "listings").glob("*.json")) if (OUT / "listings").is_dir() else []:
+        name = f"listings/{orphan.name}"
+        if name not in outputs:
+            stale.append(name)
+            if not check:
+                orphan.unlink()
+    for name, data in outputs.items():
         target, text = OUT / name, serialise(data)
         current = target.read_text(encoding="utf-8") if target.exists() else None
         if current == text:
             continue
         stale.append(name)
         if not check:
-            OUT.mkdir(parents=True, exist_ok=True)
+            target.parent.mkdir(parents=True, exist_ok=True)
             target.write_text(text, encoding="utf-8")
     if check:
         if stale:

@@ -1,0 +1,81 @@
+# Derived listings of the book (ADR 0015, rule project.listings-derived): every table of a
+# section's own pages is declared here and rendered by its pages with
+#   {% set l = load_data(path="static/data/listings/<key>.json") %}
+# from the JSON scripts/build-ui-data.py writes through scripts/listings.py, from each member
+# page's own front matter. A new listing is one [[listing]] block, never a new script.
+#
+# Fields:
+#   key           identifier and output name (static/data/listings/<key>.json)
+#   section       the section whose pages (and subsection index pages) are the members
+#   index_pages   pages that render the listing; check-ia refuses a hand-written member row there
+#   where         keep only members whose front matter has this field (dotted path)
+#   exclude       members left out, each {path, reason}
+#   group         {code, pattern, group, parent}: groups inferred from a code (regex groups fill
+#                 the {0} {1} … templates), or {field, default}: groups from a front-matter field
+#   names         a names file with [[chapter]] (parent) and [[family]] (group) rows
+#   group_names   group key -> name; group_order: the order of the groups; group_notes: key -> note
+#   fields        front-matter fields carried into each member (dotted; the last key names it)
+#   title_strip / summary_strip   regexes removed from the title / description
+
+schema = "kompendium-listings/v1"
+
+[[listing]]
+key = "techniques"
+section = "kompendium/techniques"
+index_pages = [
+  "kompendium/techniques/_index.md",
+  "kompendium/08-prilohy/rejstrik-technik.md",
+  "kompendium/03-zakladni-kategorie/kapitola-1.md",
+  "kompendium/05-ultramari-techniky/kapitola-8.md",
+  "kompendium/05-ultramari-techniky/kapitola-9.md",
+  "kompendium/05-ultramari-techniky/kapitola-10.md",
+]
+group = { code = "extra.ea_code", pattern = '^EA-(\d+)\.(\d+)\.(\d+)$', group = "{0}.{1}", parent = "{0}" }
+names = "data/families.toml"
+fields = ["extra.exploitation"]
+title_strip = '^EA-[\d.]+\s*'
+summary_strip = '^(?:Detailní\s+)?per-technique\s+článek:\s*[^—]*—\s*'
+
+[[listing]]
+key = "detection-signatures"
+section = "kompendium/detection-signatures"
+index_pages = ["kompendium/detection-signatures/_index.md"]
+group = { field = "extra.modality", default = "cross" }
+group_order = ["linguistic", "behavioral", "network", "phenomenological", "cross"]
+group_names = { linguistic = "Lingvistické signatury", behavioral = "Behaviorální signatury", network = "Síťové signatury", phenomenological = "Fenomenologické signatury", cross = "Průřezové signatury" }
+group_notes = { linguistic = "Strukturu jazyka a argumentace: jak se tvrzení brání ověření.", behavioral = "Vzorce jednání ve vztahu: kontrola, izolace, tlak, emoční řízení.", network = "Topologii a dynamiku informačních toků: koordinace, amplifikace, umlčení.", phenomenological = "Prožívání zasažené osoby: co se děje s jejím myšlením, emocemi, časem a identitou.", cross = "Kalibraci úsudku a argumentační vzorce, které propojují modality." }
+fields = ["extra.listing_note"]
+title_strip = '^Detekční signatura:\s*'
+
+[[listing]]
+key = "section-bridges"
+section = "kompendium/section-bridges"
+index_pages = ["kompendium/section-bridges/_index.md"]
+fields = ["extra.listing_note"]
+title_strip = '^Most:\s*'
+
+[[listing]]
+key = "01-predmluva"
+section = "kompendium/01-predmluva"
+index_pages = ["kompendium/01-predmluva/_index.md"]
+fields = ["extra.listing_note"]
+
+[[listing]]
+key = "02-uvod"
+section = "kompendium/02-uvod"
+index_pages = ["kompendium/02-uvod/_index.md"]
+fields = ["extra.listing_note"]
+
+[[listing]]
+key = "08-prilohy"
+section = "kompendium/08-prilohy"
+index_pages = ["kompendium/08-prilohy/_index.md"]
+fields = ["extra.listing_note"]
+
+[[listing]]
+key = "05-ultramari-techniky"
+section = "kompendium/05-ultramari-techniky"
+index_pages = ["kompendium/05-ultramari-techniky/_index.md"]
+# the chapters of the section: the pages that name the technique family they cover
+where = "extra.ea_family"
+fields = ["extra.ea_family", "extra.listing_note"]

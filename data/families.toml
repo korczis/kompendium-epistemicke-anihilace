@@ -1,0 +1,145 @@
+# Names of the EA chapters (EA-N) and families (EA-N.M): the one source every reader takes them
+# from (ADR 0015). scripts/build-graph.py gives graph.json its `families` and every node its
+# `podrodina` name from here; scripts/listings.py copies them into
+# static/data/listings/techniques.json (`parent_names`, `group_names`), and the chapters, the
+# register of techniques and the techniques index title their derived tables from that. No page
+# writes a family name by hand.
+#
+# A family without a row keeps its code: a name is entered only from a source in the book, never
+# guessed. Where the book used two wordings, the one its chapter text uses was chosen, measured
+# on 2026-11-15 (session a70e6c7e): for 1.1-1.5 the kapitola-1 and techniques-index wording
+# occurs 5-12 times outside the register, the register's own ("Akvizice poznání", "Logická
+# manipulace", …) 0-1 times. The 2025 original taxonomy (ADR 0005) does not name these families.
+
+schema = "kompendium-families/v1"
+
+# Chapters: the register's "## Kapitola N — …" headings, as graph.json carried them.
+[[chapter]]
+code = "1"
+name = "Akademické techniky"
+
+[[chapter]]
+code = "2"
+name = "Delegitimizační techniky"
+
+[[chapter]]
+code = "3"
+name = "Edukativní implementace"
+
+[[chapter]]
+code = "4"
+name = "Terminální protokoly"
+
+[[chapter]]
+code = "5"
+name = "Ultramární techniky"
+
+[[chapter]]
+code = "6"
+name = "Klinické aplikace"
+
+[[chapter]]
+code = "7"
+name = "Teoretické reflexe"
+
+[[chapter]]
+code = "8"
+name = "Přílohy"
+
+[[chapter]]
+code = "9"
+name = "Současná digitální EA"
+
+# Families. Source: kapitola-1 and the techniques index (1.1–1.5), the techniques index (2.1),
+# the techniques index and kapitola-6 to 10 (5.1–5.5), the register (7.1–7.3, 8.1–8.3, 9.1–9.6).
+[[family]]
+code = "1.1"
+name = "Narušení procesů akvizice poznání"
+
+[[family]]
+code = "1.2"
+name = "Narušení procesů evaluace a integrace"
+
+[[family]]
+code = "1.3"
+name = "Narušení procesů revize a falsifikace"
+
+[[family]]
+code = "1.4"
+name = "Paralingvistické techniky"
+
+[[family]]
+code = "1.5"
+name = "Proxemické a kinetické techniky"
+
+[[family]]
+code = "2.1"
+name = "Atak na expertní status"
+
+[[family]]
+code = "5.1"
+name = "Epistemická singularita"
+
+[[family]]
+code = "5.2"
+name = "Metatranscendentální anihilace"
+
+[[family]]
+code = "5.3"
+name = "Hypertransformativní protokoly"
+
+[[family]]
+code = "5.4"
+name = "Paradoxální metaanihilační protokoly"
+
+[[family]]
+code = "5.5"
+name = "Transkonceptuální mechanismy"
+
+[[family]]
+code = "7.1"
+name = "Kontinentální filozofie a kritická teorie"
+
+[[family]]
+code = "7.2"
+name = "Epistemologie a filozofie vědy"
+
+[[family]]
+code = "7.3"
+name = "Kognitivní věda a teorie vědomí"
+
+[[family]]
+code = "8.1"
+name = "Nástroje posouzení: rozhodovací kapacita, disociace, traumatický stres, metakognice, coercive control"
+
+[[family]]
+code = "8.2"
+name = "Klinické a teoretické rámce: Lifton, Singerová, Hassan, Stark, Hermanová, MKN-11 a DSM-5-TR"
+
+[[family]]
+code = "8.3"
+name = "Literatura podle oblastí: klinická, filozofická, empirická, historická, cult studies"
+
+[[family]]
+code = "9.1"
+name = "Jazykové modely: halucinace, injekce promptu, rekurzivní smyčky"
+
+[[family]]
+code = "9.2"
+name = "Syntetická média: deepfake osobnosti, klonování hlasu, syntetický text"
+
+[[family]]
+code = "9.3"
+name = "Algoritmická amplifikace a personalizace obsahu"
+
+[[family]]
+code = "9.4"
+name = "Koordinované neautentické chování, botí a loutkové sítě"
+
+[[family]]
+code = "9.5"
+name = "Memy, symbolika a emoční inženýrství obsahu"
+
+[[family]]
+code = "9.6"
+name = "Automatizované rozhodování a „praní“ úsudku přes AI"

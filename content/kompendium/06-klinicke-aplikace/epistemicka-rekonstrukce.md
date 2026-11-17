@@ -347,6 +347,4 @@ Dlouhodobý **follow-up** v odstupech, které se domlouvají s klientem, zahrnuj
 
 ## Kritický krok
 
-**Klinická intervence vyžaduje licencovanou klinickou supervizi.** Tento
-materiál není terapeutickou příručkou ani diagnostickou metodikou pro
-neformální použití.
+{% include "partials/klinicka-supervize.md" %}

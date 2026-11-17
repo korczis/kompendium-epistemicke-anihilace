@@ -8,6 +8,7 @@ tags = ["kompendium", "section-bridge", "navigace", "philosophy", "ea-taxonomy"]
 categories = ["academic", "reference"]
 
 [extra]
+listing_note = "praxe ↔ kritika"
 related_terms = ["bridge-02-to-07-uvod-teoreticke", "bridge-03-to-06-techniky-klinika", "bridge-04-to-07-terminalni-teorie", "bridge-05-to-07-ultramari-teorie"]
 toc = false
 +++

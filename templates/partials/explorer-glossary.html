@@ -2,9 +2,10 @@
     písmen, nejodkazovanější hesla (ECharts) a síť jejich vzájemných odkazů (cytoscape).
     Stav drží Alpine.js (x-data="kompendiumGlosar()", static/js/viz/glosar.js); bez JS zůstává
     jen serverový seznam stránek ze section.html. Vlastní: agent „glosář“. -#}
+{%- set wc_map = load_data(path="static/data/words.json") -%}
 <script type="application/json" id="glosar-data">[
 {%- for p in section.pages %}
-{{ {"title": p.title, "url": p.permalink, "description": p.description, "words": p.word_count, "path": p.relative_path, "category": p.extra.category | default(value="")} | json_encode | safe }}{% if not loop.last %},{% endif %}
+{{ {"title": p.title, "url": p.permalink, "description": p.description, "words": wc_map[p.relative_path] | default(value=0), "path": p.relative_path, "category": p.extra.category | default(value="")} | json_encode | safe }}{% if not loop.last %},{% endif %}
 {%- endfor %}]</script>
 <section id="pruzkumnik-glosare" class="space-y-4" aria-labelledby="glosar-h" x-data="kompendiumGlosar()" x-init="init()" x-show="booted" style="display: none">
   <h2 id="glosar-h" class="sr-only">Průzkumník glosáře</h2>

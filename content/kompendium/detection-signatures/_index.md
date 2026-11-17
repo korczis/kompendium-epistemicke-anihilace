@@ -17,77 +17,25 @@ section_id = "kompendium-detection-signatures"
 
 Detekční signatura je **pozorovatelný vzorec**, který zvyšuje pravděpodobnost, že na člověka, skupinu nebo informační prostředí působí některá z technik epistemické manipulace popsaných v [katalogu technik](@/kompendium/techniques/_index.md). Signatury nejsou diagnózy ani důkazy viny. Jsou to nástroje pro kvalifikované čtenáře – kliniky, terapeuty, vyšetřovatele, právníky, compliance pracovníky a výzkumníky –, kteří potřebují vzorec rozpoznat, odlišit od benigních a klinických podob, zdokumentovat a navázat na správnou pomoc.
 
-Sekce obsahuje **30 signatur ve čtyřech modalitách** a **tři průřezové signatury**, které popisují společné jádro několika modalit.
+{% set l = load_data(path="static/data/listings/detection-signatures.json") %}Sekce obsahuje **{{ l.count }} signatur** ve {{ l.group_order | length }} skupinách; průřezové signatury popisují společné jádro několika modalit.
 
 Pojem signatury je převzat z bezpečnostní praxe, kde označuje rozpoznatelný otisk určitého typu útoku, ale v této knize má užší a opatrnější význam. Signatura neurčuje, *kdo* působí ani *proč*; popisuje vzorec, který lze pozorovat, zaznamenat a ověřit. Tento přístup navazuje na tradici výzkumu nátlakových prostředí, která od Bidermana (1957) a Liftona (1961) po Starkovou (2007) popisovala manipulaci nikoli podle úmyslů aktérů, ale podle struktury prostředí a jejích dopadů na člověka. Stark přitom zdůraznila, že nátlaková kontrola (*[coercive control](@/glossary/coercive-control.md)*) je vzorec jednání, nikoli klinická diagnóza – a totéž platí pro všechny signatury v této sekci, včetně gaslightingu.
 
 ## Struktura sekce
 
-| Modalita | Počet | Co zachycuje |
+| Skupina | Počet | Co zachycuje |
 |---|---|---|
-| **Lingvistická** | 8 | Strukturu jazyka a argumentace: jak se tvrzení brání ověření. |
-| **Behaviorální** | 8 | Vzorce jednání ve vztahu: kontrola, izolace, tlak, emoční řízení. |
-| **Síťová** | 8 | Topologii a dynamiku informačních toků: koordinace, amplifikace, umlčení. |
-| **Fenomenologická** | 6 | Prožívání zasažené osoby: co se děje s jejím myšlením, emocemi, časem a identitou. |
-| **Průřezová** | 3 | Kalibraci úsudku a argumentační vzorce, které propojují modality. |
+{% for g in l.group_order %}| **{{ l.group_names[g] }}** | {{ l.groups[g] | length }} | {{ l.group_notes[g] }} |
+{% endfor %}
+{% for g in l.group_order %}
 
-### Lingvistické signatury
+### {{ l.group_names[g] }}
 
-| Č. | Signatura | Co zachycuje |
-|---|---|---|
-| 1 | [Hustota žargonu](@/kompendium/detection-signatures/1-linguistic-jargon-density.md) | Nepřeložitelný slovník jako bariéra. |
-| 2 | [Cirkulární definice](@/kompendium/detection-signatures/2-linguistic-circular-definitions.md) | Pojmový kruh bez vnější kotvy. |
-| 3 | [Nefalsifikovatelná tvrzení](@/kompendium/detection-signatures/3-linguistic-unfalsifiable-claims.md) | Tvrzení imunizovaná proti vyvrácení. |
-| 4 | [Posun rámování](@/kompendium/detection-signatures/4-linguistic-framing-shift.md) | Nepřiznaná změna výkladového rámce. |
-| 5 | [Inverze zájmen](@/kompendium/detection-signatures/5-linguistic-pronoun-inversion.md) | Přerozdělení odpovědnosti gramatikou. |
-| 6 | [Fragmentace narativu](@/kompendium/detection-signatures/6-linguistic-narrative-fragmentation.md) | Fakta bez spojů, které si posluchač doplní. |
-| 7 | [Posun rozsahu](@/kompendium/detection-signatures/7-linguistic-scope-creep.md) | Nepozorované rozšiřování pojmu nebo závazku. |
-| 8 | [Sémantická eroze](@/kompendium/detection-signatures/8-linguistic-semantic-erosion.md) | Vyprázdnění pojmu na pouhý náboj. |
-
-### Behaviorální signatury
-
-| Č. | Signatura | Co zachycuje |
-|---|---|---|
-| 9 | [Nepřiměřená sebejistota](@/kompendium/detection-signatures/9-behavioral-disproportionate-confidence.md) | Jistota odpojená od důkazů. |
-| 10 | [Odpor k upřesnění](@/kompendium/detection-signatures/10-behavioral-resistance-to-clarification.md) | Ochrana neurčitosti. |
-| 11 | [Vyhýbání se tématu](@/kompendium/detection-signatures/11-behavioral-topic-evasion.md) | Selektivní únik od otázek odpovědnosti. |
-| 12 | [Gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md) | Zpochybňování paměti a soudnosti. |
-| 13 | [Akcelerace izolace](@/kompendium/detection-signatures/13-behavioral-isolation-acceleration.md) | Zrychlující se ztráta sítě. |
-| 14 | [Vytváření časového tlaku](@/kompendium/detection-signatures/14-behavioral-time-pressure-creation.md) | Vyrobená naléhavost. |
-| 15 | [Asymetrické odhalování](@/kompendium/detection-signatures/15-behavioral-asymmetric-disclosure.md) | Jednostranná intimita jako páka. |
-| 16 | [Emocionální modulace](@/kompendium/detection-signatures/16-behavioral-emotional-modulation.md) | Střídání vřelosti a chladu. |
-
-### Síťové signatury
-
-| Č. | Signatura | Co zachycuje |
-|---|---|---|
-| 17 | [Monokultura zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md) | Chybějící nezávislé srovnání. |
-| 18 | [Cirkularita citací](@/kompendium/detection-signatures/18-network-citation-circularity.md) | Zdánlivé mnohonásobné doložení. |
-| 19 | [Asymetrie amplifikace](@/kompendium/detection-signatures/19-network-amplification-asymmetry.md) | Vyrobený signál popularity. |
-| 20 | [Koordinace botů](@/kompendium/detection-signatures/20-network-bot-coordination.md) | Neautentické sítě účtů. |
-| 21 | [Platformní koordinace](@/kompendium/detection-signatures/21-network-platform-coordination.md) | Tentýž narativ napříč platformami. |
-| 22 | [Injekce narativu](@/kompendium/detection-signatures/22-network-narrative-injection.md) | Vsazení příběhu přes důvěryhodné uzly. |
-| 23 | [Praní reputace](@/kompendium/detection-signatures/23-network-reputation-laundering.md) | Důvěryhodnost získaná asociací. |
-| 24 | [Deplatformingová kaskáda](@/kompendium/detection-signatures/24-network-deplatforming-cascade.md) | Řetězové umlčení. |
-
-### Fenomenologické signatury
-
-| Č. | Signatura | Co zachycuje |
-|---|---|---|
-| 25 | [Kognitivní mlha](@/kompendium/detection-signatures/25-phenomenological-cognitive-fog.md) | Ztráta mentální jasnosti vázaná na prostředí. |
-| 26 | [Skok sebepochybnosti](@/kompendium/detection-signatures/26-phenomenological-self-doubt-spike.md) | Ztráta důvěry ve vlastní úsudek. |
-| 27 | [Emocionální otupení](@/kompendium/detection-signatures/27-phenomenological-emotional-numbing.md) | Utlumení citové odezvy. |
-| 28 | [Nejistota o realitě](@/kompendium/detection-signatures/28-phenomenological-reality-uncertainty.md) | Rozpad samozřejmé víry ve svět. |
-| 29 | [Temporální dezorientace](@/kompendium/detection-signatures/29-phenomenological-temporal-disorientation.md) | Narušené vnímání času a pořadí. |
-| 30 | [Fragmentace identity](@/kompendium/detection-signatures/30-phenomenological-identity-fragmentation.md) | Ztráta souvislého já. |
-
-### Průřezové signatury
-
-| Průřezová signatura | Co propojuje |
+| Signatura | Co zachycuje |
 |---|---|
-| [Epistemická kalibrace](@/kompendium/detection-signatures/epistemicka-kalibrace.md) | Nesoulad jistoty a důkazů u zdroje i u zasažené osoby. |
-| [Kalibrace teorie mysli (ToM)](@/kompendium/detection-signatures/tom-kalibrace.md) | Nadměrné čtení zdroje a přehlížení sebe. |
-| [Motte and bailey](@/kompendium/detection-signatures/motte-bailey.md) | Střídání silné a slabé pozice pod týmž označením. |
+{% for t in l.groups[g] %}| [{{ t.name }}](@/{{ t.path }}) | {{ t.listing_note | default(value="") }} |
+{% endfor %}
+{% endfor %}
 
 ## Jak signatury číst
 

@@ -10,6 +10,7 @@ tags = ["kompendium", "predmluva", "puvod", "metodologie", "omezeni"]
 categories = ["academic"]
 
 [extra]
+listing_note = "Odkud kniha vzešla, co z toho v jejím textu zůstalo a čemu kvůli tomu nevěřit bez důkazu"
 related_terms = ["pro-koho-je-urceno", "ucel-kompendia", "jak-pouzivat"]
 section_icon = "🔗"
 toc = true

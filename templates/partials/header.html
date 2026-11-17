@@ -55,9 +55,22 @@
       {%- if pos %}<a href="{{ config.base_url }}{{ nav_here.url }}" class="hidden sm:inline-flex rounded-md bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600">{{ pos }} / {{ nav_here.pages | length }} · {{ nav_here.title | truncate(length=40) }}</a>{% endif %}
       {%- endif %}
       {%- endif %}
-      {%- if page is defined and page.word_count %}<span class="hidden sm:inline-flex rounded-md bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800 dark:bg-gray-700 dark:text-gray-300">{{ page.word_count }} slov</span>{% endif %}
+      {#- The book's one word count, static/data/words.json (scripts/build-graph.py from ia_model: the
+          rendered prose the gates judge); Zola's own word count counts link paths as words. -#}
+      {%- if page is defined %}{% set wc_map = load_data(path="static/data/words.json") %}{% set wc_n = wc_map[page.relative_path] | default(value=0) %}{% if wc_n %}<span data-word-count class="hidden sm:inline-flex rounded-md bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800 dark:bg-gray-700 dark:text-gray-300">{{ wc_n }} slov</span>{% endif %}{% endif %}
       {%- if doc.reading_time is defined and doc.reading_time %}<span class="hidden sm:inline-flex rounded-md bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800 dark:bg-gray-700 dark:text-gray-300">{{ doc.reading_time }} min čtení</span>{% endif %}
     </div>
   </div>
+  {#- A section shows the mark scripts/render-graphics.py generated for it (a cell per page:
+      full = developed, outline = in progress), the same image as its carousel card and share
+      preview. The map from section path to file is the generator's manifest, so no slug is
+      re-derived here; a section without its own mark shows none. -#}
+  {%- if doc.relative_path is defined and "/_index.md" in doc.relative_path %}
+  {%- set mark_key = doc.relative_path | replace(from="/_index.md", to="") %}
+  {%- set graphics = load_data(path="static/img/generated/manifest.json") %}
+  {%- if mark_key in graphics.sections %}
+  <img src="{{ get_url(path='img/generated/' ~ graphics.sections[mark_key].mark) }}" alt="" width="640" height="240" decoding="async" data-section-mark class="mt-4 hidden h-28 w-auto shrink-0 rounded-lg border border-gray-200 sm:ml-6 sm:mt-0 sm:block lg:h-32 dark:border-gray-700">
+  {%- endif %}
+  {%- endif %}
 </div>
 {% include "partials/subnav.html" %}

@@ -200,6 +200,4 @@ Pro detail per-technique markerů odkazujeme na [techniques](@/kompendium/techni
 
 ## Kritický krok
 
-**Klinická intervence vyžaduje licencovanou klinickou supervizi.** Tento
-materiál není terapeutickou příručkou ani diagnostickou metodikou pro
-neformální použití.
+{% include "partials/klinicka-supervize.md" %}

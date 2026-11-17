@@ -8,6 +8,7 @@ tags = ["kompendium", "section-bridge", "navigace", "interactive", "klinicke-apl
 categories = ["academic", "reference"]
 
 [extra]
+listing_note = "vizualizace ↔ klinický artefakt"
 related_terms = ["bridge-techniques-to-visualizations", "bridge-visualizations-to-techniques", "bridge-case-studies-to-clinical", "bridge-04-to-06-terminalni-klinika"]
 toc = false
 +++

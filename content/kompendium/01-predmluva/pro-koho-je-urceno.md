@@ -9,6 +9,7 @@ tags = ["kompendium", "predmluva", "cilova-skupina", "pristupova-omezeni", "kval
 categories = ["academic"]
 
 [extra]
+listing_note = "Cílové skupiny a předpokládaná kvalifikace"
 related_terms = ["eticke-aspekty", "jak-pouzivat", "ucel-kompendia", "vztah-k-platforme"]
 section_icon = "👥"
 toc = true
@@ -158,10 +159,7 @@ Tato kapitola popisuje, komu je text určen, nikoli komu je technicky dostupný.
 
 ## Kritický krok
 
-Předtím než pokročíš do dalších sekcí, ověř si etický kontext: zkontroluj
-souhlas se svou supervizí (akademická / klinická / forenzní), porozuměl jsi
-[etickým aspektům](@/kompendium/01-predmluva/eticke-aspekty.md), a víš, **kdy
-materiál nečíst** (vyhořelý stav, akutní krize, neexistující supervizní rámec).
+{% include "partials/eticky-kontext.md" %}
 
 > **Mandatorní akce**: vrať se na tuto stránku až poté, co tyto tři body
 > projdeš. Bez nich kompendium operuje mimo svůj zamýšlený etický rámec.

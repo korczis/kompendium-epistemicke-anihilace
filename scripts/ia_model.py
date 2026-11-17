@@ -7,14 +7,74 @@ import functools
 import pathlib
 import re
 import tomllib
+import sys
+
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+import listings  # noqa: E402  (scripts/listings.py: the derived listings)
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content"
+TEMPLATES = ROOT / "templates"
 
 TOML_FM = re.compile(r"\A\+\+\+\n(.*?)\n\+\+\+\n", re.S)
 YAML_FM = re.compile(r"\A---\n(.*?)\n---\n", re.S)
+# Loops over a derived listing (ADR 0015, scripts/listings.py): a page binds a listing with
+# {% set VAR = load_data(path="static/data/listings/KEY.json") %} and loops over one group
+# (VAR.groups["1.2"]), one parent (VAR.parents["5"]), or all of it (VAR.items, VAR.group_order, or a
+# key/value loop over VAR.groups or VAR.parents). A loop's links are not literal in the source; they are added
+# from the listing's membership, which the same front matter defines. A lookup of one entry
+# (VAR.entries["EA-1.1.1"]) is not a listing and links nothing by itself.
+# Not seen: a link rendered through a variable lookup (VAR.groups[t.ea_family] | first). The
+# graph would miss it, so no listing renders one (05-ultramari-techniky dropped its five
+# first-technique links for this reason); a listing that needs per-group links gets them by
+# resolving such lookups here, never by hand-writing them.
+LISTING_GROUP = r'\{%-?\s*for\s+\w+\s+in\s+VAR\.groups\[\s*"([^"]+)"\s*\]'
+LISTING_PARENT = r'\{%-?\s*for\s+\w+\s+in\s+VAR\.parents\[\s*"([^"]+)"\s*\]'
+LISTING_ALL = (r'\{%-?\s*for\s+(?:\w+\s+in\s+VAR\.(?:items|group_order)'
+               r'|\w+\s*,\s*\w+\s+in\s+VAR\.(?:groups|parents))\s*-?%\}')
+
+
+def listing_loops(body: str) -> list:
+    """[(listing key, groups, parents, everything)] for every listing a page loops over."""
+    out = []
+    for var, key in listings.LOAD.findall(body):
+        sub = lambda rx: re.compile(rx.replace("VAR", re.escape(var)))
+        out.append((key, set(sub(LISTING_GROUP).findall(body)), set(sub(LISTING_PARENT).findall(body)),
+                    bool(sub(LISTING_ALL).search(body))))
+    return out
+
+
 AT_LINK = re.compile(r"\]\(@/([^)#\s]+?\.md)(#[^)\s]*)?\)")
 FENCE = re.compile(r"```.*?```", re.S)
+# A shared notice belongs in templates/partials/ and is pulled in with {% include %} — the remedy
+# the duplicate-passage requirement itself names. But a page's SOURCE then says `{% include %}`
+# where the notice stood, and every field derived from the source loses the notice with it: moving
+# four section notices this way cost the book 17 `@/` links, measured against origin/main. So the
+# page is read twice. Which copy a field comes from follows what the field is about: duplication is
+# a property of the source (expanding there would cancel the remedy, 252 -> 281), while links,
+# words, language and the page-level facts describe the page a reader is handed. Case 50 holds both
+# halves against their own controls.
+INCLUDE = re.compile(r"\{%-?\s*include\s+\"([^\"]+)\"\s*-?%\}")
+TERA_COMMENT = re.compile(r"\{#-?.*?-?#\}", re.S)
+
+
+def expand_includes(text: str, depth: int = 0) -> str:
+    """The page as a reader gets it: every {% include %} replaced by its partial's body.
+
+    A partial that does not exist is left as written, so a typo shows up as a Zola build error
+    rather than as silently missing prose. Nesting is followed to a small depth, which also bounds
+    a partial that includes itself.
+    """
+    if depth >= 4 or "include" not in text:
+        return text
+
+    def one(m: re.Match) -> str:
+        target = TEMPLATES / m.group(1)
+        if not target.is_file():
+            return m.group(0)
+        return expand_includes(TERA_COMMENT.sub("", target.read_text(encoding="utf-8")), depth + 1)
+
+    return INCLUDE.sub(one, text)
 WORD = re.compile(r"[A-Za-zÀ-ž]+")
 DIACRITIC = re.compile(r"[ěščřžýáíéůúťďňĚŠČŘŽÝÁÍÉŮÚŤĎŇ]")
 EN_WORDS = {"the", "and", "of", "with", "is", "are", "this", "that"}
@@ -129,9 +189,23 @@ def language_of(words: list) -> str:
     return "en" if en > cz else "cs"
 
 
+FAMILIES = ROOT / "data" / "families.toml"
+
+
+def family_names() -> tuple:
+    """(chapter code -> name, family code -> name) from data/families.toml, the one source of the
+    EA chapter and family names (ADR 0015). A code without a row has no name; none is guessed."""
+    import tomllib
+    data = tomllib.loads(FAMILIES.read_text(encoding="utf-8"))
+    return ({str(r["code"]): str(r["name"]) for r in data.get("chapter", [])},
+            {str(r["code"]): str(r["name"]) for r in data.get("family", [])})
+
+
 def load_pages(with_body: bool = False) -> list:
     """Every page of content/ as a dict; `with_body` keeps the body (front matter removed)
     and the front matter's [extra] for the text analyses of scripts/check-ia.py."""
+    loops: dict = {}
+    members: dict = {}
     pages = []
     for path in sorted(CONTENT.rglob("*.md")):
         rel = pathlib.PurePosixPath(path.relative_to(CONTENT).as_posix())
@@ -149,7 +223,11 @@ def load_pages(with_body: bool = False) -> list:
             if m:
                 fm_kind, body = "yaml", text[m.end():]
                 front = parse_yaml_subset(m.group(1))
-        prose = FENCE.sub("", body)
+        # `body` stays the source: the duplication requirements read it, and link-terms,
+        # derive-links and normalize-front-matter each re-read the file from disk rather than
+        # writing a body back, so nothing can inline a partial into content.
+        rendered = expand_includes(body)
+        prose = FENCE.sub("", rendered)
         words = WORD.findall(re.sub(r"\]\([^)]*\)|https?://\S+", "", prose))
         dia = sum(1 for w in words if DIACRITIC.search(w))
         taxonomies = front.get("taxonomies") or {}
@@ -169,11 +247,11 @@ def load_pages(with_body: bool = False) -> list:
             "words": len(words),
             "diacritics": round(dia / len(words), 3) if words else 0.0,
             "language": language_of(words),
-            "has_related": bool(RELATED_HEADING.search(body)),
+            "has_related": bool(RELATED_HEADING.search(rendered)),
             "generated": bool(GENERATED_MARKERS.search(text)),
             "template": str(front.get("template", "")),
-            "has_definition": bool(re.search(r"^##\s+Definice\b", body, re.M)),
-            "hardcoded": bool(HARDCODED.search(body)),
+            "has_definition": bool(re.search(r"^##\s+Definice\b", rendered, re.M)),
+            "hardcoded": bool(HARDCODED.search(rendered)),
             "howto": bool(HOWTO.search(prose)),
             "ea_category": str(extra.get("ea_category", "")) if isinstance(extra, dict) else "",
             # Catalogue pages (scripts/catalogs.py) carry their names under catalog_*.
@@ -185,11 +263,22 @@ def load_pages(with_body: bool = False) -> list:
             if isinstance(front.get("aliases"), list) else [],
             "aliases": [str(x) for x in extra.get("catalog_aliases", [])]
             if isinstance(extra, dict) and isinstance(extra.get("catalog_aliases"), list) else [],
-            "links": [m.group(1) for m in AT_LINK.finditer(body)],
+            "links": [m.group(1) for m in AT_LINK.finditer(rendered)],
         })
+        # Derived listings (scripts/listings.py): which listings a page loops over, and which
+        # listings and groups a page is a member of.
+        if listings.OUTPUT_DIR in body:
+            loops[pages[-1]["path"]] = listing_loops(body)
+        for key, group, parent, field_links in listings.member_groups(rel.as_posix(), front):
+            members.setdefault(key, []).append((pages[-1]["path"], group, parent, field_links))
         if with_body:
             pages[-1]["body"] = body
             pages[-1]["extra"] = extra if isinstance(extra, dict) else {}
+    for page in pages:
+        for key, groups, parents, everything in loops.get(page["path"], []):
+            for t, group, parent, field_links in members.get(key, []):
+                if everything or group in groups or parent in parents:
+                    page["links"] += [t] + field_links
     known = {p["path"] for p in pages}
     for page in pages:
         page["broken_links"] = sorted({t for t in page["links"] if t not in known})

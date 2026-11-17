@@ -55,10 +55,7 @@ Měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.m
 
 Fázi návratu stránka nezavádí ani neschvaluje; pojistky zaznamenává proto, že jejich absence je u takového uspořádání patrná.
 
-{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
-|---|---|
-{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
-{% endfor %}
+{% include "partials/bezpecnostni-ramec.md" %}
 
 ## Okolnosti, které zátěž ve fázi návratu vylučují
 

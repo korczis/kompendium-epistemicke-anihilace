@@ -8,6 +8,7 @@ tags = ["kompendium", "detection-signature", "diagnostika", "network"]
 categories = ["academic", "clinical", "security"]
 
 [extra]
+listing_note = "Tentýž narativ napříč platformami."
 related_terms = ["2-linguistic-circular-definitions", "20-network-bot-coordination", "22-network-narrative-injection", "23-network-reputation-laundering"]
 toc = true
 modality = "network"

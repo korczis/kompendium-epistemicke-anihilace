@@ -8,6 +8,7 @@ sort_by = "weight"
 tags = ["kompendium", "08-prilohy", "glossary"]
 
 [extra]
+listing_note = "Překladatel, mezinárodní výzkumník"
 related_terms = ["dual-use", "eticky-kodex", "klasifikace", "rejstrik-technik"]
 kompendium = ["08-prilohy"]
 prilohy = ["index-pojmu", "bilingual", "terminologie"]

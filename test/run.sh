@@ -24,6 +24,20 @@ out_dir=$(mktemp -d "${TMPDIR:-/tmp}/kea-tests.XXXXXX")
 KEA_TEST_TREE=$(git write-tree) || { echo "test/run.sh: git write-tree failed" >&2; exit 1; }
 export KEA_TEST_TREE
 trap 'rm -rf "$out_dir"' EXIT
+# The owning pid, as scripts/verify-content.sh writes for its export: a tree holding only .out
+# files has no open handle between case writes, so `lsof +D` reads a running suite's directory as
+# unheld (2026-11-16, a peer's cleanup removed one mid-run and failed all 43 cases). Clean up a
+# kea-tests.* tree only when this pid is gone.
+echo $$ > "$out_dir/.kea-test.pid"
+
+# A case number names one case: `test/run.sh 40` must not run two unrelated files, and a failure
+# reported as "case 40" must point at one. Lanes take numbers from `majordomus mesh allocate case`;
+# three numbers had two files each on main (02, 03, 40, 2026-11-16) before this refused it.
+dupes=$(for c in test/cases/*_*.sh; do b=$(basename "$c"); echo "${b%%_*}"; done | sort | uniq -d)
+if [ -n "$dupes" ]; then
+  for n in $dupes; do echo "test/run.sh: case number $n names more than one file:" $(ls test/cases/"$n"_*.sh) >&2; done
+  exit 2
+fi
 
 cases=()
 for case in test/cases/*_*.sh; do

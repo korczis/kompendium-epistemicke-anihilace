@@ -53,10 +53,7 @@ Zasažený člověk referuje, že „teprve teď vidí věci správně“, a dř
 
 Rekonstrukční fáze se pozná podle toho, komu se z ní skládá účet; pojistky níže proto kniha jmenuje kvůli jejich nepřítomnosti, která je na obnově pojmového aparátu patrná zvenčí (Singer a Lalich, 1995). Uspořádání tohoto druhu stránka nenavrhuje ani neschvaluje.
 
-{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
-|---|---|
-{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
-{% endfor %}
+{% include "partials/bezpecnostni-ramec.md" %}
 
 ## Vylučující okolnosti
 

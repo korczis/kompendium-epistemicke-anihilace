@@ -53,10 +53,7 @@ Zasažený člověk referuje, že „teprve teď rozumí svému životu“. Klin
 
 Přeznačení životního příběhu bez těchto pojistek se pozná právě podle jejich absence; kompendium je nepředepisuje.
 
-{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
-|---|---|
-{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
-{% endfor %}
+{% include "partials/bezpecnostni-ramec.md" %}
 
 ## Okolnosti, které přeznačení vylučují
 

@@ -53,10 +53,7 @@ Zasažený člověk v anamnéze referuje o postupné ztrátě jistoty, zda vidě
 
 Ochrana oznamovatele je zde vedena jako pojistka, jejíž chybění lze rozpoznat; stránka žádné takové uspořádání nezakládá ani neschvaluje.
 
-{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
-|---|---|
-{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
-{% endfor %}
+{% include "partials/bezpecnostni-ramec.md" %}
 
 ## Okolnosti, které vylučují expozici
 

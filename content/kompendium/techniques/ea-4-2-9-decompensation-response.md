@@ -53,10 +53,7 @@ Zasažený člověk referuje, že „se zhroutil“, a událost popisuje jako sv
 
 Krizovou odpověď stránka nikomu nepovoluje ani nepředepisuje; pojistky jsou vypsány proto, že jejich chybění je samo nálezem.
 
-{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
-|---|---|
-{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
-{% endfor %}
+{% include "partials/bezpecnostni-ramec.md" %}
 
 ## Okolnosti, které krizovou odpověď vylučují
 

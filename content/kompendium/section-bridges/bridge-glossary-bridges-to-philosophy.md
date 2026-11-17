@@ -8,6 +8,7 @@ tags = ["kompendium", "section-bridge", "navigace", "glossary-bridge", "philosop
 categories = ["academic", "reference"]
 
 [extra]
+listing_note = "naming ↔ power act"
 related_terms = ["bridge-case-studies-to-glossary-bridges", "bridge-techniques-to-glossary", "bridge-quick-reference-to-glossary", "bridge-02-to-07-uvod-teoreticke"]
 toc = false
 +++

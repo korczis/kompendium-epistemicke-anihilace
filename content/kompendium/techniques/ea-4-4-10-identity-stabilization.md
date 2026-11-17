@@ -53,10 +53,7 @@ Zasažený člověk referuje, že „je s každým někdo jiný“, a tuto zkuš
 
 Po protokolech zasahujících sebepojetí je chybění zde shrnutých pojistek samo nálezem; stránka takový postup neopravňuje.
 
-{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
-|---|---|
-{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
-{% endfor %}
+{% include "partials/bezpecnostni-ramec.md" %}
 
 ## Co expozici vylučuje
 

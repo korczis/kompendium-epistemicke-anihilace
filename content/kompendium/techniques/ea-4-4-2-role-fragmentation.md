@@ -53,10 +53,7 @@ Zasažený člověk referuje, že se „v práci a doma neumí potkat“, a popi
 
 Rozdělení rolí do oddělených hodnotících os se udrží jen tam, kde je nikdo nespojuje do jednoho obrazu sebe sama (Neisser, 1988). Pojistky níže proto kniha uvádí jako něco, čeho nepřítomnost je sama rozpoznatelná; jejich výčet není zadáním ani svolením.
 
-{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
-|---|---|
-{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
-{% endfor %}
+{% include "partials/bezpecnostni-ramec.md" %}
 
 ## Vylučující okolnosti
 

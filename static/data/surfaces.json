@@ -14,7 +14,9 @@
     "static/data/nav.json",
     "static/data/pokracovat.json",
     "static/data/terms.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {
     "viz/okoli": 289
@@ -128,7 +130,9 @@
     "static/data/nav.json",
     "static/data/pokracovat.json",
     "static/data/terms.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {
     "viz/oddil": 1,
@@ -224,7 +228,9 @@
     "static/data/nav.json",
     "static/data/pokracovat.json",
     "static/data/terms.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {
     "viz/oddil": 2,
@@ -315,7 +321,9 @@
    ],
    "data": [
     "static/data/nav.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {},
    "libraries": [],
@@ -391,7 +399,9 @@
    ],
    "data": [
     "static/data/nav.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {},
    "libraries": [],
@@ -471,7 +481,9 @@
     "static/data/nav.json",
     "static/data/pokracovat.json",
     "static/data/terms.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {
     "viz/oddil": 1,
@@ -565,7 +577,9 @@
    ],
    "data": [
     "static/data/nav.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {},
    "libraries": [],
@@ -646,7 +660,9 @@
     "static/data/nav.json",
     "static/data/pokracovat.json",
     "static/data/terms.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {
     "viz/oddil": 2,
@@ -742,7 +758,9 @@
    ],
    "data": [
     "static/data/nav.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {},
    "libraries": [],
@@ -816,7 +834,9 @@
    ],
    "data": [
     "static/data/nav.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {},
    "libraries": [],
@@ -891,7 +911,9 @@
    ],
    "data": [
     "static/data/nav.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {},
    "libraries": [],
@@ -972,7 +994,9 @@
     "static/data/nav.json",
     "static/data/pokracovat.json",
     "static/data/terms.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {
     "viz/oddil": 1,
@@ -1067,7 +1091,9 @@
    ],
    "data": [
     "static/data/nav.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {},
    "libraries": [],
@@ -1141,7 +1167,9 @@
    ],
    "data": [
     "static/data/nav.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {},
    "libraries": [],
@@ -1215,7 +1243,9 @@
    ],
    "data": [
     "static/data/nav.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {},
    "libraries": [],
@@ -1289,7 +1319,9 @@
    ],
    "data": [
     "static/data/nav.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {},
    "libraries": [],
@@ -1363,7 +1395,9 @@
    ],
    "data": [
     "static/data/nav.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {},
    "libraries": [],
@@ -1440,7 +1474,9 @@
     "static/data/nav.json",
     "static/data/pokracovat.json",
     "static/data/terms.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {
     "viz/oddil": 1,
@@ -1531,7 +1567,9 @@
    ],
    "data": [
     "static/data/nav.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {},
    "libraries": [],
@@ -1606,7 +1644,9 @@
    ],
    "data": [
     "static/data/nav.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {},
    "libraries": [],
@@ -1687,7 +1727,9 @@
     "static/data/nav.json",
     "static/data/pokracovat.json",
     "static/data/terms.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {
     "viz/oddil": 1,
@@ -1783,7 +1825,9 @@
    ],
    "data": [
     "static/data/nav.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {},
    "libraries": [],
@@ -1860,7 +1904,9 @@
     "static/data/nav.json",
     "static/data/pokracovat.json",
     "static/data/terms.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {
     "viz/oddil": 1,
@@ -1956,7 +2002,9 @@
     "static/data/nav.json",
     "static/data/pokracovat.json",
     "static/data/terms.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {
     "viz/oddil": 1,
@@ -2055,7 +2103,9 @@
     "static/data/nav.json",
     "static/data/pokracovat.json",
     "static/data/terms.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {
     "viz/oddil": 1,
@@ -2158,7 +2208,9 @@
     "static/data/nav.json",
     "static/data/pokracovat.json",
     "static/data/terms.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {
     "viz/okoli": 147
@@ -2255,7 +2307,9 @@
     "static/data/nav.json",
     "static/data/pokracovat.json",
     "static/data/terms.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {
     "viz/oddil": 1,
@@ -2398,7 +2452,9 @@
     "static/data/nav.json",
     "static/data/pokracovat.json",
     "static/data/terms.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {
     "viz/oddil": 1,
@@ -2491,7 +2547,9 @@
     "static/data/nav.json",
     "static/data/pokracovat.json",
     "static/data/terms.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {
     "viz/oddil": 1,
@@ -2584,7 +2642,9 @@
     "static/data/nav.json",
     "static/data/pokracovat.json",
     "static/data/terms.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {
     "viz/oddil": 1,
@@ -2677,7 +2737,9 @@
     "static/data/nav.json",
     "static/data/pokracovat.json",
     "static/data/terms.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {
     "viz/oddil": 1,
@@ -2771,7 +2833,9 @@
     "static/data/nav.json",
     "static/data/pokracovat.json",
     "static/data/terms.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {
     "viz/oddil": 1,
@@ -2875,7 +2939,9 @@
     "static/data/nav.json",
     "static/data/pokracovat.json",
     "static/data/terms.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {
     "viz/oddil": 1,
@@ -2968,7 +3034,9 @@
     "static/data/nav.json",
     "static/data/pokracovat.json",
     "static/data/terms.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {
     "viz/oddil": 1,
@@ -3061,7 +3129,9 @@
     "static/data/nav.json",
     "static/data/pokracovat.json",
     "static/data/terms.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {
     "viz/okoli": 40
@@ -3154,7 +3224,9 @@
     "static/data/nav.json",
     "static/data/pokracovat.json",
     "static/data/terms.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {
     "viz/oddil": 1,
@@ -3244,7 +3316,9 @@
    ],
    "data": [
     "static/data/nav.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {},
    "libraries": [],
@@ -3324,7 +3398,9 @@
     "static/data/nav.json",
     "static/data/pokracovat.json",
     "static/data/terms.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {
     "viz/okoli": 420
@@ -3431,7 +3507,9 @@
     "static/data/nav.json",
     "static/data/pokracovat.json",
     "static/data/terms.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {
     "viz/oddil": 1,
@@ -3524,7 +3602,9 @@
     "static/data/nav.json",
     "static/data/pokracovat.json",
     "static/data/terms.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {
     "viz/oddil": 1,
@@ -3617,7 +3697,9 @@
     "static/data/nav.json",
     "static/data/pokracovat.json",
     "static/data/terms.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {
     "viz/oddil": 1,
@@ -3710,7 +3792,9 @@
     "static/data/nav.json",
     "static/data/pokracovat.json",
     "static/data/terms.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {
     "viz/oddil": 1,
@@ -3803,7 +3887,9 @@
     "static/data/nav.json",
     "static/data/pokracovat.json",
     "static/data/terms.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {
     "viz/oddil": 1,
@@ -3896,7 +3982,9 @@
     "static/data/nav.json",
     "static/data/pokracovat.json",
     "static/data/terms.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {
     "viz/oddil": 1,
@@ -3989,7 +4077,9 @@
     "static/data/nav.json",
     "static/data/pokracovat.json",
     "static/data/terms.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {
     "viz/oddil": 1,
@@ -4082,7 +4172,9 @@
     "static/data/nav.json",
     "static/data/pokracovat.json",
     "static/data/terms.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {
     "viz/oddil": 1,
@@ -4175,7 +4267,9 @@
     "static/data/nav.json",
     "static/data/pokracovat.json",
     "static/data/terms.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {
     "viz/oddil": 1,
@@ -4271,7 +4365,9 @@
     "static/data/nav.json",
     "static/data/pokracovat.json",
     "static/data/terms.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {
     "viz/okoli": 503
@@ -4415,7 +4511,9 @@
    ],
    "data": [
     "static/data/nav.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {},
    "libraries": [
@@ -4545,7 +4643,9 @@
     "static/data/nav.json",
     "static/data/pokracovat.json",
     "static/data/terms.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {
     "viz/oddil": 1,
@@ -4646,7 +4746,9 @@
     "static/data/nav.json",
     "static/data/pokracovat.json",
     "static/data/terms.json",
-    "static/data/viz-deps.json"
+    "static/data/viz-deps.json",
+    "static/data/words.json",
+    "static/img/generated/manifest.json"
    ],
    "generic_views": {
     "viz/okoli": 3

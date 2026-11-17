@@ -8,6 +8,7 @@ sort_by = "weight"
 tags = ["kompendium", "08-prilohy"]
 
 [extra]
+listing_note = "Univerzální"
 related_terms = ["klasifikace", "rejstrik-technik", "index-pojmu"]
 kompendium = ["08-prilohy"]
 prilohy = ["zkratky", "notace", "konvence"]

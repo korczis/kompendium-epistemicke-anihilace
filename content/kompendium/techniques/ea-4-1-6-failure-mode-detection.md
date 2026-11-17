@@ -55,10 +55,7 @@ Měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.m
 
 Detekce režimů selhání je bez vnější kontroly prázdná: slabé signály se v uzavřeném provozu vykládají jako přijatelná odchylka (Vaughan, 1996). Pojistky níže jsou proto popsány tím, co znamená jejich nepřítomnost, nikoli jako zadání, podle něhož se něco zařizuje.
 
-{% set ramec = load_data(path="data/bezpecnostni-ramec.toml") %}| Pojistka | Co znamená její nepřítomnost |
-|---|---|
-{% for p in ramec.pojistka %}| **{{ p.label }}** | {{ p.absence }} |
-{% endfor %}
+{% include "partials/bezpecnostni-ramec.md" %}
 
 ## Vylučující okolnosti detekce
 

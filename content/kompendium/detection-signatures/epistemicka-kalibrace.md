@@ -7,6 +7,7 @@ description = "Průřezová signatura: soustavný nesoulad mezi jistotou a důka
 tags = ["kompendium", "sub-page", "interactive"]
 
 [extra]
+listing_note = "Nesoulad jistoty a důkazů u zdroje i u zasažené osoby."
 category = "kompendium-sub"
 related_terms = ["12-behavioral-gaslighting-pattern", "1-linguistic-jargon-density", "17-network-source-monoculture", "18-network-citation-circularity", "22-network-narrative-injection", "2-linguistic-circular-definitions"]
 author = "Tomas Korcak (korczis)"

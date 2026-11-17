@@ -133,6 +133,20 @@ Requirements (id: what is checked):
                    or move a genuine shared notice to a Zola include/partial; `scripts/dup-passages.py`
                    lists each block with its pages so a block is fixed across all of them at once.
                    NEVER baselined
+  typed-count      no hand-typed member count where the page itself loads the derived one: on a
+                   page that binds a derived data file (`{% set l = load_data(path="static/data/…")
+                   %}`), a literal numeral followed by a noun that this file's own derived
+                   expressions use for its members. Both halves are read out of the book — the
+                   member noun from the `{{ l.count }} signatur` the book already writes (no schema
+                   and no file name carries that Czech word), the scope from the binding, which
+                   proves the derived form is reachable from that very file. Refuses the numeral
+                   rather than comparing it: a correct hand-typed count goes stale on the next
+                   member, which is how section 05 came to claim 150 techniques over 187 and
+                   kapitola-8 30 over 37. Exempts an ordinal subset ("Prvních deset technik je níže
+                   shrnuto"), a noun the bound file never uses for its members, and front matter,
+                   which Zola does not template and which therefore has no derived form to offer.
+                   A file with no derived expression anywhere teaches no noun and is never charged.
+                   Remedy: render the count from the file the page already loads. NEVER baselined
   duplicate-table  no pasted table row: a table data row (whitespace- and EA-code-normalised, 8+
                    words) re-pasted byte-identical on 3+ content/kompendium pages — the complement of
                    duplicate-passage, which skips tables. Exempts ONLY a metadata field (a bold-label
@@ -156,6 +170,24 @@ Requirements (id: what is checked):
                    free code of its family, with its title, links and catalogue row. Pending zero at
                    the two pages of EA-5.3.27 (ego-skeletalni-redukce, autobiografi-self-fragmentace),
                    whose chapter row names neither; NEVER baselined
+  listing-row    a page that data/listings.toml names in a listing's index_pages renders that
+                   listing with load_data and hand-writes no table row linking one of its members
+                   (rule project.listings-derived, ADR 0015). Rows inside a Tera expression or a
+                   generated <!-- kompendium:…:begin/end --> block are derived. Remedy: drop the
+                   row; the loop renders it. NEVER baselined
+  undeclared-listing  inferred: a section _index.md whose literal table rows link at least
+                   LISTING_MIN_MEMBERS of its own member pages and at least LISTING_MIN_SHARE of
+                   them is a listing; unless data/listings.toml declares the section or names the
+                   page in index_pages, it is refused. Remedy: declare a [[listing]] and render it.
+                   NEVER baselined
+  catalogue-row  no hand-written catalogue row: a content table row whose first cell is an EA technique
+                   code, bold or in backticks ("| **[EA-1.2.1](…)** | … |", "| **EA-5.3.22** | … |",
+                   "| [`EA-1.1.1`](…) | … |"). A technique's catalogue
+                   entry is its page's front matter (code, title, description), and a chapter renders
+                   its table from static/data/listings/techniques.json with load_data (ADR 0015); the row a loop
+                   renders is not in the source. Not charged: a technique heading with prose under it,
+                   a row whose first cell is not a technique code. Remedy: replace the table with the
+                   family's load_data loop. NEVER baselined
   access-level-row  no hand-written access level: a "| **Přístupová úroveň** | … |" row in content,
                    or the same claim as prose ("Přístupová úroveň L3.", "**Přístupová úroveň
                    L3–L4**:", "Přístupová úroveň L2 (rozšířený přístup) —"), with or without a
@@ -235,6 +267,7 @@ import tomllib
 
 sys.dont_write_bytecode = True  # no __pycache__ in the checkout
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+import listings  # noqa: E402  (scripts/listings.py: the derived listings)
 from ia_model import (ROOT, EA_ONLY, academic_profile, body_lines, bold_spans,  # noqa: E402
                       is_list_lead, bold_term_index, FENCE, figure_lines,
                       TEMPLATE_FIGURE_PAGES, FIGURE,
@@ -292,7 +325,9 @@ NEVER_BASELINED = {"placeholder", "technique-page", "howto", "drug-dose", "templ
                    "clinical-figure", "fabricated-citation", "legitimate-indication",
                    "code-range", "chrome-trailer",
                    "detail", "weak-link",
-                   "duplicate-passage", "duplicate-table", "access-level-row", "duplicate-ea-code", "alias-collision",
+                   "duplicate-passage", "duplicate-table", "access-level-row", "duplicate-ea-code",
+                   "catalogue-row", "alias-collision", "listing-row", "undeclared-listing",
+                   "typed-count",
                    "drug-name", "authority-without-source",
                    "platform-section", "relative-link", "platform-label", "platform-frontmatter",
                    "philosophy-frame", "reader-command"}
@@ -314,10 +349,54 @@ PENDING_ZERO = {"placeholder": 0, "technique-page": 0, "howto": 0, "drug-dose": 
                 "duplicate-passage": 281,
                 "duplicate-table": 249,  # measured on merged main c8394d3e after Přístupová úroveň removal; bold-label→short-value exempt
                 "access-level-row": 0,  # the row is derived from extra.access_level; 0 after removal
+                # 0 on main, which carries no derived count expression at all; the real
+                # positions appear with the first converted section and are fixed, not accepted
+                "typed-count": 0,
                 # the one known case: EA-5.3.27 on two pages, its kapitola-8 row naming neither
-                "duplicate-ea-code": 2,
+                "duplicate-ea-code": 0,
                 # safety, ADR 0013/0014: both reach 0 after the content lane's waves
                 "drug-name": 1, "authority-without-source": 0}  # 0 → never baselined (lands at 0 after 2e's slice)
+# A hand-written catalogue row: the first cell is an EA technique code, bold or in backticks, linked
+# or not ("| **[EA-1.2.1](…)** |", "| **EA-5.3.22** |", "| [`EA-1.1.1`](…) |", "| `EA-2.1.1` |").
+# Derived listings (rule project.listings-derived, ADR 0015). A section index is inferred to be a
+# listing when its literal table rows link at least LISTING_MIN_MEMBERS of the section's own pages
+# and at least LISTING_MIN_SHARE of them. Measured 2026-11-16 (session a70e6c7e) on the book,
+# rows inside generated catalogue blocks excluded: detection-signatures 33/33, section-bridges
+# 28/28, 01-predmluva 6/6, 02-uvod 6/6, 08-prilohy 7/8, 05-ultramari-techniky 5/9 (55%) are
+# listings; below them a clean gap: 06-klinicke-aplikace 6/17 (35%), population-health 8/30,
+# 07-teoreticke-reflexe 4/60, 03-zakladni-kategorie 3/17, glossary 3/289 are picked highlights.
+# The case (test/cases/45) and the rule read these two values from here.
+LISTING_MIN_MEMBERS = 5
+LISTING_MIN_SHARE = 0.5
+GENERATED_BLOCK = re.compile(r"<!-- kompendium:[a-z-]+:begin.*?<!-- kompendium:[a-z-]+:end -->", re.S)
+LISTING_LINK = re.compile(r"\]\(@/([^)#\s]+?\.md)(?:#[^)\s]*)?\)")
+
+
+def listing_checks(path: str, body: str) -> tuple:
+    """(hand-written rows of a declared listing on this page, (linked, members) when this section
+    index is an undeclared listing, else None)."""
+    decl = listings.declaration()
+    literal = [ln.strip() for ln in GENERATED_BLOCK.sub("", FENCE.sub("", body)).splitlines()
+               if ln.lstrip().startswith("|") and "{{" not in ln and "{%" not in ln]
+    rows = []
+    for listing in decl:
+        if path in listing.get("index_pages", []):
+            members = set(listings.members_of(listing))
+            rows += [ln for ln in literal if any(t in members for t in LISTING_LINK.findall(ln))]
+    undeclared = None
+    if path.endswith("/_index.md"):
+        section = path[:-len("/_index.md")]
+        declared = any(l["section"] == section or path in l.get("index_pages", []) for l in decl)
+        members = set(listings.members_of({"section": section}))
+        linked = {t for ln in literal for t in LISTING_LINK.findall(ln) if t in members}
+        if (not declared and members and len(linked) >= LISTING_MIN_MEMBERS
+                and len(linked) >= LISTING_MIN_SHARE * len(members)):
+            undeclared = (len(linked), len(members))
+    return rows, undeclared
+
+
+CATALOGUE_ROW = re.compile(r"^\|\s*(?:\*\*\s*\[?EA-\d+\.\d+\.\d+\]?(?:\([^)]*\))?\s*\*\*"
+                           r"|\[?`EA-\d+\.\d+\.\d+`\]?(?:\([^)]*\))?)\s*\|")
 BOLD_CANDIDATE_PAGES = 3  # a bold phrase on this many pages is a term and needs its own page
 
 
@@ -387,10 +466,18 @@ def violations(page: dict) -> list:
         found.append("duplicate-passage")
     if page.get("duplicate_tables"):
         found.append("duplicate-table")
+    if page.get("typed_counts"):
+        found.append("typed-count")
     if page.get("access_level_row") or page.get("access_level_prose"):
         found.append("access-level-row")
     if page.get("duplicate_ea_code"):
         found.append("duplicate-ea-code")
+    if page.get("catalogue_rows"):
+        found.append("catalogue-row")
+    if page.get("listing_rows"):
+        found.append("listing-row")
+    if page.get("undeclared_listing"):
+        found.append("undeclared-listing")
     if page.get("alias_collisions"):
         found.append("alias-collision")
     if page.get("reader_commands"):
@@ -426,10 +513,20 @@ def explain(page: dict) -> dict:
         "legitimate-indication": "; ".join(page.get("legitimate_indication", [])[:2]),
         "duplicate-passage": "; ".join(b[:60] for b in page.get("duplicate_passages", [])[:2]),
         "duplicate-table": "; ".join(r[:60] for r in page.get("duplicate_tables", [])[:2]),
+        "typed-count": ("; ".join(page.get("typed_counts", [])[:3])
+                        + " — render the count from the data file this page already loads"
+                        if page.get("typed_counts") else ""),
         "access-level-row": ("hand-written Přístupová úroveň row" if page.get("access_level_row")
                              else "hand-written Přístupová úroveň L<n> in prose — delete the level"
                                   " claim, keep the rest of the sentence"
                              if page.get("access_level_prose") else ""),
+        "listing-row": (f"{len(page['listing_rows'])} hand-written row(s) of a declared listing, "
+                        f"first: {page['listing_rows'][0][:70]}" if page.get("listing_rows") else ""),
+        "undeclared-listing": (f"its table lists {page['undeclared_listing'][0]} of its "
+                               f"{page['undeclared_listing'][1]} pages; declare it in data/listings.toml"
+                               if page.get("undeclared_listing") else ""),
+        "catalogue-row": (f"{len(page['catalogue_rows'])} hand-written row(s), first: "
+                          f"{page['catalogue_rows'][0][:70]}" if page.get("catalogue_rows") else ""),
         "alias-collision": ("; ".join(f"{a} is {why}" for a, why in page["alias_collisions"])
                             if page.get("alias_collisions") else ""),
         "reader-command": "; ".join(f"[{v}] {t}" for v, t in page.get("reader_commands", [])[:2]),
@@ -985,6 +1082,11 @@ def analyse(pages: list) -> dict:
     lower_freq = collections.Counter()
     for page in pages:
         body = page.pop("body")
+        # catalogue-row (ADR 0015): a literal table row whose first cell is a bold EA code; the row a
+        # load_data loop renders is not literal, its source line carries the Tera expression
+        page["catalogue_rows"] = [ln.strip() for ln in FENCE.sub("", body).splitlines()
+                                  if CATALOGUE_ROW.match(ln) and "{{" not in ln]
+        page["listing_rows"], page["undeclared_listing"] = listing_checks(page["path"], body)
         lines = list(body_lines(body))
         page.update(academic_profile(body, lines))
         page["placeholders"] = placeholder_markers(body, page["extra"])
@@ -1193,6 +1295,64 @@ def card_parents_resolve(pages: list) -> set:
     return found
 
 
+# typed-count: a page that loads one of the book's derived data files has that set's member
+# count available in the file it is writing in, so typing the number is a choice — and a number
+# typed once goes stale on the next member. Both halves of the judgement are read out of the
+# book: see the requirement's entry in this module's docstring.
+DATA_BIND = re.compile(r"\{%-?\s*set\s+(\w+)\s*=\s*load_data\(path=\"([^\"]+\.(?:json|toml))\"")
+DERIVED_COUNT = re.compile(r"\{\{\s*(\w+)[^}]*(?:count|length)[^}]*\}\}\s*"
+                           r"((?:[^\s.,;:()\[\]{}]+\s*){0,4})")
+COUNT_WORD = re.compile(r"^[a-záčďéěíňóřšťúůýž]+$")
+COUNT_MARKUP = str.maketrans("", "", "*_`~\u00a0")
+# an adjective agreeing with a genitive plural stands between the numeral and its head noun
+# ("150 ultramárních technik"); the head is the first token that is not one of those forms
+COUNT_ADJ = re.compile(r"(?:ních|ých|ého|ími|ová|ové|ský|ská|ské|ní|ká)$")
+COUNT_NUM = (r"(?:\d{1,4}|dvě|dva|tři|čtyři|pět|šest|sedm|osm|devět|deset|jedenáct|dvanáct|"
+             r"třináct|čtrnáct|patnáct|šestnáct|sedmnáct|osmnáct|devatenáct|dvacet|třicet|"
+             r"čtyřicet|padesát|šedesát|sedmdesát|osmdesát|devadesát|sto)")
+# an ordinal makes the numeral a subset of the set, not its size
+COUNT_SUBSET = re.compile(r"\b(prvn\w+|posledn\w+|dalš\w+|zbýv\w+|následuj\w+)\s+$", re.I)
+
+
+def count_head_noun(after: str):
+    """The head noun of the phrase a derived count expression quantifies, or None."""
+    for tok in (t.translate(COUNT_MARKUP) for t in after.split()):
+        if not COUNT_WORD.match(tok):
+            return None
+        if COUNT_ADJ.search(tok):
+            continue   # an agreeing adjective; the head is still to come
+        return tok
+    return None
+
+
+def typed_counts_resolve(pages: list) -> None:
+    """Charge a typed member count on a page that binds the derived source. Needs the bodies,
+    so it runs before analyse() empties them."""
+    nouns = collections.defaultdict(set)
+    bodies = {p["path"]: (p.get("body") or "") for p in pages}
+    for body in bodies.values():
+        bound = dict(DATA_BIND.findall(body))
+        for var, after in DERIVED_COUNT.findall(body):
+            source, noun = bound.get(var), count_head_noun(after)
+            if source and noun:
+                nouns[source].add(noun)
+    for page in pages:
+        body = bodies[page["path"]]
+        page["typed_counts"] = []
+        sources = {src for _, src in DATA_BIND.findall(body)} & set(nouns)
+        if not sources:
+            continue   # no derived form is reachable from this file: nothing to demand
+        vocab = sorted(set().union(*(nouns[s] for s in sources)), key=len, reverse=True)
+        pattern = re.compile(r"(?<![\w*`])(" + COUNT_NUM + r")\s+"
+                             r"(?:[a-záčďéěíňóřšťúůýž]+(?:ních|ých)\s+){0,2}"
+                             r"(" + "|".join(map(re.escape, vocab)) + r")\b", re.I)
+        for sentence in re.split(r"(?<=[.!?])\s+|\n\n", body):
+            for m in pattern.finditer(sentence):
+                if COUNT_SUBSET.search(sentence[:m.start(1)]):
+                    continue
+                page["typed_counts"].append(f"{m.group(1)} {m.group(2)}")
+
+
 def clear_card_citations(pages: list, exempt: set) -> None:
     """Zero `uncited` on those cards. Needs the counts, so it runs after analyse()."""
     for page in pages:
@@ -1204,6 +1364,7 @@ def current(details: dict = None, counts: dict = None) -> dict:
     result = {}
     pages = load_pages(with_body=True)
     cards = card_parents_resolve(pages)   # while the bodies are still there
+    typed_counts_resolve(pages)           # likewise: it reads the bodies and the bindings
     candidates = analyse(pages)
     clear_card_citations(pages, cards)    # once analyse() has produced the counts
     weak_pages = {p["path"] for p in pages if weak(p)}

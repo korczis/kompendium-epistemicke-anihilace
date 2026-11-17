@@ -181,6 +181,7 @@ def wide(w, h, title_size, with_text=True):
 #   section-<slug>.svg  640 x 240, a cell per page of the section, the same two states
 #   og-<slug>.png       1200 x 630, the section's og:image (templates/base.html)
 #   manifest.json       sha256 of every file, and for each PNG the sha256 of its SVG source
+#                       and the map from each section path and family code to its graphics
 # A PNG is rasterised (rsvg-convert) only when its source changed, so a re-run keeps the
 # committed bytes and --check needs no rasteriser.
 CONTENT = ROOT / "content"
@@ -398,7 +399,14 @@ def generated_manifest(svgs: dict, ogs: dict) -> dict:
         data = (GENERATED / name).read_bytes() if (GENERATED / name).exists() else b""
         files[name] = {"sha256": sha(data), "source_sha256": sha(text.encode("utf-8")),
                        "width": png_size(data)[0], "height": png_size(data)[1]}
-    return {"schema": SCHEMA, "generator": "scripts/render-graphics.py", "files": files}
+    # Which graphic belongs to which section or family, so a template looks a section up by its
+    # path instead of re-deriving the slug (templates/base.html, section.html, the carousel).
+    data = section_inputs()
+    sections = {s["key"]: {"mark": f"section-{s['slug']}.svg", "og": f"og-{s['slug']}.png"}
+                for s in data["sections"]}
+    families = {f["code"]: f"family-{f['slug']}.svg" for f in data["families"]}
+    return {"schema": SCHEMA, "generator": "scripts/render-graphics.py", "files": files,
+            "sections": sections, "families": families}
 
 
 def generated_check(svgs: dict, ogs: dict) -> list:

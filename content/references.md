@@ -8,12 +8,12 @@ tags = ["kompendium"]
 
 [extra]
 toc = false
-entries = 5292
+entries = 5295
 +++
 
 Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotlivých stránkách kompendia a glosáře; ručně se needituje.
 
-**5292 položek**, seřazených podle autora.
+**5295 položek**, seřazených podle autora.
 
 ## A
 
@@ -1531,6 +1531,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Případ 62: Kult zakladatele startupu](@/kompendium/case-studies/62-startup-founder-cult.md)</small>
 - Carroll, L. (1895). What the Tortoise Said to Achilles. *Mind*.  
   <small>Citováno: [Infinitní regres](@/glossary/infinitni-regress.md), [Rekurzivní paralýza](@/glossary/rekurzivni-paralyza.md)</small>
+- Carroll, L. (1895). What the Tortoise Said to Achilles. *Mind*, 4(14), 278–280.  
+  <small>Citováno: [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md)</small>
 - Carroll, S. R., et al. (2020). The CARE Principles for Indigenous Data Governance. *Data Science Journal*, 19.  
   <small>Citováno: [Dekoloniální epistemologie](@/kompendium/critical-perspectives/27-decolonial-epistemology.md)</small>
 - Carter, J. A., a Palermos, S. O. (2016). Is having your computer compromised a personal assault? The ethics of extended cognition. *Journal of the American Philosophical Association*, 2(4).  
@@ -3485,6 +3487,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Hermeneutická eroze](@/glossary/hermeneuticka-eroze.md), [EA-2.3.2 Kolaps kontextu (context collapse)](@/kompendium/techniques/ea-2-3-2-context-collapse.md), [EA-2.3.3 Těžba citátů (quote mining)](@/kompendium/techniques/ea-2-3-3-quote-mining.md) a 1 dalších</small>
 - Gadamer, H.-G. (1960). *Wahrheit und Methode: Grundzüge einer philosophischen Hermeneutik*. J. C. B. Mohr (Paul Siebeck).  
   <small>Citováno: [Fúze horizontů](@/glossary/fuze-horizontu.md), [Detekční signatura: Cirkulární definice](@/kompendium/detection-signatures/2-linguistic-circular-definitions.md)</small>
+- Gadamer, H.-G. (1960). *Wahrheit und Methode: Grundzüge einer philosophischen Hermeneutik*. Tübingen: J. C. B. Mohr (Paul Siebeck).  
+  <small>Citováno: [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md)</small>
 - Gadamer, H.-G. (1960). *Wahrheit und Methode*. J. C. B. Mohr.  
   <small>Citováno: [EA-4.3.8 Hermeneutic recursion](@/kompendium/techniques/ea-4-3-8-hermeneutic-recursion.md), [EA-5.1.13 Hyperreflexivita](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md)</small>
 - Gadamer, H.-G. (1960). *Wahrheit und Methode*. J. C. B. Mohr (Paul Siebeck).  
@@ -4549,7 +4553,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Hofstadter, D. R. (1979). *Gödel, Escher, Bach: An Eternal Golden Braid*. Basic Books.  
   <small>Citováno: [Implozivní rekurze](@/glossary/implozivni-rekurze.md), [Rekurzivní epistemická negace](@/glossary/rekurzivni-epistemicka-negace.md), [Bridge: Kognitivní anti-rekurzivita](@/kompendium/glossary-bridges/bridge-kognitivni-anti-rekurzivita.md)</small>
 - Hofstadter, D. R. (1979). *Gödel, Escher, Bach: An Eternal Golden Braid*. New York: Basic Books.  
-  <small>Citováno: [Most: Základní kategorie → Ultramární techniky](@/kompendium/section-bridges/bridge-03-to-05-zakladni-ultramari.md), [Most: Ultramární techniky → Teoretické reflexe](@/kompendium/section-bridges/bridge-05-to-07-ultramari-teorie.md)</small>
+  <small>Citováno: [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md), [Most: Základní kategorie → Ultramární techniky](@/kompendium/section-bridges/bridge-03-to-05-zakladni-ultramari.md), [Most: Ultramární techniky → Teoretické reflexe](@/kompendium/section-bridges/bridge-05-to-07-ultramari-teorie.md)</small>
 - Hofstadter, D. R. (2007). *I Am a Strange Loop*.  
   <small>Citováno: [Sebereference (self-reference)](@/glossary/self-reference.md)</small>
 - Hofstadter, R. (1964). The paranoid style in American politics. *Harper's Magazine*, listopad 1964.  
@@ -4905,7 +4909,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - James, W. (1902). *The Varieties of Religious Experience*. Longmans, Green & Co.  
   <small>Citováno: [Ego death (rozpuštění ega)](@/glossary/ego-death.md)</small>
 - James, W. (1902). *The Varieties of Religious Experience*. New York: Longmans, Green.  
-  <small>Citováno: [EA-5.2.15 Transcendentální imploze](@/kompendium/techniques/ea-5-2-15-transcendentalni-implosion.md), [EA-5.2.16 Kantovská paradoxie](@/kompendium/techniques/ea-5-2-16-kantovska-paradoxie.md), [EA-5.2.2 Transcendentální iluze](@/kompendium/techniques/ea-5-2-2-transcendentalni-iluze.md)</small>
+  <small>Citováno: [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md), [EA-5.2.15 Transcendentální imploze](@/kompendium/techniques/ea-5-2-15-transcendentalni-implosion.md), [EA-5.2.16 Kantovská paradoxie](@/kompendium/techniques/ea-5-2-16-kantovska-paradoxie.md) a 1 dalších</small>
 - James, W. (1909). *A Pluralistic Universe*.  
   <small>Citováno: [Pluralismus](@/glossary/pluralismus.md)</small>
 - Jamieson, K. H. (2018). *Cyberwar: How Russian Hackers and Trolls Helped Elect a President*.  
@@ -6605,8 +6609,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Narativní terapie](@/glossary/narativni-terapie.md), [Radikální diskontinuita](@/glossary/radikalni-diskontinuita.md), [Transformative experience (transformativní zkušenost)](@/glossary/transformative-experience.md) a 8 dalších</small>
 - McAdams, D. P. (2001). The psychology of life stories. *Review of General Psychology*, 5(2).  
   <small>Citováno: [Případ 03: Pedagogické gaslighting](@/kompendium/case-studies/03-pedagogicke-gaslighting.md), [Posouzení dopadu](@/kompendium/forensic-legal/9-victim-impact-assessment.md), [Transkonceptuální mechanismy jako rodina vzorců](@/kompendium/puvodni-taxonomie/transkonceptualni-mechanismy.md) a 1 dalších</small>
-- McAdams, D. P. (2001). The Psychology of Life Stories. *Review of General Psychology*, 5(2), 100–122.  
-  <small>Citováno: [Vzdělávací scénář: Fragmentace identity](@/kompendium/educational-scenarios/25-identity-fragmentation.md), [Akutní protokol: Péče o svědka pod zvláštní ochranou](@/kompendium/emergency-protocols/40-witness-protection.md), [Bridge: Narrative identity (narativní identita)](@/kompendium/glossary-bridges/bridge-narrative-identity.md) a 8 dalších</small>
+- McAdams, D. P. (2001). The psychology of life stories. *Review of General Psychology*, 5(2), 100–122.  
+  <small>Citováno: [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md), [Vzdělávací scénář: Fragmentace identity](@/kompendium/educational-scenarios/25-identity-fragmentation.md), [Akutní protokol: Péče o svědka pod zvláštní ochranou](@/kompendium/emergency-protocols/40-witness-protection.md) a 9 dalších</small>
 - McAdams, D. P., & McLean, K. C. (2013). *Narrative identity*. Current Directions in Psychological Science.  
   <small>Citováno: [Narativní identita (narrative identity)](@/glossary/narativni-identita.md)</small>
 - McAdams, D. P., & McLean, K. C. (2013). Narrative identity. *Current Directions in Psychological Science*, 22(3), 233–238.  
@@ -8632,13 +8636,15 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Sass, L. A., & Parnas, J. (2003). *Schizophrenia, consciousness, and the self*. Schizophrenia Bulletin, 29(3).  
   <small>Citováno: [Fenomenologická psychopatologie](@/glossary/fenomenologicka-psychopatologie.md), [Pre-predikativní zkušenost (vorprädikative Erfahrung)](@/glossary/pre-predikativni-zkusenost.md), [Vzdělávací scénář: Rozpoznání ultramárních technik](@/kompendium/educational-scenarios/21-ultramarine-recognition.md) a 1 dalších</small>
 - Sass, L. A., & Parnas, J. (2003). Schizophrenia, consciousness, and the self. *Schizophrenia Bulletin*, 29(3), 427–444.  
-  <small>Citováno: [Intencionalita – zaměřenost vědomí jako kategorie analýzy](@/kompendium/03-zakladni-kategorie/intencionalita.md), [7.16 Merleau-Ponty: Vtělená percepce a tělesný subjekt](@/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce.md), [Detekční signatura: Nejistota o realitě](@/kompendium/detection-signatures/28-phenomenological-reality-uncertainty.md) a 19 dalších</small>
+  <small>Citováno: [Intencionalita – zaměřenost vědomí jako kategorie analýzy](@/kompendium/03-zakladni-kategorie/intencionalita.md), [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md), [7.16 Merleau-Ponty: Vtělená percepce a tělesný subjekt](@/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce.md) a 20 dalších</small>
 - Satir, V. (1972). *Peoplemaking*. Palo Alto: Science and Behavior Books.  
   <small>Citováno: [Červený sleď](@/kompendium/argumentacni-fauly/relevance/cerveny-sled.md), [NLP vzorce](@/kompendium/nlp-vzorce/_index.md), [Procházení časové osy](@/kompendium/nlp-vzorce/casova-osa/pruchod-casovou-osou.md) a 52 dalších</small>
 - Saul, J. M. (2012). *Lying, Misleading, and What Is Said: An Exploration in Philosophy of Language and in Ethics*. Oxford University Press.  
   <small>Citováno: [Paltering](@/glossary/paltering.md)</small>
 - Saunders, K. E. A., Hawton, K., Fortune, S. a Farrell, S. (2012). Attitudes and knowledge of clinical staff regarding people who self-harm: A systematic review. *Journal of Affective Disorders*, 139(3), 205–216.  
   <small>Citováno: [Akutní protokol: Akutní sebepoškozování po epistemické anihilaci](@/kompendium/emergency-protocols/10-acute-self-harm-EA.md)</small>
+- Saussure, F. de (1916). *Cours de linguistique générale*. Paris: Payot.  
+  <small>Citováno: [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md)</small>
 - Scandura, T. A. (1998). Dysfunctional mentoring relationships and outcomes. *Journal of Management*.  
   <small>Citováno: [Ochrana mentorství](@/kompendium/organizational-defense/19-mentorship-protection.md)</small>
 - Scarfone, K., Souppaya, M., Cody, A., & Orebaugh, A. (2008). *Technical Guide to Information Security Testing and Assessment* (NIST SP 800-115). Gaithersburg: National Institute of Standards and Technology.  
@@ -10242,7 +10248,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Wells, A. (2009). *Metacognitive Therapy for Anxiety and Depression*. Guilford Press.  
   <small>Citováno: [Destruktivní cirkularita](@/glossary/destruktivni-cirkularita.md), [Dialektická anihilace](@/glossary/dialekticka-anihilace.md), [Epistemická alienace](@/glossary/epistemicka-alienace.md) a 24 dalších</small>
 - Wells, A. (2009). *Metacognitive Therapy for Anxiety and Depression.* New York: Guilford Press.  
-  <small>Citováno: [Metakognice – myšlení o myšlení jako kategorie analýzy](@/kompendium/03-zakladni-kategorie/metakognice.md), [6.1.3 Self-report instrumenty pro EA — kalibrace a interpretace](@/kompendium/06-klinicke-aplikace/self-report-instrumenty.md), [6.1.2 Semi-strukturovaný klinický rozhovor pro EA](@/kompendium/06-klinicke-aplikace/semi-structured-interview-protokol.md) a 14 dalších</small>
+  <small>Citováno: [Metakognice – myšlení o myšlení jako kategorie analýzy](@/kompendium/03-zakladni-kategorie/metakognice.md), [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md), [6.1.3 Self-report instrumenty pro EA — kalibrace a interpretace](@/kompendium/06-klinicke-aplikace/self-report-instrumenty.md) a 15 dalších</small>
 - Wells, A., & Cartwright-Hatton, S. (2004). A Short Form of the Metacognitions  
   <small>Citováno: [EA-8.1.9 Metakognitivní dotazník MCQ-30 (Wells, Cartwright-Hattonová)](@/kompendium/techniques/ea-8-1-9-metakognitivni-questionnaire.md)</small>
 - Wells, A., & Cartwright-Hatton, S. (2004). A short form of the Metacognitions Questionnaire: Properties of the MCQ-30. *Behaviour Research and Therapy*, 42(4), 385–396.  

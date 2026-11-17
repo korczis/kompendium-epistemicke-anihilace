@@ -89,6 +89,10 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 - **Legitimní práce** s paradoxem zachovává distincí mezi *zkoumaným paradoxem* a *zkoumajícím subjektem*; subjekt vychází obohacen o pojmovou jemnost.
 - **Manipulační aplikace** ruší tuto distincí; subjekt je s paradoxem *identifikován* a vychází z procesu evaluačně paralyzován.
 
+Diferenciálně je třeba vzorec odlišit od souběžné proměny, kterou přináší běžná životní událost — stěhování, rodičovství, nemoc — a která rovněž mění sebepojetí, hodnoty i vzpomínky najednou. Rozdíl nespočívá v rozsahu změn, ale v tom, zda je člověk umí přiřadit k událostem a zda je prožívá jako vlastní. Herman (1992) navrhla pro následky dlouhodobého ovládání [komplexní posttraumatickou stresovou poruchu](@/glossary/c-ptsd.md), jejíž popis zahrnuje změny sebepojetí, vztahů k druhým a systémů smyslu; ztráta pocitu, že změny vycházejí z vlastního rozhodnutí, je proto rozpoznávacím znakem, nikoli rozsah změn sám.
+
+Teorie vágnosti nabízejí obranné hledisko i pro souběh více oblastí. Williamson (1994) ukazuje, že neznalost hranice neznamená neexistenci rozdílu mezi vzdálenými stavy, a Hyde (2008) zachází se soritem jako s otázkou logiky vágních predikátů, nikoli jako s důkazem, že nic nelze rozlišit. Ochranným faktorem je srovnání po oblastech s nezávislým záznamem a s lidmi mimo vztah. Stark (2007) popisuje u [donucující kontroly](@/glossary/coercive-control.md) izolaci od blízkých jako jeden z nosných prostředků; obnovený kontakt s nimi je zároveň obnovou vnější paměti. Jak dlouho taková rekonstrukce trvá, citovaná díla neuvádějí a kniha takový údaj nepodává.
+
 ## Rizikové kontexty
 
 | Kontext | Manifestace |

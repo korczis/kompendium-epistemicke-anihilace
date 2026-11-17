@@ -89,6 +89,10 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 - **Legitimní práce** s paradoxem zachovává distincí mezi *zkoumaným paradoxem* a *zkoumajícím subjektem*; subjekt vychází obohacen o pojmovou jemnost.
 - **Manipulační aplikace** ruší tuto distincí; subjekt je s paradoxem *identifikován* a vychází z procesu evaluačně paralyzován.
 
+Berlin (1958) varuje před zneužitím pozitivní svobody: člověk je rozdělen na pravé, vyšší já a já empirické a někdo jiný si nárokuje vědět, co by pravé já chtělo, čímž ospravedlňuje nátlak v jeho jménu. Tento posun je dobrým rozpoznávacím znakem. Kde druhá strana tvrdí, že zná skutečnou vůli člověka lépe než on sám, a jeho výslovná přání proto přehlíží, jde o tuto inverzi, nikoli o péči.
+
+Popper (1945) v téže poznámce jako paradox tolerance uvádí i paradox svobody: svoboda bez jakéhokoli omezení dává silnému volnost zotročit slabého, a svobodu proto chrání meze, nikoli jejich absence. Sartre (1943) svobodu vždy umisťuje do situace, kterou spoluutváří i fakticita, již si člověk nezvolil; volba se tedy děje v určitých mezích, a ne proti všem možnostem najednou. Ochranným faktorem je rozlišení odpovědnosti a viny, které je zároveň měřítkem zotavení.
+
 ## Rizikové kontexty
 
 | Kontext | Manifestace |

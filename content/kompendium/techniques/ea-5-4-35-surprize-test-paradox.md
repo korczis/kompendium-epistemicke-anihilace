@@ -89,6 +89,10 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 - **Legitimní práce** s paradoxem zachovává distincí mezi *zkoumaným paradoxem* a *zkoumajícím subjektem*; subjekt vychází obohacen o pojmovou jemnost.
 - **Manipulační aplikace** ruší tuto distincí; subjekt je s paradoxem *identifikován* a vychází z procesu evaluačně paralyzován.
 
+Sorensen (1988) zavádí pojem slepé skvrny: tvrzení, které může být pravdivé, a přesto je určitý člověk nemůže zároveň znát a věřit mu. Oznámení, že zkouška přijde a adresát nebude vědět kdy, je pro něj takovou slepou skvrnou, nikoli důkazem, že se nemá na co spolehnout. *Interpretace knihy*: od [úzkostných poruch](@/glossary/uzkostne-poruchy.md) se vzorec odlišuje tím, že nejistota je udržována zvenčí a její zdroj lze ukázat v konkrétních výrocích druhé strany.
+
+Quine (1953) ukázal, že vylučovací úvaha selhává, protože adresát nemůže předem vědět, že oznámení je pravdivé; skromnější postoj, podle něhož zkouška přijít může i nemusí, je logicky bezpečnější než jistota, která se rozpadá. Herman (1992) popisuje, že nepředvídatelná hrozba a libovolně vymáhaná pravidla udržují v zajetí trvalý strach a že zotavení začíná obnovou předvídatelného a bezpečného prostředí. Ochranným faktorem je proto vše, co vrací časový horizont do vlastních rukou: pevný denní řád a vlastní plány.
+
 ## Rizikové kontexty
 
 | Kontext | Manifestace |
@@ -139,7 +143,7 @@ Klíčové pojmové kotvy techniky: **unexpected examination, epistemická logik
 
 ## Literatura
 
-- O’Connor, D. J. (1948). Pragmatic paradoxes. *Mind*, 57(227), 358–359.
+- O'Connor, D. J. (1948). Pragmatic paradoxes. *Mind*, 57(227), 358–359.
 - Quine, W. V. O. (1953). On a so-called paradox. *Mind*, 62(245), 65–67.
 - Sorensen, R. A. (1988). *Blindspots*. Oxford University Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.

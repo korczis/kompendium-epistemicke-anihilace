@@ -88,6 +88,10 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 - **Legitimní práce** s paradoxem zachovává distincí mezi *zkoumaným paradoxem* a *zkoumajícím subjektem*; subjekt vychází obohacen o pojmovou jemnost.
 - **Manipulační aplikace** ruší tuto distincí; subjekt je s paradoxem *identifikován* a vychází z procesu evaluačně paralyzován.
 
+Grunberg a Modigliani (1954) opírají svůj výsledek o to, že reakce lidí na zveřejněnou předpověď je dost pravidelná, aby ji předpovídající mohl započítat; pak existuje předpověď, která po zveřejnění platí. Pro rozpoznání vzorce z toho plyne kritérium: tvrzení, že se každá vyslovená předpověď vyvrátí, je obecný výrok, který jejich výsledek popírá. Merton (1948) navíc ukazuje, že zpětný vliv předpovědi je vlastností lidských záležitostí, nikoli předpovědi jako takové: předpověď o dráze komety na svůj předmět nepůsobí.
+
+Klinicky se vzorec odlišuje od užitečné opatrnosti při sdělování plánů tím, že zasažený přestává očekávat i sám pro sebe, nejen nahlas. Popper (1957) nazval zpětný vliv předpovědi Oidipovým efektem a viděl v něm důvod, proč ve společenském dění nelze sestavit úplná proroctví, nikoli důvod vzdát se podmíněných předpovědí. Kramer a Alstad (1993) popisují autoritářský vztah jako vztah, který podkopává důvěru ve vlastní úsudek; její obnova začíná u malých očekávání, která se ověří. Táž struktura se sebenaplňující podobou je rozebrána na stránce [EA-5.4.37](@/kompendium/techniques/ea-5-4-37-paradox-prediktivni.md).
+
 ## Rizikové kontexty
 
 | Kontext | Manifestace |

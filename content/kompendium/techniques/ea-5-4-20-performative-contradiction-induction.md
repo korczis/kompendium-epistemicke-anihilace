@@ -88,6 +88,10 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 - **Legitimní práce** s paradoxem zachovává distincí mezi *zkoumaným paradoxem* a *zkoumajícím subjektem*; subjekt vychází obohacen o pojmovou jemnost.
 - **Manipulační aplikace** ruší tuto distincí; subjekt je s paradoxem *identifikován* a vychází z procesu evaluačně paralyzován.
 
+Austin (1962) odlišuje nezdařené performativy od nepravdivých tvrzení: promluva může selhat, protože chybí potřebná konvence nebo okolnosti, anebo být zneužita, je-li pronesena neupřímně, a v obou případech se hodnotí jinak než pravdivostí. Tento aparát je klinicky užitečný. Rozpor mezi tím, co člověk říká, a tím, co dělá, bývá běžnou neúplností jednání — slibem, který se nepodařilo splnit — a nikoli důkazem, že každá jeho výpověď je lež; [performativní akt](@/glossary/performativni-akt.md) lze pojmenovat, aniž by se tím znehodnotil jeho mluvčí. Vzorec tyto kategorie slévá do jediného verdiktu.
+
+Lifton (1961) popisuje u totalistického prostředí požadavek čistoty a kult zpovědi: nárok na bezvadnost, jemuž nikdo nemůže dostát, udržuje trvalou vinu a ochotu se vyznávat. Neustálé usvědčování z rozporu má v popisovaném vzorci tutéž funkci. Habermas (1983) zachází s upřímností mluvčího jako s nárokem platnosti, který lze v rozpravě zpochybnit a obhájit důvody; obvinění z rozporu je tedy samo tvrzením, které potřebuje doložení, a ochranným faktorem je trvat na tom, aby je druhá strana doložila.
+
 ## Rizikové kontexty
 
 | Kontext | Manifestace |

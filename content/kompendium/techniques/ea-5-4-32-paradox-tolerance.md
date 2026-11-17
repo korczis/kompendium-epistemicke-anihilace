@@ -91,6 +91,10 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 - **Legitimní práce** s paradoxem zachovává distincí mezi *zkoumaným paradoxem* a *zkoumajícím subjektem*; subjekt vychází obohacen o pojmovou jemnost.
 - **Manipulační aplikace** ruší tuto distincí; subjekt je s paradoxem *identifikován* a vychází z procesu evaluačně paralyzován.
 
+Popper (1945) tím dává i diferenciální kritérium: netolerance, proti níž se tolerance smí bránit, se pozná podle toho, že odmítá rozpravu a nahrazuje argument nátlakem. Hranice, kterou člověk nastaví vůči ponižování nebo zastrašování, se od netolerance liší tím, že druhému nebrání vyslovit nesouhlas, jen odmítá snášet nátlak. Vzorec tuto podmínku vynechává a každé odmítnutí vydává za porušení zásady.
+
+Herman (1992) klade nastolení bezpečí na začátek zotavení a popisuje, že obnova kontroly nad vlastním tělem a prostředím předchází práci se vzpomínkami i se vztahy. Stanovení hranic je tak součástí léčby, nikoli selháním otevřenosti. Ochranným faktorem je pojetí tolerance jako vzájemného závazku: kdo toleranci žádá, sám ji poskytuje. Stark (2007) popisuje, že odpor proti [donucující kontrole](@/glossary/coercive-control.md) má často podobu drobných každodenních vzdorů; rozpoznat je jako sebeobranu, ne jako nesnášenlivost, je úkolem posuzujícího.
+
 ## Rizikové kontexty
 
 | Kontext | Manifestace |

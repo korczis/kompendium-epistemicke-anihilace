@@ -90,6 +90,10 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 - **Legitimní práce** s paradoxem zachovává distincí mezi *zkoumaným paradoxem* a *zkoumajícím subjektem*; subjekt vychází obohacen o pojmovou jemnost.
 - **Manipulační aplikace** ruší tuto distincí; subjekt je s paradoxem *identifikován* a vychází z procesu evaluačně paralyzován.
 
+Pro odlišení od legitimního přesvědčení je užitečný dialektický pohled, který zavedl Hamblin (1970): zda argument předpokládá, co má dokázat, se posuzuje vzhledem k tomu, co účastníci rozhovoru skutečně přijali, a ne izolovaně jako vlastnost vět. Kruh se ukáže ve chvíli, kdy jedinou oporou sporné premisy je závěr, který měla podpírat. BonJour (1985) navíc u koherentního systému požaduje, aby přijímal i spontánní pozorovací přesvědčení, která do něj vstupují zvenčí; systém, který každé takové pozorování předem přeloží do svých pojmů, této podmínce nevyhoví.
+
+Lifton (1961) mezi znaky ideologického totalismu uvádí posvátnou vědu a nadřazení nauky nad osobu: zkušenost, která s naukou nesouhlasí, je vykládána jako chyba zkušenosti, nikoli nauky (viz [thought reform](@/glossary/thought-reform.md)). To je klinicky rozpoznatelná podoba uzavřeného kruhu — každý protidoklad je předem zahrnut jako potvrzení. Ochranným faktorem je naopak udržené [testování reality](@/glossary/reality-testing.md), tedy přístup k lidem a pozorováním, které systém nekontroluje. Kolik takových kruhů se rozpadne bez vnější pomoci, citovaná díla neuvádějí, a kniha proto takový údaj nepodává.
+
 ## Rizikové kontexty
 
 | Kontext | Manifestace |

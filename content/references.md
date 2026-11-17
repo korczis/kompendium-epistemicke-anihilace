@@ -7383,6 +7383,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Publikační etika výzkumu manipulace](@/kompendium/research-methodology/publication-ethics-EA.md)</small>
 - O'Connor, C., & Weatherall, J. O. (2019). *The Misinformation Age: How False Beliefs Spread*. Yale University Press.  
   <small>Citováno: [Epistemic security (epistemická bezpečnost)](@/glossary/epistemic-security.md)</small>
+- O'Connor, D. J. (1948). Pragmatic paradoxes. *Mind*, 57(227), 358–359.  
+  <small>Citováno: [EA-5.4.35 Paradox neočekávaného testu](@/kompendium/techniques/ea-5-4-35-surprize-test-paradox.md), [EA-5.4.36 Paradox neočekávaného oběšení](@/kompendium/techniques/ea-5-4-36-unexpected-hanging.md)</small>
 - O'Connor, J., & Seymour, J. (1990). *Introducing Neuro-Linguistic Programming: Psychological Skills for Understanding and Influencing People*. London: Thorsons.  
   <small>Citováno: [Cíle a výsledky](@/kompendium/nlp-vzorce/cile-a-vysledky/_index.md), [Cíl pod vlastní kontrolou](@/kompendium/nlp-vzorce/cile-a-vysledky/cil-pod-vlastni-kontrolou.md), [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) a 149 dalších</small>
 - O'Hara, M. W., a McCabe, J. E. (2013). Postpartum depression: Current status and future directions. *Annual Review of Clinical Psychology*, 9.  
@@ -7407,8 +7409,6 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [EA-9.6.7 AI Medical Decision EA](@/kompendium/techniques/ea-9-6-7-AI-medical-decision-EA.md)</small>
 - Ochsner, K. N., & Gross, J. J. (2005). The cognitive control of emotion. *Trends in Cognitive Sciences*, 9(5), 242–249.  
   <small>Citováno: [Sebe-obrana: Emoční odstup](@/kompendium/self-defense-guides/15-emotional-distancing.md)</small>
-- O’Connor, D. J. (1948). Pragmatic paradoxes. *Mind*, 57(227), 358–359.  
-  <small>Citováno: [EA-5.4.35 Paradox neočekávaného testu](@/kompendium/techniques/ea-5-4-35-surprize-test-paradox.md), [EA-5.4.36 Paradox neočekávaného oběšení](@/kompendium/techniques/ea-5-4-36-unexpected-hanging.md)</small>
 - Offit, P. A. (2008). *Autism's False Prophets: Bad Science, Risky Medicine, and the Search for a  
   <small>Citováno: [Historický případ: Wakefield a údajná souvislost vakcíny MMR s autismem](@/kompendium/historical-cases/39-vaccine-autism.md)</small>
 - Offit, P. A. (2011). *Deadly Choices: How the Anti-Vaccine Movement Threatens Us All*. Basic  

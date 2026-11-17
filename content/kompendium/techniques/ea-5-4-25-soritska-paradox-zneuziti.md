@@ -89,6 +89,10 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 - **Legitimní práce** s paradoxem zachovává distincí mezi *zkoumaným paradoxem* a *zkoumajícím subjektem*; subjekt vychází obohacen o pojmovou jemnost.
 - **Manipulační aplikace** ruší tuto distincí; subjekt je s paradoxem *identifikován* a vychází z procesu evaluačně paralyzován.
 
+Klinicky se vzorec odlišuje od přirozené proměny člověka v čase tím, kdo směr změn určuje a zda je lze pojmenovat. Stark (2007) zdůrazňuje, že [donucující kontrolu](@/glossary/coercive-control.md) nelze posoudit podle jednotlivých incidentů, protože jde o trvající vzorec, který omezuje svobodu člověka v běžném životě; posuzování izolovaných událostí ji soustavně podceňuje. Totéž platí o soritském vzorci: otázka, který krok byl zlomový, nemá odpověď, ale otázka, co člověk dříve dělal sám a dnes nesmí, ji mít může.
+
+Hyde (2008) i Williamson (1994) chápou sorites jako potíž vágního predikátu, nikoli jako důkaz, že nelze rozlišit zjevně odlišné případy; srovnání vzdálených bodů řady proto zůstává spolehlivé, i když hranice nalezena není. Ochranným faktorem je jakýkoli nezávislý záznam dřívějšího stavu — deník, dokumenty, svědectví blízkých. Herman (1992) řadí obnovu vztahů mimo ovládající prostředí k jádru zotavení; tito lidé zároveň nesou paměť toho, jak člověk dříve žil.
+
 ## Rizikové kontexty
 
 | Kontext | Manifestace |

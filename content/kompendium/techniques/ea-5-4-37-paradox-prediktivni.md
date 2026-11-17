@@ -90,6 +90,10 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 - **Legitimní práce** s paradoxem zachovává distincí mezi *zkoumaným paradoxem* a *zkoumajícím subjektem*; subjekt vychází obohacen o pojmovou jemnost.
 - **Manipulační aplikace** ruší tuto distincí; subjekt je s paradoxem *identifikován* a vychází z procesu evaluačně paralyzován.
 
+Merton (1948) zároveň popisuje, jak se kruh sebenaplňujícího se proroctví přerušuje: výchozí vymezení situace, které jej uvedlo do pohybu, musí být opuštěno a nahrazeno novým. Kruh tedy není osudem, ale důsledkem konkrétního, pojmenovatelného předpokladu. Popper (1957) odlišuje podmíněnou vědeckou předpověď, která říká, co nastane, jestliže nastanou určité podmínky, od bezpodmínečného proroctví o běhu událostí; vzorec stojí právě na proroctví bez podmínek, a proto se nedá prověřit.
+
+Klinicky se vzorec odlišuje od realistické obavy, že očekávání ovlivňuje výsledek, tím, že zasažený přestává plánovat úplně, nikoli jen opatrněji. Lifton (1961) popisuje mystickou manipulaci jako nárok prostředí, že vidí vyšší smysl dění, spojený s uspořádáním zážitků tak, aby se zdály spontánní; výklad budoucnosti pak patří prostředí, nikoli jednotlivci (viz [thought reform](@/glossary/thought-reform.md)). Ochranným faktorem je obnovená zkušenost s malými podmíněnými předpověďmi, které se ověří.
+
 ## Rizikové kontexty
 
 | Kontext | Manifestace |

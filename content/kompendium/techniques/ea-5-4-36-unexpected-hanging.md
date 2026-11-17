@@ -90,6 +90,10 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 - **Legitimní práce** s paradoxem zachovává distincí mezi *zkoumaným paradoxem* a *zkoumajícím subjektem*; subjekt vychází obohacen o pojmovou jemnost.
 - **Manipulační aplikace** ruší tuto distincí; subjekt je s paradoxem *identifikován* a vychází z procesu evaluačně paralyzován.
 
+O'Connor (1948) zařadil oznámení tohoto typu mezi pragmatické paradoxy: věta není logicky sporná, ale její vyslovení vůči adresátovi podkopává podmínky, za nichž by mohla platit. Rozbor ukazuje, kde potíž leží — v aktu oznámení, nikoli ve světě. Klinicky se vzorec odlišuje od skutečné hrozby s neurčitým načasováním tím, že neurčitost je zde výslovně vyhlášena a udržována; Sorensen (1988) takové výroky popisuje jako slepé skvrny konkrétního adresáta. Táž úloha v podobě školní zkoušky je rozebrána na stránce [EA-5.4.35](@/kompendium/techniques/ea-5-4-35-surprize-test-paradox.md).
+
+Herman (1992) popisuje, že v zajetí slouží nepředvídatelné výbuchy násilí a libovolné vymáhání drobných pravidel k udržení strachu a závislosti a že zotavení začíná obnovou bezpečí a kontroly nad vlastním časem. Stark (2007) řadí zastrašování mezi hlavní prostředky [donucující kontroly](@/glossary/coercive-control.md). Ochranným faktorem je tedy vlastní časový horizont — plán, který nezávisí na vyhlášené hrozbě, a lidé, s nimiž jej lze sdílet.
+
 ## Rizikové kontexty
 
 | Kontext | Manifestace |
@@ -140,7 +144,7 @@ Klíčové pojmové kotvy techniky: **unexpected hanging, Quine, self-defeating 
 
 ## Literatura
 
-- O’Connor, D. J. (1948). Pragmatic paradoxes. *Mind*, 57(227), 358–359.
+- O'Connor, D. J. (1948). Pragmatic paradoxes. *Mind*, 57(227), 358–359.
 - Quine, W. V. O. (1953). On a so-called paradox. *Mind*, 62(245), 65–67.
 - Sorensen, R. A. (1988). *Blindspots*. Oxford University Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.

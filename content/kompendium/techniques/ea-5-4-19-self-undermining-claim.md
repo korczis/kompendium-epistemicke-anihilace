@@ -90,6 +90,10 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 - **Legitimní práce** s paradoxem zachovává distincí mezi *zkoumaným paradoxem* a *zkoumajícím subjektem*; subjekt vychází obohacen o pojmovou jemnost.
 - **Manipulační aplikace** ruší tuto distincí; subjekt je s paradoxem *identifikován* a vychází z procesu evaluačně paralyzován.
 
+Klinicky rozhoduje, komu je nález o sebevyvrácení adresován. Habermas (1983) přebírá pravidla rozpravy, podle nichž smí každý zpochybnit kterékoli tvrzení a nikdo nesmí být od účasti odrazen nátlakem; [ideální řečová situace](@/glossary/ideal-speech-situation.md) je symetrická. Vzorec tuto symetrii ruší: rozpor se hledá jen ve výpovědích jedné strany, zatímco výpovědi druhé strany zkoumání nepodléhají. Kde obě strany podrobují své teze stejné kontrole, jde o filozofický spor, ne o tento vzorec.
+
+Festinger (1957) popisuje, že nesoulad mezi přesvědčeními lze zmírnit změnou jednání, změnou jednoho z přesvědčení nebo přidáním přesvědčení nových, a že opora skupiny, která určité přesvědčení sdílí, disonanci snižuje. Úleva, kterou zasažený nachází v přijetí výpovědi druhé strany, proto není dokladem její pravdivosti, nýbrž snížením napětí. Ochranným faktorem je dostupnost lidí, s nimiž lze napětí unést bez rychlého rozhodnutí; Kramer a Alstad (1993) kladou proti autoritářskému vztahu důvěru ve vlastní úsudek.
+
 ## Rizikové kontexty
 
 | Kontext | Manifestace |

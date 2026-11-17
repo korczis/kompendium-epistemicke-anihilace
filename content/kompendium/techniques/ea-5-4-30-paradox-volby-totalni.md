@@ -90,6 +90,10 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 - **Legitimní práce** s paradoxem zachovává distincí mezi *zkoumaným paradoxem* a *zkoumajícím subjektem*; subjekt vychází obohacen o pojmovou jemnost.
 - **Manipulační aplikace** ruší tuto distincí; subjekt je s paradoxem *identifikován* a vychází z procesu evaluačně paralyzován.
 
+Schwartz (2004) odlišuje maximalizátory, kteří hledají nejlepší možnost, od lidí, kteří se spokojí s dostatečně dobrou, a spojuje maximalizační postoj s větší lítostí a nižší spokojeností s vybraným. Simon (1955) ukázal, že rozhodování s hladinou aspirace, při němž se přijme první uspokojivá možnost, je racionální odpovědí na omezené informace a čas. Klinicky to vzorec odlišuje od pouhého maximalizačního stylu: ten člověk nese jako vlastní sklon, kdežto ve vzorci je laťka správné volby nastavována zvenčí a posouvána, kdykoli se volba blíží.
+
+Meze doložení jsou podstatné i pro obranu. Scheibehenne, Greifeneder a Todd (2010) zjistili, že průměrný účinek přetížení nabídkou je blízký nule, ale mezi studiemi se výrazně liší, takže závisí na okolnostech; z výzkumu volby tedy nelze vyvodit, že by člověk s mnoha možnostmi musel ztratit schopnost rozhodnout. Ochranným faktorem je vlastní, předem známé kritérium dostatečnosti. Stark (2007) popisuje u [donucující kontroly](@/glossary/coercive-control.md) soustavnou regulaci drobných každodenních rozhodnutí; jejich navrácení je proto prvním měřítkem zotavení.
+
 ## Rizikové kontexty
 
 | Kontext | Manifestace |

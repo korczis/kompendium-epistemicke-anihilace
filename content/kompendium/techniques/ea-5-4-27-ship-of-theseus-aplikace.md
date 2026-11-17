@@ -90,6 +90,10 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 - **Legitimní práce** s paradoxem zachovává distincí mezi *zkoumaným paradoxem* a *zkoumajícím subjektem*; subjekt vychází obohacen o pojmovou jemnost.
 - **Manipulační aplikace** ruší tuto distincí; subjekt je s paradoxem *identifikován* a vychází z procesu evaluačně paralyzován.
 
+Ricœur (1990) odlišuje totožnost jako stejnost (idem) od totožnosti jako sebeudržení (ipse), jejímž vzorem je dodržený slib: člověk zůstává sebou ne proto, že se nemění, ale proto, že stojí za svým slovem. Rozlišení je obranně užitečné, protože ukazuje, že výměna jednotlivých postojů [ipseitu](@/glossary/ipseita.md) nutně neruší. Parfit (1984) navíc ukazuje, že psychologická souvislost má stupně; částečná změna tedy neznamená, že dřívější já zaniklo. Vzorec obě možnosti zamlčuje a předkládá změnu jako vše, nebo nic.
+
+Klinicky se vzorec odlišuje od terapeutické proměny tím, kdo změnu pojmenovává a hodnotí. Herman (1992) formuluje zásadu, že žádný zásah, který přeživšímu bere moc nad vlastním životem, nemůže podpořit jeho zotavení, i když se zdá být v jeho nejlepším zájmu; v terapii proto změnu pojmenovává a přijímá sám klient.
+
 ## Rizikové kontexty
 
 | Kontext | Manifestace |

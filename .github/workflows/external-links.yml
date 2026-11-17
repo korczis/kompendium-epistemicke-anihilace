@@ -1,0 +1,32 @@
+name: External links
+
+# Zola refuses a broken internal link at build time; an external page can disappear without any
+# commit here (2026-11-17: 32 links pointed at two pages answering 404). Weekly, and on demand,
+# this builds the site and requests every distinct external URL once, with bounded concurrency
+# and a timeout (scripts/check-external-links.py). It fails only on 404 and 410; 403, 429, other
+# statuses and timeouts are reported in the log and the step summary, never failed.
+# test/cases/58_dead_external_links.sh keeps the links already found dead out of content/.
+on:
+  schedule:
+    - cron: '17 5 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: external-links
+  cancel-in-progress: true
+
+jobs:
+  links:
+    name: Check external links
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+      - uses: ./.github/actions/setup
+      - name: Build the site
+        run: npm run --silent assets && zola build --output-dir "$RUNNER_TEMP/site"
+      - name: Distinct external URLs (fail on 404/410 only)
+        run: python3 scripts/check-external-links.py "$RUNNER_TEMP/site" --jobs 8 --timeout 15

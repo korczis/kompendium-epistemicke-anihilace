@@ -3,7 +3,7 @@ schema: knowledge/v1
 id: technique-page-word-floor
 kind: knowledge
 class: lesson
-title: "Nineteen EA-5.4 pages are complete and 43–86 words short of the 1100-word floor: is the floor right for them, awaiting the owner's answer"
+title: "Nineteen EA-5.4 pages are complete and 43–86 words short of the 1100-word floor: the owner answered "Dopsat na 1100" (2026-11-17)"
 description: "Before expanding a page to clear the `detail` floor, or when deciding whether a short but finished page is a defect."
 status: verified
 epistemics: observed
@@ -64,3 +64,12 @@ an ADR with the owner's words verbatim, the session id and the time. If instead 
 it is a commission for source work on EA-5.4 and the nineteen pages are its scope. Either way this
 record is the measurement, not the decision. The sibling question about where a family framing
 belongs is in `family-framing-placement.md`.
+
+## The owner's answer, 2026-11-17
+
+Asked by dev-31 in session 5d49a595, relayed verbatim over the mesh and committed by another
+session: the 19 EA-5.4 pages under the floor -> "Dopsat na 1100" (write them up to 1100). The floor
+stays; the pages grow. This is the commission for source work on EA-5.4 named above, and the
+nineteen pages in `scripts/detail-gap.py`'s `gap 0-100` bucket are its scope: sourced,
+recognition-framed prose, never filler. No session holds that work yet
+(`owner-answers-2026-11-17.md`).

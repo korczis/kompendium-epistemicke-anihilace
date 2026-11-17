@@ -330,7 +330,7 @@ NEVER_BASELINED = {"placeholder", "technique-page", "howto", "drug-dose", "templ
                    "typed-count",
                    "drug-name", "authority-without-source",
                    "platform-section", "relative-link", "platform-label", "platform-frontmatter",
-                   "philosophy-frame", "reader-command"}
+                   "philosophy-frame", "reader-command", "platform-prose"}
 # When a never-baselined requirement was introduced, these pages already failed it (listed by
 # `--list <rule>`); they are fixed in content, not accepted. Until then the gate fails only when
 # the count grows. The number may only go down, and the entry goes when it reaches 0.
@@ -343,6 +343,9 @@ PENDING_ZERO = {"placeholder": 0, "technique-page": 0, "howto": 0, "drug-dose": 
                 # narrow high-precision core (help-seeking imperative + person/clinical/help object);
                 # the wider morphological class is a content worklist, not a gate — no lemmatiser
                 "reader-command": 0,
+                # the body may not name the toolchain it grew in; content/about.md (provenance) and
+                # content/references.md (generated) sit outside kompendium/, so the scope excludes them
+                "platform-prose": 0,
                 "fabricated-citation": 0,
                 "legitimate-indication": 0,
                 "detail": 199, "weak-link": 199,
@@ -482,6 +485,8 @@ def violations(page: dict) -> list:
         found.append("alias-collision")
     if page.get("reader_commands"):
         found.append("reader-command")
+    if page.get("platform_prose"):
+        found.append("platform-prose")
     if page.get("misnamed_techniques"):
         found.append("technique-name")
     if page["bold_unlinked"]:
@@ -530,6 +535,7 @@ def explain(page: dict) -> dict:
         "alias-collision": ("; ".join(f"{a} is {why}" for a, why in page["alias_collisions"])
                             if page.get("alias_collisions") else ""),
         "reader-command": "; ".join(f"[{v}] {t}" for v, t in page.get("reader_commands", [])[:2]),
+        "platform-prose": ", ".join(page.get("platform_prose", [])),
         "duplicate-ea-code": (f"{page['duplicate_ea_code'][0]} is also the ea_code of "
                               + ", ".join(page["duplicate_ea_code"][1])
                               if page.get("duplicate_ea_code") else ""),
@@ -1065,6 +1071,32 @@ def reader_commands(prose: str) -> list:
     return out
 
 
+# --- platform-prose (self-contained; added 2026-11-17) -----------------------------------------
+# The book's BODY must not name an internal platform or a named runtime/model in running prose:
+# PLATFORM_NAME (Prismatic, NABLA, Decision Engine…) plus the runtime/model set, case-sensitive and
+# word-bounded, in prose only — fenced and inline code removed, and markdown link LABELS excluded
+# because platform-label already owns a name inside [ … ](…). Scope is kompendium/, the body: a
+# page may describe a technique, it may not leak the toolchain it grew in. content/about.md names
+# the book's own origin (the reader's entitlement — removing it would falsify the provenance) and
+# content/references.md is generated; both sit outside kompendium/, so this scope excludes them by
+# itself, not by a special case. NEVER_BASELINED at 0 = pure prevention; content-2e cleared the one
+# carrier (bridge-case-studies-to-glossary-bridges.md) in a15bd34e, so a 1 is a regression.
+PLATFORM_PROSE_TERM = re.compile(
+    r"(?<![\w-])(?:Prismatic|NABLA|Nabla|Decision Engine|Decision Core|QEVE|QDP|Trinity Gate|"
+    r"HAWKEYE|Supreme Commander|Color Teams|AIAD|AutoHeal|AutoEvolve|3NL|"
+    r"BEAM|Elixir|Erlang|Phoenix|Ollama|qwen|deepseek-coder|deepseek)(?![\w-])|∇∞")
+PLATFORM_PROSE_INLINE = re.compile(r"`[^`\n]*`")
+PLATFORM_PROSE_LINK = re.compile(r"\[([^\]]*)\]\([^)]*\)")
+
+
+def platform_prose(prose: str) -> list:
+    """Internal-platform or named-runtime leaks in the book body's running prose. `prose` already
+    has fenced code removed; strip inline code and markdown link labels (platform-label owns a name
+    in a link) before the search. Returns the sorted distinct names."""
+    text = PLATFORM_PROSE_LINK.sub("", PLATFORM_PROSE_INLINE.sub("", prose))
+    return sorted({m.group(0) for m in PLATFORM_PROSE_TERM.finditer(text)})
+
+
 def analyse(pages: list) -> dict:
     """Attach the text analyses to each page, among them `template_figures`; return the
     bold-candidate worklist {"bold:<slug>": (pages, phrase)}."""
@@ -1133,6 +1165,8 @@ def analyse(pages: list) -> dict:
         # technique pages describe a technique; quick-reference cards are action cards addressed to
         # the affected person, a separate rhetorical mode, so the narrow core is techniques only
         page["reader_commands"] = reader_commands(prose) if technique else []
+        page["platform_prose"] = (platform_prose(prose)
+                                  if page["path"].startswith("kompendium/") else [])
         page["code_ranges"] = [m.group(0) for m in CODE_RANGE.finditer(prose)]
         page["chrome_trailer"] = [m.group(0).strip("*# ") for m in CHROME_TRAILER.finditer(body)]
         page["platform_section"] = (

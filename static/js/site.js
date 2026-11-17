@@ -3,6 +3,8 @@
   'use strict';
 
   var body = document.body;
+  // Shared helpers (esc, …) come from the visualisation layer, loaded in <head> on every page.
+  var L = window.KompendiumVrstva;
 
   // --- Dark mode (Pro contract: localStorage 'color-theme', event 'dark-mode') -------------
   var toggle = document.getElementById('theme-toggle');
@@ -85,12 +87,6 @@
     return path.indexOf(basePath + '/') === 0 ? path : basePath + path;
   }
 
-  function escapeHtml(s) {
-    return String(s).replace(/[&<>"']/g, function (c) {
-      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
-    });
-  }
-
   document.querySelectorAll('[data-search-form]').forEach(function (form, n) {
     var input = form.querySelector('[data-search-input]');
     var results = form.querySelector('[data-search-results]');
@@ -136,11 +132,11 @@
         announce('Nic nenalezeno');
       } else {
         results.innerHTML = list.map(function (d, k) {
-          return '<li id="' + listId + '-' + k + '" role="option" aria-selected="false" data-href="' + escapeHtml(href(d.path)) + '" class="cursor-pointer border-b border-gray-100 px-4 py-2 last:border-0 hover:bg-gray-100 dark:border-gray-600 dark:hover:bg-gray-600">' +
-            '<span class="flex items-center gap-2"><span class="min-w-0 flex-1 truncate font-medium text-gray-900 dark:text-white">' + escapeHtml(d.title) + '</span>' +
-            (d.code ? '<span class="shrink-0 rounded bg-primary-100 px-1.5 font-mono text-xs text-primary-800 dark:bg-primary-900 dark:text-primary-200">' + escapeHtml(d.code) + '</span>' : '') +
-            '<span class="shrink-0 rounded bg-gray-100 px-1.5 text-xs text-gray-700 dark:bg-gray-700 dark:text-gray-200">' + escapeHtml(d.kind) + '</span></span>' +
-            (d.description ? '<span class="block truncate text-xs text-gray-600 dark:text-gray-300">' + escapeHtml(d.description) + '</span>' : '') +
+          return '<li id="' + listId + '-' + k + '" role="option" aria-selected="false" data-href="' + L.esc(href(d.path)) + '" class="cursor-pointer border-b border-gray-100 px-4 py-2 last:border-0 hover:bg-gray-100 dark:border-gray-600 dark:hover:bg-gray-600">' +
+            '<span class="flex items-center gap-2"><span class="min-w-0 flex-1 truncate font-medium text-gray-900 dark:text-white">' + L.esc(d.title) + '</span>' +
+            (d.code ? '<span class="shrink-0 rounded bg-primary-100 px-1.5 font-mono text-xs text-primary-800 dark:bg-primary-900 dark:text-primary-200">' + L.esc(d.code) + '</span>' : '') +
+            '<span class="shrink-0 rounded bg-gray-100 px-1.5 text-xs text-gray-700 dark:bg-gray-700 dark:text-gray-200">' + L.esc(d.kind) + '</span></span>' +
+            (d.description ? '<span class="block truncate text-xs text-gray-600 dark:text-gray-300">' + L.esc(d.description) + '</span>' : '') +
             '</li>';
         }).join('');
         var n = found.total;

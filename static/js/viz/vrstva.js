@@ -273,9 +273,125 @@
       .replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
   }
 
+  // ---- Pomůcky skriptů vizualizací: jediná kopie. scripts/check-viz-layer.py odmítne vlastní
+  // esc, plural, ink, readJson, params, failed, isIndex, reducedMotion i IntersectionObserver
+  // kdekoli jinde ve static/js/.
+
+  var HTML = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
+  // Text do HTML: obsah prvku i hodnota atributu v uvozovkách nebo apostrofech.
+  function esc(s) {
+    return String(s).replace(/[&<>"']/g, function (c) { return HTML[c]; });
+  }
+
+  // České tvary podle počtu: forms = [1, 2–4, 0 a 5+], např. ['stránka', 'stránky', 'stránek'].
+  function plural(n, forms) {
+    return n === 1 ? forms[0] : n >= 2 && n <= 4 ? forms[1] : forms[2];
+  }
+
+  var NF = new Intl.NumberFormat('cs-CZ');
+  // Počet i s tvarem v českém zápisu čísla: „1 stránka“, „3 stránky“, „1 250 stránek“.
+  function count(n, forms) {
+    return NF.format(n) + ' ' + plural(n, forms);
+  }
+
+  // Barva textu na výplni hex: tmavá (#111827, gray-900) nebo bílá, podle toho, která má vůči
+  // výplni vyšší kontrastní poměr WCAG 2.2 (relativní jas, 1.4.3).
+  function ink(hex) {
+    var n = parseInt(String(hex).slice(1), 16);
+    var lum = [n >> 16, (n >> 8) & 255, n & 255].map(function (v) {
+      v /= 255;
+      return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4);
+    });
+    var L = 0.2126 * lum[0] + 0.7152 * lum[1] + 0.0722 * lum[2];
+    var dark = (L + 0.05) / (0.0092 + 0.05); // relativní jas #111827
+    var light = 1.05 / (L + 0.05);
+    return dark >= light ? '#111827' : '#ffffff';
+  }
+
+  // Data vložená šablonou do <script type="application/json" id="…">; chybí-li nebo nejdou
+  // přečíst, vrátí fallback.
+  function readJson(id, fallback) {
+    var node = document.getElementById(id);
+    if (!node) return fallback;
+    try { return JSON.parse(node.textContent); } catch (e) { return fallback; }
+  }
+
+  // Stav pohledu v adrese (?q=…&rodina=…), aby šel sdílet odkazem.
+  //   urlState.get()          parametry aktuální adresy (URLSearchParams);
+  //   urlState.set(values)    { klíč: hodnota }: prázdná hodnota klíč smaže; ostatní parametry
+  //                           i kotva zůstanou, historie se nepřidává (replaceState); čárka
+  //                           v hodnotě zůstane čitelná. { clear: true } začne od prázdné adresy.
+  var urlState = {
+    get: function () {
+      try { return new URLSearchParams(window.location.search); }
+      catch (e) { return new URLSearchParams(); }
+    },
+    set: function (values, opts) {
+      try {
+        var p = opts && opts.clear ? new URLSearchParams() : urlState.get();
+        Object.keys(values).forEach(function (k) {
+          if (values[k]) p.set(k, values[k]); else p.delete(k);
+        });
+        var qs = p.toString().replace(/%2C/g, ',');
+        window.history.replaceState(null, '', window.location.pathname + (qs ? '?' + qs : '') +
+          window.location.hash);
+      } catch (e) { /* bez History API zůstane stav jen na stránce */ }
+    },
+  };
+
+  // Data knihy se nenačetla: varování do konzole, čtenáři věta místo grafu.
+  function failed(el, err) {
+    if (window.console) console.warn('vizualizace knihy:', err);
+    if (el) el.textContent = 'Data knihy se nepodařilo načíst.';
+  }
+
+  // Úvodní stránka oddílu (_index.md, i s jazykovou příponou, např. _index.en.md).
+  function isIndex(n) {
+    return /(^|\/)_index(\.[a-z]+)?\.md$/.test(n.path);
+  }
+
+  // Úroveň rizika z front matter jako identifikátor stupnice (kritická → critical).
+  var RISK_ALIASES = { 'kritická': 'critical', 'kriticka': 'critical' };
+  function riskId(raw) {
+    var r = window.KompendiumJadro.normalise(String(raw || '')).trim();
+    return RISK_ALIASES[r] || r;
+  }
+
+  // Až když je prvek (téměř) vidět, jednou spustí run: graf se nestaví mimo okno (pravidlo
+  // vizualizací: inicializace jen viditelného). Bez IntersectionObserver hned.
+  function lazy(el, run, margin) {
+    if (!el) return;
+    if (!('IntersectionObserver' in window)) { run(); return; }
+    var io = new IntersectionObserver(function (entries) {
+      if (!entries.some(function (en) { return en.isIntersecting; })) return;
+      io.disconnect();
+      run();
+    }, { rootMargin: margin || '200px 0px' });
+    io.observe(el);
+  }
+
+  // Pohled ve stránce, <div data-pohled="name">: každý výskyt se sestaví až ve chvíli, kdy je
+  // vidět, voláním render(root, KompendiumViz). Skript pohledu je deferred a stojí před
+  // kompendium-viz.js; DOMContentLoaded přijde až po všech deferred skriptech, takže modul už
+  // je načtený.
+  function mount(name, render) {
+    function init() {
+      var KV = window.KompendiumViz;
+      var roots = document.querySelectorAll('[data-pohled="' + name + '"]');
+      if (!KV || !roots.length) return;
+      Array.prototype.forEach.call(roots, function (root) {
+        lazy(root, function () { render(root, KV); });
+      });
+    }
+    if (document.readyState === 'complete') init();
+    else document.addEventListener('DOMContentLoaded', init);
+  }
+
   window.KompendiumVrstva = {
     PALETTE: PALETTE, paletteFor: paletteFor, theme: theme, isDark: isDark,
     reducedMotion: reducedMotion, slug: slug,
     kniha: kniha, p5: p5In, three: threeIn,
+    esc: esc, plural: plural, count: count, ink: ink, readJson: readJson, urlState: urlState,
+    failed: failed, isIndex: isIndex, riskId: riskId, lazy: lazy, mount: mount,
   };
 })();

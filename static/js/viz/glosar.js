@@ -5,6 +5,7 @@
 (function () {
   'use strict';
 
+  var L = window.KompendiumVrstva;
   var V = window.KompendiumViz;
   var ALPHABET = ['#', 'A', 'B', 'C', 'Č', 'D', 'E', 'F', 'G', 'H', 'CH', 'I', 'J', 'K', 'L', 'M', 'N',
     'O', 'P', 'Q', 'R', 'Ř', 'S', 'Š', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'Ž'];
@@ -29,13 +30,6 @@
 
   function slug(letter) {
     return letter === '#' ? 'cislice' : fold(letter) + (KEEP[letter] ? '-hacek' : '');
-  }
-
-  // 1 stránka, 2–4 stránky, 0 a 5+ stránek.
-  function plural(n, one, few, many) {
-    if (n === 1) return one;
-    if (n >= 2 && n <= 4) return few;
-    return many;
   }
 
   function readTerms() {
@@ -73,7 +67,7 @@
         this.categories = Object.keys(counts).filter(function (c) { return counts[c] > 1; })
           .sort(function (a, b) { return counts[b] - counts[a] || a.localeCompare(b, 'cs'); })
           .map(function (c) { return { value: c, label: c + ' (' + counts[c] + ')' }; });
-        var params = new URLSearchParams(location.search);
+        var params = L.urlState.get();
         if (params.get('hledat')) this.q = params.get('hledat');
         this.booted = true;
         if (!V) {
@@ -117,7 +111,7 @@
           return {
             tooltip: Object.assign({ trigger: 'axis', axisPointer: { type: 'shadow' }, formatter: function (ps) {
               var p = ps[0];
-              return '<b>' + p.name + '</b><br>' + p.value + ' ' + plural(p.value, 'stránka', 'stránky', 'stránek') + ' odkazuje sem';
+              return '<b>' + p.name + '</b><br>' + p.value + ' ' + L.plural(p.value, ['stránka', 'stránky', 'stránek']) + ' odkazuje sem';
             } }, V.tooltip(t)),
             grid: { left: 8, right: 32, top: 8, bottom: 8, containLabel: true },
             xAxis: V.axis(t, { type: 'value', minInterval: 1 }),
@@ -187,7 +181,7 @@
 
       refsLabel: function (n) {
         if (n === null || n === undefined) return '';
-        return n + ' ' + plural(n, 'odkazující stránka', 'odkazující stránky', 'odkazujících stránek');
+        return n + ' ' + L.plural(n, ['odkazující stránka', 'odkazující stránky', 'odkazujících stránek']);
       },
 
       get filtered() {
@@ -220,7 +214,7 @@
         var n = this.filtered.length;
         var all = this.terms.length;
         if (n === all) return 'Všech ' + all + ' hesel, abecedně podle českého pořadí.';
-        return 'Zobrazeno ' + n + ' ' + plural(n, 'heslo', 'hesla', 'hesel') + ' z ' + all + '.';
+        return 'Zobrazeno ' + n + ' ' + L.plural(n, ['heslo', 'hesla', 'hesel']) + ' z ' + all + '.';
       },
 
       jump: function (letter) {

@@ -6,6 +6,7 @@
 
   // Data knihy přes komponentovou vrstvu (vrstva.js): kniha.js se načte jednou za stránku.
   var kniha = window.KompendiumVrstva.kniha;
+  var failed = window.KompendiumVrstva.failed;
 
   function init() {
     var canvas = document.getElementById('taxonomy-distribution');
@@ -62,11 +63,6 @@
         };
       });
     }).catch(function (e) { failed(detail, e); });
-  }
-
-  function failed(el, e) {
-    if (window.console) console.warn('vizualizace knihy:', e);
-    if (el) el.textContent = 'Data knihy se nepodařilo načíst.';
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();

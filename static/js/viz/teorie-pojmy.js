@@ -6,6 +6,7 @@
 (function () {
   'use strict';
 
+  var L = window.KompendiumVrstva;
   var V;
   var LIMIT = 32; // nejvýš uzlů v grafu, aby popisky zůstaly čitelné i na telefonu
 
@@ -209,23 +210,9 @@
     });
   }
 
-  function init() {
-    V = window.KompendiumViz;
-    var roots = document.querySelectorAll('[data-pohled="teorie-pojmy"]');
-    if (!V || !roots.length) return;
-    Array.prototype.forEach.call(roots, function (root) {
-      if (!('IntersectionObserver' in window)) { render(root); return; }
-      var io = new IntersectionObserver(function (entries) {
-        if (!entries.some(function (en) { return en.isIntersecting; })) return;
-        io.disconnect();
-        render(root);
-      }, { rootMargin: '200px 0px' });
-      io.observe(root);
-    });
-  }
-
-  // Skript je deferred a v těle stránky stojí před kompendium-viz.js: DOMContentLoaded přijde až
-  // po všech deferred skriptech, takže vrstva už je načtená.
-  if (document.readyState === 'complete') init();
-  else document.addEventListener('DOMContentLoaded', init);
+  // Každý výskyt pohledu se sestaví, až je vidět (KompendiumVrstva.mount).
+  L.mount('teorie-pojmy', function (root, KV) {
+    V = KV;
+    render(root);
+  });
 })();

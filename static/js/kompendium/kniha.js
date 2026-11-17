@@ -120,12 +120,14 @@
     familyIds.sort(cmpCode);
 
     function familyName(fid) { return g.families[fid] || ''; }
+    // Číslo rodiny a za ním její název, je-li v datech.
+    function familyLabel(fid) { return fid + (familyName(fid) ? ' ' + familyName(fid) : ''); }
     function familyColor(fid) { return V.PALETTE[(codeKey(fid)[0] - 1 + V.PALETTE.length) % V.PALETTE.length]; }
 
     var current = nodeOfHref(window.location.href);
 
     function dir(n) { return n.path.replace(/[^/]*$/, ''); }
-    function isIndex(n) { return /(^|\/)_index\.md$/.test(n.path); }
+    var isIndex = window.KompendiumVrstva.isIndex;
 
     // Stránky oddílu (bez rejstříkových _index.md).
     function pagesOf(section) {
@@ -389,7 +391,8 @@
     return {
       V: V, g: g, basePath: basePath, current: current, url: urlOf,
       techniques: techniques, technique: function (n) { return n ? byNode[n.id] || null : null; },
-      familyIds: familyIds, familyName: familyName, familyColor: familyColor,
+      familyIds: familyIds, familyName: familyName, familyLabel: familyLabel,
+      familyColor: familyColor,
       codeOfPath: codeOfPath, codeKey: codeKey, cmpCode: cmpCode, parseTitle: parseTitle, fold: fold,
       nodeOfHref: nodeOfHref, pagesOf: pagesOf, indexOf: indexOf, isIndex: isIndex, dir: dir,
       edgesAmong: edgesAmong, linksFrom: linksFrom,

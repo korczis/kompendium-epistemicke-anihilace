@@ -4,6 +4,7 @@
 (function () {
   'use strict';
 
+  var L = window.KompendiumVrstva;
   var V = window.KompendiumViz;
 
   function fold(s) {
@@ -47,7 +48,7 @@
             .sort(function (a, b) { return tags[b] - tags[a]; }).slice(0, 150)
             .map(function (t) { return { value: t, label: '#' + t + ' (' + tags[t] + ')' }; });
           self.titles = g.nodes.map(function (n) { return n.title; });
-          var params = new URLSearchParams(location.search);
+          var params = L.urlState.get();
           if (params.get('stranka') && g.byPath[params.get('stranka')]) self.showEgo(g.byPath[params.get('stranka')].id);
           else if (params.get('oddil')) self.showSection(params.get('oddil'));
           else if (params.get('stitek')) self.showTag(params.get('stitek'));
@@ -81,10 +82,9 @@
       },
 
       remember: function (key, value) {
-        var url = new URL(location.href);
-        ['oddil', 'stranka', 'stitek'].forEach(function (k) { url.searchParams.delete(k); });
-        if (key) url.searchParams.set(key, value);
-        history.replaceState(null, '', url);
+        var values = { oddil: '', stranka: '', stitek: '' };
+        if (key) values[key] = value;
+        L.urlState.set(values);
       },
 
       showSections: function () {

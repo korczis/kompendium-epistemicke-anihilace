@@ -8,19 +8,9 @@
 (function () {
   'use strict';
 
+  var L = window.KompendiumVrstva;
   var V;
   var nf = new Intl.NumberFormat('cs-CZ');
-  var RISK_ALIASES = { 'kritická': 'critical', 'kriticka': 'critical' };
-
-  function fold(s) {
-    return window.KompendiumJadro.normalise(String(s || ''));
-  }
-
-  function readJson(id, fallback) {
-    var node = document.getElementById(id);
-    if (!node) return fallback;
-    try { return JSON.parse(node.textContent); } catch (e) { return fallback; }
-  }
 
   // Rodina z kódu front matter, jinak z názvu souboru (shodně s techniky.js).
   function familyOf(r) {
@@ -29,39 +19,9 @@
     return m ? +m[1] : null;
   }
 
-  function riskId(raw) {
-    var r = fold(raw).trim();
-    return RISK_ALIASES[r] || r;
-  }
-
-  function plural(n, one, few, many) {
-    if (n === 1) return one;
-    if (n >= 2 && n <= 4) return few;
-    return many;
-  }
-
-  // Barva textu na ploše: tmavá (gray-900), nebo bílá, podle toho, která má vyšší kontrast (WCAG).
-  function ink(hex) {
-    var n = parseInt(String(hex).slice(1), 16);
-    var lum = [n >> 16, (n >> 8) & 255, n & 255].map(function (v) {
-      v /= 255;
-      return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4);
-    });
-    var L = 0.2126 * lum[0] + 0.7152 * lum[1] + 0.0722 * lum[2];
-    var dark = (L + 0.05) / (0.0092 + 0.05); // relativní jas #111827
-    var light = 1.05 / (L + 0.05);
-    return dark >= light ? '#111827' : '#ffffff';
-  }
-
-  function esc(s) {
-    return String(s).replace(/[&<>"]/g, function (c) {
-      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
-    });
-  }
-
   function model() {
-    var raw = readJson('techniky-data', []);
-    var RISKS = readJson('techniky-rizika', {});
+    var raw = L.readJson('techniky-data', []);
+    var RISKS = L.readJson('techniky-rizika', {});
     var fam = {};
     var risk = {};
     var cells = {};
@@ -73,7 +33,7 @@
         var cat = String(r.category).replace(/^\s*\d+\.\s*/, '');
         f.cats[cat] = (f.cats[cat] || 0) + 1;
       }
-      var rid = riskId(r.risk);
+      var rid = L.riskId(r.risk);
       var meta = RISKS[rid] || RISKS[''] || {};
       risk[rid] = risk[rid] || { id: rid, label: meta.label || rid, order: meta.order || 50 };
       var key = n + '|' + rid;
@@ -117,7 +77,7 @@
       a.textContent = c.family.id + ' ' + c.family.name + ', riziko ' + c.risk.label;
       a.addEventListener('click', function (e) { if (filterInPlace(c)) e.preventDefault(); });
       li.querySelector('[data-slot="popis"]').textContent = nf.format(c.count) + ' ' +
-        plural(c.count, 'technika', 'techniky', 'technik');
+        L.plural(c.count, ['technika', 'techniky', 'technik']);
       list.appendChild(li);
     });
   }
@@ -134,8 +94,7 @@
     d.family = c.family.id;
     d.risk = c.risk.id;
     window.setTimeout(function () {
-      var url = target(c);
-      try { window.history.replaceState(null, '', url.replace(/#.*$/, '')); } catch (e) { /* bez History API */ }
+      L.urlState.set({ rodina: c.family.id, riziko: c.risk.id }, { clear: true });
       var h = document.getElementById('tk-h-katalog');
       if (window.location.hash === '#tk-h-katalog' && h) h.scrollIntoView();
       else window.location.hash = 'tk-h-katalog';
@@ -176,7 +135,7 @@
         var narrow = (el.clientWidth || 320) < 640;
         return { value: [c.x, c.y, c.count], symbolSize: s,
           itemStyle: { color: col, borderColor: i === sel ? t.text : t.surface, borderWidth: i === sel ? 3 : 1.5 },
-          label: { show: inside || !narrow, position: inside ? 'inside' : 'right', color: inside ? ink(col) : t.text,
+          label: { show: inside || !narrow, position: inside ? 'inside' : 'right', color: inside ? L.ink(col) : t.text,
             fontSize: 11, fontWeight: 600, formatter: String(c.count) } };
       });
     }
@@ -188,8 +147,8 @@
         grid: { left: 12, right: 12, top: 12, bottom: 4, containLabel: true },
         tooltip: Object.assign({ trigger: 'item', confine: true, formatter: function (p) {
           var c = m.cells[p.dataIndex];
-          return '<b>' + esc(c.family.id + ' ' + c.family.name) + '</b><br>riziko ' + esc(c.risk.label) + ': ' +
-            nf.format(c.count) + ' ' + plural(c.count, 'technika', 'techniky', 'technik');
+          return '<b>' + L.esc(c.family.id + ' ' + c.family.name) + '</b><br>riziko ' + L.esc(c.risk.label) + ': ' +
+            nf.format(c.count) + ' ' + L.plural(c.count, ['technika', 'techniky', 'technik']);
         } }, V.tooltip(t)),
         xAxis: V.axis(t, { type: 'category', data: m.families.map(function (f) { return f.id; }),
           axisLabel: { color: t.muted, interval: 0, fontSize: narrow ? 10 : 12,
@@ -214,7 +173,7 @@
         chart.dispatchAction({ type: 'showTip', seriesIndex: 0, dataIndex: i });
         var c = m.cells[i];
         caption.textContent = c.family.id + ' ' + c.family.name + ', riziko ' + c.risk.label + ': ' +
-          nf.format(c.count) + ' ' + plural(c.count, 'technika', 'techniky', 'technik') + '. Enter ' +
+          nf.format(c.count) + ' ' + L.plural(c.count, ['technika', 'techniky', 'technik']) + '. Enter ' +
           (c.risk.id ? 'je vyfiltruje v katalogu.' : 'vyfiltruje rodinu v katalogu (úroveň rizika neuvedena).');
         el.setAttribute('data-pohled-cil', new URL(target(c), window.location.href).href);
       }
@@ -258,23 +217,9 @@
     });
   }
 
-  function init() {
-    V = window.KompendiumViz;
-    var roots = document.querySelectorAll('[data-pohled="techniky-rozptyl"]');
-    if (!V || !roots.length) return;
-    Array.prototype.forEach.call(roots, function (root) {
-      if (!('IntersectionObserver' in window)) { render(root); return; }
-      var io = new IntersectionObserver(function (entries) {
-        if (!entries.some(function (en) { return en.isIntersecting; })) return;
-        io.disconnect();
-        render(root);
-      }, { rootMargin: '200px 0px' });
-      io.observe(root);
-    });
-  }
-
-  // Skript je deferred a v těle stránky stojí před kompendium-viz.js: DOMContentLoaded přijde až
-  // po všech deferred skriptech, takže vrstva už je načtená.
-  if (document.readyState === 'complete') init();
-  else document.addEventListener('DOMContentLoaded', init);
+  // Každý výskyt pohledu se sestaví, až je vidět (KompendiumVrstva.mount).
+  L.mount('techniky-rozptyl', function (root, KV) {
+    V = KV;
+    render(root);
+  });
 })();

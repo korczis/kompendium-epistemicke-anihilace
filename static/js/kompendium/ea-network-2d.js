@@ -7,11 +7,7 @@
 
   // Data knihy přes komponentovou vrstvu (vrstva.js): kniha.js se načte jednou za stránku.
   var kniha = window.KompendiumVrstva.kniha;
-
-  function failed(el, e) {
-    if (window.console) console.warn('vizualizace knihy:', e);
-    if (el) el.textContent = 'Data knihy se nepodařilo načíst.';
-  }
+  var failed = window.KompendiumVrstva.failed;
 
   function init() {
     var canvas = document.getElementById('ea-network-2d');
@@ -47,13 +43,12 @@
     });
     var selected = null;
 
-    function famLabel(fid) { return fid + (K.familyName(fid) ? ' ' + K.familyName(fid) : ''); }
 
     function show(t) {
       if (!detail) return;
       K.clear(detail);
       detail.appendChild(K.h('h3', 'text-lg font-bold text-gray-900 dark:text-white', t.code + ' — ' + t.label));
-      detail.appendChild(K.h('p', 'text-gray-500 dark:text-gray-400 text-sm', famLabel(t.family) + ' • odkazů z knihy: ' + t.node.in));
+      detail.appendChild(K.h('p', 'text-gray-500 dark:text-gray-400 text-sm', K.familyLabel(t.family) + ' • odkazů z knihy: ' + t.node.in));
       detail.appendChild(K.h('p', 'text-gray-700 dark:text-gray-300 mt-2 font-semibold', 'Sousední techniky podle odkazů v knize (' + nb[t.id].length + '):'));
       detail.appendChild(K.list(nb[t.id].map(function (id) { return byId[id].node; }), function (n) {
         return K.techniqueText(K.technique(n));
@@ -69,7 +64,7 @@
       var sets = fams.map(function (fid) {
         var col = K.familyColor(fid);
         return {
-          label: famLabel(fid),
+          label: K.familyLabel(fid),
           data: top.filter(function (t) { return t.family === fid; }).map(function (t) {
             return { x: pos[t.id].x, y: pos[t.id].y, t: t };
           }),
@@ -99,7 +94,7 @@
               filter: function (ctx) { return ctx.raw && ctx.raw.t; },
               callbacks: {
                 title: function (items) { return K.techniqueText(items[0].raw.t); },
-                label: function (ctx) { return famLabel(ctx.raw.t.family) + ' | ' + nb[ctx.raw.t.id].length + ' sousedů'; },
+                label: function (ctx) { return K.familyLabel(ctx.raw.t.family) + ' | ' + nb[ctx.raw.t.id].length + ' sousedů'; },
               },
             },
           },

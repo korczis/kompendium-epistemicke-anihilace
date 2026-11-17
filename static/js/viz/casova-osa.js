@@ -9,6 +9,7 @@
 (function () {
   'use strict';
 
+  var L = window.KompendiumVrstva;
   var V = window.KompendiumViz;
   var nf = new Intl.NumberFormat('cs-CZ');
   var SECTION = 'kompendium/historical-cases';
@@ -24,23 +25,6 @@
 
   function fold(s) {
     return window.KompendiumJadro.normalise(String(s || ''));
-  }
-
-  function readJson(id, fallback) {
-    var node = document.getElementById(id);
-    if (!node) return fallback;
-    try { return JSON.parse(node.textContent); } catch (e) { return fallback; }
-  }
-
-  function params() {
-    try { return new URLSearchParams(window.location.search); } catch (e) { return new URLSearchParams(); }
-  }
-
-  // Barva textu podle jasu pruhu (bílá na tmavém, gray-900 na světlém).
-  function ink(hex) {
-    var n = parseInt(hex.slice(1), 16);
-    var l = (0.299 * (n >> 16) + 0.587 * ((n >> 8) & 255) + 0.114 * (n & 255)) / 255;
-    return l > 0.62 ? '#111827' : '#ffffff';
   }
 
   function alpha(hex, a) {
@@ -66,17 +50,11 @@
     return c.start + '–' + c.end;
   }
 
-  function escapeHtml(s) {
-    return String(s).replace(/[&<>"']/g, function (ch) {
-      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch];
-    });
-  }
-
   window.kompendiumCasovaOsa = function () {
     var chart = null;
     var layout = [];   // případy v pořadí dat řady grafu (dataIndex → případ)
     var lanes = [];
-    var CATS = readJson('osa-kategorie', {});
+    var CATS = L.readJson('osa-kategorie', {});
 
     function catMeta(label) {
       return CATS[label] || CATS[''] || { order: 99, slug: 'ostatni', short: label, color: '#64748b', cls: '' };
@@ -97,7 +75,7 @@
 
       init: function () {
         var self = this;
-        var inline = readJson('osa-data', []);
+        var inline = L.readJson('osa-data', []);
         var byPath = {};
         inline.forEach(function (r) { byPath[r.path] = r; });
         // Bez grafu odkazů zůstane aspoň seznam z inline dat (bez období).
@@ -105,7 +83,7 @@
         this.sortItems();
         this.buildCategories();
 
-        var p = params();
+        var p = L.urlState.get();
         this.q = p.get('q') || '';
         this.ongoingOnly = p.get('probiha') === '1';
         this.applyCatsParam(p.get('kategorie'));
@@ -129,7 +107,7 @@
           });
           self.sortItems();
           self.buildCategories();
-          self.applyCatsParam(params().get('kategorie'));
+          self.applyCatsParam(L.urlState.get().get('kategorie'));
           var starts = self.items.map(function (c) { return c.start; });
           self.minYear = Math.floor(Math.min.apply(null, starts.concat([DEFAULT_START])) / 10) * 10;
           self.zoomStart = Math.max(self.minYear, DEFAULT_START);
@@ -141,7 +119,7 @@
           var el = self.$refs.chart;
           if (el) {
             el.style.height = 'auto';
-            V.empty(el, 'Časovou osu se nepodařilo načíst', escapeHtml(e.message) +
+            V.empty(el, 'Časovou osu se nepodařilo načíst', L.esc(e.message) +
               ' Případy najdete v seznamu níže.');
           }
         });
@@ -286,15 +264,8 @@
       reset: function () { this.q = ''; this.cats = []; this.ongoingOnly = false; },
 
       syncUrl: function () {
-        try {
-          var p = params();
-          var set = function (k, v) { if (v) p.set(k, v); else p.delete(k); };
-          set('kategorie', this.cats.join(','));
-          set('q', this.q.trim());
-          set('probiha', this.ongoingOnly ? '1' : '');
-          var qs = p.toString().replace(/%2C/g, ',');
-          window.history.replaceState(null, '', window.location.pathname + (qs ? '?' + qs : '') + window.location.hash);
-        } catch (e) { /* bez History API zůstane filtr jen na stránce */ }
+        L.urlState.set({ kategorie: this.cats.join(','), q: this.q.trim(),
+          probiha: this.ongoingOnly ? '1' : '' });
       },
 
       // Řádky grafu: záhlaví dráhy kategorie, pod ním její případy (každý na vlastní stopě).
@@ -390,7 +361,7 @@
           var before = Math.min(x0, right) - cs.x - 6;
           var label;
           if (rect && inside >= tw) {
-            label = { x: rect.x + 6, width: inside, align: 'left', fill: ink(c.color) };
+            label = { x: rect.x + 6, width: inside, align: 'left', fill: L.ink(c.color) };
           } else if (after >= tw || (before < tw && after >= before)) {
             label = { x: Math.max(tipX, cs.x) + 4, width: Math.max(after, 0), align: 'left', fill: t.text };
           } else {
@@ -413,10 +384,10 @@
               if (p.seriesIndex !== 1) return '';
               var c = layout[p.dataIndex].c;
               return '<div style="max-width:18rem;white-space:normal">' +
-                '<b>' + escapeHtml(c.short) + '</b><br>' +
-                '<span style="color:' + c.color + '">●</span> ' + escapeHtml(c.categoryLabel) + '<br>' +
-                'Období: ' + escapeHtml(c.periodLabel) + '<br>' +
-                (c.place ? 'Místo: ' + escapeHtml(c.place) + '<br>' : '') +
+                '<b>' + L.esc(c.short) + '</b><br>' +
+                '<span style="color:' + c.color + '">●</span> ' + L.esc(c.categoryLabel) + '<br>' +
+                'Období: ' + L.esc(c.periodLabel) + '<br>' +
+                (c.place ? 'Místo: ' + L.esc(c.place) + '<br>' : '') +
                 'Odkazované techniky: ' + nf.format(c.techniques) + '<br>' +
                 '<span style="color:' + t.muted + '">Klepnutím otevřete případ</span></div>';
             },
@@ -478,7 +449,7 @@
         }).catch(function (e) {
           self.failed = true;
           el.style.height = 'auto';
-          V.empty(el, 'Časovou osu se nepodařilo načíst', escapeHtml(e.message) + ' Případy najdete v seznamu níže.');
+          V.empty(el, 'Časovou osu se nepodařilo načíst', L.esc(e.message) + ' Případy najdete v seznamu níže.');
         });
       },
 

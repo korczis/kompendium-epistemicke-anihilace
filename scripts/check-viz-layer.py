@@ -22,6 +22,16 @@ ranking with its own folding answers differently from the search in the header. 
 derived data (fetch) is limited to the existing loaders, so a new script reads through
 KompendiumVrstva.kniha, KompendiumViz or the engine instead of fetching static/data itself.
 
+The small helpers every view needs have one copy too, in static/js/viz/vrstva.js
+(KompendiumVrstva): esc (text into HTML), plural and count (Czech forms 1 / 2-4 / 5+), ink (text
+colour on a fill by WCAG contrast), readJson (data inlined by a template), urlState.get/set (view
+state in the address), failed (book data did not load), isIndex, reducedMotion, lazy and
+mount (build a view only once it is in view). A script that defines its own function of one of
+those names (`function esc(`, `var esc = function`, `const esc = (s) =>`), its own
+IntersectionObserver or its own history.replaceState is a finding; an alias of the layer's
+helper (`var failed = window.KompendiumVrstva.failed;`) is not. site.js keeps its table-of-contents
+scroll spy, which watches headings for as long as the page is open (not a lazy mount).
+
 A script anywhere else under static/js/ (vendor excluded) that constructs one of those
 libraries, creates a canvas, or carries its own copy of the book-data loader is a finding:
 it would size, theme, pause and label its canvas on its own, which is how the duplicates and
@@ -48,6 +58,9 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 JS = ROOT / "static" / "js"
 
+# Helper names the layer owns (KompendiumVrstva); a local definition of one is a copy.
+HELPERS = r"(?:esc|escapeHtml|plural|ink|readJson|params|failed|isIndex|reducedMotion)\b"
+
 # (what, pattern, files allowed to do it)
 RULES = [
     ("p5.js instance", r"\bnew\s+(?:window\.)?p5\s*\(", {"viz/vrstva.js"}),
@@ -64,6 +77,14 @@ RULES = [
     ("own data fetch (read through KompendiumVrstva.kniha, KompendiumViz or the engine)",
      r"\bfetch\s*\(", {"kompendium/kniha.js", "viz/kompendium-viz.js", "site.js", "viz/paleta.js",
       "viz/jadro-wasm.js"}),
+    ("own copy of a layer helper (use KompendiumVrstva.esc/plural/count/ink/readJson/urlState/"
+     "failed/isIndex/reducedMotion)",
+     r"\bfunction\s+" + HELPERS + r"\s*\(|\b(?:const|let|var)\s+" + HELPERS +
+     r"\s*=\s*(?:function\b|\([^)]*\)\s*=>|[A-Za-z_$][\w$]*\s*=>)", {"viz/vrstva.js"}),
+    ("own lazy mount (use KompendiumVrstva.lazy or KompendiumVrstva.mount)",
+     r"\bnew\s+(?:window\.)?IntersectionObserver\b", {"viz/vrstva.js", "site.js"}),
+    ("own URL state (use KompendiumVrstva.urlState.set)",
+     r"\bhistory\.replaceState\s*\(", {"viz/vrstva.js"}),
 ]
 
 

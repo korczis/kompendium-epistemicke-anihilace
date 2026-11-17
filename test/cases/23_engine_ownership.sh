@@ -6,7 +6,10 @@
 #    KompendiumVrstva.slug and reads data through the existing loaders);
 #  - a new script with its own diacritics folding (`.normalize('NFD')`) is refused;
 #  - a new script that fetches static/data itself is refused;
-#  - the same script calling the engine and the layer instead is accepted.
+#  - the same script calling the engine and the layer instead is accepted;
+#  - a script with its own copy of a layer helper (esc, plural, ink, … as a function or an
+#    arrow), its own IntersectionObserver or its own history.replaceState is refused, and the
+#    same script calling KompendiumVrstva (an alias included) is accepted.
 set -euo pipefail
 
 root=$(cd "$(dirname "$0")/../.." && pwd)
@@ -31,4 +34,27 @@ refused "own data fetch"
 
 printf "var a = window.KompendiumJadro.normalise('Řád');\nvar b = window.KompendiumVrstva.slug('Řád');\n" > "$f"
 python3 scripts/check-viz-layer.py > /dev/null || { echo "engine and layer calls refused"; exit 1; }
+
+printf "function esc(s) { return String(s); }\n" > "$f"
+refused "own esc"
+
+printf "const plural = (n, forms) => forms[n === 1 ? 0 : 2];\n" > "$f"
+refused "own arrow plural"
+
+printf "var ink = function (hex) { return '#fff'; };\n" > "$f"
+refused "own function-expression ink"
+
+printf "new IntersectionObserver(function () {}).observe(document.body);\n" > "$f"
+refused "own IntersectionObserver"
+
+printf "window.history.replaceState(null, '', '?q=1');\n" > "$f"
+refused "own URL state"
+
+cat > "$f" <<'JS'
+var L = window.KompendiumVrstva;
+var failed = window.KompendiumVrstva.failed;
+L.mount('case23', function (root) { root.textContent = L.count(3, ['a', 'b', 'c']) + L.esc('<'); });
+L.urlState.set({ q: L.urlState.get().get('q') });
+JS
+python3 scripts/check-viz-layer.py > /dev/null || { echo "layer helper calls refused"; exit 1; }
 echo "ok: engine ownership"

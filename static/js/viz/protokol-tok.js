@@ -7,6 +7,7 @@
 (function () {
   'use strict';
 
+  var L = window.KompendiumVrstva;
   var V;
 
   function heading(article) {
@@ -104,19 +105,6 @@
     return { elements: out, grid: grid };
   }
 
-  // Barva textu na ploše: tmavá (gray-900), nebo bílá, podle toho, která má vyšší kontrast (WCAG).
-  function ink(hex) {
-    var n = parseInt(String(hex).slice(1), 16);
-    var lum = [n >> 16, (n >> 8) & 255, n & 255].map(function (v) {
-      v /= 255;
-      return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4);
-    });
-    var L = 0.2126 * lum[0] + 0.7152 * lum[1] + 0.0722 * lum[2];
-    var dark = (L + 0.05) / (0.0092 + 0.05); // relativní jas #111827
-    var light = 1.05 / (L + 0.05);
-    return dark >= light ? '#111827' : '#ffffff';
-  }
-
   // Doplňkový styl nad jednotným stylem vrstvy; po přepnutí tématu se přidá znovu.
   function extra(t) {
     return [
@@ -125,7 +113,7 @@
         'text-valign': 'center', 'text-halign': 'center', 'text-wrap': 'wrap', 'text-max-width': 'data(tw)',
         'text-margin-y': 0, 'line-height': 1.35, 'font-size': 'data(fontSize)' } },
       { selector: 'node.cond', style: { 'border-color': t.primary, 'border-width': 2 } },
-      { selector: 'node.link', style: { 'background-color': t.primary, 'border-width': 0, 'color': ink(t.primary),
+      { selector: 'node.link', style: { 'background-color': t.primary, 'border-width': 0, 'color': L.ink(t.primary),
         'font-weight': 600 } },
       { selector: 'node.cap', style: { 'shape': 'rectangle', 'width': 'data(w)', 'height': 'data(h)',
         'background-opacity': 0, 'color': t.muted, 'text-valign': 'center', 'text-margin-y': 0,
@@ -242,24 +230,9 @@
     });
   }
 
-  function init() {
-    V = window.KompendiumViz;
-    var roots = document.querySelectorAll('[data-pohled="protokol-tok"]');
-    if (!V || !roots.length) return;
-    Array.prototype.forEach.call(roots, function (root) {
-      var article = root.closest('article') || document;
-      if (!('IntersectionObserver' in window)) { render(root, article); return; }
-      var io = new IntersectionObserver(function (entries) {
-        if (!entries.some(function (en) { return en.isIntersecting; })) return;
-        io.disconnect();
-        render(root, article);
-      }, { rootMargin: '200px 0px' });
-      io.observe(root);
-    });
-  }
-
-  // Skript je deferred a v těle stránky stojí před kompendium-viz.js: DOMContentLoaded přijde až
-  // po všech deferred skriptech, takže vrstva už je načtená.
-  if (document.readyState === 'complete') init();
-  else document.addEventListener('DOMContentLoaded', init);
+  // Každý výskyt pohledu se sestaví, až je vidět (KompendiumVrstva.mount).
+  L.mount('protokol-tok', function (root, KV) {
+    V = KV;
+    render(root, root.closest('article') || document);
+  });
 })();

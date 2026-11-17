@@ -4,6 +4,7 @@
 (function () {
   'use strict';
 
+  var L = window.KompendiumVrstva;
   var V = window.KompendiumViz;
   var J = window.KompendiumJadro;
   var LIMIT = 28;
@@ -69,13 +70,7 @@
   function init() {
     var els = document.querySelectorAll('[data-okoli]');
     if (!els.length) return;
-    if (!('IntersectionObserver' in window)) { els.forEach(render); return; }
-    var io = new IntersectionObserver(function (entries) {
-      entries.forEach(function (en) {
-        if (en.isIntersecting) { io.unobserve(en.target); render(en.target); }
-      });
-    }, { rootMargin: '200px' });
-    els.forEach(function (el) { io.observe(el); });
+    els.forEach(function (el) { L.lazy(el, function () { render(el); }, '200px'); });
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);

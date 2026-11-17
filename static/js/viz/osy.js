@@ -6,17 +6,15 @@
 (function () {
   'use strict';
 
+  var L = window.KompendiumVrstva;
   var LIST_MAX = 60;
+  var PAGES = ['stránka', 'stránky', 'stránek'];
 
   function el(tag, cls, text) {
     var e = document.createElement(tag);
     if (cls) e.className = cls;
     if (text !== undefined) e.textContent = text;
     return e;
-  }
-
-  function plural(n) {
-    return n === 1 ? 'stránka' : n >= 2 && n <= 4 ? 'stránky' : 'stránek';
   }
 
   function init() {
@@ -60,18 +58,13 @@
       fill(selA, aKeys, A, '— každé publikum —');
       fill(selB, bKeys, B, '— každý pilíř —');
 
-      var q = new URLSearchParams(window.location.search);
+      var q = L.urlState.get();
       var state = { a: A[q.get('publikum')] ? q.get('publikum') : '', b: B[q.get('pilir')] ? q.get('pilir') : '' };
 
       function sync() {
         selA.value = state.a;
         selB.value = state.b;
-        var u = new URL(window.location.href);
-        ['publikum', 'pilir'].forEach(function (p, i) {
-          var v = i ? state.b : state.a;
-          if (v) u.searchParams.set(p, v); else u.searchParams.delete(p);
-        });
-        window.history.replaceState(null, '', u.toString());
+        L.urlState.set({ publikum: state.a, pilir: state.b });
       }
 
       function renderList() {
@@ -84,7 +77,7 @@
           return G.in[y].length - G.in[x].length || (G.byId[x].title < G.byId[y].title ? -1 : 1);
         });
         var label = [state.a && A[state.a].label, state.b && B[state.b].label].filter(Boolean).join(' × ');
-        noteEl.textContent = label + ': ' + ids.length + ' ' + plural(ids.length) +
+        noteEl.textContent = label + ': ' + ids.length + ' ' + L.plural(ids.length, PAGES) +
           (ids.length > LIST_MAX ? ', zobrazeno ' + LIST_MAX + ' nejodkazovanějších' : '');
         ids.slice(0, LIST_MAX).forEach(function (id) {
           var n = G.byId[id];
@@ -122,7 +115,7 @@
       V.echarts(chartEl, function (t) {
         return {
           tooltip: Object.assign(V.tooltip(t), { formatter: function (p) {
-            return A[aKeys[p.data[1]]].label + ' × ' + B[bKeys[p.data[0]]].label + ': ' + p.data[2] + ' ' + plural(p.data[2]);
+            return A[aKeys[p.data[1]]].label + ' × ' + B[bKeys[p.data[0]]].label + ': ' + p.data[2] + ' ' + L.plural(p.data[2], PAGES);
           } }),
           grid: { left: 8, right: 8, top: 8, bottom: 64, containLabel: true },
           xAxis: V.axis(t, { type: 'category', data: bKeys.map(function (k) { return B[k].label; }),

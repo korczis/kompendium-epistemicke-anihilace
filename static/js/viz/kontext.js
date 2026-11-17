@@ -6,6 +6,7 @@
 (function () {
   'use strict';
 
+  var L = window.KompendiumVrstva;
   var TECH = 'kompendium/techniques/';
   var CASE_KIND = { 'kompendium/case-studies': 'study', 'kompendium/historical-cases': 'hist' };
   var SHOW_CASES = 6;
@@ -15,10 +16,6 @@
   var SHOW_SUB = 12;
   var nf = new Intl.NumberFormat('cs-CZ');
   var V = null;
-
-  function plural(n, one, few, many) {
-    return nf.format(n) + ' ' + (n === 1 ? one : n >= 2 && n <= 4 ? few : many);
-  }
 
   // ea-1-2-2-….md → EA-1.2.2, rodina EA-1, podskupina EA-1.2 (stejně jako techniky.js).
   function codeOf(path) {
@@ -46,9 +43,8 @@
     return String(a.title).localeCompare(String(b.title), 'cs', { numeric: true });
   }
 
-  function isIndex(n) { return /(^|\/)_index(\.[a-z]+)?\.md$/.test(n.path); }
-  function isTech(n) { return n.path.indexOf(TECH) === 0 && !isIndex(n) && !!codeOf(n.path); }
-  function caseKind(n) { return isIndex(n) ? '' : CASE_KIND[n.section] || ''; }
+  function isTech(n) { return n.path.indexOf(TECH) === 0 && !L.isIndex(n) && !!codeOf(n.path); }
+  function caseKind(n) { return L.isIndex(n) ? '' : CASE_KIND[n.section] || ''; }
 
   // Barva rodiny: stejné pořadí palety jako graf rodin v katalogu technik.
   function familyColor(num) {
@@ -165,7 +161,7 @@
     fa.title = 'Katalog technik rodiny ' + me.family;
     if (familyName) f(pos, 'name').textContent = familyName;
     else f(pos, 'name').remove();
-    f(pos, 'count').textContent = plural(family.length, 'technika', 'techniky', 'technik');
+    f(pos, 'count').textContent = L.count(family.length, ['technika', 'techniky', 'technik']);
     var bar = f(pos, 'bar');
     bar.style.background = color;
     bar.style.width = Math.max(4, ((idx + 1) / Math.max(1, family.length)) * 100) + '%';
@@ -207,7 +203,7 @@
     var cases = uniqueNodes(G, G.in[n.id], caseKind).sort(function (a, b) {
       return (caseKind(a) === 'hist') - (caseKind(b) === 'hist') || byTitle(a, b);
     });
-    meta.textContent = plural(cases.length, 'případ', 'případy', 'případů') + ' · ' + code;
+    meta.textContent = L.count(cases.length, ['případ', 'případy', 'případů']) + ' · ' + code;
 
     var p1 = panel(root, 'Výskyt v případech', cases.length);
     if (!cases.length) {
@@ -217,11 +213,11 @@
         var el = link(tpl(root, 'case'), G, c);
         f(el, 'badge').replaceWith(badge(root, caseKind(c)));
         var used = uniqueNodes(G, G.out[c.id], isTech).length;
-        f(el, 'meta').textContent = plural(used, 'technika', 'techniky', 'technik');
+        f(el, 'meta').textContent = L.count(used, ['technika', 'techniky', 'technik']);
         f(el, 'title').textContent = caseTitle(c);
         return el;
       }, function (rest) {
-        return 'Zobrazit další ' + plural(rest, 'případ', 'případy', 'případů');
+        return 'Zobrazit další ' + L.count(rest, ['případ', 'případy', 'případů']);
       });
     }
 
@@ -230,7 +226,7 @@
     p2.body.appendChild(neighbours(root, G, me, family, idx));
     var sub = family.filter(function (m) { return m !== n && codeOf(m.path).sub === me.sub; });
     if (sub.length) {
-      var label = 'Podskupina ' + me.sub + ' · ' + plural(sub.length, 'další', 'další', 'dalších');
+      var label = 'Podskupina ' + me.sub + ' · ' + L.count(sub.length, ['další', 'další', 'dalších']);
       p2.body.appendChild(subhead(root, label));
       var chips = tpl(root, 'chips');
       listWithMore(root, chips, sub, SHOW_SUB, function (m) { return chip(root, G, m); },
@@ -269,8 +265,8 @@
       (groups[num] = groups[num] || []).push(m);
     });
     var nums = Object.keys(groups).map(Number).sort(function (a, b) { return a - b; });
-    meta.textContent = plural(techs.length, 'technika', 'techniky', 'technik') + ' · ' +
-      plural(nums.length, 'rodina', 'rodiny', 'rodin');
+    meta.textContent = L.count(techs.length, ['technika', 'techniky', 'technik']) + ' · ' +
+      L.count(nums.length, ['rodina', 'rodiny', 'rodin']);
 
     var p1 = panel(root, 'Použité techniky', techs.length);
     if (!techs.length) {
@@ -303,7 +299,7 @@
         var c = f(el, 'count');
         var word = s.shared === 1 ? 'společná' : s.shared <= 4 ? 'společné' : 'společných';
         c.textContent = nf.format(s.shared) + ' ' + word;
-        c.title = plural(s.shared, 'společná technika', 'společné techniky', 'společných technik');
+        c.title = L.count(s.shared, ['společná technika', 'společné techniky', 'společných technik']);
         p2.body.appendChild(el);
       });
     }
@@ -328,7 +324,7 @@
     f(el, 'title').textContent = sectionTitle(G, s);
     var c = f(el, 'count');
     c.textContent = nf.format(count);
-    c.title = plural(count, 'stránka', 'stránky', 'stránek') + ' z oddílu používá pojem';
+    c.title = L.count(count, ['stránka', 'stránky', 'stránek']) + ' z oddílu používá pojem';
     var bar = f(el, 'bar');
     bar.style.background = G.color(s);
     bar.style.width = Math.max(3, (count / max) * 100) + '%';
@@ -340,10 +336,10 @@
     var inCount = G.in[m.id].length;
     f(el, 'title').textContent = m.title;
     f(el, 'section').textContent =
-      isIndex(m) ? 'Úvodní stránka oddílu' : sectionTitle(G, m.section);
+      L.isIndex(m) ? 'Úvodní stránka oddílu' : sectionTitle(G, m.section);
     var c = f(el, 'count');
     c.textContent = nf.format(inCount);
-    c.title = plural(inCount, 'stránka odkazuje', 'stránky odkazují', 'stránek odkazuje') + ' sem';
+    c.title = L.count(inCount, ['stránka odkazuje', 'stránky odkazují', 'stránek odkazuje']) + ' sem';
     return el;
   }
 
@@ -355,8 +351,8 @@
       return count[b] - count[a] || sectionTitle(G, a).localeCompare(sectionTitle(G, b), 'cs');
     });
     meta.textContent = !users.length ? '' :
-      plural(users.length, 'stránka', 'stránky', 'stránek') + ' · ' +
-      plural(sections.length, 'oddíl', 'oddíly', 'oddílů');
+      L.count(users.length, ['stránka', 'stránky', 'stránek']) + ' · ' +
+      L.count(sections.length, ['oddíl', 'oddíly', 'oddílů']);
 
     var p1 = panel(root, 'Kde se pojem používá', sections.length);
     var p2 = panel(root, 'Nejodkazovanější stránky s pojmem', null);
@@ -368,7 +364,7 @@
       p1.body.className = 'space-y-1';
       listWithMore(root, p1.body, sections, SHOW_SECTIONS,
         function (s) { return sectionRow(root, G, s, count[s], max); },
-        function (rest) { return 'Zobrazit další ' + plural(rest, 'oddíl', 'oddíly', 'oddílů'); });
+        function (rest) { return 'Zobrazit další ' + L.count(rest, ['oddíl', 'oddíly', 'oddílů']); });
       p2.body.className = 'space-y-1';
       users.slice()
         .sort(function (a, b) { return G.in[b.id].length - G.in[a.id].length || byTitle(a, b); })
@@ -412,20 +408,10 @@
     V = window.KompendiumViz;
     var roots = document.querySelectorAll('[data-kontext]');
     if (!roots.length || !V) return;
-    roots.forEach(function (r) { r.hidden = false; });
-    if (!('IntersectionObserver' in window)) {
-      roots.forEach(render);
-      return;
-    }
-    var io = new IntersectionObserver(function (entries) {
-      entries.forEach(function (en) {
-        if (en.isIntersecting) {
-          io.unobserve(en.target);
-          render(en.target);
-        }
-      });
-    }, { rootMargin: '200px' });
-    roots.forEach(function (r) { io.observe(r); });
+    roots.forEach(function (r) {
+      r.hidden = false;
+      L.lazy(r, function () { render(r); }, '200px');
+    });
   }
 
   // Skripty s defer běží v pořadí dokumentu a kompendium-viz.js je až za tímto,

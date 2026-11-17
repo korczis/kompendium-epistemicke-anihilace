@@ -6,11 +6,7 @@
 
   // Data knihy přes komponentovou vrstvu (vrstva.js): kniha.js se načte jednou za stránku.
   var kniha = window.KompendiumVrstva.kniha;
-
-  function failed(el, e) {
-    if (window.console) console.warn('vizualizace knihy:', e);
-    if (el) el.textContent = 'Data knihy se nepodařilo načíst.';
-  }
+  var failed = window.KompendiumVrstva.failed;
 
   function init() {
     var canvas = document.getElementById('severity-matrix');
@@ -44,12 +40,11 @@
           });
         });
 
-        function famLabel(fid) { return fid + (K.familyName(fid) ? ' ' + K.familyName(fid) : ''); }
 
         function show(p) {
           if (!detail) return;
           K.clear(detail);
-          detail.appendChild(K.h('h3', 'text-lg font-bold text-gray-900 dark:text-white', famLabel(p.fam) + ' • riziko ' + p.level.label));
+          detail.appendChild(K.h('h3', 'text-lg font-bold text-gray-900 dark:text-white', K.familyLabel(p.fam) + ' • riziko ' + p.level.label));
           detail.appendChild(K.h('p', 'text-gray-700 dark:text-gray-300 mt-1', p.count + ' stránek technik s touto úrovní rizika.'));
           detail.appendChild(K.list(p.items.map(function (t) { return t.node; }), function (n) {
             return K.techniqueText(K.technique(n));
@@ -83,7 +78,7 @@
               plugins: {
                 legend: { display: false },
                 tooltip: { callbacks: { label: function (ctx) {
-                  return famLabel(ctx.raw.fam) + ' / ' + ctx.raw.level.label + ': ' + ctx.raw.count + ' stránek';
+                  return K.familyLabel(ctx.raw.fam) + ' / ' + ctx.raw.level.label + ': ' + ctx.raw.count + ' stránek';
                 } } },
                 title: { display: true, text: 'Rodina EA × úroveň rizika (podle katalogu technik)', color: c.text },
               },

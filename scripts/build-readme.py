@@ -28,6 +28,9 @@ import re
 import sys
 import tomllib
 
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+import book_fs  # noqa: E402
+
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 README = ROOT / "README.md"
 CONTENT = ROOT / "content"
@@ -56,12 +59,6 @@ ROWS = [
 ]
 
 
-def front_matter(path):
-    text = path.read_text(encoding="utf-8")
-    m = re.match(r"\+\+\+\n(.*?)\n\+\+\+", text, re.S)
-    return tomllib.loads(m.group(1)) if m else {}
-
-
 def first_sentence(text):
     text = " ".join(text.split())
     m = re.match(r"(.+?[.!?])(\s|$)", text)
@@ -80,12 +77,12 @@ def num(n):
 
 
 def plural(n):
-    return "stránka" if n == 1 else "stránky" if 2 <= n <= 4 else "stránek"
+    return book_fs.plural(n, ["stránka", "stránky", "stránek"])
 
 
 def section_title(rel):
     path = CONTENT / rel / "_index.md"
-    return front_matter(path).get("title", rel) if path.exists() else rel
+    return book_fs.front_matter(path)[0].get("title", rel) if path.exists() else rel
 
 
 def render():
@@ -121,7 +118,7 @@ def render():
         path = CONTENT / target
         if not path.exists():
             continue
-        fm = front_matter(path)
+        fm = book_fs.front_matter(path)[0]
         desc = first_sentence(fm.get("description", ""))
         count = ""
         if isinstance(counted, re.Pattern):
@@ -137,7 +134,7 @@ def render():
             if others:
                 desc = f"{desc}; dále {', '.join(others)}"
         lines.append(f"| {icon} | [**{label}**]({url_of(base, target)}) | {desc} | {count} |")
-    refs = front_matter(CONTENT / "references.md").get("extra", {}).get("entries")
+    refs = book_fs.front_matter(CONTENT / "references.md")[0].get("extra", {}).get("entries")
     scope = (f"Web má celkem {num(metrics['pages'])} {plural(metrics['pages'])} včetně "
              "rozcestníků, přibližně "
              f"{num(round(metrics['words'] / 1000))} tisíc slov, {num(metrics['links'])} "

@@ -30,6 +30,7 @@ import sys
 sys.dont_write_bytecode = True
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from ia_model import CONTENT, load_pages  # noqa: E402
+from book_fs import technique_code  # noqa: E402
 
 BEGIN = "<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->"
 END = "<!-- kompendium:odvozene-vazby:end -->"
@@ -51,9 +52,9 @@ def relations(pages: list) -> dict:
 
     techniques = {}
     for p in pages:
-        m = re.match(r"kompendium/techniques/ea-(\d+)-(\d+)-(\d+)(?:-.+)?\.md$", p["path"])
-        if m:
-            code = "-".join(m.groups())
+        tc = technique_code(p["path"])
+        if tc:
+            code = "-".join(map(str, tc))
             if code not in techniques or p["words"] > by_path[techniques[code]]["words"]:
                 techniques[code] = p["path"]
     sections = {}

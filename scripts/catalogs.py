@@ -104,7 +104,6 @@ HEAD_BLOCK = re.compile(r"<!-- kompendium:(?:katalog|nlp)-hlavicka:begin.*?"
                         r"<!-- kompendium:(?:katalog|nlp)-hlavicka:end -->", re.S)
 BLOCK = re.compile(r"<!-- kompendium:(?:katalog|nlp)-vazby:begin.*?"
                    r"<!-- kompendium:(?:katalog|nlp)-vazby:end -->", re.S)
-TOML_FM = re.compile(r"\A\+\+\+\n(.*?)\n\+\+\+\n", re.S)
 LITERATURE_TAIL = re.compile(r"(?:\A|\n)## Literatura\n(?:(?!\n## ).)*\Z", re.S)
 H1 = re.compile(r"\A\s*# [^\n]*\n")
 H2 = re.compile(r"^## +(.+?)\s*$", re.M)
@@ -119,6 +118,7 @@ STEPS = re.compile(r"^\s*(?:\d+[.)]|[-*])\s+(?:\*\*)?(?:Krok|Step)\b|\b(?:[Kk]ro
                    re.M)
 sys.path.insert(0, str(ROOT / "scripts"))
 from ia_model import HOWTO, url_of  # noqa: E402
+from book_fs import TOML_FM  # noqa: E402
 
 
 def fail(errors: list, where: str, message: str) -> None:

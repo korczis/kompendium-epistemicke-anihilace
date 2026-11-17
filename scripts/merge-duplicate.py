@@ -20,9 +20,11 @@ import re
 import sys
 import tomllib
 
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from book_fs import TOML_FM  # noqa: E402
+
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content"
-TOML_FM = re.compile(r"\A\+\+\+\n(.*?)\n\+\+\+\n", re.S)
 
 
 def rel(arg: str) -> str:

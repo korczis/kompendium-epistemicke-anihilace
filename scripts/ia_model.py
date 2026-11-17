@@ -11,13 +11,14 @@ import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import listings  # noqa: E402  (scripts/listings.py: the derived listings)
+from book_fs import (  # noqa: E402  the shared leaf primitives, re-exported by this module
+    TOML_FM, YAML_FM, EA_CODE, TECHNIQUE_PATH,
+    zola_slug, url_of, technique_code, read_data, plural,
+)
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content"
 TEMPLATES = ROOT / "templates"
-
-TOML_FM = re.compile(r"\A\+\+\+\n(.*?)\n\+\+\+\n", re.S)
-YAML_FM = re.compile(r"\A---\n(.*?)\n---\n", re.S)
 # Loops over a derived listing (ADR 0015, scripts/listings.py): a page binds a listing with
 # {% set VAR = load_data(path="static/data/listings/KEY.json") %} and loops over one group
 # (VAR.groups["1.2"]), one parent (VAR.parents["5"]), or all of it (VAR.items, VAR.group_order, or a
@@ -100,10 +101,10 @@ HOWTO = re.compile(
 )
 RELATED_HEADING = re.compile(r"^##\s+(Související|Cross-linky|Související stránky)\b", re.M | re.I)
 
-# Precompiled: front-matter lines of every page and technique paths (2026-11-12 profile).
+# Precompiled: front-matter lines of every page (2026-11-12 profile). TECHNIQUE_PATH is
+# imported from book_fs above.
 FM_KEY = re.compile(r"^(\w+):\s*(.*)$")
 FM_NESTED_KEY = re.compile(r"^\s+(\w+):\s*(.*)$")
-TECHNIQUE_PATH = re.compile(r"kompendium/techniques/ea-(\d+)-(\d+)-(\d+)")
 
 
 
@@ -123,24 +124,6 @@ def parse_yaml_subset(text: str) -> dict:
         if m and section:
             data[section][m.group(1)] = m.group(2).strip().strip('"')
     return data
-
-
-def zola_slug(component: str) -> str:
-    """A path component as Zola writes it with the default `slugify.paths = "on"`: ASCII,
-    lower case, every run of other characters one hyphen, no hyphen at either end."""
-    import unicodedata
-    text = unicodedata.normalize("NFKD", component).encode("ascii", "ignore").decode().lower()
-    return re.sub(r"[^a-z0-9]+", "-", text).strip("-")
-
-
-def url_of(rel: pathlib.PurePosixPath) -> str:
-    parts = list(rel.parts)
-    if parts[-1] in ("_index.md", "index.md"):
-        parts = parts[:-1]
-    else:
-        parts[-1] = parts[-1][:-3]
-    parts = [zola_slug(p) for p in parts]  # GitHub Pages is case-sensitive: match Zola exactly
-    return "/" + "/".join(parts) + ("/" if parts else "")
 
 
 def _catalogue_classes() -> list:
@@ -307,13 +290,7 @@ TERM_INDEX = CONTENT / "kompendium" / "08-prilohy" / "index-pojmu.md"
 TERM_ROW = re.compile(
     r"^\|\s*\*\*(?:\[)?([^*\]]+?)(?:\]\(@/([^)#\s]+\.md)[^)]*\))?\*\*\s*\|\s*([^|]*)\|\s*([^|]*)\|", re.M
 )
-EA_CODE = re.compile(r"EA-(\d+)\.(\d+)\.(\d+)")
-
-
-def slugify(text: str) -> str:
-    import unicodedata
-    text = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode().lower()
-    return re.sub(r"[^a-z0-9]+", "-", text).strip("-")
+slugify = zola_slug  # historically a byte-for-byte duplicate of zola_slug; kept as an alias
 
 
 def load_terms(pages: list) -> list:

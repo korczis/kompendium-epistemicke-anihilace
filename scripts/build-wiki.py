@@ -11,8 +11,11 @@ import pathlib
 import re
 import subprocess
 import sys
-import tomllib
 from collections import defaultdict
+
+sys.dont_write_bytecode = True  # no __pycache__ in the checkout
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from book_fs import front_matter  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content"
@@ -20,17 +23,6 @@ SITE = "https://korczis.github.io/kompendium-epistemicke-anihilace"
 REPO = "https://github.com/korczis/kompendium-epistemicke-anihilace"
 RAW = f"{REPO}/raw/main"
 RETIRED = ["Chapters.md", "Technique-Catalogue.md", "Cases.md", "Provenance.md", "Building.md"]
-
-
-def front_matter(path):
-    text = path.read_text(encoding="utf-8")
-    match = re.match(r"\+\+\+\n(.*?)\n\+\+\+", text, re.S)
-    if not match:
-        return {}
-    try:
-        return tomllib.loads(match.group(1))
-    except tomllib.TOMLDecodeError:
-        return {}
 
 
 def url(path):
@@ -42,7 +34,7 @@ def url(path):
 
 def section(rel):
     path = CONTENT / rel / "_index.md"
-    meta = front_matter(path)
+    meta = front_matter(path)[0]
     pages = sorted(p for p in (CONTENT / rel).glob("*.md") if p.name != "_index.md")
     subs = sorted(d for d in (CONTENT / rel).iterdir() if d.is_dir() and (d / "_index.md").exists())
     return path, meta, pages, subs
@@ -82,7 +74,7 @@ def katalog():
     for path in sorted((CONTENT / "kompendium" / "techniques").glob("*.md")):
         if path.name == "_index.md":
             continue
-        meta = front_matter(path)
+        meta = front_matter(path)[0]
         code = (meta.get("extra", {}) or {}).get("ea_code") or ""
         match = re.match(r"ea-(\d+)", path.stem)
         family = f"EA-{match.group(1)}" if match else "Ostatní"
@@ -120,7 +112,7 @@ def pripady():
             return int(m.group(1)) if m else 999
 
         for page in sorted(pages, key=num):
-            lines.append(f"- [{cell(front_matter(page).get('title', page.stem))}]({url(page)})")
+            lines.append(f"- [{cell(front_matter(page)[0].get('title', page.stem))}]({url(page)})")
         lines.append("")
     return "\n".join(lines)
 
@@ -315,7 +307,7 @@ def main():
         "techniques": count("kompendium/techniques"),
         "cases": count("kompendium/case-studies") + count("kompendium/historical-cases"),
         "glossary": count("glossary"),
-        "refs": front_matter(CONTENT / "references.md").get("extra", {}).get("entries", 0),
+        "refs": front_matter(CONTENT / "references.md")[0].get("extra", {}).get("entries", 0),
         "rev": git("rev-parse", "--short", "HEAD"),
     }
     pages = {

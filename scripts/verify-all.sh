@@ -41,6 +41,22 @@ run "Pojmy jsou propojené" python3 scripts/link-terms.py --bold --check
 run "Informační architektura se nezhoršuje" python3 scripts/check-ia.py
 run "Katalogy knihy souhlasí se stránkami" python3 scripts/catalogs.py --check
 run "Testy nástrojů obsahu" bash test/run.sh
+# Wasm engine jako v ci.yml: po test/run.sh (06 bez modulu přeskočí) a před sestavením, aby modul
+# byl v sestaveném webu. Bez něj surfaces hlásí 404 /wasm/kompendium_engine.wasm v každém scénáři
+# a lokální verify nemohl projít nikdy (audit 2026-11-17: 0/134 scénářů).
+build_engine() {
+  rustup target list --installed 2>/dev/null | grep -qx wasm32-unknown-unknown || {
+    echo "chybí cíl wasm32-unknown-unknown: rustup target add wasm32-unknown-unknown"; return 1; }
+  cargo build --release --locked --target wasm32-unknown-unknown \
+    --manifest-path crates/kompendium-engine/Cargo.toml
+  mkdir -p static/wasm
+  cp crates/kompendium-engine/target/wasm32-unknown-unknown/release/kompendium_engine.wasm static/wasm/
+  size=$(wc -c < static/wasm/kompendium_engine.wasm)
+  echo "kompendium_engine.wasm: $size bytes (limit 307200)"
+  test "$size" -le 307200
+}
+run "Wasm engine se sestaví do static/wasm/ (jako CI)" build_engine
+run "Wasm engine drží kontrakt kompendium-engine/v1" bash test/cases/06_engine_wasm.sh
 run "Sestavení (interní odkazy jsou chyba)" sh -c 'npm run --silent assets && zola build --output-dir "$1"' _ "$site/out"
 # Patří k build-ui-data, ale čte sestavený web (pohledy stránek, scénáře derived()),
 # proto běží až po sestavení.

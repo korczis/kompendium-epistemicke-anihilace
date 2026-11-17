@@ -330,7 +330,7 @@ NEVER_BASELINED = {"placeholder", "technique-page", "howto", "drug-dose", "templ
                    "typed-count",
                    "drug-name", "authority-without-source",
                    "platform-section", "relative-link", "platform-label", "platform-frontmatter",
-                   "philosophy-frame"}
+                   "philosophy-frame", "reader-command", "platform-prose"}
 # When a never-baselined requirement was introduced, these pages already failed it (listed by
 # `--list <rule>`); they are fixed in content, not accepted. Until then the gate fails only when
 # the count grows. The number may only go down, and the entry goes when it reaches 0.
@@ -340,6 +340,12 @@ PENDING_ZERO = {"placeholder": 0, "technique-page": 0, "howto": 0, "drug-dose": 
                 "clinical-figure": 0,
                 "template-figure": 0, "platform-section": 0, "relative-link": 0,
                 "platform-label": 0, "platform-frontmatter": 0, "philosophy-frame": 0,
+                # narrow high-precision core (help-seeking imperative + person/clinical/help object);
+                # the wider morphological class is a content worklist, not a gate — no lemmatiser
+                "reader-command": 0,
+                # the body may not name the toolchain it grew in; content/about.md (provenance) and
+                # content/references.md (generated) sit outside kompendium/, so the scope excludes them
+                "platform-prose": 0,
                 "fabricated-citation": 0,
                 "legitimate-indication": 0,
                 "detail": 199, "weak-link": 199,
@@ -477,6 +483,10 @@ def violations(page: dict) -> list:
         found.append("undeclared-listing")
     if page.get("alias_collisions"):
         found.append("alias-collision")
+    if page.get("reader_commands"):
+        found.append("reader-command")
+    if page.get("platform_prose"):
+        found.append("platform-prose")
     if page.get("misnamed_techniques"):
         found.append("technique-name")
     if page["bold_unlinked"]:
@@ -524,6 +534,8 @@ def explain(page: dict) -> dict:
                           f"{page['catalogue_rows'][0][:70]}" if page.get("catalogue_rows") else ""),
         "alias-collision": ("; ".join(f"{a} is {why}" for a, why in page["alias_collisions"])
                             if page.get("alias_collisions") else ""),
+        "reader-command": "; ".join(f"[{v}] {t}" for v, t in page.get("reader_commands", [])[:2]),
+        "platform-prose": ", ".join(page.get("platform_prose", [])),
         "duplicate-ea-code": (f"{page['duplicate_ea_code'][0]} is also the ea_code of "
                               + ", ".join(page["duplicate_ea_code"][1])
                               if page.get("duplicate_ea_code") else ""),
@@ -1022,6 +1034,69 @@ def drug_names(prose: str) -> list:
     return sorted({m.group(0).lower() for m in DRUG_NAME.finditer("\n".join(kept))})
 
 
+# --- reader-command (self-contained; added 2026-11-16) -----------------------------------------
+# A technique page describes, it does not prescribe self-care to the reader. The narrow, high-
+# precision core: a line that opens a clause with a help-seeking imperative and names a person /
+# clinical / help target. Deliberately NOT the wider class — a reading exercise (Identifikuj,
+# Formuluj…), an analytic imperative whose object is a claim (Konfrontuj tvrzení…, left as-is), or
+# any imperative by Czech morphology alone, which has no bound without a lemmatiser and goes to the
+# content lane as a worklist. The remedy is mood, not content: keep the protective substance, drop
+# the command — "Ochranným faktorem bývá dlouhodobý kontakt s blízkými osobami…".
+# SCOPE is technique pages only. The boundary has two sides: an imperative aimed at a target is a
+# defect, but an imperative aimed at the reader's OWN protection is the point. A quick-reference
+# help card (## První bezpečná reakce, "Pro zasaženého": secure your accounts, keep records, ask
+# for help) prescribes to protect the affected person themselves — that is the card's purpose, so
+# the cards are out of scope, not silently but by this rule. (content-2e, 2026-11-16.)
+READER_CMD_VERB = (r"Vyhledej|Vyhledejte|Konzultuj|Konzultujte|Kontaktuj|Kontaktujte|Zavolej|"
+                   r"Zavolejte|Požádej|Požádejte|Obrať|Obraťte|Svěř|Svěřte|Promluv|Promluvte|"
+                   r"Oslov|Oslovte|Navštiv|Navštivte")
+READER_CMD_OBJECT = (r"osob\w*|odborník\w*|odbornic\w*|terapeut\w*|léka[řr]\w*|psycholog\w*|"
+                     r"psychiatr\w*|blízk\w*|přátel\w*|přítel\w*|přáteli|rodin\w*|pomoc\w*|"
+                     r"link[ayuě]\w*|poradn\w*|krizov\w*|důvěrník\w*|podpůrn\w*|specialist\w*")
+READER_COMMAND = re.compile(
+    rf"(?:^|(?<=[.:!?])\s+)(?:[-*>]\s+|\d+[.)]\s+|\*\*\s*)?(?P<v>{READER_CMD_VERB})\b"
+    rf"[^.!?\n]*?\b(?:{READER_CMD_OBJECT})\b")
+
+
+def reader_commands(prose: str) -> list:
+    """Lines that prescribe help-seeking to the reader: a help-seeking imperative at a clause start
+    (line or after sentence punctuation) plus a person / clinical / help object in that clause. One
+    (verb, excerpt) row per matching line."""
+    out = []
+    for raw in prose.split("\n"):
+        s = raw.strip()
+        m = READER_COMMAND.search(s)
+        if m:
+            out.append((m.group("v"), re.sub(r"\s+", " ", s)[:120]))
+    return out
+
+
+# --- platform-prose (self-contained; added 2026-11-17) -----------------------------------------
+# The book's BODY must not name an internal platform or a named runtime/model in running prose:
+# PLATFORM_NAME (Prismatic, NABLA, Decision Engine…) plus the runtime/model set, case-sensitive and
+# word-bounded, in prose only — fenced and inline code removed, and markdown link LABELS excluded
+# because platform-label already owns a name inside [ … ](…). Scope is kompendium/, the body: a
+# page may describe a technique, it may not leak the toolchain it grew in. content/about.md names
+# the book's own origin (the reader's entitlement — removing it would falsify the provenance) and
+# content/references.md is generated; both sit outside kompendium/, so this scope excludes them by
+# itself, not by a special case. NEVER_BASELINED at 0 = pure prevention; content-2e cleared the one
+# carrier (bridge-case-studies-to-glossary-bridges.md) in a15bd34e, so a 1 is a regression.
+PLATFORM_PROSE_TERM = re.compile(
+    r"(?<![\w-])(?:Prismatic|NABLA|Nabla|Decision Engine|Decision Core|QEVE|QDP|Trinity Gate|"
+    r"HAWKEYE|Supreme Commander|Color Teams|AIAD|AutoHeal|AutoEvolve|3NL|"
+    r"BEAM|Elixir|Erlang|Phoenix|Ollama|qwen|deepseek-coder|deepseek)(?![\w-])|∇∞")
+PLATFORM_PROSE_INLINE = re.compile(r"`[^`\n]*`")
+PLATFORM_PROSE_LINK = re.compile(r"\[([^\]]*)\]\([^)]*\)")
+
+
+def platform_prose(prose: str) -> list:
+    """Internal-platform or named-runtime leaks in the book body's running prose. `prose` already
+    has fenced code removed; strip inline code and markdown link labels (platform-label owns a name
+    in a link) before the search. Returns the sorted distinct names."""
+    text = PLATFORM_PROSE_LINK.sub("", PLATFORM_PROSE_INLINE.sub("", prose))
+    return sorted({m.group(0) for m in PLATFORM_PROSE_TERM.finditer(text)})
+
+
 def analyse(pages: list) -> dict:
     """Attach the text analyses to each page, among them `template_figures`; return the
     bold-candidate worklist {"bold:<slug>": (pages, phrase)}."""
@@ -1087,6 +1162,11 @@ def analyse(pages: list) -> dict:
             for m in AUTHORITY_GROUP.finditer(line):
                 authorities[m.group(1)].add(page["path"])
         page["clinical_figures"] = clinical_figures(prose) if page["path"].startswith("kompendium/") else []
+        # technique pages describe a technique; quick-reference cards are action cards addressed to
+        # the affected person, a separate rhetorical mode, so the narrow core is techniques only
+        page["reader_commands"] = reader_commands(prose) if technique else []
+        page["platform_prose"] = (platform_prose(prose)
+                                  if page["path"].startswith("kompendium/") else [])
         page["code_ranges"] = [m.group(0) for m in CODE_RANGE.finditer(prose)]
         page["chrome_trailer"] = [m.group(0).strip("*# ") for m in CHROME_TRAILER.finditer(body)]
         page["platform_section"] = (

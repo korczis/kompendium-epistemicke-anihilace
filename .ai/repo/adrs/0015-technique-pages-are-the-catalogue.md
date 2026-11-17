@@ -143,6 +143,42 @@ are the techniques, and renaming them is a separate content slice. The rows had 
 chapter's running text, so each chapter gained a sourced section on the literature its page names
 draw on, framed as recognition and distinction, with its own Literatura.
 
+## Amendment, 2026-11-17: the cluster map of kapitola-6
+
+This is an application of the owner's answer P above, not a new owner decision; the integrator
+(dev-31) agreed the scope on 2026-11-16, recorded on `feature/kapitola-6-record` as knowledge
+`kapitola-6-derived-listing`. Measured on `feature/kapitola-6-listing` over main `9045ada1`:
+
+- Kapitola-6 (EA-5.1) was the last chapter with a hand-written catalogue: a table "Techniky
+  EA-5.1.* — strukturální mapa" of six clusters by code range and six "Klastr A–F" sections. The
+  clusters came from the same bulk generation of 2026-04-26 (`8e13a953`); no ADR or knowledge
+  record mentions them and none of their names is in the 2025 taxonomy (ADR 0005).
+- The clusters' prose named 17 techniques only in parentheses, such as "5.1.2 (auto-falsifikace)"
+  over the page "Konceptuální nihilace" and "5.1.4 (anti-pravidlo pro pravidla)" over "Sémantická
+  imploze", which the next cluster linked under its own name. Measured: all 17 differ from the
+  title of the page under their code, and none is any page's title or alias; one, "rekurzivní
+  pochybnost" (5.1.3), resembles the title of EA-2.5.8, a different technique.
+- Of the ten sentences that linked a cluster's central technique, three made claims their pages do
+  not support: 5.1.1 (self-consuming evaluation criteria, where the page describes the
+  appropriation of a person's ideas by another), 5.1.10 (the sameness of statements over minutes,
+  where the page describes the temporal synthesis of a biography) and 5.1.28 (the convergence of
+  clusters A–E). The closing claims that 5.1.26–5.1.29 are compositions of earlier clusters and
+  that 5.1.30 is a "post-singular regime" do not hold for those pages either.
+
+So the map and the clusters became one derived section, "Techniky EA-5.1", rendered from the
+`techniques` listing with the count taken from it, and kapitola-6 joined the listing's
+`index_pages`. The 17 parenthetical names left the book, since the derived row gives every code
+its page's title. Seven central sentences (5.1.4, 5.1.7, 5.1.13, 5.1.16, 5.1.19, 5.1.22, 5.1.25)
+were kept without the cluster frame in a sourced section "Jak techniky rodiny číst", framed as
+recognition and distinction, with its own Literatura; the other three left. The closing summary,
+the sentence that Section 06 specifies protocols "pro každý klastr" and the ten cluster
+representatives under Související were rewritten to the pages or removed; nothing else in the kept
+sections changed. Two pages outside the slice still describe the EA-5.1 clusters and call
+kapitola-6 their canonical text, `05-pokrocile-operace/kapitola-6/_index.md` (A–C) and
+`05-pokrocile-techniky/kapitola-6/_index.md` (D–F); they are left for a separate content slice.
+The "Klastr A–D" of `06-klinicke-aplikace/diagnosticke-indikatory.md` are screening-marker groups
+of their own and do not depend on this frame.
+
 ## Note, 2026-11-16: where the catalogue lives now
 
 The technique catalogue named `static/data/catalogue.json` in the amendments above is the first

@@ -6,6 +6,9 @@
 // Použití: BASE_URL=http://127.0.0.1:18790/ [SITE_DIR=<sestavený web>] [ONLY=<regexp cesty>]
 //          node test/e2e/surfaces.cjs
 // (web sestavený s --base-url na tutéž adresu). Playwright: PLAYWRIGHT=<cesta k playwright-core>.
+// COVERAGE_OUT=<soubor.json>: každá stránka běhu měří pokrytí JS (V8), sloučené po souborech pod
+// static/js (bez vendor) se zapíše do souboru; porovná ho scripts/check-js-coverage.py
+// (test/e2e/js-coverage.cjs).
 //
 // Jako modul (bez prohlížeče): require('./test/e2e/surfaces.cjs') vrací { FIXED, derived,
 // fromDir }. derived(load) vrací odvozené scénáře, které by běh použil; load(cesta) vrací text
@@ -969,6 +972,7 @@ async function main() {
     process.exit(2);
   }
   const browser = await chromium.launch();
+  const coverage = process.env.COVERAGE_OUT ? require('./js-coverage.cjs').instrument(browser, BASE) : null;
   let failed = 0;
   for (const s of SURFACES) {
     for (const [label, viewport, scheme] of [['desktop/tmavý', { width: 1440, height: 900 }, 'dark'], ['telefon/světlý', { width: 390, height: 844 }, 'light']]) {
@@ -979,6 +983,7 @@ async function main() {
     }
   }
   const interactionsFailed = await runInteractions(browser);
+  if (coverage) { await coverage.collect(); coverage.write(process.env.COVERAGE_OUT); }
   await browser.close();
   console.log(`surfaces: ${SURFACES.length * 2 - failed}/${SURFACES.length * 2} v pořádku`);
   process.exit(failed || interactionsFailed ? 1 : 0);

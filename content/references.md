@@ -1532,7 +1532,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Carroll, L. (1895). What the Tortoise Said to Achilles. *Mind*.  
   <small>Citováno: [Infinitní regres](@/glossary/infinitni-regress.md), [Rekurzivní paralýza](@/glossary/rekurzivni-paralyza.md)</small>
 - Carroll, L. (1895). What the Tortoise Said to Achilles. *Mind*, 4(14), 278–280.  
-  <small>Citováno: [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md)</small>
+  <small>Citováno: [Pokročilé techniky – kapitola 6: vyvozování, rozlišování a konvergence](@/kompendium/05-pokrocile-techniky/kapitola-6/_index.md), [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md)</small>
 - Carroll, S. R., et al. (2020). The CARE Principles for Indigenous Data Governance. *Data Science Journal*, 19.  
   <small>Citováno: [Dekoloniální epistemologie](@/kompendium/critical-perspectives/27-decolonial-epistemology.md)</small>
 - Carter, J. A., a Palermos, S. O. (2016). Is having your computer compromised a personal assault? The ethics of extended cognition. *Journal of the American Philosophical Association*, 2(4).  
@@ -4911,7 +4911,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - James, W. (1902). *The Varieties of Religious Experience*. Longmans, Green & Co.  
   <small>Citováno: [Ego death (rozpuštění ega)](@/glossary/ego-death.md)</small>
 - James, W. (1902). *The Varieties of Religious Experience*. New York: Longmans, Green.  
-  <small>Citováno: [Pokročilé operace – kapitola 6: reflexivní a sémantická vrstva](@/kompendium/05-pokrocile-operace/kapitola-6/_index.md), [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md), [EA-5.2.15 Transcendentální imploze](@/kompendium/techniques/ea-5-2-15-transcendentalni-implosion.md) a 2 dalších</small>
+  <small>Citováno: [Pokročilé operace – kapitola 6: reflexivní a sémantická vrstva](@/kompendium/05-pokrocile-operace/kapitola-6/_index.md), [Pokročilé techniky – kapitola 6: vyvozování, rozlišování a konvergence](@/kompendium/05-pokrocile-techniky/kapitola-6/_index.md), [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md) a 3 dalších</small>
 - James, W. (1909). *A Pluralistic Universe*.  
   <small>Citováno: [Pluralismus](@/glossary/pluralismus.md)</small>
 - Jamieson, K. H. (2018). *Cyberwar: How Russian Hackers and Trolls Helped Elect a President*.  
@@ -5564,7 +5564,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Kuhn, T. S. (1962). *The Structure of Scientific Revolutions.* Chicago: University of Chicago Press.  
   <small>Citováno: [Falsifikovatelnost – kritérium jako kategorie analýzy](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md), [Lakatos – výzkumné programy jako kategorie analýzy](@/kompendium/03-zakladni-kategorie/lakatos.md), [Paradigma – protokol archeologie rámce](@/kompendium/recovery-protocols/paradigm.md) a 3 dalších</small>
 - Kuhn, T. S. (1962). *The Structure of Scientific Revolutions*. University of Chicago Press.  
-  <small>Citováno: [Anti-epistemická demarkace](@/glossary/anti-epistemicka-demarkace.md), [Demarkační problém](@/glossary/demarkacni-problem.md), [Epistemická imploze](@/glossary/epistemicka-imploze.md) a 33 dalších</small>
+  <small>Citováno: [Anti-epistemická demarkace](@/glossary/anti-epistemicka-demarkace.md), [Demarkační problém](@/glossary/demarkacni-problem.md), [Epistemická imploze](@/glossary/epistemicka-imploze.md) a 34 dalších</small>
 - Kuhn, T. S. (1970). *The Structure of Scientific Revolutions* (2nd ed., s Doslovem z roku 1969). University of Chicago Press.  
   <small>Citováno: [7.11 Kuhn: Paradigmatické revoluce a inkomensurabilita](@/kompendium/07-teoreticke-reflexe/kuhn-paradigmaticke-revoluce.md)</small>
 - Kuhn, T. S. (1970). *The Structure of Scientific Revolutions* (2nd ed., with a Postscript). University of Chicago Press.  
@@ -6047,7 +6047,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. Norton.  
   <small>Citováno: [Double bind (dvojná vazba)](@/glossary/double-bind.md), [Edukativní implementace](@/glossary/edukativni-implementace.md), [Ego death (rozpuštění ega)](@/glossary/ego-death.md) a 24 dalších</small>
 - Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.  
-  <small>Citováno: [BITE model](@/glossary/bite-model.md), [Bounded choice](@/glossary/bounded-choice.md), [Destruktivní sokratovská metoda](@/glossary/destruktivni-sokratovska-metoda.md) a 291 dalších</small>
+  <small>Citováno: [BITE model](@/glossary/bite-model.md), [Bounded choice](@/glossary/bounded-choice.md), [Destruktivní sokratovská metoda](@/glossary/destruktivni-sokratovska-metoda.md) a 292 dalších</small>
 - Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology  
   <small>Citováno: [EA-1.6.2 Vzorec epistemický trojský kůň](@/kompendium/techniques/ea-1-6-2-vzorec-epistemicky-trojsky-kun.md)</small>
 - **Lifton, R. J.** (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism* — osm kritérií totalitního prostředí (mileu control, mystická manipulace, požadavek čistoty, kult zpovědi, posvátná věda, jazyková zatížení, doktrína nad osobou, dispense existence) je dodnes referenční rámec pro analýzu high-control skupin.  
@@ -6612,7 +6612,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - McAdams, D. P. (2001). The psychology of life stories. *Review of General Psychology*, 5(2).  
   <small>Citováno: [Případ 03: Pedagogické gaslighting](@/kompendium/case-studies/03-pedagogicke-gaslighting.md), [Posouzení dopadu](@/kompendium/forensic-legal/9-victim-impact-assessment.md), [Transkonceptuální mechanismy jako rodina vzorců](@/kompendium/puvodni-taxonomie/transkonceptualni-mechanismy.md) a 1 dalších</small>
 - McAdams, D. P. (2001). The psychology of life stories. *Review of General Psychology*, 5(2), 100–122.  
-  <small>Citováno: [Pokročilé operace – kapitola 6: reflexivní a sémantická vrstva](@/kompendium/05-pokrocile-operace/kapitola-6/_index.md), [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md), [Vzdělávací scénář: Fragmentace identity](@/kompendium/educational-scenarios/25-identity-fragmentation.md) a 10 dalších</small>
+  <small>Citováno: [Pokročilé operace – kapitola 6: reflexivní a sémantická vrstva](@/kompendium/05-pokrocile-operace/kapitola-6/_index.md), [Pokročilé techniky – kapitola 6: vyvozování, rozlišování a konvergence](@/kompendium/05-pokrocile-techniky/kapitola-6/_index.md), [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md) a 11 dalších</small>
 - McAdams, D. P., & McLean, K. C. (2013). *Narrative identity*. Current Directions in Psychological Science.  
   <small>Citováno: [Narativní identita (narrative identity)](@/glossary/narativni-identita.md)</small>
 - McAdams, D. P., & McLean, K. C. (2013). Narrative identity. *Current Directions in Psychological Science*, 22(3), 233–238.  
@@ -7917,7 +7917,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Popper, K. R. (1959). *The Logic of Scientific Discovery*. Hutchinson (původně *Logik der Forschung*, 1934).  
   <small>Citováno: [Bridge: Falsifikace](@/kompendium/glossary-bridges/bridge-falsifikace.md)</small>
 - Popper, K. R. (1959). *The Logic of Scientific Discovery.* London: Hutchinson.  
-  <small>Citováno: [Falsifikovatelnost – kritérium jako kategorie analýzy](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md), [Argumentační fauly](@/kompendium/argumentacni-fauly/_index.md), [Galileův gambit](@/kompendium/argumentacni-fauly/dialekticke-taktiky/galileuv-gambit.md) a 47 dalších</small>
+  <small>Citováno: [Falsifikovatelnost – kritérium jako kategorie analýzy](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md), [Pokročilé techniky – kapitola 6: vyvozování, rozlišování a konvergence](@/kompendium/05-pokrocile-techniky/kapitola-6/_index.md), [Argumentační fauly](@/kompendium/argumentacni-fauly/_index.md) a 48 dalších</small>
 - Popper, K. R. (1959). *The Logic of Scientific Discovery* (něm. orig. 1934).  
   <small>Citováno: [EA-1.3.5 Pseudoempirická validace](@/kompendium/techniques/ea-1-3-5-pseudo-empiricka-validace.md)</small>
 - Popper, K. R. (1963). *Conjectures and Refutations*.  
@@ -7931,7 +7931,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Popper, K. R. (1963). *Conjectures and Refutations: The Growth of Scientific Knowledge*.  
   <small>Citováno: [Případ 15: Zdravotnická iatrogenie](@/kompendium/case-studies/15-zdravotnicky-iatrogen.md)</small>
 - Popper, K. R. (1963). *Conjectures and Refutations: The Growth of Scientific Knowledge*. Routledge.  
-  <small>Citováno: [Dekonstruktivní hyperkaskáda](@/glossary/dekonstruktivni-hyperkaskada.md), [Epistemická bifurkace](@/glossary/epistemicka-bifurkace.md), [Epistemická pokora](@/glossary/epistemicka-pokora.md) a 6 dalších</small>
+  <small>Citováno: [Dekonstruktivní hyperkaskáda](@/glossary/dekonstruktivni-hyperkaskada.md), [Epistemická bifurkace](@/glossary/epistemicka-bifurkace.md), [Epistemická pokora](@/glossary/epistemicka-pokora.md) a 7 dalších</small>
 - Popper, K. R. (1963). *Conjectures and Refutations: The Growth of Scientific Knowledge*. Routledge & Kegan Paul.  
   <small>Citováno: [Politická ekonomie jako alternativa](@/kompendium/critical-perspectives/23-political-economy-alternative.md), [Detekční signatura: Cirkulární definice](@/kompendium/detection-signatures/2-linguistic-circular-definitions.md), [Detekční signatura: Nefalsifikovatelná tvrzení](@/kompendium/detection-signatures/3-linguistic-unfalsifiable-claims.md) a 3 dalších</small>
 - Popper, K. R. (1970). Normal science and its dangers. In I. Lakatos & A. Musgrave (Eds.), *Criticism and the Growth of Knowledge*. Cambridge University Press.  
@@ -8419,7 +8419,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Rosch, E. (1975). Cognitive representations of semantic categories. *Journal of Experimental Psychology: General*, 104.  
   <small>Citováno: [Konceptuální destabilizace](@/glossary/konceptualni-destabilizace.md)</small>
 - Rosch, E. (1975). Cognitive representations of semantic categories. *Journal of Experimental Psychology: General*, 104(3), 192–233.  
-  <small>Citováno: [7.47 Johnson: Body in Mind a estetika lidské zkušenosti](@/kompendium/07-teoreticke-reflexe/johnson-body-in-mind.md), [7.46 Lakoff: Konceptuální metafora a politické rámce](@/kompendium/07-teoreticke-reflexe/lakoff-conceptual-metaphor.md)</small>
+  <small>Citováno: [Pokročilé techniky – kapitola 6: vyvozování, rozlišování a konvergence](@/kompendium/05-pokrocile-techniky/kapitola-6/_index.md), [7.47 Johnson: Body in Mind a estetika lidské zkušenosti](@/kompendium/07-teoreticke-reflexe/johnson-body-in-mind.md), [7.46 Lakoff: Konceptuální metafora a politické rámce](@/kompendium/07-teoreticke-reflexe/lakoff-conceptual-metaphor.md)</small>
 - Rosch, E. (1978). *Principles of categorization*. In Cognition and Categorization. Erlbaum.  
   <small>Citováno: [Taxonomie EA](@/glossary/taxonomie-ea.md)</small>
 - Rosch, E. (1978). Principles of categorization. In E. Rosch & B. B. Lloyd (Eds.), *Cognition and Categorization* (pp. 27–48). Hillsdale, NJ: Lawrence Erlbaum.  
@@ -8511,7 +8511,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Russell, B. (1908). Mathematical logic as based on the theory of types. *American Journal of Mathematics*, 30(3).  
   <small>Citováno: [EA-5.4.10 Implantace Berryho paradoxu](@/kompendium/techniques/ea-5-4-10-berry-paradox-implantace.md), [EA-5.4.11 Zneužití Richardova paradoxu](@/kompendium/techniques/ea-5-4-11-richardova-paradox-zneuziti.md), [EA-5.4.12 Aplikace Grellingova paradoxu](@/kompendium/techniques/ea-5-4-12-grellingova-paradox-aplikace.md)</small>
 - Russell, B. (1908). Mathematical logic as based on the theory of types. *American Journal of Mathematics*, 30(3), 222–262.  
-  <small>Citováno: [Kapitola 9: Paradoxální metaanihilační protokoly](@/kompendium/05-ultramari-techniky/kapitola-9.md), [EA-5.4.2 Russellova violace typové hierarchie](@/kompendium/techniques/ea-5-4-2-russell-typ-violace.md), [EA-5.4.41 Implantace bootstrap paradoxu](@/kompendium/techniques/ea-5-4-41-bootstrap-paradox-implantace.md) a 24 dalších</small>
+  <small>Citováno: [Pokročilé techniky – kapitola 6: vyvozování, rozlišování a konvergence](@/kompendium/05-pokrocile-techniky/kapitola-6/_index.md), [Kapitola 9: Paradoxální metaanihilační protokoly](@/kompendium/05-ultramari-techniky/kapitola-9.md), [EA-5.4.2 Russellova violace typové hierarchie](@/kompendium/techniques/ea-5-4-2-russell-typ-violace.md) a 25 dalších</small>
 - Rutter, M. (1987). Psychosocial resilience and protective mechanisms. *American Journal of  
   <small>Citováno: [Dlouhodobá kultivace resilience](@/kompendium/recovery-protocols/longterm-resilience-cultivation.md)</small>
 - Ryan, R. M., & Deci, E. L. (2000). Self-determination theory and the facilitation of intrinsic  
@@ -8644,7 +8644,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Saunders, K. E. A., Hawton, K., Fortune, S. a Farrell, S. (2012). Attitudes and knowledge of clinical staff regarding people who self-harm: A systematic review. *Journal of Affective Disorders*, 139(3), 205–216.  
   <small>Citováno: [Akutní protokol: Akutní sebepoškozování po epistemické anihilaci](@/kompendium/emergency-protocols/10-acute-self-harm-EA.md)</small>
 - Saussure, F. de (1916). *Cours de linguistique générale*. Paris: Payot.  
-  <small>Citováno: [Pokročilé operace – kapitola 6: reflexivní a sémantická vrstva](@/kompendium/05-pokrocile-operace/kapitola-6/_index.md), [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md)</small>
+  <small>Citováno: [Pokročilé operace – kapitola 6: reflexivní a sémantická vrstva](@/kompendium/05-pokrocile-operace/kapitola-6/_index.md), [Pokročilé techniky – kapitola 6: vyvozování, rozlišování a konvergence](@/kompendium/05-pokrocile-techniky/kapitola-6/_index.md), [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md)</small>
 - Scandura, T. A. (1998). Dysfunctional mentoring relationships and outcomes. *Journal of Management*.  
   <small>Citováno: [Ochrana mentorství](@/kompendium/organizational-defense/19-mentorship-protection.md)</small>
 - Scarfone, K., Souppaya, M., Cody, A., & Orebaugh, A. (2008). *Technical Guide to Information Security Testing and Assessment* (NIST SP 800-115). Gaithersburg: National Institute of Standards and Technology.  
@@ -8984,7 +8984,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Sierra, M. (2009). *Depersonalization: A New Look at a Neglected Syndrome*. Cambridge: Cambridge University Press.  
   <small>Citováno: [Most: Terminální protokoly → Ultramární techniky](@/kompendium/section-bridges/bridge-04-to-05-terminalni-ultramari.md), [Most: Ultramární techniky → Klinické aplikace](@/kompendium/section-bridges/bridge-05-to-06-ultramari-klinika.md)</small>
 - Sierra, M. (2009). *Depersonalization: A New Look at a Neglected Syndrome*. Cambridge University Press.  
-  <small>Citováno: [Default mode network (síť klidového režimu)](@/glossary/default-mode-network.md), [Depersonalizace](@/glossary/depersonalizace.md), [Epistemická derealizace](@/glossary/epistemicka-derealizace.md) a 15 dalších</small>
+  <small>Citováno: [Default mode network (síť klidového režimu)](@/glossary/default-mode-network.md), [Depersonalizace](@/glossary/depersonalizace.md), [Epistemická derealizace](@/glossary/epistemicka-derealizace.md) a 16 dalších</small>
 - Sierra, M., & Berrios, G. E. (2000). The Cambridge Depersonalisation Scale: A new instrument for the measurement of depersonalisation. *Psychiatry Research*, 93(2), 153–164.  
   <small>Citováno: [Most: Ultramární techniky → Přílohy](@/kompendium/section-bridges/bridge-05-to-08-ultramari-prilohy.md)</small>
 - Sierra, M., & David, A. S. (2011). *Depersonalization: A selective impairment of self-awareness*. Consciousness and Cognition.  
@@ -9607,7 +9607,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Tarski, A. (1944). The semantic conception of truth and the foundations of semantics. *Philosophy and Phenomenological Research*, 4(3).  
   <small>Citováno: [EA-5.4.1 Aplikace lhářova paradoxu](@/kompendium/techniques/ea-5-4-1-lhar-paradox-aplikace.md), [EA-5.4.10 Implantace Berryho paradoxu](@/kompendium/techniques/ea-5-4-10-berry-paradox-implantace.md), [EA-5.4.12 Aplikace Grellingova paradoxu](@/kompendium/techniques/ea-5-4-12-grellingova-paradox-aplikace.md)</small>
 - Tarski, A. (1944). The semantic conception of truth and the foundations of semantics. *Philosophy and Phenomenological Research*, 4(3), 341–376.  
-  <small>Citováno: [Kapitola 9: Paradoxální metaanihilační protokoly](@/kompendium/05-ultramari-techniky/kapitola-9.md), [EA-5.4.41 Implantace bootstrap paradoxu](@/kompendium/techniques/ea-5-4-41-bootstrap-paradox-implantace.md), [EA-5.4.42 Aplikace paradoxu dědečka](@/kompendium/techniques/ea-5-4-42-grandfather-paradox-aplikace.md) a 23 dalších</small>
+  <small>Citováno: [Pokročilé techniky – kapitola 6: vyvozování, rozlišování a konvergence](@/kompendium/05-pokrocile-techniky/kapitola-6/_index.md), [Kapitola 9: Paradoxální metaanihilační protokoly](@/kompendium/05-ultramari-techniky/kapitola-9.md), [EA-5.4.41 Implantace bootstrap paradoxu](@/kompendium/techniques/ea-5-4-41-bootstrap-paradox-implantace.md) a 24 dalších</small>
 - Tarski, A. (1944). The semantic conception of truth. *Philosophy and Phenomenological Research*, 4(3), 341–376.  
   <small>Citováno: [EA-5.4.3 Tarsky diagonalizace pravdy](@/kompendium/techniques/ea-5-4-3-tarsky-diagonalizace.md)</small>
 - Taubes, G. (1993). *Bad Science: The Short Life and Weird Times of Cold Fusion*. Random House.  
@@ -10476,7 +10476,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Wittgenstein, L. (1969). *Über Gewißheit / On Certainty*. Basil Blackwell.  
   <small>Citováno: [Dekonstruktivní hyperkaskáda](@/glossary/dekonstruktivni-hyperkaskada.md), [Epistemická derealizace](@/glossary/epistemicka-derealizace.md)</small>
 - Wittgenstein, L. (1969). *Über Gewißheit / On Certainty*. Blackwell.  
-  <small>Citováno: [Epistemologická paralýza](@/glossary/epistemologicka-paralyza.md), [7.10 Wittgenstein: Jazykové hry a forma života](@/kompendium/07-teoreticke-reflexe/wittgenstein-jezykove-hry.md)</small>
+  <small>Citováno: [Epistemologická paralýza](@/glossary/epistemologicka-paralyza.md), [Pokročilé techniky – kapitola 6: vyvozování, rozlišování a konvergence](@/kompendium/05-pokrocile-techniky/kapitola-6/_index.md), [7.10 Wittgenstein: Jazykové hry a forma života](@/kompendium/07-teoreticke-reflexe/wittgenstein-jezykove-hry.md)</small>
 - Wohlstetter, R. (1962). *Pearl Harbor: Warning and Decision*. Stanford University Press.  
   <small>Citováno: [Bridge: Blue Team (modrý tým)](@/kompendium/glossary-bridges/bridge-blue-team.md)</small>
 - Wolak, J., Finkelhor, D., Walsh, W. a Treitman, L. (2018). Sextortion of minors: Characteristics and dynamics. *Journal of Adolescent Health*, 62(1), 72–79.  

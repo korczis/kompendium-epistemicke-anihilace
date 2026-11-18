@@ -67,8 +67,16 @@
         this.categories = Object.keys(counts).filter(function (c) { return counts[c] > 1; })
           .sort(function (a, b) { return counts[b] - counts[a] || a.localeCompare(b, 'cs'); })
           .map(function (c) { return { value: c, label: c + ' (' + counts[c] + ')' }; });
+        // Filter state round-trips through the address (?hledat=, ?kategorie=, ?jazyk=), so a
+        // copied link opens the same selection.
         var params = L.urlState.get();
         if (params.get('hledat')) this.q = params.get('hledat');
+        if (counts[params.get('kategorie')] > 1) this.cat = params.get('kategorie');
+        if (LANG_COLOR[params.get('jazyk')]) this.lang = params.get('jazyk');
+        var sync = function () {
+          L.urlState.set({ hledat: self.q.trim(), kategorie: self.cat, jazyk: self.lang });
+        };
+        ['q', 'cat', 'lang'].forEach(function (k) { self.$watch(k, sync); });
         this.booted = true;
         if (!V) {
           this.graphError = 'Chybí vizualizační modul.';

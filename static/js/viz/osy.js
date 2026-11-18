@@ -131,8 +131,59 @@
         chart.on('click', function (p) {
           if (p.data) set(aKeys[p.data[1]], bKeys[p.data[0]]);
         });
+        keyboard(chart);
         chartEl.setAttribute('data-osy-stav', 'hotovo');
       });
+
+      // Klávesnice: šipky posouvají kurzor po polích mapy (nahoru = vyšší řádek, jak je mapa
+      // nakreslená), Home a End na kraj řádku, Enter nebo mezerník pole vybere jako filtr,
+      // Escape kurzor schová. Kurzor se oznamuje a nese ho data-osy-kurzor-pole (publikum:pilíř).
+      var cursorEl = root.querySelector('[data-osy-kurzor]');
+      function keyboard(chart) {
+        var cur = null;
+        function show(x, y) {
+          chart.dispatchAction({ type: 'downplay', seriesIndex: 0 });
+          cur = x === null ? null : { x: x, y: y };
+          if (!cur) {
+            chart.dispatchAction({ type: 'hideTip' });
+            chartEl.removeAttribute('data-osy-kurzor-pole');
+            if (cursorEl) cursorEl.textContent = '';
+            return;
+          }
+          var i = y * bKeys.length + x;
+          chart.dispatchAction({ type: 'highlight', seriesIndex: 0, dataIndex: i });
+          chart.dispatchAction({ type: 'showTip', seriesIndex: 0, dataIndex: i });
+          chartEl.setAttribute('data-osy-kurzor-pole', aKeys[y] + ':' + bKeys[x]);
+          if (cursorEl) {
+            cursorEl.textContent = A[aKeys[y]].label + ' × ' + B[bKeys[x]].label + ': ' +
+              L.count(cells[i][2], PAGES) + '. Enter pole vybere.';
+          }
+        }
+        chartEl.addEventListener('keydown', function (e) {
+          var nx = bKeys.length;
+          var ny = aKeys.length;
+          if (e.key === 'Escape') { if (cur) { e.preventDefault(); show(null); } return; }
+          if ((e.key === 'Enter' || e.key === ' ') && cur) {
+            e.preventDefault();
+            set(aKeys[cur.y], bKeys[cur.x]);
+            return;
+          }
+          var moves = { ArrowRight: [1, 0], ArrowLeft: [-1, 0], ArrowUp: [0, 1], ArrowDown: [0, -1] };
+          if (!(e.key in moves) && e.key !== 'Home' && e.key !== 'End') return;
+          e.preventDefault();
+          if (!cur) {
+            // První stisk: vybrané pole, jinak levé horní.
+            var ax = bKeys.indexOf(state.b);
+            var ay = aKeys.indexOf(state.a);
+            return show(ax < 0 ? 0 : ax, ay < 0 ? ny - 1 : ay);
+          }
+          if (e.key === 'Home') return show(0, cur.y);
+          if (e.key === 'End') return show(nx - 1, cur.y);
+          var m = moves[e.key];
+          show(Math.min(nx - 1, Math.max(0, cur.x + m[0])), Math.min(ny - 1, Math.max(0, cur.y + m[1])));
+        });
+        chartEl.addEventListener('blur', function () { if (cur) chart.dispatchAction({ type: 'hideTip' }); });
+      }
 
       sync();
       renderList();

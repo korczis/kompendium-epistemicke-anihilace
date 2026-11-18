@@ -280,7 +280,10 @@
   var article = document.querySelector('article .format');
   if (article) {
     var heads = Array.prototype.slice.call(article.querySelectorAll('h2[id], h3[id]'));
-    var tocLinks = Array.prototype.slice.call(document.querySelectorAll('[data-toc] a[href^="#"]'));
+    // The outline links carry Zola's absolute permalinks (…/page/#heading): match them by the
+    // fragment on this page, not by an href starting with '#' (2026-11-18: the spy never ran).
+    var tocLinks = Array.prototype.slice.call(document.querySelectorAll('[data-toc] a[href*="#"]'))
+      .filter(function (l) { return l.hash && l.pathname === location.pathname; });
     heads.forEach(function (h) {
       var a = document.createElement('a');
       a.href = '#' + h.id;
@@ -295,7 +298,7 @@
     });
     if (tocLinks.length && 'IntersectionObserver' in window) {
       var byId = {};
-      tocLinks.forEach(function (l) { byId[decodeURIComponent(l.getAttribute('href').slice(1))] = l; });
+      tocLinks.forEach(function (l) { byId[decodeURIComponent(l.hash.slice(1))] = l; });
       var visibleHeads = {};
       var spy = new IntersectionObserver(function (entries) {
         entries.forEach(function (en) { visibleHeads[en.target.id] = en.isIntersecting; });

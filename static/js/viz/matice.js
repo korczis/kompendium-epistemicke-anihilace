@@ -59,6 +59,9 @@
       rodina: '',
       q: '',
       pohled: narrow ? 'rodiny' : 'techniky',
+      // The default view depends on the viewport; a view the reader chose (or the address gave)
+      // is written to the address always, so a copied link opens it on any screen.
+      pohledChosen: false,
       razeni: 'zaber',
       families: [],
       totals: { cases: 0, techs: 0, links: 0 },
@@ -80,7 +83,10 @@
         var r = /^(?:EA-)?([1-9])$/i.exec(p.get('rodina') || '');
         if (r) this.rodina = r[1];
         this.q = p.get('q') || '';
-        if (p.get('pohled') === 'rodiny' || p.get('pohled') === 'techniky') this.pohled = p.get('pohled');
+        if (p.get('pohled') === 'rodiny' || p.get('pohled') === 'techniky') {
+          this.pohled = p.get('pohled');
+          this.pohledChosen = true;
+        }
         if (p.get('razeni') === 'kniha') this.razeni = 'kniha';
         V.graph().then(function (G) {
           Object.keys(G.families).forEach(function (k) {
@@ -136,13 +142,13 @@
       },
 
       setTyp: function (v) { this.typ = v; this.apply(); },
-      setPohled: function (v) { this.pohled = v; this.apply(); },
+      setPohled: function (v) { this.pohled = v; this.pohledChosen = true; this.apply(); },
       reset: function () { this.typ = ''; this.rodina = ''; this.q = ''; this.razeni = 'zaber'; this.apply(); },
 
       remember: function () {
         L.urlState.set({ typ: this.typ, rodina: this.rodina ? 'EA-' + this.rodina : '',
           q: this.q.trim(),
-          pohled: this.pohled === (narrow ? 'rodiny' : 'techniky') ? '' : this.pohled,
+          pohled: this.pohledChosen ? this.pohled : '',
           razeni: this.razeni === 'kniha' ? 'kniha' : '' });
       },
 

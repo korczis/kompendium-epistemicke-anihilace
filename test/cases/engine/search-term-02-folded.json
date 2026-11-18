@@ -45,6 +45,16 @@
       },
       {
         "code": null,
+        "in": 31,
+        "kind": "Kapitola",
+        "path": "kompendium/puvodni-taxonomie/_index.md",
+        "tier": 6,
+        "title": "Původní taxonomie (2025)",
+        "url": "/kompendium/puvodni-taxonomie/",
+        "why": "description"
+      },
+      {
+        "code": null,
         "in": 21,
         "kind": "Kapitola",
         "path": "kompendium/08-prilohy/klasifikace.md",
@@ -61,16 +71,6 @@
         "tier": 6,
         "title": "Interaktivní vizualizace",
         "url": "/kompendium/visualizations/",
-        "why": "description"
-      },
-      {
-        "code": null,
-        "in": 10,
-        "kind": "Kapitola",
-        "path": "kompendium/puvodni-taxonomie/_index.md",
-        "tier": 6,
-        "title": "Původní taxonomie (2025)",
-        "url": "/kompendium/puvodni-taxonomie/",
         "why": "description"
       },
       {

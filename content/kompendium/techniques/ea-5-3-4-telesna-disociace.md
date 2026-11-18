@@ -167,7 +167,7 @@ Obnova tělesného sebeprožívání nemá tempo, které by šlo určit zvenčí
 - [EA-5.2 Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/_index.md#subkategorie-5-2)
 - [EA-5.4 Paradoxální metaanihilační protokoly](@/kompendium/05-ultramari-techniky/_index.md#subkategorie-5-4)
 - [EA-5.5 Transkonceptuální mechanismy](@/kompendium/05-ultramari-techniky/_index.md#subkategorie-5-5)
-- [EA-1.6 Charizmatické vedení](https://prismatic-reality-com.github.io/prismatic-promo/kompendium/01-zakladni-techniky/#subkategorie-1-6)
+- [EA-1.6 Charizmatické vedení](@/kompendium/03-zakladni-kategorie/kapitola-1.md#kompozicni-vzorce-strukturalni-jednotky-vyssi-urovne)
 - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - [Diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
 - [Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)

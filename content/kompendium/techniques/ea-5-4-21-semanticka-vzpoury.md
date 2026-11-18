@@ -89,6 +89,10 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 - **Legitimní práce** s paradoxem zachovává distincí mezi *zkoumaným paradoxem* a *zkoumajícím subjektem*; subjekt vychází obohacen o pojmovou jemnost.
 - **Manipulační aplikace** ruší tuto distincí; subjekt je s paradoxem *identifikován* a vychází z procesu evaluačně paralyzován.
 
+Quine (1960) sám uvádí zásadu, jíž se radikální překladatel řídí: tvrzení, která se na první pohled zdají nápadně nepravdivá, spíše svědčí o skrytém rozdílu v jazyce než o nerozumu mluvčího. Tato zásada vstřícného výkladu je opakem popisovaného vzorce. Ten nejasnost významu nevykládá ve prospěch mluvčího, nýbrž proti němu: nesoulad mezi slovem a zamýšleným smyslem předkládá jako doklad, že člověk vlastním slovům nerozumí. Klinicky to vzorec odlišuje od jazykové nejistoty při vstupu do nového oboru, kde se význam postupně ustaluje a mluvčí jistotu získává.
+
+Lifton (1961) popisuje zatížený jazyk totalistického prostředí jako jazyk klišé, která ukončují myšlení: složité lidské problémy se stlačí do krátkých, definitivně znějících frází (viz [thought reform](@/glossary/thought-reform.md)). Rozpoznávacím znakem je tedy nejen posun významu, ale i jeho zhuštění do výrazů, po nichž úvaha končí. Ochranným faktorem je kontakt s mluvčími, kteří slova užívají v obvyklém smyslu, a s texty mimo prostředí; Kramer a Alstad (1993) ukazují, že autoritářský vztah podkopává důvěru ve vlastní úsudek, a obnova vlastního slovníku je jednou z cest, jak ji vrátit.
+
 ## Rizikové kontexty
 
 | Kontext | Manifestace |

@@ -90,6 +90,10 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 - **Legitimní práce** s paradoxem zachovává distincí mezi *zkoumaným paradoxem* a *zkoumajícím subjektem*; subjekt vychází obohacen o pojmovou jemnost.
 - **Manipulační aplikace** ruší tuto distincí; subjekt je s paradoxem *identifikován* a vychází z procesu evaluačně paralyzován.
 
+Fine (1975) upozorňuje, že vágnost má i vyšší řád: hranice mezi jasnými a hraničními případy je sama neostrá. Teorie vágnosti z toho však nevyvozují, že by jasné případy neexistovaly; supervaluační výklad pokládá za superpravdivé to, co platí při každém přípustném zostření. Pro rozpoznání vzorce je to podstatné. Má-li člověk jasný případ — splnil, co bylo předem dohodnuto — a je mu přesto označen za hraniční, nejde o filozofickou jemnost, ale o posun, který žádná z teorií nenese.
+
+Williamson (1994) vysvětluje neznalost přesné hranice tím, že poznání vyžaduje rezervu pro chybu: v těsné blízkosti hranice nelze vědět, na které straně člověk stojí, daleko od ní ano. Zadeh (1965) pracuje se stupni příslušnosti, takže otázka, zda je něco dost, má i odpověď „do značné míry“. Stark (2007) popisuje u [donucující kontroly](@/glossary/coercive-control.md) pravidla, která druhá strana vymáhá a mění podle svého; ochranným faktorem je proto zapsat kritérium předem a trvat na tom, že platí pro obě strany.
+
 ## Rizikové kontexty
 
 | Kontext | Manifestace |

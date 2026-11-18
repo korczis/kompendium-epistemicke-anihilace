@@ -79,6 +79,10 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 - **Legitimní práce** s paradoxem zachovává distincí mezi *zkoumaným paradoxem* a *zkoumajícím subjektem*; subjekt vychází obohacen o pojmovou jemnost.
 - **Manipulační aplikace** ruší tuto distincí; subjekt je s paradoxem *identifikován* a vychází z procesu evaluačně paralyzován.
 
+Tarski (1944) ukázal, že jazyk, který obsahuje jména vlastních výrazů i vlastní predikát pravdivosti, je sémanticky uzavřený a vede k antinomii, jakou je [paradox lháře](@/glossary/liaruv-paradox.md); východiskem je popis z bohatšího metajazyka. *Interpretace knihy*: Grelling-Nelsonův paradox pracuje s predikátem užitým na sebe sama, a proto se k téže třídě řadí. Klinicky se vzorec liší od běžné sebekritiky tím, že zasaženému chybí právě ten metajazyk — možnost říct, že jde o hru se slovy, a ne o popis jeho osoby.
+
+Herman (1992) popisuje zotavení po dlouhodobém ovládání jako proces, který začíná nastolením bezpečí a obnovou kontroly nad každodenním životem a teprve potom pokračuje zpracováním zkušenosti; zotavení se podle ní neděje v izolaci, ale v obnovených vztazích. Rozbor paradoxu tedy přichází až po stabilizaci, nikdy jako první krok. Bateson et al. (1956) předložili svou práci jako hypotézu ke zkoumání, nikoli jako ověřený model; stránka proto dvojnou vazbu užívá k popisu komunikační struktury, ne jako diagnózu.
+
 ## Rizikové kontexty
 
 | Kontext | Manifestace |

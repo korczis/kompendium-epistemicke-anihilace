@@ -90,6 +90,10 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 - **Legitimní práce** s paradoxem zachovává distincí mezi *zkoumaným paradoxem* a *zkoumajícím subjektem*; subjekt vychází obohacen o pojmovou jemnost.
 - **Manipulační aplikace** ruší tuto distincí; subjekt je s paradoxem *identifikován* a vychází z procesu evaluačně paralyzován.
 
+Kripke (1963) ukázal, že různé modální systémy odpovídají různým vlastnostem relace dosažitelnosti mezi světy; co je nutné, tedy závisí na tom, které světy se berou v úvahu. Výsledek je obranně užitečný: otázka, kým by člověk byl, kdyby zvolil jinak, má odpověď jen vůči výslovně vymezenému okruhu možností. Lewis (1973) vyhodnocuje kontrafaktuály podle nejbližších možných světů, tedy těch, které se skutečnému podobají nejvíce; vzdálené a neurčité světy o pravdivosti běžné úvahy o volbě nerozhodují.
+
+Chisholm (1967) předložil řetěz drobných záměn jako hádanku o identitě napříč světy, nikoli jako tvrzení, že rozhodnutí mění totožnost rozhodujícího. Klinicky se vzorec odlišuje od běžné rozhodovací nejistoty tím, že odklad volby neprovází srovnávání alternativ, ale otázka, kdo vlastně volí. Ochranným faktorem je důvěra ve vlastní úsudek; Kramer a Alstad (1993) popisují, že ji autoritářský vztah soustavně oslabuje. Jak častý tento vzorec je, žádné z citovaných děl neuvádí a kniha takový údaj nepodává.
+
 ## Rizikové kontexty
 
 | Kontext | Manifestace |

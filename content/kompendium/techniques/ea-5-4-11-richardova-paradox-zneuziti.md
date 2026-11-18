@@ -79,6 +79,10 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 - **Legitimní práce** s paradoxem zachovává distincí mezi *zkoumaným paradoxem* a *zkoumajícím subjektem*; subjekt vychází obohacen o pojmovou jemnost.
 - **Manipulační aplikace** ruší tuto distincí; subjekt je s paradoxem *identifikován* a vychází z procesu evaluačně paralyzován.
 
+Rozlišovacím znakem dvojné vazby není samotný rozpor sdělení, nýbrž zákaz jej komentovat. Bateson et al. (1956) ji vymezují opakovanou zkušeností, v níž je primární příkaz popřen příkazem na abstraktnější úrovni a zasažený nesmí situaci opustit ani vyslovit, že dostává protichůdná sdělení. Kde člověk smí říct, že mu cizí seznam jeho pohnutek nesedí, a odpověď je věcná, nejde o tento vzorec, ale o běžný, byť nepříjemný spor o výklad.
+
+Ochranným faktorem je kontakt s lidmi a informacemi mimo vztah, v němž inventář pohnutek vzniká: Hassan (2018) řadí kontrolu informací a myšlení mezi základní složky ovládajícího vlivu ([model BITE](@/glossary/bite-model.md)). Russell (1908) uvádí Richardův paradox mezi rozpory, které odstraňuje princip bludného kruhu — celek vymezený odkazem na všechny své členy nesmí být sám jedním z nich (viz [Russellův paradox](@/glossary/russell-paradox.md)). Pro klinickou práci z toho plyne jen analogie, nikoli důkaz; kniha z logického řešení nevyvozuje léčebný postup.
+
 ## Rizikové kontexty
 
 | Kontext | Manifestace |

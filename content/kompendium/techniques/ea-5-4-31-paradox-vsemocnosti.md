@@ -90,6 +90,8 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 - **Legitimní práce** s paradoxem zachovává distincí mezi *zkoumaným paradoxem* a *zkoumajícím subjektem*; subjekt vychází obohacen o pojmovou jemnost.
 - **Manipulační aplikace** ruší tuto distincí; subjekt je s paradoxem *identifikován* a vychází z procesu evaluačně paralyzován.
 
+Geach (1973) navrhl místo všemohoucnosti mluvit o vládě nad vším (almightiness), tedy o moci, která nezahrnuje logicky nemožné úkony, a přesto není omezená. Rozlišení se dá přenést i na lidskou autonomii: svoboda rozhodovat o vlastním životě nezahrnuje schopnost provést v sobě sporný úkon a nic tím neztrácí. Klinicky se vzorec odlišuje od běžného váhání nad závazkem tím, že zasažený neprožívá volbu jako omezenou, ale jako logicky znemožněnou. Kramer a Alstad (1993) ukazují, že vzdání se vlastní vůle ve prospěch autority bývá vydáváno za vrchol svobody; právě tuto inverzi je třeba rozpoznat.
+
 ## Rizikové kontexty
 
 | Kontext | Manifestace |

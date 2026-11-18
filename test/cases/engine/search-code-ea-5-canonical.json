@@ -55,7 +55,7 @@
       },
       {
         "code": "EA-5.1.14",
-        "in": 26,
+        "in": 27,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-5-1-14-iluzorni-transcendence.md",
         "tier": 4,
@@ -65,7 +65,7 @@
       },
       {
         "code": "EA-5.1.17",
-        "in": 22,
+        "in": 23,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-5-1-17-tautologicka-imploze.md",
         "tier": 4,
@@ -75,7 +75,7 @@
       },
       {
         "code": "EA-5.1.12",
-        "in": 21,
+        "in": 22,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-5-1-12-kauzalni-inverze.md",
         "tier": 4,
@@ -85,7 +85,7 @@
       },
       {
         "code": "EA-5.1.15",
-        "in": 20,
+        "in": 21,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-5-1-15-apofaticke-zacykleni.md",
         "tier": 4,
@@ -95,7 +95,7 @@
       },
       {
         "code": "EA-5.1.18",
-        "in": 19,
+        "in": 20,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice.md",
         "tier": 4,
@@ -115,7 +115,7 @@
       },
       {
         "code": "EA-5.1.11",
-        "in": 13,
+        "in": 14,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-5-1-11-modalni-dezorientace.md",
         "tier": 4,

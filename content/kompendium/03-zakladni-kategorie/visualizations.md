@@ -4,7 +4,7 @@ description = "Interaktivní graf sekce 03: stránky technik rodiny EA-1 rozlož
 weight = 99
 
 [taxonomies]
-tags = ["kompendium", "vizualizace", "interaktivni", "chartjs", "ea-1", "akademicka-manipulace"]
+tags = ["kompendium", "vizualizace", "interaktivni", "echarts", "ea-1", "akademicka-manipulace"]
 categories = ["academic", "tools"]
 
 [extra]

@@ -6,7 +6,7 @@ sort_by = "weight"
 template = "kompendium/section.html"
 
 [extra]
-tags = ["kompendium", "vizualizace", "interaktivni", "chartjs", "threejs", "p5js"]
+tags = ["kompendium", "vizualizace", "interaktivni", "echarts", "threejs", "p5js"]
 categories = ["academic", "tools"]
 section_icon = "📊"
 toc = true
@@ -26,7 +26,7 @@ Interakce sleduje Shneidermanovu zásadu „nejdřív přehled, potom přiblíž
 
 Tamara Munznerová doporučuje u každé vizualizace oddělit tři otázky – jaká data zobrazuje, k jaké úloze slouží a jak data kóduje (Munzner 2014). U každého grafu níže je proto uvedeno, odkud bere data, co kóduje poloha, barva a velikost a kam čtenáře vede.
 
-## 1. Distribuce technik napříč kategoriemi (Chart.js)
+## 1. Distribuce technik napříč kategoriemi (ECharts)
 
 Prstencový graf rozděluje stránky technik podle rodin EA. Rodinou se rozumí první číslo kódu, který skript čte z cesty stránky; název rodiny pochází z grafu knihy a velikost výseče je počet stránek technik v rodině. Klepnutí na výseč vypíše techniky rodiny po podrodinách, každou jako odkaz. Graf ukazuje, jak podrobně kniha jednotlivé rodiny zpracovává, ne jak časté jsou techniky ve skutečnosti; kódový systém vysvětluje heslo [Taxonomie EA](@/glossary/taxonomie-ea.md).
 
@@ -34,7 +34,7 @@ Prstencový graf rozděluje stránky technik podle rodin EA. Rodinou se rozumí 
 <div id="taxonomy-detail" class="mt-4 p-4 rounded-lg border border-gray-200 bg-white text-gray-900 dark:border-gray-700 dark:bg-gray-800 dark:text-white"></div>
 {{ <viz_script name="taxonomy-distribution-chart" /> }}
 
-## 2. Rodiny EA × úroveň rizika (Chart.js)
+## 2. Rodiny EA × úroveň rizika (ECharts)
 
 Bublinový graf kříží rodiny EA s úrovněmi rizika, které stránkám technik přiřazuje katalog technik, v pořadí legendy katalogu. Plocha bubliny odpovídá počtu stránek v buňce a barva rodině. Klepnutí na bublinu vypíše techniky, které v buňce leží. Úroveň rizika je katalogová klasifikace typického dopadu techniky, ne měřená závažnost: v konkrétním případě může technika nižší úrovně zasáhnout člověka v krizi velmi vážně. Jak katalog s úrovněmi zachází, popisuje [klasifikační schéma](@/kompendium/08-prilohy/klasifikace.md).
 
@@ -50,7 +50,7 @@ Prostorový graf rozmisťuje všechny stránky technik po povrchu koule v pořad
 <div id="graph-detail" class="mt-4 p-4 rounded-lg border border-gray-200 bg-white text-gray-900 dark:border-gray-700 dark:bg-gray-800 dark:text-white"></div>
 {{ <viz_script name="technique-graph-3d" /> }}
 
-## 4. Fáze zotavení v čase (Chart.js)
+## 4. Fáze zotavení v čase (ECharts)
 
 Graf plovoucích pruhů ukazuje fáze zotavení na logaritmické ose času. Fáze, jejich orientační rozpětí a protokoly přebírá z rejstříku [longitudinálních rekonstruktivních protokolů](@/kompendium/recovery-protocols/_index.md): rozpětí čte z nadpisu fáze (například „týdny“, „měsíce“, „roky“ s čísly), protokoly z odkazů pod ním. Skupiny bez časového rozpětí vypíše pod grafem a neuvádí-li rejstřík rozpětí u žádné fáze, graf se nevykreslí a oznámí, že data chybí. Pruh neukazuje průběh příznaků ani „zbytkový deficit“ – takové hodnoty kniha neuvádí; ukazuje jen, v jakém časovém rámci kniha fázi popisuje. Rejstřík sám zdůrazňuje, že rámce jsou orientační a fáze se prolínají a vracejí.
 
@@ -76,7 +76,7 @@ Simulace je model jevu, který kniha popisuje jako [EA-1.1.2 informační přet�
 <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Tempo informačního streamu (0.1 = pomalé, 5 = přetížení)</p>
 {{ <viz_script name="attention-disruption-sim" /> }}
 
-## 7. Detekční signatury po skupinách (Chart.js)
+## 7. Detekční signatury po skupinách (ECharts)
 
 Bodový graf ukazuje stránky [detekčních signatur](@/kompendium/detection-signatures/_index.md) seskupené tak, jak je řadí rejstřík sekce (podle jeho nadpisů, například jazykové, behaviorální či síťové signatury); jedna barevná stopa je jedna skupina. Vodorovná osa je pořadí signatury v rejstříku, svislá počet stránek knihy, které na signaturu odkazují. Klepnutí na bod vypíše signaturu, její skupinu a odkaz na stránku. Starší verze grafu slibovala průběh intenzity příznaků v čase; kniha takové hodnoty neuvádí, a graf je proto neukazuje. Signatury jsou znaky k rozpoznání, ne diagnostická kritéria.
 
@@ -84,7 +84,7 @@ Bodový graf ukazuje stránky [detekčních signatur](@/kompendium/detection-sig
 <div id="phenomenology-detail" class="mt-4 p-4 rounded-lg border border-gray-200 bg-white text-gray-900 dark:border-gray-700 dark:bg-gray-800 dark:text-white"></div>
 {{ <viz_script name="phenomenology-timeline-chart" /> }}
 
-## 8. 2D síť EA technik (Chart.js)
+## 8. 2D síť EA technik (ECharts)
 
 Rovinná síť ukazuje nejodkazovanější stránky technik – ty, na které v knize odkazuje nejvíc jiných stránek; kolik jich graf ukáže, je zobrazovací mez skriptu, ne vlastnost dat. Body jsou seskupeny podle rodin EA a obarveny jejich barvou, čáry jsou odkazy mezi vybranými stránkami. Klepnutí na bod zvýrazní sousedy a vypíše je s odkazy. Síť je dobrým vstupem pro čtenáře, který neví, kde začít: ukazuje techniky, ke kterým se kniha nejčastěji vrací. Nejodkazovanější však neznamená nejčastější ani nejnebezpečnější.
 
@@ -100,7 +100,7 @@ Simulace je model sebereflexe, která se zacyklí. Ilustruje jevy, které kniha 
 <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Pohni myší: vertikální poloha řídí hloubku rekurze (1–12). Nad 9 = metakognitivní paralýza.</p>
 {{ <viz_script name="recursive-thought-spiral" /> }}
 
-## 10. Historické případy na časové ose (Chart.js)
+## 10. Historické případy na časové ose (ECharts)
 
 Bodový graf ukazuje stránky [historických případů](@/kompendium/historical-cases/_index.md) na časové ose. Kategorie, místo a období jsou pole záhlaví každé stránky: vodorovná poloha je začátek období, čára jeho trvání a u případů, které trvají dodnes, vede čára do současnosti; svislá osa a barva nesou kategorii případu. Klepnutí na bod vypíše případ a odkaz na jeho stránku. Graf nepřiřazuje případům žádnou „závažnost“ – srovnávat utrpení obětí totalitních režimů, kultů a dezinformačních kampaní na jedné stupnici by bylo metodicky i eticky pochybné. Výklad každého případu, jeho mechanismů a dokladů patří na jeho stránku.
 
@@ -124,7 +124,7 @@ Silově uspořádaná síť ukazuje pojmy [glosáře](@/glossary/_index.md), na 
 <div id="glossary-network-detail" class="mt-4 p-4 rounded-lg border border-gray-200 bg-white text-gray-900 dark:border-gray-700 dark:bg-gray-800 dark:text-white"></div>
 {{ <viz_script name="glossary-network-2d" /> }}
 
-## 13. Průběh zotavení po fázích (Chart.js)
+## 13. Průběh zotavení po fázích (ECharts)
 
 Tokový graf ve stylu Sankeyova diagramu přebírá fáze a jejich protokoly z rejstříku protokolů zotavení. Výška sloupce je počet protokolů fáze a šířka pásu mezi sousedními fázemi počet odkazů z protokolů jedné fáze na protokoly další podle grafu knihy. Klepnutí na sloupec vypíše popis fáze z rejstříku a její protokoly. Pás tedy nevyjadřuje podíl pacientů, kteří do další fáze postoupí – kniha žádné takové podíly neuvádí –, ale to, jak hustě kniha fáze provazuje. Klinickou cestu z pohledu sekce 06 ukazuje [vizualizace klinické cesty](@/kompendium/06-klinicke-aplikace/visualizations.md).
 
@@ -140,7 +140,7 @@ Koule představuje epistemickou plochu člověka a vektory, které na ni zvenč�
 <div id="ea9-attack-detail" class="mt-4 p-4 rounded-lg border border-gray-200 bg-white text-gray-900 dark:border-gray-700 dark:bg-gray-800 dark:text-white"></div>
 {{ <viz_script name="ea9-digital-attack-surface" /> }}
 
-## 15. Mezinárodní perspektivy × rodiny EA (Chart.js)
+## 15. Mezinárodní perspektivy × rodiny EA (ECharts)
 
 Tepelná mapa má v řádcích stránky sekce [mezinárodních perspektiv](@/kompendium/international/_index.md), seskupené podle nadpisů jejího rejstříku, a ve sloupcích rodiny EA. Hodnota buňky je počet odkazů ze stránky regionu nebo tématu na stránky technik dané rodiny. Klepnutí na buňku vypíše region, rodinu a odkazované techniky. Mapa neukazuje prevalenci technik v kultuře ani regionu – kniha žádnou prevalenci neuvádí a graf ji neodhaduje; ukazuje jen, o kterých technikách stránky o daném regionu píší.
 
@@ -205,8 +205,8 @@ zobrazují strukturu odkazů knihy, ne empirická data (Munzner, 2014).
 
 **Zdrojové rejstříky grafů**
 
-- [Longitudinální rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md) – fáze zotavení pro grafy 4, 14 a 18.
-- [Akutní intervenční protokoly](@/kompendium/emergency-protocols/_index.md) – skupiny protokolů pro graf 12.
+- [Longitudinální rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md) – fáze zotavení pro grafy 4, 13 a 17.
+- [Akutní intervenční protokoly](@/kompendium/emergency-protocols/_index.md) – skupiny protokolů pro graf 11.
 - [Detekční signatury](@/kompendium/detection-signatures/_index.md) – skupiny signatur pro graf 7.
 
 **Glosář**

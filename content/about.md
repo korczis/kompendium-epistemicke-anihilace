@@ -54,7 +54,8 @@ nikde neodkazuje na interní aplikaci platformy.
 ## Jak je web sestaven
 
 [Zola](https://www.getzola.org/) generuje statický web z Markdownu, vzhled stojí na Flowbite
-(Tailwind CSS), interaktivní vizualizace používají Chart.js, p5.js a three.js, diagramy Mermaid.
+(Tailwind CSS), interaktivní grafy a sítě kreslí Apache ECharts, generativní grafiku a simulace p5.js,
+prostorové pohledy three.js a diagramy Mermaid.
 Vše je hostováno na GitHub Pages bez externích CDN. Repozitář je pod dohledem
 [Majordomus](https://majordomus.dev). Podrobnosti jsou v
 [README](https://github.com/korczis/kompendium-epistemicke-anihilace#readme) a na

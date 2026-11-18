@@ -164,6 +164,24 @@ async function derived(load = fromBase) {
       if (s) { out.push({ path: page(n), ...s, note: `třída ${section}: ${s.note}` }); break; }
     }
   }
+  // Skript vizualizace knihy (static/js/kompendium/<name>.js, komponenta viz_script), který žádná
+  // stránka scénářů nenačte: jeho nejodkazovanější stránka z grafu. Plocha skriptu (prvek s id
+  // jména skriptu, do kterého vrstva kreslí) musí mít plátno. Skript, který nenačte ani jeden
+  // scénář, odmítne brána pokrytí JS (scripts/check-js-coverage.py).
+  const scriptsOf = (html) => [...html.matchAll(/\/js\/kompendium\/([\w-]+)\.js/g)].map((m) => m[1]);
+  const loaded = new Set();
+  for (const s of FIXED.concat(out)) {
+    scriptsOf(await load(s.path.split('?')[0]).catch(() => '')).forEach((x) => loaded.add(x));
+  }
+  for (const n of g.nodes.slice().sort(byRank)) {
+    const html = await load(page(n)).catch(() => '');
+    const fresh = [...new Set(scriptsOf(html))].filter((x) => !loaded.has(x));
+    if (!fresh.length) continue;
+    fresh.forEach((x) => loaded.add(x));
+    const hosts = fresh.filter((x) => html.includes(`id="${x}"`));
+    out.push({ path: page(n), painted: 1, counts: hosts.map((x) => [`#${x} canvas`, 1]),
+      note: `skript vizualizace ${fresh.join(', ')}` });
+  }
   return out;
 }
 

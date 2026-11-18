@@ -76,7 +76,7 @@ Kompendium je určeno výhradně pro:
 | **18** | [Educational Scenarios](@/kompendium/educational-scenarios/_index.md) | ✓ 30 scénářů | Edukativní výukové scénáře pro tréninky |
 | **19** | [Historical Cases](@/kompendium/historical-cases/_index.md) | ✓ 40 historických | Historické případy aplikace technik (sekta, totalitní režimy, [propaganda](@/glossary/propaganda.md)) |
 | **20** | [Detection Signatures](@/kompendium/detection-signatures/_index.md) | ✓ 30 signatur | Strojově čitelné detekční signatury pro automatizaci |
-| **21** | [Vizualizace](@/kompendium/visualizations/_index.md) | ✓ 6 interaktivních | Chart.js / Three.js / p5.js: distribuce, severity, 3D graf, trajektorie zotavení, simulace |
+| **21** | [Vizualizace](@/kompendium/visualizations/_index.md) | ✓ interaktivní | ECharts / Three.js / p5.js: distribuce, severity, 3D graf, trajektorie zotavení, simulace |
 | **22** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) | ✓ odvozený katalog | Vzorce, principy a pojmy neurolingvistického programování: struktura, detekce, stav důkazů, obrana |
 | **23** | [Argumentační fauly](@/kompendium/argumentacni-fauly/_index.md) | ✓ odvozený katalog | Formální a neformální klamy, rétorické taktiky a pravidla kritické diskuse |
 
@@ -176,7 +176,7 @@ Kompendium je publikováno **inkrementálně**. Aktuální stav (Wave 1–8 + Ph
 - **Educational Scenarios**: 30 výukových scénářů pro tréninky
 - **Historical Cases**: 40 historických případových studií
 - **Detection Signatures**: 30 strojově čitelných detekčních signatur
-- **Vizualizace**: 6 interaktivních (Chart.js / Three.js / p5.js)
+- **Vizualizace**: interaktivní grafy a sítě (ECharts), prostorové pohledy (Three.js) a simulace (p5.js)
 - **Celkový rozsah**: **1 061+ markdown souborů**, **~900 000+ slov** (cca **2 800+ stran A4**)
 
 **Aktuální stav publikace**: viz [techniques index](@/kompendium/techniques/_index.md) pro přesný počet a stav každé techniky.

@@ -4,7 +4,7 @@ description = "Interaktivní graf klinické cesty po expozici technikám EA: fá
 weight = 99
 
 [taxonomies]
-tags = ["kompendium", "vizualizace", "interaktivni", "chartjs", "klinicke-aplikace", "zotaveni"]
+tags = ["kompendium", "vizualizace", "interaktivni", "echarts", "klinicke-aplikace", "zotaveni"]
 categories = ["academic", "clinical", "tools"]
 
 [extra]

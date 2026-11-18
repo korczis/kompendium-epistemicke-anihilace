@@ -8,7 +8,7 @@
 set -euo pipefail
 
 root=$(cd "$(dirname "$0")/../.." && pwd)
-work=$(mktemp -d "${TMPDIR:-/tmp}/kea-case61.XXXXXX")
+work=$(mktemp -d "${TMPDIR:-/tmp}/kea-case66.XXXXXX")
 trap 'rm -rf "$work"' EXIT
 git -C "$root" archive "${KEA_TEST_TREE:-$(git -C "$root" write-tree)}" | tar -x -C "$work"
 cd "$work"

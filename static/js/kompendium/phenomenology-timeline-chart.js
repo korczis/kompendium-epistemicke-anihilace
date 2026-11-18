@@ -1,4 +1,4 @@
-// Detekční signatury knihy po skupinách (Chart.js scatter, jedna stopa = jedna skupina).
+// Detekční signatury knihy po skupinách (ECharts, bodový graf; jedna řada = jedna skupina).
 // Skupiny (lingvistické, behaviorální, síťové, fenomenologické, průřezové…) a jejich stránky
 // přebírá z rejstříku oddílu detekčních signatur (nadpisy a odkazy pod nimi); X = pořadí
 // v rejstříku, Y = počet stránek knihy, které na signaturu odkazují (graf: in). Kniha neuvádí
@@ -12,10 +12,11 @@
   // Data knihy přes komponentovou vrstvu (vrstva.js): kniha.js se načte jednou za stránku.
   var kniha = window.KompendiumVrstva.kniha;
   var failed = window.KompendiumVrstva.failed;
+  var L = window.KompendiumVrstva;
 
   function init() {
     var canvas = document.getElementById('phenomenology-timeline');
-    if (!canvas || typeof Chart === 'undefined') return;
+    if (!canvas) return;
     var detail = document.getElementById('phenomenology-detail');
     kniha().then(function (K) {
       var idx = K.g.byPath[SOURCE];
@@ -43,38 +44,33 @@
           detail.appendChild(p);
         }
 
-        K.chart(canvas, function (c) {
+        K.chart(canvas, function (t, el) {
+          var hd = K.head(t, el, 'Detekční signatury knihy po skupinách: jak často na ně kniha odkazuje', true);
           return {
-            type: 'scatter',
-            data: { datasets: tracks.map(function (tr) {
+            title: hd.title,
+            legend: hd.legend,
+            tooltip: Object.assign({ trigger: 'item', formatter: function (p) {
+              var pt = tracks[p.seriesIndex].points[p.dataIndex];
+              return '<b>' + L.esc(pt.n.title) + '</b><br>' + L.count(pt.n.in, ['odkaz', 'odkazy', 'odkazů']) + ' z knihy';
+            } }, K.V.tooltip(t)),
+            grid: { left: 36, right: 16, top: hd.top, bottom: 28, containLabel: true },
+            xAxis: K.V.axis(t, { type: 'value', min: 0, max: order + 1, minInterval: 1,
+              name: 'Pořadí v rejstříku signatur', nameLocation: 'middle', nameGap: 26 }),
+            yAxis: K.V.axis(t, { type: 'value', min: 0, max: function (v) { return Math.max(v.max, maxIn) + 1; },
+              minInterval: 1, name: 'Stránky knihy, které na signaturu odkazují', nameLocation: 'middle', nameGap: 36 }),
+            series: tracks.map(function (tr) {
               return {
-                label: tr.group.title + ' (' + tr.points.length + ')', data: tr.points,
-                borderColor: tr.color, backgroundColor: tr.color + '40', pointBackgroundColor: tr.color,
-                pointRadius: 6, pointHoverRadius: 9, showLine: false,
+                type: 'scatter', name: tr.group.title + ' (' + tr.points.length + ')', cursor: 'pointer',
+                symbolSize: 12, itemStyle: { color: tr.color },
+                emphasis: { focus: 'series', scale: 1.5 },
+                data: tr.points.map(function (pt) { return [pt.x, pt.y]; }),
               };
-            }) },
-            options: {
-              responsive: true,
-              plugins: {
-                title: { display: true, color: c.text,
-                  text: 'Detekční signatury knihy po skupinách: jak často na ně kniha odkazuje' },
-                legend: { labels: { color: c.text } },
-                tooltip: { callbacks: {
-                  title: function (items) { return items[0].raw.n.title; },
-                  label: function (ctx) { return ctx.raw.n.in + ' odkazů z knihy'; },
-                } },
-              },
-              scales: {
-                x: { min: 0, max: order + 1, ticks: { color: c.muted, stepSize: 1 }, grid: { color: c.grid },
-                  title: { display: true, text: 'Pořadí v rejstříku signatur', color: c.text } },
-                y: { min: 0, suggestedMax: maxIn + 1, ticks: { color: c.muted }, grid: { color: c.grid },
-                  title: { display: true, text: 'Stránky knihy, které na signaturu odkazují', color: c.text } },
-              },
-              onClick: function (e, els, chart) {
-                if (els.length) show(chart.data.datasets[els[0].datasetIndex].data[els[0].index]);
-              },
-            },
+            }),
           };
+        }).then(function (chart) {
+          chart.on('click', function (p) {
+            if (p.componentType === 'series') show(tracks[p.seriesIndex].points[p.dataIndex]);
+          });
         });
       });
     }).catch(function (e) { failed(detail, e); });

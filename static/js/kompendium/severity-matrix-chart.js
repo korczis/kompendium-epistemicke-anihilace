@@ -1,4 +1,4 @@
-// Matice rodina EA × úroveň rizika (Chart.js bubble, velikost = počet stránek technik).
+// Matice rodina EA × úroveň rizika (ECharts, bublinový graf; velikost = počet stránek technik).
 // Rodiny z grafu knihy, úrovně rizika a jejich pořadí z katalogu technik (risk_level stránek,
 // legenda katalogu); nic se nepočítá ručně. Klik na bublinu → techniky v buňce.
 (function () {
@@ -7,10 +7,11 @@
   // Data knihy přes komponentovou vrstvu (vrstva.js): kniha.js se načte jednou za stránku.
   var kniha = window.KompendiumVrstva.kniha;
   var failed = window.KompendiumVrstva.failed;
+  var L = window.KompendiumVrstva;
 
   function init() {
     var canvas = document.getElementById('severity-matrix');
-    if (!canvas || typeof Chart === 'undefined') return;
+    if (!canvas) return;
     var detail = document.getElementById('severity-detail');
     kniha().then(function (K) {
       return K.catalogue().then(function (cat) {
@@ -51,40 +52,36 @@
           }));
         }
 
-        K.chart(canvas, function (c) {
+        K.chart(canvas, function (t, el) {
+          var hd = K.head(t, el, 'Rodina EA × úroveň rizika (podle katalogu technik)');
+          var cell = Math.min((el.clientWidth - 120) / Math.max(1, levels.length), (el.clientHeight - hd.top - 60) / Math.max(1, fams.length));
           return {
-            type: 'bubble',
-            data: { datasets: [{
-              label: 'Stránky technik', data: points,
-              backgroundColor: points.map(function (p) { return K.familyColor(p.fam) + 'CC'; }),
-              borderColor: points.map(function (p) { return K.familyColor(p.fam); }),
-            }] },
-            options: {
-              responsive: true,
-              scales: {
-                x: {
-                  type: 'linear', min: -0.5, max: levels.length - 0.5, afterBuildTicks: K.intTicks(levels.length),
-                  ticks: { stepSize: 1, color: c.muted, callback: function (v) { return levels[v] ? levels[v].label : ''; } },
-                  grid: { color: c.grid },
-                  title: { display: true, text: 'Úroveň rizika (risk_level stránky)', color: c.text },
-                },
-                y: {
-                  type: 'linear', min: -0.5, max: fams.length - 0.5, reverse: true, afterBuildTicks: K.intTicks(fams.length),
-                  ticks: { stepSize: 1, color: c.muted, callback: function (v) { return fams[v] || ''; } },
-                  grid: { color: c.grid },
-                  title: { display: true, text: 'Rodina EA', color: c.text },
-                },
-              },
-              plugins: {
-                legend: { display: false },
-                tooltip: { callbacks: { label: function (ctx) {
-                  return K.familyLabel(ctx.raw.fam) + ' / ' + ctx.raw.level.label + ': ' + ctx.raw.count + ' stránek';
-                } } },
-                title: { display: true, text: 'Rodina EA × úroveň rizika (podle katalogu technik)', color: c.text },
-              },
-              onClick: function (e, els) { if (els.length) show(points[els[0].index]); },
-            },
+            title: hd.title,
+            tooltip: Object.assign({ trigger: 'item', formatter: function (p) {
+              var d = points[p.dataIndex];
+              return L.esc(K.familyLabel(d.fam) + ' / ' + d.level.label) + ': ' +
+                L.count(d.count, ['stránka', 'stránky', 'stránek']);
+            } }, K.V.tooltip(t)),
+            grid: { left: 8, right: 16, top: hd.top + 16, bottom: 36, containLabel: true },
+            xAxis: K.V.axis(t, { type: 'category', data: levels.map(function (l) { return l.label; }),
+              name: 'Úroveň rizika (risk_level stránky)', nameLocation: 'middle', nameGap: 28,
+              splitLine: { show: true, lineStyle: { color: t.grid, type: 'dashed' } } }),
+            yAxis: K.V.axis(t, { type: 'category', inverse: true, data: fams, name: 'Rodina EA',
+              nameLocation: 'start', splitLine: { show: true, lineStyle: { color: t.grid, type: 'dashed' } } }),
+            series: [{
+              type: 'scatter', name: 'Stránky technik', cursor: 'pointer',
+              data: points.map(function (p) {
+                var col = K.familyColor(p.fam);
+                return { value: [p.x, p.y, p.count], itemStyle: { color: col, borderColor: col },
+                  label: { color: L.ink(col) } };
+              }),
+              symbolSize: function (v) { return Math.max(8, Math.sqrt(v[2] / max) * Math.max(20, cell * 0.85)); },
+              label: { show: true, formatter: function (p) { return p.value[2]; }, fontSize: 11, position: 'inside' },
+              emphasis: { focus: 'self', itemStyle: { borderColor: t.text, borderWidth: 2 } },
+            }],
           };
+        }).then(function (chart) {
+          chart.on('click', function (p) { if (p.componentType === 'series') show(points[p.dataIndex]); });
         });
       });
     }).catch(function (e) { failed(detail, e); });

@@ -3,7 +3,7 @@
 // sloupci (situace → postup) a odkazy v buňce postupu. Řádky tabulky nejsou větve stromu a jejich
 // pořadí není pořadí kroků, proto je tok kreslí jako souběžné dvojice situace → postup → navazující
 // stránka, ve stejném pořadí jako tabulka. Bez tabulky v očekávaném tvaru se nic nekreslí.
-// Graf (cytoscape přes KompendiumViz.cytoscape) se sestaví, až se přiblíží k oknu.
+// Graf (síť vrstvy, KompendiumViz.network) se sestaví, až se přiblíží k oknu.
 (function () {
   'use strict';
 
@@ -52,8 +52,9 @@
   }
 
   // Rozvržení v pixelech hostitele: široký displej má tři sloupce, telefon dva a navazující
-  // stránky leží pod postupem. Výška se nepředpokládá; graf se do pevné výšky karty vejde fit().
-  function elements(m, W) {
+  // stránky leží pod postupem. Výška se nepředpokládá; síť vrstvy kresbu větší než plocha
+  // rovnoměrně zmenší (layout 'pixel').
+  function elements(m, W, t) {
     var narrow = W < 640;
     var fs = narrow ? 11 : 12;
     var pad = 8;
@@ -65,14 +66,15 @@
     var x0 = 8 + cw / 2;
     var x1 = 8 + cw + gap + aw / 2;
     var x2 = narrow ? x1 : 8 + cw + gap + aw + gap + lw / 2;
-    var out = [];
+    var nodes = [];
+    var edges = [];
     var grid = [];
     var y = 12;
     var caps = [m.head[0], m.head[1]].concat(narrow ? [] : ['Navazující stránky']);
     [x0, x1, x2].slice(0, caps.length).forEach(function (x, i) {
-      out.push({ group: 'nodes', classes: 'cap', position: { x: x, y: y },
-        data: { id: 'cap' + i, label: caps[i], w: i ? (i === 2 ? lw : aw) : cw, h: 18, tw: i === 2 ? lw : cw,
-          color: 'transparent', size: 18, fontSize: fs } });
+      var w = i ? (i === 2 ? lw : aw) : cw;
+      nodes.push({ id: 'cap' + i, shape: 'cap', x: x, y: y, size: [w, 18], label: caps[i].toUpperCase(),
+        labelColor: t.muted, labelBold: true, fontSize: fs, labelWidth: w });
     });
     y += 22;
     m.rows.forEach(function (r, i) {
@@ -84,50 +86,28 @@
       var rowH = Math.max(hc, stack, linkStack);
       var top = y;
       var row = [];
-      function box(id, cls, x, cy, w, h, label, target) {
-        out.push({ group: 'nodes', classes: 'box ' + cls, position: { x: x, y: cy },
-          data: { id: id, label: label, w: w, h: h, tw: w - 2 * pad, color: 'transparent', size: h, fontSize: fs, target: target } });
+      function box(id, kind, x, cy, w, h, label, target) {
+        var link = kind === 'link';
+        nodes.push({ id: id, shape: 'box', x: x, y: cy, size: [w, h], label: label, labelWrap: true,
+          labelWidth: w - 2 * pad, fontSize: fs, labelBold: link, labelColor: link ? L.ink(t.primary) : t.text,
+          color: link ? t.primary : t.surface, borderColor: kind === 'cond' ? t.primary : t.muted,
+          borderWidth: link ? 0 : kind === 'cond' ? 2 : 1.5, data: { target: target, kind: kind } });
         row.push(id);
       }
       box('c' + i, 'cond', x0, top + rowH / 2, cw, hc, r.cond, '#' + r.id);
       var ay = narrow ? top + ha / 2 : top + rowH / 2;
       box('a' + i, 'act', x1, ay, aw, ha, r.act, '#' + r.id);
-      out.push({ group: 'edges', classes: 'flow', data: { id: 'e' + i, source: 'c' + i, target: 'a' + i, width: 1.5 } });
+      edges.push({ source: 'c' + i, target: 'a' + i, width: 1.5, color: t.muted, opacity: 1, arrow: true });
       var ly = narrow ? top + ha + 14 : top + (rowH - linkStack) / 2;
       r.links.forEach(function (l, j) {
         box('l' + i + '-' + j, 'link', x2, ly + lh[j] / 2, lw, lh[j], l.text, l.href);
-        out.push({ group: 'edges', classes: 'flow', data: { id: 'f' + i + '-' + j, source: 'a' + i, target: 'l' + i + '-' + j, width: 1.5 } });
+        edges.push({ source: 'a' + i, target: 'l' + i + '-' + j, width: 1.5, color: t.muted, opacity: 1, arrow: true });
         ly += lh[j] + (narrow ? 14 : 8);
       });
       grid.push(row);
       y += rowH + (narrow ? 16 : 14);
     });
-    return { elements: out, grid: grid };
-  }
-
-  // Doplňkový styl nad jednotným stylem vrstvy; po přepnutí tématu se přidá znovu.
-  function extra(t) {
-    return [
-      { selector: 'node.box', style: { 'shape': 'round-rectangle', 'width': 'data(w)', 'height': 'data(h)',
-        'background-color': t.surface, 'border-width': 1.5, 'border-color': t.muted, 'color': t.text,
-        'text-valign': 'center', 'text-halign': 'center', 'text-wrap': 'wrap', 'text-max-width': 'data(tw)',
-        'text-margin-y': 0, 'line-height': 1.35, 'font-size': 'data(fontSize)' } },
-      { selector: 'node.cond', style: { 'border-color': t.primary, 'border-width': 2 } },
-      { selector: 'node.link', style: { 'background-color': t.primary, 'border-width': 0, 'color': L.ink(t.primary),
-        'font-weight': 600 } },
-      { selector: 'node.cap', style: { 'shape': 'rectangle', 'width': 'data(w)', 'height': 'data(h)',
-        'background-opacity': 0, 'color': t.muted, 'text-valign': 'center', 'text-margin-y': 0,
-        'font-weight': 600, 'text-transform': 'uppercase', 'events': 'no' } },
-      { selector: 'node.box:selected', style: { 'border-width': 3, 'border-color': t.accent } },
-      { selector: 'edge.flow', style: { 'curve-style': 'straight', 'line-color': t.muted, 'opacity': 1,
-        'target-arrow-shape': 'triangle', 'target-arrow-color': t.muted, 'arrow-scale': 0.9 } },
-    ];
-  }
-
-  function restyle(cy) {
-    var s = cy.style();
-    extra(V.theme()).forEach(function (r) { s = s.selector(r.selector).style(r.style); });
-    s.update();
+    return { nodes: nodes, edges: edges, grid: grid };
   }
 
   function renderList(root, m) {
@@ -159,56 +139,44 @@
       return null;
     }
     renderList(root, m);
-    var built = elements(m, el.clientWidth || 360);
-    var grid = built.grid;
-    return V.cytoscape(el, built.elements, { name: 'preset', fit: true, padding: 8 }).then(function (cy) {
-      cy.userZoomingEnabled(false);
-      cy.userPanningEnabled(false);
-      cy.autoungrabify(true);
-      restyle(cy);
-      document.addEventListener('dark-mode', function () { restyle(cy); });
-
-      var lastW = el.clientWidth;
-      if ('ResizeObserver' in window) {
-        new ResizeObserver(function () {
-          if (Math.abs(el.clientWidth - lastW) < 8) { cy.resize(); cy.fit(undefined, 8); return; }
-          lastW = el.clientWidth;
-          var next = elements(m, lastW);
-          cy.elements().remove();
-          cy.add(next.elements);
-          grid = next.grid;
-          cy.resize();
-          cy.fit(undefined, 8);
-          if (cur) show(cur[0], cur[1]);
-        }).observe(el);
+    var grid = [];
+    var byId = {};
+    var net = null;
+    var cur = null;
+    function kind(id) {
+      return id[0] === 'c' ? m.head[0] : id[0] === 'a' ? m.head[1] : 'Navazující stránka';
+    }
+    function open(d) {
+      var target = d && d.data && d.data.target;
+      if (!target) return;
+      if (target.charAt(0) === '#') window.location.hash = target.slice(1);
+      else window.location.href = target;
+    }
+    function show(r, c) {
+      if (r < 0) {
+        cur = null; caption.textContent = ''; el.removeAttribute('data-pohled-cil');
+        if (net) net.select(null);
+        return;
       }
-
-      var cur = null;
-      function kind(id) {
-        return id[0] === 'c' ? m.head[0] : id[0] === 'a' ? m.head[1] : 'Navazující stránka';
-      }
-      function show(r, c) {
-        cy.$(':selected').unselect();
-        if (r < 0) { cur = null; caption.textContent = ''; el.removeAttribute('data-pohled-cil'); return; }
-        r = Math.max(0, Math.min(grid.length - 1, r));
-        c = Math.max(0, Math.min(grid[r].length - 1, c));
-        cur = [r, c];
-        var n = cy.getElementById(grid[r][c]);
-        n.select();
-        var target = n.data('target');
-        caption.textContent = kind(n.id()) + ': ' + n.data('label') + '. ' +
-          (target.charAt(0) === '#' ? 'Enter přejde na řádek tabulky.' : 'Enter otevře stránku.');
-        el.setAttribute('data-pohled-cil', target);
-      }
-      function open(n) {
-        var target = n.data('target');
-        if (!target) return;
-        if (target.charAt(0) === '#') window.location.hash = target.slice(1);
-        else window.location.href = target;
-      }
-      cy.on('tap', 'node.box', function (ev) { open(ev.target); });
-      cy.on('mouseover', 'node.box', function () { el.style.cursor = 'pointer'; });
-      cy.on('mouseout', 'node.box', function () { el.style.cursor = ''; });
+      r = Math.max(0, Math.min(grid.length - 1, r));
+      c = Math.max(0, Math.min(grid[r].length - 1, c));
+      cur = [r, c];
+      var d = byId[grid[r][c]];
+      if (net) net.select(d.id);
+      var target = d.data.target;
+      caption.textContent = kind(d.id) + ': ' + d.label + '. ' +
+        (target.charAt(0) === '#' ? 'Enter přejde na řádek tabulky.' : 'Enter otevře stránku.');
+      el.setAttribute('data-pohled-cil', target);
+    }
+    // Kresba se počítá z šířky plochy; po změně velikosti ji síť vrstvy sestaví znovu.
+    return V.network(el, function (t, box) {
+      var built = elements(m, box.w || 360, t);
+      grid = built.grid;
+      byId = {};
+      built.nodes.forEach(function (d) { byId[d.id] = d; });
+      return built;
+    }, { layout: 'pixel', focus: false, select: true, onClick: open }).then(function (n) {
+      net = n;
       el.addEventListener('keydown', function (e) {
         var r = cur ? cur[0] : -1;
         var c = cur ? cur[1] : 0;
@@ -219,11 +187,11 @@
           show(r + moves[e.key][0], c + moves[e.key][1]);
         } else if (e.key === 'Home') { e.preventDefault(); show(0, 0); }
         else if (e.key === 'End') { e.preventDefault(); show(grid.length - 1, 0); }
-        else if (e.key === 'Enter' && cur) { e.preventDefault(); open(cy.getElementById(grid[r][c])); }
-        else if (e.key === 'Escape') show(-1);
+        else if (e.key === 'Enter' && cur) { e.preventDefault(); open(byId[grid[r][c]]); }
+        else if (e.key === 'Escape' && cur) { e.stopPropagation(); show(-1); }
       });
       root.setAttribute('data-pohled-stav', 'hotovo');
-      return cy;
+      return n;
     }).catch(function (e) {
       root.setAttribute('data-pohled-stav', 'chyba');
       V.empty(el, 'Tok se nepodařilo sestavit', e.message);

@@ -1,4 +1,4 @@
-// Kapitola 6 — klinická cesta zotavení (Chart.js sloupce + oblouky vazeb). Fáze, jejich popis
+// Kapitola 6 — klinická cesta zotavení (ECharts, sloupce a oblouky vazeb). Fáze, jejich popis
 // a stránky přebírá z číslovaného seznamu v textu stránky nad grafem (tučný název fáze, odkazy
 // v položce); čísla kapitol z názvů stránek v grafu knihy; oblouky = počet odkazů mezi
 // stránkami fází podle grafu. Klik na sloupec → fáze, její stránky a vazby.
@@ -8,6 +8,7 @@
   // Data knihy přes komponentovou vrstvu (vrstva.js): kniha.js se načte jednou za stránku.
   var kniha = window.KompendiumVrstva.kniha;
   var failed = window.KompendiumVrstva.failed;
+  var L = window.KompendiumVrstva;
 
   // Fáze ze seznamu <ol> nad grafem: „**Assessment** — popis, [odkaz](…), …“.
   function stagesNear(el, K) {
@@ -37,7 +38,7 @@
 
   function init() {
     var canvas = document.getElementById('section-06-recovery-flow');
-    if (!canvas || typeof Chart === 'undefined') return;
+    if (!canvas) return;
     var detail = document.getElementById('recovery-flow-detail');
     kniha().then(function (K) {
       var stages = stagesNear(canvas, K);
@@ -52,7 +53,6 @@
       });
       var maxW = Math.max.apply(null, flows.map(function (f) { return f.weight; }).concat([1]));
       var maxN = Math.max.apply(null, stages.map(function (s) { return s.nodes.length; }).concat([1]));
-      var selected = null;
 
       function show(s) {
         if (!detail) return;
@@ -76,85 +76,54 @@
         }
       }
 
-      K.chart(canvas, function (c) {
-        return {
-          type: 'bar',
-          data: {
-            labels: stages.map(function (s) { return s.name; }),
-            datasets: [{
-              label: 'Stránky fáze',
-              data: stages.map(function (s) { return s.nodes.length; }),
-              backgroundColor: stages.map(function (s) { return s.color + 'CC'; }),
-              borderColor: stages.map(function (s) { return s.color; }),
-              borderWidth: stages.map(function (s) { return s.id === selected ? 5 : 2; }),
-              maxBarThickness: 70,
-            }],
-          },
-          options: {
-            responsive: true,
-            interaction: { mode: 'index', intersect: false },
-            layout: { padding: { top: 10 } },
-            plugins: {
-              title: { display: true, color: c.text,
-                text: 'Klinická cesta: stránky fází a odkazy mezi nimi podle knihy (klik na fázi)' },
-              legend: { display: false },
-              tooltip: { callbacks: { label: function (ctx) { return ctx.parsed.y + ' stránek knihy'; } } },
-            },
-            scales: {
-              x: { ticks: { color: c.muted }, grid: { color: c.grid },
-                title: { display: true, text: 'Fáze (podle textu stránky)', color: c.text } },
-              y: { min: 0, suggestedMax: maxN * 2 + 1, ticks: { color: c.muted, stepSize: 1 }, grid: { color: c.grid },
-                title: { display: true, text: 'Odkazované stránky', color: c.text } },
-            },
-            onClick: function (e, els, chart) {
-              if (!els.length) return;
-              var s = stages[els[0].index];
-              selected = s.id;
-              show(s);
-              chart.data.datasets[0].borderWidth = stages.map(function (x) { return x.id === selected ? 5 : 2; });
-              chart.update('none');
-            },
-          },
-          plugins: [{
-            id: 'flowOverlay',
-            afterDraw: function (chart) {
-              var ctx = chart.ctx;
-              var meta = chart.getDatasetMeta(0);
-              var yBase = chart.scales.y.getPixelForValue(maxN + 0.5);
-              ctx.save();
-              flows.forEach(function (f) {
-                var a = meta.data[f.from - 1];
-                var b = meta.data[f.to - 1];
-                if (!a || !b) return;
-                var fwd = f.to > f.from;
-                var x1 = a.x;
-                var x2 = b.x;
-                var lift = (Math.abs(f.to - f.from) * 22 + 14) * (fwd ? 1 : -0.6);
-                var y = yBase - (fwd ? 0 : -8);
-                var yArc = y - lift;
-                ctx.beginPath();
-                ctx.moveTo(x1, y);
-                ctx.bezierCurveTo(x1, yArc, x2, yArc, x2, y);
-                var alpha = 0.25 + 0.6 * f.weight / maxW;
-                ctx.strokeStyle = c.dark ? 'rgba(148,163,184,' + alpha + ')' : 'rgba(71,85,105,' + alpha + ')';
-                ctx.lineWidth = 1 + 4 * f.weight / maxW;
-                ctx.stroke();
-                ctx.beginPath();
-                ctx.moveTo(x2, y);
-                ctx.lineTo(x2 - 4, y - (fwd ? 8 : -8));
-                ctx.lineTo(x2 + 4, y - (fwd ? 8 : -8));
-                ctx.closePath();
-                ctx.fillStyle = ctx.strokeStyle;
-                ctx.fill();
-                ctx.fillStyle = c.muted;
-                ctx.font = '10px sans-serif';
-                ctx.textAlign = 'center';
-                ctx.fillText(String(f.weight), (x1 + x2) / 2, y - lift * 0.75 - (fwd ? 2 : -10));
-              });
-              ctx.restore();
-            },
+      // Sloupec = stránky fáze; oblouk = odkazy mezi stránkami dvou fází (dopředu nad osou,
+      // zpět pod ní), tloušťka podle počtu. Vybraná fáze má rámeček (výběr řady ECharts).
+      K.chart(canvas, function (t, el) {
+        var hd = K.head(t, el, 'Klinická cesta: stránky fází a odkazy mezi nimi podle knihy (klik na fázi)');
+        var names = stages.map(function (s) { return s.name; });
+        var base = maxN + 0.5;
+        var opt = {
+          title: hd.title,
+          tooltip: Object.assign({ trigger: 'item', formatter: function (p) {
+            if (p.seriesType === 'lines') {
+              var f = flows[p.dataIndex];
+              return L.esc(stages[f.from - 1].name + ' → ' + stages[f.to - 1].name) + ': ' +
+                L.count(f.weight, ['odkaz', 'odkazy', 'odkazů']);
+            }
+            return '<b>' + L.esc(p.name) + '</b><br>' + L.count(p.value, ['stránka', 'stránky', 'stránek']) + ' knihy';
+          } }, K.V.tooltip(t)),
+          grid: { left: 40, right: 16, top: hd.top, bottom: 36, containLabel: true },
+          xAxis: K.V.axis(t, { type: 'category', data: names, name: 'Fáze (podle textu stránky)',
+            nameLocation: 'middle', nameGap: 28, axisLabel: { color: t.muted, interval: 0, width: 90, overflow: 'truncate' } }),
+          yAxis: K.V.axis(t, { type: 'value', min: 0, max: maxN * 2 + 1, minInterval: 1, name: 'Odkazované stránky',
+            nameLocation: 'middle', nameGap: 30 }),
+          series: [{
+            type: 'bar', name: 'Stránky fáze', barMaxWidth: 70, cursor: 'pointer', selectedMode: 'single',
+            data: stages.map(function (s) {
+              return { value: s.nodes.length, itemStyle: { color: s.color, borderColor: s.color, borderWidth: 2 } };
+            }),
+            select: { itemStyle: { borderColor: t.text, borderWidth: 4 } },
+          }, {
+            type: 'lines', name: 'Odkazy mezi fázemi', coordinateSystem: 'cartesian2d', z: 4,
+            symbol: ['none', 'arrow'], symbolSize: 8,
+            data: flows.map(function (f) {
+              return {
+                coords: [[names[f.from - 1], base], [names[f.to - 1], base]],
+                lineStyle: { width: 1 + 4 * f.weight / maxW, opacity: 0.35 + 0.6 * f.weight / maxW,
+                  curveness: f.to > f.from ? -0.35 : -0.25 },
+                label: { show: true, formatter: String(f.weight) },
+              };
+            }),
+            lineStyle: { color: t.muted },
+            label: { show: true, position: 'middle', color: t.muted, fontSize: 10 },
           }],
         };
+        if (!flows.length) opt.series.length = 1;
+        return opt;
+      }).then(function (chart) {
+        chart.on('click', function (p) {
+          if (p.seriesType === 'bar' && stages[p.dataIndex]) show(stages[p.dataIndex]);
+        });
       });
     }).catch(function (e) { failed(detail, e); });
   }

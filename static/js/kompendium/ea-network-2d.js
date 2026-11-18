@@ -1,4 +1,4 @@
-// 2D síť nejodkazovanějších technik (Chart.js scatter s hranami). Výběr = TOP stránek technik
+// 2D síť nejodkazovanějších technik (síť vrstvy, KompendiumViz.network nad ECharts). Výběr = TOP stránek technik
 // s nejvíce odkazy z celé knihy (graf: in), shluky = rodiny EA (kód z cesty, název z
 // graph.families), hrany = odkazy mezi vybranými stránkami. Klik na uzel → sousedé + odkazy.
 (function () {
@@ -8,10 +8,11 @@
   // Data knihy přes komponentovou vrstvu (vrstva.js): kniha.js se načte jednou za stránku.
   var kniha = window.KompendiumVrstva.kniha;
   var failed = window.KompendiumVrstva.failed;
+  var L = window.KompendiumVrstva;
 
   function init() {
     var canvas = document.getElementById('ea-network-2d');
-    if (!canvas || typeof Chart === 'undefined') return;
+    if (!canvas) return;
     var detail = document.getElementById('ea-network-detail');
     kniha().then(function (K) { draw(K, canvas, detail); }).catch(function (e) { failed(detail, e); });
   }
@@ -41,8 +42,6 @@
         pos[t.id] = { x: cx + Math.cos(b) * r, y: cy + Math.sin(b) * r };
       });
     });
-    var selected = null;
-
 
     function show(t) {
       if (!detail) return;
@@ -58,61 +57,27 @@
       detail.appendChild(p);
     }
 
-    K.chart(canvas, function (c) {
-      var edgeData = [];
-      edges.forEach(function (e) { edgeData.push(pos[e.a], pos[e.b], { x: NaN, y: NaN }); });
-      var sets = fams.map(function (fid) {
-        var col = K.familyColor(fid);
-        return {
-          label: K.familyLabel(fid),
-          data: top.filter(function (t) { return t.family === fid; }).map(function (t) {
-            return { x: pos[t.id].x, y: pos[t.id].y, t: t };
-          }),
-          backgroundColor: col, borderColor: col, showLine: false,
-          pointRadius: function (ctx) {
-            var t = ctx.raw && ctx.raw.t;
-            if (!selected || !t) return 8;
-            if (t.id === selected) return 14;
-            return nb[selected].indexOf(t.id) >= 0 ? 11 : 5;
-          },
-          pointHoverRadius: 12,
-        };
-      });
+    // Pozice zůstávají spočítané výš (shluk rodiny na kružnici); síť je jen vykreslí. Klik
+    // vybere techniku (rámeček, sousedství) a vypíše její sousedy.
+    var net = null;
+    var famIndex = {};
+    fams.forEach(function (fid, i) { famIndex[fid] = i; });
+    K.V.network(K.host(canvas), function () {
       return {
-        type: 'scatter',
-        data: { datasets: [{
-          label: 'Vazby', data: edgeData, showLine: true, pointRadius: 0, borderWidth: 1,
-          borderColor: c.dark ? 'rgba(148,163,184,0.3)' : 'rgba(100,116,139,0.35)',
-        }].concat(sets) },
-        options: {
-          responsive: true,
-          plugins: {
-            title: { display: true, color: c.text,
-              text: top.length + ' nejodkazovanějších technik a ' + edges.length + ' vazeb podle odkazů v knize (klik = sousedé)' },
-            legend: { labels: { color: c.text, filter: function (item) { return item.datasetIndex > 0; } } },
-            tooltip: {
-              filter: function (ctx) { return ctx.raw && ctx.raw.t; },
-              callbacks: {
-                title: function (items) { return K.techniqueText(items[0].raw.t); },
-                label: function (ctx) { return K.familyLabel(ctx.raw.t.family) + ' | ' + nb[ctx.raw.t.id].length + ' sousedů'; },
-              },
-            },
-          },
-          scales: {
-            x: { display: false, min: -10.5, max: 10.5 },
-            y: { display: false, min: -10.5, max: 10.5 },
-          },
-          onClick: function (e, els, chart) {
-            var el = els.filter(function (x) { return x.datasetIndex > 0; })[0];
-            if (!el) return;
-            var t = chart.data.datasets[el.datasetIndex].data[el.index].t;
-            selected = t.id;
-            show(t);
-            chart.update('none');
-          },
-        },
+        title: top.length + ' nejodkazovanějších technik a ' + edges.length + ' vazeb podle odkazů v knize (klik = sousedé)',
+        categories: fams.map(function (fid) { return { name: K.familyLabel(fid), color: K.familyColor(fid) }; }),
+        nodes: top.map(function (t) {
+          return { id: t.id, label: t.code, color: K.familyColor(t.family), category: famIndex[t.family],
+            size: 14 + Math.sqrt(t.node.in) * 1.5, fontSize: 10, x: pos[t.id].x, y: pos[t.id].y,
+            info: K.techniqueText(t) + ' · ' + K.familyLabel(t.family) + ' · ' +
+              L.count(nb[t.id].length, ['soused', 'sousedé', 'sousedů']), data: t };
+        }),
+        edges: edges.map(function (e) { return { source: e.a, target: e.b, width: 1 }; }),
       };
-    });
+    }, { layout: 'none', select: true, onClick: function (d) {
+      show(d.data);
+      if (net) net.select(d.id);
+    } }).then(function (n) { net = n; });
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();

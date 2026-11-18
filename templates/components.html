@@ -11,7 +11,8 @@
 </div>
 {% endcomponent callout %}
 
-{#- Chart.js figure; its config lives in static/data/charts/<slug>.json. -#}
+{#- ECharts figure; its option (structure and data, no colours) lives in
+    static/data/charts/<slug>.json and site.js draws it through the viz layer. -#}
 {% component chart_inline(slug, title, caption="", alt="") %}
 {%- set data = load_data(path="static/data/charts/" ~ slug ~ ".json") -%}
 <figure class="not-format my-8 overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm dark:border-gray-700 dark:bg-gray-800">
@@ -20,7 +21,7 @@
     {% if caption %}<p class="mt-1 text-sm text-gray-500 dark:text-gray-400">{{ caption }}</p>{% endif %}
   </figcaption>
   <div class="relative mx-auto aspect-[4/3] w-full max-w-3xl p-4 sm:aspect-video">
-    <canvas data-chart="{{ slug }}" role="img" aria-label="{% if alt %}{{ alt }}{% else %}{{ title }}{% endif %}"></canvas>
+    <div data-chart="{{ slug }}" class="h-full w-full" role="img" aria-label="{% if alt %}{{ alt }}{% else %}{{ title }}{% endif %}"></div>
   </div>
   <script type="application/json" data-chart-config="{{ slug }}">{{ data | json_encode | safe }}</script>
 </figure>

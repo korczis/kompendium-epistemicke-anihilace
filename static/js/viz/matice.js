@@ -1,5 +1,5 @@
 // Případy × techniky: matice kazuistik a historických případů proti technikám EA, na které
-// jejich text odkazuje (static/data/graph.json, Apache ECharts; volitelná síť v cytoscape.js).
+// jejich text odkazuje (static/data/graph.json, Apache ECharts; volitelná síť přes síť vrstvy).
 // Vše se odvozuje z odkazů při sestavení; stav filtrů drží Alpine.js (x-data="kompendiumMatice()")
 // a zrcadlí se do URL (?typ=&rodina=&q=&pohled=&razeni=).
 (function () {
@@ -48,7 +48,6 @@
 
   window.kompendiumMatice = function () {
     var chart = null;
-    var cy = null;
     var D = null; // { cases, techs, byCase, byTech, G }
     var view = null; // aktuálně vykreslená matice
     var narrow = window.matchMedia('(max-width: 767px)').matches;
@@ -376,41 +375,39 @@
         this.netShown = true;
         var top = view.cols.slice().sort(function (a, b) { return b.cases.length - a.cases.length || a.t.key - b.t.key; })
           .slice(0, Number(this.netN));
-        if (cy) { cy.destroy(); cy = null; }
         var el = this.$refs.net;
         if (!top.length) { V.empty(el, 'Žádné techniky', 'Filtrům neodpovídá žádná vazba.'); this.netNote = ''; return; }
-        var els = [];
         var caseSeen = {};
+        var cases = [];
         top.forEach(function (x) {
-          els.push({ data: { id: 't' + x.t.id, label: x.t.code, color: famColor(x.t.fam), fontSize: 10,
-            size: Math.round(14 + Math.sqrt(x.cases.length) * 5), url: x.t.url,
-            info: x.t.code + ' ' + x.t.name + ' · ' + L.count(x.cases.length, ['případ', 'případy', 'případů']) } });
-          x.cases.forEach(function (id) {
-            var c = D.byCase[id];
-            if (!caseSeen[id]) {
-              caseSeen[id] = true;
-              els.push({ data: { id: 'c' + id, label: c.type === 'historicke' ? 'H' + c.num : 'K' + c.num,
-                color: c.type === 'historicke' ? '#64748b' : '#94a3b8', fontSize: 8, size: 9, url: c.url, info: c.title } });
-            }
-            els.push({ data: { id: 'e' + id + '-' + x.t.id, source: 'c' + id, target: 't' + x.t.id, width: 0.8 } });
-          });
+          x.cases.forEach(function (id) { if (!caseSeen[id]) { caseSeen[id] = true; cases.push(id); } });
         });
         this.netNote = L.count(top.length, ['technika', 'techniky', 'technik']) + ', ' +
-          L.count(Object.keys(caseSeen).length, ['případ', 'případy', 'případů']) + '. Barva techniky = rodina, šedě případy (K = kazuistika, H = historický případ). Klepnutím otevřete stránku.';
-        return V.cytoscape(el, els, { name: 'cose', animate: false, nodeRepulsion: 60000, idealEdgeLength: 60, padding: 20 })
-          .then(function (c) {
-            cy = c;
-            if (narrow) { cy.userZoomingEnabled(false); cy.userPanningEnabled(false); }
-            cy.on('tap', 'node', function (ev) { window.location.href = ev.target.data('url'); });
-            cy.on('mouseover', 'node', function (ev) {
-              var n = ev.target;
-              self.netHover = n.data('info');
-              cy.elements().addClass('faded');
-              n.closedNeighborhood().removeClass('faded');
-              n.connectedEdges().addClass('hl');
-            });
-            cy.on('mouseout', 'node', function () { self.netHover = ''; cy.elements().removeClass('faded hl'); });
-          }).catch(function (e) { V.empty(el, 'Síť se nepodařilo načíst', L.esc(e.message)); });
+          L.count(cases.length, ['případ', 'případy', 'případů']) + '. Barva techniky = rodina, šedě případy (K = kazuistika, H = historický případ). Klepnutím otevřete stránku.';
+        // Bipartitní síť přes síť vrstvy (KompendiumViz.network): rozmístění silami, najetí
+        // zvýrazní sousedství a vypíše uzel pod sítí, klepnutí otevře stránku.
+        return V.network(el, function () {
+          var nodes = [];
+          var edges = [];
+          top.forEach(function (x) {
+            nodes.push({ id: 't' + x.t.id, label: x.t.code, color: famColor(x.t.fam), fontSize: 10,
+              size: Math.round(14 + Math.sqrt(x.cases.length) * 5),
+              info: x.t.code + ' ' + x.t.name + ' · ' + L.count(x.cases.length, ['případ', 'případy', 'případů']),
+              data: { url: x.t.url } });
+            x.cases.forEach(function (id) { edges.push({ source: 'c' + id, target: 't' + x.t.id, width: 0.8 }); });
+          });
+          cases.forEach(function (id) {
+            var c = D.byCase[id];
+            nodes.push({ id: 'c' + id, label: c.type === 'historicke' ? 'H' + c.num : 'K' + c.num,
+              color: c.type === 'historicke' ? '#64748b' : '#94a3b8', fontSize: 8, size: 9,
+              info: c.title, data: { url: c.url } });
+          });
+          return { nodes: nodes, edges: edges };
+        }, {
+          layout: 'force', force: { length: 50 }, roam: !narrow,
+          onClick: function (d) { window.location.href = d.data.url; },
+          onHover: function (d) { self.netHover = d ? d.info : ''; },
+        }).catch(function (e) { V.empty(el, 'Síť se nepodařilo načíst', L.esc(e.message)); });
       },
     };
   };

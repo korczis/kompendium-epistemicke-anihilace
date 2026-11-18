@@ -1,7 +1,7 @@
 // Průzkumník glosáře: abecední lišta A–Ž (české pořadí včetně CH), filtr bez ohledu na
 // diakritiku, karty hesel po písmenech, nejodkazovanější hesla (ECharts) a síť vzájemných
-// odkazů mezi nimi (cytoscape). Hesla přicházejí inline z šablony (#glosar-data), jazyk
-// a počty odkazů z grafu odkazů (static/data/graph.json). Stav drží Alpine.js.
+// odkazů mezi nimi (síť vrstvy nad ECharts). Hesla přicházejí inline z šablony (#glosar-data),
+// jazyk a počty odkazů z grafu odkazů (static/data/graph.json). Stav drží Alpine.js.
 (function () {
   'use strict';
 
@@ -143,36 +143,26 @@
           });
         });
         var max = picked[0].refs || 1;
-        var els = picked.map(function (t) {
-          return { data: { id: 'n' + t.id, label: t.title, url: t.url, color: LANG_COLOR[t.lang] || '#64748b',
-            size: Math.round(14 + 34 * Math.sqrt(t.refs / max)), fontSize: t.refs / max > 0.3 ? 11 : 9 } };
-        });
-        Object.keys(pairs).forEach(function (k) {
-          var ab = k.split('-');
-          els.push({ data: { id: 'e' + k, source: 'n' + ab[0], target: 'n' + ab[1], width: pairs[k] > 1 ? 2.5 : 1 } });
-        });
-        V.cytoscape(el, els, { name: 'cose', animate: false, randomize: false, padding: 16,
-          nodeRepulsion: 600000, idealEdgeLength: 110, nodeOverlap: 40, gravity: 0.6,
-          componentSpacing: 60, numIter: 3000 }).then(function (cy) {
-          // Malý přehledový graf: bez posouvání a přibližování, aby nekradl rolování stránky.
-          cy.userZoomingEnabled(false);
-          cy.userPanningEnabled(false);
-          cy.autoungrabify(true);
-          cy.on('tap', 'node', function (ev) { window.location.href = ev.target.data('url'); });
-          cy.on('mouseover', 'node', function (ev) {
-            var hood = ev.target.closedNeighborhood();
-            cy.elements().not(hood).addClass('faded');
-            hood.edges().addClass('hl');
-            el.style.cursor = 'pointer';
+        // Síť vrstvy (KompendiumViz.network): rozmístění silami, bez posouvání a přibližování
+        // (malý přehled nekrade rolování stránky; v maximalizovaném rámci jde posouvat).
+        V.network(el, function () {
+          return {
+            nodes: picked.map(function (t) {
+              return { id: 'n' + t.id, label: t.title, color: LANG_COLOR[t.lang] || '#64748b',
+                size: Math.round(14 + 34 * Math.sqrt(t.refs / max)), fontSize: t.refs / max > 0.3 ? 11 : 9,
+                info: t.title + ' · ' + L.count(t.refs,
+                  ['odkazující stránka', 'odkazující stránky', 'odkazujících stránek']),
+                data: { url: t.url } };
+            }),
+            edges: Object.keys(pairs).map(function (k) {
+              var ab = k.split('-');
+              return { source: 'n' + ab[0], target: 'n' + ab[1], width: pairs[k] > 1 ? 2.5 : 1 };
+            }),
+          };
+        }, { layout: 'force', force: { length: 110 }, onClick: function (d) { window.location.href = d.data.url; } })
+          .catch(function (e) {
+            V.empty(el, 'Síť odkazů se nepodařilo vykreslit', e.message);
           });
-          cy.on('mouseout', 'node', function () {
-            cy.elements().removeClass('faded hl');
-            el.style.cursor = '';
-          });
-          window.addEventListener('resize', function () { cy.resize(); cy.fit(undefined, 16); });
-        }).catch(function (e) {
-          V.empty(el, 'Síť odkazů se nepodařilo vykreslit', e.message);
-        });
       },
 
       countLang: function (code) {

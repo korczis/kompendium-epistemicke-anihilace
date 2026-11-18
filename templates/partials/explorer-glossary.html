@@ -1,5 +1,5 @@
 {#- Průzkumník glosáře: abecední lišta A–Z, filtr bez ohledu na diakritiku, karty hesel podle
-    písmen, nejodkazovanější hesla (ECharts) a síť jejich vzájemných odkazů (cytoscape).
+    písmen, nejodkazovanější hesla (ECharts) a síť jejich vzájemných odkazů (síť vrstvy nad ECharts).
     Stav drží Alpine.js (x-data="kompendiumGlosar()", static/js/viz/glosar.js); bez JS zůstává
     jen serverový seznam stránek ze section.html. Vlastní: agent „glosář“. -#}
 {%- set wc_map = load_data(path="static/data/words.json") -%}

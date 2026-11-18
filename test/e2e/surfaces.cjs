@@ -425,6 +425,9 @@ async function view(page, s, failures) {
 // odkaz #max=<id> po načtení znovu otevře maximalizovaný (stav jde poslat odkazem).
 async function maximize(page, s, failures) {
   const btn = page.locator('[data-vrstva-max]').first();
+  // An interaction before this one may have navigated away and back (the combobox opens a hit and
+  // returns); lazy charts then draw, and get their frame, only once scrolled into view again.
+  if (!(await btn.count()) && s.painted > 0) { await scrollThrough(page); await page.waitForTimeout(1500); }
   if (!(await btn.count())) {
     if (s.painted > 0 && !s.pohled) failures.push('graf bez ovládání Maximalizovat ([data-vrstva-max])');
     return;

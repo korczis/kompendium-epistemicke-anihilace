@@ -5,10 +5,23 @@ The layer is a fixed set of files, one owner per library:
 
   static/js/viz/vrstva.js          theme tokens, the categorical palette, the book-data loader
                                    (kniha), p5.js and three.js canvases (size, resize, pause,
-                                   reduced motion, label, theme redraw)
-  static/js/viz/kompendium-viz.js  Apache ECharts and cytoscape.js, the derived graph data
-  static/js/kompendium/kniha.js    Chart.js charts over the book's data
-  static/js/site.js                Mermaid diagrams and the chart_inline component (Chart.js)
+                                   reduced motion, label, theme redraw), and the frame every
+                                   chart, network and canvas gets (toolbar, maximize to the
+                                   viewport, Escape, #max=<id> in the address)
+  static/js/viz/kompendium-viz.js  Apache ECharts: the one chart wrapper (KompendiumViz.echarts,
+                                   the only echarts.init) and the one network wrapper
+                                   (KompendiumViz.network), the derived graph data
+  static/js/kompendium/kniha.js    charts over the book's data (K.chart, through the wrapper)
+  static/js/site.js                Mermaid diagrams and the chart_inline component (ECharts
+                                   option in static/data/charts/, through the wrapper)
+
+Charts and graphs are ECharts only (owner's order of 2026-11-14: "ECharts for charts and graphs,
+D3 for bespoke layouts and force physics, p5 for generative art; no Chart.js or Cytoscape; one
+component layer per project"). Any use of Chart.js or cytoscape.js is refused wherever it
+appears: a constructor or global in a script (`new Chart(`, `window.Chart`, `cytoscape(`), a
+vendored bundle (chart.umd.min.js, chart.min.js, cytoscape.min.js) named in a script, template,
+the book's markup, scripts/vendor.mjs or package.json, a script tag loading one, a file of
+either under static/js/vendor/, or a dependency on either in package.json.
 
 Computation over the book's data has one owner too (ADR 0011, rule project.site-zola-engine):
 
@@ -36,7 +49,7 @@ A script anywhere else under static/js/ (vendor excluded) that constructs one of
 libraries, creates a canvas, or carries its own copy of the book-data loader is a finding:
 it would size, theme, pause and label its canvas on its own, which is how the duplicates and
 the unlabelled, non-responsive canvases came about. Use KompendiumVrstva.p5/three/kniha,
-KompendiumViz.echarts/cytoscape, or K.chart instead.
+KompendiumViz.echarts/network, or K.chart instead.
 
 Markup written into the book (content/**/*.md) is judged too, because Tailwind generates the
 classes it finds there (styles/app.css @source '../content'):
@@ -66,9 +79,7 @@ RULES = [
     ("p5.js instance", r"\bnew\s+(?:window\.)?p5\s*\(", {"viz/vrstva.js"}),
     ("p5 canvas", r"\.createCanvas\s*\(", {"viz/vrstva.js"}),
     ("three.js renderer", r"\bWebGLRenderer\s*\(", {"viz/vrstva.js"}),
-    ("Chart.js chart", r"\bnew\s+(?:window\.)?Chart\s*\(", {"kompendium/kniha.js", "site.js"}),
     ("ECharts instance", r"\becharts\.init\s*\(", {"viz/kompendium-viz.js"}),
-    ("cytoscape instance", r"\bcytoscape\s*\(\s*\{", {"viz/kompendium-viz.js"}),
     ("Mermaid setup", r"\bmermaid\.(?:initialize|run|render)\s*\(", {"site.js"}),
     ("own book-data loader", r"\bfunction\s+kniha\s*\(", {"viz/vrstva.js"}),
     ("own categorical palette", r"PALETTE_(?:LIGHT|DARK)\s*=", {"viz/vrstva.js"}),
@@ -86,6 +97,53 @@ RULES = [
     ("own URL state (use KompendiumVrstva.urlState.set)",
      r"\bhistory\.replaceState\s*\(", {"viz/vrstva.js"}),
 ]
+
+
+# Chart.js and cytoscape.js are gone (owner's order of 2026-11-14); no file may bring them back.
+# A bundle's file name (lower case, as vendored): the library named in prose ("Chart.js") is not
+# a use of it.
+BANNED_NAME = re.compile(r"\b(?:chart\.umd(?:\.min)?\.js|chart\.min\.js|cytoscape(?:\.min)?\.js)\b")
+BANNED_CODE = re.compile(r"\bnew\s+(?:window\.)?Chart\s*\(|\bwindow\.Chart\b|\btypeof\s+Chart\b|"
+                         r"\bcytoscape\s*\(|\bwindow\.cytoscape\b")
+BANNED_TAG = re.compile(r"<script\b[^>]*\bsrc=[^>]*(?:chart|cytoscape)[^>]*>", re.I)
+BANNED_DEP = re.compile(r'"(?:chart\.js|chartjs|cytoscape(?:-[\w-]+)?|react-chartjs-2|vue-chartjs)"\s*:')
+BANNED_VENDOR = re.compile(r"^(?:chart|cytoscape)\b", re.I)
+
+
+def banned_findings():
+    """Chart.js or cytoscape.js anywhere: code, bundle names, script tags, vendored files,
+    dependencies."""
+    out = []
+
+    def scan(rel, text, patterns):
+        for what, rx in patterns:
+            for m in rx.finditer(text):
+                line = text.count("\n", 0, m.start()) + 1
+                out.append(f"{rel}:{line}: {what} ({m.group(0).strip()[:60]}); charts and graphs "
+                           "are ECharts only, through KompendiumViz.echarts/network")
+
+    code = [("Chart.js or cytoscape.js call", BANNED_CODE), ("Chart.js or cytoscape.js bundle",
+                                                            BANNED_NAME)]
+    for rel, text in scripts():
+        scan(f"static/js/{rel}", text, code)
+    markup = [("script tag loading Chart.js or cytoscape.js", BANNED_TAG),
+              ("Chart.js or cytoscape.js bundle", BANNED_NAME)]
+    for base, glob in ((ROOT / "templates", "*.html"), (CONTENT, "*.md")):
+        for path in sorted(base.rglob(glob)):
+            scan(path.relative_to(ROOT).as_posix(), path.read_text(encoding="utf-8"), markup)
+    for rel in ("scripts/vendor.mjs", "package.json"):
+        path = ROOT / rel
+        if path.exists():
+            scan(rel, path.read_text(encoding="utf-8"),
+                 [("Chart.js or cytoscape.js dependency", BANNED_DEP),
+                  ("Chart.js or cytoscape.js bundle", BANNED_NAME),
+                  ("Chart.js or cytoscape.js package", re.compile(r"node_modules/(?:chart\.js|cytoscape)\b"))])
+    vendor = JS / "vendor"
+    if vendor.is_dir():
+        for path in sorted(vendor.iterdir()):
+            if BANNED_VENDOR.match(path.name):
+                out.append(f"static/js/vendor/{path.name}: vendored Chart.js or cytoscape.js; delete it")
+    return out
 
 
 CONTENT = ROOT / "content"
@@ -141,6 +199,8 @@ def main() -> int:
     if "--list" in args:
         for what, pattern, allowed in RULES:
             print(f"{what}: only {', '.join(sorted(allowed))}")
+        print("Chart.js or cytoscape.js (calls, bundles, script tags, vendored files, "
+              "dependencies): nowhere")
         return 0
     findings = []
     for rel, text in scripts():
@@ -152,6 +212,7 @@ def main() -> int:
                 findings.append(f"static/js/{rel}:{line}: {what} outside the layer "
                                 f"({', '.join(sorted(allowed))})")
     findings += content_findings()
+    findings += banned_findings()
     for f in findings:
         print(f)
     files = len({f.split(":")[0] for f in findings})

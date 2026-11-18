@@ -33,12 +33,17 @@ in the old cluster prose (`0f1723f6^`), and none of them is the title or an `ext
 entry of any page in `content/`; all 17 differ from the title of the page under their code.
 Re-checked on `fix/kapitola-6-hub` over `fd11ca9b` with the same result. They left the book.
 
-**Follow-up.** `content/kompendium/05-pokrocile-operace/kapitola-6/_index.md` still described
-clusters A–C; `fix/kapitola-6-hub` reorganises it by the techniques in code order. The "Klastr
-A–D" of `06-klinicke-aplikace/diagnosticke-indikatory.md` are screening-marker groups of their
-own and stay. Still describing the removed frame on `fd11ca9b`:
-`05-pokrocile-techniky/kapitola-6/_index.md` (clusters D–F) and the Související of
-`06-epistemicka-singularita/_index.md` ("rozcestníky po klastrech").
+**Follow-up, delivered on `fix/kapitola-6-hub`.** Three pages outside the slice still depended on
+the removed frame on `fd11ca9b`; none does now:
+
+- `05-pokrocile-operace/kapitola-6/_index.md` (clusters A–C) is organised by the techniques in
+  code order (`67fe2573`, bibliography `41125dec`);
+- `05-pokrocile-techniky/kapitola-6/_index.md` (clusters D–F) likewise (`dcc19590`);
+- the Související of `06-epistemicka-singularita/_index.md` no longer says "třicet technik
+  EA-5.1", "rozcestníky po klastrech" or "vrcholová technika" (`164a8370`).
+
+The "Klastr A–D" of `06-klinicke-aplikace/diagnosticke-indikatory.md` are screening-marker groups
+of their own and stay.
 
 The sections below are the record as it was written before the work, kept as its scope.
 

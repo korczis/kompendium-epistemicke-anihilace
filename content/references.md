@@ -8,12 +8,12 @@ tags = ["kompendium"]
 
 [extra]
 toc = false
-entries = 5328
+entries = 5367
 +++
 
 Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotlivých stránkách kompendia a glosáře; ručně se needituje.
 
-**5328 položek**, seřazených podle autora.
+**5367 položek**, seřazených podle autora.
 
 ## A
 
@@ -2262,6 +2262,10 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Akutní protokol: Akutní dekompenzace po epistemické anihilaci](@/kompendium/emergency-protocols/1-acute-decompensation-EA.md), [Akutní protokol: Akutní sebepoškozování po epistemické anihilaci](@/kompendium/emergency-protocols/10-acute-self-harm-EA.md), [Akutní protokol: Mobilní krizová intervence v terénu](@/kompendium/emergency-protocols/15-mobile-crisis-EA.md) a 2 dalších</small>
 - Dazzi, T., Gribble, R., Wessely, S., Fear, N. T. (2014). *Does Asking About Suicide and Related Behaviours Induce Suicidal Ideation? What Is the Evidence?* Psychological Medicine, 44(16), 3361–3363.  
   <small>Citováno: [Potřebujete pomoc hned?](@/kompendium/01-predmluva/neni-pro-kazdeho/pomoc-hned.md)</small>
+- de Jongh, A., Resick, P. A., Zoellner, L. A., et al. (2016). *Critical analysis of the current treatment guidelines for complex PTSD in adults*. Depression and Anxiety.  
+  <small>Citováno: [C-PTSD (komplexní posttraumatická stresová porucha)](@/glossary/c-ptsd.md)</small>
+- de Young, M. (2004). *The Day Care Ritual Abuse Moral Panic*. McFarland.  
+  <small>Citováno: [Historický případ: Satanská panika](@/kompendium/historical-cases/38-satanic-panic.md)</small>
 - Deacon, B. J. (2013). *The biomedical model of mental disorder: A critical analysis of its validity, utility, and effects on psychotherapy research*. Clinical Psychology Review.  
   <small>Citováno: [Redukcionismus](@/glossary/redukcionismus.md)</small>
 - Debord, G. (1967). *La société du spectacle*. Buchet-Chastel.  
@@ -9996,6 +10000,74 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Intelektualizace](@/glossary/intelektualizace.md)</small>
 - Vaknin, S. (2008). *The Big Book of NLP Techniques: 200+ Patterns, Methods & Strategies of Neuro Linguistic Programming*. North Charleston: BookSurge Publishing.  
   <small>Citováno: [NLP vzorce](@/kompendium/nlp-vzorce/_index.md)</small>
+- van den Hout, M., & Kindt, M. (2003). Repeated checking causes memory distrust. *Behaviour Research and Therapy*, 41(3), 301–316.  
+  <small>Citováno: [Detekční signatura: Skok sebepochybnosti](@/kompendium/detection-signatures/26-phenomenological-self-doubt-spike.md), [Detekční signatura: Nejistota o realitě](@/kompendium/detection-signatures/28-phenomenological-reality-uncertainty.md)</small>
+- van der Hart, O., Nijenhuis, E. R. S., Steele, K. (2006). *The Haunted Self*.  
+  <small>Citováno: [Strukturální trauma](@/glossary/strukturalni-trauma.md)</small>
+- van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self*. Norton.  
+  <small>Citováno: [Internalizovaný pachatel](@/glossary/internalizovany-pachatel.md)</small>
+- van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self: Structural  
+  <small>Citováno: [Integrative collapse (integrativní kolaps)](@/glossary/integrative-collapse.md), [7.2 Vztah k epistemickému traumatu — empirická literatura](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md)</small>
+- van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. New York: Norton.  
+  <small>Citováno: [Vzdělávací scénář: Fragmentace identity](@/kompendium/educational-scenarios/25-identity-fragmentation.md)</small>
+- van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. Norton.  
+  <small>Citováno: [Disociace](@/glossary/disociace.md), [Epistemická fragmentace](@/glossary/epistemicka-fragmentace.md), [Epistemická atomizace](@/kompendium/puvodni-taxonomie/epistemicka-atomizace.md)</small>
+- van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. W. W. Norton.  
+  <small>Citováno: [Případ 44: Umělecká totalizace v divadelním souboru](@/kompendium/case-studies/44-arts-totalizace.md), [Bridge: Mereologická rekonstrukce](@/kompendium/glossary-bridges/bridge-mereologicka-rekonstrukce.md)</small>
+- van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self*. W. W. Norton.  
+  <small>Citováno: [Bridge: Disociace](@/kompendium/glossary-bridges/bridge-disociace.md)</small>
+- **van der Kolk, B.** (2014). *The Body Keeps the Score* — somatický substrát identitárního traumatu, neurobiologie [disociace](@/glossary/disociace.md), terapeutické důsledky.  
+  <small>Citováno: [EA-5.3.1 Identitární substituce](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md), [EA-5.3.10 Perspektivní substituce](@/kompendium/techniques/ea-5-3-10-perspektivni-substituce.md), [EA-5.3.11 Axiologická inverze](@/kompendium/techniques/ea-5-3-11-axiologicka-inverze.md) a 28 dalších</small>
+- van der Kolk, B. (2014). *The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma*. New York: Viking.  
+  <small>Citováno: [Trauma – protokol zotavení z epistemického traumatu](@/kompendium/recovery-protocols/trauma.md)</small>
+- **van der Kolk, B.** (2014). *The Body Keeps the Score*. New York: Viking. — Somatické otisky traumatu.  
+  <small>Citováno: [Bibliografie a primární literatura](@/kompendium/08-prilohy/bibliografie.md), [Rychlá odezva](@/kompendium/prevention-resilience/13-rapid-response-protocol.md), [Akutní somatická regulace](@/kompendium/recovery-protocols/acute-somatic-regulation.md) a 11 dalších</small>
+- van der Kolk, B. (2014). *The Body Keeps the Score*. Viking.  
+  <small>Citováno: [Pasivní syntéza](@/glossary/pasivni-synteza.md), [Trauma bonding (traumatické pouto)](@/glossary/trauma-bonding.md), [Vizualizace pro sekci 06 – klinická cesta zotavení](@/kompendium/06-klinicke-aplikace/visualizations.md) a 8 dalších</small>
+- van der Kolk, B. A. (1994). The Body Keeps the Score: Memory and the Evolving  
+  <small>Citováno: [EA-8.2.9 Rámec van der Kolka: tělo a trauma](@/kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md)</small>
+- van der Kolk, B. A. (2005). Developmental Trauma Disorder. *Psychiatric Annals*.  
+  <small>Citováno: [EA-8.2.9 Rámec van der Kolka: tělo a trauma](@/kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md)</small>
+- van der Kolk, B. A. (2014). *The Body Keeps the Score: Brain, Mind, and Body in the Healing of  
+  <small>Citováno: [7.2 Vztah k epistemickému traumatu — empirická literatura](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md)</small>
+- van der Kolk, B. A. (2014). *The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma*. Viking.  
+  <small>Citováno: [Sebe-obrana: Somatická pozornost](@/kompendium/self-defense-guides/13-somatic-awareness.md), [EA-5.3.14 Somatická rekodifikace](@/kompendium/techniques/ea-5-3-14-somaticka-rekodifikace.md), [EA-5.3.24 Proto-self rozklad](@/kompendium/techniques/ea-5-3-24-proto-self-rozklad.md) a 3 dalších</small>
+- van der Kolk, B. A. (2014). *The Body Keeps the Score*. Viking.  
+  <small>Citováno: [Embodied cognition (vtělená kognice)](@/glossary/embodied-cognition.md), [Interocepce](@/glossary/interocepce.md), [Polyvagální teorie](@/glossary/polyvagalni-teorie.md) a 17 dalších</small>
+- van der Kolk, B. A., et al. (2014). Yoga as an Adjunctive Treatment for Posttraumatic  
+  <small>Citováno: [EA-8.2.9 Rámec van der Kolka: tělo a trauma](@/kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md)</small>
+- van der Kolk, B. A., Fisler, R. (1995). *Dissociation and the Fragmentary Nature of Traumatic Memories*. Journal of Traumatic Stress, 8(4), 505–525.  
+  <small>Citováno: [Absolutní epistemická anti-propozicionalita](@/kompendium/puvodni-taxonomie/absolutni-epistemicka-anti-propozicionalita.md)</small>
+- van der Kolk, B. A., & Fisler, R. (1995). Dissociation and the fragmentary nature of traumatic memories: Overview and exploratory study. *Journal of Traumatic Stress*, 8(4), 505–525.  
+  <small>Citováno: [Detekční signatura: Temporální dezorientace](@/kompendium/detection-signatures/29-phenomenological-temporal-disorientation.md), [Detekční signatura: Fragmentace narativu](@/kompendium/detection-signatures/6-linguistic-narrative-fragmentation.md)</small>
+- van der Linden, S. (2023).  
+  <small>Citováno: [Tréninky odolnosti](@/kompendium/organizational-defense/12-training-resilience.md)</small>
+- van der Linden, S. (2023). *Foolproof: Why Misinformation Infects Our Minds and How to Build Immunity*. London: 4th Estate.  
+  <small>Citováno: [Falešná vyváženost](@/kompendium/argumentacni-fauly/dialekticke-taktiky/falesna-vyvazenost.md), [Galileův gambit](@/kompendium/argumentacni-fauly/dialekticke-taktiky/galileuv-gambit.md), [Palba nepravd](@/kompendium/argumentacni-fauly/dialekticke-taktiky/palba-nepravd.md) a 61 dalších</small>
+- van der Linden, S., a kol. (2017). Inoculating the public against misinformation about climate  
+  <small>Citováno: [Historický případ: Popírání klimatu](@/kompendium/historical-cases/26-climate-denial.md)</small>
+- van der Linden, S., Leiserowitz, A., Rosenthal, S., & Maibach, E. (2017). Inoculating the public against misinformation about climate change. *Global Challenges*, 1(2).  
+  <small>Citováno: [EA-3.1.7 Neutralizační praktikum](@/kompendium/techniques/ea-3-1-7-neutralization-practicum.md)</small>
+- van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.  
+  <small>Citováno: [Argumentační fauly](@/kompendium/argumentacni-fauly/_index.md), [Rétorické a dialogické taktiky](@/kompendium/argumentacni-fauly/dialekticke-taktiky/_index.md), [Argument opakováním](@/kompendium/argumentacni-fauly/dialekticke-taktiky/argument-opakovanim.md) a 73 dalších</small>
+- van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge: Cambridge University Press.  
+  <small>Citováno: [Argumentační fauly](@/kompendium/argumentacni-fauly/_index.md), [Rétorické a dialogické taktiky](@/kompendium/argumentacni-fauly/dialekticke-taktiky/_index.md), [„Jen se ptám“](@/kompendium/argumentacni-fauly/dialekticke-taktiky/jen-se-ptam.md) a 68 dalších</small>
+- van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge University Press.  
+  <small>Citováno: [Gish Gallop (Gishův cval)](@/glossary/gish-gallop.md), [Motte and bailey (tvrz a předhradí)](@/glossary/motte-and-bailey.md), [Sealioning (lachtaní dotazování)](@/glossary/sealioning.md) a 2 dalších</small>
+- van Heijenoort, J. (Ed.) (1967). *From Frege to Gödel: A Source Book in Mathematical Logic, 1879–1931*. Harvard University Press.  
+  <small>Citováno: [EA-5.4.2 Russellova violace typové hierarchie](@/kompendium/techniques/ea-5-4-2-russell-typ-violace.md)</small>
+- van Manen, M. (1990). *Researching Lived Experience.*  
+  <small>Citováno: [Fenomenologický rozhovor](@/kompendium/research-methodology/phenomenological-interview-EA.md)</small>
+- van Prooijen, J.-W. (2018). *The Psychology of Conspiracy Theories*. Routledge.  
+  <small>Citováno: [Případ 21: Konspirační rekrutace](@/kompendium/case-studies/21-konspiracni-rekrutace.md)</small>
+- van Prooijen, J.-W., & Douglas, K. M. (2018). Belief in conspiracy theories: Basic principles of an emerging research domain. *European Journal of Social Psychology*.  
+  <small>Citováno: [Případ 54: Zotavení z flat-earth komunity](@/kompendium/case-studies/54-flat-earth-recovery.md)</small>
+- van Prooijen, J.-W., Douglas, K. M., & De Inocencio, C. (2018). Connecting the dots: Illusory  
+  <small>Citováno: [Historický případ: QAnon](@/kompendium/historical-cases/28-qanon.md), [Historický případ: Pizzagate](@/kompendium/historical-cases/29-pizzagate.md)</small>
+- van Voren, R. (2010). *Cold War in Psychiatry: Human Factors, Secret Actors*. Rodopi.  
+  <small>Citováno: [Politická instrumentalizace EA](@/kompendium/critical-perspectives/6-political-instrumentalization.md)</small>
+- van Voren, R. (2010). Political abuse of psychiatry – an historical overview. *Schizophrenia Bulletin*.  
+  <small>Citováno: [Ruský vliv — vzorce EA](@/kompendium/international/7-russian-influence-EA/index.md)</small>
 - Varela, F. J. (1979). *Principles of Biological Autonomy*. North Holland.  
   <small>Citováno: [7.43 Thompson: Mind in Life a kontinuita biologie/mysli](@/kompendium/07-teoreticke-reflexe/thompson-mind-in-life.md), [7.44 Varela: Enaktivismus a embodied cognition](@/kompendium/07-teoreticke-reflexe/varela-enactivism.md)</small>
 - Varela, F. J. (1996). *Neurophenomenology: A methodological remedy for the hard problem*. Journal of Consciousness Studies.  
@@ -10048,6 +10120,12 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Konceptuální destabilizace](@/glossary/konceptualni-destabilizace.md)</small>
 - Vodáčková, D. a kol. (2002). *Krizová intervence*. Portál.  
   <small>Citováno: [Akutní protokol: Výjezd krizového týmu](@/kompendium/emergency-protocols/13-crisis-team-deployment.md), [Akutní protokol: Mobilní krizová intervence v terénu](@/kompendium/emergency-protocols/15-mobile-crisis-EA.md), [Akutní protokol: Krizová linka a epistemická anihilace](@/kompendium/emergency-protocols/17-crisis-hotline-EA.md)</small>
+- von Elm, E. a kol. (2007). The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) statement.  
+  <small>Citováno: [Longitudinální studie epistemické manipulace a zotavení](@/kompendium/research-methodology/longitudinal-study-EA.md)</small>
+- von Elm, E. a kol. (2007). The STROBE statement.  
+  <small>Citováno: [Publikační etika výzkumu manipulace](@/kompendium/research-methodology/publication-ethics-EA.md)</small>
+- von Wright, G. H. (1951). Deontic Logic. *Mind*.  
+  <small>Citováno: [Modální logika](@/glossary/modalni-logika.md)</small>
 - Vosoughi, S., Roy, D., & Aral, S. (2018). The spread of true and false news online.  
   <small>Citováno: [OSINT: manipulace na sociálních sítích](@/kompendium/cross-domain/5-ea-osint-social-media-manipulation.md), [EA-2.3.10 Virální zkreslení výroku](@/kompendium/techniques/ea-2-3-10-viralni-misrepresentation.md)</small>
 - Vosoughi, S., Roy, D., & Aral, S. (2018). *The spread of true and false news online*. Science.  

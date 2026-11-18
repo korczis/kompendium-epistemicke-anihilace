@@ -196,20 +196,14 @@ potkává s mocenskou závislostí, potřebují nezávislou supervizi a možnost
 
 ## Literatura
 
-- Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University
-  Press.
-- Gadamer, H.-G. (1960). *Wahrheit und Methode: Grundzüge einer philosophischen Hermeneutik*.
-  Tübingen: J. C. B. Mohr (Paul Siebeck).
+- Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.
+- Gadamer, H.-G. (1960). *Wahrheit und Methode: Grundzüge einer philosophischen Hermeneutik*. Tübingen: J. C. B. Mohr (Paul Siebeck).
 - Hofstadter, D. R. (1979). *Gödel, Escher, Bach: An Eternal Golden Braid*. New York: Basic Books.
-- Husserl, E. (1928). *Vorlesungen zur Phänomenologie des inneren Zeitbewußtseins* (Hrsg. M.
-  Heidegger). Halle: Max Niemeyer.
+- Husserl, E. (1928). *Vorlesungen zur Phänomenologie des inneren Zeitbewußtseins* (Hrsg. M. Heidegger). Halle: Max Niemeyer.
 - James, W. (1902). *The Varieties of Religious Experience*. New York: Longmans, Green.
-- McAdams, D. P. (2001). The psychology of life stories. *Review of General Psychology*, 5(2),
-  100–122.
-- Sass, L. A. (1992). *Madness and Modernism: Insanity in the Light of Modern Art, Literature, and
-  Thought*. Basic Books.
-- Sass, L. A., & Parnas, J. (2003). Schizophrenia, consciousness, and the self. *Schizophrenia
-  Bulletin*, 29(3), 427–444.
+- McAdams, D. P. (2001). The psychology of life stories. *Review of General Psychology*, 5(2), 100–122.
+- Sass, L. A. (1992). *Madness and Modernism: Insanity in the Light of Modern Art, Literature, and Thought*. Basic Books.
+- Sass, L. A., & Parnas, J. (2003). Schizophrenia, consciousness, and the self. *Schizophrenia Bulletin*, 29(3), 427–444.
 - Saussure, F. de (1916). *Cours de linguistique générale*. Paris: Payot.
 - Wells, A. (2009). *Metacognitive Therapy for Anxiety and Depression*. Guilford Press.
 - Wittgenstein, L. (1922). *Tractatus Logico-Philosophicus*. London: Kegan Paul.

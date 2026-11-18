@@ -38,11 +38,7 @@
 {%- set cards = c_keys | split(pat="|") -%}
 {%- set per = 3 -%}
 {%- set n_slides = ((cards | length + per - 1) / per) | round(method="floor") | int -%}
-<section class="rounded-lg bg-white p-4 shadow sm:p-6 dark:bg-gray-800" aria-labelledby="karusel-title" aria-roledescription="{{ L.carousel_role }}" data-landing-block data-landing-carousel>
-  <div class="mb-4">
-    <h2 id="karusel-title" class="text-xl font-bold leading-tight text-gray-900 sm:text-2xl dark:text-white">{{ L.carousel_title }}</h2>
-    <p class="mt-1 text-sm text-gray-600 dark:text-gray-300">{{ L.carousel_text }}</p>
-  </div>
+{% <card id="karusel-title" title={L.carousel_title} desc={L.carousel_text} attrs={'aria-roledescription="' ~ L.carousel_role ~ '" data-landing-block data-landing-carousel'}> %}
   <div id="landing-carousel" data-carousel="static">
     <div id="landing-carousel-slides" class="relative h-[26.5rem] overflow-hidden md:h-[19.5rem]" aria-live="polite">
       {%- for key in cards %}
@@ -54,7 +50,7 @@
           {%- set_global f_count = f_count + 1 %}
           {%- if f_top_n < 2 and ("|" ~ n.path ~ "|") not in ia_weak %}{% if f_top_n > 0 %}{% set_global f_top = f_top ~ " · " %}{% endif %}{% set_global f_top = f_top ~ n.title %}{% set_global f_top_n = f_top_n + 1 %}{% endif %}
         {%- endif %}{% endfor %}
-        {%- if f_count == 1 %}{% set c_word = forms_t[0] %}{% elif f_count >= 2 and f_count <= 4 %}{% set c_word = forms_t[1] %}{% else %}{% set c_word = forms_t[2] %}{% endif %}
+        {%- set c_word = <plural n={f_count} forms={forms_t} /> %}
         {%- set c_href = c_tech.permalink ~ "?rodina=" ~ ref %}
         {%- set c_kicker = L.family_kicker ~ " · " ~ ref %}
         {%- set c_title = c_graph.families[ref] %}
@@ -66,7 +62,7 @@
         {%- set parts = ref | split(pat="/") %}
         {%- if parts[0] == "kompendium" and parts | length > 2 %}{% set top = "kompendium-" ~ parts[1] %}{% else %}{% set top = parts[0] %}{% endif %}
         {%- set n = c_nav.sections[ref] | default(value={"total": 0}) %}
-        {%- if n.total == 1 %}{% set c_word = forms_s[0] %}{% elif n.total >= 2 and n.total <= 4 %}{% set c_word = forms_s[1] %}{% else %}{% set c_word = forms_s[2] %}{% endif %}
+        {%- set c_word = <plural n={n.total} forms={forms_s} /> %}
         {%- set c_href = s.permalink %}
         {%- set c_kicker = L.section_kicker %}
         {%- set c_title = s.title %}
@@ -89,7 +85,7 @@
                 {%- if c_detail %}
                 <span class="mt-1 hidden text-sm text-gray-600 md:line-clamp-2 dark:text-gray-300">{{ c_detail }}</span>
                 {%- endif %}
-                <span class="mt-1 md:mt-auto md:pt-2"><span class="inline-flex rounded-full bg-primary-100 px-2 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300">{{ c_count }}</span></span>
+                <span class="mt-1 md:mt-auto md:pt-2">{{ <badge tone="primary" text={c_count} /> }}</span>
               </span>
             </a>
           </li>
@@ -117,7 +113,5 @@
     </div>
     {%- endif %}
   </div>
-  <div class="mt-6 flex flex-wrap gap-3" data-landing-actions>
-    {%- for a in L.carousel_actions %}{% if ("|" ~ a.path ~ "|") not in ia_weak %}<a href="{{ get_url(path='@/' ~ a.path) }}" class="{% if loop.first %}{{ btn_primary }}{% else %}{{ btn_secondary }}{% endif %}">{{ a.label }}</a>{% endif %}{% endfor %}
-  </div>
-</section>
+  {{ <action_row actions={L.carousel_actions} skip={ia_weak} attrs="data-landing-actions" /> }}
+{% </card> %}

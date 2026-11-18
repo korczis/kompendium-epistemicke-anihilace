@@ -1,10 +1,11 @@
 // Průzkumník glosáře: abecední lišta A–Ž (české pořadí včetně CH), filtr bez ohledu na
 // diakritiku, karty hesel po písmenech, nejodkazovanější hesla (ECharts) a síť vzájemných
-// odkazů mezi nimi (cytoscape). Hesla přicházejí inline z šablony (#glosar-data), jazyk
-// a počty odkazů z grafu odkazů (static/data/graph.json). Stav drží Alpine.js.
+// odkazů mezi nimi (síť vrstvy nad ECharts). Hesla přicházejí inline z šablony (#glosar-data),
+// jazyk a počty odkazů z grafu odkazů (static/data/graph.json). Stav drží Alpine.js.
 (function () {
   'use strict';
 
+  var L = window.KompendiumVrstva;
   var V = window.KompendiumViz;
   var ALPHABET = ['#', 'A', 'B', 'C', 'Č', 'D', 'E', 'F', 'G', 'H', 'CH', 'I', 'J', 'K', 'L', 'M', 'N',
     'O', 'P', 'Q', 'R', 'Ř', 'S', 'Š', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'Ž'];
@@ -29,13 +30,6 @@
 
   function slug(letter) {
     return letter === '#' ? 'cislice' : fold(letter) + (KEEP[letter] ? '-hacek' : '');
-  }
-
-  // 1 stránka, 2–4 stránky, 0 a 5+ stránek.
-  function plural(n, one, few, many) {
-    if (n === 1) return one;
-    if (n >= 2 && n <= 4) return few;
-    return many;
   }
 
   function readTerms() {
@@ -73,8 +67,16 @@
         this.categories = Object.keys(counts).filter(function (c) { return counts[c] > 1; })
           .sort(function (a, b) { return counts[b] - counts[a] || a.localeCompare(b, 'cs'); })
           .map(function (c) { return { value: c, label: c + ' (' + counts[c] + ')' }; });
-        var params = new URLSearchParams(location.search);
+        // Filter state round-trips through the address (?hledat=, ?kategorie=, ?jazyk=), so a
+        // copied link opens the same selection.
+        var params = L.urlState.get();
         if (params.get('hledat')) this.q = params.get('hledat');
+        if (counts[params.get('kategorie')] > 1) this.cat = params.get('kategorie');
+        if (LANG_COLOR[params.get('jazyk')]) this.lang = params.get('jazyk');
+        var sync = function () {
+          L.urlState.set({ hledat: self.q.trim(), kategorie: self.cat, jazyk: self.lang });
+        };
+        ['q', 'cat', 'lang'].forEach(function (k) { self.$watch(k, sync); });
         this.booted = true;
         if (!V) {
           this.graphError = 'Chybí vizualizační modul.';
@@ -117,7 +119,7 @@
           return {
             tooltip: Object.assign({ trigger: 'axis', axisPointer: { type: 'shadow' }, formatter: function (ps) {
               var p = ps[0];
-              return '<b>' + p.name + '</b><br>' + p.value + ' ' + plural(p.value, 'stránka', 'stránky', 'stránek') + ' odkazuje sem';
+              return '<b>' + p.name + '</b><br>' + p.value + ' ' + L.plural(p.value, ['stránka', 'stránky', 'stránek']) + ' odkazuje sem';
             } }, V.tooltip(t)),
             grid: { left: 8, right: 32, top: 8, bottom: 8, containLabel: true },
             xAxis: V.axis(t, { type: 'value', minInterval: 1 }),
@@ -149,36 +151,26 @@
           });
         });
         var max = picked[0].refs || 1;
-        var els = picked.map(function (t) {
-          return { data: { id: 'n' + t.id, label: t.title, url: t.url, color: LANG_COLOR[t.lang] || '#64748b',
-            size: Math.round(14 + 34 * Math.sqrt(t.refs / max)), fontSize: t.refs / max > 0.3 ? 11 : 9 } };
-        });
-        Object.keys(pairs).forEach(function (k) {
-          var ab = k.split('-');
-          els.push({ data: { id: 'e' + k, source: 'n' + ab[0], target: 'n' + ab[1], width: pairs[k] > 1 ? 2.5 : 1 } });
-        });
-        V.cytoscape(el, els, { name: 'cose', animate: false, randomize: false, padding: 16,
-          nodeRepulsion: 600000, idealEdgeLength: 110, nodeOverlap: 40, gravity: 0.6,
-          componentSpacing: 60, numIter: 3000 }).then(function (cy) {
-          // Malý přehledový graf: bez posouvání a přibližování, aby nekradl rolování stránky.
-          cy.userZoomingEnabled(false);
-          cy.userPanningEnabled(false);
-          cy.autoungrabify(true);
-          cy.on('tap', 'node', function (ev) { window.location.href = ev.target.data('url'); });
-          cy.on('mouseover', 'node', function (ev) {
-            var hood = ev.target.closedNeighborhood();
-            cy.elements().not(hood).addClass('faded');
-            hood.edges().addClass('hl');
-            el.style.cursor = 'pointer';
+        // Síť vrstvy (KompendiumViz.network): rozmístění silami, bez posouvání a přibližování
+        // (malý přehled nekrade rolování stránky; v maximalizovaném rámci jde posouvat).
+        V.network(el, function () {
+          return {
+            nodes: picked.map(function (t) {
+              return { id: 'n' + t.id, label: t.title, color: LANG_COLOR[t.lang] || '#64748b',
+                size: Math.round(14 + 34 * Math.sqrt(t.refs / max)), fontSize: t.refs / max > 0.3 ? 11 : 9,
+                info: t.title + ' · ' + L.count(t.refs,
+                  ['odkazující stránka', 'odkazující stránky', 'odkazujících stránek']),
+                data: { url: t.url } };
+            }),
+            edges: Object.keys(pairs).map(function (k) {
+              var ab = k.split('-');
+              return { source: 'n' + ab[0], target: 'n' + ab[1], width: pairs[k] > 1 ? 2.5 : 1 };
+            }),
+          };
+        }, { layout: 'force', force: { length: 110 }, onClick: function (d) { window.location.href = d.data.url; } })
+          .catch(function (e) {
+            V.empty(el, 'Síť odkazů se nepodařilo vykreslit', e.message);
           });
-          cy.on('mouseout', 'node', function () {
-            cy.elements().removeClass('faded hl');
-            el.style.cursor = '';
-          });
-          window.addEventListener('resize', function () { cy.resize(); cy.fit(undefined, 16); });
-        }).catch(function (e) {
-          V.empty(el, 'Síť odkazů se nepodařilo vykreslit', e.message);
-        });
       },
 
       countLang: function (code) {
@@ -187,7 +179,7 @@
 
       refsLabel: function (n) {
         if (n === null || n === undefined) return '';
-        return n + ' ' + plural(n, 'odkazující stránka', 'odkazující stránky', 'odkazujících stránek');
+        return n + ' ' + L.plural(n, ['odkazující stránka', 'odkazující stránky', 'odkazujících stránek']);
       },
 
       get filtered() {
@@ -220,7 +212,7 @@
         var n = this.filtered.length;
         var all = this.terms.length;
         if (n === all) return 'Všech ' + all + ' hesel, abecedně podle českého pořadí.';
-        return 'Zobrazeno ' + n + ' ' + plural(n, 'heslo', 'hesla', 'hesel') + ' z ' + all + '.';
+        return 'Zobrazeno ' + n + ' ' + L.plural(n, ['heslo', 'hesla', 'hesel']) + ' z ' + all + '.';
       },
 
       jump: function (letter) {

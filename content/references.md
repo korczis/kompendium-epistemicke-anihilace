@@ -8,12 +8,12 @@ tags = ["kompendium"]
 
 [extra]
 toc = false
-entries = 5333
+entries = 5367
 +++
 
 Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotlivých stránkách kompendia a glosáře; ručně se needituje.
 
-**5333 položek**, seřazených podle autora.
+**5367 položek**, seřazených podle autora.
 
 ## A
 
@@ -44,15 +44,17 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Abramson, K. (2014). Turning up the lights on gaslighting. *Philosophical Perspectives*, 28(1).  
   <small>Citováno: [Případ 15: Zdravotnická iatrogenie](@/kompendium/case-studies/15-zdravotnicky-iatrogen.md), [Vzdělávací scénář: Vzorec gaslightingu](@/kompendium/educational-scenarios/19-gaslighting-pattern.md)</small>
 - Abramson, K. (2014). Turning up the lights on gaslighting. *Philosophical Perspectives*, 28(1), 1–30.  
-  <small>Citováno: [Detekční signatura: Gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md), [Detekční signatura: Skok sebepochybnosti](@/kompendium/detection-signatures/26-phenomenological-self-doubt-spike.md), [Detekční signatura: Nejistota o realitě](@/kompendium/detection-signatures/28-phenomenological-reality-uncertainty.md) a 2 dalších</small>
+  <small>Citováno: [Detekční signatura: Gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md), [Detekční signatura: Skok sebepochybnosti](@/kompendium/detection-signatures/26-phenomenological-self-doubt-spike.md), [Detekční signatura: Nejistota o realitě](@/kompendium/detection-signatures/28-phenomenological-reality-uncertainty.md) a 3 dalších</small>
 - Abramson, K. (2014). Turning up the lights on gaslighting. *Philosophical Perspectives*, 28, 1–30.  
-  <small>Citováno: [Bridge: Gaslighting](@/kompendium/glossary-bridges/bridge-gaslighting.md)</small>
+  <small>Citováno: [Bridge: Gaslighting](@/kompendium/glossary-bridges/bridge-gaslighting.md), [Absolutní multisubjektivní fragmentace](@/kompendium/puvodni-taxonomie/absolutni-multisubjektivni-fragmentace.md)</small>
 - Abramson, L. Y., Seligman, M. E. P., & Teasdale, J. D. (1978). Learned helplessness in  
   <small>Citováno: [EA-2.5.10 Implantace existenciální bezmoci](@/kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md)</small>
 - Abramson, L. Y., Seligman, M. E. P., & Teasdale, J. D. (1978). *Learned helplessness in humans: Critique and reformulation*. Journal of Abnormal Psychology.  
   <small>Citováno: [Epistemická nekróza](@/glossary/epistemicka-nekroza.md), [Epistemický chaos](@/glossary/epistemicky-chaos.md), [Fázovaný rozklad psychiky](@/glossary/fazovany-rozklad-psychiky.md) a 1 dalších</small>
 - Abramson, L. Y., Seligman, M. E. P., & Teasdale, J. D. (1978). Learned helplessness in humans: Critique and reformulation. *Journal of Abnormal Psychology*, 87.  
   <small>Citováno: [Kognitivní rozklad](@/glossary/kognitivni-rozklad.md), [Kognitivní trosky](@/glossary/kognitivni-trosky.md)</small>
+- Abramson, L. Y., Seligman, M. E. P., Teasdale, J. D. (1978). *Learned Helplessness in Humans: Critique and Reformulation*. Journal of Abnormal Psychology, 87(1), 49–74.  
+  <small>Citováno: [Absolutní kognitivní anti-komplementarita](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anti-komplementarita.md)</small>
 - Abu-Lughod, L. (2013). *Do Muslim Women Need Saving?* Harvard University Press.  
   <small>Citováno: [Kultury cti — EA](@/kompendium/international/20-honor-cultures-EA/index.md)</small>
 - Acierno, R., Hernandez, M. A., Amstadter, A. B., Resnick, H. S., Steve, K., Muzzy, W., & Kilpatrick, D. G. (2010). Prevalence and correlates of emotional, physical, sexual, and financial abuse and potential neglect in the United States: The National Elder Mistreatment Study. *American Journal of Public Health*, 100(2).  
@@ -197,6 +199,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Epistemická injustice](@/glossary/epistemicka-injustice.md)</small>
 - Anderson, P. W. (1972). *More is different*. Science.  
   <small>Citováno: [Redukcionismus](@/glossary/redukcionismus.md)</small>
+- Anderson, P. W. (1972). *More Is Different*. Science, 177(4047), 393–396.  
+  <small>Citováno: [Epistemická atomizace](@/kompendium/puvodni-taxonomie/epistemicka-atomizace.md)</small>
 - Anderson, R. (2001). *Why Information Security is Hard: An Economic Perspective*. Proceedings of the Annual Computer Security Applications Conference.  
   <small>Citováno: [Compliance Framework (rámec souladu)](@/glossary/compliance-framework.md)</small>
 - Anderson, R. (2008). *Security Engineering: A Guide to Building Dependable Distributed Systems* (2. vyd.). Wiley.  
@@ -280,7 +284,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Arendt, H. (1951). *The Origins of Totalitarianism*. Harcourt, Brace and Company.  
   <small>Citováno: [Firehose of Falsehood (palba lží)](@/glossary/firehose-of-falsehood.md), [7.18 Arendt: Banalita zla a krize úsudku](@/kompendium/07-teoreticke-reflexe/arendt-banalita-zla.md), [Případ 46: Politická totalizace v poslanecké kanceláři](@/kompendium/case-studies/46-political-totalizace.md) a 3 dalších</small>
 - Arendt, H. (1951). *The Origins of Totalitarianism*. Harcourt, Brace & Co.  
-  <small>Citováno: [Institucionální anihilace — destrukce kolektivních epistemických struktur](@/kompendium/04-terminalni-protokoly/institucionalni-anihilace.md), [7.8 Politická a ideologická EA — totalitní systémy, propaganda, populismus](@/kompendium/07-teoreticke-reflexe/politicka-ea.md), [Rámec veřejné politiky pro EA](@/kompendium/population-health/21-EA-public-policy-framework.md) a 3 dalších</small>
+  <small>Citováno: [Institucionální anihilace — destrukce kolektivních epistemických struktur](@/kompendium/04-terminalni-protokoly/institucionalni-anihilace.md), [7.8 Politická a ideologická EA — totalitní systémy, propaganda, populismus](@/kompendium/07-teoreticke-reflexe/politicka-ea.md), [Rámec veřejné politiky pro EA](@/kompendium/population-health/21-EA-public-policy-framework.md) a 4 dalších</small>
 - Arendt, H. (1951). *The Origins of Totalitarianism*. New York: Harcourt, Brace.  
   <small>Citováno: [Občanské vzdělávání](@/kompendium/prevention-resilience/9-civic-education-prevention.md), [Protokol pro politické vězně](@/kompendium/recovery-protocols/recovery-political-prisoner-protocol.md)</small>
 - Arendt, H. (1951). *The Origins of Totalitarianism.* New York: Harcourt, Brace & Co.  
@@ -367,6 +371,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Struktura jednání](@/kompendium/organizational-defense/22-meeting-structure.md)</small>
 - Asch, S. E. (1956). Studies of independence and conformity: A minority of one against a unanimous majority. *Psychological Monographs*.  
   <small>Citováno: [Civilní konspirace](@/kompendium/forensic-legal/16-civil-conspiracy-EA.md), [EA-3.2.6 Kohortní monitoring](@/kompendium/techniques/ea-3-2-6-cohort-monitoring.md), [EA-4.1.9 Cohort monitoring](@/kompendium/techniques/ea-4-1-9-cohort-monitoring.md)</small>
+- Asch, S. E. (1956). *Studies of Independence and Conformity: A Minority of One Against a Unanimous Majority*. Psychological Monographs, 70(9).  
+  <small>Citováno: [Absolutní multisubjektivní fragmentace](@/kompendium/puvodni-taxonomie/absolutni-multisubjektivni-fragmentace.md), [Koordinovaná multipersonální gaslighting strategie](@/kompendium/puvodni-taxonomie/koordinovana-multipersonalni-gaslighting-strategie.md)</small>
 - Asch, S. E. (1956). Studies of independence and conformity: A minority of one against a unanimous majority. *Psychological Monographs: General and Applied*, 70(9).  
   <small>Citováno: [EA-2.1.2 Pseudo-peer mob](@/kompendium/techniques/ea-2-1-2-pseudo-peer-mob.md)</small>
 - Asch, S. E. (1956). *Studies of Independence and Conformity: I. A Minority of One Against a Unanimous Majority*. Psychological Monographs, 70(9).  
@@ -398,7 +404,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - **Austin, J. L.** (1962). *How to Do Things with Words*. Oxford: Clarendon Press. — Performativní akty, illokuční síla.  
   <small>Citováno: [Bibliografie a primární literatura](@/kompendium/08-prilohy/bibliografie.md)</small>
 - Austin, J. L. (1962). *How to Do Things with Words*. Oxford University Press.  
-  <small>Citováno: [EA-5.4.20 Indukce performativního rozporu](@/kompendium/techniques/ea-5-4-20-performative-contradiction-induction.md)</small>
+  <small>Citováno: [Absolutní epistemická anti-propozicionalita](@/kompendium/puvodni-taxonomie/absolutni-epistemicka-anti-propozicionalita.md), [EA-5.4.20 Indukce performativního rozporu](@/kompendium/techniques/ea-5-4-20-performative-contradiction-induction.md)</small>
 - Averill, J. R. (1982). *Anger and Aggression: An Essay on Emotion*. Springer-Verlag.  
   <small>Citováno: [Sebe-obrana: Práce se vztekem](@/kompendium/self-defense-guides/17-anger-management.md)</small>
 - Ayres, I., & Braithwaite, J. (1992). *Responsive Regulation: Transcending the Deregulation Debate*. Oxford University Press.  
@@ -481,13 +487,13 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Bandura, A. (1977). Self-efficacy: Toward a unifying theory of behavioral change. *Psychological Review*, 84(2).  
   <small>Citováno: [EA-3.1.1 Graduální expozice design](@/kompendium/techniques/ea-3-1-1-graduated-exposure-design.md)</small>
 - Bandura, A. (1977). Self-efficacy: Toward a unifying theory of behavioral change. *Psychological Review*, 84(2), 191–215.  
-  <small>Citováno: [Detekční signatura: Skok sebepochybnosti](@/kompendium/detection-signatures/26-phenomenological-self-doubt-spike.md), [Akutní protokol: Akutní kognitivní paralýza](@/kompendium/emergency-protocols/7-acute-cognitive-paralysis.md)</small>
+  <small>Citováno: [Detekční signatura: Skok sebepochybnosti](@/kompendium/detection-signatures/26-phenomenological-self-doubt-spike.md), [Akutní protokol: Akutní kognitivní paralýza](@/kompendium/emergency-protocols/7-acute-cognitive-paralysis.md), [Absolutní kognitivní anti-realizovatelnost](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anti-realizovatelnost.md)</small>
 - Bandura, A. (1977). *Social Learning Theory*. Prentice-Hall.  
   <small>Citováno: [Edukativní implementace](@/glossary/edukativni-implementace.md)</small>
 - Bandura, A. (1997). *Self-Efficacy: The Exercise of Control*.  
   <small>Citováno: [EA-2.5.10 Implantace existenciální bezmoci](@/kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md)</small>
 - Bandura, A. (1997). *Self-Efficacy: The Exercise of Control*. W. H. Freeman.  
-  <small>Citováno: [Epistemická nekróza](@/glossary/epistemicka-nekroza.md), [Vzdělávací scénář: Akademická manipulace](@/kompendium/educational-scenarios/11-academic-manipulation.md)</small>
+  <small>Citováno: [Epistemická nekróza](@/glossary/epistemicka-nekroza.md), [Vzdělávací scénář: Akademická manipulace](@/kompendium/educational-scenarios/11-academic-manipulation.md), [Kognitivní zóny bezpečné syntézy](@/kompendium/puvodni-taxonomie/kognitivni-zony-bezpecne-syntezy.md) a 1 dalších</small>
 - Bandura, A. (1999). Moral disengagement in the perpetration of inhumanities. *Personality and  
   <small>Citováno: [Případ 36: Odchod ze startupového kultu](@/kompendium/case-studies/36-startup-cult-exit.md), [Historický případ: Kubánské akty repudia](@/kompendium/historical-cases/9-cuban-akty-repudio.md)</small>
 - Bandura, A. (1999). Moral disengagement in the perpetration of inhumanities. *Personality and Social Psychology Review*.  
@@ -599,7 +605,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Bateson, G., Jackson, D. D., Haley, J., & Weakland, J. (1956). Toward a theory of schizophrenia. *Behavioral Science*, 1(4).  
   <small>Citováno: [Systémová teorie jako alternativa](@/kompendium/critical-perspectives/21-systems-theory-alternative.md), [Kolektivistické kultury — EA](@/kompendium/international/18-collective-cultures-EA/index.md), [Metatranscendentální anihilace jako rodina vzorců](@/kompendium/puvodni-taxonomie/metatranscendentalni-anihilace.md) a 6 dalších</small>
 - Bateson, G., Jackson, D. D., Haley, J., & Weakland, J. (1956). „Toward a Theory of Schizophrenia.“ *Behavioral Science*, 1(4), 251–264.  
-  <small>Citováno: [Systematická konceptuální dekonstrukce](@/kompendium/04-terminalni-protokoly/konceptualni-dekonstrukce.md), [Weaponized incompetence – zneužitá předstíraná neschopnost](@/kompendium/05-ultramari-techniky/weaponized-incompetence.md), [Nekonzistence](@/kompendium/argumentacni-fauly/predpoklady-argumentu/nekonzistence.md) a 43 dalších</small>
+  <small>Citováno: [Systematická konceptuální dekonstrukce](@/kompendium/04-terminalni-protokoly/konceptualni-dekonstrukce.md), [Weaponized incompetence – zneužitá předstíraná neschopnost](@/kompendium/05-ultramari-techniky/weaponized-incompetence.md), [Nekonzistence](@/kompendium/argumentacni-fauly/predpoklady-argumentu/nekonzistence.md) a 49 dalších</small>
 - Baudrillard, J. (1981). *Simulacres et simulation*.  
   <small>Citováno: [EA-2.3.7 Personální deepfake](@/kompendium/techniques/ea-2-3-7-deepfake-personalni.md)</small>
 - Baudrillard, J. (1981). *Simulacres et simulation*. Galilée.  
@@ -663,7 +669,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Beck, A. T. (1976). *Cognitive Therapy and the Emotional Disorders*. International  
   <small>Citováno: [Případ 23: Zotavení z incel subkultury](@/kompendium/case-studies/23-incel-recovery.md)</small>
 - Beck, A. T. (1976). *Cognitive Therapy and the Emotional Disorders*. International Universities Press.  
-  <small>Citováno: [7.46 Lakoff: Konceptuální metafora a politické rámce](@/kompendium/07-teoreticke-reflexe/lakoff-conceptual-metaphor.md), [Transkonceptuální mechanismy jako rodina vzorců](@/kompendium/puvodni-taxonomie/transkonceptualni-mechanismy.md)</small>
+  <small>Citováno: [7.46 Lakoff: Konceptuální metafora a politické rámce](@/kompendium/07-teoreticke-reflexe/lakoff-conceptual-metaphor.md), [Absolutní epistemická anti-analogičnost](@/kompendium/puvodni-taxonomie/absolutni-epistemicka-anti-analogicnost.md), [Absolutní kognitivní anti-komplementarita](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anti-komplementarita.md) a 1 dalších</small>
 - Beck, A. T. (1976). *Cognitive Therapy and the Emotional Disorders*. New York: International  
   <small>Citováno: [Středně-dobý hermeneutický reset](@/kompendium/recovery-protocols/midterm-hermeneutic-reset.md)</small>
 - Beck, A. T. (1976). *Cognitive Therapy and the Emotional Disorders*. New York: International Universities Press.  
@@ -672,8 +678,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Destruktivní sokratovská metoda](@/glossary/destruktivni-sokratovska-metoda.md), [Epistemická pokora](@/glossary/epistemicka-pokora.md), [Negativní epistemická amplifikace](@/glossary/negativni-epistemicka-amplifikace.md) a 3 dalších</small>
 - Beck, A. T., Rush, A. J., Shaw, B. F., & Emery, G. (1979). *Cognitive Therapy of Depression*. New York: Guilford Press.  
   <small>Citováno: [Depresivní epizoda a depresivní porucha](@/glossary/depresivni-epizoda-a-porucha.md)</small>
-- Beck, A. T., Weissman, A., Lester, D., & Trexler, L. (1974). The measurement of pessimism: The Hopelessness Scale. *Journal of Consulting and Clinical Psychology*.  
-  <small>Citováno: [Případ 56: Hlubší zotavení z incel ideologie](@/kompendium/case-studies/56-incel-deep-recovery.md)</small>
+- Beck, A. T., Weissman, A., Lester, D., Trexler, L. (1974). *The Measurement of Pessimism: The Hopelessness Scale*. Journal of Consulting and Clinical Psychology, 42(6), 861–865.  
+  <small>Citováno: [Případ 56: Hlubší zotavení z incel ideologie](@/kompendium/case-studies/56-incel-deep-recovery.md), [Absolutní kognitivní anti-virtualizace](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anti-virtualizace.md)</small>
 - Becker, E. (1986). *When the War Was Over: Cambodia and the Khmer Rouge Revolution*. Simon &  
   <small>Citováno: [Historický případ: Rudí Khmerové](@/kompendium/historical-cases/3-khmer-rouge.md)</small>
 - Becker, H. S. (1960). Notes on the concept of commitment. *American Journal of Sociology*, 66(1).  
@@ -780,6 +786,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Detekční signatura: Nejistota o realitě](@/kompendium/detection-signatures/28-phenomenological-reality-uncertainty.md)</small>
 - Berger, P. L., & Luckmann, T. (1966). *The Social Construction of Reality: A Treatise in the Sociology of Knowledge*. New York: Doubleday.  
   <small>Citováno: [Vzdělávací scénář: Ontologický útok](@/kompendium/educational-scenarios/23-ontological-attack.md)</small>
+- Berger, P. L., Luckmann, T. (1966). *The Social Construction of Reality*. Doubleday.  
+  <small>Citováno: [Absolutní multisubjektivní fragmentace](@/kompendium/puvodni-taxonomie/absolutni-multisubjektivni-fragmentace.md), [Koordinovaná multipersonální gaslighting strategie](@/kompendium/puvodni-taxonomie/koordinovana-multipersonalni-gaslighting-strategie.md)</small>
 - Bergink, V., Rasgon, N. a Wisner, K. L. (2016). Postpartum psychosis: Madness, mania, and melancholia in motherhood. *American Journal of Psychiatry*, 173(12), 1179–1188.  
   <small>Citováno: [Akutní protokol: Těhotenství a šestinedělí v akutní situaci po epistemické anihilaci](@/kompendium/emergency-protocols/24-pregnant-emergency-EA.md)</small>
 - Berglas, S. (2002). The very real dangers of executive coaching. *Harvard Business Review*,  
@@ -803,7 +811,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Berlin, I. (1958). *Two Concepts of Liberty*. Clarendon Press.  
   <small>Citováno: [EA-5.4.33 Paradox svobody](@/kompendium/techniques/ea-5-4-33-paradox-svobody.md)</small>
 - Berlin, I. (1969). *Four Essays on Liberty*. Oxford University Press.  
-  <small>Citováno: [Epistemická bifurkace](@/glossary/epistemicka-bifurkace.md)</small>
+  <small>Citováno: [Epistemická bifurkace](@/glossary/epistemicka-bifurkace.md), [Absolutní kognitivní anti-komplementarita](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anti-komplementarita.md)</small>
 - Bernard, J. M., & Goodyear, R. K. (2019). *Fundamentals of Clinical Supervision* (6. vyd.). Pearson.  
   <small>Citováno: [EA-3.2.5 Etická sofistikovanost](@/kompendium/techniques/ea-3-2-5-ethical-sophistication.md), [EA-3.2.6 Kohortní monitoring](@/kompendium/techniques/ea-3-2-6-cohort-monitoring.md), [EA-3.2.7 Individuální supervize](@/kompendium/techniques/ea-3-2-7-individual-supervision.md) a 2 dalších</small>
 - Bernard, J. M., & Goodyear, R. K. (2019). *Fundamentals of Clinical Supervision*. Pearson.  
@@ -1097,7 +1105,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Bowker, G. C., & Star, S. L. (1999). *Sorting Things Out: Classification and Its Consequences*. Cambridge, MA: MIT Press.  
   <small>Citováno: [Most: Ultramární techniky → Přílohy](@/kompendium/section-bridges/bridge-05-to-08-ultramari-prilohy.md), [Most: Teoretické reflexe → Přílohy](@/kompendium/section-bridges/bridge-07-to-08-teorie-prilohy.md), [Most: Glossary Bridges → Filosofie](@/kompendium/section-bridges/bridge-glossary-bridges-to-philosophy.md)</small>
 - Bowker, G. C., & Star, S. L. (1999). *Sorting Things Out: Classification and Its Consequences*. MIT Press.  
-  <small>Citováno: [Intelektuální brutalita](@/glossary/intelektualni-brutalita.md), [Intelektuální gaslighting](@/glossary/intelektualni-gaslighting.md), [Kognitivní rozklad](@/glossary/kognitivni-rozklad.md) a 10 dalších</small>
+  <small>Citováno: [Intelektuální brutalita](@/glossary/intelektualni-brutalita.md), [Intelektuální gaslighting](@/glossary/intelektualni-gaslighting.md), [Kognitivní rozklad](@/glossary/kognitivni-rozklad.md) a 26 dalších</small>
 - Bowlby, J. (1969). *Attachment and Loss I: Attachment*. London: Hogarth Press.  
   <small>Citováno: [EA-5.2.21 Subjekt-objekt fúzia](@/kompendium/techniques/ea-5-2-21-subjekt-objekt-fuzia.md), [EA-5.3.12 Relační restrukturalizace](@/kompendium/techniques/ea-5-3-12-relacni-restrukturalizace.md)</small>
 - Bowlby, J. (1969). *Attachment and Loss, Vol. 1: Attachment*.  
@@ -1320,8 +1328,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Narativní terapie](@/glossary/narativni-terapie.md)</small>
 - Brymer, M., Jacobs, A., Layne, C., et al. (2006). *Psychological First Aid: Field Operations  
   <small>Citováno: [Akutní stabilizační protokol](@/kompendium/recovery-protocols/acute-stabilization-protocol.md)</small>
-- Buckner, R. L., Andrews-Hanna, J. R., & Schacter, D. L. (2008). *The brain's default network: Anatomy, function, and relevance to disease*. Annals of the New York Academy of Sciences.  
-  <small>Citováno: [Default mode network (síť klidového režimu)](@/glossary/default-mode-network.md)</small>
+- Buckner, R. L., Andrews-Hanna, J. R., Schacter, D. L. (2008). *The Brain's Default Network: Anatomy, Function, and Relevance to Disease*. Annals of the New York Academy of Sciences, 1124, 1–38.  
+  <small>Citováno: [Default mode network (síť klidového režimu)](@/glossary/default-mode-network.md), [Absolutní kognitivní anti-virtualizace](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anti-virtualizace.md)</small>
 - Buckner, R. L., et al. (2005). *Molecular, structural, and functional characterization of Alzheimer's disease*. Journal of Neuroscience.  
   <small>Citováno: [Default mode network (síť klidového režimu)](@/glossary/default-mode-network.md)</small>
 - Bull, P., & Mayer, K. (1993). How not to answer questions in political interviews. *Political Psychology*, 14(4), 651–666.  
@@ -1532,7 +1540,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Carroll, L. (1895). What the Tortoise Said to Achilles. *Mind*.  
   <small>Citováno: [Infinitní regres](@/glossary/infinitni-regress.md), [Rekurzivní paralýza](@/glossary/rekurzivni-paralyza.md)</small>
 - Carroll, L. (1895). What the Tortoise Said to Achilles. *Mind*, 4(14), 278–280.  
-  <small>Citováno: [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md)</small>
+  <small>Citováno: [Pokročilé techniky – kapitola 6: vyvozování, rozlišování a konvergence](@/kompendium/05-pokrocile-techniky/kapitola-6/_index.md), [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md)</small>
 - Carroll, S. R., et al. (2020). The CARE Principles for Indigenous Data Governance. *Data Science Journal*, 19.  
   <small>Citováno: [Dekoloniální epistemologie](@/kompendium/critical-perspectives/27-decolonial-epistemology.md)</small>
 - Carter, J. A., a Palermos, S. O. (2016). Is having your computer compromised a personal assault? The ethics of extended cognition. *Journal of the American Philosophical Association*, 2(4).  
@@ -1596,7 +1604,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Chalmers, D. J. (1995). Facing up to the problem of consciousness. *Journal of Consciousness Studies*, 2(3).  
   <small>Citováno: [7.37 Chalmers: Hard Problem of Consciousness](@/kompendium/07-teoreticke-reflexe/chalmers-hard-problem.md)</small>
 - Chalmers, D. J. (1996). *The Conscious Mind: In Search of a Fundamental Theory*. Oxford University Press.  
-  <small>Citováno: [Redukcionismus](@/glossary/redukcionismus.md), [7.37 Chalmers: Hard Problem of Consciousness](@/kompendium/07-teoreticke-reflexe/chalmers-hard-problem.md), [7.51 Dennett: From Bacteria to Bach a evoluční vědomí](@/kompendium/07-teoreticke-reflexe/dennett-from-bacteria-to-bach.md) a 1 dalších</small>
+  <small>Citováno: [Redukcionismus](@/glossary/redukcionismus.md), [7.37 Chalmers: Hard Problem of Consciousness](@/kompendium/07-teoreticke-reflexe/chalmers-hard-problem.md), [7.51 Dennett: From Bacteria to Bach a evoluční vědomí](@/kompendium/07-teoreticke-reflexe/dennett-from-bacteria-to-bach.md) a 2 dalších</small>
 - Chalmers, D. J. (1996). *The Conscious Mind*. Oxford University Press.  
   <small>Citováno: [EA-7.3.8 Chalmers: Těžký problém vědomí](@/kompendium/techniques/ea-7-3-8-chalmers-hard-problem.md)</small>
 - Chalmers, D. J. (2010). *The Character of Consciousness*. Oxford University Press.  
@@ -1677,6 +1685,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Kompletní rejstřík technik (master index)](@/kompendium/08-prilohy/rejstrik-technik.md), [Bridge: Deepfake](@/kompendium/glossary-bridges/bridge-deepfake.md)</small>
 - Chi, M. T. H., Feltovich, P. J., & Glaser, R. (1981). Categorization and representation of physics problems by experts and novices. *Cognitive Science*, 5(2).  
   <small>Citováno: [EA-3.1.6 Recognition trénink](@/kompendium/techniques/ea-3-1-6-recognition-training.md), [EA-3.1.8 Drill kompoziční analýzy](@/kompendium/techniques/ea-3-1-8-compositional-analysis-drill.md)</small>
+- Chi, M. T. H., Feltovich, P. J., Glaser, R. (1981). *Categorization and Representation of Physics Problems by Experts and Novices*. Cognitive Science, 5(2), 121–152.  
+  <small>Citováno: [Epistemická atomizace](@/kompendium/puvodni-taxonomie/epistemicka-atomizace.md)</small>
 - Chibanda, D., Weiss, H. A., Verhey, R., a kol. (2016). Effect of a primary care–based psychological intervention on symptoms of common mental disorders in Zimbabwe: A randomized clinical trial. *JAMA*, 316(24).  
   <small>Citováno: [Afrika — vzorce EA](@/kompendium/international/14-african-EA/index.md)</small>
 - Chidester, D. (1988). *Salvation and Suicide: An Interpretation of Jim Jones, the Peoples Temple, and Jonestown*. Indiana University Press.  
@@ -1730,7 +1740,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Cialdini, R. B. (1984). *Influence: The Psychology of Persuasion*. Harper & Row.  
   <small>Citováno: [Love bombing](@/glossary/love-bombing.md), [Etika popisu újmy](@/philosophy/boundary-ethics.md)</small>
 - Cialdini, R. B. (1984). *Influence: The Psychology of Persuasion*. William Morrow.  
-  <small>Citováno: [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md), [Případ 02: Doktorát jako trojský kůň](@/kompendium/case-studies/02-doktorat-trojan-horse.md), [Případ 13: Zotavení z MLM](@/kompendium/case-studies/13-mlm-recovery.md) a 10 dalších</small>
+  <small>Citováno: [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md), [Případ 02: Doktorát jako trojský kůň](@/kompendium/case-studies/02-doktorat-trojan-horse.md), [Případ 13: Zotavení z MLM](@/kompendium/case-studies/13-mlm-recovery.md) a 11 dalších</small>
 - Cialdini, R. B. (2001). *Influence: Science and Practice* (4. vyd.). Allyn & Bacon.  
   <small>Citováno: [Řízení přístupů s EA fokusem](@/kompendium/organizational-defense/28-access-control-EA.md), [EA-9.1.3 Jailbreak Cascade](@/kompendium/techniques/ea-9-1-3-jailbreak-cascade.md), [EA-9.1.9 Multi-Turn Narrative Shift](@/kompendium/techniques/ea-9-1-9-multi-turn-narrative-shift.md) a 7 dalších</small>
 - Cialdini, R. B. (2001). *Influence: Science and Practice* (4th ed.). Boston: Allyn & Bacon.  
@@ -1814,13 +1824,13 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Clark, A., & Chalmers, D. (1998). The extended mind. *Analysis*, 58.  
   <small>Citováno: [Kognitivní bludištění](@/glossary/kognitivni-bludisteni.md)</small>
 - Clark, A., & Chalmers, D. (1998). The Extended Mind. *Analysis*, 58(1).  
-  <small>Citováno: [Intelektuální suverenita čtenáře](@/philosophy/intellectual-sovereignty.md)</small>
+  <small>Citováno: [Epistemická kvantová delokalizace](@/kompendium/puvodni-taxonomie/epistemicka-kvantova-delokalizace.md), [Hyperbolická eskalace](@/kompendium/puvodni-taxonomie/hyperbolicka-eskalace.md), [Kognitivní zóny bezpečné syntézy](@/kompendium/puvodni-taxonomie/kognitivni-zony-bezpecne-syntezy.md) a 3 dalších</small>
 - Clark, A., & Chalmers, D. (1998). The extended mind. *Analysis*, 58(1), 7–19.  
   <small>Citováno: [Bridge: Embodied cognition (vtělená kognice)](@/kompendium/glossary-bridges/bridge-embodied-cognition.md)</small>
 - Clark, A., & Chalmers, D. J. (1998). The Extended Mind. *Analysis*.  
   <small>Citováno: [EA-7.3.4 Clark: Rozšířená mysl](@/kompendium/techniques/ea-7-3-4-clark-extended-mind.md)</small>
 - Clark, A., & Chalmers, D. J. (1998). The extended mind. *Analysis*, 58(1), 7–19.  
-  <small>Citováno: [7.48 Hutchins: Distribuovaná kognice a kulturní artefakty](@/kompendium/07-teoreticke-reflexe/hutchins-distributed-cognition.md)</small>
+  <small>Citováno: [7.48 Hutchins: Distribuovaná kognice a kulturní artefakty](@/kompendium/07-teoreticke-reflexe/hutchins-distributed-cognition.md), [Absolutní kognitivní anti-distribuce](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anti-distribuce.md)</small>
 - Clark, D. D., & Wilson, D. R. (1987). A comparison of commercial and military computer security  
   <small>Citováno: [Oddělení povinností](@/kompendium/organizational-defense/29-segregation-duties.md)</small>
 - Clark, D. M. (1986). A cognitive approach to panic. *Behaviour Research and Therapy*.  
@@ -2360,6 +2370,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [EA-7.1.8 Derrida: dekonstrukce](@/kompendium/techniques/ea-7-1-8-derrida-deconstruction.md)</small>
 - Derrida, J. (1967). *De la grammatologie*. Éditions de Minuit.  
   <small>Citováno: [Dekonstruktivní hyperkaskáda](@/glossary/dekonstruktivni-hyperkaskada.md)</small>
+- Derrida, J. (1967). *De la grammatologie*. Les Éditions de Minuit.  
+  <small>Citováno: [Axiologická dekonstrukce](@/kompendium/puvodni-taxonomie/axiologicka-dekonstrukce.md)</small>
 - Derrida, J. (1967). *De la grammatologie*. Minuit.  
   <small>Citováno: [Bridge: Différance](@/kompendium/glossary-bridges/bridge-differance.md)</small>
 - Derrida, J. (1967). *L'écriture et la différence*.  
@@ -2588,8 +2600,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Zneužití teorie mysli (ToM exploitation)](@/kompendium/03-zakladni-kategorie/tom-exploitation.md)</small>
 - Dutton, D. G., & Painter, S. L. (1981). Traumatic Bonding. *Victimology*.  
   <small>Citováno: [EA-8.2.8 Vazbové trauma (Allen)](@/kompendium/techniques/ea-8-2-8-aprw-attachment-trauma.md)</small>
-- Dutton, D., & Painter, S. L. (1981). *Traumatic bonding: The development of emotional attachments in battered women and other relationships of intermittent abuse*. Victimology.  
-  <small>Citováno: [Polyvagální teorie](@/glossary/polyvagalni-teorie.md), [Sociální izolace](@/glossary/socialni-izolace.md)</small>
+- Dutton, D., Painter, S. L. (1981). *Traumatic Bonding: The Development of Emotional Attachments in Battered Women and Other Relationships of Intermittent Abuse*. Victimology, 6(1–4), 139–155.  
+  <small>Citováno: [Polyvagální teorie](@/glossary/polyvagalni-teorie.md), [Sociální izolace](@/glossary/socialni-izolace.md), [Absolutní epistemická ultraparadoxní metastabilita](@/kompendium/puvodni-taxonomie/absolutni-epistemicka-ultraparadoxni-metastabilita.md)</small>
 - Dutton, M. A., a Goodman, L. A. (2005). Coercion in intimate partner violence: Toward a new conceptualization. *Sex Roles*.  
   <small>Citováno: [Právní úprava coercive control](@/kompendium/forensic-legal/12-coercive-control-law.md), [Ovlivňování svědků](@/kompendium/forensic-legal/15-witness-tampering.md)</small>
 - Dutton, M. A. a Goodman, L. A. (2005). Coercion in intimate partner violence: Toward a new conceptualization. *Sex Roles*, 52(11–12), 743–756.  
@@ -2647,6 +2659,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Historický případ: NXIVM](@/kompendium/historical-cases/18-nxivm.md)</small>
 - Edmondson, S., & Gasbarre, K. (2019). *Scarred: The True Story of How I Escaped NXIVM, the Cult That Bound My Life*. Chronicle Prism.  
   <small>Citováno: [EA-2.2.10 Implantace budoucího vydírání](@/kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md)</small>
+- Edmondsonová, A. (1999). *Psychological Safety and Learning Behavior in Work Teams*. Administrative Science Quarterly, 44(2).  
+  <small>Citováno: [Kognitivní zóny bezpečné syntézy](@/kompendium/puvodni-taxonomie/kognitivni-zony-bezpecne-syntezy.md), [Rekonstrukce transverzální kognitivní integrace](@/kompendium/puvodni-taxonomie/rekonstrukce-transverzalni-kognitivni-integrace.md), [Syndrom epistemické přetlakové komory](@/kompendium/puvodni-taxonomie/syndrom-epistemicke-pretlakove-komory.md)</small>
 - Egger, M., Davey Smith, G., Schneider, M., Minder, C. (1997). Bias in meta-analysis detected by a simple, graphical test.  
   <small>Citováno: [Systematický přehled a metaanalýza](@/kompendium/research-methodology/meta-analysis-EA.md)</small>
 - Ehlers, A., a Clark, D. M. (2000). A Cognitive Model of Posttraumatic Stress Disorder. *Behaviour Research and Therapy*, 38(4), 319–345.  
@@ -2751,6 +2765,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Detekční signatura: Kalibrace teorie mysli (ToM)](@/kompendium/detection-signatures/tom-kalibrace.md)</small>
 - Eppler, M. J., & Mengis, J. (2004). The concept of information overload: A review of literature from organization science, accounting, marketing, MIS, and related disciplines. *The Information Society*, 20(5), 325–344.  
   <small>Citováno: [Sebe-obrana: Informační dieta](@/kompendium/self-defense-guides/33-information-diet.md), [EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md)</small>
+- Eppler, M. J., Mengis, J. (2004). *The Concept of Information Overload*. The Information Society, 20(5).  
+  <small>Citováno: [Syndrom epistemické přetlakové komory](@/kompendium/puvodni-taxonomie/syndrom-epistemicke-pretlakove-komory.md)</small>
 - Epskamp, S., Borsboom, D., Fried, E. I. (2018). Estimating psychological networks and their accuracy: A tutorial paper.  
   <small>Citováno: [Síťová analýza symptomů a sociálních vazeb](@/kompendium/research-methodology/network-analysis-EA.md)</small>
 - Epstein, D., & Goodman, L. A. (2019). *Discounting women: Doubting domestic violence survivors' credibility and dismissing their experiences*. University of Pennsylvania Law Review.  
@@ -2923,7 +2939,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Ferster, C. B., a Skinner, B. F. (1957). *Schedules of Reinforcement*. Appleton-Century-Crofts.  
   <small>Citováno: [Případ 12: Kult vůdcovství](@/kompendium/case-studies/12-leadership-cult.md)</small>
 - Ferster, C. B., & Skinner, B. F. (1957). *Schedules of Reinforcement*. Appleton-Century-Crofts.  
-  <small>Citováno: [Trauma bonding (traumatické pouto)](@/glossary/trauma-bonding.md), [Detekční signatura: Emocionální modulace](@/kompendium/detection-signatures/16-behavioral-emotional-modulation.md)</small>
+  <small>Citováno: [Trauma bonding (traumatické pouto)](@/glossary/trauma-bonding.md), [Detekční signatura: Emocionální modulace](@/kompendium/detection-signatures/16-behavioral-emotional-modulation.md), [Absolutní epistemická ultraparadoxní metastabilita](@/kompendium/puvodni-taxonomie/absolutni-epistemicka-ultraparadoxni-metastabilita.md)</small>
 - Festinger, L. (1954). A theory of social comparison processes. *Human Relations*, 7(2).  
   <small>Citováno: [Případ 01: Akademická supervize – totalizace](@/kompendium/case-studies/01-akademicka-supervize-totalizace.md), [Případ 02: Doktorát jako trojský kůň](@/kompendium/case-studies/02-doktorat-trojan-horse.md)</small>
 - Festinger, L. (1954). A theory of social comparison processes. *Human Relations*, 7(2), 117–140.  
@@ -2935,7 +2951,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Festinger, L. (1957). *A Theory of Cognitive Dissonance.* Stanford: Stanford University Press.  
   <small>Citováno: [Konfirmační bias](@/kompendium/03-zakladni-kategorie/biasy/konfirmacni.md), [Moralistický klam](@/kompendium/argumentacni-fauly/hodnoty-a-veda/moralisticky-klam.md), [Rozlišení bez rozdílu](@/kompendium/argumentacni-fauly/jazykove-klamy/rozliseni-bez-rozdilu.md) a 43 dalších</small>
 - Festinger, L. (1957). *A Theory of Cognitive Dissonance*. Stanford University Press.  
-  <small>Citováno: [Epistemická imploze](@/glossary/epistemicka-imploze.md), [Epistemická krize](@/glossary/epistemicka-krize.md), [Lowballing (technika nízké nabídky)](@/glossary/lowballing.md) a 23 dalších</small>
+  <small>Citováno: [Epistemická imploze](@/glossary/epistemicka-imploze.md), [Epistemická krize](@/glossary/epistemicka-krize.md), [Lowballing (technika nízké nabídky)](@/glossary/lowballing.md) a 26 dalších</small>
 - Festinger, L., a Carlsmith, J. M. (1959). Cognitive consequences of forced compliance. *Journal of Abnormal and Social Psychology*.  
   <small>Citováno: [Případ 68: Kult think-tanku](@/kompendium/case-studies/68-think-tank-cult.md)</small>
 - Festinger, L., & Carlsmith, J. M. (1959). Cognitive Consequences of Forced Compliance.  
@@ -3263,7 +3279,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Frankl, V. E. (1946). *…trotzdem Ja zum Leben sagen*. Wien: Verlag für Jugend und Volk.  
   <small>Citováno: [EA-5.2.18 Heideggerovské rozklady](@/kompendium/techniques/ea-5-2-18-heideggerovska-rozklady.md)</small>
 - Frankl, V. E. (1959). *Man's Search for Meaning*. Beacon Press.  
-  <small>Citováno: [Teleologická dezorientace](@/glossary/teleologicka-dezorientace.md)</small>
+  <small>Citováno: [Teleologická dezorientace](@/glossary/teleologicka-dezorientace.md), [Axiologická dekonstrukce](@/kompendium/puvodni-taxonomie/axiologicka-dekonstrukce.md)</small>
 - Frankl, V. E. (1959). *Man's Search for Meaning*. Boston: Beacon Press.  
   <small>Citováno: [Dlouhodobé prohlubování smyslu](@/kompendium/recovery-protocols/longterm-meaning-deepening.md), [Subakutní rekonstrukce smyslu](@/kompendium/recovery-protocols/subacute-meaning-reconstruction.md)</small>
 - Franzén, T. (2005). *Gödel's Theorem: An Incomplete Guide to Its Use and Abuse*. Wellesley, MA: A K Peters.  
@@ -3323,7 +3339,9 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Freeston, M. H., Rhéaume, J., Letarte, H., Dugas, M. J., & Ladouceur, R. (1994). *Why do people worry?* Personality and Individual Differences.  
   <small>Citováno: [Permanentní zpochybnění](@/glossary/permanentni-zpochybneni.md)</small>
 - Freeston, M. H., Rhéaume, J., Letarte, H., Dugas, M. J., Ladouceur, R. (1994). *Why Do People Worry?* Personality and Individual Differences, 17(6).  
-  <small>Citováno: [Transkonceptuální mechanismy jako rodina vzorců](@/kompendium/puvodni-taxonomie/transkonceptualni-mechanismy.md)</small>
+  <small>Citováno: [Syndrom epistemické přetlakové komory](@/kompendium/puvodni-taxonomie/syndrom-epistemicke-pretlakove-komory.md), [Transkonceptuální mechanismy jako rodina vzorců](@/kompendium/puvodni-taxonomie/transkonceptualni-mechanismy.md)</small>
+- Freeston, M. H., Rhéaume, J., Letarte, H., Dugas, M. J., Ladouceur, R. (1994). *Why Do People Worry?* Personality and Individual Differences, 17(6), 791–802.  
+  <small>Citováno: [Absolutní kognitivní anti-orientace](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anti-orientace.md)</small>
 - Frege, G. (1903). *Grundgesetze der Arithmetik, Band II*. Hermann Pohle.  
   <small>Citováno: [Epistemická imploze](@/glossary/epistemicka-imploze.md)</small>
 - Frei, N. (1996). *Vergangenheitspolitik: Die Anfänge der Bundesrepublik und die NS-Vergangenheit*. C. H. Beck.  
@@ -3361,7 +3379,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Freyd, J. J. (1996). *Betrayal Trauma: The Logic of Forgetting Childhood Abuse*. Harvard  
   <small>Citováno: [7.2 Vztah k epistemickému traumatu — empirická literatura](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md), [Případ 16: Totalizace v psychoterapii](@/kompendium/case-studies/16-psychoterapeut-totalizace.md), [Případ 29: Totalizace na umělecké škole](@/kompendium/case-studies/29-art-school-totalization.md) a 10 dalších</small>
 - Freyd, J. J. (1996). *Betrayal Trauma: The Logic of Forgetting Childhood Abuse*. Harvard University Press.  
-  <small>Citováno: [Betrayal trauma (trauma ze zrady)](@/glossary/betrayal-trauma.md), [C-PTSD (komplexní posttraumatická stresová porucha)](@/glossary/c-ptsd.md), [Disociace](@/glossary/disociace.md) a 63 dalších</small>
+  <small>Citováno: [Betrayal trauma (trauma ze zrady)](@/glossary/betrayal-trauma.md), [C-PTSD (komplexní posttraumatická stresová porucha)](@/glossary/c-ptsd.md), [Disociace](@/glossary/disociace.md) a 64 dalších</small>
 - Freyd, J. J. (1997). *Violations of power, adaptive blindness, and [betrayal trauma](@/glossary/betrayal-trauma.md) theory*. Feminism & Psychology.  
   <small>Citováno: [Coercive control (donucující kontrola)](@/glossary/coercive-control.md), [Testimoniální nespravedlnost](@/glossary/testimonialni-nespravedlnost.md)</small>
 - Freyd, J. J. (1997). Violations of power, adaptive blindness, and betrayal trauma theory.  
@@ -3373,7 +3391,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Freyd, J. J. (1997). Violations of Power, Adaptive Blindness, and Betrayal Trauma Theory. *Feminism & Psychology*, 7(1).  
   <small>Citováno: [Případ 03: Pedagogické gaslighting](@/kompendium/case-studies/03-pedagogicke-gaslighting.md), [Případ 07: Narcistická rodina](@/kompendium/case-studies/07-narcisticka-rodina.md), [Případ 08: Partnerský gaslighting](@/kompendium/case-studies/08-gaslighting-partnersky.md) a 9 dalších</small>
 - Freyd, J. J. (1997). Violations of Power, Adaptive Blindness, and Betrayal Trauma Theory. *Feminism & Psychology*, 7(1), 22–32.  
-  <small>Citováno: [Weaponized incompetence – zneužitá předstíraná neschopnost](@/kompendium/05-ultramari-techniky/weaponized-incompetence.md), [Detekční signatura: Vyhýbání se tématu](@/kompendium/detection-signatures/11-behavioral-topic-evasion.md), [Detekční signatura: Posun rámování](@/kompendium/detection-signatures/4-linguistic-framing-shift.md) a 8 dalších</small>
+  <small>Citováno: [Weaponized incompetence – zneužitá předstíraná neschopnost](@/kompendium/05-ultramari-techniky/weaponized-incompetence.md), [Detekční signatura: Vyhýbání se tématu](@/kompendium/detection-signatures/11-behavioral-topic-evasion.md), [Detekční signatura: Posun rámování](@/kompendium/detection-signatures/4-linguistic-framing-shift.md) a 9 dalších</small>
 - Freyd, J. J., & Birrell, P. (2013). *Blind to Betrayal*. Jossey-Bass.  
   <small>Citováno: [Betrayal trauma (trauma ze zrady)](@/glossary/betrayal-trauma.md), [DARVO](@/glossary/darvo.md)</small>
 - Freyd, J. J., & Birrell, P. J. (2013). *Blind to Betrayal*. Wiley.  
@@ -3395,7 +3413,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University  
   <small>Citováno: [Filozofické tradice](@/kompendium/07-teoreticke-reflexe/filozoficke-tradice/_index.md), [Případ 15: Zdravotnická iatrogenie](@/kompendium/case-studies/15-zdravotnicky-iatrogen.md), [Případ 29: Totalizace na umělecké škole](@/kompendium/case-studies/29-art-school-totalization.md) a 10 dalších</small>
 - Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.  
-  <small>Citováno: [Kompendium epistemické a kognitivní anihilace](@/_index.md), [Akademická technika](@/glossary/akademicka-technika.md), [Coercive control (donucující kontrola)](@/glossary/coercive-control.md) a 172 dalších</small>
+  <small>Citováno: [Kompendium epistemické a kognitivní anihilace](@/_index.md), [Akademická technika](@/glossary/akademicka-technika.md), [Coercive control (donucující kontrola)](@/glossary/coercive-control.md) a 182 dalších</small>
 - Friedman, J., Morris, M. S., Novikov, I. D., Echeverria, F., Klinkhammer, G., Thorne, K. S., & Yurtsever, U. (1990). Cauchy problem in spacetimes with closed timelike curves. *Physical Review D*, 42(6), 1915–1930.  
   <small>Citováno: [EA-5.4.39 Tachyonová anti-kauzalita](@/kompendium/techniques/ea-5-4-39-tachyon-anti-causality.md)</small>
 - Friedman, M. J., Resick, P. A., Bryant, R. A., & Brewin, C. R. (2011). Considering PTSD for  
@@ -3431,7 +3449,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Frost, R. O., Marten, P., Lahart, C., Rosenblate, R. (1990). The dimensions of perfectionism. *Cognitive Therapy and Research*, 14.  
   <small>Citováno: [Perfekcionismus](@/glossary/perfekcionismus.md)</small>
 - Frost, R. O., Marten, P., Lahart, C., & Rosenblate, R. (1990). The dimensions of perfectionism. *Cognitive Therapy and Research*, 14(5), 449–468.  
-  <small>Citováno: [Detekční signatura: Posun rozsahu (scope creep)](@/kompendium/detection-signatures/7-linguistic-scope-creep.md)</small>
+  <small>Citováno: [Detekční signatura: Posun rozsahu (scope creep)](@/kompendium/detection-signatures/7-linguistic-scope-creep.md), [Absolutní kognitivní anankastická paralýza](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anankasticka-paralyza.md)</small>
 - Fruchterman, T. M. J., & Reingold, E. M. (1991). Graph drawing by force-directed placement. *Software: Practice and Experience*, 21(11), 1129–1164.  
   <small>Citováno: [Vizualizace pro sekci 07 – mapa teoretických rámců](@/kompendium/07-teoreticke-reflexe/visualizations.md), [Interaktivní vizualizace](@/kompendium/visualizations/_index.md)</small>
 - Frueh, B. C., Knapp, R. G., Cusack, K. J. a kol. (2005). Patients' reports of traumatic or harmful experiences within the psychiatric setting. *Psychiatric Services*, 56(9), 1123–1133.  
@@ -3492,7 +3510,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Gadamer, H.-G. (1960). *Wahrheit und Methode: Grundzüge einer philosophischen Hermeneutik*. J. C. B. Mohr (Paul Siebeck).  
   <small>Citováno: [Fúze horizontů](@/glossary/fuze-horizontu.md), [Detekční signatura: Cirkulární definice](@/kompendium/detection-signatures/2-linguistic-circular-definitions.md)</small>
 - Gadamer, H.-G. (1960). *Wahrheit und Methode: Grundzüge einer philosophischen Hermeneutik*. Tübingen: J. C. B. Mohr (Paul Siebeck).  
-  <small>Citováno: [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md)</small>
+  <small>Citováno: [Pokročilé operace – kapitola 6: reflexivní a sémantická vrstva](@/kompendium/05-pokrocile-operace/kapitola-6/_index.md), [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md)</small>
 - Gadamer, H.-G. (1960). *Wahrheit und Methode*. J. C. B. Mohr.  
   <small>Citováno: [EA-4.3.8 Hermeneutic recursion](@/kompendium/techniques/ea-4-3-8-hermeneutic-recursion.md), [EA-5.1.13 Hyperreflexivita](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md)</small>
 - Gadamer, H.-G. (1960). *Wahrheit und Methode*. J. C. B. Mohr (Paul Siebeck).  
@@ -3520,7 +3538,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Galatzer-Levy, I. R., Huang, S. H., & Bonanno, G. A. (2018). Trajectories of resilience and dysfunction following potential trauma: A review and statistical evaluation. *Clinical Psychology Review*, 63.  
   <small>Citováno: [Kognitivní trosky](@/glossary/kognitivni-trosky.md)</small>
 - Galison, P. (1997). *Image and Logic: A Material Culture of Microphysics*. University of Chicago Press.  
-  <small>Citováno: [Anti-epistemická demarkace](@/glossary/anti-epistemicka-demarkace.md), [Epistemická fragmentace](@/glossary/epistemicka-fragmentace.md)</small>
+  <small>Citováno: [Anti-epistemická demarkace](@/glossary/anti-epistemicka-demarkace.md), [Epistemická fragmentace](@/glossary/epistemicka-fragmentace.md), [Kognitivní zóny bezpečné syntézy](@/kompendium/puvodni-taxonomie/kognitivni-zony-bezpecne-syntezy.md) a 2 dalších</small>
 - Galison, P. (2004). Removing knowledge. *Critical Inquiry*.  
   <small>Citováno: [Klasifikace informací](@/kompendium/organizational-defense/27-information-classification.md)</small>
 - Gallagher, A. T. (2010). *The International Law of Human Trafficking*. Cambridge University Press.  
@@ -3617,8 +3635,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Esencialistický klam v kategoriích EA](@/kompendium/critical-perspectives/9-essentialism-critique.md)</small>
 - Gentner, D. (1983). Structure-mapping: A theoretical framework for analogy. *Cognitive Science*, 7.  
   <small>Citováno: [Anti-epistemická demarkace](@/glossary/anti-epistemicka-demarkace.md)</small>
-- Gentner, D. (1983). Structure-mapping: A theoretical framework for analogy. *Cognitive Science*, 7(2), 155–170.  
-  <small>Citováno: [Most: Případové studie → Glossary Bridges](@/kompendium/section-bridges/bridge-case-studies-to-glossary-bridges.md)</small>
+- Gentner, D. (1983). *Structure-Mapping: A Theoretical Framework for Analogy*. Cognitive Science, 7(2), 155–170.  
+  <small>Citováno: [Absolutní epistemická anti-analogičnost](@/kompendium/puvodni-taxonomie/absolutni-epistemicka-anti-analogicnost.md), [Most: Případové studie → Glossary Bridges](@/kompendium/section-bridges/bridge-case-studies-to-glossary-bridges.md)</small>
 - Gernsbacher, M. A., & Yergeau, M. (2019). *Empirical failures of the claim that autistic people lack a theory of mind*. Archives of Scientific Psychology.  
   <small>Citováno: [Theory of mind (teorie mysli)](@/glossary/theory-of-mind.md)</small>
 - Gerring, J. (1999). *What makes a concept good? A criterial framework for understanding concept formation in the social sciences*. Polity.  
@@ -3635,12 +3653,16 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [7.47 Johnson: Body in Mind a estetika lidské zkušenosti](@/kompendium/07-teoreticke-reflexe/johnson-body-in-mind.md)</small>
 - Gick, M. L., & Holyoak, K. J. (1980). Analogical problem solving. *Cognitive Psychology*, 12.  
   <small>Citováno: [Anti-epistemická demarkace](@/glossary/anti-epistemicka-demarkace.md)</small>
+- Gick, M. L., Holyoak, K. J. (1980). *Analogical Problem Solving*. Cognitive Psychology, 12(3), 306–355.  
+  <small>Citováno: [Absolutní epistemická anti-analogičnost](@/kompendium/puvodni-taxonomie/absolutni-epistemicka-anti-analogicnost.md), [Rekonstrukce transverzální kognitivní integrace](@/kompendium/puvodni-taxonomie/rekonstrukce-transverzalni-kognitivni-integrace.md)</small>
 - Gick, M. L., & Holyoak, K. J. (1983). Schema induction and analogical transfer. *Cognitive Psychology*, 15(1), 1–38.  
   <small>Citováno: [Most: Případové studie → Glossary Bridges](@/kompendium/section-bridges/bridge-case-studies-to-glossary-bridges.md), [Most: Techniky → Případové studie](@/kompendium/section-bridges/bridge-techniques-to-case-studies.md)</small>
 - Gieryn, T. F. (1983). Boundary-work and the demarcation of science from non-science.  
   <small>Citováno: [EA-2.2.9 Vynucování oborových hranic](@/kompendium/techniques/ea-2-2-9-disciplinary-boundary-coercion.md), [EA-2.4.10 Zachycení odborné společnosti](@/kompendium/techniques/ea-2-4-10-disciplinary-society-capture.md)</small>
 - Gieryn, T. F. (1983). *Boundary-work and the demarcation of science from non-science*. American Sociological Review.  
   <small>Citováno: [Epistemická fragmentace](@/glossary/epistemicka-fragmentace.md)</small>
+- Gieryn, T. F. (1983). *Boundary-Work and the Demarcation of Science from Non-Science*. American Sociological Review, 48(6), 781–795.  
+  <small>Citováno: [Epistemická atomizace](@/kompendium/puvodni-taxonomie/epistemicka-atomizace.md)</small>
 - Gieryn, T. F. (1983). Boundary-work and the demarcation of science from non-science: Strains and interests in professional ideologies of scientists. *American Sociological Review*, 48.  
   <small>Citováno: [Anti-epistemická demarkace](@/glossary/anti-epistemicka-demarkace.md)</small>
 - Giesbrecht, T., Lynn, S. J., Lilienfeld, S. O., & Merckelbach, H. (2008). *Cognitive processes in dissociation: An analysis of core theoretical assumptions*. Psychological Bulletin.  
@@ -3799,6 +3821,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [OSINT: injekce narativu do informačního prostředí](@/kompendium/cross-domain/7-ea-osint-narrative-injection.md)</small>
 - Gollwitzer, P. M. (1999). Implementation intentions: Strong effects of simple plans. *American Psychologist*, 54.  
   <small>Citováno: [Teleologická dezorientace](@/glossary/teleologicka-dezorientace.md)</small>
+- Gollwitzer, P. M. (1999). *Implementation Intentions: Strong Effects of Simple Plans*. American Psychologist, 54(7), 493–503.  
+  <small>Citováno: [Absolutní kognitivní anankastická paralýza](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anankasticka-paralyza.md), [Absolutní kognitivní anti-realizovatelnost](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anti-realizovatelnost.md), [Absolutní kognitivní anti-virtualizace](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anti-virtualizace.md)</small>
 - Goode, E., Ben-Yehuda, N. (1994). *Moral Panics: The Social Construction of Deviance*.  
   <small>Citováno: [Historický případ: Satanská panika](@/kompendium/historical-cases/38-satanic-panic.md)</small>
 - Goodfellow, I., et al. (2014). *Generative Adversarial Networks*. Advances in Neural Information Processing Systems.  
@@ -4047,13 +4071,13 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Hacking, I. (1995). *Rewriting the Soul: Multiple Personality and the Sciences of Memory*. Princeton University Press.  
   <small>Citováno: [Iatrogenní účinky intervencí EA](@/kompendium/critical-perspectives/11-iatrogenic-overreach.md), [Esencialistický klam v kategoriích EA](@/kompendium/critical-perspectives/9-essentialism-critique.md)</small>
 - Hacking, I. (1995). *The looping effects of human kinds*. In D. Sperber, D. Premack, & A. J. Premack (Eds.), *Causal Cognition: A Multidisciplinary Debate*. Clarendon Press.  
-  <small>Citováno: [Intelektuální brutalita](@/glossary/intelektualni-brutalita.md), [Kognitivní trosky](@/glossary/kognitivni-trosky.md), [1.1 Účel kompendia](@/kompendium/01-predmluva/ucel-kompendia.md) a 3 dalších</small>
+  <small>Citováno: [Intelektuální brutalita](@/glossary/intelektualni-brutalita.md), [Kognitivní trosky](@/glossary/kognitivni-trosky.md), [1.1 Účel kompendia](@/kompendium/01-predmluva/ucel-kompendia.md) a 7 dalších</small>
 - Hacking, I. (1995). The looping effects of human kinds. In D. Sperber, D. Premack, & A. J. Premack (Eds.), *Causal Cognition: A Multidisciplinary Debate*. Oxford University Press.  
   <small>Citováno: [Epistemická integrita knihy](@/philosophy/epistemic-integrity.md), [Intelektuální suverenita čtenáře](@/philosophy/intellectual-sovereignty.md)</small>
 - Hacking, I. (1995). The looping effects of human kinds. In D. Sperber, D. Premack, & A. J. Premack (Eds.), *Causal Cognition: A Multidisciplinary Debate* (pp. 351–394). Oxford: Clarendon Press.  
   <small>Citováno: [Bridge: Kompendium EA](@/kompendium/glossary-bridges/bridge-kompendium-ea.md), [Most: Glossary Bridges → Filosofie](@/kompendium/section-bridges/bridge-glossary-bridges-to-philosophy.md)</small>
 - Hacking, I. (1995). The looping effects of human kinds. In D. Sperber, D. Premack, & A. J. Premack (Eds.), *Causal Cognition*. Clarendon Press.  
-  <small>Citováno: [Bridge: Taxonomie EA](@/kompendium/glossary-bridges/bridge-taxonomie-ea.md)</small>
+  <small>Citováno: [Bridge: Taxonomie EA](@/kompendium/glossary-bridges/bridge-taxonomie-ea.md), [Epistemická kvantová delokalizace](@/kompendium/puvodni-taxonomie/epistemicka-kvantova-delokalizace.md), [Epistemická teratogeneze](@/kompendium/puvodni-taxonomie/epistemicka-teratogeneze.md)</small>
 - **Hacking, I.** (1999). *The Social Construction of What?* Cambridge: Harvard University Press. — Kontingence vědeckých kategorií.  
   <small>Citováno: [Bibliografie a primární literatura](@/kompendium/08-prilohy/bibliografie.md)</small>
 - Hacking, I. (1999). *The Social Construction of What?*. Harvard University Press.  
@@ -4158,8 +4182,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Feministická epistemologie](@/kompendium/critical-perspectives/28-feminist-epistemology-alt.md)</small>
 - Harding, S. (1991). *Whose Science? Whose Knowledge? Thinking from Women's Lives*. Cornell University Press.  
   <small>Citováno: [Feministická epistemologie](@/kompendium/critical-perspectives/28-feminist-epistemology-alt.md)</small>
-- Hardwig, J. (1985). Epistemic dependence. *The Journal of Philosophy*, 82(7), 335–349.  
-  <small>Citováno: [Sebe-obrana: Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md)</small>
+- Hardwig, J. (1985). *Epistemic Dependence*. The Journal of Philosophy, 82(7), 335–349.  
+  <small>Citováno: [Absolutní kognitivní anti-distribuce](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anti-distribuce.md), [Absolutní kognitivní anti-mediace](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anti-mediace.md), [Absolutní multisubjektivní fragmentace](@/kompendium/puvodni-taxonomie/absolutni-multisubjektivni-fragmentace.md) a 1 dalších</small>
 - Hare, R. D. (1993). *Without Conscience*. Guilford Press.  
   <small>Citováno: [Theory of mind (teorie mysli)](@/glossary/theory-of-mind.md)</small>
 - Harlow, J. M. (1868). Recovery from the passage of an iron bar through the head. *Publications of the Massachusetts Medical Society*, 2.  
@@ -4233,7 +4257,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Haslam, N. (2016). Concept creep: Psychology's expanding concepts of harm and pathology. *Psychological Inquiry*, 27(1).  
   <small>Citováno: [Medikalizace morálního selhání](@/kompendium/critical-perspectives/1-medicalization-critique.md), [EA jako mocenský nástroj](@/kompendium/critical-perspectives/18-EA-as-power-tool.md), [Patologizace normálních variací](@/kompendium/critical-perspectives/2-pathologization-critique.md) a 6 dalších</small>
 - Haslam, N. (2016). Concept creep: Psychology's expanding concepts of harm and pathology. *Psychological Inquiry*, 27(1), 1–17.  
-  <small>Citováno: [Detekční signatura: Posun rozsahu (scope creep)](@/kompendium/detection-signatures/7-linguistic-scope-creep.md), [Detekční signatura: Sémantická eroze](@/kompendium/detection-signatures/8-linguistic-semantic-erosion.md)</small>
+  <small>Citováno: [Detekční signatura: Posun rozsahu (scope creep)](@/kompendium/detection-signatures/7-linguistic-scope-creep.md), [Detekční signatura: Sémantická eroze](@/kompendium/detection-signatures/8-linguistic-semantic-erosion.md), [Absolutní epistemická anti-autoreferenční paradoxální smyčka](@/kompendium/puvodni-taxonomie/absolutni-epistemicka-anti-autoreferencni-paradoxalni-smycka.md) a 3 dalších</small>
 - Haslam, N., Rothschild, L., & Ernst, D. (2000). Essentialist beliefs about social categories. *British Journal of Social Psychology*, 39(1).  
   <small>Citováno: [Esencialistický klam v kategoriích EA](@/kompendium/critical-perspectives/9-essentialism-critique.md)</small>
 - Haslam, S. A., a Reicher, S. D. (2012). Contesting the „nature“ of conformity: What Milgram and Zimbardo's studies really show. *PLoS Biology*, 10(11).  
@@ -4342,6 +4366,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [EA-8.1.4 Měření coercive control (škály a dotazníky)](@/kompendium/techniques/ea-8-1-4-coercive-control-scale.md)</small>
 - Hegel, G. W. F. (1807). *Phänomenologie des Geistes*.  
   <small>Citováno: [Dialektická anihilace](@/glossary/dialekticka-anihilace.md), [Rekurzivní epistemická negace](@/glossary/rekurzivni-epistemicka-negace.md)</small>
+- Hegel, G. W. F. (1807). *Phänomenologie des Geistes*. Joseph Anton Goebhardt.  
+  <small>Citováno: [Absolutní ontologická hyperkontradiktornost](@/kompendium/puvodni-taxonomie/absolutni-ontologicka-hyperkontradiktornost.md)</small>
 - Hegselmann, R., & Krause, U. (2002). Opinion dynamics and bounded confidence: Models, analysis and simulation. *Journal of Artificial Societies and Social Simulation*.  
   <small>Citováno: [7.6 Computational epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)</small>
 - Heide, F. J., & Borkovec, T. D. (1983). Relaxation-induced anxiety: Paradoxical anxiety enhancement due to relaxation training. *Journal of Consulting and Clinical Psychology*, 51(2), 171–182.  
@@ -4417,7 +4443,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - **Herman, J. L.** (1992). *Trauma and Recovery* — koncept *complex PTSD* zahrnuje identitární narušení jako diagnostický marker u dlouhodobě traumatizovaných subjektů.  
   <small>Citováno: [Epistemická reintegrace](@/glossary/epistemicka-reintegrace.md), [Zakotvená teorie (grounded theory)](@/kompendium/research-methodology/grounded-theory-EA.md), [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) a 33 dalších</small>
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.  
-  <small>Citováno: [Kompendium epistemické a kognitivní anihilace](@/_index.md), [Betrayal trauma (trauma ze zrady)](@/glossary/betrayal-trauma.md), [Tělesné schéma (body schema)](@/glossary/body-schema.md) a 510 dalších</small>
+  <small>Citováno: [Kompendium epistemické a kognitivní anihilace](@/_index.md), [Betrayal trauma (trauma ze zrady)](@/glossary/betrayal-trauma.md), [Tělesné schéma (body schema)](@/glossary/body-schema.md) a 532 dalších</small>
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.  
   <small>Citováno: [Akutní narušení](@/glossary/akutni-naruseni.md), [Depresivní epizoda a depresivní porucha](@/glossary/depresivni-epizoda-a-porucha.md), [1.5 Bezpečnostní klasifikace přístupu](@/kompendium/01-predmluva/bezpecnostni-klasifikace.md) a 389 dalších</small>
 - Herman, J. L. (1992). *Trauma and Recovery: The Aftermath of Violence — From Domestic Abuse to Political Terror*. Basic Books.  
@@ -4555,9 +4581,9 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Hofstadter, D. R. (1979). *Gödel, Escher, Bach: An Eternal Golden Braid*.  
   <small>Citováno: [Sebereference (self-reference)](@/glossary/self-reference.md)</small>
 - Hofstadter, D. R. (1979). *Gödel, Escher, Bach: An Eternal Golden Braid*. Basic Books.  
-  <small>Citováno: [Implozivní rekurze](@/glossary/implozivni-rekurze.md), [Rekurzivní epistemická negace](@/glossary/rekurzivni-epistemicka-negace.md), [Bridge: Kognitivní anti-rekurzivita](@/kompendium/glossary-bridges/bridge-kognitivni-anti-rekurzivita.md)</small>
+  <small>Citováno: [Implozivní rekurze](@/glossary/implozivni-rekurze.md), [Rekurzivní epistemická negace](@/glossary/rekurzivni-epistemicka-negace.md), [Bridge: Kognitivní anti-rekurzivita](@/kompendium/glossary-bridges/bridge-kognitivni-anti-rekurzivita.md) a 1 dalších</small>
 - Hofstadter, D. R. (1979). *Gödel, Escher, Bach: An Eternal Golden Braid*. New York: Basic Books.  
-  <small>Citováno: [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md), [Most: Základní kategorie → Ultramární techniky](@/kompendium/section-bridges/bridge-03-to-05-zakladni-ultramari.md), [Most: Ultramární techniky → Teoretické reflexe](@/kompendium/section-bridges/bridge-05-to-07-ultramari-teorie.md)</small>
+  <small>Citováno: [Pokročilé operace – kapitola 6: reflexivní a sémantická vrstva](@/kompendium/05-pokrocile-operace/kapitola-6/_index.md), [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md), [Most: Základní kategorie → Ultramární techniky](@/kompendium/section-bridges/bridge-03-to-05-zakladni-ultramari.md) a 1 dalších</small>
 - Hofstadter, D. R. (2007). *I Am a Strange Loop*.  
   <small>Citováno: [Sebereference (self-reference)](@/glossary/self-reference.md)</small>
 - Hofstadter, R. (1964). The paranoid style in American politics. *Harper's Magazine*, listopad 1964.  
@@ -4744,10 +4770,14 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Husserlova retence](@/glossary/husserl-retence.md)</small>
 - Husserl, E. (1928). *Vorlesungen zur Phänomenologie des inneren Zeitbewußtseins* (ed. M. Heidegger). Halle: Max Niemeyer.  
   <small>Citováno: [Pre-predikativní zkušenost (vorprädikative Erfahrung)](@/glossary/pre-predikativni-zkusenost.md)</small>
+- Husserl, E. (1928). *Vorlesungen zur Phänomenologie des inneren Zeitbewußtseins* (Hrsg. M. Heidegger). Halle: Max Niemeyer.  
+  <small>Citováno: [Pokročilé operace – kapitola 6: reflexivní a sémantická vrstva](@/kompendium/05-pokrocile-operace/kapitola-6/_index.md)</small>
 - Husserl, E. (1928). *Vorlesungen zur Phänomenologie des inneren Zeitbewußtseins* (M. Heidegger, Ed.). Halle: Max Niemeyer.  
   <small>Citováno: [Kapitola 7: Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md)</small>
 - Husserl, E. (1928). *Vorlesungen zur Phänomenologie des inneren Zeitbewußtseins* (M. Heidegger, Ed.). Max Niemeyer.  
   <small>Citováno: [Sebe-obrana: Časové sešívání já](@/kompendium/self-defense-guides/49-temporal-self-stitching.md)</small>
+- Husserl, E. (1931). *Cartesianische Meditationen und Pariser Vorträge*. Martinus Nijhoff.  
+  <small>Citováno: [Absolutní multisubjektivní fragmentace](@/kompendium/puvodni-taxonomie/absolutni-multisubjektivni-fragmentace.md)</small>
 - Husserl, E. (1931). *Méditations cartésiennes* (Karteziánské meditace).  
   <small>Citováno: [Konstitutivní akt](@/glossary/konstitutivni-akt.md)</small>
 - **Husserl, E.** (1936). *Die Krisis der europäischen Wissenschaften und die transzendentale Phänomenologie*. — Životní svět (*[Lebenswelt](@/glossary/lebenswelt.md)*), krize evropských věd.  
@@ -4793,7 +4823,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Hutchins, E. (1980). *Culture and Inference: A Trobriand Case Study*. Harvard University Press.  
   <small>Citováno: [7.48 Hutchins: Distribuovaná kognice a kulturní artefakty](@/kompendium/07-teoreticke-reflexe/hutchins-distributed-cognition.md)</small>
 - Hutchins, E. (1995). *Cognition in the Wild*. MIT Press.  
-  <small>Citováno: [7.41 Clark: Rozšířená mysl a kognitivní artefakty](@/kompendium/07-teoreticke-reflexe/clark-extended-mind.md), [Systémová teorie jako alternativa](@/kompendium/critical-perspectives/21-systems-theory-alternative.md), [EA-7.3.4 Clark: Rozšířená mysl](@/kompendium/techniques/ea-7-3-4-clark-extended-mind.md)</small>
+  <small>Citováno: [7.41 Clark: Rozšířená mysl a kognitivní artefakty](@/kompendium/07-teoreticke-reflexe/clark-extended-mind.md), [Systémová teorie jako alternativa](@/kompendium/critical-perspectives/21-systems-theory-alternative.md), [Absolutní kognitivní anti-distribuce](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anti-distribuce.md) a 1 dalších</small>
 - Hutchins, E. (1995a). *Cognition in the Wild*. MIT Press.  
   <small>Citováno: [7.48 Hutchins: Distribuovaná kognice a kulturní artefakty](@/kompendium/07-teoreticke-reflexe/hutchins-distributed-cognition.md)</small>
 - Hutchins, E. (1995b). How a cockpit remembers its speeds. *Cognitive Science*, 19(3), 265–288.  
@@ -4913,7 +4943,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - James, W. (1902). *The Varieties of Religious Experience*. Longmans, Green & Co.  
   <small>Citováno: [Ego death (rozpuštění ega)](@/glossary/ego-death.md)</small>
 - James, W. (1902). *The Varieties of Religious Experience*. New York: Longmans, Green.  
-  <small>Citováno: [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md), [EA-5.2.15 Transcendentální imploze](@/kompendium/techniques/ea-5-2-15-transcendentalni-implosion.md), [EA-5.2.16 Kantovská paradoxie](@/kompendium/techniques/ea-5-2-16-kantovska-paradoxie.md) a 1 dalších</small>
+  <small>Citováno: [Pokročilé operace – kapitola 6: reflexivní a sémantická vrstva](@/kompendium/05-pokrocile-operace/kapitola-6/_index.md), [Pokročilé techniky – kapitola 6: vyvozování, rozlišování a konvergence](@/kompendium/05-pokrocile-techniky/kapitola-6/_index.md), [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md) a 3 dalších</small>
 - James, W. (1909). *A Pluralistic Universe*.  
   <small>Citováno: [Pluralismus](@/glossary/pluralismus.md)</small>
 - Jamieson, K. H. (2018). *Cyberwar: How Russian Hackers and Trolls Helped Elect a President*.  
@@ -4945,7 +4975,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Janoff-Bulman, R. (1992). *Shattered Assumptions: Towards a New Psychology of Trauma*. Free  
   <small>Citováno: [7.2 Vztah k epistemickému traumatu — empirická literatura](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md)</small>
 - Janoff-Bulman, R. (1992). *Shattered Assumptions: Towards a New Psychology of Trauma*. Free Press.  
-  <small>Citováno: [Epistemická imploze](@/glossary/epistemicka-imploze.md), [Epistemická krize](@/glossary/epistemicka-krize.md), [Fázovaný rozklad psychiky](@/glossary/fazovany-rozklad-psychiky.md) a 7 dalších</small>
+  <small>Citováno: [Epistemická imploze](@/glossary/epistemicka-imploze.md), [Epistemická krize](@/glossary/epistemicka-krize.md), [Fázovaný rozklad psychiky](@/glossary/fazovany-rozklad-psychiky.md) a 9 dalších</small>
 - Janoff-Bulman, R. (1992). *Shattered Assumptions: Towards a New Psychology of Trauma*. New York:  
   <small>Citováno: [Subakutní rekonstrukce smyslu](@/kompendium/recovery-protocols/subacute-meaning-reconstruction.md)</small>
 - Janoff-Bulman, R. (1992). *Shattered Assumptions: Towards a New Psychology of Trauma*. New York: Free Press.  
@@ -5107,6 +5137,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Bibliografie a primární literatura](@/kompendium/08-prilohy/bibliografie.md)</small>
 - Kahneman, D., & Tversky, A. (1979). Prospect Theory. *Econometrica*.  
   <small>Citováno: [EA-7.3.2 Tversky a Kahneman: Heuristiky](@/kompendium/techniques/ea-7-3-2-tversky-heuristics.md)</small>
+- Kahneman, D., Tversky, A. (1982). *The Simulation Heuristic*. In D. Kahneman, P. Slovic, A. Tversky (Eds.), *Judgment under Uncertainty: Heuristics and Biases*. Cambridge University Press.  
+  <small>Citováno: [Absolutní kognitivní anti-virtualizace](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anti-virtualizace.md)</small>
 - Kaiser, B. (2019). *Targeted*. Harper.  
   <small>Citováno: [Historický případ: Cambridge Analytica](@/kompendium/historical-cases/23-cambridge-analytica.md), [EA-8.3.6 Literatura k současným případům](@/kompendium/techniques/ea-8-3-6-contemporary-cases.md)</small>
 - Kaiser, K. (2009). Protecting respondent confidentiality in qualitative research. *Qualitative Health Research*, 19(11), 1632–1641.  
@@ -5129,6 +5161,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Kapitola 7: Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md)</small>
 - Kant, I. (1781). *Kritik der reinen Vernunft*.  
   <small>Citováno: [Dialektická anihilace](@/glossary/dialekticka-anihilace.md), [Ontologická anihilace](@/glossary/ontologicka-anihilace.md)</small>
+- Kant, I. (1781). *Kritik der reinen Vernunft*. Johann Friedrich Hartknoch.  
+  <small>Citováno: [Absolutní ontologická hyperkontradiktornost](@/kompendium/puvodni-taxonomie/absolutni-ontologicka-hyperkontradiktornost.md)</small>
 - Kant, I. (1781). *Kritik der reinen Vernunft*. Riga: J. F. Hartknoch.  
   <small>Citováno: [Most: Ultramární techniky → Teoretické reflexe](@/kompendium/section-bridges/bridge-05-to-07-ultramari-teorie.md)</small>
 - Kant, I. (1784). *Beantwortung der Frage: Was ist Aufklärung?* Berlinische Monatsschrift.  
@@ -5266,7 +5300,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Kern, D. E., Thomas, P. A., & Hughes, M. T. (2009). *Curriculum Development for Medical Education: A Six-Step Approach* (2. vyd.). Johns Hopkins University Press.  
   <small>Citováno: [EA-3.3.3 Architektura kurikula](@/kompendium/techniques/ea-3-3-3-curriculum-architecture.md)</small>
 - Kernberg, O. F. (1975). *Borderline Conditions and Pathological Narcissism*. Jason Aronson.  
-  <small>Citováno: [Testování reality (reality testing)](@/glossary/reality-testing.md)</small>
+  <small>Citováno: [Testování reality (reality testing)](@/glossary/reality-testing.md), [Absolutní kognitivní anti-komplementarita](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anti-komplementarita.md)</small>
 - Kerr, M. E., a Bowen, M. (1988). *Family Evaluation*. New York: Norton.  
   <small>Citováno: [Incompetence – protokol zotavení po zneužité neschopnosti](@/kompendium/recovery-protocols/incompetence.md)</small>
 - Kerr, M. E., & Bowen, M. (1988). *Family Evaluation*. Norton.  
@@ -5380,7 +5414,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Klein, G. (2007). Performing a project premortem. *Harvard Business Review*, 85(9), 18–19.  
   <small>Citováno: [Bridge: Red Team (červený tým)](@/kompendium/glossary-bridges/bridge-red-team.md), [Sebe-obrana: Osobní audit zkreslení](@/kompendium/self-defense-guides/38-bias-audit-personal.md)</small>
 - Klein, J. T. (1990). *Interdisciplinarity: History, Theory, and Practice*. Wayne State University Press.  
-  <small>Citováno: [Epistemická fragmentace](@/glossary/epistemicka-fragmentace.md)</small>
+  <small>Citováno: [Epistemická fragmentace](@/glossary/epistemicka-fragmentace.md), [Epistemická atomizace](@/kompendium/puvodni-taxonomie/epistemicka-atomizace.md), [Kognitivní zóny bezpečné syntézy](@/kompendium/puvodni-taxonomie/kognitivni-zony-bezpecne-syntezy.md) a 1 dalších</small>
 - Klein, R. A. a kol. (2014). Investigating variation in replicability: A „Many Labs“ replication project.  
   <small>Citováno: [Replikace a ověřování nálezů](@/kompendium/research-methodology/replication-EA-research.md)</small>
 - Klein, R. A., et al. (2014). *Investigating variation in replicability: A „many labs“ replication project*. Social Psychology.  
@@ -5566,7 +5600,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Kuhn, T. S. (1962). *The Structure of Scientific Revolutions.* Chicago: University of Chicago Press.  
   <small>Citováno: [Falsifikovatelnost – kritérium jako kategorie analýzy](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md), [Lakatos – výzkumné programy jako kategorie analýzy](@/kompendium/03-zakladni-kategorie/lakatos.md), [Paradigma – protokol archeologie rámce](@/kompendium/recovery-protocols/paradigm.md) a 3 dalších</small>
 - Kuhn, T. S. (1962). *The Structure of Scientific Revolutions*. University of Chicago Press.  
-  <small>Citováno: [Anti-epistemická demarkace](@/glossary/anti-epistemicka-demarkace.md), [Demarkační problém](@/glossary/demarkacni-problem.md), [Epistemická imploze](@/glossary/epistemicka-imploze.md) a 33 dalších</small>
+  <small>Citováno: [Anti-epistemická demarkace](@/glossary/anti-epistemicka-demarkace.md), [Demarkační problém](@/glossary/demarkacni-problem.md), [Epistemická imploze](@/glossary/epistemicka-imploze.md) a 38 dalších</small>
 - Kuhn, T. S. (1970). *The Structure of Scientific Revolutions* (2nd ed., s Doslovem z roku 1969). University of Chicago Press.  
   <small>Citováno: [7.11 Kuhn: Paradigmatické revoluce a inkomensurabilita](@/kompendium/07-teoreticke-reflexe/kuhn-paradigmaticke-revoluce.md)</small>
 - Kuhn, T. S. (1970). *The Structure of Scientific Revolutions* (2nd ed., with a Postscript). University of Chicago Press.  
@@ -5687,7 +5721,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - **Lakoff, G., & Johnson, M.** (1980). *Metaphors We Live By*. Chicago: University of Chicago Press. — Konceptuální metafora.  
   <small>Citováno: [Bibliografie a primární literatura](@/kompendium/08-prilohy/bibliografie.md), [Čtyři termíny](@/kompendium/argumentacni-fauly/formalni/ctyri-terminy.md), [Klamy jazyka a dvojznačnosti](@/kompendium/argumentacni-fauly/jazykove-klamy/_index.md) a 49 dalších</small>
 - Lakoff, G., & Johnson, M. (1980). *Metaphors We Live By*. University of Chicago Press.  
-  <small>Citováno: [Embodied cognition (vtělená kognice)](@/glossary/embodied-cognition.md), [Loading the language](@/glossary/loading-the-language.md), [7.46 Lakoff: Konceptuální metafora a politické rámce](@/kompendium/07-teoreticke-reflexe/lakoff-conceptual-metaphor.md) a 4 dalších</small>
+  <small>Citováno: [Embodied cognition (vtělená kognice)](@/glossary/embodied-cognition.md), [Loading the language](@/glossary/loading-the-language.md), [7.46 Lakoff: Konceptuální metafora a politické rámce](@/kompendium/07-teoreticke-reflexe/lakoff-conceptual-metaphor.md) a 5 dalších</small>
 - Lakoff, G., & Johnson, M. (1999). *Philosophy in the Flesh: The Embodied Mind and Its Challenge to Western Thought*. Basic Books.  
   <small>Citováno: [7.47 Johnson: Body in Mind a estetika lidské zkušenosti](@/kompendium/07-teoreticke-reflexe/johnson-body-in-mind.md)</small>
 - Lalich, J. (2004). *[Bounded Choice](@/glossary/bounded-choice.md): True Believers and Charismatic Cults*.  
@@ -5701,7 +5735,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Lalich, J. (2004). *Bounded Choice: True Believers and Charismatic Cults*. University of  
   <small>Citováno: [Případ 25: Odchod z extrémní levice (marxisticko-leninská sekta)](@/kompendium/case-studies/25-extremni-leve-exit.md), [Kulturní průzkum s EA detekcí](@/kompendium/organizational-defense/15-culture-survey-EA.md)</small>
 - Lalich, J. (2004). *Bounded Choice: True Believers and Charismatic Cults*. University of California Press.  
-  <small>Citováno: [BITE model](@/glossary/bite-model.md), [Bounded choice](@/glossary/bounded-choice.md), [High-control group (skupina s vysokou mírou kontroly)](@/glossary/high-control-group.md) a 41 dalších</small>
+  <small>Citováno: [BITE model](@/glossary/bite-model.md), [Bounded choice](@/glossary/bounded-choice.md), [High-control group (skupina s vysokou mírou kontroly)](@/glossary/high-control-group.md) a 42 dalších</small>
 - Lalich, J. (2004). *Bounded Choice*. University of California Press.  
   <small>Citováno: [EA-8.3.5 Literatura k historickým případům](@/kompendium/techniques/ea-8-3-5-historical-cases.md), [EA-8.3.9 Literatura cult studies](@/kompendium/techniques/ea-8-3-9-cult-studies-literature.md)</small>
 - Lalich, J. a Tobias, M. (2006). *Take Back Your Life: Recovering from Cults and Abusive Relationships* (2. vyd.). Bay Tree Publishing.  
@@ -5747,7 +5781,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Lamont, M. (2009). *How Professors Think: Inside the Curious World of Academic Judgment*.  
   <small>Citováno: [EA-2.1.10 Rekonfigurace kvalifikačních standardů](@/kompendium/techniques/ea-2-1-10-credentials-rekonfigurace.md), [EA-2.1.4 Publikační blokace](@/kompendium/techniques/ea-2-1-4-publikacni-blokace.md), [EA-2.1.6 Útok na financování (funding attack)](@/kompendium/techniques/ea-2-1-6-funding-attack.md) a 3 dalších</small>
 - Lamont, M. (2009). *How Professors Think: Inside the Curious World of Academic Judgment*. Harvard University Press.  
-  <small>Citováno: [Epistemická fragmentace](@/glossary/epistemicka-fragmentace.md), [Epistemická hyperinflace](@/glossary/epistemicka-hyperinflace.md)</small>
+  <small>Citováno: [Epistemická fragmentace](@/glossary/epistemicka-fragmentace.md), [Epistemická hyperinflace](@/glossary/epistemicka-hyperinflace.md), [Epistemická atomizace](@/kompendium/puvodni-taxonomie/epistemicka-atomizace.md)</small>
 - Landrum, A. R., Olshansky, A., & Richards, O. (2021). Differential susceptibility to misleading flat earth arguments on YouTube. *Media Psychology*.  
   <small>Citováno: [Případ 54: Zotavení z flat-earth komunity](@/kompendium/case-studies/54-flat-earth-recovery.md)</small>
 - Lane, J. D., & Wegner, D. M. (1995). The cognitive consequences of secrecy. *Journal of Personality and Social Psychology*.  
@@ -5892,6 +5926,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Případ 32: Totalizace v doktorském programu](@/kompendium/case-studies/32-graduate-program-totalization.md)</small>
 - Levecque, K., Anseel, F., De Beuckelaer, A., Van der Heyden, J., a Gisle, L. (2017). Work organization and mental health problems in PhD students. *Research Policy*, 46(4).  
   <small>Citováno: [Případ 01: Akademická supervize – totalizace](@/kompendium/case-studies/01-akademicka-supervize-totalizace.md), [Případ 02: Doktorát jako trojský kůň](@/kompendium/case-studies/02-doktorat-trojan-horse.md)</small>
+- Levecque, K., Anseel, F., De Beuckelaer, A., Van der Heyden, J., Gisle, L. (2017). *Work Organization and Mental Health Problems in PhD Students*. Research Policy, 46(4).  
+  <small>Citováno: [Syndrom epistemické přetlakové komory](@/kompendium/puvodni-taxonomie/syndrom-epistemicke-pretlakove-komory.md)</small>
 - Leverick, F. (2020). *What do we know about rape myths and juror decision making?* International Journal of Evidence & Proof.  
   <small>Citováno: [Poučení poroty v kauzách EA](@/kompendium/forensic-legal/30-jury-instruction-EA.md)</small>
 - Leveson, N. G. (2011). *Engineering a Safer World: Systems Thinking Applied to Safety*. MIT Press.  
@@ -6049,7 +6085,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. Norton.  
   <small>Citováno: [Double bind (dvojná vazba)](@/glossary/double-bind.md), [Edukativní implementace](@/glossary/edukativni-implementace.md), [Ego death (rozpuštění ega)](@/glossary/ego-death.md) a 24 dalších</small>
 - Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.  
-  <small>Citováno: [BITE model](@/glossary/bite-model.md), [Bounded choice](@/glossary/bounded-choice.md), [Destruktivní sokratovská metoda](@/glossary/destruktivni-sokratovska-metoda.md) a 291 dalších</small>
+  <small>Citováno: [BITE model](@/glossary/bite-model.md), [Bounded choice](@/glossary/bounded-choice.md), [Destruktivní sokratovská metoda](@/glossary/destruktivni-sokratovska-metoda.md) a 305 dalších</small>
 - Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology  
   <small>Citováno: [EA-1.6.2 Vzorec epistemický trojský kůň](@/kompendium/techniques/ea-1-6-2-vzorec-epistemicky-trojsky-kun.md)</small>
 - **Lifton, R. J.** (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism* — osm kritérií totalitního prostředí (mileu control, mystická manipulace, požadavek čistoty, kult zpovědi, posvátná věda, jazyková zatížení, doktrína nad osobou, dispense existence) je dodnes referenční rámec pro analýzu high-control skupin.  
@@ -6059,7 +6095,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. Norton.  
   <small>Citováno: [Dialektická anihilace](@/glossary/dialekticka-anihilace.md), [Diskurzivní anihilace](@/glossary/diskurzivni-anihilace.md), [Epistemická disoluční komora](@/glossary/epistemicka-disolucni-komora.md) a 7 dalších</small>
 - Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.  
-  <small>Citováno: [Anti-epistemická demarkace](@/glossary/anti-epistemicka-demarkace.md), [Epistemická derealizace](@/glossary/epistemicka-derealizace.md), [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) a 6 dalších</small>
+  <small>Citováno: [Anti-epistemická demarkace](@/glossary/anti-epistemicka-demarkace.md), [Epistemická derealizace](@/glossary/epistemicka-derealizace.md), [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) a 11 dalších</small>
 - Lifton, R. J. (1968). *Revolutionary Immortality: Mao Tse-tung and the Chinese Cultural Revolution*. Random House.  
   <small>Citováno: [Historický případ: Maoistická kulturní revoluce](@/kompendium/historical-cases/2-maoist-cultural-revolution.md)</small>
 - Lifton, R. J. (1986). *The Nazi Doctors*.  
@@ -6106,6 +6142,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Náhrada vedení](@/kompendium/organizational-defense/38-leadership-replacement.md)</small>
 - Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K., & Britton, W. B. (2017). The varieties of contemplative experience: A mixed-methods study of meditation-related challenges in Western Buddhists. *PLoS ONE*, 12(5), e0176239.  
   <small>Citováno: [Ego death (rozpuštění ega)](@/glossary/ego-death.md), [Egologická dezintegrace](@/glossary/egologicka-dezintegrace.md), [Epistemická disoluční komora](@/glossary/epistemicka-disolucni-komora.md) a 35 dalších</small>
+- Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K., Britton, W. B. (2017). *The Varieties of Contemplative Experience*. PLOS ONE, 12(5).  
+  <small>Citováno: [Epistemická kvantová delokalizace](@/kompendium/puvodni-taxonomie/epistemicka-kvantova-delokalizace.md), [Epistemická teratogeneze](@/kompendium/puvodni-taxonomie/epistemicka-teratogeneze.md), [Hyperbolická eskalace](@/kompendium/puvodni-taxonomie/hyperbolicka-eskalace.md) a 3 dalších</small>
 - Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K., & Britton, W. B. (2017). The varieties of contemplative experience. *PLoS ONE*, 12(5), e0176239.  
   <small>Citováno: [Most: Etický rámec → Ultramární techniky](@/kompendium/section-bridges/bridge-01-to-05-eticky-ramec-ultramari.md), [Most: Ultramární techniky → Teoretické reflexe](@/kompendium/section-bridges/bridge-05-to-07-ultramari-teorie.md), [EA-5.2.14 Konstitutivní zhroucení](@/kompendium/techniques/ea-5-2-14-konstitutivni-zhrouceni.md) a 13 dalších</small>
 - Linden, M. (2013). *How to define, find and classify side effects in psychotherapy*. Clinical Psychology & Psychotherapy.  
@@ -6117,7 +6155,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Linehan, M. M. (1993). *Cognitive-Behavioral Treatment of Borderline Personality  
   <small>Citováno: [EA-8.3.2 Klinické příručky](@/kompendium/techniques/ea-8-3-2-clinical-handbook.md)</small>
 - Linehan, M. M. (1993). *Cognitive-Behavioral Treatment of Borderline Personality Disorder*. Guilford Press.  
-  <small>Citováno: [Dialektická anihilace](@/glossary/dialekticka-anihilace.md), [Kapitola 4: Extrémní výcviková sekvence](@/kompendium/04-terminalni-protokoly/kapitola-4.md), [Detekční signatura: Emocionální modulace](@/kompendium/detection-signatures/16-behavioral-emotional-modulation.md) a 11 dalších</small>
+  <small>Citováno: [Dialektická anihilace](@/glossary/dialekticka-anihilace.md), [Kapitola 4: Extrémní výcviková sekvence](@/kompendium/04-terminalni-protokoly/kapitola-4.md), [Detekční signatura: Emocionální modulace](@/kompendium/detection-signatures/16-behavioral-emotional-modulation.md) a 13 dalších</small>
 - Linehan, M. M. (1993). *Skills Training Manual for Treating Borderline Personality Disorder*.  
   <small>Citováno: [Obnova dovedností](@/kompendium/prevention-resilience/23-skills-rebuilding-program.md), [Akutní somatická regulace](@/kompendium/recovery-protocols/acute-somatic-regulation.md), [Středně-dobé obnovení kompetencí](@/kompendium/recovery-protocols/midterm-skill-rebuilding.md) a 1 dalších</small>
 - Linehan, M. M. (2015). *DBT Skills Training Manual* (2. vyd.). Guilford Press.  
@@ -6169,7 +6207,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Litz, B. T., Stein, N., Delaney, E., Lebowitz, L., Nash, W. P., Silva, C., a Maguen, S. (2009). Moral injury and moral repair in war veterans: A preliminary model and intervention strategy. *Clinical Psychology Review*.  
   <small>Citováno: [Případ 60: Rámec „masové formace“ a pandemická polarizace](@/kompendium/case-studies/60-mass-formation-psychosis.md), [Případ 68: Kult think-tanku](@/kompendium/case-studies/68-think-tank-cult.md)</small>
 - Litz, B. T., Stein, N., Delaney, E., Lebowitz, L., Nash, W. P., Silva, C., & Maguen, S. (2009). Moral injury and moral repair in war veterans: A preliminary model and intervention strategy. *Clinical Psychology Review*, 29(8), 695–706.  
-  <small>Citováno: [Teleologická dezorientace](@/glossary/teleologicka-dezorientace.md), [7.31 MacIntyre: After Virtue a krize morálního jazyka](@/kompendium/07-teoreticke-reflexe/macintyre-after-virtue.md), [Případ 46: Politická totalizace v poslanecké kanceláři](@/kompendium/case-studies/46-political-totalizace.md) a 2 dalších</small>
+  <small>Citováno: [Teleologická dezorientace](@/glossary/teleologicka-dezorientace.md), [7.31 MacIntyre: After Virtue a krize morálního jazyka](@/kompendium/07-teoreticke-reflexe/macintyre-after-virtue.md), [Případ 46: Politická totalizace v poslanecké kanceláři](@/kompendium/case-studies/46-political-totalizace.md) a 3 dalších</small>
 - Livingstone, S., a Helsper, E. J. (2008). Parental mediation of children's internet use. *Journal of Broadcasting & Electronic Media*.  
   <small>Citováno: [Případ 79: Kult discordového serveru](@/kompendium/case-studies/79-discord-server-cult.md)</small>
 - Lo, B., Field, M. J. (eds.) (2009). *Conflict of Interest in Medical Research, Education, and Practice.*  
@@ -6179,7 +6217,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Locard, H. (2004). *Pol Pot's Little Red Book: The Sayings of Angkar*. Silkworm Books.  
   <small>Citováno: [Historický případ: Rudí Khmerové](@/kompendium/historical-cases/3-khmer-rouge.md)</small>
 - Locke, E. A., & Latham, G. P. (1990). *A Theory of Goal Setting and Task Performance*. Prentice Hall.  
-  <small>Citováno: [Teleologická dezorientace](@/glossary/teleologicka-dezorientace.md)</small>
+  <small>Citováno: [Teleologická dezorientace](@/glossary/teleologicka-dezorientace.md), [Absolutní kognitivní anti-virtualizace](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anti-virtualizace.md)</small>
 - Loewenstein, G. (1996). Out of control: Visceral influences on behavior. *Organizational Behavior and Human Decision Processes*, 65(3), 272–292.  
   <small>Citováno: [Sebe-obrana: Časově odložené hodnocení](@/kompendium/self-defense-guides/37-time-locked-evaluation.md)</small>
 - Loewenstein, G. F., Weber, E. U., Hsee, C. K., & Welch, N. (2001). *Risk as feelings*. Psychological Bulletin.  
@@ -6195,7 +6233,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Loftus, E. F. (1979). *Eyewitness Testimony*. Cambridge, MA: Harvard University Press.  
   <small>Citováno: [Vzdělávací scénář: Koordinace na více cílech](@/kompendium/educational-scenarios/28-multi-target-coordination.md)</small>
 - Loftus, E. F. (1979). *Eyewitness Testimony*. Harvard University Press.  
-  <small>Citováno: [Rekonstrukce časové osy](@/kompendium/forensic-legal/33-timeline-reconstruction.md), [Komunikační politika](@/kompendium/organizational-defense/23-communication-policy.md), [Dokumentační standardy](@/kompendium/organizational-defense/24-documentation-standards.md)</small>
+  <small>Citováno: [Rekonstrukce časové osy](@/kompendium/forensic-legal/33-timeline-reconstruction.md), [Komunikační politika](@/kompendium/organizational-defense/23-communication-policy.md), [Dokumentační standardy](@/kompendium/organizational-defense/24-documentation-standards.md) a 1 dalších</small>
 - Loftus, E. F. (1993). The reality of repressed memories.  
   <small>Citováno: [Replikace a ověřování nálezů](@/kompendium/research-methodology/replication-EA-research.md)</small>
 - Loftus, E. F. (1993). *The reality of repressed memories*. American Psychologist.  
@@ -6350,7 +6388,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - MacIntyre, A. (1981). *After Virtue: A Study in Moral Theory*. Duckworth; University of Notre Dame Press.  
   <small>Citováno: [7.31 MacIntyre: After Virtue a krize morálního jazyka](@/kompendium/07-teoreticke-reflexe/macintyre-after-virtue.md)</small>
 - MacIntyre, A. (1981). *After Virtue: A Study in Moral Theory*. University of Notre Dame Press.  
-  <small>Citováno: [Narrative identity (narativní identita – filosofické pojetí)](@/glossary/narrative-identity.md), [7.32 Taylor: Sources of Self a moderní identita](@/kompendium/07-teoreticke-reflexe/taylor-sources-of-self.md), [EA-5.4.52 Paradox lodi sebe sama](@/kompendium/techniques/ea-5-4-52-ship-of-self-paradox.md)</small>
+  <small>Citováno: [Narrative identity (narativní identita – filosofické pojetí)](@/glossary/narrative-identity.md), [7.32 Taylor: Sources of Self a moderní identita](@/kompendium/07-teoreticke-reflexe/taylor-sources-of-self.md), [Axiologická dekonstrukce](@/kompendium/puvodni-taxonomie/axiologicka-dekonstrukce.md) a 1 dalších</small>
 - MacIntyre, A. (1981). *After Virtue*. University of Notre Dame Press.  
   <small>Citováno: [Narativní identita (narrative identity)](@/glossary/narativni-identita.md)</small>
 - MacIntyre, A. (1988). *Whose Justice? Which Rationality?* University of Notre Dame Press.  
@@ -6408,7 +6446,9 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Maier, S. F., & Seligman, M. E. P. (2016). Learned helplessness at fifty: Insights from neuroscience. *Psychological Review*, 123.  
   <small>Citováno: [Kognitivní rozklad](@/glossary/kognitivni-rozklad.md), [Kognitivní trosky](@/glossary/kognitivni-trosky.md)</small>
 - Maier, S. F., Seligman, M. E. P. (2016). *Learned Helplessness at Fifty: Insights from Neuroscience*. Psychological Review, 123(4).  
-  <small>Citováno: [Epistemická singularita jako rodina vzorců](@/kompendium/puvodni-taxonomie/epistemicka-singularita-rodina.md), [Transkonceptuální mechanismy jako rodina vzorců](@/kompendium/puvodni-taxonomie/transkonceptualni-mechanismy.md)</small>
+  <small>Citováno: [Epistemická kvantová delokalizace](@/kompendium/puvodni-taxonomie/epistemicka-kvantova-delokalizace.md), [Epistemická singularita jako rodina vzorců](@/kompendium/puvodni-taxonomie/epistemicka-singularita-rodina.md), [Epistemická teratogeneze](@/kompendium/puvodni-taxonomie/epistemicka-teratogeneze.md) a 3 dalších</small>
+- Maier, S. F., Seligman, M. E. P. (2016). *Learned Helplessness at Fifty: Insights from Neuroscience*. Psychological Review, 123(4), 349–367.  
+  <small>Citováno: [Absolutní kognitivní anankastická paralýza](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anankasticka-paralyza.md), [Absolutní kognitivní anti-komplementarita](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anti-komplementarita.md), [Absolutní kognitivní anti-realizovatelnost](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anti-realizovatelnost.md) a 1 dalších</small>
 - Main, M., & Hesse, E. (1990). Parents' Unresolved Traumatic Experiences Are Related to  
   <small>Citováno: [EA-8.2.8 Vazbové trauma (Allen)](@/kompendium/techniques/ea-8-2-8-aprw-attachment-trauma.md)</small>
 - Main, M., & Solomon, J. (1990). Procedures for Identifying Infants as Disorganized/  
@@ -6612,9 +6652,9 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - McAdams, D. P. (2001). *The psychology of life stories*. Review of General Psychology.  
   <small>Citováno: [Narativní terapie](@/glossary/narativni-terapie.md), [Radikální diskontinuita](@/glossary/radikalni-diskontinuita.md), [Transformative experience (transformativní zkušenost)](@/glossary/transformative-experience.md) a 8 dalších</small>
 - McAdams, D. P. (2001). The psychology of life stories. *Review of General Psychology*, 5(2).  
-  <small>Citováno: [Případ 03: Pedagogické gaslighting](@/kompendium/case-studies/03-pedagogicke-gaslighting.md), [Posouzení dopadu](@/kompendium/forensic-legal/9-victim-impact-assessment.md), [Transkonceptuální mechanismy jako rodina vzorců](@/kompendium/puvodni-taxonomie/transkonceptualni-mechanismy.md) a 1 dalších</small>
+  <small>Citováno: [Případ 03: Pedagogické gaslighting](@/kompendium/case-studies/03-pedagogicke-gaslighting.md), [Posouzení dopadu](@/kompendium/forensic-legal/9-victim-impact-assessment.md), [Rekonstrukce transverzální kognitivní integrace](@/kompendium/puvodni-taxonomie/rekonstrukce-transverzalni-kognitivni-integrace.md) a 2 dalších</small>
 - McAdams, D. P. (2001). The psychology of life stories. *Review of General Psychology*, 5(2), 100–122.  
-  <small>Citováno: [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md), [Vzdělávací scénář: Fragmentace identity](@/kompendium/educational-scenarios/25-identity-fragmentation.md), [Akutní protokol: Péče o svědka pod zvláštní ochranou](@/kompendium/emergency-protocols/40-witness-protection.md) a 9 dalších</small>
+  <small>Citováno: [Pokročilé operace – kapitola 6: reflexivní a sémantická vrstva](@/kompendium/05-pokrocile-operace/kapitola-6/_index.md), [Pokročilé techniky – kapitola 6: vyvozování, rozlišování a konvergence](@/kompendium/05-pokrocile-techniky/kapitola-6/_index.md), [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md) a 11 dalších</small>
 - McAdams, D. P., & McLean, K. C. (2013). *Narrative identity*. Current Directions in Psychological Science.  
   <small>Citováno: [Narativní identita (narrative identity)](@/glossary/narativni-identita.md)</small>
 - McAdams, D. P., & McLean, K. C. (2013). Narrative identity. *Current Directions in Psychological Science*, 22(3), 233–238.  
@@ -6776,7 +6816,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Merleau-Ponty, M. (1945). *Phénoménologie de la perception*.  
   <small>Citováno: [Předreflexivní vědomí](@/glossary/predreflexivni-vedomi.md), [EA-7.1.10 Merleau-Ponty: vtělenost](@/kompendium/techniques/ea-7-1-10-merleau-ponty-embodiment.md)</small>
 - Merleau-Ponty, M. (1945). *Phénoménologie de la perception*. Gallimard.  
-  <small>Citováno: [Tělesné schéma (body schema)](@/glossary/body-schema.md), [Embodied cognition (vtělená kognice)](@/glossary/embodied-cognition.md), [Epistemická derealizace](@/glossary/epistemicka-derealizace.md) a 40 dalších</small>
+  <small>Citováno: [Tělesné schéma (body schema)](@/glossary/body-schema.md), [Embodied cognition (vtělená kognice)](@/glossary/embodied-cognition.md), [Epistemická derealizace](@/glossary/epistemicka-derealizace.md) a 41 dalších</small>
 - **Merleau-Ponty, M.** (1945). *Phénoménologie de la perception*. Paris: Gallimard. — Tělesnost, vnímání, [tělesné schéma](@/glossary/body-schema.md).  
   <small>Citováno: [Chair](@/glossary/chair.md), [Pre-predikativní zkušenost (vorprädikative Erfahrung)](@/glossary/pre-predikativni-zkusenost.md), [Fenomenologie – prožitek jako kategorie analýzy](@/kompendium/03-zakladni-kategorie/fenomenologie.md) a 11 dalších</small>
 - Merleau-Ponty, M. (1960). *Signes*. Paris: Gallimard.  
@@ -6798,7 +6838,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Merton, R. K. (1942). A note on science and democracy. *Journal of Legal and Political Sociology*.  
   <small>Citováno: [Případ 52: Zotavení z pseudovědeckého prostředí](@/kompendium/case-studies/52-pseudoscience-recovery.md)</small>
 - Merton, R. K. (1942). „A Note on Science and Democracy.“ *Journal of Legal and Political Sociology*, 1, 115–126.  
-  <small>Citováno: [Institucionální anihilace — destrukce kolektivních epistemických struktur](@/kompendium/04-terminalni-protokoly/institucionalni-anihilace.md)</small>
+  <small>Citováno: [Institucionální anihilace — destrukce kolektivních epistemických struktur](@/kompendium/04-terminalni-protokoly/institucionalni-anihilace.md), [Absolutní kognitivní anankastická paralýza](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anankasticka-paralyza.md), [Absolutní kognitivní anti-distribuce](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anti-distribuce.md) a 2 dalších</small>
 - Merton, R. K. (1942). *Science and Technology in a Democratic Order*. Journal of Legal and Political Sociology.  
   <small>Citováno: [Pseudověda (pseudoscience)](@/glossary/pseudoscience.md), [Skepticismus](@/glossary/skepticismus.md)</small>
 - Merton, R. K. (1942). *The normative structure of science*.  
@@ -6889,6 +6929,10 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Případ 07: Narcistická rodina](@/kompendium/case-studies/07-narcisticka-rodina.md), [Případ 30: Nátlak na hudební konzervatoři](@/kompendium/case-studies/30-music-conservatory-coercion.md)</small>
 - Miller, A. L., Rathus, J. H. a Linehan, M. M. (2007). *Dialectical Behavior Therapy with Suicidal Adolescents*. Guilford Press.  
   <small>Citováno: [Akutní protokol: Dospívající v akutní situaci po epistemické anihilaci](@/kompendium/emergency-protocols/22-adolescent-emergency-EA.md)</small>
+- Miller, G. A. (1956). *The Magical Number Seven, Plus or Minus Two*. Psychological Review, 63(2).  
+  <small>Citováno: [Hyperbolická eskalace](@/kompendium/puvodni-taxonomie/hyperbolicka-eskalace.md), [Syndrom epistemické přetlakové komory](@/kompendium/puvodni-taxonomie/syndrom-epistemicke-pretlakove-komory.md)</small>
+- Miller, G. A. (1956). *The Magical Number Seven, Plus or Minus Two*. Psychological Review, 63(2), 81–97.  
+  <small>Citováno: [Epistemická atomizace](@/kompendium/puvodni-taxonomie/epistemicka-atomizace.md)</small>
 - Miller, G. A. (1956). The magical number seven, plus or minus two: Some limits on our capacity for processing information. *Psychological Review*, 63.  
   <small>Citováno: [Epistemická bifurkace](@/glossary/epistemicka-bifurkace.md)</small>
 - Miller, G. A. (1956). The magical number seven, plus or minus two: Some limits on our capacity for processing information. *Psychological Review*, 63(2).  
@@ -6912,13 +6956,15 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Miller, S., & Selgelid, M. J. (2007). Ethical and Philosophical Consideration of the Dual-use Dilemma in the Biological Sciences. *Science and Engineering Ethics*, 13(4), 523–580.  
   <small>Citováno: [Dual-use poznání](@/glossary/dual-use-poznani.md), [Dual use – dvojí použitelnost poznání o manipulaci](@/kompendium/08-prilohy/dual-use.md), [Bridge: Dual-use poznání](@/kompendium/glossary-bridges/bridge-dual-use-poznani.md) a 3 dalších</small>
 - Miller, S., Selgelid, M. J. (2008). *Ethical and Philosophical Consideration of the Dual-Use Dilemma in the Biological Sciences*. Springer.  
-  <small>Citováno: [Proč tato kniha není pro každého](@/kompendium/01-predmluva/neni-pro-kazdeho/_index.md), [K čemu kniha neslouží](@/kompendium/01-predmluva/neni-pro-kazdeho/k-cemu-neslouzi.md), [Pro koho je kniha](@/kompendium/01-predmluva/neni-pro-kazdeho/pro-koho-je.md) a 1 dalších</small>
+  <small>Citováno: [Proč tato kniha není pro každého](@/kompendium/01-predmluva/neni-pro-kazdeho/_index.md), [K čemu kniha neslouží](@/kompendium/01-predmluva/neni-pro-kazdeho/k-cemu-neslouzi.md), [Pro koho je kniha](@/kompendium/01-predmluva/neni-pro-kazdeho/pro-koho-je.md) a 2 dalších</small>
 - Miller, W. R., a Rollnick, S. (2013). *Motivational Interviewing: Helping People Change* (3. vyd.). Guilford Press.  
   <small>Citováno: [Případ 57: Zotavení z MRA sítě](@/kompendium/case-studies/57-mra-recovery.md), [Případ 60: Rámec „masové formace“ a pandemická polarizace](@/kompendium/case-studies/60-mass-formation-psychosis.md), [Akutní protokol: Verbální deeskalace po epistemické anihilaci](@/kompendium/emergency-protocols/20-deescalation-EA.md) a 3 dalších</small>
 - Miller, W. R., & Rollnick, S. (2013). *Motivational Interviewing: Helping People Change* (3. vyd.). Guilford Press.  
   <small>Citováno: [Bridge: Připravenost (readiness)](@/kompendium/glossary-bridges/bridge-readiness.md)</small>
 - Miller, W. R., & Rollnick, S. (2013). *Motivational Interviewing: Helping People Change* (3. vyd.). New York: Guilford Press.  
   <small>Citováno: [Slaměný panák](@/kompendium/argumentacni-fauly/relevance/slameny-panak.md), [Ty taky](@/kompendium/argumentacni-fauly/relevance/tu-quoque.md), [Cíle a výsledky](@/kompendium/nlp-vzorce/cile-a-vysledky/_index.md) a 105 dalších</small>
+- Miller, W. R., Rollnick, S. (2013). *Motivational Interviewing: Helping People Change*. 3. vydání. Guilford Press.  
+  <small>Citováno: [Absolutní epistemická ultraparadoxní metastabilita](@/kompendium/puvodni-taxonomie/absolutni-epistemicka-ultraparadoxni-metastabilita.md)</small>
 - Miller, W. R., & Rollnick, S. (2013). *Motivational Interviewing: Helping People Change* (3rd ed.). Guilford Press.  
   <small>Citováno: [Případ 51: Zotavení z New Age sítě](@/kompendium/case-studies/51-new-age-recovery.md), [Případ 52: Zotavení z pseudovědeckého prostředí](@/kompendium/case-studies/52-pseudoscience-recovery.md), [Případ 53: Zotavení z anti-vaxx sítě](@/kompendium/case-studies/53-anti-vaxx-recovery.md) a 4 dalších</small>
 - Millière, R., Carhart-Harris, R. L., Roseman, L., Trautwein, F.-M., & Berkovich-Ohana, A. (2018). *Psychedelics, meditation, and self-consciousness*. Frontiers in Psychology.  
@@ -7114,6 +7160,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [EA-7.2.10 Nagel: Pohled odnikud](@/kompendium/techniques/ea-7-2-10-nagel-view-from-nowhere.md)</small>
 - Nagel, T. (1974). What is it like to be a bat? *The Philosophical Review*, 83(4).  
   <small>Citováno: [7.38 Block: Phenomenal vs. Access Consciousness](@/kompendium/07-teoreticke-reflexe/block-phenomenal-vs-access.md), [7.37 Chalmers: Hard Problem of Consciousness](@/kompendium/07-teoreticke-reflexe/chalmers-hard-problem.md), [7.29 Nagel: View from Nowhere a paradox objektivity](@/kompendium/07-teoreticke-reflexe/nagel-view-from-nowhere.md)</small>
+- Nagel, T. (1974). *What Is It Like to Be a Bat?* The Philosophical Review, 83(4), 435–450.  
+  <small>Citováno: [Absolutní kognitivní anti-fenomenalita](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anti-fenomenalita.md)</small>
 - Nagel, T. (1979). *Mortal Questions*. Cambridge University Press.  
   <small>Citováno: [7.29 Nagel: View from Nowhere a paradox objektivity](@/kompendium/07-teoreticke-reflexe/nagel-view-from-nowhere.md)</small>
 - Nagel, T. (1986). *The View from Nowhere*. New York: Oxford University Press.  
@@ -7217,7 +7265,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Nguyen, C. T. (2020). Echo chambers and epistemic bubbles. *Episteme*, 17(2).  
   <small>Citováno: [Případ 19: Dietní kult](@/kompendium/case-studies/19-dieta-cult.md), [Případ 21: Konspirační rekrutace](@/kompendium/case-studies/21-konspiracni-rekrutace.md), [Maďarsko — vzorce EA](@/kompendium/international/3-hungary-EA/index.md) a 1 dalších</small>
 - Nguyen, C. T. (2020). Echo chambers and epistemic bubbles. *Episteme*, 17(2), 141–161.  
-  <small>Citováno: [Detekční signatura: Monokultura zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md), [Detekční signatura: Cirkulární definice](@/kompendium/detection-signatures/2-linguistic-circular-definitions.md), [Bridge: Anankastický režim](@/kompendium/glossary-bridges/bridge-anankasticky-rezim.md) a 3 dalších</small>
+  <small>Citováno: [Detekční signatura: Monokultura zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md), [Detekční signatura: Cirkulární definice](@/kompendium/detection-signatures/2-linguistic-circular-definitions.md), [Bridge: Anankastický režim](@/kompendium/glossary-bridges/bridge-anankasticky-rezim.md) a 4 dalších</small>
 - Nichols, T. (2017). *The Death of Expertise: The Campaign Against Established Knowledge and Why It Matters*. Oxford University Press.  
   <small>Citováno: [EA-2.1.1 Expertní disinflace](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md)</small>
 - Nicholson, D. J., & Dupré, J. (Eds.). (2018). *Everything Flows: Towards a Processual Philosophy of Biology*. Oxford University Press.  
@@ -7296,6 +7344,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Sealioning – protokol zotavení a obnovy legitimity](@/kompendium/recovery-protocols/sealioning.md)</small>
 - Nolen-Hoeksemová, S. (1991). *Responses to depression and their effects on the duration of depressive episodes*. Journal of Abnormal Psychology.  
   <small>Citováno: [Falešné introspektivní smyčky](@/glossary/falesne-introspektivni-smycky.md)</small>
+- Nolen-Hoeksemová, S. (1991). *Responses to Depression and Their Effects on the Duration of Depressive Episodes*. Journal of Abnormal Psychology, 100(4).  
+  <small>Citováno: [Hyperbolická eskalace](@/kompendium/puvodni-taxonomie/hyperbolicka-eskalace.md)</small>
 - Nolen-Hoeksemová, S., Wisco, B. E., & Lyubomirsky, S. (2008). *Rethinking rumination*. Perspectives on Psychological Science.  
   <small>Citováno: [Falešné introspektivní smyčky](@/glossary/falesne-introspektivni-smycky.md)</small>
 - Nonaka, I., a Takeuchi, H. (1995).  
@@ -7341,7 +7391,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Novaco, R. W. (1975). *Anger Control: The Development and Evaluation of an Experimental Treatment*. Lexington Books.  
   <small>Citováno: [Sebe-obrana: Práce se vztekem](@/kompendium/self-defense-guides/17-anger-management.md)</small>
 - Novak, J. D., & Gowin, D. B. (1984). *Learning How to Learn*. Cambridge University Press.  
-  <small>Citováno: [Epistemická fragmentace](@/glossary/epistemicka-fragmentace.md)</small>
+  <small>Citováno: [Epistemická fragmentace](@/glossary/epistemicka-fragmentace.md), [Epistemická atomizace](@/kompendium/puvodni-taxonomie/epistemicka-atomizace.md), [Kognitivní zóny bezpečné syntézy](@/kompendium/puvodni-taxonomie/kognitivni-zony-bezpecne-syntezy.md) a 1 dalších</small>
 - Nowak, M. (2005). *U.N. Covenant on Civil and Political Rights: CCPR Commentary* (2. vyd.). N. P. Engel.  
   <small>Citováno: [Lidská práva — EA standardy](@/kompendium/international/29-human-rights-EA/index.md)</small>
 - Nowak, M. (2005). *U.N. Covenant on Civil and Political Rights: CCPR Commentary* (2nd rev. ed.). N. P. Engel.  
@@ -7514,7 +7564,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Orwell, G. (1949). *Nineteen Eighty-Four* (dodatek „The Principles of Newspeak“).  
   <small>Citováno: [Kognitivní zploštění](@/glossary/kognitivni-zplosteni.md)</small>
 - Orwell, G. (1949). *Nineteen Eighty-Four*. Secker & Warburg.  
-  <small>Citováno: [Hypersyntaktická anihilace](@/glossary/hypersyntakticka-anihilace.md), [Loading the language](@/glossary/loading-the-language.md), [LTI (Lingua Tertii Imperii)](@/glossary/lti-lingua-tertii-imperii.md) a 10 dalších</small>
+  <small>Citováno: [Hypersyntaktická anihilace](@/glossary/hypersyntakticka-anihilace.md), [Loading the language](@/glossary/loading-the-language.md), [LTI (Lingua Tertii Imperii)](@/glossary/lti-lingua-tertii-imperii.md) a 11 dalších</small>
 - Osborn, A. F. (1953). *Applied Imagination*. Scribner.  
   <small>Citováno: [Epistemická sterilita](@/glossary/epistemicka-sterilita.md)</small>
 - Osman, M. (2004). *An evaluation of dual-process theories of reasoning*. Psychonomic Bulletin & Review.  
@@ -7657,7 +7707,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Paul, C., & Matthews, M. (2016). *The Russian „Firehose of Falsehood“ Propaganda Model: Why It Might Work and Options to Counter It*. RAND Corporation.  
   <small>Citováno: [Firehose of Falsehood (palba lží)](@/glossary/firehose-of-falsehood.md), [Detekční signatura: Asymetrie amplifikace](@/kompendium/detection-signatures/19-network-amplification-asymmetry.md), [Detekční signatura: Koordinace botů](@/kompendium/detection-signatures/20-network-bot-coordination.md) a 1 dalších</small>
 - Paul, L. A. (2014). *Transformative Experience*. Oxford University Press.  
-  <small>Citováno: [Epistemická imploze](@/glossary/epistemicka-imploze.md), [Epistemická krize](@/glossary/epistemicka-krize.md), [Informed consent (informovaný souhlas)](@/glossary/informed-consent.md) a 4 dalších</small>
+  <small>Citováno: [Epistemická imploze](@/glossary/epistemicka-imploze.md), [Epistemická krize](@/glossary/epistemicka-krize.md), [Informed consent (informovaný souhlas)](@/glossary/informed-consent.md) a 5 dalších</small>
 - Paul, L. A. (2015). *What you can't expect when you're expecting*. Res Philosophica.  
   <small>Citováno: [Transformative experience (transformativní zkušenost)](@/glossary/transformative-experience.md)</small>
 - Paulhus, D. L. (1984). Two-component models of socially desirable responding.  
@@ -7915,11 +7965,11 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Popper, K. R. (1959). *The Logic of Scientific Discovery.*  
   <small>Citováno: [Pre-registrace a registrované zprávy](@/kompendium/research-methodology/pre-registration-EA-research.md)</small>
 - Popper, K. R. (1959). *The Logic of Scientific Discovery*. Hutchinson.  
-  <small>Citováno: [Anti-epistemická demarkace](@/glossary/anti-epistemicka-demarkace.md), [Demarkační problém](@/glossary/demarkacni-problem.md), [Evidence-based (praxe založená na důkazech)](@/glossary/evidence-based.md) a 25 dalších</small>
+  <small>Citováno: [Anti-epistemická demarkace](@/glossary/anti-epistemicka-demarkace.md), [Demarkační problém](@/glossary/demarkacni-problem.md), [Evidence-based (praxe založená na důkazech)](@/glossary/evidence-based.md) a 26 dalších</small>
 - Popper, K. R. (1959). *The Logic of Scientific Discovery*. Hutchinson (původně *Logik der Forschung*, 1934).  
   <small>Citováno: [Bridge: Falsifikace](@/kompendium/glossary-bridges/bridge-falsifikace.md)</small>
 - Popper, K. R. (1959). *The Logic of Scientific Discovery.* London: Hutchinson.  
-  <small>Citováno: [Falsifikovatelnost – kritérium jako kategorie analýzy](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md), [Argumentační fauly](@/kompendium/argumentacni-fauly/_index.md), [Galileův gambit](@/kompendium/argumentacni-fauly/dialekticke-taktiky/galileuv-gambit.md) a 47 dalších</small>
+  <small>Citováno: [Falsifikovatelnost – kritérium jako kategorie analýzy](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md), [Pokročilé techniky – kapitola 6: vyvozování, rozlišování a konvergence](@/kompendium/05-pokrocile-techniky/kapitola-6/_index.md), [Argumentační fauly](@/kompendium/argumentacni-fauly/_index.md) a 48 dalších</small>
 - Popper, K. R. (1959). *The Logic of Scientific Discovery* (něm. orig. 1934).  
   <small>Citováno: [EA-1.3.5 Pseudoempirická validace](@/kompendium/techniques/ea-1-3-5-pseudo-empiricka-validace.md)</small>
 - Popper, K. R. (1963). *Conjectures and Refutations*.  
@@ -7933,7 +7983,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Popper, K. R. (1963). *Conjectures and Refutations: The Growth of Scientific Knowledge*.  
   <small>Citováno: [Případ 15: Zdravotnická iatrogenie](@/kompendium/case-studies/15-zdravotnicky-iatrogen.md)</small>
 - Popper, K. R. (1963). *Conjectures and Refutations: The Growth of Scientific Knowledge*. Routledge.  
-  <small>Citováno: [Dekonstruktivní hyperkaskáda](@/glossary/dekonstruktivni-hyperkaskada.md), [Epistemická bifurkace](@/glossary/epistemicka-bifurkace.md), [Epistemická pokora](@/glossary/epistemicka-pokora.md) a 6 dalších</small>
+  <small>Citováno: [Dekonstruktivní hyperkaskáda](@/glossary/dekonstruktivni-hyperkaskada.md), [Epistemická bifurkace](@/glossary/epistemicka-bifurkace.md), [Epistemická pokora](@/glossary/epistemicka-pokora.md) a 9 dalších</small>
 - Popper, K. R. (1963). *Conjectures and Refutations: The Growth of Scientific Knowledge*. Routledge & Kegan Paul.  
   <small>Citováno: [Politická ekonomie jako alternativa](@/kompendium/critical-perspectives/23-political-economy-alternative.md), [Detekční signatura: Cirkulární definice](@/kompendium/detection-signatures/2-linguistic-circular-definitions.md), [Detekční signatura: Nefalsifikovatelná tvrzení](@/kompendium/detection-signatures/3-linguistic-unfalsifiable-claims.md) a 3 dalších</small>
 - Popper, K. R. (1970). Normal science and its dangers. In I. Lakatos & A. Musgrave (Eds.), *Criticism and the Growth of Knowledge*. Cambridge University Press.  
@@ -8004,6 +8054,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Dialektická anihilace](@/glossary/dialekticka-anihilace.md), [Epistemická imploze](@/glossary/epistemicka-imploze.md), [Implozivní rekurze](@/glossary/implozivni-rekurze.md)</small>
 - Priest, G. (1994). The structure of the paradoxes of self-reference. *Mind*, 103(409), 25–34.  
   <small>Citováno: [EA-5.4.22 Eskalace logických paradoxů](@/kompendium/techniques/ea-5-4-22-logicka-paradox-eskalace.md)</small>
+- Priest, G. (2006). *In Contradiction: A Study of the Transconsistent*, 2. vydání. Oxford University Press.  
+  <small>Citováno: [Absolutní ontologická hyperkontradiktornost](@/kompendium/puvodni-taxonomie/absolutni-ontologicka-hyperkontradiktornost.md)</small>
 - Priest, G. (2006). *In Contradiction: A Study of the Transconsistent* (2nd ed.). Oxford: Oxford University Press.  
   <small>Citováno: [Kapitola 9: Paradoxální metaanihilační protokoly](@/kompendium/05-ultramari-techniky/kapitola-9.md)</small>
 - Pring, G. W. (1989). SLAPPs: Strategic lawsuits against public participation. *Pace  
@@ -8021,7 +8073,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Prochaska, J. O., & DiClemente, C. C. (1983). Stages and processes of self-change of smoking. *Journal of Consulting and Clinical Psychology*.  
   <small>Citováno: [EA-3.3.6 Prevence relapsu program](@/kompendium/techniques/ea-3-3-6-relapse-prevention-program.md)</small>
 - Prochaska, J. O., & DiClemente, C. C. (1983). Stages and processes of self-change of smoking: Toward an integrative model of change. *Journal of Consulting and Clinical Psychology*, 51(3), 390–395.  
-  <small>Citováno: [Vizualizace pro sekci 06 – klinická cesta zotavení](@/kompendium/06-klinicke-aplikace/visualizations.md), [Bridge: Připravenost (readiness)](@/kompendium/glossary-bridges/bridge-readiness.md)</small>
+  <small>Citováno: [Vizualizace pro sekci 06 – klinická cesta zotavení](@/kompendium/06-klinicke-aplikace/visualizations.md), [Bridge: Připravenost (readiness)](@/kompendium/glossary-bridges/bridge-readiness.md), [Absolutní epistemická ultraparadoxní metastabilita](@/kompendium/puvodni-taxonomie/absolutni-epistemicka-ultraparadoxni-metastabilita.md)</small>
 - Prochaska, J. O., DiClemente, C. C., & Norcross, J. C. (1992). In search of how people change. *American Psychologist*, 47(9), 1102–1114.  
   <small>Citováno: [Bridge: Připravenost (readiness)](@/kompendium/glossary-bridges/bridge-readiness.md)</small>
 - Proctor, R. N. (2011). *Golden Holocaust: Origins of the Cigarette Catastrophe and the Case for  
@@ -8100,7 +8152,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Quine, W. V. O. (1951). Two dogmas of empiricism. *The Philosophical Review*, 60(1).  
   <small>Citováno: [7.26 Quine: Síť přesvědčení a holismus](@/kompendium/07-teoreticke-reflexe/quine-web-of-belief.md), [Vizualizace pro sekci 07 – mapa teoretických rámců](@/kompendium/07-teoreticke-reflexe/visualizations.md), [Přesah rámce – když EA vysvětluje všechno](@/kompendium/critical-perspectives/3-framework-overreach.md)</small>
 - Quine, W. V. O. (1951). Two dogmas of empiricism. *The Philosophical Review*, 60(1), 20–43.  
-  <small>Citováno: [Falsifikovatelnost – kritérium jako kategorie analýzy](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md), [Detekční signatura: Cirkulární definice](@/kompendium/detection-signatures/2-linguistic-circular-definitions.md), [Bridge: Falsifikace](@/kompendium/glossary-bridges/bridge-falsifikace.md) a 12 dalších</small>
+  <small>Citováno: [Falsifikovatelnost – kritérium jako kategorie analýzy](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md), [Detekční signatura: Cirkulární definice](@/kompendium/detection-signatures/2-linguistic-circular-definitions.md), [Bridge: Falsifikace](@/kompendium/glossary-bridges/bridge-falsifikace.md) a 13 dalších</small>
 - Quine, W. V. O. (1953). On a so-called paradox. *Mind*, 62(245), 65–67.  
   <small>Citováno: [EA-5.4.35 Paradox neočekávaného testu](@/kompendium/techniques/ea-5-4-35-surprize-test-paradox.md), [EA-5.4.36 Paradox neočekávaného oběšení](@/kompendium/techniques/ea-5-4-36-unexpected-hanging.md)</small>
 - Quine, W. V. O. (1960). *Word and Object*. MIT Press.  
@@ -8129,7 +8181,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Rachman, S. (2002). *A cognitive theory of compulsive checking*. Behaviour Research and Therapy.  
   <small>Citováno: [Falešné introspektivní smyčky](@/glossary/falesne-introspektivni-smycky.md), [Rekurzivní paralýza](@/glossary/rekurzivni-paralyza.md), [Sealioning (lachtaní dotazování)](@/glossary/sealioning.md) a 1 dalších</small>
 - Rachman, S. (2002). A cognitive theory of compulsive checking. *Behaviour Research and Therapy*, 40(6), 625–639.  
-  <small>Citováno: [Detekční signatura: Skok sebepochybnosti](@/kompendium/detection-signatures/26-phenomenological-self-doubt-spike.md)</small>
+  <small>Citováno: [Detekční signatura: Skok sebepochybnosti](@/kompendium/detection-signatures/26-phenomenological-self-doubt-spike.md), [Absolutní kognitivní anankastická paralýza](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anankasticka-paralyza.md)</small>
 - Rafaeli-Mor, E., & Steinberg, J. (2002). Self-complexity and well-being: A review and research synthesis. *Personality and Social Psychology Review*, 6(1), 31–58.  
   <small>Citováno: [Sebe-obrana: Správa mnohočetného já](@/kompendium/self-defense-guides/46-multiple-self-management.md)</small>
 - Raffle, A. E., & Gray, J. A. M. (2007). *Screening: Evidence and Practice*. Oxford University Press.  
@@ -8248,6 +8300,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Peer vigilance](@/kompendium/prevention-resilience/20-peer-vigilance-prevention.md)</small>
 - Ricoeur, P. (1960). *Finitude et culpabilité II: La symbolique du mal*. Aubier.  
   <small>Citováno: [7.17 Ricoeur: Trojí mimésis a narativní identita](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md)</small>
+- Ricoeur, P. (1965). *De l'interprétation: Essai sur Freud*. Éditions du Seuil.  
+  <small>Citováno: [Axiologická dekonstrukce](@/kompendium/puvodni-taxonomie/axiologicka-dekonstrukce.md)</small>
 - Ricoeur, P. (1965). *De l'interprétation. Essai sur Freud*. Seuil.  
   <small>Citováno: [Hermeneutika](@/glossary/hermeneutika.md), [7.17 Ricoeur: Trojí mimésis a narativní identita](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md), [Bridge: Hermeneutika](@/kompendium/glossary-bridges/bridge-hermeneutika.md)</small>
 - Ricoeur, P. (1969). *Le conflit des interprétations*. Seuil.  
@@ -8379,7 +8433,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Rokeach, M. (1960). *The Open and Closed Mind*. Basic Books.  
   <small>Citováno: [Bridge: Anankastický režim](@/kompendium/glossary-bridges/bridge-anankasticky-rezim.md)</small>
 - Rokeach, M. (1973). *The Nature of Human Values*. Free Press.  
-  <small>Citováno: [Sebe-obrana: Vyjasnění hodnot](@/kompendium/self-defense-guides/44-axiology-clarification.md)</small>
+  <small>Citováno: [Axiologická dekonstrukce](@/kompendium/puvodni-taxonomie/axiologicka-dekonstrukce.md), [Sebe-obrana: Vyjasnění hodnot](@/kompendium/self-defense-guides/44-axiology-clarification.md)</small>
 - Rokeach, M. (1973). *The Nature of Human Values*. New York: Free Press.  
   <small>Citováno: [Subakutní axiologická restaurace](@/kompendium/recovery-protocols/subacute-axiological-restoration.md)</small>
 - Roll-Hansen, N. (2005). *The Lysenko Effect: The Politics of Science*. Humanity Books.  
@@ -8421,9 +8475,11 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Rosch, E. (1975). Cognitive representations of semantic categories. *Journal of Experimental Psychology: General*, 104.  
   <small>Citováno: [Konceptuální destabilizace](@/glossary/konceptualni-destabilizace.md)</small>
 - Rosch, E. (1975). Cognitive representations of semantic categories. *Journal of Experimental Psychology: General*, 104(3), 192–233.  
-  <small>Citováno: [7.47 Johnson: Body in Mind a estetika lidské zkušenosti](@/kompendium/07-teoreticke-reflexe/johnson-body-in-mind.md), [7.46 Lakoff: Konceptuální metafora a politické rámce](@/kompendium/07-teoreticke-reflexe/lakoff-conceptual-metaphor.md)</small>
+  <small>Citováno: [Pokročilé techniky – kapitola 6: vyvozování, rozlišování a konvergence](@/kompendium/05-pokrocile-techniky/kapitola-6/_index.md), [7.47 Johnson: Body in Mind a estetika lidské zkušenosti](@/kompendium/07-teoreticke-reflexe/johnson-body-in-mind.md), [7.46 Lakoff: Konceptuální metafora a politické rámce](@/kompendium/07-teoreticke-reflexe/lakoff-conceptual-metaphor.md)</small>
 - Rosch, E. (1978). *Principles of categorization*. In Cognition and Categorization. Erlbaum.  
   <small>Citováno: [Taxonomie EA](@/glossary/taxonomie-ea.md)</small>
+- Rosch, E. (1978). *Principles of Categorization*. In E. Rosch, B. B. Lloyd (Eds.), *Cognition and Categorization*. Erlbaum.  
+  <small>Citováno: [Epistemická teratogeneze](@/kompendium/puvodni-taxonomie/epistemicka-teratogeneze.md)</small>
 - Rosch, E. (1978). Principles of categorization. In E. Rosch & B. B. Lloyd (Eds.), *Cognition and Categorization* (pp. 27–48). Hillsdale, NJ: Lawrence Erlbaum.  
   <small>Citováno: [Most: Případové studie → Glossary Bridges](@/kompendium/section-bridges/bridge-case-studies-to-glossary-bridges.md)</small>
 - Rose, G. (1992). *The Strategy of Preventive Medicine*. Oxford University Press.  
@@ -8513,13 +8569,13 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Russell, B. (1908). Mathematical logic as based on the theory of types. *American Journal of Mathematics*, 30(3).  
   <small>Citováno: [EA-5.4.10 Implantace Berryho paradoxu](@/kompendium/techniques/ea-5-4-10-berry-paradox-implantace.md), [EA-5.4.11 Zneužití Richardova paradoxu](@/kompendium/techniques/ea-5-4-11-richardova-paradox-zneuziti.md), [EA-5.4.12 Aplikace Grellingova paradoxu](@/kompendium/techniques/ea-5-4-12-grellingova-paradox-aplikace.md)</small>
 - Russell, B. (1908). Mathematical logic as based on the theory of types. *American Journal of Mathematics*, 30(3), 222–262.  
-  <small>Citováno: [Kapitola 9: Paradoxální metaanihilační protokoly](@/kompendium/05-ultramari-techniky/kapitola-9.md), [EA-5.4.2 Russellova violace typové hierarchie](@/kompendium/techniques/ea-5-4-2-russell-typ-violace.md), [EA-5.4.41 Implantace bootstrap paradoxu](@/kompendium/techniques/ea-5-4-41-bootstrap-paradox-implantace.md) a 24 dalších</small>
+  <small>Citováno: [Pokročilé techniky – kapitola 6: vyvozování, rozlišování a konvergence](@/kompendium/05-pokrocile-techniky/kapitola-6/_index.md), [Kapitola 9: Paradoxální metaanihilační protokoly](@/kompendium/05-ultramari-techniky/kapitola-9.md), [EA-5.4.2 Russellova violace typové hierarchie](@/kompendium/techniques/ea-5-4-2-russell-typ-violace.md) a 25 dalších</small>
 - Rutter, M. (1987). Psychosocial resilience and protective mechanisms. *American Journal of  
   <small>Citováno: [Dlouhodobá kultivace resilience](@/kompendium/recovery-protocols/longterm-resilience-cultivation.md)</small>
 - Ryan, R. M., & Deci, E. L. (2000). Self-determination theory and the facilitation of intrinsic  
   <small>Citováno: [Středně-dobé obnovení kompetencí](@/kompendium/recovery-protocols/midterm-skill-rebuilding.md)</small>
-- Ryan, R. M., & Deci, E. L. (2000). Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being. *American Psychologist*, 55.  
-  <small>Citováno: [Teleologická dezorientace](@/glossary/teleologicka-dezorientace.md)</small>
+- Ryan, R. M., Deci, E. L. (2000). *Self-Determination Theory and the Facilitation of Intrinsic Motivation, Social Development, and Well-Being*. American Psychologist, 55(1), 68–78.  
+  <small>Citováno: [Teleologická dezorientace](@/glossary/teleologicka-dezorientace.md), [Absolutní kognitivní anti-orientace](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anti-orientace.md), [Absolutní kognitivní anti-realizovatelnost](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anti-realizovatelnost.md)</small>
 - Ryan, W. (1971). *Blaming the Victim*. Pantheon.  
   <small>Citováno: [Riziko obviňování oběti](@/kompendium/critical-perspectives/13-victim-blaming-risk.md)</small>
 - Ryle, G. (1949). *The Concept of Mind*. Hutchinson.  
@@ -8571,6 +8627,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [7.21 Butler: Performativita a politika identity](@/kompendium/07-teoreticke-reflexe/butler-performative.md)</small>
 - Salkovskis, P. M. (1985). *Obsessional-compulsive problems: a cognitive-behavioural analysis*. Behaviour Research and Therapy.  
   <small>Citováno: [Thought-stopping (zastavování myšlenek)](@/glossary/thought-stopping.md)</small>
+- Salkovskis, P. M. (1985). *Obsessional-Compulsive Problems: A Cognitive-Behavioural Analysis*. Behaviour Research and Therapy, 23(5), 571–583.  
+  <small>Citováno: [Absolutní kognitivní anankastická paralýza](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anankasticka-paralyza.md)</small>
 - Salmon, W. C. (Ed.) (1970). *Zeno’s Paradoxes*. Bobbs-Merrill.  
   <small>Citováno: [EA-5.4.14 Iliadský paradox dokončení](@/kompendium/techniques/ea-5-4-14-iliada-paradox.md)</small>
 - Salomon, G. (Ed.). (1993). *Distributed Cognitions: Psychological and Educational Considerations*. Cambridge University Press.  
@@ -8604,7 +8662,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Šarčević, S. (1997). *New Approach to Legal Translation*. Kluwer Law International.  
   <small>Citováno: [Česko-anglická terminologie EA](@/kompendium/international/31-cs-en-terminology/index.md), [Česko-německá terminologie EA](@/kompendium/international/32-cs-de-terminology/index.md), [Mezinárodní právní terminologie EA](@/kompendium/international/35-legal-terminology-international/index.md) a 1 dalších</small>
 - Sartori, G. (1984). *Social Science Concepts: A Systematic Analysis*. Sage.  
-  <small>Citováno: [Tři závazky knihy a licence GHL](@/philosophy/_index.md)</small>
+  <small>Citováno: [Epistemická kvantová delokalizace](@/kompendium/puvodni-taxonomie/epistemicka-kvantova-delokalizace.md), [Epistemická teratogeneze](@/kompendium/puvodni-taxonomie/epistemicka-teratogeneze.md), [Tři závazky knihy a licence GHL](@/philosophy/_index.md)</small>
 - Sartre, J.-P. (1943). *L'Être et le néant*.  
   <small>Citováno: [Předreflexivní vědomí](@/glossary/predreflexivni-vedomi.md)</small>
 - Sartre, J.-P. (1943). *L'Être et le néant: Essai d'ontologie phénoménologique*. Gallimard.  
@@ -8627,10 +8685,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Bridge: Ontologická anihilace](@/kompendium/glossary-bridges/bridge-ontologicka-anihilace.md)</small>
 - Sass, L. A. (1992). *Madness and Modernism*. Cambridge, MA: Harvard University Press.  
   <small>Citováno: [EA-5.2.17 Husserlovská redukce — perverze](@/kompendium/techniques/ea-5-2-17-husserlovska-redukce-perverze.md), [EA-5.2.18 Heideggerovské rozklady](@/kompendium/techniques/ea-5-2-18-heideggerovska-rozklady.md), [EA-5.2.24 Analytická anihilace](@/kompendium/techniques/ea-5-2-24-analyticka-anihilace.md) a 3 dalších</small>
-- Sass, L. A. (1992). *Madness and Modernism: Insanity in the Light of Modern Art, Literature, and  
-  <small>Citováno: [Pokročilé operace – kapitola 6: reflexivní a sémantická vrstva](@/kompendium/05-pokrocile-operace/kapitola-6/_index.md)</small>
 - Sass, L. A. (1992). *Madness and Modernism: Insanity in the Light of Modern Art, Literature, and Thought*. Basic Books.  
-  <small>Citováno: [Destruktivní cirkularita](@/glossary/destruktivni-cirkularita.md), [Případ 45: Manažerská totalizace mladé celebrity](@/kompendium/case-studies/45-celebrity-totalizace.md), [Vzdělávací scénář: Rozpoznání ultramárních technik](@/kompendium/educational-scenarios/21-ultramarine-recognition.md) a 1 dalších</small>
+  <small>Citováno: [Destruktivní cirkularita](@/glossary/destruktivni-cirkularita.md), [Pokročilé operace – kapitola 6: reflexivní a sémantická vrstva](@/kompendium/05-pokrocile-operace/kapitola-6/_index.md), [Případ 45: Manažerská totalizace mladé celebrity](@/kompendium/case-studies/45-celebrity-totalizace.md) a 2 dalších</small>
 - Sass, L. A., & Parnas, J. (2003). Schizophrenia, consciousness, and the self. *Schizophrenia  
   <small>Citováno: [Ipseita](@/glossary/ipseita.md)</small>
 - Sass, L. A., & Parnas, J. (2003). *Schizophrenia, consciousness, and the self*. Schizophrenia Bulletin.  
@@ -8640,7 +8696,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Sass, L. A., & Parnas, J. (2003). *Schizophrenia, consciousness, and the self*. Schizophrenia Bulletin, 29(3).  
   <small>Citováno: [Fenomenologická psychopatologie](@/glossary/fenomenologicka-psychopatologie.md), [Pre-predikativní zkušenost (vorprädikative Erfahrung)](@/glossary/pre-predikativni-zkusenost.md), [Vzdělávací scénář: Rozpoznání ultramárních technik](@/kompendium/educational-scenarios/21-ultramarine-recognition.md) a 1 dalších</small>
 - Sass, L. A., & Parnas, J. (2003). Schizophrenia, consciousness, and the self. *Schizophrenia Bulletin*, 29(3), 427–444.  
-  <small>Citováno: [Intencionalita – zaměřenost vědomí jako kategorie analýzy](@/kompendium/03-zakladni-kategorie/intencionalita.md), [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md), [7.16 Merleau-Ponty: Vtělená percepce a tělesný subjekt](@/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce.md) a 20 dalších</small>
+  <small>Citováno: [Intencionalita – zaměřenost vědomí jako kategorie analýzy](@/kompendium/03-zakladni-kategorie/intencionalita.md), [Pokročilé operace – kapitola 6: reflexivní a sémantická vrstva](@/kompendium/05-pokrocile-operace/kapitola-6/_index.md), [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md) a 21 dalších</small>
 - Satir, V. (1972). *Peoplemaking*. Palo Alto: Science and Behavior Books.  
   <small>Citováno: [Červený sleď](@/kompendium/argumentacni-fauly/relevance/cerveny-sled.md), [NLP vzorce](@/kompendium/nlp-vzorce/_index.md), [Procházení časové osy](@/kompendium/nlp-vzorce/casova-osa/pruchod-casovou-osou.md) a 52 dalších</small>
 - Saul, J. M. (2012). *Lying, Misleading, and What Is Said: An Exploration in Philosophy of Language and in Ethics*. Oxford University Press.  
@@ -8648,7 +8704,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Saunders, K. E. A., Hawton, K., Fortune, S. a Farrell, S. (2012). Attitudes and knowledge of clinical staff regarding people who self-harm: A systematic review. *Journal of Affective Disorders*, 139(3), 205–216.  
   <small>Citováno: [Akutní protokol: Akutní sebepoškozování po epistemické anihilaci](@/kompendium/emergency-protocols/10-acute-self-harm-EA.md)</small>
 - Saussure, F. de (1916). *Cours de linguistique générale*. Paris: Payot.  
-  <small>Citováno: [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md)</small>
+  <small>Citováno: [Pokročilé operace – kapitola 6: reflexivní a sémantická vrstva](@/kompendium/05-pokrocile-operace/kapitola-6/_index.md), [Pokročilé techniky – kapitola 6: vyvozování, rozlišování a konvergence](@/kompendium/05-pokrocile-techniky/kapitola-6/_index.md), [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md)</small>
 - Scandura, T. A. (1998). Dysfunctional mentoring relationships and outcomes. *Journal of Management*.  
   <small>Citováno: [Ochrana mentorství](@/kompendium/organizational-defense/19-mentorship-protection.md)</small>
 - Scarfone, K., Souppaya, M., Cody, A., & Orebaugh, A. (2008). *Technical Guide to Information Security Testing and Assessment* (NIST SP 800-115). Gaithersburg: National Institute of Standards and Technology.  
@@ -8769,6 +8825,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Žitý svět – protokol obnovy každodenní půdy](@/kompendium/recovery-protocols/lifeworld.md)</small>
 - Schutz, A. (1967). *The Phenomenology of the Social World.* Evanston: Northwestern University Press. (Něm. orig. 1932.)  
   <small>Citováno: [Lebenswelt – žitý svět jako kategorie analýzy](@/kompendium/03-zakladni-kategorie/lebenswelt.md)</small>
+- Schütz, A. (1967). *The Phenomenology of the Social World*. Northwestern University Press.  
+  <small>Citováno: [Absolutní multisubjektivní fragmentace](@/kompendium/puvodni-taxonomie/absolutni-multisubjektivni-fragmentace.md)</small>
 - Schutz, A., & Luckmann, T. (1973). *The Structures of the Life-World*. Northwestern University Press.  
   <small>Citováno: [Bridge: Lebenswelt (žitý svět)](@/kompendium/glossary-bridges/bridge-lebenswelt.md)</small>
 - Schütz, A., & Luckmann, T. (1975). *Strukturen der Lebenswelt*. Luchterhand.  
@@ -8785,6 +8843,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [EA-8.3.8 Literatura o zotavení z traumatu](@/kompendium/techniques/ea-8-3-8-trauma-recovery-literature.md)</small>
 - Schwartz, R. C., & Sweezy, M. (2020). *Internal Family Systems Therapy* (2. vyd.). Guilford Press.  
   <small>Citováno: [EA-6.2.3 IFS — Internal Family Systems](@/kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md)</small>
+- Schwartz, S. H. (1992). *Universals in the Content and Structure of Values*. Advances in Experimental Social Psychology, 25, 1–65.  
+  <small>Citováno: [Axiologická dekonstrukce](@/kompendium/puvodni-taxonomie/axiologicka-dekonstrukce.md)</small>
 - Schwartz, S. H. (1992). Universals in the content and structure of values: Theoretical advances  
   <small>Citováno: [Subakutní axiologická restaurace](@/kompendium/recovery-protocols/subacute-axiological-restoration.md)</small>
 - Schwartz, S. H. (1992). Universals in the content and structure of values: Theoretical advances and empirical tests in 20 countries. *Advances in Experimental Social Psychology*, 25, 1–65.  
@@ -8808,7 +8868,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Scott, S. D., a kol. (2009). The natural history of recovery for the healthcare provider  
   <small>Citováno: [Asistence zaměstnancům v krizi](@/kompendium/organizational-defense/35-employee-assistance-EA.md)</small>
 - Searle, J. R. (1969). *Speech Acts: An Essay in the Philosophy of Language*. Cambridge University Press.  
-  <small>Citováno: [Performativní akt](@/glossary/performativni-akt.md), [7.36 Searle: Čínský pokoj a kritika silné AI](@/kompendium/07-teoreticke-reflexe/searle-chinese-room.md)</small>
+  <small>Citováno: [Performativní akt](@/glossary/performativni-akt.md), [7.36 Searle: Čínský pokoj a kritika silné AI](@/kompendium/07-teoreticke-reflexe/searle-chinese-room.md), [Absolutní epistemická anti-propozicionalita](@/kompendium/puvodni-taxonomie/absolutni-epistemicka-anti-propozicionalita.md)</small>
 - **Searle, J. R.** (1969). *Speech Acts*. Cambridge: Cambridge University Press. — Taxonomie řečových aktů.  
   <small>Citováno: [Bibliografie a primární literatura](@/kompendium/08-prilohy/bibliografie.md)</small>
 - Searle, J. R. (1977). Reiterating the Differences: A Reply to Derrida. *Glyph*.  
@@ -8844,7 +8904,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Seligman, M. E. P. (1975). *Helplessness: On Depression, Development, and Death*. W. H.  
   <small>Citováno: [Případ 23: Zotavení z incel subkultury](@/kompendium/case-studies/23-incel-recovery.md)</small>
 - Seligman, M. E. P. (1975). *Helplessness: On Depression, Development, and Death*. W. H. Freeman.  
-  <small>Citováno: [Epistemická hyperinflace](@/glossary/epistemicka-hyperinflace.md), [Epistemická nekróza](@/glossary/epistemicka-nekroza.md), [Kognitivní rozklad](@/glossary/kognitivni-rozklad.md) a 8 dalších</small>
+  <small>Citováno: [Epistemická hyperinflace](@/glossary/epistemicka-hyperinflace.md), [Epistemická nekróza](@/glossary/epistemicka-nekroza.md), [Kognitivní rozklad](@/glossary/kognitivni-rozklad.md) a 10 dalších</small>
 - Seligman, M. E. P., & Maier, S. F. (1967). Failure to escape traumatic shock. *Journal of  
   <small>Citováno: [EA-2.5.10 Implantace existenciální bezmoci](@/kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md)</small>
 - Sellars, W. (1956). Empiricism and the philosophy of mind. In H. Feigl & M. Scriven (Eds.), *Minnesota Studies in the Philosophy of Science*, Vol. 1. University of Minnesota Press.  
@@ -8877,6 +8937,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Motte and bailey (tvrz a předhradí)](@/glossary/motte-and-bailey.md)</small>
 - Shackel, N. (2005). The vacuity of postmodernist methodology. *Metaphilosophy*, 36.  
   <small>Citováno: [Dekonstruktivní hyperkaskáda](@/glossary/dekonstruktivni-hyperkaskada.md)</small>
+- Shackel, N. (2005). *The Vacuity of Postmodernist Methodology*. Metaphilosophy, 36(2).  
+  <small>Citováno: [Epistemická kvantová delokalizace](@/kompendium/puvodni-taxonomie/epistemicka-kvantova-delokalizace.md)</small>
 - Shackel, N. (2005). The vacuity of postmodernist methodology. *Metaphilosophy*, 36(3).  
   <small>Citováno: [EA-1.6.2 Vzorec epistemický trojský kůň](@/kompendium/techniques/ea-1-6-2-vzorec-epistemicky-trojsky-kun.md)</small>
 - Shackel, N. (2005). The Vacuity of Postmodernist Methodology. *Metaphilosophy*, 36(3), 295–320.  
@@ -8922,7 +8984,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.  
   <small>Citováno: [Nefalzifikovatelné tvrzení](@/kompendium/argumentacni-fauly/predpoklady-argumentu/nefalzifikovatelnost.md), [NLP vzorce](@/kompendium/nlp-vzorce/_index.md), [Terapie časové osy](@/kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md) a 151 dalších</small>
 - Shay, J. (1994). *Achilles in Vietnam: Combat Trauma and the Undoing of Character*. Atheneum.  
-  <small>Citováno: [7.31 MacIntyre: After Virtue a krize morálního jazyka](@/kompendium/07-teoreticke-reflexe/macintyre-after-virtue.md), [Případ 42: Totalizace identity v elitní vojenské jednotce](@/kompendium/case-studies/42-military-totalizace.md), [Případ 46: Politická totalizace v poslanecké kanceláři](@/kompendium/case-studies/46-political-totalizace.md) a 1 dalších</small>
+  <small>Citováno: [7.31 MacIntyre: After Virtue a krize morálního jazyka](@/kompendium/07-teoreticke-reflexe/macintyre-after-virtue.md), [Případ 42: Totalizace identity v elitní vojenské jednotce](@/kompendium/case-studies/42-military-totalizace.md), [Případ 46: Politická totalizace v poslanecké kanceláři](@/kompendium/case-studies/46-political-totalizace.md) a 2 dalších</small>
 - Shea, S. C. (1998). *Psychiatric Interviewing: The Art of Understanding* (2nd ed.). Philadelphia: Saunders.  
   <small>Citováno: [Kolaterální rozhovor – protokol](@/kompendium/06-klinicke-aplikace/collateral-interview-protokol.md), [Observační hodnocení – protokol](@/kompendium/06-klinicke-aplikace/observational-assessment.md), [6.1.2 Semi-strukturovaný klinický rozhovor pro EA](@/kompendium/06-klinicke-aplikace/semi-structured-interview-protokol.md)</small>
 - Shear, M. K. (2015). Complicated grief. *New England Journal of Medicine*.  
@@ -8988,7 +9050,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Sierra, M. (2009). *Depersonalization: A New Look at a Neglected Syndrome*. Cambridge: Cambridge University Press.  
   <small>Citováno: [Most: Terminální protokoly → Ultramární techniky](@/kompendium/section-bridges/bridge-04-to-05-terminalni-ultramari.md), [Most: Ultramární techniky → Klinické aplikace](@/kompendium/section-bridges/bridge-05-to-06-ultramari-klinika.md)</small>
 - Sierra, M. (2009). *Depersonalization: A New Look at a Neglected Syndrome*. Cambridge University Press.  
-  <small>Citováno: [Default mode network (síť klidového režimu)](@/glossary/default-mode-network.md), [Depersonalizace](@/glossary/depersonalizace.md), [Epistemická derealizace](@/glossary/epistemicka-derealizace.md) a 15 dalších</small>
+  <small>Citováno: [Default mode network (síť klidového režimu)](@/glossary/default-mode-network.md), [Depersonalizace](@/glossary/depersonalizace.md), [Epistemická derealizace](@/glossary/epistemicka-derealizace.md) a 17 dalších</small>
 - Sierra, M., & Berrios, G. E. (2000). The Cambridge Depersonalisation Scale: A new instrument for the measurement of depersonalisation. *Psychiatry Research*, 93(2), 153–164.  
   <small>Citováno: [Most: Ultramární techniky → Přílohy](@/kompendium/section-bridges/bridge-05-to-08-ultramari-prilohy.md)</small>
 - Sierra, M., & David, A. S. (2011). *Depersonalization: A selective impairment of self-awareness*. Consciousness and Cognition.  
@@ -9036,7 +9098,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Simon, H. A. (1957). *Models of Man: Social and Rational*. Wiley.  
   <small>Citováno: [Paralysis by analysis (paralýza analýzou)](@/glossary/paralysis-by-analysis.md)</small>
 - Simon, H. A. (1962). The Architecture of Complexity. *Proceedings of the American Philosophical Society*, 106(6), 467–482.  
-  <small>Citováno: [Vzdělávací scénář: Emergentní vzorec](@/kompendium/educational-scenarios/29-emergent-pattern.md)</small>
+  <small>Citováno: [Vzdělávací scénář: Emergentní vzorec](@/kompendium/educational-scenarios/29-emergent-pattern.md), [Epistemická atomizace](@/kompendium/puvodni-taxonomie/epistemicka-atomizace.md)</small>
 - Simon, H. A. (1971). Designing Organizations for an Information-Rich World. In M. Greenberger (Ed.), *Computers, Communications, and the Public Interest*. Baltimore: Johns Hopkins Press.  
   <small>Citováno: [Vzdělávací scénář: Kurátorství informací](@/kompendium/educational-scenarios/3-information-curation.md)</small>
 - Simon, H. A. (1971). Designing organizations for an information-rich world. In M. Greenberger (Ed.), *Computers, Communications, and the Public Interest*. Johns Hopkins University Press.  
@@ -9140,9 +9202,11 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Smith, C. P., & Freyd, J. J. (2014). Institutional betrayal. *American Psychologist*, 69.  
   <small>Citováno: [Intelektuální brutalita](@/glossary/intelektualni-brutalita.md), [Intelektuální gaslighting](@/glossary/intelektualni-gaslighting.md)</small>
 - Smith, C. P., & Freyd, J. J. (2014). Institutional Betrayal. *American Psychologist*, 69(6).  
-  <small>Citováno: [Vzdělávací scénář: Rozpoznání DARVO](@/kompendium/educational-scenarios/20-darvo-recognition.md), [Disclosure traumatu](@/kompendium/forensic-legal/6-trauma-disclosure.md), [Česká republika — vzorce EA](@/kompendium/international/1-czech-rep-EA/index.md) a 10 dalších</small>
+  <small>Citováno: [Vzdělávací scénář: Rozpoznání DARVO](@/kompendium/educational-scenarios/20-darvo-recognition.md), [Disclosure traumatu](@/kompendium/forensic-legal/6-trauma-disclosure.md), [Česká republika — vzorce EA](@/kompendium/international/1-czech-rep-EA/index.md) a 12 dalších</small>
 - Smith, C. P., & Freyd, J. J. (2014). Institutional betrayal. *American Psychologist*, 69(6), 575–587.  
-  <small>Citováno: [7.55 Herman & Chomsky: Propaganda Model — empirické testování](@/kompendium/07-teoreticke-reflexe/herman-chomsky-propaganda-model.md), [Bridge: Betrayal trauma (trauma ze zrady)](@/kompendium/glossary-bridges/bridge-betrayal-trauma.md), [Bridge: DARVO](@/kompendium/glossary-bridges/bridge-darvo.md) a 7 dalších</small>
+  <small>Citováno: [7.55 Herman & Chomsky: Propaganda Model — empirické testování](@/kompendium/07-teoreticke-reflexe/herman-chomsky-propaganda-model.md), [Bridge: Betrayal trauma (trauma ze zrady)](@/kompendium/glossary-bridges/bridge-betrayal-trauma.md), [Bridge: DARVO](@/kompendium/glossary-bridges/bridge-darvo.md) a 16 dalších</small>
+- Smith, C. P., Freydová, J. J. (2014). *Institutional Betrayal*. American Psychologist, 69(6).  
+  <small>Citováno: [Syndrom epistemické přetlakové komory](@/kompendium/puvodni-taxonomie/syndrom-epistemicke-pretlakove-komory.md)</small>
 - Smith, D. L. (2011). *Less Than Human: Why We Demean, Enslave, and Exterminate Others*. St. Martin's Press.  
   <small>Citováno: [Prevence genocidy — EA](@/kompendium/international/30-genocide-prevention-EA/index.md)</small>
 - Smith, J. A. (2011). Evaluating the contribution of interpretative phenomenological analysis.  
@@ -9194,7 +9258,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Sokal, A., & Bricmont, J. (1998). *Fashionable Nonsense: Postmodern Intellectuals' Abuse of  
   <small>Citováno: [Případ 28: Akademický filozofický kult](@/kompendium/case-studies/28-academic-philosophy-cult.md)</small>
 - Sokal, A., & Bricmont, J. (1998). *Fashionable Nonsense: Postmodern Intellectuals' Abuse of Science*. Picador.  
-  <small>Citováno: [Detekční signatura: Hustota žargonu](@/kompendium/detection-signatures/1-linguistic-jargon-density.md), [Původní taxonomie (2025)](@/kompendium/puvodni-taxonomie/_index.md), [Epistemická singularita jako rodina vzorců](@/kompendium/puvodni-taxonomie/epistemicka-singularita-rodina.md) a 6 dalších</small>
+  <small>Citováno: [Detekční signatura: Hustota žargonu](@/kompendium/detection-signatures/1-linguistic-jargon-density.md), [Původní taxonomie (2025)](@/kompendium/puvodni-taxonomie/_index.md), [Absolutní epistemická anti-analogičnost](@/kompendium/puvodni-taxonomie/absolutni-epistemicka-anti-analogicnost.md) a 25 dalších</small>
 - **Sokol, J.** (2002). *Filosofická antropologie*. Praha: Portál.  
   <small>Citováno: [Bibliografie a primární literatura](@/kompendium/08-prilohy/bibliografie.md)</small>
 - Sokoloff, N. J., & Dupont, I. (2005). Domestic violence at the intersections of race, class, and gender: Challenges and contributions to understanding violence against marginalized women in diverse communities. *Violence Against Women*.  
@@ -9338,7 +9402,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Stark, E. (2007). *Coercive Control*.  
   <small>Citováno: [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md), [EA-2.2.10 Implantace budoucího vydírání](@/kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md), [EA-2.2.5 Nátlak doporučením](@/kompendium/techniques/ea-2-2-5-recommendation-coercion.md) a 2 dalších</small>
 - Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. Oxford University Press.  
-  <small>Citováno: [Kompendium epistemické a kognitivní anihilace](@/_index.md), [Radikální diskontinuita](@/glossary/radikalni-diskontinuita.md), [Epistemická singularita jako rodina vzorců](@/kompendium/puvodni-taxonomie/epistemicka-singularita-rodina.md) a 3 dalších</small>
+  <small>Citováno: [Kompendium epistemické a kognitivní anihilace](@/_index.md), [Radikální diskontinuita](@/glossary/radikalni-diskontinuita.md), [Epistemická kvantová delokalizace](@/kompendium/puvodni-taxonomie/epistemicka-kvantova-delokalizace.md) a 7 dalších</small>
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*.  
   <small>Citováno: [Pseudoempatická vazba](@/glossary/pseudoempaticka-vazba.md), [Compliance: KYC a ověřování příběhu klienta](@/kompendium/cross-domain/29-ea-compliance-kyc-narrative-validation.md), [EA-4.1 Gaslighting](@/kompendium/techniques/ea-4-1-gaslighting.md)</small>
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. New York: Oxford  
@@ -9352,7 +9416,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University  
   <small>Citováno: [Operační principy](@/kompendium/04-operacni-principy/_index.md), [Historický případ: Východoněmecká Zersetzung](@/kompendium/historical-cases/5-east-german-zersetzung.md)</small>
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.  
-  <small>Citováno: [BITE model](@/glossary/bite-model.md), [C-PTSD (komplexní posttraumatická stresová porucha)](@/glossary/c-ptsd.md), [Chain of custody (řetězec úschovy důkazů)](@/glossary/chain-of-custody.md) a 245 dalších</small>
+  <small>Citováno: [BITE model](@/glossary/bite-model.md), [C-PTSD (komplexní posttraumatická stresová porucha)](@/glossary/c-ptsd.md), [Chain of custody (řetězec úschovy důkazů)](@/glossary/chain-of-custody.md) a 261 dalších</small>
 - Stark, E. (2007). *Coercive Control*. New York: Oxford University Press.  
   <small>Citováno: [EA-5.2.21 Subjekt-objekt fúzia](@/kompendium/techniques/ea-5-2-21-subjekt-objekt-fuzia.md), [EA-5.3.1 Identitární substituce](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md), [EA-5.3.10 Perspektivní substituce](@/kompendium/techniques/ea-5-3-10-perspektivni-substituce.md) a 3 dalších</small>
 - Stark, E. (2007). *Coercive Control*. Oxford University Press.  
@@ -9368,7 +9432,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Staw, B. M. (1976). Knee-deep in the big muddy: a study of escalating commitment to a chosen  
   <small>Citováno: [Případ 17: Nátlak kouče](@/kompendium/case-studies/17-coach-coercion.md), [Případ 20: Finanční kult](@/kompendium/case-studies/20-finance-cult.md)</small>
 - Staw, B. M. (1976). Knee-deep in the big muddy: A study of escalating commitment to a chosen course of action. *Organizational Behavior and Human Performance*, 16(1), 27–44.  
-  <small>Citováno: [Případ 13: Zotavení z MLM](@/kompendium/case-studies/13-mlm-recovery.md), [Detekční signatura: Posun rozsahu (scope creep)](@/kompendium/detection-signatures/7-linguistic-scope-creep.md)</small>
+  <small>Citováno: [Případ 13: Zotavení z MLM](@/kompendium/case-studies/13-mlm-recovery.md), [Detekční signatura: Posun rozsahu (scope creep)](@/kompendium/detection-signatures/7-linguistic-scope-creep.md), [Hyperbolická eskalace](@/kompendium/puvodni-taxonomie/hyperbolicka-eskalace.md)</small>
 - Steel, Z. et al. (2009). Association of torture and other potentially traumatic events with mental health outcomes among populations exposed to mass conflict and displacement. *JAMA*.  
   <small>Citováno: [EA-6.4.3 Uprchlík/migrant protokol](@/kompendium/techniques/ea-6-4-3-uprchlik-protokol.md)</small>
 - Steele, C. M., & Aronson, J. (1995). *Stereotype threat and the intellectual test performance of African Americans*. Journal of Personality and Social Psychology.  
@@ -9554,15 +9618,15 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Sweet, P. L. (2019). *The sociology of gaslighting*. American Sociological Review, 84(5).  
   <small>Citováno: [Akutní narušení](@/glossary/akutni-naruseni.md), [7.38 Block: Phenomenal vs. Access Consciousness](@/kompendium/07-teoreticke-reflexe/block-phenomenal-vs-access.md), [7.23 Brandom: Inferenciální sémantika a normativita](@/kompendium/07-teoreticke-reflexe/brandom-inferential-semantics.md) a 15 dalších</small>
 - Sweet, P. L. (2019). The sociology of gaslighting. *American Sociological Review*, 84(5), 851–875.  
-  <small>Citováno: [Detekční signatura: Gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md), [Akutní protokol: Akutní dekompenzace po epistemické anihilaci](@/kompendium/emergency-protocols/1-acute-decompensation-EA.md), [Akutní protokol: Mobilní krizová intervence v terénu](@/kompendium/emergency-protocols/15-mobile-crisis-EA.md) a 15 dalších</small>
+  <small>Citováno: [Detekční signatura: Gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md), [Akutní protokol: Akutní dekompenzace po epistemické anihilaci](@/kompendium/emergency-protocols/1-acute-decompensation-EA.md), [Akutní protokol: Mobilní krizová intervence v terénu](@/kompendium/emergency-protocols/15-mobile-crisis-EA.md) a 17 dalších</small>
 - Sweller, J. (1988). *Cognitive load during problem solving: Effects on learning*. Cognitive Science.  
   <small>Citováno: [Epistemický chaos](@/glossary/epistemicky-chaos.md), [Konstrukce intelektuálních labyrintů](@/glossary/intelektualni-labyrint.md)</small>
 - Sweller, J. (1988). Cognitive load during problem solving: Effects on learning. *Cognitive Science*, 12.  
   <small>Citováno: [Epistemická bifurkace](@/glossary/epistemicka-bifurkace.md), [Kognitivní bludištění](@/glossary/kognitivni-bludisteni.md), [Kognitivní rozklad](@/glossary/kognitivni-rozklad.md)</small>
 - Sweller, J. (1988). *Cognitive Load During Problem Solving: Effects on Learning*. Cognitive Science, 12(2).  
-  <small>Citováno: [Hypertransformativní vzorce](@/kompendium/puvodni-taxonomie/hypertransformativni-protokoly.md), [EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md)</small>
+  <small>Citováno: [Epistemická kvantová delokalizace](@/kompendium/puvodni-taxonomie/epistemicka-kvantova-delokalizace.md), [Hyperbolická eskalace](@/kompendium/puvodni-taxonomie/hyperbolicka-eskalace.md), [Hypertransformativní vzorce](@/kompendium/puvodni-taxonomie/hypertransformativni-protokoly.md) a 4 dalších</small>
 - Sweller, J. (1988). Cognitive load during problem solving: Effects on learning. *Cognitive Science*, 12(2), 257–285.  
-  <small>Citováno: [Akutní protokol: Akutní kognitivní paralýza](@/kompendium/emergency-protocols/7-acute-cognitive-paralysis.md), [Bridge: Gish Gallop (Gishův cval)](@/kompendium/glossary-bridges/bridge-gish-gallop.md), [Bridge: Kognitivní anihilace](@/kompendium/glossary-bridges/bridge-kognitivni-anihilace.md) a 3 dalších</small>
+  <small>Citováno: [Akutní protokol: Akutní kognitivní paralýza](@/kompendium/emergency-protocols/7-acute-cognitive-paralysis.md), [Bridge: Gish Gallop (Gishův cval)](@/kompendium/glossary-bridges/bridge-gish-gallop.md), [Bridge: Kognitivní anihilace](@/kompendium/glossary-bridges/bridge-kognitivni-anihilace.md) a 4 dalších</small>
 - Swets, J. A., Dawes, R. M., & Monahan, J. (2000). Psychological science can improve diagnostic decisions. *Psychological Science in the Public Interest*, 1(1).  
   <small>Citováno: [Riziko falešně pozitivních detekcí](@/kompendium/critical-perspectives/5-false-positive-risk.md)</small>
 - Swets, J. A., Dawes, R. M., & Monahan, J. (2000). Psychological science can improve diagnostic decisions. *Psychological Science in the Public Interest*, 1(1), 1–26.  
@@ -9611,7 +9675,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Tarski, A. (1944). The semantic conception of truth and the foundations of semantics. *Philosophy and Phenomenological Research*, 4(3).  
   <small>Citováno: [EA-5.4.1 Aplikace lhářova paradoxu](@/kompendium/techniques/ea-5-4-1-lhar-paradox-aplikace.md), [EA-5.4.10 Implantace Berryho paradoxu](@/kompendium/techniques/ea-5-4-10-berry-paradox-implantace.md), [EA-5.4.12 Aplikace Grellingova paradoxu](@/kompendium/techniques/ea-5-4-12-grellingova-paradox-aplikace.md)</small>
 - Tarski, A. (1944). The semantic conception of truth and the foundations of semantics. *Philosophy and Phenomenological Research*, 4(3), 341–376.  
-  <small>Citováno: [Kapitola 9: Paradoxální metaanihilační protokoly](@/kompendium/05-ultramari-techniky/kapitola-9.md), [EA-5.4.41 Implantace bootstrap paradoxu](@/kompendium/techniques/ea-5-4-41-bootstrap-paradox-implantace.md), [EA-5.4.42 Aplikace paradoxu dědečka](@/kompendium/techniques/ea-5-4-42-grandfather-paradox-aplikace.md) a 23 dalších</small>
+  <small>Citováno: [Pokročilé techniky – kapitola 6: vyvozování, rozlišování a konvergence](@/kompendium/05-pokrocile-techniky/kapitola-6/_index.md), [Kapitola 9: Paradoxální metaanihilační protokoly](@/kompendium/05-ultramari-techniky/kapitola-9.md), [Absolutní epistemická anti-autoreferenční paradoxální smyčka](@/kompendium/puvodni-taxonomie/absolutni-epistemicka-anti-autoreferencni-paradoxalni-smycka.md) a 25 dalších</small>
 - Tarski, A. (1944). The semantic conception of truth. *Philosophy and Phenomenological Research*, 4(3), 341–376.  
   <small>Citováno: [EA-5.4.3 Tarsky diagonalizace pravdy](@/kompendium/techniques/ea-5-4-3-tarsky-diagonalizace.md)</small>
 - Taubes, G. (1993). *Bad Science: The Short Life and Weird Times of Cold Fusion*. Random House.  
@@ -9647,7 +9711,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Taylor, D. (1997). *Disappearing Acts: Spectacles of Gender and Nationalism in Argentina's „Dirty War“*. Duke University Press.  
   <small>Citováno: [Latinská Amerika — vzorce EA](@/kompendium/international/15-latin-american-EA/index.md)</small>
 - Taylor, G. J., Bagby, R. M., & Parker, J. D. A. (1997). *Disorders of Affect Regulation: Alexithymia in Medical and Psychiatric Illness*. Cambridge University Press.  
-  <small>Citováno: [Interocepce](@/glossary/interocepce.md), [Detekční signatura: Odpor k upřesnění](@/kompendium/detection-signatures/10-behavioral-resistance-to-clarification.md)</small>
+  <small>Citováno: [Interocepce](@/glossary/interocepce.md), [Detekční signatura: Odpor k upřesnění](@/kompendium/detection-signatures/10-behavioral-resistance-to-clarification.md), [Absolutní epistemická anti-propozicionalita](@/kompendium/puvodni-taxonomie/absolutni-epistemicka-anti-propozicionalita.md) a 1 dalších</small>
 - Taylor, K. (2004). *Brainwashing: The Science of Thought Control*. Oxford University Press.  
   <small>Citováno: [Thought reform](@/glossary/thought-reform.md), [EA-8.3.7 Interdisciplinární antologie](@/kompendium/techniques/ea-8-3-7-interdisciplinary-anthology.md)</small>
 - Taylor, P. M. (2005). *Freedom of Religion: UN and European Human Rights Law and Practice*. Cambridge University Press.  
@@ -9707,7 +9771,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Thagard, P. (1988). *Computational Philosophy of Science*. MIT Press.  
   <small>Citováno: [7.6 Computational epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)</small>
 - Thagard, P. (2000). *Coherence in Thought and Action*. MIT Press.  
-  <small>Citováno: [Epistemická fragmentace](@/glossary/epistemicka-fragmentace.md)</small>
+  <small>Citováno: [Epistemická fragmentace](@/glossary/epistemicka-fragmentace.md), [Epistemická atomizace](@/kompendium/puvodni-taxonomie/epistemicka-atomizace.md)</small>
 - Thaler, R. H., a Sunstein, C. R. (2008). *Nudge: Improving Decisions about Health, Wealth, and Happiness*. Yale University Press.  
   <small>Citováno: [7.56 Zuboff: Surveillance Capitalism a behavioral futures](@/kompendium/07-teoreticke-reflexe/zuboff-surveillance-capitalism.md)</small>
 - Thayer, J. F., & Lane, R. D. (2000). *A model of neurovisceral integration in emotion regulation and dysregulation*. Journal of Affective Disorders.  
@@ -9947,7 +10011,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. New York: Norton.  
   <small>Citováno: [Vzdělávací scénář: Fragmentace identity](@/kompendium/educational-scenarios/25-identity-fragmentation.md)</small>
 - van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. Norton.  
-  <small>Citováno: [Disociace](@/glossary/disociace.md), [Epistemická fragmentace](@/glossary/epistemicka-fragmentace.md)</small>
+  <small>Citováno: [Disociace](@/glossary/disociace.md), [Epistemická fragmentace](@/glossary/epistemicka-fragmentace.md), [Epistemická atomizace](@/kompendium/puvodni-taxonomie/epistemicka-atomizace.md)</small>
 - van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. W. W. Norton.  
   <small>Citováno: [Případ 44: Umělecká totalizace v divadelním souboru](@/kompendium/case-studies/44-arts-totalizace.md), [Bridge: Mereologická rekonstrukce](@/kompendium/glossary-bridges/bridge-mereologicka-rekonstrukce.md)</small>
 - van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self*. W. W. Norton.  
@@ -9969,9 +10033,11 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - van der Kolk, B. A. (2014). *The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma*. Viking.  
   <small>Citováno: [Sebe-obrana: Somatická pozornost](@/kompendium/self-defense-guides/13-somatic-awareness.md), [EA-5.3.14 Somatická rekodifikace](@/kompendium/techniques/ea-5-3-14-somaticka-rekodifikace.md), [EA-5.3.24 Proto-self rozklad](@/kompendium/techniques/ea-5-3-24-proto-self-rozklad.md) a 3 dalších</small>
 - van der Kolk, B. A. (2014). *The Body Keeps the Score*. Viking.  
-  <small>Citováno: [Embodied cognition (vtělená kognice)](@/glossary/embodied-cognition.md), [Interocepce](@/glossary/interocepce.md), [Polyvagální teorie](@/glossary/polyvagalni-teorie.md) a 16 dalších</small>
+  <small>Citováno: [Embodied cognition (vtělená kognice)](@/glossary/embodied-cognition.md), [Interocepce](@/glossary/interocepce.md), [Polyvagální teorie](@/glossary/polyvagalni-teorie.md) a 17 dalších</small>
 - van der Kolk, B. A., et al. (2014). Yoga as an Adjunctive Treatment for Posttraumatic  
   <small>Citováno: [EA-8.2.9 Rámec van der Kolka: tělo a trauma](@/kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md)</small>
+- van der Kolk, B. A., Fisler, R. (1995). *Dissociation and the Fragmentary Nature of Traumatic Memories*. Journal of Traumatic Stress, 8(4), 505–525.  
+  <small>Citováno: [Absolutní epistemická anti-propozicionalita](@/kompendium/puvodni-taxonomie/absolutni-epistemicka-anti-propozicionalita.md)</small>
 - van der Kolk, B. A., & Fisler, R. (1995). Dissociation and the fragmentary nature of traumatic memories: Overview and exploratory study. *Journal of Traumatic Stress*, 8(4), 505–525.  
   <small>Citováno: [Detekční signatura: Temporální dezorientace](@/kompendium/detection-signatures/29-phenomenological-temporal-disorientation.md), [Detekční signatura: Fragmentace narativu](@/kompendium/detection-signatures/6-linguistic-narrative-fragmentation.md)</small>
 - van der Linden, S. (2023).  
@@ -10081,7 +10147,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Vromans, L. P., & Schweitzer, R. D. (2011). *Narrative therapy for adults with major depressive disorder: Improved symptom and interpersonal outcomes*. Psychotherapy Research.  
   <small>Citováno: [Narativní terapie](@/glossary/narativni-terapie.md)</small>
 - Vygotskij, L. S. (1978). *Mind in Society: The Development of Higher Psychological Processes*. Harvard University Press.  
-  <small>Citováno: [Edukativní implementace](@/glossary/edukativni-implementace.md)</small>
+  <small>Citováno: [Edukativní implementace](@/glossary/edukativni-implementace.md), [Absolutní kognitivní anti-mediace](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anti-mediace.md), [Absolutní kognitivní anti-virtualizace](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anti-virtualizace.md) a 2 dalších</small>
 - Vygotsky, L. S. (1978). *Mind in Society: The Development of Higher Psychological Processes*. Harvard University Press.  
   <small>Citováno: [7.41 Clark: Rozšířená mysl a kognitivní artefakty](@/kompendium/07-teoreticke-reflexe/clark-extended-mind.md), [EA-3.1.1 Graduální expozice design](@/kompendium/techniques/ea-3-1-1-graduated-exposure-design.md), [EA-3.1.2 Experienciální scaffolding](@/kompendium/techniques/ea-3-1-2-experiential-scaffolding.md)</small>
 
@@ -10228,7 +10294,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. Norton.  
   <small>Citováno: [Double bind (dvojná vazba)](@/glossary/double-bind.md)</small>
 - Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. W. W. Norton.  
-  <small>Citováno: [Konstrukce intelektuálních labyrintů](@/glossary/intelektualni-labyrint.md), [Systémová teorie jako alternativa](@/kompendium/critical-perspectives/21-systems-theory-alternative.md), [Metatranscendentální anihilace jako rodina vzorců](@/kompendium/puvodni-taxonomie/metatranscendentalni-anihilace.md) a 5 dalších</small>
+  <small>Citováno: [Konstrukce intelektuálních labyrintů](@/glossary/intelektualni-labyrint.md), [Systémová teorie jako alternativa](@/kompendium/critical-perspectives/21-systems-theory-alternative.md), [Absolutní epistemická anti-autoreferenční paradoxální smyčka](@/kompendium/puvodni-taxonomie/absolutni-epistemicka-anti-autoreferencni-paradoxalni-smycka.md) a 7 dalších</small>
 - Watzlawick, P., Weakland, J. H., & Fisch, R. (1974). *Change: Principles of Problem Formation and Problem Resolution*. New York: W. W. Norton.  
   <small>Citováno: [Jediná příčina](@/kompendium/argumentacni-fauly/kauzalni/jedina-pricina.md), [Zjednodušená kauzalita](@/kompendium/argumentacni-fauly/kauzalni/zjednodusena-kauzalita.md), [Časové kódování zkušenosti](@/kompendium/nlp-vzorce/casova-osa/casove-kodovani.md) a 46 dalších</small>
 - Watzlawick, P., Weakland, J. H., & Fisch, R. (1974). *Change: Principles of Problem Formation and Problem Resolution*. W. W. Norton.  
@@ -10265,8 +10331,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Blízký východ — vzorce EA](@/kompendium/international/13-middle-eastern-EA/index.md)</small>
 - Wegner, D. M. (1987). Transactive memory: A contemporary analysis of the group mind. In B. Mullen & G. R. Goethals (Eds.), *Theories of Group Behavior* (pp. 185–208). Springer.  
   <small>Citováno: [Sebe-obrana: Vztahové kotvy](@/kompendium/self-defense-guides/42-relational-anchors.md)</small>
-- Wegner, D. M. (1987). Transactive memory: A contemporary analysis of the group mind. In B. Mullen & G. R. Goethals (Eds.), *Theories of Group Behavior*. Springer.  
-  <small>Citováno: [7.48 Hutchins: Distribuovaná kognice a kulturní artefakty](@/kompendium/07-teoreticke-reflexe/hutchins-distributed-cognition.md)</small>
+- Wegner, D. M. (1987). *Transactive Memory: A Contemporary Analysis of the Group Mind*. In B. Mullen, G. R. Goethals (Eds.), *Theories of Group Behavior*. Springer.  
+  <small>Citováno: [7.48 Hutchins: Distribuovaná kognice a kulturní artefakty](@/kompendium/07-teoreticke-reflexe/hutchins-distributed-cognition.md), [Absolutní kognitivní anti-distribuce](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anti-distribuce.md)</small>
 - Wegner, D. M. (1987). Transactive Memory. In B. Mullen & G. R. Goethals (Eds.),  
   <small>Citováno: [EA-7.3.4 Clark: Rozšířená mysl](@/kompendium/techniques/ea-7-3-4-clark-extended-mind.md)</small>
 - Wegner, D. M. (1994). *Ironic processes of mental control*. Psychological Review.  
@@ -10282,13 +10348,13 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Weick, K. E. (1993). *The collapse of sensemaking in organizations: The Mann Gulch disaster*. Administrative Science Quarterly.  
   <small>Citováno: [Epistemická krize](@/glossary/epistemicka-krize.md)</small>
 - Weick, K. E. (1993). The collapse of sensemaking in organizations: The Mann Gulch disaster. *Administrative Science Quarterly*, 38(4), 628–652.  
-  <small>Citováno: [Kontinuita podnikání s EA fokusem](@/kompendium/organizational-defense/37-business-continuity-EA.md)</small>
+  <small>Citováno: [Kontinuita podnikání s EA fokusem](@/kompendium/organizational-defense/37-business-continuity-EA.md), [Absolutní kognitivní anti-orientace](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anti-orientace.md)</small>
 - Weick, K. E., & Sutcliffe, K. M. (2007). *Managing the Unexpected* (2. vyd.). Jossey-Bass.  
   <small>Citováno: [EA-4.2.2 Real-time monitoring](@/kompendium/techniques/ea-4-2-2-real-time-monitoring.md)</small>
 - Weick, K. E., & Sutcliffe, K. M. (2007). *Managing the Unexpected: Resilient Performance in an Age of Uncertainty* (2. vyd.). Jossey-Bass.  
   <small>Citováno: [Kontinuita podnikání s EA fokusem](@/kompendium/organizational-defense/37-business-continuity-EA.md)</small>
 - Weick, K. E., & Sutcliffe, K. M. (2007). *Managing the Unexpected: Resilient Performance in an Age of Uncertainty*. Jossey-Bass.  
-  <small>Citováno: [Epistemická krize](@/glossary/epistemicka-krize.md)</small>
+  <small>Citováno: [Epistemická krize](@/glossary/epistemicka-krize.md), [Absolutní kognitivní anti-orientace](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anti-orientace.md)</small>
 - Weil, D. (2014). *The Fissured Workplace: Why Work Became So Bad for So Many and What Can Be Done to Improve It*. Harvard University Press.  
   <small>Citováno: [Prověřování kontraktorů](@/kompendium/organizational-defense/26-contractor-vetting.md)</small>
 - Weisberg, D. S., Keil, F. C., Goodstein, J., Rawson, E., & Gray, J. R. (2008). The seductive allure of neuroscience explanations. *Journal of Cognitive Neuroscience*, 20(3), 470–477.  
@@ -10322,7 +10388,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Wells, A. (2009). *Metacognitive Therapy for Anxiety and Depression*. Guilford.  
   <small>Citováno: [EA-8.1.9 Metakognitivní dotazník MCQ-30 (Wells, Cartwright-Hattonová)](@/kompendium/techniques/ea-8-1-9-metakognitivni-questionnaire.md)</small>
 - Wells, A. (2009). *Metacognitive Therapy for Anxiety and Depression*. Guilford Press.  
-  <small>Citováno: [Destruktivní cirkularita](@/glossary/destruktivni-cirkularita.md), [Dialektická anihilace](@/glossary/dialekticka-anihilace.md), [Epistemická alienace](@/glossary/epistemicka-alienace.md) a 24 dalších</small>
+  <small>Citováno: [Destruktivní cirkularita](@/glossary/destruktivni-cirkularita.md), [Dialektická anihilace](@/glossary/dialekticka-anihilace.md), [Epistemická alienace](@/glossary/epistemicka-alienace.md) a 29 dalších</small>
 - Wells, A. (2009). *Metacognitive Therapy for Anxiety and Depression.* New York: Guilford Press.  
   <small>Citováno: [Metakognice – myšlení o myšlení jako kategorie analýzy](@/kompendium/03-zakladni-kategorie/metakognice.md), [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md), [6.1.3 Self-report instrumenty pro EA — kalibrace a interpretace](@/kompendium/06-klinicke-aplikace/self-report-instrumenty.md) a 15 dalších</small>
 - Wells, A., & Cartwright-Hatton, S. (2004). A Short Form of the Metacognitions  
@@ -10504,7 +10570,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Winell, M. (1993). *Leaving the Fold: A Guide for Former Fundamentalists and Others Leaving Their Religion*. New Harbinger.  
   <small>Citováno: [Případ 49: Duchovní totalizace pod autoritou náboženského vedoucího](@/kompendium/case-studies/49-religious-leadership.md)</small>
 - Winnicott, D. W. (1971). *Playing and Reality*. Tavistock Publications.  
-  <small>Citováno: [7.22 Honneth: Rozpoznání a boj o uznání](@/kompendium/07-teoreticke-reflexe/honneth-rozpoznani.md)</small>
+  <small>Citováno: [7.22 Honneth: Rozpoznání a boj o uznání](@/kompendium/07-teoreticke-reflexe/honneth-rozpoznani.md), [Absolutní kognitivní anti-virtualizace](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anti-virtualizace.md)</small>
 - Wiseman, R., Watt, C., ten Brinke, L., Porter, S., Couper, S.-L., & Rankin, C. (2012). The eyes don't have it: Lie detection and neuro-linguistic programming. *PLoS ONE*, 7(7), e40259.  
   <small>Citováno: [Potvrzení důsledku](@/kompendium/argumentacni-fauly/formalni/potvrzeni-dusledku.md), [NLP vzorce](@/kompendium/nlp-vzorce/_index.md), [Elicitace časové osy](@/kompendium/nlp-vzorce/casova-osa/elicitace-casove-osy.md) a 36 dalších</small>
 - Witkiewitz, K. a Marlatt, G. A. (2004). Relapse prevention for alcohol and drug problems: That was Zen, this is Tao. *American Psychologist*, 59(4), 224–235.  
@@ -10520,9 +10586,11 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Wittgenstein, L. (1921). *Logisch-philosophische Abhandlung (Tractatus Logico-Philosophicus)*.  
   <small>Citováno: [Solipsismus](@/glossary/solipsismus.md)</small>
 - Wittgenstein, L. (1921). *Tractatus Logico-Philosophicus*.  
-  <small>Citováno: [Tautologie](@/glossary/tautologie.md)</small>
+  <small>Citováno: [Tautologie](@/glossary/tautologie.md), [Absolutní epistemická anti-propozicionalita](@/kompendium/puvodni-taxonomie/absolutni-epistemicka-anti-propozicionalita.md), [Epistemická atomizace](@/kompendium/puvodni-taxonomie/epistemicka-atomizace.md)</small>
 - Wittgenstein, L. (1922). *Tractatus Logico-Philosophicus*. Kegan Paul.  
   <small>Citováno: [7.10 Wittgenstein: Jazykové hry a forma života](@/kompendium/07-teoreticke-reflexe/wittgenstein-jezykove-hry.md)</small>
+- Wittgenstein, L. (1922). *Tractatus Logico-Philosophicus*. London: Kegan Paul.  
+  <small>Citováno: [Pokročilé operace – kapitola 6: reflexivní a sémantická vrstva](@/kompendium/05-pokrocile-operace/kapitola-6/_index.md)</small>
 - Wittgenstein, L. (1953). *Philosophical Investigations*. Blackwell.  
   <small>Citováno: [EA-4.3.10 Conceptual rebuild protocol](@/kompendium/techniques/ea-4-3-10-conceptual-rebuild-protocol.md), [EA-4.3.2 Categorical boundary erosion](@/kompendium/techniques/ea-4-3-2-categorical-boundary-erosion.md), [EA-4.3.3 Semantic stability disruption](@/kompendium/techniques/ea-4-3-3-semantic-stability-disruption.md)</small>
 - Wittgenstein, L. (1953). *Philosophical Investigations*. Oxford: Blackwell.  
@@ -10530,7 +10598,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Wittgenstein, L. (1953). *Philosophische Untersuchungen*.  
   <small>Citováno: [Solipsismus](@/glossary/solipsismus.md)</small>
 - Wittgenstein, L. (1953). *Philosophische Untersuchungen*. Blackwell.  
-  <small>Citováno: [Diskurzivní anihilace](@/glossary/diskurzivni-anihilace.md), [Bridge: Gestalt shift (gestaltový přesmyk)](@/kompendium/glossary-bridges/bridge-gestalt-shift.md), [EA-5.4.41 Implantace bootstrap paradoxu](@/kompendium/techniques/ea-5-4-41-bootstrap-paradox-implantace.md) a 24 dalších</small>
+  <small>Citováno: [Diskurzivní anihilace](@/glossary/diskurzivni-anihilace.md), [Bridge: Gestalt shift (gestaltový přesmyk)](@/kompendium/glossary-bridges/bridge-gestalt-shift.md), [Absolutní epistemická anti-propozicionalita](@/kompendium/puvodni-taxonomie/absolutni-epistemicka-anti-propozicionalita.md) a 25 dalších</small>
 - Wittgenstein, L. (1953). *Philosophische Untersuchungen* (Filosofická zkoumání).  
   <small>Citováno: [Konsenzuální realita](@/glossary/konsenzualni-realita.md)</small>
 - Wittgenstein, L. (1953). *Philosophische Untersuchungen* / *Filozofická zkoumání*. Blackwell.  
@@ -10550,7 +10618,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Wittgenstein, L. (1969). *Über Gewißheit / On Certainty*. Basil Blackwell.  
   <small>Citováno: [Dekonstruktivní hyperkaskáda](@/glossary/dekonstruktivni-hyperkaskada.md), [Epistemická derealizace](@/glossary/epistemicka-derealizace.md)</small>
 - Wittgenstein, L. (1969). *Über Gewißheit / On Certainty*. Blackwell.  
-  <small>Citováno: [Epistemologická paralýza](@/glossary/epistemologicka-paralyza.md), [7.10 Wittgenstein: Jazykové hry a forma života](@/kompendium/07-teoreticke-reflexe/wittgenstein-jezykove-hry.md)</small>
+  <small>Citováno: [Epistemologická paralýza](@/glossary/epistemologicka-paralyza.md), [Pokročilé techniky – kapitola 6: vyvozování, rozlišování a konvergence](@/kompendium/05-pokrocile-techniky/kapitola-6/_index.md), [7.10 Wittgenstein: Jazykové hry a forma života](@/kompendium/07-teoreticke-reflexe/wittgenstein-jezykove-hry.md)</small>
 - Wohlstetter, R. (1962). *Pearl Harbor: Warning and Decision*. Stanford University Press.  
   <small>Citováno: [Bridge: Blue Team (modrý tým)](@/kompendium/glossary-bridges/bridge-blue-team.md)</small>
 - Wolak, J., Finkelhor, D., Walsh, W. a Treitman, L. (2018). Sextortion of minors: Characteristics and dynamics. *Journal of Adolescent Health*, 62(1), 72–79.  
@@ -10572,7 +10640,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Wood, D., Bruner, J. S., & Ross, G. (1976). *The role of tutoring in problem solving*. Journal of Child Psychology and Psychiatry.  
   <small>Citováno: [Radikální diskontinuita](@/glossary/radikalni-diskontinuita.md)</small>
 - Wood, D., Bruner, J. S., & Ross, G. (1976). The role of tutoring in problem solving. *Journal of Child Psychology and Psychiatry*, 17(2).  
-  <small>Citováno: [EA-3.1.2 Experienciální scaffolding](@/kompendium/techniques/ea-3-1-2-experiential-scaffolding.md)</small>
+  <small>Citováno: [Kognitivní zóny bezpečné syntézy](@/kompendium/puvodni-taxonomie/kognitivni-zony-bezpecne-syntezy.md), [EA-3.1.2 Experienciální scaffolding](@/kompendium/techniques/ea-3-1-2-experiential-scaffolding.md)</small>
 - Wood, T., a Porter, E. (2019). *The elusive backfire effect: Mass attitudes' steadfast factual adherence*. Political Behavior.  
   <small>Citováno: [7.58 Wardle: Typologie dezinformačního ekosystému](@/kompendium/07-teoreticke-reflexe/wardle-disinformation-typology.md)</small>
 - Wood, T., & Porter, E. (2019). The elusive backfire effect: Mass attitudes' steadfast factual  

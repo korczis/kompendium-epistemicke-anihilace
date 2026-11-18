@@ -6,6 +6,7 @@
 (function () {
   'use strict';
 
+  var L = window.KompendiumVrstva;
   var V;
   var nf = new Intl.NumberFormat('cs-CZ');
   // Stav → index v kategorické paletě vrstvy (smaragdová, jantarová, břidlicová). Rozpracovaná
@@ -18,12 +19,6 @@
 
   var HATCH = { symbol: 'rect', symbolSize: 1, dashArrayX: [1, 0], dashArrayY: [2, 5], rotation: -Math.PI / 4,
     color: 'rgba(255,255,255,0.35)' };
-
-  function plural(n, one, few, many) {
-    if (n === 1) return one;
-    if (n >= 2 && n <= 4) return few;
-    return many;
-  }
 
   // Přímé stránky oddílu jako v Zole (shodně s oddil.js): <dir>/<slug>.md nebo <dir>/<slug>/index.md.
   function isDirectPage(path, dir) {
@@ -38,25 +33,6 @@
     if (v.indexOf('generated') >= 0) return 'generovana';
     if (v.indexOf('detail') >= 0) return 'rozpracovana';
     return 'rozvinuta';
-  }
-
-  // Barva textu na ploše: tmavá (gray-900), nebo bílá, podle toho, která má vyšší kontrast (WCAG).
-  function ink(hex) {
-    var n = parseInt(String(hex).slice(1), 16);
-    var lum = [n >> 16, (n >> 8) & 255, n & 255].map(function (v) {
-      v /= 255;
-      return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4);
-    });
-    var L = 0.2126 * lum[0] + 0.7152 * lum[1] + 0.0722 * lum[2];
-    var dark = (L + 0.05) / (0.0092 + 0.05); // relativní jas #111827
-    var light = 1.05 / (L + 0.05);
-    return dark >= light ? '#111827' : '#ffffff';
-  }
-
-  function esc(s) {
-    return String(s).replace(/[&<>"]/g, function (c) {
-      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
-    });
   }
 
   function color(key) {
@@ -97,7 +73,7 @@
       a.href = r.url;
       a.textContent = r.title;
       li.querySelector('[data-slot="popis"]').textContent = nf.format(r.words) + ' ' +
-        plural(r.words, 'slovo', 'slova', 'slov') + ' · ' + STAV[r.stav].label;
+        L.plural(r.words, ['slovo', 'slova', 'slov']) + ' · ' + STAV[r.stav].label;
       list.appendChild(li);
     });
   }
@@ -131,7 +107,7 @@
           return { name: r.title, short: r.title.slice(prefix.length) || r.title, value: r.words, url: r.url, stav: r.stav,
             itemStyle: Object.assign({ color: c }, r.stav === 'rozpracovana' ? { decal: Object.assign({}, HATCH) } : {},
               i === sel ? { borderColor: t.text, borderWidth: 3 } : {}),
-            label: { color: ink(c) } };
+            label: { color: L.ink(c) } };
         });
       }
       el.innerHTML = '';
@@ -140,8 +116,8 @@
           animation: !window.KompendiumVrstva.reducedMotion(),
           tooltip: Object.assign({ trigger: 'item', confine: true, formatter: function (p) {
             var d = p.data;
-            return '<b>' + esc(d.name) + '</b><br>' + nf.format(d.value) + ' ' +
-              plural(d.value, 'slovo', 'slova', 'slov') + ' · ' + STAV[d.stav].label;
+            return '<b>' + L.esc(d.name) + '</b><br>' + nf.format(d.value) + ' ' +
+              L.plural(d.value, ['slovo', 'slova', 'slov']) + ' · ' + STAV[d.stav].label;
           } }, V.tooltip(t)),
           series: [{
             id: 'stranky', type: 'treemap', roam: false, nodeClick: false, breadcrumb: { show: false },
@@ -163,7 +139,7 @@
             return;
           }
           var r = shown[i];
-          caption.textContent = r.title + ': ' + nf.format(r.words) + ' ' + plural(r.words, 'slovo', 'slova', 'slov') +
+          caption.textContent = r.title + ': ' + nf.format(r.words) + ' ' + L.plural(r.words, ['slovo', 'slova', 'slov']) +
             ', ' + STAV[r.stav].label + ' (' + (i + 1) + ' z ' + shown.length + '). Enter stránku otevře.';
           el.setAttribute('data-pohled-cil', r.url);
         }
@@ -189,23 +165,9 @@
     });
   }
 
-  function init() {
-    V = window.KompendiumViz;
-    var roots = document.querySelectorAll('[data-pohled="oddil-prehled"]');
-    if (!V || !roots.length) return;
-    Array.prototype.forEach.call(roots, function (root) {
-      if (!('IntersectionObserver' in window)) { render(root); return; }
-      var io = new IntersectionObserver(function (entries) {
-        if (!entries.some(function (en) { return en.isIntersecting; })) return;
-        io.disconnect();
-        render(root);
-      }, { rootMargin: '200px 0px' });
-      io.observe(root);
-    });
-  }
-
-  // Skript je deferred a v těle stránky stojí před kompendium-viz.js: DOMContentLoaded přijde až
-  // po všech deferred skriptech, takže vrstva už je načtená.
-  if (document.readyState === 'complete') init();
-  else document.addEventListener('DOMContentLoaded', init);
+  // Každý výskyt pohledu se sestaví, až je vidět (KompendiumVrstva.mount).
+  L.mount('oddil-prehled', function (root, KV) {
+    V = KV;
+    render(root);
+  });
 })();

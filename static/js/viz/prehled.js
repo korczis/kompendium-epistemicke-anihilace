@@ -8,6 +8,7 @@
 (function () {
   'use strict';
 
+  var L = window.KompendiumVrstva;
   var V = window.KompendiumViz;
   var GROUP = ['#4338ca', '#374151'];   // primary-700 a gray-700: bílý popisek má kontrast AA
   var MARK = '#f59e0b';                  // vybrané pole: jantarový rámeček v obou tématech
@@ -113,17 +114,8 @@
   function init() {
     var roots = Array.prototype.slice.call(document.querySelectorAll('[data-prehled]'));
     if (!roots.length) return;
-    if (!('IntersectionObserver' in window)) { roots.forEach(render); return; }
-    var io = new IntersectionObserver(function (entries) {
-      entries.forEach(function (entry) {
-        if (!entry.isIntersecting) return;
-        io.unobserve(entry.target);
-        render(entry.target.closest('[data-prehled]'));
-      });
-    }, { rootMargin: '200px 0px' });
     roots.forEach(function (r) {
-      var chart = r.querySelector('[data-prehled-chart]');
-      if (chart) io.observe(chart);
+      L.lazy(r.querySelector('[data-prehled-chart]'), function () { render(r); });
     });
   }
 

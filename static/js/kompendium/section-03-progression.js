@@ -1,5 +1,5 @@
-// Kapitola 3 — techniky jedné rodiny EA podle podrodiny a úrovně rizika (Chart.js scatter
-// s vazbami). Rodinu určuje kód EA-N v textu nad grafem, techniky, kódy a názvy dává graf
+// Kapitola 3 — techniky jedné rodiny EA podle podrodiny a úrovně rizika (ECharts, síť
+// v kartézských souřadnicích). Rodinu určuje kód EA-N v textu nad grafem, techniky, kódy a názvy dává graf
 // knihy, názvy podrodin a riziko katalog technik, hrany jsou odkazy mezi stránkami technik.
 // Klik na bod → detail techniky, vazby a odkaz na její stránku.
 (function () {
@@ -7,15 +7,12 @@
 
   // Data knihy přes komponentovou vrstvu (vrstva.js): kniha.js se načte jednou za stránku.
   var kniha = window.KompendiumVrstva.kniha;
-
-  function failed(el, e) {
-    if (window.console) console.warn('vizualizace knihy:', e);
-    if (el) el.textContent = 'Data knihy se nepodařilo načíst.';
-  }
+  var failed = window.KompendiumVrstva.failed;
+  var L = window.KompendiumVrstva;
 
   function init() {
     var canvas = document.getElementById('section-03-progression');
-    if (!canvas || typeof Chart === 'undefined') return;
+    if (!canvas) return;
     var detail = document.getElementById('progression-detail');
     kniha().then(function (K) {
       return K.catalogue().catch(function () { return null; }).then(function (cat) { draw(K, cat, canvas, detail); });
@@ -61,7 +58,6 @@
     });
     var byId = {};
     techs.forEach(function (t) { byId[t.id] = t; });
-    var selected = null;
 
     function subLabel(s) { return s + (subName[s] ? ' ' + subName[s] : ''); }
 
@@ -81,76 +77,52 @@
       detail.appendChild(p);
     }
 
-    K.chart(canvas, function (c) {
-      var edgeData = [];
-      edges.forEach(function (e) {
-        edgeData.push(pos[e.a], pos[e.b], { x: NaN, y: NaN });
-      });
-      var sets = subs.map(function (s, i) {
-        var col = K.V.PALETTE[i % K.V.PALETTE.length];
-        return {
-          label: subLabel(s),
-          data: techs.filter(function (t) { return t.sub === s; }).map(function (t) {
-            return { x: pos[t.id].x, y: pos[t.id].y, t: t };
-          }),
-          backgroundColor: col, borderColor: col, showLine: false,
-          pointRadius: function (ctx) {
-            var t = ctx.raw && ctx.raw.t;
-            if (!selected || !t) return 7;
-            if (t.id === selected) return 12;
-            return nb[selected].indexOf(t.id) >= 0 ? 9 : 4;
-          },
-          pointHoverRadius: 11,
-        };
-      });
+    // Uzly stojí na osách (x = podrodina, y = úroveň rizika), hrany jsou odkazy mezi stránkami
+    // technik. Najetí zvýrazní sousedy, klik vybere techniku (rámeček) a vypíše detail.
+    K.chart(canvas, function (t, el) {
+      var hd = K.head(t, el, fid + ' ' + K.familyName(fid) + ': ' + techs.length + ' stránek technik, ' +
+        edges.length + ' vazeb podle odkazů v knize (klik = detail)', true);
       return {
-        type: 'scatter',
-        data: { datasets: [{
-          label: 'Vazby', data: edgeData, showLine: true, pointRadius: 0, borderWidth: 1,
-          borderColor: c.dark ? 'rgba(148,163,184,0.25)' : 'rgba(100,116,139,0.3)', spanGaps: false,
-        }].concat(sets) },
-        options: {
-          responsive: true,
-          plugins: {
-            title: { display: true, color: c.text,
-              text: fid + ' ' + K.familyName(fid) + ': ' + techs.length + ' stránek technik, ' + edges.length +
-                ' vazeb podle odkazů v knize (klik = detail)' },
-            legend: { labels: { color: c.text, filter: function (item) { return item.datasetIndex > 0; } } },
-            tooltip: {
-              filter: function (ctx) { return ctx.raw && ctx.raw.t; },
-              callbacks: {
-                title: function (items) { return K.techniqueText(items[0].raw.t); },
-                label: function (ctx) {
-                  var t = ctx.raw.t;
-                  return 'riziko ' + risk[t.id].label + ' | ' + nb[t.id].length + ' vazeb';
-                },
-              },
-            },
-          },
-          scales: {
-            x: {
-              type: 'linear', min: -0.6, max: subs.length - 0.4, afterBuildTicks: K.intTicks(subs.length),
-              ticks: { color: c.muted, stepSize: 1, callback: function (v) { return subs[v] || ''; } },
-              grid: { color: c.grid },
-              title: { display: true, text: 'Podrodina (kód z cesty stránky)', color: c.text },
-            },
-            y: {
-              type: 'linear', min: -0.6, max: levels.length - 0.4, afterBuildTicks: K.intTicks(levels.length),
-              ticks: { color: c.muted, stepSize: 1, callback: function (v) { return levels[v] ? levels[v].label : ''; } },
-              grid: { color: c.grid },
-              title: { display: true, text: 'Úroveň rizika (katalog technik)', color: c.text },
-            },
-          },
-          onClick: function (e, els, chart) {
-            var el = els.filter(function (x) { return x.datasetIndex > 0; })[0];
-            if (!el) return;
-            var t = chart.data.datasets[el.datasetIndex].data[el.index].t;
-            selected = t.id;
-            show(t);
-            chart.update('none');
-          },
-        },
+        title: hd.title,
+        legend: Object.assign(hd.legend, { data: subs.map(subLabel) }),
+        tooltip: Object.assign({ trigger: 'item', formatter: function (p) {
+          if (p.dataType !== 'node') return '';
+          var x = techs[p.dataIndex];
+          return '<b>' + L.esc(K.techniqueText(x)) + '</b><br>riziko ' + L.esc(risk[x.id].label) + ' | ' +
+            L.count(nb[x.id].length, ['vazba', 'vazby', 'vazeb']);
+        } }, K.V.tooltip(t)),
+        grid: { left: 8, right: 16, top: hd.top + 22, bottom: 36, containLabel: true },
+        xAxis: K.V.axis(t, { type: 'value', min: -0.6, max: subs.length - 0.4,
+          name: 'Podrodina (kód z cesty stránky)', nameLocation: 'middle', nameGap: 26,
+          axisTick: { customValues: subs.map(function (x, i) { return i; }) },
+          splitLine: { show: false },
+          axisLabel: { color: t.muted, customValues: subs.map(function (x, i) { return i; }),
+            formatter: function (v) { return subs[Math.round(v)] || ''; } } }),
+        yAxis: K.V.axis(t, { type: 'value', min: -0.6, max: levels.length - 0.4,
+          name: 'Úroveň rizika (katalog technik)', nameLocation: 'end', nameGap: 10,
+          nameTextStyle: { color: t.muted, align: 'left' },
+          axisTick: { customValues: levels.map(function (x, i) { return i; }) },
+          splitLine: { show: false },
+          axisLabel: { color: t.muted, customValues: levels.map(function (x, i) { return i; }),
+            formatter: function (v) { return levels[Math.round(v)] ? levels[Math.round(v)].label : ''; } } }),
+        series: [{
+          type: 'graph', coordinateSystem: 'cartesian2d', cursor: 'pointer', symbolSize: 14,
+          selectedMode: 'single', select: { itemStyle: { borderColor: t.text, borderWidth: 3 } },
+          emphasis: { focus: 'adjacency', lineStyle: { color: t.primary, opacity: 0.95, width: 2 } },
+          blur: { itemStyle: { opacity: 0.25 }, lineStyle: { opacity: 0.06 } },
+          categories: subs.map(function (sub, i) {
+            return { name: subLabel(sub), itemStyle: { color: K.V.PALETTE[i % K.V.PALETTE.length] } };
+          }),
+          data: techs.map(function (x) {
+            return { id: String(x.id), name: x.code, value: [pos[x.id].x, pos[x.id].y], category: subs.indexOf(x.sub),
+              itemStyle: { borderColor: t.surface, borderWidth: 1 } };
+          }),
+          links: edges.map(function (e) { return { source: String(e.a), target: String(e.b) }; }),
+          lineStyle: { color: t.edge, opacity: 0.45, width: 1 },
+        }],
       };
+    }).then(function (chart) {
+      chart.on('click', function (p) { if (p.dataType === 'node' && techs[p.dataIndex]) show(techs[p.dataIndex]); });
     });
   }
 

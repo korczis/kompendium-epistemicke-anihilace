@@ -52,6 +52,11 @@
     min-height: calc(100vh - 4rem);
   }
 
+  /* Alpine explorers stay hidden until they have booted (x-cloak), on every page at once. */
+  [x-cloak] {
+    display: none !important;
+  }
+
   :focus-visible {
     outline: 2px solid var(--color-primary-500);
     outline-offset: 2px;
@@ -59,11 +64,6 @@
 }
 
 @layer components {
-  /* The page header already shows the title; the content's own leading H1 repeats it. */
-  .format > h1:first-child {
-    display: none;
-  }
-
   /* Zola emits <pre class="giallo"> with inline token colours; keep it scrollable inside cards. */
   .format pre {
     overflow-x: auto;
@@ -75,6 +75,12 @@
     text-underline-offset: 2px;
   }
 
+  /* A long inline path or identifier (`scripts/build-references.py`) wraps instead of pushing the
+     page sideways on a phone; code blocks scroll (pre above). */
+  .format :not(pre) > code {
+    overflow-wrap: anywhere;
+  }
+
   /* Wide tables scroll inside a focusable region (static/js/site.js wraps them), so the table
      keeps its table semantics instead of display:block. */
   .kea-table-scroll {
@@ -82,20 +88,11 @@
     overflow-x: auto;
   }
 
-  .kea-table-scroll > table {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
 
   /* p5 sketches reserve their box before the script draws, so nothing shifts (CLS). */
   [data-p5][data-ratio="0.5"] { aspect-ratio: 2 / 1; }
   [data-p5][data-ratio="0.6"] { aspect-ratio: 5 / 3; }
   [data-p5][data-ratio="0.62"] { aspect-ratio: 100 / 62; }
-
-  /* Long-form reading: a comfortable measure on wide screens. */
-  .format {
-    max-width: 72ch !important;
-  }
 
   @media print {
     #sidebar, nav[aria-label="Hlavní navigace"], [data-toc], [data-back-to-top], [data-reading-progress],
@@ -179,7 +176,8 @@
 }
 
 /* Long-form reading: body text darker than the typography default for comfortable reading,
-   and section headings subordinate to the page title (Publisher H1: text-3xl/4xl). */
+   and one heading scale with the UI: the page title (Pro H1, text-2xl, layout.html page_title)
+   over text H2 at the card title size (text-xl), H3 text-lg, H4 just above the body. */
 .format {
   --tw-format-body: var(--color-gray-700);
   --tw-format-invert-body: var(--color-gray-300);
@@ -190,18 +188,59 @@
 }
 
 .format :where(h2):not(:where(.not-format *)) {
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
   margin-top: 2.25em;
   margin-bottom: 0.75em;
 }
 
 .format :where(h3):not(:where(.not-format *)) {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   line-height: 1.75rem;
   margin-top: 1.75em;
 }
 
 .format :where(h4):not(:where(.not-format *)) {
   font-size: 1.0625rem;
+}
+
+/* Tables in the text take the Pro table (admin dashboard index.html, users/list.html), the same as
+   the explorers' tables: a gray uppercase 12 px head, px-4 py-3 cells, a border under each row.
+   Unlayered, like the rules above, to outrank the typography plugin's own table styles. The
+   reading measure and the dropped leading H1 belong to templates/macros/ui.html prose. */
+.format :where(table):not(:where(.not-format *)) {
+  @apply w-full text-left text-sm;
+}
+
+/* The scroll region carries the table's spacing (site.js wraps every table), and the text's first
+   block starts on the card padding: no top margin above the first paragraph, table or figure. */
+.format .kea-table-scroll {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.format .kea-table-scroll > table {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.format > :first-child,
+.format > :first-child > table {
+  margin-top: 0;
+}
+
+.format :where(thead):not(:where(.not-format *)) {
+  @apply border-b-0 bg-gray-50 text-xs uppercase text-gray-700 dark:bg-gray-700 dark:text-gray-300;
+}
+
+.format :where(thead th, tbody td, tfoot td):not(:where(.not-format *)) {
+  @apply px-4 py-3 align-top;
+}
+
+.format :where(thead th):not(:where(.not-format *)) {
+  @apply bg-gray-50 font-medium text-gray-700 dark:bg-gray-700 dark:text-gray-300;
+}
+
+.format :where(tbody tr):not(:where(.not-format *)) {
+  @apply border-b border-gray-200 dark:border-gray-700;
 }

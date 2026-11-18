@@ -5,7 +5,6 @@
 | Soubor | Knihovna | Verze | Licence | Původ |
 |---|---|---|---|---|
 | `flowbite.min.js` | Flowbite | 4.0.2 | MIT | npm `flowbite`, kopíruje `scripts/vendor.mjs` |
-| `chart.umd.min.js` | Chart.js | 4.4.1 | MIT | převzato z webu Prismatic Platform |
 | `p5-1.7.0.min.js` | p5.js | 1.7.0 | LGPL-2.1 | převzato z webu Prismatic Platform |
 | `three-0.160.min.js` | three.js | r160 | MIT | převzato z webu Prismatic Platform |
 | `mermaid-11.min.js` | Mermaid | 11.14.0 | MIT | převzato z webu Prismatic Platform |

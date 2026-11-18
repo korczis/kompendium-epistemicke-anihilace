@@ -34,10 +34,10 @@ Abecední rejstřík rukopisu uvádí v rozsahu čísel 31–60 dvanáct technik
 sterilitu, absolutní
 epistemickou účelovou dezorientaci, absolutní axiomatickou inverzi, kognitivní
 čtyřdimenzionální šach, metodologický anihilismus, absolutní epistemickou rekurzivní negaci,
-koordinovanou multipersonální gaslightingovou strategii, konceptuální anihilaci, totální
+[koordinovanou multipersonální gaslightingovou strategii](@/kompendium/puvodni-taxonomie/koordinovana-multipersonalni-gaslighting-strategie.md), konceptuální anihilaci, totální
 identitní substituci, temporální dezintegraci, ontologickou anihilaci a ontologickou nebytnost.
 Poslední dvě mají v rukopisu stejné číslo i definici, a kniha je proto chápe jako jeden jev.
-Tematický rejstřík přidává třináctou položku, epistemickou kvantovou delokalizaci (48), kterou
+Tematický rejstřík přidává třináctou položku, [epistemickou kvantovou delokalizaci](@/kompendium/puvodni-taxonomie/epistemicka-kvantova-delokalizace.md) (48), kterou
 řadí mezi akademické manipulační techniky; uvádí ji jen jménem, bez definice, a kniha ji proto
 do skupin níže nezařazuje. Jak kniha s neúplnými seznamy rukopisu zachází, popisují
 [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).

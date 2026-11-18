@@ -6,6 +6,7 @@
 (function () {
   'use strict';
 
+  var L = window.KompendiumVrstva;
   // Kategorie s vlastní barvou; další kategorie sdílí šedou „ostatní“ (stabilní pořadí podle
   // počtu hesel, takže filtr barvy nepřebarví).
   var OWN_COLOURS = 8;
@@ -13,19 +14,6 @@
 
   function fold(s) {
     return window.KompendiumJadro.normalise(String(s || ''));
-  }
-
-  function esc(s) {
-    return String(s).replace(/[&<>"']/g, function (c) {
-      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
-    });
-  }
-
-  // 1 pojem, 2–4 pojmy, 0 a 5+ pojmů.
-  function plural(n, one, few, many) {
-    if (n === 1) return one;
-    if (n >= 2 && n <= 4) return few;
-    return many;
   }
 
   function init() {
@@ -114,13 +102,15 @@
       });
       var all = items.length;
       status.textContent = shown === all
-        ? 'Všech ' + all + ' ' + plural(all, 'pojem', 'pojmy', 'pojmů') + ', abecedně podle českého pořadí.'
-        : 'Zobrazeno ' + shown + ' ' + plural(shown, 'pojem', 'pojmy', 'pojmů') + ' z ' + all + '.';
+        ? 'Všech ' + all + ' ' + L.plural(all, ['pojem', 'pojmy', 'pojmů']) + ', abecedně podle českého pořadí.'
+        : 'Zobrazeno ' + shown + ' ' + L.plural(shown, ['pojem', 'pojmy', 'pojmů']) + ' z ' + all + '.';
       empty.hidden = shown > 0;
       var nCats = Object.keys(state.cats).length;
       catCount.hidden = nCats === 0;
       catCount.textContent = String(nCats);
       toolbarReset.hidden = !(state.q || nCats || state.letter);
+      L.urlState.set({ hledat: state.q.trim(), kategorie: Object.keys(state.cats).sort().join(','),
+        pismeno: state.letter });
       onChange.forEach(function (f) { f(); });
     }
 
@@ -153,14 +143,20 @@
         input.focus();
       });
     });
-    var params = new URLSearchParams(location.search);
+    // Filter state round-trips through the address (?hledat=, ?kategorie=a,b, ?pismeno=).
+    var params = L.urlState.get();
     if (params.get('hledat')) { input.value = params.get('hledat'); state.q = input.value; }
+    (params.get('kategorie') || '').split(',').forEach(function (c) {
+      if (counts[c]) state.cats[c] = true;
+    });
+    boxes.forEach(function (b) { b.checked = !!state.cats[b.value]; });
+    if (letterSet[params.get('pismeno')]) state.letter = params.get('pismeno');
     apply();
 
     var chartEl = root.querySelector('[data-rj-chart]');
     if (!V) { chartEl.textContent = 'Graf není k dispozici: chybí vizualizační modul.'; return; }
     legend(root, cats, counts, colour);
-    lazy(chartEl, function () { draw(V, root, chartEl, items, cats, colour, onChange); });
+    L.lazy(chartEl, function () { draw(V, root, chartEl, items, cats, colour, onChange); }, '300px');
   }
 
   function legend(root, cats, counts, colour) {
@@ -181,16 +177,6 @@
       li.querySelector('[data-rj-label]').textContent = r.label;
       ul.appendChild(li);
     });
-  }
-
-  function lazy(el, run) {
-    if (!('IntersectionObserver' in window)) { run(); return; }
-    var io = new IntersectionObserver(function (entries) {
-      entries.forEach(function (en) {
-        if (en.isIntersecting) { io.disconnect(); run(); }
-      });
-    }, { rootMargin: '300px' });
-    io.observe(el);
   }
 
   function draw(V, root, el, items, cats, colour, onChange) {
@@ -222,8 +208,8 @@
 
     var note = root.querySelector('[data-rj-note]');
     if (note) {
-      note.textContent = nodes.length + ' ' + plural(nodes.length, 'heslo', 'hesla', 'hesel') + ' a ' +
-        links.length + ' ' + plural(links.length, 'vazba', 'vazby', 'vazeb') +
+      note.textContent = nodes.length + ' ' + L.plural(nodes.length, ['heslo', 'hesla', 'hesel']) + ' a ' +
+        links.length + ' ' + L.plural(links.length, ['vazba', 'vazby', 'vazeb']) +
         ' mezi nimi (souvisejících pojmů, které v glosáři existují).';
     }
 
@@ -233,12 +219,12 @@
       return {
         tooltip: Object.assign({ confine: true, formatter: function (p) {
           if (p.dataType === 'edge') {
-            return esc(nodes[p.data.source].title) + ' — ' + esc(nodes[p.data.target].title);
+            return L.esc(nodes[p.data.source].title) + ' — ' + L.esc(nodes[p.data.target].title);
           }
           var n = nodes[p.dataIndex];
           var d = degree[p.dataIndex];
-          return '<b>' + esc(n.title) + '</b><br>Kategorie: ' + esc(n.category) + '<br>' + d + ' ' +
-            plural(d, 'související pojem', 'související pojmy', 'souvisejících pojmů');
+          return '<b>' + L.esc(n.title) + '</b><br>Kategorie: ' + L.esc(n.category) + '<br>' + d + ' ' +
+            L.plural(d, ['související pojem', 'související pojmy', 'souvisejících pojmů']);
         } }, V.tooltip(t)),
         animation: false,
         series: [{

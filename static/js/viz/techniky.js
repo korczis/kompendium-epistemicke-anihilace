@@ -8,20 +8,14 @@
 (function () {
   'use strict';
 
+  var L = window.KompendiumVrstva;
   var V = window.KompendiumViz;
   var nf = new Intl.NumberFormat('cs-CZ');
   var STEP = 25;
   var SORTS = ['kod', 'nazev', 'rozsah', 'odkazy'];
-  var RISK_ALIASES = { 'kritická': 'critical', 'kriticka': 'critical' };
 
   function fold(s) {
     return window.KompendiumJadro.normalise(String(s || ''));
-  }
-
-  function readJson(id, fallback) {
-    var node = document.getElementById(id);
-    if (!node) return fallback;
-    try { return JSON.parse(node.textContent); } catch (e) { return fallback; }
   }
 
   // Kód z front matter, jinak z názvu souboru (ea-1-3-2-….md → EA-1.3.2, ea-4-1-….md → EA-4.1).
@@ -41,25 +35,9 @@
     return 0;
   }
 
-  function riskId(raw) {
-    var r = fold(raw).trim();
-    return RISK_ALIASES[r] || r;
-  }
-
-  // Barva textu podle jasu dlaždice (bílá na tmavé, gray-900 na světlé).
-  function ink(hex) {
-    var n = parseInt(hex.slice(1), 16);
-    var l = (0.299 * (n >> 16) + 0.587 * ((n >> 8) & 255) + 0.114 * (n & 255)) / 255;
-    return l > 0.62 ? '#111827' : '#ffffff';
-  }
-
-  function params() {
-    try { return new URLSearchParams(window.location.search); } catch (e) { return new URLSearchParams(); }
-  }
-
   window.kompendiumTechniky = function () {
     var chart = null;
-    var RISKS = readJson('techniky-rizika', {});
+    var RISKS = L.readJson('techniky-rizika', {});
 
     return {
       items: [],
@@ -75,14 +53,14 @@
 
       init: function () {
         var self = this;
-        var raw = readJson('techniky-data', []);
+        var raw = L.readJson('techniky-data', []);
         var fam = {};
         var riskCount = {};
         this.items = raw.map(function (r) {
           var code = codeOf(r);
           var key = codeKey(code);
           var fid = key[0] === 999 ? 'EA-?' : 'EA-' + key[0];
-          var rid = riskId(r.risk);
+          var rid = L.riskId(r.risk);
           var f = fam[fid] = fam[fid] || { id: fid, n: key[0], count: 0, cats: {} };
           f.count++;
           if (r.category) {
@@ -110,7 +88,7 @@
           return { id: k, label: meta.label || k, order: meta.order || 50, count: riskCount[k] };
         }).sort(function (a, b) { return a.order - b.order; });
 
-        var p = params();
+        var p = L.urlState.get();
         this.q = p.get('q') || '';
         if (this.families.some(function (f) { return f.id === p.get('rodina'); })) this.family = p.get('rodina');
         if (this.risks.some(function (r) { return r.id === p.get('riziko'); })) this.risk = p.get('riziko');
@@ -189,16 +167,8 @@
       reset: function () { this.q = ''; this.family = ''; this.risk = ''; },
 
       syncUrl: function () {
-        try {
-          var p = params();
-          var set = function (k, v) { if (v) p.set(k, v); else p.delete(k); };
-          set('q', this.q.trim());
-          set('rodina', this.family);
-          set('riziko', this.risk);
-          set('razeni', this.sort === 'kod' ? '' : this.sort);
-          var qs = p.toString();
-          window.history.replaceState(null, '', window.location.pathname + (qs ? '?' + qs : '') + window.location.hash);
-        } catch (e) { /* bez History API zůstane filtr jen na stránce */ }
+        L.urlState.set({ q: this.q.trim(), rodina: this.family, riziko: this.risk,
+          razeni: this.sort === 'kod' ? '' : this.sort });
       },
 
       seriesData: function (t) {
@@ -219,7 +189,7 @@
               color: f.color, opacity: dim ? 0.3 : 1,
               borderColor: self.family === f.id ? t.text : t.surface, borderWidth: self.family === f.id ? 3 : 2,
             },
-            label: { color: ink(f.color) },
+            label: { color: L.ink(f.color) },
           };
         });
       },

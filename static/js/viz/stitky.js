@@ -5,6 +5,7 @@
 (function () {
   'use strict';
 
+  var L = window.KompendiumVrstva;
   var V = window.KompendiumViz;
   var nf = new Intl.NumberFormat('cs-CZ');
   var TREEMAP_TOP = 60;
@@ -26,22 +27,7 @@
     return window.KompendiumVrstva.slug(s);
   }
 
-  function plural(n, one, few, many) {
-    if (n === 1) return one;
-    return n >= 2 && n <= 4 ? few : many;
-  }
-
-  function pagesWord(n) { return plural(n, 'stránka', 'stránky', 'stránek'); }
-
-  // Graf se inicializuje, až když je jeho kontejner (téměř) vidět.
-  function lazy(el, fn) {
-    if (!el) return;
-    if (!('IntersectionObserver' in window)) { fn(); return; }
-    var io = new IntersectionObserver(function (entries) {
-      if (entries.some(function (e) { return e.isIntersecting; })) { io.disconnect(); fn(); }
-    }, { rootMargin: '200px 0px' });
-    io.observe(el);
-  }
+  function pagesWord(n) { return L.plural(n, ['stránka', 'stránky', 'stránek']); }
 
   function reveal(root) {
     root.querySelectorAll('[data-js]').forEach(function (el) {
@@ -79,19 +65,13 @@
     var noun = isTags ? ['štítek', 'štítky', 'štítků'] : ['kategorie', 'kategorie', 'kategorií'];
     var state = { q: '', sort: 'pocet' };
 
-    var params = new URLSearchParams(location.search);
+    var params = L.urlState.get();
     if (params.get('q')) state.q = params.get('q');
     if (params.get('razeni') === 'abeceda') state.sort = 'abeceda';
     input.value = state.q;
 
     function remember() {
-      try {
-        var url = new URL(location.href);
-        if (state.q) url.searchParams.set('q', state.q); else url.searchParams.delete('q');
-        if (state.sort === 'abeceda') url.searchParams.set('razeni', 'abeceda');
-        else url.searchParams.delete('razeni');
-        history.replaceState(null, '', url);
-      } catch (e) { /* bez historie se jen nezapamatuje */ }
+      L.urlState.set({ q: state.q, razeni: state.sort === 'abeceda' ? 'abeceda' : '' });
     }
 
     function filter() {
@@ -106,7 +86,7 @@
       none.classList.toggle('hidden', shown > 0);
       status.textContent = q
         ? 'Filtru „' + state.q.trim() + '“ odpovídá ' + nf.format(shown) + ' ' +
-          plural(shown, noun[0], noun[1], noun[2]) + ' z ' + nf.format(items.length) + ' (' +
+          L.plural(shown, noun) + ' z ' + nf.format(items.length) + ' (' +
           nf.format(pages) + ' ' + pagesWord(pages) + ' celkem).'
         : 'Zobrazeno všech ' + nf.format(items.length) + ' ' + noun[2] + '.';
     }
@@ -136,7 +116,7 @@
     filter();
 
     var box = $('#stitky-treemap', root);
-    lazy(box, function () {
+    L.lazy(box, function () {
       var n = box.clientWidth < 640 ? TREEMAP_TOP_NARROW : TREEMAP_TOP;
       treemap(box, byCount.slice(0, n), isTags);
     });
@@ -208,7 +188,7 @@
       }).sort(function (a, b) { return b.count - a.count || a.name.localeCompare(b.name, 'cs'); });
       var popis = $('[data-f="oddily-popis"]', root);
       popis.textContent = nf.format(tagged.length) + ' ' + pagesWord(tagged.length) + ' v ' +
-        nf.format(sections.length) + ' ' + plural(sections.length, 'oddílu', 'oddílech', 'oddílech') +
+        nf.format(sections.length) + ' ' + L.plural(sections.length, ['oddílu', 'oddílech', 'oddílech']) +
         '. Klepnutím na sloupec otevřete oddíl.';
       var tplSection = $('#tpl-stitek-oddil', root);
       sectionList.innerHTML = '';
@@ -220,7 +200,7 @@
         sectionList.appendChild(li);
       });
       chartEl.style.height = Math.max(160, sections.length * 28 + 24) + 'px';
-      lazy(chartEl, function () { sectionsChart(chartEl, sections); });
+      L.lazy(chartEl, function () { sectionsChart(chartEl, sections); });
 
       // Nejodkazovanější stránky
       var tplPage = $('#tpl-stitek-stranka', root);
@@ -230,11 +210,11 @@
       }).slice(0, TOP_LINKED).forEach(function (n, i) {
         var inn = n.in || 0;
         var li = fill(tplPage, { rank: String(i + 1), title: n.title,
-          section: sectionInfo(g, n.section).name, count: nf.format(inn) + ' ' + plural(inn, 'odkaz', 'odkazy', 'odkazů') });
+          section: sectionInfo(g, n.section).name, count: nf.format(inn) + ' ' + L.plural(inn, ['odkaz', 'odkazy', 'odkazů']) });
         var a = li.querySelector('a');
         a.href = g.url(n);
         a.setAttribute('aria-label', (i + 1) + '. ' + n.title + ', ' + inn + ' ' +
-          plural(inn, 'odkaz', 'odkazy', 'odkazů') + ' sem');
+          L.plural(inn, ['odkaz', 'odkazy', 'odkazů']) + ' sem');
         linkedList.appendChild(li);
       });
 
@@ -255,7 +235,7 @@
         var li = fill(tplRel, { name: '#' + t, count: nf.format(co[t]) });
         var a = li.querySelector('a');
         a.href = listUrl + slug(t) + '/';
-        a.setAttribute('aria-label', '#' + t + ': ' + co[t] + ' ' + plural(co[t], 'společná stránka', 'společné stránky', 'společných stránek'));
+        a.setAttribute('aria-label', '#' + t + ': ' + co[t] + ' ' + L.plural(co[t], ['společná stránka', 'společné stránky', 'společných stránek']));
         relatedList.appendChild(li);
       });
     }).catch(function (e) {

@@ -4,6 +4,7 @@
 (function () {
   'use strict';
 
+  var L = window.KompendiumVrstva;
   var V = window.KompendiumViz;
   var J = window.KompendiumJadro;
   var LIMIT = 28;
@@ -40,25 +41,26 @@
         if (e.from === centre.path) dir[e.to] = (dir[e.to] || 0) | 1;
         if (e.to === centre.path) dir[e.from] = (dir[e.from] || 0) | 2;
       });
-      var t = V.theme();
-      var els = [{ data: { id: 'c', label: centre.title, color: t.accent, size: 26, fontSize: 11, focus: true } }];
-      around.forEach(function (m, i) {
-        var d = dir[m.path] || 1;
-        els.push({ data: { id: 'n' + i, path: m.path, label: m.title, color: G.color(m.class),
-          size: Math.min(22, 8 + Math.sqrt(m.in) * 2), fontSize: 8 } });
-        if (d & 1) els.push({ data: { id: 'o' + i, source: 'c', target: 'n' + i, width: d === 3 ? 2 : 1 } });
-        if (d === 2) els.push({ data: { id: 'i' + i, source: 'n' + i, target: 'c', width: 1 } });
-      });
-      return V.cytoscape(el, els, { name: 'concentric', concentric: function (x) { return x.data('focus') ? 10 : 1; },
-        levelWidth: function () { return 1; }, minNodeSpacing: 10, animate: false, padding: 12 }).then(function (cy) {
-        cy.userZoomingEnabled(false);
-        cy.on('tap', 'node', function (ev) {
-          var p = ev.target.data('path');
-          if (p && G.byPath[p]) window.location.href = G.url(G.byPath[p]);
+      // Stránka uprostřed, sousedé v kruhu kolem (síť vrstvy, KompendiumViz.network); šipka
+      // ukazuje směr odkazu, oboustranný odkaz je silnější čára bez šipky.
+      return V.network(el, function (t) {
+        var nodes = [{ id: 'c', label: centre.title, color: t.accent, size: 26, fontSize: 11, focus: true, labelBg: true }];
+        var edges = [];
+        around.forEach(function (m, i) {
+          var d = dir[m.path] || 1;
+          nodes.push({ id: 'n' + i, label: m.title, color: G.color(m.class), labelBg: true,
+            size: Math.min(22, 8 + Math.sqrt(m.in) * 2), fontSize: 9, ring: 1, data: { path: m.path } });
+          if (d === 3) edges.push({ source: 'c', target: 'n' + i, width: 2 });
+          else if (d & 1) edges.push({ source: 'c', target: 'n' + i, width: 1, arrow: true });
+          else edges.push({ source: 'n' + i, target: 'c', width: 1, arrow: true });
         });
-        cy.on('mouseover', 'node', function () { el.style.cursor = 'pointer'; });
-        cy.on('mouseout', 'node', function () { el.style.cursor = ''; });
-        var note = el.parentElement.querySelector('[data-okoli-note]');
+        nodes[0].ring = 0;
+        return { nodes: nodes, edges: edges };
+      }, { layout: 'rings', labels: 8, onClick: function (d) {
+        var p = d.data && d.data.path;
+        if (p && G.byPath[p]) window.location.href = G.url(G.byPath[p]);
+      } }).then(function () {
+        var note = el.closest('[data-vrstva-frame]').parentElement.querySelector('[data-okoli-note]');
         var n = G.byPath[path];
         if (note) note.textContent = G.out[n.id].length + ' odkazů ven · ' + G.in[n.id].length + ' odkazů sem' +
           (res.truncated ? ' · zobrazeno ' + around.length + ' z ' + res.total + ' sousedů' : '');
@@ -69,13 +71,7 @@
   function init() {
     var els = document.querySelectorAll('[data-okoli]');
     if (!els.length) return;
-    if (!('IntersectionObserver' in window)) { els.forEach(render); return; }
-    var io = new IntersectionObserver(function (entries) {
-      entries.forEach(function (en) {
-        if (en.isIntersecting) { io.unobserve(en.target); render(en.target); }
-      });
-    }, { rootMargin: '200px' });
-    els.forEach(function (el) { io.observe(el); });
+    els.forEach(function (el) { L.lazy(el, function () { render(el); }, '200px'); });
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);

@@ -5,7 +5,7 @@
     "hits": [
       {
         "code": null,
-        "in": 603,
+        "in": 613,
         "kind": "Pojem",
         "path": "glossary/epistemicka-anihilace.md",
         "tier": 4,
@@ -25,7 +25,7 @@
       },
       {
         "code": null,
-        "in": 181,
+        "in": 183,
         "kind": "Pojem",
         "path": "glossary/epistemicke-trauma.md",
         "tier": 4,
@@ -35,7 +35,7 @@
       },
       {
         "code": null,
-        "in": 130,
+        "in": 134,
         "kind": "Pojem",
         "path": "glossary/epistemicka-injustice.md",
         "tier": 4,
@@ -55,7 +55,7 @@
       },
       {
         "code": null,
-        "in": 102,
+        "in": 103,
         "kind": "Pojem",
         "path": "glossary/epistemicka-alienace.md",
         "tier": 4,
@@ -65,7 +65,7 @@
       },
       {
         "code": null,
-        "in": 75,
+        "in": 76,
         "kind": "Pojem",
         "path": "glossary/epistemic-bubble.md",
         "tier": 4,
@@ -75,7 +75,7 @@
       },
       {
         "code": null,
-        "in": 57,
+        "in": 58,
         "kind": "Pojem",
         "path": "glossary/epistemicka-monokultura.md",
         "tier": 4,
@@ -85,7 +85,7 @@
       },
       {
         "code": null,
-        "in": 56,
+        "in": 57,
         "kind": "Pojem",
         "path": "glossary/epistemicka-pokora.md",
         "tier": 4,
@@ -105,7 +105,7 @@
       },
       {
         "code": null,
-        "in": 34,
+        "in": 35,
         "kind": "Pojem",
         "path": "glossary/epistemicka-agentnost.md",
         "tier": 4,
@@ -115,7 +115,7 @@
       },
       {
         "code": null,
-        "in": 32,
+        "in": 33,
         "kind": "Pojem",
         "path": "glossary/epistemicka-bezdomovost.md",
         "tier": 4,
@@ -130,7 +130,7 @@
     "op": "search",
     "query": "Epi",
     "schema": "kompendium-engine/v1",
-    "total": 389
+    "total": 396
   },
   "input": {
     "op": "search",

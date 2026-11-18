@@ -17,25 +17,28 @@ const path = require('path');
 const { execFileSync } = require('node:child_process');
 
 const BASE = (process.env.BASE_URL || 'http://127.0.0.1:18790/').replace(/\/?$/, '/');
+// Přetečení (dokument i #main-content, který v Pro shellu roluje) a jeden levý okraj nadpisu
+// a textu: společná definice s auditem (scripts/audit-ui.cjs).
+const { measureLayout, layoutFindings } = require('./layout.cjs');
 
 // Pevné plochy aplikace. Stránky obsahu se vybírají až za běhu z odvozeného grafu
 // (static/data/graph.json), aby test nezastaral, když se obsah přepíše nebo přejmenuje.
 const FIXED = [
   { path: '', painted: 2, counts: [['a[href^="tel:"]', 3], ['#upozorneni-title', 1], ['[data-landing-block]', 4]], interact: 'landing', note: 'úvod: p5 síť pojmů, upozornění, rizika, karusel, přehled knihy (ECharts)' },
   { path: 'kompendium/02-uvod/v-kostce/', painted: 0, interact: 'kostka', note: 'vrstvy a model eskalace' },
-  { path: 'mapa/', painted: 1, text: '[x-text="stats"]', note: 'Mapa knihy (cytoscape)' },
-  { path: 'stav/', painted: 5, count: ['#stav-kpi > *', 8], note: 'Stav knihy (ECharts)' },
-  { path: 'matice/', painted: 1, note: 'matice případů a technik (ECharts)' },
-  { path: 'osy/', painted: 1, note: 'osy knihy: publikum × pilíř (ECharts)' },
+  { path: 'mapa/', painted: 1, text: '[x-text="stats"]', maxLink: true, note: 'Mapa knihy (síť ECharts)' },
+  { path: 'stav/', painted: 5, count: ['#stav-kpi > *', 8], maxLink: true, note: 'Stav knihy (ECharts)' },
+  { path: 'matice/', painted: 1, maxLink: true, note: 'matice případů a technik (ECharts)' },
+  { path: 'osy/', painted: 1, maxLink: true, note: 'osy knihy: publikum × pilíř (ECharts)' },
   { path: 'osy/?publikum=klinik&pilir=rozpoznani', painted: 1, count: ['[data-osy-seznam] a[href]', 1], note: 'osy knihy: výběr z adresy vypíše stránky průniku' },
-  { path: 'galerie/', painted: 3, note: 'Galerie (p5)' },
+  { path: 'galerie/', painted: 3, maxLink: true, note: 'Galerie (p5)' },
   { path: 'kompendium/techniques/', painted: 1, note: 'průzkumník technik' },
   { path: 'kompendium/historical-cases/', painted: 1, note: 'časová osa historických případů' },
   { path: 'glossary/', painted: 1, interact: 'faseta', note: 'průzkumník glosáře: kategorie' },
   { path: 'kompendium/08-prilohy/index-pojmu/', painted: 1, count: ['[data-rj-item]', 2], interact: 'rejstrik', note: 'interaktivní rejstřík pojmů (ECharts)' },
   { path: 'tags/', painted: 1, note: 'štítky (treemap)' },
   { path: 'kompendium/case-studies/', painted: 1, note: 'přehled oddílu' },
-  { path: 'kompendium/visualizations/', painted: 8, note: 'vizualizace knihy (Chart.js, p5)' },
+  { path: 'kompendium/visualizations/', painted: 8, note: 'vizualizace knihy (ECharts, p5)' },
   { path: 'kompendium/nlp-vzorce/', painted: 1, note: 'průzkumník katalogu NLP (ECharts graf vazeb)' },
   { path: 'kompendium/nlp-vzorce/milton-model/', painted: 1, note: 'průzkumník rodiny katalogu s předvybranou rodinou' },
   { path: 'kompendium/argumentacni-fauly/', painted: 1, note: 'průzkumník katalogu argumentačních faulů' },
@@ -170,10 +173,12 @@ async function derived(load = fromBase) {
 // viz_script) jsou vykreslená, diagramy Mermaid mají SVG. Bez pohledu vrací null.
 function classView(html) {
   const canvases = (html.match(/<canvas\b/g) || []).length;
+  // chart_inline je plocha <div data-chart>, do které vrstva vykreslí graf ECharts (plátno).
+  const inline = (html.match(/data-chart="/g) || []).length;
   const pohled = (html.match(/data-pohled="([\w-]+)"/) || [])[1];
-  if (pohled) return { painted: canvases + 1, pohled, note: 'pohled ' + pohled };
-  const charts = html.includes('data-chart="') || /\/js\/kompendium\/[\w-]+\.js/.test(html);
-  if (charts && canvases) return { painted: canvases, note: `vykreslená plátna grafů (${canvases})` };
+  if (pohled) return { painted: canvases + inline + 1, pohled, note: 'pohled ' + pohled };
+  const charts = inline || /\/js\/kompendium\/[\w-]+\.js/.test(html);
+  if (charts && canvases + inline) return { painted: canvases + inline, note: `vykreslená plátna grafů (${canvases + inline})` };
   const diagrams = (html.match(/data-lang="mermaid"/g) || []).length;
   if (diagrams) return { painted: 0, mermaid: diagrams, note: `diagramy Mermaid (${diagrams})` };
   return null;
@@ -415,6 +420,45 @@ async function view(page, s, failures) {
   if (page.url() !== want) failures.push(`pohled ${s.pohled}: Enter nepřešel na ${want} (${page.url()})`);
 }
 
+// Ovládání Maximalizovat vrstvy (KompendiumVrstva.frame): první graf stránky se zvětší na celé
+// okno a adresa nese #max=<id>, Escape ho vrátí a kotvu smaže. U ploch s maxLink se navíc
+// odkaz #max=<id> po načtení znovu otevře maximalizovaný (stav jde poslat odkazem).
+async function maximize(page, s, failures) {
+  const btn = page.locator('[data-vrstva-max]').first();
+  // An interaction before this one may have navigated away and back (the combobox opens a hit and
+  // returns); lazy charts then draw, and get their frame, only once scrolled into view again.
+  if (!(await btn.count()) && s.painted > 0) { await scrollThrough(page); await page.waitForTimeout(1500); }
+  if (!(await btn.count())) {
+    if (s.painted > 0 && !s.pohled) failures.push('graf bez ovládání Maximalizovat ([data-vrstva-max])');
+    return;
+  }
+  const id = await btn.getAttribute('data-vrstva-max');
+  await btn.click();
+  await page.waitForTimeout(400);
+  const state = () => page.evaluate((x) => {
+    const b = document.querySelector('[data-vrstva-max="' + x + '"]').closest('[data-vrstva-frame]');
+    const r = b.getBoundingClientRect();
+    return { full: r.top <= 0 && r.left <= 0 && r.width >= window.innerWidth - 1 && r.height >= window.innerHeight - 1,
+      hash: window.location.hash, host: b.querySelector('[data-vrstva-max="on"]') !== null };
+  }, id);
+  let st = await state();
+  if (!st.full || st.hash !== '#max=' + id) failures.push(`maximalizace ${id}: celé okno ${st.full}, adresa ${st.hash}`);
+  await page.keyboard.press('Escape');
+  await page.waitForTimeout(300);
+  st = await state();
+  if (st.full || /max=/.test(st.hash)) failures.push(`maximalizace ${id}: Escape ji nevrátil (${st.hash})`);
+  if (!s.maxLink) return;
+  await page.goto(BASE + s.path.split('#')[0] + '#max=' + id, { waitUntil: 'networkidle' });
+  await page.waitForTimeout(2500);
+  const deep = await page.evaluate((x) => {
+    const b = document.querySelector('[data-vrstva-max="' + x + '"]');
+    const r = b && b.closest('[data-vrstva-frame]').getBoundingClientRect();
+    return !!r && r.width >= window.innerWidth - 1 && r.height >= window.innerHeight - 1;
+  }, id);
+  if (!deep) failures.push(`odkaz #max=${id} graf po načtení nemaximalizoval`);
+  await page.keyboard.press('Escape');
+}
+
 async function paintedCanvases(page) {
   return page.evaluate(() => {
     let n = 0;
@@ -554,11 +598,342 @@ async function check(browser, s, viewport, scheme) {
   if (s.interact === 'hledani' && viewport.width >= 1024) await combobox(page, s, failures);
   if (s.interact === 'faseta') await facet(page, failures);
   if (s.interact === 'landing') await landing(page, browser, viewport, failures);
-  const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
-  if (overflow > 0) failures.push(`vodorovné přetečení ${overflow} px`);
+  await maximize(page, s, failures);
+  layoutFindings(await measureLayout(page), viewport.width).forEach((f) => failures.push(f));
   if (s.pohled) await view(page, s, failures);
   await page.close();
   return failures;
+}
+
+// ---- Interakce: osnova, posuvník, řazení, stav v adrese, klávesnice -----------------------------
+// Funkční audit 2026-11-18 našel ovládání, které nic nedělalo: osnova stránky nesledovala čtení,
+// posuvník galerie při pauze nepřekreslil, hlavičky pracovního seznamu ve Stavu neřadily, filtry
+// glosáře, rejstříku a záložek se neukládaly do adresy, pohled matice závisel na šířce okna
+// a teplotní mapa os ani záložky nešly klávesnicí. Každá interakce má scénář tady; stránku vybírá
+// odvozený graf (static/data/graph.json) podle značky, kterou šablona vykreslí, nikdy ruční seznam.
+const DESKTOP = { width: 1440, height: 900 };
+const PHONE = { width: 390, height: 844 };
+
+// Značka v sestaveném HTML → interakce a šířky, na kterých se ověřuje.
+const INTERACTIONS = [
+  { interaction: 'osnova', marker: 'data-toc', viewports: [DESKTOP], note: 'osnova stránky sleduje čtení (aria-current)' },
+  { interaction: 'posuvnik', marker: 'data-p5-intensity', viewports: [DESKTOP], note: 'posuvník intenzity překreslí pozastavené plátno' },
+  { interaction: 'razeni', marker: 'data-rd-sort', viewports: [DESKTOP], note: 'hlavičky pracovního seznamu řadí myší i klávesnicí, řazení v adrese' },
+  { interaction: 'glosar-adresa', marker: 'id="glosar-cat"', viewports: [DESKTOP, PHONE], note: 'kategorie a jazyk glosáře v adrese' },
+  { interaction: 'rejstrik-adresa', marker: 'data-rejstrik', viewports: [DESKTOP], note: 'filtr rejstříku v adrese' },
+  { interaction: 'zalozky', marker: 'data-eskalace', viewports: [DESKTOP, PHONE], note: 'záložky: roving tabindex, šipky, Home/End, výběr v adrese' },
+  { interaction: 'matice-adresa', marker: 'kompendiumMatice', viewports: [DESKTOP], note: 'zvolený pohled matice platí na každé šířce' },
+  { interaction: 'osy-klavesnice', marker: 'data-osy-graf', viewports: [DESKTOP], note: 'teplotní mapa os: šipky, Home/End, Enter vybere průnik' },
+];
+
+// Jako modul: interactions(load) vrací scénáře interakcí, které by běh použil.
+// Stránky interakcí z grafu: pro každou značku nejodkazovanější stránka, jejíž sestavené HTML ji
+// nese (při shodě podle cesty); osnova na nejdelší stránce knihy (slova z grafu) s aspoň čtyřmi
+// odkazy osnovy, aby se mezi nadpisy dalo posouvat.
+async function interactions(load = fromBase) {
+  const g = JSON.parse(await load('data/graph.json'));
+  const page = (n) => zolaPath(n.url);
+  const inDeg = {};
+  g.edges.forEach((e) => { inDeg[e[1]] = (inDeg[e[1]] || 0) + 1; });
+  const out = [];
+  const todo = INTERACTIONS.filter((x) => x.interaction !== 'osnova');
+  const byRank = g.nodes.slice().sort((a, b) => (inDeg[b.id] || 0) - (inDeg[a.id] || 0) || (a.path < b.path ? -1 : 1));
+  for (const n of byRank) {
+    if (!todo.length) break;
+    const html = await load(page(n)).catch(() => '');
+    for (let i = todo.length - 1; i >= 0; i--) {
+      if (html.includes(todo[i].marker)) { out.push({ ...todo[i], path: page(n) }); todo.splice(i, 1); }
+    }
+  }
+  todo.forEach((x) => out.push({ ...x, path: '', missing: true }));
+  const toc = INTERACTIONS.find((x) => x.interaction === 'osnova');
+  const longest = g.nodes.filter((n) => n.path.startsWith('kompendium/')).sort((a, b) => (b.words || 0) - (a.words || 0));
+  let tocPage = null;
+  for (const n of longest.slice(0, 40)) {
+    const html = await load(page(n)).catch(() => '');
+    const i = html.indexOf('data-toc');
+    const nav = i < 0 ? '' : html.slice(i, html.indexOf('</nav>', i));
+    if ((nav.match(/href="[^"]*#/g) || []).length >= 4) { tocPage = n; break; }
+  }
+  out.push(tocPage ? { ...toc, path: page(tocPage) } : { ...toc, path: '', missing: true });
+  const order = INTERACTIONS.map((x) => x.interaction);
+  return out.sort((a, b) => order.indexOf(a.interaction) - order.indexOf(b.interaction));
+}
+
+async function openWatched(browser, url, viewport, failures) {
+  const page = await browser.newPage({ viewport, colorScheme: 'light' });
+  page.on('pageerror', (e) => failures.push('chyba stránky: ' + e.message));
+  page.on('console', (m) => { if (m.type() === 'error') failures.push('konzole: ' + m.text().slice(0, 160)); });
+  const res = await page.goto(url, { waitUntil: 'networkidle' });
+  if (!res || res.status() !== 200) failures.push('HTTP ' + (res && res.status()) + ' ' + url);
+  return page;
+}
+const param = (page, k) => new URL(page.url()).searchParams.get(k);
+
+// Osnova: posun na nadpis z osnovy dá právě jeho odkazu aria-current="location".
+async function osnova(page, failures) {
+  const ids = await page.$$eval('[data-toc] a[href*="#"]', (as) => as.map((a) => decodeURIComponent(a.hash.slice(1))).filter(Boolean));
+  if (ids.length < 4) { failures.push(`osnova má jen ${ids.length} odkazů`); return; }
+  const seen = new Set();
+  for (const id of [ids[1], ids[Math.floor(ids.length / 2)]]) {
+    await page.evaluate((x) => {
+      const h = document.getElementById(x);
+      window.scrollTo({ top: h.getBoundingClientRect().top + window.scrollY - 100, behavior: 'instant' });
+    }, id);
+    await page.waitForTimeout(600);
+    const cur = await page.$$eval('[data-toc] a[aria-current="location"]', (as) => as.map((a) => decodeURIComponent(a.hash.slice(1))));
+    if (cur.length !== 1 || cur[0] !== id) failures.push(`osnova: po posunu na „${id}“ nese aria-current ${JSON.stringify(cur)}`);
+    seen.add(cur.join());
+  }
+  if (seen.size < 2) failures.push('osnova: aria-current se při čtení nemění');
+}
+
+// Posuvník: pozastavené plátno stojí (dva snímky se rovnají) a změna intenzity ho překreslí.
+async function posuvnik(page, failures) {
+  const found = await page.evaluate(() => {
+    const s = document.querySelector('[data-p5-intensity]');
+    const scopeOf = (el) => el.closest('figure') || el.parentElement;
+    const host = [...document.querySelectorAll('[data-p5]')].find((el) => scopeOf(el) && scopeOf(el).contains(s));
+    if (!host) return false;
+    scopeOf(host).setAttribute('data-test-posuvnik', '');
+    return true;
+  });
+  if (!found) { failures.push('posuvník nemá plátno ve stejném obrázku'); return; }
+  const host = page.locator('[data-test-posuvnik]');
+  await host.scrollIntoViewIfNeeded();
+  const pause = host.locator('[data-vrstva-pause]');
+  if (await pause.getAttribute('aria-pressed') !== 'true') await pause.click();
+  await page.waitForTimeout(400);
+  const shot = () => host.locator('canvas').evaluate((c) => c.toDataURL());
+  const a = await shot();
+  await page.waitForTimeout(500);
+  if (await shot() !== a) failures.push('posuvník: pozastavená animace se dál mění');
+  await page.evaluate(() => {
+    const s = document.querySelector('[data-p5-intensity]');
+    s.value = Number(s.value) > 0.5 ? '0' : '1';
+    s.dispatchEvent(new Event('input', { bubbles: true }));
+  });
+  await page.waitForTimeout(400);
+  if (await shot() === a) failures.push('posuvník: změna intenzity pozastavené plátno nepřekreslí');
+}
+
+// Řazení: tlačítko v hlavičce sloupce řadí myší, Enterem i mezerníkem; hlavička nese aria-sort,
+// adresa ?razeni= (výchozí řazení parametr smaže) a odkaz s ním otevře totéž řazení.
+async function razeni(page, s, browser, failures) {
+  const ready = (p) => p.waitForFunction(() => document.querySelector('#rd-radky tr') && document.querySelector('th[data-rd-sort][aria-sort]'), null, { timeout: 15000 }).catch(() => failures.push('pracovní seznam se nenačetl'));
+  await page.locator('#redakce').scrollIntoViewIfNeeded();
+  await ready(page);
+  const sorts = (p) => p.$$eval('th[data-rd-sort]', (ths) => Object.fromEntries(ths.map((t) => [t.dataset.rdSort, t.getAttribute('aria-sort')])));
+  const btn = (k) => page.locator(`th[data-rd-sort="${k}"] button`);
+  const keys = await page.$$eval('th[data-rd-sort]', (ths) => ths.map((t) => t.dataset.rdSort));
+  const initial = await sorts(page);
+  const def = keys.find((k) => initial[k] !== 'none');
+  const others = keys.filter((k) => k !== def);
+  if (!def || others.length < 2) { failures.push(`řazení: hlavičky ${JSON.stringify(initial)}`); return; }
+  const expect = async (k, how) => {
+    await page.waitForTimeout(300);
+    const now = await sorts(page);
+    const on = Object.keys(now).filter((x) => now[x] !== 'none');
+    if (on.join() !== k) failures.push(`řazení ${how}: aria-sort ${JSON.stringify(now)}, čekán sloupec ${k}`);
+    const want = k === def ? null : k;
+    if (param(page, 'razeni') !== want) failures.push(`řazení ${how}: ?razeni=${param(page, 'razeni')}, čekáno ${want}`);
+  };
+  await btn(others[0]).click();
+  await expect(others[0], 'klepnutím');
+  await btn(others[1]).focus();
+  await page.keyboard.press('Enter');
+  await expect(others[1], 'Enterem');
+  await btn(def).focus();
+  await page.keyboard.press(' ');
+  await expect(def, 'mezerníkem');
+  // Odkaz s řazením otevře totéž řazení.
+  const url = new URL(page.url());
+  url.searchParams.set('razeni', others[0]);
+  const again = await openWatched(browser, url.href, DESKTOP, failures);
+  await ready(again);
+  const back = await sorts(again);
+  if (back[others[0]] === 'none') failures.push(`řazení z adresy ?razeni=${others[0]} se neobnoví (${JSON.stringify(back)})`);
+  await again.close();
+}
+
+// Glosář: kategorie a jazyk jsou v adrese a odkaz s nimi otevře týž výběr hesel.
+async function glosarAdresa(page, browser, viewport, failures) {
+  const cards = (p) => p.locator('#pruzkumnik-glosare section[aria-labelledby^="glosar-l-"] li').count();
+  const value = await page.locator('#glosar-cat option').nth(1).getAttribute('value').catch(() => null);
+  if (!value) { failures.push('glosář nemá kategorii k výběru'); return; }
+  await page.locator('#glosar-cat').selectOption(value);
+  const langs = page.locator('[aria-labelledby="glosar-lang-l"] button');
+  await langs.nth(1).click();
+  await page.waitForTimeout(400);
+  const n = await cards(page);
+  const lang = param(page, 'jazyk');
+  if (param(page, 'kategorie') !== value) failures.push(`glosář: kategorie „${value}“ není v adrese (${page.url()})`);
+  if (!lang) failures.push(`glosář: jazyk není v adrese (${page.url()})`);
+  const again = await openWatched(browser, page.url(), viewport, failures);
+  await again.waitForTimeout(1500);
+  if (await again.locator('#glosar-cat').inputValue() !== value) failures.push('glosář: odkaz neobnoví kategorii');
+  if (await again.locator('[aria-labelledby="glosar-lang-l"] button').nth(1).getAttribute('aria-pressed') !== 'true') failures.push('glosář: odkaz neobnoví jazyk');
+  if (await cards(again) !== n) failures.push(`glosář: odkaz ukáže ${await cards(again)} hesel, výběr ${n}`);
+  await again.close();
+}
+
+// Rejstřík: text a kategorie jsou v adrese a odkaz s nimi otevře týž výběr.
+async function rejstrikAdresa(page, browser, viewport, failures) {
+  const shown = (p) => p.locator('[data-rj-item]:visible').count();
+  const word = await page.locator('[data-rj-title]').evaluateAll((els) => {
+    for (const el of els) {
+      const w = (el.textContent || '').trim().split(/[^\p{L}\p{N}]+/u).filter((x) => x.length >= 4);
+      if (w.length) return w.sort((a, b) => b.length - a.length)[0];
+    }
+    return '';
+  });
+  await page.click('#rj-cat-button');
+  const box = page.locator('[data-rj-cat]').first();
+  await box.check();
+  const cat = await box.inputValue();
+  await page.keyboard.press('Escape');
+  await page.fill('#rj-q', word.slice(0, 2));
+  await page.waitForTimeout(300);
+  const n = await shown(page);
+  if (param(page, 'kategorie') !== cat) failures.push(`rejstřík: kategorie „${cat}“ není v adrese (${page.url()})`);
+  if (param(page, 'hledat') !== word.slice(0, 2)) failures.push(`rejstřík: hledaný text není v adrese (${page.url()})`);
+  const again = await openWatched(browser, page.url(), viewport, failures);
+  if (await again.locator('#rj-q').inputValue() !== word.slice(0, 2)) failures.push('rejstřík: odkaz neobnoví hledaný text');
+  if (!(await again.locator(`[data-rj-cat][value="${cat}"]`).isChecked())) failures.push('rejstřík: odkaz neobnoví kategorii');
+  if (await shown(again) !== n) failures.push(`rejstřík: odkaz ukáže ${await shown(again)} pojmů, výběr ${n}`);
+  await again.close();
+}
+
+// Záložky (WAI-ARIA Tabs): jedna zastávka Tab, šipky a Home/End přesouvají fokus i výběr, Tab
+// opustí seznam; vybraná záložka i vrstva jsou v adrese a odkaz je obnoví.
+async function zalozky(page, browser, viewport, failures) {
+  const state = () => page.$$eval('[data-eskalace] [role="tab"]', (ts) => ({
+    stops: ts.filter((t) => t.getAttribute('tabindex') !== '-1').map((t) => t.dataset.krok),
+    selected: ts.filter((t) => t.getAttribute('aria-selected') === 'true').map((t) => t.dataset.krok),
+    focus: document.activeElement && document.activeElement.dataset ? document.activeElement.dataset.krok : undefined,
+    ids: ts.map((t) => t.dataset.krok),
+    labelled: ts.every((t) => { const p = document.getElementById(t.getAttribute('aria-controls')); return p && p.getAttribute('aria-labelledby') === t.id; }),
+  }));
+  const st = await state();
+  if (st.ids.length < 3) { failures.push(`záložky: jen ${st.ids.length}`); return; }
+  if (!st.labelled) failures.push('záložky: panel nemá aria-labelledby své záložky');
+  if (st.stops.length !== 1) failures.push(`záložky: ${st.stops.length} zastávek Tab, čekána 1`);
+  const want = async (key, id) => {
+    await page.keyboard.press(key);
+    const now = await state();
+    if (now.focus !== id || now.selected.join() !== id || now.stops.join() !== id) failures.push(`záložky: ${key} → fokus ${now.focus}, vybráno ${now.selected}, zastávka ${now.stops}; čekáno ${id}`);
+  };
+  await page.locator(`[data-krok="${st.stops[0]}"]`).focus();
+  await want('ArrowRight', st.ids[1]);
+  await want('End', st.ids[st.ids.length - 1]);
+  await want('Home', st.ids[0]);
+  await want('ArrowLeft', st.ids[st.ids.length - 1]);
+  await page.keyboard.press('Tab');
+  const out = await page.evaluate(() => document.activeElement && document.activeElement.getAttribute('role'));
+  if (out === 'tab') failures.push('záložky: Tab neopustí seznam záložek');
+  // Adresa: vybraná záložka a vrstva.
+  const krok = st.ids[1];
+  await page.locator(`[data-krok="${krok}"]`).click();
+  const vrstva = await page.locator('[data-vrstva]').nth(3).getAttribute('data-vrstva');
+  await page.locator(`[data-vrstva="${vrstva}"] text`).click();
+  if (param(page, 'krok') !== krok) failures.push(`záložky: ?krok=${param(page, 'krok')}, čekáno ${krok}`);
+  if (param(page, 'vrstva') !== vrstva) failures.push(`vrstvy: ?vrstva=${param(page, 'vrstva')}, čekáno ${vrstva}`);
+  const again = await openWatched(browser, page.url(), viewport, failures);
+  const shown = await again.evaluate(() => ({
+    krok: [...document.querySelectorAll('[data-krok-panel]')].filter((x) => !x.hidden).map((x) => x.dataset.krokPanel).join(),
+    vrstva: [...document.querySelectorAll('[data-vrstva-panel]')].filter((x) => !x.hidden).map((x) => x.dataset.vrstvaPanel).join(),
+  }));
+  if (shown.krok !== krok || shown.vrstva !== vrstva) failures.push(`záložky: odkaz ukáže ${JSON.stringify(shown)}, čekáno ${krok}/${vrstva}`);
+  await again.close();
+}
+
+// Matice: pohled, který čtenář zvolil, je v adrese i tehdy, když je to výchozí pohled jeho šířky,
+// a odkaz ho otevře i na telefonu (výchozí pohled tam je jiný).
+async function maticeAdresa(page, browser, failures) {
+  const ready = (p) => p.waitForFunction(() => {
+    const el = document.querySelector('[x-data^="kompendiumMatice"]');
+    return el && window.Alpine && window.Alpine.$data(el).ready;
+  }, null, { timeout: 15000 }).catch(() => failures.push('matice se nenačetla'));
+  const pressed = (p) => p.locator('button[aria-pressed="true"][\\@click^="setPohled"]').getAttribute('@click', { timeout: 5000 }).catch(() => null);
+  await ready(page);
+  for (const [from, to] of [[page, PHONE], [null, DESKTOP]]) {
+    const src = from || await openWatched(browser, page.url().split('?')[0], PHONE, failures);
+    if (!from) await ready(src);
+    const chosen = await pressed(src);
+    if (!chosen) { failures.push('matice: žádný pohled není zvolený'); break; }
+    await src.locator(`button[\\@click="${chosen}"]`).click();
+    const pohled = param(src, 'pohled');
+    if (!pohled || !chosen.includes(`'${pohled}'`)) failures.push(`matice: zvolený pohled ${chosen} není v adrese (${src.url()})`);
+    const again = await openWatched(browser, src.url(), to, failures);
+    await ready(again);
+    if (await pressed(again) !== chosen) failures.push(`matice: odkaz s ?pohled=${pohled} otevře na šířce ${to.width} pohled ${await pressed(again)}`);
+    await again.close();
+    if (!from) await src.close();
+  }
+}
+
+// Teplotní mapa os: šipky posouvají kurzor po polích, Home/End na kraj řádku, Enter pole vybere
+// (výběry i adresa ?publikum=&pilir=), Escape kurzor schová.
+async function osyKlavesnice(page, failures) {
+  const graf = page.locator('[data-osy-graf]');
+  await page.waitForSelector('[data-osy-graf][data-osy-stav="hotovo"]', { timeout: 15000 }).catch(() => failures.push('mapa os se nevykreslila'));
+  const pole = () => graf.getAttribute('data-osy-kurzor-pole');
+  await graf.focus();
+  await page.keyboard.press('ArrowRight');
+  const a = await pole();
+  if (!a) { failures.push('osy: šipka nevybrala pole'); return; }
+  await page.keyboard.press('ArrowRight');
+  const b = await pole();
+  if (b === a) failures.push('osy: druhá šipka vpravo kurzor neposune');
+  await page.keyboard.press('ArrowDown');
+  const c = await pole();
+  if (c === b || c.split(':')[1] !== b.split(':')[1]) failures.push(`osy: šipka dolů posune kurzor jinam než v témže sloupci (${b} → ${c})`);
+  await page.keyboard.press('Home');
+  const d = await pole();
+  if (d.split(':')[0] !== c.split(':')[0] || d === c) failures.push(`osy: Home neskočí na začátek řádku (${c} → ${d})`);
+  const said = ((await page.locator('[data-osy-kurzor]').textContent()) || '').trim();
+  if (!said) failures.push('osy: kurzor se neoznámí');
+  await page.keyboard.press('Enter');
+  const [pub, pil] = d.split(':');
+  if (await page.locator('[data-osy-publikum]').inputValue() !== pub || await page.locator('[data-osy-pilir]').inputValue() !== pil) failures.push(`osy: Enter nevybral průnik ${d}`);
+  if (param(page, 'publikum') !== pub || param(page, 'pilir') !== pil) failures.push(`osy: průnik ${d} není v adrese (${page.url()})`);
+  await page.keyboard.press('Escape');
+  if (await pole()) failures.push('osy: Escape kurzor neschová');
+}
+
+async function checkInteraction(browser, s, viewport) {
+  const failures = [];
+  if (s.missing) return [`žádná stránka nenese značku ${s.marker}`];
+  const page = await openWatched(browser, BASE + s.path, viewport, failures);
+  if (s.interaction === 'osnova') await osnova(page, failures);
+  if (s.interaction === 'posuvnik') await posuvnik(page, failures);
+  if (s.interaction === 'razeni') await razeni(page, s, browser, failures);
+  if (s.interaction === 'glosar-adresa') await glosarAdresa(page, browser, viewport, failures);
+  if (s.interaction === 'rejstrik-adresa') await rejstrikAdresa(page, browser, viewport, failures);
+  if (s.interaction === 'zalozky') await zalozky(page, browser, viewport, failures);
+  if (s.interaction === 'matice-adresa') await maticeAdresa(page, browser, failures);
+  if (s.interaction === 'osy-klavesnice') await osyKlavesnice(page, failures);
+  await page.close();
+  return failures;
+}
+
+// Spustí scénáře interakcí; vrací počet selhaných.
+async function runInteractions(browser) {
+  let list = await interactions(process.env.SITE_DIR ? fromDir(process.env.SITE_DIR) : undefined);
+  if (process.env.ONLY) list = list.filter((s) => new RegExp(process.env.ONLY).test('/' + s.path));
+  let failed = 0;
+  let ran = 0;
+  for (const s of list) {
+    for (const viewport of s.viewports) {
+      ran += 1;
+      const f = await checkInteraction(browser, s, viewport);
+      const name = `/${s.path} (interakce ${s.interaction}: ${s.note}, ${viewport.width} px)`;
+      if (f.length) { failed += 1; console.log(`FAIL ${name}`); f.forEach((x) => console.log('     ' + x)); }
+      else console.log(`ok   ${name}`);
+    }
+  }
+  console.log(`surfaces: interakce ${ran - failed}/${ran} v pořádku`);
+  return failed;
 }
 
 async function main() {
@@ -585,10 +960,11 @@ async function main() {
       else console.log(`ok   ${name}`);
     }
   }
+  const interactionsFailed = await runInteractions(browser);
   await browser.close();
   console.log(`surfaces: ${SURFACES.length * 2 - failed}/${SURFACES.length * 2} v pořádku`);
-  process.exit(failed ? 1 : 0);
+  process.exit(failed || interactionsFailed ? 1 : 0);
 }
 
-module.exports = { FIXED, derived, fromDir };
+module.exports = { FIXED, derived, fromDir, interactions };
 if (require.main === module) main();

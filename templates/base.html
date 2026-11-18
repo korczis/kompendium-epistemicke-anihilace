@@ -35,6 +35,14 @@
 {%- set_global seo_title = ctx.title | default(value=config.title) -%}
 {%- set_global seo_description = ctx.description | default(value=config.description) -%}
 {%- set_global is_home = section is defined and section.path == "/" -%}
+{#- The page kind: the header variant and the layout follow it, derived and never listed per page.
+    home = the root section; app = a page that sits directly in the root section (the application
+    surfaces mapa, stav, matice, osy and the book's own pages about, galerie, references);
+    article = any other page; collection = a section or a taxonomy listing; 404 is an app. -#}
+{%- if is_home -%}{%- set_global page_kind = "home" -%}
+{%- elif page is defined -%}{%- if page.ancestors | length > 1 -%}{%- set_global page_kind = "article" -%}{%- else -%}{%- set_global page_kind = "app" -%}{%- endif -%}
+{%- elif section is defined or term is defined or terms is defined -%}{%- set_global page_kind = "collection" -%}
+{%- else -%}{%- set_global page_kind = "app" -%}{%- endif -%}
 {%- set_global parent_title = "" -%}
 {%- if page is defined and page.ancestors -%}{%- set parent_sec = get_section(path=page.ancestors | last, metadata_only=true) -%}{%- set_global parent_title = parent_sec.title -%}{%- endif -%}
 {%- set_global tags = [] -%}
@@ -132,19 +140,15 @@
 <script src="{{ get_url(path='js/viz/jadro.js', cachebust=true) }}"></script>
 {#- Visualisation libraries: only those the page's scripts call, by the derived manifest
     static/data/viz-deps.json (scripts/build-ui-data.py reads each script's source). -#}
-{%- set_global need_chart = false -%}{%- set_global need_p5 = false -%}{%- set_global need_three = false -%}
+{%- set_global need_p5 = false -%}{%- set_global need_three = false -%}
 {%- if "/js/kompendium/" in body_html -%}
 {%- set viz = load_data(path="static/data/viz-deps.json") -%}
 {%- for name, libs in viz.scripts -%}
 {%- if "/js/kompendium/" ~ name in body_html -%}
-{%- if "chart" in libs %}{% set_global need_chart = true %}{% endif -%}
 {%- if "p5" in libs %}{% set_global need_p5 = true %}{% endif -%}
 {%- if "three" in libs %}{% set_global need_three = true %}{% endif -%}
 {%- endif -%}
 {%- endfor -%}
-{%- endif %}
-{%- if need_chart %}
-<script src="{{ get_url(path='js/vendor/chart.umd.min.js') }}"></script>
 {%- endif %}
 {%- if need_p5 %}
 <script src="{{ get_url(path='js/vendor/p5-1.7.0.min.js') }}"></script>
@@ -154,14 +158,14 @@
 {%- endif %}
 {% block head_extra %}{% endblock head_extra %}
 </head>
-<body class="bg-gray-50 antialiased dark:bg-gray-800" data-base-url="{{ config.base_url }}" data-search-index="{{ get_url(path='data/search.json', cachebust=true) }}" data-graph="{{ get_url(path='data/graph.json', cachebust=true) }}" data-mermaid="{{ get_url(path='js/vendor/mermaid-11.min.js') }}" data-chartjs="{{ get_url(path='js/vendor/chart.umd.min.js') }}">
+<body class="bg-gray-50 antialiased dark:bg-gray-900" data-base-url="{{ config.base_url }}" data-search-index="{{ get_url(path='data/search.json', cachebust=true) }}" data-graph="{{ get_url(path='data/graph.json', cachebust=true) }}" data-mermaid="{{ get_url(path='js/vendor/mermaid-11.min.js') }}" data-viz="{{ get_url(path='js/viz/kompendium-viz.js', cachebust=true) }}">
 <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:bg-white focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-gray-900 focus:shadow">Přeskočit na obsah</a>
 {% include "partials/nav.html" %}
 {% include "partials/paleta.html" %}
 <div class="flex overflow-hidden bg-gray-50 pt-16 dark:bg-gray-900">
   {% include "partials/sidebar.html" %}
   <div id="main-content" class="relative h-full w-full overflow-y-auto bg-gray-50 lg:ml-64 dark:bg-gray-900">
-    <main id="main" tabindex="-1">
+    <main id="main" tabindex="-1" data-page-kind="{{ page_kind }}">
       {% block content %}{% endblock content %}
     </main>
     {% include "partials/footer.html" %}

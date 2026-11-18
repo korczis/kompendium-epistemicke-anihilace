@@ -90,9 +90,16 @@
         focus.x = dims.w * 0.55;
         focus.y = dims.h * 0.5;
         if (reduced) { t = 2.2; p.noLoop(); }
-        var slider = el.parentElement && el.parentElement.querySelector('[data-p5-intensity]');
+        // The slider shares the canvas's figure; the maximize frame wraps the canvas in its own box,
+        // so the parent element alone no longer reaches it.
+        var scope = el.closest('figure') || el.parentElement;
+        var slider = scope && scope.querySelector('[data-p5-intensity]');
         if (slider) {
-          slider.addEventListener('input', function () { intensity = parseFloat(slider.value); if (reduced) p.redraw(); });
+          // Paused (button, off screen) or reduced motion: no loop runs, so the slider redraws.
+          slider.addEventListener('input', function () {
+            intensity = parseFloat(slider.value);
+            if (!p.isLooping()) p.redraw();
+          });
         }
       };
 
@@ -117,7 +124,8 @@
         nodes.forEach(function (n) {
           var dist = Math.hypot(n.hx - focus.x, n.hy - focus.y) / radius;
           var target = Math.min(1, Math.max(0, 1 - dist) * 1.35) * intensity * breath;
-          n.d += (target - n.d) * (reduced ? 1 : 0.12);
+          // A still frame (reduced motion, paused) settles at once: one redraw shows the intensity.
+          n.d += (target - n.d) * (reduced || !p.isLooping() ? 1 : 0.12);
           var drift = n.d * n.d * 34 * (0.6 + n.keep);
           n.x = n.hx + Math.cos(n.phase + t * 0.7) * drift;
           n.y = n.hy + Math.sin(n.phase * 1.3 + t * 0.5) * drift;

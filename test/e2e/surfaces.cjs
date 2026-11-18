@@ -17,6 +17,9 @@ const path = require('path');
 const { execFileSync } = require('node:child_process');
 
 const BASE = (process.env.BASE_URL || 'http://127.0.0.1:18790/').replace(/\/?$/, '/');
+// Přetečení (dokument i #main-content, který v Pro shellu roluje) a jeden levý okraj nadpisu
+// a textu: společná definice s auditem (scripts/audit-ui.cjs).
+const { measureLayout, layoutFindings } = require('./layout.cjs');
 
 // Pevné plochy aplikace. Stránky obsahu se vybírají až za běhu z odvozeného grafu
 // (static/data/graph.json), aby test nezastaral, když se obsah přepíše nebo přejmenuje.
@@ -554,8 +557,7 @@ async function check(browser, s, viewport, scheme) {
   if (s.interact === 'hledani' && viewport.width >= 1024) await combobox(page, s, failures);
   if (s.interact === 'faseta') await facet(page, failures);
   if (s.interact === 'landing') await landing(page, browser, viewport, failures);
-  const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
-  if (overflow > 0) failures.push(`vodorovné přetečení ${overflow} px`);
+  layoutFindings(await measureLayout(page), viewport.width).forEach((f) => failures.push(f));
   if (s.pohled) await view(page, s, failures);
   await page.close();
   return failures;

@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # The reader sees the book's one word count. On a build of the committed tree:
 #
-#  - every page's word badge (data-word-count) and its schema.org wordCount equal
+#  - every article page's word badge (data-word-count; application pages show none) and every
+#    page's schema.org wordCount equal
 #    static/data/words.json for that page, which scripts/build-graph.py derives from ia_model,
 #    the same count the gates judge;
 #  - no template reads Zola's page.word_count, which counts the path fragments of @/ links as
@@ -43,7 +44,11 @@ for path, n in words.items():
         continue
     text = html.read_text(encoding="utf-8")
     badge = BADGE.findall(text)
-    if n and badge != [str(n)]:
+    # The badge belongs to the article header (templates/partials/header.html); an application
+    # page (mapa, stav, about…, data-page-kind="app") shows none, and a badge shown anywhere
+    # still equals words.json.
+    article = 'data-page-kind="article"' in text
+    if (article and n and badge != [str(n)]) or (badge and badge != [str(n)]):
         problems.append(f"{path}: badge {badge}, words.json {n}")
     schema = SCHEMA.findall(text)
     if schema and schema != [str(n)]:

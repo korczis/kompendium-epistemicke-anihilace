@@ -31,7 +31,7 @@ ARG = re.compile(r'(\w+)\s*=\s*"((?:[^"\\]|\\.)*)"')
 AT_LINK = re.compile(r"\]\(@/(?P<path>[^)#\s]+?)(?P<anchor>#[^)\s]*)?\)")
 ROOT_LINK = re.compile(r"\]\((?P<path>/(?!/)[^)#\s]*)(?P<anchor>#[^)\s]*)?\)")
 SCRIPT_SRC = re.compile(r'src="/js/')
-# Chart.js and three.js are self-hosted and loaded by the base template (no CDN).
+# p5 and three.js are self-hosted and loaded by the base template (no CDN).
 # Personal e-mail addresses do not belong in the public copy; every mailto link becomes Issues.
 MAILTO = re.compile(r"\[[^\]]*\]\(mailto:[^)\s]+\)")
 CDN_SCRIPT = re.compile(r'^<script src="https://cdn\.jsdelivr\.net/npm/[^"]+"></script>\s*\n', re.M)

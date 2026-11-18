@@ -10,6 +10,7 @@
 (function () {
   'use strict';
 
+  var L = window.KompendiumVrstva;
   var V;
   var S_RE = /^S([1-5])\s*[–-]\s*(.+?)\.?$/;
 
@@ -89,25 +90,6 @@
     return items.length ? { title: cleanHeading(h), items: items } : null;
   }
 
-  // Barva textu na ploše: tmavá (gray-900), nebo bílá, podle toho, která má vyšší kontrast (WCAG).
-  function ink(hex) {
-    var n = parseInt(String(hex).slice(1), 16);
-    var lum = [n >> 16, (n >> 8) & 255, n & 255].map(function (v) {
-      v /= 255;
-      return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4);
-    });
-    var L = 0.2126 * lum[0] + 0.7152 * lum[1] + 0.0722 * lum[2];
-    var dark = (L + 0.05) / (0.0092 + 0.05); // relativní jas #111827
-    var light = 1.05 / (L + 0.05);
-    return dark >= light ? '#111827' : '#ffffff';
-  }
-
-  function esc(s) {
-    return String(s).replace(/[&<>"]/g, function (c) {
-      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
-    });
-  }
-
   function renderList(root, tracks) {
     var list = root.querySelector('[data-pohled-seznam]');
     var tpl = root.querySelector('template[data-pohled-polozka]');
@@ -152,8 +134,8 @@
         animation: !window.KompendiumVrstva.reducedMotion(),
         tooltip: Object.assign({ trigger: 'item', confine: true, formatter: function (p) {
           var f = flat[p.dataIndex];
-          return '<b>' + esc(f.it.name) + '</b>' + (f.it.full ? '<br>' + esc(f.it.full) : '') +
-            '<br><span style="opacity:.75">' + esc(f.track.title) + ', ' + (f.row + 1) + '. z ' + f.n + '</span>';
+          return '<b>' + L.esc(f.it.name) + '</b>' + (f.it.full ? '<br>' + L.esc(f.it.full) : '') +
+            '<br><span style="opacity:.75">' + L.esc(f.track.title) + ', ' + (f.row + 1) + '. z ' + f.n + '</span>';
         } }, V.tooltip(t)),
         series: [{
           id: 'faze', type: 'custom', coordinateSystem: 'none', data: data(), cursor: 'pointer',
@@ -178,7 +160,7 @@
             }
             children.push({ type: 'circle', shape: { cx: x, cy: y, r: 12 },
               style: { fill: t.primary, stroke: selected ? t.accent : t.surface, lineWidth: selected ? 3 : 2 } });
-            children.push({ type: 'text', silent: true, style: { x: x, y: y, text: String(f.row + 1), fill: ink(t.primary),
+            children.push({ type: 'text', silent: true, style: { x: x, y: y, text: String(f.row + 1), fill: L.ink(t.primary),
               font: '600 11px Inter, system-ui, sans-serif', align: 'center', verticalAlign: 'middle' } });
             children.push({ type: 'text', style: { x: x + 22, y: y - (f.it.detail ? 15 : 8), text: f.it.name, fill: t.text,
               font: (selected ? '700 ' : '600 ') + '13px Inter, system-ui, sans-serif', width: tw, overflow: 'truncate' } });
@@ -227,24 +209,9 @@
     });
   }
 
-  function init() {
-    V = window.KompendiumViz;
-    var roots = document.querySelectorAll('[data-pohled="pripad-faze"]');
-    if (!V || !roots.length) return;
-    Array.prototype.forEach.call(roots, function (root) {
-      var article = root.closest('article') || document;
-      if (!('IntersectionObserver' in window)) { render(root, article); return; }
-      var io = new IntersectionObserver(function (entries) {
-        if (!entries.some(function (en) { return en.isIntersecting; })) return;
-        io.disconnect();
-        render(root, article);
-      }, { rootMargin: '200px 0px' });
-      io.observe(root);
-    });
-  }
-
-  // Skript je deferred a v těle stránky stojí před kompendium-viz.js: DOMContentLoaded přijde až
-  // po všech deferred skriptech, takže vrstva už je načtená.
-  if (document.readyState === 'complete') init();
-  else document.addEventListener('DOMContentLoaded', init);
+  // Každý výskyt pohledu se sestaví, až je vidět (KompendiumVrstva.mount).
+  L.mount('pripad-faze', function (root, KV) {
+    V = KV;
+    render(root, root.closest('article') || document);
+  });
 })();

@@ -3,6 +3,7 @@
 (function () {
   'use strict';
 
+  var L = window.KompendiumVrstva;
   var V = window.KompendiumViz;
   var nf = new Intl.NumberFormat('cs-CZ');
 
@@ -11,12 +12,6 @@
   // Mapa knihy s předvybraným oddílem; odkaz na stránku v rámci webu podle base path.
   function mapUrl(section) {
     return V.basePath + '/mapa/' + (section ? '?oddil=' + encodeURIComponent(section) : '');
-  }
-
-  function escapeHtml(s) {
-    return String(s).replace(/[&<>"]/g, function (c) {
-      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
-    });
   }
 
   // Každá karta vede tam, kde se s číslem dá něco dělat (mapa, obsah, příslušný graf níže).
@@ -35,7 +30,7 @@
     el('stav-kpi').innerHTML = items.map(function (x) {
       var pct = typeof x[1] === 'number' && x[0] !== 'Stránek' && x[0] !== 'Slov' && x[0] !== 'Odkazů'
         ? '<span class="ml-2 text-sm font-medium text-gray-500 dark:text-gray-400">' + Math.round(100 * x[1] / m.pages) + ' %</span>' : '';
-      return '<a href="' + escapeHtml(x[3]) + '" aria-label="' + escapeHtml(x[0] + ': ' + nf.format(x[1]) + '. ' + x[4]) + '" ' +
+      return '<a href="' + L.esc(x[3]) + '" aria-label="' + L.esc(x[0] + ': ' + nf.format(x[1]) + '. ' + x[4]) + '" ' +
         'class="group block rounded-lg bg-white p-4 shadow hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-800 sm:p-6 dark:bg-gray-800 dark:hover:bg-gray-700">' +
         '<span class="flex items-start justify-between gap-2"><span>' +
         '<span class="text-2xl font-bold leading-none text-gray-900 sm:text-3xl dark:text-white">' + nf.format(x[1]) + '</span>' + pct + '</span>' +

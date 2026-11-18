@@ -4,14 +4,9 @@
 (function () {
   'use strict';
 
+  var L = window.KompendiumVrstva;
   var V = window.KompendiumViz;
   var nf = new Intl.NumberFormat('cs-CZ');
-
-  function plural(n, one, few, many) {
-    if (n === 1) return one;
-    if (n >= 2 && n <= 4) return few;
-    return many;
-  }
 
   function unique(list) {
     var seen = {};
@@ -68,10 +63,10 @@
       var a = li.querySelector('a');
       a.href = r.url;
       a.setAttribute('aria-label', r.node.title + ', odkazuje sem ' + r.linkedBy + ' ' +
-        plural(r.linkedBy, 'stránka', 'stránky', 'stránek'));
+        L.plural(r.linkedBy, ['stránka', 'stránky', 'stránek']));
       li.querySelector('[data-slot="title"]').textContent = r.node.title;
       li.querySelector('[data-slot="words"]').textContent =
-        nf.format(r.words) + ' ' + plural(r.words, 'slovo', 'slova', 'slov');
+        nf.format(r.words) + ' ' + L.plural(r.words, ['slovo', 'slova', 'slov']);
       var badge = li.querySelector('[data-slot="in"]');
       badge.textContent = nf.format(r.linkedBy);
       badge.title = 'Počet stránek, které sem odkazují';
@@ -110,7 +105,7 @@
             return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
           });
           return '<b>' + title + '</b><br>' + nf.format(d.value[0]) + ' slov · ' +
-            d.value[1] + ' ' + plural(d.value[1], 'stránka odkazuje', 'stránky odkazují', 'stránek odkazuje') +
+            d.value[1] + ' ' + L.plural(d.value[1], ['stránka odkazuje', 'stránky odkazují', 'stránek odkazuje']) +
             ' sem';
         } }, V.tooltip(t)),
         grid: { left: 8, right: 24, top: 32, bottom: 28, containLabel: true },
@@ -158,18 +153,7 @@
     if (!V) return;
     var roots = Array.prototype.slice.call(document.querySelectorAll('[data-oddil]'));
     if (!roots.length) return;
-    if (!('IntersectionObserver' in window)) {
-      roots.forEach(render);
-      return;
-    }
-    var io = new IntersectionObserver(function (entries) {
-      entries.forEach(function (entry) {
-        if (!entry.isIntersecting) return;
-        io.unobserve(entry.target);
-        render(entry.target);
-      });
-    }, { rootMargin: '200px 0px' });
-    roots.forEach(function (r) { io.observe(r); });
+    roots.forEach(function (r) { L.lazy(r, function () { render(r); }); });
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);

@@ -9,6 +9,7 @@
 (function () {
   'use strict';
 
+  var L = window.KompendiumVrstva;
   var V = window.KompendiumViz;
   var nf = new Intl.NumberFormat('cs-CZ');
   var PAGE = 25;
@@ -45,25 +46,11 @@
     return window.KompendiumJadro.normalise(String(s || ''));
   }
 
-  // České tvary: 1 stránka, 2–4 stránky, 5 a víc stránek.
-  function plural(n, forms) {
-    var w = n === 1 ? forms[0] : (n >= 2 && n <= 4 ? forms[1] : forms[2]);
-    return nf.format(n) + ' ' + w;
-  }
-
   function clone(id) {
     return $(id).content.firstElementChild.cloneNode(true);
   }
 
   function part(node, key) { return node.querySelector('[data-k="' + key + '"]'); }
-
-  function params() {
-    try { return new URLSearchParams(window.location.search); } catch (e) { return new URLSearchParams(); }
-  }
-
-  function reducedMotion() {
-    return window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  }
 
   var state = { rule: '', section: '', lang: '', q: '', sort: 'nalezy', page: 1 };
   var items = [];
@@ -137,7 +124,7 @@
   function active() { return !!(state.rule || state.section || state.lang || state.q.trim()); }
 
   function readUrl() {
-    var p = params();
+    var p = L.urlState.get();
     state.q = p.get('q') || '';
     state.rule = RULE[p.get('pravidlo')] ? p.get('pravidlo') : '';
     state.section = sectionSet[p.get('oddil')] ? p.get('oddil') : '';
@@ -147,23 +134,14 @@
   }
 
   function hasUrlState() {
-    var p = params();
+    var p = L.urlState.get();
     return ['pravidlo', 'oddil', 'jazyk', 'q', 'razeni', 'strana'].some(function (k) { return p.has(k); });
   }
 
   function syncUrl() {
-    try {
-      var p = params();
-      var set = function (k, v) { if (v) p.set(k, v); else p.delete(k); };
-      set('pravidlo', state.rule);
-      set('oddil', state.section);
-      set('jazyk', state.lang);
-      set('q', state.q.trim());
-      set('razeni', state.sort === 'nalezy' ? '' : state.sort);
-      set('strana', state.page > 1 ? String(state.page) : '');
-      var qs = p.toString();
-      window.history.replaceState(null, '', window.location.pathname + (qs ? '?' + qs : '') + window.location.hash);
-    } catch (e) { /* bez History API zůstane filtr jen na stránce */ }
+    L.urlState.set({ pravidlo: state.rule, oddil: state.section, jazyk: state.lang,
+      q: state.q.trim(), razeni: state.sort === 'nalezy' ? '' : state.sort,
+      strana: state.page > 1 ? String(state.page) : '' });
   }
 
   function setState(patch, keepPage) {
@@ -202,7 +180,7 @@
       pocet.textContent = nf.format(count);
       pocet.className += ' ' + (count ? pocet.getAttribute('data-open') : pocet.getAttribute('data-zero'));
       btn.setAttribute('data-rule', id);
-      btn.setAttribute('aria-label', id + ': ' + (count ? plural(count, ['otevřený nález', 'otevřené nálezy', 'otevřených nálezů']) : 'splněno všude') +
+      btn.setAttribute('aria-label', id + ': ' + (count ? L.count(count, ['otevřený nález', 'otevřené nálezy', 'otevřených nálezů']) : 'splněno všude') +
         '. Požadavek: ' + RULE[id].text + '. Filtrovat pracovní seznam podle tohoto pravidla.');
       btn.addEventListener('click', function () { setState({ rule: state.rule === id ? '' : id }); });
       ul.appendChild(li);
@@ -295,8 +273,8 @@
 
     var findings = rows.reduce(function (n, it) { return n + (state.rule ? 1 : it.rules.length); }, 0);
     $('rd-pocet').textContent = any
-      ? plural(rows.length, ['stránka', 'stránky', 'stránek']) + ' · ' +
-        plural(findings, ['otevřený nález', 'otevřené nálezy', 'otevřených nálezů']) + (active() ? ' ve výběru' : '')
+      ? L.count(rows.length, ['stránka', 'stránky', 'stránek']) + ' · ' +
+        L.count(findings, ['otevřený nález', 'otevřené nálezy', 'otevřených nálezů']) + (active() ? ' ve výběru' : '')
       : 'V tomto výběru nic nechybí.';
     $('rd-rozsah').textContent = any ? nf.format(from + 1) + '–' + nf.format(from + visible.length) : '0';
     $('rd-celkem').textContent = nf.format(rows.length);
@@ -342,7 +320,7 @@
             return p.marker + p.seriesName + ': <b>' + nf.format(p.value) + '</b>';
           });
           return '<b>' + sectionName(s.id) + '</b> <span style="opacity:.7">' + s.id + '</span><br>' +
-            plural(s.open, ['stránka', 'stránky', 'stránek']) + ' k doplnění<br>' + lines.join('<br>');
+            L.count(s.open, ['stránka', 'stránky', 'stránek']) + ' k doplnění<br>' + lines.join('<br>');
         },
       }, V.tooltip(t)),
       legend: { show: false },
@@ -379,7 +357,7 @@
         if (p.componentType !== 'series' || !p.data) return;
         setState({ section: p.data.section, rule: p.seriesName });
         var target = $('rd-seznam');
-        target.scrollIntoView({ block: 'start', behavior: reducedMotion() ? 'auto' : 'smooth' });
+        target.scrollIntoView({ block: 'start', behavior: L.reducedMotion() ? 'auto' : 'smooth' });
         $('h-rd-seznam').focus({ preventScroll: true });
       });
     }).catch(function (e) {
@@ -410,7 +388,7 @@
     function go(delta) {
       state.page += delta;
       render();
-      $('rd-seznam').scrollIntoView({ block: 'start', behavior: reducedMotion() ? 'auto' : 'smooth' });
+      $('rd-seznam').scrollIntoView({ block: 'start', behavior: L.reducedMotion() ? 'auto' : 'smooth' });
     }
     $('rd-predchozi').addEventListener('click', function () { go(-1); });
     $('rd-dalsi').addEventListener('click', function () { go(1); });
@@ -427,7 +405,7 @@
     V.json('data/ia.json').then(function (d) {
       if (!d || d.schema !== 'kompendium-ia/v1') throw new Error('Neočekávané schéma dat: ' + (d && d.schema));
       prepare(d);
-      $('rd-souhrn').textContent = plural(items.length, ['stránka', 'stránky', 'stránek']) + ' k doplnění z ' +
+      $('rd-souhrn').textContent = L.count(items.length, ['stránka', 'stránky', 'stránek']) + ' k doplnění z ' +
         nf.format(d.pages.length);
       renderRules();
       fillSelects();
@@ -443,11 +421,8 @@
   }
 
   function init() {
-    if (hasUrlState() || !('IntersectionObserver' in window)) { start(); return; }
-    var io = new IntersectionObserver(function (entries) {
-      if (entries.some(function (en) { return en.isIntersecting; })) { io.disconnect(); start(); }
-    }, { rootMargin: '400px 0px' });
-    io.observe(root);
+    if (hasUrlState()) start();
+    else L.lazy(root, start, '400px 0px');
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);

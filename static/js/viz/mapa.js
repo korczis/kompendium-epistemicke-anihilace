@@ -1,9 +1,11 @@
-// Mapa knihy: interaktivní graf odkazů nad static/data/graph.json (cytoscape.js).
+// Mapa knihy: interaktivní graf odkazů nad static/data/graph.json (síť vrstvy,
+// KompendiumViz.network nad Apache ECharts).
 // Pohledy: oddíly → stránky oddílu → okolí stránky; filtr podle štítku; hledání.
 // Stav ovládání drží Alpine.js (x-data="kompendiumMapa()").
 (function () {
   'use strict';
 
+  var L = window.KompendiumVrstva;
   var V = window.KompendiumViz;
 
   function fold(s) {
@@ -15,7 +17,7 @@
   }
 
   window.kompendiumMapa = function () {
-    var cy = null;
+    var net = null;
     var G = null;
 
     return {
@@ -47,7 +49,7 @@
             .sort(function (a, b) { return tags[b] - tags[a]; }).slice(0, 150)
             .map(function (t) { return { value: t, label: '#' + t + ' (' + tags[t] + ')' }; });
           self.titles = g.nodes.map(function (n) { return n.title; });
-          var params = new URLSearchParams(location.search);
+          var params = L.urlState.get();
           if (params.get('stranka') && g.byPath[params.get('stranka')]) self.showEgo(g.byPath[params.get('stranka')].id);
           else if (params.get('oddil')) self.showSection(params.get('oddil'));
           else if (params.get('stitek')) self.showTag(params.get('stitek'));
@@ -59,32 +61,24 @@
         });
       },
 
-      draw: function (elements, layout, note) {
+      // make() vrací { nodes, edges } a volá se znovu po přepnutí tématu (barvy oddílů).
+      // Klepnutí vybere (oddíl otevře), dvojklik otevře stránku; najetí zvýrazní sousedy.
+      draw: function (make, opts, note) {
         var self = this;
         this.stats = note;
-        if (cy) cy.destroy();
-        return V.cytoscape(this.$refs.canvas, elements, layout).then(function (c) {
-          cy = c;
-          cy.on('tap', 'node', function (ev) { self.tap(ev.target.data()); });
-          cy.on('dbltap', 'node', function (ev) {
-            var d = ev.target.data();
-            if (d.kind === 'page') window.location.href = G.url(G.byId[d.nid]);
-          });
-          cy.on('mouseover', 'node', function (ev) {
-            var n = ev.target;
-            cy.elements().addClass('faded');
-            n.closedNeighborhood().removeClass('faded');
-            n.connectedEdges().addClass('hl');
-          });
-          cy.on('mouseout', 'node', function () { cy.elements().removeClass('faded hl'); });
-        });
+        return V.network(this.$refs.canvas, function () { return make(); }, Object.assign({
+          roam: true,
+          onClick: function (d) { self.tap(d.data); },
+          onDblClick: function (d) {
+            if (d.data.kind === 'page') window.location.href = G.url(G.byId[d.data.nid]);
+          },
+        }, opts)).then(function (n) { net = n; });
       },
 
       remember: function (key, value) {
-        var url = new URL(location.href);
-        ['oddil', 'stranka', 'stitek'].forEach(function (k) { url.searchParams.delete(k); });
-        if (key) url.searchParams.set(key, value);
-        history.replaceState(null, '', url);
+        var values = { oddil: '', stranka: '', stitek: '' };
+        if (key) values[key] = value;
+        L.urlState.set(values);
       },
 
       showSections: function () {
@@ -100,35 +94,42 @@
           var k = a < b ? a + '|' + b : b + '|' + a;
           links[k] = (links[k] || 0) + 1;
         });
-        var els = [];
-        G.sections.forEach(function (s) {
-          if (s === 'root') return;
-          els.push({ data: { id: 's:' + s, kind: 'section', section: s, label: V.sectionLabel(s) + ' · ' + count[s],
-            color: G.color(s), size: size(count[s], 18, 70), fontSize: 11 } });
-        });
+        var sections = G.sections.filter(function (s) { return s !== 'root'; });
         var max = 1;
         Object.keys(links).forEach(function (k) { max = Math.max(max, links[k]); });
-        Object.keys(links).forEach(function (k) {
-          var p = k.split('|');
-          if (links[k] < 3) return;
-          els.push({ data: { id: 'l:' + k, source: 's:' + p[0], target: 's:' + p[1],
-            width: 0.5 + 6 * Math.log(1 + links[k]) / Math.log(1 + max) } });
-        });
-        return this.draw(els, { name: 'cose', animate: false, nodeRepulsion: 900000, idealEdgeLength: 120, padding: 30 },
-          (els.filter(function (e) { return !e.data.source; }).length) + ' oddílů; síla čáry = počet odkazů mezi oddíly. Klepnutím otevřete oddíl.');
+        return this.draw(function () {
+          var edges = [];
+          Object.keys(links).forEach(function (k) {
+            var p = k.split('|');
+            if (links[k] < 3) return;
+            edges.push({ source: 's:' + p[0], target: 's:' + p[1],
+              width: 0.5 + 6 * Math.log(1 + links[k]) / Math.log(1 + max) });
+          });
+          return {
+            nodes: sections.map(function (s) {
+              return { id: 's:' + s, label: V.sectionLabel(s) + ' · ' + count[s], color: G.color(s),
+                size: size(count[s], 18, 70), fontSize: 11, data: { kind: 'section', section: s } };
+            }),
+            edges: edges,
+          };
+        }, { layout: 'force', force: { length: 140, repulsion: 1.4 } },
+          sections.length + ' oddílů; síla čáry = počet odkazů mezi oddíly. Klepnutím otevřete oddíl.');
       },
 
       pageNode: function (n, opts) {
         var deg = G.in[n.id].length;
-        return { data: { id: 'p:' + n.id, nid: n.id, kind: 'page', label: n.title, color: G.color(n.section),
-          size: size(deg, 8, opts && opts.max || 40), fontSize: opts && opts.font || 8, focus: opts && opts.focus } };
+        return { id: 'p:' + n.id, label: n.title, color: G.color(n.section),
+          size: size(deg, 8, opts && opts.max || 40), fontSize: opts && opts.font || 9,
+          focus: opts && opts.focus, data: { kind: 'page', nid: n.id } };
       },
 
+      // Uzly stránek a odkazy mezi nimi (bez směru, každá dvojice jednou).
       subgraph: function (ids, extra) {
         var set = {};
         ids.forEach(function (id) { set[id] = true; });
         var self = this;
-        var els = ids.map(function (id) { return self.pageNode(G.byId[id], extra && extra[id]); });
+        var nodes = ids.map(function (id) { return self.pageNode(G.byId[id], extra && extra[id]); });
+        var edges = [];
         var seen = {};
         ids.forEach(function (a) {
           G.out[a].forEach(function (b) {
@@ -136,10 +137,10 @@
             var k = a < b ? a + '-' + b : b + '-' + a;
             if (seen[k]) return;
             seen[k] = true;
-            els.push({ data: { id: 'e:' + k, source: 'p:' + a, target: 'p:' + b, width: 0.8 } });
+            edges.push({ source: 'p:' + a, target: 'p:' + b, width: 0.8 });
           });
         });
-        return els;
+        return { nodes: nodes, edges: edges };
       },
 
       showSection: function (section) {
@@ -147,11 +148,11 @@
         this.mode = 'section'; this.section = section; this.tag = ''; this.focus = null; this.selected = null;
         this.remember('oddil', section);
         var ids = G.nodes.filter(function (n) { return n.section === section; }).map(function (n) { return n.id; });
-        var els = this.subgraph(ids);
-        var layout = ids.length > 220
-          ? { name: 'concentric', concentric: function (n) { return n.data('size'); }, levelWidth: function () { return 4; }, minNodeSpacing: 6, animate: false }
-          : { name: 'cose', animate: false, nodeRepulsion: 120000, idealEdgeLength: 70, padding: 20 };
-        return this.draw(els, layout, ids.length + ' stránek oddílu „' + V.sectionLabel(section) + '“; velikost = počet odkazujících stránek.');
+        var self = this;
+        // Velký oddíl: soustředné kruhy podle počtu odkazů sem (nejodkazovanější uprostřed).
+        if (ids.length > 220) ids.sort(function (a, b) { return G.in[b].length - G.in[a].length; });
+        var layout = ids.length > 220 ? { layout: 'rings', labels: 40 } : { layout: 'force', labels: 60, force: { length: 70 } };
+        return this.draw(function () { return self.subgraph(ids); }, layout, ids.length + ' stránek oddílu „' + V.sectionLabel(section) + '“; velikost = počet odkazujících stránek.');
       },
 
       showTag: function (tag) {
@@ -161,7 +162,8 @@
         var ids = G.nodes.filter(function (n) { return (n.tags || []).indexOf(tag) !== -1; })
           .sort(function (a, b) { return G.in[b.id].length - G.in[a.id].length; }).slice(0, 300)
           .map(function (n) { return n.id; });
-        return this.draw(this.subgraph(ids), { name: 'cose', animate: false, nodeRepulsion: 120000, idealEdgeLength: 70 },
+        var self = this;
+        return this.draw(function () { return self.subgraph(ids); }, { layout: 'force', labels: 60, force: { length: 70 } },
           ids.length + ' stránek se štítkem #' + tag + (ids.length === 300 ? ' (nejodkazovanějších 300)' : '') + '.');
       },
 
@@ -176,9 +178,9 @@
           .sort(function (a, b) { return G.in[b].length - G.in[a].length; }).slice(0, 70);
         var extra = {};
         extra[id] = { focus: true, max: 54, font: 12 };
-        var els = this.subgraph([id].concat(ids), extra);
-        return this.draw(els, { name: 'concentric', concentric: function (x) { return x.data('focus') ? 100 : x.data('size'); },
-          levelWidth: function () { return 6; }, minNodeSpacing: 14, animate: false },
+        var self = this;
+        // Stránka uprostřed, sousedé v kruzích podle počtu odkazů sem.
+        return this.draw(function () { return self.subgraph([id].concat(ids), extra); }, { layout: 'rings', labels: 30 },
           '„' + n.title + '“: ' + G.out[id].length + ' odkazů ven, ' + G.in[id].length + ' odkazů sem' +
           (Object.keys(around).length > 70 ? ' (zobrazeno 70 nejodkazovanějších sousedů)' : '') + '.');
       },
@@ -207,7 +209,7 @@
         else this.stats = 'Nic nenalezeno pro „' + this.query + '“.';
       },
 
-      fit: function () { if (cy) cy.fit(undefined, 30); },
+      fit: function () { if (net) net.fit(); },
     };
   };
 })();

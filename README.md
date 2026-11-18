@@ -125,7 +125,7 @@ a Stavu knihy `scripts/render-readme-graphics.cjs` (Playwright, ImageMagick).
 | Generátor webu | Zola, `zola.toml` |
 | Vzhled | Flowbite Pro admin shell v `templates/`, Tailwind CSS 4, `styles/app.css` |
 | Chování | `static/js/site.js`: téma, hledání, klikací Mermaid, grafy |
-| Mapa a stav knihy | `static/js/viz/` (cytoscape.js, Apache ECharts, Alpine.js) nad `static/data/graph.json` a `metrics.json` |
+| Mapa a stav knihy | `static/js/viz/` (Apache ECharts, Alpine.js) nad `static/data/graph.json` a `metrics.json` |
 | Generativní grafika | `static/js/p5/grafika.js` (p5.js), `scripts/render-graphics.py` (SVG) |
 | Nasazení | `.github/workflows/pages.yml` na GitHub Pages, bez CDN |
 | Dohled | [Majordomus](https://majordomus.dev): `.ai/`, `AGENTS.md`, hooky v `.githooks/` |

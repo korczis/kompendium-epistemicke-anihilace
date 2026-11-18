@@ -1,4 +1,4 @@
-// Fáze zotavení podle knihy (Chart.js, vodorovné pruhy). Fáze a jejich orientační rámec čte
+// Fáze zotavení podle knihy (ECharts, vodorovné pruhy). Fáze a jejich orientační rámec čte
 // z tabulky „Fáze | Orientační rámec | Klíčový úkol“ v rejstříku protokolů zotavení; délka
 // pruhu je počet protokolů, které rejstřík k fázi řadí. Kniha fáze záměrně neváže na přesné
 // týdny ani měsíce, proto graf nemá časovou osu: pořadí fází je pořadí v tabulce a rámec
@@ -10,11 +10,8 @@
 
   // Data knihy přes komponentovou vrstvu (vrstva.js): kniha.js se načte jednou za stránku.
   var kniha = window.KompendiumVrstva.kniha;
-
-  function failed(el, e) {
-    if (window.console) console.warn('vizualizace knihy:', e);
-    if (el) el.textContent = 'Data knihy se nepodařilo načíst.';
-  }
+  var failed = window.KompendiumVrstva.failed;
+  var L = window.KompendiumVrstva;
 
   // Řádky tabulky, jejíž hlavička obsahuje „Orientační rámec“: [{phase, frame, task}].
   function phaseTable(doc, K) {
@@ -42,7 +39,7 @@
 
   function init() {
     var canvas = document.getElementById('recovery-trajectory');
-    if (!canvas || typeof Chart === 'undefined') return;
+    if (!canvas) return;
     var detail = document.getElementById('recovery-detail');
     kniha().then(function (K) {
       var idx = K.g.byPath[SOURCE];
@@ -77,38 +74,31 @@
           detail.appendChild(K.link(idx, '→ rejstřík protokolů zotavení'));
         }
 
-        K.chart(canvas, function (c) {
+        K.chart(canvas, function (t, el) {
+          var hd = K.head(t, el, 'Fáze zotavení podle rejstříku knihy (pořadí a orientační rámec)');
           return {
-            type: 'bar',
-            data: {
-              labels: phases.map(function (p) { return [p.row.phase, '(' + p.row.frame + ')']; }),
-              datasets: [{
-                label: 'Protokoly fáze',
-                data: phases.map(function (p) { return p.count; }),
-                backgroundColor: phases.map(function (p, i) { return K.V.PALETTE[i % K.V.PALETTE.length] + 'B3'; }),
-                borderColor: phases.map(function (p, i) { return K.V.PALETTE[i % K.V.PALETTE.length]; }),
-                borderWidth: 2,
-              }],
-            },
-            options: {
-              indexAxis: 'y',
-              responsive: true,
-              plugins: {
-                title: { display: true, text: 'Fáze zotavení podle rejstříku knihy (pořadí a orientační rámec)', color: c.text },
-                legend: { display: false },
-                tooltip: { callbacks: { label: function (ctx) {
-                  var p = phases[ctx.dataIndex];
-                  return p.row.frame + ' • ' + p.count + ' protokolů';
-                } } },
-              },
-              scales: {
-                x: { beginAtZero: true, ticks: { color: c.muted, precision: 0 }, grid: { color: c.grid },
-                  title: { display: true, text: 'Počet protokolů v rejstříku', color: c.text } },
-                y: { ticks: { color: c.muted }, grid: { color: c.grid } },
-              },
-              onClick: function (e, els) { if (els.length) show(phases[els[0].index]); },
-            },
+            title: hd.title,
+            tooltip: Object.assign({ trigger: 'item', formatter: function (p) {
+              var x = phases[p.dataIndex];
+              return '<b>' + L.esc(x.row.phase) + '</b><br>' + L.esc(x.row.frame) + ' • ' +
+                L.count(x.count, ['protokol', 'protokoly', 'protokolů']);
+            } }, K.V.tooltip(t)),
+            grid: { left: 8, right: 32, top: hd.top, bottom: 28, containLabel: true },
+            xAxis: K.V.axis(t, { type: 'value', minInterval: 1, name: 'Počet protokolů v rejstříku',
+              nameLocation: 'middle', nameGap: 26 }),
+            yAxis: K.V.axis(t, { type: 'category', inverse: true,
+              data: phases.map(function (p) { return p.row.phase + '\n(' + p.row.frame + ')'; }),
+              axisLabel: { color: t.muted, fontSize: 11, lineHeight: 14 } }),
+            series: [{
+              type: 'bar', name: 'Protokoly fáze', cursor: 'pointer', barMaxWidth: 36,
+              data: phases.map(function (p, i) {
+                return { value: p.count, itemStyle: { color: K.V.PALETTE[i % K.V.PALETTE.length], borderRadius: [0, 4, 4, 0] } };
+              }),
+              label: { show: true, position: 'right', color: t.muted },
+            }],
           };
+        }).then(function (chart) {
+          chart.on('click', function (p) { if (p.componentType === 'series') show(phases[p.dataIndex]); });
         });
       });
     }).catch(function (e) { failed(detail, e); });

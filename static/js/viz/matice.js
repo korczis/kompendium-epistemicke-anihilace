@@ -1,10 +1,11 @@
 // Případy × techniky: matice kazuistik a historických případů proti technikám EA, na které
-// jejich text odkazuje (static/data/graph.json, Apache ECharts; volitelná síť v cytoscape.js).
+// jejich text odkazuje (static/data/graph.json, Apache ECharts; volitelná síť přes síť vrstvy).
 // Vše se odvozuje z odkazů při sestavení; stav filtrů drží Alpine.js (x-data="kompendiumMatice()")
 // a zrcadlí se do URL (?typ=&rodina=&q=&pohled=&razeni=).
 (function () {
   'use strict';
 
+  var L = window.KompendiumVrstva;
   var V = window.KompendiumViz;
   var CASE_SECTIONS = { 'kompendium/case-studies': 'kazuistiky', 'kompendium/historical-cases': 'historicke' };
   var TECH_SECTION = 'kompendium/techniques';
@@ -15,15 +16,6 @@
   function fold(s) {
     return window.KompendiumJadro.normalise(String(s || ''));
   }
-
-  function esc(s) {
-    return String(s).replace(/[&<>"]/g, function (c) {
-      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
-    });
-  }
-
-  // Čeština: 1 případ, 2–4 případy, 5+ případů.
-  function plural(n, one, few, many) { return n + ' ' + (n === 1 ? one : n > 1 && n < 5 ? few : many); }
 
   function famColor(f) { return V.PALETTE[(f - 1) % V.PALETTE.length]; }
   function famLabel(f) { return 'EA-' + f + ' ' + (FAMILIES[f] || ''); }
@@ -56,7 +48,6 @@
 
   window.kompendiumMatice = function () {
     var chart = null;
-    var cy = null;
     var D = null; // { cases, techs, byCase, byTech, G }
     var view = null; // aktuálně vykreslená matice
     var narrow = window.matchMedia('(max-width: 767px)').matches;
@@ -84,7 +75,7 @@
 
       init: function () {
         var self = this;
-        var p = new URLSearchParams(location.search);
+        var p = L.urlState.get();
         if (p.get('typ') === 'kazuistiky' || p.get('typ') === 'historicke') this.typ = p.get('typ');
         var r = /^(?:EA-)?([1-9])$/i.exec(p.get('rodina') || '');
         if (r) this.rodina = r[1];
@@ -108,7 +99,7 @@
           self.apply();
         }).catch(function (e) {
           self.error = e.message;
-          V.empty(self.$refs.chart, 'Matici se nepodařilo načíst', esc(e.message));
+          V.empty(self.$refs.chart, 'Matici se nepodařilo načíst', L.esc(e.message));
         });
       },
 
@@ -149,14 +140,10 @@
       reset: function () { this.typ = ''; this.rodina = ''; this.q = ''; this.razeni = 'zaber'; this.apply(); },
 
       remember: function () {
-        var url = new URL(location.href);
-        var vals = { typ: this.typ, rodina: this.rodina ? 'EA-' + this.rodina : '', q: this.q.trim(),
+        L.urlState.set({ typ: this.typ, rodina: this.rodina ? 'EA-' + this.rodina : '',
+          q: this.q.trim(),
           pohled: this.pohled === (narrow ? 'rodiny' : 'techniky') ? '' : this.pohled,
-          razeni: this.razeni === 'kniha' ? 'kniha' : '' };
-        Object.keys(vals).forEach(function (k) {
-          if (vals[k]) url.searchParams.set(k, vals[k]); else url.searchParams.delete(k);
-        });
-        history.replaceState(null, '', url);
+          razeni: this.razeni === 'kniha' ? 'kniha' : '' });
       },
 
       // Filtry → viditelné řádky (případy) a sloupce (techniky) s vazbami.
@@ -219,18 +206,18 @@
         view = v;
         this.isEmpty = !v.rows.length;
         var n = v.rows.length;
-        var rowsText = this.typ === 'kazuistiky' ? plural(n, 'kazuistika', 'kazuistiky', 'kazuistik')
-          : this.typ === 'historicke' ? plural(n, 'historický případ', 'historické případy', 'historických případů')
-            : plural(n, 'případ', 'případy', 'případů');
+        var rowsText = this.typ === 'kazuistiky' ? L.count(n, ['kazuistika', 'kazuistiky', 'kazuistik'])
+          : this.typ === 'historicke' ? L.count(n, ['historický případ', 'historické případy', 'historických případů'])
+            : L.count(n, ['případ', 'případy', 'případů']);
         this.summary = this.isEmpty ? 'Filtrům neodpovídá žádný případ.'
-          : rowsText + ' × ' + (techView ? plural(v.cols.length, 'technika', 'techniky', 'technik')
-            : plural(v.fams.length, 'rodina', 'rodiny', 'rodin')) +
-            ' · ' + plural(v.links, 'vazba', 'vazby', 'vazeb') + (this.rodina ? ' · rodina ' + famLabel(Number(this.rodina)) : '');
+          : rowsText + ' × ' + (techView ? L.count(v.cols.length, ['technika', 'techniky', 'technik'])
+            : L.count(v.fams.length, ['rodina', 'rodiny', 'rodin'])) +
+            ' · ' + L.count(v.links, ['vazba', 'vazby', 'vazeb']) + (this.rodina ? ' · rodina ' + famLabel(Number(this.rodina)) : '');
         this.topTech = v.cols.slice().sort(function (a, b) {
           return b.cases.length - a.cases.length || a.t.key - b.t.key;
         }).slice(0, 15).map(function (x) {
           return { code: x.t.code, name: x.t.name, url: x.t.url, count: x.cases.length, color: famColor(x.t.fam),
-            aria: x.t.code + ' ' + x.t.name + ': ' + plural(x.cases.length, 'případ', 'případy', 'případů') };
+            aria: x.t.code + ' ' + x.t.name + ': ' + L.count(x.cases.length, ['případ', 'případy', 'případů']) };
         });
         var maxT = this.topTech.length ? this.topTech[0].count : 1;
         this.topTech.forEach(function (x) { x.pct = Math.max(4, Math.round(100 * x.count / maxT)); });
@@ -238,7 +225,7 @@
           return b.techs.length - a.techs.length || a.c.type.localeCompare(b.c.type) || a.c.num - b.c.num;
         }).slice(0, 10).map(function (r) {
           return { label: r.c.label, url: r.c.url, count: r.techs.length, hist: r.c.type === 'historicke',
-            aria: r.c.label + ': ' + plural(r.techs.length, 'technika', 'techniky', 'technik') };
+            aria: r.c.label + ': ' + L.count(r.techs.length, ['technika', 'techniky', 'technik']) };
         });
         var maxC = this.topCases.length ? this.topCases[0].count : 1;
         this.topCases.forEach(function (x) { x.pct = Math.max(4, Math.round(100 * x.count / maxC)); });
@@ -338,17 +325,17 @@
             if (p.componentType !== 'series') return '';
             var r = v.rows[p.value[1]];
             if (!r) return '';
-            var head = '<b>' + esc(r.c.title) + '</b><br>';
+            var head = '<b>' + L.esc(r.c.title) + '</b><br>';
             if (v.techView) {
               var tch = v.cols[p.value[0]].t;
-              return head + esc(tch.code + ' ' + tch.name) + '<br><span style="color:' + t.muted + '">' +
-                esc(famLabel(tch.fam)) + ' · klepnutím otevřete případ</span>';
+              return head + L.esc(tch.code + ' ' + tch.name) + '<br><span style="color:' + t.muted + '">' +
+                L.esc(famLabel(tch.fam)) + ' · klepnutím otevřete případ</span>';
             }
             var f = v.fams[p.value[0]];
             var list = r.techs.map(function (id) { return D.byTech[id]; }).filter(function (x) { return x.fam === f; })
               .sort(function (a, b) { return a.key - b.key; });
-            return head + esc(famLabel(f)) + ': ' + plural(list.length, 'technika', 'techniky', 'technik') +
-              '<br>' + list.slice(0, 8).map(function (x) { return esc(x.code + ' ' + x.name); }).join('<br>') +
+            return head + L.esc(famLabel(f)) + ': ' + L.count(list.length, ['technika', 'techniky', 'technik']) +
+              '<br>' + list.slice(0, 8).map(function (x) { return L.esc(x.code + ' ' + x.name); }).join('<br>') +
               (list.length > 8 ? '<br>…' : '') + '<br><span style="color:' + t.muted + '">klepnutím otevřete případ</span>';
           } }, V.tooltip(t)),
           grid: { left: 8, right: 12, top: v.techView && dataZoom.length ? 30 : 12, bottom: 44, containLabel: true },
@@ -388,41 +375,39 @@
         this.netShown = true;
         var top = view.cols.slice().sort(function (a, b) { return b.cases.length - a.cases.length || a.t.key - b.t.key; })
           .slice(0, Number(this.netN));
-        if (cy) { cy.destroy(); cy = null; }
         var el = this.$refs.net;
         if (!top.length) { V.empty(el, 'Žádné techniky', 'Filtrům neodpovídá žádná vazba.'); this.netNote = ''; return; }
-        var els = [];
         var caseSeen = {};
+        var cases = [];
         top.forEach(function (x) {
-          els.push({ data: { id: 't' + x.t.id, label: x.t.code, color: famColor(x.t.fam), fontSize: 10,
-            size: Math.round(14 + Math.sqrt(x.cases.length) * 5), url: x.t.url,
-            info: x.t.code + ' ' + x.t.name + ' · ' + plural(x.cases.length, 'případ', 'případy', 'případů') } });
-          x.cases.forEach(function (id) {
-            var c = D.byCase[id];
-            if (!caseSeen[id]) {
-              caseSeen[id] = true;
-              els.push({ data: { id: 'c' + id, label: c.type === 'historicke' ? 'H' + c.num : 'K' + c.num,
-                color: c.type === 'historicke' ? '#64748b' : '#94a3b8', fontSize: 8, size: 9, url: c.url, info: c.title } });
-            }
-            els.push({ data: { id: 'e' + id + '-' + x.t.id, source: 'c' + id, target: 't' + x.t.id, width: 0.8 } });
-          });
+          x.cases.forEach(function (id) { if (!caseSeen[id]) { caseSeen[id] = true; cases.push(id); } });
         });
-        this.netNote = plural(top.length, 'technika', 'techniky', 'technik') + ', ' +
-          plural(Object.keys(caseSeen).length, 'případ', 'případy', 'případů') + '. Barva techniky = rodina, šedě případy (K = kazuistika, H = historický případ). Klepnutím otevřete stránku.';
-        return V.cytoscape(el, els, { name: 'cose', animate: false, nodeRepulsion: 60000, idealEdgeLength: 60, padding: 20 })
-          .then(function (c) {
-            cy = c;
-            if (narrow) { cy.userZoomingEnabled(false); cy.userPanningEnabled(false); }
-            cy.on('tap', 'node', function (ev) { window.location.href = ev.target.data('url'); });
-            cy.on('mouseover', 'node', function (ev) {
-              var n = ev.target;
-              self.netHover = n.data('info');
-              cy.elements().addClass('faded');
-              n.closedNeighborhood().removeClass('faded');
-              n.connectedEdges().addClass('hl');
-            });
-            cy.on('mouseout', 'node', function () { self.netHover = ''; cy.elements().removeClass('faded hl'); });
-          }).catch(function (e) { V.empty(el, 'Síť se nepodařilo načíst', esc(e.message)); });
+        this.netNote = L.count(top.length, ['technika', 'techniky', 'technik']) + ', ' +
+          L.count(cases.length, ['případ', 'případy', 'případů']) + '. Barva techniky = rodina, šedě případy (K = kazuistika, H = historický případ). Klepnutím otevřete stránku.';
+        // Bipartitní síť přes síť vrstvy (KompendiumViz.network): rozmístění silami, najetí
+        // zvýrazní sousedství a vypíše uzel pod sítí, klepnutí otevře stránku.
+        return V.network(el, function () {
+          var nodes = [];
+          var edges = [];
+          top.forEach(function (x) {
+            nodes.push({ id: 't' + x.t.id, label: x.t.code, color: famColor(x.t.fam), fontSize: 10,
+              size: Math.round(14 + Math.sqrt(x.cases.length) * 5),
+              info: x.t.code + ' ' + x.t.name + ' · ' + L.count(x.cases.length, ['případ', 'případy', 'případů']),
+              data: { url: x.t.url } });
+            x.cases.forEach(function (id) { edges.push({ source: 'c' + id, target: 't' + x.t.id, width: 0.8 }); });
+          });
+          cases.forEach(function (id) {
+            var c = D.byCase[id];
+            nodes.push({ id: 'c' + id, label: c.type === 'historicke' ? 'H' + c.num : 'K' + c.num,
+              color: c.type === 'historicke' ? '#64748b' : '#94a3b8', fontSize: 8, size: 9,
+              info: c.title, data: { url: c.url } });
+          });
+          return { nodes: nodes, edges: edges };
+        }, {
+          layout: 'force', force: { length: 50 }, roam: !narrow,
+          onClick: function (d) { window.location.href = d.data.url; },
+          onHover: function (d) { self.netHover = d ? d.info : ''; },
+        }).catch(function (e) { V.empty(el, 'Síť se nepodařilo načíst', L.esc(e.message)); });
       },
     };
   };

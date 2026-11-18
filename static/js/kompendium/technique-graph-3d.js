@@ -8,11 +8,7 @@
 
   // Data knihy přes komponentovou vrstvu (vrstva.js): kniha.js se načte jednou za stránku.
   var kniha = window.KompendiumVrstva.kniha;
-
-  function failed(el, e) {
-    if (window.console) console.warn('vizualizace knihy:', e);
-    if (el) el.textContent = 'Data knihy se nepodařilo načíst.';
-  }
+  var failed = window.KompendiumVrstva.failed;
 
   function init() {
     var container = document.getElementById('technique-graph-3d');

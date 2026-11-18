@@ -22,6 +22,8 @@
 //     resize: function (w, h) { camera.aspect = w / h; camera.updateProjectionMatrix(); } });
 //   t.scene, t.renderer; kamera a scéna patří skriptu, smyčku a velikost řídí vrstva.
 //   KompendiumVrstva.kniha().then(function (K) { … })   // data knihy, viz kniha.js
+//   KompendiumVrstva.frame(host)   // rámec s lištou a Maximalizovat (#max=<id>, Escape); grafy
+//                                  // ECharts, sítě i plátna p5/three ho dostávají samy
 (function () {
   'use strict';
   if (window.KompendiumVrstva) return;
@@ -109,6 +111,17 @@
   }
 
   function sizeFor(host, opts) {
+    if (host.getAttribute('data-vrstva-max') === 'on') {
+      // Maximalizovaný rámec: plátno vyplní okno; návrh drží poměr stran (vejde se celý).
+      var mw = Math.max(1, host.clientWidth);
+      var mh = Math.max(1, host.clientHeight);
+      if (opts.design) {
+        var k = Math.min(mw / opts.design[0], mh / opts.design[1]);
+        return { w: Math.max(1, Math.floor(opts.design[0] * k)),
+          h: Math.max(1, Math.floor(opts.design[1] * k)) };
+      }
+      return { w: mw, h: mh };
+    }
     var w = host.clientWidth || (host.parentElement && host.parentElement.clientWidth) || 360;
     if (opts.maxWidth) w = Math.min(w, opts.maxWidth);
     var aspect = typeof opts.aspect === 'function' ? opts.aspect() : opts.aspect;
@@ -123,17 +136,162 @@
     return { w: Math.max(1, Math.floor(w)), h: Math.max(1, h) };
   }
 
-  // Tlačítko Pozastavit/Spustit v rohu animovaného plátna (Flowbite alternative button).
-  // Překrývá plátno, takže jeho vložení nic neposune (CLS 0).
+  // ---- Rámec vizualizace: jedno ovládání pro každý graf, síť i plátno -------------------------
+  // Hostitel (div grafu ECharts, plátno p5/three) dostane obal <div data-vrstva-frame> s lištou
+  // v pravém horním rohu (překrývá plochu, vložení nic neposune). Lišta nese tlačítko
+  // Maximalizovat: rámec pak zabere celé okno, zbytek stránky je inert, Escape nebo totéž
+  // tlačítko ho vrátí a fokus zůstane na tlačítku. Stav je v adrese (#max=<id>), takže
+  // maximalizovaný pohled jde poslat odkazem; id je id hostitele, jinak „graf-“ + popisek.
+  // Hostitel s role="img" nesmí obsahovat ovládání (děti obrázku jsou prezentační), proto lišta
+  // stojí v obalu vedle hostitele, ne v něm.
+  var BTN = 'inline-flex items-center justify-center rounded-lg border border-gray-200 bg-white/90 ' +
+    'p-1.5 text-xs font-medium text-gray-900 hover:bg-gray-100 hover:text-primary-700 ' +
+    'focus:outline-none focus:ring-4 focus:ring-gray-100 dark:border-gray-600 dark:bg-gray-800/90 ' +
+    'dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-gray-700';
+  var ICON_MAX = 'M8 4H4m0 0v4m0-4 5 5m7-5h4m0 0v4m0-4-5 5M8 20H4m0 0v-4m0 4 5-5m7 5h4m0 0v-4m0 4-5-5';
+  var ICON_MIN = 'M5 9h4m0 0V5m0 4L4 4m15 5h-4m0 0V5m0 4 5-5M5 15h4m0 0v4m0-4-5 5m15-5h-4m0 0v4m0-4 5 5';
+  var frames = {};
+  var maxed = null;
+
+  function wantedMax() {
+    var m = /^#max=([\w-]+)$/.exec(window.location.hash || '');
+    return m ? m[1] : '';
+  }
+
+  function maxIdOf(label) {
+    return 'graf-' + (slug(label).slice(0, 48).replace(/-+$/, '') || 'vizualizace');
+  }
+
+  function setHash(hash) {
+    try {
+      window.history.replaceState(null, '', window.location.pathname + window.location.search + hash);
+    } catch (e) { /* bez History API zůstane stav jen na stránce */ }
+  }
+
+  // Všechno mimo rámec (sourozenci na cestě k <body>) je při maximalizaci inert.
+  function inertOthers(el) {
+    var out = [];
+    for (var n = el; n && n.parentElement && n !== document.body; n = n.parentElement) {
+      Array.prototype.forEach.call(n.parentElement.children, function (s) {
+        if (s === n || s.inert || /^(SCRIPT|STYLE|TEMPLATE)$/.test(s.tagName)) return;
+        s.inert = true;
+        out.push(s);
+      });
+    }
+    return out;
+  }
+
+  function syncMaxButton(f) {
+    var on = !!f.on;
+    var text = on ? 'Zmenšit zpět (Esc)' : 'Zvětšit na celé okno';
+    f.btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+    f.btn.title = text;
+    f.btn.innerHTML = '<svg class="h-4 w-4" aria-hidden="true" fill="none" viewBox="0 0 24 24">' +
+      '<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="' +
+      (on ? ICON_MIN : ICON_MAX) + '"/></svg><span class="sr-only">' + esc(text) + '</span>';
+  }
+
+  function maximize(f, on) {
+    if (!!f.on === on) return;
+    if (on && maxed && maxed !== f) maximize(maxed, false);
+    f.on = on;
+    var box = f.box;
+    var host = f.host;
+    if (on) {
+      f.saved = { box: box.style.cssText, host: host.style.cssText,
+        overflow: document.documentElement.style.overflow,
+        hash: /^#max=/.test(window.location.hash) ? '' : window.location.hash };
+      box.style.cssText += ';position:fixed;inset:0;z-index:60;margin:0;padding:3.25rem 1rem 1rem;' +
+        'display:flex;flex-direction:column;border-radius:0;background:' + theme().surface;
+      host.style.cssText += ';flex:1 1 auto;width:100%;height:auto;min-height:0;max-height:none;' +
+        'max-width:none;margin:0';
+      document.documentElement.style.overflow = 'hidden';
+      f.inert = inertOthers(box);
+      maxed = f;
+      setHash('#max=' + f.id);
+    } else {
+      box.style.cssText = f.saved.box;
+      host.style.cssText = f.saved.host;
+      document.documentElement.style.overflow = f.saved.overflow;
+      (f.inert || []).forEach(function (s) { s.inert = false; });
+      f.inert = null;
+      if (maxed === f) maxed = null;
+      setHash(f.saved.hash);
+    }
+    host.setAttribute('data-vrstva-max', on ? 'on' : 'off');
+    syncMaxButton(f);
+    f.btn.focus({ preventScroll: true });
+    if (!on) box.scrollIntoView({ block: 'nearest' });
+    f.listeners.forEach(function (fn) { fn(on); });
+  }
+
+  // Rámec hostitele (jednou na hostitele): { box, bar, host, id, on, onToggle(fn) }.
+  function frame(host, opts) {
+    host = hostOf(host);
+    if (!host || !host.parentNode) return null;
+    if (host.__vrstvaFrame) return host.__vrstvaFrame;
+    opts = opts || {};
+    var label = opts.label || host.getAttribute('aria-label') || labelFor(host, {});
+    var before = host.offsetHeight;
+    var box = document.createElement('div');
+    box.className = 'relative min-w-0';
+    box.setAttribute('data-vrstva-frame', '');
+    host.parentNode.insertBefore(box, host);
+    box.appendChild(host);
+    // Výška hostitele daná rodičem (h-full v boxu s poměrem stran): obal ji předá dál.
+    if (before && !host.offsetHeight) box.style.height = '100%';
+    var bar = document.createElement('div');
+    bar.className = 'absolute right-2 top-2 z-10 flex items-center gap-2';
+    bar.setAttribute('data-vrstva-bar', '');
+    box.appendChild(bar);
+    var base = host.id || maxIdOf(label);
+    var id = base;
+    for (var n = 2; frames[id] && frames[id].host !== host; n++) id = base + '-' + n;
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = BTN;
+    btn.setAttribute('data-vrstva-max', id);
+    var f = { box: box, bar: bar, host: host, id: id, btn: btn, on: false, listeners: [],
+      onToggle: function (fn) { f.listeners.push(fn); } };
+    btn.addEventListener('click', function () { maximize(f, !f.on); });
+    syncMaxButton(f);
+    bar.appendChild(btn);
+    host.__vrstvaFrame = f;
+    frames[id] = f;
+    if (wantedMax() === id) setTimeout(function () { maximize(f, true); }, 0);
+    return f;
+  }
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && maxed) { e.preventDefault(); maximize(maxed, false); }
+  });
+  document.addEventListener('dark-mode', function () {
+    if (maxed) maxed.box.style.background = theme().surface;
+  });
+  window.addEventListener('hashchange', function () {
+    var id = wantedMax();
+    if (id && frames[id]) maximize(frames[id], true);
+    else if (!id && maxed) maximize(maxed, false);
+  });
+  // Odkaz #max=<id> na graf, který se staví až ve chvíli, kdy je vidět: hostitele (podle id,
+  // nebo popisku, z něhož se id odvodí) posune do okna, graf se postaví a rámec se maximalizuje.
+  function seekWanted() {
+    var id = wantedMax();
+    if (!id || frames[id]) return;
+    var el = document.getElementById(id) ||
+      Array.prototype.filter.call(document.querySelectorAll('[aria-label]'), function (x) {
+        return maxIdOf(x.getAttribute('aria-label')) === id.replace(/-\d+$/, '');
+      })[0];
+    if (el) el.scrollIntoView({ block: 'center' });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', seekWanted);
+  else setTimeout(seekWanted, 0);
+
+  // Tlačítko Pozastavit/Spustit animovaného plátna na liště rámce (Flowbite alternative button).
   function pauseControl(host, state) {
-    if (window.getComputedStyle(host).position === 'static') host.style.position = 'relative';
     var b = document.createElement('button');
     b.type = 'button';
-    b.className = 'absolute right-2 top-2 z-10 rounded-lg border border-gray-200 bg-white/90 ' +
-      'px-3 py-1.5 text-xs font-medium ' +
-      'text-gray-900 hover:bg-gray-100 hover:text-primary-700 focus:outline-none focus:ring-4 ' +
-      'focus:ring-gray-100 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-300 ' +
-      'dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-gray-700';
+    b.className = BTN + ' px-3';
     b.setAttribute('data-vrstva-pause', '');
     function sync() {
       b.textContent = state.paused ? 'Spustit animaci' : 'Pozastavit animaci';
@@ -141,7 +299,8 @@
     }
     b.addEventListener('click', function () { state.paused = !state.paused; sync(); state.apply(); });
     sync();
-    host.appendChild(b);
+    var f = frame(host);
+    f.bar.insertBefore(b, f.bar.firstChild);
     return sync;
   }
 
@@ -159,14 +318,26 @@
     return state;
   }
 
+  // Přepočet při změně šířky hostitele; v maximalizovaném rámci i při změně výšky a při
+  // přepnutí rámce (na telefonu má hostitel před i po maximalizaci stejnou šířku).
   function onResize(host, fn) {
-    var last = host.clientWidth;
+    function key() {
+      return host.clientWidth + (host.getAttribute('data-vrstva-max') === 'on' ? 'x' + host.clientHeight : '');
+    }
+    var last = key();
     if ('ResizeObserver' in window) {
       new ResizeObserver(function () {
-        if (host.clientWidth !== last) { last = host.clientWidth; fn(); }
+        if (key() !== last) { last = key(); fn(); }
       }).observe(host);
     } else {
       window.addEventListener('resize', fn);
+    }
+    var f = frame(host);
+    if (f) {
+      f.onToggle(function (on) {
+        if (on) host.style.cssText += ';display:flex;align-items:center;justify-content:center';
+        setTimeout(function () { last = key(); fn(); }, 30);
+      });
     }
   }
 
@@ -182,6 +353,7 @@
     opts = opts || {};
     if (!host || typeof window.p5 === 'undefined') return null;
     var label = labelFor(host, opts);
+    frame(host, { label: label });
     var size = sizeFor(host, opts);
     var scale = opts.design ? size.w / opts.design[0] : 1;
     var inst = null;
@@ -231,6 +403,7 @@
     opts = opts || {};
     var THREE = window.THREE;
     if (!host || !THREE) return null;
+    frame(host, { label: labelFor(host, opts) });
     var size = sizeFor(host, opts);
     var renderer = new THREE.WebGLRenderer({ antialias: true, alpha: !!opts.alpha });
     renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
@@ -273,9 +446,125 @@
       .replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
   }
 
+  // ---- Pomůcky skriptů vizualizací: jediná kopie. scripts/check-viz-layer.py odmítne vlastní
+  // esc, plural, ink, readJson, params, failed, isIndex, reducedMotion i IntersectionObserver
+  // kdekoli jinde ve static/js/.
+
+  var HTML = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
+  // Text do HTML: obsah prvku i hodnota atributu v uvozovkách nebo apostrofech.
+  function esc(s) {
+    return String(s).replace(/[&<>"']/g, function (c) { return HTML[c]; });
+  }
+
+  // České tvary podle počtu: forms = [1, 2–4, 0 a 5+], např. ['stránka', 'stránky', 'stránek'].
+  function plural(n, forms) {
+    return n === 1 ? forms[0] : n >= 2 && n <= 4 ? forms[1] : forms[2];
+  }
+
+  var NF = new Intl.NumberFormat('cs-CZ');
+  // Počet i s tvarem v českém zápisu čísla: „1 stránka“, „3 stránky“, „1 250 stránek“.
+  function count(n, forms) {
+    return NF.format(n) + ' ' + plural(n, forms);
+  }
+
+  // Barva textu na výplni hex: tmavá (#111827, gray-900) nebo bílá, podle toho, která má vůči
+  // výplni vyšší kontrastní poměr WCAG 2.2 (relativní jas, 1.4.3).
+  function ink(hex) {
+    var n = parseInt(String(hex).slice(1), 16);
+    var lum = [n >> 16, (n >> 8) & 255, n & 255].map(function (v) {
+      v /= 255;
+      return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4);
+    });
+    var L = 0.2126 * lum[0] + 0.7152 * lum[1] + 0.0722 * lum[2];
+    var dark = (L + 0.05) / (0.0092 + 0.05); // relativní jas #111827
+    var light = 1.05 / (L + 0.05);
+    return dark >= light ? '#111827' : '#ffffff';
+  }
+
+  // Data vložená šablonou do <script type="application/json" id="…">; chybí-li nebo nejdou
+  // přečíst, vrátí fallback.
+  function readJson(id, fallback) {
+    var node = document.getElementById(id);
+    if (!node) return fallback;
+    try { return JSON.parse(node.textContent); } catch (e) { return fallback; }
+  }
+
+  // Stav pohledu v adrese (?q=…&rodina=…), aby šel sdílet odkazem.
+  //   urlState.get()          parametry aktuální adresy (URLSearchParams);
+  //   urlState.set(values)    { klíč: hodnota }: prázdná hodnota klíč smaže; ostatní parametry
+  //                           i kotva zůstanou, historie se nepřidává (replaceState); čárka
+  //                           v hodnotě zůstane čitelná. { clear: true } začne od prázdné adresy.
+  var urlState = {
+    get: function () {
+      try { return new URLSearchParams(window.location.search); }
+      catch (e) { return new URLSearchParams(); }
+    },
+    set: function (values, opts) {
+      try {
+        var p = opts && opts.clear ? new URLSearchParams() : urlState.get();
+        Object.keys(values).forEach(function (k) {
+          if (values[k]) p.set(k, values[k]); else p.delete(k);
+        });
+        var qs = p.toString().replace(/%2C/g, ',');
+        window.history.replaceState(null, '', window.location.pathname + (qs ? '?' + qs : '') +
+          window.location.hash);
+      } catch (e) { /* bez History API zůstane stav jen na stránce */ }
+    },
+  };
+
+  // Data knihy se nenačetla: varování do konzole, čtenáři věta místo grafu.
+  function failed(el, err) {
+    if (window.console) console.warn('vizualizace knihy:', err);
+    if (el) el.textContent = 'Data knihy se nepodařilo načíst.';
+  }
+
+  // Úvodní stránka oddílu (_index.md, i s jazykovou příponou, např. _index.en.md).
+  function isIndex(n) {
+    return /(^|\/)_index(\.[a-z]+)?\.md$/.test(n.path);
+  }
+
+  // Úroveň rizika z front matter jako identifikátor stupnice (kritická → critical).
+  var RISK_ALIASES = { 'kritická': 'critical', 'kriticka': 'critical' };
+  function riskId(raw) {
+    var r = window.KompendiumJadro.normalise(String(raw || '')).trim();
+    return RISK_ALIASES[r] || r;
+  }
+
+  // Až když je prvek (téměř) vidět, jednou spustí run: graf se nestaví mimo okno (pravidlo
+  // vizualizací: inicializace jen viditelného). Bez IntersectionObserver hned.
+  function lazy(el, run, margin) {
+    if (!el) return;
+    if (!('IntersectionObserver' in window)) { run(); return; }
+    var io = new IntersectionObserver(function (entries) {
+      if (!entries.some(function (en) { return en.isIntersecting; })) return;
+      io.disconnect();
+      run();
+    }, { rootMargin: margin || '200px 0px' });
+    io.observe(el);
+  }
+
+  // Pohled ve stránce, <div data-pohled="name">: každý výskyt se sestaví až ve chvíli, kdy je
+  // vidět, voláním render(root, KompendiumViz). Skript pohledu je deferred a stojí před
+  // kompendium-viz.js; DOMContentLoaded přijde až po všech deferred skriptech, takže modul už
+  // je načtený.
+  function mount(name, render) {
+    function init() {
+      var KV = window.KompendiumViz;
+      var roots = document.querySelectorAll('[data-pohled="' + name + '"]');
+      if (!KV || !roots.length) return;
+      Array.prototype.forEach.call(roots, function (root) {
+        lazy(root, function () { render(root, KV); });
+      });
+    }
+    if (document.readyState === 'complete') init();
+    else document.addEventListener('DOMContentLoaded', init);
+  }
+
   window.KompendiumVrstva = {
     PALETTE: PALETTE, paletteFor: paletteFor, theme: theme, isDark: isDark,
     reducedMotion: reducedMotion, slug: slug,
-    kniha: kniha, p5: p5In, three: threeIn,
+    kniha: kniha, p5: p5In, three: threeIn, frame: frame,
+    esc: esc, plural: plural, count: count, ink: ink, readJson: readJson, urlState: urlState,
+    failed: failed, isIndex: isIndex, riskId: riskId, lazy: lazy, mount: mount,
   };
 })();

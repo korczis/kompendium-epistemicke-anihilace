@@ -23,19 +23,19 @@ const BASE = (process.env.BASE_URL || 'http://127.0.0.1:18790/').replace(/\/?$/,
 const FIXED = [
   { path: '', painted: 2, counts: [['a[href^="tel:"]', 3], ['#upozorneni-title', 1], ['[data-landing-block]', 4]], interact: 'landing', note: 'úvod: p5 síť pojmů, upozornění, rizika, karusel, přehled knihy (ECharts)' },
   { path: 'kompendium/02-uvod/v-kostce/', painted: 0, interact: 'kostka', note: 'vrstvy a model eskalace' },
-  { path: 'mapa/', painted: 1, text: '[x-text="stats"]', note: 'Mapa knihy (cytoscape)' },
-  { path: 'stav/', painted: 5, count: ['#stav-kpi > *', 8], note: 'Stav knihy (ECharts)' },
-  { path: 'matice/', painted: 1, note: 'matice případů a technik (ECharts)' },
-  { path: 'osy/', painted: 1, note: 'osy knihy: publikum × pilíř (ECharts)' },
+  { path: 'mapa/', painted: 1, text: '[x-text="stats"]', maxLink: true, note: 'Mapa knihy (síť ECharts)' },
+  { path: 'stav/', painted: 5, count: ['#stav-kpi > *', 8], maxLink: true, note: 'Stav knihy (ECharts)' },
+  { path: 'matice/', painted: 1, maxLink: true, note: 'matice případů a technik (ECharts)' },
+  { path: 'osy/', painted: 1, maxLink: true, note: 'osy knihy: publikum × pilíř (ECharts)' },
   { path: 'osy/?publikum=klinik&pilir=rozpoznani', painted: 1, count: ['[data-osy-seznam] a[href]', 1], note: 'osy knihy: výběr z adresy vypíše stránky průniku' },
-  { path: 'galerie/', painted: 3, note: 'Galerie (p5)' },
+  { path: 'galerie/', painted: 3, maxLink: true, note: 'Galerie (p5)' },
   { path: 'kompendium/techniques/', painted: 1, note: 'průzkumník technik' },
   { path: 'kompendium/historical-cases/', painted: 1, note: 'časová osa historických případů' },
   { path: 'glossary/', painted: 1, interact: 'faseta', note: 'průzkumník glosáře: kategorie' },
   { path: 'kompendium/08-prilohy/index-pojmu/', painted: 1, count: ['[data-rj-item]', 2], interact: 'rejstrik', note: 'interaktivní rejstřík pojmů (ECharts)' },
   { path: 'tags/', painted: 1, note: 'štítky (treemap)' },
   { path: 'kompendium/case-studies/', painted: 1, note: 'přehled oddílu' },
-  { path: 'kompendium/visualizations/', painted: 8, note: 'vizualizace knihy (Chart.js, p5)' },
+  { path: 'kompendium/visualizations/', painted: 8, note: 'vizualizace knihy (ECharts, p5)' },
   { path: 'kompendium/nlp-vzorce/', painted: 1, note: 'průzkumník katalogu NLP (ECharts graf vazeb)' },
   { path: 'kompendium/nlp-vzorce/milton-model/', painted: 1, note: 'průzkumník rodiny katalogu s předvybranou rodinou' },
   { path: 'kompendium/argumentacni-fauly/', painted: 1, note: 'průzkumník katalogu argumentačních faulů' },
@@ -172,8 +172,10 @@ function classView(html) {
   const canvases = (html.match(/<canvas\b/g) || []).length;
   const pohled = (html.match(/data-pohled="([\w-]+)"/) || [])[1];
   if (pohled) return { painted: canvases + 1, pohled, note: 'pohled ' + pohled };
-  const charts = html.includes('data-chart="') || /\/js\/kompendium\/[\w-]+\.js/.test(html);
-  if (charts && canvases) return { painted: canvases, note: `vykreslená plátna grafů (${canvases})` };
+  // chart_inline je plocha <div data-chart>, do které vrstva vykreslí graf ECharts (plátno).
+  const inline = (html.match(/data-chart="/g) || []).length;
+  const charts = inline || /\/js\/kompendium\/[\w-]+\.js/.test(html);
+  if (charts && canvases + inline) return { painted: canvases + inline, note: `vykreslená plátna grafů (${canvases + inline})` };
   const diagrams = (html.match(/data-lang="mermaid"/g) || []).length;
   if (diagrams) return { painted: 0, mermaid: diagrams, note: `diagramy Mermaid (${diagrams})` };
   return null;
@@ -415,6 +417,42 @@ async function view(page, s, failures) {
   if (page.url() !== want) failures.push(`pohled ${s.pohled}: Enter nepřešel na ${want} (${page.url()})`);
 }
 
+// Ovládání Maximalizovat vrstvy (KompendiumVrstva.frame): první graf stránky se zvětší na celé
+// okno a adresa nese #max=<id>, Escape ho vrátí a kotvu smaže. U ploch s maxLink se navíc
+// odkaz #max=<id> po načtení znovu otevře maximalizovaný (stav jde poslat odkazem).
+async function maximize(page, s, failures) {
+  const btn = page.locator('[data-vrstva-max]').first();
+  if (!(await btn.count())) {
+    if (s.painted > 0 && !s.pohled) failures.push('graf bez ovládání Maximalizovat ([data-vrstva-max])');
+    return;
+  }
+  const id = await btn.getAttribute('data-vrstva-max');
+  await btn.click();
+  await page.waitForTimeout(400);
+  const state = () => page.evaluate((x) => {
+    const b = document.querySelector('[data-vrstva-max="' + x + '"]').closest('[data-vrstva-frame]');
+    const r = b.getBoundingClientRect();
+    return { full: r.top <= 0 && r.left <= 0 && r.width >= window.innerWidth - 1 && r.height >= window.innerHeight - 1,
+      hash: window.location.hash, host: b.querySelector('[data-vrstva-max="on"]') !== null };
+  }, id);
+  let st = await state();
+  if (!st.full || st.hash !== '#max=' + id) failures.push(`maximalizace ${id}: celé okno ${st.full}, adresa ${st.hash}`);
+  await page.keyboard.press('Escape');
+  await page.waitForTimeout(300);
+  st = await state();
+  if (st.full || /max=/.test(st.hash)) failures.push(`maximalizace ${id}: Escape ji nevrátil (${st.hash})`);
+  if (!s.maxLink) return;
+  await page.goto(BASE + s.path.split('#')[0] + '#max=' + id, { waitUntil: 'networkidle' });
+  await page.waitForTimeout(2500);
+  const deep = await page.evaluate((x) => {
+    const b = document.querySelector('[data-vrstva-max="' + x + '"]');
+    const r = b && b.closest('[data-vrstva-frame]').getBoundingClientRect();
+    return !!r && r.width >= window.innerWidth - 1 && r.height >= window.innerHeight - 1;
+  }, id);
+  if (!deep) failures.push(`odkaz #max=${id} graf po načtení nemaximalizoval`);
+  await page.keyboard.press('Escape');
+}
+
 async function paintedCanvases(page) {
   return page.evaluate(() => {
     let n = 0;
@@ -554,6 +592,7 @@ async function check(browser, s, viewport, scheme) {
   if (s.interact === 'hledani' && viewport.width >= 1024) await combobox(page, s, failures);
   if (s.interact === 'faseta') await facet(page, failures);
   if (s.interact === 'landing') await landing(page, browser, viewport, failures);
+  await maximize(page, s, failures);
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
   if (overflow > 0) failures.push(`vodorovné přetečení ${overflow} px`);
   if (s.pohled) await view(page, s, failures);

@@ -120,12 +120,14 @@
     familyIds.sort(cmpCode);
 
     function familyName(fid) { return g.families[fid] || ''; }
+    // Číslo rodiny a za ním její název, je-li v datech.
+    function familyLabel(fid) { return fid + (familyName(fid) ? ' ' + familyName(fid) : ''); }
     function familyColor(fid) { return V.PALETTE[(codeKey(fid)[0] - 1 + V.PALETTE.length) % V.PALETTE.length]; }
 
     var current = nodeOfHref(window.location.href);
 
     function dir(n) { return n.path.replace(/[^/]*$/, ''); }
-    function isIndex(n) { return /(^|\/)_index\.md$/.test(n.path); }
+    var isIndex = window.KompendiumVrstva.isIndex;
 
     // Stránky oddílu (bez rejstříkových _index.md).
     function pagesOf(section) {
@@ -355,29 +357,57 @@
 
     function techniqueText(t) { return t.code + ' ' + t.label; }
 
-    // Barvy Chart.js podle tématu stránky; graf se při přepnutí tématu postaví znovu.
-    function chartColors() {
-      var t = V.theme();
-      return { text: t.text, muted: t.muted, grid: t.grid, surface: t.surface, dark: t.dark, edge: t.edge };
+    // Plocha grafu knihy. Text knihy nese <canvas id=… width=… height=…>; graf ECharts potřebuje
+    // <div>, proto se plátno nahradí plochou se stejným id, popiskem (role="img") a poměrem
+    // stran z width/height. opts.height = pevná výška v px (např. podle počtu řádků).
+    function host(el, opts) {
+      if (!el || el.tagName !== 'CANVAS') return el;
+      opts = opts || {};
+      var d = document.createElement('div');
+      d.id = el.id;
+      d.className = 'w-full';
+      d.setAttribute('role', 'img');
+      d.setAttribute('aria-label', el.getAttribute('aria-label') || labelOf(el));
+      if (opts.height) d.style.height = opts.height + 'px';
+      else {
+        d.style.aspectRatio = (+el.getAttribute('width') || 800) + ' / ' + (+el.getAttribute('height') || 500);
+        d.style.minHeight = (opts.minHeight || 320) + 'px';
+      }
+      el.parentNode.replaceChild(d, el);
+      return d;
     }
 
-    function chart(canvas, makeConfig) {
-      var c = new window.Chart(canvas, makeConfig(chartColors()));
-      var api = { chart: c };
-      document.addEventListener('dark-mode', function () {
-        api.chart.destroy();
-        api.chart = new window.Chart(canvas, makeConfig(chartColors()));
-      });
-      return api;
+    // Popisek plochy: nejbližší předchozí nadpis v textu stránky.
+    function labelOf(el) {
+      for (var n = anchor(el); n && n !== document.body; n = n.parentElement) {
+        for (var p = n.previousElementSibling; p; p = p.previousElementSibling) {
+          if (/^H[2-4]$/.test(p.tagName)) return 'Graf: ' + p.textContent.trim();
+        }
+      }
+      return 'Graf knihy';
     }
 
-    // Celočíselné značky osy 0..n-1 (kategorie na lineární ose).
-    function intTicks(n) {
-      return function (axis) {
-        var t = [];
-        for (var i = 0; i < n; i++) t.push({ value: i });
-        axis.ticks = t;
-      };
+    // Záhlaví grafu: nadpis (zalomený do šířky plochy, vpravo místo pro lištu rámce) a legenda
+    // pod ním; vrací { title, legend, top } — top je odsazení mřížky pod záhlavím.
+    function head(t, el, text, legend) {
+      var w = Math.max(160, (el.clientWidth || 360) - 64);
+      var lines = text ? Math.ceil(text.length * 7.2 / w) : 0;
+      var out = { title: text ? { text: text, left: 8, top: 6, textStyle: { color: t.text, fontSize: 13,
+        fontWeight: 600, width: w, overflow: 'break', lineHeight: 18 } } : undefined, top: 12 + lines * 18 };
+      if (legend) {
+        out.legend = Object.assign({ type: 'scroll', top: out.top, left: 8, right: 8,
+          textStyle: { color: t.muted }, pageTextStyle: { color: t.muted } }, legend === true ? {} : legend);
+        out.top += 30;
+      }
+      out.top += 8;
+      return out;
+    }
+
+    // Graf nad daty knihy přes obálku ECharts vrstvy (KompendiumViz.echarts): makeOption(t, el)
+    // dostane barvy tématu a plochu; po přepnutí tématu se zavolá znovu. Vrací Promise<chart>.
+    function chart(el, makeOption, opts) {
+      var box = host(el, opts);
+      return V.echarts(box, function (t) { return makeOption(t, box); });
     }
 
     function fail(el, text) {
@@ -389,14 +419,15 @@
     return {
       V: V, g: g, basePath: basePath, current: current, url: urlOf,
       techniques: techniques, technique: function (n) { return n ? byNode[n.id] || null : null; },
-      familyIds: familyIds, familyName: familyName, familyColor: familyColor,
+      familyIds: familyIds, familyName: familyName, familyLabel: familyLabel,
+      familyColor: familyColor,
       codeOfPath: codeOfPath, codeKey: codeKey, cmpCode: cmpCode, parseTitle: parseTitle, fold: fold,
       nodeOfHref: nodeOfHref, pagesOf: pagesOf, indexOf: indexOf, isIndex: isIndex, dir: dir,
       edgesAmong: edgesAmong, linksFrom: linksFrom,
       outline: outline, groups: groups, catalogue: catalogue, riskOf: riskOf, doc: fetchDoc,
       contextNodes: contextNodes, familyNear: familyNear, anchor: anchor, subNames: subNames,
       h: h, clear: clear, link: link, list: list, techniqueText: techniqueText,
-      chartColors: chartColors, chart: chart, intTicks: intTicks, fail: fail,
+      host: host, head: head, chart: chart, fail: fail,
     };
   }
 

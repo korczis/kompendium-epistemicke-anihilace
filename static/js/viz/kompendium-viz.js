@@ -306,9 +306,16 @@
     }
     nodes.forEach(function (d) { (ring[d.ring] = ring[d.ring] || []).push(d); });
     var ax = box && box.h ? Math.max(0.6, Math.min(2.2, box.w / box.h)) : 1;
+    var outer = Math.max(1, ring.length - 1);
+    // Měřítko, jímž ECharts kresbu vtěsná do plochy: uzly se zmenší tak, aby se na svém kruhu
+    // ani mezi kruhy nepřekrývaly (velikost uzlu je v pixelech, ne v jednotkách rozvržení).
+    var scale = box && box.w
+      ? Math.min((box.w - 72) / (2 * outer * 100 * ax), (box.h - 72) / (2 * outer * 100)) : 1;
     ring.forEach(function (list, r) {
       if (!list) return;
+      var room = Math.max(4, 0.85 * scale * Math.min(100, r ? 2 * Math.PI * r * 100 / list.length : 100));
       list.forEach(function (d, i) {
+        if (r > 0 && typeof d.size === 'number' && d.size > room) d.size = room;
         if (r === 0 && list.length === 1) { d.x = 0; d.y = 0; return; }
         var a = -Math.PI / 2 + (r % 2 ? 0 : Math.PI / list.length) + (2 * Math.PI * i) / list.length;
         var rr = r === 0 ? 0.35 : r;

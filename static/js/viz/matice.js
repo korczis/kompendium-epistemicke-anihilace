@@ -344,7 +344,7 @@
               '<br>' + list.slice(0, 8).map(function (x) { return L.esc(x.code + ' ' + x.name); }).join('<br>') +
               (list.length > 8 ? '<br>…' : '') + '<br><span style="color:' + t.muted + '">klepnutím otevřete případ</span>';
           } }, V.tooltip(t)),
-          grid: { left: 8, right: 12, top: v.techView && dataZoom.length ? 30 : 12, bottom: 44, containLabel: true },
+          grid: { left: 8, right: 12, top: v.techView && dataZoom.length ? 30 : 12, bottom: 44 },
           xAxis: { type: 'category', position: 'top', data: xData, triggerEvent: true,
             axisLine: { lineStyle: { color: t.grid } }, axisTick: { show: false }, axisLabel: xLabel,
             splitArea: { show: false } },

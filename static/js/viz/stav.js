@@ -59,7 +59,7 @@
       return {
         tooltip: Object.assign({ trigger: 'axis', axisPointer: { type: 'shadow' } }, V.tooltip(t)),
         legend: { textStyle: { color: t.muted }, top: 0 },
-        grid: { left: 8, right: 16, top: 36, bottom: 8, containLabel: true },
+        grid: { left: 8, right: 16, top: 36, bottom: 8 },
         xAxis: V.axis(t, { type: 'value' }),
         yAxis: V.axis(t, { type: 'category', data: rows.map(function (r) { return V.sectionLabel(r.section); }),
           triggerEvent: true, axisLabel: { color: t.muted, fontSize: 11, width: 170, overflow: 'truncate' } }),
@@ -98,7 +98,7 @@
       return {
         tooltip: Object.assign({ trigger: 'axis', axisPointer: { type: 'shadow' } }, V.tooltip(t)),
         legend: { textStyle: { color: t.muted }, top: 0 },
-        grid: { left: 8, right: 16, top: 36, bottom: 8, containLabel: true },
+        grid: { left: 8, right: 16, top: 36, bottom: 8 },
         xAxis: V.axis(t, { type: 'category', data: rows.map(function (r) { return V.sectionLabel(r.section); }),
           triggerEvent: true, axisLabel: { color: t.muted, rotate: 40, fontSize: 10, width: 110, overflow: 'truncate' } }),
         yAxis: V.axis(t, { type: 'value' }),
@@ -112,7 +112,7 @@
     return V.echarts(el('stav-odkazovane'), function (t) {
       return {
         tooltip: Object.assign({ trigger: 'axis', axisPointer: { type: 'shadow' } }, V.tooltip(t)),
-        grid: { left: 8, right: 24, top: 8, bottom: 8, containLabel: true },
+        grid: { left: 8, right: 24, top: 8, bottom: 8 },
         xAxis: V.axis(t, { type: 'value' }),
         yAxis: V.axis(t, { type: 'category', data: top.map(function (n) { return n.title; }),
           axisLabel: { color: t.muted, fontSize: 11, width: 200, overflow: 'truncate' } }),
@@ -137,7 +137,7 @@
         tooltip: Object.assign({ trigger: 'item', formatter: function (p) {
           return '<b>' + p.data.name + '</b><br>' + nf.format(p.data.value[0]) + ' slov · ' + p.data.value[1] + ' odkazů sem'; } }, V.tooltip(t)),
         legend: { type: 'scroll', textStyle: { color: t.muted }, top: 0, pageTextStyle: { color: t.muted } },
-        grid: { left: 8, right: 16, top: 40, bottom: 8, containLabel: true },
+        grid: { left: 8, right: 16, top: 40, bottom: 8 },
         xAxis: V.axis(t, { type: 'log', name: 'slov (log)', nameLocation: 'middle', nameGap: 24 }),
         yAxis: V.axis(t, { type: 'value', name: 'odkazů sem' }),
         series: sections.map(function (s) {

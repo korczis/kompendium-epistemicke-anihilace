@@ -92,7 +92,7 @@
             }
             return '<b>' + L.esc(p.name) + '</b><br>' + L.count(p.value, ['stránka', 'stránky', 'stránek']) + ' knihy';
           } }, K.V.tooltip(t)),
-          grid: { left: 40, right: 16, top: hd.top, bottom: 36, containLabel: true },
+          grid: { left: 40, right: 16, top: hd.top, bottom: 36 },
           xAxis: K.V.axis(t, { type: 'category', data: names, name: 'Fáze (podle textu stránky)',
             nameLocation: 'middle', nameGap: 28, axisLabel: { color: t.muted, interval: 0, width: 90, overflow: 'truncate' } }),
           yAxis: K.V.axis(t, { type: 'value', min: 0, max: maxN * 2 + 1, minInterval: 1, name: 'Odkazované stránky',

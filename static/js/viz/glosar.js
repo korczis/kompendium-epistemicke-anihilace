@@ -121,7 +121,7 @@
               var p = ps[0];
               return '<b>' + p.name + '</b><br>' + p.value + ' ' + L.plural(p.value, ['stránka', 'stránky', 'stránek']) + ' odkazuje sem';
             } }, V.tooltip(t)),
-            grid: { left: 8, right: 32, top: 8, bottom: 8, containLabel: true },
+            grid: { left: 8, right: 32, top: 8, bottom: 8 },
             xAxis: V.axis(t, { type: 'value', minInterval: 1 }),
             yAxis: V.axis(t, { type: 'category', data: top.map(function (x) { return x.title; }),
               axisLabel: { color: t.muted, fontSize: 11, width: labelWidth, overflow: 'truncate' } }),

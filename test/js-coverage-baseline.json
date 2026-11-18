@@ -4,8 +4,8 @@
  "total": {
   "files": 52,
   "functions": 1875,
-  "covered": 1533,
-  "pct": 81.7
+  "covered": 1531,
+  "pct": 81.6
  },
  "files": {
   "static/js/kompendium/attention-disruption-sim.js": {
@@ -245,8 +245,8 @@
   "static/js/viz/paleta.js": {
    "sha256": "41b22bf64dbebf9be33bb435c36bfeb3eda06908271aea7e3d91eae18488f916",
    "functions": 76,
-   "covered": 57,
-   "pct": 75.0
+   "covered": 55,
+   "pct": 72.3
   },
   "static/js/viz/prehled.js": {
    "sha256": "15f558266935e4b82f7bcd68bd21345bdfdaed18b66db5bc30f042362aeadd0a",

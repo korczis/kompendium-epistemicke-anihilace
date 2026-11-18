@@ -219,7 +219,7 @@
       {
         "class": "glossary",
         "distance": 0,
-        "in": 603,
+        "in": 613,
         "path": "glossary/epistemicka-anihilace.md",
         "title": "Epistemická anihilace"
       },
@@ -240,23 +240,30 @@
       {
         "class": "glossary",
         "distance": 1,
-        "in": 306,
+        "in": 314,
         "path": "glossary/coercive-control.md",
         "title": "Coercive control (donucující kontrola)"
       },
       {
         "class": "glossary",
         "distance": 1,
-        "in": 279,
+        "in": 281,
         "path": "glossary/disociace.md",
         "title": "Disociace"
       },
       {
         "class": "glossary",
         "distance": 1,
-        "in": 267,
+        "in": 272,
         "path": "glossary/gaslighting.md",
         "title": "Gaslighting"
+      },
+      {
+        "class": "kompendium/01-predmluva",
+        "distance": 1,
+        "in": 265,
+        "path": "kompendium/01-predmluva/eticke-aspekty.md",
+        "title": "1.3 Etické aspekty a upozornění"
       },
       {
         "class": "glossary",
@@ -273,13 +280,6 @@
         "title": "Metakognitivní destrukce"
       },
       {
-        "class": "kompendium/01-predmluva",
-        "distance": 1,
-        "in": 245,
-        "path": "kompendium/01-predmluva/eticke-aspekty.md",
-        "title": "1.3 Etické aspekty a upozornění"
-      },
-      {
         "class": "kompendium/05-ultramari-techniky",
         "distance": 1,
         "in": 218,
@@ -289,7 +289,7 @@
       {
         "class": "glossary",
         "distance": 1,
-        "in": 210,
+        "in": 211,
         "path": "glossary/dual-use-poznani.md",
         "title": "Dual-use poznání"
       }
@@ -298,7 +298,7 @@
     "op": "neighbourhood",
     "path": "glossary/epistemicka-anihilace.md",
     "schema": "kompendium-engine/v1",
-    "total": 614,
+    "total": 624,
     "truncated": true
   },
   "input": {

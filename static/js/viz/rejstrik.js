@@ -109,6 +109,8 @@
       catCount.hidden = nCats === 0;
       catCount.textContent = String(nCats);
       toolbarReset.hidden = !(state.q || nCats || state.letter);
+      L.urlState.set({ hledat: state.q.trim(), kategorie: Object.keys(state.cats).sort().join(','),
+        pismeno: state.letter });
       onChange.forEach(function (f) { f(); });
     }
 
@@ -141,8 +143,14 @@
         input.focus();
       });
     });
+    // Filter state round-trips through the address (?hledat=, ?kategorie=a,b, ?pismeno=).
     var params = L.urlState.get();
     if (params.get('hledat')) { input.value = params.get('hledat'); state.q = input.value; }
+    (params.get('kategorie') || '').split(',').forEach(function (c) {
+      if (counts[c]) state.cats[c] = true;
+    });
+    boxes.forEach(function (b) { b.checked = !!state.cats[b.value]; });
+    if (letterSet[params.get('pismeno')]) state.letter = params.get('pismeno');
     apply();
 
     var chartEl = root.querySelector('[data-rj-chart]');

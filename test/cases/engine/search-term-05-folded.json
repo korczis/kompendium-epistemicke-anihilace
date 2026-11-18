@@ -5,7 +5,7 @@
     "hits": [
       {
         "code": null,
-        "in": 267,
+        "in": 272,
         "kind": "Pojem",
         "path": "glossary/gaslighting.md",
         "tier": 2,
@@ -35,7 +35,7 @@
       },
       {
         "code": "EA-4.1",
-        "in": 21,
+        "in": 22,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-4-1-gaslighting.md",
         "tier": 5,
@@ -85,7 +85,17 @@
       },
       {
         "code": null,
-        "in": 102,
+        "in": 3,
+        "kind": "Kapitola",
+        "path": "kompendium/puvodni-taxonomie/koordinovana-multipersonalni-gaslighting-strategie.md",
+        "tier": 5,
+        "title": "Koordinovaná multipersonální gaslighting strategie",
+        "url": "/kompendium/puvodni-taxonomie/koordinovana-multipersonalni-gaslighting-strategie/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 106,
         "kind": "Pojem",
         "path": "glossary/reality-testing.md",
         "tier": 6,
@@ -112,16 +122,6 @@
         "title": "Akutní protokol: Akutní kognitivní paralýza",
         "url": "/kompendium/emergency-protocols/7-acute-cognitive-paralysis/",
         "why": "description"
-      },
-      {
-        "code": "EA-6.1.7",
-        "in": 20,
-        "kind": "Technika",
-        "path": "kompendium/techniques/ea-6-1-7-trauma-history-protokol.md",
-        "tier": 6,
-        "title": "EA-6.1.7 Trauma history protokol",
-        "url": "/kompendium/techniques/ea-6-1-7-trauma-history-protokol/",
-        "why": "description"
       }
     ],
     "limit": 12,
@@ -130,7 +130,7 @@
     "op": "search",
     "query": "gaslighting",
     "schema": "kompendium-engine/v1",
-    "total": 14
+    "total": 15
   },
   "input": {
     "op": "search",

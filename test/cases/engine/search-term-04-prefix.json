@@ -5,7 +5,7 @@
     "hits": [
       {
         "code": null,
-        "in": 279,
+        "in": 281,
         "kind": "Pojem",
         "path": "glossary/disociace.md",
         "tier": 4,
@@ -105,7 +105,7 @@
       },
       {
         "code": null,
-        "in": 171,
+        "in": 193,
         "kind": "Kapitola",
         "path": "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md",
         "tier": 5,
@@ -115,7 +115,7 @@
       },
       {
         "code": null,
-        "in": 53,
+        "in": 55,
         "kind": "Pojem",
         "path": "glossary/uzkostne-poruchy.md",
         "tier": 5,
@@ -130,7 +130,7 @@
     "op": "search",
     "query": "Dis",
     "schema": "kompendium-engine/v1",
-    "total": 110
+    "total": 111
   },
   "input": {
     "op": "search",

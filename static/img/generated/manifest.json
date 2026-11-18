@@ -268,8 +268,8 @@
   },
   "og-kompendium-puvodni-taxonomie.png": {
    "height": 630,
-   "sha256": "f3d923365fea4a2976545bbbbb6173b7173b9486c868924e8bddfa2242ef453c",
-   "source_sha256": "de145048a9b882ec329022861486371519ee62eef67ec16175ced1a90ddafbd4",
+   "sha256": "074645554deb37c887e90c4503e8a598960ea4b4a97059aec5743a62ca330351",
+   "source_sha256": "70c7704cbf3730a9d38b465a124eaa2189266c2871bcd16b03121c1b78a24737",
    "width": 1200
   },
   "og-kompendium-quick-reference.png": {
@@ -316,8 +316,8 @@
   },
   "og-kompendium.png": {
    "height": 630,
-   "sha256": "29c6b3673b30f080359c48d0ca3bef39aa48db98692ec1e7986162eda347d4ae",
-   "source_sha256": "be74181314d941c5b055148ada0770a608838059ef17ef7e04c5d29da8525594",
+   "sha256": "0d3b317c29851a97bf8b3aa4b3b069f977e52b915b509de2af9f1a5c32388a63",
+   "source_sha256": "290b63fd70855cf1ba796135935877815edcecef7e869b5828de2d27a5848931",
    "width": 1200
   },
   "og-philosophy.png": {
@@ -441,7 +441,7 @@
    "sha256": "00dce2a4a5edea664222f78c09dfc653511c3be1dfc1d93ad18b53593013cf9e"
   },
   "section-kompendium-puvodni-taxonomie.svg": {
-   "sha256": "b68361bcf436841aff750116a9ef826ab9b209ac06c9f81323145ba170bfaa86"
+   "sha256": "51e28c1a034e230ca04251a266f66d04eab298f5083939954ba53390db2429c0"
   },
   "section-kompendium-quick-reference.svg": {
    "sha256": "81ba35877db4f50d7f4f3c81e06eb81b1f69b6aadd574129b9ffc28e0e0466d6"
@@ -465,7 +465,7 @@
    "sha256": "7cd757b434f79d93ff190d7cbfa0ca8674801010963f0c75a96d06a0b0bf249a"
   },
   "section-kompendium.svg": {
-   "sha256": "e53ec4fbfb39072f1ac395f3ae6660aeb9174559f35d72418f9638049e6bef44"
+   "sha256": "cd86c3440038f4ede611e1e868263a24e6efdad46d3a6016ab88e87c95f08c0c"
   },
   "section-philosophy.svg": {
    "sha256": "7e4f9ec39ff4b5f686d53585ad126c9f17ca0b9731f6606bc3f1bc8ba0941cca"

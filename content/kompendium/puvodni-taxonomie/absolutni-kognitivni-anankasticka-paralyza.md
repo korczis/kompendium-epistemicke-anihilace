@@ -35,8 +35,8 @@ anihilace](@/glossary/epistemicka-anihilace.md) zaměřenou na uzavírání úsu
 příbuzným pojmem knihy je [anankastický režim](@/glossary/anankasticky-rezim.md), který však
 popisuje rigiditu s nadbytkem jistoty, kdežto zde jde o ochromení nadbytkem pochybnosti
 (*interpretace knihy*). Rachman (2002) vykládá nutkavé ověřování jako smyčku, kterou
-udržuje zvýšený pocit odpovědnosti a která se sama prodlužuje, protože ověřování nepřináší
-jistotu, o niž člověk usiluje.
+udržuje zvýšený pocit odpovědnosti a která se sama prodlužuje, protože opakované ověřování oslabuje důvěru ve vlastní
+paměť, a tedy i jistotu, o niž člověk usiluje.
 
 ## Původ a kontext pojmu
 

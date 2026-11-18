@@ -23,7 +23,7 @@ zotavení jsou tři fáze, jak je popsala Herman (1992): bezpečí, rozpomínán
 znovupropojení s běžným životem.
 
 Kniha pojem čte jako popis průběhu, nikoli jako metodu s fázemi. Rozhodující je, že
-schopnost přenášet poznání mezi oblastmi je doložená, naučitelná a závislá na podmínkách:
+schopnost přenášet poznání mezi oblastmi je doložená a závislá na podmínkách:
 Gick a Holyoak (1980) ukázali, že přenos řešení z jedné oblasti do druhé nenastává
 samočinně: lidé analogické řešení, které znají, většinou nepoužijí, dokud je na podobnost nikdo
 neupozorní.

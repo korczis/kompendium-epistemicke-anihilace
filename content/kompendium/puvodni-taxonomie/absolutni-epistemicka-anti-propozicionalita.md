@@ -43,8 +43,8 @@ zviditelňuje a jiné zakrývá, k takovému čtení patří (Bowker a Star 1999
 
 Skutečné konstrukty za pojmem jsou tři. Prvním je nevyslovitelnost prožitku v mezních stavech:
 van der Kolk (2014) popsal, že při vybavování traumatického zážitku slábne činnost
-řečových oblastí mozku a zážitek zůstává beze slov, takže svědectví o něm bývá soustavně
-neúplné. Druhým je povaha traumatické vzpomínky, která bývá
+řečových oblastí mozku a zážitek zůstává beze slov, takže se o něm vypovídá jen
+obtížně. Druhým je povaha traumatické vzpomínky, která bývá
 nejprve smyslová a zlomková a teprve postupně získává podobu vyprávění (van der Kolk a Fisler
 1995). Třetím je hermeneutická nespravedlnost: chybí-li pro určitou zkušenost pojem, nemůže ji
 dotčený učinit pochopitelnou ani sobě (Fricker 2007), a kniha jev vede jako
@@ -160,8 +160,8 @@ ukázali, jak takové formulace vytvářejí dojem hloubky bez obsahu. Hodnocen�
 vratnosti, které rukopis u technik uvádí, nemá empirickou oporu a kniha je nepřebírá.
 
 Druhou mezí je, že mnoho zkušeností zůstává nevyslovitelných zcela oprávněně a že požadavek
-propozičního tvaru může být sám nátlakem. Van der Kolk (2014) ukázal, že nedostatečnost řeči o traumatu
-není chybou mluvčího, a Haslam (2016) upozornil, že pojmy pro újmu se rozšiřují, až zahrnou
+propozičního tvaru může být sám nátlakem. Van der Kolk (2014) vyložil nedostatečnost řeči o traumatu
+jako důsledek působení traumatu na mozek, nikoli jako chybu mluvčího, a Haslam (2016) upozornil, že pojmy pro újmu se rozšiřují, až zahrnou
 běžné obtíže. Pojem navíc vznikl připojením předpony k filozofické kategorii, takže jeho místo
 v řadě je dáno formou, nikoli pozorováním (Bowker a Star 1999).
 

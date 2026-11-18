@@ -41,7 +41,7 @@ aspekty](@/kompendium/01-predmluva/eticke-aspekty.md).
 
 Samo slovo atomizace je v názvu výpůjčkou a kniha ji takto označuje. V dějinách filozofie se
 atomismem rozumí program, podle něhož lze složené výroky i svět rozložit na jednoduché,
-nezávislé prvky, jak jej formuloval Wittgenstein (1921); v sociologii označuje atomizace stav
+nezávislé prvky, jak jej v jedné z klasických podob formuloval Wittgenstein (1921); v sociologii označuje atomizace stav
 společnosti rozdrobené na navzájem odcizené jednotlivce, který Arendt (1951) popsala jako
 podmínku totalitní mobilizace. Pojem knihy není ani jedním z nich a nelze z nich o něm nic
 vyvodit; použití obrazu je *interpretací knihy* (Sokal a Bricmont 1998).

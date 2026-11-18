@@ -48,7 +48,7 @@ vyvrátit. Tvrzení o takovém stavu tedy není empirickým tvrzením a kniha je
 Doložené je naopak ztuhnutí prožívání po dlouhodobé zátěži. Herman (1992) popsala u přežívajících
 dlouhodobého traumatu útlum prožívání a odpoutání jako běžnou reakci, která se objevuje spolu s
 ostražitostí. Taylor, Bagby a Parker (1997) vymezili jako alexithymii obtíž rozpoznat a pojmenovat vlastní
-city, kterou lze s takovým útlumem zaměnit.
+city; s útlumem po zátěži ji lze podle knihy snadno zaměnit (*interpretace knihy*).
 
 ## Jak se projevuje
 
@@ -79,7 +79,8 @@ Druhou složkou je odebrání jazyka pro vlastní prožitek. Pokud prostředí t
 „nic takového necítí“, zůstane prožitek bez pojmenování a tím i bez možnosti ho sdílet;
 tuto podobu zpochybňování vlastního vnímání popisuje heslo [gaslighting](@/glossary/gaslighting.md)
 a v poznatelné podobě ji u donucující kontroly dokládá Stark (2007). Blízkým jevem je alexithymie
-(Taylor, Bagby a Parker 1997), která však má jiné příčiny.
+(Taylor, Bagby a Parker 1997); zda a jak souvisí s prostředím, které prožitek popírá, kniha
+neposuzuje.
 
 Třetí složkou je setrvalost. Sierra (2009) uvádí, že depersonalizačně-derealizační stavy mohou po
 odeznění vyvolávající situace přetrvávat a stát se samostatným problémem; v knize tomu odpovídá

@@ -24,7 +24,7 @@ Vzorec označuje ztrátu epistemické orientace, tedy schopnosti odpovědět na 
 mají. Nejde o neznalost určitého faktu, ale o chybějící stabilní rámec, do něhož by jednotlivé
 údaje zapadly: každá nová informace může znamenat cokoli, a proto neznamená nic. Weick (1993)
 na rozboru požáru v Mann Gulch ukázal, že když se výklad situace zhroutí, ztrácejí lidé spolu s
-ním i schopnost jednat, přestože podstatné údaje mají před očima.
+ním i schopnost jednat společně a účelně, přestože podstatné údaje mají před očima.
 
 Druhou stránkou je nesnesitelnost takového stavu. Freeston a kol. (1994) popsali nesnášenlivost
 nejistoty jako klíčový zdroj chronických obav; v knize jde o jednu z podob [epistemické
@@ -44,7 +44,7 @@ naplnit, a právě tuto stopu vzniku má čtenář klasifikace znát (Bowker a S
 
 Orientace má v psychologii přesnější obsah, než naznačuje rukopis: schopnost vyložit si situaci
 je jiná než schopnost vnímat a pohybovat se. Weick (1993) to doložil na hasičském družstvu, které
-neztratilo zrak, sílu ani výcvik, ale ztratilo výklad toho, co se kolem něj děje, a s ním i
+nepřišlo o zrak ani o sílu, ale ztratilo výklad toho, co se kolem něj děje, a s ním i
 společnou strukturu rolí, o niž se do té doby opíralo.
 
 Udržovaná nejistota je přitom popsanou složkou kontrolujících prostředí. Lifton (1961) zařadil
@@ -57,8 +57,8 @@ donucující kontroly.
 
 Zvenčí je nápadná nepoměrnost mezi schopnostmi člověka a jeho nejistotou ve vlastní věci: dotčený
 dobře rozumí cizím problémům, ale o své situaci nedokáže říci, co se v ní vlastně děje. Weick
-(1993) ukazuje, že k jednání je potřebný použitelný výklad situace; bez něj nevypadá jako řešení
-ani rozumný návrh, který má člověk na dosah.
+(1993) ukazuje na únikovém ohni velitele družstva, že k jednání je potřebný použitelný výklad
+situace; bez něj nevypadá jako řešení ani rozumný návrh, který má člověk na dosah.
 
 Druhým znakem je opakované ověřování drobností. Dotčený se vrací k tomu, co bylo řečeno, hledá
 původní znění, žádá potvrzení dohod a stejně mu zůstává pocit, že si to „asi vymyslel“. Sweet
@@ -153,8 +153,8 @@ jak taková formulace vytváří dojem hloubky bez obsahu.
 
 Druhou mezí je prázdnost položky: protože rukopis neuvádí definici, je tento výklad jména pomocí
 doložených jevů interpretací knihy, nikoli reprodukcí původního obsahu (Bowker a Star 1999).
-Třetí mezí je riziko přetažení: nejistota v nepřehledné situaci je běžná a nevyžaduje žádný vzorec
-(Weick a Sutcliffe 2007), proto kniha varuje před [přesahem
+Třetí mezí je riziko přetažení: nejistota v nepřehledné situaci je běžná (Weick a Sutcliffe
+2007) a nevyžaduje žádný vzorec, proto kniha varuje před [přesahem
 rámce](@/kompendium/critical-perspectives/3-framework-overreach.md).
 
 ## Literatura

@@ -47,8 +47,8 @@ totéž.
 Sociální psychologie dodává míru. Asch (1956) ukázal, že jednomyslný nesprávný úsudek skupiny
 dokáže změnit i zjevně jasné pozorování, ale také to, že přítomnost jediného nesouhlasícího
 člověka konformitu výrazně snižuje. Cialdini (1984) popsal princip sociálního důkazu: zejména
-v nejisté situaci člověk usuzuje, co je správné, podle toho, co dělají a říkají druzí, a právě
-proto je rozpad shody tak zatěžující. Pojem [konsenzuální
+v nejisté situaci člověk usuzuje, co je správné, podle toho, co dělají a říkají druzí; kniha z
+toho vyvozuje, že rozpad shody je pro člověka zvlášť zatěžující. Pojem [konsenzuální
 realita](@/glossary/konsenzualni-realita.md) tuto vrstvu v knize vykládá.
 
 ## Jak se projevuje

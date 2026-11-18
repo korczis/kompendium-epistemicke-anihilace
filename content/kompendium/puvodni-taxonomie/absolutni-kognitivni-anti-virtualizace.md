@@ -75,7 +75,7 @@ vnější překážka.
 ## Mechanismus
 
 Představa jiné možnosti není ozdobou myšlení, ale jeho pracovním nástrojem: bez ní nelze
-porovnat dvě cesty, poučit se z omylu ani odhadnout, co udělá někdo jiný (Kahneman a Tversky 1982; Buckner, Andrews-Hanna a Schacter 2008).
+porovnat dvě cesty ani odhadnout, co udělá někdo jiný (Kahneman a Tversky 1982; Buckner, Andrews-Hanna a Schacter 2008).
 Promýšlení budoucnosti navíc vychází z téhož zdroje jako vzpomínání, takže kde se vytrácí
 materiál paměti, ubývá i scén, z nichž lze budoucnost složit (Buckner, Andrews-Hanna a Schacter 2008).
 
@@ -94,7 +94,7 @@ z toho vyvozuje, že obnova možností předpokládá změnu prostředí, nikoli
 
 Od [kognitivní stagnace](@/glossary/kognitivni-stagnace.md) se pojem liší předmětem: stagnace
 je neschopnost revidovat vlastní názor, zde chybí schopnost zacházet s možností, kterou člověk
-ani nemusí zastávat (Kahneman a Tversky 1982). Od [teleologické
+ani nemusí zastávat (*pojetí knihy*). Od [teleologické
 dezorientace](@/glossary/teleologicka-dezorientace.md) se liší tím, že tam se vytrácí cíl,
 kdežto zde prostor, v němž by cíl bylo možné vůbec hledat (Beck a kol. 1974).
 

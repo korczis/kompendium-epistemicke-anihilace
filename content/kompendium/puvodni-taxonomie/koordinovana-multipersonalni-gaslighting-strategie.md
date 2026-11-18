@@ -65,7 +65,7 @@ závislost na zdroji potvrzení ztěžuje jeho odmítnutí (Freyd 1996).
 Pozorovatel zvenčí vidí nápadnou souhlasnost: několik lidí užívá tytéž obraty, tytéž příklady
 a týž výklad sporné události, a jejich verze se v čase nemění ani tam, kde by se běžné
 vzpomínky rozcházely. Výzkum svědecké paměti přitom ukazuje, že samostatné vzpomínky na tutéž
-událost se zpravidla v detailech liší a jsou citlivé na způsob dotazování (Loftus 1979). Shoda
+událost se běžně v detailech liší a jsou citlivé na způsob dotazování (Loftus 1979). Shoda
 v detailech, které si lidé zapamatovat nemohli, je proto nápadnější než rozpor.
 
 Dotčený naopak popisuje, že se každý rozhovor obrací proti němu, že si přestává věřit a že si
@@ -105,7 +105,7 @@ předem méně pravděpodobnou (Sweet 2019).
 ## Odlišení
 
 Od upřímného rozporu ve vzpomínkách se vzorec liší asymetrií a neopravitelností. Lidé si
-tutéž událost pamatují různě a vzpomínka se mění dotazováním i opakovaným vyprávěním (Loftus
+tutéž událost pamatují různě a vzpomínka se mění dotazováním i informacemi získanými až po události (Loftus
 1979); v běžném sporu se obě strany mohou mýlit, připustí to a záznam spor rozhodne. V popisovaném vzorci vychází rozdíl vždy v neprospěch téhož člověka a žádný záznam není přijat
 jako rozhodující.
 
@@ -144,7 +144,7 @@ kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 ## Obrana a zotavení
 
 První oporou jsou souběžné záznamy. Zápis pořízený v době události má před pozdější rekonstrukcí
-přednost, protože vzpomínka se dotazováním a opakovaným vyprávěním mění (Loftus 1979). Druhou
+přednost, protože vzpomínku mění dotazování i informace získané až po události (Loftus 1979). Druhou
 oporou je jediný nezávislý hlas: Asch (1956) doložil, že právě jeden nesouhlasící účastník
 jednomyslnost rozlomí, a kniha z toho vyvozuje, že nalézt jednu osobu mimo daný okruh je
 účinnější než přesvědčovat okruh sám (*interpretace knihy*).

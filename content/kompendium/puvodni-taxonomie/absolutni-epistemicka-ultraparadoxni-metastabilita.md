@@ -31,7 +31,7 @@ průběhem, a nikoli známkou nevěrohodnosti.
 Metastabilita je výpůjčka z jazyka dynamických soustav: označuje stav, který odolá malým
 výchylkám, ale není stavem nejnižší energie, takže dostatečný podnět jej převrátí. Sokal a
 Bricmont (1998) upozornili, jak snadno se takové výpůjčky z přírodních věd mění v metafory, které
-budí dojem přesnosti bez měření. Kniha proto pojem užívá jen jako obraz a nic z fyzikální teorie
+budí dojem vědecké přesnosti, aniž by si podržely svůj odborný obsah. Kniha proto pojem užívá jen jako obraz a nic z fyzikální teorie
 z něj nevyvozuje (*interpretace knihy*).
 
 ## Původ a kontext pojmu

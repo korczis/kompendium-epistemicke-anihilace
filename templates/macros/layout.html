@@ -1,0 +1,84 @@
+{#- The one layout of every page (Zola 0.23 / Tera 2 components). The Pro admin shell's main
+    area is a page header bar and, under it, the page gutter (px-4 pt-6) with cards. Both own the
+    same two insets: the gutter (px-4) and the card padding (p-4 sm:p-6 xl:p-8, ui.html card), so
+    the page title, a card's heading and the first paragraph of the text start on one left edge at
+    every width. Nothing else in templates/ writes a page wrapper or a page width
+    (test/cases/59_ui_components.sh). -#}
+
+{#- The full-bleed white header bar (Pro users/list.html variant A). `kind` is the page kind
+    base.html derives (home, article, collection, app); the body is the breadcrumb, title and
+    whatever the kind shows, and starts on the card content edge. -#}
+{% component page_header(kind, cls="") %}
+<header data-page-header data-page-kind="{{ kind }}" class="border-b border-gray-200 bg-white px-4 dark:border-gray-700 dark:bg-gray-800 {{ cls }}">
+  <div class="px-4 sm:px-6 xl:px-8">{{ body | safe }}</div>
+</header>
+{% endcomponent page_header %}
+
+{#- The page title on the Pro scale (users/list.html h1: text-xl sm:text-2xl semibold) and its
+    lead; every page kind, the home page and 404 included, uses this one H1. -#}
+{% component page_title(title, desc="", id="", kicker="") %}
+{%- if kicker %}<p class="mb-2 text-sm font-semibold uppercase tracking-wide text-primary-700 dark:text-primary-400">{{ kicker }}</p>{% endif %}
+<h1{% if id %} id="{{ id }}"{% endif %} class="text-xl font-semibold text-gray-900 sm:text-2xl dark:text-white">{{ title }}</h1>
+{%- if desc %}<p class="mt-2 max-w-[72ch] text-base text-gray-500 dark:text-gray-400">{{ desc }}</p>{% endif %}
+{% endcomponent page_title %}
+
+{#- The page body under the header: the gutter, then the cards stacked with the Pro gap. With an
+    outline of at least two headings (`toc`, Zola's page or section toc; a single H1 is unwrapped
+    to its children) the right rail holds it from xl up (three columns of four); otherwise the
+    cards take the full width. The left edge is the same in both. -#}
+{% component page_layout(toc=none, cls="", attrs="") %}
+{%- if toc is none %}{% set items = [] %}{% else %}{% set items = toc %}{% endif -%}
+{%- if items | length == 1 and items[0].children %}{% set items = items[0].children %}{% endif -%}
+<div data-page-body class="px-4 pt-6 {{ cls }}" {{ attrs | safe }}>
+{%- if items | length > 1 %}
+  <div class="grid grid-cols-1 gap-4 xl:grid-cols-4">
+    <div data-page-column class="min-w-0 space-y-4 xl:col-span-3">{{ body | safe }}</div>
+    <aside class="hidden xl:block" aria-label="Obsah stránky">{{ <toc_rail toc={items} /> }}</aside>
+  </div>
+{%- else %}
+  <div data-page-column class="min-w-0 space-y-4">{{ body | safe }}</div>
+{%- endif %}
+</div>
+{% endcomponent page_layout %}
+
+{#- The outline in the right rail (xl and up), a sticky Pro card. -#}
+{% component toc_rail(toc) %}
+<nav data-toc class="sticky top-20 max-h-[calc(100vh-6rem)] overflow-y-auto rounded-lg bg-white p-4 shadow sm:p-6 dark:bg-gray-800" aria-labelledby="toc-title">
+  <h2 id="toc-title" class="mb-4 text-sm font-semibold uppercase tracking-wide text-gray-900 dark:text-white">Na této stránce</h2>
+  <ul class="space-y-2 text-sm">
+    {%- for h in toc %}
+    <li><a href="{{ h.permalink | safe }}" class="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white">{{ h.title }}</a>
+      {%- if h.children and h.level < 3 %}
+      <ul class="mt-2 space-y-2 pl-3">
+        {%- for c in h.children %}
+        <li><a href="{{ c.permalink | safe }}" class="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white">{{ c.title }}</a></li>
+        {%- endfor %}
+      </ul>
+      {%- endif %}
+    </li>
+    {%- endfor %}
+  </ul>
+</nav>
+{% endcomponent toc_rail %}
+
+{#- The same outline below xl, where the rail is hidden: a Flowbite collapse at the top of the
+    article card. Shown from three headings, as before. -#}
+{% component toc_mobile(toc=none) %}
+{%- if toc is none %}{% set items = [] %}{% else %}{% set items = toc %}{% endif -%}
+{%- if items | length == 1 and items[0].children %}{% set items = items[0].children %}{% endif -%}
+{%- if items | length > 2 %}
+<div class="mb-6 rounded-lg border border-gray-200 xl:hidden dark:border-gray-700">
+  <h2 class="m-0">
+    <button type="button" class="flex w-full items-center justify-between rounded-lg px-4 py-3 text-left text-sm font-semibold text-gray-900 hover:bg-gray-50 focus:ring-4 focus:ring-gray-200 dark:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700" data-collapse-toggle="toc-mobile" aria-controls="toc-mobile" aria-expanded="false">
+      <span>Na této stránce</span>
+      {{ <icon name="chevron-down" cls="h-4 w-4 shrink-0" /> }}
+    </button>
+  </h2>
+  <ul id="toc-mobile" class="hidden space-y-1 border-t border-gray-200 px-4 py-3 text-sm dark:border-gray-700">
+    {%- for h in items %}
+    <li><a href="{{ h.permalink | safe }}" class="block py-1 text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">{{ h.title }}</a></li>
+    {%- endfor %}
+  </ul>
+</div>
+{%- endif %}
+{% endcomponent toc_mobile %}

@@ -1,0 +1,275 @@
+{#- UI components of the site (Zola 0.23 / Tera 2 components; Tera 2 has no macros). Each one is
+    the single owner of a Flowbite Pro class list from the admin dashboard 1.1.1 (index.html,
+    users/list.html): buttons, badges, cards, KPI tiles, form fields, chart hosts, empty states,
+    link tiles, list rows and the reading column. A template never re-types these class lists;
+    test/cases/59_ui_components.sh refuses a raw literal outside templates/macros/ and the shell
+    partials. Components see only their arguments, never the page context: pass what they show.
+    `attrs` is raw HTML attributes (ids, data-*, Alpine bindings), written as given. -#}
+
+{#- Heroicons (20 solid / 24 outline) by name, so no template pastes an SVG path. -#}
+{% component icon(name, cls="h-4 w-4") %}
+{%- if name == "arrow-right" -%}<svg class="{{ cls }}" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg>
+{%- elif name == "chevron-right" -%}<svg class="{{ cls }}" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/></svg>
+{%- elif name == "chevron-left" -%}<svg class="{{ cls }}" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+{%- elif name == "chevron-down" -%}<svg class="{{ cls }}" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+{%- elif name == "search" -%}<svg class="{{ cls }}" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"/></svg>
+{%- elif name == "search-empty" -%}<svg class="{{ cls }}" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"/></svg>
+{%- elif name == "check-circle" -%}<svg class="{{ cls }}" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/></svg>
+{%- elif name == "map" -%}<svg class="{{ cls }}" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 6.75V15m6-6v8.25m.503 3.498 4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 0 0-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0Z"/></svg>
+{%- elif name == "home" -%}<svg class="{{ cls }}" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"/></svg>
+{%- elif name == "info" -%}<svg class="{{ cls }}" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5ZM9.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM12 15H8a1 1 0 0 1 0-2h1v-3H8a1 1 0 0 1 0-2h2a1 1 0 0 1 1 1v4h1a1 1 0 0 1 0 2Z"/></svg>
+{%- elif name == "warning" -%}<svg class="{{ cls }}" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/></svg>
+{%- elif name == "filter" -%}<svg class="{{ cls }}" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M3 3a1 1 0 011-1h12a1 1 0 011 1v3a1 1 0 01-.293.707L12 11.414V15a1 1 0 01-.293.707l-2 2A1 1 0 018 17v-5.586L3.293 6.707A1 1 0 013 6V3z" clip-rule="evenodd"/></svg>
+{%- elif name == "document" -%}<svg class="{{ cls }}" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5.586a1 1 0 0 1 .707.293l5.414 5.414a1 1 0 0 1 .293.707V19a2 2 0 0 1-2 2Z"/></svg>
+{%- elif name == "link" -%}<svg class="{{ cls }}" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
+{%- elif name == "book" -%}<svg class="{{ cls }}" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25"/></svg>
+{%- elif name == "alert" -%}<svg class="{{ cls }}" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126ZM12 15.75h.007v.008H12v-.008Z"/></svg>
+{%- elif name == "calendar" -%}<svg class="{{ cls }}" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5"/></svg>
+{%- elif name == "pin" -%}<svg class="{{ cls }}" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+{%- elif name == "chevron-up" -%}<svg class="{{ cls }}" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd"/></svg>
+{%- endif -%}
+{% endcomponent icon %}
+
+{#- Pro button (users/list.html toolbar, pages/404.html CTA): md px-5 py-2.5, sm px-3 py-2.
+    kind: primary | secondary | ghost (card header link) | danger | warning | toggle (aria-pressed, for
+    button groups). group: "" (alone) | first | middle | last, for adjoining buttons. An `href`
+    makes it a link. `icon` before the label, `icon_end` after it. -#}
+{% component button(label="", href=none, kind="primary", size="md", icon="", icon_end="", group="", cls="", attrs="", btype="button") %}
+{%- if kind == "secondary" -%}{%- set tone = "border border-gray-300 bg-white text-gray-900 hover:bg-gray-100 hover:text-primary-700 focus:ring-gray-100 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-gray-700" -%}
+{%- elif kind == "ghost" -%}{%- set tone = "text-primary-700 hover:bg-gray-100 focus:ring-primary-300 dark:text-primary-400 dark:hover:bg-gray-700 dark:focus:ring-primary-800" -%}
+{%- elif kind == "warning" -%}{%- set tone = "bg-yellow-700 text-white hover:bg-yellow-800 focus:ring-yellow-300 dark:bg-yellow-500 dark:text-gray-900 dark:hover:bg-yellow-400 dark:focus:ring-yellow-800" -%}
+{%- elif kind == "danger" -%}{%- set tone = "bg-red-700 text-white hover:bg-red-800 focus:ring-red-300 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900" -%}
+{%- elif kind == "toggle" -%}{%- set tone = "border border-gray-200 bg-white text-gray-900 hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-primary-300 aria-pressed:border-primary-700 aria-pressed:bg-primary-700 aria-pressed:text-white aria-pressed:hover:bg-primary-800 aria-pressed:hover:text-white disabled:cursor-not-allowed disabled:border-gray-100 disabled:bg-gray-50 disabled:text-gray-400 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-primary-800 dark:aria-pressed:border-primary-600 dark:aria-pressed:bg-primary-600 dark:disabled:border-gray-700 dark:disabled:bg-gray-800 dark:disabled:text-gray-500" -%}
+{%- else -%}{%- set tone = "bg-primary-700 text-white hover:bg-primary-800 focus:ring-primary-300 disabled:cursor-not-allowed disabled:bg-gray-200 disabled:text-gray-400 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 dark:disabled:bg-gray-700 dark:disabled:text-gray-500" -%}
+{%- endif -%}
+{%- if size == "sm" %}{% set pad = "px-3 py-2" %}{% else %}{% set pad = "px-5 py-2.5" %}{% endif -%}
+{%- if group == "first" %}{% set shape = "rounded-s-lg" %}{% elif group == "middle" %}{% set shape = "-ms-px" %}{% elif group == "last" %}{% set shape = "-ms-px rounded-e-lg" %}{% else %}{% set shape = "rounded-lg" %}{% endif -%}
+{%- set classes = "inline-flex items-center justify-center gap-2 text-center text-sm font-medium focus:outline-none focus:ring-4 " ~ shape ~ " " ~ pad ~ " " ~ tone ~ " " ~ cls -%}
+{%- if href is not none -%}<a href="{{ href }}" class="{{ classes }}" {{ attrs | safe }}>{% else %}<button type="{{ btype }}" class="{{ classes }}" {{ attrs | safe }}>{% endif -%}
+{%- if icon %}{{ <icon name={icon} cls="h-4 w-4 shrink-0" /> }}{% endif %}{{ label }}{{ body | safe }}{% if icon_end %}{{ <icon name={icon_end} cls="h-4 w-4 shrink-0" /> }}{% endif -%}
+{%- if href is not none %}</a>{% else %}</button>{% endif -%}
+{% endcomponent button %}
+
+{#- Pro status badge (index.html transactions): rounded-md px-2.5 py-0.5 text-xs font-medium.
+    tone: gray | primary | red | yellow | green | blue | purple | orange | indigo | sky |
+    emerald | amber | none (classes come from an Alpine :class in attrs). An `href` makes it a
+    link with the hover of its tone; tag="button" a button with the same hover. `display`
+    replaces inline-flex ("hidden sm:inline-flex" shows it from sm up). -#}
+{% component badge(text=none, tone="gray", href=none, cls="", attrs="", tag="span", display="inline-flex") %}
+{%- if tone == "primary" %}{% set t = "bg-primary-100 text-primary-800 dark:bg-primary-900 dark:text-primary-300" %}{% set h = "hover:bg-primary-200 dark:hover:bg-primary-800" %}
+{%- elif tone == "none" %}{% set t = "" %}{% set h = "" %}
+{%- elif tone == "gray" %}{% set t = "bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-300" %}{% set h = "hover:bg-gray-200 dark:hover:bg-gray-600" %}
+{%- else %}{% set t = "bg-" ~ tone ~ "-100 text-" ~ tone ~ "-800 dark:bg-" ~ tone ~ "-900 dark:text-" ~ tone ~ "-300" %}{% set h = "hover:bg-" ~ tone ~ "-200 dark:hover:bg-" ~ tone ~ "-800" %}{% endif -%}
+{%- set classes = display ~ " max-w-full items-center gap-1.5 rounded-md px-2.5 py-0.5 text-xs font-medium " ~ t ~ " " ~ cls -%}
+{%- if href is not none -%}<a href="{{ href }}" class="{{ classes }} {{ h }} focus:outline-none focus:ring-2 focus:ring-primary-300 dark:focus:ring-primary-800" {{ attrs | safe }}>{% if text is not none %}{{ text }}{% endif %}{{ body | safe }}</a>
+{%- elif tag == "button" -%}<button type="button" class="{{ classes }} {{ h }} focus:outline-none focus:ring-2 focus:ring-primary-300 dark:focus:ring-primary-800" {{ attrs | safe }}>{% if text is not none %}{{ text }}{% endif %}{{ body | safe }}</button>
+{%- else -%}<span class="{{ classes }}" {{ attrs | safe }}>{% if text is not none %}{{ text }}{% endif %}{{ body | safe }}</span>{%- endif -%}
+{% endcomponent badge %}
+
+{#- The safelist of the tones badge() builds by name: Tailwind sees only literal class names.
+    bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-300 hover:bg-red-200 dark:hover:bg-red-800
+    bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-300 hover:bg-yellow-200 dark:hover:bg-yellow-800
+    bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-300 hover:bg-green-200 dark:hover:bg-green-800
+    bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300 hover:bg-blue-200 dark:hover:bg-blue-800
+    bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-300 hover:bg-purple-200 dark:hover:bg-purple-800
+    bg-orange-100 text-orange-800 dark:bg-orange-900 dark:text-orange-300 hover:bg-orange-200 dark:hover:bg-orange-800
+    bg-indigo-100 text-indigo-800 dark:bg-indigo-900 dark:text-indigo-300 hover:bg-indigo-200 dark:hover:bg-indigo-800
+    bg-sky-100 text-sky-800 dark:bg-sky-900 dark:text-sky-300 hover:bg-sky-200 dark:hover:bg-sky-800
+    bg-emerald-100 text-emerald-800 dark:bg-emerald-900 dark:text-emerald-300 hover:bg-emerald-200 dark:hover:bg-emerald-800
+    bg-amber-100 text-amber-800 dark:bg-amber-900 dark:text-amber-300 hover:bg-amber-200 dark:hover:bg-amber-800 -#}
+
+{#- Pro card (index.html): white surface, shadow, p-4 sm:p-6 xl:p-8, title text-xl font-bold.
+    `id` names the heading (aria-labelledby). `flush` drops the body padding for a card whose
+    content is a table, a list or card_section() blocks; its header then keeps the padding and a
+    bottom border. `action_href`/`action_label` put the Pro "View all" link beside the title. -#}
+{% component card(title="", desc="", id="", tag="section", flush=false, cls="", attrs="", action_href=none, action_label="", kicker="") %}
+{%- set pad = "p-4 sm:p-6 xl:p-8" -%}
+<{{ tag }}{% if id and title %} aria-labelledby="{{ id }}"{% endif %} data-card class="min-w-0 rounded-lg bg-white shadow dark:bg-gray-800{% if not flush %} {{ pad }}{% endif %} {{ cls }}" {{ attrs | safe }}>
+{%- if title %}
+  <div class="{% if flush %}{{ pad }} border-b border-gray-200 dark:border-gray-700{% else %}mb-4{% endif %}">
+    {%- if kicker %}<p class="mb-2 text-sm font-semibold uppercase tracking-wide text-primary-700 dark:text-primary-400">{{ kicker }}</p>{% endif %}
+    <div class="flex flex-wrap items-center justify-between gap-2">
+      <h2{% if id %} id="{{ id }}"{% endif %} class="text-xl font-bold leading-none text-gray-900 dark:text-white">{{ title }}</h2>
+      {%- if action_href is not none %}{{ <button kind="ghost" size="sm" href={action_href} label={action_label} icon_end="arrow-right" /> }}{% endif %}
+    </div>
+    {%- if desc %}<p class="mt-2 text-sm text-gray-500 dark:text-gray-400">{{ desc }}</p>{% endif %}
+  </div>
+{%- endif %}
+{{ body | safe }}
+</{{ tag }}>
+{% endcomponent card %}
+
+{#- A card that folds (<details>): the summary is the Pro card header with a count and a chevron,
+    the body sits under a border. -#}
+{% component details_card(title, count=none, note="", open=false, attrs="", summary_attrs="") %}
+<details data-card class="group min-w-0 rounded-lg bg-white shadow dark:bg-gray-800"{% if open %} open{% endif %} {{ attrs | safe }}>
+  <summary class="flex cursor-pointer list-none items-center justify-between gap-2 rounded-lg p-4 hover:bg-gray-50 focus:outline-none focus:ring-4 focus:ring-primary-300 sm:p-6 xl:p-8 dark:hover:bg-gray-700 dark:focus:ring-primary-800" {{ summary_attrs | safe }}>
+    <span class="min-w-0"><h2 class="text-xl font-bold leading-none text-gray-900 dark:text-white">{{ title }}</h2>{% if note %}<span class="mt-2 block text-sm font-normal text-gray-500 dark:text-gray-400">{{ note }}</span>{% endif %}</span>
+    <span class="flex shrink-0 items-center gap-2 text-sm text-gray-500 dark:text-gray-400">{% if count is not none %}{{ count }}{% endif %}{{ <icon name="chevron-down" cls="h-4 w-4 transition-transform group-open:rotate-180" /> }}</span>
+  </summary>
+  <div class="border-t border-gray-200 dark:border-gray-700">{{ body | safe }}</div>
+</details>
+{% endcomponent details_card %}
+
+{#- A padded block inside a flush card; a block that follows another one gets a top border (the
+    card header already has its bottom border). -#}
+{% component card_section(cls="", attrs="", tag="div") %}<{{ tag }} data-card-section class="border-gray-200 p-4 sm:p-6 xl:p-8 dark:border-gray-700 [[data-card-section]+&]:border-t {{ cls }}" {{ attrs | safe }}>{{ body | safe }}</{{ tag }}>{% endcomponent card_section %}
+
+{#- Pro KPI (index.html stat card): value text-2xl/3xl bold over a gray label. Standalone it is a
+    card, a link when it has `href`; `inset` makes it the gray tile used inside a card (a dt/dd
+    pair, so the caller wraps the tiles in <dl>). An empty `value` with `vattrs` lets Alpine fill
+    it (x-text); a body replaces the value. -#}
+{% component kpi(label, value=none, href=none, note="", pct=none, inset=false, vattrs="", attrs="", aria="", title="") %}
+{%- if inset -%}
+<div class="min-w-0 rounded-lg bg-gray-50 p-3 sm:p-4 dark:bg-gray-700" {{ attrs | safe }}>
+  <dt class="text-sm text-gray-500 dark:text-gray-300"{% if title %} title="{{ title }}"{% endif %}>{% if href is not none %}<a href="{{ href }}" class="hover:text-primary-700 hover:underline focus:outline-none focus:ring-2 focus:ring-primary-300 dark:hover:text-primary-300 dark:focus:ring-primary-800">{{ label }}</a>{% else %}{{ label }}{% endif %}{% if note %}<span class="block text-xs">{{ note }}</span>{% endif %}</dt>
+  <dd class="mt-1 text-xl font-bold leading-tight text-gray-900 sm:text-2xl dark:text-white" {{ vattrs | safe }}>{% if body %}{{ body | safe }}{% elif value is not none %}{{ value }}{% endif %}</dd>
+</div>
+{%- else -%}
+{%- set shell = "group block min-w-0 rounded-lg bg-white p-4 shadow sm:p-6 xl:p-8 dark:bg-gray-800" -%}
+{%- if href is not none %}<a href="{{ href }}" data-card{% if aria %} aria-label="{{ aria }}"{% endif %} class="{{ shell }} hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:hover:bg-gray-700 dark:focus:ring-primary-800" {{ attrs | safe }}>{% else %}<div data-card class="{{ shell }}" {{ attrs | safe }}>{% endif %}
+  <span class="flex items-start justify-between gap-2"><span>
+    <span class="text-2xl font-bold leading-none text-gray-900 sm:text-3xl dark:text-white" {{ vattrs | safe }}>{% if body %}{{ body | safe }}{% elif value is not none %}{{ value }}{% endif %}</span>
+    {%- if pct is not none %}<span class="ml-2 text-sm font-medium text-gray-500 dark:text-gray-400">{{ pct }} %</span>{% endif %}</span>
+    {%- if href is not none %}{{ <icon name="chevron-right" cls="h-5 w-5 shrink-0 text-gray-500 group-hover:text-primary-700 dark:group-hover:text-primary-400" /> }}{% endif %}
+  </span>
+  <h3 class="mt-1 text-base font-normal text-gray-500 dark:text-gray-400">{{ label }}</h3>
+  {%- if note %}<p class="mt-3 border-t border-gray-200 pt-3 text-xs text-gray-500 dark:border-gray-700 dark:text-gray-400">{{ note }}</p>{% endif %}
+{% if href is not none %}</a>{% else %}</div>{% endif %}
+{%- endif -%}
+{% endcomponent kpi %}
+
+{#- Pro form label (users/settings.html). Without `target` (the control's id) it is a span the control names through
+    aria-labelledby (`id`). -#}
+{% component field_label(text, target="", id="", cls="") %}
+{%- if target %}<label for="{{ target }}" class="mb-2 block text-sm font-medium text-gray-900 dark:text-white {{ cls }}">{{ text }}</label>
+{%- else %}<span{% if id %} id="{{ id }}"{% endif %} class="mb-2 block text-sm font-medium text-gray-900 dark:text-white {{ cls }}">{{ text }}</span>{% endif -%}
+{% endcomponent field_label %}
+
+{#- The Pro control class list (users/settings.html): inputs add pl-10 for a leading icon. -#}
+{% component control_class(extra="") %}block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-primary-500 dark:focus:ring-primary-500 {{ extra }}{% endcomponent control_class %}
+
+{#- Labelled Pro select; the body is its <option> list (Alpine <template x-for> included). An
+    empty `label` leaves the naming to `attrs` (aria-label). `cls` goes on the wrapper. -#}
+{% component select_field(id, label="", attrs="", cls="") %}
+<div class="min-w-0 {{ cls }}">
+  {%- if label %}{{ <field_label text={label} target={id} /> }}{% endif %}
+  <select id="{{ id }}" class="{{ <control_class /> }}" {{ attrs | safe }}>{{ body | safe }}</select>
+</div>
+{% endcomponent select_field %}
+
+{#- Labelled Pro search input with the leading icon (index.html navbar search). `help` becomes a
+    screen-reader hint (aria-describedby); `button_label` attaches a submit button. -#}
+{% component search_field(id, label="", attrs="", placeholder="", help="", cls="", button_label="", button_attrs="") %}
+<div class="min-w-0 {{ cls }}">
+  {%- if label %}{{ <field_label text={label} target={id} /> }}{% endif %}
+  <div class="relative{% if button_label %} flex{% endif %}">
+    <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">{{ <icon name="search" cls="h-4 w-4 text-gray-500 dark:text-gray-400" /> }}</div>
+    <input id="{{ id }}" type="search" autocomplete="off" spellcheck="false"{% if placeholder %} placeholder="{{ placeholder }}"{% endif %}{% if help %} aria-describedby="{{ id }}-help"{% endif %} class="{% if button_label %}{{ <control_class extra="pl-10 rounded-e-none" /> }}{% else %}{{ <control_class extra="pl-10" /> }}{% endif %}" {{ attrs | safe }}>
+    {%- if button_label %}{{ <button btype="submit" size="sm" label={button_label} cls="shrink-0 rounded-s-none" group="last" attrs={button_attrs} /> }}{% endif %}
+  </div>
+  {%- if help %}<p id="{{ id }}-help" class="sr-only">{{ help }}</p>{% endif %}
+</div>
+{% endcomponent search_field %}
+
+{#- Host of a chart (ECharts, cytoscape, p5): the size reserved before the script draws (CLS),
+    role=img with its Czech label. `attrs` carries x-ref, data-* and :aria-label. -#}
+{% component chart_host(height, label="", id="", attrs="", cls="", placeholder="") %}
+<div{% if id %} id="{{ id }}"{% endif %} role="img"{% if label %} aria-label="{{ label }}"{% endif %} class="{{ height }} w-full min-w-0 {{ cls }}" {{ attrs | safe }}>
+  {%- if placeholder %}<div class="flex h-full items-center justify-center rounded-lg bg-gray-50 text-sm text-gray-500 dark:bg-gray-700 dark:text-gray-300">{{ placeholder }}</div>{% endif -%}
+</div>
+{% endcomponent chart_host %}
+
+{#- Pro empty state (pages/404.html, scaled into a card). -#}
+{% component empty_state(title, text="", button_label="", button_attrs="", attrs="", cls="") %}
+<div class="flex flex-col items-center justify-center p-6 text-center sm:p-10 {{ cls }}" role="status" {{ attrs | safe }}>
+  {{ <icon name="search-empty" cls="mb-3 h-10 w-10 text-gray-500 dark:text-gray-400" /> }}
+  <p class="text-base font-semibold text-gray-900 dark:text-white">{{ title }}</p>
+  {%- if text %}<p class="mt-1 text-sm text-gray-500 dark:text-gray-400">{{ text }}</p>{% endif %}
+  {%- if button_label %}<div class="mt-4">{{ <button label={button_label} attrs={button_attrs} /> }}</div>{% endif %}
+</div>
+{% endcomponent empty_state %}
+
+{#- A link tile inside a card (Pro "Latest customers" row as a card): one link per tile, as
+    project.site-derived-surfaces asks. `num` is the leading circle (chapter, step), `count` the
+    badge beside the title, `sub` a secondary line, `desc` two lines of description; the body
+    follows (an Alpine tile passes no title and binds its own). -#}
+{% component tile(href, title="", desc="", count=none, num=none, sub="", cls="", attrs="", lang="") %}
+<a href="{{ href }}" class="group flex h-full min-w-0 gap-3 rounded-lg border border-gray-200 bg-white p-4 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-primary-800 {{ cls }}" {{ attrs | safe }}>
+  {%- if num is not none %}<span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary-100 text-sm font-semibold text-primary-800 dark:bg-primary-900 dark:text-primary-300" aria-hidden="true">{{ num }}</span>{% endif %}
+  <span class="flex min-w-0 flex-1 flex-col">
+    {%- if title or count is not none %}
+    <span class="flex items-start justify-between gap-2">
+      <span class="min-w-0 break-words text-base font-semibold text-gray-900 group-hover:text-primary-700 dark:text-white dark:group-hover:text-primary-300">{{ title }}</span>
+      {%- if count is not none %}{{ <badge text={count} cls="shrink-0" /> }}{% endif %}
+    </span>
+    {%- endif %}
+    {%- if sub %}<span class="block text-xs text-gray-500 dark:text-gray-400"{% if lang %} lang="{{ lang }}"{% endif %}>{{ sub }}</span>{% endif %}
+    {%- if desc %}<span class="mt-1 line-clamp-2 block text-sm text-gray-500 dark:text-gray-400">{{ desc }}</span>{% endif %}
+    {{ body | safe }}
+  </span>
+</a>
+{% endcomponent tile %}
+
+{#- A row of a list inside a flush card (Pro users/list.html row), padded like the card. -#}
+{% component list_row(href, title, desc="", code="", attrs="") %}
+<a href="{{ href }}" class="flex flex-col gap-1 px-4 py-3 hover:bg-gray-100 focus:outline-none focus-visible:bg-gray-100 sm:flex-row sm:items-baseline sm:gap-4 sm:px-6 xl:px-8 dark:hover:bg-gray-700 dark:focus-visible:bg-gray-700" {{ attrs | safe }}>
+  {%- if code %}<span class="w-24 shrink-0 font-mono text-xs text-primary-700 dark:text-primary-400">{{ code }}</span>{% endif %}
+  <span class="min-w-0">
+    <span class="block break-words text-sm font-medium text-gray-900 dark:text-white">{{ title }}</span>
+    {%- if desc %}<span class="block truncate text-sm text-gray-500 dark:text-gray-400">{{ desc }}</span>{% endif %}
+  </span>
+</a>
+{% endcomponent list_row %}
+
+{#- A titled block inside an article card (Okolí stránky, Kontext, Odkazují sem, Pokračovat…):
+    a top border, then the small uppercase heading the Pro dashboard uses for card sections. -#}
+{% component article_section(id, title, action_href=none, action_label="", attrs="", cls="", tag="section") %}
+<{{ tag }} class="mt-8 border-t border-gray-200 pt-6 dark:border-gray-700 {{ cls }}" aria-labelledby="{{ id }}" {{ attrs | safe }}>
+  <div class="mb-3 flex flex-wrap items-baseline justify-between gap-2">
+    <h2 id="{{ id }}" class="text-sm font-semibold uppercase tracking-wide text-gray-900 dark:text-white">{{ title }}</h2>
+    {%- if action_href is not none %}<a href="{{ action_href }}" class="text-sm font-medium text-primary-700 hover:underline dark:text-primary-400">{{ action_label }} &rarr;</a>{% endif %}
+  </div>
+  {{ body | safe }}
+</{{ tag }}>
+{% endcomponent article_section %}
+
+{#- The reading column: Flowbite typography (Publisher `format`) at one measure, left-aligned on
+    the card's content edge, so the first paragraph starts where the page title does. The content's
+    own leading H1 repeats the page header's title and is dropped here, not hidden by CSS. -#}
+{% component prose(html, cls="", attrs="") %}
+{%- set c = html | trim -%}
+{%- if c is starting_with(pat="<h1") -%}{%- set c = c | replace(from=c | split(pat="</h1>") | first ~ "</h1>", to="") | trim -%}{%- endif -%}
+<div class="format format-sm sm:format-base lg:format-lg format-blue w-full max-w-[72ch] dark:format-invert {{ cls }}" {{ attrs | safe }}>{{ c | safe }}</div>
+{% endcomponent prose %}
+
+{#- The text of a page under its application surface (mapa, stav, matice): one card, if any. -#}
+{% component page_body(html) %}
+{%- if html | trim %}{% <card tag="article"> %}{{ <prose html={html} /> }}{% </card> %}{% endif -%}
+{% endcomponent page_body %}
+
+{#- A row of actions, each {path, label}: the first a primary button, the rest secondary. A path
+    named in `skip` ("|path|path|", e.g. pages still in progress) is left out. -#}
+{% component action_row(actions, skip="", cls="", attrs="") %}
+<div class="mt-6 flex flex-wrap gap-3 {{ cls }}" {{ attrs | safe }}>
+  {%- for a in actions %}{% if ("|" ~ a.path ~ "|") not in skip %}{% if loop.first %}{% set k = "primary" %}{% else %}{% set k = "secondary" %}{% endif %}{{ <button kind={k} href={get_url(path='@/' ~ a.path)} label={a.label} /> }}{% endif %}{% endfor %}
+</div>
+{% endcomponent action_row %}
+
+{#- A button that looks like the Pro search field and opens the command palette (paleta.html). -#}
+{% component palette_button(label, cls="") %}
+<button type="button" data-paleta-open aria-haspopup="dialog" aria-controls="paleta" aria-expanded="false" class="flex w-full items-center gap-2 rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-left text-sm text-gray-600 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-primary-800 {{ cls }}">
+  {{ <icon name="search" cls="h-4 w-4 shrink-0" /> }}
+  <span class="flex-1">{{ label }}</span>
+  <kbd data-paleta-shortcut class="rounded-lg border border-gray-200 bg-white px-1.5 py-0.5 text-xs font-semibold text-gray-800 dark:border-gray-500 dark:bg-gray-600 dark:text-gray-100">Ctrl K</kbd>
+</button>
+{% endcomponent palette_button %}
+
+{#- Czech plural: forms = [1, 2–4, 5+] ("stránka", "stránky", "stránek"). -#}
+{% component plural(n, forms) %}{% if n == 1 %}{{ forms[0] }}{% elif n >= 2 and n <= 4 %}{{ forms[1] }}{% else %}{{ forms[2] }}{% endif %}{% endcomponent plural %}
+
+{#- An inner grid of cards: the column counts of the Pro dashboard at its breakpoints. -#}
+{% component grid(cols="2", cls="", tag="div", attrs="") %}
+{%- if cols == "4" %}{% set g = "sm:grid-cols-2 xl:grid-cols-4" %}{% elif cols == "3" %}{% set g = "md:grid-cols-2 xl:grid-cols-3" %}{% elif cols == "2" %}{% set g = "xl:grid-cols-2" %}{% else %}{% set g = "" %}{% endif -%}
+<{{ tag }} class="grid min-w-0 grid-cols-1 gap-4 {{ g }} {{ cls }}" {{ attrs | safe }}>{{ body | safe }}</{{ tag }}>
+{% endcomponent grid %}

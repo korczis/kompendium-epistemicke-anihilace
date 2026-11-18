@@ -16,7 +16,12 @@ CONTENT = ROOT / "content"
 OUT = CONTENT / "references.md"
 
 ENTRY = re.compile(
-    r"^\s*(?:[-*]|\d+\.)\s+(?P<entry>\**[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽÀ-Ý][\w'’-]+,\s+[A-Z][\w.]*\.?.*?\(\d{4}[a-z]?(?:/\d{4})?\).*)$",
+    r"^\s*(?:[-*]|\d+\.)\s+(?P<entry>\**"
+    # An optional run of lower-case name particles (van der Kolk, de Jongh, von Elm): the surname
+    # is written "van der Kolk, B." with the particle before the capitalised name, so requiring an
+    # upper-case first letter dropped every particle author from references.md.
+    r"(?:(?:van|von|de|der|den|del|della|des|du|da|das|dos|ter|ten|la|le|di|bin|ibn)\s+)*"
+    r"[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽÀ-Ý][\w'’-]+,\s+[A-Z][\w.]*\.?.*?\(\d{4}[a-z]?(?:/\d{4})?\).*)$",
     re.M,
 )
 

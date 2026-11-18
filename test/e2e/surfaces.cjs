@@ -170,10 +170,10 @@ async function derived(load = fromBase) {
 // viz_script) jsou vykreslená, diagramy Mermaid mají SVG. Bez pohledu vrací null.
 function classView(html) {
   const canvases = (html.match(/<canvas\b/g) || []).length;
-  const pohled = (html.match(/data-pohled="([\w-]+)"/) || [])[1];
-  if (pohled) return { painted: canvases + 1, pohled, note: 'pohled ' + pohled };
   // chart_inline je plocha <div data-chart>, do které vrstva vykreslí graf ECharts (plátno).
   const inline = (html.match(/data-chart="/g) || []).length;
+  const pohled = (html.match(/data-pohled="([\w-]+)"/) || [])[1];
+  if (pohled) return { painted: canvases + inline + 1, pohled, note: 'pohled ' + pohled };
   const charts = inline || /\/js\/kompendium\/[\w-]+\.js/.test(html);
   if (charts && canvases + inline) return { painted: canvases + inline, note: `vykreslená plátna grafů (${canvases + inline})` };
   const diagrams = (html.match(/data-lang="mermaid"/g) || []).length;

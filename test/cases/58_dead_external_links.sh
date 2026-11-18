@@ -22,8 +22,8 @@ DEAD=(
 )
 re=$(IFS='|'; echo "${DEAD[*]}")
 
-catches() { printf '%s\n' "$1" | grep -qE "$re" || { echo "pattern misses: $1"; exit 1; }; }
-passes()  { if printf '%s\n' "$1" | grep -qE "$re"; then echo "pattern wrongly refuses: $1"; exit 1; fi; }
+catches() { printf '%s\n' "$1" | grep -E "$re" >/dev/null || { echo "pattern misses: $1"; exit 1; }; }
+passes()  { if printf '%s\n' "$1" | grep -E "$re" >/dev/null; then echo "pattern wrongly refuses: $1"; exit 1; fi; }
 
 catches '- [EA-1.6](https://prismatic-reality-com.github.io/prismatic-promo/kompendium/01-zakladni-techniky/#subkategorie-1-6)'
 catches '- [Propagační web](https://korczis.github.io/prismatic-promo) | [Kompendium](@/kompendium/_index.md)'

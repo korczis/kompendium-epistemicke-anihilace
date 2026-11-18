@@ -78,7 +78,11 @@ zola build --base-url "http://127.0.0.1:$port/kompendium-epistemicke-anihilace" 
 server=$!
 for _ in $(seq 1 50); do curl -fs -o /dev/null "http://127.0.0.1:$port/kompendium-epistemicke-anihilace/" && break; sleep 0.2; done
 BASE_URL="http://127.0.0.1:$port/kompendium-epistemicke-anihilace/" \
-  SITE_DIR="$root/kompendium-epistemicke-anihilace" node test/e2e/surfaces.cjs
+  SITE_DIR="$root/kompendium-epistemicke-anihilace" \
+  COVERAGE_OUT="$root/js-coverage.json" node test/e2e/surfaces.cjs
+
+# Pokrytí JS z běhu ploch výše (jako v ci.yml): žádný skript neztratí pokrytí, každý se načte.
+run "Pokrytí funkcí JS neklesá (ratchet)" python3 scripts/check-js-coverage.py "$root/js-coverage.json"
 
 step "Přístupnost, rozvržení a odkazy (axe-core WCAG 2.2 AA, CLS, přetečení, interní odkazy)"
 BASE_URL="http://127.0.0.1:$port/kompendium-epistemicke-anihilace/" \

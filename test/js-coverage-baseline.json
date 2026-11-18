@@ -1,0 +1,324 @@
+{
+ "schema": "kompendium-js-coverage-baseline/v1",
+ "about": "Per-file V8 function coverage of test/e2e/surfaces.cjs; written only by scripts/check-js-coverage.py --update, which never lowers a file.",
+ "total": {
+  "files": 52,
+  "functions": 1875,
+  "covered": 1533,
+  "pct": 81.7
+ },
+ "files": {
+  "static/js/kompendium/attention-disruption-sim.js": {
+   "sha256": "8d278d36ad311af0f86a8035d701f062c17aa9f3898a3882752bba98769c8a38",
+   "functions": 12,
+   "covered": 8,
+   "pct": 66.6
+  },
+  "static/js/kompendium/cross-cultural-heatmap.js": {
+   "sha256": "2a6486f2becd128da4892e489a50168b0a7fd4e0b8fc658c59fbacd4fa242b8c",
+   "functions": 19,
+   "covered": 15,
+   "pct": 78.9
+  },
+  "static/js/kompendium/ea-network-2d.js": {
+   "sha256": "2d127debe482c4b269602ab22744bb9d279bce194c92a4567526258be85ea3b8",
+   "functions": 22,
+   "covered": 19,
+   "pct": 86.3
+  },
+  "static/js/kompendium/ea9-digital-attack-surface.js": {
+   "sha256": "ffb084ac12fc2e27df634fa70e6d2ebb2b603a6ab10be6e5d9f8c9519e39f283",
+   "functions": 21,
+   "covered": 17,
+   "pct": 80.9
+  },
+  "static/js/kompendium/epistemic-disintegration-sim.js": {
+   "sha256": "7321e96138659808b400655c1005f12053d129c9c5475da85bf6e3c019f15cd5",
+   "functions": 7,
+   "covered": 5,
+   "pct": 71.4
+  },
+  "static/js/kompendium/forensic-evidence-flow.js": {
+   "sha256": "d21df5aba840dbec604fdac8d2a5b4fc2a2f1550ac477c60d8c4d937a15fe7f8",
+   "functions": 29,
+   "covered": 27,
+   "pct": 93.1
+  },
+  "static/js/kompendium/glossary-network-2d.js": {
+   "sha256": "390af40127bb13e3782e46cffef0080d7c0529ad3d0d00927cc05b00c713de58",
+   "functions": 23,
+   "covered": 19,
+   "pct": 82.6
+  },
+  "static/js/kompendium/historical-cases-timeline.js": {
+   "sha256": "dbd4065750ffb0c003f7fbca1f630d6eca490395d595795b6c1dc4f4ffe0d7d1",
+   "functions": 30,
+   "covered": 24,
+   "pct": 80.0
+  },
+  "static/js/kompendium/kniha.js": {
+   "sha256": "5602f0686180e6d98c0dd3a99ec1ba59b320c5c8ee7bc40c7297199ec5e9a553",
+   "functions": 80,
+   "covered": 73,
+   "pct": 91.2
+  },
+  "static/js/kompendium/phenomenology-timeline-chart.js": {
+   "sha256": "46816a372f7b551de37bdf1448676e2859f3fafb65a0520bbba438ec1ffa6209",
+   "functions": 17,
+   "covered": 13,
+   "pct": 76.4
+  },
+  "static/js/kompendium/protocol-decision-tree.js": {
+   "sha256": "749c854f290993d785c7d3992f777dcc1f9a20ffa06b427fb9bdd947f47a21ea",
+   "functions": 21,
+   "covered": 18,
+   "pct": 85.7
+  },
+  "static/js/kompendium/recovery-network-3d.js": {
+   "sha256": "8036eee37663ce7ab705fead319718a7aee74e502397a79bae58d252b92d67f2",
+   "functions": 29,
+   "covered": 25,
+   "pct": 86.2
+  },
+  "static/js/kompendium/recovery-progression-sankey.js": {
+   "sha256": "fbbf95102afcc7e6d8de8db4d678558021d08ac41529fd9871a8349ac3898af5",
+   "functions": 16,
+   "covered": 12,
+   "pct": 75.0
+  },
+  "static/js/kompendium/recovery-trajectory-chart.js": {
+   "sha256": "c0b97cb6136ba954a57797fdd595c095b0f1f57b78c2ec62da13a9718c76e38d",
+   "functions": 18,
+   "covered": 14,
+   "pct": 77.7
+  },
+  "static/js/kompendium/recursive-thought-spiral.js": {
+   "sha256": "c880f2bb57edd3c4ac8702b27d7122f60c806130c7964a96e468ac1e16a41254",
+   "functions": 18,
+   "covered": 12,
+   "pct": 66.6
+  },
+  "static/js/kompendium/section-03-progression.js": {
+   "sha256": "a187bc5d12936a8cf0b5d6b38ca253335b785b0043b1a179ade281e1e5d5ea51",
+   "functions": 35,
+   "covered": 30,
+   "pct": 85.7
+  },
+  "static/js/kompendium/section-04-decision-tree.js": {
+   "sha256": "1afe397279dcb7492acebe3ea3c857248cc210184ce483d11be6068cab4f11e7",
+   "functions": 28,
+   "covered": 26,
+   "pct": 92.8
+  },
+  "static/js/kompendium/section-06-recovery-flow.js": {
+   "sha256": "e7e2de20b3031209b3e0f3c8df9a97c5702921d34c82d36f117697fd9b334aa3",
+   "functions": 22,
+   "covered": 17,
+   "pct": 77.2
+  },
+  "static/js/kompendium/section-07-framework-map.js": {
+   "sha256": "e041e9066b6bdab4fa803d5a22d0abae097509dfdba9cdf08dec63289af86753",
+   "functions": 45,
+   "covered": 37,
+   "pct": 82.2
+  },
+  "static/js/kompendium/severity-matrix-chart.js": {
+   "sha256": "04a0d0959bfbab38d8e57dcee0e85c5578b3579b5b6635ff1dee790a7fa76ae0",
+   "functions": 20,
+   "covered": 16,
+   "pct": 80.0
+  },
+  "static/js/kompendium/taxonomy-distribution-chart.js": {
+   "sha256": "de162ac5e55de9f67951252a2f15a9d01d1f0c0b135f576e7e03527feac33a77",
+   "functions": 12,
+   "covered": 8,
+   "pct": 66.6
+  },
+  "static/js/kompendium/technique-graph-3d.js": {
+   "sha256": "2859169da11fd259512838e94d216cc8bbee8b8725be1b9333245929e45c2cb0",
+   "functions": 16,
+   "covered": 13,
+   "pct": 81.2
+  },
+  "static/js/p5/grafika.js": {
+   "sha256": "21893fa8458895661679ad218d646e99098b95a9eb96a936017daed4440e7192",
+   "functions": 40,
+   "covered": 36,
+   "pct": 90.0
+  },
+  "static/js/site.js": {
+   "sha256": "fab5068f85d5f31574bc9774e6d106dd890cef90e1c68de891c455d6aa3c5eb0",
+   "functions": 68,
+   "covered": 46,
+   "pct": 67.6
+  },
+  "static/js/viz/casova-osa.js": {
+   "sha256": "9f4781e74ef03bbb31d734ab6510cbeac549da1ab32f488958c73bb54327c7d6",
+   "functions": 77,
+   "covered": 64,
+   "pct": 83.1
+  },
+  "static/js/viz/glosar.js": {
+   "sha256": "fd59c252550b051e23ad5fbaadd5aecf0fe4ada6b4d8f849a48c78c8f4d8a6c2",
+   "functions": 52,
+   "covered": 45,
+   "pct": 86.5
+  },
+  "static/js/viz/jadro-wasm.js": {
+   "sha256": "efe29d6a7f0217370e307087974765b262d154967850bc6e3126cc3502ff4f40",
+   "functions": 19,
+   "covered": 16,
+   "pct": 84.2
+  },
+  "static/js/viz/jadro.js": {
+   "sha256": "53b775d064aa764919b72764f5aa972ba65929d399b62a31ffe71d9a8ae4ae80",
+   "functions": 24,
+   "covered": 13,
+   "pct": 54.1
+  },
+  "static/js/viz/katalog-ilustrace.js": {
+   "sha256": "60bea4f4563c71cace5d36c46bf33dc0065e50899926298bb3e748ba72b6e292",
+   "functions": 29,
+   "covered": 27,
+   "pct": 93.1
+  },
+  "static/js/viz/katalog.js": {
+   "sha256": "834afa8a976fa07691f9631cc0b4461855be34a8de2d274585d8e8e515084af2",
+   "functions": 26,
+   "covered": 24,
+   "pct": 92.3
+  },
+  "static/js/viz/kompendium-viz.js": {
+   "sha256": "3b8811dce932c9895e5810aca07735a1c5ba04809f57de67b56d9677ad5c985c",
+   "functions": 87,
+   "covered": 65,
+   "pct": 74.7
+  },
+  "static/js/viz/kontext.js": {
+   "sha256": "f34c182da51fe8f24da2decc436887a2b9fc4afc497cbe7ffa989ae125557694",
+   "functions": 64,
+   "covered": 60,
+   "pct": 93.7
+  },
+  "static/js/viz/kostka.js": {
+   "sha256": "5b327679408006b5965ff569134b7da570f5cfd80c0c840106c839a40dcf8c3a",
+   "functions": 15,
+   "covered": 15,
+   "pct": 100.0
+  },
+  "static/js/viz/mapa.js": {
+   "sha256": "fc29f883b94837a3a6d799a4b76083c2a4a4d3a696c2947ea4f018ef14b70009",
+   "functions": 40,
+   "covered": 27,
+   "pct": 67.5
+  },
+  "static/js/viz/matice.js": {
+   "sha256": "c5ebebad4dcd8ab8b7f939c2c97f2857b7c6ad50c30f80051e4e63ba447cfec4",
+   "functions": 83,
+   "covered": 67,
+   "pct": 80.7
+  },
+  "static/js/viz/oddil-prehled.js": {
+   "sha256": "144805182c7dd1b1e2b6f434eec69d552b861e89b4e1469fa96d05460d626aca",
+   "functions": 31,
+   "covered": 25,
+   "pct": 80.6
+  },
+  "static/js/viz/oddil.js": {
+   "sha256": "d4fbb0a302e41beeb8e1a237250a12edd7906c1ff3c40b6845215f17bf66bc41",
+   "functions": 30,
+   "covered": 27,
+   "pct": 90.0
+  },
+  "static/js/viz/okoli.js": {
+   "sha256": "8f9ba57cde970957762d0d49e6415ddd42646779090b5d62d9ef9842f52d4608",
+   "functions": 13,
+   "covered": 11,
+   "pct": 84.6
+  },
+  "static/js/viz/osy.js": {
+   "sha256": "4fd44f564fc4c0b1861d4f952b9191a01fada9088d93166e28a3adc29413daf1",
+   "functions": 33,
+   "covered": 27,
+   "pct": 81.8
+  },
+  "static/js/viz/paleta.js": {
+   "sha256": "41b22bf64dbebf9be33bb435c36bfeb3eda06908271aea7e3d91eae18488f916",
+   "functions": 76,
+   "covered": 57,
+   "pct": 75.0
+  },
+  "static/js/viz/prehled.js": {
+   "sha256": "15f558266935e4b82f7bcd68bd21345bdfdaed18b66db5bc30f042362aeadd0a",
+   "functions": 18,
+   "covered": 13,
+   "pct": 72.2
+  },
+  "static/js/viz/pripad-faze.js": {
+   "sha256": "f78ff7c7e64cba99de41dd68069440102bdb007208454045b6887467a23987af",
+   "functions": 37,
+   "covered": 34,
+   "pct": 91.8
+  },
+  "static/js/viz/protokol-tok.js": {
+   "sha256": "a5afb3f578684676bd061f9771647d919f28b4495030146e6a9001dcc6370327",
+   "functions": 29,
+   "covered": 27,
+   "pct": 93.1
+  },
+  "static/js/viz/redakce.js": {
+   "sha256": "5fe92fec7f9add01cbd4e7be2a73a0f0a26444fc1b3b58e6fc2e8c5d086b4723",
+   "functions": 81,
+   "covered": 64,
+   "pct": 79.0
+  },
+  "static/js/viz/rejstrik.js": {
+   "sha256": "0b3d07732fa8121e76c9ed3bb5a8cd179c606f197da50151c9b19186e7432057",
+   "functions": 56,
+   "covered": 44,
+   "pct": 78.5
+  },
+  "static/js/viz/stav.js": {
+   "sha256": "f310941f19dd1262d09a52bff1b0bbc702bf998ab67dcd73c4ff3d9e21791062",
+   "functions": 49,
+   "covered": 39,
+   "pct": 79.5
+  },
+  "static/js/viz/stitky.js": {
+   "sha256": "ca34b14dc2ba566f2a400ba9eea6af84f7cfca69e049be42bec8bc30b4d56b93",
+   "functions": 36,
+   "covered": 23,
+   "pct": 63.8
+  },
+  "static/js/viz/technika.js": {
+   "sha256": "c3a07e0a31b074a68b7b9fd2e948aa53135887cbf2141ab880969bde7433bfda",
+   "functions": 10,
+   "covered": 9,
+   "pct": 90.0
+  },
+  "static/js/viz/techniky-rozptyl.js": {
+   "sha256": "074eff57174570035b0885c408f647b71088c8f162f5002c524df76443d55fda",
+   "functions": 39,
+   "covered": 35,
+   "pct": 89.7
+  },
+  "static/js/viz/techniky.js": {
+   "sha256": "fd1a070fca2c04a89a05f3979ba3954f2d9c2bab58a80ca50348888a01d2aed3",
+   "functions": 54,
+   "covered": 42,
+   "pct": 77.7
+  },
+  "static/js/viz/teorie-pojmy.js": {
+   "sha256": "b74b9e7def44177955477bac3c7e069a697814ea17b7e332101382c922d4bd66",
+   "functions": 33,
+   "covered": 29,
+   "pct": 87.8
+  },
+  "static/js/viz/vrstva.js": {
+   "sha256": "3ca15f0fe72773c6179722b33721727b68072d14d5587c5df0992ddb2f85090d",
+   "functions": 86,
+   "covered": 74,
+   "pct": 86.0
+  }
+ }
+}

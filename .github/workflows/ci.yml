@@ -141,7 +141,12 @@ jobs:
           (cd "$root" && python3 -m http.server 18790 --bind 127.0.0.1 > /dev/null 2>&1 &)
           sleep 2
           BASE_URL=http://127.0.0.1:18790/kompendium-epistemicke-anihilace/ \
-            SITE_DIR="$root/kompendium-epistemicke-anihilace" npm run --silent test:surfaces
+            SITE_DIR="$root/kompendium-epistemicke-anihilace" \
+            COVERAGE_OUT="$RUNNER_TEMP/js-coverage.json" npm run --silent test:surfaces
+      # Reuses the surfaces run above: its V8 coverage of static/js, file by file, against the
+      # committed test/js-coverage-baseline.json (no script loses coverage; every script loads).
+      - name: JS function coverage of the surfaces run does not fall (ratchet)
+        run: python3 scripts/check-js-coverage.py "$RUNNER_TEMP/js-coverage.json"
       - name: Accessibility, layout and links (axe-core WCAG 2.2 AA, CLS, overflow, internal links)
         run: |
           BASE_URL=http://127.0.0.1:18790/kompendium-epistemicke-anihilace/ \

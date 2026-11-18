@@ -22,7 +22,9 @@ import shutil
 import struct
 import subprocess
 import sys
-import tomllib
+
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from book_fs import front_matter, plural, zola_slug  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "static" / "img"
@@ -211,22 +213,8 @@ CARD_STYLE = (
 )
 
 
-def front_matter(path: pathlib.Path) -> dict:
-    text = path.read_text(encoding="utf-8")
-    m = re.match(r"\+\+\+\n(.*?)\n\+\+\+", text, re.S)
-    return tomllib.loads(m.group(1)) if m else {}
-
-
-def slug(key: str) -> str:
-    return re.sub(r"[^a-z0-9]+", "-", key.lower()).strip("-")
-
-
 def esc(s: str) -> str:
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
-
-
-def plural(n: int, forms: list) -> str:
-    return forms[0] if n == 1 else forms[1] if 2 <= n <= 4 else forms[2]
 
 
 def num(n: int) -> str:
@@ -236,7 +224,7 @@ def num(n: int) -> str:
 def section_inputs() -> dict:
     ia = json.loads(IA.read_text(encoding="utf-8"))
     weak = {p["path"] for p in ia["pages"] if {"detail", "generated"} & set(p["violations"])}
-    home = front_matter(CONTENT / "_index.md")
+    home = front_matter(CONTENT / "_index.md")[0]
     graph = json.loads(GRAPH.read_text(encoding="utf-8"))
     nodes = graph["nodes"]
 
@@ -246,7 +234,7 @@ def section_inputs() -> dict:
         key = path.parent.relative_to(CONTENT).as_posix()
         pages = sorted((n for n in nodes if n["path"].startswith(key + "/")
                         and n["path"] != key + "/_index.md"), key=lambda n: n["path"])
-        sections.append({"key": key, "slug": slug(key), "title": front_matter(path).get("title", key),
+        sections.append({"key": key, "slug": zola_slug(key), "title": front_matter(path)[0].get("title", key),
                          "pages": [n["path"] not in weak for n in pages]})
 
     families = []
@@ -257,7 +245,7 @@ def section_inputs() -> dict:
         for n in members:
             sub = ".".join(n["ea_code"].split(".")[:2])
             subs.setdefault(sub, []).append(n["path"] not in weak)
-        families.append({"code": code, "slug": slug(code), "name": name,
+        families.append({"code": code, "slug": zola_slug(code), "name": name,
                          "subs": sorted(subs.items(), key=lambda kv: [int(x) for x in re.findall(r"\d+", kv[0])])})
     return {"book": home.get("title", ""), "forms": home["extra"]["plural"]["stranka"],
             "sections": sections, "families": families}

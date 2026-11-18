@@ -57,7 +57,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.dont_write_bytecode = True  # no __pycache__ in the checkout
 sys.path.insert(0, str(ROOT / "scripts"))
 from ia_model import page_class  # noqa: E402
-TOML_FM = re.compile(r"\A\+\+\+\n(.*?)\n\+\+\+\n", re.S)
+from book_fs import TOML_FM, zola_slug  # noqa: E402
 YAML_FM = re.compile(r"\A---\n(.*?)\n---\n", re.S)
 TABLE = re.compile(r"^\[([^\]]+)\]\s*$")
 
@@ -159,20 +159,14 @@ def take_key(lines: list, key: str):
     return None
 
 
-def slugify(text: str) -> str:
-    import unicodedata
-    text = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode().lower()
-    return re.sub(r"[^a-z0-9]+", "-", text).strip("-")
-
-
 def infer_tags(rel: str, data: dict) -> list:
     parts = pathlib.PurePosixPath(rel).parts
     tags = [parts[0]] if len(parts) > 1 else ["kompendium"]  # a root page belongs to the book
     if len(parts) > 2:
-        tags.append(slugify(parts[1]))
+        tags.append(zola_slug(parts[1]))
     category = (data.get("extra") or {}).get("category")
-    if isinstance(category, str) and slugify(category):
-        tags.append(slugify(category))
+    if isinstance(category, str) and zola_slug(category):
+        tags.append(zola_slug(category))
     return list(dict.fromkeys(t for t in tags if t))
 
 

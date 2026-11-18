@@ -48,6 +48,7 @@ import unicodedata
 sys.dont_write_bytecode = True  # no __pycache__ in the checkout
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import listings  # noqa: E402
+from book_fs import front_matter, read_data, zola_slug  # noqa: E402
 from ia_model import (CONTENT, ROOT, TOML_FM, YAML_FM, load_pages,  # noqa: E402
                       parse_yaml_subset, url_of)
 
@@ -74,26 +75,9 @@ SECTION_LABELS = {"root": "Úvod", "glossary": "Glosář", "philosophy": "Filozo
                   "kompendium/glossary-bridges": "Mosty glosáře"}
 
 
-def front_matter(path: str) -> dict:
-    m = TOML_FM.match((CONTENT / path).read_text(encoding="utf-8"))
-    if not m:
-        return {}
-    try:
-        return tomllib.loads(m.group(1))
-    except tomllib.TOMLDecodeError:
-        return {}
-
-
-def slug(segment: str) -> str:
-    """Zola's path slug (slugify.paths = "on", the slug crate): ASCII, lower case, runs of
-    anything else become one dash. Pages are served at these paths, case-sensitively."""
-    bare = "".join(c for c in unicodedata.normalize("NFKD", segment) if not unicodedata.combining(c))
-    return re.sub(r"[^a-z0-9]+", "-", bare.lower()).strip("-")
-
-
 def zola_url(url: str) -> str:
     """The URL Zola serves for a content path's URL ("/a/Ä-B/" -> "/a/a-b/")."""
-    parts = [slug(x) for x in url.strip("/").split("/") if x]
+    parts = [zola_slug(x) for x in url.strip("/").split("/") if x]
     return "/" + "/".join(parts) + ("/" if parts else "")
 
 
@@ -101,7 +85,7 @@ def load() -> list:
     """The pages of ia_model plus the front-matter fields the shell needs."""
     pages = []
     for p in load_pages():
-        front = front_matter(p["path"])
+        front = front_matter(p["path"])[0]
         if front.get("render") is False:
             continue
         extra = front.get("extra") if isinstance(front.get("extra"), dict) else {}
@@ -320,9 +304,9 @@ def pokracovat() -> dict:
       protocol  the most strongly linked crisis protocol (not on a crisis protocol page).
     A link target is matched to a page by its URL, a backlink by its source page's URL.
     """
-    graph = json.loads((OUT / "graph.json").read_text(encoding="utf-8"))
+    graph = read_data("graph.json")
     ia = {p["path"]: p["violations"]
-          for p in json.loads((OUT / "ia.json").read_text(encoding="utf-8"))["pages"]}
+          for p in read_data("ia.json")["pages"]}
     nodes, edges = graph["nodes"], graph["edges"]
     by_path = {n["path"]: n for n in nodes}
     by_url = {}

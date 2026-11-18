@@ -51,6 +51,7 @@ import sys
 sys.dont_write_bytecode = True
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from ia_model import CONTENT, bold_spans, bold_term_index, load_pages, slugify  # noqa: E402
+from book_fs import technique_code  # noqa: E402
 
 MAX_NEW = 10**6  # no cap: each target is linked at most once per page, which bounds it
 STOP = {
@@ -106,10 +107,10 @@ def dictionary(pages: list) -> tuple:
                 local.setdefault(variant.lower(), path)
     codes = {}
     for page in pages:
-        m = re.match(r"kompendium/techniques/ea-(\d+)-(\d+)-(\d+)(?:-.+)?\.md$", page["path"])
-        if not m:
+        tc = technique_code(page["path"])
+        if not tc:
             continue
-        code = ".".join(m.groups())
+        code = ".".join(map(str, tc))
         best = codes.get(code)
         # Several pages for one code: the fullest one (a short-code stub never wins).
         if best is None or page["words"] > best["words"]:

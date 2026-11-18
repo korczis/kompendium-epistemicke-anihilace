@@ -31,7 +31,11 @@ import functools
 import json
 import pathlib
 import re
+import sys
 import tomllib
+
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from book_fs import front_matter  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content"
@@ -39,7 +43,6 @@ DECLARATION = ROOT / "data" / "listings.toml"
 OUTPUT_DIR = "static/data/listings"
 SCHEMA = "kompendium-listings/v1"
 OUTPUT_SCHEMA = "kompendium-listing/v1"
-TOML_FM = re.compile(r"\A\+\+\+\n(.*?)\n\+\+\+\n", re.S)
 WORD = re.compile(r"[A-Za-zÀ-ž]+")
 # a load_data of a listing, bound to a template variable
 LOAD = re.compile(r'\{%-?\s*set\s+(\w+)\s*=\s*load_data\(path="' + re.escape(OUTPUT_DIR)
@@ -84,12 +87,6 @@ def members_of(listing: dict) -> list:
     paths = [p for p in sec.glob("*.md") if p.name != "_index.md"]
     paths += [p for p in sec.glob("*/_index.md")]
     return sorted(p.relative_to(CONTENT).as_posix() for p in paths)
-
-
-def front_matter(path: str) -> tuple:
-    text = (CONTENT / path).read_text(encoding="utf-8")
-    m = TOML_FM.match(text)
-    return (tomllib.loads(m.group(1)) if m else {}), (text[m.end():] if m else text)
 
 
 def classify(listing: dict, path: str, front: dict):

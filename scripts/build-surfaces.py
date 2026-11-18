@@ -47,11 +47,11 @@ import pathlib
 import re
 import subprocess
 import sys
-import tomllib
 
 sys.dont_write_bytecode = True  # no __pycache__ in the checkout
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
-from ia_model import CONTENT, ROOT, TOML_FM, section_of, url_of  # noqa: E402
+from book_fs import front_matter  # noqa: E402
+from ia_model import CONTENT, ROOT, section_of, url_of  # noqa: E402
 
 OUT = ROOT / "static" / "data" / "surfaces.json"
 TEMPLATES = ROOT / "templates"
@@ -103,16 +103,6 @@ def content_files() -> list:
         out.append({"path": rel.as_posix(), "url": url_of(rel), "section": section_of(rel),
                     "is_index": rel.name == "_index.md"})
     return out
-
-
-def front_matter(path: str) -> dict:
-    m = TOML_FM.match((CONTENT / path).read_text(encoding="utf-8"))
-    if not m:
-        return {}
-    try:
-        return tomllib.loads(m.group(1))
-    except tomllib.TOMLDecodeError:
-        return {}
 
 
 def template_of(page: dict, fronts: dict) -> str:
@@ -222,7 +212,7 @@ def check_site(site: pathlib.Path) -> None:
 def build(site: pathlib.Path) -> dict:
     check_site(site)
     pages = content_files()
-    fronts = {p["path"]: front_matter(p["path"]) for p in pages}
+    fronts = {p["path"]: front_matter(p["path"])[0] for p in pages}
     graph = template_graph()
     viz_deps = json.loads(VIZ_DEPS.read_text(encoding="utf-8"))["scripts"]
     by_url = {p["url"]: p for p in pages}

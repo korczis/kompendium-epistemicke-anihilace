@@ -62,5 +62,7 @@ claim it:
     its boundary.
   - Re-read what that gate charges before and after the edit. A sentence addressed to the reader
     as patient is charged; an exercise verb for the reader as student is not.
-- **Kapitola-6 as a derived listing**, in `kapitola-6-derived-listing.md`.
+- **Kapitola-6 as a derived listing**, in `kapitola-6-derived-listing.md`: delivered since by
+  lane dev-31 on `feature/kapitola-6-listing` via `feature/train-1` (`0f1723f6`, `673fb312`,
+  `abea30cb`), so it no longer waits for an owner.
 - **`family-framing-placement.md`** was not among these answers and is still open.

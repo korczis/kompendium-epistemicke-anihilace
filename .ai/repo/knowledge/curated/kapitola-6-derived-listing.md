@@ -3,8 +3,8 @@ schema: knowledge/v1
 id: kapitola-6-derived-listing
 kind: knowledge
 class: lesson
-title: "Kapitola 6 (EA-5.1) is the last chapter catalogue not yet a derived listing: agreed scope, unowned"
-description: "Before converting content/kompendium/05-ultramari-techniky/kapitola-6.md to a derived listing, or before deleting its Klastr A-F sections or their parenthetical technique names."
+title: "Kapitola 6 (EA-5.1) as a derived listing: agreed scope, delivered through train-1"
+description: "Before changing the derived Techniky EA-5.1 section of content/kompendium/05-ultramari-techniky/kapitola-6.md, or before bringing back a Klastr A-F frame or its parenthetical technique names."
 status: verified
 epistemics: observed
 date: 2026-11-17
@@ -17,7 +17,30 @@ provenance:
   origin: authored
 ---
 
-# Kapitola 6 (EA-5.1) is the last chapter catalogue not yet a derived listing: agreed scope, unowned
+# Kapitola 6 (EA-5.1) as a derived listing: agreed scope, delivered through train-1
+
+## Delivered
+
+The conversion was delivered on `feature/kapitola-6-listing` by lane dev-31 and merged into
+`feature/train-1` (merge `baadb660`):
+
+- `0f1723f6` feat(content): kapitola-6 renders EA-5.1 from the pages; the cluster map is gone;
+- `673fb312` chore(data): derived files regenerated after the kapitola-6 listing;
+- `abea30cb` docs(adr): 0015 amended for kapitola-6, an application of P.
+
+**Re-measured before deletion.** The caveat below was closed: there are 17 parenthetical names
+in the old cluster prose (`0f1723f6^`), and none of them is the title or an `extra.aliases`
+entry of any page in `content/`; all 17 differ from the title of the page under their code.
+Re-checked on `fix/kapitola-6-hub` over `fd11ca9b` with the same result. They left the book.
+
+**Follow-up.** `content/kompendium/05-pokrocile-operace/kapitola-6/_index.md` still described
+clusters A–C; `fix/kapitola-6-hub` reorganises it by the techniques in code order. The "Klastr
+A–D" of `06-klinicke-aplikace/diagnosticke-indikatory.md` are screening-marker groups of their
+own and stay. Still describing the removed frame on `fd11ca9b`:
+`05-pokrocile-techniky/kapitola-6/_index.md` (clusters D–F) and the Související of
+`06-epistemicka-singularita/_index.md` ("rozcestníky po klastrech").
+
+The sections below are the record as it was written before the work, kept as its scope.
 
 ## Where it stands
 
@@ -64,7 +87,7 @@ Neither is in the agreed scope. Read both before assuming they are copies of the
 
 ## Caveats the next picker must not skip
 
-- **The 17-parenthetical claim is unverified.** It says that every parenthetical name differs from
+- **The 17-parenthetical claim was unverified when this was written** (re-measured since; see Delivered). It says that every parenthetical name differs from
   the title of the page it sits over. It was asserted once and never re-measured, by its author or
   by content-2e. Measure it before deleting any of them: a parenthetical that is in fact a page's
   title is a loss to keep, not a cleanup.

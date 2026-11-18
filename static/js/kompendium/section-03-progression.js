@@ -91,7 +91,7 @@
           return '<b>' + L.esc(K.techniqueText(x)) + '</b><br>riziko ' + L.esc(risk[x.id].label) + ' | ' +
             L.count(nb[x.id].length, ['vazba', 'vazby', 'vazeb']);
         } }, K.V.tooltip(t)),
-        grid: { left: 40, right: 16, top: hd.top, bottom: 36, containLabel: true },
+        grid: { left: 8, right: 16, top: hd.top + 22, bottom: 36, containLabel: true },
         xAxis: K.V.axis(t, { type: 'value', min: -0.6, max: subs.length - 0.4,
           name: 'Podrodina (kód z cesty stránky)', nameLocation: 'middle', nameGap: 26,
           axisTick: { customValues: subs.map(function (x, i) { return i; }) },
@@ -99,7 +99,8 @@
           axisLabel: { color: t.muted, customValues: subs.map(function (x, i) { return i; }),
             formatter: function (v) { return subs[Math.round(v)] || ''; } } }),
         yAxis: K.V.axis(t, { type: 'value', min: -0.6, max: levels.length - 0.4,
-          name: 'Úroveň rizika (katalog technik)', nameLocation: 'middle', nameGap: 30,
+          name: 'Úroveň rizika (katalog technik)', nameLocation: 'end', nameGap: 10,
+          nameTextStyle: { color: t.muted, align: 'left' },
           axisTick: { customValues: levels.map(function (x, i) { return i; }) },
           splitLine: { show: false },
           axisLabel: { color: t.muted, customValues: levels.map(function (x, i) { return i; }),

@@ -689,9 +689,10 @@ async function osnova(page, failures) {
 async function posuvnik(page, failures) {
   const found = await page.evaluate(() => {
     const s = document.querySelector('[data-p5-intensity]');
-    const host = [...document.querySelectorAll('[data-p5]')].find((el) => el.parentElement && el.parentElement.contains(s));
+    const scopeOf = (el) => el.closest('figure') || el.parentElement;
+    const host = [...document.querySelectorAll('[data-p5]')].find((el) => scopeOf(el) && scopeOf(el).contains(s));
     if (!host) return false;
-    host.setAttribute('data-test-posuvnik', '');
+    scopeOf(host).setAttribute('data-test-posuvnik', '');
     return true;
   });
   if (!found) { failures.push('posuvník nemá plátno ve stejném obrázku'); return; }

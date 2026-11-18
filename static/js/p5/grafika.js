@@ -90,7 +90,10 @@
         focus.x = dims.w * 0.55;
         focus.y = dims.h * 0.5;
         if (reduced) { t = 2.2; p.noLoop(); }
-        var slider = el.parentElement && el.parentElement.querySelector('[data-p5-intensity]');
+        // The slider shares the canvas's figure; the maximize frame wraps the canvas in its own box,
+        // so the parent element alone no longer reaches it.
+        var scope = el.closest('figure') || el.parentElement;
+        var slider = scope && scope.querySelector('[data-p5-intensity]');
         if (slider) {
           // Paused (button, off screen) or reduced motion: no loop runs, so the slider redraws.
           slider.addEventListener('input', function () {

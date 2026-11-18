@@ -379,6 +379,12 @@
     $('rd-pravidlo').addEventListener('change', function (e) { setState({ rule: e.target.value }); });
     $('rd-jazyk').addEventListener('change', function (e) { setState({ lang: e.target.value }); });
     $('rd-razeni').addEventListener('change', function (e) { setState({ sort: e.target.value }); });
+    // Column headers sort too: a button in each sortable <th> (Enter and Space natively), the
+    // header's aria-sort and ?razeni= follow from render().
+    Array.prototype.forEach.call(root.querySelectorAll('th[data-rd-sort]'), function (th) {
+      var b = th.querySelector('[data-rd-sort-button]');
+      if (b) b.addEventListener('click', function () { setState({ sort: th.getAttribute('data-rd-sort') }); });
+    });
     Array.prototype.forEach.call(root.querySelectorAll('[data-rd-reset]'), function (b) {
       b.addEventListener('click', function () {
         $('rd-q').value = '';

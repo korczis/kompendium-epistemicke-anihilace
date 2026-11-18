@@ -21,11 +21,8 @@
 {%- if kx_type == "technique" %}{% set kx_title = "Kontext techniky" %}
 {%- elif kx_type == "case" %}{% set kx_title = "Kontext případu" %}
 {%- else %}{% set kx_title = "Kontext pojmu" %}{% endif %}
-<section data-kontext="{{ page.relative_path }}" data-kontext-type="{{ kx_type }}" data-kontext-code="{{ kx_code }}" data-kontext-family="{{ kx_family }}" data-kontext-catalog="{{ get_url(path='@/kompendium/techniques/_index.md') }}" hidden class="mt-8 border-t border-gray-200 pt-6 dark:border-gray-700" aria-labelledby="kontext-title">
-  <div class="mb-3 flex flex-wrap items-baseline justify-between gap-2">
-    <h2 id="kontext-title" class="text-sm font-semibold uppercase tracking-wide text-gray-900 dark:text-white">{{ kx_title }}</h2>
-    <p data-kx-meta class="text-sm text-gray-500 dark:text-gray-400"></p>
-  </div>
+{% <article_section id="kontext-title" title={kx_title} attrs={'hidden data-kontext="' ~ page.relative_path ~ '" data-kontext-type="' ~ kx_type ~ '" data-kontext-code="' ~ kx_code ~ '" data-kontext-family="' ~ kx_family ~ '" data-kontext-catalog="' ~ get_url(path='@/kompendium/techniques/_index.md') ~ '"'}> %}
+  <p data-kx-meta class="-mt-2 mb-3 text-sm text-gray-500 dark:text-gray-400"></p>
   <div data-kx-body aria-busy="true" aria-live="polite" class="grid grid-cols-1 items-start gap-4 md:grid-cols-2">
     {%- for i in [1, 2] %}
     <div class="animate-pulse rounded-lg border border-gray-200 p-4 dark:border-gray-700" aria-hidden="true">
@@ -40,7 +37,7 @@
 
   {#- Panel (Pro card): nadpis s počtem, tělo se seznamem. -#}
   <template data-kx-tpl="panel"><div class="min-w-0 rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-700 dark:bg-gray-800">
-    <h3 class="mb-3 flex items-center gap-2 text-base font-semibold text-gray-900 dark:text-white"><span data-f="title"></span><span data-f="count" class="rounded-full bg-primary-100 px-2 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300"></span></h3>
+    <h3 class="mb-3 flex items-center gap-2 text-base font-semibold text-gray-900 dark:text-white"><span data-f="title"></span>{{ <badge tone="primary" attrs='data-f="count"' /> }}</h3>
     <div data-f="body" class="space-y-2"></div>
   </div></template>
   <template data-kx-tpl="empty"><div class="flex items-center gap-3 rounded-lg border border-dashed border-gray-300 p-4 text-sm text-gray-500 dark:border-gray-600 dark:text-gray-400">
@@ -51,8 +48,8 @@
   <template data-kx-tpl="subhead"><p class="pt-1 text-xs font-semibold uppercase tracking-wide text-gray-500 dark:text-gray-400"></p></template>
 
   {#- Odznaky typu případu (Pro badges). -#}
-  <template data-kx-tpl="badge-study"><span class="inline-flex shrink-0 items-center rounded-sm bg-primary-100 px-2 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300">Případová studie</span></template>
-  <template data-kx-tpl="badge-hist"><span class="inline-flex shrink-0 items-center rounded-sm bg-yellow-100 px-2 py-0.5 text-xs font-medium text-yellow-800 dark:bg-yellow-900 dark:text-yellow-300">Historický případ</span></template>
+  <template data-kx-tpl="badge-study">{{ <badge tone="primary" text="Případová studie" cls="shrink-0" /> }}</template>
+  <template data-kx-tpl="badge-hist">{{ <badge tone="yellow" text="Historický případ" cls="shrink-0" /> }}</template>
 
   {#- Technika: karta případu, pozice v rodině, předchozí/další, čip techniky. -#}
   <template data-kx-tpl="case"><a class="block rounded-lg border border-gray-200 bg-white p-3 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-primary-800">
@@ -91,13 +88,13 @@
     <p class="mb-1.5 flex items-center gap-2 text-xs font-semibold uppercase tracking-wide text-gray-500 dark:text-gray-400">
       <span data-f="dot" class="h-2.5 w-2.5 shrink-0 rounded-full" aria-hidden="true"></span>
       <a data-f="family" class="font-mono hover:underline"></a>
-      <span data-f="count" class="rounded-full bg-gray-100 px-1.5 font-medium text-gray-800 dark:bg-gray-700 dark:text-gray-300"></span>
+      {{ <badge cls="normal-case" attrs='data-f="count"' /> }}
     </p>
     <div data-f="chips" class="flex flex-wrap gap-1.5"></div>
   </div></template>
   <template data-kx-tpl="similar"><a class="flex items-center justify-between gap-3 rounded-lg px-2 py-1.5 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:hover:bg-gray-700 dark:focus:ring-primary-800">
     <span class="min-w-0"><span data-f="badge"></span><span data-f="title" class="mt-0.5 block truncate text-sm font-medium text-gray-900 dark:text-white"></span></span>
-    <span data-f="count" class="shrink-0 rounded-full bg-primary-100 px-2 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300"></span>
+    {{ <badge tone="primary" cls="shrink-0" attrs='data-f="count"' /> }}
   </a></template>
 
   {#- Glosář: řádek oddílu s pruhem, řádek stránky. -#}
@@ -105,14 +102,14 @@
     <span class="flex items-center gap-2">
       <span data-f="dot" class="h-2.5 w-2.5 shrink-0 rounded-full" aria-hidden="true"></span>
       <span data-f="title" class="min-w-0 flex-1 truncate text-sm text-gray-700 dark:text-gray-300"></span>
-      <span data-f="count" class="shrink-0 rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-800 dark:bg-gray-700 dark:text-gray-300"></span>
+      {{ <badge cls="shrink-0" attrs='data-f="count"' /> }}
     </span>
     <span class="mt-1 block h-1 w-full rounded-full bg-gray-100 dark:bg-gray-700" role="presentation"><span data-f="bar" class="block h-1 rounded-full"></span></span>
   </a></template>
   <template data-kx-tpl="page"><a class="flex items-center justify-between gap-3 rounded-lg px-2 py-1.5 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:hover:bg-gray-700 dark:focus:ring-primary-800">
     <span class="min-w-0"><span data-f="title" class="block truncate text-sm font-medium text-gray-900 dark:text-white"></span><span data-f="section" class="block truncate text-xs text-gray-500 dark:text-gray-400"></span></span>
-    <span data-f="count" class="shrink-0 rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-800 dark:bg-gray-700 dark:text-gray-300"></span>
+    {{ <badge cls="shrink-0" attrs='data-f="count"' /> }}
   </a></template>
-</section>
+{% </article_section> %}
 <script src="{{ get_url(path='js/viz/kontext.js', cachebust=true) }}" defer></script>
 {%- endif %}

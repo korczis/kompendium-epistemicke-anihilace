@@ -1,81 +1,57 @@
 {% extends "base.html" %}
+{#- A section: header, then in the page layout (macros/layout.html) its explorer or overview, its
+    text, its subsections and its pages. -#}
 {% block content %}
 {%- set doc = section %}
 {% include "partials/header.html" %}
-<div class="grid grid-cols-1 gap-4 px-4 pt-6 xl:grid-cols-4">
-  <div class="min-w-0 space-y-4 xl:col-span-3">
-    {%- set explorer = section.path in ["/kompendium/techniques/", "/glossary/", "/kompendium/historical-cases/"] or section.extra.catalog is defined %}
-    {#- Průzkumník se ukáže, až naběhne Alpine; jeho místo (kea-explorer-slot, app.css) je od
-        začátku aspoň na výšku okna, takže text pod ním neposkočí (CLS). -#}
-    {%- if explorer %}
-    <div class="kea-explorer-slot">
-    {%- if section.path == "/kompendium/techniques/" %}
-    {% include "partials/explorer-techniques.html" %}
-    {%- elif section.path == "/glossary/" %}
-    {% include "partials/explorer-glossary.html" %}
-    {%- elif section.path == "/kompendium/historical-cases/" %}
-    {% include "partials/explorer-historical.html" %}
-    {%- elif section.extra.catalog is defined %}
-    {% include "partials/explorer-katalog.html" %}
-    {%- endif %}
-    </div>
-    {%- endif %}
-    {%- if section.content | trim %}
-    <article class="rounded-lg bg-white p-4 shadow sm:p-6 xl:p-8 dark:bg-gray-800">
-      <div class="format format-sm sm:format-base lg:format-lg format-blue mx-auto w-full max-w-none dark:format-invert">
-        {{ section.content | safe }}
-      </div>
-      {#- Odvozený pohled; na rozcestníku jen bez podstránek (jinak nese přehled oddílu níže). -#}
-      {%- if not explorer %}{% include "partials/pohled-stranky.html" %}{% endif %}
-    </article>
-    {%- endif %}
-    {#- Obecný interaktivní přehled oddílu; specializované průzkumníky jsou nad textem. -#}
-    {%- if not explorer %}
-    {% include "partials/section-overview.html" %}
-    {%- endif %}
-    {%- if section.subsections %}
-    <div class="rounded-lg bg-white p-4 shadow sm:p-6 xl:p-8 dark:bg-gray-800">
-      <h2 class="mb-4 text-xl font-bold leading-none text-gray-900 dark:text-white">Oddíly</h2>
-      <div class="grid gap-4 md:grid-cols-2">
-        {%- for path in section.subsections %}
-        {%- set s = get_section(path=path) %}
-        <a href="{{ s.permalink }}" class="block rounded-lg border border-gray-200 p-4 hover:bg-gray-100 dark:border-gray-700 dark:hover:bg-gray-700">
-          <span class="flex items-center justify-between gap-2">
-            <span class="text-base font-semibold text-gray-900 dark:text-white">{{ s.title }}</span>
-            <span class="shrink-0 rounded-full bg-primary-100 px-2 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300">{{ s.pages | length }}</span>
-          </span>
-          {%- if s.description %}<span class="mt-1 block text-sm text-gray-500 dark:text-gray-400">{{ s.description | truncate(length=180) }}</span>{% endif %}
-        </a>
-        {%- endfor %}
-      </div>
-    </div>
-    {%- endif %}
-    {%- if section.pages %}
-    <details class="group rounded-lg bg-white shadow dark:bg-gray-800"{% if not explorer %} open{% endif %}>
-      <summary class="flex cursor-pointer list-none items-center justify-between rounded-lg p-4 hover:bg-gray-50 focus:outline-none focus:ring-4 focus:ring-primary-300 sm:p-6 dark:hover:bg-gray-700 dark:focus:ring-primary-800">
-        <h2 class="text-xl font-bold leading-none text-gray-900 dark:text-white">{% if explorer %}Všechny stránky (prostý seznam){% else %}Stránky{% endif %}</h2>
-        <span class="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">{{ section.pages | length }}
-          <svg class="h-4 w-4 transition-transform group-open:rotate-180" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
-        </span>
-      </summary>
-      <ul class="divide-y divide-gray-200 border-t border-gray-200 dark:divide-gray-700 dark:border-gray-700">
-        {%- for p in section.pages %}
-        <li>
-          <a href="{{ p.permalink }}" class="flex flex-col gap-1 px-4 py-3 hover:bg-gray-100 sm:flex-row sm:items-baseline sm:gap-4 sm:px-6 dark:hover:bg-gray-700">
-            {%- if p.extra.ea_code is defined and p.extra.ea_code %}<span class="w-24 shrink-0 font-mono text-xs text-primary-700 dark:text-primary-400">{{ p.extra.ea_code }}</span>{% endif %}
-            <span class="min-w-0">
-              <span class="block text-sm font-medium text-gray-900 dark:text-white">{{ p.title }}</span>
-              {%- if p.description %}<span class="block truncate text-sm text-gray-500 dark:text-gray-400">{{ p.description }}</span>{% endif %}
-            </span>
-          </a>
-        </li>
-        {%- endfor %}
-      </ul>
-    </details>
-    {%- endif %}
-  </div>
-  <aside class="hidden xl:block" aria-label="Na této stránce">
-    {% include "partials/toc.html" %}
-  </aside>
+{%- set explorer = section.path in ["/kompendium/techniques/", "/glossary/", "/kompendium/historical-cases/"] or section.extra.catalog is defined %}
+{% <page_layout toc={section.toc}> %}
+{#- Průzkumník se ukáže, až naběhne Alpine; jeho místo (kea-explorer-slot, app.css) je od
+    začátku aspoň na výšku okna, takže text pod ním neposkočí (CLS). -#}
+{%- if explorer %}
+<div class="kea-explorer-slot">
+{%- if section.path == "/kompendium/techniques/" %}
+{% include "partials/explorer-techniques.html" %}
+{%- elif section.path == "/glossary/" %}
+{% include "partials/explorer-glossary.html" %}
+{%- elif section.path == "/kompendium/historical-cases/" %}
+{% include "partials/explorer-historical.html" %}
+{%- elif section.extra.catalog is defined %}
+{% include "partials/explorer-katalog.html" %}
+{%- endif %}
 </div>
+{%- endif %}
+{%- if section.content | trim %}
+{% <card tag="article"> %}
+  {{ <toc_mobile toc={section.toc} /> }}
+  {{ <prose html={section.content} /> }}
+  {#- Odvozený pohled; na rozcestníku jen bez podstránek (jinak nese přehled oddílu níže). -#}
+  {%- if not explorer %}{% include "partials/pohled-stranky.html" %}{% endif %}
+{% </card> %}
+{%- endif %}
+{#- Obecný interaktivní přehled oddílu; specializované průzkumníky jsou nad textem. -#}
+{%- if not explorer %}
+{% include "partials/section-overview.html" %}
+{%- endif %}
+{%- if section.subsections %}
+{% <card title="Oddíly" id="oddily-title"> %}
+  {% <grid cols="2" tag="ul"> %}
+    {%- for path in section.subsections %}
+    {%- set s = get_section(path=path) %}
+    <li>{{ <tile href={s.permalink} title={s.title} count={s.pages | length} desc={s.description | default(value="")} /> }}</li>
+    {%- endfor %}
+  {% </grid> %}
+{% </card> %}
+{%- endif %}
+{%- if section.pages %}
+{%- if explorer %}{% set list_title = "Všechny stránky (prostý seznam)" %}{% else %}{% set list_title = "Stránky" %}{% endif %}
+{% <details_card title={list_title} count={section.pages | length} open={not explorer}> %}
+  <ul class="divide-y divide-gray-200 dark:divide-gray-700">
+    {%- for p in section.pages %}
+    <li>{{ <list_row href={p.permalink} title={p.title} desc={p.description | default(value="")} code={p.extra.ea_code | default(value="")} /> }}</li>
+    {%- endfor %}
+  </ul>
+{% </details_card> %}
+{%- endif %}
+{% </page_layout> %}
 {% endblock content %}

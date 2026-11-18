@@ -31,12 +31,13 @@
 {%- for top in pv_proto.toc %}{% if "Stupeň S" in top.title %}{% set pv_t = top.title | replace(from="Stupeň ", to="") %}{% set_global pv_stupne = pv_stupne ~ "|" ~ pv_t %}{% endif %}{% for h in top.children %}{% if "Stupeň S" in h.title %}{% set pv_t = h.title | replace(from="Stupeň ", to="") %}{% set_global pv_stupne = pv_stupne ~ "|" ~ pv_t %}{% endif %}{% endfor %}{% endfor %}
 {%- endif %}
 {%- if pv %}
-<section data-js data-pohled="{{ pv }}" data-pohled-stranka="{{ doc.relative_path }}" data-pohled-pojmy="{{ doc.extra.related_terms | default(value=[]) | join(sep=' ') }}"{% if pv_stupne %} data-pohled-stupne="{{ pv_stupne }}"{% endif %} class="mt-8 border-t border-gray-200 pt-6 dark:border-gray-700" aria-labelledby="pohled-h">
-  <h2 id="pohled-h" class="mb-1 text-sm font-semibold uppercase tracking-wide text-gray-900 dark:text-white">{{ pv_h }}</h2>
+{%- set pv_attrs = 'data-js data-pohled="' ~ pv ~ '" data-pohled-stranka="' ~ doc.relative_path ~ '" data-pohled-pojmy="' ~ (doc.extra.related_terms | default(value=[]) | join(sep=' ')) ~ '"' %}
+{%- if pv_stupne %}{% set pv_attrs = pv_attrs ~ ' data-pohled-stupne="' ~ pv_stupne ~ '"' %}{% endif %}
+{% <article_section id="pohled-h" title={pv_h} attrs={pv_attrs}> %}
   <p id="pohled-d" class="mb-3 text-sm text-gray-500 dark:text-gray-400">{{ pv_d }}</p>
   {%- set pg = {"label": pv_h, "desc": "pohled-d", "cls": pv_c ~ " border border-gray-200 bg-gray-50 dark:border-gray-700 dark:bg-gray-900"} %}
   {% include "partials/pohled-graf.html" %}
-</section>
+{% </article_section> %}
 {#- Jádro vizualizací načte pohled sám: rozcestník bez podstránek nemá přehled oddílu, který
     by ho jinak vložil (gate ploch to na koncových kapitolách zachytil). -#}
 <script src="{{ get_url(path='js/viz/kompendium-viz.js', cachebust=true) }}" defer></script>

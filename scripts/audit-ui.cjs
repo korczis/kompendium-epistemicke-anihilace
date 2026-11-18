@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Audit přístupnosti a rozvržení: pro každou třídu stránek při 375 a 1440 px, ve světlém
 // i tmavém tématu změří porušení WCAG 2.2 AA (axe-core), chyby konzole a sítě, vodorovné
-// přetečení, CLS a přenesená data (přetečení a chyby navíc při 320, 768, 1024 a 1920 px); nakonec ověří každý interní odkaz, který stránky vykreslily
+// přetečení (dokumentu i #main-content), jeden levý okraj nadpisu a textu (od 1440 px), CLS a přenesená data (přetečení a chyby navíc při 320, 768, 1024 a 1920 px); nakonec ověří každý interní odkaz, který stránky vykreslily
 // (a každou adresu rejstříku hledání). Brána: jakýkoli nález (porušení axe, chyba, přetečení,
 // CLS nad 0,1, odkaz se stavem 400+ nebo bez základní cesty) ukončí běh kódem 1.
 //
@@ -17,6 +17,9 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const { chromium } = require(process.env.PLAYWRIGHT || 'playwright-core');
+// Přetečení dokumentu i #main-content (v Pro shellu roluje on) a jeden levý okraj nadpisu a textu
+// od 1440 px: společná definice s test/e2e/surfaces.cjs.
+const { measureLayout, layoutFindings } = require('../test/e2e/layout.cjs');
 
 const BASE = (process.env.BASE_URL || 'http://127.0.0.1:18790/').replace(/\/?$/, '/');
 const AXE = fs.readFileSync(process.env.AXE || require.resolve('axe-core/axe.min.js'), 'utf8');
@@ -111,12 +114,14 @@ async function measure(browser, name, rel, width, scheme, full = true) {
   const res = await page.goto(BASE + rel, { waitUntil: 'networkidle', timeout: 90000 });
   if (!res || res.status() !== 200) errors.push('HTTP ' + (res && res.status()));
   await page.waitForTimeout(800);
+  const layout = await measureLayout(page);
   const facts = await page.evaluate(() => ({
-    overflow: document.documentElement.scrollWidth - window.innerWidth,
     cls: Math.round(window.__cls * 1000) / 1000,
     shifts: window.__shifts.sort((x, y) => y.value - x.value).slice(0, 3)
       .map((x) => Math.round(x.value * 1000) / 1000 + ' ' + x.nodes.slice(0, 3).join(', ')),
   }));
+  facts.overflow = layout.overflow;
+  facts.layout = layoutFindings(layout, width);
   if (!full) {
     await ctx.close();
     return { name, path: rel, width, scheme, errors, kb: Math.round(bytes / 1024), axe: [], hrefs: [], ...facts };
@@ -206,7 +211,7 @@ async function checkLinks() {
       collect(r);
       delete r.hrefs;
       const findings = r.axe.map((v) => `axe ${v.id} (${v.impact}) ×${v.nodes}: ${v.targets.join(' | ')}`)
-        .concat(r.errors, r.overflow > 0 ? [`vodorovné přetečení ${r.overflow} px`] : [],
+        .concat(r.errors, r.layout,
           r.cls > CLS_LIMIT ? [`CLS ${r.cls} > ${CLS_LIMIT}; největší posuny: ${r.shifts.join(' | ')}`] : []);
       const label = `/${rel} (${name}, ${width}/${scheme === 'dark' ? 'tmavý' : 'světlý'}${full ? '' : ', jen rozvržení'}) cls=${r.cls} ${r.kb} kB`;
       if (findings.length) { failed += 1; console.log(`FAIL ${label}`); findings.forEach((f) => console.log('     ' + f)); }

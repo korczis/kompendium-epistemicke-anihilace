@@ -22,97 +22,72 @@
   {%- for p in s.pages -%}{%- set_global words = words + wc_map[p.relative_path] | default(value=0) -%}{%- endfor -%}
 {%- endfor -%}
 {%- set_global families = 0 -%}{%- for code, name in graph.families -%}{%- set_global families = families + 1 -%}{%- endfor -%}
-<section class="bg-white dark:bg-gray-800" aria-labelledby="hero-title">
-  <div class="mx-auto grid max-w-screen-xl gap-x-8 gap-y-6 px-4 py-8 sm:py-10 lg:grid-cols-12 lg:py-16">
-    <div class="mr-auto place-self-center lg:col-span-7">
-      <p class="mb-3 text-sm font-semibold uppercase tracking-wide text-primary-700 dark:text-primary-400">Defenzivní taxonomie · odborná literatura</p>
-      <h1 id="hero-title" class="mb-4 max-w-2xl text-3xl font-extrabold leading-tight tracking-tight sm:leading-none text-gray-900 sm:text-4xl md:text-5xl xl:text-6xl dark:text-white">Kompendium epistemické a kognitivní anihilace</h1>
-      <p class="mb-4 max-w-2xl text-base text-gray-600 sm:text-lg lg:text-xl dark:text-gray-300">{{ section.extra.lead }}</p>
-      <p class="mb-5 max-w-2xl text-sm text-gray-600 sm:text-base dark:text-gray-300"><span class="font-semibold text-gray-900 dark:text-white">Pro koho:</span> {{ section.extra.audience }}</p>
-      {#- Co kniha obsahuje: čísla se počítají při každém sestavení. -#}
-      <dl class="mb-6 grid max-w-2xl grid-cols-2 gap-x-6 gap-y-3 border-y border-gray-200 py-4 sm:grid-cols-4 dark:border-gray-700">
-        {%- for stat in [
-          [total, "stránek", "v kapitolách a kolekcích", root.permalink],
-          [techniques.pages | length, "technik", "v " ~ families ~ " rodinách EA", techniques.permalink],
-          [cases.pages | length + history.pages | length, "případů", "kazuistiky a historie", cases.permalink],
-          [glossary.pages | length, "hesel", "glosář pojmů", glossary.permalink]] %}
-        <div class="flex flex-col-reverse">
-          <dt class="text-sm text-gray-600 dark:text-gray-300"><a href="{{ stat[3] }}" class="hover:text-primary-700 hover:underline focus:outline-none focus:ring-2 focus:ring-primary-300 dark:hover:text-primary-300 dark:focus:ring-primary-800">{{ stat[1] }}</a> <span class="block text-xs text-gray-500 dark:text-gray-400">{{ stat[2] }}</span></dt>
-          <dd class="text-2xl font-bold leading-none text-gray-900 sm:text-3xl dark:text-white">{{ stat[0] | num_format }}</dd>
-        </div>
-        {%- endfor %}
-      </dl>
-      <div class="flex flex-wrap gap-3">
-        <a href="{{ get_url(path='@/kompendium/02-uvod/v-kostce.md') }}" class="inline-flex items-center justify-center rounded-lg bg-primary-700 px-5 py-3 text-center text-base font-medium text-white hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
-          V kostce: co se ztrácí
-          <svg class="-mr-1 ml-2 h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
-        </a>
-        <a href="{{ root.permalink }}" class="inline-flex items-center justify-center rounded-lg border border-gray-300 px-5 py-3 text-center text-base font-medium text-gray-900 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:border-gray-600 dark:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-800">Obsah kompendia</a>
-      </div>
+{#- Hero in the page header bar (layout.html page_header, kind home): the title on the one page
+    title scale, its lead and audience, the derived counts, the two entry buttons and the p5
+    figure; then where to start and the catalogues. Its left edge is the cards' content edge. -#}
+{% <page_header kind="home"> %}
+<div class="grid grid-cols-1 gap-x-8 gap-y-6 py-4 sm:py-6 lg:grid-cols-12" aria-labelledby="hero-title">
+  <div class="min-w-0 lg:col-span-7">
+    {{ <page_title id="hero-title" kicker="Defenzivní taxonomie · odborná literatura" title="Kompendium epistemické a kognitivní anihilace" desc={section.extra.lead} /> }}
+    <p class="mt-3 text-sm text-gray-600 sm:text-base dark:text-gray-300"><span class="font-semibold text-gray-900 dark:text-white">Pro koho:</span> {{ section.extra.audience }}</p>
+    {#- Co kniha obsahuje: čísla se počítají při každém sestavení. -#}
+    <dl class="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-4">
+      {%- for stat in [
+        [total, "stránek", "v kapitolách a kolekcích", root.permalink],
+        [techniques.pages | length, "technik", "v " ~ families ~ " rodinách EA", techniques.permalink],
+        [cases.pages | length + history.pages | length, "případů", "kazuistiky a historie", cases.permalink],
+        [glossary.pages | length, "hesel", "glosář pojmů", glossary.permalink]] %}
+      {{ <kpi inset={true} label={stat[1]} value={stat[0] | num_format} note={stat[2]} href={stat[3]} /> }}
+      {%- endfor %}
+    </dl>
+    <div class="mt-6 flex flex-wrap gap-3">
+      {{ <button href={get_url(path='@/kompendium/02-uvod/v-kostce.md')} label="V kostce: co se ztrácí" icon_end="arrow-right" /> }}
+      {{ <button kind="secondary" href={root.permalink} label="Obsah kompendia" /> }}
     </div>
-    <figure class="order-last lg:order-none lg:col-span-5 lg:mt-0">
-      <div class="aspect-[2/1] overflow-hidden rounded-lg border border-gray-200 shadow-lg lg:aspect-[100/105] dark:border-gray-700" data-p5="rozpad" data-ratio="1.05" data-ratio-narrow="0.5" data-intensity="0.8" data-label="Síť pojmů, která se v ohnisku rozpadá a mimo něj znovu obnovuje.">
-        <noscript><img src="{{ get_url(path='img/cover.svg') }}" alt="Obálka: pravidelná síť pojmů, která se směrem ke středu rozpadá do fragmentů." class="w-full" width="600" height="800"></noscript>
-      </div>
-      <figcaption class="mt-2 text-sm text-gray-500 dark:text-gray-400">Síť pojmů v rozkladu a obnově. Pohybem myši posunete ohnisko. <a href="{{ get_url(path='@/galerie.md') }}" class="font-medium text-primary-700 hover:underline dark:text-primary-400">Galerie</a></figcaption>
-    </figure>
-    {#- Kde začít: vstup podle role čtenáře. Název, popis a počet stránek nese cílový oddíl. -#}
-    <nav class="lg:col-span-12" aria-labelledby="kde-zacit">
-      <h2 id="kde-zacit" class="mb-3 text-lg font-bold text-gray-900 dark:text-white">Kde začít</h2>
-      <ul class="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
-        {%- for entry in [
-          ["kompendium/06-klinicke-aplikace/_index.md", "Klinická praxe"],
-          ["kompendium/forensic-legal/_index.md", "Vyšetřování a právo"],
-          ["kompendium/07-teoreticke-reflexe/_index.md", "Výzkum a teorie"],
-          ["kompendium/self-defense-guides/_index.md", "Obrana a zotavení"]] %}
-        {%- set s = get_section(path=entry[0], metadata_only=true) %}
-        {%- set n = nav.sections[entry[0]] %}
-        <li>
-          <a href="{{ s.permalink }}" class="group flex h-full flex-col rounded-lg border border-gray-200 bg-white p-4 hover:border-primary-300 hover:bg-primary-50 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:border-gray-700 dark:bg-gray-800 dark:hover:border-primary-700 dark:hover:bg-gray-700 dark:focus:ring-primary-800">
-            <span class="flex items-center justify-between gap-2">
-              <span class="text-base font-semibold text-gray-900 group-hover:text-primary-700 dark:text-white dark:group-hover:text-primary-300">{{ entry[1] }}</span>
-              <span class="shrink-0 rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-700 dark:bg-gray-700 dark:text-gray-300">{{ n.total }} {% if n.total == 1 %}stránka{% elif n.total >= 2 and n.total <= 4 %}stránky{% else %}stránek{% endif %}</span>
-            </span>
-            <span class="mt-1 text-sm text-gray-600 dark:text-gray-300">{{ s.title }}</span>
-            {%- if s.description %}<span class="mt-2 line-clamp-2 text-sm text-gray-500 dark:text-gray-400">{{ s.description }}</span>{% endif %}
-          </a>
-        </li>
-        {%- endfor %}
-      </ul>
-    </nav>
-    {#- Katalogy: dlaždice pro každý blok [[catalog]] v data/catalogs.toml (ikona, název, anglický
-        název, popis sekce a počet hesel z front matter jejího rejstříku, extra.catalog_size, který
-        odvozuje scripts/catalogs.py). Nový katalog = nová dlaždice bez zásahu sem. -#}
-    {%- set kat = load_data(path="data/catalogs.toml", required=false) -%}
-    {%- if kat and kat.catalog %}
-    <nav class="lg:col-span-12" aria-labelledby="katalogy">
-      <h2 id="katalogy" class="mb-3 text-lg font-bold text-gray-900 dark:text-white">Katalogy</h2>
-      <ul class="grid gap-3 sm:grid-cols-2">
-        {%- for c in kat.catalog | sort(attribute="weight") %}
-        {%- set ks = get_section(path=c.section ~ "/_index.md", metadata_only=true, allow_missing=true) %}
-        {%- if ks %}
-        {%- set kn = ks.extra.catalog_size | default(value=0) %}
-        <li>
-          <a href="{{ ks.permalink }}" class="group flex h-full gap-3 rounded-lg border border-gray-200 bg-white p-4 hover:border-primary-300 hover:bg-primary-50 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:border-gray-700 dark:bg-gray-800 dark:hover:border-primary-700 dark:hover:bg-gray-700 dark:focus:ring-primary-800">
-            <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary-100 text-xl dark:bg-primary-900" aria-hidden="true">{{ c.icon | default(value="📚") }}</span>
-            <span class="min-w-0">
-              <span class="flex items-center justify-between gap-2">
-                <span class="text-base font-semibold text-gray-900 group-hover:text-primary-700 dark:text-white dark:group-hover:text-primary-300">{{ c.title }}</span>
-                {%- if kn %}<span class="shrink-0 rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-700 dark:bg-gray-700 dark:text-gray-300">{{ kn }} {% if kn == 1 %}heslo{% elif kn >= 2 and kn <= 4 %}hesla{% else %}hesel{% endif %}</span>{% endif %}
-              </span>
-              {%- if c.en %}<span class="block text-xs text-gray-500 dark:text-gray-400" lang="en">{{ c.en }}</span>{% endif %}
-              {%- if ks.description %}<span class="mt-1 line-clamp-2 block text-sm text-gray-600 dark:text-gray-300">{{ ks.description }}</span>{% endif %}
-            </span>
-          </a>
-        </li>
-        {%- endif %}
-        {%- endfor %}
-      </ul>
-    </nav>
-    {%- endif %}
   </div>
-</section>
-
+  <figure class="order-last lg:order-none lg:col-span-5">
+    <div class="aspect-[2/1] overflow-hidden rounded-lg border border-gray-200 shadow-lg lg:aspect-[100/105] dark:border-gray-700" data-p5="rozpad" data-ratio="1.05" data-ratio-narrow="0.5" data-intensity="0.8" data-label="Síť pojmů, která se v ohnisku rozpadá a mimo něj znovu obnovuje.">
+      <noscript><img src="{{ get_url(path='img/cover.svg') }}" alt="Obálka: pravidelná síť pojmů, která se směrem ke středu rozpadá do fragmentů." class="w-full" width="600" height="800"></noscript>
+    </div>
+    <figcaption class="mt-2 text-sm text-gray-500 dark:text-gray-400">Síť pojmů v rozkladu a obnově. Pohybem myši posunete ohnisko. <a href="{{ get_url(path='@/galerie.md') }}" class="font-medium text-primary-700 hover:underline dark:text-primary-400">Galerie</a></figcaption>
+  </figure>
+  {#- Kde začít: vstup podle role čtenáře. Název, popis a počet stránek nese cílový oddíl. -#}
+  <nav class="lg:col-span-12" aria-labelledby="kde-zacit">
+    <h2 id="kde-zacit" class="mb-3 text-xl font-bold leading-none text-gray-900 dark:text-white">Kde začít</h2>
+    {% <grid cols="4" tag="ul"> %}
+      {%- for entry in [
+        ["kompendium/06-klinicke-aplikace/_index.md", "Klinická praxe"],
+        ["kompendium/forensic-legal/_index.md", "Vyšetřování a právo"],
+        ["kompendium/07-teoreticke-reflexe/_index.md", "Výzkum a teorie"],
+        ["kompendium/self-defense-guides/_index.md", "Obrana a zotavení"]] %}
+      {%- set s = get_section(path=entry[0], metadata_only=true) %}
+      {%- set n = nav.sections[entry[0]] %}
+      <li>{{ <tile href={s.permalink} title={entry[1]} count={n.total ~ " " ~ <plural n={n.total} forms={section.extra.plural.stranka} />} sub={s.title} desc={s.description | default(value="")} /> }}</li>
+      {%- endfor %}
+    {% </grid> %}
+  </nav>
+  {#- Katalogy: dlaždice pro každý blok [[catalog]] v data/catalogs.toml (ikona, název, anglický
+      název, popis sekce a počet hesel z front matter jejího rejstříku, extra.catalog_size, který
+      odvozuje scripts/catalogs.py). Nový katalog = nová dlaždice bez zásahu sem. -#}
+  {%- set kat = load_data(path="data/catalogs.toml", required=false) -%}
+  {%- if kat and kat.catalog %}
+  <nav class="lg:col-span-12" aria-labelledby="katalogy">
+    <h2 id="katalogy" class="mb-3 text-xl font-bold leading-none text-gray-900 dark:text-white">Katalogy</h2>
+    {% <grid cols="2" tag="ul" cls="sm:grid-cols-2"> %}
+      {%- for c in kat.catalog | sort(attribute="weight") %}
+      {%- set ks = get_section(path=c.section ~ "/_index.md", metadata_only=true, allow_missing=true) %}
+      {%- if ks %}
+      {%- set kn = ks.extra.catalog_size | default(value=0) %}
+      {%- if kn %}{% set kc = kn ~ " " ~ <plural n={kn} forms={["heslo", "hesla", "hesel"]} /> %}{% else %}{% set kc = none %}{% endif %}
+      <li>{{ <tile href={ks.permalink} title={c.title} num={c.icon | default(value="📚")} count={kc} sub={c.en | default(value="")} lang="en" desc={ks.description | default(value="")} /> }}</li>
+      {%- endif %}
+      {%- endfor %}
+    {% </grid> %}
+  </nav>
+  {%- endif %}
+</div>
+{% </page_header> %}
+{% <page_layout> %}
 {#- Upozornění: proč kniha není pro každého. Výrazný Flowbite alert hned pod úvodem. Bloky vedou
     na podstránky 01-predmluva/neni-pro-kazdeho/, jakmile existují (allow_missing): žádná cesta
     není napevno, chybějící stránka se zobrazí jako text a sestavení ji ověří přes get_url. -#}
@@ -124,14 +99,13 @@
   {"slug": "k-cemu-neslouzi", "title": "K čemu neslouží", "text": "Není to návod ani operativní manuál. Mechanismy jsou popsány na úrovni struktury, aby šly rozpoznat, ne provádět. Kniha není diagnostický nástroj ani náhrada odborné péče."}
 ] -%}
 {%- set npk_help = get_page(path=npk ~ "pomoc-hned.md", allow_missing=true) -%}
-<div class="px-4 pt-6">
-  <section class="rounded-lg border-2 border-l-8 border-yellow-400 bg-yellow-50 p-4 text-yellow-900 shadow sm:p-6 dark:border-yellow-500 dark:bg-gray-800 dark:text-yellow-100" role="note" aria-labelledby="upozorneni-title">
+  <section class="rounded-lg border-2 border-l-8 border-yellow-400 bg-yellow-50 p-4 text-yellow-900 shadow sm:p-6 xl:p-8 dark:border-yellow-500 dark:bg-gray-800 dark:text-yellow-100" role="note" aria-labelledby="upozorneni-title">
     <div class="flex items-start gap-3">
       <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-yellow-200 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-300">
-        <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/></svg>
+        {{ <icon name="warning" cls="h-6 w-6" /> }}
       </span>
       <div class="min-w-0 flex-1">
-        <h2 id="upozorneni-title" class="text-xl font-bold leading-tight sm:text-2xl">
+        <h2 id="upozorneni-title" class="text-xl font-bold leading-none">
           {%- if npk_section %}<a href="{{ npk_section.permalink }}" class="rounded hover:underline focus:outline-none focus:ring-4 focus:ring-yellow-300 dark:focus:ring-yellow-800">Proč tato kniha není pro každého</a>{% else %}Proč tato kniha není pro každého{% endif -%}
         </h2>
         <p class="mt-1 text-sm sm:text-base">Kompendium popisuje, jak lze systematicky rozkládat lidské poznávání, aby šlo takové působení rozpoznat, předejít mu a léčit jeho následky. Takové poznání má dvojí užití a čtení může být zatěžující.</p>
@@ -140,7 +114,7 @@
         {%- endif %}
       </div>
     </div>
-    <div class="mt-4 grid gap-3 text-sm md:grid-cols-3">
+    <div class="mt-4 grid grid-cols-1 gap-3 text-sm md:grid-cols-3">
       {%- for b in npk_blocks %}
       {%- set bp = get_page(path=npk ~ b.slug ~ ".md", allow_missing=true) %}
       {%- if bp %}
@@ -162,75 +136,59 @@
         {%- if npk_help %}<a href="{{ npk_help.permalink }}" class="rounded hover:underline focus:outline-none focus:ring-4 focus:ring-red-300 dark:focus:ring-red-800">Potřebujete pomoc hned?</a>{% else %}Potřebujete pomoc hned?{% endif -%}
       </p>
       <ul class="mt-2 flex flex-wrap gap-2">
-        <li><a class="inline-flex items-center gap-2 rounded-lg bg-red-700 px-3 py-2 font-semibold text-white hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900" href="tel:112">112 · tísňové volání</a></li>
-        <li><a class="inline-flex items-center gap-2 rounded-lg bg-red-700 px-3 py-2 font-semibold text-white hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900" href="tel:155">155 · záchranná služba</a></li>
-        <li><a class="inline-flex items-center gap-2 rounded-lg bg-red-700 px-3 py-2 font-semibold text-white hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900" href="tel:116123">116 123 · Linka první psychické pomoci (nonstop, zdarma)</a></li>
+        <li>{{ <button kind="danger" size="sm" href="tel:112" label="112 · tísňové volání" /> }}</li>
+        <li>{{ <button kind="danger" size="sm" href="tel:155" label="155 · záchranná služba" /> }}</li>
+        <li>{{ <button kind="danger" size="sm" href="tel:116123" label="116 123 · Linka první psychické pomoci (nonstop, zdarma)" /> }}</li>
       </ul>
       {%- if npk_help %}<a href="{{ npk_help.permalink }}" class="mt-2 inline-flex text-sm font-semibold text-red-700 underline hover:no-underline dark:text-red-400">Další kontakty a co dělat hned &rarr;</a>{% endif %}
     </div>
     <div class="mt-4 flex flex-wrap gap-2">
-      <a href="{{ get_url(path='@/kompendium/01-predmluva/eticke-aspekty.md') }}" class="inline-flex items-center rounded-lg bg-yellow-700 px-3 py-2 text-sm font-medium text-white hover:bg-yellow-800 focus:outline-none focus:ring-4 focus:ring-yellow-300 dark:bg-yellow-500 dark:text-gray-900 dark:hover:bg-yellow-400 dark:focus:ring-yellow-800">Etické aspekty</a>
-      <a href="{{ get_url(path='@/kompendium/01-predmluva/pro-koho-je-urceno.md') }}" class="inline-flex items-center rounded-lg border border-yellow-400 bg-white px-3 py-2 text-sm font-medium text-yellow-900 hover:bg-yellow-100 focus:outline-none focus:ring-4 focus:ring-yellow-300 dark:border-yellow-700 dark:bg-gray-800 dark:text-yellow-200 dark:hover:bg-gray-700 dark:focus:ring-yellow-800">Pro koho je kniha určena</a>
-      <a href="{{ get_url(path='@/kompendium/emergency-protocols/_index.md') }}" class="inline-flex items-center rounded-lg border border-yellow-400 bg-white px-3 py-2 text-sm font-medium text-yellow-900 hover:bg-yellow-100 focus:outline-none focus:ring-4 focus:ring-yellow-300 dark:border-yellow-700 dark:bg-gray-800 dark:text-yellow-200 dark:hover:bg-gray-700 dark:focus:ring-yellow-800">Krizové protokoly</a>
+      {{ <button kind="warning" size="sm" href={get_url(path='@/kompendium/01-predmluva/eticke-aspekty.md')} label="Etické aspekty" /> }}
+      {{ <button kind="secondary" size="sm" href={get_url(path='@/kompendium/01-predmluva/pro-koho-je-urceno.md')} label="Pro koho je kniha určena" /> }}
+      {{ <button kind="secondary" size="sm" href={get_url(path='@/kompendium/emergency-protocols/_index.md')} label="Krizové protokoly" /> }}
     </div>
   </section>
-</div>
 
 {#- Úvod, karusel a přehled knihy: pod upozorněním, nad kartami kapitol. -#}
 {% include "partials/landing-intro.html" %}
 
-<div class="px-4 pt-6">
-  <div class="grid grid-cols-1 gap-4 xl:grid-cols-3">
-    <div class="rounded-lg bg-white p-4 shadow sm:p-6 xl:col-span-2 xl:p-8 dark:bg-gray-800">
-      <div class="mb-4 flex items-center justify-between">
-        <h2 class="text-xl font-bold leading-none text-gray-900 dark:text-white">Kapitoly</h2>
-        <a href="{{ root.permalink }}" class="inline-flex items-center rounded-lg p-2 text-sm font-medium text-primary-700 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-800 dark:text-primary-400 dark:hover:bg-gray-700">Celý obsah</a>
-      </div>
-      <ol class="grid gap-3 md:grid-cols-2">
+  {% <grid cols="3"> %}
+    {% <card id="kapitoly-title" title="Kapitoly" cls="xl:col-span-2" action_href={root.permalink} action_label="Celý obsah"> %}
+      {% <grid cols="" tag="ol" cls="md:grid-cols-2"> %}
         {%- for path in root.subsections | sort %}
         {%- set s = get_section(path=path, metadata_only=true) %}
         {%- set first = s.components | last | truncate(length=1, end="") %}
         {%- if first in ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"] %}
-        <li>
-          <a href="{{ s.permalink }}" class="flex h-full gap-3 rounded-lg border border-gray-200 p-4 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-800 dark:border-gray-700 dark:hover:bg-gray-700">
-            <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary-100 font-mono text-sm font-semibold text-primary-800 dark:bg-primary-900 dark:text-primary-300">{{ s.components | last | truncate(length=2, end="") }}</span>
-            <span class="min-w-0">
-              <span class="block text-sm font-semibold text-gray-900 dark:text-white">{{ s.title }}</span>
-              {%- if s.description %}<span class="mt-1 block text-sm text-gray-500 dark:text-gray-400">{{ s.description | truncate(length=120) }}</span>{% endif %}
-            </span>
-          </a>
-        </li>
+        <li>{{ <tile href={s.permalink} title={s.title} num={s.components | last | truncate(length=2, end="")} desc={s.description | default(value="")} /> }}</li>
         {%- endif %}
         {%- endfor %}
-      </ol>
-    </div>
+      {% </grid> %}
+    {% </card> %}
     <div class="space-y-4">
-      <a href="{{ guide.permalink }}" class="group block rounded-lg bg-white p-4 shadow hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-800 sm:p-6 dark:bg-gray-800 dark:hover:bg-gray-700">
-        <h2 class="mb-2 text-xl font-bold leading-none text-gray-900 dark:text-white">{{ guide.title }}</h2>
-        {%- if guide.description %}<p class="text-sm text-gray-600 dark:text-gray-300">{{ guide.description }}</p>{% endif %}
-        <span class="mt-4 inline-flex items-center p-2 pl-0 text-sm font-medium text-primary-700 group-hover:underline dark:text-primary-400">Číst &rarr;</span>
-      </a>
-      <div class="rounded-lg bg-white p-4 shadow sm:p-6 dark:bg-gray-800">
-        <h2 class="mb-4 text-xl font-bold leading-none text-gray-900 dark:text-white">Kolekce</h2>
+      {% <card tag="a" cls="group block hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:hover:bg-gray-700 dark:focus:ring-primary-800" attrs={'href="' ~ guide.permalink ~ '"'}> %}
+        <h2 class="text-xl font-bold leading-none text-gray-900 dark:text-white">{{ guide.title }}</h2>
+        {%- if guide.description %}<p class="mt-2 text-sm text-gray-500 dark:text-gray-400">{{ guide.description }}</p>{% endif %}
+        <span class="mt-4 inline-flex items-center gap-1 text-sm font-medium text-primary-700 group-hover:underline dark:text-primary-400">Číst {{ <icon name="arrow-right" /> }}</span>
+      {% </card> %}
+      {% <card id="kolekce-title" title="Kolekce"> %}
         <ul class="flex flex-wrap gap-2">
           {%- for path in root.subsections | sort %}
           {%- set s = get_section(path=path, metadata_only=true) %}
           {%- set first = s.components | last | truncate(length=1, end="") %}
           {%- if first not in ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"] %}
-          <li><a href="{{ s.permalink }}" class="inline-block rounded-md bg-gray-100 px-2.5 py-1 text-xs font-medium text-gray-800 hover:bg-gray-200 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-800 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600">{{ s.title | truncate(length=40) }}</a></li>
+          <li>{{ <badge href={s.permalink} text={s.title | truncate(length=40)} /> }}</li>
           {%- endif %}
           {%- endfor %}
         </ul>
-      </div>
-      <div class="rounded-lg bg-white p-4 shadow sm:p-6 dark:bg-gray-800">
-        <h2 class="mb-2 text-xl font-bold leading-none text-gray-900 dark:text-white">Rozsah</h2>
+      {% </card> %}
+      {% <card id="rozsah-title" title="Rozsah"> %}
         <p class="text-sm text-gray-500 dark:text-gray-400">Přibližně {{ (words / 1000) | round }} tisíc slov v kapitolách a kolekcích, {{ refs.extra.entries }} citovaných pramenů. Čísla se počítají při každém sestavení webu.</p>
         <div class="mt-4 flex flex-wrap gap-1">
-          <a href="{{ get_url(path='@/stav.md') }}" class="inline-flex items-center rounded-lg p-2 text-sm font-medium text-primary-700 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-800 dark:text-primary-400 dark:hover:bg-gray-700">Stav knihy &rarr;</a>
-          <a href="{{ get_url(path='@/references.md') }}" class="inline-flex items-center rounded-lg p-2 text-sm font-medium text-primary-700 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-800 dark:text-primary-400 dark:hover:bg-gray-700">Reference &rarr;</a>
+          {{ <button kind="ghost" size="sm" href={get_url(path='@/stav.md')} label="Stav knihy" icon_end="arrow-right" /> }}
+          {{ <button kind="ghost" size="sm" href={get_url(path='@/references.md')} label="Reference" icon_end="arrow-right" /> }}
         </div>
-      </div>
+      {% </card> %}
     </div>
-  </div>
-</div>
+  {% </grid> %}
+{% </page_layout> %}
 {% endblock content %}

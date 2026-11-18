@@ -56,7 +56,7 @@
     <p class="text-base font-semibold text-gray-900 dark:text-white">Šest vrstev, které se mohou rozpadat</p>
     <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Od vnější epistemické vrstvy po metakognitivní jádro. Vrstvy se navzájem podpírají: rozpad jedné zatěžuje ostatní. Klepnutím vyberte vrstvu.</p>
   </figcaption>
-  <div class="grid items-center gap-6 lg:grid-cols-2">
+  <div class="grid grid-cols-1 items-center gap-6 lg:grid-cols-2">
     <svg viewBox="0 0 320 320" class="mx-auto w-full max-w-sm" role="group" aria-label="Soustředné kruhy šesti vrstev">
       {%- for l in layers %}
       {%- set r = 150 - loop.index0 * 24 %}
@@ -127,7 +127,7 @@
     <p class="mt-1 text-lg font-semibold text-gray-900 dark:text-white">{{ s.name }}</p>
     <p class="mt-1 text-sm text-gray-600 dark:text-gray-300">{{ s.self }}</p>
     <blockquote class="mt-3 border-l-4 border-primary-500 pl-3 text-base italic text-gray-800 dark:text-gray-100">„{{ s.voice }}“</blockquote>
-    <dl class="mt-4 grid gap-3 text-sm sm:grid-cols-2">
+    <dl class="mt-4 grid grid-cols-1 gap-3 text-sm sm:grid-cols-2">
       <div><dt class="font-semibold text-gray-900 dark:text-white">Čeho si všimnout</dt><dd class="mt-1 text-gray-600 dark:text-gray-300">{{ s.signs }}</dd></div>
       <div><dt class="font-semibold text-green-700 dark:text-green-400">Obrana</dt><dd class="mt-1 text-gray-600 dark:text-gray-300">{{ s.defense }}</dd></div>
     </dl>

@@ -1,6 +1,6 @@
 {#- Zola: v oddílu řazeném podle váhy nebo názvu je lower předchozí a higher další stránka. -#}
 {%- if doc.higher or doc.lower %}
-<nav class="mt-8 grid gap-4 border-t border-gray-200 pt-6 sm:grid-cols-2 dark:border-gray-700" aria-label="Předchozí a další">
+<nav class="mt-8 grid grid-cols-1 gap-4 border-t border-gray-200 pt-6 sm:grid-cols-2 dark:border-gray-700" aria-label="Předchozí a další">
   {%- if doc.lower %}
   <a href="{{ doc.lower.permalink }}" class="block rounded-lg border border-gray-200 p-4 hover:bg-gray-100 dark:border-gray-700 dark:hover:bg-gray-700">
     <span class="text-xs font-medium uppercase text-gray-500 dark:text-gray-400">&larr; Předchozí</span>

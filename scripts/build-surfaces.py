@@ -73,9 +73,9 @@ GENERIC_VIEWS = {
 }
 # Loaded by the shell on every page, or the component layer the views draw through
 # (scripts/check-viz-layer.py: vrstva.js for p5/three canvases, jadro.js the search and
-# neighbourhood engine (kompendium-engine/v1), kompendium-viz.js for
-# ECharts/cytoscape, kniha.js for Chart.js): not a view of a page. A view's canvas made through
-# the layer still counts, under the view's own script.
+# neighbourhood engine (kompendium-engine/v1), kompendium-viz.js for the ECharts chart and
+# network wrappers, kniha.js for the book's data): not a view of a page. A view's canvas made
+# through the layer still counts, under the view's own script.
 NOT_VIEWS = {"viz/paleta", "viz/kompendium-viz", "viz/vrstva", "viz/jadro", "viz/jadro-wasm",
              "kompendium/kniha"}
 # A scenario that paints nothing covers only the view its interaction or Mermaid check names.

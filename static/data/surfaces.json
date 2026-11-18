@@ -45,9 +45,7 @@
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
     "partials/subnav.html",
-    "partials/technique-hero.html",
-    "partials/toc.html",
-    "partials/toc_mobile.html"
+    "partials/technique-hero.html"
    ],
    "scenarios": [
     {
@@ -81,7 +79,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -162,9 +159,7 @@
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
     "partials/subnav.html",
-    "partials/technique-hero.html",
-    "partials/toc.html",
-    "partials/toc_mobile.html"
+    "partials/technique-hero.html"
    ],
    "scenarios": [
     {
@@ -183,7 +178,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -260,9 +254,7 @@
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
     "partials/subnav.html",
-    "partials/technique-hero.html",
-    "partials/toc.html",
-    "partials/toc_mobile.html"
+    "partials/technique-hero.html"
    ],
    "scenarios": [
     {
@@ -280,7 +272,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -343,8 +334,7 @@
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
-    "partials/subnav.html",
-    "partials/toc.html"
+    "partials/subnav.html"
    ],
    "scenarios": [
     {
@@ -363,7 +353,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -421,8 +410,7 @@
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
-    "partials/subnav.html",
-    "partials/toc.html"
+    "partials/subnav.html"
    ],
    "scenarios": [
     {
@@ -440,7 +428,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -513,9 +500,7 @@
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
     "partials/subnav.html",
-    "partials/technique-hero.html",
-    "partials/toc.html",
-    "partials/toc_mobile.html"
+    "partials/technique-hero.html"
    ],
    "scenarios": [
     {
@@ -534,7 +519,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -599,8 +583,7 @@
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
-    "partials/subnav.html",
-    "partials/toc.html"
+    "partials/subnav.html"
    ],
    "scenarios": [
     {
@@ -619,7 +602,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -668,9 +650,7 @@
     "viz/oddil": 2,
     "viz/okoli": 18
    },
-   "libraries": [
-    "chart"
-   ],
+   "libraries": [],
    "pages": 22,
    "partials": [
     "partials/connections.html",
@@ -694,9 +674,7 @@
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
     "partials/subnav.html",
-    "partials/technique-hero.html",
-    "partials/toc.html",
-    "partials/toc_mobile.html"
+    "partials/technique-hero.html"
    ],
    "scenarios": [
     {
@@ -715,7 +693,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -780,8 +757,7 @@
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
-    "partials/subnav.html",
-    "partials/toc.html"
+    "partials/subnav.html"
    ],
    "scenarios": [
     {
@@ -799,7 +775,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -856,8 +831,7 @@
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
-    "partials/subnav.html",
-    "partials/toc.html"
+    "partials/subnav.html"
    ],
    "scenarios": [
     {
@@ -875,7 +849,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -933,8 +906,7 @@
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
-    "partials/subnav.html",
-    "partials/toc.html"
+    "partials/subnav.html"
    ],
    "scenarios": [
     {
@@ -953,7 +925,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -1028,9 +999,7 @@
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
     "partials/subnav.html",
-    "partials/technique-hero.html",
-    "partials/toc.html",
-    "partials/toc_mobile.html"
+    "partials/technique-hero.html"
    ],
    "scenarios": [
     {
@@ -1049,7 +1018,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -1113,8 +1081,7 @@
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
-    "partials/subnav.html",
-    "partials/toc.html"
+    "partials/subnav.html"
    ],
    "scenarios": [
     {
@@ -1132,7 +1099,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -1189,8 +1155,7 @@
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
-    "partials/subnav.html",
-    "partials/toc.html"
+    "partials/subnav.html"
    ],
    "scenarios": [
     {
@@ -1208,7 +1173,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -1265,8 +1229,7 @@
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
-    "partials/subnav.html",
-    "partials/toc.html"
+    "partials/subnav.html"
    ],
    "scenarios": [
     {
@@ -1284,7 +1247,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -1341,8 +1303,7 @@
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
-    "partials/subnav.html",
-    "partials/toc.html"
+    "partials/subnav.html"
    ],
    "scenarios": [
     {
@@ -1360,7 +1321,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -1417,8 +1377,7 @@
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
-    "partials/subnav.html",
-    "partials/toc.html"
+    "partials/subnav.html"
    ],
    "scenarios": [
     {
@@ -1436,7 +1395,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -1506,9 +1464,7 @@
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
     "partials/subnav.html",
-    "partials/technique-hero.html",
-    "partials/toc.html",
-    "partials/toc_mobile.html"
+    "partials/technique-hero.html"
    ],
    "scenarios": [
     {
@@ -1526,7 +1482,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -1589,8 +1544,7 @@
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
-    "partials/subnav.html",
-    "partials/toc.html"
+    "partials/subnav.html"
    ],
    "scenarios": [
     {
@@ -1608,7 +1562,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -1666,8 +1619,7 @@
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
-    "partials/subnav.html",
-    "partials/toc.html"
+    "partials/subnav.html"
    ],
    "scenarios": [
     {
@@ -1686,7 +1638,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -1735,9 +1686,7 @@
     "viz/oddil": 1,
     "viz/okoli": 17
    },
-   "libraries": [
-    "chart"
-   ],
+   "libraries": [],
    "pages": 19,
    "partials": [
     "partials/connections.html",
@@ -1761,9 +1710,7 @@
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
     "partials/subnav.html",
-    "partials/technique-hero.html",
-    "partials/toc.html",
-    "partials/toc_mobile.html"
+    "partials/technique-hero.html"
    ],
    "scenarios": [
     {
@@ -1782,7 +1729,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -1847,8 +1793,7 @@
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
-    "partials/subnav.html",
-    "partials/toc.html"
+    "partials/subnav.html"
    ],
    "scenarios": [
     {
@@ -1866,7 +1811,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -1936,9 +1880,7 @@
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
     "partials/subnav.html",
-    "partials/technique-hero.html",
-    "partials/toc.html",
-    "partials/toc_mobile.html"
+    "partials/technique-hero.html"
    ],
    "scenarios": [
     {
@@ -1956,7 +1898,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -2036,9 +1977,7 @@
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
     "partials/subnav.html",
-    "partials/technique-hero.html",
-    "partials/toc.html",
-    "partials/toc_mobile.html"
+    "partials/technique-hero.html"
    ],
    "scenarios": [
     {
@@ -2057,7 +1996,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -2135,9 +2073,7 @@
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
     "partials/subnav.html",
-    "partials/technique-hero.html",
-    "partials/toc.html",
-    "partials/toc_mobile.html"
+    "partials/technique-hero.html"
    ],
    "scenarios": [
     {
@@ -2161,7 +2097,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -2239,9 +2174,7 @@
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
     "partials/subnav.html",
-    "partials/technique-hero.html",
-    "partials/toc.html",
-    "partials/toc_mobile.html"
+    "partials/technique-hero.html"
    ],
    "scenarios": [
     {
@@ -2260,7 +2193,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -2339,9 +2271,7 @@
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
     "partials/subnav.html",
-    "partials/technique-hero.html",
-    "partials/toc.html",
-    "partials/toc_mobile.html"
+    "partials/technique-hero.html"
    ],
    "scenarios": [
     {
@@ -2407,7 +2337,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -2484,9 +2413,7 @@
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
     "partials/subnav.html",
-    "partials/technique-hero.html",
-    "partials/toc.html",
-    "partials/toc_mobile.html"
+    "partials/technique-hero.html"
    ],
    "scenarios": [
     {
@@ -2504,7 +2431,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -2579,9 +2505,7 @@
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
     "partials/subnav.html",
-    "partials/technique-hero.html",
-    "partials/toc.html",
-    "partials/toc_mobile.html"
+    "partials/technique-hero.html"
    ],
    "scenarios": [
     {
@@ -2599,7 +2523,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -2674,9 +2597,7 @@
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
     "partials/subnav.html",
-    "partials/technique-hero.html",
-    "partials/toc.html",
-    "partials/toc_mobile.html"
+    "partials/technique-hero.html"
    ],
    "scenarios": [
     {
@@ -2694,7 +2615,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -2769,9 +2689,7 @@
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
     "partials/subnav.html",
-    "partials/technique-hero.html",
-    "partials/toc.html",
-    "partials/toc_mobile.html"
+    "partials/technique-hero.html"
    ],
    "scenarios": [
     {
@@ -2789,7 +2707,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -2865,9 +2782,7 @@
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
     "partials/subnav.html",
-    "partials/technique-hero.html",
-    "partials/toc.html",
-    "partials/toc_mobile.html"
+    "partials/technique-hero.html"
    ],
    "scenarios": [
     {
@@ -2895,7 +2810,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -2971,9 +2885,7 @@
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
     "partials/subnav.html",
-    "partials/technique-hero.html",
-    "partials/toc.html",
-    "partials/toc_mobile.html"
+    "partials/technique-hero.html"
    ],
    "scenarios": [
     {
@@ -2991,7 +2903,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -3066,9 +2977,7 @@
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
     "partials/subnav.html",
-    "partials/technique-hero.html",
-    "partials/toc.html",
-    "partials/toc_mobile.html"
+    "partials/technique-hero.html"
    ],
    "scenarios": [
     {
@@ -3086,7 +2995,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -3160,9 +3068,7 @@
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
     "partials/subnav.html",
-    "partials/technique-hero.html",
-    "partials/toc.html",
-    "partials/toc_mobile.html"
+    "partials/technique-hero.html"
    ],
    "scenarios": [
     {
@@ -3180,7 +3086,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -3256,9 +3161,7 @@
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
     "partials/subnav.html",
-    "partials/technique-hero.html",
-    "partials/toc.html",
-    "partials/toc_mobile.html"
+    "partials/technique-hero.html"
    ],
    "scenarios": [
     {
@@ -3276,7 +3179,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -3338,8 +3240,7 @@
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
-    "partials/subnav.html",
-    "partials/toc.html"
+    "partials/subnav.html"
    ],
    "scenarios": [
     {
@@ -3358,7 +3259,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -3429,9 +3329,7 @@
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
     "partials/subnav.html",
-    "partials/technique-hero.html",
-    "partials/toc.html",
-    "partials/toc_mobile.html"
+    "partials/technique-hero.html"
    ],
    "scenarios": [
     {
@@ -3462,7 +3360,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -3539,9 +3436,7 @@
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
     "partials/subnav.html",
-    "partials/technique-hero.html",
-    "partials/toc.html",
-    "partials/toc_mobile.html"
+    "partials/technique-hero.html"
    ],
    "scenarios": [
     {
@@ -3559,7 +3454,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -3634,9 +3528,7 @@
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
     "partials/subnav.html",
-    "partials/technique-hero.html",
-    "partials/toc.html",
-    "partials/toc_mobile.html"
+    "partials/technique-hero.html"
    ],
    "scenarios": [
     {
@@ -3654,7 +3546,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -3729,9 +3620,7 @@
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
     "partials/subnav.html",
-    "partials/technique-hero.html",
-    "partials/toc.html",
-    "partials/toc_mobile.html"
+    "partials/technique-hero.html"
    ],
    "scenarios": [
     {
@@ -3749,7 +3638,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -3798,10 +3686,10 @@
    ],
    "generic_views": {
     "viz/oddil": 1,
-    "viz/okoli": 5
+    "viz/okoli": 28
    },
    "libraries": [],
-   "pages": 6,
+   "pages": 29,
    "partials": [
     "partials/connections.html",
     "partials/explorer-glossary.html",
@@ -3824,9 +3712,7 @@
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
     "partials/subnav.html",
-    "partials/technique-hero.html",
-    "partials/toc.html",
-    "partials/toc_mobile.html"
+    "partials/technique-hero.html"
    ],
    "scenarios": [
     {
@@ -3844,7 +3730,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -3870,7 +3755,7 @@
    ],
    "status": "covered",
    "templates": {
-    "kompendium/page.html": 5,
+    "kompendium/page.html": 28,
     "section.html": 1
    },
    "views": {
@@ -3919,9 +3804,7 @@
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
     "partials/subnav.html",
-    "partials/technique-hero.html",
-    "partials/toc.html",
-    "partials/toc_mobile.html"
+    "partials/technique-hero.html"
    ],
    "scenarios": [
     {
@@ -3939,7 +3822,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -4014,9 +3896,7 @@
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
     "partials/subnav.html",
-    "partials/technique-hero.html",
-    "partials/toc.html",
-    "partials/toc_mobile.html"
+    "partials/technique-hero.html"
    ],
    "scenarios": [
     {
@@ -4034,7 +3914,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -4109,9 +3988,7 @@
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
     "partials/subnav.html",
-    "partials/technique-hero.html",
-    "partials/toc.html",
-    "partials/toc_mobile.html"
+    "partials/technique-hero.html"
    ],
    "scenarios": [
     {
@@ -4129,7 +4006,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -4204,9 +4080,7 @@
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
     "partials/subnav.html",
-    "partials/technique-hero.html",
-    "partials/toc.html",
-    "partials/toc_mobile.html"
+    "partials/technique-hero.html"
    ],
    "scenarios": [
     {
@@ -4224,7 +4098,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -4299,9 +4172,7 @@
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
     "partials/subnav.html",
-    "partials/technique-hero.html",
-    "partials/toc.html",
-    "partials/toc_mobile.html"
+    "partials/technique-hero.html"
    ],
    "scenarios": [
     {
@@ -4319,7 +4190,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -4396,9 +4266,7 @@
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
     "partials/subnav.html",
-    "partials/technique-hero.html",
-    "partials/toc.html",
-    "partials/toc_mobile.html"
+    "partials/technique-hero.html"
    ],
    "scenarios": [
     {
@@ -4450,7 +4318,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -4517,7 +4384,6 @@
    ],
    "generic_views": {},
    "libraries": [
-    "chart",
     "p5",
     "three"
    ],
@@ -4537,8 +4403,7 @@
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
-    "partials/subnav.html",
-    "partials/toc.html"
+    "partials/subnav.html"
    ],
    "scenarios": [
     {
@@ -4561,7 +4426,7 @@
       "kompendium/taxonomy-distribution-chart",
       "kompendium/technique-graph-3d"
      ],
-     "note": "vizualizace knihy (Chart.js, p5)",
+     "note": "vizualizace knihy (ECharts, p5)",
      "origin": "fixed",
      "page": "kompendium/visualizations/_index.md",
      "painted": 8,
@@ -4589,7 +4454,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -4675,9 +4539,7 @@
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
     "partials/subnav.html",
-    "partials/technique-hero.html",
-    "partials/toc.html",
-    "partials/toc_mobile.html"
+    "partials/technique-hero.html"
    ],
    "scenarios": [
     {
@@ -4695,7 +4557,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",
@@ -4774,9 +4635,7 @@
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
     "partials/subnav.html",
-    "partials/technique-hero.html",
-    "partials/toc.html",
-    "partials/toc_mobile.html"
+    "partials/technique-hero.html"
    ],
    "scenarios": [
     {
@@ -4819,7 +4678,7 @@
      "covers": [
       "viz/mapa"
      ],
-     "note": "Mapa knihy (cytoscape)",
+     "note": "Mapa knihy (síť ECharts)",
      "origin": "fixed",
      "page": "mapa.md",
      "painted": 1,
@@ -4866,7 +4725,6 @@
     "js/p5/grafika.js",
     "js/site.js",
     "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
     "js/vendor/flowbite.min.js",
     "js/vendor/mermaid-11.min.js",
     "js/vendor/p5-1.7.0.min.js",

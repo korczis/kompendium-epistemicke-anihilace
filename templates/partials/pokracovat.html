@@ -17,8 +17,7 @@
 {%- set pk = pk_pages[page.relative_path] -%}
 {%- if pk %}
 {%- set pk_btn = "inline-flex w-full min-w-0 items-center gap-3 rounded-lg px-4 py-3 text-left text-sm font-medium focus:outline-none focus:ring-4" %}
-<nav data-pokracovat class="mt-8 border-t border-gray-200 pt-6 dark:border-gray-700" aria-labelledby="pokracovat-title">
-  <h2 id="pokracovat-title" class="mb-3 text-sm font-semibold uppercase tracking-wide text-gray-900 dark:text-white">{{ pk_text.title }}</h2>
+{% <article_section tag="nav" id="pokracovat-title" title={pk_text.title} attrs="data-pokracovat"> %}
   <div class="grid grid-cols-1 gap-3 sm:grid-cols-2">
     {%- if pk.next %}
     <a href="{{ get_url(path='@/' ~ pk.next[0]) }}" data-pokracovat-kind="next" class="{{ pk_btn }} bg-primary-700 text-white hover:bg-primary-800 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
@@ -45,7 +44,7 @@
     </a>
     {%- endif %}
   </div>
-</nav>
+{% </article_section> %}
 {%- endif %}
 {%- endif %}
 {%- endif %}

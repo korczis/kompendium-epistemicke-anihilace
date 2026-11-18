@@ -6,6 +6,7 @@
 (function () {
   'use strict';
 
+  var L = window.KompendiumVrstva;
   var V = window.KompendiumViz;
 
   function fold(s) {
@@ -35,7 +36,7 @@
 
       init: function () {
         var self = this;
-        var params = new URLSearchParams(window.location.search);
+        var params = L.urlState.get();
         self.q = params.get('q') || '';
         self.family = params.get('rodina') || self.family;
         self.kind = params.get('druh') || '';
@@ -99,14 +100,9 @@
       },
 
       syncUrl: function () {
-        var p = new URLSearchParams();
-        if (this.q) p.set('q', this.q);
-        if (this.family && this.family !== fixedFamily) p.set('rodina', this.family);
-        if (this.kind) p.set('druh', this.kind);
-        if (this.risk) p.set('riziko', this.risk);
-        if (this.sort !== 'id') p.set('razeni', this.sort);
-        var s = p.toString();
-        window.history.replaceState(null, '', window.location.pathname + (s ? '?' + s : ''));
+        L.urlState.set({ q: this.q, rodina: this.family !== fixedFamily ? this.family : '',
+          druh: this.kind, riziko: this.risk, razeni: this.sort !== 'id' ? this.sort : '' },
+        { clear: true });
       },
 
       draw: function () {

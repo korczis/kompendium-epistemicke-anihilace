@@ -19,7 +19,7 @@ Writes, into static/data/ (nobody edits them by hand):
                  file, tags], plus the section labels; the source path and section of an
                  entry follow from its url and file (0 page.md, 1 _index.md, 2 index.md)
   viz-deps.json  every educational visualisation in static/js/kompendium/ -> the vendored
-                 libraries it calls (chart, p5, three); base.html loads only those
+                 libraries it calls (p5, three); base.html loads only those
   listings/<key>.json  every derived listing declared in data/listings.toml (ADR 0015,
                  rule project.listings-derived), built by scripts/listings.py from each member
                  page's own front matter; pages render them with load_data. A file of a listing
@@ -201,13 +201,12 @@ def search_index(pages: list) -> dict:
 def viz_deps() -> dict:
     """Which vendored library each visualisation script calls, read from its code.
 
-    Comments are stripped first (a comment naming "Chart.js" is no call). The calls are the
-    component layer's (K.chart, KompendiumVrstva.p5 / .three, see scripts/check-viz-layer.py)
-    and the libraries' own globals.
+    Comments are stripped first (a comment naming "p5.js" is no call). The calls are the
+    component layer's (KompendiumVrstva.p5 / .three, see scripts/check-viz-layer.py) and the
+    libraries' own globals. ECharts is not listed: the layer (KompendiumViz.echarts) loads it
+    on demand, so base.html never needs its script tag.
     """
-    probes = {"chart": re.compile(r"\bK\.chart\(|\bnew Chart\b|\bChart\.|\bwindow\.Chart\b|"
-                                  r"\btypeof Chart\b"),
-              "p5": re.compile(r"\.p5\(|\bnew p5\b|\bp5\.|\bwindow\.p5\b"),
+    probes = {"p5": re.compile(r"\.p5\(|\bnew p5\b|\bp5\.|\bwindow\.p5\b"),
               "three": re.compile(r"\.three\(|\bTHREE\.")}
     comments = re.compile(r"/\*.*?\*/|(^|\s)//[^\n]*", re.S)
     deps = {}

@@ -30,8 +30,8 @@ smysl a schopnost rozhodnout se.
 ## Techniky rodiny a konstrukty, jimž se podobají
 
 Abecední rejstřík rukopisu uvádí v rozsahu čísel 91–120 patnáct technik a tematický rejstřík
-přidává tři další: epistemickou teratogenezi (93), absolutní superkognitivní paralýzu (94) a
-absolutní epistemickou ultraparadoxní metastabilitu (95). Oba rejstříky tedy pro tuto kapitolu
+přidává tři další: [epistemickou teratogenezi](@/kompendium/puvodni-taxonomie/epistemicka-teratogeneze.md) (93), absolutní superkognitivní paralýzu (94) a
+[absolutní epistemickou ultraparadoxní metastabilitu](@/kompendium/puvodni-taxonomie/absolutni-epistemicka-ultraparadoxni-metastabilita.md) (95). Oba rejstříky tedy pro tuto kapitolu
 uvádějí osmnáct položek. Tři přidané položky tematický rejstřík uvádí jen jménem, bez
 definice, a kniha je proto do skupin níže nezařazuje; jak kniha s neúplnými seznamy rukopisu
 zachází, popisují [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
@@ -116,7 +116,7 @@ aporie](@/kompendium/techniques/ea-5-2-9-konceptualni-aporie.md) a logická anti
 [EA-5.1.30 Konceptuální entropie](@/kompendium/techniques/ea-5-1-30-konceptualni-entropie.md).
 Jazyková skupina se dotýká také [EA-1.1.3 Terminologická
 mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md), kde se význam
-nezničí, ale zahalí. Anankastická paralýza odpovídá [EA-5.1.16 Inferenční
+nezničí, ale zahalí. [Anankastická paralýza](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anankasticka-paralyza.md) odpovídá [EA-5.1.16 Inferenční
 paralýza](@/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md) a [EA-2.5.8 Rekurzivní
 spirála pochybnosti](@/kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md). Kde se
 rodina a kódovaná technika kryjí, platí kódovaná stránka, která je zpracována se zdroji,

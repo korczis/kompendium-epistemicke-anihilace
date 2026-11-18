@@ -11,35 +11,20 @@
 {%- set oddil_key = "root" %}
 {%- endif %}
 {%- set oddil_dir = section.relative_path | replace(from="_index.md", to="") %}
-<section class="rounded-lg bg-white p-4 shadow sm:p-6 xl:p-8 dark:bg-gray-800" aria-labelledby="oddil-h" data-oddil data-oddil-dir="{{ oddil_dir }}" data-oddil-key="{{ oddil_key }}">
+{% <card attrs={'aria-labelledby="oddil-h" data-oddil data-oddil-dir="' ~ oddil_dir ~ '" data-oddil-key="' ~ oddil_key ~ '"'}> %}
   <div class="mb-4 flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
     <div class="min-w-0">
-      <h2 id="oddil-h" class="mb-1 text-xl font-bold leading-none text-gray-900 dark:text-white">Přehled oddílu</h2>
-      <p class="text-sm text-gray-500 dark:text-gray-400">Rozsah stránek a to, jak na sebe navazují. Čísla se počítají z grafu odkazů knihy.</p>
+      <h2 id="oddil-h" class="text-xl font-bold leading-none text-gray-900 dark:text-white">Přehled oddílu</h2>
+      <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Rozsah stránek a to, jak na sebe navazují. Čísla se počítají z grafu odkazů knihy.</p>
     </div>
-    <a href="{{ get_url(path='@/mapa.md') }}?oddil={{ oddil_key | urlencode }}" class="inline-flex shrink-0 items-center justify-center rounded-lg bg-primary-700 px-3 py-2 text-center text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
-      <svg class="-ml-0.5 mr-2 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 6.75V15m6-6v8.25m.503 3.498 4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 0 0-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0Z"/></svg>
-      Otevřít oddíl v Mapě knihy
-    </a>
+    {{ <button size="sm" href={get_url(path='@/mapa.md') ~ "?oddil=" ~ (oddil_key | urlencode)} icon="map" label="Otevřít oddíl v Mapě knihy" cls="shrink-0" /> }}
   </div>
 
   <dl class="grid grid-cols-2 gap-3 sm:grid-cols-4 sm:gap-4" aria-live="polite">
-    <div class="rounded-lg border border-gray-200 bg-gray-50 p-3 sm:p-4 dark:border-gray-700 dark:bg-gray-700">
-      <dt class="text-sm text-gray-500 dark:text-gray-300">stránek</dt>
-      <dd class="text-xl font-bold leading-tight text-gray-900 sm:text-2xl dark:text-white" data-oddil-stat="pages">{{ section.pages | length }}</dd>
-    </div>
-    <div class="rounded-lg border border-gray-200 bg-gray-50 p-3 sm:p-4 dark:border-gray-700 dark:bg-gray-700">
-      <dt class="text-sm text-gray-500 dark:text-gray-300">slov</dt>
-      <dd class="text-xl font-bold leading-tight text-gray-900 sm:text-2xl dark:text-white" data-oddil-stat="words">…</dd>
-    </div>
-    <div class="rounded-lg border border-gray-200 bg-gray-50 p-3 sm:p-4 dark:border-gray-700 dark:bg-gray-700">
-      <dt class="text-sm text-gray-500 dark:text-gray-300" title="Odkazy z jiných oddílů knihy na stránky tohoto oddílu">odkazů sem</dt>
-      <dd class="text-xl font-bold leading-tight text-gray-900 sm:text-2xl dark:text-white" data-oddil-stat="in">…</dd>
-    </div>
-    <div class="rounded-lg border border-gray-200 bg-gray-50 p-3 sm:p-4 dark:border-gray-700 dark:bg-gray-700">
-      <dt class="text-sm text-gray-500 dark:text-gray-300" title="Odkazy ze stránek tohoto oddílu do jiných oddílů knihy">odkazů ven</dt>
-      <dd class="text-xl font-bold leading-tight text-gray-900 sm:text-2xl dark:text-white" data-oddil-stat="out">…</dd>
-    </div>
+    {{ <kpi inset={true} label="stránek" value={section.pages | length} vattrs='data-oddil-stat="pages"' /> }}
+    {{ <kpi inset={true} label="slov" value="…" vattrs='data-oddil-stat="words"' /> }}
+    {{ <kpi inset={true} label="odkazů sem" value="…" title="Odkazy z jiných oddílů knihy na stránky tohoto oddílu" vattrs='data-oddil-stat="in"' /> }}
+    {{ <kpi inset={true} label="odkazů ven" value="…" title="Odkazy ze stránek tohoto oddílu do jiných oddílů knihy" vattrs='data-oddil-stat="out"' /> }}
   </dl>
   <p class="mt-2 text-xs text-gray-500 dark:text-gray-400">Odkazy sem a ven počítají jen vazby mezi tímto oddílem a zbytkem knihy; odkazy uvnitř oddílu nezahrnují.</p>
 
@@ -47,9 +32,7 @@
     <div class="min-w-0 lg:col-span-3">
       <h3 class="mb-1 text-base font-semibold text-gray-900 dark:text-white">Rozsah a provázanost</h3>
       <p class="mb-2 text-sm text-gray-500 dark:text-gray-400">Bod je stránka: vodorovně počet slov, svisle počet stránek, které na ni odkazují. Klepnutím ji otevřete.</p>
-      <div data-oddil-chart class="h-72 w-full sm:h-80" role="img" aria-label="Bodový graf stránek oddílu podle počtu slov a počtu odkazujících stránek; stejné stránky jsou dostupné v seznamu níže">
-        <div class="flex h-full items-center justify-center rounded-lg bg-gray-50 text-sm text-gray-500 dark:bg-gray-700 dark:text-gray-300">Graf se načte, až se k němu doposouváte.</div>
-      </div>
+      {{ <chart_host height="h-72 sm:h-80" label="Bodový graf stránek oddílu podle počtu slov a počtu odkazujících stránek; stejné stránky jsou dostupné v seznamu níže" attrs="data-oddil-chart" placeholder="Graf se načte, až se k němu doposouváte." /> }}
     </div>
     <div class="min-w-0 lg:col-span-2">
       <h3 class="mb-1 text-base font-semibold text-gray-900 dark:text-white">Nejodkazovanější v oddílu</h3>
@@ -64,7 +47,7 @@
               <span data-slot="title" class="block truncate text-sm font-medium text-gray-900 dark:text-white"></span>
               <span data-slot="words" class="block text-xs text-gray-500 dark:text-gray-400"></span>
             </span>
-            <span data-slot="in" class="shrink-0 rounded-full bg-primary-100 px-2 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300"></span>
+            {{ <badge tone="primary" cls="shrink-0" attrs='data-slot="in"' /> }}
           </a>
         </li>
       </template>
@@ -77,13 +60,13 @@
     <p id="oddil-prehled-d" class="mb-2 text-sm text-gray-500 dark:text-gray-400">Dlaždice je stránka oddílu, plocha odpovídá počtu slov a barva stavu podle pravidel informační architektury knihy: rozpracovaná stránka je pod hranicí rozsahu (u běžné stránky {{ config.extra.ia_detail_words }} slov). Klepnutím ji otevřete; z klávesnice graf vyberte tabulátorem, šipkami procházejte stránky od nejrozsáhlejší a klávesou Enter je otevřete.</p>
     <ul class="mb-3 flex flex-wrap gap-x-4 gap-y-1" aria-label="Legenda: barvy stavu stránek">
       {%- for s in [["rozvinuta", "rozvinutá"], ["rozpracovana", "rozpracovaná"], ["generovana", "s generovaným textem"]] %}
-      <li class="flex items-center gap-2 text-sm text-gray-700 dark:text-gray-300"><span data-pohled-stav-barva="{{ s[0] }}" class="h-3 w-3 shrink-0 rounded-sm bg-gray-300 dark:bg-gray-600" aria-hidden="true"></span>{{ s[1] }} <span data-pohled-pocet="{{ s[0] }}" class="rounded-full bg-gray-100 px-1.5 text-xs font-medium text-gray-800 dark:bg-gray-700 dark:text-gray-300">…</span></li>
+      <li class="flex items-center gap-2 text-sm text-gray-700 dark:text-gray-300"><span data-pohled-stav-barva="{{ s[0] }}" class="h-3 w-3 shrink-0 rounded-sm bg-gray-300 dark:bg-gray-600" aria-hidden="true"></span>{{ s[1] }} {{ <badge text="…" attrs={'data-pohled-pocet="' ~ s[0] ~ '"'} /> }}</li>
       {%- endfor %}
     </ul>
     {%- set pg = {"label": "Treemap stránek oddílu podle počtu slov a stavu", "desc": "oddil-prehled-d", "cls": "h-80 sm:h-96", "placeholder": "Graf se načte, až se k němu doposouváte."} %}
     {% include "partials/pohled-graf.html" %}
   </div>
-</section>
+{% </card> %}
 <script src="{{ get_url(path='js/viz/kompendium-viz.js', cachebust=true) }}" defer></script>
 <script src="{{ get_url(path='js/viz/oddil.js', cachebust=true) }}" defer></script>
 <script src="{{ get_url(path='js/viz/oddil-prehled.js', cachebust=true) }}" defer></script>

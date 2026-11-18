@@ -7,10 +7,9 @@
 (function () {
   'use strict';
 
+  var L = window.KompendiumVrstva;
   var CASE_SECTIONS = { 'kompendium/case-studies': true, 'kompendium/historical-cases': true };
   var nf = new Intl.NumberFormat('cs-CZ');
-
-  function isIndex(n) { return /(^|\/)_index(\.[a-z]+)?\.md$/.test(n.path); }
 
   // „v 1 případu“, „ve 2 případech“, „v 5 případech“.
   function inCases(n) {
@@ -40,7 +39,7 @@
       var cases = 0;
       G.in[n.id].forEach(function (id) {
         var m = G.byId[id];
-        if (seen[id] || !m || isIndex(m) || !CASE_SECTIONS[m.section]) return;
+        if (seen[id] || !m || L.isIndex(m) || !CASE_SECTIONS[m.section]) return;
         seen[id] = true;
         cases++;
       });
@@ -68,14 +67,7 @@
     if (bar) bar.style.background = color;
     var jump = root.querySelector('[data-hx-jump-kontext]');
     if (jump && document.querySelector('[data-kontext]')) jump.hidden = false;
-    if (!('IntersectionObserver' in window)) { render(root, V); return; }
-    var io = new IntersectionObserver(function (entries) {
-      if (entries.some(function (en) { return en.isIntersecting; })) {
-        io.disconnect();
-        render(root, V);
-      }
-    }, { rootMargin: '200px' });
-    io.observe(root);
+    L.lazy(root, function () { render(root, V); }, '200px');
   }
 
   // Skripty s defer běží v pořadí dokumentu a kompendium-viz.js je až za tímto,

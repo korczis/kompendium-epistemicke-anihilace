@@ -110,12 +110,12 @@ varuje.
 **Technická vrstva**
 
 - [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md) –
-  třicet technik EA-5.1.
+  výpis všech technik rodiny EA-5.1, odvozený z jejich stránek.
 - [Pokročilé operace – kapitola 6](@/kompendium/05-pokrocile-operace/kapitola-6/_index.md) a
   [Pokročilé techniky – kapitola 6](@/kompendium/05-pokrocile-techniky/kapitola-6/_index.md)
-  – rozcestníky po klastrech.
+  – rozcestníky, které techniky rodiny představují v pořadí kódů, s jejich znaky a odlišením.
 - [EA-5.1.28 Konvergentní singularita](@/kompendium/techniques/ea-5-1-28-konvergentni-singularita.md)
-  – vrcholová technika.
+  – sbíhání všech úvah k jediné odpovědi, podle své stránky terminální stav rodiny.
 
 **Systémová úroveň**
 

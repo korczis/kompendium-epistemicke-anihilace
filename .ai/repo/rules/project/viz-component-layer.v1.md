@@ -36,6 +36,11 @@ tématu existovaly ve dvou kopiích; jedna z nich měla na tmavém povrchu kontr
   nesmí vrátit: `new Chart`, `cytoscape({…})`, vendorovaný `chart*.js`/`cytoscape*.js`, závislost
   v package.json ani `<script src=…chart/cytoscape…>` jsou zakázané kdekoli — `scripts/check-viz-layer.py`
   je hlásí a skončí kódem 1.
+- Popisky os se vejdou do grafu přes vrstvu: obal nastaví `grid.outerBounds` na každém
+  kartézském grafu (ECharts 6 měří popisky tak, jak jsou vykreslené). Zastaralé
+  `grid.containLabel: true` je zakázané ve skriptu i ve volbě `chart_inline`
+  (`static/data/charts/`); opt-out jde jen přes obal `static/js/viz/kompendium-viz.js` —
+  `scripts/check-viz-layer.py` to hlásí.
 - Plátno je mobile first: šířka podle hostitele, výška z poměru stran v mezích, přepočet při
   změně šířky; na 390 px nic nepřetéká. Animace stojí mimo obrazovku a při
   prefers-reduced-motion a má ovládání Pozastavit/Spustit (WCAG 2.2, 2.2.2). Plátno je

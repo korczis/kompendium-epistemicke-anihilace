@@ -33,6 +33,13 @@ odhalí jen prohlížeč.
   - `scripts/audit-ui.cjs`: žádné porušení axe-core WCAG 2.2 AA (375 a 1440 px, světlý i
     tmavý režim), žádná chyba konzole či sítě, žádné vodorovné přetečení (320–1920 px),
     CLS nejvýše 0,1.
+- Pokrytí funkcí JS je západka: `test/e2e/surfaces.cjs` s `COVERAGE_OUT` zapíše V8 pokrytí
+  každého skriptu ve `static/js` (mimo `vendor/` a `*.min.js`) a `scripts/check-js-coverage.py`
+  ho porovná se základnou `test/js-coverage-baseline.json` (case 69): každý skript musí být
+  načten některým scénářem; skript s nezměněným zdrojem (stejná SHA-256) nesmí pokrývat méně
+  funkcí než základna; změněný skript nesmí mít nižší podíl pokrytých funkcí; `--update`
+  základnu jen zvyšuje a odmítne se, dokud trvá jakýkoli nález. Nový scénář ani test nikdy
+  pokrytí nesníží.
 - Nová interaktivní funkce dostane scénář v `test/e2e/surfaces.cjs`; nová třída stránek
   řádek v seznamu stránek auditu i scénářů.
 - Překryvná vrstva (drawer, modal, dropdown, paleta) se testuje skutečným ťuknutím na prvky,

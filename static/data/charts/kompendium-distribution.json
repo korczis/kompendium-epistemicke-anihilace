@@ -9,8 +9,7 @@
     "left": 8,
     "right": 32,
     "top": 8,
-    "bottom": 32,
-    "containLabel": true
+    "bottom": 32
   },
   "xAxis": {
     "type": "value",

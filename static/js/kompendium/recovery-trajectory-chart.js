@@ -83,7 +83,7 @@
               return '<b>' + L.esc(x.row.phase) + '</b><br>' + L.esc(x.row.frame) + ' • ' +
                 L.count(x.count, ['protokol', 'protokoly', 'protokolů']);
             } }, K.V.tooltip(t)),
-            grid: { left: 8, right: 32, top: hd.top, bottom: 28, containLabel: true },
+            grid: { left: 8, right: 32, top: hd.top, bottom: 28 },
             xAxis: K.V.axis(t, { type: 'value', minInterval: 1, name: 'Počet protokolů v rejstříku',
               nameLocation: 'middle', nameGap: 26 }),
             yAxis: K.V.axis(t, { type: 'category', inverse: true,

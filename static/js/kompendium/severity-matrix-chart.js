@@ -62,7 +62,7 @@
               return L.esc(K.familyLabel(d.fam) + ' / ' + d.level.label) + ': ' +
                 L.count(d.count, ['stránka', 'stránky', 'stránek']);
             } }, K.V.tooltip(t)),
-            grid: { left: 8, right: 16, top: hd.top + 16, bottom: 36, containLabel: true },
+            grid: { left: 8, right: 16, top: hd.top + 16, bottom: 36 },
             xAxis: K.V.axis(t, { type: 'category', data: levels.map(function (l) { return l.label; }),
               name: 'Úroveň rizika (risk_level stránky)', nameLocation: 'middle', nameGap: 28,
               splitLine: { show: true, lineStyle: { color: t.grid, type: 'dashed' } } }),

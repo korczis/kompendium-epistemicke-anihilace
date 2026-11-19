@@ -144,7 +144,7 @@
       var narrow = (el.clientWidth || 320) < 640;
       return {
         animation: !window.KompendiumVrstva.reducedMotion(),
-        grid: { left: 12, right: 12, top: 12, bottom: 4, containLabel: true },
+        grid: { left: 12, right: 12, top: 12, bottom: 4 },
         tooltip: Object.assign({ trigger: 'item', confine: true, formatter: function (p) {
           var c = m.cells[p.dataIndex];
           return '<b>' + L.esc(c.family.id + ' ' + c.family.name) + '</b><br>riziko ' + L.esc(c.risk.label) + ': ' +

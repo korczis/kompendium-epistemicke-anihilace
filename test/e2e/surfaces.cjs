@@ -6,6 +6,9 @@
 // Použití: BASE_URL=http://127.0.0.1:18790/ [SITE_DIR=<sestavený web>] [ONLY=<regexp cesty>]
 //          node test/e2e/surfaces.cjs
 // (web sestavený s --base-url na tutéž adresu). Playwright: PLAYWRIGHT=<cesta k playwright-core>.
+// COVERAGE_OUT=<soubor.json>: každá stránka běhu měří pokrytí JS (V8), sloučené po souborech pod
+// static/js (bez vendor) se zapíše do souboru; porovná ho scripts/check-js-coverage.py
+// (test/e2e/js-coverage.cjs).
 //
 // Jako modul (bez prohlížeče): require('./test/e2e/surfaces.cjs') vrací { FIXED, derived,
 // fromDir }. derived(load) vrací odvozené scénáře, které by běh použil; load(cesta) vrací text
@@ -163,6 +166,24 @@ async function derived(load = fromBase) {
       const s = classView(await load(page(n)).catch(() => ''));
       if (s) { out.push({ path: page(n), ...s, note: `třída ${section}: ${s.note}` }); break; }
     }
+  }
+  // Skript vizualizace knihy (static/js/kompendium/<name>.js, komponenta viz_script), který žádná
+  // stránka scénářů nenačte: jeho nejodkazovanější stránka z grafu. Plocha skriptu (prvek s id
+  // jména skriptu, do kterého vrstva kreslí) musí mít plátno. Skript, který nenačte ani jeden
+  // scénář, odmítne brána pokrytí JS (scripts/check-js-coverage.py).
+  const scriptsOf = (html) => [...html.matchAll(/\/js\/kompendium\/([\w-]+)\.js/g)].map((m) => m[1]);
+  const loaded = new Set();
+  for (const s of FIXED.concat(out)) {
+    scriptsOf(await load(s.path.split('?')[0]).catch(() => '')).forEach((x) => loaded.add(x));
+  }
+  for (const n of g.nodes.slice().sort(byRank)) {
+    const html = await load(page(n)).catch(() => '');
+    const fresh = [...new Set(scriptsOf(html))].filter((x) => !loaded.has(x));
+    if (!fresh.length) continue;
+    fresh.forEach((x) => loaded.add(x));
+    const hosts = fresh.filter((x) => html.includes(`id="${x}"`));
+    out.push({ path: page(n), painted: 1, counts: hosts.map((x) => [`#${x} canvas`, 1]),
+      note: `skript vizualizace ${fresh.join(', ')}` });
   }
   return out;
 }
@@ -951,6 +972,7 @@ async function main() {
     process.exit(2);
   }
   const browser = await chromium.launch();
+  const coverage = process.env.COVERAGE_OUT ? require('./js-coverage.cjs').instrument(browser, BASE) : null;
   let failed = 0;
   for (const s of SURFACES) {
     for (const [label, viewport, scheme] of [['desktop/tmavý', { width: 1440, height: 900 }, 'dark'], ['telefon/světlý', { width: 390, height: 844 }, 'light']]) {
@@ -961,6 +983,7 @@ async function main() {
     }
   }
   const interactionsFailed = await runInteractions(browser);
+  if (coverage) { await coverage.collect(); coverage.write(process.env.COVERAGE_OUT); }
   await browser.close();
   console.log(`surfaces: ${SURFACES.length * 2 - failed}/${SURFACES.length * 2} v pořádku`);
   process.exit(failed || interactionsFailed ? 1 : 0);

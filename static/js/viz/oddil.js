@@ -108,7 +108,7 @@
             d.value[1] + ' ' + L.plural(d.value[1], ['stránka odkazuje', 'stránky odkazují', 'stránek odkazuje']) +
             ' sem';
         } }, V.tooltip(t)),
-        grid: { left: 8, right: 24, top: 32, bottom: 28, containLabel: true },
+        grid: { left: 8, right: 24, top: 32, bottom: 28 },
         xAxis: V.axis(t, { type: 'log', name: 'slov (log)', nameLocation: 'middle', nameGap: 28,
           min: niceFloor(minWords), max: niceCeil(maxWords), splitLine: { show: false },
           axisLabel: { color: t.muted, hideOverlap: true, formatter: function (v) { return nf.format(v); } } }),

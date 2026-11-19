@@ -117,7 +117,7 @@
           tooltip: Object.assign(V.tooltip(t), { formatter: function (p) {
             return A[aKeys[p.data[1]]].label + ' × ' + B[bKeys[p.data[0]]].label + ': ' + p.data[2] + ' ' + L.plural(p.data[2], PAGES);
           } }),
-          grid: { left: 8, right: 8, top: 8, bottom: 64, containLabel: true },
+          grid: { left: 8, right: 8, top: 8, bottom: 64 },
           xAxis: V.axis(t, { type: 'category', data: bKeys.map(function (k) { return B[k].label; }),
             axisLabel: { color: t.muted, interval: 0, rotate: 30 } }),
           yAxis: V.axis(t, { type: 'category', data: aKeys.map(function (k) { return A[k].label; }),

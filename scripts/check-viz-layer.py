@@ -30,6 +30,11 @@ Computation over the book's data has one owner too (ADR 0011, rule project.site-
                                    it reproduces test/cases/engine/
   static/js/viz/vrstva.js          the Zola-shaped URL slug (slug)
 
+Axis labels fit the chart box through the wrapper too: it sets grid.outerBounds on every
+cartesian chart (ECharts 6 measures the labels as drawn). The legacy grid.containLabel only
+estimates and samples every n-th label above 40 categories, which clipped the longest one, so
+`containLabel: true` in a script or in a chart_inline option (static/data/charts/) is a finding.
+
 so text folding (`.normalize('NFD'/'NFKD')`) outside those two is a finding: a filter or a
 ranking with its own folding answers differently from the search in the header. Loading the
 derived data (fetch) is limited to the existing loaders, so a new script reads through
@@ -96,6 +101,8 @@ RULES = [
      r"\bnew\s+(?:window\.)?IntersectionObserver\b", {"viz/vrstva.js", "site.js"}),
     ("own URL state (use KompendiumVrstva.urlState.set)",
      r"\bhistory\.replaceState\s*\(", {"viz/vrstva.js"}),
+    ("legacy grid.containLabel (the chart wrapper fits axis labels with grid.outerBounds)",
+     r"[\"']?\bcontainLabel[\"']?\s*:\s*true\b", {"viz/kompendium-viz.js"}),
 ]
 
 
@@ -211,6 +218,12 @@ def main() -> int:
                 line = text.count("\n", 0, m.start()) + 1
                 findings.append(f"static/js/{rel}:{line}: {what} outside the layer "
                                 f"({', '.join(sorted(allowed))})")
+    legacy = RULES[-1]
+    for path in sorted((ROOT / "static" / "data" / "charts").glob("*.json")):
+        text = path.read_text(encoding="utf-8")
+        for m in re.finditer(legacy[1], text):
+            line = text.count("\n", 0, m.start()) + 1
+            findings.append(f"{path.relative_to(ROOT).as_posix()}:{line}: {legacy[0]}")
     findings += content_findings()
     findings += banned_findings()
     for f in findings:

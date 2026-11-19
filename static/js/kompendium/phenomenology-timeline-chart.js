@@ -53,7 +53,7 @@
               var pt = tracks[p.seriesIndex].points[p.dataIndex];
               return '<b>' + L.esc(pt.n.title) + '</b><br>' + L.count(pt.n.in, ['odkaz', 'odkazy', 'odkazů']) + ' z knihy';
             } }, K.V.tooltip(t)),
-            grid: { left: 36, right: 16, top: hd.top, bottom: 28, containLabel: true },
+            grid: { left: 36, right: 16, top: hd.top, bottom: 28 },
             xAxis: K.V.axis(t, { type: 'value', min: 0, max: order + 1, minInterval: 1,
               name: 'Pořadí v rejstříku signatur', nameLocation: 'middle', nameGap: 26 }),
             yAxis: K.V.axis(t, { type: 'value', min: 0, max: function (v) { return Math.max(v.max, maxIn) + 1; },

@@ -253,7 +253,7 @@
           return '<b>' + p.name + '</b><br>' + nf.format(p.value) + ' ' + pagesWord(p.value) +
             (p.data.url ? '<br><span style="color:' + t.muted + '">Klepnutím otevřete oddíl</span>' : '');
         } }, V.tooltip(t)),
-        grid: { left: 8, right: 36, top: 4, bottom: 4, containLabel: true },
+        grid: { left: 8, right: 36, top: 4, bottom: 4 },
         xAxis: V.axis(t, { type: 'value', minInterval: 1, axisLabel: { show: false }, splitLine: { show: false } }),
         yAxis: V.axis(t, { type: 'category', inverse: true, data: sections.map(function (s) { return s.name; }),
           axisTick: { show: false },

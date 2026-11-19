@@ -100,7 +100,7 @@
             var pt = owner[p.seriesIndex] && owner[p.seriesIndex].data[p.dataIndex];
             return pt ? '<b>' + L.esc(name(pt.n)) + '</b><br>' + L.esc(period(pt.n)) : '';
           } }, K.V.tooltip(t)),
-          grid: { left: 8, right: 16, top: hd.top, bottom: 56, containLabel: true },
+          grid: { left: 8, right: 16, top: hd.top, bottom: 56 },
           xAxis: K.V.axis(t, { type: 'value', min: minY - 5, max: maxY + 5, name: 'Rok', nameLocation: 'middle',
             nameGap: 26, axisLabel: { color: t.muted, formatter: function (v) { return String(v); } } }),
           yAxis: K.V.axis(t, { type: 'value', inverse: true, min: -0.6, max: cats.length - 0.4,

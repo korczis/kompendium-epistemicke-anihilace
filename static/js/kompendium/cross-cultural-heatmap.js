@@ -74,7 +74,7 @@
           var d = data[p.dataIndex];
           return L.esc(rowLabel(d.row) + ' × ' + d.fam) + ': ' + L.count(d.v, ['odkaz', 'odkazy', 'odkazů']);
         } }, K.V.tooltip(t)),
-        grid: { left: 8, right: 16, top: hd.top + 24, bottom: 48, containLabel: true },
+        grid: { left: 8, right: 16, top: hd.top + 24, bottom: 48 },
         xAxis: { type: 'category', position: 'top', data: fams, axisTick: { show: false },
           axisLine: { lineStyle: { color: t.grid } }, axisLabel: { color: t.muted } },
         yAxis: { type: 'category', inverse: true, data: rows.map(rowLabel), axisTick: { show: false },

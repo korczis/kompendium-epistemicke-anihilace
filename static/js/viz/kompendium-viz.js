@@ -149,6 +149,22 @@
     if (opt.animationEasingUpdate == null) opt.animationEasingUpdate = 'cubicOut';
   }
 
+  // Popisky os se vejdou do plochy u každého kartézského grafu. Starý grid.containLabel ECharts 6
+  // jen odhaduje a nad 40 kategoriemi měří každý n-tý popisek, takže ten nejdelší přeteče doleva;
+  // grid.outerBounds měří popisky, jak se skutečně vykreslí. left/right/top/bottom gridu jsou
+  // okraje od kraje plochy k popiskům. Graf, který okraje řídí sám, nese containLabel: false
+  // nebo vlastní outerBoundsMode.
+  function fitAxisLabels(opt) {
+    if (!opt.xAxis && !opt.yAxis) return;
+    if (!opt.grid) opt.grid = {};
+    (Array.isArray(opt.grid) ? opt.grid : [opt.grid]).forEach(function (g) {
+      if (g.containLabel === false || g.outerBoundsMode != null) return;
+      delete g.containLabel;
+      g.outerBoundsMode = 'same';
+      if (g.outerBoundsContain == null) g.outerBoundsContain = 'axisLabel';
+    });
+  }
+
   function echartsIn(el, makeOption) {
     if (!el) return Promise.reject(new Error('graf nemá plochu'));
     var st = el.__vrstvaChart;
@@ -170,6 +186,7 @@
         opt.textStyle = Object.assign({ fontFamily: 'Inter, system-ui, sans-serif', color: t.text }, opt.textStyle || {});
         opt.color = opt.color || PALETTE;
         if (!opt.aria) opt.aria = { enabled: true, label: { description: el.getAttribute('aria-label') || '' } };
+        fitAxisLabels(opt);
         motion(opt);
         chart.setOption(opt, true);
         st.hooks.forEach(function (fn) { fn(chart); });

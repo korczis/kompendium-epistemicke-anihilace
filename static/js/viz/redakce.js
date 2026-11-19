@@ -324,7 +324,7 @@
         },
       }, V.tooltip(t)),
       legend: { show: false },
-      grid: { left: 8, right: 16, top: 8, bottom: 8, containLabel: true },
+      grid: { left: 8, right: 16, top: 8, bottom: 8 },
       xAxis: V.axis(t, { type: 'value', minInterval: 1 }),
       yAxis: V.axis(t, {
         type: 'category', inverse: true, data: chartRows.map(function (s) { return sectionName(s.id); }),

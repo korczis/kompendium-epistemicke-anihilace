@@ -635,6 +635,7 @@
     "viz_script"
    ],
    "covered_views": [
+    "kompendium/section-03-progression",
     "viz/teorie-pojmy"
    ],
    "data": [
@@ -686,6 +687,23 @@
      "page": "kompendium/03-zakladni-kategorie/kapitola-2.md",
      "painted": 1,
      "path": "kompendium/03-zakladni-kategorie/kapitola-2/"
+    },
+    {
+     "counts": [
+      [
+       "#section-03-progression canvas",
+       1
+      ]
+     ],
+     "covers": [
+      "kompendium/section-03-progression",
+      "viz/teorie-pojmy"
+     ],
+     "note": "skript vizualizace section-03-progression",
+     "origin": "derived",
+     "page": "kompendium/03-zakladni-kategorie/visualizations.md",
+     "painted": 1,
+     "path": "kompendium/03-zakladni-kategorie/visualizations/"
     }
    ],
    "scripts": [
@@ -958,7 +976,9 @@
     "viz_script"
    ],
    "covered_views": [
-    "viz/oddil-prehled"
+    "kompendium/section-04-decision-tree",
+    "viz/oddil-prehled",
+    "viz/teorie-pojmy"
    ],
    "data": [
     "static/data/graph.json",
@@ -1011,6 +1031,23 @@
      "page": "kompendium/04-terminalni-protokoly/_index.md",
      "painted": 1,
      "path": "kompendium/04-terminalni-protokoly/"
+    },
+    {
+     "counts": [
+      [
+       "#section-04-decision-tree canvas",
+       1
+      ]
+     ],
+     "covers": [
+      "kompendium/section-04-decision-tree",
+      "viz/teorie-pojmy"
+     ],
+     "note": "skript vizualizace section-04-decision-tree",
+     "origin": "derived",
+     "page": "kompendium/04-terminalni-protokoly/visualizations.md",
+     "painted": 1,
+     "path": "kompendium/04-terminalni-protokoly/visualizations/"
     }
    ],
    "scripts": [
@@ -1671,7 +1708,9 @@
     "viz_script"
    ],
    "covered_views": [
-    "viz/oddil-prehled"
+    "kompendium/section-06-recovery-flow",
+    "viz/oddil-prehled",
+    "viz/teorie-pojmy"
    ],
    "data": [
     "static/data/graph.json",
@@ -1722,6 +1761,23 @@
      "page": "kompendium/06-klinicke-aplikace/_index.md",
      "painted": 1,
      "path": "kompendium/06-klinicke-aplikace/"
+    },
+    {
+     "counts": [
+      [
+       "#section-06-recovery-flow canvas",
+       1
+      ]
+     ],
+     "covers": [
+      "kompendium/section-06-recovery-flow",
+      "viz/teorie-pojmy"
+     ],
+     "note": "skript vizualizace section-06-recovery-flow",
+     "origin": "derived",
+     "page": "kompendium/06-klinicke-aplikace/visualizations.md",
+     "painted": 1,
+     "path": "kompendium/06-klinicke-aplikace/visualizations/"
     }
    ],
    "scripts": [
@@ -1936,6 +1992,7 @@
     "viz_script"
    ],
    "covered_views": [
+    "kompendium/section-07-framework-map",
     "viz/teorie-pojmy"
    ],
    "data": [
@@ -1989,6 +2046,23 @@
      "page": "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
      "painted": 1,
      "path": "kompendium/07-teoreticke-reflexe/kognitivni-vedy/"
+    },
+    {
+     "counts": [
+      [
+       "#section-07-framework-map canvas",
+       1
+      ]
+     ],
+     "covers": [
+      "kompendium/section-07-framework-map",
+      "viz/teorie-pojmy"
+     ],
+     "note": "skript vizualizace section-07-framework-map",
+     "origin": "derived",
+     "page": "kompendium/07-teoreticke-reflexe/visualizations.md",
+     "painted": 1,
+     "path": "kompendium/07-teoreticke-reflexe/visualizations/"
     }
    ],
    "scripts": [

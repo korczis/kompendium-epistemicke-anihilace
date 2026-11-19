@@ -9,8 +9,7 @@
     "left": 40,
     "right": 16,
     "top": 40,
-    "bottom": 40,
-    "containLabel": true
+    "bottom": 40
   },
   "xAxis": {
     "type": "category",

@@ -91,7 +91,7 @@
           return '<b>' + L.esc(K.techniqueText(x)) + '</b><br>riziko ' + L.esc(risk[x.id].label) + ' | ' +
             L.count(nb[x.id].length, ['vazba', 'vazby', 'vazeb']);
         } }, K.V.tooltip(t)),
-        grid: { left: 8, right: 16, top: hd.top + 22, bottom: 36, containLabel: true },
+        grid: { left: 8, right: 16, top: hd.top + 22, bottom: 36 },
         xAxis: K.V.axis(t, { type: 'value', min: -0.6, max: subs.length - 0.4,
           name: 'Podrodina (kód z cesty stránky)', nameLocation: 'middle', nameGap: 26,
           axisTick: { customValues: subs.map(function (x, i) { return i; }) },

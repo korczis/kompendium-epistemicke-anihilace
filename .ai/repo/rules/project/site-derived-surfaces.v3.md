@@ -25,7 +25,7 @@ Požadavek autora doslova (bez diakritiky, jak byl napsán; předala session
 
 # Required behaviour
 
-- `/mapa/` (Cytoscape.js nad `graph.json`; parametry `?oddil=`, `?stitek=`, `?stranka=`)
+- `/mapa/` (ECharts síťový graf přes `V.network` nad `graph.json`; parametry `?oddil=`, `?stitek=`, `?stranka=`)
   a `/stav/` (ECharts nad `metrics.json`, čísla KPI vykreslená při sestavení) čtou jen
   odvozená data.
 - Shell (boční navigace podstromů, horní lišta, hledání a paleta) čte odvozená data shellu
@@ -51,7 +51,7 @@ Požadavek autora doslova (bez diakritiky, jak byl napsán; předala session
   grafu a položky seznamu.
 - Mermaid v obsahu: uzel je klikací přes `click Uzel "@/glossary/heslo.md"` (volitelně
   `#kotva`); uzel, jehož popisek se rovná názvu stránky, je klikací automaticky.
-- Knihovny (Cytoscape.js, ECharts, Chart.js, p5.js, Mermaid, Flowbite) jsou vendorované
+- Knihovny (ECharts, p5.js, three.js, Mermaid, Flowbite) jsou vendorované
   s pevnou verzí podle manifestu knihoven vizualizací; žádná stránka nenačítá vlastní kopii
   ani CDN.
 - Plochy splňují WCAG 2.2 AA, nepřetékají na šířce telefonu a nemají posun rozvržení (CLS).

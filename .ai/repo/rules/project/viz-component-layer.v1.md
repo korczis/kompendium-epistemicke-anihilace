@@ -3,8 +3,8 @@ id: project.viz-component-layer
 version: 1
 kind: rule
 title: Každá vizualizace jde přes jednu komponentovou vrstvu
-description: Grafy, sítě, diagramy, simulace a 3D pohledy webu vznikají jen přes sdílenou vrstvu nad p5.js, Chart.js, cytoscape.js, Apache ECharts, Mermaid a three.js; žádný skript si knihovnu nezakládá, neměří, nebarví ani nepopisuje sám.
-statement: Stav každou vizualizaci v static/js/ přes komponentovou vrstvu (KompendiumVrstva.p5/three/kniha, KompendiumViz.echarts/cytoscape, K.chart, Mermaid v site.js) nad odvozenými daty knihy, mobile first a responzivně, a ověř to scripts/check-viz-layer.py a npm run verify.
+description: Grafy, sítě, diagramy, simulace a 3D pohledy webu vznikají jen přes sdílenou vrstvu nad p5.js, Apache ECharts, Mermaid a three.js; žádný skript si knihovnu nezakládá, neměří, nebarví ani nepopisuje sám.
+statement: Stav každou vizualizaci v static/js/ přes komponentovou vrstvu (KompendiumVrstva.p5/three/frame, V.echarts a V.network v kompendium-viz.js, Mermaid v site.js) nad odvozenými daty knihy, mobile first a responzivně, a ověř to scripts/check-viz-layer.py a npm run verify.
 status: active
 class: blocking
 depends_on: [project.ui-quality-gate@1, project.site-derived-surfaces@3, project.content-defensive-frame@1]
@@ -27,12 +27,15 @@ tématu existovaly ve dvou kopiích; jedna z nich měla na tmavém povrchu kontr
 
 - Vrstva je pevná sada souborů, jeden vlastník na knihovnu (výčet: `scripts/check-viz-layer.py
   --list`): `static/js/viz/vrstva.js` (tokeny tématu, živá kategorická paleta, zavaděč dat
-  knihy, plátna p5.js a three.js), `static/js/viz/kompendium-viz.js` (ECharts, cytoscape.js,
-  graf knihy), `static/js/kompendium/kniha.js` (Chart.js nad daty knihy), `static/js/site.js`
-  (Mermaid a komponenta chart_inline).
+  knihy, plátna p5.js a three.js), `static/js/viz/kompendium-viz.js` (Apache ECharts: `V.echarts`
+  pro grafy a `V.network` pro sítě, graf knihy), `static/js/site.js` (Mermaid).
 - Skript mimo vrstvu knihovnu nezakládá (`new p5`, `createCanvas`, `WebGLRenderer`,
-  `new Chart`, `echarts.init`, `cytoscape({…})`, `mermaid.initialize/run/render`), nenese vlastní
-  zavaděč dat ani vlastní paletu.
+  `echarts.init`, `mermaid.initialize/run/render`), nenese vlastní zavaděč dat ani vlastní paletu.
+- Chart.js a cytoscape.js jsou odstraněné (pokyn vlastníka 2026-11-14: ECharts pro grafy a sítě,
+  D3 pro bespoke rozvržení, p5 pro generativní; žádné Chart.js ani Cytoscape). Žádný soubor je
+  nesmí vrátit: `new Chart`, `cytoscape({…})`, vendorovaný `chart*.js`/`cytoscape*.js`, závislost
+  v package.json ani `<script src=…chart/cytoscape…>` jsou zakázané kdekoli — `scripts/check-viz-layer.py`
+  je hlásí a skončí kódem 1.
 - Plátno je mobile first: šířka podle hostitele, výška z poměru stran v mezích, přepočet při
   změně šířky; na 390 px nic nepřetéká. Animace stojí mimo obrazovku a při
   prefers-reduced-motion a má ovládání Pozastavit/Spustit (WCAG 2.2, 2.2.2). Plátno je

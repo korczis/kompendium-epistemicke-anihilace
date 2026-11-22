@@ -111,7 +111,7 @@ Kritéria, podle nichž člověk přijímá tvrzení, mají tyto skupiny nejmén
 
 ## Intervenční variace
 
-Klinický kontext **EA-4.3.5** připouští následující dokumentované adaptace pro specifické setting a populace, vždy se zachováním jádra evidence-based protokolu:
+{% include "partials/klinicky-kontext-pripousti-nasledujici-dokumentovane.md" %}
 
 {% include "partials/telehealth-varianta-pandemie-covidu-19.md" %}
 

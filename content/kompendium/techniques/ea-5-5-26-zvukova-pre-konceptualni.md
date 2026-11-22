@@ -108,7 +108,7 @@ Pre-konceptuální zvuk (před lingvistickým označením) je zpracováván v pr
 
 Klinická [diferenciace](@/glossary/diferenciace.md) techniky **zvuková pre-konceptuální** od podobných stavů je kritická pro správné rozhodnutí o intervenci.
 
-vs. Psychotické spektrum (F20–F29 dle MKN-10): Psychotická epizoda zahrnuje *strukturální* narušení [reality testing](@/glossary/reality-testing.md) s halucinacemi a bludy, zatímco EA-5.5.26 produkuje *fenomenologické* narušení pre-predikativní vrstvy bez ztráty reality testing. Klíčová diference: u psychózy subjekt *věří* iluzornímu obsahu jako realitě (delusional conviction); u EA-5.5.26 subjekt *prožívá* narušení, ale meta-kognitivně rozpoznává, že jde o anomální stav. Schneiderovy first-rank symptoms (vkládání myšlenek, ozvučení myšlení) jsou v EA-5.5.26 absentní.
+{% include "partials/vs-psychoticke-spektrum-f20f29-dle.md" %}
 
 vs. Disociativní poruchy (F44): [Disociace](@/glossary/disociace.md) zahrnuje narušení integrace vědomí, paměti a identity. EA-5.5.26 produkuje narušení *pre-reflexivní* vrstvy, zatímco disociace operuje na úrovni autobiografické paměti a identity. Ke screeningu disociativních obtíží slouží standardizované škály, například Dissociative Experiences Scale (DES-II); jejich výsledek posuzuje klinik v kontextu celého vyšetření a sám diagnózu nestanoví.
 

@@ -66,6 +66,16 @@ def normalised(lines: list) -> str:
     return cia.DUP_CODE.sub("EA-§", cia.SPACE_RUN.sub(" ", " ".join(lines)).strip())
 
 
+def param_own_code(raw: str, code: str) -> str:
+    """The block with only the page's own bare EA code replaced by the Tera placeholder, so just
+    the code is the per-page variable and any ** bold markers around it stay literal. The trailing
+    (?![\\d.]) keeps EA-5.5.3 from matching inside EA-5.5.30 or EA-5.5.3.1. An empty code leaves
+    raw unchanged and the caller then refuses the block."""
+    if not code:
+        return raw
+    return re.sub(re.escape(code) + r"(?![\d.])", m.EA_CODE_PLACEHOLDER, raw)
+
+
 def paragraphs(text: str) -> list:
     """(first line, last line) of every run of non-blank lines outside a ``` fence."""
     lines = text.split("\n")
@@ -87,7 +97,7 @@ def paragraphs(text: str) -> list:
 
 
 def slug_words(block: str) -> list:
-    text = re.sub(r"\]\([^)]*\)", "", block)
+    text = re.sub(r"\{[{%].*?[%}]\}", "", re.sub(r"\]\([^)]*\)", "", block))
     text = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode().lower()
     return re.findall(r"[a-z0-9]+", text)
 
@@ -137,8 +147,9 @@ def plan():
     remaining = []
     # block -> {page: (start, end)}; only blocks whose raw text is one and the same everywhere
     spans = {}
+    param_moves = []   # EA-code-parameterised blocks: one partial per block, not chained
     for block, carriers in groups.items():
-        raws, where, why = set(), {}, None
+        raw_by_path, where, why = {}, {}, None
         for path in carriers:
             if path in NO_TERA:
                 why = f"{path} skips content templating"
@@ -150,13 +161,26 @@ def plan():
                 why = f"{len(hits)} matching paragraphs on {path}"
                 break
             s, e = hits[0]
-            raws.add("\n".join(lines[s:e + 1]))
+            raw_by_path[path] = "\n".join(lines[s:e + 1])
             where[path] = (s, e)
+        raws = set(raw_by_path.values())
         raw = next(iter(raws)) if len(raws) == 1 else None
         if why is None and len(raws) > 1:
+            # The raw differs per page. If the one difference is each page's own EA code and every
+            # carrier declares that code (extra.ea_code), the block becomes one parameterised
+            # partial: the bare own code becomes {{ page.extra.ea_code }}, bold markers kept.
+            params = {param_own_code(raw_by_path[p], codes.get(p, "")) for p in carriers}
+            if all(codes.get(p) for p in carriers) and len(params) == 1:
+                param_moves.append({
+                    "blocks": [block], "text": params.pop(), "carriers": list(carriers),
+                    "span": {p: where[p] for p in carriers},
+                    "scope": scope_of(list(carriers), codes),
+                })
+                continue
             by_code = {cia.DUP_CODE.sub("EA-§", r) for r in raws}
-            what = "the page's own EA code" if len(by_code) == 1 else "line breaks or spacing"
-            why = f"text differs per page ({len(raws)} variants: {what})"
+            why = ("differs by each page's own EA code, but a carrier lacks extra.ea_code or a "
+                   "non-own code also varies" if len(by_code) == 1
+                   else f"text differs per page ({len(raws)} variants: line breaks or spacing)")
         elif why is None and TERA.search(raw):
             why = "contains Tera markup"
         elif why is None and (raw[:1].isspace() or raw.split("\n")[-1][-1:].isspace()):
@@ -201,6 +225,7 @@ def plan():
                     "span": {p: (spans[part[0]][p][0], spans[part[-1]][p][1]) for p in carriers},
                     "scope": scope_of(list(carriers), codes),
                 })
+    moves.extend(param_moves)   # the EA-code-parameterised blocks join the byte-identical ones
     # names: most widespread first, then by text, so the order (and every name) is deterministic
     moves.sort(key=lambda mv: (-len(mv["carriers"]), mv["text"]))
     taken = {}
@@ -222,10 +247,10 @@ def plan():
             n += 1
         taken[name] = body
         mv["name"], mv["body"] = name, body
-    return moves, remaining, texts
+    return moves, remaining, texts, codes
 
 
-def apply(moves: list, texts: dict) -> dict:
+def apply(moves: list, texts: dict, codes: dict) -> dict:
     """Write partials, rewrite pages, prove each page expands back to itself; all or nothing."""
     created = []
     for mv in moves:
@@ -249,9 +274,14 @@ def apply(moves: list, texts: dict) -> dict:
     mine = {f'{{% include "partials/{mv["name"]}.md" %}}': m.strip_comments(mv["body"])
             for mv in moves}
     own = re.compile("|".join(re.escape(k) for k in mine)) if mine else None
-    bad = [p for p, t in new.items()
-           if own.sub(lambda i: mine[i.group(0)], t) != texts[p]
-           or m.expand_includes(t) != m.expand_includes(texts[p])]
+    bad = []
+    for p, t in new.items():
+        code = codes.get(p, "")
+        restored = (own.sub(lambda i: mine[i.group(0)].replace(m.EA_CODE_PLACEHOLDER, code), t)
+                    if own else t)
+        if (restored != texts[p]
+                or m.expand_includes(t, ea_code=code) != m.expand_includes(texts[p], ea_code=code)):
+            bad.append(p)
     if bad:
         for f in created:
             f.unlink()
@@ -264,7 +294,7 @@ def apply(moves: list, texts: dict) -> dict:
 
 def main():
     check = "--check" in sys.argv
-    moves, remaining, texts = plan()
+    moves, remaining, texts, codes = plan()
     instances = sum(len(mv["carriers"]) * len(mv["blocks"]) for mv in moves)
     pages = {p for mv in moves for p in mv["carriers"]}
     print(f"extract-shared-passages: {sum(len(mv['blocks']) for mv in moves)} block(s) "
@@ -278,7 +308,7 @@ def main():
     if check:
         sys.exit(1 if moves else 0)
     if moves:
-        new = apply(moves, texts)
+        new = apply(moves, texts, codes)
         print(f"extract-shared-passages: rewrote {len(new)} page(s); every page expands back to "
               f"its previous text byte for byte")
 

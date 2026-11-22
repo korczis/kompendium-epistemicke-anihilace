@@ -117,7 +117,7 @@ Uváděn bývá nácvik dovedností DBT.
 
 ## Intervenční variace
 
-Klinický kontext **EA-4.3.9** připouští následující dokumentované adaptace pro specifické setting a populace, vždy se zachováním jádra evidence-based protokolu:
+{% include "partials/klinicky-kontext-pripousti-nasledujici-dokumentovane.md" %}
 
 {% include "partials/telehealth-varianta-pandemie-covidu-19.md" %}
 

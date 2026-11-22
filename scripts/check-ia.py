@@ -350,7 +350,7 @@ PENDING_ZERO = {"placeholder": 0, "technique-page": 0, "howto": 0, "drug-dose": 
                 "fabricated-citation": 0,
                 "legitimate-indication": 0,
                 "detail": 199, "weak-link": 199,
-                "duplicate-passage": 52,
+                "duplicate-passage": 0,  # 0 after the 8 EA-code blocks moved to parameterised partials
                 "duplicate-table": 249,  # measured on merged main c8394d3e after Přístupová úroveň removal; bold-label→short-value exempt
                 "access-level-row": 0,  # the row is derived from extra.access_level; 0 after removal
                 # 0 on main, which carries no derived count expression at all; the real

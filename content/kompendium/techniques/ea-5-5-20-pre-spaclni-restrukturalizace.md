@@ -108,13 +108,13 @@ Pre-spánkový stav (hypnagogie) je přechod mezi waking a NREM-1, charakterizov
 
 Klinická [diferenciace](@/glossary/diferenciace.md) techniky **pre-spánková restrukturalizace** od podobných stavů je kritická pro správné rozhodnutí o intervenci.
 
-vs. Psychotické spektrum (F20–F29 dle MKN-10): Psychotická epizoda zahrnuje *strukturální* narušení [reality testing](@/glossary/reality-testing.md) s halucinacemi a bludy, zatímco EA-5.5.20 produkuje *fenomenologické* narušení pre-predikativní vrstvy bez ztráty reality testing. Klíčová diference: u psychózy subjekt *věří* iluzornímu obsahu jako realitě (delusional conviction); u EA-5.5.20 subjekt *prožívá* narušení, ale meta-kognitivně rozpoznává, že jde o anomální stav. Schneiderovy first-rank symptoms (vkládání myšlenek, ozvučení myšlení) jsou v EA-5.5.20 absentní.
+{% include "partials/vs-psychoticke-spektrum-f20f29-dle.md" %}
 
-vs. Disociativní poruchy (F44): [Disociace](@/glossary/disociace.md) zahrnuje narušení integrace vědomí, paměti a identity. EA-5.5.20 produkuje narušení *pre-reflexivní* vrstvy, zatímco disociace operuje na úrovni autobiografické paměti a identity. Rozlišení patří klinickému vyšetření; práh skóre kniha neuvádí.
+{% include "partials/vs-disociativni-poruchy-f44-disociace.md" %}
 
 vs. Mystická zkušenost (Stace 1960; Hood Mysticism Scale): Mystické zážitky obsahují pozitivní afekt, sense of unity a ineffability. EA-5.5.20 produkuje *negativní* fenomenologii — rozpadnutí, ne sjednocení. Hood M-Scale skore <40 v kombinaci s anxietou diferencuje EA od mystické zkušenosti. James (*Varieties of Religious Experience*, 1902) by EA-5.5.20 klasifikoval jako „anti-mystical“ stav.
 
-**vs. [Depersonalizace](@/glossary/depersonalizace.md)/derealizace** (F48.1): DPDR je trvalý nebo recurrent stav odcizení od self/světa. EA-5.5.20 je akutní *induced* stav s definovaným počátkem a koncem. Rozlišení i délku průběhu posoudí klinik; kniha k nim čísla neuvádí.
+{% include "partials/vs-depersonalizace-derealizace-f48-1.md" %}
 
 ## Literatura
 

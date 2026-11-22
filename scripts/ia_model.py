@@ -67,12 +67,19 @@ def strip_comments(text: str) -> str:
                             + ("" if c.group(3) else c.group(4)), text)
 
 
-def expand_includes(text: str, depth: int = 0) -> str:
+# A parameterised shared partial carries this literal where the including page's own EA code
+# stood (scripts/extract-shared-passages.py); expand_includes substitutes the page's ea_code.
+EA_CODE_PLACEHOLDER = "{{ page.extra.ea_code }}"
+
+
+def expand_includes(text: str, depth: int = 0, ea_code: str = "") -> str:
     """The page as a reader gets it: every {% include %} replaced by its partial's body.
 
     A partial that does not exist is left as written, so a typo shows up as a Zola build error
     rather than as silently missing prose. Nesting is followed to a small depth, which also bounds
-    a partial that includes itself.
+    a partial that includes itself. A parameterised partial carries {{ page.extra.ea_code }} where
+    the including page's own EA code stood; given the page's ea_code, expanding substitutes it, so
+    the expansion reproduces byte for byte what Zola renders.
     """
     if depth >= 4 or "include" not in text:
         return text
@@ -81,7 +88,8 @@ def expand_includes(text: str, depth: int = 0) -> str:
         target = TEMPLATES / m.group(1)
         if not target.is_file():
             return m.group(0)
-        return expand_includes(strip_comments(target.read_text(encoding="utf-8")), depth + 1)
+        body = expand_includes(strip_comments(target.read_text(encoding="utf-8")), depth + 1, ea_code)
+        return body.replace(EA_CODE_PLACEHOLDER, ea_code) if ea_code else body
 
     return INCLUDE.sub(one, text)
 WORD = re.compile(r"[A-Za-zÀ-ž]+")
@@ -217,7 +225,7 @@ def load_pages(with_body: bool = False) -> list:
         # `body` stays the source: the duplication requirements read it, and link-terms,
         # derive-links and normalize-front-matter each re-read the file from disk rather than
         # writing a body back, so nothing can inline a partial into content.
-        rendered = expand_includes(body)
+        rendered = expand_includes(body, ea_code=str((front.get("extra") or {}).get("ea_code") or ""))
         prose = FENCE.sub("", rendered)
         words = WORD.findall(re.sub(r"\]\([^)]*\)|https?://\S+", "", prose))
         dia = sum(1 for w in words if DIACRITIC.search(w))

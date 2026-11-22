@@ -99,13 +99,13 @@ Vestibulární systém projikuje do parieto-insulárního vestibulárního korte
 
 Klinická [diferenciace](@/glossary/diferenciace.md) techniky **vestibulární disrupce** od podobných stavů je kritická pro správné rozhodnutí o intervenci.
 
-vs. Psychotické spektrum (F20–F29 dle MKN-10): Psychotická epizoda zahrnuje *strukturální* narušení [reality testing](@/glossary/reality-testing.md) s halucinacemi a bludy, zatímco EA-5.5.11 produkuje *fenomenologické* narušení pre-predikativní vrstvy bez ztráty reality testing. Klíčová diference: u psychózy subjekt *věří* iluzornímu obsahu jako realitě; u EA-5.5.11 subjekt *prožívá* narušení, ale meta-kognitivně rozpoznává, že jde o anomální stav. Příznaky prvního řádu v Schneiderově smyslu — vkládání myšlenek, ozvučení myšlení — jsou zde nepřítomné (Schneider, 1959).
+{% include "partials/vs-psychoticke-spektrum-f20f29-dle-mkn.md" %}
 
-vs. Disociativní poruchy (F44): [Disociace](@/glossary/disociace.md) zahrnuje narušení integrace vědomí, paměti a identity, kdežto EA-5.5.11 zasahuje *pre-reflexivní* vrstvu. Rozlišení se opírá o standardizované dotazníkové nástroje, mezi nimi Dissociative Experiences Scale (Bernstein a Putnam, 1986); rozhodující je profil odpovědí a anamnéza, nikoli jediná prahová hodnota, kterou kompendium neuvádí.
+{% include "partials/vs-disociativni-poruchy-f44-disociace-zahrnuje.md" %}
 
-**vs. Mystická zkušenost**: Mystické zážitky bývají popisovány pozitivním afektem, pocitem jednoty a nesdělitelností (Stace, 1960; James, 1902). EA-5.5.11 má naproti tomu *negativní* fenomenologii — rozpad namísto sjednocení — a bývá provázena úzkostí; tento afektivní rozdíl je v rozhovoru nosnější než jakékoli skóre.
+{% include "partials/vs-mysticka-zkusenost-mysticke-zazitky.md" %}
 
-**vs. [Depersonalizace](@/glossary/depersonalizace.md)/derealizace** (F48.1): DPDR je trvalý nebo opakovaný stav odcizení od sebe a od světa, kdežto EA-5.5.11 je vyvolaný stav s rozpoznatelným počátkem vázaným na konkrétní prostředí. Sierra (2009) popisuje DPDR jako syndrom s vlastním průběhem; pro odlišení kompendium neuvádí žádné časové ani skórové prahy.
+{% include "partials/vs-depersonalizace-derealizace-f48-1-dpdr.md" %}
 
 ## Literatura
 

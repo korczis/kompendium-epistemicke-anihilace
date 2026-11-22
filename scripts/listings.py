@@ -157,6 +157,9 @@ def _names(listing: dict) -> tuple:
 
 def build(listing: dict) -> dict:
     """The listing's JSON from its members' own front matter."""
+    # A member's words are the words a reader gets: a shared passage moved into a partial
+    # (ADR 0016) is still on the page, so the count reads the page with its includes expanded.
+    import ia_model  # imports this module; imported here to keep the two acyclic at load time
     strip_title = re.compile(listing["title_strip"]) if listing.get("title_strip") else None
     strip_summary = re.compile(listing["summary_strip"], re.I) if listing.get("summary_strip") else None
     rows = []
@@ -175,7 +178,8 @@ def build(listing: dict) -> dict:
         code = str(_get(front, listing["group"]["code"])).strip() if "code" in (listing.get("group") or {}) else ""
         slug = path.rsplit("/", 1)[-1][:-3] if not path.endswith("/_index.md") else path.rsplit("/", 2)[-2]
         entry = {"id": code or slug, "name": title, "summary": summary[:1].upper() + summary[1:],
-                 "slug": slug, "path": path, "words": len(WORD.findall(body)),
+                 "slug": slug, "path": path,
+                 "words": len(WORD.findall(ia_model.expand_includes(body))),
                  "weight": front.get("weight", 0)}
         if code:
             entry["code"] = code

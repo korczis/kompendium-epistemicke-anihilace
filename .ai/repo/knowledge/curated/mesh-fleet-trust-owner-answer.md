@@ -38,3 +38,11 @@ seat asked the owner directly.
 **Why the quotes matter.** In YAML an unquoted 64-character hex digest is a string only because
 it contains a letter a–f. A digest made only of digits would load as an integer, and the trust
 comparison would then quietly never match. Every value in `trust.allow` is quoted.
+
+**Comments go on their own line.** Majordomus 1.1.0 keeps the quotes when a quoted key is
+followed by a trailing `# comment`: the value loads as `"\"946e…\""`, fails the
+`^[0-9a-f]{64}$` pattern of `majordomus.mesh-declaration/v1`, and the whole declaration is dropped
+(`mesh doctor`: "declaration absent: the mesh is off"). Reported by session korczis-github-io-91
+on 2026-11-22. Each key's machine label therefore sits on the line above it, as in 13e5fe76.
+Check with `majordomus mesh doctor`: the declaration line must be present. The trust-root
+check counts only keys that are on the trunk.

@@ -13,6 +13,8 @@ related_terms = ["ea-2-5-6-platonic-cave-self", "ea-1-6-1-vzorec-guru-a-adept", 
 ea_code = "EA-2.5.9"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.5 Sebeindukovaná delegitimizace"
+ea_risk_text = "Vysoká – otevírá cestu k převzetí identity skupinou"
+ea_reversibility_text = "Střední až nízká; obnova identity trvá roky"
 section_icon = "🪞"
 toc = true
 access_level = "L2"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-2.5.9` |
-| **Kategorie** | 2. Scénáře [delegitimizace](@/glossary/delegitimizace.md) |
-| **Subkategorie** | 2.5 Sebeindukovaná delegitimizace |
-| **Riziková úroveň** | Vysoká – otevírá cestu k převzetí identity skupinou |
-| **Reverzibilita** | Střední až nízká; obnova identity trvá roky |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
 | **Rychlá karta** | [QR: EA-2.5.9](@/kompendium/quick-reference/qr-ea-2-5-9.md) |
 

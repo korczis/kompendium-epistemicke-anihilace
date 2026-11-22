@@ -14,6 +14,8 @@ related_terms = ["ea-1-2-4-argumentacni-oslabeni", "ea-1-2-1-falesne-dilema", "e
 ea_code = "EA-1.2.2"
 ea_category = "1. Akademické techniky"
 ea_subcategory = "1.2 Narušení procesů evaluace a integrace"
+ea_risk_text = "Vysoká — pervazivní v médiích, vědecké komunikaci, politickém diskurzu"
+ea_reversibility_text = "Střední, vyžaduje aktivní kalibraci"
 section_icon = "⚖️"
 toc = true
 access_level = "L1"
@@ -25,11 +27,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-1.2.2` |
-| **Kategorie** | 1. Akademické techniky intelektuální manipulace |
-| **Subkategorie** | 1.2 Narušení procesů evaluace a integrace |
-| **Riziková úroveň** | Vysoká — pervazivní v médiích, vědecké komunikaci, politickém diskurzu |
-| **Reverzibilita** | Střední, vyžaduje aktivní kalibraci |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md) |
 
 ## Definice

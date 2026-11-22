@@ -13,6 +13,8 @@ related_terms = ["ea-2-4-6-peer-review-capture", "ea-2-4-8-journal-capture", "ea
 ea_code = "EA-2.1.4"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.1 Expertní diskvalifikace"
+ea_risk_text = "Vysoká – v oborech závislých na publikacích znamená faktické umlčení"
+ea_reversibility_text = "Střední; ztracený čas a kariérní okna se nevracejí"
 section_icon = "🎓"
 toc = true
 access_level = "L2"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-2.1.4` |
-| **Kategorie** | 2. Scénáře [delegitimizace](@/glossary/delegitimizace.md) |
-| **Subkategorie** | 2.1 Expertní diskvalifikace |
-| **Riziková úroveň** | Vysoká – v oborech závislých na publikacích znamená faktické umlčení |
-| **Reverzibilita** | Střední; ztracený čas a kariérní okna se nevracejí |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
 | **Rychlá karta** | [QR: EA-2.1.4](@/kompendium/quick-reference/qr-ea-2-1-4.md) |
 

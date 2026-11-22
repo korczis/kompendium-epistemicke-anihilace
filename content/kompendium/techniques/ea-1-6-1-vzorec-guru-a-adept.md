@@ -14,6 +14,8 @@ related_terms = ["ea-1-5-2-dominantni-telesne-hieroglyfy", "ea-1-5-terminologick
 ea_code = "EA-1.6.1"
 ea_category = "1. Akademické techniky"
 ea_subcategory = "1.6 Charizmatické vedení"
+ea_risk_text = "Vysoká – vzorec je nosnou strukturou většiny závažných kazuistik"
+ea_reversibility_text = "Střední až nízká; závisí na délce vztahu a na tom, zda adept měl vztahy mimo něj"
 toc = true
 access_level = "L1"
 risk_level = "high"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-1.6.1` |
-| **Kategorie** | 1. Akademické techniky – kompoziční vzorce |
-| **Subkategorie** | 1.6 Charizmatické vedení |
-| **Riziková úroveň** | Vysoká – vzorec je nosnou strukturou většiny závažných kazuistik |
-| **Reverzibilita** | Střední až nízká; závisí na délce vztahu a na tom, zda adept měl vztahy mimo něj |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [3.1 Akademické techniky intelektuální manipulace](@/kompendium/03-zakladni-kategorie/kapitola-1.md) |
 
 ## Definice

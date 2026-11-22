@@ -13,6 +13,8 @@ related_terms = ["ea-5-5-13-exteroceptivni-deformace", "ea-5-5-14-pretemporalni-
 ea_code = "EA-5.5.15"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.5 Transkonceptuální mechanismy"
+ea_risk_text = "Extrémní — strukturální poškození identitárně-kognitivní integrity, dlouhodobé následky"
+ea_reversibility_text = "Velmi nízká — návrat vyžaduje rekonstrukční terapeutický rámec"
 section_icon = "🌀"
 toc = true
 access_level = "L3"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-5.5.15` |
-| **Kategorie** | 5. Ultramární techniky |
-| **Subkategorie** | 5.5 Transkonceptuální mechanismy |
-| **Riziková úroveň** | Extrémní — strukturální poškození identitárně-kognitivní integrity, dlouhodobé následky |
-| **Reverzibilita** | Velmi nízká — návrat vyžaduje rekonstrukční terapeutický rámec |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) |
 
 ## Definice

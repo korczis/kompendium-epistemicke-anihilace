@@ -13,6 +13,8 @@ related_terms = ["ea-5-2-13-apriorni-fragmentace", "ea-5-2-14-konstitutivni-zhro
 ea_code = "EA-5.2.15"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.2 Metatranscendentální anihilace"
+ea_risk_text = "Extrémní — kolaps celého transcendentálního aparátu do bodu nediferencovanosti"
+ea_reversibility_text = "Téměř nulová — často nereverzibilní bez intenzivní terapie"
 section_icon = "🌑"
 toc = true
 access_level = "L4"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-5.2.15` |
-| **Kategorie** | 5. Ultramární techniky |
-| **Subkategorie** | 5.2 Metatranscendentální anihilace |
-| **Riziková úroveň** | Extrémní — kolaps celého transcendentálního aparátu do bodu nediferencovanosti |
-| **Reverzibilita** | Téměř nulová — často nereverzibilní bez intenzivní terapie |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice

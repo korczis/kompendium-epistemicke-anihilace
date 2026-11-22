@@ -13,6 +13,8 @@ related_terms = ["ea-9-2-1-deepfake-personality", "ea-9-2-2-voice-cloning-EA", "
 ea_code = "EA-2.3.7"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.3 Mediální delegitimizace"
+ea_risk_text = "Vysoká až extrémní – u intimních deepfaků jde o závažné porušení důstojnosti"
+ea_reversibility_text = "Nízká; vyvrácení nevymaže vzpomínku na obraz"
 section_icon = "📺"
 toc = true
 access_level = "L2"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-2.3.7` |
-| **Kategorie** | 2. Scénáře [delegitimizace](@/glossary/delegitimizace.md) |
-| **Subkategorie** | 2.3 Mediální delegitimizace |
-| **Riziková úroveň** | Vysoká až extrémní – u intimních deepfaků jde o závažné porušení důstojnosti |
-| **Reverzibilita** | Nízká; vyvrácení nevymaže vzpomínku na obraz |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
 | **Rychlá karta** | [QR: EA-2.3.7](@/kompendium/quick-reference/qr-ea-2-3-7.md) |
 

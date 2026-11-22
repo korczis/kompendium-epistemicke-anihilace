@@ -13,6 +13,8 @@ related_terms = ["ea-2-5-1-pseudo-pokora-internalizace", "ea-2-5-3-self-doubt-cu
 ea_code = "EA-2.5.2"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.5 Sebeindukovaná delegitimizace"
+ea_risk_text = "Vysoká – vede k vyhoření, sebecenzuře a odchodům z oborů"
+ea_reversibility_text = "Vysoká, pokud se odstraní vnější zesilovače a pracuje se s vnitřním vzorcem"
 section_icon = "🪞"
 toc = true
 access_level = "L2"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-2.5.2` |
-| **Kategorie** | 2. Scénáře [delegitimizace](@/glossary/delegitimizace.md) |
-| **Subkategorie** | 2.5 Sebeindukovaná delegitimizace |
-| **Riziková úroveň** | Vysoká – vede k vyhoření, sebecenzuře a odchodům z oborů |
-| **Reverzibilita** | Vysoká, pokud se odstraní vnější zesilovače a pracuje se s vnitřním vzorcem |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
 | **Rychlá karta** | [QR: EA-2.5.2](@/kompendium/quick-reference/qr-ea-2-5-2.md) |
 

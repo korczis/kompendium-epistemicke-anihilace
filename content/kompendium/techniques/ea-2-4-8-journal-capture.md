@@ -13,6 +13,8 @@ related_terms = ["ea-2-4-6-peer-review-capture", "ea-2-1-4-publikacni-blokace", 
 ea_code = "EA-2.4.8"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.4 Institucionální zachycení"
+ea_risk_text = "Vysoká – zachycený časopis propůjčuje autoritu vědy cizímu programu"
+ea_reversibility_text = "Nízká až střední; publikované články zůstávají v literatuře i po změně redakce"
 section_icon = "🏛️"
 toc = true
 access_level = "L2"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-2.4.8` |
-| **Kategorie** | 2. Scénáře [delegitimizace](@/glossary/delegitimizace.md) |
-| **Subkategorie** | 2.4 Institucionální zachycení |
-| **Riziková úroveň** | Vysoká – zachycený časopis propůjčuje autoritu vědy cizímu programu |
-| **Reverzibilita** | Nízká až střední; publikované články zůstávají v literatuře i po změně redakce |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
 | **Rychlá karta** | [QR: EA-2.4.8](@/kompendium/quick-reference/qr-ea-2-4-8.md) |
 

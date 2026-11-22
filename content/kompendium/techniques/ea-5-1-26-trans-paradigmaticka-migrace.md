@@ -14,6 +14,8 @@ related_terms = ["ea-5-1-25-singularni-narativni-kolaps", "ea-5-1-26", "ea-5-1-2
 ea_code = "EA-5.1.26"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.1 Epistemická singularita"
+ea_risk_text = "Extrémní — produkuje paradigmatickou bezdomovinu s vysokou náchylností k akceptaci jakéhokoli stabilního rámce"
+ea_reversibility_text = "Nízká bez systematické rekonstrukce paradigmatické gramotnosti"
 section_icon = "🌀"
 toc = true
 access_level = "L4"
@@ -25,11 +27,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-6/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-5.1.26` |
-| **Kategorie** | 5. Ultramární techniky |
-| **Subkategorie** | 5.1 Epistemická singularita |
-| **Riziková úroveň** | Extrémní — produkuje paradigmatickou bezdomovinu s vysokou náchylností k akceptaci jakéhokoli stabilního rámce |
-| **Reverzibilita** | Nízká bez systematické rekonstrukce paradigmatické gramotnosti |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md) |
 
 ## Definice

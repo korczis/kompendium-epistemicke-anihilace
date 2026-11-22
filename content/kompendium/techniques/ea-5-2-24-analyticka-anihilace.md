@@ -13,6 +13,8 @@ related_terms = ["ea-5-2-22-intentionalni-rozpojeni", "ea-5-2-23-synteticka-para
 ea_code = "EA-5.2.24"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.2 Metatranscendentální anihilace"
+ea_risk_text = "Extrémní — destrukce analytické soudnosti"
+ea_reversibility_text = "Nízká —, vyžaduje rekonstrukci pojmové analytiky"
 section_icon = "🌑"
 toc = true
 access_level = "L4"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-5.2.24` |
-| **Kategorie** | 5. Ultramární techniky |
-| **Subkategorie** | 5.2 Metatranscendentální anihilace |
-| **Riziková úroveň** | Extrémní — destrukce analytické soudnosti |
-| **Reverzibilita** | Nízká —, vyžaduje rekonstrukci pojmové analytiky |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice

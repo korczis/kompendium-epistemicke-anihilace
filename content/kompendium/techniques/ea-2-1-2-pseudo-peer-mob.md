@@ -13,6 +13,8 @@ related_terms = ["ea-2-1-1-expertni-disinflation", "ea-2-1-10-credentials-rekonf
 ea_code = "EA-2.1.2"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.1 Expertní diskvalifikace"
+ea_risk_text = "Vysoká — produkuje iluzi konsensu, masivní reputační tlak"
+ea_reversibility_text = "Nízká — sociální paměť útoku přetrvává"
 section_icon = "🎓"
 toc = true
 access_level = "L2"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-2.1.2` |
-| **Kategorie** | 2. Scénáře epistemické delegitimizace |
-| **Subkategorie** | 2.1 Expertní diskvalifikace |
-| **Riziková úroveň** | Vysoká — produkuje iluzi konsensu, masivní reputační tlak |
-| **Reverzibilita** | Nízká — sociální paměť útoku přetrvává |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 2 — Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
 
 ## Definice

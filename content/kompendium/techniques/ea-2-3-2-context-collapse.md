@@ -13,6 +13,8 @@ related_terms = ["ea-2-3-1-clip-takeout", "ea-2-3-3-quote-mining", "ea-9-5-8-mem
 ea_code = "EA-2.3.2"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.3 Mediální delegitimizace"
+ea_risk_text = "Vysoká – využívá strukturní vlastnost sociálních sítí"
+ea_reversibility_text = "Střední; původní kontext lze doložit, ale přenesený výklad žije dál"
 section_icon = "📺"
 toc = true
 access_level = "L2"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-2.3.2` |
-| **Kategorie** | 2. Scénáře [delegitimizace](@/glossary/delegitimizace.md) |
-| **Subkategorie** | 2.3 Mediální delegitimizace |
-| **Riziková úroveň** | Vysoká – využívá strukturní vlastnost sociálních sítí |
-| **Reverzibilita** | Střední; původní kontext lze doložit, ale přenesený výklad žije dál |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
 | **Rychlá karta** | [QR: EA-2.3.2](@/kompendium/quick-reference/qr-ea-2-3-2.md) |
 

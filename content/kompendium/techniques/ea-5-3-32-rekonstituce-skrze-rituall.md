@@ -12,6 +12,8 @@ related_terms = ["ea-8-2-2-lifton-thought-reform-criteria", "ea-5-3-1-identitarn
 ea_code = "EA-5.3.32"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.3 Hypertransformativní protokoly"
+ea_risk_text = "Vysoká; v podmínkách věznění a internace velmi vysoká"
+ea_reversibility_text = "Střední; rituál zanechává tělesné a citové stopy delší než přesvědčení"
 access_level = "L3"
 parent_chapter = "/kompendium/05-ultramari-techniky/"
 author = "Tomas Korcak (korczis)"
@@ -23,11 +25,7 @@ date_modified = "2026-11-10"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-5.3.32` |
-| **Kategorie** | 5. Ultramární techniky |
-| **Subkategorie** | 5.3 Hypertransformativní protokoly |
-| **Riziková úroveň** | Vysoká; v podmínkách věznění a internace velmi vysoká |
-| **Reverzibilita** | Střední; rituál zanechává tělesné a citové stopy delší než přesvědčení |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 8: Hypertransformativní protokoly](@/kompendium/05-ultramari-techniky/kapitola-8.md) |
 
 ## Definice

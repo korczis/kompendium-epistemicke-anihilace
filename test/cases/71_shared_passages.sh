@@ -88,7 +88,7 @@ for f in sorted(d.glob("c71-*.md")):
     new = f.read_text(encoding="utf-8")
     mo = fm_code.search(new)
     code = mo.group(1) if mo else ""
-    if m.expand_includes(new, ea_code=code) != old:
+    if m.expand_includes(new, extra={"ea_code": code}) != old:
         sys.exit(f"{f.name}: expansion (ea_code={code!r}) does not reproduce the old page")
     names[f.stem] = inc.findall(new)
 for n in "123":

@@ -13,6 +13,8 @@ related_terms = ["ea-2-3-1-clip-takeout", "ea-2-3-2-context-collapse", "ea-1-1-1
 ea_code = "EA-2.3.3"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.3 Mediální delegitimizace"
+ea_risk_text = "Vysoká – citát nese autorovu autoritu do cizí teze"
+ea_reversibility_text = "Vysoká na úrovni důkazu (stačí celý text), nízká na úrovni paměti publika"
 section_icon = "📺"
 toc = true
 access_level = "L2"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-2.3.3` |
-| **Kategorie** | 2. Scénáře [delegitimizace](@/glossary/delegitimizace.md) |
-| **Subkategorie** | 2.3 Mediální delegitimizace |
-| **Riziková úroveň** | Vysoká – citát nese autorovu autoritu do cizí teze |
-| **Reverzibilita** | Vysoká na úrovni důkazu (stačí celý text), nízká na úrovni paměti publika |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
 | **Rychlá karta** | [QR: EA-2.3.3](@/kompendium/quick-reference/qr-ea-2-3-3.md) |
 

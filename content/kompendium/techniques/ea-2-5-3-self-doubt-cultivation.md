@@ -13,6 +13,8 @@ related_terms = ["ea-2-5-8-recursive-doubt-spiral", "ea-2-5-2-imposter-syndrome-
 ea_code = "EA-2.5.3"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.5 Sebeindukovaná delegitimizace"
+ea_risk_text = "Vysoká – oslabuje základ, na němž stojí každá obrana"
+ea_reversibility_text = "Střední; obnova důvěry ve vlastní vnímání trvá měsíce až roky"
 section_icon = "🪞"
 toc = true
 access_level = "L2"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-2.5.3` |
-| **Kategorie** | 2. Scénáře [delegitimizace](@/glossary/delegitimizace.md) |
-| **Subkategorie** | 2.5 Sebeindukovaná delegitimizace |
-| **Riziková úroveň** | Vysoká – oslabuje základ, na němž stojí každá obrana |
-| **Reverzibilita** | Střední; obnova důvěry ve vlastní vnímání trvá měsíce až roky |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
 | **Rychlá karta** | [QR: EA-2.5.3](@/kompendium/quick-reference/qr-ea-2-5-3.md) |
 

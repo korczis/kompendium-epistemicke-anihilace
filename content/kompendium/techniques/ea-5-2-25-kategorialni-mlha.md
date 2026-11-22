@@ -13,6 +13,8 @@ related_terms = ["ea-5-2-23-synteticka-paralyza", "ea-5-2-24-analyticka-anihilac
 ea_code = "EA-5.2.25"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.2 Metatranscendentální anihilace"
+ea_risk_text = "Vysoká — strukturní degradace kategoriální distinktnosti"
+ea_reversibility_text = "Středně nízká —, vyžaduje strukturální vyjasnění"
 section_icon = "🌑"
 toc = true
 access_level = "L4"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-5.2.25` |
-| **Kategorie** | 5. Ultramární techniky |
-| **Subkategorie** | 5.2 Metatranscendentální anihilace |
-| **Riziková úroveň** | Vysoká — strukturní degradace kategoriální distinktnosti |
-| **Reverzibilita** | Středně nízká —, vyžaduje strukturální vyjasnění |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice

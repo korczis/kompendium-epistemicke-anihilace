@@ -14,6 +14,8 @@ related_terms = ["ea-1-3-4-indukovana-pochybnost", "ea-1-4-3-latentni-podbarveni
 ea_code = "EA-1.4.1"
 ea_category = "1. Akademické techniky"
 ea_subcategory = "1.4 Paralingvistické manipulativní techniky"
+ea_risk_text = "Středně vysoká — operuje pod prahem vědomé detekce"
+ea_reversibility_text = "Vysoká, pokud je rozpoznána"
 section_icon = "🎙️"
 toc = true
 access_level = "L1"
@@ -25,11 +27,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-1.4.1` |
-| **Kategorie** | 1. Akademické techniky intelektuální manipulace |
-| **Subkategorie** | 1.4 Paralingvistické manipulativní techniky |
-| **Riziková úroveň** | Středně vysoká — operuje pod prahem vědomé detekce |
-| **Reverzibilita** | Vysoká, pokud je rozpoznána |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md) |
 
 ## Definice

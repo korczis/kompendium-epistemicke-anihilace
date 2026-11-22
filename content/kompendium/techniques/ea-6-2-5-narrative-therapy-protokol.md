@@ -13,6 +13,8 @@ related_terms = ["ea-6-2-3-ifs-internal-family-systems", "ea-6-2-1-trauma-focuse
 ea_code = "EA-6.2.5"
 ea_category = "6. Klinické aplikace"
 ea_subcategory = "6.2 Terapeutické intervence"
+ea_risk_text = "Střední — vyžaduje kvalifikovaného klinika"
+ea_reversibility_text = "Vysoká při řádné implementaci"
 section_icon = "💊"
 toc = true
 access_level = "L2"
@@ -26,11 +28,7 @@ parent_chapter = "/kompendium/06-klinicke-aplikace/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-6.2.5` |
-| **Kategorie** | 6. Klinické aplikace |
-| **Subkategorie** | 6.2 Terapeutické intervence |
-| **Riziková úroveň** | Střední — vyžaduje kvalifikovaného klinika |
-| **Reverzibilita** | Vysoká při řádné implementaci |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) |
 
 ## Definice

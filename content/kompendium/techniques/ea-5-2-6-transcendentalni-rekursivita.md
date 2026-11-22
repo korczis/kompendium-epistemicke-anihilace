@@ -13,6 +13,8 @@ related_terms = ["ea-5-2-4-apriorni-saturace", "ea-5-2-5-konstitutivni-rozpad", 
 ea_code = "EA-5.2.6"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.2 Metatranscendentální anihilace"
+ea_risk_text = "Extrémní — destabilizace kantovských kategorií rekurzivní aplikací"
+ea_reversibility_text = "Velmi nízká — návrat vyžaduje rekategorizační práci"
 section_icon = "🌑"
 toc = true
 access_level = "L3"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-5.2.6` |
-| **Kategorie** | 5. Ultramární techniky |
-| **Subkategorie** | 5.2 Metatranscendentální anihilace |
-| **Riziková úroveň** | Extrémní — destabilizace kantovských kategorií rekurzivní aplikací |
-| **Reverzibilita** | Velmi nízká — návrat vyžaduje rekategorizační práci |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice

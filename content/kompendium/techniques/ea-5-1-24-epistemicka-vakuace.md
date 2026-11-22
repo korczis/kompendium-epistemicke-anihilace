@@ -13,6 +13,8 @@ related_terms = ["ea-5-1-22-diferencialni-nihilace", "ea-5-1-23-asymptoticka-dez
 ea_code = "EA-5.1.24"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.1 Epistemická singularita"
+ea_risk_text = "Extrémní — terminální stav, subjekt postrádá **základ** pro jakýkoli nárok"
+ea_reversibility_text = "Velmi nízká — vyžaduje rekonstrukci epistemické infrastruktury **z vnějšku**"
 section_icon = "🌑"
 toc = true
 access_level = "L5"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-6/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-5.1.24` |
-| **Kategorie** | 5. Ultramární techniky |
-| **Subkategorie** | 5.1 Epistemická singularita |
-| **Riziková úroveň** | Extrémní — terminální stav, subjekt postrádá **základ** pro jakýkoli nárok |
-| **Reverzibilita** | Velmi nízká — vyžaduje rekonstrukci epistemické infrastruktury **z vnějšku** |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md) |
 
 ## Definice

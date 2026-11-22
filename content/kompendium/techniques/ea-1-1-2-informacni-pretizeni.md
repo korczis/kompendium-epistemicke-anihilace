@@ -15,6 +15,8 @@ related_terms = ["ea-1-1-1-selektivni-expozice", "ea-1-1-2", "ea-1-1-3-terminolo
 ea_code = "EA-1.1.2"
 ea_category = "1. Akademické techniky"
 ea_subcategory = "1.1 Narušení procesů akvizice poznání"
+ea_risk_text = "Střední — masivní v moderních informačních prostředích, často strukturálně neintencionální"
+ea_reversibility_text = "Vysoká, pokud subjekt rozpozná stav zahlcení a zpomalí"
 section_icon = "🌊"
 toc = true
 access_level = "L1"
@@ -26,11 +28,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-1.1.2` |
-| **Kategorie** | 1. Akademické techniky intelektuální manipulace |
-| **Subkategorie** | 1.1 Narušení procesů akvizice poznání |
-| **Riziková úroveň** | Střední — masivní v moderních informačních prostředích, často strukturálně neintencionální |
-| **Reverzibilita** | Vysoká, pokud subjekt rozpozná stav zahlcení a zpomalí |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md) |
 
 ## Definice

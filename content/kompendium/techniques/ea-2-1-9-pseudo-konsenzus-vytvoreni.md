@@ -13,6 +13,8 @@ related_terms = ["ea-2-4-falesny-konsensus", "ea-2-1-2-pseudo-peer-mob", "ea-2-3
 ea_code = "EA-2.1.9"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.1 Expertní diskvalifikace"
+ea_risk_text = "Vysoká – zneužívá nejsilnější argument vědy, shodu odborníků"
+ea_reversibility_text = "Střední; zdání shody se rozpadá, když se zjistí, kolik nezávislých hlasů za ním skutečně stojí"
 section_icon = "🎓"
 toc = true
 access_level = "L2"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-2.1.9` |
-| **Kategorie** | 2. Scénáře [delegitimizace](@/glossary/delegitimizace.md) |
-| **Subkategorie** | 2.1 Expertní diskvalifikace |
-| **Riziková úroveň** | Vysoká – zneužívá nejsilnější argument vědy, shodu odborníků |
-| **Reverzibilita** | Střední; zdání shody se rozpadá, když se zjistí, kolik nezávislých hlasů za ním skutečně stojí |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
 | **Rychlá karta** | [QR: EA-2.1.9](@/kompendium/quick-reference/qr-ea-2-1-9.md) |
 

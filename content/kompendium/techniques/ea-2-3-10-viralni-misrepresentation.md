@@ -13,6 +13,8 @@ related_terms = ["ea-2-3-1-clip-takeout", "ea-2-3-3-quote-mining", "ea-9-3-1-alg
 ea_code = "EA-2.3.10"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.3 Mediální delegitimizace"
+ea_risk_text = "Vysoká – zkreslení se stává veřejnou pamětí"
+ea_reversibility_text = "Nízká; vyvrácení dosáhne zlomku publika"
 section_icon = "📺"
 toc = true
 access_level = "L2"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-2.3.10` |
-| **Kategorie** | 2. Scénáře [delegitimizace](@/glossary/delegitimizace.md) |
-| **Subkategorie** | 2.3 Mediální delegitimizace |
-| **Riziková úroveň** | Vysoká – zkreslení se stává veřejnou pamětí |
-| **Reverzibilita** | Nízká; vyvrácení dosáhne zlomku publika |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
 | **Rychlá karta** | [QR: EA-2.3.10](@/kompendium/quick-reference/qr-ea-2-3-10.md) |
 

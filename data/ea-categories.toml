@@ -1,0 +1,26 @@
+# Canonical Kategorie-row label for each ea_category of the technique metadata table.
+# The label lives here once; templates/partials/technique-meta.md renders the Kategorie cell with
+#   {% set cat = load_data(path="data/ea-categories.toml") %}{{ cat[page.extra.ea_category] }}
+# scripts/extract-metadata-table.py; duplicate-table, ADR 0013/0016.
+#
+# Most labels are the verbatim cell every page of the category already carried. Two categories
+# disagreed between pages; the owner chose the chapter title as canonical (ADR 0017), so on 11
+# pages of category 1 and all 51 pages of category 2 the rendered cell deliberately REPLACES the
+# old source text with the label below — an editorial change, not a byte-exact move. The tool
+# proves every other row byte-exact and the Kategorie row equal to this canonical label.
+#
+# Category 9 ("9. Současná digitální EA") uses a different page layout (numbered sections, no
+# "| Pole | Hodnota |" metadata table) and is intentionally not mapped here.
+
+"1. Akademické techniky" = "1. Akademické techniky intelektuální manipulace"
+"2. Scénáře delegitimizace" = "2. Scénáře epistemické [delegitimizace](@/glossary/delegitimizace.md)"
+"3. Edukativní implementace" = "3. [Edukativní implementace](@/glossary/edukativni-implementace.md)"
+"4. Terminální protokoly" = "4. Terminální protokoly"
+"5. Pokročilé operace" = "5. Pokročilé operace"
+"5. Pokročilé techniky" = "5. Pokročilé techniky epistemické anihilace"
+"5. Ultramari techniky" = "5. Ultramari techniky"
+"5. Ultramarinní techniky" = "5. Ultramarinní techniky"
+"5. Ultramární techniky" = "5. Ultramární techniky"
+"6. Klinické aplikace" = "6. Klinické aplikace"
+"7. Teoretické reflexe" = "7. Teoretické reflexe"
+"8. Přílohy" = "8. Přílohy"

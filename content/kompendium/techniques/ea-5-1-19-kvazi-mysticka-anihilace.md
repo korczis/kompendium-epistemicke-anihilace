@@ -13,6 +13,8 @@ related_terms = ["ea-5-1-17-tautologicka-imploze", "ea-5-1-18-solipsisticka-deko
 ea_code = "EA-5.1.19"
 ea_category = "5. Pokročilé techniky"
 ea_subcategory = "5.1 Epistemická singularita"
+ea_risk_text = "Kritická — produkuje subjektivní stav, který subjekt interpretuje jako vyšší formu poznání"
+ea_reversibility_text = "Nízká — subjekt aktivně odmítá racionální intervenci jako \"nedostatečnou\""
 section_icon = "🌀"
 toc = true
 access_level = "L3"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/05-pokrocile-techniky/kapitola-6/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-5.1.19` |
-| **Kategorie** | 5. Pokročilé techniky epistemické anihilace |
-| **Subkategorie** | 5.1 Epistemická singularita |
-| **Riziková úroveň** | Kritická — produkuje subjektivní stav, který subjekt interpretuje jako vyšší formu poznání |
-| **Reverzibilita** | Nízká — subjekt aktivně odmítá racionální intervenci jako "nedostatečnou" |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-pokrocile-techniky/kapitola-6/_index.md) |
 
 ## Definice

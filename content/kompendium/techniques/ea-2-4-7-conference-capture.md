@@ -13,6 +13,8 @@ related_terms = ["ea-2-4-6-peer-review-capture", "ea-2-4-10-disciplinary-society
 ea_code = "EA-2.4.7"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.4 Institucionální zachycení"
+ea_risk_text = "Střední až vysoká – určuje viditelnost, síť a kariérní příležitosti"
+ea_reversibility_text = "Střední; konference se dá „otevřít“, ztracená generace sítí se obnovuje pomalu"
 section_icon = "🏛️"
 toc = true
 access_level = "L2"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-2.4.7` |
-| **Kategorie** | 2. Scénáře [delegitimizace](@/glossary/delegitimizace.md) |
-| **Subkategorie** | 2.4 Institucionální zachycení |
-| **Riziková úroveň** | Střední až vysoká – určuje viditelnost, síť a kariérní příležitosti |
-| **Reverzibilita** | Střední; konference se dá „otevřít“, ztracená generace sítí se obnovuje pomalu |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
 | **Rychlá karta** | [QR: EA-2.4.7](@/kompendium/quick-reference/qr-ea-2-4-7.md) |
 

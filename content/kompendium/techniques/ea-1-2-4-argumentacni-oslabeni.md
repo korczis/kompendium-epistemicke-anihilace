@@ -14,6 +14,8 @@ related_terms = ["ea-1-2-1-falesne-dilema", "ea-1-2-2-falesna-ekvivalence", "ea-
 ea_code = "EA-1.2.4"
 ea_category = "1. Akademické techniky"
 ea_subcategory = "1.2 Narušení procesů evaluace a integrace"
+ea_risk_text = "Střední; v institucionálním hodnocení vysoká"
+ea_reversibility_text = "Vysoká, pokud je k dispozici původní znění argumentu"
 parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
@@ -24,11 +26,7 @@ date_modified = "2026-11-10"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-1.2.4` |
-| **Kategorie** | 1. Akademické techniky |
-| **Subkategorie** | 1.2 Narušení procesů evaluace a integrace |
-| **Riziková úroveň** | Střední; v institucionálním hodnocení vysoká |
-| **Reverzibilita** | Vysoká, pokud je k dispozici původní znění argumentu |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [3.1 Akademické techniky intelektuální manipulace](@/kompendium/03-zakladni-kategorie/kapitola-1.md) |
 
 ## Definice

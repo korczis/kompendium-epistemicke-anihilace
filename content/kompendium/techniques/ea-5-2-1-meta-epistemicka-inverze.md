@@ -13,6 +13,8 @@ related_terms = ["ea-5-1-8-konceptualni-fragmentace", "ea-5-1-9-identitni-dezint
 ea_code = "EA-5.2.1"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.2 Metatranscendentální anihilace"
+ea_risk_text = "Extrémní — narušení epistemické normativity samé"
+ea_reversibility_text = "Velmi nízká — návrat vyžaduje rekonstrukci epistemických standardů v terapeutickém rámci"
 section_icon = "🌑"
 toc = true
 access_level = "L3"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-5.2.1` |
-| **Kategorie** | 5. Ultramární techniky |
-| **Subkategorie** | 5.2 Metatranscendentální anihilace |
-| **Riziková úroveň** | Extrémní — narušení epistemické normativity samé |
-| **Reverzibilita** | Velmi nízká — návrat vyžaduje rekonstrukci epistemických standardů v terapeutickém rámci |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice

@@ -180,7 +180,7 @@ def build(listing: dict) -> dict:
         entry = {"id": code or slug, "name": title, "summary": summary[:1].upper() + summary[1:],
                  "slug": slug, "path": path,
                  "words": len(WORD.findall(ia_model.expand_includes(
-                     body, ea_code=str((front.get("extra") or {}).get("ea_code") or "")))),
+                     body, extra=(front.get("extra") if isinstance(front.get("extra"), dict) else {})))),
                  "weight": front.get("weight", 0)}
         if code:
             entry["code"] = code

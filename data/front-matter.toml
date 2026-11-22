@@ -47,6 +47,8 @@ keys = [
   { where = "extra", key = "ea_category", type = "str", classes = "technique" },
   { where = "extra", key = "parent_chapter", type = "str", classes = "technique" },
   { where = "extra", key = "ea_subcategory", type = "str", classes = "technique" },
+  { where = "extra", key = "ea_risk_text", type = "str", classes = "technique" },
+  { where = "extra", key = "ea_reversibility_text", type = "str", classes = "technique" },
   { where = "extra", key = "category", type = "str", classes = "page section glossary technique" },
   { where = "extra", key = "author", type = "str", classes = "page section glossary technique" },
   { where = "extra", key = "quality_score", type = "int|str", classes = "page section glossary technique", kind = "forbidden" },

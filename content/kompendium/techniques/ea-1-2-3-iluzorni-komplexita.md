@@ -15,6 +15,8 @@ related_terms = ["ea-1-2-2-falesna-ekvivalence", "ea-1-2-5-memorni-rekonstrukce"
 ea_code = "EA-1.2.3"
 ea_category = "1. Akademické techniky"
 ea_subcategory = "1.2 Narušení procesů evaluace a integrace"
+ea_risk_text = "Středně vysoká — pervazivní v politizovaných vědeckých debatách a strategických narativech"
+ea_reversibility_text = "Vysoká, pokud je rozpoznána"
 section_icon = "🌀"
 toc = true
 access_level = "L1"
@@ -26,11 +28,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-1.2.3` |
-| **Kategorie** | 1. Akademické techniky intelektuální manipulace |
-| **Subkategorie** | 1.2 Narušení procesů evaluace a integrace |
-| **Riziková úroveň** | Středně vysoká — pervazivní v politizovaných vědeckých debatách a strategických narativech |
-| **Reverzibilita** | Vysoká, pokud je rozpoznána |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md) |
 
 ## Definice

@@ -67,19 +67,49 @@ def strip_comments(text: str) -> str:
                             + ("" if c.group(3) else c.group(4)), text)
 
 
-# A parameterised shared partial carries this literal where the including page's own EA code
-# stood (scripts/extract-shared-passages.py); expand_includes substitutes the page's ea_code.
-EA_CODE_PLACEHOLDER = "{{ page.extra.ea_code }}"
+# A parameterised shared partial carries bounded Tera that expand_includes renders from the
+# including page's [extra], so the tool's expansion reproduces byte for byte what Zola renders.
+# EXACTLY two forms are supported (scripts/extract-shared-passages.py, scripts/extract-metadata-table.py):
+#   {{ page.extra.KEY }}
+#   {%- set NAME = load_data(path="data/….toml") -%} then {{ NAME[page.extra.KEY] }} / {{ NAME[page.extra.KEY].field }}
+# Any other Tera is left as written, so the two-proof of a move fails and the move is refused —
+# ia_model stays a substituter, not a Tera interpreter.
+EA_CODE_PLACEHOLDER = "{{ page.extra.ea_code }}"   # back-compat alias; covered by the KEY form below
+_FM_SET = re.compile(r'\{%-\s*set\s+(\w+)\s*=\s*load_data\(\s*path\s*=\s*"([^"]+)"\s*\)\s*-%\}\s*')
+_FM_VAR = re.compile(r"\{\{\s*page\.extra\.(\w+)\s*\}\}")
+_FM_LOOKUP = re.compile(r"\{\{\s*(\w+)\[page\.extra\.(\w+)\](?:\.(\w+))?\s*\}\}")
 
 
-def expand_includes(text: str, depth: int = 0, ea_code: str = "") -> str:
+def render_bounded(body: str, extra: dict) -> str:
+    """Render the two supported Tera forms with the page's [extra]; leave anything else as written
+    so a byte-exact proof over the result catches an unsupported partial."""
+    data = {}
+
+    def _set(m: re.Match) -> str:
+        try:
+            data[m.group(1)] = tomllib.loads((ROOT / m.group(2)).read_text(encoding="utf-8"))
+        except Exception:
+            data[m.group(1)] = {}
+        return ""
+
+    def _lookup(m: re.Match) -> str:
+        v = data.get(m.group(1), {}).get(str(extra.get(m.group(2), "")))
+        if v is None:
+            return m.group(0)
+        return str(v.get(m.group(3), m.group(0)) if m.group(3) else v)
+
+    body = _FM_SET.sub(_set, body)        # {%- set NAME = load_data(…) -%} (trim): render to nothing
+    body = _FM_LOOKUP.sub(_lookup, body)  # {{ NAME[page.extra.KEY] }} / .field
+    return _FM_VAR.sub(lambda m: str(extra.get(m.group(1), m.group(0))), body)  # {{ page.extra.KEY }}
+
+
+def expand_includes(text: str, depth: int = 0, extra: dict = None) -> str:
     """The page as a reader gets it: every {% include %} replaced by its partial's body.
 
     A partial that does not exist is left as written, so a typo shows up as a Zola build error
     rather than as silently missing prose. Nesting is followed to a small depth, which also bounds
-    a partial that includes itself. A parameterised partial carries {{ page.extra.ea_code }} where
-    the including page's own EA code stood; given the page's ea_code, expanding substitutes it, so
-    the expansion reproduces byte for byte what Zola renders.
+    a partial that includes itself. With the including page's [extra], a parameterised partial's
+    bounded Tera (see above) is rendered, so the expansion reproduces byte for byte what Zola renders.
     """
     if depth >= 4 or "include" not in text:
         return text
@@ -88,8 +118,8 @@ def expand_includes(text: str, depth: int = 0, ea_code: str = "") -> str:
         target = TEMPLATES / m.group(1)
         if not target.is_file():
             return m.group(0)
-        body = expand_includes(strip_comments(target.read_text(encoding="utf-8")), depth + 1, ea_code)
-        return body.replace(EA_CODE_PLACEHOLDER, ea_code) if ea_code else body
+        body = expand_includes(strip_comments(target.read_text(encoding="utf-8")), depth + 1, extra)
+        return render_bounded(body, extra) if extra else body
 
     return INCLUDE.sub(one, text)
 WORD = re.compile(r"[A-Za-zÀ-ž]+")
@@ -225,7 +255,7 @@ def load_pages(with_body: bool = False) -> list:
         # `body` stays the source: the duplication requirements read it, and link-terms,
         # derive-links and normalize-front-matter each re-read the file from disk rather than
         # writing a body back, so nothing can inline a partial into content.
-        rendered = expand_includes(body, ea_code=str((front.get("extra") or {}).get("ea_code") or ""))
+        rendered = expand_includes(body, extra=(front.get("extra") if isinstance(front.get("extra"), dict) else {}))
         prose = FENCE.sub("", rendered)
         words = WORD.findall(re.sub(r"\]\([^)]*\)|https?://\S+", "", prose))
         dia = sum(1 for w in words if DIACRITIC.search(w))

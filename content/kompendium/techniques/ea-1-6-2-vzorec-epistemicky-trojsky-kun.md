@@ -13,6 +13,8 @@ related_terms = ["ea-1-6-1-vzorec-guru-a-adept", "ea-1-2-2-falesna-ekvivalence",
 ea_code = "EA-1.6.2"
 ea_category = "1. Akademické techniky"
 ea_subcategory = "1.6 Charizmatické vedení"
+ea_risk_text = "Vysoká – vzorec přenáší účinek jiných technik do institucí, které jinak odolávají"
+ea_reversibility_text = "Vysoká u jednotlivého tvrzení, nízká tam, kde se náklad stal citovanou oporou dalších prací"
 toc = true
 access_level = "L1"
 risk_level = "high"
@@ -23,11 +25,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-1.6.2` |
-| **Kategorie** | 1. Akademické techniky – kompoziční vzorce |
-| **Subkategorie** | 1.6 Charizmatické vedení |
-| **Riziková úroveň** | Vysoká – vzorec přenáší účinek jiných technik do institucí, které jinak odolávají |
-| **Reverzibilita** | Vysoká u jednotlivého tvrzení, nízká tam, kde se náklad stal citovanou oporou dalších prací |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [3.1 Akademické techniky intelektuální manipulace](@/kompendium/03-zakladni-kategorie/kapitola-1.md) |
 
 ## Definice

@@ -13,6 +13,8 @@ related_terms = ["ea-2-2-1-mentor-self-totalizace", "ea-2-2-5-recommendation-coe
 ea_code = "EA-2.2.7"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.2 Pedagogická koerce"
+ea_risk_text = "Vysoká – pouto, které přetrvá konec formálního vztahu"
+ea_reversibility_text = "Střední; dluh se nedá splatit, jen odmítnout jako nesprávný rámec"
 section_icon = "👨‍🏫"
 toc = true
 access_level = "L2"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-2.2.7` |
-| **Kategorie** | 2. Scénáře [delegitimizace](@/glossary/delegitimizace.md) |
-| **Subkategorie** | 2.2 Pedagogická koerce |
-| **Riziková úroveň** | Vysoká – pouto, které přetrvá konec formálního vztahu |
-| **Reverzibilita** | Střední; dluh se nedá splatit, jen odmítnout jako nesprávný rámec |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
 | **Rychlá karta** | [QR: EA-2.2.7](@/kompendium/quick-reference/qr-ea-2-2-7.md) |
 

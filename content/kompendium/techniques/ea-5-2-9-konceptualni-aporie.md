@@ -13,6 +13,8 @@ related_terms = ["ea-5-2-7-kategorialni-disoluce", "ea-5-2-8-perspektivisticky-k
 ea_code = "EA-5.2.9"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.2 Metatranscendentální anihilace"
+ea_risk_text = "Extrémní — kolaps pojmovosti jako transcendentální schopnosti"
+ea_reversibility_text = "Velmi nízká — pojmovost je strukturní předklad jakékoli kognitivní operace"
 section_icon = "🌑"
 toc = true
 access_level = "L3"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-5.2.9` |
-| **Kategorie** | 5. Ultramární techniky |
-| **Subkategorie** | 5.2 Metatranscendentální anihilace |
-| **Riziková úroveň** | Extrémní — kolaps pojmovosti jako transcendentální schopnosti |
-| **Reverzibilita** | Velmi nízká — pojmovost je strukturní předklad jakékoli kognitivní operace |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice

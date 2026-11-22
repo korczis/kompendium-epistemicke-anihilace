@@ -13,6 +13,8 @@ related_terms = ["ea-2-2-2-mentee-isolation", "ea-2-2-3-thesis-direction-capture
 ea_code = "EA-2.2.9"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.2 Pedagogická koerce"
+ea_risk_text = "Střední – omezuje dráhu a perspektivu, méně často zdraví"
+ea_reversibility_text = "Vysoká, pokud svěřenec najde podporu v jiném oboru"
 section_icon = "👨‍🏫"
 toc = true
 access_level = "L2"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-2.2.9` |
-| **Kategorie** | 2. Scénáře [delegitimizace](@/glossary/delegitimizace.md) |
-| **Subkategorie** | 2.2 Pedagogická koerce |
-| **Riziková úroveň** | Střední – omezuje dráhu a perspektivu, méně často zdraví |
-| **Reverzibilita** | Vysoká, pokud svěřenec najde podporu v jiném oboru |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
 | **Rychlá karta** | [QR: EA-2.2.9](@/kompendium/quick-reference/qr-ea-2-2-9.md) |
 

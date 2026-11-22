@@ -15,6 +15,8 @@ related_terms = ["ea-1-1-2", "ea-1-1-2-informacni-pretizeni", "ea-1-2-4-argument
 ea_code = "EA-1.1.3"
 ea_category = "1. Akademické techniky"
 ea_subcategory = "1.1 Narušení procesů akvizice poznání"
+ea_risk_text = "Vysoká — pervazivní v akademii a expertních doménách, často strukturálně neintencionální"
+ea_reversibility_text = "Vysoká pro jednorázové incidenty, nízká při dlouhodobé internalizaci"
 section_icon = "📚"
 toc = true
 access_level = "L1"
@@ -26,11 +28,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-1.1.3` |
-| **Kategorie** | 1. Akademické techniky intelektuální manipulace |
-| **Subkategorie** | 1.1 Narušení procesů akvizice poznání |
-| **Riziková úroveň** | Vysoká — pervazivní v akademii a expertních doménách, často strukturálně neintencionální |
-| **Reverzibilita** | Vysoká pro jednorázové incidenty, nízká při dlouhodobé internalizaci |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md) |
 
 ## Definice

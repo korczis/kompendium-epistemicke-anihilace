@@ -13,6 +13,8 @@ related_terms = ["ea-1-6-1-vzorec-guru-a-adept", "ea-2-5-3-self-doubt-cultivatio
 ea_code = "EA-2.5.6"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.5 Sebeindukovaná delegitimizace"
+ea_risk_text = "Vysoká – předává autoritě monopol na skutečnost"
+ea_reversibility_text = "Střední až nízká; vyžaduje obnovit důvěru v přímou zkušenost"
 section_icon = "🪞"
 toc = true
 access_level = "L2"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-2.5.6` |
-| **Kategorie** | 2. Scénáře [delegitimizace](@/glossary/delegitimizace.md) |
-| **Subkategorie** | 2.5 Sebeindukovaná delegitimizace |
-| **Riziková úroveň** | Vysoká – předává autoritě monopol na skutečnost |
-| **Reverzibilita** | Střední až nízká; vyžaduje obnovit důvěru v přímou zkušenost |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
 | **Rychlá karta** | [QR: EA-2.5.6](@/kompendium/quick-reference/qr-ea-2-5-6.md) |
 

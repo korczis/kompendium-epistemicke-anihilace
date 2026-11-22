@@ -13,6 +13,8 @@ related_terms = ["ea-5-2-17-husserlovska-redukce-perverze", "ea-5-2-18-heidegger
 ea_code = "EA-5.2.19"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.2 Metatranscendentální anihilace"
+ea_risk_text = "Extrémní — destrukce tělesné intencionality"
+ea_reversibility_text = "Nízká —, nutná somatická a fenomenologická práce"
 section_icon = "🌑"
 toc = true
 access_level = "L4"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-5.2.19` |
-| **Kategorie** | 5. Ultramární techniky |
-| **Subkategorie** | 5.2 Metatranscendentální anihilace |
-| **Riziková úroveň** | Extrémní — destrukce tělesné intencionality |
-| **Reverzibilita** | Nízká —, nutná somatická a fenomenologická práce |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice

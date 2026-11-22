@@ -13,6 +13,8 @@ related_terms = ["ea-2-3-5-pseudo-kontroverze-amplifikace", "ea-2-5-4-radical-re
 ea_code = "EA-2.5.5"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.5 Sebeindukovaná delegitimizace"
+ea_risk_text = "Střední až vysoká – vede k rozhodovací paralýze a zranitelnosti vůči výrobě pochybnosti"
+ea_reversibility_text = "Vysoká; vážení důkazů se dá znovu naučit"
 section_icon = "🪞"
 toc = true
 access_level = "L2"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-2.5.5` |
-| **Kategorie** | 2. Scénáře [delegitimizace](@/glossary/delegitimizace.md) |
-| **Subkategorie** | 2.5 Sebeindukovaná delegitimizace |
-| **Riziková úroveň** | Střední až vysoká – vede k rozhodovací paralýze a zranitelnosti vůči výrobě pochybnosti |
-| **Reverzibilita** | Vysoká; vážení důkazů se dá znovu naučit |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
 | **Rychlá karta** | [QR: EA-2.5.5](@/kompendium/quick-reference/qr-ea-2-5-5.md) |
 

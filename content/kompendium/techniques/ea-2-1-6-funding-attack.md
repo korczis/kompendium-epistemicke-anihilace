@@ -13,6 +13,8 @@ related_terms = ["ea-2-4-3-funding-redirect", "ea-2-1-7-institucionalni-vyloucen
 ea_code = "EA-2.1.6"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.1 Expertní diskvalifikace"
+ea_risk_text = "Vysoká – ohrožuje celé týmy, nejen jednotlivce"
+ea_reversibility_text = "Nízká až střední; rozpuštěný tým a přerušená data se obnovují obtížně"
 section_icon = "🎓"
 toc = true
 access_level = "L2"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-2.1.6` |
-| **Kategorie** | 2. Scénáře [delegitimizace](@/glossary/delegitimizace.md) |
-| **Subkategorie** | 2.1 Expertní diskvalifikace |
-| **Riziková úroveň** | Vysoká – ohrožuje celé týmy, nejen jednotlivce |
-| **Reverzibilita** | Nízká až střední; rozpuštěný tým a přerušená data se obnovují obtížně |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
 | **Rychlá karta** | [QR: EA-2.1.6](@/kompendium/quick-reference/qr-ea-2-1-6.md) |
 

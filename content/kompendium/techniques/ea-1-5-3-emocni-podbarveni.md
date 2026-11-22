@@ -14,6 +14,8 @@ related_terms = ["ea-1-5-1-strategicka-proxemika", "ea-1-5-2-dominantni-telesne-
 ea_code = "EA-1.5.3"
 ea_category = "1. Akademické techniky"
 ea_subcategory = "1.5 Proxemické a kinetické techniky"
+ea_risk_text = "Střední; vysoká ve skupinách a v rodinách"
+ea_reversibility_text = "Střední; naučená citová reakce přetrvává déle než vědomé přesvědčení"
 parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
@@ -24,11 +26,7 @@ date_modified = "2026-11-10"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-1.5.3` |
-| **Kategorie** | 1. Akademické techniky |
-| **Subkategorie** | 1.5 Proxemické a kinetické techniky |
-| **Riziková úroveň** | Střední; vysoká ve skupinách a v rodinách |
-| **Reverzibilita** | Střední; naučená citová reakce přetrvává déle než vědomé přesvědčení |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [3.1 Akademické techniky intelektuální manipulace](@/kompendium/03-zakladni-kategorie/kapitola-1.md) |
 
 ## Definice

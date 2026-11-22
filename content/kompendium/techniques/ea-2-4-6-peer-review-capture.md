@@ -13,6 +13,8 @@ related_terms = ["ea-2-4-8-journal-capture", "ea-2-1-4-publikacni-blokace", "ea-
 ea_code = "EA-2.4.6"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.4 Institucionální zachycení"
+ea_risk_text = "Vysoká – zasahuje mechanismus, jímž věda rozlišuje vědění od tvrzení"
+ea_reversibility_text = "Nízká až střední; zkreslená literatura zůstává v oběhu i po nápravě"
 section_icon = "🏛️"
 toc = true
 access_level = "L2"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-2.4.6` |
-| **Kategorie** | 2. Scénáře [delegitimizace](@/glossary/delegitimizace.md) |
-| **Subkategorie** | 2.4 Institucionální zachycení |
-| **Riziková úroveň** | Vysoká – zasahuje mechanismus, jímž věda rozlišuje vědění od tvrzení |
-| **Reverzibilita** | Nízká až střední; zkreslená literatura zůstává v oběhu i po nápravě |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
 | **Rychlá karta** | [QR: EA-2.4.6](@/kompendium/quick-reference/qr-ea-2-4-6.md) |
 

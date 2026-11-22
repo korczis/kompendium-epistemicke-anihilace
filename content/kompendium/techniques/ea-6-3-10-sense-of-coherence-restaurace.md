@@ -13,6 +13,8 @@ related_terms = ["ea-6-2-9-body-oriented-therapy-protokol", "ea-6-3-1-stabilizac
 ea_code = "EA-6.3.10"
 ea_category = "6. Klinické aplikace"
 ea_subcategory = "6.3 Rekonstrukční protokoly"
+ea_risk_text = "Střední — vyžaduje kvalifikovaného klinika"
+ea_reversibility_text = "Vysoká při řádné implementaci"
 section_icon = "🔧"
 toc = true
 access_level = "L2"
@@ -26,11 +28,7 @@ parent_chapter = "/kompendium/06-klinicke-aplikace/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-6.3.10` |
-| **Kategorie** | 6. Klinické aplikace |
-| **Subkategorie** | 6.3 Rekonstrukční protokoly |
-| **Riziková úroveň** | Střední — vyžaduje kvalifikovaného klinika |
-| **Reverzibilita** | Vysoká při řádné implementaci |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) |
 
 ## Definice

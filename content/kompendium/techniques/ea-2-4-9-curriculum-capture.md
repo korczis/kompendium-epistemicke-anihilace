@@ -13,6 +13,8 @@ related_terms = ["ea-2-4-5-evaluation-criteria-rewrite", "ea-2-4-10-disciplinary
 ea_code = "EA-2.4.9"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.4 Institucionální zachycení"
+ea_risk_text = "Vysoká – formuje celé generace odborníků"
+ea_reversibility_text = "Nízká; absolventi si rámec nesou do praxe desítky let"
 section_icon = "🏛️"
 toc = true
 access_level = "L2"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-2.4.9` |
-| **Kategorie** | 2. Scénáře [delegitimizace](@/glossary/delegitimizace.md) |
-| **Subkategorie** | 2.4 Institucionální zachycení |
-| **Riziková úroveň** | Vysoká – formuje celé generace odborníků |
-| **Reverzibilita** | Nízká; absolventi si rámec nesou do praxe desítky let |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
 | **Rychlá karta** | [QR: EA-2.4.9](@/kompendium/quick-reference/qr-ea-2-4-9.md) |
 

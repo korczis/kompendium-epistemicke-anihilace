@@ -13,6 +13,8 @@ related_terms = ["ea-5-3-4-telesna-disociace", "ea-5-3-41-trans-individualizace"
 ea_code = "EA-5.3.42"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.3 Hypertransformativní protokoly"
+ea_risk_text = "Vysoká – ohrožuje zdraví a při selhání v měřítku i život"
+ea_reversibility_text = "Střední; tělesné následky se upravují rychleji než ztracená důvěra ve vlastní prožitek"
 toc = true
 access_level = "L3"
 risk_level = "high"
@@ -23,11 +25,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-5.3.42` |
-| **Kategorie** | 5. Ultramární techniky |
-| **Subkategorie** | 5.3 Hypertransformativní protokoly |
-| **Riziková úroveň** | Vysoká – ohrožuje zdraví a při selhání v měřítku i život |
-| **Reverzibilita** | Střední; tělesné následky se upravují rychleji než ztracená důvěra ve vlastní prožitek |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 8: Hypertransformativní protokoly](@/kompendium/05-ultramari-techniky/kapitola-8.md) |
 
 ## Definice

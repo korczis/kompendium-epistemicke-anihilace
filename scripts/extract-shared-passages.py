@@ -279,8 +279,9 @@ def apply(moves: list, texts: dict, codes: dict) -> dict:
         code = codes.get(p, "")
         restored = (own.sub(lambda i: mine[i.group(0)].replace(m.EA_CODE_PLACEHOLDER, code), t)
                     if own else t)
+        extra = {"ea_code": code}
         if (restored != texts[p]
-                or m.expand_includes(t, ea_code=code) != m.expand_includes(texts[p], ea_code=code)):
+                or m.expand_includes(t, extra=extra) != m.expand_includes(texts[p], extra=extra)):
             bad.append(p)
     if bad:
         for f in created:

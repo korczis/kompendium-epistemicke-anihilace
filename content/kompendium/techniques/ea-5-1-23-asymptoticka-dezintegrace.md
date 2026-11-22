@@ -13,6 +13,8 @@ related_terms = ["ea-5-1-21-sebe-referencni-paradox", "ea-5-1-22-diferencialni-n
 ea_code = "EA-5.1.23"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.1 Epistemická singularita"
+ea_risk_text = "Extrémní — **prahová neviditelnost**, žádný jednotlivý okamžik nepředstavuje detekovatelnou hranici"
+ea_reversibility_text = "Velmi nízká — bez referenčního bodu nelze určit, **odkud** se subjekt vrátit má"
 section_icon = "🌑"
 toc = true
 access_level = "L5"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-6/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-5.1.23` |
-| **Kategorie** | 5. Ultramární techniky |
-| **Subkategorie** | 5.1 Epistemická singularita |
-| **Riziková úroveň** | Extrémní — **prahová neviditelnost**, žádný jednotlivý okamžik nepředstavuje detekovatelnou hranici |
-| **Reverzibilita** | Velmi nízká — bez referenčního bodu nelze určit, **odkud** se subjekt vrátit má |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md) |
 
 ## Definice

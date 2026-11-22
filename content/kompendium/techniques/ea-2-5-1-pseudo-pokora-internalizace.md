@@ -13,6 +13,8 @@ related_terms = ["ea-2-5-2-imposter-syndrome-amplifikace", "ea-2-5-3-self-doubt-
 ea_code = "EA-2.5.1"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.5 Sebeindukovaná delegitimizace"
+ea_risk_text = "Vysoká – delegitimizace pokračuje bez vnějšího aktéra"
+ea_reversibility_text = "Střední; vyžaduje rozlišit vlastní pokoru od převzatého ponížení"
 section_icon = "🪞"
 toc = true
 access_level = "L2"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-2.5.1` |
-| **Kategorie** | 2. Scénáře [delegitimizace](@/glossary/delegitimizace.md) |
-| **Subkategorie** | 2.5 Sebeindukovaná delegitimizace |
-| **Riziková úroveň** | Vysoká – delegitimizace pokračuje bez vnějšího aktéra |
-| **Reverzibilita** | Střední; vyžaduje rozlišit vlastní pokoru od převzatého ponížení |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
 | **Rychlá karta** | [QR: EA-2.5.1](@/kompendium/quick-reference/qr-ea-2-5-1.md) |
 

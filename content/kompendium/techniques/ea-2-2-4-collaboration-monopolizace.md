@@ -13,6 +13,8 @@ related_terms = ["ea-2-2-2-mentee-isolation", "ea-2-2-8-intellectual-paternity-c
 ea_code = "EA-2.2.4"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.2 Pedagogická koerce"
+ea_risk_text = "Střední až vysoká – brání vzniku samostatného odborného profilu"
+ea_reversibility_text = "Vysoká, pokud svěřenec včas naváže vlastní spolupráce"
 section_icon = "👨‍🏫"
 toc = true
 access_level = "L2"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-2.2.4` |
-| **Kategorie** | 2. Scénáře [delegitimizace](@/glossary/delegitimizace.md) |
-| **Subkategorie** | 2.2 Pedagogická koerce |
-| **Riziková úroveň** | Střední až vysoká – brání vzniku samostatného odborného profilu |
-| **Reverzibilita** | Vysoká, pokud svěřenec včas naváže vlastní spolupráce |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
 | **Rychlá karta** | [QR: EA-2.2.4](@/kompendium/quick-reference/qr-ea-2-2-4.md) |
 

@@ -13,6 +13,8 @@ related_terms = ["ea-5-1-20-holograficka-redukce", "ea-5-1-21-sebe-referencni-pa
 ea_code = "EA-5.1.22"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.1 Epistemická singularita"
+ea_risk_text = "Extrémní — zasahuje samotnou kapacitu rozlišovat, postupuje pod prahem detekce"
+ea_reversibility_text = "Nízká — rekonstrukce ztracených distinkcí vyžaduje externí epistemickou referenci"
 section_icon = "🌑"
 toc = true
 access_level = "L5"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-6/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-5.1.22` |
-| **Kategorie** | 5. Ultramární techniky |
-| **Subkategorie** | 5.1 Epistemická singularita |
-| **Riziková úroveň** | Extrémní — zasahuje samotnou kapacitu rozlišovat, postupuje pod prahem detekce |
-| **Reverzibilita** | Nízká — rekonstrukce ztracených distinkcí vyžaduje externí epistemickou referenci |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md) |
 
 ## Definice

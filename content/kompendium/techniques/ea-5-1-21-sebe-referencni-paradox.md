@@ -13,6 +13,8 @@ related_terms = ["ea-5-1-2-konceptualni-nihilace", "ea-5-1-20-holograficka-reduk
 ea_code = "EA-5.1.21"
 ea_category = "5. Pokročilé techniky"
 ea_subcategory = "5.1 Epistemická singularita"
+ea_risk_text = "Kritická — útočí přímo na schopnost subjektu udržovat konzistentní uvažování"
+ea_reversibility_text = "Střední — vyžaduje formální tréning v rozlišování typových úrovní"
 section_icon = "🌀"
 toc = true
 access_level = "L3"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/05-pokrocile-techniky/kapitola-6/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-5.1.21` |
-| **Kategorie** | 5. Pokročilé techniky epistemické anihilace |
-| **Subkategorie** | 5.1 Epistemická singularita |
-| **Riziková úroveň** | Kritická — útočí přímo na schopnost subjektu udržovat konzistentní uvažování |
-| **Reverzibilita** | Střední — vyžaduje formální tréning v rozlišování typových úrovní |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-pokrocile-techniky/kapitola-6/_index.md) |
 
 ## Definice

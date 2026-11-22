@@ -13,6 +13,8 @@ related_terms = ["ea-3-3-8-research-translation-pipeline", "ea-3-3-9-cross-insti
 ea_code = "EA-4.1.1"
 ea_category = "4. Terminální protokoly"
 ea_subcategory = "4.1 Extrémní výcviková sekvence"
+ea_risk_text = "Vysoká — terminální protokoly vyžadují přísný supervizní rámec, [IRB](@/glossary/irb-review.md) přezkum a doložitelnou klinickou kompetenci"
+ea_reversibility_text = "Střední — návrat vyžaduje supervidovanou rekonstrukční fázi v řádu měsíců až let"
 section_icon = "⚠️"
 toc = true
 access_level = "L2"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/04-terminalni-protokoly/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-4.1.1` |
-| **Kategorie** | 4. Terminální protokoly |
-| **Subkategorie** | 4.1 Extrémní výcviková sekvence |
-| **Riziková úroveň** | Vysoká — terminální protokoly vyžadují přísný supervizní rámec, [IRB](@/glossary/irb-review.md) přezkum a doložitelnou klinickou kompetenci |
-| **Reverzibilita** | Střední — návrat vyžaduje supervidovanou rekonstrukční fázi v řádu měsíců až let |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md) |
 
 ## Definice

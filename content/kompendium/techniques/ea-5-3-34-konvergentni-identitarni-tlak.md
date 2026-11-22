@@ -12,6 +12,8 @@ related_terms = ["ea-5-3-30-konvergentni-hypertransformace", "ea-5-3-36-identita
 ea_code = "EA-5.3.34"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.3 Hypertransformativní protokoly"
+ea_risk_text = "Vysoká; u dospívajících velmi vysoká"
+ea_reversibility_text = "Střední; zpětné rozrůznění identity vyžaduje nové prostředí"
 access_level = "L3"
 parent_chapter = "/kompendium/05-ultramari-techniky/"
 author = "Tomas Korcak (korczis)"
@@ -23,11 +25,7 @@ date_modified = "2026-11-10"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-5.3.34` |
-| **Kategorie** | 5. Ultramární techniky |
-| **Subkategorie** | 5.3 Hypertransformativní protokoly |
-| **Riziková úroveň** | Vysoká; u dospívajících velmi vysoká |
-| **Reverzibilita** | Střední; zpětné rozrůznění identity vyžaduje nové prostředí |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 8: Hypertransformativní protokoly](@/kompendium/05-ultramari-techniky/kapitola-8.md) |
 
 ## Definice

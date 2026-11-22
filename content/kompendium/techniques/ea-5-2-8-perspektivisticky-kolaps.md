@@ -13,6 +13,8 @@ related_terms = ["ea-5-2-6-transcendentalni-rekursivita", "ea-5-2-7-kategorialni
 ea_code = "EA-5.2.8"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.2 Metatranscendentální anihilace"
+ea_risk_text = "Extrémní — ztráta perspektivy jako transcendentální kategorie"
+ea_reversibility_text = "Velmi nízká — perspektiva je strukturně předkladem každého kognitivního aktu"
 section_icon = "🌑"
 toc = true
 access_level = "L3"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-5.2.8` |
-| **Kategorie** | 5. Ultramární techniky |
-| **Subkategorie** | 5.2 Metatranscendentální anihilace |
-| **Riziková úroveň** | Extrémní — ztráta perspektivy jako transcendentální kategorie |
-| **Reverzibilita** | Velmi nízká — perspektiva je strukturně předkladem každého kognitivního aktu |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice

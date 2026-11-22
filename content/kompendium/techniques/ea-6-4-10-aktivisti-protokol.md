@@ -13,6 +13,8 @@ related_terms = ["ea-6-4-9-novinari-protokol", "ea-6-4-3-uprchlik-protokol", "ea
 ea_code = "EA-6.4.10"
 ea_category = "6. Klinické aplikace"
 ea_subcategory = "6.4 Vulnerabilní populace"
+ea_risk_text = "Střední — vyžaduje kvalifikovaného klinika"
+ea_reversibility_text = "Vysoká při řádné implementaci"
 section_icon = "👥"
 toc = true
 access_level = "L2"
@@ -26,11 +28,7 @@ parent_chapter = "/kompendium/06-klinicke-aplikace/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-6.4.10` |
-| **Kategorie** | 6. Klinické aplikace |
-| **Subkategorie** | 6.4 Vulnerabilní populace |
-| **Riziková úroveň** | Střední — vyžaduje kvalifikovaného klinika |
-| **Reverzibilita** | Vysoká při řádné implementaci |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) |
 
 ## Definice

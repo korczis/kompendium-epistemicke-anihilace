@@ -13,6 +13,8 @@ related_terms = ["ea-5-2-18-heideggerovska-rozklady", "ea-5-2-19-merleau-pontyov
 ea_code = "EA-5.2.2"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.2 Metatranscendentální anihilace"
+ea_risk_text = "Extrémní — falešný transcendentální vhled blokuje legitimní epistemickou práci"
+ea_reversibility_text = "Velmi nízká — návrat vyžaduje uznání iluze, což je pro subjekt identitárně ohrožující"
 section_icon = "🌑"
 toc = true
 access_level = "L3"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-5.2.2` |
-| **Kategorie** | 5. Ultramární techniky |
-| **Subkategorie** | 5.2 Metatranscendentální anihilace |
-| **Riziková úroveň** | Extrémní — falešný transcendentální vhled blokuje legitimní epistemickou práci |
-| **Reverzibilita** | Velmi nízká — návrat vyžaduje uznání iluze, což je pro subjekt identitárně ohrožující |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice

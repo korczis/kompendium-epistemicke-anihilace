@@ -13,6 +13,8 @@ related_terms = ["ea-2-2-5-recommendation-coercion", "ea-2-2-7-emotional-debt-cu
 ea_code = "EA-2.2.10"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.2 Pedagogická koerce"
+ea_risk_text = "Velmi vysoká – může přerůst v trestnou činnost a ohrozit bezpečí"
+ea_reversibility_text = "Nízká až střední; strach z prozrazení trvá dlouho po konci vztahu"
 section_icon = "👨‍🏫"
 toc = true
 access_level = "L2"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-2.2.10` |
-| **Kategorie** | 2. Scénáře [delegitimizace](@/glossary/delegitimizace.md) |
-| **Subkategorie** | 2.2 Pedagogická koerce |
-| **Riziková úroveň** | Velmi vysoká – může přerůst v trestnou činnost a ohrozit bezpečí |
-| **Reverzibilita** | Nízká až střední; strach z prozrazení trvá dlouho po konci vztahu |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
 | **Rychlá karta** | [QR: EA-2.2.10](@/kompendium/quick-reference/qr-ea-2-2-10.md) |
 

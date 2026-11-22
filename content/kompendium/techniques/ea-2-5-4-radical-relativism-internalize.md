@@ -13,6 +13,8 @@ related_terms = ["ea-2-5-5-bothsidesizm-internalizace", "ea-2-5-10-existential-h
 ea_code = "EA-2.5.4"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.5 Sebeindukovaná delegitimizace"
+ea_risk_text = "Vysoká – odstraňuje měřítko, podle něhož lze manipulaci rozpoznat"
+ea_reversibility_text = "Střední; vyžaduje obnovit rozlišení mezi perspektivou a skutečností"
 section_icon = "🪞"
 toc = true
 access_level = "L2"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-2.5.4` |
-| **Kategorie** | 2. Scénáře [delegitimizace](@/glossary/delegitimizace.md) |
-| **Subkategorie** | 2.5 Sebeindukovaná delegitimizace |
-| **Riziková úroveň** | Vysoká – odstraňuje měřítko, podle něhož lze manipulaci rozpoznat |
-| **Reverzibilita** | Střední; vyžaduje obnovit rozlišení mezi perspektivou a skutečností |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
 | **Rychlá karta** | [QR: EA-2.5.4](@/kompendium/quick-reference/qr-ea-2-5-4.md) |
 

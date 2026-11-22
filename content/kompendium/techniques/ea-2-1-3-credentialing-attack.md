@@ -13,6 +13,8 @@ related_terms = ["ea-2-1-1-expertni-disinflation", "ea-2-1-10-credentials-rekonf
 ea_code = "EA-2.1.3"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.1 Expertní diskvalifikace"
+ea_risk_text = "Vysoká – vyřazuje hlas z diskuse bez věcného vyvrácení"
+ea_reversibility_text = "Střední; formální kvalifikace se dá doložit, pochybnost o ní přetrvává déle"
 section_icon = "🎓"
 toc = true
 access_level = "L2"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-2.1.3` |
-| **Kategorie** | 2. Scénáře [delegitimizace](@/glossary/delegitimizace.md) |
-| **Subkategorie** | 2.1 Expertní diskvalifikace |
-| **Riziková úroveň** | Vysoká – vyřazuje hlas z diskuse bez věcného vyvrácení |
-| **Reverzibilita** | Střední; formální kvalifikace se dá doložit, pochybnost o ní přetrvává déle |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
 | **Rychlá karta** | [QR: EA-2.1.3](@/kompendium/quick-reference/qr-ea-2-1-3.md) |
 

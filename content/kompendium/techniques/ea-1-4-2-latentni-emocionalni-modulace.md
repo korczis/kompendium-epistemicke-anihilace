@@ -15,6 +15,8 @@ related_terms = ["ea-1-4-1-prosodicka-dominance", "ea-1-4-2-latent-emotional-mod
 ea_code = "EA-1.4.2"
 ea_category = "1. Akademické techniky"
 ea_subcategory = "1.4 Paralingvistické manipulativní techniky"
+ea_risk_text = "Vysoká — strukturální mechanismus pro dlouhodobé manipulace"
+ea_reversibility_text = "Střední — vyžaduje vědomé monitorování emocionálních reakcí"
 section_icon = "🎭"
 toc = true
 access_level = "L1"
@@ -26,11 +28,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-1.4.2` |
-| **Kategorie** | 1. Akademické techniky intelektuální manipulace |
-| **Subkategorie** | 1.4 Paralingvistické manipulativní techniky |
-| **Riziková úroveň** | Vysoká — strukturální mechanismus pro dlouhodobé manipulace |
-| **Reverzibilita** | Střední — vyžaduje vědomé monitorování emocionálních reakcí |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md) |
 
 ## Definice

@@ -13,6 +13,8 @@ related_terms = ["ea-2-5-9-identity-uncertainty-cult", "ea-3-1-1-graduated-expos
 ea_code = "EA-3.1.10"
 ea_category = "3. Edukativní implementace"
 ea_subcategory = "3.1 Kurikulární techniky"
+ea_risk_text = "Nízká až střední — primárně edukativní, iatrogenní rizika při nesprávné implementaci"
+ea_reversibility_text = "Vysoká — edukativní intervence jsou principiálně modifikovatelné"
 section_icon = "🎓"
 toc = true
 access_level = "L1"
@@ -26,11 +28,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-3/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-3.1.10` |
-| **Kategorie** | 3. [Edukativní implementace](@/glossary/edukativni-implementace.md) |
-| **Subkategorie** | 3.1 Kurikulární techniky |
-| **Riziková úroveň** | Nízká až střední — primárně edukativní, iatrogenní rizika při nesprávné implementaci |
-| **Reverzibilita** | Vysoká — edukativní intervence jsou principiálně modifikovatelné |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 3 — Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md) |
 
 ## Definice

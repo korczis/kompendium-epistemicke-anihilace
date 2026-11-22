@@ -13,6 +13,8 @@ related_terms = ["ea-5-1-19-kvazi-mysticka-anihilace", "ea-5-1-2-konceptualni-ni
 ea_code = "EA-5.1.20"
 ea_category = "5. Pokročilé techniky"
 ea_subcategory = "5.1 Epistemická singularita"
+ea_risk_text = "Kritická — produkuje totalitní rámec, který interpretuje veškerou evidenci jako potvrzující"
+ea_reversibility_text = "Nízká — strukturálně eliminuje samotný mechanismus revize"
 section_icon = "🌀"
 toc = true
 access_level = "L3"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/05-pokrocile-techniky/kapitola-6/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-5.1.20` |
-| **Kategorie** | 5. Pokročilé techniky epistemické anihilace |
-| **Subkategorie** | 5.1 Epistemická singularita |
-| **Riziková úroveň** | Kritická — produkuje totalitní rámec, který interpretuje veškerou evidenci jako potvrzující |
-| **Reverzibilita** | Nízká — strukturálně eliminuje samotný mechanismus revize |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-pokrocile-techniky/kapitola-6/_index.md) |
 
 ## Definice

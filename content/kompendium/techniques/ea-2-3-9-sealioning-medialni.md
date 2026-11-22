@@ -13,6 +13,8 @@ related_terms = ["ea-2-3-4-mob-coordination", "ea-2-3-5-pseudo-kontroverze-ampli
 ea_code = "EA-2.3.9"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.3 Mediální delegitimizace"
+ea_risk_text = "Střední až vysoká – vyčerpává, umlčuje a staví cíl do role nezdvořilého"
+ea_reversibility_text = "Vysoká, pokud cíl rozpozná vzorec a vystoupí z něj"
 section_icon = "📺"
 toc = true
 access_level = "L2"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-2.3.9` |
-| **Kategorie** | 2. Scénáře [delegitimizace](@/glossary/delegitimizace.md) |
-| **Subkategorie** | 2.3 Mediální delegitimizace |
-| **Riziková úroveň** | Střední až vysoká – vyčerpává, umlčuje a staví cíl do role nezdvořilého |
-| **Reverzibilita** | Vysoká, pokud cíl rozpozná vzorec a vystoupí z něj |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
 | **Rychlá karta** | [QR: EA-2.3.9](@/kompendium/quick-reference/qr-ea-2-3-9.md) |
 

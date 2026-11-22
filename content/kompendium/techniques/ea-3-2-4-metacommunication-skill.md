@@ -53,13 +53,13 @@ Zdroje této stránky je užitečné rozlišit podle toho, co vlastně tvrdí. �
 
 Certifikovaní supervizoři; klinici v terapeutickém tréninku.
 
-Edukativní cíl není změna chování v behaviorálním smyslu, ale kultivace kompetencí umožňujících autonomní navigaci v epistemicky náročných kontextech. Cílová populace je primárně dospělí profesionálové s baseline metakognitivní stabilitou — technika není určena pro klinické intervence u aktivně dekompenzovaných jedinců.
+{% include "partials/edukativni-cil-neni-zmena-chovani.md" %}
 
 ## Předpoklady
 
 Dokončený trénink fenomenologického pozorování; reflexní praxe; doložená vlastní zkušenost se supervizí supervize, vedená dost dlouho, aby zahrnula opakované a konfliktní případy.
 
-Bez splnění předpokladů technika produkuje suboptimální výsledky a může generovat iatrogenní efekty. Předpoklady nejsou byrokratické formality, ale strukturální podmínky efektivity intervence.
+{% include "partials/bez-splneni-predpokladu-technika-produkuje.md" %}
 
 ## Implementační protokol
 
@@ -82,7 +82,7 @@ Implementace je iterativní — každý cyklus generuje data informující úpra
 | Tone | Reflektivní, ne konfrontační |
 | Student integration | Naming usnadňuje pohyb, neblokuje
 
-Evaluace integruje kvantitativní (validované instrumenty) i kvalitativní (reflektivní eseje, ethnographic observation) datové zdroje. Žádná samostatná metrika není dostatečná — multidimenzionální evaluace je nezbytná.
+{% include "partials/evaluace-integruje-kvantitativni-validovane-instrumenty.md" %}
 
 Přesvědčivé pojmenování procesu nedokládá, že popisovaný proces nastal. Souhlas supervidovaného je u této techniky nejslabším z možných potvrzení, protože souhlas je v nerovném vztahu očekávanou odpovědí; Ladany, Hill, Corbett a Nutt (1996) zdokumentovali, že se právě pochybnosti o supervizi vyslovují nejméně, takže přijaté pojmenování nerozlišuje mezi tím, že bylo přesné, a tím, že nebylo bezpečné je odmítnout. Nedokládá se tím ani prospěšnost: to, že se hovor po pojmenování rozběhl, může znamenat porozumění, i že supervidovaný přešel na téma, které je od něj žádáno. Vyvozovat z metakomunikační zdatnosti terapeutickou kompetenci rovněž nelze — supervizní vztah je vztahem, v němž jedna strana druhou hodnotí, a tato asymetrie v případu, o němž se mluví, obdobu nemá, takže se dovednost nacvičuje v jiných podmínkách, než v jakých má působit. A protože podle Batesona (1972) náleží sdělení o sdělení k jiné logické rovině, nelze proti němu namítat v rovině obsahu; mlčení supervidovaného proto není potvrzením, nýbrž především znakem toho, že odvolání není kam podat.
 
@@ -105,7 +105,7 @@ Od [EA-3.2.2 Multiparadigmatická fluence](@/kompendium/techniques/ea-3-2-2-mult
 
 ### Sourozenecké techniky (3.2 Supervizorské techniky)
 
-Technika je integrální součástí subkategorie 3.2 a je navržena pro synergickou implementaci s ostatními sourozeneckými technikami:
+{% include "partials/technika-je-integralni-soucasti-subkategorie-3.md" %}
 
   - [EA-3.2.1 Supervizorská certifikace](@/kompendium/techniques/ea-3-2-1-supervisor-certification.md)
   - [EA-3.2.2 Multiparadigmatická fluence](@/kompendium/techniques/ea-3-2-2-multi-paradigm-fluency.md)

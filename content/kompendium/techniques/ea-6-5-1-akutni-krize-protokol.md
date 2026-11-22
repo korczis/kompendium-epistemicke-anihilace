@@ -65,7 +65,7 @@ Klinická efektivita techniky je posuzována podle následujících outcome metr
 
 Snížená akutní symptomatologie, safety, engagement v dlouhodobé péči.
 
-Pre-post administrace standardizovaných nástrojů poskytuje kvantitativní podklad pro klinické rozhodování o pokračování, modifikaci nebo ukončení intervence.
+{% include "partials/pre-post-administrace-standardizovanych-nastroju.md" %}
 
 ## Adaptace pro specifické EA kategorie
 
@@ -73,7 +73,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 Cult-exit — specifický protocol. DV — safety priority. ER — rapid screening.
 
-Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fenomenologii a strukturálních charakteristikách jednotlivých EA-domén a jsou klíčové pro klinickou účinnost intervence v cílové populaci.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-odrazeji.md" %}
 
 ## Iatrogenní rizika
 
@@ -85,7 +85,7 @@ Premature deep work, dropout, paradoxní destabilizace.
 
 V kompendiu je technika **EA-6.5.1** vedena jako akutní stabilizace s triáží do dalšího rámce péče; její hranicí je okamžik, kdy péči přebírá někdo jiný.
 
-**Klinické zacílení**: akutní a vysokointenzivní klinické setting (ER, akutní krize, inpatient, partial hospitalization, day program, residential) pro pacienty s aktivní EA-symptomatologií vyžadující stabilizaci. Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-akutni-a-vysokointenzivni.md" %}
 
 **Klinická tradice ukotvení**: *interpretace knihy* — krizová intervence se odehrává v síti, kterou má region k dispozici, ne v té, kterou předpokládá manuál. Tam, kde navazující ambulantní kapacita chybí nebo je vzdálená, se stabilizace mění v jediný kontakt, který dotčený člověk dostane; převzatý [evidence-based](@/glossary/evidence-based.md) postup tuto podmínku nezahrnuje a odpovědnost za předání nese pracoviště, ne protokol.
 

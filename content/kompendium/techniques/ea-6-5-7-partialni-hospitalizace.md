@@ -65,7 +65,7 @@ Klinická efektivita techniky je posuzována podle následujících outcome metr
 
 Symptom redukce, functional improvement, sustained engagement.
 
-Pre-post administrace standardizovaných nástrojů poskytuje kvantitativní podklad pro klinické rozhodování o pokračování, modifikaci nebo ukončení intervence.
+{% include "partials/pre-post-administrace-standardizovanych-nastroju.md" %}
 
 ## Adaptace pro specifické EA kategorie
 
@@ -73,7 +73,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 Adolescenti — teen PHP. Veteráni — VA PHP.
 
-Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fenomenologii a strukturálních charakteristikách jednotlivých EA-domén a jsou klíčové pro klinickou účinnost intervence v cílové populaci.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-odrazeji.md" %}
 
 ## Iatrogenní rizika
 
@@ -85,7 +85,7 @@ Dependence na intensive setting, premature step-down, financial burden.
 
 Kniha vede techniku **EA-6.5.7** jako program denní péče, v němž člověk tráví část dne v léčebném prostředí a zbytek ve svém. Stránka ji zaznamenává kvůli rozpoznání, co takové uspořádání s dotčeným člověkem dělá; o indikaci a délce rozhoduje klinické posouzení.
 
-**Klinické zacílení**: akutní a vysokointenzivní klinické setting (ER, akutní krize, inpatient, partial hospitalization, day program, residential) pro pacienty s aktivní EA-symptomatologií vyžadující stabilizaci. Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-akutni-a-vysokointenzivni.md" %}
 
 **Trauma spektrum kontext**: Terr (1991) oddělila trauma z jediné události od traumatu z opakované expozice ve vztahu. V programu denní péče se rozdíl projeví na tom, co člověka čeká mimo něj: u druhého typu bývá domácí prostředí součástí expozice, nikoli místem úlevy. Fázované pořadí práce je u této trajektorie popsáno jako podmínka (Herman, 1992).
 

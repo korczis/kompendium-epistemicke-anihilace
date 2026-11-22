@@ -73,7 +73,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 Po odchodu ze sektářské skupiny: zaměření na in/out group polarizaci důvěry. EA-1 akademické: epistemická důvěra k institucionálním autoritám. [EA-6.4.4](@/kompendium/techniques/ea-6-4-4-LGBTQI-EA-protokol.md) LGBTQI: kulturně-senzitivní úprava ohledně institucionální nedůvěry.
 
-Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fenomenologii a strukturálních charakteristikách jednotlivých EA-domén a jsou klíčové pro klinickou účinnost intervence v cílové populaci.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-odrazeji.md" %}
 
 ## Iatrogenní rizika
 
@@ -85,7 +85,7 @@ Stigmatizace klienta jako 'paranoidního', falešné patologizování adaptivní
 
 EA-6.1.10 v kompendiu hodnotí kapacitu epistemické důvěry, nikoli pravdivost toho, co klient tvrdí.
 
-**Klinické zacílení**: klinický assessment epistemicko-afektivního traumatu po manipulativní expozici (kult, abusivní vztah, koercivní pracoviště, post-divorce DARVO dynamics). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-klinicky-assessment-epistemicko.md" %}
 
 **Trauma spektrum kontext**: u jednorázové ohraničené události bývá epistemická důvěra zasažena vůči jedné situaci, u opakované relační expozice vůči samotnému poměru sdělování — tedy vůči tomu, komu a za jakých okolností lze věřit. Typologii obou podob zavedla Terr (1991); že zrada blízkou osobou mění samo zacházení s vědomím o ní, popisuje Freyd (1996). Assessment proto zjišťuje, který z obou profilů má před sebou, dřív než svůj výsledek jakkoli vyloží.
 
@@ -117,7 +117,7 @@ Třetím znakem je souhlas, který lze kdykoli odvolat, a výsledek, který se v
 
 Čtvrtým znakem je, jak se nedůvěra vykládá. Po zradě ze strany osoby, na níž byl člověk závislý, je nedůvěra odpovědí na doloženou zkušenost, a její patologizace poškození prodlužuje (Freyd, 1996).
 
-Rámec stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
+{% include "partials/ramec-stanovi-eticke-aspekty-a.md" %}
 
 *Interpretace knihy*: nálezem není nedůvěra, ale ztráta možnosti rozlišovat, komu věřit.
 

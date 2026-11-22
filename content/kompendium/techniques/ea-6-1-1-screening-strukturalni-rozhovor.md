@@ -73,7 +73,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 EA-1 akademické: rozšířit o akademickou anamnézu a expozici institucionálním autoritám. EA-5 epistemické: zařadit Brierův skór sebehodnocení znalostí. EA-3 sektářské: integrovat indikátory in-group/out-group dynamiky a totalizující expozice.
 
-Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fenomenologii a strukturálních charakteristikách jednotlivých EA-domén a jsou klíčové pro klinickou účinnost intervence v cílové populaci.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-odrazeji.md" %}
 
 ## Iatrogenní rizika
 
@@ -85,7 +85,7 @@ Re-traumatizace při forsírovaném vyvolání vzpomínek, falešné memoárové
 
 Kompendium vede techniku **EA-6.1.1** jako diagnostickou detekci EA-trauma s výslovnou diferenciací proti primárním afektivním a úzkostným poruchám.
 
-**Klinické zacílení**: klinický assessment epistemicko-afektivního traumatu po manipulativní expozici (kult, abusivní vztah, koercivní pracoviště, post-divorce DARVO dynamics). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-klinicky-assessment-epistemicko.md" %}
 
 **Trauma spektrum kontext**: strukturovaný rozhovor stojí na dějinách expozice, a ty se dělí dříve než příznak: Terr (1991) odlišila jednorázovou akutní traumatizaci od opakované relační expozice v dětství. Které z obou kategorií odpovídá popis, který o sobě dotčený člověk podává, je součástí rozhovoru, ne jeho výsledkem; u druhé z nich popisuje Herman (1992) zotavení jako sled fází, které se vracejí.
 
@@ -119,15 +119,7 @@ Formát rozhovoru se různí prostředím. Kniha varianty uvádí proto, aby byl
 
 Počty, délky a mezní hodnoty patří manuálu použitého nástroje a supervizi; tato stránka je neuvádí.
 
-Video-mediovaná varianta se rozšířila v době pandemických omezení a pro část populace je dostupnou alternativou. U aktivní disociativní symptomatologie zachovává osobní setkání klinickou výhodu, protože regulaci nese fyzická přítomnost druhého člověka (van der Kolk, 2014).
-
-Skupinový formát přidává vrstvu vzájemného svědectví, kterou individuální setkání nemá. Zároveň je nevhodný tam, kde je obraz nestabilní nebo kde by skupina reprodukovala tlak, z něhož člověk vyšel, včetně nadřazení společné doktríny jednotlivci (Lifton, 1961).
-
-Zkrácená varianta se zvažuje u jednorázové expozice s dostupnou podpůrnou sítí. U chronické relační traumatizace je zkrácení stabilizační fáze dokumentovanou cestou k iatrogennímu zhoršení, a to i u postupu zamýšleného jako pomoc (Lilienfeld, 2007).
-
-Kulturně citlivá adaptace se netýká jen jazyka. Středoevropský kontext nese zkušenost institucionálního násilí a mezigenerační přenos, které mění, co je pro člověka autoritou a co pokládá za bezpečné vyslovit (Herman, 1992).
-
-Krizová varianta posiluje stabilizační složku na úkor expoziční. Návrat ke standardnímu postupu je vázán na klinické posouzení a na obnovené bezpečí, protože bezpečí předchází práci s obsahem, nikoli naopak (Herman, 1992).
+{% include "partials/video-mediovana-varianta-se-rozsirila.md" %}
 
 ## Kdy je rámec legitimní
 
@@ -141,7 +133,7 @@ Třetím znakem je zacházení s výpovědí. Legitimní rámec bere výpověď 
 
 Posledním znakem je cíl. Rozhovor míří k tomu, aby člověk sám zvládl popsat, co se mu stalo, a aby o tom směl soudit jinak než vyšetřující; kde je cílem potvrzení předem hotového obrazu, přestává jít o péči (Herman, 1992).
 
-Rámec stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
+{% include "partials/ramec-stanovi-eticke-aspekty-a.md" %}
 
 *Interpretace knihy*: screening je legitimní, dokud zvyšuje kapacitu člověka rozhodovat o sobě.
 

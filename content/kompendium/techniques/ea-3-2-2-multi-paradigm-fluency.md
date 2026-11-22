@@ -51,22 +51,19 @@ Nepříznivý průběh se pozná podle jednotvárnosti výkladů napříč nesou
 
 Certifikovaní supervizoři; senior klinici v interdisciplinárních týmech.
 
-Edukativní cíl není změna chování v behaviorálním smyslu, ale kultivace kompetencí umožňujících autonomní navigaci v epistemicky náročných kontextech. Cílová populace je primárně dospělí profesionálové s baseline metakognitivní stabilitou — technika není určena pro klinické intervence u aktivně dekompenzovaných jedinců.
+{% include "partials/edukativni-cil-neni-zmena-chovani.md" %}
 
 ## Předpoklady
 
 Vzdělání nebo důvěrná obeznámenost s několika paradigmatickými rámci, z nichž ani jeden není čtenáři vlastní natolik, aby ostatní posuzoval jen jeho slovníkem; aktivní čtenářská praxe v jejich aktuální literatuře.
 
-Bez splnění předpokladů technika produkuje suboptimální výsledky a může generovat iatrogenní efekty. Předpoklady nejsou byrokratické formality, ale strukturální podmínky efektivity intervence.
+{% include "partials/bez-splneni-predpokladu-technika-produkuje.md" %}
 
 ## Implementační protokol
 
 Konkrétní implementace vyžaduje:
 
-1. **Pre-implementation assessment** — verifikace předpokladů u individuálních účastníků a kohorty jako celku.
-2. **Resource provisioning** — institucionální alokace času, prostoru, personálu, technologií.
-3. **Documentation infrastructure** — systém zaznamenávání průběhu, výsledků, incidentů.
-4. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
+{% include "partials/1-pre-implementation-assessment-verifikace.md" %}
 
 Implementace je iterativní — každý cyklus generuje data informující úpravy v dalších cyklech.
 Posouzení se tu nedá provést zevnitř vlastního rámce: zda je nabídnuté druhé čtení věrné, ví
@@ -83,7 +80,7 @@ zpochybněno.
 | Reduction avoidance | Žádná systematická redukce jednoho paradigmatu na druhý |
 | Peer rating | >=4/5 od cross-paradigmatic peers
 
-Evaluace integruje kvantitativní (validované instrumenty) i kvalitativní (reflektivní eseje, ethnographic observation) datové zdroje. Žádná samostatná metrika není dostatečná — multidimenzionální evaluace je nezbytná.
+{% include "partials/evaluace-integruje-kvantitativni-validovane-instrumenty.md" %}
 
 ## Rizika a kontraindikace
 
@@ -140,7 +137,7 @@ jak to Schön (1983) popisuje na situaci kladoucí odpor.
 
 ### Sourozenecké techniky (3.2 Supervizorské techniky)
 
-Technika je integrální součástí subkategorie 3.2 a je navržena pro synergickou implementaci s ostatními sourozeneckými technikami:
+{% include "partials/technika-je-integralni-soucasti-subkategorie-3.md" %}
 
   - [EA-3.2.1 Supervizorská certifikace](@/kompendium/techniques/ea-3-2-1-supervisor-certification.md)
   - [EA-3.2.3 Mistrovství emoční regulace](@/kompendium/techniques/ea-3-2-3-emotional-regulation-mastery.md)

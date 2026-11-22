@@ -45,9 +45,9 @@ Zdegenerovaná podoba vypadá jako vlídné posezení. Případy se sdílejí, a
 
 Retrospektivně se znaky objevují v pořadí: nejprve se přestane zvát někdo zvenčí, pak se z jednání vytratí nesouhlas a nakonec skupina přestane vykazovat, k čemu dospěla. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Bez vnější konzultace nemá skupina, jak tento posun zachytit (Ellis a kol., 2014).
 
-*Interpretace knihy*: rozhodující není, zda technika proběhla, ale zda po ní zůstává doložitelná cesta k nesouhlasu.
+{% include "partials/interpretace-knihy-rozhodujici-neni-zda.md" %}
 
-Měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
+{% include "partials/meritko-stanovi-eticke-aspekty-a.md" %}
 
 ## Čtenář a předpoklady
 
@@ -60,7 +60,7 @@ Předpoklady nejsou formalita. Tam, kde chybí doložená kvalifikace, dohodnut�
 
 ## Detekční markery (pohled pozorovatele)
 
-Následující znaky jsou to, co supervizor, kolega nebo vyšetřující pozoruje zvenčí; žádný z nich není sám o sobě průkazný a každý se posuzuje proti tomu, jak pracoviště vypadalo dříve. Popis slabé a poškozující supervize, o nějž se tento výčet opírá, shromáždili Ellis a kol. (2014).
+{% include "partials/nasledujici-znaky-jsou-to-co-supervizor.md" %}
 
 | Co je vidět | Co to naznačuje |
 |---|---|
@@ -72,17 +72,15 @@ Následující znaky jsou to, co supervizor, kolega nebo vyšetřující pozoruj
 | Skupina se roky nerozšířila ani nepřizvala externího konzultanta | uzavřený okruh bez korektivu |
 | Z jednání nevzniká žádný záznam ani doporučení | setkání bez přezkumné funkce |
 
-Rozlišení od neškodných jevů je nutné: tichá kohorta může být unavená, shoda může být oprávněná a administrativní zátěž může přijít zvenčí. Rozhodující je, zda zůstává dostupná cesta, jak nesouhlas vyslovit a doložit (Edmondson, 1999).
+{% include "partials/rozliseni-od-neskodnych-jevu-je-nutne.md" %}
 
 ## Odlišení od neškodných jevů
 
-Od neškodných jevů se vzorec odlišuje tím, co zůstává možné. Náročná supervize, nepříjemná zpětná vazba i vysoké nároky jsou legitimní a samy o sobě nic neznamenají; poznávacím znakem je, že supervidovaný už nemá, komu obtíž vynést, a že se neshoda přestala objevovat i tam, kde by věcně patřila (Ellis a kol., 2014).
-
-Druhým rozlišovacím hlediskem je čas. Jednorázový konflikt nebo období přetížení mají konec a pracoviště se po nich vrací k dřívějšímu způsobu práce; vzorec popsaný na této stránce se naopak usazuje jako nová norma, které si zúčastnění přestanou všímat (Bernard a Goodyear, 2019).
+{% include "partials/od-neskodnych-jevu-se-vzorec-odlisuje-tim.md" %}
 
 ## Hodnotící kritéria
 
-Hodnotící kritéria nejsou cílem práce, ale jejím ukazatelem. Jakmile se měřítko stane cílem, přestává měřit to, kvůli čemu vzniklo — tento efekt popsal Campbell (1979) jako pravidlo, že čím více se kvantitativní ukazatel používá k rozhodování, tím více podléhá zkreslení.
+{% include "partials/hodnotici-kriteria-nejsou-cilem-prace.md" %}
 
 | Kritérium | Co se posuzuje |
 |-----------|----------------|

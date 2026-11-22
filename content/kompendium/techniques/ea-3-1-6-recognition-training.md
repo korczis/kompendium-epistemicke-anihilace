@@ -51,22 +51,19 @@ Nepříznivý průběh se pozná podle sebejistoty, která neroste s přesností
 
 Pokročilí trainees po dokončení teoretických modulů; klinici v praxi pro continuing education.
 
-Edukativní cíl není změna chování v behaviorálním smyslu, ale kultivace kompetencí umožňujících autonomní navigaci v epistemicky náročných kontextech. Cílová populace je primárně dospělí profesionálové s baseline metakognitivní stabilitou — technika není určena pro klinické intervence u aktivně dekompenzovaných jedinců.
+{% include "partials/edukativni-cil-neni-zmena-chovani.md" %}
 
 ## Předpoklady
 
 Dokončený konceptuální mapping všech kategorií EA-1, EA-2, EA-5; baseline pattern recognition test.
 
-Bez splnění předpokladů technika produkuje suboptimální výsledky a může generovat iatrogenní efekty. Předpoklady nejsou byrokratické formality, ale strukturální podmínky efektivity intervence.
+{% include "partials/bez-splneni-predpokladu-technika-produkuje.md" %}
 
 ## Implementační protokol
 
 Konkrétní implementace vyžaduje:
 
-1. **Pre-implementation assessment** — verifikace předpokladů u individuálních účastníků a kohorty jako celku.
-2. **Resource provisioning** — institucionální alokace času, prostoru, personálu, technologií.
-3. **Documentation infrastructure** — systém zaznamenávání průběhu, výsledků, incidentů.
-4. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
+{% include "partials/1-pre-implementation-assessment-verifikace.md" %}
 
 Implementace je iterativní — každý cyklus generuje data informující úpravy v dalších cyklech.
 Nácvik se nevede bez vnějšího posuzovatele, protože zpětná vazba o správnosti rozpoznání nemůže
@@ -82,7 +79,7 @@ Bez cizího pohledu je výcvik rozpoznávání z principu neopravitelný.
 | Calibration | Confidence rating koreluje s accuracy |
 | False positive rate | <10 % over-detection
 
-Evaluace integruje kvantitativní (validované instrumenty) i kvalitativní (reflektivní eseje, ethnographic observation) datové zdroje. Žádná samostatná metrika není dostatečná — multidimenzionální evaluace je nezbytná.
+{% include "partials/evaluace-integruje-kvantitativni-validovane-instrumenty.md" %}
 
 ## Rizika a kontraindikace
 
@@ -136,7 +133,7 @@ povaze situace; klíč naopak odměňuje rysy, podle nichž byla sada sestavena.
 
 ### Sourozenecké techniky (3.1 Kurikulární techniky)
 
-Technika je integrální součástí subkategorie 3.1 a je navržena pro synergickou implementaci s ostatními sourozeneckými technikami:
+{% include "partials/technika-je-integralni-soucasti-subkategorie.md" %}
 
   - [EA-3.1.1 Graduální expozice design](@/kompendium/techniques/ea-3-1-1-graduated-exposure-design.md)
   - [EA-3.1.2 Experienciální scaffolding](@/kompendium/techniques/ea-3-1-2-experiential-scaffolding.md)

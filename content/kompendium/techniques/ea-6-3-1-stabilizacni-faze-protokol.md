@@ -57,7 +57,7 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 ## Trvání a frekvence
 
-Kompendium pro tuto fázi neuvádí normu délky ani počtu sezení. Herman (1992) popisuje zotavení jako sled fází, které se opakovaně vracejí a prolínají; tempo se odvozuje od obnovené kapacity člověka, nikoli z rozvrhu. Údaje o délce a frekvenci patří do manuálu použité modality a do supervizního záznamu konkrétního případu.
+{% include "partials/kompendium-pro-tuto-fazi-neuvadi.md" %}
 
 ## Hodnotící kritéria
 
@@ -73,7 +73,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 [EA-6.4.2](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md) post-cult: prodloužená stabilizační fáze. EA-6.5 krizové: rapid stabilization v ER kontextu. [EA-6.4.6](@/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md) DV: prioritní safety planning.
 
-Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fenomenologii a strukturálních charakteristikách jednotlivých EA-domén a jsou klíčové pro klinickou účinnost intervence v cílové populaci.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-odrazeji.md" %}
 
 ## Iatrogenní rizika
 
@@ -85,7 +85,7 @@ Premature progression do fáze 2 bez dostatečné stabilizace, fixace na stabili
 
 V kompendiu je technika **EA-6.3.1** vedena jako první fáze rekonstrukčního modelu; její pořadí vůči dalším fázím je vlastností modelu, ne volbou pracoviště.
 
-**Klinické zacílení**: fázový rekonstrukční rámec pro post-EA-trauma populaci s důrazem na bezpečí, externalizaci, integraci a konsolidaci nového epistemicko-afektivního architektury klienta. Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-fazovy-rekonstrukcni-ramec.md" %}
 
 **Trauma spektrum kontext**: fázové uspořádání má smysl tam, kde expozice nebyla jednorázová. Rozlišení jedné ohraničené události a opakované relační expozice v dětství zavedla Terr (1991) a pro druhou z nich popisuje Herman (1992) zotavení jako sled fází, které se vracejí a prolínají. Jak dlouho první fáze trvá, kniha neuvádí; to je rozhodnutí v jednotlivém případě.
 

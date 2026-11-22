@@ -43,7 +43,7 @@ Druhým rozpoznatelným rysem je rozpor mezi tím, co zasažený prožívá, a t
 
 Zpětně se v anamnéze rozlišuje sled, v němž znaky vystupují: nejprve mizí údiv a schopnost pozorovat bez interpretace, pak přicházejí zkušenosti už pojmenované a nakonec zůstává závislost na gramatice prožívání, kterou dodává druhý. Herman (1992) popisuje právě takovou závislost, nikoli jednotlivý zážitek, jako jádro poškození ve vztazích s koercivní strukturou. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-*Interpretace knihy*: stránka zůstává u pozorovatelného; popis toho, čím se stav vyvolává, sem nepatří ([etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md)).
+{% include "partials/interpretace-knihy-stranka-zustava-u.md" %}
 
 ## Fenomenologické znaky
 
@@ -89,9 +89,7 @@ EA-5.5.4 (gestalt disrupce), [EA-5.5.7](@/kompendium/techniques/ea-5-5-7-afektiv
 
 Tato technika operuje na úrovni **[pre-predikativní zkušenosti](@/glossary/pre-predikativni-zkusenost.md)** v Husserlově fenomenologii — vrstva před tím, než se konstituuje predikativní soud „S je P“. Husserl (1939) v *Erfahrung und Urteil* ukazuje, že každý vědomý soud je založen na pasivní syntéze pre-predikativních dat: vjemy jsou již před verbalizací strukturovány retencemi (právě uplynulé) a protencemi (anticipovanými). Technika **pre-predikativní blokace** cílí přesně na tuto vrstvu — narušuje pasivní syntézu před tím, než subjekt může artikulovat, co se mu vlastně děje.
 
-Merleau-Ponty (1945) v *Phénoménologie de la perception* doplňuje koncept **[body schema](@/glossary/body-schema.md)** (schéma corporel) — pre-reflexivní tělesné vědomí, které předchází kartesiánskému kogitujícímu subjektu. „Já mohu“ (je peux) předbíhá „já myslím“ (je pense). Tato technika narušuje body schema na úrovni proprioceptivně-kinestetické integrace, čímž se subjekt ocitá v stavu, kdy jeho tělesný „já mohu“ přestává fungovat jako transparentní médium světa.
-
-Damasio (1999) v *The Feeling of What Happens* konceptualizuje **[core consciousness](@/glossary/core-consciousness.md)** jako kontinuální mapping organism-objekt vztahu, který předchází extended consciousness s autobiografickou pamětí. Technika cílí na core consciousness vrstvu — produkuje narušení kontinuálního self-mappingu, čímž subjekt ztrácí pre-reflexivní jistotu vlastní situovanosti ve světě.
+{% include "partials/merleau-ponty-1945-v-phenomenologie.md" %}
 
 ## Neurobiologické koreláty
 

@@ -51,22 +51,19 @@ Rozpoznat lze i opačný případ. Lindahl a kol. (2017) zdokumentovali, že int
 
 Studenti magisterských a doktorských programů v klinické psychologii, sociologii poznání a etice; supervizoři začínající kurikulární implementaci.
 
-Edukativní cíl není změna chování v behaviorálním smyslu, ale kultivace kompetencí umožňujících autonomní navigaci v epistemicky náročných kontextech. Cílová populace je primárně dospělí profesionálové s baseline metakognitivní stabilitou — technika není určena pro klinické intervence u aktivně dekompenzovaných jedinců.
+{% include "partials/edukativni-cil-neni-zmena-chovani.md" %}
 
 ## Předpoklady
 
 Dokončený předmět z metodologie kvalitativního výzkumu; baseline metakognitivní stabilita ověřená MAAS; podepsaný [informovaný souhlas](@/glossary/informed-consent.md) L1.
 
-Bez splnění předpokladů technika produkuje suboptimální výsledky a může generovat iatrogenní efekty. Předpoklady nejsou byrokratické formality, ale strukturální podmínky efektivity intervence.
+{% include "partials/bez-splneni-predpokladu-technika-produkuje.md" %}
 
 ## Implementační protokol
 
 Konkrétní implementace vyžaduje:
 
-1. **Pre-implementation assessment** — verifikace předpokladů u individuálních účastníků a kohorty jako celku.
-2. **Resource provisioning** — institucionální alokace času, prostoru, personálu, technologií.
-3. **Documentation infrastructure** — systém zaznamenávání průběhu, výsledků, incidentů.
-4. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
+{% include "partials/1-pre-implementation-assessment-verifikace.md" %}
 
 Implementace je iterativní — každý cyklus generuje data informující úpravy v dalších cyklech.
 Žádný z cyklů se nevede bez vnějšího pohledu. To, co se zde posuzuje, je právě odhad náročnosti
@@ -82,7 +79,7 @@ vyučující je ve vztahu k vlastnímu stupňování stranou, nikoli pozorovatel
 | Konceptuální retence | >80 % na delayed post-test (2 týdny) |
 | [Self-report](@/glossary/self-report.md) integrace | Kvalitativní reflektivní eseje
 
-Evaluace integruje kvantitativní (validované instrumenty) i kvalitativní (reflektivní eseje, ethnographic observation) datové zdroje. Žádná samostatná metrika není dostatečná — multidimenzionální evaluace je nezbytná.
+{% include "partials/evaluace-integruje-kvantitativni-validovane-instrumenty.md" %}
 
 ## Rizika a kontraindikace
 
@@ -136,7 +133,7 @@ náročnost u epistemické látky nedá odměřit složitostí pojmů, je *inter
 
 ### Sourozenecké techniky (3.1 Kurikulární techniky)
 
-Technika je integrální součástí subkategorie 3.1 a je navržena pro synergickou implementaci s ostatními sourozeneckými technikami:
+{% include "partials/technika-je-integralni-soucasti-subkategorie.md" %}
 
   - [EA-3.1.2 Experienciální scaffolding](@/kompendium/techniques/ea-3-1-2-experiential-scaffolding.md)
   - [EA-3.1.3 Metakognitivní kultivace](@/kompendium/techniques/ea-3-1-3-metacognitive-cultivation.md)

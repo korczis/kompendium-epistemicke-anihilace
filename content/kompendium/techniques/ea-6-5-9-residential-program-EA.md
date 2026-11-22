@@ -65,7 +65,7 @@ Klinická efektivita techniky je posuzována podle následujících outcome metr
 
 Komprehensive symptom redukce, identity reconstitution, sustained gains.
 
-Pre-post administrace standardizovaných nástrojů poskytuje kvantitativní podklad pro klinické rozhodování o pokračování, modifikaci nebo ukončení intervence.
+{% include "partials/pre-post-administrace-standardizovanych-nastroju.md" %}
 
 ## Adaptace pro specifické EA kategorie
 
@@ -73,7 +73,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 Specifická residential pro post-cult (např. ICSA-affiliated). DV-safe houses.
 
-Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fenomenologii a strukturálních charakteristikách jednotlivých EA-domén a jsou klíčové pro klinickou účinnost intervence v cílové populaci.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-odrazeji.md" %}
 
 ## Iatrogenní rizika
 
@@ -85,7 +85,7 @@ Institutional dependency, second-cult dynamics v residential settings, financial
 
 Klinické zařazení programu dává riziko, které je mu vlastní: instituce se svým vnitřním řádem může reprodukovat právě to, z čeho člověk odešel (Goffman, 1961). Lalich a Tobias (2006) popisují zotavení po odchodu ze skupiny jako návrat vlastního rozhodování, ne jako pobyt v lépe vedeném režimu. Tato stránka z obojího bere rozpoznání, ne provozní návod.
 
-**Klinické zacílení**: akutní a vysokointenzivní klinické setting (ER, akutní krize, inpatient, partial hospitalization, day program, residential) pro pacienty s aktivní EA-symptomatologií vyžadující stabilizaci. Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-akutni-a-vysokointenzivni.md" %}
 
 **Trauma spektrum kontext**: rezidenční forma se zvažuje u obrazů po dlouhé a opakované expozici, tedy u pólu, který Terr (1991) odlišila od jednorázové traumatické události. Herman (1992) k tomu dodává, že zotavení tohoto druhu probíhá ve fázích, které se vracejí; délku pobytu z toho odvodit nelze a kniha ji neuvádí.
 

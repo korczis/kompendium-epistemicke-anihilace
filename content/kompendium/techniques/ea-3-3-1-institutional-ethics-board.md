@@ -45,9 +45,9 @@ Zajatá rada vypadá jinak. Chrání instituci spíš než účastníky, pracuje
 
 Retrospektivně se znaky objevují v pořadí: nejprve se zkrátí zdůvodnění, pak přestanou existovat zamítnutí a nakonec se sporné body do protokolu vůbec nedostanou. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Zpráva o roli profesní organizace ve výslechových programech popisuje tentýž posun na úrovni celé asociace (Hoffman a kol., 2015).
 
-*Interpretace knihy*: rozhodující není, zda technika proběhla, ale zda po ní zůstává doložitelná cesta k nesouhlasu.
+{% include "partials/interpretace-knihy-rozhodujici-neni-zda.md" %}
 
-Měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
+{% include "partials/meritko-stanovi-eticke-aspekty-a.md" %}
 
 ## Čtenář a předpoklady
 
@@ -56,11 +56,11 @@ Měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.m
 | **Pro koho je stránka psána** | Akademické instituce, vzdělávací organizace a profesní asociace provozující EA programy |
 | **Předpokládaný rámec** | Institutionální mandát s exekutivní podporou; minimální budget pro funkci rady; transparentní procedury jmenování |
 
-Předpoklady nejsou formalita. Bez mandátu, rozpočtu a transparentního jmenování zůstává orgán závislý na tom, koho má kontrolovat, a jeho rozhodnutí nelze číst jako nezávislá; nezávislost a veřejná odpovědnost patří mezi podmínky, bez nichž nelze mluvit o etickém dohledu (Emanuel, Wendler a Grady, 2000).
+{% include "partials/predpoklady-nejsou-formalita-bez-mandatu.md" %}
 
 ## Detekční markery (pohled pozorovatele)
 
-Následující znaky jsou to, co člen rady, auditor nebo vyšetřující pozoruje zvenčí; žádný z nich není sám o sobě průkazný a každý se posuzuje proti vlastní historii instituce. Že se formální dohled může zcela míjet s tím, co se skutečně děje, doložil už Beecher (1966) na řadě publikovaných studií.
+{% include "partials/nasledujici-znaky-jsou-to-co-clen.md" %}
 
 | Co je vidět | Co to naznačuje |
 |---|---|
@@ -72,11 +72,11 @@ Následující znaky jsou to, co člen rady, auditor nebo vyšetřující pozoru
 | Rada nikdy nic nezamítla ani zásadně neupravila | schvalovací provoz místo přezkumu |
 | Členové rady jsou podřízení těch, jejichž programy posuzují | strukturální závislost |
 
-Rozlišení od neškodných jevů je nutné: hladký přezkum může odpovídat dobře napsanému návrhu a stabilní financování nemusí nic kompromitovat. Rozhodující je, zda je zájmový vztah vykázán a zda existuje cesta, jak ho zpochybnit (Thompson, 1993).
+{% include "partials/rozliseni-od-neskodnych-jevu-je.md" %}
 
 ## Odlišení od neškodných jevů
 
-Od neškodných jevů se vzorec odlišuje tím, co zůstává doložitelné. Rychlý přezkum, stabilní financování i jednotné standardy mohou být v pořádku; poznávacím znakem je, že zdůvodnění rozhodnutí přestalo být zapsáno a že zájmový vztah není vykázán (Thompson, 1993).
+{% include "partials/od-neskodnych-jevu-se-vzorec-odlisuje.md" %}
 
 Od nejbližší stránky téže rodiny se tato liší předmětem, nikoli mírou. [EA-3.3.2 IRB
 protokol design](@/kompendium/techniques/ea-3-3-2-irb-protocol-design.md) popisuje, co má
@@ -86,11 +86,11 @@ podobu posuzovaného dokumentu (Belmont, 1979). Rozpoznání vzorce na této str
 nezakládá závěr o správnosti jednotlivého rozhodnutí rady: ukazuje jen, zda vůbec zůstala
 cesta, jak takové rozhodnutí zpochybnit.
 
-Druhým rozlišovacím hlediskem je, kdo nese následek. Dobře vedená instituce umí říci, co se stane účastníkovi, který odstoupí, a tento popis odpovídá praxi; tam, kde se následek přesouvá na nejzranitelnější stranu, jde o vzorec, nikoli o provozní detail (Emanuel, Wendler a Grady, 2000).
+{% include "partials/druhym-rozlisovacim-hlediskem-je-kdo.md" %}
 
 ## Hodnotící kritéria
 
-Hodnotící kritéria nejsou cílem práce, ale jejím ukazatelem. Jakmile se měřítko stane cílem, přestává měřit to, kvůli čemu vzniklo — tento efekt popsal Campbell (1979) jako pravidlo, že čím více se kvantitativní ukazatel používá k rozhodování, tím více podléhá zkreslení.
+{% include "partials/hodnotici-kriteria-nejsou-cilem-prace.md" %}
 
 | Kritérium | Měřítko |
 |-----------|---------|

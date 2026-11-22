@@ -73,7 +73,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 MST — gender-senzitivní. TBI komorbidita — neurokognitivně-upravený protokol.
 
-Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fenomenologii a strukturálních charakteristikách jednotlivých EA-domén a jsou klíčové pro klinickou účinnost intervence v cílové populaci.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-odrazeji.md" %}
 
 ## Iatrogenní rizika
 
@@ -85,7 +85,7 @@ Stigma vyhledání pomoci, military culture konflikt s terapií, paradoxní idea
 
 Kompendium vede techniku **EA-6.4.5** jako populačně specifickou adaptaci EA-intervence pro vojenské a veteránské prostředí.
 
-**Klinické zacílení**: specializované populace s unikátním rizikovým profilem — pediatrická, geriatrická, post-cult, refugee, LGBTQI+, veteráni, oběti DV, policejní, zdravotnictví, novináři, aktivisté. Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-specializovane-populace-s.md" %}
 
 **Klinická tradice ukotvení**: *interpretace knihy* — vojenské prostředí má vlastní pravidla o tom, co se smí přiznat, a ta přetrvávají i po odchodu do civilu. Tam, kde byla psychická obtíž po desetiletí důvodem k přesunu nebo ke ztrátě způsobilosti, je zdrženlivost veterána naučenou dovedností, ne příznakem; evidence-based postup převzatý bez této vrstvy měří jen to, co je veterán ochoten vyslovit.
 
@@ -113,7 +113,7 @@ Druhou podmínkou je souhlas, který lze odvolat, aniž to samo o sobě změní 
 
 Třetí podmínkou je dokumentace, kterou dotčený smí vidět, a cíl formulovaný jako obnova jeho vlastní kapacity. Doporučené postupy pro posttraumatickou stresovou poruchu staví na strukturované, supervidované práci a nikoli na jednorázovém vyprávění o události (National Institute for Health and Care Excellence, 2018).
 
-Měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
+{% include "partials/meritko-stanovi-eticke-aspekty-a.md" %}
 
 ## Odlišení
 

@@ -35,7 +35,7 @@ parent_chapter = "/kompendium/04-terminalni-protokoly/"
 
 **Identity stabilization** představuje závěrečná stabilizace identity po průchodu terminálním protokolem identitní dekonstrukce. V rámci kompendia je technika klasifikována jako **[terminální protokol](@/kompendium/04-terminalni-protokoly/_index.md)** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození.
 
-Tento článek **nemá operační charakter**: jeho účelem je výhradně defenzivní rozpoznání, detekce neúmyslné manifestace a supervidovaná intervence. Jakékoliv ofenzivní použití techniky je v rozporu s [doktrinou platformy](@/kompendium/02-doktrinalni-ramec/_index.md) a její aplikace bez doložitelného etického rámce je explicitně zakázána.
+{% include "partials/tento-clanek-nema-operacni-charakter.md" %}
 
 Mechanismus, kterým technika operuje uvnitř supervidovaného rámce, spočívá v: dlouhodobé monitorování stability sebepojetí, opakované re-validační body a strukturovaná podpůrná síť v post-protokolové fázi. Tento popis slouží jako referenční rámec pro detekci, nikoliv jako návod k provedení.
 
@@ -68,7 +68,7 @@ Stabilizace identity je obnovovací cíl, a kompendium proto nevyjmenovává kon
 
 ## Klinické markery (neúmyslná manifestace)
 
-Co může klinik nebo supervizor pozorovat, pokud se technika manifestuje mimo supervidovaný rámec — v důsledku patologické sociální struktury, kultovního prostředí, abusivního vztahu nebo neetické instituce:
+{% include "partials/co-muze-klinik-nebo-supervizor.md" %}
 
 | Marker | Indikuje |
 |--------|----------|
@@ -79,13 +79,13 @@ Co může klinik nebo supervizor pozorovat, pokud se technika manifestuje mimo s
 | [Sociální izolace](@/glossary/socialni-izolace.md) s jediným referenčním zdrojem autority | Strukturální rizikový kontext |
 | Časová dezorientace ve vztahu k vlastnímu životnímu příběhu | Indukovanou temporální disrupci |
 
-Detekce vyžaduje **[diferenciální diagnózu](@/glossary/diferencialni-diagnoza.md)** vůči primárním psychiatrickým stavům (disociativní poruchy, PTSD, psychotická spektra) a vůči [legitimní transformativní zkušenosti](@/glossary/transformative-experience.md).
+{% include "partials/detekce-vyzaduje-diferencialni-diagnozu-vuci.md" %}
 
 ## Klinické pozadí
 
 EA-4.4.10 je v kompendiu popsána jako poprotokolová fáze, v níž se sleduje stabilita sebepojetí, ne jeho obsah.
 
-**Klinické zacílení**: narativní a identitní rekonstrukce v post-engagement fázi po totalizující expozici (post-cult trauma, deep cover decompression, reentry trauma). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-narativni-a-identitni.md" %}
 
 **Trauma spektrum kontext**: zda šlo o jednu ohraničenou událost, nebo o opakovanou expozici trvající roky, mění, co vlastně má být stabilizováno — u prvního typu zpravidla paměť a výklad jedné epizody, u druhého sebepojetí vybudované uvnitř vztahu. Oba typy traumatizace odlišila Terr (1991), fázovanou povahu zotavení u druhého z nich popisuje Herman (1992). Co z toho plyne v jednotlivém případě, neurčuje tato stránka.
 

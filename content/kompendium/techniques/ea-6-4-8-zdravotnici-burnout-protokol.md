@@ -73,7 +73,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 Lékaři — fitness-to-practice. Sestry — shift-work adaptace. Mental health workers — meta-burnout.
 
-Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fenomenologii a strukturálních charakteristikách jednotlivých EA-domén a jsou klíčové pro klinickou účinnost intervence v cílové populaci.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-odrazeji.md" %}
 
 ## Iatrogenní rizika
 
@@ -85,7 +85,7 @@ Stigma profesní pomoci, fitness-to-practice důsledky, dropout z profese.
 
 V kompendiu EA je tento protokol veden jako adaptace pro populaci, která o vlastním vyčerpání mluví v prostředí, kde je vyčerpání součástí profesní normy; právě to omezuje použitelnost běžného sebeposouzení.
 
-**Klinické zacílení**: specializované populace s unikátním rizikovým profilem — pediatrická, geriatrická, post-cult, refugee, LGBTQI+, veteráni, oběti DV, policejní, zdravotnictví, novináři, aktivisté. Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-specializovane-populace-s.md" %}
 
 **Trauma spektrum kontext**: u zdravotníků má Terrovo rozlišení (Terr, 1991) tu zvláštnost, že ohraničená událost — jedno úmrtí, jedna chyba — dopadá na pozadí opakované expozice, která je součástí práce, nikoli výjimkou. Obraz se proto nerozpadá na dvě čisté třídy a rozpoznatelný bývá spíš na posunu v tom, jak o pacientech mluví. Co z toho vyvodit, nepatří knize, ale supervizi.
 
@@ -131,7 +131,7 @@ Třetí podmínkou je dokumentace, kterou dotčený smí vidět, a cíl formulov
 
 Pátou podmínkou je dobrovolnost. Program podpory uložený shora je u této populace zdrojem rizika, protože účast na něm se stává předmětem záznamu; přehled poškození způsobených dobře míněnou intervencí ukazuje, že samotná dostupnost pomoci nestačí (Lilienfeld, 2007).
 
-Měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
+{% include "partials/meritko-stanovi-eticke-aspekty-a.md" %}
 
 ## Odlišení
 

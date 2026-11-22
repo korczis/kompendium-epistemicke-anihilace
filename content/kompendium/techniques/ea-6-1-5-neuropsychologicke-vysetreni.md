@@ -73,7 +73,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 EA-1 akademické: zaměření na kognitivní reorganizaci po expozici manipulativní pedagogice. Hluboké epistemické poškození (EA-5): rozšíření o testy metakognitivní přesnosti a calibration. EA-6.5 krizové: rapid neurokognitivní screening v ER.
 
-Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fenomenologii a strukturálních charakteristikách jednotlivých EA-domén a jsou klíčové pro klinickou účinnost intervence v cílové populaci.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-odrazeji.md" %}
 
 ## Iatrogenní rizika
 
@@ -85,7 +85,7 @@ Falešně pozitivní deficity z fluktuujícího afektu, kulturní bias norem, fr
 
 Technika **EA-6.1.5** je v kompendiu zařazena jako měření kognitivních následků expozice; nález sám o sobě jeho příčinu neurčuje.
 
-**Klinické zacílení**: klinický assessment epistemicko-afektivního traumatu po manipulativní expozici (kult, abusivní vztah, koercivní pracoviště, post-divorce DARVO dynamics). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-klinicky-assessment-epistemicko.md" %}
 
 **Klinická tradice ukotvení**: *interpretace knihy* — výsledek testové baterie je vždy výsledkem v nějaké normě, a normy těchto nástrojů byly získány na jiné populaci, než je středoevropský klient po dlouhé manipulativní expozici. Vzdělanostní a kohortní rozdíly se do skóru propisují, takže převzatý [evidence-based](@/glossary/evidence-based.md) nástroj bez místní normy odpovídá na jinou otázku, než jaká byla zadána.
 
@@ -115,7 +115,7 @@ Třetím znakem je cíl. Vyšetření má člověku vrátit možnost rozumět to
 
 Čtvrtým znakem je, že profil deficitů nesmí měnit váhu výpovědi. Kde se z kognitivního nálezu stane důvod člověku nevěřit, jde o samostatné poškození, nikoli o diagnostickou opatrnost (Fricker, 2007).
 
-Rámec stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
+{% include "partials/ramec-stanovi-eticke-aspekty-a.md" %}
 
 *Interpretace knihy*: nález o výkonu není nálezem o důvěryhodnosti člověka.
 

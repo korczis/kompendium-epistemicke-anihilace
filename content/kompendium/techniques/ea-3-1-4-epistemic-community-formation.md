@@ -53,22 +53,19 @@ Zevnitř se ztvrdnutí skupiny prožívá jako vzájemné porozumění: členov�
 
 Kohorty natolik malé, aby se účastníci navzájem znali jménem i prací; absolvované programy formující alumni komunity.
 
-Edukativní cíl není změna chování v behaviorálním smyslu, ale kultivace kompetencí umožňujících autonomní navigaci v epistemicky náročných kontextech. Cílová populace je primárně dospělí profesionálové s baseline metakognitivní stabilitou — technika není určena pro klinické intervence u aktivně dekompenzovaných jedinců.
+{% include "partials/edukativni-cil-neni-zmena-chovani.md" %}
 
 ## Předpoklady
 
 Stabilní baseline metakognice (EA-3.1.3); [informovaný souhlas](@/glossary/informed-consent.md) se sdílením reflektivního materiálu uvnitř komunity; norma vzájemné konfidencionality.
 
-Bez splnění předpokladů technika produkuje suboptimální výsledky a může generovat iatrogenní efekty. Předpoklady nejsou byrokratické formality, ale strukturální podmínky efektivity intervence.
+{% include "partials/bez-splneni-predpokladu-technika-produkuje.md" %}
 
 ## Implementační protokol
 
 Konkrétní implementace vyžaduje:
 
-1. **Pre-implementation assessment** — verifikace předpokladů u individuálních účastníků a kohorty jako celku.
-2. **Resource provisioning** — institucionální alokace času, prostoru, personálu, technologií.
-3. **Documentation infrastructure** — systém zaznamenávání průběhu, výsledků, incidentů.
-4. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
+{% include "partials/1-pre-implementation-assessment-verifikace.md" %}
 
 Implementace je iterativní — každý cyklus generuje data informující úpravy v dalších cyklech.
 
@@ -81,7 +78,7 @@ Implementace je iterativní — každý cyklus generuje data informující úpra
 | Triangulation accuracy | Komunita správně identifikuje manipulace v test-cases |
 | Longevity | část vazeb přetrvává i po skončení programu, bez jeho organizační podpory |
 
-Evaluace integruje kvantitativní (validované instrumenty) i kvalitativní (reflektivní eseje, ethnographic observation) datové zdroje. Žádná samostatná metrika není dostatečná — multidimenzionální evaluace je nezbytná.
+{% include "partials/evaluace-integruje-kvantitativni-validovane-instrumenty.md" %}
 
 ## Rizika a kontraindikace
 
@@ -112,7 +109,7 @@ Od [peer konzultace](@/kompendium/techniques/ea-3-2-8-peer-consultation.md) se f
 
 ### Sourozenecké techniky (3.1 Kurikulární techniky)
 
-Technika je integrální součástí subkategorie 3.1 a je navržena pro synergickou implementaci s ostatními sourozeneckými technikami:
+{% include "partials/technika-je-integralni-soucasti-subkategorie.md" %}
 
   - [EA-3.1.1 Graduální expozice design](@/kompendium/techniques/ea-3-1-1-graduated-exposure-design.md)
   - [EA-3.1.2 Experienciální scaffolding](@/kompendium/techniques/ea-3-1-2-experiential-scaffolding.md)

@@ -55,11 +55,11 @@ Vlastní literatura přístupu popisuje jeho skladbu následujícími komponenta
 
 (1) Tělesné mapování — identifikace 'body story'. (2) Dechová práce a parasympatická aktivace. (3) Postural awareness a re-edukace. (4) Movement experiments — exploring frozen patterns. (5) Boundary work somaticky. (6) Integration somatických insights s narativem.
 
-Výčet je popisem toho, z čeho se přístup skládá, nikoli pokynem k provedení: o indikaci, sledu a ukončení rozhoduje kvalifikovaný klinik ve supervizi a záznam zůstává součástí zdravotnické dokumentace, do níž má dotčený člověk přístup ([etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md)).
+{% include "partials/vycet-je-popisem-toho-z.md" %}
 
 ## Trvání a frekvence
 
-Délka a frekvence nejsou vlastností techniky, ale rozhodnutím v jednotlivém případě: závisejí na klinickém obrazu, komorbiditách a na tom, co dotčený člověk unese. Pro komplexní traumatizaci popisuje literatura delší a fázovanou trajektorii než pro jednorázovou událost (Herman, 1992). Kniha proto žádný počet sezení ani interval neuvádí — kvantifikace patří do manuálu použitého přístupu a do supervize, nikoli do taxonomie.
+{% include "partials/delka-a-frekvence-nejsou-vlastnosti.md" %}
 
 ## Hodnotící kritéria
 
@@ -67,7 +67,7 @@ Klinické sledování průběhu se v literatuře přístupu opírá o následuj�
 
 Postural assessment zlepšení, dechové parametry (HRV, kapacita), klientův [self-report](@/glossary/self-report.md) somatické agency.
 
-Opakovaná administrace standardizovaných nástrojů poskytuje podklad pro klinické rozhodování o pokračování, modifikaci nebo ukončení intervence. Prahy klinicky významné změny stanoví manuál použitého nástroje; jediné obecně publikované kritérium, které tato kniha přebírá, je reliable change index nad 1,96 a výsledný skór v rozsahu jedné SD netraumatizované normy (Jacobson a Truax, 1991).
+{% include "partials/opakovana-administrace-standardizovanych-nastroju-poskytuje.md" %}
 
 ## Adaptace pro specifické EA kategorie
 
@@ -75,7 +75,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 EA-1.5 proxemické: cíl na tělesné hieroglyfy. [EA-6.4.6](@/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md) DV: re-edukace boundary v těle. [EA-6.4.5](@/kompendium/techniques/ea-6-4-5-vetersko-protokol.md) veteráni: discharge bojové aktivace.
 
-Tyto adaptace nejsou ornamentální. Kniha je zaznamenává proto, že se s nimi mění rizikový profil, nikoli jako doporučení.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-kniha.md" %}
 
 ## Iatrogenní rizika
 
@@ -87,7 +87,7 @@ Re-traumatizace při dotykové práci bez souhlasu, sexualizovaná interpretace 
 
 Klinické zařazení protokolu dává tělesná stránka poškození: reakce na trvalé ohrožení jsou popsány jako stavy autonomního nervového systému (Porges, 2011) a klinická tradice z toho odvozuje práci s dechem, pohybem a vnímáním těla (Ogden, Minton a Pain, 2006). Tvrzení, že část následků expozice je přístupná jen touto cestou (van der Kolk, 2014), přebírá kompendium jako důvod, proč je modalita vedena samostatně, nikoli jako doklad její účinnosti.
 
-**Klinické zacílení**: [evidence-based](@/glossary/evidence-based.md) psychoterapeutické intervence pro EA-trauma se sekundární komorbiditou ([úzkostné poruchy](@/glossary/uzkostne-poruchy.md), depresivní poruchy, somatizace, disociativní spektrum). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-evidence-based-psychoterapeuticke.md" %}
 
 **Trauma spektrum kontext**: Terr (1991) rozlišila jednorázovou traumatickou událost a opakovanou expozici v dětství; u druhého typu popisuje Herman (1992) zotavení jako fázované a vleklé. Tělesně zaměřená práce se o toto rozlišení opírá víc než modality pracující s obsahem, protože jejím předmětem je míra vzrušení, kterou člověk unese; přehlédnutí rozdílu patří k dokumentovaným cestám k poškození (Lilienfeld, 2007).
 
@@ -113,17 +113,7 @@ Práce s tělem nese u některých skupin větší dopad, který je pro okolí r
 
 Tělesně orientované přístupy se různí školou i rámcem. Kniha ty rozdíly zapisuje proto, aby byly rozpoznatelné.
 
-**Video-mediovaná varianta**: rozšířila se v souvislosti s pandemií covidu-19. U aktivní disociativní symptomatologie zůstává fyzická přítomnost druhého člověka klinicky významná, protože sama nese regulační funkci (Porges, 2011). Rozdíl se týká dostupnosti pomoci při destabilizaci a rozsahu dokumentace.
-
-**Skupinový formát**: nese komponentu vzájemné podpory a zároveň jiný rizikový profil než práce v páru — kontraindikací je aktivní psychotická symptomatologie, závažná interpersonální agresivita a nestabilní disociativní obraz.
-
-**Krizově modifikovaná varianta**: redukuje expoziční složku ve prospěch stabilizace. Že stabilizace předchází zpracování vzpomínky a není jeho zkrácenou verzí, patří k nejdéle popsaným zásadám práce s traumatem (Herman, 1992).
-
-**Kulturně senzitivní adaptace**: česká adaptace zohledňuje jazyk a metaforický rámec, zkušenost předchozích generací s totalitním režimem a dostupné cesty hrazené péče.
-
-**Výcvikový a svépomocný formát**: tytéž komponenty se nabízejí i mimo zdravotní péči — na kurzech, v komunitách a ve svépomocných skupinách. Rizikový profil je tam jiný především proto, že chybí indikace, diagnostické rozlišení a dostupná pomoc při destabilizaci; část doložených poškození v psychoterapii vznikla právě v takovém uspořádání (Lilienfeld, 2007).
-
-Žádná z uvedených variant není v knize uvedena jako doporučení. Variace se zaznamenávají proto, že s každou se mění, co pozorovatel uvidí a co se dotčenému člověku stane, když se práce zastaví; rozhodnutí o volbě zůstává u indikujícího klinika a jeho supervize (Herman, 1992).
+{% include "partials/video-mediovana-varianta-rozsirila-se.md" %}
 
 ## Kdy je rámec legitimní
 

@@ -53,13 +53,13 @@ Stojí za to oddělit, co na této stránce pochází z literatury a co je čten
 
 Trainees v supervizovaných tréninkových programech; klinici v re-trainingu po identifikované kompetenční mezeře.
 
-Edukativní cíl není změna chování v behaviorálním smyslu, ale kultivace kompetencí umožňujících autonomní navigaci v epistemicky náročných kontextech. Cílová populace je primárně dospělí profesionálové s baseline metakognitivní stabilitou — technika není určena pro klinické intervence u aktivně dekompenzovaných jedinců.
+{% include "partials/edukativni-cil-neni-zmena-chovani.md" %}
 
 ## Předpoklady
 
 Dokončené graduální expozice design (EA-3.1.1); baseline kompetenční mapování; přístup k akreditovanému scaffolding mentorovi.
 
-Bez splnění předpokladů technika produkuje suboptimální výsledky a může generovat iatrogenní efekty. Předpoklady nejsou byrokratické formality, ale strukturální podmínky efektivity intervence.
+{% include "partials/bez-splneni-predpokladu-technika-produkuje.md" %}
 
 ## Implementační protokol
 
@@ -82,7 +82,7 @@ Implementace je iterativní — každý cyklus generuje data informující úpra
 | Generalizace | Kompetence prokazatelná v nových případech |
 | Mentor confidence | Kalibrovaný odhad supervisor-student konvergence
 
-Evaluace integruje kvantitativní (validované instrumenty) i kvalitativní (reflektivní eseje, ethnographic observation) datové zdroje. Žádná samostatná metrika není dostatečná — multidimenzionální evaluace je nezbytná.
+{% include "partials/evaluace-integruje-kvantitativni-validovane-instrumenty.md" %}
 
 Žádné z uvedených kritérií nedokládá kompetenci učícího se mimo prostředí, v němž byla opora odebírána. Rozdíl mezi podpořeným a samostatným výkonem je údajem o jedné situaci a o jednom pozorovateli; Vygotsky (1978) jej zavedl jako popis okamžiku učení, nikoli jako trvalou vlastnost člověka, a zvládnutý úkol bez opory neříká nic o úkolu, který se mu nepodobá. Stejně tak doložené fading nedokládá nic o mentorovi: to, že učící se obstál, může znamenat, že opora byla odebírána dobře, ale i to, že nebyla nikdy potřebná, a obě možnosti vypadají ve výsledku totožně. Opačný závěr je rovněž nedostupný — regrese po odebrání opory sama neukazuje na nedostatek na straně učícího se, protože ukazuje jen na to, že opora nesla více, než bylo zjevné, dokud byla přítomna. Nedoložitelná zůstává i vlastní zkušenost podpory: učící se, který prošel vrstvením zkušenosti, tím nezískává schopnost vrstvit ji druhému, neboť rozhodování o oporách je jiná dovednost než práce v nich.
 
@@ -105,7 +105,7 @@ Od [EA-3.1.1 Graduální expozice design](@/kompendium/techniques/ea-3-1-1-gradu
 
 ### Sourozenecké techniky (3.1 Kurikulární techniky)
 
-Technika je integrální součástí subkategorie 3.1 a je navržena pro synergickou implementaci s ostatními sourozeneckými technikami:
+{% include "partials/technika-je-integralni-soucasti-subkategorie.md" %}
 
   - [EA-3.1.1 Graduální expozice design](@/kompendium/techniques/ea-3-1-1-graduated-exposure-design.md)
   - [EA-3.1.3 Metakognitivní kultivace](@/kompendium/techniques/ea-3-1-3-metacognitive-cultivation.md)

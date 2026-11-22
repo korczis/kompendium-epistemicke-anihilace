@@ -43,7 +43,7 @@ Technika je primárně indikována v následujících klinických kontextech:
 
 Akutní suicidalita s plánem, akutní psychóza, severe disociativní decompensace, DV escape s severe symptomatologií.
 
-Sekundárně může být zvažována jako adjunktivní intervence v rámci komplexního multimodálního léčebného plánu, vždy však s ohledem na individuální profil klienta a aktuální fázi rekonstrukčního procesu.
+{% include "partials/sekundarne-muze-byt-zvazovana-jako.md" %}
 
 ## Kontraindikace
 
@@ -51,7 +51,7 @@ Aplikace techniky je kontraindikována v následujících situacích:
 
 Stabilní klienti vhodnější pro nižší level of care.
 
-Identifikace kontraindikací je integrální součástí každého iniciálního assessment a vyžaduje opakované re-evaluation v průběhu intervence — zejména v případě dynamicky se měnícího klinického obrazu.
+{% include "partials/identifikace-kontraindikaci-je-integralni-soucasti.md" %}
 
 ## Implementační protokol
 
@@ -59,13 +59,13 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 (1) Admission assessment. (2) Safety stabilizace. (3) Intenzivní DD. (4) Pharmacotherapy adjustment. (5) Group therapy participation. (6) Discharge planning od začátku pobytu. (7) Warm handoff.
 
-Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
+{% include "partials/kazdy-krok-je-dokumentovan-v.md" %}
 
 ## Trvání a frekvence
 
 **Typická délka:** krátká; délku pobytu určuje klinický obraz a supervize, nikoli norma stanovená touto knihou.
 
-Frekvence sezení a celková délka intervence jsou závislé na komplexitě klinického obrazu, komorbiditách a individuální responsivitě. V populacích s komplexním C-PTSD je třeba počítat s prolongovaným průběhem, zatímco u single-incident traumat lze očekávat rychlejší progression.
+{% include "partials/frekvence-sezeni-a-celkova-delka.md" %}
 
 ## Hodnotící kritéria
 
@@ -73,7 +73,7 @@ Klinická efektivita techniky je posuzována podle následujících outcome metr
 
 Symptom redukce, safety, engagement v outpatient.
 
-Pre-post administrace standardizovaných nástrojů poskytuje kvantitativní podklad pro klinické rozhodování o pokračování, modifikaci nebo ukončení intervence.
+{% include "partials/pre-post-administrace-standardizovanych-nastroju.md" %}
 
 ## Adaptace pro specifické EA kategorie
 
@@ -81,7 +81,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 Veteráni — VA system. Adolescenti — teen-specific units.
 
-Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fenomenologii a strukturálních charakteristikách jednotlivých EA-domén a jsou klíčové pro klinickou účinnost intervence v cílové populaci.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-odrazeji.md" %}
 
 ## Iatrogenní rizika
 
@@ -89,13 +89,13 @@ Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Iatrogenní hospitalization trauma, dependence, premature discharge.
 
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
+{% include "partials/predchazeni-iatrogennim-poskozenim-je-integralni.md" %}
 
 ## Klinické pozadí
 
 EA-6.5.6 je v kompendiu vedena jako krátkodobý lůžkový most do ambulantní péče, ne jako léčba sama.
 
-**Klinické zacílení**: akutní a vysokointenzivní klinické setting (ER, akutní krize, inpatient, partial hospitalization, day program, residential) pro pacienty s aktivní EA-symptomatologií vyžadující stabilizaci. Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-akutni-a-vysokointenzivni.md" %}
 
 **Klinická tradice ukotvení**: *interpretace knihy* — lůžkové oddělení je samo institucí s vlastním režimem, a ten v každé zemi vyrostl z jiné historie péče o duševně nemocné. Goffman (1961) popisuje, jak totální instituce přetváří sebepojetí svých obyvatel; kompendium z toho čte, že u člověka po poměru založeném na kontrole je třeba rozpoznávat i to, co s ním dělá samo prostředí hospitalizace, ať je přejatý [evidence-based](@/glossary/evidence-based.md) protokol jakýkoli.
 

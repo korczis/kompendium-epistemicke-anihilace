@@ -57,7 +57,7 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 ## Trvání a frekvence
 
-Kompendium pro tuto fázi neuvádí normu délky ani počtu sezení. Herman (1992) popisuje zotavení jako sled fází, které se opakovaně vracejí a prolínají; tempo se odvozuje od obnovené kapacity člověka, nikoli z rozvrhu. Údaje o délce a frekvenci patří do manuálu použité modality a do supervizního záznamu konkrétního případu.
+{% include "partials/kompendium-pro-tuto-fazi-neuvadi.md" %}
 
 ## Hodnotící kritéria
 
@@ -73,7 +73,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 Po odchodu ze sektářské skupiny: integrace post-cult. [EA-6.4.4](@/kompendium/techniques/ea-6-4-4-LGBTQI-EA-protokol.md) LGBTQI: re-emergence autentické identity. [EA-6.4.6](@/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md) DV: rekonstituce mimo abuserův vliv.
 
-Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fenomenologii a strukturálních charakteristikách jednotlivých EA-domén a jsou klíčové pro klinickou účinnost intervence v cílové populaci.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-odrazeji.md" %}
 
 ## Iatrogenní rizika
 
@@ -85,7 +85,7 @@ Imposice cizí identity, identity diffusion při příliš rychlé práci, parad
 
 Tato stránka vede techniku **EA-6.3.7** jako závěrečnou fázi rekonstrukce, v níž se ustavuje způsob, jak o sobě člověk mluví bez odkazu na předchozí expozici. Vymezená kritéria vstupu a výstupu z fáze mají jediný účel: umožnit rozpoznání, zda práce odpovídá stavu dotčeného člověka.
 
-**Klinické zacílení**: fázový rekonstrukční rámec pro post-EA-trauma populaci s důrazem na bezpečí, externalizaci, integraci a konsolidaci nového epistemicko-afektivního architektury klienta. Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-fazovy-rekonstrukcni-ramec.md" %}
 
 **Trauma spektrum kontext**: Terr (1991) popsala jednorázovou a opakovanou relační traumatizaci jako dva odlišné typy. Pro ustavení identity je určující, k čemu se lze vztáhnout: po jediné události existuje dřívější sebepojetí, po expozici trvající celé dětství se ustavuje poprvé. Trajektorie druhé možnosti je popsána jako delší a fázovaná (Herman, 1992).
 

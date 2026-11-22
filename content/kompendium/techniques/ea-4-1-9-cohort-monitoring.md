@@ -37,7 +37,7 @@ parent_chapter = "/kompendium/04-terminalni-protokoly/"
 
 Stránka slouží rozpoznání vzorce, nikoli jeho provedení.
 
-Rámec stanoví [doktrinální rámec knihy](@/kompendium/02-doktrinalni-ramec/_index.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
+{% include "partials/ramec-stanovi-doktrinalni-ramec-knihy.md" %}
 
 ## Struktura vzorce
 
@@ -47,9 +47,9 @@ Druhý obraz je opačný: souhrnné ukazatele skupiny vypadají v pořádku, zat
 
 Retrospektivně se znaky objevují v pořadí: nejprve se zúží okruh toho, co lze ve skupině vyslovit, pak se přestanou hlásit obtíže a nakonec se vytratí i soukromé stížnosti. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Podmínkou, aby se tento sled nerozběhl, je prostředí, v němž hlášení obtíže nemá osobní cenu (Edmondson, 1999).
 
-*Interpretace knihy*: rozhodující není, co člověk prožil, ale zda si o tom smí myslet něco jiného.
+{% include "partials/interpretace-knihy-rozhodujici-neni-co.md" %}
 
-Měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
+{% include "partials/meritko-stanovi-eticke-aspekty-a-metodologicke.md" %}
 
 ## Bezpečnostní rámec
 
@@ -73,7 +73,7 @@ Hromadně podepsaný souhlas celé kohorty na žádné z uvedených okolností n
 
 ## Klinické markery (neúmyslná manifestace)
 
-Následující znaky jsou to, co klinik, supervizor nebo vyšetřující pozoruje u člověka, který prošel nestrukturovaným ekvivalentem protokolu — v kultovním prostředí, v abusivním vztahu nebo v neetické instituci. Jde o rozpad vztahu k vlastnímu příběhu, jak ho popsala Herman (1992).
+{% include "partials/nasledujici-znaky-jsou-to-co.md" %}
 
 | Marker | Indikuje |
 |--------|----------|
@@ -84,13 +84,11 @@ Následující znaky jsou to, co klinik, supervizor nebo vyšetřující pozoruj
 | [Sociální izolace](@/glossary/socialni-izolace.md) s jediným referenčním zdrojem autority | Strukturální rizikový kontext |
 | Časová dezorientace ve vztahu k vlastnímu životnímu příběhu | Indukovanou temporální disrupci |
 
-Detekce vyžaduje diferenciální diagnózu vůči primárním psychiatrickým stavům (disociativní poruchy, PTSD, psychotická spektra) a vůči [legitimní transformativní zkušenosti](@/glossary/transformative-experience.md); přehled doložených případů, kdy dobře míněná intervence poškodila, ukazuje, jak snadno se obojí zamění (Lilienfeld, 2007).
+{% include "partials/detekce-vyzaduje-diferencialni-diagnozu-vuci-primarnim.md" %}
 
 ## Odlišení od neškodných jevů
 
-Od neškodných jevů se vzorec odlišuje tím, co po něm zůstává. Náročný výcvik, otřesná zkušenost i hluboká změna hodnot samy o sobě nic neznamenají; poznávacím znakem je ztráta schopnosti vlastní zkušenost zpochybnit a vyprávět ji jinak než jediným předepsaným způsobem (Herman, 1992).
-
-Druhým rozlišovacím hlediskem je dohledatelnost. Legitimní rámec po sobě nechává zápis: kdo posoudil poměr přínosu a rizika, co bylo sporné a za jakých podmínek se mělo zastavit. Kde takový zápis chybí, nelze o supervidovaném protokolu mluvit bez ohledu na to, jak se prostředí samo popisuje (Belmont Report, 1979).
+{% include "partials/od-neskodnych-jevu-se-vzorec.md" %}
 
 ## Jak se vzorec pozná zevnitř
 

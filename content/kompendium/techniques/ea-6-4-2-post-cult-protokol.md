@@ -73,7 +73,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 Religious cults: senzitivní k zachování spirituality. MLM: ekonomická rekonvalescence. Therapeutic cults: rekonstrukce důvěry v psychoterapii.
 
-Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fenomenologii a strukturálních charakteristikách jednotlivých EA-domén a jsou klíčové pro klinickou účinnost intervence v cílové populaci.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-odrazeji.md" %}
 
 ## Iatrogenní rizika
 
@@ -85,7 +85,7 @@ Premature confrontation s cult-leaders, secondary cult dependence (na terapeutov
 
 Kniha zaznamenává techniku **EA-6.4.2** jako populačně vymezenou adaptaci pro lidi, kteří odešli z totalizující skupiny. Vlastní literatura této oblasti popisuje zotavení jako práci s následky členství, nikoli s jeho obsahem (Lalich a Tobias, 2006); hodnocení jednotlivého případu stránce nepatří.
 
-**Klinické zacílení**: specializované populace s unikátním rizikovým profilem — pediatrická, geriatrická, post-cult, refugee, LGBTQI+, veteráni, oběti DV, policejní, zdravotnictví, novináři, aktivisté. Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-specializovane-populace-s.md" %}
 
 **Trauma spektrum kontext**: Terr (1991) rozlišila následky jediné ohrožující události a následky opakované expozice ve vztahu. U lidí, kteří ve skupině vyrostli, jde o druhý typ: její poměry nebyly výjimkou z běžného života, ale jeho jediným uspořádáním. Jak se tím mění vedení péče, nerozhoduje tato stránka, ale indikující klinik ve supervizi.
 
@@ -115,7 +115,7 @@ Druhou podmínkou je souhlas, který lze odvolat bez ztráty vztahu. Po odchodu 
 
 Třetí podmínkou je dokumentace, kterou dotčený smí vidět, a cíl formulovaný jako jeho vlastní kapacita vyhodnocovat nabídky příslušnosti. Sekundární závislost na terapeutovi je u této populace popsaným rizikem a nelze ji odlišit od úspěchu intervence podle toho, jak se dotčený cítí (Singer a Lalich, 1995).
 
-Měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
+{% include "partials/meritko-stanovi-eticke-aspekty-a.md" %}
 
 ## Odlišení
 

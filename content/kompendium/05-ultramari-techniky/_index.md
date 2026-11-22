@@ -176,8 +176,7 @@ Pro Kapitoly 7, 8, 9, 10 jsou kompaktní taxonomické popisy integrovány přím
 
 ## Kritický krok
 
-**Ultramární techniky jsou L3 (omezený přístup)**: nejsou určeny k
-obecnému studiu. Před četbou potvrď, že:
+{% include "partials/ultramarni-techniky-jsou-l3-omezeny.md" %}
 
 - Máš kvalifikovanou supervizní vazbu (klinickou nebo doktrinální)
 - Máš dokumentovaný důvod ke studiu konkrétní techniky (forenzní analýza,

@@ -57,7 +57,7 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 ## Trvání a frekvence
 
-Kompendium pro tuto fázi neuvádí normu délky ani počtu sezení. Herman (1992) popisuje zotavení jako sled fází, které se opakovaně vracejí a prolínají; tempo se odvozuje od obnovené kapacity člověka, nikoli z rozvrhu. Údaje o délce a frekvenci patří do manuálu použité modality a do supervizního záznamu konkrétního případu.
+{% include "partials/kompendium-pro-tuto-fazi-neuvadi.md" %}
 
 ## Hodnotící kritéria
 
@@ -73,7 +73,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 Po odchodu ze sektářské skupiny: dekonstrukce in-cult hermeneutiky. [EA-6.4.4](@/kompendium/techniques/ea-6-4-4-LGBTQI-EA-protokol.md) LGBTQI: re-introduction queer hermeneutics. [EA-6.4.3](@/kompendium/techniques/ea-6-4-3-uprchlik-protokol.md) uprchlíci: kulturně-kompatibilní rámce.
 
-Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fenomenologii a strukturálních charakteristikách jednotlivých EA-domén a jsou klíčové pro klinickou účinnost intervence v cílové populaci.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-odrazeji.md" %}
 
 ## Iatrogenní rizika
 
@@ -85,7 +85,7 @@ Imposice terapeutových interpretací, kulturní necitlivost, sekundární herme
 
 Klinické zařazení techniky dává povaha poškození, ne původ metod: chybějí-li člověku pojmy pro to, co se mu stalo, není to neznalost, nýbrž stav popsaný jako hermeneutická nespravedlnost (Fricker, 2007). Obnova proto nemůže spočívat v dodání výkladu; McAdams (2001) připomíná, že vyprávění o vlastním životě zůstává revidovatelnou konstrukcí.
 
-**Klinické zacílení**: fázový rekonstrukční rámec pro post-EA-trauma populaci s důrazem na bezpečí, externalizaci, integraci a konsolidaci nového epistemicko-afektivního architektury klienta. Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-fazovy-rekonstrukcni-ramec.md" %}
 
 **Trauma spektrum kontext**: jediná událost člověku pojmy neodebere; chybějí teprve tam, kde prostředí drželo výklad dlouho a opakovaně. Rozlišení obou případů zavedla Terr (1991) a pro tuto techniku z něj plyne, že jde o práci s druhým z nich. Herman (1992) k témuž pólu řadí zotavení jako sled vracejících se fází, ne jako jedno zpracování jedné epizody.
 

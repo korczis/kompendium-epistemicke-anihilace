@@ -55,11 +55,11 @@ Vlastní literatura přístupu popisuje jeho skladbu následujícími komponenta
 
 (1) Anamnéza a treatment plan. (2) Příprava — resource installation, safe place. (3) Assessment — výběr cílové vzpomínky, NC/PC, SUD/VOC. (4) Desensitization — bilaterální stimulace + asociace. (5) Installation pozitivní kognice. (6) Body scan. (7) Closure. (8) Reevaluation v dalším sezení.
 
-Výčet je popisem toho, z čeho se přístup skládá, nikoli pokynem k provedení: o indikaci, sledu a ukončení rozhoduje kvalifikovaný klinik ve supervizi a záznam zůstává součástí zdravotnické dokumentace, do níž má dotčený člověk přístup ([etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md)).
+{% include "partials/vycet-je-popisem-toho-z.md" %}
 
 ## Trvání a frekvence
 
-Délka a frekvence nejsou vlastností techniky, ale rozhodnutím v jednotlivém případě: závisejí na klinickém obrazu, komorbiditách a na tom, co dotčený člověk unese. Pro komplexní traumatizaci popisuje literatura delší a fázovanou trajektorii než pro jednorázovou událost (Herman, 1992). Kniha proto žádný počet sezení ani interval neuvádí — kvantifikace patří do manuálu použitého přístupu a do supervize, nikoli do taxonomie.
+{% include "partials/delka-a-frekvence-nejsou-vlastnosti.md" %}
 
 ## Hodnotící kritéria
 
@@ -67,7 +67,7 @@ Klinické sledování průběhu se v literatuře přístupu opírá o následuj�
 
 Subjektivní míra tísně (SUD) a validita pozitivní kognice (VOC) v rámci vlastního protokolu, vymizení somatických markerů, změna na PCL-5.
 
-Opakovaná administrace standardizovaných nástrojů poskytuje podklad pro klinické rozhodování o pokračování, modifikaci nebo ukončení intervence. Prahy klinicky významné změny stanoví manuál použitého nástroje; jediné obecně publikované kritérium, které tato kniha přebírá, je reliable change index nad 1,96 a výsledný skór v rozsahu jedné SD netraumatizované normy (Jacobson a Truax, 1991).
+{% include "partials/opakovana-administrace-standardizovanych-nastroju-poskytuje.md" %}
 
 ## Adaptace pro specifické EA kategorie
 
@@ -75,7 +75,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 Po odchodu ze sektářské skupiny: protokol pro mapování in-cult traumatických epizod. EA-6.5 krizové: rapid stabilization protocol pro akutní trauma. [EA-6.4.3](@/kompendium/techniques/ea-6-4-3-uprchlik-protokol.md) uprchlíci: kulturně-senzitivní adaptace.
 
-Tyto adaptace nejsou ornamentální. Kniha je zaznamenává proto, že se s nimi mění rizikový profil, nikoli jako doporučení.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-kniha.md" %}
 
 ## Iatrogenní rizika
 
@@ -87,7 +87,7 @@ Abreakce a desorganizace při nedostatečné stabilizaci, [retraumatizace](@/glo
 
 Kniha zaznamenává techniku **EA-6.2.2** jako intervenci pracující s traumatickou vzpomínkou prostřednictvím strukturovaných sérií; její manuálové vymezení pochází z vlastní literatury přístupu (Shapiro, 2018). O účinku v jednotlivém případě rozhoduje klinické posouzení, nikoli tato stránka.
 
-**Klinické zacílení**: [evidence-based](@/glossary/evidence-based.md) psychoterapeutické intervence pro EA-trauma se sekundární komorbiditou ([úzkostné poruchy](@/glossary/uzkostne-poruchy.md), depresivní poruchy, somatizace, disociativní spektrum). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-evidence-based-psychoterapeuticke.md" %}
 
 **Trauma spektrum kontext**: rozlišení traumatu po jediné události a traumatu z opakované relační expozice zavedla Terr (1991). Pro tento přístup je rozdíl podstatný v tom, co lze vzít jako cílovou vzpomínku: u dlouhodobé expozice v dětství zpravidla nejde o jeden výjev a popsaná trajektorie zotavení je fázovaná a delší (Herman, 1992). Doložené případy, kdy terapeutická intervence poškodila, shrnuje Lilienfeld (2007).
 

@@ -55,11 +55,11 @@ Vlastní literatura přístupu popisuje jeho skladbu následujícími komponenta
 
 Psychoedukace o EA-traumatu; identifikace kognitivních zkreslení specifických pro epistemickou manipulaci; kognitivní restrukturalizace s důrazem na metakognitivní přesvědčení; imaginativní expozice traumatickým epizodám; expozice vyhýbavým situacím v běžném prostředí; prevence relapsu a konsolidace.
 
-Výčet je popisem toho, z čeho se přístup skládá, nikoli pokynem k provedení: o indikaci, sledu a ukončení rozhoduje kvalifikovaný klinik ve supervizi a záznam zůstává součástí zdravotnické dokumentace, do níž má dotčený člověk přístup ([etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md)).
+{% include "partials/vycet-je-popisem-toho-z.md" %}
 
 ## Trvání a frekvence
 
-Délka a frekvence nejsou vlastností techniky, ale rozhodnutím v jednotlivém případě: závisejí na klinickém obrazu, komorbiditách a na tom, co dotčený člověk unese. Pro komplexní traumatizaci popisuje literatura delší a fázovanou trajektorii než pro jednorázovou událost (Herman, 1992). Kniha proto žádný počet sezení ani interval neuvádí — kvantifikace patří do manuálu použitého přístupu a do supervize, nikoli do taxonomie.
+{% include "partials/delka-a-frekvence-nejsou-vlastnosti.md" %}
 
 ## Hodnotící kritéria
 
@@ -67,7 +67,7 @@ Klinické sledování průběhu se v literatuře přístupu opírá o následuj�
 
 Změna na PCL-5, obecná vnímaná účinnost (GSE), funkční změna a její udržení v čase.
 
-Opakovaná administrace standardizovaných nástrojů poskytuje podklad pro klinické rozhodování o pokračování, modifikaci nebo ukončení intervence. Prahy klinicky významné změny stanoví manuál použitého nástroje; jediné obecně publikované kritérium, které tato kniha přebírá, je reliable change index nad 1,96 a výsledný skór v rozsahu jedné SD netraumatizované normy (Jacobson a Truax, 1991).
+{% include "partials/opakovana-administrace-standardizovanych-nastroju-poskytuje.md" %}
 
 ## Adaptace pro specifické EA kategorie
 
@@ -75,7 +75,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 EA-1 akademické: cíl na epistemická zkreslení o vědění. Po odchodu ze sektářské skupiny: post-cult specifické moduly. Hluboké epistemické poškození (EA-5): integrace s metakognitivní terapií.
 
-Tyto adaptace nejsou ornamentální. Kniha je zaznamenává proto, že se s nimi mění rizikový profil, nikoli jako doporučení.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-kniha.md" %}
 
 ## Iatrogenní rizika
 

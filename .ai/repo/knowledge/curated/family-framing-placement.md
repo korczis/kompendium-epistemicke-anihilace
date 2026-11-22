@@ -3,7 +3,7 @@ schema: knowledge/v1
 id: family-framing-placement
 kind: knowledge
 class: lesson
-title: "Family-level framing on 155 technique pages: where it belongs, awaiting the owner's answer"
+title: "Family-level framing on 155 technique pages: where it belongs, answered in ADR 0016"
 description: "Before moving a duplicated block that turns out to be true of a whole family rather than of one technique, or when deciding whether a framing repeats on every member page."
 status: verified
 epistemics: observed
@@ -16,7 +16,7 @@ provenance:
   origin: authored
 ---
 
-# Family-level framing on 155 technique pages: where it belongs, awaiting the owner's answer
+# Family-level framing on 155 technique pages: where it belongs, answered in ADR 0016
 
 ## The question for the owner
 
@@ -101,7 +101,8 @@ families — they are *stronger* include candidates, at book level rather than f
 **The second of those is the book's own defensive framing, and it will not be moved without the
 owner.** Where a page states that it has no operational character and exists for defensive
 recognition is a safety decision about the book, not a maintenance decision about duplication. The
-same holds for the differential-diagnosis and observer notices. None of the 25 is touched.
+same holds for the differential-diagnosis and observer notices. None of the 25 was touched before
+the owner answered.
 
 This is why the question is the owner's rather than a sweep's: at 155 pages "the include preserves
 today's arrangement" is a fair description of a maintenance fix, and at 788 pages across every
@@ -113,3 +114,12 @@ The answer becomes an ADR with the owner's words verbatim, the session id and th
 ADR 0014 records the three answers of 2026-11-12. This record is not the decision: it is the
 measurement the decision will be made on. Open ADR numbers start at 0016 — 0015 is the technique
 pages catalogue, on `feature/derived-catalogue`.
+
+## Answered, 2026-11-22
+
+The owner answered both questions (ADR 0016, verbatim there): family framing stays on every page
+from one partial, and the cross-family blocks, the defensive framing included, become one partial
+each with the text unchanged. `scripts/extract-shared-passages.py` applies it from the gate's own
+blocks and proves that every page expands back to its old source. Run
+`python3 scripts/dup-passages.py` for the remainder. On 2026-11-22 it was the blocks that differ
+only by each page's own EA code, which a plain include cannot carry.

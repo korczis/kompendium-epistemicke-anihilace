@@ -15,6 +15,8 @@ related_terms = ["ea-1-2-3-iluzorni-komplexita", "ea-1-3-1-immunization-against-
 ea_code = "EA-1.3.1"
 ea_category = "1. Akademické techniky"
 ea_subcategory = "1.3 Narušení procesů revize a falsifikace"
+ea_risk_text = "Vysoká — strukturální obrana před korekcí; bez detekce ireverzibilní"
+ea_reversibility_text = "Nízká, jakmile je vzorec konsolidován"
 section_icon = "🛡️"
 toc = true
 access_level = "L1"
@@ -26,11 +28,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-1.3.1` |
-| **Kategorie** | 1. Akademické techniky intelektuální manipulace |
-| **Subkategorie** | 1.3 Narušení procesů revize a [falsifikace](@/glossary/falsifikace.md) |
-| **Riziková úroveň** | Vysoká — strukturální obrana před korekcí; bez detekce ireverzibilní |
-| **Reverzibilita** | Nízká, jakmile je vzorec konsolidován |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md) |
 
 ## Definice

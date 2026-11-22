@@ -14,6 +14,8 @@ related_terms = ["ea-1-3-2-strategic-reinterpretation", "ea-1-3-2-strategicka-re
 ea_code = "EA-1.3.3"
 ea_category = "1. Akademické techniky"
 ea_subcategory = "1.3 Narušení procesů revize a falsifikace"
+ea_risk_text = "Středně vysoká — pervazivní v debatách, peer review, klinických rozhovorech"
+ea_reversibility_text = "Vysoká, pokud je rozpoznána"
 section_icon = "🦌"
 toc = true
 access_level = "L1"
@@ -25,11 +27,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-1.3.3` |
-| **Kategorie** | 1. Akademické techniky intelektuální manipulace |
-| **Subkategorie** | 1.3 Narušení procesů revize a [falsifikace](@/glossary/falsifikace.md) |
-| **Riziková úroveň** | Středně vysoká — pervazivní v debatách, peer review, klinických rozhovorech |
-| **Reverzibilita** | Vysoká, pokud je rozpoznána |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md) |
 
 ## Definice

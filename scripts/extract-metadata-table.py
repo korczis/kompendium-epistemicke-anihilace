@@ -36,6 +36,7 @@ import ia_model as m  # noqa: E402
 CONTENT = ROOT / "content"
 TECHNIQUES = CONTENT / "kompendium" / "techniques"
 CATEGORIES = ROOT / "data" / "ea-categories.toml"
+SUBCATEGORIES = ROOT / "data" / "ea-subcategories.toml"
 INCLUDE_LINE = '{% include "partials/technique-meta.md" %}'
 LABELS = ["EA kód", "Kategorie", "Subkategorie", "Riziková úroveň", "Reverzibilita",
           "Rodičovská kapitola"]
@@ -71,6 +72,7 @@ def find_table(body_lines: list):
 
 def plan():
     cats = tomllib.loads(CATEGORIES.read_text(encoding="utf-8"))
+    subs = tomllib.loads(SUBCATEGORIES.read_text(encoding="utf-8")) if SUBCATEGORIES.exists() else {}
     moves, remaining = [], []
     for path in sorted(TECHNIQUES.glob("ea-*.md")):
         rel = path.relative_to(CONTENT).as_posix()
@@ -93,8 +95,13 @@ def plan():
         if cell["EA kód"] != f"`{ea_code}`":
             remaining.append((rel, f"EA kód cell {cell['EA kód']!r} != `{ea_code}`"))
             continue
-        if cell["Subkategorie"] != str(ea_sub):
-            remaining.append((rel, "Subkategorie cell != extra.ea_subcategory"))
+        # Subkategorie renders the plain ea_subcategory, or its display-label override from
+        # data/ea-subcategories.toml where that subcategory links a glossary term (ADR 0017's
+        # "everything interlinked" rule: the template must not drop a link the page carries). The
+        # label is copied verbatim, so the cell must equal the override when one exists, else the key.
+        expected_sub = subs.get(str(ea_sub), str(ea_sub))
+        if cell["Subkategorie"] != expected_sub:
+            remaining.append((rel, "Subkategorie cell != extra.ea_subcategory nor its ea-subcategories.toml override"))
             continue
         if ea_cat not in cats:
             remaining.append((rel, f"ea_category {ea_cat!r} not a key of data/ea-categories.toml"))

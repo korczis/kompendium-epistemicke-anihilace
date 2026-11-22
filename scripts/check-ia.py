@@ -351,7 +351,7 @@ PENDING_ZERO = {"placeholder": 0, "technique-page": 0, "howto": 0, "drug-dose": 
                 "legitimate-indication": 0,
                 "detail": 199, "weak-link": 199,
                 "duplicate-passage": 0,  # 0 after the 8 EA-code blocks moved to parameterised partials
-                "duplicate-table": 172,  # 172 after the metadata table moved to partials/technique-meta.md (scripts/extract-metadata-table.py), cat1/cat2 incl. the ADR-0017 canonical relabel; bold-label→short-value exempt
+                "duplicate-table": 166,  # 166 after the metadata table moved to partials/technique-meta.md (scripts/extract-metadata-table.py): cat1/cat2 canonical relabel (ADR 0017) and the EA-1.3 Subkategorie-link override; bold-label→short-value exempt
                 "access-level-row": 0,  # the row is derived from extra.access_level; 0 after removal
                 # 0 on main, which carries no derived count expression at all; the real
                 # positions appear with the first converted section and are fixed, not accepted

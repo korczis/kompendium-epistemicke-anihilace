@@ -12,6 +12,8 @@ related_terms = ["ea-1-3-1-imunizace-proti-falsifikaci", "ea-1-3-5-pseudo-empiri
 ea_code = "EA-1.3.4"
 ea_category = "1. Akademické techniky"
 ea_subcategory = "1.3 Narušení procesů revize a falsifikace"
+ea_risk_text = "Vysoká; ve veřejném zdraví a ve vztazích závislosti velmi vysoká"
+ea_reversibility_text = "Střední; pochybnost se vytváří snáz, než se rozpouští"
 parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
@@ -22,11 +24,7 @@ date_modified = "2026-11-10"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-1.3.4` |
-| **Kategorie** | 1. Akademické techniky |
-| **Subkategorie** | 1.3 Narušení procesů revize a [falsifikace](@/glossary/falsifikace.md) |
-| **Riziková úroveň** | Vysoká; ve veřejném zdraví a ve vztazích závislosti velmi vysoká |
-| **Reverzibilita** | Střední; pochybnost se vytváří snáz, než se rozpouští |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [3.1 Akademické techniky intelektuální manipulace](@/kompendium/03-zakladni-kategorie/kapitola-1.md) |
 
 ## Definice

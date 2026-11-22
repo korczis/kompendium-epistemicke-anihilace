@@ -39,15 +39,23 @@ matter, and a data file keyed by `risk_level` would be wrong. The tool moves eac
 into per-page `extra.ea_risk_text` / `extra.ea_reversibility_text`; `risk_level` is left untouched
 and is **not** reconciled with the prose.
 
-## Subkategorie cells with a glossary link the front matter lacks (blocks the move)
+## Subkategorie display-label override — resolved; `ea_subcategory` stays a plain key
 
-Six category-1 pages (`ea-1-3-1` … `ea-1-3-6`) carry `ea_subcategory = "1.3 Narušení procesů revize
-a falsifikace"` but a Subkategorie cell `1.3 Narušení procesů revize a
-[falsifikace](@/glossary/falsifikace.md)` — the cell has a glossary link the front-matter value does
-not. The partial renders `{{ page.extra.ea_subcategory }}`, which would drop the link, so the tool
-**refuses** these pages rather than regress a link. Resolving it means either adding the link to
-`ea_subcategory` or keying Subkategorie off a data file — an owner/editorial decision, like the
-Kategorie one before ADR 0017.
+The owner's standing rule is that everything is interlinked: a template must never drop a link the
+page carries. `extra.ea_subcategory` must stay a plain key (listings, filters and the graph read it
+as a key), so a glossary link in the Subkategorie cell lives in a display-label override keyed by
+`ea_subcategory` in `data/ea-subcategories.toml`; the partial renders
+`{{ sub[page.extra.ea_subcategory] | default(value=page.extra.ea_subcategory) }}` — the override
+where one exists, the plain key otherwise. Six category-1 pages (`ea-1-3-1` … `ea-1-3-6`, key
+`1.3 Narušení procesů revize a falsifikace`) link `[falsifikace](@/glossary/falsifikace.md)`; the
+override carries that cell verbatim, so they move byte-exact with the link preserved.
+
+A subcategory may be added to the override file only when **every** page carrying that
+`ea_subcategory` had that exact cell — adding one relabels them all. That is why
+`5.1 Epistemická singularita` is **not** overridden: its pages disagree — 21 link
+`[Epistemická singularita](@/glossary/epistemicka-singularita.md)`, 9 do not. That is a content
+drift (by the interlinking rule the 9 should gain the link), an edit to those 9 page sources, not a
+template override; the 21 linked pages stay refused by the move until it is resolved.
 
 ## Rodičovská kapitola link is not 1:1 from parent_chapter
 
@@ -57,5 +65,6 @@ page (it is kept, not moved into the partial).
 
 ## How to apply
 
-For each of the three rows above, record the owner's answer here and in the plan before templating
-it; do not pick a mapping in tooling. The Kategorie precedent is ADR 0017.
+For the rows still open above (risk_level prose, the parent_chapter link, and the `5.1` subcategory
+content drift), record the owner's answer here and in the plan before templating or editing; do not
+pick a mapping in tooling. The precedents are ADR 0017 (Kategorie) and the subcategory override.

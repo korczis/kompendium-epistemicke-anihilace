@@ -69,20 +69,25 @@ def strip_comments(text: str) -> str:
 
 # A parameterised shared partial carries bounded Tera that expand_includes renders from the
 # including page's [extra], so the tool's expansion reproduces byte for byte what Zola renders.
-# EXACTLY two forms are supported (scripts/extract-shared-passages.py, scripts/extract-metadata-table.py):
+# EXACTLY these forms are supported (scripts/extract-shared-passages.py, scripts/extract-metadata-table.py):
 #   {{ page.extra.KEY }}
 #   {%- set NAME = load_data(path="data/….toml") -%} then {{ NAME[page.extra.KEY] }} / {{ NAME[page.extra.KEY].field }}
-# Any other Tera is left as written, so the two-proof of a move fails and the move is refused —
-# ia_model stays a substituter, not a Tera interpreter.
+#   {{ NAME[page.extra.KEY] | default(value=page.extra.KEY2) }}   (override map with a plain-key fallback)
+# The last form is the map-with-default pattern Zola itself uses (templates/base.html:
+# `seo_wc[page.relative_path] | default(value=0)`): NAME[key] when the key is in the loaded map,
+# else page.extra.KEY2. Any other Tera is left as written, so the two-proof of a move fails and the
+# move is refused — ia_model stays a substituter, not a Tera interpreter.
 EA_CODE_PLACEHOLDER = "{{ page.extra.ea_code }}"   # back-compat alias; covered by the KEY form below
 _FM_SET = re.compile(r'\{%-\s*set\s+(\w+)\s*=\s*load_data\(\s*path\s*=\s*"([^"]+)"\s*\)\s*-%\}\s*')
 _FM_VAR = re.compile(r"\{\{\s*page\.extra\.(\w+)\s*\}\}")
 _FM_LOOKUP = re.compile(r"\{\{\s*(\w+)\[page\.extra\.(\w+)\](?:\.(\w+))?\s*\}\}")
+_FM_LOOKUP_DEFAULT = re.compile(
+    r"\{\{\s*(\w+)\[page\.extra\.(\w+)\]\s*\|\s*default\(\s*value\s*=\s*page\.extra\.(\w+)\s*\)\s*\}\}")
 
 
 def render_bounded(body: str, extra: dict) -> str:
-    """Render the two supported Tera forms with the page's [extra]; leave anything else as written
-    so a byte-exact proof over the result catches an unsupported partial."""
+    """Render the supported bounded Tera forms with the page's [extra]; leave anything else as
+    written so a byte-exact proof over the result catches an unsupported partial."""
     data = {}
 
     def _set(m: re.Match) -> str:
@@ -98,7 +103,16 @@ def render_bounded(body: str, extra: dict) -> str:
             return m.group(0)
         return str(v.get(m.group(3), m.group(0)) if m.group(3) else v)
 
+    def _lookup_default(m: re.Match) -> str:
+        # NAME[page.extra.KEY] | default(value=page.extra.KEY2): the override label when the key is
+        # in the map, else the plain page.extra.KEY2 — exactly Tera's default over a missing map key.
+        v = data.get(m.group(1), {}).get(str(extra.get(m.group(2), "")))
+        if v is None:
+            return str(extra.get(m.group(3), m.group(0)))
+        return str(v)
+
     body = _FM_SET.sub(_set, body)        # {%- set NAME = load_data(…) -%} (trim): render to nothing
+    body = _FM_LOOKUP_DEFAULT.sub(_lookup_default, body)  # {{ NAME[page.extra.KEY] | default(value=…) }}
     body = _FM_LOOKUP.sub(_lookup, body)  # {{ NAME[page.extra.KEY] }} / .field
     return _FM_VAR.sub(lambda m: str(extra.get(m.group(1), m.group(0))), body)  # {{ page.extra.KEY }}
 

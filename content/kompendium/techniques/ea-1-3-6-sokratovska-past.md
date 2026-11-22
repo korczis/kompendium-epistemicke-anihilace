@@ -14,6 +14,8 @@ related_terms = ["ea-1-2-4-argumentacni-oslabeni", "ea-1-2-1-falesne-dilema", "e
 ea_code = "EA-1.3.6"
 ea_category = "1. Akademické techniky"
 ea_subcategory = "1.3 Narušení procesů revize a falsifikace"
+ea_risk_text = "Střední; vysoká ve výuce, výcviku a duchovním vedení"
+ea_reversibility_text = "Vysoká, jakmile je vzorec pojmenován"
 parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
@@ -24,11 +26,7 @@ date_modified = "2026-11-10"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-1.3.6` |
-| **Kategorie** | 1. Akademické techniky |
-| **Subkategorie** | 1.3 Narušení procesů revize a [falsifikace](@/glossary/falsifikace.md) |
-| **Riziková úroveň** | Střední; vysoká ve výuce, výcviku a duchovním vedení |
-| **Reverzibilita** | Vysoká, jakmile je vzorec pojmenován |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [3.1 Akademické techniky intelektuální manipulace](@/kompendium/03-zakladni-kategorie/kapitola-1.md) |
 
 ## Definice

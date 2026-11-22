@@ -14,6 +14,8 @@ related_terms = ["ea-1-3-1-imunizace-proti-falsifikaci", "ea-1-3-2-strategicka-r
 ea_code = "EA-1.3.5"
 ea_category = "1. Akademické techniky"
 ea_subcategory = "1.3 Narušení procesů revize a falsifikace"
+ea_risk_text = "Vysoká u zdravotních a finančních rozhodnutí"
+ea_reversibility_text = "Vysoká u jednotlivce, nízká u rozšířeného narativu"
 parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
@@ -24,11 +26,7 @@ date_modified = "2026-11-10"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-1.3.5` |
-| **Kategorie** | 1. Akademické techniky |
-| **Subkategorie** | 1.3 Narušení procesů revize a [falsifikace](@/glossary/falsifikace.md) |
-| **Riziková úroveň** | Vysoká u zdravotních a finančních rozhodnutí |
-| **Reverzibilita** | Vysoká u jednotlivce, nízká u rozšířeného narativu |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [3.1 Akademické techniky intelektuální manipulace](@/kompendium/03-zakladni-kategorie/kapitola-1.md) |
 
 ## Definice

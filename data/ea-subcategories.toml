@@ -1,0 +1,15 @@
+# Optional display-label override for the Subkategorie row of the technique metadata table, keyed
+# by ea_subcategory. extra.ea_subcategory stays a PLAIN key (listings, filters and the graph read it
+# as a key); this file carries the rendered label only where it differs from the key — today, only
+# where a subcategory name links a glossary term and the owner's "everything is interlinked" rule
+# means the template must not drop that link. templates/partials/technique-meta.md renders
+#   {{ sub[page.extra.ea_subcategory] | default(value=page.extra.ea_subcategory) }}
+# so a subcategory with no entry here renders its plain key. The label is copied verbatim from the
+# page's current Subkategorie cell, so the move stays byte-exact; scripts/extract-metadata-table.py.
+#
+# A subcategory may be added here only when EVERY page carrying that ea_subcategory had this exact
+# cell: adding one relabels them all. "5.1 Epistemická singularita" is therefore NOT here — its
+# pages disagree (21 link the term, 9 do not); that is a content drift (the 9 should gain the link),
+# not a template override.
+
+"1.3 Narušení procesů revize a falsifikace" = "1.3 Narušení procesů revize a [falsifikace](@/glossary/falsifikace.md)"

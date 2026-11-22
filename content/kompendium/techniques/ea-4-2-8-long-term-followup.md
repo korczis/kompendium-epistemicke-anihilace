@@ -35,7 +35,7 @@ parent_chapter = "/kompendium/04-terminalni-protokoly/"
 
 **Long-term followup** představuje dlouhodobé sledování subjektu po ukončení protokolu s cílem detekovat opožděné nežádoucí účinky. V rámci kompendia je technika klasifikována jako **[terminální protokol](@/kompendium/04-terminalni-protokoly/_index.md)** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození.
 
-Tento článek **nemá operační charakter**: jeho účelem je výhradně defenzivní rozpoznání, detekce neúmyslné manifestace a supervidovaná intervence. Jakékoliv ofenzivní použití techniky je v rozporu s [doktrinou platformy](@/kompendium/02-doktrinalni-ramec/_index.md) a její aplikace bez doložitelného etického rámce je explicitně zakázána.
+{% include "partials/tento-clanek-nema-operacni-charakter.md" %}
 
 Mechanismus, kterým technika operuje uvnitř supervidovaného rámce, spočívá v: definovaný kalendář kontrolních setkání po delší dobu s validovanými diagnostickými nástroji (**délku sledování kniha neuvádí**: dřívější verze tu měla počet měsíců bez zdroje) a transparentní cestou pro mimořádné kontakty. Tento popis slouží jako referenční rámec pro detekci, nikoliv jako návod k provedení.
 
@@ -68,7 +68,7 @@ Kompendium neuvádí, kdy je dlouhodobé sledování po terminálním protokolu 
 
 ## Klinické markery (neúmyslná manifestace)
 
-Co může klinik nebo supervizor pozorovat, pokud se technika manifestuje mimo supervidovaný rámec — v důsledku patologické sociální struktury, kultovního prostředí, abusivního vztahu nebo neetické instituce:
+{% include "partials/co-muze-klinik-nebo-supervizor.md" %}
 
 | Marker | Indikuje |
 |--------|----------|
@@ -79,13 +79,13 @@ Co může klinik nebo supervizor pozorovat, pokud se technika manifestuje mimo s
 | [Sociální izolace](@/glossary/socialni-izolace.md) s jediným referenčním zdrojem autority | Strukturální rizikový kontext |
 | Časová dezorientace ve vztahu k vlastnímu životnímu příběhu | Indukovanou temporální disrupci |
 
-Detekce vyžaduje **[diferenciální diagnózu](@/glossary/diferencialni-diagnoza.md)** vůči primárním psychiatrickým stavům (disociativní poruchy, PTSD, psychotická spektra) a vůči [legitimní transformativní zkušenosti](@/glossary/transformative-experience.md).
+{% include "partials/detekce-vyzaduje-diferencialni-diagnozu-vuci.md" %}
 
 ## Klinické pozadí
 
 V kompendiu EA je tato technika vedena jako otázka odpovědnosti, která nekončí poslední návštěvou: co se o stavu účastníka dá zjistit až s odstupem a co už nelze doplnit zpětně, pokud mezitím zanikla cesta, kterou by se ozval sám.
 
-**Klinické zacílení**: etické rámce pre/inter/post-engagement supervize ve studiích s extrémní expozicí (forenzní psychiatry, vojenský výzkum, kult-deconstruction protokoly). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-eticke-ramce-pre.md" %}
 
 **Trauma spektrum kontext**: pro sledování s odstupem je rozhodující, zda šlo o jednorázovou ohraničenou traumatizaci, nebo o opakovanou relační expozici z dětství (Terr, 1991). U prvního profilu se opožděné zhoršení váže k jedné rozpoznatelné události; u druhého se ohlašuje jako pozvolná změna vztahu k sobě, kterou účastník sám s protokolem nespojí, a zpráva o tom, že je vše v pořádku, pak nic nevylučuje. Co z toho v jednotlivém případě vyplývá, neurčuje tato stránka, ale klinik, který sledování vede.
 

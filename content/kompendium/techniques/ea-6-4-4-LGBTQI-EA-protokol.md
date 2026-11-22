@@ -73,7 +73,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 Trans/non-binary specifika, intersekcionalita s rasou/náboženstvím.
 
-Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fenomenologii a strukturálních charakteristikách jednotlivých EA-domén a jsou klíčové pro klinickou účinnost intervence v cílové populaci.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-odrazeji.md" %}
 
 ## Iatrogenní rizika
 
@@ -85,7 +85,7 @@ Imposice terapeutovy queer-identity, premature outing, paradoxní reifikace 'que
 
 Klinické zařazení protokolu dává doložený zdroj zátěže: menšinový stres je popsán jako chronická zátěž vyplývající z postavení, ne z jednotlivé události (Meyer, 2003). Freyd (1996) k tomu připojuje poškození z porušení vztahu, na němž je člověk závislý — tedy i rodiny, která přijetí podmiňuje. Kompendium z obojího bere rozpoznání vzorce.
 
-**Klinické zacílení**: specializované populace s unikátním rizikovým profilem — pediatrická, geriatrická, post-cult, refugee, LGBTQI+, veteráni, oběti DV, policejní, zdravotnictví, novináři, aktivisté. Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-specializovane-populace-s.md" %}
 
 **Trauma spektrum kontext**: obraz, k němuž tento protokol míří, nevzniká jednou událostí, nýbrž trvalým postavením (Meyer, 2003); Terr (1991) takový případ odlišuje od jednorázové traumatické události a kniha z toho bere jediné — hledat u této populace jednu rozhodující epizodu je zavádějící. Nátlakové „konverzní“ praktiky se do rámce řadí jako opakovaná expozice, ne jako incident.
 
@@ -115,7 +115,7 @@ Druhou podmínkou je souhlas, který lze odvolat, aniž je odvolání vykládán
 
 Třetí podmínkou je dokumentace, kterou dotčený smí vidět, a cíl formulovaný jako jeho vlastní kapacita rozhodovat, komu a kdy se otevře. Poškození ze strany nejbližších, na nichž je člověk závislý, má přitom vlastní strukturu, k níž patří i to, že si zkušenost nelze vybavit (Freyd, 1996).
 
-Měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
+{% include "partials/meritko-stanovi-eticke-aspekty-a.md" %}
 
 ## Odlišení
 

@@ -53,13 +53,13 @@ U této stránky je vhodné přiznat, jak málo z uvedeného je o rozkladu manip
 
 Pokročilí trainees s pevně osvojenou taxonomií; supervizní kandidáti připravující se na analytické revize.
 
-Edukativní cíl není změna chování v behaviorálním smyslu, ale kultivace kompetencí umožňujících autonomní navigaci v epistemicky náročných kontextech. Cílová populace je primárně dospělí profesionálové s baseline metakognitivní stabilitou — technika není určena pro klinické intervence u aktivně dekompenzovaných jedinců.
+{% include "partials/edukativni-cil-neni-zmena-chovani.md" %}
 
 ## Předpoklady
 
 Plné osvojení taxonomie EA-1, EA-2, EA-5; dokončený recognition trénink.
 
-Bez splnění předpokladů technika produkuje suboptimální výsledky a může generovat iatrogenní efekty. Předpoklady nejsou byrokratické formality, ale strukturální podmínky efektivity intervence.
+{% include "partials/bez-splneni-predpokladu-technika-produkuje.md" %}
 
 ## Implementační protokol
 
@@ -82,7 +82,7 @@ Implementace je iterativní — každý cyklus generuje data informující úpra
 | Coverage | >80 % autentických technik identifikováno |
 | Composition fidelity | Správně identifikované sekvenční vzorce
 
-Evaluace integruje kvantitativní (validované instrumenty) i kvalitativní (reflektivní eseje, ethnographic observation) datové zdroje. Žádná samostatná metrika není dostatečná — multidimenzionální evaluace je nezbytná.
+{% include "partials/evaluace-integruje-kvantitativni-validovane-instrumenty.md" %}
 
 Shoda mezi analytiky nedokládá, že je rozklad správný. Může znamenat také to, že se analytici učili z téhož kurikula a sdílejí jeho schéma: Chi, Feltovich a Glaser (1981) vztahují způsob třídění k uspořádání znalostí u třídícího, takže souhlasný rozbor je nejprve údajem o společném výcviku a teprve potom o materiálu. Dále nedokládá nic o epizodě samé — rozbor pracuje se záznamem, a záznam není epizodou; chybí v něm vše, co nebylo zapsáno, a zapsáno bývá to, co už někomu připadalo významné. Nejméně ze všeho pojmenování složek dokládá něco o lidech v epizodě: určená technika je popisem tvaru jednání, nikoli zjištěním o záměru toho, kdo jednal, a ani opakovaný výskyt téhož tvaru u jedné osoby tento krok neopravňuje. A konečně, zdatnost v rozkladu po čase nedokládá rozpoznání v čase: Klein (1998) popisuje rozhodování praktiků za nedostatku informací a pod tlakem, tedy přesně za podmínek, které drill záměrně odstraňuje, aby se dal rozbor vůbec vést.
 
@@ -105,7 +105,7 @@ Od [EA-3.1.6 Recognition trénink](@/kompendium/techniques/ea-3-1-6-recognition-
 
 ### Sourozenecké techniky (3.1 Kurikulární techniky)
 
-Technika je integrální součástí subkategorie 3.1 a je navržena pro synergickou implementaci s ostatními sourozeneckými technikami:
+{% include "partials/technika-je-integralni-soucasti-subkategorie.md" %}
 
   - [EA-3.1.1 Graduální expozice design](@/kompendium/techniques/ea-3-1-1-graduated-exposure-design.md)
   - [EA-3.1.2 Experienciální scaffolding](@/kompendium/techniques/ea-3-1-2-experiential-scaffolding.md)

@@ -73,7 +73,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 EA-1.4 paralingvistické: korelace fyziologie s prozodickými markery. Po odchodu ze sektářské skupiny: monitoring při expozici fotografiím skupiny. EA-6.5 krizové: bedside monitoring v akutní stabilizaci.
 
-Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fenomenologii a strukturálních charakteristikách jednotlivých EA-domén a jsou klíčové pro klinickou účinnost intervence v cílové populaci.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-odrazeji.md" %}
 
 ## Iatrogenní rizika
 
@@ -85,7 +85,7 @@ Falešně pozitivní aktivace u zdravotně-úzkostných klientů, technicky-indu
 
 EA-6.1.6 je v kompendiu vedena jako objektivizující doplněk klinického rozhovoru, ne jako jeho nahrazení.
 
-**Klinické zacílení**: klinický assessment epistemicko-afektivního traumatu po manipulativní expozici (kult, abusivní vztah, koercivní pracoviště, post-divorce DARVO dynamics). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-klinicky-assessment-epistemicko.md" %}
 
 **Klinická tradice ukotvení**: *interpretace knihy* — který přístroj je v daném zdravotnictví vůbec dostupný a jaká hodnota se v něm považuje za normu, rozhoduje o tom, co z fyziologického měření vyjde. Doporučené postupy pro posttraumatickou stresovou poruchu kladou trauma-fokusovanou psychologickou terapii před ostatní intervence (National Institute for Health and Care Excellence, 2018); kompendium z toho čte, že přejatý [evidence-based](@/glossary/evidence-based.md) měřicí protokol se zdejší praxi přizpůsobuje, ne naopak.
 
@@ -121,7 +121,7 @@ Třetím znakem je, komu záznam patří. Tělesná stopa zátěže se vrací vy
 
 Čtvrtým znakem je zařazení do klinického rámce. Doporučované postupy u posttraumatické symptomatologie jsou psychologické intervence; fyziologické měření je jejich doplňkem, ne diagnostickým testem, který by je nahradil (NICE, 2018).
 
-Rámec stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
+{% include "partials/ramec-stanovi-eticke-aspekty-a.md" %}
 
 *Interpretace knihy*: křivka ukazuje míru zátěže, nikoli to, kdo má pravdu.
 

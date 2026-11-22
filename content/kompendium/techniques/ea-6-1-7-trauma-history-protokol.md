@@ -73,7 +73,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 Po odchodu ze sektářské skupiny: detailní mapování in/out group fází. [Delegitimizace](@/glossary/delegitimizace.md) ve škole a v práci (EA-2): dokumentace školního/pracovního bullyingu. EA-6.4 vulnerabilní: kulturně senzitivní úprava terminologie.
 
-Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fenomenologii a strukturálních charakteristikách jednotlivých EA-domén a jsou klíčové pro klinickou účinnost intervence v cílové populaci.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-odrazeji.md" %}
 
 ## Iatrogenní rizika
 
@@ -85,7 +85,7 @@ Re-traumatizace při forsírovaném tempu, falešné vzpomínky při sugestibiln
 
 Tato stránka vede techniku **EA-6.1.7** jako strukturované odebrání anamnézy, jehož předmětem je sled událostí a vztahů, v nichž k poškození došlo. Odlišení EA-traumatu od primárních afektivních a úzkostných poruch je přitom úkolem klinického posouzení; anamnéza je jeho podkladem.
 
-**Klinické zacílení**: klinický assessment epistemicko-afektivního traumatu po manipulativní expozici (kult, abusivní vztah, koercivní pracoviště, post-divorce DARVO dynamics). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-klinicky-assessment-epistemicko.md" %}
 
 **Trauma spektrum kontext**: rozlišení jednorázové události a opakované relační expozice pochází od Terr (1991). Při odebírání anamnézy se rozdíl ukáže na tvaru vyprávění: ohraničený děj lze datovat, dlouhodobá expozice v dětství se vybavuje jako prostředí bez začátku. Kniha z toho nevyvozuje postup; rozsah a tempo odebírání patří klinikovi a jeho supervizi (Herman, 1992).
 
@@ -117,7 +117,7 @@ Třetím znakem je zacházení s mezerami. Nepřístupnost vzpomínky na to, co 
 
 Čtvrtým znakem je rámec, do něhož se nález zasazuje. Mezinárodní klasifikace a k ní vázané nástroje popisují, co kumulativní traumatizace znamená klinicky, takže anamnéza není volným vyprávěním bez měřítka (Cloitre a kol., 2018).
 
-Rámec stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
+{% include "partials/ramec-stanovi-eticke-aspekty-a.md" %}
 
 *Interpretace knihy*: anamnéza má člověku vrátit jeho vlastní časovou osu, ne ji za něj napsat.
 

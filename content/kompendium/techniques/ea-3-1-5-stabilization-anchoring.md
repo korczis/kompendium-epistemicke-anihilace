@@ -53,13 +53,13 @@ Rozvrstvení zdrojů je u této stránky podstatné, protože se v ní potkává
 
 Všichni účastníci po expozičních modulech; intenzivnější protokol pro účastníky se zvýšenou bazální aktivací.
 
-Edukativní cíl není změna chování v behaviorálním smyslu, ale kultivace kompetencí umožňujících autonomní navigaci v epistemicky náročných kontextech. Cílová populace je primárně dospělí profesionálové s baseline metakognitivní stabilitou — technika není určena pro klinické intervence u aktivně dekompenzovaných jedinců.
+{% include "partials/edukativni-cil-neni-zmena-chovani.md" %}
 
 ## Předpoklady
 
 Dokončený trénink polyvagálních regulačních dovedností; identifikovány osobní kotvy v pre-program intake.
 
-Bez splnění předpokladů technika produkuje suboptimální výsledky a může generovat iatrogenní efekty. Předpoklady nejsou byrokratické formality, ale strukturální podmínky efektivity intervence.
+{% include "partials/bez-splneni-predpokladu-technika-produkuje.md" %}
 
 ## Implementační protokol
 
@@ -82,7 +82,7 @@ Implementace je iterativní — každý cyklus generuje data informující úpra
 | Identity stability | Konzistentní self-narrative pre/post |
 | No carry-over | Žádné perzistentní intruze >48h
 
-Evaluace integruje kvantitativní (validované instrumenty) i kvalitativní (reflektivní eseje, ethnographic observation) datové zdroje. Žádná samostatná metrika není dostatečná — multidimenzionální evaluace je nezbytná.
+{% include "partials/evaluace-integruje-kvantitativni-validovane-instrumenty.md" %}
 
 Zdařilé kotvení nedokládá, že expozice byla neškodná. Dokládá nejvýš, že se účastník po ní vrátil do svého obvyklého stavu v prostředí, kde byla pomoc po ruce — nikoli že by se vrátil i tam, kde po ruce není, a už vůbec ne že by obsah, s nímž se setkal, přestal působit. Nedokládá ani osvojenou schopnost: návrat uskutečněný za přítomnosti skupiny a vedoucího není totéž co regulace vlastními prostředky, a Ogden, Minton a Pain (2006) právě proto umisťují tělesnou část práce před výklad, nikoli za něj. Vlastní hlášení přitom nese známý směr chyby, který u této techniky váží nejvíc ze všech: Lindahl a kol. (2017) ukázali, že obtíže bývají přerámovány jako znak hloubky, takže uvedený klid je slabším údajem než spánek, soustředění a chování mimo výuku. A konečně — účastník, který se dobře ukotví, tím nedokládá kompetenci kotvení vést; schopnost vrátit se do svého stavu je něco jiného než schopnost rozpoznat, že se do něj někdo jiný nevrací.
 
@@ -105,7 +105,7 @@ Od [EA-3.2.3 Mistrovství emoční regulace](@/kompendium/techniques/ea-3-2-3-em
 
 ### Sourozenecké techniky (3.1 Kurikulární techniky)
 
-Technika je integrální součástí subkategorie 3.1 a je navržena pro synergickou implementaci s ostatními sourozeneckými technikami:
+{% include "partials/technika-je-integralni-soucasti-subkategorie.md" %}
 
   - [EA-3.1.1 Graduální expozice design](@/kompendium/techniques/ea-3-1-1-graduated-exposure-design.md)
   - [EA-3.1.2 Experienciální scaffolding](@/kompendium/techniques/ea-3-1-2-experiential-scaffolding.md)

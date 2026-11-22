@@ -57,7 +57,7 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 ## Trvání a frekvence
 
-Kompendium pro tuto fázi neuvádí normu délky ani počtu sezení. Herman (1992) popisuje zotavení jako sled fází, které se opakovaně vracejí a prolínají; tempo se odvozuje od obnovené kapacity člověka, nikoli z rozvrhu. Údaje o délce a frekvenci patří do manuálu použité modality a do supervizního záznamu konkrétního případu.
+{% include "partials/kompendium-pro-tuto-fazi-neuvadi.md" %}
 
 ## Hodnotící kritéria
 
@@ -73,7 +73,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 Univerzální napříč EA-6.4 populacemi.
 
-Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fenomenologii a strukturálních charakteristikách jednotlivých EA-domén a jsou klíčové pro klinickou účinnost intervence v cílové populaci.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-odrazeji.md" %}
 
 ## Iatrogenní rizika
 
@@ -85,7 +85,7 @@ Spirituální by-passing, premature meaning-making, paradoxní pasivita 'všechn
 
 EA-6.3.10 je v kompendiu vedena jako cílový stav rekonstrukce, nikoli jako samostatné sezení.
 
-**Klinické zacílení**: fázový rekonstrukční rámec pro post-EA-trauma populaci s důrazem na bezpečí, externalizaci, integraci a konsolidaci nového epistemicko-afektivního architektury klienta. Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-fazovy-rekonstrukcni-ramec.md" %}
 
 **Trauma spektrum kontext**: po jedné ohraničené události zůstává srozumitelnost světa zasažena zpravidla bodově, zatímco po opakované expozici trvající roky chybí sám předpoklad, že svět je srozumitelný a zvládnutelný. Rozdíl mezi jednorázovou a opakovanou traumatizací popsala Terr (1991); Antonovsky (1987) pojímá smysl pro soudržnost jako dispozici utvářenou dlouhodobě, a ne jednou příhodou. Kam na této škále člověk patří, rozhoduje o tom, co se zde vlastně obnovuje.
 
@@ -135,7 +135,7 @@ Práce se soudržností je péčí tehdy, když zůstává u dotčeného člově
 
 Druhým znakem je, že se nepředchází pořadí: otázka smyslu se otevírá až tam, kde je obnoveno bezpečí a opora. Herman (1992) klade tuto otázku do závěrečné fáze zotavení právě proto, že dřív slouží spíš potřebě okolí mít věc uzavřenou.
 
-Třetím znakem je odvolatelný souhlas, supervizní rámec a dokumentace, do níž smí dotčený člověk nahlédnout; měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
+{% include "partials/tretim-znakem-je-odvolatelny-souhlas.md" %}
 
 Čtvrtým znakem je, že se soudržnost neposuzuje dotazníkem jako cíl práce. Antonovsky (1987) ji zavádí jako obecnou orientaci utvářenou dostupnými zdroji; skóre je jejím ukazatelem, ne předmětem, k němuž by bylo možné člověka dovést.
 

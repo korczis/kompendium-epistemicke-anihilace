@@ -73,7 +73,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 Active duty — confidentiality + fitness-for-duty. Retired — identity transition.
 
-Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fenomenologii a strukturálních charakteristikách jednotlivých EA-domén a jsou klíčové pro klinickou účinnost intervence v cílové populaci.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-odrazeji.md" %}
 
 ## Iatrogenní rizika
 
@@ -85,7 +85,7 @@ Stigma vyhledání pomoci, fitness-for-duty důsledky odhalení, paradoxní hype
 
 Kniha zaznamenává techniku **EA-6.4.7** jako adaptaci pro příslušníky bezpečnostních složek, u nichž expozice patří k výkonu služby. Vlastní literatura oblasti popisuje zvláštní rizikový profil takové opakované zátěže (Figley, 1995); co z toho pro konkrétního člověka vyplývá, posuzuje klinik, nikoli tato stránka.
 
-**Klinické zacílení**: specializované populace s unikátním rizikovým profilem — pediatrická, geriatrická, post-cult, refugee, LGBTQI+, veteráni, oběti DV, policejní, zdravotnictví, novináři, aktivisté. Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-specializovane-populace-s.md" %}
 
 **Trauma spektrum kontext**: Terr (1991) odlišila trauma po jediné události od traumatu z opakované expozice. Ve službě je obvyklá druhá podoba: zátěž se sčítá po letech a jednotlivou událost z ní nelze vyjmout jako příčinu. Morální poranění je u této populace popsáno samostatně (Litz a kol., 2009) a jeho klinické vedení zůstává rozhodnutím indikujícího klinika.
 

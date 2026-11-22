@@ -73,7 +73,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 EA-5 epistemické: primární cílová populace. EA-1 akademické: zaměření na akademický confidence calibration. EA-3 sektářské: detekce postcult metakognitivní paralýzy.
 
-Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fenomenologii a strukturálních charakteristikách jednotlivých EA-domén a jsou klíčové pro klinickou účinnost intervence v cílové populaci.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-odrazeji.md" %}
 
 ## Iatrogenní rizika
 
@@ -85,7 +85,7 @@ Falešně pozitivní deficity u alexithymických klientů, kulturní bias v kali
 
 Klinický kontext této techniky dává metakognice sama: sledování a hodnocení vlastního poznávání je popsaná funkce, kterou lze narušit nezávisle na obsahu myšlení (Flavell, 1979). Wells (2009) k ní připojuje klinický model, v němž jsou předmětem práce přesvědčení o myšlení, nikoli jeho jednotlivé obsahy. Assessment z toho bere, co je zjistitelné, ne co se s tím má dělat.
 
-**Klinické zacílení**: klinický assessment epistemicko-afektivního traumatu po manipulativní expozici (kult, abusivní vztah, koercivní pracoviště, post-divorce DARVO dynamics). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-klinicky-assessment-epistemicko.md" %}
 
 **Trauma spektrum kontext**: typologie traumatických událostí sem nepatří, protože zjišťovaným předmětem není událost, nýbrž funkce. Kruger a Dunning (1999) ukazují, že odhad vlastní kompetence selhává i bez jakékoli expozice; výsledek měření proto nelze zpětně vykládat jako doklad o tom, co se člověku stalo. Anamnéza zůstává samostatným zdrojem a tato stránka ji nenahrazuje.
 
@@ -113,15 +113,7 @@ Posuzování metakognice probíhá v různých uspořádáních. Jejich výčet 
 
 Kvantifikaci výkonu a jeho srovnání s normou ponechává kniha manuálu nástroje a supervizi.
 
-Video-mediovaná varianta se rozšířila v době pandemických omezení a pro část populace je dostupnou alternativou. U aktivní disociativní symptomatologie zachovává osobní setkání klinickou výhodu, protože regulaci nese fyzická přítomnost druhého člověka (van der Kolk, 2014).
-
-Skupinový formát přidává vrstvu vzájemného svědectví, kterou individuální setkání nemá. Zároveň je nevhodný tam, kde je obraz nestabilní nebo kde by skupina reprodukovala tlak, z něhož člověk vyšel, včetně nadřazení společné doktríny jednotlivci (Lifton, 1961).
-
-Zkrácená varianta se zvažuje u jednorázové expozice s dostupnou podpůrnou sítí. U chronické relační traumatizace je zkrácení stabilizační fáze dokumentovanou cestou k iatrogennímu zhoršení, a to i u postupu zamýšleného jako pomoc (Lilienfeld, 2007).
-
-Kulturně citlivá adaptace se netýká jen jazyka. Středoevropský kontext nese zkušenost institucionálního násilí a mezigenerační přenos, které mění, co je pro člověka autoritou a co pokládá za bezpečné vyslovit (Herman, 1992).
-
-Krizová varianta posiluje stabilizační složku na úkor expoziční. Návrat ke standardnímu postupu je vázán na klinické posouzení a na obnovené bezpečí, protože bezpečí předchází práci s obsahem, nikoli naopak (Herman, 1992).
+{% include "partials/video-mediovana-varianta-se-rozsirila.md" %}
 
 ## Kdy je rámec legitimní
 
@@ -133,7 +125,7 @@ Třetím znakem je supervizní rámec. Kalibrační úlohy člověka konfrontuj�
 
 Čtvrtým znakem je míra, nakolik se pozornost k vlastnímu myšlení stává tématem. Soustavné sledování vlastních myšlenek dokáže potíže udržovat, takže vyšetření má svůj vlastní nežádoucí účinek, s nímž je nutné počítat (Wells, 2009).
 
-Rámec stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
+{% include "partials/ramec-stanovi-eticke-aspekty-a.md" %}
 
 *Interpretace knihy*: nálezem není nejistota, ale ztráta možnosti nejistotu vyhodnotit.
 

@@ -116,8 +116,7 @@ V následující [Kapitole 10](@/kompendium/05-ultramari-techniky/kapitola-10.md
 
 ## Kritický krok
 
-**Ultramární techniky jsou L3 (omezený přístup)**: nejsou určeny k
-obecnému studiu. Před četbou potvrď, že:
+{% include "partials/ultramarni-techniky-jsou-l3-omezeny.md" %}
 
 - Máš kvalifikovanou supervizní vazbu (klinickou nebo doktrinální)
 - Máš dokumentovaný důvod ke studiu konkrétní techniky (forenzní analýza,

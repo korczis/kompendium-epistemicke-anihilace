@@ -55,11 +55,11 @@ Vlastní literatura přístupu popisuje jeho skladbu následujícími komponenta
 
 (1) Externalizace problému (problem is the problem, not the person). (2) Dekonstrukce dominantního narativu (typicky cult/abuser-story). (3) Identifikace unique outcomes (sparkling moments). (4) Thickening alternative story. (5) Re-authoring identity. (6) Outsider witness ceremonies. (7) Therapeutic letters.
 
-Výčet je popisem toho, z čeho se přístup skládá, nikoli pokynem k provedení: o indikaci, sledu a ukončení rozhoduje kvalifikovaný klinik ve supervizi a záznam zůstává součástí zdravotnické dokumentace, do níž má dotčený člověk přístup ([etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md)).
+{% include "partials/vycet-je-popisem-toho-z.md" %}
 
 ## Trvání a frekvence
 
-Délka a frekvence nejsou vlastností techniky, ale rozhodnutím v jednotlivém případě: závisejí na klinickém obrazu, komorbiditách a na tom, co dotčený člověk unese. Pro komplexní traumatizaci popisuje literatura delší a fázovanou trajektorii než pro jednorázovou událost (Herman, 1992). Kniha proto žádný počet sezení ani interval neuvádí — kvantifikace patří do manuálu použitého přístupu a do supervize, nikoli do taxonomie.
+{% include "partials/delka-a-frekvence-nejsou-vlastnosti.md" %}
 
 ## Hodnotící kritéria
 
@@ -67,7 +67,7 @@ Klinické sledování průběhu se v literatuře přístupu opírá o následuj�
 
 NCS (Narrative Coherence Scale) zlepšení, klientův [self-report](@/glossary/self-report.md) agency, re-emergence pre-trauma identity markerů.
 
-Opakovaná administrace standardizovaných nástrojů poskytuje podklad pro klinické rozhodování o pokračování, modifikaci nebo ukončení intervence. Prahy klinicky významné změny stanoví manuál použitého nástroje; jediné obecně publikované kritérium, které tato kniha přebírá, je reliable change index nad 1,96 a výsledný skór v rozsahu jedné SD netraumatizované normy (Jacobson a Truax, 1991).
+{% include "partials/opakovana-administrace-standardizovanych-nastroju-poskytuje.md" %}
 
 ## Adaptace pro specifické EA kategorie
 
@@ -75,7 +75,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 Po odchodu ze sektářské skupiny: dekonstrukce in-cult narrative. [EA-6.4.4](@/kompendium/techniques/ea-6-4-4-LGBTQI-EA-protokol.md) LGBTQI: dekonstrukce internalizované homofobie. [EA-6.4.10](@/kompendium/techniques/ea-6-4-10-aktivisti-protokol.md) aktivisti: re-authoring after burnout.
 
-Tyto adaptace nejsou ornamentální. Kniha je zaznamenává proto, že se s nimi mění rizikový profil, nikoli jako doporučení.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-kniha.md" %}
 
 ## Iatrogenní rizika
 
@@ -87,7 +87,7 @@ Re-traumatizace při dekonstrukci centrálního narativu, identity diffusion př
 
 Kompendium vede techniku **EA-6.2.5** jako narativní práci s cizím příběhem, který expozice vnutila; zda v konkrétním případě pomůže, posuzuje klinik, ne tato stránka.
 
-**Klinické zacílení**: [evidence-based](@/glossary/evidence-based.md) psychoterapeutické intervence pro EA-trauma se sekundární komorbiditou ([úzkostné poruchy](@/glossary/uzkostne-poruchy.md), depresivní poruchy, somatizace, disociativní spektrum). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-evidence-based-psychoterapeuticke.md" %}
 
 **Trauma spektrum kontext**: u jedné ohraničené události a u opakované relační expozice v dětství se liší nejen obraz, ale i to, kolik příběhu o sobě člověk vůbec má; obě kategorie zavedla Terr (1991). Pro druhý profil popisuje Herman (1992) zotavení jako práci o více fázích, a kde se rozdíl přehlíží, patří zhoršení místo zlepšení k doloženým možnostem (Lilienfeld, 2007). Rozhodnutí o tempu re-authoringu proto zůstává na klinikovi a jeho supervizi.
 

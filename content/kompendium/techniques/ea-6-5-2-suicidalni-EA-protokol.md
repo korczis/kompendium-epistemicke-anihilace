@@ -65,7 +65,7 @@ Klinická efektivita techniky je posuzována podle následujících outcome metr
 
 C-SSRS redukce, safety plan adherence, redukce attempt rate.
 
-Pre-post administrace standardizovaných nástrojů poskytuje kvantitativní podklad pro klinické rozhodování o pokračování, modifikaci nebo ukončení intervence.
+{% include "partials/pre-post-administrace-standardizovanych-nastroju.md" %}
 
 ## Adaptace pro specifické EA kategorie
 
@@ -73,7 +73,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 Veteráni — VA crisis line. LGBTQI — Trevor Project. Post-cult — specifický risk.
 
-Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fenomenologii a strukturálních charakteristikách jednotlivých EA-domén a jsou klíčové pro klinickou účinnost intervence v cílové populaci.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-odrazeji.md" %}
 
 ## Iatrogenní rizika
 
@@ -85,7 +85,7 @@ Hospitalizace bez consent, paradoxní zvýšení rizika diskuzí, premature term
 
 Tato stránka vede techniku **EA-6.5.2** jako akutní stabilizaci u člověka s aktivní sebevražednou symptomatikou a jako popis přechodu do ambulantní péče. Strukturovaný rámec takové práce popisuje vlastní literatura oblasti (Jobes, 2016); rozhodnutí o místě a intenzitě péče zůstává klinické.
 
-**Klinické zacílení**: akutní a vysokointenzivní klinické setting (ER, akutní krize, inpatient, partial hospitalization, day program, residential) pro pacienty s aktivní EA-symptomatologií vyžadující stabilizaci. Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-akutni-a-vysokointenzivni.md" %}
 
 **Trauma spektrum kontext**: Terr (1991) rozlišila trauma po jediné události a trauma z dlouhodobé relační expozice. V krizové situaci je rozdíl podstatný proto, že u druhého typu nebývá rozpoznatelný spouštěč a stav se nedá vyložit jako reakce na jednu okolnost. Delší a fázovaná cesta zotavení je u něj popsána samostatně (Herman, 1992).
 

@@ -35,21 +35,19 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 **Aplikace paradoxu dědečka** je paradoxální metaanihilační protokol, jehož operační jádro tvoří kauzální paradox: subjekt by zničil samotnou možnost svého rozhodnutí, kdyby udělal to, co se rozhoduje udělat. Technika patří do subkategorie 5.4 Paradoxální metaanihilační protokoly — třídy ultramárních postupů, které využívají strukturální paradoxy v subjektově sebehodnotícím aparátu k destabilizaci samotného procesu, jímž subjekt rozlišuje, co je správné, pravdivé, vlastní a smysluplné.
 
-Na rozdíl od technik **[epistemické singularity](@/glossary/epistemicka-singularita.md)** ([5.1](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md)), které pohlcují obsahy poznání, a technik **[metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md)** ([5.2](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md)), které manipulují s podmínkami možnosti poznání, paradoxální protokoly zasahují formální infrastrukturu posuzování. Subjekt nedokáže paradoxnost obejít vyšší úrovní reflexe, protože každá vyšší úroveň je sama postižena strukturálně analogickou paradoxií. Vzniká **kognitivní past s rekurzivně reprodukovaným zámkem**: čím více se subjekt snaží uniknout, tím pevněji je v pasti uvězněn.
+{% include "partials/na-rozdil-od-technik-epistemicke.md" %}
 
-Technika je strukturálně blízká [kognitivní anti-rekurzivitě](@/glossary/kognitivni-anti-rekurzivita.md), ale operuje uvnitř klasické formální logiky — využívá nikoli antitetické, nýbrž *ortodoxní* paradoxy klasické tradice (Russell, 1908; Tarski, 1944; Gödel, 1931; Wittgenstein, 1953) a aplikuje je na fenomenologickou rovinu sebezakoušení. Klíčový rys: paradox není argumentován, je *zažíván*.
+{% include "partials/technika-je-strukturalne-blizka-kognitivni-anti.md" %}
 
 ## Struktura vzorce
 
-Paradoxální metaanihilační protokol se pozorovateli neohlašuje jako událost, nýbrž jako proměna toho, co člověk dokáže o sobě vypovědět. Prostředí působí zvenčí legitimně — filozofický seminář, hluboký rozhovor, terapeutické nebo mystagogické vedení — a vzorec bývá rozpoznán až zpětně, podle toho, co z repertoáru zasaženého ubylo. Lifton (1961) popsal takové uspořádání jako prostředí, které si samo obstarává potvrzení, protože výklad a autorita, jež jej vydává, v něm splývají.
+{% include "partials/paradoxalni-metaanihilacni-protokol-se-pozorovateli.md" %}
 
 Jádrem, o němž zasažení lidé referují, je uspořádání voleb, v němž každá volba ruší samotného volícího jako jejího původce. Rozhodující není obsah této teze, nýbrž její postavení: nebyla jim předložena jako technický problém, s nímž lze zacházet metalogicky, ale jako fakt o jejich vlastní mysli. Tarski (1944) ukázal, že sebereferenční paradox se rozpadá při důsledném oddělení objektového jazyka a metajazyka; v popisovaném vzorci je tato cesta uzavřena, protože každý pokus o posun na vyšší úroveň bývá vykládán jako další výskyt téhož paradoxu.
 
 Zasažení dále popisují, že se paradox přesunul z roviny přemýšleného problému do roviny zakoušeného stavu: rozhodnutí se stává nedostupným, protože podle předloženého výkladu ničí předpoklady svého vzniku. Bateson a kol. (1956) popsali komunikační uspořádání, v němž žádná odpověď není přípustná a odstup od situace je současně znemožněn; projevy, které tato stránka uvádí mezi fenomenologickými znaky — stálé napětí bez konkrétního předmětu, logofobie, rezignace na meta-úroveň — odpovídají této struktuře.
 
-V konsolidované podobě je vzorec rozpoznatelný podle znaků uvedených mezi detekčními markery: stáze před jednoduchým hodnotícím soudem, řeč bez jasné pravdivostní hodnoty a dotazy na věci, které člověk dříve řešil sám. Stark (2007) popisuje tuto podobu závislosti jako důsledek odebrané rozhodovací kompetence, nikoli jako povahový rys zasaženého. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
-
-*Interpretace knihy*: rozlišujícím znakem zůstává to, co po setkání s paradoxem zbude — pojmová jemnost, nebo evaluativní paralýza.
+{% include "partials/v-konsolidovane-podobe-je-vzorec.md" %}
 
 ## Fenomenologické znaky
 
@@ -76,7 +74,7 @@ Co prožívá subjekt uvnitř paradoxálního metaanihilačního protokolu:
 
 ### Diferenciální detekce
 
-Odlišení od legitimní filozofické práce s paradoxem vede přes to, co po zkoumání zbude. Legitimní práce zachovává rozdíl mezi zkoumaným paradoxem a tím, kdo jej zkoumá, a zkoumající se k vlastnímu úsudku vrací s větší pojmovou jemností. V manipulační aplikaci je tento rozdíl zrušen: člověk je s paradoxem ztotožněn a z procesu vychází evaluativně paralyzován. Kramer a Alstad (1993) popisují tentýž posun jako přenesení epistemické váhy z argumentu na zkušenost a na autoritu, která za ni ručí.
+{% include "partials/odliseni-od-legitimni-filozoficke-prace.md" %}
 
 ## Rizikové kontexty
 
@@ -92,7 +90,7 @@ Odlišení od legitimní filozofické práce s paradoxem vede přes to, co po zk
 
 ### Individuální
 
-Zotavení, jak je popisováno v klinických a supervizních záznamech, postupuje po několika souběžných liniích. První je výslovné oddělení objektového jazyka od metajazyka: Tarski (1944) ukázal, že sebereferenční paradox se rozpadá, jakmile se obě roviny přestanou mísit, a obnova této distinkce bývá prvním místem, kde zasažený člověk znovu dokáže vynést soud. Druhou je pragmatický [redukcionismus](@/glossary/redukcionismus.md) — přijetí, že některé výroky nemají pravdivostní hodnotu v klasickém smyslu, nýbrž jsou tahy v jazykové hře (Wittgenstein, 1953); paradox v nich pak není kognitivní pohromou.
+{% include "partials/zotaveni-jak-je-popisovano-v.md" %}
 
 Třetí linií je vnější epistemický audit, tedy kolega s metalogickou výbavou, s nímž zasažený projde konkrétní paradox a uvidí únik předvedený na něm; čtvrtou je návrat k přímému zakoušení bez sebepredikace. Herman (1992) popisuje zotavení z koercivních vztahů jako obnovu vlastního soudu ve vztahu, v němž je bezpečné se mýlit — zde se jako užitečné ukazuje rozlišení modální a aktuální kauzality, jak je v debatě o cestování časem vede Lewis (1976).
 

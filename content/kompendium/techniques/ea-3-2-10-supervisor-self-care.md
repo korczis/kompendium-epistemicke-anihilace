@@ -53,13 +53,13 @@ Je třeba rozlišit, co je zde doloženo a co je čtením knihy. Trojsložkový 
 
 Všichni certifikovaní supervizoři; institucionální leadership zodpovědný za supervizorskou kapacitu.
 
-Edukativní cíl není změna chování v behaviorálním smyslu, ale kultivace kompetencí umožňujících autonomní navigaci v epistemicky náročných kontextech. Cílová populace je primárně dospělí profesionálové s baseline metakognitivní stabilitou — technika není určena pro klinické intervence u aktivně dekompenzovaných jedinců.
+{% include "partials/edukativni-cil-neni-zmena-chovani.md" %}
 
 ## Předpoklady
 
 Certifikace supervizora; identifikované osobní self-care praxe; institutional benefits framework.
 
-Bez splnění předpokladů technika produkuje suboptimální výsledky a může generovat iatrogenní efekty. Předpoklady nejsou byrokratické formality, ale strukturální podmínky efektivity intervence.
+{% include "partials/bez-splneni-predpokladu-technika-produkuje.md" %}
 
 ## Implementační protokol
 
@@ -82,7 +82,7 @@ Implementace je iterativní — každý cyklus generuje data informující úpra
 | MBI scores | Emoční vyčerpání < klinický cutoff |
 | Sabbatical utilization | 100 % využití dostupných dnů
 
-Evaluace integruje kvantitativní (validované instrumenty) i kvalitativní (reflektivní eseje, ethnographic observation) datové zdroje. Žádná samostatná metrika není dostatečná — multidimenzionální evaluace je nezbytná.
+{% include "partials/evaluace-integruje-kvantitativni-validovane-instrumenty.md" %}
 
 Dodržovaný plán sebepéče nedokládá, že je supervizor způsobilý supervidovat. Maslach a Leiter (2016) vztahují vyhoření k uspořádání práce — jejímu množství, míře vlastního rozhodování a spravedlnosti prostředí —, takže osobní praxe nedokládá nic o tom, zda se tyto podmínky změnily; může naopak znamenat, že jednotlivec nese náklad, který nese instituce jen podle názvu. Nepřítomnost vyčerpání dále nedokládá nepřítomnost odstupu: složky vyhoření nejsou u týchž autorů zaměnitelné a v supervizi se ta druhá projevuje dřív, takže supervizor může být odpočatý a přesto už nezvídavý. Vlastní dobrý stav nedokládá ani nic o supervidovaných; Falender a Shafranske (2004) kladou průkaz supervizní kompetence do práce, která z supervize vychází, nikoli do stavů toho, kdo ji vede. A konečně, sdělení o vlastním stavu je u této techniky zatíženo postavením mluvčího: supervizor je zároveň tím, kdo je hodnocen z hlediska kapacity, takže jeho ujištění o dobré formě je výpovědí pořízenou v nerovném vztahu, nikoli měřením.
 
@@ -105,7 +105,7 @@ Od [EA-3.2.3 Mistrovství emoční regulace](@/kompendium/techniques/ea-3-2-3-em
 
 ### Sourozenecké techniky (3.2 Supervizorské techniky)
 
-Technika je integrální součástí subkategorie 3.2 a je navržena pro synergickou implementaci s ostatními sourozeneckými technikami:
+{% include "partials/technika-je-integralni-soucasti-subkategorie-3.md" %}
 
   - [EA-3.2.1 Supervizorská certifikace](@/kompendium/techniques/ea-3-2-1-supervisor-certification.md)
   - [EA-3.2.2 Multiparadigmatická fluence](@/kompendium/techniques/ea-3-2-2-multi-paradigm-fluency.md)

@@ -73,7 +73,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 Adolescenti: peer-relevantní rámcování. Mladší děti: hru-založené techniky.
 
-Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fenomenologii a strukturálních charakteristikách jednotlivých EA-domén a jsou klíčové pro klinickou účinnost intervence v cílové populaci.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-odrazeji.md" %}
 
 ## Iatrogenní rizika
 
@@ -85,7 +85,7 @@ Mandatory reporting konflikty, [parental alienation](@/glossary/parental-alienat
 
 V kompendiu je technika **EA-6.4.1** vedena jako vývojově citlivá adaptace EA-intervence, u níž je zapojení pečující osoby součástí rámce, ne jeho rozšířením.
 
-**Klinické zacílení**: specializované populace s unikátním rizikovým profilem — pediatrická, geriatrická, post-cult, refugee, LGBTQI+, veteráni, oběti DV, policejní, zdravotnictví, novináři, aktivisté. Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-specializovane-populace-s.md" %}
 
 **Trauma spektrum kontext**: u dítěte není rozhodující počet příznaků, ale to, zda šlo o jednu ohraničenou událost, nebo o opakovanou expozici ve vztahu, na němž je dítě závislé; obě kategorie zavedla Terr (1991). Doporučené postupy u dětí a mladých lidí proto předpokládají strukturované posouzení vedené kvalifikovaným odborníkem (National Institute for Health and Care Excellence, 2018).
 
@@ -133,7 +133,7 @@ Supervize je součástí rámce, ne jeho doplňkem. U dětí se k ní přidává
 
 Další podmínkou je, že se zapojení pečující osoby neobrátí proti dítěti. Rodič, který je sám zdrojem tlaku, se účastí na intervenci dostává k tomu, co dítě poskytlo v důvěře; práce s dětským traumatem proto s rolí pečující osoby pracuje výslovně a nepředpokládá ji jako danou (Cohen, Mannarino a Deblinger, 2017).
 
-Měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
+{% include "partials/meritko-stanovi-eticke-aspekty-a.md" %}
 
 ## Odlišení
 

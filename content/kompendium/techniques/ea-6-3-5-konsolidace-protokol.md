@@ -57,7 +57,7 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 ## Trvání a frekvence
 
-Kompendium pro tuto fázi neuvádí normu délky ani počtu sezení. Herman (1992) popisuje zotavení jako sled fází, které se opakovaně vracejí a prolínají; tempo se odvozuje od obnovené kapacity člověka, nikoli z rozvrhu. Údaje o délce a frekvenci patří do manuálu použité modality a do supervizního záznamu konkrétního případu.
+{% include "partials/kompendium-pro-tuto-fazi-neuvadi.md" %}
 
 ## Hodnotící kritéria
 
@@ -73,7 +73,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 Kompatibilní s [EA-6.4 vulnerabilními populacemi](@/kompendium/techniques/_index.md) — kulturně-specifická adaptace.
 
-Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fenomenologii a strukturálních charakteristikách jednotlivých EA-domén a jsou klíčové pro klinickou účinnost intervence v cílové populaci.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-odrazeji.md" %}
 
 ## Iatrogenní rizika
 
@@ -85,7 +85,7 @@ Premature termination, dependence na terapeutickém vztahu, paradoxní destabili
 
 Technika **EA-6.3.5** je v kompendiu zařazena jako třetí fáze rekonstrukčního modelu, která s návratem do dřívější fáze počítá jako s možností, ne jako se selháním.
 
-**Klinické zacílení**: fázový rekonstrukční rámec pro post-EA-trauma populaci s důrazem na bezpečí, externalizaci, integraci a konsolidaci nového epistemicko-afektivního architektury klienta. Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-fazovy-rekonstrukcni-ramec.md" %}
 
 **Klinická tradice ukotvení**: *interpretace knihy* — co se počítá za ukončené zotavení, posuzuje nakonec okolí: zaměstnavatel, rodina, instituce, která si vyžádala zprávu. V prostředí, kde se absolvovaná léčba čte jako doklad způsobilosti a nedokončená jako jeho popření, je konsolidace vystavena tlaku, s nímž převzatý [evidence-based](@/glossary/evidence-based.md) protokol nepracuje; ten popisuje práci s člověkem, ne to, jak jeho okolí výsledek použije.
 

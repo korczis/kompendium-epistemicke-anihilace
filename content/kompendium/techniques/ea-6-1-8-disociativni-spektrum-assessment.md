@@ -73,7 +73,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 EA-3 sektářské: vysoké riziko disociativní fragmentace v post-cult populacích. EA-6.5 krizové: rapid screening pro inpatient. [EA-6.4.1](@/kompendium/techniques/ea-6-4-1-deti-protokol.md) děti: vývojově upravený protokol.
 
-Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fenomenologii a strukturálních charakteristikách jednotlivých EA-domén a jsou klíčové pro klinickou účinnost intervence v cílové populaci.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-odrazeji.md" %}
 
 ## Iatrogenní rizika
 
@@ -85,7 +85,7 @@ Iatrogenní vyvolání disociativní epizody během vyšetření, paradoxní leg
 
 V kompendiu EA slouží tento assessment k odlišení disociativních jevů od jiných následků manipulativní expozice; předmětem posouzení není závažnost, nýbrž povaha toho, co subjekt popisuje jako výpadek.
 
-**Klinické zacílení**: klinický assessment epistemicko-afektivního traumatu po manipulativní expozici (kult, abusivní vztah, koercivní pracoviště, post-divorce DARVO dynamics). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-klinicky-assessment-epistemicko.md" %}
 
 **Trauma spektrum kontext**: disociativní obraz se podle Terr (1991) liší podle toho, zda vznikl po jedné ohraničené události, nebo po opakované expozici v dětství a dospívání. V prvním případě bývá vázán na konkrétní podnět a subjekt jej sám označí za cizí; v druhém tvoří součást jeho obvyklého prožívání, takže o něm jako o příznaku vůbec nereferuje. Co z toho pro posouzení vyplývá, rozhoduje vyšetřující klinik.
 
@@ -113,15 +113,7 @@ Varianty posouzení se liší nástrojem i prostředím. Kniha je zaznamenává 
 
 Skórování a jeho mezní hodnoty zůstávají v manuálu použitého dotazníku a v supervizi.
 
-Video-mediovaná varianta se rozšířila v době pandemických omezení a pro část populace je dostupnou alternativou. U aktivní disociativní symptomatologie zachovává osobní setkání klinickou výhodu, protože regulaci nese fyzická přítomnost druhého člověka (van der Kolk, 2014).
-
-Skupinový formát přidává vrstvu vzájemného svědectví, kterou individuální setkání nemá. Zároveň je nevhodný tam, kde je obraz nestabilní nebo kde by skupina reprodukovala tlak, z něhož člověk vyšel, včetně nadřazení společné doktríny jednotlivci (Lifton, 1961).
-
-Zkrácená varianta se zvažuje u jednorázové expozice s dostupnou podpůrnou sítí. U chronické relační traumatizace je zkrácení stabilizační fáze dokumentovanou cestou k iatrogennímu zhoršení, a to i u postupu zamýšleného jako pomoc (Lilienfeld, 2007).
-
-Kulturně citlivá adaptace se netýká jen jazyka. Středoevropský kontext nese zkušenost institucionálního násilí a mezigenerační přenos, které mění, co je pro člověka autoritou a co pokládá za bezpečné vyslovit (Herman, 1992).
-
-Krizová varianta posiluje stabilizační složku na úkor expoziční. Návrat ke standardnímu postupu je vázán na klinické posouzení a na obnovené bezpečí, protože bezpečí předchází práci s obsahem, nikoli naopak (Herman, 1992).
+{% include "partials/video-mediovana-varianta-se-rozsirila.md" %}
 
 ## Kdy je rámec legitimní
 
@@ -133,7 +125,7 @@ Třetím znakem je, jak se disociace čte. Odpojení od vlastní zkušenosti je 
 
 Čtvrtým znakem je souhlas a dokumentace, do níž vyšetřovaný smí vidět. Souhlas je proces, nikoli podpis, a v závislém postavení ho nelze číst jako svobodný (Faden a Beauchamp, 1986).
 
-Rámec stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
+{% include "partials/ramec-stanovi-eticke-aspekty-a.md" %}
 
 *Interpretace knihy*: disociace je odpověď na situaci, a teprve ztráta volby z ní činí nález.
 

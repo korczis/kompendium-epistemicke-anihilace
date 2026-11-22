@@ -73,7 +73,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 EA-3 sektářské: collateral interview z bývalých členů skupiny. EA-2 sociální: rozhovor s členy paralelní peer skupiny. EA-1 akademické: rozhovor se spolustudenty a kolegy.
 
-Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fenomenologii a strukturálních charakteristikách jednotlivých EA-domén a jsou klíčové pro klinickou účinnost intervence v cílové populaci.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-odrazeji.md" %}
 
 ## Iatrogenní rizika
 
@@ -85,7 +85,7 @@ Porušení důvěry v terapeutické alianci, sekundární traumatizace informant
 
 V kompendiu EA je rozhovor s blízkými veden jako diagnostický zdroj, který zachytí to, co subjekt sám popsat nemůže — protože právě jeho hodnocení vlastního stavu bylo předmětem manipulace.
 
-**Klinické zacílení**: klinický assessment epistemicko-afektivního traumatu po manipulativní expozici (kult, abusivní vztah, koercivní pracoviště, post-divorce DARVO dynamics). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-klinicky-assessment-epistemicko.md" %}
 
 **Trauma spektrum kontext**: od blízkých přichází jiná informace podle toho, zda šlo o jednu ohraničenou událost, nebo o opakovanou relační expozici (Terr, 1991). V prvním případě umí okolí obvykle pojmenovat, kdy se člověk změnil; v druhém popisuje stav, který pokládá za jeho povahu, a výpověď blízkých tak o začátku neříká nic. Rozlišit obě situace je úkolem vyšetřujícího, ne této stránky.
 
@@ -113,15 +113,7 @@ Mění se, kdo je dotazován a kdo se tázat smí. Soupis variant slouží rozpo
 
 Rozsah a opakování rozhovoru s blízkými určuje manuál a supervize, ne tato kniha.
 
-Video-mediovaná varianta se rozšířila v době pandemických omezení a pro část populace je dostupnou alternativou. U aktivní disociativní symptomatologie zachovává osobní setkání klinickou výhodu, protože regulaci nese fyzická přítomnost druhého člověka (van der Kolk, 2014).
-
-Skupinový formát přidává vrstvu vzájemného svědectví, kterou individuální setkání nemá. Zároveň je nevhodný tam, kde je obraz nestabilní nebo kde by skupina reprodukovala tlak, z něhož člověk vyšel, včetně nadřazení společné doktríny jednotlivci (Lifton, 1961).
-
-Zkrácená varianta se zvažuje u jednorázové expozice s dostupnou podpůrnou sítí. U chronické relační traumatizace je zkrácení stabilizační fáze dokumentovanou cestou k iatrogennímu zhoršení, a to i u postupu zamýšleného jako pomoc (Lilienfeld, 2007).
-
-Kulturně citlivá adaptace se netýká jen jazyka. Středoevropský kontext nese zkušenost institucionálního násilí a mezigenerační přenos, které mění, co je pro člověka autoritou a co pokládá za bezpečné vyslovit (Herman, 1992).
-
-Krizová varianta posiluje stabilizační složku na úkor expoziční. Návrat ke standardnímu postupu je vázán na klinické posouzení a na obnovené bezpečí, protože bezpečí předchází práci s obsahem, nikoli naopak (Herman, 1992).
+{% include "partials/video-mediovana-varianta-se-rozsirila.md" %}
 
 ## Kdy je rámec legitimní
 
@@ -133,7 +125,7 @@ Třetím znakem je zacházení se závislostí. Informantem bývá právě ten �
 
 Čtvrtým znakem je dokumentace a vnější posouzení. Nezávislé zvážení poměru přínosu a rizika je u postupu, který vstupuje do vztahů vyšetřovaného, minimem, bez něhož nelze o klinickém rámci mluvit (Emanuel, Wendler a Grady, 2000).
 
-Rámec stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
+{% include "partials/ramec-stanovi-eticke-aspekty-a.md" %}
 
 *Interpretace knihy*: pohled blízkých je korektiv, nikoli nadřazená pravda o člověku.
 

@@ -56,7 +56,15 @@ FENCE = re.compile(r"```.*?```", re.S)
 # words, language and the page-level facts describe the page a reader is handed. Case 50 holds both
 # halves against their own controls.
 INCLUDE = re.compile(r"\{%-?\s*include\s+\"([^\"]+)\"\s*-?%\}")
-TERA_COMMENT = re.compile(r"\{#-?.*?-?#\}", re.S)
+# A comment with Tera's whitespace control: `{#-` also removes the whitespace before it and `-#}`
+# the whitespace after it, as Tera does, so a partial's header comment and the empty `{#- -#}` that
+# ends a shared passage (scripts/extract-shared-passages.py) expand to exactly what Tera renders.
+TERA_COMMENT = re.compile(r"(\s*)\{#(-?).*?(-?)#\}(\s*)", re.S)
+
+
+def strip_comments(text: str) -> str:
+    return TERA_COMMENT.sub(lambda c: ("" if c.group(2) else c.group(1))
+                            + ("" if c.group(3) else c.group(4)), text)
 
 
 def expand_includes(text: str, depth: int = 0) -> str:
@@ -73,7 +81,7 @@ def expand_includes(text: str, depth: int = 0) -> str:
         target = TEMPLATES / m.group(1)
         if not target.is_file():
             return m.group(0)
-        return expand_includes(TERA_COMMENT.sub("", target.read_text(encoding="utf-8")), depth + 1)
+        return expand_includes(strip_comments(target.read_text(encoding="utf-8")), depth + 1)
 
     return INCLUDE.sub(one, text)
 WORD = re.compile(r"[A-Za-zÀ-ž]+")

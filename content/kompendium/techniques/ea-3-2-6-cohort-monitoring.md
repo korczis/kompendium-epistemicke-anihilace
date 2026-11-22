@@ -45,9 +45,9 @@ Druhý obraz je opačný: skupinový průměr vypadá v pořádku, zatímco jedn
 
 Retrospektivně se znaky objevují v pořadí: nejprve se zúží okruh toho, co lze ve skupině vyslovit, pak se přestanou hlásit chyby a nakonec se vytratí i soukromé stížnosti. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Podmínkou, aby se tento sled nerozběhl, je prostředí, v němž hlášení chyby nemá osobní cenu (Edmondson, 1999).
 
-*Interpretace knihy*: rozhodující není, zda technika proběhla, ale zda po ní zůstává doložitelná cesta k nesouhlasu.
+{% include "partials/interpretace-knihy-rozhodujici-neni-zda.md" %}
 
-Měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
+{% include "partials/meritko-stanovi-eticke-aspekty-a.md" %}
 
 ## Čtenář a předpoklady
 
@@ -56,11 +56,11 @@ Měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.m
 | **Pro koho je stránka psána** | Lead supervizoři kohortních programů; institucionální koordinátoři |
 | **Předpokládaný rámec** | Certifikovaný supervizor; přístup k agregovaným datům kohorty (anonymizovaným); skupinově-dynamický trénink |
 
-Předpoklady nejsou formalita. Tam, kde chybí doložená kvalifikace, dohodnutý rámec a chráněný čas, nemá technika oporu a supervize se mění v administrativní kontrolu nebo v nestrukturovanou podporu; obojí patří mezi doložené podoby nedostatečné supervize (Ellis a kol., 2014).
+{% include "partials/predpoklady-nejsou-formalita-tam-kde.md" %}
 
 ## Detekční markery (pohled pozorovatele)
 
-Následující znaky jsou to, co supervizor, kolega nebo vyšetřující pozoruje zvenčí; žádný z nich není sám o sobě průkazný a každý se posuzuje proti tomu, jak pracoviště vypadalo dříve. Popis slabé a poškozující supervize, o nějž se tento výčet opírá, shromáždili Ellis a kol. (2014).
+{% include "partials/nasledujici-znaky-jsou-to-co-supervizor.md" %}
 
 | Co je vidět | Co to naznačuje |
 |---|---|
@@ -72,19 +72,17 @@ Následující znaky jsou to, co supervizor, kolega nebo vyšetřující pozoruj
 | Souhrnné ukazatele kohorty vypadají v normě, zatímco jednotlivec dekompenzuje | průměr zakrývající okraj rozložení |
 | Formulace členů kohorty se sbíhají k jazyku vedoucího | konformitní tlak ve skupině |
 
-Rozlišení od neškodných jevů je nutné: tichá kohorta může být unavená, shoda může být oprávněná a administrativní zátěž může přijít zvenčí. Rozhodující je, zda zůstává dostupná cesta, jak nesouhlas vyslovit a doložit (Edmondson, 1999).
+{% include "partials/rozliseni-od-neskodnych-jevu-je-nutne.md" %}
 
 Zevnitř kohorty je posun téměř neviditelný, protože každý člen vidí jen ostatní, kteří souhlasí, a vlastní pochybnost si vykládá jako osobní výjimku. Člověk tak mlčí právě proto, že se domnívá, že mlčí sám, ačkoli totéž si myslí i další. Iluzi jednomyslnosti a autocenzuru jednotlivých členů popsal Janis (1972) jako jádro skupinového myšlení. Ochranou je vnější bod, k němuž se dá obrátit mimo skupinu, a kohortní data, která ukazují rozptyl názorů, nikoli jen jejich průměr (Lieberman, Yalom a Miles, 1973).
 
 ## Odlišení od neškodných jevů
 
-Od neškodných jevů se vzorec odlišuje tím, co zůstává možné. Náročná supervize, nepříjemná zpětná vazba i vysoké nároky jsou legitimní a samy o sobě nic neznamenají; poznávacím znakem je, že supervidovaný už nemá, komu obtíž vynést, a že se neshoda přestala objevovat i tam, kde by věcně patřila (Ellis a kol., 2014).
-
-Druhým rozlišovacím hlediskem je čas. Jednorázový konflikt nebo období přetížení mají konec a pracoviště se po nich vrací k dřívějšímu způsobu práce; vzorec popsaný na této stránce se naopak usazuje jako nová norma, které si zúčastnění přestanou všímat (Bernard a Goodyear, 2019).
+{% include "partials/od-neskodnych-jevu-se-vzorec-odlisuje-tim.md" %}
 
 ## Hodnotící kritéria
 
-Hodnotící kritéria nejsou cílem práce, ale jejím ukazatelem. Jakmile se měřítko stane cílem, přestává měřit to, kvůli čemu vzniklo — tento efekt popsal Campbell (1979) jako pravidlo, že čím více se kvantitativní ukazatel používá k rozhodování, tím více podléhá zkreslení.
+{% include "partials/hodnotici-kriteria-nejsou-cilem-prace.md" %}
 
 | Kritérium | Měřítko |
 |-----------|---------|

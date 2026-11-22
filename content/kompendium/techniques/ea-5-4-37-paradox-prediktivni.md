@@ -35,9 +35,9 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 **Prediktivní paradox** je paradoxální metaanihilační protokol, jehož operační jádro tvoří implantace přesvědčení, že každá subjektova predikce o sobě samém ovlivňuje predikované — predikce nikdy nejsou „čisté“. Technika patří do subkategorie 5.4 Paradoxální metaanihilační protokoly — třídy ultramárních postupů, které využívají strukturální paradoxy v subjektově sebehodnotícím aparátu k destabilizaci samotného procesu, jímž subjekt rozlišuje, co je správné, pravdivé, vlastní a smysluplné.
 
-Na rozdíl od technik **[epistemické singularity](@/glossary/epistemicka-singularita.md)** ([5.1](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md)), které pohlcují obsahy poznání, a technik **[metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md)** ([5.2](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md)), které manipulují s podmínkami možnosti poznání, paradoxální protokoly zasahují formální infrastrukturu posuzování. Subjekt nedokáže paradoxnost obejít vyšší úrovní reflexe, protože každá vyšší úroveň je sama postižena strukturálně analogickou paradoxií. Vzniká **kognitivní past s rekurzivně reprodukovaným zámkem**: čím více se subjekt snaží uniknout, tím pevněji je v pasti uvězněn.
+{% include "partials/na-rozdil-od-technik-epistemicke.md" %}
 
-Technika je strukturálně blízká [kognitivní anti-rekurzivitě](@/glossary/kognitivni-anti-rekurzivita.md), ale operuje uvnitř klasické formální logiky — využívá nikoli antitetické, nýbrž *ortodoxní* paradoxy klasické tradice (Russell, Tarski, Gödel, Wittgenstein) a aplikuje je na fenomenologickou rovinu sebezakoušení. Klíčový rys: paradox není argumentován, je *zažíván*.
+{% include "partials/technika-je-strukturalne-blizka-kognitivni.md" %}
 
 ## Struktura vzorce
 

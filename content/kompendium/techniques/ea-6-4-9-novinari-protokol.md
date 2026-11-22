@@ -73,7 +73,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 War correspondents — repetitive exposure. Local journalists — community trauma. Online journalists — harassment.
 
-Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fenomenologii a strukturálních charakteristikách jednotlivých EA-domén a jsou klíčové pro klinickou účinnost intervence v cílové populaci.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-odrazeji.md" %}
 
 ## Iatrogenní rizika
 
@@ -85,7 +85,7 @@ OPSEC violations, newsroom-stigma, dropout z profese.
 
 Klinické zařazení protokolu dává povaha expozice, která je u této profese součástí práce: zprostředkované trauma z opakovaného kontaktu s cizím utrpením je popsáno jako samostatná zátěž (Figley, 1995). Herman (1992) popisuje následky dlouhodobé expozice jako obraz, který nevzniká jedním zásahem; právě tam začíná předmět této stránky.
 
-**Klinické zacílení**: specializované populace s unikátním rizikovým profilem — pediatrická, geriatrická, post-cult, refugee, LGBTQI+, veteráni, oběti DV, policejní, zdravotnictví, novináři, aktivisté. Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-specializovane-populace-s.md" %}
 
 **Trauma spektrum kontext**: u novinářské práce se potkávají oba případy, které Terr (1991) odlišila — jednotlivá událost v terénu a kumulativní expozice z dlouhodobého sledování téhož tématu. Kniha z toho bere jen to, že obraz po letech práce nelze číst jako následek posledního výjezdu; Figley (1995) popisuje právě ono postupné narůstání, které žádnou jednu událost nenabízí.
 
@@ -123,7 +123,7 @@ Druhou podmínkou je souhlas, který lze odvolat, spolu s důvěrností, která 
 
 Třetí podmínkou je dokumentace, kterou dotčený smí vidět, a cíl formulovaný jako obnova jeho vlastní kapacity rozhodovat o dalším působení. Doporučené postupy pro posttraumatickou stresovou poruchu předpokládají odbornou kvalifikaci a dohled toho, kdo intervenci vede (National Institute for Health and Care Excellence, 2018).
 
-Měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
+{% include "partials/meritko-stanovi-eticke-aspekty-a.md" %}
 
 ## Odlišení
 

@@ -73,7 +73,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 [Delegitimizace](@/glossary/delegitimizace.md) ve škole a v práci (EA-2): doplnit subškálu peer-pressure a in-group conformity. Afektivně zatížená expozice: zvýraznit položky afektivní deregulace a alexithymie. EA-6 klinické: pre-post administrace pro dokumentaci klinického zlepšení.
 
-Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fenomenologii a strukturálních charakteristikách jednotlivých EA-domén a jsou klíčové pro klinickou účinnost intervence v cílové populaci.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-odrazeji.md" %}
 
 ## Iatrogenní rizika
 
@@ -85,7 +85,7 @@ Sebehodnotící zkreslení (response bias), social desirability efekt, alexithym
 
 Kniha vede techniku **EA-6.1.2** jako nástroj sebeposouzení, jehož výstupem je údaj o tom, co člověk o svém stavu uvádí. Diagnostická detekce EA-traumatu s odlišením od primárních afektivních a úzkostných poruch je úkolem klinika; dotazník k němu dodává podklad, nikoli závěr.
 
-**Klinické zacílení**: klinický assessment epistemicko-afektivního traumatu po manipulativní expozici (kult, abusivní vztah, koercivní pracoviště, post-divorce DARVO dynamics). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-klinicky-assessment-epistemicko.md" %}
 
 **Trauma spektrum kontext**: Terr (1991) rozlišila trauma po jediné události a trauma z opakované expozice ve vztahu. Pro sebeposuzovací nástroj je to podstatné, protože položky formulované pro jednu ohraničenou událost nemají u opakované expozice k čemu odkazovat — chybí děj s začátkem a koncem. Prahy a výklad skóru stanoví manuál nástroje, nikoli tato stránka (Herman, 1992).
 
@@ -117,7 +117,7 @@ Třetím znakem je, že skór nenahrazuje výpověď. Nízký výsledek není d�
 
 Čtvrtým znakem je dokumentace, kterou člověk smí vidět, a cíl v jeho vlastní kapacitě: nástroj má sloužit tomu, aby sám rozpoznal, co se s ním děje, a nikoli tomu, aby byl o svém stavu informován zvenčí (Herman, 1992).
 
-Rámec stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
+{% include "partials/ramec-stanovi-eticke-aspekty-a.md" %}
 
 *Interpretace knihy*: dotazník je legitimní, dokud zůstává otázkou, a nikoli rozsudkem.
 

@@ -73,7 +73,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 EA-1.4 paralingvistické: kódování prozodických markerů. EA-1.5 proxemické: dokumentace tělesných hieroglyfů. Po odchodu ze sektářské skupiny: pozorování in-group rituálního chování po opuštění skupiny.
 
-Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fenomenologii a strukturálních charakteristikách jednotlivých EA-domén a jsou klíčové pro klinickou účinnost intervence v cílové populaci.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-odrazeji.md" %}
 
 ## Iatrogenní rizika
 
@@ -85,7 +85,7 @@ Pozorovatelský bias, Hawthorne efekt, etické riziko narušení soukromí, fale
 
 Klinický kontext pozorování neurčují dějiny škol, ale dvě doložená omezení pozorovatele samotného: očekávání utváří to, co je viděno (Rosenthal a Jacobson, 1968), a hledání potvrzení již přijatého výkladu je pravidlem, ne výjimkou (Nickerson, 1998). Technika proto stojí a padá s tím, zda je výklad pozorovatele vystaven přezkumu.
 
-**Klinické zacílení**: klinický assessment epistemicko-afektivního traumatu po manipulativní expozici (kult, abusivní vztah, koercivní pracoviště, post-divorce DARVO dynamics). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-klinicky-assessment-epistemicko.md" %}
 
 **Trauma spektrum kontext**: pozorování samo nerozliší, zda za obrazem stojí jedna událost nebo roky opakované expozice; rozlišení obou typů zavedla Terr (1991) a pro assessment z něj plyne jediné — chybějící anamnézu nelze doplnit z chování v ordinaci. Diagnostická rozvaha se opírá o kritéria platné klasifikace a o opakované pozorování, ne o dojem z jednoho sezení (Herman, 1992).
 
@@ -117,7 +117,7 @@ Třetím znakem je předem vymezené, co se pokládá za marker. Bez takového v
 
 Čtvrtým znakem je prostředí, v němž se pozoruje. V zařízení, které řídí celý den člověka, se chování čte skrze režim zařízení a běžný projev se stává příznakem; pozorování v takovém prostředí proto vyžaduje vnější pohled (Goffman, 1961).
 
-Rámec stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
+{% include "partials/ramec-stanovi-eticke-aspekty-a.md" %}
 
 *Interpretace knihy*: pozorování je legitimní, dokud je vyšetřovaný jeho adresátem, a nikoli jeho předmětem.
 

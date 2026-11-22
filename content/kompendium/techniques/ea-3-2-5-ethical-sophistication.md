@@ -45,9 +45,9 @@ Ochuzená podoba se pozná opačně. Dilema je vyřízeno odkazem na předpis, r
 
 Retrospektivně se v záznamech dá rozlišit sled, v němž znaky vystupují: nejprve mizí zapsané zdůvodnění, pak se zužuje okruh hodnot, které se vůbec zvažují, a nakonec se dilema přestane jako dilema vykazovat. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Dvojí použitelnost poznání tento tlak zostřuje, protože totéž vědění slouží obraně i útoku (Miller a Selgelid, 2007).
 
-*Interpretace knihy*: rozhodující není, zda technika proběhla, ale zda po ní zůstává doložitelná cesta k nesouhlasu.
+{% include "partials/interpretace-knihy-rozhodujici-neni-zda.md" %}
 
-Měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
+{% include "partials/meritko-stanovi-eticke-aspekty-a.md" %}
 
 ## Čtenář a předpoklady
 
@@ -56,11 +56,11 @@ Měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.m
 | **Pro koho je stránka psána** | Certifikovaní supervizoři; členové institucionálních etických rad (EA-3.3.1) |
 | **Předpokládaný rámec** | Dokončené graduate-level studium etiky aplikovaných věd; familiarity s relevantními etickými rámci (Beauchamp-Childress, virtue ethics, care ethics, Hastings Center) |
 
-Předpoklady nejsou formalita. Tam, kde chybí doložená kvalifikace, dohodnutý rámec a chráněný čas, nemá technika oporu a supervize se mění v administrativní kontrolu nebo v nestrukturovanou podporu; obojí patří mezi doložené podoby nedostatečné supervize (Ellis a kol., 2014).
+{% include "partials/predpoklady-nejsou-formalita-tam-kde.md" %}
 
 ## Detekční markery (pohled pozorovatele)
 
-Následující znaky jsou to, co supervizor, kolega nebo vyšetřující pozoruje zvenčí; žádný z nich není sám o sobě průkazný a každý se posuzuje proti tomu, jak pracoviště vypadalo dříve. Popis slabé a poškozující supervize, o nějž se tento výčet opírá, shromáždili Ellis a kol. (2014).
+{% include "partials/nasledujici-znaky-jsou-to-co-supervizor.md" %}
 
 | Co je vidět | Co to naznačuje |
 |---|---|
@@ -72,13 +72,11 @@ Následující znaky jsou to, co supervizor, kolega nebo vyšetřující pozoruj
 | Sporné rozhodnutí nemá zaznamenané zdůvodnění | etiku zúženou na soulad s předpisem |
 | Nikdo neumí pojmenovat podmínku, za níž by závěr neplatil | chybějící falsifikační rámec |
 
-Rozlišení od neškodných jevů je nutné: tichá kohorta může být unavená, shoda může být oprávněná a administrativní zátěž může přijít zvenčí. Rozhodující je, zda zůstává dostupná cesta, jak nesouhlas vyslovit a doložit (Edmondson, 1999).
+{% include "partials/rozliseni-od-neskodnych-jevu-je-nutne.md" %}
 
 ## Odlišení od neškodných jevů
 
-Od neškodných jevů se vzorec odlišuje tím, co zůstává možné. Náročná supervize, nepříjemná zpětná vazba i vysoké nároky jsou legitimní a samy o sobě nic neznamenají; poznávacím znakem je, že supervidovaný už nemá, komu obtíž vynést, a že se neshoda přestala objevovat i tam, kde by věcně patřila (Ellis a kol., 2014).
-
-Druhým rozlišovacím hlediskem je čas. Jednorázový konflikt nebo období přetížení mají konec a pracoviště se po nich vrací k dřívějšímu způsobu práce; vzorec popsaný na této stránce se naopak usazuje jako nová norma, které si zúčastnění přestanou všímat (Bernard a Goodyear, 2019).
+{% include "partials/od-neskodnych-jevu-se-vzorec-odlisuje-tim.md" %}
 
 ## Jak se ochuzení pozná zevnitř
 
@@ -86,7 +84,7 @@ Supervizor, jehož etická rozvaha se zúžila na soulad s předpisem, to sám n
 
 ## Hodnotící kritéria
 
-Hodnotící kritéria nejsou cílem práce, ale jejím ukazatelem. Jakmile se měřítko stane cílem, přestává měřit to, kvůli čemu vzniklo — tento efekt popsal Campbell (1979) jako pravidlo, že čím více se kvantitativní ukazatel používá k rozhodování, tím více podléhá zkreslení.
+{% include "partials/hodnotici-kriteria-nejsou-cilem-prace.md" %}
 
 | Kritérium | Měřítko |
 |-----------|---------|

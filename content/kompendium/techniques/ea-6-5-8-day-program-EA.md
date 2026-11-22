@@ -43,7 +43,7 @@ Technika je primárně indikována v následujících klinických kontextech:
 
 Step-down z PHP, step-up z standard outpatient, klienti potřebující více než weekly therapy.
 
-Sekundárně může být zvažována jako adjunktivní intervence v rámci komplexního multimodálního léčebného plánu, vždy však s ohledem na individuální profil klienta a aktuální fázi rekonstrukčního procesu.
+{% include "partials/sekundarne-muze-byt-zvazovana-jako.md" %}
 
 ## Kontraindikace
 
@@ -51,7 +51,7 @@ Aplikace techniky je kontraindikována v následujících situacích:
 
 Akutní krize, vysoké riziko bez 24/7 monitoringu.
 
-Identifikace kontraindikací je integrální součástí každého iniciálního assessment a vyžaduje opakované re-evaluation v průběhu intervence — zejména v případě dynamicky se měnícího klinického obrazu.
+{% include "partials/identifikace-kontraindikaci-je-integralni-soucasti.md" %}
 
 ## Implementační protokol
 
@@ -59,13 +59,13 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 (1) IOP assessment. (2) Denní struktura — skupinová a individuální část. (3) Trauma-specific modules. (4) Skill-training. (5) Pharmacotherapy. (6) Peer support. (7) Discharge planning.
 
-Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
+{% include "partials/kazdy-krok-je-dokumentovan-v.md" %}
 
 ## Trvání a frekvence
 
 **Typická délka:** ohraničená; délku určuje klinický obraz a supervize, nikoli norma stanovená touto knihou.
 
-Frekvence sezení a celková délka intervence jsou závislé na komplexitě klinického obrazu, komorbiditách a individuální responsivitě. V populacích s komplexním C-PTSD je třeba počítat s prolongovaným průběhem, zatímco u single-incident traumat lze očekávat rychlejší progression.
+{% include "partials/frekvence-sezeni-a-celkova-delka.md" %}
 
 ## Hodnotící kritéria
 
@@ -73,7 +73,7 @@ Klinická efektivita techniky je posuzována podle následujících outcome metr
 
 Symptom redukce, functional gains, transition do standard outpatient.
 
-Pre-post administrace standardizovaných nástrojů poskytuje kvantitativní podklad pro klinické rozhodování o pokračování, modifikaci nebo ukončení intervence.
+{% include "partials/pre-post-administrace-standardizovanych-nastroju.md" %}
 
 ## Adaptace pro specifické EA kategorie
 
@@ -81,7 +81,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 Adolescenti — school-integrated. Pracující — evening IOP.
 
-Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fenomenologii a strukturálních charakteristikách jednotlivých EA-domén a jsou klíčové pro klinickou účinnost intervence v cílové populaci.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-odrazeji.md" %}
 
 ## Iatrogenní rizika
 
@@ -89,13 +89,13 @@ Aplikace techniky nese následující potenciální iatrogenní rizika:
 
 Dependence, dropout, financial barriers.
 
-Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
+{% include "partials/predchazeni-iatrogennim-poskozenim-je-integralni.md" %}
 
 ## Klinické pozadí
 
 V kompendiu EA je denní program veden jako mezistupeň mezi hospitalizací a běžnou ambulancí: péče zůstává intenzivní, zatímco pacient spí doma a drží si vazbu na školu či práci.
 
-**Klinické zacílení**: akutní a vysokointenzivní klinické setting (ER, akutní krize, inpatient, partial hospitalization, day program, residential) pro pacienty s aktivní EA-symptomatologií vyžadující stabilizaci. Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-akutni-a-vysokointenzivni.md" %}
 
 **Trauma spektrum kontext**: pro denní program je rozdíl mezi jednorázovou a opakovanou traumatizací (Terr, 1991) podstatný tím, kam se pacient každý den vrací. Po ohraničené události bývá domov oporou, s níž program tiše počítá; po opakované relační expozici může být právě domov místem expozice, a rozpoznat to patří k posouzení vhodnosti programu — které provádí klinik, ne tato stránka.
 

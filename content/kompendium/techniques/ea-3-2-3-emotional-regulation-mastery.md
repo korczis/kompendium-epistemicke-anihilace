@@ -51,22 +51,19 @@ Nepříznivý průběh se pozná podle toho, co se stane se vztahem. Bordin (198
 
 Všichni certifikovaní supervizoři; intenzivní práce pro supervizory pracující s vysoce destabilizujícími materiály.
 
-Edukativní cíl není změna chování v behaviorálním smyslu, ale kultivace kompetencí umožňujících autonomní navigaci v epistemicky náročných kontextech. Cílová populace je primárně dospělí profesionálové s baseline metakognitivní stabilitou — technika není určena pro klinické intervence u aktivně dekompenzovaných jedinců.
+{% include "partials/edukativni-cil-neni-zmena-chovani.md" %}
 
 ## Předpoklady
 
 Dokončený trénink polyvagálních dovedností; vlastní pokračující terapie; HRV biofeedback baseline.
 
-Bez splnění předpokladů technika produkuje suboptimální výsledky a může generovat iatrogenní efekty. Předpoklady nejsou byrokratické formality, ale strukturální podmínky efektivity intervence.
+{% include "partials/bez-splneni-predpokladu-technika-produkuje.md" %}
 
 ## Implementační protokol
 
 Konkrétní implementace vyžaduje:
 
-1. **Pre-implementation assessment** — verifikace předpokladů u individuálních účastníků a kohorty jako celku.
-2. **Resource provisioning** — institucionální alokace času, prostoru, personálu, technologií.
-3. **Documentation infrastructure** — systém zaznamenávání průběhu, výsledků, incidentů.
-4. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
+{% include "partials/1-pre-implementation-assessment-verifikace.md" %}
 
 Implementace je iterativní — každý cyklus generuje data informující úpravy v dalších cyklech.
 
@@ -79,7 +76,7 @@ Implementace je iterativní — každý cyklus generuje data informující úpra
 | Transparency | Schopnost artikulovat vlastní stav studentovi |
 | Compassion fatigue | Roční CF screening v zdravém pásmu
 
-Evaluace integruje kvantitativní (validované instrumenty) i kvalitativní (reflektivní eseje, ethnographic observation) datové zdroje. Žádná samostatná metrika není dostatečná — multidimenzionální evaluace je nezbytná.
+{% include "partials/evaluace-integruje-kvantitativni-validovane-instrumenty.md" %}
 
 ## Rizika a kontraindikace
 
@@ -112,7 +109,7 @@ Rozlišení zásahu provedeného dříve, než stav naplno vznikne, od potlačen
 
 ### Sourozenecké techniky (3.2 Supervizorské techniky)
 
-Technika je integrální součástí subkategorie 3.2 a je navržena pro synergickou implementaci s ostatními sourozeneckými technikami:
+{% include "partials/technika-je-integralni-soucasti-subkategorie-3.md" %}
 
   - [EA-3.2.1 Supervizorská certifikace](@/kompendium/techniques/ea-3-2-1-supervisor-certification.md)
   - [EA-3.2.2 Multiparadigmatická fluence](@/kompendium/techniques/ea-3-2-2-multi-paradigm-fluency.md)

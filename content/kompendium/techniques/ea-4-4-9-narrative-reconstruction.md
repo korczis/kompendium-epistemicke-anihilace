@@ -35,7 +35,7 @@ parent_chapter = "/kompendium/04-terminalni-protokoly/"
 
 **Narrative reconstruction** představuje rekonstrukce narativu identity po dokončení dekonstrukčních operací. V rámci kompendia je technika klasifikována jako **[terminální protokol](@/kompendium/04-terminalni-protokoly/_index.md)** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození.
 
-Tento článek **nemá operační charakter**: jeho účelem je výhradně defenzivní rozpoznání, detekce neúmyslné manifestace a supervidovaná intervence. Jakékoliv ofenzivní použití techniky je v rozporu s [doktrinou platformy](@/kompendium/02-doktrinalni-ramec/_index.md) a její aplikace bez doložitelného etického rámce je explicitně zakázána.
+{% include "partials/tento-clanek-nema-operacni-charakter.md" %}
 
 Mechanismus, kterým technika operuje uvnitř supervidovaného rámce, spočívá v: supervidovaná reinstalace nosného narativu s explicitními ukotveními v doložitelné biografii a se zpětnou validací u nezávislých svědků. Tento popis slouží jako referenční rámec pro detekci, nikoliv jako návod k provedení.
 
@@ -68,7 +68,7 @@ Kompendium nevyjmenovává prostředí, v nichž by rekonstrukce životního př
 
 ## Klinické markery (neúmyslná manifestace)
 
-Co může klinik nebo supervizor pozorovat, pokud se technika manifestuje mimo supervidovaný rámec — v důsledku patologické sociální struktury, kultovního prostředí, abusivního vztahu nebo neetické instituce:
+{% include "partials/co-muze-klinik-nebo-supervizor.md" %}
 
 | Marker | Indikuje |
 |--------|----------|
@@ -79,13 +79,13 @@ Co může klinik nebo supervizor pozorovat, pokud se technika manifestuje mimo s
 | [Sociální izolace](@/glossary/socialni-izolace.md) s jediným referenčním zdrojem autority | Strukturální rizikový kontext |
 | Časová dezorientace ve vztahu k vlastnímu životnímu příběhu | Indukovanou temporální disrupci |
 
-Detekce vyžaduje **[diferenciální diagnózu](@/glossary/diferencialni-diagnoza.md)** vůči primárním psychiatrickým stavům (disociativní poruchy, PTSD, psychotická spektra) a vůči [legitimní transformativní zkušenosti](@/glossary/transformative-experience.md).
+{% include "partials/detekce-vyzaduje-diferencialni-diagnozu-vuci.md" %}
 
 ## Klinické pozadí
 
 Klinický kontext této stránky neurčuje původ metod, ale povaha samotného příběhu: vyprávění o vlastním životě se přepracovává a nikdy nestojí hotové (McAdams, 2001). Rekonstrukce narativu po dekonstrukčních operacích proto nemůže znamenat dodání správné verze; Herman (1992) popisuje obnovu příběhu jako práci dotčeného člověka, ne jako výsledek předaný zvenčí.
 
-**Klinické zacílení**: narativní a identitní rekonstrukce v post-engagement fázi po totalizující expozici (post-cult trauma, deep cover decompression, reentry trauma). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-narativni-a-identitni.md" %}
 
 **Trauma spektrum kontext**: Terr (1991) odlišila jednorázovou traumatickou událost od opakované a vleklé expozice; narativní rozpad, o němž je tato stránka, odpovídá druhému případu, protože jedna epizoda příběh nerozebere. Rozdíl má jediný důsledek, který kniha unese: obnovu příběhu nelze poměřovat časem, jenž by stačil na zpracování jediné události.
 
@@ -111,17 +111,7 @@ Rekonstrukce narativu rozhoduje, čí verze vlastního života subjektu zůstane
 
 Klinický kontext **EA-4.4.9** připouští následující dokumentované adaptace pro specifické setting a populace, vždy se zachováním jádra evidence-based protokolu:
 
-**Telehealth varianta**: pandemie covidu-19 urychlila adopci video-mediovaných verzí. Literatura o telehealth formátech popisuje srovnatelnou efektivitu s osobním kontaktem, s výjimkou pacientů s aktivní disociativní symptomatologií, kde si osobní setting zachovává klinickou výhodu (regulace skrze kotvící fyzickou přítomnost terapeuta). Praktické modifikace: technické rituály (kvalita připojení), explicitní bezpečnostní plán pro případ fyzické nedostupnosti, rozšířená dokumentace.
-
-**Skupinový formát**: malá uzavřená skupina s doplňkovými individuálními moduly. Efektivita bývá popisována jako nižší než u individuálního formátu a kompenzovaná ekonomickou dostupností a peer-support komponentou. Kontraindikace: aktivní psychotická symptomatologie, závažná interpersonální agresivita, nestabilní disociativní obraz.
-
-**Krátká intervence**: pro vybrané populace s Type I traumatem, vysokou compliance a dostupnou podpůrnou sítí. Komprimovaný protokol s hustěji řazenými sezeními je v literatuře popisován jako noninferiorní standardní variantě; kompendium konkrétní počty sezení neuvádí, protože je žádný zdroj na této stránce nedokládá.
-
-**Adjuvantní farmakoterapie**: indikace, volba přípravku a dávkování jsou výhradně v kompetenci ošetřujícího psychiatra a řídí se platnými doporučenými postupy. Kompendium je neuvádí: jde o defenzivní taxonomii pro rozpoznání vzorce, nikoli o terapeutický manuál.
-
-**Kulturně senzitivní adaptace**: česká adaptace zohledňuje (a) jazyk a metaforický rámec specifický pro středoevropské vyprávění o traumatu, (b) postkomunistická intergenerační traumata jako kontext, (c) explicitní eskalační cesty v rámci hrazené péče. Slovenská a polská adaptace sdílejí s českou většinu rámce.
-
-**Crisis-modifikovaná verze**: redukce expozičních komponent ve prospěch posílených stabilizačních modulů pro aktuálně dekompenzované pacienty; přechod do standardního protokolu až po dosažení klinické stabilizace.
+{% include "partials/telehealth-varianta-pandemie-covidu-19.md" %}
 
 ## Vztah k jiným technikám
 

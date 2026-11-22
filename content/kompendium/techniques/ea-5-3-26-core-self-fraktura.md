@@ -137,7 +137,7 @@ Klíčové vymezení vůči klinicky podobným, ale etiologicky odlišným stav�
 - **Depersonalizačně-derealizační porucha (F48.1)**: izolovaná porucha self-experience bez narativní substituce; neobsahuje implantovaný alternativní self-model.
 - **Trauma-induced personality changes (F62.0)**: trvalá změna osobnosti po traumatu má jiný mechanismus (regresní obrana) než aktivně instalovaná identitární substituce.
 
-Diferenciální klíč: přítomnost identifikovatelného externího agenta, časového bodu vstupu, lexikální homogenity s diskursem agenta, diskontinuita v autobiografické textuře.
+{% include "partials/diferencialni-klic-pritomnost-identifikovatelneho-externiho.md" %}
 
 ## Klinické markery
 
@@ -145,7 +145,7 @@ Pozorovatelné indikátory přítomnosti této techniky v klinické anamnéze:
 
 nesynchronní zážitkové proudy ('myslím v 1. osobě, ale cítím v 3.'), depersonalizační okno s mikrostrukturou (mikro-vlnění mezi 'jsem' a 'nejsem'), narušená integrace vnímání a emoce v reálném čase, fragmentární self-pulsy bez kontinuálního proudu, neuro-fenomenologická desynchronizace.
 
-Tyto markery jsou kumulativní — žádný jednotlivý nemá diagnostickou specificitu, ale jejich konvergence při anamnéze přítomnosti high-control vztahu nebo izolačního prostředí zvyšuje prediktivní hodnotu. Doporučená klinická cesta zahrnuje longitudinální anamnézu (před/po hraniční bod), konfrontaci s externí dokumentací (deníky, fotografie, korespondence), a strukturované interview se zaměřením na narativní koherenci pre-manipulační fáze.
+{% include "partials/tyto-markery-jsou-kumulativni-zadny.md" %}
 
 ## Trauma-informed přístup
 

@@ -73,7 +73,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 Trans-kulturně-senzitivní adaptace každé komponenty.
 
-Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fenomenologii a strukturálních charakteristikách jednotlivých EA-domén a jsou klíčové pro klinickou účinnost intervence v cílové populaci.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-odrazeji.md" %}
 
 ## Iatrogenní rizika
 
@@ -85,7 +85,7 @@ Re-traumatizace při forsírovaném vyvolání, sekundární traumatizace tlumo�
 
 V kompendiu EA je tento protokol veden jako populačně specifická adaptace, v níž se epistemické zranění prolíná s trojí expozicí — před migrací, během ní a po příchodu — a žádnou z nich nelze vyšetřit zvlášť.
 
-**Klinické zacílení**: specializované populace s unikátním rizikovým profilem — pediatrická, geriatrická, post-cult, refugee, LGBTQI+, veteráni, oběti DV, policejní, zdravotnictví, novináři, aktivisté. Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-specializovane-populace-s.md" %}
 
 **Trauma spektrum kontext**: u uprchlíků bývá Terrovo dělení (Terr, 1991) zavádějící, pokud se čte jako volba mezi dvěma možnostmi: jednorázová ohraničená událost a dlouhodobá opakovaná expozice se zde běžně vrství na sebe, takže pozdější ohraničené trauma dopadá na už narušenou schopnost věřit úřadu i tlumočníkovi. Rozlišit jednotlivé vrstvy je prací vyšetřujícího, ne věcí této stránky.
 
@@ -123,7 +123,7 @@ Druhou podmínkou je souhlas, který lze odvolat, a práce s tlumočníkem, jeho
 
 Třetí podmínkou je dokumentace, kterou dotčený smí vidět, a cíl formulovaný jako obnova jeho vlastní schopnosti vyprávět, co se stalo — ne jako získání konzistentního výpovědního materiálu. Obnovení vztahu k vlastnímu příběhu je popsáno jako jádro zotavení, nikoli jako jeho vedlejší produkt (Herman, 1992).
 
-Měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
+{% include "partials/meritko-stanovi-eticke-aspekty-a-metodologicke.md" %}
 
 ## Odlišení
 

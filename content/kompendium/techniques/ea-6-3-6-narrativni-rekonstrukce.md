@@ -57,7 +57,7 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 ## Trvání a frekvence
 
-Kompendium pro tuto fázi neuvádí normu délky ani počtu sezení. Herman (1992) popisuje zotavení jako sled fází, které se opakovaně vracejí a prolínají; tempo se odvozuje od obnovené kapacity člověka, nikoli z rozvrhu. Údaje o délce a frekvenci patří do manuálu použité modality a do supervizního záznamu konkrétního případu.
+{% include "partials/kompendium-pro-tuto-fazi-neuvadi.md" %}
 
 ## Hodnotící kritéria
 
@@ -73,7 +73,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 Po odchodu ze sektářské skupiny: re-authoring po cult. [EA-6.4.4](@/kompendium/techniques/ea-6-4-4-LGBTQI-EA-protokol.md) LGBTQI: integrace queer narativu. [EA-6.4.3](@/kompendium/techniques/ea-6-4-3-uprchlik-protokol.md) uprchlíci: bi-kulturní narrativ.
 
-Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fenomenologii a strukturálních charakteristikách jednotlivých EA-domén a jsou klíčové pro klinickou účinnost intervence v cílové populaci.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-odrazeji.md" %}
 
 ## Iatrogenní rizika
 
@@ -85,7 +85,7 @@ Re-traumatizace, falešné memoárové konstrukce, imposice terapeutových inter
 
 EA-6.3.6 je v kompendiu vedena jako práce na celku příběhu, jehož autorem zůstává dotčený člověk.
 
-**Klinické zacílení**: fázový rekonstrukční rámec pro post-EA-trauma populaci s důrazem na bezpečí, externalizaci, integraci a konsolidaci nového epistemicko-afektivního architektury klienta. Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-fazovy-rekonstrukcni-ramec.md" %}
 
 **Trauma spektrum kontext**: vyprávění o jedné ohraničené události a vyprávění o letech opakované expozice se liší už tím, co v nich chybí: v prvním případě bývá vybavena epizoda s mezerami, v druhém chybí časová osa jako celek. Obě podoby rozlišila Terr (1991), fázovanou povahu práce s druhou z nich popisuje Herman (1992). Která z nich je před klinikem, se zjišťuje před rekonstrukcí, ne v jejím průběhu.
 
@@ -113,7 +113,7 @@ Narativní práce je péčí tehdy, když autorem příběhu zůstává dotčen�
 
 Druhým znakem je revidovatelnost. Životní příběh je průběžně přepracovávaná konstrukce, a verze, kterou nelze změnit, je proto příznakem, ne výsledkem (McAdams, 2001).
 
-Třetím znakem je odvolatelný souhlas, supervizní rámec a dokumentace, do níž smí dotčený člověk nahlédnout; měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
+{% include "partials/tretim-znakem-je-odvolatelny-souhlas.md" %}
 
 Čtvrtým znakem je, že mezery v příběhu zůstávají mezerami. White a Epston (1990) vidí hodnotu práce v tom, že si člověk svůj text píše sám; doplnění chybějících částí klinikem obrací péči v autorství někoho jiného.
 

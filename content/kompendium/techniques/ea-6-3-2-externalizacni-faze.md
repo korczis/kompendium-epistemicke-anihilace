@@ -57,7 +57,7 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 ## Trvání a frekvence
 
-Kompendium pro tuto fázi neuvádí normu délky ani počtu sezení. Herman (1992) popisuje zotavení jako sled fází, které se opakovaně vracejí a prolínají; tempo se odvozuje od obnovené kapacity člověka, nikoli z rozvrhu. Údaje o délce a frekvenci patří do manuálu použité modality a do supervizního záznamu konkrétního případu.
+{% include "partials/kompendium-pro-tuto-fazi-neuvadi.md" %}
 
 ## Hodnotící kritéria
 
@@ -73,7 +73,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 Po odchodu ze sektářské skupiny: primární cíl. [EA-6.4.6](@/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md) DV: externalizace abusera. [EA-6.4.2](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md) post-cult: pojmenování in-cult identity.
 
-Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fenomenologii a strukturálních charakteristikách jednotlivých EA-domén a jsou klíčové pro klinickou účinnost intervence v cílové populaci.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-odrazeji.md" %}
 
 ## Iatrogenní rizika
 
@@ -85,7 +85,7 @@ Re-traumatizace, fragmentace identity při příliš rychlé externalizaci, drop
 
 Kniha vede techniku **EA-6.3.2** jako druhou fázi rekonstrukčního modelu, v níž se zpracovává internalizovaná postava toho, kdo poškodil. Fázové uspořádání s vymezenými kritérii vstupu a výstupu je přitom podstatné: kritéria slouží rozpoznání, kam práce patří, nikoli návodu, jak ji vést.
 
-**Klinické zacílení**: fázový rekonstrukční rámec pro post-EA-trauma populaci s důrazem na bezpečí, externalizaci, integraci a konsolidaci nového epistemicko-afektivního architektury klienta. Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-fazovy-rekonstrukcni-ramec.md" %}
 
 **Trauma spektrum kontext**: Terr (1991) odlišila trauma z jediné události od traumatu z opakované expozice ve vztahu. U externalizace je to rozdíl v tom, co se vlastně odděluje: po dlouhodobé expozici v dětství je hlas druhého vrostlý do sebepojetí a nemá vnějšího původce, k němuž by se dal vrátit. Fázované pořadí práce patří k nejdéle popsaným zásadám (Herman, 1992).
 

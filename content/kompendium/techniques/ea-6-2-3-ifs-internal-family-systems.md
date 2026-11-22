@@ -55,11 +55,11 @@ Vlastní literatura přístupu popisuje jeho skladbu následujícími komponenta
 
 (1) Psychoedukace IFS modelu. (2) Identifikace klíčových partů (manager, exile, firefighter). (3) Unblending — pomoc Self pozorovat party. (4) Witness work s exiled parts. (5) Unburdening traumatických břemen. (6) Self-leadership integration.
 
-Výčet je popisem toho, z čeho se přístup skládá, nikoli pokynem k provedení: o indikaci, sledu a ukončení rozhoduje kvalifikovaný klinik ve supervizi a záznam zůstává součástí zdravotnické dokumentace, do níž má dotčený člověk přístup ([etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md)).
+{% include "partials/vycet-je-popisem-toho-z.md" %}
 
 ## Trvání a frekvence
 
-Délka a frekvence nejsou vlastností techniky, ale rozhodnutím v jednotlivém případě: závisejí na klinickém obrazu, komorbiditách a na tom, co dotčený člověk unese. Pro komplexní traumatizaci popisuje literatura delší a fázovanou trajektorii než pro jednorázovou událost (Herman, 1992). Kniha proto žádný počet sezení ani interval neuvádí — kvantifikace patří do manuálu použitého přístupu a do supervize, nikoli do taxonomie.
+{% include "partials/delka-a-frekvence-nejsou-vlastnosti.md" %}
 
 ## Hodnotící kritéria
 
@@ -67,7 +67,7 @@ Klinické sledování průběhu se v literatuře přístupu opírá o následuj�
 
 IFS Stages of Self-Leadership skala, pre-post C-PTSD redukce, klientův [self-report](@/glossary/self-report.md) integrace.
 
-Opakovaná administrace standardizovaných nástrojů poskytuje podklad pro klinické rozhodování o pokračování, modifikaci nebo ukončení intervence. Prahy klinicky významné změny stanoví manuál použitého nástroje; jediné obecně publikované kritérium, které tato kniha přebírá, je reliable change index nad 1,96 a výsledný skór v rozsahu jedné SD netraumatizované normy (Jacobson a Truax, 1991).
+{% include "partials/opakovana-administrace-standardizovanych-nastroju-poskytuje.md" %}
 
 ## Adaptace pro specifické EA kategorie
 
@@ -75,7 +75,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 EA-3 sektářské: práce s 'cult-managed' parts. [EA-6.4.2](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md) post-cult: integrace fragmentovaných identit. [EA-6.4.6](@/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md) DV: práce s internalizovanou agresivní postavou.
 
-Tyto adaptace nejsou ornamentální. Kniha je zaznamenává proto, že se s nimi mění rizikový profil, nikoli jako doporučení.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-kniha.md" %}
 
 ## Iatrogenní rizika
 
@@ -87,7 +87,7 @@ Re-traumatizace při forsírovaném unblending, paradoxní reifikace 'partů' ja
 
 V kompendiu je tato technika vedena jako intervence zacílená na epistemicko-afektivní složku traumatu, konkrétně na práci s vnitřními částmi, jimž subjekt připisuje vlastní hlas; zda je v daném případě indikována, posoudí klinik, ne tento text.
 
-**Klinické zacílení**: [evidence-based](@/glossary/evidence-based.md) psychoterapeutické intervence pro EA-trauma se sekundární komorbiditou ([úzkostné poruchy](@/glossary/uzkostne-poruchy.md), depresivní poruchy, somatizace, disociativní spektrum). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-evidence-based-psychoterapeuticke.md" %}
 
 **Trauma spektrum kontext**: pro práci s vnitřními částmi rozhoduje rozlišení jednorázové traumatizace a opakované relační expozice (Terr, 1991) o tom, nakolik je ochranná část vázána na jednu událost, a nakolik tvoří soustavu, která nese chod celého života. Ve druhém případě nelze s takovou částí zacházet jako s příznakem, který má zmizet; pokusy o to patří k doloženým způsobům, jimiž psychoterapie škodí (Lilienfeld, 2007). Co z toho pro konkrétního pacienta vyplývá, posuzuje klinik ve supervizi.
 
@@ -113,17 +113,7 @@ Rozhovor o vnitřních partech zasahuje nestejně; u následujících skupin je 
 
 Práce s vnitřními částmi se vede v různých prostředích. Popis variant má umožnit rozpoznání takové práce, ne její užití.
 
-**Video-mediovaná varianta**: rozšířila se v souvislosti s pandemií covidu-19. U aktivní disociativní symptomatologie zůstává fyzická přítomnost druhého člověka klinicky významná, protože sama nese regulační funkci (Porges, 2011). Rozdíl se týká dostupnosti pomoci při destabilizaci a rozsahu dokumentace.
-
-**Skupinový formát**: nese komponentu vzájemné podpory a zároveň jiný rizikový profil než práce v páru — kontraindikací je aktivní psychotická symptomatologie, závažná interpersonální agresivita a nestabilní disociativní obraz.
-
-**Krizově modifikovaná varianta**: redukuje expoziční složku ve prospěch stabilizace. Že stabilizace předchází zpracování vzpomínky a není jeho zkrácenou verzí, patří k nejdéle popsaným zásadám práce s traumatem (Herman, 1992).
-
-**Kulturně senzitivní adaptace**: česká adaptace zohledňuje jazyk a metaforický rámec, zkušenost předchozích generací s totalitním režimem a dostupné cesty hrazené péče.
-
-**Výcvikový a svépomocný formát**: tytéž komponenty se nabízejí i mimo zdravotní péči — na kurzech, v komunitách a ve svépomocných skupinách. Rizikový profil je tam jiný především proto, že chybí indikace, diagnostické rozlišení a dostupná pomoc při destabilizaci; část doložených poškození v psychoterapii vznikla právě v takovém uspořádání (Lilienfeld, 2007).
-
-Žádná z uvedených variant není v knize uvedena jako doporučení. Variace se zaznamenávají proto, že s každou se mění, co pozorovatel uvidí a co se dotčenému člověku stane, když se práce zastaví; rozhodnutí o volbě zůstává u indikujícího klinika a jeho supervize (Herman, 1992).
+{% include "partials/video-mediovana-varianta-rozsirila-se.md" %}
 
 ## Kdy je rámec legitimní
 

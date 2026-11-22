@@ -73,7 +73,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 Different movement contexts — political/labor/identity-based.
 
-Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fenomenologii a strukturálních charakteristikách jednotlivých EA-domén a jsou klíčové pro klinickou účinnost intervence v cílové populaci.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-odrazeji.md" %}
 
 ## Iatrogenní rizika
 
@@ -85,7 +85,7 @@ OPSEC violations, movement-stigma, secondary radicalization.
 
 EA-6.4.10 je v kompendiu vedena jako populačně specifická adaptace pro dlouhodobě angažované, ne jako intervence proti angažovanosti.
 
-**Klinické zacílení**: specializované populace s unikátním rizikovým profilem — pediatrická, geriatrická, post-cult, refugee, LGBTQI+, veteráni, oběti DV, policejní, zdravotnictví, novináři, aktivisté. Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-specializovane-populace-s.md" %}
 
 **Trauma spektrum kontext**: u aktivistů bývá expozice spíš dlouhá a opakovaná než jednorázová — obtěžování, soudní tlak, konflikty uvnitř hnutí — a to ji řadí k té z obou podob traumatizace, kterou Terr (1991) odlišuje jako opakovanou. Postupné vyčerpání z opakované účasti na cizím utrpení popisuje Figley (1995). Jednorázová ohraničená událost se zde vyskytuje také, a protokol s ní nezachází stejně.
 
@@ -115,7 +115,7 @@ Druhou podmínkou je souhlas, který lze odvolat, a důvěrnost, která obstojí
 
 Třetí podmínkou je dokumentace, kterou dotčený smí vidět, a cíl formulovaný jako obnova jeho vlastní kapacity rozhodovat. Tam, kde jádrem zkušenosti je porušení vlastního přesvědčení o tom, co je správné, nestačí pracovat s ohrožením (Litz a kol., 2009).
 
-Měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
+{% include "partials/meritko-stanovi-eticke-aspekty-a.md" %}
 
 ## Odlišení
 

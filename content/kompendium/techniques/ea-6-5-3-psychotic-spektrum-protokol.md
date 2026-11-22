@@ -65,7 +65,7 @@ Klinická efektivita techniky je posuzována podle následujících outcome metr
 
 PANSS, dissociation scales, reality testing markers.
 
-Pre-post administrace standardizovaných nástrojů poskytuje kvantitativní podklad pro klinické rozhodování o pokračování, modifikaci nebo ukončení intervence.
+{% include "partials/pre-post-administrace-standardizovanych-nastroju.md" %}
 
 ## Adaptace pro specifické EA kategorie
 
@@ -73,7 +73,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 Cult-induced experiences — culturally-bound. Trans-kulturně — kulturní validace.
 
-Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fenomenologii a strukturálních charakteristikách jednotlivých EA-domén a jsou klíčové pro klinickou účinnost intervence v cílové populaci.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-odrazeji.md" %}
 
 ## Iatrogenní rizika
 
@@ -85,7 +85,7 @@ Mis-diagnóza disociace jako psychóza, premature antipsychotic, secondary stigm
 
 V kompendiu EA je tento protokol veden jako diferenciálně diagnostická úloha: odlišit psychotické příznaky od disociace a od přesvědčení, která subjekt přijal pod tlakem skupiny.
 
-**Klinické zacílení**: akutní a vysokointenzivní klinické setting (ER, akutní krize, inpatient, partial hospitalization, day program, residential) pro pacienty s aktivní EA-symptomatologií vyžadující stabilizaci. Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-akutni-a-vysokointenzivni.md" %}
 
 **Trauma spektrum kontext**: v diferenciální diagnostice psychotického spektra obrací Terrovo dělení (Terr, 1991) pozornost k anamnéze. Obsah vnucený skupinou a obsah vzniklý po opakované relační expozici v dětství se v jednom okamžiku jeví podobně a liší se tím, odkud přišel; po jedné ohraničené události bývá naopak zařaditelný k události samé. Rozhodnutí patří vyšetřujícímu psychiatrovi.
 

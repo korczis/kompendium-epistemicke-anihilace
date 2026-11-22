@@ -55,11 +55,11 @@ Vlastní literatura přístupu popisuje jeho skladbu následujícími komponenta
 
 (1) Case formulation s identifikací CAS. (2) Detached mindfulness training. (3) Modifikace negativních metakognitivních beliefs. (4) Modifikace pozitivních metakognitivních beliefs. (5) Atentional Training Technique (ATT). (6) Situational Atentional Refocusing (SAR). (7) Relapsová prevence.
 
-Výčet je popisem toho, z čeho se přístup skládá, nikoli pokynem k provedení: o indikaci, sledu a ukončení rozhoduje kvalifikovaný klinik ve supervizi a záznam zůstává součástí zdravotnické dokumentace, do níž má dotčený člověk přístup ([etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md)).
+{% include "partials/vycet-je-popisem-toho-z.md" %}
 
 ## Trvání a frekvence
 
-Délka a frekvence nejsou vlastností techniky, ale rozhodnutím v jednotlivém případě: závisejí na klinickém obrazu, komorbiditách a na tom, co dotčený člověk unese. Pro komplexní traumatizaci popisuje literatura delší a fázovanou trajektorii než pro jednorázovou událost (Herman, 1992). Kniha proto žádný počet sezení ani interval neuvádí — kvantifikace patří do manuálu použitého přístupu a do supervize, nikoli do taxonomie.
+{% include "partials/delka-a-frekvence-nejsou-vlastnosti.md" %}
 
 ## Hodnotící kritéria
 
@@ -67,7 +67,7 @@ Klinické sledování průběhu se v literatuře přístupu opírá o následuj�
 
 MCQ-30 redukce, GAD-7/PCL-5 redukce, klinicky významná funkční změna.
 
-Opakovaná administrace standardizovaných nástrojů poskytuje podklad pro klinické rozhodování o pokračování, modifikaci nebo ukončení intervence. Prahy klinicky významné změny stanoví manuál použitého nástroje; jediné obecně publikované kritérium, které tato kniha přebírá, je reliable change index nad 1,96 a výsledný skór v rozsahu jedné SD netraumatizované normy (Jacobson a Truax, 1991).
+{% include "partials/opakovana-administrace-standardizovanych-nastroju-poskytuje.md" %}
 
 ## Adaptace pro specifické EA kategorie
 
@@ -75,7 +75,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 EA-5 epistemické: primární indikace. EA-1 akademické: redukce akademické rumination. [EA-6.4.5](@/kompendium/techniques/ea-6-4-5-vetersko-protokol.md) veteráni: PTSD-specifická adaptace.
 
-Tyto adaptace nejsou ornamentální. Kniha je zaznamenává proto, že se s nimi mění rizikový profil, nikoli jako doporučení.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-kniha.md" %}
 
 ## Iatrogenní rizika
 
@@ -87,7 +87,7 @@ Iatrogenní hyperreflexivita, paradoxní zvýšení monitoringu vlastního myšl
 
 Klinické zařazení protokolu dává model, na němž stojí: předmětem práce jsou přesvědčení o vlastním myšlení a navyklé způsoby pozornosti (Wells a Matthews, 1994), ne obsah jednotlivých myšlenek. Wells (2009) z toho vyvozuje postup pro úzkostné a depresivní obrazy; kompendium si bere jen to, co se týká epistemicko-afektivní složky poškození, a o účinku v jednotlivém případě nerozhoduje.
 
-**Klinické zacílení**: [evidence-based](@/glossary/evidence-based.md) psychoterapeutické intervence pro EA-trauma se sekundární komorbiditou ([úzkostné poruchy](@/glossary/uzkostne-poruchy.md), depresivní poruchy, somatizace, disociativní spektrum). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-evidence-based-psychoterapeuticke.md" %}
 
 **Trauma spektrum kontext**: Terr (1991) odlišila jednorázovou traumatickou událost od opakované expozice v dětství a dospívání a pro druhý typ je popsána fázovaná, zdlouhavější cesta zotavení (Herman, 1992). Práce s přesvědčeními o myšlení na tom závisí víc než modality pracující s obsahem, protože u opakované expozice bývá nedůvěra k vlastnímu úsudku naučená, a tedy kdysi funkční. Kde se rozdíl přehlédne, bývá následkem zhoršení (Lilienfeld, 2007).
 
@@ -117,17 +117,7 @@ Nástroj uváděný při odlišení počínající demence: MoCA.
 
 Metakognitivní práce probíhá v odlišných formátech a prostředích. Kniha ty odlišnosti zaznamenává pro rozpoznání, nikoli k doporučení.
 
-**Video-mediovaná varianta**: rozšířila se v souvislosti s pandemií covidu-19. U aktivní disociativní symptomatologie zůstává fyzická přítomnost druhého člověka klinicky významná, protože sama nese regulační funkci (Porges, 2011). Rozdíl se týká dostupnosti pomoci při destabilizaci a rozsahu dokumentace.
-
-**Skupinový formát**: nese komponentu vzájemné podpory a zároveň jiný rizikový profil než práce v páru — kontraindikací je aktivní psychotická symptomatologie, závažná interpersonální agresivita a nestabilní disociativní obraz.
-
-**Krizově modifikovaná varianta**: redukuje expoziční složku ve prospěch stabilizace. Že stabilizace předchází zpracování vzpomínky a není jeho zkrácenou verzí, patří k nejdéle popsaným zásadám práce s traumatem (Herman, 1992).
-
-**Kulturně senzitivní adaptace**: česká adaptace zohledňuje jazyk a metaforický rámec, zkušenost předchozích generací s totalitním režimem a dostupné cesty hrazené péče.
-
-**Výcvikový a svépomocný formát**: tytéž komponenty se nabízejí i mimo zdravotní péči — na kurzech, v komunitách a ve svépomocných skupinách. Rizikový profil je tam jiný především proto, že chybí indikace, diagnostické rozlišení a dostupná pomoc při destabilizaci; část doložených poškození v psychoterapii vznikla právě v takovém uspořádání (Lilienfeld, 2007).
-
-Žádná z uvedených variant není v knize uvedena jako doporučení. Variace se zaznamenávají proto, že s každou se mění, co pozorovatel uvidí a co se dotčenému člověku stane, když se práce zastaví; rozhodnutí o volbě zůstává u indikujícího klinika a jeho supervize (Herman, 1992).
+{% include "partials/video-mediovana-varianta-rozsirila-se.md" %}
 
 ## Kdy je rámec legitimní
 

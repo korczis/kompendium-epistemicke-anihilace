@@ -57,7 +57,7 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 ## Trvání a frekvence
 
-Kompendium pro tuto fázi neuvádí normu délky ani počtu sezení. Herman (1992) popisuje zotavení jako sled fází, které se opakovaně vracejí a prolínají; tempo se odvozuje od obnovené kapacity člověka, nikoli z rozvrhu. Údaje o délce a frekvenci patří do manuálu použité modality a do supervizního záznamu konkrétního případu.
+{% include "partials/kompendium-pro-tuto-fazi-neuvadi.md" %}
 
 ## Hodnotící kritéria
 
@@ -73,7 +73,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 Po odchodu ze sektářské skupiny: dekonstrukce in-cult values. [EA-6.4.10](@/kompendium/techniques/ea-6-4-10-aktivisti-protokol.md) aktivisti: re-evaluation activist values. [EA-6.4.4](@/kompendium/techniques/ea-6-4-4-LGBTQI-EA-protokol.md) LGBTQI: integrace queer values.
 
-Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fenomenologii a strukturálních charakteristikách jednotlivých EA-domén a jsou klíčové pro klinickou účinnost intervence v cílové populaci.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-odrazeji.md" %}
 
 ## Iatrogenní rizika
 
@@ -85,7 +85,7 @@ Imposice terapeutových hodnot, hodnotový relativismus jako obrana, paradoxní 
 
 Klinické zařazení techniky dává předmět, k němuž míří: hodnoty, podle nichž se člověk rozhoduje, a jejich poškození. Litz a kol. (2009) popisují morální poranění jako důsledek jednání v rozporu s vlastním hodnotovým rámcem; Antonovsky (1987) k tomu připojuje srozumitelnost světa jako složku, bez níž zátěž nelze unést. Kompendium odtud bere, co je rozpoznatelné, ne co se má udělat.
 
-**Klinické zacílení**: fázový rekonstrukční rámec pro post-EA-trauma populaci s důrazem na bezpečí, externalizaci, integraci a konsolidaci nového epistemicko-afektivního architektury klienta. Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-fazovy-rekonstrukcni-ramec.md" %}
 
 **Trauma spektrum kontext**: hodnotový rámec se jednou událostí nepřepíše; k jeho výměně je potřeba opakovaná expozice v prostředí, které hodnotí za člověka. Terr (1991) oba případy rozlišila a tato technika se vztahuje k druhému z nich. Litz a kol. (2009) popisují u morálního poranění nápravu, která nesleduje tempo zpracování jediné vzpomínky.
 
@@ -113,7 +113,7 @@ Práce s hodnotami je péčí tehdy, když obsah hodnot zůstává věcí dotče
 
 Druhým znakem je, že se rozlišuje mezi hodnotovou ztrátou a morálním zraněním. Litz a kol. (2009) popisují morální zranění jako důsledek jednání v rozporu s vlastním přesvědčením; jeho zpracování není totéž jako obnova hodnotového systému a nepřipouští odpuštění na pokyn.
 
-Třetím znakem je odvolatelný souhlas, supervizní rámec a dokumentace, do níž smí dotčený člověk nahlédnout; měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
+{% include "partials/tretim-znakem-je-odvolatelny-souhlas.md" %}
 
 Čtvrtým znakem je rozlišení mezi hodnotou a jejím obsahem: předmětem práce je schopnost rozhodovat podle vlastního přesvědčení, nikoli to, jaké přesvědčení člověk má. Herman (1992) tuto dispozici nad vlastním životem popisuje jako samotný obsah zotavení.
 

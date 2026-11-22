@@ -57,7 +57,7 @@ Standardní implementace techniky probíhá v následujících strukturovaných 
 
 ## Trvání a frekvence
 
-Kompendium pro tuto fázi neuvádí normu délky ani počtu sezení. Herman (1992) popisuje zotavení jako sled fází, které se opakovaně vracejí a prolínají; tempo se odvozuje od obnovené kapacity člověka, nikoli z rozvrhu. Údaje o délce a frekvenci patří do manuálu použité modality a do supervizního záznamu konkrétního případu.
+{% include "partials/kompendium-pro-tuto-fazi-neuvadi.md" %}
 
 ## Hodnotící kritéria
 
@@ -73,7 +73,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 [EA-6.4.6](@/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md) DV: opatrná postupná restaurace. [EA-6.4.2](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md) post-cult: rebuilding family. [EA-6.4.4](@/kompendium/techniques/ea-6-4-4-LGBTQI-EA-protokol.md) LGBTQI: re-introduction supportive komunity.
 
-Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fenomenologii a strukturálních charakteristikách jednotlivých EA-domén a jsou klíčové pro klinickou účinnost intervence v cílové populaci.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-odrazeji.md" %}
 
 ## Iatrogenní rizika
 
@@ -85,7 +85,7 @@ Re-traumatizace v nových vztazích, dependence na terapeutovi jako single relat
 
 V kompendiu EA je tato technika vedena jako obnova schopnosti vstupovat do vztahu bez závislosti a bez izolace; předmětem není konkrétní vztah, nýbrž to, podle čeho subjekt rozpoznává bezpečí.
 
-**Klinické zacílení**: fázový rekonstrukční rámec pro post-EA-trauma populaci s důrazem na bezpečí, externalizaci, integraci a konsolidaci nového epistemicko-afektivního architektury klienta. Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-fazovy-rekonstrukcni-ramec.md" %}
 
 **Trauma spektrum kontext**: Terr (1991) odlišila jednorázovou traumatizaci od opakované relační expozice a pro restauraci vztahů z toho plyne rozdíl v tom, co se obnovuje. Po ohraničené události zůstává dřívější zkušenost bezpečného připoutání dostupná jako vzor; po opakované expozici v blízkém vztahu takový vzor chybí a jeho nedostupnost nelze zaměnit za nechuť subjektu. Posouzení patří klinikovi, který práci vede.
 
@@ -113,7 +113,7 @@ Relační práce je péčí tehdy, když obnovuje schopnost člověka vztahy vol
 
 Druhým znakem je, že obnovovaná důvěra zůstává zkoumatelná. Fonagy a Allison (2014) popisují důvěru, která umožňuje přijímat sdělení druhých a současně je ověřovat; nerozlišující otevřenost není jejím cílem, ale rizikem.
 
-Třetím znakem je odvolatelný souhlas, supervizní rámec a dokumentace, do níž smí dotčený člověk nahlédnout; měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
+{% include "partials/tretim-znakem-je-odvolatelny-souhlas.md" %}
 
 Čtvrtým znakem je, že se hranice dotčeného člověka respektuje i tam, kde je pro okolí nepohodlná. Herman (1992) popisuje obnovení vztahů jako závěrečnou, nikoli vstupní část zotavení, a tedy jako něco, co nelze uložit.
 

@@ -73,7 +73,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 Děti DV — paralelní intervence. Trans-kulturní DV — kulturní senzitivita.
 
-Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fenomenologii a strukturálních charakteristikách jednotlivých EA-domén a jsou klíčové pro klinickou účinnost intervence v cílové populaci.
+{% include "partials/tyto-adaptace-nejsou-ornamentalni-odrazeji.md" %}
 
 ## Iatrogenní rizika
 
@@ -85,7 +85,7 @@ Premature confrontation s abuserem, secondary victimization institucemi, depende
 
 EA-6.4.6 je v kompendiu vedena jako populačně specifická adaptace pro klienty po domácím násilí včetně koercivní kontroly.
 
-**Klinické zacílení**: specializované populace s unikátním rizikovým profilem — pediatrická, geriatrická, post-cult, refugee, LGBTQI+, veteráni, oběti DV, policejní, zdravotnictví, novináři, aktivisté. Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+{% include "partials/klinicke-zacileni-specializovane-populace-s.md" %}
 
 **Trauma spektrum kontext**: domácí násilí je svou povahou tím typem opakované expozice ve vztahu, na němž je člověk závislý, který Terr (1991) odlišila od jednorázové ohraničené události. Stark (2007) popisuje koercivní kontrolu jako průběžný režim, ne jako sled incidentů. Jednotlivý útok proto není měřítkem toho, co se člověku stalo; jeho nepřítomnost v daném období vzorec nevyvrací.
 
@@ -117,7 +117,7 @@ Třetí podmínkou je dokumentace, kterou dotčený smí vidět, spolu s vědom�
 
 Supervize je u tohoto rámce součástí bezpečnosti, ne jen kvality. Rozpoznání soustavné kontroly závisí na tom, co pozorovatel považuje za běžný vztah, a toto měřítko se mezi institucemi i mezi odborníky liší (Stark, 2007).
 
-Měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
+{% include "partials/meritko-stanovi-eticke-aspekty-a.md" %}
 
 ## Odlišení
 

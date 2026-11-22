@@ -1,0 +1,10 @@
+{#- The framing shared by families EA-3.1, EA-3.2: a passage that every page including it
+    carries word for word. ADR 0016 keeps it on each page but in one place;
+    scripts/extract-shared-passages.py moved it here unchanged, from where it stood on each
+    page, so the text is edited here, once. The empty comment after the text removes the file's
+    final newline, so a page receives exactly the text it had. -#}
+1. **Pre-implementation assessment** — verifikace předpokladů u individuálních účastníků a kohorty jako celku.
+2. **Resource provisioning** — institucionální alokace času, prostoru, personálu, technologií.
+3. **Documentation infrastructure** — systém zaznamenávání průběhu, výsledků, incidentů.
+4. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
+{#- -#}

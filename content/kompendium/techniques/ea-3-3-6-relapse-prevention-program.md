@@ -45,9 +45,9 @@ Zdánlivá podoba je tokenismus. Program nabízí následnou péči bez lidí a 
 
 Retrospektivně se znaky objevují v pořadí: nejprve se zkrátí dostupnost podpory, pak se z ní stane výkaz a nakonec se ti, kdo ji potřebují, přestanou hlásit. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Právě tichost je přitom nejhorší zpráva, protože škoda se bez sběru dat nezjeví (Lilienfeld, 2007).
 
-*Interpretace knihy*: rozhodující není, zda technika proběhla, ale zda po ní zůstává doložitelná cesta k nesouhlasu.
+{% include "partials/interpretace-knihy-rozhodujici-neni-zda.md" %}
 
-Měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
+{% include "partials/meritko-stanovi-eticke-aspekty-a.md" %}
 
 ## Čtenář a předpoklady
 
@@ -56,11 +56,11 @@ Měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.m
 | **Pro koho je stránka psána** | Alumni a certifikovaní praktici; institucionální leadership zodpovědný za long-term workforce kvalitu |
 | **Předpokládaný rámec** | Established certifikační framework; alumni database; funding pro post-program support |
 
-Předpoklady nejsou formalita. Bez mandátu, rozpočtu a transparentního jmenování zůstává orgán závislý na tom, koho má kontrolovat, a jeho rozhodnutí nelze číst jako nezávislá; nezávislost a veřejná odpovědnost patří mezi podmínky, bez nichž nelze mluvit o etickém dohledu (Emanuel, Wendler a Grady, 2000).
+{% include "partials/predpoklady-nejsou-formalita-bez-mandatu.md" %}
 
 ## Detekční markery (pohled pozorovatele)
 
-Následující znaky jsou to, co člen rady, auditor nebo vyšetřující pozoruje zvenčí; žádný z nich není sám o sobě průkazný a každý se posuzuje proti vlastní historii instituce. Že se formální dohled může zcela míjet s tím, co se skutečně děje, doložil už Beecher (1966) na řadě publikovaných studií.
+{% include "partials/nasledujici-znaky-jsou-to-co-clen.md" %}
 
 | Co je vidět | Co to naznačuje |
 |---|---|
@@ -72,17 +72,17 @@ Následující znaky jsou to, co člen rady, auditor nebo vyšetřující pozoru
 | Následná podpora existuje v dokumentu, ale nemá personál ani rozpočet | tokenistickou péči |
 | Využití podpory se promítá do hodnocení absolventa | dohled vydávaný za podporu |
 
-Rozlišení od neškodných jevů je nutné: hladký přezkum může odpovídat dobře napsanému návrhu a stabilní financování nemusí nic kompromitovat. Rozhodující je, zda je zájmový vztah vykázán a zda existuje cesta, jak ho zpochybnit (Thompson, 1993).
+{% include "partials/rozliseni-od-neskodnych-jevu-je.md" %}
 
 ## Odlišení od neškodných jevů
 
-Od neškodných jevů se vzorec odlišuje tím, co zůstává doložitelné. Rychlý přezkum, stabilní financování i jednotné standardy mohou být v pořádku; poznávacím znakem je, že zdůvodnění rozhodnutí přestalo být zapsáno a že zájmový vztah není vykázán (Thompson, 1993).
+{% include "partials/od-neskodnych-jevu-se-vzorec-odlisuje.md" %}
 
-Druhým rozlišovacím hlediskem je, kdo nese následek. Dobře vedená instituce umí říci, co se stane účastníkovi, který odstoupí, a tento popis odpovídá praxi; tam, kde se následek přesouvá na nejzranitelnější stranu, jde o vzorec, nikoli o provozní detail (Emanuel, Wendler a Grady, 2000).
+{% include "partials/druhym-rozlisovacim-hlediskem-je-kdo.md" %}
 
 ## Hodnotící kritéria
 
-Hodnotící kritéria nejsou cílem práce, ale jejím ukazatelem. Jakmile se měřítko stane cílem, přestává měřit to, kvůli čemu vzniklo — tento efekt popsal Campbell (1979) jako pravidlo, že čím více se kvantitativní ukazatel používá k rozhodování, tím více podléhá zkreslení.
+{% include "partials/hodnotici-kriteria-nejsou-cilem-prace.md" %}
 
 | Kritérium | Měřítko |
 |-----------|---------|

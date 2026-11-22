@@ -212,6 +212,8 @@ Tabulka níže je z něj vygenerovaná (`--doc --fix`), ručně se neupravuje a
 | extra | `ea_code` | page, technique, quick-reference | autorský | str |  |
 | extra | `ea_codes` | page | autorský | list |  |
 | extra | `ea_family` | page | autorský | str | `\d+\.\d+` |
+| extra | `ea_reversibility_text` | technique | autorský | str |  |
+| extra | `ea_risk_text` | technique | autorský | str |  |
 | extra | `ea_subcategory` | technique | autorský | str |  |
 | extra | `elimination_status` | glossary | autorský | str |  |
 | extra | `elixir_libraries` | glossary | autorský | list |  |

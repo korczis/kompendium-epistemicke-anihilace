@@ -173,3 +173,5 @@ vs. Mystická zkušenost (Stace 1960; Hood Mysticism Scale): Mystické zážitky
   - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
   - [Embodied cognition](@/glossary/embodied-cognition.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
+
+{% include "partials/_probe-ea.md" %}

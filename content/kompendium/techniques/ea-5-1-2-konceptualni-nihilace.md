@@ -13,6 +13,8 @@ related_terms = ["ea-5-1-18-solipsisticka-dekompozice", "ea-5-1-19-kvazi-mystick
 ea_code = "EA-5.1.2"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.1 Epistemická singularita"
+ea_risk_text = "Extrémní — narušení kategoriálního rámce zkušenosti, dezorientace srovnatelná s [ontologickou anihilací](@/glossary/ontologicka-anihilace.md)"
+ea_reversibility_text = "Velmi nízká — rekonstrukce konceptuálního rámce vyžaduje kombinaci kognitivní a fenomenologické rehabilitace"
 section_icon = "🌀"
 toc = true
 access_level = "L3"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-5.1.2` |
-| **Kategorie** | 5. Ultramární techniky |
-| **Subkategorie** | 5.1 [Epistemická singularita](@/glossary/epistemicka-singularita.md) |
-| **Riziková úroveň** | Extrémní — narušení kategoriálního rámce zkušenosti, dezorientace srovnatelná s [ontologickou anihilací](@/glossary/ontologicka-anihilace.md) |
-| **Reverzibilita** | Velmi nízká — rekonstrukce konceptuálního rámce vyžaduje kombinaci kognitivní a fenomenologické rehabilitace |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) |
 
 ## Definice

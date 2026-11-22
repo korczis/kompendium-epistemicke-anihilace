@@ -13,6 +13,8 @@ related_terms = ["ea-5-1-11-modalni-dezorientace", "ea-5-1-12-kauzalni-inverze",
 ea_code = "EA-5.1.13"
 ea_category = "5. Pokročilé operace"
 ea_subcategory = "5.1 Epistemická singularita"
+ea_risk_text = "Kritická — paralyzující efekt, obtížně reverzibilní bez externí intervence"
+ea_reversibility_text = "Nízká až střední — vyžaduje strukturovaný re-engagement s primární kognicí"
 section_icon = "🌀"
 toc = true
 access_level = "L4"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/05-pokrocile-operace/kapitola-6/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-5.1.13` |
-| **Kategorie** | 5. Pokročilé operace |
-| **Subkategorie** | 5.1 [Epistemická singularita](@/glossary/epistemicka-singularita.md) |
-| **Riziková úroveň** | Kritická — paralyzující efekt, obtížně reverzibilní bez externí intervence |
-| **Reverzibilita** | Nízká až střední — vyžaduje strukturovaný re-engagement s primární kognicí |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-pokrocile-operace/kapitola-6/_index.md) |
 
 ## Definice

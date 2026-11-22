@@ -13,6 +13,8 @@ related_terms = ["ea-5-1-27-meta-epistemicka-redukce", "ea-5-1-28-konvergentni-s
 ea_code = "EA-5.1.29"
 ea_category = "5. Ultramari techniky"
 ea_subcategory = "5.1 Epistemická singularita"
+ea_risk_text = "Kritická — odstraňuje stabilní referenci reality, vede k dezintegraci základního orientačního aparátu"
+ea_reversibility_text = "Velmi nízká — vyžaduje rekonstrukční ontogenezi v terapeutickém kontextu"
 section_icon = "🪞"
 toc = true
 access_level = "L5"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-5.1.29` |
-| **Kategorie** | 5. Ultramari techniky |
-| **Subkategorie** | 5.1 [Epistemická singularita](@/glossary/epistemicka-singularita.md) |
-| **Riziková úroveň** | Kritická — odstraňuje stabilní referenci reality, vede k dezintegraci základního orientačního aparátu |
-| **Reverzibilita** | Velmi nízká — vyžaduje rekonstrukční ontogenezi v terapeutickém kontextu |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 5 — Ultramari techniky](@/kompendium/05-ultramari-techniky/_index.md) |
 
 ## Definice

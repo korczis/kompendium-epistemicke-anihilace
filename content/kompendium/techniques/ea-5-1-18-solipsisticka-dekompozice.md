@@ -13,6 +13,8 @@ related_terms = ["ea-5-1-16-inferencni-paralyza", "ea-5-1-17-tautologicka-imploz
 ea_code = "EA-5.1.18"
 ea_category = "5. Ultramarinní techniky"
 ea_subcategory = "5.1 Epistemická singularita"
+ea_risk_text = "Ultramarinní — vede k úplné izolaci subjektu od reality"
+ea_reversibility_text = "Mimořádně nízká — solipsisticky uzavřený subjekt odmítá externí referenty jako \"iluzorní\""
 section_icon = "🌀"
 toc = true
 access_level = "L4"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-6/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-5.1.18` |
-| **Kategorie** | 5. Ultramarinní techniky |
-| **Subkategorie** | 5.1 [Epistemická singularita](@/glossary/epistemicka-singularita.md) |
-| **Riziková úroveň** | Ultramarinní — vede k úplné izolaci subjektu od reality |
-| **Reverzibilita** | Mimořádně nízká — solipsisticky uzavřený subjekt odmítá externí referenty jako "iluzorní" |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md) |
 
 ## Definice

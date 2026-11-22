@@ -13,6 +13,8 @@ related_terms = ["ea-5-1-29-ontologicka-exfoliace", "ea-5-1-3-reflexivni-paradox
 ea_code = "EA-5.1.30"
 ea_category = "5. Ultramari techniky"
 ea_subcategory = "5.1 Epistemická singularita"
+ea_risk_text = "Kritická — destrukce taxonomických vztahů, rozmazání hraničních linií mezi koncepty, neschopnost klasifikovat"
+ea_reversibility_text = "Velmi nízká — vyžaduje rekonstrukční taxonomickou pedagogiku"
 section_icon = "🌪️"
 toc = true
 access_level = "L5"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-5.1.30` |
-| **Kategorie** | 5. Ultramari techniky |
-| **Subkategorie** | 5.1 [Epistemická singularita](@/glossary/epistemicka-singularita.md) |
-| **Riziková úroveň** | Kritická — destrukce taxonomických vztahů, rozmazání hraničních linií mezi koncepty, neschopnost klasifikovat |
-| **Reverzibilita** | Velmi nízká — vyžaduje rekonstrukční taxonomickou pedagogiku |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 5 — Ultramari techniky](@/kompendium/05-ultramari-techniky/_index.md) |
 
 ## Definice

@@ -13,6 +13,8 @@ related_terms = ["ea-4-4-8-coherence-restoration", "ea-4-4-9-narrative-reconstru
 ea_code = "EA-5.1.1"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.1 Epistemická singularita"
+ea_risk_text = "Extrémní — strukturální poškození epistemické identity, dlouhodobé následky srovnatelné s [epistemickým traumatem](@/glossary/epistemicke-trauma.md)"
+ea_reversibility_text = "Velmi nízká — návrat vyžaduje rekonstrukci epistemické autorství v terapeutickém rámci"
 section_icon = "🌀"
 toc = true
 access_level = "L3"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-5.1.1` |
-| **Kategorie** | 5. Ultramární techniky |
-| **Subkategorie** | 5.1 [Epistemická singularita](@/glossary/epistemicka-singularita.md) |
-| **Riziková úroveň** | Extrémní — strukturální poškození epistemické identity, dlouhodobé následky srovnatelné s [epistemickým traumatem](@/glossary/epistemicke-trauma.md) |
-| **Reverzibilita** | Velmi nízká — návrat vyžaduje rekonstrukci epistemické autorství v terapeutickém rámci |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) |
 
 ## Definice

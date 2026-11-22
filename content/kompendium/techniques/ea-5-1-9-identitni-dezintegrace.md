@@ -13,6 +13,8 @@ related_terms = ["ea-5-1-7-referencni-rekurze", "ea-5-1-8-konceptualni-fragmenta
 ea_code = "EA-5.1.9"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.1 Epistemická singularita"
+ea_risk_text = "Extrémní — riziko trvalého [epistemického traumatu](@/glossary/epistemicke-trauma.md), depersonalizační/derealizační symptomatiky, suicidálních ideací"
+ea_reversibility_text = "Nízká bez profesionální intervence; střední s integrovaným klinickým programem"
 section_icon = "🌀"
 toc = true
 access_level = "L3"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-5.1.9` |
-| **Kategorie** | 5. Ultramární techniky |
-| **Subkategorie** | 5.1 [Epistemická singularita](@/glossary/epistemicka-singularita.md) |
-| **Riziková úroveň** | Extrémní — riziko trvalého [epistemického traumatu](@/glossary/epistemicke-trauma.md), depersonalizační/derealizační symptomatiky, suicidálních ideací |
-| **Reverzibilita** | Nízká bez profesionální intervence; střední s integrovaným klinickým programem |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) |
 
 ## Definice

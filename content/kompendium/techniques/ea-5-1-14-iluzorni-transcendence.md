@@ -13,6 +13,8 @@ related_terms = ["ea-5-1-12-kauzalni-inverze", "ea-5-1-13-hyperreflexivita", "ea
 ea_code = "EA-5.1.14"
 ea_category = "5. Pokročilé operace"
 ea_subcategory = "5.1 Epistemická singularita"
+ea_risk_text = "Kritická — extrémně rezistentní vůči externí korekci kvůli vnitřní jistotě subjektu"
+ea_reversibility_text = "Velmi nízká — subjekt aktivně odmítá redukci své transcendentní zkušenosti"
 section_icon = "✨"
 toc = true
 access_level = "L4"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/05-pokrocile-operace/kapitola-6/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-5.1.14` |
-| **Kategorie** | 5. Pokročilé operace |
-| **Subkategorie** | 5.1 [Epistemická singularita](@/glossary/epistemicka-singularita.md) |
-| **Riziková úroveň** | Kritická — extrémně rezistentní vůči externí korekci kvůli vnitřní jistotě subjektu |
-| **Reverzibilita** | Velmi nízká — subjekt aktivně odmítá redukci své transcendentní zkušenosti |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-pokrocile-operace/kapitola-6/_index.md) |
 
 ## Definice

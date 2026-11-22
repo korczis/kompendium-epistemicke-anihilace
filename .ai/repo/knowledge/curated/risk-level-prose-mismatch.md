@@ -50,12 +50,14 @@ where one exists, the plain key otherwise. Six category-1 pages (`ea-1-3-1` … 
 `1.3 Narušení procesů revize a falsifikace`) link `[falsifikace](@/glossary/falsifikace.md)`; the
 override carries that cell verbatim, so they move byte-exact with the link preserved.
 
-A subcategory may be added to the override file only when **every** page carrying that
-`ea_subcategory` had that exact cell — adding one relabels them all. That is why
-`5.1 Epistemická singularita` is **not** overridden: its pages disagree — 21 link
-`[Epistemická singularita](@/glossary/epistemicka-singularita.md)`, 9 do not. That is a content
-drift (by the interlinking rule the 9 should gain the link), an edit to those 9 page sources, not a
-template override; the 21 linked pages stay refused by the move until it is resolved.
+An override renders the same label for every page of that `ea_subcategory`, so it is added either
+to **preserve a link** every page already carried (byte-exact, e.g. EA-1.3) or as a **sanctioned
+relabel** when the pages disagreed and the owner's interlinking rule settles it. `5.1 Epistemická
+singularita` is the second case: 21 pages linked `[Epistemická
+singularita](@/glossary/epistemicka-singularita.md)`, 9 did not; the override now gives all 30 the
+link (the 9 gain it — mechanical, a link and no new wording, like the Kategorie relabel of ADR 0017,
+and `ea_subcategory` stays a plain key). A book-wide render then matches main (522f632e) with only
+60 Kategorie and 9 Subkategorie relabels and 0 other diffs.
 
 ## Rodičovská kapitola link is not 1:1 from parent_chapter
 
@@ -65,6 +67,6 @@ page (it is kept, not moved into the partial).
 
 ## How to apply
 
-For the rows still open above (risk_level prose, the parent_chapter link, and the `5.1` subcategory
-content drift), record the owner's answer here and in the plan before templating or editing; do not
-pick a mapping in tooling. The precedents are ADR 0017 (Kategorie) and the subcategory override.
+For the rows still open above (risk_level prose and the parent_chapter link), record the owner's
+answer here and in the plan before templating; do not pick a mapping in tooling. The precedents are
+ADR 0017 (Kategorie) and the subcategory override (EA-1.3 link preservation, 5.1 sanctioned relabel).

@@ -13,6 +13,8 @@ related_terms = ["ea-5-1-15-apofaticke-zacykleni", "ea-5-1-16-inferencni-paralyz
 ea_code = "EA-5.1.17"
 ea_category = "5. Ultramarinní techniky"
 ea_subcategory = "5.1 Epistemická singularita"
+ea_risk_text = "Ultramarinní — produkuje subjekta, který \"ví hodně\", ale nezná nic"
+ea_reversibility_text = "Nízká — subjekt **prožívá** [tautologie](@/glossary/tautologie.md) jako hluboké vhledy, takže odmítá intervenci"
 section_icon = "🌀"
 toc = true
 access_level = "L4"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-6/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-5.1.17` |
-| **Kategorie** | 5. Ultramarinní techniky |
-| **Subkategorie** | 5.1 [Epistemická singularita](@/glossary/epistemicka-singularita.md) |
-| **Riziková úroveň** | Ultramarinní — produkuje subjekta, který "ví hodně", ale nezná nic |
-| **Reverzibilita** | Nízká — subjekt **prožívá** [tautologie](@/glossary/tautologie.md) jako hluboké vhledy, takže odmítá intervenci |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md) |
 
 ## Definice

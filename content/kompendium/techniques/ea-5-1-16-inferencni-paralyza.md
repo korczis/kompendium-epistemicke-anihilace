@@ -13,6 +13,8 @@ related_terms = ["ea-5-1-14-iluzorni-transcendence", "ea-5-1-15-apofaticke-zacyk
 ea_code = "EA-5.1.16"
 ea_category = "5. Ultramarinní techniky"
 ea_subcategory = "5.1 Epistemická singularita"
+ea_risk_text = "Ultramarinní — vede k úplnému kolapsu inferenční schopnosti"
+ea_reversibility_text = "Velmi nízká — paralýza se sebevynucuje, protože každý pokus o únik vyžaduje inferenci, která je sama zpochybňována"
 section_icon = "🌀"
 toc = true
 access_level = "L4"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-6/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-5.1.16` |
-| **Kategorie** | 5. Ultramarinní techniky |
-| **Subkategorie** | 5.1 [Epistemická singularita](@/glossary/epistemicka-singularita.md) |
-| **Riziková úroveň** | Ultramarinní — vede k úplnému kolapsu inferenční schopnosti |
-| **Reverzibilita** | Velmi nízká — paralýza se sebevynucuje, protože každý pokus o únik vyžaduje inferenci, která je sama zpochybňována |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md) |
 
 ## Definice

@@ -13,6 +13,8 @@ related_terms = ["ea-5-1-3-reflexivni-paradoxie", "ea-5-1-30-konceptualni-entrop
 ea_code = "EA-5.1.4"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.1 Epistemická singularita"
+ea_risk_text = "Extrémní — destrukce lingvistického substrátu myšlení, prakticky nereverzibilní bez intenzivní rehabilitace"
+ea_reversibility_text = "Velmi nízká — vyžaduje rekonstrukci sémantického pole zvenku, zpravidla v dlouhodobém terapeutickém rámci"
 section_icon = "🌀"
 toc = true
 access_level = "L3"
@@ -24,11 +26,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 | Pole | Hodnota |
 |------|---------|
-| **EA kód** | `EA-5.1.4` |
-| **Kategorie** | 5. Ultramární techniky |
-| **Subkategorie** | 5.1 [Epistemická singularita](@/glossary/epistemicka-singularita.md) |
-| **Riziková úroveň** | Extrémní — destrukce lingvistického substrátu myšlení, prakticky nereverzibilní bez intenzivní rehabilitace |
-| **Reverzibilita** | Velmi nízká — vyžaduje rekonstrukci sémantického pole zvenku, zpravidla v dlouhodobém terapeutickém rámci |
+{% include "partials/technique-meta.md" %}
 | **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) |
 
 ## Definice

@@ -56,6 +56,12 @@ else
 fi
 step "migrate-content --check"      python3 scripts/migrate-content.py --check
 step "normalize-front-matter --check" python3 scripts/normalize-front-matter.py --check
+# The generated schema table in .ai/repo/rules/project/information-architecture.v1.md is derived
+# from data/front-matter.toml; a new [extra] key that is not regenerated leaves it stale and fails
+# test case 01 in CI. Gate it here too so a stale table refuses the push instead of landing red
+# (2026-11-22: ea_risk_text/ea_reversibility_text added without --doc --fix; currency was green
+# because it did not run this, while CI's case 01 was red).
+step "normalize-front-matter --doc --check" python3 scripts/normalize-front-matter.py --doc --check
 step "polish-markdown --check"      python3 scripts/polish-markdown.py --check
 step "link-terms --check"           python3 scripts/link-terms.py --bold --check
 step "check-ia"                     python3 scripts/check-ia.py
